@@ -13,16 +13,20 @@ const listMap: [any, string][] = [
 const buildList = (list: any, listName: string) => {
   const tokenListPath = `${path.resolve()}/config/${listName}.json`
   const stringifiedList = JSON.stringify(list, null, 2)
-  fs.writeFileSync(tokenListPath, stringifiedList)
-  console.info(`✅  ${listName} complete`)
+  fs.writeFile(tokenListPath, stringifiedList, function (err) {
+    if (err) console.error(err)
+    console.info(`✅  ${listName} complete`)
+  })
 }
 
 const buildTokens = () => {
   const filterActiveTokens = Object.values(tokens).filter((token) => token.active)
   const tokenListPath = `${path.resolve()}/config/tokens.json`
   const stringifiedList = JSON.stringify(filterActiveTokens, null, 2)
-  fs.writeFileSync(tokenListPath, stringifiedList)
-  console.info(`✅  tokens complete`)
+  fs.writeFile(tokenListPath, stringifiedList, function (err) {
+    if (err) console.error(err)
+    console.info(`✅  tokens complete`)
+  })
 }
 
 listMap.map((curList) => {
