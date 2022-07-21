@@ -1,22 +1,15 @@
-name: Build
-
-on:
-  push:
-    branches:
-      - staging
-      - main
-
+name: Tests
+on: push
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v3
-      - name: Install dependencies
-        run: yarn install
+      - name: Install modules
+        run: yarn
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-      - name: Run start
-        run: yarn start
+      - name: Run Jest tests
+        run: yarn test
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

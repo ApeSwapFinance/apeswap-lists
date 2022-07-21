@@ -20,7 +20,7 @@ const buildList = (list: any, listName: string) => {
 }
 
 const buildTokens = () => {
-  const filterActiveTokens = Object.values(tokens).filter((token) => token.active)
+  const filterActiveTokens = Object.fromEntries(Object.entries(tokens).filter(([, val]) => val.active))
   const tokenListPath = `${path.resolve()}/config/tokens.json`
   const stringifiedList = JSON.stringify(filterActiveTokens, null, 2)
   fs.writeFile(tokenListPath, stringifiedList, function (err) {
