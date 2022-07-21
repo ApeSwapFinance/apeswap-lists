@@ -18,6 +18,8 @@ const bills: BillsConfig[] = [
     quoteToken: tokens.wbnb,
     lpToken: tokens.radarBnb,
     earnToken: tokens.radar,
+    projectLink: 'https://dappradar.com/',
+    twitter: 'https://twitter.com/DappRadar/',
   },
   {
     index: 5,
@@ -32,6 +34,8 @@ const bills: BillsConfig[] = [
     quoteToken: tokens.wbnb,
     lpToken: tokens.ceekBnb,
     earnToken: tokens.ceek,
+    projectLink: 'https://ceek.com/',
+    twitter: 'https://twitter.com/CEEK/',
   },
   {
     index: 6,
@@ -46,6 +50,8 @@ const bills: BillsConfig[] = [
     quoteToken: tokens.wbnb,
     lpToken: tokens.nftyBnb,
     earnToken: tokens.nfty,
+    projectLink: 'https://nftynetwork.io/',
+    twitter: 'https://twitter.com/NFTYLab',
   },
   {
     index: 7,
@@ -61,6 +67,8 @@ const bills: BillsConfig[] = [
     lpToken: tokens.tlosBusd,
     earnToken: tokens.tlos,
     inactive: true,
+    projectLink: 'https://www.telos.net/',
+    twitter: 'https://twitter.com/HelloTelos',
   },
   {
     index: 8,
@@ -75,6 +83,8 @@ const bills: BillsConfig[] = [
     quoteToken: tokens.wbnb,
     lpToken: tokens.starsBnb,
     earnToken: tokens.stars,
+    projectLink: 'https://www.mogulproductions.com/',
+    twitter: 'https://twitter.com/mogulofficial_',
   },
   {
     index: 9,
@@ -89,6 +99,8 @@ const bills: BillsConfig[] = [
     quoteToken: tokens.busd,
     lpToken: tokens.hotcrossBusd,
     earnToken: tokens.hotcross,
+    projectLink: 'https://hotcross.com/',
+    twitter: 'https://twitter.com/hotcrosscom',
   },
   {
     index: 10,
@@ -103,6 +115,8 @@ const bills: BillsConfig[] = [
     quoteToken: tokens.busd,
     lpToken: tokens.hotcrossBusd,
     earnToken: tokens.hotcross,
+    projectLink: 'https://hotcross.com/',
+    twitter: 'https://twitter.com/hotcrosscom',
   },
   {
     index: 11,
@@ -117,6 +131,8 @@ const bills: BillsConfig[] = [
     quoteToken: tokens.busd,
     lpToken: tokens.tlosBusd,
     earnToken: tokens.tlos,
+    projectLink: 'https://www.telos.net/',
+    twitter: 'https://twitter.com/HelloTelos',
   },
   {
     index: 0,
@@ -131,6 +147,8 @@ const bills: BillsConfig[] = [
     quoteToken: tokens.wbnb,
     lpToken: tokens.bananaBnb,
     earnToken: tokens.banana,
+    projectLink: 'https://apeswap.finance/',
+    twitter: 'https://twitter.com/ape_swap',
   },
   {
     index: 1,
@@ -145,6 +163,8 @@ const bills: BillsConfig[] = [
     quoteToken: tokens.wbnb,
     lpToken: tokens.bnbBusd,
     earnToken: tokens.banana,
+    projectLink: 'https://apeswap.finance/',
+    twitter: 'https://twitter.com/ape_swap',
   },
   {
     index: 2,
@@ -159,6 +179,8 @@ const bills: BillsConfig[] = [
     quoteToken: tokens.usdc,
     lpToken: tokens.usdcBusd,
     earnToken: tokens.banana,
+    projectLink: 'https://apeswap.finance/',
+    twitter: 'https://twitter.com/ape_swap',
   },
   {
     index: 3,
@@ -173,6 +195,8 @@ const bills: BillsConfig[] = [
     quoteToken: tokens.wbnb,
     lpToken: tokens.bnbEth,
     earnToken: tokens.banana,
+    projectLink: 'https://apeswap.finance/',
+    twitter: 'https://twitter.com/ape_swap',
   },
   {
     index: 4,
@@ -187,6 +211,8 @@ const bills: BillsConfig[] = [
     quoteToken: tokens.wbnb,
     lpToken: tokens.bnbBtc,
     earnToken: tokens.banana,
+    projectLink: 'https://apeswap.finance/',
+    twitter: 'https://twitter.com/ape_swap',
   },
 ]
 
