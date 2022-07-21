@@ -5,7 +5,7 @@
   "repository": "https://github.com/ApeSwapFinance/apeswap-lists.git",
   "license": "MIT",
   "scripts": {
-    "build": "rimraf ./build && tsc",
+    "build": "rm -rf ./build && tsc",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "start": "yarn run build && node build/index.js",
     "prepare": "husky install",
@@ -18,8 +18,7 @@
     "bignumber.js": "^9.0.2",
     "ethers": "^5.6.9",
     "path": "^0.12.7",
-    "tslib": "^2.4.0",
-    "rimraf": "^3.0.0"
+    "tslib": "^2.4.0"
   },
   "devDependencies": {
     "@types/node": "^18.0.6",
