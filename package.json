@@ -1,0 +1,34 @@
+{
+  "name": "apeswap-lists",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "repository": "https://github.com/ApeSwapFinance/apeswap-lists.git",
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf ./build && tsc",
+    "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
+    "start": "yarn run build && node build/index.js",
+    "prepare": "husky install",
+    "format:check": "prettier --check \"**/*.{js,jsx,ts,tsx,json}\"",
+    "format:check:staged": "pretty-quick --staged --check",
+    "format:write": "prettier --write \"**/*.{js,jsx,ts,tsx,json}\""
+  },
+  "dependencies": {
+    "@apeswapfinance/sdk": "^4.0.1",
+    "bignumber.js": "^9.0.2",
+    "eslint": "^8.20.0",
+    "ethers": "^5.6.9",
+    "path": "^0.12.7",
+    "pretty-quick": "^3.1.3",
+    "tslib": "^2.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.30.7",
+    "@typescript-eslint/parser": "^5.30.7",
+    "husky": "^6.0.0",
+    "prettier": "^2.7.1",
+    "rimraf": "^3.0.0",
+    "typescript": "^4.7.4"
+  }
+}
