@@ -7,8 +7,10 @@
   "scripts": {
     "build": "rimraf ./build && tsc",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
-    "start": "yarn run build && node build/index.js",
+    "start": "rimraf ./config && mkdir config && yarn run build && node build/index.js",
+    "postinstall": "yarn run start && yarn run format:write",
     "prepare": "husky install",
+    "test": "jest",
     "format:check": "prettier --check \"**/*.{js,jsx,ts,tsx,json}\"",
     "format:check:staged": "pretty-quick --staged --check",
     "format:write": "prettier --write \"**/*.{js,jsx,ts,tsx,json}\""
@@ -16,19 +18,22 @@
   "dependencies": {
     "@apeswapfinance/sdk": "^4.0.1",
     "bignumber.js": "^9.0.2",
-    "eslint": "^8.20.0",
     "ethers": "^5.6.9",
     "path": "^0.12.7",
-    "pretty-quick": "^3.1.3",
+    "rimraf": "^3.0.0",
     "tslib": "^2.4.0"
   },
   "devDependencies": {
+    "@types/jest": "^28.1.6",
     "@types/node": "^18.0.6",
     "@typescript-eslint/eslint-plugin": "^5.30.7",
     "@typescript-eslint/parser": "^5.30.7",
+    "eslint": "^8.20.0",
     "husky": "^6.0.0",
+    "jest": "^28.1.3",
     "prettier": "^2.7.1",
-    "rimraf": "^3.0.0",
+    "pretty-quick": "^3.1.3",
+    "ts-jest": "^28.0.7",
     "typescript": "^4.7.4"
   }
 }
