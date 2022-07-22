@@ -296,36 +296,6 @@
     "lpStaking": false
   },
   {
-    "sousId": 16,
-    "tokenName": "LYPTUS",
-    "image": "LYPTUS.svg",
-    "stakingToken": {
-      "symbol": "BANANA",
-      "address": {
-        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
-        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
-        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
-        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
-      },
-      "decimals": 18,
-      "active": true
-    },
-    "rewardToken": null,
-    "contractAddress": {
-      "56": "0x1900f5370830F0aa46DF76a6a4F0656Ef321b9f8",
-      "97": "0xb1108939748A635C5ed982a17FF5C6E7D79ECF62"
-    },
-    "poolCategory": "Core",
-    "projectLink": "https://koaladefi.finance/",
-    "twitter": "https://twitter.com/koaladefi",
-    "harvest": true,
-    "tokenPerBlock": "0.034722222222222",
-    "sortOrder": 3,
-    "isFinished": true,
-    "tokenDecimals": 18,
-    "lpStaking": false
-  },
-  {
     "sousId": 22,
     "tokenName": "ONT",
     "image": "ONT.png",
@@ -1022,46 +992,6 @@
     "reflect": false,
     "isFinished": true,
     "tokenDecimals": 18
-  },
-  {
-    "sousId": 69,
-    "tokenName": "DINOP",
-    "image": "DINOP.svg",
-    "stakingToken": {
-      "symbol": "GNANA",
-      "address": {
-        "1": "",
-        "56": "0xdDb3Bd8645775F59496c821E4F55A7eA6A6dc299",
-        "97": "0xf693bDA9D3C56D5F9165c8633d9098e3C4Ae495A",
-        "137": ""
-      },
-      "decimals": 18,
-      "active": true
-    },
-    "rewardToken": {
-      "symbol": "DINOP",
-      "address": {
-        "1": "",
-        "56": "0xea90DC6F64d18771Ca1dac8098526a9082265B42",
-        "97": "",
-        "137": ""
-      },
-      "decimals": 9,
-      "active": true
-    },
-    "contractAddress": {
-      "56": "0x82ee644a04573aebbfbf3d7fa98f20922a5c606a",
-      "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
-    },
-    "poolCategory": "ApeZone",
-    "projectLink": "https://www.dinopark.fun/",
-    "twitter": "https://twitter.com/dinoparkio",
-    "harvest": true,
-    "tokenPerBlock": "1.736111111",
-    "sortOrder": 2,
-    "reflect": false,
-    "isFinished": true,
-    "tokenDecimals": 9
   },
   {
     "sousId": 72,
@@ -2318,46 +2248,6 @@
     "twitter": "https://twitter.com/CBKingdoms",
     "harvest": true,
     "tokenPerBlock": "0.128603009250000000",
-    "sortOrder": 1,
-    "reflect": false,
-    "isFinished": true,
-    "tokenDecimals": 18
-  },
-  {
-    "sousId": 127,
-    "tokenName": "MBIRD",
-    "image": "MBIRD.svg",
-    "stakingToken": {
-      "symbol": "GNANA",
-      "address": {
-        "1": "",
-        "56": "0xdDb3Bd8645775F59496c821E4F55A7eA6A6dc299",
-        "97": "0xf693bDA9D3C56D5F9165c8633d9098e3C4Ae495A",
-        "137": ""
-      },
-      "decimals": 18,
-      "active": true
-    },
-    "rewardToken": {
-      "symbol": "MBIRD",
-      "address": {
-        "1": "",
-        "56": "0x3b23a0FFbc53198d86fa5927E8ee32F7EF699A14",
-        "97": "",
-        "137": ""
-      },
-      "decimals": 18,
-      "active": true
-    },
-    "contractAddress": {
-      "56": "0x0a935f40a288cb67ee86565a2b1113f5c7fe481d",
-      "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
-    },
-    "poolCategory": "ApeZone",
-    "projectLink": "https://www.moonbird.finance/",
-    "twitter": "https://twitter.com/mbirdfinance",
-    "harvest": true,
-    "tokenPerBlock": "0.05787037037037037",
     "sortOrder": 1,
     "reflect": false,
     "isFinished": true,

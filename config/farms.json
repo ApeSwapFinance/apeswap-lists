@@ -1348,29 +1348,6 @@
     "projectLink": "https://www.beefy.finance/"
   },
   {
-    "pid": 29,
-    "image": "",
-    "lpSymbol": "SWAMP-BNB",
-    "lpAddresses": {
-      "56": "0xa3f0f63268df562c71051ac5e81460e857c32c12",
-      "97": "0xed89477d619c7e73f752d5fc7be60308ceb63663"
-    },
-    "tokenSymbol": "SWAMP",
-    "tokenAddresses": {
-      "56": "0xc5a49b4cbe004b6fd55b30ba1de6ac360ff9765d",
-      "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a"
-    },
-    "style": "deprecated",
-    "quoteTokenSymbol": "BNB",
-    "quoteTokenAdresses": {
-      "1": "",
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
-    },
-    "projectLink": "https://swamp.finance"
-  },
-  {
     "pid": 63,
     "image": "",
     "lpSymbol": "TYPH-BNB",
@@ -2133,52 +2110,6 @@
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
     },
     "projectLink": "https://axieinfinity.com/"
-  },
-  {
-    "pid": 96,
-    "image": "",
-    "lpSymbol": "DINOP-BNB",
-    "lpAddresses": {
-      "56": "0x5fcec12f1c7e57789f22289ef75fbdb1c6b4895d",
-      "97": "0xed89477d619c7e73f752d5fc7be60308ceb63663"
-    },
-    "tokenSymbol": "DINOP",
-    "tokenAddresses": {
-      "56": "0xea90DC6F64d18771Ca1dac8098526a9082265B42",
-      "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a"
-    },
-    "style": "deprecated",
-    "quoteTokenSymbol": "BNB",
-    "quoteTokenAdresses": {
-      "1": "",
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
-    },
-    "projectLink": "https://www.dinopark.fun/"
-  },
-  {
-    "pid": 97,
-    "image": "MARU.png",
-    "lpSymbol": "MARU-BNB",
-    "lpAddresses": {
-      "56": "0x172a5434366795ccDF755ffBf0cc04D4532A7177",
-      "97": "0xed89477d619c7e73f752d5fc7be60308ceb63663"
-    },
-    "tokenSymbol": "MARU",
-    "tokenAddresses": {
-      "56": "0x215f51990a0ca5aa360a177181f014e2da376e5e",
-      "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a"
-    },
-    "style": "deprecated",
-    "quoteTokenSymbol": "BNB",
-    "quoteTokenAdresses": {
-      "1": "",
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
-    },
-    "projectLink": "https://riyoku.tv/"
   },
   {
     "pid": 98,

@@ -1051,24 +1051,6 @@ const farms: FarmConfig[] = [
     projectLink: 'https://www.beefy.finance/',
   },
   {
-    pid: 29,
-    image: '',
-    lpSymbol: 'SWAMP-BNB',
-    lpAddresses: {
-      [ChainId.BSC_TESTNET]: '0xed89477d619c7e73f752d5fc7be60308ceb63663',
-      [ChainId.BSC]: '0xa3f0f63268df562c71051ac5e81460e857c32c12', // SWAMP-BNB BananaPair
-    },
-    tokenSymbol: 'SWAMP',
-    tokenAddresses: {
-      [ChainId.BSC_TESTNET]: '0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a',
-      [ChainId.BSC]: '0xc5a49b4cbe004b6fd55b30ba1de6ac360ff9765d', // SWAMP Token
-    },
-    style: 'deprecated',
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: tokens.wbnb.address,
-    projectLink: 'https://swamp.finance',
-  },
-  {
     pid: 63,
     image: '',
     lpSymbol: 'TYPH-BNB',
@@ -1661,42 +1643,6 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: tokens.wbnb.address,
     projectLink: 'https://axieinfinity.com/',
-  },
-  {
-    pid: 96,
-    image: '',
-    lpSymbol: 'DINOP-BNB',
-    lpAddresses: {
-      [ChainId.BSC_TESTNET]: '0xed89477d619c7e73f752d5fc7be60308ceb63663',
-      [ChainId.BSC]: '0x5fcec12f1c7e57789f22289ef75fbdb1c6b4895d',
-    },
-    tokenSymbol: 'DINOP',
-    tokenAddresses: {
-      [ChainId.BSC_TESTNET]: '0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a',
-      [ChainId.BSC]: '0xea90DC6F64d18771Ca1dac8098526a9082265B42',
-    },
-    style: 'deprecated',
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: tokens.wbnb.address,
-    projectLink: 'https://www.dinopark.fun/',
-  },
-  {
-    pid: 97,
-    image: 'MARU.png',
-    lpSymbol: 'MARU-BNB',
-    lpAddresses: {
-      [ChainId.BSC_TESTNET]: '0xed89477d619c7e73f752d5fc7be60308ceb63663',
-      [ChainId.BSC]: '0x172a5434366795ccDF755ffBf0cc04D4532A7177',
-    },
-    tokenSymbol: 'MARU',
-    tokenAddresses: {
-      [ChainId.BSC_TESTNET]: '0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a',
-      [ChainId.BSC]: '0x215f51990a0ca5aa360a177181f014e2da376e5e',
-    },
-    style: 'deprecated',
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: tokens.wbnb.address,
-    projectLink: 'https://riyoku.tv/',
   },
   {
     pid: 98,
