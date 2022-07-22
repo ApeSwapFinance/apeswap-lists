@@ -2,9 +2,7 @@
   {
     "id": 0,
     "pid": 22,
-    "availableChains": [
-      56
-    ],
+    "availableChains": [56],
     "type": "AUTO",
     "version": "V1",
     "stratAddress": {
@@ -75,9 +73,7 @@
   {
     "id": 1,
     "pid": 1,
-    "availableChains": [
-      56
-    ],
+    "availableChains": [56],
     "type": "AUTO",
     "version": "V1",
     "stratAddress": {
@@ -161,9 +157,7 @@
   {
     "id": 2,
     "pid": 2,
-    "availableChains": [
-      56
-    ],
+    "availableChains": [56],
     "type": "AUTO",
     "version": "V1",
     "stratAddress": {
@@ -247,9 +241,7 @@
   {
     "id": 3,
     "pid": 0,
-    "availableChains": [
-      56
-    ],
+    "availableChains": [56],
     "type": "MAX",
     "version": "V2",
     "stratAddress": {
@@ -331,9 +323,7 @@
   {
     "id": 4,
     "pid": 1,
-    "availableChains": [
-      56
-    ],
+    "availableChains": [56],
     "type": "MAX",
     "version": "V2",
     "stratAddress": {
@@ -415,9 +405,7 @@
   {
     "id": 5,
     "pid": 4,
-    "availableChains": [
-      56
-    ],
+    "availableChains": [56],
     "type": "MAX",
     "version": "V2",
     "stratAddress": {
@@ -499,9 +487,7 @@
   {
     "id": 6,
     "pid": 2,
-    "availableChains": [
-      56
-    ],
+    "availableChains": [56],
     "type": "MAX",
     "version": "V2",
     "stratAddress": {
@@ -583,9 +569,7 @@
   {
     "id": 7,
     "pid": 3,
-    "availableChains": [
-      56
-    ],
+    "availableChains": [56],
     "type": "MAX",
     "version": "V2",
     "stratAddress": {
@@ -667,9 +651,7 @@
   {
     "id": 8,
     "pid": 5,
-    "availableChains": [
-      56
-    ],
+    "availableChains": [56],
     "type": "MAX",
     "version": "V2",
     "stratAddress": {
@@ -751,9 +733,7 @@
   {
     "id": 9,
     "pid": 6,
-    "availableChains": [
-      56
-    ],
+    "availableChains": [56],
     "type": "MAX",
     "version": "V2",
     "stratAddress": {
@@ -835,9 +815,7 @@
   {
     "id": 10,
     "pid": 7,
-    "availableChains": [
-      56
-    ],
+    "availableChains": [56],
     "type": "MAX",
     "version": "V2",
     "stratAddress": {
@@ -919,9 +897,7 @@
   {
     "id": 11,
     "pid": 8,
-    "availableChains": [
-      56
-    ],
+    "availableChains": [56],
     "type": "MAX",
     "version": "V2",
     "stratAddress": {
@@ -1002,9 +978,7 @@
   {
     "id": 12,
     "pid": 9,
-    "availableChains": [
-      56
-    ],
+    "availableChains": [56],
     "type": "MAX",
     "version": "V2",
     "stratAddress": {
@@ -1086,9 +1060,7 @@
   {
     "id": 13,
     "pid": 10,
-    "availableChains": [
-      56
-    ],
+    "availableChains": [56],
     "type": "MAX",
     "version": "V2",
     "stratAddress": {
@@ -1170,9 +1142,7 @@
   {
     "id": 14,
     "pid": 11,
-    "availableChains": [
-      56
-    ],
+    "availableChains": [56],
     "type": "MAX",
     "version": "V2",
     "stratAddress": {
@@ -1254,9 +1224,7 @@
   {
     "id": 15,
     "pid": 12,
-    "availableChains": [
-      56
-    ],
+    "availableChains": [56],
     "type": "MAX",
     "version": "V2",
     "stratAddress": {
@@ -1338,9 +1306,7 @@
   {
     "id": 16,
     "pid": 13,
-    "availableChains": [
-      56
-    ],
+    "availableChains": [56],
     "type": "MAX",
     "version": "V2",
     "stratAddress": {
@@ -1422,9 +1388,7 @@
   {
     "id": 17,
     "pid": 14,
-    "availableChains": [
-      56
-    ],
+    "availableChains": [56],
     "type": "MAX",
     "version": "V2",
     "stratAddress": {
@@ -1506,9 +1470,7 @@
   {
     "id": 18,
     "pid": 15,
-    "availableChains": [
-      56
-    ],
+    "availableChains": [56],
     "type": "MAX",
     "version": "V2",
     "stratAddress": {
@@ -1590,9 +1552,7 @@
   {
     "id": 19,
     "pid": 16,
-    "availableChains": [
-      56
-    ],
+    "availableChains": [56],
     "type": "MAX",
     "version": "V2",
     "stratAddress": {
@@ -1674,9 +1634,7 @@
   {
     "id": 20,
     "pid": 17,
-    "availableChains": [
-      56
-    ],
+    "availableChains": [56],
     "type": "MAX",
     "version": "V2",
     "stratAddress": {
@@ -1758,9 +1716,7 @@
   {
     "id": 21,
     "pid": 18,
-    "availableChains": [
-      56
-    ],
+    "availableChains": [56],
     "type": "MAX",
     "version": "V2",
     "stratAddress": {
@@ -1842,9 +1798,7 @@
   {
     "id": 22,
     "pid": 19,
-    "availableChains": [
-      56
-    ],
+    "availableChains": [56],
     "type": "MAX",
     "version": "V2",
     "stratAddress": {
@@ -1926,9 +1880,7 @@
   {
     "id": 1000,
     "pid": 0,
-    "availableChains": [
-      97
-    ],
+    "availableChains": [97],
     "type": "MAX",
     "version": "V2",
     "stratAddress": {
@@ -2010,9 +1962,7 @@
   {
     "id": 1001,
     "pid": 1,
-    "availableChains": [
-      97
-    ],
+    "availableChains": [97],
     "type": "MAX",
     "version": "V2",
     "stratAddress": {
