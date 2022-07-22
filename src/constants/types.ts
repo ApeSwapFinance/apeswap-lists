@@ -196,3 +196,13 @@ export interface JungleFarmConfig {
   isEarnTokenLp?: boolean
   network: number
 }
+
+export interface NfaStakingPoolConfig {
+  sousId: number
+  tier: number
+  rewardToken: Token
+  contractAddress: FarmsAndPoolAddress
+  tokenPerBlock: string
+  isFinished: boolean
+  endBlock: number
+}
