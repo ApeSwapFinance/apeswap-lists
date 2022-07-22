@@ -1,6 +1,6 @@
 import path from 'path'
 import fs from 'fs'
-import { farms, bills, pools, jungleFarms, tokens, vaults } from './constants'
+import { farms, bills, pools, jungleFarms, tokens, vaults, dualFarms } from './constants'
 
 const listMap: [any, string][] = [
   [farms, 'farms'],
@@ -8,6 +8,7 @@ const listMap: [any, string][] = [
   [pools, 'pools'],
   [jungleFarms, 'jungleFarms'],
   [vaults, 'vaults'],
+  [dualFarms, 'dualFarms'],
 ]
 
 const buildList = (list: any, listName: string) => {
