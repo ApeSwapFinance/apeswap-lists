@@ -7,7 +7,7 @@
   "scripts": {
     "build": "rimraf ./build && tsc",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
-    "start": "rimraf ./config && mkdir config && yarn run build && node build/index.js",
+    "start": "rimraf ./config && mkdir config && yarn run build && node build/index.js && yarn run format:write",
     "postinstall": "yarn run start && yarn run format:write",
     "prepare": "husky install",
     "test": "jest",

@@ -43,7 +43,7 @@ const jungleFarms: JungleFarmConfig[] = [
       quoteToken: tokens.busd,
     },
     contractAddress: {
-      [ChainId.BSC]: '0xc81af2222ac6ec0f3ec08b875df25326b40e7a76  ',
+      [ChainId.BSC]: '0xc81af2222ac6ec0f3ec08b875df25326b40e7a76',
       [ChainId.MATIC]: '',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '0xb1108939748A635C5ed982a17FF5C6E7D79ECF62',
