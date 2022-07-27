@@ -113,17 +113,6 @@ const tokens: Record<string, Token> = {
     decimals: 18,
     active: true,
   },
-  soul: {
-    symbol: 'SOUL',
-    address: {
-      [ChainId.BSC]: '0x67d012F731c23F0313CEA1186d0121779c77fcFE',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
-    },
-    decimals: 8,
-    active: true,
-  },
   usdc: {
     symbol: 'USDC',
     address: {
@@ -135,43 +124,10 @@ const tokens: Record<string, Token> = {
     decimals: 18,
     active: true,
   },
-  brew: {
-    symbol: 'BREW',
-    address: {
-      [ChainId.BSC]: '0x790be81c3ca0e53974be2688cdb954732c9862e1',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
-    },
-    decimals: 18,
-    active: true,
-  },
   bifi: {
     symbol: 'BIFI',
     address: {
       [ChainId.BSC]: '0xCa3F508B8e4Dd382eE878A314789373D80A5190A',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
-    },
-    decimals: 18,
-    active: true,
-  },
-  swamp: {
-    symbol: 'SWAMP',
-    address: {
-      [ChainId.BSC]: '0xc5a49b4cbe004b6fd55b30ba1de6ac360ff9765d',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
-    },
-    decimals: 18,
-    active: true,
-  },
-  alloy: {
-    symbol: 'ALLOY',
-    address: {
-      [ChainId.BSC]: '0x5ef5994fa33ff4eb6c82d51ee1dc145c546065bd',
       [ChainId.MATIC]: '',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
@@ -201,54 +157,10 @@ const tokens: Record<string, Token> = {
     decimals: 18,
     active: true,
   },
-  foxy: {
-    symbol: 'FOXY',
-    address: {
-      [ChainId.BSC]: '0x4354a4f710182966e55ea30cfa807fa1b821a67b',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
-    },
-    decimals: 9,
-    active: true,
-  },
-  lyptus: {
-    symbol: 'LYPTUS',
-    address: {
-      [ChainId.BSC]: '0xba26397cdff25f0d26e815d218ef3c77609ae7f1',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
-    },
-    decimals: 18,
-    active: true,
-  },
   ont: {
     symbol: 'ONT',
     address: {
       [ChainId.BSC]: '0xfd7b3a77848f1c2d67e05e54d78d174a0c850335',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
-    },
-    decimals: 18,
-    active: true,
-  },
-  bft: {
-    symbol: 'BFT',
-    address: {
-      [ChainId.BSC]: '0xa4f93159ce0a4b533b443c74b89967c60a5969f8',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a',
-    },
-    decimals: 18,
-    active: true,
-  },
-  sfp: {
-    symbol: 'SFP',
-    address: {
-      [ChainId.BSC]: '0xd41fdb03ba84762dd66a0af1a6c8540ff1ba5dfb',
       [ChainId.MATIC]: '',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
@@ -333,39 +245,6 @@ const tokens: Record<string, Token> = {
     decimals: 18,
     active: true,
   },
-  wizard: {
-    symbol: 'WIZARD',
-    address: {
-      [ChainId.BSC]: '0x5066c68cae3b9bdacd6a1a37c90f2d1723559d18',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
-    },
-    decimals: 18,
-    active: true,
-  },
-  gnt: {
-    symbol: 'GNT',
-    address: {
-      [ChainId.BSC]: '0xf750a26eb0acf95556e8529e72ed530f3b60f348',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
-    },
-    decimals: 18,
-    active: true,
-  },
-  cla: {
-    symbol: 'CLA',
-    address: {
-      [ChainId.BSC]: '0xf6663f46ecd7ae8ee8b6cc54681a42eba0ef52b4',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
-    },
-    decimals: 18,
-    active: true,
-  },
   zig: {
     symbol: 'ZIG',
     address: {
@@ -410,17 +289,6 @@ const tokens: Record<string, Token> = {
     decimals: 18,
     active: true,
   },
-  crude: {
-    symbol: 'CRUDE',
-    address: {
-      [ChainId.BSC]: '0x8db702D9d561921C45Be8DF38830A653e4BC0299',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
-    },
-    decimals: 18,
-    active: true,
-  },
   ceek: {
     symbol: 'CEEK',
     address: {
@@ -436,17 +304,6 @@ const tokens: Record<string, Token> = {
     symbol: 'STARS',
     address: {
       [ChainId.BSC]: '0xbd83010eb60f12112908774998f65761cf9f6f9a',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
-    },
-    decimals: 18,
-    active: true,
-  },
-  krw: {
-    symbol: 'KRW',
-    address: {
-      [ChainId.BSC]: '0x1446f3CEdf4d86a9399E49f7937766E6De2A3AAB',
       [ChainId.MATIC]: '',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
@@ -474,17 +331,6 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC_TESTNET]: '',
     },
     decimals: 18,
-    active: true,
-  },
-  dinop: {
-    symbol: 'DINOP',
-    address: {
-      [ChainId.BSC]: '0xea90DC6F64d18771Ca1dac8098526a9082265B42',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
-    },
-    decimals: 9,
     active: true,
   },
   guard: {
@@ -531,17 +377,6 @@ const tokens: Record<string, Token> = {
     decimals: 18,
     active: true,
   },
-  pear: {
-    symbol: 'PEAR',
-    address: {
-      [ChainId.BSC]: '0xdf7C18ED59EA738070E665Ac3F5c258dcc2FBad8',
-      [ChainId.MATIC]: '0xc8bcb58caEf1bE972C0B638B1dD8B0748Fdc8A44',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
-    },
-    decimals: 18,
-    active: true,
-  },
   obie: {
     symbol: 'OBIE',
     address: {
@@ -568,28 +403,6 @@ const tokens: Record<string, Token> = {
     symbol: 'YDR',
     address: {
       [ChainId.BSC]: '0x3757232B55E60da4A8793183aC030CfCE4c3865d',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
-    },
-    decimals: 18,
-    active: true,
-  },
-  copycat: {
-    symbol: 'COPYCAT',
-    address: {
-      [ChainId.BSC]: '0xd635B32688F36ee4a7FE117b4C91DD811277ACB6',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
-    },
-    decimals: 18,
-    active: true,
-  },
-  bfg: {
-    symbol: 'BFG',
-    address: {
-      [ChainId.BSC]: '0xBb46693eBbEa1aC2070E59B4D043b47e2e095f86',
       [ChainId.MATIC]: '',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
@@ -641,17 +454,6 @@ const tokens: Record<string, Token> = {
     decimals: 18,
     active: true,
   },
-  phx: {
-    symbol: 'PHX',
-    address: {
-      [ChainId.BSC]: '0xac86e5f9bA48d680516df50C72928c2ec50F3025',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
-    },
-    decimals: 18,
-    active: true,
-  },
   pots: {
     symbol: 'POTS',
     address: {
@@ -667,28 +469,6 @@ const tokens: Record<string, Token> = {
     symbol: 'FRMx',
     address: {
       [ChainId.BSC]: '0x8523518001ad5d24b2a04e8729743c0643a316c0',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
-    },
-    decimals: 18,
-    active: true,
-  },
-  exp: {
-    symbol: 'EXP',
-    address: {
-      [ChainId.BSC]: '0x639d4C62F58a4048AD0F69B8CE675dB1A3e8e00e',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
-    },
-    decimals: 18,
-    active: true,
-  },
-  cfi: {
-    symbol: 'CFi',
-    address: {
-      [ChainId.BSC]: '0x6a545f9c64d8f7b957d8d2e6410b52095a9e6c29',
       [ChainId.MATIC]: '',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
@@ -905,17 +685,6 @@ const tokens: Record<string, Token> = {
     decimals: 18,
     active: true,
   },
-  mbird: {
-    symbol: 'MBIRD',
-    address: {
-      [ChainId.BSC]: '0x3b23a0FFbc53198d86fa5927E8ee32F7EF699A14',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
-    },
-    decimals: 18,
-    active: true,
-  },
   tako: {
     symbol: 'TAKO',
     address: {
@@ -927,66 +696,11 @@ const tokens: Record<string, Token> = {
     decimals: 18,
     active: true,
   },
-  hair: {
-    symbol: 'HAIR',
-    address: {
-      [ChainId.BSC]: '',
-      [ChainId.MATIC]: '0x100A947f51fA3F1dcdF97f3aE507A72603cAE63C',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
-    },
-    decimals: 18,
-    active: true,
-  },
   sing: {
     symbol: 'SING',
     address: {
       [ChainId.BSC]: '0x23894c0ce2d79b79ea33a4d02e67ae843ef6e563',
       [ChainId.MATIC]: '0xcb898b0efb084df14dd8e018da37b4d0f06ab26d',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
-    },
-    decimals: 18,
-    active: true,
-  },
-  inku: {
-    symbol: 'INKU',
-    address: {
-      [ChainId.BSC]: '0xb37cad62441ef8b866f3e36f12fd42062b6c0f33',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
-    },
-    decimals: 18,
-    active: true,
-  },
-  bbq: {
-    symbol: 'BBQ',
-    address: {
-      [ChainId.BSC]: '0xd9a88f9b7101046786490baf433f0f6ab3d753e2',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
-    },
-    decimals: 18,
-    active: true,
-  },
-  nalis: {
-    symbol: 'NALIS',
-    address: {
-      [ChainId.BSC]: '0xb2ebaa0ad65e9c888008bf10646016f7fcdd73c3',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
-    },
-    decimals: 18,
-    active: true,
-  },
-  bbnana: {
-    symbol: 'BBNANA',
-    address: {
-      [ChainId.BSC]: '0xa3be3b30fa5302dad5c9874cdb50e220eaadf092',
-      [ChainId.MATIC]: '',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
     },

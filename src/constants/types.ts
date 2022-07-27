@@ -77,6 +77,7 @@ export interface BillsConfig {
   quoteToken: Token
   lpToken: Token
   earnToken: Token
+  billNnftAddress: Address
   inactive?: boolean
   projectLink?: string
   twitter?: string
