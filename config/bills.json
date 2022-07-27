@@ -53,6 +53,12 @@
       "decimals": 18,
       "active": true
     },
+    "billNnftAddress": {
+      "1": "",
+      "56": "0x7FD203888661d1F0AE625eD599909f8F97698670",
+      "97": "",
+      "137": ""
+    },
     "projectLink": "https://apeswap.finance/",
     "twitter": "https://twitter.com/ape_swap"
   },
@@ -109,6 +115,12 @@
       },
       "decimals": 18,
       "active": true
+    },
+    "billNnftAddress": {
+      "1": "",
+      "56": "0x7FD203888661d1F0AE625eD599909f8F97698670",
+      "97": "",
+      "137": ""
     },
     "projectLink": "https://apeswap.finance/",
     "twitter": "https://twitter.com/ape_swap"
@@ -167,6 +179,12 @@
       "decimals": 18,
       "active": true
     },
+    "billNnftAddress": {
+      "1": "",
+      "56": "0x7FD203888661d1F0AE625eD599909f8F97698670",
+      "97": "",
+      "137": ""
+    },
     "projectLink": "https://apeswap.finance/",
     "twitter": "https://twitter.com/ape_swap"
   },
@@ -223,6 +241,12 @@
       },
       "decimals": 18,
       "active": true
+    },
+    "billNnftAddress": {
+      "1": "",
+      "56": "0x7FD203888661d1F0AE625eD599909f8F97698670",
+      "97": "",
+      "137": ""
     },
     "projectLink": "https://apeswap.finance/",
     "twitter": "https://twitter.com/ape_swap"
@@ -281,6 +305,12 @@
       "decimals": 18,
       "active": true
     },
+    "billNnftAddress": {
+      "1": "",
+      "56": "0x7FD203888661d1F0AE625eD599909f8F97698670",
+      "97": "",
+      "137": ""
+    },
     "projectLink": "https://apeswap.finance/",
     "twitter": "https://twitter.com/ape_swap"
   },
@@ -337,6 +367,12 @@
       },
       "decimals": 18,
       "active": true
+    },
+    "billNnftAddress": {
+      "1": "",
+      "56": "0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8",
+      "97": "",
+      "137": ""
     },
     "projectLink": "https://dappradar.com/",
     "twitter": "https://twitter.com/DappRadar/"
@@ -395,6 +431,12 @@
       "decimals": 18,
       "active": true
     },
+    "billNnftAddress": {
+      "1": "",
+      "56": "0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8",
+      "97": "",
+      "137": ""
+    },
     "projectLink": "https://ceek.com/",
     "twitter": "https://twitter.com/CEEK/"
   },
@@ -452,6 +494,12 @@
       "decimals": 18,
       "active": true
     },
+    "billNnftAddress": {
+      "1": "",
+      "56": "0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8",
+      "97": "",
+      "137": ""
+    },
     "projectLink": "https://nftynetwork.io/",
     "twitter": "https://twitter.com/NFTYLab"
   },
@@ -508,6 +556,12 @@
       },
       "decimals": 18,
       "active": true
+    },
+    "billNnftAddress": {
+      "1": "",
+      "56": "0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8",
+      "97": "",
+      "137": ""
     },
     "inactive": true,
     "projectLink": "https://www.telos.net/",
@@ -567,6 +621,12 @@
       "decimals": 18,
       "active": true
     },
+    "billNnftAddress": {
+      "1": "",
+      "56": "0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8",
+      "97": "",
+      "137": ""
+    },
     "projectLink": "https://www.mogulproductions.com/",
     "twitter": "https://twitter.com/mogulofficial_"
   },
@@ -623,6 +683,12 @@
       },
       "decimals": 18,
       "active": true
+    },
+    "billNnftAddress": {
+      "1": "",
+      "56": "0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8",
+      "97": "",
+      "137": ""
     },
     "projectLink": "https://hotcross.com/",
     "twitter": "https://twitter.com/hotcrosscom"
@@ -681,6 +747,12 @@
       "decimals": 18,
       "active": true
     },
+    "billNnftAddress": {
+      "1": "",
+      "56": "0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8",
+      "97": "",
+      "137": ""
+    },
     "projectLink": "https://hotcross.com/",
     "twitter": "https://twitter.com/hotcrosscom"
   },
@@ -737,6 +809,12 @@
       },
       "decimals": 18,
       "active": true
+    },
+    "billNnftAddress": {
+      "1": "",
+      "56": "0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8",
+      "97": "",
+      "137": ""
     },
     "projectLink": "https://www.telos.net/",
     "twitter": "https://twitter.com/HelloTelos"
@@ -795,6 +873,13 @@
       "decimals": 18,
       "active": true
     },
+    "billNnftAddress": {
+      "1": "",
+      "56": "0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8",
+      "97": "",
+      "137": ""
+    },
+    "inactive": true,
     "projectLink": "https://apeswap.finance/",
     "twitter": "https://twitter.com/ape_swap"
   },
@@ -852,6 +937,13 @@
       "decimals": 18,
       "active": true
     },
+    "billNnftAddress": {
+      "1": "",
+      "56": "0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8",
+      "97": "",
+      "137": ""
+    },
+    "inactive": true,
     "projectLink": "https://apeswap.finance/",
     "twitter": "https://twitter.com/ape_swap"
   },
@@ -909,6 +1001,13 @@
       "decimals": 18,
       "active": true
     },
+    "billNnftAddress": {
+      "1": "",
+      "56": "0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8",
+      "97": "",
+      "137": ""
+    },
+    "inactive": true,
     "projectLink": "https://apeswap.finance/",
     "twitter": "https://twitter.com/ape_swap"
   },
@@ -966,6 +1065,13 @@
       "decimals": 18,
       "active": true
     },
+    "billNnftAddress": {
+      "1": "",
+      "56": "0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8",
+      "97": "",
+      "137": ""
+    },
+    "inactive": true,
     "projectLink": "https://apeswap.finance/",
     "twitter": "https://twitter.com/ape_swap"
   },
@@ -1023,6 +1129,13 @@
       "decimals": 18,
       "active": true
     },
+    "billNnftAddress": {
+      "1": "",
+      "56": "0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8",
+      "97": "",
+      "137": ""
+    },
+    "inactive": true,
     "projectLink": "https://apeswap.finance/",
     "twitter": "https://twitter.com/ape_swap"
   }

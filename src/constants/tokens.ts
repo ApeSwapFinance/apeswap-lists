@@ -168,28 +168,6 @@ const tokens: Record<string, Token> = {
     decimals: 18,
     active: true,
   },
-  bft: {
-    symbol: 'BFT',
-    address: {
-      [ChainId.BSC]: '0xa4f93159ce0a4b533b443c74b89967c60a5969f8',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a',
-    },
-    decimals: 18,
-    active: true,
-  },
-  sfp: {
-    symbol: 'SFP',
-    address: {
-      [ChainId.BSC]: '0xd41fdb03ba84762dd66a0af1a6c8540ff1ba5dfb',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
-    },
-    decimals: 18,
-    active: true,
-  },
   gen: {
     symbol: 'GEN',
     address: {
@@ -260,39 +238,6 @@ const tokens: Record<string, Token> = {
     symbol: 'REVV',
     address: {
       [ChainId.BSC]: '0x833f307ac507d47309fd8cdd1f835bef8d702a93',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
-    },
-    decimals: 18,
-    active: true,
-  },
-  wizard: {
-    symbol: 'WIZARD',
-    address: {
-      [ChainId.BSC]: '0x5066c68cae3b9bdacd6a1a37c90f2d1723559d18',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
-    },
-    decimals: 18,
-    active: true,
-  },
-  gnt: {
-    symbol: 'GNT',
-    address: {
-      [ChainId.BSC]: '0xf750a26eb0acf95556e8529e72ed530f3b60f348',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
-    },
-    decimals: 18,
-    active: true,
-  },
-  cla: {
-    symbol: 'CLA',
-    address: {
-      [ChainId.BSC]: '0xf6663f46ecd7ae8ee8b6cc54681a42eba0ef52b4',
       [ChainId.MATIC]: '',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
@@ -465,28 +410,6 @@ const tokens: Record<string, Token> = {
     decimals: 18,
     active: true,
   },
-  copycat: {
-    symbol: 'COPYCAT',
-    address: {
-      [ChainId.BSC]: '0xd635B32688F36ee4a7FE117b4C91DD811277ACB6',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
-    },
-    decimals: 18,
-    active: true,
-  },
-  bfg: {
-    symbol: 'BFG',
-    address: {
-      [ChainId.BSC]: '0xBb46693eBbEa1aC2070E59B4D043b47e2e095f86',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
-    },
-    decimals: 18,
-    active: true,
-  },
   dep: {
     symbol: 'DEP',
     address: {
@@ -531,17 +454,6 @@ const tokens: Record<string, Token> = {
     decimals: 18,
     active: true,
   },
-  phx: {
-    symbol: 'PHX',
-    address: {
-      [ChainId.BSC]: '0xac86e5f9bA48d680516df50C72928c2ec50F3025',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
-    },
-    decimals: 18,
-    active: true,
-  },
   pots: {
     symbol: 'POTS',
     address: {
@@ -557,28 +469,6 @@ const tokens: Record<string, Token> = {
     symbol: 'FRMx',
     address: {
       [ChainId.BSC]: '0x8523518001ad5d24b2a04e8729743c0643a316c0',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
-    },
-    decimals: 18,
-    active: true,
-  },
-  exp: {
-    symbol: 'EXP',
-    address: {
-      [ChainId.BSC]: '0x639d4C62F58a4048AD0F69B8CE675dB1A3e8e00e',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
-    },
-    decimals: 18,
-    active: true,
-  },
-  cfi: {
-    symbol: 'CFi',
-    address: {
-      [ChainId.BSC]: '0x6a545f9c64d8f7b957d8d2e6410b52095a9e6c29',
       [ChainId.MATIC]: '',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
@@ -811,17 +701,6 @@ const tokens: Record<string, Token> = {
     address: {
       [ChainId.BSC]: '0x23894c0ce2d79b79ea33a4d02e67ae843ef6e563',
       [ChainId.MATIC]: '0xcb898b0efb084df14dd8e018da37b4d0f06ab26d',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
-    },
-    decimals: 18,
-    active: true,
-  },
-  bbnana: {
-    symbol: 'BBNANA',
-    address: {
-      [ChainId.BSC]: '0xa3be3b30fa5302dad5c9874cdb50e220eaadf092',
-      [ChainId.MATIC]: '',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
     },

@@ -226,23 +226,6 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: tokens.wbnb.address,
   },
   {
-    pid: 37,
-    image: '',
-    lpSymbol: 'BFT-BNB',
-    lpAddresses: {
-      [ChainId.BSC_TESTNET]: '0xed89477d619c7e73f752d5fc7be60308ceb63663',
-      [ChainId.BSC]: '0x1696A65eA693593Ba771b5A7aFC54C8eaf4C20dE', // BFT-BNB BananaPair
-    },
-    tokenSymbol: 'BFT',
-    tokenAddresses: {
-      [ChainId.BSC_TESTNET]: '0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a',
-      [ChainId.BSC]: '0xa4f93159ce0a4b533b443c74b89967c60a5969f8', // BFT Token
-    },
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: tokens.wbnb.address,
-    projectLink: 'https://www.bitfresh.win',
-  },
-  {
     pid: 28,
     image: '',
     lpSymbol: 'NUTS-BNB',
@@ -1388,24 +1371,6 @@ const farms: FarmConfig[] = [
     projectLink: 'https://www.cryptoblades.io/',
   },
   {
-    pid: 82,
-    image: '',
-    lpSymbol: 'GNT-BNB',
-    lpAddresses: {
-      [ChainId.BSC_TESTNET]: '0xed89477d619c7e73f752d5fc7be60308ceb63663',
-      [ChainId.BSC]: '0xe19c4b62eab3b1b61c93c5ddb27779c992413b0e',
-    },
-    tokenSymbol: 'GNT',
-    tokenAddresses: {
-      [ChainId.BSC_TESTNET]: '0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a',
-      [ChainId.BSC]: '0xf750a26eb0acf95556e8529e72ed530f3b60f348',
-    },
-    style: 'deprecated',
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: tokens.wbnb.address,
-    projectLink: 'https://www.greentrusttoken.com/',
-  },
-  {
     pid: 83,
     image: '',
     lpSymbol: 'SFP-BNB',
@@ -1870,24 +1835,6 @@ const farms: FarmConfig[] = [
     projectLink: 'https://revvmotorsport.com/',
   },
   {
-    pid: 111,
-    image: '',
-    lpSymbol: 'WIZARD-BNB',
-    lpAddresses: {
-      [ChainId.BSC_TESTNET]: '0xed89477d619c7e73f752d5fc7be60308ceb63663',
-      [ChainId.BSC]: '0xF258A201EE142C1fdeb0C29a2C9941779fDfCE0E',
-    },
-    tokenSymbol: 'WIZARD',
-    tokenAddresses: {
-      [ChainId.BSC_TESTNET]: '0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a',
-      [ChainId.BSC]: '0x5066c68cae3b9bdacd6a1a37c90f2d1723559d18',
-    },
-    style: 'deprecated',
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: tokens.wbnb.address,
-    projectLink: 'https://wizard.financial',
-  },
-  {
     pid: 113,
     image: 'ZIG.png',
     lpSymbol: 'ZIG-BNB',
@@ -2078,24 +2025,6 @@ const farms: FarmConfig[] = [
     projectLink: 'https://seedify.fund/',
   },
   {
-    pid: 124,
-    image: '',
-    lpSymbol: 'PHX-BNB',
-    lpAddresses: {
-      [ChainId.BSC_TESTNET]: '0xed89477d619c7e73f752d5fc7be60308ceb63663',
-      [ChainId.BSC]: '0xd6252ec3a5928d79f4211afdc0dd831a0fc97cdd',
-    },
-    tokenSymbol: 'PHX',
-    tokenAddresses: {
-      [ChainId.BSC_TESTNET]: '0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a',
-      [ChainId.BSC]: '0xac86e5f9ba48d680516df50c72928c2ec50f3025',
-    },
-    style: 'deprecated',
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: tokens.wbnb.address,
-    projectLink: 'https://www.phx.finance/',
-  },
-  {
     pid: 125,
     image: '',
     lpSymbol: 'FRM-BNB',
@@ -2111,42 +2040,6 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: tokens.wbnb.address,
     projectLink: 'https://ferrum.network/',
-  },
-  {
-    pid: 126,
-    image: '',
-    lpSymbol: 'EXP-BNB',
-    lpAddresses: {
-      [ChainId.BSC_TESTNET]: '0xed89477d619c7e73f752d5fc7be60308ceb63663',
-      [ChainId.BSC]: '0xe93855cb88faa221e648c157670a28f0c2449a60',
-    },
-    tokenSymbol: 'EXP',
-    tokenAddresses: {
-      [ChainId.BSC_TESTNET]: '0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a',
-      [ChainId.BSC]: '0x639d4c62f58a4048ad0f69b8ce675db1a3e8e00e',
-    },
-    style: 'deprecated',
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: tokens.wbnb.address,
-    projectLink: 'https://gamexchange.app/',
-  },
-  {
-    pid: 127,
-    image: '',
-    lpSymbol: 'CFi-BNB',
-    lpAddresses: {
-      [ChainId.BSC_TESTNET]: '0xed89477d619c7e73f752d5fc7be60308ceb63663',
-      [ChainId.BSC]: '0xab72c0a3a1174ba0ae4a79083ff6d06dcf4336ed',
-    },
-    tokenSymbol: 'CFi',
-    tokenAddresses: {
-      [ChainId.BSC_TESTNET]: '0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a',
-      [ChainId.BSC]: '0x6a545f9c64d8f7b957d8d2e6410b52095a9e6c29',
-    },
-    style: 'deprecated',
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: tokens.wbnb.address,
-    projectLink: 'https://cyberfi.tech/',
   },
   {
     pid: 128,
