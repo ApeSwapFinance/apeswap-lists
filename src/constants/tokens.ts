@@ -949,6 +949,17 @@ const tokens: Record<string, Token> = {
     decimals: 18,
     active: true,
   },
+  skill: {
+    symbol: 'SKILL',
+    address: {
+      [ChainId.BSC]: '0x154a9f9cbd3449ad22fdae23044319d6ef2a1fab',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+  },
   pel: {
     symbol: 'PEL',
     address: {
