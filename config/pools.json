@@ -158,35 +158,6 @@
     "tokenDecimals": 18
   },
   {
-    "sousId": 19,
-    "tokenName": "ALLOY",
-    "stakingToken": {
-      "symbol": "BANANA",
-      "address": {
-        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
-        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
-        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
-        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
-      },
-      "decimals": 18,
-      "active": true
-    },
-    "image": "ALLOY.png",
-    "rewardToken": null,
-    "contractAddress": {
-      "56": "0x834534853bff9C97F8A9b0fb9FFF864E3584Df99",
-      "97": "0xb1108939748A635C5ed982a17FF5C6E7D79ECF62"
-    },
-    "poolCategory": "Core",
-    "projectLink": "https://hyperjump.fi",
-    "harvest": true,
-    "tokenPerBlock": "0.01467673032",
-    "sortOrder": 5,
-    "isFinished": true,
-    "tokenDecimals": 18,
-    "lpStaking": false
-  },
-  {
     "sousId": 20,
     "tokenName": "NAUT",
     "stakingToken": {
@@ -201,7 +172,17 @@
       "active": true
     },
     "image": "NAUT.png",
-    "rewardToken": null,
+    "rewardToken": {
+      "symbol": "NAUT",
+      "address": {
+        "1": "",
+        "56": "0x05b339b0a346bf01f851dde47a5d485c34fe220c",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
     "contractAddress": {
       "56": "0xDC0913b2bf505E03794f0A68a0DbBa333D8e0E01",
       "97": "0xb1108939748A635C5ed982a17FF5C6E7D79ECF62"
@@ -310,7 +291,17 @@
       "decimals": 18,
       "active": true
     },
-    "rewardToken": null,
+    "rewardToken": {
+      "symbol": "ONT",
+      "address": {
+        "1": "",
+        "56": "0xfd7b3a77848f1c2d67e05e54d78d174a0c850335",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
     "contractAddress": {
       "56": "0x8e6f61f855a7483E29c8E87BF221C73e10b49738",
       "97": "0x3996F919980778cb0fc1982087cAc01089e33fe7"
@@ -323,36 +314,6 @@
     "sortOrder": 2,
     "isFinished": true,
     "tokenDecimals": 18
-  },
-  {
-    "sousId": 29,
-    "tokenName": "BINGUS",
-    "image": "Bingus.png",
-    "stakingToken": {
-      "symbol": "GNANA",
-      "address": {
-        "1": "",
-        "56": "0xdDb3Bd8645775F59496c821E4F55A7eA6A6dc299",
-        "97": "0xf693bDA9D3C56D5F9165c8633d9098e3C4Ae495A",
-        "137": ""
-      },
-      "decimals": 18,
-      "active": true
-    },
-    "rewardToken": null,
-    "contractAddress": {
-      "56": "0x1697b103a72299d5db4e39ef28a32991c347be23",
-      "97": "0x3996F919980778cb0fc1982087cAc01089e33fe7"
-    },
-    "poolCategory": "ApeZone",
-    "projectLink": "http://bingus.finance/",
-    "twitter": "https://twitter.com/bingus_network",
-    "harvest": true,
-    "tokenPerBlock": "3592.308202022",
-    "sortOrder": 3,
-    "reflect": true,
-    "isFinished": true,
-    "tokenDecimals": 9
   },
   {
     "sousId": 32,
@@ -369,7 +330,17 @@
       "decimals": 18,
       "active": true
     },
-    "rewardToken": null,
+    "rewardToken": {
+      "symbol": "WATCH",
+      "address": {
+        "1": "",
+        "56": "0x7a9f28eb62c791422aa23ceae1da9c847cbec9b0",
+        "97": "",
+        "137": "0x09211dc67f9fe98fb7bbb91be0ef05f4a12fa2b2"
+      },
+      "decimals": 18,
+      "active": true
+    },
     "contractAddress": {
       "56": "0x465a3782d9014e6eefccc21470c5e41b2cad9d6d",
       "97": "0x3996F919980778cb0fc1982087cAc01089e33fe7"
@@ -379,66 +350,6 @@
     "twitter": "https://twitter.com/yieldwatch",
     "harvest": true,
     "tokenPerBlock": "0.015432098765432098",
-    "sortOrder": 2,
-    "reflect": false,
-    "isFinished": true,
-    "tokenDecimals": 18
-  },
-  {
-    "sousId": 33,
-    "tokenName": "KEYFI",
-    "image": "KEYFI.png",
-    "stakingToken": {
-      "symbol": "GNANA",
-      "address": {
-        "1": "",
-        "56": "0xdDb3Bd8645775F59496c821E4F55A7eA6A6dc299",
-        "97": "0xf693bDA9D3C56D5F9165c8633d9098e3C4Ae495A",
-        "137": ""
-      },
-      "decimals": 18,
-      "active": true
-    },
-    "rewardToken": null,
-    "contractAddress": {
-      "56": "0xEedd7475Eb5D05D591bE0927B178AcBBdC5ee1c1",
-      "97": "0x3996F919980778cb0fc1982087cAc01089e33fe7"
-    },
-    "poolCategory": "ApeZone",
-    "projectLink": "https://keyfi.com/",
-    "twitter": "https://twitter.com/KeyFi_app",
-    "harvest": true,
-    "tokenPerBlock": "0.025483796296296296",
-    "sortOrder": 2,
-    "reflect": false,
-    "isFinished": true,
-    "tokenDecimals": 18
-  },
-  {
-    "sousId": 35,
-    "tokenName": "NRV",
-    "image": "NRV.png",
-    "stakingToken": {
-      "symbol": "GNANA",
-      "address": {
-        "1": "",
-        "56": "0xdDb3Bd8645775F59496c821E4F55A7eA6A6dc299",
-        "97": "0xf693bDA9D3C56D5F9165c8633d9098e3C4Ae495A",
-        "137": ""
-      },
-      "decimals": 18,
-      "active": true
-    },
-    "rewardToken": null,
-    "contractAddress": {
-      "56": "0x48ee3f7748fac3e8e4858bd0b09483c4339d3d7e",
-      "97": "0x3996F919980778cb0fc1982087cAc01089e33fe7"
-    },
-    "poolCategory": "ApeZone",
-    "projectLink": "https://www.nerve.fi",
-    "twitter": "https://twitter.com/NerveFinance",
-    "harvest": true,
-    "tokenPerBlock": "0.06448412698412699",
     "sortOrder": 2,
     "reflect": false,
     "isFinished": true,
@@ -459,7 +370,17 @@
       "decimals": 18,
       "active": true
     },
-    "rewardToken": null,
+    "rewardToken": {
+      "symbol": "MOONLIGHT",
+      "address": {
+        "1": "",
+        "56": "0xB1CeD2e320E3f4C8e3511B1DC59203303493F382",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 9,
+      "active": true
+    },
     "contractAddress": {
       "56": "0xe44d4786e9d367a475a0789dc618c76a2b2d05ec",
       "97": "0x3996F919980778cb0fc1982087cAc01089e33fe7"
@@ -489,7 +410,17 @@
       "decimals": 18,
       "active": true
     },
-    "rewardToken": null,
+    "rewardToken": {
+      "symbol": "SPACE",
+      "address": {
+        "1": "",
+        "56": "0xe486a69E432Fdc29622bF00315f6b34C99b45e80",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
     "contractAddress": {
       "56": "0x52634C2763a6DADA2028440d0892431b04809d88",
       "97": "0x3996F919980778cb0fc1982087cAc01089e33fe7"
@@ -519,7 +450,17 @@
       "decimals": 18,
       "active": true
     },
-    "rewardToken": null,
+    "rewardToken": {
+      "symbol": "GMR",
+      "address": {
+        "1": "",
+        "56": "0xADCa52302e0a6c2d5D68EDCdB4Ac75DeB5466884",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
     "contractAddress": {
       "56": "0xfd9c606d3Ff6AC1b044C4F5C0A9Fa934634bD2e8",
       "97": "0x0e34e04310e44329f1dafd28c9922ee4517ac397"
@@ -533,125 +474,6 @@
     "reflect": true,
     "isFinished": true,
     "tokenDecimals": 9
-  },
-  {
-    "sousId": 47,
-    "tokenName": "WINGS",
-    "image": "WINGS.svg",
-    "stakingToken": {
-      "symbol": "BANANA",
-      "address": {
-        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
-        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
-        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
-        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
-      },
-      "decimals": 18,
-      "active": true
-    },
-    "rewardToken": null,
-    "contractAddress": {
-      "56": "0x15C4200e694e4A0223191Ec717906CBA82F54745",
-      "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
-    },
-    "poolCategory": "ApeZone",
-    "projectLink": "https://jetswap.finance/",
-    "twitter": "https://twitter.com/Jetfuelfinance",
-    "harvest": true,
-    "tokenPerBlock": "0.009156250000000000",
-    "sortOrder": 6,
-    "reflect": true,
-    "isFinished": true,
-    "tokenDecimals": 18
-  },
-  {
-    "sousId": 50,
-    "tokenName": "MBOX",
-    "image": "MOBOX.svg",
-    "stakingToken": {
-      "symbol": "BANANA",
-      "address": {
-        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
-        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
-        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
-        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
-      },
-      "decimals": 18,
-      "active": true
-    },
-    "rewardToken": null,
-    "contractAddress": {
-      "56": "0x19383690321291cb00de31ddec94f4596d504f5a",
-      "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
-    },
-    "poolCategory": "ApeZone",
-    "projectLink": "https://www.mobox.io/",
-    "twitter": "https://twitter.com/MOBOX_Official",
-    "harvest": true,
-    "tokenPerBlock": "0.1830439814814815",
-    "sortOrder": 3,
-    "reflect": false,
-    "isFinished": true,
-    "tokenDecimals": 18
-  },
-  {
-    "sousId": 51,
-    "tokenName": "WYVERN",
-    "image": "WYVERN.png",
-    "stakingToken": {
-      "symbol": "BANANA",
-      "address": {
-        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
-        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
-        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
-        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
-      },
-      "decimals": 18,
-      "active": true
-    },
-    "rewardToken": null,
-    "contractAddress": {
-      "56": "0x33a8CE49cFBdeF61e5E494f769b5626d395a56f3",
-      "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
-    },
-    "poolCategory": "Core",
-    "projectLink": "https://wyverntoken.com/",
-    "harvest": true,
-    "tokenPerBlock": "1352.941671296",
-    "sortOrder": 5,
-    "reflect": true,
-    "isFinished": true,
-    "tokenDecimals": 9
-  },
-  {
-    "sousId": 52,
-    "tokenName": "BOG",
-    "image": "BOG.svg",
-    "stakingToken": {
-      "symbol": "BANANA",
-      "address": {
-        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
-        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
-        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
-        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
-      },
-      "decimals": 18,
-      "active": true
-    },
-    "rewardToken": null,
-    "contractAddress": {
-      "56": "0x1851a14b9b6bcd55b57da6bfd11f7fb5ae8c3d01",
-      "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
-    },
-    "poolCategory": "Core",
-    "projectLink": "https://bogged.finance/",
-    "twitter": "https://twitter.com/boggedfinance",
-    "harvest": true,
-    "tokenPerBlock": "0.05787037037037037",
-    "sortOrder": 4,
-    "reflect": false,
-    "isFinished": true,
-    "tokenDecimals": 18
   },
   {
     "sousId": 55,
@@ -694,36 +516,6 @@
     "tokenDecimals": 18
   },
   {
-    "sousId": 56,
-    "tokenName": "SCAM",
-    "image": "SCAM.png",
-    "stakingToken": {
-      "symbol": "BANANA",
-      "address": {
-        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
-        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
-        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
-        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
-      },
-      "decimals": 18,
-      "active": true
-    },
-    "rewardToken": null,
-    "contractAddress": {
-      "56": "0x49605d4d0bdf049a9c3f20f59e066662a086a9a8",
-      "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
-    },
-    "poolCategory": "Core",
-    "projectLink": "https://scamily.io/",
-    "twitter": "https://twitter.com/SCAMBSC",
-    "harvest": true,
-    "tokenPerBlock": "1666.6666666666",
-    "sortOrder": 4,
-    "reflect": false,
-    "isFinished": true,
-    "tokenDecimals": 10
-  },
-  {
     "sousId": 58,
     "tokenName": "SKILL",
     "image": "SKILL.svg",
@@ -738,7 +530,17 @@
       "decimals": 18,
       "active": true
     },
-    "rewardToken": null,
+    "rewardToken": {
+      "symbol": "SKILL",
+      "address": {
+        "1": "",
+        "56": "0x154a9f9cbd3449ad22fdae23044319d6ef2a1fab",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
     "contractAddress": {
       "56": "0x92f5927fb750593b00ac933d296d9230d6f8b421",
       "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
@@ -752,66 +554,6 @@
     "reflect": false,
     "isFinished": true,
     "tokenDecimals": 18
-  },
-  {
-    "sousId": 30,
-    "tokenName": "bxBTC",
-    "image": "bxBTC.png",
-    "stakingToken": {
-      "symbol": "BANANA",
-      "address": {
-        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
-        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
-        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
-        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
-      },
-      "decimals": 18,
-      "active": true
-    },
-    "rewardToken": null,
-    "contractAddress": {
-      "56": "0xd65f1319f6408C03EBA7f27e156391784492A9EF",
-      "97": "0x3996F919980778cb0fc1982087cAc01089e33fe7"
-    },
-    "poolCategory": "Core",
-    "projectLink": "https://xbtc.fi/",
-    "twitter": "https://twitter.com/XBTC_Official",
-    "harvest": true,
-    "tokenPerBlock": "0",
-    "sortOrder": 999,
-    "reflect": false,
-    "isFinished": true,
-    "bonusEndBlock": 8851420,
-    "tokenDecimals": 9
-  },
-  {
-    "sousId": 1,
-    "tokenName": "BNB",
-    "stakingToken": {
-      "symbol": "BANANA",
-      "address": {
-        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
-        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
-        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
-        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
-      },
-      "decimals": 18,
-      "active": true
-    },
-    "rewardToken": null,
-    "contractAddress": {
-      "56": "0x0245c697a96045183048cdf18e9abae5b2237ff6",
-      "97": "0x88777a814946cd8eb80e7029eedf05cc6cf34168"
-    },
-    "poolCategory": "Core",
-    "projectLink": "https://research.binance.com/en/projects/bnb",
-    "twitter": "https://twitter.com/BNBCHAIN",
-    "harvest": true,
-    "tokenPerBlock": "0.00069444",
-    "sortOrder": 999,
-    "isFinished": true,
-    "tokenDecimals": 18,
-    "displayDecimals": 5
   },
   {
     "sousId": 62,
@@ -849,66 +591,6 @@
     "harvest": true,
     "tokenPerBlock": "0.013778549382716049",
     "sortOrder": 1,
-    "reflect": false,
-    "isFinished": true,
-    "tokenDecimals": 18
-  },
-  {
-    "sousId": 67,
-    "tokenName": "CAPS",
-    "image": "CAPS.svg",
-    "stakingToken": {
-      "symbol": "BANANA",
-      "address": {
-        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
-        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
-        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
-        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
-      },
-      "decimals": 18,
-      "active": true
-    },
-    "rewardToken": null,
-    "contractAddress": {
-      "56": "0x99dc608804adf5c5e9701b829fefbd618da14c5b",
-      "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
-    },
-    "poolCategory": "Core",
-    "projectLink": "https://www.ternoa.com/",
-    "twitter": "https://twitter.com/ternoa_",
-    "harvest": true,
-    "tokenPerBlock": "1.736111111111111111",
-    "sortOrder": 2,
-    "reflect": false,
-    "isFinished": true,
-    "tokenDecimals": 18
-  },
-  {
-    "sousId": 68,
-    "tokenName": "BIRB",
-    "image": "BIRB.svg",
-    "stakingToken": {
-      "symbol": "GNANA",
-      "address": {
-        "1": "",
-        "56": "0xdDb3Bd8645775F59496c821E4F55A7eA6A6dc299",
-        "97": "0xf693bDA9D3C56D5F9165c8633d9098e3C4Ae495A",
-        "137": ""
-      },
-      "decimals": 18,
-      "active": true
-    },
-    "rewardToken": null,
-    "contractAddress": {
-      "56": "0xaffd843b548f70cc586cdecb2dd0e85be5349e96",
-      "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
-    },
-    "poolCategory": "ApeZone",
-    "projectLink": "https://birb.co/",
-    "twitter": "https://twitter.com/BirbDefi",
-    "harvest": true,
-    "tokenPerBlock": "5.787037037037037037",
-    "sortOrder": 2,
     "reflect": false,
     "isFinished": true,
     "tokenDecimals": 18
@@ -1008,7 +690,17 @@
       "decimals": 18,
       "active": true
     },
-    "rewardToken": null,
+    "rewardToken": {
+      "symbol": "POTS",
+      "address": {
+        "1": "",
+        "56": "0x3Fcca8648651E5b974DD6d3e50F61567779772A8",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
     "contractAddress": {
       "56": "0x4632d4ff6312c9a00c6440c9271f0061aaa49a4b",
       "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
@@ -1098,36 +790,6 @@
     "twitter": "https://twitter.com/hotcrosscom",
     "harvest": true,
     "tokenPerBlock": "0.54976851851",
-    "sortOrder": 1,
-    "reflect": false,
-    "isFinished": true,
-    "tokenDecimals": 18
-  },
-  {
-    "sousId": 82,
-    "tokenName": "BABI",
-    "image": "BABI.svg",
-    "stakingToken": {
-      "symbol": "GNANA",
-      "address": {
-        "1": "",
-        "56": "0xdDb3Bd8645775F59496c821E4F55A7eA6A6dc299",
-        "97": "0xf693bDA9D3C56D5F9165c8633d9098e3C4Ae495A",
-        "137": ""
-      },
-      "decimals": 18,
-      "active": true
-    },
-    "rewardToken": null,
-    "contractAddress": {
-      "56": "0xbc2329abb85e0a3dc7e5bfd01901374bd4162831",
-      "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
-    },
-    "poolCategory": "ApeZone",
-    "projectLink": "https://babylons.io/",
-    "twitter": "https://twitter.com/BabylonsNFT",
-    "harvest": true,
-    "tokenPerBlock": "1.860119047619047619",
     "sortOrder": 1,
     "reflect": false,
     "isFinished": true,
