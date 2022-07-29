@@ -78,6 +78,86 @@
     "tokenDecimals": 18
   },
   {
+    "sousId": 215,
+    "tokenName": "HEC",
+    "image": "HEC.svg",
+    "stakingToken": {
+      "symbol": "BANANA",
+      "address": {
+        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "rewardToken": {
+      "symbol": "HEC",
+      "address": {
+        "1": "",
+        "56": "0x638EEBe886B0e9e7C6929E69490064a6C94d204d",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 9,
+      "active": true
+    },
+    "contractAddress": {
+      "56": "0x973975F0f5A265902e19088B7B106c9a688DE697",
+      "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
+    },
+    "poolCategory": "ApeZone",
+    "projectLink": "https://hector.network/",
+    "twitter": "https://twitter.com/Hector_Network",
+    "harvest": true,
+    "tokenPerBlock": "0.001345486",
+    "sortOrder": 1,
+    "reflect": false,
+    "isFinished": false,
+    "tokenDecimals": 9
+  },
+  {
+    "sousId": 216,
+    "tokenName": "TOR",
+    "image": "TOR.svg",
+    "stakingToken": {
+      "symbol": "GNANA",
+      "address": {
+        "1": "",
+        "56": "0xdDb3Bd8645775F59496c821E4F55A7eA6A6dc299",
+        "97": "0xf693bDA9D3C56D5F9165c8633d9098e3C4Ae495A",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "rewardToken": {
+      "symbol": "TOR",
+      "address": {
+        "1": "",
+        "56": "0x1d6Cbdc6b29C6afBae65444a1f65bA9252b8CA83",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "contractAddress": {
+      "56": "0x09A536D113e7B298598c7902F6435F9b50b20D6C",
+      "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
+    },
+    "poolCategory": "ApeZone",
+    "projectLink": "https://hector.network/",
+    "twitter": "https://twitter.com/Hector_Network",
+    "harvest": true,
+    "tokenPerBlock": "0.019097222222222222",
+    "sortOrder": 1,
+    "reflect": false,
+    "isFinished": false,
+    "tokenDecimals": 18
+  },
+  {
     "sousId": 212,
     "tokenName": "RADAR",
     "image": "RADAR.png",
@@ -4710,86 +4790,6 @@
     "twitter": "https://twitter.com/HelloTelos",
     "harvest": true,
     "tokenPerBlock": "0.028645833330000000",
-    "sortOrder": 1,
-    "reflect": false,
-    "isFinished": false,
-    "tokenDecimals": 18
-  },
-  {
-    "sousId": 215,
-    "tokenName": "HEC",
-    "image": "HEC.svg",
-    "stakingToken": {
-      "symbol": "BANANA",
-      "address": {
-        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
-        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
-        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
-        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
-      },
-      "decimals": 18,
-      "active": true
-    },
-    "rewardToken": {
-      "symbol": "HEC",
-      "address": {
-        "1": "",
-        "56": "0x638EEBe886B0e9e7C6929E69490064a6C94d204d",
-        "97": "",
-        "137": ""
-      },
-      "decimals": 9,
-      "active": true
-    },
-    "contractAddress": {
-      "56": "0x973975F0f5A265902e19088B7B106c9a688DE697",
-      "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
-    },
-    "poolCategory": "ApeZone",
-    "projectLink": "https://hector.network/",
-    "twitter": "https://twitter.com/Hector_Network",
-    "harvest": true,
-    "tokenPerBlock": "0.001345486",
-    "sortOrder": 1,
-    "reflect": false,
-    "isFinished": false,
-    "tokenDecimals": 9
-  },
-  {
-    "sousId": 216,
-    "tokenName": "TOR",
-    "image": "TOR.svg",
-    "stakingToken": {
-      "symbol": "GNANA",
-      "address": {
-        "1": "",
-        "56": "0xdDb3Bd8645775F59496c821E4F55A7eA6A6dc299",
-        "97": "0xf693bDA9D3C56D5F9165c8633d9098e3C4Ae495A",
-        "137": ""
-      },
-      "decimals": 18,
-      "active": true
-    },
-    "rewardToken": {
-      "symbol": "TOR",
-      "address": {
-        "1": "",
-        "56": "0x1d6Cbdc6b29C6afBae65444a1f65bA9252b8CA83",
-        "97": "",
-        "137": ""
-      },
-      "decimals": 18,
-      "active": true
-    },
-    "contractAddress": {
-      "56": "0x09A536D113e7B298598c7902F6435F9b50b20D6C",
-      "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
-    },
-    "poolCategory": "ApeZone",
-    "projectLink": "https://hector.network/",
-    "twitter": "https://twitter.com/Hector_Network",
-    "harvest": true,
-    "tokenPerBlock": "0.019097222222222222",
     "sortOrder": 1,
     "reflect": false,
     "isFinished": false,
