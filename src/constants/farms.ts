@@ -3237,6 +3237,40 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: tokens.busd.address,
     projectLink: 'https://gravis.finance/',
   },
+  {
+    pid: 209,
+    image: 'HEC.svg',
+    lpSymbol: 'HEC-BNB',
+    lpAddresses: {
+      [ChainId.BSC_TESTNET]: '0xed89477d619c7e73f752d5fc7be60308ceb63663',
+      [ChainId.BSC]: '0xC0687a3cF463f3be0B021d6F41551584D124d9C5',
+    },
+    tokenSymbol: 'HEC',
+    tokenAddresses: {
+      [ChainId.BSC_TESTNET]: '0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a',
+      [ChainId.BSC]: '0x638EEBe886B0e9e7C6929E69490064a6C94d204d',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: tokens.wbnb.address,
+    projectLink: 'https://hector.network/',
+  },
+  {
+    pid: 210,
+    image: 'TOR.svg',
+    lpSymbol: 'TOR-BUSD',
+    lpAddresses: {
+      [ChainId.BSC_TESTNET]: '0xed89477d619c7e73f752d5fc7be60308ceb63663',
+      [ChainId.BSC]: '0x8B343c2Ba35d218111d56799F83EdfC3066faA2C',
+    },
+    tokenSymbol: 'TOR',
+    tokenAddresses: {
+      [ChainId.BSC_TESTNET]: '0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a',
+      [ChainId.BSC]: '0x1d6Cbdc6b29C6afBae65444a1f65bA9252b8CA83',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: tokens.busd.address,
+    projectLink: 'https://hector.network/',
+  },
   // CHECK THE TOP FOR HIGHER PID BEFORE ADDING
 ]
 

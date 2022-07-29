@@ -1477,6 +1477,28 @@ const tokens: Record<string, Token> = {
     decimals: 18,
     active: true,
   },
+  hec: {
+    symbol: 'HEC',
+    address: {
+      [ChainId.BSC]: '0x638EEBe886B0e9e7C6929E69490064a6C94d204d',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 9,
+    active: true,
+  },
+  tor: {
+    symbol: 'TOR',
+    address: {
+      [ChainId.BSC]: '0x1d6Cbdc6b29C6afBae65444a1f65bA9252b8CA83',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+  },
 
   ever: {
     symbol: 'EVER',

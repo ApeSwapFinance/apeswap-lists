@@ -4168,5 +4168,49 @@
       "137": ""
     },
     "projectLink": "https://gravis.finance/"
+  },
+  {
+    "pid": 209,
+    "image": "HEC.svg",
+    "lpSymbol": "HEC-BNB",
+    "lpAddresses": {
+      "56": "0xC0687a3cF463f3be0B021d6F41551584D124d9C5",
+      "97": "0xed89477d619c7e73f752d5fc7be60308ceb63663"
+    },
+    "tokenSymbol": "HEC",
+    "tokenAddresses": {
+      "56": "0x638EEBe886B0e9e7C6929E69490064a6C94d204d",
+      "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a"
+    },
+    "quoteTokenSymbol": "BNB",
+    "quoteTokenAdresses": {
+      "1": "",
+      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+    },
+    "projectLink": "https://hector.network/"
+  },
+  {
+    "pid": 210,
+    "image": "TOR.svg",
+    "lpSymbol": "TOR-BUSD",
+    "lpAddresses": {
+      "56": "0x8B343c2Ba35d218111d56799F83EdfC3066faA2C",
+      "97": "0xed89477d619c7e73f752d5fc7be60308ceb63663"
+    },
+    "tokenSymbol": "TOR",
+    "tokenAddresses": {
+      "56": "0x1d6Cbdc6b29C6afBae65444a1f65bA9252b8CA83",
+      "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a"
+    },
+    "quoteTokenSymbol": "BUSD",
+    "quoteTokenAdresses": {
+      "1": "",
+      "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
+      "137": ""
+    },
+    "projectLink": "https://hector.network/"
   }
 ]
