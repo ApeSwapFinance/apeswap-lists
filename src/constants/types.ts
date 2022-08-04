@@ -233,4 +233,5 @@ export interface IaoConfig {
   startBlock?: number
   burnedTxUrl?: string
   expires?: number
+  vestingTimeSeconds?: number
 }
