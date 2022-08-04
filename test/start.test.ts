@@ -1,4 +1,4 @@
-import { farms, bills, pools, jungleFarms, tokens, vaults, dualFarms, nfaStakingPools } from '../src/constants'
+import { farms, bills, pools, jungleFarms, tokens, vaults, dualFarms, nfaStakingPools, iaos } from '../src/constants'
 import billsJson from '../config/bills.json'
 import farmsJson from '../config/farms.json'
 import jungleFarmsJson from '../config/jungleFarms.json'
@@ -7,6 +7,7 @@ import tokensJson from '../config/tokens.json'
 import vaultsJson from '../config/vaults.json'
 import dualFarmsJson from '../config/dualFarms.json'
 import nfaStakingPoolJson from '../config/nfaStakingPools.json'
+import iaosJson from '../config/iaos.json'
 
 const stringifiedBills = JSON.stringify(bills, null, 2)
 const stringifiedBillsJson = JSON.stringify(billsJson, null, 2)
@@ -32,6 +33,9 @@ const stringifiedDualFarmsJson = JSON.stringify(dualFarmsJson, null, 2)
 const stringifyNfaStakingPools = JSON.stringify(nfaStakingPools, null, 2)
 const stringifiedNfaStakingPoolsJson = JSON.stringify(nfaStakingPoolJson, null, 2)
 
+const stringifyIaos = JSON.stringify(iaos, null, 2)
+const stringifiedIaosJson = JSON.stringify(iaosJson, null, 2)
+
 describe('JSON files are most recent and are correct', () => {
   it('Test if bills have been generated', () => {
     expect(stringifiedBillsJson).toBe(stringifiedBills)
@@ -56,5 +60,8 @@ describe('JSON files are most recent and are correct', () => {
   })
   it('Test if nfa staking pools have been generated', () => {
     expect(stringifiedNfaStakingPoolsJson).toBe(stringifyNfaStakingPools)
+  })
+  it('Test if iaos have been generated', () => {
+    expect(stringifiedIaosJson).toBe(stringifyIaos)
   })
 })
