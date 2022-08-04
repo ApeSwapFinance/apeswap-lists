@@ -2,8 +2,6 @@ import { ChainId } from '@apeswapfinance/sdk'
 import tokens from './tokens'
 import { BillsConfig } from './types'
 
-// 0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8
-
 const bills: BillsConfig[] = [
   {
     index: 13,
