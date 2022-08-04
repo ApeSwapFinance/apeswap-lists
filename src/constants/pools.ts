@@ -5,7 +5,8 @@ import tokens from './tokens'
 
 const BANANA_PER_BLOCK = new BigNumber(10)
 
-// Next Sous ID should be: 214
+// Current Sous ID is 217
+
 const pools: PoolConfig[] = [
   {
     sousId: 0,
@@ -2400,6 +2401,26 @@ const pools: PoolConfig[] = [
     twitter: 'https://twitter.com/HelloTelos',
     harvest: true,
     tokenPerBlock: `0.028645833330000000`,
+    sortOrder: 1,
+    reflect: false,
+    isFinished: false,
+    tokenDecimals: 18,
+  },
+  {
+    sousId: 217,
+    tokenName: 'MHUNT',
+    image: 'MHUNT.svg',
+    stakingToken: tokens.gnana,
+    rewardToken: tokens.mhunt,
+    contractAddress: {
+      97: '0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d',
+      56: '0x627AE8d0c943B19e80B3338b45a9E4Ff81Cb8A7E',
+    },
+    poolCategory: PoolCategory.APEZONE,
+    projectLink: 'https://metashooter.gg/',
+    twitter: 'https://twitter.com/MetaShooter_gg',
+    harvest: true,
+    tokenPerBlock: `0.381944444444444444`,
     sortOrder: 1,
     reflect: false,
     isFinished: false,

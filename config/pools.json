@@ -4796,6 +4796,46 @@
     "tokenDecimals": 18
   },
   {
+    "sousId": 217,
+    "tokenName": "MHUNT",
+    "image": "MHUNT.svg",
+    "stakingToken": {
+      "symbol": "GNANA",
+      "address": {
+        "1": "",
+        "56": "0xdDb3Bd8645775F59496c821E4F55A7eA6A6dc299",
+        "97": "0xf693bDA9D3C56D5F9165c8633d9098e3C4Ae495A",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "rewardToken": {
+      "symbol": "MHUNT",
+      "address": {
+        "1": "",
+        "56": "0x2C717059b366714d267039aF8F59125CAdce6D8c",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "contractAddress": {
+      "56": "0x627AE8d0c943B19e80B3338b45a9E4Ff81Cb8A7E",
+      "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
+    },
+    "poolCategory": "ApeZone",
+    "projectLink": "https://metashooter.gg/",
+    "twitter": "https://twitter.com/MetaShooter_gg",
+    "harvest": true,
+    "tokenPerBlock": "0.381944444444444444",
+    "sortOrder": 1,
+    "reflect": false,
+    "isFinished": false,
+    "tokenDecimals": 18
+  },
+  {
     "sousId": 214,
     "tokenName": "PXP",
     "image": "PXP.png",
