@@ -207,3 +207,30 @@ export interface NfaStakingPoolConfig {
   isFinished: boolean
   endBlock: number
 }
+
+export interface IaoConfig {
+  id: string
+  isActive: boolean
+  isLinear: boolean
+  address: string
+  name: string
+  subTitle?: string
+  description?: string
+  launchDate: string
+  launchTime: string
+  saleAmount: string
+  raiseAmount: string
+  totalAmountRaised?: string
+  bananaToBurn?: string
+  projectSiteUrl: string
+  currency: string
+  currencyAddress: string
+  offeringCurrency: string
+  tokenDecimals: number
+  releaseBlockNumber: number
+  vestingTime?: string
+  vesting?: boolean
+  startBlock?: number
+  burnedTxUrl?: string
+  expires?: number
+}
