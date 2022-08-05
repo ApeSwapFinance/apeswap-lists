@@ -1665,6 +1665,17 @@ const tokens: Record<string, Token> = {
     decimals: 18,
     active: true,
   },
+  mhunt: {
+    symbol: 'MHUNT',
+    address: {
+      [ChainId.BSC]: '0x2C717059b366714d267039aF8F59125CAdce6D8c',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+  },
 
   // Test LPs
 

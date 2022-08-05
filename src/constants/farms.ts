@@ -2,8 +2,6 @@ import { ChainId } from '@apeswapfinance/sdk'
 import tokens from './tokens'
 import { FarmConfig, QuoteToken } from './types'
 
-// Next PID should be: 209
-
 const farms: FarmConfig[] = [
   {
     pid: 0,
@@ -55,42 +53,6 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: tokens.busd.address,
   },
-
-  // Optional: Place latest farm here
-  {
-    pid: 209,
-    image: 'HEC.svg',
-    lpSymbol: 'HEC-BNB',
-    lpAddresses: {
-      [ChainId.BSC_TESTNET]: '0xed89477d619c7e73f752d5fc7be60308ceb63663',
-      [ChainId.BSC]: '0xC0687a3cF463f3be0B021d6F41551584D124d9C5',
-    },
-    tokenSymbol: 'HEC',
-    tokenAddresses: {
-      [ChainId.BSC_TESTNET]: '0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a',
-      [ChainId.BSC]: '0x638EEBe886B0e9e7C6929E69490064a6C94d204d',
-    },
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: tokens.wbnb.address,
-    projectLink: 'https://hector.network/',
-  },
-  {
-    pid: 210,
-    image: 'TOR.svg',
-    lpSymbol: 'TOR-BUSD',
-    lpAddresses: {
-      [ChainId.BSC_TESTNET]: '0xed89477d619c7e73f752d5fc7be60308ceb63663',
-      [ChainId.BSC]: '0x8B343c2Ba35d218111d56799F83EdfC3066faA2C',
-    },
-    tokenSymbol: 'TOR',
-    tokenAddresses: {
-      [ChainId.BSC_TESTNET]: '0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a',
-      [ChainId.BSC]: '0x1d6Cbdc6b29C6afBae65444a1f65bA9252b8CA83',
-    },
-    quoteTokenSymbol: QuoteToken.BUSD,
-    quoteTokenAdresses: tokens.busd.address,
-    projectLink: 'https://hector.network/',
-  },
   {
     pid: 3,
     image: '',
@@ -122,79 +84,6 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: tokens.wbnb.address,
-  },
-  {
-    pid: 28,
-    image: '',
-    lpSymbol: 'NUTS-BNB',
-    lpAddresses: {
-      [ChainId.BSC_TESTNET]: '0xed89477d619c7e73f752d5fc7be60308ceb63663',
-      [ChainId.BSC]: '0x789fd04BFbC64169104466Ee0d48716E0452Bcf6', // NUTS-BNB BananaPair
-    },
-    tokenSymbol: 'NUTS',
-    tokenAddresses: {
-      [ChainId.BSC_TESTNET]: '0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a',
-      [ChainId.BSC]: '0x8893d5fa71389673c5c4b9b3cb4ee1ba71207556', // NUTS Token
-    },
-    style: 'deprecated',
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: tokens.wbnb.address,
-    projectLink: 'https://squirrel.finance/',
-  },
-  {
-    pid: 42,
-    image: 'bxBTC.png',
-    lpSymbol: 'BXBTC-BNB',
-    lpAddresses: {
-      [ChainId.BSC_TESTNET]: '0xed89477d619c7e73f752d5fc7be60308ceb63663',
-      [ChainId.BSC]: '0xc2feF4BEC915315beF9f6E8a06b2516E64D29D06', // BXBTC-BNB BananaPair
-    },
-    tokenSymbol: 'BXBTC',
-    tokenAddresses: {
-      [ChainId.BSC_TESTNET]: '0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a',
-      [ChainId.BSC]: '0xab111d5948470ba73d98d66bbdf2798fbe093546', // AUTO Token
-    },
-    style: 'deprecated',
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: tokens.wbnb.address,
-    projectLink: 'https://xbtc.fi/',
-  },
-  {
-    pid: 50,
-    image: 'NRV.png',
-    lpSymbol: 'NRV-BNB',
-    lpAddresses: {
-      [ChainId.BSC_TESTNET]: '0xed89477d619c7e73f752d5fc7be60308ceb63663',
-      [ChainId.BSC]: '0x876ba49c4f438643ab33f871e14a54cbb897df49', // NRV-BNB BananaPair
-    },
-    tokenSymbol: 'NRV',
-    tokenAddresses: {
-      [ChainId.BSC_TESTNET]: '0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a',
-      [ChainId.BSC]: '0x42F6f551ae042cBe50C739158b4f0CAC0Edb9096', // WATCH Token
-    },
-    style: 'deprecated',
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: tokens.wbnb.address,
-    projectLink: 'https://www.nerve.fi',
-  },
-  {
-    pid: 43,
-    image: '',
-    lpSymbol: 'VBSWAP-BNB',
-    lpAddresses: {
-      [ChainId.BSC_TESTNET]: '0xed89477d619c7e73f752d5fc7be60308ceb63663',
-      [ChainId.BSC]: '0xD59b4f88Da3b5cfc70CdF9B61c53Df475d4D4f47', // VBSWAP-BNB BananaPair
-    },
-    tokenSymbol: 'VBSWAP',
-    tokenAddresses: {
-      [ChainId.BSC_TESTNET]: '0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a',
-      [ChainId.BSC]: '0x4f0ed527e8a95ecaa132af214dfd41f30b361600', // VBSWAP Token
-    },
-    style: 'deprecated',
-    disableApr: true,
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: tokens.wbnb.address,
-    projectLink: 'https://valuedefi.io/',
   },
   {
     pid: 30,
@@ -3271,7 +3160,57 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: tokens.wbnb.address,
     projectLink: 'https://www.benjibananas.com/',
   },
-  // CHECK THE TOP FOR HIGHER PID BEFORE ADDING
+  {
+    pid: 209,
+    image: 'HEC.svg',
+    lpSymbol: 'HEC-BNB',
+    lpAddresses: {
+      [ChainId.BSC_TESTNET]: '0xed89477d619c7e73f752d5fc7be60308ceb63663',
+      [ChainId.BSC]: '0xC0687a3cF463f3be0B021d6F41551584D124d9C5',
+    },
+    tokenSymbol: 'HEC',
+    tokenAddresses: {
+      [ChainId.BSC_TESTNET]: '0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a',
+      [ChainId.BSC]: '0x638EEBe886B0e9e7C6929E69490064a6C94d204d',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: tokens.wbnb.address,
+    projectLink: 'https://hector.network/',
+  },
+  {
+    pid: 210,
+    image: 'TOR.svg',
+    lpSymbol: 'TOR-BUSD',
+    lpAddresses: {
+      [ChainId.BSC_TESTNET]: '0xed89477d619c7e73f752d5fc7be60308ceb63663',
+      [ChainId.BSC]: '0x8B343c2Ba35d218111d56799F83EdfC3066faA2C',
+    },
+    tokenSymbol: 'TOR',
+    tokenAddresses: {
+      [ChainId.BSC_TESTNET]: '0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a',
+      [ChainId.BSC]: '0x1d6Cbdc6b29C6afBae65444a1f65bA9252b8CA83',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: tokens.busd.address,
+    projectLink: 'https://hector.network/',
+  },
+  {
+    pid: 211,
+    image: 'MHUNT.svg',
+    lpSymbol: 'MHUNT-BUSD',
+    lpAddresses: {
+      [ChainId.BSC_TESTNET]: '0xed89477d619c7e73f752d5fc7be60308ceb63663',
+      [ChainId.BSC]: '0xFBf322C7459AD405109e4ECC907559843571C782',
+    },
+    tokenSymbol: 'MHUNT',
+    tokenAddresses: {
+      [ChainId.BSC_TESTNET]: '0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a',
+      [ChainId.BSC]: '0x2c717059b366714d267039af8f59125cadce6d8c',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: tokens.busd.address,
+    projectLink: 'https://metashooter.gg/',
+  },
 ]
 
 export default farms
