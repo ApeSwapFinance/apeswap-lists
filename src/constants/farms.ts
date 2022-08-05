@@ -86,23 +86,6 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: tokens.wbnb.address,
   },
   {
-    pid: 211,
-    image: 'MHUNT.svg',
-    lpSymbol: 'MHUNT-BUSD',
-    lpAddresses: {
-      [ChainId.BSC_TESTNET]: '0xed89477d619c7e73f752d5fc7be60308ceb63663',
-      [ChainId.BSC]: '0xFBf322C7459AD405109e4ECC907559843571C782',
-    },
-    tokenSymbol: 'MHUNT',
-    tokenAddresses: {
-      [ChainId.BSC_TESTNET]: '0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a',
-      [ChainId.BSC]: '0x2c717059b366714d267039af8f59125cadce6d8c',
-    },
-    quoteTokenSymbol: QuoteToken.BUSD,
-    quoteTokenAdresses: tokens.busd.address,
-    projectLink: 'https://metashooter.gg/',
-  },
-  {
     pid: 30,
     image: 'KEYFI.png',
     lpSymbol: 'KEYFI-BNB',
@@ -3210,6 +3193,23 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: tokens.busd.address,
     projectLink: 'https://hector.network/',
+  },
+  {
+    pid: 211,
+    image: 'MHUNT.svg',
+    lpSymbol: 'MHUNT-BUSD',
+    lpAddresses: {
+      [ChainId.BSC_TESTNET]: '0xed89477d619c7e73f752d5fc7be60308ceb63663',
+      [ChainId.BSC]: '0xFBf322C7459AD405109e4ECC907559843571C782',
+    },
+    tokenSymbol: 'MHUNT',
+    tokenAddresses: {
+      [ChainId.BSC_TESTNET]: '0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a',
+      [ChainId.BSC]: '0x2c717059b366714d267039af8f59125cadce6d8c',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: tokens.busd.address,
+    projectLink: 'https://metashooter.gg/',
   },
 ]
 
