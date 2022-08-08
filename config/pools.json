@@ -4836,6 +4836,46 @@
     "tokenDecimals": 18
   },
   {
+    "sousId": 218,
+    "tokenName": "BLID",
+    "image": "BLID.svg",
+    "stakingToken": {
+      "symbol": "BANANA",
+      "address": {
+        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "rewardToken": {
+      "symbol": "BLID",
+      "address": {
+        "1": "",
+        "56": "0x766AFcf83Fd5eaf884B3d529b432CA27A6d84617",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "contractAddress": {
+      "56": "0xf041F30449B414D47534E1acFfF6bE68f59CddAB",
+      "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
+    },
+    "poolCategory": "ApeZone",
+    "projectLink": "https://bolide.fi/",
+    "twitter": "https://twitter.com/Bolide_fi",
+    "harvest": true,
+    "tokenPerBlock": "0.380760416666666666",
+    "sortOrder": 1,
+    "reflect": false,
+    "isFinished": false,
+    "tokenDecimals": 18
+  },
+  {
     "sousId": 214,
     "tokenName": "PXP",
     "image": "PXP.png",

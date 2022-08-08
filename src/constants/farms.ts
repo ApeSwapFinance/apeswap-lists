@@ -2,6 +2,8 @@ import { ChainId } from '@apeswapfinance/sdk'
 import tokens from './tokens'
 import { FarmConfig, QuoteToken } from './types'
 
+// Current PID is 212
+
 const farms: FarmConfig[] = [
   {
     pid: 0,
@@ -3210,6 +3212,23 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: tokens.busd.address,
     projectLink: 'https://metashooter.gg/',
+  },
+  {
+    pid: 212,
+    image: 'BLID.svg',
+    lpSymbol: 'BLID-USDT',
+    lpAddresses: {
+      [ChainId.BSC_TESTNET]: '0xed89477d619c7e73f752d5fc7be60308ceb63663',
+      [ChainId.BSC]: '0xc403a4b51d824eeb3f076bcaf4416dbbfde2016b',
+    },
+    tokenSymbol: 'BLID',
+    tokenAddresses: {
+      [ChainId.BSC_TESTNET]: '0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a',
+      [ChainId.BSC]: '0x766AFcf83Fd5eaf884B3d529b432CA27A6d84617',
+    },
+    quoteTokenSymbol: QuoteToken.USDT,
+    quoteTokenAdresses: tokens.usdt.address,
+    projectLink: 'https://bolide.fi/',
   },
 ]
 

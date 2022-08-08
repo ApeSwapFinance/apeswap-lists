@@ -4141,5 +4141,27 @@
       "137": ""
     },
     "projectLink": "https://metashooter.gg/"
+  },
+  {
+    "pid": 212,
+    "image": "BLID.svg",
+    "lpSymbol": "BLID-USDT",
+    "lpAddresses": {
+      "56": "0xc403a4b51d824eeb3f076bcaf4416dbbfde2016b",
+      "97": "0xed89477d619c7e73f752d5fc7be60308ceb63663"
+    },
+    "tokenSymbol": "BLID",
+    "tokenAddresses": {
+      "56": "0x766AFcf83Fd5eaf884B3d529b432CA27A6d84617",
+      "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a"
+    },
+    "quoteTokenSymbol": "USDT",
+    "quoteTokenAdresses": {
+      "1": "",
+      "56": "0x55d398326f99059ff775485246999027b3197955",
+      "97": "",
+      "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"
+    },
+    "projectLink": "https://bolide.fi/"
   }
 ]

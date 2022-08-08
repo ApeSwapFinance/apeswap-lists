@@ -5,7 +5,7 @@ import tokens from './tokens'
 
 const BANANA_PER_BLOCK = new BigNumber(10)
 
-// Current Sous ID is 217
+// Current Sous ID is 218
 
 const pools: PoolConfig[] = [
   {
@@ -2421,6 +2421,26 @@ const pools: PoolConfig[] = [
     twitter: 'https://twitter.com/MetaShooter_gg',
     harvest: true,
     tokenPerBlock: `0.381944444444444444`,
+    sortOrder: 1,
+    reflect: false,
+    isFinished: false,
+    tokenDecimals: 18,
+  },
+  {
+    sousId: 218,
+    tokenName: 'BLID',
+    image: 'BLID.svg',
+    stakingToken: tokens.banana,
+    rewardToken: tokens.blid,
+    contractAddress: {
+      97: '0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d',
+      56: '0xf041F30449B414D47534E1acFfF6bE68f59CddAB',
+    },
+    poolCategory: PoolCategory.APEZONE,
+    projectLink: 'https://bolide.fi/',
+    twitter: 'https://twitter.com/Bolide_fi',
+    harvest: true,
+    tokenPerBlock: `0.380760416666666666`,
     sortOrder: 1,
     reflect: false,
     isFinished: false,

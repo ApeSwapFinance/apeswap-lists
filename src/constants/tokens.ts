@@ -1676,6 +1676,17 @@ const tokens: Record<string, Token> = {
     decimals: 18,
     active: true,
   },
+  blid: {
+    symbol: 'BLID',
+    address: {
+      [ChainId.BSC]: '0x766AFcf83Fd5eaf884B3d529b432CA27A6d84617',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+  },
 
   // Test LPs
 
