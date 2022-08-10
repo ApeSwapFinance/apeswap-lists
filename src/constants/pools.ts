@@ -1543,7 +1543,7 @@ const pools: PoolConfig[] = [
     tokenPerBlock: `0.30365296803652968`,
     sortOrder: 1,
     reflect: false,
-    isFinished: true,
+    isFinished: false,
     tokenDecimals: 18,
   },
   {
