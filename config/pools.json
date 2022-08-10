@@ -78,86 +78,6 @@
     "tokenDecimals": 18
   },
   {
-    "sousId": 212,
-    "tokenName": "RADAR",
-    "image": "RADAR.png",
-    "stakingToken": {
-      "symbol": "GNANA",
-      "address": {
-        "1": "",
-        "56": "0xdDb3Bd8645775F59496c821E4F55A7eA6A6dc299",
-        "97": "0xf693bDA9D3C56D5F9165c8633d9098e3C4Ae495A",
-        "137": ""
-      },
-      "decimals": 18,
-      "active": true
-    },
-    "rewardToken": {
-      "symbol": "RADAR",
-      "address": {
-        "1": "",
-        "56": "0x489580eB70a50515296eF31E8179fF3e77E24965",
-        "97": "",
-        "137": ""
-      },
-      "decimals": 18,
-      "active": true
-    },
-    "contractAddress": {
-      "56": "0x6bE84367AC627617c3d4143fbBD288cC5e9fb7c3",
-      "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
-    },
-    "poolCategory": "ApeZone",
-    "projectLink": "https://dappradar.com/",
-    "twitter": "https://twitter.com/dappradar",
-    "harvest": true,
-    "tokenPerBlock": "0.936383680555555555",
-    "sortOrder": 1,
-    "reflect": false,
-    "isFinished": false,
-    "tokenDecimals": 18
-  },
-  {
-    "sousId": 213,
-    "tokenName": "H2ON",
-    "image": "H2ON.svg",
-    "stakingToken": {
-      "symbol": "GNANA",
-      "address": {
-        "1": "",
-        "56": "0xdDb3Bd8645775F59496c821E4F55A7eA6A6dc299",
-        "97": "0xf693bDA9D3C56D5F9165c8633d9098e3C4Ae495A",
-        "137": ""
-      },
-      "decimals": 18,
-      "active": true
-    },
-    "rewardToken": {
-      "symbol": "H2ON",
-      "address": {
-        "1": "",
-        "56": "0xE0E81c29A68bFDd7c48072fD94e7c58F1f0146C1",
-        "97": "",
-        "137": ""
-      },
-      "decimals": 18,
-      "active": true
-    },
-    "contractAddress": {
-      "56": "0x4ad206384a88d53a80f45407da12dd6af95c1db1",
-      "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
-    },
-    "poolCategory": "ApeZone",
-    "projectLink": "https://h2o-securities.com/",
-    "twitter": "https://twitter.com/H2O_Coin",
-    "harvest": true,
-    "tokenPerBlock": "0.014704861111111111",
-    "sortOrder": 1,
-    "reflect": false,
-    "isFinished": false,
-    "tokenDecimals": 18
-  },
-  {
     "sousId": 20,
     "tokenName": "NAUT",
     "stakingToken": {
@@ -2352,7 +2272,7 @@
     "tokenPerBlock": "0.047315827546296296",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -2392,7 +2312,7 @@
     "tokenPerBlock": "0.031041859567901234",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -2672,7 +2592,7 @@
     "tokenPerBlock": "4.675632804232803902",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -2712,7 +2632,7 @@
     "tokenPerBlock": "0.009620949074074074",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -2752,7 +2672,7 @@
     "tokenPerBlock": "0.033482253086419753",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -2792,7 +2712,7 @@
     "tokenPerBlock": "1.199604552469135802",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -2832,7 +2752,7 @@
     "tokenPerBlock": "0.061574074074074074",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -2912,7 +2832,7 @@
     "tokenPerBlock": "0.82740162037037037",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -2952,7 +2872,7 @@
     "tokenPerBlock": "0.299904899691358024",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -2992,7 +2912,7 @@
     "tokenPerBlock": "1.92418981",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 8
   },
   {
@@ -3032,7 +2952,7 @@
     "tokenPerBlock": "0.036078559027777777",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -3152,7 +3072,7 @@
     "tokenPerBlock": "0.30365296803652968",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -3232,7 +3152,7 @@
     "tokenPerBlock": "0.014892104",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 9
   },
   {
@@ -3312,7 +3232,7 @@
     "tokenPerBlock": "0.25076929012345679",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -3392,7 +3312,7 @@
     "tokenPerBlock": "2601273.148150000",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 9
   },
   {
@@ -3512,7 +3432,7 @@
     "tokenPerBlock": "0.079089506172839506",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -3592,7 +3512,7 @@
     "tokenPerBlock": "0.290167824074074074",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -3632,7 +3552,7 @@
     "tokenPerBlock": "0.09611304012",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -3672,7 +3592,7 @@
     "tokenPerBlock": "0.033096064814814814",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -3752,7 +3672,7 @@
     "tokenPerBlock": "0.073888888888888888",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -3792,7 +3712,7 @@
     "tokenPerBlock": "0.0549",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 4
   },
   {
@@ -3832,7 +3752,7 @@
     "tokenPerBlock": "2.20458545524691358",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -3992,7 +3912,7 @@
     "tokenPerBlock": "0.667348765432098765",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -4272,7 +4192,7 @@
     "tokenPerBlock": "0.496031746031746031",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -4312,7 +4232,7 @@
     "tokenPerBlock": "0.159142939814814814",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -4392,7 +4312,7 @@
     "tokenPerBlock": "0.642746527777777777",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -4432,7 +4352,7 @@
     "tokenPerBlock": "0.01546875",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -4592,7 +4512,7 @@
     "tokenPerBlock": "0.458237847222222222",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -4710,6 +4630,86 @@
     "twitter": "https://twitter.com/HelloTelos",
     "harvest": true,
     "tokenPerBlock": "0.028645833330000000",
+    "sortOrder": 1,
+    "reflect": false,
+    "isFinished": false,
+    "tokenDecimals": 18
+  },
+  {
+    "sousId": 212,
+    "tokenName": "RADAR",
+    "image": "RADAR.png",
+    "stakingToken": {
+      "symbol": "GNANA",
+      "address": {
+        "1": "",
+        "56": "0xdDb3Bd8645775F59496c821E4F55A7eA6A6dc299",
+        "97": "0xf693bDA9D3C56D5F9165c8633d9098e3C4Ae495A",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "rewardToken": {
+      "symbol": "RADAR",
+      "address": {
+        "1": "",
+        "56": "0x489580eB70a50515296eF31E8179fF3e77E24965",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "contractAddress": {
+      "56": "0x6bE84367AC627617c3d4143fbBD288cC5e9fb7c3",
+      "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
+    },
+    "poolCategory": "ApeZone",
+    "projectLink": "https://dappradar.com/",
+    "twitter": "https://twitter.com/dappradar",
+    "harvest": true,
+    "tokenPerBlock": "0.936383680555555555",
+    "sortOrder": 1,
+    "reflect": false,
+    "isFinished": false,
+    "tokenDecimals": 18
+  },
+  {
+    "sousId": 213,
+    "tokenName": "H2ON",
+    "image": "H2ON.svg",
+    "stakingToken": {
+      "symbol": "GNANA",
+      "address": {
+        "1": "",
+        "56": "0xdDb3Bd8645775F59496c821E4F55A7eA6A6dc299",
+        "97": "0xf693bDA9D3C56D5F9165c8633d9098e3C4Ae495A",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "rewardToken": {
+      "symbol": "H2ON",
+      "address": {
+        "1": "",
+        "56": "0xE0E81c29A68bFDd7c48072fD94e7c58F1f0146C1",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "contractAddress": {
+      "56": "0x4ad206384a88d53a80f45407da12dd6af95c1db1",
+      "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
+    },
+    "poolCategory": "ApeZone",
+    "projectLink": "https://h2o-securities.com/",
+    "twitter": "https://twitter.com/H2O_Coin",
+    "harvest": true,
+    "tokenPerBlock": "0.014704861111111111",
     "sortOrder": 1,
     "reflect": false,
     "isFinished": false,
@@ -5123,7 +5123,7 @@
     "harvest": true,
     "tokenPerBlock": "2.864583333333333333",
     "sortOrder": 1,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18,
     "lpStaking": true,
     "isEarnTokenLp": false
@@ -5318,7 +5318,7 @@
     "harvest": true,
     "tokenPerBlock": "0.059799768518518518",
     "sortOrder": 1,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18,
     "lpStaking": true,
     "isEarnTokenLp": false
@@ -5383,7 +5383,7 @@
     "harvest": true,
     "tokenPerBlock": "2.864583333333",
     "sortOrder": 1,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 12,
     "lpStaking": true,
     "isEarnTokenLp": false
@@ -5448,10 +5448,50 @@
     "harvest": true,
     "tokenPerBlock": "0.06875",
     "sortOrder": 1,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18,
     "lpStaking": true,
     "isEarnTokenLp": false
+  },
+  {
+    "sousId": 96,
+    "tokenName": "BANANA",
+    "image": "BANANA.svg",
+    "stakingToken": {
+      "symbol": "OBIE",
+      "address": {
+        "1": "",
+        "56": "0xa18509d20fd01b4990734fd04ba53bad02922787",
+        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "rewardToken": {
+      "symbol": "BANANA",
+      "address": {
+        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "contractAddress": {
+      "56": "0xf1aFc0bfdf33BC74b9896612eAA38058cADfF8f0",
+      "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
+    },
+    "poolCategory": "ApeZone",
+    "projectLink": "",
+    "harvest": true,
+    "tokenPerBlock": "0.000011574074074074",
+    "sortOrder": 1,
+    "reflect": false,
+    "isFinished": false,
+    "tokenDecimals": 18,
+    "forAdmins": true
   },
   {
     "sousId": 123,
@@ -5491,46 +5531,6 @@
     "sortOrder": 1,
     "reflect": false,
     "isFinished": true,
-    "tokenDecimals": 18,
-    "forAdmins": true
-  },
-  {
-    "sousId": 96,
-    "tokenName": "BANANA",
-    "image": "BANANA.svg",
-    "stakingToken": {
-      "symbol": "OBIE",
-      "address": {
-        "1": "",
-        "56": "0xa18509d20fd01b4990734fd04ba53bad02922787",
-        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
-        "137": ""
-      },
-      "decimals": 18,
-      "active": true
-    },
-    "rewardToken": {
-      "symbol": "BANANA",
-      "address": {
-        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
-        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
-        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
-        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
-      },
-      "decimals": 18,
-      "active": true
-    },
-    "contractAddress": {
-      "56": "0xf1aFc0bfdf33BC74b9896612eAA38058cADfF8f0",
-      "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
-    },
-    "poolCategory": "ApeZone",
-    "projectLink": "",
-    "harvest": true,
-    "tokenPerBlock": "0.000011574074074074",
-    "sortOrder": 1,
-    "reflect": false,
-    "isFinished": false,
     "tokenDecimals": 18,
     "forAdmins": true
   },
