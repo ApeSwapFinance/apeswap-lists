@@ -2170,6 +2170,30 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
   },
+  floki: {
+    symbol: 'FLOKI',
+    address: {
+      [ChainId.BSC]: '0xfb5b838b6cfeedc2873ab27866079ac55363d37e',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 9,
+    active: true,
+    lpToken: true,
+  },
+  flokiBnb: {
+    symbol: 'FLOKI-BNB',
+    address: {
+      [ChainId.BSC]: '0xacc22e0ff64e788e6ad569a57d130b9d957494dc',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+    lpToken: true,
+  },
   pxpBnb: {
     symbol: 'PXP-BNB',
     address: {

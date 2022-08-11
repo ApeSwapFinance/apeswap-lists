@@ -114,6 +114,28 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/ape_swap',
   },
   {
+    index: 18,
+    contractAddress: {
+      [ChainId.BSC]: '0x80ef5c5215ff56a12b5e59c2acfc279c763ae34b',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    billType: 'JUNGLE Bill',
+    token: tokens.floki,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.flokiBnb,
+    earnToken: tokens.floki,
+    billNnftAddress: {
+      [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    projectLink: 'https://www.floki.com/',
+    twitter: 'https://twitter.com/realflokiinu',
+  },
+  {
     index: 12,
     contractAddress: {
       [ChainId.BSC]: '0x3f02ce456b9da36352439fbd1897c2233a77e46f',
