@@ -1687,6 +1687,18 @@ const tokens: Record<string, Token> = {
     decimals: 18,
     active: true,
   },
+  floki: {
+    symbol: 'FLOKI',
+    address: {
+      [ChainId.BSC]: '0xfb5b838b6cfeedc2873ab27866079ac55363d37e',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 9,
+    active: true,
+    lpToken: true,
+  },
 
   // Test LPs
 
@@ -2170,18 +2182,6 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
   },
-  floki: {
-    symbol: 'FLOKI',
-    address: {
-      [ChainId.BSC]: '0xfb5b838b6cfeedc2873ab27866079ac55363d37e',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
-    },
-    decimals: 9,
-    active: true,
-    lpToken: true,
-  },
   flokiBnb: {
     symbol: 'FLOKI-BNB',
     address: {
@@ -2198,6 +2198,18 @@ const tokens: Record<string, Token> = {
     symbol: 'PXP-BNB',
     address: {
       [ChainId.BSC]: '0xF4a7480948F11A0205D616258DCf43E9DaAE0586',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+    lpToken: true,
+  },
+  hecBnb: {
+    symbol: 'HEC-BNB',
+    address: {
+      [ChainId.BSC]: '0xc0687a3cf463f3be0b021d6f41551584d124d9c5',
       [ChainId.MATIC]: '',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',

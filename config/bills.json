@@ -315,6 +315,69 @@
     "twitter": "https://twitter.com/ape_swap"
   },
   {
+    "index": 19,
+    "contractAddress": {
+      "1": "",
+      "56": "0x99eea57cdc8983992a3c1505dbf7181467daa22f",
+      "97": "",
+      "137": ""
+    },
+    "billType": "JUNGLE Bill",
+    "token": {
+      "symbol": "HEC",
+      "address": {
+        "1": "",
+        "56": "0x638EEBe886B0e9e7C6929E69490064a6C94d204d",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 9,
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "1": "",
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "HEC-BNB",
+      "address": {
+        "1": "",
+        "56": "0xc0687a3cf463f3be0b021d6f41551584d124d9c5",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "HEC",
+      "address": {
+        "1": "",
+        "56": "0x638EEBe886B0e9e7C6929E69490064a6C94d204d",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 9,
+      "active": true
+    },
+    "billNnftAddress": {
+      "1": "",
+      "56": "0x7fd203888661d1f0ae625ed599909f8f97698670",
+      "97": "",
+      "137": ""
+    },
+    "projectLink": "https://hector.network/",
+    "twitter": "https://twitter.com/Hector_Network"
+  },
+  {
     "index": 18,
     "contractAddress": {
       "1": "",
