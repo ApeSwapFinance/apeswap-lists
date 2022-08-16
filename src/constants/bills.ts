@@ -114,6 +114,28 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/ape_swap',
   },
   {
+    index: 19,
+    contractAddress: {
+      [ChainId.BSC]: '0x99eea57cdc8983992a3c1505dbf7181467daa22f',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    billType: 'JUNGLE Bill',
+    token: tokens.hec,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.hecBnb,
+    earnToken: tokens.hec,
+    billNnftAddress: {
+      [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    projectLink: 'https://hector.network/',
+    twitter: 'https://twitter.com/Hector_Network',
+  },
+  {
     index: 18,
     contractAddress: {
       [ChainId.BSC]: '0x80ef5c5215ff56a12b5e59c2acfc279c763ae34b',
