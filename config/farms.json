@@ -4163,5 +4163,27 @@
       "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"
     },
     "projectLink": "https://bolide.fi/"
+  },
+  {
+    "pid": 213,
+    "image": "BAPE.svg",
+    "lpSymbol": "BAPE-BUSD",
+    "lpAddresses": {
+      "56": "0x64b813b56b8cF8662b6040d42483bb787853DC1F",
+      "97": "0xed89477d619c7e73f752d5fc7be60308ceb63663"
+    },
+    "tokenSymbol": "BAPE",
+    "tokenAddresses": {
+      "56": "0x70e48Eb0881a8c56BAAD37EB4491eA85Eb47b4b2",
+      "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a"
+    },
+    "quoteTokenSymbol": "BUSD",
+    "quoteTokenAdresses": {
+      "1": "",
+      "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
+      "137": ""
+    },
+    "projectLink": "https://apemove.io/"
   }
 ]

@@ -2,7 +2,7 @@ import { ChainId } from '@apeswapfinance/sdk'
 import tokens from './tokens'
 import { FarmConfig, QuoteToken } from './types'
 
-// Current PID is 212
+// Current PID is 213
 
 const farms: FarmConfig[] = [
   {
@@ -3229,6 +3229,23 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.USDT,
     quoteTokenAdresses: tokens.usdt.address,
     projectLink: 'https://bolide.fi/',
+  },
+  {
+    pid: 213,
+    image: 'BAPE.svg',
+    lpSymbol: 'BAPE-BUSD',
+    lpAddresses: {
+      [ChainId.BSC_TESTNET]: '0xed89477d619c7e73f752d5fc7be60308ceb63663',
+      [ChainId.BSC]: '0x64b813b56b8cF8662b6040d42483bb787853DC1F',
+    },
+    tokenSymbol: 'BAPE',
+    tokenAddresses: {
+      [ChainId.BSC_TESTNET]: '0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a',
+      [ChainId.BSC]: '0x70e48Eb0881a8c56BAAD37EB4491eA85Eb47b4b2',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: tokens.busd.address,
+    projectLink: 'https://apemove.io/',
   },
 ]
 

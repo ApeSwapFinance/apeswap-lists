@@ -4876,6 +4876,46 @@
     "tokenDecimals": 18
   },
   {
+    "sousId": 219,
+    "tokenName": "BAPE",
+    "image": "BAPE.svg",
+    "stakingToken": {
+      "symbol": "GNANA",
+      "address": {
+        "1": "",
+        "56": "0xdDb3Bd8645775F59496c821E4F55A7eA6A6dc299",
+        "97": "0xf693bDA9D3C56D5F9165c8633d9098e3C4Ae495A",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "rewardToken": {
+      "symbol": "BAPE",
+      "address": {
+        "1": "",
+        "56": "0x70e48Eb0881a8c56BAAD37EB4491eA85Eb47b4b2",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "contractAddress": {
+      "56": "0xD04249B0899403BafD2AE771084E3Cb3899f1F55",
+      "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
+    },
+    "poolCategory": "ApeZone",
+    "projectLink": "https://apemove.io/",
+    "twitter": "https://twitter.com/APEmoveApp",
+    "harvest": true,
+    "tokenPerBlock": "2.673611111111111111",
+    "sortOrder": 1,
+    "reflect": false,
+    "isFinished": false,
+    "tokenDecimals": 18
+  },
+  {
     "sousId": 214,
     "tokenName": "PXP",
     "image": "PXP.png",

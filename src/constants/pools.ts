@@ -5,7 +5,7 @@ import tokens from './tokens'
 
 const BANANA_PER_BLOCK = new BigNumber(10)
 
-// Current Sous ID is 218
+// Current Sous ID is 219
 
 const pools: PoolConfig[] = [
   {
@@ -2441,6 +2441,26 @@ const pools: PoolConfig[] = [
     twitter: 'https://twitter.com/Bolide_fi',
     harvest: true,
     tokenPerBlock: `0.380760416666666666`,
+    sortOrder: 1,
+    reflect: false,
+    isFinished: false,
+    tokenDecimals: 18,
+  },
+  {
+    sousId: 219,
+    tokenName: 'BAPE',
+    image: 'BAPE.svg',
+    stakingToken: tokens.gnana,
+    rewardToken: tokens.bape,
+    contractAddress: {
+      97: '0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d',
+      56: '0xD04249B0899403BafD2AE771084E3Cb3899f1F55',
+    },
+    poolCategory: PoolCategory.APEZONE,
+    projectLink: 'https://apemove.io/',
+    twitter: 'https://twitter.com/APEmoveApp',
+    harvest: true,
+    tokenPerBlock: `2.673611111111111111`,
     sortOrder: 1,
     reflect: false,
     isFinished: false,
