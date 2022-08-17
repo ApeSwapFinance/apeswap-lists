@@ -395,8 +395,7 @@
         "137": ""
       },
       "decimals": 9,
-      "active": true,
-      "lpToken": true
+      "active": true
     },
     "quoteToken": {
       "symbol": "BNB",
@@ -430,8 +429,7 @@
         "137": ""
       },
       "decimals": 9,
-      "active": true,
-      "lpToken": true
+      "active": true
     },
     "billNnftAddress": {
       "1": "",

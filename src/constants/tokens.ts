@@ -1697,7 +1697,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: 9,
     active: true,
-    lpToken: true,
   },
   bape: {
     symbol: 'BAPE',

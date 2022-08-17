@@ -2,7 +2,7 @@ import { ChainId } from '@apeswapfinance/sdk'
 import tokens from './tokens'
 import { FarmConfig, QuoteToken } from './types'
 
-// Current PID is 212
+// Current PID is 213
 
 const farms: FarmConfig[] = [
   {

@@ -5,7 +5,7 @@ import tokens from './tokens'
 
 const BANANA_PER_BLOCK = new BigNumber(10)
 
-// Current Sous ID is 218
+// Current Sous ID is 219
 
 const pools: PoolConfig[] = [
   {
