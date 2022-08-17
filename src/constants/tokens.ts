@@ -1699,6 +1699,17 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
   },
+  bape: {
+    symbol: 'BAPE',
+    address: {
+      [ChainId.BSC]: '0x70e48Eb0881a8c56BAAD37EB4491eA85Eb47b4b2',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+  },
 
   // Test LPs
 
