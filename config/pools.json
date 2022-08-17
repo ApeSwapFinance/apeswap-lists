@@ -5494,6 +5494,47 @@
     "isEarnTokenLp": false
   },
   {
+    "sousId": 220,
+    "tokenName": "BNBx-BNB",
+    "image": "BNBX.svg",
+    "stakingToken": {
+      "symbol": "BNBx-BNB",
+      "address": {
+        "1": "",
+        "56": "0xB88F211EC9ecfc2931Ae1DE53ea28Da76B9Ed37A",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true,
+      "lpToken": true
+    },
+    "rewardToken": {
+      "symbol": "SD",
+      "address": {
+        "1": "",
+        "56": "0x3BC5AC0dFdC871B365d159f728dd1B9A0B5481E8",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "contractAddress": {
+      "56": "0x20589c5cc1907023beca7e4e9a2325e1ef5f30ef",
+      "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
+    },
+    "poolCategory": "Jungle",
+    "projectLink": "https://staderlabs.com/",
+    "twitter": "https://twitter.com/staderlabs",
+    "harvest": true,
+    "tokenPerBlock": "0.076607142857142857",
+    "sortOrder": 1,
+    "reflect": false,
+    "isFinished": false,
+    "tokenDecimals": 18
+  },
+  {
     "sousId": 96,
     "tokenName": "BANANA",
     "image": "BANANA.svg",
