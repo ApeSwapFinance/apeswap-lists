@@ -1709,6 +1709,28 @@ const tokens: Record<string, Token> = {
     decimals: 18,
     active: true,
   },
+  sd: {
+    symbol: 'SD',
+    address: {
+      [ChainId.BSC]: '0x3BC5AC0dFdC871B365d159f728dd1B9A0B5481E8',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+  },
+  bnbx: {
+    symbol: 'BNBx',
+    address: {
+      [ChainId.BSC]: '0x1bdd3Cf7F79cfB8EdbB955f20ad99211551BA275',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+  },
 
   // Test LPs
 
@@ -2220,6 +2242,18 @@ const tokens: Record<string, Token> = {
     symbol: 'HEC-BNB',
     address: {
       [ChainId.BSC]: '0xc0687a3cf463f3be0b021d6f41551584d124d9c5',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+    lpToken: true,
+  },
+  bnbxBnb: {
+    symbol: 'BNBx-BNB',
+    address: {
+      [ChainId.BSC]: '0xB88F211EC9ecfc2931Ae1DE53ea28Da76B9Ed37A',
       [ChainId.MATIC]: '',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',

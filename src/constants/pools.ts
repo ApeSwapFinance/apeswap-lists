@@ -5,7 +5,7 @@ import tokens from './tokens'
 
 const BANANA_PER_BLOCK = new BigNumber(10)
 
-// Current Sous ID is 219
+// Current Sous ID is 220
 
 const pools: PoolConfig[] = [
   {
@@ -2697,6 +2697,26 @@ const pools: PoolConfig[] = [
     tokenDecimals: 18,
     lpStaking: true,
     isEarnTokenLp: false,
+  },
+  {
+    sousId: 220,
+    tokenName: 'BNBx-BNB',
+    image: 'BNBX.svg',
+    stakingToken: tokens.bnbxBnb,
+    rewardToken: tokens.sd,
+    contractAddress: {
+      97: '0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d',
+      56: '0x20589c5cc1907023beca7e4e9a2325e1ef5f30ef',
+    },
+    poolCategory: PoolCategory.JUNGLE,
+    projectLink: 'https://staderlabs.com/',
+    twitter: 'https://twitter.com/staderlabs',
+    harvest: true,
+    tokenPerBlock: `0.076607142857142857`,
+    sortOrder: 1,
+    reflect: false,
+    isFinished: false,
+    tokenDecimals: 18,
   },
 
   //
