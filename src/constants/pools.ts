@@ -2480,7 +2480,7 @@ const pools: PoolConfig[] = [
     projectLink: 'https://piston-token.com/swap',
     twitter: 'https://twitter.com/PistonToken',
     harvest: true,
-    tokenPerBlock: `0.009548611111111111`,
+    tokenPerBlock: `0.0023283179`,
     sortOrder: 1,
     reflect: false,
     isFinished: false,
