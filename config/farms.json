@@ -4207,5 +4207,27 @@
       "137": ""
     },
     "projectLink": "https://staderlabs.com/"
+  },
+  {
+    "pid": 215,
+    "image": "PSTN.svg",
+    "lpSymbol": "PSTN-BUSD",
+    "lpAddresses": {
+      "56": "0x57FA15D373cBBD3141A13f8baB10c380aC2B14D5",
+      "97": "0xed89477d619c7e73f752d5fc7be60308ceb63663"
+    },
+    "tokenSymbol": "PSTN",
+    "tokenAddresses": {
+      "56": "0xBfACD29427fF376FF3BC22dfFB29866277cA5Fb4",
+      "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a"
+    },
+    "quoteTokenSymbol": "BUSD",
+    "quoteTokenAdresses": {
+      "1": "",
+      "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
+      "137": ""
+    },
+    "projectLink": "https://piston-token.com/"
   }
 ]
