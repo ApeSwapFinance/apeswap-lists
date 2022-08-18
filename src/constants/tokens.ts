@@ -1731,6 +1731,17 @@ const tokens: Record<string, Token> = {
     decimals: 18,
     active: true,
   },
+  pstn: {
+    symbol: 'PSTN',
+    address: {
+      [ChainId.BSC]: '0xBfACD29427fF376FF3BC22dfFB29866277cA5Fb4',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+  },
 
   // Test LPs
 

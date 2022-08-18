@@ -4930,6 +4930,17 @@
       "decimals": 18,
       "active": true
     },
+    "rewardToken": {
+      "symbol": "PSTN",
+      "address": {
+        "1": "",
+        "56": "0xBfACD29427fF376FF3BC22dfFB29866277cA5Fb4",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
     "contractAddress": {
       "56": "0x9510dce1b7765B0881bf0C37E205dC1A43e3a7aA",
       "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
