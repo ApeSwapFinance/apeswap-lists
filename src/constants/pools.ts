@@ -5,7 +5,7 @@ import tokens from './tokens'
 
 const BANANA_PER_BLOCK = new BigNumber(10)
 
-// Current Sous ID is 220
+// Current Sous ID is 221
 
 const pools: PoolConfig[] = [
   {
@@ -2466,6 +2466,26 @@ const pools: PoolConfig[] = [
     isFinished: false,
     tokenDecimals: 18,
   },
+  {
+    sousId: 221,
+    tokenName: 'PSTN',
+    image: 'PSTN.svg',
+    stakingToken: tokens.banana,
+    rewardToken: tokens.pstn,
+    contractAddress: {
+      97: '0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d',
+      56: '0x9510dce1b7765B0881bf0C37E205dC1A43e3a7aA',
+    },
+    poolCategory: PoolCategory.APEZONE,
+    projectLink: 'https://piston-token.com/swap',
+    twitter: 'https://twitter.com/PistonToken',
+    harvest: true,
+    tokenPerBlock: `0.0023283179`,
+    sortOrder: 1,
+    reflect: false,
+    isFinished: false,
+    tokenDecimals: 18,
+  },
 
   //
   // JUNGLE FARMS
@@ -2710,7 +2730,7 @@ const pools: PoolConfig[] = [
     },
     poolCategory: PoolCategory.JUNGLE,
     projectLink: 'https://staderlabs.com/',
-    twitter: 'https://twitter.com/staderlabs',
+    twitter: 'https://twitter.com/stader_bnb',
     harvest: true,
     tokenPerBlock: `0.076607142857142857`,
     sortOrder: 1,

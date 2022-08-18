@@ -2,7 +2,7 @@ import { ChainId } from '@apeswapfinance/sdk'
 import tokens from './tokens'
 import { FarmConfig, QuoteToken } from './types'
 
-// Current PID is 214
+// Current PID is 215
 
 const farms: FarmConfig[] = [
   {
@@ -3263,6 +3263,23 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: tokens.busd.address,
     projectLink: 'https://staderlabs.com/',
+  },
+  {
+    pid: 215,
+    image: 'PSTN.svg',
+    lpSymbol: 'PSTN-BUSD',
+    lpAddresses: {
+      [ChainId.BSC_TESTNET]: '0xed89477d619c7e73f752d5fc7be60308ceb63663',
+      [ChainId.BSC]: '0x57FA15D373cBBD3141A13f8baB10c380aC2B14D5',
+    },
+    tokenSymbol: 'PSTN',
+    tokenAddresses: {
+      [ChainId.BSC_TESTNET]: '0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a',
+      [ChainId.BSC]: '0xBfACD29427fF376FF3BC22dfFB29866277cA5Fb4',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: tokens.busd.address,
+    projectLink: 'https://piston-token.com/swap',
   },
 ]
 

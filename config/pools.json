@@ -4916,6 +4916,46 @@
     "tokenDecimals": 18
   },
   {
+    "sousId": 221,
+    "tokenName": "PSTN",
+    "image": "PSTN.svg",
+    "stakingToken": {
+      "symbol": "BANANA",
+      "address": {
+        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "rewardToken": {
+      "symbol": "PSTN",
+      "address": {
+        "1": "",
+        "56": "0xBfACD29427fF376FF3BC22dfFB29866277cA5Fb4",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "contractAddress": {
+      "56": "0x9510dce1b7765B0881bf0C37E205dC1A43e3a7aA",
+      "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
+    },
+    "poolCategory": "ApeZone",
+    "projectLink": "https://piston-token.com/swap",
+    "twitter": "https://twitter.com/PistonToken",
+    "harvest": true,
+    "tokenPerBlock": "0.0023283179",
+    "sortOrder": 1,
+    "reflect": false,
+    "isFinished": false,
+    "tokenDecimals": 18
+  },
+  {
     "sousId": 214,
     "tokenName": "PXP",
     "image": "PXP.png",
@@ -5526,7 +5566,7 @@
     },
     "poolCategory": "Jungle",
     "projectLink": "https://staderlabs.com/",
-    "twitter": "https://twitter.com/staderlabs",
+    "twitter": "https://twitter.com/stader_bnb",
     "harvest": true,
     "tokenPerBlock": "0.076607142857142857",
     "sortOrder": 1,

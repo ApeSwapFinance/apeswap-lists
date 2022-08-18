@@ -49,7 +49,7 @@ const jungleFarms: JungleFarmConfig[] = [
       [ChainId.BSC_TESTNET]: '0xb1108939748A635C5ed982a17FF5C6E7D79ECF62',
     },
     projectLink: 'https://staderlabs.com/',
-    twitter: 'https://twitter.com/staderlabs',
+    twitter: 'https://twitter.com/stader_bnb',
     harvest: true,
     tokenPerBlock: '0.076607142857142857',
     sortOrder: 1,
