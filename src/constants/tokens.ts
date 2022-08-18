@@ -622,7 +622,7 @@ const tokens: Record<string, Token> = {
   dai: {
     symbol: 'DAI',
     address: {
-      [ChainId.BSC]: '',
+      [ChainId.BSC]: '0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3',
       [ChainId.MATIC]: '0x8f3cf7ad23cd3cadbd9735aff958023239c6a063',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
