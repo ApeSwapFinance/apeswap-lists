@@ -2477,7 +2477,7 @@ const pools: PoolConfig[] = [
       56: '0x9510dce1b7765B0881bf0C37E205dC1A43e3a7aA',
     },
     poolCategory: PoolCategory.APEZONE,
-    projectLink: 'https://piston-token.com/',
+    projectLink: 'https://piston-token.com/swap',
     twitter: 'https://twitter.com/PistonToken',
     harvest: true,
     tokenPerBlock: `0.009548611111111111`,

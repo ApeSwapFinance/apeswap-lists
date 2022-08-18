@@ -3279,7 +3279,7 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: tokens.busd.address,
-    projectLink: 'https://piston-token.com/',
+    projectLink: 'https://piston-token.com/swap',
   },
 ]
 
