@@ -131,7 +131,7 @@
         "symbol": "DAI",
         "address": {
           "1": "",
-          "56": "",
+          "56": "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3",
           "97": "",
           "137": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063"
         },
@@ -296,7 +296,7 @@
         "symbol": "DAI",
         "address": {
           "1": "",
-          "56": "",
+          "56": "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3",
           "97": "",
           "137": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063"
         },
