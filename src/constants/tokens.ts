@@ -2273,6 +2273,18 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
   },
+  ethMatic: {
+    symbol: 'ETH-MATIC',
+    address: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '0x6cf8654e85ab489ca7e70189046d507eba233613',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+    lpToken: true,
+  },
 }
 
 export default tokens

@@ -449,6 +449,33 @@ const bills: BillsConfig[] = [
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
   },
+
+  /*
+
+  */
+  {
+    index: 20,
+    contractAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '0xee181079b57875b94cd27cadc9a3eb940e733c49',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    billType: 'BANANA Bill',
+    token: tokens.eth,
+    quoteToken: tokens.wmatic,
+    lpToken: tokens.ethMatic,
+    earnToken: tokens.banana,
+    billNnftAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '0xa35c3fcd306cf69fed19e8c7b15c8b3904ea609d',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    inactive: false,
+    projectLink: 'https://apeswap.finance/',
+    twitter: 'https://twitter.com/ape_swap',
+  },
 ]
 
 export default bills
