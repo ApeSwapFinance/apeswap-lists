@@ -622,7 +622,7 @@ const tokens: Record<string, Token> = {
   dai: {
     symbol: 'DAI',
     address: {
-      [ChainId.BSC]: '',
+      [ChainId.BSC]: '0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3',
       [ChainId.MATIC]: '0x8f3cf7ad23cd3cadbd9735aff958023239c6a063',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
@@ -2265,6 +2265,18 @@ const tokens: Record<string, Token> = {
     symbol: 'BNBx-BNB',
     address: {
       [ChainId.BSC]: '0xB88F211EC9ecfc2931Ae1DE53ea28Da76B9Ed37A',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+    lpToken: true,
+  },
+  gmrBnb: {
+    symbol: 'GMR-BNB',
+    address: {
+      [ChainId.BSC]: '0x5ff97410ff9bdb715b7b283828796dd0ad7a884a',
       [ChainId.MATIC]: '',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',

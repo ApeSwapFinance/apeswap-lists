@@ -2,6 +2,8 @@ import { ChainId } from '@apeswapfinance/sdk'
 import tokens from './tokens'
 import { BillsConfig } from './types'
 
+// Largest Bill Index: 20
+
 const bills: BillsConfig[] = [
   {
     index: 13,
@@ -112,6 +114,28 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
+  },
+  {
+    index: 20,
+    contractAddress: {
+      [ChainId.BSC]: '0xb646c4a51365598433ba4765b890ad3075e4e21e', //
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    billType: 'JUNGLE Bill',
+    token: tokens.gmr,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.gmrBnb,
+    earnToken: tokens.gmr,
+    billNnftAddress: {
+      [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    projectLink: 'https://www.gmr.finance',
+    twitter: 'https://twitter.com/GMRCenter',
   },
   {
     index: 19,
