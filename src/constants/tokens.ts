@@ -2273,6 +2273,18 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
   },
+  gmrBnb: {
+    symbol: 'GMR-BNB',
+    address: {
+      [ChainId.BSC]: '0x5ff97410ff9bdb715b7b283828796dd0ad7a884a',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+    lpToken: true,
+  },
 }
 
 export default tokens
