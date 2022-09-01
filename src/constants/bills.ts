@@ -134,7 +134,7 @@ const bills: BillsConfig[] = [
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
     },
-    projectLink: 'https://www.gmr.finance',
+    projectLink: 'https://gmr.center/',
     twitter: 'https://twitter.com/GMRCenter',
   },
   {
