@@ -136,6 +136,74 @@
     "network": 56
   },
   {
+    "jungleId": 10,
+    "tokenName": "BRZ-BUSD",
+    "image": "BRZ.svg",
+    "stakingToken": {
+      "symbol": "BRZ-BUSD",
+      "address": {
+        "1": "",
+        "56": "0xfbD7e3575F709212A9f61aC6C63964A8FDa34CAC",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true,
+      "lpToken": true
+    },
+    "rewardToken": {
+      "symbol": "BRZ",
+      "address": {
+        "1": "",
+        "56": "0x71be881e9C5d4465B3FfF61e89c6f3651E69B5bb",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 4,
+      "active": true
+    },
+    "lpTokens": {
+      "token": {
+        "symbol": "BRZ",
+        "address": {
+          "1": "",
+          "56": "0x71be881e9C5d4465B3FfF61e89c6f3651E69B5bb",
+          "97": "",
+          "137": ""
+        },
+        "decimals": 4,
+        "active": true
+      },
+      "quoteToken": {
+        "symbol": "BUSD",
+        "address": {
+          "1": "",
+          "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+          "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
+          "137": ""
+        },
+        "decimals": 18,
+        "active": true
+      }
+    },
+    "contractAddress": {
+      "1": "",
+      "56": "0xdffcb3f3a64b8c7d722b33d098349417136585f8",
+      "97": "0xb1108939748A635C5ed982a17FF5C6E7D79ECF62",
+      "137": ""
+    },
+    "projectLink": "https://www.transfero.com/transfero-crypto?lang=en",
+    "twitter": "https://twitter.com/transferogroup",
+    "harvest": true,
+    "tokenPerBlock": "0.0171",
+    "sortOrder": 1,
+    "isFinished": false,
+    "tokenDecimals": 4,
+    "lpStaking": true,
+    "isEarnTokenLp": false,
+    "network": 56
+  },
+  {
     "jungleId": 206,
     "tokenName": "LGX-BUSD",
     "image": "LGX.svg",

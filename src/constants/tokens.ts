@@ -1742,6 +1742,17 @@ const tokens: Record<string, Token> = {
     decimals: 18,
     active: true,
   },
+  brz: {
+    symbol: 'BRZ',
+    address: {
+      [ChainId.BSC]: '0x71be881e9C5d4465B3FfF61e89c6f3651E69B5bb',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 4,
+    active: true,
+  },
 
   // Test LPs
 
@@ -2277,6 +2288,18 @@ const tokens: Record<string, Token> = {
     symbol: 'GMR-BNB',
     address: {
       [ChainId.BSC]: '0x5ff97410ff9bdb715b7b283828796dd0ad7a884a',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+    lpToken: true,
+  },
+  brzBusd: {
+    symbol: 'BRZ-BUSD',
+    address: {
+      [ChainId.BSC]: '0xfbD7e3575F709212A9f61aC6C63964A8FDa34CAC',
       [ChainId.MATIC]: '',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
