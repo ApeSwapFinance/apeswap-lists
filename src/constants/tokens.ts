@@ -1753,6 +1753,17 @@ const tokens: Record<string, Token> = {
     decimals: 18,
     active: true,
   },
+  brz: {
+    symbol: 'BRZ',
+    address: {
+      [ChainId.BSC]: '0x71be881e9C5d4465B3FfF61e89c6f3651E69B5bb',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 4,
+    active: true,
+  },
 
   // Test LPs
 
@@ -2296,11 +2307,11 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
   },
-  ethMatic: {
-    symbol: 'ETH-MATIC',
+  brzBusd: {
+    symbol: 'BRZ-BUSD',
     address: {
-      [ChainId.BSC]: '',
-      [ChainId.MATIC]: '0x6cf8654e85ab489ca7e70189046d507eba233613',
+      [ChainId.BSC]: '0xfbD7e3575F709212A9f61aC6C63964A8FDa34CAC',
+      [ChainId.MATIC]: '',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
     },
