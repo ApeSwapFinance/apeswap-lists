@@ -1742,6 +1742,17 @@ const tokens: Record<string, Token> = {
     decimals: 18,
     active: true,
   },
+  traxx: {
+    symbol: 'TRAXX',
+    address: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '0xD43Be54C1aedf7Ee4099104f2DaE4eA88B18A249',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+  },
 
   // Test LPs
 
@@ -2278,6 +2289,18 @@ const tokens: Record<string, Token> = {
     address: {
       [ChainId.BSC]: '0x5ff97410ff9bdb715b7b283828796dd0ad7a884a',
       [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+    lpToken: true,
+  },
+  ethMatic: {
+    symbol: 'ETH-MATIC',
+    address: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '0x6cf8654e85ab489ca7e70189046d507eba233613',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
     },
