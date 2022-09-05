@@ -641,6 +641,17 @@ const tokens: Record<string, Token> = {
     decimals: 18,
     active: true,
   },
+  usdt_six_decimals: {
+    symbol: 'USDT',
+    address: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '0xc2132d05d31c914a87c6611c10748aeb04b58e8f',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 6,
+    active: true,
+  },
   wsg: {
     symbol: 'WSG',
     address: {
