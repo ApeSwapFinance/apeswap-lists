@@ -1742,6 +1742,17 @@ const tokens: Record<string, Token> = {
     decimals: 18,
     active: true,
   },
+  traxx: {
+    symbol: 'TRAXX',
+    address: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '0xD43Be54C1aedf7Ee4099104f2DaE4eA88B18A249',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+  },
   brz: {
     symbol: 'BRZ',
     address: {
