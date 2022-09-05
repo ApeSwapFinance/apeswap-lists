@@ -36,20 +36,6 @@ const dualFarms: DualFarmConfig[] = [
     },
   },
   {
-    pid: 13,
-    network: ChainId.MATIC,
-    stakeTokenAddress: '0x545cb3055e62c86f54ba479c7cafc7e1e2eeec54',
-    rewarderAddress: '0xae8f32a0218ed6ebc979be2e45748b952dee1c82',
-    stakeTokens: {
-      token0: tokens.wmatic,
-      token1: tokens.traxx,
-    },
-    rewardTokens: {
-      token0: tokens.banana,
-      token1: tokens.usdt,
-    },
-  },
-  {
     pid: 2,
     network: ChainId.MATIC,
     stakeTokenAddress: '0xd32f3139A214034A0f9777c87eE0a064c1FF6AE2',
@@ -206,6 +192,20 @@ const dualFarms: DualFarmConfig[] = [
     rewardTokens: {
       token0: tokens.banana,
       token1: tokens.kom,
+    },
+  },
+  {
+    pid: 13,
+    network: ChainId.MATIC,
+    stakeTokenAddress: '0x545cb3055e62c86f54ba479c7cafc7e1e2eeec54',
+    rewarderAddress: '0xae8f32a0218ed6ebc979be2e45748b952dee1c82',
+    stakeTokens: {
+      token0: tokens.wmatic,
+      token1: tokens.traxx,
+    },
+    rewardTokens: {
+      token0: tokens.banana,
+      token1: tokens.usdt_six_decimals,
     },
   },
 ]
