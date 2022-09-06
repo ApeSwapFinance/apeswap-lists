@@ -712,7 +712,7 @@
     "pid": 13,
     "network": 137,
     "stakeTokenAddress": "0x545cb3055e62c86f54ba479c7cafc7e1e2eeec54",
-    "rewarderAddress": "0xae8f32a0218ed6ebc979be2e45748b952dee1c82",
+    "rewarderAddress": "0xfFc2Ab60A93C2e06eEa8d7C4d7a027fE4d02a67F",
     "stakeTokens": {
       "token0": {
         "symbol": "MATIC",
@@ -750,14 +750,14 @@
         "active": true
       },
       "token1": {
-        "symbol": "USDT",
+        "symbol": "DAI",
         "address": {
           "1": "",
-          "56": "",
+          "56": "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3",
           "97": "",
-          "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"
+          "137": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063"
         },
-        "decimals": 6,
+        "decimals": 18,
         "active": true
       }
     }
