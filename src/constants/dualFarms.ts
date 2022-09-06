@@ -208,20 +208,6 @@ const dualFarms: DualFarmConfig[] = [
       token1: tokens.usdt_six_decimals,
     },
   },
-  {
-    pid: 15,
-    network: ChainId.MATIC,
-    stakeTokenAddress: '0x545cb3055e62c86f54ba479c7cafc7e1e2eeec54',
-    rewarderAddress: '0xfFc2Ab60A93C2e06eEa8d7C4d7a027fE4d02a67F',
-    stakeTokens: {
-      token0: tokens.wmatic,
-      token1: tokens.traxx,
-    },
-    rewardTokens: {
-      token0: tokens.banana,
-      token1: tokens.dai,
-    },
-  },
 ]
 
 export default dualFarms
