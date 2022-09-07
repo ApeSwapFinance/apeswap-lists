@@ -5,7 +5,7 @@ import tokens from './tokens'
 
 const BANANA_PER_BLOCK = new BigNumber(10)
 
-// Current Sous ID is 222
+// Current Sous ID is 223
 
 const pools: PoolConfig[] = [
   {
@@ -2481,6 +2481,26 @@ const pools: PoolConfig[] = [
     twitter: 'https://twitter.com/PistonToken',
     harvest: true,
     tokenPerBlock: `0.0023283179`,
+    sortOrder: 1,
+    reflect: false,
+    isFinished: false,
+    tokenDecimals: 18,
+  },
+  {
+    sousId: 223,
+    tokenName: 'CHRP',
+    image: 'CHRP.svg',
+    stakingToken: tokens.gnana,
+    rewardToken: tokens.chrp,
+    contractAddress: {
+      97: '0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d',
+      56: '0x0eE018eF954ca14A38bc2Aed702fB6CFA6ae6c69',
+    },
+    poolCategory: PoolCategory.APEZONE,
+    projectLink: 'https://chirpley.ai',
+    twitter: 'https://twitter.com/chirpley',
+    harvest: true,
+    tokenPerBlock: `0.900205632716049382`,
     sortOrder: 1,
     reflect: false,
     isFinished: false,

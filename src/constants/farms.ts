@@ -2,7 +2,7 @@ import { ChainId } from '@apeswapfinance/sdk'
 import tokens from './tokens'
 import { FarmConfig, QuoteToken } from './types'
 
-// Current PID is 215
+// Current PID is 216
 
 const farms: FarmConfig[] = [
   {
@@ -3280,6 +3280,23 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: tokens.busd.address,
     projectLink: 'https://piston-token.com/swap',
+  },
+  {
+    pid: 216,
+    image: 'CHRP.svg',
+    lpSymbol: 'CHRP-BNB',
+    lpAddresses: {
+      [ChainId.BSC_TESTNET]: '0xed89477d619c7e73f752d5fc7be60308ceb63663',
+      [ChainId.BSC]: '0xcD10d0173651d1B3bd027DEcDBA007998bb03eaf',
+    },
+    tokenSymbol: 'CHRP',
+    tokenAddresses: {
+      [ChainId.BSC_TESTNET]: '0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a',
+      [ChainId.BSC]: '0xeD00Fc7D48B57B81FE65D1cE71c0985e4CF442CB',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: tokens.wbnb.address,
+    projectLink: 'https://chirpley.ai',
   },
 ]
 

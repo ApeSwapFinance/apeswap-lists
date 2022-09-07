@@ -1775,6 +1775,17 @@ const tokens: Record<string, Token> = {
     decimals: 4,
     active: true,
   },
+  chrp: {
+    symbol: 'CHRP',
+    address: {
+      [ChainId.BSC]: '0xeD00Fc7D48B57B81FE65D1cE71c0985e4CF442CB',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+  },
 
   // Test LPs
 
