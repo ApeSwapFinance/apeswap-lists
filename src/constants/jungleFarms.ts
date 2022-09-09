@@ -2,7 +2,7 @@ import { JungleFarmConfig } from './types'
 import tokens from './tokens'
 import { ChainId } from '@apeswapfinance/sdk'
 
-// Please remove test addresses that aren't used for that pair
+// Current Jungle ID: 11
 
 const jungleFarms: JungleFarmConfig[] = [
   {
@@ -323,6 +323,33 @@ const jungleFarms: JungleFarmConfig[] = [
     tokenPerBlock: '0',
     sortOrder: 1,
     isFinished: true,
+    tokenDecimals: 18,
+    lpStaking: true,
+    isEarnTokenLp: false,
+    network: ChainId.BSC,
+  },
+  {
+    jungleId: 11,
+    tokenName: 'GENv3-BNB',
+    image: 'GENV3.svg',
+    stakingToken: tokens.genv3Bnb,
+    rewardToken: tokens.genv3,
+    lpTokens: {
+      token: tokens.genv3,
+      quoteToken: tokens.wbnb,
+    },
+    contractAddress: {
+      [ChainId.BSC_TESTNET]: '0xb1108939748A635C5ed982a17FF5C6E7D79ECF62',
+      [ChainId.BSC]: '0xe406371a7e43f992cb3bc70118f9664cd37e3489',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+    },
+    projectLink: 'https://www.generic.money/',
+    twitter: 'https://twitter.com/thegenericcoin',
+    harvest: true,
+    tokenPerBlock: '11574.074074074074074074',
+    sortOrder: 1,
+    isFinished: false,
     tokenDecimals: 18,
     lpStaking: true,
     isEarnTokenLp: false,
