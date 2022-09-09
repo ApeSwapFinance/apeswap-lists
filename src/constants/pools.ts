@@ -5,7 +5,7 @@ import tokens from './tokens'
 
 const BANANA_PER_BLOCK = new BigNumber(10)
 
-// Current Sous ID is 223
+// Current Sous ID is 224
 
 const pools: PoolConfig[] = [
   {
@@ -2545,6 +2545,26 @@ const pools: PoolConfig[] = [
     twitter: 'https://twitter.com/thegenericcoin',
     harvest: true,
     tokenPerBlock: `19097.222222222222222222`,
+    sortOrder: 1,
+    reflect: false,
+    isFinished: true,
+    tokenDecimals: 18,
+  },
+  {
+    sousId: 224,
+    tokenName: 'GENv3',
+    image: 'GENV3.svg',
+    stakingToken: tokens.genv3Bnb,
+    rewardToken: tokens.genv3,
+    contractAddress: {
+      [ChainId.BSC_TESTNET]: '0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d',
+      [ChainId.BSC]: '0xe406371a7e43f992cb3bc70118f9664cd37e3489',
+    },
+    poolCategory: PoolCategory.JUNGLE,
+    projectLink: 'https://www.generic.money/',
+    twitter: 'https://twitter.com/thegenericcoin',
+    harvest: true,
+    tokenPerBlock: `11574.074074074074074074`,
     sortOrder: 1,
     reflect: false,
     isFinished: false,
