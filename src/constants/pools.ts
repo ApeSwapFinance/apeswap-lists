@@ -2003,7 +2003,7 @@ const pools: PoolConfig[] = [
     tokenPerBlock: `0.222087191358024691`,
     sortOrder: 1,
     reflect: false,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 18,
   },
   {
@@ -2023,7 +2023,7 @@ const pools: PoolConfig[] = [
     tokenPerBlock: `0.038387345679012345`,
     sortOrder: 1,
     reflect: false,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 18,
   },
   {
