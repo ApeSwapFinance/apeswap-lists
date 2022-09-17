@@ -1,10 +1,47 @@
 import { JungleFarmConfig } from './types'
 import tokens from './tokens'
-import { ChainId } from '@apeswapfinance/sdk'
+import { ChainId } from '@ape.swap/sdk'
 
 // Current Jungle ID: 11
 
 const jungleFarms: JungleFarmConfig[] = [
+  /*
+    CHAIN ID 40 - TLOS Jungle Farms
+    Current Jungle ID = 1
+  */
+  {
+    jungleId: 1,
+    tokenName: 'TLOS-USDC',
+    image: 'USDC.svg',
+    stakingToken: tokens.tlosUsdc,
+    rewardToken: tokens.usdc,
+    lpTokens: {
+      token: tokens.tlos,
+      quoteToken: tokens.usdc,
+    },
+    contractAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+      [ChainId.TLOS]: '0x26743111490B1717c0d543a320eD05203FB9f9Ed',
+    },
+    projectLink: 'https://tlos.net',
+    twitter: 'https://twitter.com/telos',
+    harvest: true,
+    tokenPerBlock: '0.000001',
+    sortOrder: 1,
+    isFinished: false,
+    tokenDecimals: 6,
+    lpStaking: true,
+    isEarnTokenLp: false,
+    network: ChainId.TLOS,
+  },
+
+  /*
+    CHAIN ID 56 - BNB Jungle Farms
+    Current Jungle ID = XX
+  */
   {
     jungleId: 8,
     tokenName: 'PXP-BNB',

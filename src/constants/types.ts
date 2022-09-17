@@ -1,10 +1,11 @@
-import { ChainId } from '@apeswapfinance/sdk'
+import { ChainId } from '@ape.swap/sdk'
 
 export interface Address {
   [ChainId.BSC]: string
   [ChainId.MATIC]: string
   [ChainId.MAINNET]: string
   [ChainId.BSC_TESTNET]: string
+  [ChainId.TLOS]?: string
 }
 
 // Since farms and pools are only on BSC and TESTNET we dont need other chains

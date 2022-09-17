@@ -37,6 +37,7 @@
       "symbol": "USDC",
       "address": {
         "1": "",
+        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
         "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
         "97": "",
         "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174"
@@ -149,6 +150,7 @@
       "symbol": "USDC",
       "address": {
         "1": "",
+        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
         "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
         "97": "",
         "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174"

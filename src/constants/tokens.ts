@@ -1,4 +1,4 @@
-import { ChainId } from '@apeswapfinance/sdk'
+import { ChainId } from '@ape.swap/sdk'
 import { Token } from './types'
 
 const tokens: Record<string, Token> = {
@@ -120,6 +120,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: '0x2791bca1f2de4661ed88a30c99a7a9449aa84174',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
+      [ChainId.TLOS]: '0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b',
     },
     decimals: 18,
     active: true,
@@ -1462,6 +1463,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: '',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
+      [ChainId.TLOS]: '0xd102ce6a4db07d247fcc28f366a623df0938ca9e',
     },
     decimals: 18,
     active: true,
@@ -2336,6 +2338,20 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: '',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+    lpToken: true,
+  },
+
+  tlosUsdc: {
+    symbol: 'TLOS-USDC',
+    address: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+      [ChainId.TLOS]: '0x2a4e6ef568e4a696555a5491c0fe7cbcf998c1bb',
     },
     decimals: 18,
     active: true,

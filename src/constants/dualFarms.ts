@@ -1,4 +1,4 @@
-import { ChainId } from '@apeswapfinance/sdk'
+import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { DualFarmConfig } from './types'
 

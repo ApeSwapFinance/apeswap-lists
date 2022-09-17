@@ -1,6 +1,6 @@
 import { Token } from './types'
 import tokens from './tokens'
-import { ChainId } from '@apeswapfinance/sdk'
+import { ChainId } from '@ape.swap/sdk'
 
 const zapInputTokens: Record<string, Record<string, Token>> = {
   [ChainId.BSC]: {
