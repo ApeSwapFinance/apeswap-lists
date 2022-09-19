@@ -124,6 +124,17 @@ const tokens: Record<string, Token> = {
     decimals: 18,
     active: true,
   },
+  usdc_six_decimals: {
+    symbol: 'USDC',
+    address: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 6,
+    active: true,
+  },
   bifi: {
     symbol: 'BIFI',
     address: {
@@ -1780,6 +1791,17 @@ const tokens: Record<string, Token> = {
     address: {
       [ChainId.BSC]: '0xeD00Fc7D48B57B81FE65D1cE71c0985e4CF442CB',
       [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+  },
+  axn: {
+    symbol: 'AXN',
+    address: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '0x839F1a22A59eAAf26c85958712aB32F80FEA23d9',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
     },
