@@ -132,7 +132,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
     },
-    decimals: 18,
+    decimals: 6,
     active: true,
   },
   bifi: {
