@@ -214,7 +214,7 @@ const dualFarms: DualFarmConfig[] = [
     stakeTokenAddress: '0x81A3F6a138F0B12eCBDCE4583972A6CA57514dBd',
     rewarderAddress: '0xDB25C31f864Ac2Ae43236D4639EC9056B0971736',
     stakeTokens: {
-      token0: tokens.usdc,
+      token0: tokens.usdc_six_decimals,
       token1: tokens.axn,
     },
     rewardTokens: {
