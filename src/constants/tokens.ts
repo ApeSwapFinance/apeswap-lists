@@ -1786,6 +1786,17 @@ const tokens: Record<string, Token> = {
     decimals: 18,
     active: true,
   },
+  axn: {
+    symbol: 'AXN',
+    address: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '0x839F1a22A59eAAf26c85958712aB32F80FEA23d9',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+  },
 
   // Test LPs
 
