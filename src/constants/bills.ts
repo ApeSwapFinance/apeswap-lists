@@ -500,29 +500,29 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.dogira.net/',
     twitter: 'https://twitter.com/DogiraOfficial',
   },
-  {
-    index: 101,
-    contractAddress: {
-      [ChainId.BSC]: '',
-      [ChainId.MATIC]: '0x2a806392457e74e03d390b43709641f5ce26f3ee',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
-    },
-    billType: 'Jungle Bill',
-    token: tokens.traxx,
-    quoteToken: tokens.wmatic,
-    lpToken: tokens.traxxMatic,
-    earnToken: tokens.traxx,
-    billNnftAddress: {
-      [ChainId.BSC]: '',
-      [ChainId.MATIC]: '0xa35c3fcd306cf69fed19e8c7b15c8b3904ea609d',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
-    },
-    inactive: false,
-    projectLink: 'https://www.tokentraxx.com/',
-    twitter: 'https://twitter.com/TokenTraxx',
-  },
+  // {
+  //   index: 101,
+  //   contractAddress: {
+  //     [ChainId.BSC]: '',
+  //     [ChainId.MATIC]: '0x2a806392457e74e03d390b43709641f5ce26f3ee',
+  //     [ChainId.MAINNET]: '',
+  //     [ChainId.BSC_TESTNET]: '',
+  //   },
+  //   billType: 'Jungle Bill',
+  //   token: tokens.traxx,
+  //   quoteToken: tokens.wmatic,
+  //   lpToken: tokens.traxxMatic,
+  //   earnToken: tokens.traxx,
+  //   billNnftAddress: {
+  //     [ChainId.BSC]: '',
+  //     [ChainId.MATIC]: '0xa35c3fcd306cf69fed19e8c7b15c8b3904ea609d',
+  //     [ChainId.MAINNET]: '',
+  //     [ChainId.BSC_TESTNET]: '',
+  //   },
+  //   inactive: false,
+  //   projectLink: 'https://www.tokentraxx.com/',
+  //   twitter: 'https://twitter.com/TokenTraxx',
+  // },
 ]
 
 export default bills
