@@ -451,21 +451,21 @@ const bills: BillsConfig[] = [
   },
 
   /*
-
+    Polygon Bills
   */
   {
-    index: 20,
+    index: 100,
     contractAddress: {
       [ChainId.BSC]: '',
-      [ChainId.MATIC]: '0x5c57b94223a3db9cded94dc39842e7d949d39ea2',
+      [ChainId.MATIC]: '0x885cc563c52169bd2e99f39aae3db53454a8bf66',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
     },
-    billType: 'BANANA Bill',
-    token: tokens.eth,
+    billType: 'Jungle Bill',
+    token: tokens.dogira,
     quoteToken: tokens.wmatic,
-    lpToken: tokens.ethMatic,
-    earnToken: tokens.banana,
+    lpToken: tokens.dogiraMatic,
+    earnToken: tokens.dogira,
     billNnftAddress: {
       [ChainId.BSC]: '',
       [ChainId.MATIC]: '0xa35c3fcd306cf69fed19e8c7b15c8b3904ea609d',
@@ -473,8 +473,8 @@ const bills: BillsConfig[] = [
       [ChainId.BSC_TESTNET]: '',
     },
     inactive: false,
-    projectLink: 'https://apeswap.finance/',
-    twitter: 'https://twitter.com/ape_swap',
+    projectLink: 'https://www.dogira.net/',
+    twitter: 'https://twitter.com/DogiraOfficial',
   },
 ]
 

@@ -1742,6 +1742,17 @@ const tokens: Record<string, Token> = {
     decimals: 18,
     active: true,
   },
+  dogira: {
+    symbol: 'DOGIRA',
+    address: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '0xdda40cdfe4a0090f42ff49f264a831402adb801a',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 9,
+    active: true,
+  },
 
   // Test LPs
 
@@ -2278,6 +2289,18 @@ const tokens: Record<string, Token> = {
     address: {
       [ChainId.BSC]: '',
       [ChainId.MATIC]: '0x6cf8654e85ab489ca7e70189046d507eba233613',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+    lpToken: true,
+  },
+  dogiraMatic: {
+    symbol: 'DOGIRA-MATIC',
+    address: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '0x103062f71b7106a8df6fd2a4dd9368358c44a9d0',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
     },
