@@ -136,6 +136,74 @@
     "network": 56
   },
   {
+    "jungleId": 10,
+    "tokenName": "BRZ-BUSD",
+    "image": "BRZ.svg",
+    "stakingToken": {
+      "symbol": "BRZ-BUSD",
+      "address": {
+        "1": "",
+        "56": "0xfbD7e3575F709212A9f61aC6C63964A8FDa34CAC",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true,
+      "lpToken": true
+    },
+    "rewardToken": {
+      "symbol": "BRZ",
+      "address": {
+        "1": "",
+        "56": "0x71be881e9C5d4465B3FfF61e89c6f3651E69B5bb",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 4,
+      "active": true
+    },
+    "lpTokens": {
+      "token": {
+        "symbol": "BRZ",
+        "address": {
+          "1": "",
+          "56": "0x71be881e9C5d4465B3FfF61e89c6f3651E69B5bb",
+          "97": "",
+          "137": ""
+        },
+        "decimals": 4,
+        "active": true
+      },
+      "quoteToken": {
+        "symbol": "BUSD",
+        "address": {
+          "1": "",
+          "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+          "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
+          "137": ""
+        },
+        "decimals": 18,
+        "active": true
+      }
+    },
+    "contractAddress": {
+      "1": "",
+      "56": "0xdffcb3f3a64b8c7d722b33d098349417136585f8",
+      "97": "0xb1108939748A635C5ed982a17FF5C6E7D79ECF62",
+      "137": ""
+    },
+    "projectLink": "https://www.transfero.com/transfero-crypto?lang=en",
+    "twitter": "https://twitter.com/transferogroup",
+    "harvest": true,
+    "tokenPerBlock": "0.0171",
+    "sortOrder": 1,
+    "isFinished": false,
+    "tokenDecimals": 4,
+    "lpStaking": true,
+    "isEarnTokenLp": false,
+    "network": 56
+  },
+  {
     "jungleId": 206,
     "tokenName": "LGX-BUSD",
     "image": "LGX.svg",
@@ -263,7 +331,7 @@
     "projectLink": "https://www.coinofchampions.com/",
     "twitter": "https://twitter.com/coinofchampions",
     "harvest": true,
-    "tokenPerBlock": "155241.094",
+    "tokenPerBlock": "133355.178712",
     "sortOrder": 1,
     "isFinished": false,
     "tokenDecimals": 18,
@@ -333,7 +401,7 @@
     "harvest": true,
     "tokenPerBlock": "0.01437847",
     "sortOrder": 1,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 8,
     "lpStaking": true,
     "isEarnTokenLp": false,
@@ -401,7 +469,7 @@
     "harvest": true,
     "tokenPerBlock": "0.059799768518518518",
     "sortOrder": 1,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18,
     "lpStaking": true,
     "isEarnTokenLp": false,
@@ -468,7 +536,7 @@
     "harvest": true,
     "tokenPerBlock": "2.864583333333",
     "sortOrder": 1,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 12,
     "lpStaking": true,
     "isEarnTokenLp": false,
@@ -536,7 +604,7 @@
     "harvest": true,
     "tokenPerBlock": "0.06875",
     "sortOrder": 1,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18,
     "lpStaking": true,
     "isEarnTokenLp": false,
@@ -604,7 +672,7 @@
     "harvest": true,
     "tokenPerBlock": "0.224606095679012345",
     "sortOrder": 1,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18,
     "lpStaking": true,
     "isEarnTokenLp": false,
@@ -672,7 +740,7 @@
     "harvest": true,
     "tokenPerBlock": "19097.222222222222222222",
     "sortOrder": 1,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18,
     "lpStaking": true,
     "isEarnTokenLp": false,
@@ -741,6 +809,74 @@
     "tokenPerBlock": "0",
     "sortOrder": 1,
     "isFinished": true,
+    "tokenDecimals": 18,
+    "lpStaking": true,
+    "isEarnTokenLp": false,
+    "network": 56
+  },
+  {
+    "jungleId": 11,
+    "tokenName": "GENv3-BNB",
+    "image": "GENV3.svg",
+    "stakingToken": {
+      "symbol": "GENv3-BNB",
+      "address": {
+        "1": "",
+        "56": "0xCfa1d8afFA4da8e6CaBE6fde66DDf4eDA89f0e42",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true,
+      "lpToken": true
+    },
+    "rewardToken": {
+      "symbol": "GENv3",
+      "address": {
+        "1": "",
+        "56": "0x98a61CA1504b92Ae768eF20b85aa97030b7a1Edf",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "lpTokens": {
+      "token": {
+        "symbol": "GENv3",
+        "address": {
+          "1": "",
+          "56": "0x98a61CA1504b92Ae768eF20b85aa97030b7a1Edf",
+          "97": "",
+          "137": ""
+        },
+        "decimals": 18,
+        "active": true
+      },
+      "quoteToken": {
+        "symbol": "BNB",
+        "address": {
+          "1": "",
+          "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+          "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+          "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        },
+        "decimals": 18,
+        "active": true
+      }
+    },
+    "contractAddress": {
+      "1": "",
+      "56": "0xe406371a7e43f992cb3bc70118f9664cd37e3489",
+      "97": "0xb1108939748A635C5ed982a17FF5C6E7D79ECF62",
+      "137": ""
+    },
+    "projectLink": "https://www.generic.money/",
+    "twitter": "https://twitter.com/thegenericcoin",
+    "harvest": true,
+    "tokenPerBlock": "11574.074074074074074074",
+    "sortOrder": 1,
+    "isFinished": false,
     "tokenDecimals": 18,
     "lpStaking": true,
     "isEarnTokenLp": false,

@@ -3992,7 +3992,7 @@
     "tokenPerBlock": "0.222087191358024691",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -4032,7 +4032,7 @@
     "tokenPerBlock": "0.038387345679012345",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -4956,6 +4956,46 @@
     "tokenDecimals": 18
   },
   {
+    "sousId": 223,
+    "tokenName": "CHRP",
+    "image": "CHRP.svg",
+    "stakingToken": {
+      "symbol": "GNANA",
+      "address": {
+        "1": "",
+        "56": "0xdDb3Bd8645775F59496c821E4F55A7eA6A6dc299",
+        "97": "0xf693bDA9D3C56D5F9165c8633d9098e3C4Ae495A",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "rewardToken": {
+      "symbol": "CHRP",
+      "address": {
+        "1": "",
+        "56": "0xeD00Fc7D48B57B81FE65D1cE71c0985e4CF442CB",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "contractAddress": {
+      "56": "0x0eE018eF954ca14A38bc2Aed702fB6CFA6ae6c69",
+      "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
+    },
+    "poolCategory": "ApeZone",
+    "projectLink": "https://chirpley.ai",
+    "twitter": "https://twitter.com/chirpley",
+    "harvest": true,
+    "tokenPerBlock": "0.900205632716049382",
+    "sortOrder": 1,
+    "reflect": false,
+    "isFinished": false,
+    "tokenDecimals": 18
+  },
+  {
     "sousId": 214,
     "tokenName": "PXP",
     "image": "PXP.png",
@@ -5034,7 +5074,7 @@
     "tokenPerBlock": "19097.222222222222222222",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -5573,6 +5613,47 @@
     "reflect": false,
     "isFinished": false,
     "tokenDecimals": 18
+  },
+  {
+    "sousId": 222,
+    "tokenName": "BRZ-BUSD",
+    "image": "BRZ.svg",
+    "stakingToken": {
+      "symbol": "BRZ-BUSD",
+      "address": {
+        "1": "",
+        "56": "0xfbD7e3575F709212A9f61aC6C63964A8FDa34CAC",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true,
+      "lpToken": true
+    },
+    "rewardToken": {
+      "symbol": "BRZ",
+      "address": {
+        "1": "",
+        "56": "0x71be881e9C5d4465B3FfF61e89c6f3651E69B5bb",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 4,
+      "active": true
+    },
+    "contractAddress": {
+      "56": "0xdffcb3f3a64b8c7d722b33d098349417136585f8",
+      "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
+    },
+    "poolCategory": "Jungle",
+    "projectLink": "https://www.transfero.com/transfero-crypto?lang=en",
+    "twitter": "https://twitter.com/transferogroup",
+    "harvest": true,
+    "tokenPerBlock": "0.0171",
+    "sortOrder": 1,
+    "reflect": false,
+    "isFinished": false,
+    "tokenDecimals": 4
   },
   {
     "sousId": 96,

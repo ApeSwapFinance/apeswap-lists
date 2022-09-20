@@ -5,7 +5,7 @@ import tokens from './tokens'
 
 const BANANA_PER_BLOCK = new BigNumber(10)
 
-// Current Sous ID is 221
+// Current Sous ID is 224
 
 const pools: PoolConfig[] = [
   {
@@ -2003,7 +2003,7 @@ const pools: PoolConfig[] = [
     tokenPerBlock: `0.222087191358024691`,
     sortOrder: 1,
     reflect: false,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 18,
   },
   {
@@ -2023,7 +2023,7 @@ const pools: PoolConfig[] = [
     tokenPerBlock: `0.038387345679012345`,
     sortOrder: 1,
     reflect: false,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 18,
   },
   {
@@ -2486,6 +2486,26 @@ const pools: PoolConfig[] = [
     isFinished: false,
     tokenDecimals: 18,
   },
+  {
+    sousId: 223,
+    tokenName: 'CHRP',
+    image: 'CHRP.svg',
+    stakingToken: tokens.gnana,
+    rewardToken: tokens.chrp,
+    contractAddress: {
+      97: '0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d',
+      56: '0x0eE018eF954ca14A38bc2Aed702fB6CFA6ae6c69',
+    },
+    poolCategory: PoolCategory.APEZONE,
+    projectLink: 'https://chirpley.ai',
+    twitter: 'https://twitter.com/chirpley',
+    harvest: true,
+    tokenPerBlock: `0.900205632716049382`,
+    sortOrder: 1,
+    reflect: false,
+    isFinished: false,
+    tokenDecimals: 18,
+  },
 
   //
   // JUNGLE FARMS
@@ -2527,7 +2547,7 @@ const pools: PoolConfig[] = [
     tokenPerBlock: `19097.222222222222222222`,
     sortOrder: 1,
     reflect: false,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 18,
   },
   {
@@ -2737,6 +2757,26 @@ const pools: PoolConfig[] = [
     reflect: false,
     isFinished: false,
     tokenDecimals: 18,
+  },
+  {
+    sousId: 222,
+    tokenName: 'BRZ-BUSD',
+    image: 'BRZ.svg',
+    stakingToken: tokens.brzBusd,
+    rewardToken: tokens.brz,
+    contractAddress: {
+      97: '0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d',
+      56: '0xdffcb3f3a64b8c7d722b33d098349417136585f8',
+    },
+    poolCategory: PoolCategory.JUNGLE,
+    projectLink: 'https://www.transfero.com/transfero-crypto?lang=en',
+    twitter: 'https://twitter.com/transferogroup',
+    harvest: true,
+    tokenPerBlock: `0.0171`,
+    sortOrder: 1,
+    reflect: false,
+    isFinished: false,
+    tokenDecimals: 4,
   },
 
   //

@@ -2,6 +2,8 @@ import { ChainId } from '@apeswapfinance/sdk'
 import tokens from './tokens'
 import { BillsConfig } from './types'
 
+// Largest Bill Index: 20
+
 const bills: BillsConfig[] = [
   {
     index: 13,
@@ -112,6 +114,28 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
+  },
+  {
+    index: 20,
+    contractAddress: {
+      [ChainId.BSC]: '0xb646c4a51365598433ba4765b890ad3075e4e21e', //
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    billType: 'JUNGLE Bill',
+    token: tokens.gmr,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.gmrBnb,
+    earnToken: tokens.gmr,
+    billNnftAddress: {
+      [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    projectLink: 'https://gmr.center/',
+    twitter: 'https://twitter.com/GMRCenter',
   },
   {
     index: 19,
@@ -475,6 +499,29 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://www.dogira.net/',
     twitter: 'https://twitter.com/DogiraOfficial',
+  },
+  {
+    index: 101,
+    contractAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '0x3e17537441fd39f5ff3e7ef968871bdb8fcd981e',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    billType: 'Jungle Bill',
+    token: tokens.traxx,
+    quoteToken: tokens.wmatic,
+    lpToken: tokens.traxxMatic,
+    earnToken: tokens.traxx,
+    billNnftAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '0xa35c3fcd306cf69fed19e8c7b15c8b3904ea609d',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    inactive: false,
+    projectLink: 'https://www.tokentraxx.com/',
+    twitter: 'https://twitter.com/TokenTraxx',
   },
 ]
 

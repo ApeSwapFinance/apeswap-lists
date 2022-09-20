@@ -131,7 +131,7 @@
         "symbol": "DAI",
         "address": {
           "1": "",
-          "56": "",
+          "56": "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3",
           "97": "",
           "137": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063"
         },
@@ -296,7 +296,7 @@
         "symbol": "DAI",
         "address": {
           "1": "",
-          "56": "",
+          "56": "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3",
           "97": "",
           "137": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063"
         },
@@ -704,6 +704,114 @@
           "137": "0xC004e2318722EA2b15499D6375905d75Ee5390B8"
         },
         "decimals": 8,
+        "active": true
+      }
+    }
+  },
+  {
+    "pid": 13,
+    "network": 137,
+    "stakeTokenAddress": "0x545cb3055e62c86f54ba479c7cafc7e1e2eeec54",
+    "rewarderAddress": "0xfFc2Ab60A93C2e06eEa8d7C4d7a027fE4d02a67F",
+    "stakeTokens": {
+      "token0": {
+        "symbol": "MATIC",
+        "address": {
+          "1": "",
+          "56": "0xcc42724c6683b7e57334c4e856f4c9965ed682bd",
+          "97": "",
+          "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
+        },
+        "decimals": 18,
+        "active": true
+      },
+      "token1": {
+        "symbol": "TRAXX",
+        "address": {
+          "1": "",
+          "56": "",
+          "97": "",
+          "137": "0xD43Be54C1aedf7Ee4099104f2DaE4eA88B18A249"
+        },
+        "decimals": 18,
+        "active": true
+      }
+    },
+    "rewardTokens": {
+      "token0": {
+        "symbol": "BANANA",
+        "address": {
+          "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+          "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+          "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+          "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
+        },
+        "decimals": 18,
+        "active": true
+      },
+      "token1": {
+        "symbol": "DAI",
+        "address": {
+          "1": "",
+          "56": "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3",
+          "97": "",
+          "137": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063"
+        },
+        "decimals": 18,
+        "active": true
+      }
+    }
+  },
+  {
+    "pid": 16,
+    "network": 137,
+    "stakeTokenAddress": "0x81A3F6a138F0B12eCBDCE4583972A6CA57514dBd",
+    "rewarderAddress": "0xDB25C31f864Ac2Ae43236D4639EC9056B0971736",
+    "stakeTokens": {
+      "token0": {
+        "symbol": "USDC",
+        "address": {
+          "1": "",
+          "56": "",
+          "97": "",
+          "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+        },
+        "decimals": 6,
+        "active": true
+      },
+      "token1": {
+        "symbol": "AXN",
+        "address": {
+          "1": "",
+          "56": "",
+          "97": "",
+          "137": "0x839F1a22A59eAAf26c85958712aB32F80FEA23d9"
+        },
+        "decimals": 18,
+        "active": true
+      }
+    },
+    "rewardTokens": {
+      "token0": {
+        "symbol": "BANANA",
+        "address": {
+          "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+          "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+          "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+          "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
+        },
+        "decimals": 18,
+        "active": true
+      },
+      "token1": {
+        "symbol": "AXN",
+        "address": {
+          "1": "",
+          "56": "",
+          "97": "",
+          "137": "0x839F1a22A59eAAf26c85958712aB32F80FEA23d9"
+        },
+        "decimals": 18,
         "active": true
       }
     }

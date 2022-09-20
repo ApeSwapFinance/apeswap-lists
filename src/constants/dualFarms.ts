@@ -2,6 +2,8 @@ import { ChainId } from '@apeswapfinance/sdk'
 import tokens from './tokens'
 import { DualFarmConfig } from './types'
 
+// Max PID is 13
+
 const dualFarms: DualFarmConfig[] = [
   {
     pid: 0,
@@ -190,6 +192,34 @@ const dualFarms: DualFarmConfig[] = [
     rewardTokens: {
       token0: tokens.banana,
       token1: tokens.kom,
+    },
+  },
+  {
+    pid: 13,
+    network: ChainId.MATIC,
+    stakeTokenAddress: '0x545cb3055e62c86f54ba479c7cafc7e1e2eeec54',
+    rewarderAddress: '0xfFc2Ab60A93C2e06eEa8d7C4d7a027fE4d02a67F',
+    stakeTokens: {
+      token0: tokens.wmatic,
+      token1: tokens.traxx,
+    },
+    rewardTokens: {
+      token0: tokens.banana,
+      token1: tokens.dai,
+    },
+  },
+  {
+    pid: 16,
+    network: ChainId.MATIC,
+    stakeTokenAddress: '0x81A3F6a138F0B12eCBDCE4583972A6CA57514dBd',
+    rewarderAddress: '0xDB25C31f864Ac2Ae43236D4639EC9056B0971736',
+    stakeTokens: {
+      token0: tokens.usdc_six_decimals,
+      token1: tokens.axn,
+    },
+    rewardTokens: {
+      token0: tokens.banana,
+      token1: tokens.axn,
     },
   },
 ]

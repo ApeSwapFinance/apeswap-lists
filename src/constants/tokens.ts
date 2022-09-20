@@ -124,6 +124,17 @@ const tokens: Record<string, Token> = {
     decimals: 18,
     active: true,
   },
+  usdc_six_decimals: {
+    symbol: 'USDC',
+    address: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 6,
+    active: true,
+  },
   bifi: {
     symbol: 'BIFI',
     address: {
@@ -622,7 +633,7 @@ const tokens: Record<string, Token> = {
   dai: {
     symbol: 'DAI',
     address: {
-      [ChainId.BSC]: '',
+      [ChainId.BSC]: '0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3',
       [ChainId.MATIC]: '0x8f3cf7ad23cd3cadbd9735aff958023239c6a063',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
@@ -639,6 +650,17 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC_TESTNET]: '',
     },
     decimals: 18,
+    active: true,
+  },
+  usdt_six_decimals: {
+    symbol: 'USDT',
+    address: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '0xc2132d05d31c914a87c6611c10748aeb04b58e8f',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 6,
     active: true,
   },
   wsg: {
@@ -1742,6 +1764,50 @@ const tokens: Record<string, Token> = {
     decimals: 18,
     active: true,
   },
+  traxx: {
+    symbol: 'TRAXX',
+    address: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '0xD43Be54C1aedf7Ee4099104f2DaE4eA88B18A249',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+  },
+  brz: {
+    symbol: 'BRZ',
+    address: {
+      [ChainId.BSC]: '0x71be881e9C5d4465B3FfF61e89c6f3651E69B5bb',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 4,
+    active: true,
+  },
+  chrp: {
+    symbol: 'CHRP',
+    address: {
+      [ChainId.BSC]: '0xeD00Fc7D48B57B81FE65D1cE71c0985e4CF442CB',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+  },
+  axn: {
+    symbol: 'AXN',
+    address: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '0x839F1a22A59eAAf26c85958712aB32F80FEA23d9',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+  },
   dogira: {
     symbol: 'DOGIRA',
     address: {
@@ -2284,6 +2350,30 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
   },
+  gmrBnb: {
+    symbol: 'GMR-BNB',
+    address: {
+      [ChainId.BSC]: '0x5ff97410ff9bdb715b7b283828796dd0ad7a884a',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+    lpToken: true,
+  },
+  brzBusd: {
+    symbol: 'BRZ-BUSD',
+    address: {
+      [ChainId.BSC]: '0xfbD7e3575F709212A9f61aC6C63964A8FDa34CAC',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+    lpToken: true,
+  },
   ethMatic: {
     symbol: 'ETH-MATIC',
     address: {
@@ -2301,6 +2391,18 @@ const tokens: Record<string, Token> = {
     address: {
       [ChainId.BSC]: '',
       [ChainId.MATIC]: '0x103062f71b7106a8df6fd2a4dd9368358c44a9d0',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+    lpToken: true,
+  },
+  traxxMatic: {
+    symbol: 'TRAXX-MATIC',
+    address: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '0x545cb3055e62c86f54ba479c7cafc7e1e2eeec54',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
     },
