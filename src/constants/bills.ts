@@ -515,7 +515,7 @@ const bills: BillsConfig[] = [
     earnToken: tokens.dogira,
     billNnftAddress: {
       [ChainId.BSC]: '',
-      [ChainId.MATIC]: '0xa35c3fcd306cf69fed19e8c7b15c8b3904ea609d',
+      [ChainId.MATIC]: '0x643a6848a3906182a94ec857a41c1735664c677f',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
     },
