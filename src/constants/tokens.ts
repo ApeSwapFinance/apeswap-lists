@@ -1808,6 +1808,17 @@ const tokens: Record<string, Token> = {
     decimals: 18,
     active: true,
   },
+  dogira: {
+    symbol: 'DOGIRA',
+    address: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '0xdda40cdfe4a0090f42ff49f264a831402adb801a',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 9,
+    active: true,
+  },
 
   // Test LPs
 
@@ -2356,6 +2367,42 @@ const tokens: Record<string, Token> = {
     address: {
       [ChainId.BSC]: '0xfbD7e3575F709212A9f61aC6C63964A8FDa34CAC',
       [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+    lpToken: true,
+  },
+  ethMatic: {
+    symbol: 'ETH-MATIC',
+    address: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '0x6cf8654e85ab489ca7e70189046d507eba233613',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+    lpToken: true,
+  },
+  dogiraMatic: {
+    symbol: 'DOGIRA-MATIC',
+    address: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '0x103062f71b7106a8df6fd2a4dd9368358c44a9d0',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+    lpToken: true,
+  },
+  traxxMatic: {
+    symbol: 'TRAXX-MATIC',
+    address: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '0x545cb3055e62c86f54ba479c7cafc7e1e2eeec54',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
     },
