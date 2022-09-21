@@ -500,6 +500,29 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.dogira.net/',
     twitter: 'https://twitter.com/DogiraOfficial',
   },
+  {
+    index: 101,
+    contractAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '0x365660eff91eebb63f3295738555e011a3ae1329',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    billType: 'Jungle Bill',
+    token: tokens.dogira,
+    quoteToken: tokens.wmatic,
+    lpToken: tokens.dogiraMatic,
+    earnToken: tokens.dogira,
+    billNnftAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '0xa35c3fcd306cf69fed19e8c7b15c8b3904ea609d',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    inactive: false,
+    projectLink: 'https://www.dogira.net/',
+    twitter: 'https://twitter.com/DogiraOfficial',
+  },
   // {
   //   index: 101,
   //   contractAddress: {
