@@ -504,7 +504,7 @@ const bills: BillsConfig[] = [
     index: 101,
     contractAddress: {
       [ChainId.BSC]: '',
-      [ChainId.MATIC]: '0x365660eff91eebb63f3295738555e011a3ae1329',
+      [ChainId.MATIC]: '0x643a6848a3906182a94ec857a41c1735664c677f',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
     },
@@ -515,7 +515,7 @@ const bills: BillsConfig[] = [
     earnToken: tokens.dogira,
     billNnftAddress: {
       [ChainId.BSC]: '',
-      [ChainId.MATIC]: '0x643a6848a3906182a94ec857a41c1735664c677f',
+      [ChainId.MATIC]: '0xa35c3fcd306cf69fed19e8c7b15c8b3904ea609d',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
     },
