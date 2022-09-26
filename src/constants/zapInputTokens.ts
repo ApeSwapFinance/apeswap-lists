@@ -22,7 +22,7 @@ const zapInputTokens: Record<string, Record<string, Token>> = {
     usdc: tokens.usdc,
     usdt: tokens.usdt,
   },
-  [ChainId.MATIC]: {
+  [ChainId.TLOS]: {
     tlos: tokens.tlos,
     eth: tokens.eth,
     usdc: tokens.usdc,
