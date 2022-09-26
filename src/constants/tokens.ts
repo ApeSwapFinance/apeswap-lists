@@ -76,6 +76,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: '0x7ceb23fd6bc0add59e62ac25578270cff1b9f619',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378',
+      [ChainId.TLOS]: '0xfa9343c3897324496a05fc75abed6bac29f8a40f',
     },
     decimals: 18,
     active: true,
