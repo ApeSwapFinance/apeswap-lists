@@ -1968,6 +1968,18 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
   },
+  blidUsdt: {
+    symbol: 'BLID-USDT',
+    address: {
+      [ChainId.BSC]: '0xc403a4b51d824eeb3f076bcaf4416dbbfde2016b',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+    lpToken: true,
+  },
   nft11Busd: {
     symbol: 'NFT11-BUSD',
     address: {

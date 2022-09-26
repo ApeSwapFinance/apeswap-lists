@@ -315,6 +315,69 @@
     "twitter": "https://twitter.com/ape_swap"
   },
   {
+    "index": 21,
+    "contractAddress": {
+      "1": "",
+      "56": "0x7e7842f762b27a024f7c3b95495f1d132c554d6b",
+      "97": "",
+      "137": ""
+    },
+    "billType": "JUNGLE Bill",
+    "token": {
+      "symbol": "BLID",
+      "address": {
+        "1": "",
+        "56": "0x766AFcf83Fd5eaf884B3d529b432CA27A6d84617",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDT",
+      "address": {
+        "1": "",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "97": "",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "BLID-USDT",
+      "address": {
+        "1": "",
+        "56": "0xc403a4b51d824eeb3f076bcaf4416dbbfde2016b",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "BLID",
+      "address": {
+        "1": "",
+        "56": "0x766AFcf83Fd5eaf884B3d529b432CA27A6d84617",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "billNnftAddress": {
+      "1": "",
+      "56": "0x7fd203888661d1f0ae625ed599909f8f97698670",
+      "97": "",
+      "137": ""
+    },
+    "projectLink": "https://bolide.fi/",
+    "twitter": "https://twitter.com/Bolide_fi"
+  },
+  {
     "index": 20,
     "contractAddress": {
       "1": "",
