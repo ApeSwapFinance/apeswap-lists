@@ -201,7 +201,8 @@
     "tokenDecimals": 4,
     "lpStaking": true,
     "isEarnTokenLp": false,
-    "network": 56
+    "network": 56,
+    "zapable": true
   },
   {
     "jungleId": 206,
@@ -880,6 +881,7 @@
     "tokenDecimals": 18,
     "lpStaking": true,
     "isEarnTokenLp": false,
-    "network": 56
+    "network": 56,
+    "zapable": true
   }
 ]

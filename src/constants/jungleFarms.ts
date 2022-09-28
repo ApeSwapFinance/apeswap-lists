@@ -85,6 +85,7 @@ const jungleFarms: JungleFarmConfig[] = [
     lpStaking: true,
     isEarnTokenLp: false,
     network: ChainId.BSC,
+    zapable: true,
   },
   {
     jungleId: 206,
@@ -354,6 +355,7 @@ const jungleFarms: JungleFarmConfig[] = [
     lpStaking: true,
     isEarnTokenLp: false,
     network: ChainId.BSC,
+    zapable: true,
   },
 ]
 
