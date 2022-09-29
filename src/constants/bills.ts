@@ -5,7 +5,7 @@ import { BillsConfig } from './types'
 // Largest Bill Index: 20
 
 const bills: BillsConfig[] = [
-  /*{
+  {
     index: 13,
     contractAddress: {
       [ChainId.BSC]: '0xE325439439D692DC858Ba887601999D57d35688F',
@@ -270,7 +270,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
   },
-  /*{
+  {
     index: 8,
     contractAddress: {
       [ChainId.BSC]: '0xaf3016100f67c66af15c973cb8da94962653a726',
@@ -336,7 +336,6 @@ const bills: BillsConfig[] = [
     projectLink: 'https://hotcross.com/',
     twitter: 'https://twitter.com/hotcrosscom',
   },
-  */
   {
     index: 11,
     contractAddress: {
@@ -359,7 +358,6 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
   },
-  /*
   {
     index: 0,
     contractAddress: {
@@ -474,35 +472,36 @@ const bills: BillsConfig[] = [
     inactive: true,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
-  },*/
+  },
 
   /*
-    POLYGON BILLS
+    TELOS BILL STUB
   */
-  // Testing later
-  // {
-  //   index: 69,
-  //   contractAddress: {
-  //     [ChainId.BSC]: '',
-  //     [ChainId.MATIC]: '0xee181079b57875b94cd27cadc9a3eb940e733c49',
-  //     [ChainId.MAINNET]: '',
-  //     [ChainId.BSC_TESTNET]: '',
-  //   },
-  //   billType: 'BANANA Bill',
-  //   token: tokens.eth,
-  //   quoteToken: tokens.wmatic,
-  //   lpToken: tokens.ethMatic,
-  //   earnToken: tokens.banana,
-  //   billNnftAddress: {
-  //     [ChainId.BSC]: '',
-  //     [ChainId.MATIC]: '0xa35c3fcd306cf69fed19e8c7b15c8b3904ea609d',
-  //     [ChainId.MAINNET]: '',
-  //     [ChainId.BSC_TESTNET]: '',
-  //   },
-  //   inactive: false,
-  //   projectLink: 'https://apeswap.finance/',
-  //   twitter: 'https://twitter.com/ape_swap',
-  // },
+  {
+    index: 69,
+    contractAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+      [ChainId.TLOS]: '0xee181079b57875b94cd27cadc9a3eb940e733c49',
+    },
+    billType: 'Jungle Bill',
+    token: tokens.usdc,
+    quoteToken: tokens.tlos,
+    lpToken: tokens.tlosUsdc,
+    earnToken: tokens.tlos,
+    billNnftAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+      [ChainId.TLOS]: '0xa35c3fcd306cf69fed19e8c7b15c8b3904ea609d',
+    },
+    inactive: false,
+    projectLink: 'https://apeswap.finance/',
+    twitter: 'https://twitter.com/ape_swap',
+  },
 ]
 
 export default bills
