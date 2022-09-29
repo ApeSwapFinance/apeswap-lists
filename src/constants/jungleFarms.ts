@@ -42,7 +42,7 @@ const jungleFarms: JungleFarmConfig[] = [
     CHAIN ID 56 - BNB Jungle Farms
     Current Jungle ID = XX
   */
-  /*{
+  {
     jungleId: 8,
     tokenName: 'PXP-BNB',
     image: 'PXP.png',
@@ -391,7 +391,7 @@ const jungleFarms: JungleFarmConfig[] = [
     lpStaking: true,
     isEarnTokenLp: false,
     network: ChainId.BSC,
-  },*/
+  },
 ]
 
 export default jungleFarms
