@@ -1,9 +1,9 @@
 [
   {
-    "index": 7,
+    "index": 11,
     "contractAddress": {
       "1": "",
-      "56": "0xda0149da023cb204b3ffba33a88d9dd19393c6fc",
+      "56": "0x4a3adf34b1f8830fb8d673477d52fa5cb91a2531",
       "97": "",
       "137": ""
     },
@@ -61,7 +61,6 @@
       "97": "",
       "137": ""
     },
-    "inactive": true,
     "projectLink": "https://www.telos.net/",
     "twitter": "https://twitter.com/HelloTelos"
   }

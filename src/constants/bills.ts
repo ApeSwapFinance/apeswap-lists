@@ -246,7 +246,7 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://nftynetwork.io/',
     twitter: 'https://twitter.com/NFTYLab',
-  },*/
+  },
   {
     index: 7,
     contractAddress: {
@@ -336,6 +336,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://hotcross.com/',
     twitter: 'https://twitter.com/hotcrosscom',
   },
+  */
   {
     index: 11,
     contractAddress: {
@@ -358,6 +359,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
   },
+  /*
   {
     index: 0,
     contractAddress: {
