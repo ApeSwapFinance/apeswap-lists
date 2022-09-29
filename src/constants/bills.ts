@@ -5,7 +5,7 @@ import { BillsConfig } from './types'
 // Largest Bill Index: 20
 
 const bills: BillsConfig[] = [
-  {
+  /*{
     index: 13,
     contractAddress: {
       [ChainId.BSC]: '0xE325439439D692DC858Ba887601999D57d35688F',
@@ -246,7 +246,7 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://nftynetwork.io/',
     twitter: 'https://twitter.com/NFTYLab',
-  },
+  },*/
   {
     index: 7,
     contractAddress: {
@@ -270,7 +270,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
   },
-  {
+  /*{
     index: 8,
     contractAddress: {
       [ChainId.BSC]: '0xaf3016100f67c66af15c973cb8da94962653a726',
@@ -472,7 +472,7 @@ const bills: BillsConfig[] = [
     inactive: true,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
-  },
+  },*/
 
   /*
     POLYGON BILLS
