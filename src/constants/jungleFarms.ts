@@ -358,7 +358,7 @@ const jungleFarms: JungleFarmConfig[] = [
     zapable: true,
   },
   {
-    jungleId: 11,
+    jungleId: 12,
     tokenName: 'SWT-BNB',
     image: 'SWT.svg',
     stakingToken: tokens.swtBnb,
