@@ -2,7 +2,7 @@ import { JungleFarmConfig } from './types'
 import tokens from './tokens'
 import { ChainId } from '@apeswapfinance/sdk'
 
-// Current Jungle ID: 11
+// Current Jungle ID: 12
 
 const jungleFarms: JungleFarmConfig[] = [
   {
@@ -349,6 +349,34 @@ const jungleFarms: JungleFarmConfig[] = [
     twitter: 'https://twitter.com/thegenericcoin',
     harvest: true,
     tokenPerBlock: '11574.074074074074074074',
+    sortOrder: 1,
+    isFinished: false,
+    tokenDecimals: 18,
+    lpStaking: true,
+    isEarnTokenLp: false,
+    network: ChainId.BSC,
+    zapable: true,
+  },
+  {
+    jungleId: 12,
+    tokenName: 'SWT-BNB',
+    image: 'SWT.svg',
+    stakingToken: tokens.swtBnb,
+    rewardToken: tokens.swt,
+    lpTokens: {
+      token: tokens.swt,
+      quoteToken: tokens.wbnb,
+    },
+    contractAddress: {
+      [ChainId.BSC_TESTNET]: '',
+      [ChainId.BSC]: '0x6d986e76745fa4f99bad44dd2792351bf2d0800f',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+    },
+    projectLink: 'https://sweetpad.io/',
+    twitter: 'https://twitter.com/SweetPad_',
+    harvest: true,
+    tokenPerBlock: '0.076388888888888888',
     sortOrder: 1,
     isFinished: false,
     tokenDecimals: 18,

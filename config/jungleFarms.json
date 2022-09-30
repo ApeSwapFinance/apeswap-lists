@@ -883,5 +883,74 @@
     "isEarnTokenLp": false,
     "network": 56,
     "zapable": true
+  },
+  {
+    "jungleId": 12,
+    "tokenName": "SWT-BNB",
+    "image": "SWT.svg",
+    "stakingToken": {
+      "symbol": "SWT-BNB",
+      "address": {
+        "1": "",
+        "56": "0xD2280ae010CE3e519a09a459E200bACD303eA330",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true,
+      "lpToken": true
+    },
+    "rewardToken": {
+      "symbol": "SWT",
+      "address": {
+        "1": "",
+        "56": "0xE8EbCf4Fd1faa9B77c0ec0B26e7Cc32a251Cd799",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "lpTokens": {
+      "token": {
+        "symbol": "SWT",
+        "address": {
+          "1": "",
+          "56": "0xE8EbCf4Fd1faa9B77c0ec0B26e7Cc32a251Cd799",
+          "97": "",
+          "137": ""
+        },
+        "decimals": 18,
+        "active": true
+      },
+      "quoteToken": {
+        "symbol": "BNB",
+        "address": {
+          "1": "",
+          "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+          "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+          "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        },
+        "decimals": 18,
+        "active": true
+      }
+    },
+    "contractAddress": {
+      "1": "",
+      "56": "0x6d986e76745fa4f99bad44dd2792351bf2d0800f",
+      "97": "",
+      "137": ""
+    },
+    "projectLink": "https://sweetpad.io/",
+    "twitter": "https://twitter.com/SweetPad_",
+    "harvest": true,
+    "tokenPerBlock": "0.076388888888888888",
+    "sortOrder": 1,
+    "isFinished": false,
+    "tokenDecimals": 18,
+    "lpStaking": true,
+    "isEarnTokenLp": false,
+    "network": 56,
+    "zapable": true
   }
 ]
