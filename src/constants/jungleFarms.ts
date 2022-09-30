@@ -51,7 +51,7 @@ const jungleFarms: JungleFarmConfig[] = [
     projectLink: 'https://staderlabs.com/',
     twitter: 'https://twitter.com/stader_bnb',
     harvest: true,
-    tokenPerBlock: '0.076607142857142857',
+    tokenPerBlock: '0.05729166666',
     sortOrder: 1,
     isFinished: false,
     tokenDecimals: 18,
