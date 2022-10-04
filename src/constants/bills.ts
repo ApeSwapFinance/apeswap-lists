@@ -2,7 +2,7 @@ import { ChainId } from '@apeswapfinance/sdk'
 import tokens from './tokens'
 import { BillsConfig } from './types'
 
-// BNB Largest ID: 21
+// BNB Largest ID: 22
 // Polygon Largest ID: 101
 
 const bills: BillsConfig[] = [
@@ -117,6 +117,28 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/ape_swap',
   },
   {
+    index: 22,
+    contractAddress: {
+      [ChainId.BSC]: '0x7b1dfe9ca71ffeac5ed4d1beb592771e3672a2de',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    billType: 'JUNGLE Bill',
+    token: tokens.chrp,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.chrpBnb,
+    earnToken: tokens.chrp,
+    billNnftAddress: {
+      [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    projectLink: 'https://chirpley.ai',
+    twitter: 'https://twitter.com/chirpley',
+  },
+  {
     index: 21,
     contractAddress: {
       [ChainId.BSC]: '0x7e7842f762b27a024f7c3b95495f1d132c554d6b',
@@ -138,8 +160,6 @@ const bills: BillsConfig[] = [
     projectLink: 'https://bolide.fi/',
     twitter: 'https://twitter.com/Bolide_fi',
   },
-
-  //customTreasury :0xab0341c625839c71e46f92bd1fc5f44ac86ef56b
   {
     index: 20,
     contractAddress: {

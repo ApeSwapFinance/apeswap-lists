@@ -2445,6 +2445,18 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
   },
+  chrpBnb: {
+    symbol: 'CHRP-BNB',
+    address: {
+      [ChainId.BSC]: '0xcD10d0173651d1B3bd027DEcDBA007998bb03eaf',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+    lpToken: true,
+  },
 }
 
 export default tokens
