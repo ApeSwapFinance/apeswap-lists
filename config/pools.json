@@ -4994,7 +4994,8 @@
     "sortOrder": 1,
     "reflect": false,
     "isFinished": false,
-    "tokenDecimals": 18
+    "tokenDecimals": 18,
+    "zapable": true
   },
   {
     "sousId": 214,

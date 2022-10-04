@@ -152,6 +152,7 @@ export interface PoolConfig {
   forAdmins?: boolean
   emergencyWithdraw?: boolean
   isEarnTokenLp?: boolean
+  zapable?: boolean
 }
 
 export interface DualFarmConfig {
@@ -197,6 +198,7 @@ export interface JungleFarmConfig {
   emergencyWithdraw?: boolean
   isEarnTokenLp?: boolean
   network: number
+  zapable?: boolean
 }
 
 export interface NfaStakingPoolConfig {

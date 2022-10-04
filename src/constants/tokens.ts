@@ -126,6 +126,17 @@ const tokens: Record<string, Token> = {
     decimals: 18,
     active: true,
   },
+  usdc_six_decimals: {
+    symbol: 'USDC',
+    address: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 6,
+    active: true,
+  },
   bifi: {
     symbol: 'BIFI',
     address: {
@@ -1789,6 +1800,39 @@ const tokens: Record<string, Token> = {
     decimals: 18,
     active: true,
   },
+  swt: {
+    symbol: 'SWT',
+    address: {
+      [ChainId.BSC]: '0xE8EbCf4Fd1faa9B77c0ec0B26e7Cc32a251Cd799',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+  },
+  axn: {
+    symbol: 'AXN',
+    address: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '0x839F1a22A59eAAf26c85958712aB32F80FEA23d9',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+  },
+  dogira: {
+    symbol: 'DOGIRA',
+    address: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '0xdda40cdfe4a0090f42ff49f264a831402adb801a',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 9,
+    active: true,
+  },
 
   // Test LPs
 
@@ -1930,6 +1974,18 @@ const tokens: Record<string, Token> = {
     symbol: 'WGICT-USDT',
     address: {
       [ChainId.BSC]: '0x4c64c44a6ed5f1fdce5263d9b512c2465ffe8256',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+    lpToken: true,
+  },
+  blidUsdt: {
+    symbol: 'BLID-USDT',
+    address: {
+      [ChainId.BSC]: '0xc403a4b51d824eeb3f076bcaf4416dbbfde2016b',
       [ChainId.MATIC]: '',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
@@ -2344,7 +2400,6 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
   },
-
   tlosUsdc: {
     symbol: 'TLOS-USDC',
     address: {
@@ -2353,6 +2408,54 @@ const tokens: Record<string, Token> = {
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
       [ChainId.TLOS]: '0x2a4e6ef568e4a696555a5491c0fe7cbcf998c1bb',
+    },
+    decimals: 18,
+    active: true,
+    lpToken: true,
+  },
+  swtBnb: {
+    symbol: 'SWT-BNB',
+    address: {
+      [ChainId.BSC]: '0xD2280ae010CE3e519a09a459E200bACD303eA330',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+    lpToken: true,
+  },
+  ethMatic: {
+    symbol: 'ETH-MATIC',
+    address: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '0x6cf8654e85ab489ca7e70189046d507eba233613',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+    lpToken: true,
+  },
+  dogiraMatic: {
+    symbol: 'DOGIRA-MATIC',
+    address: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '0x103062f71b7106a8df6fd2a4dd9368358c44a9d0',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+    lpToken: true,
+  },
+  traxxMatic: {
+    symbol: 'TRAXX-MATIC',
+    address: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '0x545cb3055e62c86f54ba479c7cafc7e1e2eeec54',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
     },
     decimals: 18,
     active: true,

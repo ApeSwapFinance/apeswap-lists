@@ -2505,6 +2505,7 @@ const pools: PoolConfig[] = [
     reflect: false,
     isFinished: false,
     tokenDecimals: 18,
+    zapable: true,
   },
 
   //

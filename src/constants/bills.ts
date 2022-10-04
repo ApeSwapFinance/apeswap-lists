@@ -2,7 +2,8 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillsConfig } from './types'
 
-// Largest Bill Index: 20
+// BNB Largest ID: 21
+// Polygon Largest ID: 101
 
 const bills: BillsConfig[] = [
   {
@@ -115,6 +116,30 @@ const bills: BillsConfig[] = [
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
   },
+  {
+    index: 21,
+    contractAddress: {
+      [ChainId.BSC]: '0x7e7842f762b27a024f7c3b95495f1d132c554d6b',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    billType: 'JUNGLE Bill',
+    token: tokens.blid,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.blidUsdt,
+    earnToken: tokens.blid,
+    billNnftAddress: {
+      [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    projectLink: 'https://bolide.fi/',
+    twitter: 'https://twitter.com/Bolide_fi',
+  },
+
+  //customTreasury :0xab0341c625839c71e46f92bd1fc5f44ac86ef56b
   {
     index: 20,
     contractAddress: {
@@ -475,10 +500,60 @@ const bills: BillsConfig[] = [
   },
 
   /*
+    Polygon Bills
+  */
+  {
+    index: 100,
+    contractAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '0x643a6848a3906182a94ec857a41c1735664c677f',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    billType: 'Jungle Bill',
+    token: tokens.dogira,
+    quoteToken: tokens.wmatic,
+    lpToken: tokens.dogiraMatic,
+    earnToken: tokens.dogira,
+    billNnftAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '0xa35c3fcd306cf69fed19e8c7b15c8b3904ea609d',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    inactive: false,
+    projectLink: 'https://www.dogira.net/',
+    twitter: 'https://twitter.com/DogiraOfficial',
+  },
+  {
+    index: 101,
+    contractAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '0xca48704b19a053ebb5a077c215dcb4be745c9fe5',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    billType: 'Jungle Bill',
+    token: tokens.traxx,
+    quoteToken: tokens.wmatic,
+    lpToken: tokens.traxxMatic,
+    earnToken: tokens.traxx,
+    billNnftAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '0xa35c3fcd306cf69fed19e8c7b15c8b3904ea609d',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    inactive: false,
+    projectLink: 'https://www.tokentraxx.com/',
+    twitter: 'https://twitter.com/TokenTraxx',
+  },
+
+  /*
     TELOS BILL STUB
   */
   {
-    index: 69,
+    index: 201,
     contractAddress: {
       [ChainId.BSC]: '',
       [ChainId.MATIC]: '',
