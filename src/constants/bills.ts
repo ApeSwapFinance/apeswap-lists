@@ -2,8 +2,8 @@ import { ChainId } from '@apeswapfinance/sdk'
 import tokens from './tokens'
 import { BillsConfig } from './types'
 
-// BNB Largest ID: 21
-// Polygon Largest ID: 101
+// BNB Largest ID: 22
+// Polygon Largest ID: 102
 
 const bills: BillsConfig[] = [
   {
@@ -117,6 +117,28 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/ape_swap',
   },
   {
+    index: 22,
+    contractAddress: {
+      [ChainId.BSC]: '0x7b1dfe9ca71ffeac5ed4d1beb592771e3672a2de',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    billType: 'JUNGLE Bill',
+    token: tokens.chrp,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.chrpBnb,
+    earnToken: tokens.chrp,
+    billNnftAddress: {
+      [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    projectLink: 'https://chirpley.ai',
+    twitter: 'https://twitter.com/chirpley',
+  },
+  {
     index: 21,
     contractAddress: {
       [ChainId.BSC]: '0x7e7842f762b27a024f7c3b95495f1d132c554d6b',
@@ -138,8 +160,6 @@ const bills: BillsConfig[] = [
     projectLink: 'https://bolide.fi/',
     twitter: 'https://twitter.com/Bolide_fi',
   },
-
-  //customTreasury :0xab0341c625839c71e46f92bd1fc5f44ac86ef56b
   {
     index: 20,
     contractAddress: {
@@ -521,7 +541,7 @@ const bills: BillsConfig[] = [
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
     },
-    inactive: false,
+    inactive: true,
     projectLink: 'https://www.dogira.net/',
     twitter: 'https://twitter.com/DogiraOfficial',
   },
@@ -547,6 +567,29 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://www.tokentraxx.com/',
     twitter: 'https://twitter.com/TokenTraxx',
+  },
+  {
+    index: 102,
+    contractAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '0xc16cf0e4c090409765757e5b13afdfc500148678',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    billType: 'Jungle Bill',
+    token: tokens.dogira,
+    quoteToken: tokens.wmatic,
+    lpToken: tokens.dogiraMatic,
+    earnToken: tokens.dogira,
+    billNnftAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '0xa35c3fcd306cf69fed19e8c7b15c8b3904ea609d',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    inactive: false,
+    projectLink: 'https://www.dogira.net/',
+    twitter: 'https://twitter.com/DogiraOfficial',
   },
 ]
 
