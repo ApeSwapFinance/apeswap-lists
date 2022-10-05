@@ -3,7 +3,7 @@ import tokens from './tokens'
 import { BillsConfig } from './types'
 
 // BNB Largest ID: 22
-// Polygon Largest ID: 101
+// Polygon Largest ID: 102
 
 const bills: BillsConfig[] = [
   {
@@ -541,7 +541,7 @@ const bills: BillsConfig[] = [
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
     },
-    inactive: false,
+    inactive: true,
     projectLink: 'https://www.dogira.net/',
     twitter: 'https://twitter.com/DogiraOfficial',
   },
@@ -567,6 +567,29 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://www.tokentraxx.com/',
     twitter: 'https://twitter.com/TokenTraxx',
+  },
+  {
+    index: 102,
+    contractAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '0xc16cf0e4c090409765757e5b13afdfc500148678',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    billType: 'Jungle Bill',
+    token: tokens.dogira,
+    quoteToken: tokens.wmatic,
+    lpToken: tokens.dogiraMatic,
+    earnToken: tokens.dogira,
+    billNnftAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '0xa35c3fcd306cf69fed19e8c7b15c8b3904ea609d',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    inactive: false,
+    projectLink: 'https://www.dogira.net/',
+    twitter: 'https://twitter.com/DogiraOfficial',
   },
 ]
 
