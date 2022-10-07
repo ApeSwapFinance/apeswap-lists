@@ -5,7 +5,7 @@ import tokens from './tokens'
 
 const BANANA_PER_BLOCK = new BigNumber(10)
 
-// Current Sous ID is 224
+// Current Sous ID is 225
 
 const pools: PoolConfig[] = [
   {
@@ -2526,6 +2526,26 @@ const pools: PoolConfig[] = [
     twitter: 'https://twitter.com/PXPNFTsGame',
     harvest: true,
     tokenPerBlock: `15.659722222222222222`,
+    sortOrder: 1,
+    reflect: false,
+    isFinished: false,
+    tokenDecimals: 18,
+  },
+  {
+    sousId: 225,
+    tokenName: 'SWT',
+    image: 'SWT.svg',
+    stakingToken: tokens.swtBnb,
+    rewardToken: tokens.swt,
+    contractAddress: {
+      [ChainId.BSC_TESTNET]: '0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d',
+      [ChainId.BSC]: '0x6d986e76745fa4f99bad44dd2792351bf2d0800f',
+    },
+    poolCategory: PoolCategory.JUNGLE,
+    projectLink: 'https://sweetpad.io/',
+    twitter: 'https://twitter.com/SweetPad_',
+    harvest: true,
+    tokenPerBlock: '0.076388888888888888',
     sortOrder: 1,
     reflect: false,
     isFinished: false,
