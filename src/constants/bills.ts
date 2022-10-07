@@ -551,6 +551,7 @@ const bills: BillsConfig[] = [
 
   /*
     TELOS BILL STUB
+    TLOS Treasury: 0x2f32165bC871D196394476d4e7B6402d9DF4030b
   */
   {
     index: 201,
@@ -559,12 +560,37 @@ const bills: BillsConfig[] = [
       [ChainId.MATIC]: '',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
-      [ChainId.TLOS]: '',
+      [ChainId.TLOS]: '0xdd23144A62FEB4390f990C5FB5a3C6a6C860D54B',
     },
     billType: 'Jungle Bill',
     token: tokens.eth,
     quoteToken: tokens.tlos,
     lpToken: tokens.ethTlos,
+    earnToken: tokens.tlos,
+    billNnftAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+      [ChainId.TLOS]: '0x9084C442286E23617694101d5575bEA48C2cf621',
+    },
+    inactive: false,
+    projectLink: 'https://www.telos.net/',
+    twitter: 'https://twitter.com/HelloTelos',
+  },
+  {
+    index: 202,
+    contractAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+      [ChainId.TLOS]: '0xeB59278B88a505034CCFb90AE5F525ea3D26a00a',
+    },
+    billType: 'Jungle Bill',
+    token: tokens.usdt,
+    quoteToken: tokens.tlos,
+    lpToken: tokens.usdtTlos,
     earnToken: tokens.tlos,
     billNnftAddress: {
       [ChainId.BSC]: '',

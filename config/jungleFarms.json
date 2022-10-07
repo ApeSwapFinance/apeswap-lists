@@ -1,10 +1,10 @@
 [
   {
     "jungleId": 1,
-    "tokenName": "TLOS-USDC",
+    "tokenName": "USDC-TLOS",
     "image": "USDC.svg",
     "stakingToken": {
-      "symbol": "TLOS-USDC",
+      "symbol": "USDC-TLOS",
       "address": {
         "1": "",
         "40": "0x2a4e6ef568e4a696555a5491c0fe7cbcf998c1bb",
