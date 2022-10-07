@@ -2400,14 +2400,40 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
   },
-  tlosUsdc: {
-    symbol: 'TLOS-USDC',
+  usdcTlos: {
+    symbol: 'USDC-TLOS',
     address: {
       [ChainId.BSC]: '',
       [ChainId.MATIC]: '',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
       [ChainId.TLOS]: '0x2a4e6ef568e4a696555a5491c0fe7cbcf998c1bb',
+    },
+    decimals: 18,
+    active: true,
+    lpToken: true,
+  },
+  ethTlos: {
+    symbol: 'ETH-TLOS',
+    address: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+      [ChainId.TLOS]: '0xCfd8505E3c79D777AF2CA3B5507B64480645f516',
+    },
+    decimals: 18,
+    active: true,
+    lpToken: true,
+  },
+  usdtTlos: {
+    symbol: 'USDT-TLOS',
+    address: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+      [ChainId.TLOS]: '0xAE46B3A778999567133c6c1F5C5feA953EE64995',
     },
     decimals: 18,
     active: true,

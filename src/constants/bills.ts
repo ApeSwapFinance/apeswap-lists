@@ -559,12 +559,12 @@ const bills: BillsConfig[] = [
       [ChainId.MATIC]: '',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
-      [ChainId.TLOS]: '0xcB1969F10c9EfD288789489748fafDEbDBcE42d2',
+      [ChainId.TLOS]: '',
     },
     billType: 'Jungle Bill',
-    token: tokens.usdc,
+    token: tokens.eth,
     quoteToken: tokens.tlos,
-    lpToken: tokens.tlosUsdc,
+    lpToken: tokens.ethTlos,
     earnToken: tokens.tlos,
     billNnftAddress: {
       [ChainId.BSC]: '',
@@ -574,8 +574,8 @@ const bills: BillsConfig[] = [
       [ChainId.TLOS]: '0x9084C442286E23617694101d5575bEA48C2cf621',
     },
     inactive: false,
-    projectLink: 'https://apeswap.finance/',
-    twitter: 'https://twitter.com/ape_swap',
+    projectLink: 'https://www.telos.net/',
+    twitter: 'https://twitter.com/HelloTelos',
   },
 ]
 
