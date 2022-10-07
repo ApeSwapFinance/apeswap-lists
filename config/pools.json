@@ -5038,6 +5038,47 @@
     "tokenDecimals": 18
   },
   {
+    "sousId": 225,
+    "tokenName": "SWT",
+    "image": "SWT.svg",
+    "stakingToken": {
+      "symbol": "SWT-BNB",
+      "address": {
+        "1": "",
+        "56": "0xD2280ae010CE3e519a09a459E200bACD303eA330",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true,
+      "lpToken": true
+    },
+    "rewardToken": {
+      "symbol": "SWT",
+      "address": {
+        "1": "",
+        "56": "0xE8EbCf4Fd1faa9B77c0ec0B26e7Cc32a251Cd799",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "contractAddress": {
+      "56": "0x6d986e76745fa4f99bad44dd2792351bf2d0800f",
+      "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
+    },
+    "poolCategory": "Jungle",
+    "projectLink": "https://sweetpad.io/",
+    "twitter": "https://twitter.com/SweetPad_",
+    "harvest": true,
+    "tokenPerBlock": "0.076388888888888888",
+    "sortOrder": 1,
+    "reflect": false,
+    "isFinished": false,
+    "tokenDecimals": 18
+  },
+  {
     "sousId": 211,
     "tokenName": "GENv3",
     "image": "GENV3.svg",
