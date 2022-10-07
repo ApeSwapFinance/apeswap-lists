@@ -35,6 +35,30 @@
       },
       "decimals": 18,
       "active": true
+    },
+    "usdt": {
+      "symbol": "USDT",
+      "address": {
+        "1": "",
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "97": "",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "btc": {
+      "symbol": "BTC",
+      "address": {
+        "1": "",
+        "40": "0xf390830df829cf22c53c8840554b98eafc5dcbc2",
+        "56": "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c",
+        "97": "0x6ce8da28e2f864420840cf74474eff5fd80e65b8",
+        "137": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6"
+      },
+      "decimals": 18,
+      "active": true
     }
   },
   "56": {
@@ -88,6 +112,7 @@
       "symbol": "USDT",
       "address": {
         "1": "",
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
         "56": "0x55d398326f99059ff775485246999027b3197955",
         "97": "",
         "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"
@@ -143,6 +168,7 @@
       "symbol": "BTC",
       "address": {
         "1": "",
+        "40": "0xf390830df829cf22c53c8840554b98eafc5dcbc2",
         "56": "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c",
         "97": "0x6ce8da28e2f864420840cf74474eff5fd80e65b8",
         "137": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6"
@@ -202,6 +228,7 @@
       "symbol": "USDT",
       "address": {
         "1": "",
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
         "56": "0x55d398326f99059ff775485246999027b3197955",
         "97": "",
         "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"

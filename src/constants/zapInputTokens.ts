@@ -26,6 +26,8 @@ const zapInputTokens: Record<string, Record<string, Token>> = {
     tlos: tokens.tlos,
     eth: tokens.eth,
     usdc: tokens.usdc,
+    usdt: tokens.usdt,
+    btc: tokens.btc,
   },
 }
 
