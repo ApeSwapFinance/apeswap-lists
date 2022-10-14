@@ -42,7 +42,7 @@ const jungleFarms: JungleFarmConfig[] = [
     tokenName: 'USDC-TLOS',
     image: 'USDC.svg',
     stakingToken: tokens.usdcTlos,
-    rewardToken: tokens.usdc,
+    rewardToken: tokens.tlos,
     lpTokens: {
       token: tokens.tlos,
       quoteToken: tokens.usdc,
