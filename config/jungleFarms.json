@@ -1,5 +1,151 @@
 [
   {
+    "jungleId": 1,
+    "tokenName": "USDC-TLOS",
+    "image": "USDC.svg",
+    "stakingToken": {
+      "symbol": "USDC-TLOS",
+      "address": {
+        "1": "",
+        "40": "0x2a4e6ef568e4a696555a5491c0fe7cbcf998c1bb",
+        "56": "",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true,
+      "lpToken": true
+    },
+    "rewardToken": {
+      "symbol": "USDC",
+      "address": {
+        "1": "",
+        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
+        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+        "97": "",
+        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174"
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "lpTokens": {
+      "token": {
+        "symbol": "TLOS",
+        "address": {
+          "1": "",
+          "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
+          "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c",
+          "97": "",
+          "137": ""
+        },
+        "decimals": 18,
+        "active": true
+      },
+      "quoteToken": {
+        "symbol": "USDC",
+        "address": {
+          "1": "",
+          "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
+          "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+          "97": "",
+          "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174"
+        },
+        "decimals": 18,
+        "active": true
+      }
+    },
+    "contractAddress": {
+      "1": "",
+      "40": "0x26743111490B1717c0d543a320eD05203FB9f9Ed",
+      "56": "",
+      "97": "",
+      "137": ""
+    },
+    "projectLink": "https://tlos.net",
+    "twitter": "https://twitter.com/telos",
+    "harvest": true,
+    "tokenPerBlock": "0.000001",
+    "sortOrder": 1,
+    "isFinished": false,
+    "tokenDecimals": 6,
+    "lpStaking": true,
+    "isEarnTokenLp": false,
+    "network": 40
+  },
+  {
+    "jungleId": 2,
+    "tokenName": "USDC-TLOS",
+    "image": "USDC.svg",
+    "stakingToken": {
+      "symbol": "USDC-TLOS",
+      "address": {
+        "1": "",
+        "40": "0x2a4e6ef568e4a696555a5491c0fe7cbcf998c1bb",
+        "56": "",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true,
+      "lpToken": true
+    },
+    "rewardToken": {
+      "symbol": "USDC",
+      "address": {
+        "1": "",
+        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
+        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+        "97": "",
+        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174"
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "lpTokens": {
+      "token": {
+        "symbol": "TLOS",
+        "address": {
+          "1": "",
+          "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
+          "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c",
+          "97": "",
+          "137": ""
+        },
+        "decimals": 18,
+        "active": true
+      },
+      "quoteToken": {
+        "symbol": "USDC",
+        "address": {
+          "1": "",
+          "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
+          "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+          "97": "",
+          "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174"
+        },
+        "decimals": 18,
+        "active": true
+      }
+    },
+    "contractAddress": {
+      "1": "",
+      "40": "0xc7228903d3c9e493fe783e2752e6792959d0b45f",
+      "56": "",
+      "97": "",
+      "137": ""
+    },
+    "projectLink": "https://tlos.net",
+    "twitter": "https://twitter.com/telos",
+    "harvest": true,
+    "rewardsPerSecond": "0.000001",
+    "sortOrder": 1,
+    "isFinished": false,
+    "tokenDecimals": 6,
+    "lpStaking": true,
+    "isEarnTokenLp": false,
+    "network": 40
+  },
+  {
     "jungleId": 8,
     "tokenName": "PXP-BNB",
     "image": "PXP.png",
@@ -372,6 +518,7 @@
         "symbol": "USDT",
         "address": {
           "1": "",
+          "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
           "56": "0x55d398326f99059ff775485246999027b3197955",
           "97": "",
           "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"
