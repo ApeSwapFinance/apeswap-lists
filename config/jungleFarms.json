@@ -90,13 +90,13 @@
       "lpToken": true
     },
     "rewardToken": {
-      "symbol": "USDC",
+      "symbol": "TLOS",
       "address": {
         "1": "",
-        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
-        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+        "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
+        "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c",
         "97": "",
-        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174"
+        "137": ""
       },
       "decimals": 18,
       "active": true
