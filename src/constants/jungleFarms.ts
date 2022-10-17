@@ -7,7 +7,7 @@ import { ChainId } from '@ape.swap/sdk'
 const jungleFarms: JungleFarmConfig[] = [
   /*
     CHAIN ID 40 - TLOS Jungle Farms
-    Current Jungle ID = 1
+    Current Jungle ID = 3
   */
   {
     jungleId: 1,
@@ -80,7 +80,7 @@ const jungleFarms: JungleFarmConfig[] = [
       [ChainId.MATIC]: '',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
-      [ChainId.TLOS]: '',
+      [ChainId.TLOS]: '0xcDa65e02462A0031baE34C97A6c0B4De0eE4a01E',
     },
     projectLink: 'https://tlos.net',
     twitter: 'https://twitter.com/telos',
