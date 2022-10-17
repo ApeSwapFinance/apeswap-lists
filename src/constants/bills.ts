@@ -591,6 +591,62 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.dogira.net/',
     twitter: 'https://twitter.com/DogiraOfficial',
   },
+
+  /*
+    Telos Bills
+  */
+  {
+    index: 201,
+    contractAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+      [ChainId.TLOS]: '0xdd23144A62FEB4390f990C5FB5a3C6a6C860D54B',
+      [ChainId.TLOS]: '0x48EfDBD5552F318900457d44c1E12fe97CB743Bb',
+    },
+    billType: 'Jungle Bill',
+    token: tokens.eth,
+    quoteToken: tokens.tlos,
+    lpToken: tokens.ethTlos,
+    earnToken: tokens.tlos,
+    billNnftAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+      [ChainId.TLOS]: '0x9084C442286E23617694101d5575bEA48C2cf621',
+    },
+    inactive: false,
+    projectLink: 'https://www.telos.net/',
+    twitter: 'https://twitter.com/HelloTelos',
+  },
+  {
+    index: 202,
+    contractAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+      [ChainId.TLOS]: '0xeB59278B88a505034CCFb90AE5F525ea3D26a00a',
+      [ChainId.TLOS]: '0xF861d3AED87bDA6419d09c17f7094e76317c1901',
+    },
+    billType: 'Jungle Bill',
+    token: tokens.usdt,
+    quoteToken: tokens.tlos,
+    lpToken: tokens.usdtTlos,
+    earnToken: tokens.tlos,
+    billNnftAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+      [ChainId.TLOS]: '0x9084C442286E23617694101d5575bEA48C2cf621',
+    },
+    inactive: false,
+    projectLink: 'https://www.telos.net/',
+    twitter: 'https://twitter.com/HelloTelos',
+  },
 ]
 
 export default bills
