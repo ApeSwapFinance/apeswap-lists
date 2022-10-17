@@ -2442,6 +2442,32 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
   },
+  btcTlos: {
+    symbol: 'BTC-TLOS',
+    address: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+      [ChainId.TLOS]: '0x48731c532bbccf5179F9E2549624e0A73C7B39bC',
+    },
+    decimals: 18,
+    active: true,
+    lpToken: true,
+  },
+  bananaTlos: {
+    symbol: 'BANANA-TLOS',
+    address: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+      [ChainId.TLOS]: '0xf780e62D54BB6C55e396dd937BacEF0BBD7Aff51',
+    },
+    decimals: 18,
+    active: true,
+    lpToken: true,
+  },
   swtBnb: {
     symbol: 'SWT-BNB',
     address: {
