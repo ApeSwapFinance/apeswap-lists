@@ -680,9 +680,9 @@ const bills: BillsConfig[] = [
       [ChainId.TLOS]: '0x1f3275212266BE37C5D7d3e71455F5676F6A2594',
     },
     billType: 'Jungle Bill',
-    token: tokens.usdc,
+    token: tokens.btc,
     quoteToken: tokens.tlos,
-    lpToken: tokens.usdcTlos,
+    lpToken: tokens.btcTlos,
     earnToken: tokens.tlos,
     billNnftAddress: {
       [ChainId.BSC]: '',
@@ -705,9 +705,9 @@ const bills: BillsConfig[] = [
       [ChainId.TLOS]: '0xF0beD30E0395A046A7Da127e1b1D077D452612a6',
     },
     billType: 'Jungle Bill',
-    token: tokens.usdc,
+    token: tokens.banana,
     quoteToken: tokens.tlos,
-    lpToken: tokens.usdcTlos,
+    lpToken: tokens.bananaTlos,
     earnToken: tokens.tlos,
     billNnftAddress: {
       [ChainId.BSC]: '',

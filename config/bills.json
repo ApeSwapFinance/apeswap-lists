@@ -1890,13 +1890,13 @@
     },
     "billType": "Jungle Bill",
     "token": {
-      "symbol": "USDC",
+      "symbol": "BTC",
       "address": {
         "1": "",
-        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
-        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-        "97": "",
-        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174"
+        "40": "0xf390830df829cf22c53c8840554b98eafc5dcbc2",
+        "56": "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c",
+        "97": "0x6ce8da28e2f864420840cf74474eff5fd80e65b8",
+        "137": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6"
       },
       "decimals": 18,
       "active": true
@@ -1914,10 +1914,10 @@
       "active": true
     },
     "lpToken": {
-      "symbol": "USDC-TLOS",
+      "symbol": "BTC-TLOS",
       "address": {
         "1": "",
-        "40": "0x2a4e6ef568e4a696555a5491c0fe7cbcf998c1bb",
+        "40": "0x48731c532bbccf5179F9E2549624e0A73C7B39bC",
         "56": "",
         "97": "",
         "137": ""
@@ -1960,13 +1960,13 @@
     },
     "billType": "Jungle Bill",
     "token": {
-      "symbol": "USDC",
+      "symbol": "BANANA",
       "address": {
-        "1": "",
-        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
-        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-        "97": "",
-        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174"
+        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
+        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
       },
       "decimals": 18,
       "active": true
@@ -1984,10 +1984,10 @@
       "active": true
     },
     "lpToken": {
-      "symbol": "USDC-TLOS",
+      "symbol": "BANANA-TLOS",
       "address": {
         "1": "",
-        "40": "0x2a4e6ef568e4a696555a5491c0fe7cbcf998c1bb",
+        "40": "0xf780e62D54BB6C55e396dd937BacEF0BBD7Aff51",
         "56": "",
         "97": "",
         "137": ""
