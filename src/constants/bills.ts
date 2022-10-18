@@ -2,7 +2,7 @@ import { ChainId } from '@apeswapfinance/sdk'
 import tokens from './tokens'
 import { BillsConfig } from './types'
 
-// BNB Largest ID: 23
+// BNB Largest ID: 24
 // Polygon Largest ID: 102
 
 const bills: BillsConfig[] = [
@@ -117,6 +117,28 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/ape_swap',
   },
   {
+    index: 24,
+    contractAddress: {
+      [ChainId.BSC]: '0x2f8042167b0549ef56e55b9c1ace661b10ad93ea',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    billType: 'JUNGLE Bill',
+    token: tokens.froyo,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.froyoBnb,
+    earnToken: tokens.froyo,
+    billNnftAddress: {
+      [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    projectLink: 'https://froyo.games/',
+    twitter: 'https://twitter.com/realfroyogames',
+  },
+  {
     index: 23,
     contractAddress: {
       [ChainId.BSC]: '0xc117e57f4fa2fc1c2759228e0f85bc6d1c89be36',
@@ -135,6 +157,7 @@ const bills: BillsConfig[] = [
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
     },
+    inactive: true,
     projectLink: 'https://froyo.games/',
     twitter: 'https://twitter.com/realfroyogames',
   },
