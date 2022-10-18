@@ -7,7 +7,7 @@ import { ChainId } from '@ape.swap/sdk'
 const jungleFarms: JungleFarmConfig[] = [
   /*
     CHAIN ID 40 - TLOS Jungle Farms
-    Current Jungle ID = 3
+    Current Jungle ID = 5
   */
   {
     jungleId: 1,
@@ -86,6 +86,62 @@ const jungleFarms: JungleFarmConfig[] = [
     twitter: 'https://twitter.com/telos',
     harvest: true,
     rewardsPerSecond: '0.00011574074',
+    sortOrder: 1,
+    isFinished: false,
+    tokenDecimals: 18,
+    lpStaking: true,
+    isEarnTokenLp: false,
+    network: ChainId.TLOS,
+  },
+  {
+    jungleId: 4,
+    tokenName: 'ETH-TLOS',
+    image: 'ETH.svg',
+    stakingToken: tokens.ethTlos,
+    rewardToken: tokens.tlos,
+    lpTokens: {
+      token: tokens.tlos,
+      quoteToken: tokens.eth,
+    },
+    contractAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+      [ChainId.TLOS]: '0x3180eD3212109c2f33b4675e10d1950586BD6524',
+    },
+    projectLink: 'https://tlos.net',
+    twitter: 'https://twitter.com/telos',
+    harvest: true,
+    rewardsPerSecond: '0.0001',
+    sortOrder: 1,
+    isFinished: false,
+    tokenDecimals: 18,
+    lpStaking: true,
+    isEarnTokenLp: false,
+    network: ChainId.TLOS,
+  },
+  {
+    jungleId: 5,
+    tokenName: 'USDC-TLOS',
+    image: 'USDC.svg',
+    stakingToken: tokens.usdcTlos,
+    rewardToken: tokens.tlos,
+    lpTokens: {
+      token: tokens.tlos,
+      quoteToken: tokens.usdc,
+    },
+    contractAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+      [ChainId.TLOS]: '0x1E6adf47b9491a9d7a25Ae69B77D9ddBd875C3d7',
+    },
+    projectLink: 'https://tlos.net',
+    twitter: 'https://twitter.com/telos',
+    harvest: true,
+    rewardsPerSecond: '0.0001',
     sortOrder: 1,
     isFinished: false,
     tokenDecimals: 18,

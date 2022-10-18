@@ -702,7 +702,7 @@ const bills: BillsConfig[] = [
       [ChainId.MATIC]: '',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
-      [ChainId.TLOS]: '0xF0beD30E0395A046A7Da127e1b1D077D452612a6',
+      [ChainId.TLOS]: '0x6720F730b3a3cf433C60E3e4D94531a5c26d0816',
     },
     billType: 'Jungle Bill',
     token: tokens.banana,
