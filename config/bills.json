@@ -315,6 +315,69 @@
     "twitter": "https://twitter.com/ape_swap"
   },
   {
+    "index": 23,
+    "contractAddress": {
+      "1": "",
+      "56": "0xc117e57f4fa2fc1c2759228e0f85bc6d1c89be36",
+      "97": "",
+      "137": ""
+    },
+    "billType": "JUNGLE Bill",
+    "token": {
+      "symbol": "FROYO",
+      "address": {
+        "1": "",
+        "56": "0xe369fec23380f9F14ffD07a1DC4b7c1a9fdD81c9",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "1": "",
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "FROYO-BNB",
+      "address": {
+        "1": "",
+        "56": "0x58ceF3eeDB9A4adc6B5a2Ee5c85Aea07D72787f0",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "FROYO",
+      "address": {
+        "1": "",
+        "56": "0xe369fec23380f9F14ffD07a1DC4b7c1a9fdD81c9",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "billNnftAddress": {
+      "1": "",
+      "56": "0x7fd203888661d1f0ae625ed599909f8f97698670",
+      "97": "",
+      "137": ""
+    },
+    "projectLink": "https://froyo.games/",
+    "twitter": "https://twitter.com/realfroyogames"
+  },
+  {
     "index": 22,
     "contractAddress": {
       "1": "",
