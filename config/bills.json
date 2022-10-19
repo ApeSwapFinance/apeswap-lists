@@ -1800,7 +1800,77 @@
     "index": 201,
     "contractAddress": {
       "1": "",
-      "40": "0x48EfDBD5552F318900457d44c1E12fe97CB743Bb",
+      "40": "0x7C02E197BC2644FE0E9834641F80aC0A15055ad7",
+      "56": "",
+      "97": "",
+      "137": ""
+    },
+    "billType": "Jungle Bill",
+    "token": {
+      "symbol": "BANANA",
+      "address": {
+        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
+        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "TLOS",
+      "address": {
+        "1": "",
+        "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
+        "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "BANANA-TLOS",
+      "address": {
+        "1": "",
+        "40": "0xf780e62D54BB6C55e396dd937BacEF0BBD7Aff51",
+        "56": "",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "TLOS",
+      "address": {
+        "1": "",
+        "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
+        "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "billNnftAddress": {
+      "1": "",
+      "40": "0x9084C442286E23617694101d5575bEA48C2cf621",
+      "56": "",
+      "97": "",
+      "137": ""
+    },
+    "inactive": false,
+    "projectLink": "https://www.telos.net/",
+    "twitter": "https://twitter.com/HelloTelos"
+  },
+  {
+    "index": 202,
+    "contractAddress": {
+      "1": "",
+      "40": "0x76a33a5d002C711A3F353cB4Ee2B112B579c317a",
       "56": "",
       "97": "",
       "137": ""
@@ -1867,150 +1937,10 @@
     "twitter": "https://twitter.com/HelloTelos"
   },
   {
-    "index": 202,
-    "contractAddress": {
-      "1": "",
-      "40": "0xF861d3AED87bDA6419d09c17f7094e76317c1901",
-      "56": "",
-      "97": "",
-      "137": ""
-    },
-    "billType": "Jungle Bill",
-    "token": {
-      "symbol": "USDT",
-      "address": {
-        "1": "",
-        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
-        "56": "0x55d398326f99059ff775485246999027b3197955",
-        "97": "",
-        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"
-      },
-      "decimals": 18,
-      "active": true
-    },
-    "quoteToken": {
-      "symbol": "TLOS",
-      "address": {
-        "1": "",
-        "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
-        "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c",
-        "97": "",
-        "137": ""
-      },
-      "decimals": 18,
-      "active": true
-    },
-    "lpToken": {
-      "symbol": "USDT-TLOS",
-      "address": {
-        "1": "",
-        "40": "0xAE46B3A778999567133c6c1F5C5feA953EE64995",
-        "56": "",
-        "97": "",
-        "137": ""
-      },
-      "decimals": 18,
-      "active": true,
-      "lpToken": true
-    },
-    "earnToken": {
-      "symbol": "TLOS",
-      "address": {
-        "1": "",
-        "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
-        "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c",
-        "97": "",
-        "137": ""
-      },
-      "decimals": 18,
-      "active": true
-    },
-    "billNnftAddress": {
-      "1": "",
-      "40": "0x9084C442286E23617694101d5575bEA48C2cf621",
-      "56": "",
-      "97": "",
-      "137": ""
-    },
-    "inactive": false,
-    "projectLink": "https://www.telos.net/",
-    "twitter": "https://twitter.com/HelloTelos"
-  },
-  {
     "index": 203,
     "contractAddress": {
       "1": "",
-      "40": "0x6F553169d47f74b17cb846b6aEbE1E20bEAf6BD4",
-      "56": "",
-      "97": "",
-      "137": ""
-    },
-    "billType": "Jungle Bill",
-    "token": {
-      "symbol": "USDC",
-      "address": {
-        "1": "",
-        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
-        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-        "97": "",
-        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174"
-      },
-      "decimals": 18,
-      "active": true
-    },
-    "quoteToken": {
-      "symbol": "TLOS",
-      "address": {
-        "1": "",
-        "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
-        "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c",
-        "97": "",
-        "137": ""
-      },
-      "decimals": 18,
-      "active": true
-    },
-    "lpToken": {
-      "symbol": "USDC-TLOS",
-      "address": {
-        "1": "",
-        "40": "0x2a4e6ef568e4a696555a5491c0fe7cbcf998c1bb",
-        "56": "",
-        "97": "",
-        "137": ""
-      },
-      "decimals": 18,
-      "active": true,
-      "lpToken": true
-    },
-    "earnToken": {
-      "symbol": "TLOS",
-      "address": {
-        "1": "",
-        "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
-        "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c",
-        "97": "",
-        "137": ""
-      },
-      "decimals": 18,
-      "active": true
-    },
-    "billNnftAddress": {
-      "1": "",
-      "40": "0x9084C442286E23617694101d5575bEA48C2cf621",
-      "56": "",
-      "97": "",
-      "137": ""
-    },
-    "inactive": false,
-    "projectLink": "https://www.telos.net/",
-    "twitter": "https://twitter.com/HelloTelos"
-  },
-  {
-    "index": 204,
-    "contractAddress": {
-      "1": "",
-      "40": "0x1f3275212266BE37C5D7d3e71455F5676F6A2594",
+      "40": "0xa08A0125F4B85320e2357174EDC9E262098BF850",
       "56": "",
       "97": "",
       "137": ""
@@ -2077,23 +2007,23 @@
     "twitter": "https://twitter.com/HelloTelos"
   },
   {
-    "index": 205,
+    "index": 204,
     "contractAddress": {
       "1": "",
-      "40": "0x6720F730b3a3cf433C60E3e4D94531a5c26d0816",
+      "40": "0xD1FbE4EAFAcB7FdC56F7Aa8dA24198b01942C677",
       "56": "",
       "97": "",
       "137": ""
     },
     "billType": "Jungle Bill",
     "token": {
-      "symbol": "BANANA",
+      "symbol": "USDT",
       "address": {
-        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
-        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
-        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
-        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
-        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
+        "1": "",
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "97": "",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"
       },
       "decimals": 18,
       "active": true
@@ -2111,10 +2041,80 @@
       "active": true
     },
     "lpToken": {
-      "symbol": "BANANA-TLOS",
+      "symbol": "USDT-TLOS",
       "address": {
         "1": "",
-        "40": "0xf780e62D54BB6C55e396dd937BacEF0BBD7Aff51",
+        "40": "0xAE46B3A778999567133c6c1F5C5feA953EE64995",
+        "56": "",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "TLOS",
+      "address": {
+        "1": "",
+        "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
+        "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "billNnftAddress": {
+      "1": "",
+      "40": "0x9084C442286E23617694101d5575bEA48C2cf621",
+      "56": "",
+      "97": "",
+      "137": ""
+    },
+    "inactive": false,
+    "projectLink": "https://www.telos.net/",
+    "twitter": "https://twitter.com/HelloTelos"
+  },
+  {
+    "index": 205,
+    "contractAddress": {
+      "1": "",
+      "40": "0xc17a1ea1Da9975A2fad85eC7C39AEBA2B4BfEA11",
+      "56": "",
+      "97": "",
+      "137": ""
+    },
+    "billType": "Jungle Bill",
+    "token": {
+      "symbol": "USDC",
+      "address": {
+        "1": "",
+        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
+        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+        "97": "",
+        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174"
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "TLOS",
+      "address": {
+        "1": "",
+        "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
+        "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "USDC-TLOS",
+      "address": {
+        "1": "",
+        "40": "0x2a4e6ef568e4a696555a5491c0fe7cbcf998c1bb",
         "56": "",
         "97": "",
         "137": ""
