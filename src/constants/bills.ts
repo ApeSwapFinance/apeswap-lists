@@ -1,9 +1,10 @@
-import { ChainId } from '@apeswapfinance/sdk'
+import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillsConfig } from './types'
 
 // BNB Largest ID: 24
 // Polygon Largest ID: 102
+// Telos Largest ID: 205
 
 const bills: BillsConfig[] = [
   {
@@ -635,6 +636,135 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://www.dogira.net/',
     twitter: 'https://twitter.com/DogiraOfficial',
+  },
+
+  /*
+    Telos Bills
+  */
+  {
+    index: 201,
+    contractAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+      [ChainId.TLOS]: '0x7C02E197BC2644FE0E9834641F80aC0A15055ad7',
+    },
+    billType: 'Jungle Bill',
+    token: tokens.banana,
+    quoteToken: tokens.tlos,
+    lpToken: tokens.bananaTlos,
+    earnToken: tokens.tlos,
+    billNnftAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+      [ChainId.TLOS]: '0x9084C442286E23617694101d5575bEA48C2cf621',
+    },
+    inactive: false,
+    projectLink: 'https://www.telos.net/',
+    twitter: 'https://twitter.com/HelloTelos',
+  },
+  {
+    index: 202,
+    contractAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+      [ChainId.TLOS]: '0x76a33a5d002C711A3F353cB4Ee2B112B579c317a',
+    },
+    billType: 'Jungle Bill',
+    token: tokens.eth,
+    quoteToken: tokens.tlos,
+    lpToken: tokens.ethTlos,
+    earnToken: tokens.tlos,
+    billNnftAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+      [ChainId.TLOS]: '0x9084C442286E23617694101d5575bEA48C2cf621',
+    },
+    inactive: false,
+    projectLink: 'https://www.telos.net/',
+    twitter: 'https://twitter.com/HelloTelos',
+  },
+  {
+    index: 203,
+    contractAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+      [ChainId.TLOS]: '0xa08A0125F4B85320e2357174EDC9E262098BF850',
+    },
+    billType: 'Jungle Bill',
+    token: tokens.btc,
+    quoteToken: tokens.tlos,
+    lpToken: tokens.btcTlos,
+    earnToken: tokens.tlos,
+    billNnftAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+      [ChainId.TLOS]: '0x9084C442286E23617694101d5575bEA48C2cf621',
+    },
+    inactive: false,
+    projectLink: 'https://www.telos.net/',
+    twitter: 'https://twitter.com/HelloTelos',
+  },
+  {
+    index: 204,
+    contractAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+      [ChainId.TLOS]: '0xD1FbE4EAFAcB7FdC56F7Aa8dA24198b01942C677',
+    },
+    billType: 'Jungle Bill',
+    token: tokens.usdt,
+    quoteToken: tokens.tlos,
+    lpToken: tokens.usdtTlos,
+    earnToken: tokens.tlos,
+    billNnftAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+      [ChainId.TLOS]: '0x9084C442286E23617694101d5575bEA48C2cf621',
+    },
+    inactive: false,
+    projectLink: 'https://www.telos.net/',
+    twitter: 'https://twitter.com/HelloTelos',
+  },
+  {
+    index: 205,
+    contractAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+      [ChainId.TLOS]: '0xc17a1ea1Da9975A2fad85eC7C39AEBA2B4BfEA11',
+    },
+    billType: 'Jungle Bill',
+    token: tokens.usdc,
+    quoteToken: tokens.tlos,
+    lpToken: tokens.usdcTlos,
+    earnToken: tokens.tlos,
+    billNnftAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+      [ChainId.TLOS]: '0x9084C442286E23617694101d5575bEA48C2cf621',
+    },
+    inactive: false,
+    projectLink: 'https://www.telos.net/',
+    twitter: 'https://twitter.com/HelloTelos',
   },
 ]
 

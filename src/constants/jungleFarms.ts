@@ -1,10 +1,157 @@
 import { JungleFarmConfig } from './types'
 import tokens from './tokens'
-import { ChainId } from '@apeswapfinance/sdk'
-
-// Current Jungle ID: 12
+import { ChainId } from '@ape.swap/sdk'
 
 const jungleFarms: JungleFarmConfig[] = [
+  /*
+    CHAIN ID 40 - TLOS Jungle Farms
+    Current Jungle ID = 5
+  */
+  {
+    jungleId: 1,
+    tokenName: 'BANANA-TLOS',
+    image: 'BANANA.svg',
+    stakingToken: tokens.bananaTlos,
+    rewardToken: tokens.tlos,
+    lpTokens: {
+      token: tokens.tlos,
+      quoteToken: tokens.banana,
+    },
+    contractAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+      [ChainId.TLOS]: '0x5B7d49806709Fa0B3CdA23232cc2D609bCA2B2d0',
+    },
+    projectLink: 'https://tlos.net',
+    twitter: 'https://twitter.com/telos',
+    harvest: true,
+    rewardsPerSecond: '0.004357638888888888',
+    sortOrder: 1,
+    isFinished: false,
+    tokenDecimals: 18,
+    lpStaking: true,
+    isEarnTokenLp: false,
+    network: ChainId.TLOS,
+  },
+  {
+    jungleId: 2,
+    tokenName: 'ETH-TLOS',
+    image: 'ETH.svg',
+    stakingToken: tokens.ethTlos,
+    rewardToken: tokens.tlos,
+    lpTokens: {
+      token: tokens.tlos,
+      quoteToken: tokens.eth,
+    },
+    contractAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+      [ChainId.TLOS]: '0xA3c3A929Ae19Bfc56E2A9B0f23e99bae8Bf6F11A',
+    },
+    projectLink: 'https://tlos.net',
+    twitter: 'https://twitter.com/telos',
+    harvest: true,
+    rewardsPerSecond: '0.007262731481481481',
+    sortOrder: 1,
+    isFinished: false,
+    tokenDecimals: 18,
+    lpStaking: true,
+    isEarnTokenLp: false,
+    network: ChainId.TLOS,
+  },
+  {
+    jungleId: 3,
+    tokenName: 'BTC-TLOS',
+    image: 'BTC.svg',
+    stakingToken: tokens.btcTlos,
+    rewardToken: tokens.tlos,
+    lpTokens: {
+      token: tokens.tlos,
+      quoteToken: tokens.btc,
+    },
+    contractAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+      [ChainId.TLOS]: '0x96de2679e2d34cfC7cA3245D2d1e55f7dCdF88Bc',
+    },
+    projectLink: 'https://tlos.net',
+    twitter: 'https://twitter.com/telos',
+    harvest: true,
+    rewardsPerSecond: '0.004357638888888888',
+    sortOrder: 1,
+    isFinished: false,
+    tokenDecimals: 18,
+    lpStaking: true,
+    isEarnTokenLp: false,
+    network: ChainId.TLOS,
+  },
+  {
+    jungleId: 4,
+    tokenName: 'USDT-TLOS',
+    image: 'USDT.svg',
+    stakingToken: tokens.usdtTlos,
+    rewardToken: tokens.tlos,
+    lpTokens: {
+      token: tokens.tlos,
+      quoteToken: tokens.usdt,
+    },
+    contractAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+      [ChainId.TLOS]: '0xffd6a576dCa8742D7afED1538ad6EF8b0022dDbb',
+    },
+    projectLink: 'https://tlos.net',
+    twitter: 'https://twitter.com/telos',
+    harvest: true,
+    rewardsPerSecond: '0.007262731481481481',
+    sortOrder: 1,
+    isFinished: false,
+    tokenDecimals: 18,
+    lpStaking: true,
+    isEarnTokenLp: false,
+    network: ChainId.TLOS,
+  },
+  {
+    jungleId: 5,
+    tokenName: 'USDC-TLOS',
+    image: 'USDC.svg',
+    stakingToken: tokens.usdcTlos,
+    rewardToken: tokens.tlos,
+    lpTokens: {
+      token: tokens.tlos,
+      quoteToken: tokens.usdc,
+    },
+    contractAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+      [ChainId.TLOS]: '0xE874E1EF5622aeb65b2394105E5051d265D3cFe6',
+    },
+    projectLink: 'https://tlos.net',
+    twitter: 'https://twitter.com/telos',
+    harvest: true,
+    rewardsPerSecond: '0.005810185185185185',
+    sortOrder: 1,
+    isFinished: false,
+    tokenDecimals: 18,
+    lpStaking: true,
+    isEarnTokenLp: false,
+    network: ChainId.TLOS,
+  },
+
+  /*
+    CHAIN ID 56 - BNB Jungle Farms
+    Current Jungle ID = 12
+  */
   {
     jungleId: 8,
     tokenName: 'PXP-BNB',
