@@ -4,6 +4,7 @@ import { BillsConfig } from './types'
 
 // BNB Largest ID: 22
 // Polygon Largest ID: 102
+// Telos Largest ID: 205
 
 const bills: BillsConfig[] = [
   {
