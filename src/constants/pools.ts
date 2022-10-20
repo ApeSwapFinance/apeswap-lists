@@ -1,5 +1,5 @@
 import BigNumber from 'bignumber.js'
-import { ChainId } from '@apeswapfinance/sdk'
+import { ChainId } from '@ape.swap/sdk'
 import { PoolConfig, PoolCategory } from './types'
 import tokens from './tokens'
 

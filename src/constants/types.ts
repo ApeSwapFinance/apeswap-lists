@@ -1,10 +1,11 @@
-import { ChainId } from '@apeswapfinance/sdk'
+import { ChainId } from '@ape.swap/sdk'
 
 export interface Address {
   [ChainId.BSC]: string
   [ChainId.MATIC]: string
   [ChainId.MAINNET]: string
   [ChainId.BSC_TESTNET]: string
+  [ChainId.TLOS]?: string
 }
 
 // Since farms and pools are only on BSC and TESTNET we dont need other chains
@@ -181,7 +182,7 @@ export interface JungleFarmConfig {
   contractAddress: Address
   projectLink: string
   twitter?: string
-  tokenPerBlock: string
+  tokenPerBlock?: string
   sortOrder?: number
   harvest?: boolean
   reflect?: boolean
@@ -198,6 +199,8 @@ export interface JungleFarmConfig {
   isEarnTokenLp?: boolean
   network: number
   zapable?: boolean
+  // Jungle farms have changed to per second vs per block
+  rewardsPerSecond?: string
 }
 
 export interface NfaStakingPoolConfig {
