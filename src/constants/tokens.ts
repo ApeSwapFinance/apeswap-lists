@@ -1814,6 +1814,17 @@ const tokens: Record<string, Token> = {
     decimals: 18,
     active: true,
   },
+  xwin: {
+    symbol: 'XWIN',
+    address: {
+      [ChainId.BSC]: '0xd88ca08d8eec1e9e09562213ae83a7853ebb5d28',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+  },
   axn: {
     symbol: 'AXN',
     address: {
@@ -2395,6 +2406,18 @@ const tokens: Record<string, Token> = {
     symbol: 'BRZ-BUSD',
     address: {
       [ChainId.BSC]: '0xfbD7e3575F709212A9f61aC6C63964A8FDa34CAC',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+    lpToken: true,
+  },
+  xwinBnb: {
+    symbol: 'XWIN-BNB',
+    address: {
+      [ChainId.BSC]: '0x9f1762b15e740704f40a3606b31dccfbe5318d8b',
       [ChainId.MATIC]: '',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
