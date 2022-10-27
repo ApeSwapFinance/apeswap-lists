@@ -280,7 +280,7 @@ const jungleFarms: JungleFarmConfig[] = [
     projectLink: 'https://www.coinofchampions.com/',
     twitter: 'https://twitter.com/coinofchampions',
     harvest: true,
-    tokenPerBlock: '133355.178712',
+    tokenPerBlock: '96250',
     sortOrder: 1,
     isFinished: false,
     tokenDecimals: 18,
