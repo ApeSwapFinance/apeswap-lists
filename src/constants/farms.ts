@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { FarmConfig, QuoteToken } from './types'
 
-// Current PID is 216
+// Current PID is 217
 
 const farms: FarmConfig[] = [
   {
@@ -3297,6 +3297,23 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: tokens.wbnb.address,
     projectLink: 'https://chirpley.ai',
+  },
+  {
+    pid: 217,
+    image: '3AIR.svg',
+    lpSymbol: '3AIR-BNB',
+    lpAddresses: {
+      [ChainId.BSC_TESTNET]: '0xed89477d619c7e73f752d5fc7be60308ceb63663',
+      [ChainId.BSC]: '0xfdf84a54b35e06e4c3852ae35f10b7f38488204a',
+    },
+    tokenSymbol: '3AIR',
+    tokenAddresses: {
+      [ChainId.BSC_TESTNET]: '0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a',
+      [ChainId.BSC]: '0x596834746B5b78F31A089EE7853fa595682824B7',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: tokens.wbnb.address,
+    projectLink: 'https://3air.io/',
   },
 ]
 

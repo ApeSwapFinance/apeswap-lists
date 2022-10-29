@@ -1825,6 +1825,17 @@ const tokens: Record<string, Token> = {
     decimals: 18,
     active: true,
   },
+  threeair: {
+    symbol: '3AIR',
+    address: {
+      [ChainId.BSC]: '0x596834746B5b78F31A089EE7853fa595682824B7',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+  },
   axn: {
     symbol: 'AXN',
     address: {
