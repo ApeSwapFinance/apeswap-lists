@@ -2077,6 +2077,18 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
   },
+  pstnBusd: {
+    symbol: 'PSTN-BUSD',
+    address: {
+      [ChainId.BSC]: '0x57fa15d373cbbd3141a13f8bab10c380ac2b14d5',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+    lpToken: true,
+  },
   cocBnb: {
     symbol: 'COC-BNB',
     address: {
