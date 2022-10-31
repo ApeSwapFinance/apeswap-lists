@@ -4257,5 +4257,27 @@
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
     },
     "projectLink": "https://chirpley.ai"
+  },
+  {
+    "pid": 217,
+    "image": "3AIR.svg",
+    "lpSymbol": "3AIR-BNB",
+    "lpAddresses": {
+      "56": "0xfdf84a54b35e06e4c3852ae35f10b7f38488204a",
+      "97": "0xed89477d619c7e73f752d5fc7be60308ceb63663"
+    },
+    "tokenSymbol": "3AIR",
+    "tokenAddresses": {
+      "56": "0x596834746B5b78F31A089EE7853fa595682824B7",
+      "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a"
+    },
+    "quoteTokenSymbol": "BNB",
+    "quoteTokenAdresses": {
+      "1": "",
+      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+    },
+    "projectLink": "https://3air.io/"
   }
 ]

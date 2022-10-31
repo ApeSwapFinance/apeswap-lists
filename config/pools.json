@@ -5047,6 +5047,46 @@
     "zapable": true
   },
   {
+    "sousId": 226,
+    "tokenName": "3AIR",
+    "image": "3AIR.svg",
+    "stakingToken": {
+      "symbol": "GNANA",
+      "address": {
+        "1": "",
+        "56": "0xdDb3Bd8645775F59496c821E4F55A7eA6A6dc299",
+        "97": "0xf693bDA9D3C56D5F9165c8633d9098e3C4Ae495A",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "rewardToken": {
+      "symbol": "3AIR",
+      "address": {
+        "1": "",
+        "56": "0x596834746B5b78F31A089EE7853fa595682824B7",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "contractAddress": {
+      "56": "0x58e3149f5d5d26c7319e88dbb7ad6f2951610715",
+      "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
+    },
+    "poolCategory": "ApeZone",
+    "projectLink": "https://3air.io/",
+    "twitter": "https://twitter.com/3aircrypto",
+    "harvest": true,
+    "tokenPerBlock": "0.331579861111111111",
+    "sortOrder": 1,
+    "reflect": false,
+    "isFinished": false,
+    "tokenDecimals": 18
+  },
+  {
     "sousId": 214,
     "tokenName": "PXP",
     "image": "PXP.png",

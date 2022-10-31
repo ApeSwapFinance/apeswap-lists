@@ -5,7 +5,7 @@ import tokens from './tokens'
 
 const BANANA_PER_BLOCK = new BigNumber(10)
 
-// Current Sous ID is 225
+// Current Sous ID is 226
 
 const pools: PoolConfig[] = [
   {
@@ -2506,6 +2506,26 @@ const pools: PoolConfig[] = [
     isFinished: false,
     tokenDecimals: 18,
     zapable: true,
+  },
+  {
+    sousId: 226,
+    tokenName: '3AIR',
+    image: '3AIR.svg',
+    stakingToken: tokens.gnana,
+    rewardToken: tokens.threeair,
+    contractAddress: {
+      97: '0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d',
+      56: '0x58e3149f5d5d26c7319e88dbb7ad6f2951610715',
+    },
+    poolCategory: PoolCategory.APEZONE,
+    projectLink: 'https://3air.io/',
+    twitter: 'https://twitter.com/3aircrypto',
+    harvest: true,
+    tokenPerBlock: `0.331579861111111111`,
+    sortOrder: 1,
+    reflect: false,
+    isFinished: false,
+    tokenDecimals: 18,
   },
 
   //
