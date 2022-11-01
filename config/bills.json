@@ -324,6 +324,69 @@
     "twitter": "https://twitter.com/ape_swap"
   },
   {
+    "index": 26,
+    "contractAddress": {
+      "1": "",
+      "56": "0x07968648273e29f5e2fe07aabf5fbc3b40892592",
+      "97": "",
+      "137": ""
+    },
+    "billType": "JUNGLE Bill",
+    "token": {
+      "symbol": "PSTN",
+      "address": {
+        "1": "",
+        "56": "0xBfACD29427fF376FF3BC22dfFB29866277cA5Fb4",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BUSD",
+      "address": {
+        "1": "",
+        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "PSTN-BUSD",
+      "address": {
+        "1": "",
+        "56": "0x57fa15d373cbbd3141a13f8bab10c380ac2b14d5",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "PSTN",
+      "address": {
+        "1": "",
+        "56": "0xBfACD29427fF376FF3BC22dfFB29866277cA5Fb4",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "billNnftAddress": {
+      "1": "",
+      "56": "0x7fd203888661d1f0ae625ed599909f8f97698670",
+      "97": "",
+      "137": ""
+    },
+    "projectLink": "https://piston-token.com/",
+    "twitter": "https://twitter.com/MyDefi_team"
+  },
+  {
     "index": 25,
     "contractAddress": {
       "1": "",
