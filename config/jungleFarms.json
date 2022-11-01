@@ -365,6 +365,79 @@
     "network": 40
   },
   {
+    "jungleId": 6,
+    "tokenName": "STLOS-TLOS",
+    "image": "STLOS.png",
+    "stakingToken": {
+      "symbol": "STLOS-TLOS",
+      "address": {
+        "1": "",
+        "40": "0xa4dfe1fdca0c341c1ba26550ec5128c89964f0db",
+        "56": "",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true,
+      "lpToken": true
+    },
+    "rewardToken": {
+      "symbol": "TLOS",
+      "address": {
+        "1": "",
+        "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
+        "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "lpTokens": {
+      "token": {
+        "symbol": "TLOS",
+        "address": {
+          "1": "",
+          "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
+          "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c",
+          "97": "",
+          "137": ""
+        },
+        "decimals": 18,
+        "active": true
+      },
+      "quoteToken": {
+        "symbol": "STLOS",
+        "address": {
+          "1": "",
+          "40": "0xB4B01216a5Bc8F1C8A33CD990A1239030E60C905",
+          "56": "",
+          "97": "",
+          "137": ""
+        },
+        "decimals": 18,
+        "active": true
+      }
+    },
+    "contractAddress": {
+      "1": "",
+      "40": "0x1FF8523D0Dc486fe6467826A321faD6521Ce8F8e",
+      "56": "",
+      "97": "",
+      "137": ""
+    },
+    "projectLink": "https://telos.net",
+    "twitter": "https://twitter.com/HelloTelos",
+    "harvest": true,
+    "rewardsPerSecond": "0.01249000799",
+    "sortOrder": 1,
+    "isFinished": false,
+    "tokenDecimals": 18,
+    "lpStaking": true,
+    "isEarnTokenLp": false,
+    "network": 40
+  },
+  {
     "jungleId": 8,
     "tokenName": "PXP-BNB",
     "image": "PXP.png",

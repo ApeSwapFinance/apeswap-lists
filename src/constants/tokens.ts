@@ -1483,6 +1483,18 @@ const tokens: Record<string, Token> = {
     decimals: 18,
     active: true,
   },
+  stlos: {
+    symbol: 'STLOS',
+    address: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+      [ChainId.TLOS]: '0xB4B01216a5Bc8F1C8A33CD990A1239030E60C905',
+    },
+    decimals: 18,
+    active: true,
+  },
   bones: {
     symbol: 'BONES',
     address: {
@@ -2444,6 +2456,19 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: '',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+    lpToken: true,
+  },
+  stlosTlos: {
+    symbol: 'STLOS-TLOS',
+    address: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+      [ChainId.TLOS]: '0xa4dfe1fdca0c341c1ba26550ec5128c89964f0db',
     },
     decimals: 18,
     active: true,
