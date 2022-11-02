@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillsConfig } from './types'
 
-// BNB Largest ID: 26
+// BNB Largest ID: 27
 // Polygon Largest ID: 102
 // Telos Largest ID: 205
 
@@ -116,6 +116,28 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
+  },
+  {
+    index: 27,
+    contractAddress: {
+      [ChainId.BSC]: '0x626b5c18a2b702a189ea022df897a4f0f3566785',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    billType: 'JUNGLE Bill',
+    token: tokens.coc,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.cocBnb,
+    earnToken: tokens.coc,
+    billNnftAddress: {
+      [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    projectLink: 'https://www.coinofchampions.com/',
+    twitter: 'https://twitter.com/coinofchampions',
   },
   {
     index: 26,

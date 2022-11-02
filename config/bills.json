@@ -324,6 +324,69 @@
     "twitter": "https://twitter.com/ape_swap"
   },
   {
+    "index": 27,
+    "contractAddress": {
+      "1": "",
+      "56": "0x626b5c18a2b702a189ea022df897a4f0f3566785",
+      "97": "",
+      "137": ""
+    },
+    "billType": "JUNGLE Bill",
+    "token": {
+      "symbol": "COC",
+      "address": {
+        "1": "",
+        "56": "0xbDC3b3639f7AA19e623A4d603A3Fb7Ab20115A91",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "1": "",
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "COC-BNB",
+      "address": {
+        "1": "",
+        "56": "0x5467dD00ca4d91010Ab2A3aEF8a0162DC218801A",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "COC",
+      "address": {
+        "1": "",
+        "56": "0xbDC3b3639f7AA19e623A4d603A3Fb7Ab20115A91",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "billNnftAddress": {
+      "1": "",
+      "56": "0x7fd203888661d1f0ae625ed599909f8f97698670",
+      "97": "",
+      "137": ""
+    },
+    "projectLink": "https://www.coinofchampions.com/",
+    "twitter": "https://twitter.com/coinofchampions"
+  },
+  {
     "index": 26,
     "contractAddress": {
       "1": "",
