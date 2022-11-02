@@ -5,7 +5,7 @@ import { ChainId } from '@ape.swap/sdk'
 const jungleFarms: JungleFarmConfig[] = [
   /*
     CHAIN ID 40 - TLOS Jungle Farms
-    Current Jungle ID = 5
+    Current Jungle ID = 6
   */
   {
     jungleId: 1,
@@ -140,6 +140,34 @@ const jungleFarms: JungleFarmConfig[] = [
     twitter: 'https://twitter.com/HelloTelos',
     harvest: true,
     rewardsPerSecond: '0.005810185185185185',
+    sortOrder: 1,
+    isFinished: false,
+    tokenDecimals: 18,
+    lpStaking: true,
+    isEarnTokenLp: false,
+    network: ChainId.TLOS,
+  },
+  {
+    jungleId: 6,
+    tokenName: 'STLOS-TLOS',
+    image: 'STLOS.png',
+    stakingToken: tokens.stlosTlos,
+    rewardToken: tokens.tlos,
+    lpTokens: {
+      token: tokens.tlos,
+      quoteToken: tokens.stlos,
+    },
+    contractAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+      [ChainId.TLOS]: '0x1FF8523D0Dc486fe6467826A321faD6521Ce8F8e',
+    },
+    projectLink: 'https://telos.net',
+    twitter: 'https://twitter.com/HelloTelos',
+    harvest: true,
+    rewardsPerSecond: '0.01249000799',
     sortOrder: 1,
     isFinished: false,
     tokenDecimals: 18,
