@@ -167,7 +167,7 @@ const jungleFarms: JungleFarmConfig[] = [
     projectLink: 'https://telos.net',
     twitter: 'https://twitter.com/HelloTelos',
     harvest: true,
-    rewardsPerSecond: '0.01249000799',
+    rewardsPerSecond: '0.07910338395',
     sortOrder: 1,
     isFinished: false,
     tokenDecimals: 18,
