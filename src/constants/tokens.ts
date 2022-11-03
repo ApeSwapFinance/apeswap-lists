@@ -15,9 +15,9 @@ const tokens: Record<string, Token> = {
     decimals: {
       [ChainId.BSC]: 18,
       [ChainId.MATIC]: 18,
-      [ChainId.MATIC_TESTNET]: 18,
       [ChainId.MAINNET]: 18,
       [ChainId.BSC_TESTNET]: 18,
+      [ChainId.TLOS]: 18,
     },
     active: true,
   },
@@ -29,7 +29,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC_TESTNET]: 18,
       [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
@@ -38,12 +37,10 @@ const tokens: Record<string, Token> = {
     symbol: 'GNANA',
     address: {
       [ChainId.BSC]: '0xdDb3Bd8645775F59496c821E4F55A7eA6A6dc299',
-
       [ChainId.BSC_TESTNET]: '0xf693bDA9D3C56D5F9165c8633d9098e3C4Ae495A',
     },
     decimals: {
       [ChainId.BSC]: 18,
-
       [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
@@ -53,14 +50,11 @@ const tokens: Record<string, Token> = {
     address: {
       [ChainId.BSC]: '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',
       [ChainId.MATIC]: '0xa649325aa7c5093d12d6f98eb4378deae68ce23f',
-
       [ChainId.BSC_TESTNET]: '0xae13d989dac2f0debff460ac112a837c89baa7cd',
     },
     decimals: {
       [ChainId.BSC]: 18,
       [ChainId.MATIC]: 18,
-      [ChainId.MATIC_TESTNET]: 18,
-
       [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
@@ -74,8 +68,6 @@ const tokens: Record<string, Token> = {
     decimals: {
       [ChainId.BSC]: 18,
       [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: null,
     },
     active: true,
   },
@@ -87,7 +79,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-
       [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
@@ -97,15 +88,14 @@ const tokens: Record<string, Token> = {
     address: {
       [ChainId.BSC]: '0x2170ed0880ac9a755fd29b2688956bd959f933f8',
       [ChainId.MATIC]: '0x7ceb23fd6bc0add59e62ac25578270cff1b9f619',
-
       [ChainId.BSC_TESTNET]: '0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378',
       [ChainId.TLOS]: '0xfa9343c3897324496a05fc75abed6bac29f8a40f',
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
       [ChainId.BSC_TESTNET]: 18,
+      [ChainId.MATIC]: 18,
+      [ChainId.TLOS]: 18,
     },
     active: true,
   },
@@ -114,15 +104,14 @@ const tokens: Record<string, Token> = {
     address: {
       [ChainId.BSC]: '0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c',
       [ChainId.MATIC]: '0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6',
-
       [ChainId.BSC_TESTNET]: '0x6ce8da28e2f864420840cf74474eff5fd80e65b8',
       [ChainId.TLOS]: '0xf390830df829cf22c53c8840554b98eafc5dcbc2',
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
       [ChainId.BSC_TESTNET]: 18,
+      [ChainId.MATIC]: 18,
+      [ChainId.TLOS]: 18,
     },
     active: true,
   },
@@ -133,9 +122,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -146,9 +132,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -161,21 +144,8 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-      [ChainId.TLOS]: 18,
-    },
-    active: true,
-  },
-  usdc_six_decimals: {
-    symbol: 'USDC',
-    address: {
-      [ChainId.MATIC]: '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174',
-    },
-    decimals: {
-      [ChainId.BSC]: 18,
       [ChainId.MATIC]: 6,
-
-      [ChainId.BSC_TESTNET]: 18,
+      [ChainId.TLOS]: 18,
     },
     active: true,
   },
@@ -186,9 +156,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -199,9 +166,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -210,13 +174,11 @@ const tokens: Record<string, Token> = {
     address: {
       [ChainId.BSC]: '0x0491648c910ad2c1afaab733faf71d30313df7fc',
       [ChainId.MATIC]: '0x340fe1d898eccaad394e2ba0fc1f93d27c7b717a',
-
       [ChainId.BSC_TESTNET]: '0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a',
     },
     decimals: {
       [ChainId.BSC]: 18,
       [ChainId.MATIC]: 18,
-
       [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
@@ -228,9 +190,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -241,9 +200,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -256,8 +212,6 @@ const tokens: Record<string, Token> = {
     decimals: {
       [ChainId.BSC]: 18,
       [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -269,8 +223,6 @@ const tokens: Record<string, Token> = {
     decimals: {
       [ChainId.BSC]: 18,
       [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -281,9 +233,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -294,9 +243,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -307,9 +253,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -320,9 +263,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -333,9 +273,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -345,10 +282,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: '0xf0e406c49c63abf358030a299c0e00118c4c6ba5',
     },
     decimals: {
-      [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
+      [ChainId.BSC]: 8,
     },
     active: true,
   },
@@ -359,9 +293,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -372,9 +303,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -385,9 +313,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -398,9 +323,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -411,9 +333,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -424,9 +343,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -437,9 +353,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -450,9 +363,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -463,9 +373,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -476,9 +383,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -486,13 +390,10 @@ const tokens: Record<string, Token> = {
     symbol: 'OBIE',
     address: {
       [ChainId.BSC]: '0xa18509d20fd01b4990734fd04ba53bad02922787',
-
       [ChainId.BSC_TESTNET]: '0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a',
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
       [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
@@ -503,10 +404,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: '0x308bfaeAaC8BDab6e9Fc5Ead8EdCb5f95b0599d9',
     },
     decimals: {
-      [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
+      [ChainId.BSC]: 9,
     },
     active: true,
   },
@@ -517,9 +415,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -530,9 +425,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -543,9 +435,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 9,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -556,9 +445,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -569,9 +455,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -582,9 +465,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -595,9 +475,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -608,9 +485,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -621,9 +495,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -634,9 +505,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -647,9 +515,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -660,8 +525,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -672,9 +535,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -685,8 +545,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -697,9 +555,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -710,9 +565,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -723,9 +575,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -736,9 +585,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -749,9 +595,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -761,10 +604,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: '0x76bF0C28e604CC3fE9967c83b3C3F31c213cfE64',
     },
     decimals: {
-      [ChainId.BSC]: 18,
       [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -777,8 +617,6 @@ const tokens: Record<string, Token> = {
     decimals: {
       [ChainId.BSC]: 18,
       [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -791,21 +629,8 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-      [ChainId.TLOS]: 18,
-    },
-    active: true,
-  },
-  usdt_six_decimals: {
-    symbol: 'USDT',
-    address: {
-      [ChainId.MATIC]: '0xc2132d05d31c914a87c6611c10748aeb04b58e8f',
-    },
-    decimals: {
-      [ChainId.BSC]: 18,
       [ChainId.MATIC]: 6,
-
-      [ChainId.BSC_TESTNET]: 18,
+      [ChainId.TLOS]: 6,
     },
     active: true,
   },
@@ -816,9 +641,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -829,9 +651,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -842,9 +661,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -855,9 +671,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -868,9 +681,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -883,8 +693,6 @@ const tokens: Record<string, Token> = {
     decimals: {
       [ChainId.BSC]: 18,
       [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -895,9 +703,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -908,9 +713,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -921,9 +723,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -933,10 +732,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: '0x04429fbb948bbd09327763214b45e505a5293346',
     },
     decimals: {
-      [ChainId.BSC]: 18,
       [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -947,9 +743,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 9,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -960,9 +753,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -973,9 +763,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 8,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -986,9 +773,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -999,9 +783,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1012,9 +793,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1025,9 +803,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1038,9 +813,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1051,9 +823,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1064,9 +833,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1077,9 +843,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1090,9 +853,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1103,9 +863,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1116,9 +873,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1129,9 +883,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1142,9 +893,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1155,9 +903,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 8,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1168,9 +913,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1181,9 +923,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1194,9 +933,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1207,9 +943,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1220,9 +953,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1233,9 +963,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1246,9 +973,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 11,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1259,9 +983,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1272,9 +993,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1285,9 +1003,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 8,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1298,9 +1013,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1311,9 +1023,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1324,9 +1033,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1337,9 +1043,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1350,9 +1053,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1363,9 +1063,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 9,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1376,9 +1073,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1389,9 +1083,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1402,9 +1093,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1417,8 +1105,6 @@ const tokens: Record<string, Token> = {
     decimals: {
       [ChainId.BSC]: 18,
       [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1428,10 +1114,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: '0xC004e2318722EA2b15499D6375905d75Ee5390B8',
     },
     decimals: {
-      [ChainId.BSC]: 18,
       [ChainId.MATIC]: 8,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1442,9 +1125,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 4,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1455,9 +1135,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1468,9 +1145,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 8,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1481,9 +1155,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1494,9 +1165,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1507,9 +1175,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1520,9 +1185,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1533,9 +1195,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1546,9 +1205,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1559,9 +1215,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1572,9 +1225,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1585,9 +1235,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1598,9 +1245,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1611,9 +1255,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1624,9 +1265,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1637,9 +1275,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1650,9 +1285,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1663,9 +1295,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1676,9 +1305,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1689,9 +1315,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1702,9 +1325,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1715,9 +1335,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1728,9 +1345,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1741,9 +1355,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1754,9 +1365,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1768,7 +1376,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
       [ChainId.TLOS]: 18,
     },
     active: true,
@@ -1779,9 +1386,7 @@ const tokens: Record<string, Token> = {
       [ChainId.TLOS]: '0xB4B01216a5Bc8F1C8A33CD990A1239030E60C905',
     },
     decimals: {
-      [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-      [ChainId.BSC_TESTNET]: 18,
+      [ChainId.TLOS]: 18,
     },
     active: true,
   },
@@ -1792,9 +1397,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1805,9 +1407,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1818,9 +1417,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 9,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1831,9 +1427,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1844,12 +1437,9 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC_TESTNET]: '0x78eA04b5B63ae22c697c7e629b7E7bfB876D4b6f',
     },
     decimals: {
-      [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
       [ChainId.BSC_TESTNET]: 18,
     },
-    active: true,
+    active: false,
   },
   for: {
     symbol: 'FOR',
@@ -1857,12 +1447,9 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC_TESTNET]: '0x9Fee03D36b184881A198201B925A00338b1e3Cc5',
     },
     decimals: {
-      [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
       [ChainId.BSC_TESTNET]: 18,
     },
-    active: true,
+    active: false,
   },
   hor: {
     symbol: 'HOR',
@@ -1870,12 +1457,9 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC_TESTNET]: '0xaB10D6f91add497b919c9FA584036408F8163b4C',
     },
     decimals: {
-      [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
       [ChainId.BSC_TESTNET]: 18,
     },
-    active: true,
+    active: false,
   },
   ney: {
     symbol: 'NEY',
@@ -1883,12 +1467,9 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC_TESTNET]: '0x93762B86736caa0658016fe55AD23e2f77EB7Cd5',
     },
     decimals: {
-      [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
       [ChainId.BSC_TESTNET]: 18,
     },
-    active: true,
+    active: false,
   },
   ape: {
     symbol: 'APE',
@@ -1897,9 +1478,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1910,9 +1488,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1923,9 +1498,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1936,9 +1508,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1949,9 +1518,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1962,9 +1528,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1975,9 +1538,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -1988,9 +1548,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -2001,9 +1558,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -2014,9 +1568,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -2027,9 +1578,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -2040,9 +1588,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -2053,9 +1598,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -2066,9 +1608,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 9,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -2079,9 +1618,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -2092,9 +1628,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -2105,9 +1638,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -2118,9 +1648,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -2131,9 +1658,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -2144,9 +1668,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 4,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -2157,9 +1678,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -2193,10 +1711,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: '0x839F1a22A59eAAf26c85958712aB32F80FEA23d9',
     },
     decimals: {
-      [ChainId.BSC]: 18,
       [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -2206,10 +1721,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: '0xdda40cdfe4a0090f42ff49f264a831402adb801a',
     },
     decimals: {
-      [ChainId.BSC]: 18,
       [ChainId.MATIC]: 9,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
   },
@@ -2222,12 +1734,9 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC_TESTNET]: '0x30e74cefd298990880758e20223f03129f52e699',
     },
     decimals: {
-      [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
       [ChainId.BSC_TESTNET]: 18,
     },
-    active: true,
+    active: false,
     lpToken: true,
   },
   forEver: {
@@ -2236,12 +1745,9 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC_TESTNET]: '0x4419D815c9c9329f9679782e76ec15bCe1B14a6D',
     },
     decimals: {
-      [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
       [ChainId.BSC_TESTNET]: 18,
     },
-    active: true,
+    active: false,
     lpToken: true,
   },
 
@@ -2250,13 +1756,10 @@ const tokens: Record<string, Token> = {
     symbol: 'BANANA-BNB',
     address: {
       [ChainId.BSC]: '0xf65c1c0478efde3c19b49ecbe7acc57bb6b1d713',
-
       [ChainId.BSC_TESTNET]: '0x90Fc86A7570063a9eA971ec74f01F89569Ad6237',
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
       [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
@@ -2269,9 +1772,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2283,9 +1783,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2297,9 +1794,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2311,9 +1805,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2325,9 +1816,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2339,9 +1827,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2353,9 +1838,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2367,9 +1849,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2381,9 +1860,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2395,9 +1871,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2409,9 +1882,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2420,13 +1890,10 @@ const tokens: Record<string, Token> = {
     symbol: 'BNB-JDI',
     address: {
       [ChainId.BSC]: '0xfb6063f29af6dcd1fc03a8e221c6d91deabbe764',
-
       [ChainId.BSC_TESTNET]: '0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a',
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
       [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
@@ -2438,9 +1905,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2452,9 +1916,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2466,9 +1927,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2489,8 +1947,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2502,9 +1958,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2516,9 +1969,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2530,9 +1980,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2544,9 +1991,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2558,9 +2002,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2572,9 +2013,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2586,9 +2024,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2600,9 +2035,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2614,9 +2046,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2628,9 +2057,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2642,9 +2068,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2656,9 +2079,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2670,9 +2090,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2684,9 +2101,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2698,9 +2112,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2712,9 +2123,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2726,9 +2134,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2740,9 +2145,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2754,9 +2156,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2768,9 +2167,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2782,9 +2178,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2796,9 +2189,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2810,9 +2200,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2824,9 +2211,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2838,9 +2222,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2852,9 +2233,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2866,9 +2244,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2880,9 +2255,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
-      [ChainId.MATIC]: 18,
-
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2965,9 +2337,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: '0x6cf8654e85ab489ca7e70189046d507eba233613',
     },
     decimals: {
-      [ChainId.BSC]: 18,
       [ChainId.MATIC]: 18,
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2978,9 +2348,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: '0x103062f71b7106a8df6fd2a4dd9368358c44a9d0',
     },
     decimals: {
-      [ChainId.BSC]: 18,
       [ChainId.MATIC]: 18,
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
@@ -2991,9 +2359,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: '0x545cb3055e62c86f54ba479c7cafc7e1e2eeec54',
     },
     decimals: {
-      [ChainId.BSC]: 18,
       [ChainId.MATIC]: 18,
-      [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
     lpToken: true,
