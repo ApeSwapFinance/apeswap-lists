@@ -2209,6 +2209,18 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
   },
+  gqBusd: {
+    symbol: 'GQ-BUSD',
+    address: {
+      [ChainId.BSC]: '0xcC3A3Bc1d76Df321f94716E88224638C439267aa',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+    lpToken: true,
+  },
   ethBnb: {
     symbol: 'ETH-BNB',
     address: {
