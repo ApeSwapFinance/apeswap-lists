@@ -1,4 +1,4 @@
-import { ChainId } from '@apeswapfinance/sdk'
+import { ChainId } from '@ape.swap/sdk'
 
 export enum QuoteToken {
   'BNB' = 'BNB',
@@ -155,7 +155,7 @@ export interface JungleFarmConfig {
   contractAddress: Partial<Record<ChainId, string>>
   projectLink: string
   twitter?: string
-  tokenPerBlock: string
+  tokenPerBlock?: string
   sortOrder?: number
   harvest?: boolean
   reflect?: boolean
@@ -172,6 +172,8 @@ export interface JungleFarmConfig {
   isEarnTokenLp?: boolean
   network: number
   zapable?: boolean
+  // Jungle farms have changed to per second vs per block
+  rewardsPerSecond?: string
 }
 
 export interface NfaStakingPoolConfig {

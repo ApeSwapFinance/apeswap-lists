@@ -1,10 +1,161 @@
 import { JungleFarmConfig } from './types'
 import tokens from './tokens'
-import { ChainId } from '@apeswapfinance/sdk'
-
-// Current Jungle ID: 11
+import { ChainId } from '@ape.swap/sdk'
 
 const jungleFarms: JungleFarmConfig[] = [
+  /*
+    CHAIN ID 40 - TLOS Jungle Farms
+    Current Jungle ID = 6
+  */
+  {
+    jungleId: 1,
+    tokenName: 'BANANA-TLOS',
+    image: 'BANANA.svg',
+    stakingToken: tokens.bananaTlos,
+    rewardToken: tokens.tlos,
+    lpTokens: {
+      token: tokens.tlos,
+      quoteToken: tokens.banana,
+    },
+    contractAddress: {
+      [ChainId.TLOS]: '0x5B7d49806709Fa0B3CdA23232cc2D609bCA2B2d0',
+    },
+    projectLink: 'https://telos.net',
+    twitter: 'https://twitter.com/HelloTelos',
+    harvest: true,
+    rewardsPerSecond: '0.004357638888888888',
+    sortOrder: 1,
+    isFinished: false,
+    tokenDecimals: 18,
+    lpStaking: true,
+    isEarnTokenLp: false,
+    network: ChainId.TLOS,
+  },
+  {
+    jungleId: 2,
+    tokenName: 'ETH-TLOS',
+    image: 'ETH.svg',
+    stakingToken: tokens.ethTlos,
+    rewardToken: tokens.tlos,
+    lpTokens: {
+      token: tokens.tlos,
+      quoteToken: tokens.eth,
+    },
+    contractAddress: {
+      [ChainId.TLOS]: '0xA3c3A929Ae19Bfc56E2A9B0f23e99bae8Bf6F11A',
+    },
+    projectLink: 'https://telos.net',
+    twitter: 'https://twitter.com/HelloTelos',
+    harvest: true,
+    rewardsPerSecond: '0.007262731481481481',
+    sortOrder: 1,
+    isFinished: false,
+    tokenDecimals: 18,
+    lpStaking: true,
+    isEarnTokenLp: false,
+    network: ChainId.TLOS,
+  },
+  {
+    jungleId: 3,
+    tokenName: 'BTC-TLOS',
+    image: 'BTC.svg',
+    stakingToken: tokens.btcTlos,
+    rewardToken: tokens.tlos,
+    lpTokens: {
+      token: tokens.tlos,
+      quoteToken: tokens.btc,
+    },
+    contractAddress: {
+      [ChainId.TLOS]: '0x96de2679e2d34cfC7cA3245D2d1e55f7dCdF88Bc',
+    },
+    projectLink: 'https://telos.net',
+    twitter: 'https://twitter.com/HelloTelos',
+    harvest: true,
+    rewardsPerSecond: '0.004357638888888888',
+    sortOrder: 1,
+    isFinished: false,
+    tokenDecimals: 18,
+    lpStaking: true,
+    isEarnTokenLp: false,
+    network: ChainId.TLOS,
+  },
+  {
+    jungleId: 4,
+    tokenName: 'USDT-TLOS',
+    image: 'USDT.svg',
+    stakingToken: tokens.usdtTlos,
+    rewardToken: tokens.tlos,
+    lpTokens: {
+      token: tokens.tlos,
+      quoteToken: tokens.usdt,
+    },
+    contractAddress: {
+      [ChainId.TLOS]: '0xffd6a576dCa8742D7afED1538ad6EF8b0022dDbb',
+    },
+    projectLink: 'https://telos.net',
+    twitter: 'https://twitter.com/HelloTelos',
+    harvest: true,
+    rewardsPerSecond: '0.007262731481481481',
+    sortOrder: 1,
+    isFinished: false,
+    tokenDecimals: 18,
+    lpStaking: true,
+    isEarnTokenLp: false,
+    network: ChainId.TLOS,
+  },
+  {
+    jungleId: 5,
+    tokenName: 'USDC-TLOS',
+    image: 'USDC.svg',
+    stakingToken: tokens.usdcTlos,
+    rewardToken: tokens.tlos,
+    lpTokens: {
+      token: tokens.tlos,
+      quoteToken: tokens.usdc,
+    },
+    contractAddress: {
+      [ChainId.TLOS]: '0xE874E1EF5622aeb65b2394105E5051d265D3cFe6',
+    },
+    projectLink: 'https://telos.net',
+    twitter: 'https://twitter.com/HelloTelos',
+    harvest: true,
+    rewardsPerSecond: '0.005810185185185185',
+    sortOrder: 1,
+    isFinished: false,
+    tokenDecimals: 18,
+    lpStaking: true,
+    isEarnTokenLp: false,
+    network: ChainId.TLOS,
+  },
+  {
+    jungleId: 6,
+    tokenName: 'STLOS-TLOS',
+    image: 'STLOS.png',
+    stakingToken: tokens.stlosTlos,
+    rewardToken: tokens.tlos,
+    lpTokens: {
+      token: tokens.tlos,
+      quoteToken: tokens.stlos,
+    },
+    contractAddress: {
+      [ChainId.TLOS]: '0x1FF8523D0Dc486fe6467826A321faD6521Ce8F8e',
+    },
+    projectLink: 'https://telos.net',
+    twitter: 'https://twitter.com/HelloTelos',
+    harvest: true,
+    rewardsPerSecond: '0.07910338395',
+    sortOrder: 1,
+    isFinished: false,
+    tokenDecimals: 18,
+    lpStaking: true,
+    isEarnTokenLp: false,
+    network: ChainId.TLOS,
+  },
+
+  /*
+    CHAIN ID 56 - BNB Jungle Farms
+    Current Jungle ID = 12
+  */
   {
     jungleId: 8,
     tokenName: 'PXP-BNB',
@@ -45,7 +196,7 @@ const jungleFarms: JungleFarmConfig[] = [
     projectLink: 'https://staderlabs.com/',
     twitter: 'https://twitter.com/stader_bnb',
     harvest: true,
-    tokenPerBlock: '0.076607142857142857',
+    tokenPerBlock: '0.05000022472',
     sortOrder: 1,
     isFinished: false,
     tokenDecimals: 18,
@@ -118,7 +269,7 @@ const jungleFarms: JungleFarmConfig[] = [
     projectLink: 'https://www.coinofchampions.com/',
     twitter: 'https://twitter.com/coinofchampions',
     harvest: true,
-    tokenPerBlock: '133355.178712',
+    tokenPerBlock: '96250',
     sortOrder: 1,
     isFinished: false,
     tokenDecimals: 18,
@@ -312,6 +463,31 @@ const jungleFarms: JungleFarmConfig[] = [
     twitter: 'https://twitter.com/thegenericcoin',
     harvest: true,
     tokenPerBlock: '11574.074074074074074074',
+    sortOrder: 1,
+    isFinished: false,
+    tokenDecimals: 18,
+    lpStaking: true,
+    isEarnTokenLp: false,
+    network: ChainId.BSC,
+    zapable: true,
+  },
+  {
+    jungleId: 12,
+    tokenName: 'SWT-BNB',
+    image: 'SWT.svg',
+    stakingToken: tokens.swtBnb,
+    rewardToken: tokens.swt,
+    lpTokens: {
+      token: tokens.swt,
+      quoteToken: tokens.wbnb,
+    },
+    contractAddress: {
+      [ChainId.BSC]: '0x6d986e76745fa4f99bad44dd2792351bf2d0800f',
+    },
+    projectLink: 'https://sweetpad.io/',
+    twitter: 'https://twitter.com/SweetPad_',
+    harvest: true,
+    tokenPerBlock: '0.076388888888888888',
     sortOrder: 1,
     isFinished: false,
     tokenDecimals: 18,
