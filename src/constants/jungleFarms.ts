@@ -17,9 +17,6 @@ const jungleFarms: JungleFarmConfig[] = [
     },
     contractAddress: {
       [ChainId.BSC]: '0xBE36303aeCc8F1A71fa1076349117BE2fb94f7cD',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '0xb1108939748A635C5ed982a17FF5C6E7D79ECF62',
     },
     projectLink: 'https://piratexpirate.io/',
     twitter: 'https://twitter.com/PXPNFTsGame',
@@ -44,9 +41,6 @@ const jungleFarms: JungleFarmConfig[] = [
     },
     contractAddress: {
       [ChainId.BSC]: '0x20589C5cC1907023BecA7E4E9A2325e1Ef5F30eF',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '0xb1108939748A635C5ed982a17FF5C6E7D79ECF62',
     },
     projectLink: 'https://staderlabs.com/',
     twitter: 'https://twitter.com/stader_bnb',
@@ -71,9 +65,6 @@ const jungleFarms: JungleFarmConfig[] = [
     },
     contractAddress: {
       [ChainId.BSC]: '0xdffcb3f3a64b8c7d722b33d098349417136585f8',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '0xb1108939748A635C5ed982a17FF5C6E7D79ECF62',
     },
     projectLink: 'https://www.transfero.com/transfero-crypto?lang=en',
     twitter: 'https://twitter.com/transferogroup',
@@ -99,9 +90,6 @@ const jungleFarms: JungleFarmConfig[] = [
     },
     contractAddress: {
       [ChainId.BSC]: '0xc81af2222ac6ec0f3ec08b875df25326b40e7a76',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '0xb1108939748A635C5ed982a17FF5C6E7D79ECF62',
     },
     projectLink: 'https://solo.to/legionnetwork',
     twitter: 'https://twitter.com/LegionNetwork__',
@@ -126,9 +114,6 @@ const jungleFarms: JungleFarmConfig[] = [
     },
     contractAddress: {
       [ChainId.BSC]: '0xf4195c4ddb10db3df27816bb70dc342d861a7561',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '0xb1108939748A635C5ed982a17FF5C6E7D79ECF62',
     },
     projectLink: 'https://www.coinofchampions.com/',
     twitter: 'https://twitter.com/coinofchampions',
@@ -153,9 +138,6 @@ const jungleFarms: JungleFarmConfig[] = [
     rewardToken: tokens.wgict,
     contractAddress: {
       [ChainId.BSC]: '0xe4417357b022224736ca845856917aaae912c0bd',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '0xb1108939748A635C5ed982a17FF5C6E7D79ECF62',
     },
     projectLink: 'https://gictrade.io/',
     twitter: 'https://twitter.com/GICTraders/ ',
@@ -180,9 +162,6 @@ const jungleFarms: JungleFarmConfig[] = [
     },
     contractAddress: {
       [ChainId.BSC]: '0x420B9baD20d43D561377615325E60d5B7CdB1B35',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '0xb1108939748A635C5ed982a17FF5C6E7D79ECF62',
     },
     projectLink: 'https://nft11.io/',
     twitter: 'https://twitter.com/NFT11_Official',
@@ -207,9 +186,6 @@ const jungleFarms: JungleFarmConfig[] = [
     },
     contractAddress: {
       [ChainId.BSC]: '0xbc3f5571fc3338d0b9216a2c5c2e6f338531e3f8',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '0xb1108939748A635C5ed982a17FF5C6E7D79ECF62',
     },
     projectLink: 'https://www.rubyplaynet.com/',
     harvest: true,
@@ -233,9 +209,6 @@ const jungleFarms: JungleFarmConfig[] = [
     },
     contractAddress: {
       [ChainId.BSC]: '0xc8519d981a99c9a56364895c6d37eea686d70540',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '0xb1108939748A635C5ed982a17FF5C6E7D79ECF62',
     },
     projectLink: 'https://derify.finance/',
     twitter: 'https://twitter.com/DerifyProtocol',
@@ -260,9 +233,6 @@ const jungleFarms: JungleFarmConfig[] = [
     },
     contractAddress: {
       [ChainId.BSC]: '0x84291c0e6b19cc833afc491561aacfbdd6885d63',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '0xb1108939748A635C5ed982a17FF5C6E7D79ECF62',
     },
     projectLink: 'https://moonshots.farm/',
     twitter: 'https://twitter.com/MoonshotsFarm',
@@ -288,8 +258,6 @@ const jungleFarms: JungleFarmConfig[] = [
     contractAddress: {
       [ChainId.BSC_TESTNET]: '0xb1108939748A635C5ed982a17FF5C6E7D79ECF62',
       [ChainId.BSC]: '0xc3a5dbb5121772628956b9ce709ec1dda6a94b4d',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
     },
     projectLink: 'https://www.generic.money/',
     twitter: 'https://twitter.com/thegenericcoin',
@@ -314,9 +282,6 @@ const jungleFarms: JungleFarmConfig[] = [
     },
     contractAddress: {
       [ChainId.BSC]: '0x1e7133e05d1b4bdab44cb5503fa4a801000c963a',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '0xb1108939748A635C5ed982a17FF5C6E7D79ECF62',
     },
     projectLink: 'https://www.luckychip.io/',
     twitter: 'https://twitter.com/luckychip_io',
@@ -342,8 +307,6 @@ const jungleFarms: JungleFarmConfig[] = [
     contractAddress: {
       [ChainId.BSC_TESTNET]: '0xb1108939748A635C5ed982a17FF5C6E7D79ECF62',
       [ChainId.BSC]: '0xe406371a7e43f992cb3bc70118f9664cd37e3489',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
     },
     projectLink: 'https://www.generic.money/',
     twitter: 'https://twitter.com/thegenericcoin',

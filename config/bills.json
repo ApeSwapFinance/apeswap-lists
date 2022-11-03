@@ -16,29 +16,41 @@
         "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
         "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
       },
-      "decimals": 18,
+      "decimals": {
+        "1": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "80001": 18
+      },
       "active": true
     },
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "1": "",
         "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
         "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
         "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "80001": 18
+      },
       "active": true
     },
     "lpToken": {
       "symbol": "BANANA-BNB",
       "address": {
-        "1": "",
         "56": "0xf65c1c0478efde3c19b49ecbe7acc57bb6b1d713",
-        "97": "0x90Fc86A7570063a9eA971ec74f01F89569Ad6237",
-        "137": ""
+        "97": "0x90Fc86A7570063a9eA971ec74f01F89569Ad6237"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true,
       "lpToken": true
     },
@@ -50,7 +62,13 @@
         "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
         "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
       },
-      "decimals": 18,
+      "decimals": {
+        "1": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "80001": 18
+      },
       "active": true
     },
     "billNnftAddress": {
@@ -74,34 +92,40 @@
     "token": {
       "symbol": "BUSD",
       "address": {
-        "1": "",
         "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-        "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-        "137": ""
+        "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18
+      },
       "active": true
     },
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "1": "",
         "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
         "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
         "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "80001": 18
+      },
       "active": true
     },
     "lpToken": {
       "symbol": "BUSD-BNB",
       "address": {
-        "1": "",
-        "56": "0x51e6D27FA57373d8d4C256231241053a70Cb1d93",
-        "97": "",
-        "137": ""
+        "56": "0x51e6D27FA57373d8d4C256231241053a70Cb1d93"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true,
       "lpToken": true
     },
@@ -113,7 +137,13 @@
         "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
         "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
       },
-      "decimals": 18,
+      "decimals": {
+        "1": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "80001": 18
+      },
       "active": true
     },
     "billNnftAddress": {
@@ -137,34 +167,38 @@
     "token": {
       "symbol": "BUSD",
       "address": {
-        "1": "",
         "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-        "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-        "137": ""
+        "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18
+      },
       "active": true
     },
     "quoteToken": {
       "symbol": "USDC",
       "address": {
-        "1": "",
         "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-        "97": "",
         "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "lpToken": {
       "symbol": "BUSD-USDC",
       "address": {
-        "1": "",
-        "56": "0xC087C78AbaC4A0E900a327444193dBF9BA69058E",
-        "97": "",
-        "137": ""
+        "56": "0xC087C78AbaC4A0E900a327444193dBF9BA69058E"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true,
       "lpToken": true
     },
@@ -176,7 +210,13 @@
         "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
         "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
       },
-      "decimals": 18,
+      "decimals": {
+        "1": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "80001": 18
+      },
       "active": true
     },
     "billNnftAddress": {
@@ -200,34 +240,42 @@
     "token": {
       "symbol": "ETH",
       "address": {
-        "1": "",
         "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
         "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
         "137": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "1": "",
         "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
         "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
         "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "80001": 18
+      },
       "active": true
     },
     "lpToken": {
       "symbol": "ETH-BNB",
       "address": {
-        "1": "",
-        "56": "0xA0C3Ef24414ED9C9B456740128d8E63D016A9e11",
-        "97": "",
-        "137": ""
+        "56": "0xA0C3Ef24414ED9C9B456740128d8E63D016A9e11"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true,
       "lpToken": true
     },
@@ -239,7 +287,13 @@
         "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
         "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
       },
-      "decimals": 18,
+      "decimals": {
+        "1": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "80001": 18
+      },
       "active": true
     },
     "billNnftAddress": {
@@ -263,34 +317,42 @@
     "token": {
       "symbol": "BTC",
       "address": {
-        "1": "",
         "56": "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c",
         "97": "0x6ce8da28e2f864420840cf74474eff5fd80e65b8",
         "137": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "1": "",
         "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
         "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
         "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "80001": 18
+      },
       "active": true
     },
     "lpToken": {
       "symbol": "BTC-BNB",
       "address": {
-        "1": "",
-        "56": "0x1E1aFE9D9c5f290d8F6996dDB190bd111908A43D",
-        "97": "",
-        "137": ""
+        "56": "0x1E1aFE9D9c5f290d8F6996dDB190bd111908A43D"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true,
       "lpToken": true
     },
@@ -302,7 +364,13 @@
         "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
         "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
       },
-      "decimals": 18,
+      "decimals": {
+        "1": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "80001": 18
+      },
       "active": true
     },
     "billNnftAddress": {
@@ -326,46 +394,51 @@
     "token": {
       "symbol": "BLID",
       "address": {
-        "1": "",
-        "56": "0x766AFcf83Fd5eaf884B3d529b432CA27A6d84617",
-        "97": "",
-        "137": ""
+        "56": "0x766AFcf83Fd5eaf884B3d529b432CA27A6d84617"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "quoteToken": {
       "symbol": "USDT",
       "address": {
-        "1": "",
         "56": "0x55d398326f99059ff775485246999027b3197955",
-        "97": "",
         "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "lpToken": {
       "symbol": "BLID-USDT",
       "address": {
-        "1": "",
-        "56": "0xc403a4b51d824eeb3f076bcaf4416dbbfde2016b",
-        "97": "",
-        "137": ""
+        "56": "0xc403a4b51d824eeb3f076bcaf4416dbbfde2016b"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true,
       "lpToken": true
     },
     "earnToken": {
       "symbol": "BLID",
       "address": {
-        "1": "",
-        "56": "0x766AFcf83Fd5eaf884B3d529b432CA27A6d84617",
-        "97": "",
-        "137": ""
+        "56": "0x766AFcf83Fd5eaf884B3d529b432CA27A6d84617"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "billNnftAddress": {
@@ -389,46 +462,53 @@
     "token": {
       "symbol": "GMR",
       "address": {
-        "1": "",
-        "56": "0xADCa52302e0a6c2d5D68EDCdB4Ac75DeB5466884",
-        "97": "",
-        "137": ""
+        "56": "0xADCa52302e0a6c2d5D68EDCdB4Ac75DeB5466884"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "1": "",
         "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
         "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
         "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "80001": 18
+      },
       "active": true
     },
     "lpToken": {
       "symbol": "GMR-BNB",
       "address": {
-        "1": "",
-        "56": "0x5ff97410ff9bdb715b7b283828796dd0ad7a884a",
-        "97": "",
-        "137": ""
+        "56": "0x5ff97410ff9bdb715b7b283828796dd0ad7a884a"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true,
       "lpToken": true
     },
     "earnToken": {
       "symbol": "GMR",
       "address": {
-        "1": "",
-        "56": "0xADCa52302e0a6c2d5D68EDCdB4Ac75DeB5466884",
-        "97": "",
-        "137": ""
+        "56": "0xADCa52302e0a6c2d5D68EDCdB4Ac75DeB5466884"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "billNnftAddress": {
@@ -452,46 +532,53 @@
     "token": {
       "symbol": "HEC",
       "address": {
-        "1": "",
-        "56": "0x638EEBe886B0e9e7C6929E69490064a6C94d204d",
-        "97": "",
-        "137": ""
+        "56": "0x638EEBe886B0e9e7C6929E69490064a6C94d204d"
       },
-      "decimals": 9,
+      "decimals": {
+        "56": 9,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "1": "",
         "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
         "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
         "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "80001": 18
+      },
       "active": true
     },
     "lpToken": {
       "symbol": "HEC-BNB",
       "address": {
-        "1": "",
-        "56": "0xc0687a3cf463f3be0b021d6f41551584d124d9c5",
-        "97": "",
-        "137": ""
+        "56": "0xc0687a3cf463f3be0b021d6f41551584d124d9c5"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true,
       "lpToken": true
     },
     "earnToken": {
       "symbol": "HEC",
       "address": {
-        "1": "",
-        "56": "0x638EEBe886B0e9e7C6929E69490064a6C94d204d",
-        "97": "",
-        "137": ""
+        "56": "0x638EEBe886B0e9e7C6929E69490064a6C94d204d"
       },
-      "decimals": 9,
+      "decimals": {
+        "56": 9,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "billNnftAddress": {
@@ -515,46 +602,53 @@
     "token": {
       "symbol": "FLOKI",
       "address": {
-        "1": "",
-        "56": "0xfb5b838b6cfeedc2873ab27866079ac55363d37e",
-        "97": "",
-        "137": ""
+        "56": "0xfb5b838b6cfeedc2873ab27866079ac55363d37e"
       },
-      "decimals": 9,
+      "decimals": {
+        "56": 9,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "1": "",
         "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
         "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
         "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "80001": 18
+      },
       "active": true
     },
     "lpToken": {
       "symbol": "FLOKI-BNB",
       "address": {
-        "1": "",
-        "56": "0xacc22e0ff64e788e6ad569a57d130b9d957494dc",
-        "97": "",
-        "137": ""
+        "56": "0xacc22e0ff64e788e6ad569a57d130b9d957494dc"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true,
       "lpToken": true
     },
     "earnToken": {
       "symbol": "FLOKI",
       "address": {
-        "1": "",
-        "56": "0xfb5b838b6cfeedc2873ab27866079ac55363d37e",
-        "97": "",
-        "137": ""
+        "56": "0xfb5b838b6cfeedc2873ab27866079ac55363d37e"
       },
-      "decimals": 9,
+      "decimals": {
+        "56": 9,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "billNnftAddress": {
@@ -578,46 +672,53 @@
     "token": {
       "symbol": "RADAR",
       "address": {
-        "1": "",
-        "56": "0x489580eB70a50515296eF31E8179fF3e77E24965",
-        "97": "",
-        "137": ""
+        "56": "0x489580eB70a50515296eF31E8179fF3e77E24965"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "1": "",
         "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
         "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
         "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "80001": 18
+      },
       "active": true
     },
     "lpToken": {
       "symbol": "RADAR-BNB",
       "address": {
-        "1": "",
-        "56": "0xe6fF591f818664865eCab584B1fe679DbB4904dB",
-        "97": "",
-        "137": ""
+        "56": "0xe6fF591f818664865eCab584B1fe679DbB4904dB"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true,
       "lpToken": true
     },
     "earnToken": {
       "symbol": "RADAR",
       "address": {
-        "1": "",
-        "56": "0x489580eB70a50515296eF31E8179fF3e77E24965",
-        "97": "",
-        "137": ""
+        "56": "0x489580eB70a50515296eF31E8179fF3e77E24965"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "billNnftAddress": {
@@ -641,46 +742,53 @@
     "token": {
       "symbol": "CEEK",
       "address": {
-        "1": "",
-        "56": "0xe0f94ac5462997d2bc57287ac3a3ae4c31345d66",
-        "97": "",
-        "137": ""
+        "56": "0xe0f94ac5462997d2bc57287ac3a3ae4c31345d66"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "1": "",
         "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
         "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
         "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "80001": 18
+      },
       "active": true
     },
     "lpToken": {
       "symbol": "CEEK-BNB",
       "address": {
-        "1": "",
-        "56": "0x119d6ebe840966c9cf4ff6603e76208d30ba2179",
-        "97": "",
-        "137": ""
+        "56": "0x119d6ebe840966c9cf4ff6603e76208d30ba2179"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true,
       "lpToken": true
     },
     "earnToken": {
       "symbol": "CEEK",
       "address": {
-        "1": "",
-        "56": "0xe0f94ac5462997d2bc57287ac3a3ae4c31345d66",
-        "97": "",
-        "137": ""
+        "56": "0xe0f94ac5462997d2bc57287ac3a3ae4c31345d66"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "billNnftAddress": {
@@ -704,46 +812,53 @@
     "token": {
       "symbol": "NFTY",
       "address": {
-        "1": "",
-        "56": "0x5774b2fc3e91af89f89141eacf76545e74265982",
-        "97": "",
-        "137": ""
+        "56": "0x5774b2fc3e91af89f89141eacf76545e74265982"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "1": "",
         "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
         "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
         "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "80001": 18
+      },
       "active": true
     },
     "lpToken": {
       "symbol": "NFTY-BNB",
       "address": {
-        "1": "",
-        "56": "0x884BE30e2c95b9cFed614aD2B5Edf40AF2A144ad",
-        "97": "",
-        "137": ""
+        "56": "0x884BE30e2c95b9cFed614aD2B5Edf40AF2A144ad"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true,
       "lpToken": true
     },
     "earnToken": {
       "symbol": "NFTY",
       "address": {
-        "1": "",
-        "56": "0x5774b2fc3e91af89f89141eacf76545e74265982",
-        "97": "",
-        "137": ""
+        "56": "0x5774b2fc3e91af89f89141eacf76545e74265982"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "billNnftAddress": {
@@ -767,46 +882,50 @@
     "token": {
       "symbol": "TLOS",
       "address": {
-        "1": "",
-        "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c",
-        "97": "",
-        "137": ""
+        "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "quoteToken": {
       "symbol": "BUSD",
       "address": {
-        "1": "",
         "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-        "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-        "137": ""
+        "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18
+      },
       "active": true
     },
     "lpToken": {
       "symbol": "TLOS-BUSD",
       "address": {
-        "1": "",
-        "56": "0x4d90ddc0a30968c4c6b1ed0535b0264e75a3c5f3",
-        "97": "",
-        "137": ""
+        "56": "0x4d90ddc0a30968c4c6b1ed0535b0264e75a3c5f3"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true,
       "lpToken": true
     },
     "earnToken": {
       "symbol": "TLOS",
       "address": {
-        "1": "",
-        "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c",
-        "97": "",
-        "137": ""
+        "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "billNnftAddress": {
@@ -831,46 +950,53 @@
     "token": {
       "symbol": "STARS",
       "address": {
-        "1": "",
-        "56": "0xbd83010eb60f12112908774998f65761cf9f6f9a",
-        "97": "",
-        "137": ""
+        "56": "0xbd83010eb60f12112908774998f65761cf9f6f9a"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "1": "",
         "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
         "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
         "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "80001": 18
+      },
       "active": true
     },
     "lpToken": {
       "symbol": "STARS-BNB",
       "address": {
-        "1": "",
-        "56": "0xbc8a4cad743d87e8754fd5f704c62e378802cbff",
-        "97": "",
-        "137": ""
+        "56": "0xbc8a4cad743d87e8754fd5f704c62e378802cbff"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true,
       "lpToken": true
     },
     "earnToken": {
       "symbol": "STARS",
       "address": {
-        "1": "",
-        "56": "0xbd83010eb60f12112908774998f65761cf9f6f9a",
-        "97": "",
-        "137": ""
+        "56": "0xbd83010eb60f12112908774998f65761cf9f6f9a"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "billNnftAddress": {
@@ -894,46 +1020,50 @@
     "token": {
       "symbol": "HOTCROSS",
       "address": {
-        "1": "",
-        "56": "0x4fa7163e153419e0e1064e418dd7a99314ed27b6",
-        "97": "",
-        "137": ""
+        "56": "0x4fa7163e153419e0e1064e418dd7a99314ed27b6"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "quoteToken": {
       "symbol": "BUSD",
       "address": {
-        "1": "",
         "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-        "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-        "137": ""
+        "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18
+      },
       "active": true
     },
     "lpToken": {
       "symbol": "HOTCROSS-BUSD",
       "address": {
-        "1": "",
-        "56": "0x3b9aa711d1d90a4f8639f66c227881729a3317f2",
-        "97": "",
-        "137": ""
+        "56": "0x3b9aa711d1d90a4f8639f66c227881729a3317f2"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true,
       "lpToken": true
     },
     "earnToken": {
       "symbol": "HOTCROSS",
       "address": {
-        "1": "",
-        "56": "0x4fa7163e153419e0e1064e418dd7a99314ed27b6",
-        "97": "",
-        "137": ""
+        "56": "0x4fa7163e153419e0e1064e418dd7a99314ed27b6"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "billNnftAddress": {
@@ -957,46 +1087,50 @@
     "token": {
       "symbol": "HOTCROSS",
       "address": {
-        "1": "",
-        "56": "0x4fa7163e153419e0e1064e418dd7a99314ed27b6",
-        "97": "",
-        "137": ""
+        "56": "0x4fa7163e153419e0e1064e418dd7a99314ed27b6"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "quoteToken": {
       "symbol": "BUSD",
       "address": {
-        "1": "",
         "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-        "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-        "137": ""
+        "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18
+      },
       "active": true
     },
     "lpToken": {
       "symbol": "HOTCROSS-BUSD",
       "address": {
-        "1": "",
-        "56": "0x3b9aa711d1d90a4f8639f66c227881729a3317f2",
-        "97": "",
-        "137": ""
+        "56": "0x3b9aa711d1d90a4f8639f66c227881729a3317f2"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true,
       "lpToken": true
     },
     "earnToken": {
       "symbol": "HOTCROSS",
       "address": {
-        "1": "",
-        "56": "0x4fa7163e153419e0e1064e418dd7a99314ed27b6",
-        "97": "",
-        "137": ""
+        "56": "0x4fa7163e153419e0e1064e418dd7a99314ed27b6"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "billNnftAddress": {
@@ -1020,46 +1154,50 @@
     "token": {
       "symbol": "TLOS",
       "address": {
-        "1": "",
-        "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c",
-        "97": "",
-        "137": ""
+        "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "quoteToken": {
       "symbol": "BUSD",
       "address": {
-        "1": "",
         "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-        "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-        "137": ""
+        "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18
+      },
       "active": true
     },
     "lpToken": {
       "symbol": "TLOS-BUSD",
       "address": {
-        "1": "",
-        "56": "0x4d90ddc0a30968c4c6b1ed0535b0264e75a3c5f3",
-        "97": "",
-        "137": ""
+        "56": "0x4d90ddc0a30968c4c6b1ed0535b0264e75a3c5f3"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true,
       "lpToken": true
     },
     "earnToken": {
       "symbol": "TLOS",
       "address": {
-        "1": "",
-        "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c",
-        "97": "",
-        "137": ""
+        "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "billNnftAddress": {
@@ -1088,29 +1226,41 @@
         "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
         "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
       },
-      "decimals": 18,
+      "decimals": {
+        "1": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "80001": 18
+      },
       "active": true
     },
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "1": "",
         "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
         "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
         "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "80001": 18
+      },
       "active": true
     },
     "lpToken": {
       "symbol": "BANANA-BNB",
       "address": {
-        "1": "",
         "56": "0xf65c1c0478efde3c19b49ecbe7acc57bb6b1d713",
-        "97": "0x90Fc86A7570063a9eA971ec74f01F89569Ad6237",
-        "137": ""
+        "97": "0x90Fc86A7570063a9eA971ec74f01F89569Ad6237"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true,
       "lpToken": true
     },
@@ -1122,7 +1272,13 @@
         "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
         "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
       },
-      "decimals": 18,
+      "decimals": {
+        "1": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "80001": 18
+      },
       "active": true
     },
     "billNnftAddress": {
@@ -1147,34 +1303,40 @@
     "token": {
       "symbol": "BUSD",
       "address": {
-        "1": "",
         "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-        "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-        "137": ""
+        "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18
+      },
       "active": true
     },
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "1": "",
         "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
         "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
         "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "80001": 18
+      },
       "active": true
     },
     "lpToken": {
       "symbol": "BUSD-BNB",
       "address": {
-        "1": "",
-        "56": "0x51e6D27FA57373d8d4C256231241053a70Cb1d93",
-        "97": "",
-        "137": ""
+        "56": "0x51e6D27FA57373d8d4C256231241053a70Cb1d93"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true,
       "lpToken": true
     },
@@ -1186,7 +1348,13 @@
         "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
         "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
       },
-      "decimals": 18,
+      "decimals": {
+        "1": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "80001": 18
+      },
       "active": true
     },
     "billNnftAddress": {
@@ -1211,34 +1379,38 @@
     "token": {
       "symbol": "BUSD",
       "address": {
-        "1": "",
         "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-        "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-        "137": ""
+        "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18
+      },
       "active": true
     },
     "quoteToken": {
       "symbol": "USDC",
       "address": {
-        "1": "",
         "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-        "97": "",
         "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "lpToken": {
       "symbol": "BUSD-USDC",
       "address": {
-        "1": "",
-        "56": "0xC087C78AbaC4A0E900a327444193dBF9BA69058E",
-        "97": "",
-        "137": ""
+        "56": "0xC087C78AbaC4A0E900a327444193dBF9BA69058E"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true,
       "lpToken": true
     },
@@ -1250,7 +1422,13 @@
         "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
         "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
       },
-      "decimals": 18,
+      "decimals": {
+        "1": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "80001": 18
+      },
       "active": true
     },
     "billNnftAddress": {
@@ -1275,34 +1453,42 @@
     "token": {
       "symbol": "ETH",
       "address": {
-        "1": "",
         "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
         "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
         "137": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "1": "",
         "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
         "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
         "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "80001": 18
+      },
       "active": true
     },
     "lpToken": {
       "symbol": "ETH-BNB",
       "address": {
-        "1": "",
-        "56": "0xA0C3Ef24414ED9C9B456740128d8E63D016A9e11",
-        "97": "",
-        "137": ""
+        "56": "0xA0C3Ef24414ED9C9B456740128d8E63D016A9e11"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true,
       "lpToken": true
     },
@@ -1314,7 +1500,13 @@
         "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
         "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
       },
-      "decimals": 18,
+      "decimals": {
+        "1": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "80001": 18
+      },
       "active": true
     },
     "billNnftAddress": {
@@ -1339,34 +1531,42 @@
     "token": {
       "symbol": "BTC",
       "address": {
-        "1": "",
         "56": "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c",
         "97": "0x6ce8da28e2f864420840cf74474eff5fd80e65b8",
         "137": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "1": "",
         "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
         "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
         "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "80001": 18
+      },
       "active": true
     },
     "lpToken": {
       "symbol": "BTC-BNB",
       "address": {
-        "1": "",
-        "56": "0x1E1aFE9D9c5f290d8F6996dDB190bd111908A43D",
-        "97": "",
-        "137": ""
+        "56": "0x1E1aFE9D9c5f290d8F6996dDB190bd111908A43D"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true,
       "lpToken": true
     },
@@ -1378,7 +1578,13 @@
         "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
         "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
       },
-      "decimals": 18,
+      "decimals": {
+        "1": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "80001": 18
+      },
       "active": true
     },
     "billNnftAddress": {
@@ -1403,46 +1609,51 @@
     "token": {
       "symbol": "DOGIRA",
       "address": {
-        "1": "",
-        "56": "",
-        "97": "",
         "137": "0xdda40cdfe4a0090f42ff49f264a831402adb801a"
       },
-      "decimals": 9,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 9
+      },
       "active": true
     },
     "quoteToken": {
       "symbol": "MATIC",
       "address": {
-        "1": "",
         "56": "0xcc42724c6683b7e57334c4e856f4c9965ed682bd",
-        "97": "",
         "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": null,
+        "137": 18
+      },
       "active": true
     },
     "lpToken": {
       "symbol": "DOGIRA-MATIC",
       "address": {
-        "1": "",
-        "56": "",
-        "97": "",
         "137": "0x103062f71b7106a8df6fd2a4dd9368358c44a9d0"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true,
       "lpToken": true
     },
     "earnToken": {
       "symbol": "DOGIRA",
       "address": {
-        "1": "",
-        "56": "",
-        "97": "",
         "137": "0xdda40cdfe4a0090f42ff49f264a831402adb801a"
       },
-      "decimals": 9,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 9
+      },
       "active": true
     },
     "billNnftAddress": {
@@ -1467,46 +1678,51 @@
     "token": {
       "symbol": "TRAXX",
       "address": {
-        "1": "",
-        "56": "",
-        "97": "",
         "137": "0xD43Be54C1aedf7Ee4099104f2DaE4eA88B18A249"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "quoteToken": {
       "symbol": "MATIC",
       "address": {
-        "1": "",
         "56": "0xcc42724c6683b7e57334c4e856f4c9965ed682bd",
-        "97": "",
         "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": null,
+        "137": 18
+      },
       "active": true
     },
     "lpToken": {
       "symbol": "TRAXX-MATIC",
       "address": {
-        "1": "",
-        "56": "",
-        "97": "",
         "137": "0x545cb3055e62c86f54ba479c7cafc7e1e2eeec54"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true,
       "lpToken": true
     },
     "earnToken": {
       "symbol": "TRAXX",
       "address": {
-        "1": "",
-        "56": "",
-        "97": "",
         "137": "0xD43Be54C1aedf7Ee4099104f2DaE4eA88B18A249"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "billNnftAddress": {

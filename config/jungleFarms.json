@@ -6,55 +6,59 @@
     "stakingToken": {
       "symbol": "PXP-BNB",
       "address": {
-        "1": "",
-        "56": "0xF4a7480948F11A0205D616258DCf43E9DaAE0586",
-        "97": "",
-        "137": ""
+        "56": "0xF4a7480948F11A0205D616258DCf43E9DaAE0586"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true,
       "lpToken": true
     },
     "rewardToken": {
       "symbol": "PXP",
       "address": {
-        "1": "",
-        "56": "0x93c27727e72EC7510a06ea450366C1418c4Ce547",
-        "97": "",
-        "137": ""
+        "56": "0x93c27727e72EC7510a06ea450366C1418c4Ce547"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "lpTokens": {
       "token": {
         "symbol": "PXP",
         "address": {
-          "1": "",
-          "56": "0x93c27727e72EC7510a06ea450366C1418c4Ce547",
-          "97": "",
-          "137": ""
+          "56": "0x93c27727e72EC7510a06ea450366C1418c4Ce547"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18,
+          "97": 18,
+          "137": 18
+        },
         "active": true
       },
       "quoteToken": {
         "symbol": "BNB",
         "address": {
-          "1": "",
           "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
           "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
           "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18,
+          "97": 18,
+          "137": 18,
+          "80001": 18
+        },
         "active": true
       }
     },
     "contractAddress": {
-      "1": "",
-      "56": "0xBE36303aeCc8F1A71fa1076349117BE2fb94f7cD",
-      "97": "0xb1108939748A635C5ed982a17FF5C6E7D79ECF62",
-      "137": ""
+      "56": "0xBE36303aeCc8F1A71fa1076349117BE2fb94f7cD"
     },
     "projectLink": "https://piratexpirate.io/",
     "twitter": "https://twitter.com/PXPNFTsGame",
@@ -74,55 +78,59 @@
     "stakingToken": {
       "symbol": "BNBx-BNB",
       "address": {
-        "1": "",
-        "56": "0xB88F211EC9ecfc2931Ae1DE53ea28Da76B9Ed37A",
-        "97": "",
-        "137": ""
+        "56": "0xB88F211EC9ecfc2931Ae1DE53ea28Da76B9Ed37A"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true,
       "lpToken": true
     },
     "rewardToken": {
       "symbol": "SD",
       "address": {
-        "1": "",
-        "56": "0x3BC5AC0dFdC871B365d159f728dd1B9A0B5481E8",
-        "97": "",
-        "137": ""
+        "56": "0x3BC5AC0dFdC871B365d159f728dd1B9A0B5481E8"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "lpTokens": {
       "token": {
         "symbol": "BNBx",
         "address": {
-          "1": "",
-          "56": "0x1bdd3Cf7F79cfB8EdbB955f20ad99211551BA275",
-          "97": "",
-          "137": ""
+          "56": "0x1bdd3Cf7F79cfB8EdbB955f20ad99211551BA275"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18,
+          "97": 18,
+          "137": 18
+        },
         "active": true
       },
       "quoteToken": {
         "symbol": "BNB",
         "address": {
-          "1": "",
           "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
           "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
           "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18,
+          "97": 18,
+          "137": 18,
+          "80001": 18
+        },
         "active": true
       }
     },
     "contractAddress": {
-      "1": "",
-      "56": "0x20589C5cC1907023BecA7E4E9A2325e1Ef5F30eF",
-      "97": "0xb1108939748A635C5ed982a17FF5C6E7D79ECF62",
-      "137": ""
+      "56": "0x20589C5cC1907023BecA7E4E9A2325e1Ef5F30eF"
     },
     "projectLink": "https://staderlabs.com/",
     "twitter": "https://twitter.com/stader_bnb",
@@ -142,55 +150,56 @@
     "stakingToken": {
       "symbol": "BRZ-BUSD",
       "address": {
-        "1": "",
-        "56": "0xfbD7e3575F709212A9f61aC6C63964A8FDa34CAC",
-        "97": "",
-        "137": ""
+        "56": "0xfbD7e3575F709212A9f61aC6C63964A8FDa34CAC"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true,
       "lpToken": true
     },
     "rewardToken": {
       "symbol": "BRZ",
       "address": {
-        "1": "",
-        "56": "0x71be881e9C5d4465B3FfF61e89c6f3651E69B5bb",
-        "97": "",
-        "137": ""
+        "56": "0x71be881e9C5d4465B3FfF61e89c6f3651E69B5bb"
       },
-      "decimals": 4,
+      "decimals": {
+        "56": 4,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "lpTokens": {
       "token": {
         "symbol": "BRZ",
         "address": {
-          "1": "",
-          "56": "0x71be881e9C5d4465B3FfF61e89c6f3651E69B5bb",
-          "97": "",
-          "137": ""
+          "56": "0x71be881e9C5d4465B3FfF61e89c6f3651E69B5bb"
         },
-        "decimals": 4,
+        "decimals": {
+          "56": 4,
+          "97": 18,
+          "137": 18
+        },
         "active": true
       },
       "quoteToken": {
         "symbol": "BUSD",
         "address": {
-          "1": "",
           "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-          "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-          "137": ""
+          "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18,
+          "97": 18
+        },
         "active": true
       }
     },
     "contractAddress": {
-      "1": "",
-      "56": "0xdffcb3f3a64b8c7d722b33d098349417136585f8",
-      "97": "0xb1108939748A635C5ed982a17FF5C6E7D79ECF62",
-      "137": ""
+      "56": "0xdffcb3f3a64b8c7d722b33d098349417136585f8"
     },
     "projectLink": "https://www.transfero.com/transfero-crypto?lang=en",
     "twitter": "https://twitter.com/transferogroup",
@@ -211,55 +220,56 @@
     "stakingToken": {
       "symbol": "LGX-BUSD",
       "address": {
-        "1": "",
-        "56": "0x004F72D474eE262701205E3637B4367594eFb11D",
-        "97": "",
-        "137": ""
+        "56": "0x004F72D474eE262701205E3637B4367594eFb11D"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true,
       "lpToken": true
     },
     "rewardToken": {
       "symbol": "LGX",
       "address": {
-        "1": "",
-        "56": "0x9096B4309224d751FCB43d7eB178dcFFc122aD15",
-        "97": "",
-        "137": ""
+        "56": "0x9096B4309224d751FCB43d7eB178dcFFc122aD15"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "lpTokens": {
       "token": {
         "symbol": "LGX",
         "address": {
-          "1": "",
-          "56": "0x9096B4309224d751FCB43d7eB178dcFFc122aD15",
-          "97": "",
-          "137": ""
+          "56": "0x9096B4309224d751FCB43d7eB178dcFFc122aD15"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18,
+          "97": 18,
+          "137": 18
+        },
         "active": true
       },
       "quoteToken": {
         "symbol": "BUSD",
         "address": {
-          "1": "",
           "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-          "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-          "137": ""
+          "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18,
+          "97": 18
+        },
         "active": true
       }
     },
     "contractAddress": {
-      "1": "",
-      "56": "0xc81af2222ac6ec0f3ec08b875df25326b40e7a76",
-      "97": "0xb1108939748A635C5ed982a17FF5C6E7D79ECF62",
-      "137": ""
+      "56": "0xc81af2222ac6ec0f3ec08b875df25326b40e7a76"
     },
     "projectLink": "https://solo.to/legionnetwork",
     "twitter": "https://twitter.com/LegionNetwork__",
@@ -279,55 +289,59 @@
     "stakingToken": {
       "symbol": "COC-BNB",
       "address": {
-        "1": "",
-        "56": "0x5467dD00ca4d91010Ab2A3aEF8a0162DC218801A",
-        "97": "",
-        "137": ""
+        "56": "0x5467dD00ca4d91010Ab2A3aEF8a0162DC218801A"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true,
       "lpToken": true
     },
     "rewardToken": {
       "symbol": "COC",
       "address": {
-        "1": "",
-        "56": "0xbDC3b3639f7AA19e623A4d603A3Fb7Ab20115A91",
-        "97": "",
-        "137": ""
+        "56": "0xbDC3b3639f7AA19e623A4d603A3Fb7Ab20115A91"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "lpTokens": {
       "token": {
         "symbol": "COC",
         "address": {
-          "1": "",
-          "56": "0xbDC3b3639f7AA19e623A4d603A3Fb7Ab20115A91",
-          "97": "",
-          "137": ""
+          "56": "0xbDC3b3639f7AA19e623A4d603A3Fb7Ab20115A91"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18,
+          "97": 18,
+          "137": 18
+        },
         "active": true
       },
       "quoteToken": {
         "symbol": "BNB",
         "address": {
-          "1": "",
           "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
           "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
           "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18,
+          "97": 18,
+          "137": 18,
+          "80001": 18
+        },
         "active": true
       }
     },
     "contractAddress": {
-      "1": "",
-      "56": "0xf4195c4ddb10db3df27816bb70dc342d861a7561",
-      "97": "0xb1108939748A635C5ed982a17FF5C6E7D79ECF62",
-      "137": ""
+      "56": "0xf4195c4ddb10db3df27816bb70dc342d861a7561"
     },
     "projectLink": "https://www.coinofchampions.com/",
     "twitter": "https://twitter.com/coinofchampions",
@@ -347,12 +361,13 @@
     "stakingToken": {
       "symbol": "WGICT-USDT",
       "address": {
-        "1": "",
-        "56": "0x4c64c44a6ed5f1fdce5263d9b512c2465ffe8256",
-        "97": "",
-        "137": ""
+        "56": "0x4c64c44a6ed5f1fdce5263d9b512c2465ffe8256"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true,
       "lpToken": true
     },
@@ -360,42 +375,43 @@
       "token": {
         "symbol": "WGICT",
         "address": {
-          "1": "",
-          "56": "0x27B2D695eF01d10EE96582a23db201B0Aa338639",
-          "97": "",
-          "137": ""
+          "56": "0x27B2D695eF01d10EE96582a23db201B0Aa338639"
         },
-        "decimals": 8,
+        "decimals": {
+          "56": 8,
+          "97": 18,
+          "137": 18
+        },
         "active": true
       },
       "quoteToken": {
         "symbol": "USDT",
         "address": {
-          "1": "",
           "56": "0x55d398326f99059ff775485246999027b3197955",
-          "97": "",
           "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18,
+          "97": 18,
+          "137": 18
+        },
         "active": true
       }
     },
     "rewardToken": {
       "symbol": "WGICT",
       "address": {
-        "1": "",
-        "56": "0x27B2D695eF01d10EE96582a23db201B0Aa338639",
-        "97": "",
-        "137": ""
+        "56": "0x27B2D695eF01d10EE96582a23db201B0Aa338639"
       },
-      "decimals": 8,
+      "decimals": {
+        "56": 8,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "contractAddress": {
-      "1": "",
-      "56": "0xe4417357b022224736ca845856917aaae912c0bd",
-      "97": "0xb1108939748A635C5ed982a17FF5C6E7D79ECF62",
-      "137": ""
+      "56": "0xe4417357b022224736ca845856917aaae912c0bd"
     },
     "projectLink": "https://gictrade.io/",
     "twitter": "https://twitter.com/GICTraders/ ",
@@ -415,55 +431,56 @@
     "stakingToken": {
       "symbol": "NFT11-BUSD",
       "address": {
-        "1": "",
-        "56": "0xEf0A90fb728195F63C911f52ab4bde331089319f",
-        "97": "",
-        "137": ""
+        "56": "0xEf0A90fb728195F63C911f52ab4bde331089319f"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true,
       "lpToken": true
     },
     "rewardToken": {
       "symbol": "NFT11",
       "address": {
-        "1": "",
-        "56": "0x73F67AE7f934FF15beaBf55A28C2Da1eEb9B56Ec",
-        "97": "",
-        "137": ""
+        "56": "0x73F67AE7f934FF15beaBf55A28C2Da1eEb9B56Ec"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "lpTokens": {
       "token": {
         "symbol": "NFT11",
         "address": {
-          "1": "",
-          "56": "0x73F67AE7f934FF15beaBf55A28C2Da1eEb9B56Ec",
-          "97": "",
-          "137": ""
+          "56": "0x73F67AE7f934FF15beaBf55A28C2Da1eEb9B56Ec"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18,
+          "97": 18,
+          "137": 18
+        },
         "active": true
       },
       "quoteToken": {
         "symbol": "BUSD",
         "address": {
-          "1": "",
           "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-          "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-          "137": ""
+          "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18,
+          "97": 18
+        },
         "active": true
       }
     },
     "contractAddress": {
-      "1": "",
-      "56": "0x420B9baD20d43D561377615325E60d5B7CdB1B35",
-      "97": "0xb1108939748A635C5ed982a17FF5C6E7D79ECF62",
-      "137": ""
+      "56": "0x420B9baD20d43D561377615325E60d5B7CdB1B35"
     },
     "projectLink": "https://nft11.io/",
     "twitter": "https://twitter.com/NFT11_Official",
@@ -483,55 +500,59 @@
     "stakingToken": {
       "symbol": "RUBY-BNB",
       "address": {
-        "1": "",
-        "56": "0xec9f5a5e4690fa14025971f0d2dd91f5600e24c7",
-        "97": "",
-        "137": ""
+        "56": "0xec9f5a5e4690fa14025971f0d2dd91f5600e24c7"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true,
       "lpToken": true
     },
     "rewardToken": {
       "symbol": "RUBY",
       "address": {
-        "1": "",
-        "56": "0xf7722aa0714096f1fb5ef83e6041cebb4d58a08e",
-        "97": "",
-        "137": ""
+        "56": "0xf7722aa0714096f1fb5ef83e6041cebb4d58a08e"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "lpTokens": {
       "token": {
         "symbol": "RUBY",
         "address": {
-          "1": "",
-          "56": "0xf7722aa0714096f1fb5ef83e6041cebb4d58a08e",
-          "97": "",
-          "137": ""
+          "56": "0xf7722aa0714096f1fb5ef83e6041cebb4d58a08e"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18,
+          "97": 18,
+          "137": 18
+        },
         "active": true
       },
       "quoteToken": {
         "symbol": "BNB",
         "address": {
-          "1": "",
           "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
           "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
           "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18,
+          "97": 18,
+          "137": 18,
+          "80001": 18
+        },
         "active": true
       }
     },
     "contractAddress": {
-      "1": "",
-      "56": "0xbc3f5571fc3338d0b9216a2c5c2e6f338531e3f8",
-      "97": "0xb1108939748A635C5ed982a17FF5C6E7D79ECF62",
-      "137": ""
+      "56": "0xbc3f5571fc3338d0b9216a2c5c2e6f338531e3f8"
     },
     "projectLink": "https://www.rubyplaynet.com/",
     "harvest": true,
@@ -550,55 +571,56 @@
     "stakingToken": {
       "symbol": "DRF-BUSD",
       "address": {
-        "1": "",
-        "56": "0x5FFc5b392Fcc33357c6a8240bda1C9374A55E6B8",
-        "97": "",
-        "137": ""
+        "56": "0x5FFc5b392Fcc33357c6a8240bda1C9374A55E6B8"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true,
       "lpToken": true
     },
     "rewardToken": {
       "symbol": "DRF",
       "address": {
-        "1": "",
-        "56": "0x89C1Af791d7B4cf046Dca8Fa10a41Dd2298A6a3F",
-        "97": "",
-        "137": ""
+        "56": "0x89C1Af791d7B4cf046Dca8Fa10a41Dd2298A6a3F"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "lpTokens": {
       "token": {
         "symbol": "DRF",
         "address": {
-          "1": "",
-          "56": "0x89C1Af791d7B4cf046Dca8Fa10a41Dd2298A6a3F",
-          "97": "",
-          "137": ""
+          "56": "0x89C1Af791d7B4cf046Dca8Fa10a41Dd2298A6a3F"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18,
+          "97": 18,
+          "137": 18
+        },
         "active": true
       },
       "quoteToken": {
         "symbol": "BUSD",
         "address": {
-          "1": "",
           "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-          "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-          "137": ""
+          "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18,
+          "97": 18
+        },
         "active": true
       }
     },
     "contractAddress": {
-      "1": "",
-      "56": "0xc8519d981a99c9a56364895c6d37eea686d70540",
-      "97": "0xb1108939748A635C5ed982a17FF5C6E7D79ECF62",
-      "137": ""
+      "56": "0xc8519d981a99c9a56364895c6d37eea686d70540"
     },
     "projectLink": "https://derify.finance/",
     "twitter": "https://twitter.com/DerifyProtocol",
@@ -618,55 +640,59 @@
     "stakingToken": {
       "symbol": "BONES-BNB",
       "address": {
-        "1": "",
-        "56": "0xe0900Db57d81DE4E6a13e90eb836Fa91Be50515A",
-        "97": "",
-        "137": ""
+        "56": "0xe0900Db57d81DE4E6a13e90eb836Fa91Be50515A"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true,
       "lpToken": true
     },
     "rewardToken": {
       "symbol": "BONES",
       "address": {
-        "1": "",
-        "56": "0x08426874d46f90e5E527604fA5E3e30486770Eb3",
-        "97": "",
-        "137": ""
+        "56": "0x08426874d46f90e5E527604fA5E3e30486770Eb3"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "lpTokens": {
       "token": {
         "symbol": "BONES",
         "address": {
-          "1": "",
-          "56": "0x08426874d46f90e5E527604fA5E3e30486770Eb3",
-          "97": "",
-          "137": ""
+          "56": "0x08426874d46f90e5E527604fA5E3e30486770Eb3"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18,
+          "97": 18,
+          "137": 18
+        },
         "active": true
       },
       "quoteToken": {
         "symbol": "BNB",
         "address": {
-          "1": "",
           "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
           "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
           "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18,
+          "97": 18,
+          "137": 18,
+          "80001": 18
+        },
         "active": true
       }
     },
     "contractAddress": {
-      "1": "",
-      "56": "0x84291c0e6b19cc833afc491561aacfbdd6885d63",
-      "97": "0xb1108939748A635C5ed982a17FF5C6E7D79ECF62",
-      "137": ""
+      "56": "0x84291c0e6b19cc833afc491561aacfbdd6885d63"
     },
     "projectLink": "https://moonshots.farm/",
     "twitter": "https://twitter.com/MoonshotsFarm",
@@ -686,55 +712,60 @@
     "stakingToken": {
       "symbol": "GENv3-BNB",
       "address": {
-        "1": "",
-        "56": "0xCfa1d8afFA4da8e6CaBE6fde66DDf4eDA89f0e42",
-        "97": "",
-        "137": ""
+        "56": "0xCfa1d8afFA4da8e6CaBE6fde66DDf4eDA89f0e42"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true,
       "lpToken": true
     },
     "rewardToken": {
       "symbol": "GENv3",
       "address": {
-        "1": "",
-        "56": "0x98a61CA1504b92Ae768eF20b85aa97030b7a1Edf",
-        "97": "",
-        "137": ""
+        "56": "0x98a61CA1504b92Ae768eF20b85aa97030b7a1Edf"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "lpTokens": {
       "token": {
         "symbol": "GENv3",
         "address": {
-          "1": "",
-          "56": "0x98a61CA1504b92Ae768eF20b85aa97030b7a1Edf",
-          "97": "",
-          "137": ""
+          "56": "0x98a61CA1504b92Ae768eF20b85aa97030b7a1Edf"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18,
+          "97": 18,
+          "137": 18
+        },
         "active": true
       },
       "quoteToken": {
         "symbol": "BNB",
         "address": {
-          "1": "",
           "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
           "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
           "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18,
+          "97": 18,
+          "137": 18,
+          "80001": 18
+        },
         "active": true
       }
     },
     "contractAddress": {
-      "1": "",
       "56": "0xc3a5dbb5121772628956b9ce709ec1dda6a94b4d",
-      "97": "0xb1108939748A635C5ed982a17FF5C6E7D79ECF62",
-      "137": ""
+      "97": "0xb1108939748A635C5ed982a17FF5C6E7D79ECF62"
     },
     "projectLink": "https://www.generic.money/",
     "twitter": "https://twitter.com/thegenericcoin",
@@ -754,55 +785,59 @@
     "stakingToken": {
       "symbol": "LC-BNB",
       "address": {
-        "1": "",
-        "56": "0xc5a69133432eF17CD15C501CAa5f9cF28C22aA00",
-        "97": "",
-        "137": ""
+        "56": "0xc5a69133432eF17CD15C501CAa5f9cF28C22aA00"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true,
       "lpToken": true
     },
     "rewardToken": {
       "symbol": "LC",
       "address": {
-        "1": "",
-        "56": "0x6012C3a742f92103d238F1c8306cF8fbcDEca8B3",
-        "97": "",
-        "137": ""
+        "56": "0x6012C3a742f92103d238F1c8306cF8fbcDEca8B3"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "lpTokens": {
       "token": {
         "symbol": "LC",
         "address": {
-          "1": "",
-          "56": "0x6012C3a742f92103d238F1c8306cF8fbcDEca8B3",
-          "97": "",
-          "137": ""
+          "56": "0x6012C3a742f92103d238F1c8306cF8fbcDEca8B3"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18,
+          "97": 18,
+          "137": 18
+        },
         "active": true
       },
       "quoteToken": {
         "symbol": "BNB",
         "address": {
-          "1": "",
           "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
           "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
           "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18,
+          "97": 18,
+          "137": 18,
+          "80001": 18
+        },
         "active": true
       }
     },
     "contractAddress": {
-      "1": "",
-      "56": "0x1e7133e05d1b4bdab44cb5503fa4a801000c963a",
-      "97": "0xb1108939748A635C5ed982a17FF5C6E7D79ECF62",
-      "137": ""
+      "56": "0x1e7133e05d1b4bdab44cb5503fa4a801000c963a"
     },
     "projectLink": "https://www.luckychip.io/",
     "twitter": "https://twitter.com/luckychip_io",
@@ -822,55 +857,60 @@
     "stakingToken": {
       "symbol": "GENv3-BNB",
       "address": {
-        "1": "",
-        "56": "0xCfa1d8afFA4da8e6CaBE6fde66DDf4eDA89f0e42",
-        "97": "",
-        "137": ""
+        "56": "0xCfa1d8afFA4da8e6CaBE6fde66DDf4eDA89f0e42"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true,
       "lpToken": true
     },
     "rewardToken": {
       "symbol": "GENv3",
       "address": {
-        "1": "",
-        "56": "0x98a61CA1504b92Ae768eF20b85aa97030b7a1Edf",
-        "97": "",
-        "137": ""
+        "56": "0x98a61CA1504b92Ae768eF20b85aa97030b7a1Edf"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
       "active": true
     },
     "lpTokens": {
       "token": {
         "symbol": "GENv3",
         "address": {
-          "1": "",
-          "56": "0x98a61CA1504b92Ae768eF20b85aa97030b7a1Edf",
-          "97": "",
-          "137": ""
+          "56": "0x98a61CA1504b92Ae768eF20b85aa97030b7a1Edf"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18,
+          "97": 18,
+          "137": 18
+        },
         "active": true
       },
       "quoteToken": {
         "symbol": "BNB",
         "address": {
-          "1": "",
           "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
           "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
           "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18,
+          "97": 18,
+          "137": 18,
+          "80001": 18
+        },
         "active": true
       }
     },
     "contractAddress": {
-      "1": "",
       "56": "0xe406371a7e43f992cb3bc70118f9664cd37e3489",
-      "97": "0xb1108939748A635C5ed982a17FF5C6E7D79ECF62",
-      "137": ""
+      "97": "0xb1108939748A635C5ed982a17FF5C6E7D79ECF62"
     },
     "projectLink": "https://www.generic.money/",
     "twitter": "https://twitter.com/thegenericcoin",

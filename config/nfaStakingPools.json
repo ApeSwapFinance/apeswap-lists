@@ -10,7 +10,13 @@
         "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
         "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
       },
-      "decimals": 18,
+      "decimals": {
+        "1": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "80001": 18
+      },
       "active": true
     },
     "contractAddress": {
@@ -32,7 +38,13 @@
         "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
         "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
       },
-      "decimals": 18,
+      "decimals": {
+        "1": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "80001": 18
+      },
       "active": true
     },
     "contractAddress": {
@@ -54,7 +66,13 @@
         "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
         "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
       },
-      "decimals": 18,
+      "decimals": {
+        "1": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "80001": 18
+      },
       "active": true
     },
     "contractAddress": {
@@ -76,7 +94,13 @@
         "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
         "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
       },
-      "decimals": 18,
+      "decimals": {
+        "1": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "80001": 18
+      },
       "active": true
     },
     "contractAddress": {
@@ -98,7 +122,13 @@
         "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
         "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
       },
-      "decimals": 18,
+      "decimals": {
+        "1": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "80001": 18
+      },
       "active": true
     },
     "contractAddress": {
