@@ -2065,6 +2065,18 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
   },
+  threeairBnb: {
+    symbol: '3AIR-BNB',
+    address: {
+      [ChainId.BSC]: '0xfdf84a54b35e06e4c3852ae35f10b7f38488204a',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+    lpToken: true,
+  },
   nftyBnb: {
     symbol: 'NFTY-BNB',
     address: {
