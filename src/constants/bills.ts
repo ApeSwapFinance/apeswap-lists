@@ -120,7 +120,7 @@ const bills: BillsConfig[] = [
   {
     index: 30,
     contractAddress: {
-      [ChainId.BSC]: '0x0bcc00698e147ea30b47a389cc0f569c1165e14d',
+      [ChainId.BSC]: '0xced994206cd4c364d7bda2b66b48fcaef9b6bb5b',
       [ChainId.MATIC]: '',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
