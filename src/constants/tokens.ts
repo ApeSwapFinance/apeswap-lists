@@ -2089,6 +2089,18 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
   },
+  nftyBusd: {
+    symbol: 'NFTY-BUSD',
+    address: {
+      [ChainId.BSC]: '0x3e2459cb96497d1f8f725aadde081f1e643c27d8',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+    lpToken: true,
+  },
   drfBusd: {
     symbol: 'DRF-BUSD',
     address: {
