@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillsConfig } from './types'
 
-// BNB Largest ID: 29
+// BNB Largest ID: 30
 // Polygon Largest ID: 102
 // Telos Largest ID: 205
 
@@ -118,26 +118,26 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/ape_swap',
   },
   {
-    index: 28,
+    index: 30,
     contractAddress: {
-      [ChainId.BSC]: '0x7fdb62f681d7aad8c08a1d6af350e2fb7f265336',
+      [ChainId.BSC]: '0x0bcc00698e147ea30b47a389cc0f569c1165e14d',
       [ChainId.MATIC]: '',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
     },
     billType: 'JUNGLE Bill',
-    token: tokens.gq,
+    token: tokens.nfty,
     quoteToken: tokens.busd,
-    lpToken: tokens.gqBusd,
-    earnToken: tokens.gq,
+    lpToken: tokens.nftyBusd,
+    earnToken: tokens.nfty,
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
       [ChainId.MATIC]: '',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
     },
-    projectLink: 'https://outerringmmo.com/',
-    twitter: 'https://twitter.com/OuterRingMMO',
+    projectLink: 'https://nftynetwork.io/',
+    twitter: 'https://twitter.com/NFTYLab',
   },
   {
     index: 29,
@@ -160,6 +160,28 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://3air.io/',
     twitter: 'https://twitter.com/3aircrypto',
+  },
+  {
+    index: 28,
+    contractAddress: {
+      [ChainId.BSC]: '0x7fdb62f681d7aad8c08a1d6af350e2fb7f265336',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    billType: 'JUNGLE Bill',
+    token: tokens.gq,
+    quoteToken: tokens.busd,
+    lpToken: tokens.gqBusd,
+    earnToken: tokens.gq,
+    billNnftAddress: {
+      [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    projectLink: 'https://outerringmmo.com/',
+    twitter: 'https://twitter.com/OuterRingMMO',
   },
   {
     index: 27,
@@ -447,6 +469,7 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://nftynetwork.io/',
     twitter: 'https://twitter.com/NFTYLab',
+    inactive: true,
   },
   {
     index: 7,
