@@ -198,7 +198,7 @@ export interface JungleFarmConfig {
   emergencyWithdraw?: boolean
   isEarnTokenLp?: boolean
   network: number
-  zapable?: boolean
+  unZapable?: boolean
   // Jungle farms have changed to per second vs per block
   rewardsPerSecond?: string
 }
