@@ -503,7 +503,8 @@
     "tokenDecimals": 18,
     "lpStaking": true,
     "isEarnTokenLp": false,
-    "network": 56
+    "network": 56,
+    "unZapable": true
   },
   {
     "jungleId": 9,
@@ -571,7 +572,8 @@
     "tokenDecimals": 18,
     "lpStaking": true,
     "isEarnTokenLp": false,
-    "network": 56
+    "network": 56,
+    "unZapable": true
   },
   {
     "jungleId": 10,
@@ -639,8 +641,7 @@
     "tokenDecimals": 4,
     "lpStaking": true,
     "isEarnTokenLp": false,
-    "network": 56,
-    "zapable": true
+    "network": 56
   },
   {
     "jungleId": 206,
@@ -708,7 +709,8 @@
     "tokenDecimals": 18,
     "lpStaking": true,
     "isEarnTokenLp": false,
-    "network": 56
+    "network": 56,
+    "unZapable": true
   },
   {
     "jungleId": 1,
@@ -776,7 +778,8 @@
     "tokenDecimals": 18,
     "lpStaking": true,
     "isEarnTokenLp": false,
-    "network": 56
+    "network": 56,
+    "unZapable": true
   },
   {
     "jungleId": 2,
@@ -845,7 +848,8 @@
     "tokenDecimals": 8,
     "lpStaking": true,
     "isEarnTokenLp": false,
-    "network": 56
+    "network": 56,
+    "unZapable": true
   },
   {
     "jungleId": 3,
@@ -913,7 +917,8 @@
     "tokenDecimals": 18,
     "lpStaking": true,
     "isEarnTokenLp": false,
-    "network": 56
+    "network": 56,
+    "unZapable": true
   },
   {
     "jungleId": 4,
@@ -980,7 +985,8 @@
     "tokenDecimals": 12,
     "lpStaking": true,
     "isEarnTokenLp": false,
-    "network": 56
+    "network": 56,
+    "unZapable": true
   },
   {
     "jungleId": 5,
@@ -1048,7 +1054,8 @@
     "tokenDecimals": 18,
     "lpStaking": true,
     "isEarnTokenLp": false,
-    "network": 56
+    "network": 56,
+    "unZapable": true
   },
   {
     "jungleId": 6,
@@ -1116,7 +1123,8 @@
     "tokenDecimals": 18,
     "lpStaking": true,
     "isEarnTokenLp": false,
-    "network": 56
+    "network": 56,
+    "unZapable": true
   },
   {
     "jungleId": 7,
@@ -1184,7 +1192,8 @@
     "tokenDecimals": 18,
     "lpStaking": true,
     "isEarnTokenLp": false,
-    "network": 56
+    "network": 56,
+    "unZapable": true
   },
   {
     "jungleId": 0,
@@ -1252,7 +1261,8 @@
     "tokenDecimals": 18,
     "lpStaking": true,
     "isEarnTokenLp": false,
-    "network": 56
+    "network": 56,
+    "unZapable": true
   },
   {
     "jungleId": 11,
@@ -1320,8 +1330,7 @@
     "tokenDecimals": 18,
     "lpStaking": true,
     "isEarnTokenLp": false,
-    "network": 56,
-    "zapable": true
+    "network": 56
   },
   {
     "jungleId": 12,
@@ -1389,7 +1398,6 @@
     "tokenDecimals": 18,
     "lpStaking": true,
     "isEarnTokenLp": false,
-    "network": 56,
-    "zapable": true
+    "network": 56
   }
 ]
