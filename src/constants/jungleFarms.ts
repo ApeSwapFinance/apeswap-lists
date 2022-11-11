@@ -206,6 +206,7 @@ const jungleFarms: JungleFarmConfig[] = [
     lpStaking: true,
     isEarnTokenLp: false,
     network: ChainId.BSC,
+    unZapable: true,
   },
   {
     jungleId: 9,
@@ -233,6 +234,7 @@ const jungleFarms: JungleFarmConfig[] = [
     lpStaking: true,
     isEarnTokenLp: false,
     network: ChainId.BSC,
+    unZapable: true,
   },
   {
     jungleId: 10,
@@ -260,7 +262,6 @@ const jungleFarms: JungleFarmConfig[] = [
     lpStaking: true,
     isEarnTokenLp: false,
     network: ChainId.BSC,
-    zapable: true,
   },
   {
     jungleId: 206,
@@ -288,6 +289,7 @@ const jungleFarms: JungleFarmConfig[] = [
     lpStaking: true,
     isEarnTokenLp: false,
     network: ChainId.BSC,
+    unZapable: true,
   },
   {
     jungleId: 1,
@@ -315,6 +317,7 @@ const jungleFarms: JungleFarmConfig[] = [
     lpStaking: true,
     isEarnTokenLp: false,
     network: ChainId.BSC,
+    unZapable: true,
   },
   {
     jungleId: 2,
@@ -342,6 +345,7 @@ const jungleFarms: JungleFarmConfig[] = [
     lpStaking: true,
     isEarnTokenLp: false,
     network: ChainId.BSC,
+    unZapable: true,
   },
   {
     jungleId: 3,
@@ -369,6 +373,7 @@ const jungleFarms: JungleFarmConfig[] = [
     lpStaking: true,
     isEarnTokenLp: false,
     network: ChainId.BSC,
+    unZapable: true,
   },
   {
     jungleId: 4,
@@ -395,6 +400,7 @@ const jungleFarms: JungleFarmConfig[] = [
     lpStaking: true,
     isEarnTokenLp: false,
     network: ChainId.BSC,
+    unZapable: true,
   },
   {
     jungleId: 5,
@@ -422,6 +428,7 @@ const jungleFarms: JungleFarmConfig[] = [
     lpStaking: true,
     isEarnTokenLp: false,
     network: ChainId.BSC,
+    unZapable: true,
   },
   {
     jungleId: 6,
@@ -449,6 +456,7 @@ const jungleFarms: JungleFarmConfig[] = [
     lpStaking: true,
     isEarnTokenLp: false,
     network: ChainId.BSC,
+    unZapable: true,
   },
   {
     jungleId: 7,
@@ -476,6 +484,7 @@ const jungleFarms: JungleFarmConfig[] = [
     lpStaking: true,
     isEarnTokenLp: false,
     network: ChainId.BSC,
+    unZapable: true,
   },
   {
     jungleId: 0,
@@ -503,6 +512,7 @@ const jungleFarms: JungleFarmConfig[] = [
     lpStaking: true,
     isEarnTokenLp: false,
     network: ChainId.BSC,
+    unZapable: true,
   },
   {
     jungleId: 11,
@@ -530,7 +540,6 @@ const jungleFarms: JungleFarmConfig[] = [
     lpStaking: true,
     isEarnTokenLp: false,
     network: ChainId.BSC,
-    zapable: true,
   },
   {
     jungleId: 12,
@@ -558,7 +567,6 @@ const jungleFarms: JungleFarmConfig[] = [
     lpStaking: true,
     isEarnTokenLp: false,
     network: ChainId.BSC,
-    zapable: true,
   },
 ]
 

@@ -1848,6 +1848,17 @@ const tokens: Record<string, Token> = {
     decimals: 18,
     active: true,
   },
+  xcur: {
+    symbol: 'XCUR',
+    address: {
+      [ChainId.BSC]: '0xd52669712f253CD6b2Fe8A8638F66ed726cb770C',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 8,
+    active: true,
+  },
   axn: {
     symbol: 'AXN',
     address: {
@@ -2093,6 +2104,18 @@ const tokens: Record<string, Token> = {
     symbol: 'NFTY-BUSD',
     address: {
       [ChainId.BSC]: '0x3e2459cb96497d1f8f725aadde081f1e643c27d8',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+    lpToken: true,
+  },
+  xcurBusd: {
+    symbol: 'XCUR-BUSD',
+    address: {
+      [ChainId.BSC]: '0xe55Da30A0BBb8d26Cc0a3AECE1F7a2d432276f84',
       [ChainId.MATIC]: '',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',

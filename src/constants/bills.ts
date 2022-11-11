@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillsConfig } from './types'
 
-// BNB Largest ID: 30
+// BNB Largest ID: 31
 // Polygon Largest ID: 102
 // Telos Largest ID: 205
 
@@ -116,6 +116,28 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
+  },
+  {
+    index: 31,
+    contractAddress: {
+      [ChainId.BSC]: '0x63571f457f246124c6968579E8797B91613dED20',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    billType: 'JUNGLE Bill',
+    token: tokens.xcur,
+    quoteToken: tokens.busd,
+    lpToken: tokens.xcurBusd,
+    earnToken: tokens.xcur,
+    billNnftAddress: {
+      [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    projectLink: 'https://web.curate.style/',
+    twitter: 'https://twitter.com/curateproject',
   },
   {
     index: 30,

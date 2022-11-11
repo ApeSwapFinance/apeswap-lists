@@ -324,6 +324,69 @@
     "twitter": "https://twitter.com/ape_swap"
   },
   {
+    "index": 31,
+    "contractAddress": {
+      "1": "",
+      "56": "0x63571f457f246124c6968579E8797B91613dED20",
+      "97": "",
+      "137": ""
+    },
+    "billType": "JUNGLE Bill",
+    "token": {
+      "symbol": "XCUR",
+      "address": {
+        "1": "",
+        "56": "0xd52669712f253CD6b2Fe8A8638F66ed726cb770C",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 8,
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BUSD",
+      "address": {
+        "1": "",
+        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "XCUR-BUSD",
+      "address": {
+        "1": "",
+        "56": "0xe55Da30A0BBb8d26Cc0a3AECE1F7a2d432276f84",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "XCUR",
+      "address": {
+        "1": "",
+        "56": "0xd52669712f253CD6b2Fe8A8638F66ed726cb770C",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 8,
+      "active": true
+    },
+    "billNnftAddress": {
+      "1": "",
+      "56": "0x7fd203888661d1f0ae625ed599909f8f97698670",
+      "97": "",
+      "137": ""
+    },
+    "projectLink": "https://web.curate.style/",
+    "twitter": "https://twitter.com/curateproject"
+  },
+  {
     "index": 30,
     "contractAddress": {
       "1": "",
