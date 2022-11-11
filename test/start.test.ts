@@ -9,9 +9,11 @@ import {
   nfaStakingPools,
   iaos,
   zapInputTokens,
+  farmsV2,
 } from '../src/constants'
 import billsJson from '../config/bills.json'
 import farmsJson from '../config/farms.json'
+import farmsV2Json from '../config/farmsV2.json'
 import jungleFarmsJson from '../config/jungleFarms.json'
 import poolsJson from '../config/pools.json'
 import tokensJson from '../config/tokens.json'
@@ -26,6 +28,9 @@ const stringifiedBillsJson = JSON.stringify(billsJson, null, 2)
 
 const stringifiedFarms = JSON.stringify(farms, null, 2)
 const stringifiedFarmsJson = JSON.stringify(farmsJson, null, 2)
+
+const stringifiedFarmsV2 = JSON.stringify(farmsV2, null, 2)
+const stringifiedFarmsV2Json = JSON.stringify(farmsV2Json, null, 2)
 
 const stringifiedJungleFarms = JSON.stringify(pools, null, 2)
 const stringifiedJungleFarmsJson = JSON.stringify(poolsJson, null, 2)
@@ -57,6 +62,9 @@ describe('JSON files are most recent and are correct', () => {
   })
   it('Test if farms have been generated', () => {
     expect(stringifiedFarmsJson).toBe(stringifiedFarms)
+  })
+  it('Test if farmsV2 have been generated', () => {
+    expect(stringifiedFarmsV2Json).toBe(stringifiedFarmsV2)
   })
   it('Test if jungle farms have been generated', () => {
     expect(stringifiedJungleFarmsJson).toBe(stringifiedJungleFarms)

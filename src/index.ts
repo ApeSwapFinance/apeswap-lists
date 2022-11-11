@@ -11,6 +11,7 @@ import {
   nfaStakingPools,
   iaos,
   zapInputTokens,
+  farmsV2,
 } from './constants'
 
 const listMap: [any, string][] = [
@@ -23,6 +24,7 @@ const listMap: [any, string][] = [
   [nfaStakingPools, 'nfaStakingPools'],
   [iaos, 'iaos'],
   [zapInputTokens, 'zapInputTokens'],
+  [farmsV2, 'farmsV2'],
 ]
 
 const buildList = (list: any, listName: string) => {
@@ -44,9 +46,9 @@ const buildTokens = () => {
   })
 }
 
+buildTokens()
+
 listMap.map((curList) => {
   const [list, listName] = curList
   buildList(list, listName)
 })
-
-buildTokens()
