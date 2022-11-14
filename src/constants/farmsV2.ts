@@ -7,13 +7,13 @@ const farmsV2: FarmConfig[] = [
     pid: 0,
     lpSymbol: tokens.bananaBusd.symbol,
     lpAddresses: {
-      [ChainId.BSC_TESTNET]: tokens.bananaBusd.address[ChainId.BSC],
-      [ChainId.BSC]: '',
+      [ChainId.BSC]: tokens.bananaBusd.address[ChainId.BSC],
+      [ChainId.BSC_TESTNET]: '',
     },
     tokenSymbol: tokens.banana.symbol,
     tokenAddresses: {
-      [ChainId.BSC_TESTNET]: '',
       [ChainId.BSC]: tokens.banana.address[ChainId.BSC],
+      [ChainId.BSC_TESTNET]: '',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: tokens.busd.address,
@@ -22,13 +22,13 @@ const farmsV2: FarmConfig[] = [
     pid: 1,
     lpSymbol: tokens.bnbBusd.symbol,
     lpAddresses: {
-      [ChainId.BSC_TESTNET]: '',
       [ChainId.BSC]: tokens.bnbBusd.address[ChainId.BSC],
+      [ChainId.BSC_TESTNET]: '',
     },
     tokenSymbol: tokens.wbnb.symbol,
     tokenAddresses: {
-      [ChainId.BSC_TESTNET]: '',
       [ChainId.BSC]: tokens.wbnb.address[ChainId.BSC],
+      [ChainId.BSC_TESTNET]: '',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: tokens.busd.address,
