@@ -2,15 +2,15 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillsConfig } from './types'
 
-// BNB Largest ID: 31
+// BNB Largest ID: 36
 // Polygon Largest ID: 102
 // Telos Largest ID: 205
 
 const bills: BillsConfig[] = [
   {
-    index: 13,
+    index: 32,
     contractAddress: {
-      [ChainId.BSC]: '0xE325439439D692DC858Ba887601999D57d35688F',
+      [ChainId.BSC]: '0xa45dc4b9743d489e9b91070b27e72094b697632d',
       [ChainId.MATIC]: '',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
@@ -30,9 +30,9 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/ape_swap',
   },
   {
-    index: 14,
+    index: 33,
     contractAddress: {
-      [ChainId.BSC]: '0xf297F71f4664cF7F1Cd5d90720967998A1163cC3',
+      [ChainId.BSC]: '0x3a4de56b96d5befd0c9f3fb214372699f2d58947',
       [ChainId.MATIC]: '',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
@@ -52,9 +52,9 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/ape_swap',
   },
   {
-    index: 15,
+    index: 34,
     contractAddress: {
-      [ChainId.BSC]: '0x937A30Fd88f48B23DeABf4fD43c42cc9d3f3F9Dd',
+      [ChainId.BSC]: '0xb0992d86e7d4de0200c463e6451cce1f2775903b',
       [ChainId.MATIC]: '',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
@@ -74,9 +74,9 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/ape_swap',
   },
   {
-    index: 16,
+    index: 35,
     contractAddress: {
-      [ChainId.BSC]: '0x2D375a67366eDFB92F520aE428E8E08451D638d2',
+      [ChainId.BSC]: '0x08dd5a43e5fc889f2100023f8296e14d9fd40064',
       [ChainId.MATIC]: '',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
@@ -96,9 +96,9 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/ape_swap',
   },
   {
-    index: 17,
+    index: 36,
     contractAddress: {
-      [ChainId.BSC]: '0x44921f493887ab8a8b9db54db335f65c1ef8d51a',
+      [ChainId.BSC]: '0x069002be4ec72333a3fa8a5730e8b84680a190a4',
       [ChainId.MATIC]: '',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
@@ -117,6 +117,9 @@ const bills: BillsConfig[] = [
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
   },
+
+  //
+
   {
     index: 31,
     contractAddress: {
@@ -604,6 +607,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
   },
+  // Old BANANA Bills
   {
     index: 0,
     contractAddress: {
@@ -716,6 +720,116 @@ const bills: BillsConfig[] = [
       [ChainId.BSC_TESTNET]: '',
     },
     inactive: true,
+    projectLink: 'https://apeswap.finance/',
+    twitter: 'https://twitter.com/ape_swap',
+  },
+  {
+    index: 13,
+    contractAddress: {
+      [ChainId.BSC]: '0xE325439439D692DC858Ba887601999D57d35688F',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    billType: 'BANANA Bill',
+    token: tokens.banana,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.bananaBnb,
+    earnToken: tokens.banana,
+    billNnftAddress: {
+      [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    projectLink: 'https://apeswap.finance/',
+    twitter: 'https://twitter.com/ape_swap',
+  },
+  {
+    index: 14,
+    contractAddress: {
+      [ChainId.BSC]: '0xf297F71f4664cF7F1Cd5d90720967998A1163cC3',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    billType: 'BANANA Bill',
+    token: tokens.busd,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.bnbBusd,
+    earnToken: tokens.banana,
+    billNnftAddress: {
+      [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    projectLink: 'https://apeswap.finance/',
+    twitter: 'https://twitter.com/ape_swap',
+  },
+  {
+    index: 15,
+    contractAddress: {
+      [ChainId.BSC]: '0x937A30Fd88f48B23DeABf4fD43c42cc9d3f3F9Dd',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    billType: 'BANANA Bill',
+    token: tokens.busd,
+    quoteToken: tokens.usdc,
+    lpToken: tokens.usdcBusd,
+    earnToken: tokens.banana,
+    billNnftAddress: {
+      [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    projectLink: 'https://apeswap.finance/',
+    twitter: 'https://twitter.com/ape_swap',
+  },
+  {
+    index: 16,
+    contractAddress: {
+      [ChainId.BSC]: '0x2D375a67366eDFB92F520aE428E8E08451D638d2',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    billType: 'BANANA Bill',
+    token: tokens.eth,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.bnbEth,
+    earnToken: tokens.banana,
+    billNnftAddress: {
+      [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    projectLink: 'https://apeswap.finance/',
+    twitter: 'https://twitter.com/ape_swap',
+  },
+  {
+    index: 17,
+    contractAddress: {
+      [ChainId.BSC]: '0x44921f493887ab8a8b9db54db335f65c1ef8d51a',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    billType: 'BANANA Bill',
+    token: tokens.btc,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.bnbBtc,
+    earnToken: tokens.banana,
+    billNnftAddress: {
+      [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
   },
