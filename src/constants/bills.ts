@@ -764,6 +764,7 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
+    inactive: true,
   },
   {
     index: 14,
@@ -786,6 +787,7 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
+    inactive: true,
   },
   {
     index: 15,
@@ -808,6 +810,7 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
+    inactive: true,
   },
   {
     index: 16,
@@ -830,6 +833,7 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
+    inactive: true,
   },
   {
     index: 17,
@@ -852,6 +856,7 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
+    inactive: true,
   },
 
   /*
