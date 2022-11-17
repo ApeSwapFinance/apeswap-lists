@@ -324,6 +324,69 @@
     "twitter": "https://twitter.com/ape_swap"
   },
   {
+    "index": 37,
+    "contractAddress": {
+      "1": "",
+      "56": "0x2e9bdb018850747dc557d13046b8259ab24c674a",
+      "97": "",
+      "137": ""
+    },
+    "billType": "JUNGLE Bill",
+    "token": {
+      "symbol": "RADAR",
+      "address": {
+        "1": "",
+        "56": "0x489580eB70a50515296eF31E8179fF3e77E24965",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "1": "",
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "RADAR-BNB",
+      "address": {
+        "1": "",
+        "56": "0xe6fF591f818664865eCab584B1fe679DbB4904dB",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "RADAR",
+      "address": {
+        "1": "",
+        "56": "0x489580eB70a50515296eF31E8179fF3e77E24965",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "billNnftAddress": {
+      "1": "",
+      "56": "0x7FD203888661d1F0AE625eD599909f8F97698670",
+      "97": "",
+      "137": ""
+    },
+    "projectLink": "https://dappradar.com/",
+    "twitter": "https://twitter.com/DappRadar/"
+  },
+  {
     "index": 31,
     "contractAddress": {
       "1": "",
@@ -1268,7 +1331,8 @@
       "137": ""
     },
     "projectLink": "https://dappradar.com/",
-    "twitter": "https://twitter.com/DappRadar/"
+    "twitter": "https://twitter.com/DappRadar/",
+    "inactive": true
   },
   {
     "index": 5,
@@ -2109,7 +2173,8 @@
       "137": ""
     },
     "projectLink": "https://apeswap.finance/",
-    "twitter": "https://twitter.com/ape_swap"
+    "twitter": "https://twitter.com/ape_swap",
+    "inactive": true
   },
   {
     "index": 14,
@@ -2173,7 +2238,8 @@
       "137": ""
     },
     "projectLink": "https://apeswap.finance/",
-    "twitter": "https://twitter.com/ape_swap"
+    "twitter": "https://twitter.com/ape_swap",
+    "inactive": true
   },
   {
     "index": 15,
@@ -2238,7 +2304,8 @@
       "137": ""
     },
     "projectLink": "https://apeswap.finance/",
-    "twitter": "https://twitter.com/ape_swap"
+    "twitter": "https://twitter.com/ape_swap",
+    "inactive": true
   },
   {
     "index": 16,
@@ -2303,7 +2370,8 @@
       "137": ""
     },
     "projectLink": "https://apeswap.finance/",
-    "twitter": "https://twitter.com/ape_swap"
+    "twitter": "https://twitter.com/ape_swap",
+    "inactive": true
   },
   {
     "index": 17,
@@ -2368,7 +2436,8 @@
       "137": ""
     },
     "projectLink": "https://apeswap.finance/",
-    "twitter": "https://twitter.com/ape_swap"
+    "twitter": "https://twitter.com/ape_swap",
+    "inactive": true
   },
   {
     "index": 100,
