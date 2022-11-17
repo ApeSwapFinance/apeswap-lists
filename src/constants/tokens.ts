@@ -111,7 +111,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
       [ChainId.BSC_TESTNET]: 18,
       [ChainId.MATIC]: 18,
-      [ChainId.TLOS]: 18,
+      [ChainId.TLOS]: 8,
     },
     active: true,
   },
@@ -145,7 +145,7 @@ const tokens: Record<string, Token> = {
     decimals: {
       [ChainId.BSC]: 18,
       [ChainId.MATIC]: 6,
-      [ChainId.TLOS]: 18,
+      [ChainId.TLOS]: 6,
     },
     active: true,
   },

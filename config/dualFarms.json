@@ -299,7 +299,7 @@
           "137": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6"
         },
         "decimals": {
-          "40": 18,
+          "40": 8,
           "56": 18,
           "97": 18,
           "137": 18
@@ -355,7 +355,7 @@
           "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174"
         },
         "decimals": {
-          "40": 18,
+          "40": 6,
           "56": 18,
           "137": 6
         },
@@ -680,7 +680,7 @@
           "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174"
         },
         "decimals": {
-          "40": 18,
+          "40": 6,
           "56": 18,
           "137": 6
         },
@@ -920,6 +920,20 @@
     "stakeTokenAddress": "0x81A3F6a138F0B12eCBDCE4583972A6CA57514dBd",
     "rewarderAddress": "0xDB25C31f864Ac2Ae43236D4639EC9056B0971736",
     "stakeTokens": {
+      "token0": {
+        "symbol": "USDC",
+        "address": {
+          "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
+          "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+          "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174"
+        },
+        "decimals": {
+          "40": 6,
+          "56": 18,
+          "137": 6
+        },
+        "active": true
+      },
       "token1": {
         "symbol": "AXN",
         "address": {
