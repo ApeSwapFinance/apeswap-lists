@@ -387,69 +387,6 @@
     "twitter": "https://twitter.com/DappRadar/"
   },
   {
-    "index": 31,
-    "contractAddress": {
-      "1": "",
-      "56": "0x63571f457f246124c6968579E8797B91613dED20",
-      "97": "",
-      "137": ""
-    },
-    "billType": "JUNGLE Bill",
-    "token": {
-      "symbol": "XCUR",
-      "address": {
-        "1": "",
-        "56": "0xd52669712f253CD6b2Fe8A8638F66ed726cb770C",
-        "97": "",
-        "137": ""
-      },
-      "decimals": 8,
-      "active": true
-    },
-    "quoteToken": {
-      "symbol": "BUSD",
-      "address": {
-        "1": "",
-        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-        "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-        "137": ""
-      },
-      "decimals": 18,
-      "active": true
-    },
-    "lpToken": {
-      "symbol": "XCUR-BUSD",
-      "address": {
-        "1": "",
-        "56": "0xe55Da30A0BBb8d26Cc0a3AECE1F7a2d432276f84",
-        "97": "",
-        "137": ""
-      },
-      "decimals": 18,
-      "active": true,
-      "lpToken": true
-    },
-    "earnToken": {
-      "symbol": "XCUR",
-      "address": {
-        "1": "",
-        "56": "0xd52669712f253CD6b2Fe8A8638F66ed726cb770C",
-        "97": "",
-        "137": ""
-      },
-      "decimals": 8,
-      "active": true
-    },
-    "billNnftAddress": {
-      "1": "",
-      "56": "0x7fd203888661d1f0ae625ed599909f8f97698670",
-      "97": "",
-      "137": ""
-    },
-    "projectLink": "https://web.curate.style/",
-    "twitter": "https://twitter.com/curateproject"
-  },
-  {
     "index": 30,
     "contractAddress": {
       "1": "",
@@ -576,69 +513,6 @@
     "twitter": "https://twitter.com/3aircrypto"
   },
   {
-    "index": 28,
-    "contractAddress": {
-      "1": "",
-      "56": "0x7fdb62f681d7aad8c08a1d6af350e2fb7f265336",
-      "97": "",
-      "137": ""
-    },
-    "billType": "JUNGLE Bill",
-    "token": {
-      "symbol": "GQ",
-      "address": {
-        "1": "",
-        "56": "0xF700D4c708C2be1463E355F337603183D20E0808",
-        "97": "",
-        "137": ""
-      },
-      "decimals": 18,
-      "active": true
-    },
-    "quoteToken": {
-      "symbol": "BUSD",
-      "address": {
-        "1": "",
-        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-        "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-        "137": ""
-      },
-      "decimals": 18,
-      "active": true
-    },
-    "lpToken": {
-      "symbol": "GQ-BUSD",
-      "address": {
-        "1": "",
-        "56": "0xcC3A3Bc1d76Df321f94716E88224638C439267aa",
-        "97": "",
-        "137": ""
-      },
-      "decimals": 18,
-      "active": true,
-      "lpToken": true
-    },
-    "earnToken": {
-      "symbol": "GQ",
-      "address": {
-        "1": "",
-        "56": "0xF700D4c708C2be1463E355F337603183D20E0808",
-        "97": "",
-        "137": ""
-      },
-      "decimals": 18,
-      "active": true
-    },
-    "billNnftAddress": {
-      "1": "",
-      "56": "0x7fd203888661d1f0ae625ed599909f8f97698670",
-      "97": "",
-      "137": ""
-    },
-    "projectLink": "https://outerringmmo.com/",
-    "twitter": "https://twitter.com/OuterRingMMO"
-  },
-  {
     "index": 27,
     "contractAddress": {
       "1": "",
@@ -700,6 +574,258 @@
     },
     "projectLink": "https://www.coinofchampions.com/",
     "twitter": "https://twitter.com/coinofchampions"
+  },
+  {
+    "index": 22,
+    "contractAddress": {
+      "1": "",
+      "56": "0x7b1dfe9ca71ffeac5ed4d1beb592771e3672a2de",
+      "97": "",
+      "137": ""
+    },
+    "billType": "JUNGLE Bill",
+    "token": {
+      "symbol": "CHRP",
+      "address": {
+        "1": "",
+        "56": "0xeD00Fc7D48B57B81FE65D1cE71c0985e4CF442CB",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "1": "",
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "CHRP-BNB",
+      "address": {
+        "1": "",
+        "56": "0xcD10d0173651d1B3bd027DEcDBA007998bb03eaf",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "CHRP",
+      "address": {
+        "1": "",
+        "56": "0xeD00Fc7D48B57B81FE65D1cE71c0985e4CF442CB",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "billNnftAddress": {
+      "1": "",
+      "56": "0x7fd203888661d1f0ae625ed599909f8f97698670",
+      "97": "",
+      "137": ""
+    },
+    "projectLink": "https://chirpley.ai",
+    "twitter": "https://twitter.com/chirpley"
+  },
+  {
+    "index": 20,
+    "contractAddress": {
+      "1": "",
+      "56": "0xb646c4a51365598433ba4765b890ad3075e4e21e",
+      "97": "",
+      "137": ""
+    },
+    "billType": "JUNGLE Bill",
+    "token": {
+      "symbol": "GMR",
+      "address": {
+        "1": "",
+        "56": "0xADCa52302e0a6c2d5D68EDCdB4Ac75DeB5466884",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "1": "",
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "GMR-BNB",
+      "address": {
+        "1": "",
+        "56": "0x5ff97410ff9bdb715b7b283828796dd0ad7a884a",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "GMR",
+      "address": {
+        "1": "",
+        "56": "0xADCa52302e0a6c2d5D68EDCdB4Ac75DeB5466884",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "billNnftAddress": {
+      "1": "",
+      "56": "0x7fd203888661d1f0ae625ed599909f8f97698670",
+      "97": "",
+      "137": ""
+    },
+    "projectLink": "https://gmr.center/",
+    "twitter": "https://twitter.com/GMRCenter"
+  },
+  {
+    "index": 31,
+    "contractAddress": {
+      "1": "",
+      "56": "0x63571f457f246124c6968579E8797B91613dED20",
+      "97": "",
+      "137": ""
+    },
+    "billType": "JUNGLE Bill",
+    "token": {
+      "symbol": "XCUR",
+      "address": {
+        "1": "",
+        "56": "0xd52669712f253CD6b2Fe8A8638F66ed726cb770C",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 8,
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BUSD",
+      "address": {
+        "1": "",
+        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "XCUR-BUSD",
+      "address": {
+        "1": "",
+        "56": "0xe55Da30A0BBb8d26Cc0a3AECE1F7a2d432276f84",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "XCUR",
+      "address": {
+        "1": "",
+        "56": "0xd52669712f253CD6b2Fe8A8638F66ed726cb770C",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 8,
+      "active": true
+    },
+    "billNnftAddress": {
+      "1": "",
+      "56": "0x7fd203888661d1f0ae625ed599909f8f97698670",
+      "97": "",
+      "137": ""
+    },
+    "projectLink": "https://web.curate.style/",
+    "twitter": "https://twitter.com/curateproject"
+  },
+  {
+    "index": 28,
+    "contractAddress": {
+      "1": "",
+      "56": "0x7fdb62f681d7aad8c08a1d6af350e2fb7f265336",
+      "97": "",
+      "137": ""
+    },
+    "billType": "JUNGLE Bill",
+    "token": {
+      "symbol": "GQ",
+      "address": {
+        "1": "",
+        "56": "0xF700D4c708C2be1463E355F337603183D20E0808",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BUSD",
+      "address": {
+        "1": "",
+        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "GQ-BUSD",
+      "address": {
+        "1": "",
+        "56": "0xcC3A3Bc1d76Df321f94716E88224638C439267aa",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "GQ",
+      "address": {
+        "1": "",
+        "56": "0xF700D4c708C2be1463E355F337603183D20E0808",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "billNnftAddress": {
+      "1": "",
+      "56": "0x7fd203888661d1f0ae625ed599909f8f97698670",
+      "97": "",
+      "137": ""
+    },
+    "projectLink": "https://outerringmmo.com/",
+    "twitter": "https://twitter.com/OuterRingMMO"
   },
   {
     "index": 26,
@@ -955,69 +1081,6 @@
     "twitter": "https://twitter.com/realfroyogames"
   },
   {
-    "index": 22,
-    "contractAddress": {
-      "1": "",
-      "56": "0x7b1dfe9ca71ffeac5ed4d1beb592771e3672a2de",
-      "97": "",
-      "137": ""
-    },
-    "billType": "JUNGLE Bill",
-    "token": {
-      "symbol": "CHRP",
-      "address": {
-        "1": "",
-        "56": "0xeD00Fc7D48B57B81FE65D1cE71c0985e4CF442CB",
-        "97": "",
-        "137": ""
-      },
-      "decimals": 18,
-      "active": true
-    },
-    "quoteToken": {
-      "symbol": "BNB",
-      "address": {
-        "1": "",
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
-      },
-      "decimals": 18,
-      "active": true
-    },
-    "lpToken": {
-      "symbol": "CHRP-BNB",
-      "address": {
-        "1": "",
-        "56": "0xcD10d0173651d1B3bd027DEcDBA007998bb03eaf",
-        "97": "",
-        "137": ""
-      },
-      "decimals": 18,
-      "active": true,
-      "lpToken": true
-    },
-    "earnToken": {
-      "symbol": "CHRP",
-      "address": {
-        "1": "",
-        "56": "0xeD00Fc7D48B57B81FE65D1cE71c0985e4CF442CB",
-        "97": "",
-        "137": ""
-      },
-      "decimals": 18,
-      "active": true
-    },
-    "billNnftAddress": {
-      "1": "",
-      "56": "0x7fd203888661d1f0ae625ed599909f8f97698670",
-      "97": "",
-      "137": ""
-    },
-    "projectLink": "https://chirpley.ai",
-    "twitter": "https://twitter.com/chirpley"
-  },
-  {
     "index": 21,
     "contractAddress": {
       "1": "",
@@ -1080,69 +1143,6 @@
     },
     "projectLink": "https://bolide.fi/",
     "twitter": "https://twitter.com/Bolide_fi"
-  },
-  {
-    "index": 20,
-    "contractAddress": {
-      "1": "",
-      "56": "0xb646c4a51365598433ba4765b890ad3075e4e21e",
-      "97": "",
-      "137": ""
-    },
-    "billType": "JUNGLE Bill",
-    "token": {
-      "symbol": "GMR",
-      "address": {
-        "1": "",
-        "56": "0xADCa52302e0a6c2d5D68EDCdB4Ac75DeB5466884",
-        "97": "",
-        "137": ""
-      },
-      "decimals": 18,
-      "active": true
-    },
-    "quoteToken": {
-      "symbol": "BNB",
-      "address": {
-        "1": "",
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
-      },
-      "decimals": 18,
-      "active": true
-    },
-    "lpToken": {
-      "symbol": "GMR-BNB",
-      "address": {
-        "1": "",
-        "56": "0x5ff97410ff9bdb715b7b283828796dd0ad7a884a",
-        "97": "",
-        "137": ""
-      },
-      "decimals": 18,
-      "active": true,
-      "lpToken": true
-    },
-    "earnToken": {
-      "symbol": "GMR",
-      "address": {
-        "1": "",
-        "56": "0xADCa52302e0a6c2d5D68EDCdB4Ac75DeB5466884",
-        "97": "",
-        "137": ""
-      },
-      "decimals": 18,
-      "active": true
-    },
-    "billNnftAddress": {
-      "1": "",
-      "56": "0x7fd203888661d1f0ae625ed599909f8f97698670",
-      "97": "",
-      "137": ""
-    },
-    "projectLink": "https://gmr.center/",
-    "twitter": "https://twitter.com/GMRCenter"
   },
   {
     "index": 19,
