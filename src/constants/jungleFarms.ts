@@ -5,8 +5,36 @@ import { ChainId } from '@ape.swap/sdk'
 const jungleFarms: JungleFarmConfig[] = [
   /*
     CHAIN ID 40 - TLOS Jungle Farms
-    Current Jungle ID = 6
+    Current Jungle ID = 8
   */
+  {
+    jungleId: 7,
+    tokenName: 'STLOS-USDC',
+    image: 'STLOS.svg',
+    stakingToken: tokens.stlosUsdc,
+    rewardToken: tokens.stlos,
+    lpTokens: {
+      token: tokens.stlos,
+      quoteToken: tokens.usdc,
+    },
+    contractAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+      [ChainId.TLOS]: '0x4c33A9cdBFC39DF0F17ec0d64170a23e3703E0a0',
+    },
+    projectLink: 'https://telos.net',
+    twitter: 'https://twitter.com/HelloTelos',
+    harvest: true,
+    rewardsPerSecond: '0.03649498457',
+    sortOrder: 1,
+    isFinished: false,
+    tokenDecimals: 18,
+    lpStaking: true,
+    isEarnTokenLp: false,
+    network: ChainId.TLOS,
+  },
   {
     jungleId: 1,
     tokenName: 'BANANA-TLOS',

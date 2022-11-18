@@ -2533,6 +2533,19 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
   },
+  stlosUsdc: {
+    symbol: 'STLOS-USDC',
+    address: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+      [ChainId.TLOS]: '0x3f830d537fe636057c8d7f9e8f264c7a7ff48a6f',
+    },
+    decimals: 18,
+    active: true,
+    lpToken: true,
+  },
   usdcTlos: {
     symbol: 'USDC-TLOS',
     address: {
