@@ -203,6 +203,34 @@ const jungleFarms: JungleFarmConfig[] = [
     isEarnTokenLp: false,
     network: ChainId.TLOS,
   },
+  {
+    jungleId: 8,
+    tokenName: 'USDT-USDC',
+    image: 'USDT.svg',
+    stakingToken: tokens.usdtUsdc,
+    rewardToken: tokens.tlos,
+    lpTokens: {
+      token: tokens.usdt,
+      quoteToken: tokens.usdc,
+    },
+    contractAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+      [ChainId.TLOS]: '0xCc51745C55B1826A276F801bCe4DdFfad566Be16',
+    },
+    projectLink: 'https://telos.net',
+    twitter: 'https://twitter.com/HelloTelos',
+    harvest: true,
+    rewardsPerSecond: '0.02606828704',
+    sortOrder: 1,
+    isFinished: false,
+    tokenDecimals: 18,
+    lpStaking: true,
+    isEarnTokenLp: false,
+    network: ChainId.TLOS,
+  },
 
   /*
     CHAIN ID 56 - BNB Jungle Farms

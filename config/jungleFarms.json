@@ -512,6 +512,79 @@
   },
   {
     "jungleId": 8,
+    "tokenName": "USDT-USDC",
+    "image": "USDT.svg",
+    "stakingToken": {
+      "symbol": "USDT-USDC",
+      "address": {
+        "1": "",
+        "40": "0x10aadd094677f286e5b9c969806122b5bb31906d",
+        "56": "",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true,
+      "lpToken": true
+    },
+    "rewardToken": {
+      "symbol": "TLOS",
+      "address": {
+        "1": "",
+        "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
+        "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "lpTokens": {
+      "token": {
+        "symbol": "USDT",
+        "address": {
+          "1": "",
+          "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+          "56": "0x55d398326f99059ff775485246999027b3197955",
+          "97": "",
+          "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"
+        },
+        "decimals": 18,
+        "active": true
+      },
+      "quoteToken": {
+        "symbol": "USDC",
+        "address": {
+          "1": "",
+          "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
+          "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+          "97": "",
+          "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174"
+        },
+        "decimals": 18,
+        "active": true
+      }
+    },
+    "contractAddress": {
+      "1": "",
+      "40": "0xCc51745C55B1826A276F801bCe4DdFfad566Be16",
+      "56": "",
+      "97": "",
+      "137": ""
+    },
+    "projectLink": "https://telos.net",
+    "twitter": "https://twitter.com/HelloTelos",
+    "harvest": true,
+    "rewardsPerSecond": "0.02606828704",
+    "sortOrder": 1,
+    "isFinished": false,
+    "tokenDecimals": 18,
+    "lpStaking": true,
+    "isEarnTokenLp": false,
+    "network": 40
+  },
+  {
+    "jungleId": 8,
     "tokenName": "PXP-BNB",
     "image": "PXP.png",
     "stakingToken": {
