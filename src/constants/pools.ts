@@ -2565,7 +2565,7 @@ const pools: PoolConfig[] = [
     projectLink: 'https://sweetpad.io/',
     twitter: 'https://twitter.com/SweetPad_',
     harvest: true,
-    tokenPerBlock: '0.076388888888888888',
+    tokenPerBlock: '0.07398535704',
     sortOrder: 1,
     reflect: false,
     isFinished: false,
