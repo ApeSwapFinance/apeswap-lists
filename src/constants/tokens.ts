@@ -1884,7 +1884,7 @@ const tokens: Record<string, Token> = {
   farmAway: {
     symbol: 'FARMAWAY',
     address: {
-      [ChainId.BSC]: '',
+      [ChainId.BSC]: '0x19349A79905eCdbcC421568337Ab2abaB6e45832',
       [ChainId.MAINNET]: '',
       [ChainId.BSC_TESTNET]: '',
       [ChainId.MATIC]: '',

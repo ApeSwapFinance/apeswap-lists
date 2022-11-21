@@ -3,18 +3,18 @@
     "pid": 0,
     "lpSymbol": "FARMAWAY",
     "lpAddresses": {
-      "56": "",
+      "56": "0x19349A79905eCdbcC421568337Ab2abaB6e45832",
       "97": ""
     },
     "tokenSymbol": "FARMAWAY",
     "tokenAddresses": {
-      "56": "",
+      "56": "0x19349A79905eCdbcC421568337Ab2abaB6e45832",
       "97": ""
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
       "1": "",
-      "56": "",
+      "56": "0x19349A79905eCdbcC421568337Ab2abaB6e45832",
       "97": "",
       "137": ""
     }
