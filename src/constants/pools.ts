@@ -9,7 +9,6 @@ const BANANA_PER_BLOCK = new BigNumber(10)
 
 const pools: PoolConfig[] = [
   // MASTER APE V2 POOL
-
   {
     sousId: 0,
     tokenName: tokens.banana.symbol,
