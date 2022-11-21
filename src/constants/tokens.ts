@@ -2436,6 +2436,18 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
   },
+  ihcBnb: {
+    symbol: 'IHC-BNB',
+    address: {
+      [ChainId.BSC]: '0x83CcbE832e5a3B620a435fe0eDb89e171C14eCcB',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: 18,
+    active: true,
+    lpToken: true,
+  },
   flokiBnb: {
     symbol: 'FLOKI-BNB',
     address: {

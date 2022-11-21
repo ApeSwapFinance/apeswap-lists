@@ -387,6 +387,69 @@
     "twitter": "https://twitter.com/DappRadar/"
   },
   {
+    "index": 38,
+    "contractAddress": {
+      "1": "",
+      "56": "0x5aabc088b42c197c8da69af5471aa06c3852912b",
+      "97": "",
+      "137": ""
+    },
+    "billType": "JUNGLE Bill",
+    "token": {
+      "symbol": "IHC",
+      "address": {
+        "1": "",
+        "56": "0x86a53fcd199212FEa44FA7e16EB1f28812be911D",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "1": "",
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "IHC-BNB",
+      "address": {
+        "1": "",
+        "56": "0x83CcbE832e5a3B620a435fe0eDb89e171C14eCcB",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "IHC",
+      "address": {
+        "1": "",
+        "56": "0x86a53fcd199212FEa44FA7e16EB1f28812be911D",
+        "97": "",
+        "137": ""
+      },
+      "decimals": 18,
+      "active": true
+    },
+    "billNnftAddress": {
+      "1": "",
+      "56": "0x7FD203888661d1F0AE625eD599909f8F97698670",
+      "97": "",
+      "137": ""
+    },
+    "projectLink": "https://dappradar.com/",
+    "twitter": "https://twitter.com/DappRadar/"
+  },
+  {
     "index": 30,
     "contractAddress": {
       "1": "",
