@@ -11,8 +11,8 @@ const pools: PoolConfig[] = [
   // MASTER APE V2 POOL
   {
     sousId: 0,
-    tokenName: tokens.banana.symbol,
-    image: 'BANANA.svg',
+    tokenName: tokens.farmAway.symbol,
+    image: 'FARMAWAY.svg',
     stakingToken: tokens.farmAway,
     rewardToken: tokens.farmAway,
     contractAddress: {
@@ -33,7 +33,7 @@ const pools: PoolConfig[] = [
   // Making sousId 999 for easy configuration
   {
     sousId: 999,
-    tokenName: tokens.farmAway.symbol,
+    tokenName: tokens.banana.symbol,
     stakingToken: tokens.banana,
     rewardToken: tokens.banana,
     contractAddress: {

@@ -1,8 +1,8 @@
 [
   {
     "sousId": 0,
-    "tokenName": "BANANA",
-    "image": "BANANA.svg",
+    "tokenName": "FARMAWAY",
+    "image": "FARMAWAY.svg",
     "stakingToken": {
       "symbol": "FARMAWAY",
       "address": {
@@ -40,7 +40,7 @@
   },
   {
     "sousId": 999,
-    "tokenName": "FARMAWAY",
+    "tokenName": "BANANA",
     "stakingToken": {
       "symbol": "BANANA",
       "address": {
