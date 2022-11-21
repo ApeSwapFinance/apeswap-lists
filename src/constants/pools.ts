@@ -8,10 +8,33 @@ const BANANA_PER_BLOCK = new BigNumber(10)
 // Current Sous ID is 226
 
 const pools: PoolConfig[] = [
+  // MASTER APE V2 POOL
+
   {
     sousId: 0,
     tokenName: tokens.banana.symbol,
     image: 'BANANA.svg',
+    stakingToken: tokens.farmAway,
+    rewardToken: tokens.farmAway,
+    contractAddress: {
+      [ChainId.BSC]: '0xBCaa2098493a6efAC65eA2985b0B08daA472938d', // MasterApe
+      [ChainId.BSC_TESTNET]: '',
+    },
+    poolCategory: PoolCategory.CORE,
+    projectLink: 'https://apeswap.finance/',
+    twitter: 'https://twitter.com/ape_swap',
+    harvest: true,
+    tokenPerBlock: `${BANANA_PER_BLOCK.toNumber() * 0.25}`,
+    sortOrder: 1,
+    isFinished: false,
+    tokenDecimals: 18,
+  },
+
+  // LEGACY POOL
+  // Making sousId 999 for easy configuration
+  {
+    sousId: 999,
+    tokenName: tokens.farmAway.symbol,
     stakingToken: tokens.banana,
     rewardToken: tokens.banana,
     contractAddress: {
@@ -27,6 +50,7 @@ const pools: PoolConfig[] = [
     isFinished: false,
     tokenDecimals: 18,
   },
+
   {
     sousId: 21,
     tokenName: 'BANANA',
