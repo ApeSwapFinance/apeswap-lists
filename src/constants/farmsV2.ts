@@ -5,18 +5,18 @@ import tokens from './tokens'
 const farmsV2: FarmConfig[] = [
   {
     pid: 0,
-    lpSymbol: tokens.banana.symbol,
+    lpSymbol: tokens.farmAway.symbol,
     lpAddresses: {
-      [ChainId.BSC]: tokens.banana.address[ChainId.BSC],
+      [ChainId.BSC]: tokens.farmAway.address[ChainId.BSC],
       [ChainId.BSC_TESTNET]: '',
     },
-    tokenSymbol: tokens.banana.symbol,
+    tokenSymbol: tokens.farmAway.symbol,
     tokenAddresses: {
-      [ChainId.BSC]: tokens.banana.address[ChainId.BSC],
+      [ChainId.BSC]: tokens.farmAway.address[ChainId.BSC],
       [ChainId.BSC_TESTNET]: '',
     },
-    quoteTokenSymbol: QuoteToken.BANANA,
-    quoteTokenAdresses: tokens.banana.address,
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: tokens.farmAway.address,
   },
   {
     pid: 1,

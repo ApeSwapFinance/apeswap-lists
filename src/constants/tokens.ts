@@ -1881,6 +1881,17 @@ const tokens: Record<string, Token> = {
     decimals: 9,
     active: true,
   },
+  farmAway: {
+    symbol: 'FARMAWAY',
+    address: {
+      [ChainId.BSC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+      [ChainId.MATIC]: '',
+    },
+    decimals: 18,
+    active: true,
+  },
 
   // Test LPs
 
