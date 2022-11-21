@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillsConfig } from './types'
 
-// BNB Largest ID: 37
+// BNB Largest ID: 38
 // Polygon Largest ID: 102
 // Telos Largest ID: 210
 
@@ -130,6 +130,28 @@ const bills: BillsConfig[] = [
     quoteToken: tokens.wbnb,
     lpToken: tokens.radarBnb,
     earnToken: tokens.radar,
+    billNnftAddress: {
+      [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    projectLink: 'https://dappradar.com/',
+    twitter: 'https://twitter.com/DappRadar/',
+  },
+  {
+    index: 38,
+    contractAddress: {
+      [ChainId.BSC]: '0x5aabc088b42c197c8da69af5471aa06c3852912b',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    billType: 'JUNGLE Bill',
+    token: tokens.ihc,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.ihcBnb,
+    earnToken: tokens.ihc,
     billNnftAddress: {
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
       [ChainId.MATIC]: '',
