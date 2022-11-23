@@ -5,7 +5,7 @@ import { ChainId } from '@ape.swap/sdk'
 const jungleFarms: JungleFarmConfig[] = [
   /*
     CHAIN ID 40 - TLOS Jungle Farms
-    Current Jungle ID = 6
+    Current Jungle ID = 8
   */
   {
     jungleId: 1,
@@ -47,7 +47,7 @@ const jungleFarms: JungleFarmConfig[] = [
     projectLink: 'https://telos.net',
     twitter: 'https://twitter.com/HelloTelos',
     harvest: true,
-    rewardsPerSecond: '0.007262731481481481',
+    rewardsPerSecond: '0.006190972222',
     sortOrder: 1,
     isFinished: false,
     tokenDecimals: 18,
@@ -71,7 +71,7 @@ const jungleFarms: JungleFarmConfig[] = [
     projectLink: 'https://telos.net',
     twitter: 'https://twitter.com/HelloTelos',
     harvest: true,
-    rewardsPerSecond: '0.004357638888888888',
+    rewardsPerSecond: '0.003714506173',
     sortOrder: 1,
     isFinished: false,
     tokenDecimals: 18,
@@ -95,7 +95,7 @@ const jungleFarms: JungleFarmConfig[] = [
     projectLink: 'https://telos.net',
     twitter: 'https://twitter.com/HelloTelos',
     harvest: true,
-    rewardsPerSecond: '0.007262731481481481',
+    rewardsPerSecond: '0.004952932099',
     sortOrder: 1,
     isFinished: false,
     tokenDecimals: 18,
@@ -119,7 +119,7 @@ const jungleFarms: JungleFarmConfig[] = [
     projectLink: 'https://telos.net',
     twitter: 'https://twitter.com/HelloTelos',
     harvest: true,
-    rewardsPerSecond: '0.005810185185185185',
+    rewardsPerSecond: '0.006190972222',
     sortOrder: 1,
     isFinished: false,
     tokenDecimals: 18,
@@ -143,7 +143,63 @@ const jungleFarms: JungleFarmConfig[] = [
     projectLink: 'https://telos.net',
     twitter: 'https://twitter.com/HelloTelos',
     harvest: true,
-    rewardsPerSecond: '0.07910338395',
+    rewardsPerSecond: '0.03128125',
+    sortOrder: 1,
+    isFinished: false,
+    tokenDecimals: 18,
+    lpStaking: true,
+    isEarnTokenLp: false,
+    network: ChainId.TLOS,
+  },
+  {
+    jungleId: 7,
+    tokenName: 'STLOS-USDC',
+    image: 'STLOS.svg',
+    stakingToken: tokens.stlosUsdc,
+    rewardToken: tokens.tlos,
+    lpTokens: {
+      token: tokens.stlos,
+      quoteToken: tokens.usdc,
+    },
+    contractAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+      [ChainId.TLOS]: '0x4c33A9cdBFC39DF0F17ec0d64170a23e3703E0a0',
+    },
+    projectLink: 'https://telos.net',
+    twitter: 'https://twitter.com/HelloTelos',
+    harvest: true,
+    rewardsPerSecond: '0.03649498457',
+    sortOrder: 1,
+    isFinished: false,
+    tokenDecimals: 18,
+    lpStaking: true,
+    isEarnTokenLp: false,
+    network: ChainId.TLOS,
+  },
+  {
+    jungleId: 8,
+    tokenName: 'USDT-USDC',
+    image: 'USDT.svg',
+    stakingToken: tokens.usdtUsdc,
+    rewardToken: tokens.tlos,
+    lpTokens: {
+      token: tokens.usdt,
+      quoteToken: tokens.usdc,
+    },
+    contractAddress: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+      [ChainId.TLOS]: '0xCc51745C55B1826A276F801bCe4DdFfad566Be16',
+    },
+    projectLink: 'https://telos.net',
+    twitter: 'https://twitter.com/HelloTelos',
+    harvest: true,
+    rewardsPerSecond: '0.02606828704',
     sortOrder: 1,
     isFinished: false,
     tokenDecimals: 18,
@@ -179,6 +235,7 @@ const jungleFarms: JungleFarmConfig[] = [
     lpStaking: true,
     isEarnTokenLp: false,
     network: ChainId.BSC,
+    unZapable: true,
   },
   {
     jungleId: 9,
@@ -196,13 +253,14 @@ const jungleFarms: JungleFarmConfig[] = [
     projectLink: 'https://staderlabs.com/',
     twitter: 'https://twitter.com/stader_bnb',
     harvest: true,
-    tokenPerBlock: '0.05000022472',
+    tokenPerBlock: '0.03099281764',
     sortOrder: 1,
     isFinished: false,
     tokenDecimals: 18,
     lpStaking: true,
     isEarnTokenLp: false,
     network: ChainId.BSC,
+    unZapable: true,
   },
   {
     jungleId: 10,
@@ -227,7 +285,6 @@ const jungleFarms: JungleFarmConfig[] = [
     lpStaking: true,
     isEarnTokenLp: false,
     network: ChainId.BSC,
-    zapable: true,
   },
   {
     jungleId: 206,
@@ -252,6 +309,7 @@ const jungleFarms: JungleFarmConfig[] = [
     lpStaking: true,
     isEarnTokenLp: false,
     network: ChainId.BSC,
+    unZapable: true,
   },
   {
     jungleId: 1,
@@ -276,6 +334,7 @@ const jungleFarms: JungleFarmConfig[] = [
     lpStaking: true,
     isEarnTokenLp: false,
     network: ChainId.BSC,
+    unZapable: true,
   },
   {
     jungleId: 2,
@@ -300,6 +359,7 @@ const jungleFarms: JungleFarmConfig[] = [
     lpStaking: true,
     isEarnTokenLp: false,
     network: ChainId.BSC,
+    unZapable: true,
   },
   {
     jungleId: 3,
@@ -324,6 +384,7 @@ const jungleFarms: JungleFarmConfig[] = [
     lpStaking: true,
     isEarnTokenLp: false,
     network: ChainId.BSC,
+    unZapable: true,
   },
   {
     jungleId: 4,
@@ -347,6 +408,7 @@ const jungleFarms: JungleFarmConfig[] = [
     lpStaking: true,
     isEarnTokenLp: false,
     network: ChainId.BSC,
+    unZapable: true,
   },
   {
     jungleId: 5,
@@ -371,6 +433,7 @@ const jungleFarms: JungleFarmConfig[] = [
     lpStaking: true,
     isEarnTokenLp: false,
     network: ChainId.BSC,
+    unZapable: true,
   },
   {
     jungleId: 6,
@@ -395,6 +458,7 @@ const jungleFarms: JungleFarmConfig[] = [
     lpStaking: true,
     isEarnTokenLp: false,
     network: ChainId.BSC,
+    unZapable: true,
   },
   {
     jungleId: 7,
@@ -420,6 +484,7 @@ const jungleFarms: JungleFarmConfig[] = [
     lpStaking: true,
     isEarnTokenLp: false,
     network: ChainId.BSC,
+    unZapable: true,
   },
   {
     jungleId: 0,
@@ -444,6 +509,7 @@ const jungleFarms: JungleFarmConfig[] = [
     lpStaking: true,
     isEarnTokenLp: false,
     network: ChainId.BSC,
+    unZapable: true,
   },
   {
     jungleId: 11,
@@ -469,7 +535,6 @@ const jungleFarms: JungleFarmConfig[] = [
     lpStaking: true,
     isEarnTokenLp: false,
     network: ChainId.BSC,
-    zapable: true,
   },
   {
     jungleId: 12,
@@ -487,14 +552,13 @@ const jungleFarms: JungleFarmConfig[] = [
     projectLink: 'https://sweetpad.io/',
     twitter: 'https://twitter.com/SweetPad_',
     harvest: true,
-    tokenPerBlock: '0.076388888888888888',
+    tokenPerBlock: '0.07398535704',
     sortOrder: 1,
     isFinished: false,
     tokenDecimals: 18,
     lpStaking: true,
     isEarnTokenLp: false,
     network: ChainId.BSC,
-    zapable: true,
   },
 ]
 

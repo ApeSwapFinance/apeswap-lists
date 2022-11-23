@@ -1705,6 +1705,17 @@ const tokens: Record<string, Token> = {
     decimals: { [ChainId.BSC]: 18 },
     active: true,
   },
+  xcur: {
+    symbol: 'XCUR',
+    address: {
+      [ChainId.BSC]: '0xd52669712f253CD6b2Fe8A8638F66ed726cb770C',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: { [ChainId.BSC]: 8 },
+    active: true,
+  },
   axn: {
     symbol: 'AXN',
     address: {
@@ -1909,10 +1920,52 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
   },
+  threeairBnb: {
+    symbol: '3AIR-BNB',
+    address: {
+      [ChainId.BSC]: '0xfdf84a54b35e06e4c3852ae35f10b7f38488204a',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+    lpToken: true,
+  },
   nftyBnb: {
     symbol: 'NFTY-BNB',
     address: {
       [ChainId.BSC]: '0x884BE30e2c95b9cFed614aD2B5Edf40AF2A144ad',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+    lpToken: true,
+  },
+  nftyBusd: {
+    symbol: 'NFTY-BUSD',
+    address: {
+      [ChainId.BSC]: '0x3e2459cb96497d1f8f725aadde081f1e643c27d8',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+    lpToken: true,
+  },
+  xcurBusd: {
+    symbol: 'XCUR-BUSD',
+    address: {
+      [ChainId.BSC]: '0xe55Da30A0BBb8d26Cc0a3AECE1F7a2d432276f84',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -2032,6 +2085,20 @@ const tokens: Record<string, Token> = {
     symbol: 'HOTCROSS-BUSD',
     address: {
       [ChainId.BSC]: '0x3b9aa711d1d90a4f8639f66c227881729a3317f2',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+    lpToken: true,
+  },
+  gqBusd: {
+    symbol: 'GQ-BUSD',
+    address: {
+      [ChainId.BSC]: '0xcC3A3Bc1d76Df321f94716E88224638C439267aa',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -2193,6 +2260,20 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
   },
+  ihcBnb: {
+    symbol: 'IHC-BNB',
+    address: {
+      [ChainId.BSC]: '0x83CcbE832e5a3B620a435fe0eDb89e171C14eCcB',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+    lpToken: true,
+  },
   flokiBnb: {
     symbol: 'FLOKI-BNB',
     address: {
@@ -2274,6 +2355,36 @@ const tokens: Record<string, Token> = {
       [ChainId.TLOS]: '0xa4dfe1fdca0c341c1ba26550ec5128c89964f0db',
     },
     decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+  },
+  stlosUsdc: {
+    symbol: 'STLOS-USDC',
+    address: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+      [ChainId.TLOS]: '0x3f830d537fe636057c8d7f9e8f264c7a7ff48a6f',
+    },
+    decimals: {
+      [ChainId.TLOS]: 18,
+    },
+    active: true,
+    lpToken: true,
+  },
+  usdtUsdc: {
+    symbol: 'USDT-USDC',
+    address: {
+      [ChainId.BSC]: '',
+      [ChainId.MATIC]: '',
+      [ChainId.MAINNET]: '',
+      [ChainId.BSC_TESTNET]: '',
+      [ChainId.TLOS]: '0x10aadd094677f286e5b9c969806122b5bb31906d',
+    },
+    decimals: {
+      [ChainId.TLOS]: 18,
+    },
     active: true,
     lpToken: true,
   },

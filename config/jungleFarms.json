@@ -135,7 +135,7 @@
     "projectLink": "https://telos.net",
     "twitter": "https://twitter.com/HelloTelos",
     "harvest": true,
-    "rewardsPerSecond": "0.007262731481481481",
+    "rewardsPerSecond": "0.006190972222",
     "sortOrder": 1,
     "isFinished": false,
     "tokenDecimals": 18,
@@ -206,7 +206,7 @@
     "projectLink": "https://telos.net",
     "twitter": "https://twitter.com/HelloTelos",
     "harvest": true,
-    "rewardsPerSecond": "0.004357638888888888",
+    "rewardsPerSecond": "0.003714506173",
     "sortOrder": 1,
     "isFinished": false,
     "tokenDecimals": 18,
@@ -275,7 +275,7 @@
     "projectLink": "https://telos.net",
     "twitter": "https://twitter.com/HelloTelos",
     "harvest": true,
-    "rewardsPerSecond": "0.007262731481481481",
+    "rewardsPerSecond": "0.004952932099",
     "sortOrder": 1,
     "isFinished": false,
     "tokenDecimals": 18,
@@ -344,7 +344,7 @@
     "projectLink": "https://telos.net",
     "twitter": "https://twitter.com/HelloTelos",
     "harvest": true,
-    "rewardsPerSecond": "0.005810185185185185",
+    "rewardsPerSecond": "0.006190972222",
     "sortOrder": 1,
     "isFinished": false,
     "tokenDecimals": 18,
@@ -409,7 +409,161 @@
     "projectLink": "https://telos.net",
     "twitter": "https://twitter.com/HelloTelos",
     "harvest": true,
-    "rewardsPerSecond": "0.07910338395",
+    "rewardsPerSecond": "0.03128125",
+    "sortOrder": 1,
+    "isFinished": false,
+    "tokenDecimals": 18,
+    "lpStaking": true,
+    "isEarnTokenLp": false,
+    "network": 40
+  },
+  {
+    "jungleId": 7,
+    "tokenName": "STLOS-USDC",
+    "image": "STLOS.svg",
+    "stakingToken": {
+      "symbol": "STLOS-USDC",
+      "address": {
+        "1": "",
+        "40": "0x3f830d537fe636057c8d7f9e8f264c7a7ff48a6f",
+        "56": "",
+        "97": "",
+        "137": ""
+      },
+      "decimals": {
+        "40": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "rewardToken": {
+      "symbol": "TLOS",
+      "address": {
+        "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
+        "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c"
+      },
+      "decimals": {
+        "40": 18,
+        "56": 18
+      },
+      "active": true
+    },
+    "lpTokens": {
+      "token": {
+        "symbol": "STLOS",
+        "address": {
+          "40": "0xB4B01216a5Bc8F1C8A33CD990A1239030E60C905"
+        },
+        "decimals": {
+          "40": 18
+        },
+        "active": true
+      },
+      "quoteToken": {
+        "symbol": "USDC",
+        "address": {
+          "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
+          "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+          "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174"
+        },
+        "decimals": {
+          "40": 6,
+          "56": 18,
+          "137": 6
+        },
+        "active": true
+      }
+    },
+    "contractAddress": {
+      "1": "",
+      "40": "0x4c33A9cdBFC39DF0F17ec0d64170a23e3703E0a0",
+      "56": "",
+      "97": "",
+      "137": ""
+    },
+    "projectLink": "https://telos.net",
+    "twitter": "https://twitter.com/HelloTelos",
+    "harvest": true,
+    "rewardsPerSecond": "0.03649498457",
+    "sortOrder": 1,
+    "isFinished": false,
+    "tokenDecimals": 18,
+    "lpStaking": true,
+    "isEarnTokenLp": false,
+    "network": 40
+  },
+  {
+    "jungleId": 8,
+    "tokenName": "USDT-USDC",
+    "image": "USDT.svg",
+    "stakingToken": {
+      "symbol": "USDT-USDC",
+      "address": {
+        "1": "",
+        "40": "0x10aadd094677f286e5b9c969806122b5bb31906d",
+        "56": "",
+        "97": "",
+        "137": ""
+      },
+      "decimals": {
+        "40": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "rewardToken": {
+      "symbol": "TLOS",
+      "address": {
+        "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
+        "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c"
+      },
+      "decimals": {
+        "40": 18,
+        "56": 18
+      },
+      "active": true
+    },
+    "lpTokens": {
+      "token": {
+        "symbol": "USDT",
+        "address": {
+          "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+          "56": "0x55d398326f99059ff775485246999027b3197955",
+          "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"
+        },
+        "decimals": {
+          "40": 6,
+          "56": 18,
+          "137": 6
+        },
+        "active": true
+      },
+      "quoteToken": {
+        "symbol": "USDC",
+        "address": {
+          "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
+          "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+          "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174"
+        },
+        "decimals": {
+          "40": 6,
+          "56": 18,
+          "137": 6
+        },
+        "active": true
+      }
+    },
+    "contractAddress": {
+      "1": "",
+      "40": "0xCc51745C55B1826A276F801bCe4DdFfad566Be16",
+      "56": "",
+      "97": "",
+      "137": ""
+    },
+    "projectLink": "https://telos.net",
+    "twitter": "https://twitter.com/HelloTelos",
+    "harvest": true,
+    "rewardsPerSecond": "0.02606828704",
     "sortOrder": 1,
     "isFinished": false,
     "tokenDecimals": 18,
@@ -480,7 +634,8 @@
     "tokenDecimals": 18,
     "lpStaking": true,
     "isEarnTokenLp": false,
-    "network": 56
+    "network": 56,
+    "unZapable": true
   },
   {
     "jungleId": 9,
@@ -539,13 +694,14 @@
     "projectLink": "https://staderlabs.com/",
     "twitter": "https://twitter.com/stader_bnb",
     "harvest": true,
-    "tokenPerBlock": "0.05000022472",
+    "tokenPerBlock": "0.03099281764",
     "sortOrder": 1,
     "isFinished": false,
     "tokenDecimals": 18,
     "lpStaking": true,
     "isEarnTokenLp": false,
-    "network": 56
+    "network": 56,
+    "unZapable": true
   },
   {
     "jungleId": 10,
@@ -608,8 +764,7 @@
     "tokenDecimals": 4,
     "lpStaking": true,
     "isEarnTokenLp": false,
-    "network": 56,
-    "zapable": true
+    "network": 56
   },
   {
     "jungleId": 206,
@@ -672,7 +827,8 @@
     "tokenDecimals": 18,
     "lpStaking": true,
     "isEarnTokenLp": false,
-    "network": 56
+    "network": 56,
+    "unZapable": true
   },
   {
     "jungleId": 1,
@@ -737,7 +893,8 @@
     "tokenDecimals": 18,
     "lpStaking": true,
     "isEarnTokenLp": false,
-    "network": 56
+    "network": 56,
+    "unZapable": true
   },
   {
     "jungleId": 2,
@@ -802,7 +959,8 @@
     "tokenDecimals": 8,
     "lpStaking": true,
     "isEarnTokenLp": false,
-    "network": 56
+    "network": 56,
+    "unZapable": true
   },
   {
     "jungleId": 3,
@@ -865,7 +1023,8 @@
     "tokenDecimals": 18,
     "lpStaking": true,
     "isEarnTokenLp": false,
-    "network": 56
+    "network": 56,
+    "unZapable": true
   },
   {
     "jungleId": 4,
@@ -929,7 +1088,8 @@
     "tokenDecimals": 12,
     "lpStaking": true,
     "isEarnTokenLp": false,
-    "network": 56
+    "network": 56,
+    "unZapable": true
   },
   {
     "jungleId": 5,
@@ -992,7 +1152,8 @@
     "tokenDecimals": 18,
     "lpStaking": true,
     "isEarnTokenLp": false,
-    "network": 56
+    "network": 56,
+    "unZapable": true
   },
   {
     "jungleId": 6,
@@ -1057,7 +1218,8 @@
     "tokenDecimals": 18,
     "lpStaking": true,
     "isEarnTokenLp": false,
-    "network": 56
+    "network": 56,
+    "unZapable": true
   },
   {
     "jungleId": 7,
@@ -1123,7 +1285,8 @@
     "tokenDecimals": 18,
     "lpStaking": true,
     "isEarnTokenLp": false,
-    "network": 56
+    "network": 56,
+    "unZapable": true
   },
   {
     "jungleId": 0,
@@ -1188,7 +1351,8 @@
     "tokenDecimals": 18,
     "lpStaking": true,
     "isEarnTokenLp": false,
-    "network": 56
+    "network": 56,
+    "unZapable": true
   },
   {
     "jungleId": 11,
@@ -1254,8 +1418,7 @@
     "tokenDecimals": 18,
     "lpStaking": true,
     "isEarnTokenLp": false,
-    "network": 56,
-    "zapable": true
+    "network": 56
   },
   {
     "jungleId": 12,
@@ -1314,13 +1477,12 @@
     "projectLink": "https://sweetpad.io/",
     "twitter": "https://twitter.com/SweetPad_",
     "harvest": true,
-    "tokenPerBlock": "0.076388888888888888",
+    "tokenPerBlock": "0.07398535704",
     "sortOrder": 1,
     "isFinished": false,
     "tokenDecimals": 18,
     "lpStaking": true,
     "isEarnTokenLp": false,
-    "network": 56,
-    "zapable": true
+    "network": 56
   }
 ]
