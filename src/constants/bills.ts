@@ -135,9 +135,6 @@ const bills: BillsConfig[] = [
     index: 30,
     contractAddress: {
       [ChainId.BSC]: '0xced994206cd4c364d7bda2b66b48fcaef9b6bb5b',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
     },
     billType: 'JUNGLE Bill',
     token: tokens.nfty,
@@ -146,9 +143,6 @@ const bills: BillsConfig[] = [
     earnToken: tokens.nfty,
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
     },
     projectLink: 'https://nftynetwork.io/',
     twitter: 'https://twitter.com/NFTYLab',
@@ -157,9 +151,6 @@ const bills: BillsConfig[] = [
     index: 29,
     contractAddress: {
       [ChainId.BSC]: '0x7aa1939b8284a2defdcb5e983de55da2ad61f607',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
     },
     billType: 'JUNGLE Bill',
     token: tokens.threeair,
@@ -168,9 +159,6 @@ const bills: BillsConfig[] = [
     earnToken: tokens.threeair,
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
     },
     projectLink: 'https://3air.io/',
     twitter: 'https://twitter.com/3aircrypto',
@@ -195,9 +183,6 @@ const bills: BillsConfig[] = [
     index: 22,
     contractAddress: {
       [ChainId.BSC]: '0x7b1dfe9ca71ffeac5ed4d1beb592771e3672a2de',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
     },
     billType: 'JUNGLE Bill',
     token: tokens.chrp,
@@ -206,9 +191,6 @@ const bills: BillsConfig[] = [
     earnToken: tokens.chrp,
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
     },
     projectLink: 'https://chirpley.ai',
     twitter: 'https://twitter.com/chirpley',
@@ -216,10 +198,7 @@ const bills: BillsConfig[] = [
   {
     index: 20,
     contractAddress: {
-      [ChainId.BSC]: '0xb646c4a51365598433ba4765b890ad3075e4e21e', //
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
+      [ChainId.BSC]: '0xb646c4a51365598433ba4765b890ad3075e4e21e',
     },
     billType: 'JUNGLE Bill',
     token: tokens.gmr,
@@ -228,9 +207,6 @@ const bills: BillsConfig[] = [
     earnToken: tokens.gmr,
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
     },
     projectLink: 'https://gmr.center/',
     twitter: 'https://twitter.com/GMRCenter',
@@ -239,9 +215,6 @@ const bills: BillsConfig[] = [
     index: 31,
     contractAddress: {
       [ChainId.BSC]: '0x63571f457f246124c6968579E8797B91613dED20',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
     },
     billType: 'JUNGLE Bill',
     token: tokens.xcur,
@@ -250,9 +223,6 @@ const bills: BillsConfig[] = [
     earnToken: tokens.xcur,
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
     },
     projectLink: 'https://web.curate.style/',
     twitter: 'https://twitter.com/curateproject',
@@ -261,9 +231,6 @@ const bills: BillsConfig[] = [
     index: 28,
     contractAddress: {
       [ChainId.BSC]: '0x7fdb62f681d7aad8c08a1d6af350e2fb7f265336',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
     },
     billType: 'JUNGLE Bill',
     token: tokens.gq,
@@ -272,9 +239,6 @@ const bills: BillsConfig[] = [
     earnToken: tokens.gq,
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
     },
     projectLink: 'https://outerringmmo.com/',
     twitter: 'https://twitter.com/OuterRingMMO',
@@ -613,9 +577,6 @@ const bills: BillsConfig[] = [
     index: 13,
     contractAddress: {
       [ChainId.BSC]: '0xE325439439D692DC858Ba887601999D57d35688F',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
     },
     billType: 'BANANA Bill',
     token: tokens.banana,
@@ -624,9 +585,6 @@ const bills: BillsConfig[] = [
     earnToken: tokens.banana,
     billNnftAddress: {
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
     },
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
@@ -636,9 +594,6 @@ const bills: BillsConfig[] = [
     index: 14,
     contractAddress: {
       [ChainId.BSC]: '0xf297F71f4664cF7F1Cd5d90720967998A1163cC3',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
     },
     billType: 'BANANA Bill',
     token: tokens.busd,
@@ -647,9 +602,6 @@ const bills: BillsConfig[] = [
     earnToken: tokens.banana,
     billNnftAddress: {
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
     },
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
@@ -659,9 +611,6 @@ const bills: BillsConfig[] = [
     index: 15,
     contractAddress: {
       [ChainId.BSC]: '0x937A30Fd88f48B23DeABf4fD43c42cc9d3f3F9Dd',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
     },
     billType: 'BANANA Bill',
     token: tokens.busd,
@@ -670,9 +619,6 @@ const bills: BillsConfig[] = [
     earnToken: tokens.banana,
     billNnftAddress: {
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
     },
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
@@ -682,9 +628,6 @@ const bills: BillsConfig[] = [
     index: 16,
     contractAddress: {
       [ChainId.BSC]: '0x2D375a67366eDFB92F520aE428E8E08451D638d2',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
     },
     billType: 'BANANA Bill',
     token: tokens.eth,
@@ -693,9 +636,6 @@ const bills: BillsConfig[] = [
     earnToken: tokens.banana,
     billNnftAddress: {
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
     },
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
@@ -705,9 +645,6 @@ const bills: BillsConfig[] = [
     index: 17,
     contractAddress: {
       [ChainId.BSC]: '0x44921f493887ab8a8b9db54db335f65c1ef8d51a',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
     },
     billType: 'BANANA Bill',
     token: tokens.btc,
@@ -716,9 +653,6 @@ const bills: BillsConfig[] = [
     earnToken: tokens.banana,
     billNnftAddress: {
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
     },
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
@@ -786,10 +720,6 @@ const bills: BillsConfig[] = [
   {
     index: 206,
     contractAddress: {
-      [ChainId.BSC]: '',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
       [ChainId.TLOS]: '0x1Bb2Eb63c2B2CD1cE5887B4628694276E637BeD7',
     },
     billType: 'Jungle Bill',
@@ -798,10 +728,6 @@ const bills: BillsConfig[] = [
     lpToken: tokens.bananaTlos,
     earnToken: tokens.tlos,
     billNnftAddress: {
-      [ChainId.BSC]: '',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
       [ChainId.TLOS]: '0x9084C442286E23617694101d5575bEA48C2cf621',
     },
     inactive: false,
@@ -811,10 +737,6 @@ const bills: BillsConfig[] = [
   {
     index: 207,
     contractAddress: {
-      [ChainId.BSC]: '',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
       [ChainId.TLOS]: '0xe3725Eccd93bb544b360BB572893eF17E42219c4',
     },
     billType: 'Jungle Bill',
@@ -823,10 +745,6 @@ const bills: BillsConfig[] = [
     lpToken: tokens.ethTlos,
     earnToken: tokens.tlos,
     billNnftAddress: {
-      [ChainId.BSC]: '',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
       [ChainId.TLOS]: '0x9084C442286E23617694101d5575bEA48C2cf621',
     },
     inactive: false,
@@ -836,10 +754,6 @@ const bills: BillsConfig[] = [
   {
     index: 208,
     contractAddress: {
-      [ChainId.BSC]: '',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
       [ChainId.TLOS]: '0x81f2BA390934df655eABcc3787F4f5f694e722ED',
     },
     billType: 'Jungle Bill',
@@ -848,10 +762,6 @@ const bills: BillsConfig[] = [
     lpToken: tokens.btcTlos,
     earnToken: tokens.tlos,
     billNnftAddress: {
-      [ChainId.BSC]: '',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
       [ChainId.TLOS]: '0x9084C442286E23617694101d5575bEA48C2cf621',
     },
     inactive: false,
@@ -861,10 +771,6 @@ const bills: BillsConfig[] = [
   {
     index: 209,
     contractAddress: {
-      [ChainId.BSC]: '',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
       [ChainId.TLOS]: '0x68aEaAbE6EbBd2b5Cf0130d0BAAef1Ec5E0539Aa',
     },
     billType: 'Jungle Bill',
@@ -873,10 +779,6 @@ const bills: BillsConfig[] = [
     lpToken: tokens.usdtTlos,
     earnToken: tokens.tlos,
     billNnftAddress: {
-      [ChainId.BSC]: '',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
       [ChainId.TLOS]: '0x9084C442286E23617694101d5575bEA48C2cf621',
     },
     inactive: false,
@@ -886,10 +788,6 @@ const bills: BillsConfig[] = [
   {
     index: 210,
     contractAddress: {
-      [ChainId.BSC]: '',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
       [ChainId.TLOS]: '0xb3a0b38E5C07db5238538a640155562085F22bCe',
     },
     billType: 'Jungle Bill',
@@ -898,10 +796,6 @@ const bills: BillsConfig[] = [
     lpToken: tokens.usdcTlos,
     earnToken: tokens.tlos,
     billNnftAddress: {
-      [ChainId.BSC]: '',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
       [ChainId.TLOS]: '0x9084C442286E23617694101d5575bEA48C2cf621',
     },
     inactive: false,

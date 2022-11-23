@@ -1709,9 +1709,6 @@ const tokens: Record<string, Token> = {
     symbol: 'XCUR',
     address: {
       [ChainId.BSC]: '0xd52669712f253CD6b2Fe8A8638F66ed726cb770C',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
     },
     decimals: { [ChainId.BSC]: 8 },
     active: true,
@@ -1924,9 +1921,6 @@ const tokens: Record<string, Token> = {
     symbol: '3AIR-BNB',
     address: {
       [ChainId.BSC]: '0xfdf84a54b35e06e4c3852ae35f10b7f38488204a',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -1949,9 +1943,6 @@ const tokens: Record<string, Token> = {
     symbol: 'NFTY-BUSD',
     address: {
       [ChainId.BSC]: '0x3e2459cb96497d1f8f725aadde081f1e643c27d8',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -1963,9 +1954,6 @@ const tokens: Record<string, Token> = {
     symbol: 'XCUR-BUSD',
     address: {
       [ChainId.BSC]: '0xe55Da30A0BBb8d26Cc0a3AECE1F7a2d432276f84',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -2096,9 +2084,6 @@ const tokens: Record<string, Token> = {
     symbol: 'GQ-BUSD',
     address: {
       [ChainId.BSC]: '0xcC3A3Bc1d76Df321f94716E88224638C439267aa',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -2264,9 +2249,6 @@ const tokens: Record<string, Token> = {
     symbol: 'IHC-BNB',
     address: {
       [ChainId.BSC]: '0x83CcbE832e5a3B620a435fe0eDb89e171C14eCcB',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -2361,10 +2343,6 @@ const tokens: Record<string, Token> = {
   stlosUsdc: {
     symbol: 'STLOS-USDC',
     address: {
-      [ChainId.BSC]: '',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
       [ChainId.TLOS]: '0x3f830d537fe636057c8d7f9e8f264c7a7ff48a6f',
     },
     decimals: {
@@ -2376,10 +2354,6 @@ const tokens: Record<string, Token> = {
   usdtUsdc: {
     symbol: 'USDT-USDC',
     address: {
-      [ChainId.BSC]: '',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
       [ChainId.TLOS]: '0x10aadd094677f286e5b9c969806122b5bb31906d',
     },
     decimals: {

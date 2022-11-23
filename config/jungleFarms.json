@@ -424,11 +424,7 @@
     "stakingToken": {
       "symbol": "STLOS-USDC",
       "address": {
-        "1": "",
-        "40": "0x3f830d537fe636057c8d7f9e8f264c7a7ff48a6f",
-        "56": "",
-        "97": "",
-        "137": ""
+        "40": "0x3f830d537fe636057c8d7f9e8f264c7a7ff48a6f"
       },
       "decimals": {
         "40": 18
@@ -499,11 +495,7 @@
     "stakingToken": {
       "symbol": "USDT-USDC",
       "address": {
-        "1": "",
-        "40": "0x10aadd094677f286e5b9c969806122b5bb31906d",
-        "56": "",
-        "97": "",
-        "137": ""
+        "40": "0x10aadd094677f286e5b9c969806122b5bb31906d"
       },
       "decimals": {
         "40": 18
