@@ -6,39 +6,37 @@
     "stakingToken": {
       "symbol": "BANANA-TLOS",
       "address": {
-        "1": "",
-        "40": "0xf780e62D54BB6C55e396dd937BacEF0BBD7Aff51",
-        "56": "",
-        "97": "",
-        "137": ""
+        "40": "0xf780e62D54BB6C55e396dd937BacEF0BBD7Aff51"
       },
-      "decimals": 18,
+      "decimals": {
+        "40": 18
+      },
       "active": true,
       "lpToken": true
     },
     "rewardToken": {
       "symbol": "TLOS",
       "address": {
-        "1": "",
         "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
-        "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c",
-        "97": "",
-        "137": ""
+        "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c"
       },
-      "decimals": 18,
+      "decimals": {
+        "40": 18,
+        "56": 18
+      },
       "active": true
     },
     "lpTokens": {
       "token": {
         "symbol": "TLOS",
         "address": {
-          "1": "",
           "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
-          "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c",
-          "97": "",
-          "137": ""
+          "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c"
         },
-        "decimals": 18,
+        "decimals": {
+          "40": 18,
+          "56": 18
+        },
         "active": true
       },
       "quoteToken": {
@@ -50,16 +48,18 @@
           "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
           "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
         },
-        "decimals": 18,
+        "decimals": {
+          "1": 18,
+          "40": 18,
+          "56": 18,
+          "97": 18,
+          "137": 18
+        },
         "active": true
       }
     },
     "contractAddress": {
-      "1": "",
-      "40": "0x5B7d49806709Fa0B3CdA23232cc2D609bCA2B2d0",
-      "56": "",
-      "97": "",
-      "137": ""
+      "40": "0x5B7d49806709Fa0B3CdA23232cc2D609bCA2B2d0"
     },
     "projectLink": "https://telos.net",
     "twitter": "https://twitter.com/HelloTelos",
@@ -79,60 +79,58 @@
     "stakingToken": {
       "symbol": "ETH-TLOS",
       "address": {
-        "1": "",
-        "40": "0xCfd8505E3c79D777AF2CA3B5507B64480645f516",
-        "56": "",
-        "97": "",
-        "137": ""
+        "40": "0xCfd8505E3c79D777AF2CA3B5507B64480645f516"
       },
-      "decimals": 18,
+      "decimals": {
+        "40": 18
+      },
       "active": true,
       "lpToken": true
     },
     "rewardToken": {
       "symbol": "TLOS",
       "address": {
-        "1": "",
         "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
-        "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c",
-        "97": "",
-        "137": ""
+        "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c"
       },
-      "decimals": 18,
+      "decimals": {
+        "40": 18,
+        "56": 18
+      },
       "active": true
     },
     "lpTokens": {
       "token": {
         "symbol": "TLOS",
         "address": {
-          "1": "",
           "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
-          "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c",
-          "97": "",
-          "137": ""
+          "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c"
         },
-        "decimals": 18,
+        "decimals": {
+          "40": 18,
+          "56": 18
+        },
         "active": true
       },
       "quoteToken": {
         "symbol": "ETH",
         "address": {
-          "1": "",
           "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
           "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
           "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
           "137": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619"
         },
-        "decimals": 18,
+        "decimals": {
+          "40": 18,
+          "56": 18,
+          "97": 18,
+          "137": 18
+        },
         "active": true
       }
     },
     "contractAddress": {
-      "1": "",
-      "40": "0xA3c3A929Ae19Bfc56E2A9B0f23e99bae8Bf6F11A",
-      "56": "",
-      "97": "",
-      "137": ""
+      "40": "0xA3c3A929Ae19Bfc56E2A9B0f23e99bae8Bf6F11A"
     },
     "projectLink": "https://telos.net",
     "twitter": "https://twitter.com/HelloTelos",
@@ -152,60 +150,58 @@
     "stakingToken": {
       "symbol": "BTC-TLOS",
       "address": {
-        "1": "",
-        "40": "0x48731c532bbccf5179F9E2549624e0A73C7B39bC",
-        "56": "",
-        "97": "",
-        "137": ""
+        "40": "0x48731c532bbccf5179F9E2549624e0A73C7B39bC"
       },
-      "decimals": 18,
+      "decimals": {
+        "40": 18
+      },
       "active": true,
       "lpToken": true
     },
     "rewardToken": {
       "symbol": "TLOS",
       "address": {
-        "1": "",
         "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
-        "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c",
-        "97": "",
-        "137": ""
+        "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c"
       },
-      "decimals": 18,
+      "decimals": {
+        "40": 18,
+        "56": 18
+      },
       "active": true
     },
     "lpTokens": {
       "token": {
         "symbol": "TLOS",
         "address": {
-          "1": "",
           "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
-          "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c",
-          "97": "",
-          "137": ""
+          "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c"
         },
-        "decimals": 18,
+        "decimals": {
+          "40": 18,
+          "56": 18
+        },
         "active": true
       },
       "quoteToken": {
         "symbol": "BTC",
         "address": {
-          "1": "",
           "40": "0xf390830df829cf22c53c8840554b98eafc5dcbc2",
           "56": "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c",
           "97": "0x6ce8da28e2f864420840cf74474eff5fd80e65b8",
           "137": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6"
         },
-        "decimals": 18,
+        "decimals": {
+          "40": 8,
+          "56": 18,
+          "97": 18,
+          "137": 18
+        },
         "active": true
       }
     },
     "contractAddress": {
-      "1": "",
-      "40": "0x96de2679e2d34cfC7cA3245D2d1e55f7dCdF88Bc",
-      "56": "",
-      "97": "",
-      "137": ""
+      "40": "0x96de2679e2d34cfC7cA3245D2d1e55f7dCdF88Bc"
     },
     "projectLink": "https://telos.net",
     "twitter": "https://twitter.com/HelloTelos",
@@ -225,60 +221,56 @@
     "stakingToken": {
       "symbol": "USDT-TLOS",
       "address": {
-        "1": "",
-        "40": "0xAE46B3A778999567133c6c1F5C5feA953EE64995",
-        "56": "",
-        "97": "",
-        "137": ""
+        "40": "0xAE46B3A778999567133c6c1F5C5feA953EE64995"
       },
-      "decimals": 18,
+      "decimals": {
+        "40": 18
+      },
       "active": true,
       "lpToken": true
     },
     "rewardToken": {
       "symbol": "TLOS",
       "address": {
-        "1": "",
         "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
-        "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c",
-        "97": "",
-        "137": ""
+        "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c"
       },
-      "decimals": 18,
+      "decimals": {
+        "40": 18,
+        "56": 18
+      },
       "active": true
     },
     "lpTokens": {
       "token": {
         "symbol": "TLOS",
         "address": {
-          "1": "",
           "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
-          "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c",
-          "97": "",
-          "137": ""
+          "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c"
         },
-        "decimals": 18,
+        "decimals": {
+          "40": 18,
+          "56": 18
+        },
         "active": true
       },
       "quoteToken": {
         "symbol": "USDT",
         "address": {
-          "1": "",
           "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
           "56": "0x55d398326f99059ff775485246999027b3197955",
-          "97": "",
           "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"
         },
-        "decimals": 18,
+        "decimals": {
+          "40": 6,
+          "56": 18,
+          "137": 6
+        },
         "active": true
       }
     },
     "contractAddress": {
-      "1": "",
-      "40": "0xffd6a576dCa8742D7afED1538ad6EF8b0022dDbb",
-      "56": "",
-      "97": "",
-      "137": ""
+      "40": "0xffd6a576dCa8742D7afED1538ad6EF8b0022dDbb"
     },
     "projectLink": "https://telos.net",
     "twitter": "https://twitter.com/HelloTelos",
@@ -298,60 +290,56 @@
     "stakingToken": {
       "symbol": "USDC-TLOS",
       "address": {
-        "1": "",
-        "40": "0x2a4e6ef568e4a696555a5491c0fe7cbcf998c1bb",
-        "56": "",
-        "97": "",
-        "137": ""
+        "40": "0x2a4e6ef568e4a696555a5491c0fe7cbcf998c1bb"
       },
-      "decimals": 18,
+      "decimals": {
+        "40": 18
+      },
       "active": true,
       "lpToken": true
     },
     "rewardToken": {
       "symbol": "TLOS",
       "address": {
-        "1": "",
         "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
-        "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c",
-        "97": "",
-        "137": ""
+        "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c"
       },
-      "decimals": 18,
+      "decimals": {
+        "40": 18,
+        "56": 18
+      },
       "active": true
     },
     "lpTokens": {
       "token": {
         "symbol": "TLOS",
         "address": {
-          "1": "",
           "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
-          "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c",
-          "97": "",
-          "137": ""
+          "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c"
         },
-        "decimals": 18,
+        "decimals": {
+          "40": 18,
+          "56": 18
+        },
         "active": true
       },
       "quoteToken": {
         "symbol": "USDC",
         "address": {
-          "1": "",
           "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
           "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-          "97": "",
           "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174"
         },
-        "decimals": 18,
+        "decimals": {
+          "40": 6,
+          "56": 18,
+          "137": 6
+        },
         "active": true
       }
     },
     "contractAddress": {
-      "1": "",
-      "40": "0xE874E1EF5622aeb65b2394105E5051d265D3cFe6",
-      "56": "",
-      "97": "",
-      "137": ""
+      "40": "0xE874E1EF5622aeb65b2394105E5051d265D3cFe6"
     },
     "projectLink": "https://telos.net",
     "twitter": "https://twitter.com/HelloTelos",
@@ -371,60 +359,52 @@
     "stakingToken": {
       "symbol": "STLOS-TLOS",
       "address": {
-        "1": "",
-        "40": "0xa4dfe1fdca0c341c1ba26550ec5128c89964f0db",
-        "56": "",
-        "97": "",
-        "137": ""
+        "40": "0xa4dfe1fdca0c341c1ba26550ec5128c89964f0db"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18
+      },
       "active": true,
       "lpToken": true
     },
     "rewardToken": {
       "symbol": "TLOS",
       "address": {
-        "1": "",
         "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
-        "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c",
-        "97": "",
-        "137": ""
+        "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c"
       },
-      "decimals": 18,
+      "decimals": {
+        "40": 18,
+        "56": 18
+      },
       "active": true
     },
     "lpTokens": {
       "token": {
         "symbol": "TLOS",
         "address": {
-          "1": "",
           "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
-          "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c",
-          "97": "",
-          "137": ""
+          "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c"
         },
-        "decimals": 18,
+        "decimals": {
+          "40": 18,
+          "56": 18
+        },
         "active": true
       },
       "quoteToken": {
         "symbol": "STLOS",
         "address": {
-          "1": "",
-          "40": "0xB4B01216a5Bc8F1C8A33CD990A1239030E60C905",
-          "56": "",
-          "97": "",
-          "137": ""
+          "40": "0xB4B01216a5Bc8F1C8A33CD990A1239030E60C905"
         },
-        "decimals": 18,
+        "decimals": {
+          "40": 18
+        },
         "active": true
       }
     },
     "contractAddress": {
-      "1": "",
-      "40": "0x1FF8523D0Dc486fe6467826A321faD6521Ce8F8e",
-      "56": "",
-      "97": "",
-      "137": ""
+      "40": "0x1FF8523D0Dc486fe6467826A321faD6521Ce8F8e"
     },
     "projectLink": "https://telos.net",
     "twitter": "https://twitter.com/HelloTelos",
@@ -444,51 +424,49 @@
     "stakingToken": {
       "symbol": "STLOS-USDC",
       "address": {
-        "1": "",
-        "40": "0x3f830d537fe636057c8d7f9e8f264c7a7ff48a6f",
-        "56": "",
-        "97": "",
-        "137": ""
+        "40": "0x3f830d537fe636057c8d7f9e8f264c7a7ff48a6f"
       },
-      "decimals": 18,
+      "decimals": {
+        "40": 18
+      },
       "active": true,
       "lpToken": true
     },
     "rewardToken": {
       "symbol": "TLOS",
       "address": {
-        "1": "",
         "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
-        "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c",
-        "97": "",
-        "137": ""
+        "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c"
       },
-      "decimals": 18,
+      "decimals": {
+        "40": 18,
+        "56": 18
+      },
       "active": true
     },
     "lpTokens": {
       "token": {
         "symbol": "STLOS",
         "address": {
-          "1": "",
-          "40": "0xB4B01216a5Bc8F1C8A33CD990A1239030E60C905",
-          "56": "",
-          "97": "",
-          "137": ""
+          "40": "0xB4B01216a5Bc8F1C8A33CD990A1239030E60C905"
         },
-        "decimals": 18,
+        "decimals": {
+          "40": 18
+        },
         "active": true
       },
       "quoteToken": {
         "symbol": "USDC",
         "address": {
-          "1": "",
           "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
           "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-          "97": "",
           "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174"
         },
-        "decimals": 18,
+        "decimals": {
+          "40": 6,
+          "56": 18,
+          "137": 6
+        },
         "active": true
       }
     },
@@ -517,51 +495,53 @@
     "stakingToken": {
       "symbol": "USDT-USDC",
       "address": {
-        "1": "",
-        "40": "0x10aadd094677f286e5b9c969806122b5bb31906d",
-        "56": "",
-        "97": "",
-        "137": ""
+        "40": "0x10aadd094677f286e5b9c969806122b5bb31906d"
       },
-      "decimals": 18,
+      "decimals": {
+        "40": 18
+      },
       "active": true,
       "lpToken": true
     },
     "rewardToken": {
       "symbol": "TLOS",
       "address": {
-        "1": "",
         "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
-        "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c",
-        "97": "",
-        "137": ""
+        "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c"
       },
-      "decimals": 18,
+      "decimals": {
+        "40": 18,
+        "56": 18
+      },
       "active": true
     },
     "lpTokens": {
       "token": {
         "symbol": "USDT",
         "address": {
-          "1": "",
           "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
           "56": "0x55d398326f99059ff775485246999027b3197955",
-          "97": "",
           "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"
         },
-        "decimals": 18,
+        "decimals": {
+          "40": 6,
+          "56": 18,
+          "137": 6
+        },
         "active": true
       },
       "quoteToken": {
         "symbol": "USDC",
         "address": {
-          "1": "",
           "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
           "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-          "97": "",
           "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174"
         },
-        "decimals": 18,
+        "decimals": {
+          "40": 6,
+          "56": 18,
+          "137": 6
+        },
         "active": true
       }
     },
@@ -590,55 +570,52 @@
     "stakingToken": {
       "symbol": "PXP-BNB",
       "address": {
-        "1": "",
-        "56": "0xF4a7480948F11A0205D616258DCf43E9DaAE0586",
-        "97": "",
-        "137": ""
+        "56": "0xF4a7480948F11A0205D616258DCf43E9DaAE0586"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18
+      },
       "active": true,
       "lpToken": true
     },
     "rewardToken": {
       "symbol": "PXP",
       "address": {
-        "1": "",
-        "56": "0x93c27727e72EC7510a06ea450366C1418c4Ce547",
-        "97": "",
-        "137": ""
+        "56": "0x93c27727e72EC7510a06ea450366C1418c4Ce547"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18
+      },
       "active": true
     },
     "lpTokens": {
       "token": {
         "symbol": "PXP",
         "address": {
-          "1": "",
-          "56": "0x93c27727e72EC7510a06ea450366C1418c4Ce547",
-          "97": "",
-          "137": ""
+          "56": "0x93c27727e72EC7510a06ea450366C1418c4Ce547"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18
+        },
         "active": true
       },
       "quoteToken": {
         "symbol": "BNB",
         "address": {
-          "1": "",
           "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
           "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
           "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18,
+          "97": 18,
+          "137": 18
+        },
         "active": true
       }
     },
     "contractAddress": {
-      "1": "",
-      "56": "0xBE36303aeCc8F1A71fa1076349117BE2fb94f7cD",
-      "97": "0xb1108939748A635C5ed982a17FF5C6E7D79ECF62",
-      "137": ""
+      "56": "0xBE36303aeCc8F1A71fa1076349117BE2fb94f7cD"
     },
     "projectLink": "https://piratexpirate.io/",
     "twitter": "https://twitter.com/PXPNFTsGame",
@@ -659,55 +636,52 @@
     "stakingToken": {
       "symbol": "BNBx-BNB",
       "address": {
-        "1": "",
-        "56": "0xB88F211EC9ecfc2931Ae1DE53ea28Da76B9Ed37A",
-        "97": "",
-        "137": ""
+        "56": "0xB88F211EC9ecfc2931Ae1DE53ea28Da76B9Ed37A"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18
+      },
       "active": true,
       "lpToken": true
     },
     "rewardToken": {
       "symbol": "SD",
       "address": {
-        "1": "",
-        "56": "0x3BC5AC0dFdC871B365d159f728dd1B9A0B5481E8",
-        "97": "",
-        "137": ""
+        "56": "0x3BC5AC0dFdC871B365d159f728dd1B9A0B5481E8"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18
+      },
       "active": true
     },
     "lpTokens": {
       "token": {
         "symbol": "BNBx",
         "address": {
-          "1": "",
-          "56": "0x1bdd3Cf7F79cfB8EdbB955f20ad99211551BA275",
-          "97": "",
-          "137": ""
+          "56": "0x1bdd3Cf7F79cfB8EdbB955f20ad99211551BA275"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18
+        },
         "active": true
       },
       "quoteToken": {
         "symbol": "BNB",
         "address": {
-          "1": "",
           "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
           "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
           "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18,
+          "97": 18,
+          "137": 18
+        },
         "active": true
       }
     },
     "contractAddress": {
-      "1": "",
-      "56": "0x20589C5cC1907023BecA7E4E9A2325e1Ef5F30eF",
-      "97": "0xb1108939748A635C5ed982a17FF5C6E7D79ECF62",
-      "137": ""
+      "56": "0x20589C5cC1907023BecA7E4E9A2325e1Ef5F30eF"
     },
     "projectLink": "https://staderlabs.com/",
     "twitter": "https://twitter.com/stader_bnb",
@@ -728,55 +702,50 @@
     "stakingToken": {
       "symbol": "BRZ-BUSD",
       "address": {
-        "1": "",
-        "56": "0xfbD7e3575F709212A9f61aC6C63964A8FDa34CAC",
-        "97": "",
-        "137": ""
+        "56": "0xfbD7e3575F709212A9f61aC6C63964A8FDa34CAC"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18
+      },
       "active": true,
       "lpToken": true
     },
     "rewardToken": {
       "symbol": "BRZ",
       "address": {
-        "1": "",
-        "56": "0x71be881e9C5d4465B3FfF61e89c6f3651E69B5bb",
-        "97": "",
-        "137": ""
+        "56": "0x71be881e9C5d4465B3FfF61e89c6f3651E69B5bb"
       },
-      "decimals": 4,
+      "decimals": {
+        "56": 4
+      },
       "active": true
     },
     "lpTokens": {
       "token": {
         "symbol": "BRZ",
         "address": {
-          "1": "",
-          "56": "0x71be881e9C5d4465B3FfF61e89c6f3651E69B5bb",
-          "97": "",
-          "137": ""
+          "56": "0x71be881e9C5d4465B3FfF61e89c6f3651E69B5bb"
         },
-        "decimals": 4,
+        "decimals": {
+          "56": 4
+        },
         "active": true
       },
       "quoteToken": {
         "symbol": "BUSD",
         "address": {
-          "1": "",
           "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-          "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-          "137": ""
+          "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18,
+          "97": 18
+        },
         "active": true
       }
     },
     "contractAddress": {
-      "1": "",
-      "56": "0xdffcb3f3a64b8c7d722b33d098349417136585f8",
-      "97": "0xb1108939748A635C5ed982a17FF5C6E7D79ECF62",
-      "137": ""
+      "56": "0xdffcb3f3a64b8c7d722b33d098349417136585f8"
     },
     "projectLink": "https://www.transfero.com/transfero-crypto?lang=en",
     "twitter": "https://twitter.com/transferogroup",
@@ -796,55 +765,50 @@
     "stakingToken": {
       "symbol": "LGX-BUSD",
       "address": {
-        "1": "",
-        "56": "0x004F72D474eE262701205E3637B4367594eFb11D",
-        "97": "",
-        "137": ""
+        "56": "0x004F72D474eE262701205E3637B4367594eFb11D"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18
+      },
       "active": true,
       "lpToken": true
     },
     "rewardToken": {
       "symbol": "LGX",
       "address": {
-        "1": "",
-        "56": "0x9096B4309224d751FCB43d7eB178dcFFc122aD15",
-        "97": "",
-        "137": ""
+        "56": "0x9096B4309224d751FCB43d7eB178dcFFc122aD15"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18
+      },
       "active": true
     },
     "lpTokens": {
       "token": {
         "symbol": "LGX",
         "address": {
-          "1": "",
-          "56": "0x9096B4309224d751FCB43d7eB178dcFFc122aD15",
-          "97": "",
-          "137": ""
+          "56": "0x9096B4309224d751FCB43d7eB178dcFFc122aD15"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18
+        },
         "active": true
       },
       "quoteToken": {
         "symbol": "BUSD",
         "address": {
-          "1": "",
           "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-          "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-          "137": ""
+          "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18,
+          "97": 18
+        },
         "active": true
       }
     },
     "contractAddress": {
-      "1": "",
-      "56": "0xc81af2222ac6ec0f3ec08b875df25326b40e7a76",
-      "97": "0xb1108939748A635C5ed982a17FF5C6E7D79ECF62",
-      "137": ""
+      "56": "0xc81af2222ac6ec0f3ec08b875df25326b40e7a76"
     },
     "projectLink": "https://solo.to/legionnetwork",
     "twitter": "https://twitter.com/LegionNetwork__",
@@ -865,55 +829,52 @@
     "stakingToken": {
       "symbol": "COC-BNB",
       "address": {
-        "1": "",
-        "56": "0x5467dD00ca4d91010Ab2A3aEF8a0162DC218801A",
-        "97": "",
-        "137": ""
+        "56": "0x5467dD00ca4d91010Ab2A3aEF8a0162DC218801A"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18
+      },
       "active": true,
       "lpToken": true
     },
     "rewardToken": {
       "symbol": "COC",
       "address": {
-        "1": "",
-        "56": "0xbDC3b3639f7AA19e623A4d603A3Fb7Ab20115A91",
-        "97": "",
-        "137": ""
+        "56": "0xbDC3b3639f7AA19e623A4d603A3Fb7Ab20115A91"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18
+      },
       "active": true
     },
     "lpTokens": {
       "token": {
         "symbol": "COC",
         "address": {
-          "1": "",
-          "56": "0xbDC3b3639f7AA19e623A4d603A3Fb7Ab20115A91",
-          "97": "",
-          "137": ""
+          "56": "0xbDC3b3639f7AA19e623A4d603A3Fb7Ab20115A91"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18
+        },
         "active": true
       },
       "quoteToken": {
         "symbol": "BNB",
         "address": {
-          "1": "",
           "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
           "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
           "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18,
+          "97": 18,
+          "137": 18
+        },
         "active": true
       }
     },
     "contractAddress": {
-      "1": "",
-      "56": "0xf4195c4ddb10db3df27816bb70dc342d861a7561",
-      "97": "0xb1108939748A635C5ed982a17FF5C6E7D79ECF62",
-      "137": ""
+      "56": "0xf4195c4ddb10db3df27816bb70dc342d861a7561"
     },
     "projectLink": "https://www.coinofchampions.com/",
     "twitter": "https://twitter.com/coinofchampions",
@@ -934,12 +895,11 @@
     "stakingToken": {
       "symbol": "WGICT-USDT",
       "address": {
-        "1": "",
-        "56": "0x4c64c44a6ed5f1fdce5263d9b512c2465ffe8256",
-        "97": "",
-        "137": ""
+        "56": "0x4c64c44a6ed5f1fdce5263d9b512c2465ffe8256"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18
+      },
       "active": true,
       "lpToken": true
     },
@@ -947,43 +907,40 @@
       "token": {
         "symbol": "WGICT",
         "address": {
-          "1": "",
-          "56": "0x27B2D695eF01d10EE96582a23db201B0Aa338639",
-          "97": "",
-          "137": ""
+          "56": "0x27B2D695eF01d10EE96582a23db201B0Aa338639"
         },
-        "decimals": 8,
+        "decimals": {
+          "56": 8
+        },
         "active": true
       },
       "quoteToken": {
         "symbol": "USDT",
         "address": {
-          "1": "",
           "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
           "56": "0x55d398326f99059ff775485246999027b3197955",
-          "97": "",
           "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"
         },
-        "decimals": 18,
+        "decimals": {
+          "40": 6,
+          "56": 18,
+          "137": 6
+        },
         "active": true
       }
     },
     "rewardToken": {
       "symbol": "WGICT",
       "address": {
-        "1": "",
-        "56": "0x27B2D695eF01d10EE96582a23db201B0Aa338639",
-        "97": "",
-        "137": ""
+        "56": "0x27B2D695eF01d10EE96582a23db201B0Aa338639"
       },
-      "decimals": 8,
+      "decimals": {
+        "56": 8
+      },
       "active": true
     },
     "contractAddress": {
-      "1": "",
-      "56": "0xe4417357b022224736ca845856917aaae912c0bd",
-      "97": "0xb1108939748A635C5ed982a17FF5C6E7D79ECF62",
-      "137": ""
+      "56": "0xe4417357b022224736ca845856917aaae912c0bd"
     },
     "projectLink": "https://gictrade.io/",
     "twitter": "https://twitter.com/GICTraders/ ",
@@ -1004,55 +961,50 @@
     "stakingToken": {
       "symbol": "NFT11-BUSD",
       "address": {
-        "1": "",
-        "56": "0xEf0A90fb728195F63C911f52ab4bde331089319f",
-        "97": "",
-        "137": ""
+        "56": "0xEf0A90fb728195F63C911f52ab4bde331089319f"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18
+      },
       "active": true,
       "lpToken": true
     },
     "rewardToken": {
       "symbol": "NFT11",
       "address": {
-        "1": "",
-        "56": "0x73F67AE7f934FF15beaBf55A28C2Da1eEb9B56Ec",
-        "97": "",
-        "137": ""
+        "56": "0x73F67AE7f934FF15beaBf55A28C2Da1eEb9B56Ec"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18
+      },
       "active": true
     },
     "lpTokens": {
       "token": {
         "symbol": "NFT11",
         "address": {
-          "1": "",
-          "56": "0x73F67AE7f934FF15beaBf55A28C2Da1eEb9B56Ec",
-          "97": "",
-          "137": ""
+          "56": "0x73F67AE7f934FF15beaBf55A28C2Da1eEb9B56Ec"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18
+        },
         "active": true
       },
       "quoteToken": {
         "symbol": "BUSD",
         "address": {
-          "1": "",
           "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-          "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-          "137": ""
+          "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18,
+          "97": 18
+        },
         "active": true
       }
     },
     "contractAddress": {
-      "1": "",
-      "56": "0x420B9baD20d43D561377615325E60d5B7CdB1B35",
-      "97": "0xb1108939748A635C5ed982a17FF5C6E7D79ECF62",
-      "137": ""
+      "56": "0x420B9baD20d43D561377615325E60d5B7CdB1B35"
     },
     "projectLink": "https://nft11.io/",
     "twitter": "https://twitter.com/NFT11_Official",
@@ -1073,55 +1025,52 @@
     "stakingToken": {
       "symbol": "RUBY-BNB",
       "address": {
-        "1": "",
-        "56": "0xec9f5a5e4690fa14025971f0d2dd91f5600e24c7",
-        "97": "",
-        "137": ""
+        "56": "0xec9f5a5e4690fa14025971f0d2dd91f5600e24c7"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18
+      },
       "active": true,
       "lpToken": true
     },
     "rewardToken": {
       "symbol": "RUBY",
       "address": {
-        "1": "",
-        "56": "0xf7722aa0714096f1fb5ef83e6041cebb4d58a08e",
-        "97": "",
-        "137": ""
+        "56": "0xf7722aa0714096f1fb5ef83e6041cebb4d58a08e"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18
+      },
       "active": true
     },
     "lpTokens": {
       "token": {
         "symbol": "RUBY",
         "address": {
-          "1": "",
-          "56": "0xf7722aa0714096f1fb5ef83e6041cebb4d58a08e",
-          "97": "",
-          "137": ""
+          "56": "0xf7722aa0714096f1fb5ef83e6041cebb4d58a08e"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18
+        },
         "active": true
       },
       "quoteToken": {
         "symbol": "BNB",
         "address": {
-          "1": "",
           "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
           "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
           "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18,
+          "97": 18,
+          "137": 18
+        },
         "active": true
       }
     },
     "contractAddress": {
-      "1": "",
-      "56": "0xbc3f5571fc3338d0b9216a2c5c2e6f338531e3f8",
-      "97": "0xb1108939748A635C5ed982a17FF5C6E7D79ECF62",
-      "137": ""
+      "56": "0xbc3f5571fc3338d0b9216a2c5c2e6f338531e3f8"
     },
     "projectLink": "https://www.rubyplaynet.com/",
     "harvest": true,
@@ -1141,55 +1090,50 @@
     "stakingToken": {
       "symbol": "DRF-BUSD",
       "address": {
-        "1": "",
-        "56": "0x5FFc5b392Fcc33357c6a8240bda1C9374A55E6B8",
-        "97": "",
-        "137": ""
+        "56": "0x5FFc5b392Fcc33357c6a8240bda1C9374A55E6B8"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18
+      },
       "active": true,
       "lpToken": true
     },
     "rewardToken": {
       "symbol": "DRF",
       "address": {
-        "1": "",
-        "56": "0x89C1Af791d7B4cf046Dca8Fa10a41Dd2298A6a3F",
-        "97": "",
-        "137": ""
+        "56": "0x89C1Af791d7B4cf046Dca8Fa10a41Dd2298A6a3F"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18
+      },
       "active": true
     },
     "lpTokens": {
       "token": {
         "symbol": "DRF",
         "address": {
-          "1": "",
-          "56": "0x89C1Af791d7B4cf046Dca8Fa10a41Dd2298A6a3F",
-          "97": "",
-          "137": ""
+          "56": "0x89C1Af791d7B4cf046Dca8Fa10a41Dd2298A6a3F"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18
+        },
         "active": true
       },
       "quoteToken": {
         "symbol": "BUSD",
         "address": {
-          "1": "",
           "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-          "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-          "137": ""
+          "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18,
+          "97": 18
+        },
         "active": true
       }
     },
     "contractAddress": {
-      "1": "",
-      "56": "0xc8519d981a99c9a56364895c6d37eea686d70540",
-      "97": "0xb1108939748A635C5ed982a17FF5C6E7D79ECF62",
-      "137": ""
+      "56": "0xc8519d981a99c9a56364895c6d37eea686d70540"
     },
     "projectLink": "https://derify.finance/",
     "twitter": "https://twitter.com/DerifyProtocol",
@@ -1210,55 +1154,52 @@
     "stakingToken": {
       "symbol": "BONES-BNB",
       "address": {
-        "1": "",
-        "56": "0xe0900Db57d81DE4E6a13e90eb836Fa91Be50515A",
-        "97": "",
-        "137": ""
+        "56": "0xe0900Db57d81DE4E6a13e90eb836Fa91Be50515A"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18
+      },
       "active": true,
       "lpToken": true
     },
     "rewardToken": {
       "symbol": "BONES",
       "address": {
-        "1": "",
-        "56": "0x08426874d46f90e5E527604fA5E3e30486770Eb3",
-        "97": "",
-        "137": ""
+        "56": "0x08426874d46f90e5E527604fA5E3e30486770Eb3"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18
+      },
       "active": true
     },
     "lpTokens": {
       "token": {
         "symbol": "BONES",
         "address": {
-          "1": "",
-          "56": "0x08426874d46f90e5E527604fA5E3e30486770Eb3",
-          "97": "",
-          "137": ""
+          "56": "0x08426874d46f90e5E527604fA5E3e30486770Eb3"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18
+        },
         "active": true
       },
       "quoteToken": {
         "symbol": "BNB",
         "address": {
-          "1": "",
           "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
           "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
           "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18,
+          "97": 18,
+          "137": 18
+        },
         "active": true
       }
     },
     "contractAddress": {
-      "1": "",
-      "56": "0x84291c0e6b19cc833afc491561aacfbdd6885d63",
-      "97": "0xb1108939748A635C5ed982a17FF5C6E7D79ECF62",
-      "137": ""
+      "56": "0x84291c0e6b19cc833afc491561aacfbdd6885d63"
     },
     "projectLink": "https://moonshots.farm/",
     "twitter": "https://twitter.com/MoonshotsFarm",
@@ -1279,55 +1220,53 @@
     "stakingToken": {
       "symbol": "GENv3-BNB",
       "address": {
-        "1": "",
-        "56": "0xCfa1d8afFA4da8e6CaBE6fde66DDf4eDA89f0e42",
-        "97": "",
-        "137": ""
+        "56": "0xCfa1d8afFA4da8e6CaBE6fde66DDf4eDA89f0e42"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18
+      },
       "active": true,
       "lpToken": true
     },
     "rewardToken": {
       "symbol": "GENv3",
       "address": {
-        "1": "",
-        "56": "0x98a61CA1504b92Ae768eF20b85aa97030b7a1Edf",
-        "97": "",
-        "137": ""
+        "56": "0x98a61CA1504b92Ae768eF20b85aa97030b7a1Edf"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18
+      },
       "active": true
     },
     "lpTokens": {
       "token": {
         "symbol": "GENv3",
         "address": {
-          "1": "",
-          "56": "0x98a61CA1504b92Ae768eF20b85aa97030b7a1Edf",
-          "97": "",
-          "137": ""
+          "56": "0x98a61CA1504b92Ae768eF20b85aa97030b7a1Edf"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18
+        },
         "active": true
       },
       "quoteToken": {
         "symbol": "BNB",
         "address": {
-          "1": "",
           "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
           "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
           "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18,
+          "97": 18,
+          "137": 18
+        },
         "active": true
       }
     },
     "contractAddress": {
-      "1": "",
       "56": "0xc3a5dbb5121772628956b9ce709ec1dda6a94b4d",
-      "97": "0xb1108939748A635C5ed982a17FF5C6E7D79ECF62",
-      "137": ""
+      "97": "0xb1108939748A635C5ed982a17FF5C6E7D79ECF62"
     },
     "projectLink": "https://www.generic.money/",
     "twitter": "https://twitter.com/thegenericcoin",
@@ -1348,55 +1287,52 @@
     "stakingToken": {
       "symbol": "LC-BNB",
       "address": {
-        "1": "",
-        "56": "0xc5a69133432eF17CD15C501CAa5f9cF28C22aA00",
-        "97": "",
-        "137": ""
+        "56": "0xc5a69133432eF17CD15C501CAa5f9cF28C22aA00"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18
+      },
       "active": true,
       "lpToken": true
     },
     "rewardToken": {
       "symbol": "LC",
       "address": {
-        "1": "",
-        "56": "0x6012C3a742f92103d238F1c8306cF8fbcDEca8B3",
-        "97": "",
-        "137": ""
+        "56": "0x6012C3a742f92103d238F1c8306cF8fbcDEca8B3"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18
+      },
       "active": true
     },
     "lpTokens": {
       "token": {
         "symbol": "LC",
         "address": {
-          "1": "",
-          "56": "0x6012C3a742f92103d238F1c8306cF8fbcDEca8B3",
-          "97": "",
-          "137": ""
+          "56": "0x6012C3a742f92103d238F1c8306cF8fbcDEca8B3"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18
+        },
         "active": true
       },
       "quoteToken": {
         "symbol": "BNB",
         "address": {
-          "1": "",
           "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
           "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
           "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18,
+          "97": 18,
+          "137": 18
+        },
         "active": true
       }
     },
     "contractAddress": {
-      "1": "",
-      "56": "0x1e7133e05d1b4bdab44cb5503fa4a801000c963a",
-      "97": "0xb1108939748A635C5ed982a17FF5C6E7D79ECF62",
-      "137": ""
+      "56": "0x1e7133e05d1b4bdab44cb5503fa4a801000c963a"
     },
     "projectLink": "https://www.luckychip.io/",
     "twitter": "https://twitter.com/luckychip_io",
@@ -1417,55 +1353,53 @@
     "stakingToken": {
       "symbol": "GENv3-BNB",
       "address": {
-        "1": "",
-        "56": "0xCfa1d8afFA4da8e6CaBE6fde66DDf4eDA89f0e42",
-        "97": "",
-        "137": ""
+        "56": "0xCfa1d8afFA4da8e6CaBE6fde66DDf4eDA89f0e42"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18
+      },
       "active": true,
       "lpToken": true
     },
     "rewardToken": {
       "symbol": "GENv3",
       "address": {
-        "1": "",
-        "56": "0x98a61CA1504b92Ae768eF20b85aa97030b7a1Edf",
-        "97": "",
-        "137": ""
+        "56": "0x98a61CA1504b92Ae768eF20b85aa97030b7a1Edf"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18
+      },
       "active": true
     },
     "lpTokens": {
       "token": {
         "symbol": "GENv3",
         "address": {
-          "1": "",
-          "56": "0x98a61CA1504b92Ae768eF20b85aa97030b7a1Edf",
-          "97": "",
-          "137": ""
+          "56": "0x98a61CA1504b92Ae768eF20b85aa97030b7a1Edf"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18
+        },
         "active": true
       },
       "quoteToken": {
         "symbol": "BNB",
         "address": {
-          "1": "",
           "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
           "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
           "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18,
+          "97": 18,
+          "137": 18
+        },
         "active": true
       }
     },
     "contractAddress": {
-      "1": "",
       "56": "0xe406371a7e43f992cb3bc70118f9664cd37e3489",
-      "97": "0xb1108939748A635C5ed982a17FF5C6E7D79ECF62",
-      "137": ""
+      "97": "0xb1108939748A635C5ed982a17FF5C6E7D79ECF62"
     },
     "projectLink": "https://www.generic.money/",
     "twitter": "https://twitter.com/thegenericcoin",
@@ -1485,55 +1419,52 @@
     "stakingToken": {
       "symbol": "SWT-BNB",
       "address": {
-        "1": "",
-        "56": "0xD2280ae010CE3e519a09a459E200bACD303eA330",
-        "97": "",
-        "137": ""
+        "56": "0xD2280ae010CE3e519a09a459E200bACD303eA330"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18
+      },
       "active": true,
       "lpToken": true
     },
     "rewardToken": {
       "symbol": "SWT",
       "address": {
-        "1": "",
-        "56": "0xE8EbCf4Fd1faa9B77c0ec0B26e7Cc32a251Cd799",
-        "97": "",
-        "137": ""
+        "56": "0xE8EbCf4Fd1faa9B77c0ec0B26e7Cc32a251Cd799"
       },
-      "decimals": 18,
+      "decimals": {
+        "56": 18
+      },
       "active": true
     },
     "lpTokens": {
       "token": {
         "symbol": "SWT",
         "address": {
-          "1": "",
-          "56": "0xE8EbCf4Fd1faa9B77c0ec0B26e7Cc32a251Cd799",
-          "97": "",
-          "137": ""
+          "56": "0xE8EbCf4Fd1faa9B77c0ec0B26e7Cc32a251Cd799"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18
+        },
         "active": true
       },
       "quoteToken": {
         "symbol": "BNB",
         "address": {
-          "1": "",
           "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
           "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
           "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
         },
-        "decimals": 18,
+        "decimals": {
+          "56": 18,
+          "97": 18,
+          "137": 18
+        },
         "active": true
       }
     },
     "contractAddress": {
-      "1": "",
-      "56": "0x6d986e76745fa4f99bad44dd2792351bf2d0800f",
-      "97": "",
-      "137": ""
+      "56": "0x6d986e76745fa4f99bad44dd2792351bf2d0800f"
     },
     "projectLink": "https://sweetpad.io/",
     "twitter": "https://twitter.com/SweetPad_",

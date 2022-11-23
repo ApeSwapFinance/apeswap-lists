@@ -14,7 +14,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -36,7 +35,6 @@
     "style": "featured",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -58,10 +56,8 @@
     "style": "featured",
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-      "137": ""
+      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     }
   },
   {
@@ -79,7 +75,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -100,7 +95,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -122,7 +116,6 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -144,7 +137,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -166,7 +158,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -188,7 +179,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -210,7 +200,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -232,7 +221,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -254,7 +242,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -277,7 +264,6 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -300,7 +286,6 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -322,7 +307,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -344,7 +328,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -366,7 +349,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -389,7 +371,6 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -411,7 +392,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -433,7 +413,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -455,7 +434,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -477,7 +455,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -500,7 +477,6 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -522,7 +498,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -544,7 +519,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -566,7 +540,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -588,7 +561,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -610,7 +582,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -632,7 +603,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -654,7 +624,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -676,7 +645,6 @@
     },
     "quoteTokenSymbol": "ETH",
     "quoteTokenAdresses": {
-      "1": "",
       "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
       "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
       "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
@@ -699,7 +667,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -721,7 +688,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -743,7 +709,6 @@
     },
     "quoteTokenSymbol": "ETH",
     "quoteTokenAdresses": {
-      "1": "",
       "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
       "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
       "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
@@ -789,10 +754,8 @@
     },
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-      "137": ""
+      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     }
   },
   {
@@ -810,10 +773,8 @@
     },
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-      "137": ""
+      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     },
     "projectLink": "https://makerdao.com/en/"
   },
@@ -832,10 +793,8 @@
     },
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-      "137": ""
+      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     }
   },
   {
@@ -853,7 +812,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -875,7 +833,6 @@
     },
     "quoteTokenSymbol": "ETH",
     "quoteTokenAdresses": {
-      "1": "",
       "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
       "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
       "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
@@ -898,7 +855,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -920,7 +876,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -942,7 +897,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -965,7 +919,6 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -987,7 +940,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -1009,7 +961,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -1031,7 +982,6 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -1053,7 +1003,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -1076,7 +1025,6 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -1099,7 +1047,6 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -1121,7 +1068,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -1144,7 +1090,6 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -1166,7 +1111,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -1189,7 +1133,6 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -1212,7 +1155,6 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -1235,7 +1177,6 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -1258,7 +1199,6 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -1281,7 +1221,6 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -1304,7 +1243,6 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -1327,7 +1265,6 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -1350,7 +1287,6 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -1372,7 +1308,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -1395,7 +1330,6 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -1418,7 +1352,6 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -1441,7 +1374,6 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -1463,7 +1395,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -1485,7 +1416,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -1507,7 +1437,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -1529,7 +1458,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -1551,7 +1479,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -1573,7 +1500,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -1595,7 +1521,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -1617,7 +1542,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -1639,7 +1563,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -1661,7 +1584,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -1683,7 +1605,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -1705,7 +1626,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -1727,7 +1647,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -1750,7 +1669,6 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -1772,7 +1690,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -1794,7 +1711,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -1817,7 +1733,6 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -1839,7 +1754,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -1861,7 +1775,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -1883,7 +1796,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -1906,7 +1818,6 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -1928,7 +1839,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -1950,7 +1860,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -1972,10 +1881,8 @@
     },
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-      "137": ""
+      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     },
     "projectLink": "https://hotcross.com/"
   },
@@ -1995,7 +1902,6 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -2018,7 +1924,6 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -2040,7 +1945,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -2062,7 +1966,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -2084,7 +1987,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -2107,7 +2009,6 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -2129,7 +2030,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -2151,10 +2051,8 @@
     },
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-      "137": ""
+      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     },
     "projectLink": "https://mor.growthdefi.com/"
   },
@@ -2173,7 +2071,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -2195,7 +2092,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -2218,7 +2114,6 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -2240,7 +2135,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -2262,7 +2156,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -2285,7 +2178,6 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -2307,7 +2199,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -2329,7 +2220,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -2351,7 +2241,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -2374,7 +2263,6 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -2396,7 +2284,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -2418,7 +2305,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -2440,7 +2326,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -2462,7 +2347,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -2485,7 +2369,6 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -2507,7 +2390,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -2529,7 +2411,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -2552,7 +2433,6 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -2574,7 +2454,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -2596,7 +2475,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -2618,7 +2496,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -2640,7 +2517,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -2662,7 +2538,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -2684,7 +2559,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -2707,10 +2581,8 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-      "137": ""
+      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     },
     "projectLink": "https://trueusd.com/"
   },
@@ -2730,7 +2602,6 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -2752,7 +2623,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -2775,7 +2645,6 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -2797,7 +2666,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -2819,7 +2687,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -2841,7 +2708,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -2863,7 +2729,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -2885,7 +2750,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -2907,7 +2771,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -2929,7 +2792,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -2951,7 +2813,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -2973,7 +2834,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -2995,7 +2855,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -3017,10 +2876,8 @@
     },
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-      "137": ""
+      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     },
     "projectLink": "https://frax.finance/"
   },
@@ -3039,10 +2896,8 @@
     },
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-      "137": ""
+      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     },
     "projectLink": "https://www.relaychain.com/"
   },
@@ -3061,7 +2916,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -3083,7 +2937,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -3105,10 +2958,8 @@
     },
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-      "137": ""
+      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     },
     "projectLink": "https://infomatix.io/"
   },
@@ -3127,10 +2978,8 @@
     },
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-      "137": ""
+      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     },
     "projectLink": "https://projectseed.io/"
   },
@@ -3149,7 +2998,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -3171,7 +3019,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -3193,7 +3040,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -3215,7 +3061,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -3237,7 +3082,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -3259,7 +3103,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -3281,7 +3124,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -3303,7 +3145,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -3325,7 +3166,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -3347,7 +3187,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -3369,10 +3208,8 @@
     },
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-      "137": ""
+      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     },
     "projectLink": "https://zignaly.com/"
   },
@@ -3391,7 +3228,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -3413,7 +3249,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -3435,7 +3270,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -3457,7 +3291,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -3479,7 +3312,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -3501,7 +3333,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -3523,7 +3354,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -3545,7 +3375,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -3567,7 +3396,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -3589,7 +3417,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -3611,7 +3438,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -3633,7 +3459,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -3655,7 +3480,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -3677,10 +3501,8 @@
     },
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-      "137": ""
+      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     },
     "projectLink": "https://rankerdao.com/"
   },
@@ -3699,10 +3521,8 @@
     },
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-      "137": ""
+      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     },
     "projectLink": "https://frontier.xyz/"
   },
@@ -3721,7 +3541,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -3743,7 +3562,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -3765,7 +3583,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -3787,7 +3604,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -3809,10 +3625,8 @@
     },
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-      "137": ""
+      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     },
     "projectLink": "https://www.kyte.one/"
   },
@@ -3831,10 +3645,8 @@
     },
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-      "137": ""
+      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     },
     "projectLink": "https://outerringmmo.com/"
   },
@@ -3853,7 +3665,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -3875,7 +3686,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -3897,10 +3707,8 @@
     },
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-      "137": ""
+      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     },
     "projectLink": "https://gravis.finance/"
   },
@@ -3919,7 +3727,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -3941,10 +3748,8 @@
     },
     "quoteTokenSymbol": "USDT",
     "quoteTokenAdresses": {
-      "1": "",
       "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
       "56": "0x55d398326f99059ff775485246999027b3197955",
-      "97": "",
       "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"
     },
     "projectLink": "https://h2o-securities.com/"
@@ -3964,7 +3769,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -3986,10 +3790,8 @@
     },
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-      "137": ""
+      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     },
     "projectLink": "https://www.telos.net/"
   },
@@ -4008,7 +3810,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -4030,7 +3831,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -4052,7 +3852,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -4074,7 +3873,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -4096,7 +3894,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -4118,10 +3915,8 @@
     },
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-      "137": ""
+      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     },
     "projectLink": "https://hector.network/"
   },
@@ -4140,10 +3935,8 @@
     },
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-      "137": ""
+      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     },
     "projectLink": "https://metashooter.gg/"
   },
@@ -4162,10 +3955,8 @@
     },
     "quoteTokenSymbol": "USDT",
     "quoteTokenAdresses": {
-      "1": "",
       "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
       "56": "0x55d398326f99059ff775485246999027b3197955",
-      "97": "",
       "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"
     },
     "projectLink": "https://bolide.fi/"
@@ -4185,10 +3976,8 @@
     },
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-      "137": ""
+      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     },
     "projectLink": "https://apemove.io/"
   },
@@ -4207,10 +3996,8 @@
     },
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-      "137": ""
+      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     },
     "projectLink": "https://staderlabs.com/"
   },
@@ -4229,10 +4016,8 @@
     },
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-      "137": ""
+      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     },
     "projectLink": "https://piston-token.com/swap"
   },
@@ -4251,7 +4036,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
@@ -4273,7 +4057,6 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
       "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
