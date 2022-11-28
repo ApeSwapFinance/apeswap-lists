@@ -1,30 +1,5 @@
 import { ChainId } from '@ape.swap/sdk'
 
-export interface Address {
-  [ChainId.BSC]: string
-  [ChainId.MATIC]: string
-  [ChainId.MAINNET]: string
-  [ChainId.BSC_TESTNET]: string
-  [ChainId.TLOS]?: string
-}
-
-// Since farms and pools are only on BSC and TESTNET we dont need other chains
-export interface FarmsAndPoolAddress {
-  [ChainId.BSC]: string
-  [ChainId.BSC_TESTNET]: string
-}
-
-// Since vaults are only on BSC and TESTNET we dont need other chains
-export interface ChainToNumber {
-  [ChainId.BSC]: number
-  [ChainId.BSC_TESTNET]: number | null
-}
-
-export interface ChainToString {
-  [ChainId.BSC]: string
-  [ChainId.BSC_TESTNET]: string
-}
-
 export enum QuoteToken {
   'BNB' = 'BNB',
   'BANANA' = 'BANANA',
@@ -51,9 +26,9 @@ export interface FarmStyles {
 
 export interface Token {
   symbol: string
-  address: Address
+  address: Partial<Record<ChainId, string>>
   active: boolean
-  decimals?: number
+  decimals?: Partial<Record<ChainId, number | null>>
   dontFetch?: boolean
   lpToken?: boolean
   price?: number
@@ -61,10 +36,9 @@ export interface Token {
 
 // Interfaces used in Vaults
 export interface MasterChef {
-  pid: ChainToNumber
-  // TODO: Change to type address and use each chain. Using any so we dont have to define each chain
-  address: any
-  rewardsPerBlock: ChainToString
+  pid: Partial<Record<ChainId, number>>
+  address: Partial<Record<ChainId, string>>
+  rewardsPerBlock: Partial<Record<ChainId, string>>
   rewardToken: Token
 }
 
@@ -72,13 +46,13 @@ export interface MasterChef {
 
 export interface BillsConfig {
   index: number
-  contractAddress: Address
+  contractAddress: Partial<Record<ChainId, string>>
   billType: string
   token: Token
   quoteToken: Token
   lpToken: Token
   earnToken: Token
-  billNnftAddress: Address
+  billNnftAddress: Partial<Record<ChainId, string>>
   inactive?: boolean
   projectLink?: string
   twitter?: string
@@ -90,8 +64,7 @@ export interface VaultConfig {
   type: 'MAX' | 'AUTO' | 'BURN'
   version: 'V1' | 'V2'
   availableChains: number[]
-  // TODO: Change to type address and use each chain. Using any so we dont have to define each chain
-  stratAddress: any
+  stratAddress: Partial<Record<ChainId, string>>
   platform: string
   token: Token
   quoteToken?: Token
@@ -107,14 +80,14 @@ export interface VaultConfig {
 export interface FarmConfig {
   pid: number
   lpSymbol: string
-  lpAddresses: FarmsAndPoolAddress
+  lpAddresses: Partial<Record<ChainId, string>>
   tokenSymbol: string
   style?: keyof FarmStyles
   image?: string
   disableApr?: boolean
-  tokenAddresses: FarmsAndPoolAddress
+  tokenAddresses: Partial<Record<ChainId, string>>
   quoteTokenSymbol: QuoteToken
-  quoteTokenAdresses: Address
+  quoteTokenAdresses: Partial<Record<ChainId, string>>
   multiplier?: string
   isCommunity?: boolean
   dual?: {
@@ -133,7 +106,7 @@ export interface PoolConfig {
   stakingLimit?: number
   bonusEndBlock?: number
   rewardToken: Token | null
-  contractAddress: FarmsAndPoolAddress
+  contractAddress: Partial<Record<ChainId, string>>
   poolCategory?: PoolCategory
   projectLink: string
   twitter?: string
@@ -179,7 +152,7 @@ export interface JungleFarmConfig {
   stakingLimit?: number
   bonusEndBlock?: number
   rewardToken: Token
-  contractAddress: Address
+  contractAddress: Partial<Record<ChainId, string>>
   projectLink: string
   twitter?: string
   tokenPerBlock?: string
@@ -207,7 +180,7 @@ export interface NfaStakingPoolConfig {
   sousId: number
   tier: number
   rewardToken: Token
-  contractAddress: FarmsAndPoolAddress
+  contractAddress: Partial<Record<ChainId, string>>
   tokenPerBlock: string
   isFinished: boolean
   endBlock: number
