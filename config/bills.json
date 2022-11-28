@@ -2620,7 +2620,8 @@
       "decimals": {
         "137": 18
       },
-      "active": true
+      "active": true,
+      "priceGetter": "arrakis"
     },
     "quoteToken": {
       "symbol": "DAI",
@@ -2643,7 +2644,8 @@
         "137": 18
       },
       "active": true,
-      "lpToken": true
+      "lpToken": true,
+      "priceGetter": "arrakis"
     },
     "earnToken": {
       "symbol": "uCR",
@@ -2653,7 +2655,8 @@
       "decimals": {
         "137": 18
       },
-      "active": true
+      "active": true,
+      "priceGetter": "arrakis"
     },
     "billNnftAddress": {
       "137": "0xf63e25b5492a856189420724fe6f3573620966f3"

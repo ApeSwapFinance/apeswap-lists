@@ -17,6 +17,10 @@ export enum PoolCategory {
   'JUNGLE' = 'Jungle',
 }
 
+export enum PriceGetter {
+  ARRAKIS = 'arrakis',
+}
+
 export interface FarmStyles {
   deprecated: string
   warning: string
@@ -32,6 +36,7 @@ export interface Token {
   dontFetch?: boolean
   lpToken?: boolean
   price?: number
+  priceGetter?: PriceGetter
 }
 
 // Interfaces used in Vaults

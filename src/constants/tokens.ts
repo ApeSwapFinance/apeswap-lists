@@ -1,5 +1,5 @@
 import { ChainId } from '@ape.swap/sdk'
-import { Token } from './types'
+import { PriceGetter, Token } from './types'
 
 const tokens: Record<string, Token> = {
   // BANANA should always be first token for GNANA calculation
@@ -1742,6 +1742,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: 18,
     },
     active: true,
+    priceGetter: PriceGetter.ARRAKIS,
   },
   uad: {
     symbol: 'uAD',
@@ -1752,6 +1753,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: 18,
     },
     active: true,
+    priceGetter: PriceGetter.ARRAKIS,
   },
 
   // Test LPs
@@ -2486,6 +2488,7 @@ const tokens: Record<string, Token> = {
     decimals: { [ChainId.MATIC]: 18 },
     active: true,
     lpToken: true,
+    priceGetter: PriceGetter.ARRAKIS,
   },
 }
 
