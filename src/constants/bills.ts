@@ -713,7 +713,23 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.dogira.net/',
     twitter: 'https://twitter.com/DogiraOfficial',
   },
-
+  {
+    index: 103,
+    contractAddress: {
+      [ChainId.MATIC]: '0xd31a7695Ff46D18EEED3f6C9330d48793901E187',
+    },
+    billType: 'Jungle Bill',
+    token: tokens.uad,
+    quoteToken: tokens.dai,
+    lpToken: tokens.daiUad,
+    earnToken: tokens.ucr,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0xf63e25b5492a856189420724fe6f3573620966f3',
+    },
+    inactive: false,
+    projectLink: '',
+    twitter: '',
+  },
   /*
     Telos Bills
   */

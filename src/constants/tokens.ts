@@ -1733,6 +1733,26 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  ucr: {
+    symbol: 'uCR',
+    address: {
+      [ChainId.MATIC]: '0x546Bb7F58a1C8BD96D57FDCa13cc44083841527e',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    active: true,
+  },
+  uad: {
+    symbol: 'uAD',
+    address: {
+      [ChainId.MATIC]: '0xaa48B13BeF9AB96E058311D24f75B9Ac1fB4438b',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    active: true,
+  },
 
   // Test LPs
 
@@ -2455,6 +2475,15 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: '0xcD10d0173651d1B3bd027DEcDBA007998bb03eaf',
     },
     decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+  },
+  daiUad: {
+    symbol: 'DAI-uAD',
+    address: {
+      [ChainId.MATIC]: '0xb044DeF758f101DacB42892ed8FfE618e945DE2F',
+    },
+    decimals: { [ChainId.MATIC]: 18 },
     active: true,
     lpToken: true,
   },
