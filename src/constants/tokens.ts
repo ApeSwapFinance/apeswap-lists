@@ -1657,7 +1657,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: '0xD43Be54C1aedf7Ee4099104f2DaE4eA88B18A249',
     },
     decimals: {
-      [ChainId.BSC]: 18,
+      [ChainId.MATIC]: 18,
     },
     active: true,
   },
