@@ -3,17 +3,6 @@
     "jungleId": 1,
     "tokenName": "BANANA-TLOS",
     "image": "BANANA.svg",
-    "stakingToken": {
-      "symbol": "BANANA-TLOS",
-      "address": {
-        "40": "0xf780e62D54BB6C55e396dd937BacEF0BBD7Aff51"
-      },
-      "decimals": {
-        "40": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
     "rewardToken": {
       "symbol": "TLOS",
       "address": {
@@ -76,17 +65,6 @@
     "jungleId": 2,
     "tokenName": "ETH-TLOS",
     "image": "ETH.svg",
-    "stakingToken": {
-      "symbol": "ETH-TLOS",
-      "address": {
-        "40": "0xCfd8505E3c79D777AF2CA3B5507B64480645f516"
-      },
-      "decimals": {
-        "40": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
     "rewardToken": {
       "symbol": "TLOS",
       "address": {
@@ -147,17 +125,6 @@
     "jungleId": 3,
     "tokenName": "BTC-TLOS",
     "image": "BTC.svg",
-    "stakingToken": {
-      "symbol": "BTC-TLOS",
-      "address": {
-        "40": "0x48731c532bbccf5179F9E2549624e0A73C7B39bC"
-      },
-      "decimals": {
-        "40": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
     "rewardToken": {
       "symbol": "TLOS",
       "address": {
@@ -218,17 +185,6 @@
     "jungleId": 4,
     "tokenName": "USDT-TLOS",
     "image": "USDT.svg",
-    "stakingToken": {
-      "symbol": "USDT-TLOS",
-      "address": {
-        "40": "0xAE46B3A778999567133c6c1F5C5feA953EE64995"
-      },
-      "decimals": {
-        "40": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
     "rewardToken": {
       "symbol": "TLOS",
       "address": {
@@ -287,17 +243,6 @@
     "jungleId": 5,
     "tokenName": "USDC-TLOS",
     "image": "USDC.svg",
-    "stakingToken": {
-      "symbol": "USDC-TLOS",
-      "address": {
-        "40": "0x2a4e6ef568e4a696555a5491c0fe7cbcf998c1bb"
-      },
-      "decimals": {
-        "40": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
     "rewardToken": {
       "symbol": "TLOS",
       "address": {
@@ -356,17 +301,6 @@
     "jungleId": 6,
     "tokenName": "STLOS-TLOS",
     "image": "STLOS.png",
-    "stakingToken": {
-      "symbol": "STLOS-TLOS",
-      "address": {
-        "40": "0xa4dfe1fdca0c341c1ba26550ec5128c89964f0db"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
     "rewardToken": {
       "symbol": "TLOS",
       "address": {
@@ -421,17 +355,6 @@
     "jungleId": 7,
     "tokenName": "STLOS-USDC",
     "image": "STLOS.svg",
-    "stakingToken": {
-      "symbol": "STLOS-USDC",
-      "address": {
-        "40": "0x3f830d537fe636057c8d7f9e8f264c7a7ff48a6f"
-      },
-      "decimals": {
-        "40": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
     "rewardToken": {
       "symbol": "TLOS",
       "address": {
@@ -492,17 +415,6 @@
     "jungleId": 8,
     "tokenName": "USDT-USDC",
     "image": "USDT.svg",
-    "stakingToken": {
-      "symbol": "USDT-USDC",
-      "address": {
-        "40": "0x10aadd094677f286e5b9c969806122b5bb31906d"
-      },
-      "decimals": {
-        "40": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
     "rewardToken": {
       "symbol": "TLOS",
       "address": {
@@ -567,17 +479,6 @@
     "jungleId": 8,
     "tokenName": "PXP-BNB",
     "image": "PXP.png",
-    "stakingToken": {
-      "symbol": "PXP-BNB",
-      "address": {
-        "56": "0xF4a7480948F11A0205D616258DCf43E9DaAE0586"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
     "rewardToken": {
       "symbol": "PXP",
       "address": {
@@ -633,17 +534,6 @@
     "jungleId": 9,
     "tokenName": "BNBx-BNB",
     "image": "BNBX.svg",
-    "stakingToken": {
-      "symbol": "BNBx-BNB",
-      "address": {
-        "56": "0xB88F211EC9ecfc2931Ae1DE53ea28Da76B9Ed37A"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
     "rewardToken": {
       "symbol": "SD",
       "address": {
@@ -699,17 +589,6 @@
     "jungleId": 10,
     "tokenName": "BRZ-BUSD",
     "image": "BRZ.svg",
-    "stakingToken": {
-      "symbol": "BRZ-BUSD",
-      "address": {
-        "56": "0xfbD7e3575F709212A9f61aC6C63964A8FDa34CAC"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
     "rewardToken": {
       "symbol": "BRZ",
       "address": {
@@ -762,17 +641,6 @@
     "jungleId": 206,
     "tokenName": "LGX-BUSD",
     "image": "LGX.svg",
-    "stakingToken": {
-      "symbol": "LGX-BUSD",
-      "address": {
-        "56": "0x004F72D474eE262701205E3637B4367594eFb11D"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
     "rewardToken": {
       "symbol": "LGX",
       "address": {
@@ -826,17 +694,6 @@
     "jungleId": 1,
     "tokenName": "COC-BNB",
     "image": "COC.svg",
-    "stakingToken": {
-      "symbol": "COC-BNB",
-      "address": {
-        "56": "0x5467dD00ca4d91010Ab2A3aEF8a0162DC218801A"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
     "rewardToken": {
       "symbol": "COC",
       "address": {
@@ -892,17 +749,6 @@
     "jungleId": 2,
     "tokenName": "WGICT-USDT",
     "image": "WGICT.svg",
-    "stakingToken": {
-      "symbol": "WGICT-USDT",
-      "address": {
-        "56": "0x4c64c44a6ed5f1fdce5263d9b512c2465ffe8256"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
     "lpTokens": {
       "token": {
         "symbol": "WGICT",
@@ -958,17 +804,6 @@
     "jungleId": 3,
     "tokenName": "NFT11-BUSD",
     "image": "NFT11.png",
-    "stakingToken": {
-      "symbol": "NFT11-BUSD",
-      "address": {
-        "56": "0xEf0A90fb728195F63C911f52ab4bde331089319f"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
     "rewardToken": {
       "symbol": "NFT11",
       "address": {
@@ -1022,17 +857,6 @@
     "jungleId": 4,
     "tokenName": "RUBY-BNB",
     "image": "RUBY.svg",
-    "stakingToken": {
-      "symbol": "RUBY-BNB",
-      "address": {
-        "56": "0xec9f5a5e4690fa14025971f0d2dd91f5600e24c7"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
     "rewardToken": {
       "symbol": "RUBY",
       "address": {
@@ -1087,17 +911,6 @@
     "jungleId": 5,
     "tokenName": "DRF-BUSD",
     "image": "DRF.svg",
-    "stakingToken": {
-      "symbol": "DRF-BUSD",
-      "address": {
-        "56": "0x5FFc5b392Fcc33357c6a8240bda1C9374A55E6B8"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
     "rewardToken": {
       "symbol": "DRF",
       "address": {
@@ -1151,17 +964,6 @@
     "jungleId": 6,
     "tokenName": "BONES-BNB",
     "image": "BONES.png",
-    "stakingToken": {
-      "symbol": "BONES-BNB",
-      "address": {
-        "56": "0xe0900Db57d81DE4E6a13e90eb836Fa91Be50515A"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
     "rewardToken": {
       "symbol": "BONES",
       "address": {
@@ -1217,17 +1019,6 @@
     "jungleId": 7,
     "tokenName": "GENv3-BNB",
     "image": "GENV3.svg",
-    "stakingToken": {
-      "symbol": "GENv3-BNB",
-      "address": {
-        "56": "0xCfa1d8afFA4da8e6CaBE6fde66DDf4eDA89f0e42"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
     "rewardToken": {
       "symbol": "GENv3",
       "address": {
@@ -1284,17 +1075,6 @@
     "jungleId": 0,
     "tokenName": "LC-BNB",
     "image": "LC.svg",
-    "stakingToken": {
-      "symbol": "LC-BNB",
-      "address": {
-        "56": "0xc5a69133432eF17CD15C501CAa5f9cF28C22aA00"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
     "rewardToken": {
       "symbol": "LC",
       "address": {
@@ -1350,17 +1130,6 @@
     "jungleId": 11,
     "tokenName": "GENv3-BNB",
     "image": "GENV3.svg",
-    "stakingToken": {
-      "symbol": "GENv3-BNB",
-      "address": {
-        "56": "0xCfa1d8afFA4da8e6CaBE6fde66DDf4eDA89f0e42"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
     "rewardToken": {
       "symbol": "GENv3",
       "address": {
@@ -1416,17 +1185,6 @@
     "jungleId": 12,
     "tokenName": "SWT-BNB",
     "image": "SWT.svg",
-    "stakingToken": {
-      "symbol": "SWT-BNB",
-      "address": {
-        "56": "0xD2280ae010CE3e519a09a459E200bACD303eA330"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
     "rewardToken": {
       "symbol": "SWT",
       "address": {

@@ -1,4 +1,5 @@
 import { ChainId } from '@ape.swap/sdk'
+import lpTokens from './lpTokens'
 import tokens from './tokens'
 import { BillsConfig } from './types'
 
@@ -15,7 +16,7 @@ const bills: BillsConfig[] = [
     billType: 'BANANA Bill',
     token: tokens.banana,
     quoteToken: tokens.wbnb,
-    lpToken: tokens.bananaBnb,
+    lpToken: lpTokens.bananaBnb,
     earnToken: tokens.banana,
     billNnftAddress: {
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
@@ -31,7 +32,7 @@ const bills: BillsConfig[] = [
     billType: 'BANANA Bill',
     token: tokens.busd,
     quoteToken: tokens.wbnb,
-    lpToken: tokens.bnbBusd,
+    lpToken: lpTokens.bnbBusd,
     earnToken: tokens.banana,
     billNnftAddress: {
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
@@ -47,7 +48,7 @@ const bills: BillsConfig[] = [
     billType: 'BANANA Bill',
     token: tokens.busd,
     quoteToken: tokens.usdc,
-    lpToken: tokens.usdcBusd,
+    lpToken: lpTokens.usdcBusd,
     earnToken: tokens.banana,
     billNnftAddress: {
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
@@ -63,7 +64,7 @@ const bills: BillsConfig[] = [
     billType: 'BANANA Bill',
     token: tokens.eth,
     quoteToken: tokens.wbnb,
-    lpToken: tokens.bnbEth,
+    lpToken: lpTokens.bnbEth,
     earnToken: tokens.banana,
     billNnftAddress: {
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
@@ -79,7 +80,7 @@ const bills: BillsConfig[] = [
     billType: 'BANANA Bill',
     token: tokens.btc,
     quoteToken: tokens.wbnb,
-    lpToken: tokens.bnbBtc,
+    lpToken: lpTokens.bnbBtc,
     earnToken: tokens.banana,
     billNnftAddress: {
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
@@ -98,7 +99,7 @@ const bills: BillsConfig[] = [
     billType: 'JUNGLE Bill',
     token: tokens.radar,
     quoteToken: tokens.wbnb,
-    lpToken: tokens.radarBnb,
+    lpToken: lpTokens.radarBnb,
     earnToken: tokens.radar,
     billNnftAddress: {
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
@@ -120,7 +121,7 @@ const bills: BillsConfig[] = [
     billType: 'JUNGLE Bill',
     token: tokens.ihc,
     quoteToken: tokens.wbnb,
-    lpToken: tokens.ihcBnb,
+    lpToken: lpTokens.ihcBnb,
     earnToken: tokens.ihc,
     billNnftAddress: {
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
@@ -139,7 +140,7 @@ const bills: BillsConfig[] = [
     billType: 'JUNGLE Bill',
     token: tokens.nfty,
     quoteToken: tokens.busd,
-    lpToken: tokens.nftyBusd,
+    lpToken: lpTokens.nftyBusd,
     earnToken: tokens.nfty,
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
@@ -155,7 +156,7 @@ const bills: BillsConfig[] = [
     billType: 'JUNGLE Bill',
     token: tokens.threeair,
     quoteToken: tokens.wbnb,
-    lpToken: tokens.threeairBnb,
+    lpToken: lpTokens.threeairBnb,
     earnToken: tokens.threeair,
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
@@ -171,7 +172,7 @@ const bills: BillsConfig[] = [
     billType: 'JUNGLE Bill',
     token: tokens.coc,
     quoteToken: tokens.wbnb,
-    lpToken: tokens.cocBnb,
+    lpToken: lpTokens.cocBnb,
     earnToken: tokens.coc,
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
@@ -187,7 +188,7 @@ const bills: BillsConfig[] = [
     billType: 'JUNGLE Bill',
     token: tokens.chrp,
     quoteToken: tokens.wbnb,
-    lpToken: tokens.chrpBnb,
+    lpToken: lpTokens.chrpBnb,
     earnToken: tokens.chrp,
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
@@ -203,7 +204,7 @@ const bills: BillsConfig[] = [
     billType: 'JUNGLE Bill',
     token: tokens.gmr,
     quoteToken: tokens.wbnb,
-    lpToken: tokens.gmrBnb,
+    lpToken: lpTokens.gmrBnb,
     earnToken: tokens.gmr,
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
@@ -219,7 +220,7 @@ const bills: BillsConfig[] = [
     billType: 'JUNGLE Bill',
     token: tokens.xcur,
     quoteToken: tokens.busd,
-    lpToken: tokens.xcurBusd,
+    lpToken: lpTokens.xcurBusd,
     earnToken: tokens.xcur,
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
@@ -235,7 +236,7 @@ const bills: BillsConfig[] = [
     billType: 'JUNGLE Bill',
     token: tokens.gq,
     quoteToken: tokens.busd,
-    lpToken: tokens.gqBusd,
+    lpToken: lpTokens.gqBusd,
     earnToken: tokens.gq,
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
@@ -251,7 +252,7 @@ const bills: BillsConfig[] = [
     billType: 'JUNGLE Bill',
     token: tokens.pstn,
     quoteToken: tokens.busd,
-    lpToken: tokens.pstnBusd,
+    lpToken: lpTokens.pstnBusd,
     earnToken: tokens.pstn,
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
@@ -267,7 +268,7 @@ const bills: BillsConfig[] = [
     billType: 'JUNGLE Bill',
     token: tokens.xwin,
     quoteToken: tokens.wbnb,
-    lpToken: tokens.xwinBnb,
+    lpToken: lpTokens.xwinBnb,
     earnToken: tokens.xwin,
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
@@ -283,7 +284,7 @@ const bills: BillsConfig[] = [
     billType: 'JUNGLE Bill',
     token: tokens.froyo,
     quoteToken: tokens.wbnb,
-    lpToken: tokens.froyoBnb,
+    lpToken: lpTokens.froyoBnb,
     earnToken: tokens.froyo,
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
@@ -299,7 +300,7 @@ const bills: BillsConfig[] = [
     billType: 'JUNGLE Bill',
     token: tokens.froyo,
     quoteToken: tokens.wbnb,
-    lpToken: tokens.froyoBnb,
+    lpToken: lpTokens.froyoBnb,
     earnToken: tokens.froyo,
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
@@ -316,7 +317,7 @@ const bills: BillsConfig[] = [
     billType: 'JUNGLE Bill',
     token: tokens.blid,
     quoteToken: tokens.usdt,
-    lpToken: tokens.blidUsdt,
+    lpToken: lpTokens.blidUsdt,
     earnToken: tokens.blid,
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
@@ -332,7 +333,7 @@ const bills: BillsConfig[] = [
     billType: 'JUNGLE Bill',
     token: tokens.hec,
     quoteToken: tokens.wbnb,
-    lpToken: tokens.hecBnb,
+    lpToken: lpTokens.hecBnb,
     earnToken: tokens.hec,
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
@@ -348,7 +349,7 @@ const bills: BillsConfig[] = [
     billType: 'JUNGLE Bill',
     token: tokens.floki,
     quoteToken: tokens.wbnb,
-    lpToken: tokens.flokiBnb,
+    lpToken: lpTokens.flokiBnb,
     earnToken: tokens.floki,
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
@@ -364,7 +365,7 @@ const bills: BillsConfig[] = [
     billType: 'JUNGLE Bill',
     token: tokens.radar,
     quoteToken: tokens.wbnb,
-    lpToken: tokens.radarBnb,
+    lpToken: lpTokens.radarBnb,
     earnToken: tokens.radar,
     billNnftAddress: {
       [ChainId.BSC]: '0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8',
@@ -381,7 +382,7 @@ const bills: BillsConfig[] = [
     billType: 'JUNGLE Bill',
     token: tokens.ceek,
     quoteToken: tokens.wbnb,
-    lpToken: tokens.ceekBnb,
+    lpToken: lpTokens.ceekBnb,
     earnToken: tokens.ceek,
     billNnftAddress: {
       [ChainId.BSC]: '0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8',
@@ -397,7 +398,7 @@ const bills: BillsConfig[] = [
     billType: 'JUNGLE Bill',
     token: tokens.nfty,
     quoteToken: tokens.wbnb,
-    lpToken: tokens.nftyBnb,
+    lpToken: lpTokens.nftyBnb,
     earnToken: tokens.nfty,
     billNnftAddress: {
       [ChainId.BSC]: '0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8',
@@ -414,7 +415,7 @@ const bills: BillsConfig[] = [
     billType: 'JUNGLE Bill',
     token: tokens.tlos,
     quoteToken: tokens.busd,
-    lpToken: tokens.tlosBusd,
+    lpToken: lpTokens.tlosBusd,
     earnToken: tokens.tlos,
     billNnftAddress: {
       [ChainId.BSC]: '0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8',
@@ -431,7 +432,7 @@ const bills: BillsConfig[] = [
     billType: 'JUNGLE Bill',
     token: tokens.stars,
     quoteToken: tokens.wbnb,
-    lpToken: tokens.starsBnb,
+    lpToken: lpTokens.starsBnb,
     earnToken: tokens.stars,
     billNnftAddress: {
       [ChainId.BSC]: '0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8',
@@ -447,7 +448,7 @@ const bills: BillsConfig[] = [
     billType: 'JUNGLE Bill',
     token: tokens.hotcross,
     quoteToken: tokens.busd,
-    lpToken: tokens.hotcrossBusd,
+    lpToken: lpTokens.hotcrossBusd,
     earnToken: tokens.hotcross,
     billNnftAddress: {
       [ChainId.BSC]: '0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8',
@@ -463,7 +464,7 @@ const bills: BillsConfig[] = [
     billType: 'JUNGLE Bill',
     token: tokens.hotcross,
     quoteToken: tokens.busd,
-    lpToken: tokens.hotcrossBusd,
+    lpToken: lpTokens.hotcrossBusd,
     earnToken: tokens.hotcross,
     billNnftAddress: {
       [ChainId.BSC]: '0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8',
@@ -479,7 +480,7 @@ const bills: BillsConfig[] = [
     billType: 'JUNGLE Bill',
     token: tokens.tlos,
     quoteToken: tokens.busd,
-    lpToken: tokens.tlosBusd,
+    lpToken: lpTokens.tlosBusd,
     earnToken: tokens.tlos,
     billNnftAddress: {
       [ChainId.BSC]: '0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8',
@@ -496,7 +497,7 @@ const bills: BillsConfig[] = [
     billType: 'BANANA Bill',
     token: tokens.banana,
     quoteToken: tokens.wbnb,
-    lpToken: tokens.bananaBnb,
+    lpToken: lpTokens.bananaBnb,
     earnToken: tokens.banana,
     billNnftAddress: {
       [ChainId.BSC]: '0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8',
@@ -513,7 +514,7 @@ const bills: BillsConfig[] = [
     billType: 'BANANA Bill',
     token: tokens.busd,
     quoteToken: tokens.wbnb,
-    lpToken: tokens.bnbBusd,
+    lpToken: lpTokens.bnbBusd,
     earnToken: tokens.banana,
     billNnftAddress: {
       [ChainId.BSC]: '0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8',
@@ -530,7 +531,7 @@ const bills: BillsConfig[] = [
     billType: 'BANANA Bill',
     token: tokens.busd,
     quoteToken: tokens.usdc,
-    lpToken: tokens.usdcBusd,
+    lpToken: lpTokens.usdcBusd,
     earnToken: tokens.banana,
     billNnftAddress: {
       [ChainId.BSC]: '0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8',
@@ -547,7 +548,7 @@ const bills: BillsConfig[] = [
     billType: 'BANANA Bill',
     token: tokens.eth,
     quoteToken: tokens.wbnb,
-    lpToken: tokens.bnbEth,
+    lpToken: lpTokens.bnbEth,
     earnToken: tokens.banana,
     billNnftAddress: {
       [ChainId.BSC]: '0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8',
@@ -564,7 +565,7 @@ const bills: BillsConfig[] = [
     billType: 'BANANA Bill',
     token: tokens.btc,
     quoteToken: tokens.wbnb,
-    lpToken: tokens.bnbBtc,
+    lpToken: lpTokens.bnbBtc,
     earnToken: tokens.banana,
     billNnftAddress: {
       [ChainId.BSC]: '0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8',
@@ -581,7 +582,7 @@ const bills: BillsConfig[] = [
     billType: 'BANANA Bill',
     token: tokens.banana,
     quoteToken: tokens.wbnb,
-    lpToken: tokens.bananaBnb,
+    lpToken: lpTokens.bananaBnb,
     earnToken: tokens.banana,
     billNnftAddress: {
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
@@ -598,7 +599,7 @@ const bills: BillsConfig[] = [
     billType: 'BANANA Bill',
     token: tokens.busd,
     quoteToken: tokens.wbnb,
-    lpToken: tokens.bnbBusd,
+    lpToken: lpTokens.bnbBusd,
     earnToken: tokens.banana,
     billNnftAddress: {
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
@@ -615,7 +616,7 @@ const bills: BillsConfig[] = [
     billType: 'BANANA Bill',
     token: tokens.busd,
     quoteToken: tokens.usdc,
-    lpToken: tokens.usdcBusd,
+    lpToken: lpTokens.usdcBusd,
     earnToken: tokens.banana,
     billNnftAddress: {
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
@@ -632,7 +633,7 @@ const bills: BillsConfig[] = [
     billType: 'BANANA Bill',
     token: tokens.eth,
     quoteToken: tokens.wbnb,
-    lpToken: tokens.bnbEth,
+    lpToken: lpTokens.bnbEth,
     earnToken: tokens.banana,
     billNnftAddress: {
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
@@ -649,7 +650,7 @@ const bills: BillsConfig[] = [
     billType: 'BANANA Bill',
     token: tokens.btc,
     quoteToken: tokens.wbnb,
-    lpToken: tokens.bnbBtc,
+    lpToken: lpTokens.bnbBtc,
     earnToken: tokens.banana,
     billNnftAddress: {
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
@@ -670,7 +671,7 @@ const bills: BillsConfig[] = [
     billType: 'Jungle Bill',
     token: tokens.dogira,
     quoteToken: tokens.wmatic,
-    lpToken: tokens.dogiraMatic,
+    lpToken: lpTokens.dogiraMatic,
     earnToken: tokens.dogira,
     billNnftAddress: {
       [ChainId.MATIC]: '0xa35c3fcd306cf69fed19e8c7b15c8b3904ea609d',
@@ -687,7 +688,7 @@ const bills: BillsConfig[] = [
     billType: 'Jungle Bill',
     token: tokens.traxx,
     quoteToken: tokens.wmatic,
-    lpToken: tokens.traxxMatic,
+    lpToken: lpTokens.traxxMatic,
     earnToken: tokens.traxx,
     billNnftAddress: {
       [ChainId.MATIC]: '0xa35c3fcd306cf69fed19e8c7b15c8b3904ea609d',
@@ -704,7 +705,7 @@ const bills: BillsConfig[] = [
     billType: 'Jungle Bill',
     token: tokens.dogira,
     quoteToken: tokens.wmatic,
-    lpToken: tokens.dogiraMatic,
+    lpToken: lpTokens.dogiraMatic,
     earnToken: tokens.dogira,
     billNnftAddress: {
       [ChainId.MATIC]: '0xa35c3fcd306cf69fed19e8c7b15c8b3904ea609d',
@@ -721,7 +722,7 @@ const bills: BillsConfig[] = [
     billType: 'Jungle Bill',
     token: tokens.uad,
     quoteToken: tokens.dai,
-    lpToken: tokens.daiUad,
+    lpToken: lpTokens.daiUad,
     earnToken: tokens.ucr,
     billNnftAddress: {
       [ChainId.MATIC]: '0xf63e25b5492a856189420724fe6f3573620966f3',
@@ -741,7 +742,7 @@ const bills: BillsConfig[] = [
     billType: 'Jungle Bill',
     token: tokens.banana,
     quoteToken: tokens.tlos,
-    lpToken: tokens.bananaTlos,
+    lpToken: lpTokens.bananaTlos,
     earnToken: tokens.tlos,
     billNnftAddress: {
       [ChainId.TLOS]: '0x9084C442286E23617694101d5575bEA48C2cf621',
@@ -758,7 +759,7 @@ const bills: BillsConfig[] = [
     billType: 'Jungle Bill',
     token: tokens.eth,
     quoteToken: tokens.tlos,
-    lpToken: tokens.ethTlos,
+    lpToken: lpTokens.ethTlos,
     earnToken: tokens.tlos,
     billNnftAddress: {
       [ChainId.TLOS]: '0x9084C442286E23617694101d5575bEA48C2cf621',
@@ -775,7 +776,7 @@ const bills: BillsConfig[] = [
     billType: 'Jungle Bill',
     token: tokens.btc,
     quoteToken: tokens.tlos,
-    lpToken: tokens.btcTlos,
+    lpToken: lpTokens.btcTlos,
     earnToken: tokens.tlos,
     billNnftAddress: {
       [ChainId.TLOS]: '0x9084C442286E23617694101d5575bEA48C2cf621',
@@ -792,7 +793,7 @@ const bills: BillsConfig[] = [
     billType: 'Jungle Bill',
     token: tokens.usdt,
     quoteToken: tokens.tlos,
-    lpToken: tokens.usdtTlos,
+    lpToken: lpTokens.usdtTlos,
     earnToken: tokens.tlos,
     billNnftAddress: {
       [ChainId.TLOS]: '0x9084C442286E23617694101d5575bEA48C2cf621',
@@ -809,7 +810,7 @@ const bills: BillsConfig[] = [
     billType: 'Jungle Bill',
     token: tokens.usdc,
     quoteToken: tokens.tlos,
-    lpToken: tokens.usdcTlos,
+    lpToken: lpTokens.usdcTlos,
     earnToken: tokens.tlos,
     billNnftAddress: {
       [ChainId.TLOS]: '0x9084C442286E23617694101d5575bEA48C2cf621',
@@ -826,7 +827,7 @@ const bills: BillsConfig[] = [
     billType: 'Jungle Bill',
     token: tokens.banana,
     quoteToken: tokens.tlos,
-    lpToken: tokens.bananaTlos,
+    lpToken: lpTokens.bananaTlos,
     earnToken: tokens.tlos,
     billNnftAddress: {
       [ChainId.TLOS]: '0x9084C442286E23617694101d5575bEA48C2cf621',
@@ -843,7 +844,7 @@ const bills: BillsConfig[] = [
     billType: 'Jungle Bill',
     token: tokens.eth,
     quoteToken: tokens.tlos,
-    lpToken: tokens.ethTlos,
+    lpToken: lpTokens.ethTlos,
     earnToken: tokens.tlos,
     billNnftAddress: {
       [ChainId.TLOS]: '0x9084C442286E23617694101d5575bEA48C2cf621',
@@ -860,7 +861,7 @@ const bills: BillsConfig[] = [
     billType: 'Jungle Bill',
     token: tokens.btc,
     quoteToken: tokens.tlos,
-    lpToken: tokens.btcTlos,
+    lpToken: lpTokens.btcTlos,
     earnToken: tokens.tlos,
     billNnftAddress: {
       [ChainId.TLOS]: '0x9084C442286E23617694101d5575bEA48C2cf621',
@@ -877,7 +878,7 @@ const bills: BillsConfig[] = [
     billType: 'Jungle Bill',
     token: tokens.usdt,
     quoteToken: tokens.tlos,
-    lpToken: tokens.usdtTlos,
+    lpToken: lpTokens.usdtTlos,
     earnToken: tokens.tlos,
     billNnftAddress: {
       [ChainId.TLOS]: '0x9084C442286E23617694101d5575bEA48C2cf621',
@@ -894,7 +895,7 @@ const bills: BillsConfig[] = [
     billType: 'Jungle Bill',
     token: tokens.usdc,
     quoteToken: tokens.tlos,
-    lpToken: tokens.usdcTlos,
+    lpToken: lpTokens.usdcTlos,
     earnToken: tokens.tlos,
     billNnftAddress: {
       [ChainId.TLOS]: '0x9084C442286E23617694101d5575bEA48C2cf621',

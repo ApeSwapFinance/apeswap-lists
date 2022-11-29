@@ -2637,6 +2637,29 @@
     },
     "lpToken": {
       "symbol": "DAI-uAD",
+      "token0": {
+        "symbol": "DAI",
+        "address": {
+          "56": "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3",
+          "137": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063"
+        },
+        "decimals": {
+          "56": 18,
+          "137": 18
+        },
+        "active": true
+      },
+      "token1": {
+        "symbol": "uAD",
+        "address": {
+          "137": "0xaa48B13BeF9AB96E058311D24f75B9Ac1fB4438b"
+        },
+        "decimals": {
+          "137": 18
+        },
+        "active": true,
+        "priceGetter": "arrakis"
+      },
       "address": {
         "137": "0xb044DeF758f101DacB42892ed8FfE618e945DE2F"
       },

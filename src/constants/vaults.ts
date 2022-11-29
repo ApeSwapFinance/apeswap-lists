@@ -1,4 +1,5 @@
 import { ChainId } from '@ape.swap/sdk'
+import lpTokens from './lpTokens'
 import tokens from './tokens'
 import { VaultConfig } from './types'
 
@@ -12,7 +13,7 @@ const vaults: VaultConfig[] = [
     stratAddress: {
       [ChainId.BSC]: '0x9a668d5482828a444d7322fe5420ab5b44ce3de7',
     },
-    stakeToken: tokens.banana,
+    stakeToken: lpTokens.banana,
     token: tokens.banana,
     rewardToken: tokens.banana,
     platform: 'ApeSwap',
@@ -39,7 +40,7 @@ const vaults: VaultConfig[] = [
     stratAddress: {
       [ChainId.BSC]: '0x4e4efe113214c1371b264c09f59f64c5f12589f8',
     },
-    stakeToken: tokens.bananaBnb,
+    stakeToken: lpTokens.bananaBnb,
     token: tokens.banana,
     quoteToken: tokens.wbnb,
     rewardToken: tokens.bananaBnb,
@@ -69,7 +70,7 @@ const vaults: VaultConfig[] = [
     stratAddress: {
       [ChainId.BSC]: '0x234101c6612115cac7bdb74ee20f388bb95db8cc',
     },
-    stakeToken: tokens.bananaBusd,
+    stakeToken: lpTokens.bananaBusd,
     token: tokens.banana,
     quoteToken: tokens.wbnb,
     rewardToken: tokens.bananaBusd,
@@ -100,7 +101,7 @@ const vaults: VaultConfig[] = [
     stratAddress: {
       [ChainId.BSC]: '0xA25790303f72c940D5cb33EA4554Bbd4656a69Dd',
     },
-    stakeToken: tokens.bananaBnb,
+    stakeToken: lpTokens.bananaBnb,
     token: tokens.banana,
     quoteToken: tokens.wbnb,
     rewardToken: tokens.banana,
@@ -130,7 +131,7 @@ const vaults: VaultConfig[] = [
     stratAddress: {
       [ChainId.BSC]: '0x91C235A3D1B897915a95880bD6C8305849144583',
     },
-    stakeToken: tokens.bananaBusd,
+    stakeToken: lpTokens.bananaBusd,
     token: tokens.banana,
     quoteToken: tokens.busd,
     rewardToken: tokens.banana,
@@ -160,7 +161,7 @@ const vaults: VaultConfig[] = [
     stratAddress: {
       [ChainId.BSC]: '0x037AC1244C18Ea840D4cc459135698B384DAa750',
     },
-    stakeToken: tokens.bnbBusd,
+    stakeToken: lpTokens.bnbBusd,
     token: tokens.wbnb,
     quoteToken: tokens.busd,
     rewardToken: tokens.banana,
@@ -190,7 +191,7 @@ const vaults: VaultConfig[] = [
     stratAddress: {
       [ChainId.BSC]: '0xc6C58318c5b180d820eC72bFe426ad41c04aee96',
     },
-    stakeToken: tokens.bnbMatic,
+    stakeToken: lpTokens.bnbMatic,
     token: tokens.wmatic,
     quoteToken: tokens.wbnb,
     rewardToken: tokens.banana,
@@ -220,7 +221,7 @@ const vaults: VaultConfig[] = [
     stratAddress: {
       [ChainId.BSC]: '0x99eBd87fF021e311d5DC5A53E26b8bA4d62eEe2a',
     },
-    stakeToken: tokens.bnbFtm,
+    stakeToken: lpTokens.bnbFtm,
     token: tokens.ftm,
     quoteToken: tokens.wbnb,
     rewardToken: tokens.banana,
@@ -250,7 +251,7 @@ const vaults: VaultConfig[] = [
     stratAddress: {
       [ChainId.BSC]: '0x17884b90f18B8875147D02a8119a6226841d282e',
     },
-    stakeToken: tokens.ethBnb,
+    stakeToken: lpTokens.ethBnb,
     token: tokens.eth,
     quoteToken: tokens.wbnb,
     rewardToken: tokens.banana,
@@ -280,7 +281,7 @@ const vaults: VaultConfig[] = [
     stratAddress: {
       [ChainId.BSC]: '0x6862c220a88e0267D9B0652b7102A2d0c72bF7Eb',
     },
-    stakeToken: tokens.apeBNB,
+    stakeToken: lpTokens.apeBNB,
     token: tokens.ape,
     quoteToken: tokens.wbnb,
     rewardToken: tokens.banana,
@@ -310,7 +311,7 @@ const vaults: VaultConfig[] = [
     stratAddress: {
       [ChainId.BSC]: '0x9A4d08aa7E97f3e37945E3a431feD6a5afa031f6',
     },
-    stakeToken: tokens.dotBnb,
+    stakeToken: lpTokens.dotBnb,
     token: tokens.dot,
     quoteToken: tokens.wbnb,
     rewardToken: tokens.banana,
@@ -340,7 +341,7 @@ const vaults: VaultConfig[] = [
     stratAddress: {
       [ChainId.BSC]: '0xC76FC2BB951B35D831a110D02D038De002bA0B18',
     },
-    stakeToken: tokens.avaxBnb,
+    stakeToken: lpTokens.avaxBnb,
     token: tokens.avax,
     quoteToken: tokens.wbnb,
     rewardToken: tokens.banana,
@@ -370,7 +371,7 @@ const vaults: VaultConfig[] = [
     stratAddress: {
       [ChainId.BSC]: '0x5d069513b56fa4df25ee70ebceb233b9515cba6f',
     },
-    stakeToken: tokens.nftyBnb,
+    stakeToken: lpTokens.nftyBnb,
     token: tokens.nfty,
     quoteToken: tokens.wbnb,
     rewardToken: tokens.banana,
@@ -400,7 +401,7 @@ const vaults: VaultConfig[] = [
     stratAddress: {
       [ChainId.BSC]: '0xcc92c18e948aa5cd7821a87322f8f8c35cd79f71',
     },
-    stakeToken: tokens.ceekBnb,
+    stakeToken: lpTokens.ceekBnb,
     token: tokens.ceek,
     quoteToken: tokens.wbnb,
     rewardToken: tokens.banana,
@@ -430,7 +431,7 @@ const vaults: VaultConfig[] = [
     stratAddress: {
       [ChainId.BSC]: '0xd8fa7c1bff86770cfcc500ecfcfd8c98f54ab49f',
     },
-    stakeToken: tokens.primateBnb,
+    stakeToken: lpTokens.primateBnb,
     token: tokens.primate,
     quoteToken: tokens.wbnb,
     rewardToken: tokens.banana,
@@ -460,7 +461,7 @@ const vaults: VaultConfig[] = [
     stratAddress: {
       [ChainId.BSC]: '0x11d9757bc9e09b792d6a7be695ce3da377477735',
     },
-    stakeToken: tokens.compBnb,
+    stakeToken: lpTokens.compBnb,
     token: tokens.comp,
     quoteToken: tokens.wbnb,
     rewardToken: tokens.banana,
@@ -490,7 +491,7 @@ const vaults: VaultConfig[] = [
     stratAddress: {
       [ChainId.BSC]: '0x4b4ec4206d385304ad2d3d0bd229c8e570cba980',
     },
-    stakeToken: tokens.filBnb,
+    stakeToken: lpTokens.filBnb,
     token: tokens.fil,
     quoteToken: tokens.wbnb,
     rewardToken: tokens.banana,
@@ -520,7 +521,7 @@ const vaults: VaultConfig[] = [
     stratAddress: {
       [ChainId.BSC]: '0x6b8a11b50f653f4e50d4dcbb9607edba671aa792',
     },
-    stakeToken: tokens.adaBnb,
+    stakeToken: lpTokens.adaBnb,
     token: tokens.ada,
     quoteToken: tokens.wbnb,
     rewardToken: tokens.banana,
@@ -550,7 +551,7 @@ const vaults: VaultConfig[] = [
     stratAddress: {
       [ChainId.BSC]: '0x4ac272a7f14e62a2c95bb4f33f6081aefc4cb03b',
     },
-    stakeToken: tokens.adaEth,
+    stakeToken: lpTokens.adaEth,
     token: tokens.ada,
     quoteToken: tokens.eth,
     rewardToken: tokens.banana,
@@ -580,7 +581,7 @@ const vaults: VaultConfig[] = [
     stratAddress: {
       [ChainId.BSC]: '0x1282d55fe7e8cc0eb1895476e2666dd59d7a4171',
     },
-    stakeToken: tokens.linkBnb,
+    stakeToken: lpTokens.linkBnb,
     token: tokens.link,
     quoteToken: tokens.wbnb,
     rewardToken: tokens.banana,
@@ -610,7 +611,7 @@ const vaults: VaultConfig[] = [
     stratAddress: {
       [ChainId.BSC]: '0x28b8fe88897d507b051b1d16c35d163b27a79e23',
     },
-    stakeToken: tokens.aaveBnb,
+    stakeToken: lpTokens.aaveBnb,
     token: tokens.aave,
     quoteToken: tokens.wbnb,
     rewardToken: tokens.banana,
@@ -640,7 +641,7 @@ const vaults: VaultConfig[] = [
     stratAddress: {
       [ChainId.BSC]: '0x49a8a2772ccf69ba8bb250ab511f4b662ef64ff5',
     },
-    stakeToken: tokens.froyoBnb,
+    stakeToken: lpTokens.froyoBnb,
     token: tokens.froyo,
     quoteToken: tokens.wbnb,
     rewardToken: tokens.banana,
@@ -670,7 +671,7 @@ const vaults: VaultConfig[] = [
     stratAddress: {
       [ChainId.BSC]: '0x5354dc56d8e0fcbb33ae384f07f98b1388107250',
     },
-    stakeToken: tokens.anmlBnb,
+    stakeToken: lpTokens.anmlBnb,
     token: tokens.anml,
     quoteToken: tokens.wbnb,
     rewardToken: tokens.banana,
@@ -700,7 +701,7 @@ const vaults: VaultConfig[] = [
     stratAddress: {
       [ChainId.BSC_TESTNET]: '0xe635B6C53bCDB4e98224E2cDC50a130CA38f9647',
     },
-    stakeToken: tokens.horNey,
+    stakeToken: lpTokens.horNey,
     token: tokens.hor,
     quoteToken: tokens.ney,
     rewardToken: tokens.banana,
@@ -729,7 +730,7 @@ const vaults: VaultConfig[] = [
     stratAddress: {
       [ChainId.BSC_TESTNET]: '0x60ddD0e76a958Ba341aD677eAd713Af5Ef447D9d',
     },
-    stakeToken: tokens.forEver,
+    stakeToken: lpTokens.forEver,
     token: tokens.for,
     quoteToken: tokens.ever,
     rewardToken: tokens.banana,

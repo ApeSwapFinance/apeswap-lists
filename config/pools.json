@@ -5357,17 +5357,6 @@
     "sousId": 214,
     "tokenName": "PXP",
     "image": "PXP.png",
-    "stakingToken": {
-      "symbol": "PXP-BNB",
-      "address": {
-        "56": "0xF4a7480948F11A0205D616258DCf43E9DaAE0586"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
     "rewardToken": {
       "symbol": "PXP",
       "address": {
@@ -5396,17 +5385,6 @@
     "sousId": 225,
     "tokenName": "SWT",
     "image": "SWT.svg",
-    "stakingToken": {
-      "symbol": "SWT-BNB",
-      "address": {
-        "56": "0xD2280ae010CE3e519a09a459E200bACD303eA330"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
     "rewardToken": {
       "symbol": "SWT",
       "address": {
@@ -5435,17 +5413,6 @@
     "sousId": 211,
     "tokenName": "GENv3",
     "image": "GENV3.svg",
-    "stakingToken": {
-      "symbol": "GENv3-BNB",
-      "address": {
-        "56": "0xCfa1d8afFA4da8e6CaBE6fde66DDf4eDA89f0e42"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
     "rewardToken": {
       "symbol": "GENv3",
       "address": {
@@ -5474,17 +5441,6 @@
     "sousId": 210,
     "tokenName": "BONES",
     "image": "BONES.png",
-    "stakingToken": {
-      "symbol": "BONES-BNB",
-      "address": {
-        "56": "0xe0900Db57d81DE4E6a13e90eb836Fa91Be50515A"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
     "rewardToken": {
       "symbol": "BONES",
       "address": {
@@ -5513,17 +5469,6 @@
     "sousId": 206,
     "tokenName": "LGX-BUSD",
     "image": "LGX.svg",
-    "stakingToken": {
-      "symbol": "LGX-BUSD",
-      "address": {
-        "56": "0x004F72D474eE262701205E3637B4367594eFb11D"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
     "rewardToken": {
       "symbol": "LGX",
       "address": {
@@ -5576,17 +5521,6 @@
     "sousId": 204,
     "tokenName": "LC-BNB",
     "image": "LC.svg",
-    "stakingToken": {
-      "symbol": "LC-BNB",
-      "address": {
-        "56": "0xc5a69133432eF17CD15C501CAa5f9cF28C22aA00"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
     "rewardToken": {
       "symbol": "LC",
       "address": {
@@ -5641,17 +5575,6 @@
     "sousId": 201,
     "tokenName": "COC-BNB",
     "image": "COC.svg",
-    "stakingToken": {
-      "symbol": "COC-BNB",
-      "address": {
-        "56": "0x5467dD00ca4d91010Ab2A3aEF8a0162DC218801A"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
     "rewardToken": {
       "symbol": "COC",
       "address": {
@@ -5706,17 +5629,6 @@
     "sousId": 184,
     "tokenName": "WGICT-USDT",
     "image": "WGICT.svg",
-    "stakingToken": {
-      "symbol": "WGICT-USDT",
-      "address": {
-        "56": "0x4c64c44a6ed5f1fdce5263d9b512c2465ffe8256"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
     "lpTokens": {
       "token": {
         "symbol": "WGICT",
@@ -5771,17 +5683,6 @@
     "sousId": 186,
     "tokenName": "NFT11-BUSD",
     "image": "NFT11.png",
-    "stakingToken": {
-      "symbol": "NFT11-BUSD",
-      "address": {
-        "56": "0xEf0A90fb728195F63C911f52ab4bde331089319f"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
     "rewardToken": {
       "symbol": "NFT11",
       "address": {
@@ -5834,17 +5735,6 @@
     "sousId": 189,
     "tokenName": "RUBY-BNB",
     "image": "RUBY.svg",
-    "stakingToken": {
-      "symbol": "RUBY-BNB",
-      "address": {
-        "56": "0xec9f5a5e4690fa14025971f0d2dd91f5600e24c7"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
     "rewardToken": {
       "symbol": "RUBY",
       "address": {
@@ -5899,17 +5789,6 @@
     "sousId": 191,
     "tokenName": "DRF-BUSD",
     "image": "DRF.svg",
-    "stakingToken": {
-      "symbol": "DRF-BUSD",
-      "address": {
-        "56": "0x5FFc5b392Fcc33357c6a8240bda1C9374A55E6B8"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
     "rewardToken": {
       "symbol": "DRF",
       "address": {
@@ -5962,17 +5841,6 @@
     "sousId": 220,
     "tokenName": "BNBx-BNB",
     "image": "BNBX.svg",
-    "stakingToken": {
-      "symbol": "BNBx-BNB",
-      "address": {
-        "56": "0xB88F211EC9ecfc2931Ae1DE53ea28Da76B9Ed37A"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
     "rewardToken": {
       "symbol": "SD",
       "address": {
@@ -6001,17 +5869,6 @@
     "sousId": 222,
     "tokenName": "BRZ-BUSD",
     "image": "BRZ.svg",
-    "stakingToken": {
-      "symbol": "BRZ-BUSD",
-      "address": {
-        "56": "0xfbD7e3575F709212A9f61aC6C63964A8FDa34CAC"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
     "rewardToken": {
       "symbol": "BRZ",
       "address": {

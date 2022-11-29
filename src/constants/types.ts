@@ -39,6 +39,11 @@ export interface Token {
   priceGetter?: PriceGetter
 }
 
+export interface LpToken extends Token {
+  token0?: Token
+  token1?: Token
+}
+
 // Interfaces used in Vaults
 export interface MasterChef {
   pid: Partial<Record<ChainId, number>>
