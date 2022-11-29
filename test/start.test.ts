@@ -9,6 +9,7 @@ import {
   nfaStakingPools,
   iaos,
   zapInputTokens,
+  lpTokens,
 } from '../src/constants'
 import billsJson from '../config/bills.json'
 import farmsJson from '../config/farms.json'
@@ -34,7 +35,7 @@ const stringifiedPools = JSON.stringify(jungleFarms, null, 2)
 const stringifiedPoolsJson = JSON.stringify(jungleFarmsJson, null, 2)
 
 const filterActiveTokens = Object.fromEntries(Object.entries(tokens).filter(([, val]) => val.active))
-const stringifiedTokens = JSON.stringify(filterActiveTokens, null, 2)
+const stringifiedTokens = JSON.stringify({ ...filterActiveTokens, ...lpTokens }, null, 2)
 const stringifiedTokensJson = JSON.stringify(tokensJson, null, 2)
 
 const stringifiedVaults = JSON.stringify(vaults, null, 2)
