@@ -211,22 +211,22 @@ const bills: BillsConfig[] = [
     projectLink: 'https://gmr.center/',
     twitter: 'https://twitter.com/GMRCenter',
   },
-  {
-    index: 31,
-    contractAddress: {
-      [ChainId.BSC]: '0x63571f457f246124c6968579E8797B91613dED20',
-    },
-    billType: 'JUNGLE Bill',
-    token: tokens.xcur,
-    quoteToken: tokens.busd,
-    lpToken: tokens.xcurBusd,
-    earnToken: tokens.xcur,
-    billNnftAddress: {
-      [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
-    },
-    projectLink: 'https://web.curate.style/',
-    twitter: 'https://twitter.com/curateproject',
-  },
+  // {
+  //   index: 31,
+  //   contractAddress: {
+  //     [ChainId.BSC]: '0x63571f457f246124c6968579E8797B91613dED20',
+  //   },
+  //   billType: 'JUNGLE Bill',
+  //   token: tokens.xcur,
+  //   quoteToken: tokens.busd,
+  //   lpToken: tokens.xcurBusd,
+  //   earnToken: tokens.xcur,
+  //   billNnftAddress: {
+  //     [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
+  //   },
+  //   projectLink: 'https://web.curate.style/',
+  //   twitter: 'https://twitter.com/curateproject',
+  // },
   {
     index: 28,
     contractAddress: {
