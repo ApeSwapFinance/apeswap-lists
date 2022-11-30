@@ -17,8 +17,9 @@ export enum PoolCategory {
   'JUNGLE' = 'Jungle',
 }
 
-export enum PriceGetter {
-  ARRAKIS = 'arrakis',
+export enum LpType {
+  APESWAP = 'ApeSwap',
+  ARRAKIS = 'Arrakis',
 }
 
 export interface FarmStyles {
@@ -36,7 +37,7 @@ export interface Token {
   dontFetch?: boolean
   lpToken?: boolean
   price?: number
-  priceGetter?: PriceGetter
+  lpType?: LpType
 }
 
 export interface LpToken extends Token {
@@ -63,6 +64,7 @@ export interface BillsConfig {
   lpToken: Token
   earnToken: Token
   billNnftAddress: Partial<Record<ChainId, string>>
+  lpType: LpType
   inactive?: boolean
   projectLink?: string
   twitter?: string

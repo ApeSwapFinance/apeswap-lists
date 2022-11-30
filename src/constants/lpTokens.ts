@@ -1,6 +1,6 @@
 import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
-import { LpToken, PriceGetter } from './types'
+import { LpToken, LpType } from './types'
 
 const lpTokens: Record<string, LpToken> = {
   bananaBnb: {
@@ -711,7 +711,7 @@ const lpTokens: Record<string, LpToken> = {
     decimals: { [ChainId.MATIC]: 18 },
     active: true,
     lpToken: true,
-    priceGetter: PriceGetter.ARRAKIS,
+    lpType: LpType.ARRAKIS,
   },
 
   // Test LPS
