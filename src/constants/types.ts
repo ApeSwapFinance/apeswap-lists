@@ -22,6 +22,11 @@ export enum LpType {
   ARRAKIS = 'Arrakis',
 }
 
+export enum BillVersion {
+  V1 = 'v1',
+  V2 = 'v2',
+}
+
 export interface FarmStyles {
   deprecated: string
   warning: string
@@ -65,6 +70,7 @@ export interface BillsConfig {
   earnToken: Token
   billNnftAddress: Partial<Record<ChainId, string>>
   lpType: LpType
+  version: BillVersion
   inactive?: boolean
   projectLink?: string
   twitter?: string
