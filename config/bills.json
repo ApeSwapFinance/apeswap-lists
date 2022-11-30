@@ -760,6 +760,62 @@
     "twitter": "https://twitter.com/GMRCenter"
   },
   {
+    "index": 31,
+    "contractAddress": {
+      "56": "0x63571f457f246124c6968579E8797B91613dED20"
+    },
+    "billType": "JUNGLE Bill",
+    "token": {
+      "symbol": "XCUR",
+      "address": {
+        "56": "0xd52669712f253CD6b2Fe8A8638F66ed726cb770C"
+      },
+      "decimals": {
+        "56": 8
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BUSD",
+      "address": {
+        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "XCUR-BUSD",
+      "address": {
+        "56": "0xe55Da30A0BBb8d26Cc0a3AECE1F7a2d432276f84"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "XCUR",
+      "address": {
+        "56": "0xd52669712f253CD6b2Fe8A8638F66ed726cb770C"
+      },
+      "decimals": {
+        "56": 8
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0x7fd203888661d1f0ae625ed599909f8f97698670"
+    },
+    "projectLink": "https://web.curate.style/",
+    "twitter": "https://twitter.com/curateproject",
+    "inactive": true
+  },
+  {
     "index": 28,
     "contractAddress": {
       "56": "0x7fdb62f681d7aad8c08a1d6af350e2fb7f265336"
