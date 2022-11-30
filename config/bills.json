@@ -477,6 +477,67 @@
     "twitter": "https://twitter.com/DappRadar/"
   },
   {
+    "index": 39,
+    "contractAddress": {
+      "1": "",
+      "56": "0xfe69f6f456fdc5535e7a7a03bb78f739400bc8e0",
+      "97": "",
+      "137": ""
+    },
+    "billType": "JUNGLE Bill",
+    "token": {
+      "symbol": "LIQ",
+      "address": {
+        "56": "0xc7981767f644C7F8e483DAbDc413e8a371b83079"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BUSD",
+      "address": {
+        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "LIQ-BUSD",
+      "address": {
+        "56": "0x759584fe196fb2e3f5bf2eff8c2747741d5ecf59"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "LIQ",
+      "address": {
+        "56": "0xc7981767f644C7F8e483DAbDc413e8a371b83079"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "1": "",
+      "56": "0x7FD203888661d1F0AE625eD599909f8F97698670",
+      "97": "",
+      "137": ""
+    },
+    "projectLink": "https://liquidus.finance/",
+    "twitter": "https://twitter.com/LiquidusFinance"
+  },
+  {
     "index": 30,
     "contractAddress": {
       "56": "0xced994206cd4c364d7bda2b66b48fcaef9b6bb5b"

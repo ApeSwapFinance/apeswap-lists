@@ -1713,6 +1713,14 @@ const tokens: Record<string, Token> = {
     decimals: { [ChainId.BSC]: 8 },
     active: true,
   },
+  liq: {
+    symbol: 'LIQ',
+    address: {
+      [ChainId.BSC]: '0xc7981767f644C7F8e483DAbDc413e8a371b83079',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+  },
   axn: {
     symbol: 'AXN',
     address: {
@@ -2249,6 +2257,17 @@ const tokens: Record<string, Token> = {
     symbol: 'IHC-BNB',
     address: {
       [ChainId.BSC]: '0x83CcbE832e5a3B620a435fe0eDb89e171C14eCcB',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+    lpToken: true,
+  },
+  liqBusd: {
+    symbol: 'LIQ-BUSD',
+    address: {
+      [ChainId.BSC]: '0x759584fe196fb2e3f5bf2eff8c2747741d5ecf59',
     },
     decimals: {
       [ChainId.BSC]: 18,
