@@ -248,7 +248,6 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://web.curate.style/',
     twitter: 'https://twitter.com/curateproject',
-    inactive: true,
   },
   {
     index: 28,
