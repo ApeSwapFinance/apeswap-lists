@@ -162,10 +162,6 @@ const jungleFarms: JungleFarmConfig[] = [
       quoteToken: tokens.usdc,
     },
     contractAddress: {
-      [ChainId.BSC]: '',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
       [ChainId.TLOS]: '0x4c33A9cdBFC39DF0F17ec0d64170a23e3703E0a0',
     },
     projectLink: 'https://telos.net',
@@ -190,10 +186,6 @@ const jungleFarms: JungleFarmConfig[] = [
       quoteToken: tokens.usdc,
     },
     contractAddress: {
-      [ChainId.BSC]: '',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
       [ChainId.TLOS]: '0xCc51745C55B1826A276F801bCe4DdFfad566Be16',
     },
     projectLink: 'https://telos.net',
