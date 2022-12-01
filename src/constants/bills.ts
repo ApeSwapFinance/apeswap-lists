@@ -91,9 +91,6 @@ const bills: BillsConfig[] = [
     index: 37,
     contractAddress: {
       [ChainId.BSC]: '0x2e9bdb018850747dc557d13046b8259ab24c674a',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
     },
     billType: 'JUNGLE Bill',
     token: tokens.radar,
@@ -102,9 +99,6 @@ const bills: BillsConfig[] = [
     earnToken: tokens.radar,
     billNnftAddress: {
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
     },
     projectLink: 'https://dappradar.com/',
     twitter: 'https://twitter.com/DappRadar/',
@@ -113,9 +107,6 @@ const bills: BillsConfig[] = [
     index: 38,
     contractAddress: {
       [ChainId.BSC]: '0x5aabc088b42c197c8da69af5471aa06c3852912b',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
     },
     billType: 'JUNGLE Bill',
     token: tokens.ihc,
@@ -124,9 +115,6 @@ const bills: BillsConfig[] = [
     earnToken: tokens.ihc,
     billNnftAddress: {
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
     },
     projectLink: 'https://dappradar.com/',
     twitter: 'https://twitter.com/DappRadar/',
@@ -135,9 +123,6 @@ const bills: BillsConfig[] = [
     index: 39,
     contractAddress: {
       [ChainId.BSC]: '0xfe69f6f456fdc5535e7a7a03bb78f739400bc8e0',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
     },
     billType: 'JUNGLE Bill',
     token: tokens.liq,
@@ -146,9 +131,6 @@ const bills: BillsConfig[] = [
     earnToken: tokens.liq,
     billNnftAddress: {
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
     },
     projectLink: 'https://liquidus.finance/',
     twitter: 'https://twitter.com/LiquidusFinance',
@@ -157,9 +139,6 @@ const bills: BillsConfig[] = [
     index: 40,
     contractAddress: {
       [ChainId.BSC]: '0x74dab17e30b974a3590796a8ba2223a50da6a32c',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
     },
     billType: 'JUNGLE Bill',
     token: tokens.pstn,
@@ -168,9 +147,6 @@ const bills: BillsConfig[] = [
     earnToken: tokens.pstn,
     billNnftAddress: {
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
-      [ChainId.MATIC]: '',
-      [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
     },
     projectLink: 'https://piston-token.com/',
     twitter: 'https://twitter.com/MyDefi_team',
