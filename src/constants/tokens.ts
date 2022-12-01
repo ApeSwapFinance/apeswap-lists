@@ -2355,7 +2355,7 @@ const tokens: Record<string, Token> = {
     address: {
       [ChainId.TLOS]: '0xa4dfe1fdca0c341c1ba26550ec5128c89964f0db',
     },
-    decimals: { [ChainId.BSC]: 18 },
+    decimals: { [ChainId.TLOS]: 18 },
     active: true,
     lpToken: true,
   },
