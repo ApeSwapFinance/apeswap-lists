@@ -149,7 +149,7 @@ const bills: BillsConfig[] = [
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
     },
     projectLink: 'https://piston-token.com/',
-    twitter: 'https://twitter.com/MyDefi_team',
+    twitter: 'https://mobile.twitter.com/pistontoken',
   },
   {
     index: 30,
@@ -278,6 +278,7 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://piston-token.com/',
     twitter: 'https://twitter.com/MyDefi_team',
+    inactive: true,
   },
   {
     index: 25,
