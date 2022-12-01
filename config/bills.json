@@ -538,6 +538,67 @@
     "twitter": "https://twitter.com/LiquidusFinance"
   },
   {
+    "index": 40,
+    "contractAddress": {
+      "1": "",
+      "56": "0x74dab17e30b974a3590796a8ba2223a50da6a32c",
+      "97": "",
+      "137": ""
+    },
+    "billType": "JUNGLE Bill",
+    "token": {
+      "symbol": "PSTN",
+      "address": {
+        "56": "0xBfACD29427fF376FF3BC22dfFB29866277cA5Fb4"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BUSD",
+      "address": {
+        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "PSTN-BUSD",
+      "address": {
+        "56": "0x57fa15d373cbbd3141a13f8bab10c380ac2b14d5"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "PSTN",
+      "address": {
+        "56": "0xBfACD29427fF376FF3BC22dfFB29866277cA5Fb4"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "1": "",
+      "56": "0x7FD203888661d1F0AE625eD599909f8F97698670",
+      "97": "",
+      "137": ""
+    },
+    "projectLink": "https://piston-token.com/",
+    "twitter": "https://twitter.com/MyDefi_team"
+  },
+  {
     "index": 30,
     "contractAddress": {
       "56": "0xced994206cd4c364d7bda2b66b48fcaef9b6bb5b"
