@@ -3,7 +3,7 @@ import tokens from './tokens'
 import { BillsConfig } from './types'
 
 // BNB Largest ID: 40
-// Polygon Largest ID: 102
+// Polygon Largest ID: 103
 // Telos Largest ID: 210
 
 const bills: BillsConfig[] = [
@@ -733,6 +733,23 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://www.dogira.net/',
     twitter: 'https://twitter.com/DogiraOfficial',
+  },
+  {
+    index: 103,
+    contractAddress: {
+      [ChainId.MATIC]: '0xb53b2706897a26fec9113f3e2371ac5b2b88970a',
+    },
+    billType: 'Jungle Bill',
+    token: tokens.axn,
+    quoteToken: tokens.usdc,
+    lpToken: tokens.axnUsdc,
+    earnToken: tokens.axn,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0xa35c3fcd306cf69fed19e8c7b15c8b3904ea609d',
+    },
+    inactive: false,
+    projectLink: 'https://axion.network/',
+    twitter: 'https://twitter.com/axion_network',
   },
 
   /*
