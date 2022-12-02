@@ -116,8 +116,8 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
     },
-    projectLink: 'https://dappradar.com/',
-    twitter: 'https://twitter.com/DappRadar/',
+    projectLink: 'https://www.ihcoin.io/',
+    twitter: 'https://twitter.com/IHCoinofficial',
   },
   {
     index: 39,
@@ -165,7 +165,7 @@ const bills: BillsConfig[] = [
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
     },
     projectLink: 'https://nftynetwork.io/',
-    twitter: 'https://twitter.com/NFTYLab',
+    twitter: 'https://twitter.com/NFTYFinance',
   },
   {
     index: 29,
