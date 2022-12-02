@@ -33,10 +33,8 @@
     },
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-      "137": ""
+      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     }
   },
   {
@@ -53,10 +51,8 @@
     },
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "1": "",
       "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-      "137": ""
+      "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     }
   }
 ]

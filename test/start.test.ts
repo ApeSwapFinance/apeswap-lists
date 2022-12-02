@@ -38,7 +38,8 @@ const stringifiedJungleFarmsJson = JSON.stringify(poolsJson, null, 2)
 const stringifiedPools = JSON.stringify(jungleFarms, null, 2)
 const stringifiedPoolsJson = JSON.stringify(jungleFarmsJson, null, 2)
 
-const stringifiedTokens = JSON.stringify(tokens, null, 2)
+const filterActiveTokens = Object.fromEntries(Object.entries(tokens).filter(([, val]) => val.active))
+const stringifiedTokens = JSON.stringify(filterActiveTokens, null, 2)
 const stringifiedTokensJson = JSON.stringify(tokensJson, null, 2)
 
 const stringifiedVaults = JSON.stringify(vaults, null, 2)
