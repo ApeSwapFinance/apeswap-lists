@@ -684,6 +684,23 @@ const bills: BillsConfig[] = [
     Polygon Bills
   */
   {
+    index: 103,
+    contractAddress: {
+      [ChainId.MATIC]: '0xb53b2706897a26fec9113f3e2371ac5b2b88970a',
+    },
+    billType: 'Jungle Bill',
+    token: tokens.axn,
+    quoteToken: tokens.usdc,
+    lpToken: tokens.axnUsdc,
+    earnToken: tokens.axn,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0xa35c3fcd306cf69fed19e8c7b15c8b3904ea609d',
+    },
+    inactive: false,
+    projectLink: 'https://axion.network/',
+    twitter: 'https://twitter.com/axion_network',
+  },
+  {
     index: 100,
     contractAddress: {
       [ChainId.MATIC]: '0x643a6848a3906182a94ec857a41c1735664c677f',
@@ -733,23 +750,6 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://www.dogira.net/',
     twitter: 'https://twitter.com/DogiraOfficial',
-  },
-  {
-    index: 103,
-    contractAddress: {
-      [ChainId.MATIC]: '0xb53b2706897a26fec9113f3e2371ac5b2b88970a',
-    },
-    billType: 'Jungle Bill',
-    token: tokens.axn,
-    quoteToken: tokens.usdc,
-    lpToken: tokens.axnUsdc,
-    earnToken: tokens.axn,
-    billNnftAddress: {
-      [ChainId.MATIC]: '0xa35c3fcd306cf69fed19e8c7b15c8b3904ea609d',
-    },
-    inactive: false,
-    projectLink: 'https://axion.network/',
-    twitter: 'https://twitter.com/axion_network',
   },
 
   /*
