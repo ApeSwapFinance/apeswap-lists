@@ -2457,6 +2457,17 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
   },
+  axnUsdc: {
+    symbol: 'AXN-USDC',
+    address: {
+      [ChainId.MATIC]: '0x81A3F6a138F0B12eCBDCE4583972A6CA57514dBd',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    active: true,
+    lpToken: true,
+  },
   traxxMatic: {
     symbol: 'TRAXX-MATIC',
     address: {
