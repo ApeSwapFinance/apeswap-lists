@@ -2538,6 +2538,64 @@
     "inactive": true
   },
   {
+    "index": 103,
+    "contractAddress": {
+      "137": "0xb53b2706897a26fec9113f3e2371ac5b2b88970a"
+    },
+    "billType": "Jungle Bill",
+    "token": {
+      "symbol": "AXN",
+      "address": {
+        "137": "0x839F1a22A59eAAf26c85958712aB32F80FEA23d9"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDC",
+      "address": {
+        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
+        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "AXN-USDC",
+      "address": {
+        "137": "0x81A3F6a138F0B12eCBDCE4583972A6CA57514dBd"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "AXN",
+      "address": {
+        "137": "0x839F1a22A59eAAf26c85958712aB32F80FEA23d9"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "137": "0xa35c3fcd306cf69fed19e8c7b15c8b3904ea609d"
+    },
+    "inactive": false,
+    "projectLink": "https://axion.network/",
+    "twitter": "https://twitter.com/axion_network"
+  },
+  {
     "index": 100,
     "contractAddress": {
       "137": "0x643a6848a3906182a94ec857a41c1735664c677f"
@@ -2704,64 +2762,6 @@
     "inactive": false,
     "projectLink": "https://www.dogira.net/",
     "twitter": "https://twitter.com/DogiraOfficial"
-  },
-  {
-    "index": 103,
-    "contractAddress": {
-      "137": "0xb53b2706897a26fec9113f3e2371ac5b2b88970a"
-    },
-    "billType": "Jungle Bill",
-    "token": {
-      "symbol": "AXN",
-      "address": {
-        "137": "0x839F1a22A59eAAf26c85958712aB32F80FEA23d9"
-      },
-      "decimals": {
-        "137": 18
-      },
-      "active": true
-    },
-    "quoteToken": {
-      "symbol": "USDC",
-      "address": {
-        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
-        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174"
-      },
-      "decimals": {
-        "40": 6,
-        "56": 18,
-        "137": 6
-      },
-      "active": true
-    },
-    "lpToken": {
-      "symbol": "AXN-USDC",
-      "address": {
-        "137": "0x81A3F6a138F0B12eCBDCE4583972A6CA57514dBd"
-      },
-      "decimals": {
-        "137": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
-    "earnToken": {
-      "symbol": "AXN",
-      "address": {
-        "137": "0x839F1a22A59eAAf26c85958712aB32F80FEA23d9"
-      },
-      "decimals": {
-        "137": 18
-      },
-      "active": true
-    },
-    "billNnftAddress": {
-      "137": "0xa35c3fcd306cf69fed19e8c7b15c8b3904ea609d"
-    },
-    "inactive": false,
-    "projectLink": "https://axion.network/",
-    "twitter": "https://twitter.com/axion_network"
   },
   {
     "index": 206,
