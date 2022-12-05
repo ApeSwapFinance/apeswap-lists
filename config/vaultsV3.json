@@ -71,7 +71,7 @@
         "56": "0x63d2495050309b0639d24C870f1c3BA4e88F4626"
       },
       "rewardsPerBlock": {
-        "56": "bananaPerBlock"
+        "56": "bananaPerSecond"
       },
       "rewardToken": {
         "symbol": "FARMAWAY",
@@ -142,7 +142,7 @@
         "56": "0x63d2495050309b0639d24C870f1c3BA4e88F4626"
       },
       "rewardsPerBlock": {
-        "56": "bananaPerBlock"
+        "56": "bananaPerSecond"
       },
       "rewardToken": {
         "symbol": "FARMAWAY",

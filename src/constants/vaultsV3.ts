@@ -27,7 +27,7 @@ const vaults: VaultConfig[] = [
         [ChainId.BSC]: '0x63d2495050309b0639d24C870f1c3BA4e88F4626',
       },
       rewardsPerBlock: {
-        [ChainId.BSC]: 'bananaPerBlock',
+        [ChainId.BSC]: 'bananaPerSecond',
       },
       rewardToken: tokens.farmAway,
     },
@@ -55,7 +55,7 @@ const vaults: VaultConfig[] = [
         [ChainId.BSC]: '0x63d2495050309b0639d24C870f1c3BA4e88F4626',
       },
       rewardsPerBlock: {
-        [ChainId.BSC]: 'bananaPerBlock',
+        [ChainId.BSC]: 'bananaPerSecond',
       },
       rewardToken: tokens.farmAway,
     },
