@@ -10,6 +10,7 @@ import {
   iaos,
   zapInputTokens,
   farmsV2,
+  vaultsV3,
 } from '../src/constants'
 import billsJson from '../config/bills.json'
 import farmsJson from '../config/farms.json'
@@ -45,6 +46,9 @@ const stringifiedTokensJson = JSON.stringify(tokensJson, null, 2)
 const stringifiedVaults = JSON.stringify(vaults, null, 2)
 const stringifiedVaultsJson = JSON.stringify(vaultsJson, null, 2)
 
+const stringifiedVaultsV3 = JSON.stringify(vaultsV3, null, 2)
+const stringifiedVaultsV3Json = JSON.stringify(vaultsV3, null, 2)
+
 const stringifiedDualFarms = JSON.stringify(dualFarms, null, 2)
 const stringifiedDualFarmsJson = JSON.stringify(dualFarmsJson, null, 2)
 
@@ -78,6 +82,9 @@ describe('JSON files are most recent and are correct', () => {
   })
   it('Test if vaults have been generated', () => {
     expect(stringifiedVaultsJson).toBe(stringifiedVaults)
+  })
+  it('Test if vaults have been generated', () => {
+    expect(stringifiedVaultsV3Json).toBe(stringifiedVaultsV3)
   })
   it('Test if dual farms have been generated', () => {
     expect(stringifiedDualFarmsJson).toBe(stringifiedDualFarms)
