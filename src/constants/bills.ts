@@ -278,6 +278,7 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://outerringmmo.com/',
     twitter: 'https://twitter.com/OuterRingMMO',
+    inactive: true,
   },
   {
     index: 26,
