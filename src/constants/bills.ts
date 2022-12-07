@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillsConfig } from './types'
 
-// BNB Largest ID: 40
+// BNB Largest ID: 41
 // Polygon Largest ID: 103
 // Telos Largest ID: 210
 
@@ -152,6 +152,22 @@ const bills: BillsConfig[] = [
     twitter: 'https://mobile.twitter.com/pistontoken',
   },
   {
+    index: 41,
+    contractAddress: {
+      [ChainId.BSC]: '0xEd242A13d25b5B2270E90058C9a1A756811cdb93',
+    },
+    billType: 'JUNGLE Bill',
+    token: tokens.gq,
+    quoteToken: tokens.busd,
+    lpToken: tokens.gqBusd,
+    earnToken: tokens.gq,
+    billNnftAddress: {
+      [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
+    },
+    projectLink: 'https://outerringmmo.com/',
+    twitter: 'https://twitter.com/OuterRingMMO',
+  },
+  {
     index: 30,
     contractAddress: {
       [ChainId.BSC]: '0xced994206cd4c364d7bda2b66b48fcaef9b6bb5b',
@@ -262,6 +278,7 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://outerringmmo.com/',
     twitter: 'https://twitter.com/OuterRingMMO',
+    inactive: true,
   },
   {
     index: 26,
