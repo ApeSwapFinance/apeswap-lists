@@ -154,7 +154,7 @@ const bills: BillsConfig[] = [
   {
     index: 41,
     contractAddress: {
-      [ChainId.BSC]: '0x7874c6deabf189aa45344040ad3e0d3b9ab984dd',
+      [ChainId.BSC]: '0xEd242A13d25b5B2270E90058C9a1A756811cdb93',
     },
     billType: 'JUNGLE Bill',
     token: tokens.gq,
