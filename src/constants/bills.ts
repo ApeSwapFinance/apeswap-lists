@@ -22,6 +22,8 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
+    initTime: { [ChainId.BSC]: 1668467108 },
+    initPrice: { [ChainId.BSC]: 0.0709352845097292 },
   },
   {
     index: 33,
@@ -38,6 +40,8 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
+    initTime: { [ChainId.BSC]: 1668467108 },
+    initPrice: { [ChainId.BSC]: 0.0709352845097292 },
   },
   {
     index: 34,
@@ -54,6 +58,8 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
+    initTime: { [ChainId.BSC]: 1668467108 },
+    initPrice: { [ChainId.BSC]: 0.0709352845097292 },
   },
   {
     index: 35,
@@ -70,6 +76,8 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
+    initTime: { [ChainId.BSC]: 1668467108 },
+    initPrice: { [ChainId.BSC]: 0.0709352845097292 },
   },
   {
     index: 36,
@@ -86,6 +94,8 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
+    initTime: { [ChainId.BSC]: 1668467108 },
+    initPrice: { [ChainId.BSC]: 0.0709352845097292 },
   },
   {
     index: 37,
@@ -102,6 +112,8 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://dappradar.com/',
     twitter: 'https://twitter.com/DappRadar/',
+    initTime: { [ChainId.BSC]: 1668620528 },
+    initPrice: { [ChainId.BSC]: 0.005311928477767259 },
   },
   {
     index: 38,
@@ -118,6 +130,8 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://www.ihcoin.io/',
     twitter: 'https://twitter.com/IHCoinofficial',
+    initTime: { [ChainId.BSC]: 1669045328 },
+    initPrice: { [ChainId.BSC]: 0.0000773918161395094 },
   },
   {
     index: 39,
@@ -134,6 +148,8 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://liquidus.finance/',
     twitter: 'https://twitter.com/LiquidusFinance',
+    initTime: { [ChainId.BSC]: 1669794128 },
+    initPrice: { [ChainId.BSC]: 0.3590438711755946 },
   },
   {
     index: 40,
@@ -150,6 +166,8 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://piston-token.com/',
     twitter: 'https://mobile.twitter.com/pistontoken',
+    initTime: { [ChainId.BSC]: 1669905728 },
+    initPrice: { [ChainId.BSC]: 2.000004210715095 },
   },
   {
     index: 41,
@@ -166,6 +184,8 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://outerringmmo.com/',
     twitter: 'https://twitter.com/OuterRingMMO',
+    initTime: { [ChainId.BSC]: 1670432974 },
+    initPrice: { [ChainId.BSC]: 0.001714637510619517 },
   },
   {
     index: 30,
@@ -182,6 +202,8 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://nftynetwork.io/',
     twitter: 'https://twitter.com/NFTYFinance',
+    initTime: { [ChainId.BSC]: 1667839328 },
+    initPrice: { [ChainId.BSC]: 0.005420113056475245 },
   },
   {
     index: 29,
@@ -198,6 +220,8 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://3air.io/',
     twitter: 'https://twitter.com/3aircrypto',
+    initTime: { [ChainId.BSC]: 1667512328 },
+    initPrice: { [ChainId.BSC]: 0.04540120370089731 },
   },
   {
     index: 27,
@@ -214,6 +238,8 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://www.coinofchampions.com/',
     twitter: 'https://twitter.com/coinofchampions',
+    initTime: { [ChainId.BSC]: 1667352248 },
+    initPrice: { [ChainId.BSC]: 1.2566456303843458e-7 },
   },
   {
     index: 22,
@@ -230,6 +256,8 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://chirpley.ai',
     twitter: 'https://twitter.com/chirpley',
+    initTime: { [ChainId.BSC]: 1664883258 },
+    initPrice: { [ChainId.BSC]: 0.006475439494480084 },
   },
   {
     index: 20,
@@ -246,6 +274,8 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://gmr.center/',
     twitter: 'https://twitter.com/GMRCenter',
+    initTime: { [ChainId.BSC]: 1662032058 },
+    initPrice: { [ChainId.BSC]: 0.019076325851224644 },
   },
   {
     index: 31,
@@ -262,6 +292,8 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://web.curate.style/',
     twitter: 'https://twitter.com/curateproject',
+    initTime: { [ChainId.BSC]: 1662032058 },
+    initPrice: { [ChainId.BSC]: 0.019076325851224644 },
   },
   {
     index: 28,
@@ -278,6 +310,8 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://outerringmmo.com/',
     twitter: 'https://twitter.com/OuterRingMMO',
+    initTime: { [ChainId.BSC]: 1667483648 },
+    initPrice: { [ChainId.BSC]: 0.002164726526133125 },
     inactive: true,
   },
   {
@@ -312,6 +346,8 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://xwin.finance/',
     twitter: 'https://twitter.com/xwinfinance',
+    initTime: { [ChainId.BSC]: 1666784058 },
+    initPrice: { [ChainId.BSC]: 0.550605316141175 },
   },
   {
     index: 24,
@@ -328,6 +364,8 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://froyo.games/',
     twitter: 'https://twitter.com/realfroyogames',
+    initTime: { [ChainId.BSC]: 1666092858 },
+    initPrice: { [ChainId.BSC]: 0.010365834030975409 },
   },
   {
     index: 23,
@@ -361,6 +399,8 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://bolide.fi/',
     twitter: 'https://twitter.com/Bolide_fi',
+    initTime: { [ChainId.BSC]: 1664192058 },
+    initPrice: { [ChainId.BSC]: 0.024065964757317017 },
   },
   {
     index: 19,
@@ -377,6 +417,8 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://hector.network/',
     twitter: 'https://twitter.com/Hector_Network',
+    initTime: { [ChainId.BSC]: 1660649658 },
+    initPrice: { [ChainId.BSC]: 18.15486755163556 },
   },
   {
     index: 18,
@@ -393,6 +435,8 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://www.floki.com/',
     twitter: 'https://twitter.com/realflokiinu',
+    initTime: { [ChainId.BSC]: 1660217658 },
+    initPrice: { [ChainId.BSC]: 0.00001504435067868268 },
   },
   {
     index: 12,
@@ -426,6 +470,8 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://ceek.com/',
     twitter: 'https://twitter.com/CEEK/',
+    initTime: { [ChainId.BSC]: 1655292858 },
+    initPrice: { [ChainId.BSC]: 0.12499413563790174 },
   },
   {
     index: 6,
@@ -476,6 +522,8 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://www.mogulproductions.com/',
     twitter: 'https://twitter.com/mogulofficial_',
+    initTime: { [ChainId.BSC]: 1655292858 },
+    initPrice: { [ChainId.BSC]: 0.012596738432285355 },
   },
   {
     index: 9,
@@ -492,6 +540,8 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://hotcross.com/',
     twitter: 'https://twitter.com/hotcrosscom',
+    initTime: { [ChainId.BSC]: 1655292858 },
+    initPrice: { [ChainId.BSC]: 0.0410817844906574 },
   },
   {
     index: 10,
@@ -508,6 +558,8 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://hotcross.com/',
     twitter: 'https://twitter.com/hotcrosscom',
+    initTime: { [ChainId.BSC]: 1655292858 },
+    initPrice: { [ChainId.BSC]: 0.0410817844906574 },
   },
   {
     index: 11,
@@ -524,6 +576,8 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
+    initTime: { [ChainId.BSC]: 1655552058 },
+    initPrice: { [ChainId.BSC]: 0.1736239460283216 },
   },
   // Old BANANA Bills
   {
@@ -716,6 +770,8 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://axion.network/',
     twitter: 'https://twitter.com/axion_network',
+    initTime: { [ChainId.MATIC]: 1669973048 },
+    initPrice: { [ChainId.MATIC]: 0.000015665249761458396 },
   },
   {
     index: 100,
@@ -730,9 +786,9 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.MATIC]: '0xa35c3fcd306cf69fed19e8c7b15c8b3904ea609d',
     },
-    inactive: true,
     projectLink: 'https://www.dogira.net/',
     twitter: 'https://twitter.com/DogiraOfficial',
+    inactive: true,
   },
   {
     index: 101,
@@ -750,6 +806,8 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://www.tokentraxx.com/',
     twitter: 'https://twitter.com/TokenTraxx',
+    initTime: { [ChainId.MATIC]: 1663846458 },
+    initPrice: { [ChainId.MATIC]: 0.18650580540316708 },
   },
   {
     index: 102,
@@ -767,6 +825,8 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://www.dogira.net/',
     twitter: 'https://twitter.com/DogiraOfficial',
+    initTime: { [ChainId.MATIC]: 1664969658 },
+    initPrice: { [ChainId.MATIC]: 0.0015076537321486155 },
   },
 
   /*
@@ -788,6 +848,8 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
+    initTime: { [ChainId.TLOS]: 1668849848 },
+    initPrice: { [ChainId.TLOS]: 0.1743935819281813 },
   },
   {
     index: 207,
@@ -805,6 +867,8 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
+    initTime: { [ChainId.TLOS]: 1668849848 },
+    initPrice: { [ChainId.TLOS]: 0.1743935819281813 },
   },
   {
     index: 208,
@@ -822,6 +886,8 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
+    initTime: { [ChainId.TLOS]: 1668849848 },
+    initPrice: { [ChainId.TLOS]: 0.1743935819281813 },
   },
   {
     index: 209,
@@ -839,6 +905,8 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
+    initTime: { [ChainId.TLOS]: 1668849848 },
+    initPrice: { [ChainId.TLOS]: 0.1743935819281813 },
   },
   {
     index: 210,
@@ -856,6 +924,8 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
+    initTime: { [ChainId.TLOS]: 1668849848 },
+    initPrice: { [ChainId.TLOS]: 0.1743935819281813 },
   },
   {
     index: 201,

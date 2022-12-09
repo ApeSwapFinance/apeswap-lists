@@ -56,6 +56,8 @@ export interface BillsConfig {
   inactive?: boolean
   projectLink?: string
   twitter?: string
+  initTime?: Partial<Record<ChainId, number>>
+  initPrice?: Partial<Record<ChainId, number>>
 }
 
 export interface VaultConfig {
