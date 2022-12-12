@@ -789,7 +789,7 @@ const bills: BillsConfig[] = [
   {
     index: 103,
     contractAddress: {
-      [ChainId.MATIC]: '0x5e836d113cbb0db2107cfa4ec61c55756f09438f',
+      [ChainId.MATIC]: '0x5f3f1f47f05ffddd843ac1a92bd1a0f805f73972',
     },
     billType: 'Jungle Bill',
     token: tokens.uad,
