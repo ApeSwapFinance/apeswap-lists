@@ -2505,6 +2505,90 @@
     "inactive": true
   },
   {
+    "index": 103,
+    "contractAddress": {
+      "137": "0x5f3f1f47f05ffddd843ac1a92bd1a0f805f73972"
+    },
+    "billType": "Jungle Bill",
+    "token": {
+      "symbol": "uAD",
+      "address": {
+        "137": "0xaa48B13BeF9AB96E058311D24f75B9Ac1fB4438b"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "active": true,
+      "lpType": "Arrakis"
+    },
+    "quoteToken": {
+      "symbol": "DAI",
+      "address": {
+        "56": "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3",
+        "137": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063"
+      },
+      "decimals": {
+        "56": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "DAI-uAD",
+      "token0": {
+        "symbol": "DAI",
+        "address": {
+          "56": "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3",
+          "137": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063"
+        },
+        "decimals": {
+          "56": 18,
+          "137": 18
+        },
+        "active": true
+      },
+      "token1": {
+        "symbol": "uAD",
+        "address": {
+          "137": "0xaa48B13BeF9AB96E058311D24f75B9Ac1fB4438b"
+        },
+        "decimals": {
+          "137": 18
+        },
+        "active": true,
+        "lpType": "Arrakis"
+      },
+      "address": {
+        "137": "0xb044DeF758f101DacB42892ed8FfE618e945DE2F"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "active": true,
+      "lpToken": true,
+      "lpType": "Arrakis"
+    },
+    "earnToken": {
+      "symbol": "uCR",
+      "address": {
+        "137": "0x546Bb7F58a1C8BD96D57FDCa13cc44083841527e"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "active": true,
+      "lpType": "Arrakis"
+    },
+    "billNnftAddress": {
+      "137": "0xf63e25b5492a856189420724fe6f3573620966f3"
+    },
+    "inactive": false,
+    "lpType": "Arrakis",
+    "version": "v2",
+    "projectLink": "",
+    "twitter": ""
+  },
+  {
     "index": 100,
     "contractAddress": {
       "137": "0x643a6848a3906182a94ec857a41c1735664c677f"
@@ -2677,90 +2761,6 @@
     "inactive": false,
     "projectLink": "https://www.dogira.net/",
     "twitter": "https://twitter.com/DogiraOfficial"
-  },
-  {
-    "index": 103,
-    "contractAddress": {
-      "137": "0x5f3f1f47f05ffddd843ac1a92bd1a0f805f73972"
-    },
-    "billType": "Jungle Bill",
-    "token": {
-      "symbol": "uAD",
-      "address": {
-        "137": "0xaa48B13BeF9AB96E058311D24f75B9Ac1fB4438b"
-      },
-      "decimals": {
-        "137": 18
-      },
-      "active": true,
-      "lpType": "Arrakis"
-    },
-    "quoteToken": {
-      "symbol": "DAI",
-      "address": {
-        "56": "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3",
-        "137": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063"
-      },
-      "decimals": {
-        "56": 18,
-        "137": 18
-      },
-      "active": true
-    },
-    "lpToken": {
-      "symbol": "DAI-uAD",
-      "token0": {
-        "symbol": "DAI",
-        "address": {
-          "56": "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3",
-          "137": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063"
-        },
-        "decimals": {
-          "56": 18,
-          "137": 18
-        },
-        "active": true
-      },
-      "token1": {
-        "symbol": "uAD",
-        "address": {
-          "137": "0xaa48B13BeF9AB96E058311D24f75B9Ac1fB4438b"
-        },
-        "decimals": {
-          "137": 18
-        },
-        "active": true,
-        "lpType": "Arrakis"
-      },
-      "address": {
-        "137": "0xb044DeF758f101DacB42892ed8FfE618e945DE2F"
-      },
-      "decimals": {
-        "137": 18
-      },
-      "active": true,
-      "lpToken": true,
-      "lpType": "Arrakis"
-    },
-    "earnToken": {
-      "symbol": "uCR",
-      "address": {
-        "137": "0x546Bb7F58a1C8BD96D57FDCa13cc44083841527e"
-      },
-      "decimals": {
-        "137": 18
-      },
-      "active": true,
-      "lpType": "Arrakis"
-    },
-    "billNnftAddress": {
-      "137": "0xf63e25b5492a856189420724fe6f3573620966f3"
-    },
-    "inactive": false,
-    "lpType": "Arrakis",
-    "version": "v2",
-    "projectLink": "",
-    "twitter": ""
   },
   {
     "index": 206,

@@ -730,6 +730,25 @@ const bills: BillsConfig[] = [
     Polygon Bills
   */
   {
+    index: 103,
+    contractAddress: {
+      [ChainId.MATIC]: '0x5f3f1f47f05ffddd843ac1a92bd1a0f805f73972',
+    },
+    billType: 'Jungle Bill',
+    token: tokens.uad,
+    quoteToken: tokens.dai,
+    lpToken: lpTokens.daiUad,
+    earnToken: tokens.ucr,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0xf63e25b5492a856189420724fe6f3573620966f3',
+    },
+    inactive: false,
+    lpType: LpType.ARRAKIS,
+    version: BillVersion.V2,
+    projectLink: '',
+    twitter: '',
+  },
+  {
     index: 100,
     contractAddress: {
       [ChainId.MATIC]: '0x643a6848a3906182a94ec857a41c1735664c677f',
@@ -785,25 +804,6 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://www.dogira.net/',
     twitter: 'https://twitter.com/DogiraOfficial',
-  },
-  {
-    index: 103,
-    contractAddress: {
-      [ChainId.MATIC]: '0x5f3f1f47f05ffddd843ac1a92bd1a0f805f73972',
-    },
-    billType: 'Jungle Bill',
-    token: tokens.uad,
-    quoteToken: tokens.dai,
-    lpToken: lpTokens.daiUad,
-    earnToken: tokens.ucr,
-    billNnftAddress: {
-      [ChainId.MATIC]: '0xf63e25b5492a856189420724fe6f3573620966f3',
-    },
-    inactive: false,
-    lpType: LpType.ARRAKIS,
-    version: BillVersion.V2,
-    projectLink: '',
-    twitter: '',
   },
   /*
     Telos Bills
