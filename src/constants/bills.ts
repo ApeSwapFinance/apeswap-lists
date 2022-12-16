@@ -732,7 +732,7 @@ const bills: BillsConfig[] = [
   {
     index: 103,
     contractAddress: {
-      [ChainId.MATIC]: '0x5f3f1f47f05ffddd843ac1a92bd1a0f805f73972',
+      [ChainId.MATIC]: '0xB2E4d2C8b898036ae742227C2E846a0D04E6f043',
     },
     billType: 'Jungle Bill',
     token: tokens.uad,
@@ -745,8 +745,27 @@ const bills: BillsConfig[] = [
     inactive: false,
     lpType: LpType.ARRAKIS,
     version: BillVersion.V2,
-    projectLink: '',
-    twitter: '',
+    projectLink: 'https://ubq.fi/',
+    twitter: 'https://twitter.com/UbiquityDAO',
+  },
+  {
+    index: 104,
+    contractAddress: {
+      [ChainId.MATIC]: '0x8aeaf405cfc6e7707f2bd0c7b794a5e716df3d90',
+    },
+    billType: 'Jungle Bill',
+    token: tokens.ucr,
+    quoteToken: tokens.eth,
+    lpToken: lpTokens.ucrEth,
+    earnToken: tokens.ucr,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0xf63e25b5492a856189420724fe6f3573620966f3',
+    },
+    inactive: false,
+    lpType: LpType.APESWAP,
+    version: BillVersion.V2,
+    projectLink: 'https://ubq.fi/',
+    twitter: 'https://twitter.com/UbiquityDAO',
   },
   {
     index: 100,

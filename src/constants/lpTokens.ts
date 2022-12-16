@@ -701,6 +701,15 @@ const lpTokens: Record<string, LpToken> = {
     active: true,
     lpToken: true,
   },
+  ucrEth: {
+    symbol: 'uCR-ETH',
+    address: {
+      [ChainId.MATIC]: '0xfbfde83998622815b744db249fd9778923187a11',
+    },
+    decimals: { [ChainId.MATIC]: 18 },
+    active: true,
+    lpToken: true,
+  },
   daiUad: {
     symbol: 'DAI-uAD',
     token0: tokens.dai,
