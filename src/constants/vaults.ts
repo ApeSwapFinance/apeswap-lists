@@ -1,6 +1,6 @@
 import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
-import { VaultConfig } from './types'
+import { VaultConfig } from '../types'
 
 const vaults: VaultConfig[] = [
   {

@@ -1,4 +1,4 @@
-import { Token } from './types'
+import { Token } from '../types'
 import tokens from './tokens'
 import { ChainId } from '@ape.swap/sdk'
 

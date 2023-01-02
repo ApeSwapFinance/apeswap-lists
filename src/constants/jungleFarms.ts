@@ -1,4 +1,4 @@
-import { JungleFarmConfig } from './types'
+import { JungleFarmConfig } from '../types'
 import tokens from './tokens'
 import { ChainId } from '@ape.swap/sdk'
 

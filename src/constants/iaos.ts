@@ -1,4 +1,4 @@
-import { IaoConfig } from './types'
+import { IaoConfig } from '../types'
 
 const iaos: IaoConfig[] = [
   /* 
