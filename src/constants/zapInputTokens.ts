@@ -2,7 +2,7 @@ import { Token } from '../types'
 import tokens from './tokens'
 import { ChainId } from '@ape.swap/sdk'
 
-const zapInputTokens: Record<string, Record<string, Token>> = {
+const zapInputTokens: Partial<Record<ChainId, Record<string, Token>>> = {
   [ChainId.BSC]: {
     wbnb: tokens.wbnb,
     eth: tokens.eth,
