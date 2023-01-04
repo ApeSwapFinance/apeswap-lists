@@ -1,5 +1,5 @@
 import { ChainId } from '@ape.swap/sdk'
-import { Token } from './types'
+import { Token } from '../types'
 
 const tokens: Record<string, Token> = {
   // BANANA should always be first token for GNANA calculation
