@@ -1,11 +1,11 @@
 import BigNumber from 'bignumber.js'
 import { ChainId } from '@ape.swap/sdk'
-import { PoolConfig, PoolCategory } from './types'
+import { PoolConfig, PoolCategory } from '../types'
 import tokens from './tokens'
 
 const BANANA_PER_BLOCK = new BigNumber(10)
 
-// Current Sous ID is 226
+// Current Sous ID is 227
 
 const pools: PoolConfig[] = [
   {
@@ -2818,6 +2818,26 @@ const pools: PoolConfig[] = [
     reflect: false,
     isFinished: true,
     tokenDecimals: 4,
+  },
+  {
+    sousId: 227,
+    tokenName: 'LEAP',
+    image: 'LEAP.svg',
+    stakingToken: tokens.leapBnb,
+    rewardToken: tokens.leap,
+    contractAddress: {
+      97: '0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d',
+      56: '0x60d0926F7669d2F36845eAf672e57366c0c2bD7B',
+    },
+    poolCategory: PoolCategory.JUNGLE,
+    projectLink: 'https://www.playleap.io/',
+    twitter: 'https://twitter.com/Play_Leap',
+    harvest: true,
+    tokenPerBlock: `0.403084201388888888`,
+    sortOrder: 1,
+    reflect: false,
+    isFinished: false,
+    tokenDecimals: 18,
   },
 
   //

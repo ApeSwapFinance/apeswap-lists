@@ -1,5 +1,5 @@
 import { ChainId } from '@ape.swap/sdk'
-import { Token } from './types'
+import { Token } from '../types'
 
 const tokens: Record<string, Token> = {
   // BANANA should always be first token for GNANA calculation
@@ -870,6 +870,16 @@ const tokens: Record<string, Token> = {
     symbol: 'LMN',
     address: {
       [ChainId.BSC]: '0x7251C7A2155d8FEDb42a1DC4333aDe589e4d6919',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+  },
+  leap: {
+    symbol: 'LEAP',
+    address: {
+      [ChainId.BSC]: '0x6eEd9140F80F9E989CB23AeCBD20b97a29FFc80F',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -2202,6 +2212,17 @@ const tokens: Record<string, Token> = {
     symbol: 'LINK-BNB',
     address: {
       [ChainId.BSC]: '0x092ADA3818DB7FBb8e0A2124Ff218C5125C1CcE6',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+    lpToken: true,
+  },
+  leapBnb: {
+    symbol: 'LEAP-BNB',
+    address: {
+      [ChainId.BSC]: '0x5243b560c0F2df6678c06E772156F49C078d6165',
     },
     decimals: {
       [ChainId.BSC]: 18,

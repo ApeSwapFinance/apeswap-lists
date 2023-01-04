@@ -1,4 +1,4 @@
-import { JungleFarmConfig } from './types'
+import { JungleFarmConfig } from '../types'
 import tokens from './tokens'
 import { ChainId } from '@ape.swap/sdk'
 
@@ -202,7 +202,7 @@ const jungleFarms: JungleFarmConfig[] = [
 
   /*
     CHAIN ID 56 - BNB Jungle Farms
-    Current Jungle ID = 12
+    Current Jungle ID = 13
   */
   {
     jungleId: 8,
@@ -545,6 +545,30 @@ const jungleFarms: JungleFarmConfig[] = [
     twitter: 'https://twitter.com/SweetPad_',
     harvest: true,
     tokenPerBlock: '0.07398535704',
+    sortOrder: 1,
+    isFinished: false,
+    tokenDecimals: 18,
+    lpStaking: true,
+    isEarnTokenLp: false,
+    network: ChainId.BSC,
+  },
+  {
+    jungleId: 13,
+    tokenName: 'LEAP-BNB',
+    image: 'LEAP.svg',
+    stakingToken: tokens.leapBnb,
+    rewardToken: tokens.leap,
+    lpTokens: {
+      token: tokens.leap,
+      quoteToken: tokens.wbnb,
+    },
+    contractAddress: {
+      [ChainId.BSC]: '0x60d0926F7669d2F36845eAf672e57366c0c2bD7B',
+    },
+    projectLink: 'https://www.playleap.io/',
+    twitter: 'https://twitter.com/Play_Leap',
+    harvest: true,
+    tokenPerBlock: '0.403084201388888888',
     sortOrder: 1,
     isFinished: false,
     tokenDecimals: 18,

@@ -1,6 +1,6 @@
 import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
-import { FarmConfig, QuoteToken } from './types'
+import { FarmConfig, QuoteToken } from '../types'
 
 // Current PID is 217
 

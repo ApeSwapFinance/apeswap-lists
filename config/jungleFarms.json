@@ -1468,5 +1468,70 @@
     "lpStaking": true,
     "isEarnTokenLp": false,
     "network": 56
+  },
+  {
+    "jungleId": 13,
+    "tokenName": "LEAP-BNB",
+    "image": "LEAP.svg",
+    "stakingToken": {
+      "symbol": "LEAP-BNB",
+      "address": {
+        "56": "0x5243b560c0F2df6678c06E772156F49C078d6165"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "rewardToken": {
+      "symbol": "LEAP",
+      "address": {
+        "56": "0x6eEd9140F80F9E989CB23AeCBD20b97a29FFc80F"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "lpTokens": {
+      "token": {
+        "symbol": "LEAP",
+        "address": {
+          "56": "0x6eEd9140F80F9E989CB23AeCBD20b97a29FFc80F"
+        },
+        "decimals": {
+          "56": 18
+        },
+        "active": true
+      },
+      "quoteToken": {
+        "symbol": "BNB",
+        "address": {
+          "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+          "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+          "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        },
+        "decimals": {
+          "56": 18,
+          "97": 18,
+          "137": 18
+        },
+        "active": true
+      }
+    },
+    "contractAddress": {
+      "56": "0x60d0926F7669d2F36845eAf672e57366c0c2bD7B"
+    },
+    "projectLink": "https://www.playleap.io/",
+    "twitter": "https://twitter.com/Play_Leap",
+    "harvest": true,
+    "tokenPerBlock": "0.403084201388888888",
+    "sortOrder": 1,
+    "isFinished": false,
+    "tokenDecimals": 18,
+    "lpStaking": true,
+    "isEarnTokenLp": false,
+    "network": 56
   }
 ]
