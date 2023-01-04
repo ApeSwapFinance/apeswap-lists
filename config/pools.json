@@ -6037,6 +6037,45 @@
     "tokenDecimals": 4
   },
   {
+    "sousId": 227,
+    "tokenName": "LEAP",
+    "image": "LEAP.svg",
+    "stakingToken": {
+      "symbol": "LEAP-BNB",
+      "address": {
+        "56": "0x5243b560c0F2df6678c06E772156F49C078d6165"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "rewardToken": {
+      "symbol": "LEAP",
+      "address": {
+        "56": "0x6eEd9140F80F9E989CB23AeCBD20b97a29FFc80F"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "contractAddress": {
+      "56": "0x60d0926F7669d2F36845eAf672e57366c0c2bD7B",
+      "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
+    },
+    "poolCategory": "Jungle",
+    "projectLink": "https://www.playleap.io/",
+    "twitter": "https://twitter.com/Play_Leap",
+    "harvest": true,
+    "tokenPerBlock": "0.403084201388888888",
+    "sortOrder": 1,
+    "reflect": false,
+    "isFinished": false,
+    "tokenDecimals": 18
+  },
+  {
     "sousId": 96,
     "tokenName": "BANANA",
     "image": "BANANA.svg",

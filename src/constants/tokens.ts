@@ -876,6 +876,16 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  leap: {
+    symbol: 'LEAP',
+    address: {
+      [ChainId.BSC]: '0x6eEd9140F80F9E989CB23AeCBD20b97a29FFc80F',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+  },
   hera: {
     symbol: 'HERA',
     address: {
@@ -2202,6 +2212,17 @@ const tokens: Record<string, Token> = {
     symbol: 'LINK-BNB',
     address: {
       [ChainId.BSC]: '0x092ADA3818DB7FBb8e0A2124Ff218C5125C1CcE6',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+    lpToken: true,
+  },
+  leapBnb: {
+    symbol: 'LEAP-BNB',
+    address: {
+      [ChainId.BSC]: '0x5243b560c0F2df6678c06E772156F49C078d6165',
     },
     decimals: {
       [ChainId.BSC]: 18,
