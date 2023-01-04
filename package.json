@@ -31,12 +31,12 @@
     "@ape.swap/sdk": "4.3.1",
     "bignumber.js": "^9.0.2",
     "ethers": "^5.6.9",
-    "path": "^0.12.7",
-    "rimraf": "^3.0.0",
-    "run-func": "^3.0.0",
-    "tslib": "^2.4.0"
+    "path": "^0.12.7"
   },
   "devDependencies": {
+    "rimraf": "^3.0.0",
+    "tslib": "^2.4.0",
+    "run-func": "^3.0.0",
     "@types/jest": "^28.1.6",
     "@types/node": "^18.0.6",
     "@typescript-eslint/eslint-plugin": "^5.30.7",
