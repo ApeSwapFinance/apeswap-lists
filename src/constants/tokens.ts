@@ -2007,7 +2007,7 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
   },
-  triviaBNB: {
+  triviaBnb: {
     symbol: 'TRIVIA-BNB',
     address: {
       [ChainId.BSC]: '0x481308c94ac14dab839cc453cdc330f0632f1b0f',
