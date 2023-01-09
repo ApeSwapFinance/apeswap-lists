@@ -1715,6 +1715,14 @@ const tokens: Record<string, Token> = {
     decimals: { [ChainId.BSC]: 18 },
     active: true,
   },
+  trivia: {
+    symbol: 'TRIVIA',
+    address: {
+      [ChainId.BSC]: '0xb465f3cb6Aba6eE375E12918387DE1eaC2301B05',
+    },
+    decimals: { [ChainId.BSC]: 3 },
+    active: true,
+  },
   xcur: {
     symbol: 'XCUR',
     address: {
@@ -1994,6 +2002,15 @@ const tokens: Record<string, Token> = {
     symbol: 'PSTN-BUSD',
     address: {
       [ChainId.BSC]: '0x57fa15d373cbbd3141a13f8bab10c380ac2b14d5',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+  },
+  triviaBNB: {
+    symbol: 'TRIVIA-BNB',
+    address: {
+      [ChainId.BSC]: '0x481308c94ac14dab839cc453cdc330f0632f1b0f',
     },
     decimals: { [ChainId.BSC]: 18 },
     active: true,

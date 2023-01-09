@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillsConfig } from '../types'
 
-// BNB Largest ID: 41
+// BNB Largest ID: 42
 // Polygon Largest ID: 103
 // Telos Largest ID: 210
 
@@ -186,6 +186,24 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/OuterRingMMO',
     initTime: { [ChainId.BSC]: 1670432974 },
     initPrice: { [ChainId.BSC]: 0.001714637510619517 },
+  },
+  {
+    index: 42,
+    contractAddress: {
+      [ChainId.BSC]: '0x103b174d8ec1ce2e2a0ee17cd0ede2dd5bf32497',
+    },
+    billType: 'JUNGLE Bill',
+    token: tokens.trivia,
+    quoteToken: tokens.bnb,
+    lpToken: tokens.triviaBnb,
+    earnToken: tokens.trivia,
+    billNnftAddress: {
+      [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
+    },
+    projectLink: 'https://trivians.io/',
+    twitter: 'https://twitter.com/PlayTrivians',
+    initTime: { [ChainId.BSC]: 1673276481 },
+    initPrice: { [ChainId.BSC]: 0.00385392 },
   },
   {
     index: 30,
