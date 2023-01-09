@@ -194,7 +194,7 @@ const bills: BillsConfig[] = [
     },
     billType: 'JUNGLE Bill',
     token: tokens.trivia,
-    quoteToken: tokens.bnb,
+    quoteToken: tokens.wbnb,
     lpToken: tokens.triviaBnb,
     earnToken: tokens.trivia,
     billNnftAddress: {
