@@ -565,7 +565,7 @@ const jungleFarms: JungleFarmConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0x60d0926F7669d2F36845eAf672e57366c0c2bD7B',
     },
-    projectLink: 'https://www.playleap.io/',
+    projectLink: 'https://www.leaptoken.io/',
     twitter: 'https://twitter.com/Play_Leap',
     harvest: true,
     tokenPerBlock: '0.403084201388888888',
