@@ -190,7 +190,7 @@ const bills: BillsConfig[] = [
   {
     index: 42,
     contractAddress: {
-      [ChainId.BSC]: '0x7E2263dF4758390c3DDfA3b5eD13B3Fdd92632a2',
+      [ChainId.BSC]: '0xb95bd2dc93562fd9076c0573615de42b413db256',
     },
     billType: 'JUNGLE Bill',
     token: tokens.leap,
@@ -202,8 +202,8 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://www.leaptoken.io/',
     twitter: 'https://twitter.com/Play_Leap',
-    initTime: { [ChainId.BSC]: 1673355243 },
-    initPrice: { [ChainId.BSC]: 0.210734 },
+    initTime: { [ChainId.BSC]: 1673368322 },
+    initPrice: { [ChainId.BSC]: 0.165579 },
   },
   {
     index: 30,
