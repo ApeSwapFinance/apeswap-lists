@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillsConfig } from '../types'
 
-// BNB Largest ID: 41
+// BNB Largest ID: 42
 // Polygon Largest ID: 103
 // Telos Largest ID: 210
 
@@ -186,6 +186,24 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/OuterRingMMO',
     initTime: { [ChainId.BSC]: 1670432974 },
     initPrice: { [ChainId.BSC]: 0.001714637510619517 },
+  },
+  {
+    index: 42,
+    contractAddress: {
+      [ChainId.BSC]: '0xb95bd2dc93562fd9076c0573615de42b413db256',
+    },
+    billType: 'JUNGLE Bill',
+    token: tokens.leap,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.leapBnb,
+    earnToken: tokens.leap,
+    billNnftAddress: {
+      [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
+    },
+    projectLink: 'https://www.leaptoken.io/',
+    twitter: 'https://twitter.com/Play_Leap',
+    initTime: { [ChainId.BSC]: 1673368322 },
+    initPrice: { [ChainId.BSC]: 0.165579 },
   },
   {
     index: 30,
