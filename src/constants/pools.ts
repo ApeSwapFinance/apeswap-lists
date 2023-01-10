@@ -2527,6 +2527,26 @@ const pools: PoolConfig[] = [
     isFinished: false,
     tokenDecimals: 18,
   },
+  {
+    sousId: 228,
+    tokenName: 'FRUIT',
+    image: 'FRUIT.svg',
+    stakingToken: tokens.gnana,
+    rewardToken: tokens.fruit,
+    contractAddress: {
+      97: '0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d',
+      56: '0x7D36b1c407554C81EeA30866c24c7B046B78d7E2',
+    },
+    poolCategory: PoolCategory.APEZONE,
+    projectLink: 'https://cryptofruits.com/index.php',
+    twitter: 'https://twitter.com/CryptoFruitsFi',
+    harvest: true,
+    tokenPerBlock: `1.008603587962962962`,
+    sortOrder: 1,
+    reflect: false,
+    isFinished: false,
+    tokenDecimals: 18,
+  },
 
   //
   // JUNGLE FARMS

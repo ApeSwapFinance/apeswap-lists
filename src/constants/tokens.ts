@@ -1723,6 +1723,14 @@ const tokens: Record<string, Token> = {
     decimals: { [ChainId.BSC]: 3 },
     active: true,
   },
+  fruit: {
+    symbol: 'FRUIT',
+    address: {
+      [ChainId.BSC]: '0xadd14ca8e026c4555933d12b568b1310968503a2',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+  },
   xcur: {
     symbol: 'XCUR',
     address: {
