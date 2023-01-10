@@ -5354,6 +5354,46 @@
     "tokenDecimals": 18
   },
   {
+    "sousId": 228,
+    "tokenName": "FRUIT",
+    "image": "FRUIT.svg",
+    "stakingToken": {
+      "symbol": "GNANA",
+      "address": {
+        "56": "0xdDb3Bd8645775F59496c821E4F55A7eA6A6dc299",
+        "97": "0xf693bDA9D3C56D5F9165c8633d9098e3C4Ae495A"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18
+      },
+      "active": true
+    },
+    "rewardToken": {
+      "symbol": "FRUIT",
+      "address": {
+        "56": "0xadd14ca8e026c4555933d12b568b1310968503a2"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "contractAddress": {
+      "56": "0x7D36b1c407554C81EeA30866c24c7B046B78d7E2",
+      "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
+    },
+    "poolCategory": "ApeZone",
+    "projectLink": "https://cryptofruits.com/index.php",
+    "twitter": "https://twitter.com/CryptoFruitsFi",
+    "harvest": true,
+    "tokenPerBlock": "1.008603587962962962",
+    "sortOrder": 1,
+    "reflect": false,
+    "isFinished": false,
+    "tokenDecimals": 18
+  },
+  {
     "sousId": 214,
     "tokenName": "PXP",
     "image": "PXP.png",
