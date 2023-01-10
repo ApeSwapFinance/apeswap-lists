@@ -690,6 +690,69 @@
     }
   },
   {
+    "index": 42,
+    "contractAddress": {
+      "56": "0x7E2263dF4758390c3DDfA3b5eD13B3Fdd92632a2"
+    },
+    "billType": "JUNGLE Bill",
+    "token": {
+      "symbol": "LEAP",
+      "address": {
+        "56": "0x6eEd9140F80F9E989CB23AeCBD20b97a29FFc80F"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "LEAP-BNB",
+      "address": {
+        "56": "0x5243b560c0F2df6678c06E772156F49C078d6165"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "LEAP",
+      "address": {
+        "56": "0x6eEd9140F80F9E989CB23AeCBD20b97a29FFc80F"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
+    },
+    "projectLink": "https://www.leaptoken.io/",
+    "twitter": "https://twitter.com/Play_Leap",
+    "initTime": {
+      "56": 1673355243
+    },
+    "initPrice": {
+      "56": 0.210734
+    }
+  },
+  {
     "index": 30,
     "contractAddress": {
       "56": "0xced994206cd4c364d7bda2b66b48fcaef9b6bb5b"
