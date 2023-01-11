@@ -5,7 +5,7 @@ import tokens from './tokens'
 
 const BANANA_PER_BLOCK = new BigNumber(10)
 
-// Current Sous ID is 227
+// Current Sous ID is 228
 
 const pools: PoolConfig[] = [
   {
@@ -2530,6 +2530,27 @@ const pools: PoolConfig[] = [
     audit: 'https://github.com/JorgeRodriguezsec/CTDsec/blob/main/Audits/Cybersecurity_Audit_CTDSEC_3air.pdf',
     harvest: true,
     tokenPerBlock: `0.331579861111111111`,
+    sortOrder: 1,
+    reflect: false,
+    isFinished: false,
+    tokenDecimals: 18,
+  },
+  {
+    sousId: 228,
+    tokenName: 'FRUIT',
+    image: 'FRUIT.svg',
+    stakingToken: tokens.gnana,
+    rewardToken: tokens.fruit,
+    contractAddress: {
+      97: '0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d',
+      56: '0x7D36b1c407554C81EeA30866c24c7B046B78d7E2',
+    },
+    poolCategory: PoolCategory.APEZONE,
+    projectLink: 'https://cryptofruits.com/index.php',
+    twitter: 'https://twitter.com/CryptoFruitsFi',
+    audit: 'https://hashex.org/audits/cryptofruits/',
+    harvest: true,
+    tokenPerBlock: `1.008603587962962962`,
     sortOrder: 1,
     reflect: false,
     isFinished: false,
