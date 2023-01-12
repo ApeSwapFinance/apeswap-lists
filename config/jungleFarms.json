@@ -64,7 +64,7 @@
     "projectLink": "https://telos.net",
     "twitter": "https://twitter.com/HelloTelos",
     "harvest": true,
-    "rewardsPerSecond": "0.004357638888888888",
+    "rewardsPerSecond": "0.004160108025",
     "sortOrder": 1,
     "isFinished": false,
     "tokenDecimals": 18,
@@ -135,7 +135,7 @@
     "projectLink": "https://telos.net",
     "twitter": "https://twitter.com/HelloTelos",
     "harvest": true,
-    "rewardsPerSecond": "0.006190972222",
+    "rewardsPerSecond": "0.006933641975",
     "sortOrder": 1,
     "isFinished": false,
     "tokenDecimals": 18,
@@ -206,7 +206,7 @@
     "projectLink": "https://telos.net",
     "twitter": "https://twitter.com/HelloTelos",
     "harvest": true,
-    "rewardsPerSecond": "0.003714506173",
+    "rewardsPerSecond": "0.004160108025",
     "sortOrder": 1,
     "isFinished": false,
     "tokenDecimals": 18,
@@ -275,7 +275,7 @@
     "projectLink": "https://telos.net",
     "twitter": "https://twitter.com/HelloTelos",
     "harvest": true,
-    "rewardsPerSecond": "0.004952932099",
+    "rewardsPerSecond": "0.005547067901",
     "sortOrder": 1,
     "isFinished": false,
     "tokenDecimals": 18,
@@ -344,7 +344,7 @@
     "projectLink": "https://telos.net",
     "twitter": "https://twitter.com/HelloTelos",
     "harvest": true,
-    "rewardsPerSecond": "0.006190972222",
+    "rewardsPerSecond": "0.006933641975",
     "sortOrder": 1,
     "isFinished": false,
     "tokenDecimals": 18,
@@ -409,7 +409,7 @@
     "projectLink": "https://telos.net",
     "twitter": "https://twitter.com/HelloTelos",
     "harvest": true,
-    "rewardsPerSecond": "0.03128125",
+    "rewardsPerSecond": "0.03262885802",
     "sortOrder": 1,
     "isFinished": false,
     "tokenDecimals": 18,
@@ -476,7 +476,7 @@
     "projectLink": "https://telos.net",
     "twitter": "https://twitter.com/HelloTelos",
     "harvest": true,
-    "rewardsPerSecond": "0.03649498457",
+    "rewardsPerSecond": "0.03654436728",
     "sortOrder": 1,
     "isFinished": false,
     "tokenDecimals": 18,
@@ -547,7 +547,7 @@
     "projectLink": "https://telos.net",
     "twitter": "https://twitter.com/HelloTelos",
     "harvest": true,
-    "rewardsPerSecond": "0.02606828704",
+    "rewardsPerSecond": "0.02610300926",
     "sortOrder": 1,
     "isFinished": false,
     "tokenDecimals": 18,
@@ -614,7 +614,7 @@
     "harvest": true,
     "tokenPerBlock": "15.659722222222222222",
     "sortOrder": 1,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18,
     "lpStaking": true,
     "isEarnTokenLp": false,
@@ -678,7 +678,7 @@
     "projectLink": "https://staderlabs.com/",
     "twitter": "https://twitter.com/stader_bnb",
     "harvest": true,
-    "tokenPerBlock": "0.03099281764",
+    "tokenPerBlock": "0.02750903986",
     "sortOrder": 1,
     "isFinished": false,
     "tokenDecimals": 18,
@@ -744,7 +744,7 @@
     "harvest": true,
     "tokenPerBlock": "0.0171",
     "sortOrder": 1,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 4,
     "lpStaking": true,
     "isEarnTokenLp": false,
@@ -807,7 +807,7 @@
     "harvest": true,
     "tokenPerBlock": "0.507454668209876543",
     "sortOrder": 1,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18,
     "lpStaking": true,
     "isEarnTokenLp": false,
@@ -873,7 +873,7 @@
     "harvest": true,
     "tokenPerBlock": "96250",
     "sortOrder": 1,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18,
     "lpStaking": true,
     "isEarnTokenLp": false,
@@ -1398,7 +1398,7 @@
     "harvest": true,
     "tokenPerBlock": "11574.074074074074074074",
     "sortOrder": 1,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18,
     "lpStaking": true,
     "isEarnTokenLp": false,
@@ -1462,6 +1462,71 @@
     "twitter": "https://twitter.com/SweetPad_",
     "harvest": true,
     "tokenPerBlock": "0.07398535704",
+    "sortOrder": 1,
+    "isFinished": false,
+    "tokenDecimals": 18,
+    "lpStaking": true,
+    "isEarnTokenLp": false,
+    "network": 56
+  },
+  {
+    "jungleId": 13,
+    "tokenName": "LEAP-BNB",
+    "image": "LEAP.svg",
+    "stakingToken": {
+      "symbol": "LEAP-BNB",
+      "address": {
+        "56": "0x5243b560c0F2df6678c06E772156F49C078d6165"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "rewardToken": {
+      "symbol": "LEAP",
+      "address": {
+        "56": "0x6eEd9140F80F9E989CB23AeCBD20b97a29FFc80F"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "lpTokens": {
+      "token": {
+        "symbol": "LEAP",
+        "address": {
+          "56": "0x6eEd9140F80F9E989CB23AeCBD20b97a29FFc80F"
+        },
+        "decimals": {
+          "56": 18
+        },
+        "active": true
+      },
+      "quoteToken": {
+        "symbol": "BNB",
+        "address": {
+          "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+          "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+          "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        },
+        "decimals": {
+          "56": 18,
+          "97": 18,
+          "137": 18
+        },
+        "active": true
+      }
+    },
+    "contractAddress": {
+      "56": "0x60d0926F7669d2F36845eAf672e57366c0c2bD7B"
+    },
+    "projectLink": "https://www.leaptoken.io/",
+    "twitter": "https://twitter.com/Play_Leap",
+    "harvest": true,
+    "tokenPerBlock": "0.403084201388888888",
     "sortOrder": 1,
     "isFinished": false,
     "tokenDecimals": 18,

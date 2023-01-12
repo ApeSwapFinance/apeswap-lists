@@ -1,6 +1,6 @@
 import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
-import { DualFarmConfig } from './types'
+import { DualFarmConfig } from '../types'
 
 // Max PID is 13
 

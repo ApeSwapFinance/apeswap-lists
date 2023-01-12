@@ -1,5 +1,5 @@
 import { ChainId } from '@ape.swap/sdk'
-import { Token } from './types'
+import { Token } from '../types'
 
 const tokens: Record<string, Token> = {
   // BANANA should always be first token for GNANA calculation
@@ -876,6 +876,16 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  leap: {
+    symbol: 'LEAP',
+    address: {
+      [ChainId.BSC]: '0x6eEd9140F80F9E989CB23AeCBD20b97a29FFc80F',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+  },
   hera: {
     symbol: 'HERA',
     address: {
@@ -1705,6 +1715,22 @@ const tokens: Record<string, Token> = {
     decimals: { [ChainId.BSC]: 18 },
     active: true,
   },
+  trivia: {
+    symbol: 'TRIVIA',
+    address: {
+      [ChainId.BSC]: '0xb465f3cb6Aba6eE375E12918387DE1eaC2301B05',
+    },
+    decimals: { [ChainId.BSC]: 3 },
+    active: true,
+  },
+  fruit: {
+    symbol: 'FRUIT',
+    address: {
+      [ChainId.BSC]: '0xadd14ca8e026c4555933d12b568b1310968503a2',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+  },
   xcur: {
     symbol: 'XCUR',
     address: {
@@ -2000,6 +2026,15 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
   },
+  triviaBnb: {
+    symbol: 'TRIVIA-BNB',
+    address: {
+      [ChainId.BSC]: '0x481308c94ac14dab839cc453cdc330f0632f1b0f',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+  },
   cocBnb: {
     symbol: 'COC-BNB',
     address: {
@@ -2213,6 +2248,17 @@ const tokens: Record<string, Token> = {
     symbol: 'LINK-BNB',
     address: {
       [ChainId.BSC]: '0x092ADA3818DB7FBb8e0A2124Ff218C5125C1CcE6',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+    lpToken: true,
+  },
+  leapBnb: {
+    symbol: 'LEAP-BNB',
+    address: {
+      [ChainId.BSC]: '0x5243b560c0F2df6678c06E772156F49C078d6165',
     },
     decimals: {
       [ChainId.BSC]: 18,

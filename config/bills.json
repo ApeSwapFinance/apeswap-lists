@@ -72,7 +72,13 @@
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
     },
     "projectLink": "https://apeswap.finance/",
-    "twitter": "https://twitter.com/ape_swap"
+    "twitter": "https://twitter.com/ape_swap",
+    "initTime": {
+      "56": 1668467108
+    },
+    "initPrice": {
+      "56": 0.0709352845097292
+    }
   },
   {
     "index": 33,
@@ -139,7 +145,13 @@
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
     },
     "projectLink": "https://apeswap.finance/",
-    "twitter": "https://twitter.com/ape_swap"
+    "twitter": "https://twitter.com/ape_swap",
+    "initTime": {
+      "56": 1668467108
+    },
+    "initPrice": {
+      "56": 0.0709352845097292
+    }
   },
   {
     "index": 34,
@@ -206,7 +218,13 @@
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
     },
     "projectLink": "https://apeswap.finance/",
-    "twitter": "https://twitter.com/ape_swap"
+    "twitter": "https://twitter.com/ape_swap",
+    "initTime": {
+      "56": 1668467108
+    },
+    "initPrice": {
+      "56": 0.0709352845097292
+    }
   },
   {
     "index": 35,
@@ -277,7 +295,13 @@
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
     },
     "projectLink": "https://apeswap.finance/",
-    "twitter": "https://twitter.com/ape_swap"
+    "twitter": "https://twitter.com/ape_swap",
+    "initTime": {
+      "56": 1668467108
+    },
+    "initPrice": {
+      "56": 0.0709352845097292
+    }
   },
   {
     "index": 36,
@@ -348,7 +372,13 @@
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
     },
     "projectLink": "https://apeswap.finance/",
-    "twitter": "https://twitter.com/ape_swap"
+    "twitter": "https://twitter.com/ape_swap",
+    "initTime": {
+      "56": 1668467108
+    },
+    "initPrice": {
+      "56": 0.0709352845097292
+    }
   },
   {
     "index": 37,
@@ -405,7 +435,13 @@
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
     },
     "projectLink": "https://dappradar.com/",
-    "twitter": "https://twitter.com/DappRadar/"
+    "twitter": "https://twitter.com/DappRadar/",
+    "initTime": {
+      "56": 1668620528
+    },
+    "initPrice": {
+      "56": 0.005311928477767259
+    }
   },
   {
     "index": 38,
@@ -461,8 +497,14 @@
     "billNnftAddress": {
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
     },
-    "projectLink": "https://dappradar.com/",
-    "twitter": "https://twitter.com/DappRadar/"
+    "projectLink": "https://www.ihcoin.io/",
+    "twitter": "https://twitter.com/IHCoinofficial",
+    "initTime": {
+      "56": 1669045328
+    },
+    "initPrice": {
+      "56": 0.0000773918161395094
+    }
   },
   {
     "index": 39,
@@ -517,7 +559,13 @@
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
     },
     "projectLink": "https://liquidus.finance/",
-    "twitter": "https://twitter.com/LiquidusFinance"
+    "twitter": "https://twitter.com/LiquidusFinance",
+    "initTime": {
+      "56": 1669794128
+    },
+    "initPrice": {
+      "56": 0.3590438711755946
+    }
   },
   {
     "index": 40,
@@ -572,7 +620,137 @@
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
     },
     "projectLink": "https://piston-token.com/",
-    "twitter": "https://mobile.twitter.com/pistontoken"
+    "twitter": "https://mobile.twitter.com/pistontoken",
+    "initTime": {
+      "56": 1669905728
+    },
+    "initPrice": {
+      "56": 2.000004210715095
+    }
+  },
+  {
+    "index": 41,
+    "contractAddress": {
+      "56": "0xEd242A13d25b5B2270E90058C9a1A756811cdb93"
+    },
+    "billType": "JUNGLE Bill",
+    "token": {
+      "symbol": "GQ",
+      "address": {
+        "56": "0xF700D4c708C2be1463E355F337603183D20E0808"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BUSD",
+      "address": {
+        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "GQ-BUSD",
+      "address": {
+        "56": "0xcC3A3Bc1d76Df321f94716E88224638C439267aa"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "GQ",
+      "address": {
+        "56": "0xF700D4c708C2be1463E355F337603183D20E0808"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
+    },
+    "projectLink": "https://outerringmmo.com/",
+    "twitter": "https://twitter.com/OuterRingMMO",
+    "initTime": {
+      "56": 1670432974
+    },
+    "initPrice": {
+      "56": 0.001714637510619517
+    }
+  },
+  {
+    "index": 42,
+    "contractAddress": {
+      "56": "0xb95bd2dc93562fd9076c0573615de42b413db256"
+    },
+    "billType": "JUNGLE Bill",
+    "token": {
+      "symbol": "LEAP",
+      "address": {
+        "56": "0x6eEd9140F80F9E989CB23AeCBD20b97a29FFc80F"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "LEAP-BNB",
+      "address": {
+        "56": "0x5243b560c0F2df6678c06E772156F49C078d6165"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "LEAP",
+      "address": {
+        "56": "0x6eEd9140F80F9E989CB23AeCBD20b97a29FFc80F"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
+    },
+    "projectLink": "https://www.leaptoken.io/",
+    "twitter": "https://twitter.com/Play_Leap",
+    "initTime": {
+      "56": 1673368322
+    },
+    "initPrice": {
+      "56": 0.165579
+    }
   },
   {
     "index": 30,
@@ -627,7 +805,13 @@
       "56": "0x7fd203888661d1f0ae625ed599909f8f97698670"
     },
     "projectLink": "https://nftynetwork.io/",
-    "twitter": "https://twitter.com/NFTYLab"
+    "twitter": "https://twitter.com/NFTYFinance",
+    "initTime": {
+      "56": 1667839328
+    },
+    "initPrice": {
+      "56": 0.005420113056475245
+    }
   },
   {
     "index": 29,
@@ -684,7 +868,13 @@
       "56": "0x7fd203888661d1f0ae625ed599909f8f97698670"
     },
     "projectLink": "https://3air.io/",
-    "twitter": "https://twitter.com/3aircrypto"
+    "twitter": "https://twitter.com/3aircrypto",
+    "initTime": {
+      "56": 1667512328
+    },
+    "initPrice": {
+      "56": 0.04540120370089731
+    }
   },
   {
     "index": 27,
@@ -741,7 +931,13 @@
       "56": "0x7fd203888661d1f0ae625ed599909f8f97698670"
     },
     "projectLink": "https://www.coinofchampions.com/",
-    "twitter": "https://twitter.com/coinofchampions"
+    "twitter": "https://twitter.com/coinofchampions",
+    "initTime": {
+      "56": 1667352248
+    },
+    "initPrice": {
+      "56": 1.2566456303843458e-7
+    }
   },
   {
     "index": 22,
@@ -798,7 +994,13 @@
       "56": "0x7fd203888661d1f0ae625ed599909f8f97698670"
     },
     "projectLink": "https://chirpley.ai",
-    "twitter": "https://twitter.com/chirpley"
+    "twitter": "https://twitter.com/chirpley",
+    "initTime": {
+      "56": 1664883258
+    },
+    "initPrice": {
+      "56": 0.006475439494480084
+    }
   },
   {
     "index": 20,
@@ -855,7 +1057,13 @@
       "56": "0x7fd203888661d1f0ae625ed599909f8f97698670"
     },
     "projectLink": "https://gmr.center/",
-    "twitter": "https://twitter.com/GMRCenter"
+    "twitter": "https://twitter.com/GMRCenter",
+    "initTime": {
+      "56": 1662032058
+    },
+    "initPrice": {
+      "56": 0.019076325851224644
+    }
   },
   {
     "index": 31,
@@ -910,7 +1118,13 @@
       "56": "0x7fd203888661d1f0ae625ed599909f8f97698670"
     },
     "projectLink": "https://web.curate.style/",
-    "twitter": "https://twitter.com/curateproject"
+    "twitter": "https://twitter.com/curateproject",
+    "initTime": {
+      "56": 1662032058
+    },
+    "initPrice": {
+      "56": 0.019076325851224644
+    }
   },
   {
     "index": 28,
@@ -965,7 +1179,14 @@
       "56": "0x7fd203888661d1f0ae625ed599909f8f97698670"
     },
     "projectLink": "https://outerringmmo.com/",
-    "twitter": "https://twitter.com/OuterRingMMO"
+    "twitter": "https://twitter.com/OuterRingMMO",
+    "initTime": {
+      "56": 1667483648
+    },
+    "initPrice": {
+      "56": 0.002164726526133125
+    },
+    "inactive": true
   },
   {
     "index": 26,
@@ -1078,7 +1299,13 @@
       "56": "0x7fd203888661d1f0ae625ed599909f8f97698670"
     },
     "projectLink": "https://xwin.finance/",
-    "twitter": "https://twitter.com/xwinfinance"
+    "twitter": "https://twitter.com/xwinfinance",
+    "initTime": {
+      "56": 1666784058
+    },
+    "initPrice": {
+      "56": 0.550605316141175
+    }
   },
   {
     "index": 24,
@@ -1135,7 +1362,13 @@
       "56": "0x7fd203888661d1f0ae625ed599909f8f97698670"
     },
     "projectLink": "https://froyo.games/",
-    "twitter": "https://twitter.com/realfroyogames"
+    "twitter": "https://twitter.com/realfroyogames",
+    "initTime": {
+      "56": 1666092858
+    },
+    "initPrice": {
+      "56": 0.010365834030975409
+    }
   },
   {
     "index": 23,
@@ -1250,7 +1483,13 @@
       "56": "0x7fd203888661d1f0ae625ed599909f8f97698670"
     },
     "projectLink": "https://bolide.fi/",
-    "twitter": "https://twitter.com/Bolide_fi"
+    "twitter": "https://twitter.com/Bolide_fi",
+    "initTime": {
+      "56": 1664192058
+    },
+    "initPrice": {
+      "56": 0.024065964757317017
+    }
   },
   {
     "index": 19,
@@ -1307,7 +1546,13 @@
       "56": "0x7fd203888661d1f0ae625ed599909f8f97698670"
     },
     "projectLink": "https://hector.network/",
-    "twitter": "https://twitter.com/Hector_Network"
+    "twitter": "https://twitter.com/Hector_Network",
+    "initTime": {
+      "56": 1660649658
+    },
+    "initPrice": {
+      "56": 18.15486755163556
+    }
   },
   {
     "index": 18,
@@ -1364,7 +1609,13 @@
       "56": "0x7fd203888661d1f0ae625ed599909f8f97698670"
     },
     "projectLink": "https://www.floki.com/",
-    "twitter": "https://twitter.com/realflokiinu"
+    "twitter": "https://twitter.com/realflokiinu",
+    "initTime": {
+      "56": 1660217658
+    },
+    "initPrice": {
+      "56": 0.00001504435067868268
+    }
   },
   {
     "index": 12,
@@ -1479,7 +1730,13 @@
       "56": "0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8"
     },
     "projectLink": "https://ceek.com/",
-    "twitter": "https://twitter.com/CEEK/"
+    "twitter": "https://twitter.com/CEEK/",
+    "initTime": {
+      "56": 1655292858
+    },
+    "initPrice": {
+      "56": 0.12499413563790174
+    }
   },
   {
     "index": 6,
@@ -1654,7 +1911,13 @@
       "56": "0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8"
     },
     "projectLink": "https://www.mogulproductions.com/",
-    "twitter": "https://twitter.com/mogulofficial_"
+    "twitter": "https://twitter.com/mogulofficial_",
+    "initTime": {
+      "56": 1655292858
+    },
+    "initPrice": {
+      "56": 0.012596738432285355
+    }
   },
   {
     "index": 9,
@@ -1709,7 +1972,13 @@
       "56": "0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8"
     },
     "projectLink": "https://hotcross.com/",
-    "twitter": "https://twitter.com/hotcrosscom"
+    "twitter": "https://twitter.com/hotcrosscom",
+    "initTime": {
+      "56": 1655292858
+    },
+    "initPrice": {
+      "56": 0.0410817844906574
+    }
   },
   {
     "index": 10,
@@ -1764,7 +2033,13 @@
       "56": "0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8"
     },
     "projectLink": "https://hotcross.com/",
-    "twitter": "https://twitter.com/hotcrosscom"
+    "twitter": "https://twitter.com/hotcrosscom",
+    "initTime": {
+      "56": 1655292858
+    },
+    "initPrice": {
+      "56": 0.0410817844906574
+    }
   },
   {
     "index": 11,
@@ -1823,7 +2098,13 @@
       "56": "0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8"
     },
     "projectLink": "https://www.telos.net/",
-    "twitter": "https://twitter.com/HelloTelos"
+    "twitter": "https://twitter.com/HelloTelos",
+    "initTime": {
+      "56": 1655552058
+    },
+    "initPrice": {
+      "56": 0.1736239460283216
+    }
   },
   {
     "index": 0,
@@ -2593,7 +2874,13 @@
     },
     "inactive": false,
     "projectLink": "https://axion.network/",
-    "twitter": "https://twitter.com/axion_network"
+    "twitter": "https://twitter.com/axion_network",
+    "initTime": {
+      "137": 1669973048
+    },
+    "initPrice": {
+      "137": 0.000015665249761458396
+    }
   },
   {
     "index": 100,
@@ -2647,9 +2934,9 @@
     "billNnftAddress": {
       "137": "0xa35c3fcd306cf69fed19e8c7b15c8b3904ea609d"
     },
-    "inactive": true,
     "projectLink": "https://www.dogira.net/",
-    "twitter": "https://twitter.com/DogiraOfficial"
+    "twitter": "https://twitter.com/DogiraOfficial",
+    "inactive": true
   },
   {
     "index": 101,
@@ -2705,7 +2992,13 @@
     },
     "inactive": false,
     "projectLink": "https://www.tokentraxx.com/",
-    "twitter": "https://twitter.com/TokenTraxx"
+    "twitter": "https://twitter.com/TokenTraxx",
+    "initTime": {
+      "137": 1663846458
+    },
+    "initPrice": {
+      "137": 0.18650580540316708
+    }
   },
   {
     "index": 102,
@@ -2761,7 +3054,13 @@
     },
     "inactive": false,
     "projectLink": "https://www.dogira.net/",
-    "twitter": "https://twitter.com/DogiraOfficial"
+    "twitter": "https://twitter.com/DogiraOfficial",
+    "initTime": {
+      "137": 1664969658
+    },
+    "initPrice": {
+      "137": 0.0015076537321486155
+    }
   },
   {
     "index": 206,
@@ -2827,7 +3126,13 @@
     },
     "inactive": false,
     "projectLink": "https://www.telos.net/",
-    "twitter": "https://twitter.com/HelloTelos"
+    "twitter": "https://twitter.com/HelloTelos",
+    "initTime": {
+      "40": 1668849848
+    },
+    "initPrice": {
+      "40": 0.1743935819281813
+    }
   },
   {
     "index": 207,
@@ -2891,7 +3196,13 @@
     },
     "inactive": false,
     "projectLink": "https://www.telos.net/",
-    "twitter": "https://twitter.com/HelloTelos"
+    "twitter": "https://twitter.com/HelloTelos",
+    "initTime": {
+      "40": 1668849848
+    },
+    "initPrice": {
+      "40": 0.1743935819281813
+    }
   },
   {
     "index": 208,
@@ -2955,7 +3266,13 @@
     },
     "inactive": false,
     "projectLink": "https://www.telos.net/",
-    "twitter": "https://twitter.com/HelloTelos"
+    "twitter": "https://twitter.com/HelloTelos",
+    "initTime": {
+      "40": 1668849848
+    },
+    "initPrice": {
+      "40": 0.1743935819281813
+    }
   },
   {
     "index": 209,
@@ -3017,7 +3334,13 @@
     },
     "inactive": false,
     "projectLink": "https://www.telos.net/",
-    "twitter": "https://twitter.com/HelloTelos"
+    "twitter": "https://twitter.com/HelloTelos",
+    "initTime": {
+      "40": 1668849848
+    },
+    "initPrice": {
+      "40": 0.1743935819281813
+    }
   },
   {
     "index": 210,
@@ -3079,7 +3402,13 @@
     },
     "inactive": false,
     "projectLink": "https://www.telos.net/",
-    "twitter": "https://twitter.com/HelloTelos"
+    "twitter": "https://twitter.com/HelloTelos",
+    "initTime": {
+      "40": 1668849848
+    },
+    "initPrice": {
+      "40": 0.1743935819281813
+    }
   },
   {
     "index": 201,

@@ -1,11 +1,11 @@
 import BigNumber from 'bignumber.js'
 import { ChainId } from '@ape.swap/sdk'
-import { PoolConfig, PoolCategory } from './types'
+import { PoolConfig, PoolCategory } from '../types'
 import tokens from './tokens'
 
 const BANANA_PER_BLOCK = new BigNumber(10)
 
-// Current Sous ID is 226
+// Current Sous ID is 228
 
 const pools: PoolConfig[] = [
   // MASTER APE V2 POOL
@@ -2066,7 +2066,7 @@ const pools: PoolConfig[] = [
     tokenPerBlock: `8.573388117283950617`,
     sortOrder: 1,
     reflect: false,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 18,
   },
   {
@@ -2166,7 +2166,7 @@ const pools: PoolConfig[] = [
     tokenPerBlock: `0.689409722222222222`,
     sortOrder: 1,
     reflect: false,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 18,
   },
   {
@@ -2226,7 +2226,7 @@ const pools: PoolConfig[] = [
     tokenPerBlock: `0.540142746913580246`,
     sortOrder: 1,
     reflect: false,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 18,
   },
   {
@@ -2266,7 +2266,7 @@ const pools: PoolConfig[] = [
     tokenPerBlock: `0.439506172839506172`,
     sortOrder: 1,
     reflect: false,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 18,
   },
   {
@@ -2326,7 +2326,7 @@ const pools: PoolConfig[] = [
     tokenPerBlock: `3.858024691358024691`,
     sortOrder: 1,
     reflect: false,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 18,
   },
   {
@@ -2346,7 +2346,7 @@ const pools: PoolConfig[] = [
     tokenPerBlock: `0.028645833330000000`,
     sortOrder: 1,
     reflect: false,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 18,
   },
   {
@@ -2406,7 +2406,7 @@ const pools: PoolConfig[] = [
     tokenPerBlock: `0.001345486`,
     sortOrder: 1,
     reflect: false,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 9,
   },
   {
@@ -2466,7 +2466,7 @@ const pools: PoolConfig[] = [
     tokenPerBlock: `0.380760416666666666`,
     sortOrder: 1,
     reflect: false,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 18,
   },
   {
@@ -2486,7 +2486,7 @@ const pools: PoolConfig[] = [
     tokenPerBlock: `2.673611111111111111`,
     sortOrder: 1,
     reflect: false,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 18,
   },
   {
@@ -2550,6 +2550,26 @@ const pools: PoolConfig[] = [
     isFinished: false,
     tokenDecimals: 18,
   },
+  {
+    sousId: 228,
+    tokenName: 'FRUIT',
+    image: 'FRUIT.svg',
+    stakingToken: tokens.gnana,
+    rewardToken: tokens.fruit,
+    contractAddress: {
+      97: '0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d',
+      56: '0x7D36b1c407554C81EeA30866c24c7B046B78d7E2',
+    },
+    poolCategory: PoolCategory.APEZONE,
+    projectLink: 'https://cryptofruits.com/index.php',
+    twitter: 'https://twitter.com/CryptoFruitsFi',
+    harvest: true,
+    tokenPerBlock: `1.008603587962962962`,
+    sortOrder: 1,
+    reflect: false,
+    isFinished: false,
+    tokenDecimals: 18,
+  },
 
   //
   // JUNGLE FARMS
@@ -2571,7 +2591,7 @@ const pools: PoolConfig[] = [
     tokenPerBlock: `15.659722222222222222`,
     sortOrder: 1,
     reflect: false,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 18,
   },
   {
@@ -2631,7 +2651,7 @@ const pools: PoolConfig[] = [
     tokenPerBlock: `0.224606095679012345`,
     sortOrder: 1,
     reflect: false,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 18,
   },
   {
@@ -2653,7 +2673,7 @@ const pools: PoolConfig[] = [
     harvest: true,
     tokenPerBlock: '0.507454668209876543',
     sortOrder: 1,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 18,
     lpStaking: true,
     isEarnTokenLp: false,
@@ -2725,7 +2745,7 @@ const pools: PoolConfig[] = [
     harvest: true,
     tokenPerBlock: '0.01437847',
     sortOrder: 1,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 8,
     lpStaking: true,
     isEarnTokenLp: false,
@@ -2816,7 +2836,7 @@ const pools: PoolConfig[] = [
     projectLink: 'https://staderlabs.com/',
     twitter: 'https://twitter.com/stader_bnb',
     harvest: true,
-    tokenPerBlock: `0.076607142857142857`,
+    tokenPerBlock: `0.02750903986`,
     sortOrder: 1,
     reflect: false,
     isFinished: false,
@@ -2839,8 +2859,28 @@ const pools: PoolConfig[] = [
     tokenPerBlock: `0.0171`,
     sortOrder: 1,
     reflect: false,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 4,
+  },
+  {
+    sousId: 227,
+    tokenName: 'LEAP',
+    image: 'LEAP.svg',
+    stakingToken: tokens.leapBnb,
+    rewardToken: tokens.leap,
+    contractAddress: {
+      97: '0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d',
+      56: '0x60d0926F7669d2F36845eAf672e57366c0c2bD7B',
+    },
+    poolCategory: PoolCategory.JUNGLE,
+    projectLink: 'https://www.playleap.io/',
+    twitter: 'https://twitter.com/Play_Leap',
+    harvest: true,
+    tokenPerBlock: `0.403084201388888888`,
+    sortOrder: 1,
+    reflect: false,
+    isFinished: false,
+    tokenDecimals: 18,
   },
 
   //

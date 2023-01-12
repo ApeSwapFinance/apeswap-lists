@@ -4387,7 +4387,7 @@
     "tokenPerBlock": "8.573388117283950617",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -4599,7 +4599,7 @@
     "tokenPerBlock": "0.689409722222222222",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -4731,7 +4731,7 @@
     "tokenPerBlock": "0.540142746913580246",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -4811,7 +4811,7 @@
     "tokenPerBlock": "0.439506172839506172",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -4931,7 +4931,7 @@
     "tokenPerBlock": "3.858024691358024691",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -4973,7 +4973,7 @@
     "tokenPerBlock": "0.028645833330000000",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -5099,7 +5099,7 @@
     "tokenPerBlock": "0.001345486",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 9
   },
   {
@@ -5225,7 +5225,7 @@
     "tokenPerBlock": "0.380760416666666666",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -5265,7 +5265,7 @@
     "tokenPerBlock": "2.673611111111111111",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -5396,6 +5396,46 @@
     "tokenDecimals": 18
   },
   {
+    "sousId": 228,
+    "tokenName": "FRUIT",
+    "image": "FRUIT.svg",
+    "stakingToken": {
+      "symbol": "GNANA",
+      "address": {
+        "56": "0xdDb3Bd8645775F59496c821E4F55A7eA6A6dc299",
+        "97": "0xf693bDA9D3C56D5F9165c8633d9098e3C4Ae495A"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18
+      },
+      "active": true
+    },
+    "rewardToken": {
+      "symbol": "FRUIT",
+      "address": {
+        "56": "0xadd14ca8e026c4555933d12b568b1310968503a2"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "contractAddress": {
+      "56": "0x7D36b1c407554C81EeA30866c24c7B046B78d7E2",
+      "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
+    },
+    "poolCategory": "ApeZone",
+    "projectLink": "https://cryptofruits.com/index.php",
+    "twitter": "https://twitter.com/CryptoFruitsFi",
+    "harvest": true,
+    "tokenPerBlock": "1.008603587962962962",
+    "sortOrder": 1,
+    "reflect": false,
+    "isFinished": false,
+    "tokenDecimals": 18
+  },
+  {
     "sousId": 214,
     "tokenName": "PXP",
     "image": "PXP.png",
@@ -5431,7 +5471,7 @@
     "tokenPerBlock": "15.659722222222222222",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -5548,7 +5588,7 @@
     "tokenPerBlock": "0.224606095679012345",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -5609,7 +5649,7 @@
     "harvest": true,
     "tokenPerBlock": "0.507454668209876543",
     "sortOrder": 1,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18,
     "lpStaking": true,
     "isEarnTokenLp": false
@@ -5804,7 +5844,7 @@
     "harvest": true,
     "tokenPerBlock": "0.01437847",
     "sortOrder": 1,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 8,
     "lpStaking": true,
     "isEarnTokenLp": false
@@ -6033,7 +6073,7 @@
     "projectLink": "https://staderlabs.com/",
     "twitter": "https://twitter.com/stader_bnb",
     "harvest": true,
-    "tokenPerBlock": "0.076607142857142857",
+    "tokenPerBlock": "0.02750903986",
     "sortOrder": 1,
     "reflect": false,
     "isFinished": false,
@@ -6075,8 +6115,47 @@
     "tokenPerBlock": "0.0171",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 4
+  },
+  {
+    "sousId": 227,
+    "tokenName": "LEAP",
+    "image": "LEAP.svg",
+    "stakingToken": {
+      "symbol": "LEAP-BNB",
+      "address": {
+        "56": "0x5243b560c0F2df6678c06E772156F49C078d6165"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "rewardToken": {
+      "symbol": "LEAP",
+      "address": {
+        "56": "0x6eEd9140F80F9E989CB23AeCBD20b97a29FFc80F"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "contractAddress": {
+      "56": "0x60d0926F7669d2F36845eAf672e57366c0c2bD7B",
+      "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
+    },
+    "poolCategory": "Jungle",
+    "projectLink": "https://www.playleap.io/",
+    "twitter": "https://twitter.com/Play_Leap",
+    "harvest": true,
+    "tokenPerBlock": "0.403084201388888888",
+    "sortOrder": 1,
+    "reflect": false,
+    "isFinished": false,
+    "tokenDecimals": 18
   },
   {
     "sousId": 96,
