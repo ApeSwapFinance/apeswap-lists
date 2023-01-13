@@ -244,7 +244,7 @@ const jungleFarms: JungleFarmConfig[] = [
     },
     projectLink: 'https://staderlabs.com/',
     twitter: 'https://twitter.com/stader_bnb',
-    audit: 'https://www.certik.com/projects/Stader?utm_source=CMC&utm_campaign=AuditByCertiKLink',
+    audit: 'https://www.certik.com/projects/Stader',
     harvest: true,
     tokenPerBlock: '0.02750903986',
     sortOrder: 1,
