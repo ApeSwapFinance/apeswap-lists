@@ -25,6 +25,7 @@ const iaos: IaoConfig[] = [
     tokenDecimals: 18,
     releaseBlockNumber: 21108461,
     vesting: true,
+    expires: 1678145400,
   },
   {
     id: 'animalconcerts',
@@ -116,6 +117,7 @@ const iaos: IaoConfig[] = [
     tokenDecimals: 18,
     releaseBlockNumber: 12364007,
     vesting: true,
+    expires: 1643990400,
   },
   {
     id: 'nfty',
@@ -138,6 +140,7 @@ const iaos: IaoConfig[] = [
     tokenDecimals: 18,
     releaseBlockNumber: 11342539,
     vesting: true,
+    expires: 1640797200,
   },
   {
     id: 'dragonary',
@@ -160,6 +163,7 @@ const iaos: IaoConfig[] = [
     tokenDecimals: 18,
     releaseBlockNumber: 9828870,
     vesting: true,
+    expires: 1636300800,
   },
   {
     id: 'bishares',
@@ -320,6 +324,7 @@ const iaos: IaoConfig[] = [
     tokenDecimals: 18,
     releaseBlockNumber: 21108461,
     vesting: true,
+    expires: 1678145400,
   },
   {
     id: 'animalconcerts',
@@ -410,6 +415,7 @@ const iaos: IaoConfig[] = [
     tokenDecimals: 18,
     releaseBlockNumber: 12364007,
     vesting: true,
+    expires: 1643990400,
   },
   {
     id: 'nfty',
@@ -432,6 +438,7 @@ const iaos: IaoConfig[] = [
     tokenDecimals: 18,
     releaseBlockNumber: 11342539,
     vesting: true,
+    expires: 1640797200,
   },
   {
     id: 'dragonary',
@@ -456,6 +463,7 @@ const iaos: IaoConfig[] = [
     tokenDecimals: 18,
     releaseBlockNumber: 9828870,
     vesting: true,
+    expires: 1636300800,
   },
   {
     id: 'bishares',

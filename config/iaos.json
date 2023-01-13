@@ -18,7 +18,8 @@
     "offeringCurrency": "CHRP",
     "tokenDecimals": 18,
     "releaseBlockNumber": 21108461,
-    "vesting": true
+    "vesting": true,
+    "expires": 1678145400
   },
   {
     "id": "animalconcerts",
@@ -108,7 +109,8 @@
     "offeringCurrency": "GAN",
     "tokenDecimals": 18,
     "releaseBlockNumber": 12364007,
-    "vesting": true
+    "vesting": true,
+    "expires": 1643990400
   },
   {
     "id": "nfty",
@@ -130,7 +132,8 @@
     "offeringCurrency": "NFTY",
     "tokenDecimals": 18,
     "releaseBlockNumber": 11342539,
-    "vesting": true
+    "vesting": true,
+    "expires": 1640797200
   },
   {
     "id": "dragonary",
@@ -152,7 +155,8 @@
     "offeringCurrency": "CYT",
     "tokenDecimals": 18,
     "releaseBlockNumber": 9828870,
-    "vesting": true
+    "vesting": true,
+    "expires": 1636300800
   },
   {
     "id": "bishares",
@@ -299,7 +303,8 @@
     "offeringCurrency": "CHRP",
     "tokenDecimals": 18,
     "releaseBlockNumber": 21108461,
-    "vesting": true
+    "vesting": true,
+    "expires": 1678145400
   },
   {
     "id": "animalconcerts",
@@ -389,7 +394,8 @@
     "offeringCurrency": "GAN",
     "tokenDecimals": 18,
     "releaseBlockNumber": 12364007,
-    "vesting": true
+    "vesting": true,
+    "expires": 1643990400
   },
   {
     "id": "nfty",
@@ -411,7 +417,8 @@
     "offeringCurrency": "NFTY",
     "tokenDecimals": 18,
     "releaseBlockNumber": 11342539,
-    "vesting": true
+    "vesting": true,
+    "expires": 1640797200
   },
   {
     "id": "dragonary",
@@ -435,7 +442,8 @@
     "offeringCurrency": "CYT",
     "tokenDecimals": 18,
     "releaseBlockNumber": 9828870,
-    "vesting": true
+    "vesting": true,
+    "expires": 1636300800
   },
   {
     "id": "bishares",
