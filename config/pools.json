@@ -5403,6 +5403,52 @@
     "tokenDecimals": 18
   },
   {
+    "sousId": 229,
+    "tokenName": "CLA",
+    "image": "CLA.svg",
+    "stakingToken": {
+      "symbol": "BANANA",
+      "address": {
+        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
+        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "rewardToken": {
+      "symbol": "CLA",
+      "address": {
+        "56": "0xFa86225e0c7f51c30f0C3647bfd2B266c3e3B6F6"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "contractAddress": {
+      "56": "0x2Cc77E935D77B631b7fd78761c379A851e798f21",
+      "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
+    },
+    "poolCategory": "ApeZone",
+    "projectLink": "http://candelacoin.com",
+    "twitter": "https://twitter.com/candelacoin",
+    "harvest": true,
+    "tokenPerBlock": "5.729166666666666666",
+    "sortOrder": 1,
+    "reflect": false,
+    "isFinished": false,
+    "tokenDecimals": 18
+  },
+  {
     "sousId": 214,
     "tokenName": "PXP",
     "image": "PXP.png",

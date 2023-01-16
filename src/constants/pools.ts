@@ -5,7 +5,7 @@ import tokens from './tokens'
 
 const BANANA_PER_BLOCK = new BigNumber(10)
 
-// Current Sous ID is 228
+// Current Sous ID is 229
 
 const pools: PoolConfig[] = [
   {
@@ -2552,6 +2552,26 @@ const pools: PoolConfig[] = [
     audit: 'https://hashex.org/audits/cryptofruits/',
     harvest: true,
     tokenPerBlock: `1.008603587962962962`,
+    sortOrder: 1,
+    reflect: false,
+    isFinished: false,
+    tokenDecimals: 18,
+  },
+  {
+    sousId: 229,
+    tokenName: 'CLA',
+    image: 'CLA.svg',
+    stakingToken: tokens.banana,
+    rewardToken: tokens.cla,
+    contractAddress: {
+      97: '0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d',
+      56: '0x2Cc77E935D77B631b7fd78761c379A851e798f21',
+    },
+    poolCategory: PoolCategory.APEZONE,
+    projectLink: 'http://candelacoin.com',
+    twitter: 'https://twitter.com/candelacoin',
+    harvest: true,
+    tokenPerBlock: `5.729166666666666666`,
     sortOrder: 1,
     reflect: false,
     isFinished: false,
