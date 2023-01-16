@@ -25,6 +25,7 @@ const iaos: IaoConfig[] = [
     tokenDecimals: 18,
     releaseBlockNumber: 21108461,
     vesting: true,
+    expires: 1678145400,
   },
   {
     id: 'animalconcerts',
@@ -94,6 +95,7 @@ const iaos: IaoConfig[] = [
     tokenDecimals: 18,
     releaseBlockNumber: 22364007,
     vesting: true,
+    expires: 1673413200,
   },
   {
     id: 'gan',
@@ -116,6 +118,7 @@ const iaos: IaoConfig[] = [
     tokenDecimals: 18,
     releaseBlockNumber: 12364007,
     vesting: true,
+    expires: 1643990400,
   },
   {
     id: 'nfty',
@@ -138,6 +141,7 @@ const iaos: IaoConfig[] = [
     tokenDecimals: 18,
     releaseBlockNumber: 11342539,
     vesting: true,
+    expires: 1640797200,
   },
   {
     id: 'dragonary',
@@ -160,6 +164,7 @@ const iaos: IaoConfig[] = [
     tokenDecimals: 18,
     releaseBlockNumber: 9828870,
     vesting: true,
+    expires: 1636300800,
   },
   {
     id: 'bishares',
@@ -180,6 +185,7 @@ const iaos: IaoConfig[] = [
     offeringCurrency: 'BISON',
     tokenDecimals: 18,
     releaseBlockNumber: 8993971,
+    expires: 1625886000,
   },
   {
     id: 'hifi',
@@ -202,6 +208,7 @@ const iaos: IaoConfig[] = [
     offeringCurrency: 'HIFI',
     tokenDecimals: 18,
     releaseBlockNumber: 8135430,
+    expires: 1623466800,
   },
   {
     id: 'aperocket',
@@ -223,6 +230,7 @@ const iaos: IaoConfig[] = [
     offeringCurrency: 'SPACE',
     tokenDecimals: 18,
     releaseBlockNumber: 7378325,
+    expires: 1621998000,
   },
   {
     id: 'bitfresh',
@@ -246,6 +254,7 @@ const iaos: IaoConfig[] = [
     tokenDecimals: 18,
     releaseBlockNumber: 6565331,
     burnedTxUrl: 'https://bscscan.com/tx/0x938454e722fdef0a2f34b16f16bed50f6deb692b942331a9a6e2cf96977e116b',
+    expires: 1619319600,
   },
   {
     id: 'jediyield',
@@ -269,6 +278,7 @@ const iaos: IaoConfig[] = [
     tokenDecimals: 18,
     releaseBlockNumber: 6044304,
     burnedTxUrl: 'https://bscscan.com/tx/0x5f65d5ce713e115be0646c473688aa052c98896f49d9c0c09ecd13aa8d459a1e',
+    expires: 1617418800,
   },
   {
     id: 'astronaut',
@@ -292,6 +302,7 @@ const iaos: IaoConfig[] = [
     tokenDecimals: 8,
     releaseBlockNumber: 5685490,
     burnedTxUrl: 'https://bscscan.com/tx/0xbcfe28f2552d53f3cb49f37d6001aa7708070d3d17f75652c5096b7ecb4ce8fa',
+    expires: 1615867200,
   },
 
   /* 
@@ -320,6 +331,7 @@ const iaos: IaoConfig[] = [
     tokenDecimals: 18,
     releaseBlockNumber: 21108461,
     vesting: true,
+    expires: 1678145400,
   },
   {
     id: 'animalconcerts',
@@ -388,6 +400,7 @@ const iaos: IaoConfig[] = [
     tokenDecimals: 18,
     releaseBlockNumber: 22364007,
     vesting: true,
+    expires: 1673413200,
   },
   {
     id: 'gan',
@@ -410,6 +423,7 @@ const iaos: IaoConfig[] = [
     tokenDecimals: 18,
     releaseBlockNumber: 12364007,
     vesting: true,
+    expires: 1643990400,
   },
   {
     id: 'nfty',
@@ -432,6 +446,7 @@ const iaos: IaoConfig[] = [
     tokenDecimals: 18,
     releaseBlockNumber: 11342539,
     vesting: true,
+    expires: 1640797200,
   },
   {
     id: 'dragonary',
@@ -456,6 +471,7 @@ const iaos: IaoConfig[] = [
     tokenDecimals: 18,
     releaseBlockNumber: 9828870,
     vesting: true,
+    expires: 1636300800,
   },
   {
     id: 'bishares',
@@ -477,6 +493,7 @@ const iaos: IaoConfig[] = [
     offeringCurrency: 'BISON',
     tokenDecimals: 18,
     releaseBlockNumber: 8993971,
+    expires: 1625886000,
   },
   {
     id: 'hifi',
@@ -499,6 +516,7 @@ const iaos: IaoConfig[] = [
     offeringCurrency: 'HIFI',
     tokenDecimals: 18,
     releaseBlockNumber: 8135430,
+    expires: 1623466800,
   },
   {
     id: 'aperocket',
@@ -521,6 +539,7 @@ const iaos: IaoConfig[] = [
     offeringCurrency: 'SPACE',
     tokenDecimals: 18,
     releaseBlockNumber: 7378325,
+    expires: 1621998000,
   },
   {
     id: 'bitfresh',
@@ -543,6 +562,7 @@ const iaos: IaoConfig[] = [
     currencyAddress: '0xdDb3Bd8645775F59496c821E4F55A7eA6A6dc299',
     tokenDecimals: 18,
     releaseBlockNumber: 6565331,
+    expires: 1619319600,
   },
 ]
 
