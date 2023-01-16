@@ -18,7 +18,8 @@
     "offeringCurrency": "CHRP",
     "tokenDecimals": 18,
     "releaseBlockNumber": 21108461,
-    "vesting": true
+    "vesting": true,
+    "expires": 1678145400
   },
   {
     "id": "animalconcerts",
@@ -86,7 +87,8 @@
     "offeringCurrency": "STZ",
     "tokenDecimals": 18,
     "releaseBlockNumber": 22364007,
-    "vesting": true
+    "vesting": true,
+    "expires": 1673413200
   },
   {
     "id": "gan",
@@ -108,7 +110,8 @@
     "offeringCurrency": "GAN",
     "tokenDecimals": 18,
     "releaseBlockNumber": 12364007,
-    "vesting": true
+    "vesting": true,
+    "expires": 1643990400
   },
   {
     "id": "nfty",
@@ -130,7 +133,8 @@
     "offeringCurrency": "NFTY",
     "tokenDecimals": 18,
     "releaseBlockNumber": 11342539,
-    "vesting": true
+    "vesting": true,
+    "expires": 1640797200
   },
   {
     "id": "dragonary",
@@ -152,7 +156,8 @@
     "offeringCurrency": "CYT",
     "tokenDecimals": 18,
     "releaseBlockNumber": 9828870,
-    "vesting": true
+    "vesting": true,
+    "expires": 1636300800
   },
   {
     "id": "bishares",
@@ -172,7 +177,8 @@
     "currencyAddress": "0x0000000000000000000000000000000000000000",
     "offeringCurrency": "BISON",
     "tokenDecimals": 18,
-    "releaseBlockNumber": 8993971
+    "releaseBlockNumber": 8993971,
+    "expires": 1625886000
   },
   {
     "id": "hifi",
@@ -192,7 +198,8 @@
     "currencyAddress": "0x0000000000000000000000000000000000000000",
     "offeringCurrency": "HIFI",
     "tokenDecimals": 18,
-    "releaseBlockNumber": 8135430
+    "releaseBlockNumber": 8135430,
+    "expires": 1623466800
   },
   {
     "id": "aperocket",
@@ -212,7 +219,8 @@
     "currencyAddress": "0x0000000000000000000000000000000000000000",
     "offeringCurrency": "SPACE",
     "tokenDecimals": 18,
-    "releaseBlockNumber": 7378325
+    "releaseBlockNumber": 7378325,
+    "expires": 1621998000
   },
   {
     "id": "bitfresh",
@@ -234,7 +242,8 @@
     "offeringCurrency": "BFT",
     "tokenDecimals": 18,
     "releaseBlockNumber": 6565331,
-    "burnedTxUrl": "https://bscscan.com/tx/0x938454e722fdef0a2f34b16f16bed50f6deb692b942331a9a6e2cf96977e116b"
+    "burnedTxUrl": "https://bscscan.com/tx/0x938454e722fdef0a2f34b16f16bed50f6deb692b942331a9a6e2cf96977e116b",
+    "expires": 1619319600
   },
   {
     "id": "jediyield",
@@ -256,7 +265,8 @@
     "offeringCurrency": "JDI",
     "tokenDecimals": 18,
     "releaseBlockNumber": 6044304,
-    "burnedTxUrl": "https://bscscan.com/tx/0x5f65d5ce713e115be0646c473688aa052c98896f49d9c0c09ecd13aa8d459a1e"
+    "burnedTxUrl": "https://bscscan.com/tx/0x5f65d5ce713e115be0646c473688aa052c98896f49d9c0c09ecd13aa8d459a1e",
+    "expires": 1617418800
   },
   {
     "id": "astronaut",
@@ -278,7 +288,8 @@
     "offeringCurrency": "NAUT",
     "tokenDecimals": 8,
     "releaseBlockNumber": 5685490,
-    "burnedTxUrl": "https://bscscan.com/tx/0xbcfe28f2552d53f3cb49f37d6001aa7708070d3d17f75652c5096b7ecb4ce8fa"
+    "burnedTxUrl": "https://bscscan.com/tx/0xbcfe28f2552d53f3cb49f37d6001aa7708070d3d17f75652c5096b7ecb4ce8fa",
+    "expires": 1615867200
   },
   {
     "id": "chirpley",
@@ -299,7 +310,8 @@
     "offeringCurrency": "CHRP",
     "tokenDecimals": 18,
     "releaseBlockNumber": 21108461,
-    "vesting": true
+    "vesting": true,
+    "expires": 1678145400
   },
   {
     "id": "animalconcerts",
@@ -367,7 +379,8 @@
     "offeringCurrency": "STZ",
     "tokenDecimals": 18,
     "releaseBlockNumber": 22364007,
-    "vesting": true
+    "vesting": true,
+    "expires": 1673413200
   },
   {
     "id": "gan",
@@ -389,7 +402,8 @@
     "offeringCurrency": "GAN",
     "tokenDecimals": 18,
     "releaseBlockNumber": 12364007,
-    "vesting": true
+    "vesting": true,
+    "expires": 1643990400
   },
   {
     "id": "nfty",
@@ -411,7 +425,8 @@
     "offeringCurrency": "NFTY",
     "tokenDecimals": 18,
     "releaseBlockNumber": 11342539,
-    "vesting": true
+    "vesting": true,
+    "expires": 1640797200
   },
   {
     "id": "dragonary",
@@ -435,7 +450,8 @@
     "offeringCurrency": "CYT",
     "tokenDecimals": 18,
     "releaseBlockNumber": 9828870,
-    "vesting": true
+    "vesting": true,
+    "expires": 1636300800
   },
   {
     "id": "bishares",
@@ -456,7 +472,8 @@
     "currencyAddress": "0xddb3bd8645775f59496c821e4f55a7ea6a6dc299",
     "offeringCurrency": "BISON",
     "tokenDecimals": 18,
-    "releaseBlockNumber": 8993971
+    "releaseBlockNumber": 8993971,
+    "expires": 1625886000
   },
   {
     "id": "hifi",
@@ -477,7 +494,8 @@
     "currencyAddress": "0xddb3bd8645775f59496c821e4f55a7ea6a6dc299",
     "offeringCurrency": "HIFI",
     "tokenDecimals": 18,
-    "releaseBlockNumber": 8135430
+    "releaseBlockNumber": 8135430,
+    "expires": 1623466800
   },
   {
     "id": "aperocket",
@@ -498,7 +516,8 @@
     "currencyAddress": "0xddb3bd8645775f59496c821e4f55a7ea6a6dc299",
     "offeringCurrency": "SPACE",
     "tokenDecimals": 18,
-    "releaseBlockNumber": 7378325
+    "releaseBlockNumber": 7378325,
+    "expires": 1621998000
   },
   {
     "id": "bitfresh",
@@ -519,6 +538,7 @@
     "currency": "GNANA",
     "currencyAddress": "0xdDb3Bd8645775F59496c821E4F55A7eA6A6dc299",
     "tokenDecimals": 18,
-    "releaseBlockNumber": 6565331
+    "releaseBlockNumber": 6565331,
+    "expires": 1619319600
   }
 ]
