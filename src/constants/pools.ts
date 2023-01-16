@@ -2506,6 +2506,7 @@ const pools: PoolConfig[] = [
     poolCategory: PoolCategory.APEZONE,
     projectLink: 'https://chirpley.ai',
     twitter: 'https://twitter.com/chirpley',
+    audit: 'https://stack.chirpley.nl/s/241c8gWBtVHnuZO1',
     harvest: true,
     tokenPerBlock: `0.900205632716049382`,
     sortOrder: 1,
