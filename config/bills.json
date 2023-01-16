@@ -436,6 +436,7 @@
     },
     "projectLink": "https://dappradar.com/",
     "twitter": "https://twitter.com/DappRadar/",
+    "audit": "https://dappradar.com/documents/RADAR-Audits-v1.pdf",
     "initTime": {
       "56": 1668620528
     },
@@ -499,6 +500,7 @@
     },
     "projectLink": "https://www.ihcoin.io/",
     "twitter": "https://twitter.com/IHCoinofficial",
+    "audit": "https://www.certik.com/projects/ihc#audit",
     "initTime": {
       "56": 1669045328
     },
@@ -745,6 +747,7 @@
     },
     "projectLink": "https://www.leaptoken.io/",
     "twitter": "https://twitter.com/Play_Leap",
+    "audit": "https://github.com/HashEx/public_audits/blob/master/PlayLeap/PlayLeap.pdf",
     "initTime": {
       "56": 1673368322
     },
@@ -869,6 +872,7 @@
     },
     "projectLink": "https://3air.io/",
     "twitter": "https://twitter.com/3aircrypto",
+    "audit": "https://github.com/JorgeRodriguezsec/CTDsec/blob/main/Audits/Cybersecurity_Audit_CTDSEC_3air.pdf",
     "initTime": {
       "56": 1667512328
     },
@@ -995,6 +999,7 @@
     },
     "projectLink": "https://chirpley.ai",
     "twitter": "https://twitter.com/chirpley",
+    "audit": "https://stack.chirpley.nl/s/241c8gWBtVHnuZO1",
     "initTime": {
       "56": 1664883258
     },
@@ -1058,6 +1063,7 @@
     },
     "projectLink": "https://gmr.center/",
     "twitter": "https://twitter.com/GMRCenter",
+    "audit": "https://www.certik.com/projects/gamer",
     "initTime": {
       "56": 1662032058
     },
