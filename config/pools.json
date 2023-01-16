@@ -5439,8 +5439,8 @@
       "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
     },
     "poolCategory": "ApeZone",
-    "projectLink": "http://candelacoin.com",
-    "twitter": "https://www.candelacoin.co/",
+    "projectLink": "https://www.candelacoin.co/",
+    "twitter": "https://twitter.com/candelacoin",
     "harvest": true,
     "tokenPerBlock": "5.729166666666666666",
     "sortOrder": 1,
