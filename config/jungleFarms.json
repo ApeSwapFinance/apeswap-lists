@@ -679,7 +679,7 @@
     "twitter": "https://twitter.com/stader_bnb",
     "audit": "https://www.certik.com/projects/Stader",
     "harvest": true,
-    "tokenPerBlock": "0.02750903986",
+    "tokenPerBlock": "0.012393042",
     "sortOrder": 1,
     "isFinished": false,
     "tokenDecimals": 18,
