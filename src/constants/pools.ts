@@ -2568,7 +2568,7 @@ const pools: PoolConfig[] = [
       56: '0x2Cc77E935D77B631b7fd78761c379A851e798f21',
     },
     poolCategory: PoolCategory.APEZONE,
-    projectLink: 'http://candelacoin.com',
+    projectLink: 'https://www.candelacoin.co/',
     twitter: 'https://twitter.com/candelacoin',
     harvest: true,
     tokenPerBlock: `5.729166666666666666`,
