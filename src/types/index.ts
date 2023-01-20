@@ -58,6 +58,7 @@ export interface BillsConfig {
   twitter?: string
   initTime?: Partial<Record<ChainId, number>>
   initPrice?: Partial<Record<ChainId, number>>
+  audit?: string
 }
 
 export interface VaultConfig {
@@ -128,6 +129,7 @@ export interface PoolConfig {
   emergencyWithdraw?: boolean
   isEarnTokenLp?: boolean
   zapable?: boolean
+  audit?: string
 }
 
 export interface DualFarmConfig {
@@ -176,6 +178,7 @@ export interface JungleFarmConfig {
   unZapable?: boolean
   // Jungle farms have changed to per second vs per block
   rewardsPerSecond?: string
+  audit?: string
 }
 
 export interface NfaStakingPoolConfig {

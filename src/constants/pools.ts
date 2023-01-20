@@ -5,7 +5,7 @@ import tokens from './tokens'
 
 const BANANA_PER_BLOCK = new BigNumber(10)
 
-// Current Sous ID is 228
+// Current Sous ID is 229
 
 const pools: PoolConfig[] = [
   // MASTER APE V2 POOL
@@ -43,6 +43,7 @@ const pools: PoolConfig[] = [
     poolCategory: PoolCategory.CORE,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
+    audit: 'https://paladinsec.co/projects/apeswap/',
     harvest: true,
     tokenPerBlock: `${BANANA_PER_BLOCK.toNumber() * 0.25}`,
     sortOrder: 1,
@@ -63,6 +64,7 @@ const pools: PoolConfig[] = [
     poolCategory: PoolCategory.APEZONE,
     projectLink: 'https://apeswap.finance/apezone',
     twitter: 'https://twitter.com/ape_swap',
+    audit: 'https://paladinsec.co/projects/apeswap/',
     harvest: true,
     tokenPerBlock: `0.150000000000000000`,
     sortOrder: 1,
@@ -2302,6 +2304,7 @@ const pools: PoolConfig[] = [
     poolCategory: PoolCategory.APEZONE,
     projectLink: 'https://roobee.io/',
     twitter: 'https://twitter.com/Roobee_invest',
+    audit: 'https://github.com/mixbytes/audits_public/blob/master/Roobee/README.md',
     harvest: true,
     tokenPerBlock: `10.7421875`,
     sortOrder: 1,
@@ -2422,6 +2425,7 @@ const pools: PoolConfig[] = [
     poolCategory: PoolCategory.APEZONE,
     projectLink: 'https://hector.network/',
     twitter: 'https://twitter.com/Hector_Network',
+    audit: 'https://www.certik.com/projects/tor',
     harvest: true,
     tokenPerBlock: `0.019097222222222222`,
     sortOrder: 1,
@@ -2442,6 +2446,8 @@ const pools: PoolConfig[] = [
     poolCategory: PoolCategory.APEZONE,
     projectLink: 'https://metashooter.gg/',
     twitter: 'https://twitter.com/MetaShooter_gg',
+    audit:
+      'https://github.com/sokenteam/smart_contract_audits/blob/main/MetaShooter%20NFT%20Standard%20Smart%20Contract%20Audit.pdf',
     harvest: true,
     tokenPerBlock: `0.381944444444444444`,
     sortOrder: 1,
@@ -2502,6 +2508,7 @@ const pools: PoolConfig[] = [
     poolCategory: PoolCategory.APEZONE,
     projectLink: 'https://piston-token.com/swap',
     twitter: 'https://twitter.com/PistonToken',
+    audit: 'https://solidity.finance/audits/PistonToken/',
     harvest: true,
     tokenPerBlock: `0.0023283179`,
     sortOrder: 1,
@@ -2522,6 +2529,7 @@ const pools: PoolConfig[] = [
     poolCategory: PoolCategory.APEZONE,
     projectLink: 'https://chirpley.ai',
     twitter: 'https://twitter.com/chirpley',
+    audit: 'https://stack.chirpley.nl/s/241c8gWBtVHnuZO1',
     harvest: true,
     tokenPerBlock: `0.900205632716049382`,
     sortOrder: 1,
@@ -2543,6 +2551,7 @@ const pools: PoolConfig[] = [
     poolCategory: PoolCategory.APEZONE,
     projectLink: 'https://3air.io/',
     twitter: 'https://twitter.com/3aircrypto',
+    audit: 'https://github.com/JorgeRodriguezsec/CTDsec/blob/main/Audits/Cybersecurity_Audit_CTDSEC_3air.pdf',
     harvest: true,
     tokenPerBlock: `0.331579861111111111`,
     sortOrder: 1,
@@ -2563,8 +2572,29 @@ const pools: PoolConfig[] = [
     poolCategory: PoolCategory.APEZONE,
     projectLink: 'https://cryptofruits.com/index.php',
     twitter: 'https://twitter.com/CryptoFruitsFi',
+    audit: 'https://hashex.org/audits/cryptofruits/',
     harvest: true,
     tokenPerBlock: `1.008603587962962962`,
+    sortOrder: 1,
+    reflect: false,
+    isFinished: false,
+    tokenDecimals: 18,
+  },
+  {
+    sousId: 229,
+    tokenName: 'CLA',
+    image: 'CLA.svg',
+    stakingToken: tokens.banana,
+    rewardToken: tokens.cla,
+    contractAddress: {
+      97: '0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d',
+      56: '0x2Cc77E935D77B631b7fd78761c379A851e798f21',
+    },
+    poolCategory: PoolCategory.APEZONE,
+    projectLink: 'https://www.candelacoin.co/',
+    twitter: 'https://twitter.com/candelacoin',
+    harvest: true,
+    tokenPerBlock: `5.729166666666666666`,
     sortOrder: 1,
     reflect: false,
     isFinished: false,

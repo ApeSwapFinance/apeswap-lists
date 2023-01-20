@@ -1731,6 +1731,14 @@ const tokens: Record<string, Token> = {
     decimals: { [ChainId.BSC]: 18 },
     active: true,
   },
+  cla: {
+    symbol: 'CLA',
+    address: {
+      [ChainId.BSC]: '0xFa86225e0c7f51c30f0C3647bfd2B266c3e3B6F6',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+  },
   xcur: {
     symbol: 'XCUR',
     address: {
