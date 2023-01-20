@@ -61,11 +61,17 @@ export interface BillsConfig {
   audit?: string
 }
 
+export enum VaultVersion {
+  V1 = 'V1',
+  V2 = 'V2',
+  V3 = 'V3',
+}
+
 export interface VaultConfig {
   id: number
   pid: number
   type: 'MAX' | 'AUTO' | 'BURN'
-  version: 'V1' | 'V2' | 'V3'
+  version: VaultVersion
   availableChains: number[]
   stratAddress: Partial<Record<ChainId, string>>
   platform: string

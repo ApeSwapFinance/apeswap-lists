@@ -11,12 +11,11 @@ const pools: PoolConfig[] = [
   // MASTER APE V2 POOL
   {
     sousId: 0,
-    tokenName: tokens.farmAway.symbol,
-    image: 'FARMAWAY.svg',
-    stakingToken: tokens.farmAway,
-    rewardToken: tokens.farmAway,
+    tokenName: tokens.banana.symbol,
+    stakingToken: tokens.banana,
+    rewardToken: tokens.banana,
     contractAddress: {
-      [ChainId.BSC]: '0xBCaa2098493a6efAC65eA2985b0B08daA472938d', // MasterApe
+      [ChainId.BSC]: '0x71354AC3c695dfB1d3f595AfA5D4364e9e06339B', // MasterApe
       [ChainId.BSC_TESTNET]: '',
     },
     poolCategory: PoolCategory.CORE,
