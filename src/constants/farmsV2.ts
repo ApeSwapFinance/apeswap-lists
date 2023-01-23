@@ -111,20 +111,20 @@ const farmsV2: FarmConfig[] = [
   },
   {
     pid: 12,
-    image: '',
-    lpSymbol: 'BANANA-SUSHI',
+    image: 'BIFI.png',
+    lpSymbol: 'BIFI-BNB',
     lpAddresses: {
-      [ChainId.BSC_TESTNET]: '0xed89477d619c7e73f752d5fc7be60308ceb63663', // BANANA-SUSHI BananaPair
-      [ChainId.BSC]: '0xdbcdA7B58c2078fcc790dD7C2c7272EdB7EAa2b0',
+      [ChainId.BSC_TESTNET]: '0xed89477d619c7e73f752d5fc7be60308ceb63663',
+      [ChainId.BSC]: '0xddd3f9d5bd347c55d18752c0c2075698ec657750', // BIFI-BNB BananaPair
     },
-    tokenSymbol: 'BANANA',
+    tokenSymbol: 'BIFI',
     tokenAddresses: {
       [ChainId.BSC_TESTNET]: '0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a',
-      [ChainId.BSC]: '0x947950bcc74888a40ffa2593c5798f11fc9124c4',
+      [ChainId.BSC]: '0xCa3F508B8e4Dd382eE878A314789373D80A5190A', // BIFI Token
     },
-    style: 'deprecated',
-    quoteTokenSymbol: QuoteToken.BANANA,
-    quoteTokenAdresses: tokens.banana.address,
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: tokens.wbnb.address,
+    projectLink: 'https://www.beefy.finance/',
   },
   {
     pid: 13,
