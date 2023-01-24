@@ -11,14 +11,18 @@ import {
   nfaStakingPools,
   iaos,
   zapInputTokens,
+  farmsV2,
+  vaultsV3,
 } from '../constants'
 
 const listMap: [any, string][] = [
   [farms, 'farms'],
+  [farmsV2, 'farmsV2'],
   [bills, 'bills'],
   [pools, 'pools'],
   [jungleFarms, 'jungleFarms'],
   [vaults, 'vaults'],
+  [vaultsV3, 'vaultsV3'],
   [dualFarms, 'dualFarms'],
   [nfaStakingPools, 'nfaStakingPools'],
   [iaos, 'iaos'],

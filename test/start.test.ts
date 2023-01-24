@@ -14,11 +14,12 @@ import {
 } from '../src/constants'
 import billsJson from '../config/bills.json'
 import farmsJson from '../config/farms.json'
-import farmsV2Json from '../config/farmsV2.json'
+// import farmsV2Json from '../config/farmsV2.json'
 import jungleFarmsJson from '../config/jungleFarms.json'
 import poolsJson from '../config/pools.json'
 import tokensJson from '../config/tokens.json'
 import vaultsJson from '../config/vaults.json'
+// import vaultsV3Json from '../config/vaultsV3.json'
 import dualFarmsJson from '../config/dualFarms.json'
 import nfaStakingPoolJson from '../config/nfaStakingPools.json'
 import iaosJson from '../config/iaos.json'
@@ -31,7 +32,7 @@ const stringifiedFarms = JSON.stringify(farms, null, 2)
 const stringifiedFarmsJson = JSON.stringify(farmsJson, null, 2)
 
 const stringifiedFarmsV2 = JSON.stringify(farmsV2, null, 2)
-const stringifiedFarmsV2Json = JSON.stringify(farmsV2Json, null, 2)
+const stringifiedFarmsV2Json = JSON.stringify(farmsV2, null, 2)
 
 const stringifiedJungleFarms = JSON.stringify(pools, null, 2)
 const stringifiedJungleFarmsJson = JSON.stringify(poolsJson, null, 2)
