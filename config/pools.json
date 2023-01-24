@@ -2,7 +2,58 @@
   {
     "sousId": 0,
     "tokenName": "BANANA",
-    "image": "BANANA.svg",
+    "stakingToken": {
+      "symbol": "BANANA",
+      "address": {
+        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
+        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "rewardToken": {
+      "symbol": "BANANA",
+      "address": {
+        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
+        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "contractAddress": {
+      "56": "0x71354AC3c695dfB1d3f595AfA5D4364e9e06339B",
+      "97": ""
+    },
+    "poolCategory": "Core",
+    "projectLink": "https://apeswap.finance/",
+    "twitter": "https://twitter.com/ape_swap",
+    "harvest": true,
+    "tokenPerBlock": "2.5",
+    "sortOrder": 1,
+    "isFinished": false,
+    "tokenDecimals": 18
+  },
+  {
+    "sousId": 999,
+    "tokenName": "BANANA",
     "stakingToken": {
       "symbol": "BANANA",
       "address": {
