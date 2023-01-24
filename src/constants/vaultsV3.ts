@@ -265,7 +265,7 @@ const vaults: VaultConfig[] = [
       [ChainId.BSC]: '0x72e387F2e0Ff6BD050c0B1082a573a125fDB9dFE',
     },
     stakeToken: tokens.bnbMatic,
-    token: tokens.matic,
+    token: tokens.wmatic,
     quoteToken: tokens.wbnb,
     rewardToken: tokens.banana,
     platform: 'ApeSwap',
