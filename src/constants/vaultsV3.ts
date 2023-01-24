@@ -42,7 +42,7 @@ const vaults: VaultConfig[] = [
     },
     stakeToken: tokens.bananaBnb,
     token: tokens.banana,
-    quoteToken: tokens.bnb,
+    quoteToken: tokens.wbnb,
     rewardToken: tokens.banana,
     platform: 'ApeSwap',
     masterchef: {
@@ -97,7 +97,7 @@ const vaults: VaultConfig[] = [
       [ChainId.BSC]: '0x64443214c3d5221838e5d208db579f699be8db67',
     },
     stakeToken: tokens.bnbBusd,
-    token: tokens.bnb,
+    token: tokens.wbnb,
     quoteToken: tokens.busd,
     rewardToken: tokens.banana,
     platform: 'ApeSwap',
@@ -126,7 +126,7 @@ const vaults: VaultConfig[] = [
     },
     stakeToken: tokens.ethBnb,
     token: tokens.eth,
-    quoteToken: tokens.bnb,
+    quoteToken: tokens.wbnb,
     rewardToken: tokens.banana,
     platform: 'ApeSwap',
     masterchef: {
@@ -154,7 +154,7 @@ const vaults: VaultConfig[] = [
     },
     stakeToken: tokens.adaBnb,
     token: tokens.ada,
-    quoteToken: tokens.bnb,
+    quoteToken: tokens.wbnb,
     rewardToken: tokens.banana,
     platform: 'ApeSwap',
     masterchef: {
@@ -210,7 +210,7 @@ const vaults: VaultConfig[] = [
     },
     stakeToken: tokens.dotBnb,
     token: tokens.dot,
-    quoteToken: tokens.bnb,
+    quoteToken: tokens.wbnb,
     rewardToken: tokens.banana,
     platform: 'ApeSwap',
     masterchef: {
@@ -238,7 +238,7 @@ const vaults: VaultConfig[] = [
     },
     stakeToken: tokens.linkBnb,
     token: tokens.link,
-    quoteToken: tokens.bnb,
+    quoteToken: tokens.wbnb,
     rewardToken: tokens.banana,
     platform: 'ApeSwap',
     masterchef: {
@@ -266,7 +266,7 @@ const vaults: VaultConfig[] = [
     },
     stakeToken: tokens.bnbMatic,
     token: tokens.matic,
-    quoteToken: tokens.bnb,
+    quoteToken: tokens.wbnb,
     rewardToken: tokens.banana,
     platform: 'ApeSwap',
     masterchef: {
@@ -294,7 +294,7 @@ const vaults: VaultConfig[] = [
     },
     stakeToken: tokens.aaveBnb,
     token: tokens.aave,
-    quoteToken: tokens.bnb,
+    quoteToken: tokens.wbnb,
     rewardToken: tokens.banana,
     platform: 'ApeSwap',
     masterchef: {
@@ -322,7 +322,7 @@ const vaults: VaultConfig[] = [
     },
     stakeToken: tokens.compBnb,
     token: tokens.comp,
-    quoteToken: tokens.bnb,
+    quoteToken: tokens.wbnb,
     rewardToken: tokens.banana,
     platform: 'ApeSwap',
     masterchef: {
@@ -350,7 +350,7 @@ const vaults: VaultConfig[] = [
     },
     stakeToken: tokens.bnbFtm,
     token: tokens.ftm,
-    quoteToken: tokens.bnb,
+    quoteToken: tokens.wbnb,
     rewardToken: tokens.banana,
     platform: 'ApeSwap',
     masterchef: {
@@ -378,7 +378,7 @@ const vaults: VaultConfig[] = [
     },
     stakeToken: tokens.avaxBnb,
     token: tokens.avax,
-    quoteToken: tokens.bnb,
+    quoteToken: tokens.wbnb,
     rewardToken: tokens.banana,
     platform: 'ApeSwap',
     masterchef: {
@@ -406,7 +406,7 @@ const vaults: VaultConfig[] = [
     },
     stakeToken: tokens.ceekBnb,
     token: tokens.ceek,
-    quoteToken: tokens.bnb,
+    quoteToken: tokens.wbnb,
     rewardToken: tokens.banana,
     platform: 'ApeSwap',
     masterchef: {
@@ -434,7 +434,7 @@ const vaults: VaultConfig[] = [
     },
     stakeToken: tokens.filBnb,
     token: tokens.fil,
-    quoteToken: tokens.bnb,
+    quoteToken: tokens.wbnb,
     rewardToken: tokens.banana,
     platform: 'ApeSwap',
     masterchef: {
@@ -462,7 +462,7 @@ const vaults: VaultConfig[] = [
     },
     stakeToken: tokens.anmlBnb,
     token: tokens.anml,
-    quoteToken: tokens.bnb,
+    quoteToken: tokens.wbnb,
     rewardToken: tokens.banana,
     platform: 'ApeSwap',
     masterchef: {
@@ -490,7 +490,7 @@ const vaults: VaultConfig[] = [
     },
     stakeToken: tokens.froyoBnb,
     token: tokens.froyo,
-    quoteToken: tokens.bnb,
+    quoteToken: tokens.wbnb,
     rewardToken: tokens.banana,
     platform: 'ApeSwap',
     masterchef: {
@@ -518,7 +518,7 @@ const vaults: VaultConfig[] = [
     },
     stakeToken: tokens.primateBnb,
     token: tokens.primate,
-    quoteToken: tokens.bnb,
+    quoteToken: tokens.wbnb,
     rewardToken: tokens.banana,
     platform: 'ApeSwap',
     masterchef: {
