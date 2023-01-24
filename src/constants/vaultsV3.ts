@@ -42,7 +42,7 @@ const vaults: VaultConfig[] = [
     },
     stakeToken: tokens.bananaBnb,
     token: tokens.banana,
-    quoteToken: tokens.busd,
+    quoteToken: tokens.bnb,
     rewardToken: tokens.banana,
     platform: 'ApeSwap',
     masterchef: {
