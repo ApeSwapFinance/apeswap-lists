@@ -1,6 +1,6 @@
 import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
-import { VaultConfig } from '../types'
+import { VaultConfig, VaultVersion } from '../types'
 
 const vaults: VaultConfig[] = [
   {
@@ -8,7 +8,7 @@ const vaults: VaultConfig[] = [
     pid: 22,
     availableChains: [ChainId.BSC],
     type: 'AUTO',
-    version: 'V1',
+    version: VaultVersion.V1,
     stratAddress: {
       [ChainId.BSC]: '0x9a668d5482828a444d7322fe5420ab5b44ce3de7',
     },
@@ -35,7 +35,7 @@ const vaults: VaultConfig[] = [
     pid: 1,
     availableChains: [ChainId.BSC],
     type: 'AUTO',
-    version: 'V1',
+    version: VaultVersion.V1,
     stratAddress: {
       [ChainId.BSC]: '0x4e4efe113214c1371b264c09f59f64c5f12589f8',
     },
@@ -65,13 +65,13 @@ const vaults: VaultConfig[] = [
     pid: 2,
     availableChains: [ChainId.BSC],
     type: 'AUTO',
-    version: 'V1',
+    version: VaultVersion.V1,
     stratAddress: {
       [ChainId.BSC]: '0x234101c6612115cac7bdb74ee20f388bb95db8cc',
     },
     stakeToken: tokens.bananaBusd,
     token: tokens.banana,
-    quoteToken: tokens.wbnb,
+    quoteToken: tokens.busd,
     rewardToken: tokens.bananaBusd,
     platform: 'ApeSwap',
     masterchef: {
@@ -96,7 +96,7 @@ const vaults: VaultConfig[] = [
     pid: 0,
     availableChains: [ChainId.BSC],
     type: 'MAX',
-    version: 'V2',
+    version: VaultVersion.V2,
     stratAddress: {
       [ChainId.BSC]: '0xA25790303f72c940D5cb33EA4554Bbd4656a69Dd',
     },
@@ -126,7 +126,7 @@ const vaults: VaultConfig[] = [
     pid: 1,
     availableChains: [ChainId.BSC],
     type: 'MAX',
-    version: 'V2',
+    version: VaultVersion.V2,
     stratAddress: {
       [ChainId.BSC]: '0x91C235A3D1B897915a95880bD6C8305849144583',
     },
@@ -156,7 +156,7 @@ const vaults: VaultConfig[] = [
     pid: 4,
     availableChains: [ChainId.BSC],
     type: 'MAX',
-    version: 'V2',
+    version: VaultVersion.V2,
     stratAddress: {
       [ChainId.BSC]: '0x037AC1244C18Ea840D4cc459135698B384DAa750',
     },
@@ -186,7 +186,7 @@ const vaults: VaultConfig[] = [
     pid: 2,
     availableChains: [ChainId.BSC],
     type: 'MAX',
-    version: 'V2',
+    version: VaultVersion.V2,
     stratAddress: {
       [ChainId.BSC]: '0xc6C58318c5b180d820eC72bFe426ad41c04aee96',
     },
@@ -216,7 +216,7 @@ const vaults: VaultConfig[] = [
     pid: 3,
     availableChains: [ChainId.BSC],
     type: 'MAX',
-    version: 'V2',
+    version: VaultVersion.V2,
     stratAddress: {
       [ChainId.BSC]: '0x99eBd87fF021e311d5DC5A53E26b8bA4d62eEe2a',
     },
@@ -246,7 +246,7 @@ const vaults: VaultConfig[] = [
     pid: 5,
     availableChains: [ChainId.BSC],
     type: 'MAX',
-    version: 'V2',
+    version: VaultVersion.V2,
     stratAddress: {
       [ChainId.BSC]: '0x17884b90f18B8875147D02a8119a6226841d282e',
     },
@@ -276,7 +276,7 @@ const vaults: VaultConfig[] = [
     pid: 6,
     availableChains: [ChainId.BSC],
     type: 'MAX',
-    version: 'V2',
+    version: VaultVersion.V2,
     stratAddress: {
       [ChainId.BSC]: '0x6862c220a88e0267D9B0652b7102A2d0c72bF7Eb',
     },
@@ -306,7 +306,7 @@ const vaults: VaultConfig[] = [
     pid: 7,
     availableChains: [ChainId.BSC],
     type: 'MAX',
-    version: 'V2',
+    version: VaultVersion.V2,
     stratAddress: {
       [ChainId.BSC]: '0x9A4d08aa7E97f3e37945E3a431feD6a5afa031f6',
     },
@@ -336,7 +336,7 @@ const vaults: VaultConfig[] = [
     pid: 8,
     availableChains: [ChainId.BSC],
     type: 'MAX',
-    version: 'V2',
+    version: VaultVersion.V2,
     stratAddress: {
       [ChainId.BSC]: '0xC76FC2BB951B35D831a110D02D038De002bA0B18',
     },
@@ -366,7 +366,7 @@ const vaults: VaultConfig[] = [
     pid: 9,
     availableChains: [ChainId.BSC],
     type: 'MAX',
-    version: 'V2',
+    version: VaultVersion.V2,
     stratAddress: {
       [ChainId.BSC]: '0x5d069513b56fa4df25ee70ebceb233b9515cba6f',
     },
@@ -396,7 +396,7 @@ const vaults: VaultConfig[] = [
     pid: 10,
     availableChains: [ChainId.BSC],
     type: 'MAX',
-    version: 'V2',
+    version: VaultVersion.V2,
     stratAddress: {
       [ChainId.BSC]: '0xcc92c18e948aa5cd7821a87322f8f8c35cd79f71',
     },
@@ -426,7 +426,7 @@ const vaults: VaultConfig[] = [
     pid: 11,
     availableChains: [ChainId.BSC],
     type: 'MAX',
-    version: 'V2',
+    version: VaultVersion.V2,
     stratAddress: {
       [ChainId.BSC]: '0xd8fa7c1bff86770cfcc500ecfcfd8c98f54ab49f',
     },
@@ -456,7 +456,7 @@ const vaults: VaultConfig[] = [
     pid: 12,
     availableChains: [ChainId.BSC],
     type: 'MAX',
-    version: 'V2',
+    version: VaultVersion.V2,
     stratAddress: {
       [ChainId.BSC]: '0x11d9757bc9e09b792d6a7be695ce3da377477735',
     },
@@ -486,7 +486,7 @@ const vaults: VaultConfig[] = [
     pid: 13,
     availableChains: [ChainId.BSC],
     type: 'MAX',
-    version: 'V2',
+    version: VaultVersion.V2,
     stratAddress: {
       [ChainId.BSC]: '0x4b4ec4206d385304ad2d3d0bd229c8e570cba980',
     },
@@ -516,7 +516,7 @@ const vaults: VaultConfig[] = [
     pid: 14,
     availableChains: [ChainId.BSC],
     type: 'MAX',
-    version: 'V2',
+    version: VaultVersion.V2,
     stratAddress: {
       [ChainId.BSC]: '0x6b8a11b50f653f4e50d4dcbb9607edba671aa792',
     },
@@ -546,7 +546,7 @@ const vaults: VaultConfig[] = [
     pid: 15,
     availableChains: [ChainId.BSC],
     type: 'MAX',
-    version: 'V2',
+    version: VaultVersion.V2,
     stratAddress: {
       [ChainId.BSC]: '0x4ac272a7f14e62a2c95bb4f33f6081aefc4cb03b',
     },
@@ -576,7 +576,7 @@ const vaults: VaultConfig[] = [
     pid: 16,
     availableChains: [ChainId.BSC],
     type: 'MAX',
-    version: 'V2',
+    version: VaultVersion.V2,
     stratAddress: {
       [ChainId.BSC]: '0x1282d55fe7e8cc0eb1895476e2666dd59d7a4171',
     },
@@ -606,7 +606,7 @@ const vaults: VaultConfig[] = [
     pid: 17,
     availableChains: [ChainId.BSC],
     type: 'MAX',
-    version: 'V2',
+    version: VaultVersion.V2,
     stratAddress: {
       [ChainId.BSC]: '0x28b8fe88897d507b051b1d16c35d163b27a79e23',
     },
@@ -636,7 +636,7 @@ const vaults: VaultConfig[] = [
     pid: 18,
     availableChains: [ChainId.BSC],
     type: 'MAX',
-    version: 'V2',
+    version: VaultVersion.V2,
     stratAddress: {
       [ChainId.BSC]: '0x49a8a2772ccf69ba8bb250ab511f4b662ef64ff5',
     },
@@ -666,7 +666,7 @@ const vaults: VaultConfig[] = [
     pid: 19,
     availableChains: [ChainId.BSC],
     type: 'MAX',
-    version: 'V2',
+    version: VaultVersion.V2,
     stratAddress: {
       [ChainId.BSC]: '0x5354dc56d8e0fcbb33ae384f07f98b1388107250',
     },
@@ -696,7 +696,7 @@ const vaults: VaultConfig[] = [
   //   pid: 0,
   //   availableChains: [ChainId.BSC_TESTNET],
   //   type: 'MAX',
-  //   version: 'V2',
+  //   version: VaultVersion.V2,
   //   stratAddress: {
   //     [ChainId.BSC_TESTNET]: '0xe635B6C53bCDB4e98224E2cDC50a130CA38f9647',
   //   },
@@ -725,7 +725,7 @@ const vaults: VaultConfig[] = [
   //   pid: 1,
   //   availableChains: [ChainId.BSC_TESTNET],
   //   type: 'MAX',
-  //   version: 'V2',
+  //   version: VaultVersion.V2,
   //   stratAddress: {
   //     [ChainId.BSC_TESTNET]: '0x60ddD0e76a958Ba341aD677eAd713Af5Ef447D9d',
   //   },

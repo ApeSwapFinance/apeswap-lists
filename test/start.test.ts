@@ -9,13 +9,17 @@ import {
   nfaStakingPools,
   iaos,
   zapInputTokens,
+  farmsV2,
+  vaultsV3,
 } from '../src/constants'
 import billsJson from '../config/bills.json'
 import farmsJson from '../config/farms.json'
+// import farmsV2Json from '../config/farmsV2.json'
 import jungleFarmsJson from '../config/jungleFarms.json'
 import poolsJson from '../config/pools.json'
 import tokensJson from '../config/tokens.json'
 import vaultsJson from '../config/vaults.json'
+// import vaultsV3Json from '../config/vaultsV3.json'
 import dualFarmsJson from '../config/dualFarms.json'
 import nfaStakingPoolJson from '../config/nfaStakingPools.json'
 import iaosJson from '../config/iaos.json'
@@ -26,6 +30,9 @@ const stringifiedBillsJson = JSON.stringify(billsJson, null, 2)
 
 const stringifiedFarms = JSON.stringify(farms, null, 2)
 const stringifiedFarmsJson = JSON.stringify(farmsJson, null, 2)
+
+const stringifiedFarmsV2 = JSON.stringify(farmsV2, null, 2)
+const stringifiedFarmsV2Json = JSON.stringify(farmsV2, null, 2)
 
 const stringifiedJungleFarms = JSON.stringify(pools, null, 2)
 const stringifiedJungleFarmsJson = JSON.stringify(poolsJson, null, 2)
@@ -39,6 +46,9 @@ const stringifiedTokensJson = JSON.stringify(tokensJson, null, 2)
 
 const stringifiedVaults = JSON.stringify(vaults, null, 2)
 const stringifiedVaultsJson = JSON.stringify(vaultsJson, null, 2)
+
+const stringifiedVaultsV3 = JSON.stringify(vaultsV3, null, 2)
+const stringifiedVaultsV3Json = JSON.stringify(vaultsV3, null, 2)
 
 const stringifiedDualFarms = JSON.stringify(dualFarms, null, 2)
 const stringifiedDualFarmsJson = JSON.stringify(dualFarmsJson, null, 2)
@@ -59,6 +69,9 @@ describe('JSON files are most recent and are correct', () => {
   it('Test if farms have been generated', () => {
     expect(stringifiedFarmsJson).toBe(stringifiedFarms)
   })
+  it('Test if farmsV2 have been generated', () => {
+    expect(stringifiedFarmsV2Json).toBe(stringifiedFarmsV2)
+  })
   it('Test if jungle farms have been generated', () => {
     expect(stringifiedJungleFarmsJson).toBe(stringifiedJungleFarms)
   })
@@ -70,6 +83,9 @@ describe('JSON files are most recent and are correct', () => {
   })
   it('Test if vaults have been generated', () => {
     expect(stringifiedVaultsJson).toBe(stringifiedVaults)
+  })
+  it('Test if vaults have been generated', () => {
+    expect(stringifiedVaultsV3Json).toBe(stringifiedVaultsV3)
   })
   it('Test if dual farms have been generated', () => {
     expect(stringifiedDualFarmsJson).toBe(stringifiedDualFarms)

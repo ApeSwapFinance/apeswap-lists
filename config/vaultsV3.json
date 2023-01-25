@@ -1,12 +1,12 @@
 [
   {
     "id": 0,
-    "pid": 22,
+    "pid": 0,
     "availableChains": [56],
-    "type": "AUTO",
-    "version": "V1",
+    "type": "MAX",
+    "version": "V3",
     "stratAddress": {
-      "56": "0x9a668d5482828a444d7322fe5420ab5b44ce3de7"
+      "56": "0x8F7B5E2F9ca5C2829847743Fa31A4EFB97e3fca2"
     },
     "stakeToken": {
       "symbol": "BANANA",
@@ -68,10 +68,10 @@
         "56": 0
       },
       "address": {
-        "56": "0x5c8D727b265DBAfaba67E050f2f739cAeEB4A6F9"
+        "56": "0x71354AC3c695dfB1d3f595AfA5D4364e9e06339B"
       },
       "rewardsPerBlock": {
-        "56": "cakePerBlock"
+        "56": "bananaPerSecond"
       },
       "rewardToken": {
         "symbol": "BANANA",
@@ -91,17 +91,16 @@
         },
         "active": true
       }
-    },
-    "fee": "0.1"
+    }
   },
   {
     "id": 1,
     "pid": 1,
     "availableChains": [56],
-    "type": "AUTO",
-    "version": "V1",
+    "type": "MAX",
+    "version": "V3",
     "stratAddress": {
-      "56": "0x4e4efe113214c1371b264c09f59f64c5f12589f8"
+      "56": "0x7743f72f3c300e20579192072B529Cc093759cCc"
     },
     "stakeToken": {
       "symbol": "BANANA-BNB",
@@ -149,28 +148,33 @@
       "active": true
     },
     "rewardToken": {
-      "symbol": "BANANA-BNB",
+      "symbol": "BANANA",
       "address": {
-        "56": "0xf65c1c0478efde3c19b49ecbe7acc57bb6b1d713",
-        "97": "0x90Fc86A7570063a9eA971ec74f01F89569Ad6237"
+        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
+        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
       },
       "decimals": {
+        "1": 18,
+        "40": 18,
         "56": 18,
-        "97": 18
+        "97": 18,
+        "137": 18
       },
-      "active": true,
-      "lpToken": true
+      "active": true
     },
     "platform": "ApeSwap",
     "masterchef": {
       "pid": {
-        "56": 1
+        "56": 6
       },
       "address": {
-        "56": "0x5c8D727b265DBAfaba67E050f2f739cAeEB4A6F9"
+        "56": "0x71354AC3c695dfB1d3f595AfA5D4364e9e06339B"
       },
       "rewardsPerBlock": {
-        "56": "cakePerBlock"
+        "56": "bananaPerSecond"
       },
       "rewardToken": {
         "symbol": "BANANA",
@@ -190,17 +194,16 @@
         },
         "active": true
       }
-    },
-    "inactive": true
+    }
   },
   {
     "id": 2,
     "pid": 2,
     "availableChains": [56],
-    "type": "AUTO",
-    "version": "V1",
+    "type": "MAX",
+    "version": "V3",
     "stratAddress": {
-      "56": "0x234101c6612115cac7bdb74ee20f388bb95db8cc"
+      "56": "0xC8C45C52903117846174Dd5142A458546A81FFC5"
     },
     "stakeToken": {
       "symbol": "BANANA-BUSD",
@@ -244,26 +247,33 @@
       "active": true
     },
     "rewardToken": {
-      "symbol": "BANANA-BUSD",
+      "symbol": "BANANA",
       "address": {
-        "56": "0x7Bd46f6Da97312AC2DBD1749f82E202764C0B914"
+        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
+        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
       },
       "decimals": {
-        "56": 18
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18
       },
-      "active": true,
-      "lpToken": true
+      "active": true
     },
     "platform": "ApeSwap",
     "masterchef": {
       "pid": {
-        "56": 2
+        "56": 7
       },
       "address": {
-        "56": "0x5c8D727b265DBAfaba67E050f2f739cAeEB4A6F9"
+        "56": "0x71354AC3c695dfB1d3f595AfA5D4364e9e06339B"
       },
       "rewardsPerBlock": {
-        "56": "cakePerBlock"
+        "56": "bananaPerSecond"
       },
       "rewardToken": {
         "symbol": "BANANA",
@@ -283,219 +293,16 @@
         },
         "active": true
       }
-    },
-    "inactive": true
+    }
   },
   {
     "id": 3,
-    "pid": 0,
+    "pid": 3,
     "availableChains": [56],
     "type": "MAX",
-    "version": "V2",
+    "version": "V3",
     "stratAddress": {
-      "56": "0xA25790303f72c940D5cb33EA4554Bbd4656a69Dd"
-    },
-    "stakeToken": {
-      "symbol": "BANANA-BNB",
-      "address": {
-        "56": "0xf65c1c0478efde3c19b49ecbe7acc57bb6b1d713",
-        "97": "0x90Fc86A7570063a9eA971ec74f01F89569Ad6237"
-      },
-      "decimals": {
-        "56": 18,
-        "97": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
-    "token": {
-      "symbol": "BANANA",
-      "address": {
-        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
-        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
-        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
-        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
-        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
-      },
-      "decimals": {
-        "1": 18,
-        "40": 18,
-        "56": 18,
-        "97": 18,
-        "137": 18
-      },
-      "active": true
-    },
-    "quoteToken": {
-      "symbol": "BNB",
-      "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
-      },
-      "decimals": {
-        "56": 18,
-        "97": 18,
-        "137": 18
-      },
-      "active": true
-    },
-    "rewardToken": {
-      "symbol": "BANANA",
-      "address": {
-        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
-        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
-        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
-        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
-        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
-      },
-      "decimals": {
-        "1": 18,
-        "40": 18,
-        "56": 18,
-        "97": 18,
-        "137": 18
-      },
-      "active": true
-    },
-    "platform": "ApeSwap",
-    "masterchef": {
-      "pid": {
-        "56": 1
-      },
-      "address": {
-        "56": "0x5c8D727b265DBAfaba67E050f2f739cAeEB4A6F9"
-      },
-      "rewardsPerBlock": {
-        "56": "cakePerBlock"
-      },
-      "rewardToken": {
-        "symbol": "BANANA",
-        "address": {
-          "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
-          "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
-          "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
-          "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
-          "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
-        },
-        "decimals": {
-          "1": 18,
-          "40": 18,
-          "56": 18,
-          "97": 18,
-          "137": 18
-        },
-        "active": true
-      }
-    }
-  },
-  {
-    "id": 4,
-    "pid": 1,
-    "availableChains": [56],
-    "type": "MAX",
-    "version": "V2",
-    "stratAddress": {
-      "56": "0x91C235A3D1B897915a95880bD6C8305849144583"
-    },
-    "stakeToken": {
-      "symbol": "BANANA-BUSD",
-      "address": {
-        "56": "0x7Bd46f6Da97312AC2DBD1749f82E202764C0B914"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
-    "token": {
-      "symbol": "BANANA",
-      "address": {
-        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
-        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
-        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
-        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
-        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
-      },
-      "decimals": {
-        "1": 18,
-        "40": 18,
-        "56": 18,
-        "97": 18,
-        "137": 18
-      },
-      "active": true
-    },
-    "quoteToken": {
-      "symbol": "BUSD",
-      "address": {
-        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-        "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
-      },
-      "decimals": {
-        "56": 18,
-        "97": 18
-      },
-      "active": true
-    },
-    "rewardToken": {
-      "symbol": "BANANA",
-      "address": {
-        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
-        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
-        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
-        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
-        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
-      },
-      "decimals": {
-        "1": 18,
-        "40": 18,
-        "56": 18,
-        "97": 18,
-        "137": 18
-      },
-      "active": true
-    },
-    "platform": "ApeSwap",
-    "masterchef": {
-      "pid": {
-        "56": 2
-      },
-      "address": {
-        "56": "0x5c8D727b265DBAfaba67E050f2f739cAeEB4A6F9"
-      },
-      "rewardsPerBlock": {
-        "56": "cakePerBlock"
-      },
-      "rewardToken": {
-        "symbol": "BANANA",
-        "address": {
-          "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
-          "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
-          "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
-          "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
-          "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
-        },
-        "decimals": {
-          "1": 18,
-          "40": 18,
-          "56": 18,
-          "97": 18,
-          "137": 18
-        },
-        "active": true
-      }
-    }
-  },
-  {
-    "id": 5,
-    "pid": 4,
-    "availableChains": [56],
-    "type": "MAX",
-    "version": "V2",
-    "stratAddress": {
-      "56": "0x037AC1244C18Ea840D4cc459135698B384DAa750"
+      "56": "0x1569637D5db9c3F15bb93eAc257b3c268113f977"
     },
     "stakeToken": {
       "symbol": "BUSD-BNB",
@@ -555,13 +362,13 @@
     "platform": "ApeSwap",
     "masterchef": {
       "pid": {
-        "56": 3
+        "56": 8
       },
       "address": {
-        "56": "0x5c8D727b265DBAfaba67E050f2f739cAeEB4A6F9"
+        "56": "0x71354AC3c695dfB1d3f595AfA5D4364e9e06339B"
       },
       "rewardsPerBlock": {
-        "56": "cakePerBlock"
+        "56": "bananaPerSecond"
       },
       "rewardToken": {
         "symbol": "BANANA",
@@ -584,201 +391,13 @@
     }
   },
   {
-    "id": 6,
-    "pid": 2,
+    "id": 4,
+    "pid": 4,
     "availableChains": [56],
     "type": "MAX",
-    "version": "V2",
+    "version": "V3",
     "stratAddress": {
-      "56": "0xc6C58318c5b180d820eC72bFe426ad41c04aee96"
-    },
-    "stakeToken": {
-      "symbol": "MATIC-BNB",
-      "address": {
-        "56": "0x29A4A3D77c010CE100A45831BF7e798f0f0B325D"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
-    "token": {
-      "symbol": "MATIC",
-      "address": {
-        "56": "0xcc42724c6683b7e57334c4e856f4c9965ed682bd",
-        "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
-      },
-      "decimals": {
-        "56": 18,
-        "137": 18
-      },
-      "active": true
-    },
-    "quoteToken": {
-      "symbol": "BNB",
-      "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
-      },
-      "decimals": {
-        "56": 18,
-        "97": 18,
-        "137": 18
-      },
-      "active": true
-    },
-    "rewardToken": {
-      "symbol": "BANANA",
-      "address": {
-        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
-        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
-        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
-        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
-        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
-      },
-      "decimals": {
-        "1": 18,
-        "40": 18,
-        "56": 18,
-        "97": 18,
-        "137": 18
-      },
-      "active": true
-    },
-    "platform": "ApeSwap",
-    "masterchef": {
-      "pid": {
-        "56": 45
-      },
-      "address": {
-        "56": "0x5c8D727b265DBAfaba67E050f2f739cAeEB4A6F9"
-      },
-      "rewardsPerBlock": {
-        "56": "cakePerBlock"
-      },
-      "rewardToken": {
-        "symbol": "BANANA",
-        "address": {
-          "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
-          "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
-          "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
-          "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
-          "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
-        },
-        "decimals": {
-          "1": 18,
-          "40": 18,
-          "56": 18,
-          "97": 18,
-          "137": 18
-        },
-        "active": true
-      }
-    }
-  },
-  {
-    "id": 7,
-    "pid": 3,
-    "availableChains": [56],
-    "type": "MAX",
-    "version": "V2",
-    "stratAddress": {
-      "56": "0x99eBd87fF021e311d5DC5A53E26b8bA4d62eEe2a"
-    },
-    "stakeToken": {
-      "symbol": "FTM-BNB",
-      "address": {
-        "56": "0x47A0B7bA18Bb80E4888ca2576c2d34BE290772a6"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
-    "token": {
-      "symbol": "FTM",
-      "address": {
-        "56": "0xAD29AbB318791D579433D831ed122aFeAf29dcfe"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true
-    },
-    "quoteToken": {
-      "symbol": "BNB",
-      "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
-      },
-      "decimals": {
-        "56": 18,
-        "97": 18,
-        "137": 18
-      },
-      "active": true
-    },
-    "rewardToken": {
-      "symbol": "BANANA",
-      "address": {
-        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
-        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
-        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
-        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
-        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
-      },
-      "decimals": {
-        "1": 18,
-        "40": 18,
-        "56": 18,
-        "97": 18,
-        "137": 18
-      },
-      "active": true
-    },
-    "platform": "ApeSwap",
-    "masterchef": {
-      "pid": {
-        "56": 49
-      },
-      "address": {
-        "56": "0x5c8D727b265DBAfaba67E050f2f739cAeEB4A6F9"
-      },
-      "rewardsPerBlock": {
-        "56": "cakePerBlock"
-      },
-      "rewardToken": {
-        "symbol": "BANANA",
-        "address": {
-          "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
-          "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
-          "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
-          "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
-          "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
-        },
-        "decimals": {
-          "1": 18,
-          "40": 18,
-          "56": 18,
-          "97": 18,
-          "137": 18
-        },
-        "active": true
-      }
-    }
-  },
-  {
-    "id": 8,
-    "pid": 5,
-    "availableChains": [56],
-    "type": "MAX",
-    "version": "V2",
-    "stratAddress": {
-      "56": "0x17884b90f18B8875147D02a8119a6226841d282e"
+      "56": "0x7a558933b4dDfA045Ca58D97e211116f83Dd956f"
     },
     "stakeToken": {
       "symbol": "ETH-BNB",
@@ -842,13 +461,13 @@
     "platform": "ApeSwap",
     "masterchef": {
       "pid": {
-        "56": 5
+        "56": 10
       },
       "address": {
-        "56": "0x5c8D727b265DBAfaba67E050f2f739cAeEB4A6F9"
+        "56": "0x71354AC3c695dfB1d3f595AfA5D4364e9e06339B"
       },
       "rewardsPerBlock": {
-        "56": "cakePerBlock"
+        "56": "bananaPerSecond"
       },
       "rewardToken": {
         "symbol": "BANANA",
@@ -871,757 +490,13 @@
     }
   },
   {
-    "id": 9,
-    "pid": 6,
+    "id": 5,
+    "pid": 5,
     "availableChains": [56],
     "type": "MAX",
-    "version": "V2",
+    "version": "V3",
     "stratAddress": {
-      "56": "0x6862c220a88e0267D9B0652b7102A2d0c72bF7Eb"
-    },
-    "stakeToken": {
-      "symbol": "APE-BNB",
-      "address": {
-        "56": "0x8B3EBE3422aabEA9920ca820fE43679e3e2E78D3"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
-    "token": {
-      "symbol": "APE",
-      "address": {
-        "56": "0x0b079b33b6e72311c6be245f9f660cc385029fc3"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true
-    },
-    "quoteToken": {
-      "symbol": "BNB",
-      "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
-      },
-      "decimals": {
-        "56": 18,
-        "97": 18,
-        "137": 18
-      },
-      "active": true
-    },
-    "rewardToken": {
-      "symbol": "BANANA",
-      "address": {
-        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
-        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
-        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
-        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
-        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
-      },
-      "decimals": {
-        "1": 18,
-        "40": 18,
-        "56": 18,
-        "97": 18,
-        "137": 18
-      },
-      "active": true
-    },
-    "platform": "ApeSwap",
-    "masterchef": {
-      "pid": {
-        "56": 191
-      },
-      "address": {
-        "56": "0x5c8D727b265DBAfaba67E050f2f739cAeEB4A6F9"
-      },
-      "rewardsPerBlock": {
-        "56": "cakePerBlock"
-      },
-      "rewardToken": {
-        "symbol": "BANANA",
-        "address": {
-          "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
-          "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
-          "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
-          "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
-          "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
-        },
-        "decimals": {
-          "1": 18,
-          "40": 18,
-          "56": 18,
-          "97": 18,
-          "137": 18
-        },
-        "active": true
-      }
-    }
-  },
-  {
-    "id": 10,
-    "pid": 7,
-    "availableChains": [56],
-    "type": "MAX",
-    "version": "V2",
-    "stratAddress": {
-      "56": "0x9A4d08aa7E97f3e37945E3a431feD6a5afa031f6"
-    },
-    "stakeToken": {
-      "symbol": "DOT-BNB",
-      "address": {
-        "56": "0x21CBb561c5d7D70e9E6Cc42136CB22F07552aEef"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
-    "token": {
-      "symbol": "DOT",
-      "address": {
-        "56": "0x7083609fce4d1d8dc0c979aab8c869ea2c873402"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true
-    },
-    "quoteToken": {
-      "symbol": "BNB",
-      "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
-      },
-      "decimals": {
-        "56": 18,
-        "97": 18,
-        "137": 18
-      },
-      "active": true
-    },
-    "rewardToken": {
-      "symbol": "BANANA",
-      "address": {
-        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
-        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
-        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
-        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
-        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
-      },
-      "decimals": {
-        "1": 18,
-        "40": 18,
-        "56": 18,
-        "97": 18,
-        "137": 18
-      },
-      "active": true
-    },
-    "platform": "ApeSwap",
-    "masterchef": {
-      "pid": {
-        "56": 33
-      },
-      "address": {
-        "56": "0x5c8D727b265DBAfaba67E050f2f739cAeEB4A6F9"
-      },
-      "rewardsPerBlock": {
-        "56": "cakePerBlock"
-      },
-      "rewardToken": {
-        "symbol": "BANANA",
-        "address": {
-          "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
-          "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
-          "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
-          "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
-          "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
-        },
-        "decimals": {
-          "1": 18,
-          "40": 18,
-          "56": 18,
-          "97": 18,
-          "137": 18
-        },
-        "active": true
-      }
-    }
-  },
-  {
-    "id": 11,
-    "pid": 8,
-    "availableChains": [56],
-    "type": "MAX",
-    "version": "V2",
-    "stratAddress": {
-      "56": "0xC76FC2BB951B35D831a110D02D038De002bA0B18"
-    },
-    "stakeToken": {
-      "symbol": "AVAX-BNB",
-      "address": {
-        "56": "0x40aFc7CBd0Dc2bE5860F0035b717d20Afb4827b2"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
-    "token": {
-      "symbol": "AVAX",
-      "address": {
-        "56": "0x1ce0c2827e2ef14d5c4f29a091d735a204794041"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true
-    },
-    "quoteToken": {
-      "symbol": "BNB",
-      "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
-      },
-      "decimals": {
-        "56": 18,
-        "97": 18,
-        "137": 18
-      },
-      "active": true
-    },
-    "rewardToken": {
-      "symbol": "BANANA",
-      "address": {
-        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
-        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
-        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
-        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
-        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
-      },
-      "decimals": {
-        "1": 18,
-        "40": 18,
-        "56": 18,
-        "97": 18,
-        "137": 18
-      },
-      "active": true
-    },
-    "platform": "ApeSwap",
-    "masterchef": {
-      "pid": {
-        "56": 51
-      },
-      "address": {
-        "56": "0x5c8D727b265DBAfaba67E050f2f739cAeEB4A6F9"
-      },
-      "rewardsPerBlock": {
-        "56": "cakePerBlock"
-      },
-      "rewardToken": {
-        "symbol": "BANANA",
-        "address": {
-          "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
-          "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
-          "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
-          "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
-          "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
-        },
-        "decimals": {
-          "1": 18,
-          "40": 18,
-          "56": 18,
-          "97": 18,
-          "137": 18
-        },
-        "active": true
-      }
-    }
-  },
-  {
-    "id": 12,
-    "pid": 9,
-    "availableChains": [56],
-    "type": "MAX",
-    "version": "V2",
-    "stratAddress": {
-      "56": "0x5d069513b56fa4df25ee70ebceb233b9515cba6f"
-    },
-    "stakeToken": {
-      "symbol": "NFTY-BNB",
-      "address": {
-        "56": "0x884BE30e2c95b9cFed614aD2B5Edf40AF2A144ad"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
-    "token": {
-      "symbol": "NFTY",
-      "address": {
-        "56": "0x5774b2fc3e91af89f89141eacf76545e74265982"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true
-    },
-    "quoteToken": {
-      "symbol": "BNB",
-      "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
-      },
-      "decimals": {
-        "56": 18,
-        "97": 18,
-        "137": 18
-      },
-      "active": true
-    },
-    "rewardToken": {
-      "symbol": "BANANA",
-      "address": {
-        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
-        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
-        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
-        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
-        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
-      },
-      "decimals": {
-        "1": 18,
-        "40": 18,
-        "56": 18,
-        "97": 18,
-        "137": 18
-      },
-      "active": true
-    },
-    "platform": "ApeSwap",
-    "masterchef": {
-      "pid": {
-        "56": 132
-      },
-      "address": {
-        "56": "0x5c8D727b265DBAfaba67E050f2f739cAeEB4A6F9"
-      },
-      "rewardsPerBlock": {
-        "56": "cakePerBlock"
-      },
-      "rewardToken": {
-        "symbol": "BANANA",
-        "address": {
-          "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
-          "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
-          "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
-          "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
-          "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
-        },
-        "decimals": {
-          "1": 18,
-          "40": 18,
-          "56": 18,
-          "97": 18,
-          "137": 18
-        },
-        "active": true
-      }
-    }
-  },
-  {
-    "id": 13,
-    "pid": 10,
-    "availableChains": [56],
-    "type": "MAX",
-    "version": "V2",
-    "stratAddress": {
-      "56": "0xcc92c18e948aa5cd7821a87322f8f8c35cd79f71"
-    },
-    "stakeToken": {
-      "symbol": "CEEK-BNB",
-      "address": {
-        "56": "0x119d6ebe840966c9cf4ff6603e76208d30ba2179"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
-    "token": {
-      "symbol": "CEEK",
-      "address": {
-        "56": "0xe0f94ac5462997d2bc57287ac3a3ae4c31345d66"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true
-    },
-    "quoteToken": {
-      "symbol": "BNB",
-      "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
-      },
-      "decimals": {
-        "56": 18,
-        "97": 18,
-        "137": 18
-      },
-      "active": true
-    },
-    "rewardToken": {
-      "symbol": "BANANA",
-      "address": {
-        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
-        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
-        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
-        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
-        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
-      },
-      "decimals": {
-        "1": 18,
-        "40": 18,
-        "56": 18,
-        "97": 18,
-        "137": 18
-      },
-      "active": true
-    },
-    "platform": "ApeSwap",
-    "masterchef": {
-      "pid": {
-        "56": 117
-      },
-      "address": {
-        "56": "0x5c8D727b265DBAfaba67E050f2f739cAeEB4A6F9"
-      },
-      "rewardsPerBlock": {
-        "56": "cakePerBlock"
-      },
-      "rewardToken": {
-        "symbol": "BANANA",
-        "address": {
-          "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
-          "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
-          "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
-          "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
-          "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
-        },
-        "decimals": {
-          "1": 18,
-          "40": 18,
-          "56": 18,
-          "97": 18,
-          "137": 18
-        },
-        "active": true
-      }
-    }
-  },
-  {
-    "id": 14,
-    "pid": 11,
-    "availableChains": [56],
-    "type": "MAX",
-    "version": "V2",
-    "stratAddress": {
-      "56": "0xd8fa7c1bff86770cfcc500ecfcfd8c98f54ab49f"
-    },
-    "stakeToken": {
-      "symbol": "PRIMATE-BNB",
-      "address": {
-        "56": "0x6acabA892562719085C8418EbA49b8B3475D995a"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
-    "token": {
-      "symbol": "PRIMATE",
-      "address": {
-        "56": "0xA19863E302FD1B41276fCe5A48D9C511DBeEf34c"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true
-    },
-    "quoteToken": {
-      "symbol": "BNB",
-      "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
-      },
-      "decimals": {
-        "56": 18,
-        "97": 18,
-        "137": 18
-      },
-      "active": true
-    },
-    "rewardToken": {
-      "symbol": "BANANA",
-      "address": {
-        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
-        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
-        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
-        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
-        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
-      },
-      "decimals": {
-        "1": 18,
-        "40": 18,
-        "56": 18,
-        "97": 18,
-        "137": 18
-      },
-      "active": true
-    },
-    "platform": "ApeSwap",
-    "masterchef": {
-      "pid": {
-        "56": 201
-      },
-      "address": {
-        "56": "0x5c8D727b265DBAfaba67E050f2f739cAeEB4A6F9"
-      },
-      "rewardsPerBlock": {
-        "56": "cakePerBlock"
-      },
-      "rewardToken": {
-        "symbol": "BANANA",
-        "address": {
-          "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
-          "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
-          "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
-          "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
-          "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
-        },
-        "decimals": {
-          "1": 18,
-          "40": 18,
-          "56": 18,
-          "97": 18,
-          "137": 18
-        },
-        "active": true
-      }
-    }
-  },
-  {
-    "id": 15,
-    "pid": 12,
-    "availableChains": [56],
-    "type": "MAX",
-    "version": "V2",
-    "stratAddress": {
-      "56": "0x11d9757bc9e09b792d6a7be695ce3da377477735"
-    },
-    "stakeToken": {
-      "symbol": "COMP-BNB",
-      "address": {
-        "56": "0xb4c0c621B2eDfE6C22585ebAC56b0e634907B8A7"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
-    "token": {
-      "symbol": "COMP",
-      "address": {
-        "56": "0x52ce071bd9b1c4b00a0b92d298c512478cad67e8"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true
-    },
-    "quoteToken": {
-      "symbol": "BNB",
-      "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
-      },
-      "decimals": {
-        "56": 18,
-        "97": 18,
-        "137": 18
-      },
-      "active": true
-    },
-    "rewardToken": {
-      "symbol": "BANANA",
-      "address": {
-        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
-        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
-        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
-        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
-        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
-      },
-      "decimals": {
-        "1": 18,
-        "40": 18,
-        "56": 18,
-        "97": 18,
-        "137": 18
-      },
-      "active": true
-    },
-    "platform": "ApeSwap",
-    "masterchef": {
-      "pid": {
-        "56": 48
-      },
-      "address": {
-        "56": "0x5c8D727b265DBAfaba67E050f2f739cAeEB4A6F9"
-      },
-      "rewardsPerBlock": {
-        "56": "cakePerBlock"
-      },
-      "rewardToken": {
-        "symbol": "BANANA",
-        "address": {
-          "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
-          "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
-          "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
-          "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
-          "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
-        },
-        "decimals": {
-          "1": 18,
-          "40": 18,
-          "56": 18,
-          "97": 18,
-          "137": 18
-        },
-        "active": true
-      }
-    }
-  },
-  {
-    "id": 16,
-    "pid": 13,
-    "availableChains": [56],
-    "type": "MAX",
-    "version": "V2",
-    "stratAddress": {
-      "56": "0x4b4ec4206d385304ad2d3d0bd229c8e570cba980"
-    },
-    "stakeToken": {
-      "symbol": "FIL-BNB",
-      "address": {
-        "56": "0xcAEC8648dbaC41b6504A8E408892931796D67d87"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true,
-      "lpToken": true
-    },
-    "token": {
-      "symbol": "FIL",
-      "address": {
-        "56": "0x0d8ce2a99bb6e3b7db580ed848240e4a0f9ae153"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true
-    },
-    "quoteToken": {
-      "symbol": "BNB",
-      "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
-      },
-      "decimals": {
-        "56": 18,
-        "97": 18,
-        "137": 18
-      },
-      "active": true
-    },
-    "rewardToken": {
-      "symbol": "BANANA",
-      "address": {
-        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
-        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
-        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
-        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
-        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
-      },
-      "decimals": {
-        "1": 18,
-        "40": 18,
-        "56": 18,
-        "97": 18,
-        "137": 18
-      },
-      "active": true
-    },
-    "platform": "ApeSwap",
-    "masterchef": {
-      "pid": {
-        "56": 142
-      },
-      "address": {
-        "56": "0x5c8D727b265DBAfaba67E050f2f739cAeEB4A6F9"
-      },
-      "rewardsPerBlock": {
-        "56": "cakePerBlock"
-      },
-      "rewardToken": {
-        "symbol": "BANANA",
-        "address": {
-          "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
-          "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
-          "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
-          "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
-          "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
-        },
-        "decimals": {
-          "1": 18,
-          "40": 18,
-          "56": 18,
-          "97": 18,
-          "137": 18
-        },
-        "active": true
-      }
-    }
-  },
-  {
-    "id": 17,
-    "pid": 14,
-    "availableChains": [56],
-    "type": "MAX",
-    "version": "V2",
-    "stratAddress": {
-      "56": "0x6b8a11b50f653f4e50d4dcbb9607edba671aa792"
+      "56": "0xFbd3Ff8Ac6D4CFb0Bb9F0B4Bba46fA0f638A7a12"
     },
     "stakeToken": {
       "symbol": "ADA-BNB",
@@ -1679,13 +554,13 @@
     "platform": "ApeSwap",
     "masterchef": {
       "pid": {
-        "56": 17
+        "56": 14
       },
       "address": {
-        "56": "0x5c8D727b265DBAfaba67E050f2f739cAeEB4A6F9"
+        "56": "0x71354AC3c695dfB1d3f595AfA5D4364e9e06339B"
       },
       "rewardsPerBlock": {
-        "56": "cakePerBlock"
+        "56": "bananaPerSecond"
       },
       "rewardToken": {
         "symbol": "BANANA",
@@ -1708,13 +583,13 @@
     }
   },
   {
-    "id": 18,
-    "pid": 15,
+    "id": 6,
+    "pid": 6,
     "availableChains": [56],
     "type": "MAX",
-    "version": "V2",
+    "version": "V3",
     "stratAddress": {
-      "56": "0x4ac272a7f14e62a2c95bb4f33f6081aefc4cb03b"
+      "56": "0x425dd6927fd7799AD10dbB0F4d97F2B3CdB75656"
     },
     "stakeToken": {
       "symbol": "ADA-ETH",
@@ -1774,13 +649,13 @@
     "platform": "ApeSwap",
     "masterchef": {
       "pid": {
-        "56": 18
+        "56": 15
       },
       "address": {
-        "56": "0x5c8D727b265DBAfaba67E050f2f739cAeEB4A6F9"
+        "56": "0x71354AC3c695dfB1d3f595AfA5D4364e9e06339B"
       },
       "rewardsPerBlock": {
-        "56": "cakePerBlock"
+        "56": "bananaPerSecond"
       },
       "rewardToken": {
         "symbol": "BANANA",
@@ -1803,13 +678,106 @@
     }
   },
   {
-    "id": 19,
-    "pid": 16,
+    "id": 7,
+    "pid": 7,
     "availableChains": [56],
     "type": "MAX",
-    "version": "V2",
+    "version": "V3",
     "stratAddress": {
-      "56": "0x1282d55fe7e8cc0eb1895476e2666dd59d7a4171"
+      "56": "0x85949316E8A46de1B54473F3A2F24f2123295058"
+    },
+    "stakeToken": {
+      "symbol": "DOT-BNB",
+      "address": {
+        "56": "0x21CBb561c5d7D70e9E6Cc42136CB22F07552aEef"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "token": {
+      "symbol": "DOT",
+      "address": {
+        "56": "0x7083609fce4d1d8dc0c979aab8c869ea2c873402"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "rewardToken": {
+      "symbol": "BANANA",
+      "address": {
+        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
+        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "platform": "ApeSwap",
+    "masterchef": {
+      "pid": {
+        "56": 17
+      },
+      "address": {
+        "56": "0x71354AC3c695dfB1d3f595AfA5D4364e9e06339B"
+      },
+      "rewardsPerBlock": {
+        "56": "bananaPerSecond"
+      },
+      "rewardToken": {
+        "symbol": "BANANA",
+        "address": {
+          "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+          "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
+          "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+          "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+          "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
+        },
+        "decimals": {
+          "1": 18,
+          "40": 18,
+          "56": 18,
+          "97": 18,
+          "137": 18
+        },
+        "active": true
+      }
+    }
+  },
+  {
+    "id": 8,
+    "pid": 8,
+    "availableChains": [56],
+    "type": "MAX",
+    "version": "V3",
+    "stratAddress": {
+      "56": "0x920D1bB411DFB6CE2a21170D32a60C6cC101d395"
     },
     "stakeToken": {
       "symbol": "LINK-BNB",
@@ -1867,13 +835,13 @@
     "platform": "ApeSwap",
     "masterchef": {
       "pid": {
-        "56": 36
+        "56": 19
       },
       "address": {
-        "56": "0x5c8D727b265DBAfaba67E050f2f739cAeEB4A6F9"
+        "56": "0x71354AC3c695dfB1d3f595AfA5D4364e9e06339B"
       },
       "rewardsPerBlock": {
-        "56": "cakePerBlock"
+        "56": "bananaPerSecond"
       },
       "rewardToken": {
         "symbol": "BANANA",
@@ -1896,13 +864,108 @@
     }
   },
   {
-    "id": 20,
-    "pid": 17,
+    "id": 9,
+    "pid": 9,
     "availableChains": [56],
     "type": "MAX",
-    "version": "V2",
+    "version": "V3",
     "stratAddress": {
-      "56": "0x28b8fe88897d507b051b1d16c35d163b27a79e23"
+      "56": "0x088D9CacCaB515c1E2Ef83Dab0961a91FF52942e"
+    },
+    "stakeToken": {
+      "symbol": "MATIC-BNB",
+      "address": {
+        "56": "0x29A4A3D77c010CE100A45831BF7e798f0f0B325D"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "token": {
+      "symbol": "MATIC",
+      "address": {
+        "56": "0xcc42724c6683b7e57334c4e856f4c9965ed682bd",
+        "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
+      },
+      "decimals": {
+        "56": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "rewardToken": {
+      "symbol": "BANANA",
+      "address": {
+        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
+        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "platform": "ApeSwap",
+    "masterchef": {
+      "pid": {
+        "56": 22
+      },
+      "address": {
+        "56": "0x71354AC3c695dfB1d3f595AfA5D4364e9e06339B"
+      },
+      "rewardsPerBlock": {
+        "56": "bananaPerSecond"
+      },
+      "rewardToken": {
+        "symbol": "BANANA",
+        "address": {
+          "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+          "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
+          "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+          "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+          "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
+        },
+        "decimals": {
+          "1": 18,
+          "40": 18,
+          "56": 18,
+          "97": 18,
+          "137": 18
+        },
+        "active": true
+      }
+    }
+  },
+  {
+    "id": 10,
+    "pid": 10,
+    "availableChains": [56],
+    "type": "MAX",
+    "version": "V3",
+    "stratAddress": {
+      "56": "0xCffBa099C6B2519332edFeeC060EdB583dC8B906"
     },
     "stakeToken": {
       "symbol": "AAVE-BNB",
@@ -1960,13 +1023,13 @@
     "platform": "ApeSwap",
     "masterchef": {
       "pid": {
-        "56": 46
+        "56": 23
       },
       "address": {
-        "56": "0x5c8D727b265DBAfaba67E050f2f739cAeEB4A6F9"
+        "56": "0x71354AC3c695dfB1d3f595AfA5D4364e9e06339B"
       },
       "rewardsPerBlock": {
-        "56": "cakePerBlock"
+        "56": "bananaPerSecond"
       },
       "rewardToken": {
         "symbol": "BANANA",
@@ -1989,18 +1052,18 @@
     }
   },
   {
-    "id": 21,
-    "pid": 18,
+    "id": 11,
+    "pid": 11,
     "availableChains": [56],
     "type": "MAX",
-    "version": "V2",
+    "version": "V3",
     "stratAddress": {
-      "56": "0x49a8a2772ccf69ba8bb250ab511f4b662ef64ff5"
+      "56": "0xDcEA361C6477BF7584653C3467130E4109AeeE8a"
     },
     "stakeToken": {
-      "symbol": "FROYO-BNB",
+      "symbol": "COMP-BNB",
       "address": {
-        "56": "0x58ceF3eeDB9A4adc6B5a2Ee5c85Aea07D72787f0"
+        "56": "0xb4c0c621B2eDfE6C22585ebAC56b0e634907B8A7"
       },
       "decimals": {
         "56": 18
@@ -2009,9 +1072,9 @@
       "lpToken": true
     },
     "token": {
-      "symbol": "FROYO",
+      "symbol": "COMP",
       "address": {
-        "56": "0xe369fec23380f9F14ffD07a1DC4b7c1a9fdD81c9"
+        "56": "0x52ce071bd9b1c4b00a0b92d298c512478cad67e8"
       },
       "decimals": {
         "56": 18
@@ -2053,13 +1116,13 @@
     "platform": "ApeSwap",
     "masterchef": {
       "pid": {
-        "56": 200
+        "56": 24
       },
       "address": {
-        "56": "0x5c8D727b265DBAfaba67E050f2f739cAeEB4A6F9"
+        "56": "0x71354AC3c695dfB1d3f595AfA5D4364e9e06339B"
       },
       "rewardsPerBlock": {
-        "56": "cakePerBlock"
+        "56": "bananaPerSecond"
       },
       "rewardToken": {
         "symbol": "BANANA",
@@ -2082,13 +1145,385 @@
     }
   },
   {
-    "id": 22,
-    "pid": 19,
+    "id": 12,
+    "pid": 12,
     "availableChains": [56],
     "type": "MAX",
-    "version": "V2",
+    "version": "V3",
     "stratAddress": {
-      "56": "0x5354dc56d8e0fcbb33ae384f07f98b1388107250"
+      "56": "0x2639A64D9d99462f06927B85b0aB303d311d3120"
+    },
+    "stakeToken": {
+      "symbol": "FTM-BNB",
+      "address": {
+        "56": "0x47A0B7bA18Bb80E4888ca2576c2d34BE290772a6"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "token": {
+      "symbol": "FTM",
+      "address": {
+        "56": "0xAD29AbB318791D579433D831ed122aFeAf29dcfe"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "rewardToken": {
+      "symbol": "BANANA",
+      "address": {
+        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
+        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "platform": "ApeSwap",
+    "masterchef": {
+      "pid": {
+        "56": 25
+      },
+      "address": {
+        "56": "0x71354AC3c695dfB1d3f595AfA5D4364e9e06339B"
+      },
+      "rewardsPerBlock": {
+        "56": "bananaPerSecond"
+      },
+      "rewardToken": {
+        "symbol": "BANANA",
+        "address": {
+          "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+          "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
+          "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+          "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+          "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
+        },
+        "decimals": {
+          "1": 18,
+          "40": 18,
+          "56": 18,
+          "97": 18,
+          "137": 18
+        },
+        "active": true
+      }
+    }
+  },
+  {
+    "id": 13,
+    "pid": 13,
+    "availableChains": [56],
+    "type": "MAX",
+    "version": "V3",
+    "stratAddress": {
+      "56": "0xcd4007840b7765Be5C42D9CA3f4410E55856F17D"
+    },
+    "stakeToken": {
+      "symbol": "AVAX-BNB",
+      "address": {
+        "56": "0x40aFc7CBd0Dc2bE5860F0035b717d20Afb4827b2"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "token": {
+      "symbol": "AVAX",
+      "address": {
+        "56": "0x1ce0c2827e2ef14d5c4f29a091d735a204794041"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "rewardToken": {
+      "symbol": "BANANA",
+      "address": {
+        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
+        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "platform": "ApeSwap",
+    "masterchef": {
+      "pid": {
+        "56": 26
+      },
+      "address": {
+        "56": "0x71354AC3c695dfB1d3f595AfA5D4364e9e06339B"
+      },
+      "rewardsPerBlock": {
+        "56": "bananaPerSecond"
+      },
+      "rewardToken": {
+        "symbol": "BANANA",
+        "address": {
+          "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+          "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
+          "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+          "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+          "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
+        },
+        "decimals": {
+          "1": 18,
+          "40": 18,
+          "56": 18,
+          "97": 18,
+          "137": 18
+        },
+        "active": true
+      }
+    }
+  },
+  {
+    "id": 14,
+    "pid": 14,
+    "availableChains": [56],
+    "type": "MAX",
+    "version": "V3",
+    "stratAddress": {
+      "56": "0x6C6E5A4e73343e51119b8904E8938693a6811767"
+    },
+    "stakeToken": {
+      "symbol": "CEEK-BNB",
+      "address": {
+        "56": "0x119d6ebe840966c9cf4ff6603e76208d30ba2179"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "token": {
+      "symbol": "CEEK",
+      "address": {
+        "56": "0xe0f94ac5462997d2bc57287ac3a3ae4c31345d66"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "rewardToken": {
+      "symbol": "BANANA",
+      "address": {
+        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
+        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "platform": "ApeSwap",
+    "masterchef": {
+      "pid": {
+        "56": 36
+      },
+      "address": {
+        "56": "0x71354AC3c695dfB1d3f595AfA5D4364e9e06339B"
+      },
+      "rewardsPerBlock": {
+        "56": "bananaPerSecond"
+      },
+      "rewardToken": {
+        "symbol": "BANANA",
+        "address": {
+          "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+          "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
+          "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+          "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+          "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
+        },
+        "decimals": {
+          "1": 18,
+          "40": 18,
+          "56": 18,
+          "97": 18,
+          "137": 18
+        },
+        "active": true
+      }
+    }
+  },
+  {
+    "id": 15,
+    "pid": 15,
+    "availableChains": [56],
+    "type": "MAX",
+    "version": "V3",
+    "stratAddress": {
+      "56": "0x80899A62Fe6790B7C1045eb7b4f28f91FC343eb7"
+    },
+    "stakeToken": {
+      "symbol": "FIL-BNB",
+      "address": {
+        "56": "0xcAEC8648dbaC41b6504A8E408892931796D67d87"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "token": {
+      "symbol": "FIL",
+      "address": {
+        "56": "0x0d8ce2a99bb6e3b7db580ed848240e4a0f9ae153"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "rewardToken": {
+      "symbol": "BANANA",
+      "address": {
+        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
+        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "platform": "ApeSwap",
+    "masterchef": {
+      "pid": {
+        "56": 40
+      },
+      "address": {
+        "56": "0x71354AC3c695dfB1d3f595AfA5D4364e9e06339B"
+      },
+      "rewardsPerBlock": {
+        "56": "bananaPerSecond"
+      },
+      "rewardToken": {
+        "symbol": "BANANA",
+        "address": {
+          "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+          "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
+          "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+          "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+          "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
+        },
+        "decimals": {
+          "1": 18,
+          "40": 18,
+          "56": 18,
+          "97": 18,
+          "137": 18
+        },
+        "active": true
+      }
+    }
+  },
+  {
+    "id": 16,
+    "pid": 16,
+    "availableChains": [56],
+    "type": "MAX",
+    "version": "V3",
+    "stratAddress": {
+      "56": "0x118d61B2cbfdC859a9F9bB89d49b4a9212731158"
     },
     "stakeToken": {
       "symbol": "ANML-BNB",
@@ -2146,13 +1581,199 @@
     "platform": "ApeSwap",
     "masterchef": {
       "pid": {
-        "56": 192
+        "56": 46
       },
       "address": {
-        "56": "0x5c8D727b265DBAfaba67E050f2f739cAeEB4A6F9"
+        "56": "0x71354AC3c695dfB1d3f595AfA5D4364e9e06339B"
       },
       "rewardsPerBlock": {
-        "56": "cakePerBlock"
+        "56": "bananaPerSecond"
+      },
+      "rewardToken": {
+        "symbol": "BANANA",
+        "address": {
+          "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+          "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
+          "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+          "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+          "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
+        },
+        "decimals": {
+          "1": 18,
+          "40": 18,
+          "56": 18,
+          "97": 18,
+          "137": 18
+        },
+        "active": true
+      }
+    }
+  },
+  {
+    "id": 17,
+    "pid": 17,
+    "availableChains": [56],
+    "type": "MAX",
+    "version": "V3",
+    "stratAddress": {
+      "56": "0x90aa28ba8D5369e664527B75527eE5440E183742"
+    },
+    "stakeToken": {
+      "symbol": "FROYO-BNB",
+      "address": {
+        "56": "0x58ceF3eeDB9A4adc6B5a2Ee5c85Aea07D72787f0"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "token": {
+      "symbol": "FROYO",
+      "address": {
+        "56": "0xe369fec23380f9F14ffD07a1DC4b7c1a9fdD81c9"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "rewardToken": {
+      "symbol": "BANANA",
+      "address": {
+        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
+        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "platform": "ApeSwap",
+    "masterchef": {
+      "pid": {
+        "56": 49
+      },
+      "address": {
+        "56": "0x71354AC3c695dfB1d3f595AfA5D4364e9e06339B"
+      },
+      "rewardsPerBlock": {
+        "56": "bananaPerSecond"
+      },
+      "rewardToken": {
+        "symbol": "BANANA",
+        "address": {
+          "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+          "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
+          "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+          "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+          "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
+        },
+        "decimals": {
+          "1": 18,
+          "40": 18,
+          "56": 18,
+          "97": 18,
+          "137": 18
+        },
+        "active": true
+      }
+    }
+  },
+  {
+    "id": 18,
+    "pid": 18,
+    "availableChains": [56],
+    "type": "MAX",
+    "version": "V3",
+    "stratAddress": {
+      "56": "0xa991f7c5c23365E23Ec13584386722C8381BDd93"
+    },
+    "stakeToken": {
+      "symbol": "PRIMATE-BNB",
+      "address": {
+        "56": "0x6acabA892562719085C8418EbA49b8B3475D995a"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "token": {
+      "symbol": "PRIMATE",
+      "address": {
+        "56": "0xA19863E302FD1B41276fCe5A48D9C511DBeEf34c"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "rewardToken": {
+      "symbol": "BANANA",
+      "address": {
+        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
+        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "platform": "ApeSwap",
+    "masterchef": {
+      "pid": {
+        "56": 50
+      },
+      "address": {
+        "56": "0x71354AC3c695dfB1d3f595AfA5D4364e9e06339B"
+      },
+      "rewardsPerBlock": {
+        "56": "bananaPerSecond"
       },
       "rewardToken": {
         "symbol": "BANANA",
