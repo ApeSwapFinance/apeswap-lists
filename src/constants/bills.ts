@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillsConfig } from '../types'
 
-// BNB Largest ID: 42
+// BNB Largest ID: 43
 // Polygon Largest ID: 103
 // Telos Largest ID: 210
 
@@ -96,6 +96,25 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/ape_swap',
     initTime: { [ChainId.BSC]: 1668467108 },
     initPrice: { [ChainId.BSC]: 0.0709352845097292 },
+  },
+  {
+    index: 43,
+    contractAddress: {
+      [ChainId.BSC]: '0x279c47aE7846962037077338505c657ad65D0DeE',
+    },
+    billType: 'JUNGLE Bill',
+    token: tokens.liq,
+    quoteToken: tokens.busd,
+    lpToken: tokens.liqBusd,
+    earnToken: tokens.liq,
+    billNnftAddress: {
+      [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
+    },
+    projectLink: 'https://liquidus.finance/',
+    twitter: 'https://twitter.com/LiquidusFinance',
+    audit: 'https://liquidus.finance/LiqTechRateAudit.pdf',
+    initTime: { [ChainId.BSC]: 1674588602 },
+    initPrice: { [ChainId.BSC]: 0.367212 },
   },
   {
     index: 37,
