@@ -443,6 +443,70 @@
     }
   },
   {
+    "index": 44,
+    "contractAddress": {
+      "56": "0xaf7F491e77f4979faadbE24866D4471De23bd0a0"
+    },
+    "billType": "JUNGLE Bill",
+    "token": {
+      "symbol": "MONSTA",
+      "address": {
+        "56": "0x8A5d7FCD4c90421d21d30fCC4435948aC3618B2f"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "MONSTA-BNB",
+      "address": {
+        "56": "0x5b99be3e9cff7a4fb612b95e647ad141a67913cd"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "MONSTA",
+      "address": {
+        "56": "0x8A5d7FCD4c90421d21d30fCC4435948aC3618B2f"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
+    },
+    "projectLink": "https://cake.monster/",
+    "twitter": "https://twitter.com/thecakemnstr",
+    "audit": "https://solidity.finance/audits/CakeMonster/",
+    "initTime": {
+      "56": 1674763153
+    },
+    "initPrice": {
+      "56": 0.000919952
+    }
+  },
+  {
     "index": 37,
     "contractAddress": {
       "56": "0x2e9bdb018850747dc557d13046b8259ab24c674a"

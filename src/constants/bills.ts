@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillsConfig } from '../types'
 
-// BNB Largest ID: 43
+// BNB Largest ID: 44
 // Polygon Largest ID: 103
 // Telos Largest ID: 210
 
@@ -115,6 +115,25 @@ const bills: BillsConfig[] = [
     audit: 'https://liquidus.finance/LiqTechRateAudit.pdf',
     initTime: { [ChainId.BSC]: 1674588602 },
     initPrice: { [ChainId.BSC]: 0.367212 },
+  },
+  {
+    index: 44,
+    contractAddress: {
+      [ChainId.BSC]: '0xaf7F491e77f4979faadbE24866D4471De23bd0a0',
+    },
+    billType: 'JUNGLE Bill',
+    token: tokens.monsta,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.monstaBnb,
+    earnToken: tokens.monsta,
+    billNnftAddress: {
+      [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
+    },
+    projectLink: 'https://cake.monster/',
+    twitter: 'https://twitter.com/thecakemnstr',
+    audit: 'https://solidity.finance/audits/CakeMonster/',
+    initTime: { [ChainId.BSC]: 1674763153 },
+    initPrice: { [ChainId.BSC]: 0.000919952 },
   },
   {
     index: 37,

@@ -1739,6 +1739,14 @@ const tokens: Record<string, Token> = {
     decimals: { [ChainId.BSC]: 18 },
     active: true,
   },
+  monsta: {
+    symbol: 'MONSTA',
+    address: {
+      [ChainId.BSC]: '0x8A5d7FCD4c90421d21d30fCC4435948aC3618B2f',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+  },
   xcur: {
     symbol: 'XCUR',
     address: {
@@ -2267,6 +2275,17 @@ const tokens: Record<string, Token> = {
     symbol: 'LEAP-BNB',
     address: {
       [ChainId.BSC]: '0x5243b560c0F2df6678c06E772156F49C078d6165',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+    lpToken: true,
+  },
+  monstaBnb: {
+    symbol: 'MONSTA-BNB',
+    address: {
+      [ChainId.BSC]: '0x5b99be3e9cff7a4fb612b95e647ad141a67913cd',
     },
     decimals: {
       [ChainId.BSC]: 18,
