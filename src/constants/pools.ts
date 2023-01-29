@@ -5,7 +5,7 @@ import tokens from './tokens'
 
 const BANANA_PER_BLOCK = new BigNumber(10)
 
-// Current Sous ID is 229
+// Current Sous ID is 230
 
 const pools: PoolConfig[] = [
   // MASTER APE V2 POOL
@@ -2594,6 +2594,27 @@ const pools: PoolConfig[] = [
     twitter: 'https://twitter.com/candelacoin',
     harvest: true,
     tokenPerBlock: `5.729166666666666666`,
+    sortOrder: 1,
+    reflect: false,
+    isFinished: false,
+    tokenDecimals: 18,
+  },
+  {
+    sousId: 230,
+    tokenName: 'MONSTA',
+    image: 'MONSTA.svg',
+    stakingToken: tokens.gnana,
+    rewardToken: tokens.monsta,
+    contractAddress: {
+      97: '0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d',
+      56: '0x7b975Fa251F8b6eCe94f47CCbAEF71CE60db6704',
+    },
+    poolCategory: PoolCategory.APEZONE,
+    projectLink: 'https://cake.monster/',
+    twitter: 'https://twitter.com/thecakemnstr',
+    audit: 'https://solidity.finance/audits/CakeMonster/',
+    harvest: true,
+    tokenPerBlock: `14.895833333333333333`,
     sortOrder: 1,
     reflect: false,
     isFinished: false,
