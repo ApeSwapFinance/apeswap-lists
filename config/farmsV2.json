@@ -76,6 +76,27 @@
     }
   },
   {
+    "pid": 64,
+    "image": "MONSTA.svg",
+    "lpSymbol": "MONSTA-BNB",
+    "lpAddresses": {
+      "56": "0x5b99be3e9cff7a4fb612b95e647ad141a67913cd",
+      "97": ""
+    },
+    "tokenSymbol": "MONSTA",
+    "tokenAddresses": {
+      "56": "0x8A5d7FCD4c90421d21d30fCC4435948aC3618B2f",
+      "97": ""
+    },
+    "quoteTokenSymbol": "BNB",
+    "quoteTokenAdresses": {
+      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+    },
+    "projectLink": "https://cake.monster/"
+  },
+  {
     "pid": 9,
     "lpSymbol": "BTC-BNB",
     "lpAddresses": {

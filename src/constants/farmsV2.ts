@@ -2,6 +2,8 @@ import { ChainId } from '@ape.swap/sdk'
 import { FarmConfig, QuoteToken } from '../types'
 import tokens from './tokens'
 
+// Highest Farm ID: 64
+
 const farmsV2: FarmConfig[] = [
   {
     pid: 0,
@@ -62,6 +64,23 @@ const farmsV2: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: tokens.busd.address,
+  },
+  {
+    pid: 64,
+    image: 'MONSTA.svg',
+    lpSymbol: tokens.monstaBnb.symbol,
+    lpAddresses: {
+      [ChainId.BSC]: tokens.monstaBnb.address[ChainId.BSC],
+      [ChainId.BSC_TESTNET]: '',
+    },
+    tokenSymbol: tokens.monsta.symbol,
+    tokenAddresses: {
+      [ChainId.BSC]: tokens.monsta.address[ChainId.BSC],
+      [ChainId.BSC_TESTNET]: '',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: tokens.wbnb.address,
+    projectLink: 'https://cake.monster/',
   },
   {
     pid: 9,
