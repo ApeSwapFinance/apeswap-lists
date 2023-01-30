@@ -35,6 +35,7 @@ const vaults: VaultConfig[] = [
   {
     id: 0,
     pid: 0,
+    inactive: true,
     availableChains: [ChainId.BSC],
     type: 'MAX',
     version: VaultVersion.V3,
