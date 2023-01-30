@@ -83,6 +83,23 @@ const farmsV2: FarmConfig[] = [
     projectLink: 'https://cake.monster/',
   },
   {
+    pid: 63,
+    image: 'FRUIT.svg',
+    lpSymbol: 'FRUIT-ETH',
+    lpAddresses: {
+      [ChainId.BSC_TESTNET]: '0xed89477d619c7e73f752d5fc7be60308ceb63663',
+      [ChainId.BSC]: '0x154c7293b0a705aa5723e698514514cbb5a19238',
+    },
+    tokenSymbol: 'FRUIT',
+    tokenAddresses: {
+      [ChainId.BSC_TESTNET]: '0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a',
+      [ChainId.BSC]: '0xadd14ca8e026c4555933d12b568b1310968503a2',
+    },
+    quoteTokenSymbol: QuoteToken.ETH,
+    quoteTokenAdresses: tokens.eth.address,
+    projectLink: 'https://cryptofruits.com/index.php',
+  },
+  {
     pid: 9,
     lpSymbol: tokens.bnbBtc.symbol,
     lpAddresses: {
@@ -993,23 +1010,6 @@ const farmsV2: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: tokens.wbnb.address,
     projectLink: 'https://3air.io/',
-  },
-  {
-    pid: 63,
-    image: 'FRUIT.svg',
-    lpSymbol: 'FRUIT-ETH',
-    lpAddresses: {
-      [ChainId.BSC_TESTNET]: '0xed89477d619c7e73f752d5fc7be60308ceb63663',
-      [ChainId.BSC]: '0x154c7293b0a705aa5723e698514514cbb5a19238',
-    },
-    tokenSymbol: 'FRUIT',
-    tokenAddresses: {
-      [ChainId.BSC_TESTNET]: '0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a',
-      [ChainId.BSC]: '0xadd14ca8e026c4555933d12b568b1310968503a2',
-    },
-    quoteTokenSymbol: QuoteToken.ETH,
-    quoteTokenAdresses: tokens.eth.address,
-    projectLink: 'https://cryptofruits.com/index.php',
   },
 ]
 
