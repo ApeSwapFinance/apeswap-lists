@@ -5541,6 +5541,46 @@
     "tokenDecimals": 18
   },
   {
+    "sousId": 231,
+    "tokenName": "ZBC",
+    "image": "ZBC.svg",
+    "stakingToken": {
+      "symbol": "GNANA",
+      "address": {
+        "56": "0xdDb3Bd8645775F59496c821E4F55A7eA6A6dc299",
+        "97": "0xf693bDA9D3C56D5F9165c8633d9098e3C4Ae495A"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18
+      },
+      "active": true
+    },
+    "rewardToken": {
+      "symbol": "ZBC",
+      "address": {
+        "56": "0x37a56cdcD83Dce2868f721De58cB3830C44C6303"
+      },
+      "decimals": {
+        "56": 9
+      },
+      "active": true
+    },
+    "contractAddress": {
+      "56": "0x7b053D119b5058b2930cee9F47aa9028b5c3Ae1a",
+      "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
+    },
+    "poolCategory": "ApeZone",
+    "projectLink": "https://zebec.io/",
+    "twitter": "https://twitter.com/Zebec_HQ",
+    "harvest": true,
+    "tokenPerBlock": "1.193576388",
+    "sortOrder": 1,
+    "reflect": false,
+    "isFinished": false,
+    "tokenDecimals": 9
+  },
+  {
     "sousId": 214,
     "tokenName": "PXP",
     "image": "PXP.png",
