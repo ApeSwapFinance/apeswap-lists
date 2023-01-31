@@ -1,7 +1,102 @@
 [
   {
+    "id": 41,
+    "pid": 41,
+    "availableChains": [56],
+    "type": "AUTO",
+    "version": "V1",
+    "stratAddress": {
+      "56": "0xae9ed266ea3d7ae83cad8fa3b143d3dc86b640bf"
+    },
+    "stakeToken": {
+      "symbol": "BANANA",
+      "address": {
+        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
+        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "token": {
+      "symbol": "BANANA",
+      "address": {
+        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
+        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "rewardToken": {
+      "symbol": "BANANA",
+      "address": {
+        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
+        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "platform": "ApeSwap",
+    "masterchef": {
+      "pid": {
+        "56": 0
+      },
+      "address": {
+        "56": "0x71354AC3c695dfB1d3f595AfA5D4364e9e06339B"
+      },
+      "rewardsPerBlock": {
+        "56": "bananaPerSecond"
+      },
+      "rewardToken": {
+        "symbol": "BANANA",
+        "address": {
+          "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+          "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
+          "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+          "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+          "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
+        },
+        "decimals": {
+          "1": 18,
+          "40": 18,
+          "56": 18,
+          "97": 18,
+          "137": 18
+        },
+        "active": true
+      }
+    }
+  },
+  {
     "id": 0,
     "pid": 0,
+    "inactive": true,
     "availableChains": [56],
     "type": "MAX",
     "version": "V3",
