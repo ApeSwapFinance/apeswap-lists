@@ -3,10 +3,39 @@ import tokens from './tokens'
 import { VaultConfig, VaultVersion } from '../types'
 
 const vaults: VaultConfig[] = [
+  // SPECIAL V1 AUTO COMPOUND VAULT -> V2 MASTER APE
+  {
+    id: 41,
+    pid: 41,
+    availableChains: [ChainId.BSC],
+    type: 'AUTO',
+    version: VaultVersion.V1,
+    stratAddress: {
+      [ChainId.BSC]: '0xae9ed266ea3d7ae83cad8fa3b143d3dc86b640bf',
+    },
+    stakeToken: tokens.banana,
+    token: tokens.banana,
+    rewardToken: tokens.banana,
+    platform: 'ApeSwap',
+    masterchef: {
+      pid: {
+        [ChainId.BSC]: 0,
+      },
+      address: {
+        [ChainId.BSC]: '0x71354AC3c695dfB1d3f595AfA5D4364e9e06339B',
+      },
+      rewardsPerBlock: {
+        [ChainId.BSC]: 'bananaPerSecond',
+      },
+      rewardToken: tokens.banana,
+    },
+  },
+
   // V3 Vaults
   {
     id: 0,
     pid: 0,
+    inactive: true,
     availableChains: [ChainId.BSC],
     type: 'MAX',
     version: VaultVersion.V3,
