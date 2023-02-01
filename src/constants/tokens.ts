@@ -1747,6 +1747,14 @@ const tokens: Record<string, Token> = {
     decimals: { [ChainId.BSC]: 18 },
     active: true,
   },
+  zbc: {
+    symbol: 'ZBC',
+    address: {
+      [ChainId.BSC]: '0x37a56cdcD83Dce2868f721De58cB3830C44C6303',
+    },
+    decimals: { [ChainId.BSC]: 9 },
+    active: true,
+  },
   xcur: {
     symbol: 'XCUR',
     address: {

@@ -5,7 +5,7 @@ import tokens from './tokens'
 
 const BANANA_PER_BLOCK = new BigNumber(10)
 
-// Current Sous ID is 230
+// Current Sous ID is 231
 
 const pools: PoolConfig[] = [
   // MASTER APE V2 POOL
@@ -2619,6 +2619,26 @@ const pools: PoolConfig[] = [
     reflect: false,
     isFinished: false,
     tokenDecimals: 18,
+  },
+  {
+    sousId: 231,
+    tokenName: 'ZBC',
+    image: 'ZBC.svg',
+    stakingToken: tokens.gnana,
+    rewardToken: tokens.zbc,
+    contractAddress: {
+      97: '0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d',
+      56: '0x7b053D119b5058b2930cee9F47aa9028b5c3Ae1a',
+    },
+    poolCategory: PoolCategory.APEZONE,
+    projectLink: 'https://zebec.io/',
+    twitter: 'https://twitter.com/Zebec_HQ',
+    harvest: true,
+    tokenPerBlock: `1.193576388`,
+    sortOrder: 1,
+    reflect: false,
+    isFinished: false,
+    tokenDecimals: 9,
   },
 
   //
