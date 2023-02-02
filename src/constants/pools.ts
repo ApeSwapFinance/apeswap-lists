@@ -5,7 +5,7 @@ import tokens from './tokens'
 
 const BANANA_PER_BLOCK = new BigNumber(10)
 
-// Current Sous ID is 231
+// Current Sous ID is 232
 
 const pools: PoolConfig[] = [
   // MASTER APE V2 POOL
@@ -2949,6 +2949,26 @@ const pools: PoolConfig[] = [
     twitter: 'https://twitter.com/Play_Leap',
     harvest: true,
     tokenPerBlock: `0.403084201388888888`,
+    sortOrder: 1,
+    reflect: false,
+    isFinished: false,
+    tokenDecimals: 18,
+  },
+  {
+    sousId: 232,
+    tokenName: 'AVAN',
+    image: 'AVAN.svg',
+    stakingToken: tokens.avanBnb,
+    rewardToken: tokens.avan,
+    contractAddress: {
+      97: '0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d',
+      56: '0x822558FCE9D9F98cB59953F4841e5e43cEba5173',
+    },
+    poolCategory: PoolCategory.JUNGLE,
+    projectLink: 'https://avanatoken.com/',
+    twitter: 'https://twitter.com/AvanaProject',
+    harvest: true,
+    tokenPerBlock: `1.491898148148148148`,
     sortOrder: 1,
     reflect: false,
     isFinished: false,
