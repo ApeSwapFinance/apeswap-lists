@@ -9,6 +9,26 @@ import { BillsConfig, BillVersion, LpType } from '../types'
 
 const bills: BillsConfig[] = [
   {
+    index: 45,
+    contractAddress: {
+      [ChainId.BSC]: '0x95E50385D00fF4f7838CA2b948589145E7Dd36Ab',
+    },
+    billType: 'JUNGLE Bill',
+    token: tokens.floki,
+    quoteToken: tokens.wbnb,
+    lpToken: lpTokens.flokiBnb,
+    earnToken: tokens.floki,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xce112E14e23B7700Ad4915290EA24575F01609fa',
+    },
+    lpType: LpType.APESWAP,
+    version: BillVersion.V2,
+    projectLink: 'https://www.floki.com/',
+    twitter: 'https://twitter.com/realflokiinu',
+    initTime: { [ChainId.BSC]: 1660217658 },
+    initPrice: { [ChainId.BSC]: 0.00001504435067868268 },
+  },
+  {
     index: 32,
     contractAddress: {
       [ChainId.BSC]: '0xa45dc4b9743d489e9b91070b27e72094b697632d',

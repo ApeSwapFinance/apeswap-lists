@@ -1,5 +1,70 @@
 [
   {
+    "index": 45,
+    "contractAddress": {
+      "56": "0x95E50385D00fF4f7838CA2b948589145E7Dd36Ab"
+    },
+    "billType": "JUNGLE Bill",
+    "token": {
+      "symbol": "FLOKI",
+      "address": {
+        "56": "0xfb5b838b6cfeedc2873ab27866079ac55363d37e"
+      },
+      "decimals": {
+        "56": 9
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "FLOKI-BNB",
+      "address": {
+        "56": "0xacc22e0ff64e788e6ad569a57d130b9d957494dc"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "FLOKI",
+      "address": {
+        "56": "0xfb5b838b6cfeedc2873ab27866079ac55363d37e"
+      },
+      "decimals": {
+        "56": 9
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xce112E14e23B7700Ad4915290EA24575F01609fa"
+    },
+    "lpType": "ApeSwap",
+    "version": "v2",
+    "projectLink": "https://www.floki.com/",
+    "twitter": "https://twitter.com/realflokiinu",
+    "initTime": {
+      "56": 1660217658
+    },
+    "initPrice": {
+      "56": 0.00001504435067868268
+    }
+  },
+  {
     "index": 32,
     "contractAddress": {
       "56": "0xa45dc4b9743d489e9b91070b27e72094b697632d"
