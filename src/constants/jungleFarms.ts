@@ -202,7 +202,7 @@ const jungleFarms: JungleFarmConfig[] = [
 
   /*
     CHAIN ID 56 - BNB Jungle Farms
-    Current Jungle ID = 14
+    Current Jungle ID = 15
   */
   {
     jungleId: 8,
@@ -597,6 +597,32 @@ const jungleFarms: JungleFarmConfig[] = [
     audit: 'https://hashex.org/audits/avana-token/',
     harvest: true,
     tokenPerBlock: '1.491898148148148148',
+    sortOrder: 1,
+    isFinished: false,
+    tokenDecimals: 18,
+    lpStaking: true,
+    isEarnTokenLp: false,
+    network: ChainId.BSC,
+  },
+  {
+    jungleId: 15,
+    tokenName: 'WCFLT',
+    image: 'WCFLT.svg',
+    stakingToken: tokens.wcfltBnb,
+    rewardToken: tokens.wcflt,
+    lpTokens: {
+      token: tokens.wcflt,
+      quoteToken: tokens.wbnb,
+    },
+    contractAddress: {
+      [ChainId.BSC]: '0x0d665613d47C7eCC1B126bF56D5fa6373E3000b6',
+    },
+    projectLink: 'https://www.coinflect.com/',
+    twitter: 'https://twitter.com/coinflect?lang=en',
+    audit:
+      'https://github.com/coinflect/wrapped-coinflect-audit/blob/main/Wrapped%20Coinflect%20Smart%20Contract%20Security%20Audit.pdf',
+    harvest: true,
+    tokenPerBlock: '108.140734953703703703',
     sortOrder: 1,
     isFinished: false,
     tokenDecimals: 18,

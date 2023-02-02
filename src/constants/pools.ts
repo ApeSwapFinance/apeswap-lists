@@ -5,7 +5,7 @@ import tokens from './tokens'
 
 const BANANA_PER_BLOCK = new BigNumber(10)
 
-// Current Sous ID is 232
+// Current Sous ID is 233
 
 const pools: PoolConfig[] = [
   // MASTER APE V2 POOL
@@ -2969,6 +2969,26 @@ const pools: PoolConfig[] = [
     twitter: 'https://twitter.com/AvanaProject',
     harvest: true,
     tokenPerBlock: `1.491898148148148148`,
+    sortOrder: 1,
+    reflect: false,
+    isFinished: false,
+    tokenDecimals: 18,
+  },
+  {
+    sousId: 233,
+    tokenName: 'WCFLT',
+    image: 'WCFLT.svg',
+    stakingToken: tokens.wcfltBnb,
+    rewardToken: tokens.wcflt,
+    contractAddress: {
+      97: '0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d',
+      56: '0x0d665613d47C7eCC1B126bF56D5fa6373E3000b6',
+    },
+    poolCategory: PoolCategory.JUNGLE,
+    projectLink: 'https://www.coinflect.com/',
+    twitter: 'https://twitter.com/coinflect?lang=en',
+    harvest: true,
+    tokenPerBlock: `108.140734953703703703`,
     sortOrder: 1,
     reflect: false,
     isFinished: false,
