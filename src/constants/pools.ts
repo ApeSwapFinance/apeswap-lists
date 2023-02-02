@@ -1,17 +1,40 @@
 import BigNumber from 'bignumber.js'
 import { ChainId } from '@ape.swap/sdk'
-import { PoolConfig, PoolCategory } from './types'
+import { PoolConfig, PoolCategory } from '../types'
 import tokens from './tokens'
+import lpTokens from './lpTokens'
 
 const BANANA_PER_BLOCK = new BigNumber(10)
 
-// Current Sous ID is 226
+// Current Sous ID is 232
 
 const pools: PoolConfig[] = [
+  // MASTER APE V2 POOL
   {
     sousId: 0,
     tokenName: tokens.banana.symbol,
-    image: 'BANANA.svg',
+    stakingToken: tokens.banana,
+    rewardToken: tokens.banana,
+    contractAddress: {
+      [ChainId.BSC]: '0x71354AC3c695dfB1d3f595AfA5D4364e9e06339B', // MasterApe
+      [ChainId.BSC_TESTNET]: '',
+    },
+    poolCategory: PoolCategory.CORE,
+    projectLink: 'https://apeswap.finance/',
+    twitter: 'https://twitter.com/ape_swap',
+    audit: 'https://paladinsec.co/projects/apeswap/',
+    harvest: true,
+    tokenPerBlock: `${BANANA_PER_BLOCK.toNumber() * 0.25}`,
+    sortOrder: 1,
+    isFinished: false,
+    tokenDecimals: 18,
+  },
+
+  // LEGACY POOL
+  // Making sousId 999 for easy configuration
+  {
+    sousId: 999,
+    tokenName: tokens.banana.symbol,
     stakingToken: tokens.banana,
     rewardToken: tokens.banana,
     contractAddress: {
@@ -21,12 +44,14 @@ const pools: PoolConfig[] = [
     poolCategory: PoolCategory.CORE,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
+    audit: 'https://paladinsec.co/projects/apeswap/',
     harvest: true,
     tokenPerBlock: `${BANANA_PER_BLOCK.toNumber() * 0.25}`,
     sortOrder: 1,
     isFinished: false,
     tokenDecimals: 18,
   },
+
   {
     sousId: 21,
     tokenName: 'BANANA',
@@ -40,6 +65,7 @@ const pools: PoolConfig[] = [
     poolCategory: PoolCategory.APEZONE,
     projectLink: 'https://apeswap.finance/apezone',
     twitter: 'https://twitter.com/ape_swap',
+    audit: 'https://paladinsec.co/projects/apeswap/',
     harvest: true,
     tokenPerBlock: `0.150000000000000000`,
     sortOrder: 1,
@@ -2043,7 +2069,7 @@ const pools: PoolConfig[] = [
     tokenPerBlock: `8.573388117283950617`,
     sortOrder: 1,
     reflect: false,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 18,
   },
   {
@@ -2143,7 +2169,7 @@ const pools: PoolConfig[] = [
     tokenPerBlock: `0.689409722222222222`,
     sortOrder: 1,
     reflect: false,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 18,
   },
   {
@@ -2203,7 +2229,7 @@ const pools: PoolConfig[] = [
     tokenPerBlock: `0.540142746913580246`,
     sortOrder: 1,
     reflect: false,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 18,
   },
   {
@@ -2243,7 +2269,7 @@ const pools: PoolConfig[] = [
     tokenPerBlock: `0.439506172839506172`,
     sortOrder: 1,
     reflect: false,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 18,
   },
   {
@@ -2279,6 +2305,7 @@ const pools: PoolConfig[] = [
     poolCategory: PoolCategory.APEZONE,
     projectLink: 'https://roobee.io/',
     twitter: 'https://twitter.com/Roobee_invest',
+    audit: 'https://github.com/mixbytes/audits_public/blob/master/Roobee/README.md',
     harvest: true,
     tokenPerBlock: `10.7421875`,
     sortOrder: 1,
@@ -2303,7 +2330,7 @@ const pools: PoolConfig[] = [
     tokenPerBlock: `3.858024691358024691`,
     sortOrder: 1,
     reflect: false,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 18,
   },
   {
@@ -2323,7 +2350,7 @@ const pools: PoolConfig[] = [
     tokenPerBlock: `0.028645833330000000`,
     sortOrder: 1,
     reflect: false,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 18,
   },
   {
@@ -2383,7 +2410,7 @@ const pools: PoolConfig[] = [
     tokenPerBlock: `0.001345486`,
     sortOrder: 1,
     reflect: false,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 9,
   },
   {
@@ -2399,6 +2426,7 @@ const pools: PoolConfig[] = [
     poolCategory: PoolCategory.APEZONE,
     projectLink: 'https://hector.network/',
     twitter: 'https://twitter.com/Hector_Network',
+    audit: 'https://www.certik.com/projects/tor',
     harvest: true,
     tokenPerBlock: `0.019097222222222222`,
     sortOrder: 1,
@@ -2419,6 +2447,8 @@ const pools: PoolConfig[] = [
     poolCategory: PoolCategory.APEZONE,
     projectLink: 'https://metashooter.gg/',
     twitter: 'https://twitter.com/MetaShooter_gg',
+    audit:
+      'https://github.com/sokenteam/smart_contract_audits/blob/main/MetaShooter%20NFT%20Standard%20Smart%20Contract%20Audit.pdf',
     harvest: true,
     tokenPerBlock: `0.381944444444444444`,
     sortOrder: 1,
@@ -2443,7 +2473,7 @@ const pools: PoolConfig[] = [
     tokenPerBlock: `0.380760416666666666`,
     sortOrder: 1,
     reflect: false,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 18,
   },
   {
@@ -2463,7 +2493,7 @@ const pools: PoolConfig[] = [
     tokenPerBlock: `2.673611111111111111`,
     sortOrder: 1,
     reflect: false,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 18,
   },
   {
@@ -2479,6 +2509,7 @@ const pools: PoolConfig[] = [
     poolCategory: PoolCategory.APEZONE,
     projectLink: 'https://piston-token.com/swap',
     twitter: 'https://twitter.com/PistonToken',
+    audit: 'https://solidity.finance/audits/PistonToken/',
     harvest: true,
     tokenPerBlock: `0.0023283179`,
     sortOrder: 1,
@@ -2499,6 +2530,7 @@ const pools: PoolConfig[] = [
     poolCategory: PoolCategory.APEZONE,
     projectLink: 'https://chirpley.ai',
     twitter: 'https://twitter.com/chirpley',
+    audit: 'https://stack.chirpley.nl/s/241c8gWBtVHnuZO1',
     harvest: true,
     tokenPerBlock: `0.900205632716049382`,
     sortOrder: 1,
@@ -2520,12 +2552,96 @@ const pools: PoolConfig[] = [
     poolCategory: PoolCategory.APEZONE,
     projectLink: 'https://3air.io/',
     twitter: 'https://twitter.com/3aircrypto',
+    audit: 'https://github.com/JorgeRodriguezsec/CTDsec/blob/main/Audits/Cybersecurity_Audit_CTDSEC_3air.pdf',
     harvest: true,
     tokenPerBlock: `0.331579861111111111`,
     sortOrder: 1,
     reflect: false,
     isFinished: false,
     tokenDecimals: 18,
+  },
+  {
+    sousId: 228,
+    tokenName: 'FRUIT',
+    image: 'FRUIT.svg',
+    stakingToken: tokens.gnana,
+    rewardToken: tokens.fruit,
+    contractAddress: {
+      97: '0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d',
+      56: '0x7D36b1c407554C81EeA30866c24c7B046B78d7E2',
+    },
+    poolCategory: PoolCategory.APEZONE,
+    projectLink: 'https://cryptofruits.com/index.php',
+    twitter: 'https://twitter.com/CryptoFruitsFi',
+    audit: 'https://hashex.org/audits/cryptofruits/',
+    harvest: true,
+    tokenPerBlock: `1.008603587962962962`,
+    sortOrder: 1,
+    reflect: false,
+    isFinished: false,
+    tokenDecimals: 18,
+  },
+  {
+    sousId: 229,
+    tokenName: 'CLA',
+    image: 'CLA.svg',
+    stakingToken: tokens.banana,
+    rewardToken: tokens.cla,
+    contractAddress: {
+      97: '0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d',
+      56: '0x2Cc77E935D77B631b7fd78761c379A851e798f21',
+    },
+    poolCategory: PoolCategory.APEZONE,
+    projectLink: 'https://www.candelacoin.co/',
+    twitter: 'https://twitter.com/candelacoin',
+    harvest: true,
+    tokenPerBlock: `5.729166666666666666`,
+    sortOrder: 1,
+    reflect: false,
+    isFinished: false,
+    tokenDecimals: 18,
+  },
+  {
+    sousId: 230,
+    tokenName: 'MONSTA',
+    image: 'MONSTA.svg',
+    stakingToken: tokens.gnana,
+    rewardToken: tokens.monsta,
+    contractAddress: {
+      97: '0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d',
+      56: '0x7b975Fa251F8b6eCe94f47CCbAEF71CE60db6704',
+    },
+    poolCategory: PoolCategory.APEZONE,
+    projectLink: 'https://cake.monster/',
+    twitter: 'https://twitter.com/thecakemnstr',
+    audit: 'https://solidity.finance/audits/CakeMonster/',
+    harvest: true,
+    tokenPerBlock: `14.895833333333333333`,
+    sortOrder: 1,
+    reflect: false,
+    isFinished: false,
+    tokenDecimals: 18,
+  },
+  {
+    sousId: 231,
+    tokenName: 'ZBC',
+    image: 'ZBC.svg',
+    stakingToken: tokens.gnana,
+    rewardToken: tokens.zbc,
+    contractAddress: {
+      97: '0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d',
+      56: '0x7b053D119b5058b2930cee9F47aa9028b5c3Ae1a',
+    },
+    poolCategory: PoolCategory.APEZONE,
+    projectLink: 'https://zebec.io/',
+    twitter: 'https://twitter.com/Zebec_HQ',
+    audit: 'https://github.com/Zebec-protocol/zebec-program-v2/tree/master/audit',
+    harvest: true,
+    tokenPerBlock: `1.193576388`,
+    sortOrder: 1,
+    reflect: false,
+    isFinished: false,
+    tokenDecimals: 9,
   },
 
   //
@@ -2535,7 +2651,7 @@ const pools: PoolConfig[] = [
     sousId: 214,
     tokenName: 'PXP',
     image: 'PXP.png',
-    stakingToken: tokens.pxpBnb,
+    stakingToken: lpTokens.pxpBnb,
     rewardToken: tokens.pxp,
     contractAddress: {
       [ChainId.BSC_TESTNET]: '0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d',
@@ -2548,14 +2664,14 @@ const pools: PoolConfig[] = [
     tokenPerBlock: `15.659722222222222222`,
     sortOrder: 1,
     reflect: false,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 18,
   },
   {
     sousId: 225,
     tokenName: 'SWT',
     image: 'SWT.svg',
-    stakingToken: tokens.swtBnb,
+    stakingToken: lpTokens.swtBnb,
     rewardToken: tokens.swt,
     contractAddress: {
       [ChainId.BSC_TESTNET]: '0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d',
@@ -2575,7 +2691,7 @@ const pools: PoolConfig[] = [
     sousId: 211,
     tokenName: 'GENv3',
     image: 'GENV3.svg',
-    stakingToken: tokens.genv3Bnb,
+    stakingToken: lpTokens.genv3Bnb,
     rewardToken: tokens.genv3,
     contractAddress: {
       [ChainId.BSC_TESTNET]: '0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d',
@@ -2595,7 +2711,7 @@ const pools: PoolConfig[] = [
     sousId: 210,
     tokenName: 'BONES',
     image: 'BONES.png',
-    stakingToken: tokens.bonesBnb,
+    stakingToken: lpTokens.bonesBnb,
     rewardToken: tokens.bones,
     contractAddress: {
       [ChainId.BSC_TESTNET]: '0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d',
@@ -2608,14 +2724,14 @@ const pools: PoolConfig[] = [
     tokenPerBlock: `0.224606095679012345`,
     sortOrder: 1,
     reflect: false,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 18,
   },
   {
     sousId: 206,
     tokenName: 'LGX-BUSD',
     image: 'LGX.svg',
-    stakingToken: tokens.lgxBusd,
+    stakingToken: lpTokens.lgxBusd,
     rewardToken: tokens.lgx,
     lpTokens: {
       token: tokens.lgx,
@@ -2630,7 +2746,7 @@ const pools: PoolConfig[] = [
     harvest: true,
     tokenPerBlock: '0.507454668209876543',
     sortOrder: 1,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 18,
     lpStaking: true,
     isEarnTokenLp: false,
@@ -2639,7 +2755,7 @@ const pools: PoolConfig[] = [
     sousId: 204,
     tokenName: 'LC-BNB',
     image: 'LC.svg',
-    stakingToken: tokens.lcBnb,
+    stakingToken: lpTokens.lcBnb,
     rewardToken: tokens.lc,
     lpTokens: {
       token: tokens.lc,
@@ -2663,7 +2779,7 @@ const pools: PoolConfig[] = [
     sousId: 201,
     tokenName: 'COC-BNB',
     image: 'COC.svg',
-    stakingToken: tokens.cocBnb,
+    stakingToken: lpTokens.cocBnb,
     rewardToken: tokens.coc,
     lpTokens: {
       token: tokens.coc,
@@ -2687,7 +2803,7 @@ const pools: PoolConfig[] = [
     sousId: 184,
     tokenName: 'WGICT-USDT',
     image: 'WGICT.svg',
-    stakingToken: tokens.wgictUsdt,
+    stakingToken: lpTokens.wgictUsdt,
     lpTokens: {
       token: tokens.wgict,
       quoteToken: tokens.usdt,
@@ -2702,7 +2818,7 @@ const pools: PoolConfig[] = [
     harvest: true,
     tokenPerBlock: '0.01437847',
     sortOrder: 1,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 8,
     lpStaking: true,
     isEarnTokenLp: false,
@@ -2711,7 +2827,7 @@ const pools: PoolConfig[] = [
     sousId: 186,
     tokenName: 'NFT11-BUSD',
     image: 'NFT11.png',
-    stakingToken: tokens.nft11Busd,
+    stakingToken: lpTokens.nft11Busd,
     rewardToken: tokens.nft11,
     lpTokens: {
       token: tokens.nft11,
@@ -2735,7 +2851,7 @@ const pools: PoolConfig[] = [
     sousId: 189,
     tokenName: 'RUBY-BNB',
     image: 'RUBY.svg',
-    stakingToken: tokens.rubyBnb,
+    stakingToken: lpTokens.rubyBnb,
     rewardToken: tokens.ruby,
     lpTokens: {
       token: tokens.ruby,
@@ -2759,7 +2875,7 @@ const pools: PoolConfig[] = [
     sousId: 191,
     tokenName: 'DRF-BUSD',
     image: 'DRF.svg',
-    stakingToken: tokens.drfBusd,
+    stakingToken: lpTokens.drfBusd,
     rewardToken: tokens.drf,
     lpTokens: {
       token: tokens.drf,
@@ -2783,7 +2899,7 @@ const pools: PoolConfig[] = [
     sousId: 220,
     tokenName: 'BNBx-BNB',
     image: 'BNBX.svg',
-    stakingToken: tokens.bnbxBnb,
+    stakingToken: lpTokens.bnbxBnb,
     rewardToken: tokens.sd,
     contractAddress: {
       97: '0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d',
@@ -2793,7 +2909,7 @@ const pools: PoolConfig[] = [
     projectLink: 'https://staderlabs.com/',
     twitter: 'https://twitter.com/stader_bnb',
     harvest: true,
-    tokenPerBlock: `0.076607142857142857`,
+    tokenPerBlock: `0.02750903986`,
     sortOrder: 1,
     reflect: false,
     isFinished: false,
@@ -2803,7 +2919,7 @@ const pools: PoolConfig[] = [
     sousId: 222,
     tokenName: 'BRZ-BUSD',
     image: 'BRZ.svg',
-    stakingToken: tokens.brzBusd,
+    stakingToken: lpTokens.brzBusd,
     rewardToken: tokens.brz,
     contractAddress: {
       97: '0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d',
@@ -2816,8 +2932,48 @@ const pools: PoolConfig[] = [
     tokenPerBlock: `0.0171`,
     sortOrder: 1,
     reflect: false,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 4,
+  },
+  {
+    sousId: 227,
+    tokenName: 'LEAP',
+    image: 'LEAP.svg',
+    stakingToken: lpTokens.leapBnb,
+    rewardToken: tokens.leap,
+    contractAddress: {
+      97: '0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d',
+      56: '0x60d0926F7669d2F36845eAf672e57366c0c2bD7B',
+    },
+    poolCategory: PoolCategory.JUNGLE,
+    projectLink: 'https://www.playleap.io/',
+    twitter: 'https://twitter.com/Play_Leap',
+    harvest: true,
+    tokenPerBlock: `0.403084201388888888`,
+    sortOrder: 1,
+    reflect: false,
+    isFinished: false,
+    tokenDecimals: 18,
+  },
+  {
+    sousId: 232,
+    tokenName: 'AVAN',
+    image: 'AVAN.svg',
+    stakingToken: lpTokens.avanBnb,
+    rewardToken: tokens.avan,
+    contractAddress: {
+      97: '0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d',
+      56: '0x822558FCE9D9F98cB59953F4841e5e43cEba5173',
+    },
+    poolCategory: PoolCategory.JUNGLE,
+    projectLink: 'https://avanatoken.com/',
+    twitter: 'https://twitter.com/AvanaProject',
+    harvest: true,
+    tokenPerBlock: `1.491898148148148148`,
+    sortOrder: 1,
+    reflect: false,
+    isFinished: false,
+    tokenDecimals: 18,
   },
 
   //

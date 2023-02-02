@@ -3,10 +3,21 @@
     "jungleId": 1,
     "tokenName": "BANANA-TLOS",
     "image": "BANANA.svg",
+    "stakingToken": {
+      "symbol": "BANANA-TLOS",
+      "address": {
+        "40": "0xf780e62D54BB6C55e396dd937BacEF0BBD7Aff51"
+      },
+      "decimals": {
+        "40": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
     "rewardToken": {
       "symbol": "TLOS",
       "address": {
-        "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
+        "40": "0xD102cE6A4dB07D247fcc28F366A623Df0938CA9E",
         "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c"
       },
       "decimals": {
@@ -19,7 +30,7 @@
       "token": {
         "symbol": "TLOS",
         "address": {
-          "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
+          "40": "0xD102cE6A4dB07D247fcc28F366A623Df0938CA9E",
           "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c"
         },
         "decimals": {
@@ -53,7 +64,7 @@
     "projectLink": "https://telos.net",
     "twitter": "https://twitter.com/HelloTelos",
     "harvest": true,
-    "rewardsPerSecond": "0.004357638888888888",
+    "rewardsPerSecond": "0.004172453704",
     "sortOrder": 1,
     "isFinished": false,
     "tokenDecimals": 18,
@@ -65,10 +76,21 @@
     "jungleId": 2,
     "tokenName": "ETH-TLOS",
     "image": "ETH.svg",
+    "stakingToken": {
+      "symbol": "ETH-TLOS",
+      "address": {
+        "40": "0xCfd8505E3c79D777AF2CA3B5507B64480645f516"
+      },
+      "decimals": {
+        "40": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
     "rewardToken": {
       "symbol": "TLOS",
       "address": {
-        "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
+        "40": "0xD102cE6A4dB07D247fcc28F366A623Df0938CA9E",
         "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c"
       },
       "decimals": {
@@ -81,7 +103,7 @@
       "token": {
         "symbol": "TLOS",
         "address": {
-          "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
+          "40": "0xD102cE6A4dB07D247fcc28F366A623Df0938CA9E",
           "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c"
         },
         "decimals": {
@@ -113,7 +135,7 @@
     "projectLink": "https://telos.net",
     "twitter": "https://twitter.com/HelloTelos",
     "harvest": true,
-    "rewardsPerSecond": "0.006190972222",
+    "rewardsPerSecond": "0.006956404321",
     "sortOrder": 1,
     "isFinished": false,
     "tokenDecimals": 18,
@@ -125,10 +147,21 @@
     "jungleId": 3,
     "tokenName": "BTC-TLOS",
     "image": "BTC.svg",
+    "stakingToken": {
+      "symbol": "BTC-TLOS",
+      "address": {
+        "40": "0x48731c532bbccf5179F9E2549624e0A73C7B39bC"
+      },
+      "decimals": {
+        "40": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
     "rewardToken": {
       "symbol": "TLOS",
       "address": {
-        "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
+        "40": "0xD102cE6A4dB07D247fcc28F366A623Df0938CA9E",
         "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c"
       },
       "decimals": {
@@ -141,7 +174,7 @@
       "token": {
         "symbol": "TLOS",
         "address": {
-          "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
+          "40": "0xD102cE6A4dB07D247fcc28F366A623Df0938CA9E",
           "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c"
         },
         "decimals": {
@@ -173,7 +206,7 @@
     "projectLink": "https://telos.net",
     "twitter": "https://twitter.com/HelloTelos",
     "harvest": true,
-    "rewardsPerSecond": "0.003714506173",
+    "rewardsPerSecond": "0.004172453704",
     "sortOrder": 1,
     "isFinished": false,
     "tokenDecimals": 18,
@@ -185,10 +218,21 @@
     "jungleId": 4,
     "tokenName": "USDT-TLOS",
     "image": "USDT.svg",
+    "stakingToken": {
+      "symbol": "USDT-TLOS",
+      "address": {
+        "40": "0xAE46B3A778999567133c6c1F5C5feA953EE64995"
+      },
+      "decimals": {
+        "40": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
     "rewardToken": {
       "symbol": "TLOS",
       "address": {
-        "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
+        "40": "0xD102cE6A4dB07D247fcc28F366A623Df0938CA9E",
         "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c"
       },
       "decimals": {
@@ -201,7 +245,7 @@
       "token": {
         "symbol": "TLOS",
         "address": {
-          "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
+          "40": "0xD102cE6A4dB07D247fcc28F366A623Df0938CA9E",
           "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c"
         },
         "decimals": {
@@ -231,7 +275,7 @@
     "projectLink": "https://telos.net",
     "twitter": "https://twitter.com/HelloTelos",
     "harvest": true,
-    "rewardsPerSecond": "0.004952932099",
+    "rewardsPerSecond": "0.005564429012",
     "sortOrder": 1,
     "isFinished": false,
     "tokenDecimals": 18,
@@ -243,10 +287,21 @@
     "jungleId": 5,
     "tokenName": "USDC-TLOS",
     "image": "USDC.svg",
+    "stakingToken": {
+      "symbol": "USDC-TLOS",
+      "address": {
+        "40": "0x2a4e6ef568e4a696555a5491c0fe7cbcf998c1bb"
+      },
+      "decimals": {
+        "40": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
     "rewardToken": {
       "symbol": "TLOS",
       "address": {
-        "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
+        "40": "0xD102cE6A4dB07D247fcc28F366A623Df0938CA9E",
         "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c"
       },
       "decimals": {
@@ -259,7 +314,7 @@
       "token": {
         "symbol": "TLOS",
         "address": {
-          "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
+          "40": "0xD102cE6A4dB07D247fcc28F366A623Df0938CA9E",
           "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c"
         },
         "decimals": {
@@ -289,7 +344,7 @@
     "projectLink": "https://telos.net",
     "twitter": "https://twitter.com/HelloTelos",
     "harvest": true,
-    "rewardsPerSecond": "0.006190972222",
+    "rewardsPerSecond": "0.006956404321",
     "sortOrder": 1,
     "isFinished": false,
     "tokenDecimals": 18,
@@ -301,10 +356,21 @@
     "jungleId": 6,
     "tokenName": "STLOS-TLOS",
     "image": "STLOS.png",
+    "stakingToken": {
+      "symbol": "STLOS-TLOS",
+      "address": {
+        "40": "0xa4dfe1fdca0c341c1ba26550ec5128c89964f0db"
+      },
+      "decimals": {
+        "40": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
     "rewardToken": {
       "symbol": "TLOS",
       "address": {
-        "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
+        "40": "0xD102cE6A4dB07D247fcc28F366A623Df0938CA9E",
         "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c"
       },
       "decimals": {
@@ -317,7 +383,7 @@
       "token": {
         "symbol": "TLOS",
         "address": {
-          "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
+          "40": "0xD102cE6A4dB07D247fcc28F366A623Df0938CA9E",
           "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c"
         },
         "decimals": {
@@ -343,7 +409,7 @@
     "projectLink": "https://telos.net",
     "twitter": "https://twitter.com/HelloTelos",
     "harvest": true,
-    "rewardsPerSecond": "0.03128125",
+    "rewardsPerSecond": "0.02819328704",
     "sortOrder": 1,
     "isFinished": false,
     "tokenDecimals": 18,
@@ -355,10 +421,21 @@
     "jungleId": 7,
     "tokenName": "STLOS-USDC",
     "image": "STLOS.svg",
+    "stakingToken": {
+      "symbol": "STLOS-USDC",
+      "address": {
+        "40": "0x3f830d537fe636057c8d7f9e8f264c7a7ff48a6f"
+      },
+      "decimals": {
+        "40": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
     "rewardToken": {
       "symbol": "TLOS",
       "address": {
-        "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
+        "40": "0xD102cE6A4dB07D247fcc28F366A623Df0938CA9E",
         "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c"
       },
       "decimals": {
@@ -394,16 +471,12 @@
       }
     },
     "contractAddress": {
-      "1": "",
-      "40": "0x4c33A9cdBFC39DF0F17ec0d64170a23e3703E0a0",
-      "56": "",
-      "97": "",
-      "137": ""
+      "40": "0x4c33A9cdBFC39DF0F17ec0d64170a23e3703E0a0"
     },
     "projectLink": "https://telos.net",
     "twitter": "https://twitter.com/HelloTelos",
     "harvest": true,
-    "rewardsPerSecond": "0.03649498457",
+    "rewardsPerSecond": "0.02967708333",
     "sortOrder": 1,
     "isFinished": false,
     "tokenDecimals": 18,
@@ -415,10 +488,21 @@
     "jungleId": 8,
     "tokenName": "USDT-USDC",
     "image": "USDT.svg",
+    "stakingToken": {
+      "symbol": "USDT-USDC",
+      "address": {
+        "40": "0x10aadd094677f286e5b9c969806122b5bb31906d"
+      },
+      "decimals": {
+        "40": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
     "rewardToken": {
       "symbol": "TLOS",
       "address": {
-        "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
+        "40": "0xD102cE6A4dB07D247fcc28F366A623Df0938CA9E",
         "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c"
       },
       "decimals": {
@@ -458,16 +542,12 @@
       }
     },
     "contractAddress": {
-      "1": "",
-      "40": "0xCc51745C55B1826A276F801bCe4DdFfad566Be16",
-      "56": "",
-      "97": "",
-      "137": ""
+      "40": "0xCc51745C55B1826A276F801bCe4DdFfad566Be16"
     },
     "projectLink": "https://telos.net",
     "twitter": "https://twitter.com/HelloTelos",
     "harvest": true,
-    "rewardsPerSecond": "0.02606828704",
+    "rewardsPerSecond": "0.02374151235",
     "sortOrder": 1,
     "isFinished": false,
     "tokenDecimals": 18,
@@ -479,6 +559,17 @@
     "jungleId": 8,
     "tokenName": "PXP-BNB",
     "image": "PXP.png",
+    "stakingToken": {
+      "symbol": "PXP-BNB",
+      "address": {
+        "56": "0xF4a7480948F11A0205D616258DCf43E9DaAE0586"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
     "rewardToken": {
       "symbol": "PXP",
       "address": {
@@ -523,7 +614,7 @@
     "harvest": true,
     "tokenPerBlock": "15.659722222222222222",
     "sortOrder": 1,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18,
     "lpStaking": true,
     "isEarnTokenLp": false,
@@ -534,6 +625,17 @@
     "jungleId": 9,
     "tokenName": "BNBx-BNB",
     "image": "BNBX.svg",
+    "stakingToken": {
+      "symbol": "BNBx-BNB",
+      "address": {
+        "56": "0xB88F211EC9ecfc2931Ae1DE53ea28Da76B9Ed37A"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
     "rewardToken": {
       "symbol": "SD",
       "address": {
@@ -575,8 +677,9 @@
     },
     "projectLink": "https://staderlabs.com/",
     "twitter": "https://twitter.com/stader_bnb",
+    "audit": "https://www.certik.com/projects/Stader",
     "harvest": true,
-    "tokenPerBlock": "0.03099281764",
+    "tokenPerBlock": "0.012393042",
     "sortOrder": 1,
     "isFinished": false,
     "tokenDecimals": 18,
@@ -589,6 +692,17 @@
     "jungleId": 10,
     "tokenName": "BRZ-BUSD",
     "image": "BRZ.svg",
+    "stakingToken": {
+      "symbol": "BRZ-BUSD",
+      "address": {
+        "56": "0xfbD7e3575F709212A9f61aC6C63964A8FDa34CAC"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
     "rewardToken": {
       "symbol": "BRZ",
       "address": {
@@ -631,7 +745,7 @@
     "harvest": true,
     "tokenPerBlock": "0.0171",
     "sortOrder": 1,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 4,
     "lpStaking": true,
     "isEarnTokenLp": false,
@@ -641,6 +755,17 @@
     "jungleId": 206,
     "tokenName": "LGX-BUSD",
     "image": "LGX.svg",
+    "stakingToken": {
+      "symbol": "LGX-BUSD",
+      "address": {
+        "56": "0x004F72D474eE262701205E3637B4367594eFb11D"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
     "rewardToken": {
       "symbol": "LGX",
       "address": {
@@ -683,7 +808,7 @@
     "harvest": true,
     "tokenPerBlock": "0.507454668209876543",
     "sortOrder": 1,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18,
     "lpStaking": true,
     "isEarnTokenLp": false,
@@ -694,6 +819,17 @@
     "jungleId": 1,
     "tokenName": "COC-BNB",
     "image": "COC.svg",
+    "stakingToken": {
+      "symbol": "COC-BNB",
+      "address": {
+        "56": "0x5467dD00ca4d91010Ab2A3aEF8a0162DC218801A"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
     "rewardToken": {
       "symbol": "COC",
       "address": {
@@ -738,7 +874,7 @@
     "harvest": true,
     "tokenPerBlock": "96250",
     "sortOrder": 1,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18,
     "lpStaking": true,
     "isEarnTokenLp": false,
@@ -749,6 +885,17 @@
     "jungleId": 2,
     "tokenName": "WGICT-USDT",
     "image": "WGICT.svg",
+    "stakingToken": {
+      "symbol": "WGICT-USDT",
+      "address": {
+        "56": "0x4c64c44a6ed5f1fdce5263d9b512c2465ffe8256"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
     "lpTokens": {
       "token": {
         "symbol": "WGICT",
@@ -804,6 +951,17 @@
     "jungleId": 3,
     "tokenName": "NFT11-BUSD",
     "image": "NFT11.png",
+    "stakingToken": {
+      "symbol": "NFT11-BUSD",
+      "address": {
+        "56": "0xEf0A90fb728195F63C911f52ab4bde331089319f"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
     "rewardToken": {
       "symbol": "NFT11",
       "address": {
@@ -857,6 +1015,17 @@
     "jungleId": 4,
     "tokenName": "RUBY-BNB",
     "image": "RUBY.svg",
+    "stakingToken": {
+      "symbol": "RUBY-BNB",
+      "address": {
+        "56": "0xec9f5a5e4690fa14025971f0d2dd91f5600e24c7"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
     "rewardToken": {
       "symbol": "RUBY",
       "address": {
@@ -911,6 +1080,17 @@
     "jungleId": 5,
     "tokenName": "DRF-BUSD",
     "image": "DRF.svg",
+    "stakingToken": {
+      "symbol": "DRF-BUSD",
+      "address": {
+        "56": "0x5FFc5b392Fcc33357c6a8240bda1C9374A55E6B8"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
     "rewardToken": {
       "symbol": "DRF",
       "address": {
@@ -964,6 +1144,17 @@
     "jungleId": 6,
     "tokenName": "BONES-BNB",
     "image": "BONES.png",
+    "stakingToken": {
+      "symbol": "BONES-BNB",
+      "address": {
+        "56": "0xe0900Db57d81DE4E6a13e90eb836Fa91Be50515A"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
     "rewardToken": {
       "symbol": "BONES",
       "address": {
@@ -1019,6 +1210,17 @@
     "jungleId": 7,
     "tokenName": "GENv3-BNB",
     "image": "GENV3.svg",
+    "stakingToken": {
+      "symbol": "GENv3-BNB",
+      "address": {
+        "56": "0xCfa1d8afFA4da8e6CaBE6fde66DDf4eDA89f0e42"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
     "rewardToken": {
       "symbol": "GENv3",
       "address": {
@@ -1075,6 +1277,17 @@
     "jungleId": 0,
     "tokenName": "LC-BNB",
     "image": "LC.svg",
+    "stakingToken": {
+      "symbol": "LC-BNB",
+      "address": {
+        "56": "0xc5a69133432eF17CD15C501CAa5f9cF28C22aA00"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
     "rewardToken": {
       "symbol": "LC",
       "address": {
@@ -1130,6 +1343,17 @@
     "jungleId": 11,
     "tokenName": "GENv3-BNB",
     "image": "GENV3.svg",
+    "stakingToken": {
+      "symbol": "GENv3-BNB",
+      "address": {
+        "56": "0xCfa1d8afFA4da8e6CaBE6fde66DDf4eDA89f0e42"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
     "rewardToken": {
       "symbol": "GENv3",
       "address": {
@@ -1175,7 +1399,7 @@
     "harvest": true,
     "tokenPerBlock": "11574.074074074074074074",
     "sortOrder": 1,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18,
     "lpStaking": true,
     "isEarnTokenLp": false,
@@ -1185,6 +1409,17 @@
     "jungleId": 12,
     "tokenName": "SWT-BNB",
     "image": "SWT.svg",
+    "stakingToken": {
+      "symbol": "SWT-BNB",
+      "address": {
+        "56": "0xD2280ae010CE3e519a09a459E200bACD303eA330"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
     "rewardToken": {
       "symbol": "SWT",
       "address": {
@@ -1226,8 +1461,141 @@
     },
     "projectLink": "https://sweetpad.io/",
     "twitter": "https://twitter.com/SweetPad_",
+    "audit": "https://irp.cdn-website.com/1b45ecb9/files/uploaded/SweetPad_AuditReport_InterFi.pdf",
     "harvest": true,
     "tokenPerBlock": "0.07398535704",
+    "sortOrder": 1,
+    "isFinished": false,
+    "tokenDecimals": 18,
+    "lpStaking": true,
+    "isEarnTokenLp": false,
+    "network": 56
+  },
+  {
+    "jungleId": 13,
+    "tokenName": "LEAP-BNB",
+    "image": "LEAP.svg",
+    "stakingToken": {
+      "symbol": "LEAP-BNB",
+      "address": {
+        "56": "0x5243b560c0F2df6678c06E772156F49C078d6165"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "rewardToken": {
+      "symbol": "LEAP",
+      "address": {
+        "56": "0x6eEd9140F80F9E989CB23AeCBD20b97a29FFc80F"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "lpTokens": {
+      "token": {
+        "symbol": "LEAP",
+        "address": {
+          "56": "0x6eEd9140F80F9E989CB23AeCBD20b97a29FFc80F"
+        },
+        "decimals": {
+          "56": 18
+        },
+        "active": true
+      },
+      "quoteToken": {
+        "symbol": "BNB",
+        "address": {
+          "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+          "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+          "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        },
+        "decimals": {
+          "56": 18,
+          "97": 18,
+          "137": 18
+        },
+        "active": true
+      }
+    },
+    "contractAddress": {
+      "56": "0x60d0926F7669d2F36845eAf672e57366c0c2bD7B"
+    },
+    "projectLink": "https://www.leaptoken.io/",
+    "twitter": "https://twitter.com/Play_Leap",
+    "audit": "https://github.com/HashEx/public_audits/blob/master/PlayLeap/PlayLeap.pdf",
+    "harvest": true,
+    "tokenPerBlock": "0.403084201388888888",
+    "sortOrder": 1,
+    "isFinished": false,
+    "tokenDecimals": 18,
+    "lpStaking": true,
+    "isEarnTokenLp": false,
+    "network": 56
+  },
+  {
+    "jungleId": 14,
+    "tokenName": "AVAN-BNB",
+    "image": "AVAN.svg",
+    "stakingToken": {
+      "symbol": "AVAN-BNB",
+      "address": {
+        "56": "0x713B273738779C9EA97472AebbD4f7Da5863De78"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "rewardToken": {
+      "symbol": "AVAN",
+      "address": {
+        "56": "0xf84C55e79858B448c3015c3a1A55efED9EdF69c7"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "lpTokens": {
+      "token": {
+        "symbol": "AVAN",
+        "address": {
+          "56": "0xf84C55e79858B448c3015c3a1A55efED9EdF69c7"
+        },
+        "decimals": {
+          "56": 18
+        },
+        "active": true
+      },
+      "quoteToken": {
+        "symbol": "BNB",
+        "address": {
+          "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+          "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+          "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        },
+        "decimals": {
+          "56": 18,
+          "97": 18,
+          "137": 18
+        },
+        "active": true
+      }
+    },
+    "contractAddress": {
+      "56": "0x822558FCE9D9F98cB59953F4841e5e43cEba5173"
+    },
+    "projectLink": "https://avanatoken.com/",
+    "twitter": "https://twitter.com/AvanaProject",
+    "audit": "https://hashex.org/audits/avana-token/",
+    "harvest": true,
+    "tokenPerBlock": "1.491898148148148148",
     "sortOrder": 1,
     "isFinished": false,
     "tokenDecimals": 18,

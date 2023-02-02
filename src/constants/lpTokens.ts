@@ -1,12 +1,12 @@
 import { ChainId } from '@ape.swap/sdk'
-import tokens from './tokens'
-import { LpToken, LpType } from './types'
+import { LpToken, LpType } from '../types'
 
 const lpTokens: Record<string, LpToken> = {
+  // LP Tokens
   bananaBnb: {
     symbol: 'BANANA-BNB',
     address: {
-      [ChainId.BSC]: '0xf65c1c0478efde3c19b49ecbe7acc57bb6b1d713',
+      [ChainId.BSC]: '0xF65C1C0478eFDe3c19b49EcBE7ACc57BB6B1D713',
       [ChainId.BSC_TESTNET]: '0x90Fc86A7570063a9eA971ec74f01F89569Ad6237',
     },
     decimals: {
@@ -219,6 +219,15 @@ const lpTokens: Record<string, LpToken> = {
     symbol: 'PSTN-BUSD',
     address: {
       [ChainId.BSC]: '0x57fa15d373cbbd3141a13f8bab10c380ac2b14d5',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+  },
+  triviaBnb: {
+    symbol: 'TRIVIA-BNB',
+    address: {
+      [ChainId.BSC]: '0x481308c94ac14dab839cc453cdc330f0632f1b0f',
     },
     decimals: { [ChainId.BSC]: 18 },
     active: true,
@@ -444,6 +453,39 @@ const lpTokens: Record<string, LpToken> = {
     active: true,
     lpToken: true,
   },
+  leapBnb: {
+    symbol: 'LEAP-BNB',
+    address: {
+      [ChainId.BSC]: '0x5243b560c0F2df6678c06E772156F49C078d6165',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+    lpToken: true,
+  },
+  monstaBnb: {
+    symbol: 'MONSTA-BNB',
+    address: {
+      [ChainId.BSC]: '0x5b99be3e9cff7a4fb612b95e647ad141a67913cd',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+    lpToken: true,
+  },
+  avanBnb: {
+    symbol: 'AVAN-BNB',
+    address: {
+      [ChainId.BSC]: '0x713B273738779C9EA97472AebbD4f7Da5863De78',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+    lpToken: true,
+  },
   aaveBnb: {
     symbol: 'AAVE-BNB',
     address: {
@@ -492,6 +534,17 @@ const lpTokens: Record<string, LpToken> = {
     symbol: 'IHC-BNB',
     address: {
       [ChainId.BSC]: '0x83CcbE832e5a3B620a435fe0eDb89e171C14eCcB',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+    lpToken: true,
+  },
+  liqBusd: {
+    symbol: 'LIQ-BUSD',
+    address: {
+      [ChainId.BSC]: '0x759584fe196fb2e3f5bf2eff8c2747741d5ecf59',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -579,7 +632,7 @@ const lpTokens: Record<string, LpToken> = {
     address: {
       [ChainId.TLOS]: '0xa4dfe1fdca0c341c1ba26550ec5128c89964f0db',
     },
-    decimals: { [ChainId.BSC]: 18 },
+    decimals: { [ChainId.TLOS]: 18 },
     active: true,
     lpToken: true,
   },
@@ -668,12 +721,12 @@ const lpTokens: Record<string, LpToken> = {
       [ChainId.MATIC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpType: LpType.ARRAKIS,
   },
-  dogiraMatic: {
-    symbol: 'DOGIRA-MATIC',
+  axnUsdc: {
+    symbol: 'AXN-USDC',
     address: {
-      [ChainId.MATIC]: '0x103062f71b7106a8df6fd2a4dd9368358c44a9d0',
+      [ChainId.MATIC]: '0x81A3F6a138F0B12eCBDCE4583972A6CA57514dBd',
     },
     decimals: {
       [ChainId.MATIC]: 18,
@@ -701,29 +754,19 @@ const lpTokens: Record<string, LpToken> = {
     active: true,
     lpToken: true,
   },
-  ucrEth: {
-    symbol: 'uCR-ETH',
+  dogiraMatic: {
+    symbol: 'DOGIRA-MATIC',
     address: {
-      [ChainId.MATIC]: '0xfbfde83998622815b744db249fd9778923187a11',
+      [ChainId.MATIC]: '0x103062f71b7106a8df6fd2a4dd9368358c44a9d0',
     },
-    decimals: { [ChainId.MATIC]: 18 },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
     active: true,
     lpToken: true,
-  },
-  daiUad: {
-    symbol: 'DAI-uAD',
-    token0: tokens.dai,
-    token1: tokens.uad,
-    address: {
-      [ChainId.MATIC]: '0xb044DeF758f101DacB42892ed8FfE618e945DE2F',
-    },
-    decimals: { [ChainId.MATIC]: 18 },
-    active: true,
-    lpToken: true,
-    lpType: LpType.ARRAKIS,
   },
 
-  // Test LPS
+  // Test LPs
   horNey: {
     symbol: 'HOR-NEY',
     address: {

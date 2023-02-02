@@ -1,5 +1,5 @@
 import tokens from './tokens'
-import { NfaStakingPoolConfig } from './types'
+import { NfaStakingPoolConfig } from '../types'
 
 const nftStakingPools: NfaStakingPoolConfig[] = [
   {

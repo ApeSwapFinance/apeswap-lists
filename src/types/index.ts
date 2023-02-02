@@ -74,13 +74,22 @@ export interface BillsConfig {
   inactive?: boolean
   projectLink?: string
   twitter?: string
+  initTime?: Partial<Record<ChainId, number>>
+  initPrice?: Partial<Record<ChainId, number>>
+  audit?: string
+}
+
+export enum VaultVersion {
+  V1 = 'V1',
+  V2 = 'V2',
+  V3 = 'V3',
 }
 
 export interface VaultConfig {
   id: number
   pid: number
   type: 'MAX' | 'AUTO' | 'BURN'
-  version: 'V1' | 'V2'
+  version: VaultVersion
   availableChains: number[]
   stratAddress: Partial<Record<ChainId, string>>
   platform: string
@@ -144,6 +153,7 @@ export interface PoolConfig {
   emergencyWithdraw?: boolean
   isEarnTokenLp?: boolean
   zapable?: boolean
+  audit?: string
 }
 
 export interface DualFarmConfig {
@@ -192,6 +202,7 @@ export interface JungleFarmConfig {
   unZapable?: boolean
   // Jungle farms have changed to per second vs per block
   rewardsPerSecond?: string
+  audit?: string
 }
 
 export interface NfaStakingPoolConfig {

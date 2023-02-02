@@ -1,10 +1,10 @@
 import { ChainId } from '@ape.swap/sdk'
 import lpTokens from './lpTokens'
 import tokens from './tokens'
-import { BillsConfig, BillVersion, LpType } from './types'
+import { BillsConfig, BillVersion, LpType } from '../types'
 
-// BNB Largest ID: 38
-// Polygon Largest ID: 102
+// BNB Largest ID: 44
+// Polygon Largest ID: 103
 // Telos Largest ID: 210
 
 const bills: BillsConfig[] = [
@@ -25,6 +25,8 @@ const bills: BillsConfig[] = [
     version: BillVersion.V1,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
+    initTime: { [ChainId.BSC]: 1668467108 },
+    initPrice: { [ChainId.BSC]: 0.0709352845097292 },
   },
   {
     index: 33,
@@ -43,6 +45,8 @@ const bills: BillsConfig[] = [
     version: BillVersion.V1,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
+    initTime: { [ChainId.BSC]: 1668467108 },
+    initPrice: { [ChainId.BSC]: 0.0709352845097292 },
   },
   {
     index: 34,
@@ -61,6 +65,8 @@ const bills: BillsConfig[] = [
     version: BillVersion.V1,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
+    initTime: { [ChainId.BSC]: 1668467108 },
+    initPrice: { [ChainId.BSC]: 0.0709352845097292 },
   },
   {
     index: 35,
@@ -79,6 +85,8 @@ const bills: BillsConfig[] = [
     version: BillVersion.V1,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
+    initTime: { [ChainId.BSC]: 1668467108 },
+    initPrice: { [ChainId.BSC]: 0.0709352845097292 },
   },
   {
     index: 36,
@@ -97,6 +105,50 @@ const bills: BillsConfig[] = [
     version: BillVersion.V1,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
+    initTime: { [ChainId.BSC]: 1668467108 },
+    initPrice: { [ChainId.BSC]: 0.0709352845097292 },
+  },
+  {
+    index: 43,
+    contractAddress: {
+      [ChainId.BSC]: '0x279c47aE7846962037077338505c657ad65D0DeE',
+    },
+    billType: 'JUNGLE Bill',
+    token: tokens.liq,
+    quoteToken: tokens.busd,
+    lpToken: lpTokens.liqBusd,
+    earnToken: tokens.liq,
+    billNnftAddress: {
+      [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
+    },
+    lpType: LpType.APESWAP,
+    version: BillVersion.V1,
+    projectLink: 'https://liquidus.finance/',
+    twitter: 'https://twitter.com/LiquidusFinance',
+    audit: 'https://liquidus.finance/LiqTechRateAudit.pdf',
+    initTime: { [ChainId.BSC]: 1674588602 },
+    initPrice: { [ChainId.BSC]: 0.367212 },
+  },
+  {
+    index: 44,
+    contractAddress: {
+      [ChainId.BSC]: '0xaf7F491e77f4979faadbE24866D4471De23bd0a0',
+    },
+    billType: 'JUNGLE Bill',
+    token: tokens.monsta,
+    quoteToken: tokens.wbnb,
+    lpToken: lpTokens.monstaBnb,
+    earnToken: tokens.monsta,
+    billNnftAddress: {
+      [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
+    },
+    lpType: LpType.APESWAP,
+    version: BillVersion.V1,
+    projectLink: 'https://cake.monster/',
+    twitter: 'https://twitter.com/thecakemnstr',
+    audit: 'https://solidity.finance/audits/CakeMonster/',
+    initTime: { [ChainId.BSC]: 1674763153 },
+    initPrice: { [ChainId.BSC]: 0.000919952 },
   },
   {
     index: 37,
@@ -115,6 +167,9 @@ const bills: BillsConfig[] = [
     version: BillVersion.V1,
     projectLink: 'https://dappradar.com/',
     twitter: 'https://twitter.com/DappRadar/',
+    audit: 'https://dappradar.com/documents/RADAR-Audits-v1.pdf',
+    initTime: { [ChainId.BSC]: 1668620528 },
+    initPrice: { [ChainId.BSC]: 0.005311928477767259 },
   },
   {
     index: 38,
@@ -131,8 +186,92 @@ const bills: BillsConfig[] = [
     },
     lpType: LpType.APESWAP,
     version: BillVersion.V1,
-    projectLink: 'https://dappradar.com/',
-    twitter: 'https://twitter.com/DappRadar/',
+    projectLink: 'https://www.ihcoin.io/',
+    twitter: 'https://twitter.com/IHCoinofficial',
+    audit: 'https://www.certik.com/projects/ihc#audit',
+    initTime: { [ChainId.BSC]: 1669045328 },
+    initPrice: { [ChainId.BSC]: 0.0000773918161395094 },
+  },
+  {
+    index: 39,
+    contractAddress: {
+      [ChainId.BSC]: '0xfe69f6f456fdc5535e7a7a03bb78f739400bc8e0',
+    },
+    billType: 'JUNGLE Bill',
+    token: tokens.liq,
+    quoteToken: tokens.busd,
+    lpToken: lpTokens.liqBusd,
+    earnToken: tokens.liq,
+    billNnftAddress: {
+      [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
+    },
+    lpType: LpType.APESWAP,
+    version: BillVersion.V1,
+    projectLink: 'https://liquidus.finance/',
+    twitter: 'https://twitter.com/LiquidusFinance',
+    initTime: { [ChainId.BSC]: 1669794128 },
+    initPrice: { [ChainId.BSC]: 0.3590438711755946 },
+  },
+  {
+    index: 40,
+    contractAddress: {
+      [ChainId.BSC]: '0x74dab17e30b974a3590796a8ba2223a50da6a32c',
+    },
+    billType: 'JUNGLE Bill',
+    token: tokens.pstn,
+    quoteToken: tokens.busd,
+    lpToken: lpTokens.pstnBusd,
+    earnToken: tokens.pstn,
+    billNnftAddress: {
+      [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
+    },
+    lpType: LpType.APESWAP,
+    version: BillVersion.V1,
+    projectLink: 'https://piston-token.com/',
+    twitter: 'https://mobile.twitter.com/pistontoken',
+    initTime: { [ChainId.BSC]: 1669905728 },
+    initPrice: { [ChainId.BSC]: 2.000004210715095 },
+  },
+  {
+    index: 41,
+    contractAddress: {
+      [ChainId.BSC]: '0xEd242A13d25b5B2270E90058C9a1A756811cdb93',
+    },
+    billType: 'JUNGLE Bill',
+    token: tokens.gq,
+    quoteToken: tokens.busd,
+    lpToken: lpTokens.gqBusd,
+    earnToken: tokens.gq,
+    billNnftAddress: {
+      [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
+    },
+    lpType: LpType.APESWAP,
+    version: BillVersion.V1,
+    projectLink: 'https://outerringmmo.com/',
+    twitter: 'https://twitter.com/OuterRingMMO',
+    initTime: { [ChainId.BSC]: 1670432974 },
+    initPrice: { [ChainId.BSC]: 0.001714637510619517 },
+  },
+  {
+    index: 42,
+    contractAddress: {
+      [ChainId.BSC]: '0xb95bd2dc93562fd9076c0573615de42b413db256',
+    },
+    billType: 'JUNGLE Bill',
+    token: tokens.leap,
+    quoteToken: tokens.wbnb,
+    lpToken: lpTokens.leapBnb,
+    earnToken: tokens.leap,
+    billNnftAddress: {
+      [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
+    },
+    lpType: LpType.APESWAP,
+    version: BillVersion.V1,
+    projectLink: 'https://www.leaptoken.io/',
+    twitter: 'https://twitter.com/Play_Leap',
+    audit: 'https://github.com/HashEx/public_audits/blob/master/PlayLeap/PlayLeap.pdf',
+    initTime: { [ChainId.BSC]: 1673368322 },
+    initPrice: { [ChainId.BSC]: 0.165579 },
   },
   {
     index: 30,
@@ -150,7 +289,9 @@ const bills: BillsConfig[] = [
     lpType: LpType.APESWAP,
     version: BillVersion.V1,
     projectLink: 'https://nftynetwork.io/',
-    twitter: 'https://twitter.com/NFTYLab',
+    twitter: 'https://twitter.com/NFTYFinance',
+    initTime: { [ChainId.BSC]: 1667839328 },
+    initPrice: { [ChainId.BSC]: 0.005420113056475245 },
   },
   {
     index: 29,
@@ -169,6 +310,9 @@ const bills: BillsConfig[] = [
     version: BillVersion.V1,
     projectLink: 'https://3air.io/',
     twitter: 'https://twitter.com/3aircrypto',
+    audit: 'https://github.com/JorgeRodriguezsec/CTDsec/blob/main/Audits/Cybersecurity_Audit_CTDSEC_3air.pdf',
+    initTime: { [ChainId.BSC]: 1667512328 },
+    initPrice: { [ChainId.BSC]: 0.04540120370089731 },
   },
   {
     index: 27,
@@ -187,6 +331,8 @@ const bills: BillsConfig[] = [
     version: BillVersion.V1,
     projectLink: 'https://www.coinofchampions.com/',
     twitter: 'https://twitter.com/coinofchampions',
+    initTime: { [ChainId.BSC]: 1667352248 },
+    initPrice: { [ChainId.BSC]: 1.2566456303843458e-7 },
   },
   {
     index: 22,
@@ -205,6 +351,9 @@ const bills: BillsConfig[] = [
     version: BillVersion.V1,
     projectLink: 'https://chirpley.ai',
     twitter: 'https://twitter.com/chirpley',
+    audit: 'https://stack.chirpley.nl/s/241c8gWBtVHnuZO1',
+    initTime: { [ChainId.BSC]: 1664883258 },
+    initPrice: { [ChainId.BSC]: 0.006475439494480084 },
   },
   {
     index: 20,
@@ -223,6 +372,9 @@ const bills: BillsConfig[] = [
     version: BillVersion.V1,
     projectLink: 'https://gmr.center/',
     twitter: 'https://twitter.com/GMRCenter',
+    audit: 'https://www.certik.com/projects/gamer',
+    initTime: { [ChainId.BSC]: 1662032058 },
+    initPrice: { [ChainId.BSC]: 0.019076325851224644 },
   },
   {
     index: 31,
@@ -241,6 +393,8 @@ const bills: BillsConfig[] = [
     version: BillVersion.V1,
     projectLink: 'https://web.curate.style/',
     twitter: 'https://twitter.com/curateproject',
+    initTime: { [ChainId.BSC]: 1662032058 },
+    initPrice: { [ChainId.BSC]: 0.019076325851224644 },
   },
   {
     index: 28,
@@ -259,6 +413,9 @@ const bills: BillsConfig[] = [
     version: BillVersion.V1,
     projectLink: 'https://outerringmmo.com/',
     twitter: 'https://twitter.com/OuterRingMMO',
+    initTime: { [ChainId.BSC]: 1667483648 },
+    initPrice: { [ChainId.BSC]: 0.002164726526133125 },
+    inactive: true,
   },
   {
     index: 26,
@@ -277,6 +434,7 @@ const bills: BillsConfig[] = [
     version: BillVersion.V1,
     projectLink: 'https://piston-token.com/',
     twitter: 'https://twitter.com/MyDefi_team',
+    inactive: true,
   },
   {
     index: 25,
@@ -295,6 +453,8 @@ const bills: BillsConfig[] = [
     version: BillVersion.V1,
     projectLink: 'https://xwin.finance/',
     twitter: 'https://twitter.com/xwinfinance',
+    initTime: { [ChainId.BSC]: 1666784058 },
+    initPrice: { [ChainId.BSC]: 0.550605316141175 },
   },
   {
     index: 24,
@@ -313,6 +473,8 @@ const bills: BillsConfig[] = [
     version: BillVersion.V1,
     projectLink: 'https://froyo.games/',
     twitter: 'https://twitter.com/realfroyogames',
+    initTime: { [ChainId.BSC]: 1666092858 },
+    initPrice: { [ChainId.BSC]: 0.010365834030975409 },
   },
   {
     index: 23,
@@ -350,6 +512,8 @@ const bills: BillsConfig[] = [
     version: BillVersion.V1,
     projectLink: 'https://bolide.fi/',
     twitter: 'https://twitter.com/Bolide_fi',
+    initTime: { [ChainId.BSC]: 1664192058 },
+    initPrice: { [ChainId.BSC]: 0.024065964757317017 },
   },
   {
     index: 19,
@@ -368,6 +532,8 @@ const bills: BillsConfig[] = [
     version: BillVersion.V1,
     projectLink: 'https://hector.network/',
     twitter: 'https://twitter.com/Hector_Network',
+    initTime: { [ChainId.BSC]: 1660649658 },
+    initPrice: { [ChainId.BSC]: 18.15486755163556 },
   },
   {
     index: 18,
@@ -386,6 +552,8 @@ const bills: BillsConfig[] = [
     version: BillVersion.V1,
     projectLink: 'https://www.floki.com/',
     twitter: 'https://twitter.com/realflokiinu',
+    initTime: { [ChainId.BSC]: 1660217658 },
+    initPrice: { [ChainId.BSC]: 0.00001504435067868268 },
   },
   {
     index: 12,
@@ -423,6 +591,8 @@ const bills: BillsConfig[] = [
     version: BillVersion.V1,
     projectLink: 'https://ceek.com/',
     twitter: 'https://twitter.com/CEEK/',
+    initTime: { [ChainId.BSC]: 1655292858 },
+    initPrice: { [ChainId.BSC]: 0.12499413563790174 },
   },
   {
     index: 6,
@@ -479,6 +649,8 @@ const bills: BillsConfig[] = [
     version: BillVersion.V1,
     projectLink: 'https://www.mogulproductions.com/',
     twitter: 'https://twitter.com/mogulofficial_',
+    initTime: { [ChainId.BSC]: 1655292858 },
+    initPrice: { [ChainId.BSC]: 0.012596738432285355 },
   },
   {
     index: 9,
@@ -497,6 +669,8 @@ const bills: BillsConfig[] = [
     version: BillVersion.V1,
     projectLink: 'https://hotcross.com/',
     twitter: 'https://twitter.com/hotcrosscom',
+    initTime: { [ChainId.BSC]: 1655292858 },
+    initPrice: { [ChainId.BSC]: 0.0410817844906574 },
   },
   {
     index: 10,
@@ -515,6 +689,8 @@ const bills: BillsConfig[] = [
     version: BillVersion.V1,
     projectLink: 'https://hotcross.com/',
     twitter: 'https://twitter.com/hotcrosscom',
+    initTime: { [ChainId.BSC]: 1655292858 },
+    initPrice: { [ChainId.BSC]: 0.0410817844906574 },
   },
   {
     index: 11,
@@ -533,6 +709,8 @@ const bills: BillsConfig[] = [
     version: BillVersion.V1,
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
+    initTime: { [ChainId.BSC]: 1655552058 },
+    initPrice: { [ChainId.BSC]: 0.1736239460283216 },
   },
   // Old BANANA Bills
   {
@@ -732,40 +910,23 @@ const bills: BillsConfig[] = [
   {
     index: 103,
     contractAddress: {
-      [ChainId.MATIC]: '0xB2E4d2C8b898036ae742227C2E846a0D04E6f043',
+      [ChainId.MATIC]: '0xb53b2706897a26fec9113f3e2371ac5b2b88970a',
     },
     billType: 'Jungle Bill',
-    token: tokens.uad,
-    quoteToken: tokens.dai,
-    lpToken: lpTokens.daiUad,
-    earnToken: tokens.ucr,
+    token: tokens.axn,
+    quoteToken: tokens.usdc,
+    lpToken: lpTokens.axnUsdc,
+    earnToken: tokens.axn,
     billNnftAddress: {
-      [ChainId.MATIC]: '0xf63e25b5492a856189420724fe6f3573620966f3',
-    },
-    inactive: false,
-    lpType: LpType.ARRAKIS,
-    version: BillVersion.V2,
-    projectLink: 'https://ubq.fi/',
-    twitter: 'https://twitter.com/UbiquityDAO',
-  },
-  {
-    index: 104,
-    contractAddress: {
-      [ChainId.MATIC]: '0x8aeaf405cfc6e7707f2bd0c7b794a5e716df3d90',
-    },
-    billType: 'Jungle Bill',
-    token: tokens.ucr,
-    quoteToken: tokens.eth,
-    lpToken: lpTokens.ucrEth,
-    earnToken: tokens.ucr,
-    billNnftAddress: {
-      [ChainId.MATIC]: '0xf63e25b5492a856189420724fe6f3573620966f3',
+      [ChainId.MATIC]: '0xa35c3fcd306cf69fed19e8c7b15c8b3904ea609d',
     },
     inactive: false,
     lpType: LpType.APESWAP,
-    version: BillVersion.V2,
-    projectLink: 'https://ubq.fi/',
-    twitter: 'https://twitter.com/UbiquityDAO',
+    version: BillVersion.V1,
+    projectLink: 'https://axion.network/',
+    twitter: 'https://twitter.com/axion_network',
+    initTime: { [ChainId.MATIC]: 1669973048 },
+    initPrice: { [ChainId.MATIC]: 0.000015665249761458396 },
   },
   {
     index: 100,
@@ -804,6 +965,8 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://www.tokentraxx.com/',
     twitter: 'https://twitter.com/TokenTraxx',
+    initTime: { [ChainId.MATIC]: 1663846458 },
+    initPrice: { [ChainId.MATIC]: 0.18650580540316708 },
   },
   {
     index: 102,
@@ -823,6 +986,8 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://www.dogira.net/',
     twitter: 'https://twitter.com/DogiraOfficial',
+    initTime: { [ChainId.MATIC]: 1664969658 },
+    initPrice: { [ChainId.MATIC]: 0.0015076537321486155 },
   },
   /*
     Telos Bills
@@ -845,6 +1010,8 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
+    initTime: { [ChainId.TLOS]: 1668849848 },
+    initPrice: { [ChainId.TLOS]: 0.1743935819281813 },
   },
   {
     index: 207,
@@ -864,6 +1031,8 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
+    initTime: { [ChainId.TLOS]: 1668849848 },
+    initPrice: { [ChainId.TLOS]: 0.1743935819281813 },
   },
   {
     index: 208,
@@ -883,6 +1052,8 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
+    initTime: { [ChainId.TLOS]: 1668849848 },
+    initPrice: { [ChainId.TLOS]: 0.1743935819281813 },
   },
   {
     index: 209,
@@ -902,6 +1073,8 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
+    initTime: { [ChainId.TLOS]: 1668849848 },
+    initPrice: { [ChainId.TLOS]: 0.1743935819281813 },
   },
   {
     index: 210,
@@ -921,6 +1094,8 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
+    initTime: { [ChainId.TLOS]: 1668849848 },
+    initPrice: { [ChainId.TLOS]: 0.1743935819281813 },
   },
   {
     index: 201,

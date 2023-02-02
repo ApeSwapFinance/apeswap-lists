@@ -2,7 +2,59 @@
   {
     "sousId": 0,
     "tokenName": "BANANA",
-    "image": "BANANA.svg",
+    "stakingToken": {
+      "symbol": "BANANA",
+      "address": {
+        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
+        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "rewardToken": {
+      "symbol": "BANANA",
+      "address": {
+        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
+        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "contractAddress": {
+      "56": "0x71354AC3c695dfB1d3f595AfA5D4364e9e06339B",
+      "97": ""
+    },
+    "poolCategory": "Core",
+    "projectLink": "https://apeswap.finance/",
+    "twitter": "https://twitter.com/ape_swap",
+    "audit": "https://paladinsec.co/projects/apeswap/",
+    "harvest": true,
+    "tokenPerBlock": "2.5",
+    "sortOrder": 1,
+    "isFinished": false,
+    "tokenDecimals": 18
+  },
+  {
+    "sousId": 999,
+    "tokenName": "BANANA",
     "stakingToken": {
       "symbol": "BANANA",
       "address": {
@@ -46,6 +98,7 @@
     "poolCategory": "Core",
     "projectLink": "https://apeswap.finance/",
     "twitter": "https://twitter.com/ape_swap",
+    "audit": "https://paladinsec.co/projects/apeswap/",
     "harvest": true,
     "tokenPerBlock": "2.5",
     "sortOrder": 1,
@@ -93,6 +146,7 @@
     "poolCategory": "ApeZone",
     "projectLink": "https://apeswap.finance/apezone",
     "twitter": "https://twitter.com/ape_swap",
+    "audit": "https://paladinsec.co/projects/apeswap/",
     "harvest": true,
     "tokenPerBlock": "0.150000000000000000",
     "sortOrder": 1,
@@ -4345,7 +4399,7 @@
     "tokenPerBlock": "8.573388117283950617",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -4557,7 +4611,7 @@
     "tokenPerBlock": "0.689409722222222222",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -4689,7 +4743,7 @@
     "tokenPerBlock": "0.540142746913580246",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -4769,7 +4823,7 @@
     "tokenPerBlock": "0.439506172839506172",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -4845,6 +4899,7 @@
     "poolCategory": "ApeZone",
     "projectLink": "https://roobee.io/",
     "twitter": "https://twitter.com/Roobee_invest",
+    "audit": "https://github.com/mixbytes/audits_public/blob/master/Roobee/README.md",
     "harvest": true,
     "tokenPerBlock": "10.7421875",
     "sortOrder": 1,
@@ -4889,7 +4944,7 @@
     "tokenPerBlock": "3.858024691358024691",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -4911,7 +4966,7 @@
     "rewardToken": {
       "symbol": "TLOS",
       "address": {
-        "40": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
+        "40": "0xD102cE6A4dB07D247fcc28F366A623Df0938CA9E",
         "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c"
       },
       "decimals": {
@@ -4931,7 +4986,7 @@
     "tokenPerBlock": "0.028645833330000000",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -5057,7 +5112,7 @@
     "tokenPerBlock": "0.001345486",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 9
   },
   {
@@ -5093,6 +5148,7 @@
     "poolCategory": "ApeZone",
     "projectLink": "https://hector.network/",
     "twitter": "https://twitter.com/Hector_Network",
+    "audit": "https://www.certik.com/projects/tor",
     "harvest": true,
     "tokenPerBlock": "0.019097222222222222",
     "sortOrder": 1,
@@ -5133,6 +5189,7 @@
     "poolCategory": "ApeZone",
     "projectLink": "https://metashooter.gg/",
     "twitter": "https://twitter.com/MetaShooter_gg",
+    "audit": "https://github.com/sokenteam/smart_contract_audits/blob/main/MetaShooter%20NFT%20Standard%20Smart%20Contract%20Audit.pdf",
     "harvest": true,
     "tokenPerBlock": "0.381944444444444444",
     "sortOrder": 1,
@@ -5183,7 +5240,7 @@
     "tokenPerBlock": "0.380760416666666666",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -5223,7 +5280,7 @@
     "tokenPerBlock": "2.673611111111111111",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
@@ -5265,6 +5322,7 @@
     "poolCategory": "ApeZone",
     "projectLink": "https://piston-token.com/swap",
     "twitter": "https://twitter.com/PistonToken",
+    "audit": "https://solidity.finance/audits/PistonToken/",
     "harvest": true,
     "tokenPerBlock": "0.0023283179",
     "sortOrder": 1,
@@ -5305,6 +5363,7 @@
     "poolCategory": "ApeZone",
     "projectLink": "https://chirpley.ai",
     "twitter": "https://twitter.com/chirpley",
+    "audit": "https://stack.chirpley.nl/s/241c8gWBtVHnuZO1",
     "harvest": true,
     "tokenPerBlock": "0.900205632716049382",
     "sortOrder": 1,
@@ -5346,6 +5405,7 @@
     "poolCategory": "ApeZone",
     "projectLink": "https://3air.io/",
     "twitter": "https://twitter.com/3aircrypto",
+    "audit": "https://github.com/JorgeRodriguezsec/CTDsec/blob/main/Audits/Cybersecurity_Audit_CTDSEC_3air.pdf",
     "harvest": true,
     "tokenPerBlock": "0.331579861111111111",
     "sortOrder": 1,
@@ -5354,9 +5414,189 @@
     "tokenDecimals": 18
   },
   {
+    "sousId": 228,
+    "tokenName": "FRUIT",
+    "image": "FRUIT.svg",
+    "stakingToken": {
+      "symbol": "GNANA",
+      "address": {
+        "56": "0xdDb3Bd8645775F59496c821E4F55A7eA6A6dc299",
+        "97": "0xf693bDA9D3C56D5F9165c8633d9098e3C4Ae495A"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18
+      },
+      "active": true
+    },
+    "rewardToken": {
+      "symbol": "FRUIT",
+      "address": {
+        "56": "0xadd14ca8e026c4555933d12b568b1310968503a2"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "contractAddress": {
+      "56": "0x7D36b1c407554C81EeA30866c24c7B046B78d7E2",
+      "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
+    },
+    "poolCategory": "ApeZone",
+    "projectLink": "https://cryptofruits.com/index.php",
+    "twitter": "https://twitter.com/CryptoFruitsFi",
+    "audit": "https://hashex.org/audits/cryptofruits/",
+    "harvest": true,
+    "tokenPerBlock": "1.008603587962962962",
+    "sortOrder": 1,
+    "reflect": false,
+    "isFinished": false,
+    "tokenDecimals": 18
+  },
+  {
+    "sousId": 229,
+    "tokenName": "CLA",
+    "image": "CLA.svg",
+    "stakingToken": {
+      "symbol": "BANANA",
+      "address": {
+        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
+        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "rewardToken": {
+      "symbol": "CLA",
+      "address": {
+        "56": "0xFa86225e0c7f51c30f0C3647bfd2B266c3e3B6F6"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "contractAddress": {
+      "56": "0x2Cc77E935D77B631b7fd78761c379A851e798f21",
+      "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
+    },
+    "poolCategory": "ApeZone",
+    "projectLink": "https://www.candelacoin.co/",
+    "twitter": "https://twitter.com/candelacoin",
+    "harvest": true,
+    "tokenPerBlock": "5.729166666666666666",
+    "sortOrder": 1,
+    "reflect": false,
+    "isFinished": false,
+    "tokenDecimals": 18
+  },
+  {
+    "sousId": 230,
+    "tokenName": "MONSTA",
+    "image": "MONSTA.svg",
+    "stakingToken": {
+      "symbol": "GNANA",
+      "address": {
+        "56": "0xdDb3Bd8645775F59496c821E4F55A7eA6A6dc299",
+        "97": "0xf693bDA9D3C56D5F9165c8633d9098e3C4Ae495A"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18
+      },
+      "active": true
+    },
+    "rewardToken": {
+      "symbol": "MONSTA",
+      "address": {
+        "56": "0x8A5d7FCD4c90421d21d30fCC4435948aC3618B2f"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "contractAddress": {
+      "56": "0x7b975Fa251F8b6eCe94f47CCbAEF71CE60db6704",
+      "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
+    },
+    "poolCategory": "ApeZone",
+    "projectLink": "https://cake.monster/",
+    "twitter": "https://twitter.com/thecakemnstr",
+    "audit": "https://solidity.finance/audits/CakeMonster/",
+    "harvest": true,
+    "tokenPerBlock": "14.895833333333333333",
+    "sortOrder": 1,
+    "reflect": false,
+    "isFinished": false,
+    "tokenDecimals": 18
+  },
+  {
+    "sousId": 231,
+    "tokenName": "ZBC",
+    "image": "ZBC.svg",
+    "stakingToken": {
+      "symbol": "GNANA",
+      "address": {
+        "56": "0xdDb3Bd8645775F59496c821E4F55A7eA6A6dc299",
+        "97": "0xf693bDA9D3C56D5F9165c8633d9098e3C4Ae495A"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18
+      },
+      "active": true
+    },
+    "rewardToken": {
+      "symbol": "ZBC",
+      "address": {
+        "56": "0x37a56cdcD83Dce2868f721De58cB3830C44C6303"
+      },
+      "decimals": {
+        "56": 9
+      },
+      "active": true
+    },
+    "contractAddress": {
+      "56": "0x7b053D119b5058b2930cee9F47aa9028b5c3Ae1a",
+      "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
+    },
+    "poolCategory": "ApeZone",
+    "projectLink": "https://zebec.io/",
+    "twitter": "https://twitter.com/Zebec_HQ",
+    "audit": "https://github.com/Zebec-protocol/zebec-program-v2/tree/master/audit",
+    "harvest": true,
+    "tokenPerBlock": "1.193576388",
+    "sortOrder": 1,
+    "reflect": false,
+    "isFinished": false,
+    "tokenDecimals": 9
+  },
+  {
     "sousId": 214,
     "tokenName": "PXP",
     "image": "PXP.png",
+    "stakingToken": {
+      "symbol": "PXP-BNB",
+      "address": {
+        "56": "0xF4a7480948F11A0205D616258DCf43E9DaAE0586"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
     "rewardToken": {
       "symbol": "PXP",
       "address": {
@@ -5378,13 +5618,24 @@
     "tokenPerBlock": "15.659722222222222222",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
     "sousId": 225,
     "tokenName": "SWT",
     "image": "SWT.svg",
+    "stakingToken": {
+      "symbol": "SWT-BNB",
+      "address": {
+        "56": "0xD2280ae010CE3e519a09a459E200bACD303eA330"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
     "rewardToken": {
       "symbol": "SWT",
       "address": {
@@ -5413,6 +5664,17 @@
     "sousId": 211,
     "tokenName": "GENv3",
     "image": "GENV3.svg",
+    "stakingToken": {
+      "symbol": "GENv3-BNB",
+      "address": {
+        "56": "0xCfa1d8afFA4da8e6CaBE6fde66DDf4eDA89f0e42"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
     "rewardToken": {
       "symbol": "GENv3",
       "address": {
@@ -5441,6 +5703,17 @@
     "sousId": 210,
     "tokenName": "BONES",
     "image": "BONES.png",
+    "stakingToken": {
+      "symbol": "BONES-BNB",
+      "address": {
+        "56": "0xe0900Db57d81DE4E6a13e90eb836Fa91Be50515A"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
     "rewardToken": {
       "symbol": "BONES",
       "address": {
@@ -5462,13 +5735,24 @@
     "tokenPerBlock": "0.224606095679012345",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18
   },
   {
     "sousId": 206,
     "tokenName": "LGX-BUSD",
     "image": "LGX.svg",
+    "stakingToken": {
+      "symbol": "LGX-BUSD",
+      "address": {
+        "56": "0x004F72D474eE262701205E3637B4367594eFb11D"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
     "rewardToken": {
       "symbol": "LGX",
       "address": {
@@ -5512,7 +5796,7 @@
     "harvest": true,
     "tokenPerBlock": "0.507454668209876543",
     "sortOrder": 1,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18,
     "lpStaking": true,
     "isEarnTokenLp": false
@@ -5521,6 +5805,17 @@
     "sousId": 204,
     "tokenName": "LC-BNB",
     "image": "LC.svg",
+    "stakingToken": {
+      "symbol": "LC-BNB",
+      "address": {
+        "56": "0xc5a69133432eF17CD15C501CAa5f9cF28C22aA00"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
     "rewardToken": {
       "symbol": "LC",
       "address": {
@@ -5575,6 +5870,17 @@
     "sousId": 201,
     "tokenName": "COC-BNB",
     "image": "COC.svg",
+    "stakingToken": {
+      "symbol": "COC-BNB",
+      "address": {
+        "56": "0x5467dD00ca4d91010Ab2A3aEF8a0162DC218801A"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
     "rewardToken": {
       "symbol": "COC",
       "address": {
@@ -5629,6 +5935,17 @@
     "sousId": 184,
     "tokenName": "WGICT-USDT",
     "image": "WGICT.svg",
+    "stakingToken": {
+      "symbol": "WGICT-USDT",
+      "address": {
+        "56": "0x4c64c44a6ed5f1fdce5263d9b512c2465ffe8256"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
     "lpTokens": {
       "token": {
         "symbol": "WGICT",
@@ -5674,7 +5991,7 @@
     "harvest": true,
     "tokenPerBlock": "0.01437847",
     "sortOrder": 1,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 8,
     "lpStaking": true,
     "isEarnTokenLp": false
@@ -5683,6 +6000,17 @@
     "sousId": 186,
     "tokenName": "NFT11-BUSD",
     "image": "NFT11.png",
+    "stakingToken": {
+      "symbol": "NFT11-BUSD",
+      "address": {
+        "56": "0xEf0A90fb728195F63C911f52ab4bde331089319f"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
     "rewardToken": {
       "symbol": "NFT11",
       "address": {
@@ -5735,6 +6063,17 @@
     "sousId": 189,
     "tokenName": "RUBY-BNB",
     "image": "RUBY.svg",
+    "stakingToken": {
+      "symbol": "RUBY-BNB",
+      "address": {
+        "56": "0xec9f5a5e4690fa14025971f0d2dd91f5600e24c7"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
     "rewardToken": {
       "symbol": "RUBY",
       "address": {
@@ -5789,6 +6128,17 @@
     "sousId": 191,
     "tokenName": "DRF-BUSD",
     "image": "DRF.svg",
+    "stakingToken": {
+      "symbol": "DRF-BUSD",
+      "address": {
+        "56": "0x5FFc5b392Fcc33357c6a8240bda1C9374A55E6B8"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
     "rewardToken": {
       "symbol": "DRF",
       "address": {
@@ -5841,6 +6191,17 @@
     "sousId": 220,
     "tokenName": "BNBx-BNB",
     "image": "BNBX.svg",
+    "stakingToken": {
+      "symbol": "BNBx-BNB",
+      "address": {
+        "56": "0xB88F211EC9ecfc2931Ae1DE53ea28Da76B9Ed37A"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
     "rewardToken": {
       "symbol": "SD",
       "address": {
@@ -5859,7 +6220,7 @@
     "projectLink": "https://staderlabs.com/",
     "twitter": "https://twitter.com/stader_bnb",
     "harvest": true,
-    "tokenPerBlock": "0.076607142857142857",
+    "tokenPerBlock": "0.02750903986",
     "sortOrder": 1,
     "reflect": false,
     "isFinished": false,
@@ -5869,6 +6230,17 @@
     "sousId": 222,
     "tokenName": "BRZ-BUSD",
     "image": "BRZ.svg",
+    "stakingToken": {
+      "symbol": "BRZ-BUSD",
+      "address": {
+        "56": "0xfbD7e3575F709212A9f61aC6C63964A8FDa34CAC"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
     "rewardToken": {
       "symbol": "BRZ",
       "address": {
@@ -5890,8 +6262,86 @@
     "tokenPerBlock": "0.0171",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 4
+  },
+  {
+    "sousId": 227,
+    "tokenName": "LEAP",
+    "image": "LEAP.svg",
+    "stakingToken": {
+      "symbol": "LEAP-BNB",
+      "address": {
+        "56": "0x5243b560c0F2df6678c06E772156F49C078d6165"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "rewardToken": {
+      "symbol": "LEAP",
+      "address": {
+        "56": "0x6eEd9140F80F9E989CB23AeCBD20b97a29FFc80F"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "contractAddress": {
+      "56": "0x60d0926F7669d2F36845eAf672e57366c0c2bD7B",
+      "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
+    },
+    "poolCategory": "Jungle",
+    "projectLink": "https://www.playleap.io/",
+    "twitter": "https://twitter.com/Play_Leap",
+    "harvest": true,
+    "tokenPerBlock": "0.403084201388888888",
+    "sortOrder": 1,
+    "reflect": false,
+    "isFinished": false,
+    "tokenDecimals": 18
+  },
+  {
+    "sousId": 232,
+    "tokenName": "AVAN",
+    "image": "AVAN.svg",
+    "stakingToken": {
+      "symbol": "AVAN-BNB",
+      "address": {
+        "56": "0x713B273738779C9EA97472AebbD4f7Da5863De78"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "rewardToken": {
+      "symbol": "AVAN",
+      "address": {
+        "56": "0xf84C55e79858B448c3015c3a1A55efED9EdF69c7"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "contractAddress": {
+      "56": "0x822558FCE9D9F98cB59953F4841e5e43cEba5173",
+      "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
+    },
+    "poolCategory": "Jungle",
+    "projectLink": "https://avanatoken.com/",
+    "twitter": "https://twitter.com/AvanaProject",
+    "harvest": true,
+    "tokenPerBlock": "1.491898148148148148",
+    "sortOrder": 1,
+    "reflect": false,
+    "isFinished": false,
+    "tokenDecimals": 18
   },
   {
     "sousId": 96,

@@ -1,5 +1,5 @@
 import { ChainId } from '@ape.swap/sdk'
-import { LpType, Token } from './types'
+import { Token } from '../types'
 
 const tokens: Record<string, Token> = {
   // BANANA should always be first token for GNANA calculation
@@ -876,6 +876,16 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  leap: {
+    symbol: 'LEAP',
+    address: {
+      [ChainId.BSC]: '0x6eEd9140F80F9E989CB23AeCBD20b97a29FFc80F',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+  },
   hera: {
     symbol: 'HERA',
     address: {
@@ -1372,7 +1382,7 @@ const tokens: Record<string, Token> = {
     symbol: 'TLOS',
     address: {
       [ChainId.BSC]: '0xb6C53431608E626AC81a9776ac3e999c5556717c',
-      [ChainId.TLOS]: '0xd102ce6a4db07d247fcc28f366a623df0938ca9e',
+      [ChainId.TLOS]: '0xD102cE6A4dB07D247fcc28F366A623Df0938CA9E',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -1705,12 +1715,68 @@ const tokens: Record<string, Token> = {
     decimals: { [ChainId.BSC]: 18 },
     active: true,
   },
+  trivia: {
+    symbol: 'TRIVIA',
+    address: {
+      [ChainId.BSC]: '0xb465f3cb6Aba6eE375E12918387DE1eaC2301B05',
+    },
+    decimals: { [ChainId.BSC]: 3 },
+    active: true,
+  },
+  fruit: {
+    symbol: 'FRUIT',
+    address: {
+      [ChainId.BSC]: '0xadd14ca8e026c4555933d12b568b1310968503a2',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+  },
+  cla: {
+    symbol: 'CLA',
+    address: {
+      [ChainId.BSC]: '0xFa86225e0c7f51c30f0C3647bfd2B266c3e3B6F6',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+  },
+  monsta: {
+    symbol: 'MONSTA',
+    address: {
+      [ChainId.BSC]: '0x8A5d7FCD4c90421d21d30fCC4435948aC3618B2f',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+  },
+  zbc: {
+    symbol: 'ZBC',
+    address: {
+      [ChainId.BSC]: '0x37a56cdcD83Dce2868f721De58cB3830C44C6303',
+    },
+    decimals: { [ChainId.BSC]: 9 },
+    active: true,
+  },
+  avan: {
+    symbol: 'AVAN',
+    address: {
+      [ChainId.BSC]: '0xf84C55e79858B448c3015c3a1A55efED9EdF69c7',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+  },
   xcur: {
     symbol: 'XCUR',
     address: {
       [ChainId.BSC]: '0xd52669712f253CD6b2Fe8A8638F66ed726cb770C',
     },
     decimals: { [ChainId.BSC]: 8 },
+    active: true,
+  },
+  liq: {
+    symbol: 'LIQ',
+    address: {
+      [ChainId.BSC]: '0xc7981767f644C7F8e483DAbDc413e8a371b83079',
+    },
+    decimals: { [ChainId.BSC]: 18 },
     active: true,
   },
   axn: {
@@ -1733,27 +1799,13 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
-  ucr: {
-    symbol: 'uCR',
+  farmAway: {
+    symbol: 'FARMAWAY',
     address: {
-      [ChainId.MATIC]: '0x546Bb7F58a1C8BD96D57FDCa13cc44083841527e',
+      [ChainId.BSC]: '0x19349A79905eCdbcC421568337Ab2abaB6e45832',
     },
-    decimals: {
-      [ChainId.MATIC]: 18,
-    },
+    decimals: { [ChainId.BSC]: 18 },
     active: true,
-    lpType: LpType.ARRAKIS,
-  },
-  uad: {
-    symbol: 'uAD',
-    address: {
-      [ChainId.MATIC]: '0xaa48B13BeF9AB96E058311D24f75B9Ac1fB4438b',
-    },
-    decimals: {
-      [ChainId.MATIC]: 18,
-    },
-    active: true,
-    lpType: LpType.ARRAKIS,
   },
 }
 
