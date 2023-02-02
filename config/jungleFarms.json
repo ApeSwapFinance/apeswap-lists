@@ -1536,5 +1536,71 @@
     "lpStaking": true,
     "isEarnTokenLp": false,
     "network": 56
+  },
+  {
+    "jungleId": 14,
+    "tokenName": "AVAN-BNB",
+    "image": "AVAN.svg",
+    "stakingToken": {
+      "symbol": "AVAN-BNB",
+      "address": {
+        "56": "0x713B273738779C9EA97472AebbD4f7Da5863De78"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "rewardToken": {
+      "symbol": "AVAN",
+      "address": {
+        "56": "0xf84C55e79858B448c3015c3a1A55efED9EdF69c7"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "lpTokens": {
+      "token": {
+        "symbol": "AVAN",
+        "address": {
+          "56": "0xf84C55e79858B448c3015c3a1A55efED9EdF69c7"
+        },
+        "decimals": {
+          "56": 18
+        },
+        "active": true
+      },
+      "quoteToken": {
+        "symbol": "BNB",
+        "address": {
+          "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+          "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+          "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        },
+        "decimals": {
+          "56": 18,
+          "97": 18,
+          "137": 18
+        },
+        "active": true
+      }
+    },
+    "contractAddress": {
+      "56": "0x822558FCE9D9F98cB59953F4841e5e43cEba5173"
+    },
+    "projectLink": "https://avanatoken.com/",
+    "twitter": "https://twitter.com/AvanaProject",
+    "audit": "https://hashex.org/audits/avana-token/",
+    "harvest": true,
+    "tokenPerBlock": "1.491898148148148148",
+    "sortOrder": 1,
+    "isFinished": false,
+    "tokenDecimals": 18,
+    "lpStaking": true,
+    "isEarnTokenLp": false,
+    "network": 56
   }
 ]

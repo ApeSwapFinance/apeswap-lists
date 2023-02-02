@@ -5,7 +5,7 @@ import tokens from './tokens'
 
 const BANANA_PER_BLOCK = new BigNumber(10)
 
-// Current Sous ID is 230
+// Current Sous ID is 232
 
 const pools: PoolConfig[] = [
   // MASTER APE V2 POOL
@@ -21,6 +21,7 @@ const pools: PoolConfig[] = [
     poolCategory: PoolCategory.CORE,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
+    audit: 'https://paladinsec.co/projects/apeswap/',
     harvest: true,
     tokenPerBlock: `${BANANA_PER_BLOCK.toNumber() * 0.25}`,
     sortOrder: 1,
@@ -2620,6 +2621,27 @@ const pools: PoolConfig[] = [
     isFinished: false,
     tokenDecimals: 18,
   },
+  {
+    sousId: 231,
+    tokenName: 'ZBC',
+    image: 'ZBC.svg',
+    stakingToken: tokens.gnana,
+    rewardToken: tokens.zbc,
+    contractAddress: {
+      97: '0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d',
+      56: '0x7b053D119b5058b2930cee9F47aa9028b5c3Ae1a',
+    },
+    poolCategory: PoolCategory.APEZONE,
+    projectLink: 'https://zebec.io/',
+    twitter: 'https://twitter.com/Zebec_HQ',
+    audit: 'https://github.com/Zebec-protocol/zebec-program-v2/tree/master/audit',
+    harvest: true,
+    tokenPerBlock: `1.193576388`,
+    sortOrder: 1,
+    reflect: false,
+    isFinished: false,
+    tokenDecimals: 9,
+  },
 
   //
   // JUNGLE FARMS
@@ -2927,6 +2949,26 @@ const pools: PoolConfig[] = [
     twitter: 'https://twitter.com/Play_Leap',
     harvest: true,
     tokenPerBlock: `0.403084201388888888`,
+    sortOrder: 1,
+    reflect: false,
+    isFinished: false,
+    tokenDecimals: 18,
+  },
+  {
+    sousId: 232,
+    tokenName: 'AVAN',
+    image: 'AVAN.svg',
+    stakingToken: tokens.avanBnb,
+    rewardToken: tokens.avan,
+    contractAddress: {
+      97: '0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d',
+      56: '0x822558FCE9D9F98cB59953F4841e5e43cEba5173',
+    },
+    poolCategory: PoolCategory.JUNGLE,
+    projectLink: 'https://avanatoken.com/',
+    twitter: 'https://twitter.com/AvanaProject',
+    harvest: true,
+    tokenPerBlock: `1.491898148148148148`,
     sortOrder: 1,
     reflect: false,
     isFinished: false,

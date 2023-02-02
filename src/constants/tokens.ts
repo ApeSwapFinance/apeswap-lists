@@ -1747,6 +1747,22 @@ const tokens: Record<string, Token> = {
     decimals: { [ChainId.BSC]: 18 },
     active: true,
   },
+  zbc: {
+    symbol: 'ZBC',
+    address: {
+      [ChainId.BSC]: '0x37a56cdcD83Dce2868f721De58cB3830C44C6303',
+    },
+    decimals: { [ChainId.BSC]: 9 },
+    active: true,
+  },
+  avan: {
+    symbol: 'AVAN',
+    address: {
+      [ChainId.BSC]: '0xf84C55e79858B448c3015c3a1A55efED9EdF69c7',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+  },
   xcur: {
     symbol: 'XCUR',
     address: {
@@ -2286,6 +2302,17 @@ const tokens: Record<string, Token> = {
     symbol: 'MONSTA-BNB',
     address: {
       [ChainId.BSC]: '0x5b99be3e9cff7a4fb612b95e647ad141a67913cd',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+    lpToken: true,
+  },
+  avanBnb: {
+    symbol: 'AVAN-BNB',
+    address: {
+      [ChainId.BSC]: '0x713B273738779C9EA97472AebbD4f7Da5863De78',
     },
     decimals: {
       [ChainId.BSC]: 18,
