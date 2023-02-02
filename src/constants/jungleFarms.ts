@@ -202,7 +202,7 @@ const jungleFarms: JungleFarmConfig[] = [
 
   /*
     CHAIN ID 56 - BNB Jungle Farms
-    Current Jungle ID = 13
+    Current Jungle ID = 14
   */
   {
     jungleId: 8,
@@ -572,6 +572,31 @@ const jungleFarms: JungleFarmConfig[] = [
     audit: 'https://github.com/HashEx/public_audits/blob/master/PlayLeap/PlayLeap.pdf',
     harvest: true,
     tokenPerBlock: '0.403084201388888888',
+    sortOrder: 1,
+    isFinished: false,
+    tokenDecimals: 18,
+    lpStaking: true,
+    isEarnTokenLp: false,
+    network: ChainId.BSC,
+  },
+  {
+    jungleId: 14,
+    tokenName: 'AVAN-BNB',
+    image: 'AVAN.svg',
+    stakingToken: tokens.avanBnb,
+    rewardToken: tokens.avan,
+    lpTokens: {
+      token: tokens.avan,
+      quoteToken: tokens.wbnb,
+    },
+    contractAddress: {
+      [ChainId.BSC]: '0x822558FCE9D9F98cB59953F4841e5e43cEba5173',
+    },
+    projectLink: 'https://avanatoken.com/',
+    twitter: 'https://twitter.com/AvanaProject',
+    audit: 'https://hashex.org/audits/avana-token/',
+    harvest: true,
+    tokenPerBlock: '1.491898148148148148',
     sortOrder: 1,
     isFinished: false,
     tokenDecimals: 18,
