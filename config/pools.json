@@ -6344,6 +6344,45 @@
     "tokenDecimals": 18
   },
   {
+    "sousId": 233,
+    "tokenName": "WCFLT",
+    "image": "WCFLT.svg",
+    "stakingToken": {
+      "symbol": "WCFLT-BNB",
+      "address": {
+        "56": "0xa85Ce9F40ed9DBCaE8A597e632d490669A45401F"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "rewardToken": {
+      "symbol": "WCFLT",
+      "address": {
+        "56": "0xC73d9b9616e855dF4a0b32C3f1ef2ed5DC9C1990"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "contractAddress": {
+      "56": "0x0d665613d47C7eCC1B126bF56D5fa6373E3000b6",
+      "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
+    },
+    "poolCategory": "Jungle",
+    "projectLink": "https://www.coinflect.com/",
+    "twitter": "https://twitter.com/coinflect?lang=en",
+    "harvest": true,
+    "tokenPerBlock": "108.140734953703703703",
+    "sortOrder": 1,
+    "reflect": false,
+    "isFinished": false,
+    "tokenDecimals": 18
+  },
+  {
     "sousId": 96,
     "tokenName": "BANANA",
     "image": "BANANA.svg",

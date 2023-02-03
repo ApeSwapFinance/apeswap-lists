@@ -1763,6 +1763,14 @@ const tokens: Record<string, Token> = {
     decimals: { [ChainId.BSC]: 18 },
     active: true,
   },
+  wcflt: {
+    symbol: 'WCFLT',
+    address: {
+      [ChainId.BSC]: '0xC73d9b9616e855dF4a0b32C3f1ef2ed5DC9C1990',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+  },
   xcur: {
     symbol: 'XCUR',
     address: {
@@ -2313,6 +2321,17 @@ const tokens: Record<string, Token> = {
     symbol: 'AVAN-BNB',
     address: {
       [ChainId.BSC]: '0x713B273738779C9EA97472AebbD4f7Da5863De78',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+    lpToken: true,
+  },
+  wcfltBnb: {
+    symbol: 'WCFLT-BNB',
+    address: {
+      [ChainId.BSC]: '0xa85Ce9F40ed9DBCaE8A597e632d490669A45401F',
     },
     decimals: {
       [ChainId.BSC]: 18,
