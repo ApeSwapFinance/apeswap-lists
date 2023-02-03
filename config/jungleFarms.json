@@ -1602,5 +1602,71 @@
     "lpStaking": true,
     "isEarnTokenLp": false,
     "network": 56
+  },
+  {
+    "jungleId": 15,
+    "tokenName": "WCFLT-BNB",
+    "image": "WCFLT.svg",
+    "stakingToken": {
+      "symbol": "WCFLT-BNB",
+      "address": {
+        "56": "0xa85Ce9F40ed9DBCaE8A597e632d490669A45401F"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "rewardToken": {
+      "symbol": "WCFLT",
+      "address": {
+        "56": "0xC73d9b9616e855dF4a0b32C3f1ef2ed5DC9C1990"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "lpTokens": {
+      "token": {
+        "symbol": "WCFLT",
+        "address": {
+          "56": "0xC73d9b9616e855dF4a0b32C3f1ef2ed5DC9C1990"
+        },
+        "decimals": {
+          "56": 18
+        },
+        "active": true
+      },
+      "quoteToken": {
+        "symbol": "BNB",
+        "address": {
+          "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+          "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+          "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        },
+        "decimals": {
+          "56": 18,
+          "97": 18,
+          "137": 18
+        },
+        "active": true
+      }
+    },
+    "contractAddress": {
+      "56": "0x0d665613d47C7eCC1B126bF56D5fa6373E3000b6"
+    },
+    "projectLink": "https://www.coinflect.com/",
+    "twitter": "https://twitter.com/coinflect?lang=en",
+    "audit": "https://github.com/coinflect/wrapped-coinflect-audit/blob/main/Wrapped%20Coinflect%20Smart%20Contract%20Security%20Audit.pdf",
+    "harvest": true,
+    "tokenPerBlock": "108.140734953703703703",
+    "sortOrder": 1,
+    "isFinished": false,
+    "tokenDecimals": 18,
+    "lpStaking": true,
+    "isEarnTokenLp": false,
+    "network": 56
   }
 ]
