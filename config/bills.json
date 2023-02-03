@@ -1,10 +1,75 @@
 [
   {
+    "index": 45,
+    "contractAddress": {
+      "56": "0xd9CEfE574c7C005De8ccC09B10Cc0E1D0Fda39f9"
+    },
+    "billType": "JUNGLE Bill",
+    "token": {
+      "symbol": "FLOKI",
+      "address": {
+        "56": "0xfb5b838b6cfeedc2873ab27866079ac55363d37e"
+      },
+      "decimals": {
+        "56": 9
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "FLOKI-BNB",
+      "address": {
+        "56": "0xacc22e0ff64e788e6ad569a57d130b9d957494dc"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "FLOKI",
+      "address": {
+        "56": "0xfb5b838b6cfeedc2873ab27866079ac55363d37e"
+      },
+      "decimals": {
+        "56": 9
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xce112E14e23B7700Ad4915290EA24575F01609fa"
+    },
+    "billVersion": "V2",
+    "projectLink": "https://www.floki.com/",
+    "twitter": "https://twitter.com/realflokiinu",
+    "initTime": {
+      "56": 1660217658
+    },
+    "initPrice": {
+      "56": 0.00001504435067868268
+    }
+  },
+  {
     "index": 32,
     "contractAddress": {
       "56": "0xa45dc4b9743d489e9b91070b27e72094b697632d"
     },
     "billType": "BANANA Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "BANANA",
       "address": {
@@ -86,6 +151,7 @@
       "56": "0x3a4de56b96d5befd0c9f3fb214372699f2d58947"
     },
     "billType": "BANANA Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "BUSD",
       "address": {
@@ -159,6 +225,7 @@
       "56": "0xb0992d86e7d4de0200c463e6451cce1f2775903b"
     },
     "billType": "BANANA Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "BUSD",
       "address": {
@@ -232,6 +299,7 @@
       "56": "0x08dd5a43e5fc889f2100023f8296e14d9fd40064"
     },
     "billType": "BANANA Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "ETH",
       "address": {
@@ -309,6 +377,7 @@
       "56": "0x069002be4ec72333a3fa8a5730e8b84680a190a4"
     },
     "billType": "BANANA Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "BTC",
       "address": {
@@ -386,6 +455,7 @@
       "56": "0x279c47aE7846962037077338505c657ad65D0DeE"
     },
     "billType": "JUNGLE Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "LIQ",
       "address": {
@@ -448,6 +518,7 @@
       "56": "0xaf7F491e77f4979faadbE24866D4471De23bd0a0"
     },
     "billType": "JUNGLE Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "MONSTA",
       "address": {
@@ -512,6 +583,7 @@
       "56": "0x2e9bdb018850747dc557d13046b8259ab24c674a"
     },
     "billType": "JUNGLE Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "RADAR",
       "address": {
@@ -576,6 +648,7 @@
       "56": "0x5aabc088b42c197c8da69af5471aa06c3852912b"
     },
     "billType": "JUNGLE Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "IHC",
       "address": {
@@ -640,6 +713,7 @@
       "56": "0xfe69f6f456fdc5535e7a7a03bb78f739400bc8e0"
     },
     "billType": "JUNGLE Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "LIQ",
       "address": {
@@ -701,6 +775,7 @@
       "56": "0x74dab17e30b974a3590796a8ba2223a50da6a32c"
     },
     "billType": "JUNGLE Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "PSTN",
       "address": {
@@ -762,6 +837,7 @@
       "56": "0xEd242A13d25b5B2270E90058C9a1A756811cdb93"
     },
     "billType": "JUNGLE Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "GQ",
       "address": {
@@ -823,6 +899,7 @@
       "56": "0xb95bd2dc93562fd9076c0573615de42b413db256"
     },
     "billType": "JUNGLE Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "LEAP",
       "address": {
@@ -887,6 +964,7 @@
       "56": "0xced994206cd4c364d7bda2b66b48fcaef9b6bb5b"
     },
     "billType": "JUNGLE Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "NFTY",
       "address": {
@@ -948,6 +1026,7 @@
       "56": "0x7aa1939b8284a2defdcb5e983de55da2ad61f607"
     },
     "billType": "JUNGLE Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "3AIR",
       "address": {
@@ -1012,6 +1091,7 @@
       "56": "0x626b5c18a2b702a189ea022df897a4f0f3566785"
     },
     "billType": "JUNGLE Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "COC",
       "address": {
@@ -1075,6 +1155,7 @@
       "56": "0x7b1dfe9ca71ffeac5ed4d1beb592771e3672a2de"
     },
     "billType": "JUNGLE Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "CHRP",
       "address": {
@@ -1139,6 +1220,7 @@
       "56": "0xb646c4a51365598433ba4765b890ad3075e4e21e"
     },
     "billType": "JUNGLE Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "GMR",
       "address": {
@@ -1203,6 +1285,7 @@
       "56": "0x63571f457f246124c6968579E8797B91613dED20"
     },
     "billType": "JUNGLE Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "XCUR",
       "address": {
@@ -1264,6 +1347,7 @@
       "56": "0x7fdb62f681d7aad8c08a1d6af350e2fb7f265336"
     },
     "billType": "JUNGLE Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "GQ",
       "address": {
@@ -1326,6 +1410,7 @@
       "56": "0x07968648273e29f5e2fe07aabf5fbc3b40892592"
     },
     "billType": "JUNGLE Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "PSTN",
       "address": {
@@ -1382,6 +1467,7 @@
       "56": "0xff674209beeb493f9e8c44898848c6cfd710e98f"
     },
     "billType": "JUNGLE Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "XWIN",
       "address": {
@@ -1445,6 +1531,7 @@
       "56": "0x2f8042167b0549ef56e55b9c1ace661b10ad93ea"
     },
     "billType": "JUNGLE Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "FROYO",
       "address": {
@@ -1508,6 +1595,7 @@
       "56": "0xc117e57f4fa2fc1c2759228e0f85bc6d1c89be36"
     },
     "billType": "JUNGLE Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "FROYO",
       "address": {
@@ -1566,6 +1654,7 @@
       "56": "0x7e7842f762b27a024f7c3b95495f1d132c554d6b"
     },
     "billType": "JUNGLE Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "BLID",
       "address": {
@@ -1629,6 +1718,7 @@
       "56": "0x99eea57cdc8983992a3c1505dbf7181467daa22f"
     },
     "billType": "JUNGLE Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "HEC",
       "address": {
@@ -1692,6 +1782,7 @@
       "56": "0x80ef5c5215ff56a12b5e59c2acfc279c763ae34b"
     },
     "billType": "JUNGLE Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "FLOKI",
       "address": {
@@ -1755,6 +1846,7 @@
       "56": "0x3f02ce456b9da36352439fbd1897c2233a77e46f"
     },
     "billType": "JUNGLE Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "RADAR",
       "address": {
@@ -1813,6 +1905,7 @@
       "56": "0x1c36913ca7c64365a54694cd91dde9c7cf5e44ec"
     },
     "billType": "JUNGLE Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "CEEK",
       "address": {
@@ -1876,6 +1969,7 @@
       "56": "0xd9e18fae215f10f4ce35a24fcbfe944fbfb96643"
     },
     "billType": "JUNGLE Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "NFTY",
       "address": {
@@ -1934,6 +2028,7 @@
       "56": "0xda0149da023cb204b3ffba33a88d9dd19393c6fc"
     },
     "billType": "JUNGLE Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "TLOS",
       "address": {
@@ -1994,6 +2089,7 @@
       "56": "0xaf3016100f67c66af15c973cb8da94962653a726"
     },
     "billType": "JUNGLE Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "STARS",
       "address": {
@@ -2057,6 +2153,7 @@
       "56": "0x6a5be77e3fc1c99ef4aae2846432d61fa78a564c"
     },
     "billType": "JUNGLE Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "HOTCROSS",
       "address": {
@@ -2118,6 +2215,7 @@
       "56": "0xb5fd0ac23267da501fc6c59c6e12ae32831e72bb"
     },
     "billType": "JUNGLE Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "HOTCROSS",
       "address": {
@@ -2179,6 +2277,7 @@
       "56": "0x4a3adf34b1f8830fb8d673477d52fa5cb91a2531"
     },
     "billType": "JUNGLE Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "TLOS",
       "address": {
@@ -2244,6 +2343,7 @@
       "56": "0x8b57Fc5BE65118188D50d42fcD5614e447F7FAbE"
     },
     "billType": "BANANA Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "BANANA",
       "address": {
@@ -2320,6 +2420,7 @@
       "56": "0x4925AcdE0E885170801A74DEBcC8fbA91F3aE29b"
     },
     "billType": "BANANA Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "BUSD",
       "address": {
@@ -2388,6 +2489,7 @@
       "56": "0xca1612f66292398a5df0ecadd98bb81dc264349d"
     },
     "billType": "BANANA Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "BUSD",
       "address": {
@@ -2456,6 +2558,7 @@
       "56": "0xb2d516086BFc978950e40D2739c72125415441a8"
     },
     "billType": "BANANA Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "ETH",
       "address": {
@@ -2528,6 +2631,7 @@
       "56": "0xBD9959320cbbC69b2eF7d07fb3f9870cceaeB44f"
     },
     "billType": "BANANA Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "BTC",
       "address": {
@@ -2600,6 +2704,7 @@
       "56": "0xE325439439D692DC858Ba887601999D57d35688F"
     },
     "billType": "BANANA Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "BANANA",
       "address": {
@@ -2676,6 +2781,7 @@
       "56": "0xf297F71f4664cF7F1Cd5d90720967998A1163cC3"
     },
     "billType": "BANANA Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "BUSD",
       "address": {
@@ -2744,6 +2850,7 @@
       "56": "0x937A30Fd88f48B23DeABf4fD43c42cc9d3f3F9Dd"
     },
     "billType": "BANANA Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "BUSD",
       "address": {
@@ -2812,6 +2919,7 @@
       "56": "0x2D375a67366eDFB92F520aE428E8E08451D638d2"
     },
     "billType": "BANANA Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "ETH",
       "address": {
@@ -2884,6 +2992,7 @@
       "56": "0x44921f493887ab8a8b9db54db335f65c1ef8d51a"
     },
     "billType": "BANANA Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "BTC",
       "address": {
@@ -2956,6 +3065,7 @@
       "137": "0xb53b2706897a26fec9113f3e2371ac5b2b88970a"
     },
     "billType": "Jungle Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "AXN",
       "address": {
@@ -3020,6 +3130,7 @@
       "137": "0x643a6848a3906182a94ec857a41c1735664c677f"
     },
     "billType": "Jungle Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "DOGIRA",
       "address": {
@@ -3076,6 +3187,7 @@
       "137": "0xca48704b19a053ebb5a077c215dcb4be745c9fe5"
     },
     "billType": "Jungle Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "TRAXX",
       "address": {
@@ -3138,6 +3250,7 @@
       "137": "0xc16cf0e4c090409765757e5b13afdfc500148678"
     },
     "billType": "Jungle Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "DOGIRA",
       "address": {
@@ -3200,6 +3313,7 @@
       "40": "0x1Bb2Eb63c2B2CD1cE5887B4628694276E637BeD7"
     },
     "billType": "Jungle Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "BANANA",
       "address": {
@@ -3272,6 +3386,7 @@
       "40": "0xe3725Eccd93bb544b360BB572893eF17E42219c4"
     },
     "billType": "Jungle Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "ETH",
       "address": {
@@ -3342,6 +3457,7 @@
       "40": "0x81f2BA390934df655eABcc3787F4f5f694e722ED"
     },
     "billType": "Jungle Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "BTC",
       "address": {
@@ -3412,6 +3528,7 @@
       "40": "0x68aEaAbE6EbBd2b5Cf0130d0BAAef1Ec5E0539Aa"
     },
     "billType": "Jungle Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "USDT",
       "address": {
@@ -3480,6 +3597,7 @@
       "40": "0xb3a0b38E5C07db5238538a640155562085F22bCe"
     },
     "billType": "Jungle Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "USDC",
       "address": {
@@ -3548,6 +3666,7 @@
       "40": "0x7C02E197BC2644FE0E9834641F80aC0A15055ad7"
     },
     "billType": "Jungle Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "BANANA",
       "address": {
@@ -3614,6 +3733,7 @@
       "40": "0x76a33a5d002C711A3F353cB4Ee2B112B579c317a"
     },
     "billType": "Jungle Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "ETH",
       "address": {
@@ -3678,6 +3798,7 @@
       "40": "0xa08A0125F4B85320e2357174EDC9E262098BF850"
     },
     "billType": "Jungle Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "BTC",
       "address": {
@@ -3742,6 +3863,7 @@
       "40": "0xD1FbE4EAFAcB7FdC56F7Aa8dA24198b01942C677"
     },
     "billType": "Jungle Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "USDT",
       "address": {
@@ -3804,6 +3926,7 @@
       "40": "0xc17a1ea1Da9975A2fad85eC7C39AEBA2B4BfEA11"
     },
     "billType": "Jungle Bill",
+    "billVersion": "V1",
     "token": {
       "symbol": "USDC",
       "address": {

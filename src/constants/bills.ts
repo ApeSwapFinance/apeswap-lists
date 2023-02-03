@@ -10,7 +10,7 @@ const bills: BillsConfig[] = [
   {
     index: 45,
     contractAddress: {
-      [ChainId.BSC]: '0x95E50385D00fF4f7838CA2b948589145E7Dd36Ab',
+      [ChainId.BSC]: '0xd9CEfE574c7C005De8ccC09B10Cc0E1D0Fda39f9',
     },
     billType: 'JUNGLE Bill',
     token: tokens.floki,
