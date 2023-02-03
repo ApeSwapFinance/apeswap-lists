@@ -606,7 +606,7 @@ const jungleFarms: JungleFarmConfig[] = [
   },
   {
     jungleId: 15,
-    tokenName: 'WCFLT',
+    tokenName: 'WCFLT-BNB',
     image: 'WCFLT.svg',
     stakingToken: tokens.wcfltBnb,
     rewardToken: tokens.wcflt,

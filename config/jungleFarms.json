@@ -1605,7 +1605,7 @@
   },
   {
     "jungleId": 15,
-    "tokenName": "WCFLT",
+    "tokenName": "WCFLT-BNB",
     "image": "WCFLT.svg",
     "stakingToken": {
       "symbol": "WCFLT-BNB",
