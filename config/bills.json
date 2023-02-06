@@ -381,6 +381,70 @@
     }
   },
   {
+    "index": 45,
+    "contractAddress": {
+      "56": "0x44c2211976f796d439e82036006d9559c1b1fbdb"
+    },
+    "billType": "JUNGLE Bill",
+    "token": {
+      "symbol": "AVAN",
+      "address": {
+        "56": "0xf84C55e79858B448c3015c3a1A55efED9EdF69c7"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "AVAN-BNB",
+      "address": {
+        "56": "0x713B273738779C9EA97472AebbD4f7Da5863De78"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "AVAN",
+      "address": {
+        "56": "0xf84C55e79858B448c3015c3a1A55efED9EdF69c7"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
+    },
+    "projectLink": "https://avanatoken.com/",
+    "twitter": "https://twitter.com/AvanaProject",
+    "audit": "https://hashex.org/audits/avana-token/",
+    "initTime": {
+      "56": 1675687946
+    },
+    "initPrice": {
+      "56": 0.029782
+    }
+  },
+  {
     "index": 43,
     "contractAddress": {
       "56": "0x279c47aE7846962037077338505c657ad65D0DeE"
