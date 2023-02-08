@@ -66,6 +66,23 @@ const farmsV2: FarmConfig[] = [
     quoteTokenAdresses: tokens.busd.address,
   },
   {
+    pid: 65,
+    image: 'ZBC.svg',
+    lpSymbol: tokens.zbcBusd.symbol,
+    lpAddresses: {
+      [ChainId.BSC]: tokens.zbcBusd.address[ChainId.BSC],
+      [ChainId.BSC_TESTNET]: '',
+    },
+    tokenSymbol: tokens.zbc.symbol,
+    tokenAddresses: {
+      [ChainId.BSC]: tokens.zbc.address[ChainId.BSC],
+      [ChainId.BSC_TESTNET]: '',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: tokens.busd.address,
+    projectLink: 'https://zebec.io/',
+  },
+  {
     pid: 64,
     image: 'MONSTA.svg',
     lpSymbol: tokens.monstaBnb.symbol,
