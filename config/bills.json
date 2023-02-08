@@ -381,6 +381,70 @@
     }
   },
   {
+    "index": 46,
+    "contractAddress": {
+      "56": "0x12c42b96ff1248471bbc9da06d7fee828e6f7db2"
+    },
+    "billType": "JUNGLE Bill",
+    "token": {
+      "symbol": "WCFLT",
+      "address": {
+        "56": "0xC73d9b9616e855dF4a0b32C3f1ef2ed5DC9C1990"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "WCFLT-BNB",
+      "address": {
+        "56": "0xa85Ce9F40ed9DBCaE8A597e632d490669A45401F"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "WCFLT",
+      "address": {
+        "56": "0xC73d9b9616e855dF4a0b32C3f1ef2ed5DC9C1990"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
+    },
+    "projectLink": "https://www.coinflect.com/",
+    "twitter": "https://twitter.com/coinflect?lang=en",
+    "audit": "https://github.com/coinflect/wrapped-coinflect-audit/blob/main/Wrapped%20Coinflect%20Smart%20Contract%20Security%20Audit.pdf",
+    "initTime": {
+      "56": 1675861237
+    },
+    "initPrice": {
+      "56": 0.00004566
+    }
+  },
+  {
     "index": 45,
     "contractAddress": {
       "56": "0x44c2211976f796d439e82036006d9559c1b1fbdb"

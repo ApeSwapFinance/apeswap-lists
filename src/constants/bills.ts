@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillsConfig } from '../types'
 
-// BNB Largest ID: 45
+// BNB Largest ID: 46
 // Polygon Largest ID: 103
 // Telos Largest ID: 210
 
@@ -96,6 +96,26 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/ape_swap',
     initTime: { [ChainId.BSC]: 1668467108 },
     initPrice: { [ChainId.BSC]: 0.0709352845097292 },
+  },
+  {
+    index: 46,
+    contractAddress: {
+      [ChainId.BSC]: '0x12c42b96ff1248471bbc9da06d7fee828e6f7db2',
+    },
+    billType: 'JUNGLE Bill',
+    token: tokens.wcflt,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.wcfltBnb,
+    earnToken: tokens.wcflt,
+    billNnftAddress: {
+      [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
+    },
+    projectLink: 'https://www.coinflect.com/',
+    twitter: 'https://twitter.com/coinflect?lang=en',
+    audit:
+      'https://github.com/coinflect/wrapped-coinflect-audit/blob/main/Wrapped%20Coinflect%20Smart%20Contract%20Security%20Audit.pdf',
+    initTime: { [ChainId.BSC]: 1675861237 },
+    initPrice: { [ChainId.BSC]: 0.00004566 },
   },
   {
     index: 45,
