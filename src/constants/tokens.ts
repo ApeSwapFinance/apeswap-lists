@@ -2339,6 +2339,17 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
   },
+  zbcBusd: {
+    symbol: 'ZBC-BUSD',
+    address: {
+      [ChainId.BSC]: '0xdfc7b9b17ef17da19abb0d3a3aeeb8aeff5b0183',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+    lpToken: true,
+  },
   aaveBnb: {
     symbol: 'AAVE-BNB',
     address: {
