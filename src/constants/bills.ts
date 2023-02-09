@@ -2,15 +2,15 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillsConfig, BillVersion } from '../types'
 
-// BNB Largest ID: 46
+// BNB Largest ID: 51
 // Polygon Largest ID: 103
 // Telos Largest ID: 210
 
 const bills: BillsConfig[] = [
   {
-    index: 1,
+    index: 47,
     contractAddress: {
-      [ChainId.BSC]: '0x9C18c6F0b99075aceC525d4877F22405c2Fbdd0d',
+      [ChainId.BSC]: '0xc10BD711C939f972aB7523dc1E948E5DB53B5759',
     },
     billType: 'BANANA Bill',
     billVersion: BillVersion.V2,
@@ -19,13 +19,88 @@ const bills: BillsConfig[] = [
     lpToken: tokens.bananaBnb,
     earnToken: tokens.banana,
     billNnftAddress: {
-      [ChainId.BSC]: '0xce112E14e23B7700Ad4915290EA24575F01609fa',
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: true,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
-    initTime: { [ChainId.BSC]: 1660217658 },
-    initPrice: { [ChainId.BSC]: 0.00001504435067868268 },
+    initTime: { [ChainId.BSC]: 1675904338 },
+    initPrice: { [ChainId.BSC]: 0.073805 },
+  },
+  {
+    index: 48,
+    contractAddress: {
+      [ChainId.BSC]: '0xDfE0C1Ee6E3383E2E50f95541881040d278720C9',
+    },
+    billType: 'BANANA Bill',
+    billVersion: BillVersion.V2,
+    token: tokens.busd,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.bnbBusd,
+    earnToken: tokens.banana,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://apeswap.finance/',
+    twitter: 'https://twitter.com/ape_swap',
+    initTime: { [ChainId.BSC]: 1675904338 },
+    initPrice: { [ChainId.BSC]: 0.073805 },
+  },
+  {
+    index: 49,
+    contractAddress: {
+      [ChainId.BSC]: '0x9632D29b4786699C4262F59526D0DA0C9E7C7a72',
+    },
+    billType: 'BANANA Bill',
+    billVersion: BillVersion.V2,
+    token: tokens.busd,
+    quoteToken: tokens.usdc,
+    lpToken: tokens.usdcBusd,
+    earnToken: tokens.banana,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://apeswap.finance/',
+    twitter: 'https://twitter.com/ape_swap',
+    initTime: { [ChainId.BSC]: 1675904338 },
+    initPrice: { [ChainId.BSC]: 0.073805 },
+  },
+  {
+    index: 50,
+    contractAddress: {
+      [ChainId.BSC]: '0x1Ca83Ba8e7927e65764Ff07A61BCe8D12147CBD9',
+    },
+    billType: 'BANANA Bill',
+    billVersion: BillVersion.V2,
+    token: tokens.eth,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.bnbEth,
+    earnToken: tokens.banana,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://apeswap.finance/',
+    twitter: 'https://twitter.com/ape_swap',
+    initTime: { [ChainId.BSC]: 1675904338 },
+    initPrice: { [ChainId.BSC]: 0.073805 },
+  },
+  {
+    index: 51,
+    contractAddress: {
+      [ChainId.BSC]: '0xAB60c836793e04DDA3168fCd4e36AF52Bf6e65Cf',
+    },
+    billType: 'BANANA Bill',
+    billVersion: BillVersion.V2,
+    token: tokens.btc,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.bnbBtc,
+    earnToken: tokens.banana,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://apeswap.finance/',
+    twitter: 'https://twitter.com/ape_swap',
+    initTime: { [ChainId.BSC]: 1675904338 },
+    initPrice: { [ChainId.BSC]: 0.073805 },
   },
   {
     index: 46,
@@ -841,6 +916,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/ape_swap',
     initTime: { [ChainId.BSC]: 1668467108 },
     initPrice: { [ChainId.BSC]: 0.0709352845097292 },
+    inactive: true,
   },
   {
     index: 33,
@@ -860,6 +936,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/ape_swap',
     initTime: { [ChainId.BSC]: 1668467108 },
     initPrice: { [ChainId.BSC]: 0.0709352845097292 },
+    inactive: true,
   },
   {
     index: 34,
@@ -879,6 +956,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/ape_swap',
     initTime: { [ChainId.BSC]: 1668467108 },
     initPrice: { [ChainId.BSC]: 0.0709352845097292 },
+    inactive: true,
   },
   {
     index: 35,
@@ -898,6 +976,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/ape_swap',
     initTime: { [ChainId.BSC]: 1668467108 },
     initPrice: { [ChainId.BSC]: 0.0709352845097292 },
+    inactive: true,
   },
   {
     index: 36,
@@ -917,6 +996,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/ape_swap',
     initTime: { [ChainId.BSC]: 1668467108 },
     initPrice: { [ChainId.BSC]: 0.0709352845097292 },
+    inactive: true,
   },
 
   /*
