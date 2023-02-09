@@ -5,7 +5,7 @@ import { ChainId } from '@ape.swap/sdk'
 const jungleFarms: JungleFarmConfig[] = [
   /*
     CHAIN ID 40 - TLOS Jungle Farms
-    Current Jungle ID = 8
+    Current Jungle ID = 16
   */
   {
     jungleId: 1,
@@ -623,6 +623,31 @@ const jungleFarms: JungleFarmConfig[] = [
       'https://github.com/coinflect/wrapped-coinflect-audit/blob/main/Wrapped%20Coinflect%20Smart%20Contract%20Security%20Audit.pdf',
     harvest: true,
     tokenPerBlock: '108.140734953703703703',
+    sortOrder: 1,
+    isFinished: false,
+    tokenDecimals: 18,
+    lpStaking: true,
+    isEarnTokenLp: false,
+    network: ChainId.BSC,
+  },
+  {
+    jungleId: 16,
+    tokenName: tokens.xtalBusd.symbol,
+    image: 'XTAL.png',
+    stakingToken: tokens.xtalBusd,
+    rewardToken: tokens.xtal,
+    lpTokens: {
+      token: tokens.xtal,
+      quoteToken: tokens.busd,
+    },
+    contractAddress: {
+      [ChainId.BSC]: '0x2b8874CA3C7BD88e31b4b7938C56963c5121f914',
+    },
+    projectLink: 'https://talesofxtalnia.com/',
+    twitter: 'https://twitter.com/xtalnia',
+    audit: 'https://hashex.org/audits/xtal-token/',
+    harvest: true,
+    tokenPerBlock: '0.09352199074074074',
     sortOrder: 1,
     isFinished: false,
     tokenDecimals: 18,

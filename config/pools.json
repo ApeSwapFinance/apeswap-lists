@@ -6369,14 +6369,52 @@
       "active": true
     },
     "contractAddress": {
-      "56": "0x0d665613d47C7eCC1B126bF56D5fa6373E3000b6",
-      "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
+      "56": "0x0d665613d47C7eCC1B126bF56D5fa6373E3000b6"
     },
     "poolCategory": "Jungle",
     "projectLink": "https://www.coinflect.com/",
     "twitter": "https://twitter.com/coinflect?lang=en",
     "harvest": true,
     "tokenPerBlock": "108.140734953703703703",
+    "sortOrder": 1,
+    "reflect": false,
+    "isFinished": false,
+    "tokenDecimals": 18
+  },
+  {
+    "sousId": 234,
+    "tokenName": "XTAL",
+    "image": "XTAL.png",
+    "stakingToken": {
+      "symbol": "XTAL-BUSD",
+      "address": {
+        "56": "0x40C8a7142CF776FB94A29e19EF31220555e672b1"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "rewardToken": {
+      "symbol": "XTAL",
+      "address": {
+        "56": "0xd23eae3926431C794e2a04e1622A9446D61174A4"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "contractAddress": {
+      "56": "0x0d665613d47C7eCC1B126bF56D5fa6373E3000b6"
+    },
+    "poolCategory": "Jungle",
+    "projectLink": "https://talesofxtalnia.com/",
+    "twitter": "https://twitter.com/xtalnia",
+    "audit": "https://hashex.org/audits/xtal-token/",
+    "harvest": true,
+    "tokenPerBlock": "0.09352199074074074",
     "sortOrder": 1,
     "reflect": false,
     "isFinished": false,

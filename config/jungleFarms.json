@@ -1668,5 +1668,69 @@
     "lpStaking": true,
     "isEarnTokenLp": false,
     "network": 56
+  },
+  {
+    "jungleId": 16,
+    "tokenName": "XTAL-BUSD",
+    "image": "XTAL.png",
+    "stakingToken": {
+      "symbol": "XTAL-BUSD",
+      "address": {
+        "56": "0x40C8a7142CF776FB94A29e19EF31220555e672b1"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "rewardToken": {
+      "symbol": "XTAL",
+      "address": {
+        "56": "0xd23eae3926431C794e2a04e1622A9446D61174A4"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "lpTokens": {
+      "token": {
+        "symbol": "XTAL",
+        "address": {
+          "56": "0xd23eae3926431C794e2a04e1622A9446D61174A4"
+        },
+        "decimals": {
+          "56": 18
+        },
+        "active": true
+      },
+      "quoteToken": {
+        "symbol": "BUSD",
+        "address": {
+          "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+          "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
+        },
+        "decimals": {
+          "56": 18,
+          "97": 18
+        },
+        "active": true
+      }
+    },
+    "contractAddress": {
+      "56": "0x2b8874CA3C7BD88e31b4b7938C56963c5121f914"
+    },
+    "projectLink": "https://talesofxtalnia.com/",
+    "twitter": "https://twitter.com/xtalnia",
+    "audit": "https://hashex.org/audits/xtal-token/",
+    "harvest": true,
+    "tokenPerBlock": "0.09352199074074074",
+    "sortOrder": 1,
+    "isFinished": false,
+    "tokenDecimals": 18,
+    "lpStaking": true,
+    "isEarnTokenLp": false,
+    "network": 56
   }
 ]
