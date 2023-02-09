@@ -42,11 +42,16 @@ export interface MasterChef {
   rewardToken: Token
 }
 
-// Start of list types
+export enum BillVersion {
+  V1 = 'V1',
+  V2 = 'V2',
+}
 
+// Start of list types
 export interface BillsConfig {
   index: number
   contractAddress: Partial<Record<ChainId, string>>
+  billVersion: BillVersion
   billType: string
   token: Token
   quoteToken: Token

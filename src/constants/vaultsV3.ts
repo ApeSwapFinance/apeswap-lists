@@ -535,6 +535,7 @@ const vaults: VaultConfig[] = [
       },
       rewardToken: tokens.banana,
     },
+    inactive: true,
   },
   {
     id: 18,
@@ -563,6 +564,7 @@ const vaults: VaultConfig[] = [
       },
       rewardToken: tokens.banana,
     },
+    inactive: true,
   },
 ]
 

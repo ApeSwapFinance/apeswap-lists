@@ -1707,6 +1707,14 @@ const tokens: Record<string, Token> = {
     decimals: { [ChainId.BSC]: 18 },
     active: true,
   },
+  xtal: {
+    symbol: 'XTAL',
+    address: {
+      [ChainId.BSC]: '0xd23eae3926431C794e2a04e1622A9446D61174A4',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+  },
   threeair: {
     symbol: '3AIR',
     address: {
@@ -2079,6 +2087,17 @@ const tokens: Record<string, Token> = {
     symbol: 'COC-BNB',
     address: {
       [ChainId.BSC]: '0x5467dD00ca4d91010Ab2A3aEF8a0162DC218801A',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+    lpToken: true,
+  },
+  xtalBusd: {
+    symbol: 'XTAL-BUSD',
+    address: {
+      [ChainId.BSC]: '0x40C8a7142CF776FB94A29e19EF31220555e672b1',
     },
     decimals: {
       [ChainId.BSC]: 18,
