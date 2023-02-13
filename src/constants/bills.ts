@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillsConfig, BillVersion } from '../types'
 
-// BNB Largest ID: 51
+// BNB Largest ID: 52
 // Polygon Largest ID: 103
 // Telos Largest ID: 210
 
@@ -101,6 +101,26 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/ape_swap',
     initTime: { [ChainId.BSC]: 1675904338 },
     initPrice: { [ChainId.BSC]: 0.073805 },
+  },
+  {
+    index: 52,
+    contractAddress: {
+      [ChainId.BSC]: '0x6ed6Ccf1f55f3C42438265d1c1C58B9e6756fb1a',
+    },
+    billType: 'JUNGLE Bill',
+    billVersion: BillVersion.V2,
+    token: tokens.xtal,
+    quoteToken: tokens.busd,
+    lpToken: tokens.xtalBusd,
+    earnToken: tokens.xtal,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://talesofxtalnia.com/',
+    twitter: 'https://twitter.com/xtalnia',
+    audit: 'https://github.com/HashEx/public_audits/blob/master/XTAL%20Token/XTAL%20Token.pdf',
+    initTime: { [ChainId.BSC]: 1676322242 },
+    initPrice: { [ChainId.BSC]: 0.438389 },
   },
   {
     index: 46,
