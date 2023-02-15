@@ -246,7 +246,7 @@ const jungleFarms: JungleFarmConfig[] = [
     twitter: 'https://twitter.com/stader_bnb',
     audit: 'https://www.certik.com/projects/Stader',
     harvest: true,
-    tokenPerBlock: '0.012393042',
+    tokenPerBlock: '0.00616030594',
     sortOrder: 1,
     isFinished: false,
     tokenDecimals: 18,
