@@ -103,6 +103,26 @@ const bills: BillsConfig[] = [
     initPrice: { [ChainId.BSC]: 0.073805 },
   },
   {
+    index: 53,
+    contractAddress: {
+      [ChainId.BSC]: '0xF3DADCFa7114652Ca750e0C653A00DeCB63B4d0F',
+    },
+    billType: 'JUNGLE Bill',
+    billVersion: BillVersion.V2,
+    token: tokens.trivia,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.triviaBnb,
+    earnToken: tokens.trivia,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://trivians.io/',
+    twitter: 'https://twitter.com/PlayTrivians',
+    audit: 'https://hacken.io/wp-content/uploads/2022/06/Trivians_29062022_SCAudit_Report_2.pdf',
+    initTime: { [ChainId.BSC]: 1676467044 },
+    initPrice: { [ChainId.BSC]: 0.00342517 },
+  },
+  {
     index: 52,
     contractAddress: {
       [ChainId.BSC]: '0x6ed6Ccf1f55f3C42438265d1c1C58B9e6756fb1a',

@@ -386,6 +386,71 @@
     }
   },
   {
+    "index": 53,
+    "contractAddress": {
+      "56": "0xF3DADCFa7114652Ca750e0C653A00DeCB63B4d0F"
+    },
+    "billType": "JUNGLE Bill",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "TRIVIA",
+      "address": {
+        "56": "0xb465f3cb6Aba6eE375E12918387DE1eaC2301B05"
+      },
+      "decimals": {
+        "56": 3
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "TRIVIA-BNB",
+      "address": {
+        "56": "0x481308c94ac14dab839cc453cdc330f0632f1b0f"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "TRIVIA",
+      "address": {
+        "56": "0xb465f3cb6Aba6eE375E12918387DE1eaC2301B05"
+      },
+      "decimals": {
+        "56": 3
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "projectLink": "https://trivians.io/",
+    "twitter": "https://twitter.com/PlayTrivians",
+    "audit": "https://hacken.io/wp-content/uploads/2022/06/Trivians_29062022_SCAudit_Report_2.pdf",
+    "initTime": {
+      "56": 1676467044
+    },
+    "initPrice": {
+      "56": 0.00342517
+    }
+  },
+  {
     "index": 52,
     "contractAddress": {
       "56": "0x6ed6Ccf1f55f3C42438265d1c1C58B9e6756fb1a"
