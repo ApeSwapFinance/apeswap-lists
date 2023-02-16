@@ -1795,6 +1795,14 @@ const tokens: Record<string, Token> = {
     decimals: { [ChainId.BSC]: 18 },
     active: true,
   },
+  cvl: {
+    symbol: 'CVL',
+    address: {
+      [ChainId.BSC]: '0x9Ae0290cD677dc69A5f2a1E435EF002400Da70F5',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+  },
   axn: {
     symbol: 'AXN',
     address: {
@@ -2362,6 +2370,28 @@ const tokens: Record<string, Token> = {
     symbol: 'ZBC-BUSD',
     address: {
       [ChainId.BSC]: '0xdfc7b9b17ef17da19abb0d3a3aeeb8aeff5b0183',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+    lpToken: true,
+  },
+  cvlUsdt: {
+    symbol: 'CVL-USDT',
+    address: {
+      [ChainId.BSC]: '0xd771c603613b88beacefb29fa573e654cd528f21',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+    lpToken: true,
+  },
+  tlosUsdc: {
+    symbol: 'TLOS-USDC',
+    address: {
+      [ChainId.BSC]: '0x3a299094d76d813eec1e8d8bc58aabf377cf1bf3',
     },
     decimals: {
       [ChainId.BSC]: 18,

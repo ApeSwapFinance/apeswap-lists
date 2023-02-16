@@ -5583,6 +5583,47 @@
     "tokenDecimals": 9
   },
   {
+    "sousId": 235,
+    "tokenName": "CVL",
+    "image": "CVL.svg",
+    "stakingToken": {
+      "symbol": "GNANA",
+      "address": {
+        "56": "0xdDb3Bd8645775F59496c821E4F55A7eA6A6dc299",
+        "97": "0xf693bDA9D3C56D5F9165c8633d9098e3C4Ae495A"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18
+      },
+      "active": true
+    },
+    "rewardToken": {
+      "symbol": "CVL",
+      "address": {
+        "56": "0x9Ae0290cD677dc69A5f2a1E435EF002400Da70F5"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "contractAddress": {
+      "56": "0xD0F8137d15c0169cD464CabC2655fE237C8C96Ca",
+      "97": "0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d"
+    },
+    "poolCategory": "ApeZone",
+    "projectLink": "https://cvl.network",
+    "twitter": "https://twitter.com/cvl_network",
+    "audit": "https://github.com/xdao-app/xdao-contracts/blob/master/audits/hacken/hacken.pdf",
+    "harvest": true,
+    "tokenPerBlock": "1.909722222222222222",
+    "sortOrder": 1,
+    "reflect": false,
+    "isFinished": false,
+    "tokenDecimals": 18
+  },
+  {
     "sousId": 214,
     "tokenName": "PXP",
     "image": "PXP.png",

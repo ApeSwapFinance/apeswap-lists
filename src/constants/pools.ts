@@ -5,7 +5,7 @@ import tokens from './tokens'
 
 const BANANA_PER_BLOCK = new BigNumber(10)
 
-// Current Sous ID is 234
+// Current Sous ID is 235
 
 const pools: PoolConfig[] = [
   // MASTER APE V2 POOL
@@ -2642,7 +2642,27 @@ const pools: PoolConfig[] = [
     isFinished: false,
     tokenDecimals: 9,
   },
-
+  {
+    sousId: 235,
+    tokenName: 'CVL',
+    image: 'CVL.svg',
+    stakingToken: tokens.gnana,
+    rewardToken: tokens.cvl,
+    contractAddress: {
+      97: '0x6c6248ea3ff05200b9df0bc91cec2dea4f57a95d',
+      56: '0xD0F8137d15c0169cD464CabC2655fE237C8C96Ca',
+    },
+    poolCategory: PoolCategory.APEZONE,
+    projectLink: 'https://cvl.network',
+    twitter: 'https://twitter.com/cvl_network',
+    audit: 'https://github.com/xdao-app/xdao-contracts/blob/master/audits/hacken/hacken.pdf',
+    harvest: true,
+    tokenPerBlock: `1.909722222222222222`,
+    sortOrder: 1,
+    reflect: false,
+    isFinished: false,
+    tokenDecimals: 18,
+  },
   //
   // JUNGLE FARMS
   //
