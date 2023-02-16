@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import { FarmConfig, QuoteToken } from '../types'
 import tokens from './tokens'
 
-// Highest Farm ID: 64
+// Highest Farm ID: 67
 
 const farmsV2: FarmConfig[] = [
   {
@@ -64,6 +64,40 @@ const farmsV2: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: tokens.busd.address,
+  },
+  {
+    pid: 67,
+    image: 'TLOS.svg',
+    lpSymbol: tokens.tlosUsdc.symbol,
+    lpAddresses: {
+      [ChainId.BSC]: tokens.tlosUsdc.address[ChainId.BSC],
+      [ChainId.BSC_TESTNET]: '',
+    },
+    tokenSymbol: tokens.tlos.symbol,
+    tokenAddresses: {
+      [ChainId.BSC]: tokens.tlos.address[ChainId.BSC],
+      [ChainId.BSC_TESTNET]: '',
+    },
+    quoteTokenSymbol: QuoteToken.USDT,
+    quoteTokenAdresses: tokens.usdc.address,
+    projectLink: 'https://www.telos.net/',
+  },
+  {
+    pid: 66,
+    image: 'CVL.svg',
+    lpSymbol: tokens.cvlUsdt.symbol,
+    lpAddresses: {
+      [ChainId.BSC]: tokens.cvlUsdt.address[ChainId.BSC],
+      [ChainId.BSC_TESTNET]: '',
+    },
+    tokenSymbol: tokens.cvl.symbol,
+    tokenAddresses: {
+      [ChainId.BSC]: tokens.cvl.address[ChainId.BSC],
+      [ChainId.BSC_TESTNET]: '',
+    },
+    quoteTokenSymbol: QuoteToken.USDT,
+    quoteTokenAdresses: tokens.usdt.address,
+    projectLink: 'https://cvl.network',
   },
   {
     pid: 65,
