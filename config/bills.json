@@ -3652,16 +3652,6 @@
     "billType": "Jungle Bill",
     "billVersion": "V2",
     "token": {
-      "symbol": "CGG",
-      "address": {
-        "137": "0x2Ab4f9aC80F33071211729e45Cfc346C1f8446d5"
-      },
-      "decimals": {
-        "137": 18
-      },
-      "active": true
-    },
-    "quoteToken": {
       "symbol": "USDC",
       "address": {
         "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
@@ -3672,6 +3662,16 @@
         "40": 6,
         "56": 18,
         "137": 6
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "CGG",
+      "address": {
+        "137": "0x2Ab4f9aC80F33071211729e45Cfc346C1f8446d5"
+      },
+      "decimals": {
+        "137": 18
       },
       "active": true
     },

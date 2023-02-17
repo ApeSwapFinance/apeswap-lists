@@ -1049,8 +1049,8 @@ const bills: BillsConfig[] = [
     },
     billType: 'Jungle Bill',
     billVersion: BillVersion.V2,
-    token: tokens.cgg,
-    quoteToken: tokens.usdc,
+    token: tokens.usdc,
+    quoteToken: tokens.cgg,
     lpToken: tokens.cggUsdc,
     earnToken: tokens.usdc,
     billNnftAddress: {
