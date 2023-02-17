@@ -3645,6 +3645,76 @@
     "inactive": true
   },
   {
+    "index": 104,
+    "contractAddress": {
+      "137": "0x66466E907B63D5c7a7Dd560e490adB596DFDf61B"
+    },
+    "billType": "Jungle Bill",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "CGG",
+      "address": {
+        "137": "0x2Ab4f9aC80F33071211729e45Cfc346C1f8446d5"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDC",
+      "address": {
+        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
+        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "CGG-USDC",
+      "address": {
+        "137": "0x3a731F43Ea089E28B4B02AF46024ef02F43b0B0C"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "USDC",
+      "address": {
+        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
+        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "137": "0x8860ABc05FefEF93306c8d65a5eFD421F155d67E"
+    },
+    "inactive": false,
+    "projectLink": "https://chainguardians.io/",
+    "twitter": "https://twitter.com/chain_guardians",
+    "audit": "https://www.certik.com/projects/chainguardians?utm_source=CMC&utm_campaign=AuditByCertiKLink",
+    "initTime": {
+      "137": 1676626187
+    },
+    "initPrice": {
+      "137": 0.077899
+    }
+  },
+  {
     "index": 103,
     "contractAddress": {
       "137": "0xb53b2706897a26fec9113f3e2371ac5b2b88970a"

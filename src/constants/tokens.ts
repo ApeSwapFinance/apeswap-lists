@@ -1813,6 +1813,16 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  cgg: {
+    symbol: 'CGG',
+    address: {
+      [ChainId.MATIC]: '0x2Ab4f9aC80F33071211729e45Cfc346C1f8446d5',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    active: true,
+  },
   dogira: {
     symbol: 'DOGIRA',
     address: {
@@ -2651,6 +2661,17 @@ const tokens: Record<string, Token> = {
     symbol: 'AXN-USDC',
     address: {
       [ChainId.MATIC]: '0x81A3F6a138F0B12eCBDCE4583972A6CA57514dBd',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    active: true,
+    lpToken: true,
+  },
+  cggUsdc: {
+    symbol: 'CGG-USDC',
+    address: {
+      [ChainId.MATIC]: '0x3a731F43Ea089E28B4B02AF46024ef02F43b0B0C',
     },
     decimals: {
       [ChainId.MATIC]: 18,

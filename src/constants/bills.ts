@@ -3,7 +3,7 @@ import tokens from './tokens'
 import { BillsConfig, BillVersion } from '../types'
 
 // BNB Largest ID: 52
-// Polygon Largest ID: 103
+// Polygon Largest ID: 104
 // Telos Largest ID: 210
 
 const bills: BillsConfig[] = [
@@ -1042,6 +1042,27 @@ const bills: BillsConfig[] = [
   /*
     Polygon Bills
   */
+  {
+    index: 104,
+    contractAddress: {
+      [ChainId.MATIC]: '0x66466E907B63D5c7a7Dd560e490adB596DFDf61B',
+    },
+    billType: 'Jungle Bill',
+    billVersion: BillVersion.V2,
+    token: tokens.cgg,
+    quoteToken: tokens.usdc,
+    lpToken: tokens.cggUsdc,
+    earnToken: tokens.usdc,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
+    },
+    inactive: false,
+    projectLink: 'https://chainguardians.io/',
+    twitter: 'https://twitter.com/chain_guardians',
+    audit: 'https://www.certik.com/projects/chainguardians?utm_source=CMC&utm_campaign=AuditByCertiKLink',
+    initTime: { [ChainId.MATIC]: 1676626187 },
+    initPrice: { [ChainId.MATIC]: 0.077899 },
+  },
   {
     index: 103,
     contractAddress: {
