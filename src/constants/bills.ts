@@ -2,9 +2,9 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillsConfig, BillVersion } from '../types'
 
-// BNB Largest ID: 52
+// BNB Largest ID: 53
 // Polygon Largest ID: 104
-// Telos Largest ID: 210
+// Telos Largest ID: 215
 
 const bills: BillsConfig[] = [
   {
@@ -1145,6 +1145,106 @@ const bills: BillsConfig[] = [
   /*
     Telos Bills
   */
+  {
+    index: 211,
+    contractAddress: {
+      [ChainId.TLOS]: '0x84662B6bBef1E81aBcAa8372678ADBbA49d07C2c',
+    },
+    billType: 'Jungle Bill',
+    billVersion: BillVersion.V2,
+    token: tokens.banana,
+    quoteToken: tokens.tlos,
+    lpToken: tokens.bananaTlos,
+    earnToken: tokens.tlos,
+    billNnftAddress: {
+      [ChainId.TLOS]: '0x29DD194bDc735A87637f2736A90AA585B74F5FD4',
+    },
+    inactive: false,
+    projectLink: 'https://www.telos.net/',
+    twitter: 'https://twitter.com/HelloTelos',
+    initTime: { [ChainId.TLOS]: 1676929798 },
+    initPrice: { [ChainId.TLOS]: 0.2206 },
+  },
+  {
+    index: 212,
+    contractAddress: {
+      [ChainId.TLOS]: '0x5d72Be8B3E8F07f9D41944a148a109F18Cb65f55',
+    },
+    billType: 'Jungle Bill',
+    billVersion: BillVersion.V2,
+    token: tokens.eth,
+    quoteToken: tokens.tlos,
+    lpToken: tokens.ethTlos,
+    earnToken: tokens.tlos,
+    billNnftAddress: {
+      [ChainId.TLOS]: '0x29DD194bDc735A87637f2736A90AA585B74F5FD4',
+    },
+    inactive: false,
+    projectLink: 'https://www.telos.net/',
+    twitter: 'https://twitter.com/HelloTelos',
+    initTime: { [ChainId.TLOS]: 1676929798 },
+    initPrice: { [ChainId.TLOS]: 0.2206 },
+  },
+  {
+    index: 213,
+    contractAddress: {
+      [ChainId.TLOS]: '0xF5F350ddcC3DE0733B62E71844A9C8BE4032DE52',
+    },
+    billType: 'Jungle Bill',
+    billVersion: BillVersion.V2,
+    token: tokens.btc,
+    quoteToken: tokens.tlos,
+    lpToken: tokens.btcTlos,
+    earnToken: tokens.tlos,
+    billNnftAddress: {
+      [ChainId.TLOS]: '0x29DD194bDc735A87637f2736A90AA585B74F5FD4',
+    },
+    inactive: false,
+    projectLink: 'https://www.telos.net/',
+    twitter: 'https://twitter.com/HelloTelos',
+    initTime: { [ChainId.TLOS]: 1676929798 },
+    initPrice: { [ChainId.TLOS]: 0.2206 },
+  },
+  {
+    index: 214,
+    contractAddress: {
+      [ChainId.TLOS]: '0xE5325b9F69255098786908c79A234584FfC62dcb',
+    },
+    billType: 'Jungle Bill',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.tlos,
+    lpToken: tokens.usdtTlos,
+    earnToken: tokens.tlos,
+    billNnftAddress: {
+      [ChainId.TLOS]: '0x29DD194bDc735A87637f2736A90AA585B74F5FD4',
+    },
+    inactive: false,
+    projectLink: 'https://www.telos.net/',
+    twitter: 'https://twitter.com/HelloTelos',
+    initTime: { [ChainId.TLOS]: 1676929798 },
+    initPrice: { [ChainId.TLOS]: 0.2206 },
+  },
+  {
+    index: 215,
+    contractAddress: {
+      [ChainId.TLOS]: '0x07273ae6E441491fc4410aE9F8371AEdd7A19499',
+    },
+    billType: 'Jungle Bill',
+    billVersion: BillVersion.V2,
+    token: tokens.usdc,
+    quoteToken: tokens.tlos,
+    lpToken: tokens.usdcTlos,
+    earnToken: tokens.tlos,
+    billNnftAddress: {
+      [ChainId.TLOS]: '0x29DD194bDc735A87637f2736A90AA585B74F5FD4',
+    },
+    inactive: false,
+    projectLink: 'https://www.telos.net/',
+    twitter: 'https://twitter.com/HelloTelos',
+    initTime: { [ChainId.TLOS]: 1676929798 },
+    initPrice: { [ChainId.TLOS]: 0.2206 },
+  },
   {
     index: 206,
     contractAddress: {
