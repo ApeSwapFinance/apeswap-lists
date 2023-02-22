@@ -386,6 +386,71 @@
     }
   },
   {
+    "index": 54,
+    "contractAddress": {
+      "56": "0x60219D7ABd2381230BC250548109b464f44e44dC"
+    },
+    "billType": "JUNGLE Bill",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "CVL",
+      "address": {
+        "56": "0x9Ae0290cD677dc69A5f2a1E435EF002400Da70F5"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "CVL-USDT",
+      "address": {
+        "56": "0xd771c603613b88beacefb29fa573e654cd528f21"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "CVL",
+      "address": {
+        "56": "0x9Ae0290cD677dc69A5f2a1E435EF002400Da70F5"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "projectLink": "https://cvl.network",
+    "twitter": "https://twitter.com/cvl_network",
+    "audit": "https://github.com/xdao-app/xdao-contracts/blob/master/audits/hacken/hacken.pdf",
+    "initTime": {
+      "56": 1677080938
+    },
+    "initPrice": {
+      "56": 0.00864348
+    }
+  },
+  {
     "index": 53,
     "contractAddress": {
       "56": "0xF3DADCFa7114652Ca750e0C653A00DeCB63B4d0F"
