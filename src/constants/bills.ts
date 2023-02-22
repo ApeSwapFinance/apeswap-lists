@@ -103,6 +103,26 @@ const bills: BillsConfig[] = [
     initPrice: { [ChainId.BSC]: 0.073805 },
   },
   {
+    index: 54,
+    contractAddress: {
+      [ChainId.BSC]: '0x60219D7ABd2381230BC250548109b464f44e44dC',
+    },
+    billType: 'JUNGLE Bill',
+    billVersion: BillVersion.V2,
+    token: tokens.cvl,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.cvlUsdt,
+    earnToken: tokens.cvl,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://cvl.network',
+    twitter: 'https://twitter.com/cvl_network',
+    audit: 'https://github.com/xdao-app/xdao-contracts/blob/master/audits/hacken/hacken.pdf',
+    initTime: { [ChainId.BSC]: 1677080938 },
+    initPrice: { [ChainId.BSC]: 0.00864348 },
+  },
+  {
     index: 53,
     contractAddress: {
       [ChainId.BSC]: '0xF3DADCFa7114652Ca750e0C653A00DeCB63B4d0F',
