@@ -386,6 +386,71 @@
     }
   },
   {
+    "index": 55,
+    "contractAddress": {
+      "56": "0x4E96152511D29c99c47A24B07a3b98738e0fb9BA"
+    },
+    "billType": "JUNGLE Bill",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "TOKO",
+      "address": {
+        "56": "0x45f7967926e95FD161E56ED66B663c9114C5226f"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "TOKO-BNB",
+      "address": {
+        "56": "0xdea7f02dec8cf6d2b9da88d6c8028638a95121e2"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "TOKO",
+      "address": {
+        "56": "0x45f7967926e95FD161E56ED66B663c9114C5226f"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "projectLink": "https://tokoin.io/",
+    "twitter": "https://twitter.com/tokoinglobal",
+    "audit": "https://github.com/peckshield/publications/blob/master/audit_reports/PeckShield-Audit-Report-T-Fi-v1.0.pdf",
+    "initTime": {
+      "56": 1677184302
+    },
+    "initPrice": {
+      "56": 0.00434657
+    }
+  },
+  {
     "index": 54,
     "contractAddress": {
       "56": "0x60219D7ABd2381230BC250548109b464f44e44dC"
