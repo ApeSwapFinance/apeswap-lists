@@ -1803,6 +1803,14 @@ const tokens: Record<string, Token> = {
     decimals: { [ChainId.BSC]: 18 },
     active: true,
   },
+  toko: {
+    symbol: 'TOKO',
+    address: {
+      [ChainId.BSC]: '0x45f7967926e95FD161E56ED66B663c9114C5226f',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+  },
   axn: {
     symbol: 'AXN',
     address: {
@@ -2391,6 +2399,17 @@ const tokens: Record<string, Token> = {
     symbol: 'CVL-USDT',
     address: {
       [ChainId.BSC]: '0xd771c603613b88beacefb29fa573e654cd528f21',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+    lpToken: true,
+  },
+  tokoBnb: {
+    symbol: 'TOKO-BNB',
+    address: {
+      [ChainId.BSC]: '0xdea7f02dec8cf6d2b9da88d6c8028638a95121e2',
     },
     decimals: {
       [ChainId.BSC]: 18,

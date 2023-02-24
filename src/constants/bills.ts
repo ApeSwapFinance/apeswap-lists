@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillsConfig, BillVersion } from '../types'
 
-// BNB Largest ID: 53
+// BNB Largest ID: 55
 // Polygon Largest ID: 104
 // Telos Largest ID: 215
 
@@ -101,6 +101,26 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/ape_swap',
     initTime: { [ChainId.BSC]: 1675904338 },
     initPrice: { [ChainId.BSC]: 0.073805 },
+  },
+  {
+    index: 55,
+    contractAddress: {
+      [ChainId.BSC]: '0x4E96152511D29c99c47A24B07a3b98738e0fb9BA',
+    },
+    billType: 'JUNGLE Bill',
+    billVersion: BillVersion.V2,
+    token: tokens.toko,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.tokoBnb,
+    earnToken: tokens.toko,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://tokoin.io/',
+    twitter: 'https://twitter.com/tokoinglobal',
+    audit: 'https://github.com/peckshield/publications/blob/master/audit_reports/PeckShield-Audit-Report-T-Fi-v1.0.pdf',
+    initTime: { [ChainId.BSC]: 1677184302 },
+    initPrice: { [ChainId.BSC]: 0.00434657 },
   },
   {
     index: 54,
