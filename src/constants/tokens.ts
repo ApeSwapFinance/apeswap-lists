@@ -1822,7 +1822,7 @@ const tokens: Record<string, Token> = {
   axn: {
     symbol: 'AXN',
     address: {
-      [ChainId.MATIC]: '',
+      [ChainId.MATIC]: '0x839F1a22A59eAAf26c85958712aB32F80FEA23d9',
     },
     decimals: {
       [ChainId.MATIC]: 18,
