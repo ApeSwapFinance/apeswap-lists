@@ -386,6 +386,71 @@
     }
   },
   {
+    "index": 56,
+    "contractAddress": {
+      "56": "0xCdCC22C01e1660713B45fE83d7C23787792931B5"
+    },
+    "billType": "JUNGLE Bill",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "OATH",
+      "address": {
+        "56": "0xd3c6ceedd1cc7bd4304f72b011d53441d631e662"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDC",
+      "address": {
+        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
+        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "OATH-USDC",
+      "address": {
+        "56": "0x059408ccc90bbcfbf2b5fbd3081160f16387412e"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "OATH",
+      "address": {
+        "56": "0xd3c6ceedd1cc7bd4304f72b011d53441d631e662"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "projectLink": "https://www.reaper.farm/",
+    "twitter": "https://twitter.com/Reaper_Farm",
+    "audit": "https://solidity.finance/audits/ReaperFarm/",
+    "initTime": {
+      "56": 1677676077
+    },
+    "initPrice": {
+      "56": 0.2253
+    }
+  },
+  {
     "index": 55,
     "contractAddress": {
       "56": "0x4E96152511D29c99c47A24B07a3b98738e0fb9BA"

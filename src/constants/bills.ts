@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillsConfig, BillVersion } from '../types'
 
-// BNB Largest ID: 55
+// BNB Largest ID: 56
 // Polygon Largest ID: 104
 // Telos Largest ID: 215
 
@@ -101,6 +101,26 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/ape_swap',
     initTime: { [ChainId.BSC]: 1675904338 },
     initPrice: { [ChainId.BSC]: 0.073805 },
+  },
+  {
+    index: 56,
+    contractAddress: {
+      [ChainId.BSC]: '0xCdCC22C01e1660713B45fE83d7C23787792931B5',
+    },
+    billType: 'JUNGLE Bill',
+    billVersion: BillVersion.V2,
+    token: tokens.oath,
+    quoteToken: tokens.usdc,
+    lpToken: tokens.oathUsdc,
+    earnToken: tokens.oath,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://www.reaper.farm/',
+    twitter: 'https://twitter.com/Reaper_Farm',
+    audit: 'https://solidity.finance/audits/ReaperFarm/',
+    initTime: { [ChainId.BSC]: 1677676077 },
+    initPrice: { [ChainId.BSC]: 0.2253 },
   },
   {
     index: 55,
