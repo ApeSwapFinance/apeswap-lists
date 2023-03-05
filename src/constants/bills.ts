@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillsConfig, BillVersion } from '../types'
 
-// BNB Largest ID: 56
+// BNB Largest ID: 57
 // Polygon Largest ID: 104
 // Telos Largest ID: 215
 
@@ -101,6 +101,26 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/ape_swap',
     initTime: { [ChainId.BSC]: 1675904338 },
     initPrice: { [ChainId.BSC]: 0.073805 },
+  },
+  {
+    index: 57,
+    contractAddress: {
+      [ChainId.BSC]: '0x31CA3536a7B3560e56a0BEA226135Cf809D2E237',
+    },
+    billType: 'JUNGLE Bill',
+    billVersion: BillVersion.V2,
+    token: tokens.lgc,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.lgcBnb,
+    earnToken: tokens.lgc,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'http://livegreencoin.com/',
+    twitter: 'https://twitter.com/LiveGreenCoin1',
+    audit: 'https://www.certik.com/projects/livegreencoin',
+    initTime: { [ChainId.BSC]: 1678053061 },
+    initPrice: { [ChainId.BSC]: 0.00927457 },
   },
   {
     index: 56,
