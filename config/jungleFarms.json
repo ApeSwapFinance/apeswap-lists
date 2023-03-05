@@ -1732,5 +1732,75 @@
     "lpStaking": true,
     "isEarnTokenLp": false,
     "network": 56
+  },
+  {
+    "jungleId": 17,
+    "tokenName": "LGC-BNB",
+    "image": "USDT.svg",
+    "stakingToken": {
+      "symbol": "LGC-BNB",
+      "address": {
+        "56": "0x1809b34F406252645E704f7a76acB94728FD4fb6"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "rewardToken": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6
+      },
+      "active": true
+    },
+    "lpTokens": {
+      "token": {
+        "symbol": "LGC",
+        "address": {
+          "56": "0x3496212eC43Cc49F5151ec4405efD4975e036f89"
+        },
+        "decimals": {
+          "56": 18
+        },
+        "active": true
+      },
+      "quoteToken": {
+        "symbol": "BNB",
+        "address": {
+          "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+          "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+          "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        },
+        "decimals": {
+          "56": 18,
+          "97": 18,
+          "137": 18
+        },
+        "active": true
+      }
+    },
+    "contractAddress": {
+      "56": "0x2005166d71090338a45399FF05BBE242AbF96c3E"
+    },
+    "projectLink": "http://livegreencoin.com/",
+    "twitter": "https://twitter.com/LiveGreenCoin1",
+    "audit": "https://www.certik.com/projects/livegreencoin",
+    "harvest": true,
+    "tokenPerBlock": "0.001909722222222222",
+    "sortOrder": 1,
+    "isFinished": false,
+    "tokenDecimals": 18,
+    "lpStaking": true,
+    "isEarnTokenLp": false,
+    "network": 56
   }
 ]
