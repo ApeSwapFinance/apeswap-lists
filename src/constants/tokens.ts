@@ -1715,6 +1715,14 @@ const tokens: Record<string, Token> = {
     decimals: { [ChainId.BSC]: 18 },
     active: true,
   },
+  lgc: {
+    symbol: 'LGC',
+    address: {
+      [ChainId.BSC]: '0x3496212eC43Cc49F5151ec4405efD4975e036f89',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+  },
   threeair: {
     symbol: '3AIR',
     address: {
@@ -2132,6 +2140,17 @@ const tokens: Record<string, Token> = {
     symbol: 'XTAL-BUSD',
     address: {
       [ChainId.BSC]: '0x40C8a7142CF776FB94A29e19EF31220555e672b1',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+    lpToken: true,
+  },
+  lgcBnb: {
+    symbol: 'LGC-BNB',
+    address: {
+      [ChainId.BSC]: '0x1809b34F406252645E704f7a76acB94728FD4fb6',
     },
     decimals: {
       [ChainId.BSC]: 18,

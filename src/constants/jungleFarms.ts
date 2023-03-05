@@ -202,7 +202,7 @@ const jungleFarms: JungleFarmConfig[] = [
 
   /*
     CHAIN ID 56 - BNB Jungle Farms
-    Current Jungle ID = 15
+    Current Jungle ID = 17
   */
   {
     jungleId: 8,
@@ -648,6 +648,31 @@ const jungleFarms: JungleFarmConfig[] = [
     audit: 'https://hashex.org/audits/xtal-token/',
     harvest: true,
     tokenPerBlock: '0.09352199074074074',
+    sortOrder: 1,
+    isFinished: false,
+    tokenDecimals: 18,
+    lpStaking: true,
+    isEarnTokenLp: false,
+    network: ChainId.BSC,
+  },
+  {
+    jungleId: 17,
+    tokenName: tokens.lgcBnb.symbol,
+    image: 'USDT.svg',
+    stakingToken: tokens.lgcBnb,
+    rewardToken: tokens.usdt,
+    lpTokens: {
+      token: tokens.lgc,
+      quoteToken: tokens.wbnb,
+    },
+    contractAddress: {
+      [ChainId.BSC]: '0x2005166d71090338a45399FF05BBE242AbF96c3E',
+    },
+    projectLink: 'http://livegreencoin.com/',
+    twitter: 'https://twitter.com/LiveGreenCoin1',
+    audit: 'https://www.certik.com/projects/livegreencoin',
+    harvest: true,
+    tokenPerBlock: '0.001909722222222222',
     sortOrder: 1,
     isFinished: false,
     tokenDecimals: 18,
