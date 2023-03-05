@@ -5,7 +5,7 @@ import tokens from './tokens'
 
 const BANANA_PER_BLOCK = new BigNumber(10)
 
-// Current Sous ID is 235
+// Current Sous ID is 236
 
 const pools: PoolConfig[] = [
   // MASTER APE V2 POOL
@@ -3028,6 +3028,26 @@ const pools: PoolConfig[] = [
     audit: 'https://hashex.org/audits/xtal-token/',
     harvest: true,
     tokenPerBlock: '0.09352199074074074',
+    sortOrder: 1,
+    reflect: false,
+    isFinished: false,
+    tokenDecimals: 18,
+  },
+  {
+    sousId: 236,
+    tokenName: 'USDT',
+    image: 'USDT.svg',
+    stakingToken: tokens.lgcBnb,
+    rewardToken: tokens.usdt,
+    contractAddress: {
+      56: '0x2005166d71090338a45399FF05BBE242AbF96c3E',
+    },
+    poolCategory: PoolCategory.JUNGLE,
+    projectLink: 'http://livegreencoin.com/',
+    twitter: 'https://twitter.com/LiveGreenCoin1',
+    audit: 'https://www.certik.com/projects/livegreencoin',
+    harvest: true,
+    tokenPerBlock: '0.001909722222222222',
     sortOrder: 1,
     reflect: false,
     isFinished: false,
