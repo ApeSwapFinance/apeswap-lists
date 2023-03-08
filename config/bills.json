@@ -386,6 +386,79 @@
     }
   },
   {
+    "index": 58,
+    "contractAddress": {
+      "56": "0x9b86b2baE5B9C7eD73264Cbfdf1b819496Fdc091"
+    },
+    "billType": "JUNGLE Bill",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "CGG",
+      "address": {
+        "56": "0x1613957159E9B0ac6c80e824F7Eea748a32a0AE2",
+        "137": "0x2Ab4f9aC80F33071211729e45Cfc346C1f8446d5"
+      },
+      "decimals": {
+        "56": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDC",
+      "address": {
+        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
+        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "CGG-USDC",
+      "address": {
+        "56": "0xF2c9F49E97b1431f9437C11A5d59494b0b53015a",
+        "137": "0x3a731F43Ea089E28B4B02AF46024ef02F43b0B0C"
+      },
+      "decimals": {
+        "56": 18,
+        "137": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "USDC",
+      "address": {
+        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
+        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "projectLink": "https://chainguardians.io/",
+    "twitter": "https://twitter.com/chain_guardians",
+    "audit": "https://www.certik.com/projects/chainguardians?utm_source=CMC&utm_campaign=AuditByCertiKLink",
+    "initTime": {
+      "56": 1678269604
+    },
+    "initPrice": {
+      "56": 0.110177
+    }
+  },
+  {
     "index": 57,
     "contractAddress": {
       "56": "0x31CA3536a7B3560e56a0BEA226135Cf809D2E237"
@@ -3928,9 +4001,11 @@
     "quoteToken": {
       "symbol": "CGG",
       "address": {
+        "56": "0x1613957159E9B0ac6c80e824F7Eea748a32a0AE2",
         "137": "0x2Ab4f9aC80F33071211729e45Cfc346C1f8446d5"
       },
       "decimals": {
+        "56": 18,
         "137": 18
       },
       "active": true
@@ -3938,9 +4013,11 @@
     "lpToken": {
       "symbol": "CGG-USDC",
       "address": {
+        "56": "0xF2c9F49E97b1431f9437C11A5d59494b0b53015a",
         "137": "0x3a731F43Ea089E28B4B02AF46024ef02F43b0B0C"
       },
       "decimals": {
+        "56": 18,
         "137": 18
       },
       "active": true,

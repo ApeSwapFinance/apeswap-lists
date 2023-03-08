@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillsConfig, BillVersion } from '../types'
 
-// BNB Largest ID: 57
+// BNB Largest ID: 58
 // Polygon Largest ID: 104
 // Telos Largest ID: 215
 
@@ -101,6 +101,26 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/ape_swap',
     initTime: { [ChainId.BSC]: 1675904338 },
     initPrice: { [ChainId.BSC]: 0.073805 },
+  },
+  {
+    index: 58,
+    contractAddress: {
+      [ChainId.BSC]: '0x9b86b2baE5B9C7eD73264Cbfdf1b819496Fdc091',
+    },
+    billType: 'JUNGLE Bill',
+    billVersion: BillVersion.V2,
+    token: tokens.cgg,
+    quoteToken: tokens.usdc,
+    lpToken: tokens.cggUsdc,
+    earnToken: tokens.usdc,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://chainguardians.io/',
+    twitter: 'https://twitter.com/chain_guardians',
+    audit: 'https://www.certik.com/projects/chainguardians?utm_source=CMC&utm_campaign=AuditByCertiKLink',
+    initTime: { [ChainId.BSC]: 1678269604 },
+    initPrice: { [ChainId.BSC]: 0.110177 },
   },
   {
     index: 57,

@@ -1827,20 +1827,22 @@ const tokens: Record<string, Token> = {
     decimals: { [ChainId.BSC]: 18 },
     active: true,
   },
-  axn: {
-    symbol: 'AXN',
+  cgg: {
+    symbol: 'CGG',
     address: {
-      [ChainId.MATIC]: '0x839F1a22A59eAAf26c85958712aB32F80FEA23d9',
+      [ChainId.BSC]: '0x1613957159E9B0ac6c80e824F7Eea748a32a0AE2',
+      [ChainId.MATIC]: '0x2Ab4f9aC80F33071211729e45Cfc346C1f8446d5',
     },
     decimals: {
+      [ChainId.BSC]: 18,
       [ChainId.MATIC]: 18,
     },
     active: true,
   },
-  cgg: {
-    symbol: 'CGG',
+  axn: {
+    symbol: 'AXN',
     address: {
-      [ChainId.MATIC]: '0x2Ab4f9aC80F33071211729e45Cfc346C1f8446d5',
+      [ChainId.MATIC]: '0x839F1a22A59eAAf26c85958712aB32F80FEA23d9',
     },
     decimals: {
       [ChainId.MATIC]: 18,
@@ -2728,9 +2730,11 @@ const tokens: Record<string, Token> = {
   cggUsdc: {
     symbol: 'CGG-USDC',
     address: {
+      [ChainId.BSC]: '0xF2c9F49E97b1431f9437C11A5d59494b0b53015a',
       [ChainId.MATIC]: '0x3a731F43Ea089E28B4B02AF46024ef02F43b0B0C',
     },
     decimals: {
+      [ChainId.BSC]: 18,
       [ChainId.MATIC]: 18,
     },
     active: true,
