@@ -29,6 +29,11 @@ const zapInputTokens: Partial<Record<ChainId, Record<string, Token>>> = {
     usdt: tokens.usdt,
     btc: tokens.btc,
   },
+  [ChainId.ARBITRUM]: {
+    eth: tokens.eth,
+    usdt: tokens.usdt,
+    usdc: tokens.usdc,
+  },
 }
 
 export default zapInputTokens
