@@ -92,7 +92,8 @@
     "quoteTokenAdresses": {
       "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
       "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-      "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174"
+      "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+      "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
     },
     "projectLink": "https://www.telos.net/"
   },
@@ -113,7 +114,8 @@
     "quoteTokenAdresses": {
       "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
       "56": "0x55d398326f99059ff775485246999027b3197955",
-      "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"
+      "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+      "42161": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
     },
     "projectLink": "https://cvl.network"
   },
@@ -176,7 +178,8 @@
       "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
       "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
       "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
-      "137": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619"
+      "137": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+      "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
     },
     "projectLink": "https://cryptofruits.com/index.php"
   },
@@ -318,7 +321,8 @@
       "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
       "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
       "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
-      "137": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619"
+      "137": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+      "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
     },
     "projectLink": "https://cardano.org/"
   },
@@ -1132,7 +1136,8 @@
     "quoteTokenAdresses": {
       "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
       "56": "0x55d398326f99059ff775485246999027b3197955",
-      "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"
+      "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+      "42161": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
     },
     "projectLink": "https://h2o-securities.com/"
   },
@@ -1214,7 +1219,8 @@
     "quoteTokenAdresses": {
       "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
       "56": "0x55d398326f99059ff775485246999027b3197955",
-      "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"
+      "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+      "42161": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
     },
     "projectLink": "https://bolide.fi/"
   },
