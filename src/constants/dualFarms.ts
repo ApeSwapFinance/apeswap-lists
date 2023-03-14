@@ -6,6 +6,20 @@ import { DualFarmConfig } from '../types'
 
 const dualFarms: DualFarmConfig[] = [
   {
+    pid: 18,
+    network: ChainId.MATIC,
+    stakeTokenAddress: '0xB933e9E1ED78612e24f79cDf6976EF19fE0e357c',
+    rewarderAddress: '0x785Ec8d3301A16D81353b9BebB98221714C389DD',
+    stakeTokens: {
+      token0: tokens.leap,
+      token1: tokens.wmatic,
+    },
+    rewardTokens: {
+      token0: tokens.leap,
+      token1: tokens.wmatic,
+    },
+  },
+  {
     pid: 0,
     network: ChainId.MATIC,
     stakeTokenAddress: '0x034293F21F1cCE5908BC605CE5850dF2b1059aC0',

@@ -886,9 +886,11 @@ const tokens: Record<string, Token> = {
     symbol: 'LEAP',
     address: {
       [ChainId.BSC]: '0x6eEd9140F80F9E989CB23AeCBD20b97a29FFc80F',
+      [ChainId.MATIC]: '0xa47150F5c615dcf4f2e47aad1862a0f2b54C3973',
     },
     decimals: {
       [ChainId.BSC]: 18,
+      [ChainId.MATIC]: 18,
     },
     active: true,
   },
