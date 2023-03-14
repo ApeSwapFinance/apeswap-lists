@@ -15,8 +15,8 @@ const dualFarms: DualFarmConfig[] = [
       token1: tokens.wmatic,
     },
     rewardTokens: {
-      token0: tokens.leap,
-      token1: tokens.wmatic,
+      token0: tokens.banana,
+      token1: tokens.leap,
     },
   },
   {
