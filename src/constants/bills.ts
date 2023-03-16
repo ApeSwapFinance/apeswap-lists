@@ -103,6 +103,26 @@ const bills: BillsConfig[] = [
     initPrice: { [ChainId.BSC]: 0.073805 },
   },
   {
+    index: 59,
+    contractAddress: {
+      [ChainId.BSC]: '0x83a9d9c278f2ccE356667EbdAD20c9B4BA68d5aE',
+    },
+    billType: 'JUNGLE Bill',
+    billVersion: BillVersion.V2,
+    token: tokens.credi,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.crediBnb,
+    earnToken: tokens.credi,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://www.credefi.finance/',
+    twitter: 'https://twitter.com/credefi_finance/',
+    audit: 'https://www.certik.com/projects/credefi?utm_source=CMC&utm_campaign=AuditByCertiKLink',
+    initTime: { [ChainId.BSC]: 1678922163 },
+    initPrice: { [ChainId.BSC]: 0.00251252 },
+  },
+  {
     index: 58,
     contractAddress: {
       [ChainId.BSC]: '0x9b86b2baE5B9C7eD73264Cbfdf1b819496Fdc091',
