@@ -2928,7 +2928,7 @@ const pools: PoolConfig[] = [
     projectLink: 'https://staderlabs.com/',
     twitter: 'https://twitter.com/stader_bnb',
     harvest: true,
-    tokenPerBlock: `0.02750903986`,
+    tokenPerBlock: `0.00455860716`,
     sortOrder: 1,
     reflect: false,
     isFinished: false,
