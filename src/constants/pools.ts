@@ -2988,7 +2988,7 @@ const pools: PoolConfig[] = [
     projectLink: 'https://avanatoken.com/',
     twitter: 'https://twitter.com/AvanaProject',
     harvest: true,
-    tokenPerBlock: `1.491898148148148148`,
+    tokenPerBlock: `3.104730529`,
     sortOrder: 1,
     reflect: false,
     isFinished: false,
