@@ -4073,6 +4073,74 @@
     "inactive": true
   },
   {
+    "index": 105,
+    "contractAddress": {
+      "137": "0xB226290a0078a18b0A2a3BDA7460b82b966B656a"
+    },
+    "billType": "Jungle Bill",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "LEAP",
+      "address": {
+        "56": "0x6eEd9140F80F9E989CB23AeCBD20b97a29FFc80F",
+        "137": "0xa47150F5c615dcf4f2e47aad1862a0f2b54C3973"
+      },
+      "decimals": {
+        "56": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "MATIC",
+      "address": {
+        "56": "0xcc42724c6683b7e57334c4e856f4c9965ed682bd",
+        "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
+      },
+      "decimals": {
+        "56": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "LEAP-MATIC",
+      "address": {
+        "137": "0xb933e9e1ed78612e24f79cdf6976ef19fe0e357c"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "LEAP",
+      "address": {
+        "56": "0x6eEd9140F80F9E989CB23AeCBD20b97a29FFc80F",
+        "137": "0xa47150F5c615dcf4f2e47aad1862a0f2b54C3973"
+      },
+      "decimals": {
+        "56": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "137": "0x8860ABc05FefEF93306c8d65a5eFD421F155d67E"
+    },
+    "inactive": false,
+    "projectLink": "https://www.leaptoken.io/",
+    "twitter": "https://twitter.com/Play_Leap",
+    "audit": "https://github.com/HashEx/public_audits/blob/master/PlayLeap/PlayLeap.pdf",
+    "initTime": {
+      "137": 1679389058
+    },
+    "initPrice": {
+      "137": 0.021342
+    }
+  },
+  {
     "index": 104,
     "contractAddress": {
       "137": "0x66466E907B63D5c7a7Dd560e490adB596DFDf61B"

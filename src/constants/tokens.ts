@@ -2776,6 +2776,17 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
   },
+  leapMatic: {
+    symbol: 'LEAP-MATIC',
+    address: {
+      [ChainId.MATIC]: '0xb933e9e1ed78612e24f79cdf6976ef19fe0e357c',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    active: true,
+    lpToken: true,
+  },
   chrpBnb: {
     symbol: 'CHRP-BNB',
     address: {

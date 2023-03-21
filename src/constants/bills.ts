@@ -3,7 +3,7 @@ import tokens from './tokens'
 import { BillsConfig, BillVersion } from '../types'
 
 // BNB Largest ID: 58
-// Polygon Largest ID: 104
+// Polygon Largest ID: 105
 // Telos Largest ID: 215
 
 const bills: BillsConfig[] = [
@@ -1162,6 +1162,27 @@ const bills: BillsConfig[] = [
   /*
     Polygon Bills
   */
+  {
+    index: 105,
+    contractAddress: {
+      [ChainId.MATIC]: '0xB226290a0078a18b0A2a3BDA7460b82b966B656a',
+    },
+    billType: 'Jungle Bill',
+    billVersion: BillVersion.V2,
+    token: tokens.leap,
+    quoteToken: tokens.wmatic,
+    lpToken: tokens.leapMatic,
+    earnToken: tokens.leap,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
+    },
+    inactive: false,
+    projectLink: 'https://www.leaptoken.io/',
+    twitter: 'https://twitter.com/Play_Leap',
+    audit: 'https://github.com/HashEx/public_audits/blob/master/PlayLeap/PlayLeap.pdf',
+    initTime: { [ChainId.MATIC]: 1679389058 },
+    initPrice: { [ChainId.MATIC]: 0.021342 },
+  },
   {
     index: 104,
     contractAddress: {
