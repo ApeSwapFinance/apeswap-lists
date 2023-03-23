@@ -227,6 +227,7 @@ const vaults: VaultConfig[] = [
       },
       rewardToken: tokens.banana,
     },
+    inactive: true,
   },
   {
     id: 7,
@@ -283,6 +284,7 @@ const vaults: VaultConfig[] = [
       },
       rewardToken: tokens.banana,
     },
+    inactive: true,
   },
   {
     id: 9,
@@ -339,6 +341,7 @@ const vaults: VaultConfig[] = [
       },
       rewardToken: tokens.banana,
     },
+    inactive: true,
   },
   {
     id: 11,
@@ -367,6 +370,7 @@ const vaults: VaultConfig[] = [
       },
       rewardToken: tokens.banana,
     },
+    inactive: true,
   },
   {
     id: 12,
@@ -451,6 +455,7 @@ const vaults: VaultConfig[] = [
       },
       rewardToken: tokens.banana,
     },
+    inactive: true,
   },
   {
     id: 15,
@@ -479,6 +484,7 @@ const vaults: VaultConfig[] = [
       },
       rewardToken: tokens.banana,
     },
+    inactive: true,
   },
   {
     id: 16,
@@ -507,6 +513,7 @@ const vaults: VaultConfig[] = [
       },
       rewardToken: tokens.banana,
     },
+    inactive: true,
   },
   {
     id: 17,
