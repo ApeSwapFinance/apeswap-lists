@@ -5,6 +5,7 @@ import { BillsConfig, BillVersion } from '../types'
 // BNB Largest ID: 58
 // Polygon Largest ID: 106
 // Telos Largest ID: 215
+// Arbitrum Largest ID: 2001
 
 const bills: BillsConfig[] = [
   {
@@ -1596,6 +1597,28 @@ const bills: BillsConfig[] = [
     inactive: true,
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
+  },
+  /*
+      Arbitrum Bills - ID started from 2001
+  */
+  {
+    index: 2001,
+    contractAddress: {
+      [ChainId.ARBITRUM]: '0x9Bd72c6c69cC314AdfF396cC2b34fF7e7fbd68ad',
+    },
+    billType: 'JUNGLE Bill',
+    billVersion: BillVersion.V2,
+    token: tokens.onyx,
+    quoteToken: tokens.eth,
+    lpToken: tokens.onyxEth,
+    earnToken: tokens.onyx,
+    billNnftAddress: {
+      [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
+    },
+    projectLink: 'https://www.onyxdao.finance/',
+    twitter: 'https://twitter.com/OnyxDAO',
+    initTime: { [ChainId.BSC]: 1679952396 },
+    initPrice: { [ChainId.BSC]: 1.5528 },
   },
 ]
 
