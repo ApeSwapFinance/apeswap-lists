@@ -5578,5 +5578,74 @@
     "inactive": true,
     "projectLink": "https://www.telos.net/",
     "twitter": "https://twitter.com/HelloTelos"
+  },
+  {
+    "index": 2001,
+    "contractAddress": {
+      "42161": "0x9Bd72c6c69cC314AdfF396cC2b34fF7e7fbd68ad"
+    },
+    "billType": "JUNGLE Bill",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "ONYX",
+      "address": {
+        "42161": "0xB7cD6C8C4600AeD9985d2c0Eb174e0BEe56E8854"
+      },
+      "decimals": {
+        "42161": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "ETH",
+      "address": {
+        "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
+        "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
+        "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
+        "137": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+      },
+      "decimals": {
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "42161": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "ONYX-ETH",
+      "address": {
+        "42161": "0xB8fCc49ecC9206DaBb48B28ecbcfD31D5C6346D1"
+      },
+      "decimals": {
+        "42161": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "ONYX",
+      "address": {
+        "42161": "0xB7cD6C8C4600AeD9985d2c0Eb174e0BEe56E8854"
+      },
+      "decimals": {
+        "42161": 18
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "42161": "0xAC707999D05C4048844B78c737D9512DFDff524d"
+    },
+    "projectLink": "https://www.onyxdao.finance/",
+    "twitter": "https://twitter.com/OnyxDAO",
+    "audit": "https://hashex.org/audits/onyx-dao/",
+    "initTime": {
+      "56": 1679952396
+    },
+    "initPrice": {
+      "56": 1.5528
+    }
   }
 ]

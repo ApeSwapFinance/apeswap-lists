@@ -1886,6 +1886,16 @@ const tokens: Record<string, Token> = {
     decimals: { [ChainId.BSC]: 18 },
     active: true,
   },
+  onyx: {
+    symbol: 'ONYX',
+    address: {
+      [ChainId.ARBITRUM]: '0xB7cD6C8C4600AeD9985d2c0Eb174e0BEe56E8854',
+    },
+    decimals: {
+      [ChainId.ARBITRUM]: 18,
+    },
+    active: true,
+  },
 
   // Test LPs
 
@@ -2793,6 +2803,15 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: '0xcD10d0173651d1B3bd027DEcDBA007998bb03eaf',
     },
     decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+  },
+  onyxEth: {
+    symbol: 'ONYX-ETH',
+    address: {
+      [ChainId.ARBITRUM]: '0xB8fCc49ecC9206DaBb48B28ecbcfD31D5C6346D1',
+    },
+    decimals: { [ChainId.ARBITRUM]: 18 },
     active: true,
     lpToken: true,
   },
