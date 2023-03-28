@@ -1617,6 +1617,7 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://www.onyxdao.finance/',
     twitter: 'https://twitter.com/OnyxDAO',
+    audit: 'https://hashex.org/audits/onyx-dao/',
     initTime: { [ChainId.BSC]: 1679952396 },
     initPrice: { [ChainId.BSC]: 1.5528 },
   },
