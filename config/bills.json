@@ -390,6 +390,71 @@
     }
   },
   {
+    "index": 61,
+    "contractAddress": {
+      "56": "0x966d6F3e6a8b59296F1e25a08b45154318Aea3cb"
+    },
+    "billType": "JUNGLE Bill",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "UBXS",
+      "address": {
+        "56": "0x4f1960E29b2cA581a38c5c474e123f420F8092db"
+      },
+      "decimals": {
+        "56": 6
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "UBXS-BNB",
+      "address": {
+        "56": "0x267ff6b3F548B877623520bCcf74bF4a3151E0Fa"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "UBXS",
+      "address": {
+        "56": "0x4f1960E29b2cA581a38c5c474e123f420F8092db"
+      },
+      "decimals": {
+        "56": 6
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "projectLink": "https://bixos.io/",
+    "twitter": "https://twitter.com/bixosinc",
+    "audit": "https://github.com/solidproof/projects/blob/main/Bixos/SmartContract_Audit_Solidproof_Bixos.pdf",
+    "initTime": {
+      "56": 1681407727
+    },
+    "initPrice": {
+      "56": 0.0650251
+    }
+  },
+  {
     "index": 60,
     "contractAddress": {
       "56": "0xc3111525f0CeEB7565939c8Da18D9cDD67C7B219"

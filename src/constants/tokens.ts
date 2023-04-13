@@ -1843,6 +1843,14 @@ const tokens: Record<string, Token> = {
     decimals: { [ChainId.BSC]: 18 },
     active: true,
   },
+  ubxs: {
+    symbol: 'UBXS',
+    address: {
+      [ChainId.BSC]: '0x4f1960E29b2cA581a38c5c474e123f420F8092db',
+    },
+    decimals: { [ChainId.BSC]: 6 },
+    active: true,
+  },
   cgg: {
     symbol: 'CGG',
     address: {
@@ -2724,6 +2732,15 @@ const tokens: Record<string, Token> = {
     symbol: 'SWT-BNB',
     address: {
       [ChainId.BSC]: '0xD2280ae010CE3e519a09a459E200bACD303eA330',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+  },
+  ubxsBnb: {
+    symbol: 'UBXS-BNB',
+    address: {
+      [ChainId.BSC]: '0x267ff6b3F548B877623520bCcf74bF4a3151E0Fa',
     },
     decimals: { [ChainId.BSC]: 18 },
     active: true,
