@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillsConfig, BillVersion } from '../types'
 
-// BNB Largest ID: 60
+// BNB Largest ID: 61
 // Polygon Largest ID: 106
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2001
@@ -102,6 +102,26 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/ape_swap',
     initTime: { [ChainId.BSC]: 1675904338 },
     initPrice: { [ChainId.BSC]: 0.073805 },
+  },
+  {
+    index: 61,
+    contractAddress: {
+      [ChainId.BSC]: '0x966d6F3e6a8b59296F1e25a08b45154318Aea3cb',
+    },
+    billType: 'JUNGLE Bill',
+    billVersion: BillVersion.V2,
+    token: tokens.ubxs,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.ubxsBnb,
+    earnToken: tokens.ubxs,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://bixos.io/',
+    twitter: 'https://twitter.com/bixosinc',
+    audit: 'https://github.com/solidproof/projects/blob/main/Bixos/SmartContract_Audit_Solidproof_Bixos.pdf',
+    initTime: { [ChainId.BSC]: 1681407727 },
+    initPrice: { [ChainId.BSC]: 0.0650251 },
   },
   {
     index: 60,
