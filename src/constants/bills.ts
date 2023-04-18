@@ -9,11 +9,30 @@ import { BillsConfig, BillVersion } from '../types'
 
 const bills: BillsConfig[] = [
   {
+    index: 69,
+    contractAddress: {
+      [ChainId.BSC]: '0xb42ca3004f079C5157901a27aCd8aDb5a3c624C5',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.busd,
+    quoteToken: tokens.busd,
+    lpToken: tokens.busd,
+    earnToken: tokens.banana,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xce112E14e23B7700Ad4915290EA24575F01609fa',
+    },
+    projectLink: 'https://apeswap.finance/',
+    twitter: 'https://twitter.com/ape_swap',
+    initTime: { [ChainId.BSC]: 1675904338 },
+    initPrice: { [ChainId.BSC]: 0.073805 },
+  },
+  {
     index: 47,
     contractAddress: {
       [ChainId.BSC]: '0xc10BD711C939f972aB7523dc1E948E5DB53B5759',
     },
-    billType: 'BANANA Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V2,
     token: tokens.banana,
     quoteToken: tokens.wbnb,
@@ -32,7 +51,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0xDfE0C1Ee6E3383E2E50f95541881040d278720C9',
     },
-    billType: 'BANANA Bill',
+    billType: 'launch',
     billVersion: BillVersion.V2,
     token: tokens.busd,
     quoteToken: tokens.wbnb,
@@ -51,7 +70,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0x9632D29b4786699C4262F59526D0DA0C9E7C7a72',
     },
-    billType: 'BANANA Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V2,
     token: tokens.busd,
     quoteToken: tokens.usdc,
@@ -70,7 +89,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0x1Ca83Ba8e7927e65764Ff07A61BCe8D12147CBD9',
     },
-    billType: 'BANANA Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V2,
     token: tokens.eth,
     quoteToken: tokens.wbnb,
@@ -89,7 +108,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0xAB60c836793e04DDA3168fCd4e36AF52Bf6e65Cf',
     },
-    billType: 'BANANA Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V2,
     token: tokens.btc,
     quoteToken: tokens.wbnb,
@@ -108,7 +127,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0x966d6F3e6a8b59296F1e25a08b45154318Aea3cb',
     },
-    billType: 'JUNGLE Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V2,
     token: tokens.ubxs,
     quoteToken: tokens.wbnb,
@@ -128,7 +147,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0xc3111525f0CeEB7565939c8Da18D9cDD67C7B219',
     },
-    billType: 'JUNGLE Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V2,
     token: tokens.monsta,
     quoteToken: tokens.wbnb,
@@ -148,7 +167,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0x83a9d9c278f2ccE356667EbdAD20c9B4BA68d5aE',
     },
-    billType: 'JUNGLE Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V2,
     token: tokens.credi,
     quoteToken: tokens.wbnb,
@@ -168,7 +187,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0x9b86b2baE5B9C7eD73264Cbfdf1b819496Fdc091',
     },
-    billType: 'JUNGLE Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V2,
     token: tokens.cgg,
     quoteToken: tokens.usdc,
@@ -188,7 +207,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0x31CA3536a7B3560e56a0BEA226135Cf809D2E237',
     },
-    billType: 'JUNGLE Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V2,
     token: tokens.lgc,
     quoteToken: tokens.wbnb,
@@ -208,7 +227,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0xCdCC22C01e1660713B45fE83d7C23787792931B5',
     },
-    billType: 'JUNGLE Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V2,
     token: tokens.oath,
     quoteToken: tokens.usdc,
@@ -228,7 +247,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0x4E96152511D29c99c47A24B07a3b98738e0fb9BA',
     },
-    billType: 'JUNGLE Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V2,
     token: tokens.toko,
     quoteToken: tokens.wbnb,
@@ -248,7 +267,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0x60219D7ABd2381230BC250548109b464f44e44dC',
     },
-    billType: 'JUNGLE Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V2,
     token: tokens.cvl,
     quoteToken: tokens.usdt,
@@ -268,7 +287,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0xF3DADCFa7114652Ca750e0C653A00DeCB63B4d0F',
     },
-    billType: 'JUNGLE Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V2,
     token: tokens.trivia,
     quoteToken: tokens.wbnb,
@@ -288,7 +307,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0x6ed6Ccf1f55f3C42438265d1c1C58B9e6756fb1a',
     },
-    billType: 'JUNGLE Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V2,
     token: tokens.xtal,
     quoteToken: tokens.busd,
@@ -308,7 +327,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0x12c42b96ff1248471bbc9da06d7fee828e6f7db2',
     },
-    billType: 'JUNGLE Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.wcflt,
     quoteToken: tokens.wbnb,
@@ -329,7 +348,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0x44c2211976f796d439e82036006d9559c1b1fbdb',
     },
-    billType: 'JUNGLE Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.avan,
     quoteToken: tokens.wbnb,
@@ -349,7 +368,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0x279c47aE7846962037077338505c657ad65D0DeE',
     },
-    billType: 'JUNGLE Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.liq,
     quoteToken: tokens.busd,
@@ -369,7 +388,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0xaf7F491e77f4979faadbE24866D4471De23bd0a0',
     },
-    billType: 'JUNGLE Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.monsta,
     quoteToken: tokens.wbnb,
@@ -389,7 +408,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0x2e9bdb018850747dc557d13046b8259ab24c674a',
     },
-    billType: 'JUNGLE Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.radar,
     quoteToken: tokens.wbnb,
@@ -409,7 +428,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0x5aabc088b42c197c8da69af5471aa06c3852912b',
     },
-    billType: 'JUNGLE Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.ihc,
     quoteToken: tokens.wbnb,
@@ -429,7 +448,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0xfe69f6f456fdc5535e7a7a03bb78f739400bc8e0',
     },
-    billType: 'JUNGLE Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.liq,
     quoteToken: tokens.busd,
@@ -448,7 +467,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0x74dab17e30b974a3590796a8ba2223a50da6a32c',
     },
-    billType: 'JUNGLE Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.pstn,
     quoteToken: tokens.busd,
@@ -467,7 +486,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0xEd242A13d25b5B2270E90058C9a1A756811cdb93',
     },
-    billType: 'JUNGLE Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.gq,
     quoteToken: tokens.busd,
@@ -486,7 +505,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0xb95bd2dc93562fd9076c0573615de42b413db256',
     },
-    billType: 'JUNGLE Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.leap,
     quoteToken: tokens.wbnb,
@@ -506,7 +525,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0xced994206cd4c364d7bda2b66b48fcaef9b6bb5b',
     },
-    billType: 'JUNGLE Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.nfty,
     quoteToken: tokens.busd,
@@ -525,7 +544,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0x7aa1939b8284a2defdcb5e983de55da2ad61f607',
     },
-    billType: 'JUNGLE Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.threeair,
     quoteToken: tokens.wbnb,
@@ -545,7 +564,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0x626b5c18a2b702a189ea022df897a4f0f3566785',
     },
-    billType: 'JUNGLE Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.coc,
     quoteToken: tokens.wbnb,
@@ -564,7 +583,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0x7b1dfe9ca71ffeac5ed4d1beb592771e3672a2de',
     },
-    billType: 'JUNGLE Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.chrp,
     quoteToken: tokens.wbnb,
@@ -584,7 +603,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0xb646c4a51365598433ba4765b890ad3075e4e21e',
     },
-    billType: 'JUNGLE Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.gmr,
     quoteToken: tokens.wbnb,
@@ -604,7 +623,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0x63571f457f246124c6968579E8797B91613dED20',
     },
-    billType: 'JUNGLE Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.xcur,
     quoteToken: tokens.busd,
@@ -623,7 +642,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0x7fdb62f681d7aad8c08a1d6af350e2fb7f265336',
     },
-    billType: 'JUNGLE Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.gq,
     quoteToken: tokens.busd,
@@ -643,7 +662,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0x07968648273e29f5e2fe07aabf5fbc3b40892592',
     },
-    billType: 'JUNGLE Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.pstn,
     quoteToken: tokens.busd,
@@ -661,7 +680,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0xff674209beeb493f9e8c44898848c6cfd710e98f',
     },
-    billType: 'JUNGLE Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.xwin,
     quoteToken: tokens.wbnb,
@@ -680,7 +699,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0x2f8042167b0549ef56e55b9c1ace661b10ad93ea',
     },
-    billType: 'JUNGLE Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.froyo,
     quoteToken: tokens.wbnb,
@@ -699,7 +718,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0xc117e57f4fa2fc1c2759228e0f85bc6d1c89be36',
     },
-    billType: 'JUNGLE Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.froyo,
     quoteToken: tokens.wbnb,
@@ -717,7 +736,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0x7e7842f762b27a024f7c3b95495f1d132c554d6b',
     },
-    billType: 'JUNGLE Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.blid,
     quoteToken: tokens.usdt,
@@ -736,7 +755,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0x99eea57cdc8983992a3c1505dbf7181467daa22f',
     },
-    billType: 'JUNGLE Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.hec,
     quoteToken: tokens.wbnb,
@@ -755,7 +774,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0x80ef5c5215ff56a12b5e59c2acfc279c763ae34b',
     },
-    billType: 'JUNGLE Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.floki,
     quoteToken: tokens.wbnb,
@@ -774,7 +793,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0x3f02ce456b9da36352439fbd1897c2233a77e46f',
     },
-    billType: 'JUNGLE Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.radar,
     quoteToken: tokens.wbnb,
@@ -792,7 +811,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0x1c36913ca7c64365a54694cd91dde9c7cf5e44ec',
     },
-    billType: 'JUNGLE Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.ceek,
     quoteToken: tokens.wbnb,
@@ -811,7 +830,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0xd9e18fae215f10f4ce35a24fcbfe944fbfb96643',
     },
-    billType: 'JUNGLE Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.nfty,
     quoteToken: tokens.wbnb,
@@ -829,7 +848,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0xda0149da023cb204b3ffba33a88d9dd19393c6fc',
     },
-    billType: 'JUNGLE Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.tlos,
     quoteToken: tokens.busd,
@@ -847,7 +866,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0xaf3016100f67c66af15c973cb8da94962653a726',
     },
-    billType: 'JUNGLE Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.stars,
     quoteToken: tokens.wbnb,
@@ -866,7 +885,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0x6a5be77e3fc1c99ef4aae2846432d61fa78a564c',
     },
-    billType: 'JUNGLE Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.hotcross,
     quoteToken: tokens.busd,
@@ -885,7 +904,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0xb5fd0ac23267da501fc6c59c6e12ae32831e72bb',
     },
-    billType: 'JUNGLE Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.hotcross,
     quoteToken: tokens.busd,
@@ -904,7 +923,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0x4a3adf34b1f8830fb8d673477d52fa5cb91a2531',
     },
-    billType: 'JUNGLE Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.tlos,
     quoteToken: tokens.busd,
@@ -918,13 +937,13 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.BSC]: 1655552058 },
     initPrice: { [ChainId.BSC]: 0.1736239460283216 },
   },
-  // Old BANANA Bills
+  // Old liquiditys
   {
     index: 0,
     contractAddress: {
       [ChainId.BSC]: '0x8b57Fc5BE65118188D50d42fcD5614e447F7FAbE',
     },
-    billType: 'BANANA Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.banana,
     quoteToken: tokens.wbnb,
@@ -942,7 +961,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0x4925AcdE0E885170801A74DEBcC8fbA91F3aE29b',
     },
-    billType: 'BANANA Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.busd,
     quoteToken: tokens.wbnb,
@@ -960,7 +979,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0xca1612f66292398a5df0ecadd98bb81dc264349d',
     },
-    billType: 'BANANA Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.busd,
     quoteToken: tokens.usdc,
@@ -978,7 +997,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0xb2d516086BFc978950e40D2739c72125415441a8',
     },
-    billType: 'BANANA Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.eth,
     quoteToken: tokens.wbnb,
@@ -996,7 +1015,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0xBD9959320cbbC69b2eF7d07fb3f9870cceaeB44f',
     },
-    billType: 'BANANA Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.btc,
     quoteToken: tokens.wbnb,
@@ -1014,7 +1033,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0xE325439439D692DC858Ba887601999D57d35688F',
     },
-    billType: 'BANANA Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.banana,
     quoteToken: tokens.wbnb,
@@ -1032,7 +1051,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0xf297F71f4664cF7F1Cd5d90720967998A1163cC3',
     },
-    billType: 'BANANA Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.busd,
     quoteToken: tokens.wbnb,
@@ -1050,7 +1069,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0x937A30Fd88f48B23DeABf4fD43c42cc9d3f3F9Dd',
     },
-    billType: 'BANANA Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.busd,
     quoteToken: tokens.usdc,
@@ -1068,7 +1087,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0x2D375a67366eDFB92F520aE428E8E08451D638d2',
     },
-    billType: 'BANANA Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.eth,
     quoteToken: tokens.wbnb,
@@ -1086,7 +1105,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0x44921f493887ab8a8b9db54db335f65c1ef8d51a',
     },
-    billType: 'BANANA Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.btc,
     quoteToken: tokens.wbnb,
@@ -1104,7 +1123,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0xa45dc4b9743d489e9b91070b27e72094b697632d',
     },
-    billType: 'BANANA Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.banana,
     quoteToken: tokens.wbnb,
@@ -1124,7 +1143,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0x3a4de56b96d5befd0c9f3fb214372699f2d58947',
     },
-    billType: 'BANANA Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.busd,
     quoteToken: tokens.wbnb,
@@ -1144,7 +1163,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0xb0992d86e7d4de0200c463e6451cce1f2775903b',
     },
-    billType: 'BANANA Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.busd,
     quoteToken: tokens.usdc,
@@ -1164,7 +1183,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0x08dd5a43e5fc889f2100023f8296e14d9fd40064',
     },
-    billType: 'BANANA Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.eth,
     quoteToken: tokens.wbnb,
@@ -1184,7 +1203,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0x069002be4ec72333a3fa8a5730e8b84680a190a4',
     },
-    billType: 'BANANA Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.btc,
     quoteToken: tokens.wbnb,
@@ -1208,7 +1227,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.MATIC]: '0x220A6561490eE6926F4dBE8416E5cb0C2277a13D',
     },
-    billType: 'Jungle Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V2,
     token: tokens.dogira,
     quoteToken: tokens.wmatic,
@@ -1229,7 +1248,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.MATIC]: '0xB226290a0078a18b0A2a3BDA7460b82b966B656a',
     },
-    billType: 'Jungle Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V2,
     token: tokens.leap,
     quoteToken: tokens.wmatic,
@@ -1250,7 +1269,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.MATIC]: '0x66466E907B63D5c7a7Dd560e490adB596DFDf61B',
     },
-    billType: 'Jungle Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V2,
     token: tokens.usdc,
     quoteToken: tokens.cgg,
@@ -1271,7 +1290,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.MATIC]: '0xb53b2706897a26fec9113f3e2371ac5b2b88970a',
     },
-    billType: 'Jungle Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.axn,
     quoteToken: tokens.usdc,
@@ -1291,7 +1310,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.MATIC]: '0x643a6848a3906182a94ec857a41c1735664c677f',
     },
-    billType: 'Jungle Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.dogira,
     quoteToken: tokens.wmatic,
@@ -1309,7 +1328,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.MATIC]: '0xca48704b19a053ebb5a077c215dcb4be745c9fe5',
     },
-    billType: 'Jungle Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.traxx,
     quoteToken: tokens.wmatic,
@@ -1329,7 +1348,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.MATIC]: '0xc16cf0e4c090409765757e5b13afdfc500148678',
     },
-    billType: 'Jungle Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.dogira,
     quoteToken: tokens.wmatic,
@@ -1353,7 +1372,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.TLOS]: '0x84662B6bBef1E81aBcAa8372678ADBbA49d07C2c',
     },
-    billType: 'Jungle Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V2,
     token: tokens.banana,
     quoteToken: tokens.tlos,
@@ -1373,7 +1392,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.TLOS]: '0x5d72Be8B3E8F07f9D41944a148a109F18Cb65f55',
     },
-    billType: 'Jungle Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V2,
     token: tokens.eth,
     quoteToken: tokens.tlos,
@@ -1393,7 +1412,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.TLOS]: '0xF5F350ddcC3DE0733B62E71844A9C8BE4032DE52',
     },
-    billType: 'Jungle Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V2,
     token: tokens.btc,
     quoteToken: tokens.tlos,
@@ -1413,7 +1432,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.TLOS]: '0xE5325b9F69255098786908c79A234584FfC62dcb',
     },
-    billType: 'Jungle Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V2,
     token: tokens.usdt,
     quoteToken: tokens.tlos,
@@ -1433,7 +1452,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.TLOS]: '0x07273ae6E441491fc4410aE9F8371AEdd7A19499',
     },
-    billType: 'Jungle Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V2,
     token: tokens.usdc,
     quoteToken: tokens.tlos,
@@ -1453,7 +1472,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.TLOS]: '0x1Bb2Eb63c2B2CD1cE5887B4628694276E637BeD7',
     },
-    billType: 'Jungle Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.banana,
     quoteToken: tokens.tlos,
@@ -1473,7 +1492,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.TLOS]: '0xe3725Eccd93bb544b360BB572893eF17E42219c4',
     },
-    billType: 'Jungle Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.eth,
     quoteToken: tokens.tlos,
@@ -1493,7 +1512,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.TLOS]: '0x81f2BA390934df655eABcc3787F4f5f694e722ED',
     },
-    billType: 'Jungle Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.btc,
     quoteToken: tokens.tlos,
@@ -1513,7 +1532,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.TLOS]: '0x68aEaAbE6EbBd2b5Cf0130d0BAAef1Ec5E0539Aa',
     },
-    billType: 'Jungle Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.usdt,
     quoteToken: tokens.tlos,
@@ -1533,7 +1552,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.TLOS]: '0xb3a0b38E5C07db5238538a640155562085F22bCe',
     },
-    billType: 'Jungle Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.usdc,
     quoteToken: tokens.tlos,
@@ -1553,7 +1572,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.TLOS]: '0x7C02E197BC2644FE0E9834641F80aC0A15055ad7',
     },
-    billType: 'Jungle Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.banana,
     quoteToken: tokens.tlos,
@@ -1571,7 +1590,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.TLOS]: '0x76a33a5d002C711A3F353cB4Ee2B112B579c317a',
     },
-    billType: 'Jungle Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.eth,
     quoteToken: tokens.tlos,
@@ -1589,7 +1608,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.TLOS]: '0xa08A0125F4B85320e2357174EDC9E262098BF850',
     },
-    billType: 'Jungle Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.btc,
     quoteToken: tokens.tlos,
@@ -1607,7 +1626,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.TLOS]: '0xD1FbE4EAFAcB7FdC56F7Aa8dA24198b01942C677',
     },
-    billType: 'Jungle Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.usdt,
     quoteToken: tokens.tlos,
@@ -1625,7 +1644,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.TLOS]: '0xc17a1ea1Da9975A2fad85eC7C39AEBA2B4BfEA11',
     },
-    billType: 'Jungle Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V1,
     token: tokens.usdc,
     quoteToken: tokens.tlos,
@@ -1646,7 +1665,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.ARBITRUM]: '0x9Bd72c6c69cC314AdfF396cC2b34fF7e7fbd68ad',
     },
-    billType: 'JUNGLE Bill',
+    billType: 'liquidity',
     billVersion: BillVersion.V2,
     token: tokens.onyx,
     quoteToken: tokens.eth,
