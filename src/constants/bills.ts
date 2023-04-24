@@ -2,16 +2,16 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillsConfig, BillVersion } from '../types'
 
-// BNB Largest ID: 61
+// BNB Largest ID: 63
 // Polygon Largest ID: 106
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2001
 
 const bills: BillsConfig[] = [
   {
-    index: 47,
+    index: 62,
     contractAddress: {
-      [ChainId.BSC]: '0xc10BD711C939f972aB7523dc1E948E5DB53B5759',
+      [ChainId.BSC]: '0xB12413a70efd97B827201a071285fBFfCAC436Bc',
     },
     billType: 'BANANA Bill',
     billVersion: BillVersion.V2,
@@ -24,8 +24,9 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
-    initTime: { [ChainId.BSC]: 1675904338 },
-    initPrice: { [ChainId.BSC]: 0.073805 },
+    audit: 'https://paladinsec.co/projects/apeswap/',
+    initTime: { [ChainId.BSC]: 1682255105 },
+    initPrice: { [ChainId.BSC]: 0.0390276 },
   },
   {
     index: 48,
@@ -102,6 +103,27 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/ape_swap',
     initTime: { [ChainId.BSC]: 1675904338 },
     initPrice: { [ChainId.BSC]: 0.073805 },
+  },
+  {
+    index: 63,
+    contractAddress: {
+      [ChainId.BSC]: '0x1bAFb5916b438fBFc029088da6BF96bd9CF4cb09',
+    },
+    billType: 'JUNGLE Bill',
+    billVersion: BillVersion.V2,
+    token: tokens.froyo,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.froyoBnb,
+    earnToken: tokens.froyo,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://apeswap.finance/',
+    twitter: 'https://twitter.com/realfroyogames',
+    audit:
+      'https://github.com/froyogames/public-smart-contracts/blob/main/Smart%20contract%20security%20audit%20report%20-%20Froyo.pdf',
+    initTime: { [ChainId.BSC]: 1682255105 },
+    initPrice: { [ChainId.BSC]: 0.003065 },
   },
   {
     index: 61,
@@ -403,6 +425,26 @@ const bills: BillsConfig[] = [
     audit: 'https://dappradar.com/documents/RADAR-Audits-v1.pdf',
     initTime: { [ChainId.BSC]: 1668620528 },
     initPrice: { [ChainId.BSC]: 0.005311928477767259 },
+  },
+  {
+    index: 47,
+    contractAddress: {
+      [ChainId.BSC]: '0xc10BD711C939f972aB7523dc1E948E5DB53B5759',
+    },
+    billType: 'BANANA Bill',
+    billVersion: BillVersion.V2,
+    token: tokens.banana,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.bananaBnb,
+    earnToken: tokens.banana,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://apeswap.finance/',
+    twitter: 'https://twitter.com/ape_swap',
+    initTime: { [ChainId.BSC]: 1675904338 },
+    initPrice: { [ChainId.BSC]: 0.073805 },
+    inactive: true,
   },
   {
     index: 38,

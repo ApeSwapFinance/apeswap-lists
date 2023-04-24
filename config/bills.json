@@ -1,8 +1,8 @@
 [
   {
-    "index": 47,
+    "index": 62,
     "contractAddress": {
-      "56": "0xc10BD711C939f972aB7523dc1E948E5DB53B5759"
+      "56": "0xB12413a70efd97B827201a071285fBFfCAC436Bc"
     },
     "billType": "BANANA Bill",
     "billVersion": "V2",
@@ -74,11 +74,12 @@
     },
     "projectLink": "https://apeswap.finance/",
     "twitter": "https://twitter.com/ape_swap",
+    "audit": "https://paladinsec.co/projects/apeswap/",
     "initTime": {
-      "56": 1675904338
+      "56": 1682255105
     },
     "initPrice": {
-      "56": 0.073805
+      "56": 0.0390276
     }
   },
   {
@@ -387,6 +388,71 @@
     },
     "initPrice": {
       "56": 0.073805
+    }
+  },
+  {
+    "index": 63,
+    "contractAddress": {
+      "56": "0x1bAFb5916b438fBFc029088da6BF96bd9CF4cb09"
+    },
+    "billType": "JUNGLE Bill",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "FROYO",
+      "address": {
+        "56": "0xe369fec23380f9F14ffD07a1DC4b7c1a9fdD81c9"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "FROYO-BNB",
+      "address": {
+        "56": "0x58ceF3eeDB9A4adc6B5a2Ee5c85Aea07D72787f0"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "FROYO",
+      "address": {
+        "56": "0xe369fec23380f9F14ffD07a1DC4b7c1a9fdD81c9"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "projectLink": "https://apeswap.finance/",
+    "twitter": "https://twitter.com/realfroyogames",
+    "audit": "https://github.com/froyogames/public-smart-contracts/blob/main/Smart%20contract%20security%20audit%20report%20-%20Froyo.pdf",
+    "initTime": {
+      "56": 1682255105
+    },
+    "initPrice": {
+      "56": 0.003065
     }
   },
   {
@@ -1375,6 +1441,89 @@
     "initPrice": {
       "56": 0.005311928477767259
     }
+  },
+  {
+    "index": 47,
+    "contractAddress": {
+      "56": "0xc10BD711C939f972aB7523dc1E948E5DB53B5759"
+    },
+    "billType": "BANANA Bill",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "BANANA",
+      "address": {
+        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
+        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "BANANA-BNB",
+      "address": {
+        "56": "0xf65c1c0478efde3c19b49ecbe7acc57bb6b1d713",
+        "97": "0x90Fc86A7570063a9eA971ec74f01F89569Ad6237"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "BANANA",
+      "address": {
+        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
+        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "projectLink": "https://apeswap.finance/",
+    "twitter": "https://twitter.com/ape_swap",
+    "initTime": {
+      "56": 1675904338
+    },
+    "initPrice": {
+      "56": 0.073805
+    },
+    "inactive": true
   },
   {
     "index": 38,
