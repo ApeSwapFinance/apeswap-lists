@@ -391,9 +391,9 @@
     }
   },
   {
-    "index": 63,
+    "index": 64,
     "contractAddress": {
-      "56": "0x1bAFb5916b438fBFc029088da6BF96bd9CF4cb09"
+      "56": "0x7a86f9938a8e68e3a9fb62eD84031F8c7C052aDb"
     },
     "billType": "liquidity",
     "billVersion": "V2",
@@ -4348,6 +4348,72 @@
     },
     "initPrice": {
       "56": 0.0709352845097292
+    },
+    "inactive": true
+  },
+  {
+    "index": 63,
+    "contractAddress": {
+      "56": "0x1bAFb5916b438fBFc029088da6BF96bd9CF4cb09"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "FROYO",
+      "address": {
+        "56": "0xe369fec23380f9F14ffD07a1DC4b7c1a9fdD81c9"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "FROYO-BNB",
+      "address": {
+        "56": "0x58ceF3eeDB9A4adc6B5a2Ee5c85Aea07D72787f0"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "FROYO",
+      "address": {
+        "56": "0xe369fec23380f9F14ffD07a1DC4b7c1a9fdD81c9"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "projectLink": "https://apeswap.finance/",
+    "twitter": "https://twitter.com/realfroyogames",
+    "audit": "https://github.com/froyogames/public-smart-contracts/blob/main/Smart%20contract%20security%20audit%20report%20-%20Froyo.pdf",
+    "initTime": {
+      "56": 1682255105
+    },
+    "initPrice": {
+      "56": 0.003065
     },
     "inactive": true
   },

@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillsConfig, BillVersion } from '../types'
 
-// BNB Largest ID: 63
+// BNB Largest ID: 64
 // Polygon Largest ID: 106
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2001
@@ -105,9 +105,9 @@ const bills: BillsConfig[] = [
     initPrice: { [ChainId.BSC]: 0.073805 },
   },
   {
-    index: 63,
+    index: 64,
     contractAddress: {
-      [ChainId.BSC]: '0x1bAFb5916b438fBFc029088da6BF96bd9CF4cb09',
+      [ChainId.BSC]: '0x7a86f9938a8e68e3a9fb62eD84031F8c7C052aDb',
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
@@ -1239,6 +1239,28 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/ape_swap',
     initTime: { [ChainId.BSC]: 1668467108 },
     initPrice: { [ChainId.BSC]: 0.0709352845097292 },
+    inactive: true,
+  },
+  {
+    index: 63,
+    contractAddress: {
+      [ChainId.BSC]: '0x1bAFb5916b438fBFc029088da6BF96bd9CF4cb09',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.froyo,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.froyoBnb,
+    earnToken: tokens.froyo,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://apeswap.finance/',
+    twitter: 'https://twitter.com/realfroyogames',
+    audit:
+      'https://github.com/froyogames/public-smart-contracts/blob/main/Smart%20contract%20security%20audit%20report%20-%20Froyo.pdf',
+    initTime: { [ChainId.BSC]: 1682255105 },
+    initPrice: { [ChainId.BSC]: 0.003065 },
     inactive: true,
   },
 
