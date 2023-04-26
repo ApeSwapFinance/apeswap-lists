@@ -3,7 +3,7 @@ import tokens from './tokens'
 import { BillsConfig, BillVersion } from '../types'
 
 // BNB Largest ID: 64
-// Polygon Largest ID: 106
+// Polygon Largest ID: 107
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2001
 
@@ -1267,6 +1267,27 @@ const bills: BillsConfig[] = [
   /*
     Polygon Bills
   */
+  {
+    index: 107,
+    contractAddress: {
+      [ChainId.MATIC]: '0x5F05a78734853C34661D1C6Db46b5661dEef7374',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.kom,
+    quoteToken: tokens.wmatic,
+    lpToken: tokens.komMatic,
+    earnToken: tokens.kom,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
+    },
+    inactive: false,
+    projectLink: 'https://www.kommunitas.net/',
+    twitter: 'https://twitter.com/Kommunitas1',
+    audit: 'https://docs.kommunitas.net/audit/shellboxes/security-audit-by-shellboxes',
+    initTime: { [ChainId.MATIC]: 1682469864 },
+    initPrice: { [ChainId.MATIC]: 0.0013484 },
+  },
   {
     index: 106,
     contractAddress: {

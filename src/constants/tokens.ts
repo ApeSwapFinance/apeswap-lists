@@ -2814,6 +2814,17 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
   },
+  komMatic: {
+    symbol: 'KOM-MATIC',
+    address: {
+      [ChainId.MATIC]: '0x0806A407d6eEa72788d91C36829A19d424446040',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    active: true,
+    lpToken: true,
+  },
   chrpBnb: {
     symbol: 'CHRP-BNB',
     address: {
