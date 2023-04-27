@@ -2,8 +2,8 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillsConfig, BillVersion } from '../types'
 
-// BNB Largest ID: 64
-// Polygon Largest ID: 107
+// BNB Largest ID: 65
+// Polygon Largest ID: 108
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2001
 
@@ -103,6 +103,27 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/ape_swap',
     initTime: { [ChainId.BSC]: 1675904338 },
     initPrice: { [ChainId.BSC]: 0.073805 },
+  },
+  {
+    index: 65,
+    contractAddress: {
+      [ChainId.BSC]: '0xB883CF791A81e4ac248360b9E5cFF4cb9b5d45f6',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.cgg,
+    quoteToken: tokens.usdc,
+    lpToken: tokens.cggUsdc,
+    earnToken: tokens.usdc,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://chainguardians.io/',
+    twitter: 'https://twitter.com/chain_guardians',
+    audit: 'https://www.certik.com/projects/chainguardians?utm_source=CMC&utm_campaign=AuditByCertiKLink',
+    initTime: { [ChainId.BSC]: 1682590408 },
+    initPrice: { [ChainId.BSC]: 0.0846315 },
   },
   {
     index: 64,
@@ -1267,6 +1288,27 @@ const bills: BillsConfig[] = [
   /*
     Polygon Bills
   */
+  {
+    index: 108,
+    contractAddress: {
+      [ChainId.MATIC]: '0x6c83cF7e4305f6D66930754f4855f2ea4357BaBf',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.cgg,
+    quoteToken: tokens.usdc,
+    lpToken: tokens.cggUsdc,
+    earnToken: tokens.usdc,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
+    },
+    inactive: false,
+    projectLink: 'https://chainguardians.io/',
+    twitter: 'https://twitter.com/chain_guardians',
+    audit: 'https://www.certik.com/projects/chainguardians?utm_source=CMC&utm_campaign=AuditByCertiKLink',
+    initTime: { [ChainId.MATIC]: 1682590408 },
+    initPrice: { [ChainId.MATIC]: 0.085485 },
+  },
   {
     index: 107,
     contractAddress: {
