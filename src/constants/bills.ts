@@ -35,7 +35,7 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
+    token: tokens.kkc,
     quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.kkc,
