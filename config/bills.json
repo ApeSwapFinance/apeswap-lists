@@ -1,5 +1,148 @@
 [
   {
+    "index": 66,
+    "contractAddress": {
+      "56": "0x48288b61D8dD929aeaCDDc11C8c2e150e29c02eA"
+    },
+    "billType": "launch",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "KKC",
+      "address": {
+        "56": "0x2e1a87C9a9b121c0A72aE64d99138f586ffb8929"
+      },
+      "decimals": {
+        "56": 6
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "42161": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "KKC-USDT",
+      "address": {
+        "56": "0x01eed6e622fa2e652b0796a29d98fe82056fb8f0"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "KKC",
+      "address": {
+        "56": "0x2e1a87C9a9b121c0A72aE64d99138f586ffb8929"
+      },
+      "decimals": {
+        "56": 6
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "projectLink": "https://www.knoknok.io/",
+    "twitter": "https://twitter.com/knoknok_elf",
+    "initTime": {
+      "56": 1682690400
+    },
+    "initPrice": {
+      "56": 0.015
+    }
+  },
+  {
+    "index": 67,
+    "contractAddress": {
+      "56": "0x14FE608b4BE893ab1d7f36Be6B27C4971dcc364C"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "42161": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "42161": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "42161": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "KKC",
+      "address": {
+        "56": "0x2e1a87C9a9b121c0A72aE64d99138f586ffb8929"
+      },
+      "decimals": {
+        "56": 6
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "projectLink": "https://www.knoknok.io/",
+    "twitter": "https://twitter.com/knoknok_elf",
+    "initTime": {
+      "56": 1682690400
+    },
+    "initPrice": {
+      "56": 0.015
+    }
+  },
+  {
     "index": 62,
     "contractAddress": {
       "56": "0xB12413a70efd97B827201a071285fBFfCAC436Bc"

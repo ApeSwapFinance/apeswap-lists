@@ -2,12 +2,50 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillsConfig, BillVersion } from '../types'
 
-// BNB Largest ID: 65
+// BNB Largest ID: 67
 // Polygon Largest ID: 108
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2001
 
 const bills: BillsConfig[] = [
+  {
+    index: 66,
+    contractAddress: {
+      [ChainId.BSC]: '0x48288b61D8dD929aeaCDDc11C8c2e150e29c02eA',
+    },
+    billType: 'launch',
+    billVersion: BillVersion.V2,
+    token: tokens.kkc,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.kkcUsdt,
+    earnToken: tokens.kkc,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://www.knoknok.io/',
+    twitter: 'https://twitter.com/knoknok_elf',
+    initTime: { [ChainId.BSC]: 1682690400 },
+    initPrice: { [ChainId.BSC]: 0.015 },
+  },
+  {
+    index: 67,
+    contractAddress: {
+      [ChainId.BSC]: '0x14FE608b4BE893ab1d7f36Be6B27C4971dcc364C',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.kkc,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://www.knoknok.io/',
+    twitter: 'https://twitter.com/knoknok_elf',
+    initTime: { [ChainId.BSC]: 1682690400 },
+    initPrice: { [ChainId.BSC]: 0.015 },
+  },
   {
     index: 62,
     contractAddress: {
