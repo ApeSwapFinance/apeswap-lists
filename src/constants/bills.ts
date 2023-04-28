@@ -11,7 +11,7 @@ const bills: BillsConfig[] = [
   {
     index: 66,
     contractAddress: {
-      [ChainId.BSC]: '0x7b8d4F9fdFf32F01490691db605202b93dFE1575', // replace
+      [ChainId.BSC]: '0x48288b61D8dD929aeaCDDc11C8c2e150e29c02eA',
     },
     billType: 'launch',
     billVersion: BillVersion.V2,
@@ -20,18 +20,17 @@ const bills: BillsConfig[] = [
     lpToken: tokens.kkcUsdt,
     earnToken: tokens.kkc,
     billNnftAddress: {
-      [ChainId.BSC]: '0xce112E14e23B7700Ad4915290EA24575F01609fa', // replace
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    projectLink: 'https://apeswap.finance/',
-    twitter: 'https://twitter.com/ape_swap',
-    audit: 'https://paladinsec.co/projects/apeswap/',
-    initTime: { [ChainId.BSC]: 1682255105 },
-    initPrice: { [ChainId.BSC]: 0.0390276 },
+    projectLink: 'https://www.knoknok.io/',
+    twitter: 'https://twitter.com/knoknok_elf',
+    initTime: { [ChainId.BSC]: 1682690400 },
+    initPrice: { [ChainId.BSC]: 0.015 },
   },
   {
     index: 67,
     contractAddress: {
-      [ChainId.BSC]: '0x8972d0F97410c83FFBE83D2BCAdb006520236115', // replace
+      [ChainId.BSC]: '0x14FE608b4BE893ab1d7f36Be6B27C4971dcc364C',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
@@ -40,13 +39,12 @@ const bills: BillsConfig[] = [
     lpToken: tokens.usdt,
     earnToken: tokens.kkc,
     billNnftAddress: {
-      [ChainId.BSC]: '0xce112E14e23B7700Ad4915290EA24575F01609fa', // replace
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    projectLink: 'https://apeswap.finance/',
-    twitter: 'https://twitter.com/ape_swap',
-    audit: 'https://paladinsec.co/projects/apeswap/',
-    initTime: { [ChainId.BSC]: 1682255105 },
-    initPrice: { [ChainId.BSC]: 0.0390276 },
+    projectLink: 'https://www.knoknok.io/',
+    twitter: 'https://twitter.com/knoknok_elf',
+    initTime: { [ChainId.BSC]: 1682690400 },
+    initPrice: { [ChainId.BSC]: 0.015 },
   },
   {
     index: 62,

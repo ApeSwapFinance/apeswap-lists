@@ -293,7 +293,7 @@ const tokens: Record<string, Token> = {
   kkc: {
     symbol: 'KKC',
     address: {
-      [ChainId.BSC]: '0x72062af7582daaa9d8caee7f27d72afbdf7b4f01', // replace
+      [ChainId.BSC]: '0x2e1a87C9a9b121c0A72aE64d99138f586ffb8929',
     },
     decimals: {
       [ChainId.BSC]: 6,
@@ -2847,7 +2847,7 @@ const tokens: Record<string, Token> = {
   kkcUsdt: {
     symbol: 'KKC-USDT',
     address: {
-      [ChainId.BSC]: '0x49f6cc497555a4c93e0f0e70d24775df7e968744', //replace
+      [ChainId.BSC]: '0x01eed6e622fa2e652b0796a29d98fe82056fb8f0',
     },
     decimals: { [ChainId.BSC]: 18 },
     active: true,

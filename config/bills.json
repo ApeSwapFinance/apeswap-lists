@@ -2,14 +2,14 @@
   {
     "index": 66,
     "contractAddress": {
-      "56": "0x7b8d4F9fdFf32F01490691db605202b93dFE1575"
+      "56": "0x48288b61D8dD929aeaCDDc11C8c2e150e29c02eA"
     },
     "billType": "launch",
     "billVersion": "V2",
     "token": {
       "symbol": "KKC",
       "address": {
-        "56": "0x72062af7582daaa9d8caee7f27d72afbdf7b4f01"
+        "56": "0x2e1a87C9a9b121c0A72aE64d99138f586ffb8929"
       },
       "decimals": {
         "56": 6
@@ -35,7 +35,7 @@
     "lpToken": {
       "symbol": "KKC-USDT",
       "address": {
-        "56": "0x49f6cc497555a4c93e0f0e70d24775df7e968744"
+        "56": "0x01eed6e622fa2e652b0796a29d98fe82056fb8f0"
       },
       "decimals": {
         "56": 18
@@ -46,7 +46,7 @@
     "earnToken": {
       "symbol": "KKC",
       "address": {
-        "56": "0x72062af7582daaa9d8caee7f27d72afbdf7b4f01"
+        "56": "0x2e1a87C9a9b121c0A72aE64d99138f586ffb8929"
       },
       "decimals": {
         "56": 6
@@ -54,22 +54,21 @@
       "active": true
     },
     "billNnftAddress": {
-      "56": "0xce112E14e23B7700Ad4915290EA24575F01609fa"
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
     },
-    "projectLink": "https://apeswap.finance/",
-    "twitter": "https://twitter.com/ape_swap",
-    "audit": "https://paladinsec.co/projects/apeswap/",
+    "projectLink": "https://www.knoknok.io/",
+    "twitter": "https://twitter.com/knoknok_elf",
     "initTime": {
-      "56": 1682255105
+      "56": 1682690400
     },
     "initPrice": {
-      "56": 0.0390276
+      "56": 0.015
     }
   },
   {
     "index": 67,
     "contractAddress": {
-      "56": "0x8972d0F97410c83FFBE83D2BCAdb006520236115"
+      "56": "0x14FE608b4BE893ab1d7f36Be6B27C4971dcc364C"
     },
     "billType": "reserve",
     "billVersion": "V2",
@@ -124,7 +123,7 @@
     "earnToken": {
       "symbol": "KKC",
       "address": {
-        "56": "0x72062af7582daaa9d8caee7f27d72afbdf7b4f01"
+        "56": "0x2e1a87C9a9b121c0A72aE64d99138f586ffb8929"
       },
       "decimals": {
         "56": 6
@@ -132,16 +131,15 @@
       "active": true
     },
     "billNnftAddress": {
-      "56": "0xce112E14e23B7700Ad4915290EA24575F01609fa"
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
     },
-    "projectLink": "https://apeswap.finance/",
-    "twitter": "https://twitter.com/ape_swap",
-    "audit": "https://paladinsec.co/projects/apeswap/",
+    "projectLink": "https://www.knoknok.io/",
+    "twitter": "https://twitter.com/knoknok_elf",
     "initTime": {
-      "56": 1682255105
+      "56": 1682690400
     },
     "initPrice": {
-      "56": 0.0390276
+      "56": 0.015
     }
   },
   {
