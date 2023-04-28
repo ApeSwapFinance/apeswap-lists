@@ -74,12 +74,18 @@
     "billType": "reserve",
     "billVersion": "V2",
     "token": {
-      "symbol": "KKC",
+      "symbol": "USDT",
       "address": {
-        "56": "0x72062af7582daaa9d8caee7f27d72afbdf7b4f01"
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "42161": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
       },
       "decimals": {
-        "56": 6
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
       },
       "active": true
     },
