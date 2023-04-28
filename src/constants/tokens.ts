@@ -290,6 +290,16 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  kkc: {
+    symbol: 'KKC',
+    address: {
+      [ChainId.BSC]: '0x72062af7582daaa9d8caee7f27d72afbdf7b4f01', // replace
+    },
+    decimals: {
+      [ChainId.BSC]: 6,
+    },
+    active: true,
+  },
   polar: {
     symbol: 'POLAR',
     address: {
@@ -2829,6 +2839,15 @@ const tokens: Record<string, Token> = {
     symbol: 'CHRP-BNB',
     address: {
       [ChainId.BSC]: '0xcD10d0173651d1B3bd027DEcDBA007998bb03eaf',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+  },
+  kkcUsdt: {
+    symbol: 'KKC-USDT',
+    address: {
+      [ChainId.BSC]: '0x49f6cc497555a4c93e0f0e70d24775df7e968744', //replace
     },
     decimals: { [ChainId.BSC]: 18 },
     active: true,

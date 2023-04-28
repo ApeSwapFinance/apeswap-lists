@@ -1,5 +1,150 @@
 [
   {
+    "index": 66,
+    "contractAddress": {
+      "56": "0x7b8d4F9fdFf32F01490691db605202b93dFE1575"
+    },
+    "billType": "launch",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "KKC",
+      "address": {
+        "56": "0x72062af7582daaa9d8caee7f27d72afbdf7b4f01"
+      },
+      "decimals": {
+        "56": 6
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "42161": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "KKC-USDT",
+      "address": {
+        "56": "0x49f6cc497555a4c93e0f0e70d24775df7e968744"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "KKC",
+      "address": {
+        "56": "0x72062af7582daaa9d8caee7f27d72afbdf7b4f01"
+      },
+      "decimals": {
+        "56": 6
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xce112E14e23B7700Ad4915290EA24575F01609fa"
+    },
+    "projectLink": "https://apeswap.finance/",
+    "twitter": "https://twitter.com/ape_swap",
+    "audit": "https://paladinsec.co/projects/apeswap/",
+    "initTime": {
+      "56": 1682255105
+    },
+    "initPrice": {
+      "56": 0.0390276
+    }
+  },
+  {
+    "index": 67,
+    "contractAddress": {
+      "56": "0x8972d0F97410c83FFBE83D2BCAdb006520236115"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "42161": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "42161": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "42161": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "KKC",
+      "address": {
+        "56": "0x72062af7582daaa9d8caee7f27d72afbdf7b4f01"
+      },
+      "decimals": {
+        "56": 6
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xce112E14e23B7700Ad4915290EA24575F01609fa"
+    },
+    "projectLink": "https://apeswap.finance/",
+    "twitter": "https://twitter.com/ape_swap",
+    "audit": "https://paladinsec.co/projects/apeswap/",
+    "initTime": {
+      "56": 1682255105
+    },
+    "initPrice": {
+      "56": 0.0390276
+    }
+  },
+  {
     "index": 62,
     "contractAddress": {
       "56": "0xB12413a70efd97B827201a071285fBFfCAC436Bc"
