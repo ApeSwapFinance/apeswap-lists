@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillsConfig, BillVersion } from '../types'
 
-// BNB Largest ID: 67
+// BNB Largest ID: 68
 // Polygon Largest ID: 108
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2001
@@ -141,6 +141,27 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/ape_swap',
     initTime: { [ChainId.BSC]: 1675904338 },
     initPrice: { [ChainId.BSC]: 0.073805 },
+  },
+  {
+    index: 68,
+    contractAddress: {
+      [ChainId.BSC]: '0x07F09E925017F2423d05c2fA88d23CCC93aC296C',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.avg,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.avgBnb,
+    earnToken: tokens.avg,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://avocadodao.io/',
+    twitter: 'https://twitter.com/Avocadoguild?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor',
+    audit: 'https://skynet.certik.com/projects/avocado-dao',
+    initTime: { [ChainId.BSC]: 1682950826 },
+    initPrice: { [ChainId.BSC]: 0.0448743 },
   },
   {
     index: 65,

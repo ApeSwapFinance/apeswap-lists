@@ -1679,6 +1679,16 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  avg: {
+    symbol: 'AVG',
+    address: {
+      [ChainId.BSC]: '0xa41F142b6eb2b164f8164CAE0716892Ce02f311f',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+  },
   traxx: {
     symbol: 'TRAXX',
     address: {
@@ -2751,6 +2761,15 @@ const tokens: Record<string, Token> = {
     symbol: 'UBXS-BNB',
     address: {
       [ChainId.BSC]: '0x267ff6b3F548B877623520bCcf74bF4a3151E0Fa',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+  },
+  avgBnb: {
+    symbol: 'AVG-BNB',
+    address: {
+      [ChainId.BSC]: '0xd96B0D6711F25C9b08e1e14E96D385f3fc9C3ACb',
     },
     decimals: { [ChainId.BSC]: 18 },
     active: true,
