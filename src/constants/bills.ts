@@ -5,7 +5,7 @@ import { BillsConfig, BillVersion } from '../types'
 // BNB Largest ID: 68
 // Polygon Largest ID: 108
 // Telos Largest ID: 215
-// Arbitrum Largest ID: 2001
+// Arbitrum Largest ID: 2002
 
 const bills: BillsConfig[] = [
   {
@@ -1828,6 +1828,27 @@ const bills: BillsConfig[] = [
       Arbitrum Bills - ID started from 2001
   */
   {
+    index: 2002,
+    contractAddress: {
+      [ChainId.ARBITRUM]: '0xd194D68eF1055741c943958002A19622f5141E86',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.open,
+    quoteToken: tokens.eth,
+    lpToken: tokens.openEth,
+    earnToken: tokens.open,
+    billNnftAddress: {
+      [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
+    },
+    inactive: false,
+    projectLink: 'https://openworld.vision/',
+    twitter: 'https://twitter.com/OpenWorldVision',
+    audit: 'https://wiki.openworld.vision/audit',
+    initTime: { [ChainId.ARBITRUM]: 1683237600 },
+    initPrice: { [ChainId.ARBITRUM]: 0.02259 },
+  },
+  {
     index: 2001,
     contractAddress: {
       [ChainId.ARBITRUM]: '0x9Bd72c6c69cC314AdfF396cC2b34fF7e7fbd68ad',
@@ -1841,11 +1862,12 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
     },
+    inactive: true,
     projectLink: 'https://www.onyxdao.finance/',
     twitter: 'https://twitter.com/OnyxDAO',
     audit: 'https://hashex.org/audits/onyx-dao/',
-    initTime: { [ChainId.BSC]: 1679952396 },
-    initPrice: { [ChainId.BSC]: 1.5528 },
+    initTime: { [ChainId.ARBITRUM]: 1679952396 },
+    initPrice: { [ChainId.ARBITRUM]: 1.5528 },
   },
 ]
 
