@@ -1924,6 +1924,16 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  open: {
+    symbol: 'OPEN',
+    address: {
+      [ChainId.ARBITRUM]: '0x58CB98A966F62aA6F2190eB3AA03132A0c3de3D5',
+    },
+    decimals: {
+      [ChainId.ARBITRUM]: 18,
+    },
+    active: true,
+  },
 
   // Test LPs
 
@@ -2876,6 +2886,15 @@ const tokens: Record<string, Token> = {
     symbol: 'ONYX-ETH',
     address: {
       [ChainId.ARBITRUM]: '0xB8fCc49ecC9206DaBb48B28ecbcfD31D5C6346D1',
+    },
+    decimals: { [ChainId.ARBITRUM]: 18 },
+    active: true,
+    lpToken: true,
+  },
+  openEth: {
+    symbol: 'OPEN-ETH',
+    address: {
+      [ChainId.ARBITRUM]: '0xC09C5B1420f33Ba6557789f15Ce6E1eb9aF1d31a',
     },
     decimals: { [ChainId.ARBITRUM]: 18 },
     active: true,
