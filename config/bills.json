@@ -226,9 +226,9 @@
     }
   },
   {
-    "index": 48,
+    "index": 69,
     "contractAddress": {
-      "56": "0xDfE0C1Ee6E3383E2E50f95541881040d278720C9"
+      "56": "0xFebbb97b4e3C1BED9C7dCD4d2ED5f9b52FC58357"
     },
     "billType": "liquidity",
     "billVersion": "V2",
@@ -288,21 +288,22 @@
       "active": true
     },
     "billNnftAddress": {
-      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+      "56": ""
     },
     "projectLink": "https://apeswap.finance/",
     "twitter": "https://twitter.com/ape_swap",
+    "audit": "https://paladinsec.co/projects/apeswap/",
     "initTime": {
-      "56": 1675904338
+      "56": 1683313200
     },
     "initPrice": {
-      "56": 0.073805
+      "56": 0.0303088
     }
   },
   {
-    "index": 49,
+    "index": 70,
     "contractAddress": {
-      "56": "0x9632D29b4786699C4262F59526D0DA0C9E7C7a72"
+      "56": "0x7aD518872a75054c023B58619d141e3B677B5a13"
     },
     "billType": "liquidity",
     "billVersion": "V2",
@@ -368,17 +369,18 @@
     },
     "projectLink": "https://apeswap.finance/",
     "twitter": "https://twitter.com/ape_swap",
+    "audit": "https://paladinsec.co/projects/apeswap/",
     "initTime": {
-      "56": 1675904338
+      "56": 1683313200
     },
     "initPrice": {
-      "56": 0.073805
+      "56": 0.0303088
     }
   },
   {
-    "index": 50,
+    "index": 71,
     "contractAddress": {
-      "56": "0x1Ca83Ba8e7927e65764Ff07A61BCe8D12147CBD9"
+      "56": "0x2de795174ae129A3DE3EC65FC428427717eF1DA2"
     },
     "billType": "liquidity",
     "billVersion": "V2",
@@ -448,17 +450,18 @@
     },
     "projectLink": "https://apeswap.finance/",
     "twitter": "https://twitter.com/ape_swap",
+    "audit": "https://paladinsec.co/projects/apeswap/",
     "initTime": {
-      "56": 1675904338
+      "56": 1683313200
     },
     "initPrice": {
-      "56": 0.073805
+      "56": 0.0303088
     }
   },
   {
-    "index": 51,
+    "index": 72,
     "contractAddress": {
-      "56": "0xAB60c836793e04DDA3168fCd4e36AF52Bf6e65Cf"
+      "56": "0x2Bde6DDad5D13CDD5baC871a405EB09779461E53"
     },
     "billType": "liquidity",
     "billVersion": "V2",
@@ -526,11 +529,78 @@
     },
     "projectLink": "https://apeswap.finance/",
     "twitter": "https://twitter.com/ape_swap",
+    "audit": "https://paladinsec.co/projects/apeswap/",
     "initTime": {
-      "56": 1675904338
+      "56": 1683313200
     },
     "initPrice": {
-      "56": 0.073805
+      "56": 0.0303088
+    }
+  },
+  {
+    "index": 73,
+    "contractAddress": {
+      "56": "0xD26C446Bc7C130edA91B21f6883068499dd2c0B6"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "ROCK",
+      "address": {
+        "56": "0xC3387E4285e9F80A7cFDf02B4ac6cdF2476A528A"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "ROCK-BNB",
+      "address": {
+        "56": "0xA7f8705598f00bB6c9d5915A6A02bB5AE9C07b7B"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "ROCK",
+      "address": {
+        "56": "0xC3387E4285e9F80A7cFDf02B4ac6cdF2476A528A"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://www.bedrockswap.finance/#",
+    "twitter": "https://twitter.com/Bedrockswap",
+    "audit": "https://skynet.certik.com/projects/bedrock?utm_source=CMC&utm_campaign=AuditByCertiKLink",
+    "initTime": {
+      "56": 1683313200
+    },
+    "initPrice": {
+      "56": 0.00292599
     }
   },
   {
@@ -1727,6 +1797,314 @@
     },
     "initPrice": {
       "56": 0.005311928477767259
+    }
+  },
+  {
+    "index": 48,
+    "contractAddress": {
+      "56": "0xDfE0C1Ee6E3383E2E50f95541881040d278720C9"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "BUSD",
+      "address": {
+        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "BUSD-BNB",
+      "address": {
+        "56": "0x51e6D27FA57373d8d4C256231241053a70Cb1d93"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "BANANA",
+      "address": {
+        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
+        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "projectLink": "https://apeswap.finance/",
+    "twitter": "https://twitter.com/ape_swap",
+    "initTime": {
+      "56": 1675904338
+    },
+    "initPrice": {
+      "56": 0.073805
+    }
+  },
+  {
+    "index": 49,
+    "contractAddress": {
+      "56": "0x9632D29b4786699C4262F59526D0DA0C9E7C7a72"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "BUSD",
+      "address": {
+        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDC",
+      "address": {
+        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
+        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "BUSD-USDC",
+      "address": {
+        "56": "0xC087C78AbaC4A0E900a327444193dBF9BA69058E"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "BANANA",
+      "address": {
+        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
+        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "projectLink": "https://apeswap.finance/",
+    "twitter": "https://twitter.com/ape_swap",
+    "initTime": {
+      "56": 1675904338
+    },
+    "initPrice": {
+      "56": 0.073805
+    }
+  },
+  {
+    "index": 50,
+    "contractAddress": {
+      "56": "0x1Ca83Ba8e7927e65764Ff07A61BCe8D12147CBD9"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "ETH",
+      "address": {
+        "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
+        "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
+        "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
+        "137": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+      },
+      "decimals": {
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "42161": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "ETH-BNB",
+      "address": {
+        "56": "0xA0C3Ef24414ED9C9B456740128d8E63D016A9e11"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "BANANA",
+      "address": {
+        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
+        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "projectLink": "https://apeswap.finance/",
+    "twitter": "https://twitter.com/ape_swap",
+    "initTime": {
+      "56": 1675904338
+    },
+    "initPrice": {
+      "56": 0.073805
+    }
+  },
+  {
+    "index": 51,
+    "contractAddress": {
+      "56": "0xAB60c836793e04DDA3168fCd4e36AF52Bf6e65Cf"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "BTC",
+      "address": {
+        "40": "0xf390830df829cf22c53c8840554b98eafc5dcbc2",
+        "56": "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c",
+        "97": "0x6ce8da28e2f864420840cf74474eff5fd80e65b8",
+        "137": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6"
+      },
+      "decimals": {
+        "40": 8,
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "BTC-BNB",
+      "address": {
+        "56": "0x1E1aFE9D9c5f290d8F6996dDB190bd111908A43D"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "BANANA",
+      "address": {
+        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
+        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "projectLink": "https://apeswap.finance/",
+    "twitter": "https://twitter.com/ape_swap",
+    "initTime": {
+      "56": 1675904338
+    },
+    "initPrice": {
+      "56": 0.073805
     }
   },
   {
