@@ -1871,6 +1871,14 @@ const tokens: Record<string, Token> = {
     decimals: { [ChainId.BSC]: 6 },
     active: true,
   },
+  rock: {
+    symbol: 'ROCK',
+    address: {
+      [ChainId.BSC]: '0xC3387E4285e9F80A7cFDf02B4ac6cdF2476A528A',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+  },
   cgg: {
     symbol: 'CGG',
     address: {
@@ -2677,6 +2685,15 @@ const tokens: Record<string, Token> = {
     symbol: 'CREDI-BNB',
     address: {
       [ChainId.BSC]: '0xb10EDE07BcB3d0e69649193aA36F6dCF917Af9D4',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+  },
+  rockBnb: {
+    symbol: 'ROCK-BNB',
+    address: {
+      [ChainId.BSC]: '0xA7f8705598f00bB6c9d5915A6A02bB5AE9C07b7B',
     },
     decimals: { [ChainId.BSC]: 18 },
     active: true,
