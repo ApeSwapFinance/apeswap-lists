@@ -9,44 +9,6 @@ import { BillsConfig, BillVersion } from '../types'
 
 const bills: BillsConfig[] = [
   {
-    index: 66,
-    contractAddress: {
-      [ChainId.BSC]: '0x48288b61D8dD929aeaCDDc11C8c2e150e29c02eA',
-    },
-    billType: 'launch',
-    billVersion: BillVersion.V2,
-    token: tokens.kkc,
-    quoteToken: tokens.usdt,
-    lpToken: tokens.kkcUsdt,
-    earnToken: tokens.kkc,
-    billNnftAddress: {
-      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
-    },
-    projectLink: 'https://www.knoknok.io/',
-    twitter: 'https://twitter.com/knoknok_elf',
-    initTime: { [ChainId.BSC]: 1682690400 },
-    initPrice: { [ChainId.BSC]: 0.015 },
-  },
-  {
-    index: 67,
-    contractAddress: {
-      [ChainId.BSC]: '0x14FE608b4BE893ab1d7f36Be6B27C4971dcc364C',
-    },
-    billType: 'reserve',
-    billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
-    lpToken: tokens.usdt,
-    earnToken: tokens.kkc,
-    billNnftAddress: {
-      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
-    },
-    projectLink: 'https://www.knoknok.io/',
-    twitter: 'https://twitter.com/knoknok_elf',
-    initTime: { [ChainId.BSC]: 1682690400 },
-    initPrice: { [ChainId.BSC]: 0.015 },
-  },
-  {
     index: 62,
     contractAddress: {
       [ChainId.BSC]: '0xB12413a70efd97B827201a071285fBFfCAC436Bc',
@@ -145,6 +107,44 @@ const bills: BillsConfig[] = [
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1683313200 },
     initPrice: { [ChainId.BSC]: 0.0303088 },
+  },
+  {
+    index: 66,
+    contractAddress: {
+      [ChainId.BSC]: '0x48288b61D8dD929aeaCDDc11C8c2e150e29c02eA',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.kkc,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.kkcUsdt,
+    earnToken: tokens.kkc,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://www.knoknok.io/',
+    twitter: 'https://twitter.com/knoknok_elf',
+    initTime: { [ChainId.BSC]: 1682690400 },
+    initPrice: { [ChainId.BSC]: 0.015 },
+  },
+  {
+    index: 67,
+    contractAddress: {
+      [ChainId.BSC]: '0x14FE608b4BE893ab1d7f36Be6B27C4971dcc364C',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.kkc,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://www.knoknok.io/',
+    twitter: 'https://twitter.com/knoknok_elf',
+    initTime: { [ChainId.BSC]: 1682690400 },
+    initPrice: { [ChainId.BSC]: 0.015 },
   },
   {
     index: 73,
