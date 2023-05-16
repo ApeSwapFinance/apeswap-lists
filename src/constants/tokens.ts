@@ -1911,6 +1911,16 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  wombat: {
+    symbol: 'WOMBAT',
+    address: {
+      [ChainId.MATIC]: '0x0C9c7712C83B3C70e7c5E11100D33D9401BdF9dd',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    active: true,
+  },
   farmAway: {
     symbol: 'FARMAWAY',
     address: {
@@ -2863,6 +2873,17 @@ const tokens: Record<string, Token> = {
     symbol: 'LEAP-MATIC',
     address: {
       [ChainId.MATIC]: '0xb933e9e1ed78612e24f79cdf6976ef19fe0e357c',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    active: true,
+    lpToken: true,
+  },
+  wombatUsdc: {
+    symbol: 'WOMBAT-USDC',
+    address: {
+      [ChainId.MATIC]: '0x20D4c6f341a7c87B1944D456d8674849Ca1001aE',
     },
     decimals: {
       [ChainId.MATIC]: 18,

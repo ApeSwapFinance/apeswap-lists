@@ -5083,6 +5083,74 @@
     "inactive": true
   },
   {
+    "index": 109,
+    "contractAddress": {
+      "137": "0x4F256deDd156fB1Aa6e485E92FeCeB7bc15EBFcA"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "WOMBAT",
+      "address": {
+        "137": "0x0C9c7712C83B3C70e7c5E11100D33D9401BdF9dd"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDC",
+      "address": {
+        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
+        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "WOMBAT-USDC",
+      "address": {
+        "137": "0x20D4c6f341a7c87B1944D456d8674849Ca1001aE"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "WOMBAT",
+      "address": {
+        "137": "0x0C9c7712C83B3C70e7c5E11100D33D9401BdF9dd"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "137": "0x8860ABc05FefEF93306c8d65a5eFD421F155d67E"
+    },
+    "inactive": false,
+    "projectLink": "https://www.wombat.app/",
+    "twitter": "https://twitter.com/adoptwombat",
+    "audit": "https://hacken.io/wp-content/uploads/2022/07/Wombat_20072022_SCAudit_Report_2.pdf",
+    "initTime": {
+      "137": 1684274400
+    },
+    "initPrice": {
+      "137": 0.00254
+    }
+  },
+  {
     "index": 108,
     "contractAddress": {
       "137": "0x6c83cF7e4305f6D66930754f4855f2ea4357BaBf"
