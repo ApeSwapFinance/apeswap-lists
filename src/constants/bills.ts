@@ -3,7 +3,7 @@ import tokens from './tokens'
 import { BillsConfig, BillVersion } from '../types'
 
 // BNB Largest ID: 73
-// Polygon Largest ID: 108
+// Polygon Largest ID: 109
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2002
 
@@ -1448,6 +1448,27 @@ const bills: BillsConfig[] = [
   /*
     Polygon Bills
   */
+  {
+    index: 109,
+    contractAddress: {
+      [ChainId.MATIC]: '0x4F256deDd156fB1Aa6e485E92FeCeB7bc15EBFcA',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.wombat,
+    quoteToken: tokens.usdc,
+    lpToken: tokens.wombatUsdc,
+    earnToken: tokens.wombat,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
+    },
+    inactive: false,
+    projectLink: 'https://www.wombat.app/',
+    twitter: 'https://twitter.com/adoptwombat',
+    audit: 'https://hacken.io/wp-content/uploads/2022/07/Wombat_20072022_SCAudit_Report_2.pdf',
+    initTime: { [ChainId.MATIC]: 1684274400 },
+    initPrice: { [ChainId.MATIC]: 0.00254 },
+  },
   {
     index: 108,
     contractAddress: {
