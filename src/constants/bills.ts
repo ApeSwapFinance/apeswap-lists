@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillsConfig, BillVersion } from '../types'
 
-// BNB Largest ID: 73
+// BNB Largest ID: 74
 // Polygon Largest ID: 109
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2002
@@ -109,23 +109,25 @@ const bills: BillsConfig[] = [
     initPrice: { [ChainId.BSC]: 0.0303088 },
   },
   {
-    index: 66,
+    index: 74,
     contractAddress: {
-      [ChainId.BSC]: '0x48288b61D8dD929aeaCDDc11C8c2e150e29c02eA',
+      [ChainId.BSC]: '0x26a956eae3aF0dBd24c0c0279614336fBBBef968',
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.kkc,
-    quoteToken: tokens.usdt,
-    lpToken: tokens.kkcUsdt,
-    earnToken: tokens.kkc,
+    token: tokens.noot,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.nootBnb,
+    earnToken: tokens.noot,
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    projectLink: 'https://www.knoknok.io/',
-    twitter: 'https://twitter.com/knoknok_elf',
-    initTime: { [ChainId.BSC]: 1682690400 },
-    initPrice: { [ChainId.BSC]: 0.015 },
+    inactive: false,
+    projectLink: 'https://www.noot.fun/',
+    twitter: 'https://twitter.com/nootcoinbnb',
+    audit: 'https://techright.io/audit/nootcoin/',
+    initTime: { [ChainId.BSC]: 1684771200 },
+    initPrice: { [ChainId.BSC]: 0.00000000872237 },
   },
   {
     index: 67,
@@ -137,6 +139,25 @@ const bills: BillsConfig[] = [
     token: tokens.usdt,
     quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
+    earnToken: tokens.kkc,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://www.knoknok.io/',
+    twitter: 'https://twitter.com/knoknok_elf',
+    initTime: { [ChainId.BSC]: 1682690400 },
+    initPrice: { [ChainId.BSC]: 0.015 },
+  },
+  {
+    index: 66,
+    contractAddress: {
+      [ChainId.BSC]: '0x48288b61D8dD929aeaCDDc11C8c2e150e29c02eA',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.kkc,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.kkcUsdt,
     earnToken: tokens.kkc,
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',

@@ -1879,6 +1879,14 @@ const tokens: Record<string, Token> = {
     decimals: { [ChainId.BSC]: 18 },
     active: true,
   },
+  noot: {
+    symbol: 'NOOT',
+    address: {
+      [ChainId.BSC]: '0x98A2500A2C3B8877B0eD5ac3ACC300C50Bf7064b',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+  },
   cgg: {
     symbol: 'CGG',
     address: {
@@ -2704,6 +2712,15 @@ const tokens: Record<string, Token> = {
     symbol: 'ROCK-BNB',
     address: {
       [ChainId.BSC]: '0xA7f8705598f00bB6c9d5915A6A02bB5AE9C07b7B',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+  },
+  nootBnb: {
+    symbol: 'NOOT-BNB',
+    address: {
+      [ChainId.BSC]: '0xD746983867989a69338654738f6cBFA5d39b214f',
     },
     decimals: { [ChainId.BSC]: 18 },
     active: true,
