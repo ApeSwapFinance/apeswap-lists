@@ -40,7 +40,7 @@ const bills: BillsConfig[] = [
     lpToken: tokens.bnbBusd,
     earnToken: tokens.banana,
     billNnftAddress: {
-      [ChainId.BSC]: '',
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
