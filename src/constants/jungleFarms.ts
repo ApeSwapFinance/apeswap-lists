@@ -672,7 +672,7 @@ const jungleFarms: JungleFarmConfig[] = [
     twitter: 'https://twitter.com/LiveGreenCoin1',
     audit: 'https://www.certik.com/projects/livegreencoin',
     harvest: true,
-    tokenPerBlock: '0.001909722222222222',
+    tokenPerBlock: '0.001929012345679',
     sortOrder: 1,
     isFinished: false,
     tokenDecimals: 18,
