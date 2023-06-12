@@ -3053,6 +3053,27 @@ const pools: PoolConfig[] = [
     isFinished: false,
     tokenDecimals: 18,
   },
+  {
+    // TODO: Test config
+    sousId: 237,
+    tokenName: 'BNB',
+    image: 'BNB.svg',
+    stakingToken: tokens.gnana,
+    rewardToken: tokens.bnb,
+    contractAddress: {
+      [ChainId.BSC]: '0x03b15b36390932F5678589C13781F0C13dCeCDd6',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    poolCategory: PoolCategory.REAL_YIELD,
+    projectLink: 'https://apeswap.finance/',
+    twitter: 'https://twitter.com/ape_swap',
+    audit: 'https://paladinsec.co/projects/apeswap/',
+    harvest: true,
+    tokenPerBlock: `${BANANA_PER_BLOCK.toNumber() * 0.25}`,
+    sortOrder: 1,
+    isFinished: false,
+    tokenDecimals: 18,
+  },
 
   //
   // PUT ALL ADMIN POOLS UNDER HERE
