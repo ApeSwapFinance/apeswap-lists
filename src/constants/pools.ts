@@ -3061,7 +3061,7 @@ const pools: PoolConfig[] = [
     stakingToken: tokens.gnana,
     rewardToken: tokens.bnb,
     contractAddress: {
-      [ChainId.BSC]: '0x03b15b36390932F5678589C13781F0C13dCeCDd6',
+      [ChainId.BSC]: '0x8508cB17088E1007061d106faAD0550db1E95702',
       [ChainId.BSC_TESTNET]: '',
     },
     poolCategory: PoolCategory.REAL_YIELD,
