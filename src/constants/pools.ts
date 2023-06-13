@@ -108,9 +108,9 @@ const pools: PoolConfig[] = [
     twitter: 'https://twitter.com/ape_swap',
     audit: 'https://paladinsec.co/projects/apeswap/',
     harvest: true,
-    tokenPerBlock: `0.150000000000000000`,
+    tokenPerBlock: `0`,
     sortOrder: 1,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 18,
   },
   {
