@@ -13,3 +13,23 @@ For example, to edit a farm:
 5. Commit to the Github repo
 
 Humans interact with the TypeScript files & our services pull in the JSON files! ❤️
+
+## Testing Locally
+
+1. `yarn` (Install latest deps)
+2. *Update lists as needed*
+3. `yarn build && yarn legacy-build`
+4. `npm link`
+5. Go to frontend repo locally `npm link @ape.swap/apeswap-lists`
+
+### Updating while linked
+
+1. *Update lists as needed*
+2. `yarn build && yarn legacy-build`
+3. The changes should then be reflected on the local linked repo.
+
+### Unlink
+
+1. Go to frontend repo locally `npm unlink @ape.swap/apeswap-lists`
+2. Still on local frontend: `yarn install` (Reinstall package)
+3. `npm unlink`
