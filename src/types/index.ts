@@ -14,6 +14,7 @@ export enum PoolCategory {
   'COMMUNITY' = 'Community',
   'APEZONE' = 'ApeZone',
   'CORE' = 'Core',
+  'REAL_YIELD' = 'Real Yield',
   'JUNGLE' = 'Jungle',
 }
 

@@ -5,7 +5,7 @@ import tokens from './tokens'
 
 const BANANA_PER_BLOCK = new BigNumber(10)
 
-// Current Sous ID is 236
+// Current Sous ID is 238
 
 const pools: PoolConfig[] = [
   // MASTER APE V2 POOL
@@ -46,6 +46,48 @@ const pools: PoolConfig[] = [
     audit: 'https://paladinsec.co/projects/apeswap/',
     harvest: true,
     tokenPerBlock: `${BANANA_PER_BLOCK.toNumber() * 0.25}`,
+    sortOrder: 1,
+    isFinished: true,
+    tokenDecimals: 18,
+  },
+
+  {
+    sousId: 237,
+    tokenName: 'BNB',
+    image: 'BNB.svg',
+    stakingToken: tokens.gnana,
+    rewardToken: tokens.wbnb,
+    contractAddress: {
+      [ChainId.BSC]: '0xbc178ccbe5b6a4f04ed5624657ee4f0ecd47add4',
+      [ChainId.BSC_TESTNET]: '',
+    },
+    poolCategory: PoolCategory.REAL_YIELD,
+    projectLink: 'https://apeswap.finance/',
+    twitter: 'https://twitter.com/ape_swap',
+    audit: 'https://paladinsec.co/projects/apeswap/',
+    harvest: true,
+    tokenPerBlock: `0.000108319542710488`,
+    sortOrder: 1,
+    isFinished: false,
+    tokenDecimals: 18,
+  },
+
+  {
+    sousId: 238,
+    tokenName: 'BNB',
+    image: 'BNB.svg',
+    stakingToken: tokens.gnana,
+    rewardToken: tokens.banana,
+    contractAddress: {
+      [ChainId.BSC]: '0xc31c1027cedd0fabfc9d6118ff6423cf39f04523',
+      [ChainId.BSC_TESTNET]: '0xc31c1027cedd0fabfc9d6118ff6423cf39f04523',
+    },
+    poolCategory: PoolCategory.REAL_YIELD,
+    projectLink: 'https://apeswap.finance/',
+    twitter: 'https://twitter.com/ape_swap',
+    audit: 'https://paladinsec.co/projects/apeswap/',
+    harvest: true,
+    tokenPerBlock: `0.99`,
     sortOrder: 1,
     isFinished: false,
     tokenDecimals: 18,
@@ -2534,7 +2576,7 @@ const pools: PoolConfig[] = [
     tokenPerBlock: `0.900205632716049382`,
     sortOrder: 1,
     reflect: false,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 18,
     zapable: true,
   },
@@ -2577,7 +2619,7 @@ const pools: PoolConfig[] = [
     tokenPerBlock: `1.008603587962962962`,
     sortOrder: 1,
     reflect: false,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 18,
   },
   {
@@ -2618,7 +2660,7 @@ const pools: PoolConfig[] = [
     tokenPerBlock: `14.895833333333333333`,
     sortOrder: 1,
     reflect: false,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 18,
   },
   {
@@ -2639,7 +2681,7 @@ const pools: PoolConfig[] = [
     tokenPerBlock: `1.193576388`,
     sortOrder: 1,
     reflect: false,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 9,
   },
   {
@@ -2660,7 +2702,7 @@ const pools: PoolConfig[] = [
     tokenPerBlock: `1.909722222222222222`,
     sortOrder: 1,
     reflect: false,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 18,
   },
   //
@@ -2703,7 +2745,7 @@ const pools: PoolConfig[] = [
     tokenPerBlock: '0.07398535704',
     sortOrder: 1,
     reflect: false,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 18,
   },
   {
@@ -2931,7 +2973,7 @@ const pools: PoolConfig[] = [
     tokenPerBlock: `0.00455860716`,
     sortOrder: 1,
     reflect: false,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 18,
   },
   {
@@ -2971,7 +3013,7 @@ const pools: PoolConfig[] = [
     tokenPerBlock: `0.403084201388888888`,
     sortOrder: 1,
     reflect: false,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 18,
   },
   {
@@ -2991,7 +3033,7 @@ const pools: PoolConfig[] = [
     tokenPerBlock: `3.104730529`,
     sortOrder: 1,
     reflect: false,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 18,
   },
   {
@@ -3010,7 +3052,7 @@ const pools: PoolConfig[] = [
     tokenPerBlock: `108.140734953703703703`,
     sortOrder: 1,
     reflect: false,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 18,
   },
   {
@@ -3030,7 +3072,7 @@ const pools: PoolConfig[] = [
     tokenPerBlock: '0.09352199074074074',
     sortOrder: 1,
     reflect: false,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 18,
   },
   {
@@ -3050,7 +3092,7 @@ const pools: PoolConfig[] = [
     tokenPerBlock: '0.001929012345679',
     sortOrder: 1,
     reflect: false,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 18,
   },
 
@@ -3073,7 +3115,7 @@ const pools: PoolConfig[] = [
     tokenPerBlock: `0.000011574074074074`,
     sortOrder: 1,
     reflect: false,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 18,
     forAdmins: true,
   },
