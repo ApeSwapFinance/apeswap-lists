@@ -4,7 +4,6 @@ import { ChainId } from '@ape.swap/sdk'
 
 const zapInputTokens: Partial<Record<ChainId, Record<string, Token>>> = {
   [ChainId.BSC]: {
-    wbnb: tokens.wbnb,
     eth: tokens.eth,
     busd: tokens.busd,
     usdc: tokens.usdc,
@@ -16,21 +15,18 @@ const zapInputTokens: Partial<Record<ChainId, Record<string, Token>>> = {
     btc: tokens.btc,
   },
   [ChainId.MATIC]: {
-    wmatic: tokens.wmatic,
     dai: tokens.dai,
     eth: tokens.eth,
     usdc: tokens.usdc,
     usdt: tokens.usdt,
   },
   [ChainId.TLOS]: {
-    tlos: tokens.tlos,
     eth: tokens.eth,
     usdc: tokens.usdc,
     usdt: tokens.usdt,
     btc: tokens.btc,
   },
   [ChainId.ARBITRUM]: {
-    eth: tokens.eth,
     usdt: tokens.usdt,
     usdc: tokens.usdc,
   },
