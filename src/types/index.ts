@@ -31,7 +31,7 @@ export interface Token {
   active: boolean
   decimals?: Partial<Record<ChainId, number | null>>
   dontFetch?: boolean
-  lpToken?: boolean
+  lpToken?: LPType
   price?: number
 }
 
@@ -65,6 +65,13 @@ export interface BillsConfig {
   initTime?: Partial<Record<ChainId, number>>
   initPrice?: Partial<Record<ChainId, number>>
   audit?: string
+  lpType?: LPType
+}
+
+export enum LPType {
+  V2 = 'V2',
+  ARRAKIS = 'ARRAKIS',
+  GAMMA = 'GAMMA',
 }
 
 export enum VaultVersion {

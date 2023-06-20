@@ -1,5 +1,5 @@
 import { ChainId } from '@ape.swap/sdk'
-import { Token } from '../types'
+import { LPType, Token } from '../types'
 
 const tokens: Record<string, Token> = {
   // BANANA should always be first token for GNANA calculation
@@ -18,6 +18,26 @@ const tokens: Record<string, Token> = {
       [ChainId.MAINNET]: 18,
       [ChainId.BSC_TESTNET]: 18,
       [ChainId.TLOS]: 18,
+    },
+    active: true,
+  },
+  doubloons: {
+    symbol: 'D',
+    address: {
+      [ChainId.MATIC]: '0x1889b5D085f83Cdb2Ba732Acd02E9D9f0F4867Ec',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    active: true,
+  },
+  quick: {
+    symbol: 'QUICK',
+    address: {
+      [ChainId.MATIC]: '0xB5C064F955D8e7F38fE0460C556a72987494eE17',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
     },
     active: true,
   },
@@ -1972,7 +1992,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC_TESTNET]: 18,
     },
     active: false,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   forEver: {
     symbol: 'FOR-EVER',
@@ -1983,7 +2003,18 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC_TESTNET]: 18,
     },
     active: false,
-    lpToken: true,
+    lpToken: LPType.V2,
+  },
+  quickMatic: {
+    symbol: 'aWMATIC-QUICK',
+    address: {
+      [ChainId.MATIC]: '0x7f09bD2801A7b795dF29C273C4afbB0Ff15E2D63',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    active: true,
+    lpToken: LPType.GAMMA,
   },
 
   // LP Tokens
@@ -1998,7 +2029,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   bananaBusd: {
     symbol: 'BANANA-BUSD',
@@ -2009,7 +2040,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   bnbBusd: {
     symbol: 'BUSD-BNB',
@@ -2020,7 +2051,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   bnbEth: {
     symbol: 'ETH-BNB',
@@ -2031,7 +2062,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   bnbMatic: {
     symbol: 'MATIC-BNB',
@@ -2042,7 +2073,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   bnbBtc: {
     symbol: 'BTC-BNB',
@@ -2053,7 +2084,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   bnbFtm: {
     symbol: 'FTM-BNB',
@@ -2064,7 +2095,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   bnbCeek: {
     symbol: 'CEEK-BNB',
@@ -2075,7 +2106,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   usdcBusd: {
     symbol: 'BUSD-USDC',
@@ -2086,7 +2117,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   wgictUsdt: {
     symbol: 'WGICT-USDT',
@@ -2097,7 +2128,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   blidUsdt: {
     symbol: 'BLID-USDT',
@@ -2108,7 +2139,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   nft11Busd: {
     symbol: 'NFT11-BUSD',
@@ -2119,7 +2150,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   bnbjdi: {
     symbol: 'BNB-JDI',
@@ -2142,7 +2173,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   threeairBnb: {
     symbol: '3AIR-BNB',
@@ -2153,7 +2184,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   nftyBnb: {
     symbol: 'NFTY-BNB',
@@ -2164,7 +2195,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   nftyBusd: {
     symbol: 'NFTY-BUSD',
@@ -2175,7 +2206,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   xcurBusd: {
     symbol: 'XCUR-BUSD',
@@ -2186,7 +2217,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   drfBusd: {
     symbol: 'DRF-BUSD',
@@ -2197,7 +2228,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   pstnBusd: {
     symbol: 'PSTN-BUSD',
@@ -2206,7 +2237,7 @@ const tokens: Record<string, Token> = {
     },
     decimals: { [ChainId.BSC]: 18 },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   triviaBnb: {
     symbol: 'TRIVIA-BNB',
@@ -2215,7 +2246,7 @@ const tokens: Record<string, Token> = {
     },
     decimals: { [ChainId.BSC]: 18 },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   cocBnb: {
     symbol: 'COC-BNB',
@@ -2226,7 +2257,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   xtalBusd: {
     symbol: 'XTAL-BUSD',
@@ -2237,7 +2268,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   lgcBnb: {
     symbol: 'LGC-BNB',
@@ -2248,7 +2279,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   lcBnb: {
     symbol: 'LC-BNB',
@@ -2259,7 +2290,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   lgxBusd: {
     symbol: 'LGX-BUSD',
@@ -2270,7 +2301,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   bonesBnb: {
     symbol: 'BONES-BNB',
@@ -2281,7 +2312,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   genv3Bnb: {
     symbol: 'GENv3-BNB',
@@ -2292,7 +2323,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   ceekBnb: {
     symbol: 'CEEK-BNB',
@@ -2303,7 +2334,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   tlosBusd: {
     symbol: 'TLOS-BUSD',
@@ -2314,7 +2345,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   starsBnb: {
     symbol: 'STARS-BNB',
@@ -2325,7 +2356,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   hotcrossBusd: {
     symbol: 'HOTCROSS-BUSD',
@@ -2336,7 +2367,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   gqBusd: {
     symbol: 'GQ-BUSD',
@@ -2347,7 +2378,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   ethBnb: {
     symbol: 'ETH-BNB',
@@ -2358,7 +2389,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   apeBNB: {
     symbol: 'APE-BNB',
@@ -2369,7 +2400,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   avaxBnb: {
     symbol: 'AVAX-BNB',
@@ -2380,7 +2411,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   dotBnb: {
     symbol: 'DOT-BNB',
@@ -2391,7 +2422,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   primateBnb: {
     symbol: 'PRIMATE-BNB',
@@ -2402,7 +2433,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   compBnb: {
     symbol: 'COMP-BNB',
@@ -2413,7 +2444,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   filBnb: {
     symbol: 'FIL-BNB',
@@ -2424,7 +2455,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   adaBnb: {
     symbol: 'ADA-BNB',
@@ -2435,7 +2466,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   adaEth: {
     symbol: 'ADA-ETH',
@@ -2446,7 +2477,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   linkBnb: {
     symbol: 'LINK-BNB',
@@ -2457,7 +2488,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   leapBnb: {
     symbol: 'LEAP-BNB',
@@ -2468,7 +2499,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   monstaBnb: {
     symbol: 'MONSTA-BNB',
@@ -2479,7 +2510,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   avanBnb: {
     symbol: 'AVAN-BNB',
@@ -2490,7 +2521,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   wcfltBnb: {
     symbol: 'WCFLT-BNB',
@@ -2501,7 +2532,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   zbcBusd: {
     symbol: 'ZBC-BUSD',
@@ -2512,7 +2543,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   cvlUsdt: {
     symbol: 'CVL-USDT',
@@ -2523,7 +2554,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   tokoBnb: {
     symbol: 'TOKO-BNB',
@@ -2534,7 +2565,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   oathUsdc: {
     symbol: 'OATH-USDC',
@@ -2545,7 +2576,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   tlosUsdc: {
     symbol: 'TLOS-USDC',
@@ -2556,7 +2587,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   aaveBnb: {
     symbol: 'AAVE-BNB',
@@ -2567,7 +2598,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   froyoBnb: {
     symbol: 'FROYO-BNB',
@@ -2578,7 +2609,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   anmlBnb: {
     symbol: 'ANML-BNB',
@@ -2589,7 +2620,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   radarBnb: {
     symbol: 'RADAR-BNB',
@@ -2600,7 +2631,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   ihcBnb: {
     symbol: 'IHC-BNB',
@@ -2611,7 +2642,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   liqBusd: {
     symbol: 'LIQ-BUSD',
@@ -2622,7 +2653,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   flokiBnb: {
     symbol: 'FLOKI-BNB',
@@ -2633,7 +2664,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   pxpBnb: {
     symbol: 'PXP-BNB',
@@ -2644,7 +2675,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   hecBnb: {
     symbol: 'HEC-BNB',
@@ -2655,7 +2686,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   bnbxBnb: {
     symbol: 'BNBx-BNB',
@@ -2666,7 +2697,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   gmrBnb: {
     symbol: 'GMR-BNB',
@@ -2677,7 +2708,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   brzBusd: {
     symbol: 'BRZ-BUSD',
@@ -2688,7 +2719,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   xwinBnb: {
     symbol: 'XWIN-BNB',
@@ -2697,7 +2728,7 @@ const tokens: Record<string, Token> = {
     },
     decimals: { [ChainId.BSC]: 18 },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   crediBnb: {
     symbol: 'CREDI-BNB',
@@ -2706,7 +2737,7 @@ const tokens: Record<string, Token> = {
     },
     decimals: { [ChainId.BSC]: 18 },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   rockBnb: {
     symbol: 'ROCK-BNB',
@@ -2715,7 +2746,7 @@ const tokens: Record<string, Token> = {
     },
     decimals: { [ChainId.BSC]: 18 },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   nootBnb: {
     symbol: 'NOOT-BNB',
@@ -2724,7 +2755,7 @@ const tokens: Record<string, Token> = {
     },
     decimals: { [ChainId.BSC]: 18 },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   stlosTlos: {
     symbol: 'STLOS-TLOS',
@@ -2733,7 +2764,7 @@ const tokens: Record<string, Token> = {
     },
     decimals: { [ChainId.TLOS]: 18 },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   stlosUsdc: {
     symbol: 'STLOS-USDC',
@@ -2744,7 +2775,7 @@ const tokens: Record<string, Token> = {
       [ChainId.TLOS]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   usdtUsdc: {
     symbol: 'USDT-USDC',
@@ -2755,7 +2786,7 @@ const tokens: Record<string, Token> = {
       [ChainId.TLOS]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   usdcTlos: {
     symbol: 'USDC-TLOS',
@@ -2764,7 +2795,7 @@ const tokens: Record<string, Token> = {
     },
     decimals: { [ChainId.TLOS]: 18 },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   ethTlos: {
     symbol: 'ETH-TLOS',
@@ -2773,7 +2804,7 @@ const tokens: Record<string, Token> = {
     },
     decimals: { [ChainId.TLOS]: 18 },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   usdtTlos: {
     symbol: 'USDT-TLOS',
@@ -2782,7 +2813,7 @@ const tokens: Record<string, Token> = {
     },
     decimals: { [ChainId.TLOS]: 18 },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   btcTlos: {
     symbol: 'BTC-TLOS',
@@ -2791,7 +2822,7 @@ const tokens: Record<string, Token> = {
     },
     decimals: { [ChainId.TLOS]: 18 },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   bananaTlos: {
     symbol: 'BANANA-TLOS',
@@ -2800,7 +2831,7 @@ const tokens: Record<string, Token> = {
     },
     decimals: { [ChainId.TLOS]: 18 },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   swtBnb: {
     symbol: 'SWT-BNB',
@@ -2809,7 +2840,7 @@ const tokens: Record<string, Token> = {
     },
     decimals: { [ChainId.BSC]: 18 },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   ubxsBnb: {
     symbol: 'UBXS-BNB',
@@ -2818,7 +2849,7 @@ const tokens: Record<string, Token> = {
     },
     decimals: { [ChainId.BSC]: 18 },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   avgBnb: {
     symbol: 'AVG-BNB',
@@ -2827,7 +2858,7 @@ const tokens: Record<string, Token> = {
     },
     decimals: { [ChainId.BSC]: 18 },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   ethMatic: {
     symbol: 'ETH-MATIC',
@@ -2838,7 +2869,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   dogiraMatic: {
     symbol: 'DOGIRA-MATIC',
@@ -2849,7 +2880,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   axnUsdc: {
     symbol: 'AXN-USDC',
@@ -2860,7 +2891,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   cggUsdc: {
     symbol: 'CGG-USDC',
@@ -2873,7 +2904,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   traxxMatic: {
     symbol: 'TRAXX-MATIC',
@@ -2884,7 +2915,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   leapMatic: {
     symbol: 'LEAP-MATIC',
@@ -2895,7 +2926,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   wombatUsdc: {
     symbol: 'WOMBAT-USDC',
@@ -2906,7 +2937,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   komMatic: {
     symbol: 'KOM-MATIC',
@@ -2917,7 +2948,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: 18,
     },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   chrpBnb: {
     symbol: 'CHRP-BNB',
@@ -2926,7 +2957,7 @@ const tokens: Record<string, Token> = {
     },
     decimals: { [ChainId.BSC]: 18 },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   kkcUsdt: {
     symbol: 'KKC-USDT',
@@ -2935,7 +2966,7 @@ const tokens: Record<string, Token> = {
     },
     decimals: { [ChainId.BSC]: 18 },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   onyxEth: {
     symbol: 'ONYX-ETH',
@@ -2944,7 +2975,7 @@ const tokens: Record<string, Token> = {
     },
     decimals: { [ChainId.ARBITRUM]: 18 },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
   openEth: {
     symbol: 'OPEN-ETH',
@@ -2953,7 +2984,7 @@ const tokens: Record<string, Token> = {
     },
     decimals: { [ChainId.ARBITRUM]: 18 },
     active: true,
-    lpToken: true,
+    lpToken: LPType.V2,
   },
 }
 
