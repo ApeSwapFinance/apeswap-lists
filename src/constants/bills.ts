@@ -111,7 +111,7 @@ const bills: BillsConfig[] = [
   {
     index: 75,
     contractAddress: {
-      [ChainId.BSC]: '0x35852Dee08Af104db69986968c60aE700FdcDAd5',
+      [ChainId.BSC]: '0x6543C13e6dFf99E340147a69bBF38A7C5cfc07Fa',
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
@@ -120,14 +120,14 @@ const bills: BillsConfig[] = [
     lpToken: tokens.lgcBnb,
     earnToken: tokens.lgc,
     billNnftAddress: {
-      [ChainId.BSC]: '0xce112E14e23B7700Ad4915290EA24575F01609fa',
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
     inactive: false,
     projectLink: 'http://livegreencoin.com/',
     twitter: 'https://twitter.com/LiveGreenCoin1',
     audit: 'https://www.certik.com/projects/livegreencoin',
-    initTime: { [ChainId.BSC]: 1684771200 },
-    initPrice: { [ChainId.BSC]: 0.00000000872237 },
+    initTime: { [ChainId.BSC]: 1687447800 },
+    initPrice: { [ChainId.BSC]: 0.0056 },
   },
   {
     index: 74,
@@ -371,6 +371,7 @@ const bills: BillsConfig[] = [
     audit: 'https://www.certik.com/projects/livegreencoin',
     initTime: { [ChainId.BSC]: 1678053061 },
     initPrice: { [ChainId.BSC]: 0.00927457 },
+    inactive: true,
   },
   {
     index: 56,

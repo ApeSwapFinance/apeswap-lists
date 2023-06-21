@@ -397,7 +397,7 @@
   {
     "index": 75,
     "contractAddress": {
-      "56": "0x35852Dee08Af104db69986968c60aE700FdcDAd5"
+      "56": "0x6543C13e6dFf99E340147a69bBF38A7C5cfc07Fa"
     },
     "billType": "liquidity",
     "billVersion": "V2",
@@ -447,17 +447,17 @@
       "active": true
     },
     "billNnftAddress": {
-      "56": "0xce112E14e23B7700Ad4915290EA24575F01609fa"
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
     },
     "inactive": false,
     "projectLink": "http://livegreencoin.com/",
     "twitter": "https://twitter.com/LiveGreenCoin1",
     "audit": "https://www.certik.com/projects/livegreencoin",
     "initTime": {
-      "56": 1684771200
+      "56": 1687447800
     },
     "initPrice": {
-      "56": 8.72237e-9
+      "56": 0.0056
     }
   },
   {
@@ -1279,7 +1279,8 @@
     },
     "initPrice": {
       "56": 0.00927457
-    }
+    },
+    "inactive": true
   },
   {
     "index": 56,
