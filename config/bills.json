@@ -395,6 +395,72 @@
     }
   },
   {
+    "index": 76,
+    "contractAddress": {
+      "56": "0x8BFa292574b89F27de32279E5623F13e3f5B1bCE"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "NFAi",
+      "address": {
+        "56": "0x4c48A4D089D13cB24a8a250c7051E8a3f8687460"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "NFAi-BNB",
+      "address": {
+        "56": "0x11F9856Db037cf6bDe94841D3FF8E08386844379"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "NFBi",
+      "address": {
+        "56": "0x45D957A094c73a0D12Bccab279F78C1D253d8F56"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://legacy.apeswap.finance/nft",
+    "twitter": "https://twitter.com/ApeSwapNFT",
+    "audit": "https://paladinsec.co/projects/apeswap/",
+    "initTime": {
+      "56": 1687816800
+    },
+    "initPrice": {
+      "56": 0.0635458
+    }
+  },
+  {
     "index": 75,
     "contractAddress": {
       "56": "0x6543C13e6dFf99E340147a69bBF38A7C5cfc07Fa"
