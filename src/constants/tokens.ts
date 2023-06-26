@@ -1751,6 +1751,22 @@ const tokens: Record<string, Token> = {
     decimals: { [ChainId.BSC]: 18 },
     active: true,
   },
+  nfbi: {
+    symbol: 'NFBi',
+    address: {
+      [ChainId.BSC]: '0x45D957A094c73a0D12Bccab279F78C1D253d8F56',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+  },
+  nfai: {
+    symbol: 'NFAi',
+    address: {
+      [ChainId.BSC]: '0x4c48A4D089D13cB24a8a250c7051E8a3f8687460',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+  },
   threeair: {
     symbol: '3AIR',
     address: {
@@ -2650,6 +2666,17 @@ const tokens: Record<string, Token> = {
     symbol: 'HEC-BNB',
     address: {
       [ChainId.BSC]: '0xc0687a3cf463f3be0b021d6f41551584d124d9c5',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+    lpToken: true,
+  },
+  nfaiBnb: {
+    symbol: 'NFAi-BNB',
+    address: {
+      [ChainId.BSC]: '0x11F9856Db037cf6bDe94841D3FF8E08386844379',
     },
     decimals: {
       [ChainId.BSC]: 18,

@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillsConfig, BillVersion } from '../types'
 
-// BNB Largest ID: 75
+// BNB Largest ID: 76
 // Polygon Largest ID: 109
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2002
@@ -107,6 +107,27 @@ const bills: BillsConfig[] = [
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1683313200 },
     initPrice: { [ChainId.BSC]: 0.0303088 },
+  },
+  {
+    index: 76,
+    contractAddress: {
+      [ChainId.BSC]: '0x265F0332D04384AB8123488A6b889C5B470B07F8',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.nfai,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.nfaiBnb,
+    earnToken: tokens.nfbi,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://legacy.apeswap.finance/nft',
+    twitter: 'https://twitter.com/ApeSwapNFT',
+    audit: 'https://paladinsec.co/projects/apeswap/',
+    initTime: { [ChainId.BSC]: 1687816800 },
+    initPrice: { [ChainId.BSC]: 0.0635458 },
   },
   {
     index: 75,
