@@ -395,6 +395,70 @@
     }
   },
   {
+    "index": 77,
+    "contractAddress": {
+      "56": "0x3aCfbf26c5906924738dCd6Ec417346f28f2bEbF"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "CGPT",
+      "address": {
+        "56": "0x9840652DC04fb9db2C43853633f0F62BE6f00f98"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BUSD",
+      "address": {
+        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "CGPT-BUSD",
+      "address": {
+        "56": "0x1B376bd0693956161caf6C4a3D31046bbd2d32E6"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "CGPT",
+      "address": {
+        "56": "0x9840652DC04fb9db2C43853633f0F62BE6f00f98"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://ChainGPT.org/",
+    "twitter": "http://twitter.com/chain_gpt",
+    "audit": "https://www.certik.com/projects/chaingpt/",
+    "initTime": {
+      "56": 1688400000
+    },
+    "initPrice": {
+      "56": 0.08075
+    }
+  },
+  {
     "index": 76,
     "contractAddress": {
       "56": "0x265F0332D04384AB8123488A6b889C5B470B07F8"
