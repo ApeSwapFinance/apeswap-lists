@@ -395,6 +395,71 @@
     }
   },
   {
+    "index": 78,
+    "contractAddress": {
+      "56": "0xb48fDf78CAcd6d2fC495beFA51395CE9295B05E8"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "FROYO",
+      "address": {
+        "56": "0xe369fec23380f9F14ffD07a1DC4b7c1a9fdD81c9"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "FROYO-BNB",
+      "address": {
+        "56": "0x58ceF3eeDB9A4adc6B5a2Ee5c85Aea07D72787f0"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "FROYO",
+      "address": {
+        "56": "0xe369fec23380f9F14ffD07a1DC4b7c1a9fdD81c9"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "projectLink": "https://froyo.games/",
+    "twitter": "https://twitter.com/realfroyogames",
+    "audit": "https://github.com/froyogames/public-smart-contracts/blob/main/Smart%20contract%20security%20audit%20report%20-%20Froyo.pdf",
+    "initTime": {
+      "56": 1689112800
+    },
+    "initPrice": {
+      "56": 0.00106081
+    }
+  },
+  {
     "index": 77,
     "contractAddress": {
       "56": "0x3aCfbf26c5906924738dCd6Ec417346f28f2bEbF"
@@ -1064,6 +1129,7 @@
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
     },
+    "inactive": true,
     "projectLink": "https://apeswap.finance/",
     "twitter": "https://twitter.com/realfroyogames",
     "audit": "https://github.com/froyogames/public-smart-contracts/blob/main/Smart%20contract%20security%20audit%20report%20-%20Froyo.pdf",
@@ -3395,6 +3461,7 @@
     "billNnftAddress": {
       "56": "0x7fd203888661d1f0ae625ed599909f8f97698670"
     },
+    "inactive": true,
     "projectLink": "https://froyo.games/",
     "twitter": "https://twitter.com/realfroyogames",
     "initTime": {
