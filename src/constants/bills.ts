@@ -227,6 +227,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
+    inactive: true,
     projectLink: 'https://www.knoknok.io/',
     twitter: 'https://twitter.com/knoknok_elf',
     initTime: { [ChainId.BSC]: 1682690400 },
@@ -246,6 +247,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
+    inactive: true,
     projectLink: 'https://www.knoknok.io/',
     twitter: 'https://twitter.com/knoknok_elf',
     initTime: { [ChainId.BSC]: 1682690400 },
@@ -307,7 +309,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
+    inactive: true,
     projectLink: 'https://chainguardians.io/',
     twitter: 'https://twitter.com/chain_guardians',
     audit: 'https://www.certik.com/projects/chainguardians?utm_source=CMC&utm_campaign=AuditByCertiKLink',
@@ -370,6 +372,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
+    inactive: true,
     projectLink: 'https://cake.monster/',
     twitter: 'https://twitter.com/thecakemnstr',
     audit: 'https://solidity.finance/audits/CakeMonster/',
@@ -390,6 +393,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
+    inactive: true,
     projectLink: 'https://www.credefi.finance/',
     twitter: 'https://twitter.com/credefi_finance/',
     audit: 'https://www.certik.com/projects/credefi?utm_source=CMC&utm_campaign=AuditByCertiKLink',
@@ -410,6 +414,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
+    inactive: true,
     projectLink: 'https://chainguardians.io/',
     twitter: 'https://twitter.com/chain_guardians',
     audit: 'https://www.certik.com/projects/chainguardians?utm_source=CMC&utm_campaign=AuditByCertiKLink',
@@ -430,12 +435,12 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
+    inactive: true,
     projectLink: 'http://livegreencoin.com/',
     twitter: 'https://twitter.com/LiveGreenCoin1',
     audit: 'https://www.certik.com/projects/livegreencoin',
     initTime: { [ChainId.BSC]: 1678053061 },
     initPrice: { [ChainId.BSC]: 0.00927457 },
-    inactive: true,
   },
   {
     index: 56,
@@ -451,6 +456,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
+    inactive: true,
     projectLink: 'https://www.reaper.farm/',
     twitter: 'https://twitter.com/Reaper_Farm',
     audit: 'https://solidity.finance/audits/ReaperFarm/',
@@ -471,6 +477,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
+    inactive: true,
     projectLink: 'https://tokoin.io/',
     twitter: 'https://twitter.com/tokoinglobal',
     audit: 'https://github.com/peckshield/publications/blob/master/audit_reports/PeckShield-Audit-Report-T-Fi-v1.0.pdf',
@@ -491,6 +498,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
+    inactive: true,
     projectLink: 'https://cvl.network',
     twitter: 'https://twitter.com/cvl_network',
     audit: 'https://github.com/xdao-app/xdao-contracts/blob/master/audits/hacken/hacken.pdf',
@@ -511,6 +519,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
+    inactive: true,
     projectLink: 'https://trivians.io/',
     twitter: 'https://twitter.com/PlayTrivians',
     audit: 'https://hacken.io/wp-content/uploads/2022/06/Trivians_29062022_SCAudit_Report_2.pdf',
@@ -531,6 +540,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
+    inactive: true,
     projectLink: 'https://talesofxtalnia.com/',
     twitter: 'https://twitter.com/xtalnia',
     audit: 'https://github.com/HashEx/public_audits/blob/master/XTAL%20Token/XTAL%20Token.pdf',
@@ -551,6 +561,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
     },
+    inactive: true,
     projectLink: 'https://www.coinflect.com/',
     twitter: 'https://twitter.com/coinflect?lang=en',
     audit:
@@ -572,6 +583,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
     },
+    inactive: true,
     projectLink: 'https://avanatoken.com/',
     twitter: 'https://twitter.com/AvanaProject',
     audit: 'https://hashex.org/audits/avana-token/',
@@ -592,6 +604,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
     },
+    inactive: true,
     projectLink: 'https://liquidus.finance/',
     twitter: 'https://twitter.com/LiquidusFinance',
     audit: 'https://liquidus.finance/LiqTechRateAudit.pdf',
@@ -612,6 +625,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
     },
+    inactive: true,
     projectLink: 'https://cake.monster/',
     twitter: 'https://twitter.com/thecakemnstr',
     audit: 'https://solidity.finance/audits/CakeMonster/',
@@ -632,6 +646,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
     },
+    inactive: true,
     projectLink: 'https://dappradar.com/',
     twitter: 'https://twitter.com/DappRadar/',
     audit: 'https://dappradar.com/documents/RADAR-Audits-v1.pdf',
@@ -652,6 +667,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
+    inactive: true,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     initTime: { [ChainId.BSC]: 1675904338 },
@@ -671,6 +687,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
+    inactive: true,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     initTime: { [ChainId.BSC]: 1675904338 },
@@ -690,6 +707,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
+    inactive: true,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     initTime: { [ChainId.BSC]: 1675904338 },
@@ -709,6 +727,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
+    inactive: true,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     initTime: { [ChainId.BSC]: 1675904338 },
@@ -728,11 +747,11 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
+    inactive: true,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     initTime: { [ChainId.BSC]: 1675904338 },
     initPrice: { [ChainId.BSC]: 0.073805 },
-    inactive: true,
   },
   {
     index: 38,
@@ -748,6 +767,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
     },
+    inactive: true,
     projectLink: 'https://www.ihcoin.io/',
     twitter: 'https://twitter.com/IHCoinofficial',
     audit: 'https://www.certik.com/projects/ihc#audit',
@@ -768,6 +788,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
     },
+    inactive: true,
     projectLink: 'https://liquidus.finance/',
     twitter: 'https://twitter.com/LiquidusFinance',
     initTime: { [ChainId.BSC]: 1669794128 },
@@ -787,6 +808,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
     },
+    inactive: true,
     projectLink: 'https://piston-token.com/',
     twitter: 'https://mobile.twitter.com/pistontoken',
     initTime: { [ChainId.BSC]: 1669905728 },
@@ -806,6 +828,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
     },
+    inactive: true,
     projectLink: 'https://outerringmmo.com/',
     twitter: 'https://twitter.com/OuterRingMMO',
     initTime: { [ChainId.BSC]: 1670432974 },
@@ -825,6 +848,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
     },
+    inactive: true,
     projectLink: 'https://www.leaptoken.io/',
     twitter: 'https://twitter.com/Play_Leap',
     audit: 'https://github.com/HashEx/public_audits/blob/master/PlayLeap/PlayLeap.pdf',
@@ -845,6 +869,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
     },
+    inactive: true,
     projectLink: 'https://nftynetwork.io/',
     twitter: 'https://twitter.com/NFTYFinance',
     initTime: { [ChainId.BSC]: 1667839328 },
@@ -864,6 +889,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
     },
+    inactive: true,
     projectLink: 'https://3air.io/',
     twitter: 'https://twitter.com/3aircrypto',
     audit: 'https://github.com/JorgeRodriguezsec/CTDsec/blob/main/Audits/Cybersecurity_Audit_CTDSEC_3air.pdf',
@@ -884,6 +910,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
     },
+    inactive: true,
     projectLink: 'https://www.coinofchampions.com/',
     twitter: 'https://twitter.com/coinofchampions',
     initTime: { [ChainId.BSC]: 1667352248 },
@@ -903,6 +930,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
     },
+    inactive: true,
     projectLink: 'https://chirpley.ai',
     twitter: 'https://twitter.com/chirpley',
     audit: 'https://stack.chirpley.nl/s/241c8gWBtVHnuZO1',
@@ -923,6 +951,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
     },
+    inactive: true,
     projectLink: 'https://gmr.center/',
     twitter: 'https://twitter.com/GMRCenter',
     audit: 'https://www.certik.com/projects/gamer',
@@ -943,6 +972,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
     },
+    inactive: true,
     projectLink: 'https://web.curate.style/',
     twitter: 'https://twitter.com/curateproject',
     initTime: { [ChainId.BSC]: 1662032058 },
@@ -962,11 +992,11 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
     },
+    inactive: true,
     projectLink: 'https://outerringmmo.com/',
     twitter: 'https://twitter.com/OuterRingMMO',
     initTime: { [ChainId.BSC]: 1667483648 },
     initPrice: { [ChainId.BSC]: 0.002164726526133125 },
-    inactive: true,
   },
   {
     index: 26,
@@ -982,9 +1012,9 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
     },
+    inactive: true,
     projectLink: 'https://piston-token.com/',
     twitter: 'https://twitter.com/MyDefi_team',
-    inactive: true,
   },
   {
     index: 25,
@@ -1000,6 +1030,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
     },
+    inactive: true,
     projectLink: 'https://xwin.finance/',
     twitter: 'https://twitter.com/xwinfinance',
     initTime: { [ChainId.BSC]: 1666784058 },
@@ -1057,6 +1088,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
     },
+    inactive: true,
     projectLink: 'https://bolide.fi/',
     twitter: 'https://twitter.com/Bolide_fi',
     initTime: { [ChainId.BSC]: 1664192058 },
@@ -1076,6 +1108,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
     },
+    inactive: true,
     projectLink: 'https://hector.network/',
     twitter: 'https://twitter.com/Hector_Network',
     initTime: { [ChainId.BSC]: 1660649658 },
@@ -1095,6 +1128,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
     },
+    inactive: true,
     projectLink: 'https://www.floki.com/',
     twitter: 'https://twitter.com/realflokiinu',
     initTime: { [ChainId.BSC]: 1660217658 },
@@ -1114,9 +1148,9 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8',
     },
+    inactive: true,
     projectLink: 'https://dappradar.com/',
     twitter: 'https://twitter.com/DappRadar/',
-    inactive: true,
   },
   {
     index: 5,
@@ -1132,6 +1166,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8',
     },
+    inactive: true,
     projectLink: 'https://ceek.com/',
     twitter: 'https://twitter.com/CEEK/',
     initTime: { [ChainId.BSC]: 1655292858 },
@@ -1151,9 +1186,9 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8',
     },
+    inactive: true,
     projectLink: 'https://nftynetwork.io/',
     twitter: 'https://twitter.com/NFTYLab',
-    inactive: true,
   },
   {
     index: 7,
@@ -1187,6 +1222,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8',
     },
+    inactive: true,
     projectLink: 'https://www.mogulproductions.com/',
     twitter: 'https://twitter.com/mogulofficial_',
     initTime: { [ChainId.BSC]: 1655292858 },
@@ -1206,6 +1242,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8',
     },
+    inactive: true,
     projectLink: 'https://hotcross.com/',
     twitter: 'https://twitter.com/hotcrosscom',
     initTime: { [ChainId.BSC]: 1655292858 },
@@ -1225,6 +1262,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8',
     },
+    inactive: true,
     projectLink: 'https://hotcross.com/',
     twitter: 'https://twitter.com/hotcrosscom',
     initTime: { [ChainId.BSC]: 1655292858 },
@@ -1244,6 +1282,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8',
     },
+    inactive: true,
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
     initTime: { [ChainId.BSC]: 1655552058 },
@@ -1591,7 +1630,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
     },
-    inactive: false,
+    inactive: true,
     projectLink: 'https://chainguardians.io/',
     twitter: 'https://twitter.com/chain_guardians',
     audit: 'https://www.certik.com/projects/chainguardians?utm_source=CMC&utm_campaign=AuditByCertiKLink',
@@ -1612,7 +1651,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
     },
-    inactive: false,
+    inactive: true,
     projectLink: 'https://www.kommunitas.net/',
     twitter: 'https://twitter.com/Kommunitas1',
     audit: 'https://docs.kommunitas.net/audit/shellboxes/security-audit-by-shellboxes',
@@ -1633,7 +1672,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
     },
-    inactive: false,
+    inactive: true,
     projectLink: 'https://www.dogira.net/',
     twitter: 'https://twitter.com/DogiraOfficial',
     audit: 'https://www.certik.com/address/0x47c5aa82fda7a79c7965beb6d7c6a265fe59921b',
@@ -1654,7 +1693,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
     },
-    inactive: false,
+    inactive: true,
     projectLink: 'https://www.leaptoken.io/',
     twitter: 'https://twitter.com/Play_Leap',
     audit: 'https://github.com/HashEx/public_audits/blob/master/PlayLeap/PlayLeap.pdf',
@@ -1675,7 +1714,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
     },
-    inactive: false,
+    inactive: true,
     projectLink: 'https://chainguardians.io/',
     twitter: 'https://twitter.com/chain_guardians',
     audit: 'https://www.certik.com/projects/chainguardians?utm_source=CMC&utm_campaign=AuditByCertiKLink',
@@ -1696,7 +1735,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.MATIC]: '0xa35c3fcd306cf69fed19e8c7b15c8b3904ea609d',
     },
-    inactive: false,
+    inactive: true,
     projectLink: 'https://axion.network/',
     twitter: 'https://twitter.com/axion_network',
     initTime: { [ChainId.MATIC]: 1669973048 },
@@ -1716,9 +1755,9 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.MATIC]: '0xa35c3fcd306cf69fed19e8c7b15c8b3904ea609d',
     },
+    inactive: true,
     projectLink: 'https://www.dogira.net/',
     twitter: 'https://twitter.com/DogiraOfficial',
-    inactive: true,
   },
   {
     index: 101,
@@ -1734,7 +1773,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.MATIC]: '0xa35c3fcd306cf69fed19e8c7b15c8b3904ea609d',
     },
-    inactive: false,
+    inactive: true,
     projectLink: 'https://www.tokentraxx.com/',
     twitter: 'https://twitter.com/TokenTraxx',
     initTime: { [ChainId.MATIC]: 1663846458 },
@@ -1754,7 +1793,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.MATIC]: '0xa35c3fcd306cf69fed19e8c7b15c8b3904ea609d',
     },
-    inactive: false,
+    inactive: true,
     projectLink: 'https://www.dogira.net/',
     twitter: 'https://twitter.com/DogiraOfficial',
     initTime: { [ChainId.MATIC]: 1664969658 },
@@ -1778,7 +1817,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.TLOS]: '0x29DD194bDc735A87637f2736A90AA585B74F5FD4',
     },
-    inactive: false,
+    inactive: true,
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
     initTime: { [ChainId.TLOS]: 1676929798 },
@@ -1798,7 +1837,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.TLOS]: '0x29DD194bDc735A87637f2736A90AA585B74F5FD4',
     },
-    inactive: false,
+    inactive: true,
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
     initTime: { [ChainId.TLOS]: 1676929798 },
@@ -1818,7 +1857,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.TLOS]: '0x29DD194bDc735A87637f2736A90AA585B74F5FD4',
     },
-    inactive: false,
+    inactive: true,
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
     initTime: { [ChainId.TLOS]: 1676929798 },
@@ -1838,7 +1877,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.TLOS]: '0x29DD194bDc735A87637f2736A90AA585B74F5FD4',
     },
-    inactive: false,
+    inactive: true,
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
     initTime: { [ChainId.TLOS]: 1676929798 },
@@ -1858,7 +1897,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.TLOS]: '0x29DD194bDc735A87637f2736A90AA585B74F5FD4',
     },
-    inactive: false,
+    inactive: true,
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
     initTime: { [ChainId.TLOS]: 1676929798 },
@@ -1878,7 +1917,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.TLOS]: '0x9084C442286E23617694101d5575bEA48C2cf621',
     },
-    inactive: false,
+    inactive: true,
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
     initTime: { [ChainId.TLOS]: 1668849848 },
@@ -1898,7 +1937,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.TLOS]: '0x9084C442286E23617694101d5575bEA48C2cf621',
     },
-    inactive: false,
+    inactive: true,
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
     initTime: { [ChainId.TLOS]: 1668849848 },
@@ -1918,7 +1957,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.TLOS]: '0x9084C442286E23617694101d5575bEA48C2cf621',
     },
-    inactive: false,
+    inactive: true,
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
     initTime: { [ChainId.TLOS]: 1668849848 },
@@ -1938,7 +1977,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.TLOS]: '0x9084C442286E23617694101d5575bEA48C2cf621',
     },
-    inactive: false,
+    inactive: true,
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
     initTime: { [ChainId.TLOS]: 1668849848 },
@@ -1958,7 +1997,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.TLOS]: '0x9084C442286E23617694101d5575bEA48C2cf621',
     },
-    inactive: false,
+    inactive: true,
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
     initTime: { [ChainId.TLOS]: 1668849848 },
@@ -2071,7 +2110,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
     },
-    inactive: false,
+    inactive: true,
     projectLink: 'https://openworld.vision/',
     twitter: 'https://twitter.com/OpenWorldVision',
     audit: 'https://wiki.openworld.vision/audit',

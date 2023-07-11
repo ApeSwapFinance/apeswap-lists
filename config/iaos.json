@@ -2,7 +2,7 @@
   {
     "id": "chirpley",
     "address": "0x93D678a48176296D176a6C660e127c7eF4815db8",
-    "isActive": true,
+    "isActive": false,
     "isLinear": true,
     "name": "Chirpley",
     "subTitle": "The first fully automated, peer-to-peer influencer marketplace",
@@ -24,7 +24,7 @@
   {
     "id": "animalconcerts",
     "address": "0x4bcfC7571D650e707e9C6506e1ED0E3e434E9bb4",
-    "isActive": true,
+    "isActive": false,
     "isLinear": true,
     "name": "Animal Concerts",
     "subTitle": "The Next Generation of Live Events in the Metaverse",
@@ -294,7 +294,7 @@
   {
     "id": "chirpley",
     "address": "0xC0c4795f433D52d9580482c4CcCc70553D1D75B5",
-    "isActive": true,
+    "isActive": false,
     "isLinear": true,
     "name": "Chirpley",
     "subTitle": "The first fully automated, peer-to-peer influencer marketplace",
@@ -316,7 +316,7 @@
   {
     "id": "animalconcerts",
     "address": "0x8C32C05243CDBEEa9632eAAa30e9471D7Ab78215",
-    "isActive": true,
+    "isActive": false,
     "isLinear": true,
     "name": "Animal Concerts",
     "subTitle": "The Next Generation of Live Events in the Metaverse",
