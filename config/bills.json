@@ -72,6 +72,7 @@
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
     },
+    "inactive": false,
     "projectLink": "https://apeswap.finance/",
     "twitter": "https://twitter.com/ape_swap",
     "audit": "https://paladinsec.co/projects/apeswap/",
@@ -80,7 +81,8 @@
     },
     "initPrice": {
       "56": 0.0390276
-    }
+    },
+    "soldOut": false
   },
   {
     "index": 69,
@@ -147,6 +149,7 @@
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
     },
+    "inactive": false,
     "projectLink": "https://apeswap.finance/",
     "twitter": "https://twitter.com/ape_swap",
     "audit": "https://paladinsec.co/projects/apeswap/",
@@ -155,7 +158,8 @@
     },
     "initPrice": {
       "56": 0.0303088
-    }
+    },
+    "soldOut": false
   },
   {
     "index": 70,
@@ -224,6 +228,7 @@
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
     },
+    "inactive": false,
     "projectLink": "https://apeswap.finance/",
     "twitter": "https://twitter.com/ape_swap",
     "audit": "https://paladinsec.co/projects/apeswap/",
@@ -232,7 +237,8 @@
     },
     "initPrice": {
       "56": 0.0303088
-    }
+    },
+    "soldOut": false
   },
   {
     "index": 71,
@@ -305,6 +311,7 @@
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
     },
+    "inactive": false,
     "projectLink": "https://apeswap.finance/",
     "twitter": "https://twitter.com/ape_swap",
     "audit": "https://paladinsec.co/projects/apeswap/",
@@ -313,7 +320,8 @@
     },
     "initPrice": {
       "56": 0.0303088
-    }
+    },
+    "soldOut": false
   },
   {
     "index": 72,
@@ -384,6 +392,7 @@
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
     },
+    "inactive": false,
     "projectLink": "https://apeswap.finance/",
     "twitter": "https://twitter.com/ape_swap",
     "audit": "https://paladinsec.co/projects/apeswap/",
@@ -392,7 +401,8 @@
     },
     "initPrice": {
       "56": 0.0303088
-    }
+    },
+    "soldOut": false
   },
   {
     "index": 78,
@@ -449,6 +459,7 @@
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
     },
+    "inactive": false,
     "projectLink": "https://froyo.games/",
     "twitter": "https://twitter.com/realfroyogames",
     "audit": "https://github.com/froyogames/public-smart-contracts/blob/main/Smart%20contract%20security%20audit%20report%20-%20Froyo.pdf",
@@ -457,7 +468,8 @@
     },
     "initPrice": {
       "56": 0.00106081
-    }
+    },
+    "soldOut": false
   },
   {
     "index": 77,
@@ -521,7 +533,8 @@
     },
     "initPrice": {
       "56": 0.08075
-    }
+    },
+    "soldOut": false
   },
   {
     "index": 76,
@@ -587,7 +600,8 @@
     },
     "initPrice": {
       "56": 0.0635458
-    }
+    },
+    "soldOut": false
   },
   {
     "index": 75,
@@ -653,7 +667,8 @@
     },
     "initPrice": {
       "56": 0.0056
-    }
+    },
+    "soldOut": false
   },
   {
     "index": 74,
@@ -719,7 +734,8 @@
     },
     "initPrice": {
       "56": 8.72237e-9
-    }
+    },
+    "soldOut": false
   },
   {
     "index": 67,
@@ -797,7 +813,8 @@
     },
     "initPrice": {
       "56": 0.015
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 66,
@@ -864,7 +881,8 @@
     },
     "initPrice": {
       "56": 0.015
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 73,
@@ -930,7 +948,8 @@
     },
     "initPrice": {
       "56": 0.00292599
-    }
+    },
+    "soldOut": false
   },
   {
     "index": 68,
@@ -996,7 +1015,8 @@
     },
     "initPrice": {
       "56": 0.0448743
-    }
+    },
+    "soldOut": false
   },
   {
     "index": 65,
@@ -1074,7 +1094,8 @@
     },
     "initPrice": {
       "56": 0.0846315
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 64,
@@ -1140,7 +1161,8 @@
     },
     "initPrice": {
       "56": 0.003065
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 61,
@@ -1197,6 +1219,7 @@
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
     },
+    "inactive": false,
     "projectLink": "https://bixos.io/",
     "twitter": "https://twitter.com/bixosinc",
     "audit": "https://github.com/solidproof/projects/blob/main/Bixos/SmartContract_Audit_Solidproof_Bixos.pdf",
@@ -1205,7 +1228,8 @@
     },
     "initPrice": {
       "56": 0.0650251
-    }
+    },
+    "soldOut": false
   },
   {
     "index": 60,
@@ -1271,7 +1295,8 @@
     },
     "initPrice": {
       "56": 0.00100443
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 59,
@@ -1337,7 +1362,8 @@
     },
     "initPrice": {
       "56": 0.00251252
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 58,
@@ -1415,7 +1441,8 @@
     },
     "initPrice": {
       "56": 0.110177
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 57,
@@ -1481,7 +1508,8 @@
     },
     "initPrice": {
       "56": 0.00927457
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 56,
@@ -1549,7 +1577,8 @@
     },
     "initPrice": {
       "56": 0.2253
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 55,
@@ -1615,7 +1644,8 @@
     },
     "initPrice": {
       "56": 0.00434657
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 54,
@@ -1683,7 +1713,8 @@
     },
     "initPrice": {
       "56": 0.00864348
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 53,
@@ -1749,7 +1780,8 @@
     },
     "initPrice": {
       "56": 0.00342517
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 52,
@@ -1813,7 +1845,8 @@
     },
     "initPrice": {
       "56": 0.438389
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 46,
@@ -1870,7 +1903,7 @@
     "billNnftAddress": {
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
     },
-    "inactive": true,
+    "inactive": false,
     "projectLink": "https://www.coinflect.com/",
     "twitter": "https://twitter.com/coinflect?lang=en",
     "audit": "https://github.com/coinflect/wrapped-coinflect-audit/blob/main/Wrapped%20Coinflect%20Smart%20Contract%20Security%20Audit.pdf",
@@ -1879,7 +1912,8 @@
     },
     "initPrice": {
       "56": 0.00004566
-    }
+    },
+    "soldOut": false
   },
   {
     "index": 45,
@@ -1945,7 +1979,8 @@
     },
     "initPrice": {
       "56": 0.029782
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 43,
@@ -2009,7 +2044,8 @@
     },
     "initPrice": {
       "56": 0.367212
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 44,
@@ -2075,7 +2111,8 @@
     },
     "initPrice": {
       "56": 0.000919952
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 37,
@@ -2141,7 +2178,8 @@
     },
     "initPrice": {
       "56": 0.005311928477767259
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 48,
@@ -2216,7 +2254,8 @@
     },
     "initPrice": {
       "56": 0.073805
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 49,
@@ -2293,7 +2332,8 @@
     },
     "initPrice": {
       "56": 0.073805
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 50,
@@ -2374,7 +2414,8 @@
     },
     "initPrice": {
       "56": 0.073805
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 51,
@@ -2453,7 +2494,8 @@
     },
     "initPrice": {
       "56": 0.073805
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 47,
@@ -2536,7 +2578,8 @@
     },
     "initPrice": {
       "56": 0.073805
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 38,
@@ -2602,7 +2645,8 @@
     },
     "initPrice": {
       "56": 0.0000773918161395094
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 39,
@@ -2665,7 +2709,8 @@
     },
     "initPrice": {
       "56": 0.3590438711755946
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 40,
@@ -2728,7 +2773,8 @@
     },
     "initPrice": {
       "56": 2.000004210715095
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 41,
@@ -2791,7 +2837,8 @@
     },
     "initPrice": {
       "56": 0.001714637510619517
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 42,
@@ -2861,7 +2908,8 @@
     },
     "initPrice": {
       "56": 0.165579
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 30,
@@ -2924,7 +2972,8 @@
     },
     "initPrice": {
       "56": 0.005420113056475245
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 29,
@@ -2990,7 +3039,8 @@
     },
     "initPrice": {
       "56": 0.04540120370089731
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 27,
@@ -3055,7 +3105,8 @@
     },
     "initPrice": {
       "56": 1.2566456303843458e-7
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 22,
@@ -3121,7 +3172,8 @@
     },
     "initPrice": {
       "56": 0.006475439494480084
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 20,
@@ -3187,7 +3239,8 @@
     },
     "initPrice": {
       "56": 0.019076325851224644
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 31,
@@ -3250,7 +3303,8 @@
     },
     "initPrice": {
       "56": 0.019076325851224644
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 28,
@@ -3313,7 +3367,8 @@
     },
     "initPrice": {
       "56": 0.002164726526133125
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 26,
@@ -3370,7 +3425,8 @@
     },
     "inactive": true,
     "projectLink": "https://piston-token.com/",
-    "twitter": "https://twitter.com/MyDefi_team"
+    "twitter": "https://twitter.com/MyDefi_team",
+    "soldOut": true
   },
   {
     "index": 25,
@@ -3435,7 +3491,8 @@
     },
     "initPrice": {
       "56": 0.550605316141175
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 24,
@@ -3500,7 +3557,8 @@
     },
     "initPrice": {
       "56": 0.010365834030975409
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 23,
@@ -3559,7 +3617,8 @@
     },
     "inactive": true,
     "projectLink": "https://froyo.games/",
-    "twitter": "https://twitter.com/realfroyogames"
+    "twitter": "https://twitter.com/realfroyogames",
+    "soldOut": true
   },
   {
     "index": 21,
@@ -3626,7 +3685,8 @@
     },
     "initPrice": {
       "56": 0.024065964757317017
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 19,
@@ -3691,7 +3751,8 @@
     },
     "initPrice": {
       "56": 18.15486755163556
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 18,
@@ -3756,7 +3817,8 @@
     },
     "initPrice": {
       "56": 0.00001504435067868268
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 12,
@@ -3815,7 +3877,8 @@
     },
     "inactive": true,
     "projectLink": "https://dappradar.com/",
-    "twitter": "https://twitter.com/DappRadar/"
+    "twitter": "https://twitter.com/DappRadar/",
+    "soldOut": true
   },
   {
     "index": 5,
@@ -3880,7 +3943,8 @@
     },
     "initPrice": {
       "56": 0.12499413563790174
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 6,
@@ -3939,7 +4003,8 @@
     },
     "inactive": true,
     "projectLink": "https://nftynetwork.io/",
-    "twitter": "https://twitter.com/NFTYLab"
+    "twitter": "https://twitter.com/NFTYLab",
+    "soldOut": true
   },
   {
     "index": 7,
@@ -4000,7 +4065,8 @@
     },
     "inactive": true,
     "projectLink": "https://www.telos.net/",
-    "twitter": "https://twitter.com/HelloTelos"
+    "twitter": "https://twitter.com/HelloTelos",
+    "soldOut": true
   },
   {
     "index": 8,
@@ -4065,7 +4131,8 @@
     },
     "initPrice": {
       "56": 0.012596738432285355
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 9,
@@ -4128,7 +4195,8 @@
     },
     "initPrice": {
       "56": 0.0410817844906574
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 10,
@@ -4191,7 +4259,8 @@
     },
     "initPrice": {
       "56": 0.0410817844906574
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 11,
@@ -4258,7 +4327,8 @@
     },
     "initPrice": {
       "56": 0.1736239460283216
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 0,
@@ -4335,7 +4405,8 @@
     },
     "inactive": true,
     "projectLink": "https://apeswap.finance/",
-    "twitter": "https://twitter.com/ape_swap"
+    "twitter": "https://twitter.com/ape_swap",
+    "soldOut": true
   },
   {
     "index": 1,
@@ -4404,7 +4475,8 @@
     },
     "inactive": true,
     "projectLink": "https://apeswap.finance/",
-    "twitter": "https://twitter.com/ape_swap"
+    "twitter": "https://twitter.com/ape_swap",
+    "soldOut": true
   },
   {
     "index": 2,
@@ -4475,7 +4547,8 @@
     },
     "inactive": true,
     "projectLink": "https://apeswap.finance/",
-    "twitter": "https://twitter.com/ape_swap"
+    "twitter": "https://twitter.com/ape_swap",
+    "soldOut": true
   },
   {
     "index": 3,
@@ -4550,7 +4623,8 @@
     },
     "inactive": true,
     "projectLink": "https://apeswap.finance/",
-    "twitter": "https://twitter.com/ape_swap"
+    "twitter": "https://twitter.com/ape_swap",
+    "soldOut": true
   },
   {
     "index": 4,
@@ -4623,7 +4697,8 @@
     },
     "inactive": true,
     "projectLink": "https://apeswap.finance/",
-    "twitter": "https://twitter.com/ape_swap"
+    "twitter": "https://twitter.com/ape_swap",
+    "soldOut": true
   },
   {
     "index": 13,
@@ -4700,7 +4775,8 @@
     },
     "projectLink": "https://apeswap.finance/",
     "twitter": "https://twitter.com/ape_swap",
-    "inactive": true
+    "inactive": true,
+    "soldOut": true
   },
   {
     "index": 14,
@@ -4769,7 +4845,8 @@
     },
     "projectLink": "https://apeswap.finance/",
     "twitter": "https://twitter.com/ape_swap",
-    "inactive": true
+    "inactive": true,
+    "soldOut": true
   },
   {
     "index": 15,
@@ -4840,7 +4917,8 @@
     },
     "projectLink": "https://apeswap.finance/",
     "twitter": "https://twitter.com/ape_swap",
-    "inactive": true
+    "inactive": true,
+    "soldOut": true
   },
   {
     "index": 16,
@@ -4915,7 +4993,8 @@
     },
     "projectLink": "https://apeswap.finance/",
     "twitter": "https://twitter.com/ape_swap",
-    "inactive": true
+    "inactive": true,
+    "soldOut": true
   },
   {
     "index": 17,
@@ -4988,7 +5067,8 @@
     },
     "projectLink": "https://apeswap.finance/",
     "twitter": "https://twitter.com/ape_swap",
-    "inactive": true
+    "inactive": true,
+    "soldOut": true
   },
   {
     "index": 32,
@@ -5071,7 +5151,8 @@
     "initPrice": {
       "56": 0.0709352845097292
     },
-    "inactive": true
+    "inactive": true,
+    "soldOut": true
   },
   {
     "index": 33,
@@ -5146,7 +5227,8 @@
     "initPrice": {
       "56": 0.0709352845097292
     },
-    "inactive": true
+    "inactive": true,
+    "soldOut": true
   },
   {
     "index": 34,
@@ -5223,7 +5305,8 @@
     "initPrice": {
       "56": 0.0709352845097292
     },
-    "inactive": true
+    "inactive": true,
+    "soldOut": true
   },
   {
     "index": 35,
@@ -5304,7 +5387,8 @@
     "initPrice": {
       "56": 0.0709352845097292
     },
-    "inactive": true
+    "inactive": true,
+    "soldOut": true
   },
   {
     "index": 36,
@@ -5383,7 +5467,8 @@
     "initPrice": {
       "56": 0.0709352845097292
     },
-    "inactive": true
+    "inactive": true,
+    "soldOut": true
   },
   {
     "index": 63,
@@ -5449,7 +5534,8 @@
     "initPrice": {
       "56": 0.003065
     },
-    "inactive": true
+    "inactive": true,
+    "soldOut": true
   },
   {
     "index": 109,
@@ -5517,7 +5603,8 @@
     },
     "initPrice": {
       "137": 0.00254
-    }
+    },
+    "soldOut": false
   },
   {
     "index": 108,
@@ -5595,7 +5682,8 @@
     },
     "initPrice": {
       "137": 0.085485
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 107,
@@ -5659,7 +5747,8 @@
     },
     "initPrice": {
       "137": 0.0013484
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 106,
@@ -5723,7 +5812,8 @@
     },
     "initPrice": {
       "137": 0.000939
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 105,
@@ -5791,7 +5881,8 @@
     },
     "initPrice": {
       "137": 0.021342
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 104,
@@ -5869,7 +5960,8 @@
     },
     "initPrice": {
       "137": 0.077899
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 103,
@@ -5936,7 +6028,8 @@
     },
     "initPrice": {
       "137": 0.000015665249761458396
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 100,
@@ -5993,7 +6086,8 @@
     },
     "inactive": true,
     "projectLink": "https://www.dogira.net/",
-    "twitter": "https://twitter.com/DogiraOfficial"
+    "twitter": "https://twitter.com/DogiraOfficial",
+    "soldOut": true
   },
   {
     "index": 101,
@@ -6056,7 +6150,8 @@
     },
     "initPrice": {
       "137": 0.18650580540316708
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 102,
@@ -6119,7 +6214,8 @@
     },
     "initPrice": {
       "137": 0.0015076537321486155
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 211,
@@ -6192,7 +6288,8 @@
     },
     "initPrice": {
       "40": 0.2206
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 212,
@@ -6265,7 +6362,8 @@
     },
     "initPrice": {
       "40": 0.2206
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 213,
@@ -6336,7 +6434,8 @@
     },
     "initPrice": {
       "40": 0.2206
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 214,
@@ -6407,7 +6506,8 @@
     },
     "initPrice": {
       "40": 0.2206
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 215,
@@ -6478,7 +6578,8 @@
     },
     "initPrice": {
       "40": 0.2206
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 206,
@@ -6551,7 +6652,8 @@
     },
     "initPrice": {
       "40": 0.1743935819281813
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 207,
@@ -6624,7 +6726,8 @@
     },
     "initPrice": {
       "40": 0.1743935819281813
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 208,
@@ -6695,7 +6798,8 @@
     },
     "initPrice": {
       "40": 0.1743935819281813
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 209,
@@ -6766,7 +6870,8 @@
     },
     "initPrice": {
       "40": 0.1743935819281813
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 210,
@@ -6837,7 +6942,8 @@
     },
     "initPrice": {
       "40": 0.1743935819281813
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 201,
@@ -6904,7 +7010,8 @@
     },
     "inactive": true,
     "projectLink": "https://www.telos.net/",
-    "twitter": "https://twitter.com/HelloTelos"
+    "twitter": "https://twitter.com/HelloTelos",
+    "soldOut": true
   },
   {
     "index": 202,
@@ -6971,7 +7078,8 @@
     },
     "inactive": true,
     "projectLink": "https://www.telos.net/",
-    "twitter": "https://twitter.com/HelloTelos"
+    "twitter": "https://twitter.com/HelloTelos",
+    "soldOut": true
   },
   {
     "index": 203,
@@ -7036,7 +7144,8 @@
     },
     "inactive": true,
     "projectLink": "https://www.telos.net/",
-    "twitter": "https://twitter.com/HelloTelos"
+    "twitter": "https://twitter.com/HelloTelos",
+    "soldOut": true
   },
   {
     "index": 204,
@@ -7101,7 +7210,8 @@
     },
     "inactive": true,
     "projectLink": "https://www.telos.net/",
-    "twitter": "https://twitter.com/HelloTelos"
+    "twitter": "https://twitter.com/HelloTelos",
+    "soldOut": true
   },
   {
     "index": 205,
@@ -7166,7 +7276,8 @@
     },
     "inactive": true,
     "projectLink": "https://www.telos.net/",
-    "twitter": "https://twitter.com/HelloTelos"
+    "twitter": "https://twitter.com/HelloTelos",
+    "soldOut": true
   },
   {
     "index": 2002,
@@ -7236,7 +7347,8 @@
     },
     "initPrice": {
       "42161": 0.02259
-    }
+    },
+    "soldOut": true
   },
   {
     "index": 2001,
@@ -7306,6 +7418,7 @@
     },
     "initPrice": {
       "42161": 1.5528
-    }
+    },
+    "soldOut": true
   }
 ]
