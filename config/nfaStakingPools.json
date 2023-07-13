@@ -25,7 +25,7 @@
       "97": "0xd138D4F886EdFe593dfA85d2EE2E184E7915a160"
     },
     "tokenPerBlock": "0.011774074074074",
-    "isFinished": false,
+    "isFinished": true,
     "endBlock": 18443242
   },
   {
@@ -54,7 +54,7 @@
       "97": "0x28B868bf63bdB1bcAf30184eFb6684312FEf134A"
     },
     "tokenPerBlock": "0.011774074074074",
-    "isFinished": false,
+    "isFinished": true,
     "endBlock": 18443242
   },
   {
@@ -83,7 +83,7 @@
       "97": "0x26b6414bC46aC1a149bb4ECD789163C0710f2d55"
     },
     "tokenPerBlock": "0.011774074074074",
-    "isFinished": false,
+    "isFinished": true,
     "endBlock": 18443242
   },
   {
@@ -112,7 +112,7 @@
       "97": "0x01FA5C85D152994B57314313e1b4f7005D12CD90"
     },
     "tokenPerBlock": "0.011774074074074",
-    "isFinished": false,
+    "isFinished": true,
     "endBlock": 18443242
   },
   {
@@ -141,7 +141,7 @@
       "97": "0x6f2361afb0E69C5fde812f79C7B206A94f127e0f"
     },
     "tokenPerBlock": "0.011774074074074",
-    "isFinished": false,
+    "isFinished": true,
     "endBlock": 18443242
   }
 ]

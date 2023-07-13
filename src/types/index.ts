@@ -65,6 +65,7 @@ export interface BillsConfig {
   initTime?: Partial<Record<ChainId, number>>
   initPrice?: Partial<Record<ChainId, number>>
   audit?: string
+  soldOut?: boolean
 }
 
 export enum VaultVersion {
