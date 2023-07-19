@@ -1815,7 +1815,7 @@
     "twitter": "https://twitter.com/LiveGreenCoin1",
     "audit": "https://www.certik.com/projects/livegreencoin",
     "harvest": true,
-    "tokenPerBlock": "0.001929012345679",
+    "tokenPerBlock": "0.0011574074",
     "sortOrder": 1,
     "isFinished": false,
     "tokenDecimals": 18,
