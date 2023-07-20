@@ -7280,6 +7280,86 @@
     "soldOut": true
   },
   {
+    "index": 2003,
+    "contractAddress": {
+      "42161": "0x52dA44E7cD8f65ba7E2B142c188ebb6Ef11B593c"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "42161": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "42161": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "42161": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "CRUIZE",
+      "address": {
+        "42161": "0x232baf8cfc14520140c3686fbab53fa596a50552"
+      },
+      "decimals": {
+        "42161": 18
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "42161": "0x577934E016545f3A7762eA25495f060726656908"
+    },
+    "inactive": false,
+    "projectLink": "https://www.cruize.finance/",
+    "twitter": "https://twitter.com/CruizeFinance",
+    "audit": "https://docs.cruize.finance/technical-details/audits",
+    "initTime": {
+      "42161": 1679952396
+    },
+    "initPrice": {
+      "42161": 0.137
+    },
+    "soldOut": false
+  },
+  {
     "index": 2002,
     "contractAddress": {
       "42161": "0xd194D68eF1055741c943958002A19622f5141E86"
