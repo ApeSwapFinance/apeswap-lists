@@ -1831,6 +1831,16 @@ const tokens: Record<string, Token> = {
     decimals: { [ChainId.BSC]: 18 },
     active: true,
   },
+  cruize: {
+    symbol: 'CRUIZE',
+    address: {
+      [ChainId.ARBITRUM]: '0x232baf8cfc14520140c3686fbab53fa596a50552',
+    },
+    decimals: {
+      [ChainId.ARBITRUM]: 18,
+    },
+    active: true,
+  },
   xcur: {
     symbol: 'XCUR',
     address: {

@@ -2208,6 +2208,28 @@ const bills: BillsConfig[] = [
       Arbitrum Bills - ID started from 2001
   */
   {
+    index: 2003,
+    contractAddress: {
+      [ChainId.ARBITRUM]: '0x52dA44E7cD8f65ba7E2B142c188ebb6Ef11B593c',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.cruize,
+    billNnftAddress: {
+      [ChainId.ARBITRUM]: '0x577934E016545f3A7762eA25495f060726656908',
+    },
+    inactive: false,
+    projectLink: 'https://www.cruize.finance/',
+    twitter: 'https://twitter.com/CruizeFinance',
+    audit: 'https://docs.cruize.finance/technical-details/audits',
+    initTime: { [ChainId.ARBITRUM]: 1679952396 },
+    initPrice: { [ChainId.ARBITRUM]: 0.137 },
+    soldOut: false,
+  },
+  {
     index: 2002,
     contractAddress: {
       [ChainId.ARBITRUM]: '0xd194D68eF1055741c943958002A19622f5141E86',
