@@ -7282,7 +7282,7 @@
   {
     "index": 2003,
     "contractAddress": {
-      "42161": "0x52dA44E7cD8f65ba7E2B142c188ebb6Ef11B593c"
+      "42161": "0xb4b18300289d257d1F341E6240d9Fe9B0F474ADd"
     },
     "billType": "reserve",
     "billVersion": "V2",
@@ -7345,7 +7345,7 @@
       "active": true
     },
     "billNnftAddress": {
-      "42161": "0x577934E016545f3A7762eA25495f060726656908"
+      "42161": "0xAC707999D05C4048844B78c737D9512DFDff524d"
     },
     "inactive": false,
     "projectLink": "https://www.cruize.finance/",
@@ -7355,7 +7355,7 @@
       "42161": 1689955200
     },
     "initPrice": {
-      "42161": 0.10232
+      "42161": 0.0925
     },
     "soldOut": false
   },
