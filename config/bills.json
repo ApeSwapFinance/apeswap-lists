@@ -7352,10 +7352,10 @@
     "twitter": "https://twitter.com/CruizeFinance",
     "audit": "https://docs.cruize.finance/technical-details/audits",
     "initTime": {
-      "42161": 1679952396
+      "42161": 1689955200
     },
     "initPrice": {
-      "42161": 0.137
+      "42161": 0.10232
     },
     "soldOut": false
   },

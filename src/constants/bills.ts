@@ -5,7 +5,7 @@ import { BillsConfig, BillVersion } from '../types'
 // BNB Largest ID: 78
 // Polygon Largest ID: 109
 // Telos Largest ID: 215
-// Arbitrum Largest ID: 2002
+// Arbitrum Largest ID: 2003
 
 const bills: BillsConfig[] = [
   {
@@ -2210,7 +2210,7 @@ const bills: BillsConfig[] = [
   {
     index: 2003,
     contractAddress: {
-      [ChainId.ARBITRUM]: '0x52dA44E7cD8f65ba7E2B142c188ebb6Ef11B593c',
+      [ChainId.ARBITRUM]: '0xb4b18300289d257d1F341E6240d9Fe9B0F474ADd',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
@@ -2219,14 +2219,14 @@ const bills: BillsConfig[] = [
     lpToken: tokens.usdt,
     earnToken: tokens.cruize,
     billNnftAddress: {
-      [ChainId.ARBITRUM]: '0x577934E016545f3A7762eA25495f060726656908',
+      [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
     },
     inactive: false,
     projectLink: 'https://www.cruize.finance/',
     twitter: 'https://twitter.com/CruizeFinance',
     audit: 'https://docs.cruize.finance/technical-details/audits',
-    initTime: { [ChainId.ARBITRUM]: 1679952396 },
-    initPrice: { [ChainId.ARBITRUM]: 0.137 },
+    initTime: { [ChainId.ARBITRUM]: 1689955200 },
+    initPrice: { [ChainId.ARBITRUM]: 0.0925 },
     soldOut: false,
   },
   {
