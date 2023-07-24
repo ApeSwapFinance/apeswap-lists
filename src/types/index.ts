@@ -18,6 +18,23 @@ export enum PoolCategory {
   'JUNGLE' = 'Jungle',
 }
 
+export enum LiquidityDex {
+  ApeSwapV2 = 'ApeSwapV2',
+  ApeSwapV3 = 'ApeSwapV3',
+  PancakeSwapV2 = 'PancakeSwapV2',
+  Algebra = 'Algebra',
+  QuickswapV2 = 'QuickswapV2',
+  UniswapV3 = 'UniswapV3',
+}
+
+export enum Protocols {
+  Both = 1,
+  V2 = 2,
+  V3 = 3,
+  Algebra = 4,
+  Gamma = 5,
+}
+
 export interface FarmStyles {
   deprecated: string
   warning: string
@@ -33,6 +50,7 @@ export interface Token {
   dontFetch?: boolean
   lpToken?: boolean
   price?: number
+  liquidityDex?: Partial<Record<ChainId, LiquidityDex>>
 }
 
 // Interfaces used in Vaults

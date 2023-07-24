@@ -405,6 +405,70 @@
     "soldOut": false
   },
   {
+    "index": 79,
+    "contractAddress": {
+      "56": "0xbD1dcE65a58a533259c134a3476a97A627De5F1e"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "GQ",
+      "address": {
+        "56": "0xF700D4c708C2be1463E355F337603183D20E0808"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BUSD",
+      "address": {
+        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "GQ-BUSD",
+      "address": {
+        "56": "0xcC3A3Bc1d76Df321f94716E88224638C439267aa"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "GQ",
+      "address": {
+        "56": "0xF700D4c708C2be1463E355F337603183D20E0808"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://outerringmmo.com/",
+    "twitter": "https://twitter.com/OuterRingMMO",
+    "initTime": {
+      "56": 1690208985
+    },
+    "initPrice": {
+      "56": 0.00301
+    },
+    "soldOut": false
+  },
+  {
     "index": 78,
     "contractAddress": {
       "56": "0xb48fDf78CAcd6d2fC495beFA51395CE9295B05E8"
@@ -2829,7 +2893,7 @@
     "billNnftAddress": {
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
     },
-    "inactive": false,
+    "inactive": true,
     "projectLink": "https://outerringmmo.com/",
     "twitter": "https://twitter.com/OuterRingMMO",
     "initTime": {
