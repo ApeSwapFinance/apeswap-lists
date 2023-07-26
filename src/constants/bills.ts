@@ -204,7 +204,7 @@ const bills: BillsConfig[] = [
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1687816800 },
     initPrice: { [ChainId.BSC]: 0.0635458 },
-    soldOut: false,
+    soldOut: true,
   },
   {
     index: 75,
