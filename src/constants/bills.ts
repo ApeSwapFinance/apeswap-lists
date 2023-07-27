@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillsConfig, BillVersion } from '../types'
 
-// BNB Largest ID: 78
+// BNB Largest ID: 79
 // Polygon Largest ID: 109
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2003
@@ -119,6 +119,27 @@ const bills: BillsConfig[] = [
     soldOut: false,
   },
   {
+    index: 79,
+    contractAddress: {
+      [ChainId.BSC]: '0xbD1dcE65a58a533259c134a3476a97A627De5F1e',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.gq,
+    quoteToken: tokens.busd,
+    lpToken: tokens.gqBusd,
+    earnToken: tokens.gq,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://outerringmmo.com/',
+    twitter: 'https://twitter.com/OuterRingMMO',
+    initTime: { [ChainId.BSC]: 1690208985 },
+    initPrice: { [ChainId.BSC]: 0.00301 },
+    soldOut: false,
+  },
+  {
     index: 78,
     contractAddress: {
       [ChainId.BSC]: '0xb48fDf78CAcd6d2fC495beFA51395CE9295B05E8',
@@ -183,7 +204,7 @@ const bills: BillsConfig[] = [
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1687816800 },
     initPrice: { [ChainId.BSC]: 0.0635458 },
-    soldOut: false,
+    soldOut: true,
   },
   {
     index: 75,
@@ -874,7 +895,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
     },
-    inactive: false,
+    inactive: true,
     projectLink: 'https://outerringmmo.com/',
     twitter: 'https://twitter.com/OuterRingMMO',
     initTime: { [ChainId.BSC]: 1670432974 },
@@ -2221,7 +2242,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
     },
-    inactive: false,
+    inactive: true,
     projectLink: 'https://www.cruize.finance/',
     twitter: 'https://twitter.com/CruizeFinance',
     audit: 'https://docs.cruize.finance/technical-details/audits',
