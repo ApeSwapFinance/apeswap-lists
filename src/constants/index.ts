@@ -1,4 +1,5 @@
 export { default as bills } from './bills'
+export { default as bondsQuickswap } from './bondsQuickswap'
 export { default as farms } from './farms'
 export { default as jungleFarms } from './jungleFarms'
 export { default as tokens } from './tokens'

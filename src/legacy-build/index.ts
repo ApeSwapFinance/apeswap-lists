@@ -3,6 +3,7 @@ import fs from 'fs'
 import {
   farms,
   bills,
+  bondsQuickswap,
   pools,
   jungleFarms,
   tokens,
@@ -19,6 +20,7 @@ const listMap: [any, string][] = [
   [farms, 'farms'],
   [farmsV2, 'farmsV2'],
   [bills, 'bills'],
+  [bondsQuickswap, 'bondsQuickswap'],
   [pools, 'pools'],
   [jungleFarms, 'jungleFarms'],
   [vaults, 'vaults'],

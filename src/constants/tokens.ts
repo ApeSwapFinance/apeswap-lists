@@ -1,5 +1,5 @@
 import { ChainId } from '@ape.swap/sdk'
-import { Token } from '../types'
+import { LiquidityDex, Token } from '../types'
 
 const tokens: Record<string, Token> = {
   // BANANA should always be first token for GNANA calculation
@@ -1995,6 +1995,20 @@ const tokens: Record<string, Token> = {
     active: true,
   },
 
+  // Test Token
+
+  qat: {
+    symbol: 'QUICK_APE_TEST',
+    address: {
+      [ChainId.MATIC]: '0x45024014A6977E7A252C15fB8d7fC74e02b01813',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    active: true,
+    liquidityDex: { [ChainId.MATIC]: LiquidityDex.Algebra },
+  },
+
   // Test LPs
 
   horNey: {
@@ -3008,6 +3022,18 @@ const tokens: Record<string, Token> = {
     decimals: { [ChainId.ARBITRUM]: 18 },
     active: true,
     lpToken: true,
+  },
+  usdcEth: {
+    symbol: 'USDC-ETH',
+    address: {
+      [ChainId.MATIC]: '0x3Cc20A6795c4b57d9817399F68E83e71C8626580',
+    },
+    decimals: { [ChainId.MATIC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.Algebra,
+    },
   },
 }
 
