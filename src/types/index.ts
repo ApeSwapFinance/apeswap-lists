@@ -51,6 +51,7 @@ export interface Token {
   lpToken?: boolean
   price?: number
   liquidityDex?: Partial<Record<ChainId, LiquidityDex>>
+  getLpUrl?: string
 }
 
 // Interfaces used in Vaults

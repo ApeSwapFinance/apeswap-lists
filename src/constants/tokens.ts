@@ -1994,6 +1994,45 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  quicktest: {
+    symbol: 'QT',
+    address: {
+      [ChainId.MATIC]: '0x5d4bdadC63542eB01835Cd870629b46BF5169f8E',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.QuickswapV2,
+    },
+  },
+  quick: {
+    symbol: 'Quick',
+    address: {
+      [ChainId.MATIC]: '0xB5C064F955D8e7F38fE0460C556a72987494eE17',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.Algebra,
+    },
+  },
+  TTT: {
+    symbol: 'TTT',
+    address: {
+      [ChainId.BSC]: '0x699EDc2f863d7AcAc41Bc19E2607823181bC88eE',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+  },
 
   // Test Token
 
@@ -2032,6 +2071,50 @@ const tokens: Record<string, Token> = {
     },
     active: false,
     lpToken: true,
+  },
+  maticDoubloons: {
+    symbol: 'MATIC-D',
+    address: {
+      [ChainId.MATIC]: '0x68458B8604c81f5390C790F362A53A5168570D7F',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.QuickswapV2,
+    },
+  },
+  quickMatic: {
+    symbol: 'aWMATIC-QUICK',
+    address: {
+      [ChainId.MATIC]: '0x7f09bD2801A7b795dF29C273C4afbB0Ff15E2D63',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.Algebra,
+    },
+  },
+  pcsBnbUsdt: {
+    symbol: 'BNB-USDT',
+    address: {
+      [ChainId.BSC]: '0x16b9a82891338f9bA80E2D6970FddA79D1eb0daE',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: false,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl:
+      'https://pancakeswap.finance/v2/add/0x55d398326f99059fF775485246999027B3197955/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c/500',
   },
 
   // LP Tokens
