@@ -2024,13 +2024,16 @@ const tokens: Record<string, Token> = {
     symbol: 'TTT',
     address: {
       [ChainId.BSC]: '0x699EDc2f863d7AcAc41Bc19E2607823181bC88eE',
+      [ChainId.MATIC]: '0x219FFAB3cbD586Dd3A30aEB315b20103dD739803',
     },
     decimals: {
       [ChainId.BSC]: 18,
+      [ChainId.MATIC]: 18,
     },
     active: true,
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+      [ChainId.MATIC]: LiquidityDex.QuickswapV2,
     },
   },
 

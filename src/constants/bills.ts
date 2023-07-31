@@ -2000,6 +2000,27 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.MATIC]: 1690287710 },
     initPrice: { [ChainId.MATIC]: 0.00123 },
   },
+  {
+    index: 18555,
+    contractAddress: {
+      [ChainId.MATIC]: '0xeb822b7c6f44e4FF701Be94A93aE8B7C2E0C8F47',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.quick,
+    quoteToken: tokens.wmatic,
+    lpToken: tokens.quickMatic,
+    earnToken: tokens.TTT,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0xA1c78Af783fB9Ea7be790CBbd01aBff63BEAE769',
+    },
+    inactive: false,
+    projectLink: 'https://www.quickswap.app/',
+    twitter: 'https://twitter.com/',
+    audit: 'Add audit link',
+    initTime: { [ChainId.MATIC]: 1690287710 },
+    initPrice: { [ChainId.MATIC]: 0.00123 },
+  },
 
   /*
     Telos Bills
