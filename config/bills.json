@@ -7346,7 +7346,7 @@
   {
     "index": 2003,
     "contractAddress": {
-      "42161": "0xb4b18300289d257d1F341E6240d9Fe9B0F474ADd"
+      "42161": "0xb5022e9DE06793D74c7892cD0e7D820cdEd05611"
     },
     "billType": "reserve",
     "billVersion": "V2",
@@ -7406,12 +7406,15 @@
       "decimals": {
         "42161": 18
       },
+      "liquidityDex": {
+        "42161": "UniswapV3"
+      },
       "active": true
     },
     "billNnftAddress": {
       "42161": "0xAC707999D05C4048844B78c737D9512DFDff524d"
     },
-    "inactive": true,
+    "inactive": false,
     "projectLink": "https://www.cruize.finance/",
     "twitter": "https://twitter.com/CruizeFinance",
     "audit": "https://docs.cruize.finance/technical-details/audits",
@@ -7419,7 +7422,7 @@
       "42161": 1689955200
     },
     "initPrice": {
-      "42161": 0.0925
+      "42161": 0.0202
     },
     "soldOut": false
   },
