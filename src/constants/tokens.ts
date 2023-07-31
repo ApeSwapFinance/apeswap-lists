@@ -1,5 +1,5 @@
 import { ChainId } from '@ape.swap/sdk'
-import { Token } from '../types'
+import { LiquidityDex, Token } from '../types'
 
 const tokens: Record<string, Token> = {
   // BANANA should always be first token for GNANA calculation
@@ -1838,6 +1838,9 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.ARBITRUM]: 18,
+    },
+    liquidityDex: {
+      [ChainId.ARBITRUM]: LiquidityDex.UniswapV3,
     },
     active: true,
   },

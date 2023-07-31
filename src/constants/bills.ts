@@ -2231,7 +2231,7 @@ const bills: BillsConfig[] = [
   {
     index: 2003,
     contractAddress: {
-      [ChainId.ARBITRUM]: '0xb4b18300289d257d1F341E6240d9Fe9B0F474ADd',
+      [ChainId.ARBITRUM]: '0xb5022e9DE06793D74c7892cD0e7D820cdEd05611',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
@@ -2242,12 +2242,12 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
     },
-    inactive: true,
+    inactive: false,
     projectLink: 'https://www.cruize.finance/',
     twitter: 'https://twitter.com/CruizeFinance',
     audit: 'https://docs.cruize.finance/technical-details/audits',
     initTime: { [ChainId.ARBITRUM]: 1689955200 },
-    initPrice: { [ChainId.ARBITRUM]: 0.0925 },
+    initPrice: { [ChainId.ARBITRUM]: 0.0202 },
     soldOut: false,
   },
   {
