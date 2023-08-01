@@ -27,6 +27,13 @@ export enum LiquidityDex {
   UniswapV3 = 'UniswapV3',
 }
 
+export enum ZapVersion {
+  External = 'External', //This will redirect users to Token.getLpUrl with get lp button on FE
+  ZapV1 = 'ZapV1', //First original inhouse built non multicall zap
+  ZapV2 = 'ZapV2', //Second inhouse built dynamic multicall zap
+  Wido = 'Wido', //https://www.joinwido.com/
+}
+
 export enum Protocols {
   Both = 1,
   V2 = 2,
@@ -50,7 +57,8 @@ export interface Token {
   dontFetch?: boolean
   lpToken?: boolean
   price?: number
-  liquidityDex?: Partial<Record<ChainId, LiquidityDex>>
+  liquidityDex?: Partial<Record<ChainId, LiquidityDex>> //the dex type where most liquidity/actual lp is
+  getLpUrl?: Partial<Record<ChainId, string>> //Needed for ZapVersion.External
 }
 
 // Interfaces used in Vaults
