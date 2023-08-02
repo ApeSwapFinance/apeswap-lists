@@ -1982,16 +1982,16 @@ const bills: BillsConfig[] = [
   {
     index: 16543,
     contractAddress: {
-      [ChainId.MATIC]: '0x73a9BdC11FD6A6E360e08d30cCC29EBE345d4237',
+      [ChainId.MATIC]: '0xeb822b7c6f44e4FF701Be94A93aE8B7C2E0C8F47',
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
     token: tokens.quick,
     quoteToken: tokens.wmatic,
     lpToken: tokens.quickMatic,
-    earnToken: tokens.quicktest,
+    earnToken: tokens.TTT,
     billNnftAddress: {
-      [ChainId.MATIC]: '0xf63e25B5492A856189420724fe6f3573620966f3',
+      [ChainId.MATIC]: '0xa1c78af783fb9ea7be790cbbd01abff63beae769',
     },
     inactive: false,
     projectLink: 'https://www.quickswap.app/',
