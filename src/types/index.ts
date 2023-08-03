@@ -88,6 +88,7 @@ export enum BillVersion {
  */
 export enum BillArtCollection {
   ApeSwap_Collection1 = 'ApeSwap_Collection1',
+  Quickswap_Collection1 = 'Quickswap_Collection1',
 }
 
 export const defaultBillArtCollection = BillArtCollection.ApeSwap_Collection1
