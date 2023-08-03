@@ -2091,6 +2091,9 @@ const tokens: Record<string, Token> = {
     liquidityDex: {
       [ChainId.MATIC]: LiquidityDex.Algebra,
     },
+    getLpUrl: {
+      [ChainId.MATIC]: 'https://app.gamma.xyz/vault/qi/polygon/details/wmatic-quick-narrow'
+    }
   },
   pcsBnbUsdt: {
     symbol: 'BNB-USDT',
