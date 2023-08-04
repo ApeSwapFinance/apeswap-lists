@@ -22,6 +22,11 @@ export enum LiquidityDex {
   ApeSwapV2 = 'ApeSwapV2',
   ApeSwapV3 = 'ApeSwapV3',
   PancakeSwapV2 = 'PancakeSwapV2',
+  /**
+   * Initially, LiquidityDex was for the price getter and that checks algebra pricing
+   *  (gamma wraps over it so no pricing there).
+   * Now we use it for zapVersion as well where Gamma is better.
+   */
   Algebra = 'Algebra',
   QuickswapV2 = 'QuickswapV2',
   UniswapV3 = 'UniswapV3',
@@ -30,7 +35,8 @@ export enum LiquidityDex {
 export enum ZapVersion {
   External = 'External', //This will redirect users to Token.getLpUrl with get lp button on FE
   ZapV1 = 'ZapV1', //First original inhouse built non multicall zap
-  ZapV2 = 'ZapV2', //Second inhouse built dynamic multicall zap
+  // NOTE: ZapV2 is not yet operational
+  // ZapV2 = 'ZapV2', //Second inhouse built dynamic multicall zap
   Wido = 'Wido', //https://www.joinwido.com/
 }
 
