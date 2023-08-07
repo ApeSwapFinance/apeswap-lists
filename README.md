@@ -63,7 +63,7 @@ npm publish --access=public --tag=test0
 
 # Config
 
-### Token
+## Token
 
 This is the current interface of Token
 
@@ -129,5 +129,77 @@ getLpUrl: {
     getLpUrl: {
       [ChainId.BSC]: 'https://pancakeswap.finance/v2/add/0x55d398326f99059fF775485246999027B3197955/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
     },
+  },
+```
+
+## Bills/Bonds
+
+This is the current interface for Bills
+
+```js
+export interface BillsConfig {
+  index: number
+  contractAddress: Partial<Record<ChainId, string>>
+  billVersion: BillVersion
+  billType: 'liquidity' | 'reserve' | 'launch'
+  token: Token
+  quoteToken: Token
+  lpToken: Token
+  earnToken: Token
+  billNnftAddress: Partial<Record<ChainId, string>>
+  inactive?: boolean
+  projectLink?: string
+  twitter?: string
+  initTime?: Partial<Record<ChainId, number>>
+  initPrice?: Partial<Record<ChainId, number>>
+  audit?: string
+  soldOut?: boolean
+  billArt?: {
+    collection: BillArtCollection // i.e. BillArtCollection.ApeSwap_Collection1
+  }
+}
+```
+
+With more recently added property `billArt`
+
+### `billArt`
+
+This property was added to be able to support multiple bond arts. Currently the supported bill arts are ApeSwap and Quickswap with default ApeSwap if nothing is specified.
+
+```
+export enum BillArtCollection {
+  ApeSwap_Collection1 = 'ApeSwap_Collection1',
+  Quickswap_Collection1 = 'Quickswap_Collection1',
+}
+```
+
+```
+billArt: { collection: BillArtCollection.Quickswap_Collection1 }
+```
+
+# Example
+
+```
+  {
+    index: 16543,
+    contractAddress: {
+      [ChainId.MATIC]: '0xa54d14007bdc29d1d2ff0607efac0bae9ecaf9b9',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.quick,
+    quoteToken: tokens.wmatic,
+    lpToken: tokens.quickMatic,
+    earnToken: tokens.TTT,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0xa1c78af783fb9ea7be790cbbd01abff63beae769',
+    },
+    inactive: false,
+    projectLink: 'https://www.quickswap.app/',
+    twitter: 'https://twitter.com/',
+    audit: 'Add audit link',
+    initTime: { [ChainId.MATIC]: 1690287710 },
+    initPrice: { [ChainId.MATIC]: 0.00123 },
+    billArt: { collection: BillArtCollection.Quickswap_Collection1 },
   },
 ```
