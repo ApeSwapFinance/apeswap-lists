@@ -1815,6 +1815,14 @@ const tokens: Record<string, Token> = {
     decimals: { [ChainId.BSC]: 9 },
     active: true,
   },
+  furfi: {
+    symbol: 'FURFI',
+    address: {
+      [ChainId.BSC]: '0x6CFf19F714E9f0Ac62412555aa08f313fc343aE4',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+  },
   avan: {
     symbol: 'AVAN',
     address: {
@@ -2724,6 +2732,15 @@ const tokens: Record<string, Token> = {
     decimals: {
       [ChainId.BSC]: 18,
     },
+    active: true,
+    lpToken: true,
+  },
+  furfiBnb: {
+    symbol: 'FURFI-BNB',
+    address: {
+      [ChainId.BSC]: '0x4428AC6AD2Be88C59e811F8953dA9Dd603FC2fEA',
+    },
+    decimals: { [ChainId.BSC]: 18 },
     active: true,
     lpToken: true,
   },
