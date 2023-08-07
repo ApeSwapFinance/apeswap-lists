@@ -80,6 +80,19 @@ export enum BillVersion {
   V2 = 'V2',
 }
 
+/**
+ * This enum defines the art collection used to generate the art for a bill (bond).
+ *
+ * NOTE: Collections start at 1. The collection number provides a method to make new releases around
+ * the same theme or project.
+ */
+export enum BillArtCollection {
+  ApeSwap_Collection1 = 'ApeSwap_Collection1',
+  Quickswap_Collection1 = 'Quickswap_Collection1',
+}
+
+export const defaultBillArtCollection = BillArtCollection.ApeSwap_Collection1
+
 // Start of list types
 export interface BillsConfig {
   index: number
@@ -98,6 +111,9 @@ export interface BillsConfig {
   initPrice?: Partial<Record<ChainId, number>>
   audit?: string
   soldOut?: boolean
+  billArt?: {
+    collection: BillArtCollection // i.e. BillArtCollection.ApeSwap_Collection1
+  }
 }
 
 export enum VaultVersion {

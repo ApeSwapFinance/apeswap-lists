@@ -16,6 +16,23 @@ Humans interact with the TypeScript files & our services pull in the JSON files!
 
 ## Testing Locally
 
+### [yalc](https://www.npmjs.com/package/yalc)
+
+1. `yalc publish` (in package)
+2. `yalc add <package-name>` (in package consumer repo)
+   - `yalc link` is another option
+3. `yalc remove <package-name>`
+   - `yalc remove --all` another option
+
+#### `yalc` installation
+
+Using NPM:  
+`npm i yalc -g`  
+Using Yarn:  
+`yarn global add yalc`
+
+### `npm link`
+
 1. `yarn` (Install latest deps)
 2. _Update lists as needed_
 3. `yarn build && yarn legacy-build`
@@ -33,6 +50,16 @@ Humans interact with the TypeScript files & our services pull in the JSON files!
 1. Go to frontend repo locally `npm unlink @ape.swap/apeswap-lists`
 2. Still on local frontend: `yarn install` (Reinstall package)
 3. `npm unlink`
+
+## Publishing Test Packages
+
+Sometimes a package needs to be deployed with test tokens. We suggest using a `--tag=testX` tag scheme
+to denote this packages have test tokens included in them
+
+```bash
+yarn build
+npm publish --access=public --tag=test0
+```
 
 # Config
 
