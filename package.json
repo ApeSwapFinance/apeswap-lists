@@ -1,6 +1,6 @@
 {
   "name": "@ape.swap/apeswap-lists",
-  "version": "1.4.6",
+  "version": "1.4.8",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "publishConfig": {
@@ -16,10 +16,9 @@
   "license": "MIT",
   "module": "dist/apeswap-lists.esm.js",
   "scripts": {
-    "build:full": "yarn build && yarn legacy-build",
-    "build": "tsdx build",
+    "build": "tsdx build && yarn legacy-build",
     "start": "tsdx watch",
-    "prepublishOnly": "tsdx build",
+    "prepublishOnly": "yarn build",
     "prepare": "husky install",
     "test": "jest",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",

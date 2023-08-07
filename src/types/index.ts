@@ -22,9 +22,22 @@ export enum LiquidityDex {
   ApeSwapV2 = 'ApeSwapV2',
   ApeSwapV3 = 'ApeSwapV3',
   PancakeSwapV2 = 'PancakeSwapV2',
+  /**
+   * Initially, LiquidityDex was for the price getter and that checks algebra pricing
+   *  (gamma wraps over it so no pricing there).
+   * Now we use it for zapVersion as well where Gamma is better.
+   */
   Algebra = 'Algebra',
   QuickswapV2 = 'QuickswapV2',
   UniswapV3 = 'UniswapV3',
+}
+
+export enum ZapVersion {
+  External = 'External', //This will redirect users to Token.getLpUrl with get lp button on FE
+  ZapV1 = 'ZapV1', //First original inhouse built non multicall zap
+  // NOTE: ZapV2 is not yet operational
+  // ZapV2 = 'ZapV2', //Second inhouse built dynamic multicall zap
+  Wido = 'Wido', //https://www.joinwido.com/
 }
 
 export enum Protocols {
@@ -50,7 +63,8 @@ export interface Token {
   dontFetch?: boolean
   lpToken?: boolean
   price?: number
-  liquidityDex?: Partial<Record<ChainId, LiquidityDex>>
+  liquidityDex?: Partial<Record<ChainId, LiquidityDex>> //the dex type where most liquidity/actual lp is
+  getLpUrl?: Partial<Record<ChainId, string>> //Needed for ZapVersion.External
 }
 
 // Interfaces used in Vaults
@@ -65,6 +79,19 @@ export enum BillVersion {
   V1 = 'V1',
   V2 = 'V2',
 }
+
+/**
+ * This enum defines the art collection used to generate the art for a bill (bond).
+ *
+ * NOTE: Collections start at 1. The collection number provides a method to make new releases around
+ * the same theme or project.
+ */
+export enum BillArtCollection {
+  ApeSwap_Collection1 = 'ApeSwap_Collection1',
+  Quickswap_Collection1 = 'Quickswap_Collection1',
+}
+
+export const defaultBillArtCollection = BillArtCollection.ApeSwap_Collection1
 
 // Start of list types
 export interface BillsConfig {
@@ -84,6 +111,9 @@ export interface BillsConfig {
   initPrice?: Partial<Record<ChainId, number>>
   audit?: string
   soldOut?: boolean
+  billArt?: {
+    collection: BillArtCollection // i.e. BillArtCollection.ApeSwap_Collection1
+  }
 }
 
 export enum VaultVersion {
