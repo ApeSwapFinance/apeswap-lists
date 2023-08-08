@@ -2005,6 +2005,48 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  quicktest: {
+    symbol: 'QT',
+    address: {
+      [ChainId.MATIC]: '0x5d4bdadC63542eB01835Cd870629b46BF5169f8E',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.QuickswapV2,
+    },
+  },
+  quick: {
+    symbol: 'Quick',
+    address: {
+      [ChainId.MATIC]: '0xB5C064F955D8e7F38fE0460C556a72987494eE17',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.Algebra,
+    },
+  },
+  TTT: {
+    symbol: 'TTT',
+    address: {
+      [ChainId.BSC]: '0x699EDc2f863d7AcAc41Bc19E2607823181bC88eE',
+      [ChainId.MATIC]: '0x219FFAB3cbD586Dd3A30aEB315b20103dD739803',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+      [ChainId.MATIC]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+      [ChainId.MATIC]: LiquidityDex.QuickswapV2,
+    },
+  },
 
   // Test LPs
 
@@ -2029,6 +2071,55 @@ const tokens: Record<string, Token> = {
     },
     active: false,
     lpToken: true,
+  },
+  maticDoubloons: {
+    symbol: 'MATIC-D',
+    address: {
+      [ChainId.MATIC]: '0x68458B8604c81f5390C790F362A53A5168570D7F',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.QuickswapV2,
+    },
+  },
+  quickMatic: {
+    symbol: 'aWMATIC-QUICK',
+    address: {
+      [ChainId.MATIC]: '0x7f09bD2801A7b795dF29C273C4afbB0Ff15E2D63',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.Algebra,
+    },
+    getLpUrl: {
+      [ChainId.MATIC]: 'https://app.gamma.xyz/vault/qi/polygon/details/wmatic-quick-narrow',
+    },
+  },
+  pcsBnbUsdt: {
+    symbol: 'BNB-USDT',
+    address: {
+      [ChainId.BSC]: '0x16b9a82891338f9bA80E2D6970FddA79D1eb0daE',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: false,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl: {
+      [ChainId.BSC]:
+        'https://pancakeswap.finance/v2/add/0x55d398326f99059fF775485246999027B3197955/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
+    },
   },
 
   // LP Tokens
@@ -2799,6 +2890,22 @@ const tokens: Record<string, Token> = {
     decimals: { [ChainId.BSC]: 18 },
     active: true,
     lpToken: true,
+  },
+  cgptBusd_PCS: {
+    symbol: 'CGPT-BUSD',
+    address: {
+      [ChainId.BSC]: '0xcFE847AAE922CBe3Dcbba61DBB1ed97D2124d322',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl: {
+      [ChainId.BSC]:
+        'https://pancakeswap.finance/v2/add/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56/0x9840652DC04fb9db2C43853633f0F62BE6f00f98',
+    },
   },
   stlosTlos: {
     symbol: 'STLOS-TLOS',
