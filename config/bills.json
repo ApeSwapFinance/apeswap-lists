@@ -6420,6 +6420,241 @@
     "soldOut": true
   },
   {
+    "index": 16564,
+    "contractAddress": {
+      "56": "0xf8e9b4020294bb1dfC737461A703876aa9B71F6d"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "CGPT",
+      "address": {
+        "56": "0x9840652DC04fb9db2C43853633f0F62BE6f00f98"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BUSD",
+      "address": {
+        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "CGPT-BUSD",
+      "address": {
+        "56": "0xcFE847AAE922CBe3Dcbba61DBB1ed97D2124d322"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "getLpUrl": {
+        "56": "https://pancakeswap.finance/v2/add/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56/0x9840652DC04fb9db2C43853633f0F62BE6f00f98"
+      }
+    },
+    "earnToken": {
+      "symbol": "CGPT",
+      "address": {
+        "56": "0x9840652DC04fb9db2C43853633f0F62BE6f00f98"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://ChainGPT.org/",
+    "twitter": "http://twitter.com/chain_gpt",
+    "audit": "https://www.certik.com/projects/chaingpt/",
+    "initTime": {
+      "56": 1690287710
+    },
+    "initPrice": {
+      "56": 0.00123
+    },
+    "soldOut": false
+  },
+  {
+    "index": 16543,
+    "contractAddress": {
+      "137": "0xeb822b7c6f44e4FF701Be94A93aE8B7C2E0C8F47"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "Quick",
+      "address": {
+        "137": "0xB5C064F955D8e7F38fE0460C556a72987494eE17"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "137": "Algebra"
+      }
+    },
+    "quoteToken": {
+      "symbol": "MATIC",
+      "address": {
+        "56": "0xcc42724c6683b7e57334c4e856f4c9965ed682bd",
+        "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
+      },
+      "decimals": {
+        "56": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "aWMATIC-QUICK",
+      "address": {
+        "137": "0x7f09bD2801A7b795dF29C273C4afbB0Ff15E2D63"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "active": true,
+      "lpToken": true,
+      "liquidityDex": {
+        "137": "Algebra"
+      },
+      "getLpUrl": {
+        "137": "https://app.gamma.xyz/vault/qi/polygon/details/wmatic-quick-narrow"
+      }
+    },
+    "earnToken": {
+      "symbol": "TTT",
+      "address": {
+        "56": "0x699EDc2f863d7AcAc41Bc19E2607823181bC88eE",
+        "137": "0x219FFAB3cbD586Dd3A30aEB315b20103dD739803"
+      },
+      "decimals": {
+        "56": 18,
+        "137": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2",
+        "137": "QuickswapV2"
+      }
+    },
+    "billNnftAddress": {
+      "137": "0xa1c78af783fb9ea7be790cbbd01abff63beae769"
+    },
+    "inactive": false,
+    "projectLink": "https://www.quickswap.app/",
+    "twitter": "https://twitter.com/",
+    "audit": "Add audit link",
+    "initTime": {
+      "137": 1690287710
+    },
+    "initPrice": {
+      "137": 0.00123
+    },
+    "billArt": {
+      "collection": "Quickswap_Collection1"
+    }
+  },
+  {
+    "index": 14001,
+    "contractAddress": {
+      "137": "0xbB8f6058A48e4C97c33458447dD1AB328798257e"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "ETH",
+      "address": {
+        "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
+        "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
+        "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
+        "137": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+      },
+      "decimals": {
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "42161": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "Sushi",
+      "address": {
+        "137": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "137": "Steer"
+      }
+    },
+    "lpToken": {
+      "symbol": "SUSHI-WETH",
+      "address": {
+        "137": "0xaeBBF70504C4D07bE4A28Cb37E6a1c9401Ef00f9"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "active": false,
+      "lpToken": true,
+      "liquidityDex": {
+        "137": "Steer"
+      },
+      "getLpUrl": {
+        "137": "https://app.steer.finance/app/0x5/vault/0xaebbf70504c4d07be4a28cb37e6a1c9401ef00f9?engine=MultiPositionSushi&chainId=137"
+      }
+    },
+    "earnToken": {
+      "symbol": "Sushi",
+      "address": {
+        "137": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "137": "Steer"
+      }
+    },
+    "billNnftAddress": {
+      "137": "0x8F182b07e11119aFcA541aA62c9c2608CF5968DD"
+    },
+    "inactive": false,
+    "projectLink": "https://www.sushi.com/",
+    "twitter": "https://twitter.com/",
+    "audit": "Add audit link",
+    "initTime": {
+      "137": 1690287710
+    },
+    "initPrice": {
+      "137": 0.00123
+    }
+  },
+  {
     "index": 211,
     "contractAddress": {
       "40": "0x84662B6bBef1E81aBcAa8372678ADBbA49d07C2c"

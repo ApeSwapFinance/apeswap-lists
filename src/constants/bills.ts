@@ -1,6 +1,6 @@
 import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
-import { BillsConfig, BillVersion } from '../types'
+import { BillArtCollection, BillsConfig, BillVersion } from '../types'
 
 // BNB Largest ID: 81
 // Polygon Largest ID: 109
@@ -1959,6 +1959,113 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.MATIC]: 1664969658 },
     initPrice: { [ChainId.MATIC]: 0.0015076537321486155 },
     soldOut: true,
+  },
+  // {
+  //   index: 983649,
+  //   contractAddress: {
+  //     [ChainId.MATIC]: '0xA293cAD7a7163bD8327737bd6dc2Bc66613f0FC8',
+  //   },
+  //   billType: 'liquidity',
+  //   billVersion: BillVersion.V2,
+  //   token: tokens.doubloons,
+  //   quoteToken: tokens.wmatic,
+  //   lpToken: tokens.maticDoubloons,
+  //   earnToken: tokens.doubloons,
+  //   billNnftAddress: {
+  //     [ChainId.MATIC]: '0xf63e25B5492A856189420724fe6f3573620966f3',
+  //   },
+  //   inactive: false,
+  //   projectLink: 'https://www.quickswap.app/',
+  //   twitter: 'https://twitter.com/',
+  //   audit: 'Add audit link',
+  //   initTime: { [ChainId.MATIC]: 1690087710 },
+  //   initPrice: { [ChainId.MATIC]: 0.00123 },
+  // },
+  // {
+  //   index: 16543,
+  //   contractAddress: {
+  //     [ChainId.MATIC]: '0x6D17B2013728D7900f131816013ade561e4D6150',
+  //   },
+  //   billType: 'liquidity',
+  //   billVersion: BillVersion.V2,
+  //   token: tokens.quick,
+  //   quoteToken: tokens.wmatic,
+  //   lpToken: tokens.quickMatic,
+  //   earnToken: tokens.quicktest,
+  //   billNnftAddress: {
+  //     [ChainId.MATIC]: '0xf63e25B5492A856189420724fe6f3573620966f3',
+  //   },
+  //   inactive: false,
+  //   projectLink: 'https://www.quickswap.app/',
+  //   twitter: 'https://twitter.com/',
+  //   audit: 'Add audit link',
+  //   initTime: { [ChainId.MATIC]: 1690287710 },
+  //   initPrice: { [ChainId.MATIC]: 0.00123 },
+  // },
+  {
+    index: 16564,
+    contractAddress: {
+      [ChainId.BSC]: '0xf8e9b4020294bb1dfC737461A703876aa9B71F6d',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.cgpt,
+    quoteToken: tokens.busd,
+    lpToken: tokens.cgptBusd_PCS,
+    earnToken: tokens.cgpt,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://ChainGPT.org/',
+    twitter: 'http://twitter.com/chain_gpt',
+    audit: 'https://www.certik.com/projects/chaingpt/',
+    initTime: { [ChainId.BSC]: 1690287710 },
+    initPrice: { [ChainId.BSC]: 0.00123 },
+    soldOut: false,
+  },
+  {
+    index: 16543,
+    contractAddress: {
+      [ChainId.MATIC]: '0xeb822b7c6f44e4FF701Be94A93aE8B7C2E0C8F47',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.quick,
+    quoteToken: tokens.wmatic,
+    lpToken: tokens.quickMatic,
+    earnToken: tokens.TTT,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0xa1c78af783fb9ea7be790cbbd01abff63beae769',
+    },
+    inactive: false,
+    projectLink: 'https://www.quickswap.app/',
+    twitter: 'https://twitter.com/',
+    audit: 'Add audit link',
+    initTime: { [ChainId.MATIC]: 1690287710 },
+    initPrice: { [ChainId.MATIC]: 0.00123 },
+    billArt: { collection: BillArtCollection.Quickswap_Collection1 },
+  },
+  {
+    index: 14001,
+    contractAddress: {
+      [ChainId.MATIC]: '0xbB8f6058A48e4C97c33458447dD1AB328798257e',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.eth,
+    quoteToken: tokens.sushi,
+    lpToken: tokens.steerSushiWeth,
+    earnToken: tokens.sushi,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x8F182b07e11119aFcA541aA62c9c2608CF5968DD',
+    },
+    inactive: false,
+    projectLink: 'https://www.sushi.com/',
+    twitter: 'https://twitter.com/',
+    audit: 'Add audit link',
+    initTime: { [ChainId.MATIC]: 1690287710 },
+    initPrice: { [ChainId.MATIC]: 0.00123 },
   },
 
   /*
