@@ -2800,6 +2800,22 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
   },
+  cgptBusd_PCS: {
+    symbol: 'CGPT-BUSD',
+    address: {
+      [ChainId.BSC]: '0xcFE847AAE922CBe3Dcbba61DBB1ed97D2124d322',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl: {
+      [ChainId.BSC]:
+        'https://pancakeswap.finance/v2/add/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56/0x9840652DC04fb9db2C43853633f0F62BE6f00f98',
+    },
+  },
   stlosTlos: {
     symbol: 'STLOS-TLOS',
     address: {

@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillsConfig, BillVersion } from '../types'
 
-// BNB Largest ID: 80
+// BNB Largest ID: 81
 // Polygon Largest ID: 109
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2003
@@ -116,6 +116,28 @@ const bills: BillsConfig[] = [
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1683313200 },
     initPrice: { [ChainId.BSC]: 0.0303088 },
+    soldOut: false,
+  },
+  {
+    index: 81,
+    contractAddress: {
+      [ChainId.BSC]: '0x1F13AC08BcD8E505A797A518627337eE8Ba2eEFE',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.cgpt,
+    quoteToken: tokens.busd,
+    lpToken: tokens.cgptBusd_PCS,
+    earnToken: tokens.cgpt,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://ChainGPT.org/',
+    twitter: 'http://twitter.com/chain_gpt',
+    audit: 'https://www.certik.com/projects/chaingpt/',
+    initTime: { [ChainId.BSC]: 1691596800 },
+    initPrice: { [ChainId.BSC]: 0.06186 },
     soldOut: false,
   },
   {
