@@ -114,6 +114,7 @@ export interface BillsConfig {
   billArt?: {
     collection: BillArtCollection // i.e. BillArtCollection.ApeSwap_Collection1
   }
+  showcaseToken?: Token
 }
 
 export enum VaultVersion {

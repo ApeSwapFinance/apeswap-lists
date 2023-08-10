@@ -803,7 +803,17 @@
     "initPrice": {
       "56": 0.0635458
     },
-    "soldOut": true
+    "soldOut": true,
+    "showcaseToken": {
+      "symbol": "NFAi",
+      "address": {
+        "56": "0x4c48A4D089D13cB24a8a250c7051E8a3f8687460"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    }
   },
   {
     "index": 75,
@@ -1297,7 +1307,19 @@
     "initPrice": {
       "56": 0.0846315
     },
-    "soldOut": true
+    "soldOut": true,
+    "showcaseToken": {
+      "symbol": "CGG",
+      "address": {
+        "56": "0x1613957159E9B0ac6c80e824F7Eea748a32a0AE2",
+        "137": "0x2Ab4f9aC80F33071211729e45Cfc346C1f8446d5"
+      },
+      "decimals": {
+        "56": 18,
+        "137": 18
+      },
+      "active": true
+    }
   },
   {
     "index": 64,
@@ -1644,7 +1666,19 @@
     "initPrice": {
       "56": 0.110177
     },
-    "soldOut": true
+    "soldOut": true,
+    "showcaseToken": {
+      "symbol": "CGG",
+      "address": {
+        "56": "0x1613957159E9B0ac6c80e824F7Eea748a32a0AE2",
+        "137": "0x2Ab4f9aC80F33071211729e45Cfc346C1f8446d5"
+      },
+      "decimals": {
+        "56": 18,
+        "137": 18
+      },
+      "active": true
+    }
   },
   {
     "index": 57,
@@ -5885,7 +5919,19 @@
     "initPrice": {
       "137": 0.085485
     },
-    "soldOut": true
+    "soldOut": true,
+    "showcaseToken": {
+      "symbol": "CGG",
+      "address": {
+        "56": "0x1613957159E9B0ac6c80e824F7Eea748a32a0AE2",
+        "137": "0x2Ab4f9aC80F33071211729e45Cfc346C1f8446d5"
+      },
+      "decimals": {
+        "56": 18,
+        "137": 18
+      },
+      "active": true
+    }
   },
   {
     "index": 107,
@@ -6163,7 +6209,19 @@
     "initPrice": {
       "137": 0.077899
     },
-    "soldOut": true
+    "soldOut": true,
+    "showcaseToken": {
+      "symbol": "CGG",
+      "address": {
+        "56": "0x1613957159E9B0ac6c80e824F7Eea748a32a0AE2",
+        "137": "0x2Ab4f9aC80F33071211729e45Cfc346C1f8446d5"
+      },
+      "decimals": {
+        "56": 18,
+        "137": 18
+      },
+      "active": true
+    }
   },
   {
     "index": 103,
