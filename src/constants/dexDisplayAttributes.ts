@@ -17,6 +17,10 @@ export const dexDisplayAttributes: Record<LiquidityDex, { icon: string; tag: str
     icon: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/QUICK.png',
     tag: 'QUICKSWAP LP',
   },
+  [LiquidityDex.Steer]: {
+    icon: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/SUSHI.svg',
+    tag: 'SUSHI STEER LP',
+  },
   [LiquidityDex.ApeSwapV3]: {
     icon: '',
     tag: '',

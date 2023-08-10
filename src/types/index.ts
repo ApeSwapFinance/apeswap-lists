@@ -30,6 +30,7 @@ export enum LiquidityDex {
   Algebra = 'Algebra',
   QuickswapV2 = 'QuickswapV2',
   UniswapV3 = 'UniswapV3',
+  Steer = 'Steer',
 }
 
 export enum ZapVersion {
@@ -46,6 +47,7 @@ export enum Protocols {
   V3 = 3,
   Algebra = 4,
   Gamma = 5,
+  Steer = 6,
 }
 
 export interface FarmStyles {

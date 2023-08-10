@@ -17,6 +17,10 @@ export const dexFactories: Partial<
       factory: '0x1097053Fd2ea711dad45caCcc45EfF7548fCB362',
       protocol: Protocols.V2,
     },
+    [LiquidityDex.Steer]: {
+      factory: '0xbACEB8eC6b9355Dfc0269C18bac9d6E2Bdc29C4F', //Sushi
+      protocol: Protocols.Steer,
+    },
   },
   [ChainId.BSC]: {
     [LiquidityDex.ApeSwapV2]: {
@@ -34,6 +38,10 @@ export const dexFactories: Partial<
     [LiquidityDex.Algebra]: {
       factory: '0x306F06C147f064A010530292A1EB6737c3e378e4', //Thena
       protocol: Protocols.Algebra,
+    },
+    [LiquidityDex.Steer]: {
+      factory: '0x126555dd55a39328F69400d6aE4F782Bd4C34ABb', //Sushi
+      protocol: Protocols.Steer,
     },
   },
   [ChainId.MATIC]: {
@@ -53,6 +61,10 @@ export const dexFactories: Partial<
       factory: '0x411b0facc3489691f28ad58c47006af5e3ab3a28', //Quickswap
       protocol: Protocols.Algebra,
     },
+    [LiquidityDex.Steer]: {
+      factory: '0x917933899c6a5F8E37F31E19f92CdBFF7e8FF0e2', //Sushi
+      protocol: Protocols.Steer,
+    },
   },
   [ChainId.ARBITRUM]: {
     [LiquidityDex.ApeSwapV2]: {
@@ -67,6 +79,10 @@ export const dexFactories: Partial<
       factory: '0x9C2ABD632771b433E5E7507BcaA41cA3b25D8544', //Zyberswap
       protocol: Protocols.Algebra,
     },
+    [LiquidityDex.Steer]: {
+      factory: '0x1af415a1EbA07a4986a52B6f2e7dE7003D82231e', //Sushi
+      protocol: Protocols.Steer,
+    },
   },
 }
 
@@ -74,20 +90,24 @@ export const defaultDexFactories: Partial<Record<ChainId, Partial<Record<Protoco
   [ChainId.MAINNET]: {
     [Protocols.V2]: dexFactories[ChainId.MAINNET]?.ApeSwapV2?.factory,
     [Protocols.V3]: dexFactories[ChainId.MAINNET]?.UniswapV3?.factory,
+    [Protocols.Steer]: dexFactories[ChainId.MAINNET]?.Steer?.factory,
   },
   [ChainId.BSC]: {
     [Protocols.V2]: dexFactories[ChainId.BSC]?.ApeSwapV2?.factory,
     [Protocols.V3]: dexFactories[ChainId.BSC]?.ApeSwapV3?.factory,
     [Protocols.Algebra]: dexFactories[ChainId.BSC]?.Algebra?.factory,
+    [Protocols.Steer]: dexFactories[ChainId.BSC]?.Steer?.factory,
   },
   [ChainId.MATIC]: {
     [Protocols.V2]: dexFactories[ChainId.MATIC]?.ApeSwapV2?.factory,
     [Protocols.V3]: dexFactories[ChainId.MATIC]?.UniswapV3?.factory,
     [Protocols.Algebra]: dexFactories[ChainId.MATIC]?.Algebra?.factory,
+    [Protocols.Steer]: dexFactories[ChainId.MATIC]?.Steer?.factory,
   },
   [ChainId.ARBITRUM]: {
     [Protocols.V2]: dexFactories[ChainId.ARBITRUM]?.ApeSwapV2?.factory,
     [Protocols.V3]: dexFactories[ChainId.ARBITRUM]?.UniswapV3?.factory,
     [Protocols.Algebra]: dexFactories[ChainId.ARBITRUM]?.Algebra?.factory,
+    [Protocols.Steer]: dexFactories[ChainId.ARBITRUM]?.Steer?.factory,
   },
 }
