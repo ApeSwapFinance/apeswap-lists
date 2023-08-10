@@ -249,6 +249,7 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.BSC]: 1687816800 },
     initPrice: { [ChainId.BSC]: 0.0635458 },
     soldOut: true,
+    showcaseToken: tokens.nfai,
   },
   {
     index: 75,
@@ -401,6 +402,7 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.BSC]: 1682590408 },
     initPrice: { [ChainId.BSC]: 0.0846315 },
     soldOut: true,
+    showcaseToken: tokens.cgg,
   },
   {
     index: 64,
@@ -512,6 +514,7 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.BSC]: 1678269604 },
     initPrice: { [ChainId.BSC]: 0.110177 },
     soldOut: true,
+    showcaseToken: tokens.cgg,
   },
   {
     index: 57,
@@ -1789,6 +1792,7 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.MATIC]: 1682590408 },
     initPrice: { [ChainId.MATIC]: 0.085485 },
     soldOut: true,
+    showcaseToken: tokens.cgg,
   },
   {
     index: 107,
@@ -1877,6 +1881,7 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.MATIC]: 1676626187 },
     initPrice: { [ChainId.MATIC]: 0.077899 },
     soldOut: true,
+    showcaseToken: tokens.cgg,
   },
   {
     index: 103,
