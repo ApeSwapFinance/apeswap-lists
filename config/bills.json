@@ -405,6 +405,144 @@
     "soldOut": false
   },
   {
+    "index": 81,
+    "contractAddress": {
+      "56": "0x1F13AC08BcD8E505A797A518627337eE8Ba2eEFE"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "CGPT",
+      "address": {
+        "56": "0x9840652DC04fb9db2C43853633f0F62BE6f00f98"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BUSD",
+      "address": {
+        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "CGPT-BUSD",
+      "address": {
+        "56": "0xcFE847AAE922CBe3Dcbba61DBB1ed97D2124d322"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "getLpUrl": {
+        "56": "https://pancakeswap.finance/v2/add/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56/0x9840652DC04fb9db2C43853633f0F62BE6f00f98"
+      }
+    },
+    "earnToken": {
+      "symbol": "CGPT",
+      "address": {
+        "56": "0x9840652DC04fb9db2C43853633f0F62BE6f00f98"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://ChainGPT.org/",
+    "twitter": "http://twitter.com/chain_gpt",
+    "audit": "https://www.certik.com/projects/chaingpt/",
+    "initTime": {
+      "56": 1691596800
+    },
+    "initPrice": {
+      "56": 0.06186
+    },
+    "soldOut": false
+  },
+  {
+    "index": 80,
+    "contractAddress": {
+      "56": "0xDB728D1503079B5313dD80257580fc5dC476AFd3"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "FURFI",
+      "address": {
+        "56": "0x6CFf19F714E9f0Ac62412555aa08f313fc343aE4"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "FURFI-BNB",
+      "address": {
+        "56": "0x4428AC6AD2Be88C59e811F8953dA9Dd603FC2fEA"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "FURFI",
+      "address": {
+        "56": "0x6CFf19F714E9f0Ac62412555aa08f313fc343aE4"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://furiofi.com/",
+    "twitter": "https://twitter.com/furiocrypto",
+    "audit": "https://solidity.finance/audits/Furio/",
+    "initTime": {
+      "56": 1691427600
+    },
+    "initPrice": {
+      "56": 4.85872
+    },
+    "soldOut": false
+  },
+  {
     "index": 79,
     "contractAddress": {
       "56": "0xbD1dcE65a58a533259c134a3476a97A627De5F1e"
@@ -665,7 +803,17 @@
     "initPrice": {
       "56": 0.0635458
     },
-    "soldOut": true
+    "soldOut": true,
+    "showcaseToken": {
+      "symbol": "NFAi",
+      "address": {
+        "56": "0x4c48A4D089D13cB24a8a250c7051E8a3f8687460"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    }
   },
   {
     "index": 75,
@@ -1159,7 +1307,19 @@
     "initPrice": {
       "56": 0.0846315
     },
-    "soldOut": true
+    "soldOut": true,
+    "showcaseToken": {
+      "symbol": "CGG",
+      "address": {
+        "56": "0x1613957159E9B0ac6c80e824F7Eea748a32a0AE2",
+        "137": "0x2Ab4f9aC80F33071211729e45Cfc346C1f8446d5"
+      },
+      "decimals": {
+        "56": 18,
+        "137": 18
+      },
+      "active": true
+    }
   },
   {
     "index": 64,
@@ -1506,7 +1666,19 @@
     "initPrice": {
       "56": 0.110177
     },
-    "soldOut": true
+    "soldOut": true,
+    "showcaseToken": {
+      "symbol": "CGG",
+      "address": {
+        "56": "0x1613957159E9B0ac6c80e824F7Eea748a32a0AE2",
+        "137": "0x2Ab4f9aC80F33071211729e45Cfc346C1f8446d5"
+      },
+      "decimals": {
+        "56": 18,
+        "137": 18
+      },
+      "active": true
+    }
   },
   {
     "index": 57,
@@ -5747,7 +5919,19 @@
     "initPrice": {
       "137": 0.085485
     },
-    "soldOut": true
+    "soldOut": true,
+    "showcaseToken": {
+      "symbol": "CGG",
+      "address": {
+        "56": "0x1613957159E9B0ac6c80e824F7Eea748a32a0AE2",
+        "137": "0x2Ab4f9aC80F33071211729e45Cfc346C1f8446d5"
+      },
+      "decimals": {
+        "56": 18,
+        "137": 18
+      },
+      "active": true
+    }
   },
   {
     "index": 107,
@@ -6025,7 +6209,19 @@
     "initPrice": {
       "137": 0.077899
     },
-    "soldOut": true
+    "soldOut": true,
+    "showcaseToken": {
+      "symbol": "CGG",
+      "address": {
+        "56": "0x1613957159E9B0ac6c80e824F7Eea748a32a0AE2",
+        "137": "0x2Ab4f9aC80F33071211729e45Cfc346C1f8446d5"
+      },
+      "decimals": {
+        "56": 18,
+        "137": 18
+      },
+      "active": true
+    }
   },
   {
     "index": 103,
