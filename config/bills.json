@@ -405,6 +405,85 @@
     "soldOut": false
   },
   {
+    "index": 82,
+    "contractAddress": {
+      "56": "0x8303dd7222b5c162C85351292b0ce26C221c4acD"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "BRG",
+      "address": {
+        "56": "0x6e4a971B81CA58045a2AA982EaA3d50C4Ac38F42"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "BRG-BNB",
+      "address": {
+        "56": "0xeb5fcb296e4c5305108e74658849cc5C2400bC0E"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "getLpUrl": {
+        "56": "https://pancakeswap.finance/v2/add/BNB/0x6e4a971B81CA58045a2AA982EaA3d50C4Ac38F42"
+      }
+    },
+    "earnToken": {
+      "symbol": "BRG",
+      "address": {
+        "56": "0x6e4a971B81CA58045a2AA982EaA3d50C4Ac38F42"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://bridge.link/",
+    "twitter": "https://twitter.com/bridge_oracle",
+    "audit": "https://www.certik.com/projects/bridge-oracle?utm_source=CMC&utm_campaign=AuditByCertiKLink",
+    "initTime": {
+      "56": 1692115200
+    },
+    "initPrice": {
+      "56": 0.000387
+    },
+    "soldOut": false
+  },
+  {
     "index": 81,
     "contractAddress": {
       "56": "0x1F13AC08BcD8E505A797A518627337eE8Ba2eEFE"
@@ -793,7 +872,7 @@
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
     },
-    "inactive": false,
+    "inactive": true,
     "projectLink": "https://legacy.apeswap.finance/nft",
     "twitter": "https://twitter.com/ApeSwapNFT",
     "audit": "https://paladinsec.co/projects/apeswap/",
@@ -937,7 +1016,7 @@
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
     },
-    "inactive": false,
+    "inactive": true,
     "projectLink": "https://www.noot.fun/",
     "twitter": "https://twitter.com/nootcoinbnb",
     "audit": "https://techright.io/audit/nootcoin/",
@@ -947,7 +1026,7 @@
     "initPrice": {
       "56": 8.72237e-9
     },
-    "soldOut": false
+    "soldOut": true
   },
   {
     "index": 67,
@@ -1510,7 +1589,7 @@
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
     },
-    "inactive": false,
+    "inactive": true,
     "projectLink": "https://cake.monster/",
     "twitter": "https://twitter.com/thecakemnstr",
     "audit": "https://solidity.finance/audits/CakeMonster/",
@@ -2271,7 +2350,7 @@
     "billNnftAddress": {
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
     },
-    "inactive": false,
+    "inactive": true,
     "projectLink": "https://liquidus.finance/",
     "twitter": "https://twitter.com/LiquidusFinance",
     "audit": "https://liquidus.finance/LiqTechRateAudit.pdf",
@@ -2338,7 +2417,7 @@
     "billNnftAddress": {
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
     },
-    "inactive": false,
+    "inactive": true,
     "projectLink": "https://cake.monster/",
     "twitter": "https://twitter.com/thecakemnstr",
     "audit": "https://solidity.finance/audits/CakeMonster/",
