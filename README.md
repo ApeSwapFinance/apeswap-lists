@@ -134,6 +134,8 @@ getLpUrl: {
 
 ## Bills/Bonds
 
+More information about bills can be found in [README-bills.md](./src/constants/bills/README-bills.md).
+
 This is the current interface for Bills
 
 ```js
