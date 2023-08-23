@@ -2348,7 +2348,7 @@ export const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.ARBITRUM]: '0x9Bd72c6c69cC314AdfF396cC2b34fF7e7fbd68ad',
     },
-    billType: 'reserve',
+    billType: 'liquidity',
     billVersion: BillVersion.V2,
     token: tokens.onyx,
     quoteToken: tokens.eth,
