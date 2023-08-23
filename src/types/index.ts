@@ -98,7 +98,7 @@ export interface BillsConfig {
   index: number
   contractAddress: Partial<Record<ChainId, string>>
   billVersion: BillVersion
-  billType: 'liquidity' | 'reserve' | 'launch'
+  billType: 'liquidity' | 'reserve'
   token: Token
   quoteToken: Token
   lpToken: Token
@@ -115,6 +115,14 @@ export interface BillsConfig {
     collection: BillArtCollection // i.e. BillArtCollection.ApeSwap_Collection1
   }
   showcaseToken?: Token
+}
+
+export interface BillsLaunchConfig extends Omit<BillsConfig, 'billType'> {
+  billType: 'launch'
+  // UTC Time in format: 2023-01-01T12:00:00.000Z'
+  launchTimeISOString: string
+  projectSummary: string
+  projectDescription: string
 }
 
 export enum VaultVersion {
