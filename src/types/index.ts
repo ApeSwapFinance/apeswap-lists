@@ -1,4 +1,5 @@
 import { ChainId } from '@ape.swap/sdk'
+export * from '../constants/bills/types'
 
 export enum QuoteToken {
   'BNB' = 'BNB',
@@ -73,56 +74,6 @@ export interface MasterChef {
   address: Partial<Record<ChainId, string>>
   rewardsPerBlock: Partial<Record<ChainId, string>>
   rewardToken: Token
-}
-
-export enum BillVersion {
-  V1 = 'V1',
-  V2 = 'V2',
-}
-
-/**
- * This enum defines the art collection used to generate the art for a bill (bond).
- *
- * NOTE: Collections start at 1. The collection number provides a method to make new releases around
- * the same theme or project.
- */
-export enum BillArtCollection {
-  ApeSwap_Collection1 = 'ApeSwap_Collection1',
-  Quickswap_Collection1 = 'Quickswap_Collection1',
-}
-
-export const defaultBillArtCollection = BillArtCollection.ApeSwap_Collection1
-
-// Start of list types
-export interface BillsConfig {
-  index: number
-  contractAddress: Partial<Record<ChainId, string>>
-  billVersion: BillVersion
-  billType: 'liquidity' | 'reserve'
-  token: Token
-  quoteToken: Token
-  lpToken: Token
-  earnToken: Token
-  billNnftAddress: Partial<Record<ChainId, string>>
-  inactive?: boolean
-  projectLink?: string
-  twitter?: string
-  initTime?: Partial<Record<ChainId, number>>
-  initPrice?: Partial<Record<ChainId, number>>
-  audit?: string
-  soldOut?: boolean
-  billArt?: {
-    collection: BillArtCollection // i.e. BillArtCollection.ApeSwap_Collection1
-  }
-  showcaseToken?: Token
-}
-
-export interface BillsLaunchConfig extends Omit<BillsConfig, 'billType'> {
-  billType: 'launch'
-  // UTC Time in format: 2023-01-01T12:00:00.000Z'
-  launchTimeISOString: string
-  projectSummary: string
-  projectDescription: string
 }
 
 export enum VaultVersion {

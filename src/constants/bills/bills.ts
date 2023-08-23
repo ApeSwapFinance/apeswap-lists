@@ -1,6 +1,6 @@
 import { ChainId } from '@ape.swap/sdk'
 import tokens from '../tokens'
-import { BillsConfig, BillVersion } from '../../types'
+import { BillsConfig, BillVersion } from './types'
 
 // BNB Largest ID: 82
 // Polygon Largest ID: 109
@@ -2348,7 +2348,7 @@ export const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.ARBITRUM]: '0x9Bd72c6c69cC314AdfF396cC2b34fF7e7fbd68ad',
     },
-    billType: 'liquidity',
+    billType: 'reserve',
     billVersion: BillVersion.V2,
     token: tokens.onyx,
     quoteToken: tokens.eth,
