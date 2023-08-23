@@ -1943,17 +1943,6 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
-  plt: {
-    symbol: 'PLT',
-    address: {
-      [ChainId.BSC]: '0x631C2f0EdABaC799f07550aEE4fF0Bf7fd35212B',
-    },
-    decimals: { [ChainId.BSC]: 18 },
-    liquidityDex: {
-      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
-    },
-    active: true,
-  },
   cgg: {
     symbol: 'CGG',
     address: {
@@ -2851,21 +2840,6 @@ const tokens: Record<string, Token> = {
     },
     getLpUrl: {
       [ChainId.BSC]: 'https://pancakeswap.finance/v2/add/BNB/0x6e4a971B81CA58045a2AA982EaA3d50C4Ac38F42',
-    },
-  },
-  pltBnb_PCS: {
-    symbol: 'PLT-BNB',
-    address: {
-      [ChainId.BSC]: '0x4786eeef4c750158a73218459BFc07a75c89EDC0',
-    },
-    decimals: { [ChainId.BSC]: 18 },
-    active: true,
-    lpToken: true,
-    liquidityDex: {
-      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
-    },
-    getLpUrl: {
-      [ChainId.BSC]: 'https://pancakeswap.finance/v2/add/BNB/0x631C2f0EdABaC799f07550aEE4fF0Bf7fd35212B',
     },
   },
   stlosTlos: {
