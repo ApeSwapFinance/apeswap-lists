@@ -1,4 +1,4 @@
-export { default as bills } from './bills'
+export * from './bills/'
 export { default as farms } from './farms'
 export { default as jungleFarms } from './jungleFarms'
 export { default as tokens } from './tokens'

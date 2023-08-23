@@ -1,13 +1,13 @@
 import { ChainId } from '@ape.swap/sdk'
-import tokens from './tokens'
-import { BillsConfig, BillVersion } from '../types'
+import tokens from '../tokens'
+import { BillsConfig, BillVersion } from '../../types'
 
 // BNB Largest ID: 82
 // Polygon Largest ID: 109
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2003
 
-const bills: BillsConfig[] = [
+export const bills: BillsConfig[] = [
   {
     index: 62,
     contractAddress: {
@@ -2366,5 +2366,3 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
 ]
-
-export default bills
