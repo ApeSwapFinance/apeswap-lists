@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillsConfig, BillVersion } from '../types'
 
-// BNB Largest ID: 83
+// BNB Largest ID: 84
 // Polygon Largest ID: 109
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2003
@@ -116,6 +116,28 @@ const bills: BillsConfig[] = [
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1683313200 },
     initPrice: { [ChainId.BSC]: 0.0303088 },
+    soldOut: false,
+  },
+  {
+    index: 84,
+    contractAddress: {
+      [ChainId.BSC]: '0xb96D4ef47d9989e68798c3e5Bf641e8028E60c32',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.cgv,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.cgvBnb_PCS,
+    earnToken: tokens.cgv,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://www.cogitoprotocol.com/',
+    twitter: 'https://twitter.com/CogitoProtocol',
+    audit: 'https://wp.hacken.io/wp-content/uploads/2023/05/Cogito_SC-Audit-Report_11_05_2023_SA-1337-1.pdf',
+    initTime: { [ChainId.BSC]: 0.0262588 },
+    initPrice: { [ChainId.BSC]: 1693411200 },
     soldOut: false,
   },
   {
