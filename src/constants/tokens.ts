@@ -2086,6 +2086,9 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: LiquidityDex.QuickswapV2,
     },
   },
+  /**
+   * GAMMA LPs
+   */
   quickMatic: {
     symbol: 'aWMATIC-QUICK',
     address: {
@@ -2103,6 +2106,43 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: 'https://app.gamma.xyz/vault/qi/polygon/details/wmatic-quick-narrow',
     },
   },
+  gammWbtcUsdcNarrow: {
+    symbol: 'aWBTC-USDC',
+    address: {
+      [ChainId.MATIC]: '0xE40a5aa22CBCcc8165aedd86f6d03fC5F551c3C6',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.Algebra,
+    },
+    getLpUrl: {
+      [ChainId.MATIC]: 'https://app.gamma.xyz/vault/qi/polygon/details/wbtc-usdc-narrow',
+    },
+  },
+  gammaUsdcWethNarrow: {
+    symbol: 'aUSDC-WETH',
+    address: {
+      [ChainId.MATIC]: '0x3Cc20A6795c4b57d9817399F68E83e71C8626580',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.Algebra,
+    },
+    getLpUrl: {
+      [ChainId.MATIC]: 'https://app.gamma.xyz/vault/qi/polygon/details/usdc-weth-narrow',
+    },
+  },
+  /**
+   * PSC LPs
+   */
   pcsBnbUsdt: {
     symbol: 'BNB-USDT',
     address: {
