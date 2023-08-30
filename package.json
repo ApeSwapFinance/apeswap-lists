@@ -1,6 +1,6 @@
 {
   "name": "@ape.swap/apeswap-lists",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "publishConfig": {
@@ -28,6 +28,7 @@
     "legacy-build": "rimraf ./config && mkdir config && run-func dist/apeswap-lists.cjs.development.js buildLegacyConfig && yarn run format:write"
   },
   "dependencies": {
+    "@ape.swap/apeswap-lists": "file:.yalc/@ape.swap/apeswap-lists",
     "@ape.swap/sdk": "4.4.0",
     "bignumber.js": "^9.0.2",
     "ethers": "^5.6.9",

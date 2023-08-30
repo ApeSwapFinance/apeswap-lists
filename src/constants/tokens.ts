@@ -1954,6 +1954,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  cgv: {
+    symbol: 'CGV',
+    address: {
+      [ChainId.BSC]: '0x1bDaF9ddD7658d8049391971d1fd48c0484F66EC',
+    },
+    decimals: { [ChainId.BSC]: 6 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
   cgg: {
     symbol: 'CGG',
     address: {
@@ -2866,6 +2877,21 @@ const tokens: Record<string, Token> = {
     },
     getLpUrl: {
       [ChainId.BSC]: 'https://pancakeswap.finance/v2/add/BNB/0x631C2f0EdABaC799f07550aEE4fF0Bf7fd35212B',
+    },
+  },
+  cgvBnb_PCS: {
+    symbol: 'CGV-BNB',
+    address: {
+      [ChainId.BSC]: '0xFd22bc3F3b467F72B87146Ef87863C7766789c51',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl: {
+      [ChainId.BSC]: 'https://pancakeswap.finance/v2/add/BNB/0x1bDaF9ddD7658d8049391971d1fd48c0484F66EC',
     },
   },
   stlosTlos: {
