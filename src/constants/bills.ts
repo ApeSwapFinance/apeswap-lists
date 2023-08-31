@@ -2047,6 +2047,28 @@ const bills: BillsConfig[] = [
     billArt: { collection: BillArtCollection.Quickswap_Collection1 },
   },
   {
+    index: 16546,
+    contractAddress: {
+      [ChainId.MATIC]: '0xaFfa2F9b3CF2Cc213cbd2BEb21adf5fdE35ece15',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.eth,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.aUSDCWETH,
+    earnToken: tokens.QAT,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x8F182b07e11119aFcA541aA62c9c2608CF5968DD',
+    },
+    inactive: false,
+    projectLink: 'https://www.quickswap.app/',
+    twitter: 'https://twitter.com/',
+    audit: 'Add audit link',
+    initTime: { [ChainId.MATIC]: 1690287710 },
+    initPrice: { [ChainId.MATIC]: 0.00123 },
+    billArt: { collection: BillArtCollection.Quickswap_Collection1 },
+  },
+  {
     index: 14001,
     contractAddress: {
       [ChainId.MATIC]: '0xbB8f6058A48e4C97c33458447dD1AB328798257e',

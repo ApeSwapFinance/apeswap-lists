@@ -2099,10 +2099,40 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: LiquidityDex.QuickswapV2,
     },
   },
+  QAT: {
+    symbol: 'QAT',
+    address: {
+      [ChainId.MATIC]: '0x45024014A6977E7A252C15fB8d7fC74e02b01813',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.Algebra,
+    },
+  },
   quickMatic: {
     symbol: 'aWMATIC-QUICK',
     address: {
       [ChainId.MATIC]: '0x7f09bD2801A7b795dF29C273C4afbB0Ff15E2D63',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.Algebra,
+    },
+    getLpUrl: {
+      [ChainId.MATIC]: 'https://app.gamma.xyz/vault/qi/polygon/details/wmatic-quick-narrow',
+    },
+  },
+  aUSDCWETH: {
+    symbol: 'aUSDC-WETH',
+    address: {
+      [ChainId.MATIC]: '0x3Cc20A6795c4b57d9817399F68E83e71C8626580',
     },
     decimals: {
       [ChainId.MATIC]: 18,
