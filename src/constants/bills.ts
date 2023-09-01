@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillsConfig, BillVersion } from '../types'
 
-// BNB Largest ID: 85
+// BNB Largest ID: 86
 // Polygon Largest ID: 109
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2003
@@ -116,6 +116,28 @@ const bills: BillsConfig[] = [
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1683313200 },
     initPrice: { [ChainId.BSC]: 0.0303088 },
+    soldOut: false,
+  },
+  {
+    index: 86,
+    contractAddress: {
+      [ChainId.BSC]: '0xdE766645C9b24e87165107714c88400FedA269A3',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.aitech,
+    quoteToken: tokens.busd,
+    lpToken: tokens.aitechBusd_PCS,
+    earnToken: tokens.aitech,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://ai-tech.io/',
+    twitter: 'https://twitter.com/AITECHio',
+    audit: 'https://skynet.certik.com/projects/solidus-ai-tech',
+    initTime: { [ChainId.BSC]: 0.0370027 },
+    initPrice: { [ChainId.BSC]: 1693584000 },
     soldOut: false,
   },
   {

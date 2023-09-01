@@ -1976,6 +1976,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  aitech: {
+    symbol: 'AITECH',
+    address: {
+      [ChainId.BSC]: '0x2d060ef4d6bf7f9e5edde373ab735513c0e4f944',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
   cgg: {
     symbol: 'CGG',
     address: {
@@ -2919,6 +2930,22 @@ const tokens: Record<string, Token> = {
     getLpUrl: {
       [ChainId.BSC]:
         'https://pancakeswap.finance/v2/add/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56/0x16faF9DAa401AA42506AF503Aa3d80B871c467A3',
+    },
+  },
+  aitechBusd_PCS: {
+    symbol: 'AITECH-BUSD',
+    address: {
+      [ChainId.BSC]: '0xd419500f094434ddb13060FFE2Bf240aBedB3F65',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl: {
+      [ChainId.BSC]:
+        'https://pancakeswap.finance/v2/add/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56/0x2D060Ef4d6BF7f9e5edDe373Ab735513c0e4F944',
     },
   },
   stlosTlos: {
