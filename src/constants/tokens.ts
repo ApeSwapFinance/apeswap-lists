@@ -1987,6 +1987,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  mfps: {
+    symbol: 'MFPS',
+    address: {
+      [ChainId.BSC]: '0x37407D1CAbC422155A148bc7A3a0587C64225ea2',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
   cgg: {
     symbol: 'CGG',
     address: {
@@ -2946,6 +2957,21 @@ const tokens: Record<string, Token> = {
     getLpUrl: {
       [ChainId.BSC]:
         'https://pancakeswap.finance/v2/add/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56/0x2D060Ef4d6BF7f9e5edDe373Ab735513c0e4F944',
+    },
+  },
+  mfpsBnb_PCS: {
+    symbol: 'MFPS-BNB',
+    address: {
+      [ChainId.BSC]: '0x73190102Ef0e1588fEAFd22D8917C602f07EaAFa',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl: {
+      [ChainId.BSC]: 'https://pancakeswap.finance/v2/add/BNB/0x37407D1CAbC422155A148bc7A3a0587C64225ea2',
     },
   },
   stlosTlos: {
