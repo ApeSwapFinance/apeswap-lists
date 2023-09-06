@@ -1998,6 +1998,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  apex: {
+    symbol: 'APEX',
+    address: {
+      [ChainId.BSC]: '0x5829e758859b74426B0b2447E82E19AD8e68E87a',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
   cgg: {
     symbol: 'CGG',
     address: {
@@ -2972,6 +2983,21 @@ const tokens: Record<string, Token> = {
     },
     getLpUrl: {
       [ChainId.BSC]: 'https://pancakeswap.finance/v2/add/BNB/0x37407D1CAbC422155A148bc7A3a0587C64225ea2',
+    },
+  },
+  apexBnb_PCS: {
+    symbol: 'APEX-BNB',
+    address: {
+      [ChainId.BSC]: '0x7A0f0f9D51110a6eEAd04E245c272ED98AC567f8',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl: {
+      [ChainId.BSC]: 'https://pancakeswap.finance/v2/add/BNB/0x5829e758859b74426B0b2447E82E19AD8e68E87a',
     },
   },
   stlosTlos: {
