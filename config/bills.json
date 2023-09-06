@@ -6570,7 +6570,8 @@
     },
     "billArt": {
       "collection": "Quickswap_Collection1"
-    }
+    },
+    "bondPartner": "QuickSwap"
   },
   {
     "index": 16546,
@@ -6658,7 +6659,8 @@
     },
     "billArt": {
       "collection": "Quickswap_Collection1"
-    }
+    },
+    "bondPartner": "QuickSwap"
   },
   {
     "index": 14001,

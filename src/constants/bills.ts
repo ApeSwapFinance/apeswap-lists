@@ -2045,6 +2045,7 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.MATIC]: 1690287710 },
     initPrice: { [ChainId.MATIC]: 0.00123 },
     billArt: { collection: BillArtCollection.Quickswap_Collection1 },
+    bondPartner: 'QuickSwap',
   },
   {
     index: 16546,
@@ -2067,6 +2068,7 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.MATIC]: 1690287710 },
     initPrice: { [ChainId.MATIC]: 0.00123 },
     billArt: { collection: BillArtCollection.Quickswap_Collection1 },
+    bondPartner: 'QuickSwap',
   },
   {
     index: 14001,

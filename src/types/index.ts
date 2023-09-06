@@ -116,6 +116,7 @@ export interface BillsConfig {
   billArt?: {
     collection: BillArtCollection // i.e. BillArtCollection.ApeSwap_Collection1
   }
+  bondPartner?: string
 }
 
 export enum VaultVersion {
