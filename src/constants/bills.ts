@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillsConfig, BillVersion } from '../types'
 
-// BNB Largest ID: 87
+// BNB Largest ID: 88
 // Polygon Largest ID: 109
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2003
@@ -116,6 +116,28 @@ const bills: BillsConfig[] = [
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1683313200 },
     initPrice: { [ChainId.BSC]: 0.0303088 },
+    soldOut: false,
+  },
+  {
+    index: 88,
+    contractAddress: {
+      [ChainId.BSC]: '0x80AA174d1F0BfDBfE83Cc827F6cC896C14c3AF97',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.apex,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.apexBnb_PCS,
+    earnToken: tokens.apex,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://apexcoin.app/',
+    twitter: 'https://twitter.com/apexcoin__',
+    audit: 'https://github.com/AnalytixAudit/Solidity/blob/main/20230822_AnalytixAudit_ApexCoin_ApeX_Audit.pdf',
+    initTime: { [ChainId.BSC]: 1694026800 },
+    initPrice: { [ChainId.BSC]: 0.231136 },
     soldOut: false,
   },
   {

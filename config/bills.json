@@ -405,6 +405,85 @@
     "soldOut": false
   },
   {
+    "index": 88,
+    "contractAddress": {
+      "56": "0x80AA174d1F0BfDBfE83Cc827F6cC896C14c3AF97"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "APEX",
+      "address": {
+        "56": "0x5829e758859b74426B0b2447E82E19AD8e68E87a"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "APEX-BNB",
+      "address": {
+        "56": "0x7A0f0f9D51110a6eEAd04E245c272ED98AC567f8"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "getLpUrl": {
+        "56": "https://pancakeswap.finance/v2/add/BNB/0x5829e758859b74426B0b2447E82E19AD8e68E87a"
+      }
+    },
+    "earnToken": {
+      "symbol": "APEX",
+      "address": {
+        "56": "0x5829e758859b74426B0b2447E82E19AD8e68E87a"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://apexcoin.app/",
+    "twitter": "https://twitter.com/apexcoin__",
+    "audit": "https://github.com/AnalytixAudit/Solidity/blob/main/20230822_AnalytixAudit_ApexCoin_ApeX_Audit.pdf",
+    "initTime": {
+      "56": 1694026800
+    },
+    "initPrice": {
+      "56": 0.231136
+    },
+    "soldOut": false
+  },
+  {
     "index": 87,
     "contractAddress": {
       "56": "0x29F7e97388985e26B178B4da3B5431477B6f533b"
