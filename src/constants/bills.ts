@@ -309,7 +309,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
+    inactive: true,
     projectLink: 'https://furiofi.com/',
     twitter: 'https://twitter.com/furiocrypto',
     audit: 'https://solidity.finance/audits/Furio/',
