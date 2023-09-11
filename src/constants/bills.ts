@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillsConfig, BillVersion } from '../types'
 
-// BNB Largest ID: 88
+// BNB Largest ID: 89
 // Polygon Largest ID: 109
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2003
@@ -116,6 +116,28 @@ const bills: BillsConfig[] = [
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1683313200 },
     initPrice: { [ChainId.BSC]: 0.0303088 },
+    soldOut: false,
+  },
+  {
+    index: 89,
+    contractAddress: {
+      [ChainId.BSC]: '0xa82d7116128173F87Db5aDd4e12ebB26bd773527',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.gymnet,
+    quoteToken: tokens.busd,
+    lpToken: tokens.gymnetBusd_PCS,
+    earnToken: tokens.gymnet,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://gymnetwork.io/',
+    twitter: 'https://twitter.com/GymNet_Official',
+    audit: 'https://skynet.certik.com/projects/gym-network?utm_source=CMC&utm_campaign=AuditByCertiKLink',
+    initTime: { [ChainId.BSC]: 1694448000 },
+    initPrice: { [ChainId.BSC]: 0.0234876697262449 },
     soldOut: false,
   },
   {
@@ -2446,7 +2468,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
     },
-    inactive: false,
+    inactive: true,
     projectLink: 'https://www.cruize.finance/',
     twitter: 'https://twitter.com/CruizeFinance',
     audit: 'https://docs.cruize.finance/technical-details/audits',

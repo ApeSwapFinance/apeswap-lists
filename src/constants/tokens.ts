@@ -2009,6 +2009,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  gymnet: {
+    symbol: 'GYMNET',
+    address: {
+      [ChainId.BSC]: '0x0012365F0a1E5F30a5046c680DCB21D07b15FcF7',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
   cgg: {
     symbol: 'CGG',
     address: {
@@ -2998,6 +3009,22 @@ const tokens: Record<string, Token> = {
     },
     getLpUrl: {
       [ChainId.BSC]: 'https://pancakeswap.finance/v2/add/BNB/0x5829e758859b74426B0b2447E82E19AD8e68E87a',
+    },
+  },
+  gymnetBusd_PCS: {
+    symbol: 'GYMNET-BUSD',
+    address: {
+      [ChainId.BSC]: '0xCFFD8B6F876CD9E0e054BBAf024aF3D99101b9f1',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl: {
+      [ChainId.BSC]:
+        'https://pancakeswap.finance/v2/add/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56/0x0012365F0a1E5F30a5046c680DCB21D07b15FcF7',
     },
   },
   stlosTlos: {
