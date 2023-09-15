@@ -116,6 +116,9 @@ export interface BillsConfig {
   }
   showcaseToken?: Token
   bondPartner?: string
+  bannerURL?: string
+  shortDescription?: string
+  fullDescription?: string
 }
 
 export enum VaultVersion {

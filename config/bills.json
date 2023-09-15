@@ -714,7 +714,10 @@
     "initPrice": {
       "56": 1693584000
     },
-    "soldOut": false
+    "soldOut": false,
+    "bannerURL": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1694711638/aitech_xeshl8.png",
+    "shortDescription": "This is just a short description used to make a first deployment",
+    "fullDescription": "This is me trying to make a longer description to create a first deployment, I would appreciate if we can decide what text should we put here. Maybe we can get in contact with the project for that? Maybe we can ask ChatGPT? I do not know. What I do know for certain is that I will prepare some mate right now"
   },
   {
     "index": 85,
