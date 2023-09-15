@@ -119,6 +119,7 @@ export interface BillsConfig {
   bannerURL?: string
   shortDescription?: string
   fullDescription?: string
+  apeswapNote?: string
 }
 
 export enum VaultVersion {
