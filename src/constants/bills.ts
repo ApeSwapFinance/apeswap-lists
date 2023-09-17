@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillsConfig, BillVersion } from '../types'
 
-// BNB Largest ID: 89
+// BNB Largest ID: 90
 // Polygon Largest ID: 109
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2003
@@ -116,6 +116,28 @@ const bills: BillsConfig[] = [
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1683313200 },
     initPrice: { [ChainId.BSC]: 0.0303088 },
+    soldOut: false,
+  },
+  {
+    index: 90,
+    contractAddress: {
+      [ChainId.BSC]: '0x15fa262615A03Be08deb2CDA7333569D65a7e11D',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.lgc,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xce112E14e23B7700Ad4915290EA24575F01609fa',
+    },
+    inactive: false,
+    projectLink: 'http://livegreencoin.com/',
+    twitter: 'https://twitter.com/LiveGreenCoin1',
+    audit: 'https://www.certik.com/projects/livegreencoin',
+    initTime: { [ChainId.BSC]: 1695052800 },
+    initPrice: { [ChainId.BSC]: 0.00166422608726567 },
     soldOut: false,
   },
   {

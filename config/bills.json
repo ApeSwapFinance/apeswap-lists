@@ -405,6 +405,86 @@
     "soldOut": false
   },
   {
+    "index": 90,
+    "contractAddress": {
+      "56": "0x15fa262615A03Be08deb2CDA7333569D65a7e11D"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "42161": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "42161": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "42161": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "LGC",
+      "address": {
+        "56": "0x3496212eC43Cc49F5151ec4405efD4975e036f89"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xce112E14e23B7700Ad4915290EA24575F01609fa"
+    },
+    "inactive": false,
+    "projectLink": "http://livegreencoin.com/",
+    "twitter": "https://twitter.com/LiveGreenCoin1",
+    "audit": "https://www.certik.com/projects/livegreencoin",
+    "initTime": {
+      "56": 1695052800
+    },
+    "initPrice": {
+      "56": 0.00166422608726567
+    },
+    "soldOut": false
+  },
+  {
     "index": 89,
     "contractAddress": {
       "56": "0xa82d7116128173F87Db5aDd4e12ebB26bd773527"
