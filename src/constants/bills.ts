@@ -227,6 +227,13 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.BSC]: 0.0370027 },
     initPrice: { [ChainId.BSC]: 1693584000 },
     soldOut: false,
+    bannerURL: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1694711638/aitech_xeshl8.png',
+    shortDescription:
+      'We are paving the way for a more convenient and secure future by providing accessible Artificial Intelligence-as-a-Service (AIAAS), Blockchain-as-a-Service (BAAS), high-performance computing power (HPC), and an artificial intelligence marketplace. All of these cutting-edge technologies are powered by our native token, AITECH.',
+    fullDescription:
+      'We are paving the way for a more convenient and secure future by providing accessible Artificial Intelligence-as-a-Service (AIAAS), Blockchain-as-a-Service (BAAS), high-performance computing power (HPC), and an artificial intelligence marketplace. All of these cutting-edge technologies are powered by our native token, AITECH.',
+    apeswapNote:
+      "AITech stands at the crossroads of AI and blockchain, striving to merge two pioneering technologies that are reshaping the digital landscape, with the aim of propelling them further into the mainstream. This is an exciting opportunity to support a project that's not just following the industry's pulse but aiming to set it.",
   },
   {
     index: 85,
