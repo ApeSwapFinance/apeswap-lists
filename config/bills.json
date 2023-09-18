@@ -407,7 +407,7 @@
   {
     "index": 90,
     "contractAddress": {
-      "56": "0x15fa262615A03Be08deb2CDA7333569D65a7e11D"
+      "56": "0xD83873BC5e762a2ff6f35C0Bb5eE687142dfDa8D"
     },
     "billType": "reserve",
     "billVersion": "V2",
@@ -470,7 +470,7 @@
       "active": true
     },
     "billNnftAddress": {
-      "56": "0xce112E14e23B7700Ad4915290EA24575F01609fa"
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
     },
     "inactive": false,
     "projectLink": "http://livegreencoin.com/",
@@ -480,7 +480,7 @@
       "56": 1695052800
     },
     "initPrice": {
-      "56": 0.00166422608726567
+      "56": 0.0016842400986945
     },
     "soldOut": false
   },
