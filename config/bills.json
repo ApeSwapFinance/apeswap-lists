@@ -405,6 +405,86 @@
     "soldOut": false
   },
   {
+    "index": 90,
+    "contractAddress": {
+      "56": "0xD83873BC5e762a2ff6f35C0Bb5eE687142dfDa8D"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "42161": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "42161": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "42161": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "LGC",
+      "address": {
+        "56": "0x3496212eC43Cc49F5151ec4405efD4975e036f89"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "http://livegreencoin.com/",
+    "twitter": "https://twitter.com/LiveGreenCoin1",
+    "audit": "https://www.certik.com/projects/livegreencoin",
+    "initTime": {
+      "56": 1695052800
+    },
+    "initPrice": {
+      "56": 0.0016842400986945
+    },
+    "soldOut": false
+  },
+  {
     "index": 89,
     "contractAddress": {
       "56": "0xa82d7116128173F87Db5aDd4e12ebB26bd773527"
@@ -714,7 +794,11 @@
     "initPrice": {
       "56": 1693584000
     },
-    "soldOut": false
+    "soldOut": false,
+    "bannerURL": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1694711638/aitech_xeshl8.png",
+    "shortDescription": "We are paving the way for a more convenient and secure future by providing accessible Artificial Intelligence-as-a-Service (AIAAS), Blockchain-as-a-Service (BAAS), high-performance computing power (HPC), and an artificial intelligence marketplace. All of these cutting-edge technologies are powered by our native token, AITECH.",
+    "fullDescription": "We are paving the way for a more convenient and secure future by providing accessible Artificial Intelligence-as-a-Service (AIAAS), Blockchain-as-a-Service (BAAS), high-performance computing power (HPC), and an artificial intelligence marketplace. All of these cutting-edge technologies are powered by our native token, AITECH.",
+    "apeswapNote": "AITech stands at the crossroads of AI and blockchain, striving to merge two pioneering technologies that are reshaping the digital landscape, with the aim of propelling them further into the mainstream. This is an exciting opportunity to support a project that's not just following the industry's pulse but aiming to set it."
   },
   {
     "index": 85,

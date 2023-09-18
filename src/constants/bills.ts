@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillsConfig, BillVersion } from '../types'
 
-// BNB Largest ID: 89
+// BNB Largest ID: 90
 // Polygon Largest ID: 109
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2003
@@ -119,6 +119,28 @@ const bills: BillsConfig[] = [
     soldOut: false,
   },
   {
+    index: 90,
+    contractAddress: {
+      [ChainId.BSC]: '0xD83873BC5e762a2ff6f35C0Bb5eE687142dfDa8D',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.lgc,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'http://livegreencoin.com/',
+    twitter: 'https://twitter.com/LiveGreenCoin1',
+    audit: 'https://www.certik.com/projects/livegreencoin',
+    initTime: { [ChainId.BSC]: 1695052800 },
+    initPrice: { [ChainId.BSC]: 0.0016842400986945 },
+    soldOut: false,
+  },
+  {
     index: 89,
     contractAddress: {
       [ChainId.BSC]: '0xa82d7116128173F87Db5aDd4e12ebB26bd773527',
@@ -205,6 +227,13 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.BSC]: 0.0370027 },
     initPrice: { [ChainId.BSC]: 1693584000 },
     soldOut: false,
+    bannerURL: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1694711638/aitech_xeshl8.png',
+    shortDescription:
+      'We are paving the way for a more convenient and secure future by providing accessible Artificial Intelligence-as-a-Service (AIAAS), Blockchain-as-a-Service (BAAS), high-performance computing power (HPC), and an artificial intelligence marketplace. All of these cutting-edge technologies are powered by our native token, AITECH.',
+    fullDescription:
+      'We are paving the way for a more convenient and secure future by providing accessible Artificial Intelligence-as-a-Service (AIAAS), Blockchain-as-a-Service (BAAS), high-performance computing power (HPC), and an artificial intelligence marketplace. All of these cutting-edge technologies are powered by our native token, AITECH.',
+    apeswapNote:
+      "AITech stands at the crossroads of AI and blockchain, striving to merge two pioneering technologies that are reshaping the digital landscape, with the aim of propelling them further into the mainstream. This is an exciting opportunity to support a project that's not just following the industry's pulse but aiming to set it.",
   },
   {
     index: 85,
