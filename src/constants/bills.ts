@@ -119,6 +119,30 @@ const bills: BillsConfig[] = [
     soldOut: false,
   },
   {
+    index: 69696969, //MIGRATION TEST BOND
+    contractAddress: {
+      [ChainId.BSC]: '0x99B401e93e6e05EE247B7AE24dAe34F18FabFDca',
+    },
+    billType: 'migration',
+    billVersion: BillVersion.V2,
+    token: tokens.banana,
+    quoteToken: tokens.banana,
+    lpToken: tokens.banana,
+    earnToken: tokens.grngr,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xce112E14e23B7700Ad4915290EA24575F01609fa',
+    },
+    inactive: false,
+    projectLink: 'http://livegreencoin.com/',
+    twitter: 'https://twitter.com/LiveGreenCoin1',
+    audit: 'https://www.certik.com/projects/livegreencoin',
+    initTime: { [ChainId.BSC]: 1695125700 },
+    initPrice: { [ChainId.BSC]: 0.19543 },
+    soldOut: false,
+    vestingTerm: 10368000,
+    multiplier: 1.118154762,
+  },
+  {
     index: 90,
     contractAddress: {
       [ChainId.BSC]: '0xD83873BC5e762a2ff6f35C0Bb5eE687142dfDa8D',

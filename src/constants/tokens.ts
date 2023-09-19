@@ -1943,6 +1943,18 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  grngr: {
+    //TEST TOKEN
+    symbol: 'GRNGR',
+    address: {
+      [ChainId.BSC]: '0xf4cd3a31Ab4718e08a77C2E9E3f4Ba0372806DFe',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
   plt: {
     symbol: 'PLT',
     address: {

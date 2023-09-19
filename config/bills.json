@@ -405,6 +405,97 @@
     "soldOut": false
   },
   {
+    "index": 69696969,
+    "contractAddress": {
+      "56": "0x99B401e93e6e05EE247B7AE24dAe34F18FabFDca"
+    },
+    "billType": "migration",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "BANANA",
+      "address": {
+        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
+        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BANANA",
+      "address": {
+        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
+        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "BANANA",
+      "address": {
+        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
+        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "GRNGR",
+      "address": {
+        "56": "0xf4cd3a31Ab4718e08a77C2E9E3f4Ba0372806DFe"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xce112E14e23B7700Ad4915290EA24575F01609fa"
+    },
+    "inactive": false,
+    "projectLink": "http://livegreencoin.com/",
+    "twitter": "https://twitter.com/LiveGreenCoin1",
+    "audit": "https://www.certik.com/projects/livegreencoin",
+    "initTime": {
+      "56": 1695125700
+    },
+    "initPrice": {
+      "56": 0.19543
+    },
+    "soldOut": false,
+    "vestingTerm": 10368000,
+    "multiplier": 1.118154762
+  },
+  {
     "index": 90,
     "contractAddress": {
       "56": "0xD83873BC5e762a2ff6f35C0Bb5eE687142dfDa8D"
