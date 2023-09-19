@@ -474,7 +474,7 @@
         "56": 18
       },
       "liquidityDex": {
-        "56": "PancakeSwapV2"
+        "56": "ApeSwapV2"
       },
       "active": true
     },
@@ -493,7 +493,10 @@
     },
     "soldOut": false,
     "vestingTerm": 10368000,
-    "multiplier": 1.118154762
+    "multiplier": 1.118154762,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    }
   },
   {
     "index": 90,

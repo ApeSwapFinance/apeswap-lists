@@ -1,6 +1,6 @@
 import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
-import { BillsConfig, BillVersion } from '../types'
+import { BillArtCollection, BillsConfig, BillVersion } from '../types'
 
 // BNB Largest ID: 90
 // Polygon Largest ID: 109
@@ -141,6 +141,9 @@ const bills: BillsConfig[] = [
     soldOut: false,
     vestingTerm: 10368000,
     multiplier: 1.118154762,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
   },
   {
     index: 90,
