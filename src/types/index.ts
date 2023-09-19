@@ -115,7 +115,8 @@ export interface BillsConfig {
     collection: BillArtCollection // i.e. BillArtCollection.ApeSwap_Collection1
   }
   showcaseToken?: Token
-  bondPartner?: string
+  bondPartner?: string // * Used for partners to filter bonds
+  // * These are used for the bond highlight page
   bannerURL?: string
   shortDescription?: string
   fullDescription?: string
