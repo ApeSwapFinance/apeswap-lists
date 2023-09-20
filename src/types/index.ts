@@ -89,6 +89,7 @@ export enum BillVersion {
 export enum BillArtCollection {
   ApeSwap_Collection1 = 'ApeSwap_Collection1',
   Quickswap_Collection1 = 'Quickswap_Collection1',
+  ApeBond_Collection1 = 'ApeBond_Collection1',
 }
 
 export const defaultBillArtCollection = BillArtCollection.ApeSwap_Collection1
@@ -98,7 +99,7 @@ export interface BillsConfig {
   index: number
   contractAddress: Partial<Record<ChainId, string>>
   billVersion: BillVersion
-  billType: 'liquidity' | 'reserve' | 'launch'
+  billType: 'liquidity' | 'reserve' | 'launch' | 'migration'
   token: Token
   quoteToken: Token
   lpToken: Token
@@ -115,11 +116,15 @@ export interface BillsConfig {
     collection: BillArtCollection // i.e. BillArtCollection.ApeSwap_Collection1
   }
   showcaseToken?: Token
-  bondPartner?: string
+  bondPartner?: string // * Used for partners to filter bonds
+  // * These are used for the bond highlight page
   bannerURL?: string
   shortDescription?: string
   fullDescription?: string
   apeswapNote?: string
+  // * These are used for the bond migration page
+  vestingTerm?: number
+  multiplier?: number
 }
 
 export enum VaultVersion {

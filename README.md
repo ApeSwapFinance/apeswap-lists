@@ -2,13 +2,13 @@
 
 ## How to Manage this Repo
 
-When you would like to make an edit to one of the lists in this repo, please only edit the `.ts` files. This is for better type control and to reduce the chance of errors. To apply the changes run `yarn build` & `yarn legacy-build` in the console.
+When you would like to make an edit to one of the lists in this repo, please only edit the `.ts` files. This is for better type control and to reduce the chance of errors. To apply the changes run `yarn build` (which also includes `yarn legacy-build`) in the console.
 
 For example, to edit a farm:
 
 1. Open the `constants/farms.ts` file
 2. Make the edits & save
-3. Run `yarn build` and `yarn legacy-build` to apply these changes to the corresponding JSON files
+3. Run `yarn build` to apply these changes to the corresponding JSON files
 4. Run `yarn test` to make sure the JSON files are valid
 5. Commit to the Github repo
 
@@ -35,14 +35,14 @@ Using Yarn:
 
 1. `yarn` (Install latest deps)
 2. _Update lists as needed_
-3. `yarn build && yarn legacy-build`
+3. `yarn build`
 4. `npm link`
 5. Go to frontend repo locally `npm link @ape.swap/apeswap-lists`
 
 ### Updating while linked
 
 1. _Update lists as needed_
-2. `yarn build && yarn legacy-build`
+2. `yarn build`
 3. The changes should then be reflected on the local linked repo.
 
 ### Unlink
@@ -53,13 +53,28 @@ Using Yarn:
 
 ## Publishing Test Packages
 
-Sometimes a package needs to be deployed with test tokens. We suggest using a `--tag=testX` tag scheme
+Sometimes a package needs to be deployed with test tokens. We suggest using a `--tag test` tag scheme
 to denote this packages have test tokens included in them
 
 ```bash
-yarn build
-npm publish --access=public --tag=test0
+# no need to run yarn build as it's included in the prepublishOnly script
+yarn publish --tag test
 ```
+
+`yarn publish` command will prompt you for a new version. We suggest using `X.X.X-test.0` version scheme.
+It will automatically bump the version for you and create a commit with the new version.
+
+## Publishing Alpha Packages
+
+We could apply the same logic to deploy alpha packages with `--tag alpha` and so on.
+
+```bash
+# no need to run yarn build as it's included in the prepublishOnly script
+yarn publish --tag alpha
+```
+
+`yarn publish` command will prompt you for a new version. We suggest using `X.X.X-alpha.0` version scheme.
+It will automatically bump the version for you and create a commit with the new version.
 
 # Config
 
@@ -67,7 +82,7 @@ npm publish --access=public --tag=test0
 
 This is the current interface of Token
 
-```js
+```ts
 export interface Token {
   symbol: string
   address: Partial<Record<ChainId, string>>
@@ -89,7 +104,7 @@ This property was added because of us introducing different non ApeLP bonds. For
 This is a way of telling FE that the bond is a non ApeLP and the pricing of the LP should be retrieved differently.
 Besides that we also have different zapping strategies so this also makes sure the right zap strategy is used.
 
-```js
+```ts
 liquidityDex: {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
       [ChainId.Polygon]: LiquidityDex.Algebra,
@@ -103,7 +118,7 @@ For some non ApeLP bonds we don't have a working zap strategy and we should send
 Only used and a must when zap version for liquidityDex is `ZapVersion.External`.
 Check [dexToZapMapping.ts](./src/constants/dexToZapMapping.ts) for what strategy is used for what LiquidityDex.
 
-```js
+```ts
 getLpUrl: {
       [ChainId.BSC]: "https://www.{url}.com",
       [ChainId.Polygon]: "https://www.{url}.com",
@@ -112,7 +127,7 @@ getLpUrl: {
 
 ### Example config
 
-```js
+```ts
   pcsBnbUsdt: {
     symbol: 'BNB-USDT',
     address: {
@@ -136,7 +151,7 @@ getLpUrl: {
 
 This is the current interface for Bills
 
-```js
+```ts
 export interface BillsConfig {
   index: number
   contractAddress: Partial<Record<ChainId, string>>
@@ -166,20 +181,22 @@ With more recently added property `billArt`
 
 This property was added to be able to support multiple bond arts. Currently the supported bill arts are ApeSwap and Quickswap with default ApeSwap if nothing is specified.
 
-```
+```ts
 export enum BillArtCollection {
   ApeSwap_Collection1 = 'ApeSwap_Collection1',
   Quickswap_Collection1 = 'Quickswap_Collection1',
 }
 ```
 
-```
-billArt: { collection: BillArtCollection.Quickswap_Collection1 }
+```ts
+billArt: {
+  collection: BillArtCollection.Quickswap_Collection1
+}
 ```
 
 # Example
 
-```
+```ts
   {
     index: 16543,
     contractAddress: {
