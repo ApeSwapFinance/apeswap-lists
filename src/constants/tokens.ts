@@ -1930,6 +1930,9 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: '0x9840652DC04fb9db2C43853633f0F62BE6f00f98',
     },
     decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
     active: true,
   },
   brg: {
