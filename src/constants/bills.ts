@@ -148,7 +148,7 @@ const bills: BillsConfig[] = [
   {
     index: 69696970, //MIGRATION TEST BOND GNANA
     contractAddress: {
-      [ChainId.BSC]: '0x049e0Cc58ECd3E99e2936e53de65eAf89817C4C3',
+      [ChainId.BSC]: '0x0F45692605c49af599427eDE3ed345D973AD4ED8',
     },
     billType: 'migration',
     billVersion: BillVersion.V2,
