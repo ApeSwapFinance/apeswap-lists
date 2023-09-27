@@ -15,7 +15,7 @@ export const dexToZapMapping: Record<LiquidityDex, Partial<Record<ChainId, ZapVe
     [ChainId.MATIC]: ZapVersion.External,
   },
   [LiquidityDex.PancakeSwapV2]: {
-    [ChainId.BSC]: ZapVersion.External,
+    [ChainId.BSC]: ZapVersion.Wido,
     [ChainId.MAINNET]: ZapVersion.External,
   },
   [LiquidityDex.QuickswapV2]: {
