@@ -1,8 +1,8 @@
 import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
-import { BillArtCollection, BillsConfig, BillVersion } from '../types'
+import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 90
+// BNB Largest ID: 91
 // Polygon Largest ID: 109
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2003
@@ -119,6 +119,28 @@ const bills: BillsConfig[] = [
     soldOut: false,
   },
   {
+    index: 91,
+    contractAddress: {
+      [ChainId.BSC]: '0xA2585dbF7aAcAB105542752B03fd49AB542556B8',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.cgpt,
+    quoteToken: tokens.busd,
+    lpToken: tokens.cgptBusd_PCS,
+    earnToken: tokens.cgpt,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://ChainGPT.org/',
+    twitter: 'http://twitter.com/chain_gpt',
+    audit: 'https://www.certik.com/projects/chaingpt/',
+    initTime: { [ChainId.BSC]: 1695225600 },
+    initPrice: { [ChainId.BSC]: 0.0421361050407099 },
+    soldOut: false,
+  },
+  {
     index: 69696969, //MIGRATION TEST BOND BANANA
     contractAddress: {
       [ChainId.BSC]: '0x2A497f6b6965EadBD65318DAA2e13ab0900E68de',
@@ -139,7 +161,7 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.BSC]: 1695125700 },
     initPrice: { [ChainId.BSC]: 0.19543 },
     soldOut: false,
-    vestingTerm: 10368000,
+    vestingTerm: MigrationVestingTerms['60d'],
     multiplier: 1.118154762,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -166,7 +188,7 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.BSC]: 1695125700 },
     initPrice: { [ChainId.BSC]: 0.19543 },
     soldOut: false,
-    vestingTerm: 10368000,
+    vestingTerm: MigrationVestingTerms['60d'],
     multiplier: 1.597720158,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -392,13 +414,13 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
+    inactive: true,
     projectLink: 'https://ChainGPT.org/',
     twitter: 'http://twitter.com/chain_gpt',
     audit: 'https://www.certik.com/projects/chaingpt/',
     initTime: { [ChainId.BSC]: 1691596800 },
     initPrice: { [ChainId.BSC]: 0.06186 },
-    soldOut: false,
+    soldOut: true,
   },
   {
     index: 80,
@@ -480,13 +502,13 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
+    inactive: true,
     projectLink: 'https://ChainGPT.org/',
     twitter: 'http://twitter.com/chain_gpt',
     audit: 'https://www.certik.com/projects/chaingpt/',
     initTime: { [ChainId.BSC]: 1688400000 },
     initPrice: { [ChainId.BSC]: 0.08075 },
-    soldOut: false,
+    soldOut: true,
   },
   {
     index: 76,

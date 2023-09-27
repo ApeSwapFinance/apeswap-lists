@@ -1930,6 +1930,9 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: '0x9840652DC04fb9db2C43853633f0F62BE6f00f98',
     },
     decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
     active: true,
   },
   brg: {
@@ -2989,8 +2992,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
     },
     getLpUrl: {
-      [ChainId.BSC]:
-        'https://pancakeswap.finance/v2/add/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56/0x2D060Ef4d6BF7f9e5edDe373Ab735513c0e4F944',
+      [ChainId.BSC]: 'https://apeswap.finance/bond-highlight',
     },
   },
   mfpsBnb_PCS: {

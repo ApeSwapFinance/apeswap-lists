@@ -94,6 +94,13 @@ export enum BillArtCollection {
 
 export const defaultBillArtCollection = BillArtCollection.ApeSwap_Collection1
 
+export enum MigrationVestingTerms {
+  ['60d'] = 5184000,
+  ['120d'] = 10368000,
+  ['180d'] = 15552000,
+  ['360d'] = 31104000,
+}
+
 // Start of list types
 export interface BillsConfig {
   index: number

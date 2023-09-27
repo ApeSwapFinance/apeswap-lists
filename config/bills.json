@@ -405,6 +405,83 @@
     "soldOut": false
   },
   {
+    "index": 91,
+    "contractAddress": {
+      "56": "0xA2585dbF7aAcAB105542752B03fd49AB542556B8"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "CGPT",
+      "address": {
+        "56": "0x9840652DC04fb9db2C43853633f0F62BE6f00f98"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BUSD",
+      "address": {
+        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "CGPT-BUSD",
+      "address": {
+        "56": "0xcFE847AAE922CBe3Dcbba61DBB1ed97D2124d322"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "getLpUrl": {
+        "56": "https://pancakeswap.finance/v2/add/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56/0x9840652DC04fb9db2C43853633f0F62BE6f00f98"
+      }
+    },
+    "earnToken": {
+      "symbol": "CGPT",
+      "address": {
+        "56": "0x9840652DC04fb9db2C43853633f0F62BE6f00f98"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://ChainGPT.org/",
+    "twitter": "http://twitter.com/chain_gpt",
+    "audit": "https://www.certik.com/projects/chaingpt/",
+    "initTime": {
+      "56": 1695225600
+    },
+    "initPrice": {
+      "56": 0.0421361050407099
+    },
+    "soldOut": false
+  },
+  {
     "index": 69696969,
     "contractAddress": {
       "56": "0x2A497f6b6965EadBD65318DAA2e13ab0900E68de"
@@ -492,7 +569,7 @@
       "56": 0.19543
     },
     "soldOut": false,
-    "vestingTerm": 10368000,
+    "vestingTerm": 5184000,
     "multiplier": 1.118154762,
     "billArt": {
       "collection": "ApeBond_Collection1"
@@ -568,7 +645,7 @@
       "56": 0.19543
     },
     "soldOut": false,
-    "vestingTerm": 10368000,
+    "vestingTerm": 5184000,
     "multiplier": 1.597720158,
     "billArt": {
       "collection": "ApeBond_Collection1"
@@ -935,7 +1012,7 @@
         "56": "PancakeSwapV2"
       },
       "getLpUrl": {
-        "56": "https://pancakeswap.finance/v2/add/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56/0x2D060Ef4d6BF7f9e5edDe373Ab735513c0e4F944"
+        "56": "https://apeswap.finance/bond-highlight"
       }
     },
     "earnToken": {
@@ -1299,6 +1376,9 @@
       "decimals": {
         "56": 18
       },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
       "active": true
     },
     "quoteToken": {
@@ -1338,12 +1418,15 @@
       "decimals": {
         "56": 18
       },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
       "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
     },
-    "inactive": false,
+    "inactive": true,
     "projectLink": "https://ChainGPT.org/",
     "twitter": "http://twitter.com/chain_gpt",
     "audit": "https://www.certik.com/projects/chaingpt/",
@@ -1353,7 +1436,7 @@
     "initPrice": {
       "56": 0.06186
     },
-    "soldOut": false
+    "soldOut": true
   },
   {
     "index": 80,
@@ -1568,6 +1651,9 @@
       "decimals": {
         "56": 18
       },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
       "active": true
     },
     "quoteToken": {
@@ -1601,12 +1687,15 @@
       "decimals": {
         "56": 18
       },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
       "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
     },
-    "inactive": false,
+    "inactive": true,
     "projectLink": "https://ChainGPT.org/",
     "twitter": "http://twitter.com/chain_gpt",
     "audit": "https://www.certik.com/projects/chaingpt/",
@@ -1616,7 +1705,7 @@
     "initPrice": {
       "56": 0.08075
     },
-    "soldOut": false
+    "soldOut": true
   },
   {
     "index": 76,
