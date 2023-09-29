@@ -139,7 +139,7 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.BSC]: 1695225600 },
     initPrice: { [ChainId.BSC]: 0.0421361050407099 },
     soldOut: false,
-    bannerURL: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1695916548/bond-highlights/gpt-banner.png',
+    bannerURL: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1696008239/bond-highlights/gpt-banner.png',
     showcaseToken: tokens.cgpt,
     shortDescription:
       'ChainGPT 🤖 #1 ranked AI infrastructure for Blockchain, Crypto & Web3. 🔥 Unleash the power of Blockchain AI with ChainGPT. Powered by $CGPT token',
