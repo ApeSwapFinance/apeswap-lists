@@ -479,7 +479,36 @@
     "initPrice": {
       "56": 0.0421361050407099
     },
-    "soldOut": false
+    "soldOut": false,
+    "bannerURL": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1695916548/bond-highlights/gpt-banner.png",
+    "showcaseToken": {
+      "symbol": "CGPT",
+      "address": {
+        "56": "0x9840652DC04fb9db2C43853633f0F62BE6f00f98"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "shortDescription": "ChainGPT 🤖 #1 ranked AI infrastructure for Blockchain, Crypto & Web3. 🔥 Unleash the power of Blockchain AI with ChainGPT. Powered by $CGPT token",
+    "fullDescription": "Unleash the power of Blockchain AI with ChainGPT. An advanced AI model explicitly designed for Blockchain Technology and Crypto-related topics. It uses the latest algorithms and high-speed computing capabilities to address challenging issues in the Blockchain and Crypto space. The ecosystem is backed and powered by the $CGPT token, which enables access to ChainGPT's premium AI tools, Governance, Launchpad, Staking, and more.",
+    "apeswapNote": "With fresh partnerships materializing almost every week and a recent win with the BNB Chain ecosystem catalyst awards, ChainGPT is rapidly gaining momentum in the crypto realm. As it emerges as a standout in the AI Blockchain sector, ChainGPT is undeniably cementing itself as a project with an enormous potential. Their Liquidity Bond is the perfect opportunity to join its enthusiastic community!",
+    "partnersURLS": [
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1696005003/bond-highlights/bnbchain",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1696005160/bond-highlights/certik",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1696005284/bond-highlights/tron",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1696005229/bond-highlights/decrypt"
+    ],
+    "featuredURLS": [
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1696004963/bond-highlights/bitcoincom",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1696005124/bond-highlights/bscnews",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1696004886/bond-highlights/beincrypto",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1696005194/bond-highlights/cryptodaily"
+    ]
   },
   {
     "index": 90,
@@ -873,9 +902,34 @@
     },
     "soldOut": false,
     "bannerURL": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1694711638/aitech_xeshl8.png",
-    "shortDescription": "We are paving the way for a more convenient and secure future by providing accessible Artificial Intelligence-as-a-Service (AIAAS), Blockchain-as-a-Service (BAAS), high-performance computing power (HPC), and an artificial intelligence marketplace. All of these cutting-edge technologies are powered by our native token, AITECH.",
+    "showcaseToken": {
+      "symbol": "AITECH",
+      "address": {
+        "56": "0x2d060ef4d6bf7f9e5edde373ab735513c0e4f944"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "shortDescription": "Empowering the future of AI | HPC data center | IaaS platform | AIaaS | BaaS | AI Marketplace | Powered by $AITECH token | Incubated by @Chain_GPT & @decubate",
     "fullDescription": "We are paving the way for a more convenient and secure future by providing accessible Artificial Intelligence-as-a-Service (AIAAS), Blockchain-as-a-Service (BAAS), high-performance computing power (HPC), and an artificial intelligence marketplace. All of these cutting-edge technologies are powered by our native token, AITECH.",
-    "apeswapNote": "AITech stands at the crossroads of AI and blockchain, striving to merge two pioneering technologies that are reshaping the digital landscape, with the aim of propelling them further into the mainstream. This is an exciting opportunity to support a project that's not just following the industry's pulse but aiming to set it."
+    "apeswapNote": "AITech stands at the crossroads of AI and blockchain, striving to merge two pioneering technologies that are reshaping the digital landscape, with the aim of propelling them further into the mainstream. This is an exciting opportunity to support a project that's not just following the industry's pulse but aiming to set it.",
+    "partnersURLS": [
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1695915128/bond-highlights/bsc",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1695915051/bond-highlights/decubate",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1695914862/bond-highlights/gpt",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1695914651/bond-highlights/nvidia"
+    ],
+    "featuredURLS": [
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1695915218/bond-highlights/btc",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1695914953/bond-highlights/forbes",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1695914131/bond-highlights/yahoo",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1695914539/bond-highlights/product-hunt"
+    ]
   },
   {
     "index": 85,
