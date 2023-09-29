@@ -123,7 +123,7 @@ export interface BillsConfig {
   fullDescription?: string
   apeswapNote?: string
   featuredURLS?: string[] // add in frontend '-light|dark.png'
-  partnersURLS?: string[]
+  partnersURLS?: string[] // add in frontend '-light|dark.png'
   // * These are used for the bond migration page
   vestingTerm?: number
   multiplier?: number
