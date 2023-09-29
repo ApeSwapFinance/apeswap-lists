@@ -1958,6 +1958,18 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  tapet: {
+    //TEST TOKEN
+    symbol: 'tAPET',
+    address: {
+      [ChainId.BSC]: '0xD1448A95d38e756466193380c9E32892845EA159',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.ApeSwapV2,
+    },
+    active: true,
+  },
   plt: {
     symbol: 'PLT',
     address: {
