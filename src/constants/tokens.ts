@@ -2012,6 +2012,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  palm: {
+    symbol: 'PALM',
+    address: {
+      [ChainId.BSC]: '0x29745314B4D294B7C77cDB411B8AAa95923aae38',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
   gymnet: {
     symbol: 'GYMNET',
     address: {
@@ -2980,7 +2991,8 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
     },
     getLpUrl: {
-      [ChainId.BSC]: 'https://apeswap.finance/bond-highlight',
+      [ChainId.BSC]:
+        'https://pancakeswap.finance/v2/add/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56/0x2D060Ef4d6BF7f9e5edDe373Ab735513c0e4F944',
     },
   },
   mfpsBnb_PCS: {
@@ -3011,6 +3023,21 @@ const tokens: Record<string, Token> = {
     },
     getLpUrl: {
       [ChainId.BSC]: 'https://pancakeswap.finance/v2/add/BNB/0x5829e758859b74426B0b2447E82E19AD8e68E87a',
+    },
+  },
+  palmBnb_PCS: {
+    symbol: 'PALM-BNB',
+    address: {
+      [ChainId.BSC]: '0x044066f6Ce410407CC738d0feb5E40b5ab69e83a',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl: {
+      [ChainId.BSC]: 'https://pancakeswap.finance/v2/add/BNB/0x29745314B4D294B7C77cDB411B8AAa95923aae38',
     },
   },
   gymnetBusd_PCS: {
