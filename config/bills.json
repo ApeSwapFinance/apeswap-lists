@@ -484,7 +484,7 @@
   {
     "index": 69696969,
     "contractAddress": {
-      "56": "0xa3a8c617474D4c77b1A48ef629e98dE22457097E"
+      "56": "0x7DA26121Bd48399a928CF8055b03BF16a16c7951"
     },
     "billType": "migration",
     "billVersion": "V2",
@@ -578,7 +578,7 @@
   {
     "index": 69696970,
     "contractAddress": {
-      "56": "0x34bDF35aFCf25b13B2df96868Ac2E5272df65949"
+      "56": "0x1AD4927dF791F5c41F9831ee73fD9a6Aee04f64a"
     },
     "billType": "migration",
     "billVersion": "V2",
@@ -672,7 +672,7 @@
   {
     "index": 69696971,
     "contractAddress": {
-      "56": "0x17240f028f691d52835bdaB65D81aF9c634dca1B"
+      "56": "0x4Ba547e15a3Dd593F75411F736a3238833b0fCa7"
     },
     "billType": "migration",
     "billVersion": "V2",
@@ -766,7 +766,7 @@
   {
     "index": 69696972,
     "contractAddress": {
-      "56": "0x89934045E0Af792529f2ac9BEB6737e1dD4dE50D"
+      "56": "0xa911E90F17723Edf35903a7CDC5693F7886EeFa5"
     },
     "billType": "migration",
     "billVersion": "V2",
@@ -860,7 +860,7 @@
   {
     "index": 69696973,
     "contractAddress": {
-      "56": "0x7086b050774D544186152A5b51b0eCBE397634EE"
+      "56": "0xd8caddB70B708A508DE821a08C418807A95387e8"
     },
     "billType": "migration",
     "billVersion": "V2",
@@ -936,7 +936,7 @@
   {
     "index": 69696974,
     "contractAddress": {
-      "56": "0x348B97025433900985031Eabb9799B7Ce8503Eaa"
+      "56": "0xFc70Ef413C4FEA0a74c3e2A499cd097cC615777c"
     },
     "billType": "migration",
     "billVersion": "V2",
@@ -1012,7 +1012,7 @@
   {
     "index": 69696975,
     "contractAddress": {
-      "56": "0xF0B7457b5EBDed6A92480AB316b92c2bC9A75F92"
+      "56": "0xb87f54a8D7085DA042FDfAcEE56e0e5f7cbCe36C"
     },
     "billType": "migration",
     "billVersion": "V2",
@@ -1088,7 +1088,7 @@
   {
     "index": 69696976,
     "contractAddress": {
-      "56": "0x5fC58bc624b18586453f78c133079da04DCF454B"
+      "56": "0x44FF9E94610d6c5f2AD368aE8fD165db8688c86E"
     },
     "billType": "migration",
     "billVersion": "V2",

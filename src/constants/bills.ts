@@ -143,7 +143,7 @@ const bills: BillsConfig[] = [
   {
     index: 69696969, //MIGRATION TEST BOND BANANA 2 MONTH
     contractAddress: {
-      [ChainId.BSC]: '0xa3a8c617474D4c77b1A48ef629e98dE22457097E',
+      [ChainId.BSC]: '0x7DA26121Bd48399a928CF8055b03BF16a16c7951',
     },
     billType: 'migration',
     billVersion: BillVersion.V2,
@@ -170,7 +170,7 @@ const bills: BillsConfig[] = [
   {
     index: 69696970, //MIGRATION TEST BOND BANANA 4 MONTH
     contractAddress: {
-      [ChainId.BSC]: '0x34bDF35aFCf25b13B2df96868Ac2E5272df65949',
+      [ChainId.BSC]: '0x1AD4927dF791F5c41F9831ee73fD9a6Aee04f64a',
     },
     billType: 'migration',
     billVersion: BillVersion.V2,
@@ -197,7 +197,7 @@ const bills: BillsConfig[] = [
   {
     index: 69696971, //MIGRATION TEST BOND BANANA 6 MONTH
     contractAddress: {
-      [ChainId.BSC]: '0x17240f028f691d52835bdaB65D81aF9c634dca1B',
+      [ChainId.BSC]: '0x4Ba547e15a3Dd593F75411F736a3238833b0fCa7',
     },
     billType: 'migration',
     billVersion: BillVersion.V2,
@@ -224,7 +224,7 @@ const bills: BillsConfig[] = [
   {
     index: 69696972, //MIGRATION TEST BOND BANANA 12 MONTH
     contractAddress: {
-      [ChainId.BSC]: '0x89934045E0Af792529f2ac9BEB6737e1dD4dE50D',
+      [ChainId.BSC]: '0xa911E90F17723Edf35903a7CDC5693F7886EeFa5',
     },
     billType: 'migration',
     billVersion: BillVersion.V2,
@@ -251,7 +251,7 @@ const bills: BillsConfig[] = [
   {
     index: 69696973, //MIGRATION TEST BOND GNANA 2 MONTH
     contractAddress: {
-      [ChainId.BSC]: '0x7086b050774D544186152A5b51b0eCBE397634EE',
+      [ChainId.BSC]: '0xd8caddB70B708A508DE821a08C418807A95387e8',
     },
     billType: 'migration',
     billVersion: BillVersion.V2,
@@ -278,7 +278,7 @@ const bills: BillsConfig[] = [
   {
     index: 69696974, //MIGRATION TEST BOND GNANA 4 MONTH
     contractAddress: {
-      [ChainId.BSC]: '0x348B97025433900985031Eabb9799B7Ce8503Eaa',
+      [ChainId.BSC]: '0xFc70Ef413C4FEA0a74c3e2A499cd097cC615777c',
     },
     billType: 'migration',
     billVersion: BillVersion.V2,
@@ -305,7 +305,7 @@ const bills: BillsConfig[] = [
   {
     index: 69696975, //MIGRATION TEST BOND GNANA 6 MONTH
     contractAddress: {
-      [ChainId.BSC]: '0xF0B7457b5EBDed6A92480AB316b92c2bC9A75F92',
+      [ChainId.BSC]: '0xb87f54a8D7085DA042FDfAcEE56e0e5f7cbCe36C',
     },
     billType: 'migration',
     billVersion: BillVersion.V2,
@@ -332,7 +332,7 @@ const bills: BillsConfig[] = [
   {
     index: 69696976, //MIGRATION TEST BOND GNANA 12 MONTH
     contractAddress: {
-      [ChainId.BSC]: '0x5fC58bc624b18586453f78c133079da04DCF454B',
+      [ChainId.BSC]: '0x44FF9E94610d6c5f2AD368aE8fD165db8688c86E',
     },
     billType: 'migration',
     billVersion: BillVersion.V2,
