@@ -818,10 +818,10 @@
     "twitter": "https://twitter.com/MetaPlayersGG",
     "audit": "https://mfps.gg/assets/docs/mfps_audit.pdf",
     "initTime": {
-      "56": 0.00190751
+      "56": 1693846800
     },
     "initPrice": {
-      "56": 1693846800
+      "56": 0.00190751
     },
     "soldOut": false
   },
@@ -895,10 +895,10 @@
     "twitter": "https://twitter.com/AITECHio",
     "audit": "https://skynet.certik.com/projects/solidus-ai-tech",
     "initTime": {
-      "56": 0.0370027
+      "56": 1693584000
     },
     "initPrice": {
-      "56": 1693584000
+      "56": 0.0370027
     },
     "soldOut": false,
     "bannerURL": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1694711638/aitech_xeshl8.png",
@@ -1001,10 +1001,10 @@
     "twitter": "https://twitter.com/DexCheck_io",
     "audit": "https://skynet.certik.com/projects/dexcheck",
     "initTime": {
-      "56": 0.0224148
+      "56": 1693497600
     },
     "initPrice": {
-      "56": 1693497600
+      "56": 0.0224148
     },
     "soldOut": false
   },
@@ -1080,10 +1080,10 @@
     "twitter": "https://twitter.com/CogitoProtocol",
     "audit": "https://wp.hacken.io/wp-content/uploads/2023/05/Cogito_SC-Audit-Report_11_05_2023_SA-1337-1.pdf",
     "initTime": {
-      "56": 0.0262588
+      "56": 1693411200
     },
     "initPrice": {
-      "56": 1693411200
+      "56": 0.0262588
     },
     "soldOut": false
   },
