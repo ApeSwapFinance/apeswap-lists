@@ -405,6 +405,85 @@
     "soldOut": false
   },
   {
+    "index": 92,
+    "contractAddress": {
+      "56": "0xC7d087fBF15584E38a3d7d9448E4FEEe9E12c3DB"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "PALM",
+      "address": {
+        "56": "0x29745314B4D294B7C77cDB411B8AAa95923aae38"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "PALM-BNB",
+      "address": {
+        "56": "0x044066f6Ce410407CC738d0feb5E40b5ab69e83a"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "getLpUrl": {
+        "56": "https://pancakeswap.finance/v2/add/BNB/0x29745314B4D294B7C77cDB411B8AAa95923aae38"
+      }
+    },
+    "earnToken": {
+      "symbol": "PALM",
+      "address": {
+        "56": "0x29745314B4D294B7C77cDB411B8AAa95923aae38"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://palmswap.org/",
+    "twitter": "https://twitter.com/Palmswaporg",
+    "audit": "https://docs.palmswap.org/developers/audit",
+    "initTime": {
+      "56": 1696334400
+    },
+    "initPrice": {
+      "56": 0.00758
+    },
+    "soldOut": false
+  },
+  {
     "index": 91,
     "contractAddress": {
       "56": "0xA2585dbF7aAcAB105542752B03fd49AB542556B8"

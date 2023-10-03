@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillsConfig, BillVersion } from '../types'
 
-// BNB Largest ID: 91
+// BNB Largest ID: 92
 // Polygon Largest ID: 109
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2003
@@ -116,6 +116,28 @@ const bills: BillsConfig[] = [
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1683313200 },
     initPrice: { [ChainId.BSC]: 0.0303088 },
+    soldOut: false,
+  },
+  {
+    index: 92,
+    contractAddress: {
+      [ChainId.BSC]: '0xC7d087fBF15584E38a3d7d9448E4FEEe9E12c3DB',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.palm,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.palmBnb_PCS,
+    earnToken: tokens.palm,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://palmswap.org/',
+    twitter: 'https://twitter.com/Palmswaporg',
+    audit: 'https://docs.palmswap.org/developers/audit',
+    initTime: { [ChainId.BSC]: 1696334400 },
+    initPrice: { [ChainId.BSC]: 0.00758 },
     soldOut: false,
   },
   {
