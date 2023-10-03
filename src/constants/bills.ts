@@ -216,7 +216,7 @@ const bills: BillsConfig[] = [
     initPrice: { [ChainId.BSC]: 0.0187522482156 },
     soldOut: false,
     vestingTerm: MigrationVestingTerms['180d'],
-    multiplier: 0.64599483204,
+    multiplier: 0.7601809955,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -243,7 +243,7 @@ const bills: BillsConfig[] = [
     initPrice: { [ChainId.BSC]: 0.0187522482156 },
     soldOut: false,
     vestingTerm: MigrationVestingTerms['360d'],
-    multiplier: 1.118154762,
+    multiplier: 0.6461538462,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },

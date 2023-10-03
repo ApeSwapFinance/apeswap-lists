@@ -758,7 +758,7 @@
     },
     "soldOut": false,
     "vestingTerm": 15552000,
-    "multiplier": 0.64599483204,
+    "multiplier": 0.7601809955,
     "billArt": {
       "collection": "ApeBond_Collection1"
     }
@@ -852,7 +852,7 @@
     },
     "soldOut": false,
     "vestingTerm": 31104000,
-    "multiplier": 1.118154762,
+    "multiplier": 0.6461538462,
     "billArt": {
       "collection": "ApeBond_Collection1"
     }
