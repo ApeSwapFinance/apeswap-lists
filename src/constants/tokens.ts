@@ -412,6 +412,18 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  apemin: {
+    symbol: 'APEMIN',
+    address: {
+      [ChainId.BSC]: '0x086c3F33B7f62db955f5cF4A1BB1d31AAA13C90f',
+      [ChainId.BSC_TESTNET]: '0x086c3F33B7f62db955f5cF4A1BB1d31AAA13C90f',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+      [ChainId.BSC_TESTNET]: 18,
+    },
+    active: true,
+  },
   ong: {
     symbol: 'ONG',
     address: {
@@ -1143,6 +1155,9 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.MATIC]: 8,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.ApeSwapV2,
     },
     active: true,
   },
@@ -3245,6 +3260,9 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.ApeSwapV2,
     },
     active: true,
     lpToken: true,

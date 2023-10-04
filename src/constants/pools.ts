@@ -5,7 +5,7 @@ import tokens from './tokens'
 
 const BANANA_PER_BLOCK = new BigNumber(10)
 
-// Current Sous ID is 238
+// Current Sous ID is 239
 
 const pools: PoolConfig[] = [
   // MASTER APE V2 POOL
@@ -1396,6 +1396,26 @@ const pools: PoolConfig[] = [
   // PUT ALL ADMIN POOLS UNDER HERE
   //
   {
+    sousId: 239,
+    tokenName: 'BANANA',
+    image: 'BANANA.svg',
+    stakingToken: tokens.apemin,
+    rewardToken: tokens.banana,
+    contractAddress: {
+      [ChainId.BSC_TESTNET]: '0xbe57042d1e4e73e560cb32620b8a7e9787a4befb',
+      [ChainId.BSC]: '0xbe57042d1e4e73e560cb32620b8a7e9787a4befb',
+    },
+    poolCategory: PoolCategory.APEZONE,
+    projectLink: '',
+    harvest: true,
+    tokenPerBlock: `0.01645602949`,
+    sortOrder: 1,
+    reflect: false,
+    isFinished: false,
+    tokenDecimals: 18,
+    forAdmins: true,
+  },
+  {
     sousId: 96,
     tokenName: 'BANANA',
     image: 'BANANA.svg',
@@ -1408,10 +1428,10 @@ const pools: PoolConfig[] = [
     poolCategory: PoolCategory.APEZONE,
     projectLink: '',
     harvest: true,
-    tokenPerBlock: `0.000011574074074074`,
+    tokenPerBlock: `0`,
     sortOrder: 1,
     reflect: false,
-    isFinished: false,
+    isFinished: true,
     tokenDecimals: 18,
     forAdmins: true,
   },

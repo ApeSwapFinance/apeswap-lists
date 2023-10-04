@@ -2971,6 +2971,54 @@
     "tokenDecimals": 18
   },
   {
+    "sousId": 239,
+    "tokenName": "BANANA",
+    "image": "BANANA.svg",
+    "stakingToken": {
+      "symbol": "APEMIN",
+      "address": {
+        "56": "0x086c3F33B7f62db955f5cF4A1BB1d31AAA13C90f",
+        "97": "0x086c3F33B7f62db955f5cF4A1BB1d31AAA13C90f"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18
+      },
+      "active": true
+    },
+    "rewardToken": {
+      "symbol": "BANANA",
+      "address": {
+        "1": "0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2",
+        "40": "0x667fd83e24ca1d935d36717d305d54fa0cac991c",
+        "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+        "97": "0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a",
+        "137": "0x5d47baba0d66083c52009271faf3f50dcc01023c"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "contractAddress": {
+      "56": "0xbe57042d1e4e73e560cb32620b8a7e9787a4befb",
+      "97": "0xbe57042d1e4e73e560cb32620b8a7e9787a4befb"
+    },
+    "poolCategory": "ApeZone",
+    "projectLink": "",
+    "harvest": true,
+    "tokenPerBlock": "0.01645602949",
+    "sortOrder": 1,
+    "reflect": false,
+    "isFinished": false,
+    "tokenDecimals": 18,
+    "forAdmins": true
+  },
+  {
     "sousId": 96,
     "tokenName": "BANANA",
     "image": "BANANA.svg",
@@ -3011,10 +3059,10 @@
     "poolCategory": "ApeZone",
     "projectLink": "",
     "harvest": true,
-    "tokenPerBlock": "0.000011574074074074",
+    "tokenPerBlock": "0",
     "sortOrder": 1,
     "reflect": false,
-    "isFinished": false,
+    "isFinished": true,
     "tokenDecimals": 18,
     "forAdmins": true
   },
