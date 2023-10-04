@@ -890,6 +890,9 @@
         "decimals": {
           "137": 8
         },
+        "liquidityDex": {
+          "137": "ApeSwapV2"
+        },
         "active": true
       }
     },
@@ -919,6 +922,9 @@
         },
         "decimals": {
           "137": 8
+        },
+        "liquidityDex": {
+          "137": "ApeSwapV2"
         },
         "active": true
       }
