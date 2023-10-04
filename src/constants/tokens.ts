@@ -1156,6 +1156,9 @@ const tokens: Record<string, Token> = {
     decimals: {
       [ChainId.MATIC]: 8,
     },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.ApeSwapV2,
+    },
     active: true,
   },
   lunr: {
@@ -3257,6 +3260,9 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.ApeSwapV2,
     },
     active: true,
     lpToken: true,
