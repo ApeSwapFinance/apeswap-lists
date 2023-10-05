@@ -143,7 +143,7 @@ const bills: BillsConfig[] = [
   {
     index: 69696969, //MIGRATION TEST BOND BANANA 2 MONTH
     contractAddress: {
-      [ChainId.BSC]: '0xa9ce6c5a0a056C1cb2F1912423e218F7d2F0F9D1',
+      [ChainId.BSC]: '0xf1c4A4A9fE78dDB41d90606e61c75848661Bf981',
     },
     billType: 'migration',
     billVersion: BillVersion.V2,
@@ -158,7 +158,7 @@ const bills: BillsConfig[] = [
     projectLink: 'http://livegreencoin.com/',
     twitter: 'https://twitter.com/LiveGreenCoin1',
     audit: 'https://www.certik.com/projects/livegreencoin',
-    initTime: { [ChainId.BSC]: 1695988858 },
+    initTime: { [ChainId.BSC]: 1696534200 },
     initPrice: { [ChainId.BSC]: 0.0187522482156 },
     soldOut: false,
     vestingTerm: MigrationVestingTerms['60d'],
@@ -170,7 +170,7 @@ const bills: BillsConfig[] = [
   {
     index: 69696970, //MIGRATION TEST BOND BANANA 4 MONTH
     contractAddress: {
-      [ChainId.BSC]: '0x51bB9F73306C53A45a82C35A4b7a2BB96A68c570',
+      [ChainId.BSC]: '0x45977cbe559cE2626b0CCA317A731BD8aDe19349',
     },
     billType: 'migration',
     billVersion: BillVersion.V2,
@@ -185,7 +185,7 @@ const bills: BillsConfig[] = [
     projectLink: 'http://livegreencoin.com/',
     twitter: 'https://twitter.com/LiveGreenCoin1',
     audit: 'https://www.certik.com/projects/livegreencoin',
-    initTime: { [ChainId.BSC]: 1695988858 },
+    initTime: { [ChainId.BSC]: 1696534200 },
     initPrice: { [ChainId.BSC]: 0.0187522482156 },
     soldOut: false,
     vestingTerm: MigrationVestingTerms['120d'],
@@ -197,7 +197,7 @@ const bills: BillsConfig[] = [
   {
     index: 69696971, //MIGRATION TEST BOND BANANA 6 MONTH
     contractAddress: {
-      [ChainId.BSC]: '0x90EdBd0494ae391085128D3f1974c08235F0E7A0',
+      [ChainId.BSC]: '0x4AdAcA83A9D94b8Ecd214035c02135B56125e846',
     },
     billType: 'migration',
     billVersion: BillVersion.V2,
@@ -212,7 +212,7 @@ const bills: BillsConfig[] = [
     projectLink: 'http://livegreencoin.com/',
     twitter: 'https://twitter.com/LiveGreenCoin1',
     audit: 'https://www.certik.com/projects/livegreencoin',
-    initTime: { [ChainId.BSC]: 1695988858 },
+    initTime: { [ChainId.BSC]: 1696534200 },
     initPrice: { [ChainId.BSC]: 0.0187522482156 },
     soldOut: false,
     vestingTerm: MigrationVestingTerms['180d'],
@@ -224,7 +224,7 @@ const bills: BillsConfig[] = [
   {
     index: 69696972, //MIGRATION TEST BOND BANANA 12 MONTH
     contractAddress: {
-      [ChainId.BSC]: '0xb2661ed23A93da5858e7bDdAeFe1b333055Efced',
+      [ChainId.BSC]: '0xd3c3DbE017640BE8ea608Dc4643CD1C5cea7Bffa',
     },
     billType: 'migration',
     billVersion: BillVersion.V2,
@@ -239,7 +239,7 @@ const bills: BillsConfig[] = [
     projectLink: 'http://livegreencoin.com/',
     twitter: 'https://twitter.com/LiveGreenCoin1',
     audit: 'https://www.certik.com/projects/livegreencoin',
-    initTime: { [ChainId.BSC]: 1695988858 },
+    initTime: { [ChainId.BSC]: 1696534200 },
     initPrice: { [ChainId.BSC]: 0.0187522482156 },
     soldOut: false,
     vestingTerm: MigrationVestingTerms['360d'],
@@ -251,7 +251,7 @@ const bills: BillsConfig[] = [
   {
     index: 69696973, //MIGRATION TEST BOND GNANA 2 MONTH
     contractAddress: {
-      [ChainId.BSC]: '0xe452181Ed5E86F4C66FaEa29Ef8F7129fe2BCAaE',
+      [ChainId.BSC]: '0x78c6CEe0fdff976dAa5110Da61Fde801a4D83509',
     },
     billType: 'migration',
     billVersion: BillVersion.V2,
@@ -266,7 +266,7 @@ const bills: BillsConfig[] = [
     projectLink: 'http://livegreencoin.com/',
     twitter: 'https://twitter.com/LiveGreenCoin1',
     audit: 'https://www.certik.com/projects/livegreencoin',
-    initTime: { [ChainId.BSC]: 1695988858 },
+    initTime: { [ChainId.BSC]: 1696534200 },
     initPrice: { [ChainId.BSC]: 0.0187522482156 },
     soldOut: false,
     vestingTerm: MigrationVestingTerms['60d'],
@@ -278,7 +278,7 @@ const bills: BillsConfig[] = [
   {
     index: 69696974, //MIGRATION TEST BOND GNANA 4 MONTH
     contractAddress: {
-      [ChainId.BSC]: '0x46B5a03b873702fEF551759121C9589b27C60adf',
+      [ChainId.BSC]: '0x7dB7ADbf1fc1f3b2a11aeB0c9F65A6094837A0a4',
     },
     billType: 'migration',
     billVersion: BillVersion.V2,
@@ -293,7 +293,7 @@ const bills: BillsConfig[] = [
     projectLink: 'http://livegreencoin.com/',
     twitter: 'https://twitter.com/LiveGreenCoin1',
     audit: 'https://www.certik.com/projects/livegreencoin',
-    initTime: { [ChainId.BSC]: 1695988858 },
+    initTime: { [ChainId.BSC]: 1696534200 },
     initPrice: { [ChainId.BSC]: 0.0187522482156 },
     soldOut: false,
     vestingTerm: MigrationVestingTerms['120d'],
@@ -305,7 +305,7 @@ const bills: BillsConfig[] = [
   {
     index: 69696975, //MIGRATION TEST BOND GNANA 6 MONTH
     contractAddress: {
-      [ChainId.BSC]: '0x42c59176613A5513235c44BFf51aCded98977A18',
+      [ChainId.BSC]: '0x125d63195A29152D4A0016C92C8e8eb1c549ADEf',
     },
     billType: 'migration',
     billVersion: BillVersion.V2,
@@ -320,7 +320,7 @@ const bills: BillsConfig[] = [
     projectLink: 'http://livegreencoin.com/',
     twitter: 'https://twitter.com/LiveGreenCoin1',
     audit: 'https://www.certik.com/projects/livegreencoin',
-    initTime: { [ChainId.BSC]: 1695988858 },
+    initTime: { [ChainId.BSC]: 1696534200 },
     initPrice: { [ChainId.BSC]: 0.0187522482156 },
     soldOut: false,
     vestingTerm: MigrationVestingTerms['180d'],
@@ -332,7 +332,7 @@ const bills: BillsConfig[] = [
   {
     index: 69696976, //MIGRATION TEST BOND GNANA 12 MONTH
     contractAddress: {
-      [ChainId.BSC]: '0x740651cCf2De86810Cbcd4E30147b200b5018F3F',
+      [ChainId.BSC]: '0x6937Df706eD779895B89D6321dF2b6205E08dF30',
     },
     billType: 'migration',
     billVersion: BillVersion.V2,
@@ -347,7 +347,7 @@ const bills: BillsConfig[] = [
     projectLink: 'http://livegreencoin.com/',
     twitter: 'https://twitter.com/LiveGreenCoin1',
     audit: 'https://www.certik.com/projects/livegreencoin',
-    initTime: { [ChainId.BSC]: 1695988858 },
+    initTime: { [ChainId.BSC]: 1696534200 },
     initPrice: { [ChainId.BSC]: 0.0187522482156 },
     soldOut: false,
     vestingTerm: MigrationVestingTerms['360d'],
