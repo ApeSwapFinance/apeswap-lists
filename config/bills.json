@@ -9471,6 +9471,7 @@
     },
     "billArt": {
       "collection": "Quickswap_Collection1"
-    }
+    },
+    "bondPartner": "QuickSwap"
   }
 ]
