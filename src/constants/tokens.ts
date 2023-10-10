@@ -45,6 +45,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  abond: {
+    symbol: 'ABOND',
+    address: {
+      [ChainId.BSC]: '0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.ApeSwapV2,
+    },
+    active: true,
+  },
   wbnb: {
     symbol: 'BNB',
     address: {
