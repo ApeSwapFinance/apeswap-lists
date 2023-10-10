@@ -2133,6 +2133,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  quick: {
+    symbol: 'Quick',
+    address: {
+      [ChainId.MATIC]: '0xB5C064F955D8e7F38fE0460C556a72987494eE17',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.Algebra,
+    },
+  },
 
   // Test LPs
 
@@ -2157,6 +2170,40 @@ const tokens: Record<string, Token> = {
     },
     active: false,
     lpToken: true,
+  },
+  quickMatic: {
+    symbol: 'aWMATIC-QUICK',
+    address: {
+      [ChainId.MATIC]: '0x7f09bD2801A7b795dF29C273C4afbB0Ff15E2D63',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.Algebra,
+    },
+    getLpUrl: {
+      [ChainId.MATIC]: 'https://app.gamma.xyz/vault/qi/polygon/details/wmatic-quick-narrow',
+    },
+  },
+  aUSDCWETH: {
+    symbol: 'aUSDC-WETH',
+    address: {
+      [ChainId.MATIC]: '0x3Cc20A6795c4b57d9817399F68E83e71C8626580',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.Algebra,
+    },
+    getLpUrl: {
+      [ChainId.MATIC]: 'https://app.gamma.xyz/vault/qi/polygon/details/usdc-weth-narrow',
+    },
   },
 
   // LP Tokens

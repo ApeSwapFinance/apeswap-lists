@@ -2843,6 +2843,33 @@ const bills: BillsConfig[] = [
     initPrice: { [ChainId.ARBITRUM]: 1.5528 },
     soldOut: true,
   },
+
+  /*
+    Test QuickSwap Bonds
+  */
+
+  {
+    index: 16545,
+    contractAddress: {
+      [ChainId.MATIC]: '0x5e6586A9Cb02D24158428d6A9eB6fb16f6B3f463',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.weth,
+    quoteToken: tokens.usdc,
+    lpToken: tokens.aUSDCWETH,
+    earnToken: tokens.quick,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://www.quickswap.app/',
+    twitter: 'https://twitter.com/',
+    audit: 'Add audit link',
+    initTime: { [ChainId.MATIC]: 1690287710 },
+    initPrice: { [ChainId.MATIC]: 0.00123 },
+    billArt: { collection: BillArtCollection.Quickswap_Collection1 },
+  },
 ]
 
 export default bills

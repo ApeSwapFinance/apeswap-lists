@@ -9384,5 +9384,75 @@
       "42161": 1.5528
     },
     "soldOut": true
+  },
+  {
+    "index": 16545,
+    "contractAddress": {
+      "137": "0x5e6586A9Cb02D24158428d6A9eB6fb16f6B3f463"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "quoteToken": {
+      "symbol": "USDC",
+      "address": {
+        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
+        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "aUSDC-WETH",
+      "address": {
+        "137": "0x3Cc20A6795c4b57d9817399F68E83e71C8626580"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "active": true,
+      "lpToken": true,
+      "liquidityDex": {
+        "137": "Algebra"
+      },
+      "getLpUrl": {
+        "137": "https://app.gamma.xyz/vault/qi/polygon/details/usdc-weth-narrow"
+      }
+    },
+    "earnToken": {
+      "symbol": "Quick",
+      "address": {
+        "137": "0xB5C064F955D8e7F38fE0460C556a72987494eE17"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "137": "Algebra"
+      }
+    },
+    "billNnftAddress": {
+      "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
+    },
+    "inactive": false,
+    "projectLink": "https://www.quickswap.app/",
+    "twitter": "https://twitter.com/",
+    "audit": "Add audit link",
+    "initTime": {
+      "137": 1690287710
+    },
+    "initPrice": {
+      "137": 0.00123
+    },
+    "billArt": {
+      "collection": "Quickswap_Collection1"
+    }
   }
 ]
