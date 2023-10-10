@@ -2855,7 +2855,7 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.weth,
+    token: tokens.eth,
     quoteToken: tokens.usdc,
     lpToken: tokens.aUSDCWETH,
     earnToken: tokens.quick,
