@@ -454,7 +454,7 @@
   {
     "index": 5005,
     "contractAddress": {
-      "56": "0x3083BFF0Ba36aD130355D788517411B6cf2950dc"
+      "56": "0xac1CB77150Dcc3d540F08e808181CCCf0Ea29726"
     },
     "billType": "migration",
     "billVersion": "V2",
@@ -530,7 +530,7 @@
   {
     "index": 5006,
     "contractAddress": {
-      "56": "0x9AAa81261DfD577cAf7D5219aF6d53EAd2b43327"
+      "56": "0xDCa0B400394BA6F6CBfc3Ce37B0193D4fa68eDFf"
     },
     "billType": "migration",
     "billVersion": "V2",
@@ -606,7 +606,7 @@
   {
     "index": 5007,
     "contractAddress": {
-      "56": "0x312eb1168E250a571260bA34C566edE82ed3E8ee"
+      "56": "0x3Eb85D568214ae04c2873880Fa715a5C8105dd17"
     },
     "billType": "migration",
     "billVersion": "V2",
