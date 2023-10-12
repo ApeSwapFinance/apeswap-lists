@@ -1,13 +1,230 @@
 import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
-import { BillsConfig, BillVersion } from '../types'
+import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
 // BNB Largest ID: 92
 // Polygon Largest ID: 109
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2003
+//Migration Bonds ID: 5007
 
 const bills: BillsConfig[] = [
+  {
+    index: 5000, //MIGRATION BOND BANANA 2 MONTH
+    contractAddress: {
+      [ChainId.BSC]: '0x302f1120aDA3f40aeD3F6410fad75e8428576a1F',
+    },
+    billType: 'migration',
+    billVersion: BillVersion.V2,
+    token: tokens.banana,
+    quoteToken: tokens.banana,
+    lpToken: tokens.banana,
+    earnToken: tokens.abond,
+    billNnftAddress: {
+      [ChainId.BSC]: '0x3881ABAE74341630E4838Ca4809478DD668091fB',
+    },
+    inactive: false,
+    projectLink: 'https://apeswap.finance/',
+    twitter: 'https://twitter.com/ape_swap',
+    audit: 'https://paladinsec.co/projects/apeswap/',
+    initTime: { [ChainId.BSC]: 1697115600 },
+    initPrice: { [ChainId.BSC]: 0.05 },
+    soldOut: false,
+    vestingTerm: MigrationVestingTerms['60d'],
+    multiplier: 1,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+  },
+  {
+    index: 5001, //MIGRATION BOND BANANA 4 MONTH
+    contractAddress: {
+      [ChainId.BSC]: '0x872C7beE4c034CEba697de18f794e91F10062E2e',
+    },
+    billType: 'migration',
+    billVersion: BillVersion.V2,
+    token: tokens.banana,
+    quoteToken: tokens.banana,
+    lpToken: tokens.banana,
+    earnToken: tokens.abond,
+    billNnftAddress: {
+      [ChainId.BSC]: '0x3881ABAE74341630E4838Ca4809478DD668091fB',
+    },
+    inactive: false,
+    projectLink: 'https://apeswap.finance/',
+    twitter: 'https://twitter.com/ape_swap',
+    audit: 'https://paladinsec.co/projects/apeswap/',
+    initTime: { [ChainId.BSC]: 1697115600 },
+    initPrice: { [ChainId.BSC]: 0.05 },
+    soldOut: false,
+    vestingTerm: MigrationVestingTerms['120d'],
+    multiplier: 0.8943305829,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+  },
+  {
+    index: 5002, //MIGRATION BOND BANANA 6 MONTH
+    contractAddress: {
+      [ChainId.BSC]: '0x8146d7887C2e7ce7AD0c1950E17676c632B5A71A',
+    },
+    billType: 'migration',
+    billVersion: BillVersion.V2,
+    token: tokens.banana,
+    quoteToken: tokens.banana,
+    lpToken: tokens.banana,
+    earnToken: tokens.abond,
+    billNnftAddress: {
+      [ChainId.BSC]: '0x3881ABAE74341630E4838Ca4809478DD668091fB',
+    },
+    inactive: false,
+    projectLink: 'https://apeswap.finance/',
+    twitter: 'https://twitter.com/ape_swap',
+    audit: 'https://paladinsec.co/projects/apeswap/',
+    initTime: { [ChainId.BSC]: 1697115600 },
+    initPrice: { [ChainId.BSC]: 0.05 },
+    soldOut: false,
+    vestingTerm: MigrationVestingTerms['180d'],
+    multiplier: 0.7601809955,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+  },
+  {
+    index: 5003, //MIGRATION BOND BANANA 12 MONTH
+    contractAddress: {
+      [ChainId.BSC]: '0xFeFEDF8EB74711dF186630F4870BcA9EEDA78C85',
+    },
+    billType: 'migration',
+    billVersion: BillVersion.V2,
+    token: tokens.banana,
+    quoteToken: tokens.banana,
+    lpToken: tokens.banana,
+    earnToken: tokens.abond,
+    billNnftAddress: {
+      [ChainId.BSC]: '0x3881ABAE74341630E4838Ca4809478DD668091fB',
+    },
+    inactive: false,
+    projectLink: 'https://apeswap.finance/',
+    twitter: 'https://twitter.com/ape_swap',
+    audit: 'https://paladinsec.co/projects/apeswap/',
+    initTime: { [ChainId.BSC]: 1697115600 },
+    initPrice: { [ChainId.BSC]: 0.05 },
+    soldOut: false,
+    vestingTerm: MigrationVestingTerms['360d'],
+    multiplier: 0.6461538462,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+  },
+  {
+    index: 5004, //MIGRATION BOND GNANA 2 MONTH
+    contractAddress: {
+      [ChainId.BSC]: '0xa2a328864f8Eca97072471cc8BF08411Da523bc9',
+    },
+    billType: 'migration',
+    billVersion: BillVersion.V2,
+    token: tokens.gnana,
+    quoteToken: tokens.gnana,
+    lpToken: tokens.gnana,
+    earnToken: tokens.abond,
+    billNnftAddress: {
+      [ChainId.BSC]: '0x3881ABAE74341630E4838Ca4809478DD668091fB',
+    },
+    inactive: false,
+    projectLink: 'https://apeswap.finance/',
+    twitter: 'https://twitter.com/ape_swap',
+    audit: 'https://paladinsec.co/projects/apeswap/',
+    initTime: { [ChainId.BSC]: 1697115600 },
+    initPrice: { [ChainId.BSC]: 0.05 },
+    soldOut: false,
+    vestingTerm: MigrationVestingTerms['60d'],
+    multiplier: 0.6998439348,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+  },
+  {
+    index: 5005, //MIGRATION BOND GNANA 4 MONTH
+    contractAddress: {
+      [ChainId.BSC]: '0xac1CB77150Dcc3d540F08e808181CCCf0Ea29726',
+    },
+    billType: 'migration',
+    billVersion: BillVersion.V2,
+    token: tokens.gnana,
+    quoteToken: tokens.gnana,
+    lpToken: tokens.gnana,
+    earnToken: tokens.abond,
+    billNnftAddress: {
+      [ChainId.BSC]: '0x3881ABAE74341630E4838Ca4809478DD668091fB',
+    },
+    inactive: false,
+    projectLink: 'https://apeswap.finance/',
+    twitter: 'https://twitter.com/ape_swap',
+    audit: 'https://paladinsec.co/projects/apeswap/',
+    initTime: { [ChainId.BSC]: 1697115600 },
+    initPrice: { [ChainId.BSC]: 0.05 },
+    soldOut: false,
+    vestingTerm: MigrationVestingTerms['120d'],
+    multiplier: 0.6258918342,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+  },
+  {
+    index: 5006, //MIGRATION BOND GNANA 6 MONTH
+    contractAddress: {
+      [ChainId.BSC]: '0xDCa0B400394BA6F6CBfc3Ce37B0193D4fa68eDFf',
+    },
+    billType: 'migration',
+    billVersion: BillVersion.V2,
+    token: tokens.gnana,
+    quoteToken: tokens.gnana,
+    lpToken: tokens.gnana,
+    earnToken: tokens.abond,
+    billNnftAddress: {
+      [ChainId.BSC]: '0x3881ABAE74341630E4838Ca4809478DD668091fB',
+    },
+    inactive: false,
+    projectLink: 'https://apeswap.finance/',
+    twitter: 'https://twitter.com/ape_swap',
+    audit: 'https://paladinsec.co/projects/apeswap/',
+    initTime: { [ChainId.BSC]: 1697115600 },
+    initPrice: { [ChainId.BSC]: 0.05 },
+    soldOut: false,
+    vestingTerm: MigrationVestingTerms['180d'],
+    multiplier: 0.532008059035414,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+  },
+  {
+    index: 5007, //MIGRATION BOND GNANA 12 MONTH
+    contractAddress: {
+      [ChainId.BSC]: '0x3Eb85D568214ae04c2873880Fa715a5C8105dd17',
+    },
+    billType: 'migration',
+    billVersion: BillVersion.V2,
+    token: tokens.gnana,
+    quoteToken: tokens.gnana,
+    lpToken: tokens.gnana,
+    earnToken: tokens.abond,
+    billNnftAddress: {
+      [ChainId.BSC]: '0x3881ABAE74341630E4838Ca4809478DD668091fB',
+    },
+    inactive: false,
+    projectLink: 'https://apeswap.finance/',
+    twitter: 'https://twitter.com/ape_swap',
+    audit: 'https://paladinsec.co/projects/apeswap/',
+    initTime: { [ChainId.BSC]: 1697115600 },
+    initPrice: { [ChainId.BSC]: 0.05 },
+    soldOut: false,
+    vestingTerm: MigrationVestingTerms['360d'],
+    multiplier: 0.452206850180102,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+  },
   {
     index: 62,
     contractAddress: {
