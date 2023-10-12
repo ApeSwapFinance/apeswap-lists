@@ -2849,6 +2849,30 @@ const bills: BillsConfig[] = [
   */
 
   {
+    index: 16546,
+    contractAddress: {
+      [ChainId.MATIC]: '0x41FAb0d6c1ABE729b7406Ee9Ca2A30451696FAC6',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.ixt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.ixtUsdt,
+    earnToken: tokens.ixt,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://www.quickswap.app/',
+    twitter: 'https://twitter.com/',
+    audit:
+      'https://www.google.com/search?q=vitalik+dick+pick&tbm=isch&ved=2ahUKEwjx9p_G-fCBAxVo1wIHHf5cDzgQ2-cCegQIABAA&oq=vitalik+dick+pick&gs_lcp=CgNpbWcQAzoECCMQJzoFCAAQgAQ6BggAEAgQHjoHCAAQGBCABFCoBljmG2CzHWgAcAB4AIABhwGIAc4MkgEEMC4xNJgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=eSEoZbHWHeiui-gP_rm9wAM&bih=664&biw=922#imgrc=tUcYq8cEQ6QoTM',
+    initTime: { [ChainId.MATIC]: 1697118653 },
+    initPrice: { [ChainId.MATIC]: 0.07867 },
+    billArt: { collection: BillArtCollection.Quickswap_Collection1 },
+    bondPartner: 'QuickSwap',
+  },
+  {
     index: 16545,
     contractAddress: {
       [ChainId.MATIC]: '0x5e6586A9Cb02D24158428d6A9eB6fb16f6B3f463',

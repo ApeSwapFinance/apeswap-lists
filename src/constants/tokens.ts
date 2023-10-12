@@ -2146,6 +2146,19 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: LiquidityDex.Algebra,
     },
   },
+  ixt: {
+    symbol: 'IXT',
+    address: {
+      [ChainId.MATIC]: '0xe06bd4f5aac8d0aa337d13ec88db6defc6eaeefe',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.QuickswapV2,
+    },
+  },
 
   // Test LPs
 
@@ -2203,6 +2216,24 @@ const tokens: Record<string, Token> = {
     },
     getLpUrl: {
       [ChainId.MATIC]: 'https://app.gamma.xyz/vault/qi/polygon/details/usdc-weth-narrow',
+    },
+  },
+  ixtUsdt: {
+    symbol: 'IXT-USDT',
+    address: {
+      [ChainId.MATIC]: '0x304e57c752E854E9A233Ae82fcC42F7568b81180',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.QuickswapV2,
+    },
+    getLpUrl: {
+      [ChainId.MATIC]:
+        'https://quickswap.exchange/#/pools?currency0=0xE06Bd4F5aAc8D0aA337D13eC88dB6defC6eAEefE&currency1=0xc2132D05D31c914a87C6611C10748AEb04B58e8F',
     },
   },
 
