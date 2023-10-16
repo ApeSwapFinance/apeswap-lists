@@ -1085,6 +1085,73 @@
     "soldOut": false
   },
   {
+    "index": 93,
+    "contractAddress": {
+      "56": "0x93048fdB11265A68E672f47c9BdCc339D1497918"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "LGC",
+      "address": {
+        "56": "0x3496212eC43Cc49F5151ec4405efD4975e036f89"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "LGC-BNB",
+      "address": {
+        "56": "0x1809b34F406252645E704f7a76acB94728FD4fb6"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "LGC",
+      "address": {
+        "56": "0x3496212eC43Cc49F5151ec4405efD4975e036f89"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "http://livegreencoin.com/",
+    "twitter": "https://twitter.com/LiveGreenCoin1",
+    "audit": "https://www.certik.com/projects/livegreencoin",
+    "initTime": {
+      "56": 1697479200
+    },
+    "initPrice": {
+      "56": 0.00061926835799964
+    },
+    "soldOut": false
+  },
+  {
     "index": 92,
     "contractAddress": {
       "56": "0xC7d087fBF15584E38a3d7d9448E4FEEe9E12c3DB"
@@ -2482,7 +2549,7 @@
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
     },
-    "inactive": false,
+    "inactive": true,
     "projectLink": "http://livegreencoin.com/",
     "twitter": "https://twitter.com/LiveGreenCoin1",
     "audit": "https://www.certik.com/projects/livegreencoin",
@@ -2492,7 +2559,7 @@
     "initPrice": {
       "56": 0.0056
     },
-    "soldOut": false
+    "soldOut": true
   },
   {
     "index": 74,
