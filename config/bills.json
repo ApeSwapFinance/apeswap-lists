@@ -1087,7 +1087,7 @@
   {
     "index": 94,
     "contractAddress": {
-      "56": "0x641611A5fb607c9FDb894A6e43048d4ec2ec0BE6"
+      "56": "0x01a8be18770e8b2Ac2Cf42F10E4BddD6054Cbe86"
     },
     "billType": "reserve",
     "billVersion": "V2",
@@ -1163,7 +1163,7 @@
       "56": 1697824800
     },
     "initPrice": {
-      "56": 0.00425180516121976
+      "56": 0.00375
     },
     "soldOut": false,
     "billArt": {

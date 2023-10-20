@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 93
+// BNB Largest ID: 94
 // Polygon Largest ID: 109
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2003
@@ -338,7 +338,7 @@ const bills: BillsConfig[] = [
   {
     index: 94,
     contractAddress: {
-      [ChainId.BSC]: '0x641611A5fb607c9FDb894A6e43048d4ec2ec0BE6',
+      [ChainId.BSC]: '0x01a8be18770e8b2Ac2Cf42F10E4BddD6054Cbe86',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
@@ -354,7 +354,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/hypergpt',
     audit: 'https://skynet.certik.com/projects/hypergpt?utm_source=CMC&utm_campaign=AuditByCertiKLink',
     initTime: { [ChainId.BSC]: 1697824800 },
-    initPrice: { [ChainId.BSC]: 0.00425180516121976 },
+    initPrice: { [ChainId.BSC]: 0.00375 },
     soldOut: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
