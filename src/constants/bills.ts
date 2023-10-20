@@ -336,6 +336,31 @@ const bills: BillsConfig[] = [
     soldOut: false,
   },
   {
+    index: 94,
+    contractAddress: {
+      [ChainId.BSC]: '0x641611A5fb607c9FDb894A6e43048d4ec2ec0BE6',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.hgpt,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://hypergpt.ai/',
+    twitter: 'https://twitter.com/hypergpt',
+    audit: 'https://skynet.certik.com/projects/hypergpt?utm_source=CMC&utm_campaign=AuditByCertiKLink',
+    initTime: { [ChainId.BSC]: 1697824800 },
+    initPrice: { [ChainId.BSC]: 0.00425180516121976 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+  },
+  {
     index: 93,
     contractAddress: {
       [ChainId.BSC]: '0x93048fdB11265A68E672f47c9BdCc339D1497918',
