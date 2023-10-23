@@ -1961,6 +1961,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  hgpt: {
+    symbol: 'HGPT',
+    address: {
+      [ChainId.BSC]: '0x529C79f6918665EBE250F32eeEAA1d410a0798C6',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
   brg: {
     symbol: 'BRG',
     address: {

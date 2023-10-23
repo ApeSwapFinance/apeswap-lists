@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 92
+// BNB Largest ID: 94
 // Polygon Largest ID: 109
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2003
@@ -147,7 +147,7 @@ const bills: BillsConfig[] = [
   {
     index: 5005, //MIGRATION BOND GNANA 4 MONTH
     contractAddress: {
-      [ChainId.BSC]: '0x3083BFF0Ba36aD130355D788517411B6cf2950dc',
+      [ChainId.BSC]: '0xac1CB77150Dcc3d540F08e808181CCCf0Ea29726',
     },
     billType: 'migration',
     billVersion: BillVersion.V2,
@@ -174,7 +174,7 @@ const bills: BillsConfig[] = [
   {
     index: 5006, //MIGRATION BOND GNANA 6 MONTH
     contractAddress: {
-      [ChainId.BSC]: '0x9AAa81261DfD577cAf7D5219aF6d53EAd2b43327',
+      [ChainId.BSC]: '0xDCa0B400394BA6F6CBfc3Ce37B0193D4fa68eDFf',
     },
     billType: 'migration',
     billVersion: BillVersion.V2,
@@ -201,7 +201,7 @@ const bills: BillsConfig[] = [
   {
     index: 5007, //MIGRATION BOND GNANA 12 MONTH
     contractAddress: {
-      [ChainId.BSC]: '0x312eb1168E250a571260bA34C566edE82ed3E8ee',
+      [ChainId.BSC]: '0x3Eb85D568214ae04c2873880Fa715a5C8105dd17',
     },
     billType: 'migration',
     billVersion: BillVersion.V2,
@@ -333,6 +333,53 @@ const bills: BillsConfig[] = [
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1683313200 },
     initPrice: { [ChainId.BSC]: 0.0303088 },
+    soldOut: false,
+  },
+  {
+    index: 94,
+    contractAddress: {
+      [ChainId.BSC]: '0x01a8be18770e8b2Ac2Cf42F10E4BddD6054Cbe86',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.hgpt,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://hypergpt.ai/',
+    twitter: 'https://twitter.com/hypergpt',
+    audit: 'https://skynet.certik.com/projects/hypergpt?utm_source=CMC&utm_campaign=AuditByCertiKLink',
+    initTime: { [ChainId.BSC]: 1697824800 },
+    initPrice: { [ChainId.BSC]: 0.00375 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+  },
+  {
+    index: 93,
+    contractAddress: {
+      [ChainId.BSC]: '0x93048fdB11265A68E672f47c9BdCc339D1497918',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.lgc,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.lgcBnb,
+    earnToken: tokens.lgc,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'http://livegreencoin.com/',
+    twitter: 'https://twitter.com/LiveGreenCoin1',
+    audit: 'https://www.certik.com/projects/livegreencoin',
+    initTime: { [ChainId.BSC]: 1697479200 },
+    initPrice: { [ChainId.BSC]: 0.00061926835799964 },
     soldOut: false,
   },
   {
@@ -765,13 +812,13 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
+    inactive: true,
     projectLink: 'http://livegreencoin.com/',
     twitter: 'https://twitter.com/LiveGreenCoin1',
     audit: 'https://www.certik.com/projects/livegreencoin',
     initTime: { [ChainId.BSC]: 1687447800 },
     initPrice: { [ChainId.BSC]: 0.0056 },
-    soldOut: false,
+    soldOut: true,
   },
   {
     index: 74,

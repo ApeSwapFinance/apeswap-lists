@@ -454,7 +454,7 @@
   {
     "index": 5005,
     "contractAddress": {
-      "56": "0x3083BFF0Ba36aD130355D788517411B6cf2950dc"
+      "56": "0xac1CB77150Dcc3d540F08e808181CCCf0Ea29726"
     },
     "billType": "migration",
     "billVersion": "V2",
@@ -530,7 +530,7 @@
   {
     "index": 5006,
     "contractAddress": {
-      "56": "0x9AAa81261DfD577cAf7D5219aF6d53EAd2b43327"
+      "56": "0xDCa0B400394BA6F6CBfc3Ce37B0193D4fa68eDFf"
     },
     "billType": "migration",
     "billVersion": "V2",
@@ -606,7 +606,7 @@
   {
     "index": 5007,
     "contractAddress": {
-      "56": "0x312eb1168E250a571260bA34C566edE82ed3E8ee"
+      "56": "0x3Eb85D568214ae04c2873880Fa715a5C8105dd17"
     },
     "billType": "migration",
     "billVersion": "V2",
@@ -1081,6 +1081,159 @@
     },
     "initPrice": {
       "56": 0.0303088
+    },
+    "soldOut": false
+  },
+  {
+    "index": 94,
+    "contractAddress": {
+      "56": "0x01a8be18770e8b2Ac2Cf42F10E4BddD6054Cbe86"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "42161": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "42161": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "42161": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "HGPT",
+      "address": {
+        "56": "0x529C79f6918665EBE250F32eeEAA1d410a0798C6"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://hypergpt.ai/",
+    "twitter": "https://twitter.com/hypergpt",
+    "audit": "https://skynet.certik.com/projects/hypergpt?utm_source=CMC&utm_campaign=AuditByCertiKLink",
+    "initTime": {
+      "56": 1697824800
+    },
+    "initPrice": {
+      "56": 0.00375
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    }
+  },
+  {
+    "index": 93,
+    "contractAddress": {
+      "56": "0x93048fdB11265A68E672f47c9BdCc339D1497918"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "LGC",
+      "address": {
+        "56": "0x3496212eC43Cc49F5151ec4405efD4975e036f89"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "LGC-BNB",
+      "address": {
+        "56": "0x1809b34F406252645E704f7a76acB94728FD4fb6"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "LGC",
+      "address": {
+        "56": "0x3496212eC43Cc49F5151ec4405efD4975e036f89"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "http://livegreencoin.com/",
+    "twitter": "https://twitter.com/LiveGreenCoin1",
+    "audit": "https://www.certik.com/projects/livegreencoin",
+    "initTime": {
+      "56": 1697479200
+    },
+    "initPrice": {
+      "56": 0.00061926835799964
     },
     "soldOut": false
   },
@@ -2482,7 +2635,7 @@
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
     },
-    "inactive": false,
+    "inactive": true,
     "projectLink": "http://livegreencoin.com/",
     "twitter": "https://twitter.com/LiveGreenCoin1",
     "audit": "https://www.certik.com/projects/livegreencoin",
@@ -2492,7 +2645,7 @@
     "initPrice": {
       "56": 0.0056
     },
-    "soldOut": false
+    "soldOut": true
   },
   {
     "index": 74,
