@@ -2159,6 +2159,19 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: LiquidityDex.QuickswapV2,
     },
   },
+  vext: {
+    symbol: 'VEXT',
+    address: {
+      [ChainId.MATIC]: '0x27842334C55c01DDFE81Bf687425F906816c5141',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.QuickswapV2,
+    },
+  },
 
   // Test LPs
 
@@ -2234,6 +2247,24 @@ const tokens: Record<string, Token> = {
     getLpUrl: {
       [ChainId.MATIC]:
         'https://quickswap.exchange/#/pools?currency0=0xE06Bd4F5aAc8D0aA337D13eC88dB6defC6eAEefE&currency1=0xc2132D05D31c914a87C6611C10748AEb04B58e8F',
+    },
+  },
+  vexUsdt: {
+    symbol: 'aVEXT-USDT',
+    address: {
+      [ChainId.MATIC]: '0x5CdC18b774C6cD6F1398FAf19D4Bd4f31Bc53C57',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.QuickswapV2,
+    },
+    getLpUrl: {
+      [ChainId.MATIC]:
+        'https://quickswap.exchange/#/pools/v3?currency0=0x27842334C55c01DDFE81Bf687425F906816c5141&currency1=0xc2132D05D31c914a87C6611C10748AEb04B58e8F',
     },
   },
 
