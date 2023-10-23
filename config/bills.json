@@ -9402,7 +9402,7 @@
       },
       "active": true,
       "liquidityDex": {
-        "137": "QuickswapV2"
+        "137": "Algebra"
       }
     },
     "quoteToken": {
@@ -9432,7 +9432,7 @@
       "active": true,
       "lpToken": true,
       "liquidityDex": {
-        "137": "QuickswapV2"
+        "137": "Algebra"
       },
       "getLpUrl": {
         "137": "https://quickswap.exchange/#/pools/v3?currency0=0x27842334C55c01DDFE81Bf687425F906816c5141&currency1=0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
@@ -9448,7 +9448,7 @@
       },
       "active": true,
       "liquidityDex": {
-        "137": "QuickswapV2"
+        "137": "Algebra"
       }
     },
     "billNnftAddress": {

@@ -2169,7 +2169,7 @@ const tokens: Record<string, Token> = {
     },
     active: true,
     liquidityDex: {
-      [ChainId.MATIC]: LiquidityDex.QuickswapV2,
+      [ChainId.MATIC]: LiquidityDex.Algebra,
     },
   },
 
@@ -2260,7 +2260,7 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
     liquidityDex: {
-      [ChainId.MATIC]: LiquidityDex.QuickswapV2,
+      [ChainId.MATIC]: LiquidityDex.Algebra,
     },
     getLpUrl: {
       [ChainId.MATIC]:
