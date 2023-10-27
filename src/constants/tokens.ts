@@ -1972,6 +1972,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  arcas: {
+    symbol: 'ARCAS',
+    address: {
+      [ChainId.BSC]: '0xAd0926eCf31719263DC86426024794332d9dD9A3',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
   brg: {
     symbol: 'BRG',
     address: {
@@ -3091,6 +3102,21 @@ const tokens: Record<string, Token> = {
     getLpUrl: {
       [ChainId.BSC]:
         'https://pancakeswap.finance/v2/add/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56/0x0012365F0a1E5F30a5046c680DCB21D07b15FcF7',
+    },
+  },
+  arcasBnb_PCS: {
+    symbol: 'ARCAS-BNB',
+    address: {
+      [ChainId.BSC]: '0xAcBeA95dDaB356b40DAe8046b185F13E06730b34',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl: {
+      [ChainId.BSC]: 'https://pancakeswap.finance/v2/add/0xAd0926eCf31719263DC86426024794332d9dD9A3/BNB',
     },
   },
   stlosTlos: {
