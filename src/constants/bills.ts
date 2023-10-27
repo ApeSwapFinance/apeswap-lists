@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 94
+// BNB Largest ID: 95
 // Polygon Largest ID: 109
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2003
@@ -334,6 +334,31 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.BSC]: 1683313200 },
     initPrice: { [ChainId.BSC]: 0.0303088 },
     soldOut: false,
+  },
+  {
+    index: 95,
+    contractAddress: {
+      [ChainId.BSC]: '0x89150e8E396Acc38AbFCAC853d6EB977AcCe13e1',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.arcas,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.arcasBnb_PCS,
+    earnToken: tokens.arcas,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://www.blockapescissors.com/#home',
+    twitter: 'https://twitter.com/apeblock?lang=en',
+    audit: 'https://solidity.finance/audits/BlockApeScissors/',
+    initTime: { [ChainId.BSC]: 1697824800 },
+    initPrice: { [ChainId.BSC]: 0.00375 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
   },
   {
     index: 94,
