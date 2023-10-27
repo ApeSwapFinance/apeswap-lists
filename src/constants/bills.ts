@@ -353,8 +353,8 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.blockapescissors.com/#home',
     twitter: 'https://twitter.com/apeblock?lang=en',
     audit: 'https://solidity.finance/audits/BlockApeScissors/',
-    initTime: { [ChainId.BSC]: 1697824800 },
-    initPrice: { [ChainId.BSC]: 0.00375 },
+    initTime: { [ChainId.BSC]: 1698411600 },
+    initPrice: { [ChainId.BSC]: 0.0242848491820561 },
     soldOut: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
