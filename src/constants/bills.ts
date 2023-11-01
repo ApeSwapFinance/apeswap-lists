@@ -513,7 +513,7 @@ const bills: BillsConfig[] = [
     audit: 'https://skynet.certik.com/projects/gym-network?utm_source=CMC&utm_campaign=AuditByCertiKLink',
     initTime: { [ChainId.BSC]: 1694448000 },
     initPrice: { [ChainId.BSC]: 0.0234876697262449 },
-    soldOut: false,
+    soldOut: true,
   },
   {
     index: 88,

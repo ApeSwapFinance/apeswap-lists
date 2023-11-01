@@ -13,6 +13,7 @@ import {
   zapInputTokens,
   farmsV2,
   vaultsV3,
+  jungleFarmsV2,
 } from '../constants'
 
 const listMap: [any, string][] = [
@@ -27,6 +28,7 @@ const listMap: [any, string][] = [
   [nfaStakingPools, 'nfaStakingPools'],
   [iaos, 'iaos'],
   [zapInputTokens, 'zapInputTokens'],
+  [jungleFarmsV2, 'jungleFarmsV2'],
 ]
 
 const buildList = (list: any, listName: string) => {
