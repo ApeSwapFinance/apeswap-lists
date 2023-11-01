@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 95
+// BNB Largest ID: 99
 // Polygon Largest ID: 109
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2003
@@ -250,6 +250,94 @@ const bills: BillsConfig[] = [
   {
     index: 69,
     contractAddress: {
+      [ChainId.BSC]: '0xFebbb97b4e3C1BED9C7dCD4d2ED5f9b52FC58357',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.busd,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.bnbBusd,
+    earnToken: tokens.banana,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: true,
+    projectLink: 'https://apeswap.finance/',
+    twitter: 'https://twitter.com/ape_swap',
+    audit: 'https://paladinsec.co/projects/apeswap/',
+    initTime: { [ChainId.BSC]: 1683313200 },
+    initPrice: { [ChainId.BSC]: 0.0303088 },
+    soldOut: true,
+  },
+  {
+    index: 70,
+    contractAddress: {
+      [ChainId.BSC]: '0x7aD518872a75054c023B58619d141e3B677B5a13',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.busd,
+    quoteToken: tokens.usdc,
+    lpToken: tokens.usdcBusd,
+    earnToken: tokens.banana,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: true,
+    projectLink: 'https://apeswap.finance/',
+    twitter: 'https://twitter.com/ape_swap',
+    audit: 'https://paladinsec.co/projects/apeswap/',
+    initTime: { [ChainId.BSC]: 1683313200 },
+    initPrice: { [ChainId.BSC]: 0.0303088 },
+    soldOut: true,
+  },
+  {
+    index: 71,
+    contractAddress: {
+      [ChainId.BSC]: '0x2de795174ae129A3DE3EC65FC428427717eF1DA2',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.eth,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.bnbEth,
+    earnToken: tokens.banana,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: true,
+    projectLink: 'https://apeswap.finance/',
+    twitter: 'https://twitter.com/ape_swap',
+    audit: 'https://paladinsec.co/projects/apeswap/',
+    initTime: { [ChainId.BSC]: 1683313200 },
+    initPrice: { [ChainId.BSC]: 0.0303088 },
+    soldOut: true,
+  },
+  {
+    index: 72,
+    contractAddress: {
+      [ChainId.BSC]: '0x2Bde6DDad5D13CDD5baC871a405EB09779461E53',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.btc,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.bnbBtc,
+    earnToken: tokens.banana,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: true,
+    projectLink: 'https://apeswap.finance/',
+    twitter: 'https://twitter.com/ape_swap',
+    audit: 'https://paladinsec.co/projects/apeswap/',
+    initTime: { [ChainId.BSC]: 1683313200 },
+    initPrice: { [ChainId.BSC]: 0.0303088 },
+    soldOut: true,
+  },
+  {
+    index: 99,
+    contractAddress: {
       [ChainId.BSC]: '0x4Bd2Cc54D0420b4326Ff9C4185D08164dd434220',
     },
     billType: 'liquidity',
@@ -265,12 +353,12 @@ const bills: BillsConfig[] = [
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     audit: 'https://paladinsec.co/projects/apeswap/',
-    initTime: { [ChainId.BSC]: 1683313200 },
-    initPrice: { [ChainId.BSC]: 0.0303088 },
+    initTime: { [ChainId.BSC]: 1698868800 },
+    initPrice: { [ChainId.BSC]: 0.018669 },
     soldOut: false,
   },
   {
-    index: 70,
+    index: 98,
     contractAddress: {
       [ChainId.BSC]: '0x6AB6B1332EbB75620b9AF0937251011E0B4dc5b6',
     },
@@ -287,12 +375,12 @@ const bills: BillsConfig[] = [
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     audit: 'https://paladinsec.co/projects/apeswap/',
-    initTime: { [ChainId.BSC]: 1683313200 },
-    initPrice: { [ChainId.BSC]: 0.0303088 },
+    initTime: { [ChainId.BSC]: 1698868800 },
+    initPrice: { [ChainId.BSC]: 0.018669 },
     soldOut: false,
   },
   {
-    index: 71,
+    index: 97,
     contractAddress: {
       [ChainId.BSC]: '0x80B4B7555a8F3A62e87cA2394d3EE840617F7e86',
     },
@@ -309,12 +397,12 @@ const bills: BillsConfig[] = [
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     audit: 'https://paladinsec.co/projects/apeswap/',
-    initTime: { [ChainId.BSC]: 1683313200 },
-    initPrice: { [ChainId.BSC]: 0.0303088 },
+    initTime: { [ChainId.BSC]: 1698868800 },
+    initPrice: { [ChainId.BSC]: 0.018669 },
     soldOut: false,
   },
   {
-    index: 72,
+    index: 96,
     contractAddress: {
       [ChainId.BSC]: '0xaD790aFAA1cfC35d13089c3fb6d53C411934c673',
     },
@@ -331,8 +419,8 @@ const bills: BillsConfig[] = [
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     audit: 'https://paladinsec.co/projects/apeswap/',
-    initTime: { [ChainId.BSC]: 1683313200 },
-    initPrice: { [ChainId.BSC]: 0.0303088 },
+    initTime: { [ChainId.BSC]: 1698868800 },
+    initPrice: { [ChainId.BSC]: 0.018669 },
     soldOut: false,
   },
   {
