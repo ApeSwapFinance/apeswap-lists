@@ -246,6 +246,9 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.BSC]: 1682255105 },
     initPrice: { [ChainId.BSC]: 0.0390276 },
     soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
   },
   {
     index: 69,
@@ -356,6 +359,9 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.BSC]: 1698868800 },
     initPrice: { [ChainId.BSC]: 0.018669 },
     soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
   },
   {
     index: 98,
@@ -378,6 +384,9 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.BSC]: 1698868800 },
     initPrice: { [ChainId.BSC]: 0.018669 },
     soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
   },
   {
     index: 97,
@@ -400,6 +409,9 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.BSC]: 1698868800 },
     initPrice: { [ChainId.BSC]: 0.018669 },
     soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
   },
   {
     index: 96,
@@ -422,6 +434,9 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.BSC]: 1698868800 },
     initPrice: { [ChainId.BSC]: 0.018669 },
     soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
   },
   {
     index: 95,
