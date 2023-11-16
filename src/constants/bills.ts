@@ -5,7 +5,7 @@ import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } fr
 // BNB Largest ID: 1000
 // Polygon Largest ID: 109
 // Telos Largest ID: 215
-// Arbitrum Largest ID: 2003
+// Arbitrum Largest ID: 2004
 //Migration Bonds ID: 5007
 
 const bills: BillsConfig[] = [
@@ -3077,6 +3077,31 @@ const bills: BillsConfig[] = [
   /*
       Arbitrum Bills - ID started from 2001
   */
+  {
+    index: 2004,
+    contractAddress: {
+      [ChainId.ARBITRUM]: '0x04dA96Fb9F43491D3601F2b04424ABE7F12F700d',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.open,
+    quoteToken: tokens.eth,
+    lpToken: tokens.openEth,
+    earnToken: tokens.open,
+    billNnftAddress: {
+      [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
+    },
+    inactive: false,
+    projectLink: 'https://openworld.vision/',
+    twitter: 'https://twitter.com/OpenWorldVision',
+    audit: 'https://wiki.openworld.vision/audit',
+    initTime: { [ChainId.ARBITRUM]: 1700149206 },
+    initPrice: { [ChainId.ARBITRUM]: 0.003660886786 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+  },
   {
     index: 2003,
     contractAddress: {
