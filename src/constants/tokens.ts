@@ -3377,6 +3377,9 @@ const tokens: Record<string, Token> = {
     decimals: { [ChainId.ARBITRUM]: 18 },
     active: true,
     lpToken: true,
+    getLpUrl: {
+      [ChainId.ARBITRUM]: 'https://apeswap.finance/add-liquidity/ETH/0x58CB98A966F62aA6F2190eB3AA03132A0c3de3D5',
+    },
   },
 }
 
