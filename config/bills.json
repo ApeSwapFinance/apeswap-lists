@@ -1420,6 +1420,89 @@
     }
   },
   {
+    "index": 1005,
+    "contractAddress": {
+      "56": "0x1a4ceD5Fa314Cfe70995282b5c12d751532E0923"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "42161": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "CHAPZ",
+      "address": {
+        "56": "0x7B56748A3Ef9970A5bAe99c58aD8bC67b26c525F"
+      },
+      "decimals": {
+        "56": 10
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "CHAPZ-USDT",
+      "address": {
+        "56": "0x33F675E6802Bb5aA15Dd797D716436Df0D8Cd372"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "getLpUrl": {
+        "56": "https://pancakeswap.finance/v2/add/0x55d398326f99059fF775485246999027B3197955/0x7B56748A3Ef9970A5bAe99c58aD8bC67b26c525F"
+      }
+    },
+    "earnToken": {
+      "symbol": "CHAPZ",
+      "address": {
+        "56": "0x7B56748A3Ef9970A5bAe99c58aD8bC67b26c525F"
+      },
+      "decimals": {
+        "56": 10
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://chappyz.com/",
+    "twitter": "https://twitter.com/Chappyzcom",
+    "initTime": {
+      "56": 1700485200
+    },
+    "initPrice": {
+      "56": 0.002404165611
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    }
+  },
+  {
     "index": 1000,
     "contractAddress": {
       "56": "0x114BeBd8d3178d129Ec86c47519EdB5DbdD519cA"
@@ -10209,7 +10292,7 @@
     },
     "inactive": false,
     "projectLink": "https://openworld.vision/",
-    "twitter": "https://twitter.com/OpenWorldVision",
+    "twitter": "https://twitter.com/OpenWorldFi",
     "audit": "https://wiki.openworld.vision/audit",
     "initTime": {
       "42161": 1700149206

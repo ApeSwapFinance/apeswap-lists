@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1000
+// BNB Largest ID: 1005
 // Polygon Largest ID: 109
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
@@ -433,6 +433,30 @@ const bills: BillsConfig[] = [
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1699621200 },
     initPrice: { [ChainId.BSC]: 0.02559786 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+  },
+  {
+    index: 1005,
+    contractAddress: {
+      [ChainId.BSC]: '0x1a4ceD5Fa314Cfe70995282b5c12d751532E0923',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.chapz,
+    lpToken: tokens.chapzUsdt_PCS,
+    earnToken: tokens.chapz,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://chappyz.com/',
+    twitter: 'https://twitter.com/Chappyzcom',
+    initTime: { [ChainId.BSC]: 1700485200 },
+    initPrice: { [ChainId.BSC]: 0.002404165611 },
     soldOut: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -3093,7 +3117,7 @@ const bills: BillsConfig[] = [
     },
     inactive: false,
     projectLink: 'https://openworld.vision/',
-    twitter: 'https://twitter.com/OpenWorldVision',
+    twitter: 'https://twitter.com/OpenWorldFi',
     audit: 'https://wiki.openworld.vision/audit',
     initTime: { [ChainId.ARBITRUM]: 1700149206 },
     initPrice: { [ChainId.ARBITRUM]: 0.003660886786 },

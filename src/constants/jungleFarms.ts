@@ -693,6 +693,7 @@ const jungleFarms: JungleFarmConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0xd98dc646823054E9c5e194b2aAc2C277cFba17FA',
     },
+    bonusEndBlock: 33551151,
     projectLink: 'http://livegreencoin.com/',
     twitter: 'https://twitter.com/LiveGreenCoin1',
     audit: 'https://www.certik.com/projects/livegreencoin',

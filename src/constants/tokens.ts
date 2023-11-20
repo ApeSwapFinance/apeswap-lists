@@ -2049,6 +2049,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  chapz: {
+    symbol: 'CHAPZ',
+    address: {
+      [ChainId.BSC]: '0x7B56748A3Ef9970A5bAe99c58aD8bC67b26c525F',
+    },
+    decimals: { [ChainId.BSC]: 10 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
   apex: {
     symbol: 'APEX',
     address: {
@@ -2994,6 +3005,22 @@ const tokens: Record<string, Token> = {
     },
     getLpUrl: {
       [ChainId.BSC]: 'https://pancakeswap.finance/v2/add/BNB/0x631C2f0EdABaC799f07550aEE4fF0Bf7fd35212B',
+    },
+  },
+  chapzUsdt_PCS: {
+    symbol: 'CHAPZ-USDT',
+    address: {
+      [ChainId.BSC]: '0x33F675E6802Bb5aA15Dd797D716436Df0D8Cd372',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl: {
+      [ChainId.BSC]:
+        'https://pancakeswap.finance/v2/add/0x55d398326f99059fF775485246999027B3197955/0x7B56748A3Ef9970A5bAe99c58aD8bC67b26c525F',
     },
   },
   cgvBnb_PCS: {
