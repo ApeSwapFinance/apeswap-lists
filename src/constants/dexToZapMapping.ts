@@ -8,7 +8,7 @@ export const dexToZapMapping: Record<LiquidityDex, Partial<Record<ChainId, ZapVe
     [ChainId.MATIC]: ZapVersion.ZapV1,
     [ChainId.MATIC_TESTNET]: ZapVersion.ZapV1,
     [ChainId.MAINNET]: ZapVersion.ZapV1,
-    [ChainId.ARBITRUM]: ZapVersion.ZapV1,
+    [ChainId.ARBITRUM]: ZapVersion.External,
     [ChainId.TLOS]: ZapVersion.ZapV1,
   },
   [LiquidityDex.Algebra]: {
