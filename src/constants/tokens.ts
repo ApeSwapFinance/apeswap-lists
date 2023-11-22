@@ -475,6 +475,16 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  grngr: {
+    symbol: 'GRNGR',
+    address: {
+      [ChainId.BSC]: '0xf4cd3a31Ab4718e08a77C2E9E3f4Ba0372806DFe',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+  },
   txl: {
     symbol: 'TXL',
     address: {

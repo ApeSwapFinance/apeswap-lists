@@ -10,6 +10,31 @@ import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } fr
 
 const bills: BillsConfig[] = [
   {
+    index: 123123123123, //MIGRATION BOND BANANA 2 MONTH
+    contractAddress: {
+      [ChainId.BSC]: '0x41B5d779e48d43CEAAA67e458B2108D8Ac847120',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.grngr,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xce112E14e23B7700Ad4915290EA24575F01609fa',
+    },
+    inactive: false,
+    projectLink: 'https://apeswap.finance/',
+    twitter: 'https://twitter.com/ape_swap',
+    audit: 'https://paladinsec.co/projects/apeswap/',
+    initTime: { [ChainId.BSC]: 1697115600 },
+    initPrice: { [ChainId.BSC]: 0.05 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+  },
+  {
     index: 5000, //MIGRATION BOND BANANA 2 MONTH
     contractAddress: {
       [ChainId.BSC]: '0x302f1120aDA3f40aeD3F6410fad75e8428576a1F',
