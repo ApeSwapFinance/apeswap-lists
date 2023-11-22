@@ -239,7 +239,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
+    inactive: true,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ApeBond',
     audit: 'https://paladinsec.co/projects/apeswap/',
@@ -352,13 +352,13 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
+    inactive: true,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ApeBond',
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1699621200 },
     initPrice: { [ChainId.BSC]: 0.02559786 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -377,13 +377,13 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
+    inactive: true,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ApeBond',
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1699621200 },
     initPrice: { [ChainId.BSC]: 0.02559786 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -402,13 +402,13 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
+    inactive: true,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ApeBond',
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1699621200 },
     initPrice: { [ChainId.BSC]: 0.02559786 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -427,13 +427,13 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
+    inactive: true,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ApeBond',
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1699621200 },
     initPrice: { [ChainId.BSC]: 0.02559786 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -441,13 +441,13 @@ const bills: BillsConfig[] = [
   {
     index: 1006,
     contractAddress: {
-      [ChainId.BSC]: '0x5c43Ad9E1241b8432cF34FAf070A93E7676e9263',
+      [ChainId.BSC]: '0x286483b8b5E30d89b8B39C2817A9c9777e22C2C1',
     },
-    billType: 'liquidity',
+    billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.busd,
-    quoteToken: tokens.rpg,
-    lpToken: tokens.rpgBusd_PCS,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
     earnToken: tokens.rpg,
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
@@ -456,7 +456,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://revolvegames.io/',
     twitter: 'https://twitter.com/RevolveGamesio',
     audit: 'https://drive.google.com/file/d/1lJdF7lEM3KQZmOW1p42Gm0eMbp7DF82C/view',
-    initTime: { [ChainId.BSC]: 1700658000 },
+    initTime: { [ChainId.BSC]: 1700676000 },
     initPrice: { [ChainId.BSC]: 0.022797917366 },
     soldOut: false,
     billArt: {
