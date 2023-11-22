@@ -3034,22 +3034,6 @@ const tokens: Record<string, Token> = {
         'https://pancakeswap.finance/v2/add/0x55d398326f99059fF775485246999027B3197955/0x7B56748A3Ef9970A5bAe99c58aD8bC67b26c525F',
     },
   },
-  rpgBusd_PCS: {
-    symbol: 'RPG-BUSD',
-    address: {
-      [ChainId.BSC]: '0xA9C815B975B72172d220065319902B176c527D72',
-    },
-    decimals: { [ChainId.BSC]: 18 },
-    active: true,
-    lpToken: true,
-    liquidityDex: {
-      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
-    },
-    getLpUrl: {
-      [ChainId.BSC]:
-        'https://pancakeswap.finance/v2/add/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56/0x01E0d17a533E5930A349C2BB71304F04F20AB12B',
-    },
-  },
   cgvBnb_PCS: {
     symbol: 'CGV-BNB',
     address: {

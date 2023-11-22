@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1006
+// BNB Largest ID: 1005
 // Polygon Largest ID: 109
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
@@ -433,31 +433,6 @@ const bills: BillsConfig[] = [
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1699621200 },
     initPrice: { [ChainId.BSC]: 0.02559786 },
-    soldOut: false,
-    billArt: {
-      collection: BillArtCollection.ApeBond_Collection1,
-    },
-  },
-  {
-    index: 1006,
-    contractAddress: {
-      [ChainId.BSC]: '0x5c43Ad9E1241b8432cF34FAf070A93E7676e9263',
-    },
-    billType: 'liquidity',
-    billVersion: BillVersion.V2,
-    token: tokens.busd,
-    quoteToken: tokens.rpg,
-    lpToken: tokens.rpgBusd_PCS,
-    earnToken: tokens.rpg,
-    billNnftAddress: {
-      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
-    },
-    inactive: false,
-    projectLink: 'https://revolvegames.io/',
-    twitter: 'https://twitter.com/RevolveGamesio',
-    audit: 'https://drive.google.com/file/d/1lJdF7lEM3KQZmOW1p42Gm0eMbp7DF82C/view',
-    initTime: { [ChainId.BSC]: 1700658000 },
-    initPrice: { [ChainId.BSC]: 0.022797917366 },
     soldOut: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
