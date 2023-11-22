@@ -1420,6 +1420,86 @@
     }
   },
   {
+    "index": 1006,
+    "contractAddress": {
+      "56": "0x5c43Ad9E1241b8432cF34FAf070A93E7676e9263"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "BUSD",
+      "address": {
+        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "RPG",
+      "address": {
+        "56": "0x01E0d17a533E5930A349C2BB71304F04F20AB12B"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "RPG-BUSD",
+      "address": {
+        "56": "0xA9C815B975B72172d220065319902B176c527D72"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "getLpUrl": {
+        "56": "https://pancakeswap.finance/v2/add/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56/0x01E0d17a533E5930A349C2BB71304F04F20AB12B"
+      }
+    },
+    "earnToken": {
+      "symbol": "RPG",
+      "address": {
+        "56": "0x01E0d17a533E5930A349C2BB71304F04F20AB12B"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://revolvegames.io/",
+    "twitter": "https://twitter.com/RevolveGamesio",
+    "audit": "https://drive.google.com/file/d/1lJdF7lEM3KQZmOW1p42Gm0eMbp7DF82C/view",
+    "initTime": {
+      "56": 1700658000
+    },
+    "initPrice": {
+      "56": 0.022797917366
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    }
+  },
+  {
     "index": 1005,
     "contractAddress": {
       "56": "0x1a4ceD5Fa314Cfe70995282b5c12d751532E0923"
