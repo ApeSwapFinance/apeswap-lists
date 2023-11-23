@@ -221,9 +221,9 @@
       "active": true
     },
     "earnToken": {
-      "symbol": "GRNGR",
+      "symbol": "ACF",
       "address": {
-        "56": "0xf4cd3a31Ab4718e08a77C2E9E3f4Ba0372806DFe"
+        "56": "0x5C2047b2Ca5A2F561e06804ead73AF116845C235"
       },
       "decimals": {
         "56": 18

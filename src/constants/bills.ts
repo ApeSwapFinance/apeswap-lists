@@ -69,7 +69,7 @@ const bills: BillsConfig[] = [
     token: tokens.usdt,
     quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
-    earnToken: tokens.grngr,
+    earnToken: tokens.acf,
     billNnftAddress: {
       [ChainId.BSC]: '0xce112E14e23B7700Ad4915290EA24575F01609fa',
     },
