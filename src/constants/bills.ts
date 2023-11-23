@@ -35,6 +35,56 @@ const bills: BillsConfig[] = [
     },
   },
   {
+    index: 123123123124, //ACF 90 DAYS
+    contractAddress: {
+      [ChainId.BSC]: '0x8aA5e11752e7AF51ACcD88AcFd417F22539c36A5',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.acf,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xce112E14e23B7700Ad4915290EA24575F01609fa',
+    },
+    inactive: false,
+    projectLink: 'https://apeswap.finance/',
+    twitter: 'https://twitter.com/ape_swap',
+    audit: 'https://paladinsec.co/projects/apeswap/',
+    initTime: { [ChainId.BSC]: 1697115600 },
+    initPrice: { [ChainId.BSC]: 0.05 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+  },
+  {
+    index: 123123123125, //ACF 60 DAYS
+    contractAddress: {
+      [ChainId.BSC]: '0x77A99ff74001394643DD4d617d3A776e550e8433',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.grngr,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xce112E14e23B7700Ad4915290EA24575F01609fa',
+    },
+    inactive: false,
+    projectLink: 'https://apeswap.finance/',
+    twitter: 'https://twitter.com/ape_swap',
+    audit: 'https://paladinsec.co/projects/apeswap/',
+    initTime: { [ChainId.BSC]: 1697115600 },
+    initPrice: { [ChainId.BSC]: 0.05 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+  },
+  {
     index: 5000, //MIGRATION BOND BANANA 2 MONTH
     contractAddress: {
       [ChainId.BSC]: '0x302f1120aDA3f40aeD3F6410fad75e8428576a1F',
