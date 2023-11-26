@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1006
+// BNB Largest ID: 1008
 // Polygon Largest ID: 109
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
@@ -434,6 +434,56 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.BSC]: 1699621200 },
     initPrice: { [ChainId.BSC]: 0.02559786 },
     soldOut: true,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+  },
+  {
+    index: 1007, //ACF 60 DAYS
+    contractAddress: {
+      [ChainId.BSC]: '0x6D7637683eaD28F775F56506602191fdE417fF60',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.acf,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://ape.bond/',
+    twitter: 'https://twitter.com/apebond',
+    audit: 'https://paladinsec.co/projects/apeswap/',
+    initTime: { [ChainId.BSC]: 1702472400 },
+    initPrice: { [ChainId.BSC]: 1 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+  },
+  {
+    index: 1008,
+    contractAddress: {
+      [ChainId.BSC]: '0xdBBa7C8F6Db6fA1057E58Cc0307d26e7e3F0848E',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.aitech,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://ai-tech.io/',
+    twitter: 'https://twitter.com/AITECHio',
+    audit: 'https://skynet.certik.com/projects/solidus-ai-tech',
+    initTime: { [ChainId.BSC]: 1700992815 },
+    initPrice: { [ChainId.BSC]: 0.02511437248 },
+    soldOut: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },

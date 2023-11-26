@@ -835,6 +835,16 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  acf: {
+    symbol: 'ACF',
+    address: {
+      [ChainId.BSC]: '0x5C2047b2Ca5A2F561e06804ead73AF116845C235',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+  },
   lime: {
     symbol: 'LIME',
     address: {
