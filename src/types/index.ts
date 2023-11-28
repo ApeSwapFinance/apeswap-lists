@@ -90,6 +90,7 @@ export enum BillArtCollection {
   ApeSwap_Collection1 = 'ApeSwap_Collection1',
   Quickswap_Collection1 = 'Quickswap_Collection1',
   ApeBond_Collection1 = 'ApeBond_Collection1',
+  CexFundBond_Collection1 = 'CexFundBond_Collection1',
 }
 
 export const defaultBillArtCollection = BillArtCollection.ApeSwap_Collection1

@@ -3190,7 +3190,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
     },
-    inactive: false,
+    inactive: true,
     projectLink: 'https://openworld.vision/',
     twitter: 'https://twitter.com/OpenWorldFi',
     audit: 'https://wiki.openworld.vision/audit',
