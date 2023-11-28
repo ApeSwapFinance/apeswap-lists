@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1008
+// BNB Largest ID: 1009
 // Polygon Largest ID: 109
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
@@ -458,6 +458,31 @@ const bills: BillsConfig[] = [
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1702472400 },
     initPrice: { [ChainId.BSC]: 1 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+  },
+  {
+    index: 1009,
+    contractAddress: {
+      [ChainId.BSC]: '0x87987112B74bed09D5ccbE17cAbd8EEC3e6Ff904',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.hgpt,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://hypergpt.ai/',
+    twitter: 'https://twitter.com/hypergpt',
+    audit: 'https://skynet.certik.com/projects/hypergpt?utm_source=CMC&utm_campaign=AuditByCertiKLink',
+    initTime: { [ChainId.BSC]: 1701205200 },
+    initPrice: { [ChainId.BSC]: 0.00543082778284093 },
     soldOut: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
