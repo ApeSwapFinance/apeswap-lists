@@ -109,7 +109,7 @@ export interface BillsConfig {
   index: number
   contractAddress: Partial<Record<ChainId, string>>
   billVersion: BillVersion
-  billType: 'liquidity' | 'reserve' | 'launch' | 'migration'
+  billType: 'liquidity' | 'reserve' | 'launch' | 'migration' | 'cex'
   token: Token
   quoteToken: Token
   lpToken: Token
