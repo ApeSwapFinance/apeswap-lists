@@ -781,7 +781,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: '0xD125443F38A69d776177c2B9c041f462936F8218',
     },
     decimals: {
-      [ChainId.MATIC]: 2,
+      [ChainId.MATIC]: 18,
     },
     liquidityDex: {
       [ChainId.MATIC]: LiquidityDex.Algebra,
