@@ -9561,55 +9561,43 @@
   {
     "index": 111,
     "contractAddress": {
-      "137": "0xCb1810bD63EBc9ACEe97af1cecc223872bD9a1d3"
+      "137": "0x9f4692273dbE4Ca8987fF4d76B5E08ADCCa0f867"
     },
     "billType": "reserve",
     "billVersion": "V2",
     "token": {
-      "symbol": "USDC",
+      "symbol": "DAI",
       "address": {
-        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
-        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
-        "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
+        "56": "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3",
+        "137": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063"
       },
       "decimals": {
-        "40": 6,
         "56": 18,
-        "137": 6,
-        "42161": 6
+        "137": 18
       },
       "active": true
     },
     "quoteToken": {
-      "symbol": "USDC",
+      "symbol": "DAI",
       "address": {
-        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
-        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
-        "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
+        "56": "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3",
+        "137": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063"
       },
       "decimals": {
-        "40": 6,
         "56": 18,
-        "137": 6,
-        "42161": 6
+        "137": 18
       },
       "active": true
     },
     "lpToken": {
-      "symbol": "USDC",
+      "symbol": "DAI",
       "address": {
-        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
-        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
-        "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
+        "56": "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3",
+        "137": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063"
       },
       "decimals": {
-        "40": 6,
         "56": 18,
-        "137": 6,
-        "42161": 6
+        "137": 18
       },
       "active": true
     },

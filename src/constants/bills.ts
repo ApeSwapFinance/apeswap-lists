@@ -2894,13 +2894,13 @@ const bills: BillsConfig[] = [
   {
     index: 111,
     contractAddress: {
-      [ChainId.MATIC]: '0xCb1810bD63EBc9ACEe97af1cecc223872bD9a1d3',
+      [ChainId.MATIC]: '0x9f4692273dbE4Ca8987fF4d76B5E08ADCCa0f867',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdc,
-    quoteToken: tokens.usdc,
-    lpToken: tokens.usdc,
+    token: tokens.dai,
+    quoteToken: tokens.dai,
+    lpToken: tokens.dai,
     earnToken: tokens.elon,
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
