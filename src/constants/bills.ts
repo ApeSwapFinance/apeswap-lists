@@ -2674,6 +2674,54 @@ const bills: BillsConfig[] = [
     Polygon Bills
   */
   {
+    index: 122,
+    contractAddress: {
+      [ChainId.MATIC]: '0x65E434F2F51Cbc13Ff9C94AD432De3B8730AC654',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.ixt,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://planetix.com/',
+    twitter: 'https://twitter.com/Planetix0',
+    initTime: { [ChainId.MATIC]: 1701892800 },
+    initPrice: { [ChainId.MATIC]: 0.347018667988457 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+  },
+  {
+    index: 121,
+    contractAddress: {
+      [ChainId.MATIC]: '0xf0DCB0fba07286E24f3830580edD96910034eE0C',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.ixt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.ixtUsdt_QS,
+    earnToken: tokens.ixt,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://planetix.com/',
+    twitter: 'https://twitter.com/Planetix0',
+    initTime: { [ChainId.MATIC]: 1701892800 },
+    initPrice: { [ChainId.MATIC]: 0.347018667988457 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+  },
+  {
     index: 120,
     contractAddress: {
       [ChainId.MATIC]: '0xD034e455eE1Cc14bF75e7a675EC1a269E861420F',
@@ -2690,7 +2738,7 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://firebot.gg/',
     twitter: 'https://twitter.com/FireBotDAO',
-    initTime: { [ChainId.MATIC]: 1684274400 },
+    initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.00254 },
     soldOut: false,
     billArt: {
@@ -2700,7 +2748,7 @@ const bills: BillsConfig[] = [
   {
     index: 119,
     contractAddress: {
-      [ChainId.MATIC]: '0x1D7Ab12Bd0d9f630B4B05bbd6119dF49480B683C',
+      [ChainId.MATIC]: '0xB1c722e051a5912eBc75b33A6E3DfA49466256Ba',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
@@ -2714,7 +2762,7 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://metatrace.me/',
     twitter: 'https://twitter.com/trace_meta',
-    initTime: { [ChainId.MATIC]: 1684274400 },
+    initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.00254 },
     soldOut: false,
     billArt: {
@@ -2739,7 +2787,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.orbs.com/overview/',
     twitter: 'https://twitter.com/orbs_network',
     audit: 'https://github.com/orbs-network/orbs-token/blob/master/SmartDec%20OrbsToken%20Security%20Audit.pdf',
-    initTime: { [ChainId.MATIC]: 1684274400 },
+    initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.00254 },
     soldOut: false,
     billArt: {
@@ -2763,7 +2811,7 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://www.veloce.gg/',
     twitter: 'https://twitter.com/vextoken',
-    initTime: { [ChainId.MATIC]: 1684274400 },
+    initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.00254 },
     soldOut: false,
     billArt: {
@@ -2787,7 +2835,7 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://www.yellow.org/duckies',
     twitter: 'https://twitter.com/Yellow',
-    initTime: { [ChainId.MATIC]: 1684274400 },
+    initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.00254 },
     soldOut: false,
     billArt: {
@@ -2811,7 +2859,7 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://bitcone.lol/',
     twitter: 'https://twitter.com/BitCone_CONE',
-    initTime: { [ChainId.MATIC]: 1684274400 },
+    initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.00254 },
     soldOut: false,
     billArt: {
@@ -2835,7 +2883,7 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://www.forestknight.io/',
     twitter: 'https://twitter.com/ForestKnight_io',
-    initTime: { [ChainId.MATIC]: 1684274400 },
+    initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.00254 },
     soldOut: false,
     billArt: {
@@ -2860,7 +2908,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.borderless.money/',
     twitter: 'https://twitter.com/Borderless_ReFi',
     audit: 'https://www.borderless.money/bom_secaudit_blockapex.pdf',
-    initTime: { [ChainId.MATIC]: 1684274400 },
+    initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.00254 },
     soldOut: false,
     billArt: {
@@ -2884,7 +2932,7 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://blockwallet.io/',
     twitter: 'https://twitter.com/GetBlockWallet',
-    initTime: { [ChainId.MATIC]: 1684274400 },
+    initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.00254 },
     soldOut: false,
     billArt: {
@@ -2908,7 +2956,7 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://dogelonmars.com/',
     twitter: 'https://twitter.com/dogelonmars',
-    initTime: { [ChainId.MATIC]: 1684274400 },
+    initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.00254 },
     soldOut: false,
     billArt: {
@@ -2933,7 +2981,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://genso.game/en/',
     twitter: 'https://twitter.com/genso_meta',
     audit: 'https://skynet.certik.com/projects/gensokishi-online-metaworld',
-    initTime: { [ChainId.MATIC]: 1684274400 },
+    initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.00254 },
     soldOut: false,
     billArt: {

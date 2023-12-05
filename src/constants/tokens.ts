@@ -762,6 +762,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  ixt: {
+    symbol: 'IXT',
+    address: {
+      [ChainId.MATIC]: '0xE06Bd4F5aAc8D0aA337D13eC88dB6defC6eAEefE',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.QuickswapV2,
+    },
+    active: true,
+  },
   trc: {
     symbol: 'TRC',
     address: {
@@ -3566,6 +3579,20 @@ const tokens: Record<string, Token> = {
     symbol: 'ORBS-USDC',
     address: {
       [ChainId.MATIC]: '0xB2b6D423e535b57aaD06E9866803B95fB66152EA',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.QuickswapV2,
+    },
+    active: true,
+    lpToken: true,
+  },
+  ixtUsdt_QS: {
+    symbol: 'IXT-USDT',
+    address: {
+      [ChainId.MATIC]: '0x304e57c752E854E9A233Ae82fcC42F7568b81180',
     },
     decimals: {
       [ChainId.MATIC]: 18,
