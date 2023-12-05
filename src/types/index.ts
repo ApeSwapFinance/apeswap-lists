@@ -91,6 +91,7 @@ export enum BillArtCollection {
   Quickswap_Collection1 = 'Quickswap_Collection1',
   ApeBond_Collection1 = 'ApeBond_Collection1',
   CexFundBond_Collection1 = 'CexFundBond_Collection1',
+  PlanetIX_Colection1 = 'PlanetIX_Colection1',
 }
 
 export const defaultBillArtCollection = BillArtCollection.ApeSwap_Collection1
@@ -109,7 +110,7 @@ export interface BillsConfig {
   index: number
   contractAddress: Partial<Record<ChainId, string>>
   billVersion: BillVersion
-  billType: 'liquidity' | 'reserve' | 'launch' | 'migration'
+  billType: 'liquidity' | 'reserve' | 'launch' | 'migration' | 'cex'
   token: Token
   quoteToken: Token
   lpToken: Token
