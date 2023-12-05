@@ -2694,7 +2694,7 @@ const bills: BillsConfig[] = [
     initPrice: { [ChainId.MATIC]: 0.347018667988457 },
     soldOut: false,
     billArt: {
-      collection: BillArtCollection.Quickswap_Collection1,
+      collection: BillArtCollection.PlanetIX_Collection1,
     },
   },
   {
@@ -2718,7 +2718,7 @@ const bills: BillsConfig[] = [
     initPrice: { [ChainId.MATIC]: 0.347018667988457 },
     soldOut: false,
     billArt: {
-      collection: BillArtCollection.Quickswap_Collection1,
+      collection: BillArtCollection.PlanetIX_Collection1,
     },
   },
   {
@@ -2869,7 +2869,7 @@ const bills: BillsConfig[] = [
   {
     index: 114,
     contractAddress: {
-      [ChainId.MATIC]: '0xc8788B8bE08f8D92A0052F70AaA092Ca0806942E',
+      [ChainId.MATIC]: '0x535fD347ea04a0c55E26e13769C0403f9199281d',
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,

@@ -8879,7 +8879,7 @@
     },
     "soldOut": false,
     "billArt": {
-      "collection": "Quickswap_Collection1"
+      "collection": "PlanetIX_Collection1"
     }
   },
   {
@@ -8959,7 +8959,7 @@
     },
     "soldOut": false,
     "billArt": {
-      "collection": "Quickswap_Collection1"
+      "collection": "PlanetIX_Collection1"
     }
   },
   {
@@ -9483,7 +9483,7 @@
   {
     "index": 114,
     "contractAddress": {
-      "137": "0xc8788B8bE08f8D92A0052F70AaA092Ca0806942E"
+      "137": "0x535fD347ea04a0c55E26e13769C0403f9199281d"
     },
     "billType": "liquidity",
     "billVersion": "V2",
