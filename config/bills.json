@@ -8886,7 +8886,8 @@
     "soldOut": false,
     "billArt": {
       "collection": "Quickswap_Collection1"
-    }
+    },
+    "bondPartner": "QuickSwap"
   },
   {
     "index": 118,
@@ -8967,7 +8968,8 @@
     "soldOut": false,
     "billArt": {
       "collection": "Quickswap_Collection1"
-    }
+    },
+    "bondPartner": "QuickSwap"
   },
   {
     "index": 117,
@@ -9052,7 +9054,8 @@
     "soldOut": false,
     "billArt": {
       "collection": "Quickswap_Collection1"
-    }
+    },
+    "bondPartner": "QuickSwap"
   },
   {
     "index": 116,
@@ -9137,7 +9140,8 @@
     "soldOut": false,
     "billArt": {
       "collection": "Quickswap_Collection1"
-    }
+    },
+    "bondPartner": "QuickSwap"
   },
   {
     "index": 115,
@@ -9228,7 +9232,8 @@
     "soldOut": false,
     "billArt": {
       "collection": "Quickswap_Collection1"
-    }
+    },
+    "bondPartner": "QuickSwap"
   },
   {
     "index": 114,
@@ -9310,7 +9315,8 @@
     "soldOut": false,
     "billArt": {
       "collection": "Quickswap_Collection1"
-    }
+    },
+    "bondPartner": "QuickSwap"
   },
   {
     "index": 113,
@@ -9391,7 +9397,8 @@
     "soldOut": false,
     "billArt": {
       "collection": "Quickswap_Collection1"
-    }
+    },
+    "bondPartner": "QuickSwap"
   },
   {
     "index": 112,
@@ -9471,7 +9478,8 @@
     "soldOut": false,
     "billArt": {
       "collection": "Quickswap_Collection1"
-    }
+    },
+    "bondPartner": "QuickSwap"
   },
   {
     "index": 111,
@@ -9544,7 +9552,8 @@
     "soldOut": false,
     "billArt": {
       "collection": "Quickswap_Collection1"
-    }
+    },
+    "bondPartner": "QuickSwap"
   },
   {
     "index": 110,
@@ -9625,7 +9634,8 @@
     "soldOut": false,
     "billArt": {
       "collection": "Quickswap_Collection1"
-    }
+    },
+    "bondPartner": "QuickSwap"
   },
   {
     "index": 109,

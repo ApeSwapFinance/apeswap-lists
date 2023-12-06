@@ -2745,6 +2745,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
+    bondPartner: 'QuickSwap',
   },
   {
     index: 118,
@@ -2770,6 +2771,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
+    bondPartner: 'QuickSwap',
   },
   {
     index: 117,
@@ -2794,6 +2796,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
+    bondPartner: 'QuickSwap',
   },
   {
     index: 116,
@@ -2818,6 +2821,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
+    bondPartner: 'QuickSwap',
   },
   {
     index: 115,
@@ -2842,6 +2846,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
+    bondPartner: 'QuickSwap',
   },
   {
     index: 114,
@@ -2866,6 +2871,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
+    bondPartner: 'QuickSwap',
   },
   {
     index: 113,
@@ -2891,6 +2897,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
+    bondPartner: 'QuickSwap',
   },
   {
     index: 112,
@@ -2915,6 +2922,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
+    bondPartner: 'QuickSwap',
   },
   {
     index: 111,
@@ -2939,6 +2947,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
+    bondPartner: 'QuickSwap',
   },
   {
     index: 110,
@@ -2964,6 +2973,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
+    bondPartner: 'QuickSwap',
   },
   {
     index: 109,
