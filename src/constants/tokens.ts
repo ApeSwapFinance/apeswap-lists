@@ -3532,6 +3532,10 @@ const tokens: Record<string, Token> = {
     },
     active: true,
     lpToken: true,
+    getLpUrl: {
+      [ChainId.MATIC]:
+        'https://quickswap.exchange/#/pools/v2?currency0=0xA3c322Ad15218fBFAEd26bA7f616249f7705D945&currency1=0xc2132D05D31c914a87C6611C10748AEb04B58e8F',
+    },
   },
   blankUsdc_QS: {
     symbol: 'BLANK-USDC',
@@ -3546,6 +3550,10 @@ const tokens: Record<string, Token> = {
     },
     active: true,
     lpToken: true,
+    getLpUrl: {
+      [ChainId.MATIC]:
+        'https://quickswap.exchange/#/pools/v2?currency0=0xf4C83080E80AE530d6f8180572cBbf1Ac9D5d435&currency1=0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174',
+    },
   },
   bomUsdc_QS: {
     symbol: 'BOM-USDC',
@@ -3560,6 +3568,10 @@ const tokens: Record<string, Token> = {
     },
     active: true,
     lpToken: true,
+    getLpUrl: {
+      [ChainId.MATIC]:
+        'https://quickswap.exchange/#/pools/v2?currency0=0xc59132FBdF8dE8fbE510F568a5D831C991B4fC38&currency1=0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174',
+    },
   },
   knightEth_QS: {
     symbol: 'ETH-KNIGHT',
@@ -3574,6 +3586,10 @@ const tokens: Record<string, Token> = {
     },
     active: true,
     lpToken: true,
+    getLpUrl: {
+      [ChainId.MATIC]:
+        'https://quickswap.exchange/#/pools/v2?currency0=0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619&currency1=0x4455eF8B4B4A007a93DaA12DE63a47EEAC700D9D',
+    },
   },
   orbsUsdc_QS: {
     symbol: 'ORBS-USDC',
@@ -3588,6 +3604,10 @@ const tokens: Record<string, Token> = {
     },
     active: true,
     lpToken: true,
+    getLpUrl: {
+      [ChainId.MATIC]:
+        'https://quickswap.exchange/#/pools/v2?currency0=0x614389EaAE0A6821DC49062D56BDA3d9d45Fa2ff&currency1=0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174',
+    },
   },
   ixtUsdt_QS: {
     symbol: 'IXT-USDT',
@@ -3602,6 +3622,10 @@ const tokens: Record<string, Token> = {
     },
     active: true,
     lpToken: true,
+    getLpUrl: {
+      [ChainId.MATIC]:
+        'https://quickswap.exchange/#/pools/v2?currency0=0xE06Bd4F5aAc8D0aA337D13eC88dB6defC6eAEefE&currency1=0xc2132D05D31c914a87C6611C10748AEb04B58e8F',
+    },
   },
   chrpBnb: {
     symbol: 'CHRP-BNB',
