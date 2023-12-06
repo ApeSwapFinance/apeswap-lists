@@ -2985,7 +2985,7 @@ const bills: BillsConfig[] = [
     audit: 'https://hacken.io/wp-content/uploads/2022/07/Wombat_20072022_SCAudit_Report_2.pdf',
     initTime: { [ChainId.MATIC]: 1684274400 },
     initPrice: { [ChainId.MATIC]: 0.00254 },
-    soldOut: false,
+    soldOut: true,
   },
   {
     index: 108,
