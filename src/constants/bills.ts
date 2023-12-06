@@ -2776,7 +2776,7 @@ const bills: BillsConfig[] = [
   {
     index: 117,
     contractAddress: {
-      [ChainId.MATIC]: '0x46722AA9c20e72D2ad7c20285351A1e60fDc4b72',
+      [ChainId.MATIC]: '0x6017141f8477591E3CA213E513098D11FfD638de',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
