@@ -38,6 +38,7 @@ export enum ZapVersion {
   // NOTE: ZapV2 is not yet operational
   // ZapV2 = 'ZapV2', //Second inhouse built dynamic multicall zap
   Wido = 'Wido', //https://www.joinwido.com/
+  SoulZap = 'SoulZap',
 }
 
 export enum Protocols {

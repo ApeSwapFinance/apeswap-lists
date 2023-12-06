@@ -3,7 +3,7 @@ import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
 // BNB Largest ID: 1009
-// Polygon Largest ID: 109
+// Polygon Largest ID: 121
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
 //Migration Bonds ID: 5007
@@ -2673,6 +2673,298 @@ const bills: BillsConfig[] = [
   /*
     Polygon Bills
   */
+
+  /*   {
+    index: 121,
+    contractAddress: {
+      [ChainId.MATIC]: '0x65E434F2F51Cbc13Ff9C94AD432De3B8730AC654',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.ixt,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://planetix.com/',
+    twitter: 'https://twitter.com/Planetix0',
+    initTime: { [ChainId.MATIC]: 1701892800 },
+    initPrice: { [ChainId.MATIC]: 0.347018667988457 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.PlanetIX_Collection1,
+    },
+  },
+  {
+    index: 120,
+    contractAddress: {
+      [ChainId.MATIC]: '0xf0DCB0fba07286E24f3830580edD96910034eE0C',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.ixt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.ixtUsdt_QS,
+    earnToken: tokens.ixt,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://planetix.com/',
+    twitter: 'https://twitter.com/Planetix0',
+    initTime: { [ChainId.MATIC]: 1701892800 },
+    initPrice: { [ChainId.MATIC]: 0.347018667988457 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.PlanetIX_Collection1,
+    },
+  }, */
+  {
+    index: 119,
+    contractAddress: {
+      [ChainId.MATIC]: '0x972824E0EC4987Af972F2086fAb2547Fbf7B4d27',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.eth,
+    quoteToken: tokens.eth,
+    lpToken: tokens.eth,
+    earnToken: tokens.fbx,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://firebot.gg/',
+    twitter: 'https://twitter.com/FireBotDAO',
+    initTime: { [ChainId.MATIC]: 1701892800 },
+    initPrice: { [ChainId.MATIC]: 0.00254 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+  },
+  {
+    index: 118,
+    contractAddress: {
+      [ChainId.MATIC]: '0x87da4b12dbEF3817570Ed32283E2FED85FBf1B93',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.orbs,
+    quoteToken: tokens.usdc,
+    lpToken: tokens.orbsUsdc_QS,
+    earnToken: tokens.orbs,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://www.orbs.com/overview/',
+    twitter: 'https://twitter.com/orbs_network',
+    audit: 'https://github.com/orbs-network/orbs-token/blob/master/SmartDec%20OrbsToken%20Security%20Audit.pdf',
+    initTime: { [ChainId.MATIC]: 1701892800 },
+    initPrice: { [ChainId.MATIC]: 0.00254 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+  },
+  {
+    index: 117,
+    contractAddress: {
+      [ChainId.MATIC]: '0x46722AA9c20e72D2ad7c20285351A1e60fDc4b72',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.vext,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://www.veloce.gg/',
+    twitter: 'https://twitter.com/vextoken',
+    initTime: { [ChainId.MATIC]: 1701892800 },
+    initPrice: { [ChainId.MATIC]: 0.00254 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+  },
+  {
+    index: 116,
+    contractAddress: {
+      [ChainId.MATIC]: '0x7a9700023be5Bd12f35948A4442cc14Bf392Ef62',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.duckies,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://www.yellow.org/duckies',
+    twitter: 'https://twitter.com/Yellow',
+    initTime: { [ChainId.MATIC]: 1701892800 },
+    initPrice: { [ChainId.MATIC]: 0.00254 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+  },
+  {
+    index: 115,
+    contractAddress: {
+      [ChainId.MATIC]: '0x401baeAA8e2D774E7805fc1AA925227668fA124b',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.eth,
+    quoteToken: tokens.eth,
+    lpToken: tokens.eth,
+    earnToken: tokens.cone,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://bitcone.lol/',
+    twitter: 'https://twitter.com/BitCone_CONE',
+    initTime: { [ChainId.MATIC]: 1701892800 },
+    initPrice: { [ChainId.MATIC]: 0.00254 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+  },
+  {
+    index: 114,
+    contractAddress: {
+      [ChainId.MATIC]: '0x6Df8830c1dA2a5bB0e4A98DD84f079E83eE9e9a5',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.knight,
+    quoteToken: tokens.eth,
+    lpToken: tokens.knightEth_QS,
+    earnToken: tokens.knight,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://www.forestknight.io/',
+    twitter: 'https://twitter.com/ForestKnight_io',
+    initTime: { [ChainId.MATIC]: 1701892800 },
+    initPrice: { [ChainId.MATIC]: 0.00254 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+  },
+  {
+    index: 113,
+    contractAddress: {
+      [ChainId.MATIC]: '0x3b8E9B6047B9ea84Ea7E9758347F2fF15021c632',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.bom,
+    quoteToken: tokens.usdc,
+    lpToken: tokens.bomUsdc_QS,
+    earnToken: tokens.bom,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://www.borderless.money/',
+    twitter: 'https://twitter.com/Borderless_ReFi',
+    audit: 'https://www.borderless.money/bom_secaudit_blockapex.pdf',
+    initTime: { [ChainId.MATIC]: 1701892800 },
+    initPrice: { [ChainId.MATIC]: 0.00254 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+  },
+  {
+    index: 112,
+    contractAddress: {
+      [ChainId.MATIC]: '0xc06d6a4Ecb6430417A27d904a905Ab7261c7A815',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.blank,
+    quoteToken: tokens.usdc,
+    lpToken: tokens.blankUsdc_QS,
+    earnToken: tokens.blank,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://blockwallet.io/',
+    twitter: 'https://twitter.com/GetBlockWallet',
+    initTime: { [ChainId.MATIC]: 1701892800 },
+    initPrice: { [ChainId.MATIC]: 0.00254 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+  },
+  {
+    index: 111,
+    contractAddress: {
+      [ChainId.MATIC]: '0x257A720718Cba6356f3aDD881F23Cefc9C57AAeA',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.dai,
+    quoteToken: tokens.dai,
+    lpToken: tokens.dai,
+    earnToken: tokens.elon,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://dogelonmars.com/',
+    twitter: 'https://twitter.com/dogelonmars',
+    initTime: { [ChainId.MATIC]: 1701892800 },
+    initPrice: { [ChainId.MATIC]: 0.00254 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+  },
+  {
+    index: 110,
+    contractAddress: {
+      [ChainId.MATIC]: '0xcFaF0E129CEB8eE75f85D5d5f4F419c2CC204901',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.mv,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.mvUsdt_QS,
+    earnToken: tokens.mv,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://genso.game/en/',
+    twitter: 'https://twitter.com/genso_meta',
+    audit: 'https://skynet.certik.com/projects/gensokishi-online-metaworld',
+    initTime: { [ChainId.MATIC]: 1701892800 },
+    initPrice: { [ChainId.MATIC]: 0.00254 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+  },
   {
     index: 109,
     contractAddress: {
@@ -2693,7 +2985,7 @@ const bills: BillsConfig[] = [
     audit: 'https://hacken.io/wp-content/uploads/2022/07/Wombat_20072022_SCAudit_Report_2.pdf',
     initTime: { [ChainId.MATIC]: 1684274400 },
     initPrice: { [ChainId.MATIC]: 0.00254 },
-    soldOut: false,
+    soldOut: true,
   },
   {
     index: 108,

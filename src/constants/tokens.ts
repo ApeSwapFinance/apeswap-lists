@@ -645,6 +645,162 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  mv: {
+    symbol: 'MV',
+    address: {
+      [ChainId.MATIC]: '0xA3c322Ad15218fBFAEd26bA7f616249f7705D945',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.QuickswapV2,
+    },
+    active: true,
+  },
+  elon: {
+    symbol: 'ELON',
+    address: {
+      [ChainId.MATIC]: '0xE0339c80fFDE91F3e20494Df88d4206D86024cdF',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.Algebra,
+    },
+    active: true,
+  },
+  blank: {
+    symbol: 'BLANK',
+    address: {
+      [ChainId.MATIC]: '0xf4C83080E80AE530d6f8180572cBbf1Ac9D5d435',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.QuickswapV2,
+    },
+    active: true,
+  },
+  bom: {
+    symbol: 'BOM',
+    address: {
+      [ChainId.MATIC]: '0xc59132FBdF8dE8fbE510F568a5D831C991B4fC38',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.QuickswapV2,
+    },
+    active: true,
+  },
+  knight: {
+    symbol: 'KNIGHT',
+    address: {
+      [ChainId.MATIC]: '0x4455eF8B4B4A007a93DaA12DE63a47EEAC700D9D',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.QuickswapV2,
+    },
+    active: true,
+  },
+  cone: {
+    symbol: 'CONE',
+    address: {
+      [ChainId.MATIC]: '0xbA777aE3a3C91fCD83EF85bfe65410592Bdd0f7c',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.Algebra,
+    },
+    active: true,
+  },
+  duckies: {
+    symbol: 'DUCKIES',
+    address: {
+      [ChainId.MATIC]: '0x18e73A5333984549484348A94f4D219f4faB7b81',
+    },
+    decimals: {
+      [ChainId.MATIC]: 8,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.Algebra,
+    },
+    active: true,
+  },
+  vext: {
+    symbol: 'VEXT',
+    address: {
+      [ChainId.MATIC]: '0x27842334C55c01DDFE81Bf687425F906816c5141',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.Algebra,
+    },
+    active: true,
+  },
+  orbs: {
+    symbol: 'ORBS',
+    address: {
+      [ChainId.MATIC]: '0x614389EaAE0A6821DC49062D56BDA3d9d45Fa2ff',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.QuickswapV2,
+    },
+    active: true,
+  },
+  ixt: {
+    symbol: 'IXT',
+    address: {
+      [ChainId.MATIC]: '0xE06Bd4F5aAc8D0aA337D13eC88dB6defC6eAEefE',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.QuickswapV2,
+    },
+    active: true,
+  },
+  trc: {
+    symbol: 'TRC',
+    address: {
+      [ChainId.MATIC]: '0x40d9fc77027A281d85de1fa660C887E645AE26C3',
+    },
+    decimals: {
+      [ChainId.MATIC]: 2,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.Algebra,
+    },
+    active: true,
+  },
+  fbx: {
+    symbol: 'FBX',
+    address: {
+      [ChainId.MATIC]: '0xD125443F38A69d776177c2B9c041f462936F8218',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.QuickswapV2,
+    },
+    active: true,
+  },
   dai: {
     symbol: 'DAI',
     address: {
@@ -3359,6 +3515,90 @@ const tokens: Record<string, Token> = {
     },
     liquidityDex: {
       [ChainId.MATIC]: LiquidityDex.ApeSwapV2,
+    },
+    active: true,
+    lpToken: true,
+  },
+  mvUsdt_QS: {
+    symbol: 'MV-USDT',
+    address: {
+      [ChainId.MATIC]: '0x690a87Ed8972e451e755b8F2dC1fc2B28e3c6566',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.QuickswapV2,
+    },
+    active: true,
+    lpToken: true,
+  },
+  blankUsdc_QS: {
+    symbol: 'BLANK-USDC',
+    address: {
+      [ChainId.MATIC]: '0x3B480d50b9ed88B4891e066681467a73F78d8c22',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.QuickswapV2,
+    },
+    active: true,
+    lpToken: true,
+  },
+  bomUsdc_QS: {
+    symbol: 'BOM-USDC',
+    address: {
+      [ChainId.MATIC]: '0x9fF7EF52f423E06EdB23859006372974A9692f9c',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.QuickswapV2,
+    },
+    active: true,
+    lpToken: true,
+  },
+  knightEth_QS: {
+    symbol: 'ETH-KNIGHT',
+    address: {
+      [ChainId.MATIC]: '0x7F7C12acec546CDCeb028Cc5b57F7aA2d91F0887',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.QuickswapV2,
+    },
+    active: true,
+    lpToken: true,
+  },
+  orbsUsdc_QS: {
+    symbol: 'ORBS-USDC',
+    address: {
+      [ChainId.MATIC]: '0xB2b6D423e535b57aaD06E9866803B95fB66152EA',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.QuickswapV2,
+    },
+    active: true,
+    lpToken: true,
+  },
+  ixtUsdt_QS: {
+    symbol: 'IXT-USDT',
+    address: {
+      [ChainId.MATIC]: '0x304e57c752E854E9A233Ae82fcC42F7568b81180',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.QuickswapV2,
     },
     active: true,
     lpToken: true,
