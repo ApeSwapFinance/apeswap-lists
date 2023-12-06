@@ -8880,7 +8880,8 @@
     "soldOut": false,
     "billArt": {
       "collection": "PlanetIX_Collection1"
-    }
+    },
+    "bondPartner": "QuickSwap"
   },
   {
     "index": 120,
@@ -8960,7 +8961,8 @@
     "soldOut": false,
     "billArt": {
       "collection": "PlanetIX_Collection1"
-    }
+    },
+    "bondPartner": "QuickSwap"
   },
   {
     "index": 119,
