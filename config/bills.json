@@ -8800,7 +8800,7 @@
   {
     "index": 119,
     "contractAddress": {
-      "137": "0xD034e455eE1Cc14bF75e7a675EC1a269E861420F"
+      "137": "0x972824E0EC4987Af972F2086fAb2547Fbf7B4d27"
     },
     "billType": "reserve",
     "billVersion": "V2",
@@ -8867,7 +8867,7 @@
         "137": 18
       },
       "liquidityDex": {
-        "137": "Algebra"
+        "137": "QuickswapV2"
       },
       "active": true
     },
