@@ -2697,6 +2697,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.PlanetIX_Collection1,
     },
+    bondPartner: 'QuickSwap',
   },
   {
     index: 120,
@@ -2721,6 +2722,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.PlanetIX_Collection1,
     },
+    bondPartner: 'QuickSwap',
   },
   {
     index: 119,
