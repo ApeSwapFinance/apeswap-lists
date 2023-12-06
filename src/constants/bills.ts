@@ -2674,10 +2674,10 @@ const bills: BillsConfig[] = [
     Polygon Bills
   */
 
-  /*   {
+  {
     index: 121,
     contractAddress: {
-      [ChainId.MATIC]: '0x65E434F2F51Cbc13Ff9C94AD432De3B8730AC654',
+      [ChainId.MATIC]: '0x33fA58e25b16D6FfEF63bE1CDba38951A7bd3641',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
@@ -2701,7 +2701,7 @@ const bills: BillsConfig[] = [
   {
     index: 120,
     contractAddress: {
-      [ChainId.MATIC]: '0xf0DCB0fba07286E24f3830580edD96910034eE0C',
+      [ChainId.MATIC]: '0x262b966d81838D123622Da16B7e97193f4395103',
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
@@ -2721,7 +2721,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.PlanetIX_Collection1,
     },
-  }, */
+  },
   {
     index: 119,
     contractAddress: {
