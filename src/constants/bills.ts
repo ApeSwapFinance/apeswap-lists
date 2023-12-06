@@ -2826,7 +2826,7 @@ const bills: BillsConfig[] = [
   {
     index: 115,
     contractAddress: {
-      [ChainId.MATIC]: '0x401baeAA8e2D774E7805fc1AA925227668fA124b',
+      [ChainId.MATIC]: '0xFA1d99e3CF2816002ea1E29B6eDF0eDbb82f6d22',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
@@ -2952,7 +2952,7 @@ const bills: BillsConfig[] = [
   {
     index: 110,
     contractAddress: {
-      [ChainId.MATIC]: '0xcFaF0E129CEB8eE75f85D5d5f4F419c2CC204901',
+      [ChainId.MATIC]: '0x53859764AC3A49B8e442666d384b57A29fa5d927',
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
