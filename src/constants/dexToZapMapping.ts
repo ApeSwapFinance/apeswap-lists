@@ -19,7 +19,7 @@ export const dexToZapMapping: Record<LiquidityDex, Partial<Record<ChainId, ZapVe
     [ChainId.MAINNET]: ZapVersion.External,
   },
   [LiquidityDex.QuickswapV2]: {
-    [ChainId.MATIC]: ZapVersion.External,
+    [ChainId.MATIC]: ZapVersion.SoulZap,
   },
   [LiquidityDex.ApeSwapV3]: {},
   [LiquidityDex.UniswapV3]: {},

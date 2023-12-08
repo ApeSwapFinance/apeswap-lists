@@ -3,7 +3,7 @@ import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
 // BNB Largest ID: 1009
-// Polygon Largest ID: 121
+// Polygon Largest ID: 122
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
 //Migration Bonds ID: 5007
@@ -2673,7 +2673,31 @@ const bills: BillsConfig[] = [
   /*
     Polygon Bills
   */
-
+  {
+    index: 122,
+    contractAddress: {
+      [ChainId.MATIC]: '0x1f3b1E69c874D29e6928ebddA91C22454074d8Fa',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.trc,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://metatrace.me/',
+    twitter: 'https://twitter.com/trace_meta',
+    initTime: { [ChainId.MATIC]: 1701892800 },
+    initPrice: { [ChainId.MATIC]: 0.0948073647 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+  },
   {
     index: 121,
     contractAddress: {
