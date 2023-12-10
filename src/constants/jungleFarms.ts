@@ -706,6 +706,31 @@ const jungleFarms: JungleFarmConfig[] = [
     isEarnTokenLp: false,
     network: ChainId.BSC,
   },
+  {
+    jungleId: 19,
+    tokenName: tokens.theBnb_Ichi.symbol,
+    image: 'THE.svg',
+    stakingToken: tokens.theBnb_Ichi,
+    rewardToken: tokens.the,
+    lpTokens: {
+      token: tokens.the,
+      quoteToken: tokens.wbnb,
+    },
+    contractAddress: {
+      [ChainId.BSC]: '0xAde0c701F7566D6481aFF6CF62a39b60e0b6EFD4',
+    },
+    projectLink: 'http://livegreencoin.com/',
+    twitter: 'https://twitter.com/LiveGreenCoin1',
+    audit: 'https://www.certik.com/projects/livegreencoin',
+    harvest: true,
+    rewardsPerSecond: '0.333333',
+    sortOrder: 1,
+    isFinished: false,
+    tokenDecimals: 18,
+    lpStaking: true,
+    isEarnTokenLp: false,
+    network: ChainId.BSC,
+  },
 ]
 
 export default jungleFarms

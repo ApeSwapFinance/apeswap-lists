@@ -218,19 +218,6 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
-  ichiBnb: {
-    symbol: '0xcBFB2D1487a8A69a8b0eE8e7Fb3ca5e0C338B508',
-    address: {
-      [ChainId.BSC]: '0xb0f2939a1c0e43683e5954c9fe142f7df9f8d967',
-    },
-    decimals: {
-      [ChainId.BSC]: 18,
-    },
-    active: true,
-    liquidityDex: {
-      [ChainId.BSC]: LiquidityDex.Algebra,
-    },
-  },
   watch: {
     symbol: 'WATCH',
     address: {
@@ -3255,6 +3242,21 @@ const tokens: Record<string, Token> = {
     getLpUrl: {
       [ChainId.BSC]:
         'https://pancakeswap.finance/v2/add/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56/0x16faF9DAa401AA42506AF503Aa3d80B871c467A3',
+    },
+  },
+  theBnb_Ichi: {
+    symbol: 'THE-BNB',
+    address: {
+      [ChainId.BSC]: '0xcBFB2D1487a8A69a8b0eE8e7Fb3ca5e0C338B508',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.Algebra,
+    },
+    getLpUrl: {
+      [ChainId.BSC]: 'https://thena.fi/add?type=ichi&address=0xcbfb2d1487a8a69a8b0ee8e7fb3ca5e0c338b508',
     },
   },
   aitechBusd_PCS: {

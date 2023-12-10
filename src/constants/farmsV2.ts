@@ -1062,21 +1062,6 @@ const farmsV2: FarmConfig[] = [
     quoteTokenAdresses: tokens.wbnb.address,
     projectLink: 'https://3air.io/',
   },
-  {
-    pid: 63,
-    image: 'THE.svg',
-    lpSymbol: 'BUSD-BNB',
-    lpAddresses: {
-      [ChainId.BSC]: '0x483653bcf3a10d9a1c334ce16a19471a614f4385',
-    },
-    tokenSymbol: 'THE',
-    tokenAddresses: {
-      [ChainId.BSC]: '0xf4c8e32eadec4bfe97e0f595add0f4450a863a11',
-    },
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: tokens.wbnb.address,
-    projectLink: 'https://thena.fi/',
-  },
 ]
 
 export default farmsV2
