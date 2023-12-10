@@ -734,9 +734,9 @@ const jungleFarms: JungleFarmConfig[] = [
   },
   {
     jungleId: 20,
-    tokenName: tokens.busdBnb_GAMMA.symbol,
+    tokenName: tokens.busdBnb_Thena.symbol,
     image: 'THE.svg',
-    stakingToken: tokens.busdBnb_GAMMA,
+    stakingToken: tokens.busdBnb_Thena,
     rewardToken: tokens.the,
     lpTokens: {
       token: tokens.the,
