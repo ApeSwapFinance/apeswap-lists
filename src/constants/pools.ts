@@ -52,7 +52,7 @@ const pools: PoolConfig[] = [
   },
 
   {
-    sousId: 238,
+    sousId: 241,
     tokenName: 'THE',
     image: 'THE.svg',
     stakingToken: tokens.the,
@@ -72,7 +72,7 @@ const pools: PoolConfig[] = [
     tokenDecimals: 18,
   },
   {
-    sousId: 239,
+    sousId: 240,
     tokenName: 'THE',
     image: 'THE.svg',
     stakingToken: tokens.ichiBnb,
