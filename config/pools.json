@@ -106,6 +106,94 @@
     "tokenDecimals": 18
   },
   {
+    "sousId": 238,
+    "tokenName": "THE",
+    "image": "THE.svg",
+    "stakingToken": {
+      "symbol": "THE",
+      "address": {
+        "56": "0xF4C8E32EaDEC4BFe97E0F595AdD0f4450a863a11"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "56": "ThenaV1"
+      }
+    },
+    "rewardToken": {
+      "symbol": "THE",
+      "address": {
+        "56": "0xF4C8E32EaDEC4BFe97E0F595AdD0f4450a863a11"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "56": "ThenaV1"
+      }
+    },
+    "contractAddress": {
+      "56": "0x4e067401a0f1744248e99c0345E640a28cF1C8b6",
+      "97": ""
+    },
+    "poolCategory": "Real Yield",
+    "projectLink": "https://apeswap.finance/",
+    "twitter": "https://twitter.com/ape_swap",
+    "audit": "https://paladinsec.co/projects/apeswap/",
+    "harvest": true,
+    "tokenPerBlock": "0.000003858024691",
+    "sortOrder": 1,
+    "isFinished": false,
+    "tokenDecimals": 18
+  },
+  {
+    "sousId": 239,
+    "tokenName": "THE",
+    "image": "THE.svg",
+    "stakingToken": {
+      "symbol": "0xcBFB2D1487a8A69a8b0eE8e7Fb3ca5e0C338B508",
+      "address": {
+        "56": "0xb0f2939a1c0e43683e5954c9fe142f7df9f8d967"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "56": "Algebra"
+      }
+    },
+    "rewardToken": {
+      "symbol": "THE",
+      "address": {
+        "56": "0xF4C8E32EaDEC4BFe97E0F595AdD0f4450a863a11"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "56": "ThenaV1"
+      }
+    },
+    "contractAddress": {
+      "56": "0xAde0c701F7566D6481aFF6CF62a39b60e0b6EFD4",
+      "97": ""
+    },
+    "poolCategory": "Real Yield",
+    "projectLink": "https://apeswap.finance/",
+    "twitter": "https://twitter.com/ape_swap",
+    "audit": "https://paladinsec.co/projects/apeswap/",
+    "harvest": true,
+    "tokenPerBlock": "0.000003858024691",
+    "sortOrder": 1,
+    "isFinished": false,
+    "tokenDecimals": 18
+  },
+  {
     "sousId": 237,
     "tokenName": "BNB",
     "image": "BNB.svg",

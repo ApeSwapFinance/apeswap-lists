@@ -218,6 +218,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  ichiBnb: {
+    symbol: '0xcBFB2D1487a8A69a8b0eE8e7Fb3ca5e0C338B508',
+    address: {
+      [ChainId.BSC]: '0xb0f2939a1c0e43683e5954c9fe142f7df9f8d967',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.Algebra,
+    },
+  },
   watch: {
     symbol: 'WATCH',
     address: {
@@ -564,6 +577,19 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
+  },
+  the: {
+    symbol: 'THE',
+    address: {
+      [ChainId.BSC]: '0xF4C8E32EaDEC4BFe97E0F595AdD0f4450a863a11',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.ThenaV1,
+    },
   },
   aur: {
     symbol: 'AUR',
