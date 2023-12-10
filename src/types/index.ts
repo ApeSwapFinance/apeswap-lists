@@ -22,6 +22,7 @@ export enum LiquidityDex {
   ApeSwapV2 = 'ApeSwapV2',
   ApeSwapV3 = 'ApeSwapV3',
   PancakeSwapV2 = 'PancakeSwapV2',
+  ThenaV1 = 'ThenaV1',
   /**
    * Initially, LiquidityDex was for the price getter and that checks algebra pricing
    *  (gamma wraps over it so no pricing there).
@@ -47,6 +48,7 @@ export enum Protocols {
   V3 = 3,
   Algebra = 4,
   Gamma = 5,
+  Solidly = 6,
 }
 
 export interface FarmStyles {

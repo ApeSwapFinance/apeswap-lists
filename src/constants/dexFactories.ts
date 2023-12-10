@@ -35,6 +35,10 @@ export const dexFactories: Partial<
       factory: '0x306F06C147f064A010530292A1EB6737c3e378e4', //Thena
       protocol: Protocols.Algebra,
     },
+    [LiquidityDex.ThenaV1]: {
+      factory: '0xAFD89d21BdB66d00817d4153E055830B1c2B3970', //ThenaV1
+      protocol: Protocols.Solidly,
+    },
   },
   [ChainId.MATIC]: {
     [LiquidityDex.ApeSwapV2]: {
@@ -79,6 +83,7 @@ export const defaultDexFactories: Partial<Record<ChainId, Partial<Record<Protoco
     [Protocols.V2]: dexFactories[ChainId.BSC]?.ApeSwapV2?.factory,
     [Protocols.V3]: dexFactories[ChainId.BSC]?.ApeSwapV3?.factory,
     [Protocols.Algebra]: dexFactories[ChainId.BSC]?.Algebra?.factory,
+    [Protocols.Solidly]: dexFactories[ChainId.BSC]?.ThenaV1?.factory,
   },
   [ChainId.MATIC]: {
     [Protocols.V2]: dexFactories[ChainId.MATIC]?.ApeSwapV2?.factory,
