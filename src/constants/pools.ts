@@ -5,7 +5,8 @@ import tokens from './tokens'
 
 const BANANA_PER_BLOCK = new BigNumber(10)
 
-// Current Sous ID is 239
+// Current BNB Sous ID is 240
+// Current MATIC Sous ID is 1000
 
 const pools: PoolConfig[] = [
   // MASTER APE V2 POOL
@@ -1495,6 +1496,28 @@ const pools: PoolConfig[] = [
     isFinished: true,
     tokenDecimals: 18,
     forAdmins: true,
+  },
+
+  /* Polygon Pools Starts Here */
+  {
+    sousId: 1000,
+    tokenName: 'QUICK',
+    image: 'QUICK.svg',
+    stakingToken: tokens.quick,
+    rewardToken: tokens.quick,
+    contractAddress: {
+      [ChainId.MATIC]: '0x27cc4008129c7e790FD306b2aA3f62c3CDebD044',
+    },
+    poolCategory: PoolCategory.REAL_YIELD,
+    projectLink: 'https://apeswap.finance/',
+    twitter: 'https://twitter.com/ape_swap',
+    audit: 'https://paladinsec.co/projects/apeswap/',
+    harvest: true,
+    rewardsPerSecond: '0.000003858024691',
+    tokenPerBlock: '0',
+    sortOrder: 1,
+    isFinished: false,
+    tokenDecimals: 18,
   },
 ]
 

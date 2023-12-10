@@ -658,6 +658,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  quick: {
+    symbol: 'QUICK',
+    address: {
+      [ChainId.MATIC]: '0xb5c064f955d8e7f38fe0460c556a72987494ee17',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.QuickswapV2,
+    },
+    active: true,
+  },
   mv: {
     symbol: 'MV',
     address: {
@@ -3632,6 +3645,41 @@ const tokens: Record<string, Token> = {
     getLpUrl: {
       [ChainId.MATIC]:
         'https://quickswap.exchange/#/pools/v2?currency0=0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619&currency1=0x4455eF8B4B4A007a93DaA12DE63a47EEAC700D9D',
+    },
+  },
+  maticEth_Ichi: {
+    symbol: 'MATIC-ETH',
+    address: {
+      [ChainId.MATIC]: '0x9ff3C1390300918B40714fD464A39699dDd9Fe00',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.Algebra,
+    },
+    active: true,
+    lpToken: true,
+    getLpUrl: {
+      [ChainId.MATIC]: 'https://app.ichi.org/',
+    },
+  },
+  maticEth_Qs: {
+    symbol: 'MATIC-ETH',
+    address: {
+      [ChainId.MATIC]: '0xadbF1854e5883eB8aa7BAf50705338739e558E5b',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.QuickswapV2,
+    },
+    active: true,
+    lpToken: true,
+    getLpUrl: {
+      [ChainId.MATIC]:
+        'https://quickswap.exchange/#/pools/v2?currency0=ETH&currency1=0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619',
     },
   },
   orbsUsdc_QS: {
