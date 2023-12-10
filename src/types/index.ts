@@ -48,7 +48,8 @@ export enum Protocols {
   V3 = 3,
   Algebra = 4,
   Gamma = 5,
-  Solidly = 6,
+  Steer = 6,
+  Solidly = 7,
 }
 
 export interface FarmStyles {
