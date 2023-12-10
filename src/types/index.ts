@@ -197,12 +197,15 @@ export interface PoolConfig {
   stakingToken: Token
   stakingLimit?: number
   bonusEndBlock?: number
+  bonusEndTime?: number
   rewardToken: Token | null
   contractAddress: Partial<Record<ChainId, string>>
   poolCategory?: PoolCategory
   projectLink: string
   twitter?: string
-  tokenPerBlock: string
+  tokenPerBlock?: string
+  // Jungle farms have changed to per second vs per block
+  rewardsPerSecond?: string
   sortOrder?: number
   harvest?: boolean
   reflect?: boolean
@@ -244,6 +247,7 @@ export interface JungleFarmConfig {
   stakingToken: Token
   stakingLimit?: number
   bonusEndBlock?: number
+  bonusEndTime?: number
   rewardToken: Token
   contractAddress: Partial<Record<ChainId, string>>
   projectLink: string
