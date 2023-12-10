@@ -65,6 +65,7 @@ const pools: PoolConfig[] = [
     audit: 'https://paladinsec.co/projects/apeswap/',
     harvest: true,
     rewardsPerSecond: '0.000003858024691',
+    tokenPerBlock: `0`,
     sortOrder: 1,
     isFinished: false,
     tokenDecimals: 18,

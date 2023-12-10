@@ -3259,6 +3259,21 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 'https://thena.fi/add?type=ichi&address=0xcbfb2d1487a8a69a8b0ee8e7fb3ca5e0c338b508',
     },
   },
+  busdBnb_GAMMA: {
+    symbol: 'BUSD-BNB',
+    address: {
+      [ChainId.BSC]: '0x483653bcf3a10d9a1c334ce16a19471a614f4385',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.Algebra,
+    },
+    getLpUrl: {
+      [ChainId.BSC]: 'https://thena.fi/add/v1',
+    },
+  },
   aitechBusd_PCS: {
     symbol: 'AITECH-BUSD',
     address: {
