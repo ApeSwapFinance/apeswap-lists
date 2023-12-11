@@ -2,12 +2,13 @@ import { ChainId } from '@ape.swap/sdk'
 import { PoolConfig, PoolCategory } from '../types'
 import tokens from './tokens'
 
-// Current BNB Sous ID is 240
+// Current BNB Sous ID is 0
 // Current MATIC Sous ID is 1000
+// Current ETH Sous ID is 2000
 
 const poolsV2: PoolConfig[] = [
   {
-    sousId: 240,
+    sousId: 0,
     tokenName: 'THE',
     image: 'THE.svg',
     stakingToken: tokens.the,
