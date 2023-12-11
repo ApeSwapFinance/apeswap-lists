@@ -3284,7 +3284,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: LiquidityDex.ThenaV1,
     },
     getLpUrl: {
-      [ChainId.BSC]: 'https://thena.fi/add/v1',
+      [ChainId.BSC]: 'https://thena.fi/add/v1/0x483653bcf3a10d9a1c334ce16a19471a614f4385',
     },
   },
   aitechBusd_PCS: {
@@ -3661,7 +3661,7 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
     getLpUrl: {
-      [ChainId.MATIC]: 'https://app.ichi.org/',
+      [ChainId.MATIC]: 'https://app.ichi.org/vault/token/0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270',
     },
   },
   maticEth_Qs: {
