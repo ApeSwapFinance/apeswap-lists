@@ -8,7 +8,7 @@ import tokens from './tokens'
 
 const poolsV2: PoolConfig[] = [
   {
-    sousId: 0,
+    sousId: 1,
     tokenName: 'THE',
     image: 'THE.svg',
     stakingToken: tokens.the,
