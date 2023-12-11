@@ -3864,29 +3864,6 @@ const tokens: Record<string, Token> = {
       [ChainId.MAINNET]: 'https://app.uniswap.org/pools', // Add Link once you have it.
     },
   },
-  usdcEth_UNI: {
-    symbol: 'USDC-ETH',
-    address: {
-      [ChainId.MAINNET]: '0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640',
-    },
-    decimals: {
-      [ChainId.MAINNET]: 18,
-    },
-    active: true,
-    lpToken: true,
-    liquidityDex: {
-      [ChainId.MAINNET]: LiquidityDex.UniswapV3,
-    },
-    token0: {
-      [ChainId.MAINNET]: '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48',
-    },
-    token1: {
-      [ChainId.MAINNET]: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
-    },
-    fee: {
-      [ChainId.MAINNET]: 500,
-    },
-  },
 }
 
 export default tokens

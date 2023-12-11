@@ -69,9 +69,6 @@ export interface Token {
   price?: number
   liquidityDex?: Partial<Record<ChainId, LiquidityDex>> //the dex type where most liquidity/actual lp is
   getLpUrl?: Partial<Record<ChainId, string>> //Needed for ZapVersion.External
-  token0?: Partial<Record<ChainId, string>>
-  token1?: Partial<Record<ChainId, string>>
-  fee?: Partial<Record<ChainId, number>>
 }
 
 // Interfaces used in Vaults
