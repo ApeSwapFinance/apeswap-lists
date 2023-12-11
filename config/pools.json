@@ -106,50 +106,6 @@
     "tokenDecimals": 18
   },
   {
-    "sousId": 240,
-    "tokenName": "THE",
-    "image": "THE.svg",
-    "stakingToken": {
-      "symbol": "THE",
-      "address": {
-        "56": "0xF4C8E32EaDEC4BFe97E0F595AdD0f4450a863a11"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true,
-      "liquidityDex": {
-        "56": "ThenaV1"
-      }
-    },
-    "rewardToken": {
-      "symbol": "THE",
-      "address": {
-        "56": "0xF4C8E32EaDEC4BFe97E0F595AdD0f4450a863a11"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "active": true,
-      "liquidityDex": {
-        "56": "ThenaV1"
-      }
-    },
-    "contractAddress": {
-      "56": "0x4e067401a0f1744248e99c0345E640a28cF1C8b6"
-    },
-    "poolCategory": "Real Yield",
-    "projectLink": "https://apeswap.finance/",
-    "twitter": "https://twitter.com/ape_swap",
-    "audit": "https://paladinsec.co/projects/apeswap/",
-    "harvest": true,
-    "rewardsPerSecond": "0.000003858024691",
-    "tokenPerBlock": "0",
-    "sortOrder": 1,
-    "isFinished": false,
-    "tokenDecimals": 18
-  },
-  {
     "sousId": 237,
     "tokenName": "BNB",
     "image": "BNB.svg",
@@ -3191,49 +3147,5 @@
     "isFinished": true,
     "tokenDecimals": 18,
     "forAdmins": true
-  },
-  {
-    "sousId": 1000,
-    "tokenName": "QUICK",
-    "image": "QUICK.svg",
-    "stakingToken": {
-      "symbol": "QUICK",
-      "address": {
-        "137": "0xb5c064f955d8e7f38fe0460c556a72987494ee17"
-      },
-      "decimals": {
-        "137": 18
-      },
-      "liquidityDex": {
-        "137": "QuickswapV2"
-      },
-      "active": true
-    },
-    "rewardToken": {
-      "symbol": "QUICK",
-      "address": {
-        "137": "0xb5c064f955d8e7f38fe0460c556a72987494ee17"
-      },
-      "decimals": {
-        "137": 18
-      },
-      "liquidityDex": {
-        "137": "QuickswapV2"
-      },
-      "active": true
-    },
-    "contractAddress": {
-      "137": "0x27cc4008129c7e790FD306b2aA3f62c3CDebD044"
-    },
-    "poolCategory": "Real Yield",
-    "projectLink": "https://apeswap.finance/",
-    "twitter": "https://twitter.com/ape_swap",
-    "audit": "https://paladinsec.co/projects/apeswap/",
-    "harvest": true,
-    "rewardsPerSecond": "0.000003858024691",
-    "tokenPerBlock": "0",
-    "sortOrder": 1,
-    "isFinished": false,
-    "tokenDecimals": 18
   }
 ]

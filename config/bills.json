@@ -63,13 +63,19 @@
     "earnToken": {
       "symbol": "ABOND",
       "address": {
-        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd"
+        "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
+        "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
       },
       "decimals": {
-        "56": 18
+        "1": 18,
+        "56": 18,
+        "137": 18
       },
       "liquidityDex": {
-        "56": "ApeSwapV2"
+        "1": "UniswapV3",
+        "56": "ThenaV1",
+        "137": "QuickswapV2"
       },
       "active": true
     },
@@ -157,13 +163,19 @@
     "earnToken": {
       "symbol": "ABOND",
       "address": {
-        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd"
+        "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
+        "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
       },
       "decimals": {
-        "56": 18
+        "1": 18,
+        "56": 18,
+        "137": 18
       },
       "liquidityDex": {
-        "56": "ApeSwapV2"
+        "1": "UniswapV3",
+        "56": "ThenaV1",
+        "137": "QuickswapV2"
       },
       "active": true
     },
@@ -251,13 +263,19 @@
     "earnToken": {
       "symbol": "ABOND",
       "address": {
-        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd"
+        "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
+        "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
       },
       "decimals": {
-        "56": 18
+        "1": 18,
+        "56": 18,
+        "137": 18
       },
       "liquidityDex": {
-        "56": "ApeSwapV2"
+        "1": "UniswapV3",
+        "56": "ThenaV1",
+        "137": "QuickswapV2"
       },
       "active": true
     },
@@ -345,13 +363,19 @@
     "earnToken": {
       "symbol": "ABOND",
       "address": {
-        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd"
+        "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
+        "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
       },
       "decimals": {
-        "56": 18
+        "1": 18,
+        "56": 18,
+        "137": 18
       },
       "liquidityDex": {
-        "56": "ApeSwapV2"
+        "1": "UniswapV3",
+        "56": "ThenaV1",
+        "137": "QuickswapV2"
       },
       "active": true
     },
@@ -421,13 +445,19 @@
     "earnToken": {
       "symbol": "ABOND",
       "address": {
-        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd"
+        "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
+        "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
       },
       "decimals": {
-        "56": 18
+        "1": 18,
+        "56": 18,
+        "137": 18
       },
       "liquidityDex": {
-        "56": "ApeSwapV2"
+        "1": "UniswapV3",
+        "56": "ThenaV1",
+        "137": "QuickswapV2"
       },
       "active": true
     },
@@ -497,13 +527,19 @@
     "earnToken": {
       "symbol": "ABOND",
       "address": {
-        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd"
+        "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
+        "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
       },
       "decimals": {
-        "56": 18
+        "1": 18,
+        "56": 18,
+        "137": 18
       },
       "liquidityDex": {
-        "56": "ApeSwapV2"
+        "1": "UniswapV3",
+        "56": "ThenaV1",
+        "137": "QuickswapV2"
       },
       "active": true
     },
@@ -573,13 +609,19 @@
     "earnToken": {
       "symbol": "ABOND",
       "address": {
-        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd"
+        "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
+        "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
       },
       "decimals": {
-        "56": 18
+        "1": 18,
+        "56": 18,
+        "137": 18
       },
       "liquidityDex": {
-        "56": "ApeSwapV2"
+        "1": "UniswapV3",
+        "56": "ThenaV1",
+        "137": "QuickswapV2"
       },
       "active": true
     },
@@ -649,13 +691,19 @@
     "earnToken": {
       "symbol": "ABOND",
       "address": {
-        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd"
+        "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
+        "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
       },
       "decimals": {
-        "56": 18
+        "1": 18,
+        "56": 18,
+        "137": 18
       },
       "liquidityDex": {
-        "56": "ApeSwapV2"
+        "1": "UniswapV3",
+        "56": "ThenaV1",
+        "137": "QuickswapV2"
       },
       "active": true
     },

@@ -49,10 +49,14 @@ const tokens: Record<string, Token> = {
     symbol: 'ABOND',
     address: {
       [ChainId.BSC]: '0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd',
+      [ChainId.MATIC]: '0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1',
+      [ChainId.MAINNET]: '0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1',
     },
-    decimals: { [ChainId.BSC]: 18 },
+    decimals: { [ChainId.BSC]: 18, [ChainId.MATIC]: 18, [ChainId.MAINNET]: 18 },
     liquidityDex: {
-      [ChainId.BSC]: LiquidityDex.ApeSwapV2,
+      [ChainId.BSC]: LiquidityDex.ThenaV1,
+      [ChainId.MATIC]: LiquidityDex.QuickswapV2,
+      [ChainId.MAINNET]: LiquidityDex.UniswapV3,
     },
     active: true,
   },
@@ -3303,6 +3307,36 @@ const tokens: Record<string, Token> = {
         'https://pancakeswap.finance/v2/add/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56/0x2D060Ef4d6BF7f9e5edDe373Ab735513c0e4F944',
     },
   },
+  abondBnb_Thena: {
+    symbol: 'ABOND-BNB',
+    address: {
+      [ChainId.BSC]: '0x7868245cAe5834b32B40CEE01f1b536AD75c7D09',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.ThenaV1,
+    },
+    getLpUrl: {
+      [ChainId.BSC]: 'https://thena.fi/add/v1',
+    },
+  },
+  abondBnb_Ichi: {
+    symbol: 'ABOND-BNB',
+    address: {
+      [ChainId.BSC]: '0x137Df93A0c22b863C1B335d1b8d389Ea3895BA13',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.Algebra,
+    },
+    getLpUrl: {
+      [ChainId.BSC]: 'https://thena.fi/add/v1',
+    },
+  },
   mfpsBnb_PCS: {
     symbol: 'MFPS-BNB',
     address: {
@@ -3718,6 +3752,41 @@ const tokens: Record<string, Token> = {
         'https://quickswap.exchange/#/pools/v2?currency0=0xE06Bd4F5aAc8D0aA337D13eC88dB6defC6eAEefE&currency1=0xc2132D05D31c914a87C6611C10748AEb04B58e8F',
     },
   },
+  abondMatic_QS: {
+    symbol: 'ABOND-MATIC',
+    address: {
+      [ChainId.MATIC]: '1234', //Put the address here once you have it.
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.QuickswapV2,
+    },
+    active: true,
+    lpToken: true,
+    getLpUrl: {
+      [ChainId.MATIC]:
+        'https://quickswap.exchange/#/pools/v2?currency0=ETH&currency1=0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1',
+    },
+  },
+  abondMatic_Ichi: {
+    symbol: 'ABOND-MATIC',
+    address: {
+      [ChainId.MATIC]: '1234', //Put the address here once you have it.
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.Algebra,
+    },
+    active: true,
+    lpToken: true,
+    getLpUrl: {
+      [ChainId.MATIC]: 'https://app.ichi.org/',
+    },
+  },
   chrpBnb: {
     symbol: 'CHRP-BNB',
     address: {
@@ -3755,6 +3824,40 @@ const tokens: Record<string, Token> = {
     lpToken: true,
     getLpUrl: {
       [ChainId.ARBITRUM]: 'https://apeswap.finance/add-liquidity/ETH/0x58CB98A966F62aA6F2190eB3AA03132A0c3de3D5',
+    },
+  },
+  abondEth_Ichi: {
+    symbol: 'ABOND-ETH',
+    address: {
+      [ChainId.MAINNET]: '1234', //Put the address here once you have it.
+    },
+    decimals: {
+      [ChainId.MAINNET]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.Algebra,
+    },
+    active: true,
+    lpToken: true,
+    getLpUrl: {
+      [ChainId.MAINNET]: 'https://app.ichi.org/',
+    },
+  },
+  abondEth_UNIV2: {
+    symbol: 'ABOND-ETH',
+    address: {
+      [ChainId.MAINNET]: '0x7C742868B11bE60D1FbefbEbcCD153df8472967B',
+    },
+    decimals: {
+      [ChainId.MAINNET]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV3, //Change This to UniV2 once you have it.
+    },
+    active: true,
+    lpToken: true,
+    getLpUrl: {
+      [ChainId.MAINNET]: 'https://app.uniswap.org/pools', // Add Link once you have it.
     },
   },
 }
