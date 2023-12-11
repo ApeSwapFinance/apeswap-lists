@@ -39,7 +39,7 @@ const jungleFarmsV2: JungleFarmConfig[] = [
     stakingToken: tokens.busdBnb_Thena,
     rewardToken: tokens.the,
     lpTokens: {
-      token: tokens.the,
+      token: tokens.busd,
       quoteToken: tokens.wbnb,
     },
     contractAddress: {

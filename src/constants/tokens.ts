@@ -3648,7 +3648,7 @@ const tokens: Record<string, Token> = {
     },
   },
   maticEth_Ichi: {
-    symbol: 'MATIC-ETH',
+    symbol: 'MATIC (ETH)',
     address: {
       [ChainId.MATIC]: '0x9ff3C1390300918B40714fD464A39699dDd9Fe00',
     },

@@ -114,17 +114,16 @@
     },
     "lpTokens": {
       "token": {
-        "symbol": "THE",
+        "symbol": "BUSD",
         "address": {
-          "56": "0xF4C8E32EaDEC4BFe97E0F595AdD0f4450a863a11"
+          "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+          "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
         },
         "decimals": {
-          "56": 18
+          "56": 18,
+          "97": 18
         },
-        "active": true,
-        "liquidityDex": {
-          "56": "ThenaV1"
-        }
+        "active": true
       },
       "quoteToken": {
         "symbol": "BNB",
@@ -159,10 +158,10 @@
   },
   {
     "jungleId": 1000,
-    "tokenName": "MATIC-ETH",
+    "tokenName": "MATIC (ETH)",
     "image": "QUICK.svg",
     "stakingToken": {
-      "symbol": "MATIC-ETH",
+      "symbol": "MATIC (ETH)",
       "address": {
         "137": "0x9ff3C1390300918B40714fD464A39699dDd9Fe00"
       },
