@@ -3843,7 +3843,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MAINNET]: 18,
     },
     liquidityDex: {
-      [ChainId.MAINNET]: LiquidityDex.Algebra,
+      [ChainId.MAINNET]: LiquidityDex.UniswapV3,
     },
     active: true,
     lpToken: true,
