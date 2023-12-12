@@ -9,8 +9,8 @@ import tokens from './tokens'
 const poolsV2: PoolConfig[] = [
   {
     sousId: 1,
-    tokenName: 'ABOND',
-    image: 'ABOND.svg',
+    tokenName: 'veABOND',
+    image: 'VEABOND.svg',
     stakingToken: tokens.abond,
     rewardToken: tokens.veabond,
     contractAddress: {
@@ -48,26 +48,6 @@ const poolsV2: PoolConfig[] = [
     tokenDecimals: 18,
   },
   /* Polygon Pools Starts Here */
-  {
-    sousId: 1000,
-    tokenName: 'ABOND',
-    image: 'ABOND.svg',
-    stakingToken: tokens.abondMatic_QS,
-    rewardToken: tokens.abond,
-    contractAddress: {
-      [ChainId.MATIC]: '0x2B41D626C7C3ab5620AA128dc664145564102dC3',
-    },
-    poolCategory: PoolCategory.REAL_YIELD,
-    projectLink: 'https://ape.bond/',
-    twitter: 'https://twitter.com/ApeBond',
-    audit: 'https://paladinsec.co/projects/apeswap/',
-    harvest: true,
-    rewardsPerSecond: '0.004286694102',
-    tokenPerBlock: '0',
-    sortOrder: 1,
-    isFinished: false,
-    tokenDecimals: 18,
-  },
 
   /* ETH Pools Starts Here */
   {

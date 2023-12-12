@@ -3338,7 +3338,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: '0x7868245cAe5834b32B40CEE01f1b536AD75c7D09',
     },
     decimals: { [ChainId.BSC]: 18 },
-    active: true,
+    active: false,
     lpToken: true,
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.ThenaV1,
@@ -3788,7 +3788,7 @@ const tokens: Record<string, Token> = {
     liquidityDex: {
       [ChainId.MATIC]: LiquidityDex.QuickswapV2,
     },
-    active: true,
+    active: false,
     lpToken: true,
     getLpUrl: {
       [ChainId.MATIC]:
@@ -3862,7 +3862,7 @@ const tokens: Record<string, Token> = {
     liquidityDex: {
       [ChainId.MAINNET]: LiquidityDex.UniswapV2,
     },
-    active: true,
+    active: false,
     lpToken: true,
     getLpUrl: {
       [ChainId.MAINNET]: 'https://app.uniswap.org/pools/v2',

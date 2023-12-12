@@ -62,6 +62,32 @@ const jungleFarmsV2: JungleFarmConfig[] = [
 
   /* Polygon Jungle Farms starts here */
 
+  {
+    jungleId: 1000,
+    tokenName: tokens.abondMatic_QS.symbol,
+    image: 'ABOND.svg',
+    stakingToken: tokens.abondMatic_QS,
+    rewardToken: tokens.abond,
+    lpTokens: {
+      token: tokens.abond,
+      quoteToken: tokens.wmatic,
+    },
+    contractAddress: {
+      [ChainId.MATIC]: '0x2B41D626C7C3ab5620AA128dc664145564102dC3',
+    },
+    projectLink: 'https://ape.bond/',
+    twitter: 'https://twitter.com/ApeBond',
+    audit: 'https://paladinsec.co/projects/apeswap/',
+    harvest: true,
+    rewardsPerSecond: '0.004286694102',
+    tokenPerBlock: '0',
+    sortOrder: 1,
+    isFinished: false,
+    tokenDecimals: 18,
+    lpStaking: true,
+    network: ChainId.MATIC,
+  },
+
   /* ETH jungle Farms Starts Here */
   {
     jungleId: 2000,
