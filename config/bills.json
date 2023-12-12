@@ -63,13 +63,19 @@
     "earnToken": {
       "symbol": "ABOND",
       "address": {
-        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd"
+        "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
+        "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
       },
       "decimals": {
-        "56": 18
+        "1": 18,
+        "56": 18,
+        "137": 18
       },
       "liquidityDex": {
-        "56": "ApeSwapV2"
+        "1": "UniswapV3",
+        "56": "ThenaV1",
+        "137": "QuickswapV2"
       },
       "active": true
     },
@@ -157,13 +163,19 @@
     "earnToken": {
       "symbol": "ABOND",
       "address": {
-        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd"
+        "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
+        "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
       },
       "decimals": {
-        "56": 18
+        "1": 18,
+        "56": 18,
+        "137": 18
       },
       "liquidityDex": {
-        "56": "ApeSwapV2"
+        "1": "UniswapV3",
+        "56": "ThenaV1",
+        "137": "QuickswapV2"
       },
       "active": true
     },
@@ -251,13 +263,19 @@
     "earnToken": {
       "symbol": "ABOND",
       "address": {
-        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd"
+        "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
+        "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
       },
       "decimals": {
-        "56": 18
+        "1": 18,
+        "56": 18,
+        "137": 18
       },
       "liquidityDex": {
-        "56": "ApeSwapV2"
+        "1": "UniswapV3",
+        "56": "ThenaV1",
+        "137": "QuickswapV2"
       },
       "active": true
     },
@@ -345,13 +363,19 @@
     "earnToken": {
       "symbol": "ABOND",
       "address": {
-        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd"
+        "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
+        "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
       },
       "decimals": {
-        "56": 18
+        "1": 18,
+        "56": 18,
+        "137": 18
       },
       "liquidityDex": {
-        "56": "ApeSwapV2"
+        "1": "UniswapV3",
+        "56": "ThenaV1",
+        "137": "QuickswapV2"
       },
       "active": true
     },
@@ -421,13 +445,19 @@
     "earnToken": {
       "symbol": "ABOND",
       "address": {
-        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd"
+        "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
+        "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
       },
       "decimals": {
-        "56": 18
+        "1": 18,
+        "56": 18,
+        "137": 18
       },
       "liquidityDex": {
-        "56": "ApeSwapV2"
+        "1": "UniswapV3",
+        "56": "ThenaV1",
+        "137": "QuickswapV2"
       },
       "active": true
     },
@@ -497,13 +527,19 @@
     "earnToken": {
       "symbol": "ABOND",
       "address": {
-        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd"
+        "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
+        "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
       },
       "decimals": {
-        "56": 18
+        "1": 18,
+        "56": 18,
+        "137": 18
       },
       "liquidityDex": {
-        "56": "ApeSwapV2"
+        "1": "UniswapV3",
+        "56": "ThenaV1",
+        "137": "QuickswapV2"
       },
       "active": true
     },
@@ -573,13 +609,19 @@
     "earnToken": {
       "symbol": "ABOND",
       "address": {
-        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd"
+        "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
+        "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
       },
       "decimals": {
-        "56": 18
+        "1": 18,
+        "56": 18,
+        "137": 18
       },
       "liquidityDex": {
-        "56": "ApeSwapV2"
+        "1": "UniswapV3",
+        "56": "ThenaV1",
+        "137": "QuickswapV2"
       },
       "active": true
     },
@@ -649,13 +691,19 @@
     "earnToken": {
       "symbol": "ABOND",
       "address": {
-        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd"
+        "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
+        "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
       },
       "decimals": {
-        "56": 18
+        "1": 18,
+        "56": 18,
+        "137": 18
       },
       "liquidityDex": {
-        "56": "ApeSwapV2"
+        "1": "UniswapV3",
+        "56": "ThenaV1",
+        "137": "QuickswapV2"
       },
       "active": true
     },
@@ -866,12 +914,14 @@
     "quoteToken": {
       "symbol": "USDC",
       "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
         "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
         "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -933,6 +983,7 @@
     "token": {
       "symbol": "ETH",
       "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
         "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
         "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
@@ -940,6 +991,7 @@
         "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
       },
       "decimals": {
+        "1": 18,
         "40": 18,
         "56": 18,
         "97": 18,
@@ -1189,12 +1241,14 @@
     "quoteToken": {
       "symbol": "USDC",
       "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
         "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
         "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -1259,6 +1313,7 @@
     "token": {
       "symbol": "ETH",
       "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
         "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
         "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
@@ -1266,6 +1321,7 @@
         "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
       },
       "decimals": {
+        "1": 18,
         "40": 18,
         "56": 18,
         "97": 18,
@@ -3107,12 +3163,14 @@
     "quoteToken": {
       "symbol": "USDC",
       "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
         "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
         "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -3177,6 +3235,7 @@
     "token": {
       "symbol": "ETH",
       "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
         "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
         "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
@@ -3184,6 +3243,7 @@
         "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
       },
       "decimals": {
+        "1": 18,
         "40": 18,
         "56": 18,
         "97": 18,
@@ -4276,12 +4336,14 @@
     "quoteToken": {
       "symbol": "USDC",
       "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
         "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
         "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -4305,12 +4367,14 @@
     "earnToken": {
       "symbol": "USDC",
       "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
         "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
         "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -4635,12 +4699,14 @@
     "quoteToken": {
       "symbol": "USDC",
       "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
         "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
         "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -4664,12 +4730,14 @@
     "earnToken": {
       "symbol": "USDC",
       "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
         "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
         "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -4791,12 +4859,14 @@
     "quoteToken": {
       "symbol": "USDC",
       "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
         "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
         "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -5539,12 +5609,14 @@
     "quoteToken": {
       "symbol": "USDC",
       "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
         "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
         "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -5605,6 +5677,7 @@
     "token": {
       "symbol": "ETH",
       "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
         "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
         "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
@@ -5612,6 +5685,7 @@
         "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
       },
       "decimals": {
+        "1": 18,
         "40": 18,
         "56": 18,
         "97": 18,
@@ -7760,12 +7834,14 @@
     "quoteToken": {
       "symbol": "USDC",
       "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
         "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
         "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -7820,6 +7896,7 @@
     "token": {
       "symbol": "ETH",
       "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
         "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
         "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
@@ -7827,6 +7904,7 @@
         "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
       },
       "decimals": {
+        "1": 18,
         "40": 18,
         "56": 18,
         "97": 18,
@@ -8130,12 +8208,14 @@
     "quoteToken": {
       "symbol": "USDC",
       "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
         "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
         "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -8190,6 +8270,7 @@
     "token": {
       "symbol": "ETH",
       "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
         "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
         "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
@@ -8197,6 +8278,7 @@
         "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
       },
       "decimals": {
+        "1": 18,
         "40": 18,
         "56": 18,
         "97": 18,
@@ -8512,12 +8594,14 @@
     "quoteToken": {
       "symbol": "USDC",
       "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
         "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
         "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -8578,6 +8662,7 @@
     "token": {
       "symbol": "ETH",
       "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
         "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
         "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
@@ -8585,6 +8670,7 @@
         "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
       },
       "decimals": {
+        "1": 18,
         "40": 18,
         "56": 18,
         "97": 18,
@@ -9063,6 +9149,7 @@
     "token": {
       "symbol": "ETH",
       "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
         "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
         "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
@@ -9070,6 +9157,7 @@
         "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
       },
       "decimals": {
+        "1": 18,
         "40": 18,
         "56": 18,
         "97": 18,
@@ -9081,6 +9169,7 @@
     "quoteToken": {
       "symbol": "ETH",
       "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
         "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
         "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
@@ -9088,6 +9177,7 @@
         "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
       },
       "decimals": {
+        "1": 18,
         "40": 18,
         "56": 18,
         "97": 18,
@@ -9099,6 +9189,7 @@
     "lpToken": {
       "symbol": "ETH",
       "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
         "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
         "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
@@ -9106,6 +9197,7 @@
         "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
       },
       "decimals": {
+        "1": 18,
         "40": 18,
         "56": 18,
         "97": 18,
@@ -9168,12 +9260,14 @@
     "quoteToken": {
       "symbol": "USDC",
       "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
         "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
         "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -9412,6 +9506,7 @@
     "token": {
       "symbol": "ETH",
       "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
         "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
         "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
@@ -9419,6 +9514,7 @@
         "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
       },
       "decimals": {
+        "1": 18,
         "40": 18,
         "56": 18,
         "97": 18,
@@ -9430,6 +9526,7 @@
     "quoteToken": {
       "symbol": "ETH",
       "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
         "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
         "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
@@ -9437,6 +9534,7 @@
         "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
       },
       "decimals": {
+        "1": 18,
         "40": 18,
         "56": 18,
         "97": 18,
@@ -9448,6 +9546,7 @@
     "lpToken": {
       "symbol": "ETH",
       "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
         "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
         "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
@@ -9455,6 +9554,7 @@
         "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
       },
       "decimals": {
+        "1": 18,
         "40": 18,
         "56": 18,
         "97": 18,
@@ -9517,6 +9617,7 @@
     "quoteToken": {
       "symbol": "ETH",
       "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
         "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
         "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
@@ -9524,6 +9625,7 @@
         "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
       },
       "decimals": {
+        "1": 18,
         "40": 18,
         "56": 18,
         "97": 18,
@@ -9603,12 +9705,14 @@
     "quoteToken": {
       "symbol": "USDC",
       "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
         "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
         "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -9688,12 +9792,14 @@
     "quoteToken": {
       "symbol": "USDC",
       "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
         "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
         "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -9928,12 +10034,14 @@
     "quoteToken": {
       "symbol": "USDC",
       "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
         "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
         "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -9999,12 +10107,14 @@
     "quoteToken": {
       "symbol": "USDC",
       "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
         "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
         "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -10028,12 +10138,14 @@
     "earnToken": {
       "symbol": "USDC",
       "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
         "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
         "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -10286,12 +10398,14 @@
     "token": {
       "symbol": "USDC",
       "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
         "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
         "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -10327,12 +10441,14 @@
     "earnToken": {
       "symbol": "USDC",
       "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
         "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
         "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -10387,12 +10503,14 @@
     "quoteToken": {
       "symbol": "USDC",
       "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
         "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
         "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -10705,6 +10823,7 @@
     "token": {
       "symbol": "ETH",
       "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
         "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
         "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
@@ -10712,6 +10831,7 @@
         "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
       },
       "decimals": {
+        "1": 18,
         "40": 18,
         "56": 18,
         "97": 18,
@@ -10923,12 +11043,14 @@
     "token": {
       "symbol": "USDC",
       "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
         "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
         "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -11069,6 +11191,7 @@
     "token": {
       "symbol": "ETH",
       "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
         "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
         "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
@@ -11076,6 +11199,7 @@
         "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
       },
       "decimals": {
+        "1": 18,
         "40": 18,
         "56": 18,
         "97": 18,
@@ -11287,12 +11411,14 @@
     "token": {
       "symbol": "USDC",
       "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
         "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
         "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -11427,6 +11553,7 @@
     "token": {
       "symbol": "ETH",
       "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
         "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
         "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
@@ -11434,6 +11561,7 @@
         "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
       },
       "decimals": {
+        "1": 18,
         "40": 18,
         "56": 18,
         "97": 18,
@@ -11627,12 +11755,14 @@
     "token": {
       "symbol": "USDC",
       "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
         "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
         "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -11703,6 +11833,7 @@
     "quoteToken": {
       "symbol": "ETH",
       "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
         "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
         "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
@@ -11710,6 +11841,7 @@
         "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
       },
       "decimals": {
+        "1": 18,
         "40": 18,
         "56": 18,
         "97": 18,
@@ -11863,6 +11995,7 @@
     "quoteToken": {
       "symbol": "ETH",
       "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
         "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
         "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
@@ -11870,6 +12003,7 @@
         "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
       },
       "decimals": {
+        "1": 18,
         "40": 18,
         "56": 18,
         "97": 18,
@@ -11937,6 +12071,7 @@
     "quoteToken": {
       "symbol": "ETH",
       "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
         "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
         "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
@@ -11944,6 +12079,7 @@
         "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
       },
       "decimals": {
+        "1": 18,
         "40": 18,
         "56": 18,
         "97": 18,
