@@ -133,6 +133,7 @@ export interface BillsConfig {
   bannerURL?: string
   shortDescription?: string
   fullDescription?: string
+  tags?: string[]
   apeswapNote?: string
   featuredURLS?: string[] // add in frontend '-light|dark.png'
   partnersURLS?: string[] // add in frontend '-light|dark.png'
