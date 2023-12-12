@@ -188,7 +188,7 @@
     "stakingToken": {
       "symbol": "ABOND-MATIC",
       "address": {
-        "137": "0x27b00fE0413DFc2DE52D18562a2D0fB353A9cE00 "
+        "137": "0x27b00fE0413DFc2DE52D18562a2D0fB353A9cE00"
       },
       "decimals": {
         "137": 18

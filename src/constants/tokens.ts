@@ -3780,7 +3780,7 @@ const tokens: Record<string, Token> = {
   abondMatic_QS: {
     symbol: 'ABOND-MATIC',
     address: {
-      [ChainId.MATIC]: '0x27b00fE0413DFc2DE52D18562a2D0fB353A9cE00 ',
+      [ChainId.MATIC]: '0x27b00fE0413DFc2DE52D18562a2D0fB353A9cE00',
     },
     decimals: {
       [ChainId.MATIC]: 18,
