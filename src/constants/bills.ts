@@ -452,13 +452,13 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
+    inactive: true,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1702472400 },
     initPrice: { [ChainId.BSC]: 1 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
