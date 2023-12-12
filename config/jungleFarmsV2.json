@@ -287,7 +287,7 @@
       "active": true,
       "lpToken": true,
       "getLpUrl": {
-        "1": "https://app.ichi.org/vault/token/0x52692cC6637c985817D3C14bc99ad898565d14fF"
+        "1": "https://app.ichi.org/vault/token/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
       }
     },
     "rewardToken": {

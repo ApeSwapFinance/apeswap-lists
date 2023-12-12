@@ -3298,7 +3298,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: LiquidityDex.Algebra,
     },
     getLpUrl: {
-      [ChainId.BSC]: 'https://thena.fi/add?type=ichi&address=0xcbfb2d1487a8a69a8b0ee8e7fb3ca5e0c338b508',
+      [ChainId.BSC]: 'https://www.thena.fi/add?type=ichi&address=0x137df93a0c22b863c1b335d1b8d389ea3895ba13',
     },
   },
   busdBnb_Thena: {
@@ -3848,7 +3848,7 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
     getLpUrl: {
-      [ChainId.MAINNET]: 'https://app.ichi.org/vault/token/0x52692cC6637c985817D3C14bc99ad898565d14fF',
+      [ChainId.MAINNET]: 'https://app.ichi.org/vault/token/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
     },
   },
   abondEth_UNIV2: {
