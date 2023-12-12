@@ -9,6 +9,10 @@ export const dexFactories: Partial<
       factory: '0xBAe5dc9B19004883d0377419FeF3c2C8832d7d7B',
       protocol: Protocols.V2,
     },
+    [LiquidityDex.UniswapV2]: {
+      factory: '0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f',
+      protocol: Protocols.V2,
+    },
     [LiquidityDex.UniswapV3]: {
       factory: '0x1F98431c8aD98523631AE4a59f267346ea31F984',
       protocol: Protocols.V3,

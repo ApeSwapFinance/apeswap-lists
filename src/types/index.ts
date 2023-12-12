@@ -22,6 +22,7 @@ export enum LiquidityDex {
   ApeSwapV2 = 'ApeSwapV2',
   ApeSwapV3 = 'ApeSwapV3',
   PancakeSwapV2 = 'PancakeSwapV2',
+  UniswapV2 = 'UniswapV2',
   ThenaV1 = 'ThenaV1',
   /**
    * Initially, LiquidityDex was for the price getter and that checks algebra pricing
