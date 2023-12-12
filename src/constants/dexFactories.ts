@@ -9,6 +9,10 @@ export const dexFactories: Partial<
       factory: '0xBAe5dc9B19004883d0377419FeF3c2C8832d7d7B',
       protocol: Protocols.V2,
     },
+    [LiquidityDex.UniswapV2]: {
+      factory: '0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f',
+      protocol: Protocols.V2,
+    },
     [LiquidityDex.UniswapV3]: {
       factory: '0x1F98431c8aD98523631AE4a59f267346ea31F984',
       protocol: Protocols.V3,
@@ -31,9 +35,17 @@ export const dexFactories: Partial<
       factory: '0x7Bc382DdC5928964D7af60e7e2f6299A1eA6F48d',
       protocol: Protocols.V3,
     },
+    [LiquidityDex.UniswapV3]: {
+      factory: '0xdB1d10011AD0Ff90774D0C6Bb92e5C5c8b4461F7',
+      protocol: Protocols.V3,
+    },
     [LiquidityDex.Algebra]: {
       factory: '0x306F06C147f064A010530292A1EB6737c3e378e4', //Thena
       protocol: Protocols.Algebra,
+    },
+    [LiquidityDex.ThenaV1]: {
+      factory: '0xAFD89d21BdB66d00817d4153E055830B1c2B3970', //ThenaV1
+      protocol: Protocols.Solidly,
     },
   },
   [ChainId.MATIC]: {
@@ -77,8 +89,9 @@ export const defaultDexFactories: Partial<Record<ChainId, Partial<Record<Protoco
   },
   [ChainId.BSC]: {
     [Protocols.V2]: dexFactories[ChainId.BSC]?.ApeSwapV2?.factory,
-    [Protocols.V3]: dexFactories[ChainId.BSC]?.ApeSwapV3?.factory,
+    [Protocols.V3]: dexFactories[ChainId.BSC]?.UniswapV3?.factory,
     [Protocols.Algebra]: dexFactories[ChainId.BSC]?.Algebra?.factory,
+    [Protocols.Solidly]: dexFactories[ChainId.BSC]?.ThenaV1?.factory,
   },
   [ChainId.MATIC]: {
     [Protocols.V2]: dexFactories[ChainId.MATIC]?.ApeSwapV2?.factory,
