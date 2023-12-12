@@ -52,7 +52,11 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: '0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1',
       [ChainId.MAINNET]: '0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1',
     },
-    decimals: { [ChainId.BSC]: 18, [ChainId.MATIC]: 18, [ChainId.MAINNET]: 18 },
+    decimals: {
+      [ChainId.BSC]: 18,
+      [ChainId.MATIC]: 18,
+      [ChainId.MAINNET]: 18,
+    },
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.ThenaV1,
       [ChainId.MATIC]: LiquidityDex.QuickswapV2,
@@ -60,6 +64,23 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  veabond: {
+    symbol: 'VEABOND',
+    address: {
+      [ChainId.BSC]: '0x1cE1b8e28E4D4c1C4dA01b69f5434A9Fb7BE023D',
+      [ChainId.MAINNET]: '0x1cE1b8e28E4D4c1C4dA01b69f5434A9Fb7BE023D',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+      [ChainId.MAINNET]: 18,
+    },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.ThenaV1,
+      [ChainId.MAINNET]: LiquidityDex.UniswapV3,
+    },
+    active: true,
+  },
+
   wbnb: {
     symbol: 'BNB',
     address: {
@@ -3311,7 +3332,7 @@ const tokens: Record<string, Token> = {
         'https://pancakeswap.finance/v2/add/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56/0x2D060Ef4d6BF7f9e5edDe373Ab735513c0e4F944',
     },
   },
-  /*  abondBnb_Thena: {
+  abondBnb_Thena: {
     symbol: 'ABOND-BNB',
     address: {
       [ChainId.BSC]: '0x7868245cAe5834b32B40CEE01f1b536AD75c7D09',
@@ -3340,7 +3361,7 @@ const tokens: Record<string, Token> = {
     getLpUrl: {
       [ChainId.BSC]: 'https://thena.fi/add/v1',
     },
-  }, */
+  },
   mfpsBnb_PCS: {
     symbol: 'MFPS-BNB',
     address: {
@@ -3756,7 +3777,7 @@ const tokens: Record<string, Token> = {
         'https://quickswap.exchange/#/pools/v2?currency0=0xE06Bd4F5aAc8D0aA337D13eC88dB6defC6eAEefE&currency1=0xc2132D05D31c914a87C6611C10748AEb04B58e8F',
     },
   },
-  /*  abondMatic_QS: {
+  abondMatic_QS: {
     symbol: 'ABOND-MATIC',
     address: {
       [ChainId.MATIC]: '0x27b00fE0413DFc2DE52D18562a2D0fB353A9cE00 ',
@@ -3773,7 +3794,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]:
         'https://quickswap.exchange/#/pools/v2?currency0=ETH&currency1=0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1',
     },
-  },*/
+  },
   chrpBnb: {
     symbol: 'CHRP-BNB',
     address: {
@@ -3813,7 +3834,7 @@ const tokens: Record<string, Token> = {
       [ChainId.ARBITRUM]: 'https://apeswap.finance/add-liquidity/ETH/0x58CB98A966F62aA6F2190eB3AA03132A0c3de3D5',
     },
   },
-  /*abondEth_Ichi: {
+  abondEth_Ichi: {
     symbol: 'ABOND-ETH',
     address: {
       [ChainId.MAINNET]: '0x52692cC6637c985817D3C14bc99ad898565d14fF',
@@ -3839,14 +3860,14 @@ const tokens: Record<string, Token> = {
       [ChainId.MAINNET]: 18,
     },
     liquidityDex: {
-      [ChainId.MAINNET]: LiquidityDex.UniswapV3, //Change This to UniV2 once you have it.
+      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
     },
     active: true,
     lpToken: true,
     getLpUrl: {
       [ChainId.MAINNET]: 'https://app.uniswap.org/pools', // Add Link once you have it.
     },
-  },*/
+  },
 }
 
 export default tokens

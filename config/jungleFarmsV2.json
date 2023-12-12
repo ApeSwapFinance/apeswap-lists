@@ -1,12 +1,12 @@
 [
   {
     "jungleId": 1,
-    "tokenName": "THE-BNB",
-    "image": "THE.svg",
+    "tokenName": "ABOND-BNB",
+    "image": "ABOND.svg",
     "stakingToken": {
-      "symbol": "THE-BNB",
+      "symbol": "ABOND-BNB",
       "address": {
-        "56": "0xcBFB2D1487a8A69a8b0eE8e7Fb3ca5e0C338B508"
+        "56": "0x7868245cAe5834b32B40CEE01f1b536AD75c7D09"
       },
       "decimals": {
         "56": 18
@@ -14,38 +14,50 @@
       "active": true,
       "lpToken": true,
       "liquidityDex": {
-        "56": "Algebra"
+        "56": "ThenaV1"
       },
       "getLpUrl": {
-        "56": "https://thena.fi/add?type=ichi&address=0xcbfb2d1487a8a69a8b0ee8e7fb3ca5e0c338b508"
+        "56": "https://thena.fi/add/v1"
       }
     },
     "rewardToken": {
-      "symbol": "THE",
+      "symbol": "ABOND",
       "address": {
-        "56": "0xF4C8E32EaDEC4BFe97E0F595AdD0f4450a863a11"
+        "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
+        "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
       },
       "decimals": {
-        "56": 18
+        "1": 18,
+        "56": 18,
+        "137": 18
       },
-      "active": true,
       "liquidityDex": {
-        "56": "ThenaV1"
-      }
+        "1": "UniswapV3",
+        "56": "ThenaV1",
+        "137": "QuickswapV2"
+      },
+      "active": true
     },
     "lpTokens": {
       "token": {
-        "symbol": "THE",
+        "symbol": "ABOND",
         "address": {
-          "56": "0xF4C8E32EaDEC4BFe97E0F595AdD0f4450a863a11"
+          "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+          "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
+          "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
         },
         "decimals": {
-          "56": 18
+          "1": 18,
+          "56": 18,
+          "137": 18
         },
-        "active": true,
         "liquidityDex": {
-          "56": "ThenaV1"
-        }
+          "1": "UniswapV3",
+          "56": "ThenaV1",
+          "137": "QuickswapV2"
+        },
+        "active": true
       },
       "quoteToken": {
         "symbol": "BNB",
@@ -63,13 +75,13 @@
       }
     },
     "contractAddress": {
-      "56": "0xAde0c701F7566D6481aFF6CF62a39b60e0b6EFD4"
+      "56": "0x8A5de8f19789a9f05f8D1B465ED85b0bC1C1fCD3"
     },
-    "projectLink": "http://livegreencoin.com/",
-    "twitter": "https://twitter.com/LiveGreenCoin1",
-    "audit": "https://www.certik.com/projects/livegreencoin",
+    "projectLink": "https://ape.bond/",
+    "twitter": "https://twitter.com/ApeBond",
+    "audit": "https://paladinsec.co/projects/apeswap/",
     "harvest": true,
-    "rewardsPerSecond": "0.000003858024691",
+    "rewardsPerSecond": "0.021433470508",
     "tokenPerBlock": "0",
     "sortOrder": 1,
     "isFinished": false,
@@ -80,12 +92,12 @@
   },
   {
     "jungleId": 2,
-    "tokenName": "BUSD-BNB",
-    "image": "THE.svg",
+    "tokenName": "ABOND-BNB",
+    "image": "ABOND.svg",
     "stakingToken": {
-      "symbol": "BUSD-BNB",
+      "symbol": "ABOND-BNB",
       "address": {
-        "56": "0x483653bcf3a10d9a1c334ce16a19471a614f4385"
+        "56": "0x137Df93A0c22b863C1B335d1b8d389Ea3895BA13"
       },
       "decimals": {
         "56": 18
@@ -93,35 +105,48 @@
       "active": true,
       "lpToken": true,
       "liquidityDex": {
-        "56": "ThenaV1"
+        "56": "Algebra"
       },
       "getLpUrl": {
-        "56": "https://thena.fi/add/v1/0x483653bcf3a10d9a1c334ce16a19471a614f4385"
+        "56": "https://thena.fi/add/v1"
       }
     },
     "rewardToken": {
-      "symbol": "THE",
+      "symbol": "ABOND",
       "address": {
-        "56": "0xF4C8E32EaDEC4BFe97E0F595AdD0f4450a863a11"
+        "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
+        "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
       },
       "decimals": {
-        "56": 18
+        "1": 18,
+        "56": 18,
+        "137": 18
       },
-      "active": true,
       "liquidityDex": {
-        "56": "ThenaV1"
-      }
+        "1": "UniswapV3",
+        "56": "ThenaV1",
+        "137": "QuickswapV2"
+      },
+      "active": true
     },
     "lpTokens": {
       "token": {
-        "symbol": "BUSD",
+        "symbol": "ABOND",
         "address": {
-          "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-          "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
+          "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+          "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
+          "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
         },
         "decimals": {
+          "1": 18,
           "56": 18,
-          "97": 18
+          "137": 18
+        },
+        "liquidityDex": {
+          "1": "UniswapV3",
+          "56": "ThenaV1",
+          "137": "QuickswapV2"
         },
         "active": true
       },
@@ -141,13 +166,13 @@
       }
     },
     "contractAddress": {
-      "56": "0x01B9B9C2C2a5f97132858609249455FbF819FC21"
+      "56": "0xc2478306b8021046FBe8569d74f844515abaE2fD"
     },
-    "projectLink": "http://livegreencoin.com/",
-    "twitter": "https://twitter.com/LiveGreenCoin1",
-    "audit": "https://www.certik.com/projects/livegreencoin",
+    "projectLink": "https://ape.bond/",
+    "twitter": "https://twitter.com/ApeBond",
+    "audit": "https://paladinsec.co/projects/apeswap/",
     "harvest": true,
-    "rewardsPerSecond": "0.000003858024691",
+    "rewardsPerSecond": "0.085733882030",
     "tokenPerBlock": "0",
     "sortOrder": 1,
     "isFinished": false,
@@ -155,173 +180,5 @@
     "lpStaking": true,
     "isEarnTokenLp": false,
     "network": 56
-  },
-  {
-    "jungleId": 1000,
-    "tokenName": "MATIC (ETH)",
-    "image": "QUICK.svg",
-    "stakingToken": {
-      "symbol": "MATIC (ETH)",
-      "address": {
-        "137": "0x9ff3C1390300918B40714fD464A39699dDd9Fe00"
-      },
-      "decimals": {
-        "137": 18
-      },
-      "liquidityDex": {
-        "137": "Algebra"
-      },
-      "active": true,
-      "lpToken": true,
-      "getLpUrl": {
-        "137": "https://app.ichi.org/vault/token/0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270"
-      }
-    },
-    "rewardToken": {
-      "symbol": "QUICK",
-      "address": {
-        "137": "0xb5c064f955d8e7f38fe0460c556a72987494ee17"
-      },
-      "decimals": {
-        "137": 18
-      },
-      "liquidityDex": {
-        "137": "QuickswapV2"
-      },
-      "active": true
-    },
-    "lpTokens": {
-      "token": {
-        "symbol": "MATIC",
-        "address": {
-          "56": "0xcc42724c6683b7e57334c4e856f4c9965ed682bd",
-          "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
-        },
-        "decimals": {
-          "56": 18,
-          "137": 18
-        },
-        "active": true
-      },
-      "quoteToken": {
-        "symbol": "ETH",
-        "address": {
-          "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-          "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
-          "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
-          "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
-          "137": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
-          "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
-        },
-        "decimals": {
-          "1": 18,
-          "40": 18,
-          "56": 18,
-          "97": 18,
-          "137": 18,
-          "42161": 18
-        },
-        "active": true
-      }
-    },
-    "contractAddress": {
-      "137": "0xa74f2D6B10f8003A1e07d50d9f19A07c0B42deAf"
-    },
-    "projectLink": "http://livegreencoin.com/",
-    "twitter": "https://twitter.com/LiveGreenCoin1",
-    "audit": "https://www.certik.com/projects/livegreencoin",
-    "harvest": true,
-    "rewardsPerSecond": "0.000003858024691",
-    "tokenPerBlock": "0",
-    "sortOrder": 1,
-    "isFinished": false,
-    "tokenDecimals": 18,
-    "lpStaking": true,
-    "isEarnTokenLp": false,
-    "network": 137
-  },
-  {
-    "jungleId": 1001,
-    "tokenName": "MATIC-ETH",
-    "image": "QUICK.svg",
-    "stakingToken": {
-      "symbol": "MATIC-ETH",
-      "address": {
-        "137": "0xadbF1854e5883eB8aa7BAf50705338739e558E5b"
-      },
-      "decimals": {
-        "137": 18
-      },
-      "liquidityDex": {
-        "137": "QuickswapV2"
-      },
-      "active": true,
-      "lpToken": true,
-      "getLpUrl": {
-        "137": "https://quickswap.exchange/#/pools/v2?currency0=ETH&currency1=0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
-      }
-    },
-    "rewardToken": {
-      "symbol": "QUICK",
-      "address": {
-        "137": "0xb5c064f955d8e7f38fe0460c556a72987494ee17"
-      },
-      "decimals": {
-        "137": 18
-      },
-      "liquidityDex": {
-        "137": "QuickswapV2"
-      },
-      "active": true
-    },
-    "lpTokens": {
-      "token": {
-        "symbol": "MATIC",
-        "address": {
-          "56": "0xcc42724c6683b7e57334c4e856f4c9965ed682bd",
-          "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
-        },
-        "decimals": {
-          "56": 18,
-          "137": 18
-        },
-        "active": true
-      },
-      "quoteToken": {
-        "symbol": "ETH",
-        "address": {
-          "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-          "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
-          "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
-          "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
-          "137": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
-          "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
-        },
-        "decimals": {
-          "1": 18,
-          "40": 18,
-          "56": 18,
-          "97": 18,
-          "137": 18,
-          "42161": 18
-        },
-        "active": true
-      }
-    },
-    "contractAddress": {
-      "137": "0x36CD02D189AD121859d2669F031074AB17F7e21B"
-    },
-    "projectLink": "http://livegreencoin.com/",
-    "twitter": "https://twitter.com/LiveGreenCoin1",
-    "audit": "https://www.certik.com/projects/livegreencoin",
-    "harvest": true,
-    "rewardsPerSecond": "0.000003858024691",
-    "tokenPerBlock": "0",
-    "sortOrder": 1,
-    "isFinished": false,
-    "tokenDecimals": 18,
-    "lpStaking": true,
-    "isEarnTokenLp": false,
-    "network": 137
   }
 ]
