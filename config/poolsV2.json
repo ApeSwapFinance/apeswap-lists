@@ -23,7 +23,7 @@
       "active": true
     },
     "rewardToken": {
-      "symbol": "VEABOND",
+      "symbol": "veABOND",
       "address": {
         "1": "0x1cE1b8e28E4D4c1C4dA01b69f5434A9Fb7BE023D",
         "56": "0x1cE1b8e28E4D4c1C4dA01b69f5434A9Fb7BE023D"
@@ -110,8 +110,8 @@
   },
   {
     "sousId": 2000,
-    "tokenName": "ABOND",
-    "image": "ABOND.svg",
+    "tokenName": "veABOND",
+    "image": "VEABOND.svg",
     "stakingToken": {
       "symbol": "ABOND",
       "address": {
@@ -132,7 +132,7 @@
       "active": true
     },
     "rewardToken": {
-      "symbol": "VEABOND",
+      "symbol": "veABOND",
       "address": {
         "1": "0x1cE1b8e28E4D4c1C4dA01b69f5434A9Fb7BE023D",
         "56": "0x1cE1b8e28E4D4c1C4dA01b69f5434A9Fb7BE023D"

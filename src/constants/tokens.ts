@@ -65,7 +65,7 @@ const tokens: Record<string, Token> = {
     active: true,
   },
   veabond: {
-    symbol: 'VEABOND',
+    symbol: 'veABOND',
     address: {
       [ChainId.BSC]: '0x1cE1b8e28E4D4c1C4dA01b69f5434A9Fb7BE023D',
       [ChainId.MAINNET]: '0x1cE1b8e28E4D4c1C4dA01b69f5434A9Fb7BE023D',
@@ -3344,7 +3344,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: LiquidityDex.ThenaV1,
     },
     getLpUrl: {
-      [ChainId.BSC]: 'https://thena.fi/add/v1',
+      [ChainId.BSC]: 'https://thena.fi/add/v1/0x7868245cAe5834b32B40CEE01f1b536AD75c7D09',
     },
   },
   abondBnb_Ichi: {
@@ -3359,7 +3359,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: LiquidityDex.Algebra,
     },
     getLpUrl: {
-      [ChainId.BSC]: 'https://thena.fi/add/v1',
+      [ChainId.BSC]: 'https://thena.fi/add?type=ichi&address=0x137Df93A0c22b863C1B335d1b8d389Ea3895BA13',
     },
   },
   mfpsBnb_PCS: {
@@ -3848,7 +3848,7 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
     getLpUrl: {
-      [ChainId.MAINNET]: 'https://app.ichi.org/',
+      [ChainId.MAINNET]: 'https://app.ichi.org/vault/token/0x52692cC6637c985817D3C14bc99ad898565d14fF',
     },
   },
   abondEth_UNIV2: {
@@ -3865,7 +3865,7 @@ const tokens: Record<string, Token> = {
     active: false,
     lpToken: true,
     getLpUrl: {
-      [ChainId.MAINNET]: 'https://app.uniswap.org/pools/v2',
+      [ChainId.MAINNET]: 'https://app.uniswap.org/add/v2/ETH/0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1',
     },
   },
 }

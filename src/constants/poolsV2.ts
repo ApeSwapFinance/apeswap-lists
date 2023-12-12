@@ -52,8 +52,8 @@ const poolsV2: PoolConfig[] = [
   /* ETH Pools Starts Here */
   {
     sousId: 2000,
-    tokenName: 'ABOND',
-    image: 'ABOND.svg',
+    tokenName: 'veABOND',
+    image: 'VEABOND.svg',
     stakingToken: tokens.abond,
     rewardToken: tokens.veabond,
     contractAddress: {
