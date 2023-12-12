@@ -161,5 +161,114 @@
     "sortOrder": 1,
     "isFinished": false,
     "tokenDecimals": 18
+  },
+  {
+    "sousId": 2000,
+    "tokenName": "ABOND",
+    "image": "ABOND.svg",
+    "stakingToken": {
+      "symbol": "ABOND",
+      "address": {
+        "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
+        "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
+      },
+      "decimals": {
+        "1": 18,
+        "56": 18,
+        "137": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV3",
+        "56": "ThenaV1",
+        "137": "QuickswapV2"
+      },
+      "active": true
+    },
+    "rewardToken": {
+      "symbol": "VEABOND",
+      "address": {
+        "1": "0x1cE1b8e28E4D4c1C4dA01b69f5434A9Fb7BE023D",
+        "56": "0x1cE1b8e28E4D4c1C4dA01b69f5434A9Fb7BE023D"
+      },
+      "decimals": {
+        "1": 18,
+        "56": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV3",
+        "56": "ThenaV1"
+      },
+      "active": true
+    },
+    "contractAddress": {
+      "1": "0xC2F99d1E101a1060454BD8e7913B240F0F947484"
+    },
+    "poolCategory": "Real Yield",
+    "projectLink": "https://ape.bond/",
+    "twitter": "https://twitter.com/ApeBond",
+    "audit": "https://paladinsec.co/projects/apeswap/",
+    "harvest": true,
+    "rewardsPerSecond": "0.085733882030",
+    "tokenPerBlock": "0",
+    "sortOrder": 1,
+    "isFinished": false,
+    "tokenDecimals": 18
+  },
+  {
+    "sousId": 2001,
+    "tokenName": "ABOND",
+    "image": "ABOND.svg",
+    "stakingToken": {
+      "symbol": "ABOND",
+      "address": {
+        "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
+        "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
+      },
+      "decimals": {
+        "1": 18,
+        "56": 18,
+        "137": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV3",
+        "56": "ThenaV1",
+        "137": "QuickswapV2"
+      },
+      "active": true
+    },
+    "rewardToken": {
+      "symbol": "ABOND",
+      "address": {
+        "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
+        "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
+      },
+      "decimals": {
+        "1": 18,
+        "56": 18,
+        "137": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV3",
+        "56": "ThenaV1",
+        "137": "QuickswapV2"
+      },
+      "active": true
+    },
+    "contractAddress": {
+      "1": "0x904bAC017D0b58ea6FafBF9853232374E13963Ed"
+    },
+    "poolCategory": "Real Yield",
+    "projectLink": "https://ape.bond/",
+    "twitter": "https://twitter.com/ApeBond",
+    "audit": "https://paladinsec.co/projects/apeswap/",
+    "harvest": true,
+    "rewardsPerSecond": "0.085733882030",
+    "tokenPerBlock": "0",
+    "sortOrder": 1,
+    "isFinished": false,
+    "tokenDecimals": 18
   }
 ]

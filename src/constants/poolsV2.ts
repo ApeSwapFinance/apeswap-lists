@@ -68,5 +68,47 @@ const poolsV2: PoolConfig[] = [
     isFinished: false,
     tokenDecimals: 18,
   },
+
+  /* ETH Pools Starts Here */
+  {
+    sousId: 2000,
+    tokenName: 'ABOND',
+    image: 'ABOND.svg',
+    stakingToken: tokens.abond,
+    rewardToken: tokens.veabond,
+    contractAddress: {
+      [ChainId.MAINNET]: '0xC2F99d1E101a1060454BD8e7913B240F0F947484',
+    },
+    poolCategory: PoolCategory.REAL_YIELD,
+    projectLink: 'https://ape.bond/',
+    twitter: 'https://twitter.com/ApeBond',
+    audit: 'https://paladinsec.co/projects/apeswap/',
+    harvest: true,
+    rewardsPerSecond: '0.085733882030',
+    tokenPerBlock: `0`,
+    sortOrder: 1,
+    isFinished: false,
+    tokenDecimals: 18,
+  },
+  {
+    sousId: 2001,
+    tokenName: 'ABOND',
+    image: 'ABOND.svg',
+    stakingToken: tokens.abond,
+    rewardToken: tokens.abond,
+    contractAddress: {
+      [ChainId.MAINNET]: '0x904bAC017D0b58ea6FafBF9853232374E13963Ed',
+    },
+    poolCategory: PoolCategory.REAL_YIELD,
+    projectLink: 'https://ape.bond/',
+    twitter: 'https://twitter.com/ApeBond',
+    audit: 'https://paladinsec.co/projects/apeswap/',
+    harvest: true,
+    rewardsPerSecond: '0.085733882030',
+    tokenPerBlock: `0`,
+    sortOrder: 1,
+    isFinished: false,
+    tokenDecimals: 18,
+  },
 ]
 export default poolsV2

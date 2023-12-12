@@ -3865,7 +3865,7 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
     getLpUrl: {
-      [ChainId.MAINNET]: 'https://app.uniswap.org/pools', // Add Link once you have it.
+      [ChainId.MAINNET]: 'https://app.uniswap.org/pools/v2',
     },
   },
 }
