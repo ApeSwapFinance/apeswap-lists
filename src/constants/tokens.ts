@@ -3338,13 +3338,13 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: '0x7868245cAe5834b32B40CEE01f1b536AD75c7D09',
     },
     decimals: { [ChainId.BSC]: 18 },
-    active: false,
+    active: true,
     lpToken: true,
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.ThenaV1,
     },
     getLpUrl: {
-      [ChainId.BSC]: 'https://thena.fi/add/v1/0x7868245cAe5834b32B40CEE01f1b536AD75c7D09',
+      [ChainId.BSC]: 'https://www.thena.fi/add/v1',
     },
   },
   abondBnb_Ichi: {
@@ -3788,7 +3788,7 @@ const tokens: Record<string, Token> = {
     liquidityDex: {
       [ChainId.MATIC]: LiquidityDex.QuickswapV2,
     },
-    active: false,
+    active: true,
     lpToken: true,
     getLpUrl: {
       [ChainId.MATIC]:
@@ -3862,7 +3862,7 @@ const tokens: Record<string, Token> = {
     liquidityDex: {
       [ChainId.MAINNET]: LiquidityDex.UniswapV2,
     },
-    active: false,
+    active: true,
     lpToken: true,
     getLpUrl: {
       [ChainId.MAINNET]: 'https://app.uniswap.org/add/v2/ETH/0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1',

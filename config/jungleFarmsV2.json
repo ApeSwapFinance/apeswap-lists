@@ -11,13 +11,13 @@
       "decimals": {
         "56": 18
       },
-      "active": false,
+      "active": true,
       "lpToken": true,
       "liquidityDex": {
         "56": "ThenaV1"
       },
       "getLpUrl": {
-        "56": "https://thena.fi/add/v1/0x7868245cAe5834b32B40CEE01f1b536AD75c7D09"
+        "56": "https://www.thena.fi/add/v1"
       }
     },
     "rewardToken": {
@@ -196,7 +196,7 @@
       "liquidityDex": {
         "137": "QuickswapV2"
       },
-      "active": false,
+      "active": true,
       "lpToken": true,
       "getLpUrl": {
         "137": "https://quickswap.exchange/#/pools/v2?currency0=ETH&currency1=0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
@@ -381,7 +381,7 @@
       "liquidityDex": {
         "1": "UniswapV2"
       },
-      "active": false,
+      "active": true,
       "lpToken": true,
       "getLpUrl": {
         "1": "https://app.uniswap.org/add/v2/ETH/0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
