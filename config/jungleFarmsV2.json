@@ -1,1 +1,466 @@
-[]
+[
+  {
+    "jungleId": 1,
+    "tokenName": "ABOND-BNB",
+    "image": "ABOND.svg",
+    "stakingToken": {
+      "symbol": "ABOND-BNB",
+      "address": {
+        "56": "0x7868245cAe5834b32B40CEE01f1b536AD75c7D09"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true,
+      "liquidityDex": {
+        "56": "ThenaV1"
+      },
+      "getLpUrl": {
+        "56": "https://www.thena.fi/add/v1"
+      }
+    },
+    "rewardToken": {
+      "symbol": "ABOND",
+      "address": {
+        "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
+        "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
+      },
+      "decimals": {
+        "1": 18,
+        "56": 18,
+        "137": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV3",
+        "56": "ThenaV1",
+        "137": "QuickswapV2"
+      },
+      "active": true
+    },
+    "lpTokens": {
+      "token": {
+        "symbol": "ABOND",
+        "address": {
+          "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+          "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
+          "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
+        },
+        "decimals": {
+          "1": 18,
+          "56": 18,
+          "137": 18
+        },
+        "liquidityDex": {
+          "1": "UniswapV3",
+          "56": "ThenaV1",
+          "137": "QuickswapV2"
+        },
+        "active": true
+      },
+      "quoteToken": {
+        "symbol": "BNB",
+        "address": {
+          "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+          "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+          "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        },
+        "decimals": {
+          "56": 18,
+          "97": 18,
+          "137": 18
+        },
+        "active": true
+      }
+    },
+    "contractAddress": {
+      "56": "0x8A5de8f19789a9f05f8D1B465ED85b0bC1C1fCD3"
+    },
+    "projectLink": "https://ape.bond/",
+    "twitter": "https://twitter.com/ApeBond",
+    "audit": "https://paladinsec.co/projects/apeswap/",
+    "harvest": true,
+    "rewardsPerSecond": "0.021433470508",
+    "tokenPerBlock": "0",
+    "sortOrder": 1,
+    "isFinished": false,
+    "tokenDecimals": 18,
+    "lpStaking": true,
+    "isEarnTokenLp": false,
+    "network": 56
+  },
+  {
+    "jungleId": 2,
+    "tokenName": "ABOND-BNB",
+    "image": "ABOND.svg",
+    "stakingToken": {
+      "symbol": "ABOND-BNB",
+      "address": {
+        "56": "0x137Df93A0c22b863C1B335d1b8d389Ea3895BA13"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true,
+      "liquidityDex": {
+        "56": "Algebra"
+      },
+      "getLpUrl": {
+        "56": "https://www.thena.fi/add?type=ichi&address=0x137df93a0c22b863c1b335d1b8d389ea3895ba13"
+      }
+    },
+    "rewardToken": {
+      "symbol": "ABOND",
+      "address": {
+        "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
+        "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
+      },
+      "decimals": {
+        "1": 18,
+        "56": 18,
+        "137": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV3",
+        "56": "ThenaV1",
+        "137": "QuickswapV2"
+      },
+      "active": true
+    },
+    "lpTokens": {
+      "token": {
+        "symbol": "ABOND",
+        "address": {
+          "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+          "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
+          "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
+        },
+        "decimals": {
+          "1": 18,
+          "56": 18,
+          "137": 18
+        },
+        "liquidityDex": {
+          "1": "UniswapV3",
+          "56": "ThenaV1",
+          "137": "QuickswapV2"
+        },
+        "active": true
+      },
+      "quoteToken": {
+        "symbol": "BNB",
+        "address": {
+          "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+          "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+          "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        },
+        "decimals": {
+          "56": 18,
+          "97": 18,
+          "137": 18
+        },
+        "active": true
+      }
+    },
+    "contractAddress": {
+      "56": "0xc2478306b8021046FBe8569d74f844515abaE2fD"
+    },
+    "projectLink": "https://ape.bond/",
+    "twitter": "https://twitter.com/ApeBond",
+    "audit": "https://paladinsec.co/projects/apeswap/",
+    "harvest": true,
+    "rewardsPerSecond": "0.085733882030",
+    "tokenPerBlock": "0",
+    "sortOrder": 1,
+    "isFinished": false,
+    "tokenDecimals": 18,
+    "lpStaking": true,
+    "isEarnTokenLp": false,
+    "network": 56
+  },
+  {
+    "jungleId": 1000,
+    "tokenName": "ABOND-MATIC",
+    "image": "ABOND.svg",
+    "stakingToken": {
+      "symbol": "ABOND-MATIC",
+      "address": {
+        "137": "0x27b00fE0413DFc2DE52D18562a2D0fB353A9cE00"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "QuickswapV2"
+      },
+      "active": true,
+      "lpToken": true,
+      "getLpUrl": {
+        "137": "https://quickswap.exchange/#/pools/v2?currency0=ETH&currency1=0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
+      }
+    },
+    "rewardToken": {
+      "symbol": "ABOND",
+      "address": {
+        "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
+        "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
+      },
+      "decimals": {
+        "1": 18,
+        "56": 18,
+        "137": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV3",
+        "56": "ThenaV1",
+        "137": "QuickswapV2"
+      },
+      "active": true
+    },
+    "lpTokens": {
+      "token": {
+        "symbol": "ABOND",
+        "address": {
+          "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+          "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
+          "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
+        },
+        "decimals": {
+          "1": 18,
+          "56": 18,
+          "137": 18
+        },
+        "liquidityDex": {
+          "1": "UniswapV3",
+          "56": "ThenaV1",
+          "137": "QuickswapV2"
+        },
+        "active": true
+      },
+      "quoteToken": {
+        "symbol": "MATIC",
+        "address": {
+          "56": "0xcc42724c6683b7e57334c4e856f4c9965ed682bd",
+          "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
+        },
+        "decimals": {
+          "56": 18,
+          "137": 18
+        },
+        "active": true
+      }
+    },
+    "contractAddress": {
+      "137": "0x2B41D626C7C3ab5620AA128dc664145564102dC3"
+    },
+    "projectLink": "https://ape.bond/",
+    "twitter": "https://twitter.com/ApeBond",
+    "audit": "https://paladinsec.co/projects/apeswap/",
+    "harvest": true,
+    "rewardsPerSecond": "0.004286694102",
+    "tokenPerBlock": "0",
+    "sortOrder": 1,
+    "isFinished": false,
+    "tokenDecimals": 18,
+    "lpStaking": true,
+    "network": 137
+  },
+  {
+    "jungleId": 2001,
+    "tokenName": "ABOND-ETH",
+    "image": "ABOND.svg",
+    "stakingToken": {
+      "symbol": "ABOND-ETH",
+      "address": {
+        "1": "0x52692cC6637c985817D3C14bc99ad898565d14fF"
+      },
+      "decimals": {
+        "1": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
+      "active": true,
+      "lpToken": true,
+      "getLpUrl": {
+        "1": "https://app.ichi.org/vault/token/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/pairedtoken/0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1/tab/deposit"
+      }
+    },
+    "rewardToken": {
+      "symbol": "ABOND",
+      "address": {
+        "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
+        "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
+      },
+      "decimals": {
+        "1": 18,
+        "56": 18,
+        "137": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV3",
+        "56": "ThenaV1",
+        "137": "QuickswapV2"
+      },
+      "active": true
+    },
+    "lpTokens": {
+      "token": {
+        "symbol": "ABOND",
+        "address": {
+          "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+          "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
+          "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
+        },
+        "decimals": {
+          "1": 18,
+          "56": 18,
+          "137": 18
+        },
+        "liquidityDex": {
+          "1": "UniswapV3",
+          "56": "ThenaV1",
+          "137": "QuickswapV2"
+        },
+        "active": true
+      },
+      "quoteToken": {
+        "symbol": "ETH",
+        "address": {
+          "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+          "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
+          "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
+          "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
+          "137": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+          "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+        },
+        "decimals": {
+          "1": 18,
+          "40": 18,
+          "56": 18,
+          "97": 18,
+          "137": 18,
+          "42161": 18
+        },
+        "active": true
+      }
+    },
+    "contractAddress": {
+      "1": "0x052FB14873e8ac8C1D5446a2ad60A6BB10A77C1D"
+    },
+    "projectLink": "https://ape.bond/",
+    "twitter": "https://twitter.com/ApeBond",
+    "audit": "https://paladinsec.co/projects/apeswap/",
+    "harvest": true,
+    "rewardsPerSecond": "0.085733882030",
+    "tokenPerBlock": "0",
+    "sortOrder": 1,
+    "isFinished": false,
+    "tokenDecimals": 18,
+    "lpStaking": true,
+    "isEarnTokenLp": false,
+    "network": 1
+  },
+  {
+    "jungleId": 2000,
+    "tokenName": "ABOND-ETH",
+    "image": "ABOND.svg",
+    "stakingToken": {
+      "symbol": "ABOND-ETH",
+      "address": {
+        "1": "0x7C742868B11bE60D1FbefbEbcCD153df8472967B"
+      },
+      "decimals": {
+        "1": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV2"
+      },
+      "active": true,
+      "lpToken": true,
+      "getLpUrl": {
+        "1": "https://app.uniswap.org/add/v2/ETH/0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
+      }
+    },
+    "rewardToken": {
+      "symbol": "ABOND",
+      "address": {
+        "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
+        "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
+      },
+      "decimals": {
+        "1": 18,
+        "56": 18,
+        "137": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV3",
+        "56": "ThenaV1",
+        "137": "QuickswapV2"
+      },
+      "active": true
+    },
+    "lpTokens": {
+      "token": {
+        "symbol": "ABOND",
+        "address": {
+          "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+          "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
+          "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
+        },
+        "decimals": {
+          "1": 18,
+          "56": 18,
+          "137": 18
+        },
+        "liquidityDex": {
+          "1": "UniswapV3",
+          "56": "ThenaV1",
+          "137": "QuickswapV2"
+        },
+        "active": true
+      },
+      "quoteToken": {
+        "symbol": "ETH",
+        "address": {
+          "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+          "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
+          "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
+          "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
+          "137": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+          "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+        },
+        "decimals": {
+          "1": 18,
+          "40": 18,
+          "56": 18,
+          "97": 18,
+          "137": 18,
+          "42161": 18
+        },
+        "active": true
+      }
+    },
+    "contractAddress": {
+      "1": "0x7a5172771fb1eBF67acE7f7876D1cA190937C9d7"
+    },
+    "projectLink": "https://ape.bond/",
+    "twitter": "https://twitter.com/ApeBond",
+    "audit": "https://paladinsec.co/projects/apeswap/",
+    "harvest": true,
+    "rewardsPerSecond": "0.021433470508",
+    "tokenPerBlock": "0",
+    "sortOrder": 2,
+    "isFinished": false,
+    "tokenDecimals": 18,
+    "lpStaking": true,
+    "isEarnTokenLp": false,
+    "network": 1
+  }
+]

@@ -23,4 +23,6 @@ export const dexToZapMapping: Record<LiquidityDex, Partial<Record<ChainId, ZapVe
   },
   [LiquidityDex.ApeSwapV3]: {},
   [LiquidityDex.UniswapV3]: {},
+  [LiquidityDex.ThenaV1]: {},
+  [LiquidityDex.UniswapV2]: {},
 }

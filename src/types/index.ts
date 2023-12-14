@@ -22,6 +22,8 @@ export enum LiquidityDex {
   ApeSwapV2 = 'ApeSwapV2',
   ApeSwapV3 = 'ApeSwapV3',
   PancakeSwapV2 = 'PancakeSwapV2',
+  UniswapV2 = 'UniswapV2',
+  ThenaV1 = 'ThenaV1',
   /**
    * Initially, LiquidityDex was for the price getter and that checks algebra pricing
    *  (gamma wraps over it so no pricing there).
@@ -47,6 +49,8 @@ export enum Protocols {
   V3 = 3,
   Algebra = 4,
   Gamma = 5,
+  Steer = 6,
+  Solidly = 7,
 }
 
 export interface FarmStyles {
@@ -195,12 +199,15 @@ export interface PoolConfig {
   stakingToken: Token
   stakingLimit?: number
   bonusEndBlock?: number
+  bonusEndTime?: number
   rewardToken: Token | null
   contractAddress: Partial<Record<ChainId, string>>
   poolCategory?: PoolCategory
   projectLink: string
   twitter?: string
-  tokenPerBlock: string
+  tokenPerBlock?: string
+  // Jungle farms have changed to per second vs per block
+  rewardsPerSecond?: string
   sortOrder?: number
   harvest?: boolean
   reflect?: boolean
@@ -242,6 +249,7 @@ export interface JungleFarmConfig {
   stakingToken: Token
   stakingLimit?: number
   bonusEndBlock?: number
+  bonusEndTime?: number
   rewardToken: Token
   contractAddress: Partial<Record<ChainId, string>>
   projectLink: string
