@@ -466,7 +466,7 @@ const bills: BillsConfig[] = [
   {
     index: 1010, // ACF --> ABOND
     contractAddress: {
-      [ChainId.BSC]: '0xAE4772448c6b17b9013c9A7d77Dc783AFbfA3161',
+      [ChainId.BSC]: '0xEce2b9C3704632Ce760271B0b84E3A4A698Ca962',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
