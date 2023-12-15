@@ -485,7 +485,7 @@ const bills: BillsConfig[] = [
     initPrice: { [ChainId.BSC]: 0.00543082778284093 },
     soldOut: false,
     billArt: {
-      collection: BillArtCollection.ApeBond_Collection1,
+      collection: BillArtCollection.CexFundBond_Collection1,
     },
   },
   {
