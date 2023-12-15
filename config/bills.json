@@ -1559,6 +1559,80 @@
     }
   },
   {
+    "index": 1010,
+    "contractAddress": {
+      "56": "0xAE4772448c6b17b9013c9A7d77Dc783AFbfA3161"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "ACF",
+      "address": {
+        "56": "0x5C2047b2Ca5A2F561e06804ead73AF116845C235"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "ACF",
+      "address": {
+        "56": "0x5C2047b2Ca5A2F561e06804ead73AF116845C235"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "ACF",
+      "address": {
+        "56": "0x5C2047b2Ca5A2F561e06804ead73AF116845C235"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "ABOND",
+      "address": {
+        "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
+        "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
+      },
+      "decimals": {
+        "1": 18,
+        "56": 18,
+        "137": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV3",
+        "56": "ThenaV1",
+        "137": "QuickswapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0x3881ABAE74341630E4838Ca4809478DD668091fB"
+    },
+    "inactive": false,
+    "projectLink": "https://ape.bond/",
+    "twitter": "https://twitter.com/apebond",
+    "audit": "https://paladinsec.co/projects/apeswap/",
+    "initTime": {
+      "56": 1701205200
+    },
+    "initPrice": {
+      "56": 0.00543082778284093
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    }
+  },
+  {
     "index": 1009,
     "contractAddress": {
       "56": "0x87987112B74bed09D5ccbE17cAbd8EEC3e6Ff904"

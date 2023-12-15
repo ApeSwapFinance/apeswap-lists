@@ -464,6 +464,31 @@ const bills: BillsConfig[] = [
     },
   },
   {
+    index: 1010, // ACF --> ABOND
+    contractAddress: {
+      [ChainId.BSC]: '0xAE4772448c6b17b9013c9A7d77Dc783AFbfA3161',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.acf,
+    quoteToken: tokens.acf,
+    lpToken: tokens.acf,
+    earnToken: tokens.abond,
+    billNnftAddress: {
+      [ChainId.BSC]: '0x3881ABAE74341630E4838Ca4809478DD668091fB',
+    },
+    inactive: false,
+    projectLink: 'https://ape.bond/',
+    twitter: 'https://twitter.com/apebond',
+    audit: 'https://paladinsec.co/projects/apeswap/',
+    initTime: { [ChainId.BSC]: 1701205200 },
+    initPrice: { [ChainId.BSC]: 0.00543082778284093 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+  },
+  {
     index: 1009,
     contractAddress: {
       [ChainId.BSC]: '0x87987112B74bed09D5ccbE17cAbd8EEC3e6Ff904',
