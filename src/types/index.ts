@@ -83,6 +83,7 @@ export interface MasterChef {
 export enum BillVersion {
   V1 = 'V1',
   V2 = 'V2',
+  Migration = 'Migration',
 }
 
 /**
