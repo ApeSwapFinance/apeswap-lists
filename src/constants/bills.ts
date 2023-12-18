@@ -464,6 +464,31 @@ const bills: BillsConfig[] = [
     },
   },
   {
+    index: 1011,
+    contractAddress: {
+      [ChainId.BSC]: '0x8704d68C870B0d8faF50DE0071A474a2B6640558',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.xcredi,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.xcrediBnb,
+    earnToken: tokens.xcredi,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://www.credefi.finance/',
+    twitter: 'https://twitter.com/credefi_finance/',
+    audit: 'https://www.certik.com/projects/credefi?utm_source=CMC&utm_campaign=AuditByCertiKLink',
+    initTime: { [ChainId.BSC]: 1701205200 },
+    initPrice: { [ChainId.BSC]: 0.00543082778284093 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+  },
+  {
     index: 1009,
     contractAddress: {
       [ChainId.BSC]: '0x87987112B74bed09D5ccbE17cAbd8EEC3e6Ff904',
