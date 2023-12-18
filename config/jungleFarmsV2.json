@@ -108,7 +108,7 @@
         "56": "Algebra"
       },
       "getLpUrl": {
-        "56": "https://thena.fi/add?type=ichi&address=0x137Df93A0c22b863C1B335d1b8d389Ea3895BA13"
+        "56": "https://www.thena.fi/add?type=ichi&address=0x137df93a0c22b863c1b335d1b8d389ea3895ba13"
       }
     },
     "rewardToken": {
@@ -188,7 +188,7 @@
     "stakingToken": {
       "symbol": "ABOND-MATIC",
       "address": {
-        "137": "0x27b00fE0413DFc2DE52D18562a2D0fB353A9cE00 "
+        "137": "0x27b00fE0413DFc2DE52D18562a2D0fB353A9cE00"
       },
       "decimals": {
         "137": 18
@@ -282,12 +282,12 @@
         "1": 18
       },
       "liquidityDex": {
-        "1": "Algebra"
+        "1": "UniswapV3"
       },
       "active": true,
       "lpToken": true,
       "getLpUrl": {
-        "1": "https://app.ichi.org/vault/token/0x52692cC6637c985817D3C14bc99ad898565d14fF"
+        "1": "https://app.ichi.org/vault/token/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/pairedtoken/0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1/tab/deposit"
       }
     },
     "rewardToken": {

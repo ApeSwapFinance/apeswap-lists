@@ -5,7 +5,7 @@
       "56": "0x302f1120aDA3f40aeD3F6410fad75e8428576a1F"
     },
     "billType": "migration",
-    "billVersion": "V2",
+    "billVersion": "FixedPrice",
     "token": {
       "symbol": "BANANA",
       "address": {
@@ -105,7 +105,7 @@
       "56": "0x872C7beE4c034CEba697de18f794e91F10062E2e"
     },
     "billType": "migration",
-    "billVersion": "V2",
+    "billVersion": "FixedPrice",
     "token": {
       "symbol": "BANANA",
       "address": {
@@ -205,7 +205,7 @@
       "56": "0x8146d7887C2e7ce7AD0c1950E17676c632B5A71A"
     },
     "billType": "migration",
-    "billVersion": "V2",
+    "billVersion": "FixedPrice",
     "token": {
       "symbol": "BANANA",
       "address": {
@@ -305,7 +305,7 @@
       "56": "0xFeFEDF8EB74711dF186630F4870BcA9EEDA78C85"
     },
     "billType": "migration",
-    "billVersion": "V2",
+    "billVersion": "FixedPrice",
     "token": {
       "symbol": "BANANA",
       "address": {
@@ -405,7 +405,7 @@
       "56": "0xa2a328864f8Eca97072471cc8BF08411Da523bc9"
     },
     "billType": "migration",
-    "billVersion": "V2",
+    "billVersion": "FixedPrice",
     "token": {
       "symbol": "GNANA",
       "address": {
@@ -487,7 +487,7 @@
       "56": "0xac1CB77150Dcc3d540F08e808181CCCf0Ea29726"
     },
     "billType": "migration",
-    "billVersion": "V2",
+    "billVersion": "FixedPrice",
     "token": {
       "symbol": "GNANA",
       "address": {
@@ -569,7 +569,7 @@
       "56": "0xDCa0B400394BA6F6CBfc3Ce37B0193D4fa68eDFf"
     },
     "billType": "migration",
-    "billVersion": "V2",
+    "billVersion": "FixedPrice",
     "token": {
       "symbol": "GNANA",
       "address": {
@@ -651,7 +651,7 @@
       "56": "0x3Eb85D568214ae04c2873880Fa715a5C8105dd17"
     },
     "billType": "migration",
-    "billVersion": "V2",
+    "billVersion": "FixedPrice",
     "token": {
       "symbol": "GNANA",
       "address": {
@@ -1556,6 +1556,80 @@
     "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
+    }
+  },
+  {
+    "index": 1010,
+    "contractAddress": {
+      "56": "0xEce2b9C3704632Ce760271B0b84E3A4A698Ca962"
+    },
+    "billType": "reserve",
+    "billVersion": "FixedPrice",
+    "token": {
+      "symbol": "ACF",
+      "address": {
+        "56": "0x5C2047b2Ca5A2F561e06804ead73AF116845C235"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "ACF",
+      "address": {
+        "56": "0x5C2047b2Ca5A2F561e06804ead73AF116845C235"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "ACF",
+      "address": {
+        "56": "0x5C2047b2Ca5A2F561e06804ead73AF116845C235"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "ABOND",
+      "address": {
+        "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
+        "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
+      },
+      "decimals": {
+        "1": 18,
+        "56": 18,
+        "137": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV3",
+        "56": "ThenaV1",
+        "137": "QuickswapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0x3881ABAE74341630E4838Ca4809478DD668091fB"
+    },
+    "inactive": false,
+    "projectLink": "https://ape.bond/",
+    "twitter": "https://twitter.com/apebond",
+    "audit": "https://paladinsec.co/projects/apeswap/",
+    "initTime": {
+      "56": 1701205200
+    },
+    "initPrice": {
+      "56": 0.00543082778284093
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "CexFundBond_Collection1"
     }
   },
   {
