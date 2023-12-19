@@ -1647,6 +1647,9 @@
       "decimals": {
         "56": 18
       },
+      "liquidityDex": {
+        "56": "ApeSwapV2"
+      },
       "active": true
     },
     "quoteToken": {
@@ -1675,6 +1678,9 @@
       "lpToken": true,
       "getLpUrl": {
         "56": "https://apeswap.finance/add-liquidity/ETH/0x1265DAdE08e13F1c6f9706287FBE39083dC5a4b4"
+      },
+      "liquidityDex": {
+        "56": "ApeSwapV2"
       }
     },
     "earnToken": {
@@ -1684,6 +1690,9 @@
       },
       "decimals": {
         "56": 18
+      },
+      "liquidityDex": {
+        "56": "ApeSwapV2"
       },
       "active": true
     },

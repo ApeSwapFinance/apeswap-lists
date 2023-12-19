@@ -2153,6 +2153,9 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: '0x1265DAdE08e13F1c6f9706287FBE39083dC5a4b4',
     },
     decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.ApeSwapV2,
+    },
     active: true,
   },
   ubxs: {
@@ -3184,6 +3187,9 @@ const tokens: Record<string, Token> = {
     lpToken: true,
     getLpUrl: {
       [ChainId.BSC]: 'https://apeswap.finance/add-liquidity/ETH/0x1265DAdE08e13F1c6f9706287FBE39083dC5a4b4',
+    },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.ApeSwapV2,
     },
   },
   rockBnb: {
