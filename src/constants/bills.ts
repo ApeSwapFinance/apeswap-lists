@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1009
+// BNB Largest ID: 1011
 // Polygon Largest ID: 122
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
@@ -486,6 +486,31 @@ const bills: BillsConfig[] = [
     soldOut: false,
     billArt: {
       collection: BillArtCollection.CexFundBond_Collection1,
+    },
+  },
+  {
+    index: 1011,
+    contractAddress: {
+      [ChainId.BSC]: '0x00F2895AB0096984D94539387a820B193F5E7776',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.xcredi,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.xcrediBnb,
+    earnToken: tokens.xcredi,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://www.credefi.finance/',
+    twitter: 'https://twitter.com/credefi_finance/',
+    audit: 'https://www.certik.com/projects/credefi?utm_source=CMC&utm_campaign=AuditByCertiKLink',
+    initTime: { [ChainId.BSC]: 1702998000 },
+    initPrice: { [ChainId.BSC]: 0.0776096447226248 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
     },
   },
   {
