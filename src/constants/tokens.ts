@@ -2147,6 +2147,14 @@ const tokens: Record<string, Token> = {
     decimals: { [ChainId.BSC]: 18 },
     active: true,
   },
+  xcredi: {
+    symbol: 'XCREDI',
+    address: {
+      [ChainId.BSC]: '0x1265DAdE08e13F1c6f9706287FBE39083dC5a4b4',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+  },
   ubxs: {
     symbol: 'UBXS',
     address: {
@@ -3165,6 +3173,18 @@ const tokens: Record<string, Token> = {
     decimals: { [ChainId.BSC]: 18 },
     active: true,
     lpToken: true,
+  },
+  xcrediBnb: {
+    symbol: 'XCREDI-BNB',
+    address: {
+      [ChainId.BSC]: '0x79d6f5D3cDE38b51DABA455F710B92441123feca',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    getLpUrl: {
+      [ChainId.BSC]: 'https://apeswap.finance/add-liquidity/ETH/0x1265DAdE08e13F1c6f9706287FBE39083dC5a4b4',
+    },
   },
   rockBnb: {
     symbol: 'ROCK-BNB',
