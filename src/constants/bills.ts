@@ -489,6 +489,31 @@ const bills: BillsConfig[] = [
     },
   },
   {
+    index: 1012,
+    contractAddress: {
+      [ChainId.BSC]: '0x097f6ffDC1d0C4d163d7d392a31dC7d39B710d4E',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.abond,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://ape.bond/',
+    twitter: 'https://twitter.com/apebond',
+    audit: 'https://paladinsec.co/projects/apeswap/',
+    initTime: { [ChainId.BSC]: 1702998000 },
+    initPrice: { [ChainId.BSC]: 0.0776096447226248 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.CexFundBond_Collection1,
+    },
+  },
+  {
     index: 1011,
     contractAddress: {
       [ChainId.BSC]: '0x00F2895AB0096984D94539387a820B193F5E7776',

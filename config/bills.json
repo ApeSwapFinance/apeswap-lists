@@ -1633,6 +1633,98 @@
     }
   },
   {
+    "index": 1012,
+    "contractAddress": {
+      "56": "0x097f6ffDC1d0C4d163d7d392a31dC7d39B710d4E"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "42161": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "42161": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "42161": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "ABOND",
+      "address": {
+        "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
+        "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
+      },
+      "decimals": {
+        "1": 18,
+        "56": 18,
+        "137": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV3",
+        "56": "ThenaV1",
+        "137": "QuickswapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://ape.bond/",
+    "twitter": "https://twitter.com/apebond",
+    "audit": "https://paladinsec.co/projects/apeswap/",
+    "initTime": {
+      "56": 1702998000
+    },
+    "initPrice": {
+      "56": 0.0776096447226248
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "CexFundBond_Collection1"
+    }
+  },
+  {
     "index": 1011,
     "contractAddress": {
       "56": "0x00F2895AB0096984D94539387a820B193F5E7776"
