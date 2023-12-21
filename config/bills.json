@@ -82,7 +82,7 @@
     "billNnftAddress": {
       "56": "0x3881ABAE74341630E4838Ca4809478DD668091fB"
     },
-    "inactive": false,
+    "inactive": true,
     "projectLink": "https://apeswap.finance/",
     "twitter": "https://twitter.com/ape_swap",
     "audit": "https://paladinsec.co/projects/apeswap/",
@@ -92,7 +92,7 @@
     "initPrice": {
       "56": 0.05
     },
-    "soldOut": false,
+    "soldOut": true,
     "vestingTerm": 5184000,
     "multiplier": 1,
     "billArt": {
@@ -182,7 +182,7 @@
     "billNnftAddress": {
       "56": "0x3881ABAE74341630E4838Ca4809478DD668091fB"
     },
-    "inactive": false,
+    "inactive": true,
     "projectLink": "https://apeswap.finance/",
     "twitter": "https://twitter.com/ape_swap",
     "audit": "https://paladinsec.co/projects/apeswap/",
@@ -192,7 +192,7 @@
     "initPrice": {
       "56": 0.05
     },
-    "soldOut": false,
+    "soldOut": true,
     "vestingTerm": 10368000,
     "multiplier": 0.8943305829,
     "billArt": {
@@ -282,7 +282,7 @@
     "billNnftAddress": {
       "56": "0x3881ABAE74341630E4838Ca4809478DD668091fB"
     },
-    "inactive": false,
+    "inactive": true,
     "projectLink": "https://apeswap.finance/",
     "twitter": "https://twitter.com/ape_swap",
     "audit": "https://paladinsec.co/projects/apeswap/",
@@ -292,7 +292,7 @@
     "initPrice": {
       "56": 0.05
     },
-    "soldOut": false,
+    "soldOut": true,
     "vestingTerm": 15552000,
     "multiplier": 0.7601809955,
     "billArt": {
@@ -382,7 +382,7 @@
     "billNnftAddress": {
       "56": "0x3881ABAE74341630E4838Ca4809478DD668091fB"
     },
-    "inactive": false,
+    "inactive": true,
     "projectLink": "https://apeswap.finance/",
     "twitter": "https://twitter.com/ape_swap",
     "audit": "https://paladinsec.co/projects/apeswap/",
@@ -392,7 +392,7 @@
     "initPrice": {
       "56": 0.05
     },
-    "soldOut": false,
+    "soldOut": true,
     "vestingTerm": 31104000,
     "multiplier": 0.6461538462,
     "billArt": {
@@ -464,7 +464,7 @@
     "billNnftAddress": {
       "56": "0x3881ABAE74341630E4838Ca4809478DD668091fB"
     },
-    "inactive": false,
+    "inactive": true,
     "projectLink": "https://apeswap.finance/",
     "twitter": "https://twitter.com/ape_swap",
     "audit": "https://paladinsec.co/projects/apeswap/",
@@ -474,7 +474,7 @@
     "initPrice": {
       "56": 0.05
     },
-    "soldOut": false,
+    "soldOut": true,
     "vestingTerm": 5184000,
     "multiplier": 0.6998439348,
     "billArt": {
@@ -546,7 +546,7 @@
     "billNnftAddress": {
       "56": "0x3881ABAE74341630E4838Ca4809478DD668091fB"
     },
-    "inactive": false,
+    "inactive": true,
     "projectLink": "https://apeswap.finance/",
     "twitter": "https://twitter.com/ape_swap",
     "audit": "https://paladinsec.co/projects/apeswap/",
@@ -556,7 +556,7 @@
     "initPrice": {
       "56": 0.05
     },
-    "soldOut": false,
+    "soldOut": true,
     "vestingTerm": 10368000,
     "multiplier": 0.6258918342,
     "billArt": {
@@ -628,7 +628,7 @@
     "billNnftAddress": {
       "56": "0x3881ABAE74341630E4838Ca4809478DD668091fB"
     },
-    "inactive": false,
+    "inactive": true,
     "projectLink": "https://apeswap.finance/",
     "twitter": "https://twitter.com/ape_swap",
     "audit": "https://paladinsec.co/projects/apeswap/",
@@ -638,7 +638,7 @@
     "initPrice": {
       "56": 0.05
     },
-    "soldOut": false,
+    "soldOut": true,
     "vestingTerm": 15552000,
     "multiplier": 0.532008059035414,
     "billArt": {
@@ -710,7 +710,7 @@
     "billNnftAddress": {
       "56": "0x3881ABAE74341630E4838Ca4809478DD668091fB"
     },
-    "inactive": false,
+    "inactive": true,
     "projectLink": "https://apeswap.finance/",
     "twitter": "https://twitter.com/ape_swap",
     "audit": "https://paladinsec.co/projects/apeswap/",
@@ -720,7 +720,7 @@
     "initPrice": {
       "56": 0.05
     },
-    "soldOut": false,
+    "soldOut": true,
     "vestingTerm": 31104000,
     "multiplier": 0.452206850180102,
     "billArt": {
@@ -2126,7 +2126,7 @@
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
     },
-    "inactive": false,
+    "inactive": true,
     "projectLink": "https://ai-tech.io/",
     "twitter": "https://twitter.com/AITECHio",
     "audit": "https://skynet.certik.com/projects/solidus-ai-tech",
@@ -2136,7 +2136,7 @@
     "initPrice": {
       "56": 0.0144324243092886
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     }
@@ -2208,7 +2208,7 @@
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
     },
-    "inactive": false,
+    "inactive": true,
     "projectLink": "https://www.blockapescissors.com/#home",
     "twitter": "https://twitter.com/apeblock?lang=en",
     "audit": "https://solidity.finance/audits/BlockApeScissors/",
@@ -2218,7 +2218,7 @@
     "initPrice": {
       "56": 0.0242848491820561
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     }
@@ -2294,7 +2294,7 @@
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
     },
-    "inactive": false,
+    "inactive": true,
     "projectLink": "https://hypergpt.ai/",
     "twitter": "https://twitter.com/hypergpt",
     "audit": "https://skynet.certik.com/projects/hypergpt?utm_source=CMC&utm_campaign=AuditByCertiKLink",
@@ -2304,7 +2304,7 @@
     "initPrice": {
       "56": 0.00375
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     }
@@ -2374,7 +2374,7 @@
     "initPrice": {
       "56": 0.00061926835799964
     },
-    "soldOut": false
+    "soldOut": true
   },
   {
     "index": 92,
@@ -2443,7 +2443,7 @@
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
     },
-    "inactive": false,
+    "inactive": true,
     "projectLink": "https://palmswap.org/",
     "twitter": "https://twitter.com/Palmswaporg",
     "audit": "https://docs.palmswap.org/developers/audit",
@@ -2453,7 +2453,7 @@
     "initPrice": {
       "56": 0.00758
     },
-    "soldOut": false
+    "soldOut": true
   },
   {
     "index": 91,
@@ -2520,7 +2520,7 @@
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
     },
-    "inactive": false,
+    "inactive": true,
     "projectLink": "https://ChainGPT.org/",
     "twitter": "http://twitter.com/chain_gpt",
     "audit": "https://www.certik.com/projects/chaingpt/",
@@ -2530,7 +2530,7 @@
     "initPrice": {
       "56": 0.0421361050407099
     },
-    "soldOut": false,
+    "soldOut": true,
     "bannerURL": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1696008239/bond-highlights/gpt-banner.png",
     "showcaseToken": {
       "symbol": "CGPT",
@@ -2639,7 +2639,7 @@
     "initPrice": {
       "56": 0.0016842400986945
     },
-    "soldOut": false
+    "soldOut": true
   },
   {
     "index": 89,
@@ -2785,7 +2785,7 @@
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
     },
-    "inactive": false,
+    "inactive": true,
     "projectLink": "https://apexcoin.app/",
     "twitter": "https://twitter.com/apexcoin__",
     "audit": "https://github.com/AnalytixAudit/Solidity/blob/main/20230822_AnalytixAudit_ApexCoin_ApeX_Audit.pdf",
@@ -2795,7 +2795,7 @@
     "initPrice": {
       "56": 0.231136
     },
-    "soldOut": false
+    "soldOut": true
   },
   {
     "index": 87,
@@ -2864,7 +2864,7 @@
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
     },
-    "inactive": false,
+    "inactive": true,
     "projectLink": "https://metaplayers.gg/landing",
     "twitter": "https://twitter.com/MetaPlayersGG",
     "audit": "https://mfps.gg/assets/docs/mfps_audit.pdf",
@@ -2874,7 +2874,7 @@
     "initPrice": {
       "56": 0.00190751
     },
-    "soldOut": false
+    "soldOut": true
   },
   {
     "index": 86,
@@ -2941,7 +2941,7 @@
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
     },
-    "inactive": false,
+    "inactive": true,
     "projectLink": "https://ai-tech.io/",
     "twitter": "https://twitter.com/AITECHio",
     "audit": "https://skynet.certik.com/projects/solidus-ai-tech",
@@ -2951,7 +2951,7 @@
     "initPrice": {
       "56": 0.0370027
     },
-    "soldOut": false,
+    "soldOut": true,
     "bannerURL": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1694711638/aitech_xeshl8.png",
     "showcaseToken": {
       "symbol": "AITECH",
@@ -3047,7 +3047,7 @@
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
     },
-    "inactive": false,
+    "inactive": true,
     "projectLink": "https://dexcheck.io/",
     "twitter": "https://twitter.com/DexCheck_io",
     "audit": "https://skynet.certik.com/projects/dexcheck",
@@ -3057,7 +3057,7 @@
     "initPrice": {
       "56": 0.0224148
     },
-    "soldOut": false
+    "soldOut": true
   },
   {
     "index": 84,
@@ -3126,7 +3126,7 @@
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
     },
-    "inactive": false,
+    "inactive": true,
     "projectLink": "https://www.cogitoprotocol.com/",
     "twitter": "https://twitter.com/CogitoProtocol",
     "audit": "https://wp.hacken.io/wp-content/uploads/2023/05/Cogito_SC-Audit-Report_11_05_2023_SA-1337-1.pdf",
@@ -3136,7 +3136,7 @@
     "initPrice": {
       "56": 0.0262588
     },
-    "soldOut": false
+    "soldOut": true
   },
   {
     "index": 83,
@@ -3205,7 +3205,7 @@
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
     },
-    "inactive": false,
+    "inactive": true,
     "projectLink": "https://www.poollotto.finance/",
     "twitter": "https://twitter.com/pltfinance/",
     "audit": "https://github.com/Quillhash/QuillAudit_Reports/blob/master/Poollotto%20Smart%20Contract%20Audit%20Report%20-%20QuillAudits.pdf",
@@ -3215,7 +3215,7 @@
     "initPrice": {
       "56": 1.83977
     },
-    "soldOut": false
+    "soldOut": true
   },
   {
     "index": 99,
@@ -3620,7 +3620,7 @@
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
     },
-    "inactive": false,
+    "inactive": true,
     "projectLink": "https://bridge.link/",
     "twitter": "https://twitter.com/bridge_oracle",
     "audit": "https://www.certik.com/projects/bridge-oracle?utm_source=CMC&utm_campaign=AuditByCertiKLink",
@@ -3630,7 +3630,7 @@
     "initPrice": {
       "56": 0.000387
     },
-    "soldOut": false
+    "soldOut": true
   },
   {
     "index": 81,
@@ -3774,7 +3774,7 @@
     "initPrice": {
       "56": 4.85872
     },
-    "soldOut": false
+    "soldOut": true
   },
   {
     "index": 79,
@@ -3829,7 +3829,7 @@
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
     },
-    "inactive": false,
+    "inactive": true,
     "projectLink": "https://outerringmmo.com/",
     "twitter": "https://twitter.com/OuterRingMMO",
     "initTime": {
@@ -3838,7 +3838,7 @@
     "initPrice": {
       "56": 0.00301
     },
-    "soldOut": false
+    "soldOut": true
   },
   {
     "index": 78,
@@ -3895,7 +3895,7 @@
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
     },
-    "inactive": false,
+    "inactive": true,
     "projectLink": "https://froyo.games/",
     "twitter": "https://twitter.com/realfroyogames",
     "audit": "https://github.com/froyogames/public-smart-contracts/blob/main/Smart%20contract%20security%20audit%20report%20-%20Froyo.pdf",
@@ -3905,7 +3905,7 @@
     "initPrice": {
       "56": 0.00106081
     },
-    "soldOut": false
+    "soldOut": true
   },
   {
     "index": 77,
@@ -4391,7 +4391,7 @@
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
     },
-    "inactive": false,
+    "inactive": true,
     "projectLink": "https://www.bedrockswap.finance/#",
     "twitter": "https://twitter.com/Bedrockswap",
     "audit": "https://skynet.certik.com/projects/bedrock?utm_source=CMC&utm_campaign=AuditByCertiKLink",
@@ -4401,7 +4401,7 @@
     "initPrice": {
       "56": 0.00292599
     },
-    "soldOut": false
+    "soldOut": true
   },
   {
     "index": 68,
@@ -4458,7 +4458,7 @@
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
     },
-    "inactive": false,
+    "inactive": true,
     "projectLink": "https://avocadodao.io/",
     "twitter": "https://twitter.com/Avocadoguild?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
     "audit": "https://skynet.certik.com/projects/avocado-dao",
@@ -4468,7 +4468,7 @@
     "initPrice": {
       "56": 0.0448743
     },
-    "soldOut": false
+    "soldOut": true
   },
   {
     "index": 65,
@@ -4687,7 +4687,7 @@
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
     },
-    "inactive": false,
+    "inactive": true,
     "projectLink": "https://bixos.io/",
     "twitter": "https://twitter.com/bixosinc",
     "audit": "https://github.com/solidproof/projects/blob/main/Bixos/SmartContract_Audit_Solidproof_Bixos.pdf",
@@ -4697,7 +4697,7 @@
     "initPrice": {
       "56": 0.0650251
     },
-    "soldOut": false
+    "soldOut": true
   },
   {
     "index": 60,
@@ -5389,7 +5389,7 @@
     "billNnftAddress": {
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
     },
-    "inactive": false,
+    "inactive": true,
     "projectLink": "https://www.coinflect.com/",
     "twitter": "https://twitter.com/coinflect?lang=en",
     "audit": "https://github.com/coinflect/wrapped-coinflect-audit/blob/main/Wrapped%20Coinflect%20Smart%20Contract%20Security%20Audit.pdf",
@@ -5399,7 +5399,7 @@
     "initPrice": {
       "56": 0.00004566
     },
-    "soldOut": false
+    "soldOut": true
   },
   {
     "index": 45,
@@ -10070,7 +10070,7 @@
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
     },
-    "inactive": false,
+    "inactive": true,
     "projectLink": "https://dogelonmars.com/",
     "twitter": "https://twitter.com/dogelonmars",
     "initTime": {
@@ -10079,7 +10079,7 @@
     "initPrice": {
       "137": 0.00254
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "Quickswap_Collection1"
     },
@@ -12043,7 +12043,7 @@
     "initPrice": {
       "42161": 0.003660886786
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     }
@@ -12129,7 +12129,7 @@
     "initPrice": {
       "42161": 0.0202
     },
-    "soldOut": false
+    "soldOut": true
   },
   {
     "index": 2002,
