@@ -2767,7 +2767,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/trace_meta',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.0948073647 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
