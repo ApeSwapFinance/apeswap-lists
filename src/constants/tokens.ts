@@ -839,7 +839,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: 2,
     },
     liquidityDex: {
-      [ChainId.MATIC]: LiquidityDex.Algebra,
+      [ChainId.MATIC]: LiquidityDex.UniswapV3,
     },
     active: true,
   },
