@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1013
+// BNB Largest ID: 1014
 // Polygon Largest ID: 122
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
@@ -511,6 +511,31 @@ const bills: BillsConfig[] = [
     soldOut: false,
     billArt: {
       collection: BillArtCollection.CexFundBond_Collection1,
+    },
+  },
+  {
+    index: 1014,
+    contractAddress: {
+      [ChainId.BSC]: '0x0C6f539c98Cad2Bd5dA2f5168a1C2EAA53041832',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.aitech,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://ai-tech.io/',
+    twitter: 'https://twitter.com/AITECHio',
+    audit: 'https://skynet.certik.com/projects/solidus-ai-tech',
+    initTime: { [ChainId.BSC]: 1700992815 },
+    initPrice: { [ChainId.BSC]: 0.0205543890538182 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
     },
   },
   {
