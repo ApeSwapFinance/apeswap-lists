@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1011
+// BNB Largest ID: 1014
 // Polygon Largest ID: 122
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
@@ -514,6 +514,108 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.CexFundBond_Collection1,
     },
     tags: ['Cex Fund'],
+  },
+  {
+    index: 1016,
+    contractAddress: {
+      [ChainId.BSC]: '0x07E48b1c531cBF32222851D0B1f77fF58b13942d',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.rpg,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://revolvegames.io/',
+    twitter: 'https://twitter.com/RevolveGamesio',
+    audit: 'https://drive.google.com/file/d/1lJdF7lEM3KQZmOW1p42Gm0eMbp7DF82C/view',
+    initTime: { [ChainId.BSC]: 1704477600 },
+    initPrice: { [ChainId.BSC]: 0.0257815220477653 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+  },
+  {
+    index: 1015,
+    contractAddress: {
+      [ChainId.BSC]: '0xA36a59Df35B045650EeaA7d2d001675F5F822649',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.wbnb,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.wbnb,
+    earnToken: tokens.arcas,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://www.blockapescissors.com/#home',
+    twitter: 'https://twitter.com/apeblock?lang=en',
+    audit: 'https://solidity.finance/audits/BlockApeScissors/',
+    initTime: { [ChainId.BSC]: 1704477600 },
+    initPrice: { [ChainId.BSC]: 0.103519967970037 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+  },
+  {
+    index: 1014,
+    contractAddress: {
+      [ChainId.BSC]: '0x0C6f539c98Cad2Bd5dA2f5168a1C2EAA53041832',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.aitech,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://ai-tech.io/',
+    twitter: 'https://twitter.com/AITECHio',
+    audit: 'https://skynet.certik.com/projects/solidus-ai-tech',
+    initTime: { [ChainId.BSC]: 1700992815 },
+    initPrice: { [ChainId.BSC]: 0.0205543890538182 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+  },
+  {
+    index: 1013,
+    contractAddress: {
+      [ChainId.BSC]: '0x3237aA0280B98C6BbE23563A5C1aBbE52bCdB378',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.cgpt,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://ChainGPT.org/',
+    twitter: 'http://twitter.com/chain_gpt',
+    audit: 'https://www.certik.com/projects/chaingpt/',
+    initTime: { [ChainId.BSC]: 1704304800 },
+    initPrice: { [ChainId.BSC]: 0.189643589802866 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    fullDescription:
+      'ChainGPT is an advanced AI infrastructure that develops AI-powered technologies for the Web3, Blockchain, and Crypto space. They aim to improve the Web3 space for retail users & startups by developing AI-powered solutions designed explicitly for Web3. From LLMs to Web3 AI Tools, ChainGPT is the go-to place to boost your Web3 flow with Artificial Intelligence.',
   },
   {
     index: 1011,

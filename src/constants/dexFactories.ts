@@ -39,6 +39,10 @@ export const dexFactories: Partial<
       factory: '0xdB1d10011AD0Ff90774D0C6Bb92e5C5c8b4461F7',
       protocol: Protocols.V3,
     },
+    [LiquidityDex.PancakeSwapV3]: {
+      factory: '0x0BFbCF9fa4f9C56B0F40a671Ad40E0805A091865',
+      protocol: Protocols.V3,
+    },
     [LiquidityDex.Algebra]: {
       factory: '0x306F06C147f064A010530292A1EB6737c3e378e4', //Thena
       protocol: Protocols.Algebra,
