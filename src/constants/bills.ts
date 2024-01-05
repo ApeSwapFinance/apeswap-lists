@@ -539,6 +539,9 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
+    tags: ['GAMING'],
+    fullDescription:
+      'Revolve Games is reshaping Web3 gaming - addressing many of the challenges faced by blockchain gaming economies. We directly integrate playable assets into the in-game economy, achieved by tethering these assets to the RPG token. This strategy ensures a stable and robust ecosystem, less affected by external market fluctuations.',
   },
   {
     index: 1015,
@@ -564,6 +567,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
+    tags: ['GAMING'],
   },
   {
     index: 1014,
@@ -805,6 +809,8 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
+    fullDescription:
+      'Prepare for battle! Arcas is a Play-2-Earn game brought to you by Block Ape Scissors, the top Web3 gaming studio on BNBChain.',
   },
   {
     index: 94,
