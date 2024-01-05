@@ -487,6 +487,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.CexFundBond_Collection1,
     },
+    tags: ['Cex Fund'],
   },
   {
     index: 1012,
@@ -512,6 +513,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.CexFundBond_Collection1,
     },
+    tags: ['Cex Fund'],
   },
   {
     index: 1016,
@@ -587,6 +589,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
+    tags: ['AI'],
   },
   {
     index: 1013,
@@ -612,6 +615,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
+    tags: ['AI'],
     fullDescription:
       'ChainGPT is an advanced AI infrastructure that develops AI-powered technologies for the Web3, Blockchain, and Crypto space. They aim to improve the Web3 space for retail users & startups by developing AI-powered solutions designed explicitly for Web3. From LLMs to Web3 AI Tools, ChainGPT is the go-to place to boost your Web3 flow with Artificial Intelligence.',
   },
@@ -639,6 +643,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
+    tags: ['RWA', 'Lending'],
   },
   {
     index: 1009,
@@ -664,6 +669,9 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
+    fullDescription:
+      'As the AI market continues to rapidly develop and hundreds of applications are released each day, there is a growing need for a marketplace platform that can bring together all these applications and community needs. This is why, at HyperGPT, we have combined AI and Blockchain technologies with a new concept, creating a platform that can address these needs.',
+    tags: ['AI'],
   },
   {
     index: 1008,
@@ -689,6 +697,9 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
+    fullDescription:
+      'We are paving the way for a more convenient and secure future by providing accessible Artificial Intelligence-as-a-Service (AIAAS), Blockchain-as-a-Service (BAAS), high-performance computing power (HPC), and an artificial intelligence marketplace. All of these cutting-edge technologies are powered by our native token, AITECH.',
+    tags: ['AI'],
   },
   {
     index: 1006,
@@ -714,6 +725,9 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
+    fullDescription:
+      'Revolve Games is reshaping Web3 gaming - addressing many of the challenges faced by blockchain gaming economies. We directly integrate playable assets into the in-game economy, achieved by tethering these assets to the RPG token. This strategy ensures a stable and robust ecosystem, less affected by external market fluctuations.',
+    tags: ['Gaming'],
   },
   {
     index: 1005,
@@ -738,6 +752,9 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
+    fullDescription:
+      'Chappyz is an AI powered plug-and-play protocol that helps build REAL community engagement & growth, whilst rewarding community members in real time.',
+    tags: ['AI'],
   },
   {
     index: 1000,
@@ -2874,6 +2891,9 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.Quickswap_Collection1,
     },
     bondPartner: 'QuickSwap',
+    fullDescription:
+      'The MetaTrace application is a game incorporating a variety of game mechanics aimed at combining geolocation, blockchain environments, and classic game strategies.',
+    tags: ['Gaming'],
   },
   {
     index: 121,
@@ -2899,6 +2919,9 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.PlanetIX_Collection1,
     },
     bondPartner: 'QuickSwap',
+    fullDescription:
+      'Planet IX is an online NFT-strategy game where a digital rendition of the earth is your playing field. Join us and become an Agent of Change now.',
+    tags: ['Gaming', 'NFT'],
   },
   {
     index: 120,
@@ -2924,6 +2947,9 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.PlanetIX_Collection1,
     },
     bondPartner: 'QuickSwap',
+    fullDescription:
+      'Planet IX is an online NFT-strategy game where a digital rendition of the earth is your playing field. Join us and become an Agent of Change now.',
+    tags: ['Gaming', 'NFT'],
   },
   {
     index: 119,
@@ -2949,6 +2975,9 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.Quickswap_Collection1,
     },
     bondPartner: 'QuickSwap',
+    fullDescription:
+      'FireBot aims to maximize the potential of DeFi strategies, yield-generating protocols, and automated trading algorithms to offer tokenized investment vehicles for its users. We engineer and structure investment strategies available through smart-contracts deployed on the Polygon blockchain. Their objectives range from high yield to principal protection.',
+    tags: ['AI'],
   },
   {
     index: 118,
@@ -2975,6 +3004,9 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.Quickswap_Collection1,
     },
     bondPartner: 'QuickSwap',
+    fullDescription:
+      'Orbs is an open, decentralized and public blockchain infrastructure executed by a secure network of permissionless validators using Proof-of-Stake (PoS) consensus.',
+    tags: ['Infra'],
   },
   {
     index: 117,
@@ -3000,6 +3032,9 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.Quickswap_Collection1,
     },
     bondPartner: 'QuickSwap',
+    fullDescription:
+      'Veloce is an organisation operating in gaming and racing. Our gaming outfit runs multiple pro-esports teams while establishing the largest racing media network—our racing teams compete in the Extreme E series as well as the W Series.',
+    tags: ['Gaming'],
   },
   {
     index: 116,
@@ -3025,6 +3060,9 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.Quickswap_Collection1,
     },
     bondPartner: 'QuickSwap',
+    fullDescription:
+      'A scalable experimental platform built to explore the power of Yellow Network and contribute to advancing the state channels-powered ecosystem of Web3 technologies.',
+    tags: ['Infra'],
   },
   {
     index: 115,
@@ -3050,6 +3088,9 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.Quickswap_Collection1,
     },
     bondPartner: 'QuickSwap',
+    fullDescription:
+      'BitCone (CONE) is a Decentralized Community Utility Token made by Cones, for Cones. 608 Billion tokens were created on the Polygon Network (with no mint function) to parallel the 608 Cone Head - Reddit Collectible Avatar NFT, that inspired a meme Conemunity.',
+    tags: ['Meme', 'NFT'],
   },
   {
     index: 114,
@@ -3075,6 +3116,9 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.Quickswap_Collection1,
     },
     bondPartner: 'QuickSwap',
+    fullDescription:
+      'Forest Knight is a turn-based strategy game, where players find themselves in an unknown land and need to build their team of heroes and fight against evil. Inspired by successful games, such as Heroes might and magic and clash Royal, the game combines the best of two worlds – a fun and exciting PVE RPG experience, a PVP competitive and social gameplay modes and activities as well as a decentralized item ecosystem through game items as NFTs and world-building powered with DEFI elements.',
+    tags: ['Gaming'],
   },
   {
     index: 113,
@@ -3101,6 +3145,9 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.Quickswap_Collection1,
     },
     bondPartner: 'QuickSwap',
+    fullDescription:
+      'Borderless Money is a decentralized finance protocol to redefine how Social Investments are made, using yield-generating products and simultaneously contributing to social causes.',
+    tags: ['DeFi'],
   },
   {
     index: 112,
@@ -3126,6 +3173,8 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.Quickswap_Collection1,
     },
     bondPartner: 'QuickSwap',
+    fullDescription: 'BlockWallet is a Web3 wallet focusing on privacy, security, and Self Custody.',
+    tags: ['DeFi'],
   },
   {
     index: 111,
@@ -3177,6 +3226,7 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.Quickswap_Collection1,
     },
     bondPartner: 'QuickSwap',
+    tags: ['Gaming'],
   },
   {
     index: 109,

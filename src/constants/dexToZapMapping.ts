@@ -3,7 +3,7 @@ import { LiquidityDex, ZapVersion } from '../types'
 
 export const dexToZapMapping: Record<LiquidityDex, Partial<Record<ChainId, ZapVersion>>> = {
   [LiquidityDex.ApeSwapV2]: {
-    [ChainId.BSC]: ZapVersion.ZapV1,
+    [ChainId.BSC]: ZapVersion.SoulZap,
     [ChainId.BSC_TESTNET]: ZapVersion.ZapV1,
     [ChainId.MATIC]: ZapVersion.ZapV1,
     [ChainId.MATIC_TESTNET]: ZapVersion.ZapV1,
@@ -15,7 +15,7 @@ export const dexToZapMapping: Record<LiquidityDex, Partial<Record<ChainId, ZapVe
     [ChainId.MATIC]: ZapVersion.External,
   },
   [LiquidityDex.PancakeSwapV2]: {
-    [ChainId.BSC]: ZapVersion.External,
+    [ChainId.BSC]: ZapVersion.SoulZap,
     [ChainId.MAINNET]: ZapVersion.External,
   },
   [LiquidityDex.QuickswapV2]: {
