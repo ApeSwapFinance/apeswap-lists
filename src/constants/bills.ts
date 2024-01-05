@@ -514,6 +514,56 @@ const bills: BillsConfig[] = [
     },
   },
   {
+    index: 1016,
+    contractAddress: {
+      [ChainId.BSC]: '0x07E48b1c531cBF32222851D0B1f77fF58b13942d',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.rpg,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://revolvegames.io/',
+    twitter: 'https://twitter.com/RevolveGamesio',
+    audit: 'https://drive.google.com/file/d/1lJdF7lEM3KQZmOW1p42Gm0eMbp7DF82C/view',
+    initTime: { [ChainId.BSC]: 1704477600 },
+    initPrice: { [ChainId.BSC]: 0.0257815220477653 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+  },
+  {
+    index: 1015,
+    contractAddress: {
+      [ChainId.BSC]: '0xA36a59Df35B045650EeaA7d2d001675F5F822649',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.wbnb,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.wbnb,
+    earnToken: tokens.arcas,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://www.blockapescissors.com/#home',
+    twitter: 'https://twitter.com/apeblock?lang=en',
+    audit: 'https://solidity.finance/audits/BlockApeScissors/',
+    initTime: { [ChainId.BSC]: 1704477600 },
+    initPrice: { [ChainId.BSC]: 0.103519967970037 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+  },
+  {
     index: 1014,
     contractAddress: {
       [ChainId.BSC]: '0x0C6f539c98Cad2Bd5dA2f5168a1C2EAA53041832',
