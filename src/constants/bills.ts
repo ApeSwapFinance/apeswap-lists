@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1014
+// BNB Largest ID: 1017
 // Polygon Largest ID: 122
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
@@ -514,6 +514,32 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.CexFundBond_Collection1,
     },
     tags: ['Cex Fund'],
+  },
+  {
+    index: 1017,
+    contractAddress: {
+      [ChainId.BSC]: '0xd3cB03be7e367d0B6ccB42Dc87821bf67CeE8AB8',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.hntr,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.hntrUsdt_PCS,
+    earnToken: tokens.hntr,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://www.hunter-token.com/',
+    twitter: 'https://twitter.com/digitalarmsnft?lang=en',
+    initTime: { [ChainId.BSC]: 1704891600 },
+    initPrice: { [ChainId.BSC]: 0.00173967992950712 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['NFT Marketplace'],
+    fullDescription: 'World`s 1st and only IP-licensed NFT firearms from leading brands.',
   },
   {
     index: 1016,

@@ -1727,6 +1727,91 @@
     "tags": ["Cex Fund"]
   },
   {
+    "index": 1017,
+    "contractAddress": {
+      "56": "0xd3cB03be7e367d0B6ccB42Dc87821bf67CeE8AB8"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "HNTR",
+      "address": {
+        "56": "0x83451A4E3585FdA74FEb348Ad929f2C4cA189660"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "42161": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "HNTR-USDT",
+      "address": {
+        "56": "0x4a593b44C505fe4C68b8d3fe81E46C158a6A2010"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "getLpUrl": {
+        "56": "https://pancakeswap.finance/v2/add/0x83451A4E3585FdA74FEb348Ad929f2C4cA189660/0x55d398326f99059fF775485246999027B3197955"
+      }
+    },
+    "earnToken": {
+      "symbol": "HNTR",
+      "address": {
+        "56": "0x83451A4E3585FdA74FEb348Ad929f2C4cA189660"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://www.hunter-token.com/",
+    "twitter": "https://twitter.com/digitalarmsnft?lang=en",
+    "initTime": {
+      "56": 1704891600
+    },
+    "initPrice": {
+      "56": 0.00173967992950712
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["NFT Marketplace"],
+    "fullDescription": "World`s 1st and only IP-licensed NFT firearms from leading brands."
+  },
+  {
     "index": 1016,
     "contractAddress": {
       "56": "0x07E48b1c531cBF32222851D0B1f77fF58b13942d"

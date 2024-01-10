@@ -2259,6 +2259,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  hntr: {
+    symbol: 'HNTR',
+    address: {
+      [ChainId.BSC]: '0x83451A4E3585FdA74FEb348Ad929f2C4cA189660',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
   aitech: {
     symbol: 'AITECH',
     address: {
@@ -3462,6 +3473,22 @@ const tokens: Record<string, Token> = {
     },
     getLpUrl: {
       [ChainId.BSC]: 'https://pancakeswap.finance/v2/add/0xAd0926eCf31719263DC86426024794332d9dD9A3/BNB',
+    },
+  },
+  hntrUsdt_PCS: {
+    symbol: 'HNTR-USDT',
+    address: {
+      [ChainId.BSC]: '0x4a593b44C505fe4C68b8d3fe81E46C158a6A2010',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl: {
+      [ChainId.BSC]:
+        'https://pancakeswap.finance/v2/add/0x83451A4E3585FdA74FEb348Ad929f2C4cA189660/0x55d398326f99059fF775485246999027B3197955',
     },
   },
   stlosTlos: {
