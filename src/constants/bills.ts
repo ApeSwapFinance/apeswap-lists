@@ -539,7 +539,7 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['NFT Marketplace'],
-    fullDescription: 'World`s 1st and only IP-licensed NFT firearms from leading brands.',
+    fullDescription: "World's 1st and only IP-licensed NFT firearms from leading brands.",
   },
   {
     index: 1016,
