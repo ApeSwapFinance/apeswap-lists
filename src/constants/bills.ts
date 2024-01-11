@@ -516,6 +516,33 @@ const bills: BillsConfig[] = [
     tags: ['Cex Fund'],
   },
   {
+    index: 1018,
+    contractAddress: {
+      [ChainId.BSC]: '0x01bbC9b5F7d6e6C55949Bb8af118bc644d8D3f21',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.tifi,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.tifiUsdt_PCS,
+    earnToken: tokens.tifi,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://tifi.net/',
+    twitter: 'https://twitter.com/TiFiToken',
+    audit: 'https://skynet.certik.com/projects/tifi-token',
+    initTime: { [ChainId.BSC]: 1704996000 },
+    initPrice: { [ChainId.BSC]: 0.000000031773560782 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DeFi Tooling'],
+    fullDescription: 'Metaverse meets Universe; Bridging Real Word Assets and NFTs!',
+  },
+  {
     index: 1017,
     contractAddress: {
       [ChainId.BSC]: '0xd3cB03be7e367d0B6ccB42Dc87821bf67CeE8AB8',

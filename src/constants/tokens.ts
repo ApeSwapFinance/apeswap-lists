@@ -2270,6 +2270,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  tifi: {
+    symbol: 'TIFI',
+    address: {
+      [ChainId.BSC]: '0x17E65E6b9B166Fb8e7c59432F0db126711246BC0',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
   aitech: {
     symbol: 'AITECH',
     address: {
@@ -3489,6 +3500,22 @@ const tokens: Record<string, Token> = {
     getLpUrl: {
       [ChainId.BSC]:
         'https://pancakeswap.finance/v2/add/0x83451A4E3585FdA74FEb348Ad929f2C4cA189660/0x55d398326f99059fF775485246999027B3197955',
+    },
+  },
+  tifiUsdt_PCS: {
+    symbol: 'TIFI-USDT',
+    address: {
+      [ChainId.BSC]: '0x3a29DD4Ab216E296A483df77c46AE4DED213D0FD',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl: {
+      [ChainId.BSC]:
+        'https://pancakeswap.finance/v2/add/0x17E65E6b9B166Fb8e7c59432F0db126711246BC0/0x55d398326f99059fF775485246999027B3197955',
     },
   },
   stlosTlos: {
