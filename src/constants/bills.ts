@@ -539,7 +539,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    tags: ['DeFi Tooling'],
+    tags: ['RWA', 'DeFi Tooling'],
     fullDescription: 'Metaverse meets Universe; Bridging Real Word Assets and NFTs!',
   },
   {
