@@ -1727,6 +1727,92 @@
     "tags": ["Cex Fund"]
   },
   {
+    "index": 1018,
+    "contractAddress": {
+      "56": "0x01bbC9b5F7d6e6C55949Bb8af118bc644d8D3f21"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "TIFI",
+      "address": {
+        "56": "0x17E65E6b9B166Fb8e7c59432F0db126711246BC0"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "42161": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "TIFI-USDT",
+      "address": {
+        "56": "0x3a29DD4Ab216E296A483df77c46AE4DED213D0FD"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "getLpUrl": {
+        "56": "https://pancakeswap.finance/v2/add/0x17E65E6b9B166Fb8e7c59432F0db126711246BC0/0x55d398326f99059fF775485246999027B3197955"
+      }
+    },
+    "earnToken": {
+      "symbol": "TIFI",
+      "address": {
+        "56": "0x17E65E6b9B166Fb8e7c59432F0db126711246BC0"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://tifi.net/",
+    "twitter": "https://twitter.com/TiFiToken",
+    "audit": "https://skynet.certik.com/projects/tifi-token",
+    "initTime": {
+      "56": 1704996000
+    },
+    "initPrice": {
+      "56": 3.1773560782e-8
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["RWA", "DeFi Tooling"],
+    "fullDescription": "Metaverse meets Universe; Bridging Real Word Assets and NFTs!"
+  },
+  {
     "index": 1017,
     "contractAddress": {
       "56": "0xd3cB03be7e367d0B6ccB42Dc87821bf67CeE8AB8"
