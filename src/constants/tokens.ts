@@ -3872,7 +3872,7 @@ const tokens: Record<string, Token> = {
     lpToken: true,
     getLpUrl: {
       [ChainId.MATIC]:
-        'https://quickswap.exchange/#/pools/v2?currency0=ETH&currency1=0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1',
+        'https://quickswap.exchange/#/pools/v2?currency0=0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1&currency1=ETH',
     },
   },
   chrpBnb: {
