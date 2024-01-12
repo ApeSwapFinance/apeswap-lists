@@ -2951,7 +2951,8 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.Quickswap_Collection1,
     },
     bondPartner: 'QuickSwap',
-    fullDescription: 'V3 Position Management',
+    fullDescription:
+      'Earn sustainable yield effortlessly across multiple chains and DEXs in optimized liquidity vaults. A[51] recognized the need for a service that could streamline and automate the process of liquidity management, simplifying the complexities Therefore, they offer their service, allowing users to set their Liquidity on Autopilot.',
     tags: ['DeFi'],
   },
   {
