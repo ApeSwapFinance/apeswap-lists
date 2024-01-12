@@ -2948,9 +2948,8 @@ const bills: BillsConfig[] = [
     initPrice: { [ChainId.MATIC]: 0.90803612 },
     soldOut: false,
     billArt: {
-      collection: BillArtCollection.Quickswap_Collection1,
+      collection: BillArtCollection.ApeBond_Collection1,
     },
-    bondPartner: 'QuickSwap',
     fullDescription:
       'Earn sustainable yield effortlessly across multiple chains and DEXs in optimized liquidity vaults. A[51] recognized the need for a service that could streamline and automate the process of liquidity management, simplifying the complexities Therefore, they offer their service, allowing users to set their Liquidity on Autopilot.',
     tags: ['DeFi'],
