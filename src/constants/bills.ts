@@ -2,8 +2,8 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1017
-// Polygon Largest ID: 122
+// BNB Largest ID: 1018
+// Polygon Largest ID: 123
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
 //Migration Bonds ID: 5007
@@ -539,7 +539,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    tags: ['RWA', 'DeFi Tooling'],
+    tags: ['RWA', 'DeFi'],
     fullDescription: 'Metaverse meets Universe; Bridging Real Word Assets and NFTs!',
   },
   {
@@ -2926,6 +2926,34 @@ const bills: BillsConfig[] = [
   /*
     Polygon Bills
   */
+  {
+    index: 123,
+    contractAddress: {
+      [ChainId.MATIC]: '0x62D828413275FfB13B0Ba6B018765505F25C60c9',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.wmatic,
+    quoteToken: tokens.wmatic,
+    lpToken: tokens.wmatic,
+    earnToken: tokens.a51,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://uniswap.a51.finance/stats',
+    twitter: 'https://twitter.com/A51_Fi',
+    audit: 'https://hacken.io/audits/unipilot/',
+    initTime: { [ChainId.MATIC]: 1705067401 },
+    initPrice: { [ChainId.MATIC]: 0.90803612 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    fullDescription:
+      'Earn sustainable yield effortlessly across multiple chains and DEXs in optimized liquidity vaults. A[51] recognized the need for a service that could streamline and automate the process of liquidity management, simplifying the complexities Therefore, they offer their service, allowing users to set their Liquidity on Autopilot.',
+    tags: ['DeFi'],
+  },
   {
     index: 122,
     contractAddress: {
