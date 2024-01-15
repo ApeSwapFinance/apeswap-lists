@@ -514,6 +514,8 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.CexFundBond_Collection1,
     },
     tags: ['Cex Fund'],
+    fullDescription:
+      'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
   },
   {
     index: 1018,
@@ -540,7 +542,8 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['RWA', 'DeFi'],
-    fullDescription: 'Metaverse meets Universe; Bridging Real Word Assets and NFTs!',
+    fullDescription:
+      'TiFi empowers e‑Commerce with the use of Blockchain technologies.This project was built by a group of talented engineers in Silicon Valley and was already featured in Yahoo Finance, MSN News, and New York Weekly. TiFi Allverse, one of their main products, allows users to shop and trade real-world products with NFTs and Cryptocurrencies.',
   },
   {
     index: 1017,
@@ -566,7 +569,8 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['NFT Marketplace'],
-    fullDescription: "World's 1st and only IP-licensed NFT firearms from leading brands.",
+    fullDescription:
+      '$HNTR Token allows users to access, trade, and interact with unique, licensed NFT firearms from globally recognized brands. As part of its thriving community, users can reap lucrative benefits from their NFT staking pools with up to 200% APY rewards. Brand partners include Barrett, ZEV Technologies, ZeroTech, and more.',
   },
   {
     index: 1016,
@@ -594,7 +598,7 @@ const bills: BillsConfig[] = [
     },
     tags: ['GAMING'],
     fullDescription:
-      'Revolve Games is reshaping Web3 gaming - addressing many of the challenges faced by blockchain gaming economies. We directly integrate playable assets into the in-game economy, achieved by tethering these assets to the RPG token. This strategy ensures a stable and robust ecosystem, less affected by external market fluctuations.',
+      'Revolve Games is reshaping Web3 gaming - addressing many of the challenges faced by blockchain gaming economies. They directly integrate playable assets into the in-game economy, achieved by tethering their assets to the RPG token. This strategy ensures a stable and robust ecosystem, less affected by external market fluctuations.',
   },
   {
     index: 1015,
@@ -621,6 +625,8 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['GAMING'],
+    fullDescription:
+      'Arcas aims to revolutionize e-sports and gaming by introducing web3 features that empower players like never before. Backed by Binance Labs Fund, they leveraged Unreal Engine 5 to create a fast paced third person competitive shooter. Their revolutionary web3 protocol blends revenue share, DAO governance, and play 2 earn functionalities.',
   },
   {
     index: 1014,
@@ -647,6 +653,8 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['AI'],
+    fullDescription:
+      'AITECH is paving the way for a more convenient and secure future by providing accessible Artificial Intelligence-as-a-Service (AIaaS), Blockchain-as-a-Service (BaaS), High-Performance Computing Power (HPC), and an artificial intelligence marketplace. All these are backed by their native token: $AITECH.',
   },
   {
     index: 1013,
@@ -674,7 +682,7 @@ const bills: BillsConfig[] = [
     },
     tags: ['AI'],
     fullDescription:
-      'ChainGPT is an advanced AI infrastructure that develops AI-powered technologies for the Web3, Blockchain, and Crypto space. They aim to improve the Web3 space for retail users & startups by developing AI-powered solutions designed explicitly for Web3. From LLMs to Web3 AI Tools, ChainGPT is the go-to place to boost your Web3 flow with Artificial Intelligence.',
+      'ChainGPT is an advanced AI infrastructure that develops AI-powered technologies for Web3, Blockchain, and Crypto space. They aim to improve the Web3 space for retail users & startups by developing AI-powered solutions designed explicitly for Web3. From LLMs to Web3 AI Tools, ChainGPT is the go-to place to boost your Web3 flow with Artificial Intelligence.',
   },
   {
     index: 1011,
@@ -701,6 +709,8 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['RWA', 'Lending'],
+    fullDescription:
+      "Credefi bridges the EU's financing gap by connecting crypto lenders with SME borrowers. They provide innovative lending in order to make a real-world impact. With Credefi users can access reliable loans backed by a range of real-world assets, including real estate, future receivables, and more.",
   },
   {
     index: 1009,
@@ -727,7 +737,7 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     fullDescription:
-      'As the AI market continues to rapidly develop and hundreds of applications are released each day, there is a growing need for a marketplace platform that can bring together all these applications and community needs. This is why, at HyperGPT, we have combined AI and Blockchain technologies with a new concept, creating a platform that can address these needs.',
+      'As the AI market continues to rapidly develop and hundreds of applications are released each day, there is a growing need for a marketplace platform that can bring together all these applications and community needs. HyperGPT specifically combines AI and Blockchain technologies with a new concept, creating a platform that can address these needs.',
     tags: ['AI'],
   },
   {
@@ -755,7 +765,7 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     fullDescription:
-      'We are paving the way for a more convenient and secure future by providing accessible Artificial Intelligence-as-a-Service (AIAAS), Blockchain-as-a-Service (BAAS), high-performance computing power (HPC), and an artificial intelligence marketplace. All of these cutting-edge technologies are powered by our native token, AITECH.',
+      'AITECH is paving the way for a more convenient and secure future by providing accessible Artificial Intelligence-as-a-Service (AIaaS), Blockchain-as-a-Service (BaaS), High-Performance Computing Power (HPC), and an artificial intelligence marketplace. All these are backed by their native token: $AITECH.',
     tags: ['AI'],
   },
   {
@@ -810,7 +820,7 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     fullDescription:
-      'Chappyz is an AI powered plug-and-play protocol that helps build REAL community engagement & growth, whilst rewarding community members in real time.',
+      'Chappyz is an AI powered plug-and-play protocol that helps build REAL community engagement & growth, whilst rewarding community members in real-time. Users can start earning rewards by simply connecting their socials and chatting. Chappyz advanced AI system scores all messages and delivers a token reward each time users chat.',
     tags: ['AI'],
   },
   {
@@ -889,6 +899,8 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
+    fullDescription:
+      'As the AI market continues to rapidly develop and hundreds of applications are released each day, there is a growing need for a marketplace platform that can bring together all these applications and community needs. HyperGPT specifically combines AI and Blockchain technologies with a new concept, creating a platform that can address these needs.',
   },
   {
     index: 93,
@@ -2951,7 +2963,7 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     fullDescription:
-      'Earn sustainable yield effortlessly across multiple chains and DEXs in optimized liquidity vaults. A[51] recognized the need for a service that could streamline and automate the process of liquidity management, simplifying the complexities Therefore, they offer their service, allowing users to set their Liquidity on Autopilot.',
+      'A51 Finance is an Autonomous Liquidity Provisioning (ALP) protocol offering customizable tools for creating tailored liquidity strategies empowering LPs with dynamic adjustments based on their preferences. A51 puts control in the hands of liquidity providers, allowing them to dictate asset management and post-liquidity actions.',
     tags: ['DeFi'],
   },
   {
@@ -3007,7 +3019,7 @@ const bills: BillsConfig[] = [
     },
     bondPartner: 'QuickSwap',
     fullDescription:
-      'Planet IX is an online NFT-strategy game where a digital rendition of the earth is your playing field. Join us and become an Agent of Change now.',
+      'Planet IX is a Web3 play-to-earn platform fueled by their native IX Token. Every asset on Planet IX is an NFT, allowing users to farm, own, and trade them. The main goal is to restore the planet to its former green-blue glory. Join Planet IX and become an Agent of Change now.',
     tags: ['Gaming', 'NFT'],
   },
   {
@@ -3035,7 +3047,7 @@ const bills: BillsConfig[] = [
     },
     bondPartner: 'QuickSwap',
     fullDescription:
-      'Planet IX is an online NFT-strategy game where a digital rendition of the earth is your playing field. Join us and become an Agent of Change now.',
+      'Planet IX is a Web3 play-to-earn platform fueled by their native IX Token. Every asset on Planet IX is an NFT, allowing users to farm, own, and trade them. The main goal is to restore the planet to its former green-blue glory. Join Planet IX and become an Agent of Change now.',
     tags: ['Gaming', 'NFT'],
   },
   {
@@ -3063,7 +3075,7 @@ const bills: BillsConfig[] = [
     },
     bondPartner: 'QuickSwap',
     fullDescription:
-      'FireBot aims to maximize the potential of DeFi strategies, yield-generating protocols, and automated trading algorithms to offer tokenized investment vehicles for its users. We engineer and structure investment strategies available through smart-contracts deployed on the Polygon blockchain. Their objectives range from high yield to principal protection.',
+      'FireBot aims to maximize the potential of DeFi strategies, yield-generating protocols, and automated trading algorithms to offer tokenized investment vehicles for its users. They engineer and structure investment strategies available through smart-contracts deployed on the Polygon blockchain. Their objectives range from high yield to principal protection.',
     tags: ['AI'],
   },
   {
@@ -3176,7 +3188,7 @@ const bills: BillsConfig[] = [
     },
     bondPartner: 'QuickSwap',
     fullDescription:
-      'BitCone (CONE) is a Decentralized Community Utility Token made by Cones, for Cones. 608 Billion tokens were created on the Polygon Network (with no mint function) to parallel the 608 Cone Head - Reddit Collectible Avatar NFT, that inspired a meme Conemunity.',
+      'BitCone (CONE) is a Decentralized Community Utility Token made by Cones, for Cones. 608 Billion tokens were created on the Polygon Network (with no mint function) to parallel the 608 Cone Head - Reddit Collectible Avatar NFT, that inspired a meme Community.',
     tags: ['Meme', 'NFT'],
   },
   {
@@ -3233,7 +3245,7 @@ const bills: BillsConfig[] = [
     },
     bondPartner: 'QuickSwap',
     fullDescription:
-      'Borderless Money is a decentralized finance protocol to redefine how Social Investments are made, using yield-generating products and simultaneously contributing to social causes.',
+      'Borderless Money is a decentralized finance protocol engineered to redefine how Social Investments are made, using yield-generating products and simultaneously contributing to social causes. An open and borderless digital society, where goods, services, technology, information, opportunities, and capital can flow seamlessly from one hand to many, in a fair and transparent manner.',
     tags: ['DeFi'],
   },
   {
@@ -3260,7 +3272,8 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.Quickswap_Collection1,
     },
     bondPartner: 'QuickSwap',
-    fullDescription: 'BlockWallet is a Web3 wallet focusing on privacy, security, and Self Custody.',
+    fullDescription:
+      'BlockWallet is a Web3 wallet focusing on privacy, security, and Self Custody. High Performance, Identity Protection, and Pure Reliability, BlockWallet are just a few of the amazing qualities to describe this Self-Custodial Web3 Crypto Wallet. Swap, Bridge, Buy Crypto, and more with BlockWallet.',
     tags: ['DeFi'],
   },
   {
@@ -3314,6 +3327,8 @@ const bills: BillsConfig[] = [
     },
     bondPartner: 'QuickSwap',
     tags: ['Gaming'],
+    fullDescription:
+      'Genso is the metaverse incarnation of “Elemental Knights Online,” which won the 2012 Game of the year (Gold) in Taiwan. Utilizing blockchain technology, they aim to create a new economy within the virtual world. Web3, RPG & Metaverse are all combined within the realm of Gensokishi.',
   },
   {
     index: 109,
