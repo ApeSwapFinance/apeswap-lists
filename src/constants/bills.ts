@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1018
+// BNB Largest ID: 1019
 // Polygon Largest ID: 123
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
@@ -518,6 +518,34 @@ const bills: BillsConfig[] = [
       'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
   },
   {
+    index: 1019,
+    contractAddress: {
+      [ChainId.BSC]: '0xEAd5BC6E7c1B72cB312e3979982A143d66edB979',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.monsta,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.monstaBnb_PCS,
+    earnToken: tokens.monsta,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://cake.monster/',
+    twitter: 'https://twitter.com/Monsta_BSC',
+    audit: 'https://solidity.finance/audits/CakeMonster/',
+    initTime: { [ChainId.BSC]: 1704996000 },
+    initPrice: { [ChainId.BSC]: 0.000000031773560782 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Yield', 'NFT'],
+    fullDescription:
+      'Cake Monster is a revolutionary undertaking in sustainable hyper-deflationary economics, featuring an automated hybrid monetary policy. Their team has crafted groundbreaking economic policies to tackle current challenges in the financial world. Their journey is fueled by a relentless passion for exploration, creativity, and community building.ß',
+  },
+  {
     index: 1018,
     contractAddress: {
       [ChainId.BSC]: '0x01bbC9b5F7d6e6C55949Bb8af118bc644d8D3f21',
@@ -543,7 +571,7 @@ const bills: BillsConfig[] = [
     },
     tags: ['RWA', 'DeFi'],
     fullDescription:
-      'TiFi empowers e‑Commerce with the use of Blockchain technologies.This project was built by a group of talented engineers in Silicon Valley and was already featured in Yahoo Finance, MSN News, and New York Weekly. TiFi Allverse, one of their main products, allows users to shop and trade real-world products with NFTs and Cryptocurrencies.',
+      'TiFi empowers e‑Commerce with the use of Blockchain technologies. TiFi was built by a group of talented engineers in Silicon Valley and was already featured in Yahoo Finance, MSN News, and New York Weekly. TiFi Allverse, one of their main products, allows users to shop and trade real-world products with NFTs and Cryptocurrencies.',
   },
   {
     index: 1017,
@@ -710,7 +738,7 @@ const bills: BillsConfig[] = [
     },
     tags: ['RWA', 'Lending'],
     fullDescription:
-      "Credefi bridges the EU's financing gap by connecting crypto lenders with SME borrowers. They provide innovative lending in order to make a real-world impact. With Credefi users can access reliable loans backed by a range of real-world assets, including real estate, future receivables, and more.",
+      "Credefi bridges the EU's financing gap by connecting crypto lenders with SME borrowers. Credifi provides innovative lending in order to make a real-world impact. With Credefi users can access reliable loans backed by a range of real-world assets, including real estate, future receivables, and more.",
   },
   {
     index: 1009,
@@ -3132,7 +3160,7 @@ const bills: BillsConfig[] = [
     },
     bondPartner: 'QuickSwap',
     fullDescription:
-      'Veloce is an organisation operating in gaming and racing. Our gaming outfit runs multiple pro-esports teams while establishing the largest racing media network—our racing teams compete in the Extreme E series as well as the W Series.',
+      'Veloce is an organization operating in gaming and racing. Their gaming outfit runs multiple pro-esports teams while establishing the largest racing media network—their racing teams compete in the Extreme E series as well as the W Series. At Veloce, they are innovators in gaming, racing, and technology.',
     tags: ['Gaming'],
   },
   {
@@ -3160,7 +3188,7 @@ const bills: BillsConfig[] = [
     },
     bondPartner: 'QuickSwap',
     fullDescription:
-      'A scalable experimental platform built to explore the power of Yellow Network and contribute to advancing the state channels-powered ecosystem of Web3 technologies.',
+      'A scalable testing platform built to explore the power of Yellow Network and contribute to the advancement of Web3 technologies that uses real-world assets at a smaller scale. Their Yellow Clearing Network is powered by state channel technology to enable real-time cross-chain trading without the need for brokers to bridge assets.',
     tags: ['Infra'],
   },
   {

@@ -3270,6 +3270,21 @@ const tokens: Record<string, Token> = {
         'https://pancakeswap.finance/v2/add/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56/0x9840652DC04fb9db2C43853633f0F62BE6f00f98',
     },
   },
+  monstaBnb_PCS: {
+    symbol: 'MONSTA-BNB',
+    address: {
+      [ChainId.BSC]: '0x55C49d1cd54126C69F22C2e9eEBd1EFeF5e620FA',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl: {
+      [ChainId.BSC]: 'https://pancakeswap.finance/v2/add/BNB/0x8A5d7FCD4c90421d21d30fCC4435948aC3618B2f',
+    },
+  },
   brgBnb_PCS: {
     symbol: 'BRG-BNB',
     address: {

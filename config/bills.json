@@ -1728,6 +1728,84 @@
     "fullDescription": "ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity."
   },
   {
+    "index": 1019,
+    "contractAddress": {
+      "56": "0xEAd5BC6E7c1B72cB312e3979982A143d66edB979"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "MONSTA",
+      "address": {
+        "56": "0x8A5d7FCD4c90421d21d30fCC4435948aC3618B2f"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "MONSTA-BNB",
+      "address": {
+        "56": "0x55C49d1cd54126C69F22C2e9eEBd1EFeF5e620FA"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "getLpUrl": {
+        "56": "https://pancakeswap.finance/v2/add/BNB/0x8A5d7FCD4c90421d21d30fCC4435948aC3618B2f"
+      }
+    },
+    "earnToken": {
+      "symbol": "MONSTA",
+      "address": {
+        "56": "0x8A5d7FCD4c90421d21d30fCC4435948aC3618B2f"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://cake.monster/",
+    "twitter": "https://twitter.com/Monsta_BSC",
+    "audit": "https://solidity.finance/audits/CakeMonster/",
+    "initTime": {
+      "56": 1704996000
+    },
+    "initPrice": {
+      "56": 3.1773560782e-8
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["Yield", "NFT"],
+    "fullDescription": "Cake Monster is a revolutionary undertaking in sustainable hyper-deflationary economics, featuring an automated hybrid monetary policy. Their team has crafted groundbreaking economic policies to tackle current challenges in the financial world. Their journey is fueled by a relentless passion for exploration, creativity, and community building.ß"
+  },
+  {
     "index": 1018,
     "contractAddress": {
       "56": "0x01bbC9b5F7d6e6C55949Bb8af118bc644d8D3f21"
@@ -1811,7 +1889,7 @@
       "collection": "ApeBond_Collection1"
     },
     "tags": ["RWA", "DeFi"],
-    "fullDescription": "TiFi empowers e‑Commerce with the use of Blockchain technologies.This project was built by a group of talented engineers in Silicon Valley and was already featured in Yahoo Finance, MSN News, and New York Weekly. TiFi Allverse, one of their main products, allows users to shop and trade real-world products with NFTs and Cryptocurrencies."
+    "fullDescription": "TiFi empowers e‑Commerce with the use of Blockchain technologies. TiFi was built by a group of talented engineers in Silicon Valley and was already featured in Yahoo Finance, MSN News, and New York Weekly. TiFi Allverse, one of their main products, allows users to shop and trade real-world products with NFTs and Cryptocurrencies."
   },
   {
     "index": 1017,
@@ -2326,7 +2404,7 @@
       "collection": "ApeBond_Collection1"
     },
     "tags": ["RWA", "Lending"],
-    "fullDescription": "Credefi bridges the EU's financing gap by connecting crypto lenders with SME borrowers. They provide innovative lending in order to make a real-world impact. With Credefi users can access reliable loans backed by a range of real-world assets, including real estate, future receivables, and more."
+    "fullDescription": "Credefi bridges the EU's financing gap by connecting crypto lenders with SME borrowers. Credifi provides innovative lending in order to make a real-world impact. With Credefi users can access reliable loans backed by a range of real-world assets, including real estate, future receivables, and more."
   },
   {
     "index": 1009,
@@ -10275,7 +10353,7 @@
       "collection": "Quickswap_Collection1"
     },
     "bondPartner": "QuickSwap",
-    "fullDescription": "Veloce is an organisation operating in gaming and racing. Our gaming outfit runs multiple pro-esports teams while establishing the largest racing media network—our racing teams compete in the Extreme E series as well as the W Series.",
+    "fullDescription": "Veloce is an organization operating in gaming and racing. Their gaming outfit runs multiple pro-esports teams while establishing the largest racing media network—their racing teams compete in the Extreme E series as well as the W Series. At Veloce, they are innovators in gaming, racing, and technology.",
     "tags": ["Gaming"]
   },
   {
@@ -10363,7 +10441,7 @@
       "collection": "Quickswap_Collection1"
     },
     "bondPartner": "QuickSwap",
-    "fullDescription": "A scalable experimental platform built to explore the power of Yellow Network and contribute to advancing the state channels-powered ecosystem of Web3 technologies.",
+    "fullDescription": "A scalable testing platform built to explore the power of Yellow Network and contribute to the advancement of Web3 technologies that uses real-world assets at a smaller scale. Their Yellow Clearing Network is powered by state channel technology to enable real-time cross-chain trading without the need for brokers to bridge assets.",
     "tags": ["Infra"]
   },
   {
