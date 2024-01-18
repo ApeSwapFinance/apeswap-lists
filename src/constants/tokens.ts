@@ -2206,6 +2206,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  grape: {
+    symbol: 'GRAPE',
+    address: {
+      [ChainId.BSC]: '0x555296de6A86E72752e5C5DC091FE49713Aa145C',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+    },
+    active: true,
+  },
   hgpt: {
     symbol: 'HGPT',
     address: {
