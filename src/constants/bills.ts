@@ -548,7 +548,7 @@ const bills: BillsConfig[] = [
   {
     index: 1019,
     contractAddress: {
-      [ChainId.BSC]: '0x2Bd4D82a938B78e33FD416ED682E32C6996Fe1b1',
+      [ChainId.BSC]: '0x328e243890a04cb5a763a977395F74Ea6be74D14',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
