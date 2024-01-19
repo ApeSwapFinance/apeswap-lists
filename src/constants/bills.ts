@@ -546,6 +546,33 @@ const bills: BillsConfig[] = [
       'Cake Monster ($MONSTA) is a revolutionary undertaking in sustainable Hyper-Deflationary Economics. Their team has developed a groundbreaking economic policy to combat the problems that the financial world is currently facing and wrapped it as a cute Meme on BNBChain. Users will find On-Chain Games, Play2Earn NFTs, and other rewarding features: Cake Monster is definitely THE BEAST OF BSC.',
   },*/
   {
+    index: 1020,
+    contractAddress: {
+      [ChainId.BSC]: '0x591b1b8e19B492A5b5dB2c331cDD5E5E014c69F6',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.cakebot,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://www.cakebot.io/',
+    twitter: 'https://twitter.com/CakebotTeam',
+    initTime: { [ChainId.BSC]: 1704891600 },
+    initPrice: { [ChainId.BSC]: 0.00173967992950712 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Trading Bot'],
+    fullDescription:
+      'Cakebot is the only all-in-one multi-ChainCurve Telegram Bot. With features such as Streamlined Trading, Precise Limit Orders, Auto Sniper, Private Transactions, Swap Aggregator and more, users can exchange without limits, and most importantly, stay ahead of the curve. Scan, Snipe and Succeed, only with Cakebot.',
+  },
+  {
     index: 1019,
     contractAddress: {
       [ChainId.BSC]: '0x328e243890a04cb5a763a977395F74Ea6be74D14',
