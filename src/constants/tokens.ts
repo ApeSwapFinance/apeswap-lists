@@ -726,10 +726,36 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  wefi: {
+    symbol: 'WEFI',
+    address: {
+      [ChainId.MATIC]: '0xfFA188493C15DfAf2C206c97D8633377847b6a52',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.Algebra,
+    },
+    active: true,
+  },
   a51: {
     symbol: 'A51',
     address: {
       [ChainId.MATIC]: '0xe9E7c09e82328c3107d367f6c617cF9977e63ED0',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.Algebra,
+    },
+    active: true,
+  },
+  fxa3a: {
+    symbol: 'fxA3A',
+    address: {
+      [ChainId.MATIC]: '0x58c7B2828e7F2B2CaA0cC7fEef242fA3196d03df',
     },
     decimals: {
       [ChainId.MATIC]: 18,
@@ -3923,6 +3949,24 @@ const tokens: Record<string, Token> = {
     getLpUrl: {
       [ChainId.MATIC]:
         'https://quickswap.exchange/#/pools/v2?currency0=0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1&currency1=ETH',
+    },
+  },
+  fxa3aUsdc_QS: {
+    symbol: 'A3A-USDC',
+    address: {
+      [ChainId.MATIC]: '0x58c7B2828e7F2B2CaA0cC7fEef242fA3196d03df',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.QuickswapV2,
+    },
+    active: true,
+    lpToken: true,
+    getLpUrl: {
+      [ChainId.MATIC]:
+        'https://quickswap.exchange/#/pools/v2?currency0=0x58c7B2828e7F2B2CaA0cC7fEef242fA3196d03df&currency1=0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359',
     },
   },
   chrpBnb: {
