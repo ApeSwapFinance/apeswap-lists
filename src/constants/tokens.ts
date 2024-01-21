@@ -3954,7 +3954,7 @@ const tokens: Record<string, Token> = {
   fxa3aUsdc_QS: {
     symbol: 'A3A-USDC',
     address: {
-      [ChainId.MATIC]: '0x58c7B2828e7F2B2CaA0cC7fEef242fA3196d03df',
+      [ChainId.MATIC]: '0x89470e8D8bB8655a94678d801e0089c4646f5E84',
     },
     decimals: {
       [ChainId.MATIC]: 18,
