@@ -753,7 +753,7 @@ const tokens: Record<string, Token> = {
     active: true,
   },
   fxa3a: {
-    symbol: 'fxA3A',
+    symbol: 'A3A',
     address: {
       [ChainId.MATIC]: '0x58c7B2828e7F2B2CaA0cC7fEef242fA3196d03df',
     },

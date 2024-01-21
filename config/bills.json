@@ -9846,7 +9846,7 @@
     "billType": "liquidity",
     "billVersion": "V2",
     "token": {
-      "symbol": "fxA3A",
+      "symbol": "A3A",
       "address": {
         "137": "0x58c7B2828e7F2B2CaA0cC7fEef242fA3196d03df"
       },
@@ -9894,7 +9894,7 @@
       }
     },
     "earnToken": {
-      "symbol": "fxA3A",
+      "symbol": "A3A",
       "address": {
         "137": "0x58c7B2828e7F2B2CaA0cC7fEef242fA3196d03df"
       },
