@@ -3024,7 +3024,7 @@ const bills: BillsConfig[] = [
   {
     index: 126,
     contractAddress: {
-      [ChainId.MATIC]: '0xDc242d384A06EE6A975194665418A0899DFa5d67',
+      [ChainId.MATIC]: '0xa772329656bcEDa4e312735bbac24d1EF944e793',
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
@@ -3044,7 +3044,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
-    // bondPartner: 'QuickSwap',
+    bondPartner: 'QuickSwap',
     fullDescription:
       "3A is a Zero Interest Rate Lending Protocol for crypto and on-chain RWA safeguarded by Enterprise-Grade Security. They use EURO3's risk model, which stands out as one of the strongest in the space, providing unparalleled protection against DeFi's market volatility and liquidation risks. 3A provides Interest-free liquidity in less than 5 clicks. Fully decentralized and overcollateralized, 3A is a no-brainer.",
     tags: ['StableCoin'],
@@ -3052,7 +3052,7 @@ const bills: BillsConfig[] = [
   {
     index: 125,
     contractAddress: {
-      [ChainId.MATIC]: '0x5B7b7E7846CdcF439dB8C00FfCC1530286c57c27',
+      [ChainId.MATIC]: '0x245601FBE082E1f578594986780B25440D567128',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
@@ -3072,7 +3072,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
-    // bondPartner: 'QuickSwap',
+    bondPartner: 'QuickSwap',
     fullDescription:
       'WeFi is a decentralized money market protocol for lending and borrowing digital assets, allowing users to earn interest on them and invest in a variety of assets with borrowed funds. It also allows them to unleash the power of leveraged investment vaults. Users can supply single sided liquidity to earn risk free yield and supercharge their DeFi strategies.',
     tags: ['Yield Aggregator'],
