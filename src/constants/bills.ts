@@ -3,7 +3,7 @@ import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
 // BNB Largest ID: 1020
-// Polygon Largest ID: 124
+// Polygon Largest ID: 126
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
 //Migration Bonds ID: 5007
@@ -3021,6 +3021,63 @@ const bills: BillsConfig[] = [
   /*
     Polygon Bills
   */
+  {
+    index: 126,
+    contractAddress: {
+      [ChainId.MATIC]: '0xa772329656bcEDa4e312735bbac24d1EF944e793',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.fxa3a,
+    quoteToken: tokens.usdc,
+    lpToken: tokens.fxa3aUsdc_QS,
+    earnToken: tokens.fxa3a,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://3adao.org/',
+    twitter: 'https://twitter.com/3aaaDAO',
+    initTime: { [ChainId.MATIC]: 1701892800 },
+    initPrice: { [ChainId.MATIC]: 0.347018667988457 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+    fullDescription:
+      "3A is a Zero Interest Rate Lending Protocol for crypto and on-chain RWA safeguarded by Enterprise-Grade Security. They use EURO3's risk model, which stands out as one of the strongest in the space, providing unparalleled protection against DeFi's market volatility and liquidation risks. 3A provides Interest-free liquidity in less than 5 clicks. Fully decentralized and overcollateralized, 3A is a no-brainer.",
+    tags: ['StableCoin'],
+  },
+  {
+    index: 125,
+    contractAddress: {
+      [ChainId.MATIC]: '0x67F95211bD71a9D4d39A61d13a151b73347f5208',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.eth,
+    quoteToken: tokens.eth,
+    lpToken: tokens.eth,
+    earnToken: tokens.wefi,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://wefi.xyz/',
+    twitter: 'https://twitter.com/wefi_xyz',
+    audit: 'https://github.com/peckshield/publications/blob/master/audit_reports/PeckShield-Audit-Report-Paxo-v1.0.pdf',
+    initTime: { [ChainId.MATIC]: 1701892800 },
+    initPrice: { [ChainId.MATIC]: 0.0948073647 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+    fullDescription:
+      'WeFi is a decentralized money market protocol for lending and borrowing digital assets, allowing users to earn interest on them and invest in a variety of assets with borrowed funds. It also allows them to unleash the power of leveraged investment vaults. Users can supply single sided liquidity to earn risk free yield and supercharge their DeFi strategies.',
+    tags: ['Yield Aggregator'],
+  },
   {
     index: 124,
     contractAddress: {

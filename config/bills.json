@@ -9839,6 +9839,195 @@
     "soldOut": true
   },
   {
+    "index": 126,
+    "contractAddress": {
+      "137": "0xa772329656bcEDa4e312735bbac24d1EF944e793"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "fxA3A",
+      "address": {
+        "137": "0x58c7B2828e7F2B2CaA0cC7fEef242fA3196d03df"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "Algebra"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDC",
+      "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
+        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "fxA3A-USDC",
+      "address": {
+        "137": "0x89470e8D8bB8655a94678d801e0089c4646f5E84"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "QuickswapV2"
+      },
+      "active": true,
+      "lpToken": true,
+      "getLpUrl": {
+        "137": "https://quickswap.exchange/#/pools/v2?currency0=0x58c7B2828e7F2B2CaA0cC7fEef242fA3196d03df&currency1=0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359"
+      }
+    },
+    "earnToken": {
+      "symbol": "fxA3A",
+      "address": {
+        "137": "0x58c7B2828e7F2B2CaA0cC7fEef242fA3196d03df"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "Algebra"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
+    },
+    "inactive": false,
+    "projectLink": "https://3adao.org/",
+    "twitter": "https://twitter.com/3aaaDAO",
+    "initTime": {
+      "137": 1701892800
+    },
+    "initPrice": {
+      "137": 0.347018667988457
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "Quickswap_Collection1"
+    },
+    "bondPartner": "QuickSwap",
+    "fullDescription": "3A is a Zero Interest Rate Lending Protocol for crypto and on-chain RWA safeguarded by Enterprise-Grade Security. They use EURO3's risk model, which stands out as one of the strongest in the space, providing unparalleled protection against DeFi's market volatility and liquidation risks. 3A provides Interest-free liquidity in less than 5 clicks. Fully decentralized and overcollateralized, 3A is a no-brainer.",
+    "tags": ["StableCoin"]
+  },
+  {
+    "index": 125,
+    "contractAddress": {
+      "137": "0x67F95211bD71a9D4d39A61d13a151b73347f5208"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
+        "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
+        "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
+        "137": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "42161": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
+        "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
+        "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
+        "137": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "42161": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
+        "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
+        "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
+        "137": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "42161": 18
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "WEFI",
+      "address": {
+        "137": "0xfFA188493C15DfAf2C206c97D8633377847b6a52"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "Algebra"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
+    },
+    "inactive": false,
+    "projectLink": "https://wefi.xyz/",
+    "twitter": "https://twitter.com/wefi_xyz",
+    "audit": "https://github.com/peckshield/publications/blob/master/audit_reports/PeckShield-Audit-Report-Paxo-v1.0.pdf",
+    "initTime": {
+      "137": 1701892800
+    },
+    "initPrice": {
+      "137": 0.0948073647
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "Quickswap_Collection1"
+    },
+    "bondPartner": "QuickSwap",
+    "fullDescription": "WeFi is a decentralized money market protocol for lending and borrowing digital assets, allowing users to earn interest on them and invest in a variety of assets with borrowed funds. It also allows them to unleash the power of leveraged investment vaults. Users can supply single sided liquidity to earn risk free yield and supercharge their DeFi strategies.",
+    "tags": ["Yield Aggregator"]
+  },
+  {
     "index": 124,
     "contractAddress": {
       "137": "0xa03f7F8eC6CF8e217dBE506D990F81B3378e6EEB"
