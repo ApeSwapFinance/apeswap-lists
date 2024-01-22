@@ -9846,7 +9846,7 @@
     "billType": "liquidity",
     "billVersion": "V2",
     "token": {
-      "symbol": "A3A",
+      "symbol": "fxA3A",
       "address": {
         "137": "0x58c7B2828e7F2B2CaA0cC7fEef242fA3196d03df"
       },
@@ -9877,7 +9877,7 @@
       "active": true
     },
     "lpToken": {
-      "symbol": "A3A-USDC",
+      "symbol": "fxA3A-USDC",
       "address": {
         "137": "0x89470e8D8bB8655a94678d801e0089c4646f5E84"
       },
@@ -9894,7 +9894,7 @@
       }
     },
     "earnToken": {
-      "symbol": "A3A",
+      "symbol": "fxA3A",
       "address": {
         "137": "0x58c7B2828e7F2B2CaA0cC7fEef242fA3196d03df"
       },
@@ -9910,8 +9910,8 @@
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
     },
     "inactive": false,
-    "projectLink": "https://planetix.com/",
-    "twitter": "https://twitter.com/Planetix0",
+    "projectLink": "https://3adao.org/",
+    "twitter": "https://twitter.com/3aaaDAO",
     "initTime": {
       "137": 1701892800
     },
@@ -9929,7 +9929,7 @@
   {
     "index": 125,
     "contractAddress": {
-      "137": "0x245601FBE082E1f578594986780B25440D567128"
+      "137": "0x67F95211bD71a9D4d39A61d13a151b73347f5208"
     },
     "billType": "reserve",
     "billVersion": "V2",
@@ -10010,8 +10010,9 @@
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
     },
     "inactive": false,
-    "projectLink": "https://metatrace.me/",
-    "twitter": "https://twitter.com/trace_meta",
+    "projectLink": "https://wefi.xyz/",
+    "twitter": "https://twitter.com/wefi_xyz",
+    "audit": "https://github.com/peckshield/publications/blob/master/audit_reports/PeckShield-Audit-Report-Paxo-v1.0.pdf",
     "initTime": {
       "137": 1701892800
     },
