@@ -739,6 +739,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  bull: {
+    symbol: 'BULL',
+    address: {
+      [ChainId.MATIC]: '0x9f95e17b2668AFE01F8fbD157068b0a4405Cc08D',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.Algebra,
+    },
+    active: true,
+  },
   a51: {
     symbol: 'A51',
     address: {

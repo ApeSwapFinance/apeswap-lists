@@ -3,7 +3,7 @@ import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
 // BNB Largest ID: 1020
-// Polygon Largest ID: 126
+// Polygon Largest ID: 128
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
 //Migration Bonds ID: 5007
@@ -3021,6 +3021,63 @@ const bills: BillsConfig[] = [
   /*
     Polygon Bills
   */
+  {
+    index: 128,
+    contractAddress: {
+      [ChainId.MATIC]: '0x668e75c6C64B49A6B8C7E328D002851569a6636D',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.mv,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.mvUsdt_QS,
+    earnToken: tokens.mv,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://genso.game/en/',
+    twitter: 'https://twitter.com/genso_meta',
+    audit: 'https://skynet.certik.com/projects/gensokishi-online-metaworld',
+    initTime: { [ChainId.MATIC]: 1701892800 },
+    initPrice: { [ChainId.MATIC]: 0.00254 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+    tags: ['Gaming'],
+    fullDescription:
+      'Genso is the metaverse incarnation of “Elemental Knights Online,” which won the 2012 Game of the year (Gold) in Taiwan. Utilizing blockchain technology, they aim to create a new economy within the virtual world. Web3, RPG & Metaverse are all combined within the realm of Gensokishi.',
+  },
+  {
+    index: 127,
+    contractAddress: {
+      [ChainId.MATIC]: '0xB108dc4b5518079348aB4222Ab8359c50a3f3eba',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.wmatic,
+    quoteToken: tokens.wmatic,
+    lpToken: tokens.wmatic,
+    earnToken: tokens.bull,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://bullieverse.com/',
+    twitter: 'https://twitter.com/Bullieverse',
+    initTime: { [ChainId.MATIC]: 1701892800 },
+    initPrice: { [ChainId.MATIC]: 0.0948073647 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+    fullDescription:
+      'Bullieverse is your gateway to a limitless universe of Games and Social Experiences, where NFTs come alive. A Web3 native entertainment brand, Bullieverse also excels at Art & Lore, with rich storytelling, mesmerizing art, and vivid characters. It stands for a global community united by a shared passion for Web3, where users can connect with adventurers, artists, collectors, and enthusiasts worldwide.',
+    tags: ['GameFi'],
+  },
   {
     index: 126,
     contractAddress: {
