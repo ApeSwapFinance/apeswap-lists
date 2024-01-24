@@ -2104,6 +2104,9 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: '0x8A5d7FCD4c90421d21d30fCC4435948aC3618B2f',
     },
     decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
     active: true,
   },
   zbc: {
