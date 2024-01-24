@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1020
+// BNB Largest ID: 1021
 // Polygon Largest ID: 127
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
@@ -517,10 +517,10 @@ const bills: BillsConfig[] = [
     fullDescription:
       'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
   },
-  /*{
-    index: xxxx,
+  {
+    index: 1021,
     contractAddress: {
-      [ChainId.BSC]: '0xEAd5BC6E7c1B72cB312e3979982A143d66edB979',
+      [ChainId.BSC]: '0x7eDDB4A68418065de42978643A07bd32672189CD',
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
@@ -541,10 +541,10 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    tags: ['Yield', 'NFT'],
+    tags: ['Liquid Staking'],
     fullDescription:
       'Cake Monster ($MONSTA) is a revolutionary undertaking in sustainable Hyper-Deflationary Economics. Their team has developed a groundbreaking economic policy to combat the problems that the financial world is currently facing and wrapped it as a cute Meme on BNBChain. Users will find On-Chain Games, Play2Earn NFTs, and other rewarding features: Cake Monster is definitely THE BEAST OF BSC.',
-  },*/
+  },
   {
     index: 1020,
     contractAddress: {
