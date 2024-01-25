@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1021
+// BNB Largest ID: 1022
 // Polygon Largest ID: 127
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
@@ -518,6 +518,33 @@ const bills: BillsConfig[] = [
       'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
   },
   {
+    index: 1022,
+    contractAddress: {
+      [ChainId.BSC]: '0x83E22063362693Cb9C373721D037aDF6EA7762A0',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.chapz,
+    lpToken: tokens.chapzUsdt_PCS,
+    earnToken: tokens.chapz,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://chappyz.com/',
+    twitter: 'https://twitter.com/Chappyzcom',
+    initTime: { [ChainId.BSC]: 1700485200 },
+    initPrice: { [ChainId.BSC]: 0.002404165611 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    fullDescription:
+      'Chappyz is an AI powered plug-and-play protocol that helps build REAL community engagement & growth, whilst rewarding community members in real-time. Users can start earning rewards by simply connecting their socials and chatting. Chappyz advanced AI system scores all messages and delivers a token reward each time users chat.',
+    tags: ['AI'],
+  },
+  {
     index: 1021,
     contractAddress: {
       [ChainId.BSC]: '0x7eDDB4A68418065de42978643A07bd32672189CD',
@@ -898,7 +925,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/Chappyzcom',
     initTime: { [ChainId.BSC]: 1700485200 },
     initPrice: { [ChainId.BSC]: 0.002404165611 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
