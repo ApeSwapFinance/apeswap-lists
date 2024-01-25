@@ -568,7 +568,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    tags: ['Liquid Staking'],
+    tags: ['Meme', 'NFT'],
     fullDescription:
       'Cake Monster ($MONSTA) is a revolutionary undertaking in sustainable Hyper-Deflationary Economics. Their team has developed a groundbreaking economic policy to combat the problems that the financial world is currently facing and wrapped it as a cute Meme on BNBChain. Users will find On-Chain Games, Play2Earn NFTs, and other rewarding features: Cake Monster is definitely THE BEAST OF BSC.',
   },
