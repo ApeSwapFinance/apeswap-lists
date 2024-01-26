@@ -10020,6 +10020,93 @@
     "soldOut": true
   },
   {
+    "index": 128,
+    "contractAddress": {
+      "137": "0xE504157665Ac78301C793411542446997c33697b"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "MV",
+      "address": {
+        "137": "0xA3c322Ad15218fBFAEd26bA7f616249f7705D945"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "QuickswapV2"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "42161": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "MV-USDT",
+      "address": {
+        "137": "0x690a87Ed8972e451e755b8F2dC1fc2B28e3c6566"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "QuickswapV2"
+      },
+      "active": true,
+      "lpToken": true,
+      "getLpUrl": {
+        "137": "https://quickswap.exchange/#/pools/v2?currency0=0xA3c322Ad15218fBFAEd26bA7f616249f7705D945&currency1=0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+      }
+    },
+    "earnToken": {
+      "symbol": "MV",
+      "address": {
+        "137": "0xA3c322Ad15218fBFAEd26bA7f616249f7705D945"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "QuickswapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
+    },
+    "inactive": false,
+    "projectLink": "https://genso.game/en/",
+    "twitter": "https://twitter.com/genso_meta",
+    "audit": "https://skynet.certik.com/projects/gensokishi-online-metaworld",
+    "initTime": {
+      "137": 1701892800
+    },
+    "initPrice": {
+      "137": 0.00254
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "Quickswap_Collection1"
+    },
+    "bondPartner": "QuickSwap",
+    "tags": ["Gaming"],
+    "fullDescription": "Genso is the metaverse incarnation of “Elemental Knights Online,” which won the 2012 Game of the year (Gold) in Taiwan. Utilizing blockchain technology, they aim to create a new economy within the virtual world. Web3, RPG & Metaverse are all combined within the realm of Gensokishi."
+  },
+  {
     "index": 127,
     "contractAddress": {
       "137": "0xB108dc4b5518079348aB4222Ab8359c50a3f3eba"
