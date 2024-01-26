@@ -3,7 +3,7 @@ import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
 // BNB Largest ID: 1022
-// Polygon Largest ID: 127
+// Polygon Largest ID: 128
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
 //Migration Bonds ID: 5007
@@ -3048,6 +3048,35 @@ const bills: BillsConfig[] = [
   /*
     Polygon Bills
   */
+  {
+    index: 128,
+    contractAddress: {
+      [ChainId.MATIC]: '0xE504157665Ac78301C793411542446997c33697b',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.mv,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.mvUsdt_QS,
+    earnToken: tokens.mv,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://genso.game/en/',
+    twitter: 'https://twitter.com/genso_meta',
+    audit: 'https://skynet.certik.com/projects/gensokishi-online-metaworld',
+    initTime: { [ChainId.MATIC]: 1701892800 },
+    initPrice: { [ChainId.MATIC]: 0.00254 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+    tags: ['Gaming'],
+    fullDescription:
+      'Genso is the metaverse incarnation of “Elemental Knights Online,” which won the 2012 Game of the year (Gold) in Taiwan. Utilizing blockchain technology, they aim to create a new economy within the virtual world. Web3, RPG & Metaverse are all combined within the realm of Gensokishi.',
+  },
   {
     index: 127,
     contractAddress: {
