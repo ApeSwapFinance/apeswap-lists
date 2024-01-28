@@ -591,7 +591,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/CakebotTeam',
     initTime: { [ChainId.BSC]: 1704891600 },
     initPrice: { [ChainId.BSC]: 0.00173967992950712 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
