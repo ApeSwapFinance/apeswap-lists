@@ -2259,6 +2259,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  fav: {
+    symbol: 'FAV',
+    address: {
+      [ChainId.BSC]: '0x1A076E4633FA139D7B908b88326de603Fbe8c199',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+    },
+    active: true,
+  },
   hgpt: {
     symbol: 'HGPT',
     address: {
