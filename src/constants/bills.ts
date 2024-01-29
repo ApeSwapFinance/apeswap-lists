@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1022
+// BNB Largest ID: 1023
 // Polygon Largest ID: 128
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
@@ -516,6 +516,34 @@ const bills: BillsConfig[] = [
     tags: ['Cex Fund'],
     fullDescription:
       'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
+  },
+  {
+    index: 1023,
+    contractAddress: {
+      [ChainId.BSC]: '0x10CDAc2FD873cAceD95Ca7e532dB2766cb55D812',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.fav,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://home.alphaverse.com/',
+    twitter: 'https://twitter.com/AlphaVersegame',
+    audit: 'https://omniscia.io/reports/fav-token-implementation-64805de3e824970014254148',
+    initTime: { [ChainId.BSC]: 1704891600 },
+    initPrice: { [ChainId.BSC]: 0.00173967992950712 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Metaverse'],
+    fullDescription:
+      'AlphaVerse is always growing with new universes getting connected. Some are native to AlphaVerse, some are developed by their partners and third parties. Explore all of them seamlessly with one account. AlphaVerse: the central Hub where multiple universes get connected.',
   },
   {
     index: 1022,
