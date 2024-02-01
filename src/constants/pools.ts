@@ -1396,6 +1396,26 @@ const pools: PoolConfig[] = [
   // PUT ALL ADMIN POOLS UNDER HERE
   //
   {
+    sousId: 240,
+    tokenName: 'ABOND',
+    image: 'ABOND.svg',
+    stakingToken: tokens.apemin,
+    rewardToken: tokens.abond,
+    contractAddress: {
+      [ChainId.BSC_TESTNET]: '0x9671671678b407f474210482db3E8C295c071208',
+      [ChainId.BSC]: '0x9671671678b407f474210482db3E8C295c071208',
+    },
+    poolCategory: PoolCategory.APEZONE,
+    projectLink: 'https://ape.bond/',
+    harvest: true,
+    tokenPerBlock: `0.01281262813`,
+    sortOrder: 1,
+    reflect: false,
+    isFinished: false,
+    tokenDecimals: 18,
+    forAdmins: true,
+  },
+  {
     sousId: 239,
     tokenName: 'BANANA',
     image: 'BANANA.svg',
