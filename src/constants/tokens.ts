@@ -2270,6 +2270,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  cdx: {
+    symbol: 'CDX',
+    address: {
+      [ChainId.BSC]: '0x1c3ba6cF2676cc795db02a3b2093E5076f5F330E',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+    },
+    active: true,
+  },
   hgpt: {
     symbol: 'HGPT',
     address: {
