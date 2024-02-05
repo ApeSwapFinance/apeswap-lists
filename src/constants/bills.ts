@@ -509,7 +509,7 @@ const bills: BillsConfig[] = [
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1702998000 },
     initPrice: { [ChainId.BSC]: 0.0776096447226248 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.CexFundBond_Collection1,
     },

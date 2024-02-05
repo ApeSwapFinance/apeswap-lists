@@ -1720,7 +1720,7 @@
     "initPrice": {
       "56": 0.0776096447226248
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "CexFundBond_Collection1"
     },
