@@ -10451,7 +10451,7 @@
     "initPrice": {
       "137": 0.0948073647
     },
-    "soldOut": true,
+    "soldOut": false,
     "billArt": {
       "collection": "Quickswap_Collection1"
     },
