@@ -3131,7 +3131,7 @@ const bills: BillsConfig[] = [
     bondPartner: 'QuickSwap',
     tags: ['Gaming'],
     fullDescription:
-      'Genso is the metaverse incarnation of “Elemental Knights Online,” which won the 2012 Game of the year (Gold) in Taiwan. Utilizing blockchain technology, they aim to create a new economy within the virtual world. Web3, RPG & Metaverse are all combined within the realm of Gensokishi.',
+      'Gensokishi is the metaverse incarnation of “Elemental Knights Online,” which won the 2012 Game of the year (Gold) in Taiwan. Utilizing blockchain technology, they aim to create a new economy within the virtual world. Purchase an MV Bond worth $20 or more to unlock an exclusive in-game <a href="https://twitter.com/genso_meta/status/1755246359165157634" target="_blank" rel="noopener noreferrer" style="color: #6560C5">ApeBond Shield</a>',
   },
   {
     index: 127,
