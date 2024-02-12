@@ -3107,7 +3107,7 @@ const bills: BillsConfig[] = [
   {
     index: 130,
     contractAddress: {
-      [ChainId.MATIC]: '0xc8463671E78ff478bB76FE572F203Bc2b4f6eFEe',
+      [ChainId.MATIC]: '0xA7AaA5229346ac1d7524ca6A3bB71816E39982Bb',
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
@@ -3135,7 +3135,7 @@ const bills: BillsConfig[] = [
   {
     index: 129,
     contractAddress: {
-      [ChainId.MATIC]: '0x2e16FFdaC5e079f5D5eBa9E3e0d02E822C3d5A9D',
+      [ChainId.MATIC]: '0x9D1445b4e4694dFB2F34c2536ea1bb238f9B3B3b',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
@@ -3405,7 +3405,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/Planetix0',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.347018667988457 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.PlanetIX_Collection1,
     },

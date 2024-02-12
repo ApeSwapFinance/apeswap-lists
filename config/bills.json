@@ -10198,7 +10198,7 @@
   {
     "index": 130,
     "contractAddress": {
-      "137": "0xc8463671E78ff478bB76FE572F203Bc2b4f6eFEe"
+      "137": "0xA7AaA5229346ac1d7524ca6A3bB71816E39982Bb"
     },
     "billType": "liquidity",
     "billVersion": "V2",
@@ -10284,7 +10284,7 @@
   {
     "index": 129,
     "contractAddress": {
-      "137": "0x2e16FFdaC5e079f5D5eBa9E3e0d02E822C3d5A9D"
+      "137": "0x9D1445b4e4694dFB2F34c2536ea1bb238f9B3B3b"
     },
     "billType": "reserve",
     "billVersion": "V2",
@@ -11139,7 +11139,7 @@
     "initPrice": {
       "137": 0.347018667988457
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "PlanetIX_Collection1"
     },
