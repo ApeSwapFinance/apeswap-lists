@@ -3,7 +3,7 @@ import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
 // BNB Largest ID: 1023
-// Polygon Largest ID: 128
+// Polygon Largest ID: 130
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
 //Migration Bonds ID: 5007
@@ -541,7 +541,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    tags: ['Launchpad'],
+    tags: ['AI'],
     fullDescription:
       'CodeX is the fastest way to build DApps without code. It is an all-in-one no-code AI-powered ecosystem for WEB3 mass adoption. Users can now craft DApp platforms effortlessly, thanks to CodeX’s user-friendly solutions, such as CodeXGPT or Screen2code. CodeX: Made For People, Built For Speed And Mass Adoption.',
   },
@@ -3105,6 +3105,62 @@ const bills: BillsConfig[] = [
     Polygon Bills
   */
   {
+    index: 130,
+    contractAddress: {
+      [ChainId.MATIC]: '0xA7AaA5229346ac1d7524ca6A3bB71816E39982Bb',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.ixt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.ixtUsdt_QS,
+    earnToken: tokens.ixt,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://planetix.com/',
+    twitter: 'https://twitter.com/Planetix0',
+    initTime: { [ChainId.MATIC]: 1701892800 },
+    initPrice: { [ChainId.MATIC]: 0.347018667988457 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.PlanetIX_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+    fullDescription:
+      'Planet IX is a Web3 play-to-earn platform fueled by their native IX Token. Every asset on Planet IX is an NFT, allowing users to farm, own, and trade them. The main goal is to restore the planet to its former green-blue glory. Join Planet IX and become an Agent of Change now.',
+    tags: ['Gaming', 'NFT'],
+  },
+  {
+    index: 129,
+    contractAddress: {
+      [ChainId.MATIC]: '0x9D1445b4e4694dFB2F34c2536ea1bb238f9B3B3b',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.ixt,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://planetix.com/',
+    twitter: 'https://twitter.com/Planetix0',
+    initTime: { [ChainId.MATIC]: 1701892800 },
+    initPrice: { [ChainId.MATIC]: 0.347018667988457 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.PlanetIX_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+    fullDescription:
+      'Planet IX is a Web3 play-to-earn platform fueled by their native IX Token. Every asset on Planet IX is an NFT, allowing users to farm, own, and trade them. The main goal is to restore the planet to its former green-blue glory. Join Planet IX and become an Agent of Change now.',
+    tags: ['Gaming', 'NFT'],
+  },
+  {
     index: 128,
     contractAddress: {
       [ChainId.MATIC]: '0xE504157665Ac78301C793411542446997c33697b',
@@ -3237,7 +3293,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/Planetix0',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.347018667988457 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.PlanetIX_Collection1,
     },
@@ -3349,7 +3405,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/Planetix0',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.347018667988457 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.PlanetIX_Collection1,
     },
