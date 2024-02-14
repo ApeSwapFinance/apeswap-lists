@@ -21,6 +21,16 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  tabond: {
+    symbol: 'TABOND',
+    address: {
+      [ChainId.INEVM_TESTNET]: '0x765FAE7497559175A73aa223894047c213CA5c82',
+    },
+    decimals: {
+      [ChainId.INEVM_TESTNET]: 18,
+    },
+    active: true,
+  },
   MockERC20: {
     symbol: 'MockERC20',
     address: {
