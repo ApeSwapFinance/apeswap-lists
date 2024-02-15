@@ -4318,7 +4318,7 @@ const bills: BillsConfig[] = [
   {
     index: 12345678, // tabond
     contractAddress: {
-      [ChainId.INEVM_TESTNET]: '0x6257EcAB487f296E7B42aE863dEE79dED0A87123',
+      [ChainId.INEVM_TESTNET]: '0xceb4C2456326593e73Ac4aa0F95a8B0f4b260DaC',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
