@@ -3374,8 +3374,8 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 'https://pancakeswap.finance/v2/add/BNB/0x8A5d7FCD4c90421d21d30fCC4435948aC3618B2f',
     },
   },
-  dcbBnb_PCS: {
-    symbol: 'DCB-BNB',
+  dcbUsdt_PCS: {
+    symbol: 'DCB-USDT',
     address: {
       [ChainId.BSC]: '0x83D5475BC3bFA08aC3D82ba54b4F86AFc5444398',
     },
@@ -3386,7 +3386,8 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
     },
     getLpUrl: {
-      [ChainId.BSC]: 'https://pancakeswap.finance/v2/add/BNB/0xEAc9873291dDAcA754EA5642114151f3035c67A2',
+      [ChainId.BSC]:
+        'https://pancakeswap.finance/v2/add/0x55d398326f99059fF775485246999027B3197955/0xEAc9873291dDAcA754EA5642114151f3035c67A2',
     },
   },
   brgBnb_PCS: {
