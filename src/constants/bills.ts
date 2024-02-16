@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1023
+// BNB Largest ID: 1025
 // Polygon Largest ID: 130
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
@@ -516,6 +516,35 @@ const bills: BillsConfig[] = [
     tags: ['Cex Fund'],
     fullDescription:
       'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
+  },
+  {
+    index: 1025,
+    contractAddress: {
+      [ChainId.BSC]: '0x8772Ba15F8169BaE002E3cA0D48629aB408D838F',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.dcb,
+    lpToken: tokens.dcbUsdt_PCS,
+    earnToken: tokens.dcb,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://www.decubate.com/',
+    twitter: 'https://twitter.com/decubate',
+    audit:
+      'https://github.com/Decubate-com/documents/blob/main/%5BHAECHI%20AUDIT%5D%20Decubate%20Smart%20Contract%20Audit%20Report%20v2.0.pdf',
+    initTime: { [ChainId.BSC]: 1700485200 },
+    initPrice: { [ChainId.BSC]: 0.002404165611 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    fullDescription:
+      'At Decubate the team is pioneering a Sustainable Future for Web3 Entrepreneurs and Investors. Users can expect advanced products and services, such as their innovative  plug-and-play Token Management System (TMS) and other essential Web3 white label tools and services. Furthermore, the project provides a Launchpad, Web3 Custom Development and more! Decubate: Unleashing the Power of Web3.',
+    tags: ['Defi Tooling'],
   },
   {
     index: 1024,
