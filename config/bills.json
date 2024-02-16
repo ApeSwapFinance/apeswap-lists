@@ -1728,6 +1728,92 @@
     "fullDescription": "ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity."
   },
   {
+    "index": 1025,
+    "contractAddress": {
+      "56": "0x8772Ba15F8169BaE002E3cA0D48629aB408D838F"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "42161": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "DCB",
+      "address": {
+        "56": "0xEAc9873291dDAcA754EA5642114151f3035c67A2"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "DCB-USDT",
+      "address": {
+        "56": "0x83D5475BC3bFA08aC3D82ba54b4F86AFc5444398"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "getLpUrl": {
+        "56": "https://pancakeswap.finance/v2/add/0x55d398326f99059fF775485246999027B3197955/0xEAc9873291dDAcA754EA5642114151f3035c67A2"
+      }
+    },
+    "earnToken": {
+      "symbol": "DCB",
+      "address": {
+        "56": "0xEAc9873291dDAcA754EA5642114151f3035c67A2"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://www.decubate.com/",
+    "twitter": "https://twitter.com/decubate",
+    "audit": "https://github.com/Decubate-com/documents/blob/main/%5BHAECHI%20AUDIT%5D%20Decubate%20Smart%20Contract%20Audit%20Report%20v2.0.pdf",
+    "initTime": {
+      "56": 1700485200
+    },
+    "initPrice": {
+      "56": 0.002404165611
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "fullDescription": "At Decubate the team is pioneering a Sustainable Future for Web3 Entrepreneurs and Investors. Users can expect advanced products and services, such as their innovative  plug-and-play Token Management System (TMS) and other essential Web3 white label tools and services. Furthermore, the project provides a Launchpad, Web3 Custom Development and more! Decubate: Unleashing the Power of Web3.",
+    "tags": ["Defi Tooling"]
+  },
+  {
     "index": 1024,
     "contractAddress": {
       "56": "0x81a0956047a69fe2EA3722cbA4C2901103F19D03"
