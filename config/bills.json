@@ -14156,7 +14156,7 @@
       "2424": "0xceb4C2456326593e73Ac4aa0F95a8B0f4b260DaC"
     },
     "billType": "reserve",
-    "billVersion": "V2",
+    "billVersion": "V3",
     "token": {
       "symbol": "TABOND",
       "address": {
@@ -14229,7 +14229,7 @@
       "11155111": "0x0EA92F3a9652a5f8a3C6123578276915b76411E9"
     },
     "billType": "reserve",
-    "billVersion": "V2",
+    "billVersion": "V3",
     "token": {
       "symbol": "TABOND",
       "address": {

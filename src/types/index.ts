@@ -85,6 +85,7 @@ export enum BillVersion {
   V1 = 'V1',
   V2 = 'V2',
   FixedPrice = 'FixedPrice',
+  V3 = 'V3',
 }
 
 /**
