@@ -4340,6 +4340,31 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
   },
+  {
+    index: 123456789, // tabond
+    contractAddress: {
+      [ChainId.SEPOLIA]: '0x49cC6aE319388906094D6a46eB90A521a8A1d28b',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.tabond,
+    quoteToken: tokens.tabond,
+    lpToken: tokens.tabond,
+    earnToken: tokens.tabond,
+    billNnftAddress: {
+      [ChainId.SEPOLIA]: '0x4DFc86Ad7FAb73D1A747Fb60856C31Eba66CA994',
+    },
+    inactive: false,
+    projectLink: 'https://ape.bond/',
+    twitter: 'https://twitter.com/apebond',
+    audit: 'https://paladinsec.co/projects/apeswap/',
+    initTime: { [ChainId.SEPOLIA]: 1702472400 },
+    initPrice: { [ChainId.SEPOLIA]: 1 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+  },
 ]
 
 export default bills
