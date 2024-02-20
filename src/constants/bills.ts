@@ -4343,7 +4343,7 @@ const bills: BillsConfig[] = [
   {
     index: 123456789, // tabond
     contractAddress: {
-      [ChainId.SEPOLIA]: '0x49cC6aE319388906094D6a46eB90A521a8A1d28b',
+      [ChainId.SEPOLIA]: '0x0EA92F3a9652a5f8a3C6123578276915b76411E9',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
@@ -4352,7 +4352,7 @@ const bills: BillsConfig[] = [
     lpToken: tokens.tabond,
     earnToken: tokens.tabond,
     billNnftAddress: {
-      [ChainId.SEPOLIA]: '0x4DFc86Ad7FAb73D1A747Fb60856C31Eba66CA994',
+      [ChainId.SEPOLIA]: '0x499b654b0A7f9979CC315190C09cA2633809B8dF',
     },
     inactive: false,
     projectLink: 'https://ape.bond/',
