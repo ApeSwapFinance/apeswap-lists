@@ -10282,6 +10282,170 @@
     "soldOut": true
   },
   {
+    "index": 132,
+    "contractAddress": {
+      "137": "0xcbf5A78AA5cAb66779355FE850884D7029Fbd4df"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "42161": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "42161": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "42161": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "VEXT",
+      "address": {
+        "137": "0x27842334C55c01DDFE81Bf687425F906816c5141"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "Algebra"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
+    },
+    "inactive": false,
+    "projectLink": "https://www.veloce.gg/",
+    "twitter": "https://twitter.com/vextoken",
+    "initTime": {
+      "137": 1701892800
+    },
+    "initPrice": {
+      "137": 0.00254
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "Quickswap_Collection1"
+    },
+    "bondPartner": "QuickSwap",
+    "fullDescription": "Veloce is an organization operating in gaming and racing. Their gaming outfit runs multiple pro-esports teams while establishing the largest racing media network—their racing teams compete in the Extreme E series as well as the W Series. At Veloce, they are innovators in gaming, racing, and technology.",
+    "tags": ["GameFi"]
+  },
+  {
+    "index": 131,
+    "contractAddress": {
+      "137": "0xff4c72eE74916Ce8FA81FFf0DFFa8a32288E31E9"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "MATIC",
+      "address": {
+        "56": "0xcc42724c6683b7e57334c4e856f4c9965ed682bd",
+        "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
+      },
+      "decimals": {
+        "56": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "MATIC",
+      "address": {
+        "56": "0xcc42724c6683b7e57334c4e856f4c9965ed682bd",
+        "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
+      },
+      "decimals": {
+        "56": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "MATIC",
+      "address": {
+        "56": "0xcc42724c6683b7e57334c4e856f4c9965ed682bd",
+        "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
+      },
+      "decimals": {
+        "56": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "A51",
+      "address": {
+        "137": "0xe9E7c09e82328c3107d367f6c617cF9977e63ED0"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "Algebra"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
+    },
+    "inactive": false,
+    "projectLink": "https://uniswap.a51.finance/stats",
+    "twitter": "https://twitter.com/A51_Fi",
+    "audit": "https://hacken.io/audits/unipilot/",
+    "initTime": {
+      "137": 1705067401
+    },
+    "initPrice": {
+      "137": 0.90803612
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "fullDescription": "A51 Finance is an Autonomous Liquidity Provisioning (ALP) protocol offering customizable tools for creating tailored liquidity strategies empowering LPs with dynamic adjustments based on their preferences. A51 puts control in the hands of liquidity providers, allowing them to dictate asset management and post-liquidity actions.",
+    "tags": ["V3 Liquidity Managers"]
+  },
+  {
     "index": 130,
     "contractAddress": {
       "137": "0xA7AaA5229346ac1d7524ca6A3bB71816E39982Bb"
@@ -10964,7 +11128,7 @@
     "initPrice": {
       "137": 0.90803612
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -11502,7 +11666,7 @@
     "initPrice": {
       "137": 0.00254
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "Quickswap_Collection1"
     },

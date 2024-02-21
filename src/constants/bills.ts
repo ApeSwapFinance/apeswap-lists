@@ -3,7 +3,7 @@ import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
 // BNB Largest ID: 1025
-// Polygon Largest ID: 130
+// Polygon Largest ID: 132
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
 //Migration Bonds ID: 5007
@@ -3134,6 +3134,62 @@ const bills: BillsConfig[] = [
     Polygon Bills
   */
   {
+    index: 132,
+    contractAddress: {
+      [ChainId.MATIC]: '0xcbf5A78AA5cAb66779355FE850884D7029Fbd4df',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.vext,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://www.veloce.gg/',
+    twitter: 'https://twitter.com/vextoken',
+    initTime: { [ChainId.MATIC]: 1701892800 },
+    initPrice: { [ChainId.MATIC]: 0.00254 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+    fullDescription:
+      'Veloce is an organization operating in gaming and racing. Their gaming outfit runs multiple pro-esports teams while establishing the largest racing media network—their racing teams compete in the Extreme E series as well as the W Series. At Veloce, they are innovators in gaming, racing, and technology.',
+    tags: ['GameFi'],
+  },
+  {
+    index: 131,
+    contractAddress: {
+      [ChainId.MATIC]: '0xff4c72eE74916Ce8FA81FFf0DFFa8a32288E31E9',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.wmatic,
+    quoteToken: tokens.wmatic,
+    lpToken: tokens.wmatic,
+    earnToken: tokens.a51,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://uniswap.a51.finance/stats',
+    twitter: 'https://twitter.com/A51_Fi',
+    audit: 'https://hacken.io/audits/unipilot/',
+    initTime: { [ChainId.MATIC]: 1705067401 },
+    initPrice: { [ChainId.MATIC]: 0.90803612 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    fullDescription:
+      'A51 Finance is an Autonomous Liquidity Provisioning (ALP) protocol offering customizable tools for creating tailored liquidity strategies empowering LPs with dynamic adjustments based on their preferences. A51 puts control in the hands of liquidity providers, allowing them to dictate asset management and post-liquidity actions.',
+    tags: ['V3 Liquidity Managers'],
+  },
+  {
     index: 130,
     contractAddress: {
       [ChainId.MATIC]: '0xA7AaA5229346ac1d7524ca6A3bB71816E39982Bb',
@@ -3351,7 +3407,7 @@ const bills: BillsConfig[] = [
     audit: 'https://hacken.io/audits/unipilot/',
     initTime: { [ChainId.MATIC]: 1705067401 },
     initPrice: { [ChainId.MATIC]: 0.90803612 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -3519,7 +3575,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/vextoken',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.00254 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
