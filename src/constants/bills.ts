@@ -3183,8 +3183,9 @@ const bills: BillsConfig[] = [
     initPrice: { [ChainId.MATIC]: 0.90803612 },
     soldOut: false,
     billArt: {
-      collection: BillArtCollection.ApeBond_Collection1,
+      collection: BillArtCollection.Quickswap_Collection1,
     },
+    bondPartner: 'QuickSwap',
     fullDescription:
       'A51 Finance is an Autonomous Liquidity Provisioning (ALP) protocol offering customizable tools for creating tailored liquidity strategies empowering LPs with dynamic adjustments based on their preferences. A51 puts control in the hands of liquidity providers, allowing them to dictate asset management and post-liquidity actions.',
     tags: ['V3 Liquidity Managers'],
