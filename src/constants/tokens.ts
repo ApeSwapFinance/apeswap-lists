@@ -2112,6 +2112,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  xox: {
+    symbol: 'XOX',
+    address: {
+      [ChainId.BSC]: '0x0f5C78f152152dDA52a2ea45B0a8C10733010748',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
   zbc: {
     symbol: 'ZBC',
     address: {
