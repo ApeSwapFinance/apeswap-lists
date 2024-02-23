@@ -569,7 +569,8 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    fullDescription: 'Good project ser!',
+    fullDescription:
+      'XOX is The Next Gen Multichain DeFi Dapps & Web3 Solutions Provider. Their Hybrid Multichain Stable Coin, All-IN-One Dapp and Gamified Referral Program allow users to swap, stake, store, bridge, refer, invest and earn like never before. XOX Labs: a highly qualified and professional team built to deliver top class DeFi products.',
     tags: ['Defi Tooling'],
   },
   {
