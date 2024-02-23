@@ -14208,7 +14208,7 @@
     "billNnftAddress": {
       "2424": "0x9C5ae09373Df86fB34660DdC31cd51444c36DD3F"
     },
-    "inactive": false,
+    "inactive": true,
     "projectLink": "https://ape.bond/",
     "twitter": "https://twitter.com/apebond",
     "audit": "https://paladinsec.co/projects/apeswap/",
@@ -14281,7 +14281,7 @@
     "billNnftAddress": {
       "2424": "0x4DFc86Ad7FAb73D1A747Fb60856C31Eba66CA994"
     },
-    "inactive": false,
+    "inactive": true,
     "projectLink": "https://ape.bond/",
     "twitter": "https://twitter.com/apebond",
     "audit": "https://paladinsec.co/projects/apeswap/",
@@ -14417,6 +14417,79 @@
       "address": {
         "2424": "0x765FAE7497559175A73aa223894047c213CA5c82",
         "11155111": "0x7039F6DDB900762c33842e406fB908EB8a03fB84"
+      },
+      "decimals": {
+        "2424": 18,
+        "11155111": 18
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "11155111": "0x499b654b0A7f9979CC315190C09cA2633809B8dF"
+    },
+    "inactive": true,
+    "projectLink": "https://ape.bond/",
+    "twitter": "https://twitter.com/apebond",
+    "audit": "https://paladinsec.co/projects/apeswap/",
+    "initTime": {
+      "11155111": 1702472400
+    },
+    "initPrice": {
+      "11155111": 1
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    }
+  },
+  {
+    "index": 1234567892,
+    "contractAddress": {
+      "11155111": "0x78EE6D3CC192b8a81b438Fb7818e3F7168A46597"
+    },
+    "billType": "reserve",
+    "billVersion": "V3",
+    "token": {
+      "symbol": "TABOND",
+      "address": {
+        "2424": "0x765FAE7497559175A73aa223894047c213CA5c82",
+        "11155111": "0x7039F6DDB900762c33842e406fB908EB8a03fB84"
+      },
+      "decimals": {
+        "2424": 18,
+        "11155111": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "TABOND",
+      "address": {
+        "2424": "0x765FAE7497559175A73aa223894047c213CA5c82",
+        "11155111": "0x7039F6DDB900762c33842e406fB908EB8a03fB84"
+      },
+      "decimals": {
+        "2424": 18,
+        "11155111": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "TABOND",
+      "address": {
+        "2424": "0x765FAE7497559175A73aa223894047c213CA5c82",
+        "11155111": "0x7039F6DDB900762c33842e406fB908EB8a03fB84"
+      },
+      "decimals": {
+        "2424": 18,
+        "11155111": 18
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "TABONDB",
+      "address": {
+        "2424": "0x7fbCE473cCC13774AA0768A3D73335Ca42c0c122",
+        "11155111": "0xF67Bac10150ee016EE2f7Ff6Fd9aF017714d2859"
       },
       "decimals": {
         "2424": 18,

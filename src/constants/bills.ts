@@ -4329,7 +4329,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.INEVM_TESTNET]: '0x9C5ae09373Df86fB34660DdC31cd51444c36DD3F',
     },
-    inactive: false,
+    inactive: true,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apeswap/',
@@ -4354,7 +4354,7 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.INEVM_TESTNET]: '0x4DFc86Ad7FAb73D1A747Fb60856C31Eba66CA994',
     },
-    inactive: false,
+    inactive: true,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apeswap/',
@@ -4401,6 +4401,31 @@ const bills: BillsConfig[] = [
     quoteToken: tokens.tabond,
     lpToken: tokens.tabond,
     earnToken: tokens.tabond,
+    billNnftAddress: {
+      [ChainId.SEPOLIA]: '0x499b654b0A7f9979CC315190C09cA2633809B8dF',
+    },
+    inactive: true,
+    projectLink: 'https://ape.bond/',
+    twitter: 'https://twitter.com/apebond',
+    audit: 'https://paladinsec.co/projects/apeswap/',
+    initTime: { [ChainId.SEPOLIA]: 1702472400 },
+    initPrice: { [ChainId.SEPOLIA]: 1 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+  },
+  {
+    index: 1234567892, // tabond
+    contractAddress: {
+      [ChainId.SEPOLIA]: '0x78EE6D3CC192b8a81b438Fb7818e3F7168A46597',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    token: tokens.tabond,
+    quoteToken: tokens.tabond,
+    lpToken: tokens.tabond,
+    earnToken: tokens.tabondb,
     billNnftAddress: {
       [ChainId.SEPOLIA]: '0x499b654b0A7f9979CC315190C09cA2633809B8dF',
     },
