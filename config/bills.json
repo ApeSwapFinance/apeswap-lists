@@ -14297,6 +14297,79 @@
     }
   },
   {
+    "index": 123456783,
+    "contractAddress": {
+      "2424": "0x1D54A0dF89d8aCf7A3dC9c9D94BE2bEC9a672a01"
+    },
+    "billType": "reserve",
+    "billVersion": "V3",
+    "token": {
+      "symbol": "TABOND",
+      "address": {
+        "2424": "0x765FAE7497559175A73aa223894047c213CA5c82",
+        "11155111": "0x7039F6DDB900762c33842e406fB908EB8a03fB84"
+      },
+      "decimals": {
+        "2424": 18,
+        "11155111": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "TABOND",
+      "address": {
+        "2424": "0x765FAE7497559175A73aa223894047c213CA5c82",
+        "11155111": "0x7039F6DDB900762c33842e406fB908EB8a03fB84"
+      },
+      "decimals": {
+        "2424": 18,
+        "11155111": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "TABOND",
+      "address": {
+        "2424": "0x765FAE7497559175A73aa223894047c213CA5c82",
+        "11155111": "0x7039F6DDB900762c33842e406fB908EB8a03fB84"
+      },
+      "decimals": {
+        "2424": 18,
+        "11155111": 18
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "TABONDB",
+      "address": {
+        "2424": "0x7fbCE473cCC13774AA0768A3D73335Ca42c0c122",
+        "11155111": "0xF67Bac10150ee016EE2f7Ff6Fd9aF017714d2859"
+      },
+      "decimals": {
+        "2424": 18,
+        "11155111": 18
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "2424": "0x4DFc86Ad7FAb73D1A747Fb60856C31Eba66CA994"
+    },
+    "inactive": false,
+    "projectLink": "https://ape.bond/",
+    "twitter": "https://twitter.com/apebond",
+    "audit": "https://paladinsec.co/projects/apeswap/",
+    "initTime": {
+      "2424": 1702472400
+    },
+    "initPrice": {
+      "2424": 1
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    }
+  },
+  {
     "index": 123456789,
     "contractAddress": {
       "11155111": "0x0EA92F3a9652a5f8a3C6123578276915b76411E9"
