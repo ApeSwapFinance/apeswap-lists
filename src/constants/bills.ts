@@ -4352,7 +4352,7 @@ const bills: BillsConfig[] = [
     lpToken: tokens.tabond,
     earnToken: tokens.tabond,
     billNnftAddress: {
-      [ChainId.INEVM_TESTNET]: '0x9C5ae09373Df86fB34660DdC31cd51444c36DD3F',
+      [ChainId.INEVM_TESTNET]: '0x4DFc86Ad7FAb73D1A747Fb60856C31Eba66CA994',
     },
     inactive: false,
     projectLink: 'https://ape.bond/',
