@@ -33,6 +33,18 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  tabondb: {
+    symbol: 'TABONDB',
+    address: {
+      [ChainId.INEVM_TESTNET]: '0x7fbCE473cCC13774AA0768A3D73335Ca42c0c122',
+      [ChainId.SEPOLIA]: '0xF67Bac10150ee016EE2f7Ff6Fd9aF017714d2859',
+    },
+    decimals: {
+      [ChainId.INEVM_TESTNET]: 18,
+      [ChainId.SEPOLIA]: 18,
+    },
+    active: true,
+  },
   MockERC20: {
     symbol: 'MockERC20',
     address: {
