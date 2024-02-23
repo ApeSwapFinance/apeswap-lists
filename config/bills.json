@@ -1822,6 +1822,88 @@
     "tags": ["Reserve"]
   },
   {
+    "index": 1027,
+    "contractAddress": {
+      "56": "0x8a5597815E71944837b1BaF346e92d05954cC8B7"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "XOX",
+      "address": {
+        "56": "0x0f5C78f152152dDA52a2ea45B0a8C10733010748"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://xoxlabs.io/",
+    "twitter": "https://twitter.com/Xox_Labs",
+    "audit": "https://skynet.certik.com/projects/xox-labs/",
+    "initTime": {
+      "56": 1700485200
+    },
+    "initPrice": {
+      "56": 0.002404165611
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "fullDescription": "XOX is The Next Gen Multichain DeFi Dapps & Web3 Solutions Provider. Their Hybrid Multichain Stable Coin, All-IN-One Dapp and Gamified Referral Program allow users to swap, stake, store, bridge, refer, invest and earn like never before. XOX Labs: a highly qualified and professional team built to deliver top class DeFi products.",
+    "tags": ["Defi Tooling"]
+  },
+  {
     "index": 1025,
     "contractAddress": {
       "56": "0x8772Ba15F8169BaE002E3cA0D48629aB408D838F"

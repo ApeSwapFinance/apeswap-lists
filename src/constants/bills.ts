@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1026
+// BNB Largest ID: 1027
 // Polygon Largest ID: 133
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
@@ -544,6 +544,34 @@ const bills: BillsConfig[] = [
     fullDescription:
       'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
     tags: ['Reserve'],
+  },
+  {
+    index: 1027,
+    contractAddress: {
+      [ChainId.BSC]: '0x8a5597815E71944837b1BaF346e92d05954cC8B7',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.wbnb,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.wbnb,
+    earnToken: tokens.xox,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://xoxlabs.io/',
+    twitter: 'https://twitter.com/Xox_Labs',
+    audit: 'https://skynet.certik.com/projects/xox-labs/',
+    initTime: { [ChainId.BSC]: 1700485200 },
+    initPrice: { [ChainId.BSC]: 0.002404165611 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    fullDescription:
+      'XOX is The Next Gen Multichain DeFi Dapps & Web3 Solutions Provider. Their Hybrid Multichain Stable Coin, All-IN-One Dapp and Gamified Referral Program allow users to swap, stake, store, bridge, refer, invest and earn like never before. XOX Labs: a highly qualified and professional team built to deliver top class DeFi products.',
+    tags: ['Defi Tooling'],
   },
   {
     index: 1025,
