@@ -4335,7 +4335,7 @@ const bills: BillsConfig[] = [
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.INEVM_TESTNET]: 1702472400 },
     initPrice: { [ChainId.INEVM_TESTNET]: 1 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -4343,7 +4343,7 @@ const bills: BillsConfig[] = [
   {
     index: 123456782, // tabond
     contractAddress: {
-      [ChainId.INEVM_TESTNET]: '0xA695B31319ea84E8fCC552F4648515970cD34B16',
+      [ChainId.INEVM_TESTNET]: '0xe581b2A2dBa9935df2e56D5f14F3C09e3fc300b1',
     },
     billType: 'reserve',
     billVersion: BillVersion.V3,

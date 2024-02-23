@@ -14218,7 +14218,7 @@
     "initPrice": {
       "2424": 1
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     }
@@ -14226,7 +14226,7 @@
   {
     "index": 123456782,
     "contractAddress": {
-      "2424": "0xA695B31319ea84E8fCC552F4648515970cD34B16"
+      "2424": "0xe581b2A2dBa9935df2e56D5f14F3C09e3fc300b1"
     },
     "billType": "reserve",
     "billVersion": "V3",
