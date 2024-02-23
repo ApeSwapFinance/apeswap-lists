@@ -4341,6 +4341,31 @@ const bills: BillsConfig[] = [
     },
   },
   {
+    index: 123456782, // tabond
+    contractAddress: {
+      [ChainId.INEVM_TESTNET]: '0xA695B31319ea84E8fCC552F4648515970cD34B16',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    token: tokens.tabond,
+    quoteToken: tokens.tabond,
+    lpToken: tokens.tabond,
+    earnToken: tokens.tabond,
+    billNnftAddress: {
+      [ChainId.INEVM_TESTNET]: '0x9C5ae09373Df86fB34660DdC31cd51444c36DD3F',
+    },
+    inactive: false,
+    projectLink: 'https://ape.bond/',
+    twitter: 'https://twitter.com/apebond',
+    audit: 'https://paladinsec.co/projects/apeswap/',
+    initTime: { [ChainId.INEVM_TESTNET]: 1702472400 },
+    initPrice: { [ChainId.INEVM_TESTNET]: 1 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+  },
+  {
     index: 123456789, // tabond
     contractAddress: {
       [ChainId.SEPOLIA]: '0x0EA92F3a9652a5f8a3C6123578276915b76411E9',
