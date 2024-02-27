@@ -483,7 +483,7 @@ const bills: BillsConfig[] = [
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1701205200 },
     initPrice: { [ChainId.BSC]: 0.00543082778284093 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.CexFundBond_Collection1,
     },
@@ -544,6 +544,34 @@ const bills: BillsConfig[] = [
     fullDescription:
       'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
     tags: ['Reserve'],
+  },
+  {
+    index: 1028,
+    contractAddress: {
+      [ChainId.BSC]: '0x4A308636E91d33Ae00dD1cc390553778847668D3',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.cdx,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://codexchain.xyz/home',
+    twitter: 'https://twitter.com/codexchain',
+    audit: 'https://github.com/CodeXChainOfficial/SC/tree/ERC20Base',
+    initTime: { [ChainId.BSC]: 1708946738 },
+    initPrice: { [ChainId.BSC]: 0.07580203004538802 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['AI'],
+    fullDescription:
+      'CodeX is the fastest way to build DApps without code. It is an all-in-one no-code AI-powered ecosystem for WEB3 mass adoption. Users can now craft DApp platforms effortlessly, thanks to CodeX’s user-friendly solutions, such as CodeXGPT or Screen2code. CodeX: Made For People, Built For Speed And Mass Adoption.',
   },
   {
     index: 1027,
@@ -622,7 +650,7 @@ const bills: BillsConfig[] = [
     audit: 'https://github.com/CodeXChainOfficial/SC/tree/ERC20Base',
     initTime: { [ChainId.BSC]: 1704891600 },
     initPrice: { [ChainId.BSC]: 0.00173967992950712 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -650,7 +678,7 @@ const bills: BillsConfig[] = [
     audit: 'https://omniscia.io/reports/fav-token-implementation-64805de3e824970014254148',
     initTime: { [ChainId.BSC]: 1704891600 },
     initPrice: { [ChainId.BSC]: 0.00173967992950712 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -677,7 +705,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/Chappyzcom',
     initTime: { [ChainId.BSC]: 1700485200 },
     initPrice: { [ChainId.BSC]: 0.002404165611 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -705,7 +733,7 @@ const bills: BillsConfig[] = [
     audit: 'https://solidity.finance/audits/CakeMonster/',
     initTime: { [ChainId.BSC]: 1704996000 },
     initPrice: { [ChainId.BSC]: 0.000000031773560782 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -760,7 +788,7 @@ const bills: BillsConfig[] = [
     audit: 'https://sourcehat.com/audits/Grapecoin/',
     initTime: { [ChainId.BSC]: 1704891600 },
     initPrice: { [ChainId.BSC]: 0.00173967992950712 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -788,7 +816,7 @@ const bills: BillsConfig[] = [
     audit: 'https://skynet.certik.com/projects/tifi-token',
     initTime: { [ChainId.BSC]: 1704996000 },
     initPrice: { [ChainId.BSC]: 0.000000031773560782 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -871,7 +899,7 @@ const bills: BillsConfig[] = [
     audit: 'https://solidity.finance/audits/BlockApeScissors/',
     initTime: { [ChainId.BSC]: 1704477600 },
     initPrice: { [ChainId.BSC]: 0.103519967970037 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -927,7 +955,7 @@ const bills: BillsConfig[] = [
     audit: 'https://www.certik.com/projects/chaingpt/',
     initTime: { [ChainId.BSC]: 1704304800 },
     initPrice: { [ChainId.BSC]: 0.189643589802866 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -983,7 +1011,7 @@ const bills: BillsConfig[] = [
     audit: 'https://skynet.certik.com/projects/hypergpt?utm_source=CMC&utm_campaign=AuditByCertiKLink',
     initTime: { [ChainId.BSC]: 1701205200 },
     initPrice: { [ChainId.BSC]: 0.00543082778284093 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -3378,7 +3406,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/Bullieverse',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.0948073647 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
@@ -3406,7 +3434,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/3aaaDAO',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.347018667988457 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
@@ -3603,7 +3631,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/FireBotDAO',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.00254 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
@@ -3632,7 +3660,7 @@ const bills: BillsConfig[] = [
     audit: 'https://github.com/orbs-network/orbs-token/blob/master/SmartDec%20OrbsToken%20Security%20Audit.pdf',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.00254 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
@@ -3688,7 +3716,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/Yellow',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.00254 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
@@ -3716,7 +3744,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/BitCone_CONE',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.00254 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
@@ -3801,7 +3829,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/GetBlockWallet',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.00254 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
