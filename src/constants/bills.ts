@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1027
+// BNB Largest ID: 1030
 // Polygon Largest ID: 133
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
@@ -544,6 +544,62 @@ const bills: BillsConfig[] = [
     fullDescription:
       'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
     tags: ['Reserve'],
+  },
+  {
+    index: 1030,
+    contractAddress: {
+      [ChainId.BSC]: '0x0CdA99bE222cF4893817200A16D13009c0982006',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.grape,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://www.joingrapes.com/',
+    twitter: 'https://twitter.com/JoinGrapes',
+    audit: 'https://sourcehat.com/audits/Grapecoin/',
+    initTime: { [ChainId.BSC]: 1704891600 },
+    initPrice: { [ChainId.BSC]: 0.00173967992950712 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['NFTs'],
+    fullDescription:
+      'Grape NFT is the home of Grapes & $GRAPE Coin, and is backed by industry giants Animoca Brands. It’s a fun and globally appealing collection of 3,333 crafted NFTs. GRAPES has been designed to be a cross-media NFT project with gaming, animated series, merchandise and licensing. As a holder of GRAPES users will be rewarded in the commercial success of the project’s ventures both inside and outside of Web3.',
+  },
+  {
+    index: 1029,
+    contractAddress: {
+      [ChainId.BSC]: '0x74077F80E723b3f5C62Eb50C125Da33D6D903A76',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.monsta,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.monstaBnb_PCS,
+    earnToken: tokens.monsta,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://cake.monster/',
+    twitter: 'https://twitter.com/Monsta_BSC',
+    audit: 'https://solidity.finance/audits/CakeMonster/',
+    initTime: { [ChainId.BSC]: 1704996000 },
+    initPrice: { [ChainId.BSC]: 0.000000031773560782 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Meme', 'NFT'],
+    fullDescription:
+      'Cake Monster ($MONSTA) is a revolutionary undertaking in sustainable Hyper-Deflationary Economics. Their team has developed a groundbreaking economic policy to combat the problems that the financial world is currently facing and wrapped it as a cute Meme on BNBChain. Users will find On-Chain Games, Play2Earn NFTs, and other rewarding features: Cake Monster is definitely THE BEAST OF BSC.',
   },
   {
     index: 1028,
