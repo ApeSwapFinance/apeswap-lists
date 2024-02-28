@@ -53,6 +53,9 @@ const tokens: Record<string, Token> = {
     decimals: {
       [ChainId.INEVM]: 18,
     },
+    liquidityDex: {
+      [ChainId.INEVM]: LiquidityDex.External,
+    },
     active: true,
   },
   mockINJ: {
@@ -62,6 +65,9 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.INEVM]: 18,
+    },
+    liquidityDex: {
+      [ChainId.INEVM]: LiquidityDex.External,
     },
     active: true,
   },
