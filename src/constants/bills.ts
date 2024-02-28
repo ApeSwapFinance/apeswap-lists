@@ -2,8 +2,8 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1023
-// Polygon Largest ID: 130
+// BNB Largest ID: 1030
+// Polygon Largest ID: 133
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
 //Migration Bonds ID: 5007
@@ -483,7 +483,7 @@ const bills: BillsConfig[] = [
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1701205200 },
     initPrice: { [ChainId.BSC]: 0.00543082778284093 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.CexFundBond_Collection1,
     },
@@ -518,6 +518,175 @@ const bills: BillsConfig[] = [
       'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
   },
   {
+    index: 1026,
+    contractAddress: {
+      [ChainId.BSC]: '0xb0b4ff6D756CcC251Dd08928984f9C3A2d430eE5',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.abond,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://ape.bond/',
+    twitter: 'https://twitter.com/apebond',
+    audit: 'https://paladinsec.co/projects/apeswap/',
+    initTime: { [ChainId.BSC]: 1700485200 },
+    initPrice: { [ChainId.BSC]: 0.002404165611 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    fullDescription:
+      'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
+    tags: ['Reserve'],
+  },
+  {
+    index: 1030,
+    contractAddress: {
+      [ChainId.BSC]: '0x0CdA99bE222cF4893817200A16D13009c0982006',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.grape,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://www.joingrapes.com/',
+    twitter: 'https://twitter.com/JoinGrapes',
+    audit: 'https://sourcehat.com/audits/Grapecoin/',
+    initTime: { [ChainId.BSC]: 1704891600 },
+    initPrice: { [ChainId.BSC]: 0.00173967992950712 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['NFTs'],
+    fullDescription:
+      'Grape NFT is the home of Grapes & $GRAPE Coin, and is backed by industry giants Animoca Brands. It’s a fun and globally appealing collection of 3,333 crafted NFTs. GRAPES has been designed to be a cross-media NFT project with gaming, animated series, merchandise and licensing. As a holder of GRAPES users will be rewarded in the commercial success of the project’s ventures both inside and outside of Web3.',
+  },
+  {
+    index: 1029,
+    contractAddress: {
+      [ChainId.BSC]: '0x74077F80E723b3f5C62Eb50C125Da33D6D903A76',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.monsta,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.monstaBnb_PCS,
+    earnToken: tokens.monsta,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://cake.monster/',
+    twitter: 'https://twitter.com/Monsta_BSC',
+    audit: 'https://solidity.finance/audits/CakeMonster/',
+    initTime: { [ChainId.BSC]: 1704996000 },
+    initPrice: { [ChainId.BSC]: 0.000000031773560782 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Meme', 'NFT'],
+    fullDescription:
+      'Cake Monster ($MONSTA) is a revolutionary undertaking in sustainable Hyper-Deflationary Economics. Their team has developed a groundbreaking economic policy to combat the problems that the financial world is currently facing and wrapped it as a cute Meme on BNBChain. Users will find On-Chain Games, Play2Earn NFTs, and other rewarding features: Cake Monster is definitely THE BEAST OF BSC.',
+  },
+  {
+    index: 1028,
+    contractAddress: {
+      [ChainId.BSC]: '0x4A308636E91d33Ae00dD1cc390553778847668D3',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.cdx,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://codexchain.xyz/home',
+    twitter: 'https://twitter.com/codexchain',
+    audit: 'https://github.com/CodeXChainOfficial/SC/tree/ERC20Base',
+    initTime: { [ChainId.BSC]: 1708946738 },
+    initPrice: { [ChainId.BSC]: 0.07580203004538802 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['AI'],
+    fullDescription:
+      'CodeX is the fastest way to build DApps without code. It is an all-in-one no-code AI-powered ecosystem for WEB3 mass adoption. Users can now craft DApp platforms effortlessly, thanks to CodeX’s user-friendly solutions, such as CodeXGPT or Screen2code. CodeX: Made For People, Built For Speed And Mass Adoption.',
+  },
+  {
+    index: 1027,
+    contractAddress: {
+      [ChainId.BSC]: '0x8a5597815E71944837b1BaF346e92d05954cC8B7',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.wbnb,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.wbnb,
+    earnToken: tokens.xox,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://xoxlabs.io/',
+    twitter: 'https://twitter.com/Xox_Labs',
+    audit: 'https://skynet.certik.com/projects/xox-labs/',
+    initTime: { [ChainId.BSC]: 1700485200 },
+    initPrice: { [ChainId.BSC]: 0.002404165611 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    fullDescription:
+      'XOX is The Next Gen Multichain DeFi Dapps & Web3 Solutions Provider. Their Hybrid Multichain Stable Coin, All-IN-One Dapp and Gamified Referral Program allow users to swap, stake, store, bridge, refer, invest and earn like never before. XOX Labs: a highly qualified and professional team built to deliver top class DeFi products.',
+    tags: ['Defi Tooling'],
+  },
+  {
+    index: 1025,
+    contractAddress: {
+      [ChainId.BSC]: '0x8772Ba15F8169BaE002E3cA0D48629aB408D838F',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.dcb,
+    lpToken: tokens.dcbUsdt_PCS,
+    earnToken: tokens.dcb,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://www.decubate.com/',
+    twitter: 'https://twitter.com/decubate',
+    audit:
+      'https://github.com/Decubate-com/documents/blob/main/%5BHAECHI%20AUDIT%5D%20Decubate%20Smart%20Contract%20Audit%20Report%20v2.0.pdf',
+    initTime: { [ChainId.BSC]: 1700485200 },
+    initPrice: { [ChainId.BSC]: 0.002404165611 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    fullDescription:
+      'At Decubate the team is pioneering a Sustainable Future for Web3 Entrepreneurs and Investors. Users can expect advanced products and services, such as their innovative  plug-and-play Token Management System (TMS) and other essential Web3 white label tools and services. Furthermore, the project provides a Launchpad, Web3 Custom Development and more! Decubate: Unleashing the Power of Web3.',
+    tags: ['Launchpad'],
+  },
+  {
     index: 1024,
     contractAddress: {
       [ChainId.BSC]: '0x81a0956047a69fe2EA3722cbA4C2901103F19D03',
@@ -537,7 +706,7 @@ const bills: BillsConfig[] = [
     audit: 'https://github.com/CodeXChainOfficial/SC/tree/ERC20Base',
     initTime: { [ChainId.BSC]: 1704891600 },
     initPrice: { [ChainId.BSC]: 0.00173967992950712 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -565,7 +734,7 @@ const bills: BillsConfig[] = [
     audit: 'https://omniscia.io/reports/fav-token-implementation-64805de3e824970014254148',
     initTime: { [ChainId.BSC]: 1704891600 },
     initPrice: { [ChainId.BSC]: 0.00173967992950712 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -592,7 +761,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/Chappyzcom',
     initTime: { [ChainId.BSC]: 1700485200 },
     initPrice: { [ChainId.BSC]: 0.002404165611 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -620,7 +789,7 @@ const bills: BillsConfig[] = [
     audit: 'https://solidity.finance/audits/CakeMonster/',
     initTime: { [ChainId.BSC]: 1704996000 },
     initPrice: { [ChainId.BSC]: 0.000000031773560782 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -675,7 +844,7 @@ const bills: BillsConfig[] = [
     audit: 'https://sourcehat.com/audits/Grapecoin/',
     initTime: { [ChainId.BSC]: 1704891600 },
     initPrice: { [ChainId.BSC]: 0.00173967992950712 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -703,7 +872,7 @@ const bills: BillsConfig[] = [
     audit: 'https://skynet.certik.com/projects/tifi-token',
     initTime: { [ChainId.BSC]: 1704996000 },
     initPrice: { [ChainId.BSC]: 0.000000031773560782 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -786,7 +955,7 @@ const bills: BillsConfig[] = [
     audit: 'https://solidity.finance/audits/BlockApeScissors/',
     initTime: { [ChainId.BSC]: 1704477600 },
     initPrice: { [ChainId.BSC]: 0.103519967970037 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -842,7 +1011,7 @@ const bills: BillsConfig[] = [
     audit: 'https://www.certik.com/projects/chaingpt/',
     initTime: { [ChainId.BSC]: 1704304800 },
     initPrice: { [ChainId.BSC]: 0.189643589802866 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -898,7 +1067,7 @@ const bills: BillsConfig[] = [
     audit: 'https://skynet.certik.com/projects/hypergpt?utm_source=CMC&utm_campaign=AuditByCertiKLink',
     initTime: { [ChainId.BSC]: 1701205200 },
     initPrice: { [ChainId.BSC]: 0.00543082778284093 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -3105,6 +3274,91 @@ const bills: BillsConfig[] = [
     Polygon Bills
   */
   {
+    index: 133,
+    contractAddress: {
+      [ChainId.MATIC]: '0x6dA8D2b851bdbCc50012f26d2a49107fe67fAB24',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdc,
+    quoteToken: tokens.usdc,
+    lpToken: tokens.usdc,
+    earnToken: tokens.abond,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://ape.bond/',
+    twitter: 'https://twitter.com/apebond',
+    audit: 'https://paladinsec.co/projects/apeswap/',
+    initTime: { [ChainId.MATIC]: 1700485200 },
+    initPrice: { [ChainId.MATIC]: 0.002404165611 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    fullDescription:
+      'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
+    tags: ['Reserve'],
+  },
+  {
+    index: 132,
+    contractAddress: {
+      [ChainId.MATIC]: '0xcbf5A78AA5cAb66779355FE850884D7029Fbd4df',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.vext,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://www.veloce.gg/',
+    twitter: 'https://twitter.com/vextoken',
+    initTime: { [ChainId.MATIC]: 1701892800 },
+    initPrice: { [ChainId.MATIC]: 0.00254 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+    fullDescription:
+      'Veloce is an organization operating in gaming and racing. Their gaming outfit runs multiple pro-esports teams while establishing the largest racing media network—their racing teams compete in the Extreme E series as well as the W Series. At Veloce, they are innovators in gaming, racing, and technology.',
+    tags: ['GameFi'],
+  },
+  {
+    index: 131,
+    contractAddress: {
+      [ChainId.MATIC]: '0xff4c72eE74916Ce8FA81FFf0DFFa8a32288E31E9',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.wmatic,
+    quoteToken: tokens.wmatic,
+    lpToken: tokens.wmatic,
+    earnToken: tokens.a51,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://uniswap.a51.finance/stats',
+    twitter: 'https://twitter.com/A51_Fi',
+    audit: 'https://hacken.io/audits/unipilot/',
+    initTime: { [ChainId.MATIC]: 1705067401 },
+    initPrice: { [ChainId.MATIC]: 0.90803612 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+    fullDescription:
+      'A51 Finance is an Autonomous Liquidity Provisioning (ALP) protocol offering customizable tools for creating tailored liquidity strategies empowering LPs with dynamic adjustments based on their preferences. A51 puts control in the hands of liquidity providers, allowing them to dictate asset management and post-liquidity actions.',
+    tags: ['V3 Liquidity Managers'],
+  },
+  {
     index: 130,
     contractAddress: {
       [ChainId.MATIC]: '0xA7AaA5229346ac1d7524ca6A3bB71816E39982Bb',
@@ -3208,7 +3462,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/Bullieverse',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.0948073647 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
@@ -3236,7 +3490,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/3aaaDAO',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.347018667988457 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
@@ -3322,7 +3576,7 @@ const bills: BillsConfig[] = [
     audit: 'https://hacken.io/audits/unipilot/',
     initTime: { [ChainId.MATIC]: 1705067401 },
     initPrice: { [ChainId.MATIC]: 0.90803612 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -3433,7 +3687,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/FireBotDAO',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.00254 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
@@ -3462,7 +3716,7 @@ const bills: BillsConfig[] = [
     audit: 'https://github.com/orbs-network/orbs-token/blob/master/SmartDec%20OrbsToken%20Security%20Audit.pdf',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.00254 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
@@ -3490,7 +3744,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/vextoken',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.00254 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
@@ -3518,7 +3772,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/Yellow',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.00254 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
@@ -3546,7 +3800,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/BitCone_CONE',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.00254 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
@@ -3631,7 +3885,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/GetBlockWallet',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.00254 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
