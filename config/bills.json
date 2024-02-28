@@ -1627,7 +1627,7 @@
     "initPrice": {
       "56": 0.00543082778284093
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "CexFundBond_Collection1"
     },
@@ -1726,6 +1726,442 @@
     },
     "tags": ["Cex Fund"],
     "fullDescription": "ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity."
+  },
+  {
+    "index": 1026,
+    "contractAddress": {
+      "56": "0xb0b4ff6D756CcC251Dd08928984f9C3A2d430eE5"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "42161": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "42161": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "42161": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "ABOND",
+      "address": {
+        "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
+        "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
+      },
+      "decimals": {
+        "1": 18,
+        "56": 18,
+        "137": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV3",
+        "56": "ThenaV1",
+        "137": "QuickswapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://ape.bond/",
+    "twitter": "https://twitter.com/apebond",
+    "audit": "https://paladinsec.co/projects/apeswap/",
+    "initTime": {
+      "56": 1700485200
+    },
+    "initPrice": {
+      "56": 0.002404165611
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "fullDescription": "ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.",
+    "tags": ["Reserve"]
+  },
+  {
+    "index": 1030,
+    "contractAddress": {
+      "56": "0x0CdA99bE222cF4893817200A16D13009c0982006"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "42161": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "42161": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "42161": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "GRAPE",
+      "address": {
+        "56": "0x555296de6A86E72752e5C5DC091FE49713Aa145C"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://www.joingrapes.com/",
+    "twitter": "https://twitter.com/JoinGrapes",
+    "audit": "https://sourcehat.com/audits/Grapecoin/",
+    "initTime": {
+      "56": 1704891600
+    },
+    "initPrice": {
+      "56": 0.00173967992950712
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["NFTs"],
+    "fullDescription": "Grape NFT is the home of Grapes & $GRAPE Coin, and is backed by industry giants Animoca Brands. It’s a fun and globally appealing collection of 3,333 crafted NFTs. GRAPES has been designed to be a cross-media NFT project with gaming, animated series, merchandise and licensing. As a holder of GRAPES users will be rewarded in the commercial success of the project’s ventures both inside and outside of Web3."
+  },
+  {
+    "index": 1029,
+    "contractAddress": {
+      "56": "0x74077F80E723b3f5C62Eb50C125Da33D6D903A76"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "MONSTA",
+      "address": {
+        "56": "0x8A5d7FCD4c90421d21d30fCC4435948aC3618B2f"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "MONSTA-BNB",
+      "address": {
+        "56": "0x55C49d1cd54126C69F22C2e9eEBd1EFeF5e620FA"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "getLpUrl": {
+        "56": "https://pancakeswap.finance/v2/add/BNB/0x8A5d7FCD4c90421d21d30fCC4435948aC3618B2f"
+      }
+    },
+    "earnToken": {
+      "symbol": "MONSTA",
+      "address": {
+        "56": "0x8A5d7FCD4c90421d21d30fCC4435948aC3618B2f"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://cake.monster/",
+    "twitter": "https://twitter.com/Monsta_BSC",
+    "audit": "https://solidity.finance/audits/CakeMonster/",
+    "initTime": {
+      "56": 1704996000
+    },
+    "initPrice": {
+      "56": 3.1773560782e-8
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["Meme", "NFT"],
+    "fullDescription": "Cake Monster ($MONSTA) is a revolutionary undertaking in sustainable Hyper-Deflationary Economics. Their team has developed a groundbreaking economic policy to combat the problems that the financial world is currently facing and wrapped it as a cute Meme on BNBChain. Users will find On-Chain Games, Play2Earn NFTs, and other rewarding features: Cake Monster is definitely THE BEAST OF BSC."
+  },
+  {
+    "index": 1028,
+    "contractAddress": {
+      "56": "0x4A308636E91d33Ae00dD1cc390553778847668D3"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "42161": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "42161": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
+        "56": "0x55d398326f99059ff775485246999027b3197955",
+        "137": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "42161": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "CDX",
+      "address": {
+        "56": "0x1c3ba6cF2676cc795db02a3b2093E5076f5F330E"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://codexchain.xyz/home",
+    "twitter": "https://twitter.com/codexchain",
+    "audit": "https://github.com/CodeXChainOfficial/SC/tree/ERC20Base",
+    "initTime": {
+      "56": 1708946738
+    },
+    "initPrice": {
+      "56": 0.07580203004538802
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["AI"],
+    "fullDescription": "CodeX is the fastest way to build DApps without code. It is an all-in-one no-code AI-powered ecosystem for WEB3 mass adoption. Users can now craft DApp platforms effortlessly, thanks to CodeX’s user-friendly solutions, such as CodeXGPT or Screen2code. CodeX: Made For People, Built For Speed And Mass Adoption."
+  },
+  {
+    "index": 1027,
+    "contractAddress": {
+      "56": "0x8a5597815E71944837b1BaF346e92d05954cC8B7"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "XOX",
+      "address": {
+        "56": "0x0f5C78f152152dDA52a2ea45B0a8C10733010748"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://xoxlabs.io/",
+    "twitter": "https://twitter.com/Xox_Labs",
+    "audit": "https://skynet.certik.com/projects/xox-labs/",
+    "initTime": {
+      "56": 1700485200
+    },
+    "initPrice": {
+      "56": 0.002404165611
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "fullDescription": "XOX is The Next Gen Multichain DeFi Dapps & Web3 Solutions Provider. Their Hybrid Multichain Stable Coin, All-IN-One Dapp and Gamified Referral Program allow users to swap, stake, store, bridge, refer, invest and earn like never before. XOX Labs: a highly qualified and professional team built to deliver top class DeFi products.",
+    "tags": ["Defi Tooling"]
   },
   {
     "index": 1025,
@@ -1894,7 +2330,7 @@
     "initPrice": {
       "56": 0.00173967992950712
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -1982,7 +2418,7 @@
     "initPrice": {
       "56": 0.00173967992950712
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -2067,7 +2503,7 @@
     "initPrice": {
       "56": 0.002404165611
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -2151,7 +2587,7 @@
     "initPrice": {
       "56": 3.1773560782e-8
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -2326,7 +2762,7 @@
     "initPrice": {
       "56": 0.00173967992950712
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -2412,7 +2848,7 @@
     "initPrice": {
       "56": 3.1773560782e-8
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -2667,7 +3103,7 @@
     "initPrice": {
       "56": 0.103519967970037
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -2843,7 +3279,7 @@
     "initPrice": {
       "56": 0.189643589802866
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -3015,7 +3451,7 @@
     "initPrice": {
       "56": 0.00543082778284093
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -10282,6 +10718,106 @@
     "soldOut": true
   },
   {
+    "index": 133,
+    "contractAddress": {
+      "137": "0x6dA8D2b851bdbCc50012f26d2a49107fe67fAB24"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "USDC",
+      "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
+        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDC",
+      "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
+        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
+        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "ABOND",
+      "address": {
+        "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
+        "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
+      },
+      "decimals": {
+        "1": 18,
+        "56": 18,
+        "137": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV3",
+        "56": "ThenaV1",
+        "137": "QuickswapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
+    },
+    "inactive": false,
+    "projectLink": "https://ape.bond/",
+    "twitter": "https://twitter.com/apebond",
+    "audit": "https://paladinsec.co/projects/apeswap/",
+    "initTime": {
+      "137": 1700485200
+    },
+    "initPrice": {
+      "137": 0.002404165611
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "fullDescription": "ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.",
+    "tags": ["Reserve"]
+  },
+  {
     "index": 132,
     "contractAddress": {
       "137": "0xcbf5A78AA5cAb66779355FE850884D7029Fbd4df"
@@ -10775,7 +11311,7 @@
     "initPrice": {
       "137": 0.0948073647
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "Quickswap_Collection1"
     },
@@ -10863,7 +11399,7 @@
     "initPrice": {
       "137": 0.347018667988457
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "Quickswap_Collection1"
     },
@@ -11490,7 +12026,7 @@
     "initPrice": {
       "137": 0.00254
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "Quickswap_Collection1"
     },
@@ -11579,7 +12115,7 @@
     "initPrice": {
       "137": 0.00254
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "Quickswap_Collection1"
     },
@@ -11755,7 +12291,7 @@
     "initPrice": {
       "137": 0.00254
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "Quickswap_Collection1"
     },
@@ -11855,7 +12391,7 @@
     "initPrice": {
       "137": 0.00254
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "Quickswap_Collection1"
     },
@@ -12122,7 +12658,7 @@
     "initPrice": {
       "137": 0.00254
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "Quickswap_Collection1"
     },
