@@ -885,6 +885,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  nftbs: {
+    symbol: 'NFTBS',
+    address: {
+      [ChainId.MATIC]: '0x6396252377F54ad33cFF9131708Da075b21d9B88',
+    },
+    decimals: {
+      [ChainId.MATIC]: 9,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.QuickswapV2,
+    },
+    active: true,
+  },
   trc: {
     symbol: 'TRC',
     address: {
