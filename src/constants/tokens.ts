@@ -909,6 +909,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  nftbs: {
+    symbol: 'NFTBS',
+    address: {
+      [ChainId.MATIC]: '0x6396252377F54ad33cFF9131708Da075b21d9B88',
+    },
+    decimals: {
+      [ChainId.MATIC]: 9,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.QuickswapV2,
+    },
+    active: true,
+  },
   trc: {
     symbol: 'TRC',
     address: {
@@ -938,8 +951,8 @@ const tokens: Record<string, Token> = {
   dai: {
     symbol: 'DAI',
     address: {
-      [ChainId.BSC]: '0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3',
-      [ChainId.MATIC]: '0x8f3cf7ad23cd3cadbd9735aff958023239c6a063',
+      [ChainId.BSC]: '0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3',
+      [ChainId.MATIC]: '0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -950,10 +963,10 @@ const tokens: Record<string, Token> = {
   usdt: {
     symbol: 'USDT',
     address: {
-      [ChainId.BSC]: '0x55d398326f99059ff775485246999027b3197955',
-      [ChainId.MATIC]: '0xc2132d05d31c914a87c6611c10748aeb04b58e8f',
-      [ChainId.TLOS]: '0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73',
-      [ChainId.ARBITRUM]: '0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9',
+      [ChainId.BSC]: '0x55d398326f99059fF775485246999027B3197955',
+      [ChainId.MATIC]: '0xc2132D05D31c914a87C6611C10748AEb04B58e8F',
+      [ChainId.TLOS]: '0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73',
+      [ChainId.ARBITRUM]: '0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9',
     },
     decimals: {
       [ChainId.BSC]: 18,
