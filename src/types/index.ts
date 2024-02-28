@@ -33,6 +33,7 @@ export enum LiquidityDex {
   Algebra = 'Algebra',
   QuickswapV2 = 'QuickswapV2',
   UniswapV3 = 'UniswapV3',
+  External = 'External',
 }
 
 export enum ZapVersion {
