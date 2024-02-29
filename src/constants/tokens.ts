@@ -927,8 +927,8 @@ const tokens: Record<string, Token> = {
   dai: {
     symbol: 'DAI',
     address: {
-      [ChainId.BSC]: '0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3',
-      [ChainId.MATIC]: '0x8f3cf7ad23cd3cadbd9735aff958023239c6a063',
+      [ChainId.BSC]: '0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3',
+      [ChainId.MATIC]: '0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -2118,6 +2118,17 @@ const tokens: Record<string, Token> = {
     symbol: 'MONSTA',
     address: {
       [ChainId.BSC]: '0x8A5d7FCD4c90421d21d30fCC4435948aC3618B2f',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
+  wnk: {
+    symbol: 'WNK',
+    address: {
+      [ChainId.BSC]: '0xb160A5F19ebccd8E0549549327e43DDd1D023526',
     },
     decimals: { [ChainId.BSC]: 18 },
     liquidityDex: {
@@ -3673,6 +3684,22 @@ const tokens: Record<string, Token> = {
     getLpUrl: {
       [ChainId.BSC]:
         'https://pancakeswap.finance/v2/add/0x17E65E6b9B166Fb8e7c59432F0db126711246BC0/0x55d398326f99059fF775485246999027B3197955',
+    },
+  },
+  wnkUsdc_PCS: {
+    symbol: 'WNK-USDC',
+    address: {
+      [ChainId.BSC]: '0xbEc630483E02f058DFC6E9997d00c19a05D99E18',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl: {
+      [ChainId.BSC]:
+        'https://pancakeswap.finance/v2/add/0xb160A5F19ebccd8E0549549327e43DDd1D023526/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d',
     },
   },
   stlosTlos: {
