@@ -4596,6 +4596,30 @@ const bills: BillsConfig[] = [
     initPrice: { [ChainId.ARBITRUM]: 1.5528 },
     soldOut: true,
   },
+
+  // TEST BONDS ON INEVM MAINNET
+  {
+    index: 6969,
+    contractAddress: {
+      [ChainId.INEVM]: '0xac28AC60180D903B6a8139fC8eDFdb40F459433e',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.mockUSDT,
+    quoteToken: tokens.mockUSDT,
+    lpToken: tokens.mockUSDT,
+    earnToken: tokens.mockINJ,
+    billNnftAddress: {
+      [ChainId.INEVM]: '0xa68ae920d7c2945766c282B786b83Fb56cEEdfD0',
+    },
+    inactive: false,
+    projectLink: 'https://www.onyxdao.finance/',
+    twitter: 'https://twitter.com/OnyxDAO',
+    audit: 'https://hashex.org/audits/onyx-dao/',
+    initTime: { [ChainId.ARBITRUM]: 1679952396 },
+    initPrice: { [ChainId.ARBITRUM]: 1.5528 },
+    soldOut: false,
+  },
 ]
 
 export default bills

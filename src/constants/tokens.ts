@@ -4124,6 +4124,34 @@ const tokens: Record<string, Token> = {
       [ChainId.MAINNET]: 'https://app.uniswap.org/add/v2/ETH/0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1',
     },
   },
+  mockUSDT: {
+    symbol: 'mockUSDT',
+    address: {
+      [ChainId.INEVM]: '0xA4259F9A8EB2E88ccc9C78bE1BeB27faF54bcc7D',
+    },
+    decimals: {
+      [ChainId.INEVM]: 18,
+    },
+    liquidityDex: {
+      [ChainId.INEVM]: LiquidityDex.External,
+    },
+    active: true,
+    lpToken: false,
+  },
+  mockINJ: {
+    symbol: 'mockINJ',
+    address: {
+      [ChainId.INEVM]: '0x4569348D39cc38F4d6a1180573Df73B7b03251d9',
+    },
+    decimals: {
+      [ChainId.INEVM]: 18,
+    },
+    liquidityDex: {
+      [ChainId.INEVM]: LiquidityDex.External,
+    },
+    active: true,
+    lpToken: false,
+  },
 }
 
 export default tokens
