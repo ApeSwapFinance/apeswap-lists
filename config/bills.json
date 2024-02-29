@@ -15305,7 +15305,7 @@
   {
     "index": 123456,
     "contractAddress": {
-      "2525": "0x79B5843cb7da971dC71663ea4A782D400C1fBdF1"
+      "2525": "0xac28AC60180D903B6a8139fC8eDFdb40F459433e"
     },
     "billType": "reserve",
     "billVersion": "V3",

@@ -4697,7 +4697,7 @@ const bills: BillsConfig[] = [
   {
     index: 123456, // mock
     contractAddress: {
-      [ChainId.INEVM]: '0x79B5843cb7da971dC71663ea4A782D400C1fBdF1',
+      [ChainId.INEVM]: '0xac28AC60180D903B6a8139fC8eDFdb40F459433e',
     },
     billType: 'reserve',
     billVersion: BillVersion.V3,
