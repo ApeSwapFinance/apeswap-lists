@@ -10718,6 +10718,83 @@
     "soldOut": true
   },
   {
+    "index": 134,
+    "contractAddress": {
+      "137": "0x4fbEc51bFB4Fad1D431608d8CAfDe3Bc48c64F8A"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "MATIC",
+      "address": {
+        "56": "0xcc42724c6683b7e57334c4e856f4c9965ed682bd",
+        "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
+      },
+      "decimals": {
+        "56": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "MATIC",
+      "address": {
+        "56": "0xcc42724c6683b7e57334c4e856f4c9965ed682bd",
+        "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
+      },
+      "decimals": {
+        "56": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "MATIC",
+      "address": {
+        "56": "0xcc42724c6683b7e57334c4e856f4c9965ed682bd",
+        "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
+      },
+      "decimals": {
+        "56": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "NFTBS",
+      "address": {
+        "137": "0x6396252377F54ad33cFF9131708Da075b21d9B88"
+      },
+      "decimals": {
+        "137": 9
+      },
+      "liquidityDex": {
+        "137": "QuickswapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
+    },
+    "inactive": false,
+    "projectLink": "https://nftbooks.info/",
+    "twitter": "https://twitter.com/nftbstoken",
+    "audit": "https://skynet.certik.com/projects/nftbooks?utm_source=CMC&utm_campaign=AuditByCertiKLink",
+    "initTime": {
+      "137": 1700485200
+    },
+    "initPrice": {
+      "137": 0.002404165611
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "Quickswap_Collection1"
+    },
+    "bondPartner": "QuickSwap",
+    "fullDescription": "NFTBooks helps to create a direct bridge between authors, readers, translators and investors with its publishing platform, where real books become NFTs! Whether it’s e-books, magazines, articles, literature or poetry, it’s all accessible, and most importantly, affordable, with NFTBooks.",
+    "tags": ["NFTs"]
+  },
+  {
     "index": 133,
     "contractAddress": {
       "137": "0x6dA8D2b851bdbCc50012f26d2a49107fe67fAB24"

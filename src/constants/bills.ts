@@ -3274,6 +3274,35 @@ const bills: BillsConfig[] = [
     Polygon Bills
   */
   {
+    index: 134,
+    contractAddress: {
+      [ChainId.MATIC]: '0x4fbEc51bFB4Fad1D431608d8CAfDe3Bc48c64F8A',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.wmatic,
+    quoteToken: tokens.wmatic,
+    lpToken: tokens.wmatic,
+    earnToken: tokens.nftbs,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://nftbooks.info/',
+    twitter: 'https://twitter.com/nftbstoken',
+    audit: 'https://skynet.certik.com/projects/nftbooks?utm_source=CMC&utm_campaign=AuditByCertiKLink',
+    initTime: { [ChainId.MATIC]: 1700485200 },
+    initPrice: { [ChainId.MATIC]: 0.002404165611 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+    fullDescription:
+      'NFTBooks helps to create a direct bridge between authors, readers, translators and investors with its publishing platform, where real books become NFTs! Whether it’s e-books, magazines, articles, literature or poetry, it’s all accessible, and most importantly, affordable, with NFTBooks.',
+    tags: ['NFTs'],
+  },
+  {
     index: 133,
     contractAddress: {
       [ChainId.MATIC]: '0x6dA8D2b851bdbCc50012f26d2a49107fe67fAB24',
