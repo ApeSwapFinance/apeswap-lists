@@ -2125,6 +2125,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  wnk: {
+    symbol: 'WNK',
+    address: {
+      [ChainId.BSC]: '0xb160A5F19ebccd8E0549549327e43DDd1D023526',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
   xox: {
     symbol: 'XOX',
     address: {
@@ -3673,6 +3684,22 @@ const tokens: Record<string, Token> = {
     getLpUrl: {
       [ChainId.BSC]:
         'https://pancakeswap.finance/v2/add/0x17E65E6b9B166Fb8e7c59432F0db126711246BC0/0x55d398326f99059fF775485246999027B3197955',
+    },
+  },
+  wnkUsdc_PCS: {
+    symbol: 'WNK-USDC',
+    address: {
+      [ChainId.BSC]: '0xbEc630483E02f058DFC6E9997d00c19a05D99E18',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl: {
+      [ChainId.BSC]:
+        'https://pancakeswap.finance/v2/add/0xb160A5F19ebccd8E0549549327e43DDd1D023526/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d',
     },
   },
   stlosTlos: {
