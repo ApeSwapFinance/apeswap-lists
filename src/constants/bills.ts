@@ -4694,6 +4694,31 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
   },
+  {
+    index: 123456, // mock
+    contractAddress: {
+      [ChainId.INEVM]: '0x79B5843cb7da971dC71663ea4A782D400C1fBdF1',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    token: tokens.mockUSDT,
+    quoteToken: tokens.mockUSDT,
+    lpToken: tokens.mockUSDT,
+    earnToken: tokens.mockINJ,
+    billNnftAddress: {
+      [ChainId.INEVM]: '0xa68ae920d7c2945766c282B786b83Fb56cEEdfD0', // test nft
+    },
+    inactive: false,
+    projectLink: 'https://ape.bond/',
+    twitter: 'https://twitter.com/apebond',
+    audit: 'https://paladinsec.co/projects/apeswap/',
+    initTime: { [ChainId.INEVM]: 1702472400 },
+    initPrice: { [ChainId.INEVM]: 1 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+  },
 ]
 
 export default bills
