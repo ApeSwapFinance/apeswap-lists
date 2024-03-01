@@ -1822,6 +1822,94 @@
     "tags": ["Reserve"]
   },
   {
+    "index": 1031,
+    "contractAddress": {
+      "56": "0x284b840402658342c79BF90cBf1b9506222E63D9"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "WNK",
+      "address": {
+        "56": "0xb160A5F19ebccd8E0549549327e43DDd1D023526"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDC",
+      "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
+        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "WNK-USDC",
+      "address": {
+        "56": "0xbEc630483E02f058DFC6E9997d00c19a05D99E18"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "getLpUrl": {
+        "56": "https://pancakeswap.finance/v2/add/0xb160A5F19ebccd8E0549549327e43DDd1D023526/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d"
+      }
+    },
+    "earnToken": {
+      "symbol": "WNK",
+      "address": {
+        "56": "0xb160A5F19ebccd8E0549549327e43DDd1D023526"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://www.winkyverse.io/",
+    "twitter": "https://twitter.com/TheWinkyverse_",
+    "audit": "https://skynet.certik.com/projects/winkyverse",
+    "initTime": {
+      "56": 1704891600
+    },
+    "initPrice": {
+      "56": 0.000875307143616461
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["GameFi (Play to Earn)"],
+    "fullDescription": "The Winkyverse is the first game-based learning platform offering immersive and purposeful educational experiences combining Gaming, Web3 and e-learning. Supported by the French Government, with an original setting, fully educational and ethical, the Winkyverse is the immersive and positive universe for all ages."
+  },
+  {
     "index": 1030,
     "contractAddress": {
       "56": "0x0CdA99bE222cF4893817200A16D13009c0982006"
