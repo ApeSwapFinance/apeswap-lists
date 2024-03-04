@@ -546,6 +546,33 @@ const bills: BillsConfig[] = [
     tags: ['Reserve'],
   },
   {
+    index: 1032,
+    contractAddress: {
+      [ChainId.BSC]: '0x122A1f4DE0Ae198ef83eF6FeABfaC6DD3c0b98C5',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.chapz,
+    lpToken: tokens.chapzUsdt_PCS,
+    earnToken: tokens.chapz,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://chappyz.com/',
+    twitter: 'https://twitter.com/Chappyzcom',
+    initTime: { [ChainId.BSC]: 1700485200 },
+    initPrice: { [ChainId.BSC]: 0.002404165611 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    fullDescription:
+      'Chappyz is an AI powered plug-and-play protocol that helps build REAL community engagement & growth, whilst rewarding community members in real-time. Users can start earning rewards by simply connecting their socials and chatting. Chappyz advanced AI system scores all messages and delivers a token reward each time users chat.',
+    tags: ['AI'],
+  },
+  {
     index: 1031,
     contractAddress: {
       [ChainId.BSC]: '0x284b840402658342c79BF90cBf1b9506222E63D9',
