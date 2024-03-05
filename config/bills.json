@@ -5630,7 +5630,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true
+      "active": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      }
     },
     "quoteToken": {
       "symbol": "BUSD",
@@ -5663,7 +5666,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true
+      "active": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      }
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -8132,7 +8138,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true
+      "active": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      }
     },
     "quoteToken": {
       "symbol": "BUSD",
@@ -8165,7 +8174,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true
+      "active": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      }
     },
     "billNnftAddress": {
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
@@ -8662,7 +8674,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true
+      "active": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      }
     },
     "quoteToken": {
       "symbol": "BUSD",
@@ -8695,7 +8710,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true
+      "active": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      }
     },
     "billNnftAddress": {
       "56": "0x7fd203888661d1f0ae625ed599909f8f97698670"

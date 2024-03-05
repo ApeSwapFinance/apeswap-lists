@@ -1600,6 +1600,9 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
   },
   aspo: {
     symbol: 'ASPO',
