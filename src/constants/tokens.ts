@@ -1632,6 +1632,19 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
     },
   },
+  gtai: {
+    symbol: 'GTAI',
+    address: {
+      [ChainId.BSC]: '0x003d87d02A2A01E9E8a20f507C83E15DD83A33d1',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+  },
   aspo: {
     symbol: 'ASPO',
     address: {
@@ -3744,6 +3757,22 @@ const tokens: Record<string, Token> = {
     getLpUrl: {
       [ChainId.BSC]:
         'https://pancakeswap.finance/v2/add/0xb160A5F19ebccd8E0549549327e43DDd1D023526/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d',
+    },
+  },
+  gtaiUsdt_PCS: {
+    symbol: 'GTAI-USDT',
+    address: {
+      [ChainId.BSC]: '0xAB1E062Ab03b11fF7Dd943C50b9aa2bF9933C1F3',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl: {
+      [ChainId.BSC]:
+        'https://pancakeswap.finance/v2/add/0x55d398326f99059fF775485246999027B3197955/0x003d87d02A2A01E9E8a20f507C83E15DD83A33d1',
     },
   },
   stlosTlos: {
