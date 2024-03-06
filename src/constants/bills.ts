@@ -4678,34 +4678,6 @@ const bills: BillsConfig[] = [
     initPrice: { [ChainId.ARBITRUM]: 1.5528 },
     soldOut: true,
   },
-
-  // TEST
-  // TODO. Remove this mock bond once in prod.
-  {
-    index: 123456, // mock
-    contractAddress: {
-      [ChainId.INEVM]: '0xac28AC60180D903B6a8139fC8eDFdb40F459433e',
-    },
-    billType: 'reserve',
-    billVersion: BillVersion.V3,
-    token: tokens.mockUSDT,
-    quoteToken: tokens.mockUSDT,
-    lpToken: tokens.mockUSDT,
-    earnToken: tokens.mockINJ,
-    billNnftAddress: {
-      [ChainId.INEVM]: '0xa68ae920d7c2945766c282B786b83Fb56cEEdfD0', // test nft
-    },
-    inactive: false,
-    projectLink: 'https://ape.bond/',
-    twitter: 'https://twitter.com/apebond',
-    audit: 'https://paladinsec.co/projects/apeswap/',
-    initTime: { [ChainId.INEVM]: 1702472400 },
-    initPrice: { [ChainId.INEVM]: 1 },
-    soldOut: false,
-    billArt: {
-      collection: BillArtCollection.ApeBond_Collection1,
-    },
-  },
 ]
 
 export default bills
