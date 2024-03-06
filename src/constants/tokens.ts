@@ -969,12 +969,14 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: '0xc2132D05D31c914a87C6611C10748AEb04B58e8F',
       [ChainId.TLOS]: '0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73',
       [ChainId.ARBITRUM]: '0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9',
+      [ChainId.INEVM]: '0x97423A68BAe94b5De52d767a17aBCc54c157c0E5',
     },
     decimals: {
       [ChainId.BSC]: 18,
       [ChainId.MATIC]: 6,
       [ChainId.TLOS]: 6,
       [ChainId.ARBITRUM]: 6,
+      [ChainId.INEVM]: 6,
     },
     active: true,
   },
@@ -2596,6 +2598,19 @@ const tokens: Record<string, Token> = {
       [ChainId.ARBITRUM]: 18,
     },
     active: true,
+  },
+  winj: {
+    symbol: 'WINJ',
+    address: {
+      [ChainId.INEVM]: '0x69011706b3f6C6eaeD7D2Bc13801558B4fd94CBF',
+    },
+    decimals: {
+      [ChainId.INEVM]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.INEVM]: LiquidityDex.External,
+    },
   },
 
   // Test LPs
