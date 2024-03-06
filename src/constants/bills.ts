@@ -6,9 +6,35 @@ import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } fr
 // Polygon Largest ID: 133
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
-//Migration Bonds ID: 5007
+// Migration Bonds ID: 5007
+// inEVM Largest ID: 6000
 
 const bills: BillsConfig[] = [
+  {
+    index: 6000,
+    contractAddress: {
+      [ChainId.INEVM]: '0xB9EFa83AEF4e1ecfbf03A04686A41Eb05bc17EC0',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.winj,
+    billNnftAddress: {
+      [ChainId.INEVM]: '0x72D400591719BbD601637d8748e6a161e1bae182',
+    },
+    inactive: false,
+    projectLink: 'https://ape.bond/',
+    twitter: 'https://twitter.com/apebond',
+    audit: 'https://paladinsec.co/projects/apeswap/',
+    initTime: { [ChainId.INEVM]: 1709823600 },
+    initPrice: { [ChainId.INEVM]: 1 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.inEVM_Collection1,
+    },
+  },
   {
     index: 5000, //MIGRATION BOND BANANA 2 MONTH
     contractAddress: {
