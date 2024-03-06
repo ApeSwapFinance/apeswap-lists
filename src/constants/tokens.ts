@@ -21,30 +21,6 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
-  tabond: {
-    symbol: 'TABOND',
-    address: {
-      [ChainId.INEVM_TESTNET]: '0x765FAE7497559175A73aa223894047c213CA5c82',
-      [ChainId.SEPOLIA]: '0x7039F6DDB900762c33842e406fB908EB8a03fB84',
-    },
-    decimals: {
-      [ChainId.INEVM_TESTNET]: 18,
-      [ChainId.SEPOLIA]: 18,
-    },
-    active: true,
-  },
-  tabondb: {
-    symbol: 'TABONDB',
-    address: {
-      [ChainId.INEVM_TESTNET]: '0x7fbCE473cCC13774AA0768A3D73335Ca42c0c122',
-      [ChainId.SEPOLIA]: '0xF67Bac10150ee016EE2f7Ff6Fd9aF017714d2859',
-    },
-    decimals: {
-      [ChainId.INEVM_TESTNET]: 18,
-      [ChainId.SEPOLIA]: 18,
-    },
-    active: true,
-  },
   mockUSDT: {
     symbol: 'mockUSDT',
     address: {
