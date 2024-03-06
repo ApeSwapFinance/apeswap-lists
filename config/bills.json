@@ -1822,6 +1822,266 @@
     "tags": ["Reserve"]
   },
   {
+    "index": 1033,
+    "contractAddress": {
+      "56": "0xD21e9754e988a711E03F94131c9a3024522E2C51"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "GQ",
+      "address": {
+        "56": "0xF700D4c708C2be1463E355F337603183D20E0808"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      }
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://outerringmmo.com/",
+    "twitter": "https://twitter.com/OuterRingMMO",
+    "initTime": {
+      "56": 1709719908
+    },
+    "initPrice": {
+      "56": 0.001565790008091875
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "fullDescription": "Embark on an epic journey through galaxies and science fiction worlds. Discover exciting quests and ancient mysteries. Be the protagonist of your own adventure and forge your legend. Discover a metaverse full of possibilities in Outer Ring and Become a Space Corsaire now!",
+    "tags": ["GameFi (Play To Earn)"]
+  },
+  {
+    "index": 1032,
+    "contractAddress": {
+      "56": "0x122A1f4DE0Ae198ef83eF6FeABfaC6DD3c0b98C5"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "CHAPZ",
+      "address": {
+        "56": "0x7B56748A3Ef9970A5bAe99c58aD8bC67b26c525F"
+      },
+      "decimals": {
+        "56": 10
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "CHAPZ-USDT",
+      "address": {
+        "56": "0x33F675E6802Bb5aA15Dd797D716436Df0D8Cd372"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "getLpUrl": {
+        "56": "https://pancakeswap.finance/v2/add/0x55d398326f99059fF775485246999027B3197955/0x7B56748A3Ef9970A5bAe99c58aD8bC67b26c525F"
+      }
+    },
+    "earnToken": {
+      "symbol": "CHAPZ",
+      "address": {
+        "56": "0x7B56748A3Ef9970A5bAe99c58aD8bC67b26c525F"
+      },
+      "decimals": {
+        "56": 10
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://chappyz.com/",
+    "twitter": "https://twitter.com/Chappyzcom",
+    "initTime": {
+      "56": 1700485200
+    },
+    "initPrice": {
+      "56": 0.002404165611
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "fullDescription": "Chappyz is an AI powered plug-and-play protocol that helps build REAL community engagement & growth, whilst rewarding community members in real-time. Users can start earning rewards by simply connecting their socials and chatting. Chappyz advanced AI system scores all messages and delivers a token reward each time users chat.",
+    "tags": ["AI"]
+  },
+  {
+    "index": 1031,
+    "contractAddress": {
+      "56": "0x284b840402658342c79BF90cBf1b9506222E63D9"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "WNK",
+      "address": {
+        "56": "0xb160A5F19ebccd8E0549549327e43DDd1D023526"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDC",
+      "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
+        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "WNK-USDC",
+      "address": {
+        "56": "0xbEc630483E02f058DFC6E9997d00c19a05D99E18"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "getLpUrl": {
+        "56": "https://pancakeswap.finance/v2/add/0xb160A5F19ebccd8E0549549327e43DDd1D023526/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d"
+      }
+    },
+    "earnToken": {
+      "symbol": "WNK",
+      "address": {
+        "56": "0xb160A5F19ebccd8E0549549327e43DDd1D023526"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://www.winkyverse.io/",
+    "twitter": "https://twitter.com/TheWinkyverse_",
+    "audit": "https://skynet.certik.com/projects/winkyverse",
+    "initTime": {
+      "56": 1704891600
+    },
+    "initPrice": {
+      "56": 0.000875307143616461
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["GameFi (Play to Earn)"],
+    "fullDescription": "The Winkyverse is the first game-based learning platform offering immersive and purposeful educational experiences combining Gaming, Web3 and e-learning. Supported by the French Government, with an original setting, fully educational and ethical, the Winkyverse is the immersive and positive universe for all ages."
+  },
+  {
     "index": 1030,
     "contractAddress": {
       "56": "0x0CdA99bE222cF4893817200A16D13009c0982006"
@@ -5457,7 +5717,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true
+      "active": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      }
     },
     "quoteToken": {
       "symbol": "BUSD",
@@ -5490,7 +5753,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true
+      "active": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      }
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -7959,7 +8225,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true
+      "active": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      }
     },
     "quoteToken": {
       "symbol": "BUSD",
@@ -7992,7 +8261,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true
+      "active": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      }
     },
     "billNnftAddress": {
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
@@ -8489,7 +8761,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true
+      "active": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      }
     },
     "quoteToken": {
       "symbol": "BUSD",
@@ -8522,7 +8797,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true
+      "active": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      }
     },
     "billNnftAddress": {
       "56": "0x7fd203888661d1f0ae625ed599909f8f97698670"
@@ -10716,6 +10994,83 @@
     },
     "inactive": true,
     "soldOut": true
+  },
+  {
+    "index": 134,
+    "contractAddress": {
+      "137": "0x4fbEc51bFB4Fad1D431608d8CAfDe3Bc48c64F8A"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "MATIC",
+      "address": {
+        "56": "0xcc42724c6683b7e57334c4e856f4c9965ed682bd",
+        "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
+      },
+      "decimals": {
+        "56": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "MATIC",
+      "address": {
+        "56": "0xcc42724c6683b7e57334c4e856f4c9965ed682bd",
+        "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
+      },
+      "decimals": {
+        "56": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "MATIC",
+      "address": {
+        "56": "0xcc42724c6683b7e57334c4e856f4c9965ed682bd",
+        "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
+      },
+      "decimals": {
+        "56": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "NFTBS",
+      "address": {
+        "137": "0x6396252377F54ad33cFF9131708Da075b21d9B88"
+      },
+      "decimals": {
+        "137": 9
+      },
+      "liquidityDex": {
+        "137": "QuickswapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
+    },
+    "inactive": false,
+    "projectLink": "https://nftbooks.info/",
+    "twitter": "https://twitter.com/nftbstoken",
+    "audit": "https://skynet.certik.com/projects/nftbooks?utm_source=CMC&utm_campaign=AuditByCertiKLink",
+    "initTime": {
+      "137": 1700485200
+    },
+    "initPrice": {
+      "137": 0.002404165611
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "Quickswap_Collection1"
+    },
+    "bondPartner": "QuickSwap",
+    "fullDescription": "NFTBooks helps to create a direct bridge between authors, readers, translators and investors with its publishing platform, where real books become NFTs! Whether it’s e-books, magazines, articles, literature or poetry, it’s all accessible, and most importantly, affordable, with NFTBooks.",
+    "tags": ["NFTs"]
   },
   {
     "index": 133,

@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1030
+// BNB Largest ID: 1033
 // Polygon Largest ID: 133
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
@@ -544,6 +544,88 @@ const bills: BillsConfig[] = [
     fullDescription:
       'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
     tags: ['Reserve'],
+  },
+  {
+    index: 1033,
+    contractAddress: {
+      [ChainId.BSC]: '0xD21e9754e988a711E03F94131c9a3024522E2C51',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.gq,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://outerringmmo.com/',
+    twitter: 'https://twitter.com/OuterRingMMO',
+    initTime: { [ChainId.BSC]: 1709719908 },
+    initPrice: { [ChainId.BSC]: 0.001565790008091875 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    fullDescription:
+      'Embark on an epic journey through galaxies and science fiction worlds. Discover exciting quests and ancient mysteries. Be the protagonist of your own adventure and forge your legend. Discover a metaverse full of possibilities in Outer Ring and Become a Space Corsaire now!',
+    tags: ['GameFi (Play To Earn)'],
+  },
+  {
+    index: 1032,
+    contractAddress: {
+      [ChainId.BSC]: '0x122A1f4DE0Ae198ef83eF6FeABfaC6DD3c0b98C5',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.chapz,
+    lpToken: tokens.chapzUsdt_PCS,
+    earnToken: tokens.chapz,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://chappyz.com/',
+    twitter: 'https://twitter.com/Chappyzcom',
+    initTime: { [ChainId.BSC]: 1700485200 },
+    initPrice: { [ChainId.BSC]: 0.002404165611 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    fullDescription:
+      'Chappyz is an AI powered plug-and-play protocol that helps build REAL community engagement & growth, whilst rewarding community members in real-time. Users can start earning rewards by simply connecting their socials and chatting. Chappyz advanced AI system scores all messages and delivers a token reward each time users chat.',
+    tags: ['AI'],
+  },
+  {
+    index: 1031,
+    contractAddress: {
+      [ChainId.BSC]: '0x284b840402658342c79BF90cBf1b9506222E63D9',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.wnk,
+    quoteToken: tokens.usdc,
+    lpToken: tokens.wnkUsdc_PCS,
+    earnToken: tokens.wnk,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://www.winkyverse.io/',
+    twitter: 'https://twitter.com/TheWinkyverse_',
+    audit: 'https://skynet.certik.com/projects/winkyverse',
+    initTime: { [ChainId.BSC]: 1704891600 },
+    initPrice: { [ChainId.BSC]: 0.000875307143616461 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['GameFi (Play to Earn)'],
+    fullDescription:
+      'The Winkyverse is the first game-based learning platform offering immersive and purposeful educational experiences combining Gaming, Web3 and e-learning. Supported by the French Government, with an original setting, fully educational and ethical, the Winkyverse is the immersive and positive universe for all ages.',
   },
   {
     index: 1030,
@@ -3273,6 +3355,35 @@ const bills: BillsConfig[] = [
   /*
     Polygon Bills
   */
+  {
+    index: 134,
+    contractAddress: {
+      [ChainId.MATIC]: '0x4fbEc51bFB4Fad1D431608d8CAfDe3Bc48c64F8A',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.wmatic,
+    quoteToken: tokens.wmatic,
+    lpToken: tokens.wmatic,
+    earnToken: tokens.nftbs,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://nftbooks.info/',
+    twitter: 'https://twitter.com/nftbstoken',
+    audit: 'https://skynet.certik.com/projects/nftbooks?utm_source=CMC&utm_campaign=AuditByCertiKLink',
+    initTime: { [ChainId.MATIC]: 1700485200 },
+    initPrice: { [ChainId.MATIC]: 0.002404165611 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+    fullDescription:
+      'NFTBooks helps to create a direct bridge between authors, readers, translators and investors with its publishing platform, where real books become NFTs! Whether it’s e-books, magazines, articles, literature or poetry, it’s all accessible, and most importantly, affordable, with NFTBooks.',
+    tags: ['NFTs'],
+  },
   {
     index: 133,
     contractAddress: {
