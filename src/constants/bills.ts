@@ -569,7 +569,8 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    fullDescription: 'Good Project ser!',
+    fullDescription:
+      'GT Protocol is a Web3 AI execution technology that grants access to CeFi, DeFi, and NFT crypto markets through an all-in-one conversational AI interface. Incubated by ChainGPT, GT Protocol offers services including AI Crypto Management, AI NFT Management, and AI Shopping Assistance.',
     tags: ['AI'],
   },
   {
