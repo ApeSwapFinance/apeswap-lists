@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1033
+// BNB Largest ID: 1034
 // Polygon Largest ID: 133
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
@@ -544,6 +544,33 @@ const bills: BillsConfig[] = [
     fullDescription:
       'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
     tags: ['Reserve'],
+  },
+  {
+    index: 1034,
+    contractAddress: {
+      [ChainId.BSC]: '0x7D051A310911F54a7260591103CDA85b40774D46',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.gtai,
+    lpToken: tokens.gtaiUsdt_PCS,
+    earnToken: tokens.gtai,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://www.gt-protocol.io/',
+    twitter: 'https://twitter.com/gt_protocol',
+    audit: 'https://skynet.certik.com/projects/gt-protocol',
+    initTime: { [ChainId.BSC]: 1709809412 },
+    initPrice: { [ChainId.BSC]: 5.282656128760897 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    fullDescription: 'Good Project ser!',
+    tags: ['AI'],
   },
   {
     index: 1033,
