@@ -1498,6 +1498,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "quoteToken": {
@@ -1516,6 +1519,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "lpToken": {
@@ -1533,6 +1539,9 @@
         "137": 6,
         "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -1662,6 +1671,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "quoteToken": {
@@ -1680,6 +1692,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "lpToken": {
@@ -1697,6 +1712,9 @@
         "137": 6,
         "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -1762,6 +1780,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "quoteToken": {
@@ -1780,6 +1801,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "lpToken": {
@@ -1797,6 +1821,9 @@
         "137": 6,
         "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -1861,6 +1888,9 @@
         "137": 6,
         "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -1950,6 +1980,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "quoteToken": {
@@ -1968,6 +2001,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "lpToken": {
@@ -1985,6 +2021,9 @@
         "137": 6,
         "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -2042,6 +2081,9 @@
         "137": 6,
         "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -2218,6 +2260,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "quoteToken": {
@@ -2236,6 +2281,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "lpToken": {
@@ -2253,6 +2301,9 @@
         "137": 6,
         "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -2396,6 +2447,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "quoteToken": {
@@ -2414,6 +2468,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "lpToken": {
@@ -2431,6 +2488,9 @@
         "137": 6,
         "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -2572,6 +2632,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "quoteToken": {
@@ -2660,6 +2723,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "quoteToken": {
@@ -2678,6 +2744,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "lpToken": {
@@ -2695,6 +2764,9 @@
         "137": 6,
         "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -2754,6 +2826,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "quoteToken": {
@@ -2772,6 +2847,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "lpToken": {
@@ -2789,6 +2867,9 @@
         "137": 6,
         "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -2847,6 +2928,9 @@
         "137": 6,
         "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -3019,6 +3103,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "quoteToken": {
@@ -3037,6 +3124,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "lpToken": {
@@ -3054,6 +3144,9 @@
         "137": 6,
         "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -3112,6 +3205,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "quoteToken": {
@@ -3130,6 +3226,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "lpToken": {
@@ -3147,6 +3246,9 @@
         "137": 6,
         "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -3218,6 +3320,9 @@
         "137": 6,
         "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -3307,6 +3412,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "lpToken": {
@@ -3381,6 +3489,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "quoteToken": {
@@ -3399,6 +3510,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "lpToken": {
@@ -3416,6 +3530,9 @@
         "137": 6,
         "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -3557,6 +3674,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "quoteToken": {
@@ -3575,6 +3695,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "lpToken": {
@@ -3592,6 +3715,9 @@
         "137": 6,
         "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -3651,6 +3777,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "quoteToken": {
@@ -3669,6 +3798,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "lpToken": {
@@ -3686,6 +3818,9 @@
         "137": 6,
         "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -3829,6 +3964,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "quoteToken": {
@@ -3847,6 +3985,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "lpToken": {
@@ -3864,6 +4005,9 @@
         "137": 6,
         "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -3923,6 +4067,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "quoteToken": {
@@ -3941,6 +4088,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "lpToken": {
@@ -3958,6 +4108,9 @@
         "137": 6,
         "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -4017,6 +4170,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "quoteToken": {
@@ -4035,6 +4191,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "lpToken": {
@@ -4052,6 +4211,9 @@
         "137": 6,
         "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -4110,6 +4272,9 @@
         "137": 6,
         "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -4198,6 +4363,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "quoteToken": {
@@ -4216,6 +4384,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "lpToken": {
@@ -4233,6 +4404,9 @@
         "137": 6,
         "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -4373,6 +4547,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "quoteToken": {
@@ -4391,6 +4568,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "lpToken": {
@@ -4408,6 +4588,9 @@
         "137": 6,
         "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -4718,6 +4901,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "quoteToken": {
@@ -4736,6 +4922,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "lpToken": {
@@ -4753,6 +4942,9 @@
         "137": 6,
         "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -6358,6 +6550,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "quoteToken": {
@@ -6376,6 +6571,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "lpToken": {
@@ -6393,6 +6591,9 @@
         "137": 6,
         "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -6452,6 +6653,9 @@
         "137": 6,
         "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -7325,6 +7529,9 @@
         "137": 6,
         "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -9322,6 +9529,9 @@
         "137": 6,
         "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -11421,6 +11631,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "quoteToken": {
@@ -11439,6 +11652,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "lpToken": {
@@ -11456,6 +11672,9 @@
         "137": 6,
         "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -11605,6 +11824,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "lpToken": {
@@ -11680,6 +11902,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "quoteToken": {
@@ -11698,6 +11923,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "lpToken": {
@@ -11715,6 +11943,9 @@
         "137": 6,
         "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -11786,6 +12017,9 @@
         "137": 6,
         "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -12128,6 +12362,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "quoteToken": {
@@ -12146,6 +12383,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "lpToken": {
@@ -12163,6 +12403,9 @@
         "137": 6,
         "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -12298,6 +12541,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "quoteToken": {
@@ -12316,6 +12562,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "lpToken": {
@@ -12333,6 +12582,9 @@
         "137": 6,
         "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -12392,6 +12644,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "quoteToken": {
@@ -12410,6 +12665,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "lpToken": {
@@ -12427,6 +12685,9 @@
         "137": 6,
         "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -12498,6 +12759,9 @@
         "137": 6,
         "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -12763,6 +13027,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "quoteToken": {
@@ -12781,6 +13048,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "lpToken": {
@@ -12798,6 +13068,9 @@
         "137": 6,
         "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -12857,6 +13130,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "quoteToken": {
@@ -12875,6 +13151,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "lpToken": {
@@ -12892,6 +13171,9 @@
         "137": 6,
         "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -13404,6 +13686,9 @@
         "137": 6,
         "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -14428,6 +14713,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "quoteToken": {
@@ -14798,6 +15086,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "quoteToken": {
@@ -15150,6 +15441,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "quoteToken": {
@@ -15365,6 +15659,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "quoteToken": {
@@ -15383,6 +15680,9 @@
         "2525": 6,
         "42161": 6
       },
+      "liquidityDex": {
+        "2525": "External"
+      },
       "active": true
     },
     "lpToken": {
@@ -15400,6 +15700,9 @@
         "137": 6,
         "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },

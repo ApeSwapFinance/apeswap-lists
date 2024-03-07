@@ -307,6 +307,9 @@
           "2525": 6,
           "42161": 6
         },
+        "liquidityDex": {
+          "2525": "External"
+        },
         "active": true
       }
     },

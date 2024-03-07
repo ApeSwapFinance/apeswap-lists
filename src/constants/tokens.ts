@@ -21,32 +21,6 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
-  mockUSDT: {
-    symbol: 'mockUSDT',
-    address: {
-      [ChainId.INEVM]: '0xA4259F9A8EB2E88ccc9C78bE1BeB27faF54bcc7D',
-    },
-    decimals: {
-      [ChainId.INEVM]: 18,
-    },
-    liquidityDex: {
-      [ChainId.INEVM]: LiquidityDex.External,
-    },
-    active: true,
-  },
-  mockINJ: {
-    symbol: 'mockINJ',
-    address: {
-      [ChainId.INEVM]: '0x4569348D39cc38F4d6a1180573Df73B7b03251d9',
-    },
-    decimals: {
-      [ChainId.INEVM]: 18,
-    },
-    liquidityDex: {
-      [ChainId.INEVM]: LiquidityDex.External,
-    },
-    active: true,
-  },
   MockERC20: {
     symbol: 'MockERC20',
     address: {
@@ -977,6 +951,9 @@ const tokens: Record<string, Token> = {
       [ChainId.TLOS]: 6,
       [ChainId.ARBITRUM]: 6,
       [ChainId.INEVM]: 6,
+    },
+    liquidityDex: {
+      [ChainId.INEVM]: LiquidityDex.External,
     },
     active: true,
   },
