@@ -13,7 +13,7 @@ const bills: BillsConfig[] = [
   {
     index: 6000,
     contractAddress: {
-      [ChainId.INEVM]: '0xB9EFa83AEF4e1ecfbf03A04686A41Eb05bc17EC0',
+      [ChainId.INEVM]: '0x816373ed631e8D1aAc0C81eB5FBA0159A140f701',
     },
     billType: 'reserve',
     billVersion: BillVersion.V3,
