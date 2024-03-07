@@ -1488,13 +1488,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -1504,13 +1509,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -1520,13 +1530,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -1646,13 +1661,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -1662,13 +1682,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -1678,13 +1703,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -1740,13 +1770,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -1756,13 +1791,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -1772,13 +1812,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -1822,6 +1867,97 @@
     "tags": ["Reserve"]
   },
   {
+    "index": 1034,
+    "contractAddress": {
+      "56": "0x7D051A310911F54a7260591103CDA85b40774D46"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "USDT",
+      "address": {
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+      },
+      "decimals": {
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "2525": 6,
+        "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "GTAI",
+      "address": {
+        "56": "0x003d87d02A2A01E9E8a20f507C83E15DD83A33d1"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      }
+    },
+    "lpToken": {
+      "symbol": "GTAI-USDT",
+      "address": {
+        "56": "0xAB1E062Ab03b11fF7Dd943C50b9aa2bF9933C1F3"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "getLpUrl": {
+        "56": "https://pancakeswap.finance/v2/add/0x55d398326f99059fF775485246999027B3197955/0x003d87d02A2A01E9E8a20f507C83E15DD83A33d1"
+      }
+    },
+    "earnToken": {
+      "symbol": "GTAI",
+      "address": {
+        "56": "0x003d87d02A2A01E9E8a20f507C83E15DD83A33d1"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      }
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://www.gt-protocol.io/",
+    "twitter": "https://twitter.com/gt_protocol",
+    "audit": "https://skynet.certik.com/projects/gt-protocol",
+    "initTime": {
+      "56": 1709809412
+    },
+    "initPrice": {
+      "56": 5.282656128760897
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "fullDescription": "GT Protocol is a Web3 AI execution technology that grants access to CeFi, DeFi, and NFT crypto markets through an all-in-one conversational AI interface. Incubated by ChainGPT, GT Protocol offers services including AI Crypto Management, AI NFT Management, and AI Shopping Assistance.",
+    "tags": ["AI"]
+  },
+  {
     "index": 1033,
     "contractAddress": {
       "56": "0xD21e9754e988a711E03F94131c9a3024522E2C51"
@@ -1834,13 +1970,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -1850,13 +1991,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -1866,13 +2012,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -1921,13 +2072,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -2094,13 +2250,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -2110,13 +2271,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -2126,13 +2292,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -2266,13 +2437,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -2282,13 +2458,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -2298,13 +2479,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -2436,13 +2622,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -2522,13 +2713,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -2538,13 +2734,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -2554,13 +2755,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -2610,13 +2816,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -2626,13 +2837,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -2642,13 +2858,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -2698,13 +2919,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -2867,13 +3093,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -2883,13 +3114,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -2899,13 +3135,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -2954,13 +3195,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -2970,13 +3216,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -2986,13 +3237,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -3055,13 +3311,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -3141,13 +3402,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -3213,13 +3479,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -3229,13 +3500,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -3245,13 +3521,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -3383,13 +3664,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -3399,13 +3685,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -3415,13 +3706,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -3471,13 +3767,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -3487,13 +3788,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -3503,13 +3809,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -3643,13 +3954,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -3659,13 +3975,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -3675,13 +3996,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -3731,13 +4057,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -3747,13 +4078,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -3763,13 +4099,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -3819,13 +4160,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -3835,13 +4181,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -3851,13 +4202,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -3907,13 +4263,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -3992,13 +4353,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -4008,13 +4374,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -4024,13 +4395,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -4161,13 +4537,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -4177,13 +4558,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -4193,13 +4579,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -4500,13 +4891,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -4516,13 +4912,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -4532,13 +4933,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -6134,13 +6540,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -6150,13 +6561,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -6166,13 +6582,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -6223,13 +6644,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -7094,13 +7520,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -9089,13 +9520,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -11185,13 +11621,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -11201,13 +11642,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -11217,13 +11663,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -11363,13 +11814,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -11436,13 +11892,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -11452,13 +11913,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -11468,13 +11934,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -11537,13 +12008,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -11876,13 +12352,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -11892,13 +12373,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -11908,13 +12394,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -12040,13 +12531,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -12056,13 +12552,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -12072,13 +12573,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -12128,13 +12634,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -12144,13 +12655,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -12160,13 +12676,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -12229,13 +12750,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -12491,13 +13017,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -12507,13 +13038,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -12523,13 +13059,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -12579,13 +13120,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -12595,13 +13141,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -12611,13 +13162,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -13121,13 +13677,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -14142,13 +14703,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -14510,13 +15076,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -14860,13 +15431,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -15073,13 +15649,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -15089,13 +15670,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },
@@ -15105,13 +15691,18 @@
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
         "40": 6,
         "56": 18,
         "137": 6,
+        "2525": 6,
         "42161": 6
+      },
+      "liquidityDex": {
+        "2525": "External"
       },
       "active": true
     },

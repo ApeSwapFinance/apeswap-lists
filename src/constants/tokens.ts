@@ -943,12 +943,17 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: '0xc2132D05D31c914a87C6611C10748AEb04B58e8F',
       [ChainId.TLOS]: '0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73',
       [ChainId.ARBITRUM]: '0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9',
+      [ChainId.INEVM]: '0x97423A68BAe94b5De52d767a17aBCc54c157c0E5',
     },
     decimals: {
       [ChainId.BSC]: 18,
       [ChainId.MATIC]: 6,
       [ChainId.TLOS]: 6,
       [ChainId.ARBITRUM]: 6,
+      [ChainId.INEVM]: 6,
+    },
+    liquidityDex: {
+      [ChainId.INEVM]: LiquidityDex.External,
     },
     active: true,
   },
@@ -1595,6 +1600,19 @@ const tokens: Record<string, Token> = {
     symbol: 'GQ',
     address: {
       [ChainId.BSC]: '0xF700D4c708C2be1463E355F337603183D20E0808',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+  },
+  gtai: {
+    symbol: 'GTAI',
+    address: {
+      [ChainId.BSC]: '0x003d87d02A2A01E9E8a20f507C83E15DD83A33d1',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -2570,6 +2588,19 @@ const tokens: Record<string, Token> = {
       [ChainId.ARBITRUM]: 18,
     },
     active: true,
+  },
+  winj: {
+    symbol: 'WINJ',
+    address: {
+      [ChainId.INEVM]: '0x69011706b3f6C6eaeD7D2Bc13801558B4fd94CBF',
+    },
+    decimals: {
+      [ChainId.INEVM]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.INEVM]: LiquidityDex.External,
+    },
   },
 
   // Test LPs
@@ -3703,6 +3734,22 @@ const tokens: Record<string, Token> = {
     getLpUrl: {
       [ChainId.BSC]:
         'https://pancakeswap.finance/v2/add/0xb160A5F19ebccd8E0549549327e43DDd1D023526/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d',
+    },
+  },
+  gtaiUsdt_PCS: {
+    symbol: 'GTAI-USDT',
+    address: {
+      [ChainId.BSC]: '0xAB1E062Ab03b11fF7Dd943C50b9aa2bF9933C1F3',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl: {
+      [ChainId.BSC]:
+        'https://pancakeswap.finance/v2/add/0x55d398326f99059fF775485246999027B3197955/0x003d87d02A2A01E9E8a20f507C83E15DD83A33d1',
     },
   },
   stlosTlos: {

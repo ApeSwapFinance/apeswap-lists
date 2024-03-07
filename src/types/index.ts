@@ -86,6 +86,7 @@ export enum BillVersion {
   V1 = 'V1',
   V2 = 'V2',
   FixedPrice = 'FixedPrice',
+  V3 = 'V3',
 }
 
 /**
@@ -100,6 +101,8 @@ export enum BillArtCollection {
   ApeBond_Collection1 = 'ApeBond_Collection1',
   CexFundBond_Collection1 = 'CexFundBond_Collection1',
   PlanetIX_Collection1 = 'PlanetIX_Collection1',
+  ETH_Collection1 = 'ETH_Collection1',
+  inEVM_Collection1 = 'inEVM_Collection1',
 }
 
 export const defaultBillArtCollection = BillArtCollection.ApeSwap_Collection1
