@@ -859,6 +859,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  thx: {
+    symbol: 'THX',
+    address: {
+      [ChainId.MATIC]: '0x2934b36ca9A4B31E633C5BE670C8C8b28b6aA015',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.Algebra,
+    },
+    active: true,
+  },
   orbs: {
     symbol: 'ORBS',
     address: {
@@ -2333,6 +2346,17 @@ const tokens: Record<string, Token> = {
     symbol: 'CDX',
     address: {
       [ChainId.BSC]: '0x1c3ba6cF2676cc795db02a3b2093E5076f5F330E',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+    },
+    active: true,
+  },
+  nfe: {
+    symbol: 'NFE',
+    address: {
+      [ChainId.BSC]: '0xf03Ca04Dd56D695a410f46F14feF4028B22FB79A',
     },
     decimals: { [ChainId.BSC]: 18 },
     liquidityDex: {
