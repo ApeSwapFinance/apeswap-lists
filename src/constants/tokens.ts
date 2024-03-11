@@ -952,6 +952,7 @@ const tokens: Record<string, Token> = {
   usdt: {
     symbol: 'USDT',
     address: {
+      [ChainId.MAINNET]: '0xdAC17F958D2ee523a2206206994597C13D831ec7',
       [ChainId.BSC]: '0x55d398326f99059fF775485246999027B3197955',
       [ChainId.MATIC]: '0xc2132D05D31c914a87C6611C10748AEb04B58e8F',
       [ChainId.TLOS]: '0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73',
@@ -959,6 +960,7 @@ const tokens: Record<string, Token> = {
       [ChainId.INEVM]: '0x97423A68BAe94b5De52d767a17aBCc54c157c0E5',
     },
     decimals: {
+      [ChainId.MAINNET]: 6,
       [ChainId.BSC]: 18,
       [ChainId.MATIC]: 6,
       [ChainId.TLOS]: 6,
@@ -967,6 +969,7 @@ const tokens: Record<string, Token> = {
     },
     liquidityDex: {
       [ChainId.INEVM]: LiquidityDex.External,
+      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
     },
     active: true,
   },

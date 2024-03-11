@@ -53,6 +53,7 @@
     "usdt": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -60,6 +61,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -67,6 +69,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -156,6 +159,7 @@
     "usdt": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -163,6 +167,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -170,6 +175,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -301,6 +307,7 @@
     "usdt": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -308,6 +315,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -315,6 +323,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -344,6 +353,7 @@
     "usdt": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -351,6 +361,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -358,6 +369,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true

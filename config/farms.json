@@ -3754,6 +3754,7 @@
     },
     "quoteTokenSymbol": "USDT",
     "quoteTokenAdresses": {
+      "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
       "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
       "56": "0x55d398326f99059fF775485246999027B3197955",
       "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -3963,6 +3964,7 @@
     },
     "quoteTokenSymbol": "USDT",
     "quoteTokenAdresses": {
+      "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
       "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
       "56": "0x55d398326f99059fF775485246999027B3197955",
       "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
