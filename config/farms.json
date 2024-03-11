@@ -14,9 +14,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     }
   },
   {
@@ -35,9 +35,9 @@
     "style": "featured",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     }
   },
   {
@@ -56,7 +56,7 @@
     "style": "featured",
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+      "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
       "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     }
   },
@@ -75,9 +75,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     }
   },
   {
@@ -95,9 +95,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     }
   },
   {
@@ -116,9 +116,9 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://keyfi.com/"
   },
@@ -137,9 +137,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://jdiyield.com"
   },
@@ -158,9 +158,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://fantom.foundation/"
   },
@@ -179,9 +179,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://ripple.com/xrp/"
   },
@@ -200,9 +200,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://z.cash/"
   },
@@ -221,9 +221,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://near.org/"
   },
@@ -242,9 +242,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://www.synthetix.io/"
   },
@@ -264,9 +264,9 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://bluzelle.com/"
   },
@@ -286,9 +286,9 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://apetools.co/"
   },
@@ -307,9 +307,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://www.celer.network/"
   },
@@ -328,9 +328,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://shibatoken.com/"
   },
@@ -349,9 +349,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://www.bitcrush.com/"
   },
@@ -371,9 +371,9 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://game.seascape.network/"
   },
@@ -392,9 +392,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://coti.io/"
   },
@@ -413,9 +413,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://www.avalabs.org/"
   },
@@ -434,9 +434,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://polygon.technology/"
   },
@@ -455,9 +455,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://aave.com/"
   },
@@ -477,9 +477,9 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://ethereumclassic.org/"
   },
@@ -498,9 +498,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://compound.finance/"
   },
@@ -519,9 +519,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://dogecoin.com/"
   },
@@ -540,9 +540,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://litecoin.org/"
   },
@@ -561,9 +561,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://polkadot.network/"
   },
@@ -582,9 +582,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://swipe.io/"
   },
@@ -603,9 +603,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://chain.link/"
   },
@@ -624,9 +624,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://cardano.org/"
   },
@@ -646,10 +646,10 @@
     "quoteTokenSymbol": "ETH",
     "quoteTokenAdresses": {
       "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-      "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
-      "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
-      "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
-      "137": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+      "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+      "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+      "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+      "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
       "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
     },
     "projectLink": "https://cardano.org/"
@@ -669,9 +669,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://www.iota.org/"
   },
@@ -690,9 +690,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://basicattentiontoken.org/"
   },
@@ -712,10 +712,10 @@
     "quoteTokenSymbol": "ETH",
     "quoteTokenAdresses": {
       "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-      "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
-      "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
-      "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
-      "137": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+      "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+      "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+      "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+      "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
       "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
     },
     "projectLink": "https://basicattentiontoken.org/"
@@ -758,7 +758,7 @@
     },
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+      "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
       "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     }
   },
@@ -777,7 +777,7 @@
     },
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+      "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
       "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     },
     "projectLink": "https://makerdao.com/en/"
@@ -797,7 +797,7 @@
     },
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+      "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
       "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     }
   },
@@ -816,9 +816,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://app.sushi.com/"
   },
@@ -838,10 +838,10 @@
     "quoteTokenSymbol": "ETH",
     "quoteTokenAdresses": {
       "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-      "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
-      "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
-      "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
-      "137": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+      "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+      "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+      "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+      "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
       "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
     },
     "projectLink": "https://app.sushi.com/"
@@ -861,9 +861,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://moonlighttoken.com/"
   },
@@ -882,9 +882,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://autofarm.network/"
   },
@@ -903,9 +903,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://astronaut.to"
   },
@@ -925,9 +925,9 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://www.bakeryswap.org/"
   },
@@ -946,9 +946,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://pancakeswap.finance/"
   },
@@ -967,9 +967,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     }
   },
   {
@@ -988,9 +988,9 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://jetfuel.finance/"
   },
@@ -1009,9 +1009,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://www.beefy.finance/"
   },
@@ -1031,9 +1031,9 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://typhoon.network/"
   },
@@ -1053,9 +1053,9 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://multiplier.finance/"
   },
@@ -1074,9 +1074,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://hifigamingsociety.com"
   },
@@ -1096,9 +1096,9 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://www.gmr.finance/"
   },
@@ -1117,9 +1117,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://aperocket.finance/"
   },
@@ -1139,9 +1139,9 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://fegtoken.com/"
   },
@@ -1161,9 +1161,9 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://www.ata.network/"
   },
@@ -1183,9 +1183,9 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://www.thegrandbanks.finance/"
   },
@@ -1205,9 +1205,9 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://farmhero.io/"
   },
@@ -1227,9 +1227,9 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://twin.finance/"
   },
@@ -1249,9 +1249,9 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://www.mobox.io/"
   },
@@ -1271,9 +1271,9 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://foxynft.org"
   },
@@ -1293,9 +1293,9 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://wyverntoken.com/"
   },
@@ -1314,9 +1314,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://bogged.finance/"
   },
@@ -1336,9 +1336,9 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://yieldparrot.finance"
   },
@@ -1358,9 +1358,9 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://scamily.io/"
   },
@@ -1380,9 +1380,9 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://www.fruitsadventures.com/"
   },
@@ -1401,9 +1401,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://www.yieldwatch.net/"
   },
@@ -1422,9 +1422,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://www.cryptoblades.io/"
   },
@@ -1443,9 +1443,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://www.safepal.io/"
   },
@@ -1464,9 +1464,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://trustwallet.com/"
   },
@@ -1485,9 +1485,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://ellipsis.finance/"
   },
@@ -1506,9 +1506,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://venus.io/"
   },
@@ -1527,9 +1527,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://pacoca.io"
   },
@@ -1548,9 +1548,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://www.newb.farm/"
   },
@@ -1569,9 +1569,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://bishares.finance"
   },
@@ -1590,9 +1590,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://yearn.finance/"
   },
@@ -1611,9 +1611,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://ont.io"
   },
@@ -1632,9 +1632,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://www.mogulproductions.com/"
   },
@@ -1653,9 +1653,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://srnartgallery.com"
   },
@@ -1675,9 +1675,9 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://www.ternoa.com/"
   },
@@ -1696,9 +1696,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://birb.com/"
   },
@@ -1717,9 +1717,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://axieinfinity.com/"
   },
@@ -1739,9 +1739,9 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://pera.finance"
   },
@@ -1760,9 +1760,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://www.wolfdencrypto.com/"
   },
@@ -1781,9 +1781,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://landshare.io/"
   },
@@ -1802,9 +1802,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://moonpot.com/"
   },
@@ -1824,9 +1824,9 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://srnartgallery.com/"
   },
@@ -1845,9 +1845,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://billionhappiness.finance/"
   },
@@ -1866,9 +1866,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://dragonary.com/"
   },
@@ -1887,7 +1887,7 @@
     },
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+      "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
       "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     },
     "projectLink": "https://hotcross.com/"
@@ -1908,9 +1908,9 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://lympo.io/lmt/"
   },
@@ -1930,9 +1930,9 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://bigfoottoken.finance/"
   },
@@ -1951,9 +1951,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://nabox.io/"
   },
@@ -1972,9 +1972,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://babylons.io/"
   },
@@ -1993,9 +1993,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://revvmotorsport.com/"
   },
@@ -2015,9 +2015,9 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://zignaly.com/"
   },
@@ -2036,9 +2036,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://nerve.network/"
   },
@@ -2057,7 +2057,7 @@
     },
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+      "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
       "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     },
     "projectLink": "https://mor.growthdefi.com/"
@@ -2077,9 +2077,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://www.polarsync.app/"
   },
@@ -2098,9 +2098,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://ceek.io/"
   },
@@ -2120,9 +2120,9 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://ydragon.io/"
   },
@@ -2141,9 +2141,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://ont.io/"
   },
@@ -2162,9 +2162,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://dea.sg/"
   },
@@ -2184,9 +2184,9 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://risingsun.finance/"
   },
@@ -2205,9 +2205,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://tixl.org/"
   },
@@ -2226,9 +2226,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://seedify.fund/"
   },
@@ -2247,9 +2247,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://ferrum.network/"
   },
@@ -2269,9 +2269,9 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://www.sx.technology/"
   },
@@ -2290,9 +2290,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://www.rocki.app/"
   },
@@ -2311,9 +2311,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://gummybull.io/"
   },
@@ -2332,9 +2332,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://decubate.com/"
   },
@@ -2353,9 +2353,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://nftynetwork.io/"
   },
@@ -2375,9 +2375,9 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://secretswap.io/"
   },
@@ -2396,9 +2396,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://www.ihcoin.io/"
   },
@@ -2417,9 +2417,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://prosper.so/"
   },
@@ -2439,9 +2439,9 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://www.airnfts.com/"
   },
@@ -2460,9 +2460,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://thetanarena.com/"
   },
@@ -2481,9 +2481,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://wsg.gg/"
   },
@@ -2502,9 +2502,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://fomochronicles.com/"
   },
@@ -2523,9 +2523,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://www.tnns.pro/"
   },
@@ -2544,9 +2544,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://cryptobladeskingdoms.io/"
   },
@@ -2565,9 +2565,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://filecoin.io/"
   },
@@ -2587,7 +2587,7 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+      "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
       "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     },
     "projectLink": "https://trueusd.com/"
@@ -2608,9 +2608,9 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://idex.io/"
   },
@@ -2629,9 +2629,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://www.crazydefenseheroes.com/"
   },
@@ -2651,9 +2651,9 @@
     "style": "deprecated",
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://wazirx.com/"
   },
@@ -2672,9 +2672,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://projectoasis.io/"
   },
@@ -2693,9 +2693,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://hotcross.com/ "
   },
@@ -2714,9 +2714,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://pontoon.fi/"
   },
@@ -2735,9 +2735,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://wing.finance/"
   },
@@ -2756,9 +2756,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://galacticarena.io/"
   },
@@ -2777,9 +2777,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://bitcashpay.net/"
   },
@@ -2798,9 +2798,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://www.buffer.finance/"
   },
@@ -2819,9 +2819,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://sata.technology/"
   },
@@ -2840,9 +2840,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://imem.app/"
   },
@@ -2861,9 +2861,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://frax.finance/"
   },
@@ -2882,7 +2882,7 @@
     },
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+      "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
       "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     },
     "projectLink": "https://frax.finance/"
@@ -2902,7 +2902,7 @@
     },
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+      "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
       "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     },
     "projectLink": "https://www.relaychain.com/"
@@ -2922,9 +2922,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://market.onquidd.com/"
   },
@@ -2943,9 +2943,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://monstainfinite.com/"
   },
@@ -2964,7 +2964,7 @@
     },
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+      "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
       "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     },
     "projectLink": "https://infomatix.io/"
@@ -2984,7 +2984,7 @@
     },
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+      "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
       "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     },
     "projectLink": "https://projectseed.io/"
@@ -3004,9 +3004,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://lemonn.io/"
   },
@@ -3025,9 +3025,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://heroarena.app/"
   },
@@ -3046,9 +3046,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://www.gamee.com/"
   },
@@ -3067,9 +3067,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://ariva.digital/"
   },
@@ -3088,9 +3088,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://asko.finance/rasko"
   },
@@ -3109,9 +3109,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://propel.xyz/"
   },
@@ -3130,9 +3130,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://99starz.io/"
   },
@@ -3151,9 +3151,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://quantumassets.vg/"
   },
@@ -3172,9 +3172,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://www.leagueofancients.com/"
   },
@@ -3193,9 +3193,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://adshares.net/"
   },
@@ -3214,7 +3214,7 @@
     },
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+      "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
       "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     },
     "projectLink": "https://zignaly.com/"
@@ -3234,9 +3234,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://kardiachain.io/"
   },
@@ -3255,9 +3255,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://dosetoken.com/"
   },
@@ -3276,9 +3276,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://outrace.game/"
   },
@@ -3297,9 +3297,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://mytheria.io/"
   },
@@ -3318,9 +3318,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://cryptogodz.io/"
   },
@@ -3339,9 +3339,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://manufactory.gg/"
   },
@@ -3360,9 +3360,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://gmr.center/"
   },
@@ -3381,9 +3381,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://bcmhunt.com/"
   },
@@ -3402,9 +3402,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://www.manarium.com/"
   },
@@ -3423,9 +3423,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://nftytoken.io/ "
   },
@@ -3444,9 +3444,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://lunarcrush.com/"
   },
@@ -3465,9 +3465,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://trustnft.org"
   },
@@ -3486,9 +3486,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://cosmosium.finance/"
   },
@@ -3507,7 +3507,7 @@
     },
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+      "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
       "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     },
     "projectLink": "https://rankerdao.com/"
@@ -3527,7 +3527,7 @@
     },
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+      "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
       "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     },
     "projectLink": "https://frontier.xyz/"
@@ -3547,9 +3547,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://animalconcerts.com/"
   },
@@ -3568,9 +3568,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://apecoin.com/"
   },
@@ -3589,9 +3589,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://bountiehunter.io/"
   },
@@ -3610,9 +3610,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://www.ankr.com"
   },
@@ -3631,7 +3631,7 @@
     },
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+      "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
       "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     },
     "projectLink": "https://www.kyte.one/"
@@ -3651,7 +3651,7 @@
     },
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+      "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
       "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     },
     "projectLink": "https://outerringmmo.com/"
@@ -3671,9 +3671,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://aspo.world/"
   },
@@ -3692,9 +3692,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://www.biconomy.io"
   },
@@ -3713,7 +3713,7 @@
     },
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+      "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
       "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     },
     "projectLink": "https://gravis.finance/"
@@ -3733,9 +3733,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://dappradar.com/"
   },
@@ -3754,6 +3754,7 @@
     },
     "quoteTokenSymbol": "USDT",
     "quoteTokenAdresses": {
+      "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
       "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
       "56": "0x55d398326f99059fF775485246999027B3197955",
       "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -3777,9 +3778,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://cryptopolisgame.com/"
   },
@@ -3798,7 +3799,7 @@
     },
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+      "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
       "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     },
     "projectLink": "https://www.telos.net/"
@@ -3818,9 +3819,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://olympicgamesjam.nwayplay.com/"
   },
@@ -3839,9 +3840,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://roobee.io/"
   },
@@ -3860,9 +3861,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://froyo.games/home"
   },
@@ -3881,9 +3882,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://www.benjibananas.com/"
   },
@@ -3902,9 +3903,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://hector.network/"
   },
@@ -3923,7 +3924,7 @@
     },
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+      "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
       "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     },
     "projectLink": "https://hector.network/"
@@ -3943,7 +3944,7 @@
     },
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+      "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
       "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     },
     "projectLink": "https://metashooter.gg/"
@@ -3963,6 +3964,7 @@
     },
     "quoteTokenSymbol": "USDT",
     "quoteTokenAdresses": {
+      "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
       "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
       "56": "0x55d398326f99059fF775485246999027B3197955",
       "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -3986,7 +3988,7 @@
     },
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+      "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
       "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     },
     "projectLink": "https://apemove.io/"
@@ -4006,7 +4008,7 @@
     },
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+      "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
       "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     },
     "projectLink": "https://staderlabs.com/"
@@ -4026,7 +4028,7 @@
     },
     "quoteTokenSymbol": "BUSD",
     "quoteTokenAdresses": {
-      "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+      "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
       "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
     },
     "projectLink": "https://piston-token.com/swap"
@@ -4046,9 +4048,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://chirpley.ai"
   },
@@ -4067,9 +4069,9 @@
     },
     "quoteTokenSymbol": "BNB",
     "quoteTokenAdresses": {
-      "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-      "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
     },
     "projectLink": "https://3air.io/"
   },
@@ -4089,10 +4091,10 @@
     "quoteTokenSymbol": "ETH",
     "quoteTokenAdresses": {
       "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-      "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
-      "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
-      "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
-      "137": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+      "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+      "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+      "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+      "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
       "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
     },
     "projectLink": "https://cryptofruits.com/index.php"

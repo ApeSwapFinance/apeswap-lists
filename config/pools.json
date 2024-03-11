@@ -124,9 +124,9 @@
     "rewardToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -1922,10 +1922,15 @@
     "rewardToken": {
       "symbol": "CHRP",
       "address": {
+        "1": "0x70Bc0DC6414EB8974BC70685F798838a87d8CCe4",
         "56": "0xeD00Fc7D48B57B81FE65D1cE71c0985e4CF442CB"
       },
       "decimals": {
+        "1": 18,
         "56": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV2"
       },
       "active": true
     },
@@ -2348,7 +2353,7 @@
       "quoteToken": {
         "symbol": "BUSD",
         "address": {
-          "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+          "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
           "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
         },
         "decimals": {
@@ -2411,9 +2416,9 @@
       "quoteToken": {
         "symbol": "BNB",
         "address": {
-          "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-          "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-          "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+          "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+          "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+          "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
         },
         "decimals": {
           "56": 18,
@@ -2476,9 +2481,9 @@
       "quoteToken": {
         "symbol": "BNB",
         "address": {
-          "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-          "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-          "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+          "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+          "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+          "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
         },
         "decimals": {
           "56": 18,
@@ -2541,7 +2546,7 @@
       "quoteToken": {
         "symbol": "BUSD",
         "address": {
-          "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+          "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
           "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
         },
         "decimals": {
@@ -2604,9 +2609,9 @@
       "quoteToken": {
         "symbol": "BNB",
         "address": {
-          "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-          "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-          "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+          "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+          "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+          "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
         },
         "decimals": {
           "56": 18,
@@ -2669,7 +2674,7 @@
       "quoteToken": {
         "symbol": "BUSD",
         "address": {
-          "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+          "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
           "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
         },
         "decimals": {
@@ -2946,6 +2951,7 @@
     "rewardToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -2953,6 +2959,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -2960,6 +2967,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true

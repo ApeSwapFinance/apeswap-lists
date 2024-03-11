@@ -755,9 +755,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -825,7 +825,7 @@
     "token": {
       "symbol": "BUSD",
       "address": {
-        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
         "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
       },
       "decimals": {
@@ -837,9 +837,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -902,7 +902,7 @@
     "token": {
       "symbol": "BUSD",
       "address": {
-        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
         "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
       },
       "decimals": {
@@ -915,9 +915,9 @@
       "symbol": "USDC",
       "address": {
         "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
-        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
@@ -984,10 +984,10 @@
       "symbol": "ETH",
       "address": {
         "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
-        "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
-        "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
-        "137": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
         "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
       },
       "decimals": {
@@ -1003,9 +1003,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -1068,10 +1068,10 @@
     "token": {
       "symbol": "BTC",
       "address": {
-        "40": "0xf390830df829cf22c53c8840554b98eafc5dcbc2",
-        "56": "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c",
-        "97": "0x6ce8da28e2f864420840cf74474eff5fd80e65b8",
-        "137": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6"
+        "40": "0xf390830DF829cf22c53c8840554B98eafC5dCBc2",
+        "56": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+        "97": "0x6ce8dA28E2f864420840cF74474eFf5fD80E65B8",
+        "137": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6"
       },
       "decimals": {
         "40": 8,
@@ -1084,9 +1084,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -1149,7 +1149,7 @@
     "token": {
       "symbol": "BUSD",
       "address": {
-        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
         "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
       },
       "decimals": {
@@ -1161,9 +1161,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -1229,7 +1229,7 @@
     "token": {
       "symbol": "BUSD",
       "address": {
-        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
         "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
       },
       "decimals": {
@@ -1242,9 +1242,9 @@
       "symbol": "USDC",
       "address": {
         "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
-        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
@@ -1314,10 +1314,10 @@
       "symbol": "ETH",
       "address": {
         "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
-        "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
-        "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
-        "137": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
         "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
       },
       "decimals": {
@@ -1333,9 +1333,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -1401,10 +1401,10 @@
     "token": {
       "symbol": "BTC",
       "address": {
-        "40": "0xf390830df829cf22c53c8840554b98eafc5dcbc2",
-        "56": "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c",
-        "97": "0x6ce8da28e2f864420840cf74474eff5fd80e65b8",
-        "137": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6"
+        "40": "0xf390830DF829cf22c53c8840554B98eafC5dCBc2",
+        "56": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+        "97": "0x6ce8dA28E2f864420840cF74474eFf5fD80E65B8",
+        "137": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6"
       },
       "decimals": {
         "40": 8,
@@ -1417,9 +1417,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -1485,6 +1485,7 @@
     "token": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -1492,6 +1493,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -1499,6 +1501,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -1506,6 +1509,7 @@
     "quoteToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -1513,6 +1517,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -1520,6 +1525,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -1527,6 +1533,7 @@
     "lpToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -1534,6 +1541,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -1541,6 +1549,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -1658,6 +1667,7 @@
     "token": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -1665,6 +1675,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -1672,6 +1683,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -1679,6 +1691,7 @@
     "quoteToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -1686,6 +1699,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -1693,6 +1707,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -1700,6 +1715,7 @@
     "lpToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -1707,6 +1723,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -1714,6 +1731,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -1767,6 +1785,7 @@
     "token": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -1774,6 +1793,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -1781,6 +1801,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -1788,6 +1809,7 @@
     "quoteToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -1795,6 +1817,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -1802,6 +1825,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -1809,6 +1833,7 @@
     "lpToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -1816,6 +1841,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -1823,6 +1849,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -1876,6 +1903,7 @@
     "token": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -1883,6 +1911,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -1890,6 +1919,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -1897,6 +1927,7 @@
     "quoteToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -1904,6 +1935,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -1911,6 +1943,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -1918,6 +1951,7 @@
     "lpToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -1925,6 +1959,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -1932,6 +1967,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -1976,6 +2012,88 @@
     "tags": ["Reserve"]
   },
   {
+    "index": 1037,
+    "contractAddress": {
+      "56": "0xea1735193cD2cD78251D7225A405d59D5F8a8e7D"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "NFE",
+      "address": {
+        "56": "0xf03Ca04Dd56D695a410f46F14feF4028B22FB79A"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://edu3labs.com/",
+    "twitter": "https://twitter.com/edu3labs",
+    "audit": "https://nfedocs.edu3labs.com/audit",
+    "initTime": {
+      "56": 1704891600
+    },
+    "initPrice": {
+      "56": 0.00173967992950712
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["NFTs"],
+    "fullDescription": "Edu3Labs is revolutionizing education through Web3 by leveraging the capabilities of AI and blockchain technology to enhance learning experiences. Users gain access to content from leading producers and can easily purchase educational materials. They can also anticipate earning significant commissions and generating consistent passive income from sales in the secondary market. Edu3Labs: strong emphasis on education with maximum benefits to its users."
+  },
+  {
     "index": 1035,
     "contractAddress": {
       "56": "0x66B3D959675427904a5Fa74aa3cC49ddDCa06b52"
@@ -1985,6 +2103,7 @@
     "token": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -1992,6 +2111,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -1999,6 +2119,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -2006,6 +2127,7 @@
     "quoteToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -2013,6 +2135,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -2020,6 +2143,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -2027,6 +2151,7 @@
     "lpToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -2034,6 +2159,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -2041,6 +2167,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -2088,6 +2215,7 @@
     "token": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -2095,6 +2223,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -2102,6 +2231,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -2179,6 +2309,7 @@
     "token": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -2186,6 +2317,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -2193,6 +2325,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -2200,6 +2333,7 @@
     "quoteToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -2207,6 +2341,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -2214,6 +2349,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -2221,6 +2357,7 @@
     "lpToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -2228,6 +2365,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -2235,6 +2373,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -2281,6 +2420,7 @@
     "token": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -2288,6 +2428,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -2295,6 +2436,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -2385,9 +2527,9 @@
       "symbol": "USDC",
       "address": {
         "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
-        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
@@ -2459,6 +2601,7 @@
     "token": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -2466,6 +2609,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -2473,6 +2617,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -2480,6 +2625,7 @@
     "quoteToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -2487,6 +2633,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -2494,6 +2641,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -2501,6 +2649,7 @@
     "lpToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -2508,6 +2657,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -2515,6 +2665,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -2575,9 +2726,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -2646,6 +2797,7 @@
     "token": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -2653,6 +2805,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -2660,6 +2813,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -2667,6 +2821,7 @@
     "quoteToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -2674,6 +2829,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -2681,6 +2837,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -2688,6 +2845,7 @@
     "lpToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -2695,6 +2853,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -2702,6 +2861,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -2749,9 +2909,9 @@
     "token": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -2763,9 +2923,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -2777,9 +2937,9 @@
     "lpToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -2831,6 +2991,7 @@
     "token": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -2838,6 +2999,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -2845,6 +3007,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -2922,6 +3085,7 @@
     "token": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -2929,6 +3093,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -2936,6 +3101,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -2943,6 +3109,7 @@
     "quoteToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -2950,6 +3117,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -2957,6 +3125,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -2964,6 +3133,7 @@
     "lpToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -2971,6 +3141,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -2978,6 +3149,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -3025,6 +3197,7 @@
     "token": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -3032,6 +3205,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -3039,6 +3213,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -3046,6 +3221,7 @@
     "quoteToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -3053,6 +3229,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -3060,6 +3237,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -3067,6 +3245,7 @@
     "lpToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -3074,6 +3253,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -3081,6 +3261,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -3128,6 +3309,7 @@
     "token": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -3135,6 +3317,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -3142,6 +3325,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -3231,9 +3415,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -3302,6 +3486,7 @@
     "token": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -3309,6 +3494,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -3316,6 +3502,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -3323,6 +3510,7 @@
     "quoteToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -3330,6 +3518,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -3337,6 +3526,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -3344,6 +3534,7 @@
     "lpToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -3351,6 +3542,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -3358,6 +3550,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -3404,6 +3597,7 @@
     "token": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -3411,6 +3605,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -3418,6 +3613,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -3425,6 +3621,7 @@
     "quoteToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -3432,6 +3629,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -3439,6 +3637,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -3446,6 +3645,7 @@
     "lpToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -3453,6 +3653,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -3460,6 +3661,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -3520,6 +3722,7 @@
     "quoteToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -3527,6 +3730,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -3534,6 +3738,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -3611,6 +3816,7 @@
     "quoteToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -3618,6 +3824,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -3625,6 +3832,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -3688,6 +3896,7 @@
     "token": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -3695,6 +3904,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -3702,6 +3912,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -3709,6 +3920,7 @@
     "quoteToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -3716,6 +3928,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -3723,6 +3936,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -3730,6 +3944,7 @@
     "lpToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -3737,6 +3952,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -3744,6 +3960,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -3791,9 +4008,9 @@
     "token": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -3805,9 +4022,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -3819,9 +4036,9 @@
     "lpToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -3873,6 +4090,7 @@
     "token": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -3880,6 +4098,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -3887,6 +4106,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -3894,6 +4114,7 @@
     "quoteToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -3901,6 +4122,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -3908,6 +4130,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -3915,6 +4138,7 @@
     "lpToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -3922,6 +4146,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -3929,6 +4154,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -3976,6 +4202,7 @@
     "token": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -3983,6 +4210,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -3990,6 +4218,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -3997,6 +4226,7 @@
     "quoteToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -4004,6 +4234,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -4011,6 +4242,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -4018,6 +4250,7 @@
     "lpToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -4025,6 +4258,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -4032,6 +4266,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -4092,9 +4327,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -4163,6 +4398,7 @@
     "token": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -4170,6 +4406,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -4177,6 +4414,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -4184,6 +4422,7 @@
     "quoteToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -4191,6 +4430,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -4198,6 +4438,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -4205,6 +4446,7 @@
     "lpToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -4212,6 +4454,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -4219,6 +4462,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -4266,6 +4510,7 @@
     "token": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -4273,6 +4518,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -4280,6 +4526,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -4287,6 +4534,7 @@
     "quoteToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -4294,6 +4542,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -4301,6 +4550,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -4308,6 +4558,7 @@
     "lpToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -4315,6 +4566,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -4322,6 +4574,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -4369,6 +4622,7 @@
     "token": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -4376,6 +4630,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -4383,6 +4638,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -4390,6 +4646,7 @@
     "quoteToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -4397,6 +4654,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -4404,6 +4662,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -4411,6 +4670,7 @@
     "lpToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -4418,6 +4678,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -4425,6 +4686,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -4472,6 +4734,7 @@
     "token": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -4479,6 +4742,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -4486,6 +4750,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -4562,6 +4827,7 @@
     "token": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -4569,6 +4835,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -4576,6 +4843,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -4583,6 +4851,7 @@
     "quoteToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -4590,6 +4859,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -4597,6 +4867,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -4604,6 +4875,7 @@
     "lpToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -4611,6 +4883,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -4618,6 +4891,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -4676,9 +4950,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -4746,6 +5020,7 @@
     "token": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -4753,6 +5028,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -4760,6 +5036,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -4767,6 +5044,7 @@
     "quoteToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -4774,6 +5052,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -4781,6 +5060,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -4788,6 +5068,7 @@
     "lpToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -4795,6 +5076,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -4802,6 +5084,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -4858,9 +5141,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -4928,9 +5211,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -5007,7 +5290,7 @@
     "quoteToken": {
       "symbol": "BUSD",
       "address": {
-        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
         "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
       },
       "decimals": {
@@ -5100,6 +5383,7 @@
     "token": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -5107,6 +5391,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -5114,6 +5399,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -5121,6 +5407,7 @@
     "quoteToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -5128,6 +5415,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -5135,6 +5423,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -5142,6 +5431,7 @@
     "lpToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -5149,6 +5439,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -5156,6 +5447,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -5208,7 +5500,7 @@
     "quoteToken": {
       "symbol": "BUSD",
       "address": {
-        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
         "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
       },
       "decimals": {
@@ -5285,9 +5577,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -5364,9 +5656,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -5443,7 +5735,7 @@
     "quoteToken": {
       "symbol": "BUSD",
       "address": {
-        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
         "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
       },
       "decimals": {
@@ -5549,7 +5841,7 @@
     "quoteToken": {
       "symbol": "BUSD",
       "address": {
-        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
         "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
       },
       "decimals": {
@@ -5613,12 +5905,15 @@
     "token": {
       "symbol": "CGV",
       "address": {
+        "1": "0xaeF420fd77477d9Dc8B46D704D44dD09d6c27866",
         "56": "0x1bDaF9ddD7658d8049391971d1fd48c0484F66EC"
       },
       "decimals": {
+        "1": 6,
         "56": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "56": "PancakeSwapV2"
       },
       "active": true
@@ -5626,9 +5921,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -5657,12 +5952,15 @@
     "earnToken": {
       "symbol": "CGV",
       "address": {
+        "1": "0xaeF420fd77477d9Dc8B46D704D44dD09d6c27866",
         "56": "0x1bDaF9ddD7658d8049391971d1fd48c0484F66EC"
       },
       "decimals": {
+        "1": 6,
         "56": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "56": "PancakeSwapV2"
       },
       "active": true
@@ -5705,9 +6003,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -5771,7 +6069,7 @@
     "token": {
       "symbol": "BUSD",
       "address": {
-        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
         "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
       },
       "decimals": {
@@ -5783,9 +6081,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -5851,7 +6149,7 @@
     "token": {
       "symbol": "BUSD",
       "address": {
-        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
         "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
       },
       "decimals": {
@@ -5864,9 +6162,9 @@
       "symbol": "USDC",
       "address": {
         "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
-        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
@@ -5936,10 +6234,10 @@
       "symbol": "ETH",
       "address": {
         "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
-        "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
-        "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
-        "137": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
         "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
       },
       "decimals": {
@@ -5955,9 +6253,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -6023,10 +6321,10 @@
     "token": {
       "symbol": "BTC",
       "address": {
-        "40": "0xf390830df829cf22c53c8840554b98eafc5dcbc2",
-        "56": "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c",
-        "97": "0x6ce8da28e2f864420840cf74474eff5fd80e65b8",
-        "137": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6"
+        "40": "0xf390830DF829cf22c53c8840554B98eafC5dCBc2",
+        "56": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+        "97": "0x6ce8dA28E2f864420840cF74474eFf5fD80E65B8",
+        "137": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6"
       },
       "decimals": {
         "40": 8,
@@ -6039,9 +6337,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -6120,9 +6418,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -6199,7 +6497,7 @@
     "quoteToken": {
       "symbol": "BUSD",
       "address": {
-        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
         "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
       },
       "decimals": {
@@ -6273,9 +6571,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -6343,7 +6641,7 @@
     "quoteToken": {
       "symbol": "BUSD",
       "address": {
-        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
         "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
       },
       "decimals": {
@@ -6410,9 +6708,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -6480,7 +6778,7 @@
     "quoteToken": {
       "symbol": "BUSD",
       "address": {
-        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
         "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
       },
       "decimals": {
@@ -6548,9 +6846,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -6625,9 +6923,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -6692,9 +6990,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -6749,6 +7047,7 @@
     "token": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -6756,6 +7055,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -6763,6 +7063,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -6770,6 +7071,7 @@
     "quoteToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -6777,6 +7079,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -6784,6 +7087,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -6791,6 +7095,7 @@
     "lpToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -6798,6 +7103,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -6805,6 +7111,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -6853,6 +7160,7 @@
     "quoteToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -6860,6 +7168,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -6867,6 +7176,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -6926,9 +7236,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -6993,9 +7303,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -7063,9 +7373,9 @@
       "symbol": "USDC",
       "address": {
         "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
-        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
@@ -7094,9 +7404,9 @@
       "symbol": "USDC",
       "address": {
         "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
-        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
@@ -7155,9 +7465,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -7222,9 +7532,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -7292,9 +7602,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -7362,9 +7672,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -7432,9 +7742,9 @@
       "symbol": "USDC",
       "address": {
         "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
-        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
@@ -7463,9 +7773,9 @@
       "symbol": "USDC",
       "address": {
         "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
-        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
@@ -7524,9 +7834,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -7592,9 +7902,9 @@
       "symbol": "USDC",
       "address": {
         "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
-        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
@@ -7662,9 +7972,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -7729,6 +8039,7 @@
     "quoteToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -7736,6 +8047,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -7743,6 +8055,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -7803,9 +8116,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -7870,7 +8183,7 @@
     "quoteToken": {
       "symbol": "BUSD",
       "address": {
-        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
         "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
       },
       "decimals": {
@@ -7935,9 +8248,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -8002,9 +8315,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -8069,7 +8382,7 @@
     "quoteToken": {
       "symbol": "BUSD",
       "address": {
-        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
         "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
       },
       "decimals": {
@@ -8137,9 +8450,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -8207,9 +8520,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -8264,7 +8577,7 @@
     "token": {
       "symbol": "BUSD",
       "address": {
-        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
         "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
       },
       "decimals": {
@@ -8276,9 +8589,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -8340,7 +8653,7 @@
     "token": {
       "symbol": "BUSD",
       "address": {
-        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
         "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
       },
       "decimals": {
@@ -8353,9 +8666,9 @@
       "symbol": "USDC",
       "address": {
         "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
-        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
@@ -8421,10 +8734,10 @@
       "symbol": "ETH",
       "address": {
         "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
-        "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
-        "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
-        "137": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
         "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
       },
       "decimals": {
@@ -8440,9 +8753,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -8504,10 +8817,10 @@
     "token": {
       "symbol": "BTC",
       "address": {
-        "40": "0xf390830df829cf22c53c8840554b98eafc5dcbc2",
-        "56": "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c",
-        "97": "0x6ce8da28e2f864420840cf74474eff5fd80e65b8",
-        "137": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6"
+        "40": "0xf390830DF829cf22c53c8840554B98eafC5dCBc2",
+        "56": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+        "97": "0x6ce8dA28E2f864420840cF74474eFf5fD80E65B8",
+        "137": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6"
       },
       "decimals": {
         "40": 8,
@@ -8520,9 +8833,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -8602,9 +8915,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -8678,9 +8991,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -8745,7 +9058,7 @@
     "quoteToken": {
       "symbol": "BUSD",
       "address": {
-        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
         "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
       },
       "decimals": {
@@ -8809,7 +9122,7 @@
     "quoteToken": {
       "symbol": "BUSD",
       "address": {
-        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
         "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
       },
       "decimals": {
@@ -8876,7 +9189,7 @@
     "quoteToken": {
       "symbol": "BUSD",
       "address": {
-        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
         "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
       },
       "decimals": {
@@ -8945,9 +9258,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -9014,7 +9327,7 @@
     "quoteToken": {
       "symbol": "BUSD",
       "address": {
-        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
         "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
       },
       "decimals": {
@@ -9078,9 +9391,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -9145,9 +9458,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -9201,19 +9514,24 @@
     "token": {
       "symbol": "CHRP",
       "address": {
+        "1": "0x70Bc0DC6414EB8974BC70685F798838a87d8CCe4",
         "56": "0xeD00Fc7D48B57B81FE65D1cE71c0985e4CF442CB"
       },
       "decimals": {
+        "1": 18,
         "56": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV2"
       },
       "active": true
     },
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -9236,10 +9554,15 @@
     "earnToken": {
       "symbol": "CHRP",
       "address": {
+        "1": "0x70Bc0DC6414EB8974BC70685F798838a87d8CCe4",
         "56": "0xeD00Fc7D48B57B81FE65D1cE71c0985e4CF442CB"
       },
       "decimals": {
+        "1": 18,
         "56": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV2"
       },
       "active": true
     },
@@ -9278,9 +9601,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -9345,7 +9668,7 @@
     "quoteToken": {
       "symbol": "BUSD",
       "address": {
-        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
         "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
       },
       "decimals": {
@@ -9412,7 +9735,7 @@
     "quoteToken": {
       "symbol": "BUSD",
       "address": {
-        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
         "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
       },
       "decimals": {
@@ -9479,7 +9802,7 @@
     "quoteToken": {
       "symbol": "BUSD",
       "address": {
-        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
         "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
       },
       "decimals": {
@@ -9537,9 +9860,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -9603,9 +9926,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -9669,9 +9992,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -9729,6 +10052,7 @@
     "quoteToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -9736,6 +10060,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -9743,6 +10068,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -9802,9 +10128,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -9868,9 +10194,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -9934,9 +10260,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -9994,9 +10320,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -10060,9 +10386,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -10122,7 +10448,7 @@
     "quoteToken": {
       "symbol": "BUSD",
       "address": {
-        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
         "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
       },
       "decimals": {
@@ -10182,9 +10508,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -10248,7 +10574,7 @@
     "quoteToken": {
       "symbol": "BUSD",
       "address": {
-        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
         "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
       },
       "decimals": {
@@ -10312,7 +10638,7 @@
     "quoteToken": {
       "symbol": "BUSD",
       "address": {
-        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
         "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
       },
       "decimals": {
@@ -10378,7 +10704,7 @@
     "quoteToken": {
       "symbol": "BUSD",
       "address": {
-        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
         "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
       },
       "decimals": {
@@ -10452,9 +10778,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -10512,7 +10838,7 @@
     "token": {
       "symbol": "BUSD",
       "address": {
-        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
         "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
       },
       "decimals": {
@@ -10524,9 +10850,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -10582,7 +10908,7 @@
     "token": {
       "symbol": "BUSD",
       "address": {
-        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
         "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
       },
       "decimals": {
@@ -10595,9 +10921,9 @@
       "symbol": "USDC",
       "address": {
         "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
-        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
@@ -10657,10 +10983,10 @@
       "symbol": "ETH",
       "address": {
         "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
-        "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
-        "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
-        "137": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
         "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
       },
       "decimals": {
@@ -10676,9 +11002,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -10734,10 +11060,10 @@
     "token": {
       "symbol": "BTC",
       "address": {
-        "40": "0xf390830df829cf22c53c8840554b98eafc5dcbc2",
-        "56": "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c",
-        "97": "0x6ce8da28e2f864420840cf74474eff5fd80e65b8",
-        "137": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6"
+        "40": "0xf390830DF829cf22c53c8840554B98eafC5dCBc2",
+        "56": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+        "97": "0x6ce8dA28E2f864420840cF74474eFf5fD80E65B8",
+        "137": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6"
       },
       "decimals": {
         "40": 8,
@@ -10750,9 +11076,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -10826,9 +11152,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -10886,7 +11212,7 @@
     "token": {
       "symbol": "BUSD",
       "address": {
-        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
         "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
       },
       "decimals": {
@@ -10898,9 +11224,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -10956,7 +11282,7 @@
     "token": {
       "symbol": "BUSD",
       "address": {
-        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
         "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
       },
       "decimals": {
@@ -10969,9 +11295,9 @@
       "symbol": "USDC",
       "address": {
         "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
-        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
@@ -11031,10 +11357,10 @@
       "symbol": "ETH",
       "address": {
         "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
-        "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
-        "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
-        "137": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
         "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
       },
       "decimals": {
@@ -11050,9 +11376,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -11108,10 +11434,10 @@
     "token": {
       "symbol": "BTC",
       "address": {
-        "40": "0xf390830df829cf22c53c8840554b98eafc5dcbc2",
-        "56": "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c",
-        "97": "0x6ce8da28e2f864420840cf74474eff5fd80e65b8",
-        "137": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6"
+        "40": "0xf390830DF829cf22c53c8840554B98eafC5dCBc2",
+        "56": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+        "97": "0x6ce8dA28E2f864420840cF74474eFf5fD80E65B8",
+        "137": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6"
       },
       "decimals": {
         "40": 8,
@@ -11124,9 +11450,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -11200,9 +11526,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -11266,7 +11592,7 @@
     "token": {
       "symbol": "BUSD",
       "address": {
-        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
         "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
       },
       "decimals": {
@@ -11278,9 +11604,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -11342,7 +11668,7 @@
     "token": {
       "symbol": "BUSD",
       "address": {
-        "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
         "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
       },
       "decimals": {
@@ -11355,9 +11681,9 @@
       "symbol": "USDC",
       "address": {
         "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
-        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
@@ -11423,10 +11749,10 @@
       "symbol": "ETH",
       "address": {
         "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
-        "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
-        "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
-        "137": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
         "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
       },
       "decimals": {
@@ -11442,9 +11768,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -11506,10 +11832,10 @@
     "token": {
       "symbol": "BTC",
       "address": {
-        "40": "0xf390830df829cf22c53c8840554b98eafc5dcbc2",
-        "56": "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c",
-        "97": "0x6ce8da28e2f864420840cf74474eff5fd80e65b8",
-        "137": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6"
+        "40": "0xf390830DF829cf22c53c8840554B98eafC5dCBc2",
+        "56": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+        "97": "0x6ce8dA28E2f864420840cF74474eFf5fD80E65B8",
+        "137": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6"
       },
       "decimals": {
         "40": 8,
@@ -11522,9 +11848,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -11596,9 +11922,9 @@
     "quoteToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -11653,7 +11979,7 @@
     "token": {
       "symbol": "MATIC",
       "address": {
-        "56": "0xcc42724c6683b7e57334c4e856f4c9965ed682bd",
+        "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
         "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
       },
       "decimals": {
@@ -11665,7 +11991,7 @@
     "quoteToken": {
       "symbol": "MATIC",
       "address": {
-        "56": "0xcc42724c6683b7e57334c4e856f4c9965ed682bd",
+        "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
         "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
       },
       "decimals": {
@@ -11677,7 +12003,7 @@
     "lpToken": {
       "symbol": "MATIC",
       "address": {
-        "56": "0xcc42724c6683b7e57334c4e856f4c9965ed682bd",
+        "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
         "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
       },
       "decimals": {
@@ -11731,9 +12057,9 @@
       "symbol": "USDC",
       "address": {
         "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
-        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
@@ -11749,9 +12075,9 @@
       "symbol": "USDC",
       "address": {
         "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
-        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
@@ -11767,9 +12093,9 @@
       "symbol": "USDC",
       "address": {
         "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
-        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
@@ -11830,6 +12156,7 @@
     "token": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -11837,6 +12164,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -11844,6 +12172,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -11851,6 +12180,7 @@
     "quoteToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -11858,6 +12188,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -11865,6 +12196,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -11872,6 +12204,7 @@
     "lpToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -11879,6 +12212,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -11886,6 +12220,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -11933,7 +12268,7 @@
     "token": {
       "symbol": "MATIC",
       "address": {
-        "56": "0xcc42724c6683b7e57334c4e856f4c9965ed682bd",
+        "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
         "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
       },
       "decimals": {
@@ -11945,7 +12280,7 @@
     "quoteToken": {
       "symbol": "MATIC",
       "address": {
-        "56": "0xcc42724c6683b7e57334c4e856f4c9965ed682bd",
+        "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
         "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
       },
       "decimals": {
@@ -11957,7 +12292,7 @@
     "lpToken": {
       "symbol": "MATIC",
       "address": {
-        "56": "0xcc42724c6683b7e57334c4e856f4c9965ed682bd",
+        "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
         "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
       },
       "decimals": {
@@ -12023,6 +12358,7 @@
     "quoteToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -12030,6 +12366,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -12037,6 +12374,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -12101,6 +12439,7 @@
     "token": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -12108,6 +12447,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -12115,6 +12455,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -12122,6 +12463,7 @@
     "quoteToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -12129,6 +12471,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -12136,6 +12479,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -12143,6 +12487,7 @@
     "lpToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -12150,6 +12495,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -12157,6 +12503,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -12217,6 +12564,7 @@
     "quoteToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -12224,6 +12572,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -12231,6 +12580,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -12296,7 +12646,7 @@
     "token": {
       "symbol": "MATIC",
       "address": {
-        "56": "0xcc42724c6683b7e57334c4e856f4c9965ed682bd",
+        "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
         "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
       },
       "decimals": {
@@ -12308,7 +12658,7 @@
     "quoteToken": {
       "symbol": "MATIC",
       "address": {
-        "56": "0xcc42724c6683b7e57334c4e856f4c9965ed682bd",
+        "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
         "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
       },
       "decimals": {
@@ -12320,7 +12670,7 @@
     "lpToken": {
       "symbol": "MATIC",
       "address": {
-        "56": "0xcc42724c6683b7e57334c4e856f4c9965ed682bd",
+        "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
         "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
       },
       "decimals": {
@@ -12386,9 +12736,9 @@
       "symbol": "USDC",
       "address": {
         "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
-        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
@@ -12461,10 +12811,10 @@
       "symbol": "ETH",
       "address": {
         "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
-        "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
-        "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
-        "137": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
         "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
       },
       "decimals": {
@@ -12481,10 +12831,10 @@
       "symbol": "ETH",
       "address": {
         "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
-        "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
-        "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
-        "137": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
         "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
       },
       "decimals": {
@@ -12501,10 +12851,10 @@
       "symbol": "ETH",
       "address": {
         "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
-        "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
-        "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
-        "137": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
         "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
       },
       "decimals": {
@@ -12561,6 +12911,7 @@
     "token": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -12568,6 +12919,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -12575,6 +12927,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -12582,6 +12935,7 @@
     "quoteToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -12589,6 +12943,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -12596,6 +12951,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -12603,6 +12959,7 @@
     "lpToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -12610,6 +12967,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -12617,6 +12975,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -12664,7 +13023,7 @@
     "token": {
       "symbol": "MATIC",
       "address": {
-        "56": "0xcc42724c6683b7e57334c4e856f4c9965ed682bd",
+        "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
         "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
       },
       "decimals": {
@@ -12676,7 +13035,7 @@
     "quoteToken": {
       "symbol": "MATIC",
       "address": {
-        "56": "0xcc42724c6683b7e57334c4e856f4c9965ed682bd",
+        "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
         "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
       },
       "decimals": {
@@ -12688,7 +13047,7 @@
     "lpToken": {
       "symbol": "MATIC",
       "address": {
-        "56": "0xcc42724c6683b7e57334c4e856f4c9965ed682bd",
+        "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
         "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
       },
       "decimals": {
@@ -12740,6 +13099,7 @@
     "token": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -12747,6 +13107,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -12754,6 +13115,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -12761,6 +13123,7 @@
     "quoteToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -12768,6 +13131,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -12775,6 +13139,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -12782,6 +13147,7 @@
     "lpToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -12789,6 +13155,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -12796,6 +13163,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -12843,6 +13211,7 @@
     "token": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -12850,6 +13219,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -12857,6 +13227,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -12864,6 +13235,7 @@
     "quoteToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -12871,6 +13243,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -12878,6 +13251,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -12885,6 +13259,7 @@
     "lpToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -12892,6 +13267,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -12899,6 +13275,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -12959,6 +13336,7 @@
     "quoteToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -12966,6 +13344,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -12973,6 +13352,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -13038,10 +13418,10 @@
       "symbol": "ETH",
       "address": {
         "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
-        "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
-        "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
-        "137": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
         "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
       },
       "decimals": {
@@ -13058,10 +13438,10 @@
       "symbol": "ETH",
       "address": {
         "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
-        "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
-        "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
-        "137": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
         "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
       },
       "decimals": {
@@ -13078,10 +13458,10 @@
       "symbol": "ETH",
       "address": {
         "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
-        "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
-        "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
-        "137": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
         "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
       },
       "decimals": {
@@ -13151,9 +13531,9 @@
       "symbol": "USDC",
       "address": {
         "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
-        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
@@ -13226,6 +13606,7 @@
     "token": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -13233,6 +13614,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -13240,6 +13622,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -13247,6 +13630,7 @@
     "quoteToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -13254,6 +13638,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -13261,6 +13646,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -13268,6 +13654,7 @@
     "lpToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -13275,6 +13662,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -13282,6 +13670,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -13329,6 +13718,7 @@
     "token": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -13336,6 +13726,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -13343,6 +13734,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -13350,6 +13742,7 @@
     "quoteToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -13357,6 +13750,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -13364,6 +13758,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -13371,6 +13766,7 @@
     "lpToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -13378,6 +13774,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -13385,6 +13782,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -13433,10 +13831,10 @@
       "symbol": "ETH",
       "address": {
         "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
-        "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
-        "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
-        "137": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
         "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
       },
       "decimals": {
@@ -13453,10 +13851,10 @@
       "symbol": "ETH",
       "address": {
         "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
-        "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
-        "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
-        "137": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
         "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
       },
       "decimals": {
@@ -13473,10 +13871,10 @@
       "symbol": "ETH",
       "address": {
         "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
-        "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
-        "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
-        "137": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
         "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
       },
       "decimals": {
@@ -13546,10 +13944,10 @@
       "symbol": "ETH",
       "address": {
         "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
-        "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
-        "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
-        "137": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
         "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
       },
       "decimals": {
@@ -13636,9 +14034,9 @@
       "symbol": "USDC",
       "address": {
         "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
-        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
@@ -13725,9 +14123,9 @@
       "symbol": "USDC",
       "address": {
         "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
-        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
@@ -13886,6 +14284,7 @@
     "quoteToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -13893,6 +14292,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -13900,6 +14300,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -13976,9 +14377,9 @@
       "symbol": "USDC",
       "address": {
         "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
-        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
@@ -14049,9 +14450,9 @@
       "symbol": "USDC",
       "address": {
         "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
-        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
@@ -14080,9 +14481,9 @@
       "symbol": "USDC",
       "address": {
         "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
-        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
@@ -14144,7 +14545,7 @@
     "quoteToken": {
       "symbol": "MATIC",
       "address": {
-        "56": "0xcc42724c6683b7e57334c4e856f4c9965ed682bd",
+        "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
         "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
       },
       "decimals": {
@@ -14215,7 +14616,7 @@
     "quoteToken": {
       "symbol": "MATIC",
       "address": {
-        "56": "0xcc42724c6683b7e57334c4e856f4c9965ed682bd",
+        "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
         "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
       },
       "decimals": {
@@ -14282,7 +14683,7 @@
     "quoteToken": {
       "symbol": "MATIC",
       "address": {
-        "56": "0xcc42724c6683b7e57334c4e856f4c9965ed682bd",
+        "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
         "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
       },
       "decimals": {
@@ -14340,9 +14741,9 @@
       "symbol": "USDC",
       "address": {
         "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
-        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
@@ -14383,9 +14784,9 @@
       "symbol": "USDC",
       "address": {
         "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
-        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
@@ -14445,9 +14846,9 @@
       "symbol": "USDC",
       "address": {
         "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
-        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
@@ -14514,7 +14915,7 @@
     "quoteToken": {
       "symbol": "MATIC",
       "address": {
-        "56": "0xcc42724c6683b7e57334c4e856f4c9965ed682bd",
+        "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
         "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
       },
       "decimals": {
@@ -14572,7 +14973,7 @@
     "quoteToken": {
       "symbol": "MATIC",
       "address": {
-        "56": "0xcc42724c6683b7e57334c4e856f4c9965ed682bd",
+        "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
         "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
       },
       "decimals": {
@@ -14636,7 +15037,7 @@
     "quoteToken": {
       "symbol": "MATIC",
       "address": {
-        "56": "0xcc42724c6683b7e57334c4e856f4c9965ed682bd",
+        "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
         "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
       },
       "decimals": {
@@ -14765,10 +15166,10 @@
       "symbol": "ETH",
       "address": {
         "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
-        "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
-        "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
-        "137": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
         "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
       },
       "decimals": {
@@ -14840,10 +15241,10 @@
     "token": {
       "symbol": "BTC",
       "address": {
-        "40": "0xf390830df829cf22c53c8840554b98eafc5dcbc2",
-        "56": "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c",
-        "97": "0x6ce8da28e2f864420840cf74474eff5fd80e65b8",
-        "137": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6"
+        "40": "0xf390830DF829cf22c53c8840554B98eafC5dCBc2",
+        "56": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+        "97": "0x6ce8dA28E2f864420840cF74474eFf5fD80E65B8",
+        "137": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6"
       },
       "decimals": {
         "40": 8,
@@ -14912,6 +15313,7 @@
     "token": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -14919,6 +15321,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -14926,6 +15329,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -14990,9 +15394,9 @@
       "symbol": "USDC",
       "address": {
         "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
-        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
@@ -15138,10 +15542,10 @@
       "symbol": "ETH",
       "address": {
         "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
-        "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
-        "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
-        "137": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
         "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
       },
       "decimals": {
@@ -15213,10 +15617,10 @@
     "token": {
       "symbol": "BTC",
       "address": {
-        "40": "0xf390830df829cf22c53c8840554b98eafc5dcbc2",
-        "56": "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c",
-        "97": "0x6ce8da28e2f864420840cf74474eff5fd80e65b8",
-        "137": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6"
+        "40": "0xf390830DF829cf22c53c8840554B98eafC5dCBc2",
+        "56": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+        "97": "0x6ce8dA28E2f864420840cF74474eFf5fD80E65B8",
+        "137": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6"
       },
       "decimals": {
         "40": 8,
@@ -15285,6 +15689,7 @@
     "token": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -15292,6 +15697,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -15299,6 +15705,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -15363,9 +15770,9 @@
       "symbol": "USDC",
       "address": {
         "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
-        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
@@ -15505,10 +15912,10 @@
       "symbol": "ETH",
       "address": {
         "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
-        "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
-        "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
-        "137": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
         "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
       },
       "decimals": {
@@ -15574,10 +15981,10 @@
     "token": {
       "symbol": "BTC",
       "address": {
-        "40": "0xf390830df829cf22c53c8840554b98eafc5dcbc2",
-        "56": "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c",
-        "97": "0x6ce8da28e2f864420840cf74474eff5fd80e65b8",
-        "137": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6"
+        "40": "0xf390830DF829cf22c53c8840554B98eafC5dCBc2",
+        "56": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+        "97": "0x6ce8dA28E2f864420840cF74474eFf5fD80E65B8",
+        "137": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6"
       },
       "decimals": {
         "40": 8,
@@ -15640,6 +16047,7 @@
     "token": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -15647,6 +16055,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -15654,6 +16063,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -15712,9 +16122,9 @@
       "symbol": "USDC",
       "address": {
         "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "40": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
-        "56": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-        "137": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
         "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
       },
       "decimals": {
@@ -15790,10 +16200,10 @@
       "symbol": "ETH",
       "address": {
         "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
-        "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
-        "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
-        "137": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
         "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
       },
       "decimals": {
@@ -15858,6 +16268,7 @@
     "token": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -15865,6 +16276,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -15872,6 +16284,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -15879,6 +16292,7 @@
     "quoteToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -15886,6 +16300,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -15893,6 +16308,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -15900,6 +16316,7 @@
     "lpToken": {
       "symbol": "USDT",
       "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -15907,6 +16324,7 @@
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       },
       "decimals": {
+        "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
@@ -15914,6 +16332,7 @@
         "42161": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "2525": "External"
       },
       "active": true
@@ -15967,10 +16386,10 @@
       "symbol": "ETH",
       "address": {
         "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
-        "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
-        "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
-        "137": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
         "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
       },
       "decimals": {
@@ -16043,10 +16462,10 @@
       "symbol": "ETH",
       "address": {
         "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "40": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
-        "56": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
-        "97": "0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378",
-        "137": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
         "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
       },
       "decimals": {

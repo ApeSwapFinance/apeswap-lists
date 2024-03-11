@@ -84,9 +84,9 @@ const tokens: Record<string, Token> = {
   wbnb: {
     symbol: 'BNB',
     address: {
-      [ChainId.BSC]: '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',
-      [ChainId.MATIC]: '0xa649325aa7c5093d12d6f98eb4378deae68ce23f',
-      [ChainId.BSC_TESTNET]: '0xae13d989dac2f0debff460ac112a837c89baa7cd',
+      [ChainId.BSC]: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
+      [ChainId.MATIC]: '0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F',
+      [ChainId.BSC_TESTNET]: '0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -98,7 +98,7 @@ const tokens: Record<string, Token> = {
   wmatic: {
     symbol: 'MATIC',
     address: {
-      [ChainId.BSC]: '0xcc42724c6683b7e57334c4e856f4c9965ed682bd',
+      [ChainId.BSC]: '0xCC42724C6683B7E57334c4E856f4c9965ED682bD',
       [ChainId.MATIC]: '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270',
     },
     decimals: {
@@ -110,7 +110,7 @@ const tokens: Record<string, Token> = {
   busd: {
     symbol: 'BUSD',
     address: {
-      [ChainId.BSC]: '0xe9e7cea3dedca5984780bafc599bd69add087d56',
+      [ChainId.BSC]: '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56',
       [ChainId.BSC_TESTNET]: '0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee',
     },
     decimals: {
@@ -122,10 +122,10 @@ const tokens: Record<string, Token> = {
   eth: {
     symbol: 'ETH',
     address: {
-      [ChainId.BSC]: '0x2170ed0880ac9a755fd29b2688956bd959f933f8',
-      [ChainId.MATIC]: '0x7ceb23fd6bc0add59e62ac25578270cff1b9f619',
-      [ChainId.BSC_TESTNET]: '0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378',
-      [ChainId.TLOS]: '0xfa9343c3897324496a05fc75abed6bac29f8a40f',
+      [ChainId.BSC]: '0x2170Ed0880ac9A755fd29B2688956BD959F933F8',
+      [ChainId.MATIC]: '0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619',
+      [ChainId.BSC_TESTNET]: '0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378',
+      [ChainId.TLOS]: '0xfA9343C3897324496A05fC75abeD6bAC29f8A40f',
       [ChainId.ARBITRUM]: '0x82aF49447D8a07e3bd95BD0d56f35241523fBab1',
       [ChainId.MAINNET]: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
     },
@@ -142,10 +142,10 @@ const tokens: Record<string, Token> = {
   btc: {
     symbol: 'BTC',
     address: {
-      [ChainId.BSC]: '0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c',
-      [ChainId.MATIC]: '0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6',
-      [ChainId.BSC_TESTNET]: '0x6ce8da28e2f864420840cf74474eff5fd80e65b8',
-      [ChainId.TLOS]: '0xf390830df829cf22c53c8840554b98eafc5dcbc2',
+      [ChainId.BSC]: '0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c',
+      [ChainId.MATIC]: '0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6',
+      [ChainId.BSC_TESTNET]: '0x6ce8dA28E2f864420840cF74474eFf5fD80E65B8',
+      [ChainId.TLOS]: '0xf390830DF829cf22c53c8840554B98eafC5dCBc2',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -158,7 +158,7 @@ const tokens: Record<string, Token> = {
   cake: {
     symbol: 'CAKE',
     address: {
-      [ChainId.BSC]: '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
+      [ChainId.BSC]: '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -178,9 +178,9 @@ const tokens: Record<string, Token> = {
   usdc: {
     symbol: 'USDC',
     address: {
-      [ChainId.BSC]: '0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d',
-      [ChainId.MATIC]: '0x2791bca1f2de4661ed88a30c99a7a9449aa84174',
-      [ChainId.TLOS]: '0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b',
+      [ChainId.BSC]: '0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d',
+      [ChainId.MATIC]: '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174',
+      [ChainId.TLOS]: '0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b',
       [ChainId.ARBITRUM]: '0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8',
       [ChainId.MAINNET]: '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48',
     },
@@ -859,6 +859,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  thx: {
+    symbol: 'THX',
+    address: {
+      [ChainId.MATIC]: '0x2934b36ca9A4B31E633C5BE670C8C8b28b6aA015',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.Algebra,
+    },
+    active: true,
+  },
   orbs: {
     symbol: 'ORBS',
     address: {
@@ -939,6 +952,7 @@ const tokens: Record<string, Token> = {
   usdt: {
     symbol: 'USDT',
     address: {
+      [ChainId.MAINNET]: '0xdAC17F958D2ee523a2206206994597C13D831ec7',
       [ChainId.BSC]: '0x55d398326f99059fF775485246999027B3197955',
       [ChainId.MATIC]: '0xc2132D05D31c914a87C6611C10748AEb04B58e8F',
       [ChainId.TLOS]: '0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73',
@@ -946,6 +960,7 @@ const tokens: Record<string, Token> = {
       [ChainId.INEVM]: '0x97423A68BAe94b5De52d767a17aBCc54c157c0E5',
     },
     decimals: {
+      [ChainId.MAINNET]: 6,
       [ChainId.BSC]: 18,
       [ChainId.MATIC]: 6,
       [ChainId.TLOS]: 6,
@@ -954,6 +969,7 @@ const tokens: Record<string, Token> = {
     },
     liquidityDex: {
       [ChainId.INEVM]: LiquidityDex.External,
+      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
     },
     active: true,
   },
@@ -2049,9 +2065,14 @@ const tokens: Record<string, Token> = {
     symbol: 'CHRP',
     address: {
       [ChainId.BSC]: '0xeD00Fc7D48B57B81FE65D1cE71c0985e4CF442CB',
+      [ChainId.MAINNET]: '0x70Bc0DC6414EB8974BC70685F798838a87d8CCe4',
     },
     decimals: {
       [ChainId.BSC]: 18,
+      [ChainId.MAINNET]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
     },
     active: true,
   },
@@ -2340,6 +2361,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  nfe: {
+    symbol: 'NFE',
+    address: {
+      [ChainId.BSC]: '0xf03Ca04Dd56D695a410f46F14feF4028B22FB79A',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+    },
+    active: true,
+  },
   hgpt: {
     symbol: 'HGPT',
     address: {
@@ -2399,10 +2431,91 @@ const tokens: Record<string, Token> = {
     symbol: 'CGV',
     address: {
       [ChainId.BSC]: '0x1bDaF9ddD7658d8049391971d1fd48c0484F66EC',
+      [ChainId.MAINNET]: '0xaeF420fd77477d9Dc8B46D704D44dD09d6c27866',
     },
-    decimals: { [ChainId.BSC]: 6 },
+    decimals: { [ChainId.BSC]: 6, [ChainId.MAINNET]: 6 },
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
+    },
+    active: true,
+  },
+  forward: {
+    symbol: 'FORWARD',
+    address: {
+      [ChainId.BSC]: '0x886640149E31E1430FA74Cc39725431eb82ddFB2',
+      [ChainId.MAINNET]: '0x01824357D7D7EAF4677Bc17786aBd26CBdEc9Ad7',
+    },
+    decimals: { [ChainId.BSC]: 18, [ChainId.MAINNET]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+      [ChainId.MAINNET]: LiquidityDex.UniswapV3,
+    },
+    active: true,
+  },
+  gpt: {
+    symbol: 'GPT',
+    address: {
+      [ChainId.MAINNET]: '0xCdb4A8742ed7D0259b51E3454C46C9D6C48d5e88',
+    },
+    decimals: { [ChainId.MAINNET]: 18 },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV3,
+    },
+    active: true,
+  },
+  cirus: {
+    symbol: 'CIRUS',
+    address: {
+      [ChainId.MAINNET]: '0xA01199c61841Fce3b3daFB83FeFC1899715c8756',
+    },
+    decimals: { [ChainId.MAINNET]: 18 },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
+    },
+    active: true,
+  },
+  meth: {
+    symbol: 'METH',
+    address: {
+      [ChainId.MAINNET]: '0x0345173a92742e9dAF55d44Ac65e0D987b22379e',
+    },
+    decimals: { [ChainId.MAINNET]: 18 },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
+    },
+    active: true,
+  },
+  strk: {
+    symbol: 'STRK',
+    address: {
+      [ChainId.MAINNET]: '0x74232704659ef37c08995e386A2E26cc27a8d7B1',
+    },
+    decimals: { [ChainId.MAINNET]: 18 },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
+    },
+    active: true,
+  },
+  gptplus: {
+    symbol: 'GPTPLUS',
+    address: {
+      [ChainId.MAINNET]: '0xeD9F6Aa6532869576211fD6367E3c328810fBeb3',
+    },
+    decimals: { [ChainId.MAINNET]: 18 },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
+    },
+    active: true,
+  },
+  lbp: {
+    symbol: 'LBP',
+    address: {
+      [ChainId.MAINNET]: '0xa23C1194d421F252b4e6D5edcc3205F7650a4eBE',
+    },
+    decimals: { [ChainId.MAINNET]: 18 },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV3,
     },
     active: true,
   },
