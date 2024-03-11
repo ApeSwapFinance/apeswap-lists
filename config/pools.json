@@ -1922,10 +1922,15 @@
     "rewardToken": {
       "symbol": "CHRP",
       "address": {
+        "1": "0x70Bc0DC6414EB8974BC70685F798838a87d8CCe4",
         "56": "0xeD00Fc7D48B57B81FE65D1cE71c0985e4CF442CB"
       },
       "decimals": {
+        "1": 18,
         "56": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV2"
       },
       "active": true
     },

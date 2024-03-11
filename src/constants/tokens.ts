@@ -2062,9 +2062,14 @@ const tokens: Record<string, Token> = {
     symbol: 'CHRP',
     address: {
       [ChainId.BSC]: '0xeD00Fc7D48B57B81FE65D1cE71c0985e4CF442CB',
+      [ChainId.MAINNET]: '0x70Bc0DC6414EB8974BC70685F798838a87d8CCe4',
     },
     decimals: {
       [ChainId.BSC]: 18,
+      [ChainId.MAINNET]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
     },
     active: true,
   },
