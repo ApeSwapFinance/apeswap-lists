@@ -124,9 +124,9 @@
     "rewardToken": {
       "symbol": "BNB",
       "address": {
-        "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-        "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
       },
       "decimals": {
         "56": 18,
@@ -2353,7 +2353,7 @@
       "quoteToken": {
         "symbol": "BUSD",
         "address": {
-          "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+          "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
           "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
         },
         "decimals": {
@@ -2416,9 +2416,9 @@
       "quoteToken": {
         "symbol": "BNB",
         "address": {
-          "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-          "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-          "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+          "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+          "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+          "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
         },
         "decimals": {
           "56": 18,
@@ -2481,9 +2481,9 @@
       "quoteToken": {
         "symbol": "BNB",
         "address": {
-          "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-          "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-          "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+          "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+          "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+          "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
         },
         "decimals": {
           "56": 18,
@@ -2546,7 +2546,7 @@
       "quoteToken": {
         "symbol": "BUSD",
         "address": {
-          "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+          "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
           "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
         },
         "decimals": {
@@ -2609,9 +2609,9 @@
       "quoteToken": {
         "symbol": "BNB",
         "address": {
-          "56": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-          "97": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-          "137": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+          "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+          "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+          "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
         },
         "decimals": {
           "56": 18,
@@ -2674,7 +2674,7 @@
       "quoteToken": {
         "symbol": "BUSD",
         "address": {
-          "56": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+          "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
           "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
         },
         "decimals": {
