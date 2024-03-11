@@ -5613,12 +5613,15 @@
     "token": {
       "symbol": "CGV",
       "address": {
+        "1": "0xaeF420fd77477d9Dc8B46D704D44dD09d6c27866",
         "56": "0x1bDaF9ddD7658d8049391971d1fd48c0484F66EC"
       },
       "decimals": {
+        "1": 6,
         "56": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "56": "PancakeSwapV2"
       },
       "active": true
@@ -5657,12 +5660,15 @@
     "earnToken": {
       "symbol": "CGV",
       "address": {
+        "1": "0xaeF420fd77477d9Dc8B46D704D44dD09d6c27866",
         "56": "0x1bDaF9ddD7658d8049391971d1fd48c0484F66EC"
       },
       "decimals": {
+        "1": 6,
         "56": 6
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "56": "PancakeSwapV2"
       },
       "active": true

@@ -2423,10 +2423,91 @@ const tokens: Record<string, Token> = {
     symbol: 'CGV',
     address: {
       [ChainId.BSC]: '0x1bDaF9ddD7658d8049391971d1fd48c0484F66EC',
+      [ChainId.MAINNET]: '0xaeF420fd77477d9Dc8B46D704D44dD09d6c27866',
     },
-    decimals: { [ChainId.BSC]: 6 },
+    decimals: { [ChainId.BSC]: 6, [ChainId.MAINNET]: 6 },
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
+    },
+    active: true,
+  },
+  forward: {
+    symbol: 'FORWARD',
+    address: {
+      [ChainId.BSC]: '0x886640149E31E1430FA74Cc39725431eb82ddFB2',
+      [ChainId.MAINNET]: '0x01824357D7D7EAF4677Bc17786aBd26CBdEc9Ad7',
+    },
+    decimals: { [ChainId.BSC]: 18, [ChainId.MAINNET]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+      [ChainId.MAINNET]: LiquidityDex.UniswapV3,
+    },
+    active: true,
+  },
+  gpt: {
+    symbol: 'GPT',
+    address: {
+      [ChainId.MAINNET]: '0xCdb4A8742ed7D0259b51E3454C46C9D6C48d5e88',
+    },
+    decimals: { [ChainId.MAINNET]: 18 },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV3,
+    },
+    active: true,
+  },
+  cirus: {
+    symbol: 'CIRUS',
+    address: {
+      [ChainId.MAINNET]: '0xA01199c61841Fce3b3daFB83FeFC1899715c8756',
+    },
+    decimals: { [ChainId.MAINNET]: 18 },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
+    },
+    active: true,
+  },
+  meth: {
+    symbol: 'METH',
+    address: {
+      [ChainId.MAINNET]: '0x0345173a92742e9dAF55d44Ac65e0D987b22379e',
+    },
+    decimals: { [ChainId.MAINNET]: 18 },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
+    },
+    active: true,
+  },
+  strk: {
+    symbol: 'STRK',
+    address: {
+      [ChainId.MAINNET]: '0x74232704659ef37c08995e386A2E26cc27a8d7B1',
+    },
+    decimals: { [ChainId.MAINNET]: 18 },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
+    },
+    active: true,
+  },
+  gptplus: {
+    symbol: 'GPTPLUS',
+    address: {
+      [ChainId.MAINNET]: '0xeD9F6Aa6532869576211fD6367E3c328810fBeb3',
+    },
+    decimals: { [ChainId.MAINNET]: 18 },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
+    },
+    active: true,
+  },
+  lbp: {
+    symbol: 'LBP',
+    address: {
+      [ChainId.MAINNET]: '0xa23C1194d421F252b4e6D5edcc3205F7650a4eBE',
+    },
+    decimals: { [ChainId.MAINNET]: 18 },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV3,
     },
     active: true,
   },
