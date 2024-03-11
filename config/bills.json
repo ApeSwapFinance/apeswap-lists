@@ -11970,6 +11970,83 @@
     "soldOut": true
   },
   {
+    "index": 135,
+    "contractAddress": {
+      "137": "0x39D66fE579130B26Fed64187C0BA7fB03079424A"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "MATIC",
+      "address": {
+        "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
+        "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
+      },
+      "decimals": {
+        "56": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "MATIC",
+      "address": {
+        "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
+        "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
+      },
+      "decimals": {
+        "56": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "MATIC",
+      "address": {
+        "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
+        "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
+      },
+      "decimals": {
+        "56": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "THX",
+      "address": {
+        "137": "0x2934b36ca9A4B31E633C5BE670C8C8b28b6aA015"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "Algebra"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
+    },
+    "inactive": false,
+    "projectLink": "https://thx.network/",
+    "twitter": "https://twitter.com/thxprotocol",
+    "audit": "https://docs.thx.network/developers/audits",
+    "initTime": {
+      "137": 1700485200
+    },
+    "initPrice": {
+      "137": 0.002404165611
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "Quickswap_Collection1"
+    },
+    "bondPartner": "QuickSwap",
+    "fullDescription": "THX is an all-in-one, on-brand quest platform that enables projects to drive growth and revenue through plug-and-play Reward Campaigns. By offering quests, rewards, and strategic partnerships, THX ensures a win-win scenario where both users and projects can enhance engagement and revenue, while guaranteeing an optimal user experience.",
+    "tags": ["Marketing Solutions"]
+  },
+  {
     "index": 134,
     "contractAddress": {
       "137": "0x4fbEc51bFB4Fad1D431608d8CAfDe3Bc48c64F8A"

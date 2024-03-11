@@ -3,7 +3,7 @@ import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
 // BNB Largest ID: 1037
-// Polygon Largest ID: 133
+// Polygon Largest ID: 135
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
 //Migration Bonds ID: 5007
@@ -3467,6 +3467,35 @@ const bills: BillsConfig[] = [
   /*
     Polygon Bills
   */
+  {
+    index: 135,
+    contractAddress: {
+      [ChainId.MATIC]: '0x39D66fE579130B26Fed64187C0BA7fB03079424A',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.wmatic,
+    quoteToken: tokens.wmatic,
+    lpToken: tokens.wmatic,
+    earnToken: tokens.thx,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://thx.network/',
+    twitter: 'https://twitter.com/thxprotocol',
+    audit: 'https://docs.thx.network/developers/audits',
+    initTime: { [ChainId.MATIC]: 1700485200 },
+    initPrice: { [ChainId.MATIC]: 0.002404165611 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+    fullDescription:
+      'THX is an all-in-one, on-brand quest platform that enables projects to drive growth and revenue through plug-and-play Reward Campaigns. By offering quests, rewards, and strategic partnerships, THX ensures a win-win scenario where both users and projects can enhance engagement and revenue, while guaranteeing an optimal user experience.',
+    tags: ['Marketing Solutions'],
+  },
   {
     index: 134,
     contractAddress: {
