@@ -4879,7 +4879,7 @@ const bills: BillsConfig[] = [
     fullDescription:
       'Cogito is tokenizing traditional assets for Onchain Finance. Fully Compliant, secure and AI-Powered, Cogito allows users to invest, own and get the most out of DeFi for increased liquidity, security, and transparency. For DAOS, Protocols or Institutions, Cogito Finance is a no-brainer.',
   },
-  {
+  /* {
     index: 3001,
     contractAddress: {
       [ChainId.MAINNET]: '0xe8EF7318385244261047b9BD19b5Cc96Fb867270',
@@ -4905,7 +4905,7 @@ const bills: BillsConfig[] = [
     tags: ['GameFi (Play to Earn)'],
     fullDescription:
       'Planet IX is a Web3 play-to-earn platform fueled by their native IX Token. Every asset on Planet IX is an NFT, allowing users to farm, own, and trade them. The main goal is to restore the planet to its former green-blue glory. Join Planet IX and become an Agent of Change now.',
-  },
+  }, */
   {
     index: 3002,
     contractAddress: {
