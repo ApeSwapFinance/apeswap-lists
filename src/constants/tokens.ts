@@ -2441,7 +2441,7 @@ const tokens: Record<string, Token> = {
     active: true,
   },
   forward: {
-    symbol: 'FORWARD',
+    symbol: '$FORWARD',
     address: {
       [ChainId.BSC]: '0x886640149E31E1430FA74Cc39725431eb82ddFB2',
       [ChainId.MAINNET]: '0x01824357D7D7EAF4677Bc17786aBd26CBdEc9Ad7',
