@@ -2012,6 +2012,91 @@
     "tags": ["Reserve"]
   },
   {
+    "index": 1038,
+    "contractAddress": {
+      "56": "0x82e55fc7c1348c38B429d7ae791DBb36BFE8c788"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "FORWARD",
+      "address": {
+        "1": "0x01824357D7D7EAF4677Bc17786aBd26CBdEc9Ad7",
+        "56": "0x886640149E31E1430FA74Cc39725431eb82ddFB2"
+      },
+      "decimals": {
+        "1": 18,
+        "56": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV3",
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://forwardprotocol.io/",
+    "twitter": "https://twitter.com/forwardprotocol",
+    "audit": "https://www.cyberscope.io/audits/coin-forward-protocol",
+    "initTime": {
+      "56": 1710255600
+    },
+    "initPrice": {
+      "56": 0.00173967992950712
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["NFTs"],
+    "fullDescription": "Forward Protocol is the WordPress for Web3. It is fully customizable, no-code and counts with a drag & drop interface. These features allow users to deploy and go live in a few minutes, with no programming skills required. Create Blockchains, Subnets, dApps and more, with Forward Protocol"
+  },
+  {
     "index": 1037,
     "contractAddress": {
       "56": "0xea1735193cD2cD78251D7225A405d59D5F8a8e7D"
@@ -16590,5 +16675,814 @@
       "42161": 1.5528
     },
     "soldOut": true
+  },
+  {
+    "index": 3000,
+    "contractAddress": {
+      "1": "0x0EA92F3a9652a5f8a3C6123578276915b76411E9"
+    },
+    "billType": "reserve",
+    "billVersion": "V3",
+    "token": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "42161": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "42161": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "42161": 18
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "CGV",
+      "address": {
+        "1": "0xaeF420fd77477d9Dc8B46D704D44dD09d6c27866",
+        "56": "0x1bDaF9ddD7658d8049391971d1fd48c0484F66EC"
+      },
+      "decimals": {
+        "1": 6,
+        "56": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "1": "0x499b654b0a7f9979cc315190c09ca2633809b8df"
+    },
+    "inactive": false,
+    "projectLink": "https://www.cogitoprotocol.com/",
+    "twitter": "https://twitter.com/CogitoProtocol",
+    "audit": "https://wp.hacken.io/wp-content/uploads/2023/05/Cogito_SC-Audit-Report_11_05_2023_SA-1337-1.pdf",
+    "initTime": {
+      "1": 1710255600
+    },
+    "initPrice": {
+      "1": 0.00173967992950712
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ETH_Collection1"
+    },
+    "tags": ["Derivatives"],
+    "fullDescription": "Cogito is tokenizing traditional assets for Onchain Finance. Fully Compliant, secure and AI-Powered, Cogito allows users to invest, own and get the most out of DeFi for increased liquidity, security, and transparency. For DAOS, Protocols or Institutions, Cogito Finance is a no-brainer."
+  },
+  {
+    "index": 3001,
+    "contractAddress": {
+      "1": "0xe8EF7318385244261047b9BD19b5Cc96Fb867270"
+    },
+    "billType": "reserve",
+    "billVersion": "V3",
+    "token": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "2525": 6,
+        "42161": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "2525": "External"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "2525": 6,
+        "42161": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "2525": "External"
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "2525": 6,
+        "42161": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "2525": "External"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "XIXT",
+      "address": {
+        "1": "0x8b04bf3358B88e3630aa64C1c76FF3B6C699C6a7"
+      },
+      "decimals": {
+        "1": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "1": "0x499b654b0a7f9979cc315190c09ca2633809b8df"
+    },
+    "inactive": false,
+    "projectLink": "https://planetix.com/",
+    "twitter": "https://twitter.com/Planetix0",
+    "initTime": {
+      "1": 1710255600
+    },
+    "initPrice": {
+      "1": 0.00173967992950712
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ETH_Collection1"
+    },
+    "tags": ["GameFi (Play to Earn)"],
+    "fullDescription": "Planet IX is a Web3 play-to-earn platform fueled by their native IX Token. Every asset on Planet IX is an NFT, allowing users to farm, own, and trade them. The main goal is to restore the planet to its former green-blue glory. Join Planet IX and become an Agent of Change now."
+  },
+  {
+    "index": 3002,
+    "contractAddress": {
+      "1": "0xb44dE605a67fc95F239c0Ccf7086a5E1Aaf7A38C"
+    },
+    "billType": "reserve",
+    "billVersion": "V3",
+    "token": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "42161": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "42161": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "42161": 18
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "FORWARD",
+      "address": {
+        "1": "0x01824357D7D7EAF4677Bc17786aBd26CBdEc9Ad7",
+        "56": "0x886640149E31E1430FA74Cc39725431eb82ddFB2"
+      },
+      "decimals": {
+        "1": 18,
+        "56": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV3",
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "1": "0x499b654b0a7f9979cc315190c09ca2633809b8df"
+    },
+    "inactive": false,
+    "projectLink": "https://forwardprotocol.io/",
+    "twitter": "https://twitter.com/forwardprotocol",
+    "audit": "https://www.cyberscope.io/audits/coin-forward-protocol",
+    "initTime": {
+      "1": 1710255600
+    },
+    "initPrice": {
+      "1": 0.00173967992950712
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ETH_Collection1"
+    },
+    "tags": ["Blockchains"],
+    "fullDescription": "Forward Protocol is the WordPress for Web3. It is fully customizable, no-code and counts with a drag & drop interface. These features allow users to deploy and go live in a few minutes, with no programming skills required. Create Blockchains, Subnets, dApps and more, with Forward Protocol"
+  },
+  {
+    "index": 3003,
+    "contractAddress": {
+      "1": "0x8fCabf87bB618eEb42237839ed98dc99Ee7ab165"
+    },
+    "billType": "reserve",
+    "billVersion": "V3",
+    "token": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "42161": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "42161": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "42161": 18
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "GPT",
+      "address": {
+        "1": "0xCdb4A8742ed7D0259b51E3454C46C9D6C48d5e88"
+      },
+      "decimals": {
+        "1": 18
+      },
+      "liquidityDex": {
+        "1": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "1": "0x499b654b0a7f9979cc315190c09ca2633809b8df"
+    },
+    "inactive": false,
+    "projectLink": "https://gptprotocol.org/",
+    "twitter": "https://twitter.com/gpt_protocol",
+    "initTime": {
+      "1": 1710255600
+    },
+    "initPrice": {
+      "1": 0.00173967992950712
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ETH_Collection1"
+    },
+    "tags": ["AI"],
+    "fullDescription": "GPT Protocol's AI delivers robust, censorship-resistant technology, ensuring the integrity of data and the preservation of intellectual freedom. With a comprehensive roadmap that includes the GPT Testnet and Tools, Chat Assistant, 3D Art from Text, and AI Grid Computing, GPT Protocol is shaping a future where data integrity, intellectual freedom, and collaborative innovation form the pillars of the digital world."
+  },
+  {
+    "index": 3004,
+    "contractAddress": {
+      "1": "0xC0d4000b40B5F871d0e9DA2e2352bFcaE2E513bB"
+    },
+    "billType": "reserve",
+    "billVersion": "V3",
+    "token": {
+      "symbol": "USDC",
+      "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+        "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDC",
+      "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+        "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+        "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "CIRUS",
+      "address": {
+        "1": "0xA01199c61841Fce3b3daFB83FeFC1899715c8756"
+      },
+      "decimals": {
+        "1": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "1": "0x499b654b0a7f9979cc315190c09ca2633809b8df"
+    },
+    "inactive": false,
+    "projectLink": "https://cirusfoundation.com/",
+    "twitter": "https://twitter.com/cirusfoundation",
+    "audit": "https://hacken.io/audits/cirus/",
+    "initTime": {
+      "1": 1710255600
+    },
+    "initPrice": {
+      "1": 0.00173967992950712
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ETH_Collection1"
+    },
+    "tags": ["Wallets/Domains"],
+    "fullDescription": "Cirus is a Web3 wallet that rewards its users. Subscribers can earn money for their data, manage their assets, and gain access to the Web3 Powered App Store, all while improving their Cirus Score to unlock exclusive rewards. Surf the web and earn crypto: it's as simple as that with Cirus."
+  },
+  {
+    "index": 3005,
+    "contractAddress": {
+      "1": "0xA695B31319ea84E8fCC552F4648515970cD34B16"
+    },
+    "billType": "reserve",
+    "billVersion": "V3",
+    "token": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "42161": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "42161": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "42161": 18
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "METH",
+      "address": {
+        "1": "0x0345173a92742e9dAF55d44Ac65e0D987b22379e"
+      },
+      "decimals": {
+        "1": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "1": "0x499b654b0a7f9979cc315190c09ca2633809b8df"
+    },
+    "inactive": false,
+    "projectLink": "https://eth.monsta.finance/",
+    "twitter": "https://twitter.com/Monsta_ETH",
+    "initTime": {
+      "1": 1710255600
+    },
+    "initPrice": {
+      "1": 0.00173967992950712
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ETH_Collection1"
+    },
+    "tags": ["Community/Meme"],
+    "fullDescription": "MONSTA is a revolutionary undertaking in sustainable Hyper-Deflationary Economics. Their team has developed a groundbreaking economic policy to combat the problems that the financial world is currently facing, and now they are also available on Ethereum."
+  },
+  {
+    "index": 3006,
+    "contractAddress": {
+      "1": "0x5fa4A0df090f6728Bd61EbCB821bDf533B0ecd1F"
+    },
+    "billType": "reserve",
+    "billVersion": "V3",
+    "token": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "42161": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "42161": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "42161": 18
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "STRK",
+      "address": {
+        "1": "0x74232704659ef37c08995e386A2E26cc27a8d7B1"
+      },
+      "decimals": {
+        "1": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "1": "0x499b654b0a7f9979cc315190c09ca2633809b8df"
+    },
+    "inactive": false,
+    "projectLink": "https://www.strike.org/",
+    "twitter": "https://twitter.com/StrikeFinance",
+    "initTime": {
+      "1": 1710255600
+    },
+    "initPrice": {
+      "1": 0.00173967992950712
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ETH_Collection1"
+    },
+    "tags": ["Defi"],
+    "fullDescription": "Strike Finance allows users to control all of their digital assets on a non-custodial protocol while earning a variable rate based on market demands of that asset. Rates are earned per Ethereum block mined. With a friendly user interface and the Strike protocols decentralized nature, users and developers can access liquidity on-demand from their supplied collateral. Strike Finance: the place for exceptional APYs."
+  },
+  {
+    "index": 3008,
+    "contractAddress": {
+      "1": "0x0BA50Abf5deA07b378189011833C1DBf71879806"
+    },
+    "billType": "reserve",
+    "billVersion": "V3",
+    "token": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "42161": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "42161": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "42161": 18
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "CHRP",
+      "address": {
+        "1": "0x70Bc0DC6414EB8974BC70685F798838a87d8CCe4",
+        "56": "0xeD00Fc7D48B57B81FE65D1cE71c0985e4CF442CB"
+      },
+      "decimals": {
+        "1": 18,
+        "56": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "1": "0x499b654b0a7f9979cc315190c09ca2633809b8df"
+    },
+    "inactive": false,
+    "projectLink": "https://chirpley.ai/",
+    "twitter": "https://twitter.com/chirpley",
+    "initTime": {
+      "1": 1710255600
+    },
+    "initPrice": {
+      "1": 0.00173967992950712
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ETH_Collection1"
+    },
+    "tags": ["Marketing Solutions"],
+    "fullDescription": "Chirpley is the world's first fully automated, peer-to-peer, all-in-one influencer marketplace exclusively dedicated to nano and micro-influencers. It facilitates end-to-end automated influencer campaigns through Artificial Intelligence, Machine Learning, and Blockchain technology. Chirpley ensures perfectly matched collaborations between sponsors and brands, eliminating the need for tiresome negotiations among influencers, marketers, and agents."
   }
 ]

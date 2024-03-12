@@ -2,10 +2,11 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1037
+// BNB Largest ID: 1038
 // Polygon Largest ID: 135
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
+// ETH Largest ID: 3008
 //Migration Bonds ID: 5007
 
 const bills: BillsConfig[] = [
@@ -572,6 +573,34 @@ const bills: BillsConfig[] = [
     fullDescription:
       'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
     tags: ['Reserve'],
+  },
+  {
+    index: 1038,
+    contractAddress: {
+      [ChainId.BSC]: '0x82e55fc7c1348c38B429d7ae791DBb36BFE8c788',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.wbnb,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.wbnb,
+    earnToken: tokens.forward,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://forwardprotocol.io/',
+    twitter: 'https://twitter.com/forwardprotocol',
+    audit: 'https://www.cyberscope.io/audits/coin-forward-protocol',
+    initTime: { [ChainId.BSC]: 1710255600 },
+    initPrice: { [ChainId.BSC]: 0.00173967992950712 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['NFTs'],
+    fullDescription:
+      'Forward Protocol is the WordPress for Web3. It is fully customizable, no-code and counts with a drag & drop interface. These features allow users to deploy and go live in a few minutes, with no programming skills required. Create Blockchains, Subnets, dApps and more, with Forward Protocol',
   },
   {
     index: 1037,
@@ -4818,6 +4847,256 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.ARBITRUM]: 1679952396 },
     initPrice: { [ChainId.ARBITRUM]: 1.5528 },
     soldOut: true,
+  },
+  /*
+      ETH Bills - ID started from 3000
+  */
+  {
+    index: 3000,
+    contractAddress: {
+      [ChainId.MAINNET]: '0x0EA92F3a9652a5f8a3C6123578276915b76411E9',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    token: tokens.eth,
+    quoteToken: tokens.eth,
+    lpToken: tokens.eth,
+    earnToken: tokens.cgv,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    inactive: false,
+    projectLink: 'https://www.cogitoprotocol.com/',
+    twitter: 'https://twitter.com/CogitoProtocol',
+    audit: 'https://wp.hacken.io/wp-content/uploads/2023/05/Cogito_SC-Audit-Report_11_05_2023_SA-1337-1.pdf',
+    initTime: { [ChainId.MAINNET]: 1710255600 },
+    initPrice: { [ChainId.MAINNET]: 0.00173967992950712 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['Derivatives'],
+    fullDescription:
+      'Cogito is tokenizing traditional assets for Onchain Finance. Fully Compliant, secure and AI-Powered, Cogito allows users to invest, own and get the most out of DeFi for increased liquidity, security, and transparency. For DAOS, Protocols or Institutions, Cogito Finance is a no-brainer.',
+  },
+  {
+    index: 3001,
+    contractAddress: {
+      [ChainId.MAINNET]: '0xe8EF7318385244261047b9BD19b5Cc96Fb867270',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.xixt,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    inactive: false,
+    projectLink: 'https://planetix.com/',
+    twitter: 'https://twitter.com/Planetix0',
+    initTime: { [ChainId.MAINNET]: 1710255600 },
+    initPrice: { [ChainId.MAINNET]: 0.00173967992950712 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['GameFi (Play to Earn)'],
+    fullDescription:
+      'Planet IX is a Web3 play-to-earn platform fueled by their native IX Token. Every asset on Planet IX is an NFT, allowing users to farm, own, and trade them. The main goal is to restore the planet to its former green-blue glory. Join Planet IX and become an Agent of Change now.',
+  },
+  {
+    index: 3002,
+    contractAddress: {
+      [ChainId.MAINNET]: '0xb44dE605a67fc95F239c0Ccf7086a5E1Aaf7A38C',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    token: tokens.eth,
+    quoteToken: tokens.eth,
+    lpToken: tokens.eth,
+    earnToken: tokens.forward,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    inactive: false,
+    projectLink: 'https://forwardprotocol.io/',
+    twitter: 'https://twitter.com/forwardprotocol',
+    audit: 'https://www.cyberscope.io/audits/coin-forward-protocol',
+    initTime: { [ChainId.MAINNET]: 1710255600 },
+    initPrice: { [ChainId.MAINNET]: 0.00173967992950712 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['Blockchains'],
+    fullDescription:
+      'Forward Protocol is the WordPress for Web3. It is fully customizable, no-code and counts with a drag & drop interface. These features allow users to deploy and go live in a few minutes, with no programming skills required. Create Blockchains, Subnets, dApps and more, with Forward Protocol',
+  },
+  {
+    index: 3003,
+    contractAddress: {
+      [ChainId.MAINNET]: '0x8fCabf87bB618eEb42237839ed98dc99Ee7ab165',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    token: tokens.eth,
+    quoteToken: tokens.eth,
+    lpToken: tokens.eth,
+    earnToken: tokens.gpt,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    inactive: false,
+    projectLink: 'https://gptprotocol.org/',
+    twitter: 'https://twitter.com/gpt_protocol',
+    initTime: { [ChainId.MAINNET]: 1710255600 },
+    initPrice: { [ChainId.MAINNET]: 0.00173967992950712 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['AI'],
+    fullDescription:
+      "GPT Protocol's AI delivers robust, censorship-resistant technology, ensuring the integrity of data and the preservation of intellectual freedom. With a comprehensive roadmap that includes the GPT Testnet and Tools, Chat Assistant, 3D Art from Text, and AI Grid Computing, GPT Protocol is shaping a future where data integrity, intellectual freedom, and collaborative innovation form the pillars of the digital world.",
+  },
+  {
+    index: 3004,
+    contractAddress: {
+      [ChainId.MAINNET]: '0xC0d4000b40B5F871d0e9DA2e2352bFcaE2E513bB',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    token: tokens.usdc,
+    quoteToken: tokens.usdc,
+    lpToken: tokens.usdc,
+    earnToken: tokens.cirus,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    inactive: false,
+    projectLink: 'https://cirusfoundation.com/',
+    twitter: 'https://twitter.com/cirusfoundation',
+    audit: 'https://hacken.io/audits/cirus/',
+    initTime: { [ChainId.MAINNET]: 1710255600 },
+    initPrice: { [ChainId.MAINNET]: 0.00173967992950712 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['Wallets/Domains'],
+    fullDescription:
+      "Cirus is a Web3 wallet that rewards its users. Subscribers can earn money for their data, manage their assets, and gain access to the Web3 Powered App Store, all while improving their Cirus Score to unlock exclusive rewards. Surf the web and earn crypto: it's as simple as that with Cirus.",
+  },
+  {
+    index: 3005,
+    contractAddress: {
+      [ChainId.MAINNET]: '0xA695B31319ea84E8fCC552F4648515970cD34B16',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    token: tokens.eth,
+    quoteToken: tokens.eth,
+    lpToken: tokens.eth,
+    earnToken: tokens.meth,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    inactive: false,
+    projectLink: 'https://eth.monsta.finance/',
+    twitter: 'https://twitter.com/Monsta_ETH',
+    initTime: { [ChainId.MAINNET]: 1710255600 },
+    initPrice: { [ChainId.MAINNET]: 0.00173967992950712 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['Community/Meme'],
+    fullDescription:
+      'MONSTA is a revolutionary undertaking in sustainable Hyper-Deflationary Economics. Their team has developed a groundbreaking economic policy to combat the problems that the financial world is currently facing, and now they are also available on Ethereum.',
+  },
+  {
+    index: 3006,
+    contractAddress: {
+      [ChainId.MAINNET]: '0x5fa4A0df090f6728Bd61EbCB821bDf533B0ecd1F',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    token: tokens.eth,
+    quoteToken: tokens.eth,
+    lpToken: tokens.eth,
+    earnToken: tokens.strk,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    inactive: false,
+    projectLink: 'https://www.strike.org/',
+    twitter: 'https://twitter.com/StrikeFinance',
+    initTime: { [ChainId.MAINNET]: 1710255600 },
+    initPrice: { [ChainId.MAINNET]: 0.00173967992950712 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['Defi'],
+    fullDescription:
+      'Strike Finance allows users to control all of their digital assets on a non-custodial protocol while earning a variable rate based on market demands of that asset. Rates are earned per Ethereum block mined. With a friendly user interface and the Strike protocols decentralized nature, users and developers can access liquidity on-demand from their supplied collateral. Strike Finance: the place for exceptional APYs.',
+  },
+  /*  {
+    index: 3007,
+    contractAddress: {
+      [ChainId.MAINNET]: '0x78EE6D3CC192b8a81b438Fb7818e3F7168A46597',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.gptplus,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    inactive: false,
+    projectLink: 'https://gpt-plus.io/',
+    twitter: 'https://twitter.com/GPTPlusAI',
+    audit: '',
+    initTime: { [ChainId.MAINNET]: 1710255600 },
+    initPrice: { [ChainId.MAINNET]: 0.00173967992950712 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['AI'],
+    fullDescription:
+      "GPT Plus is leading a transformative journey, turning visionary ideas into intelligent, blockchain-backed solutions. It stands as the definitive destination for state-of-the-art AI tools, where AI meets convenience, streamlining users' tasks and enhancing productivity. GPT Plus offers an experience of the future of technology, all curated and centralized for the ease of users.",
+  }, */
+  {
+    index: 3008,
+    contractAddress: {
+      [ChainId.MAINNET]: '0x0BA50Abf5deA07b378189011833C1DBf71879806',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    token: tokens.eth,
+    quoteToken: tokens.eth,
+    lpToken: tokens.eth,
+    earnToken: tokens.chrp,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    inactive: false,
+    projectLink: 'https://chirpley.ai/',
+    twitter: 'https://twitter.com/chirpley',
+    initTime: { [ChainId.MAINNET]: 1710255600 },
+    initPrice: { [ChainId.MAINNET]: 0.00173967992950712 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['Marketing Solutions'],
+    fullDescription:
+      "Chirpley is the world's first fully automated, peer-to-peer, all-in-one influencer marketplace exclusively dedicated to nano and micro-influencers. It facilitates end-to-end automated influencer campaigns through Artificial Intelligence, Machine Learning, and Blockchain technology. Chirpley ensures perfectly matched collaborations between sponsors and brands, eliminating the need for tiresome negotiations among influencers, marketers, and agents.",
   },
 ]
 
