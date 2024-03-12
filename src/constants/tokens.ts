@@ -2519,6 +2519,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  xixt: {
+    symbol: 'XIXT',
+    address: {
+      [ChainId.MAINNET]: '0x8b04bf3358B88e3630aa64C1c76FF3B6C699C6a7',
+    },
+    decimals: { [ChainId.MAINNET]: 18 },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
+    },
+    active: true,
+  },
   dck: {
     symbol: 'DCK',
     address: {
