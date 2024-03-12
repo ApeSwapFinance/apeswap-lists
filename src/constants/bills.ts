@@ -5043,16 +5043,16 @@ const bills: BillsConfig[] = [
     fullDescription:
       'Strike Finance allows users to control all of their digital assets on a non-custodial protocol while earning a variable rate based on market demands of that asset. Rates are earned per Ethereum block mined. With a friendly user interface and the Strike protocols decentralized nature, users and developers can access liquidity on-demand from their supplied collateral. Strike Finance: the place for exceptional APYs.',
   },
-  /*  {
+  {
     index: 3007,
     contractAddress: {
-      [ChainId.MAINNET]: '0x78EE6D3CC192b8a81b438Fb7818e3F7168A46597',
+      [ChainId.MAINNET]: '0x6321eD6E53B3c7Eaef7136632bae9b13B4a53976',
     },
     billType: 'reserve',
     billVersion: BillVersion.V3,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
-    lpToken: tokens.usdt,
+    token: tokens.eth,
+    quoteToken: tokens.eth,
+    lpToken: tokens.eth,
     earnToken: tokens.gptplus,
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
@@ -5060,7 +5060,6 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://gpt-plus.io/',
     twitter: 'https://twitter.com/GPTPlusAI',
-    audit: '',
     initTime: { [ChainId.MAINNET]: 1710255600 },
     initPrice: { [ChainId.MAINNET]: 0.00173967992950712 },
     soldOut: false,
@@ -5070,7 +5069,7 @@ const bills: BillsConfig[] = [
     tags: ['AI'],
     fullDescription:
       "GPT Plus is leading a transformative journey, turning visionary ideas into intelligent, blockchain-backed solutions. It stands as the definitive destination for state-of-the-art AI tools, where AI meets convenience, streamlining users' tasks and enhancing productivity. GPT Plus offers an experience of the future of technology, all curated and centralized for the ease of users.",
-  }, */
+  },
   {
     index: 3008,
     contractAddress: {
