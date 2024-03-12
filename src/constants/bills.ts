@@ -577,7 +577,7 @@ const bills: BillsConfig[] = [
   {
     index: 1038,
     contractAddress: {
-      [ChainId.BSC]: '',
+      [ChainId.BSC]: '0x82e55fc7c1348c38B429d7ae791DBb36BFE8c788',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
@@ -4854,7 +4854,7 @@ const bills: BillsConfig[] = [
   {
     index: 3000,
     contractAddress: {
-      [ChainId.MAINNET]: '',
+      [ChainId.MAINNET]: '0x0EA92F3a9652a5f8a3C6123578276915b76411E9',
     },
     billType: 'reserve',
     billVersion: BillVersion.V3,
@@ -4882,7 +4882,7 @@ const bills: BillsConfig[] = [
   {
     index: 3001,
     contractAddress: {
-      [ChainId.MAINNET]: '',
+      [ChainId.MAINNET]: '0xe8EF7318385244261047b9BD19b5Cc96Fb867270',
     },
     billType: 'reserve',
     billVersion: BillVersion.V3,
@@ -4909,7 +4909,7 @@ const bills: BillsConfig[] = [
   {
     index: 3002,
     contractAddress: {
-      [ChainId.MAINNET]: '',
+      [ChainId.MAINNET]: '0xb44dE605a67fc95F239c0Ccf7086a5E1Aaf7A38C',
     },
     billType: 'reserve',
     billVersion: BillVersion.V3,
@@ -4937,7 +4937,7 @@ const bills: BillsConfig[] = [
   {
     index: 3003,
     contractAddress: {
-      [ChainId.MAINNET]: '',
+      [ChainId.MAINNET]: '0x8fCabf87bB618eEb42237839ed98dc99Ee7ab165',
     },
     billType: 'reserve',
     billVersion: BillVersion.V3,
@@ -4964,7 +4964,7 @@ const bills: BillsConfig[] = [
   {
     index: 3004,
     contractAddress: {
-      [ChainId.MAINNET]: '',
+      [ChainId.MAINNET]: '0xC0d4000b40B5F871d0e9DA2e2352bFcaE2E513bB',
     },
     billType: 'reserve',
     billVersion: BillVersion.V3,
@@ -4992,7 +4992,7 @@ const bills: BillsConfig[] = [
   {
     index: 3005,
     contractAddress: {
-      [ChainId.MAINNET]: '',
+      [ChainId.MAINNET]: '0xA695B31319ea84E8fCC552F4648515970cD34B16',
     },
     billType: 'reserve',
     billVersion: BillVersion.V3,
@@ -5019,7 +5019,7 @@ const bills: BillsConfig[] = [
   {
     index: 3006,
     contractAddress: {
-      [ChainId.MAINNET]: '',
+      [ChainId.MAINNET]: '0x5fa4A0df090f6728Bd61EbCB821bDf533B0ecd1F',
     },
     billType: 'reserve',
     billVersion: BillVersion.V3,
@@ -5043,10 +5043,10 @@ const bills: BillsConfig[] = [
     fullDescription:
       'Strike Finance allows users to control all of their digital assets on a non-custodial protocol while earning a variable rate based on market demands of that asset. Rates are earned per Ethereum block mined. With a friendly user interface and the Strike protocols decentralized nature, users and developers can access liquidity on-demand from their supplied collateral. Strike Finance: the place for exceptional APYs.',
   },
-  {
+  /*  {
     index: 3007,
     contractAddress: {
-      [ChainId.MAINNET]: '',
+      [ChainId.MAINNET]: '0x78EE6D3CC192b8a81b438Fb7818e3F7168A46597',
     },
     billType: 'reserve',
     billVersion: BillVersion.V3,
@@ -5070,11 +5070,11 @@ const bills: BillsConfig[] = [
     tags: ['AI'],
     fullDescription:
       "GPT Plus is leading a transformative journey, turning visionary ideas into intelligent, blockchain-backed solutions. It stands as the definitive destination for state-of-the-art AI tools, where AI meets convenience, streamlining users' tasks and enhancing productivity. GPT Plus offers an experience of the future of technology, all curated and centralized for the ease of users.",
-  },
+  }, */
   {
     index: 3008,
     contractAddress: {
-      [ChainId.MAINNET]: '',
+      [ChainId.MAINNET]: '0x0BA50Abf5deA07b378189011833C1DBf71879806',
     },
     billType: 'reserve',
     billVersion: BillVersion.V3,

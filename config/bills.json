@@ -2014,7 +2014,7 @@
   {
     "index": 1038,
     "contractAddress": {
-      "56": ""
+      "56": "0x82e55fc7c1348c38B429d7ae791DBb36BFE8c788"
     },
     "billType": "reserve",
     "billVersion": "V2",
@@ -16679,7 +16679,7 @@
   {
     "index": 3000,
     "contractAddress": {
-      "1": ""
+      "1": "0x0EA92F3a9652a5f8a3C6123578276915b76411E9"
     },
     "billType": "reserve",
     "billVersion": "V3",
@@ -16782,7 +16782,7 @@
   {
     "index": 3001,
     "contractAddress": {
-      "1": ""
+      "1": "0xe8EF7318385244261047b9BD19b5Cc96Fb867270"
     },
     "billType": "reserve",
     "billVersion": "V3",
@@ -16893,7 +16893,7 @@
   {
     "index": 3002,
     "contractAddress": {
-      "1": ""
+      "1": "0xb44dE605a67fc95F239c0Ccf7086a5E1Aaf7A38C"
     },
     "billType": "reserve",
     "billVersion": "V3",
@@ -16996,7 +16996,7 @@
   {
     "index": 3003,
     "contractAddress": {
-      "1": ""
+      "1": "0x8fCabf87bB618eEb42237839ed98dc99Ee7ab165"
     },
     "billType": "reserve",
     "billVersion": "V3",
@@ -17095,7 +17095,7 @@
   {
     "index": 3004,
     "contractAddress": {
-      "1": ""
+      "1": "0xC0d4000b40B5F871d0e9DA2e2352bFcaE2E513bB"
     },
     "billType": "reserve",
     "billVersion": "V3",
@@ -17189,7 +17189,7 @@
   {
     "index": 3005,
     "contractAddress": {
-      "1": ""
+      "1": "0xA695B31319ea84E8fCC552F4648515970cD34B16"
     },
     "billType": "reserve",
     "billVersion": "V3",
@@ -17288,7 +17288,7 @@
   {
     "index": 3006,
     "contractAddress": {
-      "1": ""
+      "1": "0x5fa4A0df090f6728Bd61EbCB821bDf533B0ecd1F"
     },
     "billType": "reserve",
     "billVersion": "V3",
@@ -17385,121 +17385,9 @@
     "fullDescription": "Strike Finance allows users to control all of their digital assets on a non-custodial protocol while earning a variable rate based on market demands of that asset. Rates are earned per Ethereum block mined. With a friendly user interface and the Strike protocols decentralized nature, users and developers can access liquidity on-demand from their supplied collateral. Strike Finance: the place for exceptional APYs."
   },
   {
-    "index": 3007,
-    "contractAddress": {
-      "1": ""
-    },
-    "billType": "reserve",
-    "billVersion": "V3",
-    "token": {
-      "symbol": "USDT",
-      "address": {
-        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
-        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
-        "56": "0x55d398326f99059fF775485246999027B3197955",
-        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
-        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
-      },
-      "decimals": {
-        "1": 6,
-        "40": 6,
-        "56": 18,
-        "137": 6,
-        "2525": 6,
-        "42161": 6
-      },
-      "liquidityDex": {
-        "1": "UniswapV2",
-        "2525": "External"
-      },
-      "active": true
-    },
-    "quoteToken": {
-      "symbol": "USDT",
-      "address": {
-        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
-        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
-        "56": "0x55d398326f99059fF775485246999027B3197955",
-        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
-        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
-      },
-      "decimals": {
-        "1": 6,
-        "40": 6,
-        "56": 18,
-        "137": 6,
-        "2525": 6,
-        "42161": 6
-      },
-      "liquidityDex": {
-        "1": "UniswapV2",
-        "2525": "External"
-      },
-      "active": true
-    },
-    "lpToken": {
-      "symbol": "USDT",
-      "address": {
-        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
-        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
-        "56": "0x55d398326f99059fF775485246999027B3197955",
-        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
-        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
-      },
-      "decimals": {
-        "1": 6,
-        "40": 6,
-        "56": 18,
-        "137": 6,
-        "2525": 6,
-        "42161": 6
-      },
-      "liquidityDex": {
-        "1": "UniswapV2",
-        "2525": "External"
-      },
-      "active": true
-    },
-    "earnToken": {
-      "symbol": "GPTPLUS",
-      "address": {
-        "1": "0xeD9F6Aa6532869576211fD6367E3c328810fBeb3"
-      },
-      "decimals": {
-        "1": 18
-      },
-      "liquidityDex": {
-        "1": "UniswapV2"
-      },
-      "active": true
-    },
-    "billNnftAddress": {
-      "1": "0x499b654b0a7f9979cc315190c09ca2633809b8df"
-    },
-    "inactive": false,
-    "projectLink": "https://gpt-plus.io/",
-    "twitter": "https://twitter.com/GPTPlusAI",
-    "audit": "",
-    "initTime": {
-      "1": 1710255600
-    },
-    "initPrice": {
-      "1": 0.00173967992950712
-    },
-    "soldOut": false,
-    "billArt": {
-      "collection": "ETH_Collection1"
-    },
-    "tags": ["AI"],
-    "fullDescription": "GPT Plus is leading a transformative journey, turning visionary ideas into intelligent, blockchain-backed solutions. It stands as the definitive destination for state-of-the-art AI tools, where AI meets convenience, streamlining users' tasks and enhancing productivity. GPT Plus offers an experience of the future of technology, all curated and centralized for the ease of users."
-  },
-  {
     "index": 3008,
     "contractAddress": {
-      "1": ""
+      "1": "0x0BA50Abf5deA07b378189011833C1DBf71879806"
     },
     "billType": "reserve",
     "billVersion": "V3",
