@@ -2441,7 +2441,7 @@ const tokens: Record<string, Token> = {
     active: true,
   },
   forward: {
-    symbol: 'FORWARD',
+    symbol: '$FORWARD',
     address: {
       [ChainId.BSC]: '0x886640149E31E1430FA74Cc39725431eb82ddFB2',
       [ChainId.MAINNET]: '0x01824357D7D7EAF4677Bc17786aBd26CBdEc9Ad7',
@@ -2516,6 +2516,17 @@ const tokens: Record<string, Token> = {
     decimals: { [ChainId.MAINNET]: 18 },
     liquidityDex: {
       [ChainId.MAINNET]: LiquidityDex.UniswapV3,
+    },
+    active: true,
+  },
+  xixt: {
+    symbol: 'XIXT',
+    address: {
+      [ChainId.MAINNET]: '0x8b04bf3358B88e3630aa64C1c76FF3B6C699C6a7',
+    },
+    decimals: { [ChainId.MAINNET]: 18 },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
     },
     active: true,
   },
