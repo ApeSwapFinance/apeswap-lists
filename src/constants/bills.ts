@@ -628,7 +628,7 @@ const bills: BillsConfig[] = [
     },
     tags: ['Blockchains'],
     fullDescription:
-      'Forward Protocol is the WordPress for Web3. It is fully customizable, no-code and counts with a drag & drop interface. These features allow users to deploy and go live in a few minutes, with no programming skills required. Create Blockchains, Subnets, dApps and more, with Forward Protocol',
+      'Forward is the WordPress of Web 3.0, an AI powered no-code drag-and-drop full stack solution that enables people to deploy dApps on any chain. Developers can monetize their built templates.',
   },
   {
     index: 1037,
@@ -4960,7 +4960,7 @@ const bills: BillsConfig[] = [
     },
     tags: ['Blockchains'],
     fullDescription:
-      'Forward Protocol is the WordPress for Web3. It is fully customizable, no-code and counts with a drag & drop interface. These features allow users to deploy and go live in a few minutes, with no programming skills required. Create Blockchains, Subnets, dApps and more, with Forward Protocol',
+      'Forward is the WordPress of Web 3.0, an AI powered no-code drag-and-drop full stack solution that enables people to deploy dApps on any chain. Developers can monetize their built templates.',
   },
   {
     index: 3003,
