@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1038
+// BNB Largest ID: 1039
 // Polygon Largest ID: 135
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
@@ -575,6 +575,34 @@ const bills: BillsConfig[] = [
     tags: ['Reserve'],
   },
   {
+    index: 1039,
+    contractAddress: {
+      [ChainId.BSC]: '0x7bB1Bd0C2880F52D159f8f4680DEAC7a13B7bf1e',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.cgpt,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://ChainGPT.org/',
+    twitter: 'http://twitter.com/chain_gpt',
+    audit: 'https://www.certik.com/projects/chaingpt/',
+    initTime: { [ChainId.BSC]: 1704304800 },
+    initPrice: { [ChainId.BSC]: 0.189643589802866 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['AI'],
+    fullDescription:
+      'ChainGPT is an advanced AI infrastructure that develops AI-powered technologies for Web3, Blockchain, and Crypto space. They aim to improve the Web3 space for retail users & startups by developing AI-powered solutions designed explicitly for Web3. From LLMs to Web3 AI Tools, ChainGPT is the go-to place to boost your Web3 flow with Artificial Intelligence.',
+  },
+  {
     index: 1038,
     contractAddress: {
       [ChainId.BSC]: '0x82e55fc7c1348c38B429d7ae791DBb36BFE8c788',
@@ -598,7 +626,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    tags: ['NFTs'],
+    tags: ['Blockchains'],
     fullDescription:
       'Forward Protocol is the WordPress for Web3. It is fully customizable, no-code and counts with a drag & drop interface. These features allow users to deploy and go live in a few minutes, with no programming skills required. Create Blockchains, Subnets, dApps and more, with Forward Protocol',
   },
@@ -4875,9 +4903,9 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
-    tags: ['Derivatives'],
+    tags: ['RWA'],
     fullDescription:
-      'Cogito is tokenizing traditional assets for Onchain Finance. Fully Compliant, secure and AI-Powered, Cogito allows users to invest, own and get the most out of DeFi for increased liquidity, security, and transparency. For DAOS, Protocols or Institutions, Cogito Finance is a no-brainer.',
+      "As a SingularityNET ecosystem project, Cogito Finance leverages Snet's AI technologies for intelligent asset management, tokenizing RWAs for onchain access.",
   },
   /* {
     index: 3001,
