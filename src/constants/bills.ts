@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1039
+// BNB Largest ID: 1040
 // Polygon Largest ID: 135
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
@@ -575,6 +575,33 @@ const bills: BillsConfig[] = [
     tags: ['Reserve'],
   },
   {
+    index: 1040,
+    contractAddress: {
+      [ChainId.BSC]: '0xD39A9dC66f18e0a9f6585a48e3A9B37F4ef84570',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.f3,
+    lpToken: tokens.f3Usdt_PCS,
+    earnToken: tokens.f3,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://friend3.group/',
+    twitter: 'https://twitter.com/Friend3AI',
+    initTime: { [ChainId.BSC]: 1704304800 },
+    initPrice: { [ChainId.BSC]: 0.189643589802866 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Social Media'],
+    fullDescription:
+      'Friend3 allows users to make friends and profits. It is an open SocialFi platform that blends social dApp, inscriptions marketplace, AI, BTC eco & trending tech. On Friend3, content creators receive direct financial incentives, marking the seamless integration of the creator economy with Web3. Friend3: post, chat, trade, donate, earn.',
+  },
+  {
     index: 1039,
     contractAddress: {
       [ChainId.BSC]: '0x7bB1Bd0C2880F52D159f8f4680DEAC7a13B7bf1e',
@@ -628,7 +655,7 @@ const bills: BillsConfig[] = [
     },
     tags: ['Blockchains'],
     fullDescription:
-      'Forward Protocol is the WordPress for Web3. It is fully customizable, no-code and counts with a drag & drop interface. These features allow users to deploy and go live in a few minutes, with no programming skills required. Create Blockchains, Subnets, dApps and more, with Forward Protocol',
+      'Forward is the WordPress of Web 3.0, an AI powered no-code drag-and-drop full stack solution that enables people to deploy dApps on any chain. Developers can monetize their built templates.',
   },
   {
     index: 1037,
@@ -4960,7 +4987,7 @@ const bills: BillsConfig[] = [
     },
     tags: ['Blockchains'],
     fullDescription:
-      'Forward Protocol is the WordPress for Web3. It is fully customizable, no-code and counts with a drag & drop interface. These features allow users to deploy and go live in a few minutes, with no programming skills required. Create Blockchains, Subnets, dApps and more, with Forward Protocol',
+      'Forward is the WordPress of Web 3.0, an AI powered no-code drag-and-drop full stack solution that enables people to deploy dApps on any chain. Developers can monetize their built templates.',
   },
   {
     index: 3003,

@@ -942,10 +942,15 @@ const tokens: Record<string, Token> = {
     address: {
       [ChainId.BSC]: '0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3',
       [ChainId.MATIC]: '0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063',
+      [ChainId.MAINNET]: '0x6B175474E89094C44Da98b954EedeAC495271d0F',
     },
     decimals: {
       [ChainId.BSC]: 18,
       [ChainId.MATIC]: 18,
+      [ChainId.MAINNET]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV3,
     },
     active: true,
   },
@@ -2640,6 +2645,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  f3: {
+    symbol: 'F3',
+    address: {
+      [ChainId.BSC]: '0x9e57E83Ad79Ac5312Ba82940bA037ED30600e167',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
   cgg: {
     symbol: 'CGG',
     address: {
@@ -3874,6 +3890,22 @@ const tokens: Record<string, Token> = {
     getLpUrl: {
       [ChainId.BSC]:
         'https://pancakeswap.finance/v2/add/0x55d398326f99059fF775485246999027B3197955/0x003d87d02A2A01E9E8a20f507C83E15DD83A33d1',
+    },
+  },
+  f3Usdt_PCS: {
+    symbol: 'F3-USDT',
+    address: {
+      [ChainId.BSC]: '0x4Ea053cDc6C47e4dB91Aa6d34be93777fF18C642',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl: {
+      [ChainId.BSC]:
+        'https://pancakeswap.finance/v2/add/0x55d398326f99059fF775485246999027B3197955/0x9e57E83Ad79Ac5312Ba82940bA037ED30600e167',
     },
   },
   stlosTlos: {

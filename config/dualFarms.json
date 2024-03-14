@@ -229,12 +229,17 @@
       "token1": {
         "symbol": "DAI",
         "address": {
+          "1": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
           "56": "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3",
           "137": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
         },
         "decimals": {
+          "1": 18,
           "56": 18,
           "137": 18
+        },
+        "liquidityDex": {
+          "1": "UniswapV3"
         },
         "active": true
       }
@@ -446,12 +451,17 @@
       "token1": {
         "symbol": "DAI",
         "address": {
+          "1": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
           "56": "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3",
           "137": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
         },
         "decimals": {
+          "1": 18,
           "56": 18,
           "137": 18
+        },
+        "liquidityDex": {
+          "1": "UniswapV3"
         },
         "active": true
       }
@@ -995,12 +1005,17 @@
       "token1": {
         "symbol": "DAI",
         "address": {
+          "1": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
           "56": "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3",
           "137": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
         },
         "decimals": {
+          "1": 18,
           "56": 18,
           "137": 18
+        },
+        "liquidityDex": {
+          "1": "UniswapV3"
         },
         "active": true
       }
