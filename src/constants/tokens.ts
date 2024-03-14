@@ -942,10 +942,12 @@ const tokens: Record<string, Token> = {
     address: {
       [ChainId.BSC]: '0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3',
       [ChainId.MATIC]: '0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063',
+      [ChainId.MAINNET]: '0x6B175474E89094C44Da98b954EedeAC495271d0F',
     },
     decimals: {
       [ChainId.BSC]: 18,
       [ChainId.MATIC]: 18,
+      [ChainId.MAINNET]: 18,
     },
     active: true,
   },
