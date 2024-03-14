@@ -17000,6 +17000,96 @@
     "fullDescription": "As a SingularityNET ecosystem project, Cogito Finance leverages Snet's AI technologies for intelligent asset management, tokenizing RWAs for onchain access."
   },
   {
+    "index": 3001,
+    "contractAddress": {
+      "1": "0x9fD6CA9F2E8eeac75EFCeB56271DD5F0988546cE"
+    },
+    "billType": "reserve",
+    "billVersion": "V3",
+    "token": {
+      "symbol": "DAI",
+      "address": {
+        "1": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "56": "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3",
+        "137": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+      },
+      "decimals": {
+        "1": 18,
+        "56": 18,
+        "137": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "DAI",
+      "address": {
+        "1": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "56": "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3",
+        "137": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+      },
+      "decimals": {
+        "1": 18,
+        "56": 18,
+        "137": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "DAI",
+      "address": {
+        "1": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "56": "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3",
+        "137": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+      },
+      "decimals": {
+        "1": 18,
+        "56": 18,
+        "137": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "XIXT",
+      "address": {
+        "1": "0x8b04bf3358B88e3630aa64C1c76FF3B6C699C6a7"
+      },
+      "decimals": {
+        "1": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "1": "0x499b654b0a7f9979cc315190c09ca2633809b8df"
+    },
+    "inactive": false,
+    "projectLink": "https://planetix.com/",
+    "twitter": "https://twitter.com/Planetix0",
+    "initTime": {
+      "1": 1710427059
+    },
+    "initPrice": {
+      "1": 0.00173967992950712
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ETH_Collection1"
+    },
+    "tags": ["GameFi (Play to Earn)"],
+    "fullDescription": "Planet IX is a Web3 play-to-earn platform fueled by their native IX Token. Every asset on Planet IX is an NFT, allowing users to farm, own, and trade them. The main goal is to restore the planet to its former green-blue glory. Join Planet IX and become an Agent of Change now."
+  },
+  {
     "index": 3002,
     "contractAddress": {
       "1": "0xb44dE605a67fc95F239c0Ccf7086a5E1Aaf7A38C"

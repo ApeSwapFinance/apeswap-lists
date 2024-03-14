@@ -4934,16 +4934,16 @@ const bills: BillsConfig[] = [
     fullDescription:
       "As a SingularityNET ecosystem project, Cogito Finance leverages Snet's AI technologies for intelligent asset management, tokenizing RWAs for onchain access.",
   },
-  /* {
+  {
     index: 3001,
     contractAddress: {
-      [ChainId.MAINNET]: '0xe8EF7318385244261047b9BD19b5Cc96Fb867270',
+      [ChainId.MAINNET]: '0x9fD6CA9F2E8eeac75EFCeB56271DD5F0988546cE',
     },
     billType: 'reserve',
     billVersion: BillVersion.V3,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
-    lpToken: tokens.usdt,
+    token: tokens.dai,
+    quoteToken: tokens.dai,
+    lpToken: tokens.dai,
     earnToken: tokens.xixt,
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
@@ -4951,7 +4951,7 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://planetix.com/',
     twitter: 'https://twitter.com/Planetix0',
-    initTime: { [ChainId.MAINNET]: 1710255600 },
+    initTime: { [ChainId.MAINNET]: 1710427059 },
     initPrice: { [ChainId.MAINNET]: 0.00173967992950712 },
     soldOut: false,
     billArt: {
@@ -4960,7 +4960,7 @@ const bills: BillsConfig[] = [
     tags: ['GameFi (Play to Earn)'],
     fullDescription:
       'Planet IX is a Web3 play-to-earn platform fueled by their native IX Token. Every asset on Planet IX is an NFT, allowing users to farm, own, and trade them. The main goal is to restore the planet to its former green-blue glory. Join Planet IX and become an Agent of Change now.',
-  }, */
+  },
   {
     index: 3002,
     contractAddress: {
