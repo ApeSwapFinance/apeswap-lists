@@ -4941,9 +4941,9 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V3,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
-    lpToken: tokens.usdt,
+    token: tokens.dai,
+    quoteToken: tokens.dai,
+    lpToken: tokens.dai,
     earnToken: tokens.xixt,
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
