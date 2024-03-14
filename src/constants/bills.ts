@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1039
+// BNB Largest ID: 1040
 // Polygon Largest ID: 135
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
@@ -573,6 +573,33 @@ const bills: BillsConfig[] = [
     fullDescription:
       'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
     tags: ['Reserve'],
+  },
+  {
+    index: 1040,
+    contractAddress: {
+      [ChainId.BSC]: '0x19B32fA5e6339c374c53835D96c98896D38b49BD',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.f3,
+    lpToken: tokens.f3Usdt_PCS,
+    earnToken: tokens.f3,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://friend3.group/',
+    twitter: 'https://twitter.com/Friend3AI',
+    initTime: { [ChainId.BSC]: 1704304800 },
+    initPrice: { [ChainId.BSC]: 0.189643589802866 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Social Media'],
+    fullDescription:
+      'Friend3 allows users to make friends and profits. It is an open SocialFi platform that blends social dApp, inscriptions marketplace, AI, BTC eco & trending tech. On Friend3, content creators receive direct financial incentives, marking the seamless integration of the creator economy with Web3. Friend3: post, chat, trade, donate, earn.',
   },
   {
     index: 1039,
