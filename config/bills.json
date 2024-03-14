@@ -14480,6 +14480,9 @@
         "56": 18,
         "137": 18
       },
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
       "active": true
     },
     "quoteToken": {
@@ -14494,6 +14497,9 @@
         "56": 18,
         "137": 18
       },
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
       "active": true
     },
     "lpToken": {
@@ -14507,6 +14513,9 @@
         "1": 18,
         "56": 18,
         "137": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV3"
       },
       "active": true
     },

@@ -949,6 +949,9 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: 18,
       [ChainId.MAINNET]: 18,
     },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV3,
+    },
     active: true,
   },
   usdt: {

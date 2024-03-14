@@ -238,6 +238,9 @@
           "56": 18,
           "137": 18
         },
+        "liquidityDex": {
+          "1": "UniswapV3"
+        },
         "active": true
       }
     },
@@ -456,6 +459,9 @@
           "1": 18,
           "56": 18,
           "137": 18
+        },
+        "liquidityDex": {
+          "1": "UniswapV3"
         },
         "active": true
       }
@@ -1007,6 +1013,9 @@
           "1": 18,
           "56": 18,
           "137": 18
+        },
+        "liquidityDex": {
+          "1": "UniswapV3"
         },
         "active": true
       }
