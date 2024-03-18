@@ -142,6 +142,7 @@ export interface LaunchBonds {
       launchpadImg: string
       launchpadIcon: string
       headerImg: string
+      headerImgMobile: string
       websiteImg: string
       whitepaperImg: string
       partnersImg: string
