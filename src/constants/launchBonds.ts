@@ -19,6 +19,7 @@ const launchBonds: LaunchBonds[] = [
         'Strategic investments from notable entities such as Peech Capital and Mario Nawfal have bolstered their journey, with more significant milestones on the horizon. These include a token sale with an Initial Market Cap (IMC) of $400,000 and their Token Generation Event (TGE) anticipated by the end of March, setting the stage for a promising future.\n' +
         '\n' +
         'Mark your calendars, and make sure you don’t miss their $SKO sale on the ApeBond Launchpad!',
+      tags: ['GameFi'],
       socials: {
         discord: '',
         twitter: '',

@@ -129,6 +129,7 @@ export interface LaunchBonds {
   projectInfo: {
     shortDescription: string
     fullDescription: string
+    tags: string[]
     socials: {
       twitter: string
       discord: string
