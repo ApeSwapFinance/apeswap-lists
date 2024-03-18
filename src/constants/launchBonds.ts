@@ -3,6 +3,7 @@ import { LaunchBonds } from 'types'
 const launchBonds: LaunchBonds[] = [
   {
     index: 0,
+    projectId: 'sugar-kingdom',
     projectName: 'Sugar Kingdom',
     timing: {
       saleStartTime: '1710794091',
