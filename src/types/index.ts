@@ -116,6 +116,64 @@ export const MigrationVestingTerms = {
 
 export type MigrationVestingTermType = typeof MigrationVestingTerms[keyof typeof MigrationVestingTerms]
 
+export interface LaunchBonds {
+  index: number
+  projectName: string // this should be unique!
+  bonds?: LaunchBondConfig[]
+  timing: {
+    saleStartTime: string
+    redeemStartTime: string // this should be the same when liquidity is added
+  }
+  totalAllocation: string
+  projectInfo: {
+    shortDescription: string
+    fullDescription: string
+    socials: {
+      twitter: string
+      discord: string
+      website: string
+      whitepaper: string
+      tokenomicsURL: string
+      teaserVideo: string
+    }
+    images: {
+      launchpadImg: string
+      launchpadIcon: string
+      headerImg: string
+      websiteImg: string
+      whitepaperImg: string
+      partnersImg: string
+      tokenomicsImg: string
+      teaserImg: string
+    }
+  }
+}
+
+export interface LaunchBondConfig {
+  index: number
+  contractAddress: Partial<Record<ChainId, string>>
+  billVersion: BillVersion
+  billType: 'FCFS' | 'oversuscription'
+  token: Token // i.e. principalToken
+  earnToken: Token
+  billNnftAddress: Partial<Record<ChainId, string>>
+  soldOut: boolean
+  billArt: {
+    collection: BillArtCollection
+  }
+  initTime: Partial<Record<ChainId, number>>
+  initPrice: Partial<Record<ChainId, number>>
+  highTierAllowed: boolean //i.e. higher tier can purchase lower tiers
+  tier: LaunchBondTiers
+}
+
+export enum LaunchBondTiers {
+  Bronze,
+  Silver,
+  Gold,
+  Diamond,
+}
+
 // Start of list types
 export interface BillsConfig {
   index: number
