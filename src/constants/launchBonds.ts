@@ -4,7 +4,7 @@ const launchBonds: LaunchBonds[] = [
   {
     index: 0,
     projectId: 'sugar-kingdom',
-    projectName: 'Sugar Kingdom',
+    projectName: 'Sugar Kingdom Odyssey',
     timing: {
       saleStartTime: '1710794091',
       redeemStartTime: '1710966891',
@@ -21,12 +21,12 @@ const launchBonds: LaunchBonds[] = [
         'Mark your calendars, and make sure you don’t miss their $SKO sale on the ApeBond Launchpad!',
       tags: ['GameFi'],
       socials: {
-        discord: '',
-        twitter: '',
+        discord: 'https://discord.gg/sugar-kingdom ',
+        twitter: 'https://twitter.com/SugarKingdomNFT',
         teaserVideo: '',
         tokenomicsURL: '',
-        website: '',
-        whitepaper: '',
+        website: 'https://sugarkingdom.io/',
+        whitepaper: 'https://docs.sugarkingdom.io/ ',
       },
       images: {
         launchpadImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1710783703/launchpadBigImg_cfbcl5.png',
