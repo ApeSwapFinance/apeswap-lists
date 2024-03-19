@@ -33,6 +33,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  // mock token
+  eitm: {
+    symbol: 'EITM',
+    address: {
+      [ChainId.BSC_TESTNET]: '0x087C6c189C7f23b241e734A8F883CA703b6eADD0',
+    },
+    decimals: {
+      [ChainId.BSC_TESTNET]: 18,
+    },
+    active: true,
+  },
   gnana: {
     symbol: 'GNANA',
     address: {
@@ -963,6 +974,7 @@ const tokens: Record<string, Token> = {
       [ChainId.TLOS]: '0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73',
       [ChainId.ARBITRUM]: '0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9',
       [ChainId.INEVM]: '0x97423A68BAe94b5De52d767a17aBCc54c157c0E5',
+      [ChainId.BSC_TESTNET]: '0x337610d27c682E347C9cD60BD4b3b107C9d34dDd',
     },
     decimals: {
       [ChainId.MAINNET]: 6,
@@ -971,6 +983,7 @@ const tokens: Record<string, Token> = {
       [ChainId.TLOS]: 6,
       [ChainId.ARBITRUM]: 6,
       [ChainId.INEVM]: 6,
+      [ChainId.BSC_TESTNET]: 18,
     },
     liquidityDex: {
       [ChainId.INEVM]: LiquidityDex.External,
