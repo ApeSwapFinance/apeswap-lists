@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1041
+// BNB Largest ID: 1042
 // Polygon Largest ID: 137
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
@@ -10,6 +10,33 @@ import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } fr
 //Migration Bonds ID: 5007
 
 const bills: BillsConfig[] = [
+  {
+    index: 1042,
+    contractAddress: {
+      [ChainId.BSC]: '0xD0aDBe1CF318BFb0110E48F088BEA933ECD72304',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.carat,
+    lpToken: tokens.caratUsdt_PCS,
+    earnToken: tokens.carat,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://alaskagoldrush.io/',
+    twitter: 'https://twitter.com/alaska_game',
+    initTime: { [ChainId.BSC]: 1700485200 },
+    initPrice: { [ChainId.BSC]: 0.002404165611 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    fullDescription:
+      'Alaska Gold Rush is the first Web3-native game featuring an open world, an exciting plot, and adventures within the metaverse. The $CARAT token enables users to discover amazing earning opportunities while having the utmost fun. Become one of the first daredevils to set out for Alaska to find riches while exploring the unexplored!',
+    tags: ['GameFi (Play to Earn)'],
+  },
   {
     index: 5000, //MIGRATION BOND BANANA 2 MONTH
     contractAddress: {
@@ -5007,7 +5034,7 @@ const bills: BillsConfig[] = [
     },
     inactive: false,
     projectLink: 'https://www.cogitoprotocol.com/',
-    twitter: 'https://twitter.com/CogitoProtocol',
+    twitter: ' https://twitter.com/CogitoFi',
     audit: 'https://wp.hacken.io/wp-content/uploads/2023/05/Cogito_SC-Audit-Report_11_05_2023_SA-1337-1.pdf',
     initTime: { [ChainId.MAINNET]: 1710255600 },
     initPrice: { [ChainId.MAINNET]: 0.00173967992950712 },
