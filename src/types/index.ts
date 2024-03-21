@@ -156,7 +156,7 @@ export interface LaunchBondConfig {
   index: number
   contractAddress: Partial<Record<ChainId, string>>
   billVersion: BillVersion
-  billType: 'FCFS' | 'OVERSUBSCRIPTION'
+  billType: 'FCFS' | 'oversubscription'
   token: Token // i.e. principalToken
   earnToken: Token
   billNnftAddress: Partial<Record<ChainId, string>>
