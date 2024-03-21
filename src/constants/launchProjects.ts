@@ -1,14 +1,42 @@
-import { LaunchBonds } from 'types'
+import { BillArtCollection, BillVersion, LaunchProjectConfig, LaunchBondTiers } from '../types'
+import { ChainId } from '@ape.swap/sdk'
+import tokens from './tokens'
 
-const launchBonds: LaunchBonds[] = [
+const launchProjects: LaunchProjectConfig[] = [
   {
     index: 0,
     projectId: 'sugar-kingdom',
     projectName: 'Sugar Kingdom Odyssey',
     timing: {
+      //we will have to change this as I was not aware we were going to have two sale rounds
       saleStartTime: '1710794091',
       redeemStartTime: '1710966891',
     },
+    bonds: [
+      {
+        index: 0,
+        contractAddress: {
+          [ChainId.BSC_TESTNET]: '0x7deF5e5E3a128dD95726801047646c3f3985D63C',
+        },
+        billVersion: BillVersion.FixedPrice,
+        billType: 'FCFS',
+        token: tokens.usdt,
+        earnToken: tokens.eitm,
+        billNnftAddress: {
+          [ChainId.BSC_TESTNET]: '0x08eCF2677c6985c5274cA8e862Ae47c810A552Cb',
+        },
+        soldOut: false,
+        billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+        initTime: {
+          [ChainId.BSC_TESTNET]: 1710794091,
+        },
+        initPrice: {
+          [ChainId.BSC_TESTNET]: 0.06,
+        },
+        highTierAllowed: false,
+        tier: LaunchBondTiers.Bronze,
+      },
+    ],
     totalAllocation: '69696969',
     projectInfo: {
       shortDescription:
@@ -43,4 +71,4 @@ const launchBonds: LaunchBonds[] = [
   },
 ]
 
-export default launchBonds
+export default launchProjects
