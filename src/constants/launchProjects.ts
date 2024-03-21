@@ -19,7 +19,7 @@ const launchProjects: LaunchProjectConfig[] = [
           [ChainId.BSC_TESTNET]: '0x7deF5e5E3a128dD95726801047646c3f3985D63C',
         },
         billVersion: BillVersion.FixedPrice,
-        billType: 'FCFS',
+        billType: 'fcfs',
         token: tokens.usdt,
         earnToken: tokens.eitm,
         billNnftAddress: {
