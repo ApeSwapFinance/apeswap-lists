@@ -116,7 +116,7 @@ export const MigrationVestingTerms = {
 
 export type MigrationVestingTermType = typeof MigrationVestingTerms[keyof typeof MigrationVestingTerms]
 
-export interface LaunchBonds {
+export interface LaunchProjectConfig {
   index: number
   projectId: string // this should be unique!
   projectName: string
@@ -156,7 +156,7 @@ export interface LaunchBondConfig {
   index: number
   contractAddress: Partial<Record<ChainId, string>>
   billVersion: BillVersion
-  billType: 'FCFS' | 'oversubscription'
+  billType: 'FCFS' | 'OVERSUBSCRIPTION'
   token: Token // i.e. principalToken
   earnToken: Token
   billNnftAddress: Partial<Record<ChainId, string>>

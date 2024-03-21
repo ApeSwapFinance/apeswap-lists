@@ -33,7 +33,7 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
-  // mock token
+  // TODO: remove mock token
   eitm: {
     symbol: 'EITM',
     address: {
