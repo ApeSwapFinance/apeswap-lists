@@ -18,7 +18,7 @@ const launchProjects: LaunchProjectConfig[] = [
         contractAddress: {
           [ChainId.BSC_TESTNET]: '0x0774bDc8B9901Eb6dA26bE3ed10e40696560D6c6',
         },
-        billVersion: BillVersion.FixedPrice,
+        billVersion: BillVersion.TieredSale,
         billType: 'fcfs',
         token: tokens.usdt,
         earnToken: tokens.eitm,

@@ -13,7 +13,7 @@
         "contractAddress": {
           "97": "0x0774bDc8B9901Eb6dA26bE3ed10e40696560D6c6"
         },
-        "billVersion": "FixedPrice",
+        "billVersion": "TieredSale",
         "billType": "fcfs",
         "token": {
           "symbol": "USDT",
