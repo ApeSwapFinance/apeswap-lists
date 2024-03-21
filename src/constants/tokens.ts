@@ -2656,6 +2656,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  carat: {
+    symbol: 'CARAT',
+    address: {
+      [ChainId.BSC]: '0x426C1C971fb00CAaf1883bd801323a8bEcb0C919',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
   cgg: {
     symbol: 'CGG',
     address: {
@@ -3906,6 +3917,22 @@ const tokens: Record<string, Token> = {
     getLpUrl: {
       [ChainId.BSC]:
         'https://pancakeswap.finance/v2/add/0x55d398326f99059fF775485246999027B3197955/0x9e57E83Ad79Ac5312Ba82940bA037ED30600e167',
+    },
+  },
+  caratUsdt_PCS: {
+    symbol: 'CARAT-USDT',
+    address: {
+      [ChainId.BSC]: '0x498873319D02d025F2DBFda586AdA222BD9DE11C',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl: {
+      [ChainId.BSC]:
+        'https://pancakeswap.finance/v2/add/0x55d398326f99059fF775485246999027B3197955/0x426C1C971fb00CAaf1883bd801323a8bEcb0C919',
     },
   },
   stlosTlos: {
