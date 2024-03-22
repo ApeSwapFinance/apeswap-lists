@@ -18,7 +18,7 @@ const launchProjects: LaunchProjectConfig[] = [
         contractAddress: {
           [ChainId.BSC_TESTNET]: '0x41265aA638a8B1CC81d37Feca7A888e4997ee45a',
         },
-        billVersion: BillVersion.FixedPrice,
+        billVersion: BillVersion.TieredSale,
         billType: 'fcfs',
         token: tokens.usdt,
         earnToken: tokens.eitm,
@@ -64,7 +64,7 @@ const launchProjects: LaunchProjectConfig[] = [
         websiteImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1710784075/websiteImg_tphyqj.png',
         whitepaperImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1710784123/whitepaperimg_przfig.png',
         partnersImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1710785280/partners_gcp680.png',
-        tokenomicsImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1710784291/tokenomics_rhct3e.png',
+        tokenomicsImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1711082095/tokenomics_wc4axv.png',
         teaserImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1710784422/teaser_p2lfp3.png',
       },
     },
