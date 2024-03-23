@@ -16,7 +16,7 @@ const launchProjects: LaunchProjectConfig[] = [
       {
         index: 0,
         contractAddress: {
-          [ChainId.BSC_TESTNET]: '0xf8e00eEE37260cCe804C18E4a17F77198d307AB5',
+          [ChainId.BSC_TESTNET]: '0x688896F751D5091012327674A2dBafe57a81AE5b',
         },
         billVersion: BillVersion.TieredSale,
         billType: 'oversubscription',
@@ -36,29 +36,29 @@ const launchProjects: LaunchProjectConfig[] = [
         highTierAllowed: false,
         tier: LaunchBondTiers.Bronze,
       },
-      {
-        index: 1,
-        contractAddress: {
-          [ChainId.BSC_TESTNET]: '0x3AF02Aa0067042178533d8c77a8f1280Fa563b4D',
-        },
-        billVersion: BillVersion.TieredSale,
-        billType: 'fcfs',
-        token: tokens.usdt,
-        earnToken: tokens.eitm,
-        billNnftAddress: {
-          [ChainId.BSC_TESTNET]: '0x08eCF2677c6985c5274cA8e862Ae47c810A552Cb',
-        },
-        soldOut: false,
-        billArt: { collection: BillArtCollection.ApeBond_Collection1 },
-        initTime: {
-          [ChainId.BSC_TESTNET]: 1710794091,
-        },
-        initPrice: {
-          [ChainId.BSC_TESTNET]: 0.06,
-        },
-        highTierAllowed: false,
-        tier: LaunchBondTiers.Bronze,
-      },
+      // {
+      //   index: 1,
+      //   contractAddress: {
+      //     [ChainId.BSC_TESTNET]: '0x3AF02Aa0067042178533d8c77a8f1280Fa563b4D',
+      //   },
+      //   billVersion: BillVersion.TieredSale,
+      //   billType: 'fcfs',
+      //   token: tokens.usdt,
+      //   earnToken: tokens.eitm,
+      //   billNnftAddress: {
+      //     [ChainId.BSC_TESTNET]: '0x08eCF2677c6985c5274cA8e862Ae47c810A552Cb',
+      //   },
+      //   soldOut: false,
+      //   billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+      //   initTime: {
+      //     [ChainId.BSC_TESTNET]: 1710794091,
+      //   },
+      //   initPrice: {
+      //     [ChainId.BSC_TESTNET]: 0.06,
+      //   },
+      //   highTierAllowed: false,
+      //   tier: LaunchBondTiers.Bronze,
+      // },
     ],
     totalAllocation: '69696969',
     projectInfo: {
