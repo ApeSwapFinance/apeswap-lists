@@ -16,7 +16,7 @@ const launchProjects: LaunchProjectConfig[] = [
       {
         index: 0,
         contractAddress: {
-          [ChainId.BSC_TESTNET]: '0x02EbC5Aa6b0d2868e3af94292229c031902B9C21',
+          [ChainId.BSC_TESTNET]: '0x01eb5EF4A2D2eEEfe2Ef74B83C5696f8Bb20dA2b',
         },
         billVersion: BillVersion.TieredSale,
         billType: 'oversubscription',
@@ -39,7 +39,7 @@ const launchProjects: LaunchProjectConfig[] = [
       {
         index: 1,
         contractAddress: {
-          [ChainId.BSC_TESTNET]: '0xB4D9AD8486C6169105C923B6A9df7BBe00D7394a',
+          [ChainId.BSC_TESTNET]: '0x35C4bEb7803B33637F51b1E1dA56F2b6F95d6A37',
         },
         billVersion: BillVersion.TieredSale,
         billType: 'fcfs',
