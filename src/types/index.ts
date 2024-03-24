@@ -121,7 +121,7 @@ export interface LaunchProjectConfig {
   index: number
   projectId: string // this should be unique!
   projectName: string
-  bonds?: LaunchBondConfig[]
+  bonds: LaunchBondConfig[]
   timing: {
     saleStartTime: string
     redeemStartTime: string // this should be the same when liquidity is added
