@@ -11,7 +11,7 @@
       {
         "index": 0,
         "contractAddress": {
-          "97": "0xD203c1f69ddC1CeF1233c711352a14382Ce50c19"
+          "97": "0xEDDe0f1CF3ED69970d6600cb6f9164BB635fF1E0"
         },
         "billVersion": "TieredSale",
         "billType": "oversubscription",
@@ -70,7 +70,7 @@
       {
         "index": 1,
         "contractAddress": {
-          "97": "0xCc4fDC7F656Aae95B87290FCe84a3bE3cb0DB30B"
+          "97": "0x6C040B949E0cCfCf8CfC59911F7b75E6d101BdB2"
         },
         "billVersion": "TieredSale",
         "billType": "fcfs",
