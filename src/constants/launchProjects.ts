@@ -16,7 +16,7 @@ const launchProjects: LaunchProjectConfig[] = [
       {
         index: 0,
         contractAddress: {
-          [ChainId.BSC_TESTNET]: '0x01eb5EF4A2D2eEEfe2Ef74B83C5696f8Bb20dA2b',
+          [ChainId.BSC_TESTNET]: '0xD203c1f69ddC1CeF1233c711352a14382Ce50c19',
         },
         billVersion: BillVersion.TieredSale,
         billType: 'oversubscription',
@@ -34,19 +34,19 @@ const launchProjects: LaunchProjectConfig[] = [
           [ChainId.BSC_TESTNET]: 0.06,
         },
         highTierAllowed: false,
-        tier: LaunchBondTiers.Bronze,
+        tier: LaunchBondTiers.Diamond,
       },
       {
         index: 1,
         contractAddress: {
-          [ChainId.BSC_TESTNET]: '0x35C4bEb7803B33637F51b1E1dA56F2b6F95d6A37',
+          [ChainId.BSC_TESTNET]: '0xCc4fDC7F656Aae95B87290FCe84a3bE3cb0DB30B',
         },
         billVersion: BillVersion.TieredSale,
         billType: 'fcfs',
         token: tokens.usdt,
         earnToken: tokens.eitm,
         billNnftAddress: {
-          [ChainId.BSC_TESTNET]: '0x08eCF2677c6985c5274cA8e862Ae47c810A552Cb',
+          [ChainId.BSC_TESTNET]: 'a',
         },
         soldOut: false,
         billArt: { collection: BillArtCollection.ApeBond_Collection1 },
@@ -57,7 +57,7 @@ const launchProjects: LaunchProjectConfig[] = [
           [ChainId.BSC_TESTNET]: 0.06,
         },
         highTierAllowed: false,
-        tier: LaunchBondTiers.Bronze,
+        tier: LaunchBondTiers.Diamond,
       },
     ],
     totalAllocation: '69696969',

@@ -11,7 +11,7 @@
       {
         "index": 0,
         "contractAddress": {
-          "97": "0x01eb5EF4A2D2eEEfe2Ef74B83C5696f8Bb20dA2b"
+          "97": "0xD203c1f69ddC1CeF1233c711352a14382Ce50c19"
         },
         "billVersion": "TieredSale",
         "billType": "oversubscription",
@@ -65,12 +65,12 @@
           "97": 0.06
         },
         "highTierAllowed": false,
-        "tier": 0
+        "tier": 3
       },
       {
         "index": 1,
         "contractAddress": {
-          "97": "0x35C4bEb7803B33637F51b1E1dA56F2b6F95d6A37"
+          "97": "0xCc4fDC7F656Aae95B87290FCe84a3bE3cb0DB30B"
         },
         "billVersion": "TieredSale",
         "billType": "fcfs",
@@ -111,7 +111,7 @@
           "active": true
         },
         "billNnftAddress": {
-          "97": "0x08eCF2677c6985c5274cA8e862Ae47c810A552Cb"
+          "97": "a"
         },
         "soldOut": false,
         "billArt": {
@@ -124,7 +124,7 @@
           "97": 0.06
         },
         "highTierAllowed": false,
-        "tier": 0
+        "tier": 3
       }
     ],
     "totalAllocation": "69696969",
