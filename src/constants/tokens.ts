@@ -2406,7 +2406,7 @@ const tokens: Record<string, Token> = {
     },
     decimals: { [ChainId.BSC]: 18 },
     liquidityDex: {
-      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+      [ChainId.BSC]: LiquidityDex.External,
     },
     active: true,
   },
