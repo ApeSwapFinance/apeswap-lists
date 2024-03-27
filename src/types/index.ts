@@ -103,6 +103,7 @@ export enum BillArtCollection {
   PlanetIX_Collection1 = 'PlanetIX_Collection1',
   ETH_Collection1 = 'ETH_Collection1',
   inEVM_Collection1 = 'inEVM_Collection1',
+  AITECH_Collection1 = 'AITECH_Collection1',
 }
 
 export const defaultBillArtCollection = BillArtCollection.ApeSwap_Collection1
