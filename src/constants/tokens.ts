@@ -24,7 +24,7 @@ const tokens: Record<string, Token> = {
   MockERC20: {
     symbol: 'MockERC20',
     address: {
-      [ChainId.BSC]: '0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95',
+      [ChainId.BSC]: '0xBeEf2D2005C662F21a5696A68f54BD165E91C8Bd',
       [ChainId.BSC_TESTNET]: '0x68D24FA18c00B5Df32e91C1dDDfa6419083606F9',
     },
     decimals: {

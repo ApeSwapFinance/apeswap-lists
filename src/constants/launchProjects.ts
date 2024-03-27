@@ -16,10 +16,10 @@ const launchProjects: LaunchProjectConfig[] = [
       {
         index: 0,
         contractAddress: {
-          [ChainId.BSC_TESTNET]: '0xEDDe0f1CF3ED69970d6600cb6f9164BB635fF1E0',
+          [ChainId.BSC_TESTNET]: '0x49974AAd79f2e2836a66E3ce8C550260641fE44E',
         },
         billVersion: BillVersion.TieredSale,
-        billType: 'oversubscription',
+        billType: 'fcfs',
         token: tokens.usdt,
         earnToken: tokens.eitm,
         billNnftAddress: {
@@ -37,16 +37,16 @@ const launchProjects: LaunchProjectConfig[] = [
         tier: LaunchBondTiers.Diamond,
       },
       {
-        index: 1,
+        index: 2,
         contractAddress: {
-          [ChainId.BSC_TESTNET]: '0x6C040B949E0cCfCf8CfC59911F7b75E6d101BdB2',
+          [ChainId.BSC_TESTNET]: '0x20C173D7080Cbd4A51A2E99618af78D8373eF760',
         },
         billVersion: BillVersion.TieredSale,
-        billType: 'fcfs',
+        billType: 'oversubscription',
         token: tokens.usdt,
         earnToken: tokens.eitm,
         billNnftAddress: {
-          [ChainId.BSC_TESTNET]: 'a',
+          [ChainId.BSC_TESTNET]: '0x08eCF2677c6985c5274cA8e862Ae47c810A552Cb',
         },
         soldOut: false,
         billArt: { collection: BillArtCollection.ApeBond_Collection1 },
@@ -57,7 +57,30 @@ const launchProjects: LaunchProjectConfig[] = [
           [ChainId.BSC_TESTNET]: 0.06,
         },
         highTierAllowed: false,
-        tier: LaunchBondTiers.Diamond,
+        tier: LaunchBondTiers.Bronze,
+      },
+      {
+        index: 1,
+        contractAddress: {
+          [ChainId.BSC_TESTNET]: '0x928ACD86a2566a81c721C414F59388C62eeCb236',
+        },
+        billVersion: BillVersion.TieredSale,
+        billType: 'oversubscription',
+        token: tokens.usdt,
+        earnToken: tokens.eitm,
+        billNnftAddress: {
+          [ChainId.BSC_TESTNET]: '0x08eCF2677c6985c5274cA8e862Ae47c810A552Cb',
+        },
+        soldOut: false,
+        billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+        initTime: {
+          [ChainId.BSC_TESTNET]: 1710794091,
+        },
+        initPrice: {
+          [ChainId.BSC_TESTNET]: 0.06,
+        },
+        highTierAllowed: false,
+        tier: LaunchBondTiers.Silver,
       },
     ],
     totalAllocation: '69696969',
