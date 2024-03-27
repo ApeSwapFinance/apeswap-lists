@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1043
+// BNB Largest ID: 1044
 // Polygon Largest ID: 137
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
@@ -10,6 +10,33 @@ import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } fr
 //Migration Bonds ID: 5007
 
 const bills: BillsConfig[] = [
+  {
+    index: 1044,
+    contractAddress: {
+      [ChainId.BSC]: '0x7c42C169b4654AF44d29a767B379F4dd0cD42462',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.via,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://octavia.one/',
+    twitter: 'https://twitter.com/OctaviaToken',
+    initTime: { [ChainId.BSC]: 1711551600 },
+    initPrice: { [ChainId.BSC]: 1.31 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Community/Meme'],
+    fullDescription:
+      'Octavia is your web3-based autonomous assistant powered by the $VIA token. It can provide Crypto Insights, Analytics and users can automate web3 tasks. This assistant also allows easy integrations with X for sharing, and detailed project research. Octavia: the cutting-edge Web3 AI chatbot designed to revolutionize both web3 trading and managing web3 communities is here!',
+  },
   {
     index: 1043,
     contractAddress: {
