@@ -150,6 +150,7 @@ export interface BillsConfig {
   // * These are used for the bond migration page
   vestingTerm?: number
   multiplier?: number
+  onlyPartner?: boolean // used to hide bond on ape bond site
 }
 
 export enum VaultVersion {

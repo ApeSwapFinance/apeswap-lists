@@ -2399,6 +2399,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  via: {
+    symbol: 'VIA',
+    address: {
+      [ChainId.BSC]: '0x21ac3bB914f90A2Bb1a16088E673a9fdDa641434',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.External,
+    },
+    active: true,
+  },
   cakebot: {
     symbol: 'CAKEBOT',
     address: {

@@ -1,5 +1,116 @@
 [
   {
+    "index": 1044,
+    "contractAddress": {
+      "56": "0x7c42C169b4654AF44d29a767B379F4dd0cD42462"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "2525": 6,
+        "42161": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "2525": "External"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "2525": 6,
+        "42161": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "2525": "External"
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "2525": 6,
+        "42161": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "2525": "External"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "VIA",
+      "address": {
+        "56": "0x21ac3bB914f90A2Bb1a16088E673a9fdDa641434"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://octavia.one/",
+    "twitter": "https://twitter.com/OctaviaToken",
+    "initTime": {
+      "56": 1711551600
+    },
+    "initPrice": {
+      "56": 1.31
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["Community/Meme"],
+    "fullDescription": "Octavia is your web3-based autonomous assistant powered by the $VIA token. It can provide Crypto Insights, Analytics and users can automate web3 tasks. This assistant also allows easy integrations with X for sharing, and detailed project research. Octavia: the cutting-edge Web3 AI chatbot designed to revolutionize both web3 trading and managing web3 communities is here!"
+  },
+  {
     "index": 1043,
     "contractAddress": {
       "56": "0xcc362B5760986ab14EDC794C5D4b1C84e05ea965"
@@ -2649,7 +2760,7 @@
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
-    "tags": ["NFTs"],
+    "tags": ["AI and Education"],
     "fullDescription": "Edu3Labs is revolutionizing education through Web3 by leveraging the capabilities of AI and blockchain technology to enhance learning experiences. Users gain access to content from leading producers and can easily purchase educational materials. They can also anticipate earning significant commissions and generating consistent passive income from sales in the secondary market. Edu3Labs: strong emphasis on education with maximum benefits to its users."
   },
   {
