@@ -16,35 +16,12 @@ const launchProjects: LaunchProjectConfig[] = [
       {
         index: 0,
         contractAddress: {
-          [ChainId.BSC]: '0x7e55AECcE5C64FDB65f0e982164594F10f3928B5',
-        },
-        billVersion: BillVersion.TieredSale,
-        billType: 'oversubscription',
-        token: tokens.usdt,
-        earnToken: tokens.eitm,
-        billNnftAddress: {
-          [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
-        },
-        soldOut: false,
-        billArt: { collection: BillArtCollection.ApeBond_Collection1 },
-        initTime: {
-          [ChainId.BSC]: 1710794091,
-        },
-        initPrice: {
-          [ChainId.BSC]: 0.06,
-        },
-        highTierAllowed: false,
-        tier: LaunchBondTiers.Diamond,
-      },
-      {
-        index: 1,
-        contractAddress: {
-          [ChainId.BSC]: '0x322feE3B12419e4e66E30BDB95B2fDC1381c3F53',
+          [ChainId.BSC]: '0xa076A4137C451d751b4B6053246B22C334e47E90',
         },
         billVersion: BillVersion.TieredSale,
         billType: 'fcfs',
         token: tokens.usdt,
-        earnToken: tokens.eitm,
+        earnToken: tokens.MockERC20,
         billNnftAddress: {
           [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
         },
@@ -58,6 +35,75 @@ const launchProjects: LaunchProjectConfig[] = [
         },
         highTierAllowed: false,
         tier: LaunchBondTiers.Bronze,
+      },
+      {
+        index: 1,
+        contractAddress: {
+          [ChainId.BSC]: '0x2E7De2ff0FFA6a0C4D49A6BC95e1897Af696baE0',
+        },
+        billVersion: BillVersion.TieredSale,
+        billType: 'oversubscription',
+        token: tokens.usdt,
+        earnToken: tokens.MockERC20,
+        billNnftAddress: {
+          [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+        },
+        soldOut: false,
+        billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+        initTime: {
+          [ChainId.BSC]: 1710794091,
+        },
+        initPrice: {
+          [ChainId.BSC]: 0.06,
+        },
+        highTierAllowed: false,
+        tier: LaunchBondTiers.Silver,
+      },
+      {
+        index: 2,
+        contractAddress: {
+          [ChainId.BSC]: '0xA9EDE884be3931080a50E7b41d5387930A84906a',
+        },
+        billVersion: BillVersion.TieredSale,
+        billType: 'oversubscription',
+        token: tokens.usdt,
+        earnToken: tokens.MockERC20,
+        billNnftAddress: {
+          [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+        },
+        soldOut: false,
+        billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+        initTime: {
+          [ChainId.BSC]: 1710794091,
+        },
+        initPrice: {
+          [ChainId.BSC]: 0.06,
+        },
+        highTierAllowed: false,
+        tier: LaunchBondTiers.Gold,
+      },
+      {
+        index: 3,
+        contractAddress: {
+          [ChainId.BSC]: '0x9aCB68A3983aC138bee40AF1BBdb59C8455c022c',
+        },
+        billVersion: BillVersion.TieredSale,
+        billType: 'oversubscription',
+        token: tokens.usdt,
+        earnToken: tokens.MockERC20,
+        billNnftAddress: {
+          [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+        },
+        soldOut: false,
+        billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+        initTime: {
+          [ChainId.BSC]: 1710794091,
+        },
+        initPrice: {
+          [ChainId.BSC]: 0.06,
+        },
+        highTierAllowed: false,
+        tier: LaunchBondTiers.Diamond,
       },
     ],
     totalAllocation: '69696969',
