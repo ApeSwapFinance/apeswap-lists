@@ -59,7 +59,7 @@ const bills: BillsConfig[] = [
     initPrice: { [ChainId.BSC]: 1.31 },
     soldOut: false,
     billArt: {
-      collection: BillArtCollection.ApeBond_Collection1,
+      collection: BillArtCollection.AITECH_Collection1,
     },
     tags: ['AI'],
     fullDescription:
