@@ -1,4 +1,4 @@
-import { BillArtCollection, BillVersion, LaunchProjectConfig, LaunchBondTiers } from '../types'
+import { BillArtCollection, BillVersion, LaunchProjectConfig } from '../types'
 import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 
@@ -7,11 +7,8 @@ const launchProjects: LaunchProjectConfig[] = [
     index: 0,
     projectId: 'sugar-kingdom',
     projectName: 'Sugar Kingdom Odyssey',
-    timing: {
-      //we will have to change this as I was not aware we were going to have two sale rounds
-      saleStartTime: '1710794091',
-      redeemStartTime: '1710966891',
-    },
+    saleStartTime: 'March 29th',
+    totalAllocation: '791,648.5 SKO',
     bonds: [
       {
         index: 0,
@@ -33,8 +30,6 @@ const launchProjects: LaunchProjectConfig[] = [
         initPrice: {
           [ChainId.BSC]: 0.06,
         },
-        highTierAllowed: false,
-        tier: LaunchBondTiers.Bronze,
       },
       {
         index: 1,
@@ -56,8 +51,6 @@ const launchProjects: LaunchProjectConfig[] = [
         initPrice: {
           [ChainId.BSC]: 0.06,
         },
-        highTierAllowed: false,
-        tier: LaunchBondTiers.Silver,
       },
       {
         index: 2,
@@ -79,8 +72,6 @@ const launchProjects: LaunchProjectConfig[] = [
         initPrice: {
           [ChainId.BSC]: 0.06,
         },
-        highTierAllowed: false,
-        tier: LaunchBondTiers.Gold,
       },
       {
         index: 3,
@@ -102,11 +93,8 @@ const launchProjects: LaunchProjectConfig[] = [
         initPrice: {
           [ChainId.BSC]: 0.06,
         },
-        highTierAllowed: false,
-        tier: LaunchBondTiers.Diamond,
       },
     ],
-    totalAllocation: '69696969',
     projectInfo: {
       shortDescription:
         'Sugar Kingdom Odyssey revolutionizes gaming with a utility tool for BRC20 tokens and altcoins, developed by Apes Int Group, the brains behind projects like Decentraland and The Sandbox. This platform supports high-quality projects, enhancing them with a dynamic gaming ecosystem. Highlighting a significant milestone, the platform anticipates a token sale with an IMC of $400,000 and a TGE slated for the end of March, setting the stage for a promising future.',
