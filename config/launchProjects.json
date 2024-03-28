@@ -3,10 +3,7 @@
     "index": 0,
     "projectId": "sugar-kingdom",
     "projectName": "Sugar Kingdom Odyssey",
-    "timing": {
-      "saleStartTime": "1710794091",
-      "redeemStartTime": "1710966891"
-    },
+    "saleStartTime": "March 29th",
     "bonds": [
       {
         "index": 0,
@@ -65,9 +62,7 @@
         },
         "initPrice": {
           "56": 0.06
-        },
-        "highTierAllowed": false,
-        "tier": 0
+        }
       },
       {
         "index": 1,
@@ -126,9 +121,7 @@
         },
         "initPrice": {
           "56": 0.06
-        },
-        "highTierAllowed": false,
-        "tier": 1
+        }
       },
       {
         "index": 2,
@@ -187,9 +180,7 @@
         },
         "initPrice": {
           "56": 0.06
-        },
-        "highTierAllowed": false,
-        "tier": 2
+        }
       },
       {
         "index": 3,
@@ -248,9 +239,7 @@
         },
         "initPrice": {
           "56": 0.06
-        },
-        "highTierAllowed": false,
-        "tier": 3
+        }
       }
     ],
     "totalAllocation": "69696969",

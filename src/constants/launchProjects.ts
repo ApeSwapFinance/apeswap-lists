@@ -1,4 +1,4 @@
-import { BillArtCollection, BillVersion, LaunchProjectConfig, LaunchBondTiers } from '../types'
+import { BillArtCollection, BillVersion, LaunchProjectConfig } from '../types'
 import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 
@@ -7,11 +7,7 @@ const launchProjects: LaunchProjectConfig[] = [
     index: 0,
     projectId: 'sugar-kingdom',
     projectName: 'Sugar Kingdom Odyssey',
-    timing: {
-      //we will have to change this as I was not aware we were going to have two sale rounds
-      saleStartTime: '1710794091',
-      redeemStartTime: '1710966891',
-    },
+    saleStartTime: 'March 29th',
     bonds: [
       {
         index: 0,
@@ -33,8 +29,6 @@ const launchProjects: LaunchProjectConfig[] = [
         initPrice: {
           [ChainId.BSC]: 0.06,
         },
-        highTierAllowed: false,
-        tier: LaunchBondTiers.Bronze,
       },
       {
         index: 1,
@@ -56,8 +50,6 @@ const launchProjects: LaunchProjectConfig[] = [
         initPrice: {
           [ChainId.BSC]: 0.06,
         },
-        highTierAllowed: false,
-        tier: LaunchBondTiers.Silver,
       },
       {
         index: 2,
@@ -79,8 +71,6 @@ const launchProjects: LaunchProjectConfig[] = [
         initPrice: {
           [ChainId.BSC]: 0.06,
         },
-        highTierAllowed: false,
-        tier: LaunchBondTiers.Gold,
       },
       {
         index: 3,
@@ -102,8 +92,6 @@ const launchProjects: LaunchProjectConfig[] = [
         initPrice: {
           [ChainId.BSC]: 0.06,
         },
-        highTierAllowed: false,
-        tier: LaunchBondTiers.Diamond,
       },
     ],
     totalAllocation: '69696969',

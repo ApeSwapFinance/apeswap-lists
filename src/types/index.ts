@@ -122,10 +122,7 @@ export interface LaunchProjectConfig {
   projectId: string // this should be unique!
   projectName: string
   bonds: LaunchBondConfig[]
-  timing: {
-    saleStartTime: string
-    redeemStartTime: string // this should be the same when liquidity is added
-  }
+  saleStartTime: string
   totalAllocation: string
   projectInfo: {
     shortDescription: string
@@ -167,8 +164,6 @@ export interface LaunchBondConfig {
   }
   initTime: Partial<Record<ChainId, number>>
   initPrice: Partial<Record<ChainId, number>>
-  highTierAllowed: boolean //i.e. higher tier can purchase lower tiers
-  tier: LaunchBondTiers
 }
 
 export enum LaunchBondTiers {
