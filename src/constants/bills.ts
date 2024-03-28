@@ -648,7 +648,7 @@ const bills: BillsConfig[] = [
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1700485200 },
     initPrice: { [ChainId.BSC]: 0.002404165611 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -676,7 +676,7 @@ const bills: BillsConfig[] = [
     audit: 'https://solidity.finance/audits/BlockApeScissors/',
     initTime: { [ChainId.BSC]: 1704477600 },
     initPrice: { [ChainId.BSC]: 0.103519967970037 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -925,7 +925,7 @@ const bills: BillsConfig[] = [
     audit: 'https://skynet.certik.com/projects/winkyverse',
     initTime: { [ChainId.BSC]: 1704891600 },
     initPrice: { [ChainId.BSC]: 0.000875307143616461 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1009,7 +1009,7 @@ const bills: BillsConfig[] = [
     audit: 'https://github.com/CodeXChainOfficial/SC/tree/ERC20Base',
     initTime: { [ChainId.BSC]: 1708946738 },
     initPrice: { [ChainId.BSC]: 0.07580203004538802 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1066,7 +1066,7 @@ const bills: BillsConfig[] = [
       'https://github.com/Decubate-com/documents/blob/main/%5BHAECHI%20AUDIT%5D%20Decubate%20Smart%20Contract%20Audit%20Report%20v2.0.pdf',
     initTime: { [ChainId.BSC]: 1700485200 },
     initPrice: { [ChainId.BSC]: 0.002404165611 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1371,7 +1371,7 @@ const bills: BillsConfig[] = [
     audit: 'https://skynet.certik.com/projects/solidus-ai-tech',
     initTime: { [ChainId.BSC]: 1700992815 },
     initPrice: { [ChainId.BSC]: 0.0205543890538182 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1427,7 +1427,7 @@ const bills: BillsConfig[] = [
     audit: 'https://www.certik.com/projects/credefi?utm_source=CMC&utm_campaign=AuditByCertiKLink',
     initTime: { [ChainId.BSC]: 1702998000 },
     initPrice: { [ChainId.BSC]: 0.0776096447226248 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -3796,7 +3796,7 @@ const bills: BillsConfig[] = [
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.MATIC]: 1700485200 },
     initPrice: { [ChainId.MATIC]: 0.002404165611 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -3823,7 +3823,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/vextoken',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.00254 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
@@ -3880,7 +3880,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/Planetix0',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.347018667988457 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.PlanetIX_Collection1,
     },
@@ -3908,7 +3908,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/Planetix0',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.347018667988457 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.PlanetIX_Collection1,
     },
@@ -4022,7 +4022,7 @@ const bills: BillsConfig[] = [
     audit: 'https://github.com/peckshield/publications/blob/master/audit_reports/PeckShield-Audit-Report-Paxo-v1.0.pdf',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.0948073647 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
@@ -4331,7 +4331,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/ForestKnight_io',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.00254 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
