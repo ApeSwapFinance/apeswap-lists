@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1044
+// BNB Largest ID: 1045
 // Polygon Largest ID: 137
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
@@ -10,6 +10,34 @@ import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } fr
 //Migration Bonds ID: 5007
 
 const bills: BillsConfig[] = [
+  {
+    index: 1045,
+    contractAddress: {
+      [ChainId.BSC]: '0x1B318c4d90e4751385e1d63123725Ddd02efE2EF',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.rpg,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://revolvegames.io/',
+    twitter: 'https://twitter.com/RevolveGamesio',
+    audit: 'https://drive.google.com/file/d/1lJdF7lEM3KQZmOW1p42Gm0eMbp7DF82C/view',
+    initTime: { [ChainId.BSC]: 1704477600 },
+    initPrice: { [ChainId.BSC]: 0.0257815220477653 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['GAMING'],
+    fullDescription:
+      'Revolve Games is reshaping Web3 gaming - addressing many of the challenges faced by blockchain gaming economies. They directly integrate playable assets into the in-game economy, achieved by tethering their assets to the RPG token. This strategy ensures a stable and robust ecosystem, less affected by external market fluctuations.',
+  },
   {
     index: 1044,
     contractAddress: {
@@ -33,7 +61,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    tags: ['Community/Meme'],
+    tags: ['AI'],
     fullDescription:
       'Octavia is your web3-based autonomous assistant powered by the $VIA token. It can provide Crypto Insights, Analytics and users can automate web3 tasks. This assistant also allows easy integrations with X for sharing, and detailed project research. Octavia: the cutting-edge Web3 AI chatbot designed to revolutionize both web3 trading and managing web3 communities is here!',
   },
@@ -1315,7 +1343,7 @@ const bills: BillsConfig[] = [
     audit: 'https://drive.google.com/file/d/1lJdF7lEM3KQZmOW1p42Gm0eMbp7DF82C/view',
     initTime: { [ChainId.BSC]: 1704477600 },
     initPrice: { [ChainId.BSC]: 0.0257815220477653 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
