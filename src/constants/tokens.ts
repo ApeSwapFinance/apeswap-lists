@@ -2410,6 +2410,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  sko: {
+    symbol: 'SKO',
+    address: {
+      [ChainId.BSC]: '0x9Bf543D8460583Ff8a669Aae01d9cDbeE4dEfE3c',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.External,
+    },
+    active: true,
+  },
   cakebot: {
     symbol: 'CAKEBOT',
     address: {
