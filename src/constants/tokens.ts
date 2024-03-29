@@ -2406,7 +2406,7 @@ const tokens: Record<string, Token> = {
     },
     decimals: { [ChainId.BSC]: 18 },
     liquidityDex: {
-      [ChainId.BSC]: LiquidityDex.External,
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
     },
     active: true,
   },
@@ -3756,7 +3756,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: LiquidityDex.ThenaV1,
     },
     getLpUrl: {
-      [ChainId.BSC]: 'https://www.thena.fi/add/v1',
+      [ChainId.BSC]: 'https://thena.fi/pools/0x7868245cae5834b32b40cee01f1b536ad75c7d09',
     },
   },
   abondBnb_Ichi: {
@@ -3771,7 +3771,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: LiquidityDex.Algebra,
     },
     getLpUrl: {
-      [ChainId.BSC]: 'https://www.thena.fi/add?type=ichi&address=0x137df93a0c22b863c1b335d1b8d389ea3895ba13',
+      [ChainId.BSC]: 'https://thena.fi/pools/0x44aa475ed44dda30f4fb81a0eec7c44aed01c7c0',
     },
   },
   mfpsBnb_PCS: {
