@@ -87,6 +87,7 @@ export enum BillVersion {
   V2 = 'V2',
   FixedPrice = 'FixedPrice',
   V3 = 'V3',
+  TieredSale = 'TieredSale',
 }
 
 /**
@@ -116,6 +117,62 @@ export const MigrationVestingTerms = {
 } as const
 
 export type MigrationVestingTermType = typeof MigrationVestingTerms[keyof typeof MigrationVestingTerms]
+
+export interface LaunchProjectConfig {
+  index: number
+  projectId: string // this should be unique!
+  projectName: string
+  bonds: LaunchBondConfig[]
+  saleStartTime: string
+  totalAllocation: string
+  projectInfo: {
+    shortDescription: string
+    fullDescription: string
+    tags: string[]
+    socials: {
+      twitter: string
+      discord: string
+      website: string
+      whitepaper: string
+      tokenomicsURL: string
+      teaserVideo: string
+    }
+    images: {
+      launchpadImg: string
+      launchpadIcon: string
+      headerImg: string
+      headerImgMobile: string
+      websiteImg: string
+      whitepaperImg: string
+      partnersImg: string
+      tokenomicsImg: string
+      teaserImg: string
+    }
+  }
+}
+
+export interface LaunchBondConfig {
+  index: number
+  contractAddress: Partial<Record<ChainId, string>>
+  billVersion: BillVersion
+  billType: 'fcfs' | 'oversubscription'
+  token: Token // i.e. principalToken
+  earnToken: Token
+  billNnftAddress: Partial<Record<ChainId, string>>
+  soldOut: boolean
+  billArt: {
+    collection: BillArtCollection
+  }
+  initTime: Partial<Record<ChainId, number>>
+  initPrice: Partial<Record<ChainId, number>>
+}
+
+export enum LaunchBondTiers {
+  Bronze,
+  Silver,
+  Gold,
+  Diamond,
+}
 
 // Start of list types
 export interface BillsConfig {

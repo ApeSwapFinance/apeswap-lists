@@ -24,11 +24,22 @@ const tokens: Record<string, Token> = {
   MockERC20: {
     symbol: 'MockERC20',
     address: {
-      [ChainId.BSC]: '0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95',
+      [ChainId.BSC]: '0xBeEf2D2005C662F21a5696A68f54BD165E91C8Bd',
       [ChainId.BSC_TESTNET]: '0x68D24FA18c00B5Df32e91C1dDDfa6419083606F9',
     },
     decimals: {
       [ChainId.BSC]: 18,
+      [ChainId.BSC_TESTNET]: 18,
+    },
+    active: true,
+  },
+  // TODO: remove mock token
+  eitm: {
+    symbol: 'EITM',
+    address: {
+      [ChainId.BSC_TESTNET]: '0x087C6c189C7f23b241e734A8F883CA703b6eADD0',
+    },
+    decimals: {
       [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
@@ -963,6 +974,7 @@ const tokens: Record<string, Token> = {
       [ChainId.TLOS]: '0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73',
       [ChainId.ARBITRUM]: '0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9',
       [ChainId.INEVM]: '0x97423A68BAe94b5De52d767a17aBCc54c157c0E5',
+      [ChainId.BSC_TESTNET]: '0x337610d27c682E347C9cD60BD4b3b107C9d34dDd',
     },
     decimals: {
       [ChainId.MAINNET]: 6,
@@ -971,6 +983,7 @@ const tokens: Record<string, Token> = {
       [ChainId.TLOS]: 6,
       [ChainId.ARBITRUM]: 6,
       [ChainId.INEVM]: 6,
+      [ChainId.BSC_TESTNET]: 18,
     },
     liquidityDex: {
       [ChainId.INEVM]: LiquidityDex.External,
@@ -2407,6 +2420,17 @@ const tokens: Record<string, Token> = {
     decimals: { [ChainId.BSC]: 18 },
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+    },
+    active: true,
+  },
+  sko: {
+    symbol: 'SKO',
+    address: {
+      [ChainId.BSC]: '0x9Bf543D8460583Ff8a669Aae01d9cDbeE4dEfE3c',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.External,
     },
     active: true,
   },
