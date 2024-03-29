@@ -1,6 +1,6 @@
 {
   "name": "@ape.swap/apeswap-lists",
-  "version": "1.9.2-test.2",
+  "version": "1.9.4",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "publishConfig": {

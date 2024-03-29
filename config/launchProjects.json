@@ -9,7 +9,7 @@
       {
         "index": 0,
         "contractAddress": {
-          "56": "0x30f8e81986605B236326C411fb457dF88645076A"
+          "56": "0x072Cd32fcE946493b21a297733F03Df1f36F65A6"
         },
         "billVersion": "TieredSale",
         "billType": "fcfs",
@@ -39,6 +39,19 @@
           },
           "active": true
         },
+        "earnToken": {
+          "symbol": "SKO",
+          "address": {
+            "56": "0x9Bf543D8460583Ff8a669Aae01d9cDbeE4dEfE3c"
+          },
+          "decimals": {
+            "56": 18
+          },
+          "liquidityDex": {
+            "56": "External"
+          },
+          "active": true
+        },
         "billNnftAddress": {
           "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
         },
@@ -56,7 +69,7 @@
       {
         "index": 1,
         "contractAddress": {
-          "56": "0x948d22f7DE98692251fFEA61A28F8ca7D508b225"
+          "56": "0x87A2cf342A80C9900f5D798F91bc4cC6b0D13e3E"
         },
         "billVersion": "TieredSale",
         "billType": "oversubscription",
@@ -83,6 +96,19 @@
           "liquidityDex": {
             "1": "UniswapV2",
             "2525": "External"
+          },
+          "active": true
+        },
+        "earnToken": {
+          "symbol": "SKO",
+          "address": {
+            "56": "0x9Bf543D8460583Ff8a669Aae01d9cDbeE4dEfE3c"
+          },
+          "decimals": {
+            "56": 18
+          },
+          "liquidityDex": {
+            "56": "External"
           },
           "active": true
         },
@@ -103,7 +129,7 @@
       {
         "index": 2,
         "contractAddress": {
-          "56": "0x7bdaE9579f24FC86807c2c87977425f5E6a38db0"
+          "56": "0x905635db4888A8258f0E9aFDf72d1D9ED3ddbD3c"
         },
         "billVersion": "TieredSale",
         "billType": "oversubscription",
@@ -133,6 +159,19 @@
           },
           "active": true
         },
+        "earnToken": {
+          "symbol": "SKO",
+          "address": {
+            "56": "0x9Bf543D8460583Ff8a669Aae01d9cDbeE4dEfE3c"
+          },
+          "decimals": {
+            "56": 18
+          },
+          "liquidityDex": {
+            "56": "External"
+          },
+          "active": true
+        },
         "billNnftAddress": {
           "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
         },
@@ -150,7 +189,7 @@
       {
         "index": 3,
         "contractAddress": {
-          "56": "0x5A611385Bf9FC24aA742F4d356017415da4D0470"
+          "56": "0xDA51b551E4BE4eEbED44E70C22db29CE0d307981"
         },
         "billVersion": "TieredSale",
         "billType": "oversubscription",
@@ -177,6 +216,19 @@
           "liquidityDex": {
             "1": "UniswapV2",
             "2525": "External"
+          },
+          "active": true
+        },
+        "earnToken": {
+          "symbol": "SKO",
+          "address": {
+            "56": "0x9Bf543D8460583Ff8a669Aae01d9cDbeE4dEfE3c"
+          },
+          "decimals": {
+            "56": 18
+          },
+          "liquidityDex": {
+            "56": "External"
           },
           "active": true
         },

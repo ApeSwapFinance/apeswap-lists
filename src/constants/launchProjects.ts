@@ -13,7 +13,7 @@ const launchProjects: LaunchProjectConfig[] = [
       {
         index: 0,
         contractAddress: {
-          [ChainId.BSC]: '0x30f8e81986605B236326C411fb457dF88645076A', // fcfs
+          [ChainId.BSC]: '0x072Cd32fcE946493b21a297733F03Df1f36F65A6', // fcfs
         },
         billVersion: BillVersion.TieredSale,
         billType: 'fcfs',
@@ -34,7 +34,7 @@ const launchProjects: LaunchProjectConfig[] = [
       {
         index: 1,
         contractAddress: {
-          [ChainId.BSC]: '0x948d22f7DE98692251fFEA61A28F8ca7D508b225', // silver
+          [ChainId.BSC]: '0x87A2cf342A80C9900f5D798F91bc4cC6b0D13e3E', // silver
         },
         billVersion: BillVersion.TieredSale,
         billType: 'oversubscription',
@@ -55,7 +55,7 @@ const launchProjects: LaunchProjectConfig[] = [
       {
         index: 2,
         contractAddress: {
-          [ChainId.BSC]: '0x7bdaE9579f24FC86807c2c87977425f5E6a38db0', // gold
+          [ChainId.BSC]: '0x905635db4888A8258f0E9aFDf72d1D9ED3ddbD3c', // gold
         },
         billVersion: BillVersion.TieredSale,
         billType: 'oversubscription',
@@ -76,7 +76,7 @@ const launchProjects: LaunchProjectConfig[] = [
       {
         index: 3,
         contractAddress: {
-          [ChainId.BSC]: '0x5A611385Bf9FC24aA742F4d356017415da4D0470', //diamond
+          [ChainId.BSC]: '0xDA51b551E4BE4eEbED44E70C22db29CE0d307981', //diamond
         },
         billVersion: BillVersion.TieredSale,
         billType: 'oversubscription',

@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1041
+// BNB Largest ID: 1045
 // Polygon Largest ID: 137
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
@@ -10,6 +10,116 @@ import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } fr
 //Migration Bonds ID: 5007
 
 const bills: BillsConfig[] = [
+  {
+    index: 1045,
+    contractAddress: {
+      [ChainId.BSC]: '0x1B318c4d90e4751385e1d63123725Ddd02efE2EF',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.rpg,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://revolvegames.io/',
+    twitter: 'https://twitter.com/RevolveGamesio',
+    audit: 'https://drive.google.com/file/d/1lJdF7lEM3KQZmOW1p42Gm0eMbp7DF82C/view',
+    initTime: { [ChainId.BSC]: 1704477600 },
+    initPrice: { [ChainId.BSC]: 0.0257815220477653 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['GAMING'],
+    fullDescription:
+      'Revolve Games is reshaping Web3 gaming - addressing many of the challenges faced by blockchain gaming economies. They directly integrate playable assets into the in-game economy, achieved by tethering their assets to the RPG token. This strategy ensures a stable and robust ecosystem, less affected by external market fluctuations.',
+  },
+  {
+    index: 1044,
+    contractAddress: {
+      [ChainId.BSC]: '0x7c42C169b4654AF44d29a767B379F4dd0cD42462',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.via,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://octavia.one/',
+    twitter: 'https://twitter.com/OctaviaToken',
+    initTime: { [ChainId.BSC]: 1711551600 },
+    initPrice: { [ChainId.BSC]: 1.31 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.AITECH_Collection1,
+    },
+    tags: ['AI'],
+    fullDescription:
+      'Octavia is your web3-based autonomous assistant powered by the $VIA token. It can provide Crypto Insights, Analytics and users can automate web3 tasks. This assistant also allows easy integrations with X for sharing, and detailed project research. Octavia: the cutting-edge Web3 AI chatbot designed to revolutionize both web3 trading and managing web3 communities is here!',
+  },
+  {
+    index: 1043,
+    contractAddress: {
+      [ChainId.BSC]: '0xcc362B5760986ab14EDC794C5D4b1C84e05ea965',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdc,
+    quoteToken: tokens.usdc,
+    lpToken: tokens.usdc,
+    earnToken: tokens.wnk,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://www.winkyverse.io/',
+    twitter: 'https://twitter.com/TheWinkyverse_',
+    audit: 'https://skynet.certik.com/projects/winkyverse',
+    initTime: { [ChainId.BSC]: 1704891600 },
+    initPrice: { [ChainId.BSC]: 0.000875307143616461 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['GameFi (Play to Earn)'],
+    fullDescription:
+      'The Winkyverse is the first game-based learning platform offering immersive and purposeful educational experiences combining Gaming, Web3 and e-learning. Supported by the French Government, with an original setting, fully educational and ethical, the Winkyverse is the immersive and positive universe for all ages.',
+  },
+  {
+    index: 1042,
+    contractAddress: {
+      [ChainId.BSC]: '0xD0aDBe1CF318BFb0110E48F088BEA933ECD72304',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.carat,
+    lpToken: tokens.caratUsdt_PCS,
+    earnToken: tokens.carat,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://alaskagoldrush.io/',
+    twitter: 'https://twitter.com/alaska_game',
+    initTime: { [ChainId.BSC]: 1700485200 },
+    initPrice: { [ChainId.BSC]: 0.002404165611 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    fullDescription:
+      'Alaska Gold Rush is the first Web3-native game featuring an open world, an exciting plot, and adventures within the metaverse. The $CARAT token enables users to discover amazing earning opportunities while having the utmost fun. Become one of the first daredevils to set out for Alaska to find riches while exploring the unexplored!',
+    tags: ['GameFi (Play to Earn)'],
+  },
   {
     index: 5000, //MIGRATION BOND BANANA 2 MONTH
     contractAddress: {
@@ -709,7 +819,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    tags: ['NFTs'],
+    tags: ['AI and Education'],
     fullDescription:
       'Edu3Labs is revolutionizing education through Web3 by leveraging the capabilities of AI and blockchain technology to enhance learning experiences. Users gain access to content from leading producers and can easily purchase educational materials. They can also anticipate earning significant commissions and generating consistent passive income from sales in the secondary market. Edu3Labs: strong emphasis on education with maximum benefits to its users.',
   },
@@ -733,7 +843,7 @@ const bills: BillsConfig[] = [
     audit: 'https://omniscia.io/reports/fav-token-implementation-64805de3e824970014254148',
     initTime: { [ChainId.BSC]: 1704891600 },
     initPrice: { [ChainId.BSC]: 0.00173967992950712 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1233,7 +1343,7 @@ const bills: BillsConfig[] = [
     audit: 'https://drive.google.com/file/d/1lJdF7lEM3KQZmOW1p42Gm0eMbp7DF82C/view',
     initTime: { [ChainId.BSC]: 1704477600 },
     initPrice: { [ChainId.BSC]: 0.0257815220477653 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -5007,7 +5117,7 @@ const bills: BillsConfig[] = [
     },
     inactive: false,
     projectLink: 'https://www.cogitoprotocol.com/',
-    twitter: 'https://twitter.com/CogitoProtocol',
+    twitter: ' https://twitter.com/CogitoFi',
     audit: 'https://wp.hacken.io/wp-content/uploads/2023/05/Cogito_SC-Audit-Report_11_05_2023_SA-1337-1.pdf',
     initTime: { [ChainId.MAINNET]: 1710255600 },
     initPrice: { [ChainId.MAINNET]: 0.00173967992950712 },

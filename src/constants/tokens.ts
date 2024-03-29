@@ -2412,6 +2412,28 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  via: {
+    symbol: 'VIA',
+    address: {
+      [ChainId.BSC]: '0x21ac3bB914f90A2Bb1a16088E673a9fdDa641434',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+    },
+    active: true,
+  },
+  sko: {
+    symbol: 'SKO',
+    address: {
+      [ChainId.BSC]: '0x9Bf543D8460583Ff8a669Aae01d9cDbeE4dEfE3c',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.External,
+    },
+    active: true,
+  },
   cakebot: {
     symbol: 'CAKEBOT',
     address: {
@@ -2662,6 +2684,17 @@ const tokens: Record<string, Token> = {
     symbol: 'F3',
     address: {
       [ChainId.BSC]: '0x9e57E83Ad79Ac5312Ba82940bA037ED30600e167',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
+  carat: {
+    symbol: 'CARAT',
+    address: {
+      [ChainId.BSC]: '0x426C1C971fb00CAaf1883bd801323a8bEcb0C919',
     },
     decimals: { [ChainId.BSC]: 18 },
     liquidityDex: {
@@ -3747,7 +3780,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: LiquidityDex.ThenaV1,
     },
     getLpUrl: {
-      [ChainId.BSC]: 'https://www.thena.fi/add/v1',
+      [ChainId.BSC]: 'https://thena.fi/pools/0x7868245cae5834b32b40cee01f1b536ad75c7d09',
     },
   },
   abondBnb_Ichi: {
@@ -3762,7 +3795,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: LiquidityDex.Algebra,
     },
     getLpUrl: {
-      [ChainId.BSC]: 'https://www.thena.fi/add?type=ichi&address=0x137df93a0c22b863c1b335d1b8d389ea3895ba13',
+      [ChainId.BSC]: 'https://thena.fi/pools/0x44aa475ed44dda30f4fb81a0eec7c44aed01c7c0',
     },
   },
   mfpsBnb_PCS: {
@@ -3919,6 +3952,22 @@ const tokens: Record<string, Token> = {
     getLpUrl: {
       [ChainId.BSC]:
         'https://pancakeswap.finance/v2/add/0x55d398326f99059fF775485246999027B3197955/0x9e57E83Ad79Ac5312Ba82940bA037ED30600e167',
+    },
+  },
+  caratUsdt_PCS: {
+    symbol: 'CARAT-USDT',
+    address: {
+      [ChainId.BSC]: '0x498873319D02d025F2DBFda586AdA222BD9DE11C',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl: {
+      [ChainId.BSC]:
+        'https://pancakeswap.finance/v2/add/0x55d398326f99059fF775485246999027B3197955/0x426C1C971fb00CAaf1883bd801323a8bEcb0C919',
     },
   },
   stlosTlos: {

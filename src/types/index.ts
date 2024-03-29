@@ -104,6 +104,7 @@ export enum BillArtCollection {
   PlanetIX_Collection1 = 'PlanetIX_Collection1',
   ETH_Collection1 = 'ETH_Collection1',
   inEVM_Collection1 = 'inEVM_Collection1',
+  AITECH_Collection1 = 'AITECH_Collection1',
 }
 
 export const defaultBillArtCollection = BillArtCollection.ApeSwap_Collection1
@@ -207,6 +208,7 @@ export interface BillsConfig {
   // * These are used for the bond migration page
   vestingTerm?: number
   multiplier?: number
+  onlyPartner?: boolean // used to hide bond on ape bond site
 }
 
 export enum VaultVersion {
