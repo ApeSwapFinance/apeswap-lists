@@ -8,24 +8,24 @@ const launchProjects: LaunchProjectConfig[] = [
     projectId: 'sugar-kingdom',
     projectName: 'Sugar Kingdom Odyssey',
     saleStartTime: 'March 29th',
-    totalAllocation: '791,648.5 SKO',
+    totalAllocation: '791,649 SKO',
     bonds: [
       {
         index: 0,
         contractAddress: {
-          [ChainId.BSC]: '0xcF6E17d2bA928148CEDE2F72F012be020ebe50CE', // tier 4
+          [ChainId.BSC]: '0x30f8e81986605B236326C411fb457dF88645076A', // fcfs
         },
         billVersion: BillVersion.TieredSale,
         billType: 'fcfs',
         token: tokens.usdt,
-        earnToken: tokens.MockERC20,
+        earnToken: tokens.sko,
         billNnftAddress: {
           [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
         },
         soldOut: false,
         billArt: { collection: BillArtCollection.ApeBond_Collection1 },
         initTime: {
-          [ChainId.BSC]: 1710794091,
+          [ChainId.BSC]: 1711731600,
         },
         initPrice: {
           [ChainId.BSC]: 0.06,
@@ -34,19 +34,19 @@ const launchProjects: LaunchProjectConfig[] = [
       {
         index: 1,
         contractAddress: {
-          [ChainId.BSC]: '0xfF413bf0006C9f14eA8745A8613a54FD8a0Bb265', // tier 3
+          [ChainId.BSC]: '0x948d22f7DE98692251fFEA61A28F8ca7D508b225', // silver
         },
         billVersion: BillVersion.TieredSale,
         billType: 'oversubscription',
         token: tokens.usdt,
-        earnToken: tokens.MockERC20,
+        earnToken: tokens.sko,
         billNnftAddress: {
           [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
         },
         soldOut: false,
         billArt: { collection: BillArtCollection.ApeBond_Collection1 },
         initTime: {
-          [ChainId.BSC]: 1710794091,
+          [ChainId.BSC]: 1711731600,
         },
         initPrice: {
           [ChainId.BSC]: 0.06,
@@ -55,19 +55,19 @@ const launchProjects: LaunchProjectConfig[] = [
       {
         index: 2,
         contractAddress: {
-          [ChainId.BSC]: '0x561E5b24c0a2A2405481F567350d4561476EDce2', // tier 2
+          [ChainId.BSC]: '0x7bdaE9579f24FC86807c2c87977425f5E6a38db0', // gold
         },
         billVersion: BillVersion.TieredSale,
         billType: 'oversubscription',
         token: tokens.usdt,
-        earnToken: tokens.MockERC20,
+        earnToken: tokens.sko,
         billNnftAddress: {
           [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
         },
         soldOut: false,
         billArt: { collection: BillArtCollection.ApeBond_Collection1 },
         initTime: {
-          [ChainId.BSC]: 1710794091,
+          [ChainId.BSC]: 1711731600,
         },
         initPrice: {
           [ChainId.BSC]: 0.06,
@@ -76,19 +76,19 @@ const launchProjects: LaunchProjectConfig[] = [
       {
         index: 3,
         contractAddress: {
-          [ChainId.BSC]: '0x7Fd440Be4f88482FD12F5778F977E781eFeEa6a9', //fcfs
+          [ChainId.BSC]: '0x5A611385Bf9FC24aA742F4d356017415da4D0470', //diamond
         },
         billVersion: BillVersion.TieredSale,
         billType: 'oversubscription',
         token: tokens.usdt,
-        earnToken: tokens.MockERC20,
+        earnToken: tokens.sko,
         billNnftAddress: {
           [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
         },
         soldOut: false,
         billArt: { collection: BillArtCollection.ApeBond_Collection1 },
         initTime: {
-          [ChainId.BSC]: 1710794091,
+          [ChainId.BSC]: 1711731600,
         },
         initPrice: {
           [ChainId.BSC]: 0.06,
@@ -109,7 +109,7 @@ const launchProjects: LaunchProjectConfig[] = [
         discord: 'https://discord.gg/sugar-kingdom ',
         twitter: 'https://twitter.com/SugarKingdomNFT',
         teaserVideo: '',
-        tokenomicsURL: '',
+        tokenomicsURL: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1711723872/tokenomics_zleldx.png',
         website: 'https://sugarkingdom.io/',
         whitepaper: 'https://docs.sugarkingdom.io/ ',
       },

@@ -4,12 +4,12 @@
     "projectId": "sugar-kingdom",
     "projectName": "Sugar Kingdom Odyssey",
     "saleStartTime": "March 29th",
-    "totalAllocation": "791,648.5 SKO",
+    "totalAllocation": "791,649 SKO",
     "bonds": [
       {
         "index": 0,
         "contractAddress": {
-          "56": "0xcF6E17d2bA928148CEDE2F72F012be020ebe50CE"
+          "56": "0x30f8e81986605B236326C411fb457dF88645076A"
         },
         "billVersion": "TieredSale",
         "billType": "fcfs",
@@ -39,18 +39,6 @@
           },
           "active": true
         },
-        "earnToken": {
-          "symbol": "MockERC20",
-          "address": {
-            "56": "0xBeEf2D2005C662F21a5696A68f54BD165E91C8Bd",
-            "97": "0x68D24FA18c00B5Df32e91C1dDDfa6419083606F9"
-          },
-          "decimals": {
-            "56": 18,
-            "97": 18
-          },
-          "active": true
-        },
         "billNnftAddress": {
           "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
         },
@@ -59,7 +47,7 @@
           "collection": "ApeBond_Collection1"
         },
         "initTime": {
-          "56": 1710794091
+          "56": 1711731600
         },
         "initPrice": {
           "56": 0.06
@@ -68,7 +56,7 @@
       {
         "index": 1,
         "contractAddress": {
-          "56": "0xfF413bf0006C9f14eA8745A8613a54FD8a0Bb265"
+          "56": "0x948d22f7DE98692251fFEA61A28F8ca7D508b225"
         },
         "billVersion": "TieredSale",
         "billType": "oversubscription",
@@ -98,18 +86,6 @@
           },
           "active": true
         },
-        "earnToken": {
-          "symbol": "MockERC20",
-          "address": {
-            "56": "0xBeEf2D2005C662F21a5696A68f54BD165E91C8Bd",
-            "97": "0x68D24FA18c00B5Df32e91C1dDDfa6419083606F9"
-          },
-          "decimals": {
-            "56": 18,
-            "97": 18
-          },
-          "active": true
-        },
         "billNnftAddress": {
           "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
         },
@@ -118,7 +94,7 @@
           "collection": "ApeBond_Collection1"
         },
         "initTime": {
-          "56": 1710794091
+          "56": 1711731600
         },
         "initPrice": {
           "56": 0.06
@@ -127,7 +103,7 @@
       {
         "index": 2,
         "contractAddress": {
-          "56": "0x561E5b24c0a2A2405481F567350d4561476EDce2"
+          "56": "0x7bdaE9579f24FC86807c2c87977425f5E6a38db0"
         },
         "billVersion": "TieredSale",
         "billType": "oversubscription",
@@ -157,18 +133,6 @@
           },
           "active": true
         },
-        "earnToken": {
-          "symbol": "MockERC20",
-          "address": {
-            "56": "0xBeEf2D2005C662F21a5696A68f54BD165E91C8Bd",
-            "97": "0x68D24FA18c00B5Df32e91C1dDDfa6419083606F9"
-          },
-          "decimals": {
-            "56": 18,
-            "97": 18
-          },
-          "active": true
-        },
         "billNnftAddress": {
           "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
         },
@@ -177,7 +141,7 @@
           "collection": "ApeBond_Collection1"
         },
         "initTime": {
-          "56": 1710794091
+          "56": 1711731600
         },
         "initPrice": {
           "56": 0.06
@@ -186,7 +150,7 @@
       {
         "index": 3,
         "contractAddress": {
-          "56": "0x7Fd440Be4f88482FD12F5778F977E781eFeEa6a9"
+          "56": "0x5A611385Bf9FC24aA742F4d356017415da4D0470"
         },
         "billVersion": "TieredSale",
         "billType": "oversubscription",
@@ -216,18 +180,6 @@
           },
           "active": true
         },
-        "earnToken": {
-          "symbol": "MockERC20",
-          "address": {
-            "56": "0xBeEf2D2005C662F21a5696A68f54BD165E91C8Bd",
-            "97": "0x68D24FA18c00B5Df32e91C1dDDfa6419083606F9"
-          },
-          "decimals": {
-            "56": 18,
-            "97": 18
-          },
-          "active": true
-        },
         "billNnftAddress": {
           "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
         },
@@ -236,7 +188,7 @@
           "collection": "ApeBond_Collection1"
         },
         "initTime": {
-          "56": 1710794091
+          "56": 1711731600
         },
         "initPrice": {
           "56": 0.06
@@ -251,7 +203,7 @@
         "discord": "https://discord.gg/sugar-kingdom ",
         "twitter": "https://twitter.com/SugarKingdomNFT",
         "teaserVideo": "",
-        "tokenomicsURL": "",
+        "tokenomicsURL": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1711723872/tokenomics_zleldx.png",
         "website": "https://sugarkingdom.io/",
         "whitepaper": "https://docs.sugarkingdom.io/ "
       },
