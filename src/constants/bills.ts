@@ -6,7 +6,7 @@ import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } fr
 // Polygon Largest ID: 137
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
-// ETH Largest ID: 3008
+// ETH Largest ID: 3009
 //Migration Bonds ID: 5007
 
 const bills: BillsConfig[] = [
@@ -5203,7 +5203,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/gpt_protocol',
     initTime: { [ChainId.MAINNET]: 1710255600 },
     initPrice: { [ChainId.MAINNET]: 0.00173967992950712 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
@@ -5346,6 +5346,34 @@ const bills: BillsConfig[] = [
     tags: ['Marketing Solutions'],
     fullDescription:
       "Chirpley is the world's first fully automated, peer-to-peer, all-in-one influencer marketplace exclusively dedicated to nano and micro-influencers. It facilitates end-to-end automated influencer campaigns through Artificial Intelligence, Machine Learning, and Blockchain technology. Chirpley ensures perfectly matched collaborations between sponsors and brands, eliminating the need for tiresome negotiations among influencers, marketers, and agents.",
+  },
+  {
+    index: 3009,
+    contractAddress: {
+      [ChainId.MAINNET]: '0x6398Cf53F66DfEaA1B290D466765883cC2F23423',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    token: tokens.eth,
+    quoteToken: tokens.eth,
+    lpToken: tokens.eth,
+    earnToken: tokens.abond,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    inactive: false,
+    projectLink: 'https://ape.bond/',
+    twitter: 'https://twitter.com/apebond',
+    audit: 'https://paladinsec.co/projects/apebond/',
+    initTime: { [ChainId.MAINNET]: 1711828677 },
+    initPrice: { [ChainId.MAINNET]: 0.0334978015237449 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    fullDescription:
+      'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
+    tags: ['Reserve'],
   },
 ]
 
