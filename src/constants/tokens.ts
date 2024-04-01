@@ -883,6 +883,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  crs: {
+    symbol: 'CRS',
+    address: {
+      [ChainId.MATIC]: '0x731C79f054DF3A567584Ee21A95399d343103143',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.Algebra,
+    },
+    active: true,
+  },
   orbs: {
     symbol: 'ORBS',
     address: {
@@ -2567,6 +2580,17 @@ const tokens: Record<string, Token> = {
     decimals: { [ChainId.MAINNET]: 18 },
     liquidityDex: {
       [ChainId.MAINNET]: LiquidityDex.UniswapV2,
+    },
+    active: true,
+  },
+  pumlx: {
+    symbol: 'PUMLx',
+    address: {
+      [ChainId.MAINNET]: '0x8c088775e4139af116Ac1FA6f281Bbf71E8c1c73',
+    },
+    decimals: { [ChainId.MAINNET]: 18 },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV3,
     },
     active: true,
   },
