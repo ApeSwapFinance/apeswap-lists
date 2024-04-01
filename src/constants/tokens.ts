@@ -2702,6 +2702,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  ait: {
+    symbol: 'AIT',
+    address: {
+      [ChainId.BSC]: '0x5F113F7ef20Ff111FD130e83D8e97Fd1E0E2518F',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
   cgg: {
     symbol: 'CGG',
     address: {
