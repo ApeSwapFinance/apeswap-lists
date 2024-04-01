@@ -3981,6 +3981,21 @@ const tokens: Record<string, Token> = {
         'https://pancakeswap.finance/v2/add/0x55d398326f99059fF775485246999027B3197955/0x426C1C971fb00CAaf1883bd801323a8bEcb0C919',
     },
   },
+  aitBnb_PCS: {
+    symbol: 'AIT-BNB',
+    address: {
+      [ChainId.BSC]: '0x84DBc37BE759d222725c193C27694f405a16896a',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl: {
+      [ChainId.BSC]: 'https://pancakeswap.finance/v2/add/BNB/0x5F113F7ef20Ff111FD130e83D8e97Fd1E0E2518F',
+    },
+  },
   stlosTlos: {
     symbol: 'STLOS-TLOS',
     address: {
