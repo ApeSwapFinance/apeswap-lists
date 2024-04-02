@@ -48,7 +48,7 @@
             "56": 18
           },
           "liquidityDex": {
-            "56": "External"
+            "56": "PancakeSwapV2"
           },
           "active": true
         },
@@ -108,7 +108,7 @@
             "56": 18
           },
           "liquidityDex": {
-            "56": "External"
+            "56": "PancakeSwapV2"
           },
           "active": true
         },
@@ -168,7 +168,7 @@
             "56": 18
           },
           "liquidityDex": {
-            "56": "External"
+            "56": "PancakeSwapV2"
           },
           "active": true
         },
@@ -228,7 +228,7 @@
             "56": 18
           },
           "liquidityDex": {
-            "56": "External"
+            "56": "PancakeSwapV2"
           },
           "active": true
         },
