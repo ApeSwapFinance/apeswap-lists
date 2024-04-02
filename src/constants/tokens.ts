@@ -24,11 +24,22 @@ const tokens: Record<string, Token> = {
   MockERC20: {
     symbol: 'MockERC20',
     address: {
-      [ChainId.BSC]: '0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95',
+      [ChainId.BSC]: '0xBeEf2D2005C662F21a5696A68f54BD165E91C8Bd',
       [ChainId.BSC_TESTNET]: '0x68D24FA18c00B5Df32e91C1dDDfa6419083606F9',
     },
     decimals: {
       [ChainId.BSC]: 18,
+      [ChainId.BSC_TESTNET]: 18,
+    },
+    active: true,
+  },
+  // TODO: remove mock token
+  eitm: {
+    symbol: 'EITM',
+    address: {
+      [ChainId.BSC_TESTNET]: '0x087C6c189C7f23b241e734A8F883CA703b6eADD0',
+    },
+    decimals: {
       [ChainId.BSC_TESTNET]: 18,
     },
     active: true,
@@ -872,6 +883,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  crs: {
+    symbol: 'CRS',
+    address: {
+      [ChainId.MATIC]: '0x731C79f054DF3A567584Ee21A95399d343103143',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.Algebra,
+    },
+    active: true,
+  },
   orbs: {
     symbol: 'ORBS',
     address: {
@@ -963,6 +987,7 @@ const tokens: Record<string, Token> = {
       [ChainId.TLOS]: '0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73',
       [ChainId.ARBITRUM]: '0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9',
       [ChainId.INEVM]: '0x97423A68BAe94b5De52d767a17aBCc54c157c0E5',
+      [ChainId.BSC_TESTNET]: '0x337610d27c682E347C9cD60BD4b3b107C9d34dDd',
     },
     decimals: {
       [ChainId.MAINNET]: 6,
@@ -971,6 +996,7 @@ const tokens: Record<string, Token> = {
       [ChainId.TLOS]: 6,
       [ChainId.ARBITRUM]: 6,
       [ChainId.INEVM]: 6,
+      [ChainId.BSC_TESTNET]: 18,
     },
     liquidityDex: {
       [ChainId.INEVM]: LiquidityDex.External,
@@ -2410,6 +2436,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  sko: {
+    symbol: 'SKO',
+    address: {
+      [ChainId.BSC]: '0x9Bf543D8460583Ff8a669Aae01d9cDbeE4dEfE3c',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.External,
+    },
+    active: true,
+  },
   cakebot: {
     symbol: 'CAKEBOT',
     address: {
@@ -2546,6 +2583,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  pumlx: {
+    symbol: 'PUMLx',
+    address: {
+      [ChainId.MAINNET]: '0x8c088775e4139af116Ac1FA6f281Bbf71E8c1c73',
+    },
+    decimals: { [ChainId.MAINNET]: 18 },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV3,
+    },
+    active: true,
+  },
   dck: {
     symbol: 'DCK',
     address: {
@@ -2671,6 +2719,39 @@ const tokens: Record<string, Token> = {
     symbol: 'CARAT',
     address: {
       [ChainId.BSC]: '0x426C1C971fb00CAaf1883bd801323a8bEcb0C919',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
+  ait: {
+    symbol: 'AIT',
+    address: {
+      [ChainId.BSC]: '0x5F113F7ef20Ff111FD130e83D8e97Fd1E0E2518F',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
+  mmt: {
+    symbol: 'MMT',
+    address: {
+      [ChainId.BSC]: '0xB34966A2A66cb116ebe87b9554c020DcC950E917',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
+  evo: {
+    symbol: 'EVO',
+    address: {
+      [ChainId.BSC]: '0xF2B688b2201979d44FdF18d1d8C641305Cf560Ba',
     },
     decimals: { [ChainId.BSC]: 18 },
     liquidityDex: {
@@ -3944,6 +4025,37 @@ const tokens: Record<string, Token> = {
     getLpUrl: {
       [ChainId.BSC]:
         'https://pancakeswap.finance/v2/add/0x55d398326f99059fF775485246999027B3197955/0x426C1C971fb00CAaf1883bd801323a8bEcb0C919',
+    },
+  },
+  aitBnb_PCS: {
+    symbol: 'AIT-BNB',
+    address: {
+      [ChainId.BSC]: '0x84DBc37BE759d222725c193C27694f405a16896a',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl: {
+      [ChainId.BSC]: 'https://pancakeswap.finance/v2/add/BNB/0x5F113F7ef20Ff111FD130e83D8e97Fd1E0E2518F',
+    },
+  },
+  mmtUsdt_PCS: {
+    symbol: 'MMT-USDT',
+    address: {
+      [ChainId.BSC]: '0x4037ccEE3A68CF5BDee8A7166a57881C4bae57Ee',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl: {
+      [ChainId.BSC]:
+        'https://pancakeswap.finance/v2/add/0x55d398326f99059fF775485246999027B3197955/0xB34966A2A66cb116ebe87b9554c020DcC950E917',
     },
   },
   stlosTlos: {
