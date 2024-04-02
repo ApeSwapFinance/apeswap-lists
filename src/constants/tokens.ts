@@ -2737,6 +2737,28 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  mmt: {
+    symbol: 'MMT',
+    address: {
+      [ChainId.BSC]: '0xB34966A2A66cb116ebe87b9554c020DcC950E917',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
+  evo: {
+    symbol: 'EVO',
+    address: {
+      [ChainId.BSC]: '0xF2B688b2201979d44FdF18d1d8C641305Cf560Ba',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
   cgg: {
     symbol: 'CGG',
     address: {
@@ -4018,6 +4040,22 @@ const tokens: Record<string, Token> = {
     },
     getLpUrl: {
       [ChainId.BSC]: 'https://pancakeswap.finance/v2/add/BNB/0x5F113F7ef20Ff111FD130e83D8e97Fd1E0E2518F',
+    },
+  },
+  mmtUsdt_PCS: {
+    symbol: 'MMT-USDT',
+    address: {
+      [ChainId.BSC]: '0x4037ccEE3A68CF5BDee8A7166a57881C4bae57Ee',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl: {
+      [ChainId.BSC]:
+        'https://pancakeswap.finance/v2/add/0x55d398326f99059fF775485246999027B3197955/0xB34966A2A66cb116ebe87b9554c020DcC950E917',
     },
   },
   stlosTlos: {
