@@ -5375,6 +5375,35 @@ const bills: BillsConfig[] = [
       'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
     tags: ['Reserve'],
   },
+  {
+    index: 3010,
+    contractAddress: {
+      [ChainId.MAINNET]: '0x1E3C53D776AD4d3045575298d821b29AA76e4581',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    token: tokens.eth,
+    quoteToken: tokens.eth,
+    lpToken: tokens.eth,
+    earnToken: tokens.pumlx,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    inactive: false,
+    projectLink: 'https://puml.io/',
+    twitter: 'https://twitter.com/pumlhealthio',
+    audit:
+      'https://github.com/chainsulting/Smart-Contract-Security-Audits/blob/master/Pummel%20Health/Smart_Contract_Audit_Pumlx_Token.pdf',
+    initTime: { [ChainId.MAINNET]: 1712048400 },
+    initPrice: { [ChainId.MAINNET]: 0.013182138610271742 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    fullDescription:
+      'PUML Better Health is a Web3 gamified health, wellbeing, and sports platform. Users can complete health challenges such as steps, hydration, meditation, sleep, and more, while getting rewarded. Most importantly, it fosters the creation of long-term health habits for a better future. Get rewarded for being healthy with PUML Better Health.',
+    tags: ['GameFi (Play to Earn)'],
+  },
 ]
 
 export default bills

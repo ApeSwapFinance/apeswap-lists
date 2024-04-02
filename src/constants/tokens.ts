@@ -883,6 +883,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  crs: {
+    symbol: 'CRS',
+    address: {
+      [ChainId.MATIC]: '0x731C79f054DF3A567584Ee21A95399d343103143',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.Algebra,
+    },
+    active: true,
+  },
   orbs: {
     symbol: 'ORBS',
     address: {
@@ -2570,6 +2583,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  pumlx: {
+    symbol: 'PUMLx',
+    address: {
+      [ChainId.MAINNET]: '0x8c088775e4139af116Ac1FA6f281Bbf71E8c1c73',
+    },
+    decimals: { [ChainId.MAINNET]: 18 },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV3,
+    },
+    active: true,
+  },
   dck: {
     symbol: 'DCK',
     address: {
@@ -2695,6 +2719,17 @@ const tokens: Record<string, Token> = {
     symbol: 'CARAT',
     address: {
       [ChainId.BSC]: '0x426C1C971fb00CAaf1883bd801323a8bEcb0C919',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
+  ait: {
+    symbol: 'AIT',
+    address: {
+      [ChainId.BSC]: '0x5F113F7ef20Ff111FD130e83D8e97Fd1E0E2518F',
     },
     decimals: { [ChainId.BSC]: 18 },
     liquidityDex: {
@@ -3968,6 +4003,21 @@ const tokens: Record<string, Token> = {
     getLpUrl: {
       [ChainId.BSC]:
         'https://pancakeswap.finance/v2/add/0x55d398326f99059fF775485246999027B3197955/0x426C1C971fb00CAaf1883bd801323a8bEcb0C919',
+    },
+  },
+  aitBnb_PCS: {
+    symbol: 'AIT-BNB',
+    address: {
+      [ChainId.BSC]: '0x84DBc37BE759d222725c193C27694f405a16896a',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl: {
+      [ChainId.BSC]: 'https://pancakeswap.finance/v2/add/BNB/0x5F113F7ef20Ff111FD130e83D8e97Fd1E0E2518F',
     },
   },
   stlosTlos: {
