@@ -3855,6 +3855,21 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 'https://thena.fi/pools/0x44aa475ed44dda30f4fb81a0eec7c44aed01c7c0',
     },
   },
+  bnbUsdt_Ichi: {
+    symbol: 'BNB-USDT',
+    address: {
+      [ChainId.BSC]: '0x468E041AF71B28bE7C3b2Ad9f91696A0206f0053',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.Algebra,
+    },
+    getLpUrl: {
+      [ChainId.BSC]: 'https://thena.fi/pools/0xD405b976Ac01023c9064024880999fC450A8668b',
+    },
+  },
   mfpsBnb_PCS: {
     symbol: 'MFPS-BNB',
     address: {
