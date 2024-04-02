@@ -4493,6 +4493,9 @@ const tokens: Record<string, Token> = {
       [ChainId.ARBITRUM]: '0x1A64166dc78830aeFF560Fb0f4C521830D7fd76F',
     },
     decimals: { [ChainId.ARBITRUM]: 18 },
+    liquidityDex: {
+      [ChainId.ARBITRUM]: LiquidityDex.Algebra,
+    },
     active: true,
     lpToken: true,
     getLpUrl: {
