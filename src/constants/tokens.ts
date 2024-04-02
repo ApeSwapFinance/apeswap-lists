@@ -4487,6 +4487,18 @@ const tokens: Record<string, Token> = {
       [ChainId.ARBITRUM]: 'https://apeswap.finance/add-liquidity/ETH/0x58CB98A966F62aA6F2190eB3AA03132A0c3de3D5',
     },
   },
+  arbEth_Ichi: {
+    symbol: 'ARB-ETH',
+    address: {
+      [ChainId.ARBITRUM]: '0x1A64166dc78830aeFF560Fb0f4C521830D7fd76F',
+    },
+    decimals: { [ChainId.ARBITRUM]: 18 },
+    active: true,
+    lpToken: true,
+    getLpUrl: {
+      [ChainId.ARBITRUM]: 'https://app.ichi.org/vault/token/0xC6F780497A95e246EB9449f5e4770916DCd6396A',
+    },
+  },
   abondEth_Ichi: {
     symbol: 'ABOND-ETH',
     address: {
