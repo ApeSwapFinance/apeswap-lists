@@ -5281,7 +5281,7 @@
         "56": 18
       },
       "liquidityDex": {
-        "56": "PancakeSwapV2"
+        "56": "PancakeSwapV3"
       },
       "active": true
     },
@@ -5719,7 +5719,7 @@
         "56": 18
       },
       "liquidityDex": {
-        "56": "PancakeSwapV2"
+        "56": "PancakeSwapV3"
       },
       "active": true
     },
@@ -6050,7 +6050,7 @@
         "56": 18
       },
       "liquidityDex": {
-        "56": "PancakeSwapV2"
+        "56": "PancakeSwapV3"
       },
       "active": true
     },
@@ -6885,7 +6885,7 @@
         "56": 18
       },
       "liquidityDex": {
-        "56": "PancakeSwapV2"
+        "56": "PancakeSwapV3"
       },
       "active": true
     },
@@ -6927,7 +6927,7 @@
         "56": 18
       },
       "liquidityDex": {
-        "56": "PancakeSwapV2"
+        "56": "PancakeSwapV3"
       },
       "active": true
     },
@@ -6955,7 +6955,7 @@
         "56": 18
       },
       "liquidityDex": {
-        "56": "PancakeSwapV2"
+        "56": "PancakeSwapV3"
       },
       "active": true
     },

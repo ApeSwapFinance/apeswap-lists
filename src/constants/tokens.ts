@@ -2634,7 +2634,7 @@ const tokens: Record<string, Token> = {
     },
     decimals: { [ChainId.BSC]: 18 },
     liquidityDex: {
-      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
     },
     active: true,
   },
@@ -2752,6 +2752,17 @@ const tokens: Record<string, Token> = {
     symbol: 'EVO',
     address: {
       [ChainId.BSC]: '0xF2B688b2201979d44FdF18d1d8C641305Cf560Ba',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
+  scrl: {
+    symbol: 'SCRL',
+    address: {
+      [ChainId.BSC]: '0x52c1751C89fc913ed274d72e8d56DcE4Ee44A5cf',
     },
     decimals: { [ChainId.BSC]: 18 },
     liquidityDex: {
@@ -4071,6 +4082,22 @@ const tokens: Record<string, Token> = {
     getLpUrl: {
       [ChainId.BSC]:
         'https://pancakeswap.finance/v2/add/0x55d398326f99059fF775485246999027B3197955/0xB34966A2A66cb116ebe87b9554c020DcC950E917',
+    },
+  },
+  scrlUsdt_PCS: {
+    symbol: 'SCRL-USDT',
+    address: {
+      [ChainId.BSC]: '0x485766b9eD7c28A45b8e070382bf3308ED0e2d98',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl: {
+      [ChainId.BSC]:
+        'https://pancakeswap.finance/v2/add/0x55d398326f99059fF775485246999027B3197955/0x52c1751C89fc913ed274d72e8d56DcE4Ee44A5cf',
     },
   },
   stlosTlos: {
