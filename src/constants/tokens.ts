@@ -3855,6 +3855,21 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 'https://thena.fi/pools/0x44aa475ed44dda30f4fb81a0eec7c44aed01c7c0',
     },
   },
+  bnbUsdt_Ichi: {
+    symbol: 'BNB-USDT',
+    address: {
+      [ChainId.BSC]: '0x468E041AF71B28bE7C3b2Ad9f91696A0206f0053',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.Algebra,
+    },
+    getLpUrl: {
+      [ChainId.BSC]: 'https://thena.fi/pools/0xD405b976Ac01023c9064024880999fC450A8668b',
+    },
+  },
   mfpsBnb_PCS: {
     symbol: 'MFPS-BNB',
     address: {
@@ -4470,6 +4485,21 @@ const tokens: Record<string, Token> = {
     lpToken: true,
     getLpUrl: {
       [ChainId.ARBITRUM]: 'https://apeswap.finance/add-liquidity/ETH/0x58CB98A966F62aA6F2190eB3AA03132A0c3de3D5',
+    },
+  },
+  arbEth_Ichi: {
+    symbol: 'ARB-ETH',
+    address: {
+      [ChainId.ARBITRUM]: '0x1A64166dc78830aeFF560Fb0f4C521830D7fd76F',
+    },
+    decimals: { [ChainId.ARBITRUM]: 18 },
+    liquidityDex: {
+      [ChainId.ARBITRUM]: LiquidityDex.Algebra,
+    },
+    active: true,
+    lpToken: true,
+    getLpUrl: {
+      [ChainId.ARBITRUM]: 'https://app.ichi.org/vault/token/0xC6F780497A95e246EB9449f5e4770916DCd6396A',
     },
   },
   abondEth_Ichi: {
