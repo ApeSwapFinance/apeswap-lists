@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1046
+// BNB Largest ID: 1047
 // Polygon Largest ID: 137
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
@@ -10,6 +10,34 @@ import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } fr
 //Migration Bonds ID: 5007
 
 const bills: BillsConfig[] = [
+  {
+    index: 1047,
+    contractAddress: {
+      [ChainId.BSC]: '0x583F3395768B8A685Ab02156eD980722886A2d44',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.evo,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://www.devomon.io/',
+    twitter: 'https://twitter.com/OfficialDevomon',
+    audit: 'https://skynet.certik.com/projects/devomon',
+    initTime: { [ChainId.BSC]: 1712163600 },
+    initPrice: { [ChainId.BSC]: 0.006303059734924963 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['GameFi (Play to Earn)'],
+    fullDescription:
+      'Devomon is an anime brand that is revolutionizing fan engagement across the globe. Beyond gaming, it encompasses manhwas, anime, and more. Expect immersive games, unique merchandise, and a universe that unites every aspect of anime culture. Experience captivating journeys and trials, along with the opportunity to build and enhance robust NFT collections, all within an engaging and constantly evolving setting—only with Devomon.',
+  },
   {
     index: 1046,
     contractAddress: {
@@ -61,7 +89,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    tags: ['GAMING'],
+    tags: ['GameFi (Play to Earn)'],
     fullDescription:
       'Revolve Games is reshaping Web3 gaming - addressing many of the challenges faced by blockchain gaming economies. They directly integrate playable assets into the in-game economy, achieved by tethering their assets to the RPG token. This strategy ensures a stable and robust ecosystem, less affected by external market fluctuations.',
   },
