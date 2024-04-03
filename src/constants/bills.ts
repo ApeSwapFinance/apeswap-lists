@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1045
+// BNB Largest ID: 1046
 // Polygon Largest ID: 137
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
@@ -10,6 +10,33 @@ import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } fr
 //Migration Bonds ID: 5007
 
 const bills: BillsConfig[] = [
+  {
+    index: 1046,
+    contractAddress: {
+      [ChainId.BSC]: '0x8476Fd156E0DC723F9f36B126621481aB6720961',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.mmt,
+    lpToken: tokens.mmtUsdt_PCS,
+    earnToken: tokens.mmt,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'http://memusic.io',
+    twitter: 'https://twitter.com/MeMusicNews',
+    initTime: { [ChainId.BSC]: 1704477600 },
+    initPrice: { [ChainId.BSC]: 0.0257815220477653 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Entertainment'],
+    fullDescription:
+      'MeMusic provides music for everyone! The team has built the first-ever blockchain-based music platform to adopt cryptocurrencies and a traditional business model. MeMusic has reinvented the streaming experience for the artists and users by providing a novel experience to earn rewards by listening and creating. MeMusic: personalizing the music experience beyond borders!',
+  },
   {
     index: 1045,
     contractAddress: {
