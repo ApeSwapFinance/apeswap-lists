@@ -2630,7 +2630,7 @@ const tokens: Record<string, Token> = {
   aitech: {
     symbol: 'AITECH',
     address: {
-      [ChainId.BSC]: '0x2d060ef4d6bf7f9e5edde373ab735513c0e4f944',
+      [ChainId.BSC]: '0x2D060Ef4d6BF7f9e5edDe373Ab735513c0e4F944',
     },
     decimals: { [ChainId.BSC]: 18 },
     liquidityDex: {
