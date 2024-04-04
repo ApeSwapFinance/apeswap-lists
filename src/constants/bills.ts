@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1047
+// BNB Largest ID: 1048
 // Polygon Largest ID: 137
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
@@ -10,6 +10,34 @@ import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } fr
 //Migration Bonds ID: 5007
 
 const bills: BillsConfig[] = [
+  {
+    index: 1048,
+    contractAddress: {
+      [ChainId.BSC]: '0x580009d942cf89c05D506391B49BDf7825D9c583',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.scrl,
+    lpToken: tokens.scrlUsdt_PCS,
+    earnToken: tokens.scrl,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://www.wizarre.io/',
+    twitter: 'https://twitter.com/WizarreGame',
+    audit: 'https://cdn.wizarre.io/doc/wizarre-rd-auditors-token-security-review.pdf',
+    initTime: { [ChainId.BSC]: 1712235600 },
+    initPrice: { [ChainId.BSC]: 0.000119256747804887 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['GameFi (Play to Earn)'],
+    fullDescription:
+      'Experience epic magical battles featuring powerful wizards. Discover the future of gaming with this revolutionary multiplayer NFT blockchain game - free to play and equipped with a built-in Play & Earn system! Welcome to the Wizarre Universe, the ultimate destination for users to create the best wizards, level them up, and hone their skills to become the greatest. Wizarre Scroll: easy to learn but challenging to master!',
+  },
   {
     index: 1047,
     contractAddress: {
