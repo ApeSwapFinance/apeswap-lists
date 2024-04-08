@@ -1,5 +1,89 @@
 [
   {
+    "index": 1050,
+    "contractAddress": {
+      "56": "0x849CD6CBd4B730C01B9d529Fd0501c1BA596a0C2"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "AIT",
+      "address": {
+        "56": "0x5F113F7ef20Ff111FD130e83D8e97Fd1E0E2518F"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "AIT-BNB",
+      "address": {
+        "56": "0x84DBc37BE759d222725c193C27694f405a16896a"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "getLpUrl": {
+        "56": "https://pancakeswap.finance/v2/add/BNB/0x5F113F7ef20Ff111FD130e83D8e97Fd1E0E2518F"
+      }
+    },
+    "earnToken": {
+      "symbol": "AIT",
+      "address": {
+        "56": "0x5F113F7ef20Ff111FD130e83D8e97Fd1E0E2518F"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://aimalls.app/",
+    "twitter": "https://twitter.com/ai_malls",
+    "audit": "https://skynet.certik.com/projects/aimalls",
+    "initTime": {
+      "56": 1712235600
+    },
+    "initPrice": {
+      "56": 0.000119256747804887
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["AI"],
+    "fullDescription": "AiMalls is the first tokenized E-commerce platform, registered with the SEC in the Philippines, certified by CertiK, and powered by state-of-the-art Artificial Intelligence, underpinned by its utility token AIT. AiMalls aims to curate personalized shopping experiences, fostering a dynamic and inclusive virtual retail environment. It serves as a bridge connecting global buyers and sellers, harnessing AI and advanced technologies to deliver seamlessly tailored shopping journeys that cater to individual customers'preferences and requirements."
+  },
+  {
     "index": 1049,
     "contractAddress": {
       "56": "0x6245BCb318e6c6582ebfdD8E24DB7E717e5066dd"
@@ -3345,7 +3429,7 @@
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
-    "tags": ["AI and Education"],
+    "tags": ["AI", "Education"],
     "fullDescription": "Edu3Labs is revolutionizing education through Web3 by leveraging the capabilities of AI and blockchain technology to enhance learning experiences. Users gain access to content from leading producers and can easily purchase educational materials. They can also anticipate earning significant commissions and generating consistent passive income from sales in the secondary market. Edu3Labs: strong emphasis on education with maximum benefits to its users."
   },
   {
@@ -3677,7 +3761,7 @@
       "collection": "ApeBond_Collection1"
     },
     "fullDescription": "Embark on an epic journey through galaxies and science fiction worlds. Discover exciting quests and ancient mysteries. Be the protagonist of your own adventure and forge your legend. Discover a metaverse full of possibilities in Outer Ring and Become a Space Corsaire now!",
-    "tags": ["GameFi (Play To Earn)"]
+    "tags": ["GameFi (Play to Earn)"]
   },
   {
     "index": 1032,
@@ -3977,7 +4061,7 @@
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
-    "tags": ["NFTs"],
+    "tags": ["NFT"],
     "fullDescription": "Grape NFT is the home of Grapes & $GRAPE Coin, and is backed by industry giants Animoca Brands. It’s a fun and globally appealing collection of 3,333 crafted NFTs. GRAPES has been designed to be a cross-media NFT project with gaming, animated series, merchandise and licensing. As a holder of GRAPES users will be rewarded in the commercial success of the project’s ventures both inside and outside of Web3."
   },
   {
@@ -5007,7 +5091,7 @@
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
-    "tags": ["NFTs"],
+    "tags": ["NFT"],
     "fullDescription": "Grape NFT is the home of Grapes & $GRAPE Coin, and is backed by industry giants Animoca Brands. It’s a fun and globally appealing collection of 3,333 crafted NFTs. GRAPES has been designed to be a cross-media NFT project with gaming, animated series, merchandise and licensing. As a holder of GRAPES users will be rewarded in the commercial success of the project’s ventures both inside and outside of Web3."
   },
   {
@@ -5198,7 +5282,7 @@
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
-    "tags": ["NFT Marketplace"],
+    "tags": ["NFT"],
     "fullDescription": "$HNTR Token allows users to access, trade, and interact with unique, licensed NFT firearms from globally recognized brands. As part of its thriving community, users can reap lucrative benefits from their NFT staking pools with up to 200% APY rewards. Brand partners include Barrett, ZEV Technologies, ZeroTech, and more."
   },
   {
@@ -5316,7 +5400,7 @@
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
-    "tags": ["GAMING"],
+    "tags": ["GameFi (Play to Earn)"],
     "fullDescription": "Revolve Games is reshaping Web3 gaming - addressing many of the challenges faced by blockchain gaming economies. They directly integrate playable assets into the in-game economy, achieved by tethering their assets to the RPG token. This strategy ensures a stable and robust ecosystem, less affected by external market fluctuations."
   },
   {
@@ -5398,7 +5482,7 @@
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
-    "tags": ["GAMING"],
+    "tags": ["GameFi (Play to Earn)"],
     "fullDescription": "Arcas aims to revolutionize e-sports and gaming by introducing web3 features that empower players like never before. Backed by Binance Labs Fund, they leveraged Unreal Engine 5 to create a fast paced third person competitive shooter. Their revolutionary web3 protocol blends revenue share, DAO governance, and play 2 earn functionalities."
   },
   {
@@ -6073,7 +6157,7 @@
       "collection": "ApeBond_Collection1"
     },
     "fullDescription": "Revolve Games is reshaping Web3 gaming - addressing many of the challenges faced by blockchain gaming economies. We directly integrate playable assets into the in-game economy, achieved by tethering these assets to the RPG token. This strategy ensures a stable and robust ecosystem, less affected by external market fluctuations.",
-    "tags": ["Gaming"]
+    "tags": ["GameFi (Play to Earn)"]
   },
   {
     "index": 1005,
@@ -13426,7 +13510,7 @@
     },
     "bondPartner": "QuickSwap",
     "fullDescription": "Bullieverse is your gateway to a limitless universe of Games and Social Experiences, where NFTs come alive. A Web3 native entertainment brand, Bullieverse also excels at Art & Lore, with rich storytelling, mesmerizing art, and vivid characters. It stands for a global community united by a shared passion for Web3, where users can connect with adventurers, artists, collectors, and enthusiasts worldwide.",
-    "tags": ["GameFi (Play To Earn)"]
+    "tags": ["GameFi (Play to Earn)"]
   },
   {
     "index": 136,
@@ -13522,7 +13606,7 @@
       "collection": "Quickswap_Collection1"
     },
     "bondPartner": "QuickSwap",
-    "tags": ["GameFi (Play To Earn)"],
+    "tags": ["GameFi (Play to Earn)"],
     "fullDescription": "Gensokishi is the metaverse incarnation of “Elemental Knights Online,” which won the 2012 Game of the year (Gold) in Taiwan. Utilizing blockchain technology, they aim to create a new economy within the virtual world. Purchase an MV Bond worth $20 or more to unlock an exclusive in-game <a href=\"https://twitter.com/genso_meta/status/1755246359165157634\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #6560C5\">ApeBond Shield</a>"
   },
   {
@@ -13677,7 +13761,7 @@
     },
     "bondPartner": "QuickSwap",
     "fullDescription": "NFTBooks helps to create a direct bridge between authors, readers, translators and investors with its publishing platform, where real books become NFTs! Whether it’s e-books, magazines, articles, literature or poetry, it’s all accessible, and most importantly, affordable, with NFTBooks.",
-    "tags": ["NFTs"]
+    "tags": ["NFT"]
   },
   {
     "index": 133,
@@ -13895,7 +13979,7 @@
     },
     "bondPartner": "QuickSwap",
     "fullDescription": "Veloce is an organization operating in gaming and racing. Their gaming outfit runs multiple pro-esports teams while establishing the largest racing media network—their racing teams compete in the Extreme E series as well as the W Series. At Veloce, they are innovators in gaming, racing, and technology.",
-    "tags": ["GameFi"]
+    "tags": ["GameFi (Play to Earn)"]
   },
   {
     "index": 131,
@@ -14068,7 +14152,7 @@
     },
     "bondPartner": "QuickSwap",
     "fullDescription": "Planet IX is a Web3 play-to-earn platform fueled by their native IX Token. Every asset on Planet IX is an NFT, allowing users to farm, own, and trade them. The main goal is to restore the planet to its former green-blue glory. Join Planet IX and become an Agent of Change now.",
-    "tags": ["Gaming", "NFT"]
+    "tags": ["GameFi (Play to Earn)", "NFT"]
   },
   {
     "index": 129,
@@ -14186,7 +14270,7 @@
     },
     "bondPartner": "QuickSwap",
     "fullDescription": "Planet IX is a Web3 play-to-earn platform fueled by their native IX Token. Every asset on Planet IX is an NFT, allowing users to farm, own, and trade them. The main goal is to restore the planet to its former green-blue glory. Join Planet IX and become an Agent of Change now.",
-    "tags": ["Gaming", "NFT"]
+    "tags": ["GameFi (Play to Earn)", "NFT"]
   },
   {
     "index": 128,
@@ -14282,7 +14366,7 @@
       "collection": "Quickswap_Collection1"
     },
     "bondPartner": "QuickSwap",
-    "tags": ["Gaming"],
+    "tags": ["GameFi (Play to Earn)"],
     "fullDescription": "Gensokishi is the metaverse incarnation of “Elemental Knights Online,” which won the 2012 Game of the year (Gold) in Taiwan. Utilizing blockchain technology, they aim to create a new economy within the virtual world. Purchase an MV Bond worth $20 or more to unlock an exclusive in-game <a href=\"https://twitter.com/genso_meta/status/1755246359165157634\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #6560C5\">ApeBond Shield</a>"
   },
   {
@@ -14359,7 +14443,7 @@
     },
     "bondPartner": "QuickSwap",
     "fullDescription": "Bullieverse is your gateway to a limitless universe of Games and Social Experiences, where NFTs come alive. A Web3 native entertainment brand, Bullieverse also excels at Art & Lore, with rich storytelling, mesmerizing art, and vivid characters. It stands for a global community united by a shared passion for Web3, where users can connect with adventurers, artists, collectors, and enthusiasts worldwide.",
-    "tags": ["GameFi"]
+    "tags": ["GameFi (Play to Earn)"]
   },
   {
     "index": 126,
@@ -14666,7 +14750,7 @@
     },
     "bondPartner": "QuickSwap",
     "fullDescription": "Planet IX is a Web3 play-to-earn platform fueled by their native IX Token. Every asset on Planet IX is an NFT, allowing users to farm, own, and trade them. The main goal is to restore the planet to its former green-blue glory. Join Planet IX and become an Agent of Change now.",
-    "tags": ["Gaming", "NFT"]
+    "tags": ["GameFi (Play to Earn)", "NFT"]
   },
   {
     "index": 123,
@@ -14860,7 +14944,7 @@
     },
     "bondPartner": "QuickSwap",
     "fullDescription": "The MetaTrace application is a game incorporating a variety of game mechanics aimed at combining geolocation, blockchain environments, and classic game strategies.",
-    "tags": ["Gaming"]
+    "tags": ["GameFi (Play to Earn)"]
   },
   {
     "index": 121,
@@ -14978,7 +15062,7 @@
     },
     "bondPartner": "QuickSwap",
     "fullDescription": "Planet IX is a Web3 play-to-earn platform fueled by their native IX Token. Every asset on Planet IX is an NFT, allowing users to farm, own, and trade them. The main goal is to restore the planet to its former green-blue glory. Join Planet IX and become an Agent of Change now.",
-    "tags": ["Gaming", "NFT"]
+    "tags": ["GameFi (Play to Earn)", "NFT"]
   },
   {
     "index": 120,
@@ -15074,7 +15158,7 @@
     },
     "bondPartner": "QuickSwap",
     "fullDescription": "Planet IX is a Web3 play-to-earn platform fueled by their native IX Token. Every asset on Planet IX is an NFT, allowing users to farm, own, and trade them. The main goal is to restore the planet to its former green-blue glory. Join Planet IX and become an Agent of Change now.",
-    "tags": ["Gaming", "NFT"]
+    "tags": ["GameFi (Play to Earn)", "NFT"]
   },
   {
     "index": 119,
@@ -15381,7 +15465,7 @@
     },
     "bondPartner": "QuickSwap",
     "fullDescription": "Veloce is an organization operating in gaming and racing. Their gaming outfit runs multiple pro-esports teams while establishing the largest racing media network—their racing teams compete in the Extreme E series as well as the W Series. At Veloce, they are innovators in gaming, racing, and technology.",
-    "tags": ["Gaming"]
+    "tags": ["GameFi (Play to Earn)"]
   },
   {
     "index": 116,
@@ -15689,7 +15773,7 @@
     },
     "bondPartner": "QuickSwap",
     "fullDescription": "Forest Knight is a turn-based strategy game, where players find themselves in an unknown land and need to build their team of heroes and fight against evil. Inspired by successful games, such as Heroes might and magic and clash Royal, the game combines the best of two worlds – a fun and exciting PVE RPG experience, a PVP competitive and social gameplay modes and activities as well as a decentralized item ecosystem through game items as NFTs and world-building powered with DEFI elements.",
-    "tags": ["Gaming"]
+    "tags": ["GameFi (Play to Earn)"]
   },
   {
     "index": 113,
@@ -16051,7 +16135,7 @@
       "collection": "Quickswap_Collection1"
     },
     "bondPartner": "QuickSwap",
-    "tags": ["Gaming"],
+    "tags": ["GameFi (Play to Earn)"],
     "fullDescription": "Genso is the metaverse incarnation of “Elemental Knights Online,” which won the 2012 Game of the year (Gold) in Taiwan. Utilizing blockchain technology, they aim to create a new economy within the virtual world. Web3, RPG & Metaverse are all combined within the realm of Gensokishi."
   },
   {
