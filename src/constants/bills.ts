@@ -13,7 +13,7 @@ const bills: BillsConfig[] = [
   {
     index: 1050,
     contractAddress: {
-      [ChainId.BSC]: '0x4682B55bAb46dD21db98fB713298B077E575B577', //Dummy Bond will be replaced.
+      [ChainId.BSC]: '0x849CD6CBd4B730C01B9d529Fd0501c1BA596a0C2',
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
@@ -958,7 +958,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    tags: ['AI'],
+    tags: ['AI', 'Education'],
     fullDescription:
       'Edu3Labs is revolutionizing education through Web3 by leveraging the capabilities of AI and blockchain technology to enhance learning experiences. Users gain access to content from leading producers and can easily purchase educational materials. They can also anticipate earning significant commissions and generating consistent passive income from sales in the secondary market. Edu3Labs: strong emphasis on education with maximum benefits to its users.',
   },
