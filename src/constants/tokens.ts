@@ -2770,6 +2770,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  wam: {
+    symbol: 'WAM',
+    address: {
+      [ChainId.BSC]: '0xeBBAefF6217d22E7744394061D874015709b8141',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
   cgg: {
     symbol: 'CGG',
     address: {
