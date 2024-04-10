@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1053
+// BNB Largest ID: 1054
 // Polygon Largest ID: 137
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
@@ -10,6 +10,34 @@ import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } fr
 //Migration Bonds ID: 5007
 
 const bills: BillsConfig[] = [
+  {
+    index: 1054,
+    contractAddress: {
+      [ChainId.BSC]: '0xc77aDf2d1DB92bf9EaEdC64DE72829528B56EE15',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.wam,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://wam.app/',
+    twitter: 'https://twitter.com/playWAM',
+    audit: 'https://certificate.immunebytes.com/pdf/WAM/',
+    initTime: { [ChainId.BSC]: 1712766889 },
+    initPrice: { [ChainId.BSC]: 0.007612142417922644 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['GAMEFI'],
+    fullDescription:
+      "WAM is an award-winning, Play2Earn, skill-based platform where players compete in simple tournaments for digital assets and status. Users can also create their own entertainment with AI. Having won more than five international awards, WAM's vision is to create a new kind of platform where the use of blockchain becomes easy, fun, and rewarding for everyone!",
+  },
   {
     index: 1053,
     contractAddress: {
