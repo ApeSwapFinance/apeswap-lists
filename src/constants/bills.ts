@@ -4638,7 +4638,7 @@ const bills: BillsConfig[] = [
     audit: 'https://www.borderless.money/bom_secaudit_blockapex.pdf',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.00254 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
@@ -5367,7 +5367,7 @@ const bills: BillsConfig[] = [
     },
     inactive: false,
     projectLink: 'https://www.cogitoprotocol.com/',
-    twitter: ' https://twitter.com/CogitoFi',
+    twitter: 'https://twitter.com/CogitoFi',
     audit: 'https://wp.hacken.io/wp-content/uploads/2023/05/Cogito_SC-Audit-Report_11_05_2023_SA-1337-1.pdf',
     initTime: { [ChainId.MAINNET]: 1710255600 },
     initPrice: { [ChainId.MAINNET]: 0.00173967992950712 },
