@@ -3,7 +3,7 @@ import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
 // BNB Largest ID: 1054
-// Polygon Largest ID: 137
+// Polygon Largest ID: 138
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
 // ETH Largest ID: 3009
@@ -3939,6 +3939,34 @@ const bills: BillsConfig[] = [
   /*
     Polygon Bills
   */
+  {
+    index: 138,
+    contractAddress: {
+      [ChainId.MATIC]: '0x2FA2fC00252c8DDD88bb5699c6a06A4c62D8402B',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.ixt,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://planetix.com/',
+    twitter: 'https://twitter.com/Planetix0',
+    initTime: { [ChainId.MATIC]: 1701892800 },
+    initPrice: { [ChainId.MATIC]: 0.347018667988457 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.PlanetIX_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+    fullDescription:
+      'Planet IX is a Web3 play-to-earn platform fueled by their native IX Token. Every asset on Planet IX is an NFT, allowing users to farm, own, and trade them. The main goal is to restore the planet to its former green-blue glory. Join Planet IX and become an Agent of Change now.',
+    tags: ['GAMEFI'],
+  },
   {
     index: 137,
     contractAddress: {
