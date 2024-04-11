@@ -16311,7 +16311,7 @@
     "initPrice": {
       "137": 0.00254
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "Quickswap_Collection1"
     },
@@ -18851,7 +18851,7 @@
     },
     "inactive": false,
     "projectLink": "https://www.cogitoprotocol.com/",
-    "twitter": " https://twitter.com/CogitoFi",
+    "twitter": "https://twitter.com/CogitoFi",
     "audit": "https://wp.hacken.io/wp-content/uploads/2023/05/Cogito_SC-Audit-Report_11_05_2023_SA-1337-1.pdf",
     "initTime": {
       "1": 1710255600
