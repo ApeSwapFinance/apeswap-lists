@@ -136,7 +136,7 @@ const launchProjects: LaunchProjectConfig[] = [
     initialRelease: 100,
     bonds: [
       {
-        index: 0,
+        index: 4,
         contractAddress: {
           [ChainId.BSC]: '0x34F2B183C2556aFdD250f3F70a1eDeF3221c1Ccb', // oversubscription
         },

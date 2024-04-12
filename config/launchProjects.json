@@ -282,7 +282,7 @@
     "initialRelease": 100,
     "bonds": [
       {
-        "index": 0,
+        "index": 4,
         "contractAddress": {
           "56": "0x34F2B183C2556aFdD250f3F70a1eDeF3221c1Ccb"
         },
