@@ -5,6 +5,7 @@ import tokens from './tokens'
 const launchProjects: LaunchProjectConfig[] = [
   {
     index: 0,
+    finished: true,
     projectId: 'sugar-kingdom',
     projectName: 'Sugar Kingdom Odyssey',
     saleStartTime: 'March 29th',
