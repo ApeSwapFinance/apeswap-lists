@@ -44,6 +44,16 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  aitm: {
+    symbol: 'AITM',
+    address: {
+      [ChainId.BSC]: '0x99870080894626DcE15216ef0FBb5f3Bc1016B0E',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+  },
   gnana: {
     symbol: 'GNANA',
     address: {
