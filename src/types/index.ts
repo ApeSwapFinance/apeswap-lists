@@ -125,6 +125,7 @@ export interface LaunchProjectConfig {
   bonds: LaunchBondConfig[]
   saleStartTime: string
   totalAllocation: string
+  initialRelease: number
   projectInfo: {
     shortDescription: string
     fullDescription: string

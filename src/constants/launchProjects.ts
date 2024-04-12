@@ -9,6 +9,7 @@ const launchProjects: LaunchProjectConfig[] = [
     projectName: 'Sugar Kingdom Odyssey',
     saleStartTime: 'March 29th',
     totalAllocation: '791,649 SKO',
+    initialRelease: 16,
     bonds: [
       {
         index: 0,
