@@ -279,6 +279,7 @@
     "projectName": "Sugar Kingdom Odyssey",
     "saleStartTime": "March 29th",
     "totalAllocation": "791,649 SKO",
+    "initialRelease": 100,
     "bonds": [
       {
         "index": 0,
@@ -298,6 +299,16 @@
             "56": 18,
             "97": 18,
             "137": 18
+          },
+          "active": true
+        },
+        "earnToken": {
+          "symbol": "AITM",
+          "address": {
+            "56": "0x99870080894626DcE15216ef0FBb5f3Bc1016B0E"
+          },
+          "decimals": {
+            "56": 18
           },
           "active": true
         },
