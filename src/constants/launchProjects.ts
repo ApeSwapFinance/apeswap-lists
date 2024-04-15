@@ -7,7 +7,7 @@ const launchProjects: LaunchProjectConfig[] = [
     index: 0,
     projectId: 'sugar-kingdom',
     projectName: 'Sugar Kingdom Odyssey',
-    saleStartTime: 'March 29th',
+    saleStartTime: 'March 29th 17:00 UTC',
     totalAllocation: '791,649 SKO',
     bonds: [
       {
@@ -29,6 +29,9 @@ const launchProjects: LaunchProjectConfig[] = [
         },
         finishTime: {
           [ChainId.BSC]: 1711789200,
+        },
+        startVestingTimestamp: {
+          [ChainId.BSC]: 1712067300,
         },
         initPrice: {
           [ChainId.BSC]: 0.06,
@@ -55,6 +58,9 @@ const launchProjects: LaunchProjectConfig[] = [
         finishTime: {
           [ChainId.BSC]: 1711746000,
         },
+        startVestingTimestamp: {
+          [ChainId.BSC]: 1712067300,
+        },
         initPrice: {
           [ChainId.BSC]: 0.06,
         },
@@ -80,6 +86,9 @@ const launchProjects: LaunchProjectConfig[] = [
         finishTime: {
           [ChainId.BSC]: 1711746000,
         },
+        startVestingTimestamp: {
+          [ChainId.BSC]: 1712067300,
+        },
         initPrice: {
           [ChainId.BSC]: 0.06,
         },
@@ -104,6 +113,9 @@ const launchProjects: LaunchProjectConfig[] = [
         },
         finishTime: {
           [ChainId.BSC]: 1711746000,
+        },
+        startVestingTimestamp: {
+          [ChainId.BSC]: 1712067300,
         },
         initPrice: {
           [ChainId.BSC]: 0.06,
@@ -147,10 +159,16 @@ const launchProjects: LaunchProjectConfig[] = [
     projectId: 'catamoto',
     projectName: 'Catamoto',
     saleStartTime: 'April 16th 17:00 UTC',
-    totalAllocation: '200,000,000 CATA',
+    totalAllocation: '200M CATA',
     projectInfo: {
-      shortDescription: 'CATA short description.',
-      fullDescription: 'CATA long description.',
+      shortDescription:
+        'Catamoto is not just another memecoin; it’s a stride towards redefining the genre. With $CATA, Catamoto employs superior cat math to establish the most sophisticated smart contract to date. This initiative is backed by the Illu-meow-nati, a secretive group of cats with ambitions of discreetly guiding global events.',
+      fullDescription:
+        'Catamoto is not just another memecoin; it’s a stride towards redefining the genre. With $CATA, Catamoto employs superior cat math to establish the most sophisticated smart contract to date. This initiative is backed by the Illu-meow-nati, a secretive group of cats with ambitions of discreetly guiding global events.<br/><br/>\n' +
+        '\n' +
+        'We are excited to embark on this journey with Catamoto, confident that $CATA will not only capture the imagination of the crypto community but also bring fresh innovation and spirited engagement. The ApeBond Launchpad continues to be a platform for launching high-quality projects, and the partnership with Catamoto reaffirms our commitment to excellence and community-driven success.<br/><br/>\n' +
+        '\n' +
+        '$CATA will be listing on PancakeSwap on April 19th at 11:00 UTC.',
       tags: ['Memecoin'],
       socials: {
         discord: 'https://www.catamoto.cat/',
@@ -174,31 +192,6 @@ const launchProjects: LaunchProjectConfig[] = [
     },
     bonds: [
       {
-        index: 4,
-        contractAddress: {
-          [ChainId.BSC]: '0x2B24418aFC1068898a8Fd4Eec48265F847a2C9C9', // oversubscription gold - testing
-        },
-        billVersion: BillVersion.TieredSale,
-        billType: 'oversubscription',
-        token: tokens.wbnb,
-        earnToken: tokens.fitm,
-        billNnftAddress: {
-          [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
-        },
-        soldOut: false,
-        billArt: { collection: BillArtCollection.ApeBond_Collection1 },
-        initTime: {
-          [ChainId.BSC]: 1713204000,
-        },
-        finishTime: {
-          [ChainId.BSC]: 1713232800,
-        },
-        initPrice: {
-          [ChainId.BSC]: 0.0005531,
-        },
-        initialRelease: 100,
-      },
-      {
         index: 5,
         contractAddress: {
           [ChainId.BSC]: '0x48DCaCA4D444C8C89ef595746eb6B2875b74aA58', // oversubscription diamond - testing
@@ -213,10 +206,13 @@ const launchProjects: LaunchProjectConfig[] = [
         soldOut: false,
         billArt: { collection: BillArtCollection.ApeBond_Collection1 },
         initTime: {
-          [ChainId.BSC]: 1713204000,
+          [ChainId.BSC]: 1713286800,
         },
         finishTime: {
-          [ChainId.BSC]: 1713232800,
+          [ChainId.BSC]: 1713315600,
+        },
+        startVestingTimestamp: {
+          [ChainId.BSC]: 1713524400,
         },
         initPrice: {
           [ChainId.BSC]: 0.0005531,
@@ -238,10 +234,13 @@ const launchProjects: LaunchProjectConfig[] = [
         soldOut: false,
         billArt: { collection: BillArtCollection.ApeBond_Collection1 },
         initTime: {
-          [ChainId.BSC]: 1713204000,
+          [ChainId.BSC]: 1713344400,
         },
         finishTime: {
-          [ChainId.BSC]: 1713232800,
+          [ChainId.BSC]: 1713373200,
+        },
+        startVestingTimestamp: {
+          [ChainId.BSC]: 1713524400,
         },
         initPrice: {
           [ChainId.BSC]: 0.0005531,
