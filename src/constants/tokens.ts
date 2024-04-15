@@ -54,6 +54,16 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  fitm: {
+    symbol: 'FITM',
+    address: {
+      [ChainId.BSC]: '0xE51072f493e9a0b40E468F2EB4686458aCd47a8D',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+  },
   gnana: {
     symbol: 'GNANA',
     address: {

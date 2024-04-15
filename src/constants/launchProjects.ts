@@ -9,7 +9,6 @@ const launchProjects: LaunchProjectConfig[] = [
     projectName: 'Sugar Kingdom Odyssey',
     saleStartTime: 'March 29th',
     totalAllocation: '791,649 SKO',
-    initialRelease: 16,
     bonds: [
       {
         index: 0,
@@ -31,6 +30,7 @@ const launchProjects: LaunchProjectConfig[] = [
         initPrice: {
           [ChainId.BSC]: 0.06,
         },
+        initialRelease: 16,
       },
       {
         index: 1,
@@ -52,6 +52,7 @@ const launchProjects: LaunchProjectConfig[] = [
         initPrice: {
           [ChainId.BSC]: 0.06,
         },
+        initialRelease: 16,
       },
       {
         index: 2,
@@ -73,6 +74,7 @@ const launchProjects: LaunchProjectConfig[] = [
         initPrice: {
           [ChainId.BSC]: 0.06,
         },
+        initialRelease: 16,
       },
       {
         index: 3,
@@ -94,6 +96,7 @@ const launchProjects: LaunchProjectConfig[] = [
         initPrice: {
           [ChainId.BSC]: 0.06,
         },
+        initialRelease: 16,
       },
     ],
     projectInfo: {
@@ -133,7 +136,6 @@ const launchProjects: LaunchProjectConfig[] = [
     projectName: 'Sugar Kingdom Odyssey',
     saleStartTime: 'March 29th',
     totalAllocation: '791,649 SKO',
-    initialRelease: 100,
     bonds: [
       {
         index: 4,
@@ -155,6 +157,7 @@ const launchProjects: LaunchProjectConfig[] = [
         initPrice: {
           [ChainId.BSC]: 0.06,
         },
+        initialRelease: 100,
       },
     ],
     projectInfo: {

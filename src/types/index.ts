@@ -125,7 +125,6 @@ export interface LaunchProjectConfig {
   bonds: LaunchBondConfig[]
   saleStartTime: string
   totalAllocation: string
-  initialRelease: number
   projectInfo: {
     shortDescription: string
     fullDescription: string
@@ -166,6 +165,7 @@ export interface LaunchBondConfig {
   }
   initTime: Partial<Record<ChainId, number>>
   initPrice: Partial<Record<ChainId, number>>
+  initialRelease: number
 }
 
 export enum LaunchBondTiers {
