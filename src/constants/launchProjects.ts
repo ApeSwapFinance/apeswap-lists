@@ -164,22 +164,66 @@ const launchProjects: LaunchProjectConfig[] = [
       {
         index: 4,
         contractAddress: {
-          [ChainId.BSC]: '0x34F2B183C2556aFdD250f3F70a1eDeF3221c1Ccb', // oversubscription
+          [ChainId.BSC]: '0x2B24418aFC1068898a8Fd4Eec48265F847a2C9C9', // oversubscription gold - testing
         },
         billVersion: BillVersion.TieredSale,
         billType: 'oversubscription',
         token: tokens.wbnb,
-        earnToken: tokens.aitm,
+        earnToken: tokens.fitm,
         billNnftAddress: {
           [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
         },
         soldOut: false,
         billArt: { collection: BillArtCollection.ApeBond_Collection1 },
         initTime: {
-          [ChainId.BSC]: 1711731600,
+          [ChainId.BSC]: 1713204000,
         },
         initPrice: {
-          [ChainId.BSC]: 0.06,
+          [ChainId.BSC]: 0.0005531,
+        },
+        initialRelease: 100,
+      },
+      {
+        index: 5,
+        contractAddress: {
+          [ChainId.BSC]: '0x48DCaCA4D444C8C89ef595746eb6B2875b74aA58', // oversubscription diamond - testing
+        },
+        billVersion: BillVersion.TieredSale,
+        billType: 'oversubscription',
+        token: tokens.wbnb,
+        earnToken: tokens.fitm,
+        billNnftAddress: {
+          [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+        },
+        soldOut: false,
+        billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+        initTime: {
+          [ChainId.BSC]: 1713204000,
+        },
+        initPrice: {
+          [ChainId.BSC]: 0.0005531,
+        },
+        initialRelease: 100,
+      },
+      {
+        index: 6,
+        contractAddress: {
+          [ChainId.BSC]: '0x10daD94aD106fa110eb15246E58d04d201348962', // fcfs - testing
+        },
+        billVersion: BillVersion.TieredSale,
+        billType: 'fcfs',
+        token: tokens.wbnb,
+        earnToken: tokens.fitm,
+        billNnftAddress: {
+          [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+        },
+        soldOut: false,
+        billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+        initTime: {
+          [ChainId.BSC]: 1713204000,
+        },
+        initPrice: {
+          [ChainId.BSC]: 0.0005531,
         },
         initialRelease: 100,
       },
