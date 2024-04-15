@@ -1,7 +1,6 @@
 [
   {
     "index": 1,
-    "stage": "upcoming",
     "projectId": "catamoto",
     "projectName": "Catamoto",
     "saleStartTime": "April 16th 17:00 UTC",
@@ -275,7 +274,6 @@
   },
   {
     "index": 0,
-    "stage": "finished",
     "projectId": "sugar-kingdom",
     "projectName": "Sugar Kingdom Odyssey",
     "saleStartTime": "March 29th 17:00 UTC",
