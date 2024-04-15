@@ -132,10 +132,34 @@ const launchProjects: LaunchProjectConfig[] = [
   },
   {
     index: 1,
-    projectId: 'asdjhkjasfh',
-    projectName: 'Sugar Kingdom Odyssey',
-    saleStartTime: 'March 29th',
-    totalAllocation: '791,649 SKO',
+    projectId: 'catamoto',
+    projectName: 'Catamoto',
+    saleStartTime: 'April 16th 17:00 UTC',
+    totalAllocation: '200,000,000 CATA',
+    projectInfo: {
+      shortDescription: 'CATA short description.',
+      fullDescription: 'CATA long description.',
+      tags: ['Memecoin'],
+      socials: {
+        discord: 'https://www.catamoto.cat/',
+        twitter: 'https://twitter.com/4catamoto',
+        teaserVideo: '',
+        tokenomicsURL: 'https://www.catamoto.cat/',
+        website: 'https://www.catamoto.cat/',
+        whitepaper: 'https://www.catamoto.cat/ ',
+      },
+      images: {
+        launchpadImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1713168964/catamoto-launchpad_yw65qy.png',
+        launchpadIcon: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1710785149/iconimg_onrbvl.png',
+        headerImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1712925244/catamoto-header_disbvc.png',
+        headerImgMobile: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1710793424/headerImgMobile_bkq6ly.png',
+        websiteImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1712925690/catamoto-website_os3vsk.png',
+        whitepaperImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1711176294/whitepaper_jxhqpa.png',
+        partnersImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1712925683/catamoto-partners_l6pwss.png',
+        tokenomicsImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1712926384/catamoto-tokenomics_e9yoyz.png',
+        teaserImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1712925882/catamoto-teaser_hnhjuq.png',
+      },
+    },
     bonds: [
       {
         index: 4,
@@ -160,36 +184,6 @@ const launchProjects: LaunchProjectConfig[] = [
         initialRelease: 100,
       },
     ],
-    projectInfo: {
-      shortDescription:
-        'Sugar Kingdom Odyssey revolutionizes gaming with a utility tool for BRC20 tokens and altcoins, developed by Apes Int Group, the brains behind projects like Decentraland and The Sandbox. This platform supports high-quality projects, enhancing them with a dynamic gaming ecosystem. Highlighting a significant milestone, the platform anticipates a token sale with an IMC of $400,000 and a TGE slated for the end of March, setting the stage for a promising future.',
-      fullDescription:
-        'Sugar Kingdom Odyssey is a utility tool for BRC20 tokens and altcoins that enable high-quality projects to use their tokens within a gaming platform. Crafted with the expertise of Apes Int Group, known for their work on Decentraland, The Sandbox, and Gearbox Entertainment, their platform breathes life into high-quality projects, allowing them to flourish within a dynamic gaming ecosystem. Supported by industry-leading advisors from Friend3, GT Protocol, LandVault, and Genesis Capital, they pride themselves on a vibrant community and network with over 40 esteemed partners including DeChat, Patex, and many more joining their quest.<br/><br/>\n' +
-        '\n' +
-        'Strategic investments from notable entities such as Peech Capital and Mario Nawfal have bolstered their journey, with more significant milestones on the horizon. These include a token sale with an Initial Market Cap (IMC) of $400,000 and their Token Generation Event (TGE) anticipated by the end of March, setting the stage for a promising future.<br/><br/>\n' +
-        '\n' +
-        'Mark your calendars, and make sure you don’t miss their $SKO sale on the ApeBond Launchpad!',
-      tags: ['GameFi'],
-      socials: {
-        discord: 'https://discord.gg/sugar-kingdom ',
-        twitter: 'https://twitter.com/SugarKingdomNFT',
-        teaserVideo: '',
-        tokenomicsURL: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1711723872/tokenomics_zleldx.png',
-        website: 'https://sugarkingdom.io/',
-        whitepaper: 'https://docs.sugarkingdom.io/ ',
-      },
-      images: {
-        launchpadImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1710783703/launchpadBigImg_cfbcl5.png',
-        launchpadIcon: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1710785149/iconimg_onrbvl.png',
-        headerImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1710781826/sugar_header_img.png',
-        headerImgMobile: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1710793424/headerImgMobile_bkq6ly.png',
-        websiteImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1710784075/websiteImg_tphyqj.png',
-        whitepaperImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1711176294/whitepaper_jxhqpa.png',
-        partnersImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1711176291/partners_wabbyh.png',
-        tokenomicsImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1711082095/tokenomics_wc4axv.png',
-        teaserImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1711176293/teaser_zqh6gj.png',
-      },
-    },
   },
 ]
 
