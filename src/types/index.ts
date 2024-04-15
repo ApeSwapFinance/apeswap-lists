@@ -120,7 +120,6 @@ export type MigrationVestingTermType = typeof MigrationVestingTerms[keyof typeof
 
 export interface LaunchProjectConfig {
   index: number
-  stage: string
   projectId: string // this should be unique!
   projectName: string
   bonds: LaunchBondConfig[]

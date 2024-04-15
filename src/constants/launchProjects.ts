@@ -5,7 +5,6 @@ import tokens from './tokens'
 const launchProjects: LaunchProjectConfig[] = [
   {
     index: 1,
-    stage: 'upcoming',
     projectId: 'catamoto',
     projectName: 'Catamoto',
     saleStartTime: 'April 16th 17:00 UTC',
@@ -123,7 +122,6 @@ const launchProjects: LaunchProjectConfig[] = [
   },
   {
     index: 0,
-    stage: 'finished',
     projectId: 'sugar-kingdom',
     projectName: 'Sugar Kingdom Odyssey',
     saleStartTime: 'March 29th 17:00 UTC',
