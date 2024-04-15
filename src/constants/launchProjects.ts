@@ -27,6 +27,9 @@ const launchProjects: LaunchProjectConfig[] = [
         initTime: {
           [ChainId.BSC]: 1711731600,
         },
+        finishTime: {
+          [ChainId.BSC]: 1711789200,
+        },
         initPrice: {
           [ChainId.BSC]: 0.06,
         },
@@ -48,6 +51,9 @@ const launchProjects: LaunchProjectConfig[] = [
         billArt: { collection: BillArtCollection.ApeBond_Collection1 },
         initTime: {
           [ChainId.BSC]: 1711731600,
+        },
+        finishTime: {
+          [ChainId.BSC]: 1711746000,
         },
         initPrice: {
           [ChainId.BSC]: 0.06,
@@ -71,6 +77,9 @@ const launchProjects: LaunchProjectConfig[] = [
         initTime: {
           [ChainId.BSC]: 1711731600,
         },
+        finishTime: {
+          [ChainId.BSC]: 1711746000,
+        },
         initPrice: {
           [ChainId.BSC]: 0.06,
         },
@@ -92,6 +101,9 @@ const launchProjects: LaunchProjectConfig[] = [
         billArt: { collection: BillArtCollection.ApeBond_Collection1 },
         initTime: {
           [ChainId.BSC]: 1711731600,
+        },
+        finishTime: {
+          [ChainId.BSC]: 1711746000,
         },
         initPrice: {
           [ChainId.BSC]: 0.06,
@@ -178,6 +190,9 @@ const launchProjects: LaunchProjectConfig[] = [
         initTime: {
           [ChainId.BSC]: 1713204000,
         },
+        finishTime: {
+          [ChainId.BSC]: 1713232800,
+        },
         initPrice: {
           [ChainId.BSC]: 0.0005531,
         },
@@ -200,6 +215,9 @@ const launchProjects: LaunchProjectConfig[] = [
         initTime: {
           [ChainId.BSC]: 1713204000,
         },
+        finishTime: {
+          [ChainId.BSC]: 1713232800,
+        },
         initPrice: {
           [ChainId.BSC]: 0.0005531,
         },
@@ -221,6 +239,9 @@ const launchProjects: LaunchProjectConfig[] = [
         billArt: { collection: BillArtCollection.ApeBond_Collection1 },
         initTime: {
           [ChainId.BSC]: 1713204000,
+        },
+        finishTime: {
+          [ChainId.BSC]: 1713232800,
         },
         initPrice: {
           [ChainId.BSC]: 0.0005531,

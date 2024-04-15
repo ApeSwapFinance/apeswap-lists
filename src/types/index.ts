@@ -163,7 +163,8 @@ export interface LaunchBondConfig {
   billArt: {
     collection: BillArtCollection
   }
-  initTime: Partial<Record<ChainId, number>>
+  initTime: Partial<Record<ChainId, number>> // timestamp the sale starts
+  finishTime: Partial<Record<ChainId, number>> // timestamp the sale finished (i.e. IT IS NOT START VESTING TIMESTAMP)
   initPrice: Partial<Record<ChainId, number>>
   initialRelease: number
 }
