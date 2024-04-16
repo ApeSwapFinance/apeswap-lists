@@ -2636,6 +2636,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  cata: {
+    symbol: 'CATA',
+    address: {
+      [ChainId.BSC]: '0x4B360c05860C3d0040eBA90F00870FbfE9Bc61B8',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.External,
+    },
+    active: true,
+  },
   tifi: {
     symbol: 'TIFI',
     address: {
