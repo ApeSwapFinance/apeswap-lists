@@ -194,25 +194,25 @@ const launchProjects: LaunchProjectConfig[] = [
       {
         index: 4,
         contractAddress: {
-          [ChainId.BSC]: '0xd5d56b28DBC5f07e83625447FEeC33A13cf2B709', // oversubscription silver - testing
+          [ChainId.BSC]: '0x6347AE19F673141D9C322EeB6AB72c30f860d40A', // oversubscription silver
         },
         billVersion: BillVersion.TieredSale,
         billType: 'oversubscription',
         token: tokens.wbnb,
-        earnToken: tokens.fitm,
+        earnToken: tokens.cata,
         billNnftAddress: {
           [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
         },
         soldOut: false,
         billArt: { collection: BillArtCollection.ApeBond_Collection1 },
         initTime: {
-          [ChainId.BSC]: 1713265200,
+          [ChainId.BSC]: 1713286800,
         },
         finishTime: {
-          [ChainId.BSC]: 1713268800,
+          [ChainId.BSC]: 1713315600,
         },
         startVestingTimestamp: {
-          [ChainId.BSC]: 1713268800,
+          [ChainId.BSC]: 1713524400,
         },
         initPrice: {
           [ChainId.BSC]: 0.0005531,
@@ -222,25 +222,25 @@ const launchProjects: LaunchProjectConfig[] = [
       {
         index: 5,
         contractAddress: {
-          [ChainId.BSC]: '0x38A5C612d7c28b2f1D46ED62Ae5F34a601EE3024', // oversubscription gold - testing
+          [ChainId.BSC]: '0x8acEE1D1d8646FC3F3039D6732D0ec4AAB28231F', // oversubscription gold
         },
         billVersion: BillVersion.TieredSale,
         billType: 'oversubscription',
         token: tokens.wbnb,
-        earnToken: tokens.fitm,
+        earnToken: tokens.cata,
         billNnftAddress: {
           [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
         },
         soldOut: false,
         billArt: { collection: BillArtCollection.ApeBond_Collection1 },
         initTime: {
-          [ChainId.BSC]: 1713265200,
+          [ChainId.BSC]: 1713286800,
         },
         finishTime: {
-          [ChainId.BSC]: 1713268800,
+          [ChainId.BSC]: 1713315600,
         },
         startVestingTimestamp: {
-          [ChainId.BSC]: 1713268800,
+          [ChainId.BSC]: 1713524400,
         },
         initPrice: {
           [ChainId.BSC]: 0.0005531,
@@ -250,25 +250,25 @@ const launchProjects: LaunchProjectConfig[] = [
       {
         index: 6,
         contractAddress: {
-          [ChainId.BSC]: '0x63Df5ff7CDE133E3925FB18D225a3fDb1DcE5207', // oversubscription diamond - testing
+          [ChainId.BSC]: '0x1346993A60D56E996D263086dAf8d4063752BC96', // oversubscription diamond
         },
         billVersion: BillVersion.TieredSale,
         billType: 'oversubscription',
         token: tokens.wbnb,
-        earnToken: tokens.fitm,
+        earnToken: tokens.cata,
         billNnftAddress: {
           [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
         },
         soldOut: false,
         billArt: { collection: BillArtCollection.ApeBond_Collection1 },
         initTime: {
-          [ChainId.BSC]: 1713265200,
+          [ChainId.BSC]: 1713286800,
         },
         finishTime: {
-          [ChainId.BSC]: 1713268800,
+          [ChainId.BSC]: 1713315600,
         },
         startVestingTimestamp: {
-          [ChainId.BSC]: 1713268800,
+          [ChainId.BSC]: 1713524400,
         },
         initPrice: {
           [ChainId.BSC]: 0.0005531,
@@ -278,25 +278,25 @@ const launchProjects: LaunchProjectConfig[] = [
       {
         index: 7,
         contractAddress: {
-          [ChainId.BSC]: '0xCe33E309D7f3B6376DF26E991De8D4D456bdf0ae', // fcfs - testing
+          [ChainId.BSC]: '0xC6eac1f8bcF983AdcD1Dca1b8E5bbcAa305F2833', // fcfs
         },
         billVersion: BillVersion.TieredSale,
         billType: 'fcfs',
         token: tokens.wbnb,
-        earnToken: tokens.fitm,
+        earnToken: tokens.cata,
         billNnftAddress: {
           [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
         },
         soldOut: false,
         billArt: { collection: BillArtCollection.ApeBond_Collection1 },
         initTime: {
-          [ChainId.BSC]: 1713270600,
+          [ChainId.BSC]: 1713344400,
         },
         finishTime: {
-          [ChainId.BSC]: 1713272400,
+          [ChainId.BSC]: 1713373200,
         },
         startVestingTimestamp: {
-          [ChainId.BSC]: 1713272400,
+          [ChainId.BSC]: 1713524400,
         },
         initPrice: {
           [ChainId.BSC]: 0.0005531,

@@ -334,7 +334,7 @@
       {
         "index": 4,
         "contractAddress": {
-          "56": "0xd5d56b28DBC5f07e83625447FEeC33A13cf2B709"
+          "56": "0x6347AE19F673141D9C322EeB6AB72c30f860d40A"
         },
         "billVersion": "TieredSale",
         "billType": "oversubscription",
@@ -353,12 +353,15 @@
           "active": true
         },
         "earnToken": {
-          "symbol": "FITM",
+          "symbol": "CATA",
           "address": {
-            "56": "0xE51072f493e9a0b40E468F2EB4686458aCd47a8D"
+            "56": "0x4B360c05860C3d0040eBA90F00870FbfE9Bc61B8"
           },
           "decimals": {
             "56": 18
+          },
+          "liquidityDex": {
+            "56": "External"
           },
           "active": true
         },
@@ -370,13 +373,13 @@
           "collection": "ApeBond_Collection1"
         },
         "initTime": {
-          "56": 1713265200
+          "56": 1713286800
         },
         "finishTime": {
-          "56": 1713268800
+          "56": 1713315600
         },
         "startVestingTimestamp": {
-          "56": 1713268800
+          "56": 1713524400
         },
         "initPrice": {
           "56": 0.0005531
@@ -386,7 +389,7 @@
       {
         "index": 5,
         "contractAddress": {
-          "56": "0x38A5C612d7c28b2f1D46ED62Ae5F34a601EE3024"
+          "56": "0x8acEE1D1d8646FC3F3039D6732D0ec4AAB28231F"
         },
         "billVersion": "TieredSale",
         "billType": "oversubscription",
@@ -405,12 +408,15 @@
           "active": true
         },
         "earnToken": {
-          "symbol": "FITM",
+          "symbol": "CATA",
           "address": {
-            "56": "0xE51072f493e9a0b40E468F2EB4686458aCd47a8D"
+            "56": "0x4B360c05860C3d0040eBA90F00870FbfE9Bc61B8"
           },
           "decimals": {
             "56": 18
+          },
+          "liquidityDex": {
+            "56": "External"
           },
           "active": true
         },
@@ -422,13 +428,13 @@
           "collection": "ApeBond_Collection1"
         },
         "initTime": {
-          "56": 1713265200
+          "56": 1713286800
         },
         "finishTime": {
-          "56": 1713268800
+          "56": 1713315600
         },
         "startVestingTimestamp": {
-          "56": 1713268800
+          "56": 1713524400
         },
         "initPrice": {
           "56": 0.0005531
@@ -438,7 +444,7 @@
       {
         "index": 6,
         "contractAddress": {
-          "56": "0x63Df5ff7CDE133E3925FB18D225a3fDb1DcE5207"
+          "56": "0x1346993A60D56E996D263086dAf8d4063752BC96"
         },
         "billVersion": "TieredSale",
         "billType": "oversubscription",
@@ -457,12 +463,15 @@
           "active": true
         },
         "earnToken": {
-          "symbol": "FITM",
+          "symbol": "CATA",
           "address": {
-            "56": "0xE51072f493e9a0b40E468F2EB4686458aCd47a8D"
+            "56": "0x4B360c05860C3d0040eBA90F00870FbfE9Bc61B8"
           },
           "decimals": {
             "56": 18
+          },
+          "liquidityDex": {
+            "56": "External"
           },
           "active": true
         },
@@ -474,13 +483,13 @@
           "collection": "ApeBond_Collection1"
         },
         "initTime": {
-          "56": 1713265200
+          "56": 1713286800
         },
         "finishTime": {
-          "56": 1713268800
+          "56": 1713315600
         },
         "startVestingTimestamp": {
-          "56": 1713268800
+          "56": 1713524400
         },
         "initPrice": {
           "56": 0.0005531
@@ -490,7 +499,7 @@
       {
         "index": 7,
         "contractAddress": {
-          "56": "0xCe33E309D7f3B6376DF26E991De8D4D456bdf0ae"
+          "56": "0xC6eac1f8bcF983AdcD1Dca1b8E5bbcAa305F2833"
         },
         "billVersion": "TieredSale",
         "billType": "fcfs",
@@ -509,12 +518,15 @@
           "active": true
         },
         "earnToken": {
-          "symbol": "FITM",
+          "symbol": "CATA",
           "address": {
-            "56": "0xE51072f493e9a0b40E468F2EB4686458aCd47a8D"
+            "56": "0x4B360c05860C3d0040eBA90F00870FbfE9Bc61B8"
           },
           "decimals": {
             "56": 18
+          },
+          "liquidityDex": {
+            "56": "External"
           },
           "active": true
         },
@@ -526,13 +538,13 @@
           "collection": "ApeBond_Collection1"
         },
         "initTime": {
-          "56": 1713270600
+          "56": 1713344400
         },
         "finishTime": {
-          "56": 1713272400
+          "56": 1713373200
         },
         "startVestingTimestamp": {
-          "56": 1713272400
+          "56": 1713524400
         },
         "initPrice": {
           "56": 0.0005531
