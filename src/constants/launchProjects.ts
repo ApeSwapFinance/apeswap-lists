@@ -171,12 +171,12 @@ const launchProjects: LaunchProjectConfig[] = [
         '$CATA will be listing on PancakeSwap on April 19th at 11:00 UTC.',
       tags: ['Memecoin'],
       socials: {
-        discord: 'https://www.catamoto.cat/',
         twitter: 'https://twitter.com/4catamoto',
         teaserVideo: 'https://vimeo.com/934963773',
         tokenomicsURL: 'https://www.catamoto.cat/',
         website: 'https://www.catamoto.cat/',
         whitepaper: 'https://www.catamoto.cat/ ',
+        telegram: 'https://t.me/Catamoto',
       },
       images: {
         launchpadImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1713168964/catamoto-launchpad_yw65qy.png',
