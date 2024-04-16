@@ -131,11 +131,12 @@ export interface LaunchProjectConfig {
     tags: string[]
     socials: {
       twitter: string
-      discord: string
+      discord?: string
       website: string
       whitepaper: string
       tokenomicsURL: string
       teaserVideo: string
+      telegram?: string
     }
     images: {
       launchpadImg: string
