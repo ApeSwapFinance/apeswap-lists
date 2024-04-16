@@ -192,9 +192,9 @@ const launchProjects: LaunchProjectConfig[] = [
     },
     bonds: [
       {
-        index: 5,
+        index: 4,
         contractAddress: {
-          [ChainId.BSC]: '0x48DCaCA4D444C8C89ef595746eb6B2875b74aA58', // oversubscription diamond - testing
+          [ChainId.BSC]: '0xd5d56b28DBC5f07e83625447FEeC33A13cf2B709', // oversubscription silver - testing
         },
         billVersion: BillVersion.TieredSale,
         billType: 'oversubscription',
@@ -206,13 +206,41 @@ const launchProjects: LaunchProjectConfig[] = [
         soldOut: false,
         billArt: { collection: BillArtCollection.ApeBond_Collection1 },
         initTime: {
-          [ChainId.BSC]: 1713286800,
+          [ChainId.BSC]: 1713265200,
         },
         finishTime: {
-          [ChainId.BSC]: 1713315600,
+          [ChainId.BSC]: 1713268800,
         },
         startVestingTimestamp: {
-          [ChainId.BSC]: 1713524400,
+          [ChainId.BSC]: 1713268800,
+        },
+        initPrice: {
+          [ChainId.BSC]: 0.0005531,
+        },
+        initialRelease: 100,
+      },
+      {
+        index: 5,
+        contractAddress: {
+          [ChainId.BSC]: '0x38A5C612d7c28b2f1D46ED62Ae5F34a601EE3024', // oversubscription gold - testing
+        },
+        billVersion: BillVersion.TieredSale,
+        billType: 'oversubscription',
+        token: tokens.wbnb,
+        earnToken: tokens.fitm,
+        billNnftAddress: {
+          [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+        },
+        soldOut: false,
+        billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+        initTime: {
+          [ChainId.BSC]: 1713265200,
+        },
+        finishTime: {
+          [ChainId.BSC]: 1713268800,
+        },
+        startVestingTimestamp: {
+          [ChainId.BSC]: 1713268800,
         },
         initPrice: {
           [ChainId.BSC]: 0.0005531,
@@ -222,7 +250,35 @@ const launchProjects: LaunchProjectConfig[] = [
       {
         index: 6,
         contractAddress: {
-          [ChainId.BSC]: '0x10daD94aD106fa110eb15246E58d04d201348962', // fcfs - testing
+          [ChainId.BSC]: '0x63Df5ff7CDE133E3925FB18D225a3fDb1DcE5207', // oversubscription diamond - testing
+        },
+        billVersion: BillVersion.TieredSale,
+        billType: 'oversubscription',
+        token: tokens.wbnb,
+        earnToken: tokens.fitm,
+        billNnftAddress: {
+          [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+        },
+        soldOut: false,
+        billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+        initTime: {
+          [ChainId.BSC]: 1713265200,
+        },
+        finishTime: {
+          [ChainId.BSC]: 1713268800,
+        },
+        startVestingTimestamp: {
+          [ChainId.BSC]: 1713268800,
+        },
+        initPrice: {
+          [ChainId.BSC]: 0.0005531,
+        },
+        initialRelease: 100,
+      },
+      {
+        index: 7,
+        contractAddress: {
+          [ChainId.BSC]: '0xCe33E309D7f3B6376DF26E991De8D4D456bdf0ae', // fcfs - testing
         },
         billVersion: BillVersion.TieredSale,
         billType: 'fcfs',
@@ -234,13 +290,13 @@ const launchProjects: LaunchProjectConfig[] = [
         soldOut: false,
         billArt: { collection: BillArtCollection.ApeBond_Collection1 },
         initTime: {
-          [ChainId.BSC]: 1713344400,
+          [ChainId.BSC]: 1713270600,
         },
         finishTime: {
-          [ChainId.BSC]: 1713373200,
+          [ChainId.BSC]: 1713272400,
         },
         startVestingTimestamp: {
-          [ChainId.BSC]: 1713524400,
+          [ChainId.BSC]: 1713272400,
         },
         initPrice: {
           [ChainId.BSC]: 0.0005531,
