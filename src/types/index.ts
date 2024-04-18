@@ -176,6 +176,7 @@ export enum LaunchBondTiers {
   Silver,
   Gold,
   Diamond,
+  Legend,
 }
 
 // Start of list types
