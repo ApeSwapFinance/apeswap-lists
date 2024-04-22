@@ -8,7 +8,7 @@
     "contractAddress": {
       "56": ""
     },
-    "billVersion": "TieredSale",
+    "billVersion": "FlashTieredSale",
     "billType": "oversubscription",
     "token": {
       "symbol": "USDT",
@@ -82,7 +82,7 @@
     "contractAddress": {
       "56": ""
     },
-    "billVersion": "TieredSale",
+    "billVersion": "FlashTieredSale",
     "billType": "oversubscription",
     "token": {
       "symbol": "USDT",
@@ -156,7 +156,7 @@
     "contractAddress": {
       "56": ""
     },
-    "billVersion": "TieredSale",
+    "billVersion": "FlashTieredSale",
     "billType": "oversubscription",
     "token": {
       "symbol": "USDT",
@@ -234,7 +234,7 @@
     "contractAddress": {
       "56": ""
     },
-    "billVersion": "TieredSale",
+    "billVersion": "FlashTieredSale",
     "billType": "oversubscription",
     "token": {
       "symbol": "USDT",
@@ -312,7 +312,7 @@
     "contractAddress": {
       "56": ""
     },
-    "billVersion": "TieredSale",
+    "billVersion": "FlashTieredSale",
     "billType": "oversubscription",
     "token": {
       "symbol": "USDT",
@@ -384,7 +384,7 @@
     "contractAddress": {
       "56": ""
     },
-    "billVersion": "TieredSale",
+    "billVersion": "FlashTieredSale",
     "billType": "oversubscription",
     "token": {
       "symbol": "USDT",
@@ -456,7 +456,7 @@
     "contractAddress": {
       "56": ""
     },
-    "billVersion": "TieredSale",
+    "billVersion": "FlashTieredSale",
     "billType": "oversubscription",
     "token": {
       "symbol": "USDT",
@@ -528,7 +528,7 @@
     "contractAddress": {
       "56": ""
     },
-    "billVersion": "TieredSale",
+    "billVersion": "FlashTieredSale",
     "billType": "oversubscription",
     "token": {
       "symbol": "USDT",
@@ -602,7 +602,7 @@
     "contractAddress": {
       "56": ""
     },
-    "billVersion": "TieredSale",
+    "billVersion": "FlashTieredSale",
     "billType": "oversubscription",
     "token": {
       "symbol": "USDT",
@@ -676,7 +676,7 @@
     "contractAddress": {
       "56": ""
     },
-    "billVersion": "TieredSale",
+    "billVersion": "FlashTieredSale",
     "billType": "oversubscription",
     "token": {
       "symbol": "USDT",
@@ -750,7 +750,7 @@
     "contractAddress": {
       "56": ""
     },
-    "billVersion": "TieredSale",
+    "billVersion": "FlashTieredSale",
     "billType": "oversubscription",
     "token": {
       "symbol": "USDT",
@@ -824,7 +824,7 @@
     "contractAddress": {
       "56": ""
     },
-    "billVersion": "TieredSale",
+    "billVersion": "FlashTieredSale",
     "billType": "oversubscription",
     "token": {
       "symbol": "USDT",
@@ -902,7 +902,7 @@
     "contractAddress": {
       "56": ""
     },
-    "billVersion": "TieredSale",
+    "billVersion": "FlashTieredSale",
     "billType": "oversubscription",
     "token": {
       "symbol": "USDT",
@@ -980,7 +980,7 @@
     "contractAddress": {
       "56": ""
     },
-    "billVersion": "TieredSale",
+    "billVersion": "FlashTieredSale",
     "billType": "oversubscription",
     "token": {
       "symbol": "USDT",

@@ -12,7 +12,7 @@ const flashBonds: FlashBondConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '', //
     },
-    billVersion: BillVersion.TieredSale,
+    billVersion: BillVersion.FlashTieredSale,
     billType: 'oversubscription',
     token: tokens.usdt,
     earnToken: tokens.btc,
@@ -44,7 +44,7 @@ const flashBonds: FlashBondConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '', //
     },
-    billVersion: BillVersion.TieredSale,
+    billVersion: BillVersion.FlashTieredSale,
     billType: 'oversubscription',
     token: tokens.usdt,
     earnToken: tokens.btc,
@@ -76,7 +76,7 @@ const flashBonds: FlashBondConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '', //
     },
-    billVersion: BillVersion.TieredSale,
+    billVersion: BillVersion.FlashTieredSale,
     billType: 'oversubscription',
     token: tokens.usdt,
     earnToken: tokens.eth,
@@ -108,7 +108,7 @@ const flashBonds: FlashBondConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '', //
     },
-    billVersion: BillVersion.TieredSale,
+    billVersion: BillVersion.FlashTieredSale,
     billType: 'oversubscription',
     token: tokens.usdt,
     earnToken: tokens.eth,
@@ -140,7 +140,7 @@ const flashBonds: FlashBondConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '', //
     },
-    billVersion: BillVersion.TieredSale,
+    billVersion: BillVersion.FlashTieredSale,
     billType: 'oversubscription',
     token: tokens.usdt,
     earnToken: tokens.wbnb,
@@ -172,7 +172,7 @@ const flashBonds: FlashBondConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '', //
     },
-    billVersion: BillVersion.TieredSale,
+    billVersion: BillVersion.FlashTieredSale,
     billType: 'oversubscription',
     token: tokens.usdt,
     earnToken: tokens.wbnb,
@@ -204,7 +204,7 @@ const flashBonds: FlashBondConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '', //
     },
-    billVersion: BillVersion.TieredSale,
+    billVersion: BillVersion.FlashTieredSale,
     billType: 'oversubscription',
     token: tokens.usdt,
     earnToken: tokens.wbnb,
@@ -236,7 +236,7 @@ const flashBonds: FlashBondConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '', //
     },
-    billVersion: BillVersion.TieredSale,
+    billVersion: BillVersion.FlashTieredSale,
     billType: 'oversubscription',
     token: tokens.usdt,
     earnToken: tokens.btc,
@@ -268,7 +268,7 @@ const flashBonds: FlashBondConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '', //
     },
-    billVersion: BillVersion.TieredSale,
+    billVersion: BillVersion.FlashTieredSale,
     billType: 'oversubscription',
     token: tokens.usdt,
     earnToken: tokens.btc,
@@ -300,7 +300,7 @@ const flashBonds: FlashBondConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '', //
     },
-    billVersion: BillVersion.TieredSale,
+    billVersion: BillVersion.FlashTieredSale,
     billType: 'oversubscription',
     token: tokens.usdt,
     earnToken: tokens.btc,
@@ -332,7 +332,7 @@ const flashBonds: FlashBondConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '', //
     },
-    billVersion: BillVersion.TieredSale,
+    billVersion: BillVersion.FlashTieredSale,
     billType: 'oversubscription',
     token: tokens.usdt,
     earnToken: tokens.btc,
@@ -364,7 +364,7 @@ const flashBonds: FlashBondConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '', //
     },
-    billVersion: BillVersion.TieredSale,
+    billVersion: BillVersion.FlashTieredSale,
     billType: 'oversubscription',
     token: tokens.usdt,
     earnToken: tokens.eth,
@@ -396,7 +396,7 @@ const flashBonds: FlashBondConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '', //
     },
-    billVersion: BillVersion.TieredSale,
+    billVersion: BillVersion.FlashTieredSale,
     billType: 'oversubscription',
     token: tokens.usdt,
     earnToken: tokens.eth,
@@ -428,7 +428,7 @@ const flashBonds: FlashBondConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '', //
     },
-    billVersion: BillVersion.TieredSale,
+    billVersion: BillVersion.FlashTieredSale,
     billType: 'oversubscription',
     token: tokens.usdt,
     earnToken: tokens.eth,
