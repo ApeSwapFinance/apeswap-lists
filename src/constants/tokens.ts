@@ -2639,7 +2639,7 @@ const tokens: Record<string, Token> = {
   cata: {
     symbol: 'CATA',
     address: {
-      [ChainId.BSC]: '0x4B360c05860C3d0040eBA90F00870FbfE9Bc61B8',
+      [ChainId.BSC]: '0xBDf5bAfEE1291EEc45Ae3aadAc89BE8152D4E673',
     },
     decimals: { [ChainId.BSC]: 18 },
     liquidityDex: {
