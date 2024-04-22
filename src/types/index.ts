@@ -172,11 +172,19 @@ export interface TieredSaleBondConfig {
   initialRelease: number
 }
 
+export interface FlashBondConfig extends TieredSaleBondConfig {
+  round: string
+  totalRaiseString: string
+  discountString: string
+  tierString: string
+}
+
 export enum LaunchBondTiers {
   Bronze,
   Silver,
   Gold,
   Diamond,
+  Legend,
 }
 
 // Start of list types
