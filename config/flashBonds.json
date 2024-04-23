@@ -80,7 +80,7 @@
     "totalRaiseString": "$50K",
     "tierString": "diamond",
     "contractAddress": {
-      "56": ""
+      "56": "0x076f8D6d45C03Dd34F7682E2fD8A07B9877dcc4e"
     },
     "billVersion": "FlashTieredSale",
     "billType": "oversubscription",
@@ -134,16 +134,16 @@
       "collection": "ApeBond_Collection1"
     },
     "initTime": {
-      "56": 1713891600
+      "56": 1713876780
     },
     "finishTime": {
-      "56": 1713895200
+      "56": 1713880380
     },
     "startVestingTimestamp": {
-      "56": 1713891600
+      "56": 1713880380
     },
     "initPrice": {
-      "56": 0
+      "56": 64350
     },
     "initialRelease": 100
   },
