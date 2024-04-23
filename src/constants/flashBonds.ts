@@ -10,7 +10,7 @@ const flashBonds: FlashBondConfig[] = [
     discountString: '3%',
     tierString: 'legend',
     contractAddress: {
-      [ChainId.BSC]: '0x7A4fE4beBF55A3EDB6e11DE821bCB1A17C21000d', //
+      [ChainId.BSC]: '0xE3aB699270B17477130E2A772e5B07F3Df090275', // legend
     },
     billVersion: BillVersion.FlashTieredSale,
     billType: 'oversubscription',
@@ -22,16 +22,16 @@ const flashBonds: FlashBondConfig[] = [
     soldOut: false,
     billArt: { collection: BillArtCollection.ApeBond_Collection1 },
     initTime: {
-      [ChainId.BSC]: 1713813300, // April 23rd 17 UTC
+      [ChainId.BSC]: 1713891600, // April 23rd 17 UTC
     },
     finishTime: {
-      [ChainId.BSC]: 1713838500, //April 23rd 18 UTC
+      [ChainId.BSC]: 1713895200, //April 23rd 18 UTC
     },
     startVestingTimestamp: {
-      [ChainId.BSC]: 1713838500, //dummy
+      [ChainId.BSC]: 1713895200, //April 23rd 18 UTC
     },
     initPrice: {
-      [ChainId.BSC]: 0,
+      [ChainId.BSC]: 64602,
     },
     initialRelease: 100,
   },
@@ -42,7 +42,7 @@ const flashBonds: FlashBondConfig[] = [
     totalRaiseString: '$50K',
     tierString: 'diamond',
     contractAddress: {
-      [ChainId.BSC]: '0x076f8D6d45C03Dd34F7682E2fD8A07B9877dcc4e', //
+      [ChainId.BSC]: '0xA273509FB06D9f6325db14E1eDf2D3e1450A9F34', // diamond BTC
     },
     billVersion: BillVersion.FlashTieredSale,
     billType: 'oversubscription',
@@ -54,19 +54,16 @@ const flashBonds: FlashBondConfig[] = [
     soldOut: false,
     billArt: { collection: BillArtCollection.ApeBond_Collection1 },
     initTime: {
-      // [ChainId.BSC]: 1713891600, // April 23rd 17 UTC
-      [ChainId.BSC]: 1713876780, // April 23rd 17 UTC
+      [ChainId.BSC]: 1713891600, // April 23rd 17 UTC
     },
     finishTime: {
-      // [ChainId.BSC]: 1713895200, //April 23rd 18 UTC
-      [ChainId.BSC]: 1713880380, //April 23rd 18 UTC
+      [ChainId.BSC]: 1713895200, //April 23rd 18 UTC
     },
     startVestingTimestamp: {
-      // [ChainId.BSC]: 1713891600, //dummy
-      [ChainId.BSC]: 1713880380, //dummy
+      [ChainId.BSC]: 1713895200, //April 23rd 18 UTC
     },
     initPrice: {
-      [ChainId.BSC]: 64350,
+      [ChainId.BSC]: 65268,
     },
     initialRelease: 100,
   },

@@ -6,7 +6,7 @@
     "discountString": "3%",
     "tierString": "legend",
     "contractAddress": {
-      "56": "0x7A4fE4beBF55A3EDB6e11DE821bCB1A17C21000d"
+      "56": "0xE3aB699270B17477130E2A772e5B07F3Df090275"
     },
     "billVersion": "FlashTieredSale",
     "billType": "oversubscription",
@@ -60,16 +60,16 @@
       "collection": "ApeBond_Collection1"
     },
     "initTime": {
-      "56": 1713813300
+      "56": 1713891600
     },
     "finishTime": {
-      "56": 1713838500
+      "56": 1713895200
     },
     "startVestingTimestamp": {
-      "56": 1713838500
+      "56": 1713895200
     },
     "initPrice": {
-      "56": 0
+      "56": 64602
     },
     "initialRelease": 100
   },
@@ -80,7 +80,7 @@
     "totalRaiseString": "$50K",
     "tierString": "diamond",
     "contractAddress": {
-      "56": "0x076f8D6d45C03Dd34F7682E2fD8A07B9877dcc4e"
+      "56": "0xA273509FB06D9f6325db14E1eDf2D3e1450A9F34"
     },
     "billVersion": "FlashTieredSale",
     "billType": "oversubscription",
@@ -134,16 +134,16 @@
       "collection": "ApeBond_Collection1"
     },
     "initTime": {
-      "56": 1713876780
+      "56": 1713891600
     },
     "finishTime": {
-      "56": 1713880380
+      "56": 1713895200
     },
     "startVestingTimestamp": {
-      "56": 1713880380
+      "56": 1713895200
     },
     "initPrice": {
-      "56": 64350
+      "56": 65268
     },
     "initialRelease": 100
   },
