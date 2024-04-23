@@ -38,8 +38,8 @@ const flashBonds: FlashBondConfig[] = [
   {
     index: 1,
     round: '1',
-    discountString: '2%',
     totalRaiseString: '$50K',
+    discountString: '2%',
     tierString: 'diamond',
     contractAddress: {
       [ChainId.BSC]: '0xA273509FB06D9f6325db14E1eDf2D3e1450A9F34', // diamond BTC
