@@ -184,6 +184,9 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: 18,
       [ChainId.TLOS]: 8,
     },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+    },
     active: true,
   },
   cake: {
