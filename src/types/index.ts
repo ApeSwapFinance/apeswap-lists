@@ -88,6 +88,7 @@ export enum BillVersion {
   FixedPrice = 'FixedPrice',
   V3 = 'V3',
   TieredSale = 'TieredSale',
+  FlashTieredSale = 'FlashTieredSale',
 }
 
 /**
@@ -122,7 +123,7 @@ export interface LaunchProjectConfig {
   index: number
   projectId: string // this should be unique!
   projectName: string
-  bonds: LaunchBondConfig[]
+  bonds: TieredSaleBondConfig[]
   saleStartTime: string
   totalAllocation: string
   projectInfo: {
@@ -152,7 +153,7 @@ export interface LaunchProjectConfig {
   }
 }
 
-export interface LaunchBondConfig {
+export interface TieredSaleBondConfig {
   index: number
   contractAddress: Partial<Record<ChainId, string>>
   billVersion: BillVersion
@@ -171,11 +172,19 @@ export interface LaunchBondConfig {
   initialRelease: number
 }
 
+export interface FlashBondConfig extends TieredSaleBondConfig {
+  round: string
+  totalRaiseString: string
+  discountString: string
+  tierString: string
+}
+
 export enum LaunchBondTiers {
   Bronze,
   Silver,
   Gold,
   Diamond,
+  Legend,
 }
 
 // Start of list types

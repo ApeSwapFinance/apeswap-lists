@@ -16,6 +16,7 @@ import {
   jungleFarmsV2,
   poolsV2,
   launchProjects,
+  flashBonds,
 } from '../constants'
 
 const listMap: [any, string][] = [
@@ -33,6 +34,7 @@ const listMap: [any, string][] = [
   [jungleFarmsV2, 'jungleFarmsV2'],
   [poolsV2, 'poolsV2'],
   [launchProjects, 'launchProjects'],
+  [flashBonds, 'flashBonds'],
 ]
 
 const buildList = (list: any, listName: string) => {

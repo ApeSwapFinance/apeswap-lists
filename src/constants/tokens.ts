@@ -184,6 +184,9 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: 18,
       [ChainId.TLOS]: 8,
     },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+    },
     active: true,
   },
   cake: {
@@ -972,6 +975,19 @@ const tokens: Record<string, Token> = {
     symbol: 'FBX',
     address: {
       [ChainId.MATIC]: '0xD125443F38A69d776177c2B9c041f462936F8218',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.QuickswapV2,
+    },
+    active: true,
+  },
+  ubu: {
+    symbol: 'UBU',
+    address: {
+      [ChainId.MATIC]: '0x78445485A8d5b3BE765e3027bc336e3c272a23c9',
     },
     decimals: {
       [ChainId.MATIC]: 18,
@@ -2639,7 +2655,7 @@ const tokens: Record<string, Token> = {
   cata: {
     symbol: 'CATA',
     address: {
-      [ChainId.BSC]: '0x4B360c05860C3d0040eBA90F00870FbfE9Bc61B8',
+      [ChainId.BSC]: '0xBDf5bAfEE1291EEc45Ae3aadAc89BE8152D4E673',
     },
     decimals: { [ChainId.BSC]: 18 },
     liquidityDex: {
@@ -4515,6 +4531,24 @@ const tokens: Record<string, Token> = {
     getLpUrl: {
       [ChainId.MATIC]:
         'https://quickswap.exchange/#/pools/v2?currency0=0x58c7B2828e7F2B2CaA0cC7fEef242fA3196d03df&currency1=0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359',
+    },
+  },
+  ubuUsdc_QS: {
+    symbol: 'UBU-USDC',
+    address: {
+      [ChainId.MATIC]: '0x19ed9003513fD3a3Eb3856b31831Dd8f19f9454A',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.QuickswapV2,
+    },
+    active: true,
+    lpToken: true,
+    getLpUrl: {
+      [ChainId.MATIC]:
+        'https://quickswap.exchange/#/pools/v2?currency0=0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359&currency1=0x78445485A8d5b3BE765e3027bc336e3c272a23c9',
     },
   },
   chrpBnb: {
