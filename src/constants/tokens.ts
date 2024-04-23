@@ -981,6 +981,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  ubu: {
+    symbol: 'UBU',
+    address: {
+      [ChainId.MATIC]: '0x78445485A8d5b3BE765e3027bc336e3c272a23c9',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.QuickswapV2,
+    },
+    active: true,
+  },
   dai: {
     symbol: 'DAI',
     address: {
