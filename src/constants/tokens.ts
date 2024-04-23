@@ -4533,6 +4533,24 @@ const tokens: Record<string, Token> = {
         'https://quickswap.exchange/#/pools/v2?currency0=0x58c7B2828e7F2B2CaA0cC7fEef242fA3196d03df&currency1=0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359',
     },
   },
+  ubuUsdc_QS: {
+    symbol: 'UBU-USDC',
+    address: {
+      [ChainId.MATIC]: '0x19ed9003513fD3a3Eb3856b31831Dd8f19f9454A',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.QuickswapV2,
+    },
+    active: true,
+    lpToken: true,
+    getLpUrl: {
+      [ChainId.MATIC]:
+        'https://quickswap.exchange/#/pools/v2?currency0=0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359&currency1=0x78445485A8d5b3BE765e3027bc336e3c272a23c9',
+    },
+  },
   chrpBnb: {
     symbol: 'CHRP-BNB',
     address: {
