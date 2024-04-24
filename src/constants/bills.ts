@@ -3,7 +3,7 @@ import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
 // BNB Largest ID: 1054
-// Polygon Largest ID: 138
+// Polygon Largest ID: 140
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
 // ETH Largest ID: 3009
@@ -3939,6 +3939,64 @@ const bills: BillsConfig[] = [
   /*
     Polygon Bills
   */
+  {
+    index: 140,
+    contractAddress: {
+      [ChainId.MATIC]: '0x627c2dc1e4Eb8EeA95844da77E000D45036473f1',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.usdc,
+    quoteToken: tokens.ubu,
+    lpToken: tokens.ubuUsdc_QS,
+    earnToken: tokens.ubu,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://uniswap.a51.finance/stats',
+    twitter: 'https://twitter.com/A51_Fi',
+    audit: 'https://hacken.io/audits/unipilot/',
+    initTime: { [ChainId.MATIC]: 1705067401 },
+    initPrice: { [ChainId.MATIC]: 0.90803612 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+    fullDescription:
+      "Africarare is where Africa's rich heritage meets the digital frontier. Set in Ubuntuland, the Africarare metaverse allows users to create, socialize, play, trade, and more—all within Virtual Africa! Whether you aim to purchase land for social, educational, or entertainment purposes, design engaging retail experiences, or host paid or free events to expand your community and increase your treasury, Africarare is an undeniable choice for your portfolio!",
+    tags: ['AI', 'METAVERSE'],
+  },
+  {
+    index: 139,
+    contractAddress: {
+      [ChainId.MATIC]: '0xF42c8B8973E7A26E2Ae34a96eA7c7F2E97185855',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.wmatic,
+    quoteToken: tokens.wmatic,
+    lpToken: tokens.wmatic,
+    earnToken: tokens.a51,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://uniswap.a51.finance/stats',
+    twitter: 'https://twitter.com/A51_Fi',
+    audit: 'https://hacken.io/audits/unipilot/',
+    initTime: { [ChainId.MATIC]: 1705067401 },
+    initPrice: { [ChainId.MATIC]: 0.90803612 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+    fullDescription:
+      'A51 Finance is an Autonomous Liquidity Provisioning (ALP) protocol offering customizable tools for creating tailored liquidity strategies empowering LPs with dynamic adjustments based on their preferences. A51 puts control in the hands of liquidity providers, allowing them to dictate asset management and post-liquidity actions.',
+    tags: ['V3 Liquidity Managers'],
+  },
   {
     index: 138,
     contractAddress: {

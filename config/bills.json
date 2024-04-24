@@ -13913,6 +13913,172 @@
     "soldOut": true
   },
   {
+    "index": 140,
+    "contractAddress": {
+      "137": "0x627c2dc1e4Eb8EeA95844da77E000D45036473f1"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "USDC",
+      "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+        "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "UBU",
+      "address": {
+        "137": "0x78445485A8d5b3BE765e3027bc336e3c272a23c9"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "QuickswapV2"
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "UBU-USDC",
+      "address": {
+        "137": "0x19ed9003513fD3a3Eb3856b31831Dd8f19f9454A"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "QuickswapV2"
+      },
+      "active": true,
+      "lpToken": true,
+      "getLpUrl": {
+        "137": "https://quickswap.exchange/#/pools/v2?currency0=0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359&currency1=0x78445485A8d5b3BE765e3027bc336e3c272a23c9"
+      }
+    },
+    "earnToken": {
+      "symbol": "UBU",
+      "address": {
+        "137": "0x78445485A8d5b3BE765e3027bc336e3c272a23c9"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "QuickswapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
+    },
+    "inactive": false,
+    "projectLink": "https://uniswap.a51.finance/stats",
+    "twitter": "https://twitter.com/A51_Fi",
+    "audit": "https://hacken.io/audits/unipilot/",
+    "initTime": {
+      "137": 1705067401
+    },
+    "initPrice": {
+      "137": 0.90803612
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "Quickswap_Collection1"
+    },
+    "bondPartner": "QuickSwap",
+    "fullDescription": "Africarare is where Africa's rich heritage meets the digital frontier. Set in Ubuntuland, the Africarare metaverse allows users to create, socialize, play, trade, and more—all within Virtual Africa! Whether you aim to purchase land for social, educational, or entertainment purposes, design engaging retail experiences, or host paid or free events to expand your community and increase your treasury, Africarare is an undeniable choice for your portfolio!",
+    "tags": ["AI", "METAVERSE"]
+  },
+  {
+    "index": 139,
+    "contractAddress": {
+      "137": "0xF42c8B8973E7A26E2Ae34a96eA7c7F2E97185855"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "MATIC",
+      "address": {
+        "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
+        "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
+      },
+      "decimals": {
+        "56": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "MATIC",
+      "address": {
+        "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
+        "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
+      },
+      "decimals": {
+        "56": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "MATIC",
+      "address": {
+        "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
+        "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
+      },
+      "decimals": {
+        "56": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "A51",
+      "address": {
+        "137": "0xe9E7c09e82328c3107d367f6c617cF9977e63ED0"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "Algebra"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
+    },
+    "inactive": false,
+    "projectLink": "https://uniswap.a51.finance/stats",
+    "twitter": "https://twitter.com/A51_Fi",
+    "audit": "https://hacken.io/audits/unipilot/",
+    "initTime": {
+      "137": 1705067401
+    },
+    "initPrice": {
+      "137": 0.90803612
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "Quickswap_Collection1"
+    },
+    "bondPartner": "QuickSwap",
+    "fullDescription": "A51 Finance is an Autonomous Liquidity Provisioning (ALP) protocol offering customizable tools for creating tailored liquidity strategies empowering LPs with dynamic adjustments based on their preferences. A51 puts control in the hands of liquidity providers, allowing them to dictate asset management and post-liquidity actions.",
+    "tags": ["V3 Liquidity Managers"]
+  },
+  {
     "index": 138,
     "contractAddress": {
       "137": "0x2FA2fC00252c8DDD88bb5699c6a06A4c62D8402B"
