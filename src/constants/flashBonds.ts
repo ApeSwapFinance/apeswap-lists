@@ -25,10 +25,10 @@ const flashBonds: FlashBondConfig[] = [
       [ChainId.BSC]: 1713891600, // April 23rd 17 UTC
     },
     finishTime: {
-      [ChainId.BSC]: 1713895200, //April 23rd 18 UTC
+      [ChainId.BSC]: 1713895200, // April 23rd 18 UTC
     },
     startVestingTimestamp: {
-      [ChainId.BSC]: 1713895200, //April 23rd 18 UTC
+      [ChainId.BSC]: 1713895200, // April 23rd 18 UTC
     },
     initPrice: {
       [ChainId.BSC]: 64602,
@@ -57,10 +57,10 @@ const flashBonds: FlashBondConfig[] = [
       [ChainId.BSC]: 1713891600, // April 23rd 17 UTC
     },
     finishTime: {
-      [ChainId.BSC]: 1713895200, //April 23rd 18 UTC
+      [ChainId.BSC]: 1713895200, // April 23rd 18 UTC
     },
     startVestingTimestamp: {
-      [ChainId.BSC]: 1713895200, //April 23rd 18 UTC
+      [ChainId.BSC]: 1713895200, // April 23rd 18 UTC
     },
     initPrice: {
       [ChainId.BSC]: 65268,
@@ -74,7 +74,7 @@ const flashBonds: FlashBondConfig[] = [
     discountString: '3%',
     tierString: 'legend',
     contractAddress: {
-      [ChainId.BSC]: '', //
+      [ChainId.BSC]: '0xd6E52Ab49D910d9A7eFe5f2c92208ccd9086b845',
     },
     billVersion: BillVersion.FlashTieredSale,
     billType: 'oversubscription',
@@ -89,13 +89,13 @@ const flashBonds: FlashBondConfig[] = [
       [ChainId.BSC]: 1714064400, // April 25th 17 UTC
     },
     finishTime: {
-      [ChainId.BSC]: 1714068000, //April 25th 18 UTC
+      [ChainId.BSC]: 1714068000, // April 25th 18 UTC
     },
     startVestingTimestamp: {
-      [ChainId.BSC]: 1714064400, //dummy
+      [ChainId.BSC]: 1714068000, // April 25th 18 UTC
     },
     initPrice: {
-      [ChainId.BSC]: 0,
+      [ChainId.BSC]: 3055.5,
     },
     initialRelease: 100,
   },
@@ -106,7 +106,7 @@ const flashBonds: FlashBondConfig[] = [
     discountString: '2%',
     tierString: 'diamond',
     contractAddress: {
-      [ChainId.BSC]: '', //
+      [ChainId.BSC]: '0xe6A87D0a7bA0a13Ee2B3f2f611520dC601f9b25e',
     },
     billVersion: BillVersion.FlashTieredSale,
     billType: 'oversubscription',
@@ -121,13 +121,13 @@ const flashBonds: FlashBondConfig[] = [
       [ChainId.BSC]: 1714064400, // April 25th 17 UTC
     },
     finishTime: {
-      [ChainId.BSC]: 1714068000, //April 25th 18 UTC
+      [ChainId.BSC]: 1714068000, // April 25th 18 UTC
     },
     startVestingTimestamp: {
-      [ChainId.BSC]: 1714064400, //dummy
+      [ChainId.BSC]: 1714068000, // April 25th 18 UTC
     },
     initPrice: {
-      [ChainId.BSC]: 0,
+      [ChainId.BSC]: 3087,
     },
     initialRelease: 100,
   },
