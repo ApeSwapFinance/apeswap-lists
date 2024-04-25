@@ -6,7 +6,7 @@ import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } fr
 // Polygon Largest ID: 140
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
-// ETH Largest ID: 3009
+// ETH Largest ID: 3011
 //Migration Bonds ID: 5007
 
 const bills: BillsConfig[] = [
@@ -113,7 +113,7 @@ const bills: BillsConfig[] = [
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1700485200 },
     initPrice: { [ChainId.BSC]: 0.002404165611 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -307,7 +307,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/OctaviaToken',
     initTime: { [ChainId.BSC]: 1711551600 },
     initPrice: { [ChainId.BSC]: 1.31 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.AITECH_Collection1,
     },
@@ -362,7 +362,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/alaska_game',
     initTime: { [ChainId.BSC]: 1700485200 },
     initPrice: { [ChainId.BSC]: 0.002404165611 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1009,7 +1009,7 @@ const bills: BillsConfig[] = [
     audit: 'https://www.certik.com/projects/chaingpt/',
     initTime: { [ChainId.BSC]: 1704304800 },
     initPrice: { [ChainId.BSC]: 0.189643589802866 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1121,7 +1121,7 @@ const bills: BillsConfig[] = [
     audit: 'https://skynet.certik.com/projects/gt-protocol',
     initTime: { [ChainId.BSC]: 1709809412 },
     initPrice: { [ChainId.BSC]: 5.282656128760897 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1148,7 +1148,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/OuterRingMMO',
     initTime: { [ChainId.BSC]: 1709719908 },
     initPrice: { [ChainId.BSC]: 0.001565790008091875 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1175,7 +1175,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/Chappyzcom',
     initTime: { [ChainId.BSC]: 1700485200 },
     initPrice: { [ChainId.BSC]: 0.002404165611 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1315,7 +1315,7 @@ const bills: BillsConfig[] = [
     audit: 'https://skynet.certik.com/projects/xox-labs/',
     initTime: { [ChainId.BSC]: 1700485200 },
     initPrice: { [ChainId.BSC]: 0.002404165611 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1565,7 +1565,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/digitalarmsnft?lang=en',
     initTime: { [ChainId.BSC]: 1704891600 },
     initPrice: { [ChainId.BSC]: 0.00173967992950712 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -4044,7 +4044,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/Bullieverse',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.0948073647 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
@@ -4102,7 +4102,7 @@ const bills: BillsConfig[] = [
     audit: 'https://docs.thx.network/developers/audits',
     initTime: { [ChainId.MATIC]: 1700485200 },
     initPrice: { [ChainId.MATIC]: 0.002404165611 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
@@ -4216,7 +4216,7 @@ const bills: BillsConfig[] = [
     audit: 'https://hacken.io/audits/unipilot/',
     initTime: { [ChainId.MATIC]: 1705067401 },
     initPrice: { [ChainId.MATIC]: 0.90803612 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
@@ -5484,7 +5484,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/Planetix0',
     initTime: { [ChainId.MAINNET]: 1710427059 },
     initPrice: { [ChainId.MAINNET]: 0.00173967992950712 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
@@ -5621,7 +5621,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/StrikeFinance',
     initTime: { [ChainId.MAINNET]: 1710255600 },
     initPrice: { [ChainId.MAINNET]: 0.00173967992950712 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
@@ -5703,7 +5703,7 @@ const bills: BillsConfig[] = [
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.MAINNET]: 1711828677 },
     initPrice: { [ChainId.MAINNET]: 0.0334978015237449 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
@@ -5739,6 +5739,34 @@ const bills: BillsConfig[] = [
     fullDescription:
       'PUML Better Health is a Web3 gamified health, wellbeing, and sports platform. Users can complete health challenges such as steps, hydration, meditation, sleep, and more, while getting rewarded. Most importantly, it fosters the creation of long-term health habits for a better future. Get rewarded for being healthy with PUML Better Health.',
     tags: ['GAMEFI'],
+  },
+  {
+    index: 3011,
+    contractAddress: {
+      [ChainId.MAINNET]: '0x17924734790989DfbFA7e4733E81b99A7A7c80De',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    token: tokens.eth,
+    quoteToken: tokens.eth,
+    lpToken: tokens.eth,
+    earnToken: tokens.abond,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    inactive: false,
+    projectLink: 'https://ape.bond/',
+    twitter: 'https://twitter.com/apebond',
+    audit: 'https://paladinsec.co/projects/apebond/',
+    initTime: { [ChainId.MAINNET]: 1711828677 },
+    initPrice: { [ChainId.MAINNET]: 0.0334978015237449 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    fullDescription:
+      'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
+    tags: ['Reserve'],
   },
 ]
 
