@@ -447,7 +447,7 @@
     "initPrice": {
       "56": 0.002404165611
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -1193,7 +1193,7 @@
     "initPrice": {
       "56": 1.31
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "AITECH_Collection1"
     },
@@ -1382,7 +1382,7 @@
     "initPrice": {
       "56": 0.002404165611
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -3719,7 +3719,7 @@
     "initPrice": {
       "56": 0.189643589802866
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -4100,7 +4100,7 @@
     "initPrice": {
       "56": 5.282656128760897
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -4217,7 +4217,7 @@
     "initPrice": {
       "56": 0.001565790008091875
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -4312,7 +4312,7 @@
     "initPrice": {
       "56": 0.002404165611
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -4802,7 +4802,7 @@
     "initPrice": {
       "56": 0.002404165611
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -5739,7 +5739,7 @@
     "initPrice": {
       "56": 0.00173967992950712
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -14264,7 +14264,7 @@
     "initPrice": {
       "137": 0.0948073647
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "Quickswap_Collection1"
     },
@@ -14438,7 +14438,7 @@
     "initPrice": {
       "137": 0.002404165611
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "Quickswap_Collection1"
     },
@@ -14810,7 +14810,7 @@
     "initPrice": {
       "137": 0.90803612
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "Quickswap_Collection1"
     },
@@ -19263,7 +19263,7 @@
     "initPrice": {
       "1": 0.00173967992950712
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ETH_Collection1"
     },
@@ -19757,7 +19757,7 @@
     "initPrice": {
       "1": 0.00173967992950712
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ETH_Collection1"
     },
@@ -20063,7 +20063,7 @@
     "initPrice": {
       "1": 0.0334978015237449
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ETH_Collection1"
     },
