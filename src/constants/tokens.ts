@@ -4158,6 +4158,22 @@ const tokens: Record<string, Token> = {
         'https://pancakeswap.finance/v2/add/0x55d398326f99059fF775485246999027B3197955/0x52c1751C89fc913ed274d72e8d56DcE4Ee44A5cf',
     },
   },
+  aitechUsdt_PCS: {
+    symbol: 'AITECH-USDT',
+    address: {
+      [ChainId.BSC]: '0x87ACDD212404150Fd814565d591a24B0312C9E23',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl: {
+      [ChainId.BSC]:
+        'https://pancakeswap.finance/v2/add/0x55d398326f99059fF775485246999027B3197955/0x2D060Ef4d6BF7f9e5edDe373Ab735513c0e4F944',
+    },
+  },
   stlosTlos: {
     symbol: 'STLOS-TLOS',
     address: {
