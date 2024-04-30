@@ -919,6 +919,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  ecld: {
+    symbol: 'ECLD',
+    address: {
+      [ChainId.MATIC]: '0xc6920888988cAcEeA7ACCA0c96f2D65b05eE22Ba',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.Algebra,
+    },
+    active: true,
+  },
   orbs: {
     symbol: 'ORBS',
     address: {
@@ -988,6 +1001,19 @@ const tokens: Record<string, Token> = {
     symbol: 'UBU',
     address: {
       [ChainId.MATIC]: '0x78445485A8d5b3BE765e3027bc336e3c272a23c9',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.QuickswapV2,
+    },
+    active: true,
+  },
+  nsdx: {
+    symbol: 'NSDX',
+    address: {
+      [ChainId.MATIC]: '0xE8d17b127BA8b9899a160D9a07b69bCa8E08bfc6',
     },
     decimals: {
       [ChainId.MATIC]: 18,
