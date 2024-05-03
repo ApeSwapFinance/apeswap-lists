@@ -190,6 +190,7 @@ export enum LaunchBondTiers {
 // Start of list types
 export interface BillsConfig {
   index: number
+  chainId: ChainId
   contractAddress: Partial<Record<ChainId, string>>
   billVersion: BillVersion
   billType: 'liquidity' | 'reserve' | 'launch' | 'migration' | 'cex'

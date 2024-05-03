@@ -2,16 +2,13 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1058
-// Polygon Largest ID: 143
-// Telos Largest ID: 215
-// Arbitrum Largest ID: 2004
-// ETH Largest ID: 3011
-//Migration Bonds ID: 5007
+// From now onwards we should have a single index count for all chains.
+// We should add the last bond at the top of the array
 
 const bills: BillsConfig[] = [
   {
-    index: 1058,
+    index: 242,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xBbf028E5b967f17Fb24cb63F4486686522882EFc',
     },
@@ -39,7 +36,8 @@ const bills: BillsConfig[] = [
       'AITECH is paving the way for a more convenient and secure future by providing accessible Artificial Intelligence-as-a-Service (AIaaS), Blockchain-as-a-Service (BaaS), High-Performance Computing Power (HPC), and an artificial intelligence marketplace. All these are backed by their native token: $AITECH.',
   },
   {
-    index: 1057,
+    index: 241,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x92A29dAF8267cA37b04E51D7C69C3537762f4410',
     },
@@ -67,7 +65,8 @@ const bills: BillsConfig[] = [
       'AITECH is paving the way for a more convenient and secure future by providing accessible Artificial Intelligence-as-a-Service (AIaaS), Blockchain-as-a-Service (BaaS), High-Performance Computing Power (HPC), and an artificial intelligence marketplace. All these are backed by their native token: $AITECH.',
   },
   {
-    index: 1056,
+    index: 240,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x0255eFCea71B68AF56328dF27911E30ac9833563',
     },
@@ -95,7 +94,8 @@ const bills: BillsConfig[] = [
       'AITECH is paving the way for a more convenient and secure future by providing accessible Artificial Intelligence-as-a-Service (AIaaS), Blockchain-as-a-Service (BaaS), High-Performance Computing Power (HPC), and an artificial intelligence marketplace. All these are backed by their native token: $AITECH.',
   },
   {
-    index: 1055,
+    index: 239,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x983D79923E9d320Ce07B02e4B85ad535F89a7259',
     },
@@ -123,7 +123,8 @@ const bills: BillsConfig[] = [
     tags: ['Reserve'],
   },
   {
-    index: 1054,
+    index: 238,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xc77aDf2d1DB92bf9EaEdC64DE72829528B56EE15',
     },
@@ -151,7 +152,8 @@ const bills: BillsConfig[] = [
       "WAM is an award-winning, Play2Earn, skill-based platform where players compete in simple tournaments for digital assets and status. Users can also create their own entertainment with AI. Having won more than five international awards, WAM's vision is to create a new kind of platform where the use of blockchain becomes easy, fun, and rewarding for everyone!",
   },
   {
-    index: 1053,
+    index: 237,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x13Ada9A81053A6b56CB027FaD4628cf27766936D',
     },
@@ -179,7 +181,8 @@ const bills: BillsConfig[] = [
       'TiFi empowers e‑Commerce with the use of Blockchain technologies. TiFi was built by a group of talented engineers in Silicon Valley and was already featured in Yahoo Finance, MSN News, and New York Weekly. TiFi Allverse, one of their main products, allows users to shop and trade real-world products with NFTs and Cryptocurrencies.',
   },
   {
-    index: 1052,
+    index: 236,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x634D12615CA306569AEFFE3813ecb4Ad714D5648',
     },
@@ -206,7 +209,8 @@ const bills: BillsConfig[] = [
     tags: ['GAMEFI'],
   },
   {
-    index: 1051,
+    index: 235,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x473Dd4CaE595a0dc5DCDF2edb6077ec01f8f1715',
     },
@@ -234,7 +238,8 @@ const bills: BillsConfig[] = [
     tags: ['BONDING'],
   },
   {
-    index: 1050,
+    index: 234,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x849CD6CBd4B730C01B9d529Fd0501c1BA596a0C2',
     },
@@ -262,7 +267,8 @@ const bills: BillsConfig[] = [
       "AiMalls is the first tokenized E-commerce platform, registered with the SEC in the Philippines, certified by CertiK, and powered by state-of-the-art Artificial Intelligence, underpinned by its utility token AIT. AiMalls aims to curate personalized shopping experiences, fostering a dynamic and inclusive virtual retail environment. It serves as a bridge connecting global buyers and sellers, harnessing AI and advanced technologies to deliver seamlessly tailored shopping journeys that cater to individual customers' preferences and requirements.",
   },
   {
-    index: 1049,
+    index: 233,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x6245BCb318e6c6582ebfdD8E24DB7E717e5066dd',
     },
@@ -290,7 +296,8 @@ const bills: BillsConfig[] = [
       'AITECH is paving the way for a more convenient and secure future by providing accessible Artificial Intelligence-as-a-Service (AIaaS), Blockchain-as-a-Service (BaaS), High-Performance Computing Power (HPC), and an artificial intelligence marketplace. All these are backed by their native token: $AITECH.',
   },
   {
-    index: 1048,
+    index: 232,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x580009d942cf89c05D506391B49BDf7825D9c583',
     },
@@ -318,7 +325,8 @@ const bills: BillsConfig[] = [
       'Experience epic magical battles featuring powerful wizards. Discover the future of gaming with this revolutionary multiplayer NFT blockchain game - free to play and equipped with a built-in Play & Earn system! Welcome to the Wizarre Universe, the ultimate destination for users to create the best wizards, level them up, and hone their skills to become the greatest. Wizarre Scroll: easy to learn but challenging to master!',
   },
   {
-    index: 1047,
+    index: 231,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x583F3395768B8A685Ab02156eD980722886A2d44',
     },
@@ -346,7 +354,8 @@ const bills: BillsConfig[] = [
       'Devomon is an anime brand that is revolutionizing fan engagement across the globe. Beyond gaming, it encompasses manhwas, anime, and more. Expect immersive games, unique merchandise, and a universe that unites every aspect of anime culture. Experience captivating journeys and trials, along with the opportunity to build and enhance robust NFT collections, all within an engaging and constantly evolving setting—only with Devomon.',
   },
   {
-    index: 1046,
+    index: 230,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x8476Fd156E0DC723F9f36B126621481aB6720961',
     },
@@ -373,7 +382,8 @@ const bills: BillsConfig[] = [
       'MeMusic provides music for everyone! The team has built the first-ever blockchain-based music platform to adopt cryptocurrencies and a traditional business model. MeMusic has reinvented the streaming experience for the artists and users by providing a novel experience to earn rewards by listening and creating. MeMusic: personalizing the music experience beyond borders!',
   },
   {
-    index: 1045,
+    index: 229,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x1B318c4d90e4751385e1d63123725Ddd02efE2EF',
     },
@@ -401,7 +411,8 @@ const bills: BillsConfig[] = [
       'Revolve Games is reshaping Web3 gaming - addressing many of the challenges faced by blockchain gaming economies. They directly integrate playable assets into the in-game economy, achieved by tethering their assets to the RPG token. This strategy ensures a stable and robust ecosystem, less affected by external market fluctuations.',
   },
   {
-    index: 1044,
+    index: 228,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x7c42C169b4654AF44d29a767B379F4dd0cD42462',
     },
@@ -428,7 +439,8 @@ const bills: BillsConfig[] = [
       'Octavia is your web3-based autonomous assistant powered by the $VIA token. It can provide Crypto Insights, Analytics and users can automate web3 tasks. This assistant also allows easy integrations with X for sharing, and detailed project research. Octavia: the cutting-edge Web3 AI chatbot designed to revolutionize both web3 trading and managing web3 communities is here!',
   },
   {
-    index: 1043,
+    index: 227,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xcc362B5760986ab14EDC794C5D4b1C84e05ea965',
     },
@@ -456,7 +468,8 @@ const bills: BillsConfig[] = [
       'The Winkyverse is the first game-based learning platform offering immersive and purposeful educational experiences combining Gaming, Web3 and e-learning. Supported by the French Government, with an original setting, fully educational and ethical, the Winkyverse is the immersive and positive universe for all ages.',
   },
   {
-    index: 1042,
+    index: 226,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xD0aDBe1CF318BFb0110E48F088BEA933ECD72304',
     },
@@ -483,7 +496,8 @@ const bills: BillsConfig[] = [
     tags: ['GAMEFI'],
   },
   {
-    index: 5000, //MIGRATION BOND BANANA 2 MONTH
+    index: 225, //MIGRATION BOND BANANA 2 MONTH
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x302f1120aDA3f40aeD3F6410fad75e8428576a1F',
     },
@@ -510,7 +524,8 @@ const bills: BillsConfig[] = [
     },
   },
   {
-    index: 5001, //MIGRATION BOND BANANA 4 MONTH
+    index: 224, //MIGRATION BOND BANANA 4 MONTH
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x872C7beE4c034CEba697de18f794e91F10062E2e',
     },
@@ -537,7 +552,8 @@ const bills: BillsConfig[] = [
     },
   },
   {
-    index: 5002, //MIGRATION BOND BANANA 6 MONTH
+    index: 223, //MIGRATION BOND BANANA 6 MONTH
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x8146d7887C2e7ce7AD0c1950E17676c632B5A71A',
     },
@@ -564,7 +580,8 @@ const bills: BillsConfig[] = [
     },
   },
   {
-    index: 5003, //MIGRATION BOND BANANA 12 MONTH
+    index: 222, //MIGRATION BOND BANANA 12 MONTH
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xFeFEDF8EB74711dF186630F4870BcA9EEDA78C85',
     },
@@ -591,7 +608,8 @@ const bills: BillsConfig[] = [
     },
   },
   {
-    index: 5004, //MIGRATION BOND GNANA 2 MONTH
+    index: 221, //MIGRATION BOND GNANA 2 MONTH
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xa2a328864f8Eca97072471cc8BF08411Da523bc9',
     },
@@ -618,7 +636,8 @@ const bills: BillsConfig[] = [
     },
   },
   {
-    index: 5005, //MIGRATION BOND GNANA 4 MONTH
+    index: 220, //MIGRATION BOND GNANA 4 MONTH
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xac1CB77150Dcc3d540F08e808181CCCf0Ea29726',
     },
@@ -645,7 +664,8 @@ const bills: BillsConfig[] = [
     },
   },
   {
-    index: 5006, //MIGRATION BOND GNANA 6 MONTH
+    index: 219, //MIGRATION BOND GNANA 6 MONTH
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xDCa0B400394BA6F6CBfc3Ce37B0193D4fa68eDFf',
     },
@@ -672,7 +692,8 @@ const bills: BillsConfig[] = [
     },
   },
   {
-    index: 5007, //MIGRATION BOND GNANA 12 MONTH
+    index: 218, //MIGRATION BOND GNANA 12 MONTH
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x3Eb85D568214ae04c2873880Fa715a5C8105dd17',
     },
@@ -699,7 +720,8 @@ const bills: BillsConfig[] = [
     },
   },
   {
-    index: 62,
+    index: 217,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xB12413a70efd97B827201a071285fBFfCAC436Bc',
     },
@@ -724,7 +746,8 @@ const bills: BillsConfig[] = [
     },
   },
   {
-    index: 69,
+    index: 216,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xFebbb97b4e3C1BED9C7dCD4d2ED5f9b52FC58357',
     },
@@ -746,7 +769,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 70,
+    index: 215,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x7aD518872a75054c023B58619d141e3B677B5a13',
     },
@@ -768,7 +792,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 71,
+    index: 214,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x2de795174ae129A3DE3EC65FC428427717eF1DA2',
     },
@@ -790,7 +815,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 72,
+    index: 213,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x2Bde6DDad5D13CDD5baC871a405EB09779461E53',
     },
@@ -812,7 +838,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 1001,
+    index: 212,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x2A5EA9cc09ad72803C83a6F4f00e907c2aA08944',
     },
@@ -837,7 +864,8 @@ const bills: BillsConfig[] = [
     },
   },
   {
-    index: 1002,
+    index: 211,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x2E0E93237b76C108D1078edA260774a466C4861a',
     },
@@ -862,7 +890,8 @@ const bills: BillsConfig[] = [
     },
   },
   {
-    index: 1003,
+    index: 210,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xa2605D3EB97574e8E4d25b09942B719bFa3404b3',
     },
@@ -887,7 +916,8 @@ const bills: BillsConfig[] = [
     },
   },
   {
-    index: 1004,
+    index: 209,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x0f01384C2399c145f7c8545B05F493D0C4B59873',
     },
@@ -912,7 +942,8 @@ const bills: BillsConfig[] = [
     },
   },
   {
-    index: 1007, //ACF 60 DAYS
+    index: 208, //ACF 60 DAYS
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x6D7637683eaD28F775F56506602191fdE417fF60',
     },
@@ -937,7 +968,8 @@ const bills: BillsConfig[] = [
     },
   },
   {
-    index: 1010, // ACF --> ABOND
+    index: 207, // ACF --> ABOND
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xEce2b9C3704632Ce760271B0b84E3A4A698Ca962',
     },
@@ -963,7 +995,8 @@ const bills: BillsConfig[] = [
     tags: ['Cex Fund'],
   },
   {
-    index: 1012,
+    index: 206,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x097f6ffDC1d0C4d163d7d392a31dC7d39B710d4E',
     },
@@ -991,7 +1024,8 @@ const bills: BillsConfig[] = [
       'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
   },
   {
-    index: 1026,
+    index: 205,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xb0b4ff6D756CcC251Dd08928984f9C3A2d430eE5',
     },
@@ -1019,7 +1053,8 @@ const bills: BillsConfig[] = [
     tags: ['Reserve'],
   },
   {
-    index: 1036,
+    index: 204,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xcF99cB6a10D24550389a8B839c3dC3D8DCAF6a01',
     },
@@ -1047,7 +1082,8 @@ const bills: BillsConfig[] = [
     tags: ['Reserve'],
   },
   {
-    index: 1041,
+    index: 203,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x76d5102f0B0754ebBA0f92b2719b011D3750625B',
     },
@@ -1075,7 +1111,8 @@ const bills: BillsConfig[] = [
       'Arcas aims to revolutionize e-sports and gaming by introducing web3 features that empower players like never before. Backed by Binance Labs Fund, they leveraged Unreal Engine 5 to create a fast paced third person competitive shooter. Their revolutionary web3 protocol blends revenue share, DAO governance, and play 2 earn functionalities.',
   },
   {
-    index: 1040,
+    index: 202,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xD39A9dC66f18e0a9f6585a48e3A9B37F4ef84570',
     },
@@ -1102,7 +1139,8 @@ const bills: BillsConfig[] = [
       'Friend3 allows users to make friends and profits. It is an open SocialFi platform that blends social dApp, inscriptions marketplace, AI, BTC eco & trending tech. On Friend3, content creators receive direct financial incentives, marking the seamless integration of the creator economy with Web3. Friend3: post, chat, trade, donate, earn.',
   },
   {
-    index: 1039,
+    index: 201,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x7bB1Bd0C2880F52D159f8f4680DEAC7a13B7bf1e',
     },
@@ -1130,7 +1168,8 @@ const bills: BillsConfig[] = [
       'ChainGPT is an advanced AI infrastructure that develops AI-powered technologies for Web3, Blockchain, and Crypto space. They aim to improve the Web3 space for retail users & startups by developing AI-powered solutions designed explicitly for Web3. From LLMs to Web3 AI Tools, ChainGPT is the go-to place to boost your Web3 flow with Artificial Intelligence.',
   },
   {
-    index: 1038,
+    index: 200,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x82e55fc7c1348c38B429d7ae791DBb36BFE8c788',
     },
@@ -1158,7 +1197,8 @@ const bills: BillsConfig[] = [
       'Forward is the WordPress of Web 3.0, an AI powered no-code drag-and-drop full stack solution that enables people to deploy dApps on any chain. Developers can monetize their built templates.',
   },
   {
-    index: 1037,
+    index: 199,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xea1735193cD2cD78251D7225A405d59D5F8a8e7D',
     },
@@ -1186,7 +1226,8 @@ const bills: BillsConfig[] = [
       'Edu3Labs is revolutionizing education through Web3 by leveraging the capabilities of AI and blockchain technology to enhance learning experiences. Users gain access to content from leading producers and can easily purchase educational materials. They can also anticipate earning significant commissions and generating consistent passive income from sales in the secondary market. Edu3Labs: strong emphasis on education with maximum benefits to its users.',
   },
   {
-    index: 1035,
+    index: 198,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x66B3D959675427904a5Fa74aa3cC49ddDCa06b52',
     },
@@ -1214,7 +1255,8 @@ const bills: BillsConfig[] = [
       'AlphaVerse is always growing with new universes getting connected. Some are native to AlphaVerse, some are developed by their partners and third parties. Explore all of them seamlessly with one account. AlphaVerse: the central Hub where multiple universes get connected.',
   },
   {
-    index: 1034,
+    index: 197,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x71a53F6b3207a8EBDBF692Ea3ffD8F506d78540d',
     },
@@ -1242,7 +1284,8 @@ const bills: BillsConfig[] = [
     tags: ['AI'],
   },
   {
-    index: 1033,
+    index: 196,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xD21e9754e988a711E03F94131c9a3024522E2C51',
     },
@@ -1269,7 +1312,8 @@ const bills: BillsConfig[] = [
     tags: ['GAMEFI'],
   },
   {
-    index: 1032,
+    index: 195,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x122A1f4DE0Ae198ef83eF6FeABfaC6DD3c0b98C5',
     },
@@ -1296,7 +1340,8 @@ const bills: BillsConfig[] = [
     tags: ['AI'],
   },
   {
-    index: 1031,
+    index: 194,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x284b840402658342c79BF90cBf1b9506222E63D9',
     },
@@ -1324,7 +1369,8 @@ const bills: BillsConfig[] = [
       'The Winkyverse is the first game-based learning platform offering immersive and purposeful educational experiences combining Gaming, Web3 and e-learning. Supported by the French Government, with an original setting, fully educational and ethical, the Winkyverse is the immersive and positive universe for all ages.',
   },
   {
-    index: 1030,
+    index: 193,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x0CdA99bE222cF4893817200A16D13009c0982006',
     },
@@ -1352,7 +1398,8 @@ const bills: BillsConfig[] = [
       'Grape NFT is the home of Grapes & $GRAPE Coin, and is backed by industry giants Animoca Brands. It’s a fun and globally appealing collection of 3,333 crafted NFTs. GRAPES has been designed to be a cross-media NFT project with gaming, animated series, merchandise and licensing. As a holder of GRAPES users will be rewarded in the commercial success of the project’s ventures both inside and outside of Web3.',
   },
   {
-    index: 1029,
+    index: 192,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x74077F80E723b3f5C62Eb50C125Da33D6D903A76',
     },
@@ -1380,7 +1427,8 @@ const bills: BillsConfig[] = [
       'Cake Monster ($MONSTA) is a revolutionary undertaking in sustainable Hyper-Deflationary Economics. Their team has developed a groundbreaking economic policy to combat the problems that the financial world is currently facing and wrapped it as a cute Meme on BNBChain. Users will find On-Chain Games, Play2Earn NFTs, and other rewarding features: Cake Monster is definitely THE BEAST OF BSC.',
   },
   {
-    index: 1028,
+    index: 191,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x4A308636E91d33Ae00dD1cc390553778847668D3',
     },
@@ -1408,7 +1456,8 @@ const bills: BillsConfig[] = [
       'CodeX is the fastest way to build DApps without code. It is an all-in-one no-code AI-powered ecosystem for WEB3 mass adoption. Users can now craft DApp platforms effortlessly, thanks to CodeX’s user-friendly solutions, such as CodeXGPT or Screen2code. CodeX: Made For People, Built For Speed And Mass Adoption.',
   },
   {
-    index: 1027,
+    index: 190,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x8a5597815E71944837b1BaF346e92d05954cC8B7',
     },
@@ -1436,7 +1485,8 @@ const bills: BillsConfig[] = [
     tags: ['Defi Tooling'],
   },
   {
-    index: 1025,
+    index: 189,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x8772Ba15F8169BaE002E3cA0D48629aB408D838F',
     },
@@ -1465,7 +1515,8 @@ const bills: BillsConfig[] = [
     tags: ['Launchpad'],
   },
   {
-    index: 1024,
+    index: 188,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x81a0956047a69fe2EA3722cbA4C2901103F19D03',
     },
@@ -1493,7 +1544,8 @@ const bills: BillsConfig[] = [
       'CodeX is the fastest way to build DApps without code. It is an all-in-one no-code AI-powered ecosystem for WEB3 mass adoption. Users can now craft DApp platforms effortlessly, thanks to CodeX’s user-friendly solutions, such as CodeXGPT or Screen2code. CodeX: Made For People, Built For Speed And Mass Adoption.',
   },
   {
-    index: 1023,
+    index: 187,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x10CDAc2FD873cAceD95Ca7e532dB2766cb55D812',
     },
@@ -1521,7 +1573,8 @@ const bills: BillsConfig[] = [
       'AlphaVerse is always growing with new universes getting connected. Some are native to AlphaVerse, some are developed by their partners and third parties. Explore all of them seamlessly with one account. AlphaVerse: the central Hub where multiple universes get connected.',
   },
   {
-    index: 1022,
+    index: 186,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x83E22063362693Cb9C373721D037aDF6EA7762A0',
     },
@@ -1548,7 +1601,8 @@ const bills: BillsConfig[] = [
     tags: ['AI'],
   },
   {
-    index: 1021,
+    index: 185,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x7eDDB4A68418065de42978643A07bd32672189CD',
     },
@@ -1576,7 +1630,8 @@ const bills: BillsConfig[] = [
       'Cake Monster ($MONSTA) is a revolutionary undertaking in sustainable Hyper-Deflationary Economics. Their team has developed a groundbreaking economic policy to combat the problems that the financial world is currently facing and wrapped it as a cute Meme on BNBChain. Users will find On-Chain Games, Play2Earn NFTs, and other rewarding features: Cake Monster is definitely THE BEAST OF BSC.',
   },
   {
-    index: 1020,
+    index: 184,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x591b1b8e19B492A5b5dB2c331cDD5E5E014c69F6',
     },
@@ -1603,7 +1658,8 @@ const bills: BillsConfig[] = [
       'Cakebot is the only all-in-one multi-ChainCurve Telegram Bot. With features such as Streamlined Trading, Precise Limit Orders, Auto Sniper, Private Transactions, Swap Aggregator and more, users can exchange without limits, and most importantly, stay ahead of the curve. Scan, Snipe and Succeed, only with Cakebot.',
   },
   {
-    index: 1019,
+    index: 183,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x328e243890a04cb5a763a977395F74Ea6be74D14',
     },
@@ -1631,7 +1687,8 @@ const bills: BillsConfig[] = [
       'Grape NFT is the home of Grapes & $GRAPE Coin, and is backed by industry giants Animoca Brands. It’s a fun and globally appealing collection of 3,333 crafted NFTs. GRAPES has been designed to be a cross-media NFT project with gaming, animated series, merchandise and licensing. As a holder of GRAPES users will be rewarded in the commercial success of the project’s ventures both inside and outside of Web3.',
   },
   {
-    index: 1018,
+    index: 182,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x01bbC9b5F7d6e6C55949Bb8af118bc644d8D3f21',
     },
@@ -1659,7 +1716,8 @@ const bills: BillsConfig[] = [
       'TiFi empowers e‑Commerce with the use of Blockchain technologies. TiFi was built by a group of talented engineers in Silicon Valley and was already featured in Yahoo Finance, MSN News, and New York Weekly. TiFi Allverse, one of their main products, allows users to shop and trade real-world products with NFTs and Cryptocurrencies.',
   },
   {
-    index: 1017,
+    index: 181,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xd3cB03be7e367d0B6ccB42Dc87821bf67CeE8AB8',
     },
@@ -1686,7 +1744,8 @@ const bills: BillsConfig[] = [
       '$HNTR Token allows users to access, trade, and interact with unique, licensed NFT firearms from globally recognized brands. As part of its thriving community, users can reap lucrative benefits from their NFT staking pools with up to 200% APY rewards. Brand partners include Barrett, ZEV Technologies, ZeroTech, and more.',
   },
   {
-    index: 1016,
+    index: 180,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x07E48b1c531cBF32222851D0B1f77fF58b13942d',
     },
@@ -1714,7 +1773,8 @@ const bills: BillsConfig[] = [
       'Revolve Games is reshaping Web3 gaming - addressing many of the challenges faced by blockchain gaming economies. They directly integrate playable assets into the in-game economy, achieved by tethering their assets to the RPG token. This strategy ensures a stable and robust ecosystem, less affected by external market fluctuations.',
   },
   {
-    index: 1015,
+    index: 179,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xA36a59Df35B045650EeaA7d2d001675F5F822649',
     },
@@ -1742,7 +1802,8 @@ const bills: BillsConfig[] = [
       'Arcas aims to revolutionize e-sports and gaming by introducing web3 features that empower players like never before. Backed by Binance Labs Fund, they leveraged Unreal Engine 5 to create a fast paced third person competitive shooter. Their revolutionary web3 protocol blends revenue share, DAO governance, and play 2 earn functionalities.',
   },
   {
-    index: 1014,
+    index: 178,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x0C6f539c98Cad2Bd5dA2f5168a1C2EAA53041832',
     },
@@ -1770,7 +1831,8 @@ const bills: BillsConfig[] = [
       'AITECH is paving the way for a more convenient and secure future by providing accessible Artificial Intelligence-as-a-Service (AIaaS), Blockchain-as-a-Service (BaaS), High-Performance Computing Power (HPC), and an artificial intelligence marketplace. All these are backed by their native token: $AITECH.',
   },
   {
-    index: 1013,
+    index: 177,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x3237aA0280B98C6BbE23563A5C1aBbE52bCdB378',
     },
@@ -1798,7 +1860,8 @@ const bills: BillsConfig[] = [
       'ChainGPT is an advanced AI infrastructure that develops AI-powered technologies for Web3, Blockchain, and Crypto space. They aim to improve the Web3 space for retail users & startups by developing AI-powered solutions designed explicitly for Web3. From LLMs to Web3 AI Tools, ChainGPT is the go-to place to boost your Web3 flow with Artificial Intelligence.',
   },
   {
-    index: 1011,
+    index: 176,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x00F2895AB0096984D94539387a820B193F5E7776',
     },
@@ -1826,7 +1889,8 @@ const bills: BillsConfig[] = [
       "Credefi bridges the EU's financing gap by connecting crypto lenders with SME borrowers. Credifi provides innovative lending in order to make a real-world impact. With Credefi users can access reliable loans backed by a range of real-world assets, including real estate, future receivables, and more.",
   },
   {
-    index: 1009,
+    index: 175,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x87987112B74bed09D5ccbE17cAbd8EEC3e6Ff904',
     },
@@ -1854,7 +1918,8 @@ const bills: BillsConfig[] = [
     tags: ['AI'],
   },
   {
-    index: 1008,
+    index: 174,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xdBBa7C8F6Db6fA1057E58Cc0307d26e7e3F0848E',
     },
@@ -1882,7 +1947,8 @@ const bills: BillsConfig[] = [
     tags: ['AI'],
   },
   {
-    index: 1006,
+    index: 173,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x286483b8b5E30d89b8B39C2817A9c9777e22C2C1',
     },
@@ -1910,7 +1976,8 @@ const bills: BillsConfig[] = [
     tags: ['GAMEFI'],
   },
   {
-    index: 1005,
+    index: 172,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x1a4ceD5Fa314Cfe70995282b5c12d751532E0923',
     },
@@ -1937,7 +2004,8 @@ const bills: BillsConfig[] = [
     tags: ['AI'],
   },
   {
-    index: 1000,
+    index: 171,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x114BeBd8d3178d129Ec86c47519EdB5DbdD519cA',
     },
@@ -1962,7 +2030,8 @@ const bills: BillsConfig[] = [
     },
   },
   {
-    index: 95,
+    index: 170,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x89150e8E396Acc38AbFCAC853d6EB977AcCe13e1',
     },
@@ -1989,7 +2058,8 @@ const bills: BillsConfig[] = [
       'Prepare for battle! Arcas is a Play-2-Earn game brought to you by Block Ape Scissors, the top Web3 gaming studio on BNBChain.',
   },
   {
-    index: 94,
+    index: 169,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x01a8be18770e8b2Ac2Cf42F10E4BddD6054Cbe86',
     },
@@ -2016,7 +2086,8 @@ const bills: BillsConfig[] = [
       'As the AI market continues to rapidly develop and hundreds of applications are released each day, there is a growing need for a marketplace platform that can bring together all these applications and community needs. HyperGPT specifically combines AI and Blockchain technologies with a new concept, creating a platform that can address these needs.',
   },
   {
-    index: 93,
+    index: 168,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x93048fdB11265A68E672f47c9BdCc339D1497918',
     },
@@ -2038,7 +2109,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 92,
+    index: 167,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xC7d087fBF15584E38a3d7d9448E4FEEe9E12c3DB',
     },
@@ -2060,7 +2132,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 91,
+    index: 166,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xA2585dbF7aAcAB105542752B03fd49AB542556B8',
     },
@@ -2102,7 +2175,8 @@ const bills: BillsConfig[] = [
     ],
   },
   {
-    index: 90,
+    index: 165,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xD83873BC5e762a2ff6f35C0Bb5eE687142dfDa8D',
     },
@@ -2124,7 +2198,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 89,
+    index: 164,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xa82d7116128173F87Db5aDd4e12ebB26bd773527',
     },
@@ -2146,7 +2221,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 88,
+    index: 163,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x80AA174d1F0BfDBfE83Cc827F6cC896C14c3AF97',
     },
@@ -2168,7 +2244,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 87,
+    index: 162,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x29F7e97388985e26B178B4da3B5431477B6f533b',
     },
@@ -2190,7 +2267,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 86,
+    index: 161,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xdE766645C9b24e87165107714c88400FedA269A3',
     },
@@ -2232,7 +2310,8 @@ const bills: BillsConfig[] = [
     ],
   },
   {
-    index: 85,
+    index: 160,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x39c7A61087e881033A009CCda9c8963588b3E09D',
     },
@@ -2254,7 +2333,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 84,
+    index: 159,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xb96D4ef47d9989e68798c3e5Bf641e8028E60c32',
     },
@@ -2276,7 +2356,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 83,
+    index: 158,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x007eC17bfA484bACcbB6f6bdA20DaD1fB6A49926',
     },
@@ -2299,7 +2380,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 99,
+    index: 157,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x4Bd2Cc54D0420b4326Ff9C4185D08164dd434220',
     },
@@ -2324,7 +2406,8 @@ const bills: BillsConfig[] = [
     },
   },
   {
-    index: 98,
+    index: 156,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x6AB6B1332EbB75620b9AF0937251011E0B4dc5b6',
     },
@@ -2349,7 +2432,8 @@ const bills: BillsConfig[] = [
     },
   },
   {
-    index: 97,
+    index: 155,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x80B4B7555a8F3A62e87cA2394d3EE840617F7e86',
     },
@@ -2374,7 +2458,8 @@ const bills: BillsConfig[] = [
     },
   },
   {
-    index: 96,
+    index: 154,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xaD790aFAA1cfC35d13089c3fb6d53C411934c673',
     },
@@ -2399,7 +2484,8 @@ const bills: BillsConfig[] = [
     },
   },
   {
-    index: 82,
+    index: 153,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x8303dd7222b5c162C85351292b0ce26C221c4acD',
     },
@@ -2421,7 +2507,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 81,
+    index: 152,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x1F13AC08BcD8E505A797A518627337eE8Ba2eEFE',
     },
@@ -2443,7 +2530,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 80,
+    index: 151,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xDB728D1503079B5313dD80257580fc5dC476AFd3',
     },
@@ -2465,7 +2553,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 79,
+    index: 150,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xbD1dcE65a58a533259c134a3476a97A627De5F1e',
     },
@@ -2486,7 +2575,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 78,
+    index: 149,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xb48fDf78CAcd6d2fC495beFA51395CE9295B05E8',
     },
@@ -2509,7 +2599,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 77,
+    index: 148,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x3aCfbf26c5906924738dCd6Ec417346f28f2bEbF',
     },
@@ -2531,7 +2622,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 76,
+    index: 147,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x265F0332D04384AB8123488A6b889C5B470B07F8',
     },
@@ -2554,7 +2646,8 @@ const bills: BillsConfig[] = [
     showcaseToken: tokens.nfai,
   },
   {
-    index: 75,
+    index: 146,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x6543C13e6dFf99E340147a69bBF38A7C5cfc07Fa',
     },
@@ -2576,7 +2669,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 74,
+    index: 145,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x26a956eae3aF0dBd24c0c0279614336fBBBef968',
     },
@@ -2598,7 +2692,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 67,
+    index: 144,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x14FE608b4BE893ab1d7f36Be6B27C4971dcc364C',
     },
@@ -2619,7 +2714,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 66,
+    index: 143,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x48288b61D8dD929aeaCDDc11C8c2e150e29c02eA',
     },
@@ -2640,7 +2736,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 73,
+    index: 142,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xD26C446Bc7C130edA91B21f6883068499dd2c0B6',
     },
@@ -2662,7 +2759,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 68,
+    index: 141,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x07F09E925017F2423d05c2fA88d23CCC93aC296C',
     },
@@ -2684,7 +2782,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 65,
+    index: 140,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xB883CF791A81e4ac248360b9E5cFF4cb9b5d45f6',
     },
@@ -2707,7 +2806,8 @@ const bills: BillsConfig[] = [
     showcaseToken: tokens.cgg,
   },
   {
-    index: 64,
+    index: 139,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x7a86f9938a8e68e3a9fb62eD84031F8c7C052aDb',
     },
@@ -2730,7 +2830,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 61,
+    index: 138,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x966d6F3e6a8b59296F1e25a08b45154318Aea3cb',
     },
@@ -2752,7 +2853,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 60,
+    index: 137,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xc3111525f0CeEB7565939c8Da18D9cDD67C7B219',
     },
@@ -2774,7 +2876,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 59,
+    index: 136,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x83a9d9c278f2ccE356667EbdAD20c9B4BA68d5aE',
     },
@@ -2796,7 +2899,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 58,
+    index: 135,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x9b86b2baE5B9C7eD73264Cbfdf1b819496Fdc091',
     },
@@ -2819,7 +2923,8 @@ const bills: BillsConfig[] = [
     showcaseToken: tokens.cgg,
   },
   {
-    index: 57,
+    index: 134,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x31CA3536a7B3560e56a0BEA226135Cf809D2E237',
     },
@@ -2841,7 +2946,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 56,
+    index: 133,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xCdCC22C01e1660713B45fE83d7C23787792931B5',
     },
@@ -2863,7 +2969,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 55,
+    index: 132,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x4E96152511D29c99c47A24B07a3b98738e0fb9BA',
     },
@@ -2885,7 +2992,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 54,
+    index: 131,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x60219D7ABd2381230BC250548109b464f44e44dC',
     },
@@ -2907,7 +3015,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 53,
+    index: 130,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xF3DADCFa7114652Ca750e0C653A00DeCB63B4d0F',
     },
@@ -2929,7 +3038,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 52,
+    index: 129,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x6ed6Ccf1f55f3C42438265d1c1C58B9e6756fb1a',
     },
@@ -2951,7 +3061,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 46,
+    index: 128,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x12c42b96ff1248471bbc9da06d7fee828e6f7db2',
     },
@@ -2974,7 +3085,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 45,
+    index: 127,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x44c2211976f796d439e82036006d9559c1b1fbdb',
     },
@@ -2996,7 +3108,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 43,
+    index: 126,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x279c47aE7846962037077338505c657ad65D0DeE',
     },
@@ -3018,7 +3131,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 44,
+    index: 125,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xaf7F491e77f4979faadbE24866D4471De23bd0a0',
     },
@@ -3040,7 +3154,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 37,
+    index: 124,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x2e9bdb018850747dc557d13046b8259ab24c674a',
     },
@@ -3062,7 +3177,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 48,
+    index: 123,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xDfE0C1Ee6E3383E2E50f95541881040d278720C9',
     },
@@ -3083,7 +3199,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 49,
+    index: 122,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x9632D29b4786699C4262F59526D0DA0C9E7C7a72',
     },
@@ -3104,7 +3221,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 50,
+    index: 121,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x1Ca83Ba8e7927e65764Ff07A61BCe8D12147CBD9',
     },
@@ -3125,7 +3243,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 51,
+    index: 120,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xAB60c836793e04DDA3168fCd4e36AF52Bf6e65Cf',
     },
@@ -3146,7 +3265,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 47,
+    index: 119,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xc10BD711C939f972aB7523dc1E948E5DB53B5759',
     },
@@ -3167,7 +3287,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 38,
+    index: 118,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x5aabc088b42c197c8da69af5471aa06c3852912b',
     },
@@ -3189,7 +3310,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 39,
+    index: 117,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xfe69f6f456fdc5535e7a7a03bb78f739400bc8e0',
     },
@@ -3210,7 +3332,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 40,
+    index: 116,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x74dab17e30b974a3590796a8ba2223a50da6a32c',
     },
@@ -3231,7 +3354,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 41,
+    index: 115,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xEd242A13d25b5B2270E90058C9a1A756811cdb93',
     },
@@ -3252,7 +3376,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 42,
+    index: 114,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xb95bd2dc93562fd9076c0573615de42b413db256',
     },
@@ -3274,7 +3399,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 30,
+    index: 113,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xced994206cd4c364d7bda2b66b48fcaef9b6bb5b',
     },
@@ -3295,7 +3421,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 29,
+    index: 112,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x7aa1939b8284a2defdcb5e983de55da2ad61f607',
     },
@@ -3317,7 +3444,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 27,
+    index: 111,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x626b5c18a2b702a189ea022df897a4f0f3566785',
     },
@@ -3338,7 +3466,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 22,
+    index: 110,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x7b1dfe9ca71ffeac5ed4d1beb592771e3672a2de',
     },
@@ -3360,7 +3489,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 20,
+    index: 109,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xb646c4a51365598433ba4765b890ad3075e4e21e',
     },
@@ -3382,7 +3512,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 31,
+    index: 108,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x63571f457f246124c6968579E8797B91613dED20',
     },
@@ -3403,7 +3534,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 28,
+    index: 107,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x7fdb62f681d7aad8c08a1d6af350e2fb7f265336',
     },
@@ -3424,7 +3556,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 26,
+    index: 106,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x07968648273e29f5e2fe07aabf5fbc3b40892592',
     },
@@ -3443,7 +3576,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 25,
+    index: 105,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xff674209beeb493f9e8c44898848c6cfd710e98f',
     },
@@ -3464,7 +3598,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 24,
+    index: 104,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x2f8042167b0549ef56e55b9c1ace661b10ad93ea',
     },
@@ -3485,7 +3620,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 23,
+    index: 103,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xc117e57f4fa2fc1c2759228e0f85bc6d1c89be36',
     },
@@ -3504,7 +3640,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 21,
+    index: 102,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x7e7842f762b27a024f7c3b95495f1d132c554d6b',
     },
@@ -3525,7 +3662,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 19,
+    index: 101,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x99eea57cdc8983992a3c1505dbf7181467daa22f',
     },
@@ -3546,7 +3684,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 18,
+    index: 100,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x80ef5c5215ff56a12b5e59c2acfc279c763ae34b',
     },
@@ -3567,7 +3706,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 12,
+    index: 99,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x3f02ce456b9da36352439fbd1897c2233a77e46f',
     },
@@ -3586,7 +3726,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 5,
+    index: 98,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x1c36913ca7c64365a54694cd91dde9c7cf5e44ec',
     },
@@ -3607,7 +3748,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 6,
+    index: 97,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xd9e18fae215f10f4ce35a24fcbfe944fbfb96643',
     },
@@ -3626,7 +3768,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 7,
+    index: 96,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xda0149da023cb204b3ffba33a88d9dd19393c6fc',
     },
@@ -3645,7 +3788,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 8,
+    index: 95,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xaf3016100f67c66af15c973cb8da94962653a726',
     },
@@ -3666,7 +3810,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 9,
+    index: 94,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x6a5be77e3fc1c99ef4aae2846432d61fa78a564c',
     },
@@ -3687,7 +3832,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 10,
+    index: 93,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xb5fd0ac23267da501fc6c59c6e12ae32831e72bb',
     },
@@ -3708,7 +3854,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 11,
+    index: 92,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x4a3adf34b1f8830fb8d673477d52fa5cb91a2531',
     },
@@ -3728,9 +3875,12 @@ const bills: BillsConfig[] = [
     initPrice: { [ChainId.BSC]: 0.1736239460283216 },
     soldOut: true,
   },
+
   // Old liquiditys
+
   {
-    index: 0,
+    index: 91,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x8b57Fc5BE65118188D50d42fcD5614e447F7FAbE',
     },
@@ -3749,7 +3899,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 1,
+    index: 90,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x4925AcdE0E885170801A74DEBcC8fbA91F3aE29b',
     },
@@ -3768,7 +3919,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 2,
+    index: 89,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xca1612f66292398a5df0ecadd98bb81dc264349d',
     },
@@ -3787,7 +3939,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 3,
+    index: 88,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xb2d516086BFc978950e40D2739c72125415441a8',
     },
@@ -3806,7 +3959,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 4,
+    index: 87,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xBD9959320cbbC69b2eF7d07fb3f9870cceaeB44f',
     },
@@ -3825,7 +3979,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 13,
+    index: 86,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xE325439439D692DC858Ba887601999D57d35688F',
     },
@@ -3844,7 +3999,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 14,
+    index: 85,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xf297F71f4664cF7F1Cd5d90720967998A1163cC3',
     },
@@ -3863,7 +4019,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 15,
+    index: 84,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x937A30Fd88f48B23DeABf4fD43c42cc9d3f3F9Dd',
     },
@@ -3882,7 +4039,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 16,
+    index: 83,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x2D375a67366eDFB92F520aE428E8E08451D638d2',
     },
@@ -3901,7 +4059,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 17,
+    index: 82,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x44921f493887ab8a8b9db54db335f65c1ef8d51a',
     },
@@ -3920,7 +4079,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 32,
+    index: 81,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xa45dc4b9743d489e9b91070b27e72094b697632d',
     },
@@ -3941,7 +4101,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 33,
+    index: 80,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x3a4de56b96d5befd0c9f3fb214372699f2d58947',
     },
@@ -3962,7 +4123,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 34,
+    index: 79,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xb0992d86e7d4de0200c463e6451cce1f2775903b',
     },
@@ -3983,7 +4145,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 35,
+    index: 78,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x08dd5a43e5fc889f2100023f8296e14d9fd40064',
     },
@@ -4004,7 +4167,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 36,
+    index: 77,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x069002be4ec72333a3fa8a5730e8b84680a190a4',
     },
@@ -4025,7 +4189,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 63,
+    index: 76,
+    chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x1bAFb5916b438fBFc029088da6BF96bd9CF4cb09',
     },
@@ -4051,8 +4216,10 @@ const bills: BillsConfig[] = [
   /*
     Polygon Bills
   */
+
   {
-    index: 143,
+    index: 75,
+    chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xFDC0A1b63e32e5f43B9094850dB3b40B0989b2c1',
     },
@@ -4080,7 +4247,8 @@ const bills: BillsConfig[] = [
     tags: ['DEPIN'],
   },
   {
-    index: 142,
+    index: 74,
+    chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x1155A0fF366564A299F9e9Eb14aE40Ff0b4EbbFB',
     },
@@ -4109,7 +4277,8 @@ const bills: BillsConfig[] = [
     tags: ['RWA'],
   },
   {
-    index: 141,
+    index: 73,
+    chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x981686139340a84EAC66FD919E089EA23A984fc3',
     },
@@ -4137,7 +4306,8 @@ const bills: BillsConfig[] = [
     tags: ['GAMEFI', 'NFT'],
   },
   {
-    index: 140,
+    index: 72,
+    chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x627c2dc1e4Eb8EeA95844da77E000D45036473f1',
     },
@@ -4166,7 +4336,8 @@ const bills: BillsConfig[] = [
     tags: ['AI', 'METAVERSE'],
   },
   {
-    index: 139,
+    index: 71,
+    chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xF42c8B8973E7A26E2Ae34a96eA7c7F2E97185855',
     },
@@ -4195,7 +4366,8 @@ const bills: BillsConfig[] = [
     tags: ['V3 Liquidity Managers'],
   },
   {
-    index: 138,
+    index: 70,
+    chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x2FA2fC00252c8DDD88bb5699c6a06A4c62D8402B',
     },
@@ -4223,7 +4395,8 @@ const bills: BillsConfig[] = [
     tags: ['GAMEFI'],
   },
   {
-    index: 137,
+    index: 69,
+    chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xd9828D048E35f0B5B3eDdd4759D5b2B769d8cB7b',
     },
@@ -4251,7 +4424,8 @@ const bills: BillsConfig[] = [
     tags: ['GAMEFI'],
   },
   {
-    index: 136,
+    index: 68,
+    chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xBeC0Fbc20338FAD8AFA0325C09094e28E22534C3',
     },
@@ -4280,7 +4454,8 @@ const bills: BillsConfig[] = [
       'Gensokishi is the metaverse incarnation of “Elemental Knights Online,” which won the 2012 Game of the year (Gold) in Taiwan. Utilizing blockchain technology, they aim to create a new economy within the virtual world. Purchase an MV Bond worth $20 or more to unlock an exclusive in-game <a href="https://twitter.com/genso_meta/status/1755246359165157634" target="_blank" rel="noopener noreferrer" style="color: #6560C5">ApeBond Shield</a>',
   },
   {
-    index: 135,
+    index: 67,
+    chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x39D66fE579130B26Fed64187C0BA7fB03079424A',
     },
@@ -4309,7 +4484,8 @@ const bills: BillsConfig[] = [
     tags: ['Marketing Solutions'],
   },
   {
-    index: 134,
+    index: 66,
+    chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x4fbEc51bFB4Fad1D431608d8CAfDe3Bc48c64F8A',
     },
@@ -4338,7 +4514,8 @@ const bills: BillsConfig[] = [
     tags: ['NFT'],
   },
   {
-    index: 133,
+    index: 65,
+    chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x6dA8D2b851bdbCc50012f26d2a49107fe67fAB24',
     },
@@ -4366,7 +4543,8 @@ const bills: BillsConfig[] = [
     tags: ['Reserve'],
   },
   {
-    index: 132,
+    index: 64,
+    chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xcbf5A78AA5cAb66779355FE850884D7029Fbd4df',
     },
@@ -4394,7 +4572,8 @@ const bills: BillsConfig[] = [
     tags: ['GAMEFI'],
   },
   {
-    index: 131,
+    index: 63,
+    chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xff4c72eE74916Ce8FA81FFf0DFFa8a32288E31E9',
     },
@@ -4423,7 +4602,8 @@ const bills: BillsConfig[] = [
     tags: ['V3 Liquidity Managers'],
   },
   {
-    index: 130,
+    index: 62,
+    chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xA7AaA5229346ac1d7524ca6A3bB71816E39982Bb',
     },
@@ -4451,7 +4631,8 @@ const bills: BillsConfig[] = [
     tags: ['GAMEFI', 'NFT'],
   },
   {
-    index: 129,
+    index: 61,
+    chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x9D1445b4e4694dFB2F34c2536ea1bb238f9B3B3b',
     },
@@ -4479,7 +4660,8 @@ const bills: BillsConfig[] = [
     tags: ['GAMEFI', 'NFT'],
   },
   {
-    index: 128,
+    index: 60,
+    chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xE504157665Ac78301C793411542446997c33697b',
     },
@@ -4508,7 +4690,8 @@ const bills: BillsConfig[] = [
       'Gensokishi is the metaverse incarnation of “Elemental Knights Online,” which won the 2012 Game of the year (Gold) in Taiwan. Utilizing blockchain technology, they aim to create a new economy within the virtual world. Purchase an MV Bond worth $20 or more to unlock an exclusive in-game <a href="https://twitter.com/genso_meta/status/1755246359165157634" target="_blank" rel="noopener noreferrer" style="color: #6560C5">ApeBond Shield</a>',
   },
   {
-    index: 127,
+    index: 59,
+    chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xB108dc4b5518079348aB4222Ab8359c50a3f3eba',
     },
@@ -4536,7 +4719,8 @@ const bills: BillsConfig[] = [
     tags: ['GAMEFI'],
   },
   {
-    index: 126,
+    index: 58,
+    chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xa772329656bcEDa4e312735bbac24d1EF944e793',
     },
@@ -4564,7 +4748,8 @@ const bills: BillsConfig[] = [
     tags: ['StableCoin'],
   },
   {
-    index: 125,
+    index: 57,
+    chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x67F95211bD71a9D4d39A61d13a151b73347f5208',
     },
@@ -4593,7 +4778,8 @@ const bills: BillsConfig[] = [
     tags: ['Yield Aggregator'],
   },
   {
-    index: 124,
+    index: 56,
+    chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xa03f7F8eC6CF8e217dBE506D990F81B3378e6EEB',
     },
@@ -4621,7 +4807,8 @@ const bills: BillsConfig[] = [
     tags: ['GAMEFI', 'NFT'],
   },
   {
-    index: 123,
+    index: 55,
+    chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xA26f70b1AdDe39F79E1e688196a0a10120FE1991',
     },
@@ -4649,7 +4836,8 @@ const bills: BillsConfig[] = [
     tags: ['DeFi'],
   },
   {
-    index: 122,
+    index: 54,
+    chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x1f3b1E69c874D29e6928ebddA91C22454074d8Fa',
     },
@@ -4677,7 +4865,8 @@ const bills: BillsConfig[] = [
     tags: ['GAMEFI'],
   },
   {
-    index: 121,
+    index: 53,
+    chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x33fA58e25b16D6FfEF63bE1CDba38951A7bd3641',
     },
@@ -4705,7 +4894,8 @@ const bills: BillsConfig[] = [
     tags: ['GAMEFI', 'NFT'],
   },
   {
-    index: 120,
+    index: 52,
+    chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x262b966d81838D123622Da16B7e97193f4395103',
     },
@@ -4733,7 +4923,8 @@ const bills: BillsConfig[] = [
     tags: ['GAMEFI', 'NFT'],
   },
   {
-    index: 119,
+    index: 51,
+    chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x972824E0EC4987Af972F2086fAb2547Fbf7B4d27',
     },
@@ -4761,7 +4952,8 @@ const bills: BillsConfig[] = [
     tags: ['AI'],
   },
   {
-    index: 118,
+    index: 50,
+    chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x87da4b12dbEF3817570Ed32283E2FED85FBf1B93',
     },
@@ -4790,7 +4982,8 @@ const bills: BillsConfig[] = [
     tags: ['Infra'],
   },
   {
-    index: 117,
+    index: 49,
+    chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xc8BD613c3895F5A9dD3e2188706790da676DA002',
     },
@@ -4818,7 +5011,8 @@ const bills: BillsConfig[] = [
     tags: ['GAMEFI'],
   },
   {
-    index: 116,
+    index: 48,
+    chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x7a9700023be5Bd12f35948A4442cc14Bf392Ef62',
     },
@@ -4846,7 +5040,8 @@ const bills: BillsConfig[] = [
     tags: ['Infra'],
   },
   {
-    index: 115,
+    index: 47,
+    chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xFA1d99e3CF2816002ea1E29B6eDF0eDbb82f6d22',
     },
@@ -4874,7 +5069,8 @@ const bills: BillsConfig[] = [
     tags: ['Meme', 'NFT'],
   },
   {
-    index: 114,
+    index: 46,
+    chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x6Df8830c1dA2a5bB0e4A98DD84f079E83eE9e9a5',
     },
@@ -4902,7 +5098,8 @@ const bills: BillsConfig[] = [
     tags: ['GAMEFI'],
   },
   {
-    index: 113,
+    index: 45,
+    chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x3b8E9B6047B9ea84Ea7E9758347F2fF15021c632',
     },
@@ -4931,7 +5128,8 @@ const bills: BillsConfig[] = [
     tags: ['DeFi'],
   },
   {
-    index: 112,
+    index: 44,
+    chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xc06d6a4Ecb6430417A27d904a905Ab7261c7A815',
     },
@@ -4959,7 +5157,8 @@ const bills: BillsConfig[] = [
     tags: ['DeFi'],
   },
   {
-    index: 111,
+    index: 43,
+    chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x257A720718Cba6356f3aDD881F23Cefc9C57AAeA',
     },
@@ -4984,7 +5183,8 @@ const bills: BillsConfig[] = [
     bondPartner: 'QuickSwap',
   },
   {
-    index: 110,
+    index: 42,
+    chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x53859764AC3A49B8e442666d384b57A29fa5d927',
     },
@@ -5013,7 +5213,8 @@ const bills: BillsConfig[] = [
       'Genso is the metaverse incarnation of “Elemental Knights Online,” which won the 2012 Game of the year (Gold) in Taiwan. Utilizing blockchain technology, they aim to create a new economy within the virtual world. Web3, RPG & Metaverse are all combined within the realm of Gensokishi.',
   },
   {
-    index: 109,
+    index: 41,
+    chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x4F256deDd156fB1Aa6e485E92FeCeB7bc15EBFcA',
     },
@@ -5035,7 +5236,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 108,
+    index: 40,
+    chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x6c83cF7e4305f6D66930754f4855f2ea4357BaBf',
     },
@@ -5058,7 +5260,8 @@ const bills: BillsConfig[] = [
     showcaseToken: tokens.cgg,
   },
   {
-    index: 107,
+    index: 39,
+    chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x5F05a78734853C34661D1C6Db46b5661dEef7374',
     },
@@ -5080,7 +5283,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 106,
+    index: 38,
+    chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x220A6561490eE6926F4dBE8416E5cb0C2277a13D',
     },
@@ -5102,7 +5306,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 105,
+    index: 37,
+    chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xB226290a0078a18b0A2a3BDA7460b82b966B656a',
     },
@@ -5124,7 +5329,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 104,
+    index: 36,
+    chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x66466E907B63D5c7a7Dd560e490adB596DFDf61B',
     },
@@ -5147,7 +5353,8 @@ const bills: BillsConfig[] = [
     showcaseToken: tokens.cgg,
   },
   {
-    index: 103,
+    index: 35,
+    chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xb53b2706897a26fec9113f3e2371ac5b2b88970a',
     },
@@ -5168,7 +5375,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 100,
+    index: 34,
+    chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x643a6848a3906182a94ec857a41c1735664c677f',
     },
@@ -5187,7 +5395,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 101,
+    index: 33,
+    chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xca48704b19a053ebb5a077c215dcb4be745c9fe5',
     },
@@ -5208,7 +5417,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 102,
+    index: 32,
+    chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xc16cf0e4c090409765757e5b13afdfc500148678',
     },
@@ -5230,10 +5440,12 @@ const bills: BillsConfig[] = [
   },
 
   /*
-    Telos Bills
+    Tlos Bills
   */
+
   {
-    index: 211,
+    index: 31,
+    chainId: ChainId.TLOS,
     contractAddress: {
       [ChainId.TLOS]: '0x84662B6bBef1E81aBcAa8372678ADBbA49d07C2c',
     },
@@ -5254,7 +5466,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 212,
+    index: 30,
+    chainId: ChainId.TLOS,
     contractAddress: {
       [ChainId.TLOS]: '0x5d72Be8B3E8F07f9D41944a148a109F18Cb65f55',
     },
@@ -5275,7 +5488,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 213,
+    index: 29,
+    chainId: ChainId.TLOS,
     contractAddress: {
       [ChainId.TLOS]: '0xF5F350ddcC3DE0733B62E71844A9C8BE4032DE52',
     },
@@ -5296,7 +5510,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 214,
+    index: 28,
+    chainId: ChainId.TLOS,
     contractAddress: {
       [ChainId.TLOS]: '0xE5325b9F69255098786908c79A234584FfC62dcb',
     },
@@ -5317,7 +5532,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 215,
+    index: 27,
+    chainId: ChainId.TLOS,
     contractAddress: {
       [ChainId.TLOS]: '0x07273ae6E441491fc4410aE9F8371AEdd7A19499',
     },
@@ -5338,7 +5554,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 206,
+    index: 26,
+    chainId: ChainId.TLOS,
     contractAddress: {
       [ChainId.TLOS]: '0x1Bb2Eb63c2B2CD1cE5887B4628694276E637BeD7',
     },
@@ -5359,7 +5576,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 207,
+    index: 25,
+    chainId: ChainId.TLOS,
     contractAddress: {
       [ChainId.TLOS]: '0xe3725Eccd93bb544b360BB572893eF17E42219c4',
     },
@@ -5380,7 +5598,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 208,
+    index: 24,
+    chainId: ChainId.TLOS,
     contractAddress: {
       [ChainId.TLOS]: '0x81f2BA390934df655eABcc3787F4f5f694e722ED',
     },
@@ -5401,7 +5620,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 209,
+    index: 23,
+    chainId: ChainId.TLOS,
     contractAddress: {
       [ChainId.TLOS]: '0x68aEaAbE6EbBd2b5Cf0130d0BAAef1Ec5E0539Aa',
     },
@@ -5422,7 +5642,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 210,
+    index: 22,
+    chainId: ChainId.TLOS,
     contractAddress: {
       [ChainId.TLOS]: '0xb3a0b38E5C07db5238538a640155562085F22bCe',
     },
@@ -5443,7 +5664,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 201,
+    index: 21,
+    chainId: ChainId.TLOS,
     contractAddress: {
       [ChainId.TLOS]: '0x7C02E197BC2644FE0E9834641F80aC0A15055ad7',
     },
@@ -5462,7 +5684,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 202,
+    index: 20,
+    chainId: ChainId.TLOS,
     contractAddress: {
       [ChainId.TLOS]: '0x76a33a5d002C711A3F353cB4Ee2B112B579c317a',
     },
@@ -5481,7 +5704,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 203,
+    index: 19,
+    chainId: ChainId.TLOS,
     contractAddress: {
       [ChainId.TLOS]: '0xa08A0125F4B85320e2357174EDC9E262098BF850',
     },
@@ -5500,7 +5724,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 204,
+    index: 18,
+    chainId: ChainId.TLOS,
     contractAddress: {
       [ChainId.TLOS]: '0xD1FbE4EAFAcB7FdC56F7Aa8dA24198b01942C677',
     },
@@ -5519,7 +5744,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 205,
+    index: 17,
+    chainId: ChainId.TLOS,
     contractAddress: {
       [ChainId.TLOS]: '0xc17a1ea1Da9975A2fad85eC7C39AEBA2B4BfEA11',
     },
@@ -5537,11 +5763,14 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/HelloTelos',
     soldOut: true,
   },
+
   /*
-      Arbitrum Bills - ID started from 2001
+    Arbitrum Bills
   */
+
   {
-    index: 2004,
+    index: 16,
+    chainId: ChainId.ARBITRUM,
     contractAddress: {
       [ChainId.ARBITRUM]: '0x04dA96Fb9F43491D3601F2b04424ABE7F12F700d',
     },
@@ -5566,7 +5795,8 @@ const bills: BillsConfig[] = [
     },
   },
   {
-    index: 2003,
+    index: 15,
+    chainId: ChainId.ARBITRUM,
     contractAddress: {
       [ChainId.ARBITRUM]: '0xb5022e9DE06793D74c7892cD0e7D820cdEd05611',
     },
@@ -5588,7 +5818,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 2002,
+    index: 14,
+    chainId: ChainId.ARBITRUM,
     contractAddress: {
       [ChainId.ARBITRUM]: '0xd194D68eF1055741c943958002A19622f5141E86',
     },
@@ -5610,7 +5841,8 @@ const bills: BillsConfig[] = [
     soldOut: true,
   },
   {
-    index: 2001,
+    index: 13,
+    chainId: ChainId.ARBITRUM,
     contractAddress: {
       [ChainId.ARBITRUM]: '0x9Bd72c6c69cC314AdfF396cC2b34fF7e7fbd68ad',
     },
@@ -5631,11 +5863,14 @@ const bills: BillsConfig[] = [
     initPrice: { [ChainId.ARBITRUM]: 1.5528 },
     soldOut: true,
   },
+
   /*
-      ETH Bills - ID started from 3000
+    Ethereum Bills
   */
+
   {
-    index: 3000,
+    index: 12,
+    chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0x0EA92F3a9652a5f8a3C6123578276915b76411E9',
     },
@@ -5663,7 +5898,8 @@ const bills: BillsConfig[] = [
       "As a SingularityNET ecosystem project, Cogito Finance leverages Snet's AI technologies for intelligent asset management, tokenizing RWAs for onchain access.",
   },
   {
-    index: 3001,
+    index: 11,
+    chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0x9fD6CA9F2E8eeac75EFCeB56271DD5F0988546cE',
     },
@@ -5690,7 +5926,8 @@ const bills: BillsConfig[] = [
       'Planet IX is a Web3 play-to-earn platform fueled by their native IX Token. Every asset on Planet IX is an NFT, allowing users to farm, own, and trade them. The main goal is to restore the planet to its former green-blue glory. Join Planet IX and become an Agent of Change now.',
   },
   {
-    index: 3002,
+    index: 10,
+    chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0xb44dE605a67fc95F239c0Ccf7086a5E1Aaf7A38C',
     },
@@ -5718,7 +5955,8 @@ const bills: BillsConfig[] = [
       'Forward is the WordPress of Web 3.0, an AI powered no-code drag-and-drop full stack solution that enables people to deploy dApps on any chain. Developers can monetize their built templates.',
   },
   {
-    index: 3003,
+    index: 9,
+    chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0x8fCabf87bB618eEb42237839ed98dc99Ee7ab165',
     },
@@ -5745,7 +5983,8 @@ const bills: BillsConfig[] = [
       "GPT Protocol's AI delivers robust, censorship-resistant technology, ensuring the integrity of data and the preservation of intellectual freedom. With a comprehensive roadmap that includes the GPT Testnet and Tools, Chat Assistant, 3D Art from Text, and AI Grid Computing, GPT Protocol is shaping a future where data integrity, intellectual freedom, and collaborative innovation form the pillars of the digital world.",
   },
   {
-    index: 3004,
+    index: 8,
+    chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0xC0d4000b40B5F871d0e9DA2e2352bFcaE2E513bB',
     },
@@ -5773,7 +6012,8 @@ const bills: BillsConfig[] = [
       "Cirus is a Web3 wallet that rewards its users. Subscribers can earn money for their data, manage their assets, and gain access to the Web3 Powered App Store, all while improving their Cirus Score to unlock exclusive rewards. Surf the web and earn crypto: it's as simple as that with Cirus.",
   },
   {
-    index: 3005,
+    index: 7,
+    chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0xA695B31319ea84E8fCC552F4648515970cD34B16',
     },
@@ -5800,7 +6040,8 @@ const bills: BillsConfig[] = [
       'Monsta ETH: A vibrant ecosystem which combines deflation, user rewards, and buyback mechanics with a yield-bearing multi-vault system that fosters the protocol and the value of their native token $METH.',
   },
   {
-    index: 3006,
+    index: 6,
+    chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0x5fa4A0df090f6728Bd61EbCB821bDf533B0ecd1F',
     },
@@ -5827,7 +6068,8 @@ const bills: BillsConfig[] = [
       'Strike Finance allows users to control all of their digital assets on a non-custodial protocol while earning a variable rate based on market demands of that asset. Rates are earned per Ethereum block mined. With a friendly user interface and the Strike protocols decentralized nature, users and developers can access liquidity on-demand from their supplied collateral. Strike Finance: the place for exceptional APYs.',
   },
   {
-    index: 3007,
+    index: 5,
+    chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0x6321eD6E53B3c7Eaef7136632bae9b13B4a53976',
     },
@@ -5854,7 +6096,8 @@ const bills: BillsConfig[] = [
       "GPT Plus is leading a transformative journey, turning visionary ideas into intelligent, blockchain-backed solutions. It stands as the definitive destination for state-of-the-art AI tools, where AI meets convenience, streamlining users' tasks and enhancing productivity. GPT Plus offers an experience of the future of technology, all curated and centralized for the ease of users.",
   },
   {
-    index: 3008,
+    index: 4,
+    chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0x0BA50Abf5deA07b378189011833C1DBf71879806',
     },
@@ -5881,7 +6124,8 @@ const bills: BillsConfig[] = [
       "Chirpley is the world's first fully automated, peer-to-peer, all-in-one influencer marketplace exclusively dedicated to nano and micro-influencers. It facilitates end-to-end automated influencer campaigns through Artificial Intelligence, Machine Learning, and Blockchain technology. Chirpley ensures perfectly matched collaborations between sponsors and brands, eliminating the need for tiresome negotiations among influencers, marketers, and agents.",
   },
   {
-    index: 3009,
+    index: 3,
+    chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0x6398Cf53F66DfEaA1B290D466765883cC2F23423',
     },
@@ -5909,7 +6153,8 @@ const bills: BillsConfig[] = [
     tags: ['Reserve'],
   },
   {
-    index: 3010,
+    index: 2,
+    chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0x1E3C53D776AD4d3045575298d821b29AA76e4581',
     },
@@ -5938,7 +6183,8 @@ const bills: BillsConfig[] = [
     tags: ['GAMEFI'],
   },
   {
-    index: 3011,
+    index: 1,
+    chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0x17924734790989DfbFA7e4733E81b99A7A7c80De',
     },
