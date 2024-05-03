@@ -14369,6 +14369,297 @@
     "soldOut": true
   },
   {
+    "index": 143,
+    "contractAddress": {
+      "137": "0xFDC0A1b63e32e5f43B9094850dB3b40B0989b2c1"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "MATIC",
+      "address": {
+        "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
+        "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
+      },
+      "decimals": {
+        "56": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "MATIC",
+      "address": {
+        "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
+        "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
+      },
+      "decimals": {
+        "56": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "MATIC",
+      "address": {
+        "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
+        "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
+      },
+      "decimals": {
+        "56": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "ECLD",
+      "address": {
+        "137": "0xc6920888988cAcEeA7ACCA0c96f2D65b05eE22Ba"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "Algebra"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
+    },
+    "inactive": false,
+    "projectLink": "https://ethernity.cloud/",
+    "twitter": "https://twitter.com/Ethernity_cloud",
+    "initTime": {
+      "137": 1701892800
+    },
+    "initPrice": {
+      "137": 0.347018667988457
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "Quickswap_Collection1"
+    },
+    "bondPartner": "QuickSwap",
+    "fullDescription": "Ethernity Cloud is a Web3 decentralized confidential computing ecosystem supported by a community of enthusiastic node operators, stakers, and developers. As Web2 solutions fall behind in terms of security and affordability, Ethernity Cloud’s DePin excels with its EVM Confidential Computing architecture. Ethernity Cloud’s bulletproof decentralized architecture and advanced encryption techniques ensure that data remains secure for businesses at all times, whether it is in transit, at rest, or being processed.",
+    "tags": ["DEPIN"]
+  },
+  {
+    "index": 142,
+    "contractAddress": {
+      "137": "0x1155A0fF366564A299F9e9Eb14aE40Ff0b4EbbFB"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "2525": 6,
+        "42161": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "2525": "External"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "2525": 6,
+        "42161": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "2525": "External"
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "2525": 6,
+        "42161": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "2525": "External"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "NSDX",
+      "address": {
+        "137": "0xE8d17b127BA8b9899a160D9a07b69bCa8E08bfc6"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "QuickswapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
+    },
+    "inactive": false,
+    "projectLink": "https://www.nasdex.xyz/deals",
+    "twitter": "https://twitter.com/nasdex_xyz",
+    "audit": "https://hacken.io/audits/nasdex",
+    "initTime": {
+      "137": 1701892800
+    },
+    "initPrice": {
+      "137": 0.347018667988457
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "Quickswap_Collection1"
+    },
+    "bondPartner": "QuickSwap",
+    "fullDescription": "NASDEX empowers users to trade and invest in a diverse array of tokenized real-world assets such as stocks, derivatives, and real estate. Their state-of-the-art minting and trading mechanisms mirror the intricate dynamics of traditional equity markets and empower users to capitalize on borderless opportunities and be part of the future of finance. Users get access to private equity, private credit, private real estate, hedge funds, commercial papers, and more for as low as USD 1,000!",
+    "tags": ["RWA"]
+  },
+  {
+    "index": 141,
+    "contractAddress": {
+      "137": "0x981686139340a84EAC66FD919E089EA23A984fc3"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "IXT",
+      "address": {
+        "137": "0xE06Bd4F5aAc8D0aA337D13eC88dB6defC6eAEefE"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "QuickswapV2"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "2525": 6,
+        "42161": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "2525": "External"
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "IXT-USDT",
+      "address": {
+        "137": "0x304e57c752E854E9A233Ae82fcC42F7568b81180"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "QuickswapV2"
+      },
+      "active": true,
+      "lpToken": true,
+      "getLpUrl": {
+        "137": "https://quickswap.exchange/#/pools/v2?currency0=0xE06Bd4F5aAc8D0aA337D13eC88dB6defC6eAEefE&currency1=0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+      }
+    },
+    "earnToken": {
+      "symbol": "IXT",
+      "address": {
+        "137": "0xE06Bd4F5aAc8D0aA337D13eC88dB6defC6eAEefE"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "QuickswapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
+    },
+    "inactive": false,
+    "projectLink": "https://planetix.com/",
+    "twitter": "https://twitter.com/Planetix0",
+    "initTime": {
+      "137": 1701892800
+    },
+    "initPrice": {
+      "137": 0.347018667988457
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "PlanetIX_Collection1"
+    },
+    "bondPartner": "QuickSwap",
+    "fullDescription": "Planet IX is a Web3 play-to-earn platform fueled by their native IX Token. Every asset on Planet IX is an NFT, allowing users to farm, own, and trade them. The main goal is to restore the planet to its former green-blue glory. Join Planet IX and become an Agent of Change now.",
+    "tags": ["GAMEFI", "NFT"]
+  },
+  {
     "index": 140,
     "contractAddress": {
       "137": "0x627c2dc1e4Eb8EeA95844da77E000D45036473f1"
