@@ -3,7 +3,7 @@ import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
 // BNB Largest ID: 1058
-// Polygon Largest ID: 140
+// Polygon Largest ID: 143
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
 // ETH Largest ID: 3011
@@ -4051,6 +4051,91 @@ const bills: BillsConfig[] = [
   /*
     Polygon Bills
   */
+  {
+    index: 143,
+    contractAddress: {
+      [ChainId.MATIC]: '0xFDC0A1b63e32e5f43B9094850dB3b40B0989b2c1',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.wmatic,
+    quoteToken: tokens.wmatic,
+    lpToken: tokens.wmatic,
+    earnToken: tokens.ecld,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://ethernity.cloud/',
+    twitter: 'https://twitter.com/Ethernity_cloud',
+    initTime: { [ChainId.MATIC]: 1701892800 },
+    initPrice: { [ChainId.MATIC]: 0.347018667988457 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+    fullDescription:
+      'Ethernity Cloud is a Web3 decentralized confidential computing ecosystem supported by a community of enthusiastic node operators, stakers, and developers. As Web2 solutions fall behind in terms of security and affordability, Ethernity Cloud’s DePin excels with its EVM Confidential Computing architecture. Ethernity Cloud’s bulletproof decentralized architecture and advanced encryption techniques ensure that data remains secure for businesses at all times, whether it is in transit, at rest, or being processed.',
+    tags: ['DEPIN'],
+  },
+  {
+    index: 142,
+    contractAddress: {
+      [ChainId.MATIC]: '0x1155A0fF366564A299F9e9Eb14aE40Ff0b4EbbFB',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.nsdx,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://www.nasdex.xyz/deals',
+    twitter: 'https://twitter.com/nasdex_xyz',
+    audit: 'https://hacken.io/audits/nasdex',
+    initTime: { [ChainId.MATIC]: 1701892800 },
+    initPrice: { [ChainId.MATIC]: 0.347018667988457 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+    fullDescription:
+      'NASDEX empowers users to trade and invest in a diverse array of tokenized real-world assets such as stocks, derivatives, and real estate. Their state-of-the-art minting and trading mechanisms mirror the intricate dynamics of traditional equity markets and empower users to capitalize on borderless opportunities and be part of the future of finance. Users get access to private equity, private credit, private real estate, hedge funds, commercial papers, and more for as low as USD 1,000!',
+    tags: ['RWA'],
+  },
+  {
+    index: 141,
+    contractAddress: {
+      [ChainId.MATIC]: '0x981686139340a84EAC66FD919E089EA23A984fc3',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.ixt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.ixtUsdt_QS,
+    earnToken: tokens.ixt,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://planetix.com/',
+    twitter: 'https://twitter.com/Planetix0',
+    initTime: { [ChainId.MATIC]: 1701892800 },
+    initPrice: { [ChainId.MATIC]: 0.347018667988457 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.PlanetIX_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+    fullDescription:
+      'Planet IX is a Web3 play-to-earn platform fueled by their native IX Token. Every asset on Planet IX is an NFT, allowing users to farm, own, and trade them. The main goal is to restore the planet to its former green-blue glory. Join Planet IX and become an Agent of Change now.',
+    tags: ['GAMEFI', 'NFT'],
+  },
   {
     index: 140,
     contractAddress: {
