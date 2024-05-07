@@ -191,7 +191,7 @@ const flashBonds: FlashBondConfig[] = [
       [ChainId.BSC]: 1715106600, // May 7th 1830 UTC
     },
     initPrice: {
-      [ChainId.BSC]: 584.1,
+      [ChainId.BSC]: 579.18,
     },
     initialRelease: 100,
   },
