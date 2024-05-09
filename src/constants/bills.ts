@@ -6,7 +6,7 @@ import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } fr
 // Polygon Largest ID: 143
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
-// ETH Largest ID: 3011
+// ETH Largest ID: 3012
 //Migration Bonds ID: 5007
 
 const bills: BillsConfig[] = [
@@ -5964,6 +5964,34 @@ const bills: BillsConfig[] = [
     fullDescription:
       'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
     tags: ['Reserve'],
+  },
+  {
+    index: 3012,
+    contractAddress: {
+      [ChainId.MAINNET]: '0x1bE1BD09c887c8373c04B6aC870A1053d2A5f89C',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    token: tokens.usdc,
+    quoteToken: tokens.usdc,
+    lpToken: tokens.usdc,
+    earnToken: tokens.orbs,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    inactive: false,
+    projectLink: 'https://www.orbs.com/overview/',
+    twitter: 'https://twitter.com/orbs_network',
+    audit: 'https://github.com/orbs-network/orbs-token/blob/master/SmartDec%20OrbsToken%20Security%20Audit.pdf',
+    initTime: { [ChainId.MAINNET]: 1715268918 },
+    initPrice: { [ChainId.MAINNET]: 0.0334978015237449 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    fullDescription:
+      'Orbs is an open, decentralized and public blockchain infrastructure executed by a secure network of permissionless validators using Proof-of-Stake (PoS) consensus.',
+    tags: ['Infra'],
   },
 ]
 
