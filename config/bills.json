@@ -14693,7 +14693,7 @@
         "137": 18
       },
       "liquidityDex": {
-        "137": "External"
+        "137": "QuickswapV2"
       },
       "active": true
     },
@@ -14723,7 +14723,7 @@
         "137": 18
       },
       "liquidityDex": {
-        "137": "External"
+        "137": "QuickswapV2"
       },
       "active": true
     },
@@ -21028,5 +21028,102 @@
     },
     "fullDescription": "ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.",
     "tags": ["Reserve"]
+  },
+  {
+    "index": 3012,
+    "contractAddress": {
+      "1": "0x1bE1BD09c887c8373c04B6aC870A1053d2A5f89C"
+    },
+    "billType": "reserve",
+    "billVersion": "V3",
+    "token": {
+      "symbol": "USDC",
+      "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+        "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDC",
+      "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+        "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+        "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "ORBS",
+      "address": {
+        "1": "0xff56Cc6b1E6dEd347aA0B7676C85AB0B3D08B0FA",
+        "137": "0x614389EaAE0A6821DC49062D56BDA3d9d45Fa2ff"
+      },
+      "decimals": {
+        "1": 18,
+        "137": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "137": "QuickswapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "1": "0x499b654b0a7f9979cc315190c09ca2633809b8df"
+    },
+    "inactive": false,
+    "projectLink": "https://www.orbs.com/overview/",
+    "twitter": "https://twitter.com/orbs_network",
+    "audit": "https://github.com/orbs-network/orbs-token/blob/master/SmartDec%20OrbsToken%20Security%20Audit.pdf",
+    "initTime": {
+      "1": 1715268918
+    },
+    "initPrice": {
+      "1": 0.0334978015237449
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ETH_Collection1"
+    },
+    "fullDescription": "Orbs is an open, decentralized and public blockchain infrastructure executed by a secure network of permissionless validators using Proof-of-Stake (PoS) consensus.",
+    "tags": ["Infra"]
   }
 ]
