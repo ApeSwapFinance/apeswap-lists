@@ -14693,7 +14693,7 @@
         "137": 18
       },
       "liquidityDex": {
-        "137": "QuickswapV2"
+        "137": "External"
       },
       "active": true
     },
@@ -14723,7 +14723,7 @@
         "137": 18
       },
       "liquidityDex": {
-        "137": "QuickswapV2"
+        "137": "External"
       },
       "active": true
     },
