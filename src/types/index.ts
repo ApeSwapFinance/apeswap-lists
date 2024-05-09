@@ -126,6 +126,8 @@ export interface LaunchProjectConfig {
   bonds: TieredSaleBondConfig[]
   saleStartTime: string
   totalAllocation: string
+  salePriceString: string
+  vestingTimeString: string
   projectInfo: {
     shortDescription: string
     fullDescription: string
@@ -141,6 +143,7 @@ export interface LaunchProjectConfig {
     }
     images: {
       launchpadImg: string
+      launchpadSmallImg: string
       launchpadIcon: string
       headerImg: string
       headerImgMobile: string
