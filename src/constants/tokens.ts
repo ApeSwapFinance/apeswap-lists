@@ -936,12 +936,15 @@ const tokens: Record<string, Token> = {
     symbol: 'ORBS',
     address: {
       [ChainId.MATIC]: '0x614389EaAE0A6821DC49062D56BDA3d9d45Fa2ff',
+      [ChainId.MAINNET]: '0xff56Cc6b1E6dEd347aA0B7676C85AB0B3D08B0FA',
     },
     decimals: {
       [ChainId.MATIC]: 18,
+      [ChainId.MAINNET]: 18,
     },
     liquidityDex: {
       [ChainId.MATIC]: LiquidityDex.QuickswapV2,
+      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
     },
     active: true,
   },
@@ -2704,6 +2707,17 @@ const tokens: Record<string, Token> = {
     symbol: 'AITECH',
     address: {
       [ChainId.BSC]: '0x2D060Ef4d6BF7f9e5edDe373Ab735513c0e4F944',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+    },
+    active: true,
+  },
+  tx20: {
+    symbol: 'TX20',
+    address: {
+      [ChainId.BSC]: '0x29838b8C8b7CD6F0698c2fd6feAf0363d2CB6dA1',
     },
     decimals: { [ChainId.BSC]: 18 },
     liquidityDex: {

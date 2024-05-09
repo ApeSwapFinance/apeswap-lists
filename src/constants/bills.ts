@@ -6,7 +6,7 @@ import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } fr
 // Polygon Largest ID: 143
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
-// ETH Largest ID: 3011
+// ETH Largest ID: 3012
 //Migration Bonds ID: 5007
 
 const bills: BillsConfig[] = [

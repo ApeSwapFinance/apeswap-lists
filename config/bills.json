@@ -16777,12 +16777,15 @@
     "token": {
       "symbol": "ORBS",
       "address": {
+        "1": "0xff56Cc6b1E6dEd347aA0B7676C85AB0B3D08B0FA",
         "137": "0x614389EaAE0A6821DC49062D56BDA3d9d45Fa2ff"
       },
       "decimals": {
+        "1": 18,
         "137": 18
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "137": "QuickswapV2"
       },
       "active": true
@@ -16825,12 +16828,15 @@
     "earnToken": {
       "symbol": "ORBS",
       "address": {
+        "1": "0xff56Cc6b1E6dEd347aA0B7676C85AB0B3D08B0FA",
         "137": "0x614389EaAE0A6821DC49062D56BDA3d9d45Fa2ff"
       },
       "decimals": {
+        "1": 18,
         "137": 18
       },
       "liquidityDex": {
+        "1": "UniswapV2",
         "137": "QuickswapV2"
       },
       "active": true
