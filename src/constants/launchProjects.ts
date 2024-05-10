@@ -9,6 +9,8 @@ const launchProjects: LaunchProjectConfig[] = [
     projectName: 'Sugar Kingdom Odyssey',
     saleStartTime: 'March 29th 17:00 UTC',
     totalAllocation: '791,649 SKO',
+    salePriceString: '$0.06',
+    vestingTimeString: '120',
     bonds: [
       {
         index: 0,
@@ -143,6 +145,7 @@ const launchProjects: LaunchProjectConfig[] = [
       },
       images: {
         launchpadImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1710783703/launchpadBigImg_cfbcl5.png',
+        launchpadSmallImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1710783703/launchpadBigImg_cfbcl5.png',
         launchpadIcon: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1710785149/iconimg_onrbvl.png',
         headerImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1710781826/sugar_header_img.png',
         headerImgMobile: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1710793424/headerImgMobile_bkq6ly.png',
@@ -160,6 +163,8 @@ const launchProjects: LaunchProjectConfig[] = [
     projectName: 'Catamoto',
     saleStartTime: 'April 16th 17:00 UTC',
     totalAllocation: '200M CATA',
+    salePriceString: '1 BNB = 1M CATA',
+    vestingTimeString: 'Instant',
     projectInfo: {
       shortDescription:
         'Catamoto is not just another memecoin; it’s a stride towards redefining the genre. With $CATA, Catamoto employs superior cat math to establish the most sophisticated smart contract to date. This initiative is backed by the Illu-meow-nati, a secretive group of cats with ambitions of discreetly guiding global events.',
@@ -180,6 +185,8 @@ const launchProjects: LaunchProjectConfig[] = [
       },
       images: {
         launchpadImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1713168964/catamoto-launchpad_yw65qy.png',
+        launchpadSmallImg:
+          'https://res.cloudinary.com/dswmrqgwy/image/upload/v1713168964/catamoto-launchpad_yw65qy.png',
         launchpadIcon: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1710785149/iconimg_onrbvl.png',
         headerImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1712925244/catamoto-header_disbvc.png',
         headerImgMobile: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1712925244/catamoto-header_disbvc.png',
@@ -304,6 +311,50 @@ const launchProjects: LaunchProjectConfig[] = [
         initialRelease: 100,
       },
     ],
+  },
+  {
+    index: 2,
+    projectId: 'codyfight',
+    projectName: 'Codyfight',
+    saleStartTime: 'May 13th 17:00 UTC',
+    totalAllocation: '1,875,000 CTOK',
+    salePriceString: '$0.16',
+    vestingTimeString: 'Cliff 60. Vesting 180',
+    projectInfo: {
+      shortDescription:
+        'Codyfight envisions a world where the line between AI and humans is blurred. Creativity, strategy, competition, and fun are at the forefront. Join a community that embraces a new paradigm in the gaming industry.',
+      fullDescription:
+        "Codyfight is a super fun game where you're the boss of clever little robots! You can play it anytime, anywhere! It's like playing a super intelligent game of chess, but with cool robots that you guide or teach to win battles. Create, customize, and control your battle-ready robot in a shapeshifting environment! Choose your path - manual or API, and take control of the fight. Operator, Codyfighter, and CKey are your keys to the game, available in the Launchpad and marketplace.<br/><br/>\n" +
+        '\n' +
+        "Their team tackles industry issues like the lack of creative contributions, the role of AI in modern games, the neglect of programmers in gaming, and how grinding can diminish enjoyment. A game that cares about its players' experience! Codyfight has joined forces with industry giants like MEXC, GATE.IO, DAO Maker, ChainGPT, KIRIN fund, and more. Will you miss out on the hype?<br/><br/>\n" +
+        '\n' +
+        'The project envisions a world where the line between AI and humans is blurred. Creativity, strategy, competition, and fun are at the forefront. Join a community that embraces a new paradigm in the gaming industry and participate in the $CTOK sale on the ApeBond Launchpad!',
+      tags: ['GameFi'],
+      socials: {
+        twitter: 'https://twitter.com/codyfight',
+        teaserVideo: 'https://www.youtube.com/watch?v=lIc2r-6o3RQ&t=3s',
+        tokenomicsURL: 'https://codyfight.gitbook.io/white-paper/tokenomics/ctok',
+        website: 'https://codyfight.com/',
+        whitepaper: 'https://codyfight.gitbook.io/white-paper',
+        telegram: 'https://t.me/codyfight',
+        discord: 'https://discord.com/invite/codyfight',
+      },
+      images: {
+        launchpadImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1715280929/codyfight-launchpadImg_h2sfdx.png',
+        launchpadSmallImg:
+          'https://res.cloudinary.com/dswmrqgwy/image/upload/v1715282641/codyfight-small-img_g3rbzu.png',
+        launchpadIcon: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1715281027/codyfight-icon_hakych.png',
+        headerImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1715281073/codyfight-header_p7jqca.png',
+        headerImgMobile:
+          'https://res.cloudinary.com/dswmrqgwy/image/upload/v1715281183/codyfight-header-mobile_fum2yj.png',
+        websiteImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1715281243/codyfight-website_vcgu9a.png',
+        whitepaperImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1715281301/codyfight-whitepaper_umrns6.png',
+        partnersImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1715281350/codyfight-partners_v0pe7q.png',
+        tokenomicsImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1715281397/codyfight-tokenomics_ismlah.png',
+        teaserImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1715281443/codyfight-teaservideo_vndnfh.png',
+      },
+    },
+    bonds: [],
   },
 ]
 
