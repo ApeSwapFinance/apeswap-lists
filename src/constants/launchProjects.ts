@@ -319,7 +319,7 @@ const launchProjects: LaunchProjectConfig[] = [
     saleStartTime: 'May 13th 17:00 UTC',
     totalAllocation: '1,875,000 CTOK',
     salePriceString: '$0.16',
-    vestingTimeString: 'Cliff 60. Vesting 180',
+    vestingTimeString: 'Cliff: 60 | Vesting: 120',
     projectInfo: {
       shortDescription:
         'Codyfight envisions a world where the line between AI and humans is blurred. Creativity, strategy, competition, and fun are at the forefront. Join a community that embraces a new paradigm in the gaming industry.',
