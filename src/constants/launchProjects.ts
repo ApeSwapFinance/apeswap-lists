@@ -356,35 +356,128 @@ const launchProjects: LaunchProjectConfig[] = [
     },
     bonds: [
       {
-        index: 4,
+        index: 8,
         contractAddress: {
-          [ChainId.BSC]: '0xe973aeFF05651A8922f4F07894c501B4fe56e48B', // diamond test
+          [ChainId.BSC]: '0xF89AB9C08a3ceE593eC0f4d2da24D528E43e1a6c', // silver prod
         },
         billVersion: BillVersion.TieredSale,
         billType: 'oversubscription',
         token: tokens.usdt,
-        earnToken: tokens.fitm,
+        earnToken: tokens.abctok,
         billNnftAddress: {
           [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
         },
         soldOut: false,
         billArt: { collection: BillArtCollection.ApeBond_Collection1 },
         initTime: {
-          [ChainId.BSC]: 1715607600,
+          [ChainId.BSC]: 1715612400,
         },
         finishTime: {
-          [ChainId.BSC]: 1715608200,
+          [ChainId.BSC]: 1715641200,
         },
         redeemTime: {
-          [ChainId.BSC]: 1715608800,
+          [ChainId.BSC]: 1715641200,
         },
         startVestingTimestamp: {
-          [ChainId.BSC]: 1715609400,
+          [ChainId.BSC]: 1721037600,
         },
         initPrice: {
-          [ChainId.BSC]: 0.0005531,
+          [ChainId.BSC]: 0.16,
         },
-        initialRelease: 100,
+        initialRelease: 25,
+      },
+      {
+        index: 9,
+        contractAddress: {
+          [ChainId.BSC]: '0x806dDA35B4aa00E1A664D20402940fe91fC73bDB', // gold prod
+        },
+        billVersion: BillVersion.TieredSale,
+        billType: 'oversubscription',
+        token: tokens.usdt,
+        earnToken: tokens.abctok,
+        billNnftAddress: {
+          [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+        },
+        soldOut: false,
+        billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+        initTime: {
+          [ChainId.BSC]: 1715612400,
+        },
+        finishTime: {
+          [ChainId.BSC]: 1715641200,
+        },
+        redeemTime: {
+          [ChainId.BSC]: 1715641200,
+        },
+        startVestingTimestamp: {
+          [ChainId.BSC]: 1721037600,
+        },
+        initPrice: {
+          [ChainId.BSC]: 0.16,
+        },
+        initialRelease: 25,
+      },
+      {
+        index: 10,
+        contractAddress: {
+          [ChainId.BSC]: '0xad947DbB997c531aB052A096c3366d5B387870de', // diamond prod
+        },
+        billVersion: BillVersion.TieredSale,
+        billType: 'oversubscription',
+        token: tokens.usdt,
+        earnToken: tokens.abctok,
+        billNnftAddress: {
+          [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+        },
+        soldOut: false,
+        billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+        initTime: {
+          [ChainId.BSC]: 1715612400,
+        },
+        finishTime: {
+          [ChainId.BSC]: 1715641200,
+        },
+        redeemTime: {
+          [ChainId.BSC]: 1715641200,
+        },
+        startVestingTimestamp: {
+          [ChainId.BSC]: 1721037600,
+        },
+        initPrice: {
+          [ChainId.BSC]: 0.16,
+        },
+        initialRelease: 25,
+      },
+      {
+        index: 11,
+        contractAddress: {
+          [ChainId.BSC]: '0x0468a087556E60724254ED8dEaA5832368DD05E5', // legend prod
+        },
+        billVersion: BillVersion.TieredSale,
+        billType: 'oversubscription',
+        token: tokens.usdt,
+        earnToken: tokens.abctok,
+        billNnftAddress: {
+          [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+        },
+        soldOut: false,
+        billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+        initTime: {
+          [ChainId.BSC]: 1715612400,
+        },
+        finishTime: {
+          [ChainId.BSC]: 1715641200,
+        },
+        redeemTime: {
+          [ChainId.BSC]: 1715641200,
+        },
+        startVestingTimestamp: {
+          [ChainId.BSC]: 1721037600,
+        },
+        initPrice: {
+          [ChainId.BSC]: 0.16,
+        },
+        initialRelease: 25,
       },
     ],
   },
