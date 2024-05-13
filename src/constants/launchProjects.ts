@@ -479,6 +479,37 @@ const launchProjects: LaunchProjectConfig[] = [
         },
         initialRelease: 25,
       },
+      {
+        index: 12,
+        contractAddress: {
+          [ChainId.BSC]: '0x0ac54e4b558dE824b48E1D36b33e995708Cfff25', // FCFS prod
+        },
+        billVersion: BillVersion.TieredSale,
+        billType: 'fcfs',
+        token: tokens.usdt,
+        earnToken: tokens.abctok,
+        billNnftAddress: {
+          [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+        },
+        soldOut: false,
+        billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+        initTime: {
+          [ChainId.BSC]: 1715670000,
+        },
+        finishTime: {
+          [ChainId.BSC]: 1715698800,
+        },
+        redeemTime: {
+          [ChainId.BSC]: 1715698800,
+        },
+        startVestingTimestamp: {
+          [ChainId.BSC]: 1721037600,
+        },
+        initPrice: {
+          [ChainId.BSC]: 0.16,
+        },
+        initialRelease: 25,
+      },
     ],
   },
 ]
