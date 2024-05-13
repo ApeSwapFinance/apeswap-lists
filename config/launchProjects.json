@@ -628,7 +628,7 @@
           "active": true
         },
         "earnToken": {
-          "symbol": "abctok",
+          "symbol": "CTOK",
           "address": {
             "56": "0x2833412a3ac08Ee81c8590bE0081EB6f5E076BE0"
           },
@@ -695,7 +695,7 @@
           "active": true
         },
         "earnToken": {
-          "symbol": "abctok",
+          "symbol": "CTOK",
           "address": {
             "56": "0x2833412a3ac08Ee81c8590bE0081EB6f5E076BE0"
           },
@@ -762,7 +762,7 @@
           "active": true
         },
         "earnToken": {
-          "symbol": "abctok",
+          "symbol": "CTOK",
           "address": {
             "56": "0x2833412a3ac08Ee81c8590bE0081EB6f5E076BE0"
           },
@@ -829,7 +829,7 @@
           "active": true
         },
         "earnToken": {
-          "symbol": "abctok",
+          "symbol": "CTOK",
           "address": {
             "56": "0x2833412a3ac08Ee81c8590bE0081EB6f5E076BE0"
           },
@@ -896,7 +896,7 @@
           "active": true
         },
         "earnToken": {
-          "symbol": "abctok",
+          "symbol": "CTOK",
           "address": {
             "56": "0x2833412a3ac08Ee81c8590bE0081EB6f5E076BE0"
           },
