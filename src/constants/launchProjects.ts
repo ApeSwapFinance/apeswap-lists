@@ -354,7 +354,39 @@ const launchProjects: LaunchProjectConfig[] = [
         teaserImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1715281443/codyfight-teaservideo_vndnfh.png',
       },
     },
-    bonds: [],
+    bonds: [
+      {
+        index: 4,
+        contractAddress: {
+          [ChainId.BSC]: '0x0744aed9855aD7B16dBc6A23807f5A2eEDBB56bD', // diamond test
+        },
+        billVersion: BillVersion.TieredSale,
+        billType: 'oversubscription',
+        token: tokens.wbnb,
+        earnToken: tokens.fitm,
+        billNnftAddress: {
+          [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+        },
+        soldOut: false,
+        billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+        initTime: {
+          [ChainId.BSC]: 1713286800,
+        },
+        finishTime: {
+          [ChainId.BSC]: 1713315600,
+        },
+        redeemTime: {
+          [ChainId.BSC]: 1713524400,
+        },
+        startVestingTimestamp: {
+          [ChainId.BSC]: 1713524400,
+        },
+        initPrice: {
+          [ChainId.BSC]: 0.0005531,
+        },
+        initialRelease: 100,
+      },
+    ],
   },
 ]
 

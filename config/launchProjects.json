@@ -593,6 +593,62 @@
         "teaserImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1715281443/codyfight-teaservideo_vndnfh.png"
       }
     },
-    "bonds": []
+    "bonds": [
+      {
+        "index": 4,
+        "contractAddress": {
+          "56": "0x0744aed9855aD7B16dBc6A23807f5A2eEDBB56bD"
+        },
+        "billVersion": "TieredSale",
+        "billType": "oversubscription",
+        "token": {
+          "symbol": "BNB",
+          "address": {
+            "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+            "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+            "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
+          },
+          "decimals": {
+            "56": 18,
+            "97": 18,
+            "137": 18
+          },
+          "active": true
+        },
+        "earnToken": {
+          "symbol": "FITM",
+          "address": {
+            "56": "0xE51072f493e9a0b40E468F2EB4686458aCd47a8D"
+          },
+          "decimals": {
+            "56": 18
+          },
+          "active": true
+        },
+        "billNnftAddress": {
+          "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+        },
+        "soldOut": false,
+        "billArt": {
+          "collection": "ApeBond_Collection1"
+        },
+        "initTime": {
+          "56": 1713286800
+        },
+        "finishTime": {
+          "56": 1713315600
+        },
+        "redeemTime": {
+          "56": 1713524400
+        },
+        "startVestingTimestamp": {
+          "56": 1713524400
+        },
+        "initPrice": {
+          "56": 0.0005531
+        },
+        "initialRelease": 100
+      }
+    ]
   }
 ]
