@@ -597,21 +597,33 @@
       {
         "index": 4,
         "contractAddress": {
-          "56": "0x0744aed9855aD7B16dBc6A23807f5A2eEDBB56bD"
+          "56": "0xe973aeFF05651A8922f4F07894c501B4fe56e48B"
         },
         "billVersion": "TieredSale",
         "billType": "oversubscription",
         "token": {
-          "symbol": "BNB",
+          "symbol": "USDT",
           "address": {
-            "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
-            "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
-            "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
+            "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+            "56": "0x55d398326f99059fF775485246999027B3197955",
+            "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+            "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+            "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+            "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
           },
           "decimals": {
+            "1": 6,
+            "40": 6,
             "56": 18,
             "97": 18,
-            "137": 18
+            "137": 6,
+            "2525": 6,
+            "42161": 6
+          },
+          "liquidityDex": {
+            "1": "UniswapV2",
+            "2525": "External"
           },
           "active": true
         },
@@ -633,16 +645,16 @@
           "collection": "ApeBond_Collection1"
         },
         "initTime": {
-          "56": 1713286800
+          "56": 1715607600
         },
         "finishTime": {
-          "56": 1713315600
+          "56": 1715608200
         },
         "redeemTime": {
-          "56": 1713524400
+          "56": 1715608800
         },
         "startVestingTimestamp": {
-          "56": 1713524400
+          "56": 1715609400
         },
         "initPrice": {
           "56": 0.0005531

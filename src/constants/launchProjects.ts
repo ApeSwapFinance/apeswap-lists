@@ -319,7 +319,7 @@ const launchProjects: LaunchProjectConfig[] = [
     saleStartTime: 'May 13th 15:00 UTC',
     totalAllocation: '1,875,000 CTOK',
     salePriceString: '$0.16',
-    vestingTimeString: 'Cliff: 60 | Vesting: 120',
+    vestingTimeString: 'Cliff: 60 | Vesting: 123',
     projectInfo: {
       shortDescription:
         'Codyfight envisions a world where the line between AI and humans is blurred. Creativity, strategy, competition, and fun are at the forefront. Join a community that embraces a new paradigm in the gaming industry.',
@@ -358,11 +358,11 @@ const launchProjects: LaunchProjectConfig[] = [
       {
         index: 4,
         contractAddress: {
-          [ChainId.BSC]: '0x0744aed9855aD7B16dBc6A23807f5A2eEDBB56bD', // diamond test
+          [ChainId.BSC]: '0xe973aeFF05651A8922f4F07894c501B4fe56e48B', // diamond test
         },
         billVersion: BillVersion.TieredSale,
         billType: 'oversubscription',
-        token: tokens.wbnb,
+        token: tokens.usdt,
         earnToken: tokens.fitm,
         billNnftAddress: {
           [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
@@ -370,16 +370,16 @@ const launchProjects: LaunchProjectConfig[] = [
         soldOut: false,
         billArt: { collection: BillArtCollection.ApeBond_Collection1 },
         initTime: {
-          [ChainId.BSC]: 1713286800,
+          [ChainId.BSC]: 1715607600,
         },
         finishTime: {
-          [ChainId.BSC]: 1713315600,
+          [ChainId.BSC]: 1715608200,
         },
         redeemTime: {
-          [ChainId.BSC]: 1713524400,
+          [ChainId.BSC]: 1715608800,
         },
         startVestingTimestamp: {
-          [ChainId.BSC]: 1713524400,
+          [ChainId.BSC]: 1715609400,
         },
         initPrice: {
           [ChainId.BSC]: 0.0005531,
