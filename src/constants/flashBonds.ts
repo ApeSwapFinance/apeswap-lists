@@ -294,7 +294,7 @@ const flashBonds: FlashBondConfig[] = [
   {
     index: 9,
     round: '5',
-    totalRaiseString: '??',
+    totalRaiseString: '$120K',
     discountString: '3%',
     tierString: 'legend',
     contractAddress: {
@@ -326,7 +326,7 @@ const flashBonds: FlashBondConfig[] = [
   {
     index: 10,
     round: '5',
-    totalRaiseString: '??',
+    totalRaiseString: '$50K',
     discountString: '2%',
     tierString: 'diamond',
     contractAddress: {
