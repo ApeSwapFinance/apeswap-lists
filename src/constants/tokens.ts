@@ -4,7 +4,7 @@ import { LiquidityDex, Token } from '../types'
 const tokens: Record<string, Token> = {
   // BANANA should always be first token for GNANA calculation
   abctok: {
-    symbol: 'abctok',
+    symbol: 'CTOK',
     address: {
       [ChainId.BSC]: '0x2833412a3ac08Ee81c8590bE0081EB6f5E076BE0',
     },
