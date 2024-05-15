@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1058
+// BNB Largest ID: 1059
 // Polygon Largest ID: 143
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2004
@@ -10,6 +10,33 @@ import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } fr
 //Migration Bonds ID: 5007
 
 const bills: BillsConfig[] = [
+  {
+    index: 1059,
+    contractAddress: {
+      [ChainId.BSC]: '0xc5f8e2746eD4A7374066073C231be8e3CA85f04E',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.froyo,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://froyo.games/',
+    twitter: 'https://twitter.com/realfroyogames',
+    initTime: { [ChainId.BSC]: 1715730467 },
+    initPrice: { [ChainId.BSC]: 0.000379098550137839 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['GAMEFI'],
+    fullDescription:
+      'Froyo Games is a web3 GameFi platform that connects brands and gamers to a metaverse of opportunity to play and earn in exciting and innovative ways.',
+  },
   {
     index: 1058,
     contractAddress: {
