@@ -37,12 +37,11 @@ export enum LiquidityDex {
 }
 
 export enum ZapVersion {
-  External = 'External', //This will redirect users to Token.getLpUrl with get lp button on FE
-  ZapV1 = 'ZapV1', //First original inhouse built non multicall zap
-  // NOTE: ZapV2 is not yet operational
-  // ZapV2 = 'ZapV2', //Second inhouse built dynamic multicall zap
-  Wido = 'Wido', //https://www.joinwido.com/
+  External = 'External', // This will redirect users to Token.getLpUrl with get lp button on FE
+  ZapV1 = 'ZapV1', // TODO: deprecate this
+  Wido = 'Wido', // TODO: deprecate this
   SoulZap = 'SoulZap',
+  SoulZapApi = 'SoulZapApi',
 }
 
 export enum Protocols {
@@ -194,6 +193,7 @@ export enum LaunchBondTiers {
 // Start of list types
 export interface BillsConfig {
   index: number
+  chainId: ChainId
   contractAddress: Partial<Record<ChainId, string>>
   billVersion: BillVersion
   billType: 'liquidity' | 'reserve' | 'launch' | 'migration' | 'cex'
