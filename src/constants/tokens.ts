@@ -2353,6 +2353,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  ctok: {
+    symbol: 'CTOK',
+    address: {
+      [ChainId.ARBITRUM]: '0xA586B3B80D7e3e8d439e25fBC16Bc5bcEE3E2c85',
+    },
+    decimals: {
+      [ChainId.ARBITRUM]: 18,
+    },
+    liquidityDex: {
+      [ChainId.ARBITRUM]: LiquidityDex.UniswapV3,
+    },
+    active: true,
+  },
   xcur: {
     symbol: 'XCUR',
     address: {
