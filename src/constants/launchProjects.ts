@@ -316,10 +316,10 @@ const launchProjects: LaunchProjectConfig[] = [
     index: 2,
     projectId: 'codyfight',
     projectName: 'Codyfight',
-    saleStartTime: 'May 13th 17:00 UTC',
+    saleStartTime: 'May 13th 15:00 UTC',
     totalAllocation: '1,875,000 CTOK',
     salePriceString: '$0.16',
-    vestingTimeString: 'Cliff: 60 | Vesting: 120',
+    vestingTimeString: 'Cliff: 60 | Vesting: 123',
     projectInfo: {
       shortDescription:
         'Codyfight envisions a world where the line between AI and humans is blurred. Creativity, strategy, competition, and fun are at the forefront. Join a community that embraces a new paradigm in the gaming industry.',
@@ -354,7 +354,163 @@ const launchProjects: LaunchProjectConfig[] = [
         teaserImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1715281443/codyfight-teaservideo_vndnfh.png',
       },
     },
-    bonds: [],
+    bonds: [
+      {
+        index: 8,
+        contractAddress: {
+          [ChainId.BSC]: '0xF89AB9C08a3ceE593eC0f4d2da24D528E43e1a6c', // silver prod
+        },
+        billVersion: BillVersion.TieredSale,
+        billType: 'oversubscription',
+        token: tokens.usdt,
+        earnToken: tokens.abctok,
+        billNnftAddress: {
+          [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+        },
+        soldOut: false,
+        billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+        initTime: {
+          [ChainId.BSC]: 1715612400,
+        },
+        finishTime: {
+          [ChainId.BSC]: 1715641200,
+        },
+        redeemTime: {
+          [ChainId.BSC]: 1715641200,
+        },
+        startVestingTimestamp: {
+          [ChainId.BSC]: 1721037600,
+        },
+        initPrice: {
+          [ChainId.BSC]: 0.16,
+        },
+        initialRelease: 25,
+      },
+      {
+        index: 9,
+        contractAddress: {
+          [ChainId.BSC]: '0x806dDA35B4aa00E1A664D20402940fe91fC73bDB', // gold prod
+        },
+        billVersion: BillVersion.TieredSale,
+        billType: 'oversubscription',
+        token: tokens.usdt,
+        earnToken: tokens.abctok,
+        billNnftAddress: {
+          [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+        },
+        soldOut: false,
+        billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+        initTime: {
+          [ChainId.BSC]: 1715612400,
+        },
+        finishTime: {
+          [ChainId.BSC]: 1715641200,
+        },
+        redeemTime: {
+          [ChainId.BSC]: 1715641200,
+        },
+        startVestingTimestamp: {
+          [ChainId.BSC]: 1721037600,
+        },
+        initPrice: {
+          [ChainId.BSC]: 0.16,
+        },
+        initialRelease: 25,
+      },
+      {
+        index: 10,
+        contractAddress: {
+          [ChainId.BSC]: '0xad947DbB997c531aB052A096c3366d5B387870de', // diamond prod
+        },
+        billVersion: BillVersion.TieredSale,
+        billType: 'oversubscription',
+        token: tokens.usdt,
+        earnToken: tokens.abctok,
+        billNnftAddress: {
+          [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+        },
+        soldOut: false,
+        billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+        initTime: {
+          [ChainId.BSC]: 1715612400,
+        },
+        finishTime: {
+          [ChainId.BSC]: 1715641200,
+        },
+        redeemTime: {
+          [ChainId.BSC]: 1715641200,
+        },
+        startVestingTimestamp: {
+          [ChainId.BSC]: 1721037600,
+        },
+        initPrice: {
+          [ChainId.BSC]: 0.16,
+        },
+        initialRelease: 25,
+      },
+      {
+        index: 11,
+        contractAddress: {
+          [ChainId.BSC]: '0x0468a087556E60724254ED8dEaA5832368DD05E5', // legend prod
+        },
+        billVersion: BillVersion.TieredSale,
+        billType: 'oversubscription',
+        token: tokens.usdt,
+        earnToken: tokens.abctok,
+        billNnftAddress: {
+          [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+        },
+        soldOut: false,
+        billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+        initTime: {
+          [ChainId.BSC]: 1715612400,
+        },
+        finishTime: {
+          [ChainId.BSC]: 1715641200,
+        },
+        redeemTime: {
+          [ChainId.BSC]: 1715641200,
+        },
+        startVestingTimestamp: {
+          [ChainId.BSC]: 1721037600,
+        },
+        initPrice: {
+          [ChainId.BSC]: 0.16,
+        },
+        initialRelease: 25,
+      },
+      {
+        index: 12,
+        contractAddress: {
+          [ChainId.BSC]: '0x0ac54e4b558dE824b48E1D36b33e995708Cfff25', // FCFS prod
+        },
+        billVersion: BillVersion.TieredSale,
+        billType: 'fcfs',
+        token: tokens.usdt,
+        earnToken: tokens.abctok,
+        billNnftAddress: {
+          [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+        },
+        soldOut: false,
+        billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+        initTime: {
+          [ChainId.BSC]: 1715670000,
+        },
+        finishTime: {
+          [ChainId.BSC]: 1715698800,
+        },
+        redeemTime: {
+          [ChainId.BSC]: 1715698800,
+        },
+        startVestingTimestamp: {
+          [ChainId.BSC]: 1721037600,
+        },
+        initPrice: {
+          [ChainId.BSC]: 0.16,
+        },
+        initialRelease: 25,
+      },
+    ],
   },
 ]
 

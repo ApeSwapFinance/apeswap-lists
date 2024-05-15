@@ -563,10 +563,10 @@
     "index": 2,
     "projectId": "codyfight",
     "projectName": "Codyfight",
-    "saleStartTime": "May 13th 17:00 UTC",
+    "saleStartTime": "May 13th 15:00 UTC",
     "totalAllocation": "1,875,000 CTOK",
     "salePriceString": "$0.16",
-    "vestingTimeString": "Cliff: 60 | Vesting: 120",
+    "vestingTimeString": "Cliff: 60 | Vesting: 123",
     "projectInfo": {
       "shortDescription": "Codyfight envisions a world where the line between AI and humans is blurred. Creativity, strategy, competition, and fun are at the forefront. Join a community that embraces a new paradigm in the gaming industry.",
       "fullDescription": "Codyfight is a super fun game where you're the boss of clever little robots! You can play it anytime, anywhere! It's like playing a super intelligent game of chess, but with cool robots that you guide or teach to win battles. Create, customize, and control your battle-ready robot in a shapeshifting environment! Choose your path - manual or API, and take control of the fight. Operator, Codyfighter, and CKey are your keys to the game, available in the Launchpad and marketplace.<br/><br/>\n\nTheir team tackles industry issues like the lack of creative contributions, the role of AI in modern games, the neglect of programmers in gaming, and how grinding can diminish enjoyment. A game that cares about its players' experience! Codyfight has joined forces with industry giants like MEXC, GATE.IO, DAO Maker, ChainGPT, KIRIN fund, and more. Will you miss out on the hype?<br/><br/>\n\nThe project envisions a world where the line between AI and humans is blurred. Creativity, strategy, competition, and fun are at the forefront. Join a community that embraces a new paradigm in the gaming industry and participate in the $CTOK sale on the ApeBond Launchpad!",
@@ -593,6 +593,342 @@
         "teaserImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1715281443/codyfight-teaservideo_vndnfh.png"
       }
     },
-    "bonds": []
+    "bonds": [
+      {
+        "index": 8,
+        "contractAddress": {
+          "56": "0xF89AB9C08a3ceE593eC0f4d2da24D528E43e1a6c"
+        },
+        "billVersion": "TieredSale",
+        "billType": "oversubscription",
+        "token": {
+          "symbol": "USDT",
+          "address": {
+            "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+            "56": "0x55d398326f99059fF775485246999027B3197955",
+            "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+            "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+            "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+            "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+          },
+          "decimals": {
+            "1": 6,
+            "40": 6,
+            "56": 18,
+            "97": 18,
+            "137": 6,
+            "2525": 6,
+            "42161": 6
+          },
+          "liquidityDex": {
+            "1": "UniswapV2",
+            "2525": "External"
+          },
+          "active": true
+        },
+        "earnToken": {
+          "symbol": "CTOK",
+          "address": {
+            "56": "0x2833412a3ac08Ee81c8590bE0081EB6f5E076BE0"
+          },
+          "decimals": {
+            "56": 18
+          },
+          "active": true
+        },
+        "billNnftAddress": {
+          "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+        },
+        "soldOut": false,
+        "billArt": {
+          "collection": "ApeBond_Collection1"
+        },
+        "initTime": {
+          "56": 1715612400
+        },
+        "finishTime": {
+          "56": 1715641200
+        },
+        "redeemTime": {
+          "56": 1715641200
+        },
+        "startVestingTimestamp": {
+          "56": 1721037600
+        },
+        "initPrice": {
+          "56": 0.16
+        },
+        "initialRelease": 25
+      },
+      {
+        "index": 9,
+        "contractAddress": {
+          "56": "0x806dDA35B4aa00E1A664D20402940fe91fC73bDB"
+        },
+        "billVersion": "TieredSale",
+        "billType": "oversubscription",
+        "token": {
+          "symbol": "USDT",
+          "address": {
+            "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+            "56": "0x55d398326f99059fF775485246999027B3197955",
+            "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+            "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+            "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+            "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+          },
+          "decimals": {
+            "1": 6,
+            "40": 6,
+            "56": 18,
+            "97": 18,
+            "137": 6,
+            "2525": 6,
+            "42161": 6
+          },
+          "liquidityDex": {
+            "1": "UniswapV2",
+            "2525": "External"
+          },
+          "active": true
+        },
+        "earnToken": {
+          "symbol": "CTOK",
+          "address": {
+            "56": "0x2833412a3ac08Ee81c8590bE0081EB6f5E076BE0"
+          },
+          "decimals": {
+            "56": 18
+          },
+          "active": true
+        },
+        "billNnftAddress": {
+          "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+        },
+        "soldOut": false,
+        "billArt": {
+          "collection": "ApeBond_Collection1"
+        },
+        "initTime": {
+          "56": 1715612400
+        },
+        "finishTime": {
+          "56": 1715641200
+        },
+        "redeemTime": {
+          "56": 1715641200
+        },
+        "startVestingTimestamp": {
+          "56": 1721037600
+        },
+        "initPrice": {
+          "56": 0.16
+        },
+        "initialRelease": 25
+      },
+      {
+        "index": 10,
+        "contractAddress": {
+          "56": "0xad947DbB997c531aB052A096c3366d5B387870de"
+        },
+        "billVersion": "TieredSale",
+        "billType": "oversubscription",
+        "token": {
+          "symbol": "USDT",
+          "address": {
+            "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+            "56": "0x55d398326f99059fF775485246999027B3197955",
+            "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+            "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+            "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+            "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+          },
+          "decimals": {
+            "1": 6,
+            "40": 6,
+            "56": 18,
+            "97": 18,
+            "137": 6,
+            "2525": 6,
+            "42161": 6
+          },
+          "liquidityDex": {
+            "1": "UniswapV2",
+            "2525": "External"
+          },
+          "active": true
+        },
+        "earnToken": {
+          "symbol": "CTOK",
+          "address": {
+            "56": "0x2833412a3ac08Ee81c8590bE0081EB6f5E076BE0"
+          },
+          "decimals": {
+            "56": 18
+          },
+          "active": true
+        },
+        "billNnftAddress": {
+          "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+        },
+        "soldOut": false,
+        "billArt": {
+          "collection": "ApeBond_Collection1"
+        },
+        "initTime": {
+          "56": 1715612400
+        },
+        "finishTime": {
+          "56": 1715641200
+        },
+        "redeemTime": {
+          "56": 1715641200
+        },
+        "startVestingTimestamp": {
+          "56": 1721037600
+        },
+        "initPrice": {
+          "56": 0.16
+        },
+        "initialRelease": 25
+      },
+      {
+        "index": 11,
+        "contractAddress": {
+          "56": "0x0468a087556E60724254ED8dEaA5832368DD05E5"
+        },
+        "billVersion": "TieredSale",
+        "billType": "oversubscription",
+        "token": {
+          "symbol": "USDT",
+          "address": {
+            "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+            "56": "0x55d398326f99059fF775485246999027B3197955",
+            "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+            "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+            "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+            "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+          },
+          "decimals": {
+            "1": 6,
+            "40": 6,
+            "56": 18,
+            "97": 18,
+            "137": 6,
+            "2525": 6,
+            "42161": 6
+          },
+          "liquidityDex": {
+            "1": "UniswapV2",
+            "2525": "External"
+          },
+          "active": true
+        },
+        "earnToken": {
+          "symbol": "CTOK",
+          "address": {
+            "56": "0x2833412a3ac08Ee81c8590bE0081EB6f5E076BE0"
+          },
+          "decimals": {
+            "56": 18
+          },
+          "active": true
+        },
+        "billNnftAddress": {
+          "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+        },
+        "soldOut": false,
+        "billArt": {
+          "collection": "ApeBond_Collection1"
+        },
+        "initTime": {
+          "56": 1715612400
+        },
+        "finishTime": {
+          "56": 1715641200
+        },
+        "redeemTime": {
+          "56": 1715641200
+        },
+        "startVestingTimestamp": {
+          "56": 1721037600
+        },
+        "initPrice": {
+          "56": 0.16
+        },
+        "initialRelease": 25
+      },
+      {
+        "index": 12,
+        "contractAddress": {
+          "56": "0x0ac54e4b558dE824b48E1D36b33e995708Cfff25"
+        },
+        "billVersion": "TieredSale",
+        "billType": "fcfs",
+        "token": {
+          "symbol": "USDT",
+          "address": {
+            "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+            "56": "0x55d398326f99059fF775485246999027B3197955",
+            "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+            "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+            "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+            "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+          },
+          "decimals": {
+            "1": 6,
+            "40": 6,
+            "56": 18,
+            "97": 18,
+            "137": 6,
+            "2525": 6,
+            "42161": 6
+          },
+          "liquidityDex": {
+            "1": "UniswapV2",
+            "2525": "External"
+          },
+          "active": true
+        },
+        "earnToken": {
+          "symbol": "CTOK",
+          "address": {
+            "56": "0x2833412a3ac08Ee81c8590bE0081EB6f5E076BE0"
+          },
+          "decimals": {
+            "56": 18
+          },
+          "active": true
+        },
+        "billNnftAddress": {
+          "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+        },
+        "soldOut": false,
+        "billArt": {
+          "collection": "ApeBond_Collection1"
+        },
+        "initTime": {
+          "56": 1715670000
+        },
+        "finishTime": {
+          "56": 1715698800
+        },
+        "redeemTime": {
+          "56": 1715698800
+        },
+        "startVestingTimestamp": {
+          "56": 1721037600
+        },
+        "initPrice": {
+          "56": 0.16
+        },
+        "initialRelease": 25
+      }
+    ]
   }
 ]
