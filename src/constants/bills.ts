@@ -4247,6 +4247,35 @@ const bills: BillsConfig[] = [
     Polygon Bills
   */
   {
+    index: 144,
+    chainId: ChainId.MATIC,
+    contractAddress: {
+      [ChainId.MATIC]: '0xa606Fa38c77A39E36F70D210Ab7b338C6Df6186A',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.usdc,
+    quoteToken: tokens.quick,
+    lpToken: tokens.usdcQuick_Ichi,
+    earnToken: tokens.quick,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://ethernity.cloud/',
+    twitter: 'https://twitter.com/Ethernity_cloud',
+    initTime: { [ChainId.MATIC]: 1701892800 },
+    initPrice: { [ChainId.MATIC]: 0.347018667988457 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+    fullDescription:
+      'Ethernity Cloud is a Web3 decentralized confidential computing ecosystem supported by a community of enthusiastic node operators, stakers, and developers. As Web2 solutions fall behind in terms of security and affordability, Ethernity Cloud’s DePin excels with its EVM Confidential Computing architecture. Ethernity Cloud’s bulletproof decentralized architecture and advanced encryption techniques ensure that data remains secure for businesses at all times, whether it is in transit, at rest, or being processed.',
+    tags: ['DEPIN'],
+  },
+  {
     index: 143,
     chainId: ChainId.MATIC,
     contractAddress: {
