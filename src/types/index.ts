@@ -41,7 +41,7 @@ export enum ZapVersion {
   ZapV1 = 'ZapV1', // TODO: deprecate this
   Wido = 'Wido', // TODO: deprecate this
   SoulZap = 'SoulZap',
-  SoulZapAlgebra = 'SoulZapAlgebra',
+  SoulZapApi = 'SoulZapApi',
 }
 
 export enum Protocols {
