@@ -126,6 +126,8 @@ export interface LaunchProjectConfig {
   bonds: TieredSaleBondConfig[]
   saleStartTime: string
   totalAllocation: string
+  salePriceString: string
+  vestingTimeString: string
   projectInfo: {
     shortDescription: string
     fullDescription: string
@@ -141,6 +143,7 @@ export interface LaunchProjectConfig {
     }
     images: {
       launchpadImg: string
+      launchpadSmallImg: string
       launchpadIcon: string
       headerImg: string
       headerImgMobile: string
@@ -167,6 +170,7 @@ export interface TieredSaleBondConfig {
   }
   initTime: Partial<Record<ChainId, number>> // timestamp the sale starts
   finishTime: Partial<Record<ChainId, number>> // timestamp the sale finished (i.e. IT IS NOT START VESTING TIMESTAMP)
+  redeemTime?: Partial<Record<ChainId, number>> // timestamp the sale is going to be manually finalized
   startVestingTimestamp: Partial<Record<ChainId, number>>
   initPrice: Partial<Record<ChainId, number>>
   initialRelease: number

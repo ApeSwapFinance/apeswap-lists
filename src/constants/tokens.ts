@@ -3,6 +3,16 @@ import { LiquidityDex, Token } from '../types'
 
 const tokens: Record<string, Token> = {
   // BANANA should always be first token for GNANA calculation
+  abctok: {
+    symbol: 'CTOK',
+    address: {
+      [ChainId.BSC]: '0x2833412a3ac08Ee81c8590bE0081EB6f5E076BE0',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+  },
   banana: {
     symbol: 'BANANA',
     address: {
@@ -1009,7 +1019,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: 18,
     },
     liquidityDex: {
-      [ChainId.MATIC]: LiquidityDex.External,
+      [ChainId.MATIC]: LiquidityDex.QuickswapV2,
     },
     active: true,
   },
