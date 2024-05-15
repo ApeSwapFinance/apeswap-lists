@@ -1036,6 +1036,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  ambo: {
+    symbol: 'AMBO',
+    address: {
+      [ChainId.MATIC]: '0x9B8B6A1298d34B3c4bBDDce8a7fF0149121592C1',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.Algebra,
+    },
+    active: true,
+  },
   dai: {
     symbol: 'DAI',
     address: {
@@ -4616,6 +4629,18 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]:
         'https://quickswap.exchange/#/pools/v2?currency0=0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359&currency1=0x78445485A8d5b3BE765e3027bc336e3c272a23c9',
     },
+  },
+  usdcQuick_Ichi: {
+    symbol: 'USDC-QUICK',
+    address: {
+      [ChainId.MATIC]: '0x36b511A006cAc909DC56C2c24eb69CA304f74999',
+    },
+    decimals: { [ChainId.MATIC]: 18 },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.Algebra,
+    },
+    active: true,
+    lpToken: true,
   },
   chrpBnb: {
     symbol: 'CHRP-BNB',
