@@ -1049,6 +1049,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  notes: {
+    symbol: 'NOTES',
+    address: {
+      [ChainId.MATIC]: '0x2d66953fC2eb650F0fD992Dbe1e71D743a4e9fee',
+    },
+    decimals: {
+      [ChainId.MATIC]: 9,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.External,
+    },
+    active: true,
+  },
   dai: {
     symbol: 'DAI',
     address: {
