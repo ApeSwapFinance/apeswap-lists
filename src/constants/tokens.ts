@@ -4531,8 +4531,8 @@ const tokens: Record<string, Token> = {
         'https://quickswap.exchange/#/pools/v2?currency0=0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619&currency1=0x4455eF8B4B4A007a93DaA12DE63a47EEAC700D9D',
     },
   },
-  usdcAmba_Ichi: {
-    symbol: 'USDC-AMBA',
+  usdcAmbo_Ichi: {
+    symbol: 'USDC-AMBO',
     address: {
       [ChainId.MATIC]: '0x2ff07791f125bf6ce120d938f862d0385cf4c835',
     },
