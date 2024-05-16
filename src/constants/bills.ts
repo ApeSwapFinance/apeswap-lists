@@ -3,7 +3,7 @@ import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
 // BNB Largest ID: 1059
-// Polygon Largest ID: 143
+// Polygon Largest ID: 145
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2005
 // ETH Largest ID: 3012
@@ -4247,23 +4247,52 @@ const bills: BillsConfig[] = [
     Polygon Bills
   */
   {
-    index: 144,
+    index: 145,
     chainId: ChainId.MATIC,
     contractAddress: {
-      [ChainId.MATIC]: '0xa606Fa38c77A39E36F70D210Ab7b338C6Df6186A',
+      [ChainId.MATIC]: '0xc803552252eceF137EAfC1F2D9a7e50C73eF5594',
     },
-    billType: 'liquidity',
+    billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdc,
-    quoteToken: tokens.quick,
-    lpToken: tokens.usdcQuick_Ichi,
-    earnToken: tokens.quick,
+    token: tokens.eth,
+    quoteToken: tokens.eth,
+    lpToken: tokens.eth,
+    earnToken: tokens.knight,
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
     inactive: false,
-    projectLink: 'https://ethernity.cloud/',
-    twitter: 'https://twitter.com/Ethernity_cloud',
+    projectLink: 'https://www.forestknight.io/',
+    twitter: 'https://twitter.com/ForestKnight_io',
+    initTime: { [ChainId.MATIC]: 1701892800 },
+    initPrice: { [ChainId.MATIC]: 0.00254 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+    fullDescription:
+      'Forest Knight is a turn-based strategy game, where players find themselves in an unknown land and need to build their team of heroes and fight against evil. Inspired by successful games, such as Heroes might and magic and clash Royal, the game combines the best of two worlds – a fun and exciting PVE RPG experience, a PVP competitive and social gameplay modes and activities as well as a decentralized item ecosystem through game items as NFTs and world-building powered with DEFI elements.',
+    tags: ['GAMEFI'],
+  },
+  {
+    index: 144,
+    chainId: ChainId.MATIC,
+    contractAddress: {
+      [ChainId.MATIC]: '0xf23f3A820BB5bB3FF1cc73306313D23f4269b4c1',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.dai,
+    quoteToken: tokens.dai,
+    lpToken: tokens.dai,
+    earnToken: tokens.notes,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://www.anotemusic.com/',
+    twitter: 'https://twitter.com/anotemusic',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.347018667988457 },
     soldOut: false,
@@ -4272,8 +4301,8 @@ const bills: BillsConfig[] = [
     },
     bondPartner: 'QuickSwap',
     fullDescription:
-      'Ethernity Cloud is a Web3 decentralized confidential computing ecosystem supported by a community of enthusiastic node operators, stakers, and developers. As Web2 solutions fall behind in terms of security and affordability, Ethernity Cloud’s DePin excels with its EVM Confidential Computing architecture. Ethernity Cloud’s bulletproof decentralized architecture and advanced encryption techniques ensure that data remains secure for businesses at all times, whether it is in transit, at rest, or being processed.',
-    tags: ['DEPIN'],
+      "Anote Music has built a bridge between music royalty ownership and users' portfolios. Their user-friendly platform enables users to hold and trade royalties while providing a new funding method for artists. Users can join 30,000 investors who are diversifying their wealth by investing in music royalties, purchasing world-renowned catalogs, and earning as artists earn. Anote Music is the main stage for music investments!",
+    tags: ['Entertainment'],
   },
   {
     index: 143,
