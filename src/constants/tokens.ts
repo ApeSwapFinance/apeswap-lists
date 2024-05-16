@@ -3,16 +3,6 @@ import { LiquidityDex, Token } from '../types'
 
 const tokens: Record<string, Token> = {
   // BANANA should always be first token for GNANA calculation
-  abctok: {
-    symbol: 'CTOK',
-    address: {
-      [ChainId.BSC]: '0x2833412a3ac08Ee81c8590bE0081EB6f5E076BE0',
-    },
-    decimals: {
-      [ChainId.BSC]: 18,
-    },
-    active: true,
-  },
   banana: {
     symbol: 'BANANA',
     address: {
@@ -28,6 +18,16 @@ const tokens: Record<string, Token> = {
       [ChainId.MAINNET]: 18,
       [ChainId.BSC_TESTNET]: 18,
       [ChainId.TLOS]: 18,
+    },
+    active: true,
+  },
+  abctok: {
+    symbol: 'CTOK',
+    address: {
+      [ChainId.BSC]: '0x2833412a3ac08Ee81c8590bE0081EB6f5E076BE0',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
     },
     active: true,
   },
@@ -4517,6 +4517,18 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]:
         'https://quickswap.exchange/#/pools/v2?currency0=0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619&currency1=0x4455eF8B4B4A007a93DaA12DE63a47EEAC700D9D',
     },
+  },
+  usdcAmba_Ichi: {
+    symbol: 'USDC-AMBA',
+    address: {
+      [ChainId.MATIC]: '0x2ff07791f125bf6ce120d938f862d0385cf4c835',
+    },
+    decimals: { [ChainId.MATIC]: 18 },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.Algebra,
+    },
+    active: true,
+    lpToken: true,
   },
   maticEth_Ichi: {
     symbol: 'MATIC (ETH)',
