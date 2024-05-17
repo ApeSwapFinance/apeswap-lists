@@ -4247,6 +4247,34 @@ const bills: BillsConfig[] = [
     Polygon Bills
   */
   {
+    index: 146,
+    chainId: ChainId.MATIC,
+    contractAddress: {
+      [ChainId.MATIC]: '0xaDFD5982c779B374A220EA0FD0DbBD343cF157FC',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.usdc2,
+    quoteToken: tokens.ambo,
+    lpToken: tokens.usdcAmbo_Ichi,
+    earnToken: tokens.ambo,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://www.forestknight.io/',
+    twitter: 'https://twitter.com/ForestKnight_io',
+    initTime: { [ChainId.MATIC]: 1701892800 },
+    initPrice: { [ChainId.MATIC]: 0.00254 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+    fullDescription: 'Good project ser',
+    tags: ['GAMEFI'],
+  },
+  {
     index: 145,
     chainId: ChainId.MATIC,
     contractAddress: {
