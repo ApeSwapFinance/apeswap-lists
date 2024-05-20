@@ -2784,6 +2784,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  ejs: {
+    symbol: 'EJS',
+    address: {
+      [ChainId.BSC]: '0x09f423aC3C9baBBfF6F94D372b16E4206e71439f',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+    },
+    active: true,
+  },
   mfps: {
     symbol: 'MFPS',
     address: {
