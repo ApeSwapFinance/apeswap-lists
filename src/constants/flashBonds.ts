@@ -374,13 +374,13 @@ const flashBonds: FlashBondConfig[] = [
     soldOut: false,
     billArt: { collection: BillArtCollection.ApeBond_Collection1 },
     initTime: {
-      [ChainId.BSC]: 1716663600, // May 25th 1900 UTC
+      [ChainId.BSC]: 1716577200, // May 24th 1900 UTC
     },
     finishTime: {
-      [ChainId.BSC]: 1716665400, // May 25th 1930 UTC
+      [ChainId.BSC]: 1716579000, // May 24th 1930 UTC
     },
     startVestingTimestamp: {
-      [ChainId.BSC]: 1716665400, // May 25th 1930 UTC
+      [ChainId.BSC]: 1716579000, // May 24th 1930 UTC
     },
     initPrice: {
       [ChainId.BSC]: 0,

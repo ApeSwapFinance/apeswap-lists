@@ -516,7 +516,7 @@ const launchProjects: LaunchProjectConfig[] = [
     index: 3,
     projectId: 'carv',
     projectName: 'CARV',
-    saleStartTime: 'May 21st 17:00 UTC',
+    saleStartTime: 'May 21st 15:00 UTC',
     totalAllocation: '138 Nodes',
     salePriceString: '$1,086.96',
     vestingTimeString: 'Instant',
