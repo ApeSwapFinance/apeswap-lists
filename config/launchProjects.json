@@ -930,5 +930,41 @@
         "initialRelease": 25
       }
     ]
+  },
+  {
+    "index": 3,
+    "projectId": "carv",
+    "projectName": "CARV",
+    "saleStartTime": "May 21st 17:00 UTC",
+    "totalAllocation": "138 Nodes",
+    "salePriceString": "$1,086.96",
+    "vestingTimeString": "Instant",
+    "projectInfo": {
+      "shortDescription": "CARV Protocol is a modular data layer for gaming and AI, revolutionizing how data is used and shared, by ensuring privacy, ownership, and control are firmly in the hands of individuals, pioneering a future where data generates value for all.",
+      "fullDescription": "CARV is building the largest modular data layer for gaming and AI. Their Node launch is essential in order to move towards a truly decentralized, community-driven internet, addressing the critical challenge of monopolization by large stakeholders in the early stages of network deployment.<br/><br/>\n\nSufficient participation from node operators is necessary to ensure the decentralization of the network, enabling scalability and security. Therefore, widespread involvement in nodes operation is necessary. In order to empower the community to participate confidently in building the foundation of a sustainable, user-owned internet, CARV is pioneering a mechanism: the ‘Up-to-100% Buyback Program’, where 10,000,000 $CARV will be allocated to ensure a 100% buyback to all active node license holders with a 30-day linear vesting period.<br/><br/>\n\n<strong>Don't miss out on ApeBond's first Node Sale with CARV!</strong>",
+      "tags": ["Infrastructure"],
+      "socials": {
+        "twitter": "https://twitter.com/Carv_official",
+        "teaserVideo": "https://cdn.jsdelivr.net/gh/carv-protocol/cdn@1.0.3/vid/cover.mp4",
+        "tokenomicsURL": "https://docs.carv.io/carv-token/distribution-and-vesting",
+        "website": "https://carv.io/",
+        "whitepaper": "https://docs.carv.io/carv-protocol/verifier-node-explained",
+        "telegram": "https://t.me/carv_official_global",
+        "discord": "https://discord.gg/carv"
+      },
+      "images": {
+        "launchpadImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1715975892/carv-launchpadImg_abywx1.png",
+        "launchpadSmallImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1715975892/carv-launchpadImg_abywx1.png",
+        "launchpadIcon": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1715976635/carv-launchpadicon_n3uyxh.png",
+        "headerImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1715976905/carv-header_tyrkc8.png",
+        "headerImgMobile": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1715996352/carv-header-mobile_mbn4fx.png",
+        "websiteImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1715996267/carv-website_puixtp.png",
+        "whitepaperImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1715996259/carv-whitepaper_nk1lfw.png",
+        "partnersImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1715996259/carv-partners_fmuhu8.png",
+        "tokenomicsImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1715996261/carv-tokenomics_l0zhtd.png",
+        "teaserImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1715996260/carv-video_pipsg1.png"
+      }
+    },
+    "bonds": []
   }
 ]
