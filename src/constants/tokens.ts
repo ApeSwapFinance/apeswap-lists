@@ -219,11 +219,21 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  usdc2: {
+    symbol: 'USDC', //this is actually the USDC
+    address: {
+      [ChainId.MATIC]: '0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359',
+    },
+    decimals: {
+      [ChainId.MATIC]: 6,
+    },
+    active: true,
+  },
   usdc: {
     symbol: 'USDC',
     address: {
       [ChainId.BSC]: '0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d',
-      [ChainId.MATIC]: '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174',
+      [ChainId.MATIC]: '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174', // this is USDC.e
       [ChainId.TLOS]: '0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b',
       [ChainId.ARBITRUM]: '0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8',
       [ChainId.MAINNET]: '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48',
@@ -2767,6 +2777,17 @@ const tokens: Record<string, Token> = {
     symbol: 'TX20',
     address: {
       [ChainId.BSC]: '0x29838b8C8b7CD6F0698c2fd6feAf0363d2CB6dA1',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+    },
+    active: true,
+  },
+  ejs: {
+    symbol: 'EJS',
+    address: {
+      [ChainId.BSC]: '0x09f423aC3C9baBBfF6F94D372b16E4206e71439f',
     },
     decimals: { [ChainId.BSC]: 18 },
     liquidityDex: {
