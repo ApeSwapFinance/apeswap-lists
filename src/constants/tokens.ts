@@ -21,6 +21,16 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  abcarv: {
+    symbol: 'CARV',
+    address: {
+      [ChainId.BSC]: '0xedee721a41435deb16d3e02719ebded9b9740b52',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+  },
   abctok: {
     symbol: 'CTOK',
     address: {
@@ -71,6 +81,9 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
     },
     active: true,
   },

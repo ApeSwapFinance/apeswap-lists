@@ -552,7 +552,39 @@ const launchProjects: LaunchProjectConfig[] = [
         teaserImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1715996260/carv-video_pipsg1.png',
       },
     },
-    bonds: [],
+    bonds: [
+      {
+        index: 13,
+        contractAddress: {
+          [ChainId.BSC]: '0x83B66E76c11602360Fa0b8a6Bb382F408037328D', // FCFS legend prod
+        },
+        billVersion: BillVersion.TieredSale,
+        billType: 'fcfs',
+        token: tokens.usdt,
+        earnToken: tokens.abcarv,
+        billNnftAddress: {
+          [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+        },
+        soldOut: false,
+        billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+        initTime: {
+          [ChainId.BSC]: 1716303600,
+        },
+        finishTime: {
+          [ChainId.BSC]: 1716305400,
+        },
+        redeemTime: {
+          [ChainId.BSC]: 1716305400,
+        },
+        startVestingTimestamp: {
+          [ChainId.BSC]: 1716305400,
+        },
+        initPrice: {
+          [ChainId.BSC]: 1086.96,
+        },
+        initialRelease: 100,
+      },
+    ],
   },
 ]
 
