@@ -584,6 +584,37 @@ const launchProjects: LaunchProjectConfig[] = [
         },
         initialRelease: 100,
       },
+      {
+        index: 14,
+        contractAddress: {
+          [ChainId.BSC]: '0x252F73dB386C6FdC31D3a44987Af593bDDc41661', // FCFS diamond prod
+        },
+        billVersion: BillVersion.TieredSale,
+        billType: 'fcfs',
+        token: tokens.usdt,
+        earnToken: tokens.abcarv,
+        billNnftAddress: {
+          [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+        },
+        soldOut: false,
+        billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+        initTime: {
+          [ChainId.BSC]: 1716307200,
+        },
+        finishTime: {
+          [ChainId.BSC]: 1716309000,
+        },
+        redeemTime: {
+          [ChainId.BSC]: 1716309000,
+        },
+        startVestingTimestamp: {
+          [ChainId.BSC]: 1716309000,
+        },
+        initPrice: {
+          [ChainId.BSC]: 1086.96,
+        },
+        initialRelease: 100,
+      },
     ],
   },
 ]
