@@ -945,7 +945,7 @@
       "tags": ["Infrastructure"],
       "socials": {
         "twitter": "https://twitter.com/Carv_official",
-        "teaserVideo": "https://cdn.jsdelivr.net/gh/carv-protocol/cdn@1.0.3/vid/cover.mp4",
+        "teaserVideo": "https://www.youtube.com/watch?v=P-7mYixdI0k",
         "tokenomicsURL": "https://docs.carv.io/carv-token/distribution-and-vesting",
         "website": "https://carv.io/",
         "whitepaper": "https://docs.carv.io/carv-protocol/verifier-node-explained",
@@ -1295,6 +1295,73 @@
         },
         "startVestingTimestamp": {
           "56": 1716319800
+        },
+        "initPrice": {
+          "56": 1086.96
+        },
+        "initialRelease": 100
+      },
+      {
+        "index": 18,
+        "contractAddress": {
+          "56": "0x84dbf0577A945a7eE2DF85Fd9BF8024536FCb737"
+        },
+        "billVersion": "TieredSale",
+        "billType": "fcfs",
+        "token": {
+          "symbol": "USDT",
+          "address": {
+            "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+            "56": "0x55d398326f99059fF775485246999027B3197955",
+            "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+            "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+            "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+            "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+          },
+          "decimals": {
+            "1": 6,
+            "40": 6,
+            "56": 18,
+            "97": 18,
+            "137": 6,
+            "2525": 6,
+            "42161": 6
+          },
+          "liquidityDex": {
+            "1": "UniswapV2",
+            "2525": "External"
+          },
+          "active": true
+        },
+        "earnToken": {
+          "symbol": "CARV",
+          "address": {
+            "56": "0xedee721a41435deb16d3e02719ebded9b9740b52"
+          },
+          "decimals": {
+            "56": 18
+          },
+          "active": true
+        },
+        "billNnftAddress": {
+          "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+        },
+        "soldOut": false,
+        "billArt": {
+          "collection": "ApeBond_Collection1"
+        },
+        "initTime": {
+          "56": 1716321600
+        },
+        "finishTime": {
+          "56": 1716364800
+        },
+        "redeemTime": {
+          "56": 1716364800
+        },
+        "startVestingTimestamp": {
+          "56": 1716364800
         },
         "initPrice": {
           "56": 1086.96
