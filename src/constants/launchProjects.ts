@@ -646,6 +646,37 @@ const launchProjects: LaunchProjectConfig[] = [
         },
         initialRelease: 100,
       },
+      {
+        index: 16,
+        contractAddress: {
+          [ChainId.BSC]: '0x5cfAdebFB6Ab5fAcd02E0Af31271194D1FDf06cb', // FCFS silver prod
+        },
+        billVersion: BillVersion.TieredSale,
+        billType: 'fcfs',
+        token: tokens.usdt,
+        earnToken: tokens.abcarv,
+        billNnftAddress: {
+          [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+        },
+        soldOut: false,
+        billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+        initTime: {
+          [ChainId.BSC]: 1716314400,
+        },
+        finishTime: {
+          [ChainId.BSC]: 1716316200,
+        },
+        redeemTime: {
+          [ChainId.BSC]: 1716316200,
+        },
+        startVestingTimestamp: {
+          [ChainId.BSC]: 1716316200,
+        },
+        initPrice: {
+          [ChainId.BSC]: 1086.96,
+        },
+        initialRelease: 100,
+      },
     ],
   },
 ]
