@@ -532,7 +532,7 @@ const launchProjects: LaunchProjectConfig[] = [
       tags: ['Infrastructure'],
       socials: {
         twitter: 'https://twitter.com/Carv_official',
-        teaserVideo: 'https://cdn.jsdelivr.net/gh/carv-protocol/cdn@1.0.3/vid/cover.mp4',
+        teaserVideo: 'https://www.youtube.com/watch?v=P-7mYixdI0k',
         tokenomicsURL: 'https://docs.carv.io/carv-token/distribution-and-vesting',
         website: 'https://carv.io/',
         whitepaper: 'https://docs.carv.io/carv-protocol/verifier-node-explained',
@@ -702,6 +702,37 @@ const launchProjects: LaunchProjectConfig[] = [
         },
         startVestingTimestamp: {
           [ChainId.BSC]: 1716319800,
+        },
+        initPrice: {
+          [ChainId.BSC]: 1086.96,
+        },
+        initialRelease: 100,
+      },
+      {
+        index: 18,
+        contractAddress: {
+          [ChainId.BSC]: '0x84dbf0577A945a7eE2DF85Fd9BF8024536FCb737', // FCFS non-tier prod
+        },
+        billVersion: BillVersion.TieredSale,
+        billType: 'fcfs',
+        token: tokens.usdt,
+        earnToken: tokens.abcarv,
+        billNnftAddress: {
+          [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+        },
+        soldOut: false,
+        billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+        initTime: {
+          [ChainId.BSC]: 1716321600,
+        },
+        finishTime: {
+          [ChainId.BSC]: 1716364800,
+        },
+        redeemTime: {
+          [ChainId.BSC]: 1716364800,
+        },
+        startVestingTimestamp: {
+          [ChainId.BSC]: 1716364800,
         },
         initPrice: {
           [ChainId.BSC]: 1086.96,
