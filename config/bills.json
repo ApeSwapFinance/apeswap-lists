@@ -1007,7 +1007,7 @@
     "initPrice": {
       "56": 3.1773560782e-8
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -1432,7 +1432,7 @@
     "initPrice": {
       "56": 0.000119256747804887
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "AITECH_Collection1"
     },
@@ -2076,7 +2076,7 @@
     "initPrice": {
       "56": 0.000875307143616461
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -5341,7 +5341,7 @@
     "initPrice": {
       "56": 0.00173967992950712
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -5426,7 +5426,7 @@
     "initPrice": {
       "56": 3.1773560782e-8
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -15331,7 +15331,7 @@
     "initPrice": {
       "137": 0.347018667988457
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "PlanetIX_Collection1"
     },
@@ -15618,7 +15618,7 @@
     "initPrice": {
       "137": 0.347018667988457
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "PlanetIX_Collection1"
     },
@@ -15949,7 +15949,7 @@
     "initPrice": {
       "137": 0.002404165611
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "Quickswap_Collection1"
     },
@@ -20785,7 +20785,7 @@
     "initPrice": {
       "1": 0.00173967992950712
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ETH_Collection1"
     },
@@ -21175,7 +21175,7 @@
     "initPrice": {
       "1": 0.00173967992950712
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ETH_Collection1"
     },
@@ -21577,7 +21577,7 @@
     "initPrice": {
       "1": 0.00173967992950712
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ETH_Collection1"
     },
