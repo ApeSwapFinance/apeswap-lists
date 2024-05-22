@@ -105,6 +105,10 @@ export const dexFactories: Partial<
       factory: '0xa5136eAd459F0E61C99Cec70fe8F5C24cF3ecA26',
       protocol: Protocols.XFAI,
     },
+    [LiquidityDex.Metavault]: {
+      factory: '0x9367c561915f9D062aFE3b57B18e30dEC62b8488',
+      protocol: Protocols.V3,
+    },
   },
 }
 

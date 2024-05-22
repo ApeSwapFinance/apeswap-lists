@@ -40,6 +40,7 @@ export enum LiquidityDex {
   Nile = 'Nile',
   XFAI = 'XFAI',
   Lynex = 'Lynex',
+  Metavault = 'Metavault',
 }
 
 export enum ZapVersion {

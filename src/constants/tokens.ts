@@ -21,6 +21,68 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  lvc: {
+    symbol: 'LVC',
+    address: {
+      [ChainId.LINEA]: '0xcc22F6AA610D1b2a0e89EF228079cB3e1831b1D1',
+    },
+    decimals: {
+      [ChainId.LINEA]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.LINEA]: LiquidityDex.External,
+    },
+  },
+  xfai: {
+    symbol: 'XFAI',
+    address: {
+      [ChainId.LINEA]: '0x8C56017B172226fE024dEa197748FC1eaccC82B1',
+    },
+    decimals: {
+      [ChainId.LINEA]: 18,
+    },
+    liquidityDex: {
+      [ChainId.LINEA]: LiquidityDex.XFAI,
+    },
+    active: true,
+  },
+  nile: {
+    symbol: 'NILE',
+    address: {
+      [ChainId.LINEA]: '0xAAAac83751090C6ea42379626435f805DDF54DC8',
+    },
+    decimals: {
+      [ChainId.LINEA]: 18,
+    },
+    active: true,
+  },
+  lynx: {
+    symbol: 'Lynx',
+    address: {
+      [ChainId.LINEA]: '0x1a51b19CE03dbE0Cb44C1528E34a7EDD7771E9Af',
+    },
+    decimals: {
+      [ChainId.LINEA]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.LINEA]: LiquidityDex.Lynex,
+    },
+  },
+  mvx: {
+    symbol: 'MVX',
+    address: {
+      [ChainId.LINEA]: '0x0018D96C579121a94307249d47F053E2D687b5e7',
+    },
+    decimals: {
+      [ChainId.LINEA]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.LINEA]: LiquidityDex.Metavault,
+    },
+  },
   abcarv: {
     symbol: 'CARV',
     address: {
