@@ -31,4 +31,5 @@ export const dexToZapMapping: Record<LiquidityDex, Partial<Record<ChainId, ZapVe
   [LiquidityDex.Nile]: {},
   [LiquidityDex.XFAI]: {},
   [LiquidityDex.Lynex]: {},
+  [LiquidityDex.Metavault]: {},
 }
