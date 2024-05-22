@@ -21,6 +21,18 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  ethLynx_Ichi: {
+    symbol: 'ETH-LYNX',
+    address: {
+      [ChainId.LINEA]: '0x511481ef0DEB10eB5c1E36B72140718c58921265',
+    },
+    decimals: { [ChainId.LINEA]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.LINEA]: LiquidityDex.Algebra,
+    },
+  },
   lvc: {
     symbol: 'LVC',
     address: {
