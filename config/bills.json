@@ -14853,6 +14853,84 @@
     "soldOut": true
   },
   {
+    "index": 146,
+    "chainId": 137,
+    "contractAddress": {
+      "137": "0xC53374942388CdE1A4e498A34F24B2AdECF06824"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "USDC",
+      "address": {
+        "137": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359"
+      },
+      "decimals": {
+        "137": 6
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "AMBO",
+      "address": {
+        "137": "0x9B8B6A1298d34B3c4bBDDce8a7fF0149121592C1"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "Algebra"
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "USDC-AMBO",
+      "address": {
+        "137": "0x2ff07791f125bf6ce120d938f862d0385cf4c835"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "Algebra"
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "AMBO",
+      "address": {
+        "137": "0x9B8B6A1298d34B3c4bBDDce8a7fF0149121592C1"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "Algebra"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
+    },
+    "inactive": false,
+    "projectLink": "https://www.projectlambo.io/",
+    "twitter": "https://twitter.com/projectlamboio",
+    "audit": "https://github.com/solidproof/projects/tree/main/2024/Sheertopia",
+    "initTime": {
+      "137": 1701892800
+    },
+    "initPrice": {
+      "137": 0.00254
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "Quickswap_Collection1"
+    },
+    "fullDescription": "Sheertopia is an immersive AI gaming platform that empowers players. This project features a play-to-earn NFT game that blends engaging gameplay with blockchain technology to create a unique, immersive experience. Sheertopia: the 3D gaming world where fun, creativity, and connectivity collide!",
+    "tags": ["GAMEFI"]
+  },
+  {
     "index": 145,
     "chainId": 137,
     "contractAddress": {
