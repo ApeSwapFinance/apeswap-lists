@@ -34,6 +34,12 @@ export enum LiquidityDex {
   QuickswapV2 = 'QuickswapV2',
   UniswapV3 = 'UniswapV3',
   External = 'External',
+
+  //Linea
+  Spartadex = 'Spartadex',
+  Nile = 'Nile',
+  XFAI = 'XFAI',
+  Lynex = 'Lynex',
 }
 
 export enum ZapVersion {
@@ -52,6 +58,7 @@ export enum Protocols {
   Gamma = 5,
   Steer = 6,
   Solidly = 7,
+  XFAI = 8,
 }
 
 export interface FarmStyles {

@@ -27,4 +27,8 @@ export const dexToZapMapping: Record<LiquidityDex, Partial<Record<ChainId, ZapVe
   [LiquidityDex.UniswapV2]: {},
   [LiquidityDex.PancakeSwapV3]: {},
   [LiquidityDex.External]: {},
+  [LiquidityDex.Spartadex]: {},
+  [LiquidityDex.Nile]: {},
+  [LiquidityDex.XFAI]: {},
+  [LiquidityDex.Lynex]: {},
 }

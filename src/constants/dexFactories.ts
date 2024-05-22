@@ -84,6 +84,28 @@ export const dexFactories: Partial<
       protocol: Protocols.Algebra,
     },
   },
+  [ChainId.LINEA]: {
+    [LiquidityDex.Spartadex]: {
+      factory: '0x9E4Fc4a5A0769ba74088856C229c4a1Db2Ea5A9e',
+      protocol: Protocols.V2,
+    },
+    [LiquidityDex.Nile]: {
+      factory: '0xF97a3a7187A7636F882463f6693aB82d5Be5baD4',
+      protocol: Protocols.V3,
+    },
+    [LiquidityDex.Algebra]: {
+      factory: '0x622b2c98123D303ae067DB4925CD6282B3A08D0F', //Lynex
+      protocol: Protocols.Algebra,
+    },
+    [LiquidityDex.Lynex]: {
+      factory: '0xBc7695Fd00E3b32D08124b7a4287493aEE99f9ee',
+      protocol: Protocols.Solidly,
+    },
+    [LiquidityDex.XFAI]: {
+      factory: '0xa5136eAd459F0E61C99Cec70fe8F5C24cF3ecA26',
+      protocol: Protocols.XFAI,
+    },
+  },
 }
 
 export const defaultDexFactories: Partial<Record<ChainId, Partial<Record<Protocols, string>>>> = {
@@ -106,5 +128,12 @@ export const defaultDexFactories: Partial<Record<ChainId, Partial<Record<Protoco
     [Protocols.V2]: dexFactories[ChainId.ARBITRUM]?.ApeSwapV2?.factory,
     [Protocols.V3]: dexFactories[ChainId.ARBITRUM]?.UniswapV3?.factory,
     [Protocols.Algebra]: dexFactories[ChainId.ARBITRUM]?.Algebra?.factory,
+  },
+  [ChainId.LINEA]: {
+    [Protocols.V2]: dexFactories[ChainId.LINEA]?.Spartadex?.factory,
+    [Protocols.V3]: dexFactories[ChainId.LINEA]?.Nile?.factory,
+    [Protocols.Algebra]: dexFactories[ChainId.LINEA]?.Algebra?.factory,
+    [Protocols.Solidly]: dexFactories[ChainId.LINEA]?.Lynex?.factory,
+    [Protocols.XFAI]: dexFactories[ChainId.LINEA]?.XFAI?.factory,
   },
 }
