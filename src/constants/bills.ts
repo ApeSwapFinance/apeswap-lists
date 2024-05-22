@@ -3,7 +3,7 @@ import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
 // BNB Largest ID: 1061
-// Polygon Largest ID: 145
+// Polygon Largest ID: 146
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2005
 // ETH Largest ID: 3012
@@ -4304,6 +4304,36 @@ const bills: BillsConfig[] = [
   /*
     Polygon Bills
   */
+  {
+    index: 146,
+    chainId: ChainId.MATIC,
+    contractAddress: {
+      [ChainId.MATIC]: '0xC53374942388CdE1A4e498A34F24B2AdECF06824',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.usdc2,
+    quoteToken: tokens.ambo,
+    lpToken: tokens.usdcAmbo_Ichi,
+    earnToken: tokens.ambo,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://www.projectlambo.io/',
+    twitter: 'https://twitter.com/projectlamboio',
+    audit: 'https://github.com/solidproof/projects/tree/main/2024/Sheertopia',
+    initTime: { [ChainId.MATIC]: 1701892800 },
+    initPrice: { [ChainId.MATIC]: 0.00254 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+    // bondPartner: 'QuickSwap', //It's not usable on QuickSwap's end currently. Add This line when integration on QS is done.
+    fullDescription:
+      'Sheertopia is an immersive AI gaming platform that empowers players. This project features a play-to-earn NFT game that blends engaging gameplay with blockchain technology to create a unique, immersive experience. Sheertopia: the 3D gaming world where fun, creativity, and connectivity collide!',
+    tags: ['GAMEFI'],
+  },
   {
     index: 145,
     chainId: ChainId.MATIC,
