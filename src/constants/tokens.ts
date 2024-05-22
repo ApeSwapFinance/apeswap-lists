@@ -55,6 +55,9 @@ const tokens: Record<string, Token> = {
     decimals: {
       [ChainId.LINEA]: 18,
     },
+    liquidityDex: {
+      [ChainId.LINEA]: LiquidityDex.Nile,
+    },
     active: true,
   },
   lynx: {

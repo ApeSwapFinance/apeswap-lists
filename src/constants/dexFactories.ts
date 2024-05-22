@@ -90,7 +90,7 @@ export const dexFactories: Partial<
       protocol: Protocols.V2,
     },
     [LiquidityDex.Nile]: {
-      factory: '0xF97a3a7187A7636F882463f6693aB82d5Be5baD4',
+      factory: '0xAAA32926fcE6bE95ea2c51cB4Fcb60836D320C42', //I've changed it
       protocol: Protocols.V3,
     },
     [LiquidityDex.Algebra]: {
