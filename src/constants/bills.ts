@@ -4312,7 +4312,7 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.usdc,
+    token: tokens.usdc2,
     quoteToken: tokens.ambo,
     lpToken: tokens.usdcAmbo_Ichi,
     earnToken: tokens.ambo,
