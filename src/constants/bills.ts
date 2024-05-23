@@ -14,6 +14,90 @@ const bills: BillsConfig[] = [
   // LINEA
   //
   {
+    index: 6005,
+    chainId: ChainId.LINEA,
+    contractAddress: {
+      [ChainId.LINEA]: '0xF43537a65355612E7D5C21aB40d75a1b9303Ce1a',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdc,
+    quoteToken: tokens.usdc,
+    lpToken: tokens.usdc,
+    earnToken: tokens.xfit,
+    billNnftAddress: {
+      [ChainId.LINEA]: '0x9939d407DA7EfaC26BB1F473AFdBaEf617c826cA',
+    },
+    inactive: false,
+    projectLink: 'https://xfai.com/',
+    twitter: 'https://twitter.com/xfai_official',
+    audit: 'https://xfai.com/audit.pdf',
+    initTime: { [ChainId.LINEA]: 1716217474 },
+    initPrice: { [ChainId.LINEA]: 0.005450086440702347 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Launchpad'],
+    fullDescription: 'Good project ser',
+  },
+  {
+    index: 6004,
+    chainId: ChainId.LINEA,
+    contractAddress: {
+      [ChainId.LINEA]: '0x018775f1a7A07581B88346055cfb2f2d1EbD065b',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdc,
+    quoteToken: tokens.usdc,
+    lpToken: tokens.usdc,
+    earnToken: tokens.nile,
+    billNnftAddress: {
+      [ChainId.LINEA]: '0x9939d407DA7EfaC26BB1F473AFdBaEf617c826cA',
+    },
+    inactive: false,
+    projectLink: 'https://www.thenile.exchange/swap',
+    twitter: 'https://twitter.com/NileExchange',
+    audit: 'https://docs.thenile.exchange/security-and-legal-considerations/inherited-security',
+    initTime: { [ChainId.LINEA]: 1716217474 },
+    initPrice: { [ChainId.LINEA]: 0.005450086440702347 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Launchpad'],
+    fullDescription: 'Good project ser',
+  },
+  {
+    index: 6003,
+    chainId: ChainId.LINEA,
+    contractAddress: {
+      [ChainId.LINEA]: '0x204076A1F7f43b24dD3baCAa33C0e6Bc90a64665',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.eth,
+    quoteToken: tokens.eth,
+    lpToken: tokens.eth,
+    earnToken: tokens.lvc,
+    billNnftAddress: {
+      [ChainId.LINEA]: '0x9939d407DA7EfaC26BB1F473AFdBaEf617c826cA',
+    },
+    inactive: false,
+    projectLink: 'https://app.velocore.xyz/swap',
+    twitter: 'https://twitter.com/velocorexyz',
+    audit: 'https://docs.velocore.xyz/security-and-contract-address/three-rounds-of-audits',
+    initTime: { [ChainId.LINEA]: 1716217474 },
+    initPrice: { [ChainId.LINEA]: 0.005450086440702347 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Launchpad'],
+    fullDescription: 'Good project ser',
+  },
+  {
     index: 6002,
     chainId: ChainId.LINEA,
     contractAddress: {
@@ -67,8 +151,7 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['Launchpad'],
-    fullDescription:
-      'EnjinStarter is a game-centric launchpad that offers investors a cost-effective way to participate in early Web3 launches, helping creators and game development studios embrace its robust ecosystem for their blockchain and digital asset strategies.',
+    fullDescription: 'Good project ser',
   },
   //
   // BNB chain

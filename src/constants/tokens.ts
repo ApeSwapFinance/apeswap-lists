@@ -46,8 +46,8 @@ const tokens: Record<string, Token> = {
       [ChainId.LINEA]: LiquidityDex.External,
     },
   },
-  xfai: {
-    symbol: 'XFAI',
+  xfit: {
+    symbol: 'XFIT',
     address: {
       [ChainId.LINEA]: '0x8C56017B172226fE024dEa197748FC1eaccC82B1',
     },
