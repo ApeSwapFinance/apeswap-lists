@@ -73,7 +73,7 @@ const tokens: Record<string, Token> = {
     active: true,
   },
   lynx: {
-    symbol: 'Lynx',
+    symbol: 'LYNX',
     address: {
       [ChainId.LINEA]: '0x1a51b19CE03dbE0Cb44C1528E34a7EDD7771E9Af',
     },
@@ -259,6 +259,7 @@ const tokens: Record<string, Token> = {
       [ChainId.TLOS]: '0xfA9343C3897324496A05fC75abeD6bAC29f8A40f',
       [ChainId.ARBITRUM]: '0x82aF49447D8a07e3bd95BD0d56f35241523fBab1',
       [ChainId.MAINNET]: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
+      [ChainId.LINEA]: '0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -267,6 +268,7 @@ const tokens: Record<string, Token> = {
       [ChainId.TLOS]: 18,
       [ChainId.ARBITRUM]: 18,
       [ChainId.MAINNET]: 18,
+      [ChainId.LINEA]: 18,
     },
     active: true,
   },

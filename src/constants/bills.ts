@@ -10,6 +10,70 @@ import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } fr
 //Migration Bonds ID: 5007
 
 const bills: BillsConfig[] = [
+  //
+  // LINEA
+  //
+  {
+    index: 6002,
+    chainId: ChainId.LINEA,
+    contractAddress: {
+      [ChainId.LINEA]: '0xbFc66c7E9fa1297be9a16B9D598be5143C2e0F2A',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.lynx, //TODO: check token-quoteToken order
+    quoteToken: tokens.eth,
+    lpToken: tokens.ethLynx_Ichi,
+    earnToken: tokens.lynx,
+    billNnftAddress: {
+      [ChainId.LINEA]: '0x9939d407DA7EfaC26BB1F473AFdBaEf617c826cA',
+    },
+    inactive: false,
+    projectLink: 'https://launchpad.enjinstarter.com/',
+    twitter: 'https://twitter.com/enjinstarter',
+    audit: 'https://hacken.io/audits/enjinstarter',
+    initTime: { [ChainId.LINEA]: 1716217474 },
+    initPrice: { [ChainId.LINEA]: 0.005450086440702347 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Launchpad'],
+    fullDescription:
+      'EnjinStarter is a game-centric launchpad that offers investors a cost-effective way to participate in early Web3 launches, helping creators and game development studios embrace its robust ecosystem for their blockchain and digital asset strategies.',
+  },
+  {
+    index: 6001,
+    chainId: ChainId.LINEA,
+    contractAddress: {
+      [ChainId.LINEA]: '0x52F80243De99021FFE47325d5c65c02ad993Dda9',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.eth,
+    quoteToken: tokens.eth,
+    lpToken: tokens.eth,
+    earnToken: tokens.mvx,
+    billNnftAddress: {
+      [ChainId.LINEA]: '0x9939d407DA7EfaC26BB1F473AFdBaEf617c826cA',
+    },
+    inactive: false,
+    projectLink: 'https://launchpad.enjinstarter.com/',
+    twitter: 'https://twitter.com/enjinstarter',
+    audit: 'https://hacken.io/audits/enjinstarter',
+    initTime: { [ChainId.LINEA]: 1716217474 },
+    initPrice: { [ChainId.LINEA]: 0.005450086440702347 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Launchpad'],
+    fullDescription:
+      'EnjinStarter is a game-centric launchpad that offers investors a cost-effective way to participate in early Web3 launches, helping creators and game development studios embrace its robust ecosystem for their blockchain and digital asset strategies.',
+  },
+  //
+  // BNB chain
+  //
   {
     index: 1061,
     chainId: ChainId.BSC,

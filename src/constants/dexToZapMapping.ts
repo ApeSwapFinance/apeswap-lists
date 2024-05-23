@@ -13,6 +13,7 @@ export const dexToZapMapping: Record<LiquidityDex, Partial<Record<ChainId, ZapVe
   },
   [LiquidityDex.Algebra]: {
     [ChainId.MATIC]: ZapVersion.SoulZapApi,
+    [ChainId.LINEA]: ZapVersion.SoulZapApi,
   },
   [LiquidityDex.PancakeSwapV2]: {
     [ChainId.BSC]: ZapVersion.SoulZap,
