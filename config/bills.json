@@ -3,7 +3,7 @@
     "index": 6005,
     "chainId": 59144,
     "contractAddress": {
-      "59144": "0xF43537a65355612E7D5C21aB40d75a1b9303Ce1a"
+      "59144": "0x6657429079727C5c6efC2c383bE016566ED22182"
     },
     "billType": "reserve",
     "billVersion": "V2",
@@ -81,7 +81,7 @@
       "active": true
     },
     "billNnftAddress": {
-      "59144": "0x9939d407DA7EfaC26BB1F473AFdBaEf617c826cA"
+      "59144": "0xFA40b551980aF88FD2929Ab41f57D98ee13A6354"
     },
     "inactive": false,
     "projectLink": "https://xfai.com/",
@@ -104,7 +104,7 @@
     "index": 6004,
     "chainId": 59144,
     "contractAddress": {
-      "59144": "0x018775f1a7A07581B88346055cfb2f2d1EbD065b"
+      "59144": "0xe42Cf31F6dA73f4bFEDe8a8F3E61f5aD6A033945"
     },
     "billType": "reserve",
     "billVersion": "V2",
@@ -182,7 +182,7 @@
       "active": true
     },
     "billNnftAddress": {
-      "59144": "0x9939d407DA7EfaC26BB1F473AFdBaEf617c826cA"
+      "59144": "0xFA40b551980aF88FD2929Ab41f57D98ee13A6354"
     },
     "inactive": false,
     "projectLink": "https://www.thenile.exchange/swap",
@@ -205,7 +205,7 @@
     "index": 6003,
     "chainId": 59144,
     "contractAddress": {
-      "59144": "0x204076A1F7f43b24dD3baCAa33C0e6Bc90a64665"
+      "59144": "0x055893f759Ec752b0e2cB94e2a9bB3a67d6A9E27"
     },
     "billType": "reserve",
     "billVersion": "V2",
@@ -289,7 +289,7 @@
       }
     },
     "billNnftAddress": {
-      "59144": "0x9939d407DA7EfaC26BB1F473AFdBaEf617c826cA"
+      "59144": "0xFA40b551980aF88FD2929Ab41f57D98ee13A6354"
     },
     "inactive": false,
     "projectLink": "https://app.velocore.xyz/swap",
@@ -312,7 +312,7 @@
     "index": 6002,
     "chainId": 59144,
     "contractAddress": {
-      "59144": "0xbFc66c7E9fa1297be9a16B9D598be5143C2e0F2A"
+      "59144": "0xBF17Ab54c6a01406649cb89b605Dd67aF19FEdaA"
     },
     "billType": "liquidity",
     "billVersion": "V2",
@@ -381,7 +381,7 @@
       }
     },
     "billNnftAddress": {
-      "59144": "0x9939d407DA7EfaC26BB1F473AFdBaEf617c826cA"
+      "59144": "0xFA40b551980aF88FD2929Ab41f57D98ee13A6354"
     },
     "inactive": false,
     "projectLink": "https://launchpad.enjinstarter.com/",
@@ -404,7 +404,7 @@
     "index": 6001,
     "chainId": 59144,
     "contractAddress": {
-      "59144": "0x52F80243De99021FFE47325d5c65c02ad993Dda9"
+      "59144": "0x7D3866b90aD077cCfBc2f2F39273bcCE106A6399"
     },
     "billType": "reserve",
     "billVersion": "V2",
@@ -488,7 +488,7 @@
       }
     },
     "billNnftAddress": {
-      "59144": "0x9939d407DA7EfaC26BB1F473AFdBaEf617c826cA"
+      "59144": "0xFA40b551980aF88FD2929Ab41f57D98ee13A6354"
     },
     "inactive": false,
     "projectLink": "https://launchpad.enjinstarter.com/",

@@ -18,7 +18,7 @@ const bills: BillsConfig[] = [
     index: 6005,
     chainId: ChainId.LINEA,
     contractAddress: {
-      [ChainId.LINEA]: '0xF43537a65355612E7D5C21aB40d75a1b9303Ce1a',
+      [ChainId.LINEA]: '0x6657429079727C5c6efC2c383bE016566ED22182', // prod
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
@@ -27,7 +27,7 @@ const bills: BillsConfig[] = [
     lpToken: tokens.usdc,
     earnToken: tokens.xfit,
     billNnftAddress: {
-      [ChainId.LINEA]: '0x9939d407DA7EfaC26BB1F473AFdBaEf617c826cA',
+      [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
     },
     inactive: false,
     projectLink: 'https://xfai.com/',
@@ -47,7 +47,7 @@ const bills: BillsConfig[] = [
     index: 6004,
     chainId: ChainId.LINEA,
     contractAddress: {
-      [ChainId.LINEA]: '0x018775f1a7A07581B88346055cfb2f2d1EbD065b',
+      [ChainId.LINEA]: '0xe42Cf31F6dA73f4bFEDe8a8F3E61f5aD6A033945', // prod!!
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
@@ -56,7 +56,7 @@ const bills: BillsConfig[] = [
     lpToken: tokens.usdc,
     earnToken: tokens.nile,
     billNnftAddress: {
-      [ChainId.LINEA]: '0x9939d407DA7EfaC26BB1F473AFdBaEf617c826cA',
+      [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
     },
     inactive: false,
     projectLink: 'https://www.thenile.exchange/swap',
@@ -76,7 +76,7 @@ const bills: BillsConfig[] = [
     index: 6003,
     chainId: ChainId.LINEA,
     contractAddress: {
-      [ChainId.LINEA]: '0x204076A1F7f43b24dD3baCAa33C0e6Bc90a64665',
+      [ChainId.LINEA]: '0x055893f759Ec752b0e2cB94e2a9bB3a67d6A9E27', // prod!!
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
@@ -85,7 +85,7 @@ const bills: BillsConfig[] = [
     lpToken: tokens.eth,
     earnToken: tokens.lvc,
     billNnftAddress: {
-      [ChainId.LINEA]: '0x9939d407DA7EfaC26BB1F473AFdBaEf617c826cA',
+      [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
     },
     inactive: false,
     projectLink: 'https://app.velocore.xyz/swap',
@@ -105,7 +105,7 @@ const bills: BillsConfig[] = [
     index: 6002,
     chainId: ChainId.LINEA,
     contractAddress: {
-      [ChainId.LINEA]: '0xbFc66c7E9fa1297be9a16B9D598be5143C2e0F2A',
+      [ChainId.LINEA]: '0xBF17Ab54c6a01406649cb89b605Dd67aF19FEdaA', // prod!!
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
@@ -114,7 +114,7 @@ const bills: BillsConfig[] = [
     lpToken: tokens.ethLynx_Ichi,
     earnToken: tokens.lynx,
     billNnftAddress: {
-      [ChainId.LINEA]: '0x9939d407DA7EfaC26BB1F473AFdBaEf617c826cA',
+      [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
     },
     inactive: false,
     projectLink: 'https://launchpad.enjinstarter.com/',
@@ -134,7 +134,7 @@ const bills: BillsConfig[] = [
     index: 6001,
     chainId: ChainId.LINEA,
     contractAddress: {
-      [ChainId.LINEA]: '0x52F80243De99021FFE47325d5c65c02ad993Dda9',
+      [ChainId.LINEA]: '0x7D3866b90aD077cCfBc2f2F39273bcCE106A6399', // prod!!
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
@@ -143,7 +143,7 @@ const bills: BillsConfig[] = [
     lpToken: tokens.eth,
     earnToken: tokens.mvx,
     billNnftAddress: {
-      [ChainId.LINEA]: '0x9939d407DA7EfaC26BB1F473AFdBaEf617c826cA',
+      [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
     },
     inactive: false,
     projectLink: 'https://launchpad.enjinstarter.com/',
