@@ -7,9 +7,161 @@ import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } fr
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2005
 // ETH Largest ID: 3012
+// Linea Largest ID: 6005
 //Migration Bonds ID: 5007
 
 const bills: BillsConfig[] = [
+  //
+  // LINEA
+  //
+  {
+    index: 6005,
+    chainId: ChainId.LINEA,
+    contractAddress: {
+      [ChainId.LINEA]: '0x6657429079727C5c6efC2c383bE016566ED22182', // prod
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdc,
+    quoteToken: tokens.usdc,
+    lpToken: tokens.usdc,
+    earnToken: tokens.xfit,
+    billNnftAddress: {
+      [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
+    },
+    inactive: false,
+    projectLink: 'https://xfai.com/',
+    twitter: 'https://twitter.com/xfai_official',
+    audit: 'https://xfai.com/audit.pdf',
+    initTime: { [ChainId.LINEA]: 1716217474 },
+    initPrice: { [ChainId.LINEA]: 0.005450086440702347 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Launchpad'],
+    fullDescription:
+      'XFAI is Linea’s next-generation DEX, offering users next-level trading performance. Say goodbye to token pairs and fragmented liquidity. With XFAI’s entangled pools, deep liquidity is accessible to everyone!',
+  },
+  {
+    index: 6004,
+    chainId: ChainId.LINEA,
+    contractAddress: {
+      [ChainId.LINEA]: '0xe42Cf31F6dA73f4bFEDe8a8F3E61f5aD6A033945', // prod!!
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdc,
+    quoteToken: tokens.usdc,
+    lpToken: tokens.usdc,
+    earnToken: tokens.nile,
+    billNnftAddress: {
+      [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
+    },
+    inactive: false,
+    projectLink: 'https://www.thenile.exchange/swap',
+    twitter: 'https://twitter.com/NileExchange',
+    audit: 'https://docs.thenile.exchange/security-and-legal-considerations/inherited-security',
+    initTime: { [ChainId.LINEA]: 1716217474 },
+    initPrice: { [ChainId.LINEA]: 0.005450086440702347 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Launchpad'],
+    fullDescription:
+      'NILE represents the next generation of Concentrated Liquidity. It takes this concept to the next level, optimizing for high-frequency liquidity providers (LPs) and Layer 2 cost structures. The result is a hyper-efficient liquidity layer designed to attract the most effective liquidity providers while delivering a clean and simple user experience (UX) for traders.',
+  },
+  {
+    index: 6003,
+    chainId: ChainId.LINEA,
+    contractAddress: {
+      [ChainId.LINEA]: '0x055893f759Ec752b0e2cB94e2a9bB3a67d6A9E27', // prod!!
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.eth,
+    quoteToken: tokens.eth,
+    lpToken: tokens.eth,
+    earnToken: tokens.lvc,
+    billNnftAddress: {
+      [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
+    },
+    inactive: false,
+    projectLink: 'https://app.velocore.xyz/swap',
+    twitter: 'https://twitter.com/velocorexyz',
+    audit: 'https://docs.velocore.xyz/security-and-contract-address/three-rounds-of-audits',
+    initTime: { [ChainId.LINEA]: 1716217474 },
+    initPrice: { [ChainId.LINEA]: 0.005450086440702347 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Launchpad'],
+    fullDescription:
+      'Velocore is the first revolutionary veDEX on zkSync and Linea. The project offers a groundbreaking solution by synthesizing top-tier DEX methodologies into a novel, high-performance flywheel.',
+  },
+  {
+    index: 6002,
+    chainId: ChainId.LINEA,
+    contractAddress: {
+      [ChainId.LINEA]: '0xBF17Ab54c6a01406649cb89b605Dd67aF19FEdaA', // prod!!
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.eth,
+    quoteToken: tokens.lynx,
+    lpToken: tokens.ethLynx_Ichi,
+    earnToken: tokens.lynx,
+    billNnftAddress: {
+      [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
+    },
+    inactive: false,
+    projectLink: 'https://launchpad.enjinstarter.com/',
+    twitter: 'https://twitter.com/enjinstarter',
+    audit: 'https://hacken.io/audits/enjinstarter',
+    initTime: { [ChainId.LINEA]: 1716217474 },
+    initPrice: { [ChainId.LINEA]: 0.005450086440702347 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Launchpad'],
+    fullDescription:
+      'Lynex democratizes sophisticated liquidity strategies, seamlessly connecting everyday traders with expert-level capabilities. The platform features a competitive ecosystem of Automated Liquidity Managers (ALMs) and strategists, all striving to optimize returns, minimize risks such as impermanent loss, and boost overall efficiency for every user. Lynex: the Liquidity Engine of Linea!',
+  },
+  {
+    index: 6001,
+    chainId: ChainId.LINEA,
+    contractAddress: {
+      [ChainId.LINEA]: '0x7D3866b90aD077cCfBc2f2F39273bcCE106A6399', // prod!!
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.eth,
+    quoteToken: tokens.eth,
+    lpToken: tokens.eth,
+    earnToken: tokens.mvx,
+    billNnftAddress: {
+      [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
+    },
+    inactive: false,
+    projectLink: 'https://launchpad.enjinstarter.com/',
+    twitter: 'https://twitter.com/enjinstarter',
+    audit: 'https://hacken.io/audits/enjinstarter',
+    initTime: { [ChainId.LINEA]: 1716217474 },
+    initPrice: { [ChainId.LINEA]: 0.005450086440702347 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Launchpad'],
+    fullDescription:
+      'Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!',
+  },
+  //
+  // BNB chain
+  //
   {
     index: 1061,
     chainId: ChainId.BSC,
