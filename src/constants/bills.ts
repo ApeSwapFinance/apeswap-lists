@@ -7,6 +7,7 @@ import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } fr
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2005
 // ETH Largest ID: 3012
+// Linea Largest ID: 6005
 //Migration Bonds ID: 5007
 
 const bills: BillsConfig[] = [
@@ -39,7 +40,8 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['Launchpad'],
-    fullDescription: 'Good project ser',
+    fullDescription:
+      'XFAI is Linea’s next-generation DEX, offering users next-level trading performance. Say goodbye to token pairs and fragmented liquidity. With XFAI’s entangled pools, deep liquidity is accessible to everyone!',
   },
   {
     index: 6004,
@@ -67,7 +69,8 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['Launchpad'],
-    fullDescription: 'Good project ser',
+    fullDescription:
+      'NILE represents the next generation of Concentrated Liquidity. It takes this concept to the next level, optimizing for high-frequency liquidity providers (LPs) and Layer 2 cost structures. The result is a hyper-efficient liquidity layer designed to attract the most effective liquidity providers while delivering a clean and simple user experience (UX) for traders.',
   },
   {
     index: 6003,
@@ -95,7 +98,8 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['Launchpad'],
-    fullDescription: 'Good project ser',
+    fullDescription:
+      'Velocore is the first revolutionary veDEX on zkSync and Linea. The project offers a groundbreaking solution by synthesizing top-tier DEX methodologies into a novel, high-performance flywheel.',
   },
   {
     index: 6002,
@@ -123,7 +127,8 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['Launchpad'],
-    fullDescription: 'Good project ser',
+    fullDescription:
+      'Lynex democratizes sophisticated liquidity strategies, seamlessly connecting everyday traders with expert-level capabilities. The platform features a competitive ecosystem of Automated Liquidity Managers (ALMs) and strategists, all striving to optimize returns, minimize risks such as impermanent loss, and boost overall efficiency for every user. Lynex: the Liquidity Engine of Linea!',
   },
   {
     index: 6001,
@@ -151,7 +156,8 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['Launchpad'],
-    fullDescription: 'Good project ser',
+    fullDescription:
+      'Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!',
   },
   //
   // BNB chain
