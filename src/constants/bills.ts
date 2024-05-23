@@ -39,7 +39,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    tags: ['Launchpad'],
+    tags: ['DEX'],
     fullDescription:
       'XFAI is Linea’s next-generation DEX, offering users next-level trading performance. Say goodbye to token pairs and fragmented liquidity. With XFAI’s entangled pools, deep liquidity is accessible to everyone!',
   },
@@ -68,7 +68,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    tags: ['Launchpad'],
+    tags: ['DEX'],
     fullDescription:
       'NILE represents the next generation of Concentrated Liquidity. It takes this concept to the next level, optimizing for high-frequency liquidity providers (LPs) and Layer 2 cost structures. The result is a hyper-efficient liquidity layer designed to attract the most effective liquidity providers while delivering a clean and simple user experience (UX) for traders.',
   },
@@ -97,7 +97,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    tags: ['Launchpad'],
+    tags: ['DEX'],
     fullDescription:
       'Velocore is the first revolutionary veDEX on zkSync and Linea. The project offers a groundbreaking solution by synthesizing top-tier DEX methodologies into a novel, high-performance flywheel.',
   },
@@ -126,7 +126,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    tags: ['Launchpad'],
+    tags: ['DEX'],
     fullDescription:
       'Lynex democratizes sophisticated liquidity strategies, seamlessly connecting everyday traders with expert-level capabilities. The platform features a competitive ecosystem of Automated Liquidity Managers (ALMs) and strategists, all striving to optimize returns, minimize risks such as impermanent loss, and boost overall efficiency for every user. Lynex: the Liquidity Engine of Linea!',
   },
@@ -155,7 +155,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    tags: ['Launchpad'],
+    tags: ['DeFi'],
     fullDescription:
       'Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!',
   },
