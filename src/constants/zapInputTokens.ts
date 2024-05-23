@@ -36,10 +36,10 @@ const zapInputTokens: Partial<Record<ChainId, Record<string, Token>>> = {
   [ChainId.LINEA]: {
     usdc: tokens.usdc,
     usdt: tokens.usdt,
-    // eth -> weth
-    // btc
-    // dai
-    // matic
+    eth: tokens.eth,
+    btc: tokens.btc,
+    dai: tokens.dai,
+    matic: tokens.matic,
   },
 }
 
