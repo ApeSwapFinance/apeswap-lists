@@ -262,7 +262,7 @@ const bills: BillsConfig[] = [
     audit: 'https://skynet.certik.com/projects/tifi-token',
     initTime: { [ChainId.BSC]: 1704996000 },
     initPrice: { [ChainId.BSC]: 0.000000031773560782 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -377,7 +377,7 @@ const bills: BillsConfig[] = [
     audit: 'https://skynet.certik.com/projects/solidus-ai-tech',
     initTime: { [ChainId.BSC]: 1712235600 },
     initPrice: { [ChainId.BSC]: 0.000119256747804887 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.AITECH_Collection1,
     },
@@ -549,7 +549,7 @@ const bills: BillsConfig[] = [
     audit: 'https://skynet.certik.com/projects/winkyverse',
     initTime: { [ChainId.BSC]: 1704891600 },
     initPrice: { [ChainId.BSC]: 0.000875307143616461 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1479,7 +1479,7 @@ const bills: BillsConfig[] = [
     audit: 'https://sourcehat.com/audits/Grapecoin/',
     initTime: { [ChainId.BSC]: 1704891600 },
     initPrice: { [ChainId.BSC]: 0.00173967992950712 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1508,7 +1508,7 @@ const bills: BillsConfig[] = [
     audit: 'https://solidity.finance/audits/CakeMonster/',
     initTime: { [ChainId.BSC]: 1704996000 },
     initPrice: { [ChainId.BSC]: 0.000000031773560782 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -4471,7 +4471,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/Planetix0',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.347018667988457 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.PlanetIX_Collection1,
     },
@@ -4560,7 +4560,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/Planetix0',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.347018667988457 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.PlanetIX_Collection1,
     },
@@ -4679,7 +4679,7 @@ const bills: BillsConfig[] = [
     audit: 'https://skynet.certik.com/projects/nftbooks?utm_source=CMC&utm_campaign=AuditByCertiKLink',
     initTime: { [ChainId.MATIC]: 1700485200 },
     initPrice: { [ChainId.MATIC]: 0.002404165611 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
@@ -6087,7 +6087,7 @@ const bills: BillsConfig[] = [
     audit: 'https://wp.hacken.io/wp-content/uploads/2023/05/Cogito_SC-Audit-Report_11_05_2023_SA-1337-1.pdf',
     initTime: { [ChainId.MAINNET]: 1710255600 },
     initPrice: { [ChainId.MAINNET]: 0.00173967992950712 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
@@ -6201,7 +6201,7 @@ const bills: BillsConfig[] = [
     audit: 'https://hacken.io/audits/cirus/',
     initTime: { [ChainId.MAINNET]: 1710255600 },
     initPrice: { [ChainId.MAINNET]: 0.00173967992950712 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
@@ -6313,7 +6313,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/chirpley',
     initTime: { [ChainId.MAINNET]: 1710255600 },
     initPrice: { [ChainId.MAINNET]: 0.00173967992950712 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
