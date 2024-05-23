@@ -195,13 +195,15 @@
           "40": "0xf390830DF829cf22c53c8840554B98eafC5dCBc2",
           "56": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
           "97": "0x6ce8dA28E2f864420840cF74474eFf5fD80E65B8",
-          "137": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6"
+          "137": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+          "59144": "0x3aAB2285ddcDdaD8edf438C1bAB47e1a9D05a9b4"
         },
         "decimals": {
           "40": 8,
           "56": 18,
           "97": 18,
-          "137": 18
+          "137": 18,
+          "59144": 8
         },
         "liquidityDex": {
           "56": "PancakeSwapV3"

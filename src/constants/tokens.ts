@@ -48,8 +48,8 @@ const tokens: Record<string, Token> = {
       [ChainId.LINEA]: LiquidityDex.External,
     },
   },
-  xfai: {
-    symbol: 'XFAI',
+  xfit: {
+    symbol: 'XFIT',
     address: {
       [ChainId.LINEA]: '0x8C56017B172226fE024dEa197748FC1eaccC82B1',
     },
@@ -233,10 +233,12 @@ const tokens: Record<string, Token> = {
     address: {
       [ChainId.BSC]: '0xCC42724C6683B7E57334c4E856f4c9965ED682bD',
       [ChainId.MATIC]: '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270',
+      [ChainId.LINEA]: '0x265B25e22bcd7f10a5bD6E6410F10537Cc7567e8',
     },
     decimals: {
       [ChainId.BSC]: 18,
       [ChainId.MATIC]: 18,
+      [ChainId.LINEA]: 18,
     },
     active: true,
   },
@@ -281,12 +283,14 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: '0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6',
       [ChainId.BSC_TESTNET]: '0x6ce8dA28E2f864420840cF74474eFf5fD80E65B8',
       [ChainId.TLOS]: '0xf390830DF829cf22c53c8840554B98eafC5dCBc2',
+      [ChainId.LINEA]: '0x3aAB2285ddcDdaD8edf438C1bAB47e1a9D05a9b4',
     },
     decimals: {
       [ChainId.BSC]: 18,
       [ChainId.BSC_TESTNET]: 18,
       [ChainId.MATIC]: 18,
       [ChainId.TLOS]: 8,
+      [ChainId.LINEA]: 8,
     },
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
@@ -1174,11 +1178,13 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: '0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3',
       [ChainId.MATIC]: '0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063',
       [ChainId.MAINNET]: '0x6B175474E89094C44Da98b954EedeAC495271d0F',
+      [ChainId.LINEA]: '0x4AF15ec2A0BD43Db75dd04E62FAA3B8EF36b00d5',
     },
     decimals: {
       [ChainId.BSC]: 18,
       [ChainId.MATIC]: 18,
       [ChainId.MAINNET]: 18,
+      [ChainId.LINEA]: 18,
     },
     liquidityDex: {
       [ChainId.MAINNET]: LiquidityDex.UniswapV3,
