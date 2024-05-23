@@ -41,14 +41,16 @@
         "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
         "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
         "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-        "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
+        "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+        "59144": "0x176211869cA2b568f2A7D4EE941E073a821EE1ff"
       },
       "decimals": {
         "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
-        "42161": 6
+        "42161": 6,
+        "59144": 6
       },
       "active": true
     },
@@ -61,7 +63,8 @@
         "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
-        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
       },
       "decimals": {
         "1": 6,
@@ -70,7 +73,8 @@
         "97": 18,
         "137": 6,
         "2525": 6,
-        "42161": 6
+        "42161": 6,
+        "59144": 6
       },
       "liquidityDex": {
         "1": "UniswapV2",
@@ -135,18 +139,6 @@
       },
       "active": true
     },
-    "busd": {
-      "symbol": "BUSD",
-      "address": {
-        "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
-        "97": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee"
-      },
-      "decimals": {
-        "56": 18,
-        "97": 18
-      },
-      "active": true
-    },
     "usdc": {
       "symbol": "USDC",
       "address": {
@@ -154,14 +146,16 @@
         "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
         "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
         "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-        "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
+        "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+        "59144": "0x176211869cA2b568f2A7D4EE941E073a821EE1ff"
       },
       "decimals": {
         "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
-        "42161": 6
+        "42161": 6,
+        "59144": 6
       },
       "active": true
     },
@@ -174,7 +168,8 @@
         "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
-        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
       },
       "decimals": {
         "1": 6,
@@ -183,7 +178,8 @@
         "97": 18,
         "137": 6,
         "2525": 6,
-        "42161": 6
+        "42161": 6,
+        "59144": 6
       },
       "liquidityDex": {
         "1": "UniswapV2",
@@ -319,14 +315,16 @@
         "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
         "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
         "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-        "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
+        "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+        "59144": "0x176211869cA2b568f2A7D4EE941E073a821EE1ff"
       },
       "decimals": {
         "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
-        "42161": 6
+        "42161": 6,
+        "59144": 6
       },
       "active": true
     },
@@ -339,7 +337,8 @@
         "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
-        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
       },
       "decimals": {
         "1": 6,
@@ -348,7 +347,8 @@
         "97": 18,
         "137": 6,
         "2525": 6,
-        "42161": 6
+        "42161": 6,
+        "59144": 6
       },
       "liquidityDex": {
         "1": "UniswapV2",
@@ -389,7 +389,8 @@
         "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
-        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
       },
       "decimals": {
         "1": 6,
@@ -398,7 +399,8 @@
         "97": 18,
         "137": 6,
         "2525": 6,
-        "42161": 6
+        "42161": 6,
+        "59144": 6
       },
       "liquidityDex": {
         "1": "UniswapV2",
@@ -413,14 +415,66 @@
         "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
         "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
         "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-        "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
+        "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+        "59144": "0x176211869cA2b568f2A7D4EE941E073a821EE1ff"
       },
       "decimals": {
         "1": 6,
         "40": 6,
         "56": 18,
         "137": 6,
-        "42161": 6
+        "42161": 6,
+        "59144": 6
+      },
+      "active": true
+    }
+  },
+  "59144": {
+    "usdc": {
+      "symbol": "USDC",
+      "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+        "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+        "59144": "0x176211869cA2b568f2A7D4EE941E073a821EE1ff"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "active": true
+    },
+    "usdt": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "2525": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "2525": "External"
       },
       "active": true
     }

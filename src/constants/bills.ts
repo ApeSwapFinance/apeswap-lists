@@ -21,8 +21,8 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.lynx, //TODO: check token-quoteToken order
-    quoteToken: tokens.eth,
+    token: tokens.eth,
+    quoteToken: tokens.lynx,
     lpToken: tokens.ethLynx_Ichi,
     earnToken: tokens.lynx,
     billNnftAddress: {
@@ -39,8 +39,7 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['Launchpad'],
-    fullDescription:
-      'EnjinStarter is a game-centric launchpad that offers investors a cost-effective way to participate in early Web3 launches, helping creators and game development studios embrace its robust ecosystem for their blockchain and digital asset strategies.',
+    fullDescription: 'Good project ser',
   },
   {
     index: 6001,
