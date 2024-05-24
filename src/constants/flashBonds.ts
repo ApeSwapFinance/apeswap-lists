@@ -358,7 +358,7 @@ const flashBonds: FlashBondConfig[] = [
   {
     index: 11,
     round: '6',
-    totalRaiseString: '??',
+    totalRaiseString: '100K',
     discountString: '3%',
     tierString: 'legend',
     contractAddress: {
@@ -390,7 +390,7 @@ const flashBonds: FlashBondConfig[] = [
   {
     index: 12,
     round: '6',
-    totalRaiseString: '??',
+    totalRaiseString: '40K',
     discountString: '2%',
     tierString: 'diamond',
     contractAddress: {
@@ -406,13 +406,13 @@ const flashBonds: FlashBondConfig[] = [
     soldOut: false,
     billArt: { collection: BillArtCollection.ApeBond_Collection1 },
     initTime: {
-      [ChainId.BSC]: 1716660000, // May 25th 1800 UTC
+      [ChainId.BSC]: 1716573600, // May 24th 1800 UTC
     },
     finishTime: {
-      [ChainId.BSC]: 1716661800, // May 25th 1830 UTC
+      [ChainId.BSC]: 1716575400, // May 24th 1830 UTC
     },
     startVestingTimestamp: {
-      [ChainId.BSC]: 1716661800, // May 25th 1830 UTC
+      [ChainId.BSC]: 1716575400, // May 24th 1830 UTC
     },
     initPrice: {
       [ChainId.BSC]: 0,
@@ -422,7 +422,7 @@ const flashBonds: FlashBondConfig[] = [
   {
     index: 13,
     round: '6',
-    totalRaiseString: '??',
+    totalRaiseString: '20K',
     discountString: '1%',
     tierString: 'gold',
     contractAddress: {
@@ -438,13 +438,13 @@ const flashBonds: FlashBondConfig[] = [
     soldOut: false,
     billArt: { collection: BillArtCollection.ApeBond_Collection1 },
     initTime: {
-      [ChainId.BSC]: 1716656400, // May 25th 1700 UTC
+      [ChainId.BSC]: 1716570000, // May 24th 1700 UTC
     },
     finishTime: {
-      [ChainId.BSC]: 1716658200, // May 25th 1730 UTC
+      [ChainId.BSC]: 1716571800, // May 24th 1730 UTC
     },
     startVestingTimestamp: {
-      [ChainId.BSC]: 1716658200, // May 25th 1730 UTC
+      [ChainId.BSC]: 1716571800, // May 24th 1730 UTC
     },
     initPrice: {
       [ChainId.BSC]: 0,

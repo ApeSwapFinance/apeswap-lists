@@ -874,7 +874,7 @@
   {
     "index": 11,
     "round": "6",
-    "totalRaiseString": "??",
+    "totalRaiseString": "100K",
     "discountString": "3%",
     "tierString": "legend",
     "contractAddress": {
@@ -956,7 +956,7 @@
   {
     "index": 12,
     "round": "6",
-    "totalRaiseString": "??",
+    "totalRaiseString": "40K",
     "discountString": "2%",
     "tierString": "diamond",
     "contractAddress": {
@@ -1022,13 +1022,13 @@
       "collection": "ApeBond_Collection1"
     },
     "initTime": {
-      "56": 1716660000
+      "56": 1716573600
     },
     "finishTime": {
-      "56": 1716661800
+      "56": 1716575400
     },
     "startVestingTimestamp": {
-      "56": 1716661800
+      "56": 1716575400
     },
     "initPrice": {
       "56": 0
@@ -1038,7 +1038,7 @@
   {
     "index": 13,
     "round": "6",
-    "totalRaiseString": "??",
+    "totalRaiseString": "20K",
     "discountString": "1%",
     "tierString": "gold",
     "contractAddress": {
@@ -1104,13 +1104,13 @@
       "collection": "ApeBond_Collection1"
     },
     "initTime": {
-      "56": 1716656400
+      "56": 1716570000
     },
     "finishTime": {
-      "56": 1716658200
+      "56": 1716571800
     },
     "startVestingTimestamp": {
-      "56": 1716658200
+      "56": 1716571800
     },
     "initPrice": {
       "56": 0
