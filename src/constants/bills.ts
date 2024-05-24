@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1061
+// BNB Largest ID: 1062
 // Polygon Largest ID: 146
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2005
@@ -162,6 +162,29 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1062,
+    chainId: ChainId.BSC,
+    contractAddress: { [ChainId.BSC]: '0x56D8785161efbE407829fB659918d404883708e2' },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.gtai,
+    lpToken: tokens.gtaiUsdt_PCS,
+    earnToken: tokens.gtai,
+    billNnftAddress: { [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9' },
+    inactive: false,
+    projectLink: 'https://www.gt-protocol.io/',
+    twitter: 'https://twitter.com/gt_protocol',
+    audit: 'https://skynet.certik.com/projects/gt-protocol',
+    initTime: { [ChainId.BSC]: 1709809412 },
+    initPrice: { [ChainId.BSC]: 5.282656128760897 },
+    soldOut: false,
+    billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+    fullDescription:
+      'GT Protocol is a Web3 AI execution technology that grants access to CeFi, DeFi, and NFT crypto markets through an all-in-one conversational AI interface. Incubated by ChainGPT, GT Protocol offers services including AI Crypto Management, AI NFT Management, and AI Shopping Assistance.',
+    tags: ['AI'],
+  },
   {
     index: 1061,
     chainId: ChainId.BSC,
