@@ -34,6 +34,13 @@ export enum LiquidityDex {
   QuickswapV2 = 'QuickswapV2',
   UniswapV3 = 'UniswapV3',
   External = 'External',
+
+  //Linea
+  Spartadex = 'Spartadex',
+  Nile = 'Nile',
+  XFAI = 'XFAI',
+  Lynex = 'Lynex',
+  Metavault = 'Metavault',
 }
 
 export enum ZapVersion {
@@ -52,6 +59,7 @@ export enum Protocols {
   Gamma = 5,
   Steer = 6,
   Solidly = 7,
+  XFAI = 8,
 }
 
 export interface FarmStyles {
@@ -71,6 +79,8 @@ export interface Token {
   price?: number
   liquidityDex?: Partial<Record<ChainId, LiquidityDex>> //the dex type where most liquidity/actual lp is
   getLpUrl?: Partial<Record<ChainId, string>> //Needed for ZapVersion.External
+  vaultDeployer?: string // only necessary for Ichi Zap
+  router?: string // only necessary for Ichi Zap
 }
 
 // Interfaces used in Vaults

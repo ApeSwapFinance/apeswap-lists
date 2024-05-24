@@ -21,6 +21,85 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  ethLynx_Ichi: {
+    symbol: 'ETH-LYNX',
+    address: {
+      [ChainId.LINEA]: '0x511481ef0DEB10eB5c1E36B72140718c58921265',
+    },
+    decimals: { [ChainId.LINEA]: 18 },
+    active: true,
+    lpToken: true,
+    vaultDeployer: '0x75178e0a2829B73E3AE4C21eE64F4B684085392a',
+    router: '0x57C9d919AEA56171506cfb62B60ce76be0A079DF',
+    liquidityDex: {
+      [ChainId.LINEA]: LiquidityDex.Algebra,
+    },
+  },
+  lvc: {
+    symbol: 'LVC',
+    address: {
+      [ChainId.LINEA]: '0xcc22F6AA610D1b2a0e89EF228079cB3e1831b1D1',
+    },
+    decimals: {
+      [ChainId.LINEA]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.LINEA]: LiquidityDex.External,
+    },
+  },
+  xfit: {
+    symbol: 'XFIT',
+    address: {
+      [ChainId.LINEA]: '0x8C56017B172226fE024dEa197748FC1eaccC82B1',
+    },
+    decimals: {
+      [ChainId.LINEA]: 18,
+    },
+    liquidityDex: {
+      [ChainId.LINEA]: LiquidityDex.XFAI,
+    },
+    active: true,
+  },
+  nile: {
+    symbol: 'NILE',
+    address: {
+      [ChainId.LINEA]: '0xAAAac83751090C6ea42379626435f805DDF54DC8',
+    },
+    decimals: {
+      [ChainId.LINEA]: 18,
+    },
+    liquidityDex: {
+      [ChainId.LINEA]: LiquidityDex.Nile,
+    },
+    active: true,
+  },
+  lynx: {
+    symbol: 'LYNX',
+    address: {
+      [ChainId.LINEA]: '0x1a51b19CE03dbE0Cb44C1528E34a7EDD7771E9Af',
+    },
+    decimals: {
+      [ChainId.LINEA]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.LINEA]: LiquidityDex.Lynex,
+    },
+  },
+  mvx: {
+    symbol: 'MVX',
+    address: {
+      [ChainId.LINEA]: '0x0018D96C579121a94307249d47F053E2D687b5e7',
+    },
+    decimals: {
+      [ChainId.LINEA]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.LINEA]: LiquidityDex.Metavault,
+    },
+  },
   abcarv: {
     symbol: 'CARV',
     address: {
@@ -154,10 +233,12 @@ const tokens: Record<string, Token> = {
     address: {
       [ChainId.BSC]: '0xCC42724C6683B7E57334c4E856f4c9965ED682bD',
       [ChainId.MATIC]: '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270',
+      [ChainId.LINEA]: '0x265B25e22bcd7f10a5bD6E6410F10537Cc7567e8',
     },
     decimals: {
       [ChainId.BSC]: 18,
       [ChainId.MATIC]: 18,
+      [ChainId.LINEA]: 18,
     },
     active: true,
   },
@@ -182,6 +263,7 @@ const tokens: Record<string, Token> = {
       [ChainId.TLOS]: '0xfA9343C3897324496A05fC75abeD6bAC29f8A40f',
       [ChainId.ARBITRUM]: '0x82aF49447D8a07e3bd95BD0d56f35241523fBab1',
       [ChainId.MAINNET]: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
+      [ChainId.LINEA]: '0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -190,6 +272,7 @@ const tokens: Record<string, Token> = {
       [ChainId.TLOS]: 18,
       [ChainId.ARBITRUM]: 18,
       [ChainId.MAINNET]: 18,
+      [ChainId.LINEA]: 18,
     },
     active: true,
   },
@@ -200,12 +283,14 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: '0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6',
       [ChainId.BSC_TESTNET]: '0x6ce8dA28E2f864420840cF74474eFf5fD80E65B8',
       [ChainId.TLOS]: '0xf390830DF829cf22c53c8840554B98eafC5dCBc2',
+      [ChainId.LINEA]: '0x3aAB2285ddcDdaD8edf438C1bAB47e1a9D05a9b4',
     },
     decimals: {
       [ChainId.BSC]: 18,
       [ChainId.BSC_TESTNET]: 18,
       [ChainId.MATIC]: 18,
       [ChainId.TLOS]: 8,
+      [ChainId.LINEA]: 8,
     },
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
@@ -250,6 +335,7 @@ const tokens: Record<string, Token> = {
       [ChainId.TLOS]: '0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b',
       [ChainId.ARBITRUM]: '0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8',
       [ChainId.MAINNET]: '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48',
+      [ChainId.LINEA]: '0x176211869cA2b568f2A7D4EE941E073a821EE1ff', // this is USDC.e
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -257,6 +343,7 @@ const tokens: Record<string, Token> = {
       [ChainId.TLOS]: 6,
       [ChainId.ARBITRUM]: 6,
       [ChainId.MAINNET]: 6,
+      [ChainId.LINEA]: 6,
     },
     active: true,
   },
@@ -1091,11 +1178,13 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: '0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3',
       [ChainId.MATIC]: '0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063',
       [ChainId.MAINNET]: '0x6B175474E89094C44Da98b954EedeAC495271d0F',
+      [ChainId.LINEA]: '0x4AF15ec2A0BD43Db75dd04E62FAA3B8EF36b00d5',
     },
     decimals: {
       [ChainId.BSC]: 18,
       [ChainId.MATIC]: 18,
       [ChainId.MAINNET]: 18,
+      [ChainId.LINEA]: 18,
     },
     liquidityDex: {
       [ChainId.MAINNET]: LiquidityDex.UniswapV3,
@@ -1112,6 +1201,7 @@ const tokens: Record<string, Token> = {
       [ChainId.ARBITRUM]: '0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9',
       [ChainId.INEVM]: '0x97423A68BAe94b5De52d767a17aBCc54c157c0E5',
       [ChainId.BSC_TESTNET]: '0x337610d27c682E347C9cD60BD4b3b107C9d34dDd',
+      [ChainId.LINEA]: '0xA219439258ca9da29E9Cc4cE5596924745e12B93',
     },
     decimals: {
       [ChainId.MAINNET]: 6,
@@ -1121,6 +1211,7 @@ const tokens: Record<string, Token> = {
       [ChainId.ARBITRUM]: 6,
       [ChainId.INEVM]: 6,
       [ChainId.BSC_TESTNET]: 18,
+      [ChainId.LINEA]: 6,
     },
     liquidityDex: {
       [ChainId.INEVM]: LiquidityDex.External,
@@ -4576,6 +4667,8 @@ const tokens: Record<string, Token> = {
     },
     active: true,
     lpToken: true,
+    router: '0xDB8E25D78483D13781622A40e69a9E39A4b590B6',
+    vaultDeployer: '0x0768a75f616b98ee0937673bd83b7abf142236ea',
   },
   maticEth_Ichi: {
     symbol: 'MATIC (ETH)',
