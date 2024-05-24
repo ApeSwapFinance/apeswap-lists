@@ -960,7 +960,7 @@
     "discountString": "2%",
     "tierString": "diamond",
     "contractAddress": {
-      "56": ""
+      "56": "0x20CA88871F17F2EC6E3517813BB1c4EF10b93838"
     },
     "billVersion": "FlashTieredSale",
     "billType": "oversubscription",
@@ -1031,7 +1031,7 @@
       "56": 1716575400
     },
     "initPrice": {
-      "56": 0
+      "56": 3812.2
     },
     "initialRelease": 100
   },
