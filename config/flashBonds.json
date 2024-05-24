@@ -878,7 +878,7 @@
     "discountString": "3%",
     "tierString": "legend",
     "contractAddress": {
-      "56": ""
+      "56": "0x529C86133833347B1DEc32Daf368c9ed74c8cd10"
     },
     "billVersion": "FlashTieredSale",
     "billType": "oversubscription",
@@ -940,16 +940,16 @@
       "collection": "ApeBond_Collection1"
     },
     "initTime": {
-      "56": 1716577200
+      "56": 1716577800
     },
     "finishTime": {
-      "56": 1716579000
+      "56": 1716579600
     },
     "startVestingTimestamp": {
-      "56": 1716579000
+      "56": 1716579600
     },
     "initPrice": {
-      "56": 0
+      "56": 3621.98
     },
     "initialRelease": 100
   },
