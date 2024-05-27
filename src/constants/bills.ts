@@ -6135,7 +6135,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/codyfight',
     initTime: { [ChainId.ARBITRUM]: 1715789961 },
     initPrice: { [ChainId.ARBITRUM]: 0.13219279419877278 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
