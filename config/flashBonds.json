@@ -874,11 +874,11 @@
   {
     "index": 11,
     "round": "6",
-    "totalRaiseString": "??",
+    "totalRaiseString": "100K",
     "discountString": "3%",
     "tierString": "legend",
     "contractAddress": {
-      "56": ""
+      "56": "0x529C86133833347B1DEc32Daf368c9ed74c8cd10"
     },
     "billVersion": "FlashTieredSale",
     "billType": "oversubscription",
@@ -940,27 +940,27 @@
       "collection": "ApeBond_Collection1"
     },
     "initTime": {
-      "56": 1716577200
+      "56": 1716577800
     },
     "finishTime": {
-      "56": 1716579000
+      "56": 1716579600
     },
     "startVestingTimestamp": {
-      "56": 1716579000
+      "56": 1716579600
     },
     "initPrice": {
-      "56": 0
+      "56": 3621.98
     },
     "initialRelease": 100
   },
   {
     "index": 12,
     "round": "6",
-    "totalRaiseString": "??",
+    "totalRaiseString": "40K",
     "discountString": "2%",
     "tierString": "diamond",
     "contractAddress": {
-      "56": ""
+      "56": "0x4eA7b39560edFFA2717539984e80d699dC94B36F"
     },
     "billVersion": "FlashTieredSale",
     "billType": "oversubscription",
@@ -1022,27 +1022,27 @@
       "collection": "ApeBond_Collection1"
     },
     "initTime": {
-      "56": 1716660000
+      "56": 1716574500
     },
     "finishTime": {
-      "56": 1716661800
+      "56": 1716576000
     },
     "startVestingTimestamp": {
-      "56": 1716661800
+      "56": 1716576000
     },
     "initPrice": {
-      "56": 0
+      "56": 3637.76
     },
     "initialRelease": 100
   },
   {
     "index": 13,
     "round": "6",
-    "totalRaiseString": "??",
+    "totalRaiseString": "20K",
     "discountString": "1%",
     "tierString": "gold",
     "contractAddress": {
-      "56": ""
+      "56": "0xaB2C831ff65bBfac06b3D91E0422B03E229b852d"
     },
     "billVersion": "FlashTieredSale",
     "billType": "oversubscription",
@@ -1104,16 +1104,16 @@
       "collection": "ApeBond_Collection1"
     },
     "initTime": {
-      "56": 1716656400
+      "56": 1716570000
     },
     "finishTime": {
-      "56": 1716658200
+      "56": 1716571800
     },
     "startVestingTimestamp": {
-      "56": 1716658200
+      "56": 1716571800
     },
     "initPrice": {
-      "56": 0
+      "56": 3644.19
     },
     "initialRelease": 100
   }
