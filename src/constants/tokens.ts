@@ -70,7 +70,7 @@ const tokens: Record<string, Token> = {
       [ChainId.LINEA]: 18,
     },
     liquidityDex: {
-      [ChainId.LINEA]: LiquidityDex.Nile,
+      [ChainId.LINEA]: LiquidityDex.External,
     },
     active: true,
   },
