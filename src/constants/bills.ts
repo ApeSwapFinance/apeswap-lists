@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1062
+// BNB Largest ID: 1064
 // Polygon Largest ID: 146
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2005
@@ -117,9 +117,9 @@ const bills: BillsConfig[] = [
       [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
     },
     inactive: false,
-    projectLink: 'https://launchpad.enjinstarter.com/',
-    twitter: 'https://twitter.com/enjinstarter',
-    audit: 'https://hacken.io/audits/enjinstarter',
+    projectLink: 'https://www.lynex.fi/',
+    twitter: 'https://x.com/LynexFi',
+    audit: 'https://www.cyberscope.io/audits/coin-lynex',
     initTime: { [ChainId.LINEA]: 1716217474 },
     initPrice: { [ChainId.LINEA]: 0.005450086440702347 },
     soldOut: false,
@@ -146,9 +146,9 @@ const bills: BillsConfig[] = [
       [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
     },
     inactive: false,
-    projectLink: 'https://launchpad.enjinstarter.com/',
-    twitter: 'https://twitter.com/enjinstarter',
-    audit: 'https://hacken.io/audits/enjinstarter',
+    projectLink: 'https://metavault.trade/home',
+    twitter: 'https://twitter.com/MetavaultTrade',
+    audit: 'https://www.cyberscope.io/audits/coin-metavault-trade?slug=coin-metavault-trade',
     initTime: { [ChainId.LINEA]: 1716217474 },
     initPrice: { [ChainId.LINEA]: 0.005450086440702347 },
     soldOut: false,
@@ -162,6 +162,64 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1064,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0xf50F7531AD95BC4E9021cBb2338AE77dCEaDdd48',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.abond,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://ape.bond/',
+    twitter: 'https://twitter.com/apebond',
+    audit: 'https://paladinsec.co/projects/apebond/',
+    initTime: { [ChainId.BSC]: 1714137138 },
+    initPrice: { [ChainId.BSC]: 0.02599658552546072 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    fullDescription:
+      'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
+    tags: ['Reserve'],
+  },
+  {
+    index: 1063,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x3071B6e6576dE3690A0cb4acc3f2a7301A9a6f21',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.abond,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://ape.bond/',
+    twitter: 'https://twitter.com/apebond',
+    audit: 'https://paladinsec.co/projects/apebond/',
+    initTime: { [ChainId.BSC]: 1714137138 },
+    initPrice: { [ChainId.BSC]: 0.02599658552546072 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    fullDescription:
+      'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
+    tags: ['Reserve'],
+  },
   {
     index: 1062,
     chainId: ChainId.BSC,
@@ -4479,6 +4537,35 @@ const bills: BillsConfig[] = [
   /*
     Polygon Bills
   */
+  {
+    index: 147,
+    chainId: ChainId.MATIC,
+    contractAddress: {
+      [ChainId.MATIC]: '0x810D147FBf07a776FE31e887447af6607b15C13A',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.abond,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://ape.bond/',
+    twitter: 'https://twitter.com/apebond',
+    audit: 'https://paladinsec.co/projects/apebond/',
+    initTime: { [ChainId.MATIC]: 1700485200 },
+    initPrice: { [ChainId.MATIC]: 0.002404165611 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    fullDescription:
+      'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
+    tags: ['Reserve'],
+  },
   {
     index: 146,
     chainId: ChainId.MATIC,
