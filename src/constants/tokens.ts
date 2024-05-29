@@ -3042,6 +3042,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  sdex: {
+    symbol: 'SDEX',
+    address: {
+      [ChainId.BSC]: '0xFdc66A08B0d0Dc44c17bbd471B88f49F50CdD20F',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
   cgg: {
     symbol: 'CGG',
     address: {
