@@ -177,7 +177,7 @@
         "59144": 18
       },
       "liquidityDex": {
-        "59144": "External"
+        "59144": "Nile"
       },
       "active": true
     },
@@ -506,6 +506,88 @@
     },
     "tags": ["DeFi"],
     "fullDescription": "Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!"
+  },
+  {
+    "index": 1065,
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0xd18104Aaf4a0014140D78b6b2619a8C900378e8A"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "SDEX",
+      "address": {
+        "56": "0xFdc66A08B0d0Dc44c17bbd471B88f49F50CdD20F"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://smardex.io/home",
+    "twitter": "https://twitter.com/SmarDex",
+    "initTime": {
+      "56": 1714137138
+    },
+    "initPrice": {
+      "56": 0.02599658552546072
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "fullDescription": "SmarDex is leading innovation for liquidity providers and traders who want to stay ahead of the game. The team is revolutionizing the DeFi space by tackling the persistent issue of impermanent loss. Their groundbreaking technology allows liquidity providers to earn smart returns while giving users access to the best opportunities in the market. SmarDex: welcome to the next generation of DeFi!",
+    "tags": ["Reserve"]
   },
   {
     "index": 1064,

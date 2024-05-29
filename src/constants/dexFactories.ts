@@ -90,8 +90,8 @@ export const dexFactories: Partial<
       protocol: Protocols.V2,
     },
     [LiquidityDex.Nile]: {
-      factory: '0xAAA32926fcE6bE95ea2c51cB4Fcb60836D320C42', //I've changed it
-      protocol: Protocols.V3,
+      factory: '0xAAA16c016BF556fcD620328f0759252E29b1AB57', //I've changed it
+      protocol: Protocols.Solidly,
     },
     [LiquidityDex.Algebra]: {
       factory: '0x622b2c98123D303ae067DB4925CD6282B3A08D0F', //Lynex

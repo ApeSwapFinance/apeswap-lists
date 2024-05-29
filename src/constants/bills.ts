@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1064
+// BNB Largest ID: 1065
 // Polygon Largest ID: 146
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2005
@@ -162,6 +162,34 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1065,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0xd18104Aaf4a0014140D78b6b2619a8C900378e8A',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.wbnb,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.wbnb,
+    earnToken: tokens.sdex,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://smardex.io/home',
+    twitter: 'https://twitter.com/SmarDex',
+    initTime: { [ChainId.BSC]: 1714137138 },
+    initPrice: { [ChainId.BSC]: 0.02599658552546072 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    fullDescription:
+      'SmarDex is leading innovation for liquidity providers and traders who want to stay ahead of the game. The team is revolutionizing the DeFi space by tackling the persistent issue of impermanent loss. Their groundbreaking technology allows liquidity providers to earn smart returns while giving users access to the best opportunities in the market. SmarDex: welcome to the next generation of DeFi!',
+    tags: ['Reserve'],
+  },
   {
     index: 1064,
     chainId: ChainId.BSC,
