@@ -25,6 +25,9 @@
         "42161": 6,
         "59144": 6
       },
+      "liquidityDex": {
+        "59144": "Nile"
+      },
       "active": true
     },
     "quoteToken": {
@@ -45,6 +48,9 @@
         "42161": 6,
         "59144": 6
       },
+      "liquidityDex": {
+        "59144": "Nile"
+      },
       "active": true
     },
     "lpToken": {
@@ -64,6 +70,9 @@
         "137": 6,
         "42161": 6,
         "59144": 6
+      },
+      "liquidityDex": {
+        "59144": "Nile"
       },
       "active": true
     },
@@ -126,6 +135,9 @@
         "42161": 6,
         "59144": 6
       },
+      "liquidityDex": {
+        "59144": "Nile"
+      },
       "active": true
     },
     "quoteToken": {
@@ -146,6 +158,9 @@
         "42161": 6,
         "59144": 6
       },
+      "liquidityDex": {
+        "59144": "Nile"
+      },
       "active": true
     },
     "lpToken": {
@@ -165,6 +180,9 @@
         "137": 6,
         "42161": 6,
         "59144": 6
+      },
+      "liquidityDex": {
+        "59144": "Nile"
       },
       "active": true
     },
@@ -229,6 +247,9 @@
         "42161": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Lynex"
+      },
       "active": true
     },
     "quoteToken": {
@@ -251,6 +272,9 @@
         "42161": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Lynex"
+      },
       "active": true
     },
     "lpToken": {
@@ -272,6 +296,9 @@
         "137": 18,
         "42161": 18,
         "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -335,6 +362,9 @@
         "137": 18,
         "42161": 18,
         "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -428,6 +458,9 @@
         "42161": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Lynex"
+      },
       "active": true
     },
     "quoteToken": {
@@ -450,6 +483,9 @@
         "42161": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Lynex"
+      },
       "active": true
     },
     "lpToken": {
@@ -471,6 +507,9 @@
         "137": 18,
         "42161": 18,
         "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -508,6 +547,116 @@
     "fullDescription": "Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!"
   },
   {
+    "index": 1067,
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0x9344805a736df9C78d09d7aBbFbA3274aBa6811e"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "USDC",
+      "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+        "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+        "59144": "0x176211869cA2b568f2A7D4EE941E073a821EE1ff"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDC",
+      "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+        "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+        "59144": "0x176211869cA2b568f2A7D4EE941E073a821EE1ff"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+        "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+        "59144": "0x176211869cA2b568f2A7D4EE941E073a821EE1ff"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "WNK",
+      "address": {
+        "56": "0xb160A5F19ebccd8E0549549327e43DDd1D023526"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://www.winkyverse.io/",
+    "twitter": "https://twitter.com/TheWinkyverse_",
+    "audit": "https://skynet.certik.com/projects/winkyverse",
+    "initTime": {
+      "56": 1717085021
+    },
+    "initPrice": {
+      "56": 0.000398917904465581
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["GAMEFI"],
+    "fullDescription": "The Winkyverse is the first game-based learning platform offering immersive and purposeful educational experiences combining Gaming, Web3 and e-learning. Supported by the French Government, with an original setting, fully educational and ethical, the Winkyverse is the immersive and positive universe for all ages."
+  },
+  {
     "index": 1066,
     "chainId": 56,
     "contractAddress": {
@@ -539,7 +688,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -567,7 +717,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -595,7 +746,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -745,7 +897,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -773,7 +926,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -801,7 +955,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -876,7 +1031,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -904,7 +1060,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -932,7 +1089,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -1007,7 +1165,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -1189,7 +1348,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -1217,7 +1377,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -1245,7 +1406,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -1314,7 +1476,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -1342,7 +1505,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -1370,7 +1534,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -1448,7 +1613,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -1534,7 +1700,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -1562,7 +1729,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -1590,7 +1758,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -1659,7 +1828,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -1687,7 +1857,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -1715,7 +1886,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -1784,7 +1956,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -1812,7 +1985,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -1840,7 +2014,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -1915,7 +2090,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -1943,7 +2119,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -1971,7 +2148,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -2040,7 +2218,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -2068,7 +2247,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -2096,7 +2276,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -2165,7 +2346,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -2263,7 +2445,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -2291,7 +2474,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -2319,7 +2503,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -2479,7 +2664,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -2507,7 +2693,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -2535,7 +2722,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -2604,7 +2792,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -2703,7 +2892,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -2731,7 +2921,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -2759,7 +2950,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -2828,7 +3020,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -2926,7 +3119,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -2954,7 +3148,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -2982,7 +3177,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -3051,7 +3247,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -3079,7 +3276,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -3107,7 +3305,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -3169,6 +3368,9 @@
         "42161": 6,
         "59144": 6
       },
+      "liquidityDex": {
+        "59144": "Nile"
+      },
       "active": true
     },
     "quoteToken": {
@@ -3189,6 +3391,9 @@
         "42161": 6,
         "59144": 6
       },
+      "liquidityDex": {
+        "59144": "Nile"
+      },
       "active": true
     },
     "lpToken": {
@@ -3208,6 +3413,9 @@
         "137": 6,
         "42161": 6,
         "59144": 6
+      },
+      "liquidityDex": {
+        "59144": "Nile"
       },
       "active": true
     },
@@ -3276,7 +3484,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -4283,6 +4492,9 @@
         "42161": 6,
         "59144": 6
       },
+      "liquidityDex": {
+        "59144": "Nile"
+      },
       "active": true
     },
     "lpToken": {
@@ -4356,6 +4568,9 @@
         "137": 18,
         "42161": 18,
         "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -4442,7 +4657,8 @@
         "59144": 8
       },
       "liquidityDex": {
-        "56": "PancakeSwapV3"
+        "56": "PancakeSwapV3",
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -4623,6 +4839,9 @@
         "42161": 6,
         "59144": 6
       },
+      "liquidityDex": {
+        "59144": "Nile"
+      },
       "active": true
     },
     "lpToken": {
@@ -4699,6 +4918,9 @@
         "137": 18,
         "42161": 18,
         "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -4788,7 +5010,8 @@
         "59144": 8
       },
       "liquidityDex": {
-        "56": "PancakeSwapV3"
+        "56": "PancakeSwapV3",
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -4885,7 +5108,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -4913,7 +5137,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -4941,7 +5166,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -5081,7 +5307,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -5109,7 +5336,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -5137,7 +5365,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -5212,7 +5441,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -5240,7 +5470,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -5268,7 +5499,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -5343,7 +5575,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -5371,7 +5604,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -5399,7 +5633,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -5557,7 +5792,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -5655,7 +5891,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -5683,7 +5920,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -5711,7 +5949,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -5949,7 +6188,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -5977,7 +6217,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -6005,7 +6246,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -6074,7 +6316,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -6173,7 +6416,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -6201,7 +6445,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -6229,7 +6474,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -6297,7 +6543,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -6402,6 +6649,9 @@
         "42161": 6,
         "59144": 6
       },
+      "liquidityDex": {
+        "59144": "Nile"
+      },
       "active": true
     },
     "lpToken": {
@@ -6486,7 +6736,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -6514,7 +6765,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -6542,7 +6794,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -6696,7 +6949,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -6724,7 +6978,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -6752,7 +7007,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -6904,7 +7160,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -7003,7 +7260,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -7031,7 +7289,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -7059,7 +7318,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -7128,7 +7388,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -7156,7 +7417,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -7184,7 +7446,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -7253,7 +7516,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -7436,7 +7700,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -7464,7 +7729,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -7492,7 +7758,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -7560,7 +7827,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -7588,7 +7856,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -7616,7 +7885,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -7698,7 +7968,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -7797,7 +8068,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -7882,7 +8154,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -7910,7 +8183,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -7938,7 +8212,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -8090,7 +8365,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -8118,7 +8394,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -8146,7 +8423,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -8215,7 +8493,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -8243,7 +8522,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -8271,7 +8551,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -8425,7 +8706,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -8453,7 +8735,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -8481,7 +8764,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -8550,7 +8834,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -8578,7 +8863,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -8606,7 +8892,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -8675,7 +8962,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -8703,7 +8991,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -8731,7 +9020,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -8800,7 +9090,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -8898,7 +9189,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -8926,7 +9218,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -8954,7 +9247,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -9105,7 +9399,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -9133,7 +9428,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -9161,7 +9457,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -9484,7 +9781,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -9512,7 +9810,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -9540,7 +9839,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -10277,6 +10577,9 @@
         "42161": 6,
         "59144": 6
       },
+      "liquidityDex": {
+        "59144": "Nile"
+      },
       "active": true
     },
     "lpToken": {
@@ -10353,6 +10656,9 @@
         "137": 18,
         "42161": 18,
         "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -10442,7 +10748,8 @@
         "59144": 8
       },
       "liquidityDex": {
-        "56": "PancakeSwapV3"
+        "56": "PancakeSwapV3",
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -11190,7 +11497,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -11218,7 +11526,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -11246,7 +11555,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -11316,7 +11626,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -11529,6 +11840,9 @@
         "42161": 6,
         "59144": 6
       },
+      "liquidityDex": {
+        "59144": "Nile"
+      },
       "active": true
     },
     "lpToken": {
@@ -11561,6 +11875,9 @@
         "137": 6,
         "42161": 6,
         "59144": 6
+      },
+      "liquidityDex": {
+        "59144": "Nile"
       },
       "active": true
     },
@@ -11907,6 +12224,9 @@
         "42161": 6,
         "59144": 6
       },
+      "liquidityDex": {
+        "59144": "Nile"
+      },
       "active": true
     },
     "lpToken": {
@@ -11939,6 +12259,9 @@
         "137": 6,
         "42161": 6,
         "59144": 6
+      },
+      "liquidityDex": {
+        "59144": "Nile"
       },
       "active": true
     },
@@ -12072,6 +12395,9 @@
         "137": 6,
         "42161": 6,
         "59144": 6
+      },
+      "liquidityDex": {
+        "59144": "Nile"
       },
       "active": true
     },
@@ -12221,7 +12547,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -12854,6 +13181,9 @@
         "42161": 6,
         "59144": 6
       },
+      "liquidityDex": {
+        "59144": "Nile"
+      },
       "active": true
     },
     "lpToken": {
@@ -12926,6 +13256,9 @@
         "137": 18,
         "42161": 18,
         "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -13011,7 +13344,8 @@
         "59144": 8
       },
       "liquidityDex": {
-        "56": "PancakeSwapV3"
+        "56": "PancakeSwapV3",
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -14276,7 +14610,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -15155,6 +15490,9 @@
         "42161": 6,
         "59144": 6
       },
+      "liquidityDex": {
+        "59144": "Nile"
+      },
       "active": true
     },
     "lpToken": {
@@ -15221,6 +15559,9 @@
         "137": 18,
         "42161": 18,
         "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -15300,7 +15641,8 @@
         "59144": 8
       },
       "liquidityDex": {
-        "56": "PancakeSwapV3"
+        "56": "PancakeSwapV3",
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -15543,6 +15885,9 @@
         "42161": 6,
         "59144": 6
       },
+      "liquidityDex": {
+        "59144": "Nile"
+      },
       "active": true
     },
     "lpToken": {
@@ -15609,6 +15954,9 @@
         "137": 18,
         "42161": 18,
         "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -15688,7 +16036,8 @@
         "59144": 8
       },
       "liquidityDex": {
-        "56": "PancakeSwapV3"
+        "56": "PancakeSwapV3",
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -15943,6 +16292,9 @@
         "42161": 6,
         "59144": 6
       },
+      "liquidityDex": {
+        "59144": "Nile"
+      },
       "active": true
     },
     "lpToken": {
@@ -16015,6 +16367,9 @@
         "137": 18,
         "42161": 18,
         "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -16100,7 +16455,8 @@
         "59144": 8
       },
       "liquidityDex": {
-        "56": "PancakeSwapV3"
+        "56": "PancakeSwapV3",
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -16261,7 +16617,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -16289,7 +16646,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -16317,7 +16675,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -16468,6 +16827,9 @@
         "42161": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Lynex"
+      },
       "active": true
     },
     "quoteToken": {
@@ -16490,6 +16852,9 @@
         "42161": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Lynex"
+      },
       "active": true
     },
     "lpToken": {
@@ -16511,6 +16876,9 @@
         "137": 18,
         "42161": 18,
         "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -16665,6 +17033,9 @@
         "137": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Algebra"
+      },
       "active": true
     },
     "quoteToken": {
@@ -16679,6 +17050,9 @@
         "137": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Algebra"
+      },
       "active": true
     },
     "lpToken": {
@@ -16692,6 +17066,9 @@
         "56": 18,
         "137": 18,
         "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Algebra"
       },
       "active": true
     },
@@ -16760,7 +17137,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -16788,7 +17166,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -16816,7 +17195,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -16899,7 +17279,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -16978,6 +17359,9 @@
         "137": 6,
         "42161": 6,
         "59144": 6
+      },
+      "liquidityDex": {
+        "59144": "Nile"
       },
       "active": true
     },
@@ -17065,6 +17449,9 @@
         "137": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Algebra"
+      },
       "active": true
     },
     "quoteToken": {
@@ -17079,6 +17466,9 @@
         "137": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Algebra"
+      },
       "active": true
     },
     "lpToken": {
@@ -17092,6 +17482,9 @@
         "56": 18,
         "137": 18,
         "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Algebra"
       },
       "active": true
     },
@@ -17161,7 +17554,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -17189,7 +17583,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -17217,7 +17612,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -17274,6 +17670,9 @@
         "137": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Algebra"
+      },
       "active": true
     },
     "quoteToken": {
@@ -17288,6 +17687,9 @@
         "137": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Algebra"
+      },
       "active": true
     },
     "lpToken": {
@@ -17301,6 +17703,9 @@
         "56": 18,
         "137": 18,
         "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Algebra"
       },
       "active": true
     },
@@ -17382,7 +17787,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -17457,6 +17863,9 @@
         "137": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Algebra"
+      },
       "active": true
     },
     "quoteToken": {
@@ -17471,6 +17880,9 @@
         "137": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Algebra"
+      },
       "active": true
     },
     "lpToken": {
@@ -17484,6 +17896,9 @@
         "56": 18,
         "137": 18,
         "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Algebra"
       },
       "active": true
     },
@@ -17541,6 +17956,9 @@
         "137": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Algebra"
+      },
       "active": true
     },
     "quoteToken": {
@@ -17555,6 +17973,9 @@
         "137": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Algebra"
+      },
       "active": true
     },
     "lpToken": {
@@ -17568,6 +17989,9 @@
         "56": 18,
         "137": 18,
         "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Algebra"
       },
       "active": true
     },
@@ -17631,6 +18055,9 @@
         "42161": 6,
         "59144": 6
       },
+      "liquidityDex": {
+        "59144": "Nile"
+      },
       "active": true
     },
     "quoteToken": {
@@ -17651,6 +18078,9 @@
         "42161": 6,
         "59144": 6
       },
+      "liquidityDex": {
+        "59144": "Nile"
+      },
       "active": true
     },
     "lpToken": {
@@ -17670,6 +18100,9 @@
         "137": 6,
         "42161": 6,
         "59144": 6
+      },
+      "liquidityDex": {
+        "59144": "Nile"
       },
       "active": true
     },
@@ -17744,7 +18177,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -17772,7 +18206,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -17800,7 +18235,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -17857,6 +18293,9 @@
         "137": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Algebra"
+      },
       "active": true
     },
     "quoteToken": {
@@ -17871,6 +18310,9 @@
         "137": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Algebra"
+      },
       "active": true
     },
     "lpToken": {
@@ -17884,6 +18326,9 @@
         "56": 18,
         "137": 18,
         "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Algebra"
       },
       "active": true
     },
@@ -17966,7 +18411,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -18052,7 +18498,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -18080,7 +18527,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -18108,7 +18556,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -18190,7 +18639,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -18265,6 +18715,9 @@
         "137": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Algebra"
+      },
       "active": true
     },
     "quoteToken": {
@@ -18279,6 +18732,9 @@
         "137": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Algebra"
+      },
       "active": true
     },
     "lpToken": {
@@ -18292,6 +18748,9 @@
         "56": 18,
         "137": 18,
         "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Algebra"
       },
       "active": true
     },
@@ -18366,6 +18825,9 @@
         "137": 6,
         "42161": 6,
         "59144": 6
+      },
+      "liquidityDex": {
+        "59144": "Nile"
       },
       "active": true
     },
@@ -18447,6 +18909,9 @@
         "42161": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Lynex"
+      },
       "active": true
     },
     "quoteToken": {
@@ -18469,6 +18934,9 @@
         "42161": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Lynex"
+      },
       "active": true
     },
     "lpToken": {
@@ -18490,6 +18958,9 @@
         "137": 18,
         "42161": 18,
         "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -18559,7 +19030,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -18587,7 +19059,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -18615,7 +19088,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -18672,6 +19146,9 @@
         "137": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Algebra"
+      },
       "active": true
     },
     "quoteToken": {
@@ -18686,6 +19163,9 @@
         "137": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Algebra"
+      },
       "active": true
     },
     "lpToken": {
@@ -18699,6 +19179,9 @@
         "56": 18,
         "137": 18,
         "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Algebra"
       },
       "active": true
     },
@@ -18767,7 +19250,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -18795,7 +19279,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -18823,7 +19308,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -18892,7 +19378,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -18920,7 +19407,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -18948,7 +19436,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -19030,7 +19519,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -19112,6 +19602,9 @@
         "42161": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Lynex"
+      },
       "active": true
     },
     "quoteToken": {
@@ -19134,6 +19627,9 @@
         "42161": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Lynex"
+      },
       "active": true
     },
     "lpToken": {
@@ -19155,6 +19651,9 @@
         "137": 18,
         "42161": 18,
         "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -19232,6 +19731,9 @@
         "137": 6,
         "42161": 6,
         "59144": 6
+      },
+      "liquidityDex": {
+        "59144": "Nile"
       },
       "active": true
     },
@@ -19321,7 +19823,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -19349,7 +19852,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -19377,7 +19881,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -19446,7 +19951,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -19474,7 +19980,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -19502,7 +20009,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -19567,6 +20075,9 @@
         "42161": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Lynex"
+      },
       "active": true
     },
     "quoteToken": {
@@ -19589,6 +20100,9 @@
         "42161": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Lynex"
+      },
       "active": true
     },
     "lpToken": {
@@ -19610,6 +20124,9 @@
         "137": 18,
         "42161": 18,
         "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -19686,6 +20203,9 @@
         "137": 18,
         "42161": 18,
         "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -19778,6 +20298,9 @@
         "42161": 6,
         "59144": 6
       },
+      "liquidityDex": {
+        "59144": "Nile"
+      },
       "active": true
     },
     "lpToken": {
@@ -19869,6 +20392,9 @@
         "137": 6,
         "42161": 6,
         "59144": 6
+      },
+      "liquidityDex": {
+        "59144": "Nile"
       },
       "active": true
     },
@@ -20063,7 +20589,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -20154,6 +20681,9 @@
         "42161": 6,
         "59144": 6
       },
+      "liquidityDex": {
+        "59144": "Nile"
+      },
       "active": true
     },
     "lpToken": {
@@ -20230,6 +20760,9 @@
         "42161": 6,
         "59144": 6
       },
+      "liquidityDex": {
+        "59144": "Nile"
+      },
       "active": true
     },
     "lpToken": {
@@ -20262,6 +20795,9 @@
         "137": 6,
         "42161": 6,
         "59144": 6
+      },
+      "liquidityDex": {
+        "59144": "Nile"
       },
       "active": true
     },
@@ -20324,6 +20860,9 @@
         "56": 18,
         "137": 18,
         "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Algebra"
       },
       "active": true
     },
@@ -20399,6 +20938,9 @@
         "137": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Algebra"
+      },
       "active": true
     },
     "lpToken": {
@@ -20469,6 +21011,9 @@
         "137": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Algebra"
+      },
       "active": true
     },
     "lpToken": {
@@ -20535,6 +21080,9 @@
         "42161": 6,
         "59144": 6
       },
+      "liquidityDex": {
+        "59144": "Nile"
+      },
       "active": true
     },
     "quoteToken": {
@@ -20579,6 +21127,9 @@
         "137": 6,
         "42161": 6,
         "59144": 6
+      },
+      "liquidityDex": {
+        "59144": "Nile"
       },
       "active": true
     },
@@ -20644,6 +21195,9 @@
         "137": 6,
         "42161": 6,
         "59144": 6
+      },
+      "liquidityDex": {
+        "59144": "Nile"
       },
       "active": true
     },
@@ -20712,6 +21266,9 @@
         "137": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Algebra"
+      },
       "active": true
     },
     "lpToken": {
@@ -20772,6 +21329,9 @@
         "56": 18,
         "137": 18,
         "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Algebra"
       },
       "active": true
     },
@@ -20839,6 +21399,9 @@
         "56": 18,
         "137": 18,
         "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Algebra"
       },
       "active": true
     },
@@ -20980,6 +21543,9 @@
         "42161": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Lynex"
+      },
       "active": true
     },
     "quoteToken": {
@@ -21056,7 +21622,8 @@
         "59144": 8
       },
       "liquidityDex": {
-        "56": "PancakeSwapV3"
+        "56": "PancakeSwapV3",
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -21141,7 +21708,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -21219,6 +21787,9 @@
         "137": 6,
         "42161": 6,
         "59144": 6
+      },
+      "liquidityDex": {
+        "59144": "Nile"
       },
       "active": true
     },
@@ -21374,6 +21945,9 @@
         "42161": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Lynex"
+      },
       "active": true
     },
     "quoteToken": {
@@ -21450,7 +22024,8 @@
         "59144": 8
       },
       "liquidityDex": {
-        "56": "PancakeSwapV3"
+        "56": "PancakeSwapV3",
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -21535,7 +22110,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -21613,6 +22189,9 @@
         "137": 6,
         "42161": 6,
         "59144": 6
+      },
+      "liquidityDex": {
+        "59144": "Nile"
       },
       "active": true
     },
@@ -21762,6 +22341,9 @@
         "42161": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Lynex"
+      },
       "active": true
     },
     "quoteToken": {
@@ -21832,7 +22414,8 @@
         "59144": 8
       },
       "liquidityDex": {
-        "56": "PancakeSwapV3"
+        "56": "PancakeSwapV3",
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -21911,7 +22494,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -21983,6 +22567,9 @@
         "137": 6,
         "42161": 6,
         "59144": 6
+      },
+      "liquidityDex": {
+        "59144": "Nile"
       },
       "active": true
     },
@@ -22061,7 +22648,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -22089,7 +22677,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -22117,7 +22706,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -22190,6 +22780,9 @@
         "137": 18,
         "42161": 18,
         "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -22267,7 +22860,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -22295,7 +22889,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -22323,7 +22918,8 @@
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "2525": "External",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -22392,6 +22988,9 @@
         "137": 18,
         "42161": 18,
         "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -22472,6 +23071,9 @@
         "42161": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Lynex"
+      },
       "active": true
     },
     "lpToken": {
@@ -22538,6 +23140,9 @@
         "42161": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Lynex"
+      },
       "active": true
     },
     "quoteToken": {
@@ -22560,6 +23165,9 @@
         "42161": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Lynex"
+      },
       "active": true
     },
     "lpToken": {
@@ -22581,6 +23189,9 @@
         "137": 18,
         "42161": 18,
         "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -22745,6 +23356,9 @@
         "42161": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Lynex"
+      },
       "active": true
     },
     "quoteToken": {
@@ -22767,6 +23381,9 @@
         "42161": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Lynex"
+      },
       "active": true
     },
     "lpToken": {
@@ -22788,6 +23405,9 @@
         "137": 18,
         "42161": 18,
         "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -22855,6 +23475,9 @@
         "42161": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Lynex"
+      },
       "active": true
     },
     "quoteToken": {
@@ -22877,6 +23500,9 @@
         "42161": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Lynex"
+      },
       "active": true
     },
     "lpToken": {
@@ -22898,6 +23524,9 @@
         "137": 18,
         "42161": 18,
         "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -22959,6 +23588,9 @@
         "42161": 6,
         "59144": 6
       },
+      "liquidityDex": {
+        "59144": "Nile"
+      },
       "active": true
     },
     "quoteToken": {
@@ -22979,6 +23611,9 @@
         "42161": 6,
         "59144": 6
       },
+      "liquidityDex": {
+        "59144": "Nile"
+      },
       "active": true
     },
     "lpToken": {
@@ -22998,6 +23633,9 @@
         "137": 6,
         "42161": 6,
         "59144": 6
+      },
+      "liquidityDex": {
+        "59144": "Nile"
       },
       "active": true
     },
@@ -23062,6 +23700,9 @@
         "42161": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Lynex"
+      },
       "active": true
     },
     "quoteToken": {
@@ -23084,6 +23725,9 @@
         "42161": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Lynex"
+      },
       "active": true
     },
     "lpToken": {
@@ -23105,6 +23749,9 @@
         "137": 18,
         "42161": 18,
         "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -23168,6 +23815,9 @@
         "42161": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Lynex"
+      },
       "active": true
     },
     "quoteToken": {
@@ -23190,6 +23840,9 @@
         "42161": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Lynex"
+      },
       "active": true
     },
     "lpToken": {
@@ -23211,6 +23864,9 @@
         "137": 18,
         "42161": 18,
         "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -23274,6 +23930,9 @@
         "42161": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Lynex"
+      },
       "active": true
     },
     "quoteToken": {
@@ -23296,6 +23955,9 @@
         "42161": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Lynex"
+      },
       "active": true
     },
     "lpToken": {
@@ -23317,6 +23979,9 @@
         "137": 18,
         "42161": 18,
         "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -23380,6 +24045,9 @@
         "42161": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Lynex"
+      },
       "active": true
     },
     "quoteToken": {
@@ -23402,6 +24070,9 @@
         "42161": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Lynex"
+      },
       "active": true
     },
     "lpToken": {
@@ -23423,6 +24094,9 @@
         "137": 18,
         "42161": 18,
         "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -23488,6 +24162,9 @@
         "42161": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Lynex"
+      },
       "active": true
     },
     "quoteToken": {
@@ -23510,6 +24187,9 @@
         "42161": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Lynex"
+      },
       "active": true
     },
     "lpToken": {
@@ -23531,6 +24211,9 @@
         "137": 18,
         "42161": 18,
         "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -23601,6 +24284,9 @@
         "42161": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Lynex"
+      },
       "active": true
     },
     "quoteToken": {
@@ -23623,6 +24309,9 @@
         "42161": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Lynex"
+      },
       "active": true
     },
     "lpToken": {
@@ -23644,6 +24333,9 @@
         "137": 18,
         "42161": 18,
         "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -23708,6 +24400,9 @@
         "42161": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Lynex"
+      },
       "active": true
     },
     "quoteToken": {
@@ -23730,6 +24425,9 @@
         "42161": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Lynex"
+      },
       "active": true
     },
     "lpToken": {
@@ -23751,6 +24449,9 @@
         "137": 18,
         "42161": 18,
         "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -23819,6 +24520,9 @@
         "42161": 6,
         "59144": 6
       },
+      "liquidityDex": {
+        "59144": "Nile"
+      },
       "active": true
     },
     "quoteToken": {
@@ -23839,6 +24543,9 @@
         "42161": 6,
         "59144": 6
       },
+      "liquidityDex": {
+        "59144": "Nile"
+      },
       "active": true
     },
     "lpToken": {
@@ -23858,6 +24565,9 @@
         "137": 6,
         "42161": 6,
         "59144": 6
+      },
+      "liquidityDex": {
+        "59144": "Nile"
       },
       "active": true
     },
