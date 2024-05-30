@@ -508,6 +508,130 @@
     "fullDescription": "Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!"
   },
   {
+    "index": 1066,
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0xeBd7fe43D63c8cbE1547e86CD2DFE5599ca53F47"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "2525": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "2525": "External"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "2525": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "2525": "External"
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "2525": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "2525": "External"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "CHAPZ",
+      "address": {
+        "56": "0x7B56748A3Ef9970A5bAe99c58aD8bC67b26c525F"
+      },
+      "decimals": {
+        "56": 10
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://chappyz.com/",
+    "twitter": "https://twitter.com/Chappyzcom",
+    "initTime": {
+      "56": 1700485200
+    },
+    "initPrice": {
+      "56": 0.002404165611
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "fullDescription": "Chappyz is an AI powered plug-and-play protocol that helps build REAL community engagement & growth, whilst rewarding community members in real-time. Users can start earning rewards by simply connecting their socials and chatting. Chappyz advanced AI system scores all messages and delivers a token reward each time users chat.",
+    "tags": ["AI"]
+  },
+  {
     "index": 1065,
     "chainId": 56,
     "contractAddress": {
