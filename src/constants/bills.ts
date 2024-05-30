@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1066
+// BNB Largest ID: 1067
 // Polygon Largest ID: 146
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2005
@@ -162,6 +162,35 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1067,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x9344805a736df9C78d09d7aBbFbA3274aBa6811e',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdc,
+    quoteToken: tokens.usdc,
+    lpToken: tokens.usdc,
+    earnToken: tokens.wnk,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://www.winkyverse.io/',
+    twitter: 'https://twitter.com/TheWinkyverse_',
+    audit: 'https://skynet.certik.com/projects/winkyverse',
+    initTime: { [ChainId.BSC]: 1717085021 },
+    initPrice: { [ChainId.BSC]: 0.000398917904465581 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['GAMEFI'],
+    fullDescription:
+      'The Winkyverse is the first game-based learning platform offering immersive and purposeful educational experiences combining Gaming, Web3 and e-learning. Supported by the French Government, with an original setting, fully educational and ethical, the Winkyverse is the immersive and positive universe for all ages.',
+  },
   {
     index: 1066,
     chainId: ChainId.BSC,
