@@ -528,6 +528,9 @@
         "42161": 18,
         "59144": 18
       },
+      "liquidityDex": {
+        "59144": "Lynex"
+      },
       "active": true
     },
     "quoteToken": {
@@ -737,6 +740,9 @@
         "137": 18,
         "42161": 18,
         "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -1009,6 +1015,9 @@
         "56": 18,
         "137": 18,
         "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Algebra"
       },
       "active": true
     },

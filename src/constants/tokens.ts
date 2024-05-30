@@ -240,6 +240,9 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: 18,
       [ChainId.LINEA]: 18,
     },
+    liquidityDex: {
+      [ChainId.LINEA]: LiquidityDex.Algebra,
+    },
     active: true,
   },
   busd: {
@@ -274,6 +277,9 @@ const tokens: Record<string, Token> = {
       [ChainId.MAINNET]: 18,
       [ChainId.LINEA]: 18,
     },
+    liquidityDex: {
+      [ChainId.LINEA]: LiquidityDex.Lynex,
+    },
     active: true,
   },
   btc: {
@@ -294,6 +300,7 @@ const tokens: Record<string, Token> = {
     },
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+      [ChainId.LINEA]: LiquidityDex.Lynex,
     },
     active: true,
   },
@@ -344,6 +351,9 @@ const tokens: Record<string, Token> = {
       [ChainId.ARBITRUM]: 6,
       [ChainId.MAINNET]: 6,
       [ChainId.LINEA]: 6,
+    },
+    liquidityDex: {
+      [ChainId.LINEA]: LiquidityDex.Nile,
     },
     active: true,
   },
@@ -1216,6 +1226,7 @@ const tokens: Record<string, Token> = {
     liquidityDex: {
       [ChainId.INEVM]: LiquidityDex.External,
       [ChainId.MAINNET]: LiquidityDex.UniswapV2,
+      [ChainId.LINEA]: LiquidityDex.Nile,
     },
     active: true,
   },

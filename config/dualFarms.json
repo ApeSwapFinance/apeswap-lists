@@ -29,6 +29,9 @@
           "137": 18,
           "59144": 18
         },
+        "liquidityDex": {
+          "59144": "Algebra"
+        },
         "active": true
       }
     },
@@ -84,6 +87,9 @@
           "137": 18,
           "59144": 18
         },
+        "liquidityDex": {
+          "59144": "Algebra"
+        },
         "active": true
       },
       "token1": {
@@ -135,6 +141,9 @@
           "56": 18,
           "137": 18,
           "59144": 18
+        },
+        "liquidityDex": {
+          "59144": "Algebra"
         },
         "active": true
       }
@@ -159,6 +168,9 @@
           "137": 18,
           "59144": 18
         },
+        "liquidityDex": {
+          "59144": "Algebra"
+        },
         "active": true
       },
       "token1": {
@@ -180,6 +192,9 @@
           "137": 18,
           "42161": 18,
           "59144": 18
+        },
+        "liquidityDex": {
+          "59144": "Lynex"
         },
         "active": true
       }
@@ -215,6 +230,9 @@
           "137": 18,
           "59144": 18
         },
+        "liquidityDex": {
+          "59144": "Algebra"
+        },
         "active": true
       }
     }
@@ -237,6 +255,9 @@
           "56": 18,
           "137": 18,
           "59144": 18
+        },
+        "liquidityDex": {
+          "59144": "Algebra"
         },
         "active": true
       },
@@ -291,6 +312,9 @@
           "137": 18,
           "59144": 18
         },
+        "liquidityDex": {
+          "59144": "Algebra"
+        },
         "active": true
       }
     }
@@ -313,6 +337,9 @@
           "56": 18,
           "137": 18,
           "59144": 18
+        },
+        "liquidityDex": {
+          "59144": "Algebra"
         },
         "active": true
       },
@@ -340,7 +367,8 @@
         },
         "liquidityDex": {
           "1": "UniswapV2",
-          "2525": "External"
+          "2525": "External",
+          "59144": "Nile"
         },
         "active": true
       }
@@ -375,6 +403,9 @@
           "56": 18,
           "137": 18,
           "59144": 18
+        },
+        "liquidityDex": {
+          "59144": "Algebra"
         },
         "active": true
       }
@@ -399,6 +430,9 @@
           "137": 18,
           "59144": 18
         },
+        "liquidityDex": {
+          "59144": "Algebra"
+        },
         "active": true
       },
       "token1": {
@@ -418,7 +452,8 @@
           "59144": 8
         },
         "liquidityDex": {
-          "56": "PancakeSwapV3"
+          "56": "PancakeSwapV3",
+          "59144": "Lynex"
         },
         "active": true
       }
@@ -453,6 +488,9 @@
           "56": 18,
           "137": 18,
           "59144": 18
+        },
+        "liquidityDex": {
+          "59144": "Algebra"
         },
         "active": true
       }
@@ -483,6 +521,9 @@
           "42161": 6,
           "59144": 6
         },
+        "liquidityDex": {
+          "59144": "Nile"
+        },
         "active": true
       },
       "token1": {
@@ -536,6 +577,9 @@
           "137": 18,
           "59144": 18
         },
+        "liquidityDex": {
+          "59144": "Algebra"
+        },
         "active": true
       }
     }
@@ -558,6 +602,9 @@
           "56": 18,
           "137": 18,
           "59144": 18
+        },
+        "liquidityDex": {
+          "59144": "Algebra"
         },
         "active": true
       },
@@ -607,6 +654,9 @@
           "137": 18,
           "59144": 18
         },
+        "liquidityDex": {
+          "59144": "Algebra"
+        },
         "active": true
       }
     }
@@ -628,6 +678,9 @@
           "56": 18,
           "137": 18,
           "59144": 18
+        },
+        "liquidityDex": {
+          "59144": "Algebra"
         },
         "active": true
       },
@@ -690,6 +743,9 @@
           "56": 18,
           "137": 18,
           "59144": 18
+        },
+        "liquidityDex": {
+          "59144": "Algebra"
         },
         "active": true
       },
@@ -756,6 +812,9 @@
           "56": 18,
           "137": 18,
           "59144": 18
+        },
+        "liquidityDex": {
+          "59144": "Algebra"
         },
         "active": true
       },
@@ -833,6 +892,9 @@
           "42161": 6,
           "59144": 6
         },
+        "liquidityDex": {
+          "59144": "Nile"
+        },
         "active": true
       },
       "token1": {
@@ -894,6 +956,9 @@
           "56": 18,
           "137": 18,
           "59144": 18
+        },
+        "liquidityDex": {
+          "59144": "Algebra"
         },
         "active": true
       },
@@ -960,6 +1025,9 @@
           "56": 18,
           "137": 18,
           "59144": 18
+        },
+        "liquidityDex": {
+          "59144": "Algebra"
         },
         "active": true
       },
@@ -1028,6 +1096,9 @@
           "56": 18,
           "137": 18,
           "59144": 18
+        },
+        "liquidityDex": {
+          "59144": "Algebra"
         },
         "active": true
       },
@@ -1105,6 +1176,9 @@
           "137": 6,
           "42161": 6,
           "59144": 6
+        },
+        "liquidityDex": {
+          "59144": "Nile"
         },
         "active": true
       },
