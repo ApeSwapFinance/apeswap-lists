@@ -93,7 +93,7 @@ const bills: BillsConfig[] = [
     audit: 'https://docs.velocore.xyz/security-and-contract-address/three-rounds-of-audits',
     initTime: { [ChainId.LINEA]: 1716217474 },
     initPrice: { [ChainId.LINEA]: 0.005450086440702347 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
