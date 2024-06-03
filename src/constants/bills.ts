@@ -4623,6 +4623,36 @@ const bills: BillsConfig[] = [
     Polygon Bills
   */
   {
+    index: 148,
+    chainId: ChainId.MATIC,
+    contractAddress: {
+      [ChainId.MATIC]: '0x30126c9BcE74e5BbD23255b819C27B738787E7de',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.wmatic,
+    quoteToken: tokens.wmatic,
+    lpToken: tokens.wmatic,
+    earnToken: tokens.a51,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://uniswap.a51.finance/stats',
+    twitter: 'https://twitter.com/A51_Fi',
+    audit: 'https://hacken.io/audits/unipilot/',
+    initTime: { [ChainId.MATIC]: 1717440755 },
+    initPrice: { [ChainId.MATIC]: 0.23788392235783123 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+    fullDescription:
+      'A51 Finance is an Autonomous Liquidity Provisioning (ALP) protocol offering customizable tools for creating tailored liquidity strategies empowering LPs with dynamic adjustments based on their preferences. A51 puts control in the hands of liquidity providers, allowing them to dictate asset management and post-liquidity actions.',
+    tags: ['V3 Liquidity Managers'],
+  },
+  {
     index: 147,
     chainId: ChainId.MATIC,
     contractAddress: {

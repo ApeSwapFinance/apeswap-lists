@@ -16586,6 +16586,99 @@
     "soldOut": true
   },
   {
+    "index": 148,
+    "chainId": 137,
+    "contractAddress": {
+      "137": "0x30126c9BcE74e5BbD23255b819C27B738787E7de"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "MATIC",
+      "address": {
+        "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
+        "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+        "59144": "0x265B25e22bcd7f10a5bD6E6410F10537Cc7567e8"
+      },
+      "decimals": {
+        "56": 18,
+        "137": 18,
+        "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Algebra"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "MATIC",
+      "address": {
+        "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
+        "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+        "59144": "0x265B25e22bcd7f10a5bD6E6410F10537Cc7567e8"
+      },
+      "decimals": {
+        "56": 18,
+        "137": 18,
+        "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Algebra"
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "MATIC",
+      "address": {
+        "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
+        "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+        "59144": "0x265B25e22bcd7f10a5bD6E6410F10537Cc7567e8"
+      },
+      "decimals": {
+        "56": 18,
+        "137": 18,
+        "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Algebra"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "A51",
+      "address": {
+        "137": "0xe9E7c09e82328c3107d367f6c617cF9977e63ED0"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "Algebra"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
+    },
+    "inactive": false,
+    "projectLink": "https://uniswap.a51.finance/stats",
+    "twitter": "https://twitter.com/A51_Fi",
+    "audit": "https://hacken.io/audits/unipilot/",
+    "initTime": {
+      "137": 1717440755
+    },
+    "initPrice": {
+      "137": 0.23788392235783123
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "Quickswap_Collection1"
+    },
+    "bondPartner": "QuickSwap",
+    "fullDescription": "A51 Finance is an Autonomous Liquidity Provisioning (ALP) protocol offering customizable tools for creating tailored liquidity strategies empowering LPs with dynamic adjustments based on their preferences. A51 puts control in the hands of liquidity providers, allowing them to dictate asset management and post-liquidity actions.",
+    "tags": ["V3 Liquidity Managers"]
+  },
+  {
     "index": 147,
     "chainId": 137,
     "contractAddress": {
