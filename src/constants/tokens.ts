@@ -21,6 +21,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  ichi: {
+    symbol: 'ICHI',
+    address: {
+      [ChainId.BSC]: '0x0EF4A107b48163ab4b57FCa36e1352151a587Be4',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.LINEA]: LiquidityDex.Algebra,
+    },
+  },
   ethLynx_Ichi: {
     symbol: 'ETH-LYNX',
     address: {
@@ -4183,6 +4196,8 @@ const tokens: Record<string, Token> = {
     decimals: { [ChainId.BSC]: 18 },
     active: true,
     lpToken: true,
+    vaultDeployer: '0x05cC3CA6E768a68A7f86b09e3ceE754437bd5f12',
+    router: '0xE7914034D4D39087bFF0Aed442a652F5945E914b',
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.Algebra,
     },

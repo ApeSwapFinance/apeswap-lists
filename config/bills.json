@@ -547,6 +547,100 @@
     "fullDescription": "Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!"
   },
   {
+    "index": 1068,
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0xBC49962CB17888fF09c0637e4A4fD7A792A86e59"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "USDC",
+      "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+        "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+        "59144": "0x176211869cA2b568f2A7D4EE941E073a821EE1ff"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "ICHI",
+      "address": {
+        "56": "0x0EF4A107b48163ab4b57FCa36e1352151a587Be4"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "59144": "Algebra"
+      }
+    },
+    "lpToken": {
+      "symbol": "USDC-ICHI",
+      "address": {
+        "56": "0x0477e37B8ACA55C133e05403a30b554498c451b4"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true,
+      "vaultDeployer": "0x05cC3CA6E768a68A7f86b09e3ceE754437bd5f12",
+      "router": "0xE7914034D4D39087bFF0Aed442a652F5945E914b",
+      "liquidityDex": {
+        "56": "Algebra"
+      }
+    },
+    "earnToken": {
+      "symbol": "BNB-ICHI",
+      "address": {
+        "56": "0x6fD323Bdf290Eba58EaaA8E02e70a2a6f1DE0CfC"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true,
+      "liquidityDex": {
+        "56": "Algebra"
+      }
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://www.winkyverse.io/",
+    "twitter": "https://twitter.com/TheWinkyverse_",
+    "audit": "https://skynet.certik.com/projects/winkyverse",
+    "initTime": {
+      "56": 1717085021
+    },
+    "initPrice": {
+      "56": 0.000398917904465581
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["GAMEFI"],
+    "fullDescription": "The Winkyverse is the first game-based learning platform offering immersive and purposeful educational experiences combining Gaming, Web3 and e-learning. Supported by the French Government, with an original setting, fully educational and ethical, the Winkyverse is the immersive and positive universe for all ages."
+  },
+  {
     "index": 1067,
     "chainId": 56,
     "contractAddress": {

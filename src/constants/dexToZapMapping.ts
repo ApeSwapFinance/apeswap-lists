@@ -12,6 +12,7 @@ export const dexToZapMapping: Record<LiquidityDex, Partial<Record<ChainId, ZapVe
     [ChainId.TLOS]: ZapVersion.ZapV1,
   },
   [LiquidityDex.Algebra]: {
+    [ChainId.BSC]: ZapVersion.SoulZapApi,
     [ChainId.MATIC]: ZapVersion.SoulZapApi,
     [ChainId.LINEA]: ZapVersion.SoulZapApi,
   },
