@@ -31,7 +31,7 @@ const tokens: Record<string, Token> = {
     },
     active: true,
     liquidityDex: {
-      [ChainId.LINEA]: LiquidityDex.Algebra,
+      [ChainId.BSC]: LiquidityDex.Algebra,
     },
   },
   ethLynx_Ichi: {
