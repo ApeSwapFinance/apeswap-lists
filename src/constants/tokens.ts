@@ -4175,6 +4175,30 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 'https://thena.fi/pools/0xD405b976Ac01023c9064024880999fC450A8668b',
     },
   },
+  usdcIchi_Ichi: {
+    symbol: 'USDC-ICHI',
+    address: {
+      [ChainId.BSC]: '0x0477e37B8ACA55C133e05403a30b554498c451b4',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.Algebra,
+    },
+  },
+  wbnbIchi_Ichi: {
+    symbol: 'BNB-ICHI',
+    address: {
+      [ChainId.BSC]: '0x6fD323Bdf290Eba58EaaA8E02e70a2a6f1DE0CfC',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.Algebra,
+    },
+  },
   mfpsBnb_PCS: {
     symbol: 'MFPS-BNB',
     address: {
