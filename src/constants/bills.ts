@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1067
+// BNB Largest ID: 1068
 // Polygon Largest ID: 146
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2005
@@ -178,18 +178,18 @@ const bills: BillsConfig[] = [
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
     inactive: false,
-    projectLink: 'https://www.winkyverse.io/',
-    twitter: 'https://twitter.com/TheWinkyverse_',
-    audit: 'https://skynet.certik.com/projects/winkyverse',
+    projectLink: 'https://www.ichi.org/',
+    twitter: 'https://twitter.com/ichifoundation',
+    audit: 'https://docs.ichi.org/home/technical-resources/audits',
     initTime: { [ChainId.BSC]: 1717085021 },
     initPrice: { [ChainId.BSC]: 0.000398917904465581 },
     soldOut: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    tags: ['GAMEFI'],
+    tags: ['DeFi'],
     fullDescription:
-      'The Winkyverse is the first game-based learning platform offering immersive and purposeful educational experiences combining Gaming, Web3 and e-learning. Supported by the French Government, with an original setting, fully educational and ethical, the Winkyverse is the immersive and positive universe for all ages.',
+      'Profitable liquidity provision powering sustainable on-chain returns and deep liquidity. ICHI has built two protocols using factory contracts; Yield IQ Vaults (auto-liquidity management) and Branded Dollars (stablecoins for any community). Governed by the ICHI token.',
   },
   {
     index: 1067,
