@@ -4176,7 +4176,7 @@ const tokens: Record<string, Token> = {
     },
   },
   usdcIchi_Ichi: {
-    symbol: 'BNB-USDT',
+    symbol: 'USDC-ICHI',
     address: {
       [ChainId.BSC]: '0x0477e37B8ACA55C133e05403a30b554498c451b4',
     },
