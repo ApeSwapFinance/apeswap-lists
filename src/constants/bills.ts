@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1067
+// BNB Largest ID: 1068
 // Polygon Largest ID: 146
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2005
@@ -162,6 +162,35 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1068,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0xBC49962CB17888fF09c0637e4A4fD7A792A86e59',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.usdc,
+    quoteToken: tokens.ichi,
+    lpToken: tokens.usdcIchi_Ichi,
+    earnToken: tokens.wbnbIchi_Ichi,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://www.ichi.org/',
+    twitter: 'https://twitter.com/ichifoundation',
+    audit: 'https://docs.ichi.org/home/technical-resources/audits',
+    initTime: { [ChainId.BSC]: 1717085021 },
+    initPrice: { [ChainId.BSC]: 0.000398917904465581 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DeFi'],
+    fullDescription:
+      'Profitable liquidity provision powering sustainable on-chain returns and deep liquidity. ICHI has built two protocols using factory contracts; Yield IQ Vaults (auto-liquidity management) and Branded Dollars (stablecoins for any community). Governed by the ICHI token.',
+  },
   {
     index: 1067,
     chainId: ChainId.BSC,
