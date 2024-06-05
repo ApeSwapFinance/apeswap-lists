@@ -280,6 +280,7 @@ const tokens: Record<string, Token> = {
       [ChainId.ARBITRUM]: '0x82aF49447D8a07e3bd95BD0d56f35241523fBab1',
       [ChainId.MAINNET]: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
       [ChainId.LINEA]: '0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f',
+      [ChainId.LIGHTLINK]: '0x7EbeF2A4b1B09381Ec5B9dF8C5c6f2dBECA59c73',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -289,9 +290,11 @@ const tokens: Record<string, Token> = {
       [ChainId.ARBITRUM]: 18,
       [ChainId.MAINNET]: 18,
       [ChainId.LINEA]: 18,
+      [ChainId.LIGHTLINK]: 18,
     },
     liquidityDex: {
       [ChainId.LINEA]: LiquidityDex.Lynex,
+      [ChainId.LIGHTLINK]: LiquidityDex.Elektrik,
     },
     active: true,
   },
