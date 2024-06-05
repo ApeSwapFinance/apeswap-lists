@@ -41,9 +41,6 @@ export enum LiquidityDex {
   XFAI = 'XFAI',
   Lynex = 'Lynex',
   Metavault = 'Metavault',
-
-  //LightLink
-  Elektrik = 'Elektrik',
 }
 
 export enum ZapVersion {
