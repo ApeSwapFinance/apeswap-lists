@@ -2590,14 +2590,11 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.BSC]: 1695225600 },
     initPrice: { [ChainId.BSC]: 0.0421361050407099 },
     soldOut: true,
-    bannerURL: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1696008239/bond-highlights/gpt-banner.png',
     showcaseToken: tokens.cgpt,
     shortDescription:
       'ChainGPT 🤖 #1 ranked AI infrastructure for Blockchain, Crypto & Web3. 🔥 Unleash the power of Blockchain AI with ChainGPT. Powered by $CGPT token',
     fullDescription:
       "Unleash the power of Blockchain AI with ChainGPT. An advanced AI model explicitly designed for Blockchain Technology and Crypto-related topics. It uses the latest algorithms and high-speed computing capabilities to address challenging issues in the Blockchain and Crypto space. The ecosystem is backed and powered by the $CGPT token, which enables access to ChainGPT's premium AI tools, Governance, Launchpad, Staking, and more.",
-    apeswapNote:
-      'With fresh partnerships materializing almost every week and a recent win with the BNB Chain ecosystem catalyst awards, ChainGPT is rapidly gaining momentum in the crypto realm. As it emerges as a standout in the AI Blockchain sector, ChainGPT is undeniably cementing itself as a project with an enormous potential. Their Liquidity Bond is the perfect opportunity to join its enthusiastic community!',
     partnersURLS: [
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1696005003/bond-highlights/bnbchain',
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1696005160/bond-highlights/certik',
@@ -2725,14 +2722,11 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.BSC]: 1693584000 },
     initPrice: { [ChainId.BSC]: 0.0370027 },
     soldOut: true,
-    bannerURL: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1694711638/aitech_xeshl8.png',
     showcaseToken: tokens.aitech,
     shortDescription:
       'Empowering the future of AI | HPC data center | IaaS platform | AIaaS | BaaS | AI Marketplace | Powered by $AITECH token | Incubated by @Chain_GPT & @decubate',
     fullDescription:
       'We are paving the way for a more convenient and secure future by providing accessible Artificial Intelligence-as-a-Service (AIAAS), Blockchain-as-a-Service (BAAS), high-performance computing power (HPC), and an artificial intelligence marketplace. All of these cutting-edge technologies are powered by our native token, AITECH.',
-    apeswapNote:
-      "AITech stands at the crossroads of AI and blockchain, striving to merge two pioneering technologies that are reshaping the digital landscape, with the aim of propelling them further into the mainstream. This is an exciting opportunity to support a project that's not just following the industry's pulse but aiming to set it.",
     partnersURLS: [
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1695915128/bond-highlights/bsc',
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1695915051/bond-highlights/decubate',
@@ -4706,9 +4700,19 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    fullDescription:
-      'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
     tags: ['Reserve'],
+    shortDescription:
+      'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
+    fullDescription:
+      "ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity. 'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.",
+    partnersURLS: [
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/Seedify_fbt392.svg',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613244/ORBS_anzm60.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/quickLogo_2_1_g95ynz.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/aitech_logo_100_real_no_fake_bjskiq.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
+    ],
   },
   {
     index: 146,

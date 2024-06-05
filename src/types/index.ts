@@ -224,15 +224,13 @@ export interface BillsConfig {
   }
   showcaseToken?: Token
   bondPartner?: string // * Used for partners to filter bonds
-  // * These are used for the bond highlight page
-  bannerURL?: string
+  // * These are used for the individual bond page view
   shortDescription?: string
   fullDescription?: string
-  tags?: string[]
-  apeswapNote?: string
-  featuredURLS?: string[] // add in frontend '-light|dark.png'
-  partnersURLS?: string[] // add in frontend '-light|dark.png'
+  featuredURLS?: string[]
+  partnersURLS?: string[]
   // * These are used for the bond migration page
+  tags?: string[]
   vestingTerm?: number
   multiplier?: number
   onlyPartner?: boolean // used to hide bond on ape bond site
