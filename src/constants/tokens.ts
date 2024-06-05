@@ -2791,6 +2791,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  munity: {
+    symbol: 'MUNITY',
+    address: {
+      [ChainId.MAINNET]: '0xe97F6dDE78b11B58cB3e394F15ab592Cb2ACd290',
+    },
+    decimals: { [ChainId.MAINNET]: 18 },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
+    },
+    active: true,
+  },
   strk: {
     symbol: 'STRK',
     address: {
