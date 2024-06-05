@@ -6,7 +6,7 @@ import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } fr
 // Polygon Largest ID: 146
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2005
-// ETH Largest ID: 3012
+// ETH Largest ID: 3013
 // Linea Largest ID: 6005
 //Migration Bonds ID: 5007
 
@@ -6842,6 +6842,35 @@ const bills: BillsConfig[] = [
     },
     fullDescription:
       'Orbs is an open, decentralized and public blockchain infrastructure executed by a secure network of permissionless validators using Proof-of-Stake (PoS) consensus.',
+    tags: ['Infra'],
+  },
+  {
+    index: 3013,
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0x4ABF75d7aD63a20A0C5866eDfDA045B6a448f53A',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    token: tokens.eth,
+    quoteToken: tokens.eth,
+    lpToken: tokens.eth,
+    earnToken: tokens.munity,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    inactive: false,
+    projectLink: 'https://www.metahorseunity.io/',
+    twitter: 'https://twitter.com/metahorseunity',
+    audit: 'https://skynet.certik.com/projects/metahorse-unity',
+    initTime: { [ChainId.MAINNET]: 1715268918 },
+    initPrice: { [ChainId.MAINNET]: 0.0334978015237449 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    fullDescription:
+      'Metahorse Unity is a unique gaming experience that blends both the free-to-play and play-to-earn models. With Metahorse Unity, users have the option to play casually with free heroes or level up their gameplay by acquiring NFTs, allowing them to start earning and maximizing profits.',
     tags: ['Infra'],
   },
 ]
