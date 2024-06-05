@@ -24879,7 +24879,7 @@
       "active": true
     },
     "earnToken": {
-      "symbol": "METH",
+      "symbol": "MUNITY",
       "address": {
         "1": "0xe97F6dDE78b11B58cB3e394F15ab592Cb2ACd290"
       },
@@ -24909,6 +24909,6 @@
       "collection": "ETH_Collection1"
     },
     "fullDescription": "Metahorse Unity is a unique gaming experience that blends both the free-to-play and play-to-earn models. With Metahorse Unity, users have the option to play casually with free heroes or level up their gameplay by acquiring NFTs, allowing them to start earning and maximizing profits.",
-    "tags": ["Infra"]
+    "tags": ["GAMEFI"]
   }
 ]

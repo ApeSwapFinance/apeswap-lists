@@ -6871,7 +6871,7 @@ const bills: BillsConfig[] = [
     },
     fullDescription:
       'Metahorse Unity is a unique gaming experience that blends both the free-to-play and play-to-earn models. With Metahorse Unity, users have the option to play casually with free heroes or level up their gameplay by acquiring NFTs, allowing them to start earning and maximizing profits.',
-    tags: ['Infra'],
+    tags: ['GAMEFI'],
   },
 ]
 

@@ -2792,7 +2792,7 @@ const tokens: Record<string, Token> = {
     active: true,
   },
   munity: {
-    symbol: 'METH',
+    symbol: 'MUNITY',
     address: {
       [ChainId.MAINNET]: '0xe97F6dDE78b11B58cB3e394F15ab592Cb2ACd290',
     },
