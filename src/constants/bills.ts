@@ -8,9 +8,42 @@ import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } fr
 // Arbitrum Largest ID: 2005
 // ETH Largest ID: 3013
 // Linea Largest ID: 6005
-//Migration Bonds ID: 5007
+// Lightlink Largest ID: 7000
+// Migration Bonds ID: 5007
 
 const bills: BillsConfig[] = [
+  //
+  // LIGHTLINK
+  //
+  {
+    index: 7000,
+    chainId: ChainId.LIGHTLINK,
+    contractAddress: {
+      [ChainId.LIGHTLINK]: '0x54bea66Ac4f74499C9bfCBc12Ace25E9f7aa9332',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.eth,
+    billNnftAddress: {
+      [ChainId.LIGHTLINK]: '0x82CfCd79De447b01730b9ED0Db2ad6Ee5AaAC55f',
+    },
+    inactive: false,
+    projectLink: 'https://xfai.com/',
+    twitter: 'https://twitter.com/xfai_official',
+    audit: 'https://xfai.com/audit.pdf',
+    initTime: { [ChainId.LIGHTLINK]: 0 },
+    initPrice: { [ChainId.LIGHTLINK]: 0 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DEX'],
+    fullDescription:
+      'XFAI is Linea’s next-generation DEX, offering users next-level trading performance. Say goodbye to token pairs and fragmented liquidity. With XFAI’s entangled pools, deep liquidity is accessible to everyone!',
+  },
   //
   // LINEA
   //
