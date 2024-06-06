@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1068
+// BNB Largest ID: 1069
 // Polygon Largest ID: 146
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2005
@@ -162,6 +162,35 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1069,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x76aDe8465132B864F3e3DE014eE3FEC399308F91',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.blaze,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://blaze.storyfire.com/',
+    twitter: 'https://twitter.com/storyfireapp',
+    audit: 'https://www.cyberscope.io/audits/1-blze',
+    initTime: { [ChainId.BSC]: 1717085021 },
+    initPrice: { [ChainId.BSC]: 0.000398917904465581 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['GAMEFI'],
+    fullDescription:
+      'StoryFire is your web-3 gaming, social media, and DeFi hub for all content and engagement powered by $BLAZE. With a community of over 2,200,000 users and a quarterly revenue close to 1 million USD, StoryFire allows users to step into a world with endless possibilities across boundless gaming worlds.',
+  },
   {
     index: 1068,
     chainId: ChainId.BSC,

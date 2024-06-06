@@ -3088,6 +3088,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  blaze: {
+    symbol: 'BLAZE',
+    address: {
+      [ChainId.BSC]: '0xEf7A4Dd703D074974b7240C74b5ce938aA8983d3',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
   cgg: {
     symbol: 'CGG',
     address: {
