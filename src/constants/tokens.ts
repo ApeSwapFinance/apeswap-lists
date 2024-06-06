@@ -359,6 +359,7 @@ const tokens: Record<string, Token> = {
       [ChainId.ARBITRUM]: '0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8',
       [ChainId.MAINNET]: '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48',
       [ChainId.LINEA]: '0x176211869cA2b568f2A7D4EE941E073a821EE1ff', // this is USDC.e
+      [ChainId.LIGHTLINK]: '0x18fB38404DADeE1727Be4b805c5b242B5413Fa40', // this is USDC.e
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -367,9 +368,11 @@ const tokens: Record<string, Token> = {
       [ChainId.ARBITRUM]: 6,
       [ChainId.MAINNET]: 6,
       [ChainId.LINEA]: 6,
+      [ChainId.LIGHTLINK]: 6,
     },
     liquidityDex: {
       [ChainId.LINEA]: LiquidityDex.Nile,
+      [ChainId.LIGHTLINK]: LiquidityDex.Elektrik,
     },
     active: true,
   },
@@ -1228,6 +1231,7 @@ const tokens: Record<string, Token> = {
       [ChainId.INEVM]: '0x97423A68BAe94b5De52d767a17aBCc54c157c0E5',
       [ChainId.BSC_TESTNET]: '0x337610d27c682E347C9cD60BD4b3b107C9d34dDd',
       [ChainId.LINEA]: '0xA219439258ca9da29E9Cc4cE5596924745e12B93',
+      [ChainId.LIGHTLINK]: '0x6308fa9545126237158778e74AE1b6b89022C5c0',
     },
     decimals: {
       [ChainId.MAINNET]: 6,
@@ -1238,11 +1242,13 @@ const tokens: Record<string, Token> = {
       [ChainId.INEVM]: 6,
       [ChainId.BSC_TESTNET]: 18,
       [ChainId.LINEA]: 6,
+      [ChainId.LIGHTLINK]: 6,
     },
     liquidityDex: {
       [ChainId.INEVM]: LiquidityDex.External,
       [ChainId.MAINNET]: LiquidityDex.UniswapV2,
       [ChainId.LINEA]: LiquidityDex.Nile,
+      [ChainId.LIGHTLINK]: LiquidityDex.Elektrik,
     },
     active: true,
   },
