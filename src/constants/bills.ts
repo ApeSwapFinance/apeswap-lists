@@ -5,7 +5,7 @@ import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } fr
 // BNB Largest ID: 1069
 // Polygon Largest ID: 146
 // Telos Largest ID: 215
-// Arbitrum Largest ID: 2005
+// Arbitrum Largest ID: 2006
 // ETH Largest ID: 3014
 // Linea Largest ID: 6005
 //Migration Bonds ID: 5007
@@ -6375,6 +6375,34 @@ const bills: BillsConfig[] = [
   /*
       Arbitrum Bills - ID started from 2001
   */
+  {
+    index: 2006,
+    chainId: ChainId.ARBITRUM,
+    contractAddress: {
+      [ChainId.ARBITRUM]: '0x2041530d4542d7da1FdDCb0DF499C2c8C14CCA6f',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.ctok,
+    billNnftAddress: {
+      [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
+    },
+    inactive: false,
+    projectLink: 'https://codyfight.com/',
+    twitter: 'https://twitter.com/codyfight',
+    initTime: { [ChainId.ARBITRUM]: 1715789961 },
+    initPrice: { [ChainId.ARBITRUM]: 0.13219279419877278 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['GAMEFI'],
+    fullDescription:
+      "Codyfight's mission is to combine AI, creative freedom, and community innovation through custom games, metagame control, AI battles, and open-source coding sharing. The CTOK token is the heart of Codyfight's economy, facilitating asset exchange and rewarding players.",
+  },
   {
     index: 2005,
     chainId: ChainId.ARBITRUM,
