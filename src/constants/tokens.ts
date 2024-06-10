@@ -2934,6 +2934,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  kicks: {
+    symbol: 'KICKS',
+    address: {
+      [ChainId.BSC]: '0xfEB4e9B932eF708c498Cc997ABe51D0EE39300cf',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+    },
+    active: true,
+  },
   mfps: {
     symbol: 'MFPS',
     address: {
