@@ -1191,7 +1191,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: 9,
     },
     liquidityDex: {
-      [ChainId.MATIC]: LiquidityDex.Algebra,
+      [ChainId.MATIC]: LiquidityDex.External,
     },
     active: true,
   },
@@ -2934,6 +2934,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  kicks: {
+    symbol: 'KICKS',
+    address: {
+      [ChainId.BSC]: '0xfEB4e9B932eF708c498Cc997ABe51D0EE39300cf',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+    },
+    active: true,
+  },
   mfps: {
     symbol: 'MFPS',
     address: {
@@ -3081,6 +3092,17 @@ const tokens: Record<string, Token> = {
     symbol: 'SDEX',
     address: {
       [ChainId.BSC]: '0xFdc66A08B0d0Dc44c17bbd471B88f49F50CdD20F',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
+  blaze: {
+    symbol: 'BLAZE',
+    address: {
+      [ChainId.BSC]: '0xEf7A4Dd703D074974b7240C74b5ce938aA8983d3',
     },
     decimals: { [ChainId.BSC]: 18 },
     liquidityDex: {

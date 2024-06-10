@@ -2,11 +2,11 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1068
+// BNB Largest ID: 1069
 // Polygon Largest ID: 146
 // Telos Largest ID: 215
-// Arbitrum Largest ID: 2005
-// ETH Largest ID: 3013
+// Arbitrum Largest ID: 2006
+// ETH Largest ID: 3014
 // Linea Largest ID: 6005
 //Migration Bonds ID: 5007
 
@@ -162,6 +162,35 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1069,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x76aDe8465132B864F3e3DE014eE3FEC399308F91',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.blaze,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://blaze.storyfire.com/',
+    twitter: 'https://twitter.com/storyfireapp',
+    audit: 'https://www.cyberscope.io/audits/1-blze',
+    initTime: { [ChainId.BSC]: 1717085021 },
+    initPrice: { [ChainId.BSC]: 0.000398917904465581 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['GAMEFI'],
+    fullDescription:
+      'StoryFire is your web-3 gaming, social media, and DeFi hub for all content and engagement powered by $BLAZE. With a community of over 2,200,000 users and a quarterly revenue close to 1 million USD, StoryFire allows users to step into a world with endless possibilities across boundless gaming worlds.',
+  },
   {
     index: 1068,
     chainId: ChainId.BSC,
@@ -6351,6 +6380,34 @@ const bills: BillsConfig[] = [
       Arbitrum Bills - ID started from 2001
   */
   {
+    index: 2006,
+    chainId: ChainId.ARBITRUM,
+    contractAddress: {
+      [ChainId.ARBITRUM]: '0x2041530d4542d7da1FdDCb0DF499C2c8C14CCA6f',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.ctok,
+    billNnftAddress: {
+      [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
+    },
+    inactive: false,
+    projectLink: 'https://codyfight.com/',
+    twitter: 'https://twitter.com/codyfight',
+    initTime: { [ChainId.ARBITRUM]: 1715789961 },
+    initPrice: { [ChainId.ARBITRUM]: 0.13219279419877278 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['GAMEFI'],
+    fullDescription:
+      "Codyfight's mission is to combine AI, creative freedom, and community innovation through custom games, metagame control, AI battles, and open-source coding sharing. The CTOK token is the heart of Codyfight's economy, facilitating asset exchange and rewarding players.",
+  },
+  {
     index: 2005,
     chainId: ChainId.ARBITRUM,
     contractAddress: {
@@ -6876,6 +6933,35 @@ const bills: BillsConfig[] = [
     fullDescription:
       'Metahorse Unity is a unique gaming experience that blends both the free-to-play and play-to-earn models. With Metahorse Unity, users have the option to play casually with free heroes or level up their gameplay by acquiring NFTs, allowing them to start earning and maximizing profits.',
     tags: ['GAMEFI'],
+  },
+  {
+    index: 3014,
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0xCB51Ace23aef20278b669EC6659E02E24768EAA5',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    token: tokens.eth,
+    quoteToken: tokens.eth,
+    lpToken: tokens.eth,
+    earnToken: tokens.abond,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    inactive: false,
+    projectLink: 'https://ape.bond/',
+    twitter: 'https://twitter.com/apebond',
+    audit: 'https://paladinsec.co/projects/apebond/',
+    initTime: { [ChainId.MAINNET]: 1711828677 },
+    initPrice: { [ChainId.MAINNET]: 0.0334978015237449 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    fullDescription:
+      'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
+    tags: ['Reserve'],
   },
 ]
 
