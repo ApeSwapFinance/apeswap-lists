@@ -3,7 +3,7 @@ import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
 // BNB Largest ID: 1069
-// Polygon Largest ID: 146
+// Polygon Largest ID: 150
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2006
 // ETH Largest ID: 3014
@@ -4680,6 +4680,64 @@ const bills: BillsConfig[] = [
   /*
     Polygon Bills
   */
+  {
+    index: 150,
+    chainId: ChainId.MATIC,
+    contractAddress: {
+      [ChainId.MATIC]: '0x752cd986d092be78CF77f8B734514C04908A6b79',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.ixt,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://planetix.com/',
+    twitter: 'https://twitter.com/Planetix0',
+    initTime: { [ChainId.MATIC]: 1701892800 },
+    initPrice: { [ChainId.MATIC]: 0.347018667988457 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.PlanetIX_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+    fullDescription:
+      'Planet IX is a Web3 play-to-earn platform fueled by their native IX Token. Every asset on Planet IX is an NFT, allowing users to farm, own, and trade them. The main goal is to restore the planet to its former green-blue glory. Join Planet IX and become an Agent of Change now.',
+    tags: ['GAMEFI', 'NFT'],
+  },
+  {
+    index: 149,
+    chainId: ChainId.MATIC,
+    contractAddress: {
+      [ChainId.MATIC]: '0xa1A1e79905F20C5234AdBa5283A203486537d28C',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.ixt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.ixtUsdt_QS,
+    earnToken: tokens.ixt,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://planetix.com/',
+    twitter: 'https://twitter.com/Planetix0',
+    initTime: { [ChainId.MATIC]: 1701892800 },
+    initPrice: { [ChainId.MATIC]: 0.347018667988457 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.PlanetIX_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+    fullDescription:
+      'Planet IX is a Web3 play-to-earn platform fueled by their native IX Token. Every asset on Planet IX is an NFT, allowing users to farm, own, and trade them. The main goal is to restore the planet to its former green-blue glory. Join Planet IX and become an Agent of Change now.',
+    tags: ['GAMEFI', 'NFT'],
+  },
   {
     index: 148,
     chainId: ChainId.MATIC,
