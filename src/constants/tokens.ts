@@ -30,9 +30,16 @@ const tokens: Record<string, Token> = {
       [ChainId.IOTA_TESTNET]: 18,
     },
     active: true,
-    liquidityDex: {
-      [ChainId.IOTA_TESTNET]: LiquidityDex.External,
+  },
+  tabond: {
+    symbol: 'tABOND',
+    address: {
+      [ChainId.IOTA_TESTNET]: '0x9eF5440c198781b68258cFDA1Ff73bA33E074532',
     },
+    decimals: {
+      [ChainId.IOTA_TESTNET]: 18,
+    },
+    active: true,
   },
   ichi: {
     symbol: 'ICHI',
