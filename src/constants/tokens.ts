@@ -21,6 +21,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  iota: {
+    symbol: 'IOTA',
+    address: {
+      [ChainId.IOTA_TESTNET]: '0xB2E0DfC4820cc55829C71529598530E177968613',
+    },
+    decimals: {
+      [ChainId.IOTA_TESTNET]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.IOTA_TESTNET]: LiquidityDex.External,
+    },
+  },
   ichi: {
     symbol: 'ICHI',
     address: {
