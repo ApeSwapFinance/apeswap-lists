@@ -41,6 +41,15 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  iotaTabond_MagicSea: {
+    symbol: 'IOTA-TABOND',
+    address: {
+      [ChainId.IOTA_TESTNET]: '0x82C1cD8CB0D51324d228CB8C91E8Cff6E827A1Fd',
+    },
+    decimals: { [ChainId.IOTA_TESTNET]: 18 },
+    active: true,
+    lpToken: true,
+  },
   ichi: {
     symbol: 'ICHI',
     address: {
