@@ -4793,6 +4793,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 147,
+    cmcID: 29157,
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x810D147FBf07a776FE31e887447af6607b15C13A',
