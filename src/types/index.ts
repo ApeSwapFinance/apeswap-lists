@@ -203,7 +203,7 @@ export enum LaunchBondTiers {
 // Start of list types
 export interface BillsConfig {
   index: number
-  cmcID?: number // CoinMarketCap ID
+  cmcId?: number // CoinMarketCap ID
   chainId: ChainId
   contractAddress: Partial<Record<ChainId, string>>
   billVersion: BillVersion
