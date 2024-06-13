@@ -6985,7 +6985,7 @@ const bills: BillsConfig[] = [
     audit: 'https://github.com/orbs-network/orbs-token/blob/master/SmartDec%20OrbsToken%20Security%20Audit.pdf',
     initTime: { [ChainId.MAINNET]: 1715268918 },
     initPrice: { [ChainId.MAINNET]: 0.0334978015237449 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
