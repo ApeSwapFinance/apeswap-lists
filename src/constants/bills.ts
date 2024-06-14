@@ -3,7 +3,7 @@ import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
 // BNB Largest ID: 1070
-// Polygon Largest ID: 150
+// Polygon Largest ID: 151
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2006
 // ETH Largest ID: 3014
@@ -4809,6 +4809,38 @@ const bills: BillsConfig[] = [
   /*
     Polygon Bills
   */
+  {
+    index: 151,
+    cmcId: 24521,
+    chainId: ChainId.MATIC,
+    contractAddress: {
+      [ChainId.MATIC]: '0x198b77772E232FB25cEFD2A54b2B48581e053CBb',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.cby,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://www.carbify.io/',
+    twitter: 'https://twitter.com/Carbify_io',
+    audit:
+      'https://www.carbify.io/wp-content/uploads/2023/08/Carbifyaco2Rewards_Smart_Contract_Audit_Report_QuillAudits.pdf',
+    initTime: { [ChainId.MATIC]: 1701892800 },
+    initPrice: { [ChainId.MATIC]: 0.347018667988457 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+    shortDescription:
+      'Carbify is a project focused on the reforestation of the rainforest and the production and delivery of carbon offsets. By applying blockchain technology, Carbify can solve virtually all the problems faced by the carbon credit model. Their are tapping into a multi-billion-dollar market with the potential to become the world standard. The company is working together with some of the biggest Web3 giants to build a Layer 3 CO2 chain. Powered by CBY token.',
+    tags: ['RWA'],
+  },
   {
     index: 150,
     cmcId: 17131,
