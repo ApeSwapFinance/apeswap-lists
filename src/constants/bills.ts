@@ -931,7 +931,7 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['Entertainment'],
-    fullDescription:
+    shortDescription:
       'MeMusic provides music for everyone! The team has built the first-ever blockchain-based music platform to adopt cryptocurrencies and a traditional business model. MeMusic has reinvented the streaming experience for the artists and users by providing a novel experience to earn rewards by listening and creating. MeMusic: personalizing the music experience beyond borders!',
   },
   {
