@@ -3,7 +3,7 @@ import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
 // BNB Largest ID: 1070
-// Polygon Largest ID: 150
+// Polygon Largest ID: 151
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2006
 // ETH Largest ID: 3014
@@ -16,6 +16,7 @@ const bills: BillsConfig[] = [
   //
   {
     index: 6005,
+    cmcId: 9217,
     chainId: ChainId.LINEA,
     contractAddress: {
       [ChainId.LINEA]: '0x6657429079727C5c6efC2c383bE016566ED22182', // prod
@@ -40,7 +41,7 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['DEX'],
-    fullDescription:
+    shortDescription:
       'XFAI is Linea’s next-generation DEX, offering users next-level trading performance. Say goodbye to token pairs and fragmented liquidity. With XFAI’s entangled pools, deep liquidity is accessible to everyone!',
   },
   {
@@ -132,6 +133,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 6001,
+    cmcId: 19973,
     chainId: ChainId.LINEA,
     contractAddress: {
       [ChainId.LINEA]: '0x7D3866b90aD077cCfBc2f2F39273bcCE106A6399', // prod!!
@@ -156,7 +158,7 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['DeFi'],
-    fullDescription:
+    shortDescription:
       'Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!',
   },
   //
@@ -164,6 +166,7 @@ const bills: BillsConfig[] = [
   //
   {
     index: 1070,
+    cmcId: 22205,
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x2D43A6998a3E53760b921D6062eC8C0DCb0f5138',
@@ -188,11 +191,12 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['Launchpad'],
-    fullDescription:
+    shortDescription:
       'KicksPad serves as a gateway to exclusive private and public token sales, empowering both innovators and investors through its native token, $KICKS. The platform aims to provide lucrative earning opportunities accessible to anyone with a smart device.',
   },
   {
     index: 1069,
+    cmcId: 30179,
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x76aDe8465132B864F3e3DE014eE3FEC399308F91',
@@ -217,7 +221,7 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['GAMEFI'],
-    fullDescription:
+    shortDescription:
       'StoryFire is your web-3 gaming, social media, and DeFi hub for all content and engagement powered by $BLAZE. With a community of over 2,200,000 users and a quarterly revenue close to 1 million USD, StoryFire allows users to step into a world with endless possibilities across boundless gaming worlds.',
   },
   {
@@ -246,11 +250,12 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['DeFi'],
-    fullDescription:
+    shortDescription:
       'Profitable liquidity provision powering sustainable on-chain returns and deep liquidity. ICHI has built two protocols using factory contracts; Yield IQ Vaults (auto-liquidity management) and Branded Dollars (stablecoins for any community). Governed by the ICHI token.',
   },
   {
     index: 1067,
+    cmcId: 16652,
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x9344805a736df9C78d09d7aBbFbA3274aBa6811e',
@@ -275,11 +280,12 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['GAMEFI'],
-    fullDescription:
+    shortDescription:
       'The Winkyverse is the first game-based learning platform offering immersive and purposeful educational experiences combining Gaming, Web3 and e-learning. Supported by the French Government, with an original setting, fully educational and ethical, the Winkyverse is the immersive and positive universe for all ages.',
   },
   {
     index: 1066,
+    cmcId: 28386,
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xeBd7fe43D63c8cbE1547e86CD2DFE5599ca53F47',
@@ -302,7 +308,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    fullDescription:
+    shortDescription:
       'Chappyz is an AI powered plug-and-play protocol that helps build REAL community engagement & growth, whilst rewarding community members in real-time. Users can start earning rewards by simply connecting their socials and chatting. Chappyz advanced AI system scores all messages and delivers a token reward each time users chat.',
     tags: ['AI'],
   },
@@ -336,6 +342,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 1064,
+    cmcId: 29157,
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xf50F7531AD95BC4E9021cBb2338AE77dCEaDdd48',
@@ -359,12 +366,23 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    fullDescription:
+    shortDescription:
       'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
-    tags: ['Reserve'],
+    fullDescription:
+      'ApeBond is building a sustainable DeFi future through its innovative Bonds products and strategic partnerships. Known for its Crowdsource OTC solution and treasury diversification expertise, ApeBond has launched Bonds with over 140 partners, sold 38,000+ Bonds for a total of $14,000,000 USD, and achieved a top 10 Dapp status by daily active users (DAU) according to CoinMarketCap. The ABOND token ties users with the platform by unlocking special Bonds, new earning opportunities, and more utilities coming up in the pipeline.',
+    tags: ['Bonding'],
+    partnersURLS: [
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/Seedify_fbt392.svg',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613244/ORBS_anzm60.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/quickLogo_2_1_g95ynz.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/aitech_logo_100_real_no_fake_bjskiq.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
+    ],
   },
   {
     index: 1063,
+    cmcId: 29157,
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x3071B6e6576dE3690A0cb4acc3f2a7301A9a6f21',
@@ -388,12 +406,23 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    fullDescription:
+    shortDescription:
       'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
-    tags: ['Reserve'],
+    fullDescription:
+      'ApeBond is building a sustainable DeFi future through its innovative Bonds products and strategic partnerships. Known for its Crowdsource OTC solution and treasury diversification expertise, ApeBond has launched Bonds with over 140 partners, sold 38,000+ Bonds for a total of $14,000,000 USD, and achieved a top 10 Dapp status by daily active users (DAU) according to CoinMarketCap. The ABOND token ties users with the platform by unlocking special Bonds, new earning opportunities, and more utilities coming up in the pipeline.',
+    tags: ['Bonding'],
+    partnersURLS: [
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/Seedify_fbt392.svg',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613244/ORBS_anzm60.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/quickLogo_2_1_g95ynz.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/aitech_logo_100_real_no_fake_bjskiq.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
+    ],
   },
   {
     index: 1062,
+    cmcId: 16711,
     chainId: ChainId.BSC,
     contractAddress: { [ChainId.BSC]: '0x56D8785161efbE407829fB659918d404883708e2' },
     billType: 'liquidity',
@@ -411,12 +440,13 @@ const bills: BillsConfig[] = [
     initPrice: { [ChainId.BSC]: 5.282656128760897 },
     soldOut: false,
     billArt: { collection: BillArtCollection.ApeBond_Collection1 },
-    fullDescription:
+    shortDescription:
       'GT Protocol is a Web3 AI execution technology that grants access to CeFi, DeFi, and NFT crypto markets through an all-in-one conversational AI interface. Incubated by ChainGPT, GT Protocol offers services including AI Crypto Management, AI NFT Management, and AI Shopping Assistance.',
     tags: ['AI'],
   },
   {
     index: 1061,
+    cmcId: 11088,
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x8667D8C020788Ae889639553F2016F068474ca58',
@@ -441,11 +471,12 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['Launchpad'],
-    fullDescription:
+    shortDescription:
       'EnjinStarter is a game-centric launchpad that offers investors a cost-effective way to participate in early Web3 launches, helping creators and game development studios embrace its robust ecosystem for their blockchain and digital asset strategies.',
   },
   {
     index: 1060,
+    cmcId: 23756,
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x051569EEE0522bab4a5aF99698FC02305CF0e267',
@@ -470,7 +501,7 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['AI'],
-    fullDescription:
+    shortDescription:
       'ChainGPT is an advanced AI infrastructure that develops AI-powered technologies for Web3, Blockchain, and Crypto space. They aim to improve the Web3 space for retail users & startups by developing AI-powered solutions designed explicitly for Web3. From LLMs to Web3 AI Tools, ChainGPT is the go-to place to boost your Web3 flow with Artificial Intelligence.',
   },
   {
@@ -590,6 +621,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 1055,
+    cmcId: 29157,
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x983D79923E9d320Ce07B02e4B85ad535F89a7259',
@@ -613,12 +645,23 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    fullDescription:
+    shortDescription:
       'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
-    tags: ['Reserve'],
+    fullDescription:
+      'ApeBond is building a sustainable DeFi future through its innovative Bonds products and strategic partnerships. Known for its Crowdsource OTC solution and treasury diversification expertise, ApeBond has launched Bonds with over 140 partners, sold 38,000+ Bonds for a total of $14,000,000 USD, and achieved a top 10 Dapp status by daily active users (DAU) according to CoinMarketCap. The ABOND token ties users with the platform by unlocking special Bonds, new earning opportunities, and more utilities coming up in the pipeline.',
+    tags: ['Bonding'],
+    partnersURLS: [
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/Seedify_fbt392.svg',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613244/ORBS_anzm60.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/quickLogo_2_1_g95ynz.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/aitech_logo_100_real_no_fake_bjskiq.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
+    ],
   },
   {
     index: 1054,
+    cmcId: 14133,
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xc77aDf2d1DB92bf9EaEdC64DE72829528B56EE15',
@@ -643,7 +686,7 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['GAMEFI'],
-    fullDescription:
+    shortDescription:
       "WAM is an award-winning, Play2Earn, skill-based platform where players compete in simple tournaments for digital assets and status. Users can also create their own entertainment with AI. Having won more than five international awards, WAM's vision is to create a new kind of platform where the use of blockchain becomes easy, fun, and rewarding for everyone!",
   },
   {
@@ -677,6 +720,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 1052,
+    cmcId: 24480,
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x634D12615CA306569AEFFE3813ecb4Ad714D5648',
@@ -699,12 +743,13 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    fullDescription:
+    shortDescription:
       'Alaska Gold Rush is the first Web3-native game featuring an open world, an exciting plot, and adventures within the metaverse. The $CARAT token enables users to discover amazing earning opportunities while having the utmost fun. Become one of the first daredevils to set out for Alaska to find riches while exploring the unexplored!',
     tags: ['GAMEFI'],
   },
   {
     index: 1051,
+    cmcId: 29157,
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x473Dd4CaE595a0dc5DCDF2edb6077ec01f8f1715',
@@ -728,12 +773,23 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    fullDescription:
+    shortDescription:
       'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
-    tags: ['BONDING'],
+    fullDescription:
+      'ApeBond is building a sustainable DeFi future through its innovative Bonds products and strategic partnerships. Known for its Crowdsource OTC solution and treasury diversification expertise, ApeBond has launched Bonds with over 140 partners, sold 38,000+ Bonds for a total of $14,000,000 USD, and achieved a top 10 Dapp status by daily active users (DAU) according to CoinMarketCap. The ABOND token ties users with the platform by unlocking special Bonds, new earning opportunities, and more utilities coming up in the pipeline.',
+    tags: ['Bonding'],
+    partnersURLS: [
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/Seedify_fbt392.svg',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613244/ORBS_anzm60.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/quickLogo_2_1_g95ynz.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/aitech_logo_100_real_no_fake_bjskiq.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
+    ],
   },
   {
     index: 1050,
+    cmcId: 25822,
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x849CD6CBd4B730C01B9d529Fd0501c1BA596a0C2',
@@ -758,7 +814,7 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['AI'],
-    fullDescription:
+    shortDescription:
       "AiMalls is the first tokenized E-commerce platform, registered with the SEC in the Philippines, certified by CertiK, and powered by state-of-the-art Artificial Intelligence, underpinned by its utility token AIT. AiMalls aims to curate personalized shopping experiences, fostering a dynamic and inclusive virtual retail environment. It serves as a bridge connecting global buyers and sellers, harnessing AI and advanced technologies to deliver seamlessly tailored shopping journeys that cater to individual customers' preferences and requirements.",
   },
   {
@@ -792,6 +848,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 1048,
+    cmcId: 15489,
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x580009d942cf89c05D506391B49BDf7825D9c583',
@@ -816,11 +873,12 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['GAMEFI'],
-    fullDescription:
+    shortDescription:
       'Experience epic magical battles featuring powerful wizards. Discover the future of gaming with this revolutionary multiplayer NFT blockchain game - free to play and equipped with a built-in Play & Earn system! Welcome to the Wizarre Universe, the ultimate destination for users to create the best wizards, level them up, and hone their skills to become the greatest. Wizarre Scroll: easy to learn but challenging to master!',
   },
   {
     index: 1047,
+    cmcId: 29635,
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x583F3395768B8A685Ab02156eD980722886A2d44',
@@ -845,7 +903,7 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['GAMEFI'],
-    fullDescription:
+    shortDescription:
       'Devomon is an anime brand that is revolutionizing fan engagement across the globe. Beyond gaming, it encompasses manhwas, anime, and more. Expect immersive games, unique merchandise, and a universe that unites every aspect of anime culture. Experience captivating journeys and trials, along with the opportunity to build and enhance robust NFT collections, all within an engaging and constantly evolving setting—only with Devomon.',
   },
   {
@@ -873,7 +931,7 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['Entertainment'],
-    fullDescription:
+    shortDescription:
       'MeMusic provides music for everyone! The team has built the first-ever blockchain-based music platform to adopt cryptocurrencies and a traditional business model. MeMusic has reinvented the streaming experience for the artists and users by providing a novel experience to earn rewards by listening and creating. MeMusic: personalizing the music experience beyond borders!',
   },
   {
@@ -935,6 +993,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 1043,
+    cmcId: 16652,
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xcc362B5760986ab14EDC794C5D4b1C84e05ea965',
@@ -959,11 +1018,12 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['GAMEFI'],
-    fullDescription:
+    shortDescription:
       'The Winkyverse is the first game-based learning platform offering immersive and purposeful educational experiences combining Gaming, Web3 and e-learning. Supported by the French Government, with an original setting, fully educational and ethical, the Winkyverse is the immersive and positive universe for all ages.',
   },
   {
     index: 1042,
+    cmcId: 24480,
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xD0aDBe1CF318BFb0110E48F088BEA933ECD72304',
@@ -986,7 +1046,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    fullDescription:
+    shortDescription:
       'Alaska Gold Rush is the first Web3-native game featuring an open world, an exciting plot, and adventures within the metaverse. The $CARAT token enables users to discover amazing earning opportunities while having the utmost fun. Become one of the first daredevils to set out for Alaska to find riches while exploring the unexplored!',
     tags: ['GAMEFI'],
   },
@@ -1491,6 +1551,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 1012,
+    cmcId: 29157,
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x097f6ffDC1d0C4d163d7d392a31dC7d39B710d4E',
@@ -1515,11 +1576,22 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.CexFundBond_Collection1,
     },
     tags: ['Cex Fund'],
-    fullDescription:
+    shortDescription:
       'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
+    fullDescription:
+      'ApeBond is building a sustainable DeFi future through its innovative Bonds products and strategic partnerships. Known for its Crowdsource OTC solution and treasury diversification expertise, ApeBond has launched Bonds with over 140 partners, sold 38,000+ Bonds for a total of $14,000,000 USD, and achieved a top 10 Dapp status by daily active users (DAU) according to CoinMarketCap. The ABOND token ties users with the platform by unlocking special Bonds, new earning opportunities, and more utilities coming up in the pipeline.',
+    partnersURLS: [
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/Seedify_fbt392.svg',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613244/ORBS_anzm60.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/quickLogo_2_1_g95ynz.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/aitech_logo_100_real_no_fake_bjskiq.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
+    ],
   },
   {
     index: 1026,
+    cmcId: 29157,
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xb0b4ff6D756CcC251Dd08928984f9C3A2d430eE5',
@@ -1543,12 +1615,23 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    fullDescription:
+    shortDescription:
       'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
-    tags: ['Reserve'],
+    fullDescription:
+      'ApeBond is building a sustainable DeFi future through its innovative Bonds products and strategic partnerships. Known for its Crowdsource OTC solution and treasury diversification expertise, ApeBond has launched Bonds with over 140 partners, sold 38,000+ Bonds for a total of $14,000,000 USD, and achieved a top 10 Dapp status by daily active users (DAU) according to CoinMarketCap. The ABOND token ties users with the platform by unlocking special Bonds, new earning opportunities, and more utilities coming up in the pipeline.',
+    tags: ['Bonding'],
+    partnersURLS: [
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/Seedify_fbt392.svg',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613244/ORBS_anzm60.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/quickLogo_2_1_g95ynz.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/aitech_logo_100_real_no_fake_bjskiq.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
+    ],
   },
   {
     index: 1036,
+    cmcId: 29157,
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xcF99cB6a10D24550389a8B839c3dC3D8DCAF6a01',
@@ -1572,9 +1655,19 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    fullDescription:
+    shortDescription:
       'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
-    tags: ['Reserve'],
+    fullDescription:
+      'ApeBond is building a sustainable DeFi future through its innovative Bonds products and strategic partnerships. Known for its Crowdsource OTC solution and treasury diversification expertise, ApeBond has launched Bonds with over 140 partners, sold 38,000+ Bonds for a total of $14,000,000 USD, and achieved a top 10 Dapp status by daily active users (DAU) according to CoinMarketCap. The ABOND token ties users with the platform by unlocking special Bonds, new earning opportunities, and more utilities coming up in the pipeline.',
+    tags: ['Bonding'],
+    partnersURLS: [
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/Seedify_fbt392.svg',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613244/ORBS_anzm60.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/quickLogo_2_1_g95ynz.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/aitech_logo_100_real_no_fake_bjskiq.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
+    ],
   },
   {
     index: 1041,
@@ -1607,6 +1700,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 1040,
+    cmcId: 28496,
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xD39A9dC66f18e0a9f6585a48e3A9B37F4ef84570',
@@ -1630,11 +1724,12 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['AI'],
-    fullDescription:
+    shortDescription:
       'Friend3 allows users to make friends and profits. It is an open SocialFi platform that blends social dApp, inscriptions marketplace, AI, BTC eco & trending tech. On Friend3, content creators receive direct financial incentives, marking the seamless integration of the creator economy with Web3. Friend3: post, chat, trade, donate, earn.',
   },
   {
     index: 1039,
+    cmcId: 23756,
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x7bB1Bd0C2880F52D159f8f4680DEAC7a13B7bf1e',
@@ -1664,6 +1759,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 1038,
+    cmcId: 11919,
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x82e55fc7c1348c38B429d7ae791DBb36BFE8c788',
@@ -1688,11 +1784,12 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['Blockchains'],
-    fullDescription:
+    shortDescription:
       'Forward is the WordPress of Web 3.0, an AI powered no-code drag-and-drop full stack solution that enables people to deploy dApps on any chain. Developers can monetize their built templates.',
   },
   {
     index: 1037,
+    cmcId: 29890,
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xea1735193cD2cD78251D7225A405d59D5F8a8e7D',
@@ -1717,7 +1814,7 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['AI', 'Education'],
-    fullDescription:
+    shortDescription:
       'Edu3Labs is revolutionizing education through Web3 by leveraging the capabilities of AI and blockchain technology to enhance learning experiences. Users gain access to content from leading producers and can easily purchase educational materials. They can also anticipate earning significant commissions and generating consistent passive income from sales in the secondary market. Edu3Labs: strong emphasis on education with maximum benefits to its users.',
   },
   {
@@ -1751,6 +1848,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 1034,
+    cmcId: 16711,
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x71a53F6b3207a8EBDBF692Ea3ffD8F506d78540d',
@@ -1774,7 +1872,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    fullDescription:
+    shortDescription:
       'GT Protocol is a Web3 AI execution technology that grants access to CeFi, DeFi, and NFT crypto markets through an all-in-one conversational AI interface. Incubated by ChainGPT, GT Protocol offers services including AI Crypto Management, AI NFT Management, and AI Shopping Assistance.',
     tags: ['AI'],
   },
@@ -1808,6 +1906,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 1032,
+    cmcId: 28386,
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x122A1f4DE0Ae198ef83eF6FeABfaC6DD3c0b98C5',
@@ -1830,12 +1929,13 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    fullDescription:
+    shortDescription:
       'Chappyz is an AI powered plug-and-play protocol that helps build REAL community engagement & growth, whilst rewarding community members in real-time. Users can start earning rewards by simply connecting their socials and chatting. Chappyz advanced AI system scores all messages and delivers a token reward each time users chat.',
     tags: ['AI'],
   },
   {
     index: 1031,
+    cmcId: 16652,
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x284b840402658342c79BF90cBf1b9506222E63D9',
@@ -1860,7 +1960,7 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['GAMEFI'],
-    fullDescription:
+    shortDescription:
       'The Winkyverse is the first game-based learning platform offering immersive and purposeful educational experiences combining Gaming, Web3 and e-learning. Supported by the French Government, with an original setting, fully educational and ethical, the Winkyverse is the immersive and positive universe for all ages.',
   },
   {
@@ -2069,6 +2169,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 1022,
+    cmcId: 28386,
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x83E22063362693Cb9C373721D037aDF6EA7762A0',
@@ -2091,7 +2192,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    fullDescription:
+    shortDescription:
       'Chappyz is an AI powered plug-and-play protocol that helps build REAL community engagement & growth, whilst rewarding community members in real-time. Users can start earning rewards by simply connecting their socials and chatting. Chappyz advanced AI system scores all messages and delivers a token reward each time users chat.',
     tags: ['AI'],
   },
@@ -2327,6 +2428,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 1013,
+    cmcId: 23756,
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x3237aA0280B98C6BbE23563A5C1aBbE52bCdB378',
@@ -2472,6 +2574,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 1005,
+    cmcId: 28386,
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x1a4ceD5Fa314Cfe70995282b5c12d751532E0923',
@@ -2494,7 +2597,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    fullDescription:
+    shortDescription:
       'Chappyz is an AI powered plug-and-play protocol that helps build REAL community engagement & growth, whilst rewarding community members in real-time. Users can start earning rewards by simply connecting their socials and chatting. Chappyz advanced AI system scores all messages and delivers a token reward each time users chat.',
     tags: ['AI'],
   },
@@ -2628,6 +2731,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 91,
+    cmcId: 23756,
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xA2585dbF7aAcAB105542752B03fd49AB542556B8',
@@ -2648,14 +2752,11 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.BSC]: 1695225600 },
     initPrice: { [ChainId.BSC]: 0.0421361050407099 },
     soldOut: true,
-    bannerURL: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1696008239/bond-highlights/gpt-banner.png',
     showcaseToken: tokens.cgpt,
     shortDescription:
       'ChainGPT 🤖 #1 ranked AI infrastructure for Blockchain, Crypto & Web3. 🔥 Unleash the power of Blockchain AI with ChainGPT. Powered by $CGPT token',
     fullDescription:
       "Unleash the power of Blockchain AI with ChainGPT. An advanced AI model explicitly designed for Blockchain Technology and Crypto-related topics. It uses the latest algorithms and high-speed computing capabilities to address challenging issues in the Blockchain and Crypto space. The ecosystem is backed and powered by the $CGPT token, which enables access to ChainGPT's premium AI tools, Governance, Launchpad, Staking, and more.",
-    apeswapNote:
-      'With fresh partnerships materializing almost every week and a recent win with the BNB Chain ecosystem catalyst awards, ChainGPT is rapidly gaining momentum in the crypto realm. As it emerges as a standout in the AI Blockchain sector, ChainGPT is undeniably cementing itself as a project with an enormous potential. Their Liquidity Bond is the perfect opportunity to join its enthusiastic community!',
     partnersURLS: [
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1696005003/bond-highlights/bnbchain',
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1696005160/bond-highlights/certik',
@@ -2783,14 +2884,11 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.BSC]: 1693584000 },
     initPrice: { [ChainId.BSC]: 0.0370027 },
     soldOut: true,
-    bannerURL: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1694711638/aitech_xeshl8.png',
     showcaseToken: tokens.aitech,
     shortDescription:
       'Empowering the future of AI | HPC data center | IaaS platform | AIaaS | BaaS | AI Marketplace | Powered by $AITECH token | Incubated by @Chain_GPT & @decubate',
     fullDescription:
       'We are paving the way for a more convenient and secure future by providing accessible Artificial Intelligence-as-a-Service (AIAAS), Blockchain-as-a-Service (BAAS), high-performance computing power (HPC), and an artificial intelligence marketplace. All of these cutting-edge technologies are powered by our native token, AITECH.',
-    apeswapNote:
-      "AITech stands at the crossroads of AI and blockchain, striving to merge two pioneering technologies that are reshaping the digital landscape, with the aim of propelling them further into the mainstream. This is an exciting opportunity to support a project that's not just following the industry's pulse but aiming to set it.",
     partnersURLS: [
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1695915128/bond-highlights/bsc',
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1695915051/bond-highlights/decubate',
@@ -3003,6 +3101,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 81,
+    cmcId: 23756,
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x1F13AC08BcD8E505A797A518627337eE8Ba2eEFE',
@@ -3095,6 +3194,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 77,
+    cmcId: 23756,
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x3aCfbf26c5906924738dCd6Ec417346f28f2bEbF',
@@ -4710,7 +4810,40 @@ const bills: BillsConfig[] = [
     Polygon Bills
   */
   {
+    index: 151,
+    cmcId: 24521,
+    chainId: ChainId.MATIC,
+    contractAddress: {
+      [ChainId.MATIC]: '0x198b77772E232FB25cEFD2A54b2B48581e053CBb',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.cby,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://www.carbify.io/',
+    twitter: 'https://twitter.com/Carbify_io',
+    audit:
+      'https://www.carbify.io/wp-content/uploads/2023/08/Carbifyaco2Rewards_Smart_Contract_Audit_Report_QuillAudits.pdf',
+    initTime: { [ChainId.MATIC]: 1701892800 },
+    initPrice: { [ChainId.MATIC]: 0.347018667988457 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+    shortDescription:
+      'Carbify is a project focused on the reforestation of the rainforest and the production and delivery of carbon offsets. By applying blockchain technology, Carbify can solve virtually all the problems faced by the carbon credit model. Their are tapping into a multi-billion-dollar market with the potential to become the world standard. The company is working together with some of the biggest Web3 giants to build a Layer 3 CO2 chain. Powered by CBY token.',
+    tags: ['RWA'],
+  },
+  {
     index: 150,
+    cmcId: 17131,
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x752cd986d092be78CF77f8B734514C04908A6b79',
@@ -4734,12 +4867,13 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.PlanetIX_Collection1,
     },
     bondPartner: 'QuickSwap',
-    fullDescription:
+    shortDescription:
       'Planet IX is a Web3 play-to-earn platform fueled by their native IX Token. Every asset on Planet IX is an NFT, allowing users to farm, own, and trade them. The main goal is to restore the planet to its former green-blue glory. Join Planet IX and become an Agent of Change now.',
     tags: ['GAMEFI', 'NFT'],
   },
   {
     index: 149,
+    cmcId: 17131,
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xa1A1e79905F20C5234AdBa5283A203486537d28C',
@@ -4763,12 +4897,13 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.PlanetIX_Collection1,
     },
     bondPartner: 'QuickSwap',
-    fullDescription:
+    shortDescription:
       'Planet IX is a Web3 play-to-earn platform fueled by their native IX Token. Every asset on Planet IX is an NFT, allowing users to farm, own, and trade them. The main goal is to restore the planet to its former green-blue glory. Join Planet IX and become an Agent of Change now.',
     tags: ['GAMEFI', 'NFT'],
   },
   {
     index: 148,
+    cmcId: 29458,
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x30126c9BcE74e5BbD23255b819C27B738787E7de',
@@ -4793,12 +4928,13 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.Quickswap_Collection1,
     },
     bondPartner: 'QuickSwap',
-    fullDescription:
+    shortDescription:
       'A51 Finance is an Autonomous Liquidity Provisioning (ALP) protocol offering customizable tools for creating tailored liquidity strategies empowering LPs with dynamic adjustments based on their preferences. A51 puts control in the hands of liquidity providers, allowing them to dictate asset management and post-liquidity actions.',
     tags: ['V3 Liquidity Managers'],
   },
   {
     index: 147,
+    cmcId: 29157,
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x810D147FBf07a776FE31e887447af6607b15C13A',
@@ -4822,12 +4958,23 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    fullDescription:
+    tags: ['Bonding'],
+    shortDescription:
       'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
-    tags: ['Reserve'],
+    fullDescription:
+      "ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity. 'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.",
+    partnersURLS: [
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/Seedify_fbt392.svg',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613244/ORBS_anzm60.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/quickLogo_2_1_g95ynz.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/aitech_logo_100_real_no_fake_bjskiq.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
+    ],
   },
   {
     index: 146,
+    cmcId: 30180,
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xC53374942388CdE1A4e498A34F24B2AdECF06824',
@@ -4852,12 +4999,13 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.Quickswap_Collection1,
     },
     bondPartner: 'QuickSwap',
-    fullDescription:
+    shortDescription:
       'Sheertopia is an immersive AI gaming platform that empowers players. This project features a play-to-earn NFT game that blends engaging gameplay with blockchain technology to create a unique, immersive experience. Sheertopia: the 3D gaming world where fun, creativity, and connectivity collide!',
     tags: ['GAMEFI'],
   },
   {
     index: 145,
+    cmcId: 11324,
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xc803552252eceF137EAfC1F2D9a7e50C73eF5594',
@@ -4881,7 +5029,7 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.Quickswap_Collection1,
     },
     bondPartner: 'QuickSwap',
-    fullDescription:
+    shortDescription:
       'Forest Knight is a turn-based strategy game, where players find themselves in an unknown land and need to build their team of heroes and fight against evil. Inspired by successful games, such as Heroes might and magic and clash Royal, the game combines the best of two worlds – a fun and exciting PVE RPG experience, a PVP competitive and social gameplay modes and activities as well as a decentralized item ecosystem through game items as NFTs and world-building powered with DEFI elements.',
     tags: ['GAMEFI'],
   },
@@ -4910,12 +5058,13 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.Quickswap_Collection1,
     },
     bondPartner: 'QuickSwap',
-    fullDescription:
+    shortDescription:
       "Anote Music has built a bridge between music royalty ownership and users' portfolios. Their user-friendly platform enables users to hold and trade royalties while providing a new funding method for artists. Users can join 30,000 investors who are diversifying their wealth by investing in music royalties, purchasing world-renowned catalogs, and earning as artists earn. Anote Music is the main stage for music investments!",
     tags: ['Entertainment'],
   },
   {
     index: 143,
+    cmcId: 11815,
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xFDC0A1b63e32e5f43B9094850dB3b40B0989b2c1',
@@ -4939,12 +5088,13 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.Quickswap_Collection1,
     },
     bondPartner: 'QuickSwap',
-    fullDescription:
+    shortDescription:
       'Ethernity Cloud is a Web3 decentralized confidential computing ecosystem supported by a community of enthusiastic node operators, stakers, and developers. As Web2 solutions fall behind in terms of security and affordability, Ethernity Cloud’s DePin excels with its EVM Confidential Computing architecture. Ethernity Cloud’s bulletproof decentralized architecture and advanced encryption techniques ensure that data remains secure for businesses at all times, whether it is in transit, at rest, or being processed.',
     tags: ['DEPIN'],
   },
   {
     index: 142,
+    cmcId: 12312,
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x1155A0fF366564A299F9e9Eb14aE40Ff0b4EbbFB',
@@ -4969,12 +5119,13 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.Quickswap_Collection1,
     },
     bondPartner: 'QuickSwap',
-    fullDescription:
+    shortDescription:
       'NASDEX empowers users to trade and invest in a diverse array of tokenized real-world assets such as stocks, derivatives, and real estate. Their state-of-the-art minting and trading mechanisms mirror the intricate dynamics of traditional equity markets and empower users to capitalize on borderless opportunities and be part of the future of finance. Users get access to private equity, private credit, private real estate, hedge funds, commercial papers, and more for as low as USD 1,000!',
     tags: ['RWA'],
   },
   {
     index: 141,
+    cmcId: 17131,
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x981686139340a84EAC66FD919E089EA23A984fc3',
@@ -4998,12 +5149,13 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.PlanetIX_Collection1,
     },
     bondPartner: 'QuickSwap',
-    fullDescription:
+    shortDescription:
       'Planet IX is a Web3 play-to-earn platform fueled by their native IX Token. Every asset on Planet IX is an NFT, allowing users to farm, own, and trade them. The main goal is to restore the planet to its former green-blue glory. Join Planet IX and become an Agent of Change now.',
     tags: ['GAMEFI', 'NFT'],
   },
   {
     index: 140,
+    cmcId: 29613,
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x627c2dc1e4Eb8EeA95844da77E000D45036473f1',
@@ -5028,12 +5180,13 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.Quickswap_Collection1,
     },
     bondPartner: 'QuickSwap',
-    fullDescription:
+    shortDescription:
       "Africarare is where Africa's rich heritage meets the digital frontier. Set in Ubuntuland, the Africarare metaverse allows users to create, socialize, play, trade, and more—all within Virtual Africa! Whether you aim to purchase land for social, educational, or entertainment purposes, design engaging retail experiences, or host paid or free events to expand your community and increase your treasury, Africarare is an undeniable choice for your portfolio!",
     tags: ['AI', 'METAVERSE'],
   },
   {
     index: 139,
+    cmcId: 29458,
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xF42c8B8973E7A26E2Ae34a96eA7c7F2E97185855',
@@ -5058,12 +5211,13 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.Quickswap_Collection1,
     },
     bondPartner: 'QuickSwap',
-    fullDescription:
+    shortDescription:
       'A51 Finance is an Autonomous Liquidity Provisioning (ALP) protocol offering customizable tools for creating tailored liquidity strategies empowering LPs with dynamic adjustments based on their preferences. A51 puts control in the hands of liquidity providers, allowing them to dictate asset management and post-liquidity actions.',
-    tags: ['V3 Liquidity Managers'],
+    tags: ['V3 Liq. Manager'],
   },
   {
     index: 138,
+    cmcId: 17131,
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x2FA2fC00252c8DDD88bb5699c6a06A4c62D8402B',
@@ -5087,7 +5241,7 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.PlanetIX_Collection1,
     },
     bondPartner: 'QuickSwap',
-    fullDescription:
+    shortDescription:
       'Planet IX is a Web3 play-to-earn platform fueled by their native IX Token. Every asset on Planet IX is an NFT, allowing users to farm, own, and trade them. The main goal is to restore the planet to its former green-blue glory. Join Planet IX and become an Agent of Change now.',
     tags: ['GAMEFI'],
   },
@@ -5122,6 +5276,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 136,
+    cmcId: 17704,
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xBeC0Fbc20338FAD8AFA0325C09094e28E22534C3',
@@ -5147,7 +5302,7 @@ const bills: BillsConfig[] = [
     },
     bondPartner: 'QuickSwap',
     tags: ['GAMEFI'],
-    fullDescription:
+    shortDescription:
       'Gensokishi is the metaverse incarnation of “Elemental Knights Online,” which won the 2012 Game of the year (Gold) in Taiwan. Utilizing blockchain technology, they aim to create a new economy within the virtual world. Purchase an MV Bond worth $20 or more to unlock an exclusive in-game <a href="https://twitter.com/genso_meta/status/1755246359165157634" target="_blank" rel="noopener noreferrer" style="color: #6560C5">ApeBond Shield</a>',
   },
   {
@@ -5212,6 +5367,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 133,
+    cmcId: 29157,
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x6dA8D2b851bdbCc50012f26d2a49107fe67fAB24',
@@ -5235,9 +5391,19 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    fullDescription:
+    shortDescription:
       'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
-    tags: ['Reserve'],
+    fullDescription:
+      'ApeBond is building a sustainable DeFi future through its innovative Bonds products and strategic partnerships. Known for its Crowdsource OTC solution and treasury diversification expertise, ApeBond has launched Bonds with over 140 partners, sold 38,000+ Bonds for a total of $14,000,000 USD, and achieved a top 10 Dapp status by daily active users (DAU) according to CoinMarketCap. The ABOND token ties users with the platform by unlocking special Bonds, new earning opportunities, and more utilities coming up in the pipeline.',
+    tags: ['Bonding'],
+    partnersURLS: [
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/Seedify_fbt392.svg',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613244/ORBS_anzm60.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/quickLogo_2_1_g95ynz.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/aitech_logo_100_real_no_fake_bjskiq.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
+    ],
   },
   {
     index: 132,
@@ -5270,6 +5436,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 131,
+    cmcId: 29458,
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xff4c72eE74916Ce8FA81FFf0DFFa8a32288E31E9',
@@ -5294,12 +5461,13 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.Quickswap_Collection1,
     },
     bondPartner: 'QuickSwap',
-    fullDescription:
+    shortDescription:
       'A51 Finance is an Autonomous Liquidity Provisioning (ALP) protocol offering customizable tools for creating tailored liquidity strategies empowering LPs with dynamic adjustments based on their preferences. A51 puts control in the hands of liquidity providers, allowing them to dictate asset management and post-liquidity actions.',
-    tags: ['V3 Liquidity Managers'],
+    tags: ['V3 Liq. Manager'],
   },
   {
     index: 130,
+    cmcId: 17131,
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xA7AaA5229346ac1d7524ca6A3bB71816E39982Bb',
@@ -5323,12 +5491,13 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.PlanetIX_Collection1,
     },
     bondPartner: 'QuickSwap',
-    fullDescription:
+    shortDescription:
       'Planet IX is a Web3 play-to-earn platform fueled by their native IX Token. Every asset on Planet IX is an NFT, allowing users to farm, own, and trade them. The main goal is to restore the planet to its former green-blue glory. Join Planet IX and become an Agent of Change now.',
     tags: ['GAMEFI', 'NFT'],
   },
   {
     index: 129,
+    cmcId: 17131,
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x9D1445b4e4694dFB2F34c2536ea1bb238f9B3B3b',
@@ -5352,12 +5521,13 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.PlanetIX_Collection1,
     },
     bondPartner: 'QuickSwap',
-    fullDescription:
+    shortDescription:
       'Planet IX is a Web3 play-to-earn platform fueled by their native IX Token. Every asset on Planet IX is an NFT, allowing users to farm, own, and trade them. The main goal is to restore the planet to its former green-blue glory. Join Planet IX and become an Agent of Change now.',
     tags: ['GAMEFI', 'NFT'],
   },
   {
     index: 128,
+    cmcId: 17704,
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xE504157665Ac78301C793411542446997c33697b',
@@ -5383,7 +5553,7 @@ const bills: BillsConfig[] = [
     },
     bondPartner: 'QuickSwap',
     tags: ['GAMEFI'],
-    fullDescription:
+    shortDescription:
       'Gensokishi is the metaverse incarnation of “Elemental Knights Online,” which won the 2012 Game of the year (Gold) in Taiwan. Utilizing blockchain technology, they aim to create a new economy within the virtual world. Purchase an MV Bond worth $20 or more to unlock an exclusive in-game <a href="https://twitter.com/genso_meta/status/1755246359165157634" target="_blank" rel="noopener noreferrer" style="color: #6560C5">ApeBond Shield</a>',
   },
   {
@@ -5476,6 +5646,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 124,
+    cmcId: 17131,
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xa03f7F8eC6CF8e217dBE506D990F81B3378e6EEB',
@@ -5499,12 +5670,13 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.PlanetIX_Collection1,
     },
     bondPartner: 'QuickSwap',
-    fullDescription:
+    shortDescription:
       'Planet IX is a Web3 play-to-earn platform fueled by their native IX Token. Every asset on Planet IX is an NFT, allowing users to farm, own, and trade them. The main goal is to restore the planet to its former green-blue glory. Join Planet IX and become an Agent of Change now.',
     tags: ['GAMEFI', 'NFT'],
   },
   {
     index: 123,
+    cmcId: 29458,
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xA26f70b1AdDe39F79E1e688196a0a10120FE1991',
@@ -5557,12 +5729,13 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.Quickswap_Collection1,
     },
     bondPartner: 'QuickSwap',
-    fullDescription:
+    shortDescription:
       'The MetaTrace application is a game incorporating a variety of game mechanics aimed at combining geolocation, blockchain environments, and classic game strategies.',
     tags: ['GAMEFI'],
   },
   {
     index: 121,
+    cmcId: 17131,
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x33fA58e25b16D6FfEF63bE1CDba38951A7bd3641',
@@ -5586,12 +5759,13 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.PlanetIX_Collection1,
     },
     bondPartner: 'QuickSwap',
-    fullDescription:
+    shortDescription:
       'Planet IX is a Web3 play-to-earn platform fueled by their native IX Token. Every asset on Planet IX is an NFT, allowing users to farm, own, and trade them. The main goal is to restore the planet to its former green-blue glory. Join Planet IX and become an Agent of Change now.',
     tags: ['GAMEFI', 'NFT'],
   },
   {
     index: 120,
+    cmcId: 17131,
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x262b966d81838D123622Da16B7e97193f4395103',
@@ -5615,7 +5789,7 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.PlanetIX_Collection1,
     },
     bondPartner: 'QuickSwap',
-    fullDescription:
+    shortDescription:
       'Planet IX is a Web3 play-to-earn platform fueled by their native IX Token. Every asset on Planet IX is an NFT, allowing users to farm, own, and trade them. The main goal is to restore the planet to its former green-blue glory. Join Planet IX and become an Agent of Change now.',
     tags: ['GAMEFI', 'NFT'],
   },
@@ -5767,6 +5941,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 114,
+    cmcId: 11324,
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x6Df8830c1dA2a5bB0e4A98DD84f079E83eE9e9a5',
@@ -5790,7 +5965,7 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.Quickswap_Collection1,
     },
     bondPartner: 'QuickSwap',
-    fullDescription:
+    shortDescription:
       'Forest Knight is a turn-based strategy game, where players find themselves in an unknown land and need to build their team of heroes and fight against evil. Inspired by successful games, such as Heroes might and magic and clash Royal, the game combines the best of two worlds – a fun and exciting PVE RPG experience, a PVP competitive and social gameplay modes and activities as well as a decentralized item ecosystem through game items as NFTs and world-building powered with DEFI elements.',
     tags: ['GAMEFI'],
   },
@@ -5881,6 +6056,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 110,
+    cmcId: 17704,
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x53859764AC3A49B8e442666d384b57A29fa5d927',
@@ -5906,7 +6082,7 @@ const bills: BillsConfig[] = [
     },
     bondPartner: 'QuickSwap',
     tags: ['GAMEFI'],
-    fullDescription:
+    shortDescription:
       'Genso is the metaverse incarnation of “Elemental Knights Online,” which won the 2012 Game of the year (Gold) in Taiwan. Utilizing blockchain technology, they aim to create a new economy within the virtual world. Web3, RPG & Metaverse are all combined within the realm of Gensokishi.',
   },
   {
@@ -6464,6 +6640,7 @@ const bills: BillsConfig[] = [
   */
   {
     index: 2006,
+    cmcId: 18007,
     chainId: ChainId.ARBITRUM,
     contractAddress: {
       [ChainId.ARBITRUM]: '0x2041530d4542d7da1FdDCb0DF499C2c8C14CCA6f',
@@ -6487,7 +6664,7 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['GAMEFI'],
-    fullDescription:
+    shortDescription:
       "Codyfight's mission is to combine AI, creative freedom, and community innovation through custom games, metagame control, AI battles, and open-source coding sharing. The CTOK token is the heart of Codyfight's economy, facilitating asset exchange and rewarding players.",
   },
   {
@@ -6675,6 +6852,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 3002,
+    cmcId: 11919,
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0xb44dE605a67fc95F239c0Ccf7086a5E1Aaf7A38C',
@@ -6699,7 +6877,7 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ETH_Collection1,
     },
     tags: ['Blockchains'],
-    fullDescription:
+    shortDescription:
       'Forward is the WordPress of Web 3.0, an AI powered no-code drag-and-drop full stack solution that enables people to deploy dApps on any chain. Developers can monetize their built templates.',
   },
   {
@@ -6761,6 +6939,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 3005,
+    cmcId: 25404,
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0xA695B31319ea84E8fCC552F4648515970cD34B16',
@@ -6784,7 +6963,7 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ETH_Collection1,
     },
     tags: ['Community/Meme'],
-    fullDescription:
+    shortDescription:
       'Monsta ETH: A vibrant ecosystem which combines deflation, user rewards, and buyback mechanics with a yield-bearing multi-vault system that fosters the protocol and the value of their native token $METH.',
   },
   {
@@ -6873,6 +7052,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 3009,
+    cmcId: 29157,
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0x6398Cf53F66DfEaA1B290D466765883cC2F23423',
@@ -6896,12 +7076,23 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
-    fullDescription:
+    shortDescription:
       'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
-    tags: ['Reserve'],
+    fullDescription:
+      'ApeBond is building a sustainable DeFi future through its innovative Bonds products and strategic partnerships. Known for its Crowdsource OTC solution and treasury diversification expertise, ApeBond has launched Bonds with over 140 partners, sold 38,000+ Bonds for a total of $14,000,000 USD, and achieved a top 10 Dapp status by daily active users (DAU) according to CoinMarketCap. The ABOND token ties users with the platform by unlocking special Bonds, new earning opportunities, and more utilities coming up in the pipeline.',
+    tags: ['Bonding'],
+    partnersURLS: [
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/Seedify_fbt392.svg',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613244/ORBS_anzm60.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/quickLogo_2_1_g95ynz.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/aitech_logo_100_real_no_fake_bjskiq.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
+    ],
   },
   {
     index: 3010,
+    cmcId: 21685,
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0x1E3C53D776AD4d3045575298d821b29AA76e4581',
@@ -6926,12 +7117,13 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
-    fullDescription:
+    shortDescription:
       'PUML Better Health is a Web3 gamified health, wellbeing, and sports platform. Users can complete health challenges such as steps, hydration, meditation, sleep, and more, while getting rewarded. Most importantly, it fosters the creation of long-term health habits for a better future. Get rewarded for being healthy with PUML Better Health.',
     tags: ['GAMEFI'],
   },
   {
     index: 3011,
+    cmcId: 29157,
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0x17924734790989DfbFA7e4733E81b99A7A7c80De',
@@ -6955,9 +7147,19 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
-    fullDescription:
+    shortDescription:
       'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
-    tags: ['Reserve'],
+    fullDescription:
+      'ApeBond is building a sustainable DeFi future through its innovative Bonds products and strategic partnerships. Known for its Crowdsource OTC solution and treasury diversification expertise, ApeBond has launched Bonds with over 140 partners, sold 38,000+ Bonds for a total of $14,000,000 USD, and achieved a top 10 Dapp status by daily active users (DAU) according to CoinMarketCap. The ABOND token ties users with the platform by unlocking special Bonds, new earning opportunities, and more utilities coming up in the pipeline.',
+    tags: ['Bonding'],
+    partnersURLS: [
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/Seedify_fbt392.svg',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613244/ORBS_anzm60.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/quickLogo_2_1_g95ynz.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/aitech_logo_100_real_no_fake_bjskiq.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
+    ],
   },
   {
     index: 3012,
@@ -6990,6 +7192,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 3013,
+    cmcId: 29485,
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0x4ABF75d7aD63a20A0C5866eDfDA045B6a448f53A',
@@ -7013,12 +7216,13 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
-    fullDescription:
+    shortDescription:
       'Metahorse Unity is a unique gaming experience that blends both the free-to-play and play-to-earn models. With Metahorse Unity, users have the option to play casually with free heroes or level up their gameplay by acquiring NFTs, allowing them to start earning and maximizing profits.',
     tags: ['GAMEFI'],
   },
   {
     index: 3014,
+    cmcId: 29157,
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0xCB51Ace23aef20278b669EC6659E02E24768EAA5',
@@ -7042,9 +7246,19 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
-    fullDescription:
+    shortDescription:
       'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
-    tags: ['Reserve'],
+    fullDescription:
+      'ApeBond is building a sustainable DeFi future through its innovative Bonds products and strategic partnerships. Known for its Crowdsource OTC solution and treasury diversification expertise, ApeBond has launched Bonds with over 140 partners, sold 38,000+ Bonds for a total of $14,000,000 USD, and achieved a top 10 Dapp status by daily active users (DAU) according to CoinMarketCap. The ABOND token ties users with the platform by unlocking special Bonds, new earning opportunities, and more utilities coming up in the pipeline.',
+    tags: ['Bonding'],
+    partnersURLS: [
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/Seedify_fbt392.svg',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613244/ORBS_anzm60.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/quickLogo_2_1_g95ynz.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/aitech_logo_100_real_no_fake_bjskiq.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
+    ],
   },
 ]
 

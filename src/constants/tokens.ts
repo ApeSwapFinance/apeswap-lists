@@ -1182,6 +1182,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  cby: {
+    symbol: 'CBY',
+    address: {
+      [ChainId.MATIC]: '0xB6a5ae40e79891E4DeAdAd06C8A7cA47396Df21C',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.External,
+    },
+    active: true,
+  },
   notes: {
     symbol: 'NOTES',
     address: {
