@@ -21,6 +21,16 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  iota: {
+    symbol: 'IOTA',
+    address: {
+      [ChainId.IOTA]: '0x6e47f8d48a01b44DF3fFF35d258A10A3AEdC114c',
+    },
+    decimals: {
+      [ChainId.IOTA]: 18,
+    },
+    active: true,
+  },
   ichi: {
     symbol: 'ICHI',
     address: {
