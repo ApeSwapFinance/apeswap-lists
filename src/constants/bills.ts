@@ -4967,7 +4967,7 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.Quickswap_Collection1,
     },
     bondPartner: 'QuickSwap',
-    fullDescription:
+    shortDescription:
       'Sheertopia is an immersive AI gaming platform that empowers players. This project features a play-to-earn NFT game that blends engaging gameplay with blockchain technology to create a unique, immersive experience. Sheertopia: the 3D gaming world where fun, creativity, and connectivity collide!',
     tags: ['GAMEFI'],
   },
