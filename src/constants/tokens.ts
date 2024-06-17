@@ -293,6 +293,7 @@ const tokens: Record<string, Token> = {
       [ChainId.ARBITRUM]: '0x82aF49447D8a07e3bd95BD0d56f35241523fBab1',
       [ChainId.MAINNET]: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
       [ChainId.LINEA]: '0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f',
+      [ChainId.IOTA]: '0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -302,9 +303,11 @@ const tokens: Record<string, Token> = {
       [ChainId.ARBITRUM]: 18,
       [ChainId.MAINNET]: 18,
       [ChainId.LINEA]: 18,
+      [ChainId.IOTA]: 18,
     },
     liquidityDex: {
       [ChainId.LINEA]: LiquidityDex.Lynex,
+      [ChainId.IOTA]: LiquidityDex.MagicSea,
     },
     active: true,
   },
@@ -369,6 +372,7 @@ const tokens: Record<string, Token> = {
       [ChainId.ARBITRUM]: '0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8',
       [ChainId.MAINNET]: '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48',
       [ChainId.LINEA]: '0x176211869cA2b568f2A7D4EE941E073a821EE1ff', // this is USDC.e
+      [ChainId.IOTA]: '0xFbDa5F676cB37624f28265A144A48B0d6e87d3b6', // this is USDC.e
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -377,9 +381,11 @@ const tokens: Record<string, Token> = {
       [ChainId.ARBITRUM]: 6,
       [ChainId.MAINNET]: 6,
       [ChainId.LINEA]: 6,
+      [ChainId.IOTA]: 6,
     },
     liquidityDex: {
       [ChainId.LINEA]: LiquidityDex.Nile,
+      [ChainId.IOTA]: LiquidityDex.MagicSea,
     },
     active: true,
   },
@@ -1251,6 +1257,7 @@ const tokens: Record<string, Token> = {
       [ChainId.INEVM]: '0x97423A68BAe94b5De52d767a17aBCc54c157c0E5',
       [ChainId.BSC_TESTNET]: '0x337610d27c682E347C9cD60BD4b3b107C9d34dDd',
       [ChainId.LINEA]: '0xA219439258ca9da29E9Cc4cE5596924745e12B93',
+      [ChainId.IOTA]: '0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4',
     },
     decimals: {
       [ChainId.MAINNET]: 6,
@@ -1261,11 +1268,13 @@ const tokens: Record<string, Token> = {
       [ChainId.INEVM]: 6,
       [ChainId.BSC_TESTNET]: 18,
       [ChainId.LINEA]: 6,
+      [ChainId.IOTA]: 6,
     },
     liquidityDex: {
       [ChainId.INEVM]: LiquidityDex.External,
       [ChainId.MAINNET]: LiquidityDex.UniswapV2,
       [ChainId.LINEA]: LiquidityDex.Nile,
+      [ChainId.IOTA]: LiquidityDex.MagicSea,
     },
     active: true,
   },
