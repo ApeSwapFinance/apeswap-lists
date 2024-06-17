@@ -110,6 +110,12 @@ export const dexFactories: Partial<
       protocol: Protocols.V3,
     },
   },
+  [ChainId.IOTA]: {
+    [LiquidityDex.MagicSea]: {
+      factory: '0x349aaAc3a500014981CBA11b64C76c66a6c1e8D0',
+      protocol: Protocols.V2,
+    },
+  },
 }
 
 export const defaultDexFactories: Partial<Record<ChainId, Partial<Record<Protocols, string>>>> = {
@@ -139,5 +145,8 @@ export const defaultDexFactories: Partial<Record<ChainId, Partial<Record<Protoco
     [Protocols.Algebra]: dexFactories[ChainId.LINEA]?.Algebra?.factory,
     [Protocols.Solidly]: dexFactories[ChainId.LINEA]?.Lynex?.factory,
     [Protocols.XFAI]: dexFactories[ChainId.LINEA]?.XFAI?.factory,
+  },
+  [ChainId.IOTA]: {
+    [Protocols.V2]: dexFactories[ChainId.IOTA]?.MagicSea?.factory,
   },
 }

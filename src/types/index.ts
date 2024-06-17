@@ -41,6 +41,9 @@ export enum LiquidityDex {
   XFAI = 'XFAI',
   Lynex = 'Lynex',
   Metavault = 'Metavault',
+
+  //IOTA
+  MagicSea = 'MagicSea',
 }
 
 export enum ZapVersion {
