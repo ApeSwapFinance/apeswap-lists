@@ -3184,6 +3184,19 @@ const tokens: Record<string, Token> = {
     },
   },
 
+  //***** LIGHTLINK TOKENS  *****/
+  ll: {
+    symbol: 'LL',
+    address: {
+      [ChainId.LIGHTLINK]: '0xd9d7123552fA2bEdB2348bB562576D67f6E8e96E',
+    },
+    decimals: { [ChainId.LIGHTLINK]: 18 },
+    liquidityDex: {
+      [ChainId.LIGHTLINK]: LiquidityDex.Elektrik,
+    },
+    active: true,
+  },
+
   // Test LPs
 
   horNey: {
