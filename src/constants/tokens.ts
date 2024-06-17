@@ -30,6 +30,9 @@ const tokens: Record<string, Token> = {
       [ChainId.IOTA]: 18,
     },
     active: true,
+    liquidityDex: {
+      [ChainId.IOTA]: LiquidityDex.MagicSea,
+    },
   },
   ichi: {
     symbol: 'ICHI',
