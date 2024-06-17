@@ -28,7 +28,7 @@
     "legacy-build": "rimraf ./config && mkdir config && run-func dist/apeswap-lists.cjs.development.js buildLegacyConfig && yarn run format:write"
   },
   "dependencies": {
-    "@ape.swap/sdk": "4.4.8",
+    "@ape.swap/sdk": "4.4.7",
     "bignumber.js": "^9.0.2",
     "ethers": "^5.6.9",
     "path": "^0.12.7"
