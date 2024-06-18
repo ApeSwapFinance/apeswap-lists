@@ -3097,17 +3097,6 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
-  retro: {
-    symbol: 'RETRO',
-    address: {
-      [ChainId.BSC]: '0xD6eF2222Cc850fDc7Ee30F2B2D5384e0167700A3',
-    },
-    decimals: { [ChainId.BSC]: 18 },
-    liquidityDex: {
-      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
-    },
-    active: true,
-  },
   cgg: {
     symbol: 'CGG',
     address: {
