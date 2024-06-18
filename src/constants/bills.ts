@@ -41,7 +41,7 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['DEX'],
-    fullDescription:
+    shortDescription:
       'XFAI is Linea’s next-generation DEX, offering users next-level trading performance. Say goodbye to token pairs and fragmented liquidity. With XFAI’s entangled pools, deep liquidity is accessible to everyone!',
   },
   //
