@@ -23,6 +23,7 @@ export enum LiquidityDex {
   ApeSwapV3 = 'ApeSwapV3',
   PancakeSwapV2 = 'PancakeSwapV2',
   PancakeSwapV3 = 'PancakeSwapV3',
+  SushiSwapV3 = 'SushiSwapV3',
   UniswapV2 = 'UniswapV2',
   ThenaV1 = 'ThenaV1',
   /**
@@ -41,6 +42,9 @@ export enum LiquidityDex {
   XFAI = 'XFAI',
   Lynex = 'Lynex',
   Metavault = 'Metavault',
+
+  //LightLink
+  Elektrik = 'Elektrik',
 }
 
 export enum ZapVersion {
