@@ -12,14 +12,13 @@ import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } fr
 // Migration Bonds ID: 5007
 
 const bills: BillsConfig[] = [
-  //
-  // LIGHTLINK
-  //
+  // //LIGHTLINK
   // {
   //   index: 7000,
+  //   cmcId: 22943,
   //   chainId: ChainId.LIGHTLINK,
   //   contractAddress: {
-  //     [ChainId.LIGHTLINK]: '0x95C56d565e2a154065a1FAFCB7945F5644581Dcc',
+  //     [ChainId.LIGHTLINK]: '',
   //   },
   //   billType: 'reserve',
   //   billVersion: BillVersion.V2,
@@ -31,22 +30,23 @@ const bills: BillsConfig[] = [
   //     [ChainId.LIGHTLINK]: '0x82CfCd79De447b01730b9ED0Db2ad6Ee5AaAC55f',
   //   },
   //   inactive: false,
-  //   projectLink: 'https://xfai.com/',
-  //   twitter: 'https://twitter.com/xfai_official',
-  //   audit: 'https://xfai.com/audit.pdf',
+  //   projectLink: 'https://lightlink.io/',
+  //   twitter: 'https://twitter.com/lightlinkchain',
+  //   audit: 'https://docs.lightlink.io/lightlink-protocol/miscellaneous/security-audits',
   //   initTime: { [ChainId.LIGHTLINK]: 0 },
   //   initPrice: { [ChainId.LIGHTLINK]: 0 },
   //   soldOut: false,
   //   billArt: {
   //     collection: BillArtCollection.ApeBond_Collection1,
   //   },
-  //   tags: ['DEX'],
+  //   tags: ['Blockchain'],
+  //   fullDescription: 'LightLink is an Ethereum L2 blockchain that lets dApps and enterprises offer users instant, gasless transactions. LightLink\'s mission is to seamlessly integrate millions into the digital economy through user-focused dApps and enterprise partnerships, making blockchain as intuitive and accessible as Web2, without the complexity of gas fees and protocols. No L1 & L2 blockchains currently offer only gasless transactions, however, LightLink’s Enterprise Mode allows zero-gas fees for users, processing up to 5000 transactions per second compared to Ethereum\'s 12-15 and preventing congestion and reducing fees to about $0.01 per transaction.',
   //   shortDescription:
-  //     'XFAI is Linea’s next-generation DEX, offering users next-level trading performance. Say goodbye to token pairs and fragmented liquidity. With XFAI’s entangled pools, deep liquidity is accessible to everyone!',
+  //     'LightLink is an Ethereum L2 blockchain enabling dApps and enterprises to offer instant, gasless transactions. Their mission is to integrate millions into the digital economy with user-friendly dApps and enterprise partnerships, making blockchain as intuitive and accessible as Web2, without the complexity of gas fees and protocols.',
   // },
-  //
+
   // LINEA
-  //
+
   {
     index: 6005,
     cmcId: 9217,
@@ -219,7 +219,7 @@ const bills: BillsConfig[] = [
     audit: 'https://skynet.certik.com/projects/getkicks?utm_source=CMC&utm_campaign=AuditByCertiKLink',
     initTime: { [ChainId.BSC]: 1717085021 },
     initPrice: { [ChainId.BSC]: 0.000398917904465581 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },

@@ -718,7 +718,7 @@
     "initPrice": {
       "56": 0.000398917904465581
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
