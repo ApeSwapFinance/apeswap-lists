@@ -69,6 +69,10 @@ export const dexFactories: Partial<
       factory: '0x411b0facc3489691f28ad58c47006af5e3ab3a28', //Quickswap
       protocol: Protocols.Algebra,
     },
+    [LiquidityDex.SushiSwapV3]: {
+      factory: '0xaa26771d497814E81D305c511Efbb3ceD90BF5bd',
+      protocol: Protocols.V3,
+    },
   },
   [ChainId.ARBITRUM]: {
     [LiquidityDex.ApeSwapV2]: {

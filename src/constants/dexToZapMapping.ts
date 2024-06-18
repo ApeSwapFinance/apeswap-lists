@@ -35,4 +35,5 @@ export const dexToZapMapping: Record<LiquidityDex, Partial<Record<ChainId, ZapVe
   [LiquidityDex.Lynex]: {},
   [LiquidityDex.Metavault]: {},
   [LiquidityDex.Elektrik]: {},
+  [LiquidityDex.SushiSwapV3]: {},
 }

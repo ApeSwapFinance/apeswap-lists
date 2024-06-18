@@ -18471,7 +18471,7 @@
         "137": 9
       },
       "liquidityDex": {
-        "137": "External"
+        "137": "SushiSwapV3"
       },
       "active": true
     },
