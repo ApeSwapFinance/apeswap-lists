@@ -110,6 +110,12 @@ export const dexFactories: Partial<
       protocol: Protocols.V3,
     },
   },
+  [ChainId.LIGHTLINK]: {
+    [LiquidityDex.Elektrik]: {
+      factory: '0xEE6099234bbdC793a43676D98Eb6B589ca7112D7',
+      protocol: Protocols.V3,
+    },
+  },
 }
 
 export const defaultDexFactories: Partial<Record<ChainId, Partial<Record<Protocols, string>>>> = {
@@ -139,5 +145,8 @@ export const defaultDexFactories: Partial<Record<ChainId, Partial<Record<Protoco
     [Protocols.Algebra]: dexFactories[ChainId.LINEA]?.Algebra?.factory,
     [Protocols.Solidly]: dexFactories[ChainId.LINEA]?.Lynex?.factory,
     [Protocols.XFAI]: dexFactories[ChainId.LINEA]?.XFAI?.factory,
+  },
+  [ChainId.LIGHTLINK]: {
+    [Protocols.V3]: dexFactories[ChainId.LIGHTLINK]?.Elektrik?.factory,
   },
 }
