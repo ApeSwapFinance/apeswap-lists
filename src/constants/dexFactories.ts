@@ -70,7 +70,7 @@ export const dexFactories: Partial<
       protocol: Protocols.Algebra,
     },
     [LiquidityDex.SushiSwapV3]: {
-      factory: '0xaa26771d497814E81D305c511Efbb3ceD90BF5bd',
+      factory: '0x917933899c6a5F8E37F31E19f92CdBFF7e8FF0e2',
       protocol: Protocols.V3,
     },
   },
