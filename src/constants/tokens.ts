@@ -2923,6 +2923,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  scpt: {
+    symbol: 'SCPT',
+    address: {
+      [ChainId.BSC]: '0x0669538FcdeF9A73CD37938eBa8c79E652BB93AA',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
   aitech: {
     symbol: 'AITECH',
     address: {
