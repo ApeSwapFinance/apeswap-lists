@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1070
+// BNB Largest ID: 1071
 // Polygon Largest ID: 151
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2006
@@ -198,6 +198,38 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1071,
+    cmcId: 12621,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0xa9e7236A428A1D3604b51cB01270B94884F6AA23',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.wbnb,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.wbnb,
+    earnToken: tokens.scpt,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://token.script.tv/',
+    twitter: 'https://x.com/script_network',
+    audit: 'https://skynet.certik.com/projects/script-network?utm_source=CMC&utm_campaign=AuditByCertiKLink',
+    initTime: { [ChainId.BSC]: 1717085021 },
+    initPrice: { [ChainId.BSC]: 0.000398917904465581 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Infra'],
+    shortDescription:
+      'Script Network is an open-source Web3 live TV platform, protocol, and video storage network focused on delivering a unique, industry-defining experience using blockchain technology.',
+    fullDescription:
+      'Script Network (aka Script.TV) is an open-source Web3 live TV platform, protocol, and video storage network focused on delivering a unique, industry-defining experience using blockchain technology. Say goodbye to passive viewing: Script Network pioneers a new era of interactive TV platforms that enable users to connect and engage with fellow viewers in real-time. From participating in content clubs to seizing investment opportunities through NFTs, Script Network empowers users to shape their viewing experience while earning rewards. As a layer-one video protocol that seeks to revolutionize video streaming and create new opportunities for content creators, Script Network houses a range of products, including Script TV, Script Marketplace, Script Enterprise, Script Blockchain, and sADs.',
+  },
   {
     index: 1070,
     cmcId: 22205,
