@@ -47,6 +47,18 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: LiquidityDex.Algebra,
     },
   },
+  iotaUsdc_MagicSea: {
+    symbol: 'IOTA-USDC',
+    address: {
+      [ChainId.IOTA]: '0x8F9a72d8F56479903ae386849e290d49389e41F9',
+    },
+    decimals: { [ChainId.IOTA]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.IOTA]: LiquidityDex.MagicSea,
+    },
+  },
   ethLynx_Ichi: {
     symbol: 'ETH-LYNX',
     address: {
