@@ -3,7 +3,7 @@ import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
 // BNB Largest ID: 1071
-// Polygon Largest ID: 151
+// Polygon Largest ID: 152
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2006
 // ETH Largest ID: 3014
@@ -4875,6 +4875,39 @@ const bills: BillsConfig[] = [
   /*
     Polygon Bills
   */
+  {
+    index: 152,
+    cmcId: 24103,
+    chainId: ChainId.MATIC,
+    contractAddress: {
+      [ChainId.MATIC]: '0x16EC49AaD5591124A18068F4929844C724E3546c',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.wmatic,
+    quoteToken: tokens.wmatic,
+    lpToken: tokens.wmatic,
+    earnToken: tokens.thx,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://thx.network/',
+    twitter: 'https://twitter.com/thxprotocol',
+    audit: 'https://docs.thx.network/developers/audits',
+    initTime: { [ChainId.MATIC]: 1700485200 },
+    initPrice: { [ChainId.MATIC]: 0.002404165611 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+    shortDescription:
+      "THX Network offers a quest and reward solution for growth leaders, integrating into any platform in under 30 minutes. Partnered with industry leaders like Gala Games, it features a vote-escrowed tokenomics model based on Balancer technology. Earn 'veTHX' by locking $THX, granting membership benefits and liquidity rewards.",
+    fullDescription:
+      'At THX Network, they believe in the universal language of gratitude, best expressed through gaming. The THX quest and reward solution integrates into any platform in under 30 minutes, democratizing the digital gaming economy. Partnered with industry leaders like Gala Games, their vote-escrowed 80/20 tokenomics model, based on Balancer technology, allows users to lock 80% $THX and 20% USDC to earn ‘veTHX’. Holding ‘veTHX’ grants membership benefits, liquidity rewards, and weekly protocol fee shares. Completing quests earns points for bi-weekly lottery rewards.',
+    tags: ['Marketing Solutions'],
+  },
   {
     index: 151,
     cmcId: 24521,
