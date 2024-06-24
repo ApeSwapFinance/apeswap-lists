@@ -86,17 +86,17 @@
       "active": true
     },
     "earnToken": {
-      "symbol": "XFIT",
+      "symbol": "IOTA",
       "address": {
-        "59144": "0x8C56017B172226fE024dEa197748FC1eaccC82B1"
+        "8822": "0x6e47f8d48a01b44DF3fFF35d258A10A3AEdC114c"
       },
       "decimals": {
-        "59144": 18
+        "8822": 18
       },
+      "active": true,
       "liquidityDex": {
-        "59144": "XFAI"
-      },
-      "active": true
+        "8822": "MagicSea"
+      }
     },
     "billNnftAddress": {
       "8822": "0x896c7021C1ACa0dD65D1D525b0434822dbCB6d9d"
