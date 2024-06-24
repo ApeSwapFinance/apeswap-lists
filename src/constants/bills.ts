@@ -8,9 +8,41 @@ import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } fr
 // Arbitrum Largest ID: 2006
 // ETH Largest ID: 3014
 // Linea Largest ID: 6005
+// Iota Largest ID: 7001
 //Migration Bonds ID: 5007
 
 const bills: BillsConfig[] = [
+  //
+  // IOTA
+  //
+  {
+    index: 7001,
+    chainId: ChainId.IOTA,
+    contractAddress: {
+      [ChainId.IOTA]: '0x974779E1bE60bFeEE1750B1AEaA05c63C39d4814', // prod
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdc,
+    quoteToken: tokens.usdc,
+    lpToken: tokens.usdc,
+    earnToken: tokens.xfit,
+    billNnftAddress: {
+      [ChainId.IOTA]: '0x896c7021C1ACa0dD65D1D525b0434822dbCB6d9d',
+    },
+    inactive: false,
+    projectLink: 'https://explorer.evm.iota.org/',
+    twitter: 'https://explorer.evm.iota.org/',
+    audit: 'https://explorer.evm.iota.org/',
+    initTime: { [ChainId.IOTA]: 1719260043 },
+    initPrice: { [ChainId.IOTA]: 0.1692 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DEX'],
+    shortDescription: 'IOTA is a decentralized stablecoin that can be traded on DEXs',
+  },
   //
   // LINEA
   //
