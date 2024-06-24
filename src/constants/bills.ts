@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1071
+// BNB Largest ID: 1072
 // Polygon Largest ID: 152
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2006
@@ -198,6 +198,37 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1072,
+    cmcId: 17444,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x0626765F2933883d30dC92430786E6a1146C73D6',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.froyo,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://froyo.games/',
+    twitter: 'https://twitter.com/realfroyogames',
+    initTime: { [ChainId.BSC]: 1715730467 },
+    initPrice: { [ChainId.BSC]: 0.000379098550137839 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['GAMEFI'],
+    shortDescription:
+      "Froyo Games is a web3 GameFi platform that connects brands and gamers to a metaverse of opportunities for playing and earning in exciting and innovative ways. Get to know $FROYO, the platform's utility token. Their token can be earned from playing games, be spent at the Froyo Marketplace, staked for rewards, and swapped for tokens in your favorite games.",
+    fullDescription:
+      "Froyo Games is a web3 GameFi platform that connects brands and gamers to a metaverse of opportunities for playing and earning in exciting and innovative ways. Get to know $FROYO, the platform's utility token. Their token can be earned from playing games, be spent at the Froyo Marketplace, staked for rewards, and swapped for tokens in your favorite games. With a network of over 600 game development talents worldwide, covering 350+ game titles with over 360 million downloads, Froyo Games enables the integration of blockchain technologies into an accessible ecosystem. This ecosystem is open to any game developers who want to build on Ethereum and Binance Smart Chain, granting them access to the Froyo user base and tools when they launch their games on Froyo Games.",
+  },
   {
     index: 1071,
     cmcId: 12621,

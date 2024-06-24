@@ -2868,6 +2868,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  knine: {
+    symbol: 'KNINE',
+    address: {
+      [ChainId.MAINNET]: '0x91fbB2503AC69702061f1AC6885759Fc853e6EaE',
+    },
+    decimals: { [ChainId.MAINNET]: 18 },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
+    },
+    active: true,
+  },
   pumlx: {
     symbol: 'PUMLx',
     address: {
