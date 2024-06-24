@@ -1,5 +1,124 @@
 [
   {
+    "index": 7001,
+    "chainId": 8822,
+    "contractAddress": {
+      "8822": "0x974779E1bE60bFeEE1750B1AEaA05c63C39d4814"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "USDC",
+      "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+        "8822": "0xFbDa5F676cB37624f28265A144A48B0d6e87d3b6",
+        "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+        "59144": "0x176211869cA2b568f2A7D4EE941E073a821EE1ff"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "8822": "MagicSea",
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDC",
+      "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+        "8822": "0xFbDa5F676cB37624f28265A144A48B0d6e87d3b6",
+        "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+        "59144": "0x176211869cA2b568f2A7D4EE941E073a821EE1ff"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "8822": "MagicSea",
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+        "8822": "0xFbDa5F676cB37624f28265A144A48B0d6e87d3b6",
+        "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+        "59144": "0x176211869cA2b568f2A7D4EE941E073a821EE1ff"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "8822": "MagicSea",
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "XFIT",
+      "address": {
+        "59144": "0x8C56017B172226fE024dEa197748FC1eaccC82B1"
+      },
+      "decimals": {
+        "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "XFAI"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "8822": "0x896c7021C1ACa0dD65D1D525b0434822dbCB6d9d"
+    },
+    "inactive": false,
+    "projectLink": "https://explorer.evm.iota.org/",
+    "twitter": "https://explorer.evm.iota.org/",
+    "audit": "https://explorer.evm.iota.org/",
+    "initTime": {
+      "8822": 1719260043
+    },
+    "initPrice": {
+      "8822": 0.1692
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["DEX"],
+    "shortDescription": "IOTA is a decentralized stablecoin that can be traded on DEXs"
+  },
+  {
     "index": 6005,
     "cmcId": 9217,
     "chainId": 59144,
