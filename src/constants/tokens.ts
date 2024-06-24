@@ -21,6 +21,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  degen: {
+    symbol: 'DEGEN',
+    address: {
+      [ChainId.BASE]: '0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.Aerodrome,
+    },
+  },
   ichi: {
     symbol: 'ICHI',
     address: {
@@ -280,6 +293,7 @@ const tokens: Record<string, Token> = {
       [ChainId.ARBITRUM]: '0x82aF49447D8a07e3bd95BD0d56f35241523fBab1',
       [ChainId.MAINNET]: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
       [ChainId.LINEA]: '0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f',
+      [ChainId.BASE]: '0x4200000000000000000000000000000000000006',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -289,9 +303,11 @@ const tokens: Record<string, Token> = {
       [ChainId.ARBITRUM]: 18,
       [ChainId.MAINNET]: 18,
       [ChainId.LINEA]: 18,
+      [ChainId.BASE]: 18,
     },
     liquidityDex: {
       [ChainId.LINEA]: LiquidityDex.Lynex,
+      [ChainId.BASE]: LiquidityDex.Aerodrome,
     },
     active: true,
   },
