@@ -23,9 +23,9 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdc,
-    quoteToken: tokens.usdc,
-    lpToken: tokens.usdc,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
     earnToken: tokens.iota,
     billNnftAddress: {
       [ChainId.IOTA]: '0x896c7021C1ACa0dD65D1D525b0434822dbCB6d9d',
