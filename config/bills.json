@@ -1,5 +1,131 @@
 [
   {
+    "index": 7001,
+    "cmcId": 30096,
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0xf5fbC62cD5FE469456055b63C6F3B1f0AEA08772"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "8453": "0x4200000000000000000000000000000000000006",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+        "59144": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "8453": 18,
+        "42161": 18,
+        "59144": 18
+      },
+      "liquidityDex": {
+        "8453": "Aerodrome",
+        "59144": "Lynex"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "8453": "0x4200000000000000000000000000000000000006",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+        "59144": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "8453": 18,
+        "42161": 18,
+        "59144": 18
+      },
+      "liquidityDex": {
+        "8453": "Aerodrome",
+        "59144": "Lynex"
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "8453": "0x4200000000000000000000000000000000000006",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+        "59144": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "8453": 18,
+        "42161": 18,
+        "59144": 18
+      },
+      "liquidityDex": {
+        "8453": "Aerodrome",
+        "59144": "Lynex"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "DEGEN",
+      "address": {
+        "8453": "0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "8453": "Aerodrome"
+      }
+    },
+    "billNnftAddress": {
+      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "inactive": false,
+    "projectLink": "https://www.degen.tips/",
+    "twitter": "https://x.com/degentokenbase",
+    "audit": "https://www.degen.tips/tokenomics",
+    "initTime": {
+      "8453": 1716217474
+    },
+    "initPrice": {
+      "8453": 0.005450086440702347
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["DEX"],
+    "shortDescription": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi."
+  },
+  {
     "index": 6005,
     "cmcId": 9217,
     "chainId": 59144,

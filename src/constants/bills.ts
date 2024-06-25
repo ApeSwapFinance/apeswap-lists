@@ -8,9 +8,43 @@ import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } fr
 // Arbitrum Largest ID: 2006
 // ETH Largest ID: 3014
 // Linea Largest ID: 6005
+// Base Largest ID: 7001
 //Migration Bonds ID: 5007
 
 const bills: BillsConfig[] = [
+  //
+  // BASE
+  //
+  {
+    index: 7001,
+    cmcId: 30096,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0xf5fbC62cD5FE469456055b63C6F3B1f0AEA08772',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.eth,
+    quoteToken: tokens.eth,
+    lpToken: tokens.eth,
+    earnToken: tokens.degen,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://www.degen.tips/',
+    twitter: 'https://x.com/degentokenbase',
+    audit: 'https://www.degen.tips/tokenomics',
+    initTime: { [ChainId.BASE]: 1716217474 },
+    initPrice: { [ChainId.BASE]: 0.005450086440702347 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DEX'],
+    shortDescription:
+      'lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.',
+  },
   //
   // LINEA
   //
