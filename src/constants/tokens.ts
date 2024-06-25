@@ -1,5 +1,5 @@
 import { ChainId } from '@ape.swap/sdk'
-import { LiquidityDex, Token } from '../types'
+import { IchiSupportedDex, LiquidityDex, Token } from '../types'
 
 const tokens: Record<string, Token> = {
   // BANANA should always be first token for GNANA calculation
@@ -42,8 +42,7 @@ const tokens: Record<string, Token> = {
     decimals: { [ChainId.LINEA]: 18 },
     active: true,
     lpToken: true,
-    vaultDeployer: '0x75178e0a2829B73E3AE4C21eE64F4B684085392a',
-    router: '0x57C9d919AEA56171506cfb62B60ce76be0A079DF',
+    ichiUnderlyingDex: IchiSupportedDex.Lynex,
     liquidityDex: {
       [ChainId.LINEA]: LiquidityDex.Algebra,
     },
@@ -4297,8 +4296,7 @@ const tokens: Record<string, Token> = {
     decimals: { [ChainId.BSC]: 18 },
     active: true,
     lpToken: true,
-    vaultDeployer: '0x05cC3CA6E768a68A7f86b09e3ceE754437bd5f12',
-    router: '0xE7914034D4D39087bFF0Aed442a652F5945E914b',
+    ichiUnderlyingDex: IchiSupportedDex.UniswapV3,
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.Algebra,
     },
@@ -4829,8 +4827,7 @@ const tokens: Record<string, Token> = {
     },
     active: true,
     lpToken: true,
-    router: '0xDB8E25D78483D13781622A40e69a9E39A4b590B6',
-    vaultDeployer: '0x0768a75f616b98ee0937673bd83b7abf142236ea',
+    ichiUnderlyingDex: IchiSupportedDex.Quickswap,
   },
   maticEth_Ichi: {
     symbol: 'MATIC (ETH)',
