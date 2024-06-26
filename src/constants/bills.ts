@@ -8,7 +8,7 @@ import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } fr
 // Arbitrum Largest ID: 2006
 // ETH Largest ID: 3014
 // Linea Largest ID: 6005
-// Iota Largest ID: 7001
+// Iota Largest ID: 8001
 //Migration Bonds ID: 5007
 
 const bills: BillsConfig[] = [
@@ -16,7 +16,7 @@ const bills: BillsConfig[] = [
   // IOTA
   //
   {
-    index: 7001,
+    index: 8001,
     chainId: ChainId.IOTA,
     contractAddress: {
       [ChainId.IOTA]: '0x974779E1bE60bFeEE1750B1AEaA05c63C39d4814', // prod
