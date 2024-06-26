@@ -543,8 +543,7 @@
       },
       "active": true,
       "lpToken": true,
-      "vaultDeployer": "0x75178e0a2829B73E3AE4C21eE64F4B684085392a",
-      "router": "0x57C9d919AEA56171506cfb62B60ce76be0A079DF",
+      "ichiUnderlyingDex": "Lynex",
       "liquidityDex": {
         "59144": "Algebra"
       }
@@ -707,6 +706,144 @@
     },
     "tags": ["DeFi"],
     "shortDescription": "Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!"
+  },
+  {
+    "index": 1073,
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0x7FBF39380E35C9A2D72f695540607150503a19D6"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "1890": 6,
+        "2525": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "1890": "Elektrik",
+        "2525": "External",
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "1890": 6,
+        "2525": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "1890": "Elektrik",
+        "2525": "External",
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "1890": 6,
+        "2525": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "1890": "Elektrik",
+        "2525": "External",
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "RETRO",
+      "address": {
+        "56": "0xD6eF2222Cc850fDc7Ee30F2B2D5384e0167700A3"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://retrocraft.io/",
+    "twitter": "https://x.com/RetroCraftio",
+    "audit": "https://github.com/CFG-NINJA/audits/blob/fa0790e36c10a901ff3f0ac8558fbdc9afdabafc/20231124_CFGNINJA_RetroCraft_Retro_Audit.pdf",
+    "initTime": {
+      "56": 1719413043
+    },
+    "initPrice": {
+      "56": 0.001336953784856991
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["GAMEFI"],
+    "shortDescription": "RetroCraft is a unique game combining classic nostalgia with modern blockchain technology build on a Minecraft server. The project is developed by a team of veteran indie gamers, with experiences working for major game studios. This team has recreated many pioneering retro titles and brought them on blockchain.",
+    "fullDescription": "RetroCraft is a unique game that merges classic nostalgia with modern blockchain technology, built on a Minecraft server. Developed by a team of veteran indie gamers with experience in major game studios, the project brings pioneering retro titles to the blockchain. In RetroCraft, players can engage in iconic classic minigames such as Super Mario, Tank 1990, Bomberman, and Pac-Man, all recreated with meticulous pixel-perfect detail. Additionally, the game offers a survival mode, a crafting system, charming voxel graphics, and many other exciting activities. A standout feature of the game is its unique Play to Earn mechanism, allowing players to earn real tokens ($RETRO) by playing games and completing quests. There is also a bustling NFT marketplace where players can trade rare items for profit. With its blend of retro charm and real earning opportunities, RetroCraft is set to be the most anticipated game of the year for all gamers."
   },
   {
     "index": 1072,
@@ -1261,8 +1398,7 @@
       },
       "active": true,
       "lpToken": true,
-      "vaultDeployer": "0x05cC3CA6E768a68A7f86b09e3ceE754437bd5f12",
-      "router": "0xE7914034D4D39087bFF0Aed442a652F5945E914b",
+      "ichiUnderlyingDex": "Uniswap V3",
       "liquidityDex": {
         "56": "Algebra"
       }
@@ -18670,8 +18806,7 @@
       },
       "active": true,
       "lpToken": true,
-      "router": "0xDB8E25D78483D13781622A40e69a9E39A4b590B6",
-      "vaultDeployer": "0x0768a75f616b98ee0937673bd83b7abf142236ea"
+      "ichiUnderlyingDex": "QuickSwap"
     },
     "earnToken": {
       "symbol": "AMBO",

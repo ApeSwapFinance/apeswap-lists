@@ -2,7 +2,7 @@ import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1072
+// BNB Largest ID: 1073
 // Polygon Largest ID: 152
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2006
@@ -198,6 +198,38 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1073,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x7FBF39380E35C9A2D72f695540607150503a19D6',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.retro,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://retrocraft.io/',
+    twitter: 'https://x.com/RetroCraftio',
+    audit:
+      'https://github.com/CFG-NINJA/audits/blob/fa0790e36c10a901ff3f0ac8558fbdc9afdabafc/20231124_CFGNINJA_RetroCraft_Retro_Audit.pdf',
+    initTime: { [ChainId.BSC]: 1719413043 },
+    initPrice: { [ChainId.BSC]: 0.001336953784856991 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['GAMEFI'],
+    shortDescription:
+      'RetroCraft is a unique game combining classic nostalgia with modern blockchain technology build on a Minecraft server. The project is developed by a team of veteran indie gamers, with experiences working for major game studios. This team has recreated many pioneering retro titles and brought them on blockchain.',
+    fullDescription:
+      'RetroCraft is a unique game that merges classic nostalgia with modern blockchain technology, built on a Minecraft server. Developed by a team of veteran indie gamers with experience in major game studios, the project brings pioneering retro titles to the blockchain. In RetroCraft, players can engage in iconic classic minigames such as Super Mario, Tank 1990, Bomberman, and Pac-Man, all recreated with meticulous pixel-perfect detail. Additionally, the game offers a survival mode, a crafting system, charming voxel graphics, and many other exciting activities. A standout feature of the game is its unique Play to Earn mechanism, allowing players to earn real tokens ($RETRO) by playing games and completing quests. There is also a bustling NFT marketplace where players can trade rare items for profit. With its blend of retro charm and real earning opportunities, RetroCraft is set to be the most anticipated game of the year for all gamers.',
+  },
   {
     index: 1072,
     cmcId: 17444,

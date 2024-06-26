@@ -47,6 +47,33 @@ export enum LiquidityDex {
   Elektrik = 'Elektrik',
 }
 
+export enum IchiSupportedDex {
+  Ascent = 'Ascent',
+  Blueprint = 'Blueprint',
+  Cleo = 'Cleo',
+  Equalizer = 'Equalizer',
+  Fenix = 'Fenix',
+  Forge = 'Forge',
+  Henjin = 'Henjin',
+  Kinetix = 'Kinetix',
+  Linehub = 'Linehub',
+  Lynex = 'Lynex',
+  Metavault = 'Metavault',
+  Nile = 'Nile',
+  Pancakeswap = 'PancakeSwap',
+  Quickswap = 'QuickSwap',
+  Ramses = 'Ramses',
+  Retro = 'Retro',
+  SaucerSwap = 'SaucerSwap',
+  SpiritSwap = 'SpiritSwap',
+  Sushiswap = 'SushiSwap',
+  Thena = 'Thena',
+  Thirdfy = 'Thirdfy',
+  UniswapV3 = 'Uniswap V3',
+  Velocore = 'Velocore',
+  XSwap = 'XSwap',
+}
+
 export enum ZapVersion {
   External = 'External', // This will redirect users to Token.getLpUrl with get lp button on FE
   ZapV1 = 'ZapV1', // TODO: deprecate this
@@ -83,8 +110,7 @@ export interface Token {
   price?: number
   liquidityDex?: Partial<Record<ChainId, LiquidityDex>> //the dex type where most liquidity/actual lp is
   getLpUrl?: Partial<Record<ChainId, string>> //Needed for ZapVersion.External
-  vaultDeployer?: string // only necessary for Ichi Zap
-  router?: string // only necessary for Ichi Zap
+  ichiUnderlyingDex?: IchiSupportedDex // The dex ichi is wrapping. only necessary for Ichi Zap
 }
 
 // Interfaces used in Vaults
