@@ -92,7 +92,6 @@ export enum IchiSupportedDex {
   UniswapV3 = 'Uniswap V3',
   Velocore = 'Velocore',
   XSwap = 'XSwap',
-
 }
 
 export enum ZapVersion {
