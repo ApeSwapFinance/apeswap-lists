@@ -1,5 +1,9 @@
-import { BillArtCollection, BillVersion, FlashBondConfig /* BillArtCollection, BillVersion, */ } from '../types'
-import { ChainId } from '@ape.swap/sdk'
+import {
+  BillArtCollection,
+  BillVersion,
+  ChainId,
+  FlashBondConfig /* BillArtCollection, BillVersion, */,
+} from '../types'
 import tokens from './tokens'
 
 const flashBonds: FlashBondConfig[] = [

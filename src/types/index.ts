@@ -1,5 +1,3 @@
-import { ChainId } from '@ape.swap/sdk'
-
 export enum QuoteToken {
   'BNB' = 'BNB',
   'BANANA' = 'BANANA',
@@ -16,6 +14,24 @@ export enum PoolCategory {
   'CORE' = 'Core',
   'REAL_YIELD' = 'Real Yield',
   'JUNGLE' = 'Jungle',
+}
+
+export enum ChainId {
+  MAINNET = 1,
+  MATIC = 137,
+  MATIC_TESTNET = 80001,
+  BSC = 56,
+  BSC_TESTNET = 97,
+  TLOS = 40,
+  ARBITRUM = 42161,
+  INEVM_TESTNET = 2424,
+  INEVM = 2525,
+  SEPOLIA = 11155111,
+  LINEA = 59144,
+  LIGHTLINK = 1890,
+  IOTA_TESTNET = 1075,
+  IOTA = 8822,
+  BASE = 8453,
 }
 
 export enum LiquidityDex {

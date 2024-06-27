@@ -1,6 +1,5 @@
-import { Token } from '../types'
+import { ChainId, Token } from '../types'
 import tokens from './tokens'
-import { ChainId } from '@ape.swap/sdk'
 
 const zapInputTokens: Partial<Record<ChainId, Record<string, Token>>> = {
   [ChainId.BSC]: {
