@@ -1,5 +1,4 @@
-import { BillArtCollection, BillVersion, LaunchProjectConfig } from '../types'
-import { ChainId } from '@ape.swap/sdk'
+import { BillArtCollection, BillVersion, ChainId, LaunchProjectConfig } from '../types'
 import tokens from './tokens'
 
 const launchProjects: LaunchProjectConfig[] = [

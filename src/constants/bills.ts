@@ -1,6 +1,5 @@
-import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
-import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
+import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingTerms } from '../types'
 
 // BNB Largest ID: 1073
 // Polygon Largest ID: 152

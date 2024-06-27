@@ -1,5 +1,4 @@
-import { ChainId } from '@ape.swap/sdk'
-import { LiquidityDex, ZapVersion } from '../types'
+import { ChainId, LiquidityDex, ZapVersion } from '../types'
 
 export const dexToZapMapping: Record<LiquidityDex, Partial<Record<ChainId, ZapVersion>>> = {
   [LiquidityDex.ApeSwapV2]: {

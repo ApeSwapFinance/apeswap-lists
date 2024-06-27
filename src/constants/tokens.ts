@@ -1,5 +1,4 @@
-import { ChainId } from '@ape.swap/sdk'
-import { IchiSupportedDex, LiquidityDex, Token } from '../types'
+import { ChainId, IchiSupportedDex, LiquidityDex, Token } from '../types'
 
 const tokens: Record<string, Token> = {
   // BANANA should always be first token for GNANA calculation

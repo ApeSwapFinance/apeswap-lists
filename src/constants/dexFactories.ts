@@ -1,5 +1,4 @@
-import { ChainId } from '@ape.swap/sdk'
-import { LiquidityDex, Protocols } from '../types'
+import { ChainId, LiquidityDex, Protocols } from '../types'
 
 export const dexFactories: Partial<
   Record<ChainId, Partial<Record<LiquidityDex, { factory: string; protocol: Protocols }>>>

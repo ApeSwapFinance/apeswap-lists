@@ -1,5 +1,4 @@
-import { JungleFarmConfig } from 'types'
-import { ChainId } from '@ape.swap/sdk'
+import { ChainId, JungleFarmConfig } from '../types'
 import tokens from './tokens'
 
 const jungleFarmsV2: JungleFarmConfig[] = [

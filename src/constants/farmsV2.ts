@@ -1,5 +1,4 @@
-import { ChainId } from '@ape.swap/sdk'
-import { FarmConfig, QuoteToken } from '../types'
+import { ChainId, FarmConfig, QuoteToken } from '../types'
 import tokens from './tokens'
 
 // Highest Farm ID: 67
