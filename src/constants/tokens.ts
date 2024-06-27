@@ -1,5 +1,4 @@
-import { ChainId } from '@ape.swap/sdk'
-import { LiquidityDex, Token } from '../types'
+import { ChainId, IchiSupportedDex, LiquidityDex, Token } from '../types'
 
 const tokens: Record<string, Token> = {
   // BANANA should always be first token for GNANA calculation
@@ -55,8 +54,7 @@ const tokens: Record<string, Token> = {
     decimals: { [ChainId.LINEA]: 18 },
     active: true,
     lpToken: true,
-    vaultDeployer: '0x75178e0a2829B73E3AE4C21eE64F4B684085392a',
-    router: '0x57C9d919AEA56171506cfb62B60ce76be0A079DF',
+    ichiUnderlyingDex: IchiSupportedDex.Lynex,
     liquidityDex: {
       [ChainId.LINEA]: LiquidityDex.Algebra,
     },
@@ -293,6 +291,7 @@ const tokens: Record<string, Token> = {
       [ChainId.ARBITRUM]: '0x82aF49447D8a07e3bd95BD0d56f35241523fBab1',
       [ChainId.MAINNET]: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
       [ChainId.LINEA]: '0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f',
+      [ChainId.LIGHTLINK]: '0x7EbeF2A4b1B09381Ec5B9dF8C5c6f2dBECA59c73',
       [ChainId.BASE]: '0x4200000000000000000000000000000000000006',
     },
     decimals: {
@@ -303,10 +302,12 @@ const tokens: Record<string, Token> = {
       [ChainId.ARBITRUM]: 18,
       [ChainId.MAINNET]: 18,
       [ChainId.LINEA]: 18,
+      [ChainId.LIGHTLINK]: 18,
       [ChainId.BASE]: 18,
     },
     liquidityDex: {
       [ChainId.LINEA]: LiquidityDex.Lynex,
+      [ChainId.LIGHTLINK]: LiquidityDex.Elektrik,
       [ChainId.BASE]: LiquidityDex.Aerodrome,
     },
     active: true,
@@ -372,6 +373,7 @@ const tokens: Record<string, Token> = {
       [ChainId.ARBITRUM]: '0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8',
       [ChainId.MAINNET]: '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48',
       [ChainId.LINEA]: '0x176211869cA2b568f2A7D4EE941E073a821EE1ff', // this is USDC.e
+      [ChainId.LIGHTLINK]: '0x18fB38404DADeE1727Be4b805c5b242B5413Fa40', // this is USDC.e
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -380,9 +382,11 @@ const tokens: Record<string, Token> = {
       [ChainId.ARBITRUM]: 6,
       [ChainId.MAINNET]: 6,
       [ChainId.LINEA]: 6,
+      [ChainId.LIGHTLINK]: 6,
     },
     liquidityDex: {
       [ChainId.LINEA]: LiquidityDex.Nile,
+      [ChainId.LIGHTLINK]: LiquidityDex.Elektrik,
     },
     active: true,
   },
@@ -1220,7 +1224,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: 9,
     },
     liquidityDex: {
-      [ChainId.MATIC]: LiquidityDex.External,
+      [ChainId.MATIC]: LiquidityDex.SushiSwapV3,
     },
     active: true,
   },
@@ -1254,6 +1258,7 @@ const tokens: Record<string, Token> = {
       [ChainId.INEVM]: '0x97423A68BAe94b5De52d767a17aBCc54c157c0E5',
       [ChainId.BSC_TESTNET]: '0x337610d27c682E347C9cD60BD4b3b107C9d34dDd',
       [ChainId.LINEA]: '0xA219439258ca9da29E9Cc4cE5596924745e12B93',
+      [ChainId.LIGHTLINK]: '0x6308fa9545126237158778e74AE1b6b89022C5c0',
     },
     decimals: {
       [ChainId.MAINNET]: 6,
@@ -1264,11 +1269,13 @@ const tokens: Record<string, Token> = {
       [ChainId.INEVM]: 6,
       [ChainId.BSC_TESTNET]: 18,
       [ChainId.LINEA]: 6,
+      [ChainId.LIGHTLINK]: 6,
     },
     liquidityDex: {
       [ChainId.INEVM]: LiquidityDex.External,
       [ChainId.MAINNET]: LiquidityDex.UniswapV2,
       [ChainId.LINEA]: LiquidityDex.Nile,
+      [ChainId.LIGHTLINK]: LiquidityDex.Elektrik,
     },
     active: true,
   },
@@ -2875,6 +2882,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  knine: {
+    symbol: 'KNINE',
+    address: {
+      [ChainId.MAINNET]: '0x91fbB2503AC69702061f1AC6885759Fc853e6EaE',
+    },
+    decimals: { [ChainId.MAINNET]: 18 },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
+    },
+    active: true,
+  },
   pumlx: {
     symbol: 'PUMLx',
     address: {
@@ -2923,6 +2941,17 @@ const tokens: Record<string, Token> = {
     symbol: 'TIFI',
     address: {
       [ChainId.BSC]: '0x17E65E6b9B166Fb8e7c59432F0db126711246BC0',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
+  scpt: {
+    symbol: 'SCPT',
+    address: {
+      [ChainId.BSC]: '0x0669538FcdeF9A73CD37938eBa8c79E652BB93AA',
     },
     decimals: { [ChainId.BSC]: 18 },
     liquidityDex: {
@@ -3139,6 +3168,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  retro: {
+    symbol: 'RETRO',
+    address: {
+      [ChainId.BSC]: '0xD6eF2222Cc850fDc7Ee30F2B2D5384e0167700A3',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
   cgg: {
     symbol: 'CGG',
     address: {
@@ -3224,6 +3264,19 @@ const tokens: Record<string, Token> = {
     liquidityDex: {
       [ChainId.INEVM]: LiquidityDex.External,
     },
+  },
+
+  //***** LIGHTLINK TOKENS  *****/
+  ll: {
+    symbol: 'LL',
+    address: {
+      [ChainId.LIGHTLINK]: '0xd9d7123552fA2bEdB2348bB562576D67f6E8e96E',
+    },
+    decimals: { [ChainId.LIGHTLINK]: 18 },
+    liquidityDex: {
+      [ChainId.LIGHTLINK]: LiquidityDex.Elektrik,
+    },
+    active: true,
   },
 
   // Test LPs
@@ -4258,8 +4311,7 @@ const tokens: Record<string, Token> = {
     decimals: { [ChainId.BSC]: 18 },
     active: true,
     lpToken: true,
-    vaultDeployer: '0x05cC3CA6E768a68A7f86b09e3ceE754437bd5f12',
-    router: '0xE7914034D4D39087bFF0Aed442a652F5945E914b',
+    ichiUnderlyingDex: IchiSupportedDex.UniswapV3,
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.Algebra,
     },
@@ -4790,8 +4842,7 @@ const tokens: Record<string, Token> = {
     },
     active: true,
     lpToken: true,
-    router: '0xDB8E25D78483D13781622A40e69a9E39A4b590B6',
-    vaultDeployer: '0x0768a75f616b98ee0937673bd83b7abf142236ea',
+    ichiUnderlyingDex: IchiSupportedDex.Quickswap,
   },
   maticEth_Ichi: {
     symbol: 'MATIC (ETH)',

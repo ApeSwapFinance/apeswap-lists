@@ -1,5 +1,3 @@
-import { ChainId } from '@ape.swap/sdk'
-
 export enum QuoteToken {
   'BNB' = 'BNB',
   'BANANA' = 'BANANA',
@@ -18,11 +16,30 @@ export enum PoolCategory {
   'JUNGLE' = 'Jungle',
 }
 
+export enum ChainId {
+  MAINNET = 1,
+  MATIC = 137,
+  MATIC_TESTNET = 80001,
+  BSC = 56,
+  BSC_TESTNET = 97,
+  TLOS = 40,
+  ARBITRUM = 42161,
+  INEVM_TESTNET = 2424,
+  INEVM = 2525,
+  SEPOLIA = 11155111,
+  LINEA = 59144,
+  LIGHTLINK = 1890,
+  IOTA_TESTNET = 1075,
+  IOTA = 8822,
+  BASE = 8453,
+}
+
 export enum LiquidityDex {
   ApeSwapV2 = 'ApeSwapV2',
   ApeSwapV3 = 'ApeSwapV3',
   PancakeSwapV2 = 'PancakeSwapV2',
   PancakeSwapV3 = 'PancakeSwapV3',
+  SushiSwapV3 = 'SushiSwapV3',
   UniswapV2 = 'UniswapV2',
   ThenaV1 = 'ThenaV1',
   /**
@@ -42,9 +59,40 @@ export enum LiquidityDex {
   Lynex = 'Lynex',
   Metavault = 'Metavault',
 
+  //LightLink
+  Elektrik = 'Elektrik',
+
   //Base
   Synthswap = 'Synthswap',
   Aerodrome = 'Aerodrome',
+}
+
+export enum IchiSupportedDex {
+  Ascent = 'Ascent',
+  Blueprint = 'Blueprint',
+  Cleo = 'Cleo',
+  Equalizer = 'Equalizer',
+  Fenix = 'Fenix',
+  Forge = 'Forge',
+  Henjin = 'Henjin',
+  Kinetix = 'Kinetix',
+  Linehub = 'Linehub',
+  Lynex = 'Lynex',
+  Metavault = 'Metavault',
+  Nile = 'Nile',
+  Pancakeswap = 'PancakeSwap',
+  Quickswap = 'QuickSwap',
+  Ramses = 'Ramses',
+  Retro = 'Retro',
+  SaucerSwap = 'SaucerSwap',
+  SpiritSwap = 'SpiritSwap',
+  Sushiswap = 'SushiSwap',
+  Thena = 'Thena',
+  Thirdfy = 'Thirdfy',
+  UniswapV3 = 'Uniswap V3',
+  Velocore = 'Velocore',
+  XSwap = 'XSwap',
+
 }
 
 export enum ZapVersion {
@@ -83,8 +131,7 @@ export interface Token {
   price?: number
   liquidityDex?: Partial<Record<ChainId, LiquidityDex>> //the dex type where most liquidity/actual lp is
   getLpUrl?: Partial<Record<ChainId, string>> //Needed for ZapVersion.External
-  vaultDeployer?: string // only necessary for Ichi Zap
-  router?: string // only necessary for Ichi Zap
+  ichiUnderlyingDex?: IchiSupportedDex // The dex ichi is wrapping. only necessary for Ichi Zap
 }
 
 // Interfaces used in Vaults

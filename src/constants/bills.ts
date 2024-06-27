@@ -1,22 +1,22 @@
-import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
-import { BillArtCollection, BillsConfig, BillVersion, MigrationVestingTerms } from '../types'
+import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1070
-// Polygon Largest ID: 151
+// BNB Largest ID: 1073
+// Polygon Largest ID: 152
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2006
 // ETH Largest ID: 3014
 // Linea Largest ID: 6005
-// Base Largest ID: 7001
-//Migration Bonds ID: 5007
+// Base Largest ID: 8001
+// Lightlink Largest ID: 7000
+// Migration Bonds ID: 5007
 
 const bills: BillsConfig[] = [
   //
   // BASE
   //
   {
-    index: 7001,
+    index: 8001,
     cmcId: 30096,
     chainId: ChainId.BASE,
     contractAddress: {
@@ -45,9 +45,44 @@ const bills: BillsConfig[] = [
     shortDescription:
       'lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.',
   },
+
+  //LIGHTLINK
+  {
+    index: 7000,
+    cmcId: 22943,
+    chainId: ChainId.LIGHTLINK,
+    contractAddress: {
+      [ChainId.LIGHTLINK]: '0x6c63c511492ED00fe1F8f97299E55534982780B8',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdc,
+    quoteToken: tokens.usdc,
+    lpToken: tokens.usdc,
+    earnToken: tokens.ll,
+    billNnftAddress: {
+      [ChainId.LIGHTLINK]: '0x82CfCd79De447b01730b9ED0Db2ad6Ee5AaAC55f',
+    },
+    inactive: false,
+    projectLink: 'https://lightlink.io/',
+    twitter: 'https://twitter.com/lightlinkchain',
+    audit: 'https://docs.lightlink.io/lightlink-protocol/miscellaneous/security-audits',
+    initTime: { [ChainId.LIGHTLINK]: 1718726904 },
+    initPrice: { [ChainId.LIGHTLINK]: 0.03314013486969532 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Blockchain'],
+    fullDescription:
+      "LightLink is an Ethereum L2 blockchain that lets dApps and enterprises offer users instant, gasless transactions. LightLink's mission is to seamlessly integrate millions into the digital economy through user-focused dApps and enterprise partnerships, making blockchain as intuitive and accessible as Web2, without the complexity of gas fees and protocols. No L1 & L2 blockchains currently offer only gasless transactions, however, LightLink’s Enterprise Mode allows zero-gas fees for users, processing up to 5000 transactions per second compared to Ethereum's 12-15 and preventing congestion and reducing fees to about $0.01 per transaction.",
+    shortDescription:
+      'LightLink is an Ethereum L2 blockchain enabling dApps and enterprises to offer instant, gasless transactions. Their mission is to integrate millions into the digital economy with user-friendly dApps and enterprise partnerships, making blockchain as intuitive and accessible as Web2, without the complexity of gas fees and protocols.',
+  },
+
   //
   // LINEA
-  //
+
   {
     index: 6005,
     cmcId: 9217,
@@ -199,6 +234,101 @@ const bills: BillsConfig[] = [
   // BNB chain
   //
   {
+    index: 1073,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x7FBF39380E35C9A2D72f695540607150503a19D6',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.retro,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://retrocraft.io/',
+    twitter: 'https://x.com/RetroCraftio',
+    audit:
+      'https://github.com/CFG-NINJA/audits/blob/fa0790e36c10a901ff3f0ac8558fbdc9afdabafc/20231124_CFGNINJA_RetroCraft_Retro_Audit.pdf',
+    initTime: { [ChainId.BSC]: 1719413043 },
+    initPrice: { [ChainId.BSC]: 0.001336953784856991 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['GAMEFI'],
+    shortDescription:
+      'RetroCraft is a unique game combining classic nostalgia with modern blockchain technology build on a Minecraft server. The project is developed by a team of veteran indie gamers, with experiences working for major game studios. This team has recreated many pioneering retro titles and brought them on blockchain.',
+    fullDescription:
+      'RetroCraft is a unique game that merges classic nostalgia with modern blockchain technology, built on a Minecraft server. Developed by a team of veteran indie gamers with experience in major game studios, the project brings pioneering retro titles to the blockchain. In RetroCraft, players can engage in iconic classic minigames such as Super Mario, Tank 1990, Bomberman, and Pac-Man, all recreated with meticulous pixel-perfect detail. Additionally, the game offers a survival mode, a crafting system, charming voxel graphics, and many other exciting activities. A standout feature of the game is its unique Play to Earn mechanism, allowing players to earn real tokens ($RETRO) by playing games and completing quests. There is also a bustling NFT marketplace where players can trade rare items for profit. With its blend of retro charm and real earning opportunities, RetroCraft is set to be the most anticipated game of the year for all gamers.',
+  },
+  {
+    index: 1072,
+    cmcId: 17444,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x0626765F2933883d30dC92430786E6a1146C73D6',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.froyo,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://froyo.games/',
+    twitter: 'https://twitter.com/realfroyogames',
+    initTime: { [ChainId.BSC]: 1715730467 },
+    initPrice: { [ChainId.BSC]: 0.000379098550137839 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['GAMEFI'],
+    shortDescription:
+      "Froyo Games is a web3 GameFi platform that connects brands and gamers to a metaverse of opportunities for playing and earning in exciting and innovative ways. Get to know $FROYO, the platform's utility token. Their token can be earned from playing games, be spent at the Froyo Marketplace, staked for rewards, and swapped for tokens in your favorite games.",
+    fullDescription:
+      "Froyo Games is a web3 GameFi platform that connects brands and gamers to a metaverse of opportunities for playing and earning in exciting and innovative ways. Get to know $FROYO, the platform's utility token. Their token can be earned from playing games, be spent at the Froyo Marketplace, staked for rewards, and swapped for tokens in your favorite games. With a network of over 600 game development talents worldwide, covering 350+ game titles with over 360 million downloads, Froyo Games enables the integration of blockchain technologies into an accessible ecosystem. This ecosystem is open to any game developers who want to build on Ethereum and Binance Smart Chain, granting them access to the Froyo user base and tools when they launch their games on Froyo Games.",
+  },
+  {
+    index: 1071,
+    cmcId: 12621,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0xa9e7236A428A1D3604b51cB01270B94884F6AA23',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.wbnb,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.wbnb,
+    earnToken: tokens.scpt,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://token.script.tv/',
+    twitter: 'https://x.com/script_network',
+    audit: 'https://skynet.certik.com/projects/script-network?utm_source=CMC&utm_campaign=AuditByCertiKLink',
+    initTime: { [ChainId.BSC]: 1717085021 },
+    initPrice: { [ChainId.BSC]: 0.000398917904465581 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Infra'],
+    shortDescription:
+      'Script Network is an open-source Web3 live TV platform, protocol, and video storage network focused on delivering a unique, industry-defining experience using blockchain technology.',
+    fullDescription:
+      'Script Network (aka Script.TV) is an open-source Web3 live TV platform, protocol, and video storage network focused on delivering a unique, industry-defining experience using blockchain technology. Say goodbye to passive viewing: Script Network pioneers a new era of interactive TV platforms that enable users to connect and engage with fellow viewers in real-time. From participating in content clubs to seizing investment opportunities through NFTs, Script Network empowers users to shape their viewing experience while earning rewards. As a layer-one video protocol that seeks to revolutionize video streaming and create new opportunities for content creators, Script Network houses a range of products, including Script TV, Script Marketplace, Script Enterprise, Script Blockchain, and sADs.',
+  },
+  {
     index: 1070,
     cmcId: 22205,
     chainId: ChainId.BSC,
@@ -220,7 +350,7 @@ const bills: BillsConfig[] = [
     audit: 'https://skynet.certik.com/projects/getkicks?utm_source=CMC&utm_campaign=AuditByCertiKLink',
     initTime: { [ChainId.BSC]: 1717085021 },
     initPrice: { [ChainId.BSC]: 0.000398917904465581 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -4844,6 +4974,39 @@ const bills: BillsConfig[] = [
     Polygon Bills
   */
   {
+    index: 152,
+    cmcId: 24103,
+    chainId: ChainId.MATIC,
+    contractAddress: {
+      [ChainId.MATIC]: '0x16EC49AaD5591124A18068F4929844C724E3546c',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.wmatic,
+    quoteToken: tokens.wmatic,
+    lpToken: tokens.wmatic,
+    earnToken: tokens.thx,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://thx.network/',
+    twitter: 'https://twitter.com/thxprotocol',
+    audit: 'https://docs.thx.network/developers/audits',
+    initTime: { [ChainId.MATIC]: 1700485200 },
+    initPrice: { [ChainId.MATIC]: 0.002404165611 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+    shortDescription:
+      "THX Network offers a quest and reward solution for growth leaders, integrating into any platform in under 30 minutes. Partnered with industry leaders like Gala Games, it features a vote-escrowed tokenomics model based on Balancer technology. Earn 'veTHX' by locking $THX, granting membership benefits and liquidity rewards.",
+    fullDescription:
+      'At THX Network, they believe in the universal language of gratitude, best expressed through gaming. The THX quest and reward solution integrates into any platform in under 30 minutes, democratizing the digital gaming economy. Partnered with industry leaders like Gala Games, their vote-escrowed 80/20 tokenomics model, based on Balancer technology, allows users to lock 80% $THX and 20% USDC to earn ‘veTHX’. Holding ‘veTHX’ grants membership benefits, liquidity rewards, and weekly protocol fee shares. Completing quests earns points for bi-weekly lottery rewards.',
+    tags: ['Marketing Solutions'],
+  },
+  {
     index: 151,
     cmcId: 24521,
     chainId: ChainId.MATIC,
@@ -5023,8 +5186,8 @@ const bills: BillsConfig[] = [
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
     inactive: false,
-    projectLink: 'https://www.projectlambo.io/',
-    twitter: 'https://twitter.com/projectlamboio',
+    projectLink: 'https://sheertopia.io/',
+    twitter: 'https://x.com/sheertopia',
     audit: 'https://github.com/solidproof/projects/tree/main/2024/Sheertopia',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.00254 },
@@ -5032,7 +5195,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
-    bondPartner: 'QuickSwap',
+    // bondPartner: 'QuickSwap',
     shortDescription:
       'Sheertopia is an immersive AI gaming platform that empowers players. This project features a play-to-earn NFT game that blends engaging gameplay with blockchain technology to create a unique, immersive experience. Sheertopia: the 3D gaming world where fun, creativity, and connectivity collide!',
     tags: ['GAMEFI'],

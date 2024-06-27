@@ -1,5 +1,4 @@
-import { ChainId } from '@ape.swap/sdk'
-import { LiquidityDex, Protocols } from '../types'
+import { ChainId, LiquidityDex, Protocols } from '../types'
 
 export const dexFactories: Partial<
   Record<ChainId, Partial<Record<LiquidityDex, { factory: string; protocol: Protocols }>>>
@@ -69,6 +68,10 @@ export const dexFactories: Partial<
       factory: '0x411b0facc3489691f28ad58c47006af5e3ab3a28', //Quickswap
       protocol: Protocols.Algebra,
     },
+    [LiquidityDex.SushiSwapV3]: {
+      factory: '0x917933899c6a5F8E37F31E19f92CdBFF7e8FF0e2',
+      protocol: Protocols.V3,
+    },
   },
   [ChainId.ARBITRUM]: {
     [LiquidityDex.ApeSwapV2]: {
@@ -107,6 +110,12 @@ export const dexFactories: Partial<
     },
     [LiquidityDex.Metavault]: {
       factory: '0x9367c561915f9D062aFE3b57B18e30dEC62b8488',
+      protocol: Protocols.V3,
+    },
+  },
+  [ChainId.LIGHTLINK]: {
+    [LiquidityDex.Elektrik]: {
+      factory: '0xEE6099234bbdC793a43676D98Eb6B589ca7112D7',
       protocol: Protocols.V3,
     },
   },
@@ -157,6 +166,9 @@ export const defaultDexFactories: Partial<Record<ChainId, Partial<Record<Protoco
     [Protocols.Algebra]: dexFactories[ChainId.LINEA]?.Algebra?.factory,
     [Protocols.Solidly]: dexFactories[ChainId.LINEA]?.Lynex?.factory,
     [Protocols.XFAI]: dexFactories[ChainId.LINEA]?.XFAI?.factory,
+  },
+  [ChainId.LIGHTLINK]: {
+    [Protocols.V3]: dexFactories[ChainId.LIGHTLINK]?.Elektrik?.factory,
   },
   [ChainId.BASE]: {
     [Protocols.V2]: dexFactories[ChainId.BASE]?.Synthswap?.factory,

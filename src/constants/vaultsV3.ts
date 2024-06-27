@@ -1,6 +1,5 @@
-import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
-import { VaultConfig, VaultVersion } from '../types'
+import { ChainId, VaultConfig, VaultVersion } from '../types'
 
 const vaults: VaultConfig[] = [
   // SPECIAL V1 AUTO COMPOUND VAULT -> V2 MASTER APE
