@@ -33,6 +33,32 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.Aerodrome,
     },
   },
+  subf: {
+    symbol: 'SUBF',
+    address: {
+      [ChainId.BASE]: '0xFAA4F3bcFc87D791E9305951275e0f62a98BCb10',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV3,
+    },
+  },
+  tkn: {
+    symbol: 'TKN',
+    address: {
+      [ChainId.BASE]: '0x78b3C724A2F663D11373C4a1978689271895256f',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.Aerodrome,
+    },
+  },
   ichi: {
     symbol: 'ICHI',
     address: {
