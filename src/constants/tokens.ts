@@ -400,6 +400,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MAINNET]: '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48',
       [ChainId.LINEA]: '0x176211869cA2b568f2A7D4EE941E073a821EE1ff', // this is USDC.e
       [ChainId.LIGHTLINK]: '0x18fB38404DADeE1727Be4b805c5b242B5413Fa40', // this is USDC.e
+      [ChainId.BASE]: '0x833589fcd6edb6e08f4c7c32d4f71b54bda02913',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -409,6 +410,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MAINNET]: 6,
       [ChainId.LINEA]: 6,
       [ChainId.LIGHTLINK]: 6,
+      [ChainId.BASE]: 6,
     },
     liquidityDex: {
       [ChainId.LINEA]: LiquidityDex.Nile,
@@ -1261,12 +1263,14 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: '0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063',
       [ChainId.MAINNET]: '0x6B175474E89094C44Da98b954EedeAC495271d0F',
       [ChainId.LINEA]: '0x4AF15ec2A0BD43Db75dd04E62FAA3B8EF36b00d5',
+      [ChainId.BASE]: '0x50c5725949a6f0c72e6c4a641f24049a917db0cb',
     },
     decimals: {
       [ChainId.BSC]: 18,
       [ChainId.MATIC]: 18,
       [ChainId.MAINNET]: 18,
       [ChainId.LINEA]: 18,
+      [ChainId.BASE]: 18,
     },
     liquidityDex: {
       [ChainId.MAINNET]: LiquidityDex.UniswapV3,
