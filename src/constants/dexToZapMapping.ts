@@ -36,5 +36,7 @@ export const dexToZapMapping: Record<LiquidityDex, Partial<Record<ChainId, ZapVe
   [LiquidityDex.Elektrik]: {},
   [LiquidityDex.SushiSwapV3]: {},
   [LiquidityDex.Synthswap]: {},
-  [LiquidityDex.Aerodrome]: {},
+  [LiquidityDex.Aerodrome]: {
+    [ChainId.BASE]: ZapVersion.SoulZapApi,
+  },
 }
