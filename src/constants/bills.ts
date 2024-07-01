@@ -27,7 +27,7 @@ const bills: BillsConfig[] = [
     token: tokens.eth,
     quoteToken: tokens.eth,
     lpToken: tokens.eth,
-    earnToken: tokens.eth,
+    earnToken: tokens.tkn,
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
