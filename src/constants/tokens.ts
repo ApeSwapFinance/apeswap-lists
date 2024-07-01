@@ -5112,7 +5112,7 @@ const tokens: Record<string, Token> = {
   sophEth_Aedrome: {
     symbol: 'SOPH-WETH',
     address: {
-      [ChainId.BASE]: '0x52692cC6637c985817D3C14bc99ad898565d14fF',
+      [ChainId.BASE]: '0x1306B112CD7e2DeFa1CdB163DDA3B0D1c186E6bB',
     },
     decimals: {
       [ChainId.BASE]: 18,
