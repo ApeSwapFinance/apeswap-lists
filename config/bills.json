@@ -1,5 +1,108 @@
 [
   {
+    "index": 8002,
+    "cmcId": 27486,
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0xdF0c409381659f08d10D19066Bd6b442A142527a"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "1890": "0x7EbeF2A4b1B09381Ec5B9dF8C5c6f2dBECA59c73",
+        "8453": "0x4200000000000000000000000000000000000006",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+        "59144": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "1890": 18,
+        "8453": 18,
+        "42161": 18,
+        "59144": 18
+      },
+      "liquidityDex": {
+        "1890": "Elektrik",
+        "8453": "Aerodrome",
+        "59144": "Lynex"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "SOPH",
+      "address": {
+        "8453": "0x73fBD93bFDa83B111DdC092aa3a4ca77fD30d380"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "8453": "Aerodrome"
+      }
+    },
+    "lpToken": {
+      "symbol": "SOPH-WETH",
+      "address": {
+        "8453": "0x1306B112CD7e2DeFa1CdB163DDA3B0D1c186E6bB"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "liquidityDex": {
+        "8453": "Aerodrome"
+      },
+      "active": true,
+      "lpToken": true,
+      "getLpUrl": {
+        "8453": "https://aerodrome.finance/deposit?token0=0x4200000000000000000000000000000000000006&token1=0x73fBD93bFDa83B111DdC092aa3a4ca77fD30d380&type=-1"
+      }
+    },
+    "earnToken": {
+      "symbol": "SOPH",
+      "address": {
+        "8453": "0x73fBD93bFDa83B111DdC092aa3a4ca77fD30d380"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "8453": "Aerodrome"
+      }
+    },
+    "billNnftAddress": {
+      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "inactive": false,
+    "projectLink": "https://www.sophiaverse.ai/",
+    "twitter": "https://twitter.com/sophiaverse_ai",
+    "initTime": {
+      "8453": 1716217474
+    },
+    "initPrice": {
+      "8453": 0.005450086440702347
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["DEX"],
+    "shortDescription": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
+    "fullDescription": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi."
+  },
+  {
     "index": 8001,
     "cmcId": 30096,
     "chainId": 8453,

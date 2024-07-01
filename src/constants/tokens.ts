@@ -59,6 +59,19 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.Aerodrome,
     },
   },
+  soph: {
+    symbol: 'SOPH',
+    address: {
+      [ChainId.BASE]: '0x73fBD93bFDa83B111DdC092aa3a4ca77fD30d380',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.Aerodrome,
+    },
+  },
   ichi: {
     symbol: 'ICHI',
     address: {
@@ -5098,6 +5111,24 @@ const tokens: Record<string, Token> = {
     lpToken: true,
     getLpUrl: {
       [ChainId.MAINNET]: 'https://app.uniswap.org/add/v2/ETH/0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1',
+    },
+  },
+  sophEth_Aedrome: {
+    symbol: 'SOPH-WETH',
+    address: {
+      [ChainId.BASE]: '0x1306B112CD7e2DeFa1CdB163DDA3B0D1c186E6bB',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.Aerodrome,
+    },
+    active: true,
+    lpToken: true,
+    getLpUrl: {
+      [ChainId.BASE]:
+        'https://aerodrome.finance/deposit?token0=0x4200000000000000000000000000000000000006&token1=0x73fBD93bFDa83B111DdC092aa3a4ca77fD30d380&type=-1',
     },
   },
 }
