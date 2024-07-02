@@ -1,6 +1,6 @@
 {
   "name": "@ape.swap/apeswap-lists",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "publishConfig": {
@@ -47,7 +47,8 @@
     "ts-jest": "^28.0.7",
     "tsdx": "^0.14.1",
     "tslib": "^2.4.0",
-    "typescript": "^4.7.4"
+    "typescript": "^4.7.4",
+    "yalc": "^1.0.0-pre.53"
   },
   "description": "## How to Manage this Repo",
   "bugs": {

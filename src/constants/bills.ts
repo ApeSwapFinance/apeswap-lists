@@ -7,11 +7,168 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingT
 // Arbitrum Largest ID: 2006
 // ETH Largest ID: 3014
 // Linea Largest ID: 6005
+// Base Largest ID: 8004
 // Lightlink Largest ID: 7000
 // Migration Bonds ID: 5007
 
 const bills: BillsConfig[] = [
-  // //LIGHTLINK
+  //
+  // BASE
+  //
+  // {
+  //   index: 8004,
+  //   chainId: ChainId.BASE,
+  //   contractAddress: {
+  //     [ChainId.BASE]: '0x5bAc2497E4E79bF2993Bcf363c50B1e018961d22',
+  //   },
+  //   billType: 'liquidity',
+  //   billVersion: BillVersion.V2,
+  //   token: tokens.usdc,
+  //   quoteToken: tokens.mafia,
+  //   lpToken: tokens.mafiaUsdc_UNI,
+  //   earnToken: tokens.mafia,
+  //   billNnftAddress: {
+  //     [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+  //   },
+  //   inactive: false,
+  //   projectLink: 'https://www.basemafia.com/',
+  //   twitter: 'https://x.com/mafia_on_base',
+  //   initTime: { [ChainId.BASE]: 1716217474 },
+  //   initPrice: { [ChainId.BASE]: 0.005450086440702347 },
+  //   soldOut: false,
+  //   billArt: {
+  //     collection: BillArtCollection.ApeBond_Collection1,
+  //   },
+  //   tags: ['Meme'],
+  //   shortDescription:
+  //     "Base Mafia pioneers the cryptocurrency world, fostering innovation, empowering communities, and reshaping finance's future. The MAFIA token, central to the ecosystem, drives engagement, facilitates transactions, and rewards contributors, embodying their mission to revolutionize the blockchain space on Base. Base Mafia envisions a decentralized, collaborative, and innovative ecosystem offering financial freedom and community-driven prosperity, revolutionizing the meme coin space with creativity and positive change.",
+  //   fullDescription:
+  //     'Base Mafia is a pioneer in the cryptocurrency world, dedicated to fostering innovation, empowering communities, and reshaping the future of finance within the Base ecosystem. The MAFIA token, central to this ecosystem, provides value, utility, and security, driving engagement, facilitating transactions, and rewarding contributors. Base Mafia envisions a decentralized ecosystem where collaboration, innovation, and empowerment thrive, offering financial freedom and community-driven prosperity globally. By revolutionizing the meme coin space, Base Mafia aims to build a vibrant, inclusive ecosystem that empowers individuals, fosters creativity, and drives positive change. Their mission includes fostering collaboration among meme coin projects on the Base chain, providing tools, resources, and support to creators and enthusiasts, promoting transparency, inclusivity, and innovation, and paving the way for a more equitable, decentralized, and prosperous future for all.',
+  // },
+  {
+    index: 8003,
+    cmcId: 24203,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0xce4E7801BEef296d2Fe057b49796bf93b8D41058',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.eth,
+    quoteToken: tokens.eth,
+    lpToken: tokens.eth,
+    earnToken: tokens.sdex,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://smardex.io/home',
+    twitter: 'https://x.com/SmarDex',
+    initTime: { [ChainId.BASE]: 1716217474 },
+    initPrice: { [ChainId.BASE]: 0.005450086440702347 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DEX'],
+    shortDescription:
+      'SmarDex is a pioneering DeFi platform for liquidity providers and traders, offering a sophisticated algorithm that turns impermanent loss into impermanent gain. Users can start trading via the app, enjoying smart returns and top market opportunities. This next-gen platform delivers lower fees, better profits, and full decentralization, providing reliable ROIs and unmatched value. Join SmarDex today to experience the future of DeFi with better profits and a fully decentralized system.',
+    fullDescription:
+      "SmarDex is a pioneering DeFi platform that is leading innovation for liquidity providers and traders who want to stay ahead of the game. By launching the app, users can immediately start trading and benefit from SmarDex's sophisticated, fine-tuned algorithm, which uniquely transforms impermanent loss into impermanent gain. Addressing one of the most persistent issues in DeFi, SmarDex allows liquidity providers to earn smart returns while offering users access to the best opportunities in the market. This groundbreaking technology is revolutionizing the DeFi space, delivering lower fees, better profits, and full decentralization. SmarDex stands out as the true next-generation DeFi platform, providing reliable ROIs and delivering real value through unmatched innovations. For liquidity providers, it offers a unique and effective solution to impermanent loss, a feat no other platform has successfully achieved until now. As an innovative, reputable, and dynamic platform, SmarDex invites users to join today and experience the future of DeFi with better profits and a fully decentralized system. Welcome to the next generation of DeFi with SmarDex.",
+  },
+  {
+    index: 8002,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x4839b9d5aD46bb744239A3Af03DcA5Ad52EE2E84',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.eth,
+    quoteToken: tokens.eth,
+    lpToken: tokens.eth,
+    earnToken: tokens.tkn,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://tkn.xyz/',
+    twitter: 'https://twitter.com/TokenDao_',
+    initTime: { [ChainId.BASE]: 1716217474 },
+    initPrice: { [ChainId.BASE]: 0.005450086440702347 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Infra', 'Database'],
+    shortDescription:
+      'TokenDAO helps define a shared token data type and create a dataset with vital information about each token. This data can be integrated and used permissionlessly by wallets, web apps, smart contracts, and token communities. Unique Tickers assigned by TokenDAO promote natural ownership. TKN, the governance token, allows holders to override data via on-chain votes and lets curators stake TKN to validate metadata, earning yields for accuracy. This ensures a reliable, community-driven token dataset.',
+    fullDescription:
+      'TokenDAO is a platform that helps define a shared token data type and facilitates the creation of a shared dataset containing vital information about each token. This token data, stored in TokenDAO, can be integrated in a permissionless manner and used across wallets, web apps, smart contracts, and token communities, which can directly control updates, set transparent update processes, and define data validity durations. TokenDAO assigns unique, memorable Tickers to each token community, promoting natural ownership and eliminating issues like subscription fees and domain renewals. TKN, the governance token, allows $TKN holders to override data via on-chain votes and lets curators stake $TKN to validate token metadata, earning yields for accuracy and facing slashing for inaccuracies. This system ensures a reliable, community-driven token dataset.',
+  },
+  {
+    index: 8001,
+    cmcId: 30273,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x4306778DC0FbeF6551cd3C9DbaCE87D6F0338D28',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.eth,
+    quoteToken: tokens.eth,
+    lpToken: tokens.eth,
+    earnToken: tokens.subf,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://www.superbestfriends.xyz/',
+    twitter: 'https://twitter.com/superbestcoin',
+    initTime: { [ChainId.BASE]: 1716217474 },
+    initPrice: { [ChainId.BASE]: 0.005450086440702347 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Meme'],
+    shortDescription:
+      'Super Best Friends ($SUBF) is a creative memecoin project and animation studio producing engaging crypto cartoons about web3 happenings. Led by two veteran creative experts, this next-generation, meme-powered studio brings a fresh perspective to web3. Rejecting traditional labels, Super Best Friends blends the roles of memecoin and content house, creating viral, humorous content. Their unique style offers creative services and an entertaining community experience. Join their community, share their work, and explore their token for a fun journey in web3.',
+    fullDescription:
+      'Super Best Friends ($SUBF) is a dynamic memecoin project and animation studio that produces engaging and viral crypto cartoons about everything happening in the web3 space. Led by two veteran creative experts, this next-generation meme-powered studio brings a fresh and unique perspective to web3 by seamlessly blending the roles of memecoin and content house. Known for their distinctive, unpolished style and quick-to-resonate humor, Super Best Friends create content that stands out and spreads rapidly, often going viral quicker than you can say, "Epstein didn\'t kill himself." They offer a wide range of creative services and foster an entertaining and inclusive community experience, encouraging members to join the fun, share their work, and explore the $SUBF token. Rejecting traditional labels, Super Best Friends are committed to fostering innovation, creativity, and a vibrant community in the ever-evolving world of web3. Whether you\'re here for their cutting-edge content or simply looking for a good time, Super Best Friends provide a unique blend of humor and creativity that appeals to all.',
+  },
+  {
+    index: 8000,
+    cmcId: 27486,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x54c42988DA2c5A93Fa6F458dc33458aEfC4EB0F9',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.eth,
+    quoteToken: tokens.soph,
+    lpToken: tokens.sophEth_Aedrome,
+    earnToken: tokens.soph,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://www.sophiaverse.ai/',
+    twitter: 'https://twitter.com/sophiaverse_ai',
+    initTime: { [ChainId.BASE]: 1716217474 },
+    initPrice: { [ChainId.BASE]: 0.005450086440702347 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription:
+      "SophiaVerse is a metaverse platform advancing Artificial General Intelligence (AGI) through the humanoid robot Sophia by Hanson Robotics Ltd. Over two years, it has navigated the dynamic Web3 space, focusing on blockchain and AI. Aiming for a benevolent Singularity, SophiaVerse champions free AI development and an AI Human Hive Mind. The SOPH token anchors the economy, enriches player experiences, supports creators, and stimulates engagement, shaping SophiaVerse's digital ecosystem.",
+    fullDescription:
+      "SophiaVerse is a cutting-edge metaverse platform dedicated to advancing Artificial General Intelligence (AGI) through the humanoid robot Sophia, developed by Hanson Robotics Ltd. Over two years, it has navigated the dynamic Web3 space, marked by fluctuations in crypto exchanges, stablecoins, NFTs, and altcoins, while focusing on blockchain and AI progress. Central to SophiaVerse is the goal of making Sophia sentient, preparing humanity for a benevolent Singularity where machines can think and learn independently. Influenced by OpenAI’s ChatGPT, SophiaVerse champions free AI development and introduces an AI Human Hive Mind, a swarm intelligence model forming Sophia's brain, ensuring mutual benefits for AIs and humans. The SOPH token is integral to the SophiaVerse economy, enabling in-game purchases and facilitating various transactions within SAIL, enhancing the gaming experience. SOPH seamlessly integrates into the virtual universe, driving the economy, enriching player experiences, supporting creators, and stimulating discovery and engagement, making it a cornerstone of SophiaVerse's evolving digital ecosystem.",
+  },
+  //LIGHTLINK
   {
     index: 7000,
     cmcId: 22943,
@@ -45,6 +202,7 @@ const bills: BillsConfig[] = [
       'LightLink is an Ethereum L2 blockchain enabling dApps and enterprises to offer instant, gasless transactions. Their mission is to integrate millions into the digital economy with user-friendly dApps and enterprise partnerships, making blockchain as intuitive and accessible as Web2, without the complexity of gas fees and protocols.',
   },
 
+  //
   // LINEA
 
   {

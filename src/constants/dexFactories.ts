@@ -119,6 +119,32 @@ export const dexFactories: Partial<
       protocol: Protocols.V3,
     },
   },
+  [ChainId.BASE]: {
+    [LiquidityDex.Synthswap]: {
+      factory: '0x4bd16d59A5E1E0DB903F724aa9d721a31d7D720D',
+      protocol: Protocols.V2,
+    },
+    [LiquidityDex.Algebra]: {
+      factory: '0xa37359E63D1aa44C0ACb2a4605D3B45785C97eE3', // Synthswap
+      protocol: Protocols.Algebra,
+    },
+    [LiquidityDex.UniswapV3]: {
+      factory: '0x33128a8fC17869897dcE68Ed026d694621f6FDfD',
+      protocol: Protocols.V3,
+    },
+    [LiquidityDex.Aerodrome]: {
+      factory: '0x420DD381b31aEf6683db6B902084cB0FFECe40Da',
+      protocol: Protocols.Solidly,
+    },
+    [LiquidityDex.SmarDex]: {
+      factory: '0xdd4536dD9636564D891c919416880a3e250f975A',
+      protocol: Protocols.V2, //SmarDex is not actually a V2. Way of calculating price is similar though
+    },
+    [LiquidityDex.UniswapV2]: {
+      factory: '0x8909Dc15e40173Ff4699343b6eB8132c65e18eC6',
+      protocol: Protocols.V2,
+    },
+  },
 }
 
 export const defaultDexFactories: Partial<Record<ChainId, Partial<Record<Protocols, string>>>> = {
@@ -151,5 +177,11 @@ export const defaultDexFactories: Partial<Record<ChainId, Partial<Record<Protoco
   },
   [ChainId.LIGHTLINK]: {
     [Protocols.V3]: dexFactories[ChainId.LIGHTLINK]?.Elektrik?.factory,
+  },
+  [ChainId.BASE]: {
+    [Protocols.V2]: dexFactories[ChainId.BASE]?.SmarDex?.factory,
+    [Protocols.V3]: dexFactories[ChainId.BASE]?.UniswapV3?.factory,
+    [Protocols.Algebra]: dexFactories[ChainId.BASE]?.Algebra?.factory,
+    [Protocols.Solidly]: dexFactories[ChainId.BASE]?.Aerodrome?.factory,
   },
 }

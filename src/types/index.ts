@@ -61,6 +61,11 @@ export enum LiquidityDex {
 
   //LightLink
   Elektrik = 'Elektrik',
+
+  //Base
+  Synthswap = 'Synthswap',
+  Aerodrome = 'Aerodrome',
+  SmarDex = 'SmarDex',
 }
 
 export enum IchiSupportedDex {
@@ -102,7 +107,7 @@ export enum Protocols {
   Both = 1,
   V2 = 2,
   V3 = 3,
-  Algebra = 4,
+  Algebra = 4, // Ichi? (no, it depends what underlying LP I think)
   Gamma = 5,
   Steer = 6,
   Solidly = 7,
@@ -124,7 +129,7 @@ export interface Token {
   dontFetch?: boolean
   lpToken?: boolean
   price?: number
-  liquidityDex?: Partial<Record<ChainId, LiquidityDex>> //the dex type where most liquidity/actual lp is
+  liquidityDex?: Partial<Record<ChainId, LiquidityDex>> // the dex type where most liquidity/actual lp is
   getLpUrl?: Partial<Record<ChainId, string>> //Needed for ZapVersion.External
   ichiUnderlyingDex?: IchiSupportedDex // The dex ichi is wrapping. only necessary for Ichi Zap
 }

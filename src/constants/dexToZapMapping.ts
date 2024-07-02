@@ -25,7 +25,9 @@ export const dexToZapMapping: Record<LiquidityDex, Partial<Record<ChainId, ZapVe
   [LiquidityDex.ApeSwapV3]: {},
   [LiquidityDex.UniswapV3]: {},
   [LiquidityDex.ThenaV1]: {},
-  [LiquidityDex.UniswapV2]: {},
+  [LiquidityDex.UniswapV2]: {
+    [ChainId.BASE]: ZapVersion.External,
+  },
   [LiquidityDex.PancakeSwapV3]: {},
   [LiquidityDex.External]: {},
   [LiquidityDex.Spartadex]: {},
@@ -35,4 +37,9 @@ export const dexToZapMapping: Record<LiquidityDex, Partial<Record<ChainId, ZapVe
   [LiquidityDex.Metavault]: {},
   [LiquidityDex.Elektrik]: {},
   [LiquidityDex.SushiSwapV3]: {},
+  [LiquidityDex.Synthswap]: {},
+  [LiquidityDex.Aerodrome]: {
+    [ChainId.BASE]: ZapVersion.SoulZapApi,
+  },
+  [LiquidityDex.SmarDex]: {},
 }

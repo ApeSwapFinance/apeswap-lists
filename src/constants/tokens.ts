@@ -20,6 +20,71 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  degen: {
+    symbol: 'DEGEN',
+    address: {
+      [ChainId.BASE]: '0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.Aerodrome,
+    },
+  },
+  subf: {
+    symbol: 'SUBF',
+    address: {
+      [ChainId.BASE]: '0xFAA4F3bcFc87D791E9305951275e0f62a98BCb10',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV3,
+    },
+  },
+  mafia: {
+    symbol: 'MAFIA',
+    address: {
+      [ChainId.BASE]: '0x3f8D935512f74b7C71A2C2395a06af5f87BC9276',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV2,
+    },
+  },
+  tkn: {
+    symbol: 'TKN',
+    address: {
+      [ChainId.BASE]: '0x78b3C724A2F663D11373C4a1978689271895256f',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.Aerodrome,
+    },
+  },
+  soph: {
+    symbol: 'SOPH',
+    address: {
+      [ChainId.BASE]: '0x73fBD93bFDa83B111DdC092aa3a4ca77fD30d380',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.Aerodrome,
+    },
+  },
   ichi: {
     symbol: 'ICHI',
     address: {
@@ -279,6 +344,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MAINNET]: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
       [ChainId.LINEA]: '0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f',
       [ChainId.LIGHTLINK]: '0x7EbeF2A4b1B09381Ec5B9dF8C5c6f2dBECA59c73',
+      [ChainId.BASE]: '0x4200000000000000000000000000000000000006',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -289,10 +355,12 @@ const tokens: Record<string, Token> = {
       [ChainId.MAINNET]: 18,
       [ChainId.LINEA]: 18,
       [ChainId.LIGHTLINK]: 18,
+      [ChainId.BASE]: 18,
     },
     liquidityDex: {
       [ChainId.LINEA]: LiquidityDex.Lynex,
       [ChainId.LIGHTLINK]: LiquidityDex.Elektrik,
+      [ChainId.BASE]: LiquidityDex.Aerodrome,
     },
     active: true,
   },
@@ -358,6 +426,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MAINNET]: '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48',
       [ChainId.LINEA]: '0x176211869cA2b568f2A7D4EE941E073a821EE1ff', // this is USDC.e
       [ChainId.LIGHTLINK]: '0x18fB38404DADeE1727Be4b805c5b242B5413Fa40', // this is USDC.e
+      [ChainId.BASE]: '0x833589fcd6edb6e08f4c7c32d4f71b54bda02913',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -367,6 +436,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MAINNET]: 6,
       [ChainId.LINEA]: 6,
       [ChainId.LIGHTLINK]: 6,
+      [ChainId.BASE]: 6,
     },
     liquidityDex: {
       [ChainId.LINEA]: LiquidityDex.Nile,
@@ -1219,12 +1289,14 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: '0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063',
       [ChainId.MAINNET]: '0x6B175474E89094C44Da98b954EedeAC495271d0F',
       [ChainId.LINEA]: '0x4AF15ec2A0BD43Db75dd04E62FAA3B8EF36b00d5',
+      [ChainId.BASE]: '0x50c5725949a6f0c72e6c4a641f24049a917db0cb',
     },
     decimals: {
       [ChainId.BSC]: 18,
       [ChainId.MATIC]: 18,
       [ChainId.MAINNET]: 18,
       [ChainId.LINEA]: 18,
+      [ChainId.BASE]: 18,
     },
     liquidityDex: {
       [ChainId.MAINNET]: LiquidityDex.UniswapV3,
@@ -3134,10 +3206,12 @@ const tokens: Record<string, Token> = {
     symbol: 'SDEX',
     address: {
       [ChainId.BSC]: '0xFdc66A08B0d0Dc44c17bbd471B88f49F50CdD20F',
+      [ChainId.BASE]: '0xFd4330b0312fdEEC6d4225075b82E00493FF2e3f',
     },
-    decimals: { [ChainId.BSC]: 18 },
+    decimals: { [ChainId.BSC]: 18, [ChainId.BASE]: 18 },
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+      [ChainId.BASE]: LiquidityDex.SmarDex,
     },
     active: true,
   },
@@ -5052,6 +5126,42 @@ const tokens: Record<string, Token> = {
     lpToken: true,
     getLpUrl: {
       [ChainId.MAINNET]: 'https://app.uniswap.org/add/v2/ETH/0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1',
+    },
+  },
+  sophEth_Aedrome: {
+    symbol: 'SOPH-WETH',
+    address: {
+      [ChainId.BASE]: '0x1306B112CD7e2DeFa1CdB163DDA3B0D1c186E6bB',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.Aerodrome,
+    },
+    active: true,
+    lpToken: true,
+    getLpUrl: {
+      [ChainId.BASE]:
+        'https://aerodrome.finance/deposit?token0=0x4200000000000000000000000000000000000006&token1=0x73fBD93bFDa83B111DdC092aa3a4ca77fD30d380&type=-1',
+    },
+  },
+  mafiaUsdc_UNI: {
+    symbol: 'MAFIA-USDC',
+    address: {
+      [ChainId.BASE]: '0x84BF3f50081A17ea4090cE7fC697819ca3Bd53dD',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV2,
+    },
+    active: true,
+    lpToken: true,
+    getLpUrl: {
+      [ChainId.BASE]:
+        'https://app.uniswap.org/add/v2/0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913/0x3f8D935512f74b7C71A2C2395a06af5f87BC9276?chain=base',
     },
   },
 }
