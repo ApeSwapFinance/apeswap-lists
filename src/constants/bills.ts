@@ -20,7 +20,7 @@ const bills: BillsConfig[] = [
     cmcId: 24203,
     chainId: ChainId.BASE,
     contractAddress: {
-      [ChainId.BASE]: '0x2E2e654D5DcB74fc2F7c9405971234Dd844B04da',
+      [ChainId.BASE]: '0xce4E7801BEef296d2Fe057b49796bf93b8D41058',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
@@ -50,7 +50,7 @@ const bills: BillsConfig[] = [
     index: 8002,
     chainId: ChainId.BASE,
     contractAddress: {
-      [ChainId.BASE]: '0x35CE7Df8163FeF0033d3e937eb1fb6cCEb5aedAa',
+      [ChainId.BASE]: '0x4839b9d5aD46bb744239A3Af03DcA5Ad52EE2E84',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
@@ -81,7 +81,7 @@ const bills: BillsConfig[] = [
     cmcId: 30273,
     chainId: ChainId.BASE,
     contractAddress: {
-      [ChainId.BASE]: '0xaec5e35F1E8f53fCDF190f33b8ce65a2cF958f57',
+      [ChainId.BASE]: '0x4306778DC0FbeF6551cd3C9DbaCE87D6F0338D28',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
@@ -112,7 +112,7 @@ const bills: BillsConfig[] = [
     cmcId: 27486,
     chainId: ChainId.BASE,
     contractAddress: {
-      [ChainId.BASE]: '0xdF0c409381659f08d10D19066Bd6b442A142527a',
+      [ChainId.BASE]: '0x54c42988DA2c5A93Fa6F458dc33458aEfC4EB0F9',
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
