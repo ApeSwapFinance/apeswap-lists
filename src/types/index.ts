@@ -65,6 +65,7 @@ export enum LiquidityDex {
   //Base
   Synthswap = 'Synthswap',
   Aerodrome = 'Aerodrome',
+  SmarDex = 'SmarDex',
 }
 
 export enum IchiSupportedDex {
@@ -106,7 +107,7 @@ export enum Protocols {
   Both = 1,
   V2 = 2,
   V3 = 3,
-  Algebra = 4, // Ichi?
+  Algebra = 4, // Ichi? (no, it depends what underlying LP I think)
   Gamma = 5,
   Steer = 6,
   Solidly = 7,

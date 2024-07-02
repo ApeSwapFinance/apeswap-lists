@@ -39,4 +39,5 @@ export const dexToZapMapping: Record<LiquidityDex, Partial<Record<ChainId, ZapVe
   [LiquidityDex.Aerodrome]: {
     [ChainId.BASE]: ZapVersion.SoulZapApi,
   },
+  [LiquidityDex.SmarDex]: {},
 }

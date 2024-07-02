@@ -136,6 +136,10 @@ export const dexFactories: Partial<
       factory: '0x420DD381b31aEf6683db6B902084cB0FFECe40Da',
       protocol: Protocols.Solidly,
     },
+    [LiquidityDex.SmarDex]: {
+      factory: '0xdd4536dD9636564D891c919416880a3e250f975A',
+      protocol: Protocols.V2, //SmarDex is not actually a V2. Way of calculating price is similar though
+    },
   },
 }
 
@@ -171,7 +175,7 @@ export const defaultDexFactories: Partial<Record<ChainId, Partial<Record<Protoco
     [Protocols.V3]: dexFactories[ChainId.LIGHTLINK]?.Elektrik?.factory,
   },
   [ChainId.BASE]: {
-    [Protocols.V2]: dexFactories[ChainId.BASE]?.Synthswap?.factory,
+    [Protocols.V2]: dexFactories[ChainId.BASE]?.SmarDex?.factory,
     [Protocols.V3]: dexFactories[ChainId.BASE]?.UniswapV3?.factory,
     [Protocols.Algebra]: dexFactories[ChainId.BASE]?.Algebra?.factory,
     [Protocols.Solidly]: dexFactories[ChainId.BASE]?.Aerodrome?.factory,
