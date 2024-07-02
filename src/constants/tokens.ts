@@ -46,6 +46,19 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.UniswapV3,
     },
   },
+  mafia: {
+    symbol: 'MAFIA',
+    address: {
+      [ChainId.BASE]: '0x3f8D935512f74b7C71A2C2395a06af5f87BC9276',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV2,
+    },
+  },
   tkn: {
     symbol: 'TKN',
     address: {

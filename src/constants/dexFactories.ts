@@ -140,6 +140,10 @@ export const dexFactories: Partial<
       factory: '0xdd4536dD9636564D891c919416880a3e250f975A',
       protocol: Protocols.V2, //SmarDex is not actually a V2. Way of calculating price is similar though
     },
+    [LiquidityDex.UniswapV2]: {
+      factory: '0x8909Dc15e40173Ff4699343b6eB8132c65e18eC6',
+      protocol: Protocols.V2,
+    },
   },
 }
 
