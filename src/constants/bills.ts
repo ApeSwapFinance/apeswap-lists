@@ -14,37 +14,37 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingT
 const bills: BillsConfig[] = [
   //
   // BASE
-  //
-  // {
-  //   index: 8004,
-  //   chainId: ChainId.BASE,
-  //   contractAddress: {
-  //     [ChainId.BASE]: '0x5bAc2497E4E79bF2993Bcf363c50B1e018961d22',
-  //   },
-  //   billType: 'liquidity',
-  //   billVersion: BillVersion.V2,
-  //   token: tokens.usdc,
-  //   quoteToken: tokens.mafia,
-  //   lpToken: tokens.mafiaUsdc_UNI,
-  //   earnToken: tokens.mafia,
-  //   billNnftAddress: {
-  //     [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
-  //   },
-  //   inactive: false,
-  //   projectLink: 'https://www.basemafia.com/',
-  //   twitter: 'https://x.com/mafia_on_base',
-  //   initTime: { [ChainId.BASE]: 1716217474 },
-  //   initPrice: { [ChainId.BASE]: 0.005450086440702347 },
-  //   soldOut: false,
-  //   billArt: {
-  //     collection: BillArtCollection.ApeBond_Collection1,
-  //   },
-  //   tags: ['Meme'],
-  //   shortDescription:
-  //     "Base Mafia pioneers the cryptocurrency world, fostering innovation, empowering communities, and reshaping finance's future. The MAFIA token, central to the ecosystem, drives engagement, facilitates transactions, and rewards contributors, embodying their mission to revolutionize the blockchain space on Base. Base Mafia envisions a decentralized, collaborative, and innovative ecosystem offering financial freedom and community-driven prosperity, revolutionizing the meme coin space with creativity and positive change.",
-  //   fullDescription:
-  //     'Base Mafia is a pioneer in the cryptocurrency world, dedicated to fostering innovation, empowering communities, and reshaping the future of finance within the Base ecosystem. The MAFIA token, central to this ecosystem, provides value, utility, and security, driving engagement, facilitating transactions, and rewarding contributors. Base Mafia envisions a decentralized ecosystem where collaboration, innovation, and empowerment thrive, offering financial freedom and community-driven prosperity globally. By revolutionizing the meme coin space, Base Mafia aims to build a vibrant, inclusive ecosystem that empowers individuals, fosters creativity, and drives positive change. Their mission includes fostering collaboration among meme coin projects on the Base chain, providing tools, resources, and support to creators and enthusiasts, promoting transparency, inclusivity, and innovation, and paving the way for a more equitable, decentralized, and prosperous future for all.',
-  // },
+
+  {
+    index: 8004,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0xe0Ac91263D71f3Ae320088469e0Be1f65D006786',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.usdc,
+    quoteToken: tokens.mafia,
+    lpToken: tokens.mafiaUsdc_UNI,
+    earnToken: tokens.mafia,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://www.basemafia.com/',
+    twitter: 'https://x.com/mafia_on_base',
+    initTime: { [ChainId.BASE]: 1716217474 },
+    initPrice: { [ChainId.BASE]: 0.005450086440702347 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Meme'],
+    shortDescription:
+      "Base Mafia pioneers the cryptocurrency world, fostering innovation, empowering communities, and reshaping finance's future. The MAFIA token, central to the ecosystem, drives engagement, facilitates transactions, and rewards contributors, embodying their mission to revolutionize the blockchain space on Base. Base Mafia envisions a decentralized, collaborative, and innovative ecosystem offering financial freedom and community-driven prosperity, revolutionizing the meme coin space with creativity and positive change.",
+    fullDescription:
+      'Base Mafia is a pioneer in the cryptocurrency world, dedicated to fostering innovation, empowering communities, and reshaping the future of finance within the Base ecosystem. The MAFIA token, central to this ecosystem, provides value, utility, and security, driving engagement, facilitating transactions, and rewarding contributors. Base Mafia envisions a decentralized ecosystem where collaboration, innovation, and empowerment thrive, offering financial freedom and community-driven prosperity globally. By revolutionizing the meme coin space, Base Mafia aims to build a vibrant, inclusive ecosystem that empowers individuals, fosters creativity, and drives positive change. Their mission includes fostering collaboration among meme coin projects on the Base chain, providing tools, resources, and support to creators and enthusiasts, promoting transparency, inclusivity, and innovation, and paving the way for a more equitable, decentralized, and prosperous future for all.',
+  },
   {
     index: 8003,
     cmcId: 24203,
