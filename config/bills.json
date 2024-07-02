@@ -1,7 +1,144 @@
 [
   {
-    "index": 8004,
-    "cmcId": 30273,
+    "index": 8003,
+    "cmcId": 24203,
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0x2E2e654D5DcB74fc2F7c9405971234Dd844B04da"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "1890": "0x7EbeF2A4b1B09381Ec5B9dF8C5c6f2dBECA59c73",
+        "8453": "0x4200000000000000000000000000000000000006",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+        "59144": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "1890": 18,
+        "8453": 18,
+        "42161": 18,
+        "59144": 18
+      },
+      "liquidityDex": {
+        "1890": "Elektrik",
+        "8453": "Aerodrome",
+        "59144": "Lynex"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "1890": "0x7EbeF2A4b1B09381Ec5B9dF8C5c6f2dBECA59c73",
+        "8453": "0x4200000000000000000000000000000000000006",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+        "59144": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "1890": 18,
+        "8453": 18,
+        "42161": 18,
+        "59144": 18
+      },
+      "liquidityDex": {
+        "1890": "Elektrik",
+        "8453": "Aerodrome",
+        "59144": "Lynex"
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "1890": "0x7EbeF2A4b1B09381Ec5B9dF8C5c6f2dBECA59c73",
+        "8453": "0x4200000000000000000000000000000000000006",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+        "59144": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "1890": 18,
+        "8453": 18,
+        "42161": 18,
+        "59144": 18
+      },
+      "liquidityDex": {
+        "1890": "Elektrik",
+        "8453": "Aerodrome",
+        "59144": "Lynex"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "SDEX",
+      "address": {
+        "56": "0xFdc66A08B0d0Dc44c17bbd471B88f49F50CdD20F",
+        "8453": "0xFd4330b0312fdEEC6d4225075b82E00493FF2e3f"
+      },
+      "decimals": {
+        "56": 18,
+        "8453": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2",
+        "8453": "SmarDex"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "inactive": false,
+    "projectLink": "https://smardex.io/home",
+    "twitter": "https://x.com/SmarDex",
+    "initTime": {
+      "8453": 1716217474
+    },
+    "initPrice": {
+      "8453": 0.005450086440702347
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["DEX"],
+    "shortDescription": "SmarDex is a pioneering DeFi platform for liquidity providers and traders, offering a sophisticated algorithm that turns impermanent loss into impermanent gain. Users can start trading via the app, enjoying smart returns and top market opportunities. This next-gen platform delivers lower fees, better profits, and full decentralization, providing reliable ROIs and unmatched value. Join SmarDex today to experience the future of DeFi with better profits and a fully decentralized system.",
+    "fullDescription": "SmarDex is a pioneering DeFi platform that is leading innovation for liquidity providers and traders who want to stay ahead of the game. By launching the app, users can immediately start trading and benefit from SmarDex's sophisticated, fine-tuned algorithm, which uniquely transforms impermanent loss into impermanent gain. Addressing one of the most persistent issues in DeFi, SmarDex allows liquidity providers to earn smart returns while offering users access to the best opportunities in the market. This groundbreaking technology is revolutionizing the DeFi space, delivering lower fees, better profits, and full decentralization. SmarDex stands out as the true next-generation DeFi platform, providing reliable ROIs and delivering real value through unmatched innovations. For liquidity providers, it offers a unique and effective solution to impermanent loss, a feat no other platform has successfully achieved until now. As an innovative, reputable, and dynamic platform, SmarDex invites users to join today and experience the future of DeFi with better profits and a fully decentralized system. Welcome to the next generation of DeFi with SmarDex."
+  },
+  {
+    "index": 8002,
     "chainId": 8453,
     "contractAddress": {
       "8453": "0x35CE7Df8163FeF0033d3e937eb1fb6cCEb5aedAa"
@@ -131,11 +268,11 @@
       "collection": "ApeBond_Collection1"
     },
     "tags": ["Infra", "Database"],
-    "shortDescription": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
-    "fullDescription": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi."
+    "shortDescription": "TokenDAO helps define a shared token data type and create a dataset with vital information about each token. This data can be integrated and used permissionlessly by wallets, web apps, smart contracts, and token communities. Unique Tickers assigned by TokenDAO promote natural ownership. TKN, the governance token, allows holders to override data via on-chain votes and lets curators stake TKN to validate metadata, earning yields for accuracy. This ensures a reliable, community-driven token dataset.",
+    "fullDescription": "TokenDAO is a platform that helps define a shared token data type and facilitates the creation of a shared dataset containing vital information about each token. This token data, stored in TokenDAO, can be integrated in a permissionless manner and used across wallets, web apps, smart contracts, and token communities, which can directly control updates, set transparent update processes, and define data validity durations. TokenDAO assigns unique, memorable Tickers to each token community, promoting natural ownership and eliminating issues like subscription fees and domain renewals. TKN, the governance token, allows $TKN holders to override data via on-chain votes and lets curators stake $TKN to validate token metadata, earning yields for accuracy and facing slashing for inaccuracies. This system ensures a reliable, community-driven token dataset."
   },
   {
-    "index": 8003,
+    "index": 8001,
     "cmcId": 30273,
     "chainId": 8453,
     "contractAddress": {
@@ -266,11 +403,11 @@
       "collection": "ApeBond_Collection1"
     },
     "tags": ["Meme"],
-    "shortDescription": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
-    "fullDescription": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi."
+    "shortDescription": "Super Best Friends ($SUBF) is a creative memecoin project and animation studio producing engaging crypto cartoons about web3 happenings. Led by two veteran creative experts, this next-generation, meme-powered studio brings a fresh perspective to web3. Rejecting traditional labels, Super Best Friends blends the roles of memecoin and content house, creating viral, humorous content. Their unique style offers creative services and an entertaining community experience. Join their community, share their work, and explore their token for a fun journey in web3.",
+    "fullDescription": "Super Best Friends ($SUBF) is a dynamic memecoin project and animation studio that produces engaging and viral crypto cartoons about everything happening in the web3 space. Led by two veteran creative experts, this next-generation meme-powered studio brings a fresh and unique perspective to web3 by seamlessly blending the roles of memecoin and content house. Known for their distinctive, unpolished style and quick-to-resonate humor, Super Best Friends create content that stands out and spreads rapidly, often going viral quicker than you can say, \"Epstein didn't kill himself.\" They offer a wide range of creative services and foster an entertaining and inclusive community experience, encouraging members to join the fun, share their work, and explore the $SUBF token. Rejecting traditional labels, Super Best Friends are committed to fostering innovation, creativity, and a vibrant community in the ever-evolving world of web3. Whether you're here for their cutting-edge content or simply looking for a good time, Super Best Friends provide a unique blend of humor and creativity that appeals to all."
   },
   {
-    "index": 8002,
+    "index": 8000,
     "cmcId": 27486,
     "chainId": 8453,
     "contractAddress": {
@@ -369,143 +506,8 @@
       "collection": "ApeBond_Collection1"
     },
     "tags": ["AI"],
-    "shortDescription": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
-    "fullDescription": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi."
-  },
-  {
-    "index": 8001,
-    "cmcId": 30096,
-    "chainId": 8453,
-    "contractAddress": {
-      "8453": "0xf5fbC62cD5FE469456055b63C6F3B1f0AEA08772"
-    },
-    "billType": "reserve",
-    "billVersion": "V2",
-    "token": {
-      "symbol": "ETH",
-      "address": {
-        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
-        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
-        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
-        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-        "1890": "0x7EbeF2A4b1B09381Ec5B9dF8C5c6f2dBECA59c73",
-        "8453": "0x4200000000000000000000000000000000000006",
-        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
-        "59144": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f"
-      },
-      "decimals": {
-        "1": 18,
-        "40": 18,
-        "56": 18,
-        "97": 18,
-        "137": 18,
-        "1890": 18,
-        "8453": 18,
-        "42161": 18,
-        "59144": 18
-      },
-      "liquidityDex": {
-        "1890": "Elektrik",
-        "8453": "Aerodrome",
-        "59144": "Lynex"
-      },
-      "active": true
-    },
-    "quoteToken": {
-      "symbol": "ETH",
-      "address": {
-        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
-        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
-        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
-        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-        "1890": "0x7EbeF2A4b1B09381Ec5B9dF8C5c6f2dBECA59c73",
-        "8453": "0x4200000000000000000000000000000000000006",
-        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
-        "59144": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f"
-      },
-      "decimals": {
-        "1": 18,
-        "40": 18,
-        "56": 18,
-        "97": 18,
-        "137": 18,
-        "1890": 18,
-        "8453": 18,
-        "42161": 18,
-        "59144": 18
-      },
-      "liquidityDex": {
-        "1890": "Elektrik",
-        "8453": "Aerodrome",
-        "59144": "Lynex"
-      },
-      "active": true
-    },
-    "lpToken": {
-      "symbol": "ETH",
-      "address": {
-        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
-        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
-        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
-        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-        "1890": "0x7EbeF2A4b1B09381Ec5B9dF8C5c6f2dBECA59c73",
-        "8453": "0x4200000000000000000000000000000000000006",
-        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
-        "59144": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f"
-      },
-      "decimals": {
-        "1": 18,
-        "40": 18,
-        "56": 18,
-        "97": 18,
-        "137": 18,
-        "1890": 18,
-        "8453": 18,
-        "42161": 18,
-        "59144": 18
-      },
-      "liquidityDex": {
-        "1890": "Elektrik",
-        "8453": "Aerodrome",
-        "59144": "Lynex"
-      },
-      "active": true
-    },
-    "earnToken": {
-      "symbol": "DEGEN",
-      "address": {
-        "8453": "0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed"
-      },
-      "decimals": {
-        "8453": 18
-      },
-      "active": true,
-      "liquidityDex": {
-        "8453": "Aerodrome"
-      }
-    },
-    "billNnftAddress": {
-      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
-    },
-    "inactive": false,
-    "projectLink": "https://www.degen.tips/",
-    "twitter": "https://x.com/degentokenbase",
-    "audit": "https://www.degen.tips/tokenomics",
-    "initTime": {
-      "8453": 1716217474
-    },
-    "initPrice": {
-      "8453": 0.005450086440702347
-    },
-    "soldOut": false,
-    "billArt": {
-      "collection": "ApeBond_Collection1"
-    },
-    "tags": ["DEX"],
-    "shortDescription": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi."
+    "shortDescription": "SophiaVerse is a metaverse platform advancing Artificial General Intelligence (AGI) through the humanoid robot Sophia by Hanson Robotics Ltd. Over two years, it has navigated the dynamic Web3 space, focusing on blockchain and AI. Aiming for a benevolent Singularity, SophiaVerse champions free AI development and an AI Human Hive Mind. The SOPH token anchors the economy, enriches player experiences, supports creators, and stimulates engagement, shaping SophiaVerse's digital ecosystem.",
+    "fullDescription": "SophiaVerse is a cutting-edge metaverse platform dedicated to advancing Artificial General Intelligence (AGI) through the humanoid robot Sophia, developed by Hanson Robotics Ltd. Over two years, it has navigated the dynamic Web3 space, marked by fluctuations in crypto exchanges, stablecoins, NFTs, and altcoins, while focusing on blockchain and AI progress. Central to SophiaVerse is the goal of making Sophia sentient, preparing humanity for a benevolent Singularity where machines can think and learn independently. Influenced by OpenAI’s ChatGPT, SophiaVerse champions free AI development and introduces an AI Human Hive Mind, a swarm intelligence model forming Sophia's brain, ensuring mutual benefits for AIs and humans. The SOPH token is integral to the SophiaVerse economy, enabling in-game purchases and facilitating various transactions within SAIL, enhancing the gaming experience. SOPH seamlessly integrates into the virtual universe, driving the economy, enriching player experiences, supporting creators, and stimulating discovery and engagement, making it a cornerstone of SophiaVerse's evolving digital ecosystem."
   },
   {
     "index": 7000,
