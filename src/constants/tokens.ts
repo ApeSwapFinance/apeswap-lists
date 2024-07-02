@@ -5146,6 +5146,24 @@ const tokens: Record<string, Token> = {
         'https://aerodrome.finance/deposit?token0=0x4200000000000000000000000000000000000006&token1=0x73fBD93bFDa83B111DdC092aa3a4ca77fD30d380&type=-1',
     },
   },
+  mafiaUsdc_UNI: {
+    symbol: 'MAFIA-USDC',
+    address: {
+      [ChainId.BASE]: '0x84BF3f50081A17ea4090cE7fC697819ca3Bd53dD',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV2,
+    },
+    active: true,
+    lpToken: true,
+    getLpUrl: {
+      [ChainId.BASE]:
+        'https://app.uniswap.org/add/v2/0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913/0x3f8D935512f74b7C71A2C2395a06af5f87BC9276?chain=base',
+    },
+  },
 }
 
 export default tokens
