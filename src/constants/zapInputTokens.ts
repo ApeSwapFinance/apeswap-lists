@@ -40,6 +40,11 @@ const zapInputTokens: Partial<Record<ChainId, Record<string, Token>>> = {
     dai: tokens.dai,
     matic: tokens.wmatic,
   },
+  [ChainId.BASE]: {
+    eth: tokens.eth,
+    dai: tokens.dai,
+    usdc: tokens.usdc,
+  },
 }
 
 export default zapInputTokens
