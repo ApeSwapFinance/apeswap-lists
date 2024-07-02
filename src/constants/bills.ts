@@ -7,7 +7,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingT
 // Arbitrum Largest ID: 2006
 // ETH Largest ID: 3014
 // Linea Largest ID: 6005
-// Base Largest ID: 8003
+// Base Largest ID: 8004
 // Lightlink Largest ID: 7000
 // Migration Bonds ID: 5007
 
@@ -17,7 +17,6 @@ const bills: BillsConfig[] = [
   //
   {
     index: 8004,
-    cmcId: 24203,
     chainId: ChainId.BASE,
     contractAddress: {
       [ChainId.BASE]: '0x5bAc2497E4E79bF2993Bcf363c50B1e018961d22',
@@ -32,19 +31,19 @@ const bills: BillsConfig[] = [
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
     inactive: false,
-    projectLink: 'https://smardex.io/home',
-    twitter: 'https://x.com/SmarDex',
+    projectLink: 'https://www.basemafia.com/',
+    twitter: 'https://x.com/mafia_on_base',
     initTime: { [ChainId.BASE]: 1716217474 },
     initPrice: { [ChainId.BASE]: 0.005450086440702347 },
     soldOut: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    tags: ['DEX'],
+    tags: ['Meme'],
     shortDescription:
-      'SmarDex is a pioneering DeFi platform for liquidity providers and traders, offering a sophisticated algorithm that turns impermanent loss into impermanent gain. Users can start trading via the app, enjoying smart returns and top market opportunities. This next-gen platform delivers lower fees, better profits, and full decentralization, providing reliable ROIs and unmatched value. Join SmarDex today to experience the future of DeFi with better profits and a fully decentralized system.',
+      "Base Mafia pioneers the cryptocurrency world, fostering innovation, empowering communities, and reshaping finance's future. The MAFIA token, central to the ecosystem, drives engagement, facilitates transactions, and rewards contributors, embodying their mission to revolutionize the blockchain space on Base. Base Mafia envisions a decentralized, collaborative, and innovative ecosystem offering financial freedom and community-driven prosperity, revolutionizing the meme coin space with creativity and positive change.",
     fullDescription:
-      "SmarDex is a pioneering DeFi platform that is leading innovation for liquidity providers and traders who want to stay ahead of the game. By launching the app, users can immediately start trading and benefit from SmarDex's sophisticated, fine-tuned algorithm, which uniquely transforms impermanent loss into impermanent gain. Addressing one of the most persistent issues in DeFi, SmarDex allows liquidity providers to earn smart returns while offering users access to the best opportunities in the market. This groundbreaking technology is revolutionizing the DeFi space, delivering lower fees, better profits, and full decentralization. SmarDex stands out as the true next-generation DeFi platform, providing reliable ROIs and delivering real value through unmatched innovations. For liquidity providers, it offers a unique and effective solution to impermanent loss, a feat no other platform has successfully achieved until now. As an innovative, reputable, and dynamic platform, SmarDex invites users to join today and experience the future of DeFi with better profits and a fully decentralized system. Welcome to the next generation of DeFi with SmarDex.",
+      'Base Mafia is a pioneer in the cryptocurrency world, dedicated to fostering innovation, empowering communities, and reshaping the future of finance within the Base ecosystem. The MAFIA token, central to this ecosystem, provides value, utility, and security, driving engagement, facilitating transactions, and rewarding contributors. Base Mafia envisions a decentralized ecosystem where collaboration, innovation, and empowerment thrive, offering financial freedom and community-driven prosperity globally. By revolutionizing the meme coin space, Base Mafia aims to build a vibrant, inclusive ecosystem that empowers individuals, fosters creativity, and drives positive change. Their mission includes fostering collaboration among meme coin projects on the Base chain, providing tools, resources, and support to creators and enthusiasts, promoting transparency, inclusivity, and innovation, and paving the way for a more equitable, decentralized, and prosperous future for all.',
   },
   {
     index: 8003,
