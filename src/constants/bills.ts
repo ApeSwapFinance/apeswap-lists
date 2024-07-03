@@ -39,7 +39,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    tags: ['Meme'],
+    tags: ['Meme', 'Community'],
     shortDescription:
       "Base Mafia pioneers the cryptocurrency world, fostering innovation, empowering communities, and reshaping finance's future. The MAFIA token, central to the ecosystem, drives engagement, facilitates transactions, and rewards contributors, embodying their mission to revolutionize the blockchain space on Base. Base Mafia envisions a decentralized, collaborative, and innovative ecosystem offering financial freedom and community-driven prosperity, revolutionizing the meme coin space with creativity and positive change.",
     fullDescription:
