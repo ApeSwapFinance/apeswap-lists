@@ -5,7 +5,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingT
 // Polygon Largest ID: 152
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2006
-// ETH Largest ID: 3014
+// ETH Largest ID: 3015
 // Linea Largest ID: 6005
 // Base Largest ID: 8004
 // Lightlink Largest ID: 7000
@@ -7578,6 +7578,38 @@ const bills: BillsConfig[] = [
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
     ],
+  },
+  {
+    index: 3015,
+    cmcId: 29665,
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0x354f89AD3d986d407D7B5E0Edf98f6A1Ab2c0990',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    token: tokens.eth,
+    quoteToken: tokens.eth,
+    lpToken: tokens.eth,
+    earnToken: tokens.knine,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    inactive: false,
+    projectLink: 'http://k9finance.com',
+    twitter: 'https://x.com/K9finance',
+    audit: 'https://www.cyberscope.io/audits/coin-k9-finance',
+    initTime: { [ChainId.MAINNET]: 1720015269 },
+    initPrice: { [ChainId.MAINNET]: 0.0334978015237449 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    shortDescription:
+      'K9 Finance is a liquid staking derivative (LSD) platform on Shibarium, providing core DeFi solutions. As an official Shibarium validator, it rewards $KNINE holders with $BONE from block validation. Governed by the K9 DAO, the Roundtable of Dogs, it manages the treasury, votes on roadmap items, and supports DeFi growth on Shibarium. While focused on Shibarium, K9 Finance can expand to other chains, combining loyalty and liquidity to drive DeFi innovation.',
+    fullDescription:
+      'K9 Finance is a liquid staking derivative (LSD) platform for the Shibarium blockchain, establishing the cornerstones of real DeFi in the Shibarium ecosystem. As an official Shibarium validator, K9 Finance rewards $KNINE token holders with $BONE earned from block validation. The platform is governed by the K9 DAO, named the Roundtable of Dogs, which manages the K9 treasury, votes on new roadmap items, and pioneers true DeFi adoption on Shibarium. While Shibarium remains the primary focus, K9 Finance has the potential to expand its liquid staking infrastructure to other chains through DAO governance. Built on Shibarium, a Layer 2 blockchain for Shiba Inu, K9 Finance combines loyalty and liquidity, positioning the $KNINE token as both a financial protector and a driver of DeFi innovation.',
+    tags: ['DeFi'],
   },
 ]
 
