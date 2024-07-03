@@ -3059,6 +3059,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  sqr: {
+    symbol: 'SQR',
+    address: {
+      [ChainId.BSC]: '0x2B72867c32CF673F7b02d208B26889fEd353B1f8',
+    },
+    decimals: { [ChainId.BSC]: 8 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+    },
+    active: true,
+  },
   mfps: {
     symbol: 'MFPS',
     address: {
