@@ -1,7 +1,7 @@
 import { ChainId, LiquidityDex, Protocols } from '../types'
 
 export const dexFactories: Partial<
-  Record<ChainId, Partial<Record<LiquidityDex, { factory: string; protocol: Protocols }>>>
+  Record<ChainId, Partial<Record<LiquidityDex, { factory: string; router?: string; protocol: Protocols }>>>
 > = {
   [ChainId.MAINNET]: {
     [LiquidityDex.ApeSwapV2]: {
@@ -134,6 +134,7 @@ export const dexFactories: Partial<
     },
     [LiquidityDex.Aerodrome]: {
       factory: '0x420DD381b31aEf6683db6B902084cB0FFECe40Da',
+      router: '0xcF77a3Ba9A5CA399B7c97c74d54e5b1Beb874E43',
       protocol: Protocols.Solidly,
     },
     [LiquidityDex.SmarDex]: {
@@ -142,6 +143,7 @@ export const dexFactories: Partial<
     },
     [LiquidityDex.UniswapV2]: {
       factory: '0x8909Dc15e40173Ff4699343b6eB8132c65e18eC6',
+      router: '0x4752ba5dbc23f44d87826276bf6fd6b1c372ad24',
       protocol: Protocols.V2,
     },
   },
