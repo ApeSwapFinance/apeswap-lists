@@ -1,10 +1,10 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1073
+// BNB Largest ID: 1075
 // Polygon Largest ID: 152
 // Telos Largest ID: 215
-// Arbitrum Largest ID: 2006
+// Arbitrum Largest ID: 2007
 // ETH Largest ID: 3015
 // Linea Largest ID: 6005
 // Base Largest ID: 8004
@@ -195,7 +195,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    tags: ['Blockchain'],
+    tags: ['Blockchains'],
     fullDescription:
       "LightLink is an Ethereum L2 blockchain that lets dApps and enterprises offer users instant, gasless transactions. LightLink's mission is to seamlessly integrate millions into the digital economy through user-focused dApps and enterprise partnerships, making blockchain as intuitive and accessible as Web2, without the complexity of gas fees and protocols. No L1 & L2 blockchains currently offer only gasless transactions, however, LightLink’s Enterprise Mode allows zero-gas fees for users, processing up to 5000 transactions per second compared to Ethereum's 12-15 and preventing congestion and reducing fees to about $0.01 per transaction.",
     shortDescription:
@@ -355,6 +355,70 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1075,
+    cmcId: 16882,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x25e5B52696ae6a92E30815FD2d803124Ca46aff2',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.sqr,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://magicsquare.io/',
+    twitter: 'https://x.com/MagicSquareio',
+    audit: 'https://skynet.certik.com/projects/magic-square',
+    initTime: { [ChainId.BSC]: 1719413043 },
+    initPrice: { [ChainId.BSC]: 0.001336953784856991 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Blockchains'],
+    shortDescription:
+      'Magic Square is the ultimate Web3 portal, bridging Web2 and Web3 effortlessly. Its Magic Store provides a seamless, intuitive experience, enabling users to explore decentralized applications, games, and more. With a focus on order, simplicity, and assurance, Magic Square ensures the Web3 ecosystem thrives. The SQR token powers the platform, facilitating governance, user access, app advertisements, and referral rewards, and is tradable on DEX and CEX for other tokens or fiat.',
+    fullDescription:
+      "Magic Square is a comprehensive portal to the world of Web3, designed to bridge the gap between Web2 and Web3 seamlessly. With its intuitive interface, Magic Square enables users to explore and enjoy the diverse possibilities of decentralized applications, games, and experiences effortlessly. The platform offers order, simplicity, and assurance, ensuring the Web3 ecosystem flourishes like a well-tended garden. Powered by the SQR token, Magic Square integrates users, developers, and validators through various utilities, including governance, user access packages, app advertisements, and referral rewards. The SQR token is tradable on DEX and CEX for other tokens or fiat. Magic Square's membership levels, which require locking SQR tokens, offer users numerous benefits, such as daily bonuses, higher earnings, priority on offers, and access to airdrops. Its innovative marketing model provides developers with extensive promotional opportunities through Magic Boost, Hot Offers, and a unique Token-Based RTB Program, fostering a thriving ecosystem of innovation and growth. The Karma system measures user reputation, enhancing trust and rewarding positive involvement. Additionally, the Developer Grants program allows developers to secure funding for attracting new users, further supporting the dynamic Web3 community.",
+  },
+  {
+    index: 1074,
+    cmcId: 30842,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x72cd35055aF92C90A664f0C220c0694D740c08a9',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.rtf,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://rtfight.com/',
+    twitter: 'https://twitter.com/readytofight_io',
+    audit: 'https://skynet.certik.com/projects/ready-to-fight',
+    initTime: { [ChainId.BSC]: 1719413043 },
+    initPrice: { [ChainId.BSC]: 0.001336953784856991 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['GAMEFI'],
+    shortDescription:
+      'Ready to Fight (RTF) platform is a pioneering management solution utilizing Web 3.0 and blockchain technologies, specifically tailored for the boxing and martial arts industries. Its mission is to harness blockchain to democratize the management and operation of sports entities. By incorporating broad fan engagement and crowd wisdom, RTF aims to create a platform that resonates with fans and athletes alike, unlocking immense potential for engagement, innovation, and growth within these industries.',
+    fullDescription:
+      'Ready to Fight (RTF) platform is a pioneering management solution utilizing Web 3.0 and blockchain technologies, specifically tailored for the boxing and martial arts industries. Its mission is to harness the power of blockchain to democratize the management and operation of sports entities. By incorporating broad fan engagement and crowd wisdom, and creating a platform that resonates with fans and athletes alike, it aims to unlock immense potential for engagement, innovation, and growth within these industries. The platform envisions a future for boxing and martial arts where blockchain technology shapes community-driven ecosystems. It invites enthusiasts, early adopters, and visionaries to join this exciting venture. More than a technological breakthrough, the ecosystem is a community and a movement, promising benefits and opportunities for all participants. This platform signifies a revolution, merging the fighting world with the digital era, creating an interconnected, transparent, and accessible industry that is fan-centric and participatory.',
+  },
   {
     index: 1073,
     chainId: ChainId.BSC,
@@ -6957,6 +7021,38 @@ const bills: BillsConfig[] = [
   /*
       Arbitrum Bills - ID started from 2001
   */
+  {
+    index: 2007,
+    cmcId: 21118,
+    chainId: ChainId.ARBITRUM,
+    contractAddress: {
+      [ChainId.ARBITRUM]: '0x11471B6CdBE6F4cd4F5830a8Ef40780d1bdebB6C',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.eno,
+    billNnftAddress: {
+      [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
+    },
+    inactive: false,
+    projectLink: 'https://enotoken.io/',
+    twitter: 'https://twitter.com/Enotoken',
+    audit: 'https://auditrate.tech/images/pdf/EnoToken_0x1C3d163219Bb74f430411b95D66b72056f366eC1.pdf',
+    initTime: { [ChainId.ARBITRUM]: 1715789961 },
+    initPrice: { [ChainId.ARBITRUM]: 0.13219279419877278 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['GAMEFI'],
+    shortDescription:
+      'ENO is a Web3 platform revolutionizing social clubs by fostering decentralized communities with tools like tokens and NFTs. ENO stands for "Decentralized Social Clubs," redefining social interactions by providing infrastructure for blockchain-based clubs. Features include ENO Social Clubs, NFT Badges, Labs, Launchpad, Marketplace, ENOverse, Academy, and the ENO token, facilitating decentralized, transparent, and engaging community building. ENO\'s AI Assistant, Agnes, offers personalized interactions, while the ENO token supports transactions and incentivizes participation.',
+    fullDescription:
+      'ENO is a Web3 platform revolutionizing social clubs by fostering decentralized communities with essential tools like tokens and NFTs. Standing for "Decentralized Social Clubs," ENO redefines social interactions in the digital age, offering the infrastructure needed to launch and manage blockchain-based social clubs. The ENO ecosystem includes ENO Tokens, a comprehensive Platform (Marketplace and Launchpad), NFT Badges, ENOVERSE, and ENO Academy, all designed to support and enhance community building. Agnes, ENO\'s AI Virtual Assistant, offers personalized interactions within the ecosystem, leveraging advanced AI models to create a unique and efficient user experience. The ENO token serves as the backbone of the platform, facilitating transactions, staking, and access to premium features. It incentivizes user participation and utility, enhancing the value and functionality of the ecosystem. By joining the ENO ecosystem, community members and creators become part of a pioneering movement that redefines the way we connect, collaborate, and celebrate our passions, creating a thriving, decentralized social network that empowers individuals and enriches lives.',
+  },
   {
     index: 2006,
     cmcId: 18007,
