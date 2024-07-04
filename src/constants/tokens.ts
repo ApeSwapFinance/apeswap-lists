@@ -2609,6 +2609,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  eno: {
+    symbol: 'ENO',
+    address: {
+      [ChainId.ARBITRUM]: '0x2b41806CBf1FFB3D9e31A9ECE6B738Bf9D6f645F',
+    },
+    decimals: {
+      [ChainId.ARBITRUM]: 18,
+    },
+    liquidityDex: {
+      [ChainId.ARBITRUM]: LiquidityDex.UniswapV3,
+    },
+    active: true,
+  },
   xcur: {
     symbol: 'XCUR',
     address: {
@@ -3065,6 +3078,17 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: '0x2B72867c32CF673F7b02d208B26889fEd353B1f8',
     },
     decimals: { [ChainId.BSC]: 8 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+    },
+    active: true,
+  },
+  rtf: {
+    symbol: 'RTF',
+    address: {
+      [ChainId.BSC]: '0xa89e2871A850E0e6fD8F0018eC1fc62FA75440d4',
+    },
+    decimals: { [ChainId.BSC]: 18 },
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
     },
