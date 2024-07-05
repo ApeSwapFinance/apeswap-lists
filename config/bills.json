@@ -27702,7 +27702,7 @@
     "initPrice": {
       "1": 0.00173967992950712
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ETH_Collection1"
     },
