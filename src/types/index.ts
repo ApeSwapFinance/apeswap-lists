@@ -253,39 +253,39 @@ export enum LaunchBondTiers {
 
 // Start of list types
 export interface BillsConfig {
-  index: number
-  cmcId?: number // CoinMarketCap ID
-  chainId: ChainId
-  contractAddress: Partial<Record<ChainId, string>>
-  billVersion: BillVersion
-  billType: 'liquidity' | 'reserve' | 'launch' | 'migration' | 'cex'
+  index: number // FE
+  cmcId?: number // FE
+  chainId: ChainId // FE
+  contractAddress: Partial<Record<ChainId, string>> // FE
+  billVersion: BillVersion // FE
+  billType: 'liquidity' | 'reserve' | 'launch' | 'migration' | 'cex' // FE
   token: Token
   quoteToken: Token
-  lpToken: Token
-  earnToken: Token
-  billNnftAddress: Partial<Record<ChainId, string>>
-  inactive?: boolean
-  projectLink?: string
-  twitter?: string
+  lpToken: Token // FE
+  earnToken: Token // FE
+  billNnftAddress: Partial<Record<ChainId, string>> // FE
+  inactive?: boolean // FE
+  projectLink?: string // FE
+  twitter?: string // FE
   initTime?: Partial<Record<ChainId, number>>
   initPrice?: Partial<Record<ChainId, number>>
-  audit?: string
-  soldOut?: boolean
+  audit?: string // FE
+  soldOut?: boolean // FE
   billArt?: {
     collection: BillArtCollection // i.e. BillArtCollection.ApeSwap_Collection1
   }
-  showcaseToken?: Token
-  bondPartner?: string // * Used for partners to filter bonds
+  showcaseToken?: Token // Fuck this shit
+  bondPartner?: string // FE
   // * These are used for the individual bond page view
-  shortDescription?: string
-  fullDescription?: string
-  featuredURLS?: string[]
-  partnersURLS?: string[]
-  // * These are used for the bond migration page
-  tags?: string[]
+  shortDescription?: string // FE
+  fullDescription?: string // FE
+  featuredURLS?: string[] // FE
+  partnersURLS?: string[] // FE
+  tags?: string[] // FE
+  onlyPartner?: boolean // FE
   vestingTerm?: number
+  // * This is only used for the bond migration page
   multiplier?: number
-  onlyPartner?: boolean // used to hide bond on ape bond site
 }
 
 export enum VaultVersion {
