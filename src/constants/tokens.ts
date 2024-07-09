@@ -20,6 +20,75 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  alva: {
+    symbol: 'ALVA',
+    address: {
+      [ChainId.MAINNET]: '0x8e729198d1C59B82bd6bBa579310C40d740A11C2',
+    },
+    decimals: {
+      [ChainId.MAINNET]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV3,
+    },
+  },
+  bethustlers: {
+    symbol: 'BETHUSTLERS',
+    address: {
+      [ChainId.BSC]: '0xE2B1f3908588e2338587ED998F974EE6F63f500d',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+  },
+  bethustlersBnb_PCS: {
+    symbol: 'BETHUSTLERS-BNB',
+    address: {
+      [ChainId.BSC]: '0xC49627586057cD1126EDCfb2AF6d65B31bc8395B',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl: {
+      [ChainId.BSC]: 'https://pancakeswap.finance/v2/add/BNB/0xE2B1f3908588e2338587ED998F974EE6F63f500d',
+    },
+  },
+  hbr: {
+    symbol: 'HBR',
+    address: {
+      [ChainId.BSC]: '0x42c95788F791a2be3584446854c8d9BB01BE88A9',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.ThenaV1,
+    },
+  },
+  hbrBnb_Thena: {
+    symbol: 'HBR-BNB',
+    address: {
+      [ChainId.BSC]: '0x5134729Cd5a5b40336BC3CA71349f2c108718428',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.ThenaV1,
+    },
+    getLpUrl: {
+      [ChainId.BSC]: 'https://thena.fi/pools/0x5134729cd5a5b40336bc3ca71349f2c108718428',
+    },
+  },
   degen: {
     symbol: 'DEGEN',
     address: {
