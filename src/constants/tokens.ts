@@ -34,7 +34,7 @@ const tokens: Record<string, Token> = {
     },
   },
   bethustlersBnb_PCS: {
-    symbol: 'HBR-BNB',
+    symbol: 'BETHUSTLERS-BNB',
     address: {
       [ChainId.BSC]: '0xC49627586057cD1126EDCfb2AF6d65B31bc8395B',
     },
