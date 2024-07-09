@@ -20,6 +20,34 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  hbr: {
+    symbol: 'HBR',
+    address: {
+      [ChainId.BSC]: '0x42c95788F791a2be3584446854c8d9BB01BE88A9',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.ThenaV1,
+    },
+  },
+  hbrBnb_Thena: {
+    symbol: 'HBR-BNB',
+    address: {
+      [ChainId.BSC]: '0x5134729Cd5a5b40336BC3CA71349f2c108718428',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.ThenaV1,
+    },
+    getLpUrl: {
+      [ChainId.BSC]: 'https://thena.fi/pools/0x5134729cd5a5b40336bc3ca71349f2c108718428',
+    },
+  },
   degen: {
     symbol: 'DEGEN',
     address: {
