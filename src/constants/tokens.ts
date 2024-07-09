@@ -20,6 +20,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  alva: {
+    symbol: 'ALVA',
+    address: {
+      [ChainId.MAINNET]: '0x8e729198d1C59B82bd6bBa579310C40d740A11C2',
+    },
+    decimals: {
+      [ChainId.MAINNET]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV3,
+    },
+  },
   bethustlers: {
     symbol: 'BETHUSTLERS',
     address: {

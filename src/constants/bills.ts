@@ -7445,7 +7445,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
-    tags: ['Defi'],
+    tags: ['DeFi'],
     fullDescription:
       'Strike Finance allows users to control all of their digital assets on a non-custodial protocol while earning a variable rate based on market demands of that asset. Rates are earned per Ethereum block mined. With a friendly user interface and the Strike protocols decentralized nature, users and developers can access liquidity on-demand from their supplied collateral. Strike Finance: the place for exceptional APYs.',
   },
