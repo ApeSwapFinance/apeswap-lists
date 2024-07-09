@@ -373,7 +373,7 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://www.harbor.market',
     twitter: 'https://x.com/0xHarborMarket',
-    audit: '',
+    audit: 'https://docs.granary.finance/resources/audit',
     initTime: { [ChainId.BSC]: 1720544400 },
     soldOut: false,
     billArt: {
@@ -402,7 +402,7 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://www.harbor.market',
     twitter: 'https://x.com/0xHarborMarket',
-    audit: '',
+    audit: 'https://docs.granary.finance/resources/audit',
     initTime: { [ChainId.BSC]: 1720544400 },
     soldOut: false,
     billArt: {
