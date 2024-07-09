@@ -20,6 +20,34 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  bethustlers: {
+    symbol: 'BETHUSTLERS',
+    address: {
+      [ChainId.BSC]: '0xE2B1f3908588e2338587ED998F974EE6F63f500d',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+  },
+  bethustlersBnb_PCS: {
+    symbol: 'HBR-BNB',
+    address: {
+      [ChainId.BSC]: '0xC49627586057cD1126EDCfb2AF6d65B31bc8395B',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl: {
+      [ChainId.BSC]: 'https://pancakeswap.finance/v2/add/BNB/0xE2B1f3908588e2338587ED998F974EE6F63f500d',
+    },
+  },
   hbr: {
     symbol: 'HBR',
     address: {
