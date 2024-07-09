@@ -29311,5 +29311,138 @@
     "shortDescription": "K9 Finance is a liquid staking derivative (LSD) platform on Shibarium, providing core DeFi solutions. As an official Shibarium validator, it rewards $KNINE holders with $BONE from block validation. Governed by the K9 DAO, the Roundtable of Dogs, it manages the treasury, votes on roadmap items, and supports DeFi growth on Shibarium. While focused on Shibarium, K9 Finance can expand to other chains, combining loyalty and liquidity to drive DeFi innovation.",
     "fullDescription": "K9 Finance is a liquid staking derivative (LSD) platform for the Shibarium blockchain, establishing the cornerstones of real DeFi in the Shibarium ecosystem. As an official Shibarium validator, K9 Finance rewards $KNINE token holders with $BONE earned from block validation. The platform is governed by the K9 DAO, named the Roundtable of Dogs, which manages the K9 treasury, votes on new roadmap items, and pioneers true DeFi adoption on Shibarium. While Shibarium remains the primary focus, K9 Finance has the potential to expand its liquid staking infrastructure to other chains through DAO governance. Built on Shibarium, a Layer 2 blockchain for Shiba Inu, K9 Finance combines loyalty and liquidity, positioning the $KNINE token as both a financial protector and a driver of DeFi innovation.",
     "tags": ["DeFi"]
+  },
+  {
+    "index": 3016,
+    "cmcId": 29693,
+    "chainId": 1,
+    "contractAddress": {
+      "1": "0x990E28bcea636bb2E702A4BBBAE61Cf779B8DABf"
+    },
+    "billType": "reserve",
+    "billVersion": "V3",
+    "token": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "1890": "0x7EbeF2A4b1B09381Ec5B9dF8C5c6f2dBECA59c73",
+        "8453": "0x4200000000000000000000000000000000000006",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+        "59144": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "1890": 18,
+        "8453": 18,
+        "42161": 18,
+        "59144": 18
+      },
+      "liquidityDex": {
+        "1890": "Elektrik",
+        "8453": "Aerodrome",
+        "59144": "Lynex"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "1890": "0x7EbeF2A4b1B09381Ec5B9dF8C5c6f2dBECA59c73",
+        "8453": "0x4200000000000000000000000000000000000006",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+        "59144": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "1890": 18,
+        "8453": 18,
+        "42161": 18,
+        "59144": 18
+      },
+      "liquidityDex": {
+        "1890": "Elektrik",
+        "8453": "Aerodrome",
+        "59144": "Lynex"
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "1890": "0x7EbeF2A4b1B09381Ec5B9dF8C5c6f2dBECA59c73",
+        "8453": "0x4200000000000000000000000000000000000006",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+        "59144": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "1890": 18,
+        "8453": 18,
+        "42161": 18,
+        "59144": 18
+      },
+      "liquidityDex": {
+        "1890": "Elektrik",
+        "8453": "Aerodrome",
+        "59144": "Lynex"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "ALVA",
+      "address": {
+        "1": "0x8e729198d1C59B82bd6bBa579310C40d740A11C2"
+      },
+      "decimals": {
+        "1": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "1": "UniswapV3"
+      }
+    },
+    "billNnftAddress": {
+      "1": "0x499b654b0a7f9979cc315190c09ca2633809b8df"
+    },
+    "inactive": false,
+    "projectLink": "https://www.alvaraprotocol.io",
+    "twitter": "https://twitter.com/AlvaraProtocol",
+    "audit": "https://www.quillaudits.com/leaderboard/alvaraavax-token",
+    "initTime": {
+      "1": 1720558800
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ETH_Collection1"
+    },
+    "shortDescription": "The Alvara Protocol enables the creation and management of decentralized, meritocratic, tokenized investment collectives using the innovative ERC-7621 Basket Token Standard. Alvara’s built-in leaderboard ranks every ERC-7621 minted on-chain. The native token, ALVA, an ERC-20 utility token, supports governance, rewards, and software portals. Committed to transforming conventional procedures and pioneering a new DeFi subsector, Alvara aims to establish ERC-7621 as the gold standard for on-chain basket creation while adhering to decentralization principles.",
+    "fullDescription": "The Alvara Protocol facilitates the deployment of decentralized, meritocratic, tokenized, and on-chain investment collectives, enabling the creation and management of tokenized investment funds. Utilizing the innovative ERC-7621 Basket Token Standard, Alvara’s built-in leaderboard auto-populates and ranks every ERC-7621 minted on-chain. The protocol’s native token, ALVA, is an ERC-20 utility token serving multiple functions within the platform, including access to governance, rewards, and software portals. ALVA is included in each BTS minted at a nominal 5% weighting, creating deflationary pressure on its supply as each additional BTS removes a percentage of ALVA from circulation. The included ALVA is market-bought, increasing buying pressure with every new BTS creation. Alvara empowers individuals and institutions to create, manage, and invest in fully decentralized, merit-based, on-chain baskets. Committed to transforming conventional procedures and pioneering a new DeFi subsector, Alvara aims to establish ERC-7621 as the gold standard for on-chain basket creation while adhering to decentralization principles. The team consists of 10 full-time core members with extensive experience in traditional finance, web3, project management, public accounting, marketing, and legal domains, supported by a highly skilled development team with expertise in full-stack web and blockchain development and graphic design for Fortune 500 companies.",
+    "tags": ["RWA"]
   }
 ]

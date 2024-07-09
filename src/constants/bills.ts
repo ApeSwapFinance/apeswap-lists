@@ -5,7 +5,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingT
 // Polygon Largest ID: 152
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2007
-// ETH Largest ID: 3015
+// ETH Largest ID: 3016
 // Linea Largest ID: 6005
 // Base Largest ID: 8004
 // Lightlink Largest ID: 7000
@@ -7804,6 +7804,37 @@ const bills: BillsConfig[] = [
     fullDescription:
       'K9 Finance is a liquid staking derivative (LSD) platform for the Shibarium blockchain, establishing the cornerstones of real DeFi in the Shibarium ecosystem. As an official Shibarium validator, K9 Finance rewards $KNINE token holders with $BONE earned from block validation. The platform is governed by the K9 DAO, named the Roundtable of Dogs, which manages the K9 treasury, votes on new roadmap items, and pioneers true DeFi adoption on Shibarium. While Shibarium remains the primary focus, K9 Finance has the potential to expand its liquid staking infrastructure to other chains through DAO governance. Built on Shibarium, a Layer 2 blockchain for Shiba Inu, K9 Finance combines loyalty and liquidity, positioning the $KNINE token as both a financial protector and a driver of DeFi innovation.',
     tags: ['DeFi'],
+  },
+  {
+    index: 3016,
+    cmcId: 29693,
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0x990E28bcea636bb2E702A4BBBAE61Cf779B8DABf',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    token: tokens.eth,
+    quoteToken: tokens.eth,
+    lpToken: tokens.eth,
+    earnToken: tokens.alva,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    inactive: false,
+    projectLink: 'https://www.alvaraprotocol.io',
+    twitter: 'https://twitter.com/AlvaraProtocol',
+    audit: 'https://www.quillaudits.com/leaderboard/alvaraavax-token',
+    initTime: { [ChainId.MAINNET]: 1720558800 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    shortDescription:
+      'The Alvara Protocol enables the creation and management of decentralized, meritocratic, tokenized investment collectives using the innovative ERC-7621 Basket Token Standard. Alvara’s built-in leaderboard ranks every ERC-7621 minted on-chain. The native token, ALVA, an ERC-20 utility token, supports governance, rewards, and software portals. Committed to transforming conventional procedures and pioneering a new DeFi subsector, Alvara aims to establish ERC-7621 as the gold standard for on-chain basket creation while adhering to decentralization principles.',
+    fullDescription:
+      'The Alvara Protocol facilitates the deployment of decentralized, meritocratic, tokenized, and on-chain investment collectives, enabling the creation and management of tokenized investment funds. Utilizing the innovative ERC-7621 Basket Token Standard, Alvara’s built-in leaderboard auto-populates and ranks every ERC-7621 minted on-chain. The protocol’s native token, ALVA, is an ERC-20 utility token serving multiple functions within the platform, including access to governance, rewards, and software portals. ALVA is included in each BTS minted at a nominal 5% weighting, creating deflationary pressure on its supply as each additional BTS removes a percentage of ALVA from circulation. The included ALVA is market-bought, increasing buying pressure with every new BTS creation. Alvara empowers individuals and institutions to create, manage, and invest in fully decentralized, merit-based, on-chain baskets. Committed to transforming conventional procedures and pioneering a new DeFi subsector, Alvara aims to establish ERC-7621 as the gold standard for on-chain basket creation while adhering to decentralization principles. The team consists of 10 full-time core members with extensive experience in traditional finance, web3, project management, public accounting, marketing, and legal domains, supported by a highly skilled development team with expertise in full-stack web and blockchain development and graphic design for Fortune 500 companies.',
+    tags: ['RWA'],
   },
 ]
 
