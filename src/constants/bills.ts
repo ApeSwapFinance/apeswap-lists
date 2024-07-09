@@ -453,7 +453,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    tags: ['GAMEFI'],
+    tags: ['SOCIALFI'],
     shortDescription:
       'Ready to Fight (RTF) platform is a pioneering management solution utilizing Web 3.0 and blockchain technologies, specifically tailored for the boxing and martial arts industries. Its mission is to harness blockchain to democratize the management and operation of sports entities. By incorporating broad fan engagement and crowd wisdom, RTF aims to create a platform that resonates with fans and athletes alike, unlocking immense potential for engagement, innovation, and growth within these industries.',
     fullDescription:
