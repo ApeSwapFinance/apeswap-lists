@@ -1356,6 +1356,89 @@
     "shortDescription": "Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!"
   },
   {
+    "index": 1080,
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0x294d347642db13E2899d663c8041d02e24826271"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "BETHUSTLERS",
+      "address": {
+        "56": "0xE2B1f3908588e2338587ED998F974EE6F63f500d"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      }
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "BETHUSTLERS-BNB",
+      "address": {
+        "56": "0xC49627586057cD1126EDCfb2AF6d65B31bc8395B"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "getLpUrl": {
+        "56": "https://pancakeswap.finance/v2/add/BNB/0xE2B1f3908588e2338587ED998F974EE6F63f500d"
+      }
+    },
+    "earnToken": {
+      "symbol": "BETHUSTLERS",
+      "address": {
+        "56": "0xE2B1f3908588e2338587ED998F974EE6F63f500d"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      }
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://bethustlers.com/token",
+    "twitter": "https://twitter.com/bethustlers",
+    "audit": "http://github.com/SkeletonEcosystem/Audits/blob/main/BetHustlers%20Smart%20Contract%20Audit.pdf",
+    "initTime": {
+      "56": 1720717200
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "shortDescription": "Bet on the Future, Win with Crypto! BetHustlers is a pioneering platform where sports betting meets the security and transparency of cryptocurrency. A portion of fees goes into the treasury for bets, and profits are used to buy tokens and boost the bankroll. Owning 6,000 BetHustlers Tokens grants access to the exclusive PRE Tips group, featuring daily insights from world champion CEO Gábor Csepányi. BetHustlers offers a secure, transparent, and fair betting experience.",
+    "fullDescription": "Bet on the Future, Win with Crypto! BetHustlers is a pioneering platform where sports betting meets the security and transparency of cryptocurrency. By combining the excitement of sports betting with blockchain technology, BetHustlers ensures a secure and fair experience for its users. A portion of the platform's fees goes into the treasury, where bets are placed, and profits are used to buy tokens and increase the bankroll. Regular updates keep users informed about the treasury account status and match outcomes. Owning 6,000 BetHustlers Tokens grants access to the exclusive PRE Tips group, providing daily insights and tips from world champion Owner and CEO, Gábor Csepányi. By purchasing BetHustlers Tokens, users join a community that values innovation, security, and transparency. The platform offers a decentralized and fast-paced sports betting environment, ensuring a fair and enjoyable experience for all participants.",
+    "tags": ["Entertainment", "Betting"]
+  },
+  {
     "index": 1079,
     "cmcId": 23756,
     "chainId": 56,
