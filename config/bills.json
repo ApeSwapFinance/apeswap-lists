@@ -1439,6 +1439,142 @@
     "tags": ["Entertainment", "Betting"]
   },
   {
+    "index": 1079,
+    "cmcId": 23756,
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0x6435eDE65D1B88A9525B85A8671FFE51a30B3B90"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "1890": 6,
+        "2525": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "1890": "Elektrik",
+        "2525": "External",
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "1890": 6,
+        "2525": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "1890": "Elektrik",
+        "2525": "External",
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "1890": 6,
+        "2525": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "1890": "Elektrik",
+        "2525": "External",
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "CGPT",
+      "address": {
+        "56": "0x9840652DC04fb9db2C43853633f0F62BE6f00f98"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://ChainGPT.org/",
+    "twitter": "http://twitter.com/chain_gpt",
+    "audit": "https://www.certik.com/projects/chaingpt/",
+    "initTime": {
+      "56": 1720717200
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "shortDescription": "ChainGPT is an advanced AI infrastructure ranked #1 for Web3-AI solutions, developing AI-powered technologies for the Web3, Blockchain, and Crypto space. It aims to enhance the Web3 experience for retail users and startups by offering tools for crypto trading, NFT creation, and smart contract development. The $CGPT token is the backbone of ChainGPT's ecosystem, enabling seamless on-chain interactions and access to its comprehensive AI applications.",
+    "fullDescription": "ChainGPT is an advanced AI infrastructure ranked #1 for Web3-AI solutions, specializing in developing AI-powered technologies for the Web3, Blockchain, and Crypto space. The platform aims to enhance the Web3 experience for retail users and startups by providing a range of innovative tools, including those for crypto trading, NFT creation, and smart contract development. ChainGPT Foundation houses three companies: ChainGPT AI, ChainGPT Pad, and ChainGPT Labs, all dedicated to making AI technologies accessible, efficient, and user-friendly. The $CGPT token serves as the economic backbone of ChainGPT's ecosystem, acting as a store of value, a unit of account, and a medium of exchange that facilitates all on-chain interactions. By weaving the $CGPT token into its business architecture, ChainGPT ensures that users can fully access its AI applications, from NFT and smart contract generation to auditing and chatbot interactions. This integration provides significant utility and additional benefits, enhancing the value users gain from $CGPT.",
+    "tags": ["AI"]
+  },
+  {
     "index": 1078,
     "chainId": 56,
     "contractAddress": {
