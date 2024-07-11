@@ -1,7 +1,7 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1078
+// BNB Largest ID: 1080
 // Polygon Largest ID: 152
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2007
@@ -355,6 +355,64 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1080,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x294d347642db13E2899d663c8041d02e24826271',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.bethustlers,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.bethustlersBnb_PCS,
+    earnToken: tokens.bethustlers,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://bethustlers.com/token',
+    twitter: 'https://twitter.com/bethustlers',
+    audit: 'http://github.com/SkeletonEcosystem/Audits/blob/main/BetHustlers%20Smart%20Contract%20Audit.pdf',
+    initTime: { [ChainId.BSC]: 1720717200 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    shortDescription:
+      'Bet on the Future, Win with Crypto! BetHustlers is a pioneering platform where sports betting meets the security and transparency of cryptocurrency. A portion of fees goes into the treasury for bets, and profits are used to buy tokens and boost the bankroll. Owning 6,000 BetHustlers Tokens grants access to the exclusive PRE Tips group, featuring daily insights from world champion CEO Gábor Csepányi. BetHustlers offers a secure, transparent, and fair betting experience.',
+    fullDescription: `Bet on the Future, Win with Crypto! BetHustlers is a pioneering platform where sports betting meets the security and transparency of cryptocurrency. By combining the excitement of sports betting with blockchain technology, BetHustlers ensures a secure and fair experience for its users. A portion of the platform's fees goes into the treasury, where bets are placed, and profits are used to buy tokens and increase the bankroll. Regular updates keep users informed about the treasury account status and match outcomes. Owning 6,000 BetHustlers Tokens grants access to the exclusive PRE Tips group, providing daily insights and tips from world champion Owner and CEO, Gábor Csepányi. By purchasing BetHustlers Tokens, users join a community that values innovation, security, and transparency. The platform offers a decentralized and fast-paced sports betting environment, ensuring a fair and enjoyable experience for all participants.`,
+    tags: ['Entertainment', 'Betting'],
+  },
+  // {
+  //   index: 1079,
+  //   cmcId: 23756,
+  //   chainId: ChainId.BSC,
+  //   contractAddress: {
+  //     [ChainId.BSC]: '',
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V2,
+  //   token: tokens.usdt,
+  //   quoteToken: tokens.usdt,
+  //   lpToken: tokens.usdt,
+  //   earnToken: tokens.cgpt,
+  //   billNnftAddress: {
+  //     [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+  //   },
+  //   inactive: false,
+  //   projectLink: 'https://ChainGPT.org/',
+  //   twitter: 'http://twitter.com/chain_gpt',
+  //   audit: 'https://www.certik.com/projects/chaingpt/',
+  //   initTime: { [ChainId.BSC]: 1720717200 },
+  //   soldOut: false,
+  //   billArt: {
+  //     collection: BillArtCollection.ApeBond_Collection1,
+  //   },
+  //   shortDescription: `ChainGPT is an advanced AI infrastructure ranked #1 for Web3-AI solutions, developing AI-powered technologies for the Web3, Blockchain, and Crypto space. It aims to enhance the Web3 experience for retail users and startups by offering tools for crypto trading, NFT creation, and smart contract development. The $CGPT token is the backbone of ChainGPT's ecosystem, enabling seamless on-chain interactions and access to its comprehensive AI applications.`,
+  //   fullDescription: `ChainGPT is an advanced AI infrastructure ranked #1 for Web3-AI solutions, specializing in developing AI-powered technologies for the Web3, Blockchain, and Crypto space. The platform aims to enhance the Web3 experience for retail users and startups by providing a range of innovative tools, including those for crypto trading, NFT creation, and smart contract development. ChainGPT Foundation houses three companies: ChainGPT AI, ChainGPT Pad, and ChainGPT Labs, all dedicated to making AI technologies accessible, efficient, and user-friendly. The $CGPT token serves as the economic backbone of ChainGPT's ecosystem, acting as a store of value, a unit of account, and a medium of exchange that facilitates all on-chain interactions. By weaving the $CGPT token into its business architecture, ChainGPT ensures that users can fully access its AI applications, from NFT and smart contract generation to auditing and chatbot interactions. This integration provides significant utility and additional benefits, enhancing the value users gain from $CGPT.`,
+  //   tags: ['AI'],
+  // },
   {
     index: 1078,
     chainId: ChainId.BSC,
