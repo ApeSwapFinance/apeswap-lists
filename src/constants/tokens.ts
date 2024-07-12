@@ -2491,6 +2491,9 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 4,
     },
     active: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.External,
+    },
   },
   chrp: {
     symbol: 'CHRP',

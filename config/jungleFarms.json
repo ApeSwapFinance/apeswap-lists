@@ -810,7 +810,10 @@
       "decimals": {
         "56": 4
       },
-      "active": true
+      "active": true,
+      "liquidityDex": {
+        "56": "External"
+      }
     },
     "lpTokens": {
       "token": {
@@ -821,7 +824,10 @@
         "decimals": {
           "56": 4
         },
-        "active": true
+        "active": true,
+        "liquidityDex": {
+          "56": "External"
+        }
       },
       "quoteToken": {
         "symbol": "BUSD",

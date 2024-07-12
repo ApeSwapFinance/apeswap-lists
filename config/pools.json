@@ -2760,7 +2760,10 @@
       "decimals": {
         "56": 4
       },
-      "active": true
+      "active": true,
+      "liquidityDex": {
+        "56": "External"
+      }
     },
     "contractAddress": {
       "56": "0xdffcb3f3a64b8c7d722b33d098349417136585f8",
