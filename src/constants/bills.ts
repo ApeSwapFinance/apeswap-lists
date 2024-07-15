@@ -13,6 +13,38 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingT
 
 const bills: BillsConfig[] = [
   //
+  // IOTA
+  //
+  {
+    index: 9001,
+    chainId: ChainId.IOTA,
+    contractAddress: {
+      [ChainId.IOTA]: '0x513973281d7c04922c59634916513Ab693DD0098', // prod
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.iota,
+    quoteToken: tokens.iota,
+    lpToken: tokens.iota,
+    earnToken: tokens.usdt,
+    billNnftAddress: {
+      [ChainId.IOTA]: '0x896c7021C1ACa0dD65D1D525b0434822dbCB6d9d',
+    },
+    inactive: false,
+    projectLink: 'https://explorer.evm.iota.org/',
+    twitter: 'https://explorer.evm.iota.org/',
+    audit: 'https://explorer.evm.iota.org/',
+    initTime: { [ChainId.IOTA]: 1721072209 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DEX'],
+    shortDescription: 'lorem ipsum',
+    fullDescription:
+      'lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+  },
+  //
   // BASE
 
   {
