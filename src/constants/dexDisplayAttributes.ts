@@ -81,4 +81,8 @@ export const dexDisplayAttributes: Record<LiquidityDex, { icon: string; tag: str
     icon: '',
     tag: '',
   },
+  [LiquidityDex.MagicSea]: {
+    icon: '',
+    tag: '',
+  },
 }
