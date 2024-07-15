@@ -66,6 +66,9 @@ export enum LiquidityDex {
   Synthswap = 'Synthswap',
   Aerodrome = 'Aerodrome',
   SmarDex = 'SmarDex',
+
+  //IOTA
+  MagicSea = 'MagicSea',
 }
 
 export enum IchiSupportedDex {

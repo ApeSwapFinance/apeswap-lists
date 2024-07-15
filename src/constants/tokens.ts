@@ -20,6 +20,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  iota: {
+    symbol: 'IOTA',
+    address: {
+      [ChainId.IOTA]: '0x6e47f8d48a01b44DF3fFF35d258A10A3AEdC114c',
+    },
+    decimals: {
+      [ChainId.IOTA]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.IOTA]: LiquidityDex.MagicSea,
+    },
+  },
   alva: {
     symbol: 'ALVA',
     address: {
@@ -414,6 +427,7 @@ const tokens: Record<string, Token> = {
       [ChainId.LINEA]: '0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f',
       [ChainId.LIGHTLINK]: '0x7EbeF2A4b1B09381Ec5B9dF8C5c6f2dBECA59c73',
       [ChainId.BASE]: '0x4200000000000000000000000000000000000006',
+      [ChainId.IOTA]: '0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -425,11 +439,13 @@ const tokens: Record<string, Token> = {
       [ChainId.LINEA]: 18,
       [ChainId.LIGHTLINK]: 18,
       [ChainId.BASE]: 18,
+      [ChainId.IOTA]: 18,
     },
     liquidityDex: {
       [ChainId.LINEA]: LiquidityDex.Lynex,
       [ChainId.LIGHTLINK]: LiquidityDex.Elektrik,
       [ChainId.BASE]: LiquidityDex.Aerodrome,
+      [ChainId.IOTA]: LiquidityDex.MagicSea,
     },
     active: true,
   },
@@ -496,6 +512,7 @@ const tokens: Record<string, Token> = {
       [ChainId.LINEA]: '0x176211869cA2b568f2A7D4EE941E073a821EE1ff', // this is USDC.e
       [ChainId.LIGHTLINK]: '0x18fB38404DADeE1727Be4b805c5b242B5413Fa40', // this is USDC.e
       [ChainId.BASE]: '0x833589fcd6edb6e08f4c7c32d4f71b54bda02913',
+      [ChainId.IOTA]: '0xFbDa5F676cB37624f28265A144A48B0d6e87d3b6', // this is USDC.e
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -506,10 +523,12 @@ const tokens: Record<string, Token> = {
       [ChainId.LINEA]: 6,
       [ChainId.LIGHTLINK]: 6,
       [ChainId.BASE]: 6,
+      [ChainId.IOTA]: 6,
     },
     liquidityDex: {
       [ChainId.LINEA]: LiquidityDex.Nile,
       [ChainId.LIGHTLINK]: LiquidityDex.Elektrik,
+      [ChainId.IOTA]: LiquidityDex.MagicSea,
     },
     active: true,
   },
@@ -1384,6 +1403,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC_TESTNET]: '0x337610d27c682E347C9cD60BD4b3b107C9d34dDd',
       [ChainId.LINEA]: '0xA219439258ca9da29E9Cc4cE5596924745e12B93',
       [ChainId.LIGHTLINK]: '0x6308fa9545126237158778e74AE1b6b89022C5c0',
+      [ChainId.IOTA]: '0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4',
     },
     decimals: {
       [ChainId.MAINNET]: 6,
@@ -1395,12 +1415,14 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC_TESTNET]: 18,
       [ChainId.LINEA]: 6,
       [ChainId.LIGHTLINK]: 6,
+      [ChainId.IOTA]: 6,
     },
     liquidityDex: {
       [ChainId.INEVM]: LiquidityDex.External,
       [ChainId.MAINNET]: LiquidityDex.UniswapV2,
       [ChainId.LINEA]: LiquidityDex.Nile,
       [ChainId.LIGHTLINK]: LiquidityDex.Elektrik,
+      [ChainId.IOTA]: LiquidityDex.MagicSea,
     },
     active: true,
   },
