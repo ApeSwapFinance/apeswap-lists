@@ -1689,6 +1689,90 @@
     "shortDescription": "Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!"
   },
   {
+    "index": 1081,
+    "cmcId": 25822,
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0x516e134276B2C4f4931058ED0b2730E84320c620"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "AIT",
+      "address": {
+        "56": "0x5F113F7ef20Ff111FD130e83D8e97Fd1E0E2518F"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "AIT-BNB",
+      "address": {
+        "56": "0x84DBc37BE759d222725c193C27694f405a16896a"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "getLpUrl": {
+        "56": "https://pancakeswap.finance/v2/add/BNB/0x5F113F7ef20Ff111FD130e83D8e97Fd1E0E2518F"
+      }
+    },
+    "earnToken": {
+      "symbol": "AIT",
+      "address": {
+        "56": "0x5F113F7ef20Ff111FD130e83D8e97Fd1E0E2518F"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://aimalls.app/",
+    "twitter": "https://twitter.com/ai_malls",
+    "audit": "https://skynet.certik.com/projects/aimalls",
+    "initTime": {
+      "56": 1721148582
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["AI"],
+    "shortDescription": "AiMalls is the first tokenized e-commerce platform in the Philippines, powered by advanced AI and its utility token, AIT. AiMalls enhances traditional shopping by unifying sellers and buyers on a seamless digital platform focused on efficiency and customer satisfaction. Its vision is to merge e-commerce with consumers, offering Web3 and Web2 users the versatile shopping platform they desire.",
+    "fullDescription": "AiMalls is the first tokenized e-commerce platform in the Philippines, certified and powered by state-of-the-art artificial intelligence and underpinned by its utility token, AIT. AiMalls transcends traditional shopping experiences, unifying sellers and buyers in a seamless digital platform where efficiency and customer satisfaction reign supreme. Its vision is to break down barriers between e-commerce and consumers, providing both Web3 and Web2 users with the versatile shopping platform they have always desired. With AiMalls, businesses can target customers more accurately and effectively with personalized offers and discounts. AI-powered algorithms enable a deeper understanding of customer needs, fostering long-term relationships. The platform manages inventory efficiently through automated stock tracking, order processing, and delivery management, while real-time tracking of customer orders ensures seamless service. Security is a top priority, offering the highest level of protection for both merchants and customers through advanced encryption technology. Powerful marketing tools leverage data insights to craft targeted campaigns that drive sales, with real-time tracking for better ROI. Additionally, the platform provides unparalleled scalability to support business growth and is constantly evolving to deliver the best user experience. Personalization features help build strong customer relationships, engaging them at the most effective times to maximize conversions. The products and technology offered provide the infrastructure for success."
+  },
+  {
     "index": 1080,
     "chainId": 56,
     "contractAddress": {
@@ -5751,7 +5835,7 @@
     "initPrice": {
       "56": 0.000119256747804887
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
