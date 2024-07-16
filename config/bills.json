@@ -1,6 +1,7 @@
 [
   {
     "index": 9001,
+    "cmcId": 1720,
     "chainId": 8822,
     "contractAddress": {
       "8822": "0x513973281d7c04922c59634916513Ab693DD0098"

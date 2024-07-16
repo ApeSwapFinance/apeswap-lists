@@ -17,6 +17,7 @@ const bills: BillsConfig[] = [
   //
   {
     index: 9001,
+    cmcId: 1720,
     chainId: ChainId.IOTA,
     contractAddress: {
       [ChainId.IOTA]: '0x513973281d7c04922c59634916513Ab693DD0098', // prod
