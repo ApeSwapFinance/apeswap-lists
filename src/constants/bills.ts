@@ -435,8 +435,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://aimalls.app/',
     twitter: 'https://twitter.com/ai_malls',
     audit: 'https://skynet.certik.com/projects/aimalls',
-    initTime: { [ChainId.BSC]: 1712235600 },
-    initPrice: { [ChainId.BSC]: 0.000119256747804887 },
+    initTime: { [ChainId.BSC]: 1721148582 },
     soldOut: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
