@@ -2,7 +2,7 @@ import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingTerms } from '../types'
 
 // BNB Largest ID: 1080
-// Polygon Largest ID: 154
+// Polygon Largest ID: 155
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2007
 // ETH Largest ID: 3016
@@ -5445,6 +5445,39 @@ const bills: BillsConfig[] = [
     Polygon Bills
   */
   {
+    index: 155,
+    cmcId: 17704,
+    chainId: ChainId.MATIC,
+    contractAddress: {
+      [ChainId.MATIC]: '0x1d942f4600b5f030224665898AB0CDcad8F91C80',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.mv,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.mvUsdt_QS,
+    earnToken: tokens.mv,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://genso.game/en/',
+    twitter: 'https://twitter.com/genso_meta',
+    audit: 'https://skynet.certik.com/projects/gensokishi-online-metaworld',
+    initTime: { [ChainId.MATIC]: 1701892800 },
+    initPrice: { [ChainId.MATIC]: 0.00254 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+    tags: ['GAMEFI'],
+    shortDescription:
+      'GENSO is the metaverse incarnation of “Elemental Knights Online,” which won the 2012 Game of the Year (Gold) in Taiwan. Utilizing blockchain technology, we aim to create a new economy within the virtual world. This MMORPG-based, fantasy-themed metaverse allows players to connect with others in our 3D world and engage in various activities by importing LAND, NFTs, or MV/ROND tokens. Powered by the MV token. <a href="https://twitter.com/genso_meta/status/1755246359165157634" target="_blank" rel="noopener noreferrer" style="color: #6560C5">ApeBond Shield</a>',
+    fullDescription:
+      'GENSO is the metaverse incarnation of “Elemental Knights Online,” which won the 2012 Game of the Year (Gold) in Taiwan. Utilizing blockchain technology, we aim to create a new economy within the virtual world. This MMORPG-based, fantasy-themed metaverse allows players to connect with others in our 3D world and engage in various activities by importing LAND, NFTs, or MV/ROND tokens. GENSO offers a support program for participants who create or develop in the GENSO Metaverse, backed by sponsors and other organizations. Contests are held with cash prizes for excellent works, and sponsors and companies will fund creators while GENSO official sales will also generate income for them. Exceptional works will appear on PlayStation and Nintendo Switch. MV, the native token of GENSO, and it stands for Metaverse and is crucial for building the metaverse world. It is used as gas on the MV Chain and provides voting rights for metaverse policies, discounted prices for special equipment, rights for strengthening equipment, and purchasing exclusive items. MV Coin also has staking functions, allowing users to earn ROND Coin and receive special NFTs and rights within UGC (User-Generated Content) by staking a certain volume of MV. Additionally, it grants rights to participate in auctions for creating maps and monsters and purchasing availability for creating them. Post-release, MV will be used for transaction fees, various LAND activities, transactions, and in partnered games playable on GENSO, such as JongNavi Mahjong.',
+  },
+  {
     index: 154,
     cmcId: 17131,
     chainId: ChainId.MATIC,
@@ -6044,7 +6077,7 @@ const bills: BillsConfig[] = [
     audit: 'https://skynet.certik.com/projects/gensokishi-online-metaworld',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.00254 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
