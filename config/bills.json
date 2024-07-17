@@ -20624,6 +20624,256 @@
     "soldOut": true
   },
   {
+    "index": 154,
+    "cmcId": 17131,
+    "chainId": 137,
+    "contractAddress": {
+      "137": "0x3Ab678FEE99eA8E632038D14dd29cff57D1FdB33"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "1890": 6,
+        "2525": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8822": "MagicSea",
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "1890": 6,
+        "2525": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8822": "MagicSea",
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "1890": 6,
+        "2525": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8822": "MagicSea",
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "IXT",
+      "address": {
+        "137": "0xE06Bd4F5aAc8D0aA337D13eC88dB6defC6eAEefE"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "QuickswapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
+    },
+    "inactive": false,
+    "projectLink": "https://planetix.com/",
+    "twitter": "https://twitter.com/Planetix0",
+    "initTime": {
+      "137": 1721207158
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "PlanetIX_Collection1"
+    },
+    "bondPartner": "QuickSwap",
+    "shortDescription": "Planet IX is an evolving world with a marketplace, multiple corporations, unique gaming experiences, and utilities that help players resurrect and rebuild their planet. Connect your land to earn IXT and farm IXT without investing anything but time. Help rejuvenate the broken lands and build the Planet of Tomorrow.",
+    "fullDescription": "Planet IX is an evolutionary world with a marketplace, multiple corporations, unique gaming experiences, and utilities that aid players in their collective mission to resurrect and rebuild the planet they once called home. In Planet IX, you can connect your land to earn IXT. You’ll also be able to farm your way to IXT without investing anything other than your time. Connect your land, help rejuvenate the broken lands, and build the Planet of Tomorrow. Planet IX is at the forefront of a revolution in the virtual land strategy development space. It provides tools to decentralize and empower the gaming community while helping individuals use their passion and skill to play and build businesses. Blurring the lines between the digital and physical worlds, Planet IX and its players redefine the term reality again and again. IXT is the medium of exchange in the Planet IX ecosystem, serving as in-game currency, rewards, and conferring voting rights. IXT is the only ERC-20 token in the game's economy of assets and is the key to playing the game, trading, and purchasing assets.",
+    "tags": ["GAMEFI", "NFT"]
+  },
+  {
+    "index": 153,
+    "cmcId": 17131,
+    "chainId": 137,
+    "contractAddress": {
+      "137": "0x278BD0829e7A4dAa0cC407d3eA4958B3B85867a1"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "IXT",
+      "address": {
+        "137": "0xE06Bd4F5aAc8D0aA337D13eC88dB6defC6eAEefE"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "QuickswapV2"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "1890": 6,
+        "2525": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8822": "MagicSea",
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "IXT-USDT",
+      "address": {
+        "137": "0x304e57c752E854E9A233Ae82fcC42F7568b81180"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "QuickswapV2"
+      },
+      "active": true,
+      "lpToken": true,
+      "getLpUrl": {
+        "137": "https://quickswap.exchange/#/pools/v2?currency0=0xE06Bd4F5aAc8D0aA337D13eC88dB6defC6eAEefE&currency1=0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+      }
+    },
+    "earnToken": {
+      "symbol": "IXT",
+      "address": {
+        "137": "0xE06Bd4F5aAc8D0aA337D13eC88dB6defC6eAEefE"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "QuickswapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
+    },
+    "inactive": false,
+    "projectLink": "https://planetix.com/",
+    "twitter": "https://twitter.com/Planetix0",
+    "initTime": {
+      "137": 1721207158
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "PlanetIX_Collection1"
+    },
+    "bondPartner": "QuickSwap",
+    "shortDescription": "Planet IX is an evolving world with a marketplace, multiple corporations, unique gaming experiences, and utilities that help players resurrect and rebuild their planet. Connect your land to earn IXT and farm IXT without investing anything but time. Help rejuvenate the broken lands and build the Planet of Tomorrow.",
+    "fullDescription": "Planet IX is an evolutionary world with a marketplace, multiple corporations, unique gaming experiences, and utilities that aid players in their collective mission to resurrect and rebuild the planet they once called home. In Planet IX, you can connect your land to earn IXT. You’ll also be able to farm your way to IXT without investing anything other than your time. Connect your land, help rejuvenate the broken lands, and build the Planet of Tomorrow. Planet IX is at the forefront of a revolution in the virtual land strategy development space. It provides tools to decentralize and empower the gaming community while helping individuals use their passion and skill to play and build businesses. Blurring the lines between the digital and physical worlds, Planet IX and its players redefine the term reality again and again. IXT is the medium of exchange in the Planet IX ecosystem, serving as in-game currency, rewards, and conferring voting rights. IXT is the only ERC-20 token in the game's economy of assets and is the key to playing the game, trading, and purchasing assets.",
+    "tags": ["GAMEFI", "NFT"]
+  },
+  {
     "index": 152,
     "cmcId": 24103,
     "chainId": 137,
@@ -21006,7 +21256,7 @@
     "initPrice": {
       "137": 0.347018667988457
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "PlanetIX_Collection1"
     },
@@ -21114,7 +21364,7 @@
     "initPrice": {
       "137": 0.347018667988457
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "PlanetIX_Collection1"
     },

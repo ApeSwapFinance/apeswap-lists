@@ -2,7 +2,7 @@ import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingTerms } from '../types'
 
 // BNB Largest ID: 1080
-// Polygon Largest ID: 152
+// Polygon Largest ID: 154
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2007
 // ETH Largest ID: 3016
@@ -5445,6 +5445,66 @@ const bills: BillsConfig[] = [
     Polygon Bills
   */
   {
+    index: 154,
+    cmcId: 17131,
+    chainId: ChainId.MATIC,
+    contractAddress: {
+      [ChainId.MATIC]: '0x3Ab678FEE99eA8E632038D14dd29cff57D1FdB33',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.ixt,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://planetix.com/',
+    twitter: 'https://twitter.com/Planetix0',
+    initTime: { [ChainId.MATIC]: 1721207158 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.PlanetIX_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+    shortDescription:
+      'Planet IX is an evolving world with a marketplace, multiple corporations, unique gaming experiences, and utilities that help players resurrect and rebuild their planet. Connect your land to earn IXT and farm IXT without investing anything but time. Help rejuvenate the broken lands and build the Planet of Tomorrow.',
+    fullDescription: `Planet IX is an evolutionary world with a marketplace, multiple corporations, unique gaming experiences, and utilities that aid players in their collective mission to resurrect and rebuild the planet they once called home. In Planet IX, you can connect your land to earn IXT. You’ll also be able to farm your way to IXT without investing anything other than your time. Connect your land, help rejuvenate the broken lands, and build the Planet of Tomorrow. Planet IX is at the forefront of a revolution in the virtual land strategy development space. It provides tools to decentralize and empower the gaming community while helping individuals use their passion and skill to play and build businesses. Blurring the lines between the digital and physical worlds, Planet IX and its players redefine the term reality again and again. IXT is the medium of exchange in the Planet IX ecosystem, serving as in-game currency, rewards, and conferring voting rights. IXT is the only ERC-20 token in the game's economy of assets and is the key to playing the game, trading, and purchasing assets.`,
+    tags: ['GAMEFI', 'NFT'],
+  },
+  {
+    index: 153,
+    cmcId: 17131,
+    chainId: ChainId.MATIC,
+    contractAddress: {
+      [ChainId.MATIC]: '0x278BD0829e7A4dAa0cC407d3eA4958B3B85867a1',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.ixt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.ixtUsdt_QS,
+    earnToken: tokens.ixt,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://planetix.com/',
+    twitter: 'https://twitter.com/Planetix0',
+    initTime: { [ChainId.MATIC]: 1721207158 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.PlanetIX_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+    shortDescription:
+      'Planet IX is an evolving world with a marketplace, multiple corporations, unique gaming experiences, and utilities that help players resurrect and rebuild their planet. Connect your land to earn IXT and farm IXT without investing anything but time. Help rejuvenate the broken lands and build the Planet of Tomorrow.',
+    fullDescription: `Planet IX is an evolutionary world with a marketplace, multiple corporations, unique gaming experiences, and utilities that aid players in their collective mission to resurrect and rebuild the planet they once called home. In Planet IX, you can connect your land to earn IXT. You’ll also be able to farm your way to IXT without investing anything other than your time. Connect your land, help rejuvenate the broken lands, and build the Planet of Tomorrow. Planet IX is at the forefront of a revolution in the virtual land strategy development space. It provides tools to decentralize and empower the gaming community while helping individuals use their passion and skill to play and build businesses. Blurring the lines between the digital and physical worlds, Planet IX and its players redefine the term reality again and again. IXT is the medium of exchange in the Planet IX ecosystem, serving as in-game currency, rewards, and conferring voting rights. IXT is the only ERC-20 token in the game's economy of assets and is the key to playing the game, trading, and purchasing assets.`,
+    tags: ['GAMEFI', 'NFT'],
+  },
+  {
     index: 152,
     cmcId: 24103,
     chainId: ChainId.MATIC,
@@ -5532,7 +5592,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/Planetix0',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.347018667988457 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.PlanetIX_Collection1,
     },
@@ -5563,7 +5623,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/Planetix0',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.347018667988457 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.PlanetIX_Collection1,
     },
