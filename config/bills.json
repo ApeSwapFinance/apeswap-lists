@@ -20624,6 +20624,115 @@
     "soldOut": true
   },
   {
+    "index": 155,
+    "cmcId": 17704,
+    "chainId": 137,
+    "contractAddress": {
+      "137": "0x1d942f4600b5f030224665898AB0CDcad8F91C80"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "MV",
+      "address": {
+        "137": "0xA3c322Ad15218fBFAEd26bA7f616249f7705D945"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "QuickswapV2"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "1890": 6,
+        "2525": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8822": "MagicSea",
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "MV-USDT",
+      "address": {
+        "137": "0x690a87Ed8972e451e755b8F2dC1fc2B28e3c6566"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "QuickswapV2"
+      },
+      "active": true,
+      "lpToken": true,
+      "getLpUrl": {
+        "137": "https://quickswap.exchange/#/pools/v2?currency0=0xA3c322Ad15218fBFAEd26bA7f616249f7705D945&currency1=0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+      }
+    },
+    "earnToken": {
+      "symbol": "MV",
+      "address": {
+        "137": "0xA3c322Ad15218fBFAEd26bA7f616249f7705D945"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "QuickswapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
+    },
+    "inactive": false,
+    "projectLink": "https://genso.game/en/",
+    "twitter": "https://twitter.com/genso_meta",
+    "audit": "https://skynet.certik.com/projects/gensokishi-online-metaworld",
+    "initTime": {
+      "137": 1701892800
+    },
+    "initPrice": {
+      "137": 0.00254
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "Quickswap_Collection1"
+    },
+    "bondPartner": "QuickSwap",
+    "tags": ["GAMEFI"],
+    "shortDescription": "GENSO is the metaverse incarnation of “Elemental Knights Online,” which won the 2012 Game of the Year (Gold) in Taiwan. Utilizing blockchain technology, we aim to create a new economy within the virtual world. This MMORPG-based, fantasy-themed metaverse allows players to connect with others in our 3D world and engage in various activities by importing LAND, NFTs, or MV/ROND tokens. Powered by the MV token. <a href=\"https://twitter.com/genso_meta/status/1755246359165157634\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #6560C5\">ApeBond Shield</a>",
+    "fullDescription": "GENSO is the metaverse incarnation of “Elemental Knights Online,” which won the 2012 Game of the Year (Gold) in Taiwan. Utilizing blockchain technology, we aim to create a new economy within the virtual world. This MMORPG-based, fantasy-themed metaverse allows players to connect with others in our 3D world and engage in various activities by importing LAND, NFTs, or MV/ROND tokens. GENSO offers a support program for participants who create or develop in the GENSO Metaverse, backed by sponsors and other organizations. Contests are held with cash prizes for excellent works, and sponsors and companies will fund creators while GENSO official sales will also generate income for them. Exceptional works will appear on PlayStation and Nintendo Switch. MV, the native token of GENSO, and it stands for Metaverse and is crucial for building the metaverse world. It is used as gas on the MV Chain and provides voting rights for metaverse policies, discounted prices for special equipment, rights for strengthening equipment, and purchasing exclusive items. MV Coin also has staking functions, allowing users to earn ROND Coin and receive special NFTs and rights within UGC (User-Generated Content) by staking a certain volume of MV. Additionally, it grants rights to participate in auctions for creating maps and monsters and purchasing availability for creating them. Post-release, MV will be used for transaction fees, various LAND activities, transactions, and in partnered games playable on GENSO, such as JongNavi Mahjong."
+  },
+  {
     "index": 154,
     "cmcId": 17131,
     "chainId": 137,
@@ -22853,7 +22962,7 @@
     "initPrice": {
       "137": 0.00254
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "Quickswap_Collection1"
     },
