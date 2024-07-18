@@ -20,6 +20,68 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  fomo: {
+    symbol: 'FOMO',
+    address: {
+      [ChainId.IOTA]: '0x30a1398cF11cb9E852E5d80aCe7FFd5ec271169E',
+    },
+    decimals: {
+      [ChainId.IOTA]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.IOTA]: LiquidityDex.MagicSea,
+    },
+  },
+  rust: {
+    symbol: 'RUST',
+    address: {
+      [ChainId.IOTA]: '0x3915b5A673ee6cf126D1042f637Bd10b9931aD08',
+    },
+    decimals: {
+      [ChainId.IOTA]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.IOTA]: LiquidityDex.MagicSea,
+    },
+  },
+  iotaRust_MagicSea: {
+    symbol: 'IOTA-RUST',
+    address: {
+      [ChainId.IOTA]: '0x932059511253f55b9c288f9A9c4E54561f0Fd05c',
+    },
+    decimals: {
+      [ChainId.IOTA]: 18,
+    },
+    liquidityDex: {
+      [ChainId.IOTA]: LiquidityDex.MagicSea,
+    },
+    active: true,
+    lpToken: true,
+    getLpUrl: {
+      [ChainId.IOTA]:
+        'https://app.magicsea.finance/liquidityv2/manual/:8822/add/0x932059511253f55b9c288f9a9c4e54561f0fd05c',
+    },
+  },
+  iotaFomo_MagicSea: {
+    symbol: 'IOTA-FOMO',
+    address: {
+      [ChainId.IOTA]: '0x7ceb96304fbea063d6c461a57ce496213bebe535',
+    },
+    decimals: {
+      [ChainId.IOTA]: 18,
+    },
+    liquidityDex: {
+      [ChainId.IOTA]: LiquidityDex.MagicSea,
+    },
+    active: true,
+    lpToken: true,
+    getLpUrl: {
+      [ChainId.IOTA]:
+        'https://app.magicsea.finance/liquidityv2/manual/:8822/add/0x7ceb96304fbea063d6c461a57ce496213bebe535',
+    },
+  },
   iota: {
     symbol: 'IOTA',
     address: {

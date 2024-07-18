@@ -1,5 +1,167 @@
 [
   {
+    "index": 9003,
+    "chainId": 8822,
+    "contractAddress": {
+      "8822": "0x54926544D6aA564CB3Ba132a295367307632a3f0"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "IOTA",
+      "address": {
+        "8822": "0x6e47f8d48a01b44DF3fFF35d258A10A3AEdC114c"
+      },
+      "decimals": {
+        "8822": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "8822": "MagicSea"
+      }
+    },
+    "quoteToken": {
+      "symbol": "RUST",
+      "address": {
+        "8822": "0x3915b5A673ee6cf126D1042f637Bd10b9931aD08"
+      },
+      "decimals": {
+        "8822": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "8822": "MagicSea"
+      }
+    },
+    "lpToken": {
+      "symbol": "IOTA-RUST",
+      "address": {
+        "8822": "0x932059511253f55b9c288f9A9c4E54561f0Fd05c"
+      },
+      "decimals": {
+        "8822": 18
+      },
+      "liquidityDex": {
+        "8822": "MagicSea"
+      },
+      "active": true,
+      "lpToken": true,
+      "getLpUrl": {
+        "8822": "https://app.magicsea.finance/liquidityv2/manual/:8822/add/0x932059511253f55b9c288f9a9c4e54561f0fd05c"
+      }
+    },
+    "earnToken": {
+      "symbol": "RUST",
+      "address": {
+        "8822": "0x3915b5A673ee6cf126D1042f637Bd10b9931aD08"
+      },
+      "decimals": {
+        "8822": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "8822": "MagicSea"
+      }
+    },
+    "billNnftAddress": {
+      "8822": "0x896c7021C1ACa0dD65D1D525b0434822dbCB6d9d"
+    },
+    "inactive": false,
+    "projectLink": "https://explorer.evm.iota.org/",
+    "twitter": "https://explorer.evm.iota.org/",
+    "audit": "https://explorer.evm.iota.org/",
+    "initTime": {
+      "8822": 1719260043
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["DEX"],
+    "shortDescription": "IOTA is a decentralized stablecoin that can be traded on DEXs"
+  },
+  {
+    "index": 9002,
+    "chainId": 8822,
+    "contractAddress": {
+      "8822": "0x6ece12e9cc4cA25b4aDB593cBCd22BAe48b86B9c"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "IOTA",
+      "address": {
+        "8822": "0x6e47f8d48a01b44DF3fFF35d258A10A3AEdC114c"
+      },
+      "decimals": {
+        "8822": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "8822": "MagicSea"
+      }
+    },
+    "quoteToken": {
+      "symbol": "FOMO",
+      "address": {
+        "8822": "0x30a1398cF11cb9E852E5d80aCe7FFd5ec271169E"
+      },
+      "decimals": {
+        "8822": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "8822": "MagicSea"
+      }
+    },
+    "lpToken": {
+      "symbol": "IOTA-FOMO",
+      "address": {
+        "8822": "0x7ceb96304fbea063d6c461a57ce496213bebe535"
+      },
+      "decimals": {
+        "8822": 18
+      },
+      "liquidityDex": {
+        "8822": "MagicSea"
+      },
+      "active": true,
+      "lpToken": true,
+      "getLpUrl": {
+        "8822": "https://app.magicsea.finance/liquidityv2/manual/:8822/add/0x7ceb96304fbea063d6c461a57ce496213bebe535"
+      }
+    },
+    "earnToken": {
+      "symbol": "FOMO",
+      "address": {
+        "8822": "0x30a1398cF11cb9E852E5d80aCe7FFd5ec271169E"
+      },
+      "decimals": {
+        "8822": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "8822": "MagicSea"
+      }
+    },
+    "billNnftAddress": {
+      "8822": "0x896c7021C1ACa0dD65D1D525b0434822dbCB6d9d"
+    },
+    "inactive": false,
+    "projectLink": "https://explorer.evm.iota.org/",
+    "twitter": "https://explorer.evm.iota.org/",
+    "audit": "https://explorer.evm.iota.org/",
+    "initTime": {
+      "8822": 1719260043
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["DEX"],
+    "shortDescription": "IOTA is a decentralized stablecoin that can be traded on DEXs"
+  },
+  {
     "index": 9001,
     "cmcId": 1720,
     "chainId": 8822,

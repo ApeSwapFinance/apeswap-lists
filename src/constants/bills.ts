@@ -16,6 +16,60 @@ const bills: BillsConfig[] = [
   // IOTA
   //
   {
+    index: 9003,
+    chainId: ChainId.IOTA,
+    contractAddress: {
+      [ChainId.IOTA]: '0x54926544D6aA564CB3Ba132a295367307632a3f0', // prod
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.iota,
+    quoteToken: tokens.rust,
+    lpToken: tokens.iotaRust_MagicSea,
+    earnToken: tokens.rust,
+    billNnftAddress: {
+      [ChainId.IOTA]: '0x896c7021C1ACa0dD65D1D525b0434822dbCB6d9d',
+    },
+    inactive: false,
+    projectLink: 'https://explorer.evm.iota.org/',
+    twitter: 'https://explorer.evm.iota.org/',
+    audit: 'https://explorer.evm.iota.org/',
+    initTime: { [ChainId.IOTA]: 1719260043 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DEX'],
+    shortDescription: 'IOTA is a decentralized stablecoin that can be traded on DEXs',
+  },
+  {
+    index: 9002,
+    chainId: ChainId.IOTA,
+    contractAddress: {
+      [ChainId.IOTA]: '0x6ece12e9cc4cA25b4aDB593cBCd22BAe48b86B9c', // prod
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.iota,
+    quoteToken: tokens.fomo,
+    lpToken: tokens.iotaFomo_MagicSea,
+    earnToken: tokens.fomo,
+    billNnftAddress: {
+      [ChainId.IOTA]: '0x896c7021C1ACa0dD65D1D525b0434822dbCB6d9d',
+    },
+    inactive: false,
+    projectLink: 'https://explorer.evm.iota.org/',
+    twitter: 'https://explorer.evm.iota.org/',
+    audit: 'https://explorer.evm.iota.org/',
+    initTime: { [ChainId.IOTA]: 1719260043 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DEX'],
+    shortDescription: 'IOTA is a decentralized stablecoin that can be traded on DEXs',
+  },
+  {
     index: 9001,
     cmcId: 1720,
     chainId: ChainId.IOTA,
