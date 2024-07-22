@@ -1689,6 +1689,111 @@
     "shortDescription": "Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!"
   },
   {
+    "index": 1082,
+    "cmcId": 16711,
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0x390092aE3FEF90CD87b59A557de250b0e9d60CCB"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "1890": 6,
+        "2525": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8822": "MagicSea",
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "GTAI",
+      "address": {
+        "56": "0x003d87d02A2A01E9E8a20f507C83E15DD83A33d1"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      }
+    },
+    "lpToken": {
+      "symbol": "GTAI-USDT",
+      "address": {
+        "56": "0xAB1E062Ab03b11fF7Dd943C50b9aa2bF9933C1F3"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "getLpUrl": {
+        "56": "https://pancakeswap.finance/v2/add/0x55d398326f99059fF775485246999027B3197955/0x003d87d02A2A01E9E8a20f507C83E15DD83A33d1"
+      }
+    },
+    "earnToken": {
+      "symbol": "GTAI",
+      "address": {
+        "56": "0x003d87d02A2A01E9E8a20f507C83E15DD83A33d1"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      }
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://www.gt-protocol.io/",
+    "twitter": "https://twitter.com/gt_protocol",
+    "audit": "https://skynet.certik.com/projects/gt-protocol",
+    "initTime": {
+      "56": 1721652049
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "shortDescription": "GT Protocol is a conversational Web3 Crypto AI execution technology that provides users with access to CeFi, DeFi, and NFT crypto markets through an all-in-one conversational AI interface. Powered by the GTAI token and incubated by ChainGPT.",
+    "fullDescription": "GT Protocol is a conversational Web3 Crypto AI execution technology that provides users with access to CeFi, DeFi, and NFT crypto markets through an all-in-one conversational AI interface. GT Protocol revolutionizes AI crypto management by offering a comprehensive suite of AI-powered tools. Utilize AI-powered portfolio management and benefit from AI-powered auto trading to maximize your returns. Leverage AI to search for the best opportunities in crypto investment deals such as IDOs, staking, and copy trading. Conduct in-depth on-chain and off-chain market analysis with AI assistance for informed decision-making. Additionally, GT Protocol provides AI shopping assistance, making online purchases as easy as chatting with a friend. Enjoy $GTAI token cashback on your purchases and explore cashback reinvestment offers to boost your crypto portfolio growth. Throughout your crypto journey, receive continuous AI onboarding and mentoring. Powered by the GTAI token and incubated by ChainGPT, GT Protocol ensures a seamless and intelligent crypto experience.",
+    "tags": ["AI"]
+  },
+  {
     "index": 1081,
     "cmcId": 25822,
     "chainId": 56,

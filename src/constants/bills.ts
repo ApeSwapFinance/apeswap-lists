@@ -1,7 +1,7 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1080
+// BNB Largest ID: 1082
 // Polygon Largest ID: 155
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2007
@@ -415,6 +415,31 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1082,
+    cmcId: 16711,
+    chainId: ChainId.BSC,
+    contractAddress: { [ChainId.BSC]: '0x390092aE3FEF90CD87b59A557de250b0e9d60CCB' },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.gtai,
+    lpToken: tokens.gtaiUsdt_PCS,
+    earnToken: tokens.gtai,
+    billNnftAddress: { [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9' },
+    inactive: false,
+    projectLink: 'https://www.gt-protocol.io/',
+    twitter: 'https://twitter.com/gt_protocol',
+    audit: 'https://skynet.certik.com/projects/gt-protocol',
+    initTime: { [ChainId.BSC]: 1721652049 },
+    soldOut: false,
+    billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+    shortDescription:
+      'GT Protocol is a conversational Web3 Crypto AI execution technology that provides users with access to CeFi, DeFi, and NFT crypto markets through an all-in-one conversational AI interface. Powered by the GTAI token and incubated by ChainGPT.',
+    fullDescription:
+      'GT Protocol is a conversational Web3 Crypto AI execution technology that provides users with access to CeFi, DeFi, and NFT crypto markets through an all-in-one conversational AI interface. GT Protocol revolutionizes AI crypto management by offering a comprehensive suite of AI-powered tools. Utilize AI-powered portfolio management and benefit from AI-powered auto trading to maximize your returns. Leverage AI to search for the best opportunities in crypto investment deals such as IDOs, staking, and copy trading. Conduct in-depth on-chain and off-chain market analysis with AI assistance for informed decision-making. Additionally, GT Protocol provides AI shopping assistance, making online purchases as easy as chatting with a friend. Enjoy $GTAI token cashback on your purchases and explore cashback reinvestment offers to boost your crypto portfolio growth. Throughout your crypto journey, receive continuous AI onboarding and mentoring. Powered by the GTAI token and incubated by ChainGPT, GT Protocol ensures a seamless and intelligent crypto experience.',
+    tags: ['AI'],
+  },
   {
     index: 1081,
     cmcId: 25822,
