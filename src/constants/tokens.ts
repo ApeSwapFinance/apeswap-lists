@@ -95,6 +95,24 @@ const tokens: Record<string, Token> = {
         'https://app.magicsea.finance/liquidityv2/manual/:8822/add/0x7ceb96304fbea063d6c461a57ce496213bebe535',
     },
   },
+  iotaAudit_MagicSea: {
+    symbol: 'IOTA-AUDIT',
+    address: {
+      [ChainId.IOTA]: '0xba7ac526ee9d29209baedccb67c6d3a228644982',
+    },
+    decimals: {
+      [ChainId.IOTA]: 18,
+    },
+    liquidityDex: {
+      [ChainId.IOTA]: LiquidityDex.MagicSea,
+    },
+    active: true,
+    lpToken: true,
+    getLpUrl: {
+      [ChainId.IOTA]:
+        'https://app.magicsea.finance/liquidityv2/manual/:8822/add/0xba7ac526ee9d29209baedccb67c6d3a228644982',
+    },
+  },
   iota: {
     symbol: 'IOTA',
     address: {
