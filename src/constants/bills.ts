@@ -21,7 +21,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.IOTA]: '0x3b6cb2e9c577F57c31CBa18bF81c4Ab0Df77eb8F', // prod
     },
-    billType: 'reserve',
+    billType: 'liquidity',
     billVersion: BillVersion.V2,
     token: tokens.iota,
     quoteToken: tokens.audit,
