@@ -46,6 +46,19 @@ const tokens: Record<string, Token> = {
       [ChainId.IOTA]: LiquidityDex.MagicSea,
     },
   },
+  audit: {
+    symbol: 'AUDIT',
+    address: {
+      [ChainId.IOTA]: '0x159366809b6062960c97BC4eDd548BAFCd7812D8',
+    },
+    decimals: {
+      [ChainId.IOTA]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.IOTA]: LiquidityDex.MagicSea,
+    },
+  },
   iotaRust_MagicSea: {
     symbol: 'IOTA-RUST',
     address: {
