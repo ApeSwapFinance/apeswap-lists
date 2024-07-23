@@ -16,6 +16,33 @@ const bills: BillsConfig[] = [
   // IOTA
   //
   {
+    index: 9005,
+    chainId: ChainId.IOTA,
+    contractAddress: {
+      [ChainId.IOTA]: '0x3b6cb2e9c577F57c31CBa18bF81c4Ab0Df77eb8F', // prod
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.iota,
+    quoteToken: tokens.audit,
+    lpToken: tokens.iotaAudit_MagicSea,
+    earnToken: tokens.audit,
+    billNnftAddress: {
+      [ChainId.IOTA]: '0x896c7021C1ACa0dD65D1D525b0434822dbCB6d9d',
+    },
+    inactive: false,
+    projectLink: 'https://explorer.evm.iota.org/',
+    twitter: 'https://explorer.evm.iota.org/',
+    audit: 'https://explorer.evm.iota.org/',
+    initTime: { [ChainId.IOTA]: 1719260043 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DEX'],
+    shortDescription: 'IOTA is a decentralized stablecoin that can be traded on DEXs',
+  },
+  {
     index: 9004,
     chainId: ChainId.IOTA,
     contractAddress: {
