@@ -7973,7 +7973,7 @@ const bills: BillsConfig[] = [
       'https://github.com/chainsulting/Smart-Contract-Security-Audits/blob/master/Pummel%20Health/Smart_Contract_Audit_Pumlx_Token.pdf',
     initTime: { [ChainId.MAINNET]: 1712048400 },
     initPrice: { [ChainId.MAINNET]: 0.013182138610271742 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
