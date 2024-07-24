@@ -1,13 +1,13 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1080
-// Polygon Largest ID: 152
+// BNB Largest ID: 1083
+// Polygon Largest ID: 155
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2007
 // ETH Largest ID: 3016
-// Linea Largest ID: 6005
-// Base Largest ID: 8004
+// Linea Largest ID: 6006
+// Base Largest ID: 8006
 // Lightlink Largest ID: 7000
 // Migration Bonds ID: 5007
 
@@ -155,7 +155,68 @@ const bills: BillsConfig[] = [
   // },
   //
   // BASE
-  //
+  {
+    index: 8006,
+    cmcId: 27486,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x09cBDdEA7C59Bb807a8C7c7b8Fe0b06e43D27132',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.eth,
+    quoteToken: tokens.eth,
+    lpToken: tokens.eth,
+    earnToken: tokens.soph,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://www.sophiaverse.ai/',
+    twitter: 'https://twitter.com/sophiaverse_ai',
+    initTime: { [ChainId.BASE]: 1716217474 },
+    initPrice: { [ChainId.BASE]: 0.005450086440702347 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription:
+      "SophiaVerse is a metaverse platform advancing Artificial General Intelligence (AGI) through the humanoid robot Sophia by Hanson Robotics Ltd. Over two years, it has navigated the dynamic Web3 space, focusing on blockchain and AI. Aiming for a benevolent Singularity, SophiaVerse champions free AI development and an AI Human Hive Mind. The SOPH token anchors the economy, enriches player experiences, supports creators, and stimulates engagement, shaping SophiaVerse's digital ecosystem.",
+    fullDescription:
+      "SophiaVerse is a cutting-edge metaverse platform dedicated to advancing Artificial General Intelligence (AGI) through the humanoid robot Sophia, developed by Hanson Robotics Ltd. Over two years, it has navigated the dynamic Web3 space, marked by fluctuations in crypto exchanges, stablecoins, NFTs, and altcoins, while focusing on blockchain and AI progress. Central to SophiaVerse is the goal of making Sophia sentient, preparing humanity for a benevolent Singularity where machines can think and learn independently. Influenced by OpenAI’s ChatGPT, SophiaVerse champions free AI development and introduces an AI Human Hive Mind, a swarm intelligence model forming Sophia's brain, ensuring mutual benefits for AIs and humans. The SOPH token is integral to the SophiaVerse economy, enabling in-game purchases and facilitating various transactions within SAIL, enhancing the gaming experience. SOPH seamlessly integrates into the virtual universe, driving the economy, enriching player experiences, supporting creators, and stimulating discovery and engagement, making it a cornerstone of SophiaVerse's evolving digital ecosystem.",
+  },
+  {
+    index: 8005,
+    cmcId: 27486,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x9991Ca36Ab086052E7E066Ce553CB909Cc844266',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.eth,
+    quoteToken: tokens.soph,
+    lpToken: tokens.sophEth_Aedrome,
+    earnToken: tokens.soph,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://www.sophiaverse.ai/',
+    twitter: 'https://twitter.com/sophiaverse_ai',
+    initTime: { [ChainId.BASE]: 1716217474 },
+    initPrice: { [ChainId.BASE]: 0.005450086440702347 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription:
+      "SophiaVerse is a metaverse platform advancing Artificial General Intelligence (AGI) through the humanoid robot Sophia by Hanson Robotics Ltd. Over two years, it has navigated the dynamic Web3 space, focusing on blockchain and AI. Aiming for a benevolent Singularity, SophiaVerse champions free AI development and an AI Human Hive Mind. The SOPH token anchors the economy, enriches player experiences, supports creators, and stimulates engagement, shaping SophiaVerse's digital ecosystem.",
+    fullDescription:
+      "SophiaVerse is a cutting-edge metaverse platform dedicated to advancing Artificial General Intelligence (AGI) through the humanoid robot Sophia, developed by Hanson Robotics Ltd. Over two years, it has navigated the dynamic Web3 space, marked by fluctuations in crypto exchanges, stablecoins, NFTs, and altcoins, while focusing on blockchain and AI progress. Central to SophiaVerse is the goal of making Sophia sentient, preparing humanity for a benevolent Singularity where machines can think and learn independently. Influenced by OpenAI’s ChatGPT, SophiaVerse champions free AI development and introduces an AI Human Hive Mind, a swarm intelligence model forming Sophia's brain, ensuring mutual benefits for AIs and humans. The SOPH token is integral to the SophiaVerse economy, enabling in-game purchases and facilitating various transactions within SAIL, enhancing the gaming experience. SOPH seamlessly integrates into the virtual universe, driving the economy, enriching player experiences, supporting creators, and stimulating discovery and engagement, making it a cornerstone of SophiaVerse's evolving digital ecosystem.",
+  },  //
   {
     index: 8004,
     chainId: ChainId.BASE,
@@ -344,7 +405,34 @@ const bills: BillsConfig[] = [
 
   //
   // LINEA
-
+  {
+    index: 6006,
+    chainId: ChainId.LINEA,
+    contractAddress: {
+      [ChainId.LINEA]: '0x85C35033b3D137f97679821bC3c27e09e2821B81',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.eth,
+    quoteToken: tokens.eth,
+    lpToken: tokens.eth,
+    earnToken: tokens.nile,
+    billNnftAddress: {
+      [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
+    },
+    inactive: false,
+    projectLink: 'https://www.thenile.exchange/swap',
+    twitter: 'https://twitter.com/NileExchange',
+    audit: 'https://docs.thenile.exchange/security-and-legal-considerations/inherited-security',
+    initTime: { [ChainId.LINEA]: 1721823456 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DEX'],
+    fullDescription: `NILE is the Native Liquidity Layer on Linea. NILE takes concentrated liquidity to the next level, optimizing for high-frequency LPs and Layer 2 cost structures. The result is a hyper-efficient liquidity layer designed to attract the most effective liquidity providers while delivering a clean and simple UX for traders. NILE has made a strategic decision to select Linea as its platform of choice. This decision is rooted in the belief that the Linea ecosystem offers a wealth of high-integrity projects and DeFi pioneers who are at the forefront of the decentralization movement. With the Layer 2 narrative gaining momentum, the upcoming proto-danksharding EIP (Ethereum Improvement Proposal) further strengthens the ecosystem's potential. The combination of these factors contributes to NILE's confidence in Linea's ability to provide a robust and thriving environment for its operations.`,
+    shortDescription: `NILE is the Native Liquidity Layer on Linea. NILE takes concentrated liquidity to the next level, optimizing for high frequency LPs and Layer 2 cost structures. The result is a hyper-efficient liquidity layer designed to attract the most effective liquidity providers, while delivering a clean and simple UX for traders.`,
+  },
   {
     index: 6005,
     cmcId: 9217,
@@ -495,6 +583,85 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1083,
+    chainId: ChainId.BSC,
+    contractAddress: { [ChainId.BSC]: '0x19e064AeF086CF772c21E15dB9B0686E205779Cb' },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.clash,
+    billNnftAddress: { [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9' },
+    inactive: false,
+    projectLink: 'https://clashub.io/',
+    twitter: 'https://twitter.com/theclashub',
+    initTime: { [ChainId.BSC]: 1721741216 },
+    soldOut: false,
+    billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+    shortDescription:
+      'Clashub is an NFT card game with a Play2Earn system, transforming approved NFTs into playing cards. Players use these cards to battle opponents and earn CLASH Tokens. It uniquely supports NFTs from various networks, enabling diverse gameplay. The CLASH Token serves as the in-game currency for purchases and rewards, with a balanced economic loop to prevent inflation.',
+    fullDescription:
+      "Clashub is an innovative NFT card game that integrates a Play2Earn system into its token economy for both existing and upcoming NFT collections. Through its unique algorithm, Clashub converts NFTs owned by players into playing cards, provided they belong to an approved collection. These cards are then used by players to battle opponents and earn CLASH Tokens. A standout feature of Clashub is its ability to bring together NFTs from different collections on a single gaming platform, allowing for a seamless and diverse gameplay experience. Furthermore, Clashub supports NFTs from various networks, enabling users to utilize their NFTs as playing cards, regardless of the network. The CLASH Token is central to Clashub's ecosystem, facilitating investor processes and the integration of NFT collections. It also functions as the in-game currency, used for marketplace purchases and game rewards. To maintain a stable price structure, Clashub has implemented an in-game loop that balances revenue and expenses, ensuring a sustainable economy.",
+    tags: ['GAMEFI'],
+  },
+  {
+    index: 1082,
+    cmcId: 16711,
+    chainId: ChainId.BSC,
+    contractAddress: { [ChainId.BSC]: '0x390092aE3FEF90CD87b59A557de250b0e9d60CCB' },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.gtai,
+    lpToken: tokens.gtaiUsdt_PCS,
+    earnToken: tokens.gtai,
+    billNnftAddress: { [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9' },
+    inactive: false,
+    projectLink: 'https://www.gt-protocol.io/',
+    twitter: 'https://twitter.com/gt_protocol',
+    audit: 'https://skynet.certik.com/projects/gt-protocol',
+    initTime: { [ChainId.BSC]: 1721652049 },
+    soldOut: false,
+    billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+    shortDescription:
+      'GT Protocol is a conversational Web3 Crypto AI execution technology that provides users with access to CeFi, DeFi, and NFT crypto markets through an all-in-one conversational AI interface. Powered by the GTAI token and incubated by ChainGPT.',
+    fullDescription:
+      'GT Protocol is a conversational Web3 Crypto AI execution technology that provides users with access to CeFi, DeFi, and NFT crypto markets through an all-in-one conversational AI interface. GT Protocol revolutionizes AI crypto management by offering a comprehensive suite of AI-powered tools. Utilize AI-powered portfolio management and benefit from AI-powered auto trading to maximize your returns. Leverage AI to search for the best opportunities in crypto investment deals such as IDOs, staking, and copy trading. Conduct in-depth on-chain and off-chain market analysis with AI assistance for informed decision-making. Additionally, GT Protocol provides AI shopping assistance, making online purchases as easy as chatting with a friend. Enjoy $GTAI token cashback on your purchases and explore cashback reinvestment offers to boost your crypto portfolio growth. Throughout your crypto journey, receive continuous AI onboarding and mentoring. Powered by the GTAI token and incubated by ChainGPT, GT Protocol ensures a seamless and intelligent crypto experience.',
+    tags: ['AI'],
+  },
+  {
+    index: 1081,
+    cmcId: 25822,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x516e134276B2C4f4931058ED0b2730E84320c620',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.ait,
+    quoteToken: tokens.wbnb,
+    lpToken: tokens.aitBnb_PCS,
+    earnToken: tokens.ait,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://aimalls.app/',
+    twitter: 'https://twitter.com/ai_malls',
+    audit: 'https://skynet.certik.com/projects/aimalls',
+    initTime: { [ChainId.BSC]: 1721148582 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription:
+      'AiMalls is the first tokenized e-commerce platform in the Philippines, powered by advanced AI and its utility token, AIT. AiMalls enhances traditional shopping by unifying sellers and buyers on a seamless digital platform focused on efficiency and customer satisfaction. Its vision is to merge e-commerce with consumers, offering Web3 and Web2 users the versatile shopping platform they desire.',
+    fullDescription:
+      'AiMalls is the first tokenized e-commerce platform in the Philippines, certified and powered by state-of-the-art artificial intelligence and underpinned by its utility token, AIT. AiMalls transcends traditional shopping experiences, unifying sellers and buyers in a seamless digital platform where efficiency and customer satisfaction reign supreme. Its vision is to break down barriers between e-commerce and consumers, providing both Web3 and Web2 users with the versatile shopping platform they have always desired. With AiMalls, businesses can target customers more accurately and effectively with personalized offers and discounts. AI-powered algorithms enable a deeper understanding of customer needs, fostering long-term relationships. The platform manages inventory efficiently through automated stock tracking, order processing, and delivery management, while real-time tracking of customer orders ensures seamless service. Security is a top priority, offering the highest level of protection for both merchants and customers through advanced encryption technology. Powerful marketing tools leverage data insights to craft targeted campaigns that drive sales, with real-time tracking for better ROI. Additionally, the platform provides unparalleled scalability to support business growth and is constantly evolving to deliver the best user experience. Personalization features help build strong customer relationships, engaging them at the most effective times to maximize conversions. The products and technology offered provide the infrastructure for success.',
+  },
   {
     index: 1080,
     chainId: ChainId.BSC,
@@ -1466,7 +1633,7 @@ const bills: BillsConfig[] = [
     audit: 'https://skynet.certik.com/projects/aimalls',
     initTime: { [ChainId.BSC]: 1712235600 },
     initPrice: { [ChainId.BSC]: 0.000119256747804887 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -3097,8 +3264,8 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['AI'],
-    fullDescription:
-      'AITECH is paving the way for a more convenient and secure future by providing accessible Artificial Intelligence-as-a-Service (AIaaS), Blockchain-as-a-Service (BaaS), High-Performance Computing Power (HPC), and an artificial intelligence marketplace. All these are backed by their native token: $AITECH.',
+    shortDescription: `AITECH, the world's first deflationary AI utilities token, powers Solidus AI Tech's 8,000 sqft HPC Data Centre in Europe. The GPU Marketplace offers flexible GPU rentals, while the AI Marketplace provides tools for automating tasks. The AITECH Pad Launchpad grants access to early-stage AI projects. The AITECH token facilitates seamless service procurement with fiat conversions and features a burn mechanism to reduce supply.`,
+    fullDescription: `AITECH is the world's first deflationary AI utilities token, powering Solidus AI Tech's eco-friendly High-Performance Computing (HPC) Data Centre in Europe. Spanning 8,000 sqft, this center supports the AI, GPU Marketplace, and Launchpad. The GPU Marketplace provides high-performance GPUs for diverse tasks, offering flexible rentals without upfront costs. The AI Marketplace features AI tools for automating business and personal activities, categorized into Foundational AI Models, AI Agents, and Standalone AI Solutions. The AITECH Pad Launchpad grants access to seed, private, and public rounds for early-stage projects focused on AI and infrastructure. $AITECH token stakers enjoy tiered access to these launches. $AITECH powers the entire ecosystem, enabling seamless service procurement with fiat transactions converted to $AITECH on the blockchain. An unlimited burn mechanism ensures a percentage of tokens used for services is systematically burnt, reducing supply and driving value.`,
   },
   {
     index: 1013,
@@ -3213,8 +3380,8 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    fullDescription:
-      'AITECH is paving the way for a more convenient and secure future by providing accessible Artificial Intelligence-as-a-Service (AIaaS), Blockchain-as-a-Service (BaaS), High-Performance Computing Power (HPC), and an artificial intelligence marketplace. All these are backed by their native token: $AITECH.',
+    shortDescription: `AITECH, the world's first deflationary AI utilities token, powers Solidus AI Tech's 8,000 sqft HPC Data Centre in Europe. The GPU Marketplace offers flexible GPU rentals, while the AI Marketplace provides tools for automating tasks. The AITECH Pad Launchpad grants access to early-stage AI projects. The AITECH token facilitates seamless service procurement with fiat conversions and features a burn mechanism to reduce supply.`,
+    fullDescription: `AITECH is the world's first deflationary AI utilities token, powering Solidus AI Tech's eco-friendly High-Performance Computing (HPC) Data Centre in Europe. Spanning 8,000 sqft, this center supports the AI, GPU Marketplace, and Launchpad. The GPU Marketplace provides high-performance GPUs for diverse tasks, offering flexible rentals without upfront costs. The AI Marketplace features AI tools for automating business and personal activities, categorized into Foundational AI Models, AI Agents, and Standalone AI Solutions. The AITECH Pad Launchpad grants access to seed, private, and public rounds for early-stage projects focused on AI and infrastructure. $AITECH token stakers enjoy tiered access to these launches. $AITECH powers the entire ecosystem, enabling seamless service procurement with fiat transactions converted to $AITECH on the blockchain. An unlimited burn mechanism ensures a percentage of tokens used for services is systematically burnt, reducing supply and driving value.`,
     tags: ['AI'],
   },
   {
@@ -3328,8 +3495,8 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    fullDescription:
-      'Prepare for battle! Arcas is a Play-2-Earn game brought to you by Block Ape Scissors, the top Web3 gaming studio on BNBChain.',
+    shortDescription: `AITECH, the world's first deflationary AI utilities token, powers Solidus AI Tech's 8,000 sqft HPC Data Centre in Europe. The GPU Marketplace offers flexible GPU rentals, while the AI Marketplace provides tools for automating tasks. The AITECH Pad Launchpad grants access to early-stage AI projects. The AITECH token facilitates seamless service procurement with fiat conversions and features a burn mechanism to reduce supply.`,
+    fullDescription: `AITECH is the world's first deflationary AI utilities token, powering Solidus AI Tech's eco-friendly High-Performance Computing (HPC) Data Centre in Europe. Spanning 8,000 sqft, this center supports the AI, GPU Marketplace, and Launchpad. The GPU Marketplace provides high-performance GPUs for diverse tasks, offering flexible rentals without upfront costs. The AI Marketplace features AI tools for automating business and personal activities, categorized into Foundational AI Models, AI Agents, and Standalone AI Solutions. The AITECH Pad Launchpad grants access to seed, private, and public rounds for early-stage projects focused on AI and infrastructure. $AITECH token stakers enjoy tiered access to these launches. $AITECH powers the entire ecosystem, enabling seamless service procurement with fiat transactions converted to $AITECH on the blockchain. An unlimited burn mechanism ensures a percentage of tokens used for services is systematically burnt, reducing supply and driving value.`,
   },
   {
     index: 94,
@@ -3559,10 +3726,8 @@ const bills: BillsConfig[] = [
     initPrice: { [ChainId.BSC]: 0.0370027 },
     soldOut: true,
     showcaseToken: tokens.aitech,
-    shortDescription:
-      'Empowering the future of AI | HPC data center | IaaS platform | AIaaS | BaaS | AI Marketplace | Powered by $AITECH token | Incubated by @Chain_GPT & @decubate',
-    fullDescription:
-      'We are paving the way for a more convenient and secure future by providing accessible Artificial Intelligence-as-a-Service (AIAAS), Blockchain-as-a-Service (BAAS), high-performance computing power (HPC), and an artificial intelligence marketplace. All of these cutting-edge technologies are powered by our native token, AITECH.',
+    shortDescription: `AITECH, the world's first deflationary AI utilities token, powers Solidus AI Tech's 8,000 sqft HPC Data Centre in Europe. The GPU Marketplace offers flexible GPU rentals, while the AI Marketplace provides tools for automating tasks. The AITECH Pad Launchpad grants access to early-stage AI projects. The AITECH token facilitates seamless service procurement with fiat conversions and features a burn mechanism to reduce supply.`,
+    fullDescription: `AITECH is the world's first deflationary AI utilities token, powering Solidus AI Tech's eco-friendly High-Performance Computing (HPC) Data Centre in Europe. Spanning 8,000 sqft, this center supports the AI, GPU Marketplace, and Launchpad. The GPU Marketplace provides high-performance GPUs for diverse tasks, offering flexible rentals without upfront costs. The AI Marketplace features AI tools for automating business and personal activities, categorized into Foundational AI Models, AI Agents, and Standalone AI Solutions. The AITECH Pad Launchpad grants access to seed, private, and public rounds for early-stage projects focused on AI and infrastructure. $AITECH token stakers enjoy tiered access to these launches. $AITECH powers the entire ecosystem, enabling seamless service procurement with fiat transactions converted to $AITECH on the blockchain. An unlimited burn mechanism ensures a percentage of tokens used for services is systematically burnt, reducing supply and driving value.`,
     partnersURLS: [
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1695915128/bond-highlights/bsc',
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1695915051/bond-highlights/decubate',
@@ -3621,6 +3786,9 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.BSC]: 1693411200 },
     initPrice: { [ChainId.BSC]: 0.0262588 },
     soldOut: true,
+    shortDescription:
+      'Cogito Finance integrates traditional financial assets into Onchain Finance using smart contract vaults, tackling DeFi challenges like yield farming, credit risk, and regulatory issues. The CGV token governs the platform, allowing community influence. Cogito enhances liquidity, security, and transparency by tokenizing traditional assets. Led by industry experts, Cogito offers compliant, transparent, and efficient investment products for DAOs, DeFi protocols, and institutions.',
+    fullDescription: `Cogito Finance offers institutional-grade products through smart contract vaults, seamlessly integrating traditional financial assets into Onchain Finance. This approach addresses Decentralized Finance's (DeFi) challenges, including unsustainable yield farming, credit risk, and regulatory ambiguity. The CGV token serves as Cogito Finance's governance and utility token, empowering the community to influence the project's roadmap and FUND tokens' parameters. By tokenizing traditional assets, Cogito enhances liquidity, security, and transparency onchain. Led by experts in banking, compliance, and blockchain infrastructure, Cogito ensures regulatory compliance and real-time transparency. DAOs can utilize their treasuries with stable, low-risk T-Bills, DeFi protocols can integrate tokenized fixed-income assets to boost yields, and institutions can access traditional financial products on the blockchain for reduced costs, increased liquidity, and operational efficiency.`,
   },
   {
     index: 83,
@@ -5494,6 +5662,99 @@ const bills: BillsConfig[] = [
     Polygon Bills
   */
   {
+    index: 155,
+    cmcId: 17704,
+    chainId: ChainId.MATIC,
+    contractAddress: {
+      [ChainId.MATIC]: '0x1d942f4600b5f030224665898AB0CDcad8F91C80',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.mv,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.mvUsdt_QS,
+    earnToken: tokens.mv,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://genso.game/en/',
+    twitter: 'https://twitter.com/genso_meta',
+    audit: 'https://skynet.certik.com/projects/gensokishi-online-metaworld',
+    initTime: { [ChainId.MATIC]: 1701892800 },
+    initPrice: { [ChainId.MATIC]: 0.00254 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+    tags: ['GAMEFI'],
+    shortDescription:
+      'GENSO is the metaverse incarnation of “Elemental Knights Online,” which won the 2012 Game of the Year (Gold) in Taiwan. Utilizing blockchain technology, we aim to create a new economy within the virtual world. This MMORPG-based, fantasy-themed metaverse allows players to connect with others in our 3D world and engage in various activities by importing LAND, NFTs, or MV/ROND tokens. Powered by the MV token. <a href="https://twitter.com/genso_meta/status/1755246359165157634" target="_blank" rel="noopener noreferrer" style="color: #6560C5">ApeBond Shield</a>',
+    fullDescription:
+      'GENSO is the metaverse incarnation of “Elemental Knights Online,” which won the 2012 Game of the Year (Gold) in Taiwan. Utilizing blockchain technology, we aim to create a new economy within the virtual world. This MMORPG-based, fantasy-themed metaverse allows players to connect with others in our 3D world and engage in various activities by importing LAND, NFTs, or MV/ROND tokens. GENSO offers a support program for participants who create or develop in the GENSO Metaverse, backed by sponsors and other organizations. Contests are held with cash prizes for excellent works, and sponsors and companies will fund creators while GENSO official sales will also generate income for them. Exceptional works will appear on PlayStation and Nintendo Switch. MV, the native token of GENSO, and it stands for Metaverse and is crucial for building the metaverse world. It is used as gas on the MV Chain and provides voting rights for metaverse policies, discounted prices for special equipment, rights for strengthening equipment, and purchasing exclusive items. MV Coin also has staking functions, allowing users to earn ROND Coin and receive special NFTs and rights within UGC (User-Generated Content) by staking a certain volume of MV. Additionally, it grants rights to participate in auctions for creating maps and monsters and purchasing availability for creating them. Post-release, MV will be used for transaction fees, various LAND activities, transactions, and in partnered games playable on GENSO, such as JongNavi Mahjong.',
+  },
+  {
+    index: 154,
+    cmcId: 17131,
+    chainId: ChainId.MATIC,
+    contractAddress: {
+      [ChainId.MATIC]: '0x3Ab678FEE99eA8E632038D14dd29cff57D1FdB33',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.ixt,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://planetix.com/',
+    twitter: 'https://twitter.com/Planetix0',
+    initTime: { [ChainId.MATIC]: 1721207158 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.PlanetIX_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+    shortDescription:
+      'Planet IX is an evolving world with a marketplace, multiple corporations, unique gaming experiences, and utilities that help players resurrect and rebuild their planet. Connect your land to earn IXT and farm IXT without investing anything but time. Help rejuvenate the broken lands and build the Planet of Tomorrow.',
+    fullDescription: `Planet IX is an evolutionary world with a marketplace, multiple corporations, unique gaming experiences, and utilities that aid players in their collective mission to resurrect and rebuild the planet they once called home. In Planet IX, you can connect your land to earn IXT. You’ll also be able to farm your way to IXT without investing anything other than your time. Connect your land, help rejuvenate the broken lands, and build the Planet of Tomorrow. Planet IX is at the forefront of a revolution in the virtual land strategy development space. It provides tools to decentralize and empower the gaming community while helping individuals use their passion and skill to play and build businesses. Blurring the lines between the digital and physical worlds, Planet IX and its players redefine the term reality again and again. IXT is the medium of exchange in the Planet IX ecosystem, serving as in-game currency, rewards, and conferring voting rights. IXT is the only ERC-20 token in the game's economy of assets and is the key to playing the game, trading, and purchasing assets.`,
+    tags: ['GAMEFI', 'NFT'],
+  },
+  {
+    index: 153,
+    cmcId: 17131,
+    chainId: ChainId.MATIC,
+    contractAddress: {
+      [ChainId.MATIC]: '0x278BD0829e7A4dAa0cC407d3eA4958B3B85867a1',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.ixt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.ixtUsdt_QS,
+    earnToken: tokens.ixt,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://planetix.com/',
+    twitter: 'https://twitter.com/Planetix0',
+    initTime: { [ChainId.MATIC]: 1721207158 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.PlanetIX_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+    shortDescription:
+      'Planet IX is an evolving world with a marketplace, multiple corporations, unique gaming experiences, and utilities that help players resurrect and rebuild their planet. Connect your land to earn IXT and farm IXT without investing anything but time. Help rejuvenate the broken lands and build the Planet of Tomorrow.',
+    fullDescription: `Planet IX is an evolutionary world with a marketplace, multiple corporations, unique gaming experiences, and utilities that aid players in their collective mission to resurrect and rebuild the planet they once called home. In Planet IX, you can connect your land to earn IXT. You’ll also be able to farm your way to IXT without investing anything other than your time. Connect your land, help rejuvenate the broken lands, and build the Planet of Tomorrow. Planet IX is at the forefront of a revolution in the virtual land strategy development space. It provides tools to decentralize and empower the gaming community while helping individuals use their passion and skill to play and build businesses. Blurring the lines between the digital and physical worlds, Planet IX and its players redefine the term reality again and again. IXT is the medium of exchange in the Planet IX ecosystem, serving as in-game currency, rewards, and conferring voting rights. IXT is the only ERC-20 token in the game's economy of assets and is the key to playing the game, trading, and purchasing assets.`,
+    tags: ['GAMEFI', 'NFT'],
+  },
+  {
     index: 152,
     cmcId: 24103,
     chainId: ChainId.MATIC,
@@ -5581,7 +5842,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/Planetix0',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.347018667988457 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.PlanetIX_Collection1,
     },
@@ -5612,7 +5873,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/Planetix0',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.347018667988457 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.PlanetIX_Collection1,
     },
@@ -6033,7 +6294,7 @@ const bills: BillsConfig[] = [
     audit: 'https://skynet.certik.com/projects/gensokishi-online-metaworld',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.00254 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
@@ -6599,8 +6860,8 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.Quickswap_Collection1,
     },
     bondPartner: 'QuickSwap',
-    fullDescription:
-      'Orbs is an open, decentralized and public blockchain infrastructure executed by a secure network of permissionless validators using Proof-of-Stake (PoS) consensus.',
+    shortDescription: `Orbs is a decentralized Layer-3 blockchain infrastructure enhancing on-chain trading with advanced tools like aggregated liquidity, advanced orders, and decentralized derivatives. Acting as a separate execution layer between L1/L2 and the application layer, Orbs powers protocols such as dLIMIT and dTWAP. Since 2017, Orbs has brought CeFi-level execution to DeFi trading, providing secure, scalable, and efficient solutions without centralized intermediaries.`,
+    fullDescription: `Orbs is a decentralized Layer-3 (L3) blockchain infrastructure designed specifically for advanced on-chain trading. Since its inception in 2017, Orbs has pioneered on-chain innovation by enhancing the capabilities of both EVM and non-EVM smart contracts without moving liquidity onto a new chain. Positioned as a separate execution layer between L1/L2 solutions and the application layer, Orbs provides technology for aggregated liquidity, advanced trading orders, and decentralized derivatives, powering protocols such as dLIMIT, dTWAP, and Liquidity Hub. By creating a decentralized backend, Orbs delivers CeFi-level execution to DeFi trading, ensuring scalable, efficient, and secure trading solutions. Orbs' mission is to revolutionize on-chain trading by bringing CeFi-level pricing and execution capabilities to the DeFi ecosystem, transforming the landscape with advanced tools and platforms that eliminate the need for centralized intermediaries.`,
     tags: ['Infra'],
   },
   {
@@ -7605,8 +7866,9 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ETH_Collection1,
     },
     tags: ['RWA'],
-    fullDescription:
-      "As a SingularityNET ecosystem project, Cogito Finance leverages Snet's AI technologies for intelligent asset management, tokenizing RWAs for onchain access.",
+    shortDescription:
+      'Cogito Finance integrates traditional financial assets into Onchain Finance using smart contract vaults, tackling DeFi challenges like yield farming, credit risk, and regulatory issues. The CGV token governs the platform, allowing community influence. Cogito enhances liquidity, security, and transparency by tokenizing traditional assets. Led by industry experts, Cogito offers compliant, transparent, and efficient investment products for DAOs, DeFi protocols, and institutions.',
+    fullDescription: `Cogito Finance offers institutional-grade products through smart contract vaults, seamlessly integrating traditional financial assets into Onchain Finance. This approach addresses Decentralized Finance's (DeFi) challenges, including unsustainable yield farming, credit risk, and regulatory ambiguity. The CGV token serves as Cogito Finance's governance and utility token, empowering the community to influence the project's roadmap and FUND tokens' parameters. By tokenizing traditional assets, Cogito enhances liquidity, security, and transparency onchain. Led by experts in banking, compliance, and blockchain infrastructure, Cogito ensures regulatory compliance and real-time transparency. DAOs can utilize their treasuries with stable, low-risk T-Bills, DeFi protocols can integrate tokenized fixed-income assets to boost yields, and institutions can access traditional financial products on the blockchain for reduced costs, increased liquidity, and operational efficiency.`,
   },
   {
     index: 3001,
@@ -7904,7 +8166,7 @@ const bills: BillsConfig[] = [
       'https://github.com/chainsulting/Smart-Contract-Security-Audits/blob/master/Pummel%20Health/Smart_Contract_Audit_Pumlx_Token.pdf',
     initTime: { [ChainId.MAINNET]: 1712048400 },
     initPrice: { [ChainId.MAINNET]: 0.013182138610271742 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
@@ -7978,8 +8240,8 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
-    fullDescription:
-      'Orbs is an open, decentralized and public blockchain infrastructure executed by a secure network of permissionless validators using Proof-of-Stake (PoS) consensus.',
+    shortDescription: `Orbs is a decentralized Layer-3 blockchain infrastructure enhancing on-chain trading with advanced tools like aggregated liquidity, advanced orders, and decentralized derivatives. Acting as a separate execution layer between L1/L2 and the application layer, Orbs powers protocols such as dLIMIT and dTWAP. Since 2017, Orbs has brought CeFi-level execution to DeFi trading, providing secure, scalable, and efficient solutions without centralized intermediaries.`,
+    fullDescription: `Orbs is a decentralized Layer-3 (L3) blockchain infrastructure designed specifically for advanced on-chain trading. Since its inception in 2017, Orbs has pioneered on-chain innovation by enhancing the capabilities of both EVM and non-EVM smart contracts without moving liquidity onto a new chain. Positioned as a separate execution layer between L1/L2 solutions and the application layer, Orbs provides technology for aggregated liquidity, advanced trading orders, and decentralized derivatives, powering protocols such as dLIMIT, dTWAP, and Liquidity Hub. By creating a decentralized backend, Orbs delivers CeFi-level execution to DeFi trading, ensuring scalable, efficient, and secure trading solutions. Orbs' mission is to revolutionize on-chain trading by bringing CeFi-level pricing and execution capabilities to the DeFi ecosystem, transforming the landscape with advanced tools and platforms that eliminate the need for centralized intermediaries.`,
     tags: ['Infra'],
   },
   {

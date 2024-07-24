@@ -2914,6 +2914,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  clash: {
+    symbol: 'CLASH',
+    address: {
+      [ChainId.BSC]: '0x8DC0F602696De3fF03B37e19A172e5080f049C15',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+    },
+    active: true,
+  },
   fav: {
     symbol: 'FAV',
     address: {

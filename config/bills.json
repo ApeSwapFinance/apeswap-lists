@@ -1,5 +1,255 @@
 [
   {
+    "index": 8006,
+    "cmcId": 27486,
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0x09cBDdEA7C59Bb807a8C7c7b8Fe0b06e43D27132"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "1890": "0x7EbeF2A4b1B09381Ec5B9dF8C5c6f2dBECA59c73",
+        "8453": "0x4200000000000000000000000000000000000006",
+        "8822": "0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+        "59144": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "1890": 18,
+        "8453": 18,
+        "8822": 18,
+        "42161": 18,
+        "59144": 18
+      },
+      "liquidityDex": {
+        "1890": "Elektrik",
+        "8453": "Aerodrome",
+        "8822": "MagicSea",
+        "59144": "Lynex"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "1890": "0x7EbeF2A4b1B09381Ec5B9dF8C5c6f2dBECA59c73",
+        "8453": "0x4200000000000000000000000000000000000006",
+        "8822": "0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+        "59144": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "1890": 18,
+        "8453": 18,
+        "8822": 18,
+        "42161": 18,
+        "59144": 18
+      },
+      "liquidityDex": {
+        "1890": "Elektrik",
+        "8453": "Aerodrome",
+        "8822": "MagicSea",
+        "59144": "Lynex"
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "1890": "0x7EbeF2A4b1B09381Ec5B9dF8C5c6f2dBECA59c73",
+        "8453": "0x4200000000000000000000000000000000000006",
+        "8822": "0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+        "59144": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "1890": 18,
+        "8453": 18,
+        "8822": 18,
+        "42161": 18,
+        "59144": 18
+      },
+      "liquidityDex": {
+        "1890": "Elektrik",
+        "8453": "Aerodrome",
+        "8822": "MagicSea",
+        "59144": "Lynex"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "SOPH",
+      "address": {
+        "8453": "0x73fBD93bFDa83B111DdC092aa3a4ca77fD30d380"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "8453": "Aerodrome"
+      }
+    },
+    "billNnftAddress": {
+      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "inactive": false,
+    "projectLink": "https://www.sophiaverse.ai/",
+    "twitter": "https://twitter.com/sophiaverse_ai",
+    "initTime": {
+      "8453": 1716217474
+    },
+    "initPrice": {
+      "8453": 0.005450086440702347
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["AI"],
+    "shortDescription": "SophiaVerse is a metaverse platform advancing Artificial General Intelligence (AGI) through the humanoid robot Sophia by Hanson Robotics Ltd. Over two years, it has navigated the dynamic Web3 space, focusing on blockchain and AI. Aiming for a benevolent Singularity, SophiaVerse champions free AI development and an AI Human Hive Mind. The SOPH token anchors the economy, enriches player experiences, supports creators, and stimulates engagement, shaping SophiaVerse's digital ecosystem.",
+    "fullDescription": "SophiaVerse is a cutting-edge metaverse platform dedicated to advancing Artificial General Intelligence (AGI) through the humanoid robot Sophia, developed by Hanson Robotics Ltd. Over two years, it has navigated the dynamic Web3 space, marked by fluctuations in crypto exchanges, stablecoins, NFTs, and altcoins, while focusing on blockchain and AI progress. Central to SophiaVerse is the goal of making Sophia sentient, preparing humanity for a benevolent Singularity where machines can think and learn independently. Influenced by OpenAI’s ChatGPT, SophiaVerse champions free AI development and introduces an AI Human Hive Mind, a swarm intelligence model forming Sophia's brain, ensuring mutual benefits for AIs and humans. The SOPH token is integral to the SophiaVerse economy, enabling in-game purchases and facilitating various transactions within SAIL, enhancing the gaming experience. SOPH seamlessly integrates into the virtual universe, driving the economy, enriching player experiences, supporting creators, and stimulating discovery and engagement, making it a cornerstone of SophiaVerse's evolving digital ecosystem."
+  },
+  {
+    "index": 8005,
+    "cmcId": 27486,
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0x9991Ca36Ab086052E7E066Ce553CB909Cc844266"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "1890": "0x7EbeF2A4b1B09381Ec5B9dF8C5c6f2dBECA59c73",
+        "8453": "0x4200000000000000000000000000000000000006",
+        "8822": "0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+        "59144": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "1890": 18,
+        "8453": 18,
+        "8822": 18,
+        "42161": 18,
+        "59144": 18
+      },
+      "liquidityDex": {
+        "1890": "Elektrik",
+        "8453": "Aerodrome",
+        "8822": "MagicSea",
+        "59144": "Lynex"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "SOPH",
+      "address": {
+        "8453": "0x73fBD93bFDa83B111DdC092aa3a4ca77fD30d380"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "8453": "Aerodrome"
+      }
+    },
+    "lpToken": {
+      "symbol": "SOPH-WETH",
+      "address": {
+        "8453": "0x1306B112CD7e2DeFa1CdB163DDA3B0D1c186E6bB"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "liquidityDex": {
+        "8453": "Aerodrome"
+      },
+      "active": true,
+      "lpToken": true,
+      "getLpUrl": {
+        "8453": "https://aerodrome.finance/deposit?token0=0x4200000000000000000000000000000000000006&token1=0x73fBD93bFDa83B111DdC092aa3a4ca77fD30d380&type=-1"
+      }
+    },
+    "earnToken": {
+      "symbol": "SOPH",
+      "address": {
+        "8453": "0x73fBD93bFDa83B111DdC092aa3a4ca77fD30d380"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "8453": "Aerodrome"
+      }
+    },
+    "billNnftAddress": {
+      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "inactive": false,
+    "projectLink": "https://www.sophiaverse.ai/",
+    "twitter": "https://twitter.com/sophiaverse_ai",
+    "initTime": {
+      "8453": 1716217474
+    },
+    "initPrice": {
+      "8453": 0.005450086440702347
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["AI"],
+    "shortDescription": "SophiaVerse is a metaverse platform advancing Artificial General Intelligence (AGI) through the humanoid robot Sophia by Hanson Robotics Ltd. Over two years, it has navigated the dynamic Web3 space, focusing on blockchain and AI. Aiming for a benevolent Singularity, SophiaVerse champions free AI development and an AI Human Hive Mind. The SOPH token anchors the economy, enriches player experiences, supports creators, and stimulates engagement, shaping SophiaVerse's digital ecosystem.",
+    "fullDescription": "SophiaVerse is a cutting-edge metaverse platform dedicated to advancing Artificial General Intelligence (AGI) through the humanoid robot Sophia, developed by Hanson Robotics Ltd. Over two years, it has navigated the dynamic Web3 space, marked by fluctuations in crypto exchanges, stablecoins, NFTs, and altcoins, while focusing on blockchain and AI progress. Central to SophiaVerse is the goal of making Sophia sentient, preparing humanity for a benevolent Singularity where machines can think and learn independently. Influenced by OpenAI’s ChatGPT, SophiaVerse champions free AI development and introduces an AI Human Hive Mind, a swarm intelligence model forming Sophia's brain, ensuring mutual benefits for AIs and humans. The SOPH token is integral to the SophiaVerse economy, enabling in-game purchases and facilitating various transactions within SAIL, enhancing the gaming experience. SOPH seamlessly integrates into the virtual universe, driving the economy, enriching player experiences, supporting creators, and stimulating discovery and engagement, making it a cornerstone of SophiaVerse's evolving digital ecosystem."
+  },
+  {
     "index": 8004,
     "chainId": 8453,
     "contractAddress": {
@@ -778,6 +1028,147 @@
     "shortDescription": "LightLink is an Ethereum L2 blockchain enabling dApps and enterprises to offer instant, gasless transactions. Their mission is to integrate millions into the digital economy with user-friendly dApps and enterprise partnerships, making blockchain as intuitive and accessible as Web2, without the complexity of gas fees and protocols."
   },
   {
+    "index": 6006,
+    "chainId": 59144,
+    "contractAddress": {
+      "59144": "0x85C35033b3D137f97679821bC3c27e09e2821B81"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "1890": "0x7EbeF2A4b1B09381Ec5B9dF8C5c6f2dBECA59c73",
+        "8453": "0x4200000000000000000000000000000000000006",
+        "8822": "0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+        "59144": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "1890": 18,
+        "8453": 18,
+        "8822": 18,
+        "42161": 18,
+        "59144": 18
+      },
+      "liquidityDex": {
+        "1890": "Elektrik",
+        "8453": "Aerodrome",
+        "8822": "MagicSea",
+        "59144": "Lynex"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "1890": "0x7EbeF2A4b1B09381Ec5B9dF8C5c6f2dBECA59c73",
+        "8453": "0x4200000000000000000000000000000000000006",
+        "8822": "0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+        "59144": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "1890": 18,
+        "8453": 18,
+        "8822": 18,
+        "42161": 18,
+        "59144": 18
+      },
+      "liquidityDex": {
+        "1890": "Elektrik",
+        "8453": "Aerodrome",
+        "8822": "MagicSea",
+        "59144": "Lynex"
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "1890": "0x7EbeF2A4b1B09381Ec5B9dF8C5c6f2dBECA59c73",
+        "8453": "0x4200000000000000000000000000000000000006",
+        "8822": "0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+        "59144": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "1890": 18,
+        "8453": 18,
+        "8822": 18,
+        "42161": 18,
+        "59144": 18
+      },
+      "liquidityDex": {
+        "1890": "Elektrik",
+        "8453": "Aerodrome",
+        "8822": "MagicSea",
+        "59144": "Lynex"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "NILE",
+      "address": {
+        "59144": "0xAAAac83751090C6ea42379626435f805DDF54DC8"
+      },
+      "decimals": {
+        "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "59144": "0xFA40b551980aF88FD2929Ab41f57D98ee13A6354"
+    },
+    "inactive": false,
+    "projectLink": "https://www.thenile.exchange/swap",
+    "twitter": "https://twitter.com/NileExchange",
+    "audit": "https://docs.thenile.exchange/security-and-legal-considerations/inherited-security",
+    "initTime": {
+      "59144": 1721823456
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["DEX"],
+    "fullDescription": "NILE is the Native Liquidity Layer on Linea. NILE takes concentrated liquidity to the next level, optimizing for high-frequency LPs and Layer 2 cost structures. The result is a hyper-efficient liquidity layer designed to attract the most effective liquidity providers while delivering a clean and simple UX for traders. NILE has made a strategic decision to select Linea as its platform of choice. This decision is rooted in the belief that the Linea ecosystem offers a wealth of high-integrity projects and DeFi pioneers who are at the forefront of the decentralization movement. With the Layer 2 narrative gaining momentum, the upcoming proto-danksharding EIP (Ethereum Improvement Proposal) further strengthens the ecosystem's potential. The combination of these factors contributes to NILE's confidence in Linea's ability to provide a robust and thriving environment for its operations.",
+    "shortDescription": "NILE is the Native Liquidity Layer on Linea. NILE takes concentrated liquidity to the next level, optimizing for high frequency LPs and Layer 2 cost structures. The result is a hyper-efficient liquidity layer designed to attract the most effective liquidity providers, while delivering a clean and simple UX for traders."
+  },
+  {
     "index": 6005,
     "cmcId": 9217,
     "chainId": 59144,
@@ -1437,6 +1828,338 @@
     },
     "tags": ["DeFi"],
     "shortDescription": "Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!"
+  },
+  {
+    "index": 1083,
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0x19e064AeF086CF772c21E15dB9B0686E205779Cb"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "1890": 6,
+        "2525": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8822": "MagicSea",
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "1890": 6,
+        "2525": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8822": "MagicSea",
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "1890": 6,
+        "2525": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8822": "MagicSea",
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "CLASH",
+      "address": {
+        "56": "0x8DC0F602696De3fF03B37e19A172e5080f049C15"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://clashub.io/",
+    "twitter": "https://twitter.com/theclashub",
+    "initTime": {
+      "56": 1721741216
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "shortDescription": "Clashub is an NFT card game with a Play2Earn system, transforming approved NFTs into playing cards. Players use these cards to battle opponents and earn CLASH Tokens. It uniquely supports NFTs from various networks, enabling diverse gameplay. The CLASH Token serves as the in-game currency for purchases and rewards, with a balanced economic loop to prevent inflation.",
+    "fullDescription": "Clashub is an innovative NFT card game that integrates a Play2Earn system into its token economy for both existing and upcoming NFT collections. Through its unique algorithm, Clashub converts NFTs owned by players into playing cards, provided they belong to an approved collection. These cards are then used by players to battle opponents and earn CLASH Tokens. A standout feature of Clashub is its ability to bring together NFTs from different collections on a single gaming platform, allowing for a seamless and diverse gameplay experience. Furthermore, Clashub supports NFTs from various networks, enabling users to utilize their NFTs as playing cards, regardless of the network. The CLASH Token is central to Clashub's ecosystem, facilitating investor processes and the integration of NFT collections. It also functions as the in-game currency, used for marketplace purchases and game rewards. To maintain a stable price structure, Clashub has implemented an in-game loop that balances revenue and expenses, ensuring a sustainable economy.",
+    "tags": ["GAMEFI"]
+  },
+  {
+    "index": 1082,
+    "cmcId": 16711,
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0x390092aE3FEF90CD87b59A557de250b0e9d60CCB"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "1890": 6,
+        "2525": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8822": "MagicSea",
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "GTAI",
+      "address": {
+        "56": "0x003d87d02A2A01E9E8a20f507C83E15DD83A33d1"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      }
+    },
+    "lpToken": {
+      "symbol": "GTAI-USDT",
+      "address": {
+        "56": "0xAB1E062Ab03b11fF7Dd943C50b9aa2bF9933C1F3"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "getLpUrl": {
+        "56": "https://pancakeswap.finance/v2/add/0x55d398326f99059fF775485246999027B3197955/0x003d87d02A2A01E9E8a20f507C83E15DD83A33d1"
+      }
+    },
+    "earnToken": {
+      "symbol": "GTAI",
+      "address": {
+        "56": "0x003d87d02A2A01E9E8a20f507C83E15DD83A33d1"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      }
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://www.gt-protocol.io/",
+    "twitter": "https://twitter.com/gt_protocol",
+    "audit": "https://skynet.certik.com/projects/gt-protocol",
+    "initTime": {
+      "56": 1721652049
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "shortDescription": "GT Protocol is a conversational Web3 Crypto AI execution technology that provides users with access to CeFi, DeFi, and NFT crypto markets through an all-in-one conversational AI interface. Powered by the GTAI token and incubated by ChainGPT.",
+    "fullDescription": "GT Protocol is a conversational Web3 Crypto AI execution technology that provides users with access to CeFi, DeFi, and NFT crypto markets through an all-in-one conversational AI interface. GT Protocol revolutionizes AI crypto management by offering a comprehensive suite of AI-powered tools. Utilize AI-powered portfolio management and benefit from AI-powered auto trading to maximize your returns. Leverage AI to search for the best opportunities in crypto investment deals such as IDOs, staking, and copy trading. Conduct in-depth on-chain and off-chain market analysis with AI assistance for informed decision-making. Additionally, GT Protocol provides AI shopping assistance, making online purchases as easy as chatting with a friend. Enjoy $GTAI token cashback on your purchases and explore cashback reinvestment offers to boost your crypto portfolio growth. Throughout your crypto journey, receive continuous AI onboarding and mentoring. Powered by the GTAI token and incubated by ChainGPT, GT Protocol ensures a seamless and intelligent crypto experience.",
+    "tags": ["AI"]
+  },
+  {
+    "index": 1081,
+    "cmcId": 25822,
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0x516e134276B2C4f4931058ED0b2730E84320c620"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "AIT",
+      "address": {
+        "56": "0x5F113F7ef20Ff111FD130e83D8e97Fd1E0E2518F"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "AIT-BNB",
+      "address": {
+        "56": "0x84DBc37BE759d222725c193C27694f405a16896a"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "getLpUrl": {
+        "56": "https://pancakeswap.finance/v2/add/BNB/0x5F113F7ef20Ff111FD130e83D8e97Fd1E0E2518F"
+      }
+    },
+    "earnToken": {
+      "symbol": "AIT",
+      "address": {
+        "56": "0x5F113F7ef20Ff111FD130e83D8e97Fd1E0E2518F"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://aimalls.app/",
+    "twitter": "https://twitter.com/ai_malls",
+    "audit": "https://skynet.certik.com/projects/aimalls",
+    "initTime": {
+      "56": 1721148582
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["AI"],
+    "shortDescription": "AiMalls is the first tokenized e-commerce platform in the Philippines, powered by advanced AI and its utility token, AIT. AiMalls enhances traditional shopping by unifying sellers and buyers on a seamless digital platform focused on efficiency and customer satisfaction. Its vision is to merge e-commerce with consumers, offering Web3 and Web2 users the versatile shopping platform they desire.",
+    "fullDescription": "AiMalls is the first tokenized e-commerce platform in the Philippines, certified and powered by state-of-the-art artificial intelligence and underpinned by its utility token, AIT. AiMalls transcends traditional shopping experiences, unifying sellers and buyers in a seamless digital platform where efficiency and customer satisfaction reign supreme. Its vision is to break down barriers between e-commerce and consumers, providing both Web3 and Web2 users with the versatile shopping platform they have always desired. With AiMalls, businesses can target customers more accurately and effectively with personalized offers and discounts. AI-powered algorithms enable a deeper understanding of customer needs, fostering long-term relationships. The platform manages inventory efficiently through automated stock tracking, order processing, and delivery management, while real-time tracking of customer orders ensures seamless service. Security is a top priority, offering the highest level of protection for both merchants and customers through advanced encryption technology. Powerful marketing tools leverage data insights to craft targeted campaigns that drive sales, with real-time tracking for better ROI. Additionally, the platform provides unparalleled scalability to support business growth and is constantly evolving to deliver the best user experience. Personalization features help build strong customer relationships, engaging them at the most effective times to maximize conversions. The products and technology offered provide the infrastructure for success."
   },
   {
     "index": 1080,
@@ -5501,7 +6224,7 @@
     "initPrice": {
       "56": 0.000119256747804887
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -11858,7 +12581,8 @@
       "collection": "ApeBond_Collection1"
     },
     "tags": ["AI"],
-    "fullDescription": "AITECH is paving the way for a more convenient and secure future by providing accessible Artificial Intelligence-as-a-Service (AIaaS), Blockchain-as-a-Service (BaaS), High-Performance Computing Power (HPC), and an artificial intelligence marketplace. All these are backed by their native token: $AITECH."
+    "shortDescription": "AITECH, the world's first deflationary AI utilities token, powers Solidus AI Tech's 8,000 sqft HPC Data Centre in Europe. The GPU Marketplace offers flexible GPU rentals, while the AI Marketplace provides tools for automating tasks. The AITECH Pad Launchpad grants access to early-stage AI projects. The AITECH token facilitates seamless service procurement with fiat conversions and features a burn mechanism to reduce supply.",
+    "fullDescription": "AITECH is the world's first deflationary AI utilities token, powering Solidus AI Tech's eco-friendly High-Performance Computing (HPC) Data Centre in Europe. Spanning 8,000 sqft, this center supports the AI, GPU Marketplace, and Launchpad. The GPU Marketplace provides high-performance GPUs for diverse tasks, offering flexible rentals without upfront costs. The AI Marketplace features AI tools for automating business and personal activities, categorized into Foundational AI Models, AI Agents, and Standalone AI Solutions. The AITECH Pad Launchpad grants access to seed, private, and public rounds for early-stage projects focused on AI and infrastructure. $AITECH token stakers enjoy tiered access to these launches. $AITECH powers the entire ecosystem, enabling seamless service procurement with fiat transactions converted to $AITECH on the blockchain. An unlimited burn mechanism ensures a percentage of tokens used for services is systematically burnt, reducing supply and driving value."
   },
   {
     "index": 1013,
@@ -12381,7 +13105,8 @@
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
-    "fullDescription": "AITECH is paving the way for a more convenient and secure future by providing accessible Artificial Intelligence-as-a-Service (AIaaS), Blockchain-as-a-Service (BaaS), High-Performance Computing Power (HPC), and an artificial intelligence marketplace. All these are backed by their native token: $AITECH.",
+    "shortDescription": "AITECH, the world's first deflationary AI utilities token, powers Solidus AI Tech's 8,000 sqft HPC Data Centre in Europe. The GPU Marketplace offers flexible GPU rentals, while the AI Marketplace provides tools for automating tasks. The AITECH Pad Launchpad grants access to early-stage AI projects. The AITECH token facilitates seamless service procurement with fiat conversions and features a burn mechanism to reduce supply.",
+    "fullDescription": "AITECH is the world's first deflationary AI utilities token, powering Solidus AI Tech's eco-friendly High-Performance Computing (HPC) Data Centre in Europe. Spanning 8,000 sqft, this center supports the AI, GPU Marketplace, and Launchpad. The GPU Marketplace provides high-performance GPUs for diverse tasks, offering flexible rentals without upfront costs. The AI Marketplace features AI tools for automating business and personal activities, categorized into Foundational AI Models, AI Agents, and Standalone AI Solutions. The AITECH Pad Launchpad grants access to seed, private, and public rounds for early-stage projects focused on AI and infrastructure. $AITECH token stakers enjoy tiered access to these launches. $AITECH powers the entire ecosystem, enabling seamless service procurement with fiat transactions converted to $AITECH on the blockchain. An unlimited burn mechanism ensures a percentage of tokens used for services is systematically burnt, reducing supply and driving value.",
     "tags": ["AI"]
   },
   {
@@ -12863,7 +13588,8 @@
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
-    "fullDescription": "Prepare for battle! Arcas is a Play-2-Earn game brought to you by Block Ape Scissors, the top Web3 gaming studio on BNBChain."
+    "shortDescription": "AITECH, the world's first deflationary AI utilities token, powers Solidus AI Tech's 8,000 sqft HPC Data Centre in Europe. The GPU Marketplace offers flexible GPU rentals, while the AI Marketplace provides tools for automating tasks. The AITECH Pad Launchpad grants access to early-stage AI projects. The AITECH token facilitates seamless service procurement with fiat conversions and features a burn mechanism to reduce supply.",
+    "fullDescription": "AITECH is the world's first deflationary AI utilities token, powering Solidus AI Tech's eco-friendly High-Performance Computing (HPC) Data Centre in Europe. Spanning 8,000 sqft, this center supports the AI, GPU Marketplace, and Launchpad. The GPU Marketplace provides high-performance GPUs for diverse tasks, offering flexible rentals without upfront costs. The AI Marketplace features AI tools for automating business and personal activities, categorized into Foundational AI Models, AI Agents, and Standalone AI Solutions. The AITECH Pad Launchpad grants access to seed, private, and public rounds for early-stage projects focused on AI and infrastructure. $AITECH token stakers enjoy tiered access to these launches. $AITECH powers the entire ecosystem, enabling seamless service procurement with fiat transactions converted to $AITECH on the blockchain. An unlimited burn mechanism ensures a percentage of tokens used for services is systematically burnt, reducing supply and driving value."
   },
   {
     "index": 94,
@@ -13730,8 +14456,8 @@
       },
       "active": true
     },
-    "shortDescription": "Empowering the future of AI | HPC data center | IaaS platform | AIaaS | BaaS | AI Marketplace | Powered by $AITECH token | Incubated by @Chain_GPT & @decubate",
-    "fullDescription": "We are paving the way for a more convenient and secure future by providing accessible Artificial Intelligence-as-a-Service (AIAAS), Blockchain-as-a-Service (BAAS), high-performance computing power (HPC), and an artificial intelligence marketplace. All of these cutting-edge technologies are powered by our native token, AITECH.",
+    "shortDescription": "AITECH, the world's first deflationary AI utilities token, powers Solidus AI Tech's 8,000 sqft HPC Data Centre in Europe. The GPU Marketplace offers flexible GPU rentals, while the AI Marketplace provides tools for automating tasks. The AITECH Pad Launchpad grants access to early-stage AI projects. The AITECH token facilitates seamless service procurement with fiat conversions and features a burn mechanism to reduce supply.",
+    "fullDescription": "AITECH is the world's first deflationary AI utilities token, powering Solidus AI Tech's eco-friendly High-Performance Computing (HPC) Data Centre in Europe. Spanning 8,000 sqft, this center supports the AI, GPU Marketplace, and Launchpad. The GPU Marketplace provides high-performance GPUs for diverse tasks, offering flexible rentals without upfront costs. The AI Marketplace features AI tools for automating business and personal activities, categorized into Foundational AI Models, AI Agents, and Standalone AI Solutions. The AITECH Pad Launchpad grants access to seed, private, and public rounds for early-stage projects focused on AI and infrastructure. $AITECH token stakers enjoy tiered access to these launches. $AITECH powers the entire ecosystem, enabling seamless service procurement with fiat transactions converted to $AITECH on the blockchain. An unlimited burn mechanism ensures a percentage of tokens used for services is systematically burnt, reducing supply and driving value.",
     "partnersURLS": [
       "https://res.cloudinary.com/dswmrqgwy/image/upload/v1695915128/bond-highlights/bsc",
       "https://res.cloudinary.com/dswmrqgwy/image/upload/v1695915051/bond-highlights/decubate",
@@ -13907,7 +14633,9 @@
     "initPrice": {
       "56": 0.0262588
     },
-    "soldOut": true
+    "soldOut": true,
+    "shortDescription": "Cogito Finance integrates traditional financial assets into Onchain Finance using smart contract vaults, tackling DeFi challenges like yield farming, credit risk, and regulatory issues. The CGV token governs the platform, allowing community influence. Cogito enhances liquidity, security, and transparency by tokenizing traditional assets. Led by industry experts, Cogito offers compliant, transparent, and efficient investment products for DAOs, DeFi protocols, and institutions.",
+    "fullDescription": "Cogito Finance offers institutional-grade products through smart contract vaults, seamlessly integrating traditional financial assets into Onchain Finance. This approach addresses Decentralized Finance's (DeFi) challenges, including unsustainable yield farming, credit risk, and regulatory ambiguity. The CGV token serves as Cogito Finance's governance and utility token, empowering the community to influence the project's roadmap and FUND tokens' parameters. By tokenizing traditional assets, Cogito enhances liquidity, security, and transparency onchain. Led by experts in banking, compliance, and blockchain infrastructure, Cogito ensures regulatory compliance and real-time transparency. DAOs can utilize their treasuries with stable, low-risk T-Bills, DeFi protocols can integrate tokenized fixed-income assets to boost yields, and institutions can access traditional financial products on the blockchain for reduced costs, increased liquidity, and operational efficiency."
   },
   {
     "index": 83,
@@ -20290,6 +21018,365 @@
     "soldOut": true
   },
   {
+    "index": 155,
+    "cmcId": 17704,
+    "chainId": 137,
+    "contractAddress": {
+      "137": "0x1d942f4600b5f030224665898AB0CDcad8F91C80"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "MV",
+      "address": {
+        "137": "0xA3c322Ad15218fBFAEd26bA7f616249f7705D945"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "QuickswapV2"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "1890": 6,
+        "2525": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8822": "MagicSea",
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "MV-USDT",
+      "address": {
+        "137": "0x690a87Ed8972e451e755b8F2dC1fc2B28e3c6566"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "QuickswapV2"
+      },
+      "active": true,
+      "lpToken": true,
+      "getLpUrl": {
+        "137": "https://quickswap.exchange/#/pools/v2?currency0=0xA3c322Ad15218fBFAEd26bA7f616249f7705D945&currency1=0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+      }
+    },
+    "earnToken": {
+      "symbol": "MV",
+      "address": {
+        "137": "0xA3c322Ad15218fBFAEd26bA7f616249f7705D945"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "QuickswapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
+    },
+    "inactive": false,
+    "projectLink": "https://genso.game/en/",
+    "twitter": "https://twitter.com/genso_meta",
+    "audit": "https://skynet.certik.com/projects/gensokishi-online-metaworld",
+    "initTime": {
+      "137": 1701892800
+    },
+    "initPrice": {
+      "137": 0.00254
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "Quickswap_Collection1"
+    },
+    "bondPartner": "QuickSwap",
+    "tags": ["GAMEFI"],
+    "shortDescription": "GENSO is the metaverse incarnation of “Elemental Knights Online,” which won the 2012 Game of the Year (Gold) in Taiwan. Utilizing blockchain technology, we aim to create a new economy within the virtual world. This MMORPG-based, fantasy-themed metaverse allows players to connect with others in our 3D world and engage in various activities by importing LAND, NFTs, or MV/ROND tokens. Powered by the MV token. <a href=\"https://twitter.com/genso_meta/status/1755246359165157634\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #6560C5\">ApeBond Shield</a>",
+    "fullDescription": "GENSO is the metaverse incarnation of “Elemental Knights Online,” which won the 2012 Game of the Year (Gold) in Taiwan. Utilizing blockchain technology, we aim to create a new economy within the virtual world. This MMORPG-based, fantasy-themed metaverse allows players to connect with others in our 3D world and engage in various activities by importing LAND, NFTs, or MV/ROND tokens. GENSO offers a support program for participants who create or develop in the GENSO Metaverse, backed by sponsors and other organizations. Contests are held with cash prizes for excellent works, and sponsors and companies will fund creators while GENSO official sales will also generate income for them. Exceptional works will appear on PlayStation and Nintendo Switch. MV, the native token of GENSO, and it stands for Metaverse and is crucial for building the metaverse world. It is used as gas on the MV Chain and provides voting rights for metaverse policies, discounted prices for special equipment, rights for strengthening equipment, and purchasing exclusive items. MV Coin also has staking functions, allowing users to earn ROND Coin and receive special NFTs and rights within UGC (User-Generated Content) by staking a certain volume of MV. Additionally, it grants rights to participate in auctions for creating maps and monsters and purchasing availability for creating them. Post-release, MV will be used for transaction fees, various LAND activities, transactions, and in partnered games playable on GENSO, such as JongNavi Mahjong."
+  },
+  {
+    "index": 154,
+    "cmcId": 17131,
+    "chainId": 137,
+    "contractAddress": {
+      "137": "0x3Ab678FEE99eA8E632038D14dd29cff57D1FdB33"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "1890": 6,
+        "2525": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8822": "MagicSea",
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "1890": 6,
+        "2525": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8822": "MagicSea",
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "1890": 6,
+        "2525": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8822": "MagicSea",
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "IXT",
+      "address": {
+        "137": "0xE06Bd4F5aAc8D0aA337D13eC88dB6defC6eAEefE"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "QuickswapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
+    },
+    "inactive": false,
+    "projectLink": "https://planetix.com/",
+    "twitter": "https://twitter.com/Planetix0",
+    "initTime": {
+      "137": 1721207158
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "PlanetIX_Collection1"
+    },
+    "bondPartner": "QuickSwap",
+    "shortDescription": "Planet IX is an evolving world with a marketplace, multiple corporations, unique gaming experiences, and utilities that help players resurrect and rebuild their planet. Connect your land to earn IXT and farm IXT without investing anything but time. Help rejuvenate the broken lands and build the Planet of Tomorrow.",
+    "fullDescription": "Planet IX is an evolutionary world with a marketplace, multiple corporations, unique gaming experiences, and utilities that aid players in their collective mission to resurrect and rebuild the planet they once called home. In Planet IX, you can connect your land to earn IXT. You’ll also be able to farm your way to IXT without investing anything other than your time. Connect your land, help rejuvenate the broken lands, and build the Planet of Tomorrow. Planet IX is at the forefront of a revolution in the virtual land strategy development space. It provides tools to decentralize and empower the gaming community while helping individuals use their passion and skill to play and build businesses. Blurring the lines between the digital and physical worlds, Planet IX and its players redefine the term reality again and again. IXT is the medium of exchange in the Planet IX ecosystem, serving as in-game currency, rewards, and conferring voting rights. IXT is the only ERC-20 token in the game's economy of assets and is the key to playing the game, trading, and purchasing assets.",
+    "tags": ["GAMEFI", "NFT"]
+  },
+  {
+    "index": 153,
+    "cmcId": 17131,
+    "chainId": 137,
+    "contractAddress": {
+      "137": "0x278BD0829e7A4dAa0cC407d3eA4958B3B85867a1"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "IXT",
+      "address": {
+        "137": "0xE06Bd4F5aAc8D0aA337D13eC88dB6defC6eAEefE"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "QuickswapV2"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "1890": 6,
+        "2525": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8822": "MagicSea",
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "IXT-USDT",
+      "address": {
+        "137": "0x304e57c752E854E9A233Ae82fcC42F7568b81180"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "QuickswapV2"
+      },
+      "active": true,
+      "lpToken": true,
+      "getLpUrl": {
+        "137": "https://quickswap.exchange/#/pools/v2?currency0=0xE06Bd4F5aAc8D0aA337D13eC88dB6defC6eAEefE&currency1=0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+      }
+    },
+    "earnToken": {
+      "symbol": "IXT",
+      "address": {
+        "137": "0xE06Bd4F5aAc8D0aA337D13eC88dB6defC6eAEefE"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "QuickswapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
+    },
+    "inactive": false,
+    "projectLink": "https://planetix.com/",
+    "twitter": "https://twitter.com/Planetix0",
+    "initTime": {
+      "137": 1721207158
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "PlanetIX_Collection1"
+    },
+    "bondPartner": "QuickSwap",
+    "shortDescription": "Planet IX is an evolving world with a marketplace, multiple corporations, unique gaming experiences, and utilities that help players resurrect and rebuild their planet. Connect your land to earn IXT and farm IXT without investing anything but time. Help rejuvenate the broken lands and build the Planet of Tomorrow.",
+    "fullDescription": "Planet IX is an evolutionary world with a marketplace, multiple corporations, unique gaming experiences, and utilities that aid players in their collective mission to resurrect and rebuild the planet they once called home. In Planet IX, you can connect your land to earn IXT. You’ll also be able to farm your way to IXT without investing anything other than your time. Connect your land, help rejuvenate the broken lands, and build the Planet of Tomorrow. Planet IX is at the forefront of a revolution in the virtual land strategy development space. It provides tools to decentralize and empower the gaming community while helping individuals use their passion and skill to play and build businesses. Blurring the lines between the digital and physical worlds, Planet IX and its players redefine the term reality again and again. IXT is the medium of exchange in the Planet IX ecosystem, serving as in-game currency, rewards, and conferring voting rights. IXT is the only ERC-20 token in the game's economy of assets and is the key to playing the game, trading, and purchasing assets.",
+    "tags": ["GAMEFI", "NFT"]
+  },
+  {
     "index": 152,
     "cmcId": 24103,
     "chainId": 137,
@@ -20672,7 +21759,7 @@
     "initPrice": {
       "137": 0.347018667988457
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "PlanetIX_Collection1"
     },
@@ -20780,7 +21867,7 @@
     "initPrice": {
       "137": 0.347018667988457
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "PlanetIX_Collection1"
     },
@@ -22269,7 +23356,7 @@
     "initPrice": {
       "137": 0.00254
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "Quickswap_Collection1"
     },
@@ -24452,7 +25539,8 @@
       "collection": "Quickswap_Collection1"
     },
     "bondPartner": "QuickSwap",
-    "fullDescription": "Orbs is an open, decentralized and public blockchain infrastructure executed by a secure network of permissionless validators using Proof-of-Stake (PoS) consensus.",
+    "shortDescription": "Orbs is a decentralized Layer-3 blockchain infrastructure enhancing on-chain trading with advanced tools like aggregated liquidity, advanced orders, and decentralized derivatives. Acting as a separate execution layer between L1/L2 and the application layer, Orbs powers protocols such as dLIMIT and dTWAP. Since 2017, Orbs has brought CeFi-level execution to DeFi trading, providing secure, scalable, and efficient solutions without centralized intermediaries.",
+    "fullDescription": "Orbs is a decentralized Layer-3 (L3) blockchain infrastructure designed specifically for advanced on-chain trading. Since its inception in 2017, Orbs has pioneered on-chain innovation by enhancing the capabilities of both EVM and non-EVM smart contracts without moving liquidity onto a new chain. Positioned as a separate execution layer between L1/L2 solutions and the application layer, Orbs provides technology for aggregated liquidity, advanced trading orders, and decentralized derivatives, powering protocols such as dLIMIT, dTWAP, and Liquidity Hub. By creating a decentralized backend, Orbs delivers CeFi-level execution to DeFi trading, ensuring scalable, efficient, and secure trading solutions. Orbs' mission is to revolutionize on-chain trading by bringing CeFi-level pricing and execution capabilities to the DeFi ecosystem, transforming the landscape with advanced tools and platforms that eliminate the need for centralized intermediaries.",
     "tags": ["Infra"]
   },
   {
@@ -28499,7 +29587,8 @@
       "collection": "ETH_Collection1"
     },
     "tags": ["RWA"],
-    "fullDescription": "As a SingularityNET ecosystem project, Cogito Finance leverages Snet's AI technologies for intelligent asset management, tokenizing RWAs for onchain access."
+    "shortDescription": "Cogito Finance integrates traditional financial assets into Onchain Finance using smart contract vaults, tackling DeFi challenges like yield farming, credit risk, and regulatory issues. The CGV token governs the platform, allowing community influence. Cogito enhances liquidity, security, and transparency by tokenizing traditional assets. Led by industry experts, Cogito offers compliant, transparent, and efficient investment products for DAOs, DeFi protocols, and institutions.",
+    "fullDescription": "Cogito Finance offers institutional-grade products through smart contract vaults, seamlessly integrating traditional financial assets into Onchain Finance. This approach addresses Decentralized Finance's (DeFi) challenges, including unsustainable yield farming, credit risk, and regulatory ambiguity. The CGV token serves as Cogito Finance's governance and utility token, empowering the community to influence the project's roadmap and FUND tokens' parameters. By tokenizing traditional assets, Cogito enhances liquidity, security, and transparency onchain. Led by experts in banking, compliance, and blockchain infrastructure, Cogito ensures regulatory compliance and real-time transparency. DAOs can utilize their treasuries with stable, low-risk T-Bills, DeFi protocols can integrate tokenized fixed-income assets to boost yields, and institutions can access traditional financial products on the blockchain for reduced costs, increased liquidity, and operational efficiency."
   },
   {
     "index": 3001,
@@ -29897,7 +30986,7 @@
     "initPrice": {
       "1": 0.013182138610271742
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ETH_Collection1"
     },
@@ -30198,7 +31287,8 @@
     "billArt": {
       "collection": "ETH_Collection1"
     },
-    "fullDescription": "Orbs is an open, decentralized and public blockchain infrastructure executed by a secure network of permissionless validators using Proof-of-Stake (PoS) consensus.",
+    "shortDescription": "Orbs is a decentralized Layer-3 blockchain infrastructure enhancing on-chain trading with advanced tools like aggregated liquidity, advanced orders, and decentralized derivatives. Acting as a separate execution layer between L1/L2 and the application layer, Orbs powers protocols such as dLIMIT and dTWAP. Since 2017, Orbs has brought CeFi-level execution to DeFi trading, providing secure, scalable, and efficient solutions without centralized intermediaries.",
+    "fullDescription": "Orbs is a decentralized Layer-3 (L3) blockchain infrastructure designed specifically for advanced on-chain trading. Since its inception in 2017, Orbs has pioneered on-chain innovation by enhancing the capabilities of both EVM and non-EVM smart contracts without moving liquidity onto a new chain. Positioned as a separate execution layer between L1/L2 solutions and the application layer, Orbs provides technology for aggregated liquidity, advanced trading orders, and decentralized derivatives, powering protocols such as dLIMIT, dTWAP, and Liquidity Hub. By creating a decentralized backend, Orbs delivers CeFi-level execution to DeFi trading, ensuring scalable, efficient, and secure trading solutions. Orbs' mission is to revolutionize on-chain trading by bringing CeFi-level pricing and execution capabilities to the DeFi ecosystem, transforming the landscape with advanced tools and platforms that eliminate the need for centralized intermediaries.",
     "tags": ["Infra"]
   },
   {
