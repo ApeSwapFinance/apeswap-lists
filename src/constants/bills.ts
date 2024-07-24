@@ -6,7 +6,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingT
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2007
 // ETH Largest ID: 3016
-// Linea Largest ID: 6005
+// Linea Largest ID: 6006
 // Base Largest ID: 8006
 // Lightlink Largest ID: 7000
 // Migration Bonds ID: 5007
@@ -264,7 +264,34 @@ const bills: BillsConfig[] = [
 
   //
   // LINEA
-
+  {
+    index: 6006,
+    chainId: ChainId.LINEA,
+    contractAddress: {
+      [ChainId.LINEA]: '0x85C35033b3D137f97679821bC3c27e09e2821B81',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.eth,
+    quoteToken: tokens.eth,
+    lpToken: tokens.eth,
+    earnToken: tokens.nile,
+    billNnftAddress: {
+      [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
+    },
+    inactive: false,
+    projectLink: 'https://www.thenile.exchange/swap',
+    twitter: 'https://twitter.com/NileExchange',
+    audit: 'https://docs.thenile.exchange/security-and-legal-considerations/inherited-security',
+    initTime: { [ChainId.LINEA]: 1721823456 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DEX'],
+    fullDescription: `NILE is the Native Liquidity Layer on Linea. NILE takes concentrated liquidity to the next level, optimizing for high-frequency LPs and Layer 2 cost structures. The result is a hyper-efficient liquidity layer designed to attract the most effective liquidity providers while delivering a clean and simple UX for traders. NILE has made a strategic decision to select Linea as its platform of choice. This decision is rooted in the belief that the Linea ecosystem offers a wealth of high-integrity projects and DeFi pioneers who are at the forefront of the decentralization movement. With the Layer 2 narrative gaining momentum, the upcoming proto-danksharding EIP (Ethereum Improvement Proposal) further strengthens the ecosystem's potential. The combination of these factors contributes to NILE's confidence in Linea's ability to provide a robust and thriving environment for its operations.`,
+    shortDescription: `NILE is the Native Liquidity Layer on Linea. NILE takes concentrated liquidity to the next level, optimizing for high frequency LPs and Layer 2 cost structures. The result is a hyper-efficient liquidity layer designed to attract the most effective liquidity providers, while delivering a clean and simple UX for traders.`,
+  },
   {
     index: 6005,
     cmcId: 9217,

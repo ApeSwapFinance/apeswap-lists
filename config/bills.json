@@ -1028,6 +1028,147 @@
     "shortDescription": "LightLink is an Ethereum L2 blockchain enabling dApps and enterprises to offer instant, gasless transactions. Their mission is to integrate millions into the digital economy with user-friendly dApps and enterprise partnerships, making blockchain as intuitive and accessible as Web2, without the complexity of gas fees and protocols."
   },
   {
+    "index": 6006,
+    "chainId": 59144,
+    "contractAddress": {
+      "59144": "0x85C35033b3D137f97679821bC3c27e09e2821B81"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "1890": "0x7EbeF2A4b1B09381Ec5B9dF8C5c6f2dBECA59c73",
+        "8453": "0x4200000000000000000000000000000000000006",
+        "8822": "0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+        "59144": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "1890": 18,
+        "8453": 18,
+        "8822": 18,
+        "42161": 18,
+        "59144": 18
+      },
+      "liquidityDex": {
+        "1890": "Elektrik",
+        "8453": "Aerodrome",
+        "8822": "MagicSea",
+        "59144": "Lynex"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "1890": "0x7EbeF2A4b1B09381Ec5B9dF8C5c6f2dBECA59c73",
+        "8453": "0x4200000000000000000000000000000000000006",
+        "8822": "0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+        "59144": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "1890": 18,
+        "8453": 18,
+        "8822": 18,
+        "42161": 18,
+        "59144": 18
+      },
+      "liquidityDex": {
+        "1890": "Elektrik",
+        "8453": "Aerodrome",
+        "8822": "MagicSea",
+        "59144": "Lynex"
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "1890": "0x7EbeF2A4b1B09381Ec5B9dF8C5c6f2dBECA59c73",
+        "8453": "0x4200000000000000000000000000000000000006",
+        "8822": "0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+        "59144": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "1890": 18,
+        "8453": 18,
+        "8822": 18,
+        "42161": 18,
+        "59144": 18
+      },
+      "liquidityDex": {
+        "1890": "Elektrik",
+        "8453": "Aerodrome",
+        "8822": "MagicSea",
+        "59144": "Lynex"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "NILE",
+      "address": {
+        "59144": "0xAAAac83751090C6ea42379626435f805DDF54DC8"
+      },
+      "decimals": {
+        "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "59144": "0xFA40b551980aF88FD2929Ab41f57D98ee13A6354"
+    },
+    "inactive": false,
+    "projectLink": "https://www.thenile.exchange/swap",
+    "twitter": "https://twitter.com/NileExchange",
+    "audit": "https://docs.thenile.exchange/security-and-legal-considerations/inherited-security",
+    "initTime": {
+      "59144": 1721823456
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["DEX"],
+    "fullDescription": "NILE is the Native Liquidity Layer on Linea. NILE takes concentrated liquidity to the next level, optimizing for high-frequency LPs and Layer 2 cost structures. The result is a hyper-efficient liquidity layer designed to attract the most effective liquidity providers while delivering a clean and simple UX for traders. NILE has made a strategic decision to select Linea as its platform of choice. This decision is rooted in the belief that the Linea ecosystem offers a wealth of high-integrity projects and DeFi pioneers who are at the forefront of the decentralization movement. With the Layer 2 narrative gaining momentum, the upcoming proto-danksharding EIP (Ethereum Improvement Proposal) further strengthens the ecosystem's potential. The combination of these factors contributes to NILE's confidence in Linea's ability to provide a robust and thriving environment for its operations.",
+    "shortDescription": "NILE is the Native Liquidity Layer on Linea. NILE takes concentrated liquidity to the next level, optimizing for high frequency LPs and Layer 2 cost structures. The result is a hyper-efficient liquidity layer designed to attract the most effective liquidity providers, while delivering a clean and simple UX for traders."
+  },
+  {
     "index": 6005,
     "cmcId": 9217,
     "chainId": 59144,
