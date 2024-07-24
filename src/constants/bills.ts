@@ -6,7 +6,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingT
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2007
 // ETH Largest ID: 3016
-// Linea Largest ID: 6005
+// Linea Largest ID: 6006
 // Base Largest ID: 8006
 // Lightlink Largest ID: 7000
 // Migration Bonds ID: 5007
@@ -264,7 +264,34 @@ const bills: BillsConfig[] = [
 
   //
   // LINEA
-
+  {
+    index: 6006,
+    chainId: ChainId.LINEA,
+    contractAddress: {
+      [ChainId.LINEA]: '0x85C35033b3D137f97679821bC3c27e09e2821B81',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.eth,
+    quoteToken: tokens.eth,
+    lpToken: tokens.eth,
+    earnToken: tokens.nile,
+    billNnftAddress: {
+      [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
+    },
+    inactive: false,
+    projectLink: 'https://www.thenile.exchange/swap',
+    twitter: 'https://twitter.com/NileExchange',
+    audit: 'https://docs.thenile.exchange/security-and-legal-considerations/inherited-security',
+    initTime: { [ChainId.LINEA]: 1721823456 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DEX'],
+    fullDescription: `NILE is the Native Liquidity Layer on Linea. NILE takes concentrated liquidity to the next level, optimizing for high-frequency LPs and Layer 2 cost structures. The result is a hyper-efficient liquidity layer designed to attract the most effective liquidity providers while delivering a clean and simple UX for traders. NILE has made a strategic decision to select Linea as its platform of choice. This decision is rooted in the belief that the Linea ecosystem offers a wealth of high-integrity projects and DeFi pioneers who are at the forefront of the decentralization movement. With the Layer 2 narrative gaining momentum, the upcoming proto-danksharding EIP (Ethereum Improvement Proposal) further strengthens the ecosystem's potential. The combination of these factors contributes to NILE's confidence in Linea's ability to provide a robust and thriving environment for its operations.`,
+    shortDescription: `NILE is the Native Liquidity Layer on Linea. NILE takes concentrated liquidity to the next level, optimizing for high frequency LPs and Layer 2 cost structures. The result is a hyper-efficient liquidity layer designed to attract the most effective liquidity providers, while delivering a clean and simple UX for traders.`,
+  },
   {
     index: 6005,
     cmcId: 9217,
@@ -3096,8 +3123,8 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['AI'],
-    fullDescription:
-      'AITECH is paving the way for a more convenient and secure future by providing accessible Artificial Intelligence-as-a-Service (AIaaS), Blockchain-as-a-Service (BaaS), High-Performance Computing Power (HPC), and an artificial intelligence marketplace. All these are backed by their native token: $AITECH.',
+    shortDescription: `AITECH, the world's first deflationary AI utilities token, powers Solidus AI Tech's 8,000 sqft HPC Data Centre in Europe. The GPU Marketplace offers flexible GPU rentals, while the AI Marketplace provides tools for automating tasks. The AITECH Pad Launchpad grants access to early-stage AI projects. The AITECH token facilitates seamless service procurement with fiat conversions and features a burn mechanism to reduce supply.`,
+    fullDescription: `AITECH is the world's first deflationary AI utilities token, powering Solidus AI Tech's eco-friendly High-Performance Computing (HPC) Data Centre in Europe. Spanning 8,000 sqft, this center supports the AI, GPU Marketplace, and Launchpad. The GPU Marketplace provides high-performance GPUs for diverse tasks, offering flexible rentals without upfront costs. The AI Marketplace features AI tools for automating business and personal activities, categorized into Foundational AI Models, AI Agents, and Standalone AI Solutions. The AITECH Pad Launchpad grants access to seed, private, and public rounds for early-stage projects focused on AI and infrastructure. $AITECH token stakers enjoy tiered access to these launches. $AITECH powers the entire ecosystem, enabling seamless service procurement with fiat transactions converted to $AITECH on the blockchain. An unlimited burn mechanism ensures a percentage of tokens used for services is systematically burnt, reducing supply and driving value.`,
   },
   {
     index: 1013,
@@ -3212,8 +3239,8 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    fullDescription:
-      'AITECH is paving the way for a more convenient and secure future by providing accessible Artificial Intelligence-as-a-Service (AIaaS), Blockchain-as-a-Service (BaaS), High-Performance Computing Power (HPC), and an artificial intelligence marketplace. All these are backed by their native token: $AITECH.',
+    shortDescription: `AITECH, the world's first deflationary AI utilities token, powers Solidus AI Tech's 8,000 sqft HPC Data Centre in Europe. The GPU Marketplace offers flexible GPU rentals, while the AI Marketplace provides tools for automating tasks. The AITECH Pad Launchpad grants access to early-stage AI projects. The AITECH token facilitates seamless service procurement with fiat conversions and features a burn mechanism to reduce supply.`,
+    fullDescription: `AITECH is the world's first deflationary AI utilities token, powering Solidus AI Tech's eco-friendly High-Performance Computing (HPC) Data Centre in Europe. Spanning 8,000 sqft, this center supports the AI, GPU Marketplace, and Launchpad. The GPU Marketplace provides high-performance GPUs for diverse tasks, offering flexible rentals without upfront costs. The AI Marketplace features AI tools for automating business and personal activities, categorized into Foundational AI Models, AI Agents, and Standalone AI Solutions. The AITECH Pad Launchpad grants access to seed, private, and public rounds for early-stage projects focused on AI and infrastructure. $AITECH token stakers enjoy tiered access to these launches. $AITECH powers the entire ecosystem, enabling seamless service procurement with fiat transactions converted to $AITECH on the blockchain. An unlimited burn mechanism ensures a percentage of tokens used for services is systematically burnt, reducing supply and driving value.`,
     tags: ['AI'],
   },
   {
@@ -3327,8 +3354,8 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    fullDescription:
-      'Prepare for battle! Arcas is a Play-2-Earn game brought to you by Block Ape Scissors, the top Web3 gaming studio on BNBChain.',
+    shortDescription: `AITECH, the world's first deflationary AI utilities token, powers Solidus AI Tech's 8,000 sqft HPC Data Centre in Europe. The GPU Marketplace offers flexible GPU rentals, while the AI Marketplace provides tools for automating tasks. The AITECH Pad Launchpad grants access to early-stage AI projects. The AITECH token facilitates seamless service procurement with fiat conversions and features a burn mechanism to reduce supply.`,
+    fullDescription: `AITECH is the world's first deflationary AI utilities token, powering Solidus AI Tech's eco-friendly High-Performance Computing (HPC) Data Centre in Europe. Spanning 8,000 sqft, this center supports the AI, GPU Marketplace, and Launchpad. The GPU Marketplace provides high-performance GPUs for diverse tasks, offering flexible rentals without upfront costs. The AI Marketplace features AI tools for automating business and personal activities, categorized into Foundational AI Models, AI Agents, and Standalone AI Solutions. The AITECH Pad Launchpad grants access to seed, private, and public rounds for early-stage projects focused on AI and infrastructure. $AITECH token stakers enjoy tiered access to these launches. $AITECH powers the entire ecosystem, enabling seamless service procurement with fiat transactions converted to $AITECH on the blockchain. An unlimited burn mechanism ensures a percentage of tokens used for services is systematically burnt, reducing supply and driving value.`,
   },
   {
     index: 94,
@@ -3558,10 +3585,8 @@ const bills: BillsConfig[] = [
     initPrice: { [ChainId.BSC]: 0.0370027 },
     soldOut: true,
     showcaseToken: tokens.aitech,
-    shortDescription:
-      'Empowering the future of AI | HPC data center | IaaS platform | AIaaS | BaaS | AI Marketplace | Powered by $AITECH token | Incubated by @Chain_GPT & @decubate',
-    fullDescription:
-      'We are paving the way for a more convenient and secure future by providing accessible Artificial Intelligence-as-a-Service (AIAAS), Blockchain-as-a-Service (BAAS), high-performance computing power (HPC), and an artificial intelligence marketplace. All of these cutting-edge technologies are powered by our native token, AITECH.',
+    shortDescription: `AITECH, the world's first deflationary AI utilities token, powers Solidus AI Tech's 8,000 sqft HPC Data Centre in Europe. The GPU Marketplace offers flexible GPU rentals, while the AI Marketplace provides tools for automating tasks. The AITECH Pad Launchpad grants access to early-stage AI projects. The AITECH token facilitates seamless service procurement with fiat conversions and features a burn mechanism to reduce supply.`,
+    fullDescription: `AITECH is the world's first deflationary AI utilities token, powering Solidus AI Tech's eco-friendly High-Performance Computing (HPC) Data Centre in Europe. Spanning 8,000 sqft, this center supports the AI, GPU Marketplace, and Launchpad. The GPU Marketplace provides high-performance GPUs for diverse tasks, offering flexible rentals without upfront costs. The AI Marketplace features AI tools for automating business and personal activities, categorized into Foundational AI Models, AI Agents, and Standalone AI Solutions. The AITECH Pad Launchpad grants access to seed, private, and public rounds for early-stage projects focused on AI and infrastructure. $AITECH token stakers enjoy tiered access to these launches. $AITECH powers the entire ecosystem, enabling seamless service procurement with fiat transactions converted to $AITECH on the blockchain. An unlimited burn mechanism ensures a percentage of tokens used for services is systematically burnt, reducing supply and driving value.`,
     partnersURLS: [
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1695915128/bond-highlights/bsc',
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1695915051/bond-highlights/decubate',
@@ -3620,6 +3645,9 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.BSC]: 1693411200 },
     initPrice: { [ChainId.BSC]: 0.0262588 },
     soldOut: true,
+    shortDescription:
+      'Cogito Finance integrates traditional financial assets into Onchain Finance using smart contract vaults, tackling DeFi challenges like yield farming, credit risk, and regulatory issues. The CGV token governs the platform, allowing community influence. Cogito enhances liquidity, security, and transparency by tokenizing traditional assets. Led by industry experts, Cogito offers compliant, transparent, and efficient investment products for DAOs, DeFi protocols, and institutions.',
+    fullDescription: `Cogito Finance offers institutional-grade products through smart contract vaults, seamlessly integrating traditional financial assets into Onchain Finance. This approach addresses Decentralized Finance's (DeFi) challenges, including unsustainable yield farming, credit risk, and regulatory ambiguity. The CGV token serves as Cogito Finance's governance and utility token, empowering the community to influence the project's roadmap and FUND tokens' parameters. By tokenizing traditional assets, Cogito enhances liquidity, security, and transparency onchain. Led by experts in banking, compliance, and blockchain infrastructure, Cogito ensures regulatory compliance and real-time transparency. DAOs can utilize their treasuries with stable, low-risk T-Bills, DeFi protocols can integrate tokenized fixed-income assets to boost yields, and institutions can access traditional financial products on the blockchain for reduced costs, increased liquidity, and operational efficiency.`,
   },
   {
     index: 83,
@@ -6691,8 +6719,8 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.Quickswap_Collection1,
     },
     bondPartner: 'QuickSwap',
-    fullDescription:
-      'Orbs is an open, decentralized and public blockchain infrastructure executed by a secure network of permissionless validators using Proof-of-Stake (PoS) consensus.',
+    shortDescription: `Orbs is a decentralized Layer-3 blockchain infrastructure enhancing on-chain trading with advanced tools like aggregated liquidity, advanced orders, and decentralized derivatives. Acting as a separate execution layer between L1/L2 and the application layer, Orbs powers protocols such as dLIMIT and dTWAP. Since 2017, Orbs has brought CeFi-level execution to DeFi trading, providing secure, scalable, and efficient solutions without centralized intermediaries.`,
+    fullDescription: `Orbs is a decentralized Layer-3 (L3) blockchain infrastructure designed specifically for advanced on-chain trading. Since its inception in 2017, Orbs has pioneered on-chain innovation by enhancing the capabilities of both EVM and non-EVM smart contracts without moving liquidity onto a new chain. Positioned as a separate execution layer between L1/L2 solutions and the application layer, Orbs provides technology for aggregated liquidity, advanced trading orders, and decentralized derivatives, powering protocols such as dLIMIT, dTWAP, and Liquidity Hub. By creating a decentralized backend, Orbs delivers CeFi-level execution to DeFi trading, ensuring scalable, efficient, and secure trading solutions. Orbs' mission is to revolutionize on-chain trading by bringing CeFi-level pricing and execution capabilities to the DeFi ecosystem, transforming the landscape with advanced tools and platforms that eliminate the need for centralized intermediaries.`,
     tags: ['Infra'],
   },
   {
@@ -7697,8 +7725,9 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ETH_Collection1,
     },
     tags: ['RWA'],
-    fullDescription:
-      "As a SingularityNET ecosystem project, Cogito Finance leverages Snet's AI technologies for intelligent asset management, tokenizing RWAs for onchain access.",
+    shortDescription:
+      'Cogito Finance integrates traditional financial assets into Onchain Finance using smart contract vaults, tackling DeFi challenges like yield farming, credit risk, and regulatory issues. The CGV token governs the platform, allowing community influence. Cogito enhances liquidity, security, and transparency by tokenizing traditional assets. Led by industry experts, Cogito offers compliant, transparent, and efficient investment products for DAOs, DeFi protocols, and institutions.',
+    fullDescription: `Cogito Finance offers institutional-grade products through smart contract vaults, seamlessly integrating traditional financial assets into Onchain Finance. This approach addresses Decentralized Finance's (DeFi) challenges, including unsustainable yield farming, credit risk, and regulatory ambiguity. The CGV token serves as Cogito Finance's governance and utility token, empowering the community to influence the project's roadmap and FUND tokens' parameters. By tokenizing traditional assets, Cogito enhances liquidity, security, and transparency onchain. Led by experts in banking, compliance, and blockchain infrastructure, Cogito ensures regulatory compliance and real-time transparency. DAOs can utilize their treasuries with stable, low-risk T-Bills, DeFi protocols can integrate tokenized fixed-income assets to boost yields, and institutions can access traditional financial products on the blockchain for reduced costs, increased liquidity, and operational efficiency.`,
   },
   {
     index: 3001,
@@ -8070,8 +8099,8 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
-    fullDescription:
-      'Orbs is an open, decentralized and public blockchain infrastructure executed by a secure network of permissionless validators using Proof-of-Stake (PoS) consensus.',
+    shortDescription: `Orbs is a decentralized Layer-3 blockchain infrastructure enhancing on-chain trading with advanced tools like aggregated liquidity, advanced orders, and decentralized derivatives. Acting as a separate execution layer between L1/L2 and the application layer, Orbs powers protocols such as dLIMIT and dTWAP. Since 2017, Orbs has brought CeFi-level execution to DeFi trading, providing secure, scalable, and efficient solutions without centralized intermediaries.`,
+    fullDescription: `Orbs is a decentralized Layer-3 (L3) blockchain infrastructure designed specifically for advanced on-chain trading. Since its inception in 2017, Orbs has pioneered on-chain innovation by enhancing the capabilities of both EVM and non-EVM smart contracts without moving liquidity onto a new chain. Positioned as a separate execution layer between L1/L2 solutions and the application layer, Orbs provides technology for aggregated liquidity, advanced trading orders, and decentralized derivatives, powering protocols such as dLIMIT, dTWAP, and Liquidity Hub. By creating a decentralized backend, Orbs delivers CeFi-level execution to DeFi trading, ensuring scalable, efficient, and secure trading solutions. Orbs' mission is to revolutionize on-chain trading by bringing CeFi-level pricing and execution capabilities to the DeFi ecosystem, transforming the landscape with advanced tools and platforms that eliminate the need for centralized intermediaries.`,
     tags: ['Infra'],
   },
   {
