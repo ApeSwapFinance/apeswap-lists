@@ -31,9 +31,8 @@ const bills: BillsConfig[] = [
   //     [ChainId.IOTA]: '0x896c7021C1ACa0dD65D1D525b0434822dbCB6d9d',
   //   },
   //   inactive: false,
-  //   projectLink: 'https://explorer.evm.iota.org/',
-  //   twitter: 'https://explorer.evm.iota.org/',
-  //   audit: 'https://explorer.evm.iota.org/',
+  //   projectLink: 'https://www.auditone.io/',
+  //   twitter: 'https://x.com/auditone_dao',
   //   initTime: { [ChainId.IOTA]: 1719260043 },
   //   soldOut: false,
   //   billArt: {
@@ -58,9 +57,8 @@ const bills: BillsConfig[] = [
   //     [ChainId.IOTA]: '0x896c7021C1ACa0dD65D1D525b0434822dbCB6d9d',
   //   },
   //   inactive: false,
-  //   projectLink: 'https://explorer.evm.iota.org/',
-  //   twitter: 'https://explorer.evm.iota.org/',
-  //   audit: 'https://explorer.evm.iota.org/',
+  //   projectLink: 'https://www.rustyrobot.io/',
+  //   twitter: 'https://x.com/RustyRobotCC',
   //   initTime: { [ChainId.IOTA]: 1719260043 },
   //   soldOut: false,
   //   billArt: {
@@ -112,9 +110,8 @@ const bills: BillsConfig[] = [
   //     [ChainId.IOTA]: '0x896c7021C1ACa0dD65D1D525b0434822dbCB6d9d',
   //   },
   //   inactive: false,
-  //   projectLink: 'https://explorer.evm.iota.org/',
-  //   twitter: 'https://explorer.evm.iota.org/',
-  //   audit: 'https://explorer.evm.iota.org/',
+  //   projectLink: 'https://fomofox.info/',
+  //   twitter: 'https://x.com/FOMO_Fox',
   //   initTime: { [ChainId.IOTA]: 1719260043 },
   //   soldOut: false,
   //   billArt: {
@@ -123,38 +120,11 @@ const bills: BillsConfig[] = [
   //   tags: ['DEX'],
   //   shortDescription: 'IOTA is a decentralized stablecoin that can be traded on DEXs',
   // },
-  // {
-  //   index: 9001,
-  //   cmcId: 1720,
-  //   chainId: ChainId.IOTA,
-  //   contractAddress: {
-  //     [ChainId.IOTA]: '0x513973281d7c04922c59634916513Ab693DD0098', // prod
-  //   },
-  //   billType: 'reserve',
-  //   billVersion: BillVersion.V2,
-  //   token: tokens.iota,
-  //   quoteToken: tokens.iota,
-  //   lpToken: tokens.iota,
-  //   earnToken: tokens.usdt,
-  //   billNnftAddress: {
-  //     [ChainId.IOTA]: '0x896c7021C1ACa0dD65D1D525b0434822dbCB6d9d',
-  //   },
-  //   inactive: false,
-  //   projectLink: 'https://explorer.evm.iota.org/',
-  //   twitter: 'https://explorer.evm.iota.org/',
-  //   audit: 'https://explorer.evm.iota.org/',
-  //   initTime: { [ChainId.IOTA]: 1721072209 },
-  //   soldOut: false,
-  //   billArt: {
-  //     collection: BillArtCollection.ApeBond_Collection1,
-  //   },
-  //   tags: ['DEX'],
-  //   shortDescription: 'lorem ipsum',
-  //   fullDescription:
-  //     'lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-  // },
+
   //
   // BASE
+  //
+
   {
     index: 8006,
     cmcId: 27486,
@@ -216,7 +186,7 @@ const bills: BillsConfig[] = [
       "SophiaVerse is a metaverse platform advancing Artificial General Intelligence (AGI) through the humanoid robot Sophia by Hanson Robotics Ltd. Over two years, it has navigated the dynamic Web3 space, focusing on blockchain and AI. Aiming for a benevolent Singularity, SophiaVerse champions free AI development and an AI Human Hive Mind. The SOPH token anchors the economy, enriches player experiences, supports creators, and stimulates engagement, shaping SophiaVerse's digital ecosystem.",
     fullDescription:
       "SophiaVerse is a cutting-edge metaverse platform dedicated to advancing Artificial General Intelligence (AGI) through the humanoid robot Sophia, developed by Hanson Robotics Ltd. Over two years, it has navigated the dynamic Web3 space, marked by fluctuations in crypto exchanges, stablecoins, NFTs, and altcoins, while focusing on blockchain and AI progress. Central to SophiaVerse is the goal of making Sophia sentient, preparing humanity for a benevolent Singularity where machines can think and learn independently. Influenced by OpenAI’s ChatGPT, SophiaVerse champions free AI development and introduces an AI Human Hive Mind, a swarm intelligence model forming Sophia's brain, ensuring mutual benefits for AIs and humans. The SOPH token is integral to the SophiaVerse economy, enabling in-game purchases and facilitating various transactions within SAIL, enhancing the gaming experience. SOPH seamlessly integrates into the virtual universe, driving the economy, enriching player experiences, supporting creators, and stimulating discovery and engagement, making it a cornerstone of SophiaVerse's evolving digital ecosystem.",
-  },  //
+  }, //
   {
     index: 8004,
     chainId: ChainId.BASE,
