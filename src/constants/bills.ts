@@ -15,111 +15,88 @@ const bills: BillsConfig[] = [
   //
   // IOTA
   //
-  // {
-  //   index: 9005,
-  //   chainId: ChainId.IOTA,
-  //   contractAddress: {
-  //     [ChainId.IOTA]: '0x3b6cb2e9c577F57c31CBa18bF81c4Ab0Df77eb8F', // prod
-  //   },
-  //   billType: 'liquidity',
-  //   billVersion: BillVersion.V2,
-  //   token: tokens.iota,
-  //   quoteToken: tokens.audit,
-  //   lpToken: tokens.iotaAudit_MagicSea,
-  //   earnToken: tokens.audit,
-  //   billNnftAddress: {
-  //     [ChainId.IOTA]: '0x896c7021C1ACa0dD65D1D525b0434822dbCB6d9d',
-  //   },
-  //   inactive: false,
-  //   projectLink: 'https://www.auditone.io/',
-  //   twitter: 'https://x.com/auditone_dao',
-  //   initTime: { [ChainId.IOTA]: 1719260043 },
-  //   soldOut: false,
-  //   billArt: {
-  //     collection: BillArtCollection.ApeBond_Collection1,
-  //   },
-  //   tags: ['DEX'],
-  //   shortDescription: 'IOTA is a decentralized stablecoin that can be traded on DEXs',
-  // },
-  // {
-  //   index: 9004,
-  //   chainId: ChainId.IOTA,
-  //   contractAddress: {
-  //     [ChainId.IOTA]: '0xD96bCF12a9502f863f3f564bEa17b7c7FE3B629b', // prod
-  //   },
-  //   billType: 'reserve',
-  //   billVersion: BillVersion.V2,
-  //   token: tokens.iota,
-  //   quoteToken: tokens.iota,
-  //   lpToken: tokens.iota,
-  //   earnToken: tokens.rust,
-  //   billNnftAddress: {
-  //     [ChainId.IOTA]: '0x896c7021C1ACa0dD65D1D525b0434822dbCB6d9d',
-  //   },
-  //   inactive: false,
-  //   projectLink: 'https://www.rustyrobot.io/',
-  //   twitter: 'https://x.com/RustyRobotCC',
-  //   initTime: { [ChainId.IOTA]: 1719260043 },
-  //   soldOut: false,
-  //   billArt: {
-  //     collection: BillArtCollection.ApeBond_Collection1,
-  //   },
-  //   tags: ['DEX'],
-  //   shortDescription: 'IOTA is a decentralized stablecoin that can be traded on DEXs',
-  // },
-  // {
-  //   index: 9003,
-  //   chainId: ChainId.IOTA,
-  //   contractAddress: {
-  //     [ChainId.IOTA]: '0x54926544D6aA564CB3Ba132a295367307632a3f0', // prod
-  //   },
-  //   billType: 'liquidity',
-  //   billVersion: BillVersion.V2,
-  //   token: tokens.iota,
-  //   quoteToken: tokens.rust,
-  //   lpToken: tokens.iotaRust_MagicSea,
-  //   earnToken: tokens.rust,
-  //   billNnftAddress: {
-  //     [ChainId.IOTA]: '0x896c7021C1ACa0dD65D1D525b0434822dbCB6d9d',
-  //   },
-  //   inactive: false,
-  //   projectLink: 'https://explorer.evm.iota.org/',
-  //   twitter: 'https://explorer.evm.iota.org/',
-  //   audit: 'https://explorer.evm.iota.org/',
-  //   initTime: { [ChainId.IOTA]: 1719260043 },
-  //   soldOut: false,
-  //   billArt: {
-  //     collection: BillArtCollection.ApeBond_Collection1,
-  //   },
-  //   tags: ['DEX'],
-  //   shortDescription: 'IOTA is a decentralized stablecoin that can be traded on DEXs',
-  // },
-  // {
-  //   index: 9002,
-  //   chainId: ChainId.IOTA,
-  //   contractAddress: {
-  //     [ChainId.IOTA]: '0x6ece12e9cc4cA25b4aDB593cBCd22BAe48b86B9c', // prod
-  //   },
-  //   billType: 'liquidity',
-  //   billVersion: BillVersion.V2,
-  //   token: tokens.iota,
-  //   quoteToken: tokens.fomo,
-  //   lpToken: tokens.iotaFomo_MagicSea,
-  //   earnToken: tokens.fomo,
-  //   billNnftAddress: {
-  //     [ChainId.IOTA]: '0x896c7021C1ACa0dD65D1D525b0434822dbCB6d9d',
-  //   },
-  //   inactive: false,
-  //   projectLink: 'https://fomofox.info/',
-  //   twitter: 'https://x.com/FOMO_Fox',
-  //   initTime: { [ChainId.IOTA]: 1719260043 },
-  //   soldOut: false,
-  //   billArt: {
-  //     collection: BillArtCollection.ApeBond_Collection1,
-  //   },
-  //   tags: ['DEX'],
-  //   shortDescription: 'IOTA is a decentralized stablecoin that can be traded on DEXs',
-  // },
+  /*
+  {
+    index: 9002,
+    chainId: ChainId.IOTA,
+    contractAddress: {
+      [ChainId.IOTA]: '',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.iota,
+    quoteToken: tokens.audit,
+    lpToken: tokens.iotaAudit_MagicSea,
+    earnToken: tokens.audit,
+    billNnftAddress: {
+      [ChainId.IOTA]: '0x896c7021C1ACa0dD65D1D525b0434822dbCB6d9d',
+    },
+    inactive: false,
+    projectLink: 'https://www.auditone.io/',
+    twitter: 'https://x.com/auditone_dao',
+    initTime: { [ChainId.IOTA]: 1719260043 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Community', 'Meme'],
+    shortDescription: 'AuditOne is an all-in-one audit platform offering top-tier security services for smart contracts and AI systems. By balancing quality, speed, affordability, and reliability, AuditOne redefines blockchain auditing. With transparency and top security researchers, AuditOne ensures excellence. Governed by the $AUDIT token, the platform empowers token holders to influence decisions, fostering community engagement and a decentralized, community-driven vision.',
+    fullDescription: 'AuditOne is an all-in-one audit platform providing top-notch security services and tools for smart contracts and AI systems. By balancing quality, speed, affordability, and reliability, AuditOne redefines blockchain auditing. The platform\'s approach, tailored to the dynamic blockchain industry, ensures excellence without compromise. AuditOne emphasizes transparency and reliability in the auditing process, recruiting top security researchers from code4arena, Immunefi, LinkedIn, audit firms, and hackathons. Governed by the $AUDIT token, AuditOne empowers token holders to influence decisions directly, fostering transparency and community engagement. This decentralized approach aligns with AuditOne\'s vision of a community-driven platform.',
+  },
+  {
+    index: 9001,
+    chainId: ChainId.IOTA,
+    contractAddress: {
+      [ChainId.IOTA]: '',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.iota,
+    quoteToken: tokens.iota,
+    lpToken: tokens.iota,
+    earnToken: tokens.rust,
+    billNnftAddress: {
+      [ChainId.IOTA]: '0x896c7021C1ACa0dD65D1D525b0434822dbCB6d9d',
+    },
+    inactive: false,
+    projectLink: 'https://www.rustyrobot.io/',
+    twitter: 'https://x.com/RustyRobotCC',
+    initTime: { [ChainId.IOTA]: 1719260043 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Community', 'RWA'],
+    shortDescription: 'The Rusty Robot Country Club (RRCC) is an 11,111 NFT collection fostering a collaborative and inclusive creative community. RRCC NFTs grant access to an ecosystem featuring NFT collectibles, comics, Rusty Robot Records, Rusty Apparel, and $RUST-powered De-Fi tools. The $RUST token is essential for participation post-NFT sale. The project launched without an ICO, private sale, or investor buy-ins.',
+    fullDescription: 'The Rusty Robot Country Club (RRCC) is an 11,111 NFT collection designed to foster a collaborative and creative community. Emphasizing inclusivity and positive vibes, the RRCC serves as a gateway to the Rusty Robot world, uniting a global team and community with the goal of establishing the world\'s largest creative brand. RRCC NFTs grant holders access to an ecosystem centered around various creative ventures, including NFT collectibles, comics, Rusty Robot Records, Rusty Apparel, and $RUST-powered De-Fi tools. The $RUST token is crucial to the RRCC ecosystem, as all activities and opportunities post-NFT sale require holding $RUST. Notably, the project launched without an ICO, private sale, or investor buy-ins.',
+  },
+  {
+    index: 9000,
+    chainId: ChainId.IOTA,
+    contractAddress: {
+      [ChainId.IOTA]: '0x6ece12e9cc4cA25b4aDB593cBCd22BAe48b86B9c',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.iota,
+    quoteToken: tokens.fomo,
+    lpToken: tokens.iotaFomo_MagicSea,
+    earnToken: tokens.fomo,
+    billNnftAddress: {
+      [ChainId.IOTA]: '0x896c7021C1ACa0dD65D1D525b0434822dbCB6d9d',
+    },
+    inactive: false,
+    projectLink: 'https://fomofox.info/',
+    twitter: 'https://x.com/FOMO_Fox',
+    initTime: { [ChainId.IOTA]: 1719260043 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Community', 'Meme'],
+    shortDescription: 'FOMOFox is the first market-driven storytelling meme coin on IOTA EVM. Follow FOMOFox on TwitterX and help him conquer FOMO by influencing the $FOMO Token’s market performance. Holders can grow their $FOMO bags through raffles, solving riddles, or holding. FOMOFox faces challenges and meets intriguing characters, with market influence guiding his choices!',
+    fullDescription: 'FOMOFox is the first market-driven storytelling meme coin on IOTA EVM. Follow the thrilling journey of FOMOFox on TwitterX and help him conquer his FOMO by influencing the $FOMO Token’s market performance. Loyal holders will find countless opportunities to grow their $FOMO bags through raffles, solving riddles, or simply holding and supporting the fox. Along the way, FOMOFox faces diverse challenges and meets intriguing characters. Your influence on the market helps him make the right choices. This project offers pure entertainment and rewards those who stick with it! Join the adventure now and visit their website for more details!',
+  }, */
 
   //
   // BASE
