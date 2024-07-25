@@ -40,7 +40,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    tags: ['Community', 'Meme'],
+    tags: ['Audits'],
     shortDescription:
       'AuditOne is an all-in-one audit platform offering top-tier security services for smart contracts and AI systems. By balancing quality, speed, affordability, and reliability, AuditOne redefines blockchain auditing. With transparency and top security researchers, AuditOne ensures excellence. Governed by the $AUDIT token, the platform empowers token holders to influence decisions, fostering community engagement and a decentralized, community-driven vision.',
     fullDescription:
