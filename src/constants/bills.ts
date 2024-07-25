@@ -9,11 +9,106 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingT
 // Linea Largest ID: 6006
 // Base Largest ID: 8006
 // Lightlink Largest ID: 7000
+// IOTA largest ID: 9002
 // Migration Bonds ID: 5007
 
 const bills: BillsConfig[] = [
   //
+  // IOTA
+  //
+
+  {
+    index: 9002,
+    chainId: ChainId.IOTA,
+    contractAddress: {
+      [ChainId.IOTA]: '0xE03913CeA3b326c62c0c851Cf9A69246226aEF81',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.iota,
+    quoteToken: tokens.audit,
+    lpToken: tokens.iotaAudit_MagicSea,
+    earnToken: tokens.audit,
+    billNnftAddress: {
+      [ChainId.IOTA]: '0x896c7021C1ACa0dD65D1D525b0434822dbCB6d9d',
+    },
+    inactive: false,
+    projectLink: 'https://www.auditone.io/',
+    twitter: 'https://x.com/auditone_dao',
+    initTime: { [ChainId.IOTA]: 1719260043 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Community', 'Meme'],
+    shortDescription:
+      'AuditOne is an all-in-one audit platform offering top-tier security services for smart contracts and AI systems. By balancing quality, speed, affordability, and reliability, AuditOne redefines blockchain auditing. With transparency and top security researchers, AuditOne ensures excellence. Governed by the $AUDIT token, the platform empowers token holders to influence decisions, fostering community engagement and a decentralized, community-driven vision.',
+    fullDescription:
+      "AuditOne is an all-in-one audit platform providing top-notch security services and tools for smart contracts and AI systems. By balancing quality, speed, affordability, and reliability, AuditOne redefines blockchain auditing. The platform's approach, tailored to the dynamic blockchain industry, ensures excellence without compromise. AuditOne emphasizes transparency and reliability in the auditing process, recruiting top security researchers from code4arena, Immunefi, LinkedIn, audit firms, and hackathons. Governed by the $AUDIT token, AuditOne empowers token holders to influence decisions directly, fostering transparency and community engagement. This decentralized approach aligns with AuditOne's vision of a community-driven platform.",
+  },
+  {
+    index: 9001,
+    chainId: ChainId.IOTA,
+    contractAddress: {
+      [ChainId.IOTA]: '0x659029358b4438835f384d25a0435445C14fB5d0',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.iota,
+    quoteToken: tokens.iota,
+    lpToken: tokens.iota,
+    earnToken: tokens.rust,
+    billNnftAddress: {
+      [ChainId.IOTA]: '0x896c7021C1ACa0dD65D1D525b0434822dbCB6d9d',
+    },
+    inactive: false,
+    projectLink: 'https://www.rustyrobot.io/',
+    twitter: 'https://x.com/RustyRobotCC',
+    initTime: { [ChainId.IOTA]: 1719260043 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Community', 'RWA'],
+    shortDescription:
+      'The Rusty Robot Country Club (RRCC) is an 11,111 NFT collection fostering a collaborative and inclusive creative community. RRCC NFTs grant access to an ecosystem featuring NFT collectibles, comics, Rusty Robot Records, Rusty Apparel, and $RUST-powered De-Fi tools. The $RUST token is essential for participation post-NFT sale. The project launched without an ICO, private sale, or investor buy-ins.',
+    fullDescription:
+      "The Rusty Robot Country Club (RRCC) is an 11,111 NFT collection designed to foster a collaborative and creative community. Emphasizing inclusivity and positive vibes, the RRCC serves as a gateway to the Rusty Robot world, uniting a global team and community with the goal of establishing the world's largest creative brand. RRCC NFTs grant holders access to an ecosystem centered around various creative ventures, including NFT collectibles, comics, Rusty Robot Records, Rusty Apparel, and $RUST-powered De-Fi tools. The $RUST token is crucial to the RRCC ecosystem, as all activities and opportunities post-NFT sale require holding $RUST. Notably, the project launched without an ICO, private sale, or investor buy-ins.",
+  },
+  {
+    index: 9000,
+    chainId: ChainId.IOTA,
+    contractAddress: {
+      [ChainId.IOTA]: '0xfe89B64630c88e350De2eF6A1541C727CAC5de50',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.iota,
+    quoteToken: tokens.fomo,
+    lpToken: tokens.iotaFomo_MagicSea,
+    earnToken: tokens.fomo,
+    billNnftAddress: {
+      [ChainId.IOTA]: '0x896c7021C1ACa0dD65D1D525b0434822dbCB6d9d',
+    },
+    inactive: false,
+    projectLink: 'https://fomofox.info/',
+    twitter: 'https://x.com/FOMO_Fox',
+    initTime: { [ChainId.IOTA]: 1719260043 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Community', 'Meme'],
+    shortDescription:
+      'FOMOFox is the first market-driven storytelling meme coin on IOTA EVM. Follow FOMOFox on TwitterX and help him conquer FOMO by influencing the $FOMO Token’s market performance. Holders can grow their $FOMO bags through raffles, solving riddles, or holding. FOMOFox faces challenges and meets intriguing characters, with market influence guiding his choices!',
+    fullDescription:
+      'FOMOFox is the first market-driven storytelling meme coin on IOTA EVM. Follow the thrilling journey of FOMOFox on TwitterX and help him conquer his FOMO by influencing the $FOMO Token’s market performance. Loyal holders will find countless opportunities to grow their $FOMO bags through raffles, solving riddles, or simply holding and supporting the fox. Along the way, FOMOFox faces diverse challenges and meets intriguing characters. Your influence on the market helps him make the right choices. This project offers pure entertainment and rewards those who stick with it! Join the adventure now and visit their website for more details!',
+  },
+
+  //
   // BASE
+  //
+
   {
     index: 8006,
     cmcId: 27486,
@@ -75,7 +170,7 @@ const bills: BillsConfig[] = [
       "SophiaVerse is a metaverse platform advancing Artificial General Intelligence (AGI) through the humanoid robot Sophia by Hanson Robotics Ltd. Over two years, it has navigated the dynamic Web3 space, focusing on blockchain and AI. Aiming for a benevolent Singularity, SophiaVerse champions free AI development and an AI Human Hive Mind. The SOPH token anchors the economy, enriches player experiences, supports creators, and stimulates engagement, shaping SophiaVerse's digital ecosystem.",
     fullDescription:
       "SophiaVerse is a cutting-edge metaverse platform dedicated to advancing Artificial General Intelligence (AGI) through the humanoid robot Sophia, developed by Hanson Robotics Ltd. Over two years, it has navigated the dynamic Web3 space, marked by fluctuations in crypto exchanges, stablecoins, NFTs, and altcoins, while focusing on blockchain and AI progress. Central to SophiaVerse is the goal of making Sophia sentient, preparing humanity for a benevolent Singularity where machines can think and learn independently. Influenced by OpenAI’s ChatGPT, SophiaVerse champions free AI development and introduces an AI Human Hive Mind, a swarm intelligence model forming Sophia's brain, ensuring mutual benefits for AIs and humans. The SOPH token is integral to the SophiaVerse economy, enabling in-game purchases and facilitating various transactions within SAIL, enhancing the gaming experience. SOPH seamlessly integrates into the virtual universe, driving the economy, enriching player experiences, supporting creators, and stimulating discovery and engagement, making it a cornerstone of SophiaVerse's evolving digital ecosystem.",
-  },
+  }, //
   {
     index: 8004,
     chainId: ChainId.BASE,
