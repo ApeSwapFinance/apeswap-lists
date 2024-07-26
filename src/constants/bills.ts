@@ -5632,7 +5632,7 @@ const bills: BillsConfig[] = [
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
     inactive: false,
-    projectLink: 'https://www.nasdex.xyz/deals',
+    projectLink: 'https://www.nasdex.xyz/',
     twitter: 'https://twitter.com/nasdex_xyz',
     audit: 'https://hacken.io/audits/nasdex',
     initTime: { [ChainId.MATIC]: 1701892800 },
