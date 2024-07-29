@@ -1531,7 +1531,7 @@ const tokens: Record<string, Token> = {
       [ChainId.LINEA]: LiquidityDex.Nile,
       [ChainId.LIGHTLINK]: LiquidityDex.Elektrik,
       [ChainId.IOTA]: LiquidityDex.MagicSea,
-      [ChainId.BASE]: LiquidityDex.Aerodrome,
+      [ChainId.BASE]: LiquidityDex.UniswapV3,
     },
     active: true,
   },
