@@ -7,7 +7,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingT
 // Arbitrum Largest ID: 2007
 // ETH Largest ID: 3016
 // Linea Largest ID: 6006
-// Base Largest ID: 8006
+// Base Largest ID: 8007
 // Lightlink Largest ID: 7000
 // IOTA largest ID: 9002
 // Migration Bonds ID: 5007
@@ -108,7 +108,34 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
-
+  {
+    index: 8007,
+    cmcId: 31320,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x6b1977bb3b10Dd4F48A044AAcEd4E9162428dFe3',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.skya,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://sekuya.io/',
+    twitter: 'https://twitter.com/sekuyaofficial',
+    initTime: { [ChainId.BASE]: 1722253943 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['GAMEFI'],
+    shortDescription: `Sekuya, a Singapore-based video game company, aims to revolutionize gaming with a community-driven approach. Set in the anime fantasy universe of Novae Terrae, Sekuya Multiverse combines MOBA and RPG elements across ten worlds. Players, called "Jumpers," use an AI character creator, interact with AI NPCs, and collect over 400 sekumon souls. Sekuya emphasizes FREE NFT ownership and uses SKYA as its core currency. Teamwork and collaboration are central to Sekuya's philosophy.`,
+    fullDescription: `Sekuya, a video game company headquartered in Singapore, is born from a community-driven vision to revolutionize the gaming landscape. Set in the anime epic fantasy universe of Novae Terrae, Sekuya Multiverse offers an immersive MOBA and RPG experience across ten distinct worlds. Players, known as "Jumpers," can customize characters using an AI character creator, interact with AI NPCs, and embark on engaging storylines while battling to collect over 400 sekumon souls and win grand rewards. Unique superpowers from Sekuya heroes and personalized abilities enhance the gameplay. Emphasizing accessibility, Sekuya incentivizes FREE NFT ownership, appealing to free-to-play, pay-to-play gamers, creators, and IP fans globally. The core native currency, SKYA, underpins the Sekuya Ecosystem, integrating gaming, brands, and community. Sekuya's philosophy centers on teamwork and collaboration, fostering a culture of building and growing together with its team, communities, and brands.`,
+  },
   {
     index: 8006,
     cmcId: 27486,

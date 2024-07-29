@@ -239,6 +239,159 @@
     "fullDescription": "FOMOFox is the first market-driven storytelling meme coin on IOTA EVM. Follow the thrilling journey of FOMOFox on TwitterX and help him conquer his FOMO by influencing the $FOMO Token’s market performance. Loyal holders will find countless opportunities to grow their $FOMO bags through raffles, solving riddles, or simply holding and supporting the fox. Along the way, FOMOFox faces diverse challenges and meets intriguing characters. Your influence on the market helps him make the right choices. This project offers pure entertainment and rewards those who stick with it! Join the adventure now and visit their website for more details!"
   },
   {
+    "index": 8007,
+    "cmcId": 31320,
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0x6b1977bb3b10Dd4F48A044AAcEd4E9162428dFe3"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "1890": 6,
+        "2525": 6,
+        "8453": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8453": "UniswapV3",
+        "8822": "MagicSea",
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "1890": 6,
+        "2525": 6,
+        "8453": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8453": "UniswapV3",
+        "8822": "MagicSea",
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "1890": 6,
+        "2525": 6,
+        "8453": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8453": "UniswapV3",
+        "8822": "MagicSea",
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "SKYA",
+      "address": {
+        "8453": "0x623cD3a3EdF080057892aaF8D773Bbb7A5C9b6e9"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "8453": "UniswapV2"
+      }
+    },
+    "billNnftAddress": {
+      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "inactive": false,
+    "projectLink": "https://sekuya.io/",
+    "twitter": "https://twitter.com/sekuyaofficial",
+    "initTime": {
+      "8453": 1722253943
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["GAMEFI"],
+    "shortDescription": "Sekuya, a Singapore-based video game company, aims to revolutionize gaming with a community-driven approach. Set in the anime fantasy universe of Novae Terrae, Sekuya Multiverse combines MOBA and RPG elements across ten worlds. Players, called \"Jumpers,\" use an AI character creator, interact with AI NPCs, and collect over 400 sekumon souls. Sekuya emphasizes FREE NFT ownership and uses SKYA as its core currency. Teamwork and collaboration are central to Sekuya's philosophy.",
+    "fullDescription": "Sekuya, a video game company headquartered in Singapore, is born from a community-driven vision to revolutionize the gaming landscape. Set in the anime epic fantasy universe of Novae Terrae, Sekuya Multiverse offers an immersive MOBA and RPG experience across ten distinct worlds. Players, known as \"Jumpers,\" can customize characters using an AI character creator, interact with AI NPCs, and embark on engaging storylines while battling to collect over 400 sekumon souls and win grand rewards. Unique superpowers from Sekuya heroes and personalized abilities enhance the gameplay. Emphasizing accessibility, Sekuya incentivizes FREE NFT ownership, appealing to free-to-play, pay-to-play gamers, creators, and IP fans globally. The core native currency, SKYA, underpins the Sekuya Ecosystem, integrating gaming, brands, and community. Sekuya's philosophy centers on teamwork and collaboration, fostering a culture of building and growing together with its team, communities, and brands."
+  },
+  {
     "index": 8006,
     "cmcId": 27486,
     "chainId": 8453,
@@ -2086,6 +2239,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -2098,6 +2252,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -2106,6 +2261,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -2121,6 +2277,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -2133,6 +2290,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -2141,6 +2299,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -2156,6 +2315,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -2168,6 +2328,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -2176,6 +2337,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -2230,6 +2392,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -2242,6 +2405,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -2250,6 +2414,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -2502,6 +2667,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -2514,6 +2680,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -2522,6 +2689,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -2537,6 +2705,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -2549,6 +2718,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -2557,6 +2727,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -2572,6 +2743,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -2584,6 +2756,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -2592,6 +2765,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -2729,6 +2903,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -2741,6 +2916,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -2749,6 +2925,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -2764,6 +2941,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -2776,6 +2954,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -2784,6 +2963,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -2799,6 +2979,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -2811,6 +2992,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -2819,6 +3001,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -2874,6 +3057,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -2886,6 +3070,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -2894,6 +3079,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -2909,6 +3095,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -2921,6 +3108,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -2929,6 +3117,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -2944,6 +3133,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -2956,6 +3146,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -2964,6 +3155,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -3036,6 +3228,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -3048,6 +3241,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -3056,6 +3250,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -3071,6 +3266,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -3083,6 +3279,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -3091,6 +3288,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -3106,6 +3304,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -3118,6 +3317,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -3126,6 +3326,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -3184,6 +3385,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -3196,6 +3398,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -3204,6 +3407,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -3219,6 +3423,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -3231,6 +3436,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -3239,6 +3445,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -3254,6 +3461,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -3266,6 +3474,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -3274,6 +3483,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -3331,6 +3541,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -3343,6 +3554,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -3351,6 +3563,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -3366,6 +3579,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -3378,6 +3592,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -3386,6 +3601,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -3401,6 +3617,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -3413,6 +3630,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -3421,6 +3639,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -3479,6 +3698,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -3491,6 +3711,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -3499,6 +3720,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -3514,6 +3736,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -3526,6 +3749,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -3534,6 +3758,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -3549,6 +3774,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -3561,6 +3787,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -3569,6 +3796,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -3708,6 +3936,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -3720,6 +3949,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -3728,6 +3958,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -3743,6 +3974,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -3755,6 +3987,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -3763,6 +3996,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -3778,6 +4012,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -3790,6 +4025,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -3798,6 +4034,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -3855,6 +4092,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -3867,6 +4105,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -3875,6 +4114,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -3890,6 +4130,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -3902,6 +4143,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -3910,6 +4152,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -3925,6 +4168,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -3937,6 +4181,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -3945,6 +4190,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -4241,6 +4487,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -4253,6 +4500,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -4261,6 +4509,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -4276,6 +4525,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -4288,6 +4538,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -4296,6 +4547,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -4311,6 +4563,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -4323,6 +4576,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -4331,6 +4585,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -4473,6 +4728,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -4485,6 +4741,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -4493,6 +4750,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -4508,6 +4766,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -4520,6 +4779,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -4528,6 +4788,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -4543,6 +4804,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -4555,6 +4817,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -4563,6 +4826,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -4635,6 +4899,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -4647,6 +4912,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -4655,6 +4921,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -4670,6 +4937,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -4682,6 +4950,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -4690,6 +4959,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -4705,6 +4975,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -4717,6 +4988,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -4725,6 +4997,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -4797,6 +5070,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -4809,6 +5083,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -4817,6 +5092,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -4990,6 +5266,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -5002,6 +5279,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -5010,6 +5288,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -5025,6 +5304,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -5037,6 +5317,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -5045,6 +5326,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -5060,6 +5342,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -5072,6 +5355,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -5080,6 +5364,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -5137,6 +5422,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -5149,6 +5435,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -5157,6 +5444,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -5172,6 +5460,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -5184,6 +5473,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -5192,6 +5482,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -5207,6 +5498,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -5219,6 +5511,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -5227,6 +5520,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -5293,6 +5587,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -5305,6 +5600,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -5313,6 +5609,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -5386,6 +5683,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -5398,6 +5696,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -5406,6 +5705,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -5421,6 +5721,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -5433,6 +5734,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -5441,6 +5743,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -5456,6 +5759,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -5468,6 +5772,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -5476,6 +5781,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -5532,6 +5838,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -5544,6 +5851,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -5552,6 +5860,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -5567,6 +5876,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -5579,6 +5889,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -5587,6 +5898,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -5602,6 +5914,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -5614,6 +5927,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -5622,6 +5936,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -5679,6 +5994,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -5691,6 +6007,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -5699,6 +6016,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -5714,6 +6032,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -5726,6 +6045,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -5734,6 +6054,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -5749,6 +6070,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -5761,6 +6083,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -5769,6 +6092,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -5841,6 +6165,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -5853,6 +6178,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -5861,6 +6187,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -5876,6 +6203,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -5888,6 +6216,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -5896,6 +6225,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -5911,6 +6241,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -5923,6 +6254,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -5931,6 +6263,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -5988,6 +6321,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -6000,6 +6334,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -6008,6 +6343,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -6023,6 +6359,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -6035,6 +6372,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -6043,6 +6381,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -6058,6 +6397,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -6070,6 +6410,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -6078,6 +6419,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -6135,6 +6477,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -6147,6 +6490,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -6155,6 +6499,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -6241,6 +6586,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -6253,6 +6599,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -6261,6 +6608,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -6276,6 +6624,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -6288,6 +6637,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -6296,6 +6646,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -6311,6 +6662,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -6323,6 +6675,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -6331,6 +6684,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -6489,6 +6843,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -6501,6 +6856,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -6509,6 +6865,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -6524,6 +6881,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -6536,6 +6894,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -6544,6 +6903,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -6559,6 +6919,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -6571,6 +6932,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -6579,6 +6941,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -6636,6 +6999,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -6648,6 +7012,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -6656,6 +7021,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -6744,6 +7110,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -6756,6 +7123,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -6764,6 +7132,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -6779,6 +7148,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -6791,6 +7161,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -6799,6 +7170,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -6814,6 +7186,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -6826,6 +7199,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -6834,6 +7208,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -6891,6 +7266,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -6903,6 +7279,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -6911,6 +7288,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -6997,6 +7375,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -7009,6 +7388,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -7017,6 +7397,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -7032,6 +7413,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -7044,6 +7426,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -7052,6 +7435,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -7067,6 +7451,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -7079,6 +7464,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -7087,6 +7473,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -7143,6 +7530,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -7155,6 +7543,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -7163,6 +7552,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -7178,6 +7568,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -7190,6 +7581,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -7198,6 +7590,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -7213,6 +7606,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -7225,6 +7619,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -7233,6 +7628,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -7425,6 +7821,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -7437,6 +7834,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -7445,6 +7843,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -9089,6 +9488,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -9101,6 +9501,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -9109,6 +9510,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -9124,6 +9526,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -9136,6 +9539,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -9144,6 +9548,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -9159,6 +9564,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -9171,6 +9577,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -9179,6 +9586,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -9307,6 +9715,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -9319,6 +9728,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -9327,6 +9737,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -9342,6 +9753,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -9354,6 +9766,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -9362,6 +9775,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -9377,6 +9791,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -9389,6 +9804,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -9397,6 +9813,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -9469,6 +9886,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -9481,6 +9899,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -9489,6 +9908,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -9504,6 +9924,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -9516,6 +9937,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -9524,6 +9946,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -9539,6 +9962,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -9551,6 +9975,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -9559,6 +9984,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -9631,6 +10057,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -9643,6 +10070,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -9651,6 +10079,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -9666,6 +10095,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -9678,6 +10108,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -9686,6 +10117,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -9701,6 +10133,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -9713,6 +10146,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -9721,6 +10155,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -9876,6 +10311,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -9888,6 +10324,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -9896,6 +10333,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -9983,6 +10421,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -9995,6 +10434,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -10003,6 +10443,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -10018,6 +10459,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -10030,6 +10472,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -10038,6 +10481,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -10053,6 +10497,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -10065,6 +10510,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -10073,6 +10519,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -10303,6 +10750,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -10315,6 +10763,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -10323,6 +10772,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -10338,6 +10788,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -10350,6 +10801,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -10358,6 +10810,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -10373,6 +10826,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -10385,6 +10839,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -10393,6 +10848,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -10450,6 +10906,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -10462,6 +10919,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -10470,6 +10928,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -10557,6 +11016,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -10569,6 +11029,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -10577,6 +11038,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -10592,6 +11054,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -10604,6 +11067,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -10612,6 +11076,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -10627,6 +11092,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -10639,6 +11105,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -10647,6 +11114,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -10703,6 +11171,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -10715,6 +11184,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -10723,6 +11193,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -10913,6 +11384,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -10925,6 +11397,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -10933,6 +11406,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -10948,6 +11422,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -10960,6 +11435,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -10968,6 +11444,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -10983,6 +11460,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -10995,6 +11473,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -11003,6 +11482,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -11144,6 +11624,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -11156,6 +11637,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -11164,6 +11646,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -11179,6 +11662,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -11191,6 +11675,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -11199,6 +11684,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -11214,6 +11700,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -11226,6 +11713,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -11234,6 +11722,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -11373,6 +11862,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -11385,6 +11875,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -11393,6 +11884,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -11479,6 +11971,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -11491,6 +11984,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -11499,6 +11993,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -11514,6 +12009,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -11526,6 +12022,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -11534,6 +12031,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -11549,6 +12047,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -11561,6 +12060,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -11569,6 +12069,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -11625,6 +12126,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -11637,6 +12139,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -11645,6 +12148,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -11660,6 +12164,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -11672,6 +12177,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -11680,6 +12186,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -11695,6 +12202,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -11707,6 +12215,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -11715,6 +12224,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -11772,6 +12282,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -11784,6 +12295,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -11792,6 +12304,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -11963,6 +12476,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -11975,6 +12489,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -11983,6 +12498,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -11998,6 +12514,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -12010,6 +12527,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -12018,6 +12536,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -12033,6 +12552,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -12045,6 +12565,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -12053,6 +12574,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -12108,6 +12630,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -12120,6 +12643,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -12128,6 +12652,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -12143,6 +12668,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -12155,6 +12681,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -12163,6 +12690,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -12178,6 +12706,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -12190,6 +12719,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -12198,6 +12728,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -12267,6 +12798,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -12279,6 +12811,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -12287,6 +12820,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -12373,6 +12907,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -12385,6 +12920,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -12393,6 +12929,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -12465,6 +13002,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -12477,6 +13015,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -12485,6 +13024,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -12500,6 +13040,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -12512,6 +13053,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -12520,6 +13062,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -12535,6 +13078,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -12547,6 +13091,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -12555,6 +13100,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -12694,6 +13240,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -12706,6 +13253,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -12714,6 +13262,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -12729,6 +13278,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -12741,6 +13291,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -12749,6 +13300,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -12764,6 +13316,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -12776,6 +13329,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -12784,6 +13338,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -12842,6 +13397,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -12854,6 +13410,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -12862,6 +13419,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -12877,6 +13435,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -12889,6 +13448,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -12897,6 +13457,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -12912,6 +13473,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -12924,6 +13486,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -12932,6 +13495,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -13073,6 +13637,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -13085,6 +13650,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -13093,6 +13659,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -13108,6 +13675,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -13120,6 +13688,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -13128,6 +13697,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -13143,6 +13713,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -13155,6 +13726,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -13163,6 +13735,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -13219,6 +13792,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -13231,6 +13805,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -13239,6 +13814,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -13254,6 +13830,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -13266,6 +13843,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -13274,6 +13852,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -13289,6 +13868,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -13301,6 +13881,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -13309,6 +13890,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -13366,6 +13948,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -13378,6 +13961,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -13386,6 +13970,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -13401,6 +13986,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -13413,6 +13999,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -13421,6 +14008,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -13436,6 +14024,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -13448,6 +14037,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -13456,6 +14046,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -13513,6 +14104,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -13525,6 +14117,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -13533,6 +14126,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -13619,6 +14213,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -13631,6 +14226,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -13639,6 +14235,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -13654,6 +14251,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -13666,6 +14264,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -13674,6 +14273,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -13689,6 +14289,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -13701,6 +14302,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -13709,6 +14311,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -13848,6 +14451,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -13860,6 +14464,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -13868,6 +14473,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -13883,6 +14489,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -13895,6 +14502,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -13903,6 +14511,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -13918,6 +14527,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -13930,6 +14540,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -13938,6 +14549,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -14247,6 +14859,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -14259,6 +14872,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -14267,6 +14881,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -14282,6 +14897,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -14294,6 +14910,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -14302,6 +14919,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -14317,6 +14935,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -14329,6 +14948,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -14337,6 +14957,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -16006,6 +16627,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -16018,6 +16640,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -16026,6 +16649,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -16041,6 +16665,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -16053,6 +16678,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -16061,6 +16687,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -16076,6 +16703,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -16088,6 +16716,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -16096,6 +16725,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -16153,6 +16783,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -16165,6 +16796,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -16173,6 +16805,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -17120,6 +17753,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -17132,6 +17766,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -17140,6 +17775,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -19210,6 +19846,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -19222,6 +19859,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -19230,6 +19868,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -21275,6 +21914,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -21287,6 +21927,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -21295,6 +21936,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -21310,6 +21952,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -21322,6 +21965,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -21330,6 +21974,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -21345,6 +21990,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -21357,6 +22003,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -21365,6 +22012,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -21437,6 +22085,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -21449,6 +22098,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -21457,6 +22107,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -21533,6 +22184,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -21545,6 +22197,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -21553,6 +22206,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -21568,6 +22222,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -21580,6 +22235,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -21588,6 +22244,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -21603,6 +22260,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -21615,6 +22273,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -21623,6 +22282,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -21691,6 +22351,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -21703,6 +22364,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -21711,6 +22373,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -21878,6 +22541,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -21890,6 +22554,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -21898,6 +22563,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -21913,6 +22579,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -21925,6 +22592,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -21933,6 +22601,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -21948,6 +22617,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -21960,6 +22630,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -21968,6 +22639,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -22027,6 +22699,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -22039,6 +22712,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -22047,6 +22721,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -22062,6 +22737,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -22074,6 +22750,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -22082,6 +22759,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -22097,6 +22775,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -22109,6 +22788,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -22117,6 +22797,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -22188,6 +22869,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -22200,6 +22882,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -22208,6 +22891,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -22378,6 +23062,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -22390,6 +23075,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -22398,6 +23084,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -22413,6 +23100,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -22425,6 +23113,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -22433,6 +23122,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -22448,6 +23138,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -22460,6 +23151,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -22468,6 +23160,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -22966,6 +23659,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -22978,6 +23672,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -22986,6 +23681,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -23001,6 +23697,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -23013,6 +23710,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -23021,6 +23719,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -23036,6 +23735,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -23048,6 +23748,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -23056,6 +23757,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -23128,6 +23830,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -23140,6 +23843,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -23148,6 +23852,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -23423,6 +24128,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -23435,6 +24141,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -23443,6 +24150,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -23458,6 +24166,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -23470,6 +24179,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -23478,6 +24188,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -23493,6 +24204,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -23505,6 +24217,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -23513,6 +24226,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -23676,6 +24390,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -23688,6 +24403,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -23696,6 +24412,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -24108,6 +24825,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -24120,6 +24838,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -24128,6 +24847,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -24143,6 +24863,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -24155,6 +24876,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -24163,6 +24885,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -24178,6 +24901,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -24190,6 +24914,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -24198,6 +24923,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -24363,6 +25089,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -24375,6 +25102,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -24383,6 +25111,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -24458,6 +25187,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -24470,6 +25200,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -24478,6 +25209,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -24493,6 +25225,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -24505,6 +25238,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -24513,6 +25247,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -24528,6 +25263,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -24540,6 +25276,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -24548,6 +25285,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -24619,6 +25357,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -24631,6 +25370,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -24639,6 +25379,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -25053,6 +25794,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -25065,6 +25807,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -25073,6 +25816,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -25088,6 +25832,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -25100,6 +25845,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -25108,6 +25854,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -25123,6 +25870,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -25135,6 +25883,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -25143,6 +25892,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -25294,6 +26044,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -25306,6 +26057,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -25314,6 +26066,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -25329,6 +26082,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -25341,6 +26095,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -25349,6 +26104,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -25364,6 +26120,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -25376,6 +26133,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -25384,6 +26142,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -25441,6 +26200,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -25453,6 +26213,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -25461,6 +26222,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -25476,6 +26238,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -25488,6 +26251,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -25496,6 +26260,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -25511,6 +26276,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -25523,6 +26289,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -25531,6 +26298,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -25602,6 +26370,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -25614,6 +26383,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -25622,6 +26392,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -25949,6 +26720,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -25961,6 +26733,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -25969,6 +26742,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -25984,6 +26758,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -25996,6 +26771,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -26004,6 +26780,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -26019,6 +26796,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -26031,6 +26809,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -26039,6 +26818,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -26095,6 +26875,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -26107,6 +26888,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -26115,6 +26897,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -26130,6 +26913,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -26142,6 +26926,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -26150,6 +26935,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -26165,6 +26951,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -26177,6 +26964,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -26185,6 +26973,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -26812,6 +27601,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -26824,6 +27614,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -26832,6 +27623,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -27995,6 +28787,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -28007,6 +28800,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -28015,6 +28809,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -28420,6 +29215,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -28432,6 +29228,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -28440,6 +29237,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -28827,6 +29625,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -28839,6 +29638,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -28847,6 +29647,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -28996,6 +29797,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -29008,6 +29810,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -29016,6 +29819,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -29031,6 +29835,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -29043,6 +29848,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -29051,6 +29857,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -29066,6 +29873,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -29078,6 +29886,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -29086,6 +29895,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -29144,6 +29954,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -29156,6 +29967,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -29164,6 +29976,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -29179,6 +29992,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -29191,6 +30005,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -29199,6 +30014,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -29214,6 +30030,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -29226,6 +30043,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -29234,6 +30052,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -29290,6 +30109,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -29302,6 +30122,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -29310,6 +30131,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -29325,6 +30147,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -29337,6 +30160,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -29345,6 +30169,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -29360,6 +30185,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -29372,6 +30198,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -29380,6 +30207,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -29529,6 +30357,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -29541,6 +30370,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -29549,6 +30379,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -29564,6 +30395,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -29576,6 +30408,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -29584,6 +30417,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
@@ -29599,6 +30433,7 @@
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
@@ -29611,6 +30446,7 @@
         "137": 6,
         "1890": 6,
         "2525": 6,
+        "8453": 6,
         "8822": 6,
         "42161": 6,
         "59144": 6
@@ -29619,6 +30455,7 @@
         "1": "UniswapV2",
         "1890": "Elektrik",
         "2525": "External",
+        "8453": "UniswapV3",
         "8822": "MagicSea",
         "59144": "Nile"
       },
