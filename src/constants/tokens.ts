@@ -260,6 +260,19 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.Aerodrome,
     },
   },
+  skya: {
+    symbol: 'SKYA',
+    address: {
+      [ChainId.BASE]: '0x623cD3a3EdF080057892aaF8D773Bbb7A5C9b6e9',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV2,
+    },
+  },
   ichi: {
     symbol: 'ICHI',
     address: {
