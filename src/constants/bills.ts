@@ -8392,6 +8392,66 @@ const bills: BillsConfig[] = [
       'The Alvara Protocol facilitates the deployment of decentralized, meritocratic, tokenized, and on-chain investment collectives, enabling the creation and management of tokenized investment funds. Utilizing the innovative ERC-7621 Basket Token Standard, Alvara’s built-in leaderboard auto-populates and ranks every ERC-7621 minted on-chain. The protocol’s native token, ALVA, is an ERC-20 utility token serving multiple functions within the platform, including access to governance, rewards, and software portals. ALVA is included in each BTS minted at a nominal 5% weighting, creating deflationary pressure on its supply as each additional BTS removes a percentage of ALVA from circulation. The included ALVA is market-bought, increasing buying pressure with every new BTS creation. Alvara empowers individuals and institutions to create, manage, and invest in fully decentralized, merit-based, on-chain baskets. Committed to transforming conventional procedures and pioneering a new DeFi subsector, Alvara aims to establish ERC-7621 as the gold standard for on-chain basket creation while adhering to decentralization principles. The team consists of 10 full-time core members with extensive experience in traditional finance, web3, project management, public accounting, marketing, and legal domains, supported by a highly skilled development team with expertise in full-stack web and blockchain development and graphic design for Fortune 500 companies.',
     tags: ['RWA'],
   },
+  /* {
+    index: 3017,
+    cmcId: 30680,
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    token: tokens.usdc,
+    quoteToken: tokens.usdc,
+    lpToken: tokens.usdc,
+    earnToken: tokens.gpt,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    inactive: false,
+    projectLink: 'https://gptprotocol.org/',
+    twitter: 'https://twitter.com/gpt_protocol',
+    initTime: { [ChainId.MAINNET]: 1722265086 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription:
+      'GPT Protocol is a pioneering platform leading the merger of artificial intelligence (AI) with blockchain technology, revolutionizing AI development by ensuring it is accessible, innovative, and censorship-resistant. It harnesses open-source AI tools and decentralized networks, bringing together a global community of developers to create, share, and deploy AI applications on the blockchain. $GPT tokens create an AI economy that incentivizes consumers, developers, and compute providers, serving multiple roles within the network, from rewarding miners to compensating data providers.',
+    fullDescription:
+      'GPT Protocol is a transformative Layer 2 blockchain platform built on the Ethereum Virtual Machine, aimed at revolutionizing the artificial intelligence landscape. It integrates decentralized technologies to ensure AI development is accessible, innovative, and censorship-resistant. By harnessing open-source AI tools and decentralized networks, it brings together a global community of developers to create, share, and deploy AI applications on the blockchain. $GPT tokens create an AI economy that incentivizes consumers, developers, and compute providers, serving multiple roles within the network, from rewarding miners to compensating data providers. With a total supply of 1 billion tokens, distribution is allocated across advisors, sales, the team, the ecosystem, treasury, partnerships, and rewards. This multifaceted approach ensures a decentralized economy, empowering growth and participation.',
+  },
+  {
+    index: 3018,
+    cmcId: 30680,
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    token: tokens.usdc,
+    quoteToken: tokens.usdc,
+    lpToken: tokens.usdc,
+    earnToken: tokens.gpt,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    inactive: false,
+    projectLink: 'https://gptprotocol.org/',
+    twitter: 'https://twitter.com/gpt_protocol',
+    initTime: { [ChainId.MAINNET]: 1722265086 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription:
+      'GPT Protocol is a pioneering platform leading the merger of artificial intelligence (AI) with blockchain technology, revolutionizing AI development by ensuring it is accessible, innovative, and censorship-resistant. It harnesses open-source AI tools and decentralized networks, bringing together a global community of developers to create, share, and deploy AI applications on the blockchain. $GPT tokens create an AI economy that incentivizes consumers, developers, and compute providers, serving multiple roles within the network, from rewarding miners to compensating data providers.',
+    fullDescription:
+      'GPT Protocol is a transformative Layer 2 blockchain platform built on the Ethereum Virtual Machine, aimed at revolutionizing the artificial intelligence landscape. It integrates decentralized technologies to ensure AI development is accessible, innovative, and censorship-resistant. By harnessing open-source AI tools and decentralized networks, it brings together a global community of developers to create, share, and deploy AI applications on the blockchain. $GPT tokens create an AI economy that incentivizes consumers, developers, and compute providers, serving multiple roles within the network, from rewarding miners to compensating data providers. With a total supply of 1 billion tokens, distribution is allocated across advisors, sales, the team, the ecosystem, treasury, partnerships, and rewards. This multifaceted approach ensures a decentralized economy, empowering growth and participation.',
+  },*/
 ]
 
 export default bills
