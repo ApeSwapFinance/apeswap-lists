@@ -7,7 +7,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingT
 // Arbitrum Largest ID: 2007
 // ETH Largest ID: 3016
 // Linea Largest ID: 6006
-// Base Largest ID: 8006
+// Base Largest ID: 8007
 // Lightlink Largest ID: 7000
 // IOTA largest ID: 9002
 // Migration Bonds ID: 5007
@@ -108,7 +108,34 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
-
+  {
+    index: 8007,
+    cmcId: 31320,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x6b1977bb3b10Dd4F48A044AAcEd4E9162428dFe3',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.skya,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://sekuya.io/',
+    twitter: 'https://twitter.com/sekuyaofficial',
+    initTime: { [ChainId.BASE]: 1722253943 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['GAMEFI'],
+    shortDescription: '',
+    fullDescription: '',
+  },
   {
     index: 8006,
     cmcId: 27486,
