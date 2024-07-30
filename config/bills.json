@@ -21896,6 +21896,250 @@
     "soldOut": true
   },
   {
+    "index": 158,
+    "cmcId": 28678,
+    "chainId": 137,
+    "contractAddress": {
+      "137": "0xAD2329CeAC4C7fbf22D70B81E3dd7906dfeB7CDa"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "1890": 6,
+        "2525": 6,
+        "8453": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8453": "UniswapV3",
+        "8822": "MagicSea",
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "1890": 6,
+        "2525": 6,
+        "8453": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8453": "UniswapV3",
+        "8822": "MagicSea",
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "1890": 6,
+        "2525": 6,
+        "8453": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8453": "UniswapV3",
+        "8822": "MagicSea",
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "DSRUN",
+      "address": {
+        "137": "0xFf76c0B48363A7C7307868a81548d340049b0023"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "Algebra"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
+    },
+    "inactive": false,
+    "projectLink": "https://derbystars.com/#section1",
+    "twitter": "https://twitter.com/DerbyStars_HQ",
+    "initTime": {
+      "137": 1701892800
+    },
+    "initPrice": {
+      "137": 0.347018667988457
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "Quickswap_Collection1"
+    },
+    "bondPartner": "QuickSwap",
+    "shortDescription": "Derby Stars is a horse racing metaverse game where players can breed, grow, trade, and train horses. Using an in-game training system, players enhance their horses' skills to race and win rewards. Championship horses excel in breeding, and Play To Earn opportunities abound, including in-game Scholarship Programs. $DSRUN, the game's governance token, is used in-game and allows players to participate in the ecosystem development.",
+    "fullDescription": "Derby Stars is a horse racing metaverse game where players can breed, grow, and trade horses. Through an in-game training system, players can enhance their horses' stats, talents, and skills to race against others. Special treats and items improve performance, and winning races yields substantial rewards. Championship horses make excellent stallions for breeding. Derby Stars emphasizes Play To Earn, allowing all players to earn tokens through various activities, including in-game Scholarship Programs for those without horses. $DSRUN, the game's governance token, can be acquired and used in-game, enabling users to engage with and influence the ecosystem's development. This project is backed by Hashed, Patron, Galaxy, and Polygon.",
+    "tags": ["GAMEFI"]
+  },
+  {
+    "index": 157,
+    "cmcId": 28678,
+    "chainId": 137,
+    "contractAddress": {
+      "137": "0x1Bf0DD49203BCAbd2F5D7A87bB5FcD2d8E0E42B2"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "MATIC",
+      "address": {
+        "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
+        "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+        "59144": "0x265B25e22bcd7f10a5bD6E6410F10537Cc7567e8"
+      },
+      "decimals": {
+        "56": 18,
+        "137": 18,
+        "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Algebra"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "DSRUN",
+      "address": {
+        "137": "0xFf76c0B48363A7C7307868a81548d340049b0023"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "Algebra"
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "WMATIC-DSRUN",
+      "address": {
+        "137": "0xECD259DEdDc93B9881debDC67c7c4b553794Fd3c"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "Algebra"
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "DSRUN",
+      "address": {
+        "137": "0xFf76c0B48363A7C7307868a81548d340049b0023"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "Algebra"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
+    },
+    "inactive": false,
+    "projectLink": "https://derbystars.com/#section1",
+    "twitter": "https://twitter.com/DerbyStars_HQ",
+    "initTime": {
+      "137": 1701892800
+    },
+    "initPrice": {
+      "137": 0.347018667988457
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "Quickswap_Collection1"
+    },
+    "bondPartner": "QuickSwap",
+    "shortDescription": "Derby Stars is a horse racing metaverse game where players can breed, grow, trade, and train horses. Using an in-game training system, players enhance their horses' skills to race and win rewards. Championship horses excel in breeding, and Play To Earn opportunities abound, including in-game Scholarship Programs. $DSRUN, the game's governance token, is used in-game and allows players to participate in the ecosystem development.",
+    "fullDescription": "Derby Stars is a horse racing metaverse game where players can breed, grow, and trade horses. Through an in-game training system, players can enhance their horses' stats, talents, and skills to race against others. Special treats and items improve performance, and winning races yields substantial rewards. Championship horses make excellent stallions for breeding. Derby Stars emphasizes Play To Earn, allowing all players to earn tokens through various activities, including in-game Scholarship Programs for those without horses. $DSRUN, the game's governance token, can be acquired and used in-game, enabling users to engage with and influence the ecosystem's development. This project is backed by Hashed, Patron, Galaxy, and Polygon.",
+    "tags": ["GAMEFI"]
+  },
+  {
     "index": 156,
     "cmcId": 12312,
     "chainId": 137,

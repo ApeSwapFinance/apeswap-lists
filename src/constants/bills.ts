@@ -2,7 +2,7 @@ import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingTerms } from '../types'
 
 // BNB Largest ID: 1083
-// Polygon Largest ID: 156
+// Polygon Largest ID: 157
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2007
 // ETH Largest ID: 3016
@@ -5640,6 +5640,68 @@ const bills: BillsConfig[] = [
   /*
     Polygon Bills
   */
+  {
+    index: 158,
+    cmcId: 28678,
+    chainId: ChainId.MATIC,
+    contractAddress: {
+      [ChainId.MATIC]: '0xAD2329CeAC4C7fbf22D70B81E3dd7906dfeB7CDa',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.dsrun,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://derbystars.com/#section1',
+    twitter: 'https://twitter.com/DerbyStars_HQ',
+    initTime: { [ChainId.MATIC]: 1701892800 },
+    initPrice: { [ChainId.MATIC]: 0.347018667988457 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+    shortDescription:
+      "Derby Stars is a horse racing metaverse game where players can breed, grow, trade, and train horses. Using an in-game training system, players enhance their horses' skills to race and win rewards. Championship horses excel in breeding, and Play To Earn opportunities abound, including in-game Scholarship Programs. $DSRUN, the game's governance token, is used in-game and allows players to participate in the ecosystem development.",
+    fullDescription: `Derby Stars is a horse racing metaverse game where players can breed, grow, and trade horses. Through an in-game training system, players can enhance their horses' stats, talents, and skills to race against others. Special treats and items improve performance, and winning races yields substantial rewards. Championship horses make excellent stallions for breeding. Derby Stars emphasizes Play To Earn, allowing all players to earn tokens through various activities, including in-game Scholarship Programs for those without horses. $DSRUN, the game's governance token, can be acquired and used in-game, enabling users to engage with and influence the ecosystem's development. This project is backed by Hashed, Patron, Galaxy, and Polygon.`,
+    tags: ['GAMEFI'],
+  },
+  {
+    index: 157,
+    cmcId: 28678,
+    chainId: ChainId.MATIC,
+    contractAddress: {
+      [ChainId.MATIC]: '0x1Bf0DD49203BCAbd2F5D7A87bB5FcD2d8E0E42B2',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.wmatic,
+    quoteToken: tokens.dsrun,
+    lpToken: tokens.maticDsrun_Ichi,
+    earnToken: tokens.dsrun,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://derbystars.com/#section1',
+    twitter: 'https://twitter.com/DerbyStars_HQ',
+    initTime: { [ChainId.MATIC]: 1701892800 },
+    initPrice: { [ChainId.MATIC]: 0.347018667988457 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+    shortDescription:
+      "Derby Stars is a horse racing metaverse game where players can breed, grow, trade, and train horses. Using an in-game training system, players enhance their horses' skills to race and win rewards. Championship horses excel in breeding, and Play To Earn opportunities abound, including in-game Scholarship Programs. $DSRUN, the game's governance token, is used in-game and allows players to participate in the ecosystem development.",
+    fullDescription: `Derby Stars is a horse racing metaverse game where players can breed, grow, and trade horses. Through an in-game training system, players can enhance their horses' stats, talents, and skills to race against others. Special treats and items improve performance, and winning races yields substantial rewards. Championship horses make excellent stallions for breeding. Derby Stars emphasizes Play To Earn, allowing all players to earn tokens through various activities, including in-game Scholarship Programs for those without horses. $DSRUN, the game's governance token, can be acquired and used in-game, enabling users to engage with and influence the ecosystem's development. This project is backed by Hashed, Patron, Galaxy, and Polygon.`,
+    tags: ['GAMEFI'],
+  },
   {
     index: 156,
     cmcId: 12312,
