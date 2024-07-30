@@ -1343,6 +1343,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  dsrun: {
+    symbol: 'DSRUN',
+    address: {
+      [ChainId.MATIC]: '0xFf76c0B48363A7C7307868a81548d340049b0023',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.Algebra,
+    },
+    active: true,
+  },
   orbs: {
     symbol: 'ORBS',
     address: {
@@ -5167,6 +5180,21 @@ const tokens: Record<string, Token> = {
     getLpUrl: {
       [ChainId.MATIC]: 'https://app.ichi.org/vault/token/0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270',
     },
+  },
+  maticDsrun_Ichi: {
+    symbol: 'WMATIC-DSRUN',
+    address: {
+      [ChainId.MATIC]: '0xECD259DEdDc93B9881debDC67c7c4b553794Fd3c',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.Algebra,
+    },
+    active: true,
+    lpToken: true,
+    ichiUnderlyingDex: IchiSupportedDex.Quickswap,
   },
   maticEth_Qs: {
     symbol: 'MATIC-ETH',
