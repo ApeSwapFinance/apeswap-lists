@@ -22103,7 +22103,8 @@
         "137": "Algebra"
       },
       "active": true,
-      "lpToken": true
+      "lpToken": true,
+      "ichiUnderlyingDex": "QuickSwap"
     },
     "earnToken": {
       "symbol": "DSRUN",

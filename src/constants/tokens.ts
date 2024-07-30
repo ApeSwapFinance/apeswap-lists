@@ -5194,6 +5194,7 @@ const tokens: Record<string, Token> = {
     },
     active: true,
     lpToken: true,
+    ichiUnderlyingDex: IchiSupportedDex.Quickswap,
   },
   maticEth_Qs: {
     symbol: 'MATIC-ETH',
