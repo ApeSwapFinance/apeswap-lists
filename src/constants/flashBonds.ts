@@ -526,7 +526,7 @@ const flashBonds: FlashBondConfig[] = [
     discountString: '2%',
     tierString: 'diamond',
     contractAddress: {
-      [ChainId.BSC]: '0xC43ef242F2a18bD51Aa9F19dc967b5b0ebbf22DB',
+      [ChainId.BSC]: '',
     },
     billVersion: BillVersion.FlashTieredSale,
     billType: 'oversubscription',
