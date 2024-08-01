@@ -570,13 +570,13 @@ const flashBonds: FlashBondConfig[] = [
     soldOut: false,
     billArt: { collection: BillArtCollection.ApeBond_Collection1 },
     initTime: {
-      [ChainId.BSC]: 1722530160, // Aug 1st 1800 UTC
+      [ChainId.BSC]: 1822530160, // Aug 1st 1800 UTC
     },
     finishTime: {
-      [ChainId.BSC]: 1722530280, // Aug 1st 1830 UTC
+      [ChainId.BSC]: 1822530280, // Aug 1st 1830 UTC
     },
     startVestingTimestamp: {
-      [ChainId.BSC]: 1722530280, // Aug 1st 1830 UTC
+      [ChainId.BSC]: 1822530280, // Aug 1st 1830 UTC
     },
     initPrice: {
       [ChainId.BSC]: 0,
@@ -602,13 +602,13 @@ const flashBonds: FlashBondConfig[] = [
     soldOut: false,
     billArt: { collection: BillArtCollection.ApeBond_Collection1 },
     initTime: {
-      [ChainId.BSC]: 1823136400, // Aug 8th 1700 UTC
+      [ChainId.BSC]: 1723136400, // Aug 8th 1700 UTC
     },
     finishTime: {
-      [ChainId.BSC]: 1823138200, // Aug 8th 1730 UTC
+      [ChainId.BSC]: 1723138200, // Aug 8th 1730 UTC
     },
     startVestingTimestamp: {
-      [ChainId.BSC]: 1823138200, // Aug 8th 1730 UTC
+      [ChainId.BSC]: 1723138200, // Aug 8th 1730 UTC
     },
     initPrice: {
       [ChainId.BSC]: 0,
