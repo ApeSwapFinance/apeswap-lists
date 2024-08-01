@@ -2,7 +2,7 @@ import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingTerms } from '../types'
 
 // BNB Largest ID: 1083
-// Polygon Largest ID: 157
+// Polygon Largest ID: 159
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2007
 // ETH Largest ID: 3016
@@ -5640,6 +5640,36 @@ const bills: BillsConfig[] = [
   /*
     Polygon Bills
   */
+  {
+    index: 159,
+    cmcId: 29603,
+    chainId: ChainId.MATIC,
+    contractAddress: {
+      [ChainId.MATIC]: '0xB18631bE1c472D09F2dc6677a467Afff867B6c0D',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.icnx,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://www.iconx.world/',
+    twitter: 'https://twitter.com/iconxworld',
+    initTime: { [ChainId.MATIC]: 1701892800 },
+    initPrice: { [ChainId.MATIC]: 0.347018667988457 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    shortDescription:
+      'Icon.X World is a growing GameFi ecosystem powered by the ICNX token, bridging web3 and gaming. It started with competitive esports racing on Assetto Corsa, where players earned ICNX rewards, and has now expanded to "Icon.X Arena", hosting tournaments across web2 games like CS2. The ecosystem offers grants, community support, and dev tools, with ICNX available on Uniswap (Polygon), MEXC, and soon on Solana.',
+    fullDescription: `Icon.X World is a rapidly expanding GameFi ecosystem centered around the ICNX token, designed to bridge the gap between web3 and gaming. Leveraging the Icon.X World Grants Program, Community, and Developer Tools, it empowers creators to build and deploy their games within a supportive environment. Initially gaining traction through competitive esports racing on Assetto Corsa, where players could earn ICNX rewards, Icon.X World has since broadened its scope. Now, through "Icon.X Arena", it hosts competitive tournaments across various web2 games like CS2, offering substantial prize pools and further solidifying its role as a leader in the web3 gaming space. ICNX, the ecosystem's native token, is available on Uniswap (Polygon), MEXC, and soon on Solana, with further expansion planned.`,
+    tags: ['GAMEFI'],
+  },
   {
     index: 158,
     cmcId: 28678,
