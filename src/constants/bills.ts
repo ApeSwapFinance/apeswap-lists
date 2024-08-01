@@ -5663,7 +5663,7 @@ const bills: BillsConfig[] = [
     initPrice: { [ChainId.MATIC]: 0.347018667988457 },
     soldOut: false,
     billArt: {
-      collection: BillArtCollection.Quickswap_Collection1,
+      collection: BillArtCollection.ApeBond_Collection1,
     },
     shortDescription:
       'Icon.X World is a growing GameFi ecosystem powered by the ICNX token, bridging web3 and gaming. It started with competitive esports racing on Assetto Corsa, where players earned ICNX rewards, and has now expanded to "Icon.X Arena", hosting tournaments across web2 games like CS2. The ecosystem offers grants, community support, and dev tools, with ICNX available on Uniswap (Polygon), MEXC, and soon on Solana.',
