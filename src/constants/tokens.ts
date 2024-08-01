@@ -1411,6 +1411,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  icnx: {
+    symbol: 'ICNX',
+    address: {
+      [ChainId.MATIC]: '0x91f3B9366801C1fCa6184C3bD99d5Ab0C43A9033',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.UniswapV3,
+    },
+    active: true,
+  },
   fbx: {
     symbol: 'FBX',
     address: {
