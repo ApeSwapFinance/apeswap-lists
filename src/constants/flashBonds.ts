@@ -526,7 +526,7 @@ const flashBonds: FlashBondConfig[] = [
     discountString: '2%',
     tierString: 'diamond',
     contractAddress: {
-      [ChainId.BSC]: '',
+      [ChainId.BSC]: '0xDA28ABc72d6fF51f4ca3D8Fd959509CCedd82B48',
     },
     billVersion: BillVersion.FlashTieredSale,
     billType: 'oversubscription',
@@ -538,13 +538,13 @@ const flashBonds: FlashBondConfig[] = [
     soldOut: false,
     billArt: { collection: BillArtCollection.ApeBond_Collection1 },
     initTime: {
-      [ChainId.BSC]: 1722452583, // Aug 1st 1700 UTC asd!
+      [ChainId.BSC]: 1722526200, // Aug 1st 1700 UTC asd!
     },
     finishTime: {
-      [ChainId.BSC]: 1722533400, // Aug 1st 1730 UTC
+      [ChainId.BSC]: 1722528000, // Aug 1st 1730 UTC
     },
     startVestingTimestamp: {
-      [ChainId.BSC]: 1722533400, // Aug 1st 1730 UTC
+      [ChainId.BSC]: 1722528000, // Aug 1st 1730 UTC
     },
     initPrice: {
       [ChainId.BSC]: 0,
