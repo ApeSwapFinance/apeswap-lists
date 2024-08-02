@@ -1514,7 +1514,7 @@
     "discountString": "2%",
     "tierString": "diamond",
     "contractAddress": {
-      "56": ""
+      "56": "0xB5BDD2f66d2AF0d2a1Fe976aF754DeBb3092e787"
     },
     "billVersion": "FlashTieredSale",
     "billType": "oversubscription",
@@ -1607,7 +1607,7 @@
       "56": 1722533400
     },
     "initPrice": {
-      "56": 0
+      "56": 3072.3
     },
     "initialRelease": 100
   },
@@ -1618,7 +1618,7 @@
     "discountString": "3%",
     "tierString": "legend",
     "contractAddress": {
-      "56": ""
+      "56": "0x414ca50BA21a092d875618Dfd140Da6927e1a1C3"
     },
     "billVersion": "FlashTieredSale",
     "billType": "oversubscription",
@@ -1711,7 +1711,7 @@
       "56": 1722537000
     },
     "initPrice": {
-      "56": 0
+      "56": 3026.4
     },
     "initialRelease": 100
   },

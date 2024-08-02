@@ -526,7 +526,7 @@ const flashBonds: FlashBondConfig[] = [
     discountString: '2%',
     tierString: 'diamond',
     contractAddress: {
-      [ChainId.BSC]: '',
+      [ChainId.BSC]: '0xB5BDD2f66d2AF0d2a1Fe976aF754DeBb3092e787',
     },
     billVersion: BillVersion.FlashTieredSale,
     billType: 'oversubscription',
@@ -547,7 +547,7 @@ const flashBonds: FlashBondConfig[] = [
       [ChainId.BSC]: 1722533400, // Aug 1st 1730 UTC
     },
     initPrice: {
-      [ChainId.BSC]: 0,
+      [ChainId.BSC]: 3072.3,
     },
     initialRelease: 100,
   },
@@ -558,7 +558,7 @@ const flashBonds: FlashBondConfig[] = [
     discountString: '3%',
     tierString: 'legend',
     contractAddress: {
-      [ChainId.BSC]: '',
+      [ChainId.BSC]: '0x414ca50BA21a092d875618Dfd140Da6927e1a1C3',
     },
     billVersion: BillVersion.FlashTieredSale,
     billType: 'oversubscription',
@@ -579,7 +579,7 @@ const flashBonds: FlashBondConfig[] = [
       [ChainId.BSC]: 1722537000, // Aug 1st 1830 UTC
     },
     initPrice: {
-      [ChainId.BSC]: 0,
+      [ChainId.BSC]: 3026.4,
     },
     initialRelease: 100,
   },
