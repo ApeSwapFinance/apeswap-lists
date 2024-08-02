@@ -538,13 +538,13 @@ const flashBonds: FlashBondConfig[] = [
     soldOut: false,
     billArt: { collection: BillArtCollection.ApeBond_Collection1 },
     initTime: {
-      [ChainId.BSC]: 1722529920, // Aug 1st 1700 UTC asd!
+      [ChainId.BSC]: 1722618723, // Aug 1st 1700 UTC asd!
     },
     finishTime: {
-      [ChainId.BSC]: 1722530040, // Aug 1st 1730 UTC
+      [ChainId.BSC]: 1722618903, // Aug 1st 1730 UTC
     },
     startVestingTimestamp: {
-      [ChainId.BSC]: 1722530040, // Aug 1st 1730 UTC
+      [ChainId.BSC]: 1722618903, // Aug 1st 1730 UTC
     },
     initPrice: {
       [ChainId.BSC]: 0,
@@ -558,7 +558,7 @@ const flashBonds: FlashBondConfig[] = [
     discountString: '3%',
     tierString: 'legend',
     contractAddress: {
-      [ChainId.BSC]: '0x22729a581AA15Df87586b6D903FDE7aaDDe09532',
+      [ChainId.BSC]: '',
     },
     billVersion: BillVersion.FlashTieredSale,
     billType: 'oversubscription',
@@ -570,13 +570,13 @@ const flashBonds: FlashBondConfig[] = [
     soldOut: false,
     billArt: { collection: BillArtCollection.ApeBond_Collection1 },
     initTime: {
-      [ChainId.BSC]: 1822530160, // Aug 1st 1800 UTC
+      [ChainId.BSC]: 1722619503, // Aug 1st 1800 UTC
     },
     finishTime: {
-      [ChainId.BSC]: 1822530280, // Aug 1st 1830 UTC
+      [ChainId.BSC]: 1722619803, // Aug 1st 1830 UTC
     },
     startVestingTimestamp: {
-      [ChainId.BSC]: 1822530280, // Aug 1st 1830 UTC
+      [ChainId.BSC]: 1722619803, // Aug 1st 1830 UTC
     },
     initPrice: {
       [ChainId.BSC]: 0,
