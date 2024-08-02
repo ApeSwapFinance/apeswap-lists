@@ -21900,7 +21900,7 @@
     "cmcId": 29603,
     "chainId": 137,
     "contractAddress": {
-      "137": "0xB18631bE1c472D09F2dc6677a467Afff867B6c0D"
+      "137": "0x5e5193126e519aEDF18e9D68a9f5c846ed94F917"
     },
     "billType": "reserve",
     "billVersion": "V2",
@@ -22043,7 +22043,7 @@
     "initPrice": {
       "137": 0.347018667988457
     },
-    "soldOut": true,
+    "soldOut": false,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },

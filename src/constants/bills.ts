@@ -5645,7 +5645,7 @@ const bills: BillsConfig[] = [
     cmcId: 29603,
     chainId: ChainId.MATIC,
     contractAddress: {
-      [ChainId.MATIC]: '0xB18631bE1c472D09F2dc6677a467Afff867B6c0D',
+      [ChainId.MATIC]: '0x5e5193126e519aEDF18e9D68a9f5c846ed94F917',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
@@ -5661,7 +5661,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/iconxworld',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.347018667988457 },
-    soldOut: true,
+    soldOut: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
