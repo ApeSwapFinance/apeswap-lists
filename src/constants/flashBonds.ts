@@ -583,7 +583,7 @@ const flashBonds: FlashBondConfig[] = [
     },
     initialRelease: 100,
   },
-  {
+  /* {
     index: 18,
     round: '9',
     totalRaiseString: '15K',
@@ -678,7 +678,7 @@ const flashBonds: FlashBondConfig[] = [
       [ChainId.BSC]: 0,
     },
     initialRelease: 100,
-  },
+  }, */
   {
     index: 21,
     round: '10',
