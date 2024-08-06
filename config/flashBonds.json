@@ -1722,7 +1722,7 @@
     "discountString": "2%",
     "tierString": "diamond",
     "contractAddress": {
-      "56": ""
+      "56": "0x9a6De19e271d9e0f0Ae72e6129451F7187B6a9e9"
     },
     "billVersion": "FlashTieredSale",
     "billType": "oversubscription",
@@ -1786,97 +1786,13 @@
       "collection": "ApeBond_Collection1"
     },
     "initTime": {
-      "56": 1723741200
+      "56": 1722965400
     },
     "finishTime": {
-      "56": 1723743000
+      "56": 1722969000
     },
     "startVestingTimestamp": {
-      "56": 1723743000
-    },
-    "initPrice": {
-      "56": 0
-    },
-    "initialRelease": 100
-  },
-  {
-    "index": 22,
-    "round": "10",
-    "totalRaiseString": "100K",
-    "discountString": "3%",
-    "tierString": "legend",
-    "contractAddress": {
-      "56": ""
-    },
-    "billVersion": "FlashTieredSale",
-    "billType": "oversubscription",
-    "token": {
-      "symbol": "USDT",
-      "address": {
-        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
-        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
-        "56": "0x55d398326f99059fF775485246999027B3197955",
-        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
-        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
-        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
-        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
-        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
-        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
-        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
-      },
-      "decimals": {
-        "1": 6,
-        "40": 6,
-        "56": 18,
-        "97": 18,
-        "137": 6,
-        "1890": 6,
-        "2525": 6,
-        "8453": 6,
-        "8822": 6,
-        "42161": 6,
-        "59144": 6
-      },
-      "liquidityDex": {
-        "1": "UniswapV2",
-        "1890": "Elektrik",
-        "2525": "External",
-        "8453": "UniswapV3",
-        "8822": "MagicSea",
-        "59144": "Nile"
-      },
-      "active": true
-    },
-    "earnToken": {
-      "symbol": "BNB",
-      "address": {
-        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
-        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
-        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
-      },
-      "decimals": {
-        "56": 18,
-        "97": 18,
-        "137": 18
-      },
-      "active": true
-    },
-    "billNnftAddress": {
-      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
-    },
-    "soldOut": false,
-    "billArt": {
-      "collection": "ApeBond_Collection1"
-    },
-    "initTime": {
-      "56": 1723744800
-    },
-    "finishTime": {
-      "56": 1723746600
-    },
-    "startVestingTimestamp": {
-      "56": 1723746600
+      "56": 1722969000
     },
     "initPrice": {
       "56": 0
