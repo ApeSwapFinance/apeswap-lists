@@ -3512,6 +3512,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  elda: {
+    symbol: 'ELDA',
+    address: {
+      [ChainId.BSC]: '0xab2ed911BDbeA001FD3B29AdbC35d8a76E68aAe4',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
   cgg: {
     symbol: 'CGG',
     address: {
