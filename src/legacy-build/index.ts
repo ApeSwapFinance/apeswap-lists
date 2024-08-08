@@ -18,6 +18,7 @@ import {
   launchProjects,
   flashBonds,
 } from '../constants'
+import { BillsConfig } from 'types'
 
 const listMap: [any, string][] = [
   [farms, 'farms'],
@@ -37,8 +38,58 @@ const listMap: [any, string][] = [
   [flashBonds, 'flashBonds'],
 ]
 
-const buildList = (list: any, listName: string) => {
+const buildList = (listProp: any, listName: string) => {
   const tokenListPath = `${path.resolve()}/config/${listName}.json`
+  let list
+  if (listName === 'bills') {
+    list = listProp.map((bill: BillsConfig): BillsConfig => {
+      const chainId = bill.chainId
+      return {
+        ...bill,
+        contractAddress: {
+          [chainId]: bill.contractAddress[chainId],
+        },
+        lpToken: {
+          symbol: bill.lpToken.symbol,
+          address: {
+            [chainId]: bill.lpToken.address?.[chainId],
+          },
+          decimals: {
+            [chainId]: bill.lpToken.decimals?.[chainId],
+          },
+          active: bill.lpToken.active,
+          lpToken: bill.lpToken.lpToken,
+          liquidityDex: {
+            [chainId]: bill.lpToken.liquidityDex?.[chainId],
+          },
+          getLpUrl: {
+            [chainId]: bill.lpToken.getLpUrl?.[chainId],
+          },
+          ichiUnderlyingDex: bill.lpToken.ichiUnderlyingDex,
+        },
+        earnToken: {
+          symbol: bill.earnToken.symbol,
+          address: {
+            [chainId]: bill.earnToken.address?.[chainId],
+          },
+          decimals: {
+            [chainId]: bill.earnToken.decimals?.[chainId],
+          },
+          active: bill.earnToken.active,
+          lpToken: bill.earnToken.lpToken,
+          liquidityDex: {
+            [chainId]: bill.earnToken.liquidityDex?.[chainId],
+          },
+          getLpUrl: {
+            [chainId]: bill.earnToken.getLpUrl?.[chainId],
+          },
+          ichiUnderlyingDex: bill.earnToken.ichiUnderlyingDex,
+        },
+      }
+    })
+  } else {
+    list = listProp
+  }
   const stringifiedList = JSON.stringify(list, null, 2)
   fs.writeFile(tokenListPath, stringifiedList, function (err) {
     if (err) console.error(err)

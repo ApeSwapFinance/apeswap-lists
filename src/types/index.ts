@@ -262,8 +262,8 @@ export interface BillsConfig {
   contractAddress: Partial<Record<ChainId, string>> // FE
   billVersion: BillVersion // FE
   billType: 'liquidity' | 'reserve' | 'launch' | 'migration' | 'cex' // FE
-  token: Token
-  quoteToken: Token
+  // token: Token
+  // quoteToken: Token
   lpToken: Token // FE
   earnToken: Token // FE
   billNnftAddress: Partial<Record<ChainId, string>> // FE
@@ -277,7 +277,7 @@ export interface BillsConfig {
   billArt?: {
     collection: BillArtCollection // i.e. BillArtCollection.ApeSwap_Collection1
   }
-  showcaseToken?: Token // Fuck this shit
+  showcaseToken?: Token // FE
   bondPartner?: string // FE
   // * These are used for the individual bond page view
   shortDescription?: string // FE
@@ -286,8 +286,8 @@ export interface BillsConfig {
   partnersURLS?: string[] // FE
   tags?: string[] // FE
   onlyPartner?: boolean // FE
-  vestingTerm?: number
   // * This is only used for the bond migration page
+  vestingTerm?: number
   multiplier?: number
 }
 
