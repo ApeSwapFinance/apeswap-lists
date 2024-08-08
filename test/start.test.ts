@@ -24,8 +24,9 @@ import dualFarmsJson from '../config/dualFarms.json'
 import nfaStakingPoolJson from '../config/nfaStakingPools.json'
 import iaosJson from '../config/iaos.json'
 import zapInputTokensJson from '../config/zapInputTokens.json'
+import { stringifyList } from '../src'
 
-const stringifiedBills = JSON.stringify(bills, null, 2)
+const stringifiedBills = stringifyList(bills, 'bills')
 const stringifiedBillsJson = JSON.stringify(billsJson, null, 2)
 
 const stringifiedFarms = JSON.stringify(farms, null, 2)

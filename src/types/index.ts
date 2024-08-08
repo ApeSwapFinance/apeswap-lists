@@ -128,7 +128,7 @@ export interface Token {
   symbol: string
   address: Partial<Record<ChainId, string>>
   active: boolean
-  decimals?: Partial<Record<ChainId, number | null>>
+  decimals: Partial<Record<ChainId, number | null>>
   dontFetch?: boolean
   lpToken?: boolean
   price?: number

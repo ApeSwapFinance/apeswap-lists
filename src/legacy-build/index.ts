@@ -38,8 +38,7 @@ const listMap: [any, string][] = [
   [flashBonds, 'flashBonds'],
 ]
 
-const buildList = (listProp: any, listName: string) => {
-  const tokenListPath = `${path.resolve()}/config/${listName}.json`
+export const stringifyList = (listProp: any, listName: string) => {
   let list
   if (listName === 'bills') {
     list = listProp.map((bill: BillsConfig): BillsConfig => {
@@ -78,7 +77,12 @@ const buildList = (listProp: any, listName: string) => {
   } else {
     list = listProp
   }
-  const stringifiedList = JSON.stringify(list, null, 2)
+  return JSON.stringify(list, null, 2)
+}
+
+export const buildList = (listProp: any, listName: string) => {
+  const tokenListPath = `${path.resolve()}/config/${listName}.json`
+  const stringifiedList = stringifyList(listProp, listName)
   fs.writeFile(tokenListPath, stringifiedList, function (err) {
     if (err) console.error(err)
     console.info(`✅  ${listName} complete`)
