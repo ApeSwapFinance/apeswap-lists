@@ -15,11 +15,11 @@
       "decimals": {
         "8822": 18
       },
-      "active": true,
-      "lpToken": true,
       "liquidityDex": {
         "8822": "MagicSea"
       },
+      "active": true,
+      "lpToken": true,
       "getLpUrl": {
         "8822": "https://app.magicsea.finance/liquidityv2/manual/:8822/add/0xba7ac526ee9d29209baedccb67c6d3a228644982"
       }
@@ -35,8 +35,7 @@
       "active": true,
       "liquidityDex": {
         "8822": "MagicSea"
-      },
-      "getLpUrl": {}
+      }
     },
     "billNnftAddress": {
       "8822": "0x896c7021C1ACa0dD65D1D525b0434822dbCB6d9d"
@@ -74,8 +73,7 @@
       "active": true,
       "liquidityDex": {
         "8822": "MagicSea"
-      },
-      "getLpUrl": {}
+      }
     },
     "earnToken": {
       "symbol": "RUST",
@@ -88,8 +86,7 @@
       "active": true,
       "liquidityDex": {
         "8822": "MagicSea"
-      },
-      "getLpUrl": {}
+      }
     },
     "billNnftAddress": {
       "8822": "0x896c7021C1ACa0dD65D1D525b0434822dbCB6d9d"
@@ -124,11 +121,11 @@
       "decimals": {
         "8822": 18
       },
-      "active": true,
-      "lpToken": true,
       "liquidityDex": {
         "8822": "MagicSea"
       },
+      "active": true,
+      "lpToken": true,
       "getLpUrl": {
         "8822": "https://app.magicsea.finance/liquidityv2/manual/:8822/add/0x7ceb96304fbea063d6c461a57ce496213bebe535"
       }
@@ -144,8 +141,7 @@
       "active": true,
       "liquidityDex": {
         "8822": "MagicSea"
-      },
-      "getLpUrl": {}
+      }
     },
     "billNnftAddress": {
       "8822": "0x896c7021C1ACa0dD65D1D525b0434822dbCB6d9d"
@@ -181,11 +177,10 @@
       "decimals": {
         "8453": 6
       },
-      "active": true,
       "liquidityDex": {
         "8453": "UniswapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "SKYA",
@@ -198,8 +193,7 @@
       "active": true,
       "liquidityDex": {
         "8453": "UniswapV2"
-      },
-      "getLpUrl": {}
+      }
     },
     "billNnftAddress": {
       "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
@@ -235,11 +229,10 @@
       "decimals": {
         "8453": 18
       },
-      "active": true,
       "liquidityDex": {
         "8453": "Aerodrome"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "SOPH",
@@ -252,8 +245,7 @@
       "active": true,
       "liquidityDex": {
         "8453": "Aerodrome"
-      },
-      "getLpUrl": {}
+      }
     },
     "billNnftAddress": {
       "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
@@ -292,11 +284,11 @@
       "decimals": {
         "8453": 18
       },
-      "active": true,
-      "lpToken": true,
       "liquidityDex": {
         "8453": "Aerodrome"
       },
+      "active": true,
+      "lpToken": true,
       "getLpUrl": {
         "8453": "https://aerodrome.finance/deposit?token0=0x4200000000000000000000000000000000000006&token1=0x73fBD93bFDa83B111DdC092aa3a4ca77fD30d380&type=-1"
       }
@@ -312,8 +304,7 @@
       "active": true,
       "liquidityDex": {
         "8453": "Aerodrome"
-      },
-      "getLpUrl": {}
+      }
     },
     "billNnftAddress": {
       "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
@@ -351,11 +342,11 @@
       "decimals": {
         "8453": 18
       },
-      "active": true,
-      "lpToken": true,
       "liquidityDex": {
         "8453": "UniswapV2"
       },
+      "active": true,
+      "lpToken": true,
       "getLpUrl": {
         "8453": "https://app.uniswap.org/add/v2/0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913/0x3f8D935512f74b7C71A2C2395a06af5f87BC9276?chain=base"
       }
@@ -371,8 +362,7 @@
       "active": true,
       "liquidityDex": {
         "8453": "UniswapV2"
-      },
-      "getLpUrl": {}
+      }
     },
     "billNnftAddress": {
       "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
@@ -411,11 +401,10 @@
       "decimals": {
         "8453": 18
       },
-      "active": true,
       "liquidityDex": {
         "8453": "Aerodrome"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "SDEX",
@@ -425,11 +414,10 @@
       "decimals": {
         "8453": 18
       },
-      "active": true,
       "liquidityDex": {
         "8453": "SmarDex"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
@@ -467,11 +455,10 @@
       "decimals": {
         "8453": 18
       },
-      "active": true,
       "liquidityDex": {
         "8453": "Aerodrome"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "TKN",
@@ -484,8 +471,7 @@
       "active": true,
       "liquidityDex": {
         "8453": "Aerodrome"
-      },
-      "getLpUrl": {}
+      }
     },
     "billNnftAddress": {
       "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
@@ -524,11 +510,10 @@
       "decimals": {
         "8453": 18
       },
-      "active": true,
       "liquidityDex": {
         "8453": "Aerodrome"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "SUBF",
@@ -541,8 +526,7 @@
       "active": true,
       "liquidityDex": {
         "8453": "UniswapV3"
-      },
-      "getLpUrl": {}
+      }
     },
     "billNnftAddress": {
       "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
@@ -581,11 +565,11 @@
       "decimals": {
         "8453": 18
       },
-      "active": true,
-      "lpToken": true,
       "liquidityDex": {
         "8453": "Aerodrome"
       },
+      "active": true,
+      "lpToken": true,
       "getLpUrl": {
         "8453": "https://aerodrome.finance/deposit?token0=0x4200000000000000000000000000000000000006&token1=0x73fBD93bFDa83B111DdC092aa3a4ca77fD30d380&type=-1"
       }
@@ -601,8 +585,7 @@
       "active": true,
       "liquidityDex": {
         "8453": "Aerodrome"
-      },
-      "getLpUrl": {}
+      }
     },
     "billNnftAddress": {
       "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
@@ -641,11 +624,10 @@
       "decimals": {
         "1890": 6
       },
-      "active": true,
       "liquidityDex": {
         "1890": "Elektrik"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "LL",
@@ -655,11 +637,10 @@
       "decimals": {
         "1890": 18
       },
-      "active": true,
       "liquidityDex": {
         "1890": "Elektrik"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "1890": "0x82CfCd79De447b01730b9ED0Db2ad6Ee5AaAC55f"
@@ -698,11 +679,10 @@
       "decimals": {
         "59144": 18
       },
-      "active": true,
       "liquidityDex": {
         "59144": "Lynex"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "NILE",
@@ -712,11 +692,10 @@
       "decimals": {
         "59144": 18
       },
-      "active": true,
       "liquidityDex": {
         "59144": "Nile"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "59144": "0xFA40b551980aF88FD2929Ab41f57D98ee13A6354"
@@ -753,11 +732,10 @@
       "decimals": {
         "59144": 6
       },
-      "active": true,
       "liquidityDex": {
         "59144": "Nile"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "XFIT",
@@ -767,11 +745,10 @@
       "decimals": {
         "59144": 18
       },
-      "active": true,
       "liquidityDex": {
         "59144": "XFAI"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "59144": "0xFA40b551980aF88FD2929Ab41f57D98ee13A6354"
@@ -810,11 +787,10 @@
       "decimals": {
         "59144": 6
       },
-      "active": true,
       "liquidityDex": {
         "59144": "Nile"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "NILE",
@@ -824,11 +800,10 @@
       "decimals": {
         "59144": 18
       },
-      "active": true,
       "liquidityDex": {
         "59144": "Nile"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "59144": "0xFA40b551980aF88FD2929Ab41f57D98ee13A6354"
@@ -867,11 +842,10 @@
       "decimals": {
         "59144": 18
       },
-      "active": true,
       "liquidityDex": {
         "59144": "Lynex"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "LVC",
@@ -884,8 +858,7 @@
       "active": true,
       "liquidityDex": {
         "59144": "External"
-      },
-      "getLpUrl": {}
+      }
     },
     "billNnftAddress": {
       "59144": "0xFA40b551980aF88FD2929Ab41f57D98ee13A6354"
@@ -925,11 +898,10 @@
       },
       "active": true,
       "lpToken": true,
+      "ichiUnderlyingDex": "Lynex",
       "liquidityDex": {
         "59144": "Algebra"
-      },
-      "getLpUrl": {},
-      "ichiUnderlyingDex": "Lynex"
+      }
     },
     "earnToken": {
       "symbol": "LYNX",
@@ -942,8 +914,7 @@
       "active": true,
       "liquidityDex": {
         "59144": "Lynex"
-      },
-      "getLpUrl": {}
+      }
     },
     "billNnftAddress": {
       "59144": "0xFA40b551980aF88FD2929Ab41f57D98ee13A6354"
@@ -982,11 +953,10 @@
       "decimals": {
         "59144": 18
       },
-      "active": true,
       "liquidityDex": {
         "59144": "Lynex"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "MVX",
@@ -999,8 +969,7 @@
       "active": true,
       "liquidityDex": {
         "59144": "Metavault"
-      },
-      "getLpUrl": {}
+      }
     },
     "billNnftAddress": {
       "59144": "0xFA40b551980aF88FD2929Ab41f57D98ee13A6354"
@@ -1038,9 +1007,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "CLASH",
@@ -1050,11 +1018,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -1110,8 +1077,7 @@
       "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
-      },
-      "getLpUrl": {}
+      }
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -1165,11 +1131,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -1225,8 +1190,7 @@
       "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
-      },
-      "getLpUrl": {}
+      }
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -1263,9 +1227,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "CGPT",
@@ -1275,11 +1238,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -1335,8 +1297,7 @@
       "active": true,
       "liquidityDex": {
         "56": "ThenaV1"
-      },
-      "getLpUrl": {}
+      }
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -1372,9 +1333,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "HBR",
@@ -1387,8 +1347,7 @@
       "active": true,
       "liquidityDex": {
         "56": "ThenaV1"
-      },
-      "getLpUrl": {}
+      }
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -1425,9 +1384,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "ABOND",
@@ -1437,11 +1395,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "ThenaV1"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -1489,9 +1446,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "SQR",
@@ -1501,11 +1457,10 @@
       "decimals": {
         "56": 8
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -1545,9 +1500,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "RTF",
@@ -1557,11 +1511,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -1600,9 +1553,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "RETRO",
@@ -1612,11 +1564,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -1656,9 +1607,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "FROYO",
@@ -1669,8 +1619,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -1710,8 +1659,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "SCPT",
@@ -1721,11 +1669,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -1765,9 +1712,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "KICKS",
@@ -1777,11 +1723,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -1820,9 +1765,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "BLAZE",
@@ -1832,11 +1776,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -1877,11 +1820,10 @@
       },
       "active": true,
       "lpToken": true,
+      "ichiUnderlyingDex": "Uniswap V3",
       "liquidityDex": {
         "56": "Algebra"
-      },
-      "getLpUrl": {},
-      "ichiUnderlyingDex": "Uniswap V3"
+      }
     },
     "earnToken": {
       "symbol": "BNB-ICHI",
@@ -1895,8 +1837,7 @@
       "lpToken": true,
       "liquidityDex": {
         "56": "Algebra"
-      },
-      "getLpUrl": {}
+      }
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -1936,9 +1877,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "WNK",
@@ -1948,11 +1888,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -1992,9 +1931,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "CHAPZ",
@@ -2004,11 +1942,10 @@
       "decimals": {
         "56": 10
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -2047,8 +1984,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "SDEX",
@@ -2058,11 +1994,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -2100,9 +2035,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "ABOND",
@@ -2112,11 +2046,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "ThenaV1"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -2164,9 +2097,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "ABOND",
@@ -2176,11 +2108,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "ThenaV1"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -2248,8 +2179,7 @@
       "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
-      },
-      "getLpUrl": {}
+      }
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -2290,8 +2220,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "EJS",
@@ -2301,11 +2230,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -2345,9 +2273,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "CGPT",
@@ -2357,11 +2284,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -2400,9 +2326,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "FROYO",
@@ -2413,8 +2338,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -2469,11 +2393,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -2511,9 +2434,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "AITECH",
@@ -2523,11 +2445,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -2565,9 +2486,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "AITECH",
@@ -2577,11 +2497,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -2620,9 +2539,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "ABOND",
@@ -2632,11 +2550,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "ThenaV1"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -2684,9 +2601,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "WAM",
@@ -2696,11 +2612,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -2739,9 +2654,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "TIFI",
@@ -2751,11 +2665,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -2811,11 +2724,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -2853,9 +2765,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "ABOND",
@@ -2865,11 +2776,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "ThenaV1"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -2934,11 +2844,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -2977,9 +2886,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "AITECH",
@@ -2989,11 +2897,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -3049,11 +2956,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -3093,9 +2999,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "EVO",
@@ -3105,11 +3010,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -3165,11 +3069,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -3207,9 +3110,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "RPG",
@@ -3219,11 +3121,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -3261,9 +3162,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "VIA",
@@ -3273,11 +3173,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -3315,9 +3214,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "WNK",
@@ -3327,11 +3225,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -3388,11 +3285,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -3430,8 +3326,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "ABOND",
@@ -3441,11 +3336,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "ThenaV1"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0x3881ABAE74341630E4838Ca4809478DD668091fB"
@@ -3484,8 +3378,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "ABOND",
@@ -3495,11 +3388,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "ThenaV1"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0x3881ABAE74341630E4838Ca4809478DD668091fB"
@@ -3538,8 +3430,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "ABOND",
@@ -3549,11 +3440,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "ThenaV1"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0x3881ABAE74341630E4838Ca4809478DD668091fB"
@@ -3592,8 +3482,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "ABOND",
@@ -3603,11 +3492,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "ThenaV1"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0x3881ABAE74341630E4838Ca4809478DD668091fB"
@@ -3646,8 +3534,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "ABOND",
@@ -3657,11 +3544,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "ThenaV1"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0x3881ABAE74341630E4838Ca4809478DD668091fB"
@@ -3700,8 +3586,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "ABOND",
@@ -3711,11 +3596,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "ThenaV1"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0x3881ABAE74341630E4838Ca4809478DD668091fB"
@@ -3754,8 +3638,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "ABOND",
@@ -3765,11 +3648,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "ThenaV1"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0x3881ABAE74341630E4838Ca4809478DD668091fB"
@@ -3808,8 +3690,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "ABOND",
@@ -3819,11 +3700,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "ThenaV1"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0x3881ABAE74341630E4838Ca4809478DD668091fB"
@@ -3863,8 +3743,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "BANANA",
@@ -3875,8 +3754,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -3914,8 +3792,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "BANANA",
@@ -3926,8 +3803,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -3962,8 +3838,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "BANANA",
@@ -3974,8 +3849,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -4010,8 +3884,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "BANANA",
@@ -4022,8 +3895,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -4058,8 +3930,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "BANANA",
@@ -4070,8 +3941,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -4106,8 +3976,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "BANANA",
@@ -4118,8 +3987,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -4157,8 +4025,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "BANANA",
@@ -4169,8 +4036,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -4208,8 +4074,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "BANANA",
@@ -4220,8 +4085,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -4259,8 +4123,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "BANANA",
@@ -4271,8 +4134,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -4308,9 +4170,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "ACF",
@@ -4321,8 +4182,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -4359,8 +4219,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "ABOND",
@@ -4370,11 +4229,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "ThenaV1"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0x3881ABAE74341630E4838Ca4809478DD668091fB"
@@ -4412,9 +4270,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "ABOND",
@@ -4424,11 +4281,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "ThenaV1"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -4476,9 +4332,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "ABOND",
@@ -4488,11 +4343,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "ThenaV1"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -4540,9 +4394,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "ABOND",
@@ -4552,11 +4405,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "ThenaV1"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -4604,8 +4456,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "ARCAS",
@@ -4615,11 +4466,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -4675,11 +4525,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -4718,9 +4567,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "CGPT",
@@ -4730,11 +4578,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -4775,8 +4622,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "$FORWARD",
@@ -4786,11 +4632,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -4831,8 +4676,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "NFE",
@@ -4842,11 +4686,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -4885,9 +4728,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "FAV",
@@ -4897,11 +4739,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -4960,8 +4801,7 @@
       "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
-      },
-      "getLpUrl": {}
+      }
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -5000,9 +4840,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "GQ",
@@ -5015,8 +4854,7 @@
       "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
-      },
-      "getLpUrl": {}
+      }
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -5071,11 +4909,10 @@
       "decimals": {
         "56": 10
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -5131,11 +4968,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -5174,9 +5010,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "GRAPE",
@@ -5186,11 +5021,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -5245,11 +5079,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -5287,9 +5120,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "CDX",
@@ -5299,11 +5131,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -5342,8 +5173,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "XOX",
@@ -5353,11 +5183,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -5412,11 +5241,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -5454,9 +5282,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "CDX",
@@ -5466,11 +5293,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -5508,9 +5334,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "FAV",
@@ -5520,11 +5345,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -5580,11 +5404,10 @@
       "decimals": {
         "56": 10
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -5639,11 +5462,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -5681,9 +5503,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "CAKEBOT",
@@ -5693,11 +5514,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -5734,9 +5554,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "GRAPE",
@@ -5746,11 +5565,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -5805,11 +5623,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -5864,11 +5681,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -5905,9 +5721,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "RPG",
@@ -5917,11 +5732,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -5960,8 +5774,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "ARCAS",
@@ -5971,11 +5784,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -6013,9 +5825,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "AITECH",
@@ -6025,11 +5836,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -6069,9 +5879,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "CGPT",
@@ -6081,11 +5890,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -6125,11 +5933,11 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {
-        "56": "ApeSwapV2"
-      },
       "getLpUrl": {
         "56": "https://apeswap.finance/add-liquidity/ETH/0x1265DAdE08e13F1c6f9706287FBE39083dC5a4b4"
+      },
+      "liquidityDex": {
+        "56": "ApeSwapV2"
       }
     },
     "earnToken": {
@@ -6140,11 +5948,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "ApeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -6182,9 +5989,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "HGPT",
@@ -6194,11 +6000,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -6236,9 +6041,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "AITECH",
@@ -6248,11 +6052,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -6291,9 +6094,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "RPG",
@@ -6303,11 +6105,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -6363,11 +6164,10 @@
       "decimals": {
         "56": 10
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -6405,9 +6205,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "AITECH",
@@ -6417,11 +6216,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -6474,11 +6272,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -6516,9 +6313,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "HGPT",
@@ -6528,11 +6324,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -6571,8 +6366,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "LGC",
@@ -6583,8 +6377,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -6634,11 +6427,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -6689,11 +6481,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -6753,9 +6544,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "LGC",
@@ -6766,8 +6556,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -6817,11 +6606,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -6871,11 +6659,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -6925,11 +6712,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -6979,11 +6765,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -7060,11 +6845,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -7114,11 +6898,10 @@
       "decimals": {
         "56": 6
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -7170,11 +6953,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -7209,8 +6991,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "BANANA",
@@ -7221,8 +7002,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -7260,8 +7040,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "BANANA",
@@ -7272,8 +7051,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -7311,8 +7089,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "BANANA",
@@ -7323,8 +7100,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -7362,8 +7138,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "BANANA",
@@ -7374,8 +7149,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -7428,11 +7202,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -7483,11 +7256,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -7524,8 +7296,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "FURFI",
@@ -7536,8 +7307,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -7572,8 +7342,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "GQ",
@@ -7586,8 +7355,7 @@
       "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
-      },
-      "getLpUrl": {}
+      }
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -7621,8 +7389,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "FROYO",
@@ -7633,8 +7400,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -7672,8 +7438,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "CGPT",
@@ -7683,11 +7448,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -7724,8 +7488,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "NFBi",
@@ -7736,8 +7499,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -7782,8 +7544,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "LGC",
@@ -7794,8 +7555,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -7830,8 +7590,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "NOOT",
@@ -7842,8 +7601,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -7876,9 +7634,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "KKC",
@@ -7889,8 +7646,7 @@
         "56": 6
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -7924,8 +7680,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "KKC",
@@ -7936,8 +7691,7 @@
         "56": 6
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -7971,8 +7725,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "ROCK",
@@ -7983,8 +7736,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -8019,8 +7771,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "AVG",
@@ -8031,8 +7782,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -8067,8 +7817,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "USDC",
@@ -8078,9 +7827,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -8127,8 +7875,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "FROYO",
@@ -8139,8 +7886,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -8175,8 +7921,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "UBXS",
@@ -8187,8 +7932,7 @@
         "56": 6
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -8223,8 +7967,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "MONSTA",
@@ -8234,11 +7977,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -8273,8 +8015,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "CREDI",
@@ -8285,8 +8026,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -8321,8 +8061,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "USDC",
@@ -8332,9 +8071,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -8381,8 +8119,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "LGC",
@@ -8393,8 +8130,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -8429,8 +8165,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "OATH",
@@ -8441,8 +8176,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -8477,8 +8211,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "TOKO",
@@ -8489,8 +8222,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -8525,8 +8257,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "CVL",
@@ -8537,8 +8268,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -8573,8 +8303,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "TRIVIA",
@@ -8585,8 +8314,7 @@
         "56": 3
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -8621,8 +8349,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "XTAL",
@@ -8633,8 +8360,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -8669,8 +8395,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "WCFLT",
@@ -8681,8 +8406,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
@@ -8717,8 +8441,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "AVAN",
@@ -8729,8 +8452,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
@@ -8765,8 +8487,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "LIQ",
@@ -8777,8 +8498,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
@@ -8813,8 +8533,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "MONSTA",
@@ -8824,11 +8543,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
@@ -8863,8 +8581,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "RADAR",
@@ -8875,8 +8592,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
@@ -8911,8 +8627,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "BANANA",
@@ -8923,8 +8638,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -8958,8 +8672,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "BANANA",
@@ -8970,8 +8683,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -9005,8 +8717,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "BANANA",
@@ -9017,8 +8728,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -9052,8 +8762,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "BANANA",
@@ -9064,8 +8773,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -9099,8 +8807,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "BANANA",
@@ -9111,8 +8818,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -9146,8 +8852,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "IHC",
@@ -9158,8 +8863,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
@@ -9194,8 +8898,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "LIQ",
@@ -9206,8 +8909,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
@@ -9241,8 +8943,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "PSTN",
@@ -9253,8 +8954,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
@@ -9288,8 +8988,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "GQ",
@@ -9302,8 +9001,7 @@
       "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
-      },
-      "getLpUrl": {}
+      }
     },
     "billNnftAddress": {
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
@@ -9337,8 +9035,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "LEAP",
@@ -9349,8 +9046,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
@@ -9385,8 +9081,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "NFTY",
@@ -9397,8 +9092,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0x7fd203888661d1f0ae625ed599909f8f97698670"
@@ -9432,8 +9126,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "3AIR",
@@ -9444,8 +9137,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0x7fd203888661d1f0ae625ed599909f8f97698670"
@@ -9480,8 +9172,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "COC",
@@ -9492,8 +9183,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0x7fd203888661d1f0ae625ed599909f8f97698670"
@@ -9527,8 +9217,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "CHRP",
@@ -9538,9 +9227,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "56": "0x7fd203888661d1f0ae625ed599909f8f97698670"
@@ -9575,8 +9263,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "GMR",
@@ -9587,8 +9274,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0x7fd203888661d1f0ae625ed599909f8f97698670"
@@ -9623,8 +9309,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "XCUR",
@@ -9635,8 +9320,7 @@
         "56": 8
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0x7fd203888661d1f0ae625ed599909f8f97698670"
@@ -9670,8 +9354,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "GQ",
@@ -9684,8 +9367,7 @@
       "active": true,
       "liquidityDex": {
         "56": "PancakeSwapV2"
-      },
-      "getLpUrl": {}
+      }
     },
     "billNnftAddress": {
       "56": "0x7fd203888661d1f0ae625ed599909f8f97698670"
@@ -9719,8 +9401,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "PSTN",
@@ -9731,8 +9412,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0x7fd203888661d1f0ae625ed599909f8f97698670"
@@ -9760,8 +9440,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "XWIN",
@@ -9772,8 +9451,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0x7fd203888661d1f0ae625ed599909f8f97698670"
@@ -9807,8 +9485,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "FROYO",
@@ -9819,8 +9496,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0x7fd203888661d1f0ae625ed599909f8f97698670"
@@ -9856,8 +9532,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "FROYO",
@@ -9868,8 +9543,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0x7fd203888661d1f0ae625ed599909f8f97698670"
@@ -9899,8 +9573,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "BLID",
@@ -9911,8 +9584,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0x7fd203888661d1f0ae625ed599909f8f97698670"
@@ -9946,8 +9618,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "HEC",
@@ -9958,8 +9629,7 @@
         "56": 9
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0x7fd203888661d1f0ae625ed599909f8f97698670"
@@ -9993,8 +9663,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "FLOKI",
@@ -10005,8 +9674,7 @@
         "56": 9
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0x7fd203888661d1f0ae625ed599909f8f97698670"
@@ -10040,8 +9708,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "RADAR",
@@ -10052,8 +9719,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8"
@@ -10081,8 +9747,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "CEEK",
@@ -10093,8 +9758,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8"
@@ -10128,8 +9792,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "NFTY",
@@ -10140,8 +9803,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8"
@@ -10169,8 +9831,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "TLOS",
@@ -10181,8 +9842,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8"
@@ -10210,8 +9870,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "STARS",
@@ -10222,8 +9881,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8"
@@ -10257,8 +9915,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "HOTCROSS",
@@ -10269,8 +9926,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8"
@@ -10304,8 +9960,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "HOTCROSS",
@@ -10316,8 +9971,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8"
@@ -10351,8 +10005,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "TLOS",
@@ -10363,8 +10016,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8"
@@ -10398,8 +10050,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "BANANA",
@@ -10410,8 +10061,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8"
@@ -10439,8 +10089,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "BANANA",
@@ -10451,8 +10100,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8"
@@ -10480,8 +10128,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "BANANA",
@@ -10492,8 +10139,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8"
@@ -10521,8 +10167,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "BANANA",
@@ -10533,8 +10178,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8"
@@ -10562,8 +10206,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "BANANA",
@@ -10574,8 +10217,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8"
@@ -10603,8 +10245,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "BANANA",
@@ -10615,8 +10256,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
@@ -10644,8 +10284,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "BANANA",
@@ -10656,8 +10295,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
@@ -10685,8 +10323,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "BANANA",
@@ -10697,8 +10334,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
@@ -10726,8 +10362,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "BANANA",
@@ -10738,8 +10373,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
@@ -10767,8 +10401,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "BANANA",
@@ -10779,8 +10412,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
@@ -10808,8 +10440,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "BANANA",
@@ -10820,8 +10451,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
@@ -10855,8 +10485,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "BANANA",
@@ -10867,8 +10496,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
@@ -10902,8 +10530,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "BANANA",
@@ -10914,8 +10541,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
@@ -10949,8 +10575,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "BANANA",
@@ -10961,8 +10586,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
@@ -10996,8 +10620,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "BANANA",
@@ -11008,8 +10631,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
@@ -11043,8 +10665,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "FROYO",
@@ -11055,8 +10676,7 @@
         "56": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -11090,9 +10710,8 @@
       "decimals": {
         "137": 6
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "ICNX",
@@ -11102,11 +10721,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "UniswapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -11145,9 +10763,8 @@
       "decimals": {
         "137": 6
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "DSRUN",
@@ -11157,11 +10774,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "Algebra"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -11201,12 +10817,11 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
-      "lpToken": true,
       "liquidityDex": {
         "137": "Algebra"
       },
-      "getLpUrl": {},
+      "active": true,
+      "lpToken": true,
       "ichiUnderlyingDex": "QuickSwap"
     },
     "earnToken": {
@@ -11217,11 +10832,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "Algebra"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -11261,9 +10875,8 @@
       "decimals": {
         "137": 6
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "NSDX",
@@ -11273,11 +10886,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "QuickswapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -11318,11 +10930,11 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
-      "lpToken": true,
       "liquidityDex": {
         "137": "QuickswapV2"
       },
+      "active": true,
+      "lpToken": true,
       "getLpUrl": {
         "137": "https://quickswap.exchange/#/pools/v2?currency0=0xA3c322Ad15218fBFAEd26bA7f616249f7705D945&currency1=0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
       }
@@ -11335,11 +10947,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "QuickswapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -11380,9 +10991,8 @@
       "decimals": {
         "137": 6
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "IXT",
@@ -11392,11 +11002,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "QuickswapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -11433,11 +11042,11 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
-      "lpToken": true,
       "liquidityDex": {
         "137": "QuickswapV2"
       },
+      "active": true,
+      "lpToken": true,
       "getLpUrl": {
         "137": "https://quickswap.exchange/#/pools/v2?currency0=0xE06Bd4F5aAc8D0aA337D13eC88dB6defC6eAEefE&currency1=0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
       }
@@ -11450,11 +11059,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "QuickswapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -11491,9 +11099,8 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "THX",
@@ -11503,11 +11110,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "Algebra"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -11548,9 +11154,8 @@
       "decimals": {
         "137": 6
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "CBY",
@@ -11560,11 +11165,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "External"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -11605,9 +11209,8 @@
       "decimals": {
         "137": 6
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "IXT",
@@ -11617,11 +11220,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "QuickswapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -11661,11 +11263,11 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
-      "lpToken": true,
       "liquidityDex": {
         "137": "QuickswapV2"
       },
+      "active": true,
+      "lpToken": true,
       "getLpUrl": {
         "137": "https://quickswap.exchange/#/pools/v2?currency0=0xE06Bd4F5aAc8D0aA337D13eC88dB6defC6eAEefE&currency1=0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
       }
@@ -11678,11 +11280,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "QuickswapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -11722,9 +11323,8 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "A51",
@@ -11734,11 +11334,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "Algebra"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -11779,9 +11378,8 @@
       "decimals": {
         "137": 6
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "ABOND",
@@ -11791,11 +11389,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "QuickswapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -11843,12 +11440,11 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
-      "lpToken": true,
       "liquidityDex": {
         "137": "Algebra"
       },
-      "getLpUrl": {},
+      "active": true,
+      "lpToken": true,
       "ichiUnderlyingDex": "QuickSwap"
     },
     "earnToken": {
@@ -11859,11 +11455,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "Algebra"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -11904,9 +11499,8 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "KNIGHT",
@@ -11916,11 +11510,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "QuickswapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -11959,9 +11552,8 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "NOTES",
@@ -11971,11 +11563,10 @@
       "decimals": {
         "137": 9
       },
-      "active": true,
       "liquidityDex": {
         "137": "SushiSwapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -12015,9 +11606,8 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "ECLD",
@@ -12027,11 +11617,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "Algebra"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -12071,9 +11660,8 @@
       "decimals": {
         "137": 6
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "NSDX",
@@ -12083,11 +11671,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "QuickswapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -12128,11 +11715,11 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
-      "lpToken": true,
       "liquidityDex": {
         "137": "QuickswapV2"
       },
+      "active": true,
+      "lpToken": true,
       "getLpUrl": {
         "137": "https://quickswap.exchange/#/pools/v2?currency0=0xE06Bd4F5aAc8D0aA337D13eC88dB6defC6eAEefE&currency1=0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
       }
@@ -12145,11 +11732,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "QuickswapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -12189,11 +11775,11 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
-      "lpToken": true,
       "liquidityDex": {
         "137": "QuickswapV2"
       },
+      "active": true,
+      "lpToken": true,
       "getLpUrl": {
         "137": "https://quickswap.exchange/#/pools/v2?currency0=0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359&currency1=0x78445485A8d5b3BE765e3027bc336e3c272a23c9"
       }
@@ -12206,11 +11792,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "QuickswapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -12251,9 +11836,8 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "A51",
@@ -12263,11 +11847,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "Algebra"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -12308,9 +11891,8 @@
       "decimals": {
         "137": 6
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "IXT",
@@ -12320,11 +11902,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "QuickswapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -12363,9 +11944,8 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "BULL",
@@ -12375,11 +11955,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "Algebra"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -12418,11 +11997,11 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
-      "lpToken": true,
       "liquidityDex": {
         "137": "QuickswapV2"
       },
+      "active": true,
+      "lpToken": true,
       "getLpUrl": {
         "137": "https://quickswap.exchange/#/pools/v2?currency0=0xA3c322Ad15218fBFAEd26bA7f616249f7705D945&currency1=0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
       }
@@ -12435,11 +12014,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "QuickswapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -12479,9 +12057,8 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "THX",
@@ -12491,11 +12068,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "Algebra"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -12535,9 +12111,8 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "NFTBS",
@@ -12547,11 +12122,10 @@
       "decimals": {
         "137": 9
       },
-      "active": true,
       "liquidityDex": {
         "137": "QuickswapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -12591,9 +12165,8 @@
       "decimals": {
         "137": 6
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "ABOND",
@@ -12603,11 +12176,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "QuickswapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -12654,9 +12226,8 @@
       "decimals": {
         "137": 6
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "VEXT",
@@ -12666,11 +12237,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "Algebra"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -12709,9 +12279,8 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "A51",
@@ -12721,11 +12290,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "Algebra"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -12766,11 +12334,11 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
-      "lpToken": true,
       "liquidityDex": {
         "137": "QuickswapV2"
       },
+      "active": true,
+      "lpToken": true,
       "getLpUrl": {
         "137": "https://quickswap.exchange/#/pools/v2?currency0=0xE06Bd4F5aAc8D0aA337D13eC88dB6defC6eAEefE&currency1=0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
       }
@@ -12783,11 +12351,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "QuickswapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -12827,9 +12394,8 @@
       "decimals": {
         "137": 6
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "IXT",
@@ -12839,11 +12405,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "QuickswapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -12883,11 +12448,11 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
-      "lpToken": true,
       "liquidityDex": {
         "137": "QuickswapV2"
       },
+      "active": true,
+      "lpToken": true,
       "getLpUrl": {
         "137": "https://quickswap.exchange/#/pools/v2?currency0=0xA3c322Ad15218fBFAEd26bA7f616249f7705D945&currency1=0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
       }
@@ -12900,11 +12465,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "QuickswapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -12944,9 +12508,8 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "BULL",
@@ -12956,11 +12519,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "Algebra"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -12998,11 +12560,11 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
-      "lpToken": true,
       "liquidityDex": {
         "137": "QuickswapV2"
       },
+      "active": true,
+      "lpToken": true,
       "getLpUrl": {
         "137": "https://quickswap.exchange/#/pools/v2?currency0=0x58c7B2828e7F2B2CaA0cC7fEef242fA3196d03df&currency1=0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359"
       }
@@ -13015,11 +12577,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "Algebra"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -13057,9 +12618,8 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "WEFI",
@@ -13069,11 +12629,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "Algebra"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -13113,9 +12672,8 @@
       "decimals": {
         "137": 6
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "IXT",
@@ -13125,11 +12683,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "QuickswapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -13169,9 +12726,8 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "A51",
@@ -13181,11 +12737,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "Algebra"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -13224,9 +12779,8 @@
       "decimals": {
         "137": 6
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "TRC",
@@ -13236,11 +12790,10 @@
       "decimals": {
         "137": 2
       },
-      "active": true,
       "liquidityDex": {
         "137": "UniswapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -13279,9 +12832,8 @@
       "decimals": {
         "137": 6
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "IXT",
@@ -13291,11 +12843,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "QuickswapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -13335,11 +12886,11 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
-      "lpToken": true,
       "liquidityDex": {
         "137": "QuickswapV2"
       },
+      "active": true,
+      "lpToken": true,
       "getLpUrl": {
         "137": "https://quickswap.exchange/#/pools/v2?currency0=0xE06Bd4F5aAc8D0aA337D13eC88dB6defC6eAEefE&currency1=0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
       }
@@ -13352,11 +12903,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "QuickswapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -13395,9 +12945,8 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "FBX",
@@ -13407,11 +12956,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "QuickswapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -13449,11 +12997,11 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
-      "lpToken": true,
       "liquidityDex": {
         "137": "QuickswapV2"
       },
+      "active": true,
+      "lpToken": true,
       "getLpUrl": {
         "137": "https://quickswap.exchange/#/pools/v2?currency0=0x614389EaAE0A6821DC49062D56BDA3d9d45Fa2ff&currency1=0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
       }
@@ -13466,11 +13014,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "QuickswapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -13510,9 +13057,8 @@
       "decimals": {
         "137": 6
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "VEXT",
@@ -13522,11 +13068,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "Algebra"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -13564,9 +13109,8 @@
       "decimals": {
         "137": 6
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "DUCKIES",
@@ -13576,11 +13120,10 @@
       "decimals": {
         "137": 8
       },
-      "active": true,
       "liquidityDex": {
         "137": "Algebra"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -13618,9 +13161,8 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "CONE",
@@ -13630,11 +13172,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "Algebra"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -13673,11 +13214,11 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
-      "lpToken": true,
       "liquidityDex": {
         "137": "QuickswapV2"
       },
+      "active": true,
+      "lpToken": true,
       "getLpUrl": {
         "137": "https://quickswap.exchange/#/pools/v2?currency0=0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619&currency1=0x4455eF8B4B4A007a93DaA12DE63a47EEAC700D9D"
       }
@@ -13690,11 +13231,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "QuickswapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -13733,11 +13273,11 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
-      "lpToken": true,
       "liquidityDex": {
         "137": "QuickswapV2"
       },
+      "active": true,
+      "lpToken": true,
       "getLpUrl": {
         "137": "https://quickswap.exchange/#/pools/v2?currency0=0xc59132FBdF8dE8fbE510F568a5D831C991B4fC38&currency1=0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
       }
@@ -13750,11 +13290,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "QuickswapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -13793,11 +13332,11 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
-      "lpToken": true,
       "liquidityDex": {
         "137": "QuickswapV2"
       },
+      "active": true,
+      "lpToken": true,
       "getLpUrl": {
         "137": "https://quickswap.exchange/#/pools/v2?currency0=0xf4C83080E80AE530d6f8180572cBbf1Ac9D5d435&currency1=0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
       }
@@ -13810,11 +13349,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "QuickswapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -13852,9 +13390,8 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "ELON",
@@ -13864,11 +13401,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "Algebra"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -13905,11 +13441,11 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
-      "lpToken": true,
       "liquidityDex": {
         "137": "QuickswapV2"
       },
+      "active": true,
+      "lpToken": true,
       "getLpUrl": {
         "137": "https://quickswap.exchange/#/pools/v2?currency0=0xA3c322Ad15218fBFAEd26bA7f616249f7705D945&currency1=0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
       }
@@ -13922,11 +13458,10 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
       "liquidityDex": {
         "137": "QuickswapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
@@ -13968,8 +13503,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "WOMBAT",
@@ -13980,8 +13514,7 @@
         "137": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "137": "0x8860ABc05FefEF93306c8d65a5eFD421F155d67E"
@@ -14016,8 +13549,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "USDC",
@@ -14027,9 +13559,8 @@
       "decimals": {
         "137": 6
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x8860ABc05FefEF93306c8d65a5eFD421F155d67E"
@@ -14074,12 +13605,11 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
-      "lpToken": true,
       "liquidityDex": {
         "137": "ApeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true,
+      "lpToken": true
     },
     "earnToken": {
       "symbol": "KOM",
@@ -14089,11 +13619,10 @@
       "decimals": {
         "137": 8
       },
-      "active": true,
       "liquidityDex": {
         "137": "ApeSwapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x8860ABc05FefEF93306c8d65a5eFD421F155d67E"
@@ -14128,8 +13657,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "DOGIRA",
@@ -14140,8 +13668,7 @@
         "137": 9
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "137": "0x8860ABc05FefEF93306c8d65a5eFD421F155d67E"
@@ -14176,8 +13703,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "LEAP",
@@ -14188,8 +13714,7 @@
         "137": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "137": "0x8860ABc05FefEF93306c8d65a5eFD421F155d67E"
@@ -14224,8 +13749,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "USDC",
@@ -14235,9 +13759,8 @@
       "decimals": {
         "137": 6
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "137": "0x8860ABc05FefEF93306c8d65a5eFD421F155d67E"
@@ -14284,8 +13807,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "AXN",
@@ -14296,8 +13818,7 @@
         "137": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "137": "0xa35c3fcd306cf69fed19e8c7b15c8b3904ea609d"
@@ -14331,8 +13852,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "DOGIRA",
@@ -14343,8 +13863,7 @@
         "137": 9
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "137": "0xa35c3fcd306cf69fed19e8c7b15c8b3904ea609d"
@@ -14372,8 +13891,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "TRAXX",
@@ -14384,8 +13902,7 @@
         "137": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "137": "0xa35c3fcd306cf69fed19e8c7b15c8b3904ea609d"
@@ -14419,8 +13936,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "DOGIRA",
@@ -14431,8 +13947,7 @@
         "137": 9
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "137": "0xa35c3fcd306cf69fed19e8c7b15c8b3904ea609d"
@@ -14466,8 +13981,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "TLOS",
@@ -14478,8 +13992,7 @@
         "40": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "40": "0x29DD194bDc735A87637f2736A90AA585B74F5FD4"
@@ -14513,8 +14026,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "TLOS",
@@ -14525,8 +14037,7 @@
         "40": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "40": "0x29DD194bDc735A87637f2736A90AA585B74F5FD4"
@@ -14560,8 +14071,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "TLOS",
@@ -14572,8 +14082,7 @@
         "40": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "40": "0x29DD194bDc735A87637f2736A90AA585B74F5FD4"
@@ -14607,8 +14116,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "TLOS",
@@ -14619,8 +14127,7 @@
         "40": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "40": "0x29DD194bDc735A87637f2736A90AA585B74F5FD4"
@@ -14654,8 +14161,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "TLOS",
@@ -14666,8 +14172,7 @@
         "40": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "40": "0x29DD194bDc735A87637f2736A90AA585B74F5FD4"
@@ -14701,8 +14206,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "TLOS",
@@ -14713,8 +14217,7 @@
         "40": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "40": "0x9084C442286E23617694101d5575bEA48C2cf621"
@@ -14748,8 +14251,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "TLOS",
@@ -14760,8 +14262,7 @@
         "40": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "40": "0x9084C442286E23617694101d5575bEA48C2cf621"
@@ -14795,8 +14296,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "TLOS",
@@ -14807,8 +14307,7 @@
         "40": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "40": "0x9084C442286E23617694101d5575bEA48C2cf621"
@@ -14842,8 +14341,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "TLOS",
@@ -14854,8 +14352,7 @@
         "40": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "40": "0x9084C442286E23617694101d5575bEA48C2cf621"
@@ -14889,8 +14386,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "TLOS",
@@ -14901,8 +14397,7 @@
         "40": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "40": "0x9084C442286E23617694101d5575bEA48C2cf621"
@@ -14936,8 +14431,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "TLOS",
@@ -14948,8 +14442,7 @@
         "40": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "40": "0x9084C442286E23617694101d5575bEA48C2cf621"
@@ -14977,8 +14470,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "TLOS",
@@ -14989,8 +14481,7 @@
         "40": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "40": "0x9084C442286E23617694101d5575bEA48C2cf621"
@@ -15018,8 +14509,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "TLOS",
@@ -15030,8 +14520,7 @@
         "40": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "40": "0x9084C442286E23617694101d5575bEA48C2cf621"
@@ -15059,8 +14548,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "TLOS",
@@ -15071,8 +14559,7 @@
         "40": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "40": "0x9084C442286E23617694101d5575bEA48C2cf621"
@@ -15100,8 +14587,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "TLOS",
@@ -15112,8 +14598,7 @@
         "40": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "40": "0x9084C442286E23617694101d5575bEA48C2cf621"
@@ -15140,9 +14625,8 @@
       "decimals": {
         "42161": 6
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "ENO",
@@ -15152,11 +14636,10 @@
       "decimals": {
         "42161": 18
       },
-      "active": true,
       "liquidityDex": {
         "42161": "UniswapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "42161": "0xAC707999D05C4048844B78c737D9512DFDff524d"
@@ -15196,9 +14679,8 @@
       "decimals": {
         "42161": 6
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "CTOK",
@@ -15208,11 +14690,10 @@
       "decimals": {
         "42161": 18
       },
-      "active": true,
       "liquidityDex": {
         "42161": "UniswapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "42161": "0xAC707999D05C4048844B78c737D9512DFDff524d"
@@ -15250,9 +14731,8 @@
       "decimals": {
         "42161": 6
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "CTOK",
@@ -15262,11 +14742,10 @@
       "decimals": {
         "42161": 18
       },
-      "active": true,
       "liquidityDex": {
         "42161": "UniswapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "42161": "0xAC707999D05C4048844B78c737D9512DFDff524d"
@@ -15305,10 +14784,10 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
       "getLpUrl": {
         "42161": "https://apeswap.finance/add-liquidity/ETH/0x58CB98A966F62aA6F2190eB3AA03132A0c3de3D5"
-      }
+      },
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "OPEN",
@@ -15319,8 +14798,7 @@
         "42161": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "42161": "0xAC707999D05C4048844B78c737D9512DFDff524d"
@@ -15356,9 +14834,8 @@
       "decimals": {
         "42161": 6
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "CRUIZE",
@@ -15368,11 +14845,10 @@
       "decimals": {
         "42161": 18
       },
-      "active": true,
       "liquidityDex": {
         "42161": "UniswapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "42161": "0xAC707999D05C4048844B78c737D9512DFDff524d"
@@ -15407,10 +14883,10 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
       "getLpUrl": {
         "42161": "https://apeswap.finance/add-liquidity/ETH/0x58CB98A966F62aA6F2190eB3AA03132A0c3de3D5"
-      }
+      },
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "OPEN",
@@ -15421,8 +14897,7 @@
         "42161": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "42161": "0xAC707999D05C4048844B78c737D9512DFDff524d"
@@ -15457,8 +14932,7 @@
       },
       "active": true,
       "lpToken": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "ONYX",
@@ -15469,8 +14943,7 @@
         "42161": 18
       },
       "active": true,
-      "liquidityDex": {},
-      "getLpUrl": {}
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "42161": "0xAC707999D05C4048844B78c737D9512DFDff524d"
@@ -15503,9 +14976,8 @@
       "decimals": {
         "1": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "CGV",
@@ -15515,11 +14987,10 @@
       "decimals": {
         "1": 6
       },
-      "active": true,
       "liquidityDex": {
         "1": "UniswapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "1": "0x499b654b0a7f9979cc315190c09ca2633809b8df"
@@ -15558,11 +15029,10 @@
       "decimals": {
         "1": 18
       },
-      "active": true,
       "liquidityDex": {
         "1": "UniswapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "XIXT",
@@ -15572,11 +15042,10 @@
       "decimals": {
         "1": 18
       },
-      "active": true,
       "liquidityDex": {
         "1": "UniswapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "1": "0x499b654b0a7f9979cc315190c09ca2633809b8df"
@@ -15615,9 +15084,8 @@
       "decimals": {
         "1": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "$FORWARD",
@@ -15627,11 +15095,10 @@
       "decimals": {
         "1": 18
       },
-      "active": true,
       "liquidityDex": {
         "1": "UniswapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "1": "0x499b654b0a7f9979cc315190c09ca2633809b8df"
@@ -15670,9 +15137,8 @@
       "decimals": {
         "1": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "GPT",
@@ -15682,11 +15148,10 @@
       "decimals": {
         "1": 18
       },
-      "active": true,
       "liquidityDex": {
         "1": "UniswapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "1": "0x499b654b0a7f9979cc315190c09ca2633809b8df"
@@ -15723,9 +15188,8 @@
       "decimals": {
         "1": 6
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "CIRUS",
@@ -15735,11 +15199,10 @@
       "decimals": {
         "1": 18
       },
-      "active": true,
       "liquidityDex": {
         "1": "UniswapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "1": "0x499b654b0a7f9979cc315190c09ca2633809b8df"
@@ -15778,9 +15241,8 @@
       "decimals": {
         "1": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "METH",
@@ -15790,11 +15252,10 @@
       "decimals": {
         "1": 18
       },
-      "active": true,
       "liquidityDex": {
         "1": "UniswapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "1": "0x499b654b0a7f9979cc315190c09ca2633809b8df"
@@ -15832,9 +15293,8 @@
       "decimals": {
         "1": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "STRK",
@@ -15844,11 +15304,10 @@
       "decimals": {
         "1": 18
       },
-      "active": true,
       "liquidityDex": {
         "1": "UniswapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "1": "0x499b654b0a7f9979cc315190c09ca2633809b8df"
@@ -15885,9 +15344,8 @@
       "decimals": {
         "1": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "GPTPLUS",
@@ -15897,11 +15355,10 @@
       "decimals": {
         "1": 18
       },
-      "active": true,
       "liquidityDex": {
         "1": "UniswapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "1": "0x499b654b0a7f9979cc315190c09ca2633809b8df"
@@ -15938,9 +15395,8 @@
       "decimals": {
         "1": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "CHRP",
@@ -15950,11 +15406,10 @@
       "decimals": {
         "1": 18
       },
-      "active": true,
       "liquidityDex": {
         "1": "UniswapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "1": "0x499b654b0a7f9979cc315190c09ca2633809b8df"
@@ -15992,9 +15447,8 @@
       "decimals": {
         "1": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "ABOND",
@@ -16004,11 +15458,10 @@
       "decimals": {
         "1": 18
       },
-      "active": true,
       "liquidityDex": {
         "1": "UniswapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "1": "0x499b654b0a7f9979cc315190c09ca2633809b8df"
@@ -16056,9 +15509,8 @@
       "decimals": {
         "1": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "PUMLx",
@@ -16068,11 +15520,10 @@
       "decimals": {
         "1": 18
       },
-      "active": true,
       "liquidityDex": {
         "1": "UniswapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "1": "0x499b654b0a7f9979cc315190c09ca2633809b8df"
@@ -16112,9 +15563,8 @@
       "decimals": {
         "1": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "ABOND",
@@ -16124,11 +15574,10 @@
       "decimals": {
         "1": 18
       },
-      "active": true,
       "liquidityDex": {
         "1": "UniswapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "1": "0x499b654b0a7f9979cc315190c09ca2633809b8df"
@@ -16175,9 +15624,8 @@
       "decimals": {
         "1": 6
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "ORBS",
@@ -16187,11 +15635,10 @@
       "decimals": {
         "1": 18
       },
-      "active": true,
       "liquidityDex": {
         "1": "UniswapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "1": "0x499b654b0a7f9979cc315190c09ca2633809b8df"
@@ -16231,9 +15678,8 @@
       "decimals": {
         "1": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "MUNITY",
@@ -16243,11 +15689,10 @@
       "decimals": {
         "1": 18
       },
-      "active": true,
       "liquidityDex": {
         "1": "UniswapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "1": "0x499b654b0a7f9979cc315190c09ca2633809b8df"
@@ -16287,9 +15732,8 @@
       "decimals": {
         "1": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "ABOND",
@@ -16299,11 +15743,10 @@
       "decimals": {
         "1": 18
       },
-      "active": true,
       "liquidityDex": {
         "1": "UniswapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "1": "0x499b654b0a7f9979cc315190c09ca2633809b8df"
@@ -16351,9 +15794,8 @@
       "decimals": {
         "1": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "KNINE",
@@ -16363,11 +15805,10 @@
       "decimals": {
         "1": 18
       },
-      "active": true,
       "liquidityDex": {
         "1": "UniswapV2"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "1": "0x499b654b0a7f9979cc315190c09ca2633809b8df"
@@ -16407,9 +15848,8 @@
       "decimals": {
         "1": 18
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "ALVA",
@@ -16422,8 +15862,7 @@
       "active": true,
       "liquidityDex": {
         "1": "UniswapV3"
-      },
-      "getLpUrl": {}
+      }
     },
     "billNnftAddress": {
       "1": "0x499b654b0a7f9979cc315190c09ca2633809b8df"
@@ -16460,9 +15899,8 @@
       "decimals": {
         "1": 6
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "GPT",
@@ -16472,11 +15910,10 @@
       "decimals": {
         "1": 18
       },
-      "active": true,
       "liquidityDex": {
         "1": "UniswapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "1": "0x499b654b0a7f9979cc315190c09ca2633809b8df"
@@ -16512,9 +15949,8 @@
       "decimals": {
         "1": 6
       },
-      "active": true,
       "liquidityDex": {},
-      "getLpUrl": {}
+      "active": true
     },
     "earnToken": {
       "symbol": "GPT",
@@ -16524,11 +15960,10 @@
       "decimals": {
         "1": 18
       },
-      "active": true,
       "liquidityDex": {
         "1": "UniswapV3"
       },
-      "getLpUrl": {}
+      "active": true
     },
     "billNnftAddress": {
       "1": "0x499b654b0a7f9979cc315190c09ca2633809b8df"

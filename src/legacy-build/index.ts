@@ -50,40 +50,28 @@ const buildList = (listProp: any, listName: string) => {
           [chainId]: bill.contractAddress[chainId],
         },
         lpToken: {
-          symbol: bill.lpToken.symbol,
+          ...bill.lpToken,
           address: {
             [chainId]: bill.lpToken.address?.[chainId],
           },
           decimals: {
             [chainId]: bill.lpToken.decimals?.[chainId],
           },
-          active: bill.lpToken.active,
-          lpToken: bill.lpToken.lpToken,
           liquidityDex: {
             [chainId]: bill.lpToken.liquidityDex?.[chainId],
           },
-          getLpUrl: {
-            [chainId]: bill.lpToken.getLpUrl?.[chainId],
-          },
-          ichiUnderlyingDex: bill.lpToken.ichiUnderlyingDex,
         },
         earnToken: {
-          symbol: bill.earnToken.symbol,
+          ...bill.earnToken,
           address: {
             [chainId]: bill.earnToken.address?.[chainId],
           },
           decimals: {
             [chainId]: bill.earnToken.decimals?.[chainId],
           },
-          active: bill.earnToken.active,
-          lpToken: bill.earnToken.lpToken,
           liquidityDex: {
             [chainId]: bill.earnToken.liquidityDex?.[chainId],
           },
-          getLpUrl: {
-            [chainId]: bill.earnToken.getLpUrl?.[chainId],
-          },
-          ichiUnderlyingDex: bill.earnToken.ichiUnderlyingDex,
         },
       }
     })
