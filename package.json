@@ -1,15 +1,13 @@
 {
   "name": "@ape.swap/apeswap-lists",
-  "version": "3.0.0-test.3",
+  "version": "3.0.1-test.1",
   "publishConfig": {
     "access": "public"
   },
-  "typings": "dist/publish.d.ts",
+  "main": "lib/types/index.js",
+  "types": "lib/types/index.d.ts",
   "files": [
-    "dist/publish.d.ts",
-    "dist/types",
-    "dist/constants/dexFactories.d.ts",
-    "dist/constants/dexToZapMapping.d.ts"
+    "lib/types"
   ],
   "repository": {
     "type": "git",
@@ -17,7 +15,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "build": "tsdx build && yarn legacy-build",
+    "build": "tsdx build && yarn legacy-build && rimraf ./lib && tsc --target es5 --module commonjs && yarn run format:write",
     "start": "tsdx watch",
     "prepublishOnly": "yarn build",
     "prepare": "husky install",
@@ -26,7 +24,7 @@
     "format:check": "prettier --check \"**/*.{js,jsx,ts,tsx,json}\"",
     "format:check:staged": "pretty-quick --staged --check",
     "format:write": "prettier --write \"**/*.{js,jsx,ts,tsx,json}\"",
-    "legacy-build": "rimraf ./config && mkdir config && run-func dist/apeswap-lists.cjs.development.js buildLegacyConfig && yarn run format:write"
+    "legacy-build": "rimraf ./config && mkdir config && run-func dist/apeswap-lists.cjs.development.js buildLegacyConfig"
   },
   "dependencies": {
     "bignumber.js": "^9.0.2",
