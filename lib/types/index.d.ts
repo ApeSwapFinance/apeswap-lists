@@ -415,3 +415,20 @@ export interface IaoConfig {
   expires?: number
   vestingTimeSeconds?: number
 }
+export declare const dexFactories: Partial<
+  Record<
+    ChainId,
+    Partial<
+      Record<
+        LiquidityDex,
+        {
+          factory: string
+          router?: string
+          protocol: Protocols
+        }
+      >
+    >
+  >
+>
+export declare const defaultDexFactories: Partial<Record<ChainId, Partial<Record<Protocols, string>>>>
+export declare const dexToZapMapping: Record<LiquidityDex, Partial<Record<ChainId, ZapVersion>>>
