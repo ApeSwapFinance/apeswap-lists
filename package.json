@@ -4,6 +4,7 @@
   "publishConfig": {
     "access": "public"
   },
+  "typings": "src/types/index.ts",
   "files": [
     "src/types"
   ],
