@@ -1,6 +1,6 @@
 {
   "name": "@ape.swap/apeswap-lists",
-  "version": "2.1.7",
+  "version": "2.2.14",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "publishConfig": {
@@ -25,7 +25,7 @@
     "format:check": "prettier --check \"**/*.{js,jsx,ts,tsx,json}\"",
     "format:check:staged": "pretty-quick --staged --check",
     "format:write": "prettier --write \"**/*.{js,jsx,ts,tsx,json}\"",
-    "legacy-build": "rimraf ./config && mkdir config && run-func dist/apeswap-lists.cjs.development.js buildLegacyConfig && yarn run format:write"
+    "legacy-build": "rimraf ./config && mkdir config && run-func src/legacy-build buildLegacyConfig && yarn run format:write"
   },
   "dependencies": {
     "bignumber.js": "^9.0.2",
