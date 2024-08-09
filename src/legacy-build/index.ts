@@ -1,5 +1,5 @@
-import path from 'path'
-import fs from 'fs'
+import { resolve } from 'path'
+import { writeFile } from 'fs'
 import {
   farms,
   bills,
@@ -18,7 +18,7 @@ import {
   launchProjects,
   flashBonds,
 } from '../constants'
-import { BillsConfig } from 'types'
+import { BillsConfig } from '../types'
 
 const listMap: [any, string][] = [
   [farms, 'farms'],
@@ -81,9 +81,9 @@ export const stringifyList = (listProp: any, listName: string) => {
 }
 
 export const buildList = (listProp: any, listName: string) => {
-  const tokenListPath = `${path.resolve()}/config/${listName}.json`
+  const tokenListPath = `${resolve()}/config/${listName}.json`
   const stringifiedList = stringifyList(listProp, listName)
-  fs.writeFile(tokenListPath, stringifiedList, function (err) {
+  writeFile(tokenListPath, stringifiedList, function (err) {
     if (err) console.error(err)
     console.info(`✅  ${listName} complete`)
   })
@@ -91,9 +91,9 @@ export const buildList = (listProp: any, listName: string) => {
 
 const buildTokens = () => {
   const filterActiveTokens = Object.fromEntries(Object.entries(tokens).filter(([, val]) => val.active))
-  const tokenListPath = `${path.resolve()}/config/tokens.json`
+  const tokenListPath = `${resolve()}/config/tokens.json`
   const stringifiedList = JSON.stringify(filterActiveTokens, null, 2)
-  fs.writeFile(tokenListPath, stringifiedList, function (err) {
+  writeFile(tokenListPath, stringifiedList, function (err) {
     if (err) console.error(err)
     console.info(`✅  tokens complete`)
   })
