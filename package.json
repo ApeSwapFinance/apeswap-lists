@@ -1,20 +1,17 @@
 {
   "name": "@ape.swap/apeswap-lists",
-  "version": "2.1.7",
-  "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
+  "version": "3.0.0-test.1",
   "publishConfig": {
     "access": "public"
   },
   "files": [
-    "dist"
+    "src/types"
   ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ApeSwapFinance/apeswap-lists.git"
   },
   "license": "MIT",
-  "module": "dist/apeswap-lists.esm.js",
   "scripts": {
     "build": "tsdx build && yarn legacy-build",
     "start": "tsdx watch",
