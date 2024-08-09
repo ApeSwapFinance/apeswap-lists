@@ -1,12 +1,13 @@
 {
   "name": "@ape.swap/apeswap-lists",
-  "version": "3.0.0-test.2",
+  "version": "3.0.1-test.0",
   "publishConfig": {
     "access": "public"
   },
-  "typings": "src/types/index.ts",
+  "main": "lib/types/index.js",
+  "types": "lib/types/index.d.ts",
   "files": [
-    "src/types"
+    "lib/types"
   ],
   "repository": {
     "type": "git",
@@ -14,7 +15,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "build": "tsdx build && yarn legacy-build",
+    "build": "tsdx build && yarn legacy-build && rimraf ./lib && tsc --target es5 --module commonjs",
     "start": "tsdx watch",
     "prepublishOnly": "yarn build",
     "prepare": "husky install",
