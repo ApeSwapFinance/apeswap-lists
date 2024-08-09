@@ -4,9 +4,12 @@
   "publishConfig": {
     "access": "public"
   },
-  "typings": "src/types/index.ts",
+  "typings": "dist/publish.d.ts",
   "files": [
-    "src/types"
+    "dist/publish.d.ts",
+    "dist/types",
+    "dist/constants/dexFactories.d.ts",
+    "dist/constants/dexToZapMapping.d.ts"
   ],
   "repository": {
     "type": "git",
