@@ -1,5 +1,6 @@
 {
-  "include": ["src"],
+  "include": ["src/types"],
+  "exclude": ["src/constants", "src/legacy-build"],
   "compilerOptions": {
     "target": "es2018",
     "module": "esnext",
