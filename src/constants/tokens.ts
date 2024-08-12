@@ -3536,6 +3536,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  copi: {
+    symbol: 'COPI',
+    address: {
+      [ChainId.BSC]: '0xFeA292e5ea4510881bDB840E3CeC63aBd43f936f',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
   cgg: {
     symbol: 'CGG',
     address: {
