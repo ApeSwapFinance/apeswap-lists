@@ -1356,6 +1356,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  vda: {
+    symbol: 'VDA',
+    address: {
+      [ChainId.MATIC]: '0x683565196C3EAb450003C964D4bad1fd3068D4cC',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.Algebra,
+    },
+    active: true,
+  },
   orbs: {
     symbol: 'ORBS',
     address: {
@@ -5209,6 +5222,21 @@ const tokens: Record<string, Token> = {
     symbol: 'WMATIC-DSRUN',
     address: {
       [ChainId.MATIC]: '0xECD259DEdDc93B9881debDC67c7c4b553794Fd3c',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.Algebra,
+    },
+    active: true,
+    lpToken: true,
+    ichiUnderlyingDex: IchiSupportedDex.Quickswap,
+  },
+  usdtVda_Ichi: {
+    symbol: 'USDT-VDA',
+    address: {
+      [ChainId.MATIC]: '0xe3a2F6b642cBB29F7D5A82afa83a48b9c4E79244',
     },
     decimals: {
       [ChainId.MATIC]: 18,
