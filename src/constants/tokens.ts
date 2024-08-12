@@ -3495,11 +3495,13 @@ const tokens: Record<string, Token> = {
     address: {
       [ChainId.BSC]: '0xFdc66A08B0d0Dc44c17bbd471B88f49F50CdD20F',
       [ChainId.BASE]: '0xFd4330b0312fdEEC6d4225075b82E00493FF2e3f',
+      [ChainId.ARBITRUM]: '0xabD587f2607542723b17f14d00d99b987C29b074',
     },
-    decimals: { [ChainId.BSC]: 18, [ChainId.BASE]: 18 },
+    decimals: { [ChainId.BSC]: 18, [ChainId.BASE]: 18, [ChainId.ARBITRUM]: 18 },
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
       [ChainId.BASE]: LiquidityDex.SmarDex,
+      [ChainId.ARBITRUM]: LiquidityDex.UniswapV3,
     },
     active: true,
   },
