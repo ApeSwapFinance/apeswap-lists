@@ -7831,6 +7831,29 @@ const bills: BillsConfig[] = [
       Arbitrum Bills - ID started from 2001
   */
   {
+    index: 2008,
+    chainId: ChainId.ARBITRUM,
+    contractAddress: {
+      [ChainId.ARBITRUM]: '0x573b88bAb79343b2565A52bbAe4413ee2f4EA2bd',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.ethLdy_Ichi,
+    quoteToken: tokens.ethLdy_Ichi,
+    lpToken: tokens.ethLdy_Ichi,
+    earnToken: tokens.ldy,
+    billNnftAddress: {
+      [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
+    },
+    inactive: false,
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['asd'],
+    fullDescription: 'good project ser',
+  },
+  {
     index: 2007,
     cmcId: 21118,
     chainId: ChainId.ARBITRUM,

@@ -30646,6 +30646,83 @@
     "soldOut": true
   },
   {
+    "index": 2008,
+    "chainId": 42161,
+    "contractAddress": {
+      "42161": "0x573b88bAb79343b2565A52bbAe4413ee2f4EA2bd"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "ETH-LDY",
+      "address": {
+        "42161": "0xDf7606bE4fF2E6662C4345AC0372215e9E894b13"
+      },
+      "decimals": {
+        "42161": 18
+      },
+      "active": true,
+      "lpToken": true,
+      "ichiUnderlyingDex": "Uniswap V3",
+      "liquidityDex": {
+        "42161": "Algebra"
+      }
+    },
+    "quoteToken": {
+      "symbol": "ETH-LDY",
+      "address": {
+        "42161": "0xDf7606bE4fF2E6662C4345AC0372215e9E894b13"
+      },
+      "decimals": {
+        "42161": 18
+      },
+      "active": true,
+      "lpToken": true,
+      "ichiUnderlyingDex": "Uniswap V3",
+      "liquidityDex": {
+        "42161": "Algebra"
+      }
+    },
+    "lpToken": {
+      "symbol": "ETH-LDY",
+      "address": {
+        "42161": "0xDf7606bE4fF2E6662C4345AC0372215e9E894b13"
+      },
+      "decimals": {
+        "42161": 18
+      },
+      "active": true,
+      "lpToken": true,
+      "ichiUnderlyingDex": "Uniswap V3",
+      "liquidityDex": {
+        "42161": "Algebra"
+      }
+    },
+    "earnToken": {
+      "symbol": "LDY",
+      "address": {
+        "42161": "0x999FAF0AF2fF109938eeFE6A7BF91CA56f0D07e1"
+      },
+      "decimals": {
+        "42161": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "42161": "UniswapV3"
+      }
+    },
+    "billNnftAddress": {
+      "42161": "0xAC707999D05C4048844B78c737D9512DFDff524d"
+    },
+    "inactive": false,
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["asd"],
+    "fullDescription": "good project ser"
+  },
+  {
     "index": 2007,
     "cmcId": 21118,
     "chainId": 42161,
