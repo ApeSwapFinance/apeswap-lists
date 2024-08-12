@@ -262,8 +262,6 @@ export interface BillsConfig {
   contractAddress: Partial<Record<ChainId, string>> // FE
   billVersion: BillVersion // FE
   billType: 'liquidity' | 'reserve' | 'launch' | 'migration' | 'cex' // FE
-  // token: Token
-  // quoteToken: Token
   lpToken: Token // FE
   earnToken: Token // FE
   billNnftAddress: Partial<Record<ChainId, string>> // FE
