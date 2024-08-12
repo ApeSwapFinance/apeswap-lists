@@ -1,7 +1,7 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1084
+// BNB Largest ID: 1085
 // Polygon Largest ID: 159
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2007
@@ -562,6 +562,56 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1086,
+    cmcId: 15563,
+    chainId: ChainId.BSC,
+    contractAddress: { [ChainId.BSC]: '0x809e28e55799193c9749113DaCe501246e891049' },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.copi,
+    billNnftAddress: { [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9' },
+    inactive: false,
+    projectLink: 'https://www.cornucopias.io/',
+    twitter: 'https://twitter.com/CornucopiasGame',
+    audit: 'https://hacken.io/audits/cornucopias/',
+    initTime: { [ChainId.BSC]: 1723469314 },
+    soldOut: false,
+    billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+    shortDescription:
+      'Cornucopias is a blockchain-based, massive multiplayer open-world RPG built on Unreal Engine 5. Set in a technologically advanced, airborne world, players can explore, build, trade, and race. The game empowers players with freedom and innovative economics through Play-and-Earn mechanics, allowing them to earn in-game currency and own digital assets, including NFTs and the $COPI token, with real-world value.',
+    fullDescription:
+      " Cornucopias is a blockchain-based, massive multiplayer open-world RPG built on Unreal Engine 5, set in the technologically advanced, airborne world of 'Cornucopias.' Players can explore, build, trade, and race within this breathtaking universe. The game’s vision is to empower players with freedom, autonomy, and innovative economics through immersive gameplay, compelling storytelling, and exceptional artwork. With a Play-and-Earn mantra, Cornucopias allows players to earn in-game virtual currency and digital assets, including NFTs and the $COPI token, which hold real-world value, offering unprecedented ownership and control.",
+    tags: ['GAMEFI'],
+  },
+  {
+    index: 1085,
+    cmcId: 15563,
+    chainId: ChainId.BSC,
+    contractAddress: { [ChainId.BSC]: '0x1643535ABbECe810BDFFa7D9F3C7924f1940AFC9' },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.copi,
+    billNnftAddress: { [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9' },
+    inactive: false,
+    projectLink: 'https://www.cornucopias.io/',
+    twitter: 'https://twitter.com/CornucopiasGame',
+    audit: 'https://hacken.io/audits/cornucopias/',
+    initTime: { [ChainId.BSC]: 1723469314 },
+    soldOut: false,
+    billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+    shortDescription:
+      'Cornucopias is a blockchain-based, massive multiplayer open-world RPG built on Unreal Engine 5. Set in a technologically advanced, airborne world, players can explore, build, trade, and race. The game empowers players with freedom and innovative economics through Play-and-Earn mechanics, allowing them to earn in-game currency and own digital assets, including NFTs and the $COPI token, with real-world value.',
+    fullDescription:
+      " Cornucopias is a blockchain-based, massive multiplayer open-world RPG built on Unreal Engine 5, set in the technologically advanced, airborne world of 'Cornucopias.' Players can explore, build, trade, and race within this breathtaking universe. The game’s vision is to empower players with freedom, autonomy, and innovative economics through immersive gameplay, compelling storytelling, and exceptional artwork. With a Play-and-Earn mantra, Cornucopias allows players to earn in-game virtual currency and digital assets, including NFTs and the $COPI token, which hold real-world value, offering unprecedented ownership and control.",
+    tags: ['GAMEFI'],
+  },
   {
     index: 1084,
     chainId: ChainId.BSC,
