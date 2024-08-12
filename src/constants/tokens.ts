@@ -3620,6 +3620,33 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  ldy: {
+    symbol: 'LDY',
+    address: {
+      [ChainId.ARBITRUM]: '0x999FAF0AF2fF109938eeFE6A7BF91CA56f0D07e1',
+    },
+    decimals: {
+      [ChainId.ARBITRUM]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.ARBITRUM]: LiquidityDex.UniswapV3,
+    },
+  },
+  wethLdy_Ichi: {
+    symbol: 'WETH-LDY',
+    address: {
+      [ChainId.ARBITRUM]: '0xDf7606bE4fF2E6662C4345AC0372215e9E894b13',
+    },
+    decimals: {
+      [ChainId.ARBITRUM]: 18,
+    },
+    liquidityDex: {
+      [ChainId.ARBITRUM]: LiquidityDex.Algebra,
+    },
+    active: true,
+    lpToken: true,
+  },
   winj: {
     symbol: 'WINJ',
     address: {
