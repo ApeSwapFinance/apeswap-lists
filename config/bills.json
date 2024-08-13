@@ -30811,6 +30811,7 @@
       "liquidityDex": {
         "42161": "UniswapV3"
       },
+      "ichiUnderlyingDex": "Uniswap V3",
       "active": true,
       "lpToken": true
     },
@@ -30825,6 +30826,7 @@
       "liquidityDex": {
         "42161": "UniswapV3"
       },
+      "ichiUnderlyingDex": "Uniswap V3",
       "active": true,
       "lpToken": true
     },
@@ -30839,6 +30841,7 @@
       "liquidityDex": {
         "42161": "UniswapV3"
       },
+      "ichiUnderlyingDex": "Uniswap V3",
       "active": true,
       "lpToken": true
     },
