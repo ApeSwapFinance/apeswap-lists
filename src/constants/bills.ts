@@ -7866,9 +7866,9 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.ethLdy_Ichi,
-    quoteToken: tokens.ethLdy_Ichi,
-    lpToken: tokens.ethLdy_Ichi,
+    token: tokens.wethLdy_Ichi,
+    quoteToken: tokens.wethLdy_Ichi,
+    lpToken: tokens.wethLdy_Ichi,
     earnToken: tokens.ldy,
     billNnftAddress: {
       [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',

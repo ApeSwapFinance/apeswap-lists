@@ -3622,19 +3622,6 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
-  ethLdy_Ichi: {
-    symbol: 'ETH-LDY',
-    address: {
-      [ChainId.ARBITRUM]: '0xDf7606bE4fF2E6662C4345AC0372215e9E894b13',
-    },
-    decimals: { [ChainId.ARBITRUM]: 18 },
-    active: true,
-    lpToken: true,
-    ichiUnderlyingDex: IchiSupportedDex.UniswapV3,
-    liquidityDex: {
-      [ChainId.ARBITRUM]: LiquidityDex.Algebra,
-    },
-  },
   ldy: {
     symbol: 'LDY',
     address: {

@@ -30801,49 +30801,46 @@
     "billType": "liquidity",
     "billVersion": "V2",
     "token": {
-      "symbol": "ETH-LDY",
+      "symbol": "WETH-LDY",
       "address": {
         "42161": "0xDf7606bE4fF2E6662C4345AC0372215e9E894b13"
       },
       "decimals": {
         "42161": 18
       },
-      "active": true,
-      "lpToken": true,
-      "ichiUnderlyingDex": "Uniswap V3",
       "liquidityDex": {
-        "42161": "Algebra"
-      }
+        "42161": "UniswapV3"
+      },
+      "active": true,
+      "lpToken": true
     },
     "quoteToken": {
-      "symbol": "ETH-LDY",
+      "symbol": "WETH-LDY",
       "address": {
         "42161": "0xDf7606bE4fF2E6662C4345AC0372215e9E894b13"
       },
       "decimals": {
         "42161": 18
       },
-      "active": true,
-      "lpToken": true,
-      "ichiUnderlyingDex": "Uniswap V3",
       "liquidityDex": {
-        "42161": "Algebra"
-      }
+        "42161": "UniswapV3"
+      },
+      "active": true,
+      "lpToken": true
     },
     "lpToken": {
-      "symbol": "ETH-LDY",
+      "symbol": "WETH-LDY",
       "address": {
         "42161": "0xDf7606bE4fF2E6662C4345AC0372215e9E894b13"
       },
       "decimals": {
         "42161": 18
       },
-      "active": true,
-      "lpToken": true,
-      "ichiUnderlyingDex": "Uniswap V3",
       "liquidityDex": {
-        "42161": "Algebra"
-      }
+        "42161": "UniswapV3"
+      },
+      "active": true,
+      "lpToken": true
     },
     "earnToken": {
       "symbol": "LDY",
