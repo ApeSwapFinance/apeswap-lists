@@ -7835,7 +7835,7 @@ const bills: BillsConfig[] = [
     cmcId: 24203,
     chainId: ChainId.ARBITRUM,
     contractAddress: {
-      [ChainId.ARBITRUM]: '0x9Fb902bA4a8f0f72F9eF6Cad0c2884c3D011C1a4',
+      [ChainId.ARBITRUM]: '0xFFcdD3724F785Ce14b283F271C29990b59B18158',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
@@ -7862,7 +7862,7 @@ const bills: BillsConfig[] = [
     index: 2008,
     chainId: ChainId.ARBITRUM,
     contractAddress: {
-      [ChainId.ARBITRUM]: '0x250F410D54D2dd7eae4C20C1815C171a063570d1',
+      [ChainId.ARBITRUM]: '0xac65F692E6F9c7A53bc3EE8904Eda4982BD8ad07',
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
