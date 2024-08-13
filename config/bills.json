@@ -30650,7 +30650,7 @@
     "cmcId": 24203,
     "chainId": 42161,
     "contractAddress": {
-      "42161": "0x9Fb902bA4a8f0f72F9eF6Cad0c2884c3D011C1a4"
+      "42161": "0xFFcdD3724F785Ce14b283F271C29990b59B18158"
     },
     "billType": "reserve",
     "billVersion": "V2",
@@ -30796,7 +30796,7 @@
     "index": 2008,
     "chainId": 42161,
     "contractAddress": {
-      "42161": "0x250F410D54D2dd7eae4C20C1815C171a063570d1"
+      "42161": "0xac65F692E6F9c7A53bc3EE8904Eda4982BD8ad07"
     },
     "billType": "liquidity",
     "billVersion": "V2",
