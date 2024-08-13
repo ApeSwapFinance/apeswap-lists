@@ -7834,7 +7834,7 @@ const bills: BillsConfig[] = [
     index: 2008,
     chainId: ChainId.ARBITRUM,
     contractAddress: {
-      [ChainId.ARBITRUM]: '0x573b88bAb79343b2565A52bbAe4413ee2f4EA2bd',
+      [ChainId.ARBITRUM]: '0x250F410D54D2dd7eae4C20C1815C171a063570d1',
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
