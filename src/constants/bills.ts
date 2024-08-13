@@ -7831,6 +7831,61 @@ const bills: BillsConfig[] = [
       Arbitrum Bills - ID started from 2001
   */
   {
+    index: 2009,
+    cmcId: 24203,
+    chainId: ChainId.ARBITRUM,
+    contractAddress: {
+      [ChainId.ARBITRUM]: '0x9Fb902bA4a8f0f72F9eF6Cad0c2884c3D011C1a4',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    token: tokens.eth,
+    quoteToken: tokens.eth,
+    lpToken: tokens.eth,
+    earnToken: tokens.sdex,
+    billNnftAddress: {
+      [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
+    },
+    inactive: false,
+    projectLink: 'https://smardex.io/home',
+    twitter: 'https://x.com/SmarDex',
+    initTime: { [ChainId.ARBITRUM]: 1723548893 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DEX'],
+    shortDescription: `SmarDex is a pioneering DeFi platform for liquidity providers and traders, offering a sophisticated algorithm that turns impermanent loss into impermanent gain. Users can start trading via the app, enjoying smart returns and top market opportunities. This next-gen platform delivers lower fees, better profits, and full decentralization, providing reliable ROIs and unmatched value. Join SmarDex today to experience the future of DeFi with better profits and a fully decentralized system.`,
+    fullDescription: ` SmarDex is a pioneering DeFi platform that is leading innovation for liquidity providers and traders who want to stay ahead of the game. By launching the app, users can immediately start trading and benefit from SmarDex's sophisticated, fine-tuned algorithm, which uniquely transforms impermanent loss into impermanent gain. Addressing one of the most persistent issues in DeFi, SmarDex allows liquidity providers to earn smart returns while offering users access to the best opportunities in the market. This groundbreaking technology is revolutionizing the DeFi space, delivering lower fees, better profits, and full decentralization. SmarDex stands out as the true next-generation DeFi platform, providing reliable ROIs and delivering real value through unmatched innovations. For liquidity providers, it offers a unique and effective solution to impermanent loss, a feat no other platform has successfully achieved until now. As an innovative, reputable, and dynamic platform, SmarDex invites users to join today and experience the future of DeFi with better profits and a fully decentralized system. Welcome to the next generation of DeFi with SmarDex.`,
+  },
+  {
+    index: 2008,
+    chainId: ChainId.ARBITRUM,
+    contractAddress: {
+      [ChainId.ARBITRUM]: '0x250F410D54D2dd7eae4C20C1815C171a063570d1',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.wethLdy_Ichi,
+    quoteToken: tokens.wethLdy_Ichi,
+    lpToken: tokens.wethLdy_Ichi,
+    earnToken: tokens.ldy,
+    billNnftAddress: {
+      [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
+    },
+    inactive: false,
+    projectLink: 'https://ledgity.finance/',
+    twitter: 'https://twitter.com/LedgityYield',
+    initTime: { [ChainId.ARBITRUM]: 1723548893 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['RWA', 'DeFi'],
+    shortDescription: `Ledgity Yield is a stablecoin yield protocol bridging DeFi and TradFi with real yield backed by real-world assets (RWA). It offers institutional-grade treasury management with stable yields secured by RWA collateral. With robust infrastructure, compliance, and a blend of decentralized and centralized management, Ledgity Yield leads as a transparent, accessible wealth management platform in the web3 era.`,
+    fullDescription: `Ledgity Yield is a cutting-edge stablecoin yield protocol that bridges the gap between DeFi and TradFi by providing real yield backed by real-world assets (RWA). This platform offers stablecoin holders an institutional-grade treasury management solution with stable yields secured by RWA collateral. Ledgity Yield's infrastructure is built for long-term resilience, featuring bank-grade custody with segregated accounts, strict compliance with financial regulators, and a blend of decentralized components with centralized fund management. As a leading wealth management platform in the web3 era, Ledgity Yield upholds transparency, accessibility, and compliance. The $LDY token powers the entire Ledgity ecosystem, including the Ledgity Yield protocol.`,
+  },
+  {
     index: 2007,
     cmcId: 21118,
     chainId: ChainId.ARBITRUM,
