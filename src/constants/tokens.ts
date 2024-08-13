@@ -3644,7 +3644,7 @@ const tokens: Record<string, Token> = {
       [ChainId.ARBITRUM]: 18,
     },
     liquidityDex: {
-      [ChainId.ARBITRUM]: LiquidityDex.Algebra,
+      [ChainId.ARBITRUM]: LiquidityDex.UniswapV3,
     },
     active: true,
     lpToken: true,
