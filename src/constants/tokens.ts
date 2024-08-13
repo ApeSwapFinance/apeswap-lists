@@ -3646,6 +3646,7 @@ const tokens: Record<string, Token> = {
     liquidityDex: {
       [ChainId.ARBITRUM]: LiquidityDex.UniswapV3,
     },
+    ichiUnderlyingDex: IchiSupportedDex.UniswapV3,
     active: true,
     lpToken: true,
   },

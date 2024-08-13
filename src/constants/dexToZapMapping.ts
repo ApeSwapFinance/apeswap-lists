@@ -14,7 +14,6 @@ export const dexToZapMapping: Record<LiquidityDex, Partial<Record<ChainId, ZapVe
     [ChainId.BSC]: ZapVersion.SoulZapApi,
     [ChainId.MATIC]: ZapVersion.SoulZapApi,
     [ChainId.LINEA]: ZapVersion.SoulZapApi,
-    [ChainId.ARBITRUM]: ZapVersion.SoulZapApi,
   },
   [LiquidityDex.PancakeSwapV2]: {
     [ChainId.BSC]: ZapVersion.SoulZap,
@@ -24,7 +23,7 @@ export const dexToZapMapping: Record<LiquidityDex, Partial<Record<ChainId, ZapVe
     [ChainId.MATIC]: ZapVersion.SoulZap,
   },
   [LiquidityDex.ApeSwapV3]: {},
-  [LiquidityDex.UniswapV3]: {},
+  [LiquidityDex.UniswapV3]: { [ChainId.ARBITRUM]: ZapVersion.SoulZapApi },
   [LiquidityDex.ThenaV1]: { [ChainId.BSC]: ZapVersion.SoulZapApi },
   [LiquidityDex.UniswapV2]: {
     [ChainId.BASE]: ZapVersion.SoulZapApi,
