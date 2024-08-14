@@ -22362,6 +22362,112 @@
     "soldOut": true
   },
   {
+    "index": 160,
+    "cmcId": 30232,
+    "chainId": 137,
+    "contractAddress": {
+      "137": "0xc74922dFeAb39abb02Ef9d0bC53642161553b474"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "1890": 6,
+        "2525": 6,
+        "8453": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8453": "UniswapV3",
+        "8822": "MagicSea",
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "VDA",
+      "address": {
+        "137": "0x683565196C3EAb450003C964D4bad1fd3068D4cC"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "Algebra"
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "USDT-VDA",
+      "address": {
+        "137": "0xe3a2F6b642cBB29F7D5A82afa83a48b9c4E79244"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "Algebra"
+      },
+      "active": true,
+      "lpToken": true,
+      "ichiUnderlyingDex": "QuickSwap"
+    },
+    "earnToken": {
+      "symbol": "VDA",
+      "address": {
+        "137": "0x683565196C3EAb450003C964D4bad1fd3068D4cC"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "Algebra"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
+    },
+    "inactive": false,
+    "projectLink": "https://www.verida.network/",
+    "twitter": "https://x.com/Verida_io",
+    "audit": "https://community.verida.network/verida-network/security-audits",
+    "initTime": {
+      "137": 1723642568
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "shortDescription": "Verida is a layer zero DePIN that secures private data and offers confidential compute for personal AI assistants. It’s a multi-chain protocol for interoperable database storage and messaging, built on decentralized identity, where users control their data. By incentivizing data unlocks from centralized platforms, Verida powers new use cases like trusted storage, decentralized messaging, and smart contract integration. Powered by the VDA utility token.",
+    "fullDescription": "Verida is a layer zero DePIN that secures private data and provides confidential compute for secure personal AI assistants. It is a multi-chain protocol for interoperable database storage and messaging built on decentralized identity, allowing users to own and control their personal data. By incentivizing users to unlock their data from centralized platforms, Verida enables builders to create innovative use cases such as trusted storage, decentralized messaging, and single sign-on. Users' private data can be integrated into smart contracts, facilitating connectivity to multiple blockchains. The Verida Network, powered by its native utility token VDA, is the first decentralized database network designed for owning, storing, and controlling private data, serving as the foundational storage layer for the self-sovereign data economy.",
+    "tags": ["AI"]
+  },
+  {
     "index": 159,
     "cmcId": 29603,
     "chainId": 137,

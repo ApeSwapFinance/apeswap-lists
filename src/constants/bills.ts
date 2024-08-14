@@ -2,7 +2,7 @@ import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingTerms } from '../types'
 
 // BNB Largest ID: 1085
-// Polygon Largest ID: 159
+// Polygon Largest ID: 160
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2007
 // ETH Largest ID: 3016
@@ -5713,6 +5713,36 @@ const bills: BillsConfig[] = [
   /*
     Polygon Bills
   */
+  {
+    index: 160,
+    cmcId: 30232,
+    chainId: ChainId.MATIC,
+    contractAddress: {
+      [ChainId.MATIC]: '0xc74922dFeAb39abb02Ef9d0bC53642161553b474',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.usdt,
+    quoteToken: tokens.vda,
+    lpToken: tokens.usdtVda_Ichi,
+    earnToken: tokens.vda,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://www.verida.network/',
+    twitter: 'https://x.com/Verida_io',
+    audit: 'https://community.verida.network/verida-network/security-audits',
+    initTime: { [ChainId.MATIC]: 1723642568 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    shortDescription:
+      'Verida is a layer zero DePIN that secures private data and offers confidential compute for personal AI assistants. It’s a multi-chain protocol for interoperable database storage and messaging, built on decentralized identity, where users control their data. By incentivizing data unlocks from centralized platforms, Verida powers new use cases like trusted storage, decentralized messaging, and smart contract integration. Powered by the VDA utility token.',
+    fullDescription: `Verida is a layer zero DePIN that secures private data and provides confidential compute for secure personal AI assistants. It is a multi-chain protocol for interoperable database storage and messaging built on decentralized identity, allowing users to own and control their personal data. By incentivizing users to unlock their data from centralized platforms, Verida enables builders to create innovative use cases such as trusted storage, decentralized messaging, and single sign-on. Users' private data can be integrated into smart contracts, facilitating connectivity to multiple blockchains. The Verida Network, powered by its native utility token VDA, is the first decentralized database network designed for owning, storing, and controlling private data, serving as the foundational storage layer for the self-sovereign data economy.`,
+    tags: ['AI'],
+  },
   {
     index: 159,
     cmcId: 29603,

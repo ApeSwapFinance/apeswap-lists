@@ -586,11 +586,11 @@ const flashBonds: FlashBondConfig[] = [
   {
     index: 18,
     round: '9',
-    totalRaiseString: '100K',
-    discountString: '2%',
-    tierString: 'diamond',
+    totalRaiseString: '15K',
+    discountString: '1%',
+    tierString: 'gold',
     contractAddress: {
-      [ChainId.BSC]: '0xb146e3EB0200Bcc334a785084718f82bbE89eBa8',
+      [ChainId.BSC]: '',
     },
     billVersion: BillVersion.FlashTieredSale,
     billType: 'oversubscription',
@@ -602,16 +602,144 @@ const flashBonds: FlashBondConfig[] = [
     soldOut: false,
     billArt: { collection: BillArtCollection.ApeBond_Collection1 },
     initTime: {
-      [ChainId.BSC]: 1723578000, // Aug 22nd 1700 UTC
+      [ChainId.BSC]: 1723741200, // Aug 15th 1700 UTC
     },
     finishTime: {
-      [ChainId.BSC]: 1723585200, // Aug 22nd 1730 UTC
+      [ChainId.BSC]: 1723743000, // Aug 15th 1730 UTC
     },
     startVestingTimestamp: {
-      [ChainId.BSC]: 1723585200, // Aug 22nd 1730 UTC
+      [ChainId.BSC]: 1723743000, // Aug 15th 1730 UTC
     },
     initPrice: {
-      [ChainId.BSC]: 59595.3,
+      [ChainId.BSC]: 0,
+    },
+    initialRelease: 100,
+  },
+  {
+    index: 19,
+    round: '9',
+    totalRaiseString: '30K',
+    discountString: '2%',
+    tierString: 'diamond',
+    contractAddress: {
+      [ChainId.BSC]: '',
+    },
+    billVersion: BillVersion.FlashTieredSale,
+    billType: 'oversubscription',
+    token: tokens.usdt,
+    earnToken: tokens.btc,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    soldOut: false,
+    billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+    initTime: {
+      [ChainId.BSC]: 1723744800, // Aug 15th 1800 UTC
+    },
+    finishTime: {
+      [ChainId.BSC]: 1723746600, // Aug 15th 1830 UTC
+    },
+    startVestingTimestamp: {
+      [ChainId.BSC]: 1723746600, // Aug 15th 1830 UTC
+    },
+    initPrice: {
+      [ChainId.BSC]: 0,
+    },
+    initialRelease: 100,
+  },
+  {
+    index: 20,
+    round: '9',
+    totalRaiseString: '100K',
+    discountString: '3%',
+    tierString: 'legend',
+    contractAddress: {
+      [ChainId.BSC]: '',
+    },
+    billVersion: BillVersion.FlashTieredSale,
+    billType: 'oversubscription',
+    token: tokens.usdt,
+    earnToken: tokens.btc,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    soldOut: false,
+    billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+    initTime: {
+      [ChainId.BSC]: 1723748400, // Aug 15th 1900 UTC
+    },
+    finishTime: {
+      [ChainId.BSC]: 1723750200, // Aug 15th 1930 UTC
+    },
+    startVestingTimestamp: {
+      [ChainId.BSC]: 1723750200, // Aug 15th 1930 UTC
+    },
+    initPrice: {
+      [ChainId.BSC]: 0,
+    },
+    initialRelease: 100,
+  },
+  {
+    index: 21,
+    round: '10',
+    totalRaiseString: '30K',
+    discountString: '2%',
+    tierString: 'diamond',
+    contractAddress: {
+      [ChainId.BSC]: '',
+    },
+    billVersion: BillVersion.FlashTieredSale,
+    billType: 'oversubscription',
+    token: tokens.usdt,
+    earnToken: tokens.wbnb,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    soldOut: false,
+    billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+    initTime: {
+      [ChainId.BSC]: 1724346000, // Aug 22nd 1700 UTC
+    },
+    finishTime: {
+      [ChainId.BSC]: 1724347800, // Aug 22nd 1730 UTC
+    },
+    startVestingTimestamp: {
+      [ChainId.BSC]: 1724347800, // Aug 22nd 1730 UTC
+    },
+    initPrice: {
+      [ChainId.BSC]: 0,
+    },
+    initialRelease: 100,
+  },
+  {
+    index: 22,
+    round: '10',
+    totalRaiseString: '100K',
+    discountString: '3%',
+    tierString: 'legend',
+    contractAddress: {
+      [ChainId.BSC]: '',
+    },
+    billVersion: BillVersion.FlashTieredSale,
+    billType: 'oversubscription',
+    token: tokens.usdt,
+    earnToken: tokens.wbnb,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    soldOut: false,
+    billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+    initTime: {
+      [ChainId.BSC]: 1724349600, // Aug 22nd 1800 UTC
+    },
+    finishTime: {
+      [ChainId.BSC]: 1724351400, // Aug 22nd 1830 UTC
+    },
+    startVestingTimestamp: {
+      [ChainId.BSC]: 1724351400, // Aug 22nd 1830 UTC
+    },
+    initPrice: {
+      [ChainId.BSC]: 0,
     },
     initialRelease: 100,
   },
