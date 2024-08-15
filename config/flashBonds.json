@@ -1722,7 +1722,7 @@
     "discountString": "1%",
     "tierString": "gold",
     "contractAddress": {
-      "56": ""
+      "56": "0xA90550d98A025a121684103001dceC57e2c35655"
     },
     "billVersion": "FlashTieredSale",
     "billType": "oversubscription",
@@ -1803,7 +1803,7 @@
       "56": 1723743000
     },
     "initPrice": {
-      "56": 0
+      "56": 59305.95
     },
     "initialRelease": 100
   },
