@@ -45,4 +45,7 @@ export const dexToZapMapping: Record<LiquidityDex, Partial<Record<ChainId, ZapVe
   [LiquidityDex.MagicSea]: {
     [ChainId.IOTA]: ZapVersion.External,
   },
+  [LiquidityDex.CamelotV2]: {
+    [ChainId.ARBITRUM]: ZapVersion.SoulZapApi,
+  },
 }

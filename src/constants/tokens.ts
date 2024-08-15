@@ -2864,6 +2864,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  bonsai: {
+    symbol: 'BONSAI',
+    address: {
+      [ChainId.ARBITRUM]: '0x79EaD7a012D97eD8DeEcE279f9bC39e264d7Eef9',
+    },
+    decimals: {
+      [ChainId.ARBITRUM]: 18,
+    },
+    liquidityDex: {
+      [ChainId.ARBITRUM]: LiquidityDex.CamelotV2,
+    },
+    active: true,
+  },
   xcur: {
     symbol: 'XCUR',
     address: {
@@ -5461,6 +5474,21 @@ const tokens: Record<string, Token> = {
     lpToken: true,
     getLpUrl: {
       [ChainId.ARBITRUM]: 'https://app.ichi.org/vault/token/0xC6F780497A95e246EB9449f5e4770916DCd6396A',
+    },
+  },
+  ethBonsai_Camelot: {
+    symbol: 'ETH-BONSAI',
+    address: {
+      [ChainId.ARBITRUM]: '0xe4C994f55cAC42830cC6016D18f07744cEd0aa5D',
+    },
+    decimals: { [ChainId.ARBITRUM]: 18 },
+    liquidityDex: {
+      [ChainId.ARBITRUM]: LiquidityDex.CamelotV2,
+    },
+    active: true,
+    lpToken: true,
+    getLpUrl: {
+      [ChainId.ARBITRUM]: 'https://app.camelot.exchange/',
     },
   },
   abondEth_Ichi: {

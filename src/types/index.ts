@@ -69,6 +69,9 @@ export enum LiquidityDex {
 
   //IOTA
   MagicSea = 'MagicSea',
+
+  //ARBITRUM
+  CamelotV2 = 'Camelotv2',
 }
 
 export enum IchiSupportedDex {

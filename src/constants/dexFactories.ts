@@ -87,6 +87,10 @@ export const dexFactories: Partial<
       factory: '0x9C2ABD632771b433E5E7507BcaA41cA3b25D8544', //Zyberswap
       protocol: Protocols.Algebra,
     },
+    [LiquidityDex.CamelotV2]: {
+      factory: '0x6EcCab422D763aC031210895C81787E87B43A652',
+      protocol: Protocols.V2,
+    },
   },
   [ChainId.LINEA]: {
     [LiquidityDex.Spartadex]: {
