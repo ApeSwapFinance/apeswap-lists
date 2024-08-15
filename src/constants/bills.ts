@@ -8662,7 +8662,7 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.MAINNET]: 1722265086 },
     soldOut: false,
     billArt: {
-      collection: BillArtCollection.ETH_Collection1,
+      collection: BillArtCollection.GPT_Collection1,
     },
     tags: ['AI'],
     shortDescription:
