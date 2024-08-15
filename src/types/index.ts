@@ -69,6 +69,9 @@ export enum LiquidityDex {
 
   //IOTA
   MagicSea = 'MagicSea',
+
+  //ARBITRUM
+  CamelotV2 = 'Camelotv2',
 }
 
 export enum IchiSupportedDex {
@@ -169,7 +172,6 @@ export enum BillArtCollection {
   ETH_Collection1 = 'ETH_Collection1',
   inEVM_Collection1 = 'inEVM_Collection1',
   AITECH_Collection1 = 'AITECH_Collection1',
-  GPT_Collection1 = 'GPT_Collection1',
 }
 
 export const defaultBillArtCollection = BillArtCollection.ApeSwap_Collection1
