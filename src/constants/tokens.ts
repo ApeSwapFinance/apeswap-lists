@@ -5488,7 +5488,7 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
     getLpUrl: {
-      [ChainId.ARBITRUM]: 'https://app.camelot.exchange/',
+      [ChainId.ARBITRUM]: 'https://app.camelot.exchange/liquidity?type=v2&position=lp',
     },
   },
   abondEth_Ichi: {
