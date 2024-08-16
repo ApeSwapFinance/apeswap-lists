@@ -605,6 +605,9 @@ const tokens: Record<string, Token> = {
     decimals: {
       [ChainId.MATIC]: 6,
     },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.UniswapV3,
+    },
     active: true,
   },
   usdc: {
@@ -632,8 +635,13 @@ const tokens: Record<string, Token> = {
       [ChainId.IOTA]: 6,
     },
     liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+      [ChainId.MATIC]: LiquidityDex.UniswapV3,
+      [ChainId.ARBITRUM]: LiquidityDex.UniswapV3,
+      [ChainId.MAINNET]: LiquidityDex.UniswapV3,
       [ChainId.LINEA]: LiquidityDex.Nile,
       [ChainId.LIGHTLINK]: LiquidityDex.Elektrik,
+      [ChainId.BASE]: LiquidityDex.Aerodrome,
       [ChainId.IOTA]: LiquidityDex.MagicSea,
     },
     active: true,
@@ -1565,8 +1573,11 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: 6,
     },
     liquidityDex: {
-      [ChainId.INEVM]: LiquidityDex.External,
       [ChainId.MAINNET]: LiquidityDex.UniswapV2,
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+      [ChainId.MATIC]: LiquidityDex.UniswapV3,
+      [ChainId.ARBITRUM]: LiquidityDex.UniswapV3,
+      [ChainId.INEVM]: LiquidityDex.External,
       [ChainId.LINEA]: LiquidityDex.Nile,
       [ChainId.LIGHTLINK]: LiquidityDex.Elektrik,
       [ChainId.IOTA]: LiquidityDex.MagicSea,

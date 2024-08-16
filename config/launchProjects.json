@@ -45,10 +45,13 @@
           },
           "liquidityDex": {
             "1": "UniswapV2",
+            "56": "PancakeSwapV3",
+            "137": "UniswapV3",
             "1890": "Elektrik",
             "2525": "External",
             "8453": "UniswapV3",
             "8822": "MagicSea",
+            "42161": "UniswapV3",
             "59144": "Nile"
           },
           "active": true
@@ -124,10 +127,13 @@
           },
           "liquidityDex": {
             "1": "UniswapV2",
+            "56": "PancakeSwapV3",
+            "137": "UniswapV3",
             "1890": "Elektrik",
             "2525": "External",
             "8453": "UniswapV3",
             "8822": "MagicSea",
+            "42161": "UniswapV3",
             "59144": "Nile"
           },
           "active": true
@@ -203,10 +209,13 @@
           },
           "liquidityDex": {
             "1": "UniswapV2",
+            "56": "PancakeSwapV3",
+            "137": "UniswapV3",
             "1890": "Elektrik",
             "2525": "External",
             "8453": "UniswapV3",
             "8822": "MagicSea",
+            "42161": "UniswapV3",
             "59144": "Nile"
           },
           "active": true
@@ -282,10 +291,13 @@
           },
           "liquidityDex": {
             "1": "UniswapV2",
+            "56": "PancakeSwapV3",
+            "137": "UniswapV3",
             "1890": "Elektrik",
             "2525": "External",
             "8453": "UniswapV3",
             "8822": "MagicSea",
+            "42161": "UniswapV3",
             "59144": "Nile"
           },
           "active": true
@@ -679,10 +691,13 @@
           },
           "liquidityDex": {
             "1": "UniswapV2",
+            "56": "PancakeSwapV3",
+            "137": "UniswapV3",
             "1890": "Elektrik",
             "2525": "External",
             "8453": "UniswapV3",
             "8822": "MagicSea",
+            "42161": "UniswapV3",
             "59144": "Nile"
           },
           "active": true
@@ -758,10 +773,13 @@
           },
           "liquidityDex": {
             "1": "UniswapV2",
+            "56": "PancakeSwapV3",
+            "137": "UniswapV3",
             "1890": "Elektrik",
             "2525": "External",
             "8453": "UniswapV3",
             "8822": "MagicSea",
+            "42161": "UniswapV3",
             "59144": "Nile"
           },
           "active": true
@@ -837,10 +855,13 @@
           },
           "liquidityDex": {
             "1": "UniswapV2",
+            "56": "PancakeSwapV3",
+            "137": "UniswapV3",
             "1890": "Elektrik",
             "2525": "External",
             "8453": "UniswapV3",
             "8822": "MagicSea",
+            "42161": "UniswapV3",
             "59144": "Nile"
           },
           "active": true
@@ -916,10 +937,13 @@
           },
           "liquidityDex": {
             "1": "UniswapV2",
+            "56": "PancakeSwapV3",
+            "137": "UniswapV3",
             "1890": "Elektrik",
             "2525": "External",
             "8453": "UniswapV3",
             "8822": "MagicSea",
+            "42161": "UniswapV3",
             "59144": "Nile"
           },
           "active": true
@@ -995,10 +1019,13 @@
           },
           "liquidityDex": {
             "1": "UniswapV2",
+            "56": "PancakeSwapV3",
+            "137": "UniswapV3",
             "1890": "Elektrik",
             "2525": "External",
             "8453": "UniswapV3",
             "8822": "MagicSea",
+            "42161": "UniswapV3",
             "59144": "Nile"
           },
           "active": true
@@ -1111,10 +1138,13 @@
           },
           "liquidityDex": {
             "1": "UniswapV2",
+            "56": "PancakeSwapV3",
+            "137": "UniswapV3",
             "1890": "Elektrik",
             "2525": "External",
             "8453": "UniswapV3",
             "8822": "MagicSea",
+            "42161": "UniswapV3",
             "59144": "Nile"
           },
           "active": true
@@ -1190,10 +1220,13 @@
           },
           "liquidityDex": {
             "1": "UniswapV2",
+            "56": "PancakeSwapV3",
+            "137": "UniswapV3",
             "1890": "Elektrik",
             "2525": "External",
             "8453": "UniswapV3",
             "8822": "MagicSea",
+            "42161": "UniswapV3",
             "59144": "Nile"
           },
           "active": true
@@ -1269,10 +1302,13 @@
           },
           "liquidityDex": {
             "1": "UniswapV2",
+            "56": "PancakeSwapV3",
+            "137": "UniswapV3",
             "1890": "Elektrik",
             "2525": "External",
             "8453": "UniswapV3",
             "8822": "MagicSea",
+            "42161": "UniswapV3",
             "59144": "Nile"
           },
           "active": true
@@ -1348,10 +1384,13 @@
           },
           "liquidityDex": {
             "1": "UniswapV2",
+            "56": "PancakeSwapV3",
+            "137": "UniswapV3",
             "1890": "Elektrik",
             "2525": "External",
             "8453": "UniswapV3",
             "8822": "MagicSea",
+            "42161": "UniswapV3",
             "59144": "Nile"
           },
           "active": true
@@ -1427,10 +1466,13 @@
           },
           "liquidityDex": {
             "1": "UniswapV2",
+            "56": "PancakeSwapV3",
+            "137": "UniswapV3",
             "1890": "Elektrik",
             "2525": "External",
             "8453": "UniswapV3",
             "8822": "MagicSea",
+            "42161": "UniswapV3",
             "59144": "Nile"
           },
           "active": true
@@ -1506,10 +1548,13 @@
           },
           "liquidityDex": {
             "1": "UniswapV2",
+            "56": "PancakeSwapV3",
+            "137": "UniswapV3",
             "1890": "Elektrik",
             "2525": "External",
             "8453": "UniswapV3",
             "8822": "MagicSea",
+            "42161": "UniswapV3",
             "59144": "Nile"
           },
           "active": true
