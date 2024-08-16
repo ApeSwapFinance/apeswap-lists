@@ -7877,7 +7877,7 @@ const bills: BillsConfig[] = [
     },
     inactive: false,
     projectLink: 'https://www.bonsai.trade/',
-    twitter: 'https://twitter.com/UmamiDao',
+    twitter: 'https://x.com/bonsai_trade',
     initTime: { [ChainId.ARBITRUM]: 1723814011 },
     soldOut: false,
     billArt: {
