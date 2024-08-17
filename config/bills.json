@@ -992,6 +992,163 @@
     "shortDescription": "Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!"
   },
   {
+    "index": 1086,
+    "cmcId": 15563,
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0x809e28e55799193c9749113DaCe501246e891049"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "56": "0x55d398326f99059fF775485246999027B3197955"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "COPI",
+      "address": {
+        "56": "0xFeA292e5ea4510881bDB840E3CeC63aBd43f936f"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://www.cornucopias.io/",
+    "twitter": "https://twitter.com/CornucopiasGame",
+    "audit": "https://hacken.io/audits/cornucopias/",
+    "initTime": {
+      "56": 1723469314
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "shortDescription": "Cornucopias is a blockchain-powered game built on Unreal Engine 5, set to revolutionize the MMO gaming landscape. It stands out with player-owned assets, complex game loops, and a vast universe for limitless exploration. Players can farm, mine, trade, or combat threats to survive in this life above the clouds. In Cornucopias, the sky is no longer the limit—live your life any way you desire.",
+    "fullDescription": "Welcome to Cornucopias: a new MMO where you have the freedom to live any life you desire. In an alternate universe, humanity has been forced to the sky to survive. Massive sections of the earth’s surface, encapsulated by protective domes, have been suspended in the atmosphere. Each more unique than the last, precisely how to take advantage of these truly vast worlds is entirely up to you. Spend your days exploring, farming the rich soil, mining for valuable ore, or trading goods and services, and even combating the myriad threats to your survival. Here in Cornucopias, the sky is no longer the limit.",
+    "tags": ["GAMEFI"]
+  },
+  {
+    "index": 1085,
+    "cmcId": 15563,
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0x1643535ABbECe810BDFFa7D9F3C7924f1940AFC9"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "56": "0x55d398326f99059fF775485246999027B3197955"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "COPI",
+      "address": {
+        "56": "0xFeA292e5ea4510881bDB840E3CeC63aBd43f936f"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://www.cornucopias.io/",
+    "twitter": "https://twitter.com/CornucopiasGame",
+    "audit": "https://hacken.io/audits/cornucopias/",
+    "initTime": {
+      "56": 1723469314
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "shortDescription": "Cornucopias is a blockchain-powered game built on Unreal Engine 5, set to revolutionize the MMO gaming landscape. It stands out with player-owned assets, complex game loops, and a vast universe for limitless exploration. Players can farm, mine, trade, or combat threats to survive in this life above the clouds. In Cornucopias, the sky is no longer the limit—live your life any way you desire.",
+    "fullDescription": "Welcome to Cornucopias: a new MMO where you have the freedom to live any life you desire. In an alternate universe, humanity has been forced to the sky to survive. Massive sections of the earth’s surface, encapsulated by protective domes, have been suspended in the atmosphere. Each more unique than the last, precisely how to take advantage of these truly vast worlds is entirely up to you. Spend your days exploring, farming the rich soil, mining for valuable ore, or trading goods and services, and even combating the myriad threats to your survival. Here in Cornucopias, the sky is no longer the limit.",
+    "tags": ["GAMEFI"]
+  },
+  {
+    "index": 1084,
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0x2E2b7bE57BDEAAa4c2E0eb6aee34CD12b2f94fC8"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "56": "0x55d398326f99059fF775485246999027B3197955"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "ELDA",
+      "address": {
+        "56": "0xab2ed911BDbeA001FD3B29AdbC35d8a76E68aAe4"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://www.eldarune.com/",
+    "twitter": "https://x.com/PlayEldarune",
+    "initTime": {
+      "56": 1723037484
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "shortDescription": "Eldarune is a game studio creating interoperable, medieval-themed blockchain games where NFTs can be used across multiple titles. The ELDA token serves as the studio's native currency and unlocks diverse gaming experiences. Inspired by classics like Warcraft and Dota, Eldarune is transforming the gaming landscape by offering seamless, interconnected gameplay across its ecosystem.",
+    "fullDescription": "Eldarune is a pioneering game studio specializing in interoperable, medieval-themed blockchain games. Players can use their NFTs across different titles within the Eldarune ecosystem, enhancing the gaming experience with seamless transitions and unique assets. At the heart of this innovative platform is the ELDA token, which acts as both the studio’s native currency and a gateway to diverse, immersive gameplay inspired by classics like Warcraft, Dota, and Hearthstone. ELDA is revolutionizing the gaming landscape by unlocking endless possibilities within Eldarune's interconnected worlds.",
+    "tags": ["GAMEFI"]
+  },
+  {
     "index": 1083,
     "chainId": 56,
     "contractAddress": {
@@ -1007,7 +1164,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -1227,7 +1386,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -1333,7 +1494,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -1384,7 +1547,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -1446,7 +1611,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -1500,7 +1667,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -1553,7 +1722,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -1607,7 +1778,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -1712,7 +1885,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -1765,7 +1940,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -1877,7 +2054,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
       "active": true
     },
     "earnToken": {
@@ -1931,7 +2110,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -2035,7 +2216,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -2097,7 +2280,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -2273,7 +2458,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -2326,7 +2513,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -2434,7 +2623,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -2486,7 +2677,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -2539,7 +2732,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -2601,7 +2796,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -2654,7 +2851,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -2765,7 +2964,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -2886,7 +3087,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -2999,7 +3202,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -3110,7 +3315,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -3162,7 +3369,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -3214,7 +3423,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
       "active": true
     },
     "earnToken": {
@@ -4170,7 +4381,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -4270,7 +4483,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -4332,7 +4547,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -4394,7 +4611,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -4567,7 +4786,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -4728,7 +4949,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -4840,7 +5063,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -5010,7 +5235,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -5120,7 +5347,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -5282,7 +5511,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -5334,7 +5565,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -5503,7 +5736,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -5554,7 +5789,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -5721,7 +5958,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -5825,7 +6064,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -5879,7 +6120,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -5989,7 +6232,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -6041,7 +6286,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -6094,7 +6341,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -6205,7 +6454,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -6313,7 +6564,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -6544,7 +6797,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -7634,7 +7889,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -7827,7 +8084,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
       "active": true
     },
     "billNnftAddress": {
@@ -8071,7 +8330,9 @@
       "decimals": {
         "56": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
       "active": true
     },
     "billNnftAddress": {
@@ -10694,6 +10955,61 @@
     "soldOut": true
   },
   {
+    "index": 160,
+    "cmcId": 30232,
+    "chainId": 137,
+    "contractAddress": {
+      "137": "0xc74922dFeAb39abb02Ef9d0bC53642161553b474"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDT-VDA",
+      "address": {
+        "137": "0xe3a2F6b642cBB29F7D5A82afa83a48b9c4E79244"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "Algebra"
+      },
+      "active": true,
+      "lpToken": true,
+      "ichiUnderlyingDex": "QuickSwap"
+    },
+    "earnToken": {
+      "symbol": "VDA",
+      "address": {
+        "137": "0x683565196C3EAb450003C964D4bad1fd3068D4cC"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "Algebra"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
+    },
+    "inactive": false,
+    "projectLink": "https://www.verida.network/",
+    "twitter": "https://x.com/Verida_io",
+    "audit": "https://community.verida.network/verida-network/security-audits",
+    "initTime": {
+      "137": 1723642568
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "shortDescription": "Verida is a layer zero private self-sovereign database DePIN with confidential compute for AI applications. Verida’s Private Data Bridge enables user data to be unlocked from centralized platforms and used or a new generation of personal AI applications. Verida’s Self-Sovereign Compute Network enables a user’s personal, encrypted data to be integrated with leading AI models, with end-to-end privacy, safeguarding personal data from model owners, and unlocking a new era of hyper-personal and safe AI experiences powered by the VDA utility token.",
+    "fullDescription": "Verida is a groundbreaking layer zero private self-sovereign database DePIN, specifically designed to offer confidential compute for advanced AI applications. With Verida’s innovative Private Data Bridge, user data can be seamlessly unlocked from centralized platforms, empowering a new generation of personal AI applications that are more intuitive and personalized. Verida’s Self-Sovereign Compute Network takes privacy to the next level by enabling a user’s personal, encrypted data to be securely integrated with leading AI models. This ensures end-to-end privacy, effectively safeguarding personal data from unauthorized access by model owners. By doing so, Verida is pioneering a new era of hyper-personalized and safe AI experiences, all powered by the VDA utility token. This infrastructure not only redefines how AI interacts with personal data but also paves the way for more secure, user-controlled digital ecosystems in the rapidly evolving world of decentralized technology.",
+    "tags": ["AI"]
+  },
+  {
     "index": 159,
     "cmcId": 29603,
     "chainId": 137,
@@ -10710,7 +11026,9 @@
       "decimals": {
         "137": 6
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -10763,7 +11081,9 @@
       "decimals": {
         "137": 6
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -10875,7 +11195,9 @@
       "decimals": {
         "137": 6
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -10991,7 +11313,9 @@
       "decimals": {
         "137": 6
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -11154,7 +11478,9 @@
       "decimals": {
         "137": 6
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -11209,7 +11535,9 @@
       "decimals": {
         "137": 6
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -11378,7 +11706,9 @@
       "decimals": {
         "137": 6
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -11660,7 +11990,9 @@
       "decimals": {
         "137": 6
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -11891,7 +12223,9 @@
       "decimals": {
         "137": 6
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -12165,7 +12499,9 @@
       "decimals": {
         "137": 6
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -12226,7 +12562,9 @@
       "decimals": {
         "137": 6
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -12394,7 +12732,9 @@
       "decimals": {
         "137": 6
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -12672,7 +13012,9 @@
       "decimals": {
         "137": 6
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -12779,7 +13121,9 @@
       "decimals": {
         "137": 6
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -12832,7 +13176,9 @@
       "decimals": {
         "137": 6
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -13057,7 +13403,9 @@
       "decimals": {
         "137": 6
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -13109,7 +13457,9 @@
       "decimals": {
         "137": 6
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -13559,7 +13909,9 @@
       "decimals": {
         "137": 6
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
       "active": true
     },
     "billNnftAddress": {
@@ -13759,7 +14111,9 @@
       "decimals": {
         "137": 6
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
       "active": true
     },
     "billNnftAddress": {
@@ -14609,6 +14963,164 @@
     "soldOut": true
   },
   {
+    "index": 2010,
+    "chainId": 42161,
+    "contractAddress": {
+      "42161": "0xFf37beA9d7B547c67bd7eec8b8A4F341Ff8a266c"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "ETH-BONSAI",
+      "address": {
+        "42161": "0xe4C994f55cAC42830cC6016D18f07744cEd0aa5D"
+      },
+      "decimals": {
+        "42161": 18
+      },
+      "liquidityDex": {
+        "42161": "Camelotv2"
+      },
+      "active": true,
+      "lpToken": true,
+      "getLpUrl": {
+        "42161": "https://app.camelot.exchange/liquidity?type=v2&position=lp"
+      }
+    },
+    "earnToken": {
+      "symbol": "BONSAI",
+      "address": {
+        "42161": "0x79EaD7a012D97eD8DeEcE279f9bC39e264d7Eef9"
+      },
+      "decimals": {
+        "42161": 18
+      },
+      "liquidityDex": {
+        "42161": "Camelotv2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "42161": "0xAC707999D05C4048844B78c737D9512DFDff524d"
+    },
+    "inactive": false,
+    "projectLink": "https://x.com/Bonsai_DAO",
+    "twitter": "https://www.bonsaidao.xyz/",
+    "initTime": {
+      "42161": 1723814011
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["DEX"],
+    "shortDescription": "Bonsai DAO is a Web3 Venture Studio focused on creating and launching innovative DeFi products, known as Leaves. Unlike traditional models, Bonsai DAO develops new ventures, ensuring long-term success and sustainability. Each Leaf operates independently with its own market and business model but is designed to synergize within the ecosystem. As they mature, they become fully operational DAOs with their own tokens and revenue structures.",
+    "fullDescription": "Bonsai DAO is a Web3 Venture Studio dedicated to the creation, development, and launch of innovative DeFi products, referred to as Leaves. Unlike traditional models that focus on investing in existing projects, Bonsai DAO actively develops new ventures, ensuring they bring innovative value and are built for long-term success and sustainability. These Leaves operate independently, each with its own market and business model, yet are designed to create synergies within the broader ecosystem. As they mature, these products evolve into fully operational DAOs with their own tokens and revenue structures. This interconnected approach fosters a robust and adaptable DeFi environment, where the collective strength of the ecosystem ensures resilience and continued growth, even if individual products face challenges."
+  },
+  {
+    "index": 2009,
+    "cmcId": 24203,
+    "chainId": 42161,
+    "contractAddress": {
+      "42161": "0xFFcdD3724F785Ce14b283F271C29990b59B18158"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "ETH",
+      "address": {
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+      },
+      "decimals": {
+        "42161": 18
+      },
+      "liquidityDex": {},
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "SDEX",
+      "address": {
+        "42161": "0xabD587f2607542723b17f14d00d99b987C29b074"
+      },
+      "decimals": {
+        "42161": 18
+      },
+      "liquidityDex": {
+        "42161": "UniswapV3"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "42161": "0xAC707999D05C4048844B78c737D9512DFDff524d"
+    },
+    "inactive": false,
+    "projectLink": "https://smardex.io/home",
+    "twitter": "https://x.com/SmarDex",
+    "initTime": {
+      "42161": 1723548893
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["DEX"],
+    "shortDescription": "SmarDex is a pioneering DeFi platform for liquidity providers and traders, offering a sophisticated algorithm that turns impermanent loss into impermanent gain. Users can start trading via the app, enjoying smart returns and top market opportunities. This next-gen platform delivers lower fees, better profits, and full decentralization, providing reliable ROIs and unmatched value. Join SmarDex today to experience the future of DeFi with better profits and a fully decentralized system.",
+    "fullDescription": "SmarDex is a pioneering DeFi platform that is leading innovation for liquidity providers and traders who want to stay ahead of the game. By launching the app, users can immediately start trading and benefit from SmarDex's sophisticated, fine-tuned algorithm, which uniquely transforms impermanent loss into impermanent gain. Addressing one of the most persistent issues in DeFi, SmarDex allows liquidity providers to earn smart returns while offering users access to the best opportunities in the market. This groundbreaking technology is revolutionizing the DeFi space, delivering lower fees, better profits, and full decentralization. SmarDex stands out as the true next-generation DeFi platform, providing reliable ROIs and delivering real value through unmatched innovations. For liquidity providers, it offers a unique and effective solution to impermanent loss, a feat no other platform has successfully achieved until now. As an innovative, reputable, and dynamic platform, SmarDex invites users to join today and experience the future of DeFi with better profits and a fully decentralized system. Welcome to the next generation of DeFi with SmarDex."
+  },
+  {
+    "index": 2008,
+    "chainId": 42161,
+    "contractAddress": {
+      "42161": "0xac65F692E6F9c7A53bc3EE8904Eda4982BD8ad07"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "WETH-LDY",
+      "address": {
+        "42161": "0xDf7606bE4fF2E6662C4345AC0372215e9E894b13"
+      },
+      "decimals": {
+        "42161": 18
+      },
+      "liquidityDex": {
+        "42161": "UniswapV3"
+      },
+      "ichiUnderlyingDex": "Uniswap V3",
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "LDY",
+      "address": {
+        "42161": "0x999FAF0AF2fF109938eeFE6A7BF91CA56f0D07e1"
+      },
+      "decimals": {
+        "42161": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "42161": "UniswapV3"
+      }
+    },
+    "billNnftAddress": {
+      "42161": "0xAC707999D05C4048844B78c737D9512DFDff524d"
+    },
+    "inactive": false,
+    "projectLink": "https://ledgity.finance/",
+    "twitter": "https://twitter.com/LedgityYield",
+    "initTime": {
+      "42161": 1723548893
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["RWA", "DeFi"],
+    "shortDescription": "Ledgity Yield is a stablecoin yield protocol bridging DeFi and TradFi with real yield backed by real-world assets (RWA). It offers institutional-grade treasury management with stable yields secured by RWA collateral. With robust infrastructure, compliance, and a blend of decentralized and centralized management, Ledgity Yield leads as a transparent, accessible wealth management platform in the web3 era.",
+    "fullDescription": "Ledgity Yield is a cutting-edge stablecoin yield protocol that bridges the gap between DeFi and TradFi by providing real yield backed by real-world assets (RWA). This platform offers stablecoin holders an institutional-grade treasury management solution with stable yields secured by RWA collateral. Ledgity Yield's infrastructure is built for long-term resilience, featuring bank-grade custody with segregated accounts, strict compliance with financial regulators, and a blend of decentralized components with centralized fund management. As a leading wealth management platform in the web3 era, Ledgity Yield upholds transparency, accessibility, and compliance. The $LDY token powers the entire Ledgity ecosystem, including the Ledgity Yield protocol."
+  },
+  {
     "index": 2007,
     "cmcId": 21118,
     "chainId": 42161,
@@ -14625,7 +15137,9 @@
       "decimals": {
         "42161": 6
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "42161": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -14679,7 +15193,9 @@
       "decimals": {
         "42161": 6
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "42161": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -14731,7 +15247,9 @@
       "decimals": {
         "42161": 6
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "42161": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -14834,7 +15352,9 @@
       "decimals": {
         "42161": 6
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "42161": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -15188,7 +15708,9 @@
       "decimals": {
         "1": 6
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -15624,7 +16146,9 @@
       "decimals": {
         "1": 6
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -15899,7 +16423,9 @@
       "decimals": {
         "1": 6
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -15926,7 +16452,7 @@
     },
     "soldOut": false,
     "billArt": {
-      "collection": "ETH_Collection1"
+      "collection": "GPT_Collection1"
     },
     "tags": ["AI"],
     "shortDescription": "GPT Protocol is a pioneering platform leading the merger of artificial intelligence (AI) with blockchain technology, revolutionizing AI development by ensuring it is accessible, innovative, and censorship-resistant. It harnesses open-source AI tools and decentralized networks, bringing together a global community of developers to create, share, and deploy AI applications on the blockchain. $GPT tokens create an AI economy that incentivizes consumers, developers, and compute providers, serving multiple roles within the network, from rewarding miners to compensating data providers.",
@@ -15949,7 +16475,9 @@
       "decimals": {
         "1": 6
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {

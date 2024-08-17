@@ -69,6 +69,9 @@ export enum LiquidityDex {
 
   //IOTA
   MagicSea = 'MagicSea',
+
+  //ARBITRUM
+  CamelotV2 = 'Camelotv2',
 }
 
 export enum IchiSupportedDex {
@@ -169,6 +172,7 @@ export enum BillArtCollection {
   ETH_Collection1 = 'ETH_Collection1',
   inEVM_Collection1 = 'inEVM_Collection1',
   AITECH_Collection1 = 'AITECH_Collection1',
+  GPT_Collection1 = 'GPT_Collection1',
 }
 
 export const defaultBillArtCollection = BillArtCollection.ApeSwap_Collection1
@@ -544,6 +548,11 @@ export const dexFactories: Partial<
       factory: '0x9C2ABD632771b433E5E7507BcaA41cA3b25D8544', //Zyberswap
       protocol: Protocols.Algebra,
     },
+    [LiquidityDex.CamelotV2]: {
+      factory: '0x6EcCab422D763aC031210895C81787E87B43A652',
+      protocol: Protocols.V2,
+      router: '0xc873fEcbd354f5A56E00E710B90EF4201db2448d',
+    },
   },
   [ChainId.LINEA]: {
     [LiquidityDex.Spartadex]: {
@@ -699,5 +708,8 @@ export const dexToZapMapping: Record<LiquidityDex, Partial<Record<ChainId, ZapVe
   [LiquidityDex.SmarDex]: {},
   [LiquidityDex.MagicSea]: {
     [ChainId.IOTA]: ZapVersion.External,
+  },
+  [LiquidityDex.CamelotV2]: {
+    [ChainId.ARBITRUM]: ZapVersion.SoulZapApi,
   },
 }

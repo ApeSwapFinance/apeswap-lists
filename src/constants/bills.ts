@@ -1,10 +1,10 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1083
-// Polygon Largest ID: 159
+// BNB Largest ID: 1085
+// Polygon Largest ID: 160
 // Telos Largest ID: 215
-// Arbitrum Largest ID: 2007
+// Arbitrum Largest ID: 2010
 // ETH Largest ID: 3016
 // Linea Largest ID: 6006
 // Base Largest ID: 8007
@@ -526,6 +526,73 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1086,
+    cmcId: 15563,
+    chainId: ChainId.BSC,
+    contractAddress: { [ChainId.BSC]: '0x809e28e55799193c9749113DaCe501246e891049' },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdt,
+    earnToken: tokens.copi,
+    billNnftAddress: { [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9' },
+    inactive: false,
+    projectLink: 'https://www.cornucopias.io/',
+    twitter: 'https://twitter.com/CornucopiasGame',
+    audit: 'https://hacken.io/audits/cornucopias/',
+    initTime: { [ChainId.BSC]: 1723469314 },
+    soldOut: false,
+    billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+    shortDescription:
+      'Cornucopias is a blockchain-powered game built on Unreal Engine 5, set to revolutionize the MMO gaming landscape. It stands out with player-owned assets, complex game loops, and a vast universe for limitless exploration. Players can farm, mine, trade, or combat threats to survive in this life above the clouds. In Cornucopias, the sky is no longer the limit—live your life any way you desire.',
+    fullDescription:
+      'Welcome to Cornucopias: a new MMO where you have the freedom to live any life you desire. In an alternate universe, humanity has been forced to the sky to survive. Massive sections of the earth’s surface, encapsulated by protective domes, have been suspended in the atmosphere. Each more unique than the last, precisely how to take advantage of these truly vast worlds is entirely up to you. Spend your days exploring, farming the rich soil, mining for valuable ore, or trading goods and services, and even combating the myriad threats to your survival. Here in Cornucopias, the sky is no longer the limit.',
+    tags: ['GAMEFI'],
+  },
+  {
+    index: 1085,
+    cmcId: 15563,
+    chainId: ChainId.BSC,
+    contractAddress: { [ChainId.BSC]: '0x1643535ABbECe810BDFFa7D9F3C7924f1940AFC9' },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdt,
+    earnToken: tokens.copi,
+    billNnftAddress: { [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9' },
+    inactive: false,
+    projectLink: 'https://www.cornucopias.io/',
+    twitter: 'https://twitter.com/CornucopiasGame',
+    audit: 'https://hacken.io/audits/cornucopias/',
+    initTime: { [ChainId.BSC]: 1723469314 },
+    soldOut: false,
+    billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+    shortDescription:
+      'Cornucopias is a blockchain-powered game built on Unreal Engine 5, set to revolutionize the MMO gaming landscape. It stands out with player-owned assets, complex game loops, and a vast universe for limitless exploration. Players can farm, mine, trade, or combat threats to survive in this life above the clouds. In Cornucopias, the sky is no longer the limit—live your life any way you desire.',
+    fullDescription:
+      'Welcome to Cornucopias: a new MMO where you have the freedom to live any life you desire. In an alternate universe, humanity has been forced to the sky to survive. Massive sections of the earth’s surface, encapsulated by protective domes, have been suspended in the atmosphere. Each more unique than the last, precisely how to take advantage of these truly vast worlds is entirely up to you. Spend your days exploring, farming the rich soil, mining for valuable ore, or trading goods and services, and even combating the myriad threats to your survival. Here in Cornucopias, the sky is no longer the limit.',
+    tags: ['GAMEFI'],
+  },
+  {
+    index: 1084,
+    chainId: ChainId.BSC,
+    contractAddress: { [ChainId.BSC]: '0x2E2b7bE57BDEAAa4c2E0eb6aee34CD12b2f94fC8' },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdt,
+    earnToken: tokens.elda,
+    billNnftAddress: { [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9' },
+    inactive: false,
+    projectLink: 'https://www.eldarune.com/',
+    twitter: 'https://x.com/PlayEldarune',
+    initTime: { [ChainId.BSC]: 1723037484 },
+    soldOut: false,
+    billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+    shortDescription:
+      "Eldarune is a game studio creating interoperable, medieval-themed blockchain games where NFTs can be used across multiple titles. The ELDA token serves as the studio's native currency and unlocks diverse gaming experiences. Inspired by classics like Warcraft and Dota, Eldarune is transforming the gaming landscape by offering seamless, interconnected gameplay across its ecosystem.",
+    fullDescription:
+      "Eldarune is a pioneering game studio specializing in interoperable, medieval-themed blockchain games. Players can use their NFTs across different titles within the Eldarune ecosystem, enhancing the gaming experience with seamless transitions and unique assets. At the heart of this innovative platform is the ELDA token, which acts as both the studio’s native currency and a gateway to diverse, immersive gameplay inspired by classics like Warcraft, Dota, and Hearthstone. ELDA is revolutionizing the gaming landscape by unlocking endless possibilities within Eldarune's interconnected worlds.",
+    tags: ['GAMEFI'],
+  },
   {
     index: 1083,
     chainId: ChainId.BSC,
@@ -5221,6 +5288,34 @@ const bills: BillsConfig[] = [
     Polygon Bills
   */
   {
+    index: 160,
+    cmcId: 30232,
+    chainId: ChainId.MATIC,
+    contractAddress: {
+      [ChainId.MATIC]: '0xc74922dFeAb39abb02Ef9d0bC53642161553b474',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdtVda_Ichi,
+    earnToken: tokens.vda,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://www.verida.network/',
+    twitter: 'https://x.com/Verida_io',
+    audit: 'https://community.verida.network/verida-network/security-audits',
+    initTime: { [ChainId.MATIC]: 1723642568 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    shortDescription:
+      'Verida is a layer zero private self-sovereign database DePIN with confidential compute for AI applications. Verida’s Private Data Bridge enables user data to be unlocked from centralized platforms and used or a new generation of personal AI applications. Verida’s Self-Sovereign Compute Network enables a user’s personal, encrypted data to be integrated with leading AI models, with end-to-end privacy, safeguarding personal data from model owners, and unlocking a new era of hyper-personal and safe AI experiences powered by the VDA utility token.',
+    fullDescription: `Verida is a groundbreaking layer zero private self-sovereign database DePIN, specifically designed to offer confidential compute for advanced AI applications. With Verida’s innovative Private Data Bridge, user data can be seamlessly unlocked from centralized platforms, empowering a new generation of personal AI applications that are more intuitive and personalized. Verida’s Self-Sovereign Compute Network takes privacy to the next level by enabling a user’s personal, encrypted data to be securely integrated with leading AI models. This ensures end-to-end privacy, effectively safeguarding personal data from unauthorized access by model owners. By doing so, Verida is pioneering a new era of hyper-personalized and safe AI experiences, all powered by the VDA utility token. This infrastructure not only redefines how AI interacts with personal data but also paves the way for more secure, user-controlled digital ecosystems in the rapidly evolving world of decentralized technology.`,
+    tags: ['AI'],
+  },
+  {
     index: 159,
     cmcId: 29603,
     chainId: ChainId.MATIC,
@@ -7188,6 +7283,82 @@ const bills: BillsConfig[] = [
       Arbitrum Bills - ID started from 2001
   */
   {
+    index: 2010,
+    chainId: ChainId.ARBITRUM,
+    contractAddress: {
+      [ChainId.ARBITRUM]: '0xFf37beA9d7B547c67bd7eec8b8A4F341Ff8a266c',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.ethBonsai_Camelot,
+    earnToken: tokens.bonsai,
+    billNnftAddress: {
+      [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
+    },
+    inactive: false,
+    projectLink: 'https://x.com/Bonsai_DAO',
+    twitter: 'https://www.bonsaidao.xyz/',
+    initTime: { [ChainId.ARBITRUM]: 1723814011 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DEX'],
+    shortDescription: `Bonsai DAO is a Web3 Venture Studio focused on creating and launching innovative DeFi products, known as Leaves. Unlike traditional models, Bonsai DAO develops new ventures, ensuring long-term success and sustainability. Each Leaf operates independently with its own market and business model but is designed to synergize within the ecosystem. As they mature, they become fully operational DAOs with their own tokens and revenue structures.`,
+    fullDescription: `Bonsai DAO is a Web3 Venture Studio dedicated to the creation, development, and launch of innovative DeFi products, referred to as Leaves. Unlike traditional models that focus on investing in existing projects, Bonsai DAO actively develops new ventures, ensuring they bring innovative value and are built for long-term success and sustainability. These Leaves operate independently, each with its own market and business model, yet are designed to create synergies within the broader ecosystem. As they mature, these products evolve into fully operational DAOs with their own tokens and revenue structures. This interconnected approach fosters a robust and adaptable DeFi environment, where the collective strength of the ecosystem ensures resilience and continued growth, even if individual products face challenges.`,
+  },
+  {
+    index: 2009,
+    cmcId: 24203,
+    chainId: ChainId.ARBITRUM,
+    contractAddress: {
+      [ChainId.ARBITRUM]: '0xFFcdD3724F785Ce14b283F271C29990b59B18158',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.eth,
+    earnToken: tokens.sdex,
+    billNnftAddress: {
+      [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
+    },
+    inactive: false,
+    projectLink: 'https://smardex.io/home',
+    twitter: 'https://x.com/SmarDex',
+    initTime: { [ChainId.ARBITRUM]: 1723548893 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DEX'],
+    shortDescription: `SmarDex is a pioneering DeFi platform for liquidity providers and traders, offering a sophisticated algorithm that turns impermanent loss into impermanent gain. Users can start trading via the app, enjoying smart returns and top market opportunities. This next-gen platform delivers lower fees, better profits, and full decentralization, providing reliable ROIs and unmatched value. Join SmarDex today to experience the future of DeFi with better profits and a fully decentralized system.`,
+    fullDescription: `SmarDex is a pioneering DeFi platform that is leading innovation for liquidity providers and traders who want to stay ahead of the game. By launching the app, users can immediately start trading and benefit from SmarDex's sophisticated, fine-tuned algorithm, which uniquely transforms impermanent loss into impermanent gain. Addressing one of the most persistent issues in DeFi, SmarDex allows liquidity providers to earn smart returns while offering users access to the best opportunities in the market. This groundbreaking technology is revolutionizing the DeFi space, delivering lower fees, better profits, and full decentralization. SmarDex stands out as the true next-generation DeFi platform, providing reliable ROIs and delivering real value through unmatched innovations. For liquidity providers, it offers a unique and effective solution to impermanent loss, a feat no other platform has successfully achieved until now. As an innovative, reputable, and dynamic platform, SmarDex invites users to join today and experience the future of DeFi with better profits and a fully decentralized system. Welcome to the next generation of DeFi with SmarDex.`,
+  },
+  {
+    index: 2008,
+    chainId: ChainId.ARBITRUM,
+    contractAddress: {
+      [ChainId.ARBITRUM]: '0xac65F692E6F9c7A53bc3EE8904Eda4982BD8ad07',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.wethLdy_Ichi,
+    earnToken: tokens.ldy,
+    billNnftAddress: {
+      [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
+    },
+    inactive: false,
+    projectLink: 'https://ledgity.finance/',
+    twitter: 'https://twitter.com/LedgityYield',
+    initTime: { [ChainId.ARBITRUM]: 1723548893 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['RWA', 'DeFi'],
+    shortDescription: `Ledgity Yield is a stablecoin yield protocol bridging DeFi and TradFi with real yield backed by real-world assets (RWA). It offers institutional-grade treasury management with stable yields secured by RWA collateral. With robust infrastructure, compliance, and a blend of decentralized and centralized management, Ledgity Yield leads as a transparent, accessible wealth management platform in the web3 era.`,
+    fullDescription: `Ledgity Yield is a cutting-edge stablecoin yield protocol that bridges the gap between DeFi and TradFi by providing real yield backed by real-world assets (RWA). This platform offers stablecoin holders an institutional-grade treasury management solution with stable yields secured by RWA collateral. Ledgity Yield's infrastructure is built for long-term resilience, featuring bank-grade custody with segregated accounts, strict compliance with financial regulators, and a blend of decentralized components with centralized fund management. As a leading wealth management platform in the web3 era, Ledgity Yield upholds transparency, accessibility, and compliance. The $LDY token powers the entire Ledgity ecosystem, including the Ledgity Yield protocol.`,
+  },
+  {
     index: 2007,
     cmcId: 21118,
     chainId: ChainId.ARBITRUM,
@@ -7884,7 +8055,7 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.MAINNET]: 1722265086 },
     soldOut: false,
     billArt: {
-      collection: BillArtCollection.ETH_Collection1,
+      collection: BillArtCollection.GPT_Collection1,
     },
     tags: ['AI'],
     shortDescription:
