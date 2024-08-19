@@ -23034,6 +23034,94 @@
     "soldOut": true
   },
   {
+    "index": 161,
+    "cmcId": 24789,
+    "chainId": 137,
+    "contractAddress": {
+      "137": "0xCe1DDA6A06b0E9f7778846fe6AfaBD673D6B25a3"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "token": {
+      "symbol": "MATIC",
+      "address": {
+        "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
+        "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+        "59144": "0x265B25e22bcd7f10a5bD6E6410F10537Cc7567e8"
+      },
+      "decimals": {
+        "56": 18,
+        "137": 18,
+        "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Algebra"
+      },
+      "active": true
+    },
+    "quoteToken": {
+      "symbol": "RUM",
+      "address": {
+        "137": "0x14E5386f47466A463f85D151653E1736c0c50Fc3"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
+      "active": true
+    },
+    "lpToken": {
+      "symbol": "MATIC-RUM",
+      "address": {
+        "137": "0xA98397d5568724948E9A24B3B0e58B7114C0fE4E"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
+      "active": true,
+      "lpToken": true,
+      "ichiUnderlyingDex": "Uniswap V3",
+      "getLpUrl": {
+        "137": "https://app.ichi.org/vault/token/0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270/"
+      }
+    },
+    "earnToken": {
+      "symbol": "RUM",
+      "address": {
+        "137": "0x14E5386f47466A463f85D151653E1736c0c50Fc3"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
+    },
+    "inactive": false,
+    "projectLink": "https://arrland.com/",
+    "twitter": "https://x.com/ArrlandGame",
+    "audit": "https://github.com/solidproof/projects/tree/main/2024/Pirates%20of%20the%20Arrland",
+    "initTime": {
+      "137": 1724062299
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "shortDescription": "Pirates of the Arrland is a decentralized MMO strategy game set in a pirate world, where players' decisions shape a global, player-driven economy. Using blockchain technology, it ensures transparency and digital ownership. Players can captain crews, expand islands, and influence power dynamics. The $RUM token is key to the game, used for in-game services and crafting NFTs, making it integral to the Arrland ecosystem.",
+    "fullDescription": "Pirates of the Arrland is a groundbreaking MMO strategy game that immerses players in the pirate world, offering the freedom to make impactful decisions that shape a player-driven global economy. Utilizing blockchain technology, the game ensures transparency, security, and immutable digital ownership. Players can take on roles as crew captains, expand islands, gather resources, form alliances, or plunder ships, with each action influencing the economy and power dynamics within the Arrland Archipelago. The game features a variety of interconnected gameplay modes, all centered around a marketplace on a key trading island. The passionate team behind Pirates of the Arrland combines expertise in gaming, blockchain, 3D graphics, community building, and VR systems to deliver unique gaming experiences. The $RUM token, a deflationary utility token, is integral to the ecosystem, enabling the purchase of in-game services and the crafting and merging of NFTs.",
+    "tags": ["GAMEFI"]
+  },
+  {
     "index": 160,
     "cmcId": 30232,
     "chainId": 137,

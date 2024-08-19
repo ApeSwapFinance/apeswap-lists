@@ -1445,6 +1445,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  rum: {
+    symbol: 'RUM',
+    address: {
+      [ChainId.MATIC]: '0x14E5386f47466A463f85D151653E1736c0c50Fc3',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.UniswapV3,
+    },
+    active: true,
+  },
   fbx: {
     symbol: 'FBX',
     address: {
@@ -5312,6 +5325,24 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
     ichiUnderlyingDex: IchiSupportedDex.Quickswap,
+  },
+  maticRum_Ichi: {
+    symbol: 'MATIC-RUM',
+    address: {
+      [ChainId.MATIC]: '0xA98397d5568724948E9A24B3B0e58B7114C0fE4E',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.UniswapV3,
+    },
+    active: true,
+    lpToken: true,
+    ichiUnderlyingDex: IchiSupportedDex.UniswapV3,
+    getLpUrl: {
+      [ChainId.MATIC]: 'https://app.ichi.org/vault/token/0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270/',
+    },
   },
   maticEth_Qs: {
     symbol: 'MATIC-ETH',
