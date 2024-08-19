@@ -522,6 +522,26 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  arb: {
+    symbol: 'ARB',
+    address: {
+      [ChainId.ARBITRUM]: '0x912CE59144191C1204E64559FE8253a0e49E6548',
+    },
+    decimals: {
+      [ChainId.ARBITRUM]: 18,
+    },
+    active: true,
+  },
+  fdusd: {
+    symbol: 'FDUSD',
+    address: {
+      [ChainId.BSC]: '0xc5f0f7b66764F6ec8C8Dff7BA683102295E16409',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+  },
   busd: {
     symbol: 'BUSD',
     address: {
@@ -576,6 +596,8 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC_TESTNET]: '0x6ce8dA28E2f864420840cF74474eFf5fD80E65B8',
       [ChainId.TLOS]: '0xf390830DF829cf22c53c8840554B98eafC5dCBc2',
       [ChainId.LINEA]: '0x3aAB2285ddcDdaD8edf438C1bAB47e1a9D05a9b4',
+      [ChainId.ARBITRUM]: '0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f',
+      [ChainId.BASE]: '0x0c41F1FC9022FEB69aF6dc666aBfE73C9FFDA7ce',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -583,6 +605,8 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: 18,
       [ChainId.TLOS]: 8,
       [ChainId.LINEA]: 8,
+      [ChainId.ARBITRUM]: 8,
+      [ChainId.BASE]: 18,
     },
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
@@ -1557,6 +1581,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MAINNET]: '0x6B175474E89094C44Da98b954EedeAC495271d0F',
       [ChainId.LINEA]: '0x4AF15ec2A0BD43Db75dd04E62FAA3B8EF36b00d5',
       [ChainId.BASE]: '0x50c5725949a6f0c72e6c4a641f24049a917db0cb',
+      [ChainId.ARBITRUM]: '0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -1564,6 +1589,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MAINNET]: 18,
       [ChainId.LINEA]: 18,
       [ChainId.BASE]: 18,
+      [ChainId.ARBITRUM]: 18,
     },
     liquidityDex: {
       [ChainId.MAINNET]: LiquidityDex.UniswapV3,

@@ -25,8 +25,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.iota,
-    quoteToken: tokens.audit,
     lpToken: tokens.iotaAudit_MagicSea,
     earnToken: tokens.audit,
     billNnftAddress: {
@@ -54,8 +52,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.iota,
-    quoteToken: tokens.iota,
     lpToken: tokens.iota,
     earnToken: tokens.rust,
     billNnftAddress: {
@@ -81,8 +77,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.iota,
-    quoteToken: tokens.fomo,
     lpToken: tokens.iotaFomo_MagicSea,
     earnToken: tokens.fomo,
     billNnftAddress: {
@@ -115,8 +109,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.skya,
     billNnftAddress: {
@@ -143,8 +135,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.eth,
-    quoteToken: tokens.eth,
     lpToken: tokens.eth,
     earnToken: tokens.soph,
     billNnftAddress: {
@@ -174,8 +164,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.eth,
-    quoteToken: tokens.soph,
     lpToken: tokens.sophEth_Aedrome,
     earnToken: tokens.soph,
     billNnftAddress: {
@@ -204,8 +192,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.usdc,
-    quoteToken: tokens.mafia,
     lpToken: tokens.mafiaUsdc_UNI,
     earnToken: tokens.mafia,
     billNnftAddress: {
@@ -235,8 +221,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.eth,
-    quoteToken: tokens.eth,
     lpToken: tokens.eth,
     earnToken: tokens.sdex,
     billNnftAddress: {
@@ -265,8 +249,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.eth,
-    quoteToken: tokens.eth,
     lpToken: tokens.eth,
     earnToken: tokens.tkn,
     billNnftAddress: {
@@ -296,8 +278,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.eth,
-    quoteToken: tokens.eth,
     lpToken: tokens.eth,
     earnToken: tokens.subf,
     billNnftAddress: {
@@ -326,8 +306,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.eth,
-    quoteToken: tokens.soph,
     lpToken: tokens.sophEth_Aedrome,
     earnToken: tokens.soph,
     billNnftAddress: {
@@ -358,8 +336,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdc,
-    quoteToken: tokens.usdc,
     lpToken: tokens.usdc,
     earnToken: tokens.ll,
     billNnftAddress: {
@@ -392,8 +368,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.eth,
-    quoteToken: tokens.eth,
     lpToken: tokens.eth,
     earnToken: tokens.nile,
     billNnftAddress: {
@@ -421,8 +395,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdc,
-    quoteToken: tokens.usdc,
     lpToken: tokens.usdc,
     earnToken: tokens.xfit,
     billNnftAddress: {
@@ -450,8 +422,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdc,
-    quoteToken: tokens.usdc,
     lpToken: tokens.usdc,
     earnToken: tokens.nile,
     billNnftAddress: {
@@ -479,8 +449,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.eth,
-    quoteToken: tokens.eth,
     lpToken: tokens.eth,
     earnToken: tokens.lvc,
     billNnftAddress: {
@@ -508,8 +476,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.eth,
-    quoteToken: tokens.lynx,
     lpToken: tokens.ethLynx_Ichi,
     earnToken: tokens.lynx,
     billNnftAddress: {
@@ -538,8 +504,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.eth,
-    quoteToken: tokens.eth,
     lpToken: tokens.eth,
     earnToken: tokens.mvx,
     billNnftAddress: {
@@ -569,8 +533,6 @@ const bills: BillsConfig[] = [
     contractAddress: { [ChainId.BSC]: '0x809e28e55799193c9749113DaCe501246e891049' },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.copi,
     billNnftAddress: { [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9' },
@@ -594,8 +556,6 @@ const bills: BillsConfig[] = [
     contractAddress: { [ChainId.BSC]: '0x1643535ABbECe810BDFFa7D9F3C7924f1940AFC9' },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.copi,
     billNnftAddress: { [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9' },
@@ -618,8 +578,6 @@ const bills: BillsConfig[] = [
     contractAddress: { [ChainId.BSC]: '0x2E2b7bE57BDEAAa4c2E0eb6aee34CD12b2f94fC8' },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.elda,
     billNnftAddress: { [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9' },
@@ -641,8 +599,6 @@ const bills: BillsConfig[] = [
     contractAddress: { [ChainId.BSC]: '0x19e064AeF086CF772c21E15dB9B0686E205779Cb' },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.clash,
     billNnftAddress: { [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9' },
@@ -665,8 +621,6 @@ const bills: BillsConfig[] = [
     contractAddress: { [ChainId.BSC]: '0x390092aE3FEF90CD87b59A557de250b0e9d60CCB' },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.gtai,
     lpToken: tokens.gtaiUsdt_PCS,
     earnToken: tokens.gtai,
     billNnftAddress: { [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9' },
@@ -692,8 +646,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.ait,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.aitBnb_PCS,
     earnToken: tokens.ait,
     billNnftAddress: {
@@ -722,8 +674,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.bethustlers,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.bethustlersBnb_PCS,
     earnToken: tokens.bethustlers,
     billNnftAddress: {
@@ -752,8 +702,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.cgpt,
     billNnftAddress: {
@@ -780,8 +728,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.hbr,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.hbrBnb_Thena,
     earnToken: tokens.hbr,
     billNnftAddress: {
@@ -809,8 +755,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.hbr,
     billNnftAddress: {
@@ -839,8 +783,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.abond,
     billNnftAddress: {
@@ -879,8 +821,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.sqr,
     billNnftAddress: {
@@ -911,8 +851,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.rtf,
     billNnftAddress: {
@@ -942,8 +880,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.retro,
     billNnftAddress: {
@@ -975,8 +911,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.froyo,
     billNnftAddress: {
@@ -1006,8 +940,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.wbnb,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.wbnb,
     earnToken: tokens.scpt,
     billNnftAddress: {
@@ -1038,8 +970,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.kicks,
     billNnftAddress: {
@@ -1068,8 +998,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.blaze,
     billNnftAddress: {
@@ -1099,8 +1027,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.usdc,
-    quoteToken: tokens.ichi,
     lpToken: tokens.usdcIchi_Ichi,
     earnToken: tokens.wbnbIchi_Ichi,
     billNnftAddress: {
@@ -1130,8 +1056,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdc,
-    quoteToken: tokens.usdc,
     lpToken: tokens.usdc,
     earnToken: tokens.wnk,
     billNnftAddress: {
@@ -1161,8 +1085,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.chapz,
     billNnftAddress: {
@@ -1191,8 +1113,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.wbnb,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.wbnb,
     earnToken: tokens.sdex,
     billNnftAddress: {
@@ -1220,8 +1140,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.abond,
     billNnftAddress: {
@@ -1260,8 +1178,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.abond,
     billNnftAddress: {
@@ -1298,8 +1214,6 @@ const bills: BillsConfig[] = [
     contractAddress: { [ChainId.BSC]: '0x56D8785161efbE407829fB659918d404883708e2' },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.gtai,
     lpToken: tokens.gtaiUsdt_PCS,
     earnToken: tokens.gtai,
     billNnftAddress: { [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9' },
@@ -1326,8 +1240,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.wbnb,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.wbnb,
     earnToken: tokens.ejs,
     billNnftAddress: {
@@ -1358,8 +1270,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.cgpt,
     billNnftAddress: {
@@ -1387,8 +1297,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.froyo,
     billNnftAddress: {
@@ -1415,8 +1323,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.aitech,
-    quoteToken: tokens.usdt,
     lpToken: tokens.aitechUsdt_PCS,
     earnToken: tokens.aitech,
     billNnftAddress: {
@@ -1444,8 +1350,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.aitech,
     billNnftAddress: {
@@ -1473,8 +1377,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.aitech,
     billNnftAddress: {
@@ -1503,8 +1405,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.abond,
     billNnftAddress: {
@@ -1543,8 +1443,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.wam,
     billNnftAddress: {
@@ -1573,8 +1471,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.tifi,
     billNnftAddress: {
@@ -1603,8 +1499,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.carat,
     lpToken: tokens.caratUsdt_PCS,
     earnToken: tokens.carat,
     billNnftAddress: {
@@ -1632,8 +1526,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.abond,
     billNnftAddress: {
@@ -1672,8 +1564,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.ait,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.aitBnb_PCS,
     earnToken: tokens.ait,
     billNnftAddress: {
@@ -1703,8 +1593,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.aitech,
     billNnftAddress: {
@@ -1733,8 +1621,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.scrl,
     lpToken: tokens.scrlUsdt_PCS,
     earnToken: tokens.scrl,
     billNnftAddress: {
@@ -1764,8 +1650,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.evo,
     billNnftAddress: {
@@ -1794,8 +1678,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.mmt,
     lpToken: tokens.mmtUsdt_PCS,
     earnToken: tokens.mmt,
     billNnftAddress: {
@@ -1823,8 +1705,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.rpg,
     billNnftAddress: {
@@ -1852,8 +1732,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.via,
     billNnftAddress: {
@@ -1881,8 +1759,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdc,
-    quoteToken: tokens.usdc,
     lpToken: tokens.usdc,
     earnToken: tokens.wnk,
     billNnftAddress: {
@@ -1912,8 +1788,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.carat,
     lpToken: tokens.caratUsdt_PCS,
     earnToken: tokens.carat,
     billNnftAddress: {
@@ -1940,8 +1814,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'migration',
     billVersion: BillVersion.FixedPrice,
-    token: tokens.banana,
-    quoteToken: tokens.banana,
     lpToken: tokens.banana,
     earnToken: tokens.abond,
     billNnftAddress: {
@@ -1968,8 +1840,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'migration',
     billVersion: BillVersion.FixedPrice,
-    token: tokens.banana,
-    quoteToken: tokens.banana,
     lpToken: tokens.banana,
     earnToken: tokens.abond,
     billNnftAddress: {
@@ -1996,8 +1866,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'migration',
     billVersion: BillVersion.FixedPrice,
-    token: tokens.banana,
-    quoteToken: tokens.banana,
     lpToken: tokens.banana,
     earnToken: tokens.abond,
     billNnftAddress: {
@@ -2024,8 +1892,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'migration',
     billVersion: BillVersion.FixedPrice,
-    token: tokens.banana,
-    quoteToken: tokens.banana,
     lpToken: tokens.banana,
     earnToken: tokens.abond,
     billNnftAddress: {
@@ -2052,8 +1918,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'migration',
     billVersion: BillVersion.FixedPrice,
-    token: tokens.gnana,
-    quoteToken: tokens.gnana,
     lpToken: tokens.gnana,
     earnToken: tokens.abond,
     billNnftAddress: {
@@ -2080,8 +1944,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'migration',
     billVersion: BillVersion.FixedPrice,
-    token: tokens.gnana,
-    quoteToken: tokens.gnana,
     lpToken: tokens.gnana,
     earnToken: tokens.abond,
     billNnftAddress: {
@@ -2108,8 +1970,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'migration',
     billVersion: BillVersion.FixedPrice,
-    token: tokens.gnana,
-    quoteToken: tokens.gnana,
     lpToken: tokens.gnana,
     earnToken: tokens.abond,
     billNnftAddress: {
@@ -2136,8 +1996,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'migration',
     billVersion: BillVersion.FixedPrice,
-    token: tokens.gnana,
-    quoteToken: tokens.gnana,
     lpToken: tokens.gnana,
     earnToken: tokens.abond,
     billNnftAddress: {
@@ -2164,8 +2022,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.banana,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.bananaBnb,
     earnToken: tokens.banana,
     billNnftAddress: {
@@ -2190,8 +2046,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.busd,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.bnbBusd,
     earnToken: tokens.banana,
     billNnftAddress: {
@@ -2213,8 +2067,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.busd,
-    quoteToken: tokens.usdc,
     lpToken: tokens.usdcBusd,
     earnToken: tokens.banana,
     billNnftAddress: {
@@ -2236,8 +2088,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.eth,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.bnbEth,
     earnToken: tokens.banana,
     billNnftAddress: {
@@ -2259,8 +2109,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.btc,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.bnbBtc,
     earnToken: tokens.banana,
     billNnftAddress: {
@@ -2282,8 +2130,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.busd,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.bnbBusd,
     earnToken: tokens.banana,
     billNnftAddress: {
@@ -2308,8 +2154,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.busd,
-    quoteToken: tokens.usdc,
     lpToken: tokens.usdcBusd,
     earnToken: tokens.banana,
     billNnftAddress: {
@@ -2334,8 +2178,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.eth,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.bnbEth,
     earnToken: tokens.banana,
     billNnftAddress: {
@@ -2360,8 +2202,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.btc,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.bnbBtc,
     earnToken: tokens.banana,
     billNnftAddress: {
@@ -2386,8 +2226,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.acf,
     billNnftAddress: {
@@ -2412,8 +2250,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.FixedPrice,
-    token: tokens.acf,
-    quoteToken: tokens.acf,
     lpToken: tokens.acf,
     earnToken: tokens.abond,
     billNnftAddress: {
@@ -2440,8 +2276,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.abond,
     billNnftAddress: {
@@ -2480,8 +2314,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.abond,
     billNnftAddress: {
@@ -2520,8 +2352,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.abond,
     billNnftAddress: {
@@ -2559,8 +2389,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.wbnb,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.wbnb,
     earnToken: tokens.arcas,
     billNnftAddress: {
@@ -2589,8 +2417,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.f3,
     lpToken: tokens.f3Usdt_PCS,
     earnToken: tokens.f3,
     billNnftAddress: {
@@ -2618,8 +2444,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.cgpt,
     billNnftAddress: {
@@ -2648,8 +2472,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.wbnb,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.wbnb,
     earnToken: tokens.forward,
     billNnftAddress: {
@@ -2680,8 +2502,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.wbnb,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.wbnb,
     earnToken: tokens.nfe,
     billNnftAddress: {
@@ -2711,8 +2531,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.fav,
     billNnftAddress: {
@@ -2741,8 +2559,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.gtai,
     lpToken: tokens.gtaiUsdt_PCS,
     earnToken: tokens.gtai,
     billNnftAddress: {
@@ -2772,8 +2588,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.gq,
     billNnftAddress: {
@@ -2801,8 +2615,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.chapz,
     lpToken: tokens.chapzUsdt_PCS,
     earnToken: tokens.chapz,
     billNnftAddress: {
@@ -2832,8 +2644,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.wnk,
-    quoteToken: tokens.usdc,
     lpToken: tokens.wnkUsdc_PCS,
     earnToken: tokens.wnk,
     billNnftAddress: {
@@ -2862,8 +2672,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.grape,
     billNnftAddress: {
@@ -2891,8 +2699,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.monsta,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.monstaBnb_PCS,
     earnToken: tokens.monsta,
     billNnftAddress: {
@@ -2920,8 +2726,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.cdx,
     billNnftAddress: {
@@ -2949,8 +2753,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.wbnb,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.wbnb,
     earnToken: tokens.xox,
     billNnftAddress: {
@@ -2978,8 +2780,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.dcb,
     lpToken: tokens.dcbUsdt_PCS,
     earnToken: tokens.dcb,
     billNnftAddress: {
@@ -3008,8 +2808,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.cdx,
     billNnftAddress: {
@@ -3037,8 +2835,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.fav,
     billNnftAddress: {
@@ -3067,8 +2863,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.chapz,
     lpToken: tokens.chapzUsdt_PCS,
     earnToken: tokens.chapz,
     billNnftAddress: {
@@ -3097,8 +2891,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.monsta,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.monstaBnb_PCS,
     earnToken: tokens.monsta,
     billNnftAddress: {
@@ -3126,8 +2918,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.cakebot,
     billNnftAddress: {
@@ -3154,8 +2944,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.grape,
     billNnftAddress: {
@@ -3183,8 +2971,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.tifi,
-    quoteToken: tokens.usdt,
     lpToken: tokens.tifiUsdt_PCS,
     earnToken: tokens.tifi,
     billNnftAddress: {
@@ -3212,8 +2998,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.hntr,
-    quoteToken: tokens.usdt,
     lpToken: tokens.hntrUsdt_PCS,
     earnToken: tokens.hntr,
     billNnftAddress: {
@@ -3240,8 +3024,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.rpg,
     billNnftAddress: {
@@ -3269,8 +3051,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.wbnb,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.wbnb,
     earnToken: tokens.arcas,
     billNnftAddress: {
@@ -3298,8 +3078,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.aitech,
     billNnftAddress: {
@@ -3328,8 +3106,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.cgpt,
     billNnftAddress: {
@@ -3357,8 +3133,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.xcredi,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.xcrediBnb,
     earnToken: tokens.xcredi,
     billNnftAddress: {
@@ -3386,8 +3160,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.hgpt,
     billNnftAddress: {
@@ -3415,8 +3187,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.aitech,
     billNnftAddress: {
@@ -3444,8 +3214,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.rpg,
     billNnftAddress: {
@@ -3474,8 +3242,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.chapz,
     lpToken: tokens.chapzUsdt_PCS,
     earnToken: tokens.chapz,
     billNnftAddress: {
@@ -3504,8 +3270,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.aitech,
     billNnftAddress: {
@@ -3530,8 +3294,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.arcas,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.arcasBnb_PCS,
     earnToken: tokens.arcas,
     billNnftAddress: {
@@ -3558,8 +3320,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.hgpt,
     billNnftAddress: {
@@ -3586,8 +3346,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.lgc,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.lgcBnb,
     earnToken: tokens.lgc,
     billNnftAddress: {
@@ -3609,8 +3367,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.palm,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.palmBnb_PCS,
     earnToken: tokens.palm,
     billNnftAddress: {
@@ -3633,8 +3389,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.cgpt,
-    quoteToken: tokens.busd,
     lpToken: tokens.cgptBusd_PCS,
     earnToken: tokens.cgpt,
     billNnftAddress: {
@@ -3671,8 +3425,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.lgc,
     billNnftAddress: {
@@ -3694,8 +3446,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.gymnet,
-    quoteToken: tokens.busd,
     lpToken: tokens.gymnetBusd_PCS,
     earnToken: tokens.gymnet,
     billNnftAddress: {
@@ -3717,8 +3467,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.apex,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.apexBnb_PCS,
     earnToken: tokens.apex,
     billNnftAddress: {
@@ -3740,8 +3488,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.mfps,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.mfpsBnb_PCS,
     earnToken: tokens.mfps,
     billNnftAddress: {
@@ -3763,8 +3509,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.aitech,
-    quoteToken: tokens.busd,
     lpToken: tokens.aitechBusd_PCS,
     earnToken: tokens.aitech,
     billNnftAddress: {
@@ -3801,8 +3545,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.dck,
-    quoteToken: tokens.busd,
     lpToken: tokens.dckBusd_PCS,
     earnToken: tokens.dck,
     billNnftAddress: {
@@ -3824,8 +3566,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.cgv,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.cgvBnb_PCS,
     earnToken: tokens.cgv,
     billNnftAddress: {
@@ -3850,8 +3590,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.plt,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.pltBnb_PCS,
     earnToken: tokens.plt,
     billNnftAddress: {
@@ -3874,8 +3612,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.busd,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.bnbBusd,
     earnToken: tokens.banana,
     billNnftAddress: {
@@ -3900,8 +3636,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.busd,
-    quoteToken: tokens.usdc,
     lpToken: tokens.usdcBusd,
     earnToken: tokens.banana,
     billNnftAddress: {
@@ -3926,8 +3660,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.eth,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.bnbEth,
     earnToken: tokens.banana,
     billNnftAddress: {
@@ -3952,8 +3684,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.btc,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.bnbBtc,
     earnToken: tokens.banana,
     billNnftAddress: {
@@ -3978,8 +3708,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.brg,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.brgBnb_PCS,
     earnToken: tokens.brg,
     billNnftAddress: {
@@ -4002,8 +3730,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.cgpt,
-    quoteToken: tokens.busd,
     lpToken: tokens.cgptBusd_PCS,
     earnToken: tokens.cgpt,
     billNnftAddress: {
@@ -4027,8 +3753,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.furfi,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.furfiBnb,
     earnToken: tokens.furfi,
     billNnftAddress: {
@@ -4050,8 +3774,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.gq,
-    quoteToken: tokens.busd,
     lpToken: tokens.gqBusd,
     earnToken: tokens.gq,
     billNnftAddress: {
@@ -4072,8 +3794,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.froyo,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.froyoBnb,
     earnToken: tokens.froyo,
     billNnftAddress: {
@@ -4099,8 +3819,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.cgpt,
-    quoteToken: tokens.busd,
     lpToken: tokens.cgptBusd,
     earnToken: tokens.cgpt,
     billNnftAddress: {
@@ -4124,8 +3842,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.nfai,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.nfaiBnb,
     earnToken: tokens.nfbi,
     billNnftAddress: {
@@ -4148,8 +3864,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.lgc,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.lgcBnb,
     earnToken: tokens.lgc,
     billNnftAddress: {
@@ -4171,8 +3885,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.noot,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.nootBnb,
     earnToken: tokens.noot,
     billNnftAddress: {
@@ -4194,8 +3906,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.kkc,
     billNnftAddress: {
@@ -4216,8 +3926,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.kkc,
-    quoteToken: tokens.usdt,
     lpToken: tokens.kkcUsdt,
     earnToken: tokens.kkc,
     billNnftAddress: {
@@ -4238,8 +3946,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.rock,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.rockBnb,
     earnToken: tokens.rock,
     billNnftAddress: {
@@ -4261,8 +3967,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.avg,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.avgBnb,
     earnToken: tokens.avg,
     billNnftAddress: {
@@ -4284,8 +3988,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.cgg,
-    quoteToken: tokens.usdc,
     lpToken: tokens.cggUsdc,
     earnToken: tokens.usdc,
     billNnftAddress: {
@@ -4308,8 +4010,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.froyo,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.froyoBnb,
     earnToken: tokens.froyo,
     billNnftAddress: {
@@ -4332,8 +4032,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.ubxs,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.ubxsBnb,
     earnToken: tokens.ubxs,
     billNnftAddress: {
@@ -4355,8 +4053,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.monsta,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.monstaBnb,
     earnToken: tokens.monsta,
     billNnftAddress: {
@@ -4378,8 +4074,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.credi,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.crediBnb,
     earnToken: tokens.credi,
     billNnftAddress: {
@@ -4401,8 +4095,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.cgg,
-    quoteToken: tokens.usdc,
     lpToken: tokens.cggUsdc,
     earnToken: tokens.usdc,
     billNnftAddress: {
@@ -4425,8 +4117,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.lgc,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.lgcBnb,
     earnToken: tokens.lgc,
     billNnftAddress: {
@@ -4448,8 +4138,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.oath,
-    quoteToken: tokens.usdc,
     lpToken: tokens.oathUsdc,
     earnToken: tokens.oath,
     billNnftAddress: {
@@ -4471,8 +4159,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.toko,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.tokoBnb,
     earnToken: tokens.toko,
     billNnftAddress: {
@@ -4494,8 +4180,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.cvl,
-    quoteToken: tokens.usdt,
     lpToken: tokens.cvlUsdt,
     earnToken: tokens.cvl,
     billNnftAddress: {
@@ -4517,8 +4201,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.trivia,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.triviaBnb,
     earnToken: tokens.trivia,
     billNnftAddress: {
@@ -4540,8 +4222,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.xtal,
-    quoteToken: tokens.busd,
     lpToken: tokens.xtalBusd,
     earnToken: tokens.xtal,
     billNnftAddress: {
@@ -4563,8 +4243,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.wcflt,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.wcfltBnb,
     earnToken: tokens.wcflt,
     billNnftAddress: {
@@ -4587,8 +4265,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.avan,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.avanBnb,
     earnToken: tokens.avan,
     billNnftAddress: {
@@ -4610,8 +4286,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.liq,
-    quoteToken: tokens.busd,
     lpToken: tokens.liqBusd,
     earnToken: tokens.liq,
     billNnftAddress: {
@@ -4633,8 +4307,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.monsta,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.monstaBnb,
     earnToken: tokens.monsta,
     billNnftAddress: {
@@ -4656,8 +4328,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.radar,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.radarBnb,
     earnToken: tokens.radar,
     billNnftAddress: {
@@ -4679,8 +4349,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.busd,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.bnbBusd,
     earnToken: tokens.banana,
     billNnftAddress: {
@@ -4701,8 +4369,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.busd,
-    quoteToken: tokens.usdc,
     lpToken: tokens.usdcBusd,
     earnToken: tokens.banana,
     billNnftAddress: {
@@ -4723,8 +4389,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.eth,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.bnbEth,
     earnToken: tokens.banana,
     billNnftAddress: {
@@ -4745,8 +4409,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.btc,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.bnbBtc,
     earnToken: tokens.banana,
     billNnftAddress: {
@@ -4767,8 +4429,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.banana,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.bananaBnb,
     earnToken: tokens.banana,
     billNnftAddress: {
@@ -4789,8 +4449,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.ihc,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.ihcBnb,
     earnToken: tokens.ihc,
     billNnftAddress: {
@@ -4812,8 +4470,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.liq,
-    quoteToken: tokens.busd,
     lpToken: tokens.liqBusd,
     earnToken: tokens.liq,
     billNnftAddress: {
@@ -4834,8 +4490,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.pstn,
-    quoteToken: tokens.busd,
     lpToken: tokens.pstnBusd,
     earnToken: tokens.pstn,
     billNnftAddress: {
@@ -4856,8 +4510,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.gq,
-    quoteToken: tokens.busd,
     lpToken: tokens.gqBusd,
     earnToken: tokens.gq,
     billNnftAddress: {
@@ -4878,8 +4530,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.leap,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.leapBnb,
     earnToken: tokens.leap,
     billNnftAddress: {
@@ -4901,8 +4551,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.nfty,
-    quoteToken: tokens.busd,
     lpToken: tokens.nftyBusd,
     earnToken: tokens.nfty,
     billNnftAddress: {
@@ -4923,8 +4571,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.threeair,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.threeairBnb,
     earnToken: tokens.threeair,
     billNnftAddress: {
@@ -4946,8 +4592,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.coc,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.cocBnb,
     earnToken: tokens.coc,
     billNnftAddress: {
@@ -4968,8 +4612,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.chrp,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.chrpBnb,
     earnToken: tokens.chrp,
     billNnftAddress: {
@@ -4991,8 +4633,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.gmr,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.gmrBnb,
     earnToken: tokens.gmr,
     billNnftAddress: {
@@ -5014,8 +4654,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.xcur,
-    quoteToken: tokens.busd,
     lpToken: tokens.xcurBusd,
     earnToken: tokens.xcur,
     billNnftAddress: {
@@ -5036,8 +4674,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.gq,
-    quoteToken: tokens.busd,
     lpToken: tokens.gqBusd,
     earnToken: tokens.gq,
     billNnftAddress: {
@@ -5058,8 +4694,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.pstn,
-    quoteToken: tokens.busd,
     lpToken: tokens.pstnBusd,
     earnToken: tokens.pstn,
     billNnftAddress: {
@@ -5078,8 +4712,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.xwin,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.xwinBnb,
     earnToken: tokens.xwin,
     billNnftAddress: {
@@ -5100,8 +4732,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.froyo,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.froyoBnb,
     earnToken: tokens.froyo,
     billNnftAddress: {
@@ -5124,8 +4754,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.froyo,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.froyoBnb,
     earnToken: tokens.froyo,
     billNnftAddress: {
@@ -5146,8 +4774,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.blid,
-    quoteToken: tokens.usdt,
     lpToken: tokens.blidUsdt,
     earnToken: tokens.blid,
     billNnftAddress: {
@@ -5168,8 +4794,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.hec,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.hecBnb,
     earnToken: tokens.hec,
     billNnftAddress: {
@@ -5190,8 +4814,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.floki,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.flokiBnb,
     earnToken: tokens.floki,
     billNnftAddress: {
@@ -5212,8 +4834,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.radar,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.radarBnb,
     earnToken: tokens.radar,
     billNnftAddress: {
@@ -5232,8 +4852,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.ceek,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.ceekBnb,
     earnToken: tokens.ceek,
     billNnftAddress: {
@@ -5254,8 +4872,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.nfty,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.nftyBnb,
     earnToken: tokens.nfty,
     billNnftAddress: {
@@ -5274,8 +4890,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.tlos,
-    quoteToken: tokens.busd,
     lpToken: tokens.tlosBusd,
     earnToken: tokens.tlos,
     billNnftAddress: {
@@ -5294,8 +4908,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.stars,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.starsBnb,
     earnToken: tokens.stars,
     billNnftAddress: {
@@ -5316,8 +4928,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.hotcross,
-    quoteToken: tokens.busd,
     lpToken: tokens.hotcrossBusd,
     earnToken: tokens.hotcross,
     billNnftAddress: {
@@ -5338,8 +4948,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.hotcross,
-    quoteToken: tokens.busd,
     lpToken: tokens.hotcrossBusd,
     earnToken: tokens.hotcross,
     billNnftAddress: {
@@ -5360,8 +4968,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.tlos,
-    quoteToken: tokens.busd,
     lpToken: tokens.tlosBusd,
     earnToken: tokens.tlos,
     billNnftAddress: {
@@ -5383,8 +4989,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.banana,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.bananaBnb,
     earnToken: tokens.banana,
     billNnftAddress: {
@@ -5403,8 +5007,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.busd,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.bnbBusd,
     earnToken: tokens.banana,
     billNnftAddress: {
@@ -5423,8 +5025,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.busd,
-    quoteToken: tokens.usdc,
     lpToken: tokens.usdcBusd,
     earnToken: tokens.banana,
     billNnftAddress: {
@@ -5443,8 +5043,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.eth,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.bnbEth,
     earnToken: tokens.banana,
     billNnftAddress: {
@@ -5463,8 +5061,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.btc,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.bnbBtc,
     earnToken: tokens.banana,
     billNnftAddress: {
@@ -5483,8 +5079,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.banana,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.bananaBnb,
     earnToken: tokens.banana,
     billNnftAddress: {
@@ -5503,8 +5097,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.busd,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.bnbBusd,
     earnToken: tokens.banana,
     billNnftAddress: {
@@ -5523,8 +5115,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.busd,
-    quoteToken: tokens.usdc,
     lpToken: tokens.usdcBusd,
     earnToken: tokens.banana,
     billNnftAddress: {
@@ -5543,8 +5133,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.eth,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.bnbEth,
     earnToken: tokens.banana,
     billNnftAddress: {
@@ -5563,8 +5151,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.btc,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.bnbBtc,
     earnToken: tokens.banana,
     billNnftAddress: {
@@ -5583,8 +5169,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.banana,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.bananaBnb,
     earnToken: tokens.banana,
     billNnftAddress: {
@@ -5605,8 +5189,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.busd,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.bnbBusd,
     earnToken: tokens.banana,
     billNnftAddress: {
@@ -5627,8 +5209,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.busd,
-    quoteToken: tokens.usdc,
     lpToken: tokens.usdcBusd,
     earnToken: tokens.banana,
     billNnftAddress: {
@@ -5649,8 +5229,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.eth,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.bnbEth,
     earnToken: tokens.banana,
     billNnftAddress: {
@@ -5671,8 +5249,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.btc,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.bnbBtc,
     earnToken: tokens.banana,
     billNnftAddress: {
@@ -5693,8 +5269,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.froyo,
-    quoteToken: tokens.wbnb,
     lpToken: tokens.froyoBnb,
     earnToken: tokens.froyo,
     billNnftAddress: {
@@ -5722,8 +5296,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.wmatic,
-    quoteToken: tokens.rum,
     lpToken: tokens.maticRum_Ichi,
     earnToken: tokens.rum,
     billNnftAddress: {
@@ -5752,8 +5324,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.vda,
     lpToken: tokens.usdtVda_Ichi,
     earnToken: tokens.vda,
     billNnftAddress: {
@@ -5782,8 +5352,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.icnx,
     billNnftAddress: {
@@ -5812,8 +5380,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.dsrun,
     billNnftAddress: {
@@ -5843,8 +5409,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.wmatic,
-    quoteToken: tokens.dsrun,
     lpToken: tokens.maticDsrun_Ichi,
     earnToken: tokens.dsrun,
     billNnftAddress: {
@@ -5874,8 +5438,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.nsdx,
     billNnftAddress: {
@@ -5906,8 +5468,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.mv,
-    quoteToken: tokens.usdt,
     lpToken: tokens.mvUsdt_QS,
     earnToken: tokens.mv,
     billNnftAddress: {
@@ -5939,8 +5499,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.ixt,
     billNnftAddress: {
@@ -5969,8 +5527,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.ixt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.ixtUsdt_QS,
     earnToken: tokens.ixt,
     billNnftAddress: {
@@ -5999,8 +5555,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.wmatic,
-    quoteToken: tokens.wmatic,
     lpToken: tokens.wmatic,
     earnToken: tokens.thx,
     billNnftAddress: {
@@ -6032,8 +5586,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.cby,
     billNnftAddress: {
@@ -6066,8 +5618,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.ixt,
     billNnftAddress: {
@@ -6097,8 +5647,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.ixt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.ixtUsdt_QS,
     earnToken: tokens.ixt,
     billNnftAddress: {
@@ -6128,8 +5676,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.wmatic,
-    quoteToken: tokens.wmatic,
     lpToken: tokens.wmatic,
     earnToken: tokens.a51,
     billNnftAddress: {
@@ -6161,8 +5707,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.abond,
     billNnftAddress: {
@@ -6201,8 +5745,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.usdc2,
-    quoteToken: tokens.ambo,
     lpToken: tokens.usdcAmbo_Ichi,
     earnToken: tokens.ambo,
     billNnftAddress: {
@@ -6233,8 +5775,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.eth,
-    quoteToken: tokens.eth,
     lpToken: tokens.eth,
     earnToken: tokens.knight,
     billNnftAddress: {
@@ -6264,8 +5804,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.dai,
-    quoteToken: tokens.dai,
     lpToken: tokens.dai,
     earnToken: tokens.notes,
     billNnftAddress: {
@@ -6296,8 +5834,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.wmatic,
-    quoteToken: tokens.wmatic,
     lpToken: tokens.wmatic,
     earnToken: tokens.ecld,
     billNnftAddress: {
@@ -6328,8 +5864,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.nsdx,
     billNnftAddress: {
@@ -6360,8 +5894,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.ixt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.ixtUsdt_QS,
     earnToken: tokens.ixt,
     billNnftAddress: {
@@ -6391,8 +5923,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.usdc,
-    quoteToken: tokens.ubu,
     lpToken: tokens.ubuUsdc_QS,
     earnToken: tokens.ubu,
     billNnftAddress: {
@@ -6424,8 +5954,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.wmatic,
-    quoteToken: tokens.wmatic,
     lpToken: tokens.wmatic,
     earnToken: tokens.a51,
     billNnftAddress: {
@@ -6457,8 +5985,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.ixt,
     billNnftAddress: {
@@ -6487,8 +6013,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.wmatic,
-    quoteToken: tokens.wmatic,
     lpToken: tokens.wmatic,
     earnToken: tokens.bull,
     billNnftAddress: {
@@ -6517,8 +6041,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.mv,
-    quoteToken: tokens.usdt,
     lpToken: tokens.mvUsdt_QS,
     earnToken: tokens.mv,
     billNnftAddress: {
@@ -6549,8 +6071,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.wmatic,
-    quoteToken: tokens.wmatic,
     lpToken: tokens.wmatic,
     earnToken: tokens.thx,
     billNnftAddress: {
@@ -6580,8 +6100,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.wmatic,
-    quoteToken: tokens.wmatic,
     lpToken: tokens.wmatic,
     earnToken: tokens.nftbs,
     billNnftAddress: {
@@ -6611,8 +6129,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdc,
-    quoteToken: tokens.usdc,
     lpToken: tokens.usdc,
     earnToken: tokens.abond,
     billNnftAddress: {
@@ -6650,8 +6166,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.vext,
     billNnftAddress: {
@@ -6680,8 +6194,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.wmatic,
-    quoteToken: tokens.wmatic,
     lpToken: tokens.wmatic,
     earnToken: tokens.a51,
     billNnftAddress: {
@@ -6713,8 +6225,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.ixt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.ixtUsdt_QS,
     earnToken: tokens.ixt,
     billNnftAddress: {
@@ -6744,8 +6254,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.ixt,
     billNnftAddress: {
@@ -6775,8 +6283,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.mv,
-    quoteToken: tokens.usdt,
     lpToken: tokens.mvUsdt_QS,
     earnToken: tokens.mv,
     billNnftAddress: {
@@ -6807,8 +6313,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.wmatic,
-    quoteToken: tokens.wmatic,
     lpToken: tokens.wmatic,
     earnToken: tokens.bull,
     billNnftAddress: {
@@ -6836,8 +6340,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.fxa3a,
-    quoteToken: tokens.usdc,
     lpToken: tokens.fxa3aUsdc_QS,
     earnToken: tokens.fxa3a,
     billNnftAddress: {
@@ -6865,8 +6367,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.eth,
-    quoteToken: tokens.eth,
     lpToken: tokens.eth,
     earnToken: tokens.wefi,
     billNnftAddress: {
@@ -6896,8 +6396,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.ixt,
     billNnftAddress: {
@@ -6927,8 +6425,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.wmatic,
-    quoteToken: tokens.wmatic,
     lpToken: tokens.wmatic,
     earnToken: tokens.a51,
     billNnftAddress: {
@@ -6958,8 +6454,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.trc,
     billNnftAddress: {
@@ -6988,8 +6482,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.ixt,
     billNnftAddress: {
@@ -7019,8 +6511,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.ixt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.ixtUsdt_QS,
     earnToken: tokens.ixt,
     billNnftAddress: {
@@ -7049,8 +6539,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.eth,
-    quoteToken: tokens.eth,
     lpToken: tokens.eth,
     earnToken: tokens.fbx,
     billNnftAddress: {
@@ -7078,8 +6566,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.orbs,
-    quoteToken: tokens.usdc,
     lpToken: tokens.orbsUsdc_QS,
     earnToken: tokens.orbs,
     billNnftAddress: {
@@ -7108,8 +6594,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.vext,
     billNnftAddress: {
@@ -7137,8 +6621,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.duckies,
     billNnftAddress: {
@@ -7166,8 +6648,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.eth,
-    quoteToken: tokens.eth,
     lpToken: tokens.eth,
     earnToken: tokens.cone,
     billNnftAddress: {
@@ -7196,8 +6676,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.knight,
-    quoteToken: tokens.eth,
     lpToken: tokens.knightEth_QS,
     earnToken: tokens.knight,
     billNnftAddress: {
@@ -7227,8 +6705,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.bom,
-    quoteToken: tokens.usdc,
     lpToken: tokens.bomUsdc_QS,
     earnToken: tokens.bom,
     billNnftAddress: {
@@ -7257,8 +6733,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.blank,
-    quoteToken: tokens.usdc,
     lpToken: tokens.blankUsdc_QS,
     earnToken: tokens.blank,
     billNnftAddress: {
@@ -7286,8 +6760,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.dai,
-    quoteToken: tokens.dai,
     lpToken: tokens.dai,
     earnToken: tokens.elon,
     billNnftAddress: {
@@ -7313,8 +6785,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.mv,
-    quoteToken: tokens.usdt,
     lpToken: tokens.mvUsdt_QS,
     earnToken: tokens.mv,
     billNnftAddress: {
@@ -7345,8 +6815,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.wombat,
-    quoteToken: tokens.usdc,
     lpToken: tokens.wombatUsdc,
     earnToken: tokens.wombat,
     billNnftAddress: {
@@ -7368,8 +6836,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.cgg,
-    quoteToken: tokens.usdc,
     lpToken: tokens.cggUsdc,
     earnToken: tokens.usdc,
     billNnftAddress: {
@@ -7392,8 +6858,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.kom,
-    quoteToken: tokens.wmatic,
     lpToken: tokens.komMatic,
     earnToken: tokens.kom,
     billNnftAddress: {
@@ -7415,8 +6879,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.dogira,
-    quoteToken: tokens.wmatic,
     lpToken: tokens.dogiraMatic,
     earnToken: tokens.dogira,
     billNnftAddress: {
@@ -7438,8 +6900,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.leap,
-    quoteToken: tokens.wmatic,
     lpToken: tokens.leapMatic,
     earnToken: tokens.leap,
     billNnftAddress: {
@@ -7461,8 +6921,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.usdc,
-    quoteToken: tokens.cgg,
     lpToken: tokens.cggUsdc,
     earnToken: tokens.usdc,
     billNnftAddress: {
@@ -7485,8 +6943,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.axn,
-    quoteToken: tokens.usdc,
     lpToken: tokens.axnUsdc,
     earnToken: tokens.axn,
     billNnftAddress: {
@@ -7507,8 +6963,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.dogira,
-    quoteToken: tokens.wmatic,
     lpToken: tokens.dogiraMatic,
     earnToken: tokens.dogira,
     billNnftAddress: {
@@ -7527,8 +6981,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.traxx,
-    quoteToken: tokens.wmatic,
     lpToken: tokens.traxxMatic,
     earnToken: tokens.traxx,
     billNnftAddress: {
@@ -7549,8 +7001,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.dogira,
-    quoteToken: tokens.wmatic,
     lpToken: tokens.dogiraMatic,
     earnToken: tokens.dogira,
     billNnftAddress: {
@@ -7575,8 +7025,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.banana,
-    quoteToken: tokens.tlos,
     lpToken: tokens.bananaTlos,
     earnToken: tokens.tlos,
     billNnftAddress: {
@@ -7597,8 +7045,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.eth,
-    quoteToken: tokens.tlos,
     lpToken: tokens.ethTlos,
     earnToken: tokens.tlos,
     billNnftAddress: {
@@ -7619,8 +7065,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.btc,
-    quoteToken: tokens.tlos,
     lpToken: tokens.btcTlos,
     earnToken: tokens.tlos,
     billNnftAddress: {
@@ -7641,8 +7085,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.tlos,
     lpToken: tokens.usdtTlos,
     earnToken: tokens.tlos,
     billNnftAddress: {
@@ -7663,8 +7105,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.usdc,
-    quoteToken: tokens.tlos,
     lpToken: tokens.usdcTlos,
     earnToken: tokens.tlos,
     billNnftAddress: {
@@ -7685,8 +7125,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.banana,
-    quoteToken: tokens.tlos,
     lpToken: tokens.bananaTlos,
     earnToken: tokens.tlos,
     billNnftAddress: {
@@ -7707,8 +7145,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.eth,
-    quoteToken: tokens.tlos,
     lpToken: tokens.ethTlos,
     earnToken: tokens.tlos,
     billNnftAddress: {
@@ -7729,8 +7165,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.btc,
-    quoteToken: tokens.tlos,
     lpToken: tokens.btcTlos,
     earnToken: tokens.tlos,
     billNnftAddress: {
@@ -7751,8 +7185,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.usdt,
-    quoteToken: tokens.tlos,
     lpToken: tokens.usdtTlos,
     earnToken: tokens.tlos,
     billNnftAddress: {
@@ -7773,8 +7205,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.usdc,
-    quoteToken: tokens.tlos,
     lpToken: tokens.usdcTlos,
     earnToken: tokens.tlos,
     billNnftAddress: {
@@ -7795,8 +7225,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.banana,
-    quoteToken: tokens.tlos,
     lpToken: tokens.bananaTlos,
     earnToken: tokens.tlos,
     billNnftAddress: {
@@ -7815,8 +7243,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.eth,
-    quoteToken: tokens.tlos,
     lpToken: tokens.ethTlos,
     earnToken: tokens.tlos,
     billNnftAddress: {
@@ -7835,8 +7261,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.btc,
-    quoteToken: tokens.tlos,
     lpToken: tokens.btcTlos,
     earnToken: tokens.tlos,
     billNnftAddress: {
@@ -7855,8 +7279,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.usdt,
-    quoteToken: tokens.tlos,
     lpToken: tokens.usdtTlos,
     earnToken: tokens.tlos,
     billNnftAddress: {
@@ -7875,8 +7297,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    token: tokens.usdc,
-    quoteToken: tokens.tlos,
     lpToken: tokens.usdcTlos,
     earnToken: tokens.tlos,
     billNnftAddress: {
@@ -7898,8 +7318,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.eth,
-    quoteToken: tokens.bonsai,
     lpToken: tokens.ethBonsai_Camelot,
     earnToken: tokens.bonsai,
     billNnftAddress: {
@@ -7926,8 +7344,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.eth,
-    quoteToken: tokens.eth,
     lpToken: tokens.eth,
     earnToken: tokens.sdex,
     billNnftAddress: {
@@ -7953,8 +7369,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.wethLdy_Ichi,
-    quoteToken: tokens.wethLdy_Ichi,
     lpToken: tokens.wethLdy_Ichi,
     earnToken: tokens.ldy,
     billNnftAddress: {
@@ -7981,8 +7395,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.eno,
     billNnftAddress: {
@@ -8011,8 +7423,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.ctok,
     billNnftAddress: {
@@ -8040,8 +7450,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.ctok,
     billNnftAddress: {
@@ -8068,8 +7476,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.open,
-    quoteToken: tokens.eth,
     lpToken: tokens.openEth,
     earnToken: tokens.open,
     billNnftAddress: {
@@ -8094,8 +7500,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    token: tokens.usdt,
-    quoteToken: tokens.usdt,
     lpToken: tokens.usdt,
     earnToken: tokens.cruize,
     billNnftAddress: {
@@ -8117,8 +7521,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.open,
-    quoteToken: tokens.eth,
     lpToken: tokens.openEth,
     earnToken: tokens.open,
     billNnftAddress: {
@@ -8140,8 +7542,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    token: tokens.onyx,
-    quoteToken: tokens.eth,
     lpToken: tokens.onyxEth,
     earnToken: tokens.onyx,
     billNnftAddress: {
@@ -8166,8 +7566,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V3,
-    token: tokens.eth,
-    quoteToken: tokens.eth,
     lpToken: tokens.eth,
     earnToken: tokens.cgv,
     billNnftAddress: {
@@ -8196,8 +7594,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V3,
-    token: tokens.dai,
-    quoteToken: tokens.dai,
     lpToken: tokens.dai,
     earnToken: tokens.xixt,
     billNnftAddress: {
@@ -8226,8 +7622,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V3,
-    token: tokens.eth,
-    quoteToken: tokens.eth,
     lpToken: tokens.eth,
     earnToken: tokens.forward,
     billNnftAddress: {
@@ -8257,8 +7651,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V3,
-    token: tokens.eth,
-    quoteToken: tokens.eth,
     lpToken: tokens.eth,
     earnToken: tokens.gpt,
     billNnftAddress: {
@@ -8285,8 +7677,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V3,
-    token: tokens.usdc,
-    quoteToken: tokens.usdc,
     lpToken: tokens.usdc,
     earnToken: tokens.cirus,
     billNnftAddress: {
@@ -8315,8 +7705,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V3,
-    token: tokens.eth,
-    quoteToken: tokens.eth,
     lpToken: tokens.eth,
     earnToken: tokens.meth,
     billNnftAddress: {
@@ -8345,8 +7733,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V3,
-    token: tokens.eth,
-    quoteToken: tokens.eth,
     lpToken: tokens.eth,
     earnToken: tokens.strk,
     billNnftAddress: {
@@ -8373,8 +7759,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V3,
-    token: tokens.eth,
-    quoteToken: tokens.eth,
     lpToken: tokens.eth,
     earnToken: tokens.gptplus,
     billNnftAddress: {
@@ -8401,8 +7785,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V3,
-    token: tokens.eth,
-    quoteToken: tokens.eth,
     lpToken: tokens.eth,
     earnToken: tokens.chrp,
     billNnftAddress: {
@@ -8430,8 +7812,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V3,
-    token: tokens.eth,
-    quoteToken: tokens.eth,
     lpToken: tokens.eth,
     earnToken: tokens.abond,
     billNnftAddress: {
@@ -8470,8 +7850,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V3,
-    token: tokens.eth,
-    quoteToken: tokens.eth,
     lpToken: tokens.eth,
     earnToken: tokens.pumlx,
     billNnftAddress: {
@@ -8502,8 +7880,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V3,
-    token: tokens.eth,
-    quoteToken: tokens.eth,
     lpToken: tokens.eth,
     earnToken: tokens.abond,
     billNnftAddress: {
@@ -8541,8 +7917,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V3,
-    token: tokens.usdc,
-    quoteToken: tokens.usdc,
     lpToken: tokens.usdc,
     earnToken: tokens.orbs,
     billNnftAddress: {
@@ -8571,8 +7945,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V3,
-    token: tokens.eth,
-    quoteToken: tokens.eth,
     lpToken: tokens.eth,
     earnToken: tokens.munity,
     billNnftAddress: {
@@ -8603,8 +7975,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V3,
-    token: tokens.eth,
-    quoteToken: tokens.eth,
     lpToken: tokens.eth,
     earnToken: tokens.abond,
     billNnftAddress: {
@@ -8643,8 +8013,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V3,
-    token: tokens.eth,
-    quoteToken: tokens.eth,
     lpToken: tokens.eth,
     earnToken: tokens.knine,
     billNnftAddress: {
@@ -8675,8 +8043,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V3,
-    token: tokens.eth,
-    quoteToken: tokens.eth,
     lpToken: tokens.eth,
     earnToken: tokens.alva,
     billNnftAddress: {
@@ -8706,8 +8072,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V3,
-    token: tokens.usdc,
-    quoteToken: tokens.usdc,
     lpToken: tokens.usdc,
     earnToken: tokens.gpt,
     billNnftAddress: {
@@ -8736,8 +8100,6 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V3,
-    token: tokens.usdc,
-    quoteToken: tokens.usdc,
     lpToken: tokens.usdc,
     earnToken: tokens.gpt,
     billNnftAddress: {

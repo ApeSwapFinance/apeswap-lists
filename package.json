@@ -1,22 +1,21 @@
 {
   "name": "@ape.swap/apeswap-lists",
-  "version": "2.69.15",
-  "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
+  "version": "3.1.0",
   "publishConfig": {
     "access": "public"
   },
+  "main": "lib/types/index.js",
+  "types": "lib/types/index.d.ts",
   "files": [
-    "dist"
+    "lib/types"
   ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ApeSwapFinance/apeswap-lists.git"
   },
   "license": "MIT",
-  "module": "dist/apeswap-lists.esm.js",
   "scripts": {
-    "build": "tsdx build && yarn legacy-build",
+    "build": "tsdx build && yarn legacy-build && rimraf ./lib && tsc --target es5 --module commonjs && yarn run format:write",
     "start": "tsdx watch",
     "prepublishOnly": "yarn build",
     "prepare": "husky install",
@@ -25,7 +24,7 @@
     "format:check": "prettier --check \"**/*.{js,jsx,ts,tsx,json}\"",
     "format:check:staged": "pretty-quick --staged --check",
     "format:write": "prettier --write \"**/*.{js,jsx,ts,tsx,json}\"",
-    "legacy-build": "rimraf ./config && mkdir config && run-func dist/apeswap-lists.cjs.development.js buildLegacyConfig && yarn run format:write"
+    "legacy-build": "rimraf ./config && mkdir config && run-func dist/apeswap-lists.cjs.development.js buildLegacyConfig"
   },
   "dependencies": {
     "bignumber.js": "^9.0.2",
