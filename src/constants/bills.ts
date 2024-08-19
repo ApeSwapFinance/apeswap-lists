@@ -2,7 +2,7 @@ import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingTerms } from '../types'
 
 // BNB Largest ID: 1085
-// Polygon Largest ID: 160
+// Polygon Largest ID: 161
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2010
 // ETH Largest ID: 3016
@@ -5713,6 +5713,36 @@ const bills: BillsConfig[] = [
   /*
     Polygon Bills
   */
+  {
+    index: 161,
+    cmcId: 24789,
+    chainId: ChainId.MATIC,
+    contractAddress: {
+      [ChainId.MATIC]: '0xCe1DDA6A06b0E9f7778846fe6AfaBD673D6B25a3',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    token: tokens.wmatic,
+    quoteToken: tokens.rum,
+    lpToken: tokens.maticRum_Ichi,
+    earnToken: tokens.rum,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://arrland.com/',
+    twitter: 'https://x.com/ArrlandGame',
+    audit: 'https://github.com/solidproof/projects/tree/main/2024/Pirates%20of%20the%20Arrland',
+    initTime: { [ChainId.MATIC]: 1724062299 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    shortDescription:
+      "Pirates of the Arrland is a decentralized MMO strategy game set in a pirate world, where players' decisions shape a global, player-driven economy. Using blockchain technology, it ensures transparency and digital ownership. Players can captain crews, expand islands, and influence power dynamics. The $RUM token is key to the game, used for in-game services and crafting NFTs, making it integral to the Arrland ecosystem.",
+    fullDescription: `Pirates of the Arrland is a groundbreaking MMO strategy game that immerses players in the pirate world, offering the freedom to make impactful decisions that shape a player-driven global economy. Utilizing blockchain technology, the game ensures transparency, security, and immutable digital ownership. Players can take on roles as crew captains, expand islands, gather resources, form alliances, or plunder ships, with each action influencing the economy and power dynamics within the Arrland Archipelago. The game features a variety of interconnected gameplay modes, all centered around a marketplace on a key trading island. The passionate team behind Pirates of the Arrland combines expertise in gaming, blockchain, 3D graphics, community building, and VR systems to deliver unique gaming experiences. The $RUM token, a deflationary utility token, is integral to the ecosystem, enabling the purchase of in-game services and the crafting and merging of NFTs.`,
+    tags: ['GAMEFI'],
+  },
   {
     index: 160,
     cmcId: 30232,
