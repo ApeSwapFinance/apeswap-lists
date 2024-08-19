@@ -23085,7 +23085,10 @@
       },
       "active": true,
       "lpToken": true,
-      "ichiUnderlyingDex": "Uniswap V3"
+      "ichiUnderlyingDex": "Uniswap V3",
+      "getLpUrl": {
+        "137": "https://app.ichi.org/vault/token/0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270/"
+      }
     },
     "earnToken": {
       "symbol": "RUM",

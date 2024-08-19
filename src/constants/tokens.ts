@@ -5340,6 +5340,9 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
     ichiUnderlyingDex: IchiSupportedDex.UniswapV3,
+    getLpUrl: {
+      [ChainId.MATIC]: 'https://app.ichi.org/vault/token/0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270/',
+    },
   },
   maticEth_Qs: {
     symbol: 'MATIC-ETH',
