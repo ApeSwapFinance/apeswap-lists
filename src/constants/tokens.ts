@@ -364,6 +364,19 @@ const tokens: Record<string, Token> = {
       [ChainId.LINEA]: LiquidityDex.Metavault,
     },
   },
+  croak: {
+    symbol: 'CROAK',
+    address: {
+      [ChainId.LINEA]: '0xaCb54d07cA167934F57F829BeE2cC665e1A5ebEF',
+    },
+    decimals: {
+      [ChainId.LINEA]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.LINEA]: LiquidityDex.Lynex,
+    },
+  },
   abcarv: {
     symbol: 'CARV',
     address: {
