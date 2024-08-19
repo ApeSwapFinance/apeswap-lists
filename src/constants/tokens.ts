@@ -1445,6 +1445,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  rum: {
+    symbol: 'RUM',
+    address: {
+      [ChainId.MATIC]: '0x14E5386f47466A463f85D151653E1736c0c50Fc3',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.UniswapV3,
+    },
+    active: true,
+  },
   fbx: {
     symbol: 'FBX',
     address: {
@@ -5302,6 +5315,21 @@ const tokens: Record<string, Token> = {
     symbol: 'USDT-VDA',
     address: {
       [ChainId.MATIC]: '0xe3a2F6b642cBB29F7D5A82afa83a48b9c4E79244',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.Algebra,
+    },
+    active: true,
+    lpToken: true,
+    ichiUnderlyingDex: IchiSupportedDex.Quickswap,
+  },
+  maticRum_Ichi: {
+    symbol: 'MATIC-RUM',
+    address: {
+      [ChainId.MATIC]: '0xA98397d5568724948E9A24B3B0e58B7114C0fE4E',
     },
     decimals: {
       [ChainId.MATIC]: 18,
