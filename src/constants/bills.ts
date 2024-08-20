@@ -174,7 +174,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/sophiaverse_ai',
     initTime: { [ChainId.BASE]: 1716217474 },
     initPrice: { [ChainId.BASE]: 0.005450086440702347 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
