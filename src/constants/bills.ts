@@ -376,7 +376,6 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://efrogs.mirror.xyz/',
     twitter: 'https://x.com/efrogs_on_linea',
-    audit: 'https://docs.thenile.exchange/security-and-legal-considerations/inherited-security',
     initTime: { [ChainId.LINEA]: 1724152998 },
     soldOut: false,
     billArt: {
