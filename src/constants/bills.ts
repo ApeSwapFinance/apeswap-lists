@@ -1,12 +1,12 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1085
+// BNB Largest ID: 1087
 // Polygon Largest ID: 161
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2010
 // ETH Largest ID: 3016
-// Linea Largest ID: 6006
+// Linea Largest ID: 6007
 // Base Largest ID: 8007
 // Lightlink Largest ID: 7000
 // IOTA largest ID: 9002
@@ -361,6 +361,31 @@ const bills: BillsConfig[] = [
   //
   // LINEA
   {
+    index: 6007,
+    chainId: ChainId.LINEA,
+    contractAddress: {
+      [ChainId.LINEA]: '0x849b1E0bcBe6ac74A0c8A0450Cf2e80AF1902e41',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.eth,
+    earnToken: tokens.croak,
+    billNnftAddress: {
+      [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
+    },
+    inactive: false,
+    projectLink: 'https://efrogs.mirror.xyz/',
+    twitter: 'https://x.com/efrogs_on_linea',
+    initTime: { [ChainId.LINEA]: 1724152998 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Meme', 'Community'],
+    fullDescription: ` Efrogs is the pioneering PFP collection on Linea, the innovative Layer 2 blockchain developed by Ethereum co-founder Joe Lubin. This unique collection, comprising 2015 distinct frogs, pays tribute to the groundbreaking year of Ethereum's launch, encapsulating the spirit of decentralized innovation. As the foremost community on Linea, Efrogs has introduced $CROAK, a memecoin that embodies the essence of the Croak Culture Movement—a growing community of enthusiasts committed to advancing the decentralized future. The project's ambitious mission is to make an indelible impact on the Linea blockchain, striving to engage 1,000,000 users and achieve 1,000,000,000 transactions. Each transaction represents a "Croak," a symbolic action that unites the community in a shared goal of decentralized empowerment. Truly, life is better when you Croak!`,
+    shortDescription: `Efrogs is the pioneering PFP collection on Linea, the Layer 2 blockchain developed by Ethereum co-founder Joe Lubin. Consisting of 2015 unique frogs, the collection pays homage to the year of Ethereum's launch. As the leading community on Linea, Efrogs has introduced $CROAK, a memecoin at the heart of the Croak Culture Movement. Life truly is better when you Croak! `,
+  },
+  {
     index: 6006,
     chainId: ChainId.LINEA,
     contractAddress: {
@@ -526,6 +551,35 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1087,
+    cmcId: 29635,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0xA63D8F1f7AB671f3f3Fa751355643a5016716F1E',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdt,
+    earnToken: tokens.evo,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://www.devomon.io/',
+    twitter: 'https://twitter.com/OfficialDevomon',
+    audit: 'https://skynet.certik.com/projects/devomon',
+    initTime: { [ChainId.BSC]: 1712163600 },
+    initPrice: { [ChainId.BSC]: 0.006303059734924963 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['GAMEFI'],
+    shortDescription:
+      'Devomon is a trailblazing brand at the forefront of anime and Web3 technology, dedicated to reinventing gaming and entertainment. It combines Unreal Engine for stunning graphics, blockchain for secure transactions, mobile gaming for accessibility, and contemporary Manwha lore. Devomon aims to revolutionize the global gaming and digital content industry by leveraging blockchain and AI technologies to set new standards.',
+    fullDescription: `Devomon is a trailblazing brand at the forefront of anime and Web3 technology, dedicated to reinventing the gaming and entertainment sectors. This innovative approach merges the best of various realms: the advanced Unreal Engine for breathtaking graphics, blockchain technology for secure and transparent transactions, mobile gaming for universal accessibility, and contemporary Manwha lore infused with nostalgic elements. Devomon aims to revolutionize the global gaming and digital content industry by leveraging blockchain and AI technologies to set new standards. The utilization of the Devomon token ecosystem plays a critical role in driving both the game's economy and player incentives. By implementing a token model that rewards gameplay achievements, community engagement, and content creation, Devomon aligns player interests with ecosystem growth. Exclusive in-game modes, special events, and community grants are designed to distribute tokens in a way that promotes active and strategic participation, incentivizing gameplay while strengthening the economic foundation of the Devomon universe. Through these strategic pillars, Devomon aims to cultivate a dynamic and thriving ecosystem that rewards player involvement, champions digital ownership, and leverages tokenomics to fuel growth and engagement. This multifaceted approach promises to expand the Devomon community while ensuring its sustainability and vibrancy in the competitive gaming landscape.`,
+  },
   {
     index: 1086,
     cmcId: 15563,
