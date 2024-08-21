@@ -5426,7 +5426,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/Verida_io',
     audit: 'https://community.verida.network/verida-network/security-audits',
     initTime: { [ChainId.MATIC]: 1723642568 },
-    soldOut: true,
+    soldOut: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
