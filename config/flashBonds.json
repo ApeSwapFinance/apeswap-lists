@@ -2006,7 +2006,7 @@
     "discountString": "3%",
     "tierString": "legend",
     "contractAddress": {
-      "56": "0x80412bfBf8Ee9F95Ab47f25ffFce44e7967Ab51A"
+      "56": "0x841354726E3E7684fe2Da8bC36820495cB7EBA9b"
     },
     "billVersion": "FlashTieredSale",
     "billType": "oversubscription",
