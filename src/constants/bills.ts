@@ -5466,7 +5466,7 @@ const bills: BillsConfig[] = [
     bondPartner: 'QuickSwap',
     soldOut: false,
     billArt: {
-      collection: BillArtCollection.ApeBond_Collection1,
+      collection: BillArtCollection.Quickswap_Collection1,
     },
     shortDescription:
       'Verida is a layer zero private self-sovereign database DePIN with confidential compute for AI applications. Verida’s Private Data Bridge enables user data to be unlocked from centralized platforms and used or a new generation of personal AI applications. Verida’s Self-Sovereign Compute Network enables a user’s personal, encrypted data to be integrated with leading AI models, with end-to-end privacy, safeguarding personal data from model owners, and unlocking a new era of hyper-personal and safe AI experiences powered by the VDA utility token.',
