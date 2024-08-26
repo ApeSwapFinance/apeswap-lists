@@ -666,6 +666,9 @@
           "97": 18,
           "137": 18
         },
+        "liquidityDex": {
+          "56": "PancakeSwapV3"
+        },
         "active": true
       }
     },
