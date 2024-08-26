@@ -503,6 +503,9 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: 18,
       [ChainId.BSC_TESTNET]: 18,
     },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+    },
     active: true,
   },
   wmatic: {

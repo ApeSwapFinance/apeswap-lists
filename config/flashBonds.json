@@ -475,6 +475,9 @@
         "97": 18,
         "137": 18
       },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "billNnftAddress": {
@@ -562,6 +565,9 @@
         "97": 18,
         "137": 18
       },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "billNnftAddress": {
@@ -648,6 +654,9 @@
         "56": 18,
         "97": 18,
         "137": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
       },
       "active": true
     },
@@ -2162,6 +2171,9 @@
         "97": 18,
         "137": 18
       },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "billNnftAddress": {
@@ -2248,6 +2260,9 @@
         "56": 18,
         "97": 18,
         "137": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
       },
       "active": true
     },

@@ -2002,8 +2002,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
     },
     "earnToken": {
       "symbol": "SCPT",
@@ -2335,8 +2337,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
     },
     "earnToken": {
       "symbol": "SDEX",
@@ -2575,8 +2579,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
     },
     "earnToken": {
       "symbol": "EJS",
@@ -4845,8 +4851,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
     },
     "earnToken": {
       "symbol": "ARCAS",
@@ -5013,8 +5021,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
     },
     "earnToken": {
       "symbol": "$FORWARD",
@@ -5067,8 +5077,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
     },
     "earnToken": {
       "symbol": "NFE",
@@ -5572,8 +5584,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
     },
     "earnToken": {
       "symbol": "XOX",
@@ -6183,8 +6197,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
     },
     "earnToken": {
       "symbol": "ARCAS",
