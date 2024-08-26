@@ -8231,7 +8231,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/AlvaraProtocol',
     audit: 'https://www.quillaudits.com/leaderboard/alvaraavax-token',
     initTime: { [ChainId.MAINNET]: 1720558800 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
@@ -8296,6 +8296,35 @@ const bills: BillsConfig[] = [
       'GPT Protocol is a pioneering platform leading the merger of artificial intelligence (AI) with blockchain technology, revolutionizing AI development by ensuring it is accessible, innovative, and censorship-resistant. It harnesses open-source AI tools and decentralized networks, bringing together a global community of developers to create, share, and deploy AI applications on the blockchain. $GPT tokens create an AI economy that incentivizes consumers, developers, and compute providers, serving multiple roles within the network, from rewarding miners to compensating data providers.',
     fullDescription:
       'GPT Protocol is a transformative Layer 2 blockchain platform built on the Ethereum Virtual Machine, aimed at revolutionizing the artificial intelligence landscape. It integrates decentralized technologies to ensure AI development is accessible, innovative, and censorship-resistant. By harnessing open-source AI tools and decentralized networks, it brings together a global community of developers to create, share, and deploy AI applications on the blockchain. $GPT tokens create an AI economy that incentivizes consumers, developers, and compute providers, serving multiple roles within the network, from rewarding miners to compensating data providers. More than just a technology, GPT Protocol is shaping a future where data integrity, intellectual freedom, and collaborative innovation form the pillars of our digital world.',
+  },
+  {
+    index: 3019,
+    cmcId: 29693,
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0xE020B27efA5c9D2B73AF0127202fcB7162E745EA',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    lpToken: tokens.eth,
+    earnToken: tokens.alva,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    inactive: false,
+    projectLink: 'https://www.alvaraprotocol.io',
+    twitter: 'https://twitter.com/AlvaraProtocol',
+    audit: 'https://www.quillaudits.com/leaderboard/alvaraavax-token',
+    initTime: { [ChainId.MAINNET]: 1724691112 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    shortDescription:
+      'The Alvara Protocol enables the creation and management of decentralized, meritocratic, tokenized investment collectives using the innovative ERC-7621 Basket Token Standard. Alvara’s built-in leaderboard ranks every ERC-7621 minted on-chain. The native token, ALVA, an ERC-20 utility token, supports governance, rewards, and software portals. Committed to transforming conventional procedures and pioneering a new DeFi subsector, Alvara aims to establish ERC-7621 as the gold standard for on-chain basket creation while adhering to decentralization principles.',
+    fullDescription:
+      'The Alvara Protocol facilitates the deployment of decentralized, meritocratic, tokenized, and on-chain investment collectives, enabling the creation and management of tokenized investment funds. Utilizing the innovative ERC-7621 Basket Token Standard, Alvara’s built-in leaderboard auto-populates and ranks every ERC-7621 minted on-chain. The protocol’s native token, ALVA, is an ERC-20 utility token serving multiple functions within the platform, including access to governance, rewards, and software portals. ALVA is included in each BTS minted at a nominal 5% weighting, creating deflationary pressure on its supply as each additional BTS removes a percentage of ALVA from circulation. The included ALVA is market-bought, increasing buying pressure with every new BTS creation. Alvara empowers individuals and institutions to create, manage, and invest in fully decentralized, merit-based, on-chain baskets. Committed to transforming conventional procedures and pioneering a new DeFi subsector, Alvara aims to establish ERC-7621 as the gold standard for on-chain basket creation while adhering to decentralization principles. The team consists of 10 full-time core members with extensive experience in traditional finance, web3, project management, public accounting, marketing, and legal domains, supported by a highly skilled development team with expertise in full-stack web and blockchain development and graphic design for Fortune 500 companies.',
+    tags: ['RWA'],
   },
 ]
 
