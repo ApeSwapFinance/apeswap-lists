@@ -86,7 +86,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://fomofox.info/',
     twitter: 'https://x.com/FOMO_Fox',
     initTime: { [ChainId.IOTA]: 1719260043 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -145,7 +145,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/sophiaverse_ai',
     initTime: { [ChainId.BASE]: 1716217474 },
     initPrice: { [ChainId.BASE]: 0.005450086440702347 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -725,7 +725,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.eldarune.com/',
     twitter: 'https://x.com/PlayEldarune',
     initTime: { [ChainId.BSC]: 1723037484 },
-    soldOut: false,
+    soldOut: true,
     billArt: { collection: BillArtCollection.ApeBond_Collection1 },
     shortDescription:
       "Eldarune is a game studio creating interoperable, medieval-themed blockchain games where NFTs can be used across multiple titles. The ELDA token serves as the studio's native currency and unlocks diverse gaming experiences. Inspired by classics like Warcraft and Dota, Eldarune is transforming the gaming landscape by offering seamless, interconnected gameplay across its ecosystem.",
@@ -1178,7 +1178,7 @@ const bills: BillsConfig[] = [
     audit: 'https://docs.ichi.org/home/technical-resources/audits',
     initTime: { [ChainId.BSC]: 1717085021 },
     initPrice: { [ChainId.BSC]: 0.000398917904465581 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -5657,7 +5657,7 @@ const bills: BillsConfig[] = [
     audit: 'https://skynet.certik.com/projects/gensokishi-online-metaworld',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.00254 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
@@ -5714,7 +5714,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://planetix.com/',
     twitter: 'https://twitter.com/Planetix0',
     initTime: { [ChainId.MATIC]: 1721207158 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.PlanetIX_Collection1,
     },
@@ -8164,7 +8164,7 @@ const bills: BillsConfig[] = [
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.MAINNET]: 1711828677 },
     initPrice: { [ChainId.MAINNET]: 0.0334978015237449 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
