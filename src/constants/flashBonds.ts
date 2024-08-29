@@ -718,7 +718,7 @@ const flashBonds: FlashBondConfig[] = [
     discountString: '3%',
     tierString: 'legend',
     contractAddress: {
-      [ChainId.BSC]: '',
+      [ChainId.BSC]: '0x75F9F5CcaF21e8941AF6a2F7cf1C91D7aF5D49e1',
     },
     billVersion: BillVersion.FlashTieredSale,
     billType: 'oversubscription',
@@ -739,7 +739,7 @@ const flashBonds: FlashBondConfig[] = [
       [ChainId.BSC]: 1724956200, // Aug 29th 1830 UTC
     },
     initPrice: {
-      [ChainId.BSC]: 0,
+      [ChainId.BSC]: 529.62,
     },
     initialRelease: 100,
   },
