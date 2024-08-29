@@ -34,7 +34,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.auditone.io/',
     twitter: 'https://x.com/auditone_dao',
     initTime: { [ChainId.IOTA]: 1719260043 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
