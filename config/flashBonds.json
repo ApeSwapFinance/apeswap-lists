@@ -2204,7 +2204,7 @@
     "discountString": "3%",
     "tierString": "legend",
     "contractAddress": {
-      "56": ""
+      "56": "0x75F9F5CcaF21e8941AF6a2F7cf1C91D7aF5D49e1"
     },
     "billVersion": "FlashTieredSale",
     "billType": "oversubscription",
@@ -2283,7 +2283,7 @@
       "56": 1724956200
     },
     "initPrice": {
-      "56": 0
+      "56": 529.62
     },
     "initialRelease": 100
   }
