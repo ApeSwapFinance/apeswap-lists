@@ -1043,6 +1043,58 @@
     "shortDescription": "Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!"
   },
   {
+    "index": 1091,
+    "cmcId": 28386,
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0xBe5Cf7ee838304bc0f2EE00DC9a43346e8AA0003"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "56": "0x55d398326f99059fF775485246999027B3197955"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "CHAPZ",
+      "address": {
+        "56": "0x7B56748A3Ef9970A5bAe99c58aD8bC67b26c525F"
+      },
+      "decimals": {
+        "56": 10
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://chappyz.com/",
+    "twitter": "https://twitter.com/Chappyzcom",
+    "initTime": {
+      "56": 1725280829
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "shortDescription": "Chappyz is an AI-powered plug-and-play protocol that helps build real community engagement and growth while rewarding community members in real-time. It connects users with community assignments, allowing them to engage, explore, and earn rewards. Additionally, it offers seamless background rewards as users dive into various communities and participate in enriching tasks.",
+    "fullDescription": "Chappyz is an AI powered plug-and-play protocol that helps build REAL community engagement & growth, whilst rewarding community members in real time. Chappyz connects users with community assignments, allowing them to engage, explore, and earn rewards. It offers seamless background rewards as users dive into various communities and participate in enriching tasks. Along with increased community growth and engagement, Chappyz aims for every project to be successful by providing a range of services from partners to enhance offerings. The world of Web3, characterized by decentralized platforms and user-driven content, has been a hotbed for innovation and digital expansion. However, this growth has led to a concerning drift towards vanity metrics, with many platforms prioritizing volume over genuine engagement. Chappyz boldly steps in to redefine community dynamics in the Web3 realm. It is not just another platform in the vast universe of Web3; it brings forth a revolution that places authentic engagement and community appreciation at the heart of the digital realm. With Chappyz, the focus shifts from mere numbers to real conversations, from passive followers to active contributors. This movement celebrates authenticity, acknowledges every voice, and recognizes true value.",
+    "tags": ["AI"]
+  },
+  {
     "index": 1090,
     "cmcId": 15921,
     "chainId": 56,

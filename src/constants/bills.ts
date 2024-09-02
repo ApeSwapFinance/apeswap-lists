@@ -1,7 +1,7 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1090
+// BNB Largest ID: 1091
 // Polygon Largest ID: 162
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2010
@@ -551,6 +551,34 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1091,
+    cmcId: 28386,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0xBe5Cf7ee838304bc0f2EE00DC9a43346e8AA0003',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdt,
+    earnToken: tokens.chapz,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://chappyz.com/',
+    twitter: 'https://twitter.com/Chappyzcom',
+    initTime: { [ChainId.BSC]: 1725280829 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    shortDescription:
+      'Chappyz is an AI-powered plug-and-play protocol that helps build real community engagement and growth while rewarding community members in real-time. It connects users with community assignments, allowing them to engage, explore, and earn rewards. Additionally, it offers seamless background rewards as users dive into various communities and participate in enriching tasks.',
+    fullDescription:
+      'Chappyz is an AI powered plug-and-play protocol that helps build REAL community engagement & growth, whilst rewarding community members in real time. Chappyz connects users with community assignments, allowing them to engage, explore, and earn rewards. It offers seamless background rewards as users dive into various communities and participate in enriching tasks. Along with increased community growth and engagement, Chappyz aims for every project to be successful by providing a range of services from partners to enhance offerings. The world of Web3, characterized by decentralized platforms and user-driven content, has been a hotbed for innovation and digital expansion. However, this growth has led to a concerning drift towards vanity metrics, with many platforms prioritizing volume over genuine engagement. Chappyz boldly steps in to redefine community dynamics in the Web3 realm. It is not just another platform in the vast universe of Web3; it brings forth a revolution that places authentic engagement and community appreciation at the heart of the digital realm. With Chappyz, the focus shifts from mere numbers to real conversations, from passive followers to active contributors. This movement celebrates authenticity, acknowledges every voice, and recognizes true value.',
+    tags: ['AI'],
+  },
   {
     index: 1090,
     cmcId: 15921,
