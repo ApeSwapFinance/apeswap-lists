@@ -273,6 +273,32 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.UniswapV2,
     },
   },
+  sam: {
+    symbol: 'SAM',
+    address: {
+      [ChainId.BASE]: '0xed1779845520339693CDBffec49a74246E7D671b',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.Aerodrome,
+    },
+  },
+  record: {
+    symbol: 'RECORD',
+    address: {
+      [ChainId.BASE]: '0xE642657E4F43e6DcF0bd73Ef24008394574Dee28',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.Aerodrome,
+    },
+  },
   ichi: {
     symbol: 'ICHI',
     address: {
@@ -3621,10 +3647,12 @@ const tokens: Record<string, Token> = {
     symbol: 'COPI',
     address: {
       [ChainId.BSC]: '0xFeA292e5ea4510881bDB840E3CeC63aBd43f936f',
+      [ChainId.BASE]: '0x0A953Dd9Fc813feFaf6015b804c9dFA0624690C0',
     },
-    decimals: { [ChainId.BSC]: 18 },
+    decimals: { [ChainId.BSC]: 18, [ChainId.BASE]: 18 },
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+      [ChainId.BASE]: LiquidityDex.UniswapV2,
     },
     active: true,
   },
