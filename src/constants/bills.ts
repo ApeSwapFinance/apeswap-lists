@@ -1,7 +1,7 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1091
+// BNB Largest ID: 1092
 // Polygon Largest ID: 162
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2010
@@ -551,6 +551,34 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1092,
+    cmcId: 19055,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x3B2700AE5f99cc267D429E53C10F46448Ea03d78',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdt,
+    earnToken: tokens.aitech,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://aitech.io/',
+    twitter: 'https://twitter.com/AITECHio',
+    audit: 'https://skynet.certik.com/projects/solidus-ai-tech',
+    initTime: { [ChainId.BSC]: 1712235600 },
+    initPrice: { [ChainId.BSC]: 0.000119256747804887 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.AITECH_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription:
+      'AITECH is paving the way for a more convenient and secure future by providing accessible Artificial Intelligence-as-a-Service (AIaaS), Blockchain-as-a-Service (BaaS), High-Performance Computing Power (HPC), and an artificial intelligence marketplace. All these are backed by their native token: $AITECH.',
+  },
   {
     index: 1091,
     cmcId: 28386,

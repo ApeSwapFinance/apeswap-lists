@@ -1043,6 +1043,61 @@
     "shortDescription": "Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!"
   },
   {
+    "index": 1092,
+    "cmcId": 19055,
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0x3B2700AE5f99cc267D429E53C10F46448Ea03d78"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "56": "0x55d398326f99059fF775485246999027B3197955"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "AITECH",
+      "address": {
+        "56": "0x2D060Ef4d6BF7f9e5edDe373Ab735513c0e4F944"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://aitech.io/",
+    "twitter": "https://twitter.com/AITECHio",
+    "audit": "https://skynet.certik.com/projects/solidus-ai-tech",
+    "initTime": {
+      "56": 1712235600
+    },
+    "initPrice": {
+      "56": 0.000119256747804887
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "AITECH_Collection1"
+    },
+    "tags": ["AI"],
+    "shortDescription": "AITECH is paving the way for a more convenient and secure future by providing accessible Artificial Intelligence-as-a-Service (AIaaS), Blockchain-as-a-Service (BaaS), High-Performance Computing Power (HPC), and an artificial intelligence marketplace. All these are backed by their native token: $AITECH."
+  },
+  {
     "index": 1091,
     "cmcId": 28386,
     "chainId": 56,
