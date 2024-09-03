@@ -1,13 +1,13 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1091
+// BNB Largest ID: 1092
 // Polygon Largest ID: 162
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2010
 // ETH Largest ID: 3020
 // Linea Largest ID: 6007
-// Base Largest ID: 8007
+// Base Largest ID: 8010
 // Lightlink Largest ID: 7000
 // IOTA largest ID: 9002
 // Migration Bonds ID: 5007
@@ -100,6 +100,84 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
+  /* 
+  {
+    index: 8010,
+    cmcId: 15563,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdt,
+    earnToken: tokens.copi,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://cornucopias.io/',
+    twitter: 'https://cornucopias.io/',
+    initTime: { [ChainId.BASE]: 1722253943 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['GAMEFI'],
+    shortDescription: `Cornucopias is a blockchain-powered game built on Unreal Engine 5, set to revolutionize the MMO gaming landscape. It stands out with player-owned assets, complex game loops, and a vast universe for limitless exploration. Players can farm, mine, trade, or combat threats to survive in this life above the clouds. In Cornucopias, the sky is no longer the limit—live your life any way you desire.`,
+    fullDescription: `Welcome to Cornucopias: a new MMO where you have the freedom to live any life you desire. In an alternate universe, humanity has been forced to the sky to survive. Massive sections of the earth’s surface, encapsulated by protective domes, have been suspended in the atmosphere. Each more unique than the last, precisely how to take advantage of these truly vast worlds is entirely up to you. Spend your days exploring, farming the rich soil, mining for valuable ore, or trading goods and services, and even combating the myriad threats to your survival. Here in Cornucopias, the sky is no longer the limit.`,
+  },
+  {
+    index: 8009,
+    cmcId: 32229,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.eth,
+    earnToken: tokens.record,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://web3music.org/',
+    twitter: 'https://x.com/MusicProtocolX',
+    initTime: { [ChainId.BASE]: 1722253943 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['RWA'],
+    shortDescription: `Samurai Starter is a leading early-stage crowdfunding platform that incentivizes community members to invest and participate in the most innovative projects in the crypto space. With top-tier due diligence and the $SAM token cashback rewards, participants can maximize their earnings. SamNFT holders enjoy equal access to crowdfunding, while $SAM rewards can be used for liquidity provision on Aerodrome Finance, supported by an investor confidence insurance policy.`,
+    fullDescription: `Samurai Starter is a leading early-stage crowdfunding platform that incentivizes community members to invest and participate in the most innovative projects in the crypto space. With rigorous due diligence backed by top Web3 verification services, Samurai Starter ensures that partner projects meet the highest standards. It is the first launchpad to offer cashback loyalty rewards through the $SAM token, increasing earnings with every participation. SamNFT holders enjoy equal opportunities in crowdfunding rounds, regardless of their status. Additionally, the platform offers engaging games and contests, allowing users to earn native tokens from partner platforms and more $SAM. Users can also leverage their $SAM rewards for SAM-ETH liquidity provision on Aerodrome Finance, benefiting from ve(3,3) powered yield farming. Samurai Starter’s investor confidence insurance policy further ensures that investments meet basic launch requirements, offering peace of mind with a money-back guarantee.`,
+  },
+  {
+    index: 8008,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdt,
+    earnToken: tokens.sam,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://www.samuraistarter.com/',
+    twitter: 'https://x.com/SamuraiStarter',
+    initTime: { [ChainId.BASE]: 1722253943 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Launchpad'],
+    shortDescription: `Samurai Starter is a leading early-stage crowdfunding platform that incentivizes community members to invest and participate in the most innovative projects in the crypto space. With top-tier due diligence and the $SAM token cashback rewards, participants can maximize their earnings. SamNFT holders enjoy equal access to crowdfunding, while $SAM rewards can be used for liquidity provision on Aerodrome Finance, supported by an investor confidence insurance policy.`,
+    fullDescription: `Samurai Starter is a leading early-stage crowdfunding platform that incentivizes community members to invest and participate in the most innovative projects in the crypto space. With rigorous due diligence backed by top Web3 verification services, Samurai Starter ensures that partner projects meet the highest standards. It is the first launchpad to offer cashback loyalty rewards through the $SAM token, increasing earnings with every participation. SamNFT holders enjoy equal opportunities in crowdfunding rounds, regardless of their status. Additionally, the platform offers engaging games and contests, allowing users to earn native tokens from partner platforms and more $SAM. Users can also leverage their $SAM rewards for SAM-ETH liquidity provision on Aerodrome Finance, benefiting from ve(3,3) powered yield farming. Samurai Starter’s investor confidence insurance policy further ensures that investments meet basic launch requirements, offering peace of mind with a money-back guarantee.`,
+  }, */
   {
     index: 8007,
     cmcId: 31320,
@@ -551,6 +629,36 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1092,
+    cmcId: 19055,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x3B2700AE5f99cc267D429E53C10F46448Ea03d78',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdt,
+    earnToken: tokens.aitech,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://aitech.io/',
+    twitter: 'https://twitter.com/AITECHio',
+    audit: 'https://skynet.certik.com/projects/solidus-ai-tech',
+    initTime: { [ChainId.BSC]: 1712235600 },
+    initPrice: { [ChainId.BSC]: 0.000119256747804887 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.AITECH_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription:
+      'AITECH is paving the way for a more convenient and secure future by providing accessible Artificial Intelligence-as-a-Service (AIaaS), Blockchain-as-a-Service (BaaS), High-Performance Computing Power (HPC), and an artificial intelligence marketplace. All these are backed by their native token: $AITECH.',
+    fullDescription:
+      "AITECH is the world's first deflationary AI utilities token, driving the operations of Solidus AI Tech's eco-friendly High-Performance Computing (HPC) Data Centre in Europe. This 8,000 sqft facility supports a diverse ecosystem, including the AI and GPU Marketplaces as well as the AITECH Pad Launchpad. The GPU Marketplace offers high-performance GPUs for a wide range of tasks, available through flexible rentals with no upfront costs. The AI Marketplace provides a suite of AI tools for automating both business and personal activities, categorized into Foundational AI Models, AI Agents, and Standalone AI Solutions. The AITECH Pad Launchpad offers early access to seed, private, and public rounds of AI-focused and infrastructure projects. Stakers of the $AITECH token gain tiered access to these launches, powering the ecosystem and enabling seamless service transactions, where fiat payments are converted to $AITECH on the blockchain. A deflationary burn mechanism ensures that a portion of tokens used for services is permanently removed from circulation, reducing supply and enhancing long-term value.",
+  },
   {
     index: 1091,
     cmcId: 28386,
