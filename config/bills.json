@@ -161,6 +161,161 @@
     "fullDescription": "FOMOFox is the first market-driven storytelling meme coin on IOTA EVM. Follow the thrilling journey of FOMOFox on TwitterX and help him conquer his FOMO by influencing the $FOMO Token’s market performance. Loyal holders will find countless opportunities to grow their $FOMO bags through raffles, solving riddles, or simply holding and supporting the fox. Along the way, FOMOFox faces diverse challenges and meets intriguing characters. Your influence on the market helps him make the right choices. This project offers pure entertainment and rewards those who stick with it! Join the adventure now and visit their website for more details!"
   },
   {
+    "index": 8010,
+    "cmcId": 15563,
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0x925085a886E3089965466A250EabD556a77BF7B7"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2"
+      },
+      "decimals": {
+        "8453": 6
+      },
+      "liquidityDex": {
+        "8453": "UniswapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "COPI",
+      "address": {
+        "8453": "0x0A953Dd9Fc813feFaf6015b804c9dFA0624690C0"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "liquidityDex": {
+        "8453": "UniswapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "inactive": false,
+    "projectLink": "https://cornucopias.io/",
+    "twitter": "https://cornucopias.io/",
+    "initTime": {
+      "8453": 1722253943
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["GAMEFI"],
+    "shortDescription": "Cornucopias is a blockchain-powered game built on Unreal Engine 5, set to revolutionize the MMO gaming landscape. It stands out with player-owned assets, complex game loops, and a vast universe for limitless exploration. Players can farm, mine, trade, or combat threats to survive in this life above the clouds. In Cornucopias, the sky is no longer the limit—live your life any way you desire.",
+    "fullDescription": "Welcome to Cornucopias: a new MMO where you have the freedom to live any life you desire. In an alternate universe, humanity has been forced to the sky to survive. Massive sections of the earth’s surface, encapsulated by protective domes, have been suspended in the atmosphere. Each more unique than the last, precisely how to take advantage of these truly vast worlds is entirely up to you. Spend your days exploring, farming the rich soil, mining for valuable ore, or trading goods and services, and even combating the myriad threats to your survival. Here in Cornucopias, the sky is no longer the limit."
+  },
+  {
+    "index": 8009,
+    "cmcId": 32229,
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0xC2fe6C0A45a4e0c02E38c72d3DF4D3eA2916964e"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "ETH",
+      "address": {
+        "8453": "0x4200000000000000000000000000000000000006"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "liquidityDex": {
+        "8453": "Aerodrome"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "RECORD",
+      "address": {
+        "8453": "0xE642657E4F43e6DcF0bd73Ef24008394574Dee28"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "8453": "Aerodrome"
+      }
+    },
+    "billNnftAddress": {
+      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "inactive": false,
+    "projectLink": "https://web3music.org/",
+    "twitter": "https://x.com/MusicProtocolX",
+    "initTime": {
+      "8453": 1722253943
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["RWA"],
+    "shortDescription": "Samurai Starter is a leading early-stage crowdfunding platform that incentivizes community members to invest and participate in the most innovative projects in the crypto space. With top-tier due diligence and the $SAM token cashback rewards, participants can maximize their earnings. SamNFT holders enjoy equal access to crowdfunding, while $SAM rewards can be used for liquidity provision on Aerodrome Finance, supported by an investor confidence insurance policy.",
+    "fullDescription": "Samurai Starter is a leading early-stage crowdfunding platform that incentivizes community members to invest and participate in the most innovative projects in the crypto space. With rigorous due diligence backed by top Web3 verification services, Samurai Starter ensures that partner projects meet the highest standards. It is the first launchpad to offer cashback loyalty rewards through the $SAM token, increasing earnings with every participation. SamNFT holders enjoy equal opportunities in crowdfunding rounds, regardless of their status. Additionally, the platform offers engaging games and contests, allowing users to earn native tokens from partner platforms and more $SAM. Users can also leverage their $SAM rewards for SAM-ETH liquidity provision on Aerodrome Finance, benefiting from ve(3,3) powered yield farming. Samurai Starter’s investor confidence insurance policy further ensures that investments meet basic launch requirements, offering peace of mind with a money-back guarantee."
+  },
+  {
+    "index": 8008,
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0xec652A435914d59BC331C75A521AFb9749530777"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2"
+      },
+      "decimals": {
+        "8453": 6
+      },
+      "liquidityDex": {
+        "8453": "UniswapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "SAM",
+      "address": {
+        "8453": "0xed1779845520339693CDBffec49a74246E7D671b"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "8453": "Aerodrome"
+      }
+    },
+    "billNnftAddress": {
+      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "inactive": false,
+    "projectLink": "https://www.samuraistarter.com/",
+    "twitter": "https://x.com/SamuraiStarter",
+    "initTime": {
+      "8453": 1722253943
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["Launchpad"],
+    "shortDescription": "Samurai Starter is a leading early-stage crowdfunding platform that incentivizes community members to invest and participate in the most innovative projects in the crypto space. With top-tier due diligence and the $SAM token cashback rewards, participants can maximize their earnings. SamNFT holders enjoy equal access to crowdfunding, while $SAM rewards can be used for liquidity provision on Aerodrome Finance, supported by an investor confidence insurance policy.",
+    "fullDescription": "Samurai Starter is a leading early-stage crowdfunding platform that incentivizes community members to invest and participate in the most innovative projects in the crypto space. With rigorous due diligence backed by top Web3 verification services, Samurai Starter ensures that partner projects meet the highest standards. It is the first launchpad to offer cashback loyalty rewards through the $SAM token, increasing earnings with every participation. SamNFT holders enjoy equal opportunities in crowdfunding rounds, regardless of their status. Additionally, the platform offers engaging games and contests, allowing users to earn native tokens from partner platforms and more $SAM. Users can also leverage their $SAM rewards for SAM-ETH liquidity provision on Aerodrome Finance, benefiting from ve(3,3) powered yield farming. Samurai Starter’s investor confidence insurance policy further ensures that investments meet basic launch requirements, offering peace of mind with a money-back guarantee."
+  },
+  {
     "index": 8007,
     "cmcId": 31320,
     "chainId": 8453,

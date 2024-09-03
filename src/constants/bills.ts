@@ -100,13 +100,12 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
-  /* 
   {
     index: 8010,
     cmcId: 15563,
     chainId: ChainId.BASE,
     contractAddress: {
-      [ChainId.BASE]: '',
+      [ChainId.BASE]: '0x925085a886E3089965466A250EabD556a77BF7B7',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
@@ -132,7 +131,7 @@ const bills: BillsConfig[] = [
     cmcId: 32229,
     chainId: ChainId.BASE,
     contractAddress: {
-      [ChainId.BASE]: '',
+      [ChainId.BASE]: '0xC2fe6C0A45a4e0c02E38c72d3DF4D3eA2916964e',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
@@ -157,7 +156,7 @@ const bills: BillsConfig[] = [
     index: 8008,
     chainId: ChainId.BASE,
     contractAddress: {
-      [ChainId.BASE]: '',
+      [ChainId.BASE]: '0xec652A435914d59BC331C75A521AFb9749530777',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
@@ -177,7 +176,7 @@ const bills: BillsConfig[] = [
     tags: ['Launchpad'],
     shortDescription: `Samurai Starter is a leading early-stage crowdfunding platform that incentivizes community members to invest and participate in the most innovative projects in the crypto space. With top-tier due diligence and the $SAM token cashback rewards, participants can maximize their earnings. SamNFT holders enjoy equal access to crowdfunding, while $SAM rewards can be used for liquidity provision on Aerodrome Finance, supported by an investor confidence insurance policy.`,
     fullDescription: `Samurai Starter is a leading early-stage crowdfunding platform that incentivizes community members to invest and participate in the most innovative projects in the crypto space. With rigorous due diligence backed by top Web3 verification services, Samurai Starter ensures that partner projects meet the highest standards. It is the first launchpad to offer cashback loyalty rewards through the $SAM token, increasing earnings with every participation. SamNFT holders enjoy equal opportunities in crowdfunding rounds, regardless of their status. Additionally, the platform offers engaging games and contests, allowing users to earn native tokens from partner platforms and more $SAM. Users can also leverage their $SAM rewards for SAM-ETH liquidity provision on Aerodrome Finance, benefiting from ve(3,3) powered yield farming. Samurai Starter’s investor confidence insurance policy further ensures that investments meet basic launch requirements, offering peace of mind with a money-back guarantee.`,
-  }, */
+  },
   {
     index: 8007,
     cmcId: 31320,
