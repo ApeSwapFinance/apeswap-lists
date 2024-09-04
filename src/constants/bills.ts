@@ -116,7 +116,8 @@ const bills: BillsConfig[] = [
     },
     inactive: false,
     projectLink: 'https://cornucopias.io/',
-    twitter: 'https://cornucopias.io/',
+    twitter: 'https://x.com/CornucopiasGame',
+    audit: 'https://audits.hacken.io/cornucopias/',
     initTime: { [ChainId.BASE]: 1722253943 },
     soldOut: false,
     billArt: {
@@ -702,7 +703,7 @@ const bills: BillsConfig[] = [
     audit:
       'https://github.com/Quillhash/QuillAudit_Reports/blob/master/Poollotto%20Smart%20Contract%20Audit%20Report%20-%20QuillAudits.pdf',
     initTime: { [ChainId.BSC]: 1724684215 },
-    soldOut: false,
+    soldOut: true,
     billArt: { collection: BillArtCollection.ApeBond_Collection1 },
     shortDescription:
       'Poollotto is a pioneering technology company specializing in blockchain-powered lottery solutions, utilizing the Poollotto Token (PLT) to revolutionize the industry. By creating a transparent, fair, and secure platform, Poollotto enables decentralized management of global lottery pools, ensuring automated and secure payments. With their innovative approach, they aim to transform the lottery experience for users worldwide.',
@@ -726,7 +727,7 @@ const bills: BillsConfig[] = [
     audit:
       'https://github.com/Quillhash/QuillAudit_Reports/blob/master/Poollotto%20Smart%20Contract%20Audit%20Report%20-%20QuillAudits.pdf',
     initTime: { [ChainId.BSC]: 1724684215 },
-    soldOut: false,
+    soldOut: true,
     billArt: { collection: BillArtCollection.ApeBond_Collection1 },
     shortDescription:
       'Poollotto is a pioneering technology company specializing in blockchain-powered lottery solutions, utilizing the Poollotto Token (PLT) to revolutionize the industry. By creating a transparent, fair, and secure platform, Poollotto enables decentralized management of global lottery pools, ensuring automated and secure payments. With their innovative approach, they aim to transform the lottery experience for users worldwide.',
