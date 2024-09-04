@@ -534,8 +534,8 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
-  wmatic: {
-    symbol: 'MATIC',
+  wpol: {
+    symbol: 'POL',
     address: {
       [ChainId.BSC]: '0xCC42724C6683B7E57334c4E856f4c9965ED682bD',
       [ChainId.MATIC]: '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270',
@@ -3856,8 +3856,8 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
   },
-  bnbMatic: {
-    symbol: 'MATIC-BNB',
+  bnbPol: {
+    symbol: 'POL-BNB',
     address: {
       [ChainId.BSC]: '0x29A4A3D77c010CE100A45831BF7e798f0f0B325D',
     },
@@ -5171,8 +5171,8 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
   },
-  ethMatic: {
-    symbol: 'ETH-MATIC',
+  ethPol: {
+    symbol: 'ETH-POL',
     address: {
       [ChainId.MATIC]: '0x6cf8654e85ab489ca7e70189046d507eba233613',
     },
@@ -5182,8 +5182,8 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
   },
-  dogiraMatic: {
-    symbol: 'DOGIRA-MATIC',
+  dogiraPol: {
+    symbol: 'DOGIRA-POL',
     address: {
       [ChainId.MATIC]: '0x103062f71b7106a8df6fd2a4dd9368358c44a9d0',
     },
@@ -5217,8 +5217,8 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
   },
-  traxxMatic: {
-    symbol: 'TRAXX-MATIC',
+  traxxPol: {
+    symbol: 'TRAXX-POL',
     address: {
       [ChainId.MATIC]: '0x545cb3055e62c86f54ba479c7cafc7e1e2eeec54',
     },
@@ -5228,8 +5228,8 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
   },
-  leapMatic: {
-    symbol: 'LEAP-MATIC',
+  leapPol: {
+    symbol: 'LEAP-POL',
     address: {
       [ChainId.MATIC]: '0xb933e9e1ed78612e24f79cdf6976ef19fe0e357c',
     },
@@ -5250,8 +5250,8 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
   },
-  komMatic: {
-    symbol: 'KOM-MATIC',
+  komPol: {
+    symbol: 'KOM-POL',
     address: {
       [ChainId.MATIC]: '0x0806A407d6eEa72788d91C36829A19d424446040',
     },
@@ -5349,8 +5349,8 @@ const tokens: Record<string, Token> = {
     lpToken: true,
     ichiUnderlyingDex: IchiSupportedDex.Quickswap,
   },
-  maticEth_Ichi: {
-    symbol: 'MATIC (ETH)',
+  polEth_Ichi: {
+    symbol: 'POL (ETH)',
     address: {
       [ChainId.MATIC]: '0x9ff3C1390300918B40714fD464A39699dDd9Fe00',
     },
@@ -5366,8 +5366,8 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: 'https://app.ichi.org/vault/token/0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270',
     },
   },
-  maticDsrun_Ichi: {
-    symbol: 'WMATIC-DSRUN',
+  polDsrun_Ichi: {
+    symbol: 'WPOL-DSRUN',
     address: {
       [ChainId.MATIC]: '0xECD259DEdDc93B9881debDC67c7c4b553794Fd3c',
     },
@@ -5396,8 +5396,8 @@ const tokens: Record<string, Token> = {
     lpToken: true,
     ichiUnderlyingDex: IchiSupportedDex.Quickswap,
   },
-  maticRum_Ichi: {
-    symbol: 'MATIC-RUM',
+  polRum_Ichi: {
+    symbol: 'POL-RUM',
     address: {
       [ChainId.MATIC]: '0xA98397d5568724948E9A24B3B0e58B7114C0fE4E',
     },
@@ -5414,8 +5414,8 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: 'https://app.ichi.org/vault/token/0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270/',
     },
   },
-  maticEth_Qs: {
-    symbol: 'MATIC-ETH',
+  polEth_Qs: {
+    symbol: 'POL-ETH',
     address: {
       [ChainId.MATIC]: '0xadbF1854e5883eB8aa7BAf50705338739e558E5b',
     },
@@ -5468,8 +5468,8 @@ const tokens: Record<string, Token> = {
         'https://quickswap.exchange/#/pools/v2?currency0=0xE06Bd4F5aAc8D0aA337D13eC88dB6defC6eAEefE&currency1=0xc2132D05D31c914a87C6611C10748AEb04B58e8F',
     },
   },
-  abondMatic_QS: {
-    symbol: 'ABOND-MATIC',
+  abondPol_QS: {
+    symbol: 'ABOND-POL',
     address: {
       [ChainId.MATIC]: '0x27b00fE0413DFc2DE52D18562a2D0fB353A9cE00',
     },

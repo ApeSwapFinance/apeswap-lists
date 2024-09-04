@@ -205,8 +205,8 @@ billArt: {
     billType: 'liquidity',
     billVersion: BillVersion.V2,
     token: tokens.quick,
-    quoteToken: tokens.wmatic,
-    lpToken: tokens.quickMatic,
+    quoteToken: tokens.wpol,
+    lpToken: tokens.quickPol,
     earnToken: tokens.TTT,
     billNnftAddress: {
       [ChainId.MATIC]: '0xa1c78af783fb9ea7be790cbbd01abff63beae769',
