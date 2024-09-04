@@ -200,7 +200,8 @@
     },
     "inactive": false,
     "projectLink": "https://cornucopias.io/",
-    "twitter": "https://cornucopias.io/",
+    "twitter": "https://x.com/CornucopiasGame",
+    "audit": "https://audits.hacken.io/cornucopias/",
     "initTime": {
       "8453": 1722253943
     },
@@ -1350,7 +1351,7 @@
     "initTime": {
       "56": 1724684215
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -1407,7 +1408,7 @@
     "initTime": {
       "56": 1724684215
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
