@@ -1,7 +1,7 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1092
+// BNB Largest ID: 1093
 // Polygon Largest ID: 162
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2010
@@ -630,6 +630,30 @@ const bills: BillsConfig[] = [
   // BNB chain
   //
   {
+    index: 1093,
+    cmcId: 15921,
+    chainId: ChainId.BSC,
+    contractAddress: { [ChainId.BSC]: '0x98C3Eb97E4C1acC607633E30a557342E1fec6e2b' },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.wbnb,
+    earnToken: tokens.plt,
+    billNnftAddress: { [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9' },
+    inactive: false,
+    projectLink: 'https://www.poollotto.finance/',
+    twitter: 'https://twitter.com/pltfinance/',
+    audit:
+      'https://github.com/Quillhash/QuillAudit_Reports/blob/master/Poollotto%20Smart%20Contract%20Audit%20Report%20-%20QuillAudits.pdf',
+    initTime: { [ChainId.BSC]: 1724684215 },
+    soldOut: false,
+    billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+    shortDescription:
+      'Poollotto is a pioneering technology company specializing in blockchain-powered lottery solutions, utilizing the Poollotto Token (PLT) to revolutionize the industry. By creating a transparent, fair, and secure platform, Poollotto enables decentralized management of global lottery pools, ensuring automated and secure payments. With their innovative approach, they aim to transform the lottery experience for users worldwide. <a href="https://pltlotto.com/" target="_blank" rel="noopener noreferrer" style="color: #38A611">Purchase $100 or more worth of $PLT Bonds to earn 2 free lotto game tickets!</a>',
+    fullDescription:
+      'Poollotto is a leading technology company specializing in blockchain-powered lottery solutions, utilizing the Poollotto Token (PLT) to revolutionize the industry. Launched to create a transparent and fair token economy, Poollotto leverages blockchain technology to ensure secure, tamper-proof transactions, and records all lottery activities on a public ledger, eliminating doubts of manipulation. By automating processes through smart contracts, Poollotto reduces administrative costs and improves efficiency, while allowing operators to customize their platforms for a unique experience. The PLT token enables global participation in decentralized lottery pools, enhancing inclusivity and ensuring automated, secure payments, ultimately transforming the lottery industry with fairness and transparency at its core. <a href="https://pltlotto.com/" target="_blank" rel="noopener noreferrer" style="color: #38A611">Purchase $100 or more worth of $PLT Bonds to earn 2 free lotto game tickets!</a>',
+    tags: ['Gambling'],
+  },
+  {
     index: 1092,
     cmcId: 19055,
     chainId: ChainId.BSC,
@@ -706,9 +730,9 @@ const bills: BillsConfig[] = [
     soldOut: true,
     billArt: { collection: BillArtCollection.ApeBond_Collection1 },
     shortDescription:
-      'Poollotto is a pioneering technology company specializing in blockchain-powered lottery solutions, utilizing the Poollotto Token (PLT) to revolutionize the industry. By creating a transparent, fair, and secure platform, Poollotto enables decentralized management of global lottery pools, ensuring automated and secure payments. With their innovative approach, they aim to transform the lottery experience for users worldwide.',
+      'Purchase $100 or more worth of $PLT Bonds to earn 2 free <a href="https://pltlotto.com/" target="_blank" rel="noopener noreferrer" style="color: #38A611">lotto game</a> tickets! Poollotto is a pioneering technology company specializing in blockchain-powered lottery solutions, utilizing the Poollotto Token (PLT) to revolutionize the industry. By creating a transparent, fair, and secure platform, Poollotto enables decentralized management of global lottery pools, ensuring automated and secure payments. With their innovative approach, they aim to transform the lottery experience for users worldwide.',
     fullDescription:
-      'Poollotto is a leading technology company specializing in blockchain-powered lottery solutions, utilizing the Poollotto Token (PLT) to revolutionize the industry. Launched to create a transparent and fair token economy, Poollotto leverages blockchain technology to ensure secure, tamper-proof transactions, and records all lottery activities on a public ledger, eliminating doubts of manipulation. By automating processes through smart contracts, Poollotto reduces administrative costs and improves efficiency, while allowing operators to customize their platforms for a unique experience. The PLT token enables global participation in decentralized lottery pools, enhancing inclusivity and ensuring automated, secure payments, ultimately transforming the lottery industry with fairness and transparency at its core.',
+      'Purchase $100 or more worth of $PLT Bonds to earn 2 free <a href="https://pltlotto.com/" target="_blank" rel="noopener noreferrer" style="color: #38A611">lotto game</a> tickets! Poollotto is a leading technology company specializing in blockchain-powered lottery solutions, utilizing the Poollotto Token (PLT) to revolutionize the industry. Launched to create a transparent and fair token economy, Poollotto leverages blockchain technology to ensure secure, tamper-proof transactions, and records all lottery activities on a public ledger, eliminating doubts of manipulation. By automating processes through smart contracts, Poollotto reduces administrative costs and improves efficiency, while allowing operators to customize their platforms for a unique experience. The PLT token enables global participation in decentralized lottery pools, enhancing inclusivity and ensuring automated, secure payments, ultimately transforming the lottery industry with fairness and transparency at its core.',
     tags: ['Gambling'],
   },
   {
@@ -5609,7 +5633,7 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    lpToken: tokens.maticRum_Ichi,
+    lpToken: tokens.polRum_Ichi,
     earnToken: tokens.rum,
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
@@ -5723,7 +5747,7 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    lpToken: tokens.maticDsrun_Ichi,
+    lpToken: tokens.polDsrun_Ichi,
     earnToken: tokens.dsrun,
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
@@ -5869,7 +5893,7 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    lpToken: tokens.wmatic,
+    lpToken: tokens.wpol,
     earnToken: tokens.thx,
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
@@ -5990,7 +6014,7 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    lpToken: tokens.wmatic,
+    lpToken: tokens.wpol,
     earnToken: tokens.a51,
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
@@ -6148,7 +6172,7 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    lpToken: tokens.wmatic,
+    lpToken: tokens.wpol,
     earnToken: tokens.ecld,
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
@@ -6268,7 +6292,7 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    lpToken: tokens.wmatic,
+    lpToken: tokens.wpol,
     earnToken: tokens.a51,
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
@@ -6327,7 +6351,7 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    lpToken: tokens.wmatic,
+    lpToken: tokens.wpol,
     earnToken: tokens.bull,
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
@@ -6385,7 +6409,7 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    lpToken: tokens.wmatic,
+    lpToken: tokens.wpol,
     earnToken: tokens.thx,
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
@@ -6414,7 +6438,7 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    lpToken: tokens.wmatic,
+    lpToken: tokens.wpol,
     earnToken: tokens.nftbs,
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
@@ -6508,7 +6532,7 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    lpToken: tokens.wmatic,
+    lpToken: tokens.wpol,
     earnToken: tokens.a51,
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
@@ -6627,7 +6651,7 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    lpToken: tokens.wmatic,
+    lpToken: tokens.wpol,
     earnToken: tokens.bull,
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
@@ -6739,7 +6763,7 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    lpToken: tokens.wmatic,
+    lpToken: tokens.wpol,
     earnToken: tokens.a51,
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
@@ -7172,7 +7196,7 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    lpToken: tokens.komMatic,
+    lpToken: tokens.komPol,
     earnToken: tokens.kom,
     billNnftAddress: {
       [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
@@ -7193,7 +7217,7 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    lpToken: tokens.dogiraMatic,
+    lpToken: tokens.dogiraPol,
     earnToken: tokens.dogira,
     billNnftAddress: {
       [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
@@ -7214,7 +7238,7 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    lpToken: tokens.leapMatic,
+    lpToken: tokens.leapPol,
     earnToken: tokens.leap,
     billNnftAddress: {
       [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
@@ -7277,7 +7301,7 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    lpToken: tokens.dogiraMatic,
+    lpToken: tokens.dogiraPol,
     earnToken: tokens.dogira,
     billNnftAddress: {
       [ChainId.MATIC]: '0xa35c3fcd306cf69fed19e8c7b15c8b3904ea609d',
@@ -7295,7 +7319,7 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    lpToken: tokens.traxxMatic,
+    lpToken: tokens.traxxPol,
     earnToken: tokens.traxx,
     billNnftAddress: {
       [ChainId.MATIC]: '0xa35c3fcd306cf69fed19e8c7b15c8b3904ea609d',
@@ -7315,7 +7339,7 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    lpToken: tokens.dogiraMatic,
+    lpToken: tokens.dogiraPol,
     earnToken: tokens.dogira,
     billNnftAddress: {
       [ChainId.MATIC]: '0xa35c3fcd306cf69fed19e8c7b15c8b3904ea609d',

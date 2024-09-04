@@ -348,15 +348,15 @@ const farms: FarmConfig[] = [
   {
     pid: 45,
     image: '',
-    lpSymbol: 'MATIC-BNB',
+    lpSymbol: 'POL-BNB',
     lpAddresses: {
       [ChainId.BSC_TESTNET]: '0xed89477d619c7e73f752d5fc7be60308ceb63663',
-      [ChainId.BSC]: '0x29A4A3D77c010CE100A45831BF7e798f0f0B325D', // MATIC-BNB BananaPair
+      [ChainId.BSC]: '0x29A4A3D77c010CE100A45831BF7e798f0f0B325D', // POL-BNB BananaPair
     },
-    tokenSymbol: 'MATIC',
+    tokenSymbol: 'POL',
     tokenAddresses: {
       [ChainId.BSC_TESTNET]: '0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a',
-      [ChainId.BSC]: '0xcc42724c6683b7e57334c4e856f4c9965ed682bd', // MATIC Token
+      [ChainId.BSC]: '0xcc42724c6683b7e57334c4e856f4c9965ed682bd', // POL Token
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: tokens.wbnb.address,

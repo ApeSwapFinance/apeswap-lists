@@ -1199,6 +1199,59 @@
     "shortDescription": "Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!"
   },
   {
+    "index": 1093,
+    "cmcId": 15921,
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0x98C3Eb97E4C1acC607633E30a557342E1fec6e2b"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "PLT",
+      "address": {
+        "56": "0x631C2f0EdABaC799f07550aEE4fF0Bf7fd35212B"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://www.poollotto.finance/",
+    "twitter": "https://twitter.com/pltfinance/",
+    "audit": "https://github.com/Quillhash/QuillAudit_Reports/blob/master/Poollotto%20Smart%20Contract%20Audit%20Report%20-%20QuillAudits.pdf",
+    "initTime": {
+      "56": 1724684215
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "shortDescription": "Poollotto is a pioneering technology company specializing in blockchain-powered lottery solutions, utilizing the Poollotto Token (PLT) to revolutionize the industry. By creating a transparent, fair, and secure platform, Poollotto enables decentralized management of global lottery pools, ensuring automated and secure payments. With their innovative approach, they aim to transform the lottery experience for users worldwide. <a href=\"https://pltlotto.com/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #38A611\">Purchase $100 or more worth of $PLT Bonds to earn 2 free lotto game tickets!</a>",
+    "fullDescription": "Poollotto is a leading technology company specializing in blockchain-powered lottery solutions, utilizing the Poollotto Token (PLT) to revolutionize the industry. Launched to create a transparent and fair token economy, Poollotto leverages blockchain technology to ensure secure, tamper-proof transactions, and records all lottery activities on a public ledger, eliminating doubts of manipulation. By automating processes through smart contracts, Poollotto reduces administrative costs and improves efficiency, while allowing operators to customize their platforms for a unique experience. The PLT token enables global participation in decentralized lottery pools, enhancing inclusivity and ensuring automated, secure payments, ultimately transforming the lottery industry with fairness and transparency at its core. <a href=\"https://pltlotto.com/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #38A611\">Purchase $100 or more worth of $PLT Bonds to earn 2 free lotto game tickets!</a>",
+    "tags": ["Gambling"]
+  },
+  {
     "index": 1092,
     "cmcId": 19055,
     "chainId": 56,
@@ -1355,8 +1408,8 @@
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
-    "shortDescription": "Poollotto is a pioneering technology company specializing in blockchain-powered lottery solutions, utilizing the Poollotto Token (PLT) to revolutionize the industry. By creating a transparent, fair, and secure platform, Poollotto enables decentralized management of global lottery pools, ensuring automated and secure payments. With their innovative approach, they aim to transform the lottery experience for users worldwide.",
-    "fullDescription": "Poollotto is a leading technology company specializing in blockchain-powered lottery solutions, utilizing the Poollotto Token (PLT) to revolutionize the industry. Launched to create a transparent and fair token economy, Poollotto leverages blockchain technology to ensure secure, tamper-proof transactions, and records all lottery activities on a public ledger, eliminating doubts of manipulation. By automating processes through smart contracts, Poollotto reduces administrative costs and improves efficiency, while allowing operators to customize their platforms for a unique experience. The PLT token enables global participation in decentralized lottery pools, enhancing inclusivity and ensuring automated, secure payments, ultimately transforming the lottery industry with fairness and transparency at its core.",
+    "shortDescription": "Purchase $100 or more worth of $PLT Bonds to earn 2 free <a href=\"https://pltlotto.com/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #38A611\">lotto game</a> tickets! Poollotto is a pioneering technology company specializing in blockchain-powered lottery solutions, utilizing the Poollotto Token (PLT) to revolutionize the industry. By creating a transparent, fair, and secure platform, Poollotto enables decentralized management of global lottery pools, ensuring automated and secure payments. With their innovative approach, they aim to transform the lottery experience for users worldwide.",
+    "fullDescription": "Purchase $100 or more worth of $PLT Bonds to earn 2 free <a href=\"https://pltlotto.com/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #38A611\">lotto game</a> tickets! Poollotto is a leading technology company specializing in blockchain-powered lottery solutions, utilizing the Poollotto Token (PLT) to revolutionize the industry. Launched to create a transparent and fair token economy, Poollotto leverages blockchain technology to ensure secure, tamper-proof transactions, and records all lottery activities on a public ledger, eliminating doubts of manipulation. By automating processes through smart contracts, Poollotto reduces administrative costs and improves efficiency, while allowing operators to customize their platforms for a unique experience. The PLT token enables global participation in decentralized lottery pools, enhancing inclusivity and ensuring automated, secure payments, ultimately transforming the lottery industry with fairness and transparency at its core.",
     "tags": ["Gambling"]
   },
   {
@@ -11586,7 +11639,7 @@
     "billType": "liquidity",
     "billVersion": "V2",
     "lpToken": {
-      "symbol": "MATIC-RUM",
+      "symbol": "POL-RUM",
       "address": {
         "137": "0xA98397d5568724948E9A24B3B0e58B7114C0fE4E"
       },
@@ -11811,7 +11864,7 @@
     "billType": "liquidity",
     "billVersion": "V2",
     "lpToken": {
-      "symbol": "WMATIC-DSRUN",
+      "symbol": "WPOL-DSRUN",
       "address": {
         "137": "0xECD259DEdDc93B9881debDC67c7c4b553794Fd3c"
       },
@@ -12097,7 +12150,7 @@
     "billType": "reserve",
     "billVersion": "V2",
     "lpToken": {
-      "symbol": "MATIC",
+      "symbol": "POL",
       "address": {
         "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
       },
@@ -12325,7 +12378,7 @@
     "billType": "reserve",
     "billVersion": "V2",
     "lpToken": {
-      "symbol": "MATIC",
+      "symbol": "POL",
       "address": {
         "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
       },
@@ -12610,7 +12663,7 @@
     "billType": "reserve",
     "billVersion": "V2",
     "lpToken": {
-      "symbol": "MATIC",
+      "symbol": "POL",
       "address": {
         "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
       },
@@ -12842,7 +12895,7 @@
     "billType": "reserve",
     "billVersion": "V2",
     "lpToken": {
-      "symbol": "MATIC",
+      "symbol": "POL",
       "address": {
         "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
       },
@@ -12952,7 +13005,7 @@
     "billType": "reserve",
     "billVersion": "V2",
     "lpToken": {
-      "symbol": "MATIC",
+      "symbol": "POL",
       "address": {
         "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
       },
@@ -13065,7 +13118,7 @@
     "billType": "reserve",
     "billVersion": "V2",
     "lpToken": {
-      "symbol": "MATIC",
+      "symbol": "POL",
       "address": {
         "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
       },
@@ -13119,7 +13172,7 @@
     "billType": "reserve",
     "billVersion": "V2",
     "lpToken": {
-      "symbol": "MATIC",
+      "symbol": "POL",
       "address": {
         "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
       },
@@ -13291,7 +13344,7 @@
     "billType": "reserve",
     "billVersion": "V2",
     "lpToken": {
-      "symbol": "MATIC",
+      "symbol": "POL",
       "address": {
         "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
       },
@@ -13522,7 +13575,7 @@
     "billType": "reserve",
     "billVersion": "V2",
     "lpToken": {
-      "symbol": "MATIC",
+      "symbol": "POL",
       "address": {
         "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
       },
@@ -13742,7 +13795,7 @@
     "billType": "reserve",
     "billVersion": "V2",
     "lpToken": {
-      "symbol": "MATIC",
+      "symbol": "POL",
       "address": {
         "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
       },
@@ -14631,7 +14684,7 @@
     "billType": "liquidity",
     "billVersion": "V2",
     "lpToken": {
-      "symbol": "KOM-MATIC",
+      "symbol": "KOM-POL",
       "address": {
         "137": "0x0806A407d6eEa72788d91C36829A19d424446040"
       },
@@ -14681,7 +14734,7 @@
     "billType": "liquidity",
     "billVersion": "V2",
     "lpToken": {
-      "symbol": "DOGIRA-MATIC",
+      "symbol": "DOGIRA-POL",
       "address": {
         "137": "0x103062f71b7106a8df6fd2a4dd9368358c44a9d0"
       },
@@ -14727,7 +14780,7 @@
     "billType": "liquidity",
     "billVersion": "V2",
     "lpToken": {
-      "symbol": "LEAP-MATIC",
+      "symbol": "LEAP-POL",
       "address": {
         "137": "0xb933e9e1ed78612e24f79cdf6976ef19fe0e357c"
       },
@@ -14878,7 +14931,7 @@
     "billType": "liquidity",
     "billVersion": "V1",
     "lpToken": {
-      "symbol": "DOGIRA-MATIC",
+      "symbol": "DOGIRA-POL",
       "address": {
         "137": "0x103062f71b7106a8df6fd2a4dd9368358c44a9d0"
       },
@@ -14917,7 +14970,7 @@
     "billType": "liquidity",
     "billVersion": "V1",
     "lpToken": {
-      "symbol": "TRAXX-MATIC",
+      "symbol": "TRAXX-POL",
       "address": {
         "137": "0x545cb3055e62c86f54ba479c7cafc7e1e2eeec54"
       },
@@ -14962,7 +15015,7 @@
     "billType": "liquidity",
     "billVersion": "V1",
     "lpToken": {
-      "symbol": "DOGIRA-MATIC",
+      "symbol": "DOGIRA-POL",
       "address": {
         "137": "0x103062f71b7106a8df6fd2a4dd9368358c44a9d0"
       },

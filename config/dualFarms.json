@@ -18,7 +18,7 @@
         "active": true
       },
       "token1": {
-        "symbol": "MATIC",
+        "symbol": "POL",
         "address": {
           "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
           "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
@@ -76,7 +76,7 @@
     "dualImage": false,
     "stakeTokens": {
       "token0": {
-        "symbol": "MATIC",
+        "symbol": "POL",
         "address": {
           "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
           "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
@@ -131,7 +131,7 @@
         "active": true
       },
       "token1": {
-        "symbol": "MATIC",
+        "symbol": "POL",
         "address": {
           "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
           "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
@@ -157,7 +157,7 @@
     "dualImage": false,
     "stakeTokens": {
       "token0": {
-        "symbol": "MATIC",
+        "symbol": "POL",
         "address": {
           "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
           "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
@@ -228,7 +228,7 @@
         "active": true
       },
       "token1": {
-        "symbol": "MATIC",
+        "symbol": "POL",
         "address": {
           "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
           "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
@@ -254,7 +254,7 @@
     "dualImage": false,
     "stakeTokens": {
       "token0": {
-        "symbol": "MATIC",
+        "symbol": "POL",
         "address": {
           "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
           "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
@@ -314,7 +314,7 @@
         "active": true
       },
       "token1": {
-        "symbol": "MATIC",
+        "symbol": "POL",
         "address": {
           "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
           "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
@@ -340,7 +340,7 @@
     "dualImage": false,
     "stakeTokens": {
       "token0": {
-        "symbol": "MATIC",
+        "symbol": "POL",
         "address": {
           "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
           "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
@@ -418,7 +418,7 @@
         "active": true
       },
       "token1": {
-        "symbol": "MATIC",
+        "symbol": "POL",
         "address": {
           "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
           "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
@@ -444,7 +444,7 @@
     "dualImage": false,
     "stakeTokens": {
       "token0": {
-        "symbol": "MATIC",
+        "symbol": "POL",
         "address": {
           "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
           "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
@@ -507,7 +507,7 @@
         "active": true
       },
       "token1": {
-        "symbol": "MATIC",
+        "symbol": "POL",
         "address": {
           "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
           "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
@@ -612,7 +612,7 @@
         "active": true
       },
       "token1": {
-        "symbol": "MATIC",
+        "symbol": "POL",
         "address": {
           "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
           "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
@@ -638,7 +638,7 @@
     "dualImage": false,
     "stakeTokens": {
       "token0": {
-        "symbol": "MATIC",
+        "symbol": "POL",
         "address": {
           "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
           "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
@@ -692,7 +692,7 @@
         "active": true
       },
       "token1": {
-        "symbol": "MATIC",
+        "symbol": "POL",
         "address": {
           "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
           "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
@@ -717,7 +717,7 @@
     "rewarderAddress": "0x75f73Fec666052149FaE95a3655890b911E160a4",
     "stakeTokens": {
       "token0": {
-        "symbol": "MATIC",
+        "symbol": "POL",
         "address": {
           "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
           "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
@@ -782,7 +782,7 @@
     "rewarderAddress": "0xb08fc08D16eBE8B80c34d2E20628dD8462768E9b",
     "stakeTokens": {
       "token0": {
-        "symbol": "MATIC",
+        "symbol": "POL",
         "address": {
           "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
           "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
@@ -851,7 +851,7 @@
     "rewarderAddress": "0xDe0a831D482bBd001aceB5a788e4adc502C5E6BA",
     "stakeTokens": {
       "token0": {
-        "symbol": "MATIC",
+        "symbol": "POL",
         "address": {
           "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
           "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
@@ -1008,7 +1008,7 @@
     "rewarderAddress": "0x53074a829b27aebf8dfa892c715cb6f41fb2db6e",
     "stakeTokens": {
       "token0": {
-        "symbol": "MATIC",
+        "symbol": "POL",
         "address": {
           "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
           "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
@@ -1077,7 +1077,7 @@
     "rewarderAddress": "0xc4e3457D0039815CF839f2Cb9141FCb442A6200b",
     "stakeTokens": {
       "token0": {
-        "symbol": "MATIC",
+        "symbol": "POL",
         "address": {
           "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
           "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
@@ -1148,7 +1148,7 @@
     "rewarderAddress": "0xfFc2Ab60A93C2e06eEa8d7C4d7a027fE4d02a67F",
     "stakeTokens": {
       "token0": {
-        "symbol": "MATIC",
+        "symbol": "POL",
         "address": {
           "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
           "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
