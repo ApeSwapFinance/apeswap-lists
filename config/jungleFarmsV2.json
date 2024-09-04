@@ -189,10 +189,10 @@
   },
   {
     "jungleId": 1000,
-    "tokenName": "ABOND-MATIC",
+    "tokenName": "ABOND-POL",
     "image": "ABOND.svg",
     "stakingToken": {
-      "symbol": "ABOND-MATIC",
+      "symbol": "ABOND-POL",
       "address": {
         "137": "0x27b00fE0413DFc2DE52D18562a2D0fB353A9cE00"
       },
@@ -248,7 +248,7 @@
         "active": true
       },
       "quoteToken": {
-        "symbol": "MATIC",
+        "symbol": "POL",
         "address": {
           "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
           "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",

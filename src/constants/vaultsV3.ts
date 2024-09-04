@@ -300,8 +300,8 @@ const vaults: VaultConfig[] = [
     stratAddress: {
       [ChainId.BSC]: '0x088D9CacCaB515c1E2Ef83Dab0961a91FF52942e',
     },
-    stakeToken: tokens.bnbMatic,
-    token: tokens.wmatic,
+    stakeToken: tokens.bnbPol,
+    token: tokens.wpol,
     quoteToken: tokens.wbnb,
     rewardToken: tokens.banana,
     platform: 'ApeSwap',

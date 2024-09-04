@@ -11586,7 +11586,7 @@
     "billType": "liquidity",
     "billVersion": "V2",
     "lpToken": {
-      "symbol": "MATIC-RUM",
+      "symbol": "POL-RUM",
       "address": {
         "137": "0xA98397d5568724948E9A24B3B0e58B7114C0fE4E"
       },
@@ -11811,7 +11811,7 @@
     "billType": "liquidity",
     "billVersion": "V2",
     "lpToken": {
-      "symbol": "WMATIC-DSRUN",
+      "symbol": "WPOL-DSRUN",
       "address": {
         "137": "0xECD259DEdDc93B9881debDC67c7c4b553794Fd3c"
       },
@@ -12097,7 +12097,7 @@
     "billType": "reserve",
     "billVersion": "V2",
     "lpToken": {
-      "symbol": "MATIC",
+      "symbol": "POL",
       "address": {
         "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
       },
@@ -12325,7 +12325,7 @@
     "billType": "reserve",
     "billVersion": "V2",
     "lpToken": {
-      "symbol": "MATIC",
+      "symbol": "POL",
       "address": {
         "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
       },
@@ -12610,7 +12610,7 @@
     "billType": "reserve",
     "billVersion": "V2",
     "lpToken": {
-      "symbol": "MATIC",
+      "symbol": "POL",
       "address": {
         "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
       },
@@ -12842,7 +12842,7 @@
     "billType": "reserve",
     "billVersion": "V2",
     "lpToken": {
-      "symbol": "MATIC",
+      "symbol": "POL",
       "address": {
         "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
       },
@@ -12952,7 +12952,7 @@
     "billType": "reserve",
     "billVersion": "V2",
     "lpToken": {
-      "symbol": "MATIC",
+      "symbol": "POL",
       "address": {
         "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
       },
@@ -13065,7 +13065,7 @@
     "billType": "reserve",
     "billVersion": "V2",
     "lpToken": {
-      "symbol": "MATIC",
+      "symbol": "POL",
       "address": {
         "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
       },
@@ -13119,7 +13119,7 @@
     "billType": "reserve",
     "billVersion": "V2",
     "lpToken": {
-      "symbol": "MATIC",
+      "symbol": "POL",
       "address": {
         "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
       },
@@ -13291,7 +13291,7 @@
     "billType": "reserve",
     "billVersion": "V2",
     "lpToken": {
-      "symbol": "MATIC",
+      "symbol": "POL",
       "address": {
         "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
       },
@@ -13522,7 +13522,7 @@
     "billType": "reserve",
     "billVersion": "V2",
     "lpToken": {
-      "symbol": "MATIC",
+      "symbol": "POL",
       "address": {
         "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
       },
@@ -13742,7 +13742,7 @@
     "billType": "reserve",
     "billVersion": "V2",
     "lpToken": {
-      "symbol": "MATIC",
+      "symbol": "POL",
       "address": {
         "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
       },
@@ -14631,7 +14631,7 @@
     "billType": "liquidity",
     "billVersion": "V2",
     "lpToken": {
-      "symbol": "KOM-MATIC",
+      "symbol": "KOM-POL",
       "address": {
         "137": "0x0806A407d6eEa72788d91C36829A19d424446040"
       },
@@ -14681,7 +14681,7 @@
     "billType": "liquidity",
     "billVersion": "V2",
     "lpToken": {
-      "symbol": "DOGIRA-MATIC",
+      "symbol": "DOGIRA-POL",
       "address": {
         "137": "0x103062f71b7106a8df6fd2a4dd9368358c44a9d0"
       },
@@ -14727,7 +14727,7 @@
     "billType": "liquidity",
     "billVersion": "V2",
     "lpToken": {
-      "symbol": "LEAP-MATIC",
+      "symbol": "LEAP-POL",
       "address": {
         "137": "0xb933e9e1ed78612e24f79cdf6976ef19fe0e357c"
       },
@@ -14878,7 +14878,7 @@
     "billType": "liquidity",
     "billVersion": "V1",
     "lpToken": {
-      "symbol": "DOGIRA-MATIC",
+      "symbol": "DOGIRA-POL",
       "address": {
         "137": "0x103062f71b7106a8df6fd2a4dd9368358c44a9d0"
       },
@@ -14917,7 +14917,7 @@
     "billType": "liquidity",
     "billVersion": "V1",
     "lpToken": {
-      "symbol": "TRAXX-MATIC",
+      "symbol": "TRAXX-POL",
       "address": {
         "137": "0x545cb3055e62c86f54ba479c7cafc7e1e2eeec54"
       },
@@ -14962,7 +14962,7 @@
     "billType": "liquidity",
     "billVersion": "V1",
     "lpToken": {
-      "symbol": "DOGIRA-MATIC",
+      "symbol": "DOGIRA-POL",
       "address": {
         "137": "0x103062f71b7106a8df6fd2a4dd9368358c44a9d0"
       },

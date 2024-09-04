@@ -63,13 +63,13 @@ const jungleFarmsV2: JungleFarmConfig[] = [
 
   {
     jungleId: 1000,
-    tokenName: tokens.abondMatic_QS.symbol,
+    tokenName: tokens.abondPol_QS.symbol,
     image: 'ABOND.svg',
-    stakingToken: tokens.abondMatic_QS,
+    stakingToken: tokens.abondPol_QS,
     rewardToken: tokens.abond,
     lpTokens: {
       token: tokens.abond,
-      quoteToken: tokens.wmatic,
+      quoteToken: tokens.wpol,
     },
     contractAddress: {
       [ChainId.MATIC]: '0x2B41D626C7C3ab5620AA128dc664145564102dC3',

@@ -5609,7 +5609,7 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    lpToken: tokens.maticRum_Ichi,
+    lpToken: tokens.polRum_Ichi,
     earnToken: tokens.rum,
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
@@ -5723,7 +5723,7 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    lpToken: tokens.maticDsrun_Ichi,
+    lpToken: tokens.polDsrun_Ichi,
     earnToken: tokens.dsrun,
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
@@ -5869,7 +5869,7 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    lpToken: tokens.wmatic,
+    lpToken: tokens.wpol,
     earnToken: tokens.thx,
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
@@ -5990,7 +5990,7 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    lpToken: tokens.wmatic,
+    lpToken: tokens.wpol,
     earnToken: tokens.a51,
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
@@ -6148,7 +6148,7 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    lpToken: tokens.wmatic,
+    lpToken: tokens.wpol,
     earnToken: tokens.ecld,
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
@@ -6268,7 +6268,7 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    lpToken: tokens.wmatic,
+    lpToken: tokens.wpol,
     earnToken: tokens.a51,
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
@@ -6327,7 +6327,7 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    lpToken: tokens.wmatic,
+    lpToken: tokens.wpol,
     earnToken: tokens.bull,
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
@@ -6385,7 +6385,7 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    lpToken: tokens.wmatic,
+    lpToken: tokens.wpol,
     earnToken: tokens.thx,
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
@@ -6414,7 +6414,7 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    lpToken: tokens.wmatic,
+    lpToken: tokens.wpol,
     earnToken: tokens.nftbs,
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
@@ -6508,7 +6508,7 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    lpToken: tokens.wmatic,
+    lpToken: tokens.wpol,
     earnToken: tokens.a51,
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
@@ -6627,7 +6627,7 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    lpToken: tokens.wmatic,
+    lpToken: tokens.wpol,
     earnToken: tokens.bull,
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
@@ -6739,7 +6739,7 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    lpToken: tokens.wmatic,
+    lpToken: tokens.wpol,
     earnToken: tokens.a51,
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
@@ -7172,7 +7172,7 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    lpToken: tokens.komMatic,
+    lpToken: tokens.komPol,
     earnToken: tokens.kom,
     billNnftAddress: {
       [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
@@ -7193,7 +7193,7 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    lpToken: tokens.dogiraMatic,
+    lpToken: tokens.dogiraPol,
     earnToken: tokens.dogira,
     billNnftAddress: {
       [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
@@ -7214,7 +7214,7 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    lpToken: tokens.leapMatic,
+    lpToken: tokens.leapPol,
     earnToken: tokens.leap,
     billNnftAddress: {
       [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
@@ -7277,7 +7277,7 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    lpToken: tokens.dogiraMatic,
+    lpToken: tokens.dogiraPol,
     earnToken: tokens.dogira,
     billNnftAddress: {
       [ChainId.MATIC]: '0xa35c3fcd306cf69fed19e8c7b15c8b3904ea609d',
@@ -7295,7 +7295,7 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    lpToken: tokens.traxxMatic,
+    lpToken: tokens.traxxPol,
     earnToken: tokens.traxx,
     billNnftAddress: {
       [ChainId.MATIC]: '0xa35c3fcd306cf69fed19e8c7b15c8b3904ea609d',
@@ -7315,7 +7315,7 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V1,
-    lpToken: tokens.dogiraMatic,
+    lpToken: tokens.dogiraPol,
     earnToken: tokens.dogira,
     billNnftAddress: {
       [ChainId.MATIC]: '0xa35c3fcd306cf69fed19e8c7b15c8b3904ea609d',
