@@ -32,6 +32,7 @@ export enum ChainId {
   IOTA_TESTNET = 1075,
   IOTA = 8822,
   BASE = 8453,
+  CAMP_TESTNET = 325000,
 }
 
 export enum LiquidityDex {
