@@ -390,6 +390,19 @@ const tokens: Record<string, Token> = {
       [ChainId.LINEA]: LiquidityDex.Lynex,
     },
   },
+  linus: {
+    symbol: 'LINUS',
+    address: {
+      [ChainId.LINEA]: '0xe07C2bdbb8C787962C2C6e93C11a152110E7E4d2',
+    },
+    decimals: {
+      [ChainId.LINEA]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.LINEA]: LiquidityDex.Lynex,
+    },
+  },
   mvx: {
     symbol: 'MVX',
     address: {
