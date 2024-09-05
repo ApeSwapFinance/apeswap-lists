@@ -16,11 +16,11 @@ const bills: BillsConfig[] = [
   //
   // IOTA
   //
-  /* {
+  {
     index: 9004,
     chainId: ChainId.IOTA,
     contractAddress: {
-      [ChainId.IOTA]: '',
+      [ChainId.IOTA]: '0xaB99900B559F23dd08Ed5351c5a68970a14b4872',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
@@ -37,10 +37,10 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    tags: ['Community', 'RWA'],
+    tags: ['Lending'],
     shortDescription: `ioLend is a DeFi platform that aggregates top yield opportunities through integrated yield-bearing collateral and automated smart leverage tools. It enables users to capture multiple yield sources and explore various strategies for yield and arbitrage. The $IOL token, central to governance and utility, is distributed with a 90-day vesting period, ensuring sustainability and efficient capital utilization across the protocol.`,
     fullDescription: `ioLend is a decentralized finance platform designed to aggregate the most attractive yield opportunities on the network. By integrating yield-bearing collateral and automated smart leverage tools on decentralized borrowing markets, ioLend enables users to capture multiple yield sources simultaneously while maximizing returns. The protocol offers diverse strategies for yield generation and arbitrage, emphasizing capital efficiency and sustainability. The platform's governance and utility token, $IOL, is distributed to depositors and borrowers, with a vesting period of 90 days. Early withdrawal from the vest incurs penalties based on time elapsed. ioLend stands out in the DeFi space by prioritizing sustainability, protocol utility, and decentralized governance, overcoming challenges faced by previous models.`,
-  }, */
+  },
   {
     index: 9003,
     chainId: ChainId.IOTA,
