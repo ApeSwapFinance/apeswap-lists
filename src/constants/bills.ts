@@ -6,17 +6,66 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingT
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2010
 // ETH Largest ID: 3020
-// Linea Largest ID: 6007
+// Linea Largest ID: 6008
 // Base Largest ID: 8010
 // Lightlink Largest ID: 7000
-// IOTA largest ID: 9002
+// IOTA largest ID: 9003
 // Migration Bonds ID: 5007
 
 const bills: BillsConfig[] = [
   //
   // IOTA
   //
-
+  /* {
+    index: 9004,
+    chainId: ChainId.IOTA,
+    contractAddress: {
+      [ChainId.IOTA]: '',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdt,
+    earnToken: tokens.iol,
+    billNnftAddress: {
+      [ChainId.IOTA]: '0x896c7021C1ACa0dD65D1D525b0434822dbCB6d9d',
+    },
+    inactive: false,
+    projectLink: 'https://www.iolend.finance/',
+    twitter: 'https://twitter.com/iolendfi',
+    initTime: { [ChainId.IOTA]: 1725544655 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Community', 'RWA'],
+    shortDescription: `ioLend is a DeFi platform that aggregates top yield opportunities through integrated yield-bearing collateral and automated smart leverage tools. It enables users to capture multiple yield sources and explore various strategies for yield and arbitrage. The $IOL token, central to governance and utility, is distributed with a 90-day vesting period, ensuring sustainability and efficient capital utilization across the protocol.`,
+    fullDescription: `ioLend is a decentralized finance platform designed to aggregate the most attractive yield opportunities on the network. By integrating yield-bearing collateral and automated smart leverage tools on decentralized borrowing markets, ioLend enables users to capture multiple yield sources simultaneously while maximizing returns. The protocol offers diverse strategies for yield generation and arbitrage, emphasizing capital efficiency and sustainability. The platform's governance and utility token, $IOL, is distributed to depositors and borrowers, with a vesting period of 90 days. Early withdrawal from the vest incurs penalties based on time elapsed. ioLend stands out in the DeFi space by prioritizing sustainability, protocol utility, and decentralized governance, overcoming challenges faced by previous models.`,
+  }, */
+  {
+    index: 9003,
+    chainId: ChainId.IOTA,
+    contractAddress: {
+      [ChainId.IOTA]: '0xAA575CF1cC961aCAF9be146a2a12c1f1aD1c4bC3',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.iota,
+    earnToken: tokens.rust,
+    billNnftAddress: {
+      [ChainId.IOTA]: '0x896c7021C1ACa0dD65D1D525b0434822dbCB6d9d',
+    },
+    inactive: false,
+    projectLink: 'https://www.rustyrobot.io/',
+    twitter: 'https://x.com/RustyRobotCC',
+    initTime: { [ChainId.IOTA]: 1725544655 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Community', 'RWA'],
+    shortDescription: `The Rusty Robot Country Club (RRCC) is the longest-running NFT community on IOTA, and excels in global creative collaboration across music, comics, books, and more. Their token empowers artists to launch and tokenize IP through their RWA platform, Coda. RRCC NFTs grant access to an ecosystem featuring NFT collectibles, comics, Rusty Robot Records, Rusty Apparel, and $RUST-powered DeFi tools.`,
+    fullDescription: `The Rusty Robot Country Club (RRCC) is the longest-running NFT community on IOTA uniting a global team and community with the goal of establishing the world's largest creative brand. They excel in global creative collaboration across music, comics, books, and other mediums. Their token empowers artists to launch and tokenize IP through their RWA platform, Coda. RRCC NFTs grant access to an ecosystem featuring NFT collectibles, comics, Rusty Robot Records, Rusty Apparel, and $RUST-powered DeFi tools. The $RUST token is crucial to the RRCC ecosystem, as all activities and opportunities post-NFT sale require holding $RUST. Notably, the project launched without an ICO, private sale, or investor buy-ins.`,
+  },
   {
     index: 9002,
     chainId: ChainId.IOTA,
@@ -438,6 +487,32 @@ const bills: BillsConfig[] = [
 
   //
   // LINEA
+  /* 
+  {
+    index: 6008,
+    chainId: ChainId.LINEA,
+    contractAddress: {
+      [ChainId.LINEA]: '',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdt,
+    earnToken: tokens.linus,
+    billNnftAddress: {
+      [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
+    },
+    inactive: false,
+    projectLink: 'https://efrogs.mirror.xyz/',
+    twitter: 'https://x.com/efrogs_on_linea',
+    initTime: { [ChainId.LINEA]: 1724152998 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Meme', 'Community'],
+    fullDescription: `LINUS is the OG Memecoin of Linea, the Layer 2 blockchain developed by Ethereum co-founder Joe Lubin. Consisting of an army of pengmilios, which are the most degen ever seen on the Chain. Pengmilios are the owners of $LINUS and $LINUS is the memecoin of Pengmilios. Do you want to become a part of our family? Buy some fucking LINUS 69420.`,
+    shortDescription: `Linus is the original memecoin of the Linea blockchain, a Layer 2 solution developed by Ethereum co-founder Joe Lubin. At the heart of this project are the Pengmilios, a wild and loyal army of degens, who proudly own $LINUS, the memecoin that represents their playful yet determined spirit. Unlike traditional tokens like $ENA, $ARB, or $UNI, Linus thrives on market sentiment and social trends, giving it unlimited growth potential. As part of the expanding Linea ecosystem, Linus anticipates billions in valuation, setting the stage for massive inflows into tokens like $LINUS. Pengmilio, the champion of Linea and the flightless bird of the people, leads this art-focused meme project with pride. With its bold, limitless approach, Linus invites everyone to join the Club Pengu community, embrace the fun, and be part of the meteoric rise of this one-of-a-kind memecoin. Ready to be a part of the family? Get your $LINUS now and join the revolution!`,
+  }, */
   {
     index: 6007,
     chainId: ChainId.LINEA,
@@ -648,9 +723,9 @@ const bills: BillsConfig[] = [
     soldOut: false,
     billArt: { collection: BillArtCollection.ApeBond_Collection1 },
     shortDescription:
-      'Poollotto is a pioneering technology company specializing in blockchain-powered lottery solutions, utilizing the Poollotto Token (PLT) to revolutionize the industry. By creating a transparent, fair, and secure platform, Poollotto enables decentralized management of global lottery pools, ensuring automated and secure payments. With their innovative approach, they aim to transform the lottery experience for users worldwide. <a href="https://pltlotto.com/" target="_blank" rel="noopener noreferrer" style="color: #38A611">Purchase $100 or more worth of $PLT Bonds to earn 2 free lotto game tickets!</a>',
+      'Poollotto is a pioneering technology company specializing in blockchain-powered lottery solutions, utilizing the Poollotto Token (PLT) to revolutionize the industry. By creating a transparent, fair, and secure platform, Poollotto enables decentralized management of global lottery pools, ensuring automated and secure payments. With their innovative approach, they aim to transform the lottery experience for users worldwide. <a href="https://metalottery.win/" target="_blank" rel="noopener noreferrer" style="color: #38A611">Purchase $100 or more worth of $PLT Bonds to earn 2 free lotto game ticket NFTs!</a>',
     fullDescription:
-      'Poollotto is a leading technology company specializing in blockchain-powered lottery solutions, utilizing the Poollotto Token (PLT) to revolutionize the industry. Launched to create a transparent and fair token economy, Poollotto leverages blockchain technology to ensure secure, tamper-proof transactions, and records all lottery activities on a public ledger, eliminating doubts of manipulation. By automating processes through smart contracts, Poollotto reduces administrative costs and improves efficiency, while allowing operators to customize their platforms for a unique experience. The PLT token enables global participation in decentralized lottery pools, enhancing inclusivity and ensuring automated, secure payments, ultimately transforming the lottery industry with fairness and transparency at its core. <a href="https://pltlotto.com/" target="_blank" rel="noopener noreferrer" style="color: #38A611">Purchase $100 or more worth of $PLT Bonds to earn 2 free lotto game tickets!</a>',
+      'Poollotto is a leading technology company specializing in blockchain-powered lottery solutions, utilizing the Poollotto Token (PLT) to revolutionize the industry. Launched to create a transparent and fair token economy, Poollotto leverages blockchain technology to ensure secure, tamper-proof transactions, and records all lottery activities on a public ledger, eliminating doubts of manipulation. By automating processes through smart contracts, Poollotto reduces administrative costs and improves efficiency, while allowing operators to customize their platforms for a unique experience. The PLT token enables global participation in decentralized lottery pools, enhancing inclusivity and ensuring automated, secure payments, ultimately transforming the lottery industry with fairness and transparency at its core. <a href="https://metalottery.win/" target="_blank" rel="noopener noreferrer" style="color: #38A611">Purchase $100 or more worth of $PLT Bonds to earn 2 free lotto game ticket NFTs!</a>',
     tags: ['Gambling'],
   },
   {
