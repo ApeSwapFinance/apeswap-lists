@@ -33,6 +33,19 @@ const tokens: Record<string, Token> = {
       [ChainId.IOTA]: LiquidityDex.MagicSea,
     },
   },
+  iol: {
+    symbol: 'IOL',
+    address: {
+      [ChainId.IOTA]: '0xF5755e48B6F2F06F8ea904bdA26177CB3ca06Ff0',
+    },
+    decimals: {
+      [ChainId.IOTA]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.IOTA]: LiquidityDex.Wagmi,
+    },
+  },
   rust: {
     symbol: 'RUST',
     address: {
