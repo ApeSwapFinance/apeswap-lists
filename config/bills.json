@@ -1,5 +1,107 @@
 [
   {
+    "index": 9004,
+    "chainId": 8822,
+    "contractAddress": {
+      "8822": "0xaB99900B559F23dd08Ed5351c5a68970a14b4872"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4"
+      },
+      "decimals": {
+        "8822": 6
+      },
+      "liquidityDex": {
+        "8822": "MagicSea"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "IOL",
+      "address": {
+        "8822": "0xF5755e48B6F2F06F8ea904bdA26177CB3ca06Ff0"
+      },
+      "decimals": {
+        "8822": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "8822": "Wagmi"
+      }
+    },
+    "billNnftAddress": {
+      "8822": "0x896c7021C1ACa0dD65D1D525b0434822dbCB6d9d"
+    },
+    "inactive": false,
+    "projectLink": "https://www.iolend.finance/",
+    "twitter": "https://twitter.com/iolendfi",
+    "initTime": {
+      "8822": 1725544655
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["Lending"],
+    "shortDescription": "ioLend is a DeFi platform that aggregates top yield opportunities through integrated yield-bearing collateral and automated smart leverage tools. It enables users to capture multiple yield sources and explore various strategies for yield and arbitrage. The $IOL token, central to governance and utility, is distributed with a 90-day vesting period, ensuring sustainability and efficient capital utilization across the protocol.",
+    "fullDescription": "ioLend is a decentralized finance platform designed to aggregate the most attractive yield opportunities on the network. By integrating yield-bearing collateral and automated smart leverage tools on decentralized borrowing markets, ioLend enables users to capture multiple yield sources simultaneously while maximizing returns. The protocol offers diverse strategies for yield generation and arbitrage, emphasizing capital efficiency and sustainability. The platform's governance and utility token, $IOL, is distributed to depositors and borrowers, with a vesting period of 90 days. Early withdrawal from the vest incurs penalties based on time elapsed. ioLend stands out in the DeFi space by prioritizing sustainability, protocol utility, and decentralized governance, overcoming challenges faced by previous models."
+  },
+  {
+    "index": 9003,
+    "chainId": 8822,
+    "contractAddress": {
+      "8822": "0xAA575CF1cC961aCAF9be146a2a12c1f1aD1c4bC3"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "IOTA",
+      "address": {
+        "8822": "0x6e47f8d48a01b44DF3fFF35d258A10A3AEdC114c"
+      },
+      "decimals": {
+        "8822": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "8822": "MagicSea"
+      }
+    },
+    "earnToken": {
+      "symbol": "RUST",
+      "address": {
+        "8822": "0x3915b5A673ee6cf126D1042f637Bd10b9931aD08"
+      },
+      "decimals": {
+        "8822": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "8822": "MagicSea"
+      }
+    },
+    "billNnftAddress": {
+      "8822": "0x896c7021C1ACa0dD65D1D525b0434822dbCB6d9d"
+    },
+    "inactive": false,
+    "projectLink": "https://www.rustyrobot.io/",
+    "twitter": "https://x.com/RustyRobotCC",
+    "initTime": {
+      "8822": 1725544655
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["Community", "RWA"],
+    "shortDescription": "The Rusty Robot Country Club (RRCC) is the longest-running NFT community on IOTA, and excels in global creative collaboration across music, comics, books, and more. Their token empowers artists to launch and tokenize IP through their RWA platform, Coda. RRCC NFTs grant access to an ecosystem featuring NFT collectibles, comics, Rusty Robot Records, Rusty Apparel, and $RUST-powered DeFi tools.",
+    "fullDescription": "The Rusty Robot Country Club (RRCC) is the longest-running NFT community on IOTA uniting a global team and community with the goal of establishing the world's largest creative brand. They excel in global creative collaboration across music, comics, books, and other mediums. Their token empowers artists to launch and tokenize IP through their RWA platform, Coda. RRCC NFTs grant access to an ecosystem featuring NFT collectibles, comics, Rusty Robot Records, Rusty Apparel, and $RUST-powered DeFi tools. The $RUST token is crucial to the RRCC ecosystem, as all activities and opportunities post-NFT sale require holding $RUST. Notably, the project launched without an ICO, private sale, or investor buy-ins."
+  },
+  {
     "index": 9002,
     "chainId": 8822,
     "contractAddress": {
@@ -1247,8 +1349,8 @@
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
-    "shortDescription": "Poollotto is a pioneering technology company specializing in blockchain-powered lottery solutions, utilizing the Poollotto Token (PLT) to revolutionize the industry. By creating a transparent, fair, and secure platform, Poollotto enables decentralized management of global lottery pools, ensuring automated and secure payments. With their innovative approach, they aim to transform the lottery experience for users worldwide. <a href=\"https://pltlotto.com/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #38A611\">Purchase $100 or more worth of $PLT Bonds to earn 2 free lotto game tickets!</a>",
-    "fullDescription": "Poollotto is a leading technology company specializing in blockchain-powered lottery solutions, utilizing the Poollotto Token (PLT) to revolutionize the industry. Launched to create a transparent and fair token economy, Poollotto leverages blockchain technology to ensure secure, tamper-proof transactions, and records all lottery activities on a public ledger, eliminating doubts of manipulation. By automating processes through smart contracts, Poollotto reduces administrative costs and improves efficiency, while allowing operators to customize their platforms for a unique experience. The PLT token enables global participation in decentralized lottery pools, enhancing inclusivity and ensuring automated, secure payments, ultimately transforming the lottery industry with fairness and transparency at its core. <a href=\"https://pltlotto.com/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #38A611\">Purchase $100 or more worth of $PLT Bonds to earn 2 free lotto game tickets!</a>",
+    "shortDescription": "Poollotto is a pioneering technology company specializing in blockchain-powered lottery solutions, utilizing the Poollotto Token (PLT) to revolutionize the industry. By creating a transparent, fair, and secure platform, Poollotto enables decentralized management of global lottery pools, ensuring automated and secure payments. With their innovative approach, they aim to transform the lottery experience for users worldwide. <a href=\"https://metalottery.win/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #38A611\">Purchase $100 or more worth of $PLT Bonds to earn 2 free lotto game ticket NFTs!</a>",
+    "fullDescription": "Poollotto is a leading technology company specializing in blockchain-powered lottery solutions, utilizing the Poollotto Token (PLT) to revolutionize the industry. Launched to create a transparent and fair token economy, Poollotto leverages blockchain technology to ensure secure, tamper-proof transactions, and records all lottery activities on a public ledger, eliminating doubts of manipulation. By automating processes through smart contracts, Poollotto reduces administrative costs and improves efficiency, while allowing operators to customize their platforms for a unique experience. The PLT token enables global participation in decentralized lottery pools, enhancing inclusivity and ensuring automated, secure payments, ultimately transforming the lottery industry with fairness and transparency at its core. <a href=\"https://metalottery.win/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #38A611\">Purchase $100 or more worth of $PLT Bonds to earn 2 free lotto game ticket NFTs!</a>",
     "tags": ["Gambling"]
   },
   {

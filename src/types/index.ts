@@ -32,6 +32,7 @@ export enum ChainId {
   IOTA_TESTNET = 1075,
   IOTA = 8822,
   BASE = 8453,
+  //CAMP_TESTNET = 325000, //Commented as breaking the FE.
 }
 
 export enum LiquidityDex {
@@ -69,6 +70,7 @@ export enum LiquidityDex {
 
   //IOTA
   MagicSea = 'MagicSea',
+  Wagmi = 'Wagmi',
 
   //ARBITRUM
   CamelotV2 = 'Camelotv2',
@@ -619,6 +621,10 @@ export const dexFactories: Partial<
       factory: '0x349aaAc3a500014981CBA11b64C76c66a6c1e8D0',
       protocol: Protocols.V2,
     },
+    [LiquidityDex.Wagmi]: {
+      factory: '0x01Bd510B2eA106917e711f9a05a42fC162bee2Ac',
+      protocol: Protocols.V3,
+    },
   },
 }
 
@@ -710,6 +716,9 @@ export const dexToZapMapping: Record<LiquidityDex, Partial<Record<ChainId, ZapVe
   },
   [LiquidityDex.SmarDex]: {},
   [LiquidityDex.MagicSea]: {
+    [ChainId.IOTA]: ZapVersion.External,
+  },
+  [LiquidityDex.Wagmi]: {
     [ChainId.IOTA]: ZapVersion.External,
   },
   [LiquidityDex.CamelotV2]: {
