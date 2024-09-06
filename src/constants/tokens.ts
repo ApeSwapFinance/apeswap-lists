@@ -1687,7 +1687,7 @@ const tokens: Record<string, Token> = {
       [ChainId.INEVM]: LiquidityDex.External,
       [ChainId.LINEA]: LiquidityDex.Nile,
       [ChainId.LIGHTLINK]: LiquidityDex.Elektrik,
-      [ChainId.IOTA]: LiquidityDex.MagicSea,
+      [ChainId.IOTA]: LiquidityDex.Wagmi,
       [ChainId.BASE]: LiquidityDex.UniswapV3,
     },
     active: true,
