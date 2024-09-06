@@ -747,7 +747,7 @@ const bills: BillsConfig[] = [
     audit: 'https://skynet.certik.com/projects/solidus-ai-tech',
     initTime: { [ChainId.BSC]: 1712235600 },
     initPrice: { [ChainId.BSC]: 0.000119256747804887 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.AITECH_Collection1,
     },
