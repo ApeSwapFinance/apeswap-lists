@@ -17612,5 +17612,54 @@
       "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png",
       "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png"
     ]
+  },
+  {
+    "index": 3021,
+    "chainId": 1,
+    "contractAddress": {
+      "1": "0x0464BE7e0F27c9b18e4D8020be2bac0D44720f61"
+    },
+    "billType": "reserve",
+    "billVersion": "V3",
+    "lpToken": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+      },
+      "decimals": {
+        "1": 18
+      },
+      "liquidityDex": {},
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "MAG",
+      "address": {
+        "1": "0x71DA932ccdA723BA3ab730C976bC66DaAF9C598c"
+      },
+      "decimals": {
+        "1": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "1": "0x499b654b0a7f9979cc315190c09ca2633809b8df"
+    },
+    "inactive": false,
+    "projectLink": "https://www.magnify.cash/",
+    "twitter": "https://twitter.com/MagnifyCash",
+    "initTime": {
+      "1": 1724691112
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ETH_Collection1"
+    },
+    "shortDescription": "Magnify Cash is a decentralized, non-custodial credit market where users can lend ERC-20 tokens and borrow against NFTs with flexibility and transparency. It uses an automated risk-pricing framework that adapts to tenor and principal. With support for ERC-20 tokens and ERC-1155/ERC-721 assets, lenders can adjust LTV ratios, interest rates, and durations. Borrowers enjoy fixed-term loans free from unexpected liquidations.",
+    "fullDescription": "Magnify Cash is a non-custodial and permissionless decentralized credit market that allows users to lend ERC-20 tokens and borrow against non-fungible tokens (NFTs) with unmatched flexibility and transparency. At its core is an automated framework that prices risk through linear interpolation, adapting to tenor and principal. Magnify Cash supports ERC-20 tokens for lending and ERC-1155/ERC-721 assets as collateral. Lenders can create custom lending desks by adjusting loan-to-value (LTV) ratios, interest rates, and durations. Borrowers benefit from fixed-term loans, free from unexpected liquidations or mid-term changes.",
+    "tags": ["Lending"]
   }
 ]

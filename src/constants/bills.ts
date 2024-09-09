@@ -5,7 +5,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingT
 // Polygon Largest ID: 162
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2010
-// ETH Largest ID: 3020
+// ETH Largest ID: 3021
 // Linea Largest ID: 6008
 // Base Largest ID: 8010
 // Lightlink Largest ID: 7000
@@ -8652,6 +8652,33 @@ const bills: BillsConfig[] = [
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
     ],
+  },
+  {
+    index: 3021,
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0x0464BE7e0F27c9b18e4D8020be2bac0D44720f61',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    lpToken: tokens.eth,
+    earnToken: tokens.mag,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    inactive: false,
+    projectLink: 'https://www.magnify.cash/',
+    twitter: 'https://twitter.com/MagnifyCash',
+    initTime: { [ChainId.MAINNET]: 1724691112 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    shortDescription:
+      'Magnify Cash is a decentralized, non-custodial credit market where users can lend ERC-20 tokens and borrow against NFTs with flexibility and transparency. It uses an automated risk-pricing framework that adapts to tenor and principal. With support for ERC-20 tokens and ERC-1155/ERC-721 assets, lenders can adjust LTV ratios, interest rates, and durations. Borrowers enjoy fixed-term loans free from unexpected liquidations.',
+    fullDescription:
+      'Magnify Cash is a non-custodial and permissionless decentralized credit market that allows users to lend ERC-20 tokens and borrow against non-fungible tokens (NFTs) with unmatched flexibility and transparency. At its core is an automated framework that prices risk through linear interpolation, adapting to tenor and principal. Magnify Cash supports ERC-20 tokens for lending and ERC-1155/ERC-721 assets as collateral. Lenders can create custom lending desks by adjusting loan-to-value (LTV) ratios, interest rates, and durations. Borrowers benefit from fixed-term loans, free from unexpected liquidations or mid-term changes.',
+    tags: ['Lending'],
   },
 ]
 
