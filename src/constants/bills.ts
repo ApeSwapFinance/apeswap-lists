@@ -704,6 +704,33 @@ const bills: BillsConfig[] = [
   // BNB chain
   //
   {
+    index: 1095,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x2F02d89f2F8F91ac77656082AF4b4ce2D91902C7',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdt,
+    earnToken: tokens.brbc,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'http://www.bullrunbets.casino/',
+    twitter: 'https://x.com/bullrunbets',
+    initTime: { [ChainId.BSC]: 1725884035 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Gambling'],
+    shortDescription:
+      'Bull Run Bets is a blockchain-powered gaming platform designed for fairness, transparency, and security. Catering to gamers and bettors alike, it offers a unique blend of online gaming and cryptocurrency, with every transaction being tamper-proof. The Bull Run Bets Coin (BRBC) provides exclusive benefits to users, while the platform pioneers the first AI-driven casino experience, elevating crypto gambling to new heights.',
+    fullDescription:
+      'Bull Run Bets is a cutting-edge gaming platform that combines the excitement of online gaming with the power of blockchain technology and AI. Catering to both casual gamers and seasoned bettors, Bull Run Bets offers a secure and transparent environment where every transaction and bet is tamper-proof. Built on principles of fairness, transparency, and security, the platform aims to provide an unparalleled crypto betting experience. Founded by a team of entrepreneurs passionate about gaming and crypto, Bull Run Bets introduces the Bull Run Bets Coin (BRBC), a utility token that offers exclusive benefits to its holders. With its innovative approach, the platform pioneers the first AI-driven casino experience, setting a new standard in the online gaming industry.',
+  },
+  {
     index: 1094,
     cmcId: 19055,
     chainId: ChainId.BSC,

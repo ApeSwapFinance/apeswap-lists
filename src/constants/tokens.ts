@@ -3089,6 +3089,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  brbc: {
+    symbol: 'BRBC',
+    address: {
+      [ChainId.BSC]: '0x117A123dEd97CD125837d9AC19592b77d806fa88',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+    },
+    active: true,
+  },
   grape: {
     symbol: 'GRAPE',
     address: {
@@ -3295,6 +3306,17 @@ const tokens: Record<string, Token> = {
     symbol: 'STRK',
     address: {
       [ChainId.MAINNET]: '0x74232704659ef37c08995e386A2E26cc27a8d7B1',
+    },
+    decimals: { [ChainId.MAINNET]: 18 },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
+    },
+    active: true,
+  },
+  mag: {
+    symbol: 'MAG',
+    address: {
+      [ChainId.MAINNET]: '0x71DA932ccdA723BA3ab730C976bC66DaAF9C598c',
     },
     decimals: { [ChainId.MAINNET]: 18 },
     liquidityDex: {
