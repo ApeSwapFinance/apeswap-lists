@@ -3089,6 +3089,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  brbc: {
+    symbol: 'BRBC',
+    address: {
+      [ChainId.BSC]: '0x117A123dEd97CD125837d9AC19592b77d806fa88',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+    },
+    active: true,
+  },
   grape: {
     symbol: 'GRAPE',
     address: {
