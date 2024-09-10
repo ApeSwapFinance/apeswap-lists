@@ -194,6 +194,43 @@ billArt: {
 }
 ```
 
+### `billVersion`
+
+This property was added to be able to support multiple bonds ABIs.
+We should use as follows:
+
+- **V2**
+  - BSC
+  - MATIC
+  - ARBITRUM
+  - LINEA
+  - LIGHTLINK
+  - IOTA
+  - BASE
+- **V3**
+  - MAINNET
+  - INEVM
+  - **every new chain we support in the future**
+- **V1** (legacy, not used anymore)
+- **FixedPrice** (used for Migration Bonds and Cex Fund Bonds)
+- **TieredSale** (used for Launchpad Bonds)
+- **FlashTieredSale** (used for Flash Bonds)
+
+```ts
+export enum BillVersion {
+  V1 = 'V1',
+  V2 = 'V2',
+  FixedPrice = 'FixedPrice',
+  V3 = 'V3',
+  TieredSale = 'TieredSale',
+  FlashTieredSale = 'FlashTieredSale',
+}
+```
+
+```ts
+billVersion: BillVersion.V3
+```
+
 # Example
 
 ```ts
