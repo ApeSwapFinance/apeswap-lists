@@ -3324,6 +3324,28 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  aeg: {
+    symbol: 'AEG',
+    address: {
+      [ChainId.MAINNET]: '0xF0187b76be05C1FCAa24f39C0a3aAB4434099c4f',
+    },
+    decimals: { [ChainId.MAINNET]: 18 },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV3,
+    },
+    active: true,
+  },
+  fric: {
+    symbol: 'FRIC',
+    address: {
+      [ChainId.MAINNET]: '0x23Fa3Aa82858E7aD1F0f04352f4bb7F5E1BbFb68',
+    },
+    decimals: { [ChainId.MAINNET]: 18 },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV3,
+    },
+    active: true,
+  },
   gptplus: {
     symbol: 'GPTPLUS',
     address: {

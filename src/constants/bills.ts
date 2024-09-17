@@ -5,7 +5,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingT
 // Polygon Largest ID: 162
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2010
-// ETH Largest ID: 3021
+// ETH Largest ID: 3023
 // Linea Largest ID: 6008
 // Base Largest ID: 8010
 // Lightlink Largest ID: 7000
@@ -8679,6 +8679,60 @@ const bills: BillsConfig[] = [
     fullDescription:
       'Magnify Cash is a non-custodial and permissionless decentralized credit market that allows users to lend ERC-20 tokens and borrow against non-fungible tokens (NFTs) with unmatched flexibility and transparency. At its core is an automated framework that prices risk through linear interpolation, adapting to tenor and principal. Magnify Cash supports ERC-20 tokens for lending and ERC-1155/ERC-721 assets as collateral. Lenders can create custom lending desks by adjusting loan-to-value (LTV) ratios, interest rates, and durations. Borrowers benefit from fixed-term loans, free from unexpected liquidations or mid-term changes.',
     tags: ['DeFi', 'RWA'],
+  },
+  {
+    index: 3022,
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0x8171eD3Ad27Bb1139f3e7Aa6B8b2e2f6aF987534',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    lpToken: tokens.eth,
+    earnToken: tokens.fric,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    inactive: false,
+    projectLink: 'https://www.frictionless.network/',
+    twitter: 'https://x.com/FrictionlessX',
+    initTime: { [ChainId.MAINNET]: 1726567494 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    shortDescription:
+      'Frictionless is a decentralized platform that enables secure, trustless cryptocurrency transfers using smart contracts without impacting market prices. It offers flexibility for projects, whales, and smaller investors alike. Powered by the FRIC token, the platform facilitates non-custodial asset transfers and provides access to post-token-launch fundraising, redefining the fundraising process in the crypto space.',
+    fullDescription:
+      'Frictionless is a groundbreaking platform designed to revolutionize how projects and investors securely and efficiently transfer cryptocurrency through decentralized, trustless smart contracts. Unlike traditional fundraising methods, Frictionless enables asset transfers without impacting market prices, addressing the challenges that many projects and investors face today. The platform offers a unique experience for all participants, from large-scale investors to smaller ones, by facilitating native asset transfers with high flexibility. The FRIC token is the core of this system, providing access to services, securing on-chain transfers, and enabling non-custodial, trustless switching of assets. Additionally, it opens the door to post-token-launch fundraising opportunities, making Frictionless an essential tool in the evolving digital asset space.',
+    tags: ['DeFi'],
+  },
+  {
+    index: 3023,
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0x22943D8b3317aac74B5c396924d0e95108742Ec3',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    lpToken: tokens.eth,
+    earnToken: tokens.aeg,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    inactive: false,
+    projectLink: 'https://aethergames.io/',
+    twitter: 'https://twitter.com/AetherGamesInc',
+    initTime: { [ChainId.MAINNET]: 1726567494 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    shortDescription:
+      'Aether Games is a transmedia development studio creating immersive gaming experiences for web2 and web3 audiences. Their flagship product, Aether: Trading Card Game, is a blockchain-based collectible card game on the Polygon network, allowing players to own and trade cards securely. The Aether universe also includes Aether Saga, a CGI dark fantasy series, with the AEG token facilitating in-game transactions.',
+    fullDescription:
+      'Aether Games is a cutting-edge transmedia development studio dedicated to crafting immersive experiences for both web2 and web3 audiences. Their vision is to create a comprehensive gaming franchise that integrates traditional gaming with blockchain technology, delivering engaging content across various media platforms. At the heart of their offering is Aether: Trading Card Game, a blockchain-based, multi-chain collectible card game primarily on the Polygon network, where players own, trade, and compete with their cards. The Aether universe also features Aether Saga, a fully CGI 3D dark fantasy series that draws audiences deeper into its lore. Powered by the AEG token, Aether Games aims to revolutionize blockchain gaming by providing a seamless, rewarding, and accessible ecosystem for its community.',
+    tags: ['GAMEFI'],
   },
 ]
 
