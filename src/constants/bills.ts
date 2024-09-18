@@ -1,7 +1,7 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1093
+// BNB Largest ID: 1096
 // Polygon Largest ID: 162
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2010
@@ -703,6 +703,33 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1096,
+    cmcId: 23756,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x78F4eFb1e1077BaEd0af53359aA781aA29F87fB6',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdt,
+    earnToken: tokens.cgpt,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://ChainGPT.org/',
+    twitter: 'http://twitter.com/chain_gpt',
+    audit: 'https://www.certik.com/projects/chaingpt/',
+    initTime: { [ChainId.BSC]: 1726664350 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    shortDescription: `ChainGPT is an advanced AI infrastructure ranked #1 for Web3-AI solutions, developing AI-powered technologies for the Web3, Blockchain, and Crypto space. It aims to enhance the Web3 experience for retail users and startups by offering tools for crypto trading, NFT creation, and smart contract development. The $CGPT token is the backbone of ChainGPT's ecosystem, enabling seamless on-chain interactions and access to its comprehensive AI applications.`,
+    fullDescription: `ChainGPT is an advanced AI infrastructure ranked #1 for Web3-AI solutions, specializing in developing AI-powered technologies for the Web3, Blockchain, and Crypto space. The platform aims to enhance the Web3 experience for retail users and startups by providing a range of innovative tools, including those for crypto trading, NFT creation, and smart contract development. ChainGPT Foundation houses three companies: ChainGPT AI, ChainGPT Pad, and ChainGPT Labs, all dedicated to making AI technologies accessible, efficient, and user-friendly. The $CGPT token serves as the economic backbone of ChainGPT's ecosystem, acting as a store of value, a unit of account, and a medium of exchange that facilitates all on-chain interactions. By weaving the $CGPT token into its business architecture, ChainGPT ensures that users can fully access its AI applications, from NFT and smart contract generation to auditing and chatbot interactions. This integration provides significant utility and additional benefits, enhancing the value users gain from $CGPT.`,
+    tags: ['AI'],
+  },
   {
     index: 1095,
     chainId: ChainId.BSC,
