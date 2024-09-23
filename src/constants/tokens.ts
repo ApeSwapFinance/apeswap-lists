@@ -461,6 +461,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  mockToken: {
+    symbol: 'MTK',
+    address: {
+      [ChainId.CAMP_TESTNET]: '0x65871B64dF0B755ED4506CCF33bb1e117ACb80E7',
+    },
+    decimals: {
+      [ChainId.CAMP_TESTNET]: 18,
+    },
+    liquidityDex: {
+      [ChainId.CAMP_TESTNET]: LiquidityDex.External,
+    },
+    active: true,
+  },
   // TODO: remove mock token
   eitm: {
     symbol: 'EITM',
@@ -622,6 +635,7 @@ const tokens: Record<string, Token> = {
       [ChainId.LIGHTLINK]: '0x7EbeF2A4b1B09381Ec5B9dF8C5c6f2dBECA59c73',
       [ChainId.BASE]: '0x4200000000000000000000000000000000000006',
       [ChainId.IOTA]: '0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8',
+      [ChainId.CAMP_TESTNET]: '0xf4198401867c3644E03267b4465A9615768D7a6b',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -634,12 +648,14 @@ const tokens: Record<string, Token> = {
       [ChainId.LIGHTLINK]: 18,
       [ChainId.BASE]: 18,
       [ChainId.IOTA]: 18,
+      [ChainId.CAMP_TESTNET]: 18,
     },
     liquidityDex: {
       [ChainId.LINEA]: LiquidityDex.Lynex,
       [ChainId.LIGHTLINK]: LiquidityDex.Elektrik,
       [ChainId.BASE]: LiquidityDex.Aerodrome,
       [ChainId.IOTA]: LiquidityDex.MagicSea,
+      [ChainId.CAMP_TESTNET]: LiquidityDex.External,
     },
     active: true,
   },
