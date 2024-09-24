@@ -5,7 +5,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingT
 // Polygon Largest ID: 162
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2010
-// ETH Largest ID: 3023
+// ETH Largest ID: 3024
 // Linea Largest ID: 6008
 // Base Largest ID: 8010
 // Lightlink Largest ID: 7000
@@ -8798,6 +8798,34 @@ const bills: BillsConfig[] = [
     fullDescription:
       'Aether Games is a cutting-edge transmedia development studio dedicated to crafting immersive experiences for both web2 and web3 audiences. Their vision is to create a comprehensive gaming franchise that integrates traditional gaming with blockchain technology, delivering engaging content across various media platforms. At the heart of their offering is Aether: Trading Card Game, a blockchain-based, multi-chain collectible card game primarily on the Polygon network, where players own, trade, and compete with their cards. The Aether universe also features Aether Saga, a fully CGI 3D dark fantasy series that draws audiences deeper into its lore. Powered by the AEG token, Aether Games aims to revolutionize blockchain gaming by providing a seamless, rewarding, and accessible ecosystem for its community.',
     tags: ['GAMEFI'],
+  },
+  {
+    index: 3024,
+    cmcId: 30680,
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0xC6110E2966632b4E6ED7c1Ee4CD6DFb7F1fb1F75',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    lpToken: tokens.usdc,
+    earnToken: tokens.gpt,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    inactive: false,
+    projectLink: 'https://gptprotocol.org/',
+    twitter: 'https://twitter.com/gpt_protocol',
+    initTime: { [ChainId.MAINNET]: 1727152900 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription:
+      'GPT Protocol is a pioneering platform leading the merger of artificial intelligence (AI) with blockchain technology, revolutionizing AI development by ensuring it is accessible, innovative, and censorship-resistant. It harnesses open-source AI tools and decentralized networks, bringing together a global community of developers to create, share, and deploy AI applications on the blockchain. $GPT tokens create an AI economy that incentivizes consumers, developers, and compute providers, serving multiple roles within the network, from rewarding miners to compensating data providers.',
+    fullDescription:
+      'GPT Protocol is a transformative Layer 2 blockchain platform built on the Ethereum Virtual Machine, aimed at revolutionizing the artificial intelligence landscape. It integrates decentralized technologies to ensure AI development is accessible, innovative, and censorship-resistant. By harnessing open-source AI tools and decentralized networks, it brings together a global community of developers to create, share, and deploy AI applications on the blockchain. $GPT tokens create an AI economy that incentivizes consumers, developers, and compute providers, serving multiple roles within the network, from rewarding miners to compensating data providers. More than just a technology, GPT Protocol is shaping a future where data integrity, intellectual freedom, and collaborative innovation form the pillars of our digital world.',
   },
 ]
 
