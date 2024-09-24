@@ -2995,6 +2995,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  hat: {
+    symbol: 'HAT',
+    address: {
+      [ChainId.ARBITRUM]: '0x4D22e37Eb4d71D1acc5f4889a65936D2a44A2f15',
+    },
+    decimals: {
+      [ChainId.ARBITRUM]: 18,
+    },
+    liquidityDex: {
+      [ChainId.ARBITRUM]: LiquidityDex.External,
+    },
+    active: true,
+  },
   xcur: {
     symbol: 'XCUR',
     address: {
