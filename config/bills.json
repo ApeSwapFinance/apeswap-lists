@@ -8,9 +8,9 @@
     "billType": "reserve",
     "billVersion": "V3",
     "lpToken": {
-      "symbol": "MTK",
+      "symbol": "ETH",
       "address": {
-        "325000": "0x65871B64dF0B755ED4506CCF33bb1e117ACb80E7"
+        "325000": "0xf4198401867c3644E03267b4465A9615768D7a6b"
       },
       "decimals": {
         "325000": 18
@@ -21,9 +21,9 @@
       "active": true
     },
     "earnToken": {
-      "symbol": "ETH",
+      "symbol": "MTK",
       "address": {
-        "325000": "0xf4198401867c3644E03267b4465A9615768D7a6b"
+        "325000": "0x65871B64dF0B755ED4506CCF33bb1e117ACb80E7"
       },
       "decimals": {
         "325000": 18

@@ -25,8 +25,8 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V3,
-    lpToken: tokens.mockToken,
-    earnToken: tokens.eth,
+    lpToken: tokens.eth,
+    earnToken: tokens.mockToken,
     billNnftAddress: {
       [ChainId.CAMP_TESTNET]: '0x82CfCd79De447b01730b9ED0Db2ad6Ee5AaAC55f',
     },
