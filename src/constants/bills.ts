@@ -21,7 +21,7 @@ const bills: BillsConfig[] = [
     index: 10000,
     chainId: ChainId.CAMP_TESTNET,
     contractAddress: {
-      [ChainId.CAMP_TESTNET]: '0xD889101E3242fE076C3DeFAb1B60F40bb7AD74Fd',
+      [ChainId.CAMP_TESTNET]: '0x95C56d565e2a154065a1FAFCB7945F5644581Dcc',
     },
     billType: 'reserve',
     billVersion: BillVersion.V3,
@@ -33,7 +33,7 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/ApeBond',
-    initTime: { [ChainId.CAMP_TESTNET]: 1725972402 },
+    initTime: { [ChainId.CAMP_TESTNET]: 1727271861 },
     soldOut: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,

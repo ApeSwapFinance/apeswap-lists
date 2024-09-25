@@ -3,7 +3,7 @@
     "index": 10000,
     "chainId": 325000,
     "contractAddress": {
-      "325000": "0xD889101E3242fE076C3DeFAb1B60F40bb7AD74Fd"
+      "325000": "0x95C56d565e2a154065a1FAFCB7945F5644581Dcc"
     },
     "billType": "reserve",
     "billVersion": "V3",
@@ -40,7 +40,7 @@
     "projectLink": "https://ape.bond/",
     "twitter": "https://twitter.com/ApeBond",
     "initTime": {
-      "325000": 1725972402
+      "325000": 1727271861
     },
     "soldOut": false,
     "billArt": {
