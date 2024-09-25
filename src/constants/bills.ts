@@ -10,9 +10,38 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingT
 // Base Largest ID: 8010
 // Lightlink Largest ID: 7000
 // IOTA largest ID: 9003
+// CAMP Testnet largest ID: 10000
 // Migration Bonds ID: 5007
 
 const bills: BillsConfig[] = [
+  //
+  // CAMP Testnet
+  //
+  {
+    index: 10000,
+    chainId: ChainId.CAMP_TESTNET,
+    contractAddress: {
+      [ChainId.CAMP_TESTNET]: '0xD889101E3242fE076C3DeFAb1B60F40bb7AD74Fd',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    lpToken: tokens.mockToken,
+    earnToken: tokens.eth,
+    billNnftAddress: {
+      [ChainId.CAMP_TESTNET]: '0x82CfCd79De447b01730b9ED0Db2ad6Ee5AaAC55f',
+    },
+    inactive: false,
+    projectLink: 'https://ape.bond/',
+    twitter: 'https://twitter.com/ApeBond',
+    initTime: { [ChainId.CAMP_TESTNET]: 1725972402 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Lending'],
+    shortDescription: `lorem ipsum dolor sit amet`,
+    fullDescription: `lorem ipsum dolor sit amet lorem ipsum dolor sit amet`,
+  },
   //
   // IOTA
   //
