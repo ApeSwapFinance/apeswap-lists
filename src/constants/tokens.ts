@@ -234,6 +234,19 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.UniswapV3,
     },
   },
+  imgnai: {
+    symbol: 'imgnAI',
+    address: {
+      [ChainId.BASE]: '0x18E692c03De43972Fe81058f322fa542Ae1A5E2c',
+    },
+    decimals: {
+      [ChainId.BASE]: 9,
+    },
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV3,
+    },
+    active: true,
+  },
   mafia: {
     symbol: 'MAFIA',
     address: {
@@ -2950,19 +2963,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.ARBITRUM]: 18,
-    },
-    liquidityDex: {
-      [ChainId.ARBITRUM]: LiquidityDex.UniswapV3,
-    },
-    active: true,
-  },
-  imgnai: {
-    symbol: 'imgnAI',
-    address: {
-      [ChainId.ARBITRUM]: '0x18E692c03De43972Fe81058f322fa542Ae1A5E2c',
-    },
-    decimals: {
-      [ChainId.ARBITRUM]: 9,
     },
     liquidityDex: {
       [ChainId.ARBITRUM]: LiquidityDex.UniswapV3,
