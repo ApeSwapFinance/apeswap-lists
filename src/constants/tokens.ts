@@ -2956,6 +2956,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  imgnai: {
+    symbol: 'imgnAI',
+    address: {
+      [ChainId.ARBITRUM]: '0x18E692c03De43972Fe81058f322fa542Ae1A5E2c',
+    },
+    decimals: {
+      [ChainId.ARBITRUM]: 9,
+    },
+    liquidityDex: {
+      [ChainId.ARBITRUM]: LiquidityDex.UniswapV3,
+    },
+    active: true,
+  },
   ctok: {
     symbol: 'CTOK',
     address: {
