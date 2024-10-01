@@ -42,7 +42,7 @@
     "initTime": {
       "8822": 1725544655
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -307,7 +307,7 @@
     "initTime": {
       "8453": 1722253943
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -689,7 +689,7 @@
     "initPrice": {
       "8453": 0.005450086440702347
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -743,7 +743,7 @@
     "initPrice": {
       "8453": 0.005450086440702347
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -1120,7 +1120,7 @@
     "initTime": {
       "59144": 1721823456
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -1617,7 +1617,7 @@
     "initTime": {
       "56": 1725634681
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "AITECH_Collection1"
     },
@@ -1944,7 +1944,7 @@
     "initPrice": {
       "56": 0.02599658552546072
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -2061,7 +2061,7 @@
     "initTime": {
       "56": 1723469314
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -2114,7 +2114,7 @@
     "initTime": {
       "56": 1723469314
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -2273,7 +2273,7 @@
     "initTime": {
       "56": 1721652049
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -2330,7 +2330,7 @@
     "initTime": {
       "56": 1721148582
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -2439,7 +2439,7 @@
     "initTime": {
       "56": 1720717200
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -2603,7 +2603,7 @@
     "initPrice": {
       "56": 0.02599658552546072
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -2831,7 +2831,7 @@
     "initPrice": {
       "56": 0.000379098550137839
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -2887,7 +2887,7 @@
     "initPrice": {
       "56": 0.000398917904465581
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -2998,7 +2998,7 @@
     "initPrice": {
       "56": 0.000398917904465581
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -3858,7 +3858,7 @@
     "initPrice": {
       "56": 0.007612142417922644
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -11996,6 +11996,60 @@
     "soldOut": true
   },
   {
+    "index": 163,
+    "cmcId": 12312,
+    "chainId": 137,
+    "contractAddress": {
+      "137": "0xC54Be66F46B26783b09529D92BD1FB7E8CC14c37"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+      },
+      "decimals": {
+        "137": 6
+      },
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "NSDX",
+      "address": {
+        "137": "0xE8d17b127BA8b9899a160D9a07b69bCa8E08bfc6"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "QuickswapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
+    },
+    "inactive": false,
+    "projectLink": "https://www.nasdex.xyz/",
+    "twitter": "https://twitter.com/nasdex_xyz",
+    "audit": "https://hacken.io/audits/nasdex",
+    "initPrice": {
+      "137": 0.347018667988457
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "Quickswap_Collection1"
+    },
+    "bondPartner": "QuickSwap",
+    "shortDescription": "Nasdex is a regulated, semi-decentralized RWA marketplace that empowers users to trade and invest in a diverse array of tokenized real-world assets, including private equity, private credit, bonds, derivatives, and real estate. It is the premier regulated marketplace for tokenized real-world assets.",
+    "fullDescription": "Nasdex is a regulated, semi-decentralized RWA marketplace that empowers users to trade and invest in a diverse array of tokenized real-world assets, including private equity, private credit, bonds, derivatives, and real estate. It is the premier regulated marketplace for tokenized real-world assets. With NASDEX, the future of finance is not just decentralized; it's personalized, accessible, and inherently global. NASDEX is poised to revolutionize the intersection of traditional finance (TradFi) and decentralized finance (DeFi), serving as an unparalleled conduit between these two pivotal spheres. Initially carving out its niche as the foremost decentralized exchange facilitating the on-chain trading of Asian stocks, NASDEX's scope has now significantly broadened to encompass the global market. It proudly offers the tokenization of a broad array of real-world assets, including but not limited to stocks, derivatives, and real estate, spanning every corner of the globe. NASDEX is designed to serve as a bridge between the real world and the crypto world, with the belief that the on-chain adoption of real-world asset classes will deliver increased accessibility and improved capabilities for both traditional and crypto investors.",
+    "tags": ["RWA"]
+  },
+  {
     "index": 162,
     "cmcId": 29157,
     "chainId": 137,
@@ -12387,7 +12441,7 @@
     "initPrice": {
       "137": 0.347018667988457
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "Quickswap_Collection1"
     },
@@ -12501,7 +12555,7 @@
     "initTime": {
       "137": 1721207158
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "PlanetIX_Collection1"
     },
@@ -12670,7 +12724,7 @@
     "initPrice": {
       "137": 0.347018667988457
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "Quickswap_Collection1"
     },
@@ -13071,7 +13125,7 @@
     "initPrice": {
       "137": 0.347018667988457
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "Quickswap_Collection1"
     },
@@ -16220,7 +16274,7 @@
     "initTime": {
       "42161": 1723548893
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -16794,7 +16848,7 @@
     "initPrice": {
       "1": 0.00173967992950712
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ETH_Collection1"
     },
@@ -17611,7 +17665,7 @@
     "initTime": {
       "1": 1722265086
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "GPT_Collection1"
     },
@@ -17714,7 +17768,7 @@
     "initTime": {
       "1": 1724691112
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ETH_Collection1"
     },
