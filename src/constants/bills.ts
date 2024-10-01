@@ -33,7 +33,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.iolend.finance/',
     twitter: 'https://twitter.com/iolendfi',
     initTime: { [ChainId.IOTA]: 1725544655 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -168,7 +168,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/CornucopiasGame',
     audit: 'https://audits.hacken.io/cornucopias/',
     initTime: { [ChainId.BASE]: 1722253943 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -358,7 +358,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/SmarDex',
     initTime: { [ChainId.BASE]: 1716217474 },
     initPrice: { [ChainId.BASE]: 0.005450086440702347 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -386,7 +386,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/TokenDao_',
     initTime: { [ChainId.BASE]: 1716217474 },
     initPrice: { [ChainId.BASE]: 0.005450086440702347 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -584,7 +584,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/NileExchange',
     audit: 'https://docs.thenile.exchange/security-and-legal-considerations/inherited-security',
     initTime: { [ChainId.LINEA]: 1721823456 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -843,7 +843,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/AITECHio',
     audit: 'https://skynet.certik.com/projects/solidus-ai-tech',
     initTime: { [ChainId.BSC]: 1725634681 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.AITECH_Collection1,
     },
@@ -1003,7 +1003,7 @@ const bills: BillsConfig[] = [
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.BSC]: 1714137138 },
     initPrice: { [ChainId.BSC]: 0.02599658552546072 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1065,7 +1065,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/CornucopiasGame',
     audit: 'https://hacken.io/audits/cornucopias/',
     initTime: { [ChainId.BSC]: 1723469314 },
-    soldOut: false,
+    soldOut: true,
     billArt: { collection: BillArtCollection.ApeBond_Collection1 },
     shortDescription:
       'Cornucopias is a blockchain-powered game built on Unreal Engine 5, set to revolutionize the MMO gaming landscape. It stands out with player-owned assets, complex game loops, and a vast universe for limitless exploration. Players can farm, mine, trade, or combat threats to survive in this life above the clouds. In Cornucopias, the sky is no longer the limit—live your life any way you desire.',
@@ -1088,7 +1088,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/CornucopiasGame',
     audit: 'https://hacken.io/audits/cornucopias/',
     initTime: { [ChainId.BSC]: 1723469314 },
-    soldOut: false,
+    soldOut: true,
     billArt: { collection: BillArtCollection.ApeBond_Collection1 },
     shortDescription:
       'Cornucopias is a blockchain-powered game built on Unreal Engine 5, set to revolutionize the MMO gaming landscape. It stands out with player-owned assets, complex game loops, and a vast universe for limitless exploration. Players can farm, mine, trade, or combat threats to survive in this life above the clouds. In Cornucopias, the sky is no longer the limit—live your life any way you desire.',
@@ -1153,7 +1153,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/gt_protocol',
     audit: 'https://skynet.certik.com/projects/gt-protocol',
     initTime: { [ChainId.BSC]: 1721652049 },
-    soldOut: false,
+    soldOut: true,
     billArt: { collection: BillArtCollection.ApeBond_Collection1 },
     shortDescription:
       'GT Protocol is a conversational Web3 Crypto AI execution technology that provides users with access to CeFi, DeFi, and NFT crypto markets through an all-in-one conversational AI interface. Powered by the GTAI token and incubated by ChainGPT.',
@@ -1180,7 +1180,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/ai_malls',
     audit: 'https://skynet.certik.com/projects/aimalls',
     initTime: { [ChainId.BSC]: 1721148582 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1236,7 +1236,7 @@ const bills: BillsConfig[] = [
     twitter: 'http://twitter.com/chain_gpt',
     audit: 'https://www.certik.com/projects/chaingpt/',
     initTime: { [ChainId.BSC]: 1720717200 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1318,7 +1318,7 @@ const bills: BillsConfig[] = [
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.BSC]: 1714137138 },
     initPrice: { [ChainId.BSC]: 0.02599658552546072 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1445,7 +1445,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/realfroyogames',
     initTime: { [ChainId.BSC]: 1715730467 },
     initPrice: { [ChainId.BSC]: 0.000379098550137839 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1475,7 +1475,7 @@ const bills: BillsConfig[] = [
     audit: 'https://skynet.certik.com/projects/script-network?utm_source=CMC&utm_campaign=AuditByCertiKLink',
     initTime: { [ChainId.BSC]: 1717085021 },
     initPrice: { [ChainId.BSC]: 0.000398917904465581 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1533,7 +1533,7 @@ const bills: BillsConfig[] = [
     audit: 'https://www.cyberscope.io/audits/1-blze',
     initTime: { [ChainId.BSC]: 1717085021 },
     initPrice: { [ChainId.BSC]: 0.000398917904465581 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1978,7 +1978,7 @@ const bills: BillsConfig[] = [
     audit: 'https://certificate.immunebytes.com/pdf/WAM/',
     initTime: { [ChainId.BSC]: 1712766889 },
     initPrice: { [ChainId.BSC]: 0.007612142417922644 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -6011,7 +6011,7 @@ const bills: BillsConfig[] = [
     audit: 'https://hacken.io/audits/nasdex',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.347018667988457 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
@@ -6070,7 +6070,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://planetix.com/',
     twitter: 'https://twitter.com/Planetix0',
     initTime: { [ChainId.MATIC]: 1721207158 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.PlanetIX_Collection1,
     },
@@ -6160,7 +6160,7 @@ const bills: BillsConfig[] = [
       'https://www.carbify.io/wp-content/uploads/2023/08/Carbifyaco2Rewards_Smart_Contract_Audit_Report_QuillAudits.pdf',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.347018667988457 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
@@ -6376,7 +6376,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/anotemusic',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.347018667988457 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
@@ -7915,7 +7915,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://smardex.io/home',
     twitter: 'https://x.com/SmarDex',
     initTime: { [ChainId.ARBITRUM]: 1723548893 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -8195,7 +8195,7 @@ const bills: BillsConfig[] = [
     audit: 'https://www.cyberscope.io/audits/coin-forward-protocol',
     initTime: { [ChainId.MAINNET]: 1710255600 },
     initPrice: { [ChainId.MAINNET]: 0.00173967992950712 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
@@ -8643,7 +8643,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://gptprotocol.org/',
     twitter: 'https://twitter.com/gpt_protocol',
     initTime: { [ChainId.MAINNET]: 1722265086 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.GPT_Collection1,
     },
@@ -8700,7 +8700,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/AlvaraProtocol',
     audit: 'https://www.quillaudits.com/leaderboard/alvaraavax-token',
     initTime: { [ChainId.MAINNET]: 1724691112 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },

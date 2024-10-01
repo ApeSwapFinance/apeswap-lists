@@ -42,7 +42,7 @@
     "initTime": {
       "8822": 1725544655
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -307,7 +307,7 @@
     "initTime": {
       "8453": 1722253943
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -689,7 +689,7 @@
     "initPrice": {
       "8453": 0.005450086440702347
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -743,7 +743,7 @@
     "initPrice": {
       "8453": 0.005450086440702347
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -1120,7 +1120,7 @@
     "initTime": {
       "59144": 1721823456
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -1617,7 +1617,7 @@
     "initTime": {
       "56": 1725634681
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "AITECH_Collection1"
     },
@@ -1944,7 +1944,7 @@
     "initPrice": {
       "56": 0.02599658552546072
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -2061,7 +2061,7 @@
     "initTime": {
       "56": 1723469314
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -2114,7 +2114,7 @@
     "initTime": {
       "56": 1723469314
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -2273,7 +2273,7 @@
     "initTime": {
       "56": 1721652049
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -2330,7 +2330,7 @@
     "initTime": {
       "56": 1721148582
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -2439,7 +2439,7 @@
     "initTime": {
       "56": 1720717200
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -2603,7 +2603,7 @@
     "initPrice": {
       "56": 0.02599658552546072
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -2831,7 +2831,7 @@
     "initPrice": {
       "56": 0.000379098550137839
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -2887,7 +2887,7 @@
     "initPrice": {
       "56": 0.000398917904465581
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -2998,7 +2998,7 @@
     "initPrice": {
       "56": 0.000398917904465581
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -3858,7 +3858,7 @@
     "initPrice": {
       "56": 0.007612142417922644
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -12387,7 +12387,7 @@
     "initPrice": {
       "137": 0.347018667988457
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "Quickswap_Collection1"
     },
@@ -12501,7 +12501,7 @@
     "initTime": {
       "137": 1721207158
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "PlanetIX_Collection1"
     },
@@ -12670,7 +12670,7 @@
     "initPrice": {
       "137": 0.347018667988457
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "Quickswap_Collection1"
     },
@@ -13071,7 +13071,7 @@
     "initPrice": {
       "137": 0.347018667988457
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "Quickswap_Collection1"
     },
@@ -16220,7 +16220,7 @@
     "initTime": {
       "42161": 1723548893
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -16794,7 +16794,7 @@
     "initPrice": {
       "1": 0.00173967992950712
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ETH_Collection1"
     },
@@ -17611,7 +17611,7 @@
     "initTime": {
       "1": 1722265086
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "GPT_Collection1"
     },
@@ -17714,7 +17714,7 @@
     "initTime": {
       "1": 1724691112
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ETH_Collection1"
     },
