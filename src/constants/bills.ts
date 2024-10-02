@@ -875,7 +875,7 @@ const bills: BillsConfig[] = [
       'Poollotto is a pioneering technology company specializing in blockchain-powered lottery solutions, utilizing the Poollotto Token (PLT) to revolutionize the industry. By creating a transparent, fair, and secure platform, Poollotto enables decentralized management of global lottery pools, ensuring automated and secure payments. With their innovative approach, they aim to transform the lottery experience for users worldwide. <a href="https://metalottery.win/" target="_blank" rel="noopener noreferrer" style="color: #38A611">Purchase $100 or more worth of $PLT Bonds to earn 2 free lotto game ticket NFTs!</a>',
     fullDescription:
       'Poollotto is a leading technology company specializing in blockchain-powered lottery solutions, utilizing the Poollotto Token (PLT) to revolutionize the industry. Launched to create a transparent and fair token economy, Poollotto leverages blockchain technology to ensure secure, tamper-proof transactions, and records all lottery activities on a public ledger, eliminating doubts of manipulation. By automating processes through smart contracts, Poollotto reduces administrative costs and improves efficiency, while allowing operators to customize their platforms for a unique experience. The PLT token enables global participation in decentralized lottery pools, enhancing inclusivity and ensuring automated, secure payments, ultimately transforming the lottery industry with fairness and transparency at its core. <a href="https://metalottery.win/" target="_blank" rel="noopener noreferrer" style="color: #38A611">Purchase $100 or more worth of $PLT Bonds to earn 2 free lotto game ticket NFTs!</a>',
-    tags: ['Gambling'],
+    tags: ['GAMEFI'],
   },
   {
     index: 1092,
