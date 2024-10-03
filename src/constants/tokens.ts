@@ -3115,6 +3115,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  weebs: {
+    symbol: 'WEEBS',
+    address: {
+      [ChainId.BSC]: '0x317ae555dd3D474C4427699a7841891d398fA5A0',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+    },
+    active: true,
+  },
   brbc: {
     symbol: 'BRBC',
     address: {
