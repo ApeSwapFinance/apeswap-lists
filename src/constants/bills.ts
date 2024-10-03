@@ -1,7 +1,7 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1097
+// BNB Largest ID: 1098
 // Polygon Largest ID: 162
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2010
@@ -732,6 +732,34 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1098,
+    cmcId: 32816,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0xc2316D2A54f38eE37A64434ba4E005F02d9a9977',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.wbnb,
+    earnToken: tokens.weebs,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://weebs.app/en',
+    twitter: 'https://x.com/Weebs_app',
+    audit:
+      'https://github.com/freshcoins/Smart-Contract-Audits/blob/main/Weebs_0x317ae555dd3D474C4427699a7841891d398fA5A0.pdf',
+    initTime: { [ChainId.BSC]: 1727945668 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    shortDescription: `Weebs.App aims to become the largest hub for Anime, Comic, and Gaming (ACG) communities across Asia and beyond, celebrating creativity, connection, and growth while building a vibrant space where like-minded individuals can thrive and grow. With 15K global creators and a reach of 250M users, it fosters creativity, connection, and growth. The immersive WeebsVerse enhances fan engagement, allowing up to 300 users to interact in real-time, while providing tools for creators to showcase and expand their work.`,
+    fullDescription: `Weebs.App is set to become the ultimate hub for Anime, Comic, and Gaming (ACG) communities across Asia and beyond, fostering creativity, connection, and growth in a vibrant, supportive environment where fans and creators alike can thrive. Building on the success of its Indonesia pilot project, HaluApp, which generated $1M GMV, Weebs.App continues to expand, boasting 15K registered global creators with an impressive reach of 250M followers. The platform provides a unique space for creators to showcase their work, connect with a global audience, and nurture their communities using specialized tools and innovative features. In addition, the immersive WeebsVerse takes engagement to the next level by enabling creators and fans to interact in meaningful and emotional ways. With multiplayer lounges designed to host up to 300 members at once, the platform creates a rich and dynamic environment for real-time interaction, deepening connections and enhancing community bonds on a global scale.`,
+    tags: ['GAMEFI'],
+  },
   {
     index: 1097,
     cmcId: 29157,
