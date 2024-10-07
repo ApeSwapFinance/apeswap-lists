@@ -156,7 +156,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BASE]: '0x7cCB7B82E45116aDa74018c56F2bEfA1e239A0B6',
     },
-    billType: 'reserve',
+    billType: 'liquidity',
     billVersion: BillVersion.V2,
     lpToken: tokens.wethImgnai_UNI,
     earnToken: tokens.imgnai,

@@ -269,7 +269,7 @@
     "contractAddress": {
       "8453": "0x7cCB7B82E45116aDa74018c56F2bEfA1e239A0B6"
     },
-    "billType": "reserve",
+    "billType": "liquidity",
     "billVersion": "V2",
     "lpToken": {
       "symbol": "ETH-imgnAI",
