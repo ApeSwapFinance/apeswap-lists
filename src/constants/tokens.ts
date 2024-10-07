@@ -5781,6 +5781,24 @@ const tokens: Record<string, Token> = {
         'https://app.uniswap.org/add/v2/0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913/0x3f8D935512f74b7C71A2C2395a06af5f87BC9276?chain=base',
     },
   },
+  wethImgnai_UNI: {
+    symbol: 'ETH-imgnAI',
+    address: {
+      [ChainId.BASE]: '0xf8774E69e47e3041c91eed306D19cf7E1A000D69',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV2,
+    },
+    active: true,
+    lpToken: true,
+    getLpUrl: {
+      [ChainId.BASE]:
+        'https://app.uniswap.org/add/v2/0x4200000000000000000000000000000000000006/0x18e692c03de43972fe81058f322fa542ae1a5e2c',
+    },
+  },
 }
 
 export default tokens
