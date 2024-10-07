@@ -150,6 +150,33 @@ const bills: BillsConfig[] = [
   // BASE
   //
   {
+    index: 8011,
+    cmcId: 22977,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x7cCB7B82E45116aDa74018c56F2bEfA1e239A0B6',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.wethImgnai_UNI,
+    earnToken: tokens.imgnai,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://imgnai.com/',
+    twitter: 'https://x.com/imgn_ai',
+    audit: 'https://audits.hacken.io/cornucopias/',
+    initTime: { [ChainId.BASE]: 1728297767 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription: `ImgnAI is shaping the future of generative AI with Nai, an AI-powered image generation bot that allows users to create stunning art through simple text commands in styles like photorealism and anime. The $imgnAI token powers the ecosystem, unlocking premium features and NFT minting while also reducing supply through token burns. Future plans include decentralizing governance via the imgnAI DAO for $imgnAI stakers.`,
+    fullDescription: `ImgnAI is pioneering the future of generative AI by enabling users to create stunning artwork with simple text commands. At the core of the platform is Nai, an AI-powered image generation bot capable of producing images in various styles, including photorealism and anime. The platform's utility token, $imgnAI, plays a pivotal role in the ecosystem, offering access to an expanding suite of AI-driven consumer products. Users will soon be able to unlock premium features, such as HD/4K resolution, upscaling, and NSFW models, or mint their creations as NFTs using $imgnAI, with spent tokens burned to reduce supply. ImgnAI also plans to decentralize governance through a DAO, granting voting power to $imgnAI stakers, driving the platform toward full decentralization.`,
+  },
+  {
     index: 8010,
     cmcId: 15563,
     chainId: ChainId.BASE,
