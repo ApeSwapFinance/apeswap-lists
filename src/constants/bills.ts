@@ -166,7 +166,6 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://imgnai.com/',
     twitter: 'https://x.com/imgn_ai',
-    audit: 'https://audits.hacken.io/cornucopias/',
     initTime: { [ChainId.BASE]: 1728297767 },
     soldOut: false,
     billArt: {
