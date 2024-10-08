@@ -1,7 +1,7 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1098
+// BNB Largest ID: 1099
 // Polygon Largest ID: 162
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2010
@@ -149,32 +149,32 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
-  {
-    index: 8011,
-    cmcId: 22977,
-    chainId: ChainId.BASE,
-    contractAddress: {
-      [ChainId.BASE]: '0x7cCB7B82E45116aDa74018c56F2bEfA1e239A0B6',
-    },
-    billType: 'liquidity',
-    billVersion: BillVersion.V2,
-    lpToken: tokens.wethImgnai_UNI,
-    earnToken: tokens.imgnai,
-    billNnftAddress: {
-      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
-    },
-    inactive: false,
-    projectLink: 'https://imgnai.com/',
-    twitter: 'https://x.com/imgn_ai',
-    initTime: { [ChainId.BASE]: 1728297767 },
-    soldOut: false,
-    billArt: {
-      collection: BillArtCollection.ApeBond_Collection1,
-    },
-    tags: ['AI'],
-    shortDescription: `ImgnAI is shaping the future of generative AI with Nai, an AI-powered image generation bot that allows users to create stunning art through simple text commands in styles like photorealism and anime. The $imgnAI token powers the ecosystem, unlocking premium features and NFT minting while also reducing supply through token burns. Future plans include decentralizing governance via the imgnAI DAO for $imgnAI stakers.`,
-    fullDescription: `ImgnAI is pioneering the future of generative AI by enabling users to create stunning artwork with simple text commands. At the core of the platform is Nai, an AI-powered image generation bot capable of producing images in various styles, including photorealism and anime. The platform's utility token, $imgnAI, plays a pivotal role in the ecosystem, offering access to an expanding suite of AI-driven consumer products. Users will soon be able to unlock premium features, such as HD/4K resolution, upscaling, and NSFW models, or mint their creations as NFTs using $imgnAI, with spent tokens burned to reduce supply. ImgnAI also plans to decentralize governance through a DAO, granting voting power to $imgnAI stakers, driving the platform toward full decentralization.`,
-  },
+  // {
+  //   index: 8011,
+  //   cmcId: 22977,
+  //   chainId: ChainId.BASE,
+  //   contractAddress: {
+  //     [ChainId.BASE]: '0x7cCB7B82E45116aDa74018c56F2bEfA1e239A0B6',
+  //   },
+  //   billType: 'liquidity',
+  //   billVersion: BillVersion.V2,
+  //   lpToken: tokens.wethImgnai_UNI,
+  //   earnToken: tokens.imgnai,
+  //   billNnftAddress: {
+  //     [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+  //   },
+  //   inactive: false,
+  //   projectLink: 'https://imgnai.com/',
+  //   twitter: 'https://x.com/imgn_ai',
+  //   initTime: { [ChainId.BASE]: 1728297767 },
+  //   soldOut: false,
+  //   billArt: {
+  //     collection: BillArtCollection.ApeBond_Collection1,
+  //   },
+  //   tags: ['AI'],
+  //   shortDescription: `ImgnAI is shaping the future of generative AI with Nai, an AI-powered image generation bot that allows users to create stunning art through simple text commands in styles like photorealism and anime. The $imgnAI token powers the ecosystem, unlocking premium features and NFT minting while also reducing supply through token burns. Future plans include decentralizing governance via the imgnAI DAO for $imgnAI stakers.`,
+  //   fullDescription: `ImgnAI is pioneering the future of generative AI by enabling users to create stunning artwork with simple text commands. At the core of the platform is Nai, an AI-powered image generation bot capable of producing images in various styles, including photorealism and anime. The platform's utility token, $imgnAI, plays a pivotal role in the ecosystem, offering access to an expanding suite of AI-driven consumer products. Users will soon be able to unlock premium features, such as HD/4K resolution, upscaling, and NSFW models, or mint their creations as NFTs using $imgnAI, with spent tokens burned to reduce supply. ImgnAI also plans to decentralize governance through a DAO, granting voting power to $imgnAI stakers, driving the platform toward full decentralization.`,
+  // },
   {
     index: 8010,
     cmcId: 15563,
@@ -758,6 +758,27 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1099,
+    chainId: ChainId.BSC,
+    contractAddress: { [ChainId.BSC]: '0xb6B3ED994Aeb83B8A649ac77cD1Ce0BdD17AAC07' },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdt,
+    earnToken: tokens.elda,
+    billNnftAddress: { [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9' },
+    inactive: false,
+    projectLink: 'https://www.eldarune.com/',
+    twitter: 'https://x.com/PlayEldarune',
+    initTime: { [ChainId.BSC]: 1728392841 },
+    soldOut: false,
+    billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+    shortDescription:
+      "Eldarune is a game studio creating interoperable, medieval-themed blockchain games where NFTs can be used across multiple titles. The ELDA token serves as the studio's native currency and unlocks diverse gaming experiences. Inspired by classics like Warcraft and Dota, Eldarune is transforming the gaming landscape by offering seamless, interconnected gameplay across its ecosystem.",
+    fullDescription:
+      "Eldarune is a pioneering game studio specializing in interoperable, medieval-themed blockchain games. Players can use their NFTs across different titles within the Eldarune ecosystem, enhancing the gaming experience with seamless transitions and unique assets. At the heart of this innovative platform is the ELDA token, which acts as both the studio’s native currency and a gateway to diverse, immersive gameplay inspired by classics like Warcraft, Dota, and Hearthstone. ELDA is revolutionizing the gaming landscape by unlocking endless possibilities within Eldarune's interconnected worlds.",
+    tags: ['GAMEFI'],
+  },
   {
     index: 1098,
     cmcId: 32816,
