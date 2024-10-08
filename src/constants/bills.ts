@@ -770,6 +770,7 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://www.eldarune.com/',
     twitter: 'https://x.com/PlayEldarune',
+    audit: 'https://hacken.io/audits/eldarune/',
     initTime: { [ChainId.BSC]: 1728392841 },
     soldOut: false,
     billArt: { collection: BillArtCollection.ApeBond_Collection1 },

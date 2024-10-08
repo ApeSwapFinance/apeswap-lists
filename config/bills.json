@@ -1444,6 +1444,7 @@
     "inactive": false,
     "projectLink": "https://www.eldarune.com/",
     "twitter": "https://x.com/PlayEldarune",
+    "audit": "https://hacken.io/audits/eldarune/",
     "initTime": {
       "56": 1728392841
     },
