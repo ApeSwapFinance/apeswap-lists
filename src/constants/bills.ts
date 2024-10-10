@@ -7977,7 +7977,7 @@ const bills: BillsConfig[] = [
   /*
       Arbitrum Bills - ID started from 2001
   */
-  {
+  /* {
     index: 2011,
     chainId: ChainId.ARBITRUM,
     contractAddress: {
@@ -8001,7 +8001,7 @@ const bills: BillsConfig[] = [
     tags: ['Security'],
     shortDescription: `Hats Finance is a decentralized security platform focused on protecting DeFi protocols and the broader blockchain ecosystem. By offering Web3 native security solutions like audit competitions and bug bounties, it aligns incentives between projects and security professionals. With a non-custodial, pay-for-results model and an on-chain submission system, Hats Finance ensures high-quality security while being governed by its community through the HAT token.`,
     fullDescription: `Hats Finance is a decentralized security platform dedicated to safeguarding DeFi protocols, their users, and the broader blockchain ecosystem. Through a Web3 native approach, Hats Finance aligns incentives between projects and security professionals, offering innovative security solutions such as audit competitions and bug bounties. Its non-custodial protocol allows projects to maintain control while embracing a pay-for-results model, minimizing fees and focusing only on new audit findings. With an on-chain submission system filtering out low-quality reports, Hats Finance ensures top-tier security assessments. The platform is governed by the community through the HAT token, driving Web3 security innovation.`,
-  },
+  },*/
   {
     index: 2010,
     chainId: ChainId.ARBITRUM,
