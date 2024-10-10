@@ -4,8 +4,8 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingT
 // BNB Largest ID: 1099
 // Polygon Largest ID: 162
 // Telos Largest ID: 215
-// Arbitrum Largest ID: 2010
-// ETH Largest ID: 3024
+// Arbitrum Largest ID: 2011
+// ETH Largest ID: 3025
 // Linea Largest ID: 6008
 // Base Largest ID: 8010
 // Lightlink Largest ID: 7000
@@ -7977,6 +7977,31 @@ const bills: BillsConfig[] = [
   /*
       Arbitrum Bills - ID started from 2001
   */
+  /* {
+    index: 2011,
+    chainId: ChainId.ARBITRUM,
+    contractAddress: {
+      [ChainId.ARBITRUM]: '0xe787aE5Ced57C4E0fd9E59386649151bBf152D9f',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.wethHat_Ichi,
+    earnToken: tokens.hat,
+    billNnftAddress: {
+      [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
+    },
+    inactive: false,
+    projectLink: 'https://hats.finance/',
+    twitter: 'https://x.com/HatsFinance',
+    initTime: { [ChainId.ARBITRUM]: 1728578576 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Security'],
+    shortDescription: `Hats Finance is a decentralized security platform focused on protecting DeFi protocols and the broader blockchain ecosystem. By offering Web3 native security solutions like audit competitions and bug bounties, it aligns incentives between projects and security professionals. With a non-custodial, pay-for-results model and an on-chain submission system, Hats Finance ensures high-quality security while being governed by its community through the HAT token.`,
+    fullDescription: `Hats Finance is a decentralized security platform dedicated to safeguarding DeFi protocols, their users, and the broader blockchain ecosystem. Through a Web3 native approach, Hats Finance aligns incentives between projects and security professionals, offering innovative security solutions such as audit competitions and bug bounties. Its non-custodial protocol allows projects to maintain control while embracing a pay-for-results model, minimizing fees and focusing only on new audit findings. With an on-chain submission system filtering out low-quality reports, Hats Finance ensures top-tier security assessments. The platform is governed by the community through the HAT token, driving Web3 security innovation.`,
+  },*/
   {
     index: 2010,
     chainId: ChainId.ARBITRUM,
@@ -8960,6 +8985,35 @@ const bills: BillsConfig[] = [
       'GPT Protocol is a pioneering platform leading the merger of artificial intelligence (AI) with blockchain technology, revolutionizing AI development by ensuring it is accessible, innovative, and censorship-resistant. It harnesses open-source AI tools and decentralized networks, bringing together a global community of developers to create, share, and deploy AI applications on the blockchain. $GPT tokens create an AI economy that incentivizes consumers, developers, and compute providers, serving multiple roles within the network, from rewarding miners to compensating data providers.',
     fullDescription:
       'GPT Protocol is a transformative Layer 2 blockchain platform built on the Ethereum Virtual Machine, aimed at revolutionizing the artificial intelligence landscape. It integrates decentralized technologies to ensure AI development is accessible, innovative, and censorship-resistant. By harnessing open-source AI tools and decentralized networks, it brings together a global community of developers to create, share, and deploy AI applications on the blockchain. $GPT tokens create an AI economy that incentivizes consumers, developers, and compute providers, serving multiple roles within the network, from rewarding miners to compensating data providers. More than just a technology, GPT Protocol is shaping a future where data integrity, intellectual freedom, and collaborative innovation form the pillars of our digital world.',
+  },
+  {
+    index: 3025,
+    cmcId: 29693,
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0x3260866c921b167c455bfB8463Dea74B93a563E0',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    lpToken: tokens.eth,
+    earnToken: tokens.alva,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    inactive: false,
+    projectLink: 'https://www.alvaraprotocol.io',
+    twitter: 'https://twitter.com/AlvaraProtocol',
+    audit: 'https://www.quillaudits.com/leaderboard/alvaraavax-token',
+    initTime: { [ChainId.MAINNET]: 1728574178 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    shortDescription:
+      'The Alvara Protocol enables the creation and management of decentralized, meritocratic, tokenized investment collectives using the innovative ERC-7621 Basket Token Standard. Alvara’s built-in leaderboard ranks every ERC-7621 minted on-chain. The native token, ALVA, an ERC-20 utility token, supports governance, rewards, and software portals. Committed to transforming conventional procedures and pioneering a new DeFi subsector, Alvara aims to establish ERC-7621 as the gold standard for on-chain basket creation while adhering to decentralization principles.',
+    fullDescription:
+      'The Alvara Protocol facilitates the deployment of decentralized, meritocratic, tokenized, and on-chain investment collectives, enabling the creation and management of tokenized investment funds. Utilizing the innovative ERC-7621 Basket Token Standard, Alvara’s built-in leaderboard auto-populates and ranks every ERC-7621 minted on-chain. The protocol’s native token, ALVA, is an ERC-20 utility token serving multiple functions within the platform, including access to governance, rewards, and software portals. ALVA is included in each BTS minted at a nominal 5% weighting, creating deflationary pressure on its supply as each additional BTS removes a percentage of ALVA from circulation. The included ALVA is market-bought, increasing buying pressure with every new BTS creation. Alvara empowers individuals and institutions to create, manage, and invest in fully decentralized, merit-based, on-chain baskets. Committed to transforming conventional procedures and pioneering a new DeFi subsector, Alvara aims to establish ERC-7621 as the gold standard for on-chain basket creation while adhering to decentralization principles. The team consists of 10 full-time core members with extensive experience in traditional finance, web3, project management, public accounting, marketing, and legal domains, supported by a highly skilled development team with expertise in full-stack web and blockchain development and graphic design for Fortune 500 companies.',
+    tags: ['RWA'],
   },
 ]
 
