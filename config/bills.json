@@ -1017,7 +1017,7 @@
     "initTime": {
       "59144": 1725611855
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -1068,7 +1068,7 @@
     "initTime": {
       "59144": 1724152998
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -1176,7 +1176,7 @@
     "initPrice": {
       "59144": 0.005450086440702347
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -2883,7 +2883,7 @@
     "initPrice": {
       "56": 0.001336953784856991
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -12265,7 +12265,7 @@
     "initTime": {
       "137": 1724062299
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -17515,7 +17515,7 @@
     "billType": "reserve",
     "billVersion": "V3",
     "lpToken": {
-      "symbol": "USDC",
+      "symbol": "ETH",
       "address": {
         "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
       },
@@ -17551,7 +17551,7 @@
     "initPrice": {
       "1": 0.0334978015237449
     },
-    "soldOut": true,
+    "soldOut": false,
     "billArt": {
       "collection": "ETH_Collection1"
     },
@@ -17650,7 +17650,7 @@
         "1": 18
       },
       "liquidityDex": {
-        "1": "UniswapV3"
+        "1": "UniswapV2"
       },
       "active": true
     },
@@ -17756,7 +17756,6 @@
       "decimals": {
         "1": 18
       },
-      "active": true,
       "liquidityDex": {
         "1": "UniswapV3"
       },
