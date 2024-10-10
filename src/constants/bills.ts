@@ -4,7 +4,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingT
 // BNB Largest ID: 1099
 // Polygon Largest ID: 162
 // Telos Largest ID: 215
-// Arbitrum Largest ID: 2010
+// Arbitrum Largest ID: 2011
 // ETH Largest ID: 3025
 // Linea Largest ID: 6008
 // Base Largest ID: 8010
@@ -7977,6 +7977,31 @@ const bills: BillsConfig[] = [
   /*
       Arbitrum Bills - ID started from 2001
   */
+  {
+    index: 2011,
+    chainId: ChainId.ARBITRUM,
+    contractAddress: {
+      [ChainId.ARBITRUM]: '0xe787aE5Ced57C4E0fd9E59386649151bBf152D9f',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.wethHat_Ichi,
+    earnToken: tokens.hat,
+    billNnftAddress: {
+      [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
+    },
+    inactive: false,
+    projectLink: 'https://hats.finance/',
+    twitter: 'https://x.com/HatsFinance',
+    initTime: { [ChainId.ARBITRUM]: 1728578576 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Security'],
+    shortDescription: `Hats Finance is a decentralized security platform focused on protecting DeFi protocols and the broader blockchain ecosystem. By offering Web3 native security solutions like audit competitions and bug bounties, it aligns incentives between projects and security professionals. With a non-custodial, pay-for-results model and an on-chain submission system, Hats Finance ensures high-quality security while being governed by its community through the HAT token.`,
+    fullDescription: `Hats Finance is a decentralized security platform dedicated to safeguarding DeFi protocols, their users, and the broader blockchain ecosystem. Through a Web3 native approach, Hats Finance aligns incentives between projects and security professionals, offering innovative security solutions such as audit competitions and bug bounties. Its non-custodial protocol allows projects to maintain control while embracing a pay-for-results model, minimizing fees and focusing only on new audit findings. With an on-chain submission system filtering out low-quality reports, Hats Finance ensures top-tier security assessments. The platform is governed by the community through the HAT token, driving Web3 security innovation.`,
+  },
   {
     index: 2010,
     chainId: ChainId.ARBITRUM,
