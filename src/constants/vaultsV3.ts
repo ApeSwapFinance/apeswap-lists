@@ -1,6 +1,5 @@
-import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
-import { VaultConfig, VaultVersion } from '../types'
+import { ChainId, VaultConfig, VaultVersion } from '../types'
 
 const vaults: VaultConfig[] = [
   // SPECIAL V1 AUTO COMPOUND VAULT -> V2 MASTER APE
@@ -301,8 +300,8 @@ const vaults: VaultConfig[] = [
     stratAddress: {
       [ChainId.BSC]: '0x088D9CacCaB515c1E2Ef83Dab0961a91FF52942e',
     },
-    stakeToken: tokens.bnbMatic,
-    token: tokens.wmatic,
+    stakeToken: tokens.bnbPol,
+    token: tokens.wpol,
     quoteToken: tokens.wbnb,
     rewardToken: tokens.banana,
     platform: 'ApeSwap',

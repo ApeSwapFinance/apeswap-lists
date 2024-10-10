@@ -1,5 +1,5 @@
-import path from 'path'
-import fs from 'fs'
+import { resolve } from 'path'
+import { writeFile } from 'fs'
 import {
   farms,
   bills,
@@ -10,7 +10,6 @@ import {
   dualFarms,
   nfaStakingPools,
   iaos,
-  zapInputTokens,
   farmsV2,
   vaultsV3,
   jungleFarmsV2,
@@ -18,6 +17,7 @@ import {
   launchProjects,
   flashBonds,
 } from '../constants'
+import { BillsConfig } from '../types'
 
 const listMap: [any, string][] = [
   [farms, 'farms'],
@@ -30,17 +30,58 @@ const listMap: [any, string][] = [
   [dualFarms, 'dualFarms'],
   [nfaStakingPools, 'nfaStakingPools'],
   [iaos, 'iaos'],
-  [zapInputTokens, 'zapInputTokens'],
   [jungleFarmsV2, 'jungleFarmsV2'],
   [poolsV2, 'poolsV2'],
   [launchProjects, 'launchProjects'],
   [flashBonds, 'flashBonds'],
 ]
 
-const buildList = (list: any, listName: string) => {
-  const tokenListPath = `${path.resolve()}/config/${listName}.json`
-  const stringifiedList = JSON.stringify(list, null, 2)
-  fs.writeFile(tokenListPath, stringifiedList, function (err) {
+export const stringifyList = (listProp: any, listName: string) => {
+  let list
+  if (listName === 'bills') {
+    list = listProp.map((bill: BillsConfig): BillsConfig => {
+      const chainId = bill.chainId
+      return {
+        ...bill,
+        contractAddress: {
+          [chainId]: bill.contractAddress[chainId],
+        },
+        lpToken: {
+          ...bill.lpToken,
+          address: {
+            [chainId]: bill.lpToken.address?.[chainId],
+          },
+          decimals: {
+            [chainId]: bill.lpToken.decimals?.[chainId],
+          },
+          liquidityDex: {
+            [chainId]: bill.lpToken.liquidityDex?.[chainId],
+          },
+        },
+        earnToken: {
+          ...bill.earnToken,
+          address: {
+            [chainId]: bill.earnToken.address?.[chainId],
+          },
+          decimals: {
+            [chainId]: bill.earnToken.decimals?.[chainId],
+          },
+          liquidityDex: {
+            [chainId]: bill.earnToken.liquidityDex?.[chainId],
+          },
+        },
+      }
+    })
+  } else {
+    list = listProp
+  }
+  return JSON.stringify(list, null, 2)
+}
+
+export const buildList = (listProp: any, listName: string) => {
+  const tokenListPath = `${resolve()}/config/${listName}.json`
+  const stringifiedList = stringifyList(listProp, listName)
+  writeFile(tokenListPath, stringifiedList, function (err) {
     if (err) console.error(err)
     console.info(`✅  ${listName} complete`)
   })
@@ -48,9 +89,9 @@ const buildList = (list: any, listName: string) => {
 
 const buildTokens = () => {
   const filterActiveTokens = Object.fromEntries(Object.entries(tokens).filter(([, val]) => val.active))
-  const tokenListPath = `${path.resolve()}/config/tokens.json`
+  const tokenListPath = `${resolve()}/config/tokens.json`
   const stringifiedList = JSON.stringify(filterActiveTokens, null, 2)
-  fs.writeFile(tokenListPath, stringifiedList, function (err) {
+  writeFile(tokenListPath, stringifiedList, function (err) {
     if (err) console.error(err)
     console.info(`✅  tokens complete`)
   })

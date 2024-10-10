@@ -1,6 +1,5 @@
-import { ChainId } from '@ape.swap/sdk'
 import tokens from './tokens'
-import { DualFarmConfig } from '../types'
+import { ChainId, DualFarmConfig } from '../types'
 
 // Max PID is 13
 
@@ -12,7 +11,7 @@ const dualFarms: DualFarmConfig[] = [
     rewarderAddress: '0x785Ec8d3301A16D81353b9BebB98221714C389DD',
     stakeTokens: {
       token0: tokens.leap,
-      token1: tokens.wmatic,
+      token1: tokens.wpol,
     },
     rewardTokens: {
       token0: tokens.banana,
@@ -26,12 +25,12 @@ const dualFarms: DualFarmConfig[] = [
     rewarderAddress: '0x1F234B1b83e21Cb5e2b99b4E498fe70Ef2d6e3bf',
     dualImage: false,
     stakeTokens: {
-      token0: tokens.wmatic,
+      token0: tokens.wpol,
       token1: tokens.banana,
     },
     rewardTokens: {
       token0: tokens.banana,
-      token1: tokens.wmatic,
+      token1: tokens.wpol,
     },
   },
   {
@@ -41,12 +40,12 @@ const dualFarms: DualFarmConfig[] = [
     rewarderAddress: '0x1F234B1b83e21Cb5e2b99b4E498fe70Ef2d6e3bf',
     dualImage: false,
     stakeTokens: {
-      token0: tokens.wmatic,
+      token0: tokens.wpol,
       token1: tokens.eth,
     },
     rewardTokens: {
       token0: tokens.banana,
-      token1: tokens.wmatic,
+      token1: tokens.wpol,
     },
   },
   {
@@ -56,12 +55,12 @@ const dualFarms: DualFarmConfig[] = [
     rewarderAddress: '0x1F234B1b83e21Cb5e2b99b4E498fe70Ef2d6e3bf',
     dualImage: false,
     stakeTokens: {
-      token0: tokens.wmatic,
+      token0: tokens.wpol,
       token1: tokens.dai,
     },
     rewardTokens: {
       token0: tokens.banana,
-      token1: tokens.wmatic,
+      token1: tokens.wpol,
     },
   },
   {
@@ -71,12 +70,12 @@ const dualFarms: DualFarmConfig[] = [
     rewarderAddress: '0x1F234B1b83e21Cb5e2b99b4E498fe70Ef2d6e3bf',
     dualImage: false,
     stakeTokens: {
-      token0: tokens.wmatic,
+      token0: tokens.wpol,
       token1: tokens.usdt,
     },
     rewardTokens: {
       token0: tokens.banana,
-      token1: tokens.wmatic,
+      token1: tokens.wpol,
     },
   },
   {
@@ -86,12 +85,12 @@ const dualFarms: DualFarmConfig[] = [
     rewarderAddress: '0x1F234B1b83e21Cb5e2b99b4E498fe70Ef2d6e3bf',
     dualImage: false,
     stakeTokens: {
-      token0: tokens.wmatic,
+      token0: tokens.wpol,
       token1: tokens.btc,
     },
     rewardTokens: {
       token0: tokens.banana,
-      token1: tokens.wmatic,
+      token1: tokens.wpol,
     },
   },
   {
@@ -106,7 +105,7 @@ const dualFarms: DualFarmConfig[] = [
     },
     rewardTokens: {
       token0: tokens.banana,
-      token1: tokens.wmatic,
+      token1: tokens.wpol,
     },
   },
   {
@@ -116,12 +115,12 @@ const dualFarms: DualFarmConfig[] = [
     rewarderAddress: '0x1F234B1b83e21Cb5e2b99b4E498fe70Ef2d6e3bf',
     dualImage: false,
     stakeTokens: {
-      token0: tokens.wmatic,
+      token0: tokens.wpol,
       token1: tokens.wbnb,
     },
     rewardTokens: {
       token0: tokens.banana,
-      token1: tokens.wmatic,
+      token1: tokens.wpol,
     },
   },
   {
@@ -130,7 +129,7 @@ const dualFarms: DualFarmConfig[] = [
     stakeTokenAddress: '0xB8e54c9Ea1616beEBe11505a419DD8dF1000E02a',
     rewarderAddress: '0x75f73Fec666052149FaE95a3655890b911E160a4',
     stakeTokens: {
-      token0: tokens.wmatic,
+      token0: tokens.wpol,
       token1: tokens.crystl,
     },
     rewardTokens: {
@@ -144,7 +143,7 @@ const dualFarms: DualFarmConfig[] = [
     stakeTokenAddress: '0xf67DE5Cf1fB01DC4df842a846Df2a7Ec07c41b93',
     rewarderAddress: '0xb08fc08D16eBE8B80c34d2E20628dD8462768E9b',
     stakeTokens: {
-      token0: tokens.wmatic,
+      token0: tokens.wpol,
       token1: tokens.watch,
     },
     rewardTokens: {
@@ -158,7 +157,7 @@ const dualFarms: DualFarmConfig[] = [
     stakeTokenAddress: '0xb01bAf15079eE93590A862Df37234e8f7C9825bF',
     rewarderAddress: '0xDe0a831D482bBd001aceB5a788e4adc502C5E6BA',
     stakeTokens: {
-      token0: tokens.wmatic,
+      token0: tokens.wpol,
       token1: tokens.jdi,
     },
     rewardTokens: {
@@ -186,7 +185,7 @@ const dualFarms: DualFarmConfig[] = [
     stakeTokenAddress: '0x2735d319739edc6c47c3a20aa5402b931c3f1a1e',
     rewarderAddress: '0x53074a829b27aebf8dfa892c715cb6f41fb2db6e',
     stakeTokens: {
-      token0: tokens.wmatic,
+      token0: tokens.wpol,
       token1: tokens.nfty2,
     },
     rewardTokens: {
@@ -200,7 +199,7 @@ const dualFarms: DualFarmConfig[] = [
     stakeTokenAddress: '0x0806a407d6eea72788d91c36829a19d424446040',
     rewarderAddress: '0xc4e3457D0039815CF839f2Cb9141FCb442A6200b',
     stakeTokens: {
-      token0: tokens.wmatic,
+      token0: tokens.wpol,
       token1: tokens.kom,
     },
     rewardTokens: {
@@ -214,7 +213,7 @@ const dualFarms: DualFarmConfig[] = [
     stakeTokenAddress: '0x545cb3055e62c86f54ba479c7cafc7e1e2eeec54',
     rewarderAddress: '0xfFc2Ab60A93C2e06eEa8d7C4d7a027fE4d02a67F',
     stakeTokens: {
-      token0: tokens.wmatic,
+      token0: tokens.wpol,
       token1: tokens.traxx,
     },
     rewardTokens: {

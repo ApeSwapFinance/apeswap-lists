@@ -5,6 +5,8 @@
     "projectName": "Sugar Kingdom Odyssey",
     "saleStartTime": "March 29th 17:00 UTC",
     "totalAllocation": "791,649 SKO",
+    "salePriceString": "$0.06",
+    "vestingTimeString": "120",
     "bonds": [
       {
         "index": 0,
@@ -21,8 +23,12 @@
             "56": "0x55d398326f99059fF775485246999027B3197955",
             "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
             "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+            "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
             "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
-            "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+            "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+            "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+            "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
           },
           "decimals": {
             "1": 6,
@@ -30,12 +36,23 @@
             "56": 18,
             "97": 18,
             "137": 6,
+            "1890": 6,
             "2525": 6,
-            "42161": 6
+            "8453": 6,
+            "8822": 6,
+            "42161": 6,
+            "59144": 6
           },
           "liquidityDex": {
             "1": "UniswapV2",
-            "2525": "External"
+            "56": "PancakeSwapV3",
+            "137": "UniswapV3",
+            "1890": "Elektrik",
+            "2525": "External",
+            "8453": "UniswapV3",
+            "8822": "Wagmi",
+            "42161": "UniswapV3",
+            "59144": "Nile"
           },
           "active": true
         },
@@ -88,8 +105,12 @@
             "56": "0x55d398326f99059fF775485246999027B3197955",
             "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
             "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+            "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
             "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
-            "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+            "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+            "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+            "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
           },
           "decimals": {
             "1": 6,
@@ -97,12 +118,23 @@
             "56": 18,
             "97": 18,
             "137": 6,
+            "1890": 6,
             "2525": 6,
-            "42161": 6
+            "8453": 6,
+            "8822": 6,
+            "42161": 6,
+            "59144": 6
           },
           "liquidityDex": {
             "1": "UniswapV2",
-            "2525": "External"
+            "56": "PancakeSwapV3",
+            "137": "UniswapV3",
+            "1890": "Elektrik",
+            "2525": "External",
+            "8453": "UniswapV3",
+            "8822": "Wagmi",
+            "42161": "UniswapV3",
+            "59144": "Nile"
           },
           "active": true
         },
@@ -155,8 +187,12 @@
             "56": "0x55d398326f99059fF775485246999027B3197955",
             "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
             "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+            "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
             "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
-            "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+            "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+            "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+            "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
           },
           "decimals": {
             "1": 6,
@@ -164,12 +200,23 @@
             "56": 18,
             "97": 18,
             "137": 6,
+            "1890": 6,
             "2525": 6,
-            "42161": 6
+            "8453": 6,
+            "8822": 6,
+            "42161": 6,
+            "59144": 6
           },
           "liquidityDex": {
             "1": "UniswapV2",
-            "2525": "External"
+            "56": "PancakeSwapV3",
+            "137": "UniswapV3",
+            "1890": "Elektrik",
+            "2525": "External",
+            "8453": "UniswapV3",
+            "8822": "Wagmi",
+            "42161": "UniswapV3",
+            "59144": "Nile"
           },
           "active": true
         },
@@ -222,8 +269,12 @@
             "56": "0x55d398326f99059fF775485246999027B3197955",
             "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
             "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+            "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
             "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
-            "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+            "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+            "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+            "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
           },
           "decimals": {
             "1": 6,
@@ -231,12 +282,23 @@
             "56": 18,
             "97": 18,
             "137": 6,
+            "1890": 6,
             "2525": 6,
-            "42161": 6
+            "8453": 6,
+            "8822": 6,
+            "42161": 6,
+            "59144": 6
           },
           "liquidityDex": {
             "1": "UniswapV2",
-            "2525": "External"
+            "56": "PancakeSwapV3",
+            "137": "UniswapV3",
+            "1890": "Elektrik",
+            "2525": "External",
+            "8453": "UniswapV3",
+            "8822": "Wagmi",
+            "42161": "UniswapV3",
+            "59144": "Nile"
           },
           "active": true
         },
@@ -289,6 +351,7 @@
       },
       "images": {
         "launchpadImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1710783703/launchpadBigImg_cfbcl5.png",
+        "launchpadSmallImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1710783703/launchpadBigImg_cfbcl5.png",
         "launchpadIcon": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1710785149/iconimg_onrbvl.png",
         "headerImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1710781826/sugar_header_img.png",
         "headerImgMobile": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1710793424/headerImgMobile_bkq6ly.png",
@@ -306,6 +369,8 @@
     "projectName": "Catamoto",
     "saleStartTime": "April 16th 17:00 UTC",
     "totalAllocation": "200M CATA",
+    "salePriceString": "1 BNB = 1M CATA",
+    "vestingTimeString": "Instant",
     "projectInfo": {
       "shortDescription": "Catamoto is not just another memecoin; it’s a stride towards redefining the genre. With $CATA, Catamoto employs superior cat math to establish the most sophisticated smart contract to date. This initiative is backed by the Illu-meow-nati, a secretive group of cats with ambitions of discreetly guiding global events.",
       "fullDescription": "Catamoto is not just another memecoin; it’s a stride towards redefining the genre. With $CATA, Catamoto employs superior cat math to establish the most sophisticated smart contract to date. This initiative is backed by the Illu-meow-nati, a secretive group of cats with ambitions of discreetly guiding global events.<br/><br/>\n\nWe are excited to embark on this journey with Catamoto, confident that $CATA will not only capture the imagination of the crypto community but also bring fresh innovation and spirited engagement. The ApeBond Launchpad continues to be a platform for launching high-quality projects, and the partnership with Catamoto reaffirms our commitment to excellence and community-driven success.<br/><br/>\n\n$CATA will be listing on PancakeSwap on April 19th at 11:00 UTC.",
@@ -320,7 +385,8 @@
       },
       "images": {
         "launchpadImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1713168964/catamoto-launchpad_yw65qy.png",
-        "launchpadIcon": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1710785149/iconimg_onrbvl.png",
+        "launchpadSmallImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1713168964/catamoto-launchpad_yw65qy.png",
+        "launchpadIcon": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1712926384/catamoto-tokenomics_e9yoyz.png",
         "headerImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1712925244/catamoto-header_disbvc.png",
         "headerImgMobile": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1712925244/catamoto-header_disbvc.png",
         "websiteImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1712925690/catamoto-website_os3vsk.png",
@@ -349,6 +415,9 @@
             "56": 18,
             "97": 18,
             "137": 18
+          },
+          "liquidityDex": {
+            "56": "PancakeSwapV3"
           },
           "active": true
         },
@@ -405,6 +474,9 @@
             "97": 18,
             "137": 18
           },
+          "liquidityDex": {
+            "56": "PancakeSwapV3"
+          },
           "active": true
         },
         "earnToken": {
@@ -459,6 +531,9 @@
             "56": 18,
             "97": 18,
             "137": 18
+          },
+          "liquidityDex": {
+            "56": "PancakeSwapV3"
           },
           "active": true
         },
@@ -515,6 +590,9 @@
             "97": 18,
             "137": 18
           },
+          "liquidityDex": {
+            "56": "PancakeSwapV3"
+          },
           "active": true
         },
         "earnToken": {
@@ -548,6 +626,982 @@
         },
         "initPrice": {
           "56": 0.0005531
+        },
+        "initialRelease": 100
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "projectId": "codyfight",
+    "projectName": "Codyfight",
+    "saleStartTime": "May 13th 15:00 UTC",
+    "totalAllocation": "1,875,000 CTOK",
+    "salePriceString": "$0.16",
+    "vestingTimeString": "Cliff: 60 | Vesting: 123",
+    "projectInfo": {
+      "shortDescription": "Codyfight envisions a world where the line between AI and humans is blurred. Creativity, strategy, competition, and fun are at the forefront. Join a community that embraces a new paradigm in the gaming industry.",
+      "fullDescription": "Codyfight is a super fun game where you're the boss of clever little robots! You can play it anytime, anywhere! It's like playing a super intelligent game of chess, but with cool robots that you guide or teach to win battles. Create, customize, and control your battle-ready robot in a shapeshifting environment! Choose your path - manual or API, and take control of the fight. Operator, Codyfighter, and CKey are your keys to the game, available in the Launchpad and marketplace.<br/><br/>\n\nTheir team tackles industry issues like the lack of creative contributions, the role of AI in modern games, the neglect of programmers in gaming, and how grinding can diminish enjoyment. A game that cares about its players' experience! Codyfight has joined forces with industry giants like MEXC, GATE.IO, DAO Maker, ChainGPT, KIRIN fund, and more. Will you miss out on the hype?<br/><br/>\n\nThe project envisions a world where the line between AI and humans is blurred. Creativity, strategy, competition, and fun are at the forefront. Join a community that embraces a new paradigm in the gaming industry and participate in the $CTOK sale on the ApeBond Launchpad!",
+      "tags": ["GameFi"],
+      "socials": {
+        "twitter": "https://twitter.com/codyfight",
+        "teaserVideo": "https://www.youtube.com/watch?v=lIc2r-6o3RQ&t=3s",
+        "tokenomicsURL": "https://codyfight.gitbook.io/white-paper/tokenomics/ctok",
+        "website": "https://codyfight.com/",
+        "whitepaper": "https://codyfight.gitbook.io/white-paper",
+        "telegram": "https://t.me/codyfight",
+        "discord": "https://discord.com/invite/codyfight"
+      },
+      "images": {
+        "launchpadImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1715280929/codyfight-launchpadImg_h2sfdx.png",
+        "launchpadSmallImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1715282641/codyfight-small-img_g3rbzu.png",
+        "launchpadIcon": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1715281027/codyfight-icon_hakych.png",
+        "headerImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1715281073/codyfight-header_p7jqca.png",
+        "headerImgMobile": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1715281183/codyfight-header-mobile_fum2yj.png",
+        "websiteImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1715281243/codyfight-website_vcgu9a.png",
+        "whitepaperImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1715281301/codyfight-whitepaper_umrns6.png",
+        "partnersImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1715281350/codyfight-partners_v0pe7q.png",
+        "tokenomicsImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1715281397/codyfight-tokenomics_ismlah.png",
+        "teaserImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1715281443/codyfight-teaservideo_vndnfh.png"
+      }
+    },
+    "bonds": [
+      {
+        "index": 8,
+        "contractAddress": {
+          "56": "0xF89AB9C08a3ceE593eC0f4d2da24D528E43e1a6c"
+        },
+        "billVersion": "TieredSale",
+        "billType": "oversubscription",
+        "token": {
+          "symbol": "USDT",
+          "address": {
+            "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+            "56": "0x55d398326f99059fF775485246999027B3197955",
+            "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+            "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+            "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+            "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+            "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+            "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+            "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+          },
+          "decimals": {
+            "1": 6,
+            "40": 6,
+            "56": 18,
+            "97": 18,
+            "137": 6,
+            "1890": 6,
+            "2525": 6,
+            "8453": 6,
+            "8822": 6,
+            "42161": 6,
+            "59144": 6
+          },
+          "liquidityDex": {
+            "1": "UniswapV2",
+            "56": "PancakeSwapV3",
+            "137": "UniswapV3",
+            "1890": "Elektrik",
+            "2525": "External",
+            "8453": "UniswapV3",
+            "8822": "Wagmi",
+            "42161": "UniswapV3",
+            "59144": "Nile"
+          },
+          "active": true
+        },
+        "earnToken": {
+          "symbol": "CTOK",
+          "address": {
+            "56": "0x2833412a3ac08Ee81c8590bE0081EB6f5E076BE0"
+          },
+          "decimals": {
+            "56": 18
+          },
+          "active": true
+        },
+        "billNnftAddress": {
+          "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+        },
+        "soldOut": false,
+        "billArt": {
+          "collection": "ApeBond_Collection1"
+        },
+        "initTime": {
+          "56": 1715612400
+        },
+        "finishTime": {
+          "56": 1715641200
+        },
+        "redeemTime": {
+          "56": 1715641200
+        },
+        "startVestingTimestamp": {
+          "56": 1721037600
+        },
+        "initPrice": {
+          "56": 0.16
+        },
+        "initialRelease": 25
+      },
+      {
+        "index": 9,
+        "contractAddress": {
+          "56": "0x806dDA35B4aa00E1A664D20402940fe91fC73bDB"
+        },
+        "billVersion": "TieredSale",
+        "billType": "oversubscription",
+        "token": {
+          "symbol": "USDT",
+          "address": {
+            "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+            "56": "0x55d398326f99059fF775485246999027B3197955",
+            "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+            "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+            "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+            "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+            "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+            "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+            "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+          },
+          "decimals": {
+            "1": 6,
+            "40": 6,
+            "56": 18,
+            "97": 18,
+            "137": 6,
+            "1890": 6,
+            "2525": 6,
+            "8453": 6,
+            "8822": 6,
+            "42161": 6,
+            "59144": 6
+          },
+          "liquidityDex": {
+            "1": "UniswapV2",
+            "56": "PancakeSwapV3",
+            "137": "UniswapV3",
+            "1890": "Elektrik",
+            "2525": "External",
+            "8453": "UniswapV3",
+            "8822": "Wagmi",
+            "42161": "UniswapV3",
+            "59144": "Nile"
+          },
+          "active": true
+        },
+        "earnToken": {
+          "symbol": "CTOK",
+          "address": {
+            "56": "0x2833412a3ac08Ee81c8590bE0081EB6f5E076BE0"
+          },
+          "decimals": {
+            "56": 18
+          },
+          "active": true
+        },
+        "billNnftAddress": {
+          "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+        },
+        "soldOut": false,
+        "billArt": {
+          "collection": "ApeBond_Collection1"
+        },
+        "initTime": {
+          "56": 1715612400
+        },
+        "finishTime": {
+          "56": 1715641200
+        },
+        "redeemTime": {
+          "56": 1715641200
+        },
+        "startVestingTimestamp": {
+          "56": 1721037600
+        },
+        "initPrice": {
+          "56": 0.16
+        },
+        "initialRelease": 25
+      },
+      {
+        "index": 10,
+        "contractAddress": {
+          "56": "0xad947DbB997c531aB052A096c3366d5B387870de"
+        },
+        "billVersion": "TieredSale",
+        "billType": "oversubscription",
+        "token": {
+          "symbol": "USDT",
+          "address": {
+            "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+            "56": "0x55d398326f99059fF775485246999027B3197955",
+            "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+            "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+            "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+            "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+            "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+            "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+            "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+          },
+          "decimals": {
+            "1": 6,
+            "40": 6,
+            "56": 18,
+            "97": 18,
+            "137": 6,
+            "1890": 6,
+            "2525": 6,
+            "8453": 6,
+            "8822": 6,
+            "42161": 6,
+            "59144": 6
+          },
+          "liquidityDex": {
+            "1": "UniswapV2",
+            "56": "PancakeSwapV3",
+            "137": "UniswapV3",
+            "1890": "Elektrik",
+            "2525": "External",
+            "8453": "UniswapV3",
+            "8822": "Wagmi",
+            "42161": "UniswapV3",
+            "59144": "Nile"
+          },
+          "active": true
+        },
+        "earnToken": {
+          "symbol": "CTOK",
+          "address": {
+            "56": "0x2833412a3ac08Ee81c8590bE0081EB6f5E076BE0"
+          },
+          "decimals": {
+            "56": 18
+          },
+          "active": true
+        },
+        "billNnftAddress": {
+          "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+        },
+        "soldOut": false,
+        "billArt": {
+          "collection": "ApeBond_Collection1"
+        },
+        "initTime": {
+          "56": 1715612400
+        },
+        "finishTime": {
+          "56": 1715641200
+        },
+        "redeemTime": {
+          "56": 1715641200
+        },
+        "startVestingTimestamp": {
+          "56": 1721037600
+        },
+        "initPrice": {
+          "56": 0.16
+        },
+        "initialRelease": 25
+      },
+      {
+        "index": 11,
+        "contractAddress": {
+          "56": "0x0468a087556E60724254ED8dEaA5832368DD05E5"
+        },
+        "billVersion": "TieredSale",
+        "billType": "oversubscription",
+        "token": {
+          "symbol": "USDT",
+          "address": {
+            "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+            "56": "0x55d398326f99059fF775485246999027B3197955",
+            "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+            "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+            "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+            "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+            "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+            "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+            "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+          },
+          "decimals": {
+            "1": 6,
+            "40": 6,
+            "56": 18,
+            "97": 18,
+            "137": 6,
+            "1890": 6,
+            "2525": 6,
+            "8453": 6,
+            "8822": 6,
+            "42161": 6,
+            "59144": 6
+          },
+          "liquidityDex": {
+            "1": "UniswapV2",
+            "56": "PancakeSwapV3",
+            "137": "UniswapV3",
+            "1890": "Elektrik",
+            "2525": "External",
+            "8453": "UniswapV3",
+            "8822": "Wagmi",
+            "42161": "UniswapV3",
+            "59144": "Nile"
+          },
+          "active": true
+        },
+        "earnToken": {
+          "symbol": "CTOK",
+          "address": {
+            "56": "0x2833412a3ac08Ee81c8590bE0081EB6f5E076BE0"
+          },
+          "decimals": {
+            "56": 18
+          },
+          "active": true
+        },
+        "billNnftAddress": {
+          "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+        },
+        "soldOut": false,
+        "billArt": {
+          "collection": "ApeBond_Collection1"
+        },
+        "initTime": {
+          "56": 1715612400
+        },
+        "finishTime": {
+          "56": 1715641200
+        },
+        "redeemTime": {
+          "56": 1715641200
+        },
+        "startVestingTimestamp": {
+          "56": 1721037600
+        },
+        "initPrice": {
+          "56": 0.16
+        },
+        "initialRelease": 25
+      },
+      {
+        "index": 12,
+        "contractAddress": {
+          "56": "0x0ac54e4b558dE824b48E1D36b33e995708Cfff25"
+        },
+        "billVersion": "TieredSale",
+        "billType": "fcfs",
+        "token": {
+          "symbol": "USDT",
+          "address": {
+            "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+            "56": "0x55d398326f99059fF775485246999027B3197955",
+            "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+            "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+            "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+            "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+            "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+            "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+            "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+          },
+          "decimals": {
+            "1": 6,
+            "40": 6,
+            "56": 18,
+            "97": 18,
+            "137": 6,
+            "1890": 6,
+            "2525": 6,
+            "8453": 6,
+            "8822": 6,
+            "42161": 6,
+            "59144": 6
+          },
+          "liquidityDex": {
+            "1": "UniswapV2",
+            "56": "PancakeSwapV3",
+            "137": "UniswapV3",
+            "1890": "Elektrik",
+            "2525": "External",
+            "8453": "UniswapV3",
+            "8822": "Wagmi",
+            "42161": "UniswapV3",
+            "59144": "Nile"
+          },
+          "active": true
+        },
+        "earnToken": {
+          "symbol": "CTOK",
+          "address": {
+            "56": "0x2833412a3ac08Ee81c8590bE0081EB6f5E076BE0"
+          },
+          "decimals": {
+            "56": 18
+          },
+          "active": true
+        },
+        "billNnftAddress": {
+          "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+        },
+        "soldOut": false,
+        "billArt": {
+          "collection": "ApeBond_Collection1"
+        },
+        "initTime": {
+          "56": 1715670000
+        },
+        "finishTime": {
+          "56": 1715698800
+        },
+        "redeemTime": {
+          "56": 1715698800
+        },
+        "startVestingTimestamp": {
+          "56": 1721037600
+        },
+        "initPrice": {
+          "56": 0.16
+        },
+        "initialRelease": 25
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "projectId": "carv",
+    "projectName": "CARV",
+    "saleStartTime": "May 21st 15:00 UTC",
+    "totalAllocation": "138 Nodes",
+    "salePriceString": "$1,086.96",
+    "vestingTimeString": "Instant",
+    "projectInfo": {
+      "shortDescription": "CARV Protocol is a modular data layer for gaming and AI, revolutionizing how data is used and shared, by ensuring privacy, ownership, and control are firmly in the hands of individuals, pioneering a future where data generates value for all.",
+      "fullDescription": "CARV is building the largest modular data layer for gaming and AI. Their Node launch is essential in order to move towards a truly decentralized, community-driven internet, addressing the critical challenge of monopolization by large stakeholders in the early stages of network deployment.<br/><br/>\n\nSufficient participation from node operators is necessary to ensure the decentralization of the network, enabling scalability and security. Therefore, widespread involvement in nodes operation is necessary. In order to empower the community to participate confidently in building the foundation of a sustainable, user-owned internet, CARV is pioneering a mechanism: the ‘Up-to-100% Buyback Program’, where 10,000,000 $CARV will be allocated to ensure a 100% buyback to all active node license holders with a 30-day linear vesting period.<br/><br/>\n\n<strong>Don't miss out on ApeBond's first Node Sale with CARV!</strong>",
+      "tags": ["Infrastructure"],
+      "socials": {
+        "twitter": "https://twitter.com/Carv_official",
+        "teaserVideo": "https://www.youtube.com/watch?v=P-7mYixdI0k",
+        "tokenomicsURL": "https://docs.carv.io/carv-token/distribution-and-vesting",
+        "website": "https://carv.io/",
+        "whitepaper": "https://docs.carv.io/carv-protocol/verifier-node-explained",
+        "telegram": "https://t.me/carv_official_global",
+        "discord": "https://discord.gg/carv"
+      },
+      "images": {
+        "launchpadImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1715975892/carv-launchpadImg_abywx1.png",
+        "launchpadSmallImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1715975892/carv-launchpadImg_abywx1.png",
+        "launchpadIcon": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1715976635/carv-launchpadicon_n3uyxh.png",
+        "headerImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1715976905/carv-header_tyrkc8.png",
+        "headerImgMobile": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1715996352/carv-header-mobile_mbn4fx.png",
+        "websiteImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1715996267/carv-website_puixtp.png",
+        "whitepaperImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1715996259/carv-whitepaper_nk1lfw.png",
+        "partnersImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1715996259/carv-partners_fmuhu8.png",
+        "tokenomicsImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1715996261/carv-tokenomics_l0zhtd.png",
+        "teaserImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1715996260/carv-video_pipsg1.png"
+      }
+    },
+    "bonds": [
+      {
+        "index": 13,
+        "contractAddress": {
+          "56": "0x83B66E76c11602360Fa0b8a6Bb382F408037328D"
+        },
+        "billVersion": "TieredSale",
+        "billType": "fcfs",
+        "token": {
+          "symbol": "USDT",
+          "address": {
+            "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+            "56": "0x55d398326f99059fF775485246999027B3197955",
+            "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+            "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+            "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+            "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+            "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+            "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+            "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+          },
+          "decimals": {
+            "1": 6,
+            "40": 6,
+            "56": 18,
+            "97": 18,
+            "137": 6,
+            "1890": 6,
+            "2525": 6,
+            "8453": 6,
+            "8822": 6,
+            "42161": 6,
+            "59144": 6
+          },
+          "liquidityDex": {
+            "1": "UniswapV2",
+            "56": "PancakeSwapV3",
+            "137": "UniswapV3",
+            "1890": "Elektrik",
+            "2525": "External",
+            "8453": "UniswapV3",
+            "8822": "Wagmi",
+            "42161": "UniswapV3",
+            "59144": "Nile"
+          },
+          "active": true
+        },
+        "earnToken": {
+          "symbol": "CARV",
+          "address": {
+            "56": "0xedee721a41435deb16d3e02719ebded9b9740b52"
+          },
+          "decimals": {
+            "56": 18
+          },
+          "active": true
+        },
+        "billNnftAddress": {
+          "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+        },
+        "soldOut": false,
+        "billArt": {
+          "collection": "ApeBond_Collection1"
+        },
+        "initTime": {
+          "56": 1716303600
+        },
+        "finishTime": {
+          "56": 1716305400
+        },
+        "redeemTime": {
+          "56": 1716305400
+        },
+        "startVestingTimestamp": {
+          "56": 1716305400
+        },
+        "initPrice": {
+          "56": 1086.96
+        },
+        "initialRelease": 100
+      },
+      {
+        "index": 14,
+        "contractAddress": {
+          "56": "0x252F73dB386C6FdC31D3a44987Af593bDDc41661"
+        },
+        "billVersion": "TieredSale",
+        "billType": "fcfs",
+        "token": {
+          "symbol": "USDT",
+          "address": {
+            "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+            "56": "0x55d398326f99059fF775485246999027B3197955",
+            "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+            "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+            "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+            "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+            "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+            "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+            "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+          },
+          "decimals": {
+            "1": 6,
+            "40": 6,
+            "56": 18,
+            "97": 18,
+            "137": 6,
+            "1890": 6,
+            "2525": 6,
+            "8453": 6,
+            "8822": 6,
+            "42161": 6,
+            "59144": 6
+          },
+          "liquidityDex": {
+            "1": "UniswapV2",
+            "56": "PancakeSwapV3",
+            "137": "UniswapV3",
+            "1890": "Elektrik",
+            "2525": "External",
+            "8453": "UniswapV3",
+            "8822": "Wagmi",
+            "42161": "UniswapV3",
+            "59144": "Nile"
+          },
+          "active": true
+        },
+        "earnToken": {
+          "symbol": "CARV",
+          "address": {
+            "56": "0xedee721a41435deb16d3e02719ebded9b9740b52"
+          },
+          "decimals": {
+            "56": 18
+          },
+          "active": true
+        },
+        "billNnftAddress": {
+          "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+        },
+        "soldOut": false,
+        "billArt": {
+          "collection": "ApeBond_Collection1"
+        },
+        "initTime": {
+          "56": 1716307200
+        },
+        "finishTime": {
+          "56": 1716309000
+        },
+        "redeemTime": {
+          "56": 1716309000
+        },
+        "startVestingTimestamp": {
+          "56": 1716309000
+        },
+        "initPrice": {
+          "56": 1086.96
+        },
+        "initialRelease": 100
+      },
+      {
+        "index": 15,
+        "contractAddress": {
+          "56": "0x99De402BFc3d6A055Cf56a97c35c4594e8BfF853"
+        },
+        "billVersion": "TieredSale",
+        "billType": "fcfs",
+        "token": {
+          "symbol": "USDT",
+          "address": {
+            "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+            "56": "0x55d398326f99059fF775485246999027B3197955",
+            "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+            "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+            "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+            "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+            "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+            "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+            "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+          },
+          "decimals": {
+            "1": 6,
+            "40": 6,
+            "56": 18,
+            "97": 18,
+            "137": 6,
+            "1890": 6,
+            "2525": 6,
+            "8453": 6,
+            "8822": 6,
+            "42161": 6,
+            "59144": 6
+          },
+          "liquidityDex": {
+            "1": "UniswapV2",
+            "56": "PancakeSwapV3",
+            "137": "UniswapV3",
+            "1890": "Elektrik",
+            "2525": "External",
+            "8453": "UniswapV3",
+            "8822": "Wagmi",
+            "42161": "UniswapV3",
+            "59144": "Nile"
+          },
+          "active": true
+        },
+        "earnToken": {
+          "symbol": "CARV",
+          "address": {
+            "56": "0xedee721a41435deb16d3e02719ebded9b9740b52"
+          },
+          "decimals": {
+            "56": 18
+          },
+          "active": true
+        },
+        "billNnftAddress": {
+          "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+        },
+        "soldOut": false,
+        "billArt": {
+          "collection": "ApeBond_Collection1"
+        },
+        "initTime": {
+          "56": 1716310800
+        },
+        "finishTime": {
+          "56": 1716312600
+        },
+        "redeemTime": {
+          "56": 1716312600
+        },
+        "startVestingTimestamp": {
+          "56": 1716312600
+        },
+        "initPrice": {
+          "56": 1086.96
+        },
+        "initialRelease": 100
+      },
+      {
+        "index": 16,
+        "contractAddress": {
+          "56": "0x5cfAdebFB6Ab5fAcd02E0Af31271194D1FDf06cb"
+        },
+        "billVersion": "TieredSale",
+        "billType": "fcfs",
+        "token": {
+          "symbol": "USDT",
+          "address": {
+            "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+            "56": "0x55d398326f99059fF775485246999027B3197955",
+            "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+            "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+            "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+            "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+            "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+            "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+            "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+          },
+          "decimals": {
+            "1": 6,
+            "40": 6,
+            "56": 18,
+            "97": 18,
+            "137": 6,
+            "1890": 6,
+            "2525": 6,
+            "8453": 6,
+            "8822": 6,
+            "42161": 6,
+            "59144": 6
+          },
+          "liquidityDex": {
+            "1": "UniswapV2",
+            "56": "PancakeSwapV3",
+            "137": "UniswapV3",
+            "1890": "Elektrik",
+            "2525": "External",
+            "8453": "UniswapV3",
+            "8822": "Wagmi",
+            "42161": "UniswapV3",
+            "59144": "Nile"
+          },
+          "active": true
+        },
+        "earnToken": {
+          "symbol": "CARV",
+          "address": {
+            "56": "0xedee721a41435deb16d3e02719ebded9b9740b52"
+          },
+          "decimals": {
+            "56": 18
+          },
+          "active": true
+        },
+        "billNnftAddress": {
+          "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+        },
+        "soldOut": false,
+        "billArt": {
+          "collection": "ApeBond_Collection1"
+        },
+        "initTime": {
+          "56": 1716314400
+        },
+        "finishTime": {
+          "56": 1716316200
+        },
+        "redeemTime": {
+          "56": 1716316200
+        },
+        "startVestingTimestamp": {
+          "56": 1716316200
+        },
+        "initPrice": {
+          "56": 1086.96
+        },
+        "initialRelease": 100
+      },
+      {
+        "index": 17,
+        "contractAddress": {
+          "56": "0x50945D36A5375DfE96f415D16E08Ac34f84276F4"
+        },
+        "billVersion": "TieredSale",
+        "billType": "fcfs",
+        "token": {
+          "symbol": "USDT",
+          "address": {
+            "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+            "56": "0x55d398326f99059fF775485246999027B3197955",
+            "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+            "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+            "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+            "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+            "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+            "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+            "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+          },
+          "decimals": {
+            "1": 6,
+            "40": 6,
+            "56": 18,
+            "97": 18,
+            "137": 6,
+            "1890": 6,
+            "2525": 6,
+            "8453": 6,
+            "8822": 6,
+            "42161": 6,
+            "59144": 6
+          },
+          "liquidityDex": {
+            "1": "UniswapV2",
+            "56": "PancakeSwapV3",
+            "137": "UniswapV3",
+            "1890": "Elektrik",
+            "2525": "External",
+            "8453": "UniswapV3",
+            "8822": "Wagmi",
+            "42161": "UniswapV3",
+            "59144": "Nile"
+          },
+          "active": true
+        },
+        "earnToken": {
+          "symbol": "CARV",
+          "address": {
+            "56": "0xedee721a41435deb16d3e02719ebded9b9740b52"
+          },
+          "decimals": {
+            "56": 18
+          },
+          "active": true
+        },
+        "billNnftAddress": {
+          "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+        },
+        "soldOut": false,
+        "billArt": {
+          "collection": "ApeBond_Collection1"
+        },
+        "initTime": {
+          "56": 1716318000
+        },
+        "finishTime": {
+          "56": 1716319800
+        },
+        "redeemTime": {
+          "56": 1716319800
+        },
+        "startVestingTimestamp": {
+          "56": 1716319800
+        },
+        "initPrice": {
+          "56": 1086.96
+        },
+        "initialRelease": 100
+      },
+      {
+        "index": 18,
+        "contractAddress": {
+          "56": "0x84dbf0577A945a7eE2DF85Fd9BF8024536FCb737"
+        },
+        "billVersion": "TieredSale",
+        "billType": "fcfs",
+        "token": {
+          "symbol": "USDT",
+          "address": {
+            "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+            "56": "0x55d398326f99059fF775485246999027B3197955",
+            "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+            "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+            "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+            "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+            "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+            "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+            "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+          },
+          "decimals": {
+            "1": 6,
+            "40": 6,
+            "56": 18,
+            "97": 18,
+            "137": 6,
+            "1890": 6,
+            "2525": 6,
+            "8453": 6,
+            "8822": 6,
+            "42161": 6,
+            "59144": 6
+          },
+          "liquidityDex": {
+            "1": "UniswapV2",
+            "56": "PancakeSwapV3",
+            "137": "UniswapV3",
+            "1890": "Elektrik",
+            "2525": "External",
+            "8453": "UniswapV3",
+            "8822": "Wagmi",
+            "42161": "UniswapV3",
+            "59144": "Nile"
+          },
+          "active": true
+        },
+        "earnToken": {
+          "symbol": "CARV",
+          "address": {
+            "56": "0xedee721a41435deb16d3e02719ebded9b9740b52"
+          },
+          "decimals": {
+            "56": 18
+          },
+          "active": true
+        },
+        "billNnftAddress": {
+          "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+        },
+        "soldOut": false,
+        "billArt": {
+          "collection": "ApeBond_Collection1"
+        },
+        "initTime": {
+          "56": 1716321600
+        },
+        "finishTime": {
+          "56": 1716364800
+        },
+        "redeemTime": {
+          "56": 1716364800
+        },
+        "startVestingTimestamp": {
+          "56": 1716364800
+        },
+        "initPrice": {
+          "56": 1086.96
         },
         "initialRelease": 100
       }

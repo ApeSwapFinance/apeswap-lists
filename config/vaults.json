@@ -146,6 +146,9 @@
         "97": 18,
         "137": 18
       },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "rewardToken": {
@@ -338,6 +341,9 @@
         "97": 18,
         "137": 18
       },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "rewardToken": {
@@ -520,6 +526,9 @@
         "97": 18,
         "137": 18
       },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "quoteToken": {
@@ -593,7 +602,7 @@
       "56": "0xc6C58318c5b180d820eC72bFe426ad41c04aee96"
     },
     "stakeToken": {
-      "symbol": "MATIC-BNB",
+      "symbol": "POL-BNB",
       "address": {
         "56": "0x29A4A3D77c010CE100A45831BF7e798f0f0B325D"
       },
@@ -604,14 +613,19 @@
       "lpToken": true
     },
     "token": {
-      "symbol": "MATIC",
+      "symbol": "POL",
       "address": {
         "56": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
-        "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
+        "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+        "59144": "0x265B25e22bcd7f10a5bD6E6410F10537Cc7567e8"
       },
       "decimals": {
         "56": 18,
-        "137": 18
+        "137": 18,
+        "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Algebra"
       },
       "active": true
     },
@@ -626,6 +640,9 @@
         "56": 18,
         "97": 18,
         "137": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
       },
       "active": true
     },
@@ -720,6 +737,9 @@
         "97": 18,
         "137": 18
       },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "rewardToken": {
@@ -799,7 +819,11 @@
         "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
         "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
         "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+        "1890": "0x7EbeF2A4b1B09381Ec5B9dF8C5c6f2dBECA59c73",
+        "8453": "0x4200000000000000000000000000000000000006",
+        "8822": "0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+        "59144": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f"
       },
       "decimals": {
         "1": 18,
@@ -807,7 +831,17 @@
         "56": 18,
         "97": 18,
         "137": 18,
-        "42161": 18
+        "1890": 18,
+        "8453": 18,
+        "8822": 18,
+        "42161": 18,
+        "59144": 18
+      },
+      "liquidityDex": {
+        "1890": "Elektrik",
+        "8453": "Aerodrome",
+        "8822": "MagicSea",
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -822,6 +856,9 @@
         "56": 18,
         "97": 18,
         "137": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
       },
       "active": true
     },
@@ -916,6 +953,9 @@
         "97": 18,
         "137": 18
       },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "rewardToken": {
@@ -1008,6 +1048,9 @@
         "56": 18,
         "97": 18,
         "137": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
       },
       "active": true
     },
@@ -1102,6 +1145,9 @@
         "97": 18,
         "137": 18
       },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "rewardToken": {
@@ -1194,6 +1240,9 @@
         "56": 18,
         "97": 18,
         "137": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
       },
       "active": true
     },
@@ -1288,6 +1337,9 @@
         "97": 18,
         "137": 18
       },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "rewardToken": {
@@ -1380,6 +1432,9 @@
         "56": 18,
         "97": 18,
         "137": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
       },
       "active": true
     },
@@ -1474,6 +1529,9 @@
         "97": 18,
         "137": 18
       },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "rewardToken": {
@@ -1566,6 +1624,9 @@
         "56": 18,
         "97": 18,
         "137": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
       },
       "active": true
     },
@@ -1660,6 +1721,9 @@
         "97": 18,
         "137": 18
       },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "rewardToken": {
@@ -1749,7 +1813,11 @@
         "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
         "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
         "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+        "1890": "0x7EbeF2A4b1B09381Ec5B9dF8C5c6f2dBECA59c73",
+        "8453": "0x4200000000000000000000000000000000000006",
+        "8822": "0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+        "59144": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f"
       },
       "decimals": {
         "1": 18,
@@ -1757,7 +1825,17 @@
         "56": 18,
         "97": 18,
         "137": 18,
-        "42161": 18
+        "1890": 18,
+        "8453": 18,
+        "8822": 18,
+        "42161": 18,
+        "59144": 18
+      },
+      "liquidityDex": {
+        "1890": "Elektrik",
+        "8453": "Aerodrome",
+        "8822": "MagicSea",
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -1852,6 +1930,9 @@
         "97": 18,
         "137": 18
       },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "rewardToken": {
@@ -1944,6 +2025,9 @@
         "56": 18,
         "97": 18,
         "137": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
       },
       "active": true
     },
@@ -2038,6 +2122,9 @@
         "97": 18,
         "137": 18
       },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
       "active": true
     },
     "rewardToken": {
@@ -2130,6 +2217,9 @@
         "56": 18,
         "97": 18,
         "137": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
       },
       "active": true
     },
