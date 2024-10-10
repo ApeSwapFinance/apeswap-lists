@@ -3864,6 +3864,21 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
   },
+  wethHat_Ichi: {
+    symbol: 'WETH-HAT',
+    address: {
+      [ChainId.ARBITRUM]: '0xC219A5b650C75E793beF047767A2021DAB49efFb',
+    },
+    decimals: {
+      [ChainId.ARBITRUM]: 18,
+    },
+    liquidityDex: {
+      [ChainId.ARBITRUM]: LiquidityDex.UniswapV3,
+    },
+    ichiUnderlyingDex: IchiSupportedDex.UniswapV3,
+    active: true,
+    lpToken: true,
+  },
   winj: {
     symbol: 'WINJ',
     address: {
