@@ -6,7 +6,7 @@ When you would like to make an edit to one of the lists in this repo, please onl
 
 For example, to edit a farm:
 
-1. Open the `constants/farms.ts` file
+1. Open the `constants/farms.ts` file.
 2. Make the edits & save
 3. Run `yarn build` to apply these changes to the corresponding JSON files
 4. Run `yarn test` to make sure the JSON files are valid
