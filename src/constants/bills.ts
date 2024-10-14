@@ -7,7 +7,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingT
 // Arbitrum Largest ID: 2011
 // ETH Largest ID: 3025
 // Linea Largest ID: 6008
-// Base Largest ID: 8010
+// Base Largest ID: 8012
 // Lightlink Largest ID: 7000
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
@@ -149,6 +149,32 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
+  {
+    index: 8012,
+    cmcId: 33050,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x60f42aFfa10C0eDbF42FABeDeEeB93604EBedA24',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.basedpepe,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://basedpepe.vip/',
+    twitter: 'https://x.com/0x52BasedPepe',
+    initTime: { [ChainId.BASE]: 1728919512 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Meme', 'Community'],
+    shortDescription: `Based $PEPE arrives to Base, inspired by the iconic Pepe meme and legendary Boy’s Club contract meta. Blacklisted launch snipers, free from presales, taxes or team allocations, this renounced token with locked LP ensures fairness for all holders. Based $PEPE is set to lead the memecoin season, with a safe, authentic token for all. No tricks--just a trusted token for true believers of the chain.`,
+    fullDescription: `Based $PEPE takes its place on the Base chain, inspired by the iconic Pepe the Frog meme and the legendary Boy’s Club contract meta that dominated Ethereum. Having blacklisted launch snipers and free from presales, taxes or team allocations, this renounced token with locked LP ensures transparency and fairness for all holders. Representing Pepe's spirit, Based $PEPE is set to lead the memecoin season on BASE, providing a safe, authentic token for the crypto community. No tricks--just a trusted token for true believers of the chain.`,
+  },
   // {
   //   index: 8011,
   //   cmcId: 22977,
