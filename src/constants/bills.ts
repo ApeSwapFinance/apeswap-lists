@@ -159,7 +159,7 @@ const bills: BillsConfig[] = [
     billType: 'reserve',
     billVersion: BillVersion.V2,
     lpToken: tokens.usdc,
-    earnToken: tokens.basedpepe,
+    earnToken: tokens.basedPepe,
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },

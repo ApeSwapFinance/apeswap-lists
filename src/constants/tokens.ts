@@ -234,7 +234,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.UniswapV3,
     },
   },
-  basedpepe: {
+  basedPepe: {
     symbol: 'PEPE',
     address: {
       [ChainId.BASE]: '0x52b492a33E447Cdb854c7FC19F1e57E8BfA1777D',
