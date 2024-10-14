@@ -234,6 +234,19 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.UniswapV3,
     },
   },
+  basedPepe: {
+    symbol: 'PEPE',
+    address: {
+      [ChainId.BASE]: '0x52b492a33E447Cdb854c7FC19F1e57E8BfA1777D',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV3,
+    },
+  },
   imgnai: {
     symbol: 'imgnAI',
     address: {

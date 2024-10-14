@@ -263,6 +263,58 @@
     "fullDescription": "FOMOFox is the first market-driven storytelling meme coin on IOTA EVM. Follow the thrilling journey of FOMOFox on TwitterX and help him conquer his FOMO by influencing the $FOMO Token’s market performance. Loyal holders will find countless opportunities to grow their $FOMO bags through raffles, solving riddles, or simply holding and supporting the fox. Along the way, FOMOFox faces diverse challenges and meets intriguing characters. Your influence on the market helps him make the right choices. This project offers pure entertainment and rewards those who stick with it! Join the adventure now and visit their website for more details!"
   },
   {
+    "index": 8012,
+    "cmcId": 33050,
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0x60f42aFfa10C0eDbF42FABeDeEeB93604EBedA24"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "8453": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+      },
+      "decimals": {
+        "8453": 6
+      },
+      "liquidityDex": {
+        "8453": "Aerodrome"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "PEPE",
+      "address": {
+        "8453": "0x52b492a33E447Cdb854c7FC19F1e57E8BfA1777D"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "8453": "UniswapV3"
+      }
+    },
+    "billNnftAddress": {
+      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "inactive": false,
+    "projectLink": "https://basedpepe.vip/",
+    "twitter": "https://x.com/0x52BasedPepe",
+    "initTime": {
+      "8453": 1728919512
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["Meme", "Community"],
+    "shortDescription": "Based $PEPE arrives to Base, inspired by the iconic Pepe meme and legendary Boy’s Club contract meta. Blacklisted launch snipers, free from presales, taxes or team allocations, this renounced token with locked LP ensures fairness for all holders. Based $PEPE is set to lead the memecoin season, with a safe, authentic token for all. No tricks--just a trusted token for true believers of the chain.",
+    "fullDescription": "Based $PEPE takes its place on the Base chain, inspired by the iconic Pepe the Frog meme and the legendary Boy’s Club contract meta that dominated Ethereum. Having blacklisted launch snipers and free from presales, taxes or team allocations, this renounced token with locked LP ensures transparency and fairness for all holders. Representing Pepe's spirit, Based $PEPE is set to lead the memecoin season on BASE, providing a safe, authentic token for the crypto community. No tricks--just a trusted token for true believers of the chain."
+  },
+  {
     "index": 8010,
     "cmcId": 15563,
     "chainId": 8453,
