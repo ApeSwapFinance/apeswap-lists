@@ -916,7 +916,7 @@ const bills: BillsConfig[] = [
     projectLink: 'http://www.bullrunbets.casino/',
     twitter: 'https://x.com/bullrunbets',
     initTime: { [ChainId.BSC]: 1725884035 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
