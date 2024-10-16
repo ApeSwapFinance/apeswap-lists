@@ -32,7 +32,9 @@ export enum ChainId {
   IOTA_TESTNET = 1075,
   IOTA = 8822,
   BASE = 8453,
-  //CAMP_TESTNET = 325000, //Commented as breaking the FE.
+  CAMP_TESTNET = 325000,
+  GRAPHLINQ = 614,
+  AVAX = 43114,
 }
 
 export enum LiquidityDex {
