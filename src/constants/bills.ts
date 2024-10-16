@@ -1,7 +1,7 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1099
+// BNB Largest ID: 1100
 // Polygon Largest ID: 162
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2011
@@ -784,6 +784,34 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1100,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x65BE57c179eaA866D393f0FcdBa32a850B1B46E1',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdt,
+    earnToken: tokens.arcas,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://www.blockapescissors.com/#home',
+    twitter: 'https://twitter.com/apeblock?lang=en',
+    audit: 'https://solidity.finance/audits/BlockApeScissors/',
+    initTime: { [ChainId.BSC]: 1729079200 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['GAMEFI'],
+    shortDescription:
+      'Arcas Champions is an Unreal Engine 5 third-person shooter set on the jungle planet Arcas, where Village Elites and Renegades fight for control using Bastonium. Players customize ape Champions for ranked modes, each with unique playstyles. The game introduces Skillstaking, a blockchain system that tokenizes MMR for esports growth, while the ARCAS token offers revenue share and governance, empowering player influence.',
+    fullDescription:
+      'Arcas Champions is an Unreal Engine 5 third-person shooter blending gunplay, abilities, and stats in fast-paced, competitive modes that demand teamwork, precision, and strategy. Set on the jungle planet Arcas, Village Elites and Renegades clash in a guerilla-style civil war for control, fueled by Bastonium, a powerful element. Players customize and upgrade their ape Champions to fit various playstyles in ranked modes, with Champion-specific leaderboards. The game features Skillstaking, a blockchain-driven system that tokenizes MMR, breaking down barriers to esports and enabling professional gaming paths. As the first Power to Players game, Arcas Champions gives players governance tools, allowing them to shape development and fully own their experience. The ARCAS token secures the DAO Treasury, collecting revenue and managing yield changes. Its deflationary mechanics gradually lock tokens inside player-owned NFTs, shifting governance and revenue share power permanently to players, embodying the "Power to the Players" philosophy.',
+  },
   {
     index: 1099,
     chainId: ChainId.BSC,

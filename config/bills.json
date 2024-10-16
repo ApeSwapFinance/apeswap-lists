@@ -1457,6 +1457,58 @@
     "shortDescription": "Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!"
   },
   {
+    "index": 1100,
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0x65BE57c179eaA866D393f0FcdBa32a850B1B46E1"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "56": "0x55d398326f99059fF775485246999027B3197955"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "ARCAS",
+      "address": {
+        "56": "0xAd0926eCf31719263DC86426024794332d9dD9A3"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://www.blockapescissors.com/#home",
+    "twitter": "https://twitter.com/apeblock?lang=en",
+    "audit": "https://solidity.finance/audits/BlockApeScissors/",
+    "initTime": {
+      "56": 1729079200
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["GAMEFI"],
+    "shortDescription": "Arcas Champions is an Unreal Engine 5 third-person shooter set on the jungle planet Arcas, where Village Elites and Renegades fight for control using Bastonium. Players customize ape Champions for ranked modes, each with unique playstyles. The game introduces Skillstaking, a blockchain system that tokenizes MMR for esports growth, while the ARCAS token offers revenue share and governance, empowering player influence.",
+    "fullDescription": "Arcas Champions is an Unreal Engine 5 third-person shooter blending gunplay, abilities, and stats in fast-paced, competitive modes that demand teamwork, precision, and strategy. Set on the jungle planet Arcas, Village Elites and Renegades clash in a guerilla-style civil war for control, fueled by Bastonium, a powerful element. Players customize and upgrade their ape Champions to fit various playstyles in ranked modes, with Champion-specific leaderboards. The game features Skillstaking, a blockchain-driven system that tokenizes MMR, breaking down barriers to esports and enabling professional gaming paths. As the first Power to Players game, Arcas Champions gives players governance tools, allowing them to shape development and fully own their experience. The ARCAS token secures the DAO Treasury, collecting revenue and managing yield changes. Its deflationary mechanics gradually lock tokens inside player-owned NFTs, shifting governance and revenue share power permanently to players, embodying the \"Power to the Players\" philosophy."
+  },
+  {
     "index": 1099,
     "chainId": 56,
     "contractAddress": {
