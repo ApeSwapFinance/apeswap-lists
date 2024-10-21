@@ -585,7 +585,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://linusonlinea.com/',
     twitter: 'https://x.com/linusonlinea',
     initTime: { [ChainId.LINEA]: 1725611855 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -610,7 +610,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://efrogs.mirror.xyz/',
     twitter: 'https://x.com/efrogs_on_linea',
     initTime: { [ChainId.LINEA]: 1724152998 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -664,7 +664,7 @@ const bills: BillsConfig[] = [
     audit: 'https://xfai.com/audit.pdf',
     initTime: { [ChainId.LINEA]: 1716217474 },
     initPrice: { [ChainId.LINEA]: 0.005450086440702347 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1546,7 +1546,7 @@ const bills: BillsConfig[] = [
       'https://github.com/CFG-NINJA/audits/blob/fa0790e36c10a901ff3f0ac8558fbdc9afdabafc/20231124_CFGNINJA_RetroCraft_Retro_Audit.pdf',
     initTime: { [ChainId.BSC]: 1719413043 },
     initPrice: { [ChainId.BSC]: 0.001336953784856991 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -6026,7 +6026,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/ArrlandGame',
     audit: 'https://github.com/solidproof/projects/tree/main/2024/Pirates%20of%20the%20Arrland',
     initTime: { [ChainId.MATIC]: 1724062299 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -6140,7 +6140,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/DerbyStars_HQ',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.347018667988457 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
