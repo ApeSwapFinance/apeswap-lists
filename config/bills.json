@@ -462,7 +462,7 @@
     "initTime": {
       "8453": 1722253943
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -1120,7 +1120,7 @@
     "initTime": {
       "59144": 1724152998
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -1228,7 +1228,7 @@
     "initPrice": {
       "59144": 0.005450086440702347
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -1773,7 +1773,7 @@
     "initTime": {
       "56": 1726664350
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -2038,7 +2038,7 @@
     "initTime": {
       "56": 1725280829
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -2646,7 +2646,7 @@
     "initTime": {
       "56": 1720717200
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -2983,7 +2983,7 @@
     "initPrice": {
       "56": 0.001336953784856991
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -3038,7 +3038,7 @@
     "initPrice": {
       "56": 0.001336953784856991
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -12420,7 +12420,7 @@
     "initTime": {
       "137": 1724062299
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -12586,7 +12586,7 @@
     "initPrice": {
       "137": 0.347018667988457
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "Quickswap_Collection1"
     },
@@ -12644,7 +12644,7 @@
     "initPrice": {
       "137": 0.347018667988457
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "Quickswap_Collection1"
     },
