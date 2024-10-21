@@ -3517,6 +3517,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  block: {
+    symbol: 'BLOCK',
+    address: {
+      [ChainId.BSC]: '0xbC7A566b85eF73F935e640A06b5a8b031Cd975Df',
+    },
+    decimals: { [ChainId.BSC]: 6 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+    },
+    active: true,
+  },
   tx20: {
     symbol: 'TX20',
     address: {
