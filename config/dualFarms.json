@@ -202,6 +202,7 @@
           "59144": 18
         },
         "liquidityDex": {
+          "1": "UniswapV3",
           "614": "External",
           "1890": "Elektrik",
           "8453": "Aerodrome",

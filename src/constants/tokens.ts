@@ -24,13 +24,16 @@ const tokens: Record<string, Token> = {
     symbol: 'WGLQ',
     address: {
       [ChainId.GRAPHLINQ]: '0xEB567ec41738c2bAb2599A1070FC5B727721b3B6',
+      [ChainId.MAINNET]: '0x9F9c8ec3534c3cE16F928381372BfbFBFb9F4D24',
     },
     decimals: {
       [ChainId.GRAPHLINQ]: 18,
+      [ChainId.MAINNET]: 18,
     },
     active: true,
     liquidityDex: {
       [ChainId.GRAPHLINQ]: LiquidityDex.External,
+      [ChainId.MAINNET]: LiquidityDex.UniswapV3,
     },
   },
   fomo: {
@@ -677,6 +680,7 @@ const tokens: Record<string, Token> = {
       [ChainId.GRAPHLINQ]: 18,
     },
     liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV3,
       [ChainId.LINEA]: LiquidityDex.Lynex,
       [ChainId.LIGHTLINK]: LiquidityDex.Elektrik,
       [ChainId.BASE]: LiquidityDex.Aerodrome,
