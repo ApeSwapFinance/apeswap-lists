@@ -1,7 +1,7 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1100
+// BNB Largest ID: 1101
 // Polygon Largest ID: 162
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2011
@@ -784,6 +784,33 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1101,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0xa41d86A91b1545fc09ac4641590Ff159dB7cB6Da',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdt,
+    earnToken: tokens.block,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://home.blockasset.co/',
+    twitter: 'https://x.com/blockassetco',
+    initTime: { [ChainId.BSC]: 1729522195 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['GAMEFI'],
+    shortDescription:
+      'Blockasset revolutionizes fan-athlete interaction with a Web3 platform powered by athlete tokens, NFTs, and social tools. Unlike platforms like Chilliz and Socios, Blockasset offers direct engagement between athletes and fans, with benefits set by the athletes. Powered by the BLOCK token, fans must acquire BLOCK to access exclusive athlete tokens from top sports stars. You can also make your picks from a range of sports leagues, including UFC and Premier League. Climb the leaderboard, earn points, rank up, and collect crypto rewards.',
+    fullDescription:
+      "Blockasset is revolutionizing the way fans and athletes connect by offering multiple touchpoints that benefit both groups. In contrast to Web2's centralized platforms where users were the product, Blockasset is building a Web3 social platform where fans and athletes can engage directly through athlete tokens, NFTs, and Web3 social tools. While platforms like Chilliz and Socios introduced fan tokens for sports teams, Blockasset goes further, enabling direct interaction between athletes and their fans, with benefits shaped by the athletes themselves. Each athlete on Blockasset has their own token. The ecosystem is powered by the BLOCK token, which will serve as the main trading pair for athlete token transactions. Fans must acquire BLOCK tokens to access exclusive athlete tokens, as some of the world’s top sports stars release their own tokens on the Blockasset platform, putting the athlete's brand in the hands of their most dedicated supporters.",
+  },
   {
     index: 1100,
     chainId: ChainId.BSC,
