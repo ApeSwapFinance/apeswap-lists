@@ -882,7 +882,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     audit:
       'https://github.com/freshcoins/Smart-Contract-Audits/blob/main/Weebs_0x317ae555dd3D474C4427699a7841891d398fA5A0.pdf',
     initTime: { [ChainId.BSC]: 1727945668 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
