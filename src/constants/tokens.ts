@@ -1615,6 +1615,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  mee: {
+    symbol: 'MEE',
+    address: {
+      [ChainId.MATIC]: '0xEB7eaB87837f4Dad1bb80856db9E4506Fc441f3D',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.QuickswapV2,
+    },
+    active: true,
+  },
   ambo: {
     symbol: 'AMBO',
     address: {
