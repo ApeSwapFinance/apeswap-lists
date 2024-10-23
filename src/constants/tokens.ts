@@ -247,6 +247,19 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.UniswapV3,
     },
   },
+  tyler: {
+    symbol: 'TYLER',
+    address: {
+      [ChainId.BASE]: '0x65e570b560027F493f2b1907e8e8e3B9546053bD',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV3,
+    },
+  },
   imgnai: {
     symbol: 'imgnAI',
     address: {
