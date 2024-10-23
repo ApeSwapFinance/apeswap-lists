@@ -267,7 +267,7 @@
     "cmcId": 33390,
     "chainId": 8453,
     "contractAddress": {
-      "8453": "0xeff2f4F8eB765D67b8C0deFCE5B556B388ba788D"
+      "8453": "0x099f4B9f489d8a8FF5a68C352D61Ae1F993AEBf6"
     },
     "billType": "reserve",
     "billVersion": "V2",
