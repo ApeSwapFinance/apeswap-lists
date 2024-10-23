@@ -154,7 +154,7 @@ const bills: BillsConfig[] = [
     cmcId: 33390,
     chainId: ChainId.BASE,
     contractAddress: {
-      [ChainId.BASE]: '0xeff2f4F8eB765D67b8C0deFCE5B556B388ba788D',
+      [ChainId.BASE]: '0x099f4B9f489d8a8FF5a68C352D61Ae1F993AEBf6',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
