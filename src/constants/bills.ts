@@ -2,7 +2,7 @@ import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingTerms } from '../types'
 
 // BNB Largest ID: 1101
-// Polygon Largest ID: 164
+// Polygon Largest ID: 165
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2011
 // ETH Largest ID: 3025
@@ -5996,6 +5996,33 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   /*
     Polygon Bills
   */
+  {
+    index: 165,
+    chainId: ChainId.MATIC,
+    contractAddress: {
+      [ChainId.MATIC]: '0xD50eD192F9A752bbdd2fecA3a61234dEC67692e7',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdt,
+    earnToken: tokens.goon,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://www.0xgoon.com/',
+    twitter: 'https://x.com/0xGOON_morning',
+    initTime: { [ChainId.MATIC]: 1729769488 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+    shortDescription:
+      'The GOON token, launched on June 6, 2024, quickly became a standout within wen.markets, driven by its playful mascot and strong ties to the Polygon community. Initially a meme token, GOON is now a key player in amplifying native dApps and communities in the Polygon ecosystem. By fostering a culture of evangelists, GOON is evolving into a content engine, driving news, education, and the onboarding of new users to Polygon.',
+    fullDescription: `The GOON token, launched on June 6, 2024, is a pioneering project within the newly launched wen.markets ecosystem, rapidly gaining attention due to its unique mascot and strong community ties. GOON's playful take on 'Polygon' resonates with a growing base of contributors from the Polygon community, fostering a culture of evangelists who organically expand the platform's user base. The project's vision focuses on amplifying native dApps and communities within the Polygon ecosystem, building a dynamic content engine that spreads news, educates users, and drives adoption. What started as a meme token has evolved into a vital player in supporting Polygon's growth, aiming to onboard the next 100,000 users and provide utility to the GOON token. With a mission to unite community efforts and the ambition of reaching one billion users, GOON is helping shape the future of Polygon and decentralized communities.`,
+    tags: ['Community'],
+  },
   {
     index: 164,
     cmcId: 22050,
