@@ -1,13 +1,13 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1100
-// Polygon Largest ID: 162
+// BNB Largest ID: 1101
+// Polygon Largest ID: 165
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2011
 // ETH Largest ID: 3025
 // Linea Largest ID: 6008
-// Base Largest ID: 8012
+// Base Largest ID: 8013
 // Lightlink Largest ID: 7000
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
@@ -179,6 +179,33 @@ const bills: BillsConfig[] = [
   // BASE
   //
   {
+    index: 8013,
+    cmcId: 33390,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x099f4B9f489d8a8FF5a68C352D61Ae1F993AEBf6',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.eth,
+    earnToken: tokens.tyler,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://www.basedtyler.com/',
+    twitter: 'https://x.com/TylerOnBase',
+    audit: 'https://tokensniffer.com/token/8453/0x65e570b560027f493f2b1907e8e8e3b9546053bd',
+    initTime: { [ChainId.BASE]: 1728919512 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Meme', 'Community'],
+    shortDescription: `Tyler Coin is a community-driven, meme-based cryptocurrency developed on the Base network, launched with just 1 Ethereum. Inspired by the fictional character from Fatt Murie's Guys' Club comic, Tyler Coin aims to surpass the success of memecoins like $BRETT by leveraging decentralized communities, transparent leadership, and viral memes. With a 100% fair launch and no insider allocations, Tyler Coin strives to be the top community meme on Base, driving organic growth through community engagement.`,
+    fullDescription: `Tyler Coin is a community-driven, meme-based cryptocurrency developed on the Base network, launched with an initial capital of just 1 Ethereum. The project is inspired by Tyler, the fictional character from Fatt Murie's Guys' Club comic, known for his love of dancing and video games, much like the popular $BRETT memecoin. Now living on the Base blockchain, Tyler has become the red mascot of the blue chain. Tyler Coin aims to not only replicate but surpass the success of memecoins like BRETT by harnessing decentralized communities, transparent leadership, and viral meme culture. With a 100% fair launch and no insider allocations, it strives to be the top community-driven meme on Base. By fostering active community engagement and using memes to fuel viral growth, Tyler Coin envisions itself as the next big sensation in the memecoin space, aiming for a billion-dollar market cap and beyond.`,
+  },
+  {
     index: 8012,
     cmcId: 33050,
     chainId: ChainId.BASE,
@@ -300,7 +327,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.samuraistarter.com/',
     twitter: 'https://x.com/SamuraiStarter',
     initTime: { [ChainId.BASE]: 1722253943 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -639,7 +666,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://efrogs.mirror.xyz/',
     twitter: 'https://x.com/efrogs_on_linea',
     initTime: { [ChainId.LINEA]: 1724152998 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -693,7 +720,7 @@ const bills: BillsConfig[] = [
     audit: 'https://xfai.com/audit.pdf',
     initTime: { [ChainId.LINEA]: 1716217474 },
     initPrice: { [ChainId.LINEA]: 0.005450086440702347 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -814,6 +841,34 @@ const bills: BillsConfig[] = [
   // BNB chain
   //
   {
+    index: 1101,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0xa41d86A91b1545fc09ac4641590Ff159dB7cB6Da',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdt,
+    earnToken: tokens.block,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://home.blockasset.co/',
+    twitter: 'https://x.com/blockassetco',
+    initTime: { [ChainId.BSC]: 1729522195 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['GAMEFI'],
+    shortDescription:
+      'Blockasset is a leading Web3 sports network that connects its community with unique experiences through athlete partnerships and innovative products. With a recent UFC partnership, Blockasset enhances fan engagement through BlockBet, a Web3 sportsbook and casino that has already seen over $20 million in wagers. Additionally, BlockPicks, a free-to-play game, helps onboard users by offering games for NBA, NFL, soccer, and UFC. The Blockasset media arm has generated over 250 million views, with investors like Wayne Rooney, Alexander Ovechkin, and Michael Bisping.',
+    fullDescription: `Blockasset is a Web3 sports network dedicated to delivering exceptional experiences to its community through premium content, strong athlete relationships, and cutting-edge Web3 sport products. Recently, Blockasset partnered with the UFC, bringing community activations and branding opportunities with one of the largest sports organizations in the world. 
+BlockBet, a Web3 sportsbook and casino, launched in June and has already generated over $20 million in wagers, highlighting its rapid growth. BlockPicks, a free-to-play game with over 30,000 players, serves as a fun and interactive onboarding tool into the BlockAsset ecosystem. Users can play for free on popular sports such as NBA, NFL, soccer, and UFC, with BlockPicks acting as a direct funnel into BlockBet.
+Blockasset’s media arm has amassed over 250 million views, working with top athletes like Alex Pereira, Khamzat Chimaev, Darren Till, and more. Prominent investors include football legend Wayne Rooney, hockey star Alexander Ovechkin, and UFC Hall of Famer Michael Bisping.`,
+  },
+  {
     index: 1100,
     chainId: ChainId.BSC,
     contractAddress: {
@@ -883,7 +938,7 @@ const bills: BillsConfig[] = [
     audit:
       'https://github.com/freshcoins/Smart-Contract-Audits/blob/main/Weebs_0x317ae555dd3D474C4427699a7841891d398fA5A0.pdf',
     initTime: { [ChainId.BSC]: 1727945668 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -948,7 +1003,7 @@ const bills: BillsConfig[] = [
     twitter: 'http://twitter.com/chain_gpt',
     audit: 'https://www.certik.com/projects/chaingpt/',
     initTime: { [ChainId.BSC]: 1726664350 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1084,7 +1139,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://chappyz.com/',
     twitter: 'https://twitter.com/Chappyzcom',
     initTime: { [ChainId.BSC]: 1725280829 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1367,7 +1422,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/bethustlers',
     audit: 'http://github.com/SkeletonEcosystem/Audits/blob/main/BetHustlers%20Smart%20Contract%20Audit.pdf',
     initTime: { [ChainId.BSC]: 1720717200 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1545,7 +1600,7 @@ const bills: BillsConfig[] = [
     audit: 'https://skynet.certik.com/projects/ready-to-fight',
     initTime: { [ChainId.BSC]: 1719413043 },
     initPrice: { [ChainId.BSC]: 0.001336953784856991 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1575,7 +1630,7 @@ const bills: BillsConfig[] = [
       'https://github.com/CFG-NINJA/audits/blob/fa0790e36c10a901ff3f0ac8558fbdc9afdabafc/20231124_CFGNINJA_RetroCraft_Retro_Audit.pdf',
     initTime: { [ChainId.BSC]: 1719413043 },
     initPrice: { [ChainId.BSC]: 0.001336953784856991 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -5971,6 +6026,62 @@ const bills: BillsConfig[] = [
     Polygon Bills
   */
   {
+    index: 165,
+    chainId: ChainId.MATIC,
+    contractAddress: {
+      [ChainId.MATIC]: '0xD50eD192F9A752bbdd2fecA3a61234dEC67692e7',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdt,
+    earnToken: tokens.goon,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://www.0xgoon.com/',
+    twitter: 'https://x.com/0xGOON_morning',
+    initTime: { [ChainId.MATIC]: 1729769488 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+    shortDescription:
+      'The GOON token, launched on June 6, 2024, quickly became a standout within wen.markets, driven by its playful mascot and strong ties to the Polygon community. Initially a meme token, GOON is now a key player in amplifying native dApps and communities in the Polygon ecosystem. By fostering a culture of evangelists, GOON is evolving into a content engine, driving news, education, and the onboarding of new users to Polygon.',
+    fullDescription: `The GOON token, launched on June 6, 2024, is a pioneering project within the newly launched wen.markets ecosystem, rapidly gaining attention due to its unique mascot and strong community ties. GOON's playful take on 'Polygon' resonates with a growing base of contributors from the Polygon community, fostering a culture of evangelists who organically expand the platform's user base. The project's vision focuses on amplifying native dApps and communities within the Polygon ecosystem, building a dynamic content engine that spreads news, educates users, and drives adoption. What started as a meme token has evolved into a vital player in supporting Polygon's growth, aiming to onboard the next 100,000 users and provide utility to the GOON token. With a mission to unite community efforts and the ambition of reaching one billion users, GOON is helping shape the future of Polygon and decentralized communities.`,
+    tags: ['Community'],
+  },
+  {
+    index: 164,
+    cmcId: 22050,
+    chainId: ChainId.MATIC,
+    contractAddress: {
+      [ChainId.MATIC]: '0x635566dE44D98367F58b4890Ba3bd0b7a88f081B',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdt,
+    earnToken: tokens.mee,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://www.medievalempires.com/',
+    twitter: 'https://x.com/MedievalEmpires',
+    audit: 'https://www.medievalempires.com/static/audit_report-89967b1290db095d7275ce21e8aa5d44.pdf',
+    initTime: { [ChainId.MATIC]: 1729596618 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+    shortDescription:
+      'Medieval Empires is a multi-player online strategy game set in 13th century Turkey. Players build towns, trade, battle, and form alliances in a passive PvE environment while completing daily missions and tasks to progress. Powered by Polygon blockchain and Immutable Passport technology, it offers low gas fees, security, and cross-platform play on PC, MAC, and soon mobile. The MEE token unlocks in-game benefits like VIP status and land access.',
+    fullDescription: `Medieval Empires is a multi-player online strategy game set in 13th century Turkey, where players build towns, trade, fight, and form alliances within a passive PvE environment. The game immerses players in rich historical settings, featuring daily missions, general tasks, and story missions that guide progression and the expansion of the world map through continuous battles. Built on the Polygon blockchain and powered by Immutable Passport and zkEVM technology, Medieval Empires offers a comprehensive developer ecosystem, low gas fees, enhanced security, and exceptional speed, all while being eco-friendly. The game is currently available on PC (Windows) and MAC (OSX), with a mobile version for iOS and Android on the horizon, ensuring seamless cross-platform interoperability. At the heart of the game is the MEE token, which provides in-game advantages like VIP status, land access, and daily rewards for players who connect their wallets and stake the required amount. The team behind the game brings expertise in both game development and blockchain technology, ensuring a well-rounded, engaging experience.`,
+    tags: ['GAMEFI'],
+  },
+  {
     index: 163,
     cmcId: 12312,
     chainId: ChainId.MATIC,
@@ -6055,7 +6166,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/ArrlandGame',
     audit: 'https://github.com/solidproof/projects/tree/main/2024/Pirates%20of%20the%20Arrland',
     initTime: { [ChainId.MATIC]: 1724062299 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -6140,7 +6251,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/DerbyStars_HQ',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.347018667988457 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
@@ -6169,7 +6280,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/DerbyStars_HQ',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.347018667988457 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },

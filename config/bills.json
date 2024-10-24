@@ -314,6 +314,59 @@
     "fullDescription": "FOMOFox is the first market-driven storytelling meme coin on IOTA EVM. Follow the thrilling journey of FOMOFox on TwitterX and help him conquer his FOMO by influencing the $FOMO Token’s market performance. Loyal holders will find countless opportunities to grow their $FOMO bags through raffles, solving riddles, or simply holding and supporting the fox. Along the way, FOMOFox faces diverse challenges and meets intriguing characters. Your influence on the market helps him make the right choices. This project offers pure entertainment and rewards those who stick with it! Join the adventure now and visit their website for more details!"
   },
   {
+    "index": 8013,
+    "cmcId": 33390,
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0x099f4B9f489d8a8FF5a68C352D61Ae1F993AEBf6"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "ETH",
+      "address": {
+        "8453": "0x4200000000000000000000000000000000000006"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "liquidityDex": {
+        "8453": "Aerodrome"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "TYLER",
+      "address": {
+        "8453": "0x65e570b560027F493f2b1907e8e8e3B9546053bD"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "8453": "UniswapV3"
+      }
+    },
+    "billNnftAddress": {
+      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "inactive": false,
+    "projectLink": "https://www.basedtyler.com/",
+    "twitter": "https://x.com/TylerOnBase",
+    "audit": "https://tokensniffer.com/token/8453/0x65e570b560027f493f2b1907e8e8e3b9546053bd",
+    "initTime": {
+      "8453": 1728919512
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["Meme", "Community"],
+    "shortDescription": "Tyler Coin is a community-driven, meme-based cryptocurrency developed on the Base network, launched with just 1 Ethereum. Inspired by the fictional character from Fatt Murie's Guys' Club comic, Tyler Coin aims to surpass the success of memecoins like $BRETT by leveraging decentralized communities, transparent leadership, and viral memes. With a 100% fair launch and no insider allocations, Tyler Coin strives to be the top community meme on Base, driving organic growth through community engagement.",
+    "fullDescription": "Tyler Coin is a community-driven, meme-based cryptocurrency developed on the Base network, launched with an initial capital of just 1 Ethereum. The project is inspired by Tyler, the fictional character from Fatt Murie's Guys' Club comic, known for his love of dancing and video games, much like the popular $BRETT memecoin. Now living on the Base blockchain, Tyler has become the red mascot of the blue chain. Tyler Coin aims to not only replicate but surpass the success of memecoins like BRETT by harnessing decentralized communities, transparent leadership, and viral meme culture. With a 100% fair launch and no insider allocations, it strives to be the top community-driven meme on Base. By fostering active community engagement and using memes to fuel viral growth, Tyler Coin envisions itself as the next big sensation in the memecoin space, aiming for a billion-dollar market cap and beyond."
+  },
+  {
     "index": 8012,
     "cmcId": 33050,
     "chainId": 8453,
@@ -513,7 +566,7 @@
     "initTime": {
       "8453": 1722253943
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -1171,7 +1224,7 @@
     "initTime": {
       "59144": 1724152998
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -1279,7 +1332,7 @@
     "initPrice": {
       "59144": 0.005450086440702347
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -1508,6 +1561,57 @@
     "shortDescription": "Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!"
   },
   {
+    "index": 1101,
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0xa41d86A91b1545fc09ac4641590Ff159dB7cB6Da"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "56": "0x55d398326f99059fF775485246999027B3197955"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "BLOCK",
+      "address": {
+        "56": "0xbC7A566b85eF73F935e640A06b5a8b031Cd975Df"
+      },
+      "decimals": {
+        "56": 6
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://home.blockasset.co/",
+    "twitter": "https://x.com/blockassetco",
+    "initTime": {
+      "56": 1729522195
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["GAMEFI"],
+    "shortDescription": "Blockasset is a leading Web3 sports network that connects its community with unique experiences through athlete partnerships and innovative products. With a recent UFC partnership, Blockasset enhances fan engagement through BlockBet, a Web3 sportsbook and casino that has already seen over $20 million in wagers. Additionally, BlockPicks, a free-to-play game, helps onboard users by offering games for NBA, NFL, soccer, and UFC. The Blockasset media arm has generated over 250 million views, with investors like Wayne Rooney, Alexander Ovechkin, and Michael Bisping.",
+    "fullDescription": "Blockasset is a Web3 sports network dedicated to delivering exceptional experiences to its community through premium content, strong athlete relationships, and cutting-edge Web3 sport products. Recently, Blockasset partnered with the UFC, bringing community activations and branding opportunities with one of the largest sports organizations in the world. \nBlockBet, a Web3 sportsbook and casino, launched in June and has already generated over $20 million in wagers, highlighting its rapid growth. BlockPicks, a free-to-play game with over 30,000 players, serves as a fun and interactive onboarding tool into the BlockAsset ecosystem. Users can play for free on popular sports such as NBA, NFL, soccer, and UFC, with BlockPicks acting as a direct funnel into BlockBet.\nBlockasset’s media arm has amassed over 250 million views, working with top athletes like Alex Pereira, Khamzat Chimaev, Darren Till, and more. Prominent investors include football legend Wayne Rooney, hockey star Alexander Ovechkin, and UFC Hall of Famer Michael Bisping."
+  },
+  {
     "index": 1100,
     "chainId": 56,
     "contractAddress": {
@@ -1656,7 +1760,7 @@
     "initTime": {
       "56": 1727945668
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -1773,7 +1877,7 @@
     "initTime": {
       "56": 1726664350
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -2038,7 +2142,7 @@
     "initTime": {
       "56": 1725280829
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -2646,7 +2750,7 @@
     "initTime": {
       "56": 1720717200
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -2983,7 +3087,7 @@
     "initPrice": {
       "56": 0.001336953784856991
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -3038,7 +3142,7 @@
     "initPrice": {
       "56": 0.001336953784856991
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -12256,6 +12360,112 @@
     "soldOut": true
   },
   {
+    "index": 165,
+    "chainId": 137,
+    "contractAddress": {
+      "137": "0xD50eD192F9A752bbdd2fecA3a61234dEC67692e7"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+      },
+      "decimals": {
+        "137": 6
+      },
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "GOON",
+      "address": {
+        "137": "0x433cDE5a82b5e0658dA3543b47A375dffd126Eb6"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "QuickswapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
+    },
+    "inactive": false,
+    "projectLink": "https://www.0xgoon.com/",
+    "twitter": "https://x.com/0xGOON_morning",
+    "initTime": {
+      "137": 1729769488
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "Quickswap_Collection1"
+    },
+    "bondPartner": "QuickSwap",
+    "shortDescription": "The GOON token, launched on June 6, 2024, quickly became a standout within wen.markets, driven by its playful mascot and strong ties to the Polygon community. Initially a meme token, GOON is now a key player in amplifying native dApps and communities in the Polygon ecosystem. By fostering a culture of evangelists, GOON is evolving into a content engine, driving news, education, and the onboarding of new users to Polygon.",
+    "fullDescription": "The GOON token, launched on June 6, 2024, is a pioneering project within the newly launched wen.markets ecosystem, rapidly gaining attention due to its unique mascot and strong community ties. GOON's playful take on 'Polygon' resonates with a growing base of contributors from the Polygon community, fostering a culture of evangelists who organically expand the platform's user base. The project's vision focuses on amplifying native dApps and communities within the Polygon ecosystem, building a dynamic content engine that spreads news, educates users, and drives adoption. What started as a meme token has evolved into a vital player in supporting Polygon's growth, aiming to onboard the next 100,000 users and provide utility to the GOON token. With a mission to unite community efforts and the ambition of reaching one billion users, GOON is helping shape the future of Polygon and decentralized communities.",
+    "tags": ["Community"]
+  },
+  {
+    "index": 164,
+    "cmcId": 22050,
+    "chainId": 137,
+    "contractAddress": {
+      "137": "0x635566dE44D98367F58b4890Ba3bd0b7a88f081B"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+      },
+      "decimals": {
+        "137": 6
+      },
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "MEE",
+      "address": {
+        "137": "0xEB7eaB87837f4Dad1bb80856db9E4506Fc441f3D"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "QuickswapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
+    },
+    "inactive": false,
+    "projectLink": "https://www.medievalempires.com/",
+    "twitter": "https://x.com/MedievalEmpires",
+    "audit": "https://www.medievalempires.com/static/audit_report-89967b1290db095d7275ce21e8aa5d44.pdf",
+    "initTime": {
+      "137": 1729596618
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "Quickswap_Collection1"
+    },
+    "bondPartner": "QuickSwap",
+    "shortDescription": "Medieval Empires is a multi-player online strategy game set in 13th century Turkey. Players build towns, trade, battle, and form alliances in a passive PvE environment while completing daily missions and tasks to progress. Powered by Polygon blockchain and Immutable Passport technology, it offers low gas fees, security, and cross-platform play on PC, MAC, and soon mobile. The MEE token unlocks in-game benefits like VIP status and land access.",
+    "fullDescription": "Medieval Empires is a multi-player online strategy game set in 13th century Turkey, where players build towns, trade, fight, and form alliances within a passive PvE environment. The game immerses players in rich historical settings, featuring daily missions, general tasks, and story missions that guide progression and the expansion of the world map through continuous battles. Built on the Polygon blockchain and powered by Immutable Passport and zkEVM technology, Medieval Empires offers a comprehensive developer ecosystem, low gas fees, enhanced security, and exceptional speed, all while being eco-friendly. The game is currently available on PC (Windows) and MAC (OSX), with a mobile version for iOS and Android on the horizon, ensuring seamless cross-platform interoperability. At the heart of the game is the MEE token, which provides in-game advantages like VIP status, land access, and daily rewards for players who connect their wallets and stake the required amount. The team behind the game brings expertise in both game development and blockchain technology, ensuring a well-rounded, engaging experience.",
+    "tags": ["GAMEFI"]
+  },
+  {
     "index": 163,
     "cmcId": 12312,
     "chainId": 137,
@@ -12420,7 +12630,7 @@
     "initTime": {
       "137": 1724062299
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -12586,7 +12796,7 @@
     "initPrice": {
       "137": 0.347018667988457
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "Quickswap_Collection1"
     },
@@ -12644,7 +12854,7 @@
     "initPrice": {
       "137": 0.347018667988457
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "Quickswap_Collection1"
     },

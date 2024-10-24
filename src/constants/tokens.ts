@@ -263,6 +263,19 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.UniswapV3,
     },
   },
+  tyler: {
+    symbol: 'TYLER',
+    address: {
+      [ChainId.BASE]: '0x65e570b560027F493f2b1907e8e8e3B9546053bD',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV3,
+    },
+  },
   imgnai: {
     symbol: 'imgnAI',
     address: {
@@ -1626,6 +1639,32 @@ const tokens: Record<string, Token> = {
     symbol: 'NSDX',
     address: {
       [ChainId.MATIC]: '0xE8d17b127BA8b9899a160D9a07b69bCa8E08bfc6',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.QuickswapV2,
+    },
+    active: true,
+  },
+  mee: {
+    symbol: 'MEE',
+    address: {
+      [ChainId.MATIC]: '0xEB7eaB87837f4Dad1bb80856db9E4506Fc441f3D',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.QuickswapV2,
+    },
+    active: true,
+  },
+  goon: {
+    symbol: 'GOON',
+    address: {
+      [ChainId.MATIC]: '0x433cDE5a82b5e0658dA3543b47A375dffd126Eb6',
     },
     decimals: {
       [ChainId.MATIC]: 18,
@@ -3532,6 +3571,17 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: '0x2D060Ef4d6BF7f9e5edDe373Ab735513c0e4F944',
     },
     decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+    },
+    active: true,
+  },
+  block: {
+    symbol: 'BLOCK',
+    address: {
+      [ChainId.BSC]: '0xbC7A566b85eF73F935e640A06b5a8b031Cd975Df',
+    },
+    decimals: { [ChainId.BSC]: 6 },
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
     },
