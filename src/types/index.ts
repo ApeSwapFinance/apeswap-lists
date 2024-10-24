@@ -76,6 +76,11 @@ export enum LiquidityDex {
 
   //ARBITRUM
   CamelotV2 = 'Camelotv2',
+
+  //AVALANCHE
+  LFJ = 'LFJ',
+  Pharaoh = 'Pharaoh',
+  Pangolin = 'Pangolin',
 }
 
 export enum IchiSupportedDex {
@@ -114,12 +119,12 @@ export enum ZapVersion {
 }
 
 export enum Protocols {
-  Both = 1,
+  Both = 1, //deprecated. Pick one protocol
   V2 = 2,
   V3 = 3,
-  Algebra = 4, // Ichi? (no, it depends what underlying LP I think)
-  Gamma = 5,
-  Steer = 6,
+  Algebra = 4,
+  Gamma = 5, //deprecated. You probably want V3 or Algebra as this is a concentrated liquidity wrapper
+  Steer = 6, //deprecated. You probably want V3 or Algebra as this is a concentrated liquidity wrapper
   Solidly = 7,
   XFAI = 8,
 }
@@ -628,6 +633,24 @@ export const dexFactories: Partial<
       protocol: Protocols.V3,
     },
   },
+  [ChainId.AVAX]: {
+    [LiquidityDex.LFJ]: {
+      factory: '0x9Ad6C38BE94206cA50bb0d90783181662f0Cfa10',
+      protocol: Protocols.V2,
+    },
+    [LiquidityDex.Pharaoh]: {
+      factory: '0xAAA32926fcE6bE95ea2c51cB4Fcb60836D320C42',
+      protocol: Protocols.V3,
+    },
+    [LiquidityDex.UniswapV3]: {
+      factory: '0x740b1c1de25031C31FF4fC9A62f554A55cdC1baD',
+      protocol: Protocols.V3,
+    },
+    [LiquidityDex.Pangolin]: {
+      factory: '0xefa94DE7a4656D787667C749f7E1223D71E9FD88',
+      protocol: Protocols.V2,
+    },
+  },
 }
 
 export const defaultDexFactories: Partial<Record<ChainId, Partial<Record<Protocols, string>>>> = {
@@ -669,6 +692,10 @@ export const defaultDexFactories: Partial<Record<ChainId, Partial<Record<Protoco
   },
   [ChainId.IOTA]: {
     [Protocols.V2]: dexFactories[ChainId.IOTA]?.MagicSea?.factory,
+  },
+  [ChainId.AVAX]: {
+    [Protocols.V2]: dexFactories[ChainId.AVAX]?.LFJ?.factory,
+    [Protocols.V3]: dexFactories[ChainId.AVAX]?.Pharaoh?.factory,
   },
 }
 
@@ -725,5 +752,12 @@ export const dexToZapMapping: Record<LiquidityDex, Partial<Record<ChainId, ZapVe
   },
   [LiquidityDex.CamelotV2]: {
     [ChainId.ARBITRUM]: ZapVersion.SoulZapApi,
+  },
+  [LiquidityDex.LFJ]: {
+    [ChainId.AVAX]: ZapVersion.SoulZapApi,
+  },
+  [LiquidityDex.Pharaoh]: {},
+  [LiquidityDex.Pangolin]: {
+    [ChainId.AVAX]: ZapVersion.SoulZapApi,
   },
 }
