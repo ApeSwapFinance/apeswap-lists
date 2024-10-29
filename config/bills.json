@@ -1,5 +1,56 @@
 [
   {
+    "index": 11000,
+    "chainId": 43114,
+    "contractAddress": {
+      "43114": "0x54bea66Ac4f74499C9bfCBc12Ace25E9f7aa9332"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "43114": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E"
+      },
+      "decimals": {
+        "43114": 6
+      },
+      "liquidityDex": {
+        "43114": "LFJ"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "AVAX",
+      "address": {
+        "43114": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7"
+      },
+      "decimals": {
+        "43114": 18
+      },
+      "liquidityDex": {
+        "43114": "LFJ"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "43114": "0x82CfCd79De447b01730b9ED0Db2ad6Ee5AaAC55f"
+    },
+    "inactive": false,
+    "projectLink": "https://www.avax.network/",
+    "twitter": "https://x.com/avax",
+    "initTime": {
+      "43114": 1730225754
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["Lending"],
+    "shortDescription": "lorem ipsum dolor sit amet.",
+    "fullDescription": "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  {
     "index": 9004,
     "chainId": 8822,
     "contractAddress": {

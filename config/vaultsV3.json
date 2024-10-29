@@ -1440,10 +1440,15 @@
     "token": {
       "symbol": "AVAX",
       "address": {
-        "56": "0x1ce0c2827e2ef14d5c4f29a091d735a204794041"
+        "56": "0x1ce0c2827e2ef14d5c4f29a091d735a204794041",
+        "43114": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7"
       },
       "decimals": {
-        "56": 18
+        "56": 18,
+        "43114": 18
+      },
+      "liquidityDex": {
+        "43114": "LFJ"
       },
       "active": true
     },
