@@ -773,6 +773,7 @@ const tokens: Record<string, Token> = {
       [ChainId.LIGHTLINK]: '0x18fB38404DADeE1727Be4b805c5b242B5413Fa40', // this is USDC.e
       [ChainId.BASE]: '0x833589fcd6edb6e08f4c7c32d4f71b54bda02913',
       [ChainId.IOTA]: '0xFbDa5F676cB37624f28265A144A48B0d6e87d3b6', // this is USDC.e
+      [ChainId.AVAX]: '0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -784,6 +785,7 @@ const tokens: Record<string, Token> = {
       [ChainId.LIGHTLINK]: 6,
       [ChainId.BASE]: 6,
       [ChainId.IOTA]: 6,
+      [ChainId.AVAX]: 6,
     },
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
@@ -794,6 +796,7 @@ const tokens: Record<string, Token> = {
       [ChainId.LIGHTLINK]: LiquidityDex.Elektrik,
       [ChainId.BASE]: LiquidityDex.Aerodrome,
       [ChainId.IOTA]: LiquidityDex.MagicSea,
+      [ChainId.AVAX]: LiquidityDex.LFJ,
     },
     active: true,
   },
@@ -1750,6 +1753,7 @@ const tokens: Record<string, Token> = {
       [ChainId.LIGHTLINK]: '0x6308fa9545126237158778e74AE1b6b89022C5c0',
       [ChainId.IOTA]: '0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4',
       [ChainId.BASE]: '0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2',
+      [ChainId.AVAX]: '0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7',
     },
     decimals: {
       [ChainId.MAINNET]: 6,
@@ -1763,6 +1767,7 @@ const tokens: Record<string, Token> = {
       [ChainId.LIGHTLINK]: 6,
       [ChainId.IOTA]: 6,
       [ChainId.BASE]: 6,
+      [ChainId.AVAX]: 6,
     },
     liquidityDex: {
       [ChainId.MAINNET]: LiquidityDex.UniswapV2,
@@ -1774,6 +1779,7 @@ const tokens: Record<string, Token> = {
       [ChainId.LIGHTLINK]: LiquidityDex.Elektrik,
       [ChainId.IOTA]: LiquidityDex.Wagmi,
       [ChainId.BASE]: LiquidityDex.UniswapV3,
+      [ChainId.AVAX]: LiquidityDex.LFJ,
     },
     active: true,
   },
@@ -2669,9 +2675,14 @@ const tokens: Record<string, Token> = {
     symbol: 'AVAX',
     address: {
       [ChainId.BSC]: '0x1ce0c2827e2ef14d5c4f29a091d735a204794041',
+      [ChainId.AVAX]: '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7',
     },
     decimals: {
       [ChainId.BSC]: 18,
+      [ChainId.AVAX]: 18,
+    },
+    liquidityDex: {
+      [ChainId.AVAX]: LiquidityDex.LFJ,
     },
     active: true,
   },
