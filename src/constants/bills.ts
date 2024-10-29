@@ -12,8 +12,37 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingT
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
 // GraphLinq Largest ID: 10000
+// Avalanche Largest ID: 11000
 
 const bills: BillsConfig[] = [
+  //
+  // Avalanche
+  //
+  {
+    index: 11000,
+    chainId: ChainId.AVAX,
+    contractAddress: {
+      [ChainId.AVAX]: '0x54bea66Ac4f74499C9bfCBc12Ace25E9f7aa9332',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.avax,
+    billNnftAddress: {
+      [ChainId.AVAX]: '0x82CfCd79De447b01730b9ED0Db2ad6Ee5AaAC55f',
+    },
+    inactive: false,
+    projectLink: 'https://www.avax.network/',
+    twitter: 'https://x.com/avax',
+    initTime: { [ChainId.AVAX]: 1730225754 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Lending'],
+    shortDescription: `lorem ipsum dolor sit amet.`,
+    fullDescription: `lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+  },
   //
   // GraphLinq
   //
