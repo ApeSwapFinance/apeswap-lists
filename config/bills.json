@@ -17183,7 +17183,9 @@
       "decimals": {
         "1": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -17291,7 +17293,9 @@
       "decimals": {
         "1": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -17344,7 +17348,9 @@
       "decimals": {
         "1": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -17450,7 +17456,9 @@
       "decimals": {
         "1": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -17502,7 +17510,9 @@
       "decimals": {
         "1": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -17553,7 +17563,9 @@
       "decimals": {
         "1": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -17604,7 +17616,9 @@
       "decimals": {
         "1": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -17656,7 +17670,9 @@
       "decimals": {
         "1": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -17718,7 +17734,9 @@
       "decimals": {
         "1": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -17772,7 +17790,9 @@
       "decimals": {
         "1": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -17889,7 +17909,9 @@
       "decimals": {
         "1": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -17943,7 +17965,9 @@
       "decimals": {
         "1": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -18005,7 +18029,9 @@
       "decimals": {
         "1": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -18059,7 +18085,9 @@
       "decimals": {
         "1": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -18189,7 +18217,7 @@
     "initTime": {
       "1": 1722265086
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ETH_Collection1"
     },
@@ -18214,7 +18242,9 @@
       "decimals": {
         "1": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -18325,7 +18355,9 @@
       "decimals": {
         "1": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -18374,7 +18406,9 @@
       "decimals": {
         "1": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -18423,7 +18457,9 @@
       "decimals": {
         "1": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -18500,7 +18536,7 @@
     "initTime": {
       "1": 1727152900
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ETH_Collection1"
     },
@@ -18525,7 +18561,9 @@
       "decimals": {
         "1": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {

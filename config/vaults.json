@@ -838,6 +838,7 @@
         "59144": 18
       },
       "liquidityDex": {
+        "1": "UniswapV3",
         "1890": "Elektrik",
         "8453": "Aerodrome",
         "8822": "MagicSea",
@@ -1832,6 +1833,7 @@
         "59144": 18
       },
       "liquidityDex": {
+        "1": "UniswapV3",
         "1890": "Elektrik",
         "8453": "Aerodrome",
         "8822": "MagicSea",

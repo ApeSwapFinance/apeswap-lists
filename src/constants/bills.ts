@@ -11,8 +11,37 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingT
 // Lightlink Largest ID: 7000
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
+// GraphLinq Largest ID: 10000
 
 const bills: BillsConfig[] = [
+  //
+  // GraphLinq
+  //
+  // {
+  //   index: 10000,
+  //   chainId: ChainId.GRAPHLINQ,
+  //   contractAddress: {
+  //     [ChainId.GRAPHLINQ]: '0xc1301e71cEa60d1d84C1d992E8a091dAeE0f7a62',
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V2,
+  //   lpToken: tokens.eth,
+  //   earnToken: tokens.glq,
+  //   billNnftAddress: {
+  //     [ChainId.GRAPHLINQ]: '0xb80383fe969a481a60136A78bB02717f3ca2beAA',
+  //   },
+  //   inactive: false,
+  //   projectLink: 'https://www.graphlinq.io/',
+  //   twitter: 'https://x.com/graphlinq_proto',
+  //   initTime: { [ChainId.GRAPHLINQ]: 1729531980 },
+  //   soldOut: false,
+  //   billArt: {
+  //     collection: BillArtCollection.ApeBond_Collection1,
+  //   },
+  //   tags: ['Lending'],
+  //   shortDescription: `lorem ipsum dolor sit amet.`,
+  //   fullDescription: `lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+  // },
   //
   // IOTA
   //
@@ -8966,7 +8995,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://gptprotocol.org/',
     twitter: 'https://twitter.com/gpt_protocol',
     initTime: { [ChainId.MAINNET]: 1722265086 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
@@ -9141,7 +9170,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://gptprotocol.org/',
     twitter: 'https://twitter.com/gpt_protocol',
     initTime: { [ChainId.MAINNET]: 1727152900 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
