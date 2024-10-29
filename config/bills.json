@@ -18268,7 +18268,7 @@
     "initTime": {
       "1": 1722265086
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ETH_Collection1"
     },
@@ -18587,7 +18587,7 @@
     "initTime": {
       "1": 1727152900
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ETH_Collection1"
     },
