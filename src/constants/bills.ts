@@ -17,31 +17,31 @@ const bills: BillsConfig[] = [
   //
   // GraphLinq
   //
-  {
-    index: 10000,
-    chainId: ChainId.GRAPHLINQ,
-    contractAddress: {
-      [ChainId.GRAPHLINQ]: '0xc1301e71cEa60d1d84C1d992E8a091dAeE0f7a62',
-    },
-    billType: 'reserve',
-    billVersion: BillVersion.V2,
-    lpToken: tokens.eth,
-    earnToken: tokens.glq,
-    billNnftAddress: {
-      [ChainId.GRAPHLINQ]: '0xb80383fe969a481a60136A78bB02717f3ca2beAA',
-    },
-    inactive: false,
-    projectLink: 'https://www.graphlinq.io/',
-    twitter: 'https://x.com/graphlinq_proto',
-    initTime: { [ChainId.GRAPHLINQ]: 1729531980 },
-    soldOut: false,
-    billArt: {
-      collection: BillArtCollection.ApeBond_Collection1,
-    },
-    tags: ['Lending'],
-    shortDescription: `lorem ipsum dolor sit amet.`,
-    fullDescription: `lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
-  },
+  // {
+  //   index: 10000,
+  //   chainId: ChainId.GRAPHLINQ,
+  //   contractAddress: {
+  //     [ChainId.GRAPHLINQ]: '0xc1301e71cEa60d1d84C1d992E8a091dAeE0f7a62',
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V2,
+  //   lpToken: tokens.eth,
+  //   earnToken: tokens.glq,
+  //   billNnftAddress: {
+  //     [ChainId.GRAPHLINQ]: '0xb80383fe969a481a60136A78bB02717f3ca2beAA',
+  //   },
+  //   inactive: false,
+  //   projectLink: 'https://www.graphlinq.io/',
+  //   twitter: 'https://x.com/graphlinq_proto',
+  //   initTime: { [ChainId.GRAPHLINQ]: 1729531980 },
+  //   soldOut: false,
+  //   billArt: {
+  //     collection: BillArtCollection.ApeBond_Collection1,
+  //   },
+  //   tags: ['Lending'],
+  //   shortDescription: `lorem ipsum dolor sit amet.`,
+  //   fullDescription: `lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+  // },
   //
   // IOTA
   //
