@@ -677,7 +677,7 @@ const tokens: Record<string, Token> = {
       [ChainId.LIGHTLINK]: '0x7EbeF2A4b1B09381Ec5B9dF8C5c6f2dBECA59c73',
       [ChainId.BASE]: '0x4200000000000000000000000000000000000006',
       [ChainId.IOTA]: '0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8',
-      // [ChainId.GRAPHLINQ]: '0xbeED106D0f2e6950BFa1Eec74E1253CA0a643442',
+      [ChainId.GRAPHLINQ]: '0xbeED106D0f2e6950BFa1Eec74E1253CA0a643442',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -690,7 +690,7 @@ const tokens: Record<string, Token> = {
       [ChainId.LIGHTLINK]: 18,
       [ChainId.BASE]: 18,
       [ChainId.IOTA]: 18,
-      // [ChainId.GRAPHLINQ]: 18,
+      [ChainId.GRAPHLINQ]: 18,
     },
     liquidityDex: {
       [ChainId.MAINNET]: LiquidityDex.UniswapV3,
@@ -698,7 +698,7 @@ const tokens: Record<string, Token> = {
       [ChainId.LIGHTLINK]: LiquidityDex.Elektrik,
       [ChainId.BASE]: LiquidityDex.Aerodrome,
       [ChainId.IOTA]: LiquidityDex.MagicSea,
-      // [ChainId.GRAPHLINQ]: LiquidityDex.External,
+      [ChainId.GRAPHLINQ]: LiquidityDex.External,
     },
     active: true,
   },
