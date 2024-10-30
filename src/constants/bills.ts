@@ -16,33 +16,33 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingT
 const bills: BillsConfig[] = [
   //
   // GraphLinq
-  //
-  // {
-  //   index: 10000,
-  //   chainId: ChainId.GRAPHLINQ,
-  //   contractAddress: {
-  //     [ChainId.GRAPHLINQ]: '0xc1301e71cEa60d1d84C1d992E8a091dAeE0f7a62',
-  //   },
-  //   billType: 'reserve',
-  //   billVersion: BillVersion.V2,
-  //   lpToken: tokens.eth,
-  //   earnToken: tokens.glq,
-  //   billNnftAddress: {
-  //     [ChainId.GRAPHLINQ]: '0xb80383fe969a481a60136A78bB02717f3ca2beAA',
-  //   },
-  //   inactive: false,
-  //   projectLink: 'https://www.graphlinq.io/',
-  //   twitter: 'https://x.com/graphlinq_proto',
-  //   initTime: { [ChainId.GRAPHLINQ]: 1729531980 },
-  //   soldOut: false,
-  //   billArt: {
-  //     collection: BillArtCollection.ApeBond_Collection1,
-  //   },
-  //   tags: ['Lending'],
-  //   shortDescription: `lorem ipsum dolor sit amet.`,
-  //   fullDescription: `lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
-  // },
-  //
+
+  /* {
+    index: 10000,
+    chainId: ChainId.GRAPHLINQ,
+    contractAddress: {
+      [ChainId.GRAPHLINQ]: '',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.eth,
+    earnToken: tokens.glq,
+    billNnftAddress: {
+      [ChainId.GRAPHLINQ]: '0xb80383fe969a481a60136A78bB02717f3ca2beAA',
+    },
+    inactive: false,
+    projectLink: 'https://graphlinq.io/',
+    twitter: 'https://x.com/graphlinq_proto',
+    initTime: { [ChainId.GRAPHLINQ]: 1729531980 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Lending'],
+    shortDescription: `GraphLinq is a no-code blockchain platform for on-chain automation and AI-driven dApps. Users can create cryptocurrencies, monitor smart contracts, set up bots, and execute trades without coding. Its native token, GLQ, fuels all transactions and graph executions on the network, with used tokens burned to reduce supply, promoting sustainable growth and market adoption.`,
+    fullDescription: `GraphLinq is a blockchain ecosystem designed for seamless on-chain automation and dApp development, harnessing the power of AI. With a no-code, user-friendly online interface, GraphLinq empowers users to generate and manage blockchain data without any coding expertise. This platform enables users to easily create cryptocurrencies, monitor smart contract activities, set up bots for tasks like handling subscriptions, track automated market maker (AMM) pair activities, and execute trades on centralized exchanges based on decentralized data. Users can also perform automated DEX arbitrage through customizable graphs on the GraphLinq engine. By building with nodes—interconnected blocks that transmit data to other nodes—GraphLinq allows users to create structured execution paths that operate on either the blockchain or GraphLinq’s engine. Once configured, users can deploy their workflows on the testnet or mainnet, seamlessly transitioning from testing to production. GLQ is the native asset of GraphLinq Chain, used for all financial transactions within the protocol and for community needs. The GLQ token powers the execution of graphs on the GraphLinq engine network, covering fees required for operations. Tokens minted since inception and used as gas fees for graph execution are burned, gradually reducing supply to promote a balanced evolution curve and support market adoption.`,
+  }, */
+
   // IOTA
   //
   {
