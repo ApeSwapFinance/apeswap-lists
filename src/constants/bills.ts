@@ -5,7 +5,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingT
 // Polygon Largest ID: 165
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2011
-// ETH Largest ID: 3027
+// ETH Largest ID: 3028
 // Linea Largest ID: 6008
 // Base Largest ID: 8013
 // Lightlink Largest ID: 7000
@@ -19,9 +19,10 @@ const bills: BillsConfig[] = [
 
   {
     index: 10000,
+    cmcId: 9029,
     chainId: ChainId.GRAPHLINQ,
     contractAddress: {
-      [ChainId.GRAPHLINQ]: '0x7a23Fac4D1A086C56ad65356a56e18458D1FCcdF',
+      [ChainId.GRAPHLINQ]: '0x9d661Cef05A9da5Aa82A8bdD0E8195aB69bF8A55',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
@@ -33,7 +34,8 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://graphlinq.io/',
     twitter: 'https://x.com/graphlinq_proto',
-    initTime: { [ChainId.GRAPHLINQ]: 1729531980 },
+    audit: 'https://www.cyberscope.io/audits/coin-graphlinq-protocol',
+    initTime: { [ChainId.GRAPHLINQ]: 1730454213 },
     soldOut: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -9301,6 +9303,33 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'GPT Protocol is a pioneering platform leading the merger of artificial intelligence (AI) with blockchain technology, revolutionizing AI development by ensuring it is accessible, innovative, and censorship-resistant. It harnesses open-source AI tools and decentralized networks, bringing together a global community of developers to create, share, and deploy AI applications on the blockchain. $GPT tokens create an AI economy that incentivizes consumers, developers, and compute providers, serving multiple roles within the network, from rewarding miners to compensating data providers.',
     fullDescription:
       'GPT Protocol is a transformative Layer 2 blockchain platform built on the Ethereum Virtual Machine, aimed at revolutionizing the artificial intelligence landscape. It integrates decentralized technologies to ensure AI development is accessible, innovative, and censorship-resistant. By harnessing open-source AI tools and decentralized networks, it brings together a global community of developers to create, share, and deploy AI applications on the blockchain. $GPT tokens create an AI economy that incentivizes consumers, developers, and compute providers, serving multiple roles within the network, from rewarding miners to compensating data providers. More than just a technology, GPT Protocol is shaping a future where data integrity, intellectual freedom, and collaborative innovation form the pillars of our digital world.',
+  },
+  {
+    index: 3028,
+    cmcId: 9029,
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0x1502c847FF2639Ea81a5718c2D90cD2Ca6938fa2',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    lpToken: tokens.eth,
+    earnToken: tokens.glq,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0xeDF145A02763008ef760Cd75143796A40120e792',
+    },
+    inactive: false,
+    projectLink: 'https://graphlinq.io/',
+    twitter: 'https://x.com/graphlinq_proto',
+    audit: 'https://www.cyberscope.io/audits/coin-graphlinq-protocol',
+    initTime: { [ChainId.MAINNET]: 1730454213 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['Lending'],
+    shortDescription: `GraphLinq is a no-code blockchain platform for on-chain automation and AI-driven dApps. Users can create cryptocurrencies, monitor smart contracts, set up bots, and execute trades without coding. Its native token, GLQ, fuels all transactions and graph executions on the network, with used tokens burned to reduce supply, promoting sustainable growth and market adoption.`,
+    fullDescription: `GraphLinq is a blockchain ecosystem designed for seamless on-chain automation and dApp development, harnessing the power of AI. With a no-code, user-friendly online interface, GraphLinq empowers users to generate and manage blockchain data without any coding expertise. This platform enables users to easily create cryptocurrencies, monitor smart contract activities, set up bots for tasks like handling subscriptions, track automated market maker (AMM) pair activities, and execute trades on centralized exchanges based on decentralized data. Users can also perform automated DEX arbitrage through customizable graphs on the GraphLinq engine. By building with nodes—interconnected blocks that transmit data to other nodes—GraphLinq allows users to create structured execution paths that operate on either the blockchain or GraphLinq’s engine. Once configured, users can deploy their workflows on the testnet or mainnet, seamlessly transitioning from testing to production. GLQ is the native asset of GraphLinq Chain, used for all financial transactions within the protocol and for community needs. The GLQ token powers the execution of graphs on the GraphLinq engine network, covering fees required for operations. Tokens minted since inception and used as gas fees for graph execution are burned, gradually reducing supply to promote a balanced evolution curve and support market adoption.`,
   },
 ]
 
