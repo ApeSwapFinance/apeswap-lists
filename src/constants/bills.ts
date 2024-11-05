@@ -6,7 +6,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingT
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2011
 // ETH Largest ID: 3028
-// Linea Largest ID: 6008
+// Linea Largest ID: 6009
 // Base Largest ID: 8013
 // Lightlink Largest ID: 7000
 // IOTA largest ID: 9003
@@ -626,6 +626,31 @@ const bills: BillsConfig[] = [
 
   //
   // LINEA
+  {
+    index: 6009,
+    chainId: ChainId.LINEA,
+    contractAddress: {
+      [ChainId.LINEA]: '0xCc73cf524b13bB53C74b8c0757C102aE9A80e07d',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.eth,
+    earnToken: tokens.croak,
+    billNnftAddress: {
+      [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
+    },
+    inactive: false,
+    projectLink: 'https://efrogs.mirror.xyz/',
+    twitter: 'https://x.com/efrogs_on_linea',
+    initTime: { [ChainId.LINEA]: 1730804855 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Meme', 'Community'],
+    fullDescription: ` Efrogs is the pioneering PFP collection on Linea, the innovative Layer 2 blockchain developed by Ethereum co-founder Joe Lubin. This unique collection, comprising 2015 distinct frogs, pays tribute to the groundbreaking year of Ethereum's launch, encapsulating the spirit of decentralized innovation. As the foremost community on Linea, Efrogs has introduced $CROAK, a memecoin that embodies the essence of the Croak Culture Movement—a growing community of enthusiasts committed to advancing the decentralized future. The project's ambitious mission is to make an indelible impact on the Linea blockchain, striving to engage 1,000,000 users and achieve 1,000,000,000 transactions. Each transaction represents a "Croak," a symbolic action that unites the community in a shared goal of decentralized empowerment. Truly, life is better when you Croak!`,
+    shortDescription: `Efrogs is the pioneering PFP collection on Linea, the Layer 2 blockchain developed by Ethereum co-founder Joe Lubin. Consisting of 2015 unique frogs, the collection pays homage to the year of Ethereum's launch. As the leading community on Linea, Efrogs has introduced $CROAK, a memecoin at the heart of the Croak Culture Movement. Life truly is better when you Croak! `,
+  },
   {
     index: 6008,
     chainId: ChainId.LINEA,
