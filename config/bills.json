@@ -1133,6 +1133,57 @@
     "shortDescription": "LightLink is an Ethereum L2 blockchain enabling dApps and enterprises to offer instant, gasless transactions. Their mission is to integrate millions into the digital economy with user-friendly dApps and enterprise partnerships, making blockchain as intuitive and accessible as Web2, without the complexity of gas fees and protocols."
   },
   {
+    "index": 6009,
+    "chainId": 59144,
+    "contractAddress": {
+      "59144": "0xCc73cf524b13bB53C74b8c0757C102aE9A80e07d"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "ETH",
+      "address": {
+        "59144": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f"
+      },
+      "decimals": {
+        "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Lynex"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "CROAK",
+      "address": {
+        "59144": "0xaCb54d07cA167934F57F829BeE2cC665e1A5ebEF"
+      },
+      "decimals": {
+        "59144": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "59144": "Lynex"
+      }
+    },
+    "billNnftAddress": {
+      "59144": "0xFA40b551980aF88FD2929Ab41f57D98ee13A6354"
+    },
+    "inactive": false,
+    "projectLink": "https://efrogs.mirror.xyz/",
+    "twitter": "https://x.com/efrogs_on_linea",
+    "initTime": {
+      "59144": 1730804855
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["Meme", "Community"],
+    "fullDescription": " Efrogs is the pioneering PFP collection on Linea, the innovative Layer 2 blockchain developed by Ethereum co-founder Joe Lubin. This unique collection, comprising 2015 distinct frogs, pays tribute to the groundbreaking year of Ethereum's launch, encapsulating the spirit of decentralized innovation. As the foremost community on Linea, Efrogs has introduced $CROAK, a memecoin that embodies the essence of the Croak Culture Movement—a growing community of enthusiasts committed to advancing the decentralized future. The project's ambitious mission is to make an indelible impact on the Linea blockchain, striving to engage 1,000,000 users and achieve 1,000,000,000 transactions. Each transaction represents a \"Croak,\" a symbolic action that unites the community in a shared goal of decentralized empowerment. Truly, life is better when you Croak!",
+    "shortDescription": "Efrogs is the pioneering PFP collection on Linea, the Layer 2 blockchain developed by Ethereum co-founder Joe Lubin. Consisting of 2015 unique frogs, the collection pays homage to the year of Ethereum's launch. As the leading community on Linea, Efrogs has introduced $CROAK, a memecoin at the heart of the Croak Culture Movement. Life truly is better when you Croak! "
+  },
+  {
     "index": 6008,
     "chainId": 59144,
     "contractAddress": {
