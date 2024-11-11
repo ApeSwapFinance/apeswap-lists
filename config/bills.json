@@ -18918,5 +18918,66 @@
     "tags": ["Blockchains"],
     "shortDescription": "GraphLinq is a no-code blockchain platform for on-chain automation and AI-driven dApps. Users can create cryptocurrencies, monitor smart contracts, set up bots, and execute trades without coding. Its native token, GLQ, fuels all transactions and graph executions on the network, with used tokens burned to reduce supply, promoting sustainable growth and market adoption.",
     "fullDescription": "GraphLinq is a blockchain ecosystem designed for seamless on-chain automation and dApp development, harnessing the power of AI. With a no-code, user-friendly online interface, GraphLinq empowers users to generate and manage blockchain data without any coding expertise. This platform enables users to easily create cryptocurrencies, monitor smart contract activities, set up bots for tasks like handling subscriptions, track automated market maker (AMM) pair activities, and execute trades on centralized exchanges based on decentralized data. Users can also perform automated DEX arbitrage through customizable graphs on the GraphLinq engine. By building with nodes—interconnected blocks that transmit data to other nodes—GraphLinq allows users to create structured execution paths that operate on either the blockchain or GraphLinq’s engine. Once configured, users can deploy their workflows on the testnet or mainnet, seamlessly transitioning from testing to production. GLQ is the native asset of GraphLinq Chain, used for all financial transactions within the protocol and for community needs. The GLQ token powers the execution of graphs on the GraphLinq engine network, covering fees required for operations. Tokens minted since inception and used as gas fees for graph execution are burned, gradually reducing supply to promote a balanced evolution curve and support market adoption."
+  },
+  {
+    "index": 3029,
+    "cmcId": 29157,
+    "chainId": 1,
+    "contractAddress": {
+      "1": "0xB6eD56f19D4E4E5887ca0c5231122784Be47Aa85"
+    },
+    "billType": "reserve",
+    "billVersion": "V3",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+      },
+      "decimals": {
+        "1": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "ABOND",
+      "address": {
+        "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
+      },
+      "decimals": {
+        "1": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "1": "0x499b654b0a7f9979cc315190c09ca2633809b8df"
+    },
+    "inactive": false,
+    "projectLink": "https://ape.bond/",
+    "twitter": "https://twitter.com/apebond",
+    "audit": "https://paladinsec.co/projects/apebond/",
+    "initTime": {
+      "1": 1731299073
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ETH_Collection1"
+    },
+    "shortDescription": "ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.",
+    "fullDescription": "ApeBond is building a sustainable DeFi future through its innovative Bonds products and strategic partnerships. Known for its Crowdsource OTC solution and treasury diversification expertise, ApeBond has launched Bonds with over 140 partners, sold 38,000+ Bonds for a total of $14,000,000 USD, and achieved a top 10 Dapp status by daily active users (DAU) according to CoinMarketCap. The ABOND token ties users with the platform by unlocking special Bonds, new earning opportunities, and more utilities coming up in the pipeline.",
+    "tags": ["Bonding"],
+    "partnersURLS": [
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/Seedify_fbt392.svg",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613244/ORBS_anzm60.png",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/quickLogo_2_1_g95ynz.png",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/aitech_logo_100_real_no_fake_bjskiq.png",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png"
+    ]
   }
 ]
