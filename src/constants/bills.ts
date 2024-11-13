@@ -9393,6 +9393,32 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
     ],
   },
+  {
+    index: 3030,
+    cmcId: 23421,
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0xf30Bff1373d0878734173307cdC50C83FE7696cf',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    lpToken: tokens.usdt,
+    earnToken: tokens.wminima,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0xeDF145A02763008ef760Cd75143796A40120e792',
+    },
+    inactive: false,
+    projectLink: 'https://www.minima.global/',
+    twitter: 'https://x.com/Minima_Global',
+    initTime: { [ChainId.MAINNET]: 1731492492 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['Blockchains'],
+    shortDescription: `Minima pioneers full decentralization by enabling every device to run a blockchain node. As the world approaches 100 billion connected devices by 2035, Minima ensures scalable, low-power, and secure communication without central authorities. It transforms edge devices into autonomous agents, driving a decentralized future where transactions and data management are efficient and secure.`,
+    fullDescription: `Minima is transforming decentralization by empowering every device to act as a full blockchain node. As 100 billion devices come online by 2035, traditional blockchains fall short of the scalable, decentralized infrastructure needed for edge computing. Minima addresses this by eliminating central authorities, enabling secure transactions and communications directly between devices. This innovation turns connected devices into autonomous agents, capable of learning, making decisions, and transacting independently. Minima’s efficient design uses minimal power, ensuring even low-energy devices can participate, unlocking potential for applications like smart cities and industrial IoT. By supporting scalable and secure decentralization, Minima lays the foundation for an interconnected, autonomous future.`,
+  },
 ]
 
 export default bills
