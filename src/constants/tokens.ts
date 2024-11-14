@@ -3510,6 +3510,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  wminima: {
+    symbol: 'WMINIMA',
+    address: {
+      [ChainId.MAINNET]: '0x669c01CAF0eDcaD7c2b8Dc771474aD937A7CA4AF',
+    },
+    decimals: { [ChainId.MAINNET]: 18 },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV3,
+    },
+    active: true,
+  },
   dck: {
     symbol: 'DCK',
     address: {
