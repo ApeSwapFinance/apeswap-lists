@@ -6,7 +6,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingT
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2011
 // ETH Largest ID: 3029
-// Linea Largest ID: 6009
+// Linea Largest ID: 6010
 // Base Largest ID: 8013
 // Lightlink Largest ID: 7000
 // IOTA largest ID: 9003
@@ -626,6 +626,31 @@ const bills: BillsConfig[] = [
 
   //
   // LINEA
+  {
+    index: 6010,
+    chainId: ChainId.LINEA,
+    contractAddress: {
+      [ChainId.LINEA]: '0x00aB24b9d36B4a4368775A1c523dFc457148EC62',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdt,
+    earnToken: tokens.linus,
+    billNnftAddress: {
+      [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
+    },
+    inactive: false,
+    projectLink: 'https://linusonlinea.com/',
+    twitter: 'https://x.com/linusonlinea',
+    initTime: { [ChainId.LINEA]: 1725611855 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Meme', 'Community'],
+    shortDescription: `LINUS is the OG Memecoin of Linea, the Layer 2 blockchain developed by Ethereum co-founder Joe Lubin. Consisting of an army of pengmilios, which are the most degen ever seen on the Chain. Pengmilios are the owners of $LINUS and $LINUS is the memecoin of Pengmilios. Do you want to become a part of our family? Buy some fucking LINUS 69420.`,
+    fullDescription: `Linus is the original memecoin of the Linea blockchain, a Layer 2 solution developed by Ethereum co-founder Joe Lubin. At the heart of this project are the Pengmilios, a wild and loyal army of degens, who proudly own $LINUS, the memecoin that represents their playful yet determined spirit. Unlike traditional tokens like $ENA, $ARB, or $UNI, Linus thrives on market sentiment and social trends, giving it unlimited growth potential. As part of the expanding Linea ecosystem, Linus anticipates billions in valuation, setting the stage for massive inflows into tokens like $LINUS. Pengmilio, the champion of Linea and the flightless bird of the people, leads this art-focused meme project with pride. With its bold, limitless approach, Linus invites everyone to join the Club Pengu community, embrace the fun, and be part of the meteoric rise of this one-of-a-kind memecoin. Ready to be a part of the family? Get your $LINUS now and join the revolution!`,
+  },
   {
     index: 6009,
     chainId: ChainId.LINEA,
