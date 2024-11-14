@@ -18985,20 +18985,20 @@
     "cmcId": 23421,
     "chainId": 1,
     "contractAddress": {
-      "1": "0xf30Bff1373d0878734173307cdC50C83FE7696cf"
+      "1": "0xF13845c62Ea20aA62f2540287D38E5b197D28F59"
     },
     "billType": "reserve",
     "billVersion": "V3",
     "lpToken": {
-      "symbol": "USDT",
+      "symbol": "USDC",
       "address": {
-        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
       },
       "decimals": {
         "1": 6
       },
       "liquidityDex": {
-        "1": "UniswapV2"
+        "1": "UniswapV3"
       },
       "active": true
     },

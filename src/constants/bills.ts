@@ -9398,11 +9398,11 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     cmcId: 23421,
     chainId: ChainId.MAINNET,
     contractAddress: {
-      [ChainId.MAINNET]: '0xf30Bff1373d0878734173307cdC50C83FE7696cf',
+      [ChainId.MAINNET]: '0xF13845c62Ea20aA62f2540287D38E5b197D28F59',
     },
     billType: 'reserve',
     billVersion: BillVersion.V3,
-    lpToken: tokens.usdt,
+    lpToken: tokens.usdc,
     earnToken: tokens.wminima,
     billNnftAddress: {
       [ChainId.MAINNET]: '0xeDF145A02763008ef760Cd75143796A40120e792',
