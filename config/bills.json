@@ -421,6 +421,58 @@
     "fullDescription": "Based $PEPE takes its place on the Base chain, inspired by the iconic Pepe the Frog meme and the legendary Boy’s Club contract meta that dominated Ethereum. Having blacklisted launch snipers and free from presales, taxes or team allocations, this renounced token with locked LP ensures transparency and fairness for all holders. Representing Pepe's spirit, Based $PEPE is set to lead the memecoin season on BASE, providing a safe, authentic token for the crypto community. No tricks--just a trusted token for true believers of the chain."
   },
   {
+    "index": 8011,
+    "cmcId": 22977,
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0xF32D2353D7653AC55F99329729E80ad610BA4a1B"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "ETH",
+      "address": {
+        "8453": "0x4200000000000000000000000000000000000006"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "liquidityDex": {
+        "8453": "Aerodrome"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "imgnAI",
+      "address": {
+        "8453": "0x18E692c03De43972Fe81058f322fa542Ae1A5E2c"
+      },
+      "decimals": {
+        "8453": 9
+      },
+      "liquidityDex": {
+        "8453": "UniswapV3"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "inactive": false,
+    "projectLink": "https://imgnai.com/",
+    "twitter": "https://x.com/imgn_ai",
+    "initTime": {
+      "8453": 1731922581
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["AI"],
+    "shortDescription": "ImgnAI is shaping the future of generative AI with Nai, an AI-powered image generation bot that allows users to create stunning art through simple text commands in styles like photorealism and anime. The $imgnAI token powers the ecosystem, unlocking premium features and NFT minting while also reducing supply through token burns. Future plans include decentralizing governance via the imgnAI DAO for $imgnAI stakers.",
+    "fullDescription": "ImgnAI is pioneering the future of generative AI by enabling users to create stunning artwork with simple text commands. At the core of the platform is Nai, an AI-powered image generation bot capable of producing images in various styles, including photorealism and anime. The platform's utility token, $imgnAI, plays a pivotal role in the ecosystem, offering access to an expanding suite of AI-driven consumer products. Users will soon be able to unlock premium features, such as HD/4K resolution, upscaling, and NSFW models, or mint their creations as NFTs using $imgnAI, with spent tokens burned to reduce supply. ImgnAI also plans to decentralize governance through a DAO, granting voting power to $imgnAI stakers, driving the platform toward full decentralization."
+  },
+  {
     "index": 8010,
     "cmcId": 15563,
     "chainId": 8453,
