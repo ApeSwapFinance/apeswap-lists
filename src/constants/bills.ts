@@ -6218,7 +6218,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.MATIC]: 1724792840 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
