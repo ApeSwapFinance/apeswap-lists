@@ -3499,6 +3499,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  zygo: {
+    symbol: 'ZYGO',
+    address: {
+      [ChainId.MAINNET]: '0xEe2B9b7e168b5b2D40c507b891c7CfB13A6AaF2b',
+    },
+    decimals: { [ChainId.MAINNET]: 18 },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
+    },
+    active: true,
+  },
   pumlx: {
     symbol: 'PUMLx',
     address: {
