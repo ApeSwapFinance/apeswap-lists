@@ -1717,6 +1717,67 @@
     "shortDescription": "Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!"
   },
   {
+    "index": 1103,
+    "cmcId": 29157,
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0x131636Ccc7c66F1241B02FfEbE415f5875E0c213"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "56": "0x55d398326f99059fF775485246999027B3197955"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "ABOND",
+      "address": {
+        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "ThenaV1"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://ape.bond/",
+    "twitter": "https://twitter.com/apebond",
+    "audit": "https://paladinsec.co/projects/apebond/",
+    "initTime": {
+      "56": 1730188465
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "shortDescription": "ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.",
+    "fullDescription": "ApeBond is building a sustainable DeFi future through its innovative Bonds products and strategic partnerships. Known for its Crowdsource OTC solution and treasury diversification expertise, ApeBond has launched Bonds with over 140 partners, sold 38,000+ Bonds for a total of $14,000,000 USD, and achieved a top 10 Dapp status by daily active users (DAU) according to CoinMarketCap. The ABOND token ties users with the platform by unlocking special Bonds, new earning opportunities, and more utilities coming up in the pipeline.",
+    "tags": ["Bonding"],
+    "partnersURLS": [
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/Seedify_fbt392.svg",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613244/ORBS_anzm60.png",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/quickLogo_2_1_g95ynz.png",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/aitech_logo_100_real_no_fake_bjskiq.png",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png"
+    ]
+  },
+  {
     "index": 1102,
     "cmcId": 29157,
     "chainId": 56,
@@ -1761,7 +1822,7 @@
     "initTime": {
       "56": 1730188465
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -19134,5 +19195,57 @@
     "tags": ["Blockchains"],
     "shortDescription": "Minima pioneers full decentralization by enabling every device to run a blockchain node. As the world approaches 100 billion connected devices by 2035, Minima ensures scalable, low-power, and secure communication without central authorities. It transforms edge devices into autonomous agents, driving a decentralized future where transactions and data management are efficient and secure.",
     "fullDescription": "Minima is transforming decentralization by empowering every device to act as a full blockchain node. As 100 billion devices come online by 2035, traditional blockchains fall short of the scalable, decentralized infrastructure needed for edge computing. Minima addresses this by eliminating central authorities, enabling secure transactions and communications directly between devices. This innovation turns connected devices into autonomous agents, capable of learning, making decisions, and transacting independently. Minima’s efficient design uses minimal power, ensuring even low-energy devices can participate, unlocking potential for applications like smart cities and industrial IoT. By supporting scalable and secure decentralization, Minima lays the foundation for an interconnected, autonomous future."
+  },
+  {
+    "index": 3031,
+    "cmcId": 32686,
+    "chainId": 1,
+    "contractAddress": {
+      "1": "0x6aC3fb2A8c9714915F2018cb0fBE63CF10495aB4"
+    },
+    "billType": "reserve",
+    "billVersion": "V3",
+    "lpToken": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+      },
+      "decimals": {
+        "1": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "ZYGO",
+      "address": {
+        "1": "0xEe2B9b7e168b5b2D40c507b891c7CfB13A6AaF2b"
+      },
+      "decimals": {
+        "1": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "1": "0xeDF145A02763008ef760Cd75143796A40120e792"
+    },
+    "inactive": false,
+    "projectLink": "https://www.zygothefrog.com/",
+    "twitter": "https://x.com/ZygoFrog",
+    "initTime": {
+      "1": 1732618692
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ETH_Collection1"
+    },
+    "tags": ["GAMEFI"],
+    "shortDescription": "Zygo the Frog, the mischievous and adventurous little green Froggie, is a community-driven cryptocurrency that blends meme culture with innovative crypto technology. Focused on decentralization and real-world utility, Zygo offers a fresh take on finance. Secured by Merged Mining, like Dogecoin, Zygo ensures a strong and reliable blockchain. Join the movement and shape the future of decentralized finance!",
+    "fullDescription": " Zygo the Frog, an adventurous and mischievous little green Froggie, brings a playful yet powerful twist to the world of cryptocurrency. As a community-driven project, Zygo combines the charm of meme culture with cutting-edge crypto innovation, promoting decentralization and real-world utility. Powered by Merged Mining, similar to Dogecoin, Zygo ensures its blockchain remains secure and reliable. Beyond its secure foundation, Zygo introduces Zygo AI, a sophisticated cryptocurrency assistant designed to simplify the complexities of the crypto market. With real-time market data, personalized insights, and portfolio management tools, Zygo AI empowers users to make informed trading and investment decisions. Dive into the Zygo movement and explore a fun, secure, and innovative approach to decentralized finance!"
   }
 ]
