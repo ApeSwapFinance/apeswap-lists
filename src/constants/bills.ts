@@ -7,7 +7,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingT
 // Arbitrum Largest ID: 2011
 // ETH Largest ID: 3031
 // Linea Largest ID: 6010
-// Base Largest ID: 8013
+// Base Largest ID: 8014
 // Lightlink Largest ID: 7000
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
@@ -180,6 +180,32 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
+  {
+    index: 8014,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0xCdf3D61DE6d9085e44d3E2F13872f748bcaB00ca',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.bpay,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://www.boundlesspay.com/',
+    twitter: 'https://x.com/boundlesspay',
+    audit: 'https://contractwolf.io/projects/boundlesspay',
+    initTime: { [ChainId.BASE]: 1732735296 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['CeFi'],
+    shortDescription: `BoundlessPay is the smarter way to manage finances, offering seamless cross-border payments, collections, and settlements in one secure wallet. Supporting 70+ cryptocurrencies, it allows users to buy, sell, and store effortlessly. Save with friends, earn competitive interest, and handle airtime, data, and bill payments instantly. Powered by the $BPAY token, BoundlessPay rewards users for engaging with its ecosystem while breaking financial barriers for limitless possibilities.`,
+    fullDescription: `BoundlessPay is a cutting-edge digital banking application designed to simplify cross-border collections, payments, and settlements, making financial management smarter and more convenient. With support for over 70 cryptocurrencies, users can seamlessly buy, sell, and store their assets in a safe and secure environment. BoundlessPay enables global money transfers at competitive rates, whether sending to Nigeria or New York. It also allows users to save with friends and earn competitive interest rates, fostering collaborative financial growth. The platform ensures effortless airtime, data, and bill payments, including electricity and water, all in one place. Boundless Cards offer seamless online and offline payment solutions, ensuring you never miss a bill. Powered by the $BPAY utility token, BoundlessPay rewards users for engaging with its ecosystem. Break free from financial limits and explore a world of endless possibilities with BoundlessPay—your smarter way to manage finances.`,
+  },
   {
     index: 8013,
     cmcId: 33390,

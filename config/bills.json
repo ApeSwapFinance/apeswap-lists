@@ -316,6 +316,58 @@
     "fullDescription": "FOMOFox is the first market-driven storytelling meme coin on IOTA EVM. Follow the thrilling journey of FOMOFox on TwitterX and help him conquer his FOMO by influencing the $FOMO Token’s market performance. Loyal holders will find countless opportunities to grow their $FOMO bags through raffles, solving riddles, or simply holding and supporting the fox. Along the way, FOMOFox faces diverse challenges and meets intriguing characters. Your influence on the market helps him make the right choices. This project offers pure entertainment and rewards those who stick with it! Join the adventure now and visit their website for more details!"
   },
   {
+    "index": 8014,
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0xCdf3D61DE6d9085e44d3E2F13872f748bcaB00ca"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "8453": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+      },
+      "decimals": {
+        "8453": 6
+      },
+      "liquidityDex": {
+        "8453": "Aerodrome"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "BPAY",
+      "address": {
+        "8453": "0x39b7effBA5edb719E714570369961e72EB147Bf1"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "8453": "UniswapV2"
+      }
+    },
+    "billNnftAddress": {
+      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "inactive": false,
+    "projectLink": "https://www.boundlesspay.com/",
+    "twitter": "https://x.com/boundlesspay",
+    "audit": "https://contractwolf.io/projects/boundlesspay",
+    "initTime": {
+      "8453": 1732735296
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["CeFi"],
+    "shortDescription": "BoundlessPay is the smarter way to manage finances, offering seamless cross-border payments, collections, and settlements in one secure wallet. Supporting 70+ cryptocurrencies, it allows users to buy, sell, and store effortlessly. Save with friends, earn competitive interest, and handle airtime, data, and bill payments instantly. Powered by the $BPAY token, BoundlessPay rewards users for engaging with its ecosystem while breaking financial barriers for limitless possibilities.",
+    "fullDescription": "BoundlessPay is a cutting-edge digital banking application designed to simplify cross-border collections, payments, and settlements, making financial management smarter and more convenient. With support for over 70 cryptocurrencies, users can seamlessly buy, sell, and store their assets in a safe and secure environment. BoundlessPay enables global money transfers at competitive rates, whether sending to Nigeria or New York. It also allows users to save with friends and earn competitive interest rates, fostering collaborative financial growth. The platform ensures effortless airtime, data, and bill payments, including electricity and water, all in one place. Boundless Cards offer seamless online and offline payment solutions, ensuring you never miss a bill. Powered by the $BPAY utility token, BoundlessPay rewards users for engaging with its ecosystem. Break free from financial limits and explore a world of endless possibilities with BoundlessPay—your smarter way to manage finances."
+  },
+  {
     "index": 8013,
     "cmcId": 33390,
     "chainId": 8453,
