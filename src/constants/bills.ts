@@ -199,7 +199,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/TylerOnBase',
     audit: 'https://tokensniffer.com/token/8453/0x65e570b560027f493f2b1907e8e8e3b9546053bd',
     initTime: { [ChainId.BASE]: 1728919512 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -225,7 +225,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://basedpepe.vip/',
     twitter: 'https://x.com/0x52BasedPepe',
     initTime: { [ChainId.BASE]: 1728919512 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -251,7 +251,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://imgnai.com/',
     twitter: 'https://x.com/imgn_ai',
     initTime: { [ChainId.BASE]: 1731922581 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -355,7 +355,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://sekuya.io/',
     twitter: 'https://twitter.com/sekuyaofficial',
     initTime: { [ChainId.BASE]: 1722253943 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -722,7 +722,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://linusonlinea.com/',
     twitter: 'https://x.com/linusonlinea',
     initTime: { [ChainId.LINEA]: 1725611855 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1041,7 +1041,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/apeblock?lang=en',
     audit: 'https://solidity.finance/audits/BlockApeScissors/',
     initTime: { [ChainId.BSC]: 1729079200 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1238,7 +1238,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     audit:
       'https://github.com/Quillhash/QuillAudit_Reports/blob/master/Poollotto%20Smart%20Contract%20Audit%20Report%20-%20QuillAudits.pdf',
     initTime: { [ChainId.BSC]: 1724684215 },
-    soldOut: false,
+    soldOut: true,
     billArt: { collection: BillArtCollection.ApeBond_Collection1 },
     shortDescription:
       'Poollotto is a pioneering technology company specializing in blockchain-powered lottery solutions, utilizing the Poollotto Token (PLT) to revolutionize the industry. By creating a transparent, fair, and secure platform, Poollotto enables decentralized management of global lottery pools, ensuring automated and secure payments. With their innovative approach, they aim to transform the lottery experience for users worldwide. <a href="https://metalottery.win/" target="_blank" rel="noopener noreferrer" style="color: #38A611">Purchase $100 or more worth of $PLT Bonds to earn 2 free lotto game ticket NFTs!</a>',
@@ -1499,7 +1499,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://clashub.io/',
     twitter: 'https://twitter.com/theclashub',
     initTime: { [ChainId.BSC]: 1721741216 },
-    soldOut: false,
+    soldOut: true,
     billArt: { collection: BillArtCollection.ApeBond_Collection1 },
     shortDescription:
       'Clashub is an NFT card game with a Play2Earn system, transforming approved NFTs into playing cards. Players use these cards to battle opponents and earn CLASH Tokens. It uniquely supports NFTs from various networks, enabling diverse gameplay. The CLASH Token serves as the in-game currency for purchases and rewards, with a balanced economic loop to prevent inflation.',
@@ -1725,7 +1725,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     audit: 'https://skynet.certik.com/projects/magic-square',
     initTime: { [ChainId.BSC]: 1719413043 },
     initPrice: { [ChainId.BSC]: 0.001336953784856991 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -6181,6 +6181,63 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     Polygon Bills
   */
   {
+    index: 167,
+    chainId: ChainId.MATIC,
+    contractAddress: {
+      [ChainId.MATIC]: '0x3B97F20b5a3127aBE7D2658bB47DC24bfC496883',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc2,
+    earnToken: tokens.trkx,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://trakx.io/',
+    twitter: 'https://x.com/official_trakx',
+    audit: 'https://skynet.certik.com/projects/bitbond',
+    initTime: { [ChainId.MATIC]: 1732713391 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+    shortDescription:
+      'Trakx is a global fintech redefining crypto investments with its Crypto Tradable Indices (CTIs), offering simple, one-click portfolio diversification through themed baskets of top digital assets. Registered with French AMF/ACPR as a VASP, Trakx ensures regulatory compliance. Powered by the TRKX token, users enjoy reduced fees, governance participation, and staking rewards, making crypto investing easy and accessible.',
+    fullDescription: `Trakx is a global fintech innovator revolutionizing crypto investments through its Crypto Tradable Indices (CTIs). These proprietary baskets of the largest and most liquid digital assets offer a seamless, one-click solution for diversifying portfolios in the fast-evolving crypto market. With low fees and themed, easy-to-understand investment options, Trakx simplifies complex strategies for all investors. Registered with French AMF/ACPR as a Virtual Asset Service Provider (VASP), Trakx adheres to the highest international regulatory standards. The TRKX token powers the ecosystem, reducing trading fees and unlocking exclusive benefits such as governance participation and staking rewards. Trakx makes advanced investing straightforward, setting a new benchmark in crypto index trading.`,
+    tags: ['DeFi'],
+  },
+  {
+    index: 166,
+    cmcId: 22050,
+    chainId: ChainId.MATIC,
+    contractAddress: {
+      [ChainId.MATIC]: '0x2E0C0B77b308260045cee48Ea89b3CFc592C962c',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdt,
+    earnToken: tokens.mee,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://www.medievalempires.com/',
+    twitter: 'https://x.com/MedievalEmpires',
+    audit: 'https://www.medievalempires.com/static/audit_report-89967b1290db095d7275ce21e8aa5d44.pdf',
+    initTime: { [ChainId.MATIC]: 1732711586 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+    shortDescription:
+      'Medieval Empires is a multi-player online strategy game set in 13th century Turkey. Players build towns, trade, battle, and form alliances in a passive PvE environment while completing daily missions and tasks to progress. Powered by Polygon blockchain and Immutable Passport technology, it offers low gas fees, security, and cross-platform play on PC, MAC, and soon mobile. The MEE token unlocks in-game benefits like VIP status and land access.',
+    fullDescription: `Medieval Empires is a multi-player online strategy game set in 13th century Turkey, where players build towns, trade, fight, and form alliances within a passive PvE environment. The game immerses players in rich historical settings, featuring daily missions, general tasks, and story missions that guide progression and the expansion of the world map through continuous battles. Built on the Polygon blockchain and powered by Immutable Passport and zkEVM technology, Medieval Empires offers a comprehensive developer ecosystem, low gas fees, enhanced security, and exceptional speed, all while being eco-friendly. The game is currently available on PC (Windows) and MAC (OSX), with a mobile version for iOS and Android on the horizon, ensuring seamless cross-platform interoperability. At the heart of the game is the MEE token, which provides in-game advantages like VIP status, land access, and daily rewards for players who connect their wallets and stake the required amount. The team behind the game brings expertise in both game development and blockchain technology, ensuring a well-rounded, engaging experience.`,
+    tags: ['GAMEFI'],
+  },
+  {
     index: 165,
     chainId: ChainId.MATIC,
     contractAddress: {
@@ -6226,7 +6283,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://x.com/MedievalEmpires',
     audit: 'https://www.medievalempires.com/static/audit_report-89967b1290db095d7275ce21e8aa5d44.pdf',
     initTime: { [ChainId.MATIC]: 1729596618 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
@@ -6350,7 +6407,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     audit: 'https://community.verida.network/verida-network/security-audits',
     initTime: { [ChainId.MATIC]: 1723642568 },
     bondPartner: 'QuickSwap',
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
@@ -8997,7 +9054,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     audit: 'https://skynet.certik.com/projects/metahorse-unity',
     initTime: { [ChainId.MAINNET]: 1715268918 },
     initPrice: { [ChainId.MAINNET]: 0.0334978015237449 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
@@ -9208,7 +9265,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.MAINNET]: 1724792840 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
@@ -9297,7 +9354,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://aethergames.io/',
     twitter: 'https://twitter.com/AetherGamesInc',
     initTime: { [ChainId.MAINNET]: 1726567494 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
