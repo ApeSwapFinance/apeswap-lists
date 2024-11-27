@@ -613,6 +613,35 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/lightlinkchain',
     audit: 'https://docs.lightlink.io/lightlink-protocol/miscellaneous/security-audits',
     initTime: { [ChainId.LIGHTLINK]: 1727694457 },
+    soldOut: true,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Blockchains'],
+    fullDescription:
+      "LightLink is an Ethereum L2 blockchain that lets dApps and enterprises offer users instant, gasless transactions. LightLink's mission is to seamlessly integrate millions into the digital economy through user-focused dApps and enterprise partnerships, making blockchain as intuitive and accessible as Web2, without the complexity of gas fees and protocols. No L1 & L2 blockchains currently offer only gasless transactions, however, LightLink’s Enterprise Mode allows zero-gas fees for users, processing up to 5000 transactions per second compared to Ethereum's 12-15 and preventing congestion and reducing fees to about $0.01 per transaction.",
+    shortDescription:
+      'LightLink is an Ethereum L2 blockchain enabling dApps and enterprises to offer instant, gasless transactions. Their mission is to integrate millions into the digital economy with user-friendly dApps and enterprise partnerships, making blockchain as intuitive and accessible as Web2, without the complexity of gas fees and protocols.',
+  },
+  {
+    index: 7002,
+    cmcId: 22943,
+    chainId: ChainId.LIGHTLINK,
+    contractAddress: {
+      [ChainId.LIGHTLINK]: '0x0F0B63CDA3225a33C9a09dE42fB177fD8E32749f',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.ll,
+    billNnftAddress: {
+      [ChainId.LIGHTLINK]: '0x82CfCd79De447b01730b9ED0Db2ad6Ee5AaAC55f',
+    },
+    inactive: false,
+    projectLink: 'https://lightlink.io/',
+    twitter: 'https://twitter.com/lightlinkchain',
+    audit: 'https://docs.lightlink.io/lightlink-protocol/miscellaneous/security-audits',
+    initTime: { [ChainId.LIGHTLINK]: 1727694457 },
     soldOut: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
