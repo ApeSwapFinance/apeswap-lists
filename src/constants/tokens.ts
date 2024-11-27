@@ -1528,6 +1528,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  trkx: {
+    symbol: 'TRKX',
+    address: {
+      [ChainId.MATIC]: '0x61bf130d973d59c69d3227f1668d534d83119860',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.External,
+    },
+    active: true,
+  },
   orbs: {
     symbol: 'ORBS',
     address: {
