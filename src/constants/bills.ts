@@ -199,7 +199,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/TylerOnBase',
     audit: 'https://tokensniffer.com/token/8453/0x65e570b560027f493f2b1907e8e8e3b9546053bd',
     initTime: { [ChainId.BASE]: 1728919512 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -225,7 +225,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://basedpepe.vip/',
     twitter: 'https://x.com/0x52BasedPepe',
     initTime: { [ChainId.BASE]: 1728919512 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -251,7 +251,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://imgnai.com/',
     twitter: 'https://x.com/imgn_ai',
     initTime: { [ChainId.BASE]: 1731922581 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -355,7 +355,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://sekuya.io/',
     twitter: 'https://twitter.com/sekuyaofficial',
     initTime: { [ChainId.BASE]: 1722253943 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -722,7 +722,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://linusonlinea.com/',
     twitter: 'https://x.com/linusonlinea',
     initTime: { [ChainId.LINEA]: 1725611855 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1041,7 +1041,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/apeblock?lang=en',
     audit: 'https://solidity.finance/audits/BlockApeScissors/',
     initTime: { [ChainId.BSC]: 1729079200 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1238,7 +1238,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     audit:
       'https://github.com/Quillhash/QuillAudit_Reports/blob/master/Poollotto%20Smart%20Contract%20Audit%20Report%20-%20QuillAudits.pdf',
     initTime: { [ChainId.BSC]: 1724684215 },
-    soldOut: false,
+    soldOut: true,
     billArt: { collection: BillArtCollection.ApeBond_Collection1 },
     shortDescription:
       'Poollotto is a pioneering technology company specializing in blockchain-powered lottery solutions, utilizing the Poollotto Token (PLT) to revolutionize the industry. By creating a transparent, fair, and secure platform, Poollotto enables decentralized management of global lottery pools, ensuring automated and secure payments. With their innovative approach, they aim to transform the lottery experience for users worldwide. <a href="https://metalottery.win/" target="_blank" rel="noopener noreferrer" style="color: #38A611">Purchase $100 or more worth of $PLT Bonds to earn 2 free lotto game ticket NFTs!</a>',
@@ -1499,7 +1499,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://clashub.io/',
     twitter: 'https://twitter.com/theclashub',
     initTime: { [ChainId.BSC]: 1721741216 },
-    soldOut: false,
+    soldOut: true,
     billArt: { collection: BillArtCollection.ApeBond_Collection1 },
     shortDescription:
       'Clashub is an NFT card game with a Play2Earn system, transforming approved NFTs into playing cards. Players use these cards to battle opponents and earn CLASH Tokens. It uniquely supports NFTs from various networks, enabling diverse gameplay. The CLASH Token serves as the in-game currency for purchases and rewards, with a balanced economic loop to prevent inflation.',
@@ -1725,7 +1725,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     audit: 'https://skynet.certik.com/projects/magic-square',
     initTime: { [ChainId.BSC]: 1719413043 },
     initPrice: { [ChainId.BSC]: 0.001336953784856991 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -6407,7 +6407,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     audit: 'https://community.verida.network/verida-network/security-audits',
     initTime: { [ChainId.MATIC]: 1723642568 },
     bondPartner: 'QuickSwap',
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
@@ -9054,7 +9054,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     audit: 'https://skynet.certik.com/projects/metahorse-unity',
     initTime: { [ChainId.MAINNET]: 1715268918 },
     initPrice: { [ChainId.MAINNET]: 0.0334978015237449 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
@@ -9265,7 +9265,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.MAINNET]: 1724792840 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
@@ -9354,7 +9354,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://aethergames.io/',
     twitter: 'https://twitter.com/AetherGamesInc',
     initTime: { [ChainId.MAINNET]: 1726567494 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
