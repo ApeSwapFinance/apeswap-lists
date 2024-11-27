@@ -302,6 +302,19 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.UniswapV2,
     },
   },
+  bpay: {
+    symbol: 'BPAY',
+    address: {
+      [ChainId.BASE]: '0x39b7effBA5edb719E714570369961e72EB147Bf1',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV2,
+    },
+  },
   tkn: {
     symbol: 'TKN',
     address: {
