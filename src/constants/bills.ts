@@ -951,7 +951,7 @@ const bills: BillsConfig[] = [
     index: 1104,
     chainId: ChainId.BSC,
     contractAddress: {
-      [ChainId.BSC]: '0xC2866df7DbaD4Be70270d7697525758075019030',
+      [ChainId.BSC]: '0x620326c61997FDD17FF0a22D2e938AEC4792cCcE',
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
