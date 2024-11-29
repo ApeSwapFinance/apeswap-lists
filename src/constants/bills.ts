@@ -181,6 +181,32 @@ const bills: BillsConfig[] = [
   // BASE
   //
   {
+    index: 8015,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0xBEb7d0951D156b32E6880cD5b4553B9045C94301',
+    },
+    billType: 'staking',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.bpad,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://www.boundlesspay.com/', //
+    twitter: 'https://x.com/boundlesspay', //
+    audit: 'https://contractwolf.io/projects/boundlesspay', //
+    initTime: { [ChainId.BASE]: 1732735296 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Lock'],
+    shortDescription: `Good Project Ser!`,
+    fullDescription: `Good Project Ser! Good Project Ser! Good Project Ser! Good Project Ser! Good Project Ser! Good Project Ser!`,
+  },
+  {
     index: 8014,
     chainId: ChainId.BASE,
     contractAddress: {

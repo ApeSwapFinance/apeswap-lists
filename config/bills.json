@@ -316,6 +316,56 @@
     "fullDescription": "FOMOFox is the first market-driven storytelling meme coin on IOTA EVM. Follow the thrilling journey of FOMOFox on TwitterX and help him conquer his FOMO by influencing the $FOMO Token’s market performance. Loyal holders will find countless opportunities to grow their $FOMO bags through raffles, solving riddles, or simply holding and supporting the fox. Along the way, FOMOFox faces diverse challenges and meets intriguing characters. Your influence on the market helps him make the right choices. This project offers pure entertainment and rewards those who stick with it! Join the adventure now and visit their website for more details!"
   },
   {
+    "index": 8015,
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0xBEb7d0951D156b32E6880cD5b4553B9045C94301"
+    },
+    "billType": "staking",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "8453": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+      },
+      "decimals": {
+        "8453": 6
+      },
+      "liquidityDex": {
+        "8453": "Aerodrome"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "bpad",
+      "address": {
+        "8453": "0x029ccb60da28bbe6bc340debec8c2ce1226bff50"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "active": true,
+      "liquidityDex": {}
+    },
+    "billNnftAddress": {
+      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "inactive": false,
+    "projectLink": "https://www.boundlesspay.com/",
+    "twitter": "https://x.com/boundlesspay",
+    "audit": "https://contractwolf.io/projects/boundlesspay",
+    "initTime": {
+      "8453": 1732735296
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["Lock"],
+    "shortDescription": "Good Project Ser!",
+    "fullDescription": "Good Project Ser! Good Project Ser! Good Project Ser! Good Project Ser! Good Project Ser! Good Project Ser!"
+  },
+  {
     "index": 8014,
     "chainId": 8453,
     "contractAddress": {
