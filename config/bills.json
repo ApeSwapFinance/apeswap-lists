@@ -1842,6 +1842,7 @@
       "liquidityDex": {
         "56": "Algebra"
       },
+      "ichiUnderlyingDex": "Thena",
       "getLpUrl": {
         "56": "https://thena.fi/pools/0x87a4276eaed3b46cb77ec41d6f6b9fc98b159725"
       }

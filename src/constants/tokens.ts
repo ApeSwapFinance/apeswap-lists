@@ -5009,6 +5009,7 @@ const tokens: Record<string, Token> = {
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.Algebra,
     },
+    ichiUnderlyingDex: IchiSupportedDex.Thena,
     getLpUrl: {
       [ChainId.BSC]: 'https://thena.fi/pools/0x87a4276eaed3b46cb77ec41d6f6b9fc98b159725',
     },
