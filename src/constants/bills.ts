@@ -7,7 +7,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingT
 // Arbitrum Largest ID: 2011
 // ETH Largest ID: 3031
 // Linea Largest ID: 6010
-// Base Largest ID: 8014
+// Base Largest ID: 8015
 // Lightlink Largest ID: 7000
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
@@ -180,6 +180,33 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
+  {
+    index: 8015,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x2796EB8B3794C51f6557d55472558bB05A6815CB',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.magWeth_UNI,
+    earnToken: tokens.mag,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://www.magnify.cash/',
+    twitter: 'https://twitter.com/MagnifyCash',
+    initTime: { [ChainId.BASE]: 1733147427 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    shortDescription:
+      'Magnify Cash is a decentralized, non-custodial credit market where users can lend ERC-20 tokens and borrow against NFTs with flexibility and transparency. It uses an automated risk-pricing framework that adapts to tenor and principal. With support for ERC-20 tokens and ERC-1155/ERC-721 assets, lenders can adjust LTV ratios, interest rates, and durations. Borrowers enjoy fixed-term loans free from unexpected liquidations.',
+    fullDescription:
+      'Magnify Cash is a non-custodial and permissionless decentralized credit market that allows users to lend ERC-20 tokens and borrow against non-fungible tokens (NFTs) with unmatched flexibility and transparency. At its core is an automated framework that prices risk through linear interpolation, adapting to tenor and principal. Magnify Cash supports ERC-20 tokens for lending and ERC-1155/ERC-721 assets as collateral. Lenders can create custom lending desks by adjusting loan-to-value (LTV) ratios, interest rates, and durations. Borrowers benefit from fixed-term loans, free from unexpected liquidations or mid-term changes.',
+    tags: ['DeFi'],
+  },
   {
     index: 8014,
     chainId: ChainId.BASE,
