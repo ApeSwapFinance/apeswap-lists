@@ -186,7 +186,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BASE]: '0x2796EB8B3794C51f6557d55472558bB05A6815CB',
     },
-    billType: 'reserve',
+    billType: 'liquidity',
     billVersion: BillVersion.V2,
     lpToken: tokens.magWeth_UNI,
     earnToken: tokens.mag,
