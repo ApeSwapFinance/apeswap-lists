@@ -1,7 +1,7 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1103
+// BNB Largest ID: 1104
 // Polygon Largest ID: 165
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2011
@@ -947,6 +947,33 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1104,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x620326c61997FDD17FF0a22D2e938AEC4792cCcE',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.gldBnb_Ichi,
+    earnToken: tokens.gld,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://boudicea.io/',
+    twitter: 'https://x.com/Boudicea_game',
+    initTime: { [ChainId.BSC]: 1732892253 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['GAMEFI'],
+    shortDescription:
+      'Boudicea is a play-to-earn NFT-based game where players become tribal warriors under Queen Boudicea to defend the Iceni tribe from Roman invasions. Build encampments, manage NFT-owned lands, trade items for cryptocurrency, and shape your legacy in a world blending strategy and ancient lore. At the core of the game is the GLD token, which serves as the primary utility token alongside the Clan Leader tokens and the Boudicea DAO token, forming the backbone of a vibrant, lasting universe.',
+    fullDescription:
+      "Boudicea is a play-to-earn NFT-based game that invites players to step into the role of a tribal warrior under the legendary Queen Boudicea, tasked with defending the Iceni tribe against Roman invasions. Players can build and protect their encampments, manage NFT-owned lands, levy taxes, and trade in-game items for cryptocurrency, blending strategic gameplay with ancient lore. Featuring smart NFTs and on-chain gamification, Boudicea offers an immersive experience that rewards players while promoting the enduring value of its ecosystem. At the core of the game is the GLD token, which serves as the primary utility token alongside the Clan Leader tokens and the Boudicea DAO token, forming the backbone of a vibrant, lasting universe. With a vision to create a game of legacy, Boudicea intertwines innovation and history, offering a robust platform where players can shape their legend while securing the long-term value of the game's integral elements.",
+  },
   {
     index: 1103,
     cmcId: 29157,

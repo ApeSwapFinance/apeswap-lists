@@ -1227,6 +1227,19 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: LiquidityDex.ThenaV1,
     },
   },
+  gld: {
+    symbol: 'GLD',
+    address: {
+      [ChainId.BSC]: '0x362B47BD0AA70Ed8826e96686F293C57ba462555',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.Algebra,
+    },
+  },
   aur: {
     symbol: 'AUR',
     address: {
@@ -4983,6 +4996,22 @@ const tokens: Record<string, Token> = {
     },
     getLpUrl: {
       [ChainId.BSC]: 'https://www.thena.fi/add?type=ichi&address=0x137df93a0c22b863c1b335d1b8d389ea3895ba13',
+    },
+  },
+  gldBnb_Ichi: {
+    symbol: 'GLD-BNB',
+    address: {
+      [ChainId.BSC]: '0xe4dF44742b834f738e0561D8BA6fF41aEa66EB04',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.Algebra,
+    },
+    ichiUnderlyingDex: IchiSupportedDex.Thena,
+    getLpUrl: {
+      [ChainId.BSC]: 'https://thena.fi/pools/0x87a4276eaed3b46cb77ec41d6f6b9fc98b159725',
     },
   },
   busdBnb_Thena: {
