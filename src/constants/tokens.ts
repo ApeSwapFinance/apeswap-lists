@@ -5976,6 +5976,24 @@ const tokens: Record<string, Token> = {
         'https://app.uniswap.org/add/v2/0x4200000000000000000000000000000000000006/0x18e692c03de43972fe81058f322fa542ae1a5e2c',
     },
   },
+  magWeth_UNI: {
+    symbol: 'ETH-MAG',
+    address: {
+      [ChainId.BASE]: '0xDd5f5484FdaBe2223d66Ef417A98ef82aE9c76e3',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV2,
+    },
+    active: true,
+    lpToken: true,
+    getLpUrl: {
+      [ChainId.BASE]:
+        'https://app.uniswap.org/add/v2/0x4200000000000000000000000000000000000006/0x59f680f431f5280e7662b96f2dfa195d1693852d',
+    },
+  },
 }
 
 export default tokens
