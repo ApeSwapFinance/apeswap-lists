@@ -3465,10 +3465,12 @@ const tokens: Record<string, Token> = {
     symbol: 'MAG',
     address: {
       [ChainId.MAINNET]: '0x71DA932ccdA723BA3ab730C976bC66DaAF9C598c',
+      [ChainId.BASE]: '0x59F680F431f5280e7662b96F2DFA195D1693852d',
     },
-    decimals: { [ChainId.MAINNET]: 18 },
+    decimals: { [ChainId.MAINNET]: 18, [ChainId.BASE]: 18 },
     liquidityDex: {
       [ChainId.MAINNET]: LiquidityDex.UniswapV2,
+      [ChainId.BASE]: LiquidityDex.UniswapV2,
     },
     active: true,
   },
