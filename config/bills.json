@@ -316,6 +316,61 @@
     "fullDescription": "FOMOFox is the first market-driven storytelling meme coin on IOTA EVM. Follow the thrilling journey of FOMOFox on TwitterX and help him conquer his FOMO by influencing the $FOMO Token’s market performance. Loyal holders will find countless opportunities to grow their $FOMO bags through raffles, solving riddles, or simply holding and supporting the fox. Along the way, FOMOFox faces diverse challenges and meets intriguing characters. Your influence on the market helps him make the right choices. This project offers pure entertainment and rewards those who stick with it! Join the adventure now and visit their website for more details!"
   },
   {
+    "index": 8015,
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0x2796EB8B3794C51f6557d55472558bB05A6815CB"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "ETH-MAG",
+      "address": {
+        "8453": "0xDd5f5484FdaBe2223d66Ef417A98ef82aE9c76e3"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "liquidityDex": {
+        "8453": "UniswapV2"
+      },
+      "active": true,
+      "lpToken": true,
+      "getLpUrl": {
+        "8453": "https://app.uniswap.org/add/v2/0x4200000000000000000000000000000000000006/0x59f680f431f5280e7662b96f2dfa195d1693852d"
+      }
+    },
+    "earnToken": {
+      "symbol": "MAG",
+      "address": {
+        "8453": "0x59F680F431f5280e7662b96F2DFA195D1693852d"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "liquidityDex": {
+        "8453": "UniswapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "inactive": false,
+    "projectLink": "https://www.magnify.cash/",
+    "twitter": "https://twitter.com/MagnifyCash",
+    "initTime": {
+      "8453": 1733147427
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "shortDescription": "Magnify Cash is a decentralized, non-custodial credit market where users can lend ERC-20 tokens and borrow against NFTs with flexibility and transparency. It uses an automated risk-pricing framework that adapts to tenor and principal. With support for ERC-20 tokens and ERC-1155/ERC-721 assets, lenders can adjust LTV ratios, interest rates, and durations. Borrowers enjoy fixed-term loans free from unexpected liquidations.",
+    "fullDescription": "Magnify Cash is a non-custodial and permissionless decentralized credit market that allows users to lend ERC-20 tokens and borrow against non-fungible tokens (NFTs) with unmatched flexibility and transparency. At its core is an automated framework that prices risk through linear interpolation, adapting to tenor and principal. Magnify Cash supports ERC-20 tokens for lending and ERC-1155/ERC-721 assets as collateral. Lenders can create custom lending desks by adjusting loan-to-value (LTV) ratios, interest rates, and durations. Borrowers benefit from fixed-term loans, free from unexpected liquidations or mid-term changes.",
+    "tags": ["DeFi"]
+  },
+  {
     "index": 8014,
     "chainId": 8453,
     "contractAddress": {
