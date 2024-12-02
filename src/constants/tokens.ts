@@ -21,7 +21,7 @@ const tokens: Record<string, Token> = {
     active: true,
   },
   bpad: {
-    symbol: 'bpad',
+    symbol: 'BPAD',
     address: {
       [ChainId.BASE]: '0x029ccb60da28bbe6bc340debec8c2ce1226bff50', //this is actually a testtoken basena
     },
