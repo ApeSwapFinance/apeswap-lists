@@ -357,7 +357,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://web3music.org/',
     twitter: 'https://x.com/MusicProtocolX',
     initTime: { [ChainId.BASE]: 1722253943 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1092,7 +1092,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://home.blockasset.co/',
     twitter: 'https://x.com/blockassetco',
     initTime: { [ChainId.BSC]: 1729522195 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -8505,7 +8505,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://x.com/Bonsai_DAO',
     twitter: 'https://www.bonsaidao.xyz/',
     initTime: { [ChainId.ARBITRUM]: 1723814011 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -9407,7 +9407,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.frictionless.network/',
     twitter: 'https://x.com/FrictionlessX',
     initTime: { [ChainId.MAINNET]: 1726567494 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
