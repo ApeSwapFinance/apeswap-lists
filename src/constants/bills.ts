@@ -6,7 +6,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingT
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2011
 // ETH Largest ID: 3031
-// Linea Largest ID: 6010
+// Linea Largest ID: 6011
 // Base Largest ID: 8015
 // Lightlink Largest ID: 7000
 // IOTA largest ID: 9003
@@ -708,6 +708,33 @@ const bills: BillsConfig[] = [
 
   //
   // LINEA
+  {
+    index: 6011,
+    chainId: ChainId.LINEA,
+    contractAddress: {
+      [ChainId.LINEA]: '0xDb8764B778D7729E7a71a5583535dB07b8Bcbc4A',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.lpuss,
+    billNnftAddress: {
+      [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
+    },
+    inactive: false,
+    projectLink: 'https://linpuss.xyz/',
+    twitter: 'https://x.com/LinpussLinea',
+    audit:
+      'https://lineascan.build/token/0x81BE2aCB2e9291dB6400f9f6a4D0f35f24de2E77?a=0xc9f2a5115b727849e067da85a0ff422732a358a7#code',
+    initTime: { [ChainId.LINEA]: 1733249724 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Meme', 'Community'],
+    shortDescription: ` Linpuss revolutionizes trading on Linea by eliminating distractions and making the experience exciting and effortless. Represented by a blindfold, it empowers users to focus on sniping tokens and navigating the market with precision. More than a memecoin, Linpuss combines gamification with powerful tools to identify top opportunities. Backed by the LPUSS token, it offers early access to Linea’s explosive growth and a game-changing ecosystem.`,
+    fullDescription: `Linpuss introduces an innovative approach to trading on Linea by combining cutting-edge functionality with a fun, gamified experience. With its signature blindfold, Linpuss symbolizes the elimination of distractions, empowering users to focus on sniping tokens and seizing the best opportunities in Linea's dynamic market. More than just a memecoin, Linpuss provides traders with an intuitive and thrilling tool that merges the efficiency of a trading bot with the excitement of a game. As Linea prepares for exponential growth, Linpuss positions itself as a gateway to unlocking early access to a revolutionary ecosystem, offering substantial upside potential. Backed by the LPUSS token, Linpuss is on a mission to redefine blockchain trading—making it seamless, engaging, and accessible for all. Whether you're a seasoned trader or a newcomer, Linpuss transforms trading into an adventure, giving you the tools and focus needed to succeed in the evolving Linea market.`,
+  },
   {
     index: 6010,
     chainId: ChainId.LINEA,

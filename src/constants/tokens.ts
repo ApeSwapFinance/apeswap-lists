@@ -497,6 +497,19 @@ const tokens: Record<string, Token> = {
       [ChainId.LINEA]: LiquidityDex.Lynex,
     },
   },
+  lpuss: {
+    symbol: 'LPUSS',
+    address: {
+      [ChainId.LINEA]: '0x81BE2aCB2e9291dB6400f9f6a4D0f35f24de2E77',
+    },
+    decimals: {
+      [ChainId.LINEA]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.LINEA]: LiquidityDex.Nile,
+    },
+  },
   abcarv: {
     symbol: 'CARV',
     address: {
