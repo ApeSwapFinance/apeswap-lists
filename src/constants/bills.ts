@@ -89,7 +89,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.rustyrobot.io/',
     twitter: 'https://x.com/RustyRobotCC',
     initTime: { [ChainId.IOTA]: 1725544655 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
