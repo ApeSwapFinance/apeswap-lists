@@ -23,7 +23,7 @@ const tokens: Record<string, Token> = {
   bpad: {
     symbol: 'BPAD',
     address: {
-      [ChainId.BASE]: '0x029ccb60da28bbe6bc340debec8c2ce1226bff50', //this is actually a testtoken basena
+      [ChainId.BASE]: '0x2105CCA8bf6f00769a45C734C740b0c42C74C03E',
     },
     decimals: {
       [ChainId.BASE]: 18,
