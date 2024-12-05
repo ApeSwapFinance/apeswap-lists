@@ -319,7 +319,7 @@
     "index": 8015,
     "chainId": 8453,
     "contractAddress": {
-      "8453": "0xBEb7d0951D156b32E6880cD5b4553B9045C94301"
+      "8453": "0x6dE586e314456f15cf70860D554D6351BdEa9503"
     },
     "billType": "staking",
     "billVersion": "V2",

@@ -184,7 +184,7 @@ const bills: BillsConfig[] = [
     index: 8015,
     chainId: ChainId.BASE,
     contractAddress: {
-      [ChainId.BASE]: '0xBEb7d0951D156b32E6880cD5b4553B9045C94301',
+      [ChainId.BASE]: '0x6dE586e314456f15cf70860D554D6351BdEa9503',
     },
     billType: 'staking',
     billVersion: BillVersion.V2,
