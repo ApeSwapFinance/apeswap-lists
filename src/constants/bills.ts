@@ -1018,7 +1018,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://home.blockasset.co/',
     twitter: 'https://x.com/blockassetco',
     initTime: { [ChainId.BSC]: 1733406965 },
-    soldOut: true,
+    soldOut: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
