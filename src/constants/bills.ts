@@ -7,7 +7,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingT
 // Arbitrum Largest ID: 2011
 // ETH Largest ID: 3031
 // Linea Largest ID: 6011
-// Base Largest ID: 8015
+// Base Largest ID: 8016
 // Lightlink Largest ID: 7000
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
@@ -181,7 +181,7 @@ const bills: BillsConfig[] = [
   // BASE
   //
   {
-    index: 8015,
+    index: 8016,
     chainId: ChainId.BASE,
     contractAddress: {
       [ChainId.BASE]: '0x2796EB8B3794C51f6557d55472558bB05A6815CB',
@@ -206,6 +206,32 @@ const bills: BillsConfig[] = [
     fullDescription:
       'Magnify Cash is a non-custodial and permissionless decentralized credit market that allows users to lend ERC-20 tokens and borrow against non-fungible tokens (NFTs) with unmatched flexibility and transparency. At its core is an automated framework that prices risk through linear interpolation, adapting to tenor and principal. Magnify Cash supports ERC-20 tokens for lending and ERC-1155/ERC-721 assets as collateral. Lenders can create custom lending desks by adjusting loan-to-value (LTV) ratios, interest rates, and durations. Borrowers benefit from fixed-term loans, free from unexpected liquidations or mid-term changes.',
     tags: ['DeFi'],
+  },
+  {
+    index: 8015,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x6dE586e314456f15cf70860D554D6351BdEa9503',
+    },
+    billType: 'staking',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.bpad,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://basepad.finance/',
+    twitter: 'https://x.com/BasePad_Fi',
+    audit: 'https://tokensniffer.com/token/base/n6x1bbf9vjzkzxxuqkohe9s1ebqc40mos5bqsx5jxbcu3snbluqs8bl8x40a',
+    initTime: { [ChainId.BASE]: 1733402100 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Launchpad'],
+    shortDescription: `BasePad is a decentralized fundraising protocol on Base, designed to support projects at both pre- and post-TGE stages. It revolutionizes funding with innovative methods that connect projects to a global network of supporters, integrating crowd-sourced funding into their strategies. Powered by the BPAD token, BasePad shares 100% of its revenue with token holders, who can stake $BPAD to earn Real Yield in $USDC.`,
+    fullDescription: `BasePad is a cutting-edge fundraising protocol native to the Base ecosystem, designed to support projects at both pre- and post-TGE stages. Offering innovative and decentralized raising methods, BasePad empowers projects to thrive by connecting them with a global network of supporters. Its unique Raise system integrates crowd-sourced funding into project strategies, bolstering liquidity, treasury strength, and adaptive token pricing, while enabling gradual token distribution. More than a platform, BasePad serves as a gateway to decentralized innovation, fostering a community of investors and visionaries dedicated to reshaping the financial landscape. Powered by the BPAD token, BasePad shares 100% of its revenue with token holders, enabling them to stake $BPAD and earn Real Yield in $USDC, driving sustainable value and success within the ecosystem.`,
   },
   {
     index: 8014,
