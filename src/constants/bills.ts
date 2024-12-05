@@ -1,7 +1,7 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1104
+// BNB Largest ID: 1105
 // Polygon Largest ID: 165
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2011
@@ -1001,6 +1001,34 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1105,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0xf7534f868c313A09548Dce757Bf4275CBbce18Db',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdt,
+    earnToken: tokens.block,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://home.blockasset.co/',
+    twitter: 'https://x.com/blockassetco',
+    initTime: { [ChainId.BSC]: 1733406965 },
+    soldOut: true,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['GAMEFI'],
+    shortDescription:
+      'Blockasset is a leading Web3 sports network that connects its community with unique experiences through athlete partnerships and innovative products. With a recent UFC partnership, Blockasset enhances fan engagement through BlockBet, a Web3 sportsbook and casino that has already seen over $20 million in wagers. Additionally, BlockPicks, a free-to-play game, helps onboard users by offering games for NBA, NFL, soccer, and UFC. The Blockasset media arm has generated over 250 million views, with investors like Wayne Rooney, Alexander Ovechkin, and Michael Bisping.',
+    fullDescription: `Blockasset is a Web3 sports network dedicated to delivering exceptional experiences to its community through premium content, strong athlete relationships, and cutting-edge Web3 sport products. Recently, Blockasset partnered with the UFC, bringing community activations and branding opportunities with one of the largest sports organizations in the world. 
+BlockBet, a Web3 sportsbook and casino, launched in June and has already generated over $20 million in wagers, highlighting its rapid growth. BlockPicks, a free-to-play game with over 30,000 players, serves as a fun and interactive onboarding tool into the BlockAsset ecosystem. Users can play for free on popular sports such as NBA, NFL, soccer, and UFC, with BlockPicks acting as a direct funnel into BlockBet.
+Blockasset’s media arm has amassed over 250 million views, working with top athletes like Alex Pereira, Khamzat Chimaev, Darren Till, and more. Prominent investors include football legend Wayne Rooney, hockey star Alexander Ovechkin, and UFC Hall of Famer Michael Bisping.`,
+  },
   {
     index: 1104,
     chainId: ChainId.BSC,

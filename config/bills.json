@@ -1929,6 +1929,57 @@
     "shortDescription": "Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!"
   },
   {
+    "index": 1105,
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0xf7534f868c313A09548Dce757Bf4275CBbce18Db"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "56": "0x55d398326f99059fF775485246999027B3197955"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "BLOCK",
+      "address": {
+        "56": "0xbC7A566b85eF73F935e640A06b5a8b031Cd975Df"
+      },
+      "decimals": {
+        "56": 6
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://home.blockasset.co/",
+    "twitter": "https://x.com/blockassetco",
+    "initTime": {
+      "56": 1733406965
+    },
+    "soldOut": true,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["GAMEFI"],
+    "shortDescription": "Blockasset is a leading Web3 sports network that connects its community with unique experiences through athlete partnerships and innovative products. With a recent UFC partnership, Blockasset enhances fan engagement through BlockBet, a Web3 sportsbook and casino that has already seen over $20 million in wagers. Additionally, BlockPicks, a free-to-play game, helps onboard users by offering games for NBA, NFL, soccer, and UFC. The Blockasset media arm has generated over 250 million views, with investors like Wayne Rooney, Alexander Ovechkin, and Michael Bisping.",
+    "fullDescription": "Blockasset is a Web3 sports network dedicated to delivering exceptional experiences to its community through premium content, strong athlete relationships, and cutting-edge Web3 sport products. Recently, Blockasset partnered with the UFC, bringing community activations and branding opportunities with one of the largest sports organizations in the world. \nBlockBet, a Web3 sportsbook and casino, launched in June and has already generated over $20 million in wagers, highlighting its rapid growth. BlockPicks, a free-to-play game with over 30,000 players, serves as a fun and interactive onboarding tool into the BlockAsset ecosystem. Users can play for free on popular sports such as NBA, NFL, soccer, and UFC, with BlockPicks acting as a direct funnel into BlockBet.\nBlockasset’s media arm has amassed over 250 million views, working with top athletes like Alex Pereira, Khamzat Chimaev, Darren Till, and more. Prominent investors include football legend Wayne Rooney, hockey star Alexander Ovechkin, and UFC Hall of Famer Michael Bisping."
+  },
+  {
     "index": 1104,
     "chainId": 56,
     "contractAddress": {
