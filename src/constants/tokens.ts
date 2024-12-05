@@ -20,6 +20,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  bpad: {
+    symbol: 'BPAD',
+    address: {
+      [ChainId.BASE]: '0x2105CCA8bf6f00769a45C734C740b0c42C74C03E',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV3,
+    },
+  },
   glq: {
     symbol: 'WGLQ',
     address: {
@@ -4006,19 +4019,6 @@ const tokens: Record<string, Token> = {
     active: true,
     liquidityDex: {
       [ChainId.ARBITRUM]: LiquidityDex.UniswapV3,
-    },
-  },
-  bpad: {
-    symbol: 'BPAD',
-    address: {
-      [ChainId.BASE]: '0x2105CCA8bf6f00769a45C734C740b0c42C74C03E',
-    },
-    decimals: {
-      [ChainId.BASE]: 18,
-    },
-    active: true,
-    liquidityDex: {
-      [ChainId.BASE]: LiquidityDex.UniswapV3,
     },
   },
   wethLdy_Ichi: {
