@@ -510,6 +510,19 @@ const tokens: Record<string, Token> = {
       [ChainId.LINEA]: LiquidityDex.Lynex,
     },
   },
+  lpuss: {
+    symbol: 'LPUSS',
+    address: {
+      [ChainId.LINEA]: '0x81BE2aCB2e9291dB6400f9f6a4D0f35f24de2E77',
+    },
+    decimals: {
+      [ChainId.LINEA]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.LINEA]: LiquidityDex.Nile,
+    },
+  },
   abcarv: {
     symbol: 'CARV',
     address: {
@@ -3478,10 +3491,12 @@ const tokens: Record<string, Token> = {
     symbol: 'MAG',
     address: {
       [ChainId.MAINNET]: '0x71DA932ccdA723BA3ab730C976bC66DaAF9C598c',
+      [ChainId.BASE]: '0x59F680F431f5280e7662b96F2DFA195D1693852d',
     },
-    decimals: { [ChainId.MAINNET]: 18 },
+    decimals: { [ChainId.MAINNET]: 18, [ChainId.BASE]: 18 },
     liquidityDex: {
       [ChainId.MAINNET]: LiquidityDex.UniswapV2,
+      [ChainId.BASE]: LiquidityDex.UniswapV2,
     },
     active: true,
   },
@@ -4004,6 +4019,19 @@ const tokens: Record<string, Token> = {
     active: true,
     liquidityDex: {
       [ChainId.ARBITRUM]: LiquidityDex.UniswapV3,
+    },
+  },
+  bpad: {
+    symbol: 'BPAD',
+    address: {
+      [ChainId.BASE]: '0x2105CCA8bf6f00769a45C734C740b0c42C74C03E',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV3,
     },
   },
   wethLdy_Ichi: {
@@ -5985,6 +6013,24 @@ const tokens: Record<string, Token> = {
     getLpUrl: {
       [ChainId.BASE]:
         'https://app.uniswap.org/add/v2/0x4200000000000000000000000000000000000006/0x18e692c03de43972fe81058f322fa542ae1a5e2c',
+    },
+  },
+  magWeth_UNI: {
+    symbol: 'ETH-MAG',
+    address: {
+      [ChainId.BASE]: '0xDd5f5484FdaBe2223d66Ef417A98ef82aE9c76e3',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV2,
+    },
+    active: true,
+    lpToken: true,
+    getLpUrl: {
+      [ChainId.BASE]:
+        'https://app.uniswap.org/add/v2/0x4200000000000000000000000000000000000006/0x59f680f431f5280e7662b96f2dfa195d1693852d',
     },
   },
 }

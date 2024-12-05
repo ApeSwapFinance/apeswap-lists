@@ -146,7 +146,7 @@
     "initTime": {
       "8822": 1725544655
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -316,7 +316,7 @@
     "fullDescription": "FOMOFox is the first market-driven storytelling meme coin on IOTA EVM. Follow the thrilling journey of FOMOFox on TwitterX and help him conquer his FOMO by influencing the $FOMO Token’s market performance. Loyal holders will find countless opportunities to grow their $FOMO bags through raffles, solving riddles, or simply holding and supporting the fox. Along the way, FOMOFox faces diverse challenges and meets intriguing characters. Your influence on the market helps him make the right choices. This project offers pure entertainment and rewards those who stick with it! Join the adventure now and visit their website for more details!"
   },
   {
-    "index": 8015,
+    "index": 8016,
     "chainId": 8453,
     "contractAddress": {
       "8453": "0x6dE586e314456f15cf70860D554D6351BdEa9503"
@@ -366,6 +366,61 @@
     "tags": ["Launchpad"],
     "shortDescription": "BasePad is a decentralized fundraising protocol on Base, designed to support projects at both pre- and post-TGE stages. It revolutionizes funding with innovative methods that connect projects to a global network of supporters, integrating crowd-sourced funding into their strategies. Powered by the BPAD token, BasePad shares 100% of its revenue with token holders, who can stake $BPAD to earn Real Yield in $ETH.",
     "fullDescription": "BasePad is a cutting-edge fundraising protocol native to the Base ecosystem, designed to support projects at both pre- and post-TGE stages. Offering innovative and decentralized raising methods, BasePad empowers projects to thrive by connecting them with a global network of supporters. Its unique Raise system integrates crowd-sourced funding into project strategies, bolstering liquidity, treasury strength, and adaptive token pricing, while enabling gradual token distribution. More than a platform, BasePad serves as a gateway to decentralized innovation, fostering a community of investors and visionaries dedicated to reshaping the financial landscape. Powered by the BPAD token, BasePad shares 100% of its revenue with token holders, enabling them to stake $BPAD and earn Real Yield in $ETH, driving sustainable value and success within the ecosystem."
+  },
+  {
+    "index": 8015,
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0x2796EB8B3794C51f6557d55472558bB05A6815CB"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "ETH-MAG",
+      "address": {
+        "8453": "0xDd5f5484FdaBe2223d66Ef417A98ef82aE9c76e3"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "liquidityDex": {
+        "8453": "UniswapV2"
+      },
+      "active": true,
+      "lpToken": true,
+      "getLpUrl": {
+        "8453": "https://app.uniswap.org/add/v2/0x4200000000000000000000000000000000000006/0x59f680f431f5280e7662b96f2dfa195d1693852d"
+      }
+    },
+    "earnToken": {
+      "symbol": "MAG",
+      "address": {
+        "8453": "0x59F680F431f5280e7662b96F2DFA195D1693852d"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "liquidityDex": {
+        "8453": "UniswapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "inactive": false,
+    "projectLink": "https://www.magnify.cash/",
+    "twitter": "https://twitter.com/MagnifyCash",
+    "initTime": {
+      "8453": 1733147427
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "shortDescription": "Magnify Cash is a decentralized, non-custodial credit market where users can lend ERC-20 tokens and borrow against NFTs with flexibility and transparency. It uses an automated risk-pricing framework that adapts to tenor and principal. With support for ERC-20 tokens and ERC-1155/ERC-721 assets, lenders can adjust LTV ratios, interest rates, and durations. Borrowers enjoy fixed-term loans free from unexpected liquidations.",
+    "fullDescription": "Magnify Cash is a non-custodial and permissionless decentralized credit market that allows users to lend ERC-20 tokens and borrow against non-fungible tokens (NFTs) with unmatched flexibility and transparency. At its core is an automated framework that prices risk through linear interpolation, adapting to tenor and principal. Magnify Cash supports ERC-20 tokens for lending and ERC-1155/ERC-721 assets as collateral. Lenders can create custom lending desks by adjusting loan-to-value (LTV) ratios, interest rates, and durations. Borrowers benefit from fixed-term loans, free from unexpected liquidations or mid-term changes.",
+    "tags": ["DeFi"]
   },
   {
     "index": 8014,
@@ -673,7 +728,7 @@
     "initTime": {
       "8453": 1722253943
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -1342,6 +1397,58 @@
     "shortDescription": "LightLink is an Ethereum L2 blockchain enabling dApps and enterprises to offer instant, gasless transactions. Their mission is to integrate millions into the digital economy with user-friendly dApps and enterprise partnerships, making blockchain as intuitive and accessible as Web2, without the complexity of gas fees and protocols."
   },
   {
+    "index": 6011,
+    "chainId": 59144,
+    "contractAddress": {
+      "59144": "0xDb8764B778D7729E7a71a5583535dB07b8Bcbc4A"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "59144": "0x176211869cA2b568f2A7D4EE941E073a821EE1ff"
+      },
+      "decimals": {
+        "59144": 6
+      },
+      "liquidityDex": {
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "LPUSS",
+      "address": {
+        "59144": "0x81BE2aCB2e9291dB6400f9f6a4D0f35f24de2E77"
+      },
+      "decimals": {
+        "59144": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "59144": "Nile"
+      }
+    },
+    "billNnftAddress": {
+      "59144": "0xFA40b551980aF88FD2929Ab41f57D98ee13A6354"
+    },
+    "inactive": false,
+    "projectLink": "https://linpuss.xyz/",
+    "twitter": "https://x.com/LinpussLinea",
+    "audit": "https://lineascan.build/token/0x81BE2aCB2e9291dB6400f9f6a4D0f35f24de2E77?a=0xc9f2a5115b727849e067da85a0ff422732a358a7#code",
+    "initTime": {
+      "59144": 1733249724
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["Meme", "Community"],
+    "shortDescription": " Linpuss revolutionizes trading on Linea by eliminating distractions and making the experience exciting and effortless. Represented by a blindfold, it empowers users to focus on sniping tokens and navigating the market with precision. More than a memecoin, Linpuss combines gamification with powerful tools to identify top opportunities. Backed by the LPUSS token, it offers early access to Linea’s explosive growth and a game-changing ecosystem.",
+    "fullDescription": "Linpuss introduces an innovative approach to trading on Linea by combining cutting-edge functionality with a fun, gamified experience. With its signature blindfold, Linpuss symbolizes the elimination of distractions, empowering users to focus on sniping tokens and seizing the best opportunities in Linea's dynamic market. More than just a memecoin, Linpuss provides traders with an intuitive and thrilling tool that merges the efficiency of a trading bot with the excitement of a game. As Linea prepares for exponential growth, Linpuss positions itself as a gateway to unlocking early access to a revolutionary ecosystem, offering substantial upside potential. Backed by the LPUSS token, Linpuss is on a mission to redefine blockchain trading—making it seamless, engaging, and accessible for all. Whether you're a seasoned trader or a newcomer, Linpuss transforms trading into an adventure, giving you the tools and focus needed to succeed in the evolving Linea market."
+  },
+  {
     "index": 6010,
     "chainId": 59144,
     "contractAddress": {
@@ -1874,6 +1981,57 @@
     "shortDescription": "Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!"
   },
   {
+    "index": 1105,
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0xf7534f868c313A09548Dce757Bf4275CBbce18Db"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "56": "0x55d398326f99059fF775485246999027B3197955"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "BLOCK",
+      "address": {
+        "56": "0xbC7A566b85eF73F935e640A06b5a8b031Cd975Df"
+      },
+      "decimals": {
+        "56": 6
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://home.blockasset.co/",
+    "twitter": "https://x.com/blockassetco",
+    "initTime": {
+      "56": 1733406965
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["GAMEFI"],
+    "shortDescription": "Blockasset is a leading Web3 sports network that connects its community with unique experiences through athlete partnerships and innovative products. With a recent UFC partnership, Blockasset enhances fan engagement through BlockBet, a Web3 sportsbook and casino that has already seen over $20 million in wagers. Additionally, BlockPicks, a free-to-play game, helps onboard users by offering games for NBA, NFL, soccer, and UFC. The Blockasset media arm has generated over 250 million views, with investors like Wayne Rooney, Alexander Ovechkin, and Michael Bisping.",
+    "fullDescription": "Blockasset is a Web3 sports network dedicated to delivering exceptional experiences to its community through premium content, strong athlete relationships, and cutting-edge Web3 sport products. Recently, Blockasset partnered with the UFC, bringing community activations and branding opportunities with one of the largest sports organizations in the world. \nBlockBet, a Web3 sportsbook and casino, launched in June and has already generated over $20 million in wagers, highlighting its rapid growth. BlockPicks, a free-to-play game with over 30,000 players, serves as a fun and interactive onboarding tool into the BlockAsset ecosystem. Users can play for free on popular sports such as NBA, NFL, soccer, and UFC, with BlockPicks acting as a direct funnel into BlockBet.\nBlockasset’s media arm has amassed over 250 million views, working with top athletes like Alex Pereira, Khamzat Chimaev, Darren Till, and more. Prominent investors include football legend Wayne Rooney, hockey star Alexander Ovechkin, and UFC Hall of Famer Michael Bisping."
+  },
+  {
     "index": 1104,
     "chainId": 56,
     "contractAddress": {
@@ -2094,7 +2252,7 @@
     "initTime": {
       "56": 1729522195
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -17345,7 +17503,7 @@
     "initTime": {
       "42161": 1723814011
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -19082,7 +19240,7 @@
     "initTime": {
       "1": 1726567494
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ETH_Collection1"
     },

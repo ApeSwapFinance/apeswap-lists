@@ -1,13 +1,13 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1104
+// BNB Largest ID: 1105
 // Polygon Largest ID: 165
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2011
 // ETH Largest ID: 3031
-// Linea Largest ID: 6010
-// Base Largest ID: 8014
+// Linea Largest ID: 6011
+// Base Largest ID: 8016
 // Lightlink Largest ID: 7000
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
@@ -89,7 +89,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.rustyrobot.io/',
     twitter: 'https://x.com/RustyRobotCC',
     initTime: { [ChainId.IOTA]: 1725544655 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -180,6 +180,33 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
+  {
+    index: 8016,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x2796EB8B3794C51f6557d55472558bB05A6815CB',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.magWeth_UNI,
+    earnToken: tokens.mag,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://www.magnify.cash/',
+    twitter: 'https://twitter.com/MagnifyCash',
+    initTime: { [ChainId.BASE]: 1733147427 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    shortDescription:
+      'Magnify Cash is a decentralized, non-custodial credit market where users can lend ERC-20 tokens and borrow against NFTs with flexibility and transparency. It uses an automated risk-pricing framework that adapts to tenor and principal. With support for ERC-20 tokens and ERC-1155/ERC-721 assets, lenders can adjust LTV ratios, interest rates, and durations. Borrowers enjoy fixed-term loans free from unexpected liquidations.',
+    fullDescription:
+      'Magnify Cash is a non-custodial and permissionless decentralized credit market that allows users to lend ERC-20 tokens and borrow against non-fungible tokens (NFTs) with unmatched flexibility and transparency. At its core is an automated framework that prices risk through linear interpolation, adapting to tenor and principal. Magnify Cash supports ERC-20 tokens for lending and ERC-1155/ERC-721 assets as collateral. Lenders can create custom lending desks by adjusting loan-to-value (LTV) ratios, interest rates, and durations. Borrowers benefit from fixed-term loans, free from unexpected liquidations or mid-term changes.',
+    tags: ['DeFi'],
+  },
   {
     index: 8015,
     chainId: ChainId.BASE,
@@ -356,7 +383,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://web3music.org/',
     twitter: 'https://x.com/MusicProtocolX',
     initTime: { [ChainId.BASE]: 1722253943 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -708,6 +735,33 @@ const bills: BillsConfig[] = [
   //
   // LINEA
   {
+    index: 6011,
+    chainId: ChainId.LINEA,
+    contractAddress: {
+      [ChainId.LINEA]: '0xDb8764B778D7729E7a71a5583535dB07b8Bcbc4A',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.lpuss,
+    billNnftAddress: {
+      [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
+    },
+    inactive: false,
+    projectLink: 'https://linpuss.xyz/',
+    twitter: 'https://x.com/LinpussLinea',
+    audit:
+      'https://lineascan.build/token/0x81BE2aCB2e9291dB6400f9f6a4D0f35f24de2E77?a=0xc9f2a5115b727849e067da85a0ff422732a358a7#code',
+    initTime: { [ChainId.LINEA]: 1733249724 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Meme', 'Community'],
+    shortDescription: ` Linpuss revolutionizes trading on Linea by eliminating distractions and making the experience exciting and effortless. Represented by a blindfold, it empowers users to focus on sniping tokens and navigating the market with precision. More than a memecoin, Linpuss combines gamification with powerful tools to identify top opportunities. Backed by the LPUSS token, it offers early access to Linea’s explosive growth and a game-changing ecosystem.`,
+    fullDescription: `Linpuss introduces an innovative approach to trading on Linea by combining cutting-edge functionality with a fun, gamified experience. With its signature blindfold, Linpuss symbolizes the elimination of distractions, empowering users to focus on sniping tokens and seizing the best opportunities in Linea's dynamic market. More than just a memecoin, Linpuss provides traders with an intuitive and thrilling tool that merges the efficiency of a trading bot with the excitement of a game. As Linea prepares for exponential growth, Linpuss positions itself as a gateway to unlocking early access to a revolutionary ecosystem, offering substantial upside potential. Backed by the LPUSS token, Linpuss is on a mission to redefine blockchain trading—making it seamless, engaging, and accessible for all. Whether you're a seasoned trader or a newcomer, Linpuss transforms trading into an adventure, giving you the tools and focus needed to succeed in the evolving Linea market.`,
+  },
+  {
     index: 6010,
     chainId: ChainId.LINEA,
     contractAddress: {
@@ -974,6 +1028,34 @@ const bills: BillsConfig[] = [
   // BNB chain
   //
   {
+    index: 1105,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0xf7534f868c313A09548Dce757Bf4275CBbce18Db',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdt,
+    earnToken: tokens.block,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://home.blockasset.co/',
+    twitter: 'https://x.com/blockassetco',
+    initTime: { [ChainId.BSC]: 1733406965 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['GAMEFI'],
+    shortDescription:
+      'Blockasset is a leading Web3 sports network that connects its community with unique experiences through athlete partnerships and innovative products. With a recent UFC partnership, Blockasset enhances fan engagement through BlockBet, a Web3 sportsbook and casino that has already seen over $20 million in wagers. Additionally, BlockPicks, a free-to-play game, helps onboard users by offering games for NBA, NFL, soccer, and UFC. The Blockasset media arm has generated over 250 million views, with investors like Wayne Rooney, Alexander Ovechkin, and Michael Bisping.',
+    fullDescription: `Blockasset is a Web3 sports network dedicated to delivering exceptional experiences to its community through premium content, strong athlete relationships, and cutting-edge Web3 sport products. Recently, Blockasset partnered with the UFC, bringing community activations and branding opportunities with one of the largest sports organizations in the world. 
+BlockBet, a Web3 sportsbook and casino, launched in June and has already generated over $20 million in wagers, highlighting its rapid growth. BlockPicks, a free-to-play game with over 30,000 players, serves as a fun and interactive onboarding tool into the BlockAsset ecosystem. Users can play for free on popular sports such as NBA, NFL, soccer, and UFC, with BlockPicks acting as a direct funnel into BlockBet.
+Blockasset’s media arm has amassed over 250 million views, working with top athletes like Alex Pereira, Khamzat Chimaev, Darren Till, and more. Prominent investors include football legend Wayne Rooney, hockey star Alexander Ovechkin, and UFC Hall of Famer Michael Bisping.`,
+  },
+  {
     index: 1104,
     chainId: ChainId.BSC,
     contractAddress: {
@@ -1091,7 +1173,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://home.blockasset.co/',
     twitter: 'https://x.com/blockassetco',
     initTime: { [ChainId.BSC]: 1729522195 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -8504,7 +8586,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://x.com/Bonsai_DAO',
     twitter: 'https://www.bonsaidao.xyz/',
     initTime: { [ChainId.ARBITRUM]: 1723814011 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -9406,7 +9488,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.frictionless.network/',
     twitter: 'https://x.com/FrictionlessX',
     initTime: { [ChainId.MAINNET]: 1726567494 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
