@@ -345,7 +345,9 @@
         "8453": 18
       },
       "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {
+        "8453": "UniswapV3"
+      }
     },
     "billNnftAddress": {
       "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"

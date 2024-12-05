@@ -29,6 +29,9 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: 18,
     },
     active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV3,
+    },
   },
   glq: {
     symbol: 'WGLQ',
