@@ -5042,6 +5042,33 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 'https://thena.fi/pools/0x87a4276eaed3b46cb77ec41d6f6b9fc98b159725',
     },
   },
+  sdmBnb_Ichi: {
+    symbol: 'SDM-BNB',
+    address: {
+      [ChainId.BSC]: '0x6a8D03773779cD3eD6fEeC4f0059a76932909Baf',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.Algebra,
+    },
+    ichiUnderlyingDex: IchiSupportedDex.Pancakeswap,
+    getLpUrl: {
+      [ChainId.BSC]: 'https://pancakeswap.finance/position-managers',
+    },
+  },
+  sdm: {
+    symbol: 'SDM',
+    address: {
+      [ChainId.BSC]: '0x516f8a1fB458EBdcFd0F544fF85c69C1c0Ebc31d',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+    },
+    active: true,
+  },
   busdBnb_Thena: {
     symbol: 'BUSD-BNB',
     address: {
