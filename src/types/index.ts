@@ -35,6 +35,7 @@ export enum ChainId {
   CAMP_TESTNET = 325000,
   GRAPHLINQ = 614,
   AVAX = 43114,
+  BLAST = 81457,
 }
 
 export enum LiquidityDex {
