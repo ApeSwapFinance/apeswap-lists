@@ -1,7 +1,7 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1105
+// BNB Largest ID: 1106
 // Polygon Largest ID: 165
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2011
@@ -1027,6 +1027,34 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1106,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x96FbF699C11973B60a68C9EE11A9Bc6c5Fc513E9',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.sdmBnb_Ichi,
+    earnToken: tokens.sdm,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://shieldeum.net/',
+    twitter: 'https://x.com/Shieldeum',
+    audit: 'https://skynet.certik.com/projects/shieldeum',
+    initTime: { [ChainId.BSC]: 1733498631 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['AI', 'DEPIN'],
+    shortDescription:
+      'Shieldeum is a Web3 cybersecurity platform safeguarding 440 million crypto users with its AI-powered Decentralized Physical Infrastructure Network (DePIN). It delivers advanced services like data encryption, threat detection, and high-performance computing. Powered by the $SDM token, Shieldeum offers easy-to-use solutions, node participation, and DAO governance, enabling users to shape its future.',
+    fullDescription:
+      "Shieldeum is a Web3 cybersecurity platform designed to protect 440 million crypto users through an AI-powered Decentralized Physical Infrastructure Network (DePIN). At its core, Shieldeum operates datacenter servers that generate computing power to support advanced services, including application hosting, data encryption, threat detection, and high-performance computing. Tailored for Web3, blockchain, and crypto use cases, Shieldeum delivers user-friendly AI-driven cybersecurity solutions. Its ecosystem allows anyone to participate by powering a Shieldeum node through pools, similar to Bitcoin mining pools. The $SDM token powers the ecosystem, offering governance through a DAO where holders can propose, vote, and allocate funds, while also unlocking premium AI services and gaining influence in shaping the platform's future.",
+  },
   {
     index: 1105,
     chainId: ChainId.BSC,

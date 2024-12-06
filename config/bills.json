@@ -1981,6 +1981,63 @@
     "shortDescription": "Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!"
   },
   {
+    "index": 1106,
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0x96FbF699C11973B60a68C9EE11A9Bc6c5Fc513E9"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "SDM-BNB",
+      "address": {
+        "56": "0x6a8D03773779cD3eD6fEeC4f0059a76932909Baf"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "ichiUnderlyingDex": "PancakeSwap",
+      "getLpUrl": {
+        "56": "https://pancakeswap.finance/position-managers"
+      }
+    },
+    "earnToken": {
+      "symbol": "SDM",
+      "address": {
+        "56": "0x516f8a1fB458EBdcFd0F544fF85c69C1c0Ebc31d"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://shieldeum.net/",
+    "twitter": "https://x.com/Shieldeum",
+    "audit": "https://skynet.certik.com/projects/shieldeum",
+    "initTime": {
+      "56": 1733498631
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["AI", "DEPIN"],
+    "shortDescription": "Shieldeum is a Web3 cybersecurity platform safeguarding 440 million crypto users with its AI-powered Decentralized Physical Infrastructure Network (DePIN). It delivers advanced services like data encryption, threat detection, and high-performance computing. Powered by the $SDM token, Shieldeum offers easy-to-use solutions, node participation, and DAO governance, enabling users to shape its future.",
+    "fullDescription": "Shieldeum is a Web3 cybersecurity platform designed to protect 440 million crypto users through an AI-powered Decentralized Physical Infrastructure Network (DePIN). At its core, Shieldeum operates datacenter servers that generate computing power to support advanced services, including application hosting, data encryption, threat detection, and high-performance computing. Tailored for Web3, blockchain, and crypto use cases, Shieldeum delivers user-friendly AI-driven cybersecurity solutions. Its ecosystem allows anyone to participate by powering a Shieldeum node through pools, similar to Bitcoin mining pools. The $SDM token powers the ecosystem, offering governance through a DAO where holders can propose, vote, and allocate funds, while also unlocking premium AI services and gaining influence in shaping the platform's future."
+  },
+  {
     "index": 1105,
     "chainId": 56,
     "contractAddress": {
