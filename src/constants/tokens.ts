@@ -5051,7 +5051,7 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
     liquidityDex: {
-      [ChainId.BSC]: LiquidityDex.Algebra,
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
     },
     ichiUnderlyingDex: IchiSupportedDex.Pancakeswap,
     getLpUrl: {
