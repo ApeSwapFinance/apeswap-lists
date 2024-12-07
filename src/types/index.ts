@@ -82,6 +82,11 @@ export enum LiquidityDex {
   LFJ = 'LFJ',
   Pharaoh = 'Pharaoh',
   Pangolin = 'Pangolin',
+
+  //BLAST
+  ThrusterV2_03 = 'ThrusterV2_03', //0.3% fee
+  ThrusterV2_1 = 'ThrusterV2_1', //1% fee
+  ThrusterV3 = 'ThrusterV3',
 }
 
 export enum IchiSupportedDex {
@@ -652,6 +657,20 @@ export const dexFactories: Partial<
       protocol: Protocols.V2,
     },
   },
+  [ChainId.BLAST]: {
+    [LiquidityDex.ThrusterV2_03]: {
+      factory: '0xb4A7D971D0ADea1c73198C97d7ab3f9CE4aaFA13',
+      protocol: Protocols.V2,
+    },
+    [LiquidityDex.ThrusterV2_1]: {
+      factory: '0x37836821a2c03c171fB1a595767f4a16e2b93Fc4',
+      protocol: Protocols.V2,
+    },
+    [LiquidityDex.ThrusterV3]: {
+      factory: '0x71b08f13B3c3aF35aAdEb3949AFEb1ded1016127',
+      protocol: Protocols.V3,
+    },
+  },
 }
 
 export const defaultDexFactories: Partial<Record<ChainId, Partial<Record<Protocols, string>>>> = {
@@ -697,6 +716,10 @@ export const defaultDexFactories: Partial<Record<ChainId, Partial<Record<Protoco
   [ChainId.AVAX]: {
     [Protocols.V2]: dexFactories[ChainId.AVAX]?.LFJ?.factory,
     [Protocols.V3]: dexFactories[ChainId.AVAX]?.Pharaoh?.factory,
+  },
+  [ChainId.BLAST]: {
+    [Protocols.V2]: dexFactories[ChainId.BLAST]?.ThrusterV2_03?.factory,
+    [Protocols.V3]: dexFactories[ChainId.BLAST]?.ThrusterV3?.factory,
   },
 }
 
@@ -761,4 +784,11 @@ export const dexToZapMapping: Record<LiquidityDex, Partial<Record<ChainId, ZapVe
   [LiquidityDex.Pangolin]: {
     [ChainId.AVAX]: ZapVersion.SoulZapApi,
   },
+  [LiquidityDex.ThrusterV2_03]: {
+    [ChainId.BLAST]: ZapVersion.SoulZapApi,
+  },
+  [LiquidityDex.ThrusterV2_1]: {
+    [ChainId.BLAST]: ZapVersion.SoulZapApi,
+  },
+  [LiquidityDex.ThrusterV3]: {},
 }
