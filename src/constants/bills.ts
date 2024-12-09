@@ -5,7 +5,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingT
 // Polygon Largest ID: 165
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2011
-// ETH Largest ID: 3031
+// ETH Largest ID: 3032
 // Linea Largest ID: 6011
 // Base Largest ID: 8016
 // Lightlink Largest ID: 7000
@@ -9780,7 +9780,33 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     },
     tags: ['GAMEFI'],
     shortDescription: `Zygo the Frog, the mischievous and adventurous little green Froggie, is a community-driven cryptocurrency that blends meme culture with innovative crypto technology. Focused on decentralization and real-world utility, Zygo offers a fresh take on finance. Secured by Merged Mining, like Dogecoin, Zygo ensures a strong and reliable blockchain. Join the movement and shape the future of decentralized finance!`,
-    fullDescription: ` Zygo the Frog, an adventurous and mischievous little green Froggie, brings a playful yet powerful twist to the world of cryptocurrency. As a community-driven project, Zygo combines the charm of meme culture with cutting-edge crypto innovation, promoting decentralization and real-world utility. Powered by Merged Mining, similar to Dogecoin, Zygo ensures its blockchain remains secure and reliable. Beyond its secure foundation, Zygo introduces Zygo AI, a sophisticated cryptocurrency assistant designed to simplify the complexities of the crypto market. With real-time market data, personalized insights, and portfolio management tools, Zygo AI empowers users to make informed trading and investment decisions. Dive into the Zygo movement and explore a fun, secure, and innovative approach to decentralized finance!`,
+    fullDescription: `Zygo the Frog, an adventurous and mischievous little green Froggie, brings a playful yet powerful twist to the world of cryptocurrency. As a community-driven project, Zygo combines the charm of meme culture with cutting-edge crypto innovation, promoting decentralization and real-world utility. Powered by Merged Mining, similar to Dogecoin, Zygo ensures its blockchain remains secure and reliable. Beyond its secure foundation, Zygo introduces Zygo AI, a sophisticated cryptocurrency assistant designed to simplify the complexities of the crypto market. With real-time market data, personalized insights, and portfolio management tools, Zygo AI empowers users to make informed trading and investment decisions. Dive into the Zygo movement and explore a fun, secure, and innovative approach to decentralized finance!`,
+  },
+  {
+    index: 3032,
+    cmcId: 30902,
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0xE26D0184cF105e18128360E8Ff192667E59475D7',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    lpToken: tokens.eth,
+    earnToken: tokens.wolf,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0xeDF145A02763008ef760Cd75143796A40120e792',
+    },
+    inactive: false,
+    projectLink: 'https://landwolf.com/',
+    twitter: 'https://x.com/Wolf0x67',
+    initTime: { [ChainId.MAINNET]: 1733757492 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['Meme', 'Community'],
+    shortDescription: `LandWolf is for the People. Backed by a vibrant and unstoppable community, this half-man, half-wolf legend blends humor, creativity, and adventure. Known for his pizza-loving, game-playing vibe, LandWolf transforms into a party animal under the full moon. A star of Matt Furie’s The Boy’s Club alongside Pepe, Andy, and Brett, LandWolf thrives as a community-driven project powered by the $WOLF token on Ethereum.`,
+    fullDescription: `LandWolf is for the People. Backed by a vibrant and unstoppable community, this half-man, half-wolf legend embodies unity, strength, and adventure. Embodying a blend of humor, creativity, and community spirit. Half man, half wolf, LandWolf is a laid-back character who enjoys pizza, video games, and hanging out with friends, but transforms into an adventurous party animal under the full moon. As a standout figure from Furie’s iconic comic series The Boy’s Club, LandWolf shares the spotlight with beloved characters like Pepe, Andy, and Brett. Beyond its artistic roots, LandWolf has evolved into a community-driven project powered by the $WOLF token on the Ethereum blockchain. With no developer allocation, the 0x67 $WOLF token thrives on contributions from its passionate community, making LandWolf a true testament to grassroots collaboration and creative energy.`,
   },
 ]
 
