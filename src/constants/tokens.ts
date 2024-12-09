@@ -3577,6 +3577,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  wolf: {
+    symbol: 'WOLF',
+    address: {
+      [ChainId.MAINNET]: '0x67466BE17df832165F8C80a5A120CCc652bD7E69',
+    },
+    decimals: { [ChainId.MAINNET]: 18 },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
+    },
+    active: true,
+  },
   pumlx: {
     symbol: 'PUMLx',
     address: {
