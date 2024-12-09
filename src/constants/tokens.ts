@@ -30,7 +30,7 @@ const tokens: Record<string, Token> = {
     },
     active: true,
     liquidityDex: {
-      [ChainId.BLAST]: LiquidityDex.External,
+      [ChainId.BLAST]: LiquidityDex.ThrusterV3,
     },
   },
   bpad: {
@@ -753,7 +753,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.Aerodrome,
       [ChainId.IOTA]: LiquidityDex.MagicSea,
       [ChainId.GRAPHLINQ]: LiquidityDex.External,
-      [ChainId.BLAST]: LiquidityDex.External,
+      [ChainId.BLAST]: LiquidityDex.ThrusterV3,
     },
     active: true,
   },
