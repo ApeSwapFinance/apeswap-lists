@@ -3577,6 +3577,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  wolf: {
+    symbol: 'WOLF',
+    address: {
+      [ChainId.MAINNET]: '0x67466BE17df832165F8C80a5A120CCc652bD7E69',
+    },
+    decimals: { [ChainId.MAINNET]: 18 },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
+    },
+    active: true,
+  },
   pumlx: {
     symbol: 'PUMLx',
     address: {
@@ -5041,6 +5052,33 @@ const tokens: Record<string, Token> = {
     getLpUrl: {
       [ChainId.BSC]: 'https://thena.fi/pools/0x87a4276eaed3b46cb77ec41d6f6b9fc98b159725',
     },
+  },
+  sdmUsdt_Ichi: {
+    symbol: 'SDM-USDT',
+    address: {
+      [ChainId.BSC]: '0x6a8D03773779cD3eD6fEeC4f0059a76932909Baf',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+    },
+    ichiUnderlyingDex: IchiSupportedDex.Pancakeswap,
+    getLpUrl: {
+      [ChainId.BSC]: 'https://pancakeswap.finance/position-managers',
+    },
+  },
+  sdm: {
+    symbol: 'SDM',
+    address: {
+      [ChainId.BSC]: '0x516f8a1fB458EBdcFd0F544fF85c69C1c0Ebc31d',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+    },
+    active: true,
   },
   busdBnb_Thena: {
     symbol: 'BUSD-BNB',
