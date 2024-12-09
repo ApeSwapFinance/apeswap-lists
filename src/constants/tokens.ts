@@ -5042,8 +5042,8 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 'https://thena.fi/pools/0x87a4276eaed3b46cb77ec41d6f6b9fc98b159725',
     },
   },
-  sdmBnb_Ichi: {
-    symbol: 'SDM-BNB',
+  sdmUsdt_Ichi: {
+    symbol: 'SDM-USDT',
     address: {
       [ChainId.BSC]: '0x6a8D03773779cD3eD6fEeC4f0059a76932909Baf',
     },

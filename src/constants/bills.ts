@@ -1035,7 +1035,7 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    lpToken: tokens.sdmBnb_Ichi,
+    lpToken: tokens.sdmUsdt_Ichi,
     earnToken: tokens.sdm,
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',

@@ -1989,7 +1989,7 @@
     "billType": "liquidity",
     "billVersion": "V2",
     "lpToken": {
-      "symbol": "SDM-BNB",
+      "symbol": "SDM-USDT",
       "address": {
         "56": "0x6a8D03773779cD3eD6fEeC4f0059a76932909Baf"
       },
