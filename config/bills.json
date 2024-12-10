@@ -340,10 +340,10 @@
     "earnToken": {
       "symbol": "TYLER",
       "address": {
-        "8453": "0x65e570b560027F493f2b1907e8e8e3B9546053bD"
+        "8453": "0x85645b86243886b7c7c1DA6288571F8bEa6fC035"
       },
       "decimals": {
-        "8453": 18
+        "8453": 9
       },
       "active": true,
       "liquidityDex": {

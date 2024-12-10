@@ -190,7 +190,7 @@ const bills: BillsConfig[] = [
     billType: 'reserve',
     billVersion: BillVersion.V2,
     lpToken: tokens.eth,
-    earnToken: tokens.tyler,
+    earnToken: tokens.tyler_new,
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
