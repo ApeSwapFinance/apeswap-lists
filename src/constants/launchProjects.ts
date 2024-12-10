@@ -740,6 +740,75 @@ const launchProjects: LaunchProjectConfig[] = [
       },
     ],
   },
+  {
+    index: 4,
+    projectId: 'oxya-origins',
+    projectName: 'Oxya Origins',
+    saleStartTime: 'Dec 17th 17:00 UTC',
+    totalAllocation: 'A lot of tokens',
+    salePriceString: '$0.25',
+    vestingTimeString: '20% TGE, 1 Month cliff, 4 Months linear vesting',
+    projectInfo: {
+      shortDescription: 'This is a really good project ser',
+      fullDescription:
+        'This is a really good project ser, but let me say that twice because this should be the long description... This is a really good project ser',
+      tags: ['We need a tag'],
+      socials: {
+        twitter: 'https://twitter.com/Carv_official',
+        teaserVideo: 'https://www.youtube.com/watch?v=P-7mYixdI0k',
+        tokenomicsURL: 'https://docs.carv.io/carv-token/distribution-and-vesting',
+        website: 'https://carv.io/',
+        whitepaper: 'https://docs.carv.io/carv-protocol/verifier-node-explained',
+        telegram: 'https://t.me/carv_official_global',
+        discord: 'https://discord.gg/carv',
+      },
+      images: {
+        launchpadImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1715975892/carv-launchpadImg_abywx1.png',
+        launchpadSmallImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1715975892/carv-launchpadImg_abywx1.png',
+        launchpadIcon: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1715976635/carv-launchpadicon_n3uyxh.png',
+        headerImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1715976905/carv-header_tyrkc8.png',
+        headerImgMobile: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1715996352/carv-header-mobile_mbn4fx.png',
+        websiteImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1715996267/carv-website_puixtp.png',
+        whitepaperImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1715996259/carv-whitepaper_nk1lfw.png',
+        partnersImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1715996259/carv-partners_fmuhu8.png',
+        tokenomicsImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1715996261/carv-tokenomics_l0zhtd.png',
+        teaserImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1715996260/carv-video_pipsg1.png',
+      },
+    },
+    bonds: [
+      {
+        index: 14,
+        contractAddress: {
+          [ChainId.BSC]: '0x83B66E76c11602360Fa0b8a6Bb382F408037328D', // FCFS legend prod
+        },
+        billVersion: BillVersion.TieredSale,
+        billType: 'fcfs',
+        token: tokens.usdt,
+        earnToken: tokens.abcarv,
+        billNnftAddress: {
+          [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+        },
+        soldOut: false,
+        billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+        initTime: {
+          [ChainId.BSC]: 1716303600,
+        },
+        finishTime: {
+          [ChainId.BSC]: 1716305400,
+        },
+        redeemTime: {
+          [ChainId.BSC]: 1716305400,
+        },
+        startVestingTimestamp: {
+          [ChainId.BSC]: 1716305400,
+        },
+        initPrice: {
+          [ChainId.BSC]: 1086.96,
+        },
+        initialRelease: 100,
+      },
+    ],
+  },
 ]
 
 export default launchProjects
