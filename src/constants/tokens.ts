@@ -289,6 +289,45 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.UniswapV3,
     },
   },
+  tyler_new: {
+    symbol: 'TYLER',
+    address: {
+      [ChainId.BASE]: '0x85645b86243886b7c7c1DA6288571F8bEa6fC035',
+    },
+    decimals: {
+      [ChainId.BASE]: 9,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV3,
+    },
+  },
+  oai: {
+    symbol: 'OAI',
+    address: {
+      [ChainId.BASE]: '0x63c387F45046bc3C4aD8Fe12fe9cfa2A7b305385',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV3,
+    },
+  },
+  moz: {
+    symbol: 'MOZ',
+    address: {
+      [ChainId.BASE]: '0xC227717ef4Ae4D982E14789eB33bA942243c3FEe',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.Aerodrome,
+    },
+  },
   imgnai: {
     symbol: 'imgnAI',
     address: {

@@ -7,7 +7,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingT
 // Arbitrum Largest ID: 2011
 // ETH Largest ID: 3032
 // Linea Largest ID: 6011
-// Base Largest ID: 8017
+// Base Largest ID: 8019
 // Lightlink Largest ID: 7000
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
@@ -180,33 +180,83 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
-  // {
-  //   index: 8017,
-  //   cmcId: 33390,
-  //   chainId: ChainId.BASE,
-  //   contractAddress: {
-  //     [ChainId.BASE]: '0x2EB13fF8c726f1752A35e96DBfAC474D98CA4420',
-  //   },
-  //   billType: 'reserve',
-  //   billVersion: BillVersion.V2,
-  //   lpToken: tokens.eth,
-  //   earnToken: tokens.tyler,
-  //   billNnftAddress: {
-  //     [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
-  //   },
-  //   inactive: false,
-  //   projectLink: 'https://www.basedtyler.com/',
-  //   twitter: 'https://x.com/TylerOnBaseETH',
-  //   audit: 'https://tokensniffer.com/token/8453/0x65e570b560027f493f2b1907e8e8e3b9546053bd',
-  //   initTime: { [ChainId.BASE]: 1733827195 },
-  //   soldOut: false,
-  //   billArt: {
-  //     collection: BillArtCollection.ApeBond_Collection1,
-  //   },
-  //   tags: ['Meme', 'Community'],
-  //   shortDescription: `Tyler Coin is a community-driven, meme-based cryptocurrency developed on the Base network, launched with just 1 Ethereum. Inspired by the fictional character from Fatt Murie's Guys' Club comic, Tyler Coin aims to surpass the success of memecoins like $BRETT by leveraging decentralized communities, transparent leadership, and viral memes. With a 100% fair launch and no insider allocations, Tyler Coin strives to be the top community meme on Base, driving organic growth through community engagement.`,
-  //   fullDescription: `Tyler Coin is a community-driven, meme-based cryptocurrency developed on the Base network, launched with an initial capital of just 1 Ethereum. The project is inspired by Tyler, the fictional character from Fatt Murie's Guys' Club comic, known for his love of dancing and video games, much like the popular $BRETT memecoin. Now living on the Base blockchain, Tyler has become the red mascot of the blue chain. Tyler Coin aims to not only replicate but surpass the success of memecoins like BRETT by harnessing decentralized communities, transparent leadership, and viral meme culture. With a 100% fair launch and no insider allocations, it strives to be the top community-driven meme on Base. By fostering active community engagement and using memes to fuel viral growth, Tyler Coin envisions itself as the next big sensation in the memecoin space, aiming for a billion-dollar market cap and beyond.`,
-  // },
+  {
+    index: 8019,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x6898C77147b04B26714613dBeb4c89D45Ef3399B',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdt,
+    earnToken: tokens.moz,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://mozaic.finance/',
+    twitter: 'https://x.com/Mozaic_Fi',
+    initTime: { [ChainId.BASE]: 1733851922 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription: `Mozaic simplifies DeFi with AI-driven yield farming and LayerZero technology, enabling users to farm automatically across any blockchain. Its AI, Archimedes, optimizes profitability by rebalancing assets hourly into the highest APY pools. Mozaic removes the complexity of yield discovery, saving time and enhancing efficiency. Governed by the MOZ token, it empowers users through DAO participation, pioneering AI-Fi for all.`,
+    fullDescription: `Mozaic revolutionizes yield farming with AI-driven optimization and LayerZero technology, offering users automatic farming across any blockchain. Founded by a community-driven team, Mozaic simplifies the complexities of DeFi by removing indecision and maximizing profitability. Its AI, Archimedes, compounds and rebalances assets hourly, ensuring optimal returns by targeting the highest APY pools. By addressing the challenges of yield discovery and decision-making, Mozaic unlocks the potential of AI in DeFi, saving users time while enhancing efficiency. Governed by the finite MOZ token, Mozaic empowers holders with DAO participation, ensuring community-led innovation. Mozaic seamlessly combines automation and accessibility, pioneering AI-Fi for all.`,
+  },
+  {
+    index: 8018,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0xf3CB2D41F2B9D1F49aa2fd20A7BFCc7769B2188c',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.oai,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://iamolex.ai/',
+    twitter: 'https://x.com/hi_olex',
+    initTime: { [ChainId.BASE]: 1733827195 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription: `Olex aims to be the world’s first fully autonomous crypto project, powered by cutting-edge AI and custom AI agents. It identifies market opportunities, creates, and launches projects independently, while fostering vibrant communities using AI trained on successful crypto initiatives. At its core, the OAI token delivers 100% real yield, sharing profits from all Olex ventures. Olex redefines DeFi with automation and innovation.`,
+    fullDescription: `Olex aims to be the world’s first fully autonomous crypto project, built on cutting-edge AI technology and custom-developed AI agents. The vision behind Olex is to operate independently, around the clock, scanning the crypto market to uncover gaps and emerging opportunities without human intervention. When an opportunity is identified, Olex's AI worker agents spring into action, carefully planning, creating, and launching the project from start to finish. Olex doesn’t stop at deploying projects; it’s designed to cultivate and sustain dynamic communities. Leveraging AI agents trained on thousands of successful crypto projects, Olex ensures that each new initiative has a vibrant community at its core. The result is a continuous cycle of project discovery, development, and community building that enhances the cryptocurrency ecosystem while delivering ongoing value to OLEXAI token holders. At the core of Olex’s ecosystem is the OAI token, a 100% real yield asset that redistributes profits from all Olex-created ventures to token holders, making it a trailblazer in decentralized finance. With its cutting-edge automation and AI-driven innovation, Olex redefines the future of DeFi and the crypto economy.`,
+  },
+  {
+    index: 8017,
+    cmcId: 33390,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x50879B97A913eCC11BcC34E05a3282489Fb49f08',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.eth,
+    earnToken: tokens.tyler_new,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://www.basedtyler.com/',
+    twitter: 'https://x.com/TylerOnBaseETH',
+    audit: 'https://tokensniffer.com/token/8453/0x65e570b560027f493f2b1907e8e8e3b9546053bd',
+    initTime: { [ChainId.BASE]: 1733827195 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Meme', 'Community'],
+    shortDescription: `Tyler Coin is a community-driven, meme-based cryptocurrency developed on the Base network, launched with just 1 Ethereum. Inspired by the fictional character from Fatt Murie's Guys' Club comic, Tyler Coin aims to surpass the success of memecoins like $BRETT by leveraging decentralized communities, transparent leadership, and viral memes. With a 100% fair launch and no insider allocations, Tyler Coin strives to be the top community meme on Base, driving organic growth through community engagement.`,
+    fullDescription: `Tyler Coin is a community-driven, meme-based cryptocurrency developed on the Base network, launched with an initial capital of just 1 Ethereum. The project is inspired by Tyler, the fictional character from Fatt Murie's Guys' Club comic, known for his love of dancing and video games, much like the popular $BRETT memecoin. Now living on the Base blockchain, Tyler has become the red mascot of the blue chain. Tyler Coin aims to not only replicate but surpass the success of memecoins like BRETT by harnessing decentralized communities, transparent leadership, and viral meme culture. With a 100% fair launch and no insider allocations, it strives to be the top community-driven meme on Base. By fostering active community engagement and using memes to fuel viral growth, Tyler Coin envisions itself as the next big sensation in the memecoin space, aiming for a billion-dollar market cap and beyond.`,
+  },
   {
     index: 8016,
     chainId: ChainId.BASE,
