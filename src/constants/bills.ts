@@ -196,7 +196,7 @@ const bills: BillsConfig[] = [
     },
     inactive: false,
     projectLink: 'https://www.basedtyler.com/',
-    twitter: 'https://x.com/TylerOnBase',
+    twitter: 'https://x.com/TylerOnBaseETH',
     audit: 'https://tokensniffer.com/token/8453/0x65e570b560027f493f2b1907e8e8e3b9546053bd',
     initTime: { [ChainId.BASE]: 1733827195 },
     soldOut: false,
