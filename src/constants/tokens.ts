@@ -3933,6 +3933,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  orfy: {
+    symbol: 'ORFY',
+    address: {
+      [ChainId.BSC]: '0x39f0F4c64c7Ad1Ebb25cfEaFdd221cDEe3084441',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
   copi: {
     symbol: 'COPI',
     address: {

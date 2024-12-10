@@ -1981,6 +1981,59 @@
     "shortDescription": "Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!"
   },
   {
+    "index": 1107,
+    "cmcId": 29912,
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0x0902E2C0AD4FddA0052b0F65071de65CF84a779a"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "56": "0x55d398326f99059fF775485246999027B3197955"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "ORFY",
+      "address": {
+        "56": "0x39f0F4c64c7Ad1Ebb25cfEaFdd221cDEe3084441"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://ordify.world/",
+    "twitter": "https://x.com/ordifyworld",
+    "audit": "https://skynet.certik.com/projects/ordify",
+    "initTime": {
+      "56": 1733406965
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["Launchpad"],
+    "shortDescription": "Ordify revolutionizes cross-chain investment with its ORFY Bridge, enabling seamless BRC-20 token transfers between the BTC and Ethereum chains. By connecting the BRC-20 and ERC-20 ecosystems, it unlocks access to diverse dApp functionalities like staking and lending. This permissionless solution boosts liquidity for BRC-20 tokens, fostering accessibility and innovation, powered by the ORFY token.",
+    "fullDescription": "Ordify is a groundbreaking platform designed to deliver a seamless, user-friendly investment experience across multiple chains. Its innovative ORFY Bridge plays a vital role in addressing liquidity challenges, enabling smooth and secure transfers of BRC-20 tokens between the BTC and Ethereum chains. By connecting the BRC-20 and ERC-20 realms, Ordify empowers BRC-20 projects to access the diverse functionalities of the ERC-20 ecosystem, including lending, staking, and token vesting solutions—capabilities previously unavailable to BRC-20 tokens. This permissionless bridge enhances liquidity for BRC-20 tokens and expands their usability across decentralized applications (dApps). Powered by the ORFY token, Ordify opens new horizons for blockchain interoperability and investment accessibility."
+  },
+  {
     "index": 1106,
     "chainId": 56,
     "contractAddress": {
