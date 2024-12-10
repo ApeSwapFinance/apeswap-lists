@@ -180,33 +180,33 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
-  {
-    index: 8017,
-    cmcId: 33390,
-    chainId: ChainId.BASE,
-    contractAddress: {
-      [ChainId.BASE]: '0x2EB13fF8c726f1752A35e96DBfAC474D98CA4420',
-    },
-    billType: 'reserve',
-    billVersion: BillVersion.V2,
-    lpToken: tokens.eth,
-    earnToken: tokens.tyler,
-    billNnftAddress: {
-      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
-    },
-    inactive: false,
-    projectLink: 'https://www.basedtyler.com/',
-    twitter: 'https://x.com/TylerOnBaseETH',
-    audit: 'https://tokensniffer.com/token/8453/0x65e570b560027f493f2b1907e8e8e3b9546053bd',
-    initTime: { [ChainId.BASE]: 1733827195 },
-    soldOut: false,
-    billArt: {
-      collection: BillArtCollection.ApeBond_Collection1,
-    },
-    tags: ['Meme', 'Community'],
-    shortDescription: `Tyler Coin is a community-driven, meme-based cryptocurrency developed on the Base network, launched with just 1 Ethereum. Inspired by the fictional character from Fatt Murie's Guys' Club comic, Tyler Coin aims to surpass the success of memecoins like $BRETT by leveraging decentralized communities, transparent leadership, and viral memes. With a 100% fair launch and no insider allocations, Tyler Coin strives to be the top community meme on Base, driving organic growth through community engagement.`,
-    fullDescription: `Tyler Coin is a community-driven, meme-based cryptocurrency developed on the Base network, launched with an initial capital of just 1 Ethereum. The project is inspired by Tyler, the fictional character from Fatt Murie's Guys' Club comic, known for his love of dancing and video games, much like the popular $BRETT memecoin. Now living on the Base blockchain, Tyler has become the red mascot of the blue chain. Tyler Coin aims to not only replicate but surpass the success of memecoins like BRETT by harnessing decentralized communities, transparent leadership, and viral meme culture. With a 100% fair launch and no insider allocations, it strives to be the top community-driven meme on Base. By fostering active community engagement and using memes to fuel viral growth, Tyler Coin envisions itself as the next big sensation in the memecoin space, aiming for a billion-dollar market cap and beyond.`,
-  },
+  // {
+  //   index: 8017,
+  //   cmcId: 33390,
+  //   chainId: ChainId.BASE,
+  //   contractAddress: {
+  //     [ChainId.BASE]: '0x2EB13fF8c726f1752A35e96DBfAC474D98CA4420',
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V2,
+  //   lpToken: tokens.eth,
+  //   earnToken: tokens.tyler,
+  //   billNnftAddress: {
+  //     [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+  //   },
+  //   inactive: false,
+  //   projectLink: 'https://www.basedtyler.com/',
+  //   twitter: 'https://x.com/TylerOnBaseETH',
+  //   audit: 'https://tokensniffer.com/token/8453/0x65e570b560027f493f2b1907e8e8e3b9546053bd',
+  //   initTime: { [ChainId.BASE]: 1733827195 },
+  //   soldOut: false,
+  //   billArt: {
+  //     collection: BillArtCollection.ApeBond_Collection1,
+  //   },
+  //   tags: ['Meme', 'Community'],
+  //   shortDescription: `Tyler Coin is a community-driven, meme-based cryptocurrency developed on the Base network, launched with just 1 Ethereum. Inspired by the fictional character from Fatt Murie's Guys' Club comic, Tyler Coin aims to surpass the success of memecoins like $BRETT by leveraging decentralized communities, transparent leadership, and viral memes. With a 100% fair launch and no insider allocations, Tyler Coin strives to be the top community meme on Base, driving organic growth through community engagement.`,
+  //   fullDescription: `Tyler Coin is a community-driven, meme-based cryptocurrency developed on the Base network, launched with an initial capital of just 1 Ethereum. The project is inspired by Tyler, the fictional character from Fatt Murie's Guys' Club comic, known for his love of dancing and video games, much like the popular $BRETT memecoin. Now living on the Base blockchain, Tyler has become the red mascot of the blue chain. Tyler Coin aims to not only replicate but surpass the success of memecoins like BRETT by harnessing decentralized communities, transparent leadership, and viral meme culture. With a 100% fair launch and no insider allocations, it strives to be the top community-driven meme on Base. By fostering active community engagement and using memes to fuel viral growth, Tyler Coin envisions itself as the next big sensation in the memecoin space, aiming for a billion-dollar market cap and beyond.`,
+  // },
   {
     index: 8016,
     chainId: ChainId.BASE,
