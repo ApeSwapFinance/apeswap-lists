@@ -316,6 +316,59 @@
     "fullDescription": "FOMOFox is the first market-driven storytelling meme coin on IOTA EVM. Follow the thrilling journey of FOMOFox on TwitterX and help him conquer his FOMO by influencing the $FOMO Token’s market performance. Loyal holders will find countless opportunities to grow their $FOMO bags through raffles, solving riddles, or simply holding and supporting the fox. Along the way, FOMOFox faces diverse challenges and meets intriguing characters. Your influence on the market helps him make the right choices. This project offers pure entertainment and rewards those who stick with it! Join the adventure now and visit their website for more details!"
   },
   {
+    "index": 8017,
+    "cmcId": 33390,
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0x2EB13fF8c726f1752A35e96DBfAC474D98CA4420"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "ETH",
+      "address": {
+        "8453": "0x4200000000000000000000000000000000000006"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "liquidityDex": {
+        "8453": "Aerodrome"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "TYLER",
+      "address": {
+        "8453": "0x65e570b560027F493f2b1907e8e8e3B9546053bD"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "8453": "UniswapV3"
+      }
+    },
+    "billNnftAddress": {
+      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "inactive": false,
+    "projectLink": "https://www.basedtyler.com/",
+    "twitter": "https://x.com/TylerOnBase",
+    "audit": "https://tokensniffer.com/token/8453/0x65e570b560027f493f2b1907e8e8e3b9546053bd",
+    "initTime": {
+      "8453": 1733827195
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["Meme", "Community"],
+    "shortDescription": "Tyler Coin is a community-driven, meme-based cryptocurrency developed on the Base network, launched with just 1 Ethereum. Inspired by the fictional character from Fatt Murie's Guys' Club comic, Tyler Coin aims to surpass the success of memecoins like $BRETT by leveraging decentralized communities, transparent leadership, and viral memes. With a 100% fair launch and no insider allocations, Tyler Coin strives to be the top community meme on Base, driving organic growth through community engagement.",
+    "fullDescription": "Tyler Coin is a community-driven, meme-based cryptocurrency developed on the Base network, launched with an initial capital of just 1 Ethereum. The project is inspired by Tyler, the fictional character from Fatt Murie's Guys' Club comic, known for his love of dancing and video games, much like the popular $BRETT memecoin. Now living on the Base blockchain, Tyler has become the red mascot of the blue chain. Tyler Coin aims to not only replicate but surpass the success of memecoins like BRETT by harnessing decentralized communities, transparent leadership, and viral meme culture. With a 100% fair launch and no insider allocations, it strives to be the top community-driven meme on Base. By fostering active community engagement and using memes to fuel viral growth, Tyler Coin envisions itself as the next big sensation in the memecoin space, aiming for a billion-dollar market cap and beyond."
+  },
+  {
     "index": 8016,
     "chainId": 8453,
     "contractAddress": {
@@ -1979,6 +2032,59 @@
     },
     "tags": ["DeFi"],
     "shortDescription": "Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!"
+  },
+  {
+    "index": 1107,
+    "cmcId": 29912,
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0x0902E2C0AD4FddA0052b0F65071de65CF84a779a"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "56": "0x55d398326f99059fF775485246999027B3197955"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "ORFY",
+      "address": {
+        "56": "0x39f0F4c64c7Ad1Ebb25cfEaFdd221cDEe3084441"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://ordify.world/",
+    "twitter": "https://x.com/ordifyworld",
+    "audit": "https://skynet.certik.com/projects/ordify",
+    "initTime": {
+      "56": 1733406965
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["Launchpad"],
+    "shortDescription": "Ordify revolutionizes cross-chain investment with its ORFY Bridge, enabling seamless BRC-20 token transfers between the BTC and Ethereum chains. By connecting the BRC-20 and ERC-20 ecosystems, it unlocks access to diverse dApp functionalities like staking and lending. This permissionless solution boosts liquidity for BRC-20 tokens, fostering accessibility and innovation, powered by the ORFY token.",
+    "fullDescription": "Ordify is a groundbreaking platform designed to deliver a seamless, user-friendly investment experience across multiple chains. Its innovative ORFY Bridge plays a vital role in addressing liquidity challenges, enabling smooth and secure transfers of BRC-20 tokens between the BTC and Ethereum chains. By connecting the BRC-20 and ERC-20 realms, Ordify empowers BRC-20 projects to access the diverse functionalities of the ERC-20 ecosystem, including lending, staking, and token vesting solutions—capabilities previously unavailable to BRC-20 tokens. This permissionless bridge enhances liquidity for BRC-20 tokens and expands their usability across decentralized applications (dApps). Powered by the ORFY token, Ordify opens new horizons for blockchain interoperability and investment accessibility."
   },
   {
     "index": 1106,
