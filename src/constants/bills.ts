@@ -7,7 +7,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingT
 // Arbitrum Largest ID: 2011
 // ETH Largest ID: 3032
 // Linea Largest ID: 6011
-// Base Largest ID: 8017
+// Base Largest ID: 8019
 // Lightlink Largest ID: 7000
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
@@ -180,6 +180,31 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
+  {
+    index: 8019,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x6898C77147b04B26714613dBeb4c89D45Ef3399B',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdt,
+    earnToken: tokens.moz,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://mozaic.finance/',
+    twitter: 'https://x.com/Mozaic_Fi',
+    initTime: { [ChainId.BASE]: 1733851922 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription: `Mozaic simplifies DeFi with AI-driven yield farming and LayerZero technology, enabling users to farm automatically across any blockchain. Its AI, Archimedes, optimizes profitability by rebalancing assets hourly into the highest APY pools. Mozaic removes the complexity of yield discovery, saving time and enhancing efficiency. Governed by the MOZ token, it empowers users through DAO participation, pioneering AI-Fi for all.`,
+    fullDescription: `Mozaic revolutionizes yield farming with AI-driven optimization and LayerZero technology, offering users automatic farming across any blockchain. Founded by a community-driven team, Mozaic simplifies the complexities of DeFi by removing indecision and maximizing profitability. Its AI, Archimedes, compounds and rebalances assets hourly, ensuring optimal returns by targeting the highest APY pools. By addressing the challenges of yield discovery and decision-making, Mozaic unlocks the potential of AI in DeFi, saving users time while enhancing efficiency. Governed by the finite MOZ token, Mozaic empowers holders with DAO participation, ensuring community-led innovation. Mozaic seamlessly combines automation and accessibility, pioneering AI-Fi for all.`,
+  },
   {
     index: 8018,
     chainId: ChainId.BASE,

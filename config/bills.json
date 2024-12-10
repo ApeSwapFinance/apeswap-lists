@@ -316,6 +316,57 @@
     "fullDescription": "FOMOFox is the first market-driven storytelling meme coin on IOTA EVM. Follow the thrilling journey of FOMOFox on TwitterX and help him conquer his FOMO by influencing the $FOMO Token’s market performance. Loyal holders will find countless opportunities to grow their $FOMO bags through raffles, solving riddles, or simply holding and supporting the fox. Along the way, FOMOFox faces diverse challenges and meets intriguing characters. Your influence on the market helps him make the right choices. This project offers pure entertainment and rewards those who stick with it! Join the adventure now and visit their website for more details!"
   },
   {
+    "index": 8019,
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0x6898C77147b04B26714613dBeb4c89D45Ef3399B"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2"
+      },
+      "decimals": {
+        "8453": 6
+      },
+      "liquidityDex": {
+        "8453": "UniswapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "MOZ",
+      "address": {
+        "8453": "0xC227717ef4Ae4D982E14789eB33bA942243c3FEe"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "8453": "Aerodrome"
+      }
+    },
+    "billNnftAddress": {
+      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "inactive": false,
+    "projectLink": "https://mozaic.finance/",
+    "twitter": "https://x.com/Mozaic_Fi",
+    "initTime": {
+      "8453": 1733851922
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["AI"],
+    "shortDescription": "Mozaic simplifies DeFi with AI-driven yield farming and LayerZero technology, enabling users to farm automatically across any blockchain. Its AI, Archimedes, optimizes profitability by rebalancing assets hourly into the highest APY pools. Mozaic removes the complexity of yield discovery, saving time and enhancing efficiency. Governed by the MOZ token, it empowers users through DAO participation, pioneering AI-Fi for all.",
+    "fullDescription": "Mozaic revolutionizes yield farming with AI-driven optimization and LayerZero technology, offering users automatic farming across any blockchain. Founded by a community-driven team, Mozaic simplifies the complexities of DeFi by removing indecision and maximizing profitability. Its AI, Archimedes, compounds and rebalances assets hourly, ensuring optimal returns by targeting the highest APY pools. By addressing the challenges of yield discovery and decision-making, Mozaic unlocks the potential of AI in DeFi, saving users time while enhancing efficiency. Governed by the finite MOZ token, Mozaic empowers holders with DAO participation, ensuring community-led innovation. Mozaic seamlessly combines automation and accessibility, pioneering AI-Fi for all."
+  },
+  {
     "index": 8018,
     "chainId": 8453,
     "contractAddress": {
