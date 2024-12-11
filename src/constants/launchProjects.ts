@@ -784,12 +784,12 @@ const launchProjects: LaunchProjectConfig[] = [
       {
         index: 14,
         contractAddress: {
-          [ChainId.BSC]: '0x83B66E76c11602360Fa0b8a6Bb382F408037328D', // FCFS legend prod
+          [ChainId.BSC]: '0x1869F56A7281eEE139F45A28D30EFC8165C7395E', // FCFS legend prod
         },
         billVersion: BillVersion.TieredSale,
         billType: 'fcfs',
-        token: tokens.usdt,
-        earnToken: tokens.abcarv,
+        token: tokens.usdc,
+        earnToken: tokens.titm,
         billNnftAddress: {
           [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
         },
@@ -799,13 +799,13 @@ const launchProjects: LaunchProjectConfig[] = [
           [ChainId.BSC]: 1733924090,
         },
         finishTime: {
-          [ChainId.BSC]: 1733942090,
+          [ChainId.BSC]: 1734012000,
         },
         redeemTime: {
-          [ChainId.BSC]: 1733942090,
+          [ChainId.BSC]: 1734012000,
         },
         startVestingTimestamp: {
-          [ChainId.BSC]: 1736620490,
+          [ChainId.BSC]: 1734012000,
         },
         initPrice: {
           [ChainId.BSC]: 0.25,
