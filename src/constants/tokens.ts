@@ -6156,7 +6156,7 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
     liquidityDex: {
-      [ChainId.BASE]: LiquidityDex.UniswapV3,
+      [ChainId.BASE]: LiquidityDex.Algebra,
     },
     getLpUrl: {
       [ChainId.BASE]: 'https://app.ichi.org/vault/token/0x1986cc18d8ec757447254310d2604f85741aa732/',
