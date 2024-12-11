@@ -180,7 +180,7 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
-  {
+  /*  {
     index: 8022,
     cmcId: 34365,
     chainId: ChainId.BASE,
@@ -257,7 +257,7 @@ const bills: BillsConfig[] = [
     tags: ['SocialFi', 'X-2-Earn'],
     shortDescription: `Rewardable is an AI-driven task-to-earn platform connecting verified users with Web3 brands through rewarding tasks like beta testing, social sharing, and surveys. Powered by the $REWARD token, an ERC-20 OFT on the Base blockchain, it offers secure, bot-free engagement with deflationary tokenomics. Built on LayerZero for cross-chain functionality, Rewardable turns spare time into earning opportunities.`,
     fullDescription: `Rewardable is an AI-driven task-to-earn platform designed to connect verified users with Web3 brands through rewarding, easy-to-complete tasks. Users can engage in beta testing, social media sharing, content creation, and surveys, earning rewards while driving genuine engagement for brands. Built on by LayerZero for seamless cross-chain functionality, Rewardable provides brands and users alike with a secure, bot-free ecosystem focused on transparency and authenticity. Join us on Rewardable to unlock a new era of digital engagement. At the core of its ecosystem is the $REWARD token, an ERC-20 Omnichain Fungible Token (OFT) launched on the Base blockchain. $REWARD drives transactions and user interactions, promoting engagement and collaboration while offering deflationary tokenomics and utility-focused value. By turning spare time into earning opportunities, Rewardable empowers users to earn extra cash through simple online tasks, all while fostering genuine connections between users and Web3 brands.`,
-  },
+  }, */
   {
     index: 8019,
     chainId: ChainId.BASE,
@@ -1206,9 +1206,9 @@ const bills: BillsConfig[] = [
     },
     tags: ['Blockchains'],
     shortDescription:
-      'SolarX Blockchain is transforming decentralized proof-of-work mining with a secure, scalable network supporting renewable energy and multi-coin Layer 1 access for greater flexibility and profitability. Its native ERC-20 token, SolarX Coin ($SXCH), powers the ecosystem, enabling mining device purchases, covering hosting fees, and serving as the native currency for XChain, SolarX’s dedicated blockchain.',
+      "The upcoming SolarX Blockchain revolutionizes proof-of-work mining with POGE (Proof of Green Energy), combining sustainability, flexibility, and profitability. Miners can access multi-coin Layer 1 tokens, liquidity pool tokens, and purchase devices using USDT (TRC20) or SXCH. The ecosystem includes the soon-to-be-released SolarX Launchpad, RWA site, and XChain, reshaping mining's future.",
     fullDescription:
-      'SolarX Blockchain represents the next evolution in decentralized proof-of-work mining, combining sustainability, flexibility, and profitability. By supporting renewable energy and enabling miners to access multiple coins built on Layer 1, SolarX offers a secure and scalable network that adapts to the dynamic needs of the mining community. Central to this ecosystem is SolarX Coin ($SXCH), an ERC-20 governance and utility token that serves as its native currency. SXCH is required for purchasing SolarX mining devices, covering hosting fees, and facilitating seamless interactions within the ecosystem. Additionally, SXCH will act as the native token on XChain, SolarX’s dedicated blockchain, further enhancing its functionality and integration. By aligning cutting-edge blockchain technology with renewable energy initiatives, SolarX Blockchain is reshaping the future of proof-of-work mining, offering unmatched opportunities for miners and developers alike.',
+      'The soon-to-be-released SolarX Blockchain represents the next evolution in decentralized proof-of-work mining, utilizing POGE (Proof of Green Energy) to combine sustainability, flexibility, and profitability. It supports renewable energy while enabling miners to access multiple coins built on the SolarX Layer 1 protocol, as well as tokens from liquidity pool partners both pre- and post-listing. Miners can purchase devices using USDT (TRC20) or SXCH for added convenience. Central to this ecosystem is SolarX Coin ($SXCH), an ERC-20 governance and utility token that serves as the native currency. SXCH is utilized not only for purchasing SolarX mining devices but also for a range of forthcoming features, including the SolarX Launchpad and RWA site, to name a few. Additionally, SXCH will function as the native token on XChain, SolarX’s dedicated blockchain, further enhancing its utility and integration. By aligning cutting-edge blockchain technology with renewable energy initiatives, SolarX Blockchain is reshaping the future of proof-of-work mining, offering unmatched opportunities for miners and developers alike.',
   },
   {
     index: 1108,
