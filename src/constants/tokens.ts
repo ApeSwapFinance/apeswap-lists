@@ -6147,6 +6147,21 @@ const tokens: Record<string, Token> = {
         'https://app.uniswap.org/add/v2/0x4200000000000000000000000000000000000006/0x59f680f431f5280e7662b96f2dfa195d1693852d',
     },
   },
+  rewardWeth_Ichi: {
+    symbol: 'REWARD-ETH',
+    address: {
+      [ChainId.BASE]: '0x49Ea04f85F29a7fBaA1dd45048Abb3713523aDa2',
+    },
+    decimals: { [ChainId.BASE]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.Algebra,
+    },
+    getLpUrl: {
+      [ChainId.BASE]: 'https://app.ichi.org/vault/token/0x1986cc18d8ec757447254310d2604f85741aa732/',
+    },
+  },
 }
 
 export default tokens
