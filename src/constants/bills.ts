@@ -1105,6 +1105,34 @@ const bills: BillsConfig[] = [
   // BNB chain
   //
   {
+    index: 1109,
+    chainId: ChainId.BSC,
+    cmcId: 31269,
+    contractAddress: {
+      [ChainId.BSC]: '0xda7711FC23d82c88F6d217D409bf5152b222Eef7',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.wbnb,
+    earnToken: tokens.sxch,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://solarx.ai/',
+    twitter: 'https://x.com/solarxcoin',
+    initTime: { [ChainId.BSC]: 1733939928 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Blockchains'],
+    shortDescription:
+      'SolarX Blockchain is transforming decentralized proof-of-work mining with a secure, scalable network supporting renewable energy and multi-coin Layer 1 access for greater flexibility and profitability. Its native ERC-20 token, SolarX Coin ($SXCH), powers the ecosystem, enabling mining device purchases, covering hosting fees, and serving as the native currency for XChain, SolarX’s dedicated blockchain.',
+    fullDescription:
+      'SolarX Blockchain represents the next evolution in decentralized proof-of-work mining, combining sustainability, flexibility, and profitability. By supporting renewable energy and enabling miners to access multiple coins built on Layer 1, SolarX offers a secure and scalable network that adapts to the dynamic needs of the mining community. Central to this ecosystem is SolarX Coin ($SXCH), an ERC-20 governance and utility token that serves as its native currency. SXCH is required for purchasing SolarX mining devices, covering hosting fees, and facilitating seamless interactions within the ecosystem. Additionally, SXCH will act as the native token on XChain, SolarX’s dedicated blockchain, further enhancing its functionality and integration. By aligning cutting-edge blockchain technology with renewable energy initiatives, SolarX Blockchain is reshaping the future of proof-of-work mining, offering unmatched opportunities for miners and developers alike.',
+  },
+  {
     index: 1108,
     chainId: ChainId.BSC,
     cmcId: 31269,
@@ -1127,7 +1155,8 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['Blockchains'],
-    shortDescription: '.',
+    shortDescription:
+      'SolarX Blockchain is transforming decentralized proof-of-work mining with a secure, scalable network supporting renewable energy and multi-coin Layer 1 access for greater flexibility and profitability. Its native ERC-20 token, SolarX Coin ($SXCH), powers the ecosystem, enabling mining device purchases, covering hosting fees, and serving as the native currency for XChain, SolarX’s dedicated blockchain.',
     fullDescription: '.',
   },
   {
