@@ -33,6 +33,19 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.UniswapV3,
     },
   },
+  reward: {
+    symbol: 'REWARD',
+    address: {
+      [ChainId.BASE]: '0x1986Cc18D8eC757447254310D2604f85741aA732',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV3,
+    },
+  },
   glq: {
     symbol: 'WGLQ',
     address: {
