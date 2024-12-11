@@ -252,7 +252,7 @@ export interface TieredSaleBondConfig {
   initPrice: Partial<Record<ChainId, number>>
   initialRelease: number
   saleSchedule?: {
-    [key: string]: number
+    [key: string]: { start: number; end: number }
   }
 }
 

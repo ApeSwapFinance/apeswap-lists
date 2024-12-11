@@ -796,10 +796,10 @@ const launchProjects: LaunchProjectConfig[] = [
         soldOut: false,
         billArt: { collection: BillArtCollection.ApeBond_Collection1 },
         initTime: {
-          [ChainId.BSC]: 1733924090,
+          [ChainId.BSC]: 1733925300,
         },
         finishTime: {
-          [ChainId.BSC]: 1734012000,
+          [ChainId.BSC]: 1734022800,
         },
         redeemTime: {
           [ChainId.BSC]: 1734012000,
@@ -812,11 +812,12 @@ const launchProjects: LaunchProjectConfig[] = [
         },
         initialRelease: 20,
         saleSchedule: {
-          [LaunchBondTiers.Legend]: 1733924090,
-          [LaunchBondTiers.Diamond]: 1733927690,
-          [LaunchBondTiers.Gold]: 1733931290,
-          [LaunchBondTiers.Silver]: 1733934890,
-          [LaunchBondTiers.Bronze]: 1733938490,
+          [LaunchBondTiers.Legend]: { start: 1733924090, end: 1733927690 },
+          [LaunchBondTiers.Diamond]: { start: 1733927690, end: 1733931290 },
+          [LaunchBondTiers.Gold]: { start: 1733931290, end: 1733934890 },
+          [LaunchBondTiers.Silver]: { start: 1733934890, end: 1733938490 },
+          [LaunchBondTiers.Bronze]: { start: 1733938490, end: 1733942120 },
+          ['noTier']: { start: 1733942120, end: 1734022800 },
         },
       },
     ],
