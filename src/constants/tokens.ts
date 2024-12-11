@@ -628,6 +628,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  titm: {
+    symbol: 'TITM',
+    address: {
+      [ChainId.BSC]: '0x754736e06ea5B01694144F2C83A04e64d48F68d2',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
   gnana: {
     symbol: 'GNANA',
     address: {
