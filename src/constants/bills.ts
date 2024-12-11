@@ -1,7 +1,7 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1107
+// BNB Largest ID: 1109
 // Polygon Largest ID: 165
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2011
@@ -180,6 +180,84 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
+  /*  {
+    index: 8022,
+    cmcId: 34365,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x94A283756B70c2A77bc58Ae0E2615Caf14310186',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.rewardWeth_Ichi,
+    earnToken: tokens.reward,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://www.rewardable.app/',
+    twitter: 'https://x.com/rewardable_app',
+    initTime: { [ChainId.BASE]: 1733943183 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['SocialFi', 'X-2-Earn'],
+    shortDescription: `Rewardable is an AI-driven task-to-earn platform connecting verified users with Web3 brands through rewarding tasks like beta testing, social sharing, and surveys. Powered by the $REWARD token, an ERC-20 OFT on the Base blockchain, it offers secure, bot-free engagement with deflationary tokenomics. Built on LayerZero for cross-chain functionality, Rewardable turns spare time into earning opportunities.`,
+    fullDescription: `Rewardable is an AI-driven task-to-earn platform designed to connect verified users with Web3 brands through rewarding, easy-to-complete tasks. Users can engage in beta testing, social media sharing, content creation, and surveys, earning rewards while driving genuine engagement for brands. Built on by LayerZero for seamless cross-chain functionality, Rewardable provides brands and users alike with a secure, bot-free ecosystem focused on transparency and authenticity. Join us on Rewardable to unlock a new era of digital engagement. At the core of its ecosystem is the $REWARD token, an ERC-20 Omnichain Fungible Token (OFT) launched on the Base blockchain. $REWARD drives transactions and user interactions, promoting engagement and collaboration while offering deflationary tokenomics and utility-focused value. By turning spare time into earning opportunities, Rewardable empowers users to earn extra cash through simple online tasks, all while fostering genuine connections between users and Web3 brands.`,
+  },
+  {
+    index: 8021,
+    cmcId: 34365,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0xBc48794a04777E7170bD5633E8b728f8a0945971',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.eth,
+    earnToken: tokens.reward,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://www.rewardable.app/',
+    twitter: 'https://x.com/rewardable_app',
+    initTime: { [ChainId.BASE]: 1733943183 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['SocialFi', 'X-2-Earn'],
+    shortDescription: `Rewardable is an AI-driven task-to-earn platform connecting verified users with Web3 brands through rewarding tasks like beta testing, social sharing, and surveys. Powered by the $REWARD token, an ERC-20 OFT on the Base blockchain, it offers secure, bot-free engagement with deflationary tokenomics. Built on LayerZero for cross-chain functionality, Rewardable turns spare time into earning opportunities.`,
+    fullDescription: `Rewardable is an AI-driven task-to-earn platform designed to connect verified users with Web3 brands through rewarding, easy-to-complete tasks. Users can engage in beta testing, social media sharing, content creation, and surveys, earning rewards while driving genuine engagement for brands. Built on by LayerZero for seamless cross-chain functionality, Rewardable provides brands and users alike with a secure, bot-free ecosystem focused on transparency and authenticity. Join us on Rewardable to unlock a new era of digital engagement. At the core of its ecosystem is the $REWARD token, an ERC-20 Omnichain Fungible Token (OFT) launched on the Base blockchain. $REWARD drives transactions and user interactions, promoting engagement and collaboration while offering deflationary tokenomics and utility-focused value. By turning spare time into earning opportunities, Rewardable empowers users to earn extra cash through simple online tasks, all while fostering genuine connections between users and Web3 brands.`,
+  },
+  {
+    index: 8020,
+    cmcId: 34365,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x0719CCaF2f07f59b23DB7d80E3d2791A0836bdfD',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.eth,
+    earnToken: tokens.reward,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://www.rewardable.app/',
+    twitter: 'https://x.com/rewardable_app',
+    initTime: { [ChainId.BASE]: 1733943183 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['SocialFi', 'X-2-Earn'],
+    shortDescription: `Rewardable is an AI-driven task-to-earn platform connecting verified users with Web3 brands through rewarding tasks like beta testing, social sharing, and surveys. Powered by the $REWARD token, an ERC-20 OFT on the Base blockchain, it offers secure, bot-free engagement with deflationary tokenomics. Built on LayerZero for cross-chain functionality, Rewardable turns spare time into earning opportunities.`,
+    fullDescription: `Rewardable is an AI-driven task-to-earn platform designed to connect verified users with Web3 brands through rewarding, easy-to-complete tasks. Users can engage in beta testing, social media sharing, content creation, and surveys, earning rewards while driving genuine engagement for brands. Built on by LayerZero for seamless cross-chain functionality, Rewardable provides brands and users alike with a secure, bot-free ecosystem focused on transparency and authenticity. Join us on Rewardable to unlock a new era of digital engagement. At the core of its ecosystem is the $REWARD token, an ERC-20 Omnichain Fungible Token (OFT) launched on the Base blockchain. $REWARD drives transactions and user interactions, promoting engagement and collaboration while offering deflationary tokenomics and utility-focused value. By turning spare time into earning opportunities, Rewardable empowers users to earn extra cash through simple online tasks, all while fostering genuine connections between users and Web3 brands.`,
+  }, */
   {
     index: 8019,
     chainId: ChainId.BASE,
@@ -1104,6 +1182,61 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1109,
+    chainId: ChainId.BSC,
+    cmcId: 31269,
+    contractAddress: {
+      [ChainId.BSC]: '0xda7711FC23d82c88F6d217D409bf5152b222Eef7',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.wbnb,
+    earnToken: tokens.sxch,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://solarx.ai/',
+    twitter: 'https://x.com/solarxcoin',
+    initTime: { [ChainId.BSC]: 1733939928 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Blockchains'],
+    shortDescription:
+      "The upcoming SolarX Blockchain revolutionizes proof-of-work mining with POGE (Proof of Green Energy), combining sustainability, flexibility, and profitability. Miners can access multi-coin Layer 1 tokens, liquidity pool tokens, and purchase devices using USDT (TRC20) or SXCH. The ecosystem includes the soon-to-be-released SolarX Launchpad, RWA site, and XChain, reshaping mining's future.",
+    fullDescription:
+      'The soon-to-be-released SolarX Blockchain represents the next evolution in decentralized proof-of-work mining, utilizing POGE (Proof of Green Energy) to combine sustainability, flexibility, and profitability. It supports renewable energy while enabling miners to access multiple coins built on the SolarX Layer 1 protocol, as well as tokens from liquidity pool partners both pre- and post-listing. Miners can purchase devices using USDT (TRC20) or SXCH for added convenience. Central to this ecosystem is SolarX Coin ($SXCH), an ERC-20 governance and utility token that serves as the native currency. SXCH is utilized not only for purchasing SolarX mining devices but also for a range of forthcoming features, including the SolarX Launchpad and RWA site, to name a few. Additionally, SXCH will function as the native token on XChain, SolarX’s dedicated blockchain, further enhancing its utility and integration. By aligning cutting-edge blockchain technology with renewable energy initiatives, SolarX Blockchain is reshaping the future of proof-of-work mining, offering unmatched opportunities for miners and developers alike.',
+  },
+  {
+    index: 1108,
+    chainId: ChainId.BSC,
+    cmcId: 31269,
+    contractAddress: {
+      [ChainId.BSC]: '0xD4BF7ad6B701eb22D4419bdf4C7c1147B4DE1E76',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.sxchWbnb_PCS,
+    earnToken: tokens.sxch,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://solarx.ai/',
+    twitter: 'https://x.com/solarxcoin',
+    initTime: { [ChainId.BSC]: 1733939928 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Blockchains'],
+    shortDescription:
+      'SolarX Blockchain is transforming decentralized proof-of-work mining with a secure, scalable network supporting renewable energy and multi-coin Layer 1 access for greater flexibility and profitability. Its native ERC-20 token, SolarX Coin ($SXCH), powers the ecosystem, enabling mining device purchases, covering hosting fees, and serving as the native currency for XChain, SolarX’s dedicated blockchain.',
+    fullDescription: '.',
+  },
   {
     index: 1107,
     cmcId: 29912,

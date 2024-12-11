@@ -33,6 +33,19 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.UniswapV3,
     },
   },
+  reward: {
+    symbol: 'REWARD',
+    address: {
+      [ChainId.BASE]: '0x1986Cc18D8eC757447254310D2604f85741aA732',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV3,
+    },
+  },
   glq: {
     symbol: 'WGLQ',
     address: {
@@ -3961,6 +3974,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  sxch: {
+    symbol: 'SXCH',
+    address: {
+      [ChainId.BSC]: '0xE58C3A44B74362048e202cb7C8036D4b0B28Af50',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
   elda: {
     symbol: 'ELDA',
     address: {
@@ -5466,6 +5490,21 @@ const tokens: Record<string, Token> = {
         'https://pancakeswap.finance/v2/add/0x55d398326f99059fF775485246999027B3197955/0x2D060Ef4d6BF7f9e5edDe373Ab735513c0e4F944',
     },
   },
+  sxchWbnb_PCS: {
+    symbol: 'SXCH-BNB',
+    address: {
+      [ChainId.BSC]: '0x8c2d7D32Ba80EFa7028c54E6c675Ae8B65Fca8b2',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl: {
+      [ChainId.BSC]: 'https://pancakeswap.finance/v2/add/BNB/0xE58C3A44B74362048e202cb7C8036D4b0B28Af50',
+    },
+  },
   stlosTlos: {
     symbol: 'STLOS-TLOS',
     address: {
@@ -6106,6 +6145,21 @@ const tokens: Record<string, Token> = {
     getLpUrl: {
       [ChainId.BASE]:
         'https://app.uniswap.org/add/v2/0x4200000000000000000000000000000000000006/0x59f680f431f5280e7662b96f2dfa195d1693852d',
+    },
+  },
+  rewardWeth_Ichi: {
+    symbol: 'REWARD-ETH',
+    address: {
+      [ChainId.BASE]: '0x49Ea04f85F29a7fBaA1dd45048Abb3713523aDa2',
+    },
+    decimals: { [ChainId.BASE]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.Algebra,
+    },
+    getLpUrl: {
+      [ChainId.BASE]: 'https://app.ichi.org/vault/token/0x1986cc18d8ec757447254310d2604f85741aa732/',
     },
   },
 }

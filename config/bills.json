@@ -2136,6 +2136,114 @@
     "shortDescription": "Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!"
   },
   {
+    "index": 1109,
+    "chainId": 56,
+    "cmcId": 31269,
+    "contractAddress": {
+      "56": "0xda7711FC23d82c88F6d217D409bf5152b222Eef7"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "SXCH",
+      "address": {
+        "56": "0xE58C3A44B74362048e202cb7C8036D4b0B28Af50"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://solarx.ai/",
+    "twitter": "https://x.com/solarxcoin",
+    "initTime": {
+      "56": 1733939928
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["Blockchains"],
+    "shortDescription": "The upcoming SolarX Blockchain revolutionizes proof-of-work mining with POGE (Proof of Green Energy), combining sustainability, flexibility, and profitability. Miners can access multi-coin Layer 1 tokens, liquidity pool tokens, and purchase devices using USDT (TRC20) or SXCH. The ecosystem includes the soon-to-be-released SolarX Launchpad, RWA site, and XChain, reshaping mining's future.",
+    "fullDescription": "The soon-to-be-released SolarX Blockchain represents the next evolution in decentralized proof-of-work mining, utilizing POGE (Proof of Green Energy) to combine sustainability, flexibility, and profitability. It supports renewable energy while enabling miners to access multiple coins built on the SolarX Layer 1 protocol, as well as tokens from liquidity pool partners both pre- and post-listing. Miners can purchase devices using USDT (TRC20) or SXCH for added convenience. Central to this ecosystem is SolarX Coin ($SXCH), an ERC-20 governance and utility token that serves as the native currency. SXCH is utilized not only for purchasing SolarX mining devices but also for a range of forthcoming features, including the SolarX Launchpad and RWA site, to name a few. Additionally, SXCH will function as the native token on XChain, SolarX’s dedicated blockchain, further enhancing its utility and integration. By aligning cutting-edge blockchain technology with renewable energy initiatives, SolarX Blockchain is reshaping the future of proof-of-work mining, offering unmatched opportunities for miners and developers alike."
+  },
+  {
+    "index": 1108,
+    "chainId": 56,
+    "cmcId": 31269,
+    "contractAddress": {
+      "56": "0xD4BF7ad6B701eb22D4419bdf4C7c1147B4DE1E76"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "SXCH-BNB",
+      "address": {
+        "56": "0x8c2d7D32Ba80EFa7028c54E6c675Ae8B65Fca8b2"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "getLpUrl": {
+        "56": "https://pancakeswap.finance/v2/add/BNB/0xE58C3A44B74362048e202cb7C8036D4b0B28Af50"
+      }
+    },
+    "earnToken": {
+      "symbol": "SXCH",
+      "address": {
+        "56": "0xE58C3A44B74362048e202cb7C8036D4b0B28Af50"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://solarx.ai/",
+    "twitter": "https://x.com/solarxcoin",
+    "initTime": {
+      "56": 1733939928
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["Blockchains"],
+    "shortDescription": "SolarX Blockchain is transforming decentralized proof-of-work mining with a secure, scalable network supporting renewable energy and multi-coin Layer 1 access for greater flexibility and profitability. Its native ERC-20 token, SolarX Coin ($SXCH), powers the ecosystem, enabling mining device purchases, covering hosting fees, and serving as the native currency for XChain, SolarX’s dedicated blockchain.",
+    "fullDescription": "."
+  },
+  {
     "index": 1107,
     "cmcId": 29912,
     "chainId": 56,
