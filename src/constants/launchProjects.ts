@@ -1,4 +1,4 @@
-import { BillArtCollection, BillVersion, ChainId, LaunchProjectConfig } from '../types'
+import { BillArtCollection, BillVersion, ChainId, LaunchBondTiers, LaunchProjectConfig } from '../types'
 import tokens from './tokens'
 
 const launchProjects: LaunchProjectConfig[] = [
@@ -6,6 +6,7 @@ const launchProjects: LaunchProjectConfig[] = [
     index: 0,
     projectId: 'sugar-kingdom',
     projectName: 'Sugar Kingdom Odyssey',
+    chainId: ChainId.BSC,
     saleStartTime: 'March 29th 17:00 UTC',
     totalAllocation: '791,649 SKO',
     salePriceString: '$0.06',
@@ -160,6 +161,7 @@ const launchProjects: LaunchProjectConfig[] = [
     index: 1,
     projectId: 'catamoto',
     projectName: 'Catamoto',
+    chainId: ChainId.BSC,
     saleStartTime: 'April 16th 17:00 UTC',
     totalAllocation: '200M CATA',
     salePriceString: '1 BNB = 1M CATA',
@@ -315,6 +317,7 @@ const launchProjects: LaunchProjectConfig[] = [
     index: 2,
     projectId: 'codyfight',
     projectName: 'Codyfight',
+    chainId: ChainId.BSC,
     saleStartTime: 'May 13th 15:00 UTC',
     totalAllocation: '1,875,000 CTOK',
     salePriceString: '$0.16',
@@ -515,6 +518,7 @@ const launchProjects: LaunchProjectConfig[] = [
     index: 3,
     projectId: 'carv',
     projectName: 'CARV',
+    chainId: ChainId.BSC,
     saleStartTime: 'May 21st 15:00 UTC',
     totalAllocation: '138 Nodes',
     salePriceString: '$1,086.96',
@@ -744,6 +748,7 @@ const launchProjects: LaunchProjectConfig[] = [
     index: 4,
     projectId: 'oxya-origins',
     projectName: 'Oxya Origins',
+    chainId: ChainId.BSC,
     saleStartTime: 'Dec 17th 17:00 UTC',
     totalAllocation: 'A lot of tokens',
     salePriceString: '$0.25',
@@ -791,21 +796,28 @@ const launchProjects: LaunchProjectConfig[] = [
         soldOut: false,
         billArt: { collection: BillArtCollection.ApeBond_Collection1 },
         initTime: {
-          [ChainId.BSC]: 1716303600,
+          [ChainId.BSC]: 1733924090,
         },
         finishTime: {
-          [ChainId.BSC]: 1716305400,
+          [ChainId.BSC]: 1733942090,
         },
         redeemTime: {
-          [ChainId.BSC]: 1716305400,
+          [ChainId.BSC]: 1733942090,
         },
         startVestingTimestamp: {
-          [ChainId.BSC]: 1716305400,
+          [ChainId.BSC]: 1736620490,
         },
         initPrice: {
-          [ChainId.BSC]: 1086.96,
+          [ChainId.BSC]: 0.25,
         },
-        initialRelease: 100,
+        initialRelease: 20,
+        saleSchedule: {
+          [LaunchBondTiers.Legend]: 1733924090,
+          [LaunchBondTiers.Diamond]: 1733927690,
+          [LaunchBondTiers.Gold]: 1733931290,
+          [LaunchBondTiers.Silver]: 1733934890,
+          [LaunchBondTiers.Bronze]: 1733938490,
+        },
       },
     ],
   },

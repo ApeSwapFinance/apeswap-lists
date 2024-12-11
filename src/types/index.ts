@@ -199,6 +199,7 @@ export interface LaunchProjectConfig {
   index: number
   projectId: string // this should be unique!
   projectName: string
+  chainId: ChainId // this is the chain where the money is raised/bonds are deployed, regardless of any airdrop
   bonds: TieredSaleBondConfig[]
   saleStartTime: string
   totalAllocation: string
@@ -250,6 +251,9 @@ export interface TieredSaleBondConfig {
   startVestingTimestamp: Partial<Record<ChainId, number>>
   initPrice: Partial<Record<ChainId, number>>
   initialRelease: number
+  saleSchedule?: {
+    [key: string]: number
+  }
 }
 
 export interface FlashBondConfig extends TieredSaleBondConfig {
