@@ -8794,7 +8794,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     },
     inactive: false,
     projectLink: 'https://enotoken.io/',
-    twitter: 'https://twitter.com/Enotoken',
+    twitter: 'https://x.com/ENOnetwork',
     audit: 'https://auditrate.tech/images/pdf/EnoToken_0x1C3d163219Bb74f430411b95D66b72056f366eC1.pdf',
     initTime: { [ChainId.ARBITRUM]: 1715789961 },
     initPrice: { [ChainId.ARBITRUM]: 0.13219279419877278 },
