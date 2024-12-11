@@ -1,7 +1,7 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1107
+// BNB Largest ID: 1109
 // Polygon Largest ID: 165
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2011
@@ -1104,6 +1104,32 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1108,
+    chainId: ChainId.BSC,
+    cmcId: 31269,
+    contractAddress: {
+      [ChainId.BSC]: '0xD4BF7ad6B701eb22D4419bdf4C7c1147B4DE1E76',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.sxchWbnb_PCS,
+    earnToken: tokens.sxch,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://solarx.ai/',
+    twitter: 'https://x.com/solarxcoin',
+    initTime: { [ChainId.BSC]: 1733939928 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Blockchains'],
+    shortDescription: '.',
+    fullDescription: '.',
+  },
   {
     index: 1107,
     cmcId: 29912,

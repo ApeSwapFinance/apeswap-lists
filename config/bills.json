@@ -2136,6 +2136,62 @@
     "shortDescription": "Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!"
   },
   {
+    "index": 1108,
+    "chainId": 56,
+    "cmcId": 31269,
+    "contractAddress": {
+      "56": "0xD4BF7ad6B701eb22D4419bdf4C7c1147B4DE1E76"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "SXCH-BNB",
+      "address": {
+        "56": "0x8c2d7D32Ba80EFa7028c54E6c675Ae8B65Fca8b2"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "getLpUrl": {
+        "56": "https://pancakeswap.finance/v2/add/BNB/0xE58C3A44B74362048e202cb7C8036D4b0B28Af50"
+      }
+    },
+    "earnToken": {
+      "symbol": "SXCH",
+      "address": {
+        "56": "0xE58C3A44B74362048e202cb7C8036D4b0B28Af50"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://solarx.ai/",
+    "twitter": "https://x.com/solarxcoin",
+    "initTime": {
+      "56": 1733939928
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["Blockchains"],
+    "shortDescription": ".",
+    "fullDescription": "."
+  },
+  {
     "index": 1107,
     "cmcId": 29912,
     "chainId": 56,
