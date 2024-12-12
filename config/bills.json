@@ -337,6 +337,7 @@
       "liquidityDex": {
         "8453": "UniswapV3"
       },
+      "ichiUnderlyingDex": "Uniswap V3",
       "getLpUrl": {
         "8453": "https://app.ichi.org/vault/token/0x1986cc18d8ec757447254310d2604f85741aa732/"
       }
@@ -393,6 +394,7 @@
       "liquidityDex": {
         "8453": "UniswapV3"
       },
+      "ichiUnderlyingDex": "Uniswap V3",
       "getLpUrl": {
         "8453": "https://app.ichi.org/vault/token/0x1986cc18d8ec757447254310d2604f85741aa732/"
       }
