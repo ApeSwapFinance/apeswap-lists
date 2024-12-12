@@ -14,6 +14,7 @@ const launchProjects: LaunchProjectConfig[] = [
     bonds: [
       {
         index: 0,
+        chainId: ChainId.BSC,
         contractAddress: {
           [ChainId.BSC]: '0x072Cd32fcE946493b21a297733F03Df1f36F65A6', // fcfs
         },
@@ -42,6 +43,7 @@ const launchProjects: LaunchProjectConfig[] = [
       },
       {
         index: 1,
+        chainId: ChainId.BSC,
         contractAddress: {
           [ChainId.BSC]: '0x87A2cf342A80C9900f5D798F91bc4cC6b0D13e3E', // silver
         },
@@ -70,6 +72,7 @@ const launchProjects: LaunchProjectConfig[] = [
       },
       {
         index: 2,
+        chainId: ChainId.BSC,
         contractAddress: {
           [ChainId.BSC]: '0x905635db4888A8258f0E9aFDf72d1D9ED3ddbD3c', // gold
         },
@@ -98,6 +101,7 @@ const launchProjects: LaunchProjectConfig[] = [
       },
       {
         index: 3,
+        chainId: ChainId.BSC,
         contractAddress: {
           [ChainId.BSC]: '0xDA51b551E4BE4eEbED44E70C22db29CE0d307981', //diamond
         },
@@ -201,6 +205,7 @@ const launchProjects: LaunchProjectConfig[] = [
     bonds: [
       {
         index: 4,
+        chainId: ChainId.BSC,
         contractAddress: {
           [ChainId.BSC]: '0x6347AE19F673141D9C322EeB6AB72c30f860d40A', // oversubscription silver
         },
@@ -229,6 +234,7 @@ const launchProjects: LaunchProjectConfig[] = [
       },
       {
         index: 5,
+        chainId: ChainId.BSC,
         contractAddress: {
           [ChainId.BSC]: '0x8acEE1D1d8646FC3F3039D6732D0ec4AAB28231F', // oversubscription gold
         },
@@ -257,6 +263,7 @@ const launchProjects: LaunchProjectConfig[] = [
       },
       {
         index: 6,
+        chainId: ChainId.BSC,
         contractAddress: {
           [ChainId.BSC]: '0x1346993A60D56E996D263086dAf8d4063752BC96', // oversubscription diamond
         },
@@ -285,6 +292,7 @@ const launchProjects: LaunchProjectConfig[] = [
       },
       {
         index: 7,
+        chainId: ChainId.BSC,
         contractAddress: {
           [ChainId.BSC]: '0xC6eac1f8bcF983AdcD1Dca1b8E5bbcAa305F2833', // fcfs
         },
@@ -359,6 +367,7 @@ const launchProjects: LaunchProjectConfig[] = [
     bonds: [
       {
         index: 8,
+        chainId: ChainId.BSC,
         contractAddress: {
           [ChainId.BSC]: '0xF89AB9C08a3ceE593eC0f4d2da24D528E43e1a6c', // silver prod
         },
@@ -390,6 +399,7 @@ const launchProjects: LaunchProjectConfig[] = [
       },
       {
         index: 9,
+        chainId: ChainId.BSC,
         contractAddress: {
           [ChainId.BSC]: '0x806dDA35B4aa00E1A664D20402940fe91fC73bDB', // gold prod
         },
@@ -421,6 +431,7 @@ const launchProjects: LaunchProjectConfig[] = [
       },
       {
         index: 10,
+        chainId: ChainId.BSC,
         contractAddress: {
           [ChainId.BSC]: '0xad947DbB997c531aB052A096c3366d5B387870de', // diamond prod
         },
@@ -452,6 +463,7 @@ const launchProjects: LaunchProjectConfig[] = [
       },
       {
         index: 11,
+        chainId: ChainId.BSC,
         contractAddress: {
           [ChainId.BSC]: '0x0468a087556E60724254ED8dEaA5832368DD05E5', // legend prod
         },
@@ -483,6 +495,7 @@ const launchProjects: LaunchProjectConfig[] = [
       },
       {
         index: 12,
+        chainId: ChainId.BSC,
         contractAddress: {
           [ChainId.BSC]: '0x0ac54e4b558dE824b48E1D36b33e995708Cfff25', // FCFS prod
         },
@@ -558,6 +571,7 @@ const launchProjects: LaunchProjectConfig[] = [
     bonds: [
       {
         index: 13,
+        chainId: ChainId.BSC,
         contractAddress: {
           [ChainId.BSC]: '0x83B66E76c11602360Fa0b8a6Bb382F408037328D', // FCFS legend prod
         },
@@ -589,6 +603,7 @@ const launchProjects: LaunchProjectConfig[] = [
       },
       {
         index: 14,
+        chainId: ChainId.BSC,
         contractAddress: {
           [ChainId.BSC]: '0x252F73dB386C6FdC31D3a44987Af593bDDc41661', // FCFS diamond prod
         },
@@ -620,6 +635,7 @@ const launchProjects: LaunchProjectConfig[] = [
       },
       {
         index: 15,
+        chainId: ChainId.BSC,
         contractAddress: {
           [ChainId.BSC]: '0x99De402BFc3d6A055Cf56a97c35c4594e8BfF853', // FCFS gold prod
         },
@@ -651,6 +667,7 @@ const launchProjects: LaunchProjectConfig[] = [
       },
       {
         index: 16,
+        chainId: ChainId.BSC,
         contractAddress: {
           [ChainId.BSC]: '0x5cfAdebFB6Ab5fAcd02E0Af31271194D1FDf06cb', // FCFS silver prod
         },
@@ -682,6 +699,7 @@ const launchProjects: LaunchProjectConfig[] = [
       },
       {
         index: 17,
+        chainId: ChainId.BSC,
         contractAddress: {
           [ChainId.BSC]: '0x50945D36A5375DfE96f415D16E08Ac34f84276F4', // FCFS bronze prod
         },
@@ -713,6 +731,7 @@ const launchProjects: LaunchProjectConfig[] = [
       },
       {
         index: 18,
+        chainId: ChainId.BSC,
         contractAddress: {
           [ChainId.BSC]: '0x84dbf0577A945a7eE2DF85Fd9BF8024536FCb737', // FCFS non-tier prod
         },
@@ -783,6 +802,7 @@ const launchProjects: LaunchProjectConfig[] = [
     bonds: [
       {
         index: 14,
+        chainId: ChainId.BSC,
         contractAddress: {
           [ChainId.BSC]: '0x1869F56A7281eEE139F45A28D30EFC8165C7395E', // FCFS legend prod
         },

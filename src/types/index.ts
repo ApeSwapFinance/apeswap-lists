@@ -235,6 +235,7 @@ export interface LaunchProjectConfig {
 
 export interface TieredSaleBondConfig {
   index: number
+  chainId: ChainId
   contractAddress: Partial<Record<ChainId, string>>
   billVersion: BillVersion
   billType: 'fcfs' | 'oversubscription'
