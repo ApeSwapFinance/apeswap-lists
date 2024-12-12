@@ -1772,7 +1772,8 @@
             "end": 1734022800
           }
         },
-        "tokensDistributedAtRedeem": false
+        "tokensDistributedAtRedeem": false,
+        "distributionTimestamp": 1734030000
       }
     ]
   }

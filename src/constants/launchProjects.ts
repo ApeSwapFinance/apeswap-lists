@@ -840,6 +840,7 @@ const launchProjects: LaunchProjectConfig[] = [
           ['noTier']: { start: 1733942120, end: 1734022800 },
         },
         tokensDistributedAtRedeem: false,
+        distributionTimestamp: 1734030000,
       },
     ],
   },
