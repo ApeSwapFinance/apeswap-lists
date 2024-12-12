@@ -180,7 +180,33 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
-  /*  {
+  {
+    index: 8023,
+    cmcId: 34365,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x6639D4acAe77967c253C75cBfEd7C612682E2704',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.rewardWeth_Ichi,
+    earnToken: tokens.reward,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://www.rewardable.app/',
+    twitter: 'https://x.com/rewardable_app',
+    initTime: { [ChainId.BASE]: 1733943183 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['SocialFi', 'X-2-Earn'],
+    shortDescription: `Rewardable is an AI-driven task-to-earn platform connecting verified users with Web3 brands through rewarding tasks like beta testing, social sharing, and surveys. Powered by the $REWARD token, an ERC-20 OFT on the Base blockchain, it offers secure, bot-free engagement with deflationary tokenomics. Built on LayerZero for cross-chain functionality, Rewardable turns spare time into earning opportunities.`,
+    fullDescription: `Rewardable is an AI-driven task-to-earn platform designed to connect verified users with Web3 brands through rewarding, easy-to-complete tasks. Users can engage in beta testing, social media sharing, content creation, and surveys, earning rewards while driving genuine engagement for brands. Built on by LayerZero for seamless cross-chain functionality, Rewardable provides brands and users alike with a secure, bot-free ecosystem focused on transparency and authenticity. Join us on Rewardable to unlock a new era of digital engagement. At the core of its ecosystem is the $REWARD token, an ERC-20 Omnichain Fungible Token (OFT) launched on the Base blockchain. $REWARD drives transactions and user interactions, promoting engagement and collaboration while offering deflationary tokenomics and utility-focused value. By turning spare time into earning opportunities, Rewardable empowers users to earn extra cash through simple online tasks, all while fostering genuine connections between users and Web3 brands.`,
+  },
+  {
     index: 8022,
     cmcId: 34365,
     chainId: ChainId.BASE,
@@ -257,7 +283,7 @@ const bills: BillsConfig[] = [
     tags: ['SocialFi', 'X-2-Earn'],
     shortDescription: `Rewardable is an AI-driven task-to-earn platform connecting verified users with Web3 brands through rewarding tasks like beta testing, social sharing, and surveys. Powered by the $REWARD token, an ERC-20 OFT on the Base blockchain, it offers secure, bot-free engagement with deflationary tokenomics. Built on LayerZero for cross-chain functionality, Rewardable turns spare time into earning opportunities.`,
     fullDescription: `Rewardable is an AI-driven task-to-earn platform designed to connect verified users with Web3 brands through rewarding, easy-to-complete tasks. Users can engage in beta testing, social media sharing, content creation, and surveys, earning rewards while driving genuine engagement for brands. Built on by LayerZero for seamless cross-chain functionality, Rewardable provides brands and users alike with a secure, bot-free ecosystem focused on transparency and authenticity. Join us on Rewardable to unlock a new era of digital engagement. At the core of its ecosystem is the $REWARD token, an ERC-20 Omnichain Fungible Token (OFT) launched on the Base blockchain. $REWARD drives transactions and user interactions, promoting engagement and collaboration while offering deflationary tokenomics and utility-focused value. By turning spare time into earning opportunities, Rewardable empowers users to earn extra cash through simple online tasks, all while fostering genuine connections between users and Web3 brands.`,
-  }, */
+  },
   {
     index: 8019,
     chainId: ChainId.BASE,
@@ -1367,7 +1393,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.BSC]: 1730188465 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1492,7 +1518,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://x.com/PlayEldarune',
     audit: 'https://hacken.io/audits/eldarune/',
     initTime: { [ChainId.BSC]: 1728392841 },
-    soldOut: false,
+    soldOut: true,
     billArt: { collection: BillArtCollection.ApeBond_Collection1 },
     shortDescription:
       "Eldarune is a game studio creating interoperable, medieval-themed blockchain games where NFTs can be used across multiple titles. The ELDA token serves as the studio's native currency and unlocks diverse gaming experiences. Inspired by classics like Warcraft and Dota, Eldarune is transforming the gaming landscape by offering seamless, interconnected gameplay across its ecosystem.",
