@@ -254,6 +254,7 @@ export interface TieredSaleBondConfig {
   saleSchedule?: {
     [key: string]: { start: number; end: number }
   }
+  tokensDistributedAtRedeem?: boolean
 }
 
 export interface FlashBondConfig extends TieredSaleBondConfig {

@@ -1751,7 +1751,8 @@
             "start": 1733942120,
             "end": 1734022800
           }
-        }
+        },
+        "tokensDistributedAtRedeem": false
       }
     ]
   }

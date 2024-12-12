@@ -819,6 +819,7 @@ const launchProjects: LaunchProjectConfig[] = [
           [LaunchBondTiers.Bronze]: { start: 1733938490, end: 1733942120 },
           ['noTier']: { start: 1733942120, end: 1734022800 },
         },
+        tokensDistributedAtRedeem: false,
       },
     ],
   },
