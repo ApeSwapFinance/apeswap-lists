@@ -248,7 +248,7 @@ export interface TieredSaleBondConfig {
   }
   initTime: Partial<Record<ChainId, number>> // timestamp the sale starts
   finishTime: Partial<Record<ChainId, number>> // timestamp the sale finishes (i.e. IT IS NOT START VESTING TIMESTAMP)
-  redeemTime?: Partial<Record<ChainId, number>> // timestamp the sale is going to be manually finalized
+  redeemTime?: Partial<Record<ChainId, number>> // timestamp the sale is going to be manually finalized and user will be able to redeem real or mock tokens
   startVestingTimestamp: Partial<Record<ChainId, number>>
   initPrice: Partial<Record<ChainId, number>>
   initialRelease: number
