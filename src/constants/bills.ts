@@ -7,7 +7,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingT
 // Arbitrum Largest ID: 2011
 // ETH Largest ID: 3032
 // Linea Largest ID: 6011
-// Base Largest ID: 8019
+// Base Largest ID: 8024
 // Lightlink Largest ID: 7000
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
@@ -180,6 +180,32 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
+  {
+    index: 8024,
+    cmcId: 32229,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x37f368a590B817bb68462457FbA268447a470f12',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.eth,
+    earnToken: tokens.record,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://web3music.org/',
+    twitter: 'https://x.com/MusicProtocolX',
+    initTime: { [ChainId.BASE]: 1722253943 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['RWA'],
+    shortDescription: `Music Protocol is revolutionizing music IP management in the digital space. By leveraging blockchain, it redefines how music intellectual property is licensed and managed. The platform’s utility token, $RECORD, provides governance rights, access to exclusive content, and participation in tokenized music royalties, allowing holders to benefit from future earnings while engaging directly with artists.`,
+    fullDescription: `Music Protocol is leading a new wave of innovation in the music industry. It is redefining the management and licensing of music intellectual property across the digital landscape. Created from an extensive three-year collaboration intersecting the legal, music business, and technology sectors, it is a transformational infrastructure intended to facilitate digital evolution in the music industry. At its core, Music Protocol is a blockchain-based solution for intricate IP management, with a modular architecture that empowers IP owners to manage rights in both digital and analogue formats. This system seamlessly integrates these formats, adapting to the industry's evolving needs. The platform’s utility token, $RECORD, provides governance rights, access to exclusive content, and participation in tokenized music royalties, allowing holders to benefit from future earnings while engaging directly with artists.`,
+  },
   {
     index: 8023,
     cmcId: 34365,
@@ -1209,6 +1235,33 @@ const bills: BillsConfig[] = [
   // BNB chain
   //
   {
+    index: 1110,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x97b854e6044B43A5213501577cAAC81aA3E90264',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.quoUsdt_PCS,
+    earnToken: tokens.quo,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://quoll.finance/',
+    twitter: 'https://x.com/QuollFinance',
+    initTime: { [ChainId.BSC]: 1734020869 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DeFi'],
+    shortDescription:
+      'Quoll Finance is a next-gen yield booster and on-chain incubator optimizing earnings across DeFi protocols. Using vlQUO, users can earn bribes, vote across protocols, and maximize rewards. Staking options like qWOM and qTHENA offer dynamic rewards, while a buy-back mechanism ensures token stability. With $QUO as its native token, Quoll enables governance, rewards, and fee sharing, enhancing long-term user engagement.',
+    fullDescription:
+      'Quoll Finance is a cutting-edge yield booster and on-chain incubator designed to enhance earnings across multiple DeFi protocols. Building on the veToken/boosted yield model pioneered by Wombat Exchange, Quoll has evolved into a comprehensive yield aggregator, optimizing rewards for liquidity providers and token holders. The platform introduces vlQUO, a token enabling users to earn diversified bribes and vote across protocols, fostering participatory governance and maximizing earning potential. With multi-tiered staking options like qWOM, qTHENA, vlQUO, and other qTOKENS, Quoll incentivizes long-term engagement through governance boosts, exclusive NFT bonuses, and robust rewards. A buy-back mechanism ensures token stability and peg maintenance, enhancing the ecosystem’s reliability. Quoll Finance’s native token, $QUO, underpins governance, reward distribution, and fee sharing, offering users a dynamic and rewarding DeFi experience.',
+  },
+  {
     index: 1109,
     chainId: ChainId.BSC,
     cmcId: 31269,
@@ -1261,7 +1314,8 @@ const bills: BillsConfig[] = [
     tags: ['Blockchains'],
     shortDescription:
       'SolarX Blockchain is transforming decentralized proof-of-work mining with a secure, scalable network supporting renewable energy and multi-coin Layer 1 access for greater flexibility and profitability. Its native ERC-20 token, SolarX Coin ($SXCH), powers the ecosystem, enabling mining device purchases, covering hosting fees, and serving as the native currency for XChain, SolarX’s dedicated blockchain.',
-    fullDescription: '.',
+    fullDescription:
+      'The soon-to-be-released SolarX Blockchain represents the next evolution in decentralized proof-of-work mining, utilizing POGE (Proof of Green Energy) to combine sustainability, flexibility, and profitability. It supports renewable energy while enabling miners to access multiple coins built on the SolarX Layer 1 protocol, as well as tokens from liquidity pool partners both pre- and post-listing. Miners can purchase devices using USDT (TRC20) or SXCH for added convenience. Central to this ecosystem is SolarX Coin ($SXCH), an ERC-20 governance and utility token that serves as the native currency. SXCH is utilized not only for purchasing SolarX mining devices but also for a range of forthcoming features, including the SolarX Launchpad and RWA site, to name a few. Additionally, SXCH will function as the native token on XChain, SolarX’s dedicated blockchain, further enhancing its utility and integration. By aligning cutting-edge blockchain technology with renewable energy initiatives, SolarX Blockchain is reshaping the future of proof-of-work mining, offering unmatched opportunities for miners and developers alike.',
   },
   {
     index: 1107,
