@@ -3673,6 +3673,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  quo: {
+    symbol: 'QUO',
+    address: {
+      [ChainId.BSC]: '0x08b450e4a48C04CDF6DB2bD4cf24057f7B9563fF',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
   hntr: {
     symbol: 'HNTR',
     address: {
@@ -5488,6 +5499,22 @@ const tokens: Record<string, Token> = {
     getLpUrl: {
       [ChainId.BSC]:
         'https://pancakeswap.finance/v2/add/0x55d398326f99059fF775485246999027B3197955/0x2D060Ef4d6BF7f9e5edDe373Ab735513c0e4F944',
+    },
+  },
+  quoUsdt_PCS: {
+    symbol: 'QUO-USDT',
+    address: {
+      [ChainId.BSC]: '0xa387A64D4E1711442FADeF1dd4C697d901DCCf05',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl: {
+      [ChainId.BSC]:
+        'https://pancakeswap.finance/v2/add/0x55d398326f99059fF775485246999027B3197955/0x08b450e4a48C04CDF6DB2bD4cf24057f7B9563fF',
     },
   },
   sxchWbnb_PCS: {
