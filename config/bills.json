@@ -316,6 +316,222 @@
     "fullDescription": "FOMOFox is the first market-driven storytelling meme coin on IOTA EVM. Follow the thrilling journey of FOMOFox on TwitterX and help him conquer his FOMO by influencing the $FOMO Token’s market performance. Loyal holders will find countless opportunities to grow their $FOMO bags through raffles, solving riddles, or simply holding and supporting the fox. Along the way, FOMOFox faces diverse challenges and meets intriguing characters. Your influence on the market helps him make the right choices. This project offers pure entertainment and rewards those who stick with it! Join the adventure now and visit their website for more details!"
   },
   {
+    "index": 8023,
+    "cmcId": 34365,
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0x6639D4acAe77967c253C75cBfEd7C612682E2704"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "REWARD-ETH",
+      "address": {
+        "8453": "0x49Ea04f85F29a7fBaA1dd45048Abb3713523aDa2"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "active": true,
+      "lpToken": true,
+      "liquidityDex": {
+        "8453": "UniswapV3"
+      },
+      "getLpUrl": {
+        "8453": "https://app.ichi.org/vault/token/0x1986cc18d8ec757447254310d2604f85741aa732/"
+      }
+    },
+    "earnToken": {
+      "symbol": "REWARD",
+      "address": {
+        "8453": "0x1986Cc18D8eC757447254310D2604f85741aA732"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "8453": "UniswapV3"
+      }
+    },
+    "billNnftAddress": {
+      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "inactive": false,
+    "projectLink": "https://www.rewardable.app/",
+    "twitter": "https://x.com/rewardable_app",
+    "initTime": {
+      "8453": 1733943183
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["SocialFi", "X-2-Earn"],
+    "shortDescription": "Rewardable is an AI-driven task-to-earn platform connecting verified users with Web3 brands through rewarding tasks like beta testing, social sharing, and surveys. Powered by the $REWARD token, an ERC-20 OFT on the Base blockchain, it offers secure, bot-free engagement with deflationary tokenomics. Built on LayerZero for cross-chain functionality, Rewardable turns spare time into earning opportunities.",
+    "fullDescription": "Rewardable is an AI-driven task-to-earn platform designed to connect verified users with Web3 brands through rewarding, easy-to-complete tasks. Users can engage in beta testing, social media sharing, content creation, and surveys, earning rewards while driving genuine engagement for brands. Built on by LayerZero for seamless cross-chain functionality, Rewardable provides brands and users alike with a secure, bot-free ecosystem focused on transparency and authenticity. Join us on Rewardable to unlock a new era of digital engagement. At the core of its ecosystem is the $REWARD token, an ERC-20 Omnichain Fungible Token (OFT) launched on the Base blockchain. $REWARD drives transactions and user interactions, promoting engagement and collaboration while offering deflationary tokenomics and utility-focused value. By turning spare time into earning opportunities, Rewardable empowers users to earn extra cash through simple online tasks, all while fostering genuine connections between users and Web3 brands."
+  },
+  {
+    "index": 8022,
+    "cmcId": 34365,
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0x94A283756B70c2A77bc58Ae0E2615Caf14310186"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "REWARD-ETH",
+      "address": {
+        "8453": "0x49Ea04f85F29a7fBaA1dd45048Abb3713523aDa2"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "active": true,
+      "lpToken": true,
+      "liquidityDex": {
+        "8453": "UniswapV3"
+      },
+      "getLpUrl": {
+        "8453": "https://app.ichi.org/vault/token/0x1986cc18d8ec757447254310d2604f85741aa732/"
+      }
+    },
+    "earnToken": {
+      "symbol": "REWARD",
+      "address": {
+        "8453": "0x1986Cc18D8eC757447254310D2604f85741aA732"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "8453": "UniswapV3"
+      }
+    },
+    "billNnftAddress": {
+      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "inactive": false,
+    "projectLink": "https://www.rewardable.app/",
+    "twitter": "https://x.com/rewardable_app",
+    "initTime": {
+      "8453": 1733943183
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["SocialFi", "X-2-Earn"],
+    "shortDescription": "Rewardable is an AI-driven task-to-earn platform connecting verified users with Web3 brands through rewarding tasks like beta testing, social sharing, and surveys. Powered by the $REWARD token, an ERC-20 OFT on the Base blockchain, it offers secure, bot-free engagement with deflationary tokenomics. Built on LayerZero for cross-chain functionality, Rewardable turns spare time into earning opportunities.",
+    "fullDescription": "Rewardable is an AI-driven task-to-earn platform designed to connect verified users with Web3 brands through rewarding, easy-to-complete tasks. Users can engage in beta testing, social media sharing, content creation, and surveys, earning rewards while driving genuine engagement for brands. Built on by LayerZero for seamless cross-chain functionality, Rewardable provides brands and users alike with a secure, bot-free ecosystem focused on transparency and authenticity. Join us on Rewardable to unlock a new era of digital engagement. At the core of its ecosystem is the $REWARD token, an ERC-20 Omnichain Fungible Token (OFT) launched on the Base blockchain. $REWARD drives transactions and user interactions, promoting engagement and collaboration while offering deflationary tokenomics and utility-focused value. By turning spare time into earning opportunities, Rewardable empowers users to earn extra cash through simple online tasks, all while fostering genuine connections between users and Web3 brands."
+  },
+  {
+    "index": 8021,
+    "cmcId": 34365,
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0xBc48794a04777E7170bD5633E8b728f8a0945971"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "ETH",
+      "address": {
+        "8453": "0x4200000000000000000000000000000000000006"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "liquidityDex": {
+        "8453": "Aerodrome"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "REWARD",
+      "address": {
+        "8453": "0x1986Cc18D8eC757447254310D2604f85741aA732"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "8453": "UniswapV3"
+      }
+    },
+    "billNnftAddress": {
+      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "inactive": false,
+    "projectLink": "https://www.rewardable.app/",
+    "twitter": "https://x.com/rewardable_app",
+    "initTime": {
+      "8453": 1733943183
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["SocialFi", "X-2-Earn"],
+    "shortDescription": "Rewardable is an AI-driven task-to-earn platform connecting verified users with Web3 brands through rewarding tasks like beta testing, social sharing, and surveys. Powered by the $REWARD token, an ERC-20 OFT on the Base blockchain, it offers secure, bot-free engagement with deflationary tokenomics. Built on LayerZero for cross-chain functionality, Rewardable turns spare time into earning opportunities.",
+    "fullDescription": "Rewardable is an AI-driven task-to-earn platform designed to connect verified users with Web3 brands through rewarding, easy-to-complete tasks. Users can engage in beta testing, social media sharing, content creation, and surveys, earning rewards while driving genuine engagement for brands. Built on by LayerZero for seamless cross-chain functionality, Rewardable provides brands and users alike with a secure, bot-free ecosystem focused on transparency and authenticity. Join us on Rewardable to unlock a new era of digital engagement. At the core of its ecosystem is the $REWARD token, an ERC-20 Omnichain Fungible Token (OFT) launched on the Base blockchain. $REWARD drives transactions and user interactions, promoting engagement and collaboration while offering deflationary tokenomics and utility-focused value. By turning spare time into earning opportunities, Rewardable empowers users to earn extra cash through simple online tasks, all while fostering genuine connections between users and Web3 brands."
+  },
+  {
+    "index": 8020,
+    "cmcId": 34365,
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0x0719CCaF2f07f59b23DB7d80E3d2791A0836bdfD"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "ETH",
+      "address": {
+        "8453": "0x4200000000000000000000000000000000000006"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "liquidityDex": {
+        "8453": "Aerodrome"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "REWARD",
+      "address": {
+        "8453": "0x1986Cc18D8eC757447254310D2604f85741aA732"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "8453": "UniswapV3"
+      }
+    },
+    "billNnftAddress": {
+      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "inactive": false,
+    "projectLink": "https://www.rewardable.app/",
+    "twitter": "https://x.com/rewardable_app",
+    "initTime": {
+      "8453": 1733943183
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["SocialFi", "X-2-Earn"],
+    "shortDescription": "Rewardable is an AI-driven task-to-earn platform connecting verified users with Web3 brands through rewarding tasks like beta testing, social sharing, and surveys. Powered by the $REWARD token, an ERC-20 OFT on the Base blockchain, it offers secure, bot-free engagement with deflationary tokenomics. Built on LayerZero for cross-chain functionality, Rewardable turns spare time into earning opportunities.",
+    "fullDescription": "Rewardable is an AI-driven task-to-earn platform designed to connect verified users with Web3 brands through rewarding, easy-to-complete tasks. Users can engage in beta testing, social media sharing, content creation, and surveys, earning rewards while driving genuine engagement for brands. Built on by LayerZero for seamless cross-chain functionality, Rewardable provides brands and users alike with a secure, bot-free ecosystem focused on transparency and authenticity. Join us on Rewardable to unlock a new era of digital engagement. At the core of its ecosystem is the $REWARD token, an ERC-20 Omnichain Fungible Token (OFT) launched on the Base blockchain. $REWARD drives transactions and user interactions, promoting engagement and collaboration while offering deflationary tokenomics and utility-focused value. By turning spare time into earning opportunities, Rewardable empowers users to earn extra cash through simple online tasks, all while fostering genuine connections between users and Web3 brands."
+  },
+  {
     "index": 8019,
     "chainId": 8453,
     "contractAddress": {
