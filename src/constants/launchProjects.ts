@@ -765,17 +765,36 @@ const launchProjects: LaunchProjectConfig[] = [
   },
   {
     index: 4,
-    projectId: 'oxya-origins',
-    projectName: 'Oxya Origins',
-    chainId: ChainId.MATIC,
+    projectId: 'oxya-origin',
+    projectName: 'Oxya Origin',
+    chainId: ChainId.MAINNET,
     saleStartTime: 'Dec 17th 17:00 UTC',
-    totalAllocation: 'A lot of tokens',
+    totalAllocation: '4,000,000 OXYZ',
     salePriceString: '$0.025',
     vestingTimeString: '20% TGE, 1 Month cliff, 4 Months linear vesting',
     projectInfo: {
-      shortDescription: 'This is a really good project ser',
-      fullDescription:
-        'This is a really good project ser, but let me say that twice because this should be the long description... This is a really good project ser',
+      shortDescription:
+        'Oxya Origin is building a powerful gaming ecosystem with a focus on engaging gameplay, immersive graphics and a sustainable, player-owned economy with the ambition to take Web3 gaming to the mainstream.',
+      fullDescription: `We're thrilled to announce that our Launchpad is back with an incredible new partner, OxyaOrigin, launching their $OXYA token on the Ethereum Chain!
+<br/>
+<br/>
+Oxya Origin is the ecosystem that redefines traditional & Web3 gaming, with immersive gameplay and player-driven economy. They’re building a powerful gaming ecosystem with astounding gameplay, immersive graphics, and a sustainable economy, with the ambition to take Web3 gaming to the mainstream.
+<br/>
+<br/>
+📅 Launch Date: December 17th (schedule below).
+📅 TGE Date: December 19th.
+💵 IDO & TGE Price: $0.025.
+💵 Purchases can be made with $USDC.
+📜 Vesting Terms: 20% released at TGE, 4 months linear vesting (1-month cliff).
+<br/>
+<br/>
+🕔 Sale Schedule:
+Dec 17th 17:00 - 21:00 UTC: Legend Tier
+Dec 17th 21:00 - 01:00 UTC: Diamond (and above)
+Dec 18th 01:00 - 05:00 UTC: Gold (and above)
+Dec 18th 05:00 - 09:00 UTC: Silver (and above)
+Dec 18th 09:00 - 13:00 UTC: Bronze (and above)
+Dec 18th 13:00 - 17:00 UTC: FCFS, no tier required!`,
       tags: ['We need a tag'],
       socials: {
         twitter: 'https://twitter.com/Carv_official',
@@ -802,42 +821,42 @@ const launchProjects: LaunchProjectConfig[] = [
     bonds: [
       {
         index: 14,
-        chainId: ChainId.MATIC,
+        chainId: ChainId.MAINNET,
         contractAddress: {
-          [ChainId.MATIC]: '0x9Fca33ef289D599C0dEb4014de707f5FE52079FA',
+          [ChainId.MAINNET]: '0x9Fca33ef289D599C0dEb4014de707f5FE52079FA',
         },
         billVersion: BillVersion.TieredSale,
         billType: 'fcfs',
         token: tokens.usdc,
         earnToken: tokens.abond,
         billNnftAddress: {
-          [ChainId.MATIC]: '0x9989bF3E7FBf1fbf6e24D55A950769A37A8D7837',
+          [ChainId.MAINNET]: '0x9989bF3E7FBf1fbf6e24D55A950769A37A8D7837',
         },
         soldOut: false,
         billArt: { collection: BillArtCollection.ApeBond_Collection1 },
         initTime: {
-          [ChainId.MATIC]: 1734094900,
+          [ChainId.MAINNET]: 1734454800,
         },
         finishTime: {
-          [ChainId.MATIC]: 1734102000,
+          [ChainId.MAINNET]: 1734541200,
         },
         redeemTime: {
-          [ChainId.MATIC]: 1734102000,
+          [ChainId.MAINNET]: 1734541200,
         },
         startVestingTimestamp: {
-          [ChainId.MATIC]: 1734102000,
+          [ChainId.MAINNET]: 1705597200,
         },
         initPrice: {
-          [ChainId.MATIC]: 0.01,
+          [ChainId.MAINNET]: 0.01,
         },
         initialRelease: 20,
         saleSchedule: {
-          [LaunchBondTiers.Legend]: { start: 1734102000, end: 1734102600 },
-          [LaunchBondTiers.Diamond]: { start: 1734102600, end: 1734103200 },
-          [LaunchBondTiers.Gold]: { start: 1734103200, end: 1734103800 },
-          [LaunchBondTiers.Silver]: { start: 1734103800, end: 1734104400 },
-          [LaunchBondTiers.Bronze]: { start: 1734104400, end: 1734105000 },
-          ['noTier']: { start: 1734105000, end: 1734105600 },
+          [LaunchBondTiers.Legend]: { start: 1734454800, end: 1734469200 },
+          [LaunchBondTiers.Diamond]: { start: 1734469200, end: 1734483600 },
+          [LaunchBondTiers.Gold]: { start: 1734483600, end: 1734498000 },
+          [LaunchBondTiers.Silver]: { start: 1734498000, end: 1734512400 },
+          [LaunchBondTiers.Bronze]: { start: 1734512400, end: 1734526800 },
+          ['noTier']: { start: 1734526800, end: 1734541200 },
         },
         tokensDistributedAtRedeem: true,
         // distributionTimestamp: 1734203341,

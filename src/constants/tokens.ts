@@ -20,6 +20,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  oxyz: {
+    symbol: 'OXYZ',
+    address: {
+      [ChainId.MAINNET]: '0xd0623da373f754c4b6762209ea77de59b21dd667',
+    },
+    decimals: {
+      [ChainId.MAINNET]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
+    },
+  },
   bpad: {
     symbol: 'BPAD',
     address: {
