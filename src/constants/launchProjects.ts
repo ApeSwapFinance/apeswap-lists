@@ -767,7 +767,7 @@ const launchProjects: LaunchProjectConfig[] = [
     index: 4,
     projectId: 'oxya-origins',
     projectName: 'Oxya Origins',
-    chainId: ChainId.BSC,
+    chainId: ChainId.MATIC,
     saleStartTime: 'Dec 17th 17:00 UTC',
     totalAllocation: 'A lot of tokens',
     salePriceString: '$0.25',
