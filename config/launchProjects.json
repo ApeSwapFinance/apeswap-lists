@@ -1669,7 +1669,7 @@
         "index": 14,
         "chainId": 1,
         "contractAddress": {
-          "1": "0x9Fca33ef289D599C0dEb4014de707f5FE52079FA"
+          "1": ""
         },
         "billVersion": "TieredSale",
         "billType": "fcfs",
