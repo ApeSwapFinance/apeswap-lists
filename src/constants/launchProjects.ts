@@ -823,7 +823,7 @@ Dec 18th 13:00 - 17:00 UTC: FCFS, no tier required!`,
         index: 14,
         chainId: ChainId.MAINNET,
         contractAddress: {
-          [ChainId.MAINNET]: '0x9Fca33ef289D599C0dEb4014de707f5FE52079FA',
+          [ChainId.MAINNET]: '',
         },
         billVersion: BillVersion.TieredSale,
         billType: 'fcfs',
