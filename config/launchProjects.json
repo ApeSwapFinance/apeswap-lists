@@ -1637,7 +1637,7 @@
     "chainId": 137,
     "saleStartTime": "Dec 17th 17:00 UTC",
     "totalAllocation": "A lot of tokens",
-    "salePriceString": "$0.25",
+    "salePriceString": "$0.025",
     "vestingTimeString": "20% TGE, 1 Month cliff, 4 Months linear vesting",
     "projectInfo": {
       "shortDescription": "This is a really good project ser",
@@ -1754,28 +1754,28 @@
         "initialRelease": 20,
         "saleSchedule": {
           "0": {
-            "start": 1734100200,
-            "end": 1734100800
+            "start": 1734104400,
+            "end": 1734105000
           },
           "1": {
-            "start": 1734099000,
-            "end": 1734099600
+            "start": 1734103800,
+            "end": 1734104400
           },
           "2": {
-            "start": 1734097800,
-            "end": 1734098400
+            "start": 1734103200,
+            "end": 1734103800
           },
           "3": {
-            "start": 1734096600,
-            "end": 1734097200
+            "start": 1734102600,
+            "end": 1734103200
           },
           "4": {
-            "start": 1734095400,
-            "end": 1734096000
+            "start": 1734102000,
+            "end": 1734102600
           },
           "noTier": {
-            "start": 1734101400,
-            "end": 1734102000
+            "start": 1734105000,
+            "end": 1734105600
           }
         },
         "tokensDistributedAtRedeem": true
