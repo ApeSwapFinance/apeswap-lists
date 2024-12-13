@@ -781,29 +781,29 @@ const launchProjects: LaunchProjectConfig[] = [
 Oxya Origin is the ecosystem that redefines traditional & Web3 gaming, with immersive gameplay and player-driven economy. They’re building a powerful gaming ecosystem with astounding gameplay, immersive graphics, and a sustainable economy, with the ambition to take Web3 gaming to the mainstream.
 <br/>
 <br/>
-📅 Launch Date: December 17th (schedule below).
-📅 TGE Date: December 19th.
-💵 IDO & TGE Price: $0.025.
-💵 Purchases can be made with $USDC.
-📜 Vesting Terms: 20% released at TGE, 4 months linear vesting (1-month cliff).
+📅 Launch Date: December 17th (schedule below).<br/>
+📅 TGE Date: December 19th.<br/>
+💵 IDO & TGE Price: $0.025.<br/>
+💵 Purchases can be made with $USDC.<br/>
+📜 Vesting Terms: 20% released at TGE, 4 months linear vesting (1-month cliff).<br/>
 <br/>
 <br/>
-🕔 Sale Schedule:
-Dec 17th 17:00 - 21:00 UTC: Legend Tier
-Dec 17th 21:00 - 01:00 UTC: Diamond (and above)
-Dec 18th 01:00 - 05:00 UTC: Gold (and above)
-Dec 18th 05:00 - 09:00 UTC: Silver (and above)
-Dec 18th 09:00 - 13:00 UTC: Bronze (and above)
+🕔 Sale Schedule:<br/>
+Dec 17th 17:00 - 21:00 UTC: Legend Tier<br/>
+Dec 17th 21:00 - 01:00 UTC: Diamond (and above)<br/>
+Dec 18th 01:00 - 05:00 UTC: Gold (and above)<br/>
+Dec 18th 05:00 - 09:00 UTC: Silver (and above)<br/>
+Dec 18th 09:00 - 13:00 UTC: Bronze (and above)<br/>
 Dec 18th 13:00 - 17:00 UTC: FCFS, no tier required!`,
-      tags: ['We need a tag'],
+      tags: ['GameFi'],
       socials: {
-        twitter: 'https://twitter.com/Carv_official',
-        teaserVideo: 'https://www.youtube.com/watch?v=P-7mYixdI0k',
-        tokenomicsURL: 'https://docs.carv.io/carv-token/distribution-and-vesting',
-        website: 'https://carv.io/',
-        whitepaper: 'https://docs.carv.io/carv-protocol/verifier-node-explained',
-        telegram: 'https://t.me/carv_official_global',
-        discord: 'https://discord.gg/carv',
+        twitter: 'https://x.com/OxyaOrigin',
+        teaserVideo: 'https://x.com/ApeBond/status/1867675870355452023',
+        tokenomicsURL: 'https://oxya-origin.gitbook.io/oxya-origin/asset-ecosystem/economy',
+        website: 'https://www.oxyaorigin.com/',
+        whitepaper: 'https://oxya-origin.gitbook.io/oxya-origin',
+        telegram: 'https://t.me/oxyaoriginofficial',
+        // discord: 'https://discord.gg/carv',
       },
       images: {
         launchpadImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1715975892/carv-launchpadImg_abywx1.png',
@@ -828,7 +828,7 @@ Dec 18th 13:00 - 17:00 UTC: FCFS, no tier required!`,
         billVersion: BillVersion.TieredSale,
         billType: 'fcfs',
         token: tokens.usdc,
-        earnToken: tokens.abond,
+        earnToken: tokens.oxyz,
         billNnftAddress: {
           [ChainId.MAINNET]: '0x9989bF3E7FBf1fbf6e24D55A950769A37A8D7837',
         },
@@ -847,7 +847,7 @@ Dec 18th 13:00 - 17:00 UTC: FCFS, no tier required!`,
           [ChainId.MAINNET]: 1705597200,
         },
         initPrice: {
-          [ChainId.MAINNET]: 0.01,
+          [ChainId.MAINNET]: 0.025,
         },
         initialRelease: 20,
         saleSchedule: {
