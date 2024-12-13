@@ -804,7 +804,7 @@ const launchProjects: LaunchProjectConfig[] = [
         index: 14,
         chainId: ChainId.MATIC,
         contractAddress: {
-          [ChainId.MATIC]: '0x9Fca33ef289D599C0dEb4014de707f5FE52079FA', // FCFS legend prod
+          [ChainId.MATIC]: '0x9Fca33ef289D599C0dEb4014de707f5FE52079FA',
         },
         billVersion: BillVersion.TieredSale,
         billType: 'fcfs',
@@ -828,7 +828,7 @@ const launchProjects: LaunchProjectConfig[] = [
           [ChainId.MATIC]: 1734102000,
         },
         initPrice: {
-          [ChainId.MATIC]: 0.025,
+          [ChainId.MATIC]: 0.01,
         },
         initialRelease: 20,
         saleSchedule: {
