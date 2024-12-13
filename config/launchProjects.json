@@ -1668,9 +1668,9 @@
     "bonds": [
       {
         "index": 14,
-        "chainId": 56,
+        "chainId": 137,
         "contractAddress": {
-          "56": "0x1869F56A7281eEE139F45A28D30EFC8165C7395E"
+          "137": "0x9Fca33ef289D599C0dEb4014de707f5FE52079FA"
         },
         "billVersion": "TieredSale",
         "billType": "fcfs",
@@ -1711,39 +1711,45 @@
           "active": true
         },
         "earnToken": {
-          "symbol": "TITM",
+          "symbol": "ABOND",
           "address": {
-            "56": "0x754736e06ea5B01694144F2C83A04e64d48F68d2"
+            "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+            "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
+            "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
           },
           "decimals": {
-            "56": 18
+            "1": 18,
+            "56": 18,
+            "137": 18
           },
           "liquidityDex": {
-            "56": "PancakeSwapV2"
+            "1": "UniswapV3",
+            "56": "ThenaV1",
+            "137": "QuickswapV2"
           },
           "active": true
         },
         "billNnftAddress": {
-          "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+          "137": "0x9989bF3E7FBf1fbf6e24D55A950769A37A8D7837"
         },
         "soldOut": false,
         "billArt": {
           "collection": "ApeBond_Collection1"
         },
         "initTime": {
-          "56": 1733925300
+          "137": 1733925300
         },
         "finishTime": {
-          "56": 1734022800
+          "137": 1734022800
         },
         "redeemTime": {
-          "56": 1734012000
+          "137": 1734012000
         },
         "startVestingTimestamp": {
-          "56": 1734012000
+          "137": 1734012000
         },
         "initPrice": {
-          "56": 0.25
+          "137": 0.25
         },
         "initialRelease": 20,
         "saleSchedule": {

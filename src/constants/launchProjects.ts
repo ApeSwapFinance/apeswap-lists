@@ -802,33 +802,33 @@ const launchProjects: LaunchProjectConfig[] = [
     bonds: [
       {
         index: 14,
-        chainId: ChainId.BSC,
+        chainId: ChainId.MATIC,
         contractAddress: {
-          [ChainId.BSC]: '0x1869F56A7281eEE139F45A28D30EFC8165C7395E', // FCFS legend prod
+          [ChainId.MATIC]: '0x9Fca33ef289D599C0dEb4014de707f5FE52079FA', // FCFS legend prod
         },
         billVersion: BillVersion.TieredSale,
         billType: 'fcfs',
         token: tokens.usdc,
-        earnToken: tokens.titm,
+        earnToken: tokens.abond,
         billNnftAddress: {
-          [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+          [ChainId.MATIC]: '0x9989bF3E7FBf1fbf6e24D55A950769A37A8D7837',
         },
         soldOut: false,
         billArt: { collection: BillArtCollection.ApeBond_Collection1 },
         initTime: {
-          [ChainId.BSC]: 1733925300,
+          [ChainId.MATIC]: 1733925300,
         },
         finishTime: {
-          [ChainId.BSC]: 1734022800,
+          [ChainId.MATIC]: 1734022800,
         },
         redeemTime: {
-          [ChainId.BSC]: 1734012000,
+          [ChainId.MATIC]: 1734012000,
         },
         startVestingTimestamp: {
-          [ChainId.BSC]: 1734012000,
+          [ChainId.MATIC]: 1734012000,
         },
         initPrice: {
-          [ChainId.BSC]: 0.25,
+          [ChainId.MATIC]: 0.25,
         },
         initialRelease: 20,
         saleSchedule: {
