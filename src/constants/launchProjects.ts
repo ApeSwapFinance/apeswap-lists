@@ -773,7 +773,7 @@ const launchProjects: LaunchProjectConfig[] = [
     salePriceString: '$0.025',
     vestingTimeString: '20% TGE, 1 Month cliff, 4 Months linear vesting',
     projectInfo: {
-      marketingSubtitle: `We’re back with another launch! Oxya Origin is building a powerful Web3 gaming ecosystem. <a href="https://www.oxyaorigin.com/" target="_blank" rel="noopener noreferrer" style="color: #6560C5">Learn More {'>'}</a>`,
+      marketingSubtitle: `We’re back with another launch! Oxya Origin is building a powerful Web3 gaming ecosystem. <a href="https://www.oxyaorigin.com/" target="_blank" rel="noopener noreferrer" style="color: #6560C5">Learn More \u003e</a>`,
       shortDescription:
         'Oxya Origin is building a powerful gaming ecosystem with a focus on engaging gameplay, immersive graphics and a sustainable, player-owned economy with the ambition to take Web3 gaming to the mainstream.',
       fullDescription: `We're thrilled to announce that our Launchpad is back with an incredible new partner, OxyaOrigin, launching their $OXYA token on the Ethereum Chain!
