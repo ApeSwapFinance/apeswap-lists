@@ -1670,7 +1670,7 @@
         "index": 19,
         "chainId": 1,
         "contractAddress": {
-          "1": ""
+          "1": "0x9989bF3E7FBf1fbf6e24D55A950769A37A8D7837"
         },
         "billVersion": "TieredSale",
         "billType": "fcfs",
@@ -1731,16 +1731,16 @@
           "collection": "ApeBond_Collection1"
         },
         "initTime": {
-          "1": 1734454800
+          "1": 1734355800
         },
         "finishTime": {
-          "1": 1734541200
+          "1": 1734359400
         },
         "redeemTime": {
-          "1": 1734541200
+          "1": 1734359400
         },
         "startVestingTimestamp": {
-          "1": 1705597200
+          "1": 1734359400
         },
         "initPrice": {
           "1": 0.025
@@ -1748,28 +1748,28 @@
         "initialRelease": 20,
         "saleSchedule": {
           "0": {
-            "start": 1734512400,
-            "end": 1734526800
+            "start": 1734358200,
+            "end": 1734358800
           },
           "1": {
-            "start": 1734498000,
-            "end": 1734512400
+            "start": 1734357600,
+            "end": 1734358200
           },
           "2": {
-            "start": 1734483600,
-            "end": 1734498000
+            "start": 1734357000,
+            "end": 1734357600
           },
           "3": {
-            "start": 1734469200,
-            "end": 1734483600
+            "start": 1734356400,
+            "end": 1734357000
           },
           "4": {
-            "start": 1734454800,
-            "end": 1734469200
+            "start": 1734355800,
+            "end": 1734356400
           },
           "noTier": {
-            "start": 1734526800,
-            "end": 1734541200
+            "start": 1734358800,
+            "end": 1734359400
           }
         },
         "tokensDistributedAtRedeem": true
