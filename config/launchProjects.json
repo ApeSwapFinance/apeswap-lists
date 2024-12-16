@@ -1634,7 +1634,7 @@
     "index": 4,
     "projectId": "oxya-origin",
     "projectName": "Oxya Origin",
-    "chainId": 1,
+    "chainId": 137,
     "saleStartTime": "Dec 17th 17:00 UTC",
     "totalAllocation": "4,000,000 OXYZ",
     "salePriceString": "$0.025",
@@ -1668,9 +1668,9 @@
     "bonds": [
       {
         "index": 19,
-        "chainId": 1,
+        "chainId": 137,
         "contractAddress": {
-          "1": ""
+          "137": "0x8fCBcbA7766f584BBb93420C2CcD949E97D53fFC"
         },
         "billVersion": "TieredSale",
         "billType": "fcfs",
@@ -1711,65 +1711,71 @@
           "active": true
         },
         "earnToken": {
-          "symbol": "OXYZ",
+          "symbol": "ABOND",
           "address": {
-            "1": "0xd0623da373f754c4b6762209ea77de59b21dd667"
+            "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+            "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
+            "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
           },
           "decimals": {
-            "1": 18
+            "1": 18,
+            "56": 18,
+            "137": 18
           },
-          "active": true,
           "liquidityDex": {
-            "1": "UniswapV2"
-          }
+            "1": "UniswapV3",
+            "56": "ThenaV1",
+            "137": "QuickswapV2"
+          },
+          "active": true
         },
         "billNnftAddress": {
-          "1": "0x9989bF3E7FBf1fbf6e24D55A950769A37A8D7837"
+          "137": "0x9989bF3E7FBf1fbf6e24D55A950769A37A8D7837"
         },
         "soldOut": false,
         "billArt": {
           "collection": "ApeBond_Collection1"
         },
         "initTime": {
-          "1": 1734454800
+          "137": 1734358620
         },
         "finishTime": {
-          "1": 1734541200
+          "137": 1734360300
         },
         "redeemTime": {
-          "1": 1734541200
+          "137": 1734360300
         },
         "startVestingTimestamp": {
-          "1": 1705597200
+          "137": 1734360300
         },
         "initPrice": {
-          "1": 0.025
+          "137": 0.025
         },
         "initialRelease": 20,
         "saleSchedule": {
           "0": {
-            "start": 1734512400,
-            "end": 1734526800
+            "start": 1734359700,
+            "end": 1734360000
           },
           "1": {
-            "start": 1734498000,
-            "end": 1734512400
+            "start": 1734359400,
+            "end": 1734359700
           },
           "2": {
-            "start": 1734483600,
-            "end": 1734498000
+            "start": 1734359100,
+            "end": 1734359400
           },
           "3": {
-            "start": 1734469200,
-            "end": 1734483600
+            "start": 1734358800,
+            "end": 1734359100
           },
           "4": {
-            "start": 1734454800,
-            "end": 1734469200
+            "start": 1734358620,
+            "end": 1734358800
           },
           "noTier": {
-            "start": 1734526800,
-            "end": 1734541200
+            "start": 1734360000,
+            "end": 1734360300
           }
         },
         "tokensDistributedAtRedeem": true
