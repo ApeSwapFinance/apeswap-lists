@@ -199,12 +199,14 @@ export interface LaunchProjectConfig {
   index: number
   projectId: string // this should be unique!
   projectName: string
+  chainId: ChainId // this is the chain where the money is raised/bonds are deployed, regardless of any airdrop
   bonds: TieredSaleBondConfig[]
   saleStartTime: string
   totalAllocation: string
   salePriceString: string
   vestingTimeString: string
   projectInfo: {
+    marketingSubtitle?: string
     shortDescription: string
     fullDescription: string
     tags: string[]
@@ -218,10 +220,10 @@ export interface LaunchProjectConfig {
       telegram?: string
     }
     images: {
-      launchpadImg: string
-      launchpadSmallImg: string
+      launchpadImg: string // big image on launchpad page
+      launchpadSmallImg: string // small image on the card
       launchpadIcon: string
-      headerImg: string
+      headerImg: string // big background image on project page header
       headerImgMobile: string
       websiteImg: string
       whitepaperImg: string
@@ -234,6 +236,7 @@ export interface LaunchProjectConfig {
 
 export interface TieredSaleBondConfig {
   index: number
+  chainId: ChainId
   contractAddress: Partial<Record<ChainId, string>>
   billVersion: BillVersion
   billType: 'fcfs' | 'oversubscription'
@@ -245,11 +248,16 @@ export interface TieredSaleBondConfig {
     collection: BillArtCollection
   }
   initTime: Partial<Record<ChainId, number>> // timestamp the sale starts
-  finishTime: Partial<Record<ChainId, number>> // timestamp the sale finished (i.e. IT IS NOT START VESTING TIMESTAMP)
-  redeemTime?: Partial<Record<ChainId, number>> // timestamp the sale is going to be manually finalized
+  finishTime: Partial<Record<ChainId, number>> // timestamp the sale finishes (i.e. IT IS NOT START VESTING TIMESTAMP)
+  redeemTime?: Partial<Record<ChainId, number>> // timestamp the sale is going to be manually finalized and user will be able to redeem real or mock tokens
   startVestingTimestamp: Partial<Record<ChainId, number>>
   initPrice: Partial<Record<ChainId, number>>
   initialRelease: number
+  saleSchedule?: {
+    [key: string]: { start: number; end: number }
+  }
+  tokensDistributedAtRedeem?: boolean
+  distributionTimestamp?: number // timestamp when users will be able to get the real tokens
 }
 
 export interface FlashBondConfig extends TieredSaleBondConfig {

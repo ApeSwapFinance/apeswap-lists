@@ -1,6 +1,7 @@
 [
   {
     "index": 0,
+    "chainId": 56,
     "round": "1",
     "totalRaiseString": "$150K",
     "discountString": "3%",
@@ -100,6 +101,7 @@
   },
   {
     "index": 1,
+    "chainId": 56,
     "round": "1",
     "totalRaiseString": "$50K",
     "discountString": "2%",
@@ -199,6 +201,7 @@
   },
   {
     "index": 2,
+    "chainId": 56,
     "round": "2",
     "totalRaiseString": "$250K",
     "discountString": "3%",
@@ -310,6 +313,7 @@
   },
   {
     "index": 3,
+    "chainId": 56,
     "round": "2",
     "totalRaiseString": "$75K",
     "discountString": "2%",
@@ -421,6 +425,7 @@
   },
   {
     "index": 4,
+    "chainId": 56,
     "round": "3",
     "totalRaiseString": "$180K",
     "discountString": "3%",
@@ -511,6 +516,7 @@
   },
   {
     "index": 5,
+    "chainId": 56,
     "round": "3",
     "totalRaiseString": "$60K",
     "discountString": "2%",
@@ -601,6 +607,7 @@
   },
   {
     "index": 6,
+    "chainId": 56,
     "round": "3",
     "totalRaiseString": "$25K",
     "discountString": "1%",
@@ -691,6 +698,7 @@
   },
   {
     "index": 7,
+    "chainId": 56,
     "round": "4",
     "totalRaiseString": "$160K",
     "discountString": "3%",
@@ -790,6 +798,7 @@
   },
   {
     "index": 8,
+    "chainId": 56,
     "round": "4",
     "totalRaiseString": "$60K",
     "discountString": "2%",
@@ -889,6 +898,7 @@
   },
   {
     "index": 9,
+    "chainId": 56,
     "round": "5",
     "totalRaiseString": "$120K",
     "discountString": "3%",
@@ -988,6 +998,7 @@
   },
   {
     "index": 10,
+    "chainId": 56,
     "round": "5",
     "totalRaiseString": "$50K",
     "discountString": "2%",
@@ -1087,6 +1098,7 @@
   },
   {
     "index": 11,
+    "chainId": 56,
     "round": "6",
     "totalRaiseString": "100K",
     "discountString": "3%",
@@ -1198,6 +1210,7 @@
   },
   {
     "index": 12,
+    "chainId": 56,
     "round": "6",
     "totalRaiseString": "40K",
     "discountString": "2%",
@@ -1309,6 +1322,7 @@
   },
   {
     "index": 13,
+    "chainId": 56,
     "round": "6",
     "totalRaiseString": "20K",
     "discountString": "1%",
@@ -1420,6 +1434,7 @@
   },
   {
     "index": 14,
+    "chainId": 56,
     "round": "7",
     "totalRaiseString": "30K",
     "discountString": "2%",
@@ -1519,6 +1534,7 @@
   },
   {
     "index": 15,
+    "chainId": 56,
     "round": "7",
     "totalRaiseString": "100K",
     "discountString": "3%",
@@ -1618,6 +1634,7 @@
   },
   {
     "index": 16,
+    "chainId": 56,
     "round": "8",
     "totalRaiseString": "40K",
     "discountString": "2%",
@@ -1729,6 +1746,7 @@
   },
   {
     "index": 17,
+    "chainId": 56,
     "round": "8",
     "totalRaiseString": "120K",
     "discountString": "3%",
@@ -1840,6 +1858,7 @@
   },
   {
     "index": 18,
+    "chainId": 56,
     "round": "9",
     "totalRaiseString": "15K",
     "discountString": "1%",
@@ -1939,6 +1958,7 @@
   },
   {
     "index": 19,
+    "chainId": 56,
     "round": "10",
     "totalRaiseString": "30K",
     "discountString": "2%",
@@ -2038,6 +2058,7 @@
   },
   {
     "index": 20,
+    "chainId": 56,
     "round": "10",
     "totalRaiseString": "100K",
     "discountString": "3%",
@@ -2137,6 +2158,7 @@
   },
   {
     "index": 21,
+    "chainId": 56,
     "round": "11",
     "totalRaiseString": "30K",
     "discountString": "2%",
@@ -2227,6 +2249,7 @@
   },
   {
     "index": 22,
+    "chainId": 56,
     "round": "11",
     "totalRaiseString": "100K",
     "discountString": "3%",

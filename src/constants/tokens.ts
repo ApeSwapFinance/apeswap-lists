@@ -20,6 +20,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  oxyz: {
+    symbol: 'OXYZ',
+    address: {
+      [ChainId.MAINNET]: '0xd0623da373f754c4b6762209ea77de59b21dd667',
+    },
+    decimals: {
+      [ChainId.MAINNET]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
+    },
+  },
   bpad: {
     symbol: 'BPAD',
     address: {
@@ -632,6 +645,19 @@ const tokens: Record<string, Token> = {
     symbol: 'FITM',
     address: {
       [ChainId.BSC]: '0xE51072f493e9a0b40E468F2EB4686458aCd47a8D',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
+  titm: {
+    symbol: 'TITM',
+    address: {
+      [ChainId.BSC]: '0x754736e06ea5B01694144F2C83A04e64d48F68d2',
     },
     decimals: {
       [ChainId.BSC]: 18,
