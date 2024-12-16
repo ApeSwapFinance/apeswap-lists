@@ -507,6 +507,7 @@ export const dexFactories: Partial<
     [LiquidityDex.PancakeSwapV2]: {
       factory: '0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73',
       protocol: Protocols.V2,
+      router: '0x10ED43C718714eb63d5aA57B78B54704E256024E',
     },
     [LiquidityDex.ApeSwapV3]: {
       factory: '0x7Bc382DdC5928964D7af60e7e2f6299A1eA6F48d',
