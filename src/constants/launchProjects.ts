@@ -771,7 +771,7 @@ const launchProjects: LaunchProjectConfig[] = [
     saleStartTime: 'Dec 17th 17:00 UTC',
     totalAllocation: '4,000,000 OXYZ',
     salePriceString: '$0.025',
-    vestingTimeString: '20% TGE, 1 Month cliff, 4 Months linear vesting',
+    vestingTimeString: '20% TGE. 1 Month cliff. 4 Months vesting',
     projectInfo: {
       marketingSubtitle: `We’re back with another launch! Oxya Origin is building a powerful Web3 gaming ecosystem. <a href="https://www.oxyaorigin.com/" target="_blank" rel="noopener noreferrer" style="color: #6560C5">Learn More \u003e</a>`,
       shortDescription:
