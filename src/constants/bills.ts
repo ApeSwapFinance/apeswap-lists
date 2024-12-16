@@ -224,7 +224,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.rewardable.app/',
     twitter: 'https://x.com/rewardable_app',
     initTime: { [ChainId.BASE]: 1733943183 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -250,7 +250,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.rewardable.app/',
     twitter: 'https://x.com/rewardable_app',
     initTime: { [ChainId.BASE]: 1733943183 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -276,7 +276,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.rewardable.app/',
     twitter: 'https://x.com/rewardable_app',
     initTime: { [ChainId.BASE]: 1733943183 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -302,7 +302,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.rewardable.app/',
     twitter: 'https://x.com/rewardable_app',
     initTime: { [ChainId.BASE]: 1733943183 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
