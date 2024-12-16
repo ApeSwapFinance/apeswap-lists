@@ -220,10 +220,10 @@ export interface LaunchProjectConfig {
       telegram?: string
     }
     images: {
-      launchpadImg: string
-      launchpadSmallImg: string
+      launchpadImg: string // big image on launchpad page
+      launchpadSmallImg: string // small image on the card
       launchpadIcon: string
-      headerImg: string
+      headerImg: string // big background image on project page header
       headerImgMobile: string
       websiteImg: string
       whitepaperImg: string
