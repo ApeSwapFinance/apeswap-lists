@@ -804,12 +804,11 @@ const launchProjects: LaunchProjectConfig[] = [
         website: 'https://www.oxyaorigin.com/',
         whitepaper: 'https://oxya-origin.gitbook.io/oxya-origin',
         telegram: 'https://t.me/oxyaoriginofficial',
-        // discord: 'https://discord.gg/carv',
       },
       images: {
         launchpadImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1734350817/home_eag9po.png',
         launchpadSmallImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1734350817/home_eag9po.png',
-        launchpadIcon: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1715976635/carv-launchpadicon_n3uyxh.png',
+        launchpadIcon: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1734370651/smallimg_u9y8kt.png',
         headerImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1734351145/headerimg_ljvood.png',
         headerImgMobile: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1734351145/headerimg_ljvood.png',
         websiteImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1734351489/website_h8t8aw.png',
