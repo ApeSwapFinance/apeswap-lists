@@ -20,6 +20,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  cellarph: {
+    symbol: 'CELLAR', // keep this name here
+    address: {
+      [ChainId.MATIC]: '0xd58b94731a4457516dfff75769ca4a14cd24f36f',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.UniswapV2,
+    },
+  },
   oxyz: {
     symbol: 'OXYZ',
     address: {

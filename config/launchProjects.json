@@ -1638,7 +1638,8 @@
     "saleStartTime": "Dec 17th 17:00 UTC",
     "totalAllocation": "4,000,000 OXYZ",
     "salePriceString": "$0.025",
-    "vestingTimeString": "20% TGE. 1 Month cliff. 4 Months vesting",
+    "vestingTimeString": "4 Months",
+    "vestingTimeTooltip": "20% of the tokens will be released at TGE. The remaining tokens will vest linearly over 4 months, with a 1-month cliff.",
     "projectInfo": {
       "marketingSubtitle": "We’re back with another launch! Oxya Origin is building a powerful Web3 gaming ecosystem. <a href=\"https://www.oxyaorigin.com/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #6560C5\">Learn More ></a>",
       "shortDescription": "Oxya Origin is building a powerful gaming ecosystem with a focus on engaging gameplay, immersive graphics and a sustainable, player-owned economy with the ambition to take Web3 gaming to the mainstream.",
@@ -1773,6 +1774,131 @@
           }
         },
         "tokensDistributedAtRedeem": true
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "projectId": "intercellar",
+    "projectName": "Intercellar",
+    "chainId": 137,
+    "saleStartTime": "Dec 19th 17:00 UTC",
+    "totalAllocation": "3,030,303 CELLAR",
+    "salePriceString": "$0.033",
+    "vestingTimeString": "8 Months vesting",
+    "vestingTimeTooltip": "8% of the tokens will be released at TGE. The remaining tokens will vest linearly over 8 months, with a 4-months cliff.",
+    "projectInfo": {
+      "marketingSubtitle": "We’re back with another launch! Intercellar is here with its exclusive launch that will revolutionize Real World Assets. <a href=\"https://www.intercellar.io/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #6560C5\">Learn More ></a>",
+      "shortDescription": "InterCellar transforms wine and spirits into digital assets via NFTs, enabling secure trading and investment in fine bottles. Brands list bottles on the platform, with physical assets stored securely and digital twins managed in users “My Cellar” wallets. Users can hold, resell, or transfer their digital twins. The $CELLAR token offers access to exclusive wines, discounts, and staking rewards.",
+      "fullDescription": "InterCellar revolutionizes the wine and spirits industry by transforming fine bottles into digital assets through NFTs, enabling seamless, secure trading and investment in luxury wines and spirits. \n      <br/><br/>\n      With a focus on accessibility and enjoyment, InterCellar connects brands and consumers on an innovative e-commerce platform where users can purchase bottles and manage them as digital twins. \n      <br/><br/>\n      Physical assets are securely stored in InterCellar’s warehouses, while their digital counterparts reside in the user’s “My Cellar” wallet, offering multiple options: hold the digital twin, resell it on the secondary market, or transfer it with ease. \n      <br/><br/>\n      This guarantees authenticity, secure storage, and access to exclusive collections. Additionally, InterCellar’s $CELLAR loyalty token provides unique perks, including access to premium wines, discounts, and staking opportunities for rewards, making it the ultimate gateway to collecting and investing in fine wines and spirits.",
+      "tags": ["RWA"],
+      "socials": {
+        "twitter": "https://x.com/InterCellar_",
+        "teaserVideo": "https://x.com/ApeBond/status/1867686738107195477",
+        "tokenomicsURL": "https://www.intercellar.io/cellar",
+        "website": "https://www.intercellar.io/",
+        "whitepaper": "https://intercellar-doc.gitbook.io/intercellar-doc",
+        "discord": "https://discord.com/invite/intercellar"
+      },
+      "images": {
+        "launchpadImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1734458481/launchpadImg_irl0jg.png",
+        "launchpadSmallImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1734458481/launchpadImg_irl0jg.png",
+        "launchpadIcon": "",
+        "headerImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1734458594/headerImg_euw23e.png",
+        "headerImgMobile": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1734458594/headerImg_euw23e.png",
+        "websiteImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1734458633/websiteImg_diq1wt.png",
+        "whitepaperImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1734458658/whitepaperImg_mtflk5.png",
+        "partnersImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1734458681/partnersImg_xh5gli.png",
+        "tokenomicsImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1734458726/tokenomicsImg_nvzn6q.png",
+        "teaserImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1734458751/teaserImg_bmroqx.png"
+      }
+    },
+    "bonds": [
+      {
+        "index": 20,
+        "chainId": 137,
+        "contractAddress": {
+          "137": ""
+        },
+        "billVersion": "TieredSale",
+        "billType": "fcfs",
+        "token": {
+          "symbol": "USDC",
+          "address": {
+            "137": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359"
+          },
+          "decimals": {
+            "137": 6
+          },
+          "liquidityDex": {
+            "137": "UniswapV3"
+          },
+          "active": true
+        },
+        "earnToken": {
+          "symbol": "CELLAR",
+          "address": {
+            "137": "0xd58b94731a4457516dfff75769ca4a14cd24f36f"
+          },
+          "decimals": {
+            "137": 18
+          },
+          "active": true,
+          "liquidityDex": {
+            "137": "UniswapV2"
+          }
+        },
+        "billNnftAddress": {
+          "137": "0x8860ABc05FefEF93306c8d65a5eFD421F155d67E"
+        },
+        "soldOut": false,
+        "billArt": {
+          "collection": "ApeBond_Collection1"
+        },
+        "initTime": {
+          "137": 1734627600
+        },
+        "finishTime": {
+          "137": 1734714000
+        },
+        "redeemTime": {
+          "137": 1734714000
+        },
+        "startVestingTimestamp": {
+          "137": 1747328400
+        },
+        "initPrice": {
+          "137": 0.033
+        },
+        "initialRelease": 8,
+        "saleSchedule": {
+          "0": {
+            "start": 1734685200,
+            "end": 1734699600
+          },
+          "1": {
+            "start": 1734670800,
+            "end": 1734685200
+          },
+          "2": {
+            "start": 1734656400,
+            "end": 1734670800
+          },
+          "3": {
+            "start": 1734642000,
+            "end": 1734656400
+          },
+          "4": {
+            "start": 1734627600,
+            "end": 1734642000
+          },
+          "noTier": {
+            "start": 1734699600,
+            "end": 1734714000
+          }
+        },
+        "tokensDistributedAtRedeem": false,
+        "distributionTimestamp": 1736960400
       }
     ]
   }

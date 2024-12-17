@@ -205,6 +205,7 @@ export interface LaunchProjectConfig {
   totalAllocation: string
   salePriceString: string
   vestingTimeString: string
+  vestingTimeTooltip?: string
   projectInfo: {
     marketingSubtitle?: string
     shortDescription: string
