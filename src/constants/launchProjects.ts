@@ -865,7 +865,7 @@ const launchProjects: LaunchProjectConfig[] = [
   },
   {
     index: 5,
-    projectId: 'oxya-origin',
+    projectId: 'efe-test',
     projectName: 'Oxya Origin',
     chainId: ChainId.MATIC,
     saleStartTime: 'Dec 17th 17:00 UTC',
