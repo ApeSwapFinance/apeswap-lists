@@ -923,7 +923,7 @@ const launchProjects: LaunchProjectConfig[] = [
         index: 20,
         chainId: ChainId.MATIC,
         contractAddress: {
-          [ChainId.MATIC]: '0x6f6BB51E068f58eA363A31A8109766cAB80dF3c4',
+          [ChainId.MATIC]: '0x200945027F55fE7797a4C258e5f13dfC10C80c0B',
         },
         billVersion: BillVersion.TieredSale,
         billType: 'fcfs',
@@ -935,31 +935,31 @@ const launchProjects: LaunchProjectConfig[] = [
         soldOut: false,
         billArt: { collection: BillArtCollection.ApeBond_Collection1 },
         initTime: {
-          [ChainId.MATIC]: 1734436680,
+          [ChainId.MATIC]: 1734438900,
         },
         finishTime: {
-          [ChainId.MATIC]: 1734438000,
+          [ChainId.MATIC]: 1734440400,
         },
         redeemTime: {
-          [ChainId.MATIC]: 1734438000,
+          [ChainId.MATIC]: 1734440400,
         },
         startVestingTimestamp: {
-          [ChainId.MATIC]: 1734439800, //should be the same with distributionTimestamp for polygon bond.
+          [ChainId.MATIC]: 1734441300, //should be the same with distributionTimestamp for polygon bond.
         },
         initPrice: {
           [ChainId.MATIC]: 0.025,
         },
         initialRelease: 20,
         saleSchedule: {
-          [LaunchBondTiers.Legend]: { start: 1734436680, end: 1734438000 },
-          [LaunchBondTiers.Diamond]: { start: 1734436680, end: 1734438000 },
-          [LaunchBondTiers.Gold]: { start: 1734436680, end: 1734438000 },
-          [LaunchBondTiers.Silver]: { start: 1734436680, end: 1734438000 },
-          [LaunchBondTiers.Bronze]: { start: 1734436680, end: 1734438000 },
-          ['noTier']: { start: 1734436680, end: 1734438000 },
+          [LaunchBondTiers.Legend]: { start: 1734438900, end: 1734440400 },
+          [LaunchBondTiers.Diamond]: { start: 1734438900, end: 1734440400 },
+          [LaunchBondTiers.Gold]: { start: 1734438900, end: 1734440400 },
+          [LaunchBondTiers.Silver]: { start: 1734438900, end: 1734440400 },
+          [LaunchBondTiers.Bronze]: { start: 1734438900, end: 1734440400 },
+          ['noTier']: { start: 1734438900, end: 1734440400 },
         },
         tokensDistributedAtRedeem: false,
-        distributionTimestamp: 1734439800,
+        distributionTimestamp: 1734441300,
       },
     ],
   },
