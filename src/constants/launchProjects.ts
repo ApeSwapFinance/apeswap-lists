@@ -823,7 +823,7 @@ const launchProjects: LaunchProjectConfig[] = [
         index: 19,
         chainId: ChainId.MAINNET,
         contractAddress: {
-          [ChainId.MAINNET]: '',
+          [ChainId.MAINNET]: '0x48d45312fF88B277eB285eA1f05ddDC6B9238611',
         },
         billVersion: BillVersion.TieredSale,
         billType: 'fcfs',
@@ -863,6 +863,106 @@ const launchProjects: LaunchProjectConfig[] = [
       },
     ],
   },
+  // {
+  //   index: 5,
+  //   projectId: 'efe-test',
+  //   projectName: 'Oxya Origin',
+  //   chainId: ChainId.MATIC,
+  //   saleStartTime: 'Dec 17th 17:00 UTC',
+  //   totalAllocation: '4,000,000 OXYZ',
+  //   salePriceString: '$0.025',
+  //   vestingTimeString: '20% TGE. 1 Month cliff. 4 Months vesting',
+  //   projectInfo: {
+  //     marketingSubtitle: `We’re back with another launch! Oxya Origin is building a powerful Web3 gaming ecosystem. <a href="https://www.oxyaorigin.com/" target="_blank" rel="noopener noreferrer" style="color: #6560C5">Learn More \u003e</a>`,
+  //     shortDescription:
+  //       'Oxya Origin is building a powerful gaming ecosystem with a focus on engaging gameplay, immersive graphics and a sustainable, player-owned economy with the ambition to take Web3 gaming to the mainstream.',
+  //     fullDescription: `We're thrilled to announce that our Launchpad is back with an incredible new partner, OxyaOrigin, launching their $OXYA token on the Ethereum Chain!
+  // <br/>
+  // <br/>
+  // Oxya Origin is the ecosystem that redefines traditional & Web3 gaming, with immersive gameplay and player-driven economy. They’re building a powerful gaming ecosystem with astounding gameplay, immersive graphics, and a sustainable economy, with the ambition to take Web3 gaming to the mainstream.
+  // <br/>
+  // <br/>
+  // 📅 Launch Date: December 17th (schedule below).<br/>
+  // 📅 TGE Date: December 19th.<br/>
+  // 💵 IDO & TGE Price: $0.025.<br/>
+  // 💵 Purchases can be made with $USDC.<br/>
+  // 📜 Vesting Terms: 20% released at TGE, 4 months linear vesting (1-month cliff).<br/>
+  // <br/>
+  // <br/>
+  // 🕔 Sale Schedule:<br/>
+  // Dec 17th 17:00 - 21:00 UTC: Legend Tier<br/>
+  // Dec 17th 21:00 - 01:00 UTC: Diamond (and above)<br/>
+  // Dec 18th 01:00 - 05:00 UTC: Gold (and above)<br/>
+  // Dec 18th 05:00 - 09:00 UTC: Silver (and above)<br/>
+  // Dec 18th 09:00 - 13:00 UTC: Bronze (and above)<br/>
+  // Dec 18th 13:00 - 17:00 UTC: FCFS, no tier required!`,
+  //     tags: ['GameFi'],
+  //     socials: {
+  //       twitter: 'https://x.com/OxyaOrigin',
+  //       teaserVideo: 'https://x.com/ApeBond/status/1867686738107195477',
+  //       tokenomicsURL: 'https://oxya-origin.gitbook.io/oxya-origin/asset-ecosystem/economy',
+  //       website: 'https://www.oxyaorigin.com/',
+  //       whitepaper: 'https://oxya-origin.gitbook.io/oxya-origin',
+  //       telegram: 'https://t.me/oxyaoriginofficial',
+  //     },
+  //     images: {
+  //       launchpadImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1734350817/home_eag9po.png',
+  //       launchpadSmallImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1734350817/home_eag9po.png',
+  //       launchpadIcon: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1734370651/smallimg_u9y8kt.png',
+  //       headerImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1734351145/headerimg_ljvood.png',
+  //       headerImgMobile: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1734351145/headerimg_ljvood.png',
+  //       websiteImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1734351489/website_h8t8aw.png',
+  //       whitepaperImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1734351569/whitepaper_eqzfcp.png',
+  //       partnersImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1734351696/partnersimg_l3xu4f.png',
+  //       tokenomicsImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1734351788/tokenomics_rkr8w8.png',
+  //       teaserImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1734351829/teaser_cbl1zl.png',
+  //     },
+  //   },
+  //   bonds: [
+  //     {
+  //       index: 20,
+  //       chainId: ChainId.MATIC,
+  //       contractAddress: {
+  //         [ChainId.MATIC]: '0x200945027F55fE7797a4C258e5f13dfC10C80c0B',
+  //       },
+  //       billVersion: BillVersion.TieredSale,
+  //       billType: 'fcfs',
+  //       token: tokens.usdc2,
+  //       earnToken: tokens.abond,
+  //       billNnftAddress: {
+  //         [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
+  //       },
+  //       soldOut: false,
+  //       billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+  //       initTime: {
+  //         [ChainId.MATIC]: 1734627600,
+  //       },
+  //       finishTime: {
+  //         [ChainId.MATIC]: 1734714000,
+  //       },
+  //       redeemTime: {
+  //         [ChainId.MATIC]: 1734714000,
+  //       },
+  //       startVestingTimestamp: {
+  //         [ChainId.MATIC]: 1734441300,
+  //       },
+  //       initPrice: {
+  //         [ChainId.MATIC]: 0.025,
+  //       },
+  //       initialRelease: 20,
+  //       saleSchedule: {
+  //         [LaunchBondTiers.Legend]: { start: 1734627600, end: 1734440400 },
+  //         [LaunchBondTiers.Diamond]: { start: 1734438900, end: 1734440400 },
+  //         [LaunchBondTiers.Gold]: { start: 1734438900, end: 1734440400 },
+  //         [LaunchBondTiers.Silver]: { start: 1734438900, end: 1734440400 },
+  //         [LaunchBondTiers.Bronze]: { start: 1734438900, end: 1734440400 },
+  //         ['noTier']: { start: 1734438900, end: 1734714000 },
+  //       },
+  //       tokensDistributedAtRedeem: false,
+  //       distributionTimestamp: 1736960400,
+  //     },
+  //   ],
+  // },
 ]
 
 export default launchProjects
