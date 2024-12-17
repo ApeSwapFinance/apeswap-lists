@@ -873,13 +873,13 @@ const launchProjects: LaunchProjectConfig[] = [
     saleStartTime: 'Dec 19th 17:00 UTC',
     totalAllocation: '3,030,303 CELLAR',
     salePriceString: '$0.033',
-    vestingTimeString: '8 Months vesting',
+    vestingTimeString: '8 Months',
     vestingTimeTooltip:
       '8% of the tokens will be released at TGE. The remaining tokens will vest linearly over 8 months, with a 4-months cliff.',
     projectInfo: {
       marketingSubtitle: `We’re back with another launch! Intercellar is here with its exclusive launch that will revolutionize Real World Assets. <a href="https://www.intercellar.io/" target="_blank" rel="noopener noreferrer" style="color: #6560C5">Learn More \u003e</a>`,
       shortDescription:
-        'InterCellar transforms wine and spirits into digital assets via NFTs, enabling secure trading and investment in fine bottles. Brands list bottles on the platform, with physical assets stored securely and digital twins managed in users “My Cellar” wallets. Users can hold, resell, or transfer their digital twins. The $CELLAR token offers access to exclusive wines, discounts, and staking rewards.',
+        'InterCellar crafts a masterful blend of tradition and technology, harmonizing the expertise of founders, investors, partners, and media in a vibrant ecosystem that mirrors the intricate art of winemaking itself—powered by the $CELLAR token.',
       fullDescription: `InterCellar revolutionizes the wine and spirits industry by transforming fine bottles into digital assets through NFTs, enabling seamless, secure trading and investment in luxury wines and spirits. 
       <br/><br/>
       With a focus on accessibility and enjoyment, InterCellar connects brands and consumers on an innovative e-commerce platform where users can purchase bottles and manage them as digital twins. 
@@ -900,7 +900,7 @@ const launchProjects: LaunchProjectConfig[] = [
       images: {
         launchpadImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1734458481/launchpadImg_irl0jg.png',
         launchpadSmallImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1734458481/launchpadImg_irl0jg.png',
-        launchpadIcon: '',
+        launchpadIcon: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1734464119/smallImg_t0swv5.png',
         headerImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1734458594/headerImg_euw23e.png',
         headerImgMobile: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1734458594/headerImg_euw23e.png',
         websiteImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1734458633/websiteImg_diq1wt.png',
