@@ -33,6 +33,19 @@ const tokens: Record<string, Token> = {
       [ChainId.MAINNET]: LiquidityDex.UniswapV2,
     },
   },
+  bunny: {
+    symbol: 'BUNNY',
+    address: {
+      [ChainId.MAINNET]: '0xE9aA901D12D401361951F6b143e39ce8d4D42983',
+    },
+    decimals: {
+      [ChainId.MAINNET]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
+    },
+  },
   bpad: {
     symbol: 'BPAD',
     address: {

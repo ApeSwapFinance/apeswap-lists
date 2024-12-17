@@ -751,7 +751,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/mafia_on_base',
     initTime: { [ChainId.BASE]: 1716217474 },
     initPrice: { [ChainId.BASE]: 0.005450086440702347 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -837,7 +837,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/superbestcoin',
     initTime: { [ChainId.BASE]: 1716217474 },
     initPrice: { [ChainId.BASE]: 0.005450086440702347 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -6760,7 +6760,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://x.com/MedievalEmpires',
     audit: 'https://www.medievalempires.com/static/audit_report-89967b1290db095d7275ce21e8aa5d44.pdf',
     initTime: { [ChainId.MATIC]: 1732711586 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
@@ -9009,7 +9009,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://ledgity.finance/',
     twitter: 'https://twitter.com/LedgityYield',
     initTime: { [ChainId.ARBITRUM]: 1723548893 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -10000,7 +10000,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://gptprotocol.org/',
     twitter: 'https://twitter.com/gpt_protocol',
     initTime: { [ChainId.MAINNET]: 1730189346 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
