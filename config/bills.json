@@ -1471,7 +1471,7 @@
     "billNnftAddress": {
       "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
     },
-    "inactive": false,
+    "inactive": true,
     "projectLink": "https://www.basemafia.com/",
     "twitter": "https://x.com/mafia_on_base",
     "initTime": {
@@ -13856,7 +13856,7 @@
     "initTime": {
       "137": 1732711586
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "Quickswap_Collection1"
     },
@@ -18350,7 +18350,7 @@
     "billNnftAddress": {
       "42161": "0xAC707999D05C4048844B78c737D9512DFDff524d"
     },
-    "inactive": false,
+    "inactive": true,
     "projectLink": "https://ledgity.finance/",
     "twitter": "https://twitter.com/LedgityYield",
     "initTime": {
@@ -20250,7 +20250,7 @@
     "initTime": {
       "1": 1730189346
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ETH_Collection1"
     },
