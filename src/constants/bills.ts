@@ -746,12 +746,12 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: true,
+    inactive: false,
     projectLink: 'https://www.basemafia.com/',
     twitter: 'https://x.com/mafia_on_base',
     initTime: { [ChainId.BASE]: 1716217474 },
     initPrice: { [ChainId.BASE]: 0.005450086440702347 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -9005,11 +9005,11 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
     },
-    inactive: true,
+    inactive: false,
     projectLink: 'https://ledgity.finance/',
     twitter: 'https://twitter.com/LedgityYield',
     initTime: { [ChainId.ARBITRUM]: 1723548893 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },

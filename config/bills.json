@@ -1471,7 +1471,7 @@
     "billNnftAddress": {
       "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
     },
-    "inactive": true,
+    "inactive": false,
     "projectLink": "https://www.basemafia.com/",
     "twitter": "https://x.com/mafia_on_base",
     "initTime": {
@@ -1480,7 +1480,7 @@
     "initPrice": {
       "8453": 0.005450086440702347
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -18350,13 +18350,13 @@
     "billNnftAddress": {
       "42161": "0xAC707999D05C4048844B78c737D9512DFDff524d"
     },
-    "inactive": true,
+    "inactive": false,
     "projectLink": "https://ledgity.finance/",
     "twitter": "https://twitter.com/LedgityYield",
     "initTime": {
       "42161": 1723548893
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
