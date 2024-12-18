@@ -59,6 +59,19 @@ const tokens: Record<string, Token> = {
       [ChainId.MAINNET]: LiquidityDex.UniswapV2,
     },
   },
+  skai: {
+    symbol: 'SKAI',
+    address: {
+      [ChainId.MAINNET]: '0xCF078DA6e85389de507ceeDE0E3d217e457B9d49',
+    },
+    decimals: {
+      [ChainId.MAINNET]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
+    },
+  },
   bpad: {
     symbol: 'BPAD',
     address: {
