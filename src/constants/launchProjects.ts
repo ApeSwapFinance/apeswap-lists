@@ -896,11 +896,11 @@ const launchProjects: LaunchProjectConfig[] = [
         <br/>
         <br/>
         🕔 Sale Schedule:<br/>
-        Dec 19th 17:00 - 21:00 UTC: Legend Tier
-      Dec 19th 21:00 - 01:00 UTC: Diamond (and above)
-      Dec 20th 01:00 - 05:00 UTC: Gold (and above)
-      Dec 20th 05:00 - 09:00 UTC: Silver (and above)
-      Dec 20th 09:00 - 13:00 UTC: Bronze (and above)
+      Dec 19th 17:00 - 21:00 UTC: Legend Tier<br/>
+      Dec 19th 21:00 - 01:00 UTC: Diamond (and above)<br/>
+      Dec 20th 01:00 - 05:00 UTC: Gold (and above)<br/>
+      Dec 20th 05:00 - 09:00 UTC: Silver (and above)<br/>
+      Dec 20th 09:00 - 13:00 UTC: Bronze (and above)<br/>
       Dec 20th 13:00 - 17:00 UTC: FCFS, no tier required!`,
       tags: ['RWA'],
       socials: {
