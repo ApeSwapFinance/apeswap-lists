@@ -484,7 +484,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/boundlesspay',
     audit: 'https://contractwolf.io/projects/boundlesspay',
     initTime: { [ChainId.BASE]: 1732735296 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
