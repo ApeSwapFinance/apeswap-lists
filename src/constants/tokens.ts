@@ -20,6 +20,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  cellarph: {
+    symbol: 'CELLAR', // keep this name here
+    address: {
+      [ChainId.MATIC]: '0xd58b94731a4457516dfff75769ca4a14cd24f36f',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.UniswapV2,
+    },
+  },
   oxyz: {
     symbol: 'OXYZ',
     address: {
@@ -37,6 +50,19 @@ const tokens: Record<string, Token> = {
     symbol: 'BUNNY',
     address: {
       [ChainId.MAINNET]: '0xE9aA901D12D401361951F6b143e39ce8d4D42983',
+    },
+    decimals: {
+      [ChainId.MAINNET]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
+    },
+  },
+  skai: {
+    symbol: 'SKAI',
+    address: {
+      [ChainId.MAINNET]: '0xCF078DA6e85389de507ceeDE0E3d217e457B9d49',
     },
     decimals: {
       [ChainId.MAINNET]: 18,

@@ -943,7 +943,7 @@
     "initTime": {
       "8453": 1732735296
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -2456,6 +2456,67 @@
     },
     "tags": ["DeFi"],
     "shortDescription": "Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!"
+  },
+  {
+    "index": 1111,
+    "cmcId": 29157,
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0x7dCb9f68c8123C57f9d831379a642E5Fdec9C1Be"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "56": "0x55d398326f99059fF775485246999027B3197955"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "ABOND",
+      "address": {
+        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "ThenaV1"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://ape.bond/",
+    "twitter": "https://twitter.com/apebond",
+    "audit": "https://paladinsec.co/projects/apebond/",
+    "initTime": {
+      "56": 1730188465
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "shortDescription": "ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.",
+    "fullDescription": "ApeBond is building a sustainable DeFi future through its innovative Bonds products and strategic partnerships. Known for its Crowdsource OTC solution and treasury diversification expertise, ApeBond has launched Bonds with over 140 partners, sold 38,000+ Bonds for a total of $14,000,000 USD, and achieved a top 10 Dapp status by daily active users (DAU) according to CoinMarketCap. The ABOND token ties users with the platform by unlocking special Bonds, new earning opportunities, and more utilities coming up in the pipeline.",
+    "tags": ["Bonding"],
+    "partnersURLS": [
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/Seedify_fbt392.svg",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613244/ORBS_anzm60.png",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/quickLogo_2_1_g95ynz.png",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/aitech_logo_100_real_no_fake_bjskiq.png",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png"
+    ]
   },
   {
     "index": 1110,
@@ -20512,7 +20573,7 @@
       "active": true
     },
     "billNnftAddress": {
-      "1": "0xeDF145A02763008ef760Cd75143796A40120e792"
+      "1": "0xE26D0184cF105e18128360E8Ff192667E59475D7"
     },
     "inactive": false,
     "projectLink": "https://landwolf.com/",
@@ -20527,5 +20588,108 @@
     "tags": ["Meme", "Community"],
     "shortDescription": "LandWolf is for the People. Backed by a vibrant and unstoppable community, this half-man, half-wolf legend blends humor, creativity, and adventure. Known for his pizza-loving, game-playing vibe, LandWolf transforms into a party animal under the full moon. A star of Matt Furie’s The Boy’s Club alongside Pepe, Andy, and Brett, LandWolf thrives as a community-driven project powered by the $WOLF token on Ethereum.",
     "fullDescription": "LandWolf is for the People. Backed by a vibrant and unstoppable community, this half-man, half-wolf legend embodies unity, strength, and adventure. Embodying a blend of humor, creativity, and community spirit. Half man, half wolf, LandWolf is a laid-back character who enjoys pizza, video games, and hanging out with friends, but transforms into an adventurous party animal under the full moon. As a standout figure from Furie’s iconic comic series The Boy’s Club, LandWolf shares the spotlight with beloved characters like Pepe, Andy, and Brett. Beyond its artistic roots, LandWolf has evolved into a community-driven project powered by the $WOLF token on the Ethereum blockchain. With no developer allocation, the 0x67 $WOLF token thrives on contributions from its passionate community, making LandWolf a true testament to grassroots collaboration and creative energy."
+  },
+  {
+    "index": 3034,
+    "chainId": 1,
+    "contractAddress": {
+      "1": "0xb6d1009B4700a50bf0F414d3367D3a6c3Cb28fb6"
+    },
+    "billType": "reserve",
+    "billVersion": "V3",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+      },
+      "decimals": {
+        "1": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "BUNNY",
+      "address": {
+        "1": "0xE9aA901D12D401361951F6b143e39ce8d4D42983"
+      },
+      "decimals": {
+        "1": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "1": "UniswapV2"
+      }
+    },
+    "billNnftAddress": {
+      "1": "0x499b654b0A7f9979CC315190C09cA2633809B8dF"
+    },
+    "inactive": false,
+    "projectLink": "https://bucksbunny.com/",
+    "twitter": "https://x.com/JoinBBClub",
+    "initTime": {
+      "1": 1734551887
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ETH_Collection1"
+    },
+    "tags": ["DeFi"],
+    "shortDescription": "Bunny is the newest contender in the crypto world, aiming to take over with big dreams inspired by his Uncle Bucks, the crypto king known for his luxury lifestyle. Holding $BUNNY grants access to the exclusive Bucks Bunny Club, where members unlock real-world perks and VIP experiences. As an innovative token, $BUNNY bridges interactive gaming with unique, luxury-driven community engagement.",
+    "fullDescription": "Bunny is the newest contender in the crypto world, bringing bold dreams and a luxurious vision inspired by his Uncle Bucks, the crypto king renowned for his extravagant lifestyle of villas, yachts, and endless VIP parties. Holding $BUNNY isn’t just about owning a token—it’s a gateway to the exclusive Bucks Bunny Club, where members unlock unparalleled real-world experiences and elite perks. Divided into three tiers, the club rewards holders with access to private events, including concerts, red carpets, art tours, and even yacht parties or zero-G adventures. Beyond its meme origins, $BUNNY stands as a bridge between digital assets, interactive gaming, and unique luxury experiences, fostering a vibrant community that thrives on exclusivity and high-profile living. With dreams of taking over the crypto space, Bunny invites everyone to stack their $BUNNY and join a movement that’s all about living the extraordinary life."
+  },
+  {
+    "index": 3035,
+    "cmcId": 31716,
+    "chainId": 1,
+    "contractAddress": {
+      "1": "0xdE5a7D2815782d0f3426fD7bA29010dECb543216"
+    },
+    "billType": "reserve",
+    "billVersion": "V3",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+      },
+      "decimals": {
+        "1": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "SKAI",
+      "address": {
+        "1": "0xCF078DA6e85389de507ceeDE0E3d217e457B9d49"
+      },
+      "decimals": {
+        "1": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "1": "UniswapV2"
+      }
+    },
+    "billNnftAddress": {
+      "1": "0x499b654b0A7f9979CC315190C09cA2633809B8dF"
+    },
+    "inactive": false,
+    "projectLink": "https://www.skillfulai.io/",
+    "twitter": "https://x.com/SkillfulAI",
+    "initTime": {
+      "1": 1734551887
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ETH_Collection1"
+    },
+    "tags": ["AI"],
+    "shortDescription": "Skillful AI is a pioneering platform that delivers a personalized AI ecosystem, empowering users with advanced virtual assistants tailored to domain-specific knowledge and user-specific memories. Designed to keep individuals and developers ahead in the digital era, it offers tools to create and monetize AI solutions within a blockchain-powered ecosystem. With $SKAI as its utility token, Skillful AI enables seamless access to creator tools, marketplace transactions, and subscriptions, revolutionizing the way people interact with technology.",
+    "fullDescription": "Skillful AI is a cutting-edge platform designed to empower individuals and developers with a personalized AI ecosystem tailored to their needs. By providing advanced virtual assistants trained in domain-specific knowledge, Skillful AI keeps users at the forefront of technological advancements. With a focus on context-aware interactions and user-specific memories, it ensures meaningful and tailored experiences. For developers, it offers powerful tools to create, monetize, and share AI solutions, fostering collaboration within a blockchain-powered ecosystem. Skillful AI also leverages novel long-term memory solutions built with DePin, prioritizing user-owned data and innovation. Powered by its utility token, $SKAI, the platform streamlines access to AI creator tools, marketplace transactions, and subscriptions, revolutionizing how users interact with and shape the future of technology."
   }
 ]
