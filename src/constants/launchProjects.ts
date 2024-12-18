@@ -880,17 +880,32 @@ const launchProjects: LaunchProjectConfig[] = [
       marketingSubtitle: `We’re back with another launch! Intercellar is here with its exclusive launch that will revolutionize Real World Assets. <a href="https://www.intercellar.io/" target="_blank" rel="noopener noreferrer" style="color: #6560C5">Learn More \u003e</a>`,
       shortDescription:
         'InterCellar crafts a masterful blend of tradition and technology, harmonizing the expertise of founders, investors, partners, and media in a vibrant ecosystem that mirrors the intricate art of winemaking itself—powered by the $CELLAR token.',
-      fullDescription: `InterCellar revolutionizes the wine and spirits industry by transforming fine bottles into digital assets through NFTs, enabling seamless, secure trading and investment in luxury wines and spirits. 
-      <br/><br/>
-      With a focus on accessibility and enjoyment, InterCellar connects brands and consumers on an innovative e-commerce platform where users can purchase bottles and manage them as digital twins. 
-      <br/><br/>
-      Physical assets are securely stored in InterCellar’s warehouses, while their digital counterparts reside in the user’s “My Cellar” wallet, offering multiple options: hold the digital twin, resell it on the secondary market, or transfer it with ease. 
-      <br/><br/>
-      This guarantees authenticity, secure storage, and access to exclusive collections. Additionally, InterCellar’s $CELLAR loyalty token provides unique perks, including access to premium wines, discounts, and staking opportunities for rewards, making it the ultimate gateway to collecting and investing in fine wines and spirits.`,
+      fullDescription: `Another exciting launch is here! We're thrilled to partner with InterCellar to launch their token on the Polygon Chain! ⛓️!
+        <br/>
+        <br/>
+       InterCellar crafts a masterful blend of tradition and technology, harmonizing the expertise of founders, investors, partners, and media in a vibrant ecosystem that mirrors the intricate art of winemaking itself—powered by the $CELLAR token.
+      
+        <br/>
+        <br/>
+      📅 Launch Date: December 19th (schedule below).
+      📅 TGE Date: Mid January 2025
+      💵 IDO & TGE Price: $0.033.
+      💵 Purchases can be made with $USDC.
+      📜 Vesting Terms: 12% released at TGE, 8 months linear vesting (4-months cliff).
+        <br/>
+        <br/>
+        <br/>
+        🕔 Sale Schedule:<br/>
+        Dec 19th 17:00 - 21:00 UTC: Legend Tier
+      Dec 19th 21:00 - 01:00 UTC: Diamond (and above)
+      Dec 20th 01:00 - 05:00 UTC: Gold (and above)
+      Dec 20th 05:00 - 09:00 UTC: Silver (and above)
+      Dec 20th 09:00 - 13:00 UTC: Bronze (and above)
+      Dec 20th 13:00 - 17:00 UTC: FCFS, no tier required!`,
       tags: ['RWA'],
       socials: {
         twitter: 'https://x.com/InterCellar_',
-        teaserVideo: 'https://x.com/ApeBond/status/1867686738107195477', //TODO: update this
+        teaserVideo: 'https://x.com/InterCellar_/status/1802660140937593254', //TODO: update this
         tokenomicsURL: 'https://www.intercellar.io/cellar',
         website: 'https://www.intercellar.io/',
         whitepaper: 'https://intercellar-doc.gitbook.io/intercellar-doc',
