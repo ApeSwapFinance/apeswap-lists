@@ -56,7 +56,7 @@ const tokens: Record<string, Token> = {
     },
     active: true,
     liquidityDex: {
-      [ChainId.MAINNET]: LiquidityDex.External,
+      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
     },
   },
   skai: {
@@ -69,7 +69,7 @@ const tokens: Record<string, Token> = {
     },
     active: true,
     liquidityDex: {
-      [ChainId.MAINNET]: LiquidityDex.External,
+      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
     },
   },
   bpad: {

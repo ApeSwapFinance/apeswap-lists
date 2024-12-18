@@ -10234,7 +10234,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     },
     billType: 'reserve',
     billVersion: BillVersion.V3,
-    lpToken: tokens.eth,
+    lpToken: tokens.usdc,
     earnToken: tokens.bunny,
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0A7f9979CC315190C09cA2633809B8dF',
@@ -10260,7 +10260,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     },
     billType: 'reserve',
     billVersion: BillVersion.V3,
-    lpToken: tokens.eth,
+    lpToken: tokens.usdc,
     earnToken: tokens.skai,
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0A7f9979CC315190C09cA2633809B8dF',
