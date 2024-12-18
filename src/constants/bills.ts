@@ -10175,7 +10175,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     lpToken: tokens.eth,
     earnToken: tokens.wolf,
     billNnftAddress: {
-      [ChainId.MAINNET]: '0xeDF145A02763008ef760Cd75143796A40120e792',
+      [ChainId.MAINNET]: '0xE26D0184cF105e18128360E8Ff192667E59475D7',
     },
     inactive: false,
     projectLink: 'https://landwolf.com/',
