@@ -309,6 +309,7 @@ export interface BillsConfig {
   // * This is only used for the bond migration page
   vestingTerm?: number
   multiplier?: number
+  minTier?: LaunchBondTiers
 }
 
 export enum VaultVersion {
