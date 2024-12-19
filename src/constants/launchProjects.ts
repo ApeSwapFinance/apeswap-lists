@@ -891,7 +891,7 @@ const launchProjects: LaunchProjectConfig[] = [
       📅 TGE Date: Mid January 2025. <br/>
       💵 IDO & TGE Price: $0.033. <br/>
       💵 Purchases can be made with $USDC. <br/>
-      📜 Vesting Terms: 12% released at TGE, 8 months linear vesting (4-months cliff).
+      📜 Vesting Terms: 8% released at TGE, 8 months linear vesting (4-months cliff).
         <br/>
         <br/>
         <br/>
