@@ -1,5 +1,4 @@
-import { ChainId } from '@ape.swap/sdk'
-import { PoolConfig, PoolCategory } from '../types'
+import { PoolConfig, PoolCategory, ChainId } from '../types'
 import tokens from './tokens'
 
 // Current BNB Sous ID is 2
