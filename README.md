@@ -6,7 +6,7 @@ When you would like to make an edit to one of the lists in this repo, please onl
 
 For example, to edit a farm:
 
-1. Open the `constants/farms.ts` file
+1. Open the `constants/farms.ts` file.
 2. Make the edits & save
 3. Run `yarn build` to apply these changes to the corresponding JSON files
 4. Run `yarn test` to make sure the JSON files are valid
@@ -194,6 +194,43 @@ billArt: {
 }
 ```
 
+### `billVersion`
+
+This property was added to be able to support multiple bonds ABIs.
+We should use as follows:
+
+- **V2**
+  - BSC
+  - MATIC
+  - ARBITRUM
+  - LINEA
+  - LIGHTLINK
+  - IOTA
+  - BASE
+- **V3**
+  - MAINNET
+  - INEVM
+  - **every new chain we support in the future**
+- **V1** (legacy, not used anymore)
+- **FixedPrice** (used for Migration Bonds and Cex Fund Bonds)
+- **TieredSale** (used for Launchpad Bonds)
+- **FlashTieredSale** (used for Flash Bonds)
+
+```ts
+export enum BillVersion {
+  V1 = 'V1',
+  V2 = 'V2',
+  FixedPrice = 'FixedPrice',
+  V3 = 'V3',
+  TieredSale = 'TieredSale',
+  FlashTieredSale = 'FlashTieredSale',
+}
+```
+
+```ts
+billVersion: BillVersion.V3
+```
+
 # Example
 
 ```ts
@@ -205,8 +242,8 @@ billArt: {
     billType: 'liquidity',
     billVersion: BillVersion.V2,
     token: tokens.quick,
-    quoteToken: tokens.wmatic,
-    lpToken: tokens.quickMatic,
+    quoteToken: tokens.wpol,
+    lpToken: tokens.quickPol,
     earnToken: tokens.TTT,
     billNnftAddress: {
       [ChainId.MATIC]: '0xa1c78af783fb9ea7be790cbbd01abff63beae769',
