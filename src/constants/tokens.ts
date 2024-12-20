@@ -432,6 +432,17 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.UniswapV2,
     },
   },
+  rdx: {
+    symbol: 'RDX',
+    address: {
+      [ChainId.BASE]: '0x2659631CfBE9B1b6DcBc1384a3864509356E7B4d',
+    },
+    decimals: { [ChainId.MAINNET]: 18 },
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV2,
+    },
+    active: true,
+  },
   tkn: {
     symbol: 'TKN',
     address: {
@@ -3564,17 +3575,6 @@ const tokens: Record<string, Token> = {
     symbol: 'CIRUS',
     address: {
       [ChainId.MAINNET]: '0xA01199c61841Fce3b3daFB83FeFC1899715c8756',
-    },
-    decimals: { [ChainId.MAINNET]: 18 },
-    liquidityDex: {
-      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
-    },
-    active: true,
-  },
-  rdx: {
-    symbol: 'RDX',
-    address: {
-      [ChainId.MAINNET]: '0x2659631CfBE9B1b6DcBc1384a3864509356E7B4d',
     },
     decimals: { [ChainId.MAINNET]: 18 },
     liquidityDex: {
