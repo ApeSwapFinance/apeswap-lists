@@ -432,6 +432,17 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.UniswapV2,
     },
   },
+  rdx: {
+    symbol: 'RDX',
+    address: {
+      [ChainId.BASE]: '0x2659631CfBE9B1b6DcBc1384a3864509356E7B4d',
+    },
+    decimals: { [ChainId.BASE]: 18 },
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV2,
+    },
+    active: true,
+  },
   tkn: {
     symbol: 'TKN',
     address: {
