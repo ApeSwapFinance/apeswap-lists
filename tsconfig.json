@@ -1,8 +1,9 @@
 {
-  "include": ["src"],
+  "include": ["src/types"],
   "compilerOptions": {
     "target": "es2018",
     "module": "esnext",
+    "outDir": "./lib",
     "importHelpers": true,
     "declaration": true,
     "sourceMap": true,

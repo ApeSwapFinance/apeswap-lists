@@ -8,7 +8,6 @@ import {
   dualFarms,
   nfaStakingPools,
   iaos,
-  zapInputTokens,
   farmsV2,
   vaultsV3,
 } from '../src/constants'
@@ -23,9 +22,9 @@ import vaultsJson from '../config/vaults.json'
 import dualFarmsJson from '../config/dualFarms.json'
 import nfaStakingPoolJson from '../config/nfaStakingPools.json'
 import iaosJson from '../config/iaos.json'
-import zapInputTokensJson from '../config/zapInputTokens.json'
+import { stringifyList } from '../src'
 
-const stringifiedBills = JSON.stringify(bills, null, 2)
+const stringifiedBills = stringifyList(bills, 'bills')
 const stringifiedBillsJson = JSON.stringify(billsJson, null, 2)
 
 const stringifiedFarms = JSON.stringify(farms, null, 2)
@@ -58,9 +57,6 @@ const stringifiedNfaStakingPoolsJson = JSON.stringify(nfaStakingPoolJson, null, 
 
 const stringifyIaos = JSON.stringify(iaos, null, 2)
 const stringifiedIaosJson = JSON.stringify(iaosJson, null, 2)
-
-const stringifyZapInputTokens = JSON.stringify(zapInputTokens, null, 2)
-const stringifiedZapInputTokensJson = JSON.stringify(zapInputTokensJson, null, 2)
 
 describe('JSON files are most recent and are correct', () => {
   it('Test if bills have been generated', () => {
@@ -95,8 +91,5 @@ describe('JSON files are most recent and are correct', () => {
   })
   it('Test if iaos have been generated', () => {
     expect(stringifiedIaosJson).toBe(stringifyIaos)
-  })
-  it('Test if zap Input Tokens have been generated', () => {
-    expect(stringifiedZapInputTokensJson).toBe(stringifyZapInputTokens)
   })
 })

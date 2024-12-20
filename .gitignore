@@ -5,6 +5,8 @@ node_modules
 # production
 build
 dist
+lib
+lib/types
 
 # misc
 .DS_Store

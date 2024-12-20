@@ -1,6 +1,5 @@
 import BigNumber from 'bignumber.js'
-import { ChainId } from '@ape.swap/sdk'
-import { PoolConfig, PoolCategory } from '../types'
+import { PoolConfig, PoolCategory, ChainId } from '../types'
 import tokens from './tokens'
 
 const BANANA_PER_BLOCK = new BigNumber(10)

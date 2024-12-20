@@ -1,6 +1,7 @@
 [
   {
     "index": 0,
+    "chainId": 56,
     "round": "1",
     "totalRaiseString": "$150K",
     "discountString": "3%",
@@ -18,8 +19,12 @@
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
-        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
       },
       "decimals": {
         "1": 6,
@@ -27,12 +32,23 @@
         "56": 18,
         "97": 18,
         "137": 6,
+        "1890": 6,
         "2525": 6,
-        "42161": 6
+        "8453": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "56": "PancakeSwapV3",
+        "137": "UniswapV3",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8453": "UniswapV3",
+        "8822": "Wagmi",
+        "42161": "UniswapV3",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -42,16 +58,23 @@
         "40": "0xf390830DF829cf22c53c8840554B98eafC5dCBc2",
         "56": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
         "97": "0x6ce8dA28E2f864420840cF74474eFf5fD80E65B8",
-        "137": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6"
+        "137": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+        "8453": "0x0c41F1FC9022FEB69aF6dc666aBfE73C9FFDA7ce",
+        "42161": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+        "59144": "0x3aAB2285ddcDdaD8edf438C1bAB47e1a9D05a9b4"
       },
       "decimals": {
         "40": 8,
         "56": 18,
         "97": 18,
-        "137": 18
+        "137": 18,
+        "8453": 18,
+        "42161": 8,
+        "59144": 8
       },
       "liquidityDex": {
-        "56": "PancakeSwapV3"
+        "56": "PancakeSwapV3",
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -78,6 +101,7 @@
   },
   {
     "index": 1,
+    "chainId": 56,
     "round": "1",
     "totalRaiseString": "$50K",
     "discountString": "2%",
@@ -95,8 +119,12 @@
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
-        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
       },
       "decimals": {
         "1": 6,
@@ -104,12 +132,23 @@
         "56": 18,
         "97": 18,
         "137": 6,
+        "1890": 6,
         "2525": 6,
-        "42161": 6
+        "8453": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "56": "PancakeSwapV3",
+        "137": "UniswapV3",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8453": "UniswapV3",
+        "8822": "Wagmi",
+        "42161": "UniswapV3",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -119,16 +158,23 @@
         "40": "0xf390830DF829cf22c53c8840554B98eafC5dCBc2",
         "56": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
         "97": "0x6ce8dA28E2f864420840cF74474eFf5fD80E65B8",
-        "137": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6"
+        "137": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+        "8453": "0x0c41F1FC9022FEB69aF6dc666aBfE73C9FFDA7ce",
+        "42161": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+        "59144": "0x3aAB2285ddcDdaD8edf438C1bAB47e1a9D05a9b4"
       },
       "decimals": {
         "40": 8,
         "56": 18,
         "97": 18,
-        "137": 18
+        "137": 18,
+        "8453": 18,
+        "42161": 8,
+        "59144": 8
       },
       "liquidityDex": {
-        "56": "PancakeSwapV3"
+        "56": "PancakeSwapV3",
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -155,6 +201,7 @@
   },
   {
     "index": 2,
+    "chainId": 56,
     "round": "2",
     "totalRaiseString": "$250K",
     "discountString": "3%",
@@ -172,8 +219,12 @@
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
-        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
       },
       "decimals": {
         "1": 6,
@@ -181,12 +232,23 @@
         "56": 18,
         "97": 18,
         "137": 6,
+        "1890": 6,
         "2525": 6,
-        "42161": 6
+        "8453": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "56": "PancakeSwapV3",
+        "137": "UniswapV3",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8453": "UniswapV3",
+        "8822": "Wagmi",
+        "42161": "UniswapV3",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -198,7 +260,12 @@
         "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
         "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
         "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+        "614": "0xbeED106D0f2e6950BFa1Eec74E1253CA0a643442",
+        "1890": "0x7EbeF2A4b1B09381Ec5B9dF8C5c6f2dBECA59c73",
+        "8453": "0x4200000000000000000000000000000000000006",
+        "8822": "0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+        "59144": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f"
       },
       "decimals": {
         "1": 18,
@@ -206,7 +273,20 @@
         "56": 18,
         "97": 18,
         "137": 18,
-        "42161": 18
+        "614": 18,
+        "1890": 18,
+        "8453": 18,
+        "8822": 18,
+        "42161": 18,
+        "59144": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV3",
+        "614": "External",
+        "1890": "Elektrik",
+        "8453": "Aerodrome",
+        "8822": "MagicSea",
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -233,6 +313,7 @@
   },
   {
     "index": 3,
+    "chainId": 56,
     "round": "2",
     "totalRaiseString": "$75K",
     "discountString": "2%",
@@ -250,8 +331,12 @@
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
-        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
       },
       "decimals": {
         "1": 6,
@@ -259,12 +344,23 @@
         "56": 18,
         "97": 18,
         "137": 6,
+        "1890": 6,
         "2525": 6,
-        "42161": 6
+        "8453": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "56": "PancakeSwapV3",
+        "137": "UniswapV3",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8453": "UniswapV3",
+        "8822": "Wagmi",
+        "42161": "UniswapV3",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -276,7 +372,12 @@
         "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
         "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
         "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+        "614": "0xbeED106D0f2e6950BFa1Eec74E1253CA0a643442",
+        "1890": "0x7EbeF2A4b1B09381Ec5B9dF8C5c6f2dBECA59c73",
+        "8453": "0x4200000000000000000000000000000000000006",
+        "8822": "0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+        "59144": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f"
       },
       "decimals": {
         "1": 18,
@@ -284,7 +385,20 @@
         "56": 18,
         "97": 18,
         "137": 18,
-        "42161": 18
+        "614": 18,
+        "1890": 18,
+        "8453": 18,
+        "8822": 18,
+        "42161": 18,
+        "59144": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV3",
+        "614": "External",
+        "1890": "Elektrik",
+        "8453": "Aerodrome",
+        "8822": "MagicSea",
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -311,6 +425,7 @@
   },
   {
     "index": 4,
+    "chainId": 56,
     "round": "3",
     "totalRaiseString": "$180K",
     "discountString": "3%",
@@ -328,8 +443,12 @@
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
-        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
       },
       "decimals": {
         "1": 6,
@@ -337,12 +456,23 @@
         "56": 18,
         "97": 18,
         "137": 6,
+        "1890": 6,
         "2525": 6,
-        "42161": 6
+        "8453": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "56": "PancakeSwapV3",
+        "137": "UniswapV3",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8453": "UniswapV3",
+        "8822": "Wagmi",
+        "42161": "UniswapV3",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -357,6 +487,9 @@
         "56": 18,
         "97": 18,
         "137": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
       },
       "active": true
     },
@@ -383,6 +516,7 @@
   },
   {
     "index": 5,
+    "chainId": 56,
     "round": "3",
     "totalRaiseString": "$60K",
     "discountString": "2%",
@@ -400,8 +534,12 @@
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
-        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
       },
       "decimals": {
         "1": 6,
@@ -409,12 +547,23 @@
         "56": 18,
         "97": 18,
         "137": 6,
+        "1890": 6,
         "2525": 6,
-        "42161": 6
+        "8453": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "56": "PancakeSwapV3",
+        "137": "UniswapV3",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8453": "UniswapV3",
+        "8822": "Wagmi",
+        "42161": "UniswapV3",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -429,6 +578,9 @@
         "56": 18,
         "97": 18,
         "137": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
       },
       "active": true
     },
@@ -455,6 +607,7 @@
   },
   {
     "index": 6,
+    "chainId": 56,
     "round": "3",
     "totalRaiseString": "$25K",
     "discountString": "1%",
@@ -472,8 +625,12 @@
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
-        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
       },
       "decimals": {
         "1": 6,
@@ -481,12 +638,23 @@
         "56": 18,
         "97": 18,
         "137": 6,
+        "1890": 6,
         "2525": 6,
-        "42161": 6
+        "8453": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "56": "PancakeSwapV3",
+        "137": "UniswapV3",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8453": "UniswapV3",
+        "8822": "Wagmi",
+        "42161": "UniswapV3",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -501,6 +669,9 @@
         "56": 18,
         "97": 18,
         "137": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
       },
       "active": true
     },
@@ -527,6 +698,7 @@
   },
   {
     "index": 7,
+    "chainId": 56,
     "round": "4",
     "totalRaiseString": "$160K",
     "discountString": "3%",
@@ -544,8 +716,12 @@
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
-        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
       },
       "decimals": {
         "1": 6,
@@ -553,12 +729,23 @@
         "56": 18,
         "97": 18,
         "137": 6,
+        "1890": 6,
         "2525": 6,
-        "42161": 6
+        "8453": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "56": "PancakeSwapV3",
+        "137": "UniswapV3",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8453": "UniswapV3",
+        "8822": "Wagmi",
+        "42161": "UniswapV3",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -568,16 +755,23 @@
         "40": "0xf390830DF829cf22c53c8840554B98eafC5dCBc2",
         "56": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
         "97": "0x6ce8dA28E2f864420840cF74474eFf5fD80E65B8",
-        "137": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6"
+        "137": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+        "8453": "0x0c41F1FC9022FEB69aF6dc666aBfE73C9FFDA7ce",
+        "42161": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+        "59144": "0x3aAB2285ddcDdaD8edf438C1bAB47e1a9D05a9b4"
       },
       "decimals": {
         "40": 8,
         "56": 18,
         "97": 18,
-        "137": 18
+        "137": 18,
+        "8453": 18,
+        "42161": 8,
+        "59144": 8
       },
       "liquidityDex": {
-        "56": "PancakeSwapV3"
+        "56": "PancakeSwapV3",
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -604,6 +798,7 @@
   },
   {
     "index": 8,
+    "chainId": 56,
     "round": "4",
     "totalRaiseString": "$60K",
     "discountString": "2%",
@@ -621,8 +816,12 @@
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
-        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
       },
       "decimals": {
         "1": 6,
@@ -630,12 +829,23 @@
         "56": 18,
         "97": 18,
         "137": 6,
+        "1890": 6,
         "2525": 6,
-        "42161": 6
+        "8453": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "56": "PancakeSwapV3",
+        "137": "UniswapV3",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8453": "UniswapV3",
+        "8822": "Wagmi",
+        "42161": "UniswapV3",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -645,16 +855,23 @@
         "40": "0xf390830DF829cf22c53c8840554B98eafC5dCBc2",
         "56": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
         "97": "0x6ce8dA28E2f864420840cF74474eFf5fD80E65B8",
-        "137": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6"
+        "137": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+        "8453": "0x0c41F1FC9022FEB69aF6dc666aBfE73C9FFDA7ce",
+        "42161": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+        "59144": "0x3aAB2285ddcDdaD8edf438C1bAB47e1a9D05a9b4"
       },
       "decimals": {
         "40": 8,
         "56": 18,
         "97": 18,
-        "137": 18
+        "137": 18,
+        "8453": 18,
+        "42161": 8,
+        "59144": 8
       },
       "liquidityDex": {
-        "56": "PancakeSwapV3"
+        "56": "PancakeSwapV3",
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -681,6 +898,7 @@
   },
   {
     "index": 9,
+    "chainId": 56,
     "round": "5",
     "totalRaiseString": "$120K",
     "discountString": "3%",
@@ -698,8 +916,12 @@
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
-        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
       },
       "decimals": {
         "1": 6,
@@ -707,12 +929,23 @@
         "56": 18,
         "97": 18,
         "137": 6,
+        "1890": 6,
         "2525": 6,
-        "42161": 6
+        "8453": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "56": "PancakeSwapV3",
+        "137": "UniswapV3",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8453": "UniswapV3",
+        "8822": "Wagmi",
+        "42161": "UniswapV3",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -722,16 +955,23 @@
         "40": "0xf390830DF829cf22c53c8840554B98eafC5dCBc2",
         "56": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
         "97": "0x6ce8dA28E2f864420840cF74474eFf5fD80E65B8",
-        "137": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6"
+        "137": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+        "8453": "0x0c41F1FC9022FEB69aF6dc666aBfE73C9FFDA7ce",
+        "42161": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+        "59144": "0x3aAB2285ddcDdaD8edf438C1bAB47e1a9D05a9b4"
       },
       "decimals": {
         "40": 8,
         "56": 18,
         "97": 18,
-        "137": 18
+        "137": 18,
+        "8453": 18,
+        "42161": 8,
+        "59144": 8
       },
       "liquidityDex": {
-        "56": "PancakeSwapV3"
+        "56": "PancakeSwapV3",
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -758,6 +998,7 @@
   },
   {
     "index": 10,
+    "chainId": 56,
     "round": "5",
     "totalRaiseString": "$50K",
     "discountString": "2%",
@@ -775,8 +1016,12 @@
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
-        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
       },
       "decimals": {
         "1": 6,
@@ -784,12 +1029,23 @@
         "56": 18,
         "97": 18,
         "137": 6,
+        "1890": 6,
         "2525": 6,
-        "42161": 6
+        "8453": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "56": "PancakeSwapV3",
+        "137": "UniswapV3",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8453": "UniswapV3",
+        "8822": "Wagmi",
+        "42161": "UniswapV3",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -799,16 +1055,23 @@
         "40": "0xf390830DF829cf22c53c8840554B98eafC5dCBc2",
         "56": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
         "97": "0x6ce8dA28E2f864420840cF74474eFf5fD80E65B8",
-        "137": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6"
+        "137": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+        "8453": "0x0c41F1FC9022FEB69aF6dc666aBfE73C9FFDA7ce",
+        "42161": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+        "59144": "0x3aAB2285ddcDdaD8edf438C1bAB47e1a9D05a9b4"
       },
       "decimals": {
         "40": 8,
         "56": 18,
         "97": 18,
-        "137": 18
+        "137": 18,
+        "8453": 18,
+        "42161": 8,
+        "59144": 8
       },
       "liquidityDex": {
-        "56": "PancakeSwapV3"
+        "56": "PancakeSwapV3",
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -835,12 +1098,13 @@
   },
   {
     "index": 11,
+    "chainId": 56,
     "round": "6",
-    "totalRaiseString": "??",
+    "totalRaiseString": "100K",
     "discountString": "3%",
     "tierString": "legend",
     "contractAddress": {
-      "56": ""
+      "56": "0x529C86133833347B1DEc32Daf368c9ed74c8cd10"
     },
     "billVersion": "FlashTieredSale",
     "billType": "oversubscription",
@@ -852,8 +1116,12 @@
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
-        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
       },
       "decimals": {
         "1": 6,
@@ -861,12 +1129,23 @@
         "56": 18,
         "97": 18,
         "137": 6,
+        "1890": 6,
         "2525": 6,
-        "42161": 6
+        "8453": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "56": "PancakeSwapV3",
+        "137": "UniswapV3",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8453": "UniswapV3",
+        "8822": "Wagmi",
+        "42161": "UniswapV3",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -878,7 +1157,12 @@
         "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
         "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
         "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+        "614": "0xbeED106D0f2e6950BFa1Eec74E1253CA0a643442",
+        "1890": "0x7EbeF2A4b1B09381Ec5B9dF8C5c6f2dBECA59c73",
+        "8453": "0x4200000000000000000000000000000000000006",
+        "8822": "0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+        "59144": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f"
       },
       "decimals": {
         "1": 18,
@@ -886,7 +1170,20 @@
         "56": 18,
         "97": 18,
         "137": 18,
-        "42161": 18
+        "614": 18,
+        "1890": 18,
+        "8453": 18,
+        "8822": 18,
+        "42161": 18,
+        "59144": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV3",
+        "614": "External",
+        "1890": "Elektrik",
+        "8453": "Aerodrome",
+        "8822": "MagicSea",
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -898,27 +1195,28 @@
       "collection": "ApeBond_Collection1"
     },
     "initTime": {
-      "56": 1716663600
+      "56": 1716577800
     },
     "finishTime": {
-      "56": 1716665400
+      "56": 1716579600
     },
     "startVestingTimestamp": {
-      "56": 1716665400
+      "56": 1716579600
     },
     "initPrice": {
-      "56": 0
+      "56": 3621.98
     },
     "initialRelease": 100
   },
   {
     "index": 12,
+    "chainId": 56,
     "round": "6",
-    "totalRaiseString": "??",
+    "totalRaiseString": "40K",
     "discountString": "2%",
     "tierString": "diamond",
     "contractAddress": {
-      "56": ""
+      "56": "0x4eA7b39560edFFA2717539984e80d699dC94B36F"
     },
     "billVersion": "FlashTieredSale",
     "billType": "oversubscription",
@@ -930,8 +1228,12 @@
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
-        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
       },
       "decimals": {
         "1": 6,
@@ -939,12 +1241,23 @@
         "56": 18,
         "97": 18,
         "137": 6,
+        "1890": 6,
         "2525": 6,
-        "42161": 6
+        "8453": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "56": "PancakeSwapV3",
+        "137": "UniswapV3",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8453": "UniswapV3",
+        "8822": "Wagmi",
+        "42161": "UniswapV3",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -956,7 +1269,12 @@
         "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
         "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
         "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+        "614": "0xbeED106D0f2e6950BFa1Eec74E1253CA0a643442",
+        "1890": "0x7EbeF2A4b1B09381Ec5B9dF8C5c6f2dBECA59c73",
+        "8453": "0x4200000000000000000000000000000000000006",
+        "8822": "0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+        "59144": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f"
       },
       "decimals": {
         "1": 18,
@@ -964,7 +1282,20 @@
         "56": 18,
         "97": 18,
         "137": 18,
-        "42161": 18
+        "614": 18,
+        "1890": 18,
+        "8453": 18,
+        "8822": 18,
+        "42161": 18,
+        "59144": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV3",
+        "614": "External",
+        "1890": "Elektrik",
+        "8453": "Aerodrome",
+        "8822": "MagicSea",
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -976,27 +1307,28 @@
       "collection": "ApeBond_Collection1"
     },
     "initTime": {
-      "56": 1716660000
+      "56": 1716574500
     },
     "finishTime": {
-      "56": 1716661800
+      "56": 1716576000
     },
     "startVestingTimestamp": {
-      "56": 1716661800
+      "56": 1716576000
     },
     "initPrice": {
-      "56": 0
+      "56": 3637.76
     },
     "initialRelease": 100
   },
   {
     "index": 13,
+    "chainId": 56,
     "round": "6",
-    "totalRaiseString": "??",
+    "totalRaiseString": "20K",
     "discountString": "1%",
     "tierString": "gold",
     "contractAddress": {
-      "56": ""
+      "56": "0xaB2C831ff65bBfac06b3D91E0422B03E229b852d"
     },
     "billVersion": "FlashTieredSale",
     "billType": "oversubscription",
@@ -1008,8 +1340,12 @@
         "56": "0x55d398326f99059fF775485246999027B3197955",
         "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
         "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
         "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
-        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
       },
       "decimals": {
         "1": 6,
@@ -1017,12 +1353,23 @@
         "56": 18,
         "97": 18,
         "137": 6,
+        "1890": 6,
         "2525": 6,
-        "42161": 6
+        "8453": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
       },
       "liquidityDex": {
         "1": "UniswapV2",
-        "2525": "External"
+        "56": "PancakeSwapV3",
+        "137": "UniswapV3",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8453": "UniswapV3",
+        "8822": "Wagmi",
+        "42161": "UniswapV3",
+        "59144": "Nile"
       },
       "active": true
     },
@@ -1034,7 +1381,12 @@
         "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
         "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
         "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+        "614": "0xbeED106D0f2e6950BFa1Eec74E1253CA0a643442",
+        "1890": "0x7EbeF2A4b1B09381Ec5B9dF8C5c6f2dBECA59c73",
+        "8453": "0x4200000000000000000000000000000000000006",
+        "8822": "0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+        "59144": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f"
       },
       "decimals": {
         "1": 18,
@@ -1042,7 +1394,20 @@
         "56": 18,
         "97": 18,
         "137": 18,
-        "42161": 18
+        "614": 18,
+        "1890": 18,
+        "8453": 18,
+        "8822": 18,
+        "42161": 18,
+        "59144": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV3",
+        "614": "External",
+        "1890": "Elektrik",
+        "8453": "Aerodrome",
+        "8822": "MagicSea",
+        "59144": "Lynex"
       },
       "active": true
     },
@@ -1054,16 +1419,922 @@
       "collection": "ApeBond_Collection1"
     },
     "initTime": {
-      "56": 1716656400
+      "56": 1716570000
     },
     "finishTime": {
-      "56": 1716658200
+      "56": 1716571800
     },
     "startVestingTimestamp": {
-      "56": 1716658200
+      "56": 1716571800
     },
     "initPrice": {
-      "56": 0
+      "56": 3644.19
+    },
+    "initialRelease": 100
+  },
+  {
+    "index": 14,
+    "chainId": 56,
+    "round": "7",
+    "totalRaiseString": "30K",
+    "discountString": "2%",
+    "tierString": "diamond",
+    "contractAddress": {
+      "56": "0xDe60F960c8030FdE9d8eE212Ed04ffE06b294195"
+    },
+    "billVersion": "FlashTieredSale",
+    "billType": "oversubscription",
+    "token": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "1890": 6,
+        "2525": 6,
+        "8453": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "56": "PancakeSwapV3",
+        "137": "UniswapV3",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8453": "UniswapV3",
+        "8822": "Wagmi",
+        "42161": "UniswapV3",
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "BTC",
+      "address": {
+        "40": "0xf390830DF829cf22c53c8840554B98eafC5dCBc2",
+        "56": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+        "97": "0x6ce8dA28E2f864420840cF74474eFf5fD80E65B8",
+        "137": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+        "8453": "0x0c41F1FC9022FEB69aF6dc666aBfE73C9FFDA7ce",
+        "42161": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+        "59144": "0x3aAB2285ddcDdaD8edf438C1bAB47e1a9D05a9b4"
+      },
+      "decimals": {
+        "40": 8,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "8453": 18,
+        "42161": 8,
+        "59144": 8
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3",
+        "59144": "Lynex"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "initTime": {
+      "56": 1721926800
+    },
+    "finishTime": {
+      "56": 1721928600
+    },
+    "startVestingTimestamp": {
+      "56": 1721928600
+    },
+    "initPrice": {
+      "56": 63694.46
+    },
+    "initialRelease": 100
+  },
+  {
+    "index": 15,
+    "chainId": 56,
+    "round": "7",
+    "totalRaiseString": "100K",
+    "discountString": "3%",
+    "tierString": "legend",
+    "contractAddress": {
+      "56": "0xC43ef242F2a18bD51Aa9F19dc967b5b0ebbf22DB"
+    },
+    "billVersion": "FlashTieredSale",
+    "billType": "oversubscription",
+    "token": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "1890": 6,
+        "2525": 6,
+        "8453": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "56": "PancakeSwapV3",
+        "137": "UniswapV3",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8453": "UniswapV3",
+        "8822": "Wagmi",
+        "42161": "UniswapV3",
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "BTC",
+      "address": {
+        "40": "0xf390830DF829cf22c53c8840554B98eafC5dCBc2",
+        "56": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+        "97": "0x6ce8dA28E2f864420840cF74474eFf5fD80E65B8",
+        "137": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+        "8453": "0x0c41F1FC9022FEB69aF6dc666aBfE73C9FFDA7ce",
+        "42161": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+        "59144": "0x3aAB2285ddcDdaD8edf438C1bAB47e1a9D05a9b4"
+      },
+      "decimals": {
+        "40": 8,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "8453": 18,
+        "42161": 8,
+        "59144": 8
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3",
+        "59144": "Lynex"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "initTime": {
+      "56": 1721930400
+    },
+    "finishTime": {
+      "56": 1721932200
+    },
+    "startVestingTimestamp": {
+      "56": 1721932200
+    },
+    "initPrice": {
+      "56": 63184.83
+    },
+    "initialRelease": 100
+  },
+  {
+    "index": 16,
+    "chainId": 56,
+    "round": "8",
+    "totalRaiseString": "40K",
+    "discountString": "2%",
+    "tierString": "diamond",
+    "contractAddress": {
+      "56": "0xB5BDD2f66d2AF0d2a1Fe976aF754DeBb3092e787"
+    },
+    "billVersion": "FlashTieredSale",
+    "billType": "oversubscription",
+    "token": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "1890": 6,
+        "2525": 6,
+        "8453": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "56": "PancakeSwapV3",
+        "137": "UniswapV3",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8453": "UniswapV3",
+        "8822": "Wagmi",
+        "42161": "UniswapV3",
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "614": "0xbeED106D0f2e6950BFa1Eec74E1253CA0a643442",
+        "1890": "0x7EbeF2A4b1B09381Ec5B9dF8C5c6f2dBECA59c73",
+        "8453": "0x4200000000000000000000000000000000000006",
+        "8822": "0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+        "59144": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "614": 18,
+        "1890": 18,
+        "8453": 18,
+        "8822": 18,
+        "42161": 18,
+        "59144": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV3",
+        "614": "External",
+        "1890": "Elektrik",
+        "8453": "Aerodrome",
+        "8822": "MagicSea",
+        "59144": "Lynex"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "initTime": {
+      "56": 1722531600
+    },
+    "finishTime": {
+      "56": 1722533400
+    },
+    "startVestingTimestamp": {
+      "56": 1722533400
+    },
+    "initPrice": {
+      "56": 3072.3
+    },
+    "initialRelease": 100
+  },
+  {
+    "index": 17,
+    "chainId": 56,
+    "round": "8",
+    "totalRaiseString": "120K",
+    "discountString": "3%",
+    "tierString": "legend",
+    "contractAddress": {
+      "56": "0x414ca50BA21a092d875618Dfd140Da6927e1a1C3"
+    },
+    "billVersion": "FlashTieredSale",
+    "billType": "oversubscription",
+    "token": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "1890": 6,
+        "2525": 6,
+        "8453": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "56": "PancakeSwapV3",
+        "137": "UniswapV3",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8453": "UniswapV3",
+        "8822": "Wagmi",
+        "42161": "UniswapV3",
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "614": "0xbeED106D0f2e6950BFa1Eec74E1253CA0a643442",
+        "1890": "0x7EbeF2A4b1B09381Ec5B9dF8C5c6f2dBECA59c73",
+        "8453": "0x4200000000000000000000000000000000000006",
+        "8822": "0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+        "59144": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f"
+      },
+      "decimals": {
+        "1": 18,
+        "40": 18,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "614": 18,
+        "1890": 18,
+        "8453": 18,
+        "8822": 18,
+        "42161": 18,
+        "59144": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV3",
+        "614": "External",
+        "1890": "Elektrik",
+        "8453": "Aerodrome",
+        "8822": "MagicSea",
+        "59144": "Lynex"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "initTime": {
+      "56": 1722535200
+    },
+    "finishTime": {
+      "56": 1722537000
+    },
+    "startVestingTimestamp": {
+      "56": 1722537000
+    },
+    "initPrice": {
+      "56": 3026.4
+    },
+    "initialRelease": 100
+  },
+  {
+    "index": 18,
+    "chainId": 56,
+    "round": "9",
+    "totalRaiseString": "15K",
+    "discountString": "1%",
+    "tierString": "gold",
+    "contractAddress": {
+      "56": "0xA90550d98A025a121684103001dceC57e2c35655"
+    },
+    "billVersion": "FlashTieredSale",
+    "billType": "oversubscription",
+    "token": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "1890": 6,
+        "2525": 6,
+        "8453": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "56": "PancakeSwapV3",
+        "137": "UniswapV3",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8453": "UniswapV3",
+        "8822": "Wagmi",
+        "42161": "UniswapV3",
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "BTC",
+      "address": {
+        "40": "0xf390830DF829cf22c53c8840554B98eafC5dCBc2",
+        "56": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+        "97": "0x6ce8dA28E2f864420840cF74474eFf5fD80E65B8",
+        "137": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+        "8453": "0x0c41F1FC9022FEB69aF6dc666aBfE73C9FFDA7ce",
+        "42161": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+        "59144": "0x3aAB2285ddcDdaD8edf438C1bAB47e1a9D05a9b4"
+      },
+      "decimals": {
+        "40": 8,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "8453": 18,
+        "42161": 8,
+        "59144": 8
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3",
+        "59144": "Lynex"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "initTime": {
+      "56": 1723741200
+    },
+    "finishTime": {
+      "56": 1723743000
+    },
+    "startVestingTimestamp": {
+      "56": 1723743000
+    },
+    "initPrice": {
+      "56": 59305.95
+    },
+    "initialRelease": 100
+  },
+  {
+    "index": 19,
+    "chainId": 56,
+    "round": "10",
+    "totalRaiseString": "30K",
+    "discountString": "2%",
+    "tierString": "diamond",
+    "contractAddress": {
+      "56": "0x21826d800DB0aEb64FA77Cc7CF18f0758D4ab37b"
+    },
+    "billVersion": "FlashTieredSale",
+    "billType": "oversubscription",
+    "token": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "1890": 6,
+        "2525": 6,
+        "8453": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "56": "PancakeSwapV3",
+        "137": "UniswapV3",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8453": "UniswapV3",
+        "8822": "Wagmi",
+        "42161": "UniswapV3",
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "BTC",
+      "address": {
+        "40": "0xf390830DF829cf22c53c8840554B98eafC5dCBc2",
+        "56": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+        "97": "0x6ce8dA28E2f864420840cF74474eFf5fD80E65B8",
+        "137": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+        "8453": "0x0c41F1FC9022FEB69aF6dc666aBfE73C9FFDA7ce",
+        "42161": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+        "59144": "0x3aAB2285ddcDdaD8edf438C1bAB47e1a9D05a9b4"
+      },
+      "decimals": {
+        "40": 8,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "8453": 18,
+        "42161": 8,
+        "59144": 8
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3",
+        "59144": "Lynex"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "initTime": {
+      "56": 1724346000
+    },
+    "finishTime": {
+      "56": 1724347800
+    },
+    "startVestingTimestamp": {
+      "56": 1724347800
+    },
+    "initPrice": {
+      "56": 59213.56
+    },
+    "initialRelease": 100
+  },
+  {
+    "index": 20,
+    "chainId": 56,
+    "round": "10",
+    "totalRaiseString": "100K",
+    "discountString": "3%",
+    "tierString": "legend",
+    "contractAddress": {
+      "56": "0x841354726E3E7684fe2Da8bC36820495cB7EBA9b"
+    },
+    "billVersion": "FlashTieredSale",
+    "billType": "oversubscription",
+    "token": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "1890": 6,
+        "2525": 6,
+        "8453": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "56": "PancakeSwapV3",
+        "137": "UniswapV3",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8453": "UniswapV3",
+        "8822": "Wagmi",
+        "42161": "UniswapV3",
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "BTC",
+      "address": {
+        "40": "0xf390830DF829cf22c53c8840554B98eafC5dCBc2",
+        "56": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+        "97": "0x6ce8dA28E2f864420840cF74474eFf5fD80E65B8",
+        "137": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+        "8453": "0x0c41F1FC9022FEB69aF6dc666aBfE73C9FFDA7ce",
+        "42161": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+        "59144": "0x3aAB2285ddcDdaD8edf438C1bAB47e1a9D05a9b4"
+      },
+      "decimals": {
+        "40": 8,
+        "56": 18,
+        "97": 18,
+        "137": 18,
+        "8453": 18,
+        "42161": 8,
+        "59144": 8
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3",
+        "59144": "Lynex"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "initTime": {
+      "56": 1724349600
+    },
+    "finishTime": {
+      "56": 1724351400
+    },
+    "startVestingTimestamp": {
+      "56": 1724351400
+    },
+    "initPrice": {
+      "56": 58609.34
+    },
+    "initialRelease": 100
+  },
+  {
+    "index": 21,
+    "chainId": 56,
+    "round": "11",
+    "totalRaiseString": "30K",
+    "discountString": "2%",
+    "tierString": "diamond",
+    "contractAddress": {
+      "56": "0x9c90e9790026C95ea929aA4db5762f9F807FAcCc"
+    },
+    "billVersion": "FlashTieredSale",
+    "billType": "oversubscription",
+    "token": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "1890": 6,
+        "2525": 6,
+        "8453": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "56": "PancakeSwapV3",
+        "137": "UniswapV3",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8453": "UniswapV3",
+        "8822": "Wagmi",
+        "42161": "UniswapV3",
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "initTime": {
+      "56": 1724950800
+    },
+    "finishTime": {
+      "56": 1724952600
+    },
+    "startVestingTimestamp": {
+      "56": 1724952600
+    },
+    "initPrice": {
+      "56": 535.08
+    },
+    "initialRelease": 100
+  },
+  {
+    "index": 22,
+    "chainId": 56,
+    "round": "11",
+    "totalRaiseString": "100K",
+    "discountString": "3%",
+    "tierString": "legend",
+    "contractAddress": {
+      "56": "0x75F9F5CcaF21e8941AF6a2F7cf1C91D7aF5D49e1"
+    },
+    "billVersion": "FlashTieredSale",
+    "billType": "oversubscription",
+    "token": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "1890": 6,
+        "2525": 6,
+        "8453": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "56": "PancakeSwapV3",
+        "137": "UniswapV3",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8453": "UniswapV3",
+        "8822": "Wagmi",
+        "42161": "UniswapV3",
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+        "137": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
+      },
+      "decimals": {
+        "56": 18,
+        "97": 18,
+        "137": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "initTime": {
+      "56": 1724954400
+    },
+    "finishTime": {
+      "56": 1724956200
+    },
+    "startVestingTimestamp": {
+      "56": 1724956200
+    },
+    "initPrice": {
+      "56": 529.62
     },
     "initialRelease": 100
   }
