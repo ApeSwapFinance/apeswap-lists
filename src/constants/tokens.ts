@@ -482,6 +482,19 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.UniswapV2,
     },
   },
+  grass: {
+    symbol: 'GRASS',
+    address: {
+      [ChainId.BASE]: '0xfcb49c1545d1D13272467f0d94E57A9aCa39725c',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV2,
+    },
+  },
   sam: {
     symbol: 'SAM',
     address: {
