@@ -482,6 +482,19 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.UniswapV2,
     },
   },
+  grass: {
+    symbol: 'GRASS',
+    address: {
+      [ChainId.BASE]: '0xfcb49c1545d1D13272467f0d94E57A9aCa39725c',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV2,
+    },
+  },
   sam: {
     symbol: 'SAM',
     address: {
@@ -4191,6 +4204,19 @@ const tokens: Record<string, Token> = {
     active: true,
     liquidityDex: {
       [ChainId.ARBITRUM]: LiquidityDex.UniswapV3,
+    },
+  },
+  eywa: {
+    symbol: 'EYWA',
+    address: {
+      [ChainId.ARBITRUM]: '0x7a10f506e4c7658e6ad15fdf0443d450b7fa80d7',
+    },
+    decimals: {
+      [ChainId.ARBITRUM]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.ARBITRUM]: LiquidityDex.Curve,
     },
   },
   wethLdy_Ichi: {

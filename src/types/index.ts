@@ -53,6 +53,7 @@ export enum LiquidityDex {
   Algebra = 'Algebra',
   QuickswapV2 = 'QuickswapV2',
   UniswapV3 = 'UniswapV3',
+  Curve = 'Curve',
   External = 'External',
 
   //Linea
@@ -127,6 +128,7 @@ export enum Protocols {
   Steer = 6, //deprecated. You probably want V3 or Algebra as this is a concentrated liquidity wrapper
   Solidly = 7,
   XFAI = 8,
+  Curve = 9,
 }
 
 export interface FarmStyles {
@@ -573,6 +575,10 @@ export const dexFactories: Partial<
       protocol: Protocols.V2,
       router: '0xc873fEcbd354f5A56E00E710B90EF4201db2448d',
     },
+    [LiquidityDex.Curve]: {
+      factory: '0x98EE851a00abeE0d95D08cF4CA2BdCE32aeaAF7F',
+      protocol: Protocols.Curve,
+    },
   },
   [ChainId.LINEA]: {
     [LiquidityDex.Spartadex]: {
@@ -684,6 +690,7 @@ export const defaultDexFactories: Partial<Record<ChainId, Partial<Record<Protoco
     [Protocols.V2]: dexFactories[ChainId.ARBITRUM]?.ApeSwapV2?.factory,
     [Protocols.V3]: dexFactories[ChainId.ARBITRUM]?.UniswapV3?.factory,
     [Protocols.Algebra]: dexFactories[ChainId.ARBITRUM]?.Algebra?.factory,
+    [Protocols.Curve]: dexFactories[ChainId.ARBITRUM]?.Curve?.factory,
   },
   [ChainId.LINEA]: {
     [Protocols.V2]: dexFactories[ChainId.LINEA]?.Spartadex?.factory,
@@ -771,4 +778,5 @@ export const dexToZapMapping: Record<LiquidityDex, Partial<Record<ChainId, ZapVe
   [LiquidityDex.Pangolin]: {
     [ChainId.AVAX]: ZapVersion.SoulZapApi,
   },
+  [LiquidityDex.Curve]: {},
 }
