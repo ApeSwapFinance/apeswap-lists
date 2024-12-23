@@ -181,10 +181,36 @@ const bills: BillsConfig[] = [
   // BASE
   //
   {
+    index: 8030,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0xff61126Df2449194b47928BdC6A91D01FE5AF57f',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.grass,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://sheertopia.io/',
+    twitter: 'https://x.com/sheertopia',
+    initTime: { [ChainId.BASE]: 1734692693 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['CHRISTMAS SALE'],
+    shortDescription: `Sheertopia is a gaming ecosystem blending AR and VR for immersive experiences while supporting iOS, Google Play, and blockchain interoperability. Its $GRASS token powers the economy with staking rewards, deflationary mechanics, and in-game utility across titles like Rise of Sheertopia. Players can stake for perks, NFTs, and esports access, with future updates introducing new use cases and token sinks.`,
+    fullDescription: `Sheertopia is an innovative gaming ecosystem that seamlessly integrates Augmented Reality (AR) and Virtual Reality (VR) technologies to create an immersive and dynamic gaming experience. The platform prioritizes interoperability, ensuring compatibility with iOS and Google Play Stores while leveraging multiple blockchain protocols for a versatile gaming environment. Central to its sustainable in-game economy is the $GRASS token, launched on the BASE chain, which features staking rewards, deflationary mechanics, and extensive utility across popular titles like Rise of Sheertopia and Gen-S Battleground. Players can stake $GRASS to earn token rewards, unlock exclusive perks, gain early access to features, and participate in esports tournaments with prize pools. The ecosystem also incorporates tiered staking for enhanced rewards and unique benefits, such as exclusive NFTs and character drops. Future developments include innovative token sinks, expanded deflationary mechanisms, and new use cases to drive lasting engagement.`,
+    minTier: LaunchBondTiers.Silver,
+  },
+  {
     index: 8029,
     chainId: ChainId.BASE,
     contractAddress: {
-      [ChainId.BASE]: '',
+      [ChainId.BASE]: '0xbA5180b0aE506Ff8CE628b9D263bE2Bb862A079D',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
@@ -211,7 +237,7 @@ const bills: BillsConfig[] = [
     cmcId: 22977,
     chainId: ChainId.BASE,
     contractAddress: {
-      [ChainId.BASE]: '',
+      [ChainId.BASE]: '0xCAc92C8f05BDA6A23240623c599C90A282A23d0e',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
@@ -237,7 +263,7 @@ const bills: BillsConfig[] = [
     index: 8027,
     chainId: ChainId.BASE,
     contractAddress: {
-      [ChainId.BASE]: '',
+      [ChainId.BASE]: '0xCc62c52650C4fBBBcdf9b6f8f67962338fD6BBcb',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
@@ -1073,7 +1099,7 @@ const bills: BillsConfig[] = [
     cmcId: 22943,
     chainId: ChainId.LIGHTLINK,
     contractAddress: {
-      [ChainId.LIGHTLINK]: '',
+      [ChainId.LIGHTLINK]: '0xd49949f8FAD91D2CB1b61C3a2b6D67fEB1a225F4',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
@@ -1105,7 +1131,7 @@ const bills: BillsConfig[] = [
     index: 6012,
     chainId: ChainId.LINEA,
     contractAddress: {
-      [ChainId.LINEA]: '',
+      [ChainId.LINEA]: '0x302427048ea8E8e7858CCf28883f19826e1b43F9',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
@@ -1426,7 +1452,7 @@ const bills: BillsConfig[] = [
     index: 1115,
     chainId: ChainId.BSC,
     contractAddress: {
-      [ChainId.BSC]: '',
+      [ChainId.BSC]: '0x083e83bc6A6a9f1ADcdf13Eb839cb04eaB37C6AE',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
@@ -1455,7 +1481,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     index: 1114,
     chainId: ChainId.BSC,
     contractAddress: {
-      [ChainId.BSC]: '',
+      [ChainId.BSC]: '0x397d7EC24893b7eA9f52951A426F399446AEC048',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
@@ -1484,7 +1510,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     index: 1113,
     chainId: ChainId.BSC,
     contractAddress: {
-      [ChainId.BSC]: '',
+      [ChainId.BSC]: '0x323F0683457115956511E9AC10afb9de76D39559',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
@@ -7031,7 +7057,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     cmcId: 24789,
     chainId: ChainId.MATIC,
     contractAddress: {
-      [ChainId.MATIC]: '',
+      [ChainId.MATIC]: '0xEc7413e9972aD0D443BdC4D0b1B2348cA221C76c',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
@@ -10587,7 +10613,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     cmcId: 30680,
     chainId: ChainId.MAINNET,
     contractAddress: {
-      [ChainId.MAINNET]: '',
+      [ChainId.MAINNET]: '0x06beB6BbafB435292BaACF3ce5FD57F6f1757a94',
     },
     billType: 'reserve',
     billVersion: BillVersion.V3,
@@ -10616,7 +10642,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     cmcId: 31716,
     chainId: ChainId.MAINNET,
     contractAddress: {
-      [ChainId.MAINNET]: '',
+      [ChainId.MAINNET]: '0x7bAf8F7DfDF6DB211f7495411E0A980076E6616E',
     },
     billType: 'reserve',
     billVersion: BillVersion.V3,

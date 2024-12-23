@@ -316,10 +316,62 @@
     "fullDescription": "FOMOFox is the first market-driven storytelling meme coin on IOTA EVM. Follow the thrilling journey of FOMOFox on TwitterX and help him conquer his FOMO by influencing the $FOMO Token’s market performance. Loyal holders will find countless opportunities to grow their $FOMO bags through raffles, solving riddles, or simply holding and supporting the fox. Along the way, FOMOFox faces diverse challenges and meets intriguing characters. Your influence on the market helps him make the right choices. This project offers pure entertainment and rewards those who stick with it! Join the adventure now and visit their website for more details!"
   },
   {
+    "index": 8030,
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0xff61126Df2449194b47928BdC6A91D01FE5AF57f"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "8453": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+      },
+      "decimals": {
+        "8453": 6
+      },
+      "liquidityDex": {
+        "8453": "Aerodrome"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "GRASS",
+      "address": {
+        "8453": "0xfcb49c1545d1D13272467f0d94E57A9aCa39725c"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "8453": "UniswapV2"
+      }
+    },
+    "billNnftAddress": {
+      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "inactive": false,
+    "projectLink": "https://sheertopia.io/",
+    "twitter": "https://x.com/sheertopia",
+    "initTime": {
+      "8453": 1734692693
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["CHRISTMAS SALE"],
+    "shortDescription": "Sheertopia is a gaming ecosystem blending AR and VR for immersive experiences while supporting iOS, Google Play, and blockchain interoperability. Its $GRASS token powers the economy with staking rewards, deflationary mechanics, and in-game utility across titles like Rise of Sheertopia. Players can stake for perks, NFTs, and esports access, with future updates introducing new use cases and token sinks.",
+    "fullDescription": "Sheertopia is an innovative gaming ecosystem that seamlessly integrates Augmented Reality (AR) and Virtual Reality (VR) technologies to create an immersive and dynamic gaming experience. The platform prioritizes interoperability, ensuring compatibility with iOS and Google Play Stores while leveraging multiple blockchain protocols for a versatile gaming environment. Central to its sustainable in-game economy is the $GRASS token, launched on the BASE chain, which features staking rewards, deflationary mechanics, and extensive utility across popular titles like Rise of Sheertopia and Gen-S Battleground. Players can stake $GRASS to earn token rewards, unlock exclusive perks, gain early access to features, and participate in esports tournaments with prize pools. The ecosystem also incorporates tiered staking for enhanced rewards and unique benefits, such as exclusive NFTs and character drops. Future developments include innovative token sinks, expanded deflationary mechanisms, and new use cases to drive lasting engagement.",
+    "minTier": 1
+  },
+  {
     "index": 8029,
     "chainId": 8453,
     "contractAddress": {
-      "8453": ""
+      "8453": "0xbA5180b0aE506Ff8CE628b9D263bE2Bb862A079D"
     },
     "billType": "reserve",
     "billVersion": "V2",
@@ -372,7 +424,7 @@
     "cmcId": 22977,
     "chainId": 8453,
     "contractAddress": {
-      "8453": ""
+      "8453": "0xCAc92C8f05BDA6A23240623c599C90A282A23d0e"
     },
     "billType": "reserve",
     "billVersion": "V2",
@@ -424,7 +476,7 @@
     "index": 8027,
     "chainId": 8453,
     "contractAddress": {
-      "8453": ""
+      "8453": "0xCc62c52650C4fBBBcdf9b6f8f67962338fD6BBcb"
     },
     "billType": "reserve",
     "billVersion": "V2",
@@ -2086,7 +2138,7 @@
     "cmcId": 22943,
     "chainId": 1890,
     "contractAddress": {
-      "1890": ""
+      "1890": "0xd49949f8FAD91D2CB1b61C3a2b6D67fEB1a225F4"
     },
     "billType": "reserve",
     "billVersion": "V2",
@@ -2139,7 +2191,7 @@
     "index": 6012,
     "chainId": 59144,
     "contractAddress": {
-      "59144": ""
+      "59144": "0x302427048ea8E8e7858CCf28883f19826e1b43F9"
     },
     "billType": "reserve",
     "billVersion": "V2",
@@ -2776,7 +2828,7 @@
     "index": 1115,
     "chainId": 56,
     "contractAddress": {
-      "56": ""
+      "56": "0x083e83bc6A6a9f1ADcdf13Eb839cb04eaB37C6AE"
     },
     "billType": "reserve",
     "billVersion": "V2",
@@ -2828,7 +2880,7 @@
     "index": 1114,
     "chainId": 56,
     "contractAddress": {
-      "56": ""
+      "56": "0x397d7EC24893b7eA9f52951A426F399446AEC048"
     },
     "billType": "reserve",
     "billVersion": "V2",
@@ -2881,7 +2933,7 @@
     "index": 1113,
     "chainId": 56,
     "contractAddress": {
-      "56": ""
+      "56": "0x323F0683457115956511E9AC10afb9de76D39559"
     },
     "billType": "reserve",
     "billVersion": "V2",
@@ -14349,7 +14401,7 @@
     "cmcId": 24789,
     "chainId": 137,
     "contractAddress": {
-      "137": ""
+      "137": "0xEc7413e9972aD0D443BdC4D0b1B2348cA221C76c"
     },
     "billType": "reserve",
     "billVersion": "V2",
@@ -21276,7 +21328,7 @@
     "cmcId": 30680,
     "chainId": 1,
     "contractAddress": {
-      "1": ""
+      "1": "0x06beB6BbafB435292BaACF3ce5FD57F6f1757a94"
     },
     "billType": "reserve",
     "billVersion": "V3",
@@ -21329,7 +21381,7 @@
     "cmcId": 31716,
     "chainId": 1,
     "contractAddress": {
-      "1": ""
+      "1": "0x7bAf8F7DfDF6DB211f7495411E0A980076E6616E"
     },
     "billType": "reserve",
     "billVersion": "V3",
