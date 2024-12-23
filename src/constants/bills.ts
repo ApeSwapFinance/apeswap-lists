@@ -7107,7 +7107,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     inactive: false,
     projectLink: 'https://arrland.com/',
     twitter: 'https://x.com/ArrlandGame',
-    audit: 'https://github.com/solidproof/projects/tree/main/2024/Pirates%20of%20the%20Arrland',
+    audit: 'https://skynet.certik.com/projects/arrland',
     initTime: { [ChainId.MATIC]: 1734992220 },
     soldOut: false,
     billArt: {
