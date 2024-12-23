@@ -4206,6 +4206,19 @@ const tokens: Record<string, Token> = {
       [ChainId.ARBITRUM]: LiquidityDex.UniswapV3,
     },
   },
+  eywa: {
+    symbol: 'EYWA',
+    address: {
+      [ChainId.ARBITRUM]: '0x7a10f506e4c7658e6ad15fdf0443d450b7fa80d7',
+    },
+    decimals: {
+      [ChainId.ARBITRUM]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.ARBITRUM]: LiquidityDex.Curve,
+    },
+  },
   wethLdy_Ichi: {
     symbol: 'WETH-LDY',
     address: {
