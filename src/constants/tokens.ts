@@ -1802,6 +1802,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  active: {
+    symbol: 'ACTIVE',
+    address: {
+      [ChainId.MATIC]: '0xd9a9B4d466747E1Ebcb7aEb42784452F40452367',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.UniswapV3,
+    },
+    active: true,
+  },
   rum: {
     symbol: 'RUM',
     address: {
