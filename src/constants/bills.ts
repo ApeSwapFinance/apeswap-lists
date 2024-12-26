@@ -36,7 +36,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/graphlinq_proto',
     audit: 'https://www.cyberscope.io/audits/coin-graphlinq-protocol',
     initTime: { [ChainId.GRAPHLINQ]: 1730454213 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1590,7 +1590,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://quoll.finance/',
     twitter: 'https://x.com/QuollFinance',
     initTime: { [ChainId.BSC]: 1734992220 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -7429,7 +7429,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/iconxworld',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.347018667988457 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -9394,7 +9394,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://hats.finance/',
     twitter: 'https://x.com/HatsFinance',
     initTime: { [ChainId.ARBITRUM]: 1728578576 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -10405,7 +10405,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/AlvaraProtocol',
     audit: 'https://www.quillaudits.com/leaderboard/alvaraavax-token',
     initTime: { [ChainId.MAINNET]: 1728574178 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
@@ -10490,7 +10490,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://x.com/graphlinq_proto',
     audit: 'https://www.cyberscope.io/audits/coin-graphlinq-protocol',
     initTime: { [ChainId.MAINNET]: 1730454213 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
@@ -10605,7 +10605,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://landwolf.com/',
     twitter: 'https://x.com/Wolf0x67',
     initTime: { [ChainId.MAINNET]: 1733757492 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
