@@ -21534,7 +21534,7 @@
       },
       "active": true,
       "liquidityDex": {
-        "1": "UniswapV2"
+        "1": "UniswapV3"
       }
     },
     "billNnftAddress": {
@@ -21639,7 +21639,7 @@
       },
       "active": true,
       "liquidityDex": {
-        "1": "UniswapV2"
+        "1": "UniswapV3"
       }
     },
     "billNnftAddress": {
