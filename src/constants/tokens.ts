@@ -69,7 +69,7 @@ const tokens: Record<string, Token> = {
     },
     active: true,
     liquidityDex: {
-      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
+      [ChainId.MAINNET]: LiquidityDex.UniswapV3,
     },
   },
   bpad: {
