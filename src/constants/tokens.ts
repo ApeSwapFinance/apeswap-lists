@@ -33,10 +33,75 @@ const tokens: Record<string, Token> = {
       [ChainId.BLAST]: LiquidityDex.ThrusterV3,
     },
   },
+  cellarph: {
+    symbol: 'CELLAR', // keep this name here
+    address: {
+      [ChainId.MATIC]: '0xd58b94731a4457516dfff75769ca4a14cd24f36f',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.UniswapV2,
+    },
+  },
+  oxyz: {
+    symbol: 'OXYZ',
+    address: {
+      [ChainId.MAINNET]: '0xd0623da373f754c4b6762209ea77de59b21dd667',
+    },
+    decimals: {
+      [ChainId.MAINNET]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
+    },
+  },
+  bunny: {
+    symbol: 'BUNNY',
+    address: {
+      [ChainId.MAINNET]: '0xE9aA901D12D401361951F6b143e39ce8d4D42983',
+    },
+    decimals: {
+      [ChainId.MAINNET]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
+    },
+  },
+  skai: {
+    symbol: 'SKAI',
+    address: {
+      [ChainId.MAINNET]: '0xCF078DA6e85389de507ceeDE0E3d217e457B9d49',
+    },
+    decimals: {
+      [ChainId.MAINNET]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV3,
+    },
+  },
   bpad: {
     symbol: 'BPAD',
     address: {
       [ChainId.BASE]: '0x2105CCA8bf6f00769a45C734C740b0c42C74C03E',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV3,
+    },
+  },
+  reward: {
+    symbol: 'REWARD',
+    address: {
+      [ChainId.BASE]: '0x1986Cc18D8eC757447254310D2604f85741aA732',
     },
     decimals: {
       [ChainId.BASE]: 18,
@@ -302,6 +367,45 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.UniswapV3,
     },
   },
+  tyler_new: {
+    symbol: 'TYLER',
+    address: {
+      [ChainId.BASE]: '0x85645b86243886b7c7c1DA6288571F8bEa6fC035',
+    },
+    decimals: {
+      [ChainId.BASE]: 9,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV3,
+    },
+  },
+  oai: {
+    symbol: 'OAI',
+    address: {
+      [ChainId.BASE]: '0x63c387F45046bc3C4aD8Fe12fe9cfa2A7b305385',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV3,
+    },
+  },
+  moz: {
+    symbol: 'MOZ',
+    address: {
+      [ChainId.BASE]: '0xC227717ef4Ae4D982E14789eB33bA942243c3FEe',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.Aerodrome,
+    },
+  },
   imgnai: {
     symbol: 'imgnAI',
     address: {
@@ -341,6 +445,17 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.UniswapV2,
     },
   },
+  rdx: {
+    symbol: 'RDX',
+    address: {
+      [ChainId.BASE]: '0x2659631CfBE9B1b6DcBc1384a3864509356E7B4d',
+    },
+    decimals: { [ChainId.BASE]: 18 },
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV2,
+    },
+    active: true,
+  },
   tkn: {
     symbol: 'TKN',
     address: {
@@ -371,6 +486,19 @@ const tokens: Record<string, Token> = {
     symbol: 'SKYA',
     address: {
       [ChainId.BASE]: '0x623cD3a3EdF080057892aaF8D773Bbb7A5C9b6e9',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV2,
+    },
+  },
+  grass: {
+    symbol: 'GRASS',
+    address: {
+      [ChainId.BASE]: '0xfcb49c1545d1D13272467f0d94E57A9aCa39725c',
     },
     decimals: {
       [ChainId.BASE]: 18,
@@ -593,6 +721,19 @@ const tokens: Record<string, Token> = {
     symbol: 'FITM',
     address: {
       [ChainId.BSC]: '0xE51072f493e9a0b40E468F2EB4686458aCd47a8D',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
+  titm: {
+    symbol: 'TITM',
+    address: {
+      [ChainId.BSC]: '0x754736e06ea5B01694144F2C83A04e64d48F68d2',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -1668,6 +1809,19 @@ const tokens: Record<string, Token> = {
     symbol: 'ICNX',
     address: {
       [ChainId.MATIC]: '0x91f3B9366801C1fCa6184C3bD99d5Ab0C43A9033',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.UniswapV3,
+    },
+    active: true,
+  },
+  active: {
+    symbol: 'ACTIVE',
+    address: {
+      [ChainId.MATIC]: '0xd9a9B4d466747E1Ebcb7aEb42784452F40452367',
     },
     decimals: {
       [ChainId.MATIC]: 18,
@@ -3593,6 +3747,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  wolf: {
+    symbol: 'WOLF',
+    address: {
+      [ChainId.MAINNET]: '0x67466BE17df832165F8C80a5A120CCc652bD7E69',
+    },
+    decimals: { [ChainId.MAINNET]: 18 },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
+    },
+    active: true,
+  },
   pumlx: {
     symbol: 'PUMLx',
     address: {
@@ -3619,6 +3784,17 @@ const tokens: Record<string, Token> = {
     symbol: 'DCK',
     address: {
       [ChainId.BSC]: '0x16faF9DAa401AA42506AF503Aa3d80B871c467A3',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
+  quo: {
+    symbol: 'QUO',
+    address: {
+      [ChainId.BSC]: '0x08b450e4a48C04CDF6DB2bD4cf24057f7B9563fF',
     },
     decimals: { [ChainId.BSC]: 18 },
     liquidityDex: {
@@ -3927,10 +4103,32 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  sxch: {
+    symbol: 'SXCH',
+    address: {
+      [ChainId.BSC]: '0xE58C3A44B74362048e202cb7C8036D4b0B28Af50',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
   elda: {
     symbol: 'ELDA',
     address: {
       [ChainId.BSC]: '0xab2ed911BDbeA001FD3B29AdbC35d8a76E68aAe4',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
+  orfy: {
+    symbol: 'ORFY',
+    address: {
+      [ChainId.BSC]: '0x39f0F4c64c7Ad1Ebb25cfEaFdd221cDEe3084441',
     },
     decimals: { [ChainId.BSC]: 18 },
     liquidityDex: {
@@ -4035,6 +4233,19 @@ const tokens: Record<string, Token> = {
     active: true,
     liquidityDex: {
       [ChainId.ARBITRUM]: LiquidityDex.UniswapV3,
+    },
+  },
+  eywa: {
+    symbol: 'EYWA',
+    address: {
+      [ChainId.ARBITRUM]: '0x7a10f506e4c7658e6ad15fdf0443d450b7fa80d7',
+    },
+    decimals: {
+      [ChainId.ARBITRUM]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.ARBITRUM]: LiquidityDex.Curve,
     },
   },
   wethLdy_Ichi: {
@@ -5058,8 +5269,8 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 'https://thena.fi/pools/0x87a4276eaed3b46cb77ec41d6f6b9fc98b159725',
     },
   },
-  sdmBnb_Ichi: {
-    symbol: 'SDM-BNB',
+  sdmUsdt_Ichi: {
+    symbol: 'SDM-USDT',
     address: {
       [ChainId.BSC]: '0x6a8D03773779cD3eD6fEeC4f0059a76932909Baf',
     },
@@ -5419,6 +5630,37 @@ const tokens: Record<string, Token> = {
     getLpUrl: {
       [ChainId.BSC]:
         'https://pancakeswap.finance/v2/add/0x55d398326f99059fF775485246999027B3197955/0x2D060Ef4d6BF7f9e5edDe373Ab735513c0e4F944',
+    },
+  },
+  quoUsdt_PCS: {
+    symbol: 'QUO-USDT',
+    address: {
+      [ChainId.BSC]: '0xa387A64D4E1711442FADeF1dd4C697d901DCCf05',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl: {
+      [ChainId.BSC]:
+        'https://pancakeswap.finance/v2/add/0x55d398326f99059fF775485246999027B3197955/0x08b450e4a48C04CDF6DB2bD4cf24057f7B9563fF',
+    },
+  },
+  sxchWbnb_PCS: {
+    symbol: 'SXCH-BNB',
+    address: {
+      [ChainId.BSC]: '0x8c2d7D32Ba80EFa7028c54E6c675Ae8B65Fca8b2',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl: {
+      [ChainId.BSC]: 'https://pancakeswap.finance/v2/add/BNB/0xE58C3A44B74362048e202cb7C8036D4b0B28Af50',
     },
   },
   stlosTlos: {
@@ -5941,6 +6183,21 @@ const tokens: Record<string, Token> = {
       [ChainId.ARBITRUM]: 'https://app.ichi.org/vault/token/0xC6F780497A95e246EB9449f5e4770916DCd6396A',
     },
   },
+  eywaUsdt_Curve: {
+    symbol: 'EYWA-USDT',
+    address: {
+      [ChainId.ARBITRUM]: '0x6579758e9E85434450D638cFBEA0F2fe79856ddA',
+    },
+    decimals: { [ChainId.ARBITRUM]: 18 },
+    liquidityDex: {
+      [ChainId.ARBITRUM]: LiquidityDex.Curve,
+    },
+    active: true,
+    lpToken: true,
+    getLpUrl: {
+      [ChainId.ARBITRUM]: 'https://curve.fi/#/arbitrum/pools/factory-twocrypto-57/deposit',
+    },
+  },
   ethBonsai_Camelot: {
     symbol: 'ETH-BONSAI',
     address: {
@@ -6061,6 +6318,22 @@ const tokens: Record<string, Token> = {
     getLpUrl: {
       [ChainId.BASE]:
         'https://app.uniswap.org/add/v2/0x4200000000000000000000000000000000000006/0x59f680f431f5280e7662b96f2dfa195d1693852d',
+    },
+  },
+  rewardWeth_Ichi: {
+    symbol: 'REWARD-ETH',
+    address: {
+      [ChainId.BASE]: '0x49Ea04f85F29a7fBaA1dd45048Abb3713523aDa2',
+    },
+    decimals: { [ChainId.BASE]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV3,
+    },
+    ichiUnderlyingDex: IchiSupportedDex.UniswapV3,
+    getLpUrl: {
+      [ChainId.BASE]: 'https://app.ichi.org/vault/token/0x1986cc18d8ec757447254310d2604f85741aa732/',
     },
   },
 }

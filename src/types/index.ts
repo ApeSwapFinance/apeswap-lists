@@ -54,6 +54,7 @@ export enum LiquidityDex {
   Algebra = 'Algebra',
   QuickswapV2 = 'QuickswapV2',
   UniswapV3 = 'UniswapV3',
+  Curve = 'Curve',
   External = 'External',
 
   //Linea
@@ -133,6 +134,7 @@ export enum Protocols {
   Steer = 6, //deprecated. You probably want V3 or Algebra as this is a concentrated liquidity wrapper
   Solidly = 7,
   XFAI = 8,
+  Curve = 9,
 }
 
 export interface FarmStyles {
@@ -205,12 +207,15 @@ export interface LaunchProjectConfig {
   index: number
   projectId: string // this should be unique!
   projectName: string
+  chainId: ChainId // this is the chain where the money is raised/bonds are deployed, regardless of any airdrop
   bonds: TieredSaleBondConfig[]
   saleStartTime: string
   totalAllocation: string
   salePriceString: string
   vestingTimeString: string
+  vestingTimeTooltip?: string
   projectInfo: {
+    marketingSubtitle?: string
     shortDescription: string
     fullDescription: string
     tags: string[]
@@ -224,10 +229,10 @@ export interface LaunchProjectConfig {
       telegram?: string
     }
     images: {
-      launchpadImg: string
-      launchpadSmallImg: string
+      launchpadImg: string // big image on launchpad page
+      launchpadSmallImg: string // small image on the card
       launchpadIcon: string
-      headerImg: string
+      headerImg: string // big background image on project page header
       headerImgMobile: string
       websiteImg: string
       whitepaperImg: string
@@ -240,6 +245,7 @@ export interface LaunchProjectConfig {
 
 export interface TieredSaleBondConfig {
   index: number
+  chainId: ChainId
   contractAddress: Partial<Record<ChainId, string>>
   billVersion: BillVersion
   billType: 'fcfs' | 'oversubscription'
@@ -251,11 +257,16 @@ export interface TieredSaleBondConfig {
     collection: BillArtCollection
   }
   initTime: Partial<Record<ChainId, number>> // timestamp the sale starts
-  finishTime: Partial<Record<ChainId, number>> // timestamp the sale finished (i.e. IT IS NOT START VESTING TIMESTAMP)
-  redeemTime?: Partial<Record<ChainId, number>> // timestamp the sale is going to be manually finalized
+  finishTime: Partial<Record<ChainId, number>> // timestamp the sale finishes (i.e. IT IS NOT START VESTING TIMESTAMP)
+  redeemTime?: Partial<Record<ChainId, number>> // timestamp the sale is going to be manually finalized and user will be able to redeem real or mock tokens
   startVestingTimestamp: Partial<Record<ChainId, number>>
   initPrice: Partial<Record<ChainId, number>>
   initialRelease: number
+  saleSchedule?: {
+    [key: string]: { start: number; end: number }
+  }
+  tokensDistributedAtRedeem?: boolean
+  distributionTimestamp?: number // timestamp when users will be able to get the real tokens
 }
 
 export interface FlashBondConfig extends TieredSaleBondConfig {
@@ -306,6 +317,7 @@ export interface BillsConfig {
   // * This is only used for the bond migration page
   vestingTerm?: number
   multiplier?: number
+  minTier?: LaunchBondTiers
 }
 
 export enum VaultVersion {
@@ -505,6 +517,7 @@ export const dexFactories: Partial<
     [LiquidityDex.PancakeSwapV2]: {
       factory: '0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73',
       protocol: Protocols.V2,
+      router: '0x10ED43C718714eb63d5aA57B78B54704E256024E',
     },
     [LiquidityDex.ApeSwapV3]: {
       factory: '0x7Bc382DdC5928964D7af60e7e2f6299A1eA6F48d',
@@ -567,6 +580,10 @@ export const dexFactories: Partial<
       factory: '0x6EcCab422D763aC031210895C81787E87B43A652',
       protocol: Protocols.V2,
       router: '0xc873fEcbd354f5A56E00E710B90EF4201db2448d',
+    },
+    [LiquidityDex.Curve]: {
+      factory: '0x98EE851a00abeE0d95D08cF4CA2BdCE32aeaAF7F',
+      protocol: Protocols.Curve,
     },
   },
   [ChainId.LINEA]: {
@@ -693,6 +710,7 @@ export const defaultDexFactories: Partial<Record<ChainId, Partial<Record<Protoco
     [Protocols.V2]: dexFactories[ChainId.ARBITRUM]?.ApeSwapV2?.factory,
     [Protocols.V3]: dexFactories[ChainId.ARBITRUM]?.UniswapV3?.factory,
     [Protocols.Algebra]: dexFactories[ChainId.ARBITRUM]?.Algebra?.factory,
+    [Protocols.Curve]: dexFactories[ChainId.ARBITRUM]?.Curve?.factory,
   },
   [ChainId.LINEA]: {
     [Protocols.V2]: dexFactories[ChainId.LINEA]?.Spartadex?.factory,
@@ -784,6 +802,7 @@ export const dexToZapMapping: Record<LiquidityDex, Partial<Record<ChainId, ZapVe
   [LiquidityDex.Pangolin]: {
     [ChainId.AVAX]: ZapVersion.SoulZapApi,
   },
+  [LiquidityDex.Curve]: {},
   [LiquidityDex.ThrusterV2_03]: {
     [ChainId.BLAST]: ZapVersion.SoulZapApi,
   },

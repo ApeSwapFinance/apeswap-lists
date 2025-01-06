@@ -1,14 +1,10 @@
-import {
-  BillArtCollection,
-  BillVersion,
-  ChainId,
-  FlashBondConfig /* BillArtCollection, BillVersion, */,
-} from '../types'
+import { BillArtCollection, BillVersion, ChainId, FlashBondConfig } from '../types'
 import tokens from './tokens'
 
 const flashBonds: FlashBondConfig[] = [
   {
     index: 0,
+    chainId: ChainId.BSC,
     round: '1',
     totalRaiseString: '$150K',
     discountString: '3%',
@@ -41,6 +37,7 @@ const flashBonds: FlashBondConfig[] = [
   },
   {
     index: 1,
+    chainId: ChainId.BSC,
     round: '1',
     totalRaiseString: '$50K',
     discountString: '2%',
@@ -73,6 +70,7 @@ const flashBonds: FlashBondConfig[] = [
   },
   {
     index: 2,
+    chainId: ChainId.BSC,
     round: '2',
     totalRaiseString: '$250K',
     discountString: '3%',
@@ -105,6 +103,7 @@ const flashBonds: FlashBondConfig[] = [
   },
   {
     index: 3,
+    chainId: ChainId.BSC,
     round: '2',
     totalRaiseString: '$75K',
     discountString: '2%',
@@ -137,6 +136,7 @@ const flashBonds: FlashBondConfig[] = [
   },
   {
     index: 4,
+    chainId: ChainId.BSC,
     round: '3',
     totalRaiseString: '$180K',
     discountString: '3%',
@@ -169,6 +169,7 @@ const flashBonds: FlashBondConfig[] = [
   },
   {
     index: 5,
+    chainId: ChainId.BSC,
     round: '3',
     totalRaiseString: '$60K',
     discountString: '2%',
@@ -201,6 +202,7 @@ const flashBonds: FlashBondConfig[] = [
   },
   {
     index: 6,
+    chainId: ChainId.BSC,
     round: '3',
     totalRaiseString: '$25K',
     discountString: '1%',
@@ -233,6 +235,7 @@ const flashBonds: FlashBondConfig[] = [
   },
   {
     index: 7,
+    chainId: ChainId.BSC,
     round: '4',
     totalRaiseString: '$160K',
     discountString: '3%',
@@ -265,6 +268,7 @@ const flashBonds: FlashBondConfig[] = [
   },
   {
     index: 8,
+    chainId: ChainId.BSC,
     round: '4',
     totalRaiseString: '$60K',
     discountString: '2%',
@@ -297,6 +301,7 @@ const flashBonds: FlashBondConfig[] = [
   },
   {
     index: 9,
+    chainId: ChainId.BSC,
     round: '5',
     totalRaiseString: '$120K',
     discountString: '3%',
@@ -329,6 +334,7 @@ const flashBonds: FlashBondConfig[] = [
   },
   {
     index: 10,
+    chainId: ChainId.BSC,
     round: '5',
     totalRaiseString: '$50K',
     discountString: '2%',
@@ -361,6 +367,7 @@ const flashBonds: FlashBondConfig[] = [
   },
   {
     index: 11,
+    chainId: ChainId.BSC,
     round: '6',
     totalRaiseString: '100K',
     discountString: '3%',
@@ -393,6 +400,7 @@ const flashBonds: FlashBondConfig[] = [
   },
   {
     index: 12,
+    chainId: ChainId.BSC,
     round: '6',
     totalRaiseString: '40K',
     discountString: '2%',
@@ -425,6 +433,7 @@ const flashBonds: FlashBondConfig[] = [
   },
   {
     index: 13,
+    chainId: ChainId.BSC,
     round: '6',
     totalRaiseString: '20K',
     discountString: '1%',
@@ -457,6 +466,7 @@ const flashBonds: FlashBondConfig[] = [
   },
   {
     index: 14,
+    chainId: ChainId.BSC,
     round: '7',
     totalRaiseString: '30K',
     discountString: '2%',
@@ -489,6 +499,7 @@ const flashBonds: FlashBondConfig[] = [
   },
   {
     index: 15,
+    chainId: ChainId.BSC,
     round: '7',
     totalRaiseString: '100K',
     discountString: '3%',
@@ -521,6 +532,7 @@ const flashBonds: FlashBondConfig[] = [
   },
   {
     index: 16,
+    chainId: ChainId.BSC,
     round: '8',
     totalRaiseString: '40K',
     discountString: '2%',
@@ -553,6 +565,7 @@ const flashBonds: FlashBondConfig[] = [
   },
   {
     index: 17,
+    chainId: ChainId.BSC,
     round: '8',
     totalRaiseString: '120K',
     discountString: '3%',
@@ -585,6 +598,7 @@ const flashBonds: FlashBondConfig[] = [
   },
   {
     index: 18,
+    chainId: ChainId.BSC,
     round: '9',
     totalRaiseString: '15K',
     discountString: '1%',
@@ -617,6 +631,7 @@ const flashBonds: FlashBondConfig[] = [
   },
   {
     index: 19,
+    chainId: ChainId.BSC,
     round: '10',
     totalRaiseString: '30K',
     discountString: '2%',
@@ -649,6 +664,7 @@ const flashBonds: FlashBondConfig[] = [
   },
   {
     index: 20,
+    chainId: ChainId.BSC,
     round: '10',
     totalRaiseString: '100K',
     discountString: '3%',
@@ -681,6 +697,7 @@ const flashBonds: FlashBondConfig[] = [
   },
   {
     index: 21,
+    chainId: ChainId.BSC,
     round: '11',
     totalRaiseString: '30K',
     discountString: '2%',
@@ -713,6 +730,7 @@ const flashBonds: FlashBondConfig[] = [
   },
   {
     index: 22,
+    chainId: ChainId.BSC,
     round: '11',
     totalRaiseString: '100K',
     discountString: '3%',

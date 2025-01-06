@@ -1,14 +1,14 @@
 import tokens from './tokens'
-import { BillArtCollection, BillsConfig, BillVersion, ChainId, MigrationVestingTerms } from '../types'
+import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1106
-// Polygon Largest ID: 165
+// BNB Largest ID: 1118
+// Polygon Largest ID: 168
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2011
-// ETH Largest ID: 3031
-// Linea Largest ID: 6011
-// Base Largest ID: 8016
-// Lightlink Largest ID: 7000
+// ETH Largest ID: 3037
+// Linea Largest ID: 6012
+// Base Largest ID: 8030
+// Lightlink Largest ID: 7003
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
 // GraphLinq Largest ID: 10000
@@ -41,7 +41,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/graphlinq_proto',
     audit: 'https://www.cyberscope.io/audits/coin-graphlinq-protocol',
     initTime: { [ChainId.GRAPHLINQ]: 1730454213 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -185,6 +185,369 @@ const bills: BillsConfig[] = [
   // BASE
   //
   {
+    index: 8030,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0xff61126Df2449194b47928BdC6A91D01FE5AF57f',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.grass,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://sheertopia.io/',
+    twitter: 'https://x.com/sheertopia',
+    initTime: { [ChainId.BASE]: 1734692693 },
+    soldOut: true,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['CHRISTMAS SALE'],
+    shortDescription: `Sheertopia is a gaming ecosystem blending AR and VR for immersive experiences while supporting iOS, Google Play, and blockchain interoperability. Its $GRASS token powers the economy with staking rewards, deflationary mechanics, and in-game utility across titles like Rise of Sheertopia. Players can stake for perks, NFTs, and esports access, with future updates introducing new use cases and token sinks.`,
+    fullDescription: `Sheertopia is an innovative gaming ecosystem that seamlessly integrates Augmented Reality (AR) and Virtual Reality (VR) technologies to create an immersive and dynamic gaming experience. The platform prioritizes interoperability, ensuring compatibility with iOS and Google Play Stores while leveraging multiple blockchain protocols for a versatile gaming environment. Central to its sustainable in-game economy is the $GRASS token, launched on the BASE chain, which features staking rewards, deflationary mechanics, and extensive utility across popular titles like Rise of Sheertopia and Gen-S Battleground. Players can stake $GRASS to earn token rewards, unlock exclusive perks, gain early access to features, and participate in esports tournaments with prize pools. The ecosystem also incorporates tiered staking for enhanced rewards and unique benefits, such as exclusive NFTs and character drops. Future developments include innovative token sinks, expanded deflationary mechanisms, and new use cases to drive lasting engagement.`,
+    minTier: LaunchBondTiers.Silver,
+  },
+  {
+    index: 8029,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0xbA5180b0aE506Ff8CE628b9D263bE2Bb862A079D',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.rdx,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://random.trading/',
+    twitter: 'https://x.com/randomdexrdx',
+    initTime: { [ChainId.BASE]: 1734692693 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['CHRISTMAS SALE'],
+    shortDescription: `RandomDEX is an AI-driven algorithmic DEX revolutionizing investment strategies with randomization. Launching on Base and expanding cross-chain, it offers a smooth UX for discovering assets using metrics like volume and price action. Its AI RDX algorithm enables strategic random asset purchases. Powered by $RDX, users enjoy staking rewards, platform access, raffles, and mini-games, blending fun with innovation.`,
+    fullDescription: `RandomDEX is the first AI-powered algorithmic decentralized exchange (DEX) that revolutionizes investment strategies through randomization. Initially launching on Base, it plans to expand to full cross-chain capabilities. With a user-friendly interface, RandomDEX allows investors to explore promising assets using key metrics such as volume, alpha wallets, categories, and price action. At its core is the innovative AI RDX algorithm, which lets users purchase random assets or multiple assets within predefined parameters, blending discovery with strategy. The platform’s $RDX token serves as both utility and governance, offering benefits like free platform access, high APY staking, monthly raffle rewards, and interactive mini-games with random prizes, making investing engaging and innovative.`,
+    minTier: LaunchBondTiers.Silver,
+  },
+  {
+    index: 8028,
+    cmcId: 22977,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0xCAc92C8f05BDA6A23240623c599C90A282A23d0e',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.eth,
+    earnToken: tokens.imgnai,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://imgnai.com/',
+    twitter: 'https://x.com/imgn_ai',
+    initTime: { [ChainId.BASE]: 1734992220 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['CHRISTMAS SALE'],
+    shortDescription: `ImgnAI is shaping the future of generative AI with Nai, an AI-powered image generation bot that allows users to create stunning art through simple text commands in styles like photorealism and anime. The $imgnAI token powers the ecosystem, unlocking premium features and NFT minting while also reducing supply through token burns. Future plans include decentralizing governance via the imgnAI DAO for $imgnAI stakers.`,
+    fullDescription: `ImgnAI is pioneering the future of generative AI by enabling users to create stunning artwork with simple text commands. At the core of the platform is Nai, an AI-powered image generation bot capable of producing images in various styles, including photorealism and anime. The platform's utility token, $imgnAI, plays a pivotal role in the ecosystem, offering access to an expanding suite of AI-driven consumer products. Users will soon be able to unlock premium features, such as HD/4K resolution, upscaling, and NSFW models, or mint their creations as NFTs using $imgnAI, with spent tokens burned to reduce supply. ImgnAI also plans to decentralize governance through a DAO, granting voting power to $imgnAI stakers, driving the platform toward full decentralization.`,
+    minTier: LaunchBondTiers.Silver,
+  },
+  {
+    index: 8027,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0xCc62c52650C4fBBBcdf9b6f8f67962338fD6BBcb',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.oai,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://iamolex.ai/',
+    twitter: 'https://x.com/hi_olex',
+    initTime: { [ChainId.BASE]: 1733827195 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['CHRISTMAS SALE'],
+    shortDescription: `Olex aims to be the world’s first fully autonomous crypto project, powered by cutting-edge AI and custom AI agents. It identifies market opportunities, creates, and launches projects independently, while fostering vibrant communities using AI trained on successful crypto initiatives. At its core, the OAI token delivers 100% real yield, sharing profits from all Olex ventures. Olex redefines DeFi with automation and innovation.`,
+    fullDescription: `Olex aims to be the world’s first fully autonomous crypto project, built on cutting-edge AI technology and custom-developed AI agents. The vision behind Olex is to operate independently, around the clock, scanning the crypto market to uncover gaps and emerging opportunities without human intervention. When an opportunity is identified, Olex's AI worker agents spring into action, carefully planning, creating, and launching the project from start to finish. Olex doesn’t stop at deploying projects; it’s designed to cultivate and sustain dynamic communities. Leveraging AI agents trained on thousands of successful crypto projects, Olex ensures that each new initiative has a vibrant community at its core. The result is a continuous cycle of project discovery, development, and community building that enhances the cryptocurrency ecosystem while delivering ongoing value to OLEXAI token holders. At the core of Olex’s ecosystem is the OAI token, a 100% real yield asset that redistributes profits from all Olex-created ventures to token holders, making it a trailblazer in decentralized finance. With its cutting-edge automation and AI-driven innovation, Olex redefines the future of DeFi and the crypto economy.`,
+    minTier: LaunchBondTiers.Silver,
+  },
+  {
+    index: 8026,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x05948DBa6B2aA528E63A6Fe8a2a63fe329902525',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.rdx,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://random.trading/',
+    twitter: 'https://x.com/randomdexrdx',
+    initTime: { [ChainId.BASE]: 1734692693 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DEX'],
+    shortDescription: `RandomDEX is an AI-driven algorithmic DEX revolutionizing investment strategies with randomization. Launching on Base and expanding cross-chain, it offers a smooth UX for discovering assets using metrics like volume and price action. Its AI RDX algorithm enables strategic random asset purchases. Powered by $RDX, users enjoy staking rewards, platform access, raffles, and mini-games, blending fun with innovation.`,
+    fullDescription: `RandomDEX is the first AI-powered algorithmic decentralized exchange (DEX) that revolutionizes investment strategies through randomization. Initially launching on Base, it plans to expand to full cross-chain capabilities. With a user-friendly interface, RandomDEX allows investors to explore promising assets using key metrics such as volume, alpha wallets, categories, and price action. At its core is the innovative AI RDX algorithm, which lets users purchase random assets or multiple assets within predefined parameters, blending discovery with strategy. The platform’s $RDX token serves as both utility and governance, offering benefits like free platform access, high APY staking, monthly raffle rewards, and interactive mini-games with random prizes, making investing engaging and innovative.`,
+  },
+  {
+    index: 8025,
+    cmcId: 34365,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0xC22C7c2FDd054f8448cc996a3537564AA9F34E4b',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.eth,
+    earnToken: tokens.reward,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://www.rewardable.app/',
+    twitter: 'https://x.com/rewardable_app',
+    initTime: { [ChainId.BASE]: 1733943183 },
+    soldOut: true,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['SocialFi', 'X-2-Earn'],
+    shortDescription: `Rewardable is an AI-driven task-to-earn platform connecting verified users with Web3 brands through rewarding tasks like beta testing, social sharing, and surveys. Powered by the $REWARD token, an ERC-20 OFT on the Base blockchain, it offers secure, bot-free engagement with deflationary tokenomics. Built on LayerZero for cross-chain functionality, Rewardable turns spare time into earning opportunities.`,
+    fullDescription: `Rewardable is an AI-driven task-to-earn platform designed to connect verified users with Web3 brands through rewarding, easy-to-complete tasks. Users can engage in beta testing, social media sharing, content creation, and surveys, earning rewards while driving genuine engagement for brands. Built on by LayerZero for seamless cross-chain functionality, Rewardable provides brands and users alike with a secure, bot-free ecosystem focused on transparency and authenticity. Join us on Rewardable to unlock a new era of digital engagement. At the core of its ecosystem is the $REWARD token, an ERC-20 Omnichain Fungible Token (OFT) launched on the Base blockchain. $REWARD drives transactions and user interactions, promoting engagement and collaboration while offering deflationary tokenomics and utility-focused value. By turning spare time into earning opportunities, Rewardable empowers users to earn extra cash through simple online tasks, all while fostering genuine connections between users and Web3 brands.`,
+  },
+  {
+    index: 8024,
+    cmcId: 32229,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x37f368a590B817bb68462457FbA268447a470f12',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.eth,
+    earnToken: tokens.record,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://web3music.org/',
+    twitter: 'https://x.com/MusicProtocolX',
+    initTime: { [ChainId.BASE]: 1722253943 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['RWA'],
+    shortDescription: `Music Protocol is revolutionizing music IP management in the digital space. By leveraging blockchain, it redefines how music intellectual property is licensed and managed. The platform’s utility token, $RECORD, provides governance rights, access to exclusive content, and participation in tokenized music royalties, allowing holders to benefit from future earnings while engaging directly with artists.`,
+    fullDescription: `Music Protocol is leading a new wave of innovation in the music industry. It is redefining the management and licensing of music intellectual property across the digital landscape. Created from an extensive three-year collaboration intersecting the legal, music business, and technology sectors, it is a transformational infrastructure intended to facilitate digital evolution in the music industry. At its core, Music Protocol is a blockchain-based solution for intricate IP management, with a modular architecture that empowers IP owners to manage rights in both digital and analogue formats. This system seamlessly integrates these formats, adapting to the industry's evolving needs. The platform’s utility token, $RECORD, provides governance rights, access to exclusive content, and participation in tokenized music royalties, allowing holders to benefit from future earnings while engaging directly with artists.`,
+  },
+  {
+    index: 8023,
+    cmcId: 34365,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x6639D4acAe77967c253C75cBfEd7C612682E2704',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.rewardWeth_Ichi,
+    earnToken: tokens.reward,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://www.rewardable.app/',
+    twitter: 'https://x.com/rewardable_app',
+    initTime: { [ChainId.BASE]: 1733943183 },
+    soldOut: true,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['SocialFi', 'X-2-Earn'],
+    shortDescription: `Rewardable is an AI-driven task-to-earn platform connecting verified users with Web3 brands through rewarding tasks like beta testing, social sharing, and surveys. Powered by the $REWARD token, an ERC-20 OFT on the Base blockchain, it offers secure, bot-free engagement with deflationary tokenomics. Built on LayerZero for cross-chain functionality, Rewardable turns spare time into earning opportunities.`,
+    fullDescription: `Rewardable is an AI-driven task-to-earn platform designed to connect verified users with Web3 brands through rewarding, easy-to-complete tasks. Users can engage in beta testing, social media sharing, content creation, and surveys, earning rewards while driving genuine engagement for brands. Built on by LayerZero for seamless cross-chain functionality, Rewardable provides brands and users alike with a secure, bot-free ecosystem focused on transparency and authenticity. Join us on Rewardable to unlock a new era of digital engagement. At the core of its ecosystem is the $REWARD token, an ERC-20 Omnichain Fungible Token (OFT) launched on the Base blockchain. $REWARD drives transactions and user interactions, promoting engagement and collaboration while offering deflationary tokenomics and utility-focused value. By turning spare time into earning opportunities, Rewardable empowers users to earn extra cash through simple online tasks, all while fostering genuine connections between users and Web3 brands.`,
+  },
+  {
+    index: 8022,
+    cmcId: 34365,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x94A283756B70c2A77bc58Ae0E2615Caf14310186',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.rewardWeth_Ichi,
+    earnToken: tokens.reward,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://www.rewardable.app/',
+    twitter: 'https://x.com/rewardable_app',
+    initTime: { [ChainId.BASE]: 1733943183 },
+    soldOut: true,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['SocialFi', 'X-2-Earn'],
+    shortDescription: `Rewardable is an AI-driven task-to-earn platform connecting verified users with Web3 brands through rewarding tasks like beta testing, social sharing, and surveys. Powered by the $REWARD token, an ERC-20 OFT on the Base blockchain, it offers secure, bot-free engagement with deflationary tokenomics. Built on LayerZero for cross-chain functionality, Rewardable turns spare time into earning opportunities.`,
+    fullDescription: `Rewardable is an AI-driven task-to-earn platform designed to connect verified users with Web3 brands through rewarding, easy-to-complete tasks. Users can engage in beta testing, social media sharing, content creation, and surveys, earning rewards while driving genuine engagement for brands. Built on by LayerZero for seamless cross-chain functionality, Rewardable provides brands and users alike with a secure, bot-free ecosystem focused on transparency and authenticity. Join us on Rewardable to unlock a new era of digital engagement. At the core of its ecosystem is the $REWARD token, an ERC-20 Omnichain Fungible Token (OFT) launched on the Base blockchain. $REWARD drives transactions and user interactions, promoting engagement and collaboration while offering deflationary tokenomics and utility-focused value. By turning spare time into earning opportunities, Rewardable empowers users to earn extra cash through simple online tasks, all while fostering genuine connections between users and Web3 brands.`,
+  },
+  {
+    index: 8021,
+    cmcId: 34365,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0xBc48794a04777E7170bD5633E8b728f8a0945971',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.eth,
+    earnToken: tokens.reward,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://www.rewardable.app/',
+    twitter: 'https://x.com/rewardable_app',
+    initTime: { [ChainId.BASE]: 1733943183 },
+    soldOut: true,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['SocialFi', 'X-2-Earn'],
+    shortDescription: `Rewardable is an AI-driven task-to-earn platform connecting verified users with Web3 brands through rewarding tasks like beta testing, social sharing, and surveys. Powered by the $REWARD token, an ERC-20 OFT on the Base blockchain, it offers secure, bot-free engagement with deflationary tokenomics. Built on LayerZero for cross-chain functionality, Rewardable turns spare time into earning opportunities.`,
+    fullDescription: `Rewardable is an AI-driven task-to-earn platform designed to connect verified users with Web3 brands through rewarding, easy-to-complete tasks. Users can engage in beta testing, social media sharing, content creation, and surveys, earning rewards while driving genuine engagement for brands. Built on by LayerZero for seamless cross-chain functionality, Rewardable provides brands and users alike with a secure, bot-free ecosystem focused on transparency and authenticity. Join us on Rewardable to unlock a new era of digital engagement. At the core of its ecosystem is the $REWARD token, an ERC-20 Omnichain Fungible Token (OFT) launched on the Base blockchain. $REWARD drives transactions and user interactions, promoting engagement and collaboration while offering deflationary tokenomics and utility-focused value. By turning spare time into earning opportunities, Rewardable empowers users to earn extra cash through simple online tasks, all while fostering genuine connections between users and Web3 brands.`,
+  },
+  {
+    index: 8020,
+    cmcId: 34365,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x0719CCaF2f07f59b23DB7d80E3d2791A0836bdfD',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.eth,
+    earnToken: tokens.reward,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://www.rewardable.app/',
+    twitter: 'https://x.com/rewardable_app',
+    initTime: { [ChainId.BASE]: 1733943183 },
+    soldOut: true,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['SocialFi', 'X-2-Earn'],
+    shortDescription: `Rewardable is an AI-driven task-to-earn platform connecting verified users with Web3 brands through rewarding tasks like beta testing, social sharing, and surveys. Powered by the $REWARD token, an ERC-20 OFT on the Base blockchain, it offers secure, bot-free engagement with deflationary tokenomics. Built on LayerZero for cross-chain functionality, Rewardable turns spare time into earning opportunities.`,
+    fullDescription: `Rewardable is an AI-driven task-to-earn platform designed to connect verified users with Web3 brands through rewarding, easy-to-complete tasks. Users can engage in beta testing, social media sharing, content creation, and surveys, earning rewards while driving genuine engagement for brands. Built on by LayerZero for seamless cross-chain functionality, Rewardable provides brands and users alike with a secure, bot-free ecosystem focused on transparency and authenticity. Join us on Rewardable to unlock a new era of digital engagement. At the core of its ecosystem is the $REWARD token, an ERC-20 Omnichain Fungible Token (OFT) launched on the Base blockchain. $REWARD drives transactions and user interactions, promoting engagement and collaboration while offering deflationary tokenomics and utility-focused value. By turning spare time into earning opportunities, Rewardable empowers users to earn extra cash through simple online tasks, all while fostering genuine connections between users and Web3 brands.`,
+  },
+  {
+    index: 8019,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x6898C77147b04B26714613dBeb4c89D45Ef3399B',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdt,
+    earnToken: tokens.moz,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://mozaic.finance/',
+    twitter: 'https://x.com/Mozaic_Fi',
+    initTime: { [ChainId.BASE]: 1733851922 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription: `Mozaic simplifies DeFi with AI-driven yield farming and LayerZero technology, enabling users to farm automatically across any blockchain. Its AI, Archimedes, optimizes profitability by rebalancing assets hourly into the highest APY pools. Mozaic removes the complexity of yield discovery, saving time and enhancing efficiency. Governed by the MOZ token, it empowers users through DAO participation, pioneering AI-Fi for all.`,
+    fullDescription: `Mozaic revolutionizes yield farming with AI-driven optimization and LayerZero technology, offering users automatic farming across any blockchain. Founded by a community-driven team, Mozaic simplifies the complexities of DeFi by removing indecision and maximizing profitability. Its AI, Archimedes, compounds and rebalances assets hourly, ensuring optimal returns by targeting the highest APY pools. By addressing the challenges of yield discovery and decision-making, Mozaic unlocks the potential of AI in DeFi, saving users time while enhancing efficiency. Governed by the finite MOZ token, Mozaic empowers holders with DAO participation, ensuring community-led innovation. Mozaic seamlessly combines automation and accessibility, pioneering AI-Fi for all.`,
+  },
+  {
+    index: 8018,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0xf3CB2D41F2B9D1F49aa2fd20A7BFCc7769B2188c',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.oai,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://iamolex.ai/',
+    twitter: 'https://x.com/hi_olex',
+    initTime: { [ChainId.BASE]: 1733827195 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription: `Olex aims to be the world’s first fully autonomous crypto project, powered by cutting-edge AI and custom AI agents. It identifies market opportunities, creates, and launches projects independently, while fostering vibrant communities using AI trained on successful crypto initiatives. At its core, the OAI token delivers 100% real yield, sharing profits from all Olex ventures. Olex redefines DeFi with automation and innovation.`,
+    fullDescription: `Olex aims to be the world’s first fully autonomous crypto project, built on cutting-edge AI technology and custom-developed AI agents. The vision behind Olex is to operate independently, around the clock, scanning the crypto market to uncover gaps and emerging opportunities without human intervention. When an opportunity is identified, Olex's AI worker agents spring into action, carefully planning, creating, and launching the project from start to finish. Olex doesn’t stop at deploying projects; it’s designed to cultivate and sustain dynamic communities. Leveraging AI agents trained on thousands of successful crypto projects, Olex ensures that each new initiative has a vibrant community at its core. The result is a continuous cycle of project discovery, development, and community building that enhances the cryptocurrency ecosystem while delivering ongoing value to OLEXAI token holders. At the core of Olex’s ecosystem is the OAI token, a 100% real yield asset that redistributes profits from all Olex-created ventures to token holders, making it a trailblazer in decentralized finance. With its cutting-edge automation and AI-driven innovation, Olex redefines the future of DeFi and the crypto economy.`,
+  },
+  {
+    index: 8017,
+    cmcId: 33390,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x50879B97A913eCC11BcC34E05a3282489Fb49f08',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.eth,
+    earnToken: tokens.tyler_new,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://www.basedtyler.com/',
+    twitter: 'https://x.com/TylerOnBaseETH',
+    audit: 'https://tokensniffer.com/token/8453/0x65e570b560027f493f2b1907e8e8e3b9546053bd',
+    initTime: { [ChainId.BASE]: 1733827195 },
+    soldOut: true,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Meme', 'Community'],
+    shortDescription: `Tyler Coin is a community-driven, meme-based cryptocurrency developed on the Base network, launched with just 1 Ethereum. Inspired by the fictional character from Fatt Murie's Guys' Club comic, Tyler Coin aims to surpass the success of memecoins like $BRETT by leveraging decentralized communities, transparent leadership, and viral memes. With a 100% fair launch and no insider allocations, Tyler Coin strives to be the top community meme on Base, driving organic growth through community engagement.`,
+    fullDescription: `Tyler Coin is a community-driven, meme-based cryptocurrency developed on the Base network, launched with an initial capital of just 1 Ethereum. The project is inspired by Tyler, the fictional character from Fatt Murie's Guys' Club comic, known for his love of dancing and video games, much like the popular $BRETT memecoin. Now living on the Base blockchain, Tyler has become the red mascot of the blue chain. Tyler Coin aims to not only replicate but surpass the success of memecoins like BRETT by harnessing decentralized communities, transparent leadership, and viral meme culture. With a 100% fair launch and no insider allocations, it strives to be the top community-driven meme on Base. By fostering active community engagement and using memes to fuel viral growth, Tyler Coin envisions itself as the next big sensation in the memecoin space, aiming for a billion-dollar market cap and beyond.`,
+  },
+  {
     index: 8016,
     chainId: ChainId.BASE,
     contractAddress: {
@@ -255,7 +618,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/boundlesspay',
     audit: 'https://contractwolf.io/projects/boundlesspay',
     initTime: { [ChainId.BASE]: 1732735296 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -522,7 +885,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/mafia_on_base',
     initTime: { [ChainId.BASE]: 1716217474 },
     initPrice: { [ChainId.BASE]: 0.005450086440702347 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -608,7 +971,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/superbestcoin',
     initTime: { [ChainId.BASE]: 1716217474 },
     initPrice: { [ChainId.BASE]: 0.005450086440702347 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -735,9 +1098,68 @@ const bills: BillsConfig[] = [
     shortDescription:
       'LightLink is an Ethereum L2 blockchain enabling dApps and enterprises to offer instant, gasless transactions. Their mission is to integrate millions into the digital economy with user-friendly dApps and enterprise partnerships, making blockchain as intuitive and accessible as Web2, without the complexity of gas fees and protocols.',
   },
+  {
+    index: 7003,
+    cmcId: 22943,
+    chainId: ChainId.LIGHTLINK,
+    contractAddress: {
+      [ChainId.LIGHTLINK]: '0xd49949f8FAD91D2CB1b61C3a2b6D67fEB1a225F4',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.ll,
+    billNnftAddress: {
+      [ChainId.LIGHTLINK]: '0x82CfCd79De447b01730b9ED0Db2ad6Ee5AaAC55f',
+    },
+    inactive: false,
+    projectLink: 'https://lightlink.io/',
+    twitter: 'https://twitter.com/lightlinkchain',
+    audit: 'https://docs.lightlink.io/lightlink-protocol/miscellaneous/security-audits',
+    initTime: { [ChainId.LIGHTLINK]: 1734992220 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['CHRISTMAS SALE'],
+    fullDescription:
+      "LightLink is an Ethereum L2 blockchain that lets dApps and enterprises offer users instant, gasless transactions. LightLink's mission is to seamlessly integrate millions into the digital economy through user-focused dApps and enterprise partnerships, making blockchain as intuitive and accessible as Web2, without the complexity of gas fees and protocols. No L1 & L2 blockchains currently offer only gasless transactions, however, LightLink’s Enterprise Mode allows zero-gas fees for users, processing up to 5000 transactions per second compared to Ethereum's 12-15 and preventing congestion and reducing fees to about $0.01 per transaction.",
+    shortDescription:
+      'LightLink is an Ethereum L2 blockchain enabling dApps and enterprises to offer instant, gasless transactions. Their mission is to integrate millions into the digital economy with user-friendly dApps and enterprise partnerships, making blockchain as intuitive and accessible as Web2, without the complexity of gas fees and protocols.',
+    minTier: LaunchBondTiers.Silver,
+  },
+
   //
   // LINEA
   //
+  {
+    index: 6012,
+    chainId: ChainId.LINEA,
+    contractAddress: {
+      [ChainId.LINEA]: '0x302427048ea8E8e7858CCf28883f19826e1b43F9',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.lpuss,
+    billNnftAddress: {
+      [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
+    },
+    inactive: false,
+    projectLink: 'https://linpuss.xyz/',
+    twitter: 'https://x.com/LinpussLinea',
+    audit:
+      'https://lineascan.build/token/0x81BE2aCB2e9291dB6400f9f6a4D0f35f24de2E77?a=0xc9f2a5115b727849e067da85a0ff422732a358a7#code',
+    initTime: { [ChainId.LINEA]: 1734992220 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['CHRISTMAS SALE'],
+    shortDescription: ` Linpuss revolutionizes trading on Linea by eliminating distractions and making the experience exciting and effortless. Represented by a blindfold, it empowers users to focus on sniping tokens and navigating the market with precision. More than a memecoin, Linpuss combines gamification with powerful tools to identify top opportunities. Backed by the LPUSS token, it offers early access to Linea’s explosive growth and a game-changing ecosystem.`,
+    fullDescription: `Linpuss introduces an innovative approach to trading on Linea by combining cutting-edge functionality with a fun, gamified experience. With its signature blindfold, Linpuss symbolizes the elimination of distractions, empowering users to focus on sniping tokens and seizing the best opportunities in Linea's dynamic market. More than just a memecoin, Linpuss provides traders with an intuitive and thrilling tool that merges the efficiency of a trading bot with the excitement of a game. As Linea prepares for exponential growth, Linpuss positions itself as a gateway to unlocking early access to a revolutionary ecosystem, offering substantial upside potential. Backed by the LPUSS token, Linpuss is on a mission to redefine blockchain trading—making it seamless, engaging, and accessible for all. Whether you're a seasoned trader or a newcomer, Linpuss transforms trading into an adventure, giving you the tools and focus needed to succeed in the evolving Linea market.`,
+    minTier: LaunchBondTiers.Silver,
+  },
   {
     index: 6011,
     chainId: ChainId.LINEA,
@@ -1032,6 +1454,373 @@ const bills: BillsConfig[] = [
   // BNB chain
   //
   {
+    index: 1118,
+    cmcId: 29157,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x66b9ACedf09C2F5729417f5711b77829CE344d7e',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdt,
+    earnToken: tokens.abond,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://ape.bond/',
+    twitter: 'https://twitter.com/apebond',
+    audit: 'https://paladinsec.co/projects/apebond/',
+    initTime: { [ChainId.BSC]: 1734992220 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    shortDescription:
+      'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
+    fullDescription:
+      'ApeBond is building a sustainable DeFi future through its innovative Bonds products and strategic partnerships. Known for its Crowdsource OTC solution and treasury diversification expertise, ApeBond has launched Bonds with over 140 partners, sold 38,000+ Bonds for a total of $14,000,000 USD, and achieved a top 10 Dapp status by daily active users (DAU) according to CoinMarketCap. The ABOND token ties users with the platform by unlocking special Bonds, new earning opportunities, and more utilities coming up in the pipeline.',
+    tags: ['CHRISTMAS SALE'],
+    partnersURLS: [
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/Seedify_fbt392.svg',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613244/ORBS_anzm60.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/quickLogo_2_1_g95ynz.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/aitech_logo_100_real_no_fake_bjskiq.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
+    ],
+    minTier: LaunchBondTiers.Silver,
+  },
+  {
+    index: 1117,
+    cmcId: 25822,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x1da373331e3CB25e33Ba77b147BC4585eA1A181B',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.aitBnb_PCS,
+    earnToken: tokens.ait,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://aimalls.app/',
+    twitter: 'https://twitter.com/ai_malls',
+    audit: 'https://skynet.certik.com/projects/aimalls',
+    initTime: { [ChainId.BSC]: 1735061278 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription:
+      'AiMalls is the first tokenized e-commerce platform in the Philippines, powered by advanced AI and its utility token, AIT. AiMalls enhances traditional shopping by unifying sellers and buyers on a seamless digital platform focused on efficiency and customer satisfaction. Its vision is to merge e-commerce with consumers, offering Web3 and Web2 users the versatile shopping platform they desire.',
+    fullDescription:
+      'AiMalls is the first tokenized e-commerce platform in the Philippines, certified and powered by state-of-the-art artificial intelligence and underpinned by its utility token, AIT. AiMalls transcends traditional shopping experiences, unifying sellers and buyers in a seamless digital platform where efficiency and customer satisfaction reign supreme. Its vision is to break down barriers between e-commerce and consumers, providing both Web3 and Web2 users with the versatile shopping platform they have always desired. With AiMalls, businesses can target customers more accurately and effectively with personalized offers and discounts. AI-powered algorithms enable a deeper understanding of customer needs, fostering long-term relationships. The platform manages inventory efficiently through automated stock tracking, order processing, and delivery management, while real-time tracking of customer orders ensures seamless service. Security is a top priority, offering the highest level of protection for both merchants and customers through advanced encryption technology. Powerful marketing tools leverage data insights to craft targeted campaigns that drive sales, with real-time tracking for better ROI. Additionally, the platform provides unparalleled scalability to support business growth and is constantly evolving to deliver the best user experience. Personalization features help build strong customer relationships, engaging them at the most effective times to maximize conversions. The products and technology offered provide the infrastructure for success.',
+  },
+  {
+    index: 1116,
+    cmcId: 29157,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x40Ee9220aB4217907c8Bf0FcBD7a424eD2c6b9D1',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdt,
+    earnToken: tokens.abond,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://ape.bond/',
+    twitter: 'https://twitter.com/apebond',
+    audit: 'https://paladinsec.co/projects/apebond/',
+    initTime: { [ChainId.BSC]: 1734992220 },
+    soldOut: true,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    shortDescription:
+      'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
+    fullDescription:
+      'ApeBond is building a sustainable DeFi future through its innovative Bonds products and strategic partnerships. Known for its Crowdsource OTC solution and treasury diversification expertise, ApeBond has launched Bonds with over 140 partners, sold 38,000+ Bonds for a total of $14,000,000 USD, and achieved a top 10 Dapp status by daily active users (DAU) according to CoinMarketCap. The ABOND token ties users with the platform by unlocking special Bonds, new earning opportunities, and more utilities coming up in the pipeline.',
+    tags: ['CHRISTMAS SALE'],
+    partnersURLS: [
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/Seedify_fbt392.svg',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613244/ORBS_anzm60.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/quickLogo_2_1_g95ynz.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/aitech_logo_100_real_no_fake_bjskiq.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
+    ],
+    minTier: LaunchBondTiers.Silver,
+  },
+  {
+    index: 1115,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x083e83bc6A6a9f1ADcdf13Eb839cb04eaB37C6AE',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.block,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://home.blockasset.co/',
+    twitter: 'https://x.com/blockassetco',
+    initTime: { [ChainId.BSC]: 1734992220 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['CHRISTMAS SALE'],
+    shortDescription:
+      'Blockasset is a leading Web3 sports network that connects its community with unique experiences through athlete partnerships and innovative products. With a recent UFC partnership, Blockasset enhances fan engagement through BlockBet, a Web3 sportsbook and casino that has already seen over $20 million in wagers. Additionally, BlockPicks, a free-to-play game, helps onboard users by offering games for NBA, NFL, soccer, and UFC. The Blockasset media arm has generated over 250 million views, with investors like Wayne Rooney, Alexander Ovechkin, and Michael Bisping.',
+    fullDescription: `Blockasset is a Web3 sports network dedicated to delivering exceptional experiences to its community through premium content, strong athlete relationships, and cutting-edge Web3 sport products. Recently, Blockasset partnered with the UFC, bringing community activations and branding opportunities with one of the largest sports organizations in the world. 
+BlockBet, a Web3 sportsbook and casino, launched in June and has already generated over $20 million in wagers, highlighting its rapid growth. BlockPicks, a free-to-play game with over 30,000 players, serves as a fun and interactive onboarding tool into the BlockAsset ecosystem. Users can play for free on popular sports such as NBA, NFL, soccer, and UFC, with BlockPicks acting as a direct funnel into BlockBet.
+Blockasset’s media arm has amassed over 250 million views, working with top athletes like Alex Pereira, Khamzat Chimaev, Darren Till, and more. Prominent investors include football legend Wayne Rooney, hockey star Alexander Ovechkin, and UFC Hall of Famer Michael Bisping.`,
+    minTier: LaunchBondTiers.Silver,
+  },
+  {
+    index: 1114,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x397d7EC24893b7eA9f52951A426F399446AEC048',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdt,
+    earnToken: tokens.arcas,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://www.blockapescissors.com/#home',
+    twitter: 'https://twitter.com/apeblock?lang=en',
+    audit: 'https://solidity.finance/audits/BlockApeScissors/',
+    initTime: { [ChainId.BSC]: 1734992220 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['CHRISTMAS SALE'],
+    shortDescription:
+      'Arcas Champions is an Unreal Engine 5 third-person shooter set on the jungle planet Arcas, where Village Elites and Renegades fight for control using Bastonium. Players customize ape Champions for ranked modes, each with unique playstyles. The game introduces Skillstaking, a blockchain system that tokenizes MMR for esports growth, while the ARCAS token offers revenue share and governance, empowering player influence.',
+    fullDescription:
+      'Arcas Champions is an Unreal Engine 5 third-person shooter blending gunplay, abilities, and stats in fast-paced, competitive modes that demand teamwork, precision, and strategy. Set on the jungle planet Arcas, Village Elites and Renegades clash in a guerilla-style civil war for control, fueled by Bastonium, a powerful element. Players customize and upgrade their ape Champions to fit various playstyles in ranked modes, with Champion-specific leaderboards. The game features Skillstaking, a blockchain-driven system that tokenizes MMR, breaking down barriers to esports and enabling professional gaming paths. As the first Power to Players game, Arcas Champions gives players governance tools, allowing them to shape development and fully own their experience. The ARCAS token secures the DAO Treasury, collecting revenue and managing yield changes. Its deflationary mechanics gradually lock tokens inside player-owned NFTs, shifting governance and revenue share power permanently to players, embodying the "Power to the Players" philosophy.',
+    minTier: LaunchBondTiers.Silver,
+  },
+  {
+    index: 1113,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x323F0683457115956511E9AC10afb9de76D39559',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdt,
+    earnToken: tokens.quo,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://quoll.finance/',
+    twitter: 'https://x.com/QuollFinance',
+    initTime: { [ChainId.BSC]: 1734992220 },
+    soldOut: true,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['CHRISTMAS SALE'],
+    shortDescription:
+      'Quoll Finance is a next-gen yield booster and on-chain incubator optimizing earnings across DeFi protocols. Using vlQUO, users can earn bribes, vote across protocols, and maximize rewards. Staking options like qWOM and qTHENA offer dynamic rewards, while a buy-back mechanism ensures token stability. With $QUO as its native token, Quoll enables governance, rewards, and fee sharing, enhancing long-term user engagement.',
+    fullDescription:
+      'Quoll Finance is a cutting-edge yield booster and on-chain incubator designed to enhance earnings across multiple DeFi protocols. Building on the veToken/boosted yield model pioneered by Wombat Exchange, Quoll has evolved into a comprehensive yield aggregator, optimizing rewards for liquidity providers and token holders. The platform introduces vlQUO, a token enabling users to earn diversified bribes and vote across protocols, fostering participatory governance and maximizing earning potential. With multi-tiered staking options like qWOM, qTHENA, vlQUO, and other qTOKENS, Quoll incentivizes long-term engagement through governance boosts, exclusive NFT bonuses, and robust rewards. A buy-back mechanism ensures token stability and peg maintenance, enhancing the ecosystem’s reliability. Quoll Finance’s native token, $QUO, underpins governance, reward distribution, and fee sharing, offering users a dynamic and rewarding DeFi experience.',
+    minTier: LaunchBondTiers.Silver,
+  },
+  {
+    index: 1112,
+    cmcId: 15921,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x7F12943E9124Ef6023ba797358053FC3dc53ae73',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.wbnb,
+    earnToken: tokens.plt,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://www.poollotto.finance/',
+    twitter: 'https://twitter.com/pltfinance/',
+    audit:
+      'https://github.com/Quillhash/QuillAudit_Reports/blob/master/Poollotto%20Smart%20Contract%20Audit%20Report%20-%20QuillAudits.pdf',
+    initTime: { [ChainId.BSC]: 1734695095 },
+    soldOut: false,
+    billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+    shortDescription:
+      'Poollotto is a pioneering technology company specializing in blockchain-powered lottery solutions, utilizing the Poollotto Token (PLT) to revolutionize the industry. By creating a transparent, fair, and secure platform, Poollotto enables decentralized management of global lottery pools, ensuring automated and secure payments. With their innovative approach, they aim to transform the lottery experience for users worldwide. <a href="https://metalottery.win/" target="_blank" rel="noopener noreferrer" style="color: #38A611">Purchase $100 or more worth of $PLT Bonds to earn 2 free lotto game ticket NFTs!</a>',
+    fullDescription:
+      'Poollotto is a leading technology company specializing in blockchain-powered lottery solutions, utilizing the Poollotto Token (PLT) to revolutionize the industry. Launched to create a transparent and fair token economy, Poollotto leverages blockchain technology to ensure secure, tamper-proof transactions, and records all lottery activities on a public ledger, eliminating doubts of manipulation. By automating processes through smart contracts, Poollotto reduces administrative costs and improves efficiency, while allowing operators to customize their platforms for a unique experience. The PLT token enables global participation in decentralized lottery pools, enhancing inclusivity and ensuring automated, secure payments, ultimately transforming the lottery industry with fairness and transparency at its core. <a href="https://metalottery.win/" target="_blank" rel="noopener noreferrer" style="color: #38A611">Purchase $100 or more worth of $PLT Bonds to earn 2 free lotto game ticket NFTs!</a>',
+    tags: ['GAMEFI'],
+  },
+  {
+    index: 1111,
+    cmcId: 29157,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x7dCb9f68c8123C57f9d831379a642E5Fdec9C1Be',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdt,
+    earnToken: tokens.abond,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://ape.bond/',
+    twitter: 'https://twitter.com/apebond',
+    audit: 'https://paladinsec.co/projects/apebond/',
+    initTime: { [ChainId.BSC]: 1730188465 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    shortDescription:
+      'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
+    fullDescription:
+      'ApeBond is building a sustainable DeFi future through its innovative Bonds products and strategic partnerships. Known for its Crowdsource OTC solution and treasury diversification expertise, ApeBond has launched Bonds with over 140 partners, sold 38,000+ Bonds for a total of $14,000,000 USD, and achieved a top 10 Dapp status by daily active users (DAU) according to CoinMarketCap. The ABOND token ties users with the platform by unlocking special Bonds, new earning opportunities, and more utilities coming up in the pipeline.',
+    tags: ['Bonding'],
+    partnersURLS: [
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/Seedify_fbt392.svg',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613244/ORBS_anzm60.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/quickLogo_2_1_g95ynz.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/aitech_logo_100_real_no_fake_bjskiq.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
+    ],
+  },
+  {
+    index: 1110,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x97b854e6044B43A5213501577cAAC81aA3E90264',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.quoUsdt_PCS,
+    earnToken: tokens.quo,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://quoll.finance/',
+    twitter: 'https://x.com/QuollFinance',
+    initTime: { [ChainId.BSC]: 1734020869 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DeFi'],
+    shortDescription:
+      'Quoll Finance is a next-gen yield booster and on-chain incubator optimizing earnings across DeFi protocols. Using vlQUO, users can earn bribes, vote across protocols, and maximize rewards. Staking options like qWOM and qTHENA offer dynamic rewards, while a buy-back mechanism ensures token stability. With $QUO as its native token, Quoll enables governance, rewards, and fee sharing, enhancing long-term user engagement.',
+    fullDescription:
+      'Quoll Finance is a cutting-edge yield booster and on-chain incubator designed to enhance earnings across multiple DeFi protocols. Building on the veToken/boosted yield model pioneered by Wombat Exchange, Quoll has evolved into a comprehensive yield aggregator, optimizing rewards for liquidity providers and token holders. The platform introduces vlQUO, a token enabling users to earn diversified bribes and vote across protocols, fostering participatory governance and maximizing earning potential. With multi-tiered staking options like qWOM, qTHENA, vlQUO, and other qTOKENS, Quoll incentivizes long-term engagement through governance boosts, exclusive NFT bonuses, and robust rewards. A buy-back mechanism ensures token stability and peg maintenance, enhancing the ecosystem’s reliability. Quoll Finance’s native token, $QUO, underpins governance, reward distribution, and fee sharing, offering users a dynamic and rewarding DeFi experience.',
+  },
+  {
+    index: 1109,
+    chainId: ChainId.BSC,
+    cmcId: 31269,
+    contractAddress: {
+      [ChainId.BSC]: '0xda7711FC23d82c88F6d217D409bf5152b222Eef7',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.wbnb,
+    earnToken: tokens.sxch,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://solarx.ai/',
+    twitter: 'https://x.com/solarxcoin',
+    initTime: { [ChainId.BSC]: 1733939928 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Blockchains'],
+    shortDescription:
+      "The upcoming SolarX Blockchain revolutionizes proof-of-work mining with POGE (Proof of Green Energy), combining sustainability, flexibility, and profitability. Miners can access multi-coin Layer 1 tokens, liquidity pool tokens, and purchase devices using USDT (TRC20) or SXCH. The ecosystem includes the soon-to-be-released SolarX Launchpad, RWA site, and XChain, reshaping mining's future.",
+    fullDescription:
+      'The soon-to-be-released SolarX Blockchain represents the next evolution in decentralized proof-of-work mining, utilizing POGE (Proof of Green Energy) to combine sustainability, flexibility, and profitability. It supports renewable energy while enabling miners to access multiple coins built on the SolarX Layer 1 protocol, as well as tokens from liquidity pool partners both pre- and post-listing. Miners can purchase devices using USDT (TRC20) or SXCH for added convenience. Central to this ecosystem is SolarX Coin ($SXCH), an ERC-20 governance and utility token that serves as the native currency. SXCH is utilized not only for purchasing SolarX mining devices but also for a range of forthcoming features, including the SolarX Launchpad and RWA site, to name a few. Additionally, SXCH will function as the native token on XChain, SolarX’s dedicated blockchain, further enhancing its utility and integration. By aligning cutting-edge blockchain technology with renewable energy initiatives, SolarX Blockchain is reshaping the future of proof-of-work mining, offering unmatched opportunities for miners and developers alike.',
+  },
+  {
+    index: 1108,
+    chainId: ChainId.BSC,
+    cmcId: 31269,
+    contractAddress: {
+      [ChainId.BSC]: '0xD4BF7ad6B701eb22D4419bdf4C7c1147B4DE1E76',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.sxchWbnb_PCS,
+    earnToken: tokens.sxch,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://solarx.ai/',
+    twitter: 'https://x.com/solarxcoin',
+    initTime: { [ChainId.BSC]: 1733939928 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Blockchains'],
+    shortDescription:
+      'SolarX Blockchain is transforming decentralized proof-of-work mining with a secure, scalable network supporting renewable energy and multi-coin Layer 1 access for greater flexibility and profitability. Its native ERC-20 token, SolarX Coin ($SXCH), powers the ecosystem, enabling mining device purchases, covering hosting fees, and serving as the native currency for XChain, SolarX’s dedicated blockchain.',
+    fullDescription:
+      'The soon-to-be-released SolarX Blockchain represents the next evolution in decentralized proof-of-work mining, utilizing POGE (Proof of Green Energy) to combine sustainability, flexibility, and profitability. It supports renewable energy while enabling miners to access multiple coins built on the SolarX Layer 1 protocol, as well as tokens from liquidity pool partners both pre- and post-listing. Miners can purchase devices using USDT (TRC20) or SXCH for added convenience. Central to this ecosystem is SolarX Coin ($SXCH), an ERC-20 governance and utility token that serves as the native currency. SXCH is utilized not only for purchasing SolarX mining devices but also for a range of forthcoming features, including the SolarX Launchpad and RWA site, to name a few. Additionally, SXCH will function as the native token on XChain, SolarX’s dedicated blockchain, further enhancing its utility and integration. By aligning cutting-edge blockchain technology with renewable energy initiatives, SolarX Blockchain is reshaping the future of proof-of-work mining, offering unmatched opportunities for miners and developers alike.',
+  },
+  {
+    index: 1107,
+    cmcId: 29912,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x0902E2C0AD4FddA0052b0F65071de65CF84a779a',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdt,
+    earnToken: tokens.orfy,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://ordify.world/',
+    twitter: 'https://x.com/ordifyworld',
+    audit: 'https://skynet.certik.com/projects/ordify',
+    initTime: { [ChainId.BSC]: 1733406965 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Launchpad'],
+    shortDescription:
+      'Ordify revolutionizes cross-chain investment with its ORFY Bridge, enabling seamless BRC-20 token transfers between the BTC and Ethereum chains. By connecting the BRC-20 and ERC-20 ecosystems, it unlocks access to diverse dApp functionalities like staking and lending. This permissionless solution boosts liquidity for BRC-20 tokens, fostering accessibility and innovation, powered by the ORFY token.',
+    fullDescription: `Ordify is a groundbreaking platform designed to deliver a seamless, user-friendly investment experience across multiple chains. Its innovative ORFY Bridge plays a vital role in addressing liquidity challenges, enabling smooth and secure transfers of BRC-20 tokens between the BTC and Ethereum chains. By connecting the BRC-20 and ERC-20 realms, Ordify empowers BRC-20 projects to access the diverse functionalities of the ERC-20 ecosystem, including lending, staking, and token vesting solutions—capabilities previously unavailable to BRC-20 tokens. This permissionless bridge enhances liquidity for BRC-20 tokens and expands their usability across decentralized applications (dApps). Powered by the ORFY token, Ordify opens new horizons for blockchain interoperability and investment accessibility.`,
+  },
+  {
     index: 1106,
     chainId: ChainId.BSC,
     contractAddress: {
@@ -1039,7 +1828,7 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    lpToken: tokens.sdmBnb_Ichi,
+    lpToken: tokens.sdmUsdt_Ichi,
     earnToken: tokens.sdm,
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
@@ -1133,7 +1922,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.BSC]: 1730188465 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1258,7 +2047,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://x.com/PlayEldarune',
     audit: 'https://hacken.io/audits/eldarune/',
     initTime: { [ChainId.BSC]: 1728392841 },
-    soldOut: false,
+    soldOut: true,
     billArt: { collection: BillArtCollection.ApeBond_Collection1 },
     shortDescription:
       "Eldarune is a game studio creating interoperable, medieval-themed blockchain games where NFTs can be used across multiple titles. The ELDA token serves as the studio's native currency and unlocks diverse gaming experiences. Inspired by classics like Warcraft and Dota, Eldarune is transforming the gaming landscape by offering seamless, interconnected gameplay across its ecosystem.",
@@ -6374,6 +7163,61 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     Polygon Bills
   */
   {
+    index: 169,
+    chainId: ChainId.MATIC,
+    contractAddress: {
+      [ChainId.MATIC]: '0x6856369509B441927dF9783365e6D08CD191A346',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc2,
+    earnToken: tokens.active,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://theactivetoken.com/',
+    twitter: 'https://x.com/yaypalio',
+    initTime: { [ChainId.MATIC]: 1735057059 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    shortDescription:
+      'YayPal transforms gaming by blending fun with an active lifestyle. With $ACTIVE, gamers unlock shared achievements, leaderboards, and personalized NFTs across multiple games. The AI Motivation Engine boosts engagement with fitness challenges and rewards. From conquering virtual realms to real-world discounts and location-based offers, $ACTIVE bridges gaming and real-life rewards seamlessly.',
+    fullDescription: `YayPal redefines gaming with an ecosystem that merges fun, fitness, and rewards. At its core, $ACTIVE powers shared points, leaderboards, and personalized NFTs across games. Gamers switch between casual and Move 2 Play modes, earning rewards while staying active. Walkopoly incentivizes physical activity with tokenized property trading, while the AI Motivation Engine offers personalized challenges. $ACTIVE also unlocks discounts, location-based offers, and a dynamic NFT marketplace, bridging gaming and real-life value.`,
+    tags: ['GAMEFI'],
+  },
+  {
+    index: 168,
+    cmcId: 24789,
+    chainId: ChainId.MATIC,
+    contractAddress: {
+      [ChainId.MATIC]: '0xEc7413e9972aD0D443BdC4D0b1B2348cA221C76c',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc2,
+    earnToken: tokens.rum,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://arrland.com/',
+    twitter: 'https://x.com/ArrlandGame',
+    audit: 'https://skynet.certik.com/projects/arrland',
+    initTime: { [ChainId.MATIC]: 1734992220 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    shortDescription:
+      "Pirates of the Arrland is a decentralized MMO strategy game set in a pirate world, where players' decisions shape a global, player-driven economy. Using blockchain technology, it ensures transparency and digital ownership. Players can captain crews, expand islands, and influence power dynamics. The $RUM token is key to the game, used for in-game services and crafting NFTs, making it integral to the Arrland ecosystem.",
+    fullDescription: `Pirates of the Arrland is a groundbreaking MMO strategy game that immerses players in the pirate world, offering the freedom to make impactful decisions that shape a player-driven global economy. Utilizing blockchain technology, the game ensures transparency, security, and immutable digital ownership. Players can take on roles as crew captains, expand islands, gather resources, form alliances, or plunder ships, with each action influencing the economy and power dynamics within the Arrland Archipelago. The game features a variety of interconnected gameplay modes, all centered around a marketplace on a key trading island. The passionate team behind Pirates of the Arrland combines expertise in gaming, blockchain, 3D graphics, community building, and VR systems to deliver unique gaming experiences. The $RUM token, a deflationary utility token, is integral to the ecosystem, enabling the purchase of in-game services and the crafting and merging of NFTs.`,
+    tags: ['CHRISTMAS SALE'],
+    minTier: LaunchBondTiers.Silver,
+  },
+  {
     index: 167,
     chainId: ChainId.MATIC,
     contractAddress: {
@@ -6420,7 +7264,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://x.com/MedievalEmpires',
     audit: 'https://www.medievalempires.com/static/audit_report-89967b1290db095d7275ce21e8aa5d44.pdf',
     initTime: { [ChainId.MATIC]: 1732711586 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
@@ -6628,7 +7472,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/iconxworld',
     initTime: { [ChainId.MATIC]: 1701892800 },
     initPrice: { [ChainId.MATIC]: 0.347018667988457 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -8593,7 +9437,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://hats.finance/',
     twitter: 'https://x.com/HatsFinance',
     initTime: { [ChainId.ARBITRUM]: 1728578576 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -8669,7 +9513,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://ledgity.finance/',
     twitter: 'https://twitter.com/LedgityYield',
     initTime: { [ChainId.ARBITRUM]: 1723548893 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -8693,7 +9537,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     },
     inactive: false,
     projectLink: 'https://enotoken.io/',
-    twitter: 'https://twitter.com/Enotoken',
+    twitter: 'https://x.com/ENOnetwork',
     audit: 'https://auditrate.tech/images/pdf/EnoToken_0x1C3d163219Bb74f430411b95D66b72056f366eC1.pdf',
     initTime: { [ChainId.ARBITRUM]: 1715789961 },
     initPrice: { [ChainId.ARBITRUM]: 0.13219279419877278 },
@@ -9604,7 +10448,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/AlvaraProtocol',
     audit: 'https://www.quillaudits.com/leaderboard/alvaraavax-token',
     initTime: { [ChainId.MAINNET]: 1728574178 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
@@ -9660,7 +10504,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://gptprotocol.org/',
     twitter: 'https://twitter.com/gpt_protocol',
     initTime: { [ChainId.MAINNET]: 1730189346 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
@@ -9689,7 +10533,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://x.com/graphlinq_proto',
     audit: 'https://www.cyberscope.io/audits/coin-graphlinq-protocol',
     initTime: { [ChainId.MAINNET]: 1730454213 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
@@ -9716,7 +10560,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.MAINNET]: 1731299073 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
@@ -9784,7 +10628,177 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     },
     tags: ['GAMEFI'],
     shortDescription: `Zygo the Frog, the mischievous and adventurous little green Froggie, is a community-driven cryptocurrency that blends meme culture with innovative crypto technology. Focused on decentralization and real-world utility, Zygo offers a fresh take on finance. Secured by Merged Mining, like Dogecoin, Zygo ensures a strong and reliable blockchain. Join the movement and shape the future of decentralized finance!`,
-    fullDescription: ` Zygo the Frog, an adventurous and mischievous little green Froggie, brings a playful yet powerful twist to the world of cryptocurrency. As a community-driven project, Zygo combines the charm of meme culture with cutting-edge crypto innovation, promoting decentralization and real-world utility. Powered by Merged Mining, similar to Dogecoin, Zygo ensures its blockchain remains secure and reliable. Beyond its secure foundation, Zygo introduces Zygo AI, a sophisticated cryptocurrency assistant designed to simplify the complexities of the crypto market. With real-time market data, personalized insights, and portfolio management tools, Zygo AI empowers users to make informed trading and investment decisions. Dive into the Zygo movement and explore a fun, secure, and innovative approach to decentralized finance!`,
+    fullDescription: `Zygo the Frog, an adventurous and mischievous little green Froggie, brings a playful yet powerful twist to the world of cryptocurrency. As a community-driven project, Zygo combines the charm of meme culture with cutting-edge crypto innovation, promoting decentralization and real-world utility. Powered by Merged Mining, similar to Dogecoin, Zygo ensures its blockchain remains secure and reliable. Beyond its secure foundation, Zygo introduces Zygo AI, a sophisticated cryptocurrency assistant designed to simplify the complexities of the crypto market. With real-time market data, personalized insights, and portfolio management tools, Zygo AI empowers users to make informed trading and investment decisions. Dive into the Zygo movement and explore a fun, secure, and innovative approach to decentralized finance!`,
+  },
+  {
+    index: 3032,
+    cmcId: 30902,
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0xE26D0184cF105e18128360E8Ff192667E59475D7',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    lpToken: tokens.eth,
+    earnToken: tokens.wolf,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0xE26D0184cF105e18128360E8Ff192667E59475D7',
+    },
+    inactive: false,
+    projectLink: 'https://landwolf.com/',
+    twitter: 'https://x.com/Wolf0x67',
+    initTime: { [ChainId.MAINNET]: 1733757492 },
+    soldOut: true,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['Meme', 'Community'],
+    shortDescription: `LandWolf is for the People. Backed by a vibrant and unstoppable community, this half-man, half-wolf legend blends humor, creativity, and adventure. Known for his pizza-loving, game-playing vibe, LandWolf transforms into a party animal under the full moon. A star of Matt Furie’s The Boy’s Club alongside Pepe, Andy, and Brett, LandWolf thrives as a community-driven project powered by the $WOLF token on Ethereum.`,
+    fullDescription: `LandWolf is for the People. Backed by a vibrant and unstoppable community, this half-man, half-wolf legend embodies unity, strength, and adventure. Embodying a blend of humor, creativity, and community spirit. Half man, half wolf, LandWolf is a laid-back character who enjoys pizza, video games, and hanging out with friends, but transforms into an adventurous party animal under the full moon. As a standout figure from Furie’s iconic comic series The Boy’s Club, LandWolf shares the spotlight with beloved characters like Pepe, Andy, and Brett. Beyond its artistic roots, LandWolf has evolved into a community-driven project powered by the $WOLF token on the Ethereum blockchain. With no developer allocation, the 0x67 $WOLF token thrives on contributions from its passionate community, making LandWolf a true testament to grassroots collaboration and creative energy.`,
+  },
+  {
+    index: 3033,
+    cmcId: 29157,
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0xC853Ff18536C5e4a39aEE2495D422a26353a9b89',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    lpToken: tokens.usdc,
+    earnToken: tokens.abond,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    inactive: false,
+    projectLink: 'https://ape.bond/',
+    twitter: 'https://twitter.com/apebond',
+    audit: 'https://paladinsec.co/projects/apebond/',
+    initTime: { [ChainId.MAINNET]: 1731299073 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    shortDescription:
+      'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
+    fullDescription:
+      'ApeBond is building a sustainable DeFi future through its innovative Bonds products and strategic partnerships. Known for its Crowdsource OTC solution and treasury diversification expertise, ApeBond has launched Bonds with over 140 partners, sold 38,000+ Bonds for a total of $14,000,000 USD, and achieved a top 10 Dapp status by daily active users (DAU) according to CoinMarketCap. The ABOND token ties users with the platform by unlocking special Bonds, new earning opportunities, and more utilities coming up in the pipeline.',
+    tags: ['Bonding'],
+    partnersURLS: [
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/Seedify_fbt392.svg',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613244/ORBS_anzm60.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/quickLogo_2_1_g95ynz.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/aitech_logo_100_real_no_fake_bjskiq.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
+    ],
+  },
+  {
+    index: 3034,
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0xb6d1009B4700a50bf0F414d3367D3a6c3Cb28fb6',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    lpToken: tokens.usdc,
+    earnToken: tokens.bunny,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0A7f9979CC315190C09cA2633809B8dF',
+    },
+    inactive: false,
+    projectLink: 'https://bucksbunny.com/',
+    twitter: 'https://x.com/JoinBBClub',
+    initTime: { [ChainId.MAINNET]: 1734551887 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['DeFi'],
+    shortDescription: `Bunny is the newest contender in the crypto world, aiming to take over with big dreams inspired by his Uncle Bucks, the crypto king known for his luxury lifestyle. Holding $BUNNY grants access to the exclusive Bucks Bunny Club, where members unlock real-world perks and VIP experiences. As an innovative token, $BUNNY bridges interactive gaming with unique, luxury-driven community engagement.`,
+    fullDescription: `Bunny is the newest contender in the crypto world, bringing bold dreams and a luxurious vision inspired by his Uncle Bucks, the crypto king renowned for his extravagant lifestyle of villas, yachts, and endless VIP parties. Holding $BUNNY isn’t just about owning a token—it’s a gateway to the exclusive Bucks Bunny Club, where members unlock unparalleled real-world experiences and elite perks. Divided into three tiers, the club rewards holders with access to private events, including concerts, red carpets, art tours, and even yacht parties or zero-G adventures. Beyond its meme origins, $BUNNY stands as a bridge between digital assets, interactive gaming, and unique luxury experiences, fostering a vibrant community that thrives on exclusivity and high-profile living. With dreams of taking over the crypto space, Bunny invites everyone to stack their $BUNNY and join a movement that’s all about living the extraordinary life.`,
+  },
+  {
+    index: 3035,
+    cmcId: 31716,
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0xdE5a7D2815782d0f3426fD7bA29010dECb543216',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    lpToken: tokens.usdc,
+    earnToken: tokens.skai,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0A7f9979CC315190C09cA2633809B8dF',
+    },
+    inactive: false,
+    projectLink: 'https://www.skillfulai.io/',
+    twitter: 'https://x.com/SkillfulAI',
+    initTime: { [ChainId.MAINNET]: 1734551887 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription: `Skillful AI is a pioneering platform that delivers a personalized AI ecosystem, empowering users with advanced virtual assistants tailored to domain-specific knowledge and user-specific memories. Designed to keep individuals and developers ahead in the digital era, it offers tools to create and monetize AI solutions within a blockchain-powered ecosystem. With $SKAI as its utility token, Skillful AI enables seamless access to creator tools, marketplace transactions, and subscriptions, revolutionizing the way people interact with technology.`,
+    fullDescription: `Skillful AI is a cutting-edge platform designed to empower individuals and developers with a personalized AI ecosystem tailored to their needs. By providing advanced virtual assistants trained in domain-specific knowledge, Skillful AI keeps users at the forefront of technological advancements. With a focus on context-aware interactions and user-specific memories, it ensures meaningful and tailored experiences. For developers, it offers powerful tools to create, monetize, and share AI solutions, fostering collaboration within a blockchain-powered ecosystem. Skillful AI also leverages novel long-term memory solutions built with DePin, prioritizing user-owned data and innovation. Powered by its utility token, $SKAI, the platform streamlines access to AI creator tools, marketplace transactions, and subscriptions, revolutionizing how users interact with and shape the future of technology.`,
+  },
+  {
+    index: 3036,
+    cmcId: 30680,
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0x06beB6BbafB435292BaACF3ce5FD57F6f1757a94',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    lpToken: tokens.usdc,
+    earnToken: tokens.gpt,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    inactive: false,
+    projectLink: 'https://gptprotocol.org/',
+    twitter: 'https://twitter.com/gpt_protocol',
+    initTime: { [ChainId.MAINNET]: 1734992220 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['CHRISTMAS SALE'],
+    shortDescription:
+      'GPT Protocol is a pioneering platform leading the merger of artificial intelligence (AI) with blockchain technology, revolutionizing AI development by ensuring it is accessible, innovative, and censorship-resistant. It harnesses open-source AI tools and decentralized networks, bringing together a global community of developers to create, share, and deploy AI applications on the blockchain. $GPT tokens create an AI economy that incentivizes consumers, developers, and compute providers, serving multiple roles within the network, from rewarding miners to compensating data providers.',
+    fullDescription:
+      'GPT Protocol is a transformative Layer 2 blockchain platform built on the Ethereum Virtual Machine, aimed at revolutionizing the artificial intelligence landscape. It integrates decentralized technologies to ensure AI development is accessible, innovative, and censorship-resistant. By harnessing open-source AI tools and decentralized networks, it brings together a global community of developers to create, share, and deploy AI applications on the blockchain. $GPT tokens create an AI economy that incentivizes consumers, developers, and compute providers, serving multiple roles within the network, from rewarding miners to compensating data providers. More than just a technology, GPT Protocol is shaping a future where data integrity, intellectual freedom, and collaborative innovation form the pillars of our digital world.',
+    minTier: LaunchBondTiers.Silver,
+  },
+  {
+    index: 3037,
+    cmcId: 31716,
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0x7bAf8F7DfDF6DB211f7495411E0A980076E6616E',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    lpToken: tokens.usdc,
+    earnToken: tokens.skai,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0A7f9979CC315190C09cA2633809B8dF',
+    },
+    inactive: false,
+    projectLink: 'https://www.skillfulai.io/',
+    twitter: 'https://x.com/SkillfulAI',
+    initTime: { [ChainId.MAINNET]: 1734992220 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['CHRISTMAS SALE'],
+    shortDescription: `Skillful AI is a pioneering platform that delivers a personalized AI ecosystem, empowering users with advanced virtual assistants tailored to domain-specific knowledge and user-specific memories. Designed to keep individuals and developers ahead in the digital era, it offers tools to create and monetize AI solutions within a blockchain-powered ecosystem. With $SKAI as its utility token, Skillful AI enables seamless access to creator tools, marketplace transactions, and subscriptions, revolutionizing the way people interact with technology.`,
+    fullDescription: `Skillful AI is a cutting-edge platform designed to empower individuals and developers with a personalized AI ecosystem tailored to their needs. By providing advanced virtual assistants trained in domain-specific knowledge, Skillful AI keeps users at the forefront of technological advancements. With a focus on context-aware interactions and user-specific memories, it ensures meaningful and tailored experiences. For developers, it offers powerful tools to create, monetize, and share AI solutions, fostering collaboration within a blockchain-powered ecosystem. Skillful AI also leverages novel long-term memory solutions built with DePin, prioritizing user-owned data and innovation. Powered by its utility token, $SKAI, the platform streamlines access to AI creator tools, marketplace transactions, and subscriptions, revolutionizing how users interact with and shape the future of technology.`,
+    minTier: LaunchBondTiers.Silver,
   },
 ]
 
