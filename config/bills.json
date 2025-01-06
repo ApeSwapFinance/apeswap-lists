@@ -1,58 +1,5 @@
 [
   {
-    "index": 11000,
-    "cmcId": 28480,
-    "chainId": 81457,
-    "contractAddress": {
-      "81457": "0xF937D7C8ee22a913f96D308A946D8502ab3541a8"
-    },
-    "billType": "reserve",
-    "billVersion": "V2",
-    "lpToken": {
-      "symbol": "USDB",
-      "address": {
-        "81457": "0x4300000000000000000000000000000000000003"
-      },
-      "decimals": {
-        "81457": 18
-      },
-      "active": true,
-      "liquidityDex": {
-        "81457": "ThrusterV3"
-      }
-    },
-    "earnToken": {
-      "symbol": "ETH",
-      "address": {
-        "81457": "0x4300000000000000000000000000000000000004"
-      },
-      "decimals": {
-        "81457": 18
-      },
-      "liquidityDex": {
-        "81457": "ThrusterV3"
-      },
-      "active": true
-    },
-    "billNnftAddress": {
-      "81457": "0x1b7858f745211dBa1387fE30124eBCa2D706D7Dd"
-    },
-    "inactive": false,
-    "projectLink": "https://blast.io/",
-    "twitter": "https://x.com/blast",
-    "audit": "https://docs.blast.io/about-blast",
-    "initTime": {
-      "81457": 1733855843
-    },
-    "soldOut": false,
-    "billArt": {
-      "collection": "ApeBond_Collection1"
-    },
-    "tags": ["Blockchains"],
-    "shortDescription": "lorem ipsum dolor sit amet",
-    "fullDescription": "lorem ipsum dolor sit amet lorem ipsum dolor sit amet"
-  },
-  {
     "index": 10000,
     "cmcId": 9029,
     "chainId": 614,

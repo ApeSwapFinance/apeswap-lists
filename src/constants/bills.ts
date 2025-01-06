@@ -18,33 +18,7 @@ const bills: BillsConfig[] = [
   //
   // Blast
   //
-  {
-    index: 11000,
-    cmcId: 28480,
-    chainId: ChainId.BLAST,
-    contractAddress: {
-      [ChainId.BLAST]: '0xF937D7C8ee22a913f96D308A946D8502ab3541a8',
-    },
-    billType: 'reserve',
-    billVersion: BillVersion.V2,
-    lpToken: tokens.usdb,
-    earnToken: tokens.eth,
-    billNnftAddress: {
-      [ChainId.BLAST]: '0x1b7858f745211dBa1387fE30124eBCa2D706D7Dd',
-    },
-    inactive: false,
-    projectLink: 'https://blast.io/',
-    twitter: 'https://x.com/blast',
-    audit: 'https://docs.blast.io/about-blast',
-    initTime: { [ChainId.BLAST]: 1733855843 },
-    soldOut: false,
-    billArt: {
-      collection: BillArtCollection.ApeBond_Collection1,
-    },
-    tags: ['Blockchains'],
-    shortDescription: 'lorem ipsum dolor sit amet',
-    fullDescription: 'lorem ipsum dolor sit amet lorem ipsum dolor sit amet',
-  },
+
   //
   // GraphLinq
   //
