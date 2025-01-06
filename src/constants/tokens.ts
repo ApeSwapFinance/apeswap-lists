@@ -6167,6 +6167,21 @@ const tokens: Record<string, Token> = {
       [ChainId.ARBITRUM]: 'https://app.ichi.org/vault/token/0xC6F780497A95e246EB9449f5e4770916DCd6396A',
     },
   },
+  eywaUsdt_Curve: {
+    symbol: 'EYWA-USDT',
+    address: {
+      [ChainId.ARBITRUM]: '0x6579758e9E85434450D638cFBEA0F2fe79856ddA',
+    },
+    decimals: { [ChainId.ARBITRUM]: 18 },
+    liquidityDex: {
+      [ChainId.ARBITRUM]: LiquidityDex.Curve,
+    },
+    active: true,
+    lpToken: true,
+    getLpUrl: {
+      [ChainId.ARBITRUM]: 'https://curve.fi/#/arbitrum/pools/factory-twocrypto-57/deposit',
+    },
+  },
   ethBonsai_Camelot: {
     symbol: 'ETH-BONSAI',
     address: {
