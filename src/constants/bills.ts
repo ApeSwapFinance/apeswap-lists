@@ -197,7 +197,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://sheertopia.io/',
     twitter: 'https://x.com/sheertopia',
     initTime: { [ChainId.BASE]: 1734692693 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -328,7 +328,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.rewardable.app/',
     twitter: 'https://x.com/rewardable_app',
     initTime: { [ChainId.BASE]: 1733943183 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -535,7 +535,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/TylerOnBaseETH',
     audit: 'https://tokensniffer.com/token/8453/0x65e570b560027f493f2b1907e8e8e3b9546053bd',
     initTime: { [ChainId.BASE]: 1733827195 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
