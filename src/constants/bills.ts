@@ -12,11 +12,16 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
 // GraphLinq Largest ID: 10000
+// Blast Largest ID: 11000
 
 const bills: BillsConfig[] = [
   //
-  // GraphLinq
+  // Blast
+  //
 
+  //
+  // GraphLinq
+  //
   {
     index: 10000,
     cmcId: 9029,
@@ -44,7 +49,7 @@ const bills: BillsConfig[] = [
     shortDescription: `GraphLinq is a no-code blockchain platform for on-chain automation and AI-driven dApps. Users can create cryptocurrencies, monitor smart contracts, set up bots, and execute trades without coding. Its native token, GLQ, fuels all transactions and graph executions on the network, with used tokens burned to reduce supply, promoting sustainable growth and market adoption.`,
     fullDescription: `GraphLinq is a blockchain ecosystem designed for seamless on-chain automation and dApp development, harnessing the power of AI. With a no-code, user-friendly online interface, GraphLinq empowers users to generate and manage blockchain data without any coding expertise. This platform enables users to easily create cryptocurrencies, monitor smart contract activities, set up bots for tasks like handling subscriptions, track automated market maker (AMM) pair activities, and execute trades on centralized exchanges based on decentralized data. Users can also perform automated DEX arbitrage through customizable graphs on the GraphLinq engine. By building with nodes—interconnected blocks that transmit data to other nodes—GraphLinq allows users to create structured execution paths that operate on either the blockchain or GraphLinq’s engine. Once configured, users can deploy their workflows on the testnet or mainnet, seamlessly transitioning from testing to production. GLQ is the native asset of GraphLinq Chain, used for all financial transactions within the protocol and for community needs. The GLQ token powers the execution of graphs on the GraphLinq engine network, covering fees required for operations. Tokens minted since inception and used as gas fees for graph execution are burned, gradually reducing supply to promote a balanced evolution curve and support market adoption.`,
   },
-
+  //
   // IOTA
   //
   {
@@ -176,7 +181,6 @@ const bills: BillsConfig[] = [
     fullDescription:
       'FOMOFox is the first market-driven storytelling meme coin on IOTA EVM. Follow the thrilling journey of FOMOFox on TwitterX and help him conquer his FOMO by influencing the $FOMO Token’s market performance. Loyal holders will find countless opportunities to grow their $FOMO bags through raffles, solving riddles, or simply holding and supporting the fox. Along the way, FOMOFox faces diverse challenges and meets intriguing characters. Your influence on the market helps him make the right choices. This project offers pure entertainment and rewards those who stick with it! Join the adventure now and visit their website for more details!',
   },
-
   //
   // BASE
   //
@@ -1127,6 +1131,7 @@ const bills: BillsConfig[] = [
 
   //
   // LINEA
+  //
   {
     index: 6012,
     chainId: ChainId.LINEA,

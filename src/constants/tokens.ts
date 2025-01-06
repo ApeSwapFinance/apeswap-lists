@@ -20,6 +20,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  usdb: {
+    symbol: 'USDB',
+    address: {
+      [ChainId.BLAST]: '0x4300000000000000000000000000000000000003',
+    },
+    decimals: {
+      [ChainId.BLAST]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BLAST]: LiquidityDex.ThrusterV3,
+    },
+  },
   cellarph: {
     symbol: 'CELLAR', // keep this name here
     address: {
@@ -858,6 +871,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: '0x4200000000000000000000000000000000000006',
       [ChainId.IOTA]: '0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8',
       [ChainId.GRAPHLINQ]: '0xbeED106D0f2e6950BFa1Eec74E1253CA0a643442',
+      [ChainId.BLAST]: '0x4300000000000000000000000000000000000004',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -871,6 +885,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: 18,
       [ChainId.IOTA]: 18,
       [ChainId.GRAPHLINQ]: 18,
+      [ChainId.BLAST]: 18,
     },
     liquidityDex: {
       [ChainId.MAINNET]: LiquidityDex.UniswapV3,
@@ -879,6 +894,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.Aerodrome,
       [ChainId.IOTA]: LiquidityDex.MagicSea,
       [ChainId.GRAPHLINQ]: LiquidityDex.External,
+      [ChainId.BLAST]: LiquidityDex.ThrusterV3,
     },
     active: true,
   },
