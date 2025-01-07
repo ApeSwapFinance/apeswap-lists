@@ -4235,6 +4235,19 @@ const tokens: Record<string, Token> = {
       [ChainId.ARBITRUM]: LiquidityDex.UniswapV3,
     },
   },
+  crv: {
+    symbol: 'CRV',
+    address: {
+      [ChainId.ARBITRUM]: '0x11cDb42B0EB46D95f990BeDD4695A6e3fA034978',
+    },
+    decimals: {
+      [ChainId.ARBITRUM]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.ARBITRUM]: LiquidityDex.UniswapV3,
+    },
+  },
   eywa: {
     symbol: 'EYWA',
     address: {
