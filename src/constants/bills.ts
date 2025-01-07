@@ -227,7 +227,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://random.trading/',
     twitter: 'https://x.com/randomdexrdx',
     initTime: { [ChainId.BASE]: 1734692693 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -254,7 +254,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://imgnai.com/',
     twitter: 'https://x.com/imgn_ai',
     initTime: { [ChainId.BASE]: 1734992220 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -487,7 +487,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://mozaic.finance/',
     twitter: 'https://x.com/Mozaic_Fi',
     initTime: { [ChainId.BASE]: 1733851922 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1088,7 +1088,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/lightlinkchain',
     audit: 'https://docs.lightlink.io/lightlink-protocol/miscellaneous/security-audits',
     initTime: { [ChainId.LIGHTLINK]: 1727694457 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1117,7 +1117,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/lightlinkchain',
     audit: 'https://docs.lightlink.io/lightlink-protocol/miscellaneous/security-audits',
     initTime: { [ChainId.LIGHTLINK]: 1734992220 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1151,7 +1151,7 @@ const bills: BillsConfig[] = [
     audit:
       'https://lineascan.build/token/0x81BE2aCB2e9291dB6400f9f6a4D0f35f24de2E77?a=0xc9f2a5115b727849e067da85a0ff422732a358a7#code',
     initTime: { [ChainId.LINEA]: 1734992220 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1229,7 +1229,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://efrogs.mirror.xyz/',
     twitter: 'https://x.com/efrogs_on_linea',
     initTime: { [ChainId.LINEA]: 1730804855 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1472,7 +1472,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.BSC]: 1734992220 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1575,7 +1575,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://home.blockasset.co/',
     twitter: 'https://x.com/blockassetco',
     initTime: { [ChainId.BSC]: 1734992220 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1605,7 +1605,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/apeblock?lang=en',
     audit: 'https://solidity.finance/audits/BlockApeScissors/',
     initTime: { [ChainId.BSC]: 1734992220 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -2392,7 +2392,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     audit: 'https://skynet.certik.com/projects/devomon',
     initTime: { [ChainId.BSC]: 1712163600 },
     initPrice: { [ChainId.BSC]: 0.006303059734924963 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -7207,7 +7207,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://x.com/ArrlandGame',
     audit: 'https://skynet.certik.com/projects/arrland',
     initTime: { [ChainId.MATIC]: 1734992220 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -7291,7 +7291,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.0xgoon.com/',
     twitter: 'https://x.com/0xGOON_morning',
     initTime: { [ChainId.MATIC]: 1729769488 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
@@ -10762,7 +10762,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://gptprotocol.org/',
     twitter: 'https://twitter.com/gpt_protocol',
     initTime: { [ChainId.MAINNET]: 1734992220 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
@@ -10791,7 +10791,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.skillfulai.io/',
     twitter: 'https://x.com/SkillfulAI',
     initTime: { [ChainId.MAINNET]: 1734992220 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
