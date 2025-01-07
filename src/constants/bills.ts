@@ -4,7 +4,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // BNB Largest ID: 1118
 // Polygon Largest ID: 168
 // Telos Largest ID: 215
-// Arbitrum Largest ID: 2011
+// Arbitrum Largest ID: 2013
 // ETH Largest ID: 3037
 // Linea Largest ID: 6012
 // Base Largest ID: 8030
@@ -12,11 +12,16 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
 // GraphLinq Largest ID: 10000
+// Blast Largest ID: 11000
 
 const bills: BillsConfig[] = [
   //
-  // GraphLinq
+  // Blast
+  //
 
+  //
+  // GraphLinq
+  //
   {
     index: 10000,
     cmcId: 9029,
@@ -44,7 +49,7 @@ const bills: BillsConfig[] = [
     shortDescription: `GraphLinq is a no-code blockchain platform for on-chain automation and AI-driven dApps. Users can create cryptocurrencies, monitor smart contracts, set up bots, and execute trades without coding. Its native token, GLQ, fuels all transactions and graph executions on the network, with used tokens burned to reduce supply, promoting sustainable growth and market adoption.`,
     fullDescription: `GraphLinq is a blockchain ecosystem designed for seamless on-chain automation and dApp development, harnessing the power of AI. With a no-code, user-friendly online interface, GraphLinq empowers users to generate and manage blockchain data without any coding expertise. This platform enables users to easily create cryptocurrencies, monitor smart contract activities, set up bots for tasks like handling subscriptions, track automated market maker (AMM) pair activities, and execute trades on centralized exchanges based on decentralized data. Users can also perform automated DEX arbitrage through customizable graphs on the GraphLinq engine. By building with nodes—interconnected blocks that transmit data to other nodes—GraphLinq allows users to create structured execution paths that operate on either the blockchain or GraphLinq’s engine. Once configured, users can deploy their workflows on the testnet or mainnet, seamlessly transitioning from testing to production. GLQ is the native asset of GraphLinq Chain, used for all financial transactions within the protocol and for community needs. The GLQ token powers the execution of graphs on the GraphLinq engine network, covering fees required for operations. Tokens minted since inception and used as gas fees for graph execution are burned, gradually reducing supply to promote a balanced evolution curve and support market adoption.`,
   },
-
+  //
   // IOTA
   //
   {
@@ -176,7 +181,6 @@ const bills: BillsConfig[] = [
     fullDescription:
       'FOMOFox is the first market-driven storytelling meme coin on IOTA EVM. Follow the thrilling journey of FOMOFox on TwitterX and help him conquer his FOMO by influencing the $FOMO Token’s market performance. Loyal holders will find countless opportunities to grow their $FOMO bags through raffles, solving riddles, or simply holding and supporting the fox. Along the way, FOMOFox faces diverse challenges and meets intriguing characters. Your influence on the market helps him make the right choices. This project offers pure entertainment and rewards those who stick with it! Join the adventure now and visit their website for more details!',
   },
-
   //
   // BASE
   //
@@ -223,7 +227,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://random.trading/',
     twitter: 'https://x.com/randomdexrdx',
     initTime: { [ChainId.BASE]: 1734692693 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -250,7 +254,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://imgnai.com/',
     twitter: 'https://x.com/imgn_ai',
     initTime: { [ChainId.BASE]: 1734992220 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -280,10 +284,9 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    tags: ['CHRISTMAS SALE'],
+    tags: ['AI'],
     shortDescription: `Olex aims to be the world’s first fully autonomous crypto project, powered by cutting-edge AI and custom AI agents. It identifies market opportunities, creates, and launches projects independently, while fostering vibrant communities using AI trained on successful crypto initiatives. At its core, the OAI token delivers 100% real yield, sharing profits from all Olex ventures. Olex redefines DeFi with automation and innovation.`,
     fullDescription: `Olex aims to be the world’s first fully autonomous crypto project, built on cutting-edge AI technology and custom-developed AI agents. The vision behind Olex is to operate independently, around the clock, scanning the crypto market to uncover gaps and emerging opportunities without human intervention. When an opportunity is identified, Olex's AI worker agents spring into action, carefully planning, creating, and launching the project from start to finish. Olex doesn’t stop at deploying projects; it’s designed to cultivate and sustain dynamic communities. Leveraging AI agents trained on thousands of successful crypto projects, Olex ensures that each new initiative has a vibrant community at its core. The result is a continuous cycle of project discovery, development, and community building that enhances the cryptocurrency ecosystem while delivering ongoing value to OLEXAI token holders. At the core of Olex’s ecosystem is the OAI token, a 100% real yield asset that redistributes profits from all Olex-created ventures to token holders, making it a trailblazer in decentralized finance. With its cutting-edge automation and AI-driven innovation, Olex redefines the future of DeFi and the crypto economy.`,
-    minTier: LaunchBondTiers.Silver,
   },
   {
     index: 8026,
@@ -483,7 +486,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://mozaic.finance/',
     twitter: 'https://x.com/Mozaic_Fi',
     initTime: { [ChainId.BASE]: 1733851922 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1084,7 +1087,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/lightlinkchain',
     audit: 'https://docs.lightlink.io/lightlink-protocol/miscellaneous/security-audits',
     initTime: { [ChainId.LIGHTLINK]: 1727694457 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1113,7 +1116,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/lightlinkchain',
     audit: 'https://docs.lightlink.io/lightlink-protocol/miscellaneous/security-audits',
     initTime: { [ChainId.LIGHTLINK]: 1734992220 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1127,6 +1130,7 @@ const bills: BillsConfig[] = [
 
   //
   // LINEA
+  //
   {
     index: 6012,
     chainId: ChainId.LINEA,
@@ -1146,7 +1150,7 @@ const bills: BillsConfig[] = [
     audit:
       'https://lineascan.build/token/0x81BE2aCB2e9291dB6400f9f6a4D0f35f24de2E77?a=0xc9f2a5115b727849e067da85a0ff422732a358a7#code',
     initTime: { [ChainId.LINEA]: 1734992220 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1224,7 +1228,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://efrogs.mirror.xyz/',
     twitter: 'https://x.com/efrogs_on_linea',
     initTime: { [ChainId.LINEA]: 1730804855 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1467,7 +1471,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.BSC]: 1734992220 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1570,7 +1574,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://home.blockasset.co/',
     twitter: 'https://x.com/blockassetco',
     initTime: { [ChainId.BSC]: 1734992220 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1600,7 +1604,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/apeblock?lang=en',
     audit: 'https://solidity.finance/audits/BlockApeScissors/',
     initTime: { [ChainId.BSC]: 1734992220 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -2387,7 +2391,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     audit: 'https://skynet.certik.com/projects/devomon',
     initTime: { [ChainId.BSC]: 1712163600 },
     initPrice: { [ChainId.BSC]: 0.006303059734924963 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -7202,7 +7206,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://x.com/ArrlandGame',
     audit: 'https://skynet.certik.com/projects/arrland',
     initTime: { [ChainId.MATIC]: 1734992220 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -7286,7 +7290,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.0xgoon.com/',
     twitter: 'https://x.com/0xGOON_morning',
     initTime: { [ChainId.MATIC]: 1729769488 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
@@ -9416,6 +9420,58 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       Arbitrum Bills - ID started from 2001
   */
   {
+    index: 2013,
+    cmcId: 33841,
+    chainId: ChainId.ARBITRUM,
+    contractAddress: {
+      [ChainId.ARBITRUM]: '0xC814696299F307f5A7C7b277beC3A5565256893C',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.crv,
+    earnToken: tokens.eywa,
+    billNnftAddress: {
+      [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
+    },
+    inactive: false,
+    projectLink: 'https://crosscurve.fi/',
+    twitter: 'https://x.com/eywaprotocol',
+    initTime: { [ChainId.ARBITRUM]: 1736265725 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DeFi'],
+    shortDescription: `CrossCurve, by the Eywa Team, is a cross-chain trading and yield protocol built on Curve, unifying $2B+ in liquidity across chains. It enables secure, cost-efficient swaps for Curve assets (crvUSD, LP tokens), liquid staking tokens (LSTs), and stablecoins. Governed by EYWA DAO, veEYWA holders shape decisions, earn rewards, and drive innovation in the decentralized ecosystem.`,
+    fullDescription: `CrossCurve, developed by the Eywa Team, is a cutting-edge cross-chain trading and yield protocol that integrates seamlessly with Curve Finance, aggregating its extensive $2 billion+ in TVL pools to establish a unified cross-chain liquidity market. By enabling cost-efficient, secure, and convenient cross-chain swaps for Curve assets (such as crvUSD and various LP tokens), liquid staking tokens (LSTs), and stablecoins, CrossCurve opens innovative opportunities for liquidity providers, Web3 projects, and DeFi users. Governed by the EYWA DAO—a transparent and decentralized organization driven by veEYWA governance token holders—participants shape strategic decisions, earn protocol income, and receive incentives, fostering collaboration and engagement across the decentralized ecosystem.`,
+  },
+  {
+    index: 2012,
+    cmcId: 33841,
+    chainId: ChainId.ARBITRUM,
+    contractAddress: {
+      [ChainId.ARBITRUM]: '0xe6570fC8e44626dDCc2Fb2b0bbc1be292C01C2c9',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.eywaUsdt_Curve,
+    earnToken: tokens.eywa,
+    billNnftAddress: {
+      [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
+    },
+    inactive: false,
+    projectLink: 'https://crosscurve.fi/',
+    twitter: 'https://x.com/eywaprotocol',
+    initTime: { [ChainId.ARBITRUM]: 1736265725 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DeFi'],
+    shortDescription: `CrossCurve, by the Eywa Team, is a cross-chain trading and yield protocol built on Curve, unifying $2B+ in liquidity across chains. It enables secure, cost-efficient swaps for Curve assets (crvUSD, LP tokens), liquid staking tokens (LSTs), and stablecoins. Governed by EYWA DAO, veEYWA holders shape decisions, earn rewards, and drive innovation in the decentralized ecosystem.`,
+    fullDescription: `CrossCurve, developed by the Eywa Team, is a cutting-edge cross-chain trading and yield protocol that integrates seamlessly with Curve Finance, aggregating its extensive $2 billion+ in TVL pools to establish a unified cross-chain liquidity market. By enabling cost-efficient, secure, and convenient cross-chain swaps for Curve assets (such as crvUSD and various LP tokens), liquid staking tokens (LSTs), and stablecoins, CrossCurve opens innovative opportunities for liquidity providers, Web3 projects, and DeFi users. Governed by the EYWA DAO—a transparent and decentralized organization driven by veEYWA governance token holders—participants shape strategic decisions, earn protocol income, and receive incentives, fostering collaboration and engagement across the decentralized ecosystem.`,
+  },
+  {
     index: 2011,
     chainId: ChainId.ARBITRUM,
     contractAddress: {
@@ -10757,7 +10813,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://gptprotocol.org/',
     twitter: 'https://twitter.com/gpt_protocol',
     initTime: { [ChainId.MAINNET]: 1734992220 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
@@ -10786,7 +10842,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.skillfulai.io/',
     twitter: 'https://x.com/SkillfulAI',
     initTime: { [ChainId.MAINNET]: 1734992220 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
