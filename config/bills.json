@@ -19173,7 +19173,7 @@
     "initTime": {
       "42161": 1736265725
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
