@@ -753,6 +753,7 @@
       "liquidityDex": {
         "8453": "UniswapV3"
       },
+      "liquidityWrapper": 1,
       "ichiUnderlyingDex": "Uniswap V3",
       "getLpUrl": {
         "8453": "https://app.ichi.org/vault/token/0x1986cc18d8ec757447254310d2604f85741aa732/"
@@ -810,6 +811,7 @@
       "liquidityDex": {
         "8453": "UniswapV3"
       },
+      "liquidityWrapper": 1,
       "ichiUnderlyingDex": "Uniswap V3",
       "getLpUrl": {
         "8453": "https://app.ichi.org/vault/token/0x1986cc18d8ec757447254310d2604f85741aa732/"
@@ -2783,6 +2785,7 @@
       },
       "active": true,
       "lpToken": true,
+      "liquidityWrapper": 1,
       "ichiUnderlyingDex": "Lynex",
       "liquidityDex": {
         "59144": "Algebra"
@@ -3565,6 +3568,7 @@
       "liquidityDex": {
         "56": "PancakeSwapV3"
       },
+      "liquidityWrapper": 1,
       "ichiUnderlyingDex": "PancakeSwap",
       "getLpUrl": {
         "56": "https://pancakeswap.finance/position-managers"
@@ -3673,6 +3677,7 @@
       "liquidityDex": {
         "56": "Algebra"
       },
+      "liquidityWrapper": 1,
       "ichiUnderlyingDex": "Thena",
       "getLpUrl": {
         "56": "https://thena.fi/pools/0x87a4276eaed3b46cb77ec41d6f6b9fc98b159725"
@@ -5658,6 +5663,7 @@
       },
       "active": true,
       "lpToken": true,
+      "liquidityWrapper": 1,
       "ichiUnderlyingDex": "Uniswap V3",
       "liquidityDex": {
         "56": "Algebra"
@@ -15084,6 +15090,7 @@
       },
       "active": true,
       "lpToken": true,
+      "liquidityWrapper": 1,
       "ichiUnderlyingDex": "Uniswap V3",
       "getLpUrl": {
         "137": "https://app.ichi.org/vault/token/0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270/"
@@ -15142,6 +15149,7 @@
       },
       "active": true,
       "lpToken": true,
+      "liquidityWrapper": 1,
       "ichiUnderlyingDex": "QuickSwap"
     },
     "earnToken": {
@@ -15309,6 +15317,7 @@
       },
       "active": true,
       "lpToken": true,
+      "liquidityWrapper": 1,
       "ichiUnderlyingDex": "QuickSwap"
     },
     "earnToken": {
@@ -15942,6 +15951,7 @@
       },
       "active": true,
       "lpToken": true,
+      "liquidityWrapper": 1,
       "ichiUnderlyingDex": "QuickSwap"
     },
     "earnToken": {
@@ -19256,6 +19266,7 @@
       "liquidityDex": {
         "42161": "UniswapV3"
       },
+      "liquidityWrapper": 1,
       "ichiUnderlyingDex": "Uniswap V3",
       "active": true,
       "lpToken": true
@@ -19414,6 +19425,7 @@
       "liquidityDex": {
         "42161": "UniswapV3"
       },
+      "liquidityWrapper": 1,
       "ichiUnderlyingDex": "Uniswap V3",
       "active": true,
       "lpToken": true

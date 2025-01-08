@@ -1,4 +1,4 @@
-import { ChainId, IchiSupportedDex, LiquidityDex, Token } from '../types'
+import { ChainId, IchiSupportedDex, LiquidityDex, Token, Wrappers } from '../types'
 
 const tokens: Record<string, Token> = {
   // BANANA should always be first token for GNANA calculation
@@ -555,6 +555,7 @@ const tokens: Record<string, Token> = {
     decimals: { [ChainId.LINEA]: 18 },
     active: true,
     lpToken: true,
+    liquidityWrapper: Wrappers.Ichi,
     ichiUnderlyingDex: IchiSupportedDex.Lynex,
     liquidityDex: {
       [ChainId.LINEA]: LiquidityDex.Algebra,
@@ -4274,6 +4275,7 @@ const tokens: Record<string, Token> = {
     liquidityDex: {
       [ChainId.ARBITRUM]: LiquidityDex.UniswapV3,
     },
+    liquidityWrapper: Wrappers.Ichi,
     ichiUnderlyingDex: IchiSupportedDex.UniswapV3,
     active: true,
     lpToken: true,
@@ -4289,6 +4291,7 @@ const tokens: Record<string, Token> = {
     liquidityDex: {
       [ChainId.ARBITRUM]: LiquidityDex.UniswapV3,
     },
+    liquidityWrapper: Wrappers.Ichi,
     ichiUnderlyingDex: IchiSupportedDex.UniswapV3,
     active: true,
     lpToken: true,
@@ -5279,6 +5282,7 @@ const tokens: Record<string, Token> = {
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.Algebra,
     },
+    liquidityWrapper: Wrappers.Ichi,
     ichiUnderlyingDex: IchiSupportedDex.Thena,
     getLpUrl: {
       [ChainId.BSC]: 'https://thena.fi/pools/0x87a4276eaed3b46cb77ec41d6f6b9fc98b159725',
@@ -5295,6 +5299,7 @@ const tokens: Record<string, Token> = {
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
     },
+    liquidityWrapper: Wrappers.Ichi,
     ichiUnderlyingDex: IchiSupportedDex.Pancakeswap,
     getLpUrl: {
       [ChainId.BSC]: 'https://pancakeswap.finance/position-managers',
@@ -5395,6 +5400,7 @@ const tokens: Record<string, Token> = {
     decimals: { [ChainId.BSC]: 18 },
     active: true,
     lpToken: true,
+    liquidityWrapper: Wrappers.Ichi,
     ichiUnderlyingDex: IchiSupportedDex.UniswapV3,
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.Algebra,
@@ -5957,6 +5963,7 @@ const tokens: Record<string, Token> = {
     },
     active: true,
     lpToken: true,
+    liquidityWrapper: Wrappers.Ichi,
     ichiUnderlyingDex: IchiSupportedDex.Quickswap,
   },
   polEth_Ichi: {
@@ -5989,6 +5996,7 @@ const tokens: Record<string, Token> = {
     },
     active: true,
     lpToken: true,
+    liquidityWrapper: Wrappers.Ichi,
     ichiUnderlyingDex: IchiSupportedDex.Quickswap,
   },
   usdtVda_Ichi: {
@@ -6004,6 +6012,7 @@ const tokens: Record<string, Token> = {
     },
     active: true,
     lpToken: true,
+    liquidityWrapper: Wrappers.Ichi,
     ichiUnderlyingDex: IchiSupportedDex.Quickswap,
   },
   polRum_Ichi: {
@@ -6019,6 +6028,7 @@ const tokens: Record<string, Token> = {
     },
     active: true,
     lpToken: true,
+    liquidityWrapper: Wrappers.Ichi,
     ichiUnderlyingDex: IchiSupportedDex.UniswapV3,
     getLpUrl: {
       [ChainId.MATIC]: 'https://app.ichi.org/vault/token/0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270/',
@@ -6346,6 +6356,7 @@ const tokens: Record<string, Token> = {
     liquidityDex: {
       [ChainId.BASE]: LiquidityDex.UniswapV3,
     },
+    liquidityWrapper: Wrappers.Ichi,
     ichiUnderlyingDex: IchiSupportedDex.UniswapV3,
     getLpUrl: {
       [ChainId.BASE]: 'https://app.ichi.org/vault/token/0x1986cc18d8ec757447254310d2604f85741aa732/',
