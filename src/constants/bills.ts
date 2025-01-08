@@ -10702,7 +10702,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.zygothefrog.com/',
     twitter: 'https://x.com/ZygoFrog',
     initTime: { [ChainId.MAINNET]: 1732618692 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
