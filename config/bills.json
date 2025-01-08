@@ -316,6 +316,59 @@
     "fullDescription": "FOMOFox is the first market-driven storytelling meme coin on IOTA EVM. Follow the thrilling journey of FOMOFox on TwitterX and help him conquer his FOMO by influencing the $FOMO Token’s market performance. Loyal holders will find countless opportunities to grow their $FOMO bags through raffles, solving riddles, or simply holding and supporting the fox. Along the way, FOMOFox faces diverse challenges and meets intriguing characters. Your influence on the market helps him make the right choices. This project offers pure entertainment and rewards those who stick with it! Join the adventure now and visit their website for more details!"
   },
   {
+    "index": 8031,
+    "cmcId": 29485,
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0x4BA6426e7a669b7d62423f99e15f66fb5152070B"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "ETH",
+      "address": {
+        "8453": "0x4200000000000000000000000000000000000006"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "liquidityDex": {
+        "8453": "Aerodrome"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "MUNITY",
+      "address": {
+        "8453": "0x5283aF37d473eF7c185A1F8a2042d427cD9C83c4"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "liquidityDex": {
+        "8453": "Aerodrome"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "8453": "0x499b654b0a7f9979cc315190c09ca2633809b8df"
+    },
+    "inactive": false,
+    "projectLink": "https://www.metahorseunity.io/",
+    "twitter": "https://twitter.com/metahorseunity",
+    "audit": "https://skynet.certik.com/projects/metahorse-unity",
+    "initTime": {
+      "8453": 1736338991
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "shortDescription": "Metahorse Unity is a pioneering multiplayer, play-to-earn RPG racing game developed on the blockchain by Hungri Games. As the first horse racing RPG with play-to-earn mechanics, it features a decentralized ecosystem, rich NFT collection, and immersive horse metaverse. Players can team up, strategize, and compete in modes like MOBA, RPG, and strategy to earn token rewards. With a focus on skill and teamwork, it offers thrilling gameplay, regular updates, and endless customization options. Play for free and earn as you race in Metahorse Unity.",
+    "fullDescription": "Metahorse Unity is a groundbreaking multiplayer, play-to-earn RPG racing game developed on the blockchain by Hungri Games, offering a decentralized ecosystem enriched with a diverse NFT collection and an immersive horse metaverse. Players can team up with friends, strategize, and compete against others to earn token rewards across various modes including MOBA, RPG, and strategy, with regular updates and exciting rewards to keep gameplay fresh. Focused on personal skill and teamwork, Metahorse Unity delivers the thrill of competitive racing, tactical battles, and endless customization options for horses, blending both Free-to-Play and Play-to-Earn models. Founded in 2019, Hungri Games has developed and published three RPG titles on mobile, with a global team of over 32 members specializing in game design, blockchain development, HR, and more. In Metahorse Unity, players can play casually with free heroes or level up by acquiring NFTs to start earning, creating their own stable of Meta Horses and harnessing strategic prowess to conquer the racetrack, outshining global rivals and reaping incredible rewards.",
+    "tags": ["GAMEFI"]
+  },
+  {
     "index": 8030,
     "chainId": 8453,
     "contractAddress": {
@@ -515,7 +568,7 @@
     "initTime": {
       "8453": 1733827195
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -19120,7 +19173,7 @@
     "initTime": {
       "42161": 1736265725
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },

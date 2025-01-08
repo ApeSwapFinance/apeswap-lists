@@ -3639,10 +3639,12 @@ const tokens: Record<string, Token> = {
     symbol: 'MUNITY',
     address: {
       [ChainId.MAINNET]: '0xe97F6dDE78b11B58cB3e394F15ab592Cb2ACd290',
+      [ChainId.BASE]: '0x5283aF37d473eF7c185A1F8a2042d427cD9C83c4',
     },
-    decimals: { [ChainId.MAINNET]: 18 },
+    decimals: { [ChainId.MAINNET]: 18, [ChainId.BASE]: 18 },
     liquidityDex: {
       [ChainId.MAINNET]: LiquidityDex.UniswapV2,
+      [ChainId.BASE]: LiquidityDex.Aerodrome,
     },
     active: true,
   },
