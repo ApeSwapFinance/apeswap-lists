@@ -5,7 +5,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Polygon Largest ID: 168
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2013
-// ETH Largest ID: 3037
+// ETH Largest ID: 3038
 // Linea Largest ID: 6012
 // Base Largest ID: 8031
 // Lightlink Largest ID: 7003
@@ -203,7 +203,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/metahorseunity',
     audit: 'https://skynet.certik.com/projects/metahorse-unity',
     initTime: { [ChainId.BASE]: 1736338991 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -10879,6 +10879,35 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     shortDescription: `Skillful AI is a pioneering platform that delivers a personalized AI ecosystem, empowering users with advanced virtual assistants tailored to domain-specific knowledge and user-specific memories. Designed to keep individuals and developers ahead in the digital era, it offers tools to create and monetize AI solutions within a blockchain-powered ecosystem. With $SKAI as its utility token, Skillful AI enables seamless access to creator tools, marketplace transactions, and subscriptions, revolutionizing the way people interact with technology.`,
     fullDescription: `Skillful AI is a cutting-edge platform designed to empower individuals and developers with a personalized AI ecosystem tailored to their needs. By providing advanced virtual assistants trained in domain-specific knowledge, Skillful AI keeps users at the forefront of technological advancements. With a focus on context-aware interactions and user-specific memories, it ensures meaningful and tailored experiences. For developers, it offers powerful tools to create, monetize, and share AI solutions, fostering collaboration within a blockchain-powered ecosystem. Skillful AI also leverages novel long-term memory solutions built with DePin, prioritizing user-owned data and innovation. Powered by its utility token, $SKAI, the platform streamlines access to AI creator tools, marketplace transactions, and subscriptions, revolutionizing how users interact with and shape the future of technology.`,
     minTier: LaunchBondTiers.Silver,
+  },
+  {
+    index: 3038,
+    cmcId: 33148,
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0x83194374d46eeB09c04DC032b2B91E6215A248C7',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    lpToken: tokens.usdc,
+    earnToken: tokens.abds,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    inactive: false,
+    projectLink: 'https://www.abdstoken.com/#about',
+    twitter: 'https://x.com/ABDSystems',
+    audit: 'https://skynet.certik.com/projects/abd-systems',
+    initTime: { [ChainId.MAINNET]: 1736439125 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['DeFi'],
+    shortDescription:
+      'With over 13 years of IT expertise, Abdsystems integrates seamlessly with advanced technology services for a personalized user experience. Founded in 2009, ABD Systems drives change through smart systems and innovation, empowering users with features like staking rewards and real-world integration. The ABDS Token, developed by ABD Systems, offers a secure, fast, and accessible entry into digital finance.',
+    fullDescription:
+      'Backed by over 13 years of expertise in IT solutions, ABD Systems ensures the token is seamlessly integrated with its technology services, delivering a personalized and innovative user experience. Founded in 2009 by visionary entrepreneurs committed to creating tech solutions for societal good, ABD Systems is on a mission to drive transformative change through smart systems and high technology. With features like staking rewards and real-world integration, the ABDS Token is positioned to lead the digital revolution, empowering users to earn and grow in a future without limits. The ABDS Token, created by ABD Systems, represents a leap forward in digital finance by offering a secure, fast, and accessible entry into the cryptocurrency market.',
   },
 ]
 
