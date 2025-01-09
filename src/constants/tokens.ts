@@ -85,6 +85,19 @@ const tokens: Record<string, Token> = {
       [ChainId.MAINNET]: LiquidityDex.UniswapV3,
     },
   },
+  abds: {
+    symbol: 'ABDS',
+    address: {
+      [ChainId.MAINNET]: '0xB56AaAc80C931161548a49181c9E000a19489C44',
+    },
+    decimals: {
+      [ChainId.MAINNET]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV3,
+    },
+  },
   bpad: {
     symbol: 'BPAD',
     address: {
