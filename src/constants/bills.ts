@@ -10676,7 +10676,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.minima.global/',
     twitter: 'https://x.com/Minima_Global',
     initTime: { [ChainId.MAINNET]: 1731492492 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },

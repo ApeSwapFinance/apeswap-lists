@@ -21500,7 +21500,7 @@
     "initTime": {
       "1": 1731492492
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ETH_Collection1"
     },
