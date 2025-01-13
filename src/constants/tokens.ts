@@ -1821,6 +1821,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  fan: {
+    symbol: 'FAN',
+    address: {
+      [ChainId.MATIC]: '0x3B9E9100Db1389c518d47c635D80a90ad4C4f41b',
+    },
+    decimals: {
+      [ChainId.MATIC]: 8,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.UniswapV3,
+    },
+    active: true,
+  },
   icnx: {
     symbol: 'ICNX',
     address: {
