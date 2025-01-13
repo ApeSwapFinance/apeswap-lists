@@ -856,6 +856,9 @@ const tokens: Record<string, Token> = {
     decimals: {
       [ChainId.BSC]: 18,
     },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+    },
     active: true,
   },
   busd: {
@@ -1812,6 +1815,19 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.MATIC]: 2,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.UniswapV3,
+    },
+    active: true,
+  },
+  fan: {
+    symbol: 'FAN',
+    address: {
+      [ChainId.MATIC]: '0x3B9E9100Db1389c518d47c635D80a90ad4C4f41b',
+    },
+    decimals: {
+      [ChainId.MATIC]: 8,
     },
     liquidityDex: {
       [ChainId.MATIC]: LiquidityDex.UniswapV3,
