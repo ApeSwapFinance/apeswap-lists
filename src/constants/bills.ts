@@ -9479,7 +9479,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     cmcId: 33841,
     chainId: ChainId.ARBITRUM,
     contractAddress: {
-      [ChainId.ARBITRUM]: '0xC814696299F307f5A7C7b277beC3A5565256893C',
+      [ChainId.ARBITRUM]: '0xF863c44fA799A7BE6a7025bfadB9FA71E2d286a3',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
@@ -9491,8 +9491,8 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     inactive: false,
     projectLink: 'https://crosscurve.fi/',
     twitter: 'https://x.com/eywaprotocol',
-    initTime: { [ChainId.ARBITRUM]: 1736265725 },
-    soldOut: true,
+    initTime: { [ChainId.ARBITRUM]: 1736872010 },
+    soldOut: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
