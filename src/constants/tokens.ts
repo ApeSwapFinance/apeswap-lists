@@ -85,6 +85,19 @@ const tokens: Record<string, Token> = {
       [ChainId.MAINNET]: LiquidityDex.UniswapV3,
     },
   },
+  abds: {
+    symbol: 'ABDS',
+    address: {
+      [ChainId.MAINNET]: '0xB56AaAc80C931161548a49181c9E000a19489C44',
+    },
+    decimals: {
+      [ChainId.MAINNET]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV3,
+    },
+  },
   bpad: {
     symbol: 'BPAD',
     address: {
@@ -843,6 +856,9 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BSC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
     },
     active: true,
   },
@@ -1800,6 +1816,19 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.MATIC]: 2,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.UniswapV3,
+    },
+    active: true,
+  },
+  fan: {
+    symbol: 'FAN',
+    address: {
+      [ChainId.MATIC]: '0x3B9E9100Db1389c518d47c635D80a90ad4C4f41b',
+    },
+    decimals: {
+      [ChainId.MATIC]: 8,
     },
     liquidityDex: {
       [ChainId.MATIC]: LiquidityDex.UniswapV3,

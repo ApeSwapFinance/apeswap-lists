@@ -5,7 +5,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Polygon Largest ID: 168
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2013
-// ETH Largest ID: 3037
+// ETH Largest ID: 3038
 // Linea Largest ID: 6012
 // Base Largest ID: 8031
 // Lightlink Largest ID: 7003
@@ -203,7 +203,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/metahorseunity',
     audit: 'https://skynet.certik.com/projects/metahorse-unity',
     initTime: { [ChainId.BASE]: 1736338991 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -7191,6 +7191,32 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     Polygon Bills
   */
   {
+    index: 170,
+    chainId: ChainId.MATIC,
+    contractAddress: {
+      [ChainId.MATIC]: '0x1b7662569A20e1eBb3430c3ABBF7d84d8b8C6CB8',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdt,
+    earnToken: tokens.fan,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
+    },
+    inactive: false,
+    projectLink: 'https://film.io/',
+    twitter: 'https://x.com/Filmio_Official',
+    initTime: { [ChainId.MATIC]: 1736765165 },
+    soldOut: true,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    shortDescription:
+      'Film.io is a decentralized filmmaking ecosystem that puts Hollywood decision-making into the hands of creators and fans through blockchain technology. Governed by a filmmaking industry DAO, it champions inclusion, diversity, and transparency. With FAN and FILM Tokens, Film.io empowers collaboration to validate, fund, and distribute content, replacing centralized control with creative freedom.',
+    fullDescription: `Film.io is the world's most powerful decentralized filmmaking ecosystem, revolutionizing Hollywood by transferring decision-making to creators and fans through blockchain technology. Governed by the first-ever filmmaking industry DAO, Film.io champions inclusion, equality, and diversity in global entertainment. It empowers creators and fans to collaboratively validate, fund, and distribute content in a transparent, inclusive environment, replacing traditional centralized power structures. Utilizing a dual-token model, Film.io offers FAN Tokens for governance and platform participation, while FILM Tokens support crowdfunding, DeFi loans, and NFT campaigns. Together, these tokens fuel collaboration between creators, fans, and investors, liberating the entertainment industry and fostering a new era of creative freedom.`,
+    tags: ['Entertainment'],
+  },
+  {
     index: 169,
     chainId: ChainId.MATIC,
     contractAddress: {
@@ -7263,7 +7289,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://x.com/official_trakx',
     audit: 'https://skynet.certik.com/projects/bitbond',
     initTime: { [ChainId.MATIC]: 1732713391 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
@@ -7377,7 +7403,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/nasdex_xyz',
     audit: 'https://hacken.io/audits/nasdex',
     initPrice: { [ChainId.MATIC]: 0.347018667988457 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
@@ -9453,7 +9479,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     cmcId: 33841,
     chainId: ChainId.ARBITRUM,
     contractAddress: {
-      [ChainId.ARBITRUM]: '0xC814696299F307f5A7C7b277beC3A5565256893C',
+      [ChainId.ARBITRUM]: '0xF863c44fA799A7BE6a7025bfadB9FA71E2d286a3',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
@@ -9465,7 +9491,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     inactive: false,
     projectLink: 'https://crosscurve.fi/',
     twitter: 'https://x.com/eywaprotocol',
-    initTime: { [ChainId.ARBITRUM]: 1736265725 },
+    initTime: { [ChainId.ARBITRUM]: 1736872010 },
     soldOut: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -10676,7 +10702,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.minima.global/',
     twitter: 'https://x.com/Minima_Global',
     initTime: { [ChainId.MAINNET]: 1731492492 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
@@ -10702,7 +10728,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.zygothefrog.com/',
     twitter: 'https://x.com/ZygoFrog',
     initTime: { [ChainId.MAINNET]: 1732618692 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
@@ -10879,6 +10905,35 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     shortDescription: `Skillful AI is a pioneering platform that delivers a personalized AI ecosystem, empowering users with advanced virtual assistants tailored to domain-specific knowledge and user-specific memories. Designed to keep individuals and developers ahead in the digital era, it offers tools to create and monetize AI solutions within a blockchain-powered ecosystem. With $SKAI as its utility token, Skillful AI enables seamless access to creator tools, marketplace transactions, and subscriptions, revolutionizing the way people interact with technology.`,
     fullDescription: `Skillful AI is a cutting-edge platform designed to empower individuals and developers with a personalized AI ecosystem tailored to their needs. By providing advanced virtual assistants trained in domain-specific knowledge, Skillful AI keeps users at the forefront of technological advancements. With a focus on context-aware interactions and user-specific memories, it ensures meaningful and tailored experiences. For developers, it offers powerful tools to create, monetize, and share AI solutions, fostering collaboration within a blockchain-powered ecosystem. Skillful AI also leverages novel long-term memory solutions built with DePin, prioritizing user-owned data and innovation. Powered by its utility token, $SKAI, the platform streamlines access to AI creator tools, marketplace transactions, and subscriptions, revolutionizing how users interact with and shape the future of technology.`,
     minTier: LaunchBondTiers.Silver,
+  },
+  {
+    index: 3038,
+    cmcId: 33148,
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0x83194374d46eeB09c04DC032b2B91E6215A248C7',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    lpToken: tokens.usdc,
+    earnToken: tokens.abds,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    inactive: false,
+    projectLink: 'https://www.abdstoken.com/#about',
+    twitter: 'https://x.com/ABDSystems',
+    audit: 'https://skynet.certik.com/projects/abd-systems',
+    initTime: { [ChainId.MAINNET]: 1736439125 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['DeFi'],
+    shortDescription:
+      'With over 13 years of IT expertise, Abdsystems integrates seamlessly with advanced technology services for a personalized user experience. Founded in 2009, ABD Systems drives change through smart systems and innovation, empowering users with features like staking rewards and real-world integration. The ABDS Token, developed by ABD Systems, offers a secure, fast, and accessible entry into digital finance.',
+    fullDescription:
+      'Backed by over 13 years of expertise in IT solutions, ABD Systems ensures the token is seamlessly integrated with its technology services, delivering a personalized and innovative user experience. Founded in 2009 by visionary entrepreneurs committed to creating tech solutions for societal good, ABD Systems is on a mission to drive transformative change through smart systems and high technology. With features like staking rewards and real-world integration, the ABDS Token is positioned to lead the digital revolution, empowering users to earn and grow in a future without limits. The ABDS Token, created by ABD Systems, represents a leap forward in digital finance by offering a secure, fast, and accessible entry into the cryptocurrency market.',
   },
 ]
 
