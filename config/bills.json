@@ -19185,7 +19185,7 @@
     "cmcId": 33841,
     "chainId": 42161,
     "contractAddress": {
-      "42161": "0xC814696299F307f5A7C7b277beC3A5565256893C"
+      "42161": "0xF863c44fA799A7BE6a7025bfadB9FA71E2d286a3"
     },
     "billType": "reserve",
     "billVersion": "V2",
@@ -19222,9 +19222,9 @@
     "projectLink": "https://crosscurve.fi/",
     "twitter": "https://x.com/eywaprotocol",
     "initTime": {
-      "42161": 1736265725
+      "42161": 1736872010
     },
-    "soldOut": true,
+    "soldOut": false,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
