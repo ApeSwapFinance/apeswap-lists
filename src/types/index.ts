@@ -137,6 +137,12 @@ export enum Protocols {
   Curve = 9,
 }
 
+export enum Wrappers {
+  Gamma,
+  Ichi,
+  Steer,
+}
+
 export interface FarmStyles {
   deprecated: string
   warning: string
@@ -155,6 +161,7 @@ export interface Token {
   liquidityDex?: Partial<Record<ChainId, LiquidityDex>> // the dex type where most liquidity/actual lp is
   getLpUrl?: Partial<Record<ChainId, string>> //Needed for ZapVersion.External
   ichiUnderlyingDex?: IchiSupportedDex // The dex ichi is wrapping. only necessary for Ichi Zap
+  liquidityWrapper?: Wrappers // The wrapper used to wrap the liquidity and make it erc20
 }
 
 // Interfaces used in Vaults

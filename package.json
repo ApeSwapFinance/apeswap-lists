@@ -1,6 +1,6 @@
 {
   "name": "@ape.swap/apeswap-lists",
-  "version": "3.74.0",
+  "version": "3.74.1",
   "publishConfig": {
     "access": "public"
   },
