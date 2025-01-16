@@ -1635,6 +1635,9 @@
         "40": 18,
         "56": 18
       },
+      "liquidityDex": {
+        "56": "External"
+      },
       "active": true
     },
     "contractAddress": {

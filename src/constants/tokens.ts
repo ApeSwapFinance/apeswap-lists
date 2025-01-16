@@ -2827,6 +2827,9 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
       [ChainId.TLOS]: 18,
     },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.External,
+    },
     active: true,
   },
   stlos: {
@@ -4265,6 +4268,19 @@ const tokens: Record<string, Token> = {
     active: true,
     liquidityDex: {
       [ChainId.ARBITRUM]: LiquidityDex.UniswapV3,
+    },
+  },
+  sdt: {
+    symbol: 'SDT',
+    address: {
+      [ChainId.ARBITRUM]: '0x07715EE7219B07b8e01CC7d2787f4e5e75860383',
+    },
+    decimals: {
+      [ChainId.ARBITRUM]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.ARBITRUM]: LiquidityDex.PancakeSwapV3,
     },
   },
   crv: {
