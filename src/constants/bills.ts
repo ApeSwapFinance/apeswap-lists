@@ -203,7 +203,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/metahorseunity',
     audit: 'https://skynet.certik.com/projects/metahorse-unity',
     initTime: { [ChainId.BASE]: 1736338991 },
-    soldOut: true,
+    soldOut: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
