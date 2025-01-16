@@ -2827,6 +2827,9 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
       [ChainId.TLOS]: 18,
     },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.External,
+    },
     active: true,
   },
   stlos: {

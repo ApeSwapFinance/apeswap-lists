@@ -13783,8 +13783,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {
+        "56": "External"
+      },
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8"
@@ -13957,8 +13959,10 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {
+        "56": "External"
+      },
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8"
@@ -18624,8 +18628,8 @@
       "decimals": {
         "40": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "40": "0x29DD194bDc735A87637f2736A90AA585B74F5FD4"
@@ -18669,8 +18673,8 @@
       "decimals": {
         "40": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "40": "0x29DD194bDc735A87637f2736A90AA585B74F5FD4"
@@ -18714,8 +18718,8 @@
       "decimals": {
         "40": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "40": "0x29DD194bDc735A87637f2736A90AA585B74F5FD4"
@@ -18759,8 +18763,8 @@
       "decimals": {
         "40": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "40": "0x29DD194bDc735A87637f2736A90AA585B74F5FD4"
@@ -18804,8 +18808,8 @@
       "decimals": {
         "40": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "40": "0x29DD194bDc735A87637f2736A90AA585B74F5FD4"
@@ -18849,8 +18853,8 @@
       "decimals": {
         "40": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "40": "0x9084C442286E23617694101d5575bEA48C2cf621"
@@ -18894,8 +18898,8 @@
       "decimals": {
         "40": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "40": "0x9084C442286E23617694101d5575bEA48C2cf621"
@@ -18939,8 +18943,8 @@
       "decimals": {
         "40": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "40": "0x9084C442286E23617694101d5575bEA48C2cf621"
@@ -18984,8 +18988,8 @@
       "decimals": {
         "40": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "40": "0x9084C442286E23617694101d5575bEA48C2cf621"
@@ -19029,8 +19033,8 @@
       "decimals": {
         "40": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "40": "0x9084C442286E23617694101d5575bEA48C2cf621"
@@ -19074,8 +19078,8 @@
       "decimals": {
         "40": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "40": "0x9084C442286E23617694101d5575bEA48C2cf621"
@@ -19113,8 +19117,8 @@
       "decimals": {
         "40": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "40": "0x9084C442286E23617694101d5575bEA48C2cf621"
@@ -19152,8 +19156,8 @@
       "decimals": {
         "40": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "40": "0x9084C442286E23617694101d5575bEA48C2cf621"
@@ -19191,8 +19195,8 @@
       "decimals": {
         "40": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "40": "0x9084C442286E23617694101d5575bEA48C2cf621"
@@ -19230,8 +19234,8 @@
       "decimals": {
         "40": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "40": "0x9084C442286E23617694101d5575bEA48C2cf621"
