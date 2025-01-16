@@ -592,6 +592,10 @@ export const dexFactories: Partial<
       factory: '0x98EE851a00abeE0d95D08cF4CA2BdCE32aeaAF7F',
       protocol: Protocols.Curve,
     },
+    [LiquidityDex.PancakeSwapV3]: {
+      factory: '0x0BFbCF9fa4f9C56B0F40a671Ad40E0805A091865',
+      protocol: Protocols.V3,
+    },
   },
   [ChainId.LINEA]: {
     [LiquidityDex.Spartadex]: {

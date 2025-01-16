@@ -4267,6 +4267,19 @@ const tokens: Record<string, Token> = {
       [ChainId.ARBITRUM]: LiquidityDex.UniswapV3,
     },
   },
+  sdt: {
+    symbol: 'SDT',
+    address: {
+      [ChainId.ARBITRUM]: '0x07715EE7219B07b8e01CC7d2787f4e5e75860383',
+    },
+    decimals: {
+      [ChainId.ARBITRUM]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.ARBITRUM]: LiquidityDex.PancakeSwapV3,
+    },
+  },
   crv: {
     symbol: 'CRV',
     address: {
