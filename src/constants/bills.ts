@@ -185,6 +185,32 @@ const bills: BillsConfig[] = [
   // BASE
   //
   {
+    index: 8032,
+    cmcId: 33050,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x612806133a5Bbe94e69323fDbD966D2eD6A55436',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.basedPepe,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://basedpepe.vip/',
+    twitter: 'https://x.com/0x52BasedPepe',
+    initTime: { [ChainId.BASE]: 1737110333 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Meme', 'Community'],
+    shortDescription: `Based $PEPE arrives to Base, inspired by the iconic Pepe meme and legendary Boy’s Club contract meta. Blacklisted launch snipers, free from presales, taxes or team allocations, this renounced token with locked LP ensures fairness for all holders. Based $PEPE is set to lead the memecoin season, with a safe, authentic token for all. No tricks--just a trusted token for true believers of the chain.`,
+    fullDescription: `Based $PEPE takes its place on the Base chain, inspired by the iconic Pepe the Frog meme and the legendary Boy’s Club contract meta that dominated Ethereum. Having blacklisted launch snipers and free from presales, taxes or team allocations, this renounced token with locked LP ensures transparency and fairness for all holders. Representing Pepe's spirit, Based $PEPE is set to lead the memecoin season on BASE, providing a safe, authentic token for the crypto community. No tricks--just a trusted token for true believers of the chain.`,
+  },
+  {
     index: 8031,
     cmcId: 29485,
     chainId: ChainId.BASE,
@@ -11012,6 +11038,34 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'With over 13 years of IT expertise, Abdsystems integrates seamlessly with advanced technology services for a personalized user experience. Founded in 2009, ABD Systems drives change through smart systems and innovation, empowering users with features like staking rewards and real-world integration. The ABDS Token, developed by ABD Systems, offers a secure, fast, and accessible entry into digital finance.',
     fullDescription:
       'Backed by over 13 years of expertise in IT solutions, ABD Systems ensures the token is seamlessly integrated with its technology services, delivering a personalized and innovative user experience. Founded in 2009 by visionary entrepreneurs committed to creating tech solutions for societal good, ABD Systems is on a mission to drive transformative change through smart systems and high technology. With features like staking rewards and real-world integration, the ABDS Token is positioned to lead the digital revolution, empowering users to earn and grow in a future without limits. The ABDS Token, created by ABD Systems, represents a leap forward in digital finance by offering a secure, fast, and accessible entry into the cryptocurrency market.',
+  },
+  {
+    index: 3039,
+    cmcId: 30680,
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0x805d8316b3C578Ca44C79D3dBC6151b232e492a6',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    lpToken: tokens.usdc,
+    earnToken: tokens.gpt,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    inactive: false,
+    projectLink: 'https://gptprotocol.org/',
+    twitter: 'https://twitter.com/gpt_protocol',
+    initTime: { [ChainId.MAINNET]: 1737110333 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription:
+      'GPT Protocol is a pioneering platform leading the merger of artificial intelligence (AI) with blockchain technology, revolutionizing AI development by ensuring it is accessible, innovative, and censorship-resistant. It harnesses open-source AI tools and decentralized networks, bringing together a global community of developers to create, share, and deploy AI applications on the blockchain. $GPT tokens create an AI economy that incentivizes consumers, developers, and compute providers, serving multiple roles within the network, from rewarding miners to compensating data providers.',
+    fullDescription:
+      'GPT Protocol is a transformative Layer 2 blockchain platform built on the Ethereum Virtual Machine, aimed at revolutionizing the artificial intelligence landscape. It integrates decentralized technologies to ensure AI development is accessible, innovative, and censorship-resistant. By harnessing open-source AI tools and decentralized networks, it brings together a global community of developers to create, share, and deploy AI applications on the blockchain. $GPT tokens create an AI economy that incentivizes consumers, developers, and compute providers, serving multiple roles within the network, from rewarding miners to compensating data providers. More than just a technology, GPT Protocol is shaping a future where data integrity, intellectual freedom, and collaborative innovation form the pillars of our digital world.',
   },
 ]
 
