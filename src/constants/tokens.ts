@@ -20,6 +20,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  qaagai: {
+    symbol: 'QAAGAI',
+    address: {
+      [ChainId.BSC]: '0x7f22a8Af38BCF14b92cD65Ae8B19260FC0bEeFDf',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+  },
   usdb: {
     symbol: 'USDB',
     address: {
