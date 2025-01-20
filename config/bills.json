@@ -2932,6 +2932,59 @@
     "shortDescription": "Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!"
   },
   {
+    "index": 1119,
+    "cmcId": 34877,
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0x0d5Bf5df0fae9aCe47E71C1b4B28b0B06a4b3EcE"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "56": "0x55d398326f99059fF775485246999027B3197955"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "QAAGAI",
+      "address": {
+        "56": "0x7f22a8Af38BCF14b92cD65Ae8B19260FC0bEeFDf"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      }
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://qaagai.com",
+    "twitter": "https://x.com/qaagai",
+    "audit": "https://www.cyberscope.io/audits/coin-qaagai",
+    "initTime": {
+      "56": 1737389731
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["AI"],
+    "shortDescription": "QAAG AI is a cutting-edge WEB2/WEB3 solution built on Binance Smart Chain, revolutionizing customer relationship management. It offers AI-driven tools for appointment scheduling, personalized customer service, call center optimization, and virtual P.A. support. Tailored for businesses and healthcare. Build on the Binance Smart Chain, the ecosystem is powered by the QAAGAI token, enabling transactions, incentivizing engagement, and fostering governance participation.",
+    "fullDescription": "QAAG AI is a transformative WEB2/WEB3 solution designed to revolutionize customer relationship management for industries, businesses, and individuals. Powered by advanced AI and built on the Binance Smart Chain, QAAG AI provides secure, immutable, and tamper-proof systems for seamless operations. Its comprehensive offerings include 24/7 appointment and order management to optimize scheduling and reduce no-shows, intelligent customer service tools for personalized and efficient support, AI-enhanced call center management for real-time analytics and smart routing, and a virtual P.A./receptionist to handle calls, meetings, and events. Tailored for healthcare providers, businesses, and call centers, QAAG AI adapts to diverse needs, delivering intuitive, scalable, and efficient solutions. The ecosystem is powered by the QAAGAI token, enabling transactions, incentivizing engagement, and fostering governance participation."
+  },
+  {
     "index": 1118,
     "cmcId": 29157,
     "chainId": 56,

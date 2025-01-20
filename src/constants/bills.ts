@@ -1,7 +1,7 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1118
+// BNB Largest ID: 1119
 // Polygon Largest ID: 168
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2016
@@ -1507,6 +1507,35 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1119,
+    cmcId: 34877,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x0d5Bf5df0fae9aCe47E71C1b4B28b0B06a4b3EcE',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdt,
+    earnToken: tokens.qaagai,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://qaagai.com',
+    twitter: 'https://x.com/qaagai',
+    audit: 'https://www.cyberscope.io/audits/coin-qaagai',
+    initTime: { [ChainId.BSC]: 1737389731 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription:
+      'QAAG AI is a cutting-edge WEB2/WEB3 solution built on Binance Smart Chain, revolutionizing customer relationship management. It offers AI-driven tools for appointment scheduling, personalized customer service, call center optimization, and virtual P.A. support. Tailored for businesses and healthcare. Build on the Binance Smart Chain, the ecosystem is powered by the QAAGAI token, enabling transactions, incentivizing engagement, and fostering governance participation.',
+    fullDescription:
+      'QAAG AI is a transformative WEB2/WEB3 solution designed to revolutionize customer relationship management for industries, businesses, and individuals. Powered by advanced AI and built on the Binance Smart Chain, QAAG AI provides secure, immutable, and tamper-proof systems for seamless operations. Its comprehensive offerings include 24/7 appointment and order management to optimize scheduling and reduce no-shows, intelligent customer service tools for personalized and efficient support, AI-enhanced call center management for real-time analytics and smart routing, and a virtual P.A./receptionist to handle calls, meetings, and events. Tailored for healthcare providers, businesses, and call centers, QAAG AI adapts to diverse needs, delivering intuitive, scalable, and efficient solutions. The ecosystem is powered by the QAAGAI token, enabling transactions, incentivizing engagement, and fostering governance participation.',
+  },
   {
     index: 1118,
     cmcId: 29157,
