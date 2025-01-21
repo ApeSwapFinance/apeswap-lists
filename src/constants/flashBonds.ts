@@ -761,6 +761,39 @@ const flashBonds: FlashBondConfig[] = [
     },
     initialRelease: 100,
   },
+  {
+    index: 23,
+    chainId: ChainId.IOTA,
+    round: '12',
+    totalRaiseString: '100K',
+    discountString: '3%',
+    tierString: 'legend',
+    contractAddress: {
+      [ChainId.IOTA]: '0x9dbF4e39A9a27c33aA2Da11A925d5a6623a39AA5',
+    },
+    billVersion: BillVersion.FlashTieredSale,
+    billType: 'oversubscription',
+    token: tokens.usdt,
+    earnToken: tokens.eth,
+    billNnftAddress: {
+      [ChainId.IOTA]: '0x896c7021C1ACa0dD65D1D525b0434822dbCB6d9d',
+    },
+    soldOut: false,
+    billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+    initTime: {
+      [ChainId.IOTA]: 1737482400,
+    },
+    finishTime: {
+      [ChainId.IOTA]: 1737568800,
+    },
+    startVestingTimestamp: {
+      [ChainId.IOTA]: 1737568800,
+    },
+    initPrice: {
+      [ChainId.IOTA]: 3282,
+    },
+    initialRelease: 100,
+  },
 ]
 
 export default flashBonds
