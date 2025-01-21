@@ -11140,7 +11140,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.muhdohub.xyz/',
     twitter: 'https://x.com/Muhdohealth',
     audit: 'https://audits.hacken.io/muhdo-hub/',
-    initTime: { [ChainId.MAINNET]: 1737110333 },
+    initTime: { [ChainId.MAINNET]: 1737463295 },
     soldOut: false,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
