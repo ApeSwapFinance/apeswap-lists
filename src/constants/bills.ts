@@ -5,7 +5,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Polygon Largest ID: 168
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2016
-// ETH Largest ID: 3038
+// ETH Largest ID: 3040
 // Linea Largest ID: 6012
 // Base Largest ID: 8031
 // Lightlink Largest ID: 7003
@@ -11121,6 +11121,34 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'GPT Protocol is a pioneering platform leading the merger of artificial intelligence (AI) with blockchain technology, revolutionizing AI development by ensuring it is accessible, innovative, and censorship-resistant. It harnesses open-source AI tools and decentralized networks, bringing together a global community of developers to create, share, and deploy AI applications on the blockchain. $GPT tokens create an AI economy that incentivizes consumers, developers, and compute providers, serving multiple roles within the network, from rewarding miners to compensating data providers.',
     fullDescription:
       'GPT Protocol is a transformative Layer 2 blockchain platform built on the Ethereum Virtual Machine, aimed at revolutionizing the artificial intelligence landscape. It integrates decentralized technologies to ensure AI development is accessible, innovative, and censorship-resistant. By harnessing open-source AI tools and decentralized networks, it brings together a global community of developers to create, share, and deploy AI applications on the blockchain. $GPT tokens create an AI economy that incentivizes consumers, developers, and compute providers, serving multiple roles within the network, from rewarding miners to compensating data providers. More than just a technology, GPT Protocol is shaping a future where data integrity, intellectual freedom, and collaborative innovation form the pillars of our digital world.',
+  },
+  {
+    index: 3040,
+    cmcId: 34778,
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0x2Cd97f26c445DE5FE59d915BD238b8D04Ef1d78a',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    lpToken: tokens.usdc,
+    earnToken: tokens.dna,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    inactive: false,
+    projectLink: 'https://www.muhdohub.xyz/',
+    twitter: 'https://x.com/Muhdohealth',
+    audit: 'https://audits.hacken.io/muhdo-hub/',
+    initTime: { [ChainId.MAINNET]: 1737110333 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['Blockchains'],
+    shortDescription:
+      'Muhdo combines blockchain, epigenetics, and AI to transform health and wellness. With the world’s first epigenetic test, users can discover and improve their Biological Age while earning $DNA tokens by sharing health data or engaging in ecosystem activities. $DNA token holders unlock exclusive perks like rewards, premium features, and product discounts. Muhdo’s mission is to empower proactive, personalized health solutions for lifelong vitality.',
+    fullDescription: `Muhdo leverages blockchain-powered epigenetics and AI to revolutionize health and wellness. By combining cutting-edge genetic science with hyper-personalized solutions, Muhdo empowers individuals to shift from a reactive, cure-focused mindset to a proactive, prevention-first approach. Their epigenetic test enables users to discover and improve their Biological Age, unlocking transformative health insights. Participants earn $DNA tokens by sharing health data or engaging in ecosystem activities, fostering community-driven innovation. $DNA token holders enjoy exclusive benefits like special rewards, premium features, and discounts on personalized products, advancing Muhdo's mission to promote global health independence and lifelong vitality.`,
   },
 ]
 
