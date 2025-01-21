@@ -1874,7 +1874,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://solarx.ai/',
     twitter: 'https://x.com/solarxcoin',
     initTime: { [ChainId.BSC]: 1733939928 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1902,7 +1902,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://solarx.ai/',
     twitter: 'https://x.com/solarxcoin',
     initTime: { [ChainId.BSC]: 1733939928 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
