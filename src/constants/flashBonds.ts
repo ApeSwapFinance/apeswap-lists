@@ -767,7 +767,7 @@ const flashBonds: FlashBondConfig[] = [
     round: '12',
     totalRaiseString: '100K',
     discountString: '3%',
-    tierString: 'legend',
+    tierString: 'silver',
     contractAddress: {
       [ChainId.IOTA]: '0x9dbF4e39A9a27c33aA2Da11A925d5a6623a39AA5',
     },
