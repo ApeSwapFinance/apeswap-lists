@@ -2932,6 +2932,67 @@
     "shortDescription": "Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!"
   },
   {
+    "index": 1120,
+    "cmcId": 29157,
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0xAb6d64F2aD4bcfd3ac2c4A8c1d3cbEe9199e2852"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "56": "0x55d398326f99059fF775485246999027B3197955"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "ABOND",
+      "address": {
+        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "ThenaV1"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://ape.bond/",
+    "twitter": "https://twitter.com/apebond",
+    "audit": "https://paladinsec.co/projects/apebond/",
+    "initTime": {
+      "56": 1737464986
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "shortDescription": "ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.",
+    "fullDescription": "ApeBond is building a sustainable DeFi future through its innovative Bonds products and strategic partnerships. Known for its Crowdsource OTC solution and treasury diversification expertise, ApeBond has launched Bonds with over 140 partners, sold 38,000+ Bonds for a total of $14,000,000 USD, and achieved a top 10 Dapp status by daily active users (DAU) according to CoinMarketCap. The ABOND token ties users with the platform by unlocking special Bonds, new earning opportunities, and more utilities coming up in the pipeline.",
+    "tags": ["Bonding"],
+    "partnersURLS": [
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/Seedify_fbt392.svg",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613244/ORBS_anzm60.png",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/quickLogo_2_1_g95ynz.png",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/aitech_logo_100_real_no_fake_bjskiq.png",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png"
+    ]
+  },
+  {
     "index": 1119,
     "cmcId": 34877,
     "chainId": 56,
@@ -3420,7 +3481,7 @@
     "initTime": {
       "56": 1730188465
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -3535,7 +3596,7 @@
     "initTime": {
       "56": 1733939928
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -3591,7 +3652,7 @@
     "initTime": {
       "56": 1733939928
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -19351,6 +19412,58 @@
     "soldOut": true
   },
   {
+    "index": 2017,
+    "cmcId": 33841,
+    "chainId": 42161,
+    "contractAddress": {
+      "42161": "0xBFf0B2D71287D9298535D0690da1c6473a6663D1"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "SDT",
+      "address": {
+        "42161": "0x07715EE7219B07b8e01CC7d2787f4e5e75860383"
+      },
+      "decimals": {
+        "42161": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "42161": "PancakeSwapV3"
+      }
+    },
+    "earnToken": {
+      "symbol": "EYWA",
+      "address": {
+        "42161": "0x7a10f506e4c7658e6ad15fdf0443d450b7fa80d7"
+      },
+      "decimals": {
+        "42161": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "42161": "Curve"
+      }
+    },
+    "billNnftAddress": {
+      "42161": "0xAC707999D05C4048844B78c737D9512DFDff524d"
+    },
+    "inactive": false,
+    "projectLink": "https://crosscurve.fi/",
+    "twitter": "https://x.com/eywaprotocol",
+    "initTime": {
+      "42161": 1737473352
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["DeFi"],
+    "shortDescription": "CrossCurve, by the Eywa Team, is a cross-chain trading and yield protocol built on Curve, unifying $2B+ in liquidity across chains. It enables secure, cost-efficient swaps for Curve assets (crvUSD, LP tokens), liquid staking tokens (LSTs), and stablecoins. Governed by EYWA DAO, veEYWA holders shape decisions, earn rewards, and drive innovation in the decentralized ecosystem.",
+    "fullDescription": "CrossCurve, developed by the Eywa Team, is a cutting-edge cross-chain trading and yield protocol that integrates seamlessly with Curve Finance, aggregating its extensive $2 billion+ in TVL pools to establish a unified cross-chain liquidity market. By enabling cost-efficient, secure, and convenient cross-chain swaps for Curve assets (such as crvUSD and various LP tokens), liquid staking tokens (LSTs), and stablecoins, CrossCurve opens innovative opportunities for liquidity providers, Web3 projects, and DeFi users. Governed by the EYWA DAO—a transparent and decentralized organization driven by veEYWA governance token holders—participants shape strategic decisions, earn protocol income, and receive incentives, fostering collaboration and engagement across the decentralized ecosystem."
+  },
+  {
     "index": 2016,
     "cmcId": 33841,
     "chainId": 42161,
@@ -19554,7 +19667,7 @@
     "initTime": {
       "42161": 1736872010
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -21665,7 +21778,7 @@
     "initTime": {
       "1": 1730189346
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ETH_Collection1"
     },
@@ -22369,5 +22482,58 @@
     "tags": ["AI"],
     "shortDescription": "GPT Protocol is a pioneering platform leading the merger of artificial intelligence (AI) with blockchain technology, revolutionizing AI development by ensuring it is accessible, innovative, and censorship-resistant. It harnesses open-source AI tools and decentralized networks, bringing together a global community of developers to create, share, and deploy AI applications on the blockchain. $GPT tokens create an AI economy that incentivizes consumers, developers, and compute providers, serving multiple roles within the network, from rewarding miners to compensating data providers.",
     "fullDescription": "GPT Protocol is a transformative Layer 2 blockchain platform built on the Ethereum Virtual Machine, aimed at revolutionizing the artificial intelligence landscape. It integrates decentralized technologies to ensure AI development is accessible, innovative, and censorship-resistant. By harnessing open-source AI tools and decentralized networks, it brings together a global community of developers to create, share, and deploy AI applications on the blockchain. $GPT tokens create an AI economy that incentivizes consumers, developers, and compute providers, serving multiple roles within the network, from rewarding miners to compensating data providers. More than just a technology, GPT Protocol is shaping a future where data integrity, intellectual freedom, and collaborative innovation form the pillars of our digital world."
+  },
+  {
+    "index": 3040,
+    "cmcId": 34778,
+    "chainId": 1,
+    "contractAddress": {
+      "1": "0x2Cd97f26c445DE5FE59d915BD238b8D04Ef1d78a"
+    },
+    "billType": "reserve",
+    "billVersion": "V3",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+      },
+      "decimals": {
+        "1": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "DNA",
+      "address": {
+        "1": "0x7d3e4165fd7D8590fB2a415A550F7bdecE5c4F52"
+      },
+      "decimals": {
+        "1": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "1": "UniswapV2"
+      }
+    },
+    "billNnftAddress": {
+      "1": "0x499b654b0a7f9979cc315190c09ca2633809b8df"
+    },
+    "inactive": false,
+    "projectLink": "https://www.muhdohub.xyz/",
+    "twitter": "https://x.com/Muhdohealth",
+    "audit": "https://audits.hacken.io/muhdo-hub/",
+    "initTime": {
+      "1": 1737463295
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ETH_Collection1"
+    },
+    "tags": ["Blockchains"],
+    "shortDescription": "Muhdo combines blockchain, epigenetics, and AI to transform health and wellness. With the world’s first epigenetic test, users can discover and improve their Biological Age while earning $DNA tokens by sharing health data or engaging in ecosystem activities. $DNA token holders unlock exclusive perks like rewards, premium features, and product discounts. Muhdo’s mission is to empower proactive, personalized health solutions for lifelong vitality.",
+    "fullDescription": "Muhdo leverages blockchain-powered epigenetics and AI to revolutionize health and wellness. By combining cutting-edge genetic science with hyper-personalized solutions, Muhdo empowers individuals to shift from a reactive, cure-focused mindset to a proactive, prevention-first approach. Their epigenetic test enables users to discover and improve their Biological Age, unlocking transformative health insights. Participants earn $DNA tokens by sharing health data or engaging in ecosystem activities, fostering community-driven innovation. $DNA token holders enjoy exclusive benefits like special rewards, premium features, and discounts on personalized products, advancing Muhdo's mission to promote global health independence and lifelong vitality."
   }
 ]

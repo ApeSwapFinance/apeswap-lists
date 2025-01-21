@@ -1,11 +1,11 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1119
+// BNB Largest ID: 1120
 // Polygon Largest ID: 168
 // Telos Largest ID: 215
-// Arbitrum Largest ID: 2016
-// ETH Largest ID: 3038
+// Arbitrum Largest ID: 2017
+// ETH Largest ID: 3040
 // Linea Largest ID: 6012
 // Base Largest ID: 8031
 // Lightlink Largest ID: 7003
@@ -1508,6 +1508,43 @@ const bills: BillsConfig[] = [
   // BNB chain
   //
   {
+    index: 1120,
+    cmcId: 29157,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0xAb6d64F2aD4bcfd3ac2c4A8c1d3cbEe9199e2852',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdt,
+    earnToken: tokens.abond,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://ape.bond/',
+    twitter: 'https://twitter.com/apebond',
+    audit: 'https://paladinsec.co/projects/apebond/',
+    initTime: { [ChainId.BSC]: 1737464986 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    shortDescription:
+      'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
+    fullDescription:
+      'ApeBond is building a sustainable DeFi future through its innovative Bonds products and strategic partnerships. Known for its Crowdsource OTC solution and treasury diversification expertise, ApeBond has launched Bonds with over 140 partners, sold 38,000+ Bonds for a total of $14,000,000 USD, and achieved a top 10 Dapp status by daily active users (DAU) according to CoinMarketCap. The ABOND token ties users with the platform by unlocking special Bonds, new earning opportunities, and more utilities coming up in the pipeline.',
+    tags: ['Bonding'],
+    partnersURLS: [
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/Seedify_fbt392.svg',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613244/ORBS_anzm60.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/quickLogo_2_1_g95ynz.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/aitech_logo_100_real_no_fake_bjskiq.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
+    ],
+  },
+  {
     index: 1119,
     cmcId: 34877,
     chainId: ChainId.BSC,
@@ -1774,7 +1811,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.BSC]: 1730188465 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1837,7 +1874,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://solarx.ai/',
     twitter: 'https://x.com/solarxcoin',
     initTime: { [ChainId.BSC]: 1733939928 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1865,7 +1902,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://solarx.ai/',
     twitter: 'https://x.com/solarxcoin',
     initTime: { [ChainId.BSC]: 1733939928 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -9556,6 +9593,32 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       Arbitrum Bills - ID started from 2001
   */
   {
+    index: 2017,
+    cmcId: 33841,
+    chainId: ChainId.ARBITRUM,
+    contractAddress: {
+      [ChainId.ARBITRUM]: '0xBFf0B2D71287D9298535D0690da1c6473a6663D1',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.sdt,
+    earnToken: tokens.eywa,
+    billNnftAddress: {
+      [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
+    },
+    inactive: false,
+    projectLink: 'https://crosscurve.fi/',
+    twitter: 'https://x.com/eywaprotocol',
+    initTime: { [ChainId.ARBITRUM]: 1737473352 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DeFi'],
+    shortDescription: `CrossCurve, by the Eywa Team, is a cross-chain trading and yield protocol built on Curve, unifying $2B+ in liquidity across chains. It enables secure, cost-efficient swaps for Curve assets (crvUSD, LP tokens), liquid staking tokens (LSTs), and stablecoins. Governed by EYWA DAO, veEYWA holders shape decisions, earn rewards, and drive innovation in the decentralized ecosystem.`,
+    fullDescription: `CrossCurve, developed by the Eywa Team, is a cutting-edge cross-chain trading and yield protocol that integrates seamlessly with Curve Finance, aggregating its extensive $2 billion+ in TVL pools to establish a unified cross-chain liquidity market. By enabling cost-efficient, secure, and convenient cross-chain swaps for Curve assets (such as crvUSD and various LP tokens), liquid staking tokens (LSTs), and stablecoins, CrossCurve opens innovative opportunities for liquidity providers, Web3 projects, and DeFi users. Governed by the EYWA DAO—a transparent and decentralized organization driven by veEYWA governance token holders—participants shape strategic decisions, earn protocol income, and receive incentives, fostering collaboration and engagement across the decentralized ecosystem.`,
+  },
+  {
     index: 2016,
     cmcId: 33841,
     chainId: ChainId.ARBITRUM,
@@ -9651,7 +9714,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://crosscurve.fi/',
     twitter: 'https://x.com/eywaprotocol',
     initTime: { [ChainId.ARBITRUM]: 1736872010 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -10741,7 +10804,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://gptprotocol.org/',
     twitter: 'https://twitter.com/gpt_protocol',
     initTime: { [ChainId.MAINNET]: 1730189346 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
@@ -11121,6 +11184,34 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'GPT Protocol is a pioneering platform leading the merger of artificial intelligence (AI) with blockchain technology, revolutionizing AI development by ensuring it is accessible, innovative, and censorship-resistant. It harnesses open-source AI tools and decentralized networks, bringing together a global community of developers to create, share, and deploy AI applications on the blockchain. $GPT tokens create an AI economy that incentivizes consumers, developers, and compute providers, serving multiple roles within the network, from rewarding miners to compensating data providers.',
     fullDescription:
       'GPT Protocol is a transformative Layer 2 blockchain platform built on the Ethereum Virtual Machine, aimed at revolutionizing the artificial intelligence landscape. It integrates decentralized technologies to ensure AI development is accessible, innovative, and censorship-resistant. By harnessing open-source AI tools and decentralized networks, it brings together a global community of developers to create, share, and deploy AI applications on the blockchain. $GPT tokens create an AI economy that incentivizes consumers, developers, and compute providers, serving multiple roles within the network, from rewarding miners to compensating data providers. More than just a technology, GPT Protocol is shaping a future where data integrity, intellectual freedom, and collaborative innovation form the pillars of our digital world.',
+  },
+  {
+    index: 3040,
+    cmcId: 34778,
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0x2Cd97f26c445DE5FE59d915BD238b8D04Ef1d78a',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    lpToken: tokens.usdc,
+    earnToken: tokens.dna,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    inactive: false,
+    projectLink: 'https://www.muhdohub.xyz/',
+    twitter: 'https://x.com/Muhdohealth',
+    audit: 'https://audits.hacken.io/muhdo-hub/',
+    initTime: { [ChainId.MAINNET]: 1737463295 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['Blockchains'],
+    shortDescription:
+      'Muhdo combines blockchain, epigenetics, and AI to transform health and wellness. With the world’s first epigenetic test, users can discover and improve their Biological Age while earning $DNA tokens by sharing health data or engaging in ecosystem activities. $DNA token holders unlock exclusive perks like rewards, premium features, and product discounts. Muhdo’s mission is to empower proactive, personalized health solutions for lifelong vitality.',
+    fullDescription: `Muhdo leverages blockchain-powered epigenetics and AI to revolutionize health and wellness. By combining cutting-edge genetic science with hyper-personalized solutions, Muhdo empowers individuals to shift from a reactive, cure-focused mindset to a proactive, prevention-first approach. Their epigenetic test enables users to discover and improve their Biological Age, unlocking transformative health insights. Participants earn $DNA tokens by sharing health data or engaging in ecosystem activities, fostering community-driven innovation. $DNA token holders enjoy exclusive benefits like special rewards, premium features, and discounts on personalized products, advancing Muhdo's mission to promote global health independence and lifelong vitality.`,
   },
 ]
 

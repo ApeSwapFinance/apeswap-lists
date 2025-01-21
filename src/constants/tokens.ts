@@ -20,6 +20,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  dna: {
+    symbol: 'DNA',
+    address: {
+      [ChainId.MAINNET]: '0x7d3e4165fd7D8590fB2a415A550F7bdecE5c4F52',
+    },
+    decimals: {
+      [ChainId.MAINNET]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
+    },
+  },
   qaagai: {
     symbol: 'QAAGAI',
     address: {
