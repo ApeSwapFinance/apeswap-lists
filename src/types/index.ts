@@ -221,6 +221,7 @@ export interface LaunchProjectConfig {
   salePriceString: string
   vestingTimeString: string
   vestingTimeTooltip?: string
+  refundable?: boolean
   projectInfo: {
     marketingSubtitle?: string
     shortDescription: string
