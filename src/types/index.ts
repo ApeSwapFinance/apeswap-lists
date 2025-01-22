@@ -320,6 +320,7 @@ export interface BillsConfig {
   featuredURLS?: string[] // FE
   partnersURLS?: string[] // FE
   tags?: string[] // FE
+  vestingCliff?: number
   onlyPartner?: boolean // FE
   // * This is only used for the bond migration page
   vestingTerm?: number

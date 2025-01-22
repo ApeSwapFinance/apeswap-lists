@@ -9616,6 +9616,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['DeFi'],
+    vestingCliff: 2592000, // 30 days cliff
     shortDescription:
       'Credbull is the leading decentralized lending platform offering stable and high risk-adjusted yields in private credit, capturing the fastest-growing segment in RWA. The platform is set to launch a series of new products starting in mid-February, including a partnership with Plume Network, with a highly competitive fixed 15% APY offering, and a $CBL Rewards Pool staking product.',
     fullDescription:
