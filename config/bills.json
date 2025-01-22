@@ -19412,6 +19412,59 @@
     "soldOut": true
   },
   {
+    "index": 2018,
+    "cmcId": 33805,
+    "chainId": 42161,
+    "contractAddress": {
+      "42161": "0xcBC7281a0020A3C5EA68D06C6d0def6ed8FC7Fdd"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+      },
+      "decimals": {
+        "42161": 6
+      },
+      "liquidityDex": {
+        "42161": "UniswapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "CBL",
+      "address": {
+        "42161": "0xD6b3d81868770083307840F513A3491960b95cb6"
+      },
+      "decimals": {
+        "42161": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "42161": "UniswapV3"
+      }
+    },
+    "billNnftAddress": {
+      "42161": "0xAC707999D05C4048844B78c737D9512DFDff524d"
+    },
+    "inactive": false,
+    "projectLink": "https://credbull.io/",
+    "twitter": "https://x.com/credbullDeFi",
+    "audit": "https://www.cyberscope.io/audits/coin-credbull",
+    "initTime": {
+      "42161": 1737554112
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["DeFi"],
+    "shortDescription": "",
+    "fullDescription": ""
+  },
+  {
     "index": 2017,
     "cmcId": 33841,
     "chainId": 42161,

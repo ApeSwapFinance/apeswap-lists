@@ -4,7 +4,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // BNB Largest ID: 1120
 // Polygon Largest ID: 168
 // Telos Largest ID: 215
-// Arbitrum Largest ID: 2017
+// Arbitrum Largest ID: 2018
 // ETH Largest ID: 3040
 // Linea Largest ID: 6012
 // Base Largest ID: 8031
@@ -9592,6 +9592,33 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   /*
       Arbitrum Bills - ID started from 2001
   */
+  {
+    index: 2018,
+    cmcId: 33805,
+    chainId: ChainId.ARBITRUM,
+    contractAddress: {
+      [ChainId.ARBITRUM]: '0xcBC7281a0020A3C5EA68D06C6d0def6ed8FC7Fdd',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdt,
+    earnToken: tokens.cbl,
+    billNnftAddress: {
+      [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
+    },
+    inactive: false,
+    projectLink: 'https://credbull.io/',
+    twitter: 'https://x.com/credbullDeFi',
+    audit: 'https://www.cyberscope.io/audits/coin-credbull',
+    initTime: { [ChainId.ARBITRUM]: 1737554112 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DeFi'],
+    shortDescription: '',
+    fullDescription: '',
+  },
   {
     index: 2017,
     cmcId: 33841,
