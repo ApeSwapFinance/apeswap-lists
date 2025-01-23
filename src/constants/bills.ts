@@ -9626,8 +9626,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     cmcId: 33805,
     chainId: ChainId.ARBITRUM,
     contractAddress: {
-      [ChainId.ARBITRUM]: '0x8DA79432dFfd6cADA9986cB8343ec456D76BB49A', // test
-      // [ChainId.ARBITRUM]: '0xcBC7281a0020A3C5EA68D06C6d0def6ed8FC7Fdd',
+      [ChainId.ARBITRUM]: '0xcBC7281a0020A3C5EA68D06C6d0def6ed8FC7Fdd',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
@@ -9646,8 +9645,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['DeFi'],
-    // vestingCliff: 2592000, // 30 days cliff
-    vestingCliff: 300, // 5 min testing
+    vestingCliff: 2592000, // 30 days cliff
     shortDescription:
       'Credbull is the leading decentralized lending platform offering stable and high risk-adjusted yields in private credit, capturing the fastest-growing segment in RWA. The platform is set to launch a series of new products starting in mid-February, including a partnership with Plume Network, a $CBL Rewards Pool staking product, and a highly competitive fixed 15% APY offering.',
     fullDescription: `Credbull's journey has been stellar. In just six months, the company has delivered multiple products, including a rewards platform and listed the $CBL token on Tier 1 exchanges, while securing partnerships with strategic protocols like Plume and Mountain. Now the team prepares to launch two lending products that already accumulate a combined TVL of $15 million. The project has attracted over 300,000 users across all channels. The $CBL token is deeply integrated into the lending ecosystem, benefiting from the buyback mechanism and earnings distributed through the rewards pool. With such rapid growth and a strong foundation, Credbull is poised to shape the future of decentralized finance!
