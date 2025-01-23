@@ -2,9 +2,9 @@ import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, MigrationVestingTerms } from '../types'
 
 // BNB Largest ID: 1120
-// Polygon Largest ID: 168
+// Polygon Largest ID: 172
 // Telos Largest ID: 215
-// Arbitrum Largest ID: 2017
+// Arbitrum Largest ID: 2018
 // ETH Largest ID: 3040
 // Linea Largest ID: 6012
 // Base Largest ID: 8031
@@ -7283,6 +7283,35 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     Polygon Bills
   */
   {
+    index: 172,
+    cmcId: 12312,
+    chainId: ChainId.MATIC,
+    contractAddress: {
+      [ChainId.MATIC]: '0x5a4B8338Fb48bE22b60Fd68a8B784Fa615DcA6F4',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdt,
+    earnToken: tokens.nsdx,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://www.nasdex.xyz/',
+    twitter: 'https://twitter.com/nasdex_xyz',
+    audit: 'https://hacken.io/audits/nasdex',
+    initTime: { [ChainId.MATIC]: 1737654313 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+    shortDescription:
+      'Nasdex is a regulated, semi-decentralized RWA marketplace that empowers users to trade and invest in a diverse array of tokenized real-world assets, including private equity, private credit, bonds, derivatives, and real estate. It is the premier regulated marketplace for tokenized real-world assets.',
+    fullDescription: `Nasdex is a regulated, semi-decentralized RWA marketplace that empowers users to trade and invest in a diverse array of tokenized real-world assets, including private equity, private credit, bonds, derivatives, and real estate. It is the premier regulated marketplace for tokenized real-world assets. With NASDEX, the future of finance is not just decentralized; it's personalized, accessible, and inherently global. NASDEX is poised to revolutionize the intersection of traditional finance (TradFi) and decentralized finance (DeFi), serving as an unparalleled conduit between these two pivotal spheres. Initially carving out its niche as the foremost decentralized exchange facilitating the on-chain trading of Asian stocks, NASDEX's scope has now significantly broadened to encompass the global market. It proudly offers the tokenization of a broad array of real-world assets, including but not limited to stocks, derivatives, and real estate, spanning every corner of the globe. NASDEX is designed to serve as a bridge between the real world and the crypto world, with the belief that the on-chain adoption of real-world asset classes will deliver increased accessibility and improved capabilities for both traditional and crypto investors.`,
+    tags: ['RWA'],
+  },
+  {
     index: 171,
     chainId: ChainId.MATIC,
     contractAddress: {
@@ -9592,6 +9621,39 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   /*
       Arbitrum Bills - ID started from 2001
   */
+  //   {
+  //     index: 2018,
+  //     cmcId: 33805,
+  //     chainId: ChainId.ARBITRUM,
+  //     contractAddress: {
+  //       [ChainId.ARBITRUM]: '0x8DA79432dFfd6cADA9986cB8343ec456D76BB49A', // test
+  //       // [ChainId.ARBITRUM]: '0xcBC7281a0020A3C5EA68D06C6d0def6ed8FC7Fdd',
+  //     },
+  //     billType: 'reserve',
+  //     billVersion: BillVersion.V2,
+  //     lpToken: tokens.usdt,
+  //     earnToken: tokens.cbl,
+  //     billNnftAddress: {
+  //       [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
+  //     },
+  //     inactive: false,
+  //     projectLink: 'https://credbull.io/',
+  //     twitter: 'https://x.com/credbullDeFi',
+  //     audit: 'https://www.cyberscope.io/audits/coin-credbull',
+  //     initTime: { [ChainId.ARBITRUM]: 1737554112 },
+  //     soldOut: false,
+  //     billArt: {
+  //       collection: BillArtCollection.ApeBond_Collection1,
+  //     },
+  //     tags: ['DeFi'],
+  //     vestingCliff: 2592000, // 30 days cliff
+  //     shortDescription:
+  //       'Credbull is the leading decentralized lending platform offering stable and high risk-adjusted yields in private credit, capturing the fastest-growing segment in RWA. The platform is set to launch a series of new products starting in mid-February, including a partnership with Plume Network, a $CBL Rewards Pool staking product, and a highly competitive fixed 15% APY offering.',
+  //     fullDescription: `Credbull's journey has been stellar. In just six months, the company has delivered multiple products, including a rewards platform and listed the $CBL token on Tier 1 exchanges, while securing partnerships with strategic protocols like Plume and Mountain. Now the team prepares to launch two lending products that already accumulate a combined TVL of $15 million. The project has attracted over 300,000 users across all channels. The $CBL token is deeply integrated into the lending ecosystem, benefiting from the buyback mechanism and earnings distributed through the rewards pool. With such rapid growth and a strong foundation, Credbull is poised to shape the future of decentralized finance!
+
+  // Why buy $CBL now?
+  // With the lending products set to go live in February, the project is poised to attract greater visibility from new audiences. As earnings begin to flow, the buyback mechanism will be activated, creating direct buying pressure on $CBL and driving its value within the ecosystem.`,
+  //   },
   {
     index: 2017,
     cmcId: 33841,

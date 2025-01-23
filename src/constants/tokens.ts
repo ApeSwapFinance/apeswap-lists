@@ -20,6 +20,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  cbl: {
+    symbol: 'CBL',
+    address: {
+      [ChainId.ARBITRUM]: '0xD6b3d81868770083307840F513A3491960b95cb6',
+    },
+    decimals: {
+      [ChainId.ARBITRUM]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.ARBITRUM]: LiquidityDex.UniswapV3,
+    },
+  },
   dna: {
     symbol: 'DNA',
     address: {
