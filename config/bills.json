@@ -19416,7 +19416,7 @@
     "cmcId": 33805,
     "chainId": 42161,
     "contractAddress": {
-      "42161": "0xcBC7281a0020A3C5EA68D06C6d0def6ed8FC7Fdd"
+      "42161": "0x8DA79432dFfd6cADA9986cB8343ec456D76BB49A"
     },
     "billType": "reserve",
     "billVersion": "V2",
