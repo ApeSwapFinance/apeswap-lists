@@ -9626,7 +9626,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     cmcId: 33841,
     chainId: ChainId.ARBITRUM,
     contractAddress: {
-      [ChainId.ARBITRUM]: '0x557Ec453eb7ADd0cc0F07f57D9d6f42d521d68fB',
+      [ChainId.ARBITRUM]: '0x68bbfb7f69bB2e3d095eCE9865A6926712aD6DF6',
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
