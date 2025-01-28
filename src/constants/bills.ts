@@ -9677,6 +9677,37 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       Arbitrum Bills - ID started from 2001
   */
   {
+    index: 2020,
+    cmcId: 33805,
+    chainId: ChainId.ARBITRUM,
+    contractAddress: {
+      [ChainId.ARBITRUM]: '0xE3Fd3765C78c7fe428F92011e1eBe95f7B620D8D',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdt,
+    earnToken: tokens.cbl,
+    billNnftAddress: {
+      [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
+    },
+    inactive: false,
+    projectLink: 'https://credbull.io/',
+    twitter: 'https://x.com/credbullDeFi',
+    audit: 'https://www.cyberscope.io/audits/coin-credbull',
+    initTime: { [ChainId.ARBITRUM]: 1738087730 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DeFi'],
+    shortDescription:
+      'Credbull is the leading decentralized lending platform offering stable and high risk-adjusted yields in private credit, capturing the fastest-growing segment in RWA. The platform is set to launch a series of new products starting in mid-February, including a partnership with Plume Network, a $CBL Rewards Pool staking product, and a highly competitive fixed 15% APY offering.',
+    fullDescription: `Credbull's journey has been stellar. In just six months, the company has delivered multiple products, including a rewards platform and listed the $CBL token on Tier 1 exchanges, while securing partnerships with strategic protocols like Plume and Mountain. Now the team prepares to launch two lending products that already accumulate a combined TVL of $15 million. The project has attracted over 300,000 users across all channels. The $CBL token is deeply integrated into the lending ecosystem, benefiting from the buyback mechanism and earnings distributed through the rewards pool. With such rapid growth and a strong foundation, Credbull is poised to shape the future of decentralized finance!
+    
+    Why buy $CBL now? 
+    With the lending products set to go live in February, the project is poised to attract greater visibility from new audiences. As earnings begin to flow, the buyback mechanism will be activated, creating direct buying pressure on $CBL and driving its value within the ecosystem.`,
+  },
+  {
     index: 2019,
     cmcId: 33841,
     chainId: ChainId.ARBITRUM,
@@ -9721,7 +9752,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://x.com/credbullDeFi',
     audit: 'https://www.cyberscope.io/audits/coin-credbull',
     initTime: { [ChainId.ARBITRUM]: 1737554112 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
