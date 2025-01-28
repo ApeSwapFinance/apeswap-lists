@@ -7,7 +7,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Arbitrum Largest ID: 2019
 // ETH Largest ID: 3040
 // Linea Largest ID: 6012
-// Base Largest ID: 8031
+// Base Largest ID: 8033
 // Lightlink Largest ID: 7003
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
@@ -184,6 +184,32 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
+  {
+    index: 8033,
+    cmcId: 29749,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x4538727593537467994Ac14D9F3fF189EECC0b27',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.drink,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://www.degendistillery.com/',
+    twitter: 'https://x.com/degendistillery',
+    initTime: { [ChainId.BASE]: 1738071189 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription: `Degen Distillery is transforming the $800B alcohol market by blending AI innovation with memetic IP. Powered by the $DRINK token on BASE, it redefines "degen" as bold risk-takers and creatives who thrive on individuality. With community at its core, the project is co-owned, co-created, and co-run, leveraging Web3 to foster connection and prosperity. When one of us wins, all of us win.`,
+    fullDescription: `Degen Distillery is revolutionizing the $800 billion alcohol market by merging AI innovation with memetic intellectual property. Built on the BASE blockchain, with its $DRINK token at the core, the project redefines what it means to be a "degen" — not a reckless gambler, but a bold risk-taker, free thinker, and creator who embraces individuality while rejecting convention. Community is the beating heart of Degen Distillery, embodying a co-owned, co-created, and co-run ethos powered by Web3 technology. By harnessing collective power, Degen Distillery is crafting a new playground for experiences and connections, blending creativity and collaboration to bring prosperity and innovation to the mainstream. After all, when one of us wins, all of us win.`,
+  },
   {
     index: 8032,
     cmcId: 33050,

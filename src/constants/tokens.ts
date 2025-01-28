@@ -586,6 +586,19 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.Aerodrome,
     },
   },
+  drink: {
+    symbol: 'DRINK',
+    address: {
+      [ChainId.BASE]: '0x2dc90Fa3a0f178ba4beE16CAc5D6c9A5a7B4C6cB',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV2,
+    },
+  },
   ichi: {
     symbol: 'ICHI',
     address: {
