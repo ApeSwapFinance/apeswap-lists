@@ -316,6 +316,58 @@
     "fullDescription": "FOMOFox is the first market-driven storytelling meme coin on IOTA EVM. Follow the thrilling journey of FOMOFox on TwitterX and help him conquer his FOMO by influencing the $FOMO Token’s market performance. Loyal holders will find countless opportunities to grow their $FOMO bags through raffles, solving riddles, or simply holding and supporting the fox. Along the way, FOMOFox faces diverse challenges and meets intriguing characters. Your influence on the market helps him make the right choices. This project offers pure entertainment and rewards those who stick with it! Join the adventure now and visit their website for more details!"
   },
   {
+    "index": 8033,
+    "cmcId": 29749,
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0x4538727593537467994Ac14D9F3fF189EECC0b27"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "8453": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+      },
+      "decimals": {
+        "8453": 6
+      },
+      "liquidityDex": {
+        "8453": "Aerodrome"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "DRINK",
+      "address": {
+        "8453": "0x2dc90Fa3a0f178ba4beE16CAc5D6c9A5a7B4C6cB"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "8453": "UniswapV2"
+      }
+    },
+    "billNnftAddress": {
+      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "inactive": false,
+    "projectLink": "https://www.degendistillery.com/",
+    "twitter": "https://x.com/degendistillery",
+    "initTime": {
+      "8453": 1738071189
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["AI"],
+    "shortDescription": "Degen Distillery is transforming the $800B alcohol market by blending AI innovation with memetic IP. Powered by the $DRINK token on BASE, it redefines \"degen\" as bold risk-takers and creatives who thrive on individuality. With community at its core, the project is co-owned, co-created, and co-run, leveraging Web3 to foster connection and prosperity. When one of us wins, all of us win.",
+    "fullDescription": "Degen Distillery is revolutionizing the $800 billion alcohol market by merging AI innovation with memetic intellectual property. Built on the BASE blockchain, with its $DRINK token at the core, the project redefines what it means to be a \"degen\" — not a reckless gambler, but a bold risk-taker, free thinker, and creator who embraces individuality while rejecting convention. Community is the beating heart of Degen Distillery, embodying a co-owned, co-created, and co-run ethos powered by Web3 technology. By harnessing collective power, Degen Distillery is crafting a new playground for experiences and connections, blending creativity and collaboration to bring prosperity and innovation to the mainstream. After all, when one of us wins, all of us win."
+  },
+  {
     "index": 8032,
     "cmcId": 33050,
     "chainId": 8453,
