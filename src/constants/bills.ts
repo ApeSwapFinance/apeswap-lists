@@ -9808,7 +9808,7 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://crosscurve.fi/',
     twitter: 'https://x.com/eywaprotocol',
     initTime: { [ChainId.ARBITRUM]: 1737473352 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -9834,7 +9834,7 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://crosscurve.fi/',
     twitter: 'https://x.com/eywaprotocol',
     initTime: { [ChainId.ARBITRUM]: 1737390900 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -9860,7 +9860,7 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://crosscurve.fi/',
     twitter: 'https://x.com/eywaprotocol',
     initTime: { [ChainId.ARBITRUM]: 1737042767 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -9886,7 +9886,7 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://crosscurve.fi/',
     twitter: 'https://x.com/eywaprotocol',
     initTime: { [ChainId.ARBITRUM]: 1737042767 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
