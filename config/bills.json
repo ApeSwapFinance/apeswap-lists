@@ -316,6 +316,57 @@
     "fullDescription": "FOMOFox is the first market-driven storytelling meme coin on IOTA EVM. Follow the thrilling journey of FOMOFox on TwitterX and help him conquer his FOMO by influencing the $FOMO Token’s market performance. Loyal holders will find countless opportunities to grow their $FOMO bags through raffles, solving riddles, or simply holding and supporting the fox. Along the way, FOMOFox faces diverse challenges and meets intriguing characters. Your influence on the market helps him make the right choices. This project offers pure entertainment and rewards those who stick with it! Join the adventure now and visit their website for more details!"
   },
   {
+    "index": 8034,
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0x7463be6Fc086dFCA8707Fe44A0cb5ffA8945c50E"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "8453": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+      },
+      "decimals": {
+        "8453": 6
+      },
+      "liquidityDex": {
+        "8453": "Aerodrome"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "OAI",
+      "address": {
+        "8453": "0x63c387F45046bc3C4aD8Fe12fe9cfa2A7b305385"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "8453": "UniswapV3"
+      }
+    },
+    "billNnftAddress": {
+      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "inactive": false,
+    "projectLink": "https://iamolex.ai/",
+    "twitter": "https://x.com/hi_olex",
+    "initTime": {
+      "8453": 1738094027
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["AI"],
+    "shortDescription": "Olex aims to be the world’s first fully autonomous crypto project, powered by cutting-edge AI and custom AI agents. It identifies market opportunities, creates, and launches projects independently, while fostering vibrant communities using AI trained on successful crypto initiatives. At its core, the OAI token delivers 100% real yield, sharing profits from all Olex ventures. Olex redefines DeFi with automation and innovation.",
+    "fullDescription": "Olex aims to be the world’s first fully autonomous crypto project, built on cutting-edge AI technology and custom-developed AI agents. The vision behind Olex is to operate independently, around the clock, scanning the crypto market to uncover gaps and emerging opportunities without human intervention. When an opportunity is identified, Olex's AI worker agents spring into action, carefully planning, creating, and launching the project from start to finish. Olex doesn’t stop at deploying projects; it’s designed to cultivate and sustain dynamic communities. Leveraging AI agents trained on thousands of successful crypto projects, Olex ensures that each new initiative has a vibrant community at its core. The result is a continuous cycle of project discovery, development, and community building that enhances the cryptocurrency ecosystem while delivering ongoing value to OLEXAI token holders. At the core of Olex’s ecosystem is the OAI token, a 100% real yield asset that redistributes profits from all Olex-created ventures to token holders, making it a trailblazer in decentralized finance. With its cutting-edge automation and AI-driven innovation, Olex redefines the future of DeFi and the crypto economy."
+  },
+  {
     "index": 8033,
     "cmcId": 29749,
     "chainId": 8453,
