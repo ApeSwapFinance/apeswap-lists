@@ -253,7 +253,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://basedpepe.vip/',
     twitter: 'https://x.com/0x52BasedPepe',
     initTime: { [ChainId.BASE]: 1737110333 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -411,7 +411,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://random.trading/',
     twitter: 'https://x.com/randomdexrdx',
     initTime: { [ChainId.BASE]: 1734692693 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -617,7 +617,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://iamolex.ai/',
     twitter: 'https://x.com/hi_olex',
     initTime: { [ChainId.BASE]: 1733827195 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1926,7 +1926,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://quoll.finance/',
     twitter: 'https://x.com/QuollFinance',
     initTime: { [ChainId.BSC]: 1734020869 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
