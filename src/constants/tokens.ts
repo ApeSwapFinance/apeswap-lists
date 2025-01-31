@@ -20,6 +20,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  eurc: {
+    symbol: 'EURC',
+    address: {
+      [ChainId.BASE]: '0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42',
+    },
+    decimals: {
+      [ChainId.BASE]: 6,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.Aerodrome,
+    },
+  },
   cbl: {
     symbol: 'CBL',
     address: {
