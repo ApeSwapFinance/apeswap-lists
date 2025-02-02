@@ -201,7 +201,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://iamolex.ai/',
     twitter: 'https://x.com/hi_olex',
     initTime: { [ChainId.BASE]: 1738094027 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
