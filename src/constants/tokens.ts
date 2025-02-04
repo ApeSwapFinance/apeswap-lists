@@ -6125,6 +6125,22 @@ const tokens: Record<string, Token> = {
     liquidityWrapper: Wrappers.Ichi,
     ichiUnderlyingDex: IchiSupportedDex.Quickswap,
   },
+  usdtFan_Ichi: {
+    symbol: 'USDT-FAN',
+    address: {
+      [ChainId.MATIC]: '0x6132f58e6b9d984331DDD5194B3DD37fCb721eaC',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.Algebra,
+    },
+    active: true,
+    lpToken: true,
+    liquidityWrapper: Wrappers.Ichi,
+    ichiUnderlyingDex: IchiSupportedDex.Quickswap,
+  },
   polRum_Ichi: {
     symbol: 'POL-RUM',
     address: {
