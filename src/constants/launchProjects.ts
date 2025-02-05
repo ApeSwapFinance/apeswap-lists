@@ -1,4 +1,4 @@
-import { BillArtCollection, BillVersion, ChainId, LaunchBondTiers, LaunchProjectConfig } from '../types'
+import { BillArtCollection, BillVersion, ChainId, LaunchProjectConfig } from '../types'
 import tokens from './tokens'
 
 const launchProjects: LaunchProjectConfig[] = [
@@ -770,13 +770,13 @@ const launchProjects: LaunchProjectConfig[] = [
   {
     index: 4,
     projectId: 'oxya-origin',
-    projectName: 'Oxya Origin',
-    chainId: ChainId.MAINNET,
+    projectName: 'BUY USDC with USDT TEST',
+    chainId: ChainId.BASE,
     saleStartTime: 'Dec 17th 17:00 UTC',
     totalAllocation: '4,000,000 OXYZ',
     salePriceString: '$0.025',
     vestingTimeString: '4 Months',
-    refundable: false,
+    refundable: true,
     vestingTimeTooltip:
       '20% of the tokens will be released at TGE. The remaining tokens will vest linearly over 4 months, with a 1-month cliff.',
     projectInfo: {
@@ -828,44 +828,38 @@ const launchProjects: LaunchProjectConfig[] = [
     bonds: [
       {
         index: 19,
-        chainId: ChainId.MAINNET,
+        chainId: ChainId.BASE,
         contractAddress: {
-          [ChainId.MAINNET]: '0x48d45312fF88B277eB285eA1f05ddDC6B9238611',
+          [ChainId.BASE]: '0xdc7F7B9679B3BA06e76dfa9F7c5592EC717D7f8F',
         },
         billVersion: BillVersion.TieredSale,
-        billType: 'fcfs',
-        token: tokens.usdc,
-        earnToken: tokens.oxyz,
+        billType: 'oversubscription',
+        token: tokens.usdt,
+        earnToken: tokens.usdc,
         billNnftAddress: {
-          [ChainId.MAINNET]: '0x499b654b0A7f9979CC315190C09cA2633809B8dF',
+          [ChainId.BASE]: '0x4E4746b8Cfc7E57d824Dd91A80146F9C23C36d52',
         },
         soldOut: false,
         billArt: { collection: BillArtCollection.ApeBond_Collection1 },
         initTime: {
-          [ChainId.MAINNET]: 1734454800,
+          [ChainId.BASE]: 1737624406,
         },
         finishTime: {
-          [ChainId.MAINNET]: 1734541200,
+          [ChainId.BASE]: 1737662400,
         },
         redeemTime: {
-          [ChainId.MAINNET]: 1734541200,
+          [ChainId.BASE]: 1737624406,
         },
         startVestingTimestamp: {
-          [ChainId.MAINNET]: 1737219600,
+          [ChainId.BASE]: 1737219600,
         },
         initPrice: {
-          [ChainId.MAINNET]: 0.025,
+          [ChainId.BASE]: 1200000,
         },
-        initialRelease: 20,
-        saleSchedule: {
-          [LaunchBondTiers.Legend]: { start: 1734454800, end: 1734469200 },
-          [LaunchBondTiers.Diamond]: { start: 1734469200, end: 1734483600 },
-          [LaunchBondTiers.Gold]: { start: 1734483600, end: 1734498000 },
-          [LaunchBondTiers.Silver]: { start: 1734498000, end: 1734512400 },
-          [LaunchBondTiers.Bronze]: { start: 1734512400, end: 1734526800 },
-          ['noTier']: { start: 1734526800, end: 1734541200 },
-        },
+        initialRelease: 9000,
         tokensDistributedAtRedeem: true,
+        refundPeriod: 50400,
+        refundFee: 'On',
         // distributionTimestamp: 1734203341,
       },
     ],
