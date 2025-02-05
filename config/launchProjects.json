@@ -8,6 +8,7 @@
     "totalAllocation": "791,649 SKO",
     "salePriceString": "$0.06",
     "vestingTimeString": "120",
+    "refundable": false,
     "bonds": [
       {
         "index": 0,
@@ -377,6 +378,7 @@
     "totalAllocation": "200M CATA",
     "salePriceString": "1 BNB = 1M CATA",
     "vestingTimeString": "Instant",
+    "refundable": false,
     "projectInfo": {
       "shortDescription": "Catamoto is not just another memecoin; it’s a stride towards redefining the genre. With $CATA, Catamoto employs superior cat math to establish the most sophisticated smart contract to date. This initiative is backed by the Illu-meow-nati, a secretive group of cats with ambitions of discreetly guiding global events.",
       "fullDescription": "Catamoto is not just another memecoin; it’s a stride towards redefining the genre. With $CATA, Catamoto employs superior cat math to establish the most sophisticated smart contract to date. This initiative is backed by the Illu-meow-nati, a secretive group of cats with ambitions of discreetly guiding global events.<br/><br/>\n\nWe are excited to embark on this journey with Catamoto, confident that $CATA will not only capture the imagination of the crypto community but also bring fresh innovation and spirited engagement. The ApeBond Launchpad continues to be a platform for launching high-quality projects, and the partnership with Catamoto reaffirms our commitment to excellence and community-driven success.<br/><br/>\n\n$CATA will be listing on PancakeSwap on April 19th at 11:00 UTC.",
@@ -650,6 +652,7 @@
     "totalAllocation": "1,875,000 CTOK",
     "salePriceString": "$0.16",
     "vestingTimeString": "Cliff: 60 | Vesting: 123",
+    "refundable": false,
     "projectInfo": {
       "shortDescription": "Codyfight envisions a world where the line between AI and humans is blurred. Creativity, strategy, competition, and fun are at the forefront. Join a community that embraces a new paradigm in the gaming industry.",
       "fullDescription": "Codyfight is a super fun game where you're the boss of clever little robots! You can play it anytime, anywhere! It's like playing a super intelligent game of chess, but with cool robots that you guide or teach to win battles. Create, customize, and control your battle-ready robot in a shapeshifting environment! Choose your path - manual or API, and take control of the fight. Operator, Codyfighter, and CKey are your keys to the game, available in the Launchpad and marketplace.<br/><br/>\n\nTheir team tackles industry issues like the lack of creative contributions, the role of AI in modern games, the neglect of programmers in gaming, and how grinding can diminish enjoyment. A game that cares about its players' experience! Codyfight has joined forces with industry giants like MEXC, GATE.IO, DAO Maker, ChainGPT, KIRIN fund, and more. Will you miss out on the hype?<br/><br/>\n\nThe project envisions a world where the line between AI and humans is blurred. Creativity, strategy, competition, and fun are at the forefront. Join a community that embraces a new paradigm in the gaming industry and participate in the $CTOK sale on the ApeBond Launchpad!",
@@ -1103,6 +1106,7 @@
     "totalAllocation": "138 Nodes",
     "salePriceString": "$1,086.96",
     "vestingTimeString": "Instant",
+    "refundable": false,
     "projectInfo": {
       "shortDescription": "CARV Protocol is a modular data layer for gaming and AI, revolutionizing how data is used and shared, by ensuring privacy, ownership, and control are firmly in the hands of individuals, pioneering a future where data generates value for all.",
       "fullDescription": "CARV is building the largest modular data layer for gaming and AI. Their Node launch is essential in order to move towards a truly decentralized, community-driven internet, addressing the critical challenge of monopolization by large stakeholders in the early stages of network deployment.<br/><br/>\n\nSufficient participation from node operators is necessary to ensure the decentralization of the network, enabling scalability and security. Therefore, widespread involvement in nodes operation is necessary. In order to empower the community to participate confidently in building the foundation of a sustainable, user-owned internet, CARV is pioneering a mechanism: the ‘Up-to-100% Buyback Program’, where 10,000,000 $CARV will be allocated to ensure a 100% buyback to all active node license holders with a 30-day linear vesting period.<br/><br/>\n\n<strong>Don't miss out on ApeBond's first Node Sale with CARV!</strong>",
@@ -1639,6 +1643,7 @@
     "totalAllocation": "4,000,000 OXYZ",
     "salePriceString": "$0.025",
     "vestingTimeString": "4 Months",
+    "refundable": false,
     "vestingTimeTooltip": "20% of the tokens will be released at TGE. The remaining tokens will vest linearly over 4 months, with a 1-month cliff.",
     "projectInfo": {
       "marketingSubtitle": "We’re back with another launch! Oxya Origin is building a powerful Web3 gaming ecosystem. <a href=\"https://www.oxyaorigin.com/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #6560C5\">Learn More ></a>",

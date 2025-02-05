@@ -11,6 +11,7 @@ const launchProjects: LaunchProjectConfig[] = [
     totalAllocation: '791,649 SKO',
     salePriceString: '$0.06',
     vestingTimeString: '120',
+    refundable: false,
     bonds: [
       {
         index: 0,
@@ -170,6 +171,7 @@ const launchProjects: LaunchProjectConfig[] = [
     totalAllocation: '200M CATA',
     salePriceString: '1 BNB = 1M CATA',
     vestingTimeString: 'Instant',
+    refundable: false,
     projectInfo: {
       shortDescription:
         'Catamoto is not just another memecoin; it’s a stride towards redefining the genre. With $CATA, Catamoto employs superior cat math to establish the most sophisticated smart contract to date. This initiative is backed by the Illu-meow-nati, a secretive group of cats with ambitions of discreetly guiding global events.',
@@ -330,6 +332,7 @@ const launchProjects: LaunchProjectConfig[] = [
     totalAllocation: '1,875,000 CTOK',
     salePriceString: '$0.16',
     vestingTimeString: 'Cliff: 60 | Vesting: 123',
+    refundable: false,
     projectInfo: {
       shortDescription:
         'Codyfight envisions a world where the line between AI and humans is blurred. Creativity, strategy, competition, and fun are at the forefront. Join a community that embraces a new paradigm in the gaming industry.',
@@ -536,6 +539,7 @@ const launchProjects: LaunchProjectConfig[] = [
     totalAllocation: '138 Nodes',
     salePriceString: '$1,086.96',
     vestingTimeString: 'Instant',
+    refundable: false,
     projectInfo: {
       shortDescription:
         'CARV Protocol is a modular data layer for gaming and AI, revolutionizing how data is used and shared, by ensuring privacy, ownership, and control are firmly in the hands of individuals, pioneering a future where data generates value for all.',
@@ -772,6 +776,7 @@ const launchProjects: LaunchProjectConfig[] = [
     totalAllocation: '4,000,000 OXYZ',
     salePriceString: '$0.025',
     vestingTimeString: '4 Months',
+    refundable: false,
     vestingTimeTooltip:
       '20% of the tokens will be released at TGE. The remaining tokens will vest linearly over 4 months, with a 1-month cliff.',
     projectInfo: {

@@ -221,6 +221,7 @@ export interface LaunchProjectConfig {
   salePriceString: string
   vestingTimeString: string
   vestingTimeTooltip?: string
+  refundable?: boolean
   projectInfo: {
     marketingSubtitle?: string
     shortDescription: string
@@ -269,6 +270,8 @@ export interface TieredSaleBondConfig {
   startVestingTimestamp: Partial<Record<ChainId, number>>
   initPrice: Partial<Record<ChainId, number>>
   initialRelease: number
+  refundPeriod?: number
+  refundFee?: number
   saleSchedule?: {
     [key: string]: { start: number; end: number }
   }
