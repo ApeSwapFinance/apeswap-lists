@@ -872,13 +872,13 @@ const launchProjects: LaunchProjectConfig[] = [
     chainId: ChainId.BASE,
     hideProjectPage: true,
     saleStartTime: 'Feb 18th',
-    totalAllocation: '1,666,666.67 CHPD',
+    totalAllocation: '1,666,666 CHPD',
     salePriceString: '$0.06',
     vestingTimeString: '2 Months',
     vestingTimeTooltip:
       '20% of the tokens will be released at TGE. The remaining tokens will vest linearly over 4 months, with a 1-month cliff.',
     projectInfo: {
-      marketingSubtitle: `Stay tuned for our new launch with Chirp Pad, powered by <a href="https://x.com/chirpley" target="_blank" rel="noopener noreferrer" style="color: #6560C5">Chirplay</a>`,
+      marketingSubtitle: `Stay tuned for our new launch with Chirp Pad, powered by <a href="https://x.com/chirpley" target="_blank" rel="noopener noreferrer" style="color: #6560C5">Chirpley</a>`,
       shortDescription:
         'Oxya Origin is building a powerful gaming ecosystem with a focus on engaging gameplay, immersive graphics and a sustainable, player-owned economy with the ambition to take Web3 gaming to the mainstream.',
       fullDescription: `We're thrilled to announce that our Launchpad is back with an incredible new partner, OxyaOrigin, launching their $OXYA token on the Ethereum Chain!
