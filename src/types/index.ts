@@ -215,6 +215,7 @@ export interface LaunchProjectConfig {
   projectId: string // this should be unique!
   projectName: string
   chainId: ChainId // this is the chain where the money is raised/bonds are deployed, regardless of any airdrop
+  hideProjectPage?: boolean
   bonds: TieredSaleBondConfig[]
   saleStartTime: string
   totalAllocation: string
