@@ -878,7 +878,7 @@ const launchProjects: LaunchProjectConfig[] = [
     vestingTimeTooltip:
       '20% of the tokens will be released at TGE. The remaining tokens will vest linearly over 4 months, with a 1-month cliff.',
     projectInfo: {
-      marketingSubtitle: `We’re back with another launch! Oxya Origin is building a powerful Web3 gaming ecosystem. <a href="https://www.oxyaorigin.com/" target="_blank" rel="noopener noreferrer" style="color: #6560C5">Learn More \u003e</a>`,
+      marketingSubtitle: `Stay tuned for our new launch with Chirp Pad, powered by <a href="https://x.com/chirpley" target="_blank" rel="noopener noreferrer" style="color: #6560C5">Chirplay</a>`,
       shortDescription:
         'Oxya Origin is building a powerful gaming ecosystem with a focus on engaging gameplay, immersive graphics and a sustainable, player-owned economy with the ambition to take Web3 gaming to the mainstream.',
       fullDescription: `We're thrilled to announce that our Launchpad is back with an incredible new partner, OxyaOrigin, launching their $OXYA token on the Ethereum Chain!
@@ -911,9 +911,9 @@ const launchProjects: LaunchProjectConfig[] = [
         telegram: 'https://t.me/oxyaoriginofficial',
       },
       images: {
-        launchpadImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1734350817/home_eag9po.png',
-        launchpadSmallImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1734350817/home_eag9po.png',
-        launchpadIcon: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1734370651/smallimg_u9y8kt.png',
+        launchpadImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1738772216/chirppad_de0msn.png',
+        launchpadSmallImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1738772216/chirppad_de0msn.png',
+        launchpadIcon: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1738777739/icon_um8him.png',
         headerImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1734351145/headerimg_ljvood.png',
         headerImgMobile: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1734351145/headerimg_ljvood.png',
         websiteImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1734351489/website_h8t8aw.png',
