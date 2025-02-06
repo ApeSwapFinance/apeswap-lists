@@ -875,7 +875,7 @@ const launchProjects: LaunchProjectConfig[] = [
     projectId: 'chirppad',
     projectName: 'ChirpPad',
     chainId: ChainId.BASE,
-    hideProjectPage: true,
+    hideProjectPage: false,
     refundable: true,
     saleStartTime: 'Feb 18th',
     totalAllocation: '1,666,666 CHPD',
