@@ -11454,7 +11454,7 @@ With the lending products set to go live in February, the project is poised to a
     twitter: 'https://x.com/Muhdohealth',
     audit: 'https://audits.hacken.io/muhdo-hub/',
     initTime: { [ChainId.MAINNET]: 1737463295 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
