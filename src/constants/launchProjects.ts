@@ -876,6 +876,7 @@ const launchProjects: LaunchProjectConfig[] = [
     projectName: 'ChirpPad',
     chainId: ChainId.BASE,
     hideProjectPage: true,
+    refundable: true,
     saleStartTime: 'Feb 18th',
     totalAllocation: '1,666,666 CHPD',
     salePriceString: '$0.06',
@@ -908,7 +909,7 @@ const launchProjects: LaunchProjectConfig[] = [
   Dec 18th 13:00 - 17:00 UTC: FCFS, no tier required!`,
       tags: ['LaunchPad'],
       socials: {
-        twitter: 'https://x.com/OxyaOrigin',
+        twitter: 'https://x.com/chirpley',
         teaserVideo: 'https://x.com/ApeBond/status/1867686738107195477',
         tokenomicsURL: 'https://oxya-origin.gitbook.io/oxya-origin/asset-ecosystem/economy',
         website: 'https://www.oxyaorigin.com/',
@@ -930,34 +931,34 @@ const launchProjects: LaunchProjectConfig[] = [
     },
     bonds: [
       // {
-      //   index: 19,
-      //   chainId: ChainId.MAINNET,
+      //   index: 20,
+      //   chainId: ChainId.BASE,
       //   contractAddress: {
-      //     [ChainId.MAINNET]: '0x48d45312fF88B277eB285eA1f05ddDC6B9238611',
+      //     [ChainId.BASE]: '0x48d45312fF88B277eB285eA1f05ddDC6B9238611',
       //   },
       //   billVersion: BillVersion.TieredSale,
       //   billType: 'fcfs',
       //   token: tokens.usdc,
-      //   earnToken: tokens.oxyz,
+      //   earnToken: tokens.drink,
       //   billNnftAddress: {
-      //     [ChainId.MAINNET]: '0x499b654b0A7f9979CC315190C09cA2633809B8dF',
+      //     [ChainId.BASE]: '0x499b654b0A7f9979CC315190C09cA2633809B8dF',
       //   },
       //   soldOut: false,
       //   billArt: { collection: BillArtCollection.ApeBond_Collection1 },
       //   initTime: {
-      //     [ChainId.MAINNET]: 1734454800,
+      //     [ChainId.BASE]: 1734454800,
       //   },
       //   finishTime: {
-      //     [ChainId.MAINNET]: 1734541200,
+      //     [ChainId.BASE]: 1734541200,
       //   },
       //   redeemTime: {
-      //     [ChainId.MAINNET]: 1734541200,
+      //     [ChainId.BASE]: 1734541200,
       //   },
       //   startVestingTimestamp: {
-      //     [ChainId.MAINNET]: 1737219600,
+      //     [ChainId.BASE]: 1737219600,
       //   },
       //   initPrice: {
-      //     [ChainId.MAINNET]: 0.025,
+      //     [ChainId.BASE]: 0.06,
       //   },
       //   initialRelease: 40,
       //   saleSchedule: {
