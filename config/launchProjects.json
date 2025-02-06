@@ -1820,6 +1820,117 @@
         "teaserImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1734351829/teaser_cbl1zl.png"
       }
     },
-    "bonds": []
+    "bonds": [
+      {
+        "index": 20,
+        "chainId": 8453,
+        "contractAddress": {
+          "8453": "0x917cDAa3efaE9074EEbfFecFcA5734aCf1AC760a"
+        },
+        "billVersion": "TieredSale",
+        "billType": "fcfs",
+        "token": {
+          "symbol": "USDC",
+          "address": {
+            "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+            "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+            "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+            "1890": "0x18fB38404DADeE1727Be4b805c5b242B5413Fa40",
+            "8453": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+            "8822": "0xFbDa5F676cB37624f28265A144A48B0d6e87d3b6",
+            "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+            "59144": "0x176211869cA2b568f2A7D4EE941E073a821EE1ff"
+          },
+          "decimals": {
+            "1": 6,
+            "40": 6,
+            "56": 18,
+            "137": 6,
+            "1890": 6,
+            "8453": 6,
+            "8822": 6,
+            "42161": 6,
+            "59144": 6
+          },
+          "liquidityDex": {
+            "1": "UniswapV3",
+            "56": "PancakeSwapV2",
+            "137": "UniswapV3",
+            "1890": "Elektrik",
+            "8453": "Aerodrome",
+            "8822": "MagicSea",
+            "42161": "UniswapV3",
+            "59144": "Nile"
+          },
+          "active": true
+        },
+        "earnToken": {
+          "symbol": "DRINK",
+          "address": {
+            "8453": "0x2dc90Fa3a0f178ba4beE16CAc5D6c9A5a7B4C6cB"
+          },
+          "decimals": {
+            "8453": 18
+          },
+          "active": true,
+          "liquidityDex": {
+            "8453": "UniswapV2"
+          }
+        },
+        "billNnftAddress": {
+          "8453": "0x499b654b0A7f9979CC315190C09cA2633809B8dF"
+        },
+        "soldOut": false,
+        "billArt": {
+          "collection": "ApeBond_Collection1"
+        },
+        "initTime": {
+          "8453": 1738863000
+        },
+        "finishTime": {
+          "8453": 1738864800
+        },
+        "redeemTime": {
+          "8453": 1738865400
+        },
+        "startVestingTimestamp": {
+          "8453": 1738865400
+        },
+        "initPrice": {
+          "8453": 0.06
+        },
+        "initialRelease": 40,
+        "saleSchedule": {
+          "0": {
+            "start": 1738864200,
+            "end": 1738864500
+          },
+          "1": {
+            "start": 1738863900,
+            "end": 1738864200
+          },
+          "2": {
+            "start": 1738863600,
+            "end": 1738863900
+          },
+          "3": {
+            "start": 1738863300,
+            "end": 1738863600
+          },
+          "4": {
+            "start": 1738863000,
+            "end": 1738863300
+          },
+          "noTier": {
+            "start": 1738864500,
+            "end": 1738864800
+          }
+        },
+        "tokensDistributedAtRedeem": true,
+        "refundFee": 0,
+        "refundPeriod": 600
+      }
+    ]
   }
 ]
