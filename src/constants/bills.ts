@@ -2065,7 +2065,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://home.blockasset.co/',
     twitter: 'https://x.com/blockassetco',
     initTime: { [ChainId.BSC]: 1733406965 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -9772,7 +9772,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://x.com/credbullDeFi',
     audit: 'https://www.cyberscope.io/audits/coin-credbull',
     initTime: { [ChainId.ARBITRUM]: 1738087730 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
