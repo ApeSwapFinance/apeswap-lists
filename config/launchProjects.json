@@ -1825,7 +1825,7 @@
         "index": 20,
         "chainId": 8453,
         "contractAddress": {
-          "8453": "0x5CBDFb29bd0A26190131fCf84968e1611D3dDDE4"
+          "8453": "0x4dBB3f2b0db0AD4d0c9207cb2E70e18a1EC815C2"
         },
         "billVersion": "TieredSale",
         "billType": "fcfs",
@@ -1886,13 +1886,13 @@
           "collection": "ApeBond_Collection1"
         },
         "initTime": {
-          "8453": 1738933209
+          "8453": 1738934400
         },
         "finishTime": {
-          "8453": 1738933809
+          "8453": 1738935000
         },
         "redeemTime": {
-          "8453": 1738936809
+          "8453": 1738936800
         },
         "startVestingTimestamp": {
           "8453": 1738940409
@@ -1903,33 +1903,33 @@
         "initialRelease": 40,
         "saleSchedule": {
           "0": {
-            "start": 1738933689,
-            "end": 1738933809
+            "start": 1738934880,
+            "end": 1738934940
           },
           "1": {
-            "start": 1738933569,
-            "end": 1738933689
+            "start": 1738934760,
+            "end": 1738934880
           },
           "2": {
-            "start": 1738933449,
-            "end": 1738933569
+            "start": 1738934640,
+            "end": 1738934760
           },
           "3": {
-            "start": 1738933329,
-            "end": 1738933449
+            "start": 1738934520,
+            "end": 1738934640
           },
           "4": {
-            "start": 1738933209,
-            "end": 1738933329
+            "start": 1738934400,
+            "end": 1738934520
           },
           "noTier": {
-            "start": 1738933809,
-            "end": 1738933809
+            "start": 1738934940,
+            "end": 1738935000
           }
         },
         "tokensDistributedAtRedeem": true,
         "refundFee": 0,
-        "refundPeriod": 600
+        "refundPeriod": 3600
       }
     ]
   }
