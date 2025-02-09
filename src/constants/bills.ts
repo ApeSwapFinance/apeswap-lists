@@ -697,7 +697,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/BasePad_Fi',
     audit: 'https://tokensniffer.com/token/base/n6x1bbf9vjzkzxxuqkohe9s1ebqc40mos5bqsx5jxbcu3snbluqs8bl8x40a',
     initTime: { [ChainId.BASE]: 1733402100 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
