@@ -272,7 +272,7 @@ export interface TieredSaleBondConfig {
   initPrice: Partial<Record<ChainId, number>>
   initialRelease: number
   refundPeriod?: number
-  refundFee?: number
+  refundFee?: number // just plain number. 5% fee should be 5
   saleSchedule?: {
     [key: string]: { start: number; end: number }
   }

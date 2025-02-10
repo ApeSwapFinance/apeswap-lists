@@ -1825,7 +1825,7 @@
         "index": 20,
         "chainId": 8453,
         "contractAddress": {
-          "8453": "0x4dBB3f2b0db0AD4d0c9207cb2E70e18a1EC815C2"
+          "8453": "0xD0667B4a637f5DaE9D828c21627d658Ebfda656D"
         },
         "billVersion": "TieredSale",
         "billType": "fcfs",
@@ -1886,16 +1886,16 @@
           "collection": "ApeBond_Collection1"
         },
         "initTime": {
-          "8453": 1738934400
+          "8453": 1739196000
         },
         "finishTime": {
-          "8453": 1738935000
+          "8453": 1739196300
         },
         "redeemTime": {
-          "8453": 1738936800
+          "8453": 1739196300
         },
         "startVestingTimestamp": {
-          "8453": 1738940409
+          "8453": 1739196300
         },
         "initPrice": {
           "8453": 0.06
@@ -1903,33 +1903,33 @@
         "initialRelease": 40,
         "saleSchedule": {
           "0": {
-            "start": 1738934880,
-            "end": 1738934940
+            "start": 1739196000,
+            "end": 1739196300
           },
           "1": {
-            "start": 1738934760,
-            "end": 1738934880
+            "start": 1739196000,
+            "end": 1739196300
           },
           "2": {
-            "start": 1738934640,
-            "end": 1738934760
+            "start": 1739196000,
+            "end": 1739196300
           },
           "3": {
-            "start": 1738934520,
-            "end": 1738934640
+            "start": 1739196000,
+            "end": 1739196300
           },
           "4": {
-            "start": 1738934400,
-            "end": 1738934520
+            "start": 1739196000,
+            "end": 1739196300
           },
           "noTier": {
-            "start": 1738934940,
-            "end": 1738935000
+            "start": 1739196000,
+            "end": 1739196300
           }
         },
         "tokensDistributedAtRedeem": true,
         "refundFee": 0,
-        "refundPeriod": 3600
+        "refundPeriod": 600
       }
     ]
   }
