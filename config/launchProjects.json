@@ -1825,7 +1825,7 @@
         "index": 20,
         "chainId": 8453,
         "contractAddress": {
-          "8453": "0xD0667B4a637f5DaE9D828c21627d658Ebfda656D"
+          "8453": "0xdf7efbc50cFFfFe2019C99A1AC493F573E44f9Ce"
         },
         "billVersion": "TieredSale",
         "billType": "fcfs",
@@ -1886,16 +1886,16 @@
           "collection": "ApeBond_Collection1"
         },
         "initTime": {
-          "8453": 1739196000
+          "8453": 1739198400
         },
         "finishTime": {
-          "8453": 1739196300
+          "8453": 1739198700
         },
         "redeemTime": {
-          "8453": 1739196300
+          "8453": 1739198700
         },
         "startVestingTimestamp": {
-          "8453": 1739196300
+          "8453": 1739198700
         },
         "initPrice": {
           "8453": 0.06
@@ -1903,33 +1903,33 @@
         "initialRelease": 40,
         "saleSchedule": {
           "0": {
-            "start": 1739196000,
-            "end": 1739196300
+            "start": 1739198400,
+            "end": 1739198700
           },
           "1": {
-            "start": 1739196000,
-            "end": 1739196300
+            "start": 1739198400,
+            "end": 1739198700
           },
           "2": {
-            "start": 1739196000,
-            "end": 1739196300
+            "start": 1739198400,
+            "end": 1739198700
           },
           "3": {
-            "start": 1739196000,
-            "end": 1739196300
+            "start": 1739198400,
+            "end": 1739198700
           },
           "4": {
-            "start": 1739196000,
-            "end": 1739196300
+            "start": 1739198400,
+            "end": 1739198700
           },
           "noTier": {
-            "start": 1739196000,
-            "end": 1739196300
+            "start": 1739198400,
+            "end": 1739198700
           }
         },
         "tokensDistributedAtRedeem": true,
-        "refundFee": 0,
-        "refundPeriod": 600
+        "refundFee": 5,
+        "refundPeriod": 300
       }
     ]
   }
