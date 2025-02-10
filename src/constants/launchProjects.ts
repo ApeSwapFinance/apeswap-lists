@@ -914,7 +914,7 @@ const launchProjects: LaunchProjectConfig[] = [
         index: 20,
         chainId: ChainId.BASE,
         contractAddress: {
-          [ChainId.BASE]: '0xdf7efbc50cFFfFe2019C99A1AC493F573E44f9Ce',
+          [ChainId.BASE]: '0xe2098AC2387aF519B23D044676A15582c68F7Bc0',
         },
         billVersion: BillVersion.TieredSale,
         billType: 'fcfs',
@@ -926,28 +926,28 @@ const launchProjects: LaunchProjectConfig[] = [
         soldOut: false,
         billArt: { collection: BillArtCollection.ApeBond_Collection1 },
         initTime: {
-          [ChainId.BASE]: 1739198400,
+          [ChainId.BASE]: 1739200500,
         },
         finishTime: {
-          [ChainId.BASE]: 1739198700,
+          [ChainId.BASE]: 1739200800,
         },
         redeemTime: {
-          [ChainId.BASE]: 1739198700,
+          [ChainId.BASE]: 1739200800,
         },
         startVestingTimestamp: {
-          [ChainId.BASE]: 1739198700,
+          [ChainId.BASE]: 1739200800,
         },
         initPrice: {
           [ChainId.BASE]: 0.06,
         },
         initialRelease: 40,
         saleSchedule: {
-          [LaunchBondTiers.Legend]: { start: 1739198400, end: 1739198700 },
-          [LaunchBondTiers.Diamond]: { start: 1739198400, end: 1739198700 },
-          [LaunchBondTiers.Gold]: { start: 1739198400, end: 1739198700 },
-          [LaunchBondTiers.Silver]: { start: 1739198400, end: 1739198700 },
-          [LaunchBondTiers.Bronze]: { start: 1739198400, end: 1739198700 },
-          ['noTier']: { start: 1739198400, end: 1739198700 },
+          [LaunchBondTiers.Legend]: { start: 1739200500, end: 1739200800 },
+          [LaunchBondTiers.Diamond]: { start: 1739200500, end: 1739200800 },
+          [LaunchBondTiers.Gold]: { start: 1739200500, end: 1739200800 },
+          [LaunchBondTiers.Silver]: { start: 1739200500, end: 1739200800 },
+          [LaunchBondTiers.Bronze]: { start: 1739200500, end: 1739200800 },
+          ['noTier']: { start: 1739200500, end: 1739200800 },
         },
         tokensDistributedAtRedeem: true,
         refundFee: 5,
