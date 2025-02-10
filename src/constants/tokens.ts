@@ -28,6 +28,9 @@ const tokens: Record<string, Token> = {
     decimals: {
       [ChainId.SINGULARITY_TESTNET]: 18,
     },
+    liquidityDex: {
+      [ChainId.SINGULARITY_TESTNET]: LiquidityDex.Citea,
+    },
     active: true,
   },
   aimm: {
@@ -37,6 +40,9 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.SINGULARITY_TESTNET]: 18,
+    },
+    liquidityDex: {
+      [ChainId.SINGULARITY_TESTNET]: LiquidityDex.Citea,
     },
     active: true,
   },
@@ -1094,6 +1100,7 @@ const tokens: Record<string, Token> = {
       [ChainId.LIGHTLINK]: LiquidityDex.Elektrik,
       [ChainId.BASE]: LiquidityDex.Aerodrome,
       [ChainId.IOTA]: LiquidityDex.MagicSea,
+      [ChainId.SINGULARITY_TESTNET]: LiquidityDex.Citea,
     },
     active: true,
   },

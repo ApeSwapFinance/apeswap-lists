@@ -89,6 +89,9 @@ export enum LiquidityDex {
   ThrusterV2_03 = 'ThrusterV2_03', //0.3% fee
   ThrusterV2_1 = 'ThrusterV2_1', //1% fee
   ThrusterV3 = 'ThrusterV3',
+
+  //SINGULARITY TESTNET
+  Citea = 'Citea',
 }
 
 export enum IchiSupportedDex {
@@ -701,6 +704,12 @@ export const dexFactories: Partial<
       protocol: Protocols.V3,
     },
   },
+  [ChainId.SINGULARITY_TESTNET]: {
+    [LiquidityDex.Citea]: {
+      factory: '0xd8388EECE67C003eF952D32c4E3943113C5f5608',
+      protocol: Protocols.V2,
+    },
+  },
 }
 
 export const defaultDexFactories: Partial<Record<ChainId, Partial<Record<Protocols, string>>>> = {
@@ -751,6 +760,9 @@ export const defaultDexFactories: Partial<Record<ChainId, Partial<Record<Protoco
   [ChainId.BLAST]: {
     [Protocols.V2]: dexFactories[ChainId.BLAST]?.ThrusterV2_03?.factory,
     [Protocols.V3]: dexFactories[ChainId.BLAST]?.ThrusterV3?.factory,
+  },
+  [ChainId.SINGULARITY_TESTNET]: {
+    [Protocols.V2]: dexFactories[ChainId.SINGULARITY_TESTNET]?.Citea?.factory,
   },
 }
 
@@ -823,4 +835,5 @@ export const dexToZapMapping: Record<LiquidityDex, Partial<Record<ChainId, ZapVe
     [ChainId.BLAST]: ZapVersion.SoulZapApi,
   },
   [LiquidityDex.ThrusterV3]: {},
+  [LiquidityDex.Citea]: {},
 }
