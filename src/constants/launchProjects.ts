@@ -872,7 +872,7 @@ const launchProjects: LaunchProjectConfig[] = [
     chainId: ChainId.BASE,
     hideProjectPage: true,
     saleStartTime: 'Feb 18th',
-    totalAllocation: '1,666,666 CHPD',
+    totalAllocation: '19,166,667 CHPD',
     salePriceString: '$0.006',
     vestingTimeString: '2 Months',
     vestingTimeTooltip:
