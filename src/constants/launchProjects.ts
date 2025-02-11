@@ -873,7 +873,7 @@ const launchProjects: LaunchProjectConfig[] = [
     hideProjectPage: true,
     saleStartTime: 'Feb 18th',
     totalAllocation: '1,666,666 CHPD',
-    salePriceString: '$0.06',
+    salePriceString: '$0.006',
     vestingTimeString: '2 Months',
     vestingTimeTooltip:
       '20% of the tokens will be released at TGE. The remaining tokens will vest linearly over 4 months, with a 1-month cliff.',
