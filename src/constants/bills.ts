@@ -13,8 +13,63 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Migration Bonds ID: 5007
 // GraphLinq Largest ID: 10000
 // Blast Largest ID: 11000
+// Singularity Testnet Largest ID: 12001
 
 const bills: BillsConfig[] = [
+  //
+  // Singularity Testnet
+  //
+  {
+    index: 12001,
+    chainId: ChainId.SINGULARITY_TESTNET,
+    contractAddress: {
+      [ChainId.SINGULARITY_TESTNET]: '0x55D0214aF8E458503ecBd7bE441e49Cad0826f00',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.aimm,
+    billNnftAddress: {
+      [ChainId.GRAPHLINQ]: '0xFe0f14e14b4e2d285F4c1f2342AC9aA4bc66b1a9',
+    },
+    inactive: false,
+    projectLink: 'https://www.singularityfinance.ai',
+    twitter: 'https://x.com/Singularity_fi',
+    initTime: { [ChainId.SINGULARITY_TESTNET]: 1738779836 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Blockchains'],
+    shortDescription: `lorem ipsum`,
+    fullDescription: `lorem ipsum`,
+  },
+  {
+    index: 12000,
+    chainId: ChainId.SINGULARITY_TESTNET,
+    contractAddress: {
+      [ChainId.SINGULARITY_TESTNET]: '0xeD5E8E440Bf207CDF8E8a36f14BC468C89BF1c8B',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.sfi,
+    billNnftAddress: {
+      [ChainId.GRAPHLINQ]: '0xFe0f14e14b4e2d285F4c1f2342AC9aA4bc66b1a9',
+    },
+    inactive: false,
+    projectLink: 'https://www.singularityfinance.ai',
+    twitter: 'https://x.com/Singularity_fi',
+    initTime: { [ChainId.SINGULARITY_TESTNET]: 1738774196 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Blockchains'],
+    shortDescription: `lorem ipsum`,
+    fullDescription: `lorem ipsum`,
+  },
+
   //
   // Blast
   //
