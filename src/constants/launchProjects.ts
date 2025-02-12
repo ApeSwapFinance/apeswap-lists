@@ -882,7 +882,7 @@ const launchProjects: LaunchProjectConfig[] = [
     salePriceString: '$0.006',
     vestingTimeString: '2 Months',
     vestingTimeTooltip:
-      '40% of the tokens will be released at TGE. The remaining tokens will vest linearly over 2 months.',
+      '40% of the tokens will be released at TGE (Feb 26th). The remaining tokens will vest linearly over 2 months.',
     projectInfo: {
       marketingSubtitle: `Stay tuned for our new launch with Chirp Pad, powered by <a href="https://x.com/chirpley" target="_blank" rel="noopener noreferrer" style="color: #6560C5">Chirpley</a>`,
       shortDescription:
@@ -899,7 +899,7 @@ const launchProjects: LaunchProjectConfig[] = [
   💵 Sale Price: $0.006 per CHPD<br/>
   💵 Total Allocation: $115,000k / $0.006 = 19,166,667 tokens<br/>
   💵 Purchases in: USDC<br/>
-  📜 Vesting Terms: 40% Released at TGE, then linear release over 2 months<br/>
+  📜 Vesting Terms: 40% Released at TGE (Feb 26th), then linear release over 2 months<br/>
   🔗 Network: Base
   <br/>
   <br/>
@@ -933,8 +933,8 @@ const launchProjects: LaunchProjectConfig[] = [
         launchpadImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1738772216/chirppad_de0msn.png',
         launchpadSmallImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1738772216/chirppad_de0msn.png',
         launchpadIcon: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1738777739/icon_um8him.png',
-        headerImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1738963090/headerChirplay_tfb8hv.png',
-        headerImgMobile: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1734351145/headerimg_ljvood.png',
+        headerImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1739372221/headerChirplay_txkacd.png',
+        headerImgMobile: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1739372221/headerChirplay_txkacd.png',
         websiteImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1738963257/websiteImg_ekc7mb.png',
         whitepaperImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1738964349/whitepaper_srwwlx.png',
         partnersImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1738963338/partners_mf8fgw.png',
