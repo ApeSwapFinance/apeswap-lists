@@ -952,7 +952,7 @@ const launchProjects: LaunchProjectConfig[] = [
         billVersion: BillVersion.TieredSale,
         billType: 'fcfs',
         token: tokens.usdc,
-        earnToken: tokens.drink, //TODO: change this
+        earnToken: tokens.chpd,
         billNnftAddress: {
           [ChainId.BASE]: '0x499b654b0A7f9979CC315190C09cA2633809B8dF',
         },
@@ -983,9 +983,6 @@ const launchProjects: LaunchProjectConfig[] = [
           ['noTier']: { start: 1739896200, end: 1739898000 },
         },
         tokensDistributedAtRedeem: true,
-        // refundFee: 5,
-        // refundPeriod: 300,
-        // distributionTimestamp: 1734203341,
       },
     ],
   },

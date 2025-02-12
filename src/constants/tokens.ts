@@ -20,6 +20,16 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  chpd: {
+    symbol: 'CHPD',
+    address: {
+      [ChainId.BASE]: '0x0000000000000000000000000000000000000000', //TODO: this is a placeholder address!!!!!
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+  },
   eurc: {
     symbol: 'EURC',
     address: {
