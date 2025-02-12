@@ -1789,15 +1789,15 @@
     "chainId": 8453,
     "hideProjectPage": false,
     "refundable": true,
-    "saleStartTime": "Feb 18th",
-    "totalAllocation": "1,666,666 CHPD",
-    "salePriceString": "$0.06",
+    "saleStartTime": "Feb 18th 14:00 UTC",
+    "totalAllocation": "19,166,667 CHPD",
+    "salePriceString": "$0.006",
     "vestingTimeString": "2 Months",
     "vestingTimeTooltip": "20% of the tokens will be released at TGE. The remaining tokens will vest linearly over 4 months, with a 1-month cliff.",
     "projectInfo": {
       "marketingSubtitle": "Stay tuned for our new launch with Chirp Pad, powered by <a href=\"https://x.com/chirpley\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #6560C5\">Chirpley</a>",
-      "shortDescription": "We need a fancy description here :)",
-      "fullDescription": "We need a fancy description here :)",
+      "shortDescription": "ChirpPad is the #1 SocialFi launchpad with a deflationary token model. Earn allocation through wallet scans or social tasks on TikTok, Instagram, and X, driving funding and viral growth pre- and post-TGE.",
+      "fullDescription": "We’re kicking off 2025 with a game-changing launchpad event! ApeBond is proud to introduce ChirpPad, the #1 SocialFi launchpad powered by Chirpley, as our first launch partner of the year.\n  <br/>\n  <br/>\n  ChirpPad is revolutionizing how projects connect with their communities by combining funding, AI-driven marketing, and social engagement into a single, powerful platform. With a deflationary token model and seamless Chirpley.ai integration, it enables projects to tap into 50,000+ influencers, driving viral growth and sustained adoption.\n  <br/>\n  <br/>\n  Sale Details<br/>\n  📅 Date: February 18th (schedule below)<br/>\n  📅 TGE Date: February 26th<br/>\n  💵 Sale Price: $0.006 per CHPD<br/>\n  💵 Total Allocation: $115,000k / $0.006 = 19,166,667 tokens<br/>\n  💵 Purchases in: USDC<br/>\n  📜 Vesting Terms: 40% Released at TGE, then linear release over 2 months<br/>\n  🔗 Network: Base\n  <br/>\n  <br/>\n  🕔 Schedule<br/>\n  Feb 18th 14:00 - 14:30 UTC: Legend Tier<br/>\n  Feb 18th 14:30 - 15:00 UTC: Diamond (and above)<br/>\n  Feb 18th 15:00 - 15:30 UTC: Gold (and above)<br/>\n  Feb 18th 15:30 - 16:00 UTC: Silver (and above)<br/>\n  Feb 18th 16:00 - 16:30 UTC: Bronze (and above)<br/>\n  Feb 18th 16:30 - 17:00 UTC: FCFS, no tier required!\n  <br/>\n  <br/>\n  Airdrop Details<br/>\n  💰 Allocation: $100,000 in CHPD<br/>\n  📜 Vesting Terms: Linear release over 5 months<br/>\n  🔗 Claim: Website link provided by ChirpPad before the launch goes live.\n  <br/>\n  <br/>\n  Start the year by securing your spot in ApeBond’s first launch of 2025—a launchpad designed for real engagement, real rewards, and real impact. Be part of the future of SocialFi with ChirpPad! 🚀\n",
       "tags": ["LaunchPad"],
       "socials": {
         "twitter": "https://x.com/chirppad",
@@ -1820,117 +1820,6 @@
         "teaserImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1738963467/video_wqcfly.png"
       }
     },
-    "bonds": [
-      {
-        "index": 20,
-        "chainId": 8453,
-        "contractAddress": {
-          "8453": "0xe2098AC2387aF519B23D044676A15582c68F7Bc0"
-        },
-        "billVersion": "TieredSale",
-        "billType": "fcfs",
-        "token": {
-          "symbol": "USDC",
-          "address": {
-            "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-            "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
-            "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
-            "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-            "1890": "0x18fB38404DADeE1727Be4b805c5b242B5413Fa40",
-            "8453": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
-            "8822": "0xFbDa5F676cB37624f28265A144A48B0d6e87d3b6",
-            "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
-            "59144": "0x176211869cA2b568f2A7D4EE941E073a821EE1ff"
-          },
-          "decimals": {
-            "1": 6,
-            "40": 6,
-            "56": 18,
-            "137": 6,
-            "1890": 6,
-            "8453": 6,
-            "8822": 6,
-            "42161": 6,
-            "59144": 6
-          },
-          "liquidityDex": {
-            "1": "UniswapV3",
-            "56": "PancakeSwapV2",
-            "137": "UniswapV3",
-            "1890": "Elektrik",
-            "8453": "Aerodrome",
-            "8822": "MagicSea",
-            "42161": "UniswapV3",
-            "59144": "Nile"
-          },
-          "active": true
-        },
-        "earnToken": {
-          "symbol": "DRINK",
-          "address": {
-            "8453": "0x2dc90Fa3a0f178ba4beE16CAc5D6c9A5a7B4C6cB"
-          },
-          "decimals": {
-            "8453": 18
-          },
-          "active": true,
-          "liquidityDex": {
-            "8453": "UniswapV2"
-          }
-        },
-        "billNnftAddress": {
-          "8453": "0x499b654b0A7f9979CC315190C09cA2633809B8dF"
-        },
-        "soldOut": false,
-        "billArt": {
-          "collection": "ApeBond_Collection1"
-        },
-        "initTime": {
-          "8453": 1739200500
-        },
-        "finishTime": {
-          "8453": 1739200800
-        },
-        "redeemTime": {
-          "8453": 1739200800
-        },
-        "startVestingTimestamp": {
-          "8453": 1739200800
-        },
-        "initPrice": {
-          "8453": 0.06
-        },
-        "initialRelease": 40,
-        "saleSchedule": {
-          "0": {
-            "start": 1739200500,
-            "end": 1739200800
-          },
-          "1": {
-            "start": 1739200500,
-            "end": 1739200800
-          },
-          "2": {
-            "start": 1739200500,
-            "end": 1739200800
-          },
-          "3": {
-            "start": 1739200500,
-            "end": 1739200800
-          },
-          "4": {
-            "start": 1739200500,
-            "end": 1739200800
-          },
-          "noTier": {
-            "start": 1739200500,
-            "end": 1739200800
-          }
-        },
-        "tokensDistributedAtRedeem": true,
-        "refundFee": 5,
-        "refundPeriod": 300
-      }
-    ]
+    "bonds": []
   }
 ]

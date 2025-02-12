@@ -877,16 +877,49 @@ const launchProjects: LaunchProjectConfig[] = [
     chainId: ChainId.BASE,
     hideProjectPage: false,
     refundable: true,
-    saleStartTime: 'Feb 18th',
-    totalAllocation: '1,666,666 CHPD',
-    salePriceString: '$0.06',
+    saleStartTime: 'Feb 18th 14:00 UTC',
+    totalAllocation: '19,166,667 CHPD',
+    salePriceString: '$0.006',
     vestingTimeString: '2 Months',
     vestingTimeTooltip:
       '20% of the tokens will be released at TGE. The remaining tokens will vest linearly over 4 months, with a 1-month cliff.',
     projectInfo: {
       marketingSubtitle: `Stay tuned for our new launch with Chirp Pad, powered by <a href="https://x.com/chirpley" target="_blank" rel="noopener noreferrer" style="color: #6560C5">Chirpley</a>`,
-      shortDescription: 'We need a fancy description here :)',
-      fullDescription: `We need a fancy description here :)`,
+      shortDescription:
+        'ChirpPad is the #1 SocialFi launchpad with a deflationary token model. Earn allocation through wallet scans or social tasks on TikTok, Instagram, and X, driving funding and viral growth pre- and post-TGE.',
+      fullDescription: `We’re kicking off 2025 with a game-changing launchpad event! ApeBond is proud to introduce ChirpPad, the #1 SocialFi launchpad powered by Chirpley, as our first launch partner of the year.
+  <br/>
+  <br/>
+  ChirpPad is revolutionizing how projects connect with their communities by combining funding, AI-driven marketing, and social engagement into a single, powerful platform. With a deflationary token model and seamless Chirpley.ai integration, it enables projects to tap into 50,000+ influencers, driving viral growth and sustained adoption.
+  <br/>
+  <br/>
+  Sale Details<br/>
+  📅 Date: February 18th (schedule below)<br/>
+  📅 TGE Date: February 26th<br/>
+  💵 Sale Price: $0.006 per CHPD<br/>
+  💵 Total Allocation: $115,000k / $0.006 = 19,166,667 tokens<br/>
+  💵 Purchases in: USDC<br/>
+  📜 Vesting Terms: 40% Released at TGE, then linear release over 2 months<br/>
+  🔗 Network: Base
+  <br/>
+  <br/>
+  🕔 Schedule<br/>
+  Feb 18th 14:00 - 14:30 UTC: Legend Tier<br/>
+  Feb 18th 14:30 - 15:00 UTC: Diamond (and above)<br/>
+  Feb 18th 15:00 - 15:30 UTC: Gold (and above)<br/>
+  Feb 18th 15:30 - 16:00 UTC: Silver (and above)<br/>
+  Feb 18th 16:00 - 16:30 UTC: Bronze (and above)<br/>
+  Feb 18th 16:30 - 17:00 UTC: FCFS, no tier required!
+  <br/>
+  <br/>
+  Airdrop Details<br/>
+  💰 Allocation: $100,000 in CHPD<br/>
+  📜 Vesting Terms: Linear release over 5 months<br/>
+  🔗 Claim: Website link provided by ChirpPad before the launch goes live.
+  <br/>
+  <br/>
+  Start the year by securing your spot in ApeBond’s first launch of 2025—a launchpad designed for real engagement, real rewards, and real impact. Be part of the future of SocialFi with ChirpPad! 🚀
+`,
       tags: ['LaunchPad'],
       socials: {
         twitter: 'https://x.com/chirppad',
@@ -910,50 +943,50 @@ const launchProjects: LaunchProjectConfig[] = [
       },
     },
     bonds: [
-      {
-        index: 20,
-        chainId: ChainId.BASE,
-        contractAddress: {
-          [ChainId.BASE]: '0xe2098AC2387aF519B23D044676A15582c68F7Bc0',
-        },
-        billVersion: BillVersion.TieredSale,
-        billType: 'fcfs',
-        token: tokens.usdc,
-        earnToken: tokens.drink,
-        billNnftAddress: {
-          [ChainId.BASE]: '0x499b654b0A7f9979CC315190C09cA2633809B8dF',
-        },
-        soldOut: false,
-        billArt: { collection: BillArtCollection.ApeBond_Collection1 },
-        initTime: {
-          [ChainId.BASE]: 1739200500,
-        },
-        finishTime: {
-          [ChainId.BASE]: 1739200800,
-        },
-        redeemTime: {
-          [ChainId.BASE]: 1739200800,
-        },
-        startVestingTimestamp: {
-          [ChainId.BASE]: 1739200800,
-        },
-        initPrice: {
-          [ChainId.BASE]: 0.06,
-        },
-        initialRelease: 40,
-        saleSchedule: {
-          [LaunchBondTiers.Legend]: { start: 1739200500, end: 1739200800 },
-          [LaunchBondTiers.Diamond]: { start: 1739200500, end: 1739200800 },
-          [LaunchBondTiers.Gold]: { start: 1739200500, end: 1739200800 },
-          [LaunchBondTiers.Silver]: { start: 1739200500, end: 1739200800 },
-          [LaunchBondTiers.Bronze]: { start: 1739200500, end: 1739200800 },
-          ['noTier']: { start: 1739200500, end: 1739200800 },
-        },
-        tokensDistributedAtRedeem: true,
-        refundFee: 5,
-        refundPeriod: 300,
-        // distributionTimestamp: 1734203341,
-      },
+      // {
+      //   index: 20,
+      //   chainId: ChainId.BASE,
+      //   contractAddress: {
+      //     [ChainId.BASE]: '0xe2098AC2387aF519B23D044676A15582c68F7Bc0',
+      //   },
+      //   billVersion: BillVersion.TieredSale,
+      //   billType: 'fcfs',
+      //   token: tokens.usdc,
+      //   earnToken: tokens.drink,
+      //   billNnftAddress: {
+      //     [ChainId.BASE]: '0x499b654b0A7f9979CC315190C09cA2633809B8dF',
+      //   },
+      //   soldOut: false,
+      //   billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+      //   initTime: {
+      //     [ChainId.BASE]: 1739200500,
+      //   },
+      //   finishTime: {
+      //     [ChainId.BASE]: 1739200800,
+      //   },
+      //   redeemTime: {
+      //     [ChainId.BASE]: 1739200800,
+      //   },
+      //   startVestingTimestamp: {
+      //     [ChainId.BASE]: 1739200800,
+      //   },
+      //   initPrice: {
+      //     [ChainId.BASE]: 0.06,
+      //   },
+      //   initialRelease: 40,
+      //   saleSchedule: {
+      //     [LaunchBondTiers.Legend]: { start: 1739200500, end: 1739200800 },
+      //     [LaunchBondTiers.Diamond]: { start: 1739200500, end: 1739200800 },
+      //     [LaunchBondTiers.Gold]: { start: 1739200500, end: 1739200800 },
+      //     [LaunchBondTiers.Silver]: { start: 1739200500, end: 1739200800 },
+      //     [LaunchBondTiers.Bronze]: { start: 1739200500, end: 1739200800 },
+      //     ['noTier']: { start: 1739200500, end: 1739200800 },
+      //   },
+      //   tokensDistributedAtRedeem: true,
+      //   refundFee: 5,
+      //   refundPeriod: 300,
+      //   // distributionTimestamp: 1734203341,
+      // },
     ],
   },
 ]
