@@ -20,6 +20,16 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  xfi: {
+    symbol: 'XFI',
+    address: {
+      [ChainId.CROSSFI]: '0x7bBcE15166bBc008EC1aDF9b3D6bbA0602FCE7Ba',
+    },
+    decimals: {
+      [ChainId.CROSSFI]: 18,
+    },
+    active: true,
+  },
   sfi: {
     symbol: 'SFI',
     address: {
@@ -1078,6 +1088,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: '0x833589fcd6edb6e08f4c7c32d4f71b54bda02913',
       [ChainId.IOTA]: '0xFbDa5F676cB37624f28265A144A48B0d6e87d3b6', // this is USDC.e
       [ChainId.SINGULARITY_TESTNET]: '0xD2ED81BE83B33218737Ca188EB9AC28b79C6A0F3',
+      [ChainId.CROSSFI]: '0x7bBcE15166bBc008EC1aDF9b3D6bbA0602FCE7Ba',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -1090,6 +1101,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: 6,
       [ChainId.IOTA]: 6,
       [ChainId.SINGULARITY_TESTNET]: 18,
+      [ChainId.CROSSFI]: 6,
     },
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV2,

@@ -37,6 +37,7 @@ export enum ChainId {
   AVAX = 43114,
   BLAST = 81457,
   SINGULARITY_TESTNET = 751,
+  CROSSFI = 4158,
 }
 
 export enum LiquidityDex {
