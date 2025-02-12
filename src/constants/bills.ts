@@ -11314,7 +11314,7 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://bucksbunny.com/',
     twitter: 'https://x.com/JoinBBClub',
     initTime: { [ChainId.MAINNET]: 1734551887 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
