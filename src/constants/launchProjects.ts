@@ -876,13 +876,13 @@ const launchProjects: LaunchProjectConfig[] = [
     projectName: 'ChirpPad',
     chainId: ChainId.BASE,
     hideProjectPage: false,
-    refundable: true,
+    refundable: false,
     saleStartTime: 'Feb 18th 14:00 UTC',
     totalAllocation: '19,166,667 CHPD',
     salePriceString: '$0.006',
     vestingTimeString: '2 Months',
     vestingTimeTooltip:
-      '20% of the tokens will be released at TGE. The remaining tokens will vest linearly over 4 months, with a 1-month cliff.',
+      '40% of the tokens will be released at TGE. The remaining tokens will vest linearly over 2 months.',
     projectInfo: {
       marketingSubtitle: `Stay tuned for our new launch with Chirp Pad, powered by <a href="https://x.com/chirpley" target="_blank" rel="noopener noreferrer" style="color: #6560C5">Chirpley</a>`,
       shortDescription:
@@ -924,9 +924,9 @@ const launchProjects: LaunchProjectConfig[] = [
       socials: {
         twitter: 'https://x.com/chirppad',
         teaserVideo: 'https://x.com/chirppad/status/1874140155227103685',
-        tokenomicsURL: 'www.google.com', //TODO: add this
+        tokenomicsURL: 'https://pitch.com/v/pitch-chirppad-concept-6dtagy/0cad2800-b388-4af4-aee3-c7b43b2731c2',
         website: 'https://chirppad.ai/',
-        whitepaper: 'www.google.com', //TODO: add this
+        whitepaper: 'https://pitch.com/v/pitch-chirppad-concept-6dtagy/e05798d1-8798-4622-aef5-e6cc87677f9d',
         telegram: 'https://t.me/chirpley',
       },
       images: {
@@ -943,50 +943,50 @@ const launchProjects: LaunchProjectConfig[] = [
       },
     },
     bonds: [
-      // {
-      //   index: 20,
-      //   chainId: ChainId.BASE,
-      //   contractAddress: {
-      //     [ChainId.BASE]: '0xe2098AC2387aF519B23D044676A15582c68F7Bc0',
-      //   },
-      //   billVersion: BillVersion.TieredSale,
-      //   billType: 'fcfs',
-      //   token: tokens.usdc,
-      //   earnToken: tokens.drink,
-      //   billNnftAddress: {
-      //     [ChainId.BASE]: '0x499b654b0A7f9979CC315190C09cA2633809B8dF',
-      //   },
-      //   soldOut: false,
-      //   billArt: { collection: BillArtCollection.ApeBond_Collection1 },
-      //   initTime: {
-      //     [ChainId.BASE]: 1739200500,
-      //   },
-      //   finishTime: {
-      //     [ChainId.BASE]: 1739200800,
-      //   },
-      //   redeemTime: {
-      //     [ChainId.BASE]: 1739200800,
-      //   },
-      //   startVestingTimestamp: {
-      //     [ChainId.BASE]: 1739200800,
-      //   },
-      //   initPrice: {
-      //     [ChainId.BASE]: 0.06,
-      //   },
-      //   initialRelease: 40,
-      //   saleSchedule: {
-      //     [LaunchBondTiers.Legend]: { start: 1739200500, end: 1739200800 },
-      //     [LaunchBondTiers.Diamond]: { start: 1739200500, end: 1739200800 },
-      //     [LaunchBondTiers.Gold]: { start: 1739200500, end: 1739200800 },
-      //     [LaunchBondTiers.Silver]: { start: 1739200500, end: 1739200800 },
-      //     [LaunchBondTiers.Bronze]: { start: 1739200500, end: 1739200800 },
-      //     ['noTier']: { start: 1739200500, end: 1739200800 },
-      //   },
-      //   tokensDistributedAtRedeem: true,
-      //   refundFee: 5,
-      //   refundPeriod: 300,
-      //   // distributionTimestamp: 1734203341,
-      // },
+      {
+        index: 20,
+        chainId: ChainId.BASE,
+        contractAddress: {
+          [ChainId.BASE]: '',
+        },
+        billVersion: BillVersion.TieredSale,
+        billType: 'fcfs',
+        token: tokens.usdc,
+        earnToken: tokens.drink, //TODO: change this
+        billNnftAddress: {
+          [ChainId.BASE]: '0x499b654b0A7f9979CC315190C09cA2633809B8dF',
+        },
+        soldOut: false,
+        billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+        initTime: {
+          [ChainId.BASE]: 1739887200,
+        },
+        finishTime: {
+          [ChainId.BASE]: 1739898000,
+        },
+        redeemTime: {
+          [ChainId.BASE]: 1740528000,
+        },
+        startVestingTimestamp: {
+          [ChainId.BASE]: 1740528000,
+        },
+        initPrice: {
+          [ChainId.BASE]: 0.006,
+        },
+        initialRelease: 40,
+        saleSchedule: {
+          [LaunchBondTiers.Legend]: { start: 1739887200, end: 1739889000 },
+          [LaunchBondTiers.Diamond]: { start: 1739889000, end: 1739890800 },
+          [LaunchBondTiers.Gold]: { start: 1739890800, end: 1739892600 },
+          [LaunchBondTiers.Silver]: { start: 1739892600, end: 1739894400 },
+          [LaunchBondTiers.Bronze]: { start: 1739894400, end: 1739896200 },
+          ['noTier']: { start: 1739896200, end: 1739898000 },
+        },
+        tokensDistributedAtRedeem: true,
+        // refundFee: 5,
+        // refundPeriod: 300,
+        // distributionTimestamp: 1734203341,
+      },
     ],
   },
 ]
