@@ -23,7 +23,7 @@ const tokens: Record<string, Token> = {
   xfi: {
     symbol: 'XFI',
     address: {
-      [ChainId.CROSSFI]: '0x7bBcE15166bBc008EC1aDF9b3D6bbA0602FCE7Ba',
+      [ChainId.CROSSFI]: '0xC537D12bd626B135B251cCa43283EFF69eC109c4',
     },
     decimals: {
       [ChainId.CROSSFI]: 18,
