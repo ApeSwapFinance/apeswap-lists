@@ -23,10 +23,10 @@ const tokens: Record<string, Token> = {
   chpd: {
     symbol: 'CHPD',
     address: {
-      [ChainId.BASE]: '', //TODO: this is a placeholder address!!!!!
+      [ChainId.BASE]: '0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42', //TODO: this is a placeholder address!!!!!
     },
     decimals: {
-      [ChainId.BASE]: 18,
+      [ChainId.BASE]: 6,
     },
     active: true,
   },
