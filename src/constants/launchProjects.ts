@@ -925,7 +925,8 @@ const launchProjects: LaunchProjectConfig[] = [
 ">🔴 Airdrop Details 🔴</span><br/>
   💰 Allocation: $100,000 in CHPD<br/>
   📜 Vesting Terms: Linear release over 5 months<br/>
-  🔗 Claim: Website link provided by ChirpPad before the launch goes live.
+  🔗 Claim: Airdrop claim link to be provided by ChripPad. <br/>
+  You can learn more about this Sale and the Airdrop in our medium article <a href="https://apebond.medium.com/chirppad-launch-fueling-the-future-of-socialfi-0b237f55c11a" target="_blank" style="color: #6560C5">here</a>.
   <br/>
   <br/>
   Start the year by securing your spot in ApeBond’s first launch of 2025—a launchpad designed for real engagement, real rewards, and real impact. Be part of the future of SocialFi with ChirpPad! 🚀
