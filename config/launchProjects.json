@@ -1808,11 +1808,11 @@
         "telegram": "https://t.me/chirpley"
       },
       "images": {
-        "launchpadImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1739388592/headerChirplay_jq89zb.png",
-        "launchpadSmallImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1739388592/headerChirplay_jq89zb.png",
+        "launchpadImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1738772216/chirppad_de0msn.png",
+        "launchpadSmallImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1738772216/chirppad_de0msn.png",
         "launchpadIcon": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1738777739/icon_um8him.png",
-        "headerImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1739372221/headerChirplay_txkacd.png",
-        "headerImgMobile": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1739372221/headerChirplay_txkacd.png",
+        "headerImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1739388592/headerChirplay_jq89zb.png",
+        "headerImgMobile": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1739388592/headerChirplay_jq89zb.png",
         "websiteImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1738963257/websiteImg_ekc7mb.png",
         "whitepaperImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1739383111/whitepaperChirpley_ikyly5.png",
         "partnersImg": "https://res.cloudinary.com/dswmrqgwy/image/upload/v1738963338/partners_mf8fgw.png",
