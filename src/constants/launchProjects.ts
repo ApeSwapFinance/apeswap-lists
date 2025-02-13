@@ -11,6 +11,7 @@ const launchProjects: LaunchProjectConfig[] = [
     totalAllocation: '791,649 SKO',
     salePriceString: '$0.06',
     vestingTimeString: '120',
+    refundable: false,
     bonds: [
       {
         index: 0,
@@ -170,6 +171,7 @@ const launchProjects: LaunchProjectConfig[] = [
     totalAllocation: '200M CATA',
     salePriceString: '1 BNB = 1M CATA',
     vestingTimeString: 'Instant',
+    refundable: false,
     projectInfo: {
       shortDescription:
         'Catamoto is not just another memecoin; it’s a stride towards redefining the genre. With $CATA, Catamoto employs superior cat math to establish the most sophisticated smart contract to date. This initiative is backed by the Illu-meow-nati, a secretive group of cats with ambitions of discreetly guiding global events.',
@@ -330,6 +332,7 @@ const launchProjects: LaunchProjectConfig[] = [
     totalAllocation: '1,875,000 CTOK',
     salePriceString: '$0.16',
     vestingTimeString: 'Cliff: 60 | Vesting: 123',
+    refundable: false,
     projectInfo: {
       shortDescription:
         'Codyfight envisions a world where the line between AI and humans is blurred. Creativity, strategy, competition, and fun are at the forefront. Join a community that embraces a new paradigm in the gaming industry.',
@@ -536,6 +539,7 @@ const launchProjects: LaunchProjectConfig[] = [
     totalAllocation: '138 Nodes',
     salePriceString: '$1,086.96',
     vestingTimeString: 'Instant',
+    refundable: false,
     projectInfo: {
       shortDescription:
         'CARV Protocol is a modular data layer for gaming and AI, revolutionizing how data is used and shared, by ensuring privacy, ownership, and control are firmly in the hands of individuals, pioneering a future where data generates value for all.',
@@ -772,6 +776,7 @@ const launchProjects: LaunchProjectConfig[] = [
     totalAllocation: '4,000,000 OXYZ',
     salePriceString: '$0.025',
     vestingTimeString: '4 Months',
+    refundable: false,
     vestingTimeTooltip:
       '20% of the tokens will be released at TGE. The remaining tokens will vest linearly over 4 months, with a 1-month cliff.',
     projectInfo: {
@@ -870,102 +875,125 @@ const launchProjects: LaunchProjectConfig[] = [
     projectId: 'chirppad',
     projectName: 'ChirpPad',
     chainId: ChainId.BASE,
-    hideProjectPage: true,
-    saleStartTime: 'Feb 18th',
+    hideProjectPage: false,
+    refundable: false,
+    saleStartTime: 'Feb 18th 14:00 UTC',
     totalAllocation: '19,166,667 CHPD',
     salePriceString: '$0.006',
     vestingTimeString: '2 Months',
     vestingTimeTooltip:
-      '20% of the tokens will be released at TGE. The remaining tokens will vest linearly over 4 months, with a 1-month cliff.',
+      '40% of the tokens will be released at TGE (Feb 26th). The remaining tokens will vest linearly over 2 months.',
     projectInfo: {
       marketingSubtitle: `Stay tuned for our new launch with Chirp Pad, powered by <a href="https://x.com/chirpley" target="_blank" rel="noopener noreferrer" style="color: #6560C5">Chirpley</a>`,
       shortDescription:
-        'Oxya Origin is building a powerful gaming ecosystem with a focus on engaging gameplay, immersive graphics and a sustainable, player-owned economy with the ambition to take Web3 gaming to the mainstream.',
-      fullDescription: `We're thrilled to announce that our Launchpad is back with an incredible new partner, OxyaOrigin, launching their $OXYA token on the Ethereum Chain!
+        'ChirpPad is the #1 SocialFi launchpad with a deflationary token model. Earn allocation through wallet scans or social tasks on TikTok, Instagram, and X, driving funding and viral growth pre- and post-TGE.',
+      fullDescription: `We’re kicking off 2025 with a game-changing launchpad event! ApeBond is proud to introduce ChirpPad, the #1 SocialFi launchpad powered by Chirpley, as our first launch partner of the year.
   <br/>
   <br/>
-  Oxya Origin is the ecosystem that redefines traditional & Web3 gaming, with immersive gameplay and player-driven economy. They’re building a powerful gaming ecosystem with astounding gameplay, immersive graphics, and a sustainable economy, with the ambition to take Web3 gaming to the mainstream.
+  ChirpPad is revolutionizing how projects connect with their communities by combining funding, AI-driven marketing, and social engagement into a single, powerful platform. With a deflationary token model and seamless Chirpley.ai integration, it enables projects to tap into 50,000+ influencers, driving viral growth and sustained adoption.
   <br/>
   <br/>
-  📅 Launch Date: December 17th (schedule below).<br/>
-  📅 TGE Date: December 19th.<br/>
-  💵 IDO & TGE Price: $0.025.<br/>
-  💵 Purchases can be made with $USDC.<br/>
-  📜 Vesting Terms: 20% released at TGE, 4 months linear vesting (1-month cliff).<br/>
+  <span style="
+    font-size: 16px;
+    font-weight: 700;
+">Sale Details</span><br/>
+  📅 Date: February 18th (schedule below)<br/>
+  📅 TGE Date: February 26th<br/>
+  💵 Sale Price: $0.006 per CHPD<br/>
+  💵 Total Allocation: $115,000k / $0.006 = 19,166,667 tokens<br/>
+  💵 Purchases in: USDC<br/>
+  📜 Vesting Terms: 40% Released at TGE (Feb 26th), then linear release over 2 months<br/>
+  🔗 Network: Base
   <br/>
   <br/>
-  🕔 Sale Schedule:<br/>
-  Dec 17th 17:00 - 21:00 UTC: Legend Tier<br/>
-  Dec 17th 21:00 - 01:00 UTC: Diamond (and above)<br/>
-  Dec 18th 01:00 - 05:00 UTC: Gold (and above)<br/>
-  Dec 18th 05:00 - 09:00 UTC: Silver (and above)<br/>
-  Dec 18th 09:00 - 13:00 UTC: Bronze (and above)<br/>
-  Dec 18th 13:00 - 17:00 UTC: FCFS, no tier required!`,
+  <span style="
+    font-size: 16px;
+    font-weight: 700;
+">🕔 Schedule</span>
+  <br/>
+  Feb 18th 14:00 - 14:30 UTC: Legend Tier<br/>
+  Feb 18th 14:30 - 15:00 UTC: Diamond (and above)<br/>
+  Feb 18th 15:00 - 15:30 UTC: Gold (and above)<br/>
+  Feb 18th 15:30 - 16:00 UTC: Silver (and above)<br/>
+  Feb 18th 16:00 - 16:30 UTC: Bronze (and above)<br/>
+  Feb 18th 16:30 - 17:00 UTC: FCFS, no tier required!
+  <br/>
+  <br/>
+  <span style="
+    font-size: 16px;
+    font-weight: 700;
+">🔴 Airdrop Details 🔴</span><br/>
+  💰 Allocation: $100,000 in CHPD<br/>
+  📜 Vesting Terms: Linear release over 5 months<br/>
+  🔗 Claim: Website link provided by ChirpPad before the launch goes live.
+  <br/>
+  <br/>
+  Start the year by securing your spot in ApeBond’s first launch of 2025—a launchpad designed for real engagement, real rewards, and real impact. Be part of the future of SocialFi with ChirpPad! 🚀
+`,
       tags: ['LaunchPad'],
       socials: {
-        twitter: 'https://x.com/OxyaOrigin',
-        teaserVideo: 'https://x.com/ApeBond/status/1867686738107195477',
-        tokenomicsURL: 'https://oxya-origin.gitbook.io/oxya-origin/asset-ecosystem/economy',
-        website: 'https://www.oxyaorigin.com/',
-        whitepaper: 'https://oxya-origin.gitbook.io/oxya-origin',
-        telegram: 'https://t.me/oxyaoriginofficial',
+        twitter: 'https://x.com/chirppad',
+        teaserVideo: 'https://x.com/chirppad/status/1874140155227103685',
+        tokenomicsURL: 'https://pitch.com/v/pitch-deck-a-imxa5g/0cad2800-b388-4af4-aee3-c7b43b2731c2',
+        website: 'https://chirppad.ai/',
+        whitepaper: 'https://pitch.com/v/pitch-deck-a-imxa5g',
+        telegram: 'https://t.me/chirpley',
       },
       images: {
         launchpadImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1738772216/chirppad_de0msn.png',
         launchpadSmallImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1738772216/chirppad_de0msn.png',
         launchpadIcon: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1738777739/icon_um8him.png',
-        headerImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1734351145/headerimg_ljvood.png',
-        headerImgMobile: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1734351145/headerimg_ljvood.png',
-        websiteImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1734351489/website_h8t8aw.png',
-        whitepaperImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1734351569/whitepaper_eqzfcp.png',
-        partnersImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1734351696/partnersimg_l3xu4f.png',
-        tokenomicsImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1734351788/tokenomics_rkr8w8.png',
-        teaserImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1734351829/teaser_cbl1zl.png',
+        headerImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1739388592/headerChirplay_jq89zb.png',
+        headerImgMobile: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1739388592/headerChirplay_jq89zb.png',
+        websiteImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1738963257/websiteImg_ekc7mb.png',
+        whitepaperImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1739383111/whitepaperChirpley_ikyly5.png',
+        partnersImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1738963338/partners_mf8fgw.png',
+        tokenomicsImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1738963370/tokenomics_ekjewm.png',
+        teaserImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1739388735/video_ah8dtd.png',
       },
     },
     bonds: [
-      // {
-      //   index: 19,
-      //   chainId: ChainId.MAINNET,
-      //   contractAddress: {
-      //     [ChainId.MAINNET]: '0x48d45312fF88B277eB285eA1f05ddDC6B9238611',
-      //   },
-      //   billVersion: BillVersion.TieredSale,
-      //   billType: 'fcfs',
-      //   token: tokens.usdc,
-      //   earnToken: tokens.oxyz,
-      //   billNnftAddress: {
-      //     [ChainId.MAINNET]: '0x499b654b0A7f9979CC315190C09cA2633809B8dF',
-      //   },
-      //   soldOut: false,
-      //   billArt: { collection: BillArtCollection.ApeBond_Collection1 },
-      //   initTime: {
-      //     [ChainId.MAINNET]: 1734454800,
-      //   },
-      //   finishTime: {
-      //     [ChainId.MAINNET]: 1734541200,
-      //   },
-      //   redeemTime: {
-      //     [ChainId.MAINNET]: 1734541200,
-      //   },
-      //   startVestingTimestamp: {
-      //     [ChainId.MAINNET]: 1737219600,
-      //   },
-      //   initPrice: {
-      //     [ChainId.MAINNET]: 0.025,
-      //   },
-      //   initialRelease: 40,
-      //   saleSchedule: {
-      //     [LaunchBondTiers.Legend]: { start: 1734454800, end: 1734469200 },
-      //     [LaunchBondTiers.Diamond]: { start: 1734469200, end: 1734483600 },
-      //     [LaunchBondTiers.Gold]: { start: 1734483600, end: 1734498000 },
-      //     [LaunchBondTiers.Silver]: { start: 1734498000, end: 1734512400 },
-      //     [LaunchBondTiers.Bronze]: { start: 1734512400, end: 1734526800 },
-      //     ['noTier']: { start: 1734526800, end: 1734541200 },
-      //   },
-      //   tokensDistributedAtRedeem: true,
-      //   // distributionTimestamp: 1734203341,
-      // },
+      {
+        index: 20,
+        chainId: ChainId.BASE,
+        contractAddress: {
+          [ChainId.BASE]: '',
+        },
+        billVersion: BillVersion.TieredSale,
+        billType: 'fcfs',
+        token: tokens.usdc,
+        earnToken: tokens.chpd,
+        billNnftAddress: {
+          [ChainId.BASE]: '0x499b654b0A7f9979CC315190C09cA2633809B8dF',
+        },
+        soldOut: false,
+        billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+        initTime: {
+          [ChainId.BASE]: 1739887200,
+        },
+        finishTime: {
+          [ChainId.BASE]: 1739898000,
+        },
+        redeemTime: {
+          [ChainId.BASE]: 1740571200,
+        },
+        startVestingTimestamp: {
+          [ChainId.BASE]: 1740571200,
+        },
+        initPrice: {
+          [ChainId.BASE]: 0.006,
+        },
+        initialRelease: 40,
+        saleSchedule: {
+          [LaunchBondTiers.Legend]: { start: 1739887200, end: 1739889000 },
+          [LaunchBondTiers.Diamond]: { start: 1739889000, end: 1739890800 },
+          [LaunchBondTiers.Gold]: { start: 1739890800, end: 1739892600 },
+          [LaunchBondTiers.Silver]: { start: 1739892600, end: 1739894400 },
+          [LaunchBondTiers.Bronze]: { start: 1739894400, end: 1739896200 },
+          ['noTier']: { start: 1739896200, end: 1739898000 },
+        },
+        tokensDistributedAtRedeem: true,
+      },
     ],
   },
 ]
