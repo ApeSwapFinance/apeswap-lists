@@ -884,7 +884,7 @@ const launchProjects: LaunchProjectConfig[] = [
     vestingTimeTooltip:
       '40% of the tokens will be released at TGE (Feb 26th). The remaining tokens will vest linearly over 2 months.',
     projectInfo: {
-      marketingSubtitle: `Stay tuned for our new launch with Chirp Pad, powered by <a href="https://x.com/chirpley" target="_blank" rel="noopener noreferrer" style="color: #6560C5">Chirpley</a>`,
+      marketingSubtitle: `Stay tuned for our new launch with ChirpPad, powered by <a href="https://x.com/chirpley" target="_blank" rel="noopener noreferrer" style="color: #6560C5">Chirpley</a>`,
       shortDescription:
         'ChirpPad is the #1 SocialFi launchpad with a deflationary token model. Earn allocation through wallet scans or social tasks on TikTok, Instagram, and X, driving funding and viral growth pre- and post-TGE.',
       fullDescription: `We’re kicking off 2025 with a game-changing launchpad event! ApeBond is proud to introduce ChirpPad, the #1 SocialFi launchpad powered by Chirpley, as our first launch partner of the year.
@@ -897,19 +897,19 @@ const launchProjects: LaunchProjectConfig[] = [
     font-size: 16px;
     font-weight: 700;
 ">Sale Details</span><br/>
-  📅 Date: February 18th (schedule below)<br/>
-  📅 TGE Date: February 26th<br/>
-  💵 Sale Price: $0.006 per CHPD<br/>
-  💵 Total Allocation: $115,000k / $0.006 = 19,166,667 tokens<br/>
-  💵 Purchases in: USDC<br/>
-  📜 Vesting Terms: 40% Released at TGE (Feb 26th), then linear release over 2 months<br/>
-  🔗 Network: Base
+  - Date: February 18th (schedule below)<br/>
+  - TGE Date: February 26th<br/>
+  - Sale Price: $0.006 per CHPD<br/>
+  - Total Allocation: $115,000k / $0.006 = 19,166,667 tokens<br/>
+  - Purchases in: USDC<br/>
+  - Vesting Terms: 40% Released at TGE (Feb 26th), then linear release over 2 months<br/>
+  - Network: Base
   <br/>
   <br/>
   <span style="
     font-size: 16px;
     font-weight: 700;
-">🕔 Schedule</span>
+">Schedule</span>
   <br/>
   Feb 18th 14:00 - 14:30 UTC: Legend Tier<br/>
   Feb 18th 14:30 - 15:00 UTC: Diamond (and above)<br/>
@@ -923,22 +923,22 @@ const launchProjects: LaunchProjectConfig[] = [
     font-size: 16px;
     font-weight: 700;
 ">🔴 Airdrop Details 🔴</span><br/>
-  💰 Allocation: $100,000 in CHPD<br/>
-  📜 Vesting Terms: Linear release over 5 months<br/>
-  🔗 Claim: Airdrop claim link to be provided by ChripPad. <br/>
+  - Allocation: $100,000 in CHPD<br/>
+  - Vesting Terms: Linear release over 5 months<br/>
+  - Claim: Airdrop claim link to be provided by ChripPad. <br/>
   You can learn more about this Sale and the Airdrop in our medium article <a href="https://apebond.medium.com/chirppad-launch-fueling-the-future-of-socialfi-0b237f55c11a" target="_blank" style="color: #6560C5">here</a>.
   <br/>
   <br/>
-  Start the year by securing your spot in ApeBond’s first launch of 2025—a launchpad designed for real engagement, real rewards, and real impact. Be part of the future of SocialFi with ChirpPad! 🚀
+  Start the year by securing your spot in ApeBond’s first launch of 2025—a launchpad designed for real engagement, real rewards, and real impact. Be part of the future of SocialFi with ChirpPad! 
 `,
       tags: ['LaunchPad'],
       socials: {
         twitter: 'https://x.com/chirppad',
-        teaserVideo: 'https://x.com/chirppad/status/1874140155227103685',
+        teaserVideo: 'https://x.com/chirppad/status/1886777469358805018',
         tokenomicsURL: 'https://pitch.com/v/pitch-deck-a-imxa5g/0cad2800-b388-4af4-aee3-c7b43b2731c2',
         website: 'https://chirppad.ai/',
         whitepaper: 'https://pitch.com/v/pitch-deck-a-imxa5g',
-        telegram: 'https://t.me/chirpley',
+        telegram: 'https://t.me/chirppad',
       },
       images: {
         launchpadImg: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1738772216/chirppad_de0msn.png',
