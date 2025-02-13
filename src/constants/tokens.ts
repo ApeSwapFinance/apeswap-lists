@@ -28,6 +28,9 @@ const tokens: Record<string, Token> = {
     decimals: {
       [ChainId.CROSSFI]: 18,
     },
+    liquidityDex: {
+      [ChainId.CROSSFI]: LiquidityDex.XSwap,
+    },
     active: true,
   },
   sfi: {
@@ -1113,6 +1116,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.Aerodrome,
       [ChainId.IOTA]: LiquidityDex.MagicSea,
       [ChainId.SINGULARITY_TESTNET]: LiquidityDex.Citea,
+      [ChainId.CROSSFI]: LiquidityDex.XSwap,
     },
     active: true,
   },

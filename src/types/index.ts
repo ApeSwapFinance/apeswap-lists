@@ -93,6 +93,9 @@ export enum LiquidityDex {
 
   //SINGULARITY TESTNET
   Citea = 'Citea',
+
+  //CROSSFI
+  XSwap = 'XSwap',
 }
 
 export enum IchiSupportedDex {
@@ -712,6 +715,12 @@ export const dexFactories: Partial<
       protocol: Protocols.V2,
     },
   },
+  [ChainId.CROSSFI]: {
+    [LiquidityDex.XSwap]: {
+      factory: '0x3ca837175312070f4E4fF64972a199122Ee03805',
+      protocol: Protocols.V2,
+    },
+  },
 }
 
 export const defaultDexFactories: Partial<Record<ChainId, Partial<Record<Protocols, string>>>> = {
@@ -765,6 +774,9 @@ export const defaultDexFactories: Partial<Record<ChainId, Partial<Record<Protoco
   },
   [ChainId.SINGULARITY_TESTNET]: {
     [Protocols.V2]: dexFactories[ChainId.SINGULARITY_TESTNET]?.Citea?.factory,
+  },
+  [ChainId.CROSSFI]: {
+    [Protocols.V2]: dexFactories[ChainId.CROSSFI]?.XSwap?.factory,
   },
 }
 
@@ -838,4 +850,5 @@ export const dexToZapMapping: Record<LiquidityDex, Partial<Record<ChainId, ZapVe
   },
   [LiquidityDex.ThrusterV3]: {},
   [LiquidityDex.Citea]: {},
+  [LiquidityDex.XSwap]: {},
 }
