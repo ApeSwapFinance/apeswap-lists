@@ -922,7 +922,7 @@ const launchProjects: LaunchProjectConfig[] = [
   <span style="
     font-size: 16px;
     font-weight: 700;
-">Airdrop Details</span><br/>
+">🔴 Airdrop Details 🔴</span><br/>
   💰 Allocation: $100,000 in CHPD<br/>
   📜 Vesting Terms: Linear release over 5 months<br/>
   🔗 Claim: Website link provided by ChirpPad before the launch goes live.
