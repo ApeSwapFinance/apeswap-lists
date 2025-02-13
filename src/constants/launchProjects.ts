@@ -893,7 +893,10 @@ const launchProjects: LaunchProjectConfig[] = [
   ChirpPad is revolutionizing how projects connect with their communities by combining funding, AI-driven marketing, and social engagement into a single, powerful platform. With a deflationary token model and seamless Chirpley.ai integration, it enables projects to tap into 50,000+ influencers, driving viral growth and sustained adoption.
   <br/>
   <br/>
-  Sale Details<br/>
+  <span style="
+    font-size: 16px;
+    font-weight: 700;
+">Sale Details</span><br/>
   📅 Date: February 18th (schedule below)<br/>
   📅 TGE Date: February 26th<br/>
   💵 Sale Price: $0.006 per CHPD<br/>
@@ -903,7 +906,11 @@ const launchProjects: LaunchProjectConfig[] = [
   🔗 Network: Base
   <br/>
   <br/>
-  🕔 Schedule<br/>
+  <span style="
+    font-size: 16px;
+    font-weight: 700;
+">🕔 Schedule</span>
+  <br/>
   Feb 18th 14:00 - 14:30 UTC: Legend Tier<br/>
   Feb 18th 14:30 - 15:00 UTC: Diamond (and above)<br/>
   Feb 18th 15:00 - 15:30 UTC: Gold (and above)<br/>
@@ -912,7 +919,10 @@ const launchProjects: LaunchProjectConfig[] = [
   Feb 18th 16:30 - 17:00 UTC: FCFS, no tier required!
   <br/>
   <br/>
-  Airdrop Details<br/>
+  <span style="
+    font-size: 16px;
+    font-weight: 700;
+">Airdrop Details</span><br/>
   💰 Allocation: $100,000 in CHPD<br/>
   📜 Vesting Terms: Linear release over 5 months<br/>
   🔗 Claim: Website link provided by ChirpPad before the launch goes live.
