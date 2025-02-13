@@ -909,7 +909,7 @@ const launchProjects: LaunchProjectConfig[] = [
   <span style="
     font-size: 16px;
     font-weight: 700;
-">🕔 Schedule</span>
+">Schedule</span>
   <br/>
   Feb 18th 14:00 - 14:30 UTC: Legend Tier<br/>
   Feb 18th 14:30 - 15:00 UTC: Diamond (and above)<br/>
