@@ -934,9 +934,9 @@ const launchProjects: LaunchProjectConfig[] = [
       socials: {
         twitter: 'https://x.com/chirppad',
         teaserVideo: 'https://x.com/chirppad/status/1874140155227103685',
-        tokenomicsURL: 'https://pitch.com/v/pitch-chirppad-concept-6dtagy/0cad2800-b388-4af4-aee3-c7b43b2731c2',
+        tokenomicsURL: 'https://pitch.com/v/pitch-deck-a-imxa5g/0cad2800-b388-4af4-aee3-c7b43b2731c2',
         website: 'https://chirppad.ai/',
-        whitepaper: 'https://pitch.com/v/pitch-chirppad-concept-6dtagy/e05798d1-8798-4622-aef5-e6cc87677f9d',
+        whitepaper: 'https://pitch.com/v/pitch-deck-a-imxa5g',
         telegram: 'https://t.me/chirpley',
       },
       images: {
@@ -975,10 +975,10 @@ const launchProjects: LaunchProjectConfig[] = [
           [ChainId.BASE]: 1739898000,
         },
         redeemTime: {
-          [ChainId.BASE]: 1740528000,
+          [ChainId.BASE]: 1740571200,
         },
         startVestingTimestamp: {
-          [ChainId.BASE]: 1740528000,
+          [ChainId.BASE]: 1740571200,
         },
         initPrice: {
           [ChainId.BASE]: 0.006,
