@@ -923,7 +923,7 @@ const launchProjects: LaunchProjectConfig[] = [
     font-size: 16px;
     font-weight: 700;
 ">🔴 Airdrop Details 🔴</span><br/>
-  As part of the launch, ChirpPad is distributing <span style="font-weight: 700">$100,000</span> worth of $CHPD to users that acquire an <span style="font-weight: 700">Ape Tier</span> before the sale ends. Higher tiers unlock bigger rewards, with an extra bonus for those joining the sale.
+  As part of the launch, ChirpPad is distributing <span style="font-weight: 700">$100,000</span> worth of $CHPD to users that acquire an <span style="font-weight: 700">Ape Tier</span> before the sale ends. Higher tiers unlock bigger rewards, with an extra bonus for those joining the sale. <br/>
   - Allocation: $100,000 in CHPD<br/>
   - Vesting Terms: Linear release over 5 months<br/>
   - Claim: Airdrop claim link to be provided by ChripPad. <br/>
