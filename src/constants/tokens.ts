@@ -609,6 +609,16 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.Aerodrome,
     },
   },
+  dum: {
+    symbol: 'DUM', //DUMMY TEST TOKEN
+    address: {
+      [ChainId.BASE]: '0x5783F2c3acaDae1bA43B5A08383069b675E821b4',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+  },
   drink: {
     symbol: 'DRINK',
     address: {
