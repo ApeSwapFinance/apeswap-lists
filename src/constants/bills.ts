@@ -16,6 +16,31 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Singularity Testnet Largest ID: 12001
 
 const bills: BillsConfig[] = [
+  {
+    index: 13000,
+    chainId: ChainId.CROSSFI,
+    contractAddress: {
+      [ChainId.CROSSFI]: '0xF937D7C8ee22a913f96D308A946D8502ab3541a8',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.xfi,
+    billNnftAddress: {
+      [ChainId.CROSSFI]: '0x1b7858f745211dBa1387fE30124eBCa2D706D7Dd',
+    },
+    inactive: false,
+    projectLink: 'https://crossfi.org',
+    twitter: 'https://x.com/crossfichain',
+    initTime: { [ChainId.CROSSFI]: 1739522124 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Blockchains'],
+    shortDescription: `lorem ipsum`,
+    fullDescription: `lorem ipsum`,
+  },
   //
   // Singularity Testnet
   //
