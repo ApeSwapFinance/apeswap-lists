@@ -186,6 +186,19 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.UniswapV3,
     },
   },
+  up: {
+    symbol: 'UP',
+    address: {
+      [ChainId.BASE]: '0xaC27fa800955849d6D17cC8952Ba9dD6EAA66187',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV3,
+    },
+  },
   glq: {
     symbol: 'WGLQ',
     address: {
@@ -6506,6 +6519,23 @@ const tokens: Record<string, Token> = {
     ichiUnderlyingDex: IchiSupportedDex.UniswapV3,
     getLpUrl: {
       [ChainId.BASE]: 'https://app.ichi.org/vault/token/0x1986cc18d8ec757447254310d2604f85741aa732/',
+    },
+  },
+  upWeth_Ichi: {
+    symbol: 'UP-ETH',
+    address: {
+      [ChainId.BASE]: '0xF349Fa49651d5ae67771B61840c4CCC7a2565764',
+    },
+    decimals: { [ChainId.BASE]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV3,
+    },
+    liquidityWrapper: Wrappers.Ichi,
+    ichiUnderlyingDex: IchiSupportedDex.UniswapV3,
+    getLpUrl: {
+      [ChainId.BASE]: 'https://app.ichi.org/vault/token/0xac27fa800955849d6d17cc8952ba9dd6eaa66187/',
     },
   },
 }
