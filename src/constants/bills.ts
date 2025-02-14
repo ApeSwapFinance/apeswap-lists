@@ -14,7 +14,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // GraphLinq Largest ID: 10000
 // Blast Largest ID: 11000
 // Singularity Testnet Largest ID: 12001
-
+// Crossfi Largest ID: 13000
 const bills: BillsConfig[] = [
   {
     index: 13000,
@@ -32,7 +32,7 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://crossfi.org',
     twitter: 'https://x.com/crossfichain',
-    initTime: { [ChainId.CROSSFI]: 1739522124 },
+    initTime: { [ChainId.CROSSFI]: 1739545074 },
     soldOut: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
