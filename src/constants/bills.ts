@@ -11029,7 +11029,7 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://www.magnify.cash/',
     twitter: 'https://twitter.com/MagnifyCash',
     initTime: { [ChainId.MAINNET]: 1724691112 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
