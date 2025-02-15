@@ -184,31 +184,31 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
-  {
-    index: 8035,
-    chainId: ChainId.BASE,
-    contractAddress: {
-      [ChainId.BASE]: '0x79D4b2dFb86Fa31020ccFB6BD1450A795288C4F2',
-    },
-    billType: 'liquidity',
-    billVersion: BillVersion.V2,
-    lpToken: tokens.upWeth_Ichi,
-    earnToken: tokens.up,
-    billNnftAddress: {
-      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
-    },
-    inactive: false,
-    projectLink: 'https://iamolex.ai/',
-    twitter: 'https://x.com/hi_olex',
-    initTime: { [ChainId.BASE]: 1739620402 },
-    soldOut: false,
-    billArt: {
-      collection: BillArtCollection.ApeBond_Collection1,
-    },
-    tags: ['Metaverse'],
-    shortDescription: `.`,
-    fullDescription: `.`,
-  },
+  // {
+  //   index: 8035,
+  //   chainId: ChainId.BASE,
+  //   contractAddress: {
+  //     [ChainId.BASE]: '0x79D4b2dFb86Fa31020ccFB6BD1450A795288C4F2',
+  //   },
+  //   billType: 'liquidity',
+  //   billVersion: BillVersion.V2,
+  //   lpToken: tokens.upWeth_Ichi,
+  //   earnToken: tokens.up,
+  //   billNnftAddress: {
+  //     [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+  //   },
+  //   inactive: false,
+  //   projectLink: 'https://iamolex.ai/',
+  //   twitter: 'https://x.com/hi_olex',
+  //   initTime: { [ChainId.BASE]: 1739620402 },
+  //   soldOut: false,
+  //   billArt: {
+  //     collection: BillArtCollection.ApeBond_Collection1,
+  //   },
+  //   tags: ['Metaverse'],
+  //   shortDescription: `.`,
+  //   fullDescription: `.`,
+  // },
   {
     index: 8034,
     chainId: ChainId.BASE,

@@ -316,63 +316,6 @@
     "fullDescription": "FOMOFox is the first market-driven storytelling meme coin on IOTA EVM. Follow the thrilling journey of FOMOFox on TwitterX and help him conquer his FOMO by influencing the $FOMO Token’s market performance. Loyal holders will find countless opportunities to grow their $FOMO bags through raffles, solving riddles, or simply holding and supporting the fox. Along the way, FOMOFox faces diverse challenges and meets intriguing characters. Your influence on the market helps him make the right choices. This project offers pure entertainment and rewards those who stick with it! Join the adventure now and visit their website for more details!"
   },
   {
-    "index": 8035,
-    "chainId": 8453,
-    "contractAddress": {
-      "8453": "0x79D4b2dFb86Fa31020ccFB6BD1450A795288C4F2"
-    },
-    "billType": "liquidity",
-    "billVersion": "V2",
-    "lpToken": {
-      "symbol": "UP-ETH",
-      "address": {
-        "8453": "0xF349Fa49651d5ae67771B61840c4CCC7a2565764"
-      },
-      "decimals": {
-        "8453": 18
-      },
-      "active": true,
-      "lpToken": true,
-      "liquidityDex": {
-        "8453": "UniswapV3"
-      },
-      "liquidityWrapper": 1,
-      "ichiUnderlyingDex": "Uniswap V3",
-      "getLpUrl": {
-        "8453": "https://app.ichi.org/vault/token/0xac27fa800955849d6d17cc8952ba9dd6eaa66187/"
-      }
-    },
-    "earnToken": {
-      "symbol": "UP",
-      "address": {
-        "8453": "0xaC27fa800955849d6D17cC8952Ba9dD6EAA66187"
-      },
-      "decimals": {
-        "8453": 18
-      },
-      "active": true,
-      "liquidityDex": {
-        "8453": "UniswapV3"
-      }
-    },
-    "billNnftAddress": {
-      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
-    },
-    "inactive": false,
-    "projectLink": "https://iamolex.ai/",
-    "twitter": "https://x.com/hi_olex",
-    "initTime": {
-      "8453": 1739620402
-    },
-    "soldOut": false,
-    "billArt": {
-      "collection": "ApeBond_Collection1"
-    },
-    "tags": ["Metaverse"],
-    "shortDescription": ".",
-    "fullDescription": "."
-  },
-  {
     "index": 8034,
     "chainId": 8453,
     "contractAddress": {
