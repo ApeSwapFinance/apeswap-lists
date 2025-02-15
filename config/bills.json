@@ -19737,6 +19737,58 @@
     "soldOut": true
   },
   {
+    "index": 2023,
+    "cmcId": 33841,
+    "chainId": 42161,
+    "contractAddress": {
+      "42161": "0x1f4e8dC14b8528CF3C296a5B6c9c70f7Df153370"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "SDT",
+      "address": {
+        "42161": "0x07715EE7219B07b8e01CC7d2787f4e5e75860383"
+      },
+      "decimals": {
+        "42161": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "42161": "PancakeSwapV3"
+      }
+    },
+    "earnToken": {
+      "symbol": "EYWA",
+      "address": {
+        "42161": "0x7a10f506e4c7658e6ad15fdf0443d450b7fa80d7"
+      },
+      "decimals": {
+        "42161": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "42161": "Curve"
+      }
+    },
+    "billNnftAddress": {
+      "42161": "0xAC707999D05C4048844B78c737D9512DFDff524d"
+    },
+    "inactive": false,
+    "projectLink": "https://crosscurve.fi/",
+    "twitter": "https://x.com/eywaprotocol",
+    "initTime": {
+      "42161": 1739629978
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["DeFi"],
+    "shortDescription": "CrossCurve, by the Eywa Team, is a cross-chain trading and yield protocol built on Curve, unifying $2B+ in liquidity across chains. It enables secure, cost-efficient swaps for Curve assets (crvUSD, LP tokens), liquid staking tokens (LSTs), and stablecoins. Governed by EYWA DAO, veEYWA holders shape decisions, earn rewards, and drive innovation in the decentralized ecosystem.",
+    "fullDescription": "CrossCurve, developed by the Eywa Team, is a cutting-edge cross-chain trading and yield protocol that integrates seamlessly with Curve Finance, aggregating its extensive $2 billion+ in TVL pools to establish a unified cross-chain liquidity market. By enabling cost-efficient, secure, and convenient cross-chain swaps for Curve assets (such as crvUSD and various LP tokens), liquid staking tokens (LSTs), and stablecoins, CrossCurve opens innovative opportunities for liquidity providers, Web3 projects, and DeFi users. Governed by the EYWA DAO—a transparent and decentralized organization driven by veEYWA governance token holders—participants shape strategic decisions, earn protocol income, and receive incentives, fostering collaboration and engagement across the decentralized ecosystem."
+  },
+  {
     "index": 2022,
     "cmcId": 33841,
     "chainId": 42161,
@@ -19784,7 +19836,7 @@
     "initTime": {
       "42161": 1738921886
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -22115,7 +22167,7 @@
     "initTime": {
       "1": 1724691112
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ETH_Collection1"
     },
