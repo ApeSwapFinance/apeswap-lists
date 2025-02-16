@@ -1825,7 +1825,7 @@
         "index": 20,
         "chainId": 8453,
         "contractAddress": {
-          "8453": "0x0C03C40e8fb6bf65d041AD59ac071849dd3556eB"
+          "8453": ""
         },
         "billVersion": "TieredSale",
         "billType": "fcfs",
@@ -1866,12 +1866,12 @@
           "active": true
         },
         "earnToken": {
-          "symbol": "DUM",
+          "symbol": "CHPD",
           "address": {
-            "8453": "0x5783F2c3acaDae1bA43B5A08383069b675E821b4"
+            "8453": "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42"
           },
           "decimals": {
-            "8453": 18
+            "8453": 6
           },
           "active": true
         },
@@ -1883,16 +1883,16 @@
           "collection": "ApeBond_Collection1"
         },
         "initTime": {
-          "8453": 1739712900
+          "8453": 1739887200
         },
         "finishTime": {
-          "8453": 1739714700
+          "8453": 1739898000
         },
         "redeemTime": {
-          "8453": 1739714700
+          "8453": 1740571200
         },
         "startVestingTimestamp": {
-          "8453": 1739715000
+          "8453": 1740571200
         },
         "initPrice": {
           "8453": 0.006
@@ -1900,28 +1900,28 @@
         "initialRelease": 40,
         "saleSchedule": {
           "0": {
-            "start": 1739714100,
-            "end": 1739714400
+            "start": 1739894400,
+            "end": 1739896200
           },
           "1": {
-            "start": 1739713800,
-            "end": 1739714100
+            "start": 1739892600,
+            "end": 1739894400
           },
           "2": {
-            "start": 1739713500,
-            "end": 1739713800
+            "start": 1739890800,
+            "end": 1739892600
           },
           "3": {
-            "start": 1739713200,
-            "end": 1739713500
+            "start": 1739889000,
+            "end": 1739890800
           },
           "4": {
-            "start": 1739712900,
-            "end": 1739713200
+            "start": 1739887200,
+            "end": 1739889000
           },
           "noTier": {
-            "start": 1739714400,
-            "end": 1739714700
+            "start": 1739896200,
+            "end": 1739898000
           }
         },
         "tokensDistributedAtRedeem": true
