@@ -955,44 +955,87 @@ const launchProjects: LaunchProjectConfig[] = [
       },
     },
     bonds: [
+      //     {
+      //       index: 20,
+      //       chainId: ChainId.BASE,
+      //       contractAddress: {
+      //         [ChainId.BASE]: '',
+      //       },
+      //       billVersion: BillVersion.TieredSale,
+      //       billType: 'fcfs',
+      //       token: tokens.usdc,
+      //       earnToken: tokens.chpd,
+      //       billNnftAddress: {
+      //         [ChainId.BASE]: '0x499b654b0A7f9979CC315190C09cA2633809B8dF',
+      //       },
+      //       soldOut: false,
+      //       billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+      //       initTime: {
+      //         [ChainId.BASE]: 1739887200,
+      //       },
+      //       finishTime: {
+      //         [ChainId.BASE]: 1739898000,
+      //       },
+      //       redeemTime: {
+      //         [ChainId.BASE]: 1740571200,
+      //       },
+      //       startVestingTimestamp: {
+      //         [ChainId.BASE]: 1740571200,
+      //       },
+      //       initPrice: {
+      //         [ChainId.BASE]: 0.006,
+      //       },
+      //       initialRelease: 40,
+      //       saleSchedule: {
+      //         [LaunchBondTiers.Legend]: { start: 1739887200, end: 1739889000 },
+      //         [LaunchBondTiers.Diamond]: { start: 1739889000, end: 1739890800 },
+      //         [LaunchBondTiers.Gold]: { start: 1739890800, end: 1739892600 },
+      //         [LaunchBondTiers.Silver]: { start: 1739892600, end: 1739894400 },
+      //         [LaunchBondTiers.Bronze]: { start: 1739894400, end: 1739896200 },
+      //         ['noTier']: { start: 1739896200, end: 1739898000 },
+      //       },
+      //       tokensDistributedAtRedeem: true,
+      //     },
+      //   ],
+      // },
       {
         index: 20,
         chainId: ChainId.BASE,
         contractAddress: {
-          [ChainId.BASE]: '',
+          [ChainId.BASE]: '0xDfCEdaDaDc5a8C2c234ef73239C667967b3afC7D',
         },
         billVersion: BillVersion.TieredSale,
         billType: 'fcfs',
         token: tokens.usdc,
-        earnToken: tokens.chpd,
+        earnToken: tokens.dum,
         billNnftAddress: {
           [ChainId.BASE]: '0x499b654b0A7f9979CC315190C09cA2633809B8dF',
         },
         soldOut: false,
         billArt: { collection: BillArtCollection.ApeBond_Collection1 },
         initTime: {
-          [ChainId.BASE]: 1739887200,
+          [ChainId.BASE]: 1739805600,
         },
         finishTime: {
-          [ChainId.BASE]: 1739898000,
+          [ChainId.BASE]: 1739806680,
         },
         redeemTime: {
-          [ChainId.BASE]: 1740571200,
+          [ChainId.BASE]: 1739806680,
         },
         startVestingTimestamp: {
-          [ChainId.BASE]: 1740571200,
+          [ChainId.BASE]: 1739806680,
         },
         initPrice: {
           [ChainId.BASE]: 0.006,
         },
         initialRelease: 40,
         saleSchedule: {
-          [LaunchBondTiers.Legend]: { start: 1739887200, end: 1739889000 },
-          [LaunchBondTiers.Diamond]: { start: 1739889000, end: 1739890800 },
-          [LaunchBondTiers.Gold]: { start: 1739890800, end: 1739892600 },
-          [LaunchBondTiers.Silver]: { start: 1739892600, end: 1739894400 },
-          [LaunchBondTiers.Bronze]: { start: 1739894400, end: 1739896200 },
-          ['noTier']: { start: 1739896200, end: 1739898000 },
+          [LaunchBondTiers.Legend]: { start: 1739805600, end: 1739805780 },
+          [LaunchBondTiers.Diamond]: { start: 1739805780, end: 1739805960 },
+          [LaunchBondTiers.Gold]: { start: 1739805960, end: 1739806140 },
+          [LaunchBondTiers.Silver]: { start: 1739806140, end: 1739806320 },
+          [LaunchBondTiers.Bronze]: { start: 1739806320, end: 1739806500 },
+          ['noTier']: { start: 1739806500, end: 1739806680 },
         },
         tokensDistributedAtRedeem: true,
       },
