@@ -645,6 +645,19 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.UniswapV2,
     },
   },
+  xavi: {
+    symbol: 'XAVI',
+    address: {
+      [ChainId.BASE]: '0xACf80A4e55F5f28e1e7d261a221cA495DB5bcbB3',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV2,
+    },
+  },
   ichi: {
     symbol: 'ICHI',
     address: {
