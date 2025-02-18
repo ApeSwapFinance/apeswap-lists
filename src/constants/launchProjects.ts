@@ -974,7 +974,7 @@ const launchProjects: LaunchProjectConfig[] = [
           [ChainId.BASE]: 1739887200,
         },
         finishTime: {
-          [ChainId.BASE]: 1739898000,
+          [ChainId.BASE]: 1739916000,
         },
         redeemTime: {
           [ChainId.BASE]: 1740571200,
@@ -992,7 +992,7 @@ const launchProjects: LaunchProjectConfig[] = [
           [LaunchBondTiers.Gold]: { start: 1739890800, end: 1739892600 },
           [LaunchBondTiers.Silver]: { start: 1739892600, end: 1739894400 },
           [LaunchBondTiers.Bronze]: { start: 1739894400, end: 1739896200 },
-          ['noTier']: { start: 1739896200, end: 1739898000 },
+          ['noTier']: { start: 1739896200, end: 1739916000 },
         },
         tokensDistributedAtRedeem: true,
       },
