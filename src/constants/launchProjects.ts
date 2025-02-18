@@ -884,7 +884,7 @@ const launchProjects: LaunchProjectConfig[] = [
     vestingTimeTooltip:
       '40% of the tokens will be released at TGE (Feb 26th). The remaining tokens will vest linearly over 2 months.',
     projectInfo: {
-      marketingSubtitle: `Stay tuned for our new launch with ChirpPad, powered by <a href="https://x.com/chirpley" target="_blank" rel="noopener noreferrer" style="color: #6560C5">Chirpley</a>`,
+      marketingSubtitle: `The $CHPD IDO is now live, featuring a bonus $100k airdrop! Powered by <a href="https://x.com/chirpley" target="_blank" rel="noopener noreferrer" style="color: #6560C5">Chirpley</a>`,
       shortDescription:
         'ChirpPad is the #1 SocialFi launchpad with a deflationary token model. Earn allocation through wallet scans or social tasks on TikTok, Instagram, and X, driving funding and viral growth pre- and post-TGE.',
       fullDescription: `We’re kicking off 2025 with a game-changing launchpad event! ApeBond is proud to introduce ChirpPad, the #1 SocialFi launchpad powered by Chirpley, as our first launch partner of the year.
