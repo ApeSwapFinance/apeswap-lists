@@ -1002,7 +1002,7 @@ const launchProjects: LaunchProjectConfig[] = [
         index: 20,
         chainId: ChainId.BASE,
         contractAddress: {
-          [ChainId.BASE]: '0xe343d06ACA6fe6594F665BaBE5391e12e0E7c563',
+          [ChainId.BASE]: '0xeB057Dc5f3Ea4985310ef7a3A3F8F3C2Ab13f9B1',
         },
         billVersion: BillVersion.TieredSale,
         billType: 'fcfs',
@@ -1014,28 +1014,28 @@ const launchProjects: LaunchProjectConfig[] = [
         soldOut: false,
         billArt: { collection: BillArtCollection.ApeBond_Collection1 },
         initTime: {
-          [ChainId.BASE]: 1739884920,
+          [ChainId.BASE]: 1739885580,
         },
         finishTime: {
-          [ChainId.BASE]: 1739885280,
+          [ChainId.BASE]: 1739885940,
         },
         redeemTime: {
-          [ChainId.BASE]: 1739885400,
+          [ChainId.BASE]: 1739886180,
         },
         startVestingTimestamp: {
-          [ChainId.BASE]: 1739885400,
+          [ChainId.BASE]: 1739886180,
         },
         initPrice: {
           [ChainId.BASE]: 0.006,
         },
         initialRelease: 40,
         saleSchedule: {
-          [LaunchBondTiers.Legend]: { start: 1739884920, end: 1739884980 },
-          [LaunchBondTiers.Diamond]: { start: 1739884980, end: 1739885040 },
-          [LaunchBondTiers.Gold]: { start: 1739885040, end: 1739885100 },
-          [LaunchBondTiers.Silver]: { start: 1739885100, end: 1739885160 },
-          [LaunchBondTiers.Bronze]: { start: 1739885160, end: 1739885220 },
-          ['noTier']: { start: 1739885220, end: 1739885280 },
+          [LaunchBondTiers.Legend]: { start: 1739885580, end: 1739885640 },
+          [LaunchBondTiers.Diamond]: { start: 1739885640, end: 1739885700 },
+          [LaunchBondTiers.Gold]: { start: 1739885700, end: 1739885760 },
+          [LaunchBondTiers.Silver]: { start: 1739885760, end: 1739885820 },
+          [LaunchBondTiers.Bronze]: { start: 1739885820, end: 1739885880 },
+          ['noTier']: { start: 1739885880, end: 1739885940 },
         },
         tokensDistributedAtRedeem: true,
       },
