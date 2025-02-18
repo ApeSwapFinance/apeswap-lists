@@ -916,7 +916,7 @@ const launchProjects: LaunchProjectConfig[] = [
   Feb 18th 15:00 - 15:30 UTC: Gold (and above)<br/>
   Feb 18th 15:30 - 16:00 UTC: Silver (and above)<br/>
   Feb 18th 16:00 - 16:30 UTC: Bronze (and above)<br/>
-  Feb 18th 16:30 - 17:00 UTC: FCFS, no tier required!
+  Feb 18th 16:30 - 22:00 UTC: FCFS, no tier required!
   <br/>
   <br/>
   <span style="
