@@ -1002,7 +1002,7 @@ const launchProjects: LaunchProjectConfig[] = [
         index: 20,
         chainId: ChainId.BASE,
         contractAddress: {
-          [ChainId.BASE]: '0xefEe4DdfC5cC40C23C022265BfD4d993F9A0d54F',
+          [ChainId.BASE]: '0xe343d06ACA6fe6594F665BaBE5391e12e0E7c563',
         },
         billVersion: BillVersion.TieredSale,
         billType: 'fcfs',
