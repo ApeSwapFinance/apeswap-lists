@@ -6538,6 +6538,25 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: 'https://app.ichi.org/vault/token/0xac27fa800955849d6d17cc8952ba9dd6eaa66187/',
     },
   },
+  trebleEth_Ichi: {
+    symbol: 'TREBLE-ETH',
+    address: {
+      [ChainId.BASE]: '0x5019e698A9d1cDCB647045Bd4c8C5f25cd5F388B',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.TrebleV4,
+    },
+    active: true,
+    lpToken: true,
+    liquidityWrapper: Wrappers.Ichi,
+    ichiUnderlyingDex: IchiSupportedDex.Trebleswap,
+    getLpUrl: {
+      [ChainId.BASE]: 'https://app.ichi.org/vault/token/0x4200000000000000000000000000000000000006/',
+    },
+  },
 }
 
 export default tokens
