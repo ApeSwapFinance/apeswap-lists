@@ -655,7 +655,7 @@ const tokens: Record<string, Token> = {
     },
     active: true,
     liquidityDex: {
-      [ChainId.BASE]: LiquidityDex.UniswapV2,
+      [ChainId.BASE]: LiquidityDex.External,
     },
   },
   ichi: {
