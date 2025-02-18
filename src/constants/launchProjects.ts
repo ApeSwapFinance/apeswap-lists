@@ -1007,7 +1007,7 @@ const launchProjects: LaunchProjectConfig[] = [
         billVersion: BillVersion.TieredSale,
         billType: 'fcfs',
         token: tokens.usdc,
-        earnToken: tokens.dum,
+        earnToken: tokens.chpd,
         billNnftAddress: {
           [ChainId.BASE]: '0x499b654b0A7f9979CC315190C09cA2633809B8dF',
         },
