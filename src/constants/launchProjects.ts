@@ -959,7 +959,7 @@ const launchProjects: LaunchProjectConfig[] = [
         index: 20,
         chainId: ChainId.BASE,
         contractAddress: {
-          [ChainId.BASE]: '',
+          [ChainId.BASE]: '0x00Bac942EC892A666C8f045a092c6C2ea0d1bF92',
         },
         billVersion: BillVersion.TieredSale,
         billType: 'fcfs',

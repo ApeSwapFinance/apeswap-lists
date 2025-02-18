@@ -1825,7 +1825,7 @@
         "index": 20,
         "chainId": 8453,
         "contractAddress": {
-          "8453": ""
+          "8453": "0x00Bac942EC892A666C8f045a092c6C2ea0d1bF92"
         },
         "billVersion": "TieredSale",
         "billType": "fcfs",
@@ -1868,10 +1868,10 @@
         "earnToken": {
           "symbol": "CHPD",
           "address": {
-            "8453": "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42"
+            "8453": "0xF2e244d4020C182e8E2C936d4055E3F0e578064F"
           },
           "decimals": {
-            "8453": 6
+            "8453": 18
           },
           "active": true
         },
