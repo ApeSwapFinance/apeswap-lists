@@ -46,14 +46,10 @@ export enum LiquidityDex {
   SushiSwapV3 = 'SushiSwapV3',
   UniswapV2 = 'UniswapV2',
   ThenaV1 = 'ThenaV1',
-  /**
-   * Initially, LiquidityDex was for the price getter and that checks algebra pricing
-   *  (gamma wraps over it so no pricing there).
-   * Now we use it for zapVersion as well where Gamma is better.
-   */
   Algebra = 'Algebra',
   QuickswapV2 = 'QuickswapV2',
   UniswapV3 = 'UniswapV3',
+  UniSwapV4 = 'UniSwapV4',
   Curve = 'Curve',
   External = 'External',
 
@@ -71,6 +67,8 @@ export enum LiquidityDex {
   Synthswap = 'Synthswap',
   Aerodrome = 'Aerodrome',
   SmarDex = 'SmarDex',
+  TrebleV2 = 'TrebleV2', //Uniswap V2
+  TrebleV4 = 'TrebleV4', //Algebra Integral
 
   //IOTA
   MagicSea = 'MagicSea',
@@ -113,8 +111,10 @@ export enum IchiSupportedDex {
   Thena = 'Thena',
   Thirdfy = 'Thirdfy',
   UniswapV3 = 'Uniswap V3',
+  UniswapV4 = 'Uniswap V4',
   Velocore = 'Velocore',
   XSwap = 'XSwap',
+  Trebleswap = 'Trebleswap',
 }
 
 export enum ZapVersion {
@@ -135,6 +135,7 @@ export enum Protocols {
   Solidly = 7,
   XFAI = 8,
   Curve = 9,
+  AlgebraIntegral = 10,
 }
 
 export enum Wrappers {
@@ -661,6 +662,14 @@ export const dexFactories: Partial<
       router: '0x4752ba5dbc23f44d87826276bf6fd6b1c372ad24',
       protocol: Protocols.V2,
     },
+    [LiquidityDex.TrebleV2]: {
+      factory: '0x6Ae1d7EfA0640b6A2FA393d1EFf21fC38a08cd8f',
+      protocol: Protocols.V2,
+    },
+    [LiquidityDex.TrebleV4]: {
+      factory: '0xAC900f12fB25d514e3ccFE8572B153A9991cA4e7',
+      protocol: Protocols.AlgebraIntegral,
+    },
   },
   [ChainId.IOTA]: {
     [LiquidityDex.MagicSea]: {
@@ -826,4 +835,7 @@ export const dexToZapMapping: Record<LiquidityDex, Partial<Record<ChainId, ZapVe
     [ChainId.BLAST]: ZapVersion.SoulZapApi,
   },
   [LiquidityDex.ThrusterV3]: {},
+  [LiquidityDex.UniSwapV4]: {},
+  [LiquidityDex.TrebleV2]: {},
+  [LiquidityDex.TrebleV4]: {},
 }
