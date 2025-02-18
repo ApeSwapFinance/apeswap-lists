@@ -316,6 +316,57 @@
     "fullDescription": "FOMOFox is the first market-driven storytelling meme coin on IOTA EVM. Follow the thrilling journey of FOMOFox on TwitterX and help him conquer his FOMO by influencing the $FOMO Token’s market performance. Loyal holders will find countless opportunities to grow their $FOMO bags through raffles, solving riddles, or simply holding and supporting the fox. Along the way, FOMOFox faces diverse challenges and meets intriguing characters. Your influence on the market helps him make the right choices. This project offers pure entertainment and rewards those who stick with it! Join the adventure now and visit their website for more details!"
   },
   {
+    "index": 8036,
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0x0C2946dC2aFa62E92e0f229739CC911Fe9Ef439d"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "8453": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+      },
+      "decimals": {
+        "8453": 6
+      },
+      "liquidityDex": {
+        "8453": "Aerodrome"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "XAVI",
+      "address": {
+        "8453": "0xACf80A4e55F5f28e1e7d261a221cA495DB5bcbB3"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "8453": "External"
+      }
+    },
+    "billNnftAddress": {
+      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "inactive": false,
+    "projectLink": "https://www.agentxavi.ai/",
+    "twitter": "https://x.com/AgentXAVI",
+    "initTime": {
+      "8453": 1739902466
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["AI Agent"],
+    "shortDescription": "XAVI is an AI-driven data oracle that refines fragmented real-time data into actionable intelligence, helping traders and investors extract key insights in minutes. By tracking KOLs, trending narratives, and token mentions, XAVI transforms raw data into strategic decisions. With XAVI v1.4, holders of 100k-500k $XAVI gain exclusive access to premium insights and airdrop eligibility for AI agents built on RingfenceAI’s framework.",
+    "fullDescription": "XAVI is an AI-driven data oracle designed to revolutionize trading and decision-making by refining fragmented real-time data into actionable intelligence. Instead of drowning in endless sources like X, KOLscan, Dexscreener, and TradingView, users can leverage XAVI to extract key insights in minutes. Whether tracking influential KOLs, identifying trending narratives, or analyzing token mentions, XAVI transforms raw data into strategic decisions. By cutting through the noise, it empowers traders, investors, and degens to stay ahead of market trends with real-time precision. With the launch of XAVI v1.4, token-gated features will provide exclusive benefits for holders of 100k-500k $XAVI, granting access to advanced insights, premium tools, and eligibility for airdrops from AI agents built on RingfenceAI’s framework. As the need for intelligent data processing grows, XAVI stands at the forefront, turning data into decisions."
+  },
+  {
     "index": 8034,
     "chainId": 8453,
     "contractAddress": {
