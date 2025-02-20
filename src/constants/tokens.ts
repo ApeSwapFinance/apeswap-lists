@@ -546,6 +546,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  rival: {
+    symbol: 'RIVAL',
+    address: {
+      [ChainId.BASE]: '0x41a359EecffBaAbE3b6a11A285Ee4aE6c9e3BC99',
+    },
+    decimals: {
+      [ChainId.BASE]: 8,
+    },
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV3,
+    },
+    active: true,
+  },
   mafia: {
     symbol: 'MAFIA',
     address: {

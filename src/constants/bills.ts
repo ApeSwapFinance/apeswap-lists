@@ -194,6 +194,31 @@ const bills: BillsConfig[] = [
   // BASE
   //
   {
+    index: 8037,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0xDe2Bd640CB746F0329388504787D59a8422F59B3',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.eth,
+    earnToken: tokens.rival,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://token.bitrivals.app/',
+    twitter: 'https://x.com/BitRivals',
+    initTime: { [ChainId.BASE]: 1740068400 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription: `Bit Rivals transforms gaming with an AI-powered platform that integrates AAA games and blockchain, letting players earn real-world rewards and crypto just by playing. It combines play-to-win and play-to-earn, allowing gamers to earn through tournaments, in-game achievements, and NFT minting. The Rival Rewards system lets players redeem points for $RIVAL tokens, in-game gear, and boosts, with staking options for extra rewards.`,
+    fullDescription: `Bit Rivals revolutionizes gaming with an AI-powered platform that seamlessly integrates AAA games and blockchain technology, allowing players to earn real-world rewards and crypto simply by playing their favorite titles. By merging the best aspects of play-to-win and play-to-earn, Bit Rivals gives power back to the players, offering multiple ways to earn—whether through casual gameplay, competitive tournaments, or by minting NFTs and immortalizing their Rival Hero in the metaverse. The Rival Rewards system allows users to accumulate points through gameplay and tournament participation, redeemable for $RIVAL tokens, in-game gear, and exclusive boosts. Players can also stake $RIVAL tokens in the staking portal to unlock additional rewards, fostering long-term engagement. Designed with input from experienced blockchain engineers and economists, the tokenomics ensure a fair distribution model that supports sustainability and rewards dedicated players while driving the platform’s growth.`,
+  },
+  {
     index: 8036,
     chainId: ChainId.BASE,
     contractAddress: {
