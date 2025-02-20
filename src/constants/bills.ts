@@ -206,8 +206,8 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['AI Agent'],
-    shortDescription: `XAVI is an AI-driven data oracle that refines fragmented real-time data into actionable intelligence, helping traders and investors extract key insights in minutes. By tracking KOLs, trending narratives, and token mentions, XAVI transforms raw data into strategic decisions. With XAVI v1.4, holders of 100k-500k $XAVI gain exclusive access to premium insights and airdrop eligibility for AI agents built on RingfenceAI’s framework.`,
-    fullDescription: `XAVI is an AI-driven data oracle designed to revolutionize trading and decision-making by refining fragmented real-time data into actionable intelligence. Instead of drowning in endless sources like X, KOLscan, Dexscreener, and TradingView, users can leverage XAVI to extract key insights in minutes. Whether tracking influential KOLs, identifying trending narratives, or analyzing token mentions, XAVI transforms raw data into strategic decisions. By cutting through the noise, it empowers traders, investors, and degens to stay ahead of market trends with real-time precision. With the launch of XAVI v1.4, token-gated features will provide exclusive benefits for holders of 100k-500k $XAVI, granting access to advanced insights, premium tools, and eligibility for airdrops from AI agents built on RingfenceAI’s framework. As the need for intelligent data processing grows, XAVI stands at the forefront, turning data into decisions.`,
+    shortDescription: `XAVI is an AI-driven data oracle that refines fragmented real-time data into actionable intelligence, helping traders and investors extract key insights in minutes. By tracking KOLs, trending narratives, and token mentions, XAVI transforms raw data into strategic decisions. With XAVI v1.4, holders of 100k-500k $XAVI gain exclusive access to premium insights and airdrop eligibility for AI Agents powered by Ringfence.`,
+    fullDescription: `XAVI is an AI-driven data oracle designed to revolutionize trading and decision-making by refining fragmented real-time data into actionable intelligence. Instead of drowning in endless sources like X, KOLscan, Dexscreener, and TradingView, users can leverage XAVI to extract key insights in minutes. Whether tracking influential KOLs, identifying trending narratives, or mindshare, XAVI transforms raw data into strategic decisions. By cutting through the noise, it empowers traders, investors, and degens to stay ahead of market trends with real-time precision. With the launch of XAVI v1.4, token-gated features will provide exclusive benefits for holders of 100k-500k $XAVI, granting access to advanced insights, premium tools, and eligibility for airdrops from AI Agents powered by Ringfence. As the need for intelligent data processing grows, XAVI stands at the forefront, turning data into decisions.`,
   },
   // {
   //   index: 8035,
@@ -10258,7 +10258,7 @@ With the lending products set to go live in February, the project is poised to a
     audit: 'https://auditrate.tech/images/pdf/EnoToken_0x1C3d163219Bb74f430411b95D66b72056f366eC1.pdf',
     initTime: { [ChainId.ARBITRUM]: 1715789961 },
     initPrice: { [ChainId.ARBITRUM]: 0.13219279419877278 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
