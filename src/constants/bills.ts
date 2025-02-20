@@ -13,9 +13,17 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Migration Bonds ID: 5007
 // GraphLinq Largest ID: 10000
 // Blast Largest ID: 11000
-// Singularity Testnet Largest ID: 12001
+// Singularity Testnet Largest ID: 12000
 // Crossfi Largest ID: 13000
 const bills: BillsConfig[] = [
+  //
+  // Crossfi
+  //
+
+  //
+  // Singularity Testnet
+  //
+
   //
   // Blast
   //
