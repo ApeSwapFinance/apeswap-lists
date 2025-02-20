@@ -30,6 +30,45 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  xfi: {
+    symbol: 'XFI',
+    address: {
+      [ChainId.CROSSFI]: '0xC537D12bd626B135B251cCa43283EFF69eC109c4',
+    },
+    decimals: {
+      [ChainId.CROSSFI]: 18,
+    },
+    liquidityDex: {
+      [ChainId.CROSSFI]: LiquidityDex.XSwap,
+    },
+    active: true,
+  },
+  sfi: {
+    symbol: 'SFI',
+    address: {
+      [ChainId.SINGULARITY_TESTNET]: '0x6dC404EFd04B880B0Ab5a26eF461b63A12E3888D',
+    },
+    decimals: {
+      [ChainId.SINGULARITY_TESTNET]: 18,
+    },
+    liquidityDex: {
+      [ChainId.SINGULARITY_TESTNET]: LiquidityDex.Citea,
+    },
+    active: true,
+  },
+  aimm: {
+    symbol: 'AIMM',
+    address: {
+      [ChainId.SINGULARITY_TESTNET]: '0xAa4aFA7C07405992e3f6799dCC260D389687077a',
+    },
+    decimals: {
+      [ChainId.SINGULARITY_TESTNET]: 18,
+    },
+    liquidityDex: {
+      [ChainId.SINGULARITY_TESTNET]: LiquidityDex.Citea,
+    },
+    active: true,
+  },
   eurc: {
     symbol: 'EURC',
     address: {
@@ -1097,6 +1136,8 @@ const tokens: Record<string, Token> = {
       [ChainId.LIGHTLINK]: '0x18fB38404DADeE1727Be4b805c5b242B5413Fa40', // this is USDC.e
       [ChainId.BASE]: '0x833589fcd6edb6e08f4c7c32d4f71b54bda02913',
       [ChainId.IOTA]: '0xFbDa5F676cB37624f28265A144A48B0d6e87d3b6', // this is USDC.e
+      [ChainId.SINGULARITY_TESTNET]: '0xD2ED81BE83B33218737Ca188EB9AC28b79C6A0F3',
+      [ChainId.CROSSFI]: '0x7bBcE15166bBc008EC1aDF9b3D6bbA0602FCE7Ba',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -1108,6 +1149,8 @@ const tokens: Record<string, Token> = {
       [ChainId.LIGHTLINK]: 6,
       [ChainId.BASE]: 6,
       [ChainId.IOTA]: 6,
+      [ChainId.SINGULARITY_TESTNET]: 18,
+      [ChainId.CROSSFI]: 6,
     },
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
@@ -1118,6 +1161,8 @@ const tokens: Record<string, Token> = {
       [ChainId.LIGHTLINK]: LiquidityDex.Elektrik,
       [ChainId.BASE]: LiquidityDex.Aerodrome,
       [ChainId.IOTA]: LiquidityDex.MagicSea,
+      [ChainId.SINGULARITY_TESTNET]: LiquidityDex.Citea,
+      [ChainId.CROSSFI]: LiquidityDex.XSwap,
     },
     active: true,
   },
