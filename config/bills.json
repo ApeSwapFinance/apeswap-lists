@@ -3190,6 +3190,62 @@
     "shortDescription": "Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!"
   },
   {
+    "index": 1122,
+    "cmcId": 35797,
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0x5FA3E8911c0864583Ae798616f277E1507c3d39E"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "BNBAI-BNB",
+      "address": {
+        "56": "0x5b522a39444A2813463eDda96902124689bc2981"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "lpToken": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "getLpUrl": {
+        "56": "https://pancakeswap.finance/v2/add/BNB/0x2AaBE2ef9eE8Ab04C6F27C4284c3F268769B35eC"
+      }
+    },
+    "earnToken": {
+      "symbol": "BNBAI",
+      "address": {
+        "56": "0x2AaBE2ef9eE8Ab04C6F27C4284c3F268769B35eC"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://www.bnbagents.ai/",
+    "twitter": "https://x.com/BNBAgents_AI",
+    "initTime": {
+      "56": 1740390438
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["AI"],
+    "shortDescription": "BNB Agents serve as a hub for AI Agents on the BNB Chain. Powered by $BNBAI, a unified currency for all AI, and build on the operating system designed for inclusive intelligence, this platform forms the foundation of the Agentive Economy. It enables the creation and operation of dynamic AI Agents tailored to diverse use cases. With $BNBAI at its core, BNB Agents seamlessly integrates AI capabilities with blockchain, redefining how intelligence and autonomy function within decentralized ecosystems.",
+    "fullDescription": "BNB Agents OS is a pioneering AI-driven ecosystem on BNB Chain, designed to empower users with the ability to create, deploy, and monetize autonomous AI agents effortlessly. As the first (A)ICO platform, it provides a seamless interface for token generation using AI-powered frameworks, integrating natively with $BNBAI to ensure a unified Web3 experience. With just three clicks, users can launch generative AI agents tailored to custom data, transforming attention into programmable on-chain assets. Governed by $BNBAI, the ecosystem enables staking, Guild participation, and decentralized collaboration. The lead Guild, B(AI)NANCE, guided by an AI Agent modeled after CZ, exemplifies collective intelligence in action. By merging AI and blockchain, BNB Agents OS pioneers an intelligent economy where AI Agent tokens drive innovation, liquidity, and programmable utility across the BNB Chain."
+  },
+  {
     "index": 1121,
     "cmcId": 29157,
     "chainId": 56,
@@ -19837,6 +19893,62 @@
     "projectLink": "https://www.telos.net/",
     "twitter": "https://twitter.com/HelloTelos",
     "soldOut": true
+  },
+  {
+    "index": 2024,
+    "cmcId": 33841,
+    "chainId": 42161,
+    "contractAddress": {
+      "42161": "0xd2a5773d8620Dd0Fb1f5624fdb25892780F68CF8"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "EYWA-USDT",
+      "address": {
+        "42161": "0x6579758e9E85434450D638cFBEA0F2fe79856ddA"
+      },
+      "decimals": {
+        "42161": 18
+      },
+      "liquidityDex": {
+        "42161": "Curve"
+      },
+      "active": true,
+      "lpToken": true,
+      "getLpUrl": {
+        "42161": "https://curve.fi/#/arbitrum/pools/factory-twocrypto-57/deposit"
+      }
+    },
+    "earnToken": {
+      "symbol": "EYWA",
+      "address": {
+        "42161": "0x7a10f506e4c7658e6ad15fdf0443d450b7fa80d7"
+      },
+      "decimals": {
+        "42161": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "42161": "Curve"
+      }
+    },
+    "billNnftAddress": {
+      "42161": "0xAC707999D05C4048844B78c737D9512DFDff524d"
+    },
+    "inactive": false,
+    "projectLink": "https://crosscurve.fi/",
+    "twitter": "https://x.com/eywaprotocol",
+    "initTime": {
+      "42161": 1740392447
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["DeFi"],
+    "shortDescription": "CrossCurve, by the Eywa Team, is a cross-chain trading and yield protocol built on Curve, unifying $2B+ in liquidity across chains. It enables secure, cost-efficient swaps for Curve assets (crvUSD, LP tokens), liquid staking tokens (LSTs), and stablecoins. Governed by EYWA DAO, veEYWA holders shape decisions, earn rewards, and drive innovation in the decentralized ecosystem.",
+    "fullDescription": "CrossCurve, developed by the Eywa Team, is a cutting-edge cross-chain trading and yield protocol that integrates seamlessly with Curve Finance, aggregating its extensive $2 billion+ in TVL pools to establish a unified cross-chain liquidity market. By enabling cost-efficient, secure, and convenient cross-chain swaps for Curve assets (such as crvUSD and various LP tokens), liquid staking tokens (LSTs), and stablecoins, CrossCurve opens innovative opportunities for liquidity providers, Web3 projects, and DeFi users. Governed by the EYWA DAO—a transparent and decentralized organization driven by veEYWA governance token holders—participants shape strategic decisions, earn protocol income, and receive incentives, fostering collaboration and engagement across the decentralized ecosystem."
   },
   {
     "index": 2023,
