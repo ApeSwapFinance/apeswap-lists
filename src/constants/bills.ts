@@ -20,6 +20,7 @@ const bills: BillsConfig[] = [
   */
   {
     index: 173,
+    version: '2.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x2f0c1c24312c354587cf70e17660128063ae1a96',

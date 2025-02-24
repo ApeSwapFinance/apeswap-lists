@@ -1,6 +1,7 @@
 [
   {
     "index": 173,
+    "version": "2.0.0",
     "chainId": 137,
     "contractAddress": {
       "137": "0x2f0c1c24312c354587cf70e17660128063ae1a96"
