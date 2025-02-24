@@ -4160,6 +4160,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  bnbai: {
+    symbol: 'BNBAI',
+    address: {
+      [ChainId.BSC]: '0x2AaBE2ef9eE8Ab04C6F27C4284c3F268769B35eC',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
   apex: {
     symbol: 'APEX',
     address: {
