@@ -5909,6 +5909,21 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 'https://pancakeswap.finance/v2/add/BNB/0xE58C3A44B74362048e202cb7C8036D4b0B28Af50',
     },
   },
+  bnbaihWbnb_PCS: {
+    symbol: 'BNBAI-BNB',
+    address: {
+      [ChainId.BSC]: '0x5b522a39444A2813463eDda96902124689bc2981',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl: {
+      [ChainId.BSC]: 'https://pancakeswap.finance/v2/add/BNB/0x2AaBE2ef9eE8Ab04C6F27C4284c3F268769B35eC',
+    },
+  },
   stlosTlos: {
     symbol: 'STLOS-TLOS',
     address: {
