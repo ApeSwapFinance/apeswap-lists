@@ -5909,7 +5909,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 'https://pancakeswap.finance/v2/add/BNB/0xE58C3A44B74362048e202cb7C8036D4b0B28Af50',
     },
   },
-  bnbaihWbnb_PCS: {
+  bnbaiWbnb_PCS: {
     symbol: 'BNBAI-BNB',
     address: {
       [ChainId.BSC]: '0x5b522a39444A2813463eDda96902124689bc2981',

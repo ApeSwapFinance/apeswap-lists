@@ -4,7 +4,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // BNB Largest ID: 1122
 // Polygon Largest ID: 172
 // Telos Largest ID: 215
-// Arbitrum Largest ID: 2019
+// Arbitrum Largest ID: 2024
 // ETH Largest ID: 3040
 // Linea Largest ID: 6012
 // Base Largest ID: 8034
@@ -1680,7 +1680,7 @@ const bills: BillsConfig[] = [
     },
     billType: 'liquidity',
     billVersion: BillVersion.V2,
-    lpToken: tokens.bnbaihWbnb_PCS,
+    lpToken: tokens.bnbaiWbnb_PCS,
     earnToken: tokens.bnbai,
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
