@@ -977,10 +977,10 @@ const launchProjects: LaunchProjectConfig[] = [
           [ChainId.BASE]: 1740571200,
         },
         redeemTime: {
-          [ChainId.BASE]: 1740571200,
+          [ChainId.BASE]: 1740575100,
         },
         startVestingTimestamp: {
-          [ChainId.BASE]: 1740571200,
+          [ChainId.BASE]: 1740575100,
         },
         initPrice: {
           [ChainId.BASE]: 0.006,
