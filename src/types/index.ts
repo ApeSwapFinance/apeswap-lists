@@ -328,6 +328,7 @@ export interface BillsConfig {
   vestingCliff?: number // FE
   onlyPartner?: boolean // FE
   minTier?: LaunchBondTiers
+  feeInPayout?: number
   // * This is only used for the bond migration page
   vestingTerm?: number
   multiplier?: number
