@@ -1336,7 +1336,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/lightlinkchain',
     audit: 'https://docs.lightlink.io/lightlink-protocol/miscellaneous/security-audits',
     initTime: { [ChainId.LIGHTLINK]: 1737989405 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
