@@ -1,7 +1,7 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1121
+// BNB Largest ID: 1122
 // Polygon Largest ID: 172
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2019
@@ -1671,6 +1671,34 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1122,
+    cmcId: 35797,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x5FA3E8911c0864583Ae798616f277E1507c3d39E',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.bnbaihWbnb_PCS,
+    earnToken: tokens.bnbai,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://www.bnbagents.ai/',
+    twitter: 'https://x.com/BNBAgents_AI',
+    initTime: { [ChainId.BSC]: 1740390438 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription:
+      'BNB Agents serve as a hub for AI Agents on the BNB Chain. Powered by $BNBAI, a unified currency for all AI, and build on the operating system designed for inclusive intelligence, this platform forms the foundation of the Agentive Economy. It enables the creation and operation of dynamic AI Agents tailored to diverse use cases. With $BNBAI at its core, BNB Agents seamlessly integrates AI capabilities with blockchain, redefining how intelligence and autonomy function within decentralized ecosystems.',
+    fullDescription:
+      'BNB Agents OS is a pioneering AI-driven ecosystem on BNB Chain, designed to empower users with the ability to create, deploy, and monetize autonomous AI agents effortlessly. As the first (A)ICO platform, it provides a seamless interface for token generation using AI-powered frameworks, integrating natively with $BNBAI to ensure a unified Web3 experience. With just three clicks, users can launch generative AI agents tailored to custom data, transforming attention into programmable on-chain assets. Governed by $BNBAI, the ecosystem enables staking, Guild participation, and decentralized collaboration. The lead Guild, B(AI)NANCE, guided by an AI Agent modeled after CZ, exemplifies collective intelligence in action. By merging AI and blockchain, BNB Agents OS pioneers an intelligent economy where AI Agent tokens drive innovation, liquidity, and programmable utility across the BNB Chain.',
+  },
   {
     index: 1121,
     cmcId: 29157,
