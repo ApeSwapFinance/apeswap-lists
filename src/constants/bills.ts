@@ -7,7 +7,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Arbitrum Largest ID: 2024
 // ETH Largest ID: 3040
 // Linea Largest ID: 6012
-// Base Largest ID: 8034
+// Base Largest ID: 8038
 // Lightlink Largest ID: 7003
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
