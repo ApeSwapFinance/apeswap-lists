@@ -193,31 +193,31 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
-  // {
-  //   index: 8038,
-  //   chainId: ChainId.BASE,
-  //   contractAddress: {
-  //     [ChainId.BASE]: '',
-  //   },
-  //   billType: 'liquidity',
-  //   billVersion: BillVersion.V2,
-  //   lpToken: tokens.,
-  //   earnToken: tokens.rdx,
-  //   billNnftAddress: {
-  //     [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
-  //   },
-  //   inactive: false,
-  //   projectLink: 'https://random.trading/',
-  //   twitter: 'https://x.com/randomdexrdx',
-  //   initTime: { [ChainId.BASE]: 1740479727 },
-  //   soldOut: false,
-  //   billArt: {
-  //     collection: BillArtCollection.ApeBond_Collection1,
-  //   },
-  //   tags: ['AI'],
-  //   shortDescription: `RandomDEX is an AI-driven algorithmic DEX revolutionizing investment strategies with randomization. Launching on Base and expanding cross-chain, it offers a smooth UX for discovering assets using metrics like volume and price action. Its AI RDX algorithm enables strategic random asset purchases. Powered by $RDX, users enjoy staking rewards, platform access, raffles, and mini-games, blending fun with innovation.`,
-  //   fullDescription: `RandomDEX is the first AI-powered algorithmic decentralized exchange (DEX) that revolutionizes investment strategies through randomization. Initially launching on Base, it plans to expand to full cross-chain capabilities. With a user-friendly interface, RandomDEX allows investors to explore promising assets using key metrics such as volume, alpha wallets, categories, and price action. At its core is the innovative AI RDX algorithm, which lets users purchase random assets or multiple assets within predefined parameters, blending discovery with strategy. The platform’s $RDX token serves as both utility and governance, offering benefits like free platform access, high APY staking, monthly raffle rewards, and interactive mini-games with random prizes, making investing engaging and innovative.`,
-  // },
+  {
+    index: 8038,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0xB5e363D63B146663fF3e1418BD96cea17f7e2d88',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.rdxWeth_UNI,
+    earnToken: tokens.rdx,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://random.trading/',
+    twitter: 'https://x.com/randomdexrdx',
+    initTime: { [ChainId.BASE]: 1740479727 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription: `RandomDEX is an AI-driven algorithmic DEX revolutionizing investment strategies with randomization. Launching on Base and expanding cross-chain, it offers a smooth UX for discovering assets using metrics like volume and price action. Its AI RDX algorithm enables strategic random asset purchases. Powered by $RDX, users enjoy staking rewards, platform access, raffles, and mini-games, blending fun with innovation.`,
+    fullDescription: `RandomDEX is the first AI-powered algorithmic decentralized exchange (DEX) that revolutionizes investment strategies through randomization. Initially launching on Base, it plans to expand to full cross-chain capabilities. With a user-friendly interface, RandomDEX allows investors to explore promising assets using key metrics such as volume, alpha wallets, categories, and price action. At its core is the innovative AI RDX algorithm, which lets users purchase random assets or multiple assets within predefined parameters, blending discovery with strategy. The platform’s $RDX token serves as both utility and governance, offering benefits like free platform access, high APY staking, monthly raffle rewards, and interactive mini-games with random prizes, making investing engaging and innovative.`,
+  },
   {
     index: 8037,
     chainId: ChainId.BASE,

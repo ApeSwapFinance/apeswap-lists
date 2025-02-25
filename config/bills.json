@@ -316,6 +316,61 @@
     "fullDescription": "FOMOFox is the first market-driven storytelling meme coin on IOTA EVM. Follow the thrilling journey of FOMOFox on TwitterX and help him conquer his FOMO by influencing the $FOMO Token’s market performance. Loyal holders will find countless opportunities to grow their $FOMO bags through raffles, solving riddles, or simply holding and supporting the fox. Along the way, FOMOFox faces diverse challenges and meets intriguing characters. Your influence on the market helps him make the right choices. This project offers pure entertainment and rewards those who stick with it! Join the adventure now and visit their website for more details!"
   },
   {
+    "index": 8038,
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0xB5e363D63B146663fF3e1418BD96cea17f7e2d88"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "RDX-ETH",
+      "address": {
+        "8453": "0xddc4037218FfA8d0B3f569AfeC2fdCEF76b8d381"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "liquidityDex": {
+        "8453": "UniswapV2"
+      },
+      "active": true,
+      "lpToken": true,
+      "getLpUrl": {
+        "8453": "https://app.uniswap.org/positions/create/v2?currencyA=0x4200000000000000000000000000000000000006&currencyB=0x18e692c03de43972fe81058f322fa542ae1a5e2c"
+      }
+    },
+    "earnToken": {
+      "symbol": "RDX",
+      "address": {
+        "8453": "0x2659631CfBE9B1b6DcBc1384a3864509356E7B4d"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "liquidityDex": {
+        "8453": "UniswapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "inactive": false,
+    "projectLink": "https://random.trading/",
+    "twitter": "https://x.com/randomdexrdx",
+    "initTime": {
+      "8453": 1740479727
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["AI"],
+    "shortDescription": "RandomDEX is an AI-driven algorithmic DEX revolutionizing investment strategies with randomization. Launching on Base and expanding cross-chain, it offers a smooth UX for discovering assets using metrics like volume and price action. Its AI RDX algorithm enables strategic random asset purchases. Powered by $RDX, users enjoy staking rewards, platform access, raffles, and mini-games, blending fun with innovation.",
+    "fullDescription": "RandomDEX is the first AI-powered algorithmic decentralized exchange (DEX) that revolutionizes investment strategies through randomization. Initially launching on Base, it plans to expand to full cross-chain capabilities. With a user-friendly interface, RandomDEX allows investors to explore promising assets using key metrics such as volume, alpha wallets, categories, and price action. At its core is the innovative AI RDX algorithm, which lets users purchase random assets or multiple assets within predefined parameters, blending discovery with strategy. The platform’s $RDX token serves as both utility and governance, offering benefits like free platform access, high APY staking, monthly raffle rewards, and interactive mini-games with random prizes, making investing engaging and innovative."
+  },
+  {
     "index": 8037,
     "chainId": 8453,
     "contractAddress": {
