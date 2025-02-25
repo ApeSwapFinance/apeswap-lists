@@ -6583,6 +6583,24 @@ const tokens: Record<string, Token> = {
         'https://app.uniswap.org/add/v2/0x4200000000000000000000000000000000000006/0x18e692c03de43972fe81058f322fa542ae1a5e2c',
     },
   },
+  rdxWeth_UNI: {
+    symbol: 'RDX-ETH',
+    address: {
+      [ChainId.BASE]: '0xddc4037218FfA8d0B3f569AfeC2fdCEF76b8d381',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV2,
+    },
+    active: true,
+    lpToken: true,
+    getLpUrl: {
+      [ChainId.BASE]:
+        'https://app.uniswap.org/positions/create/v2?currencyA=0x4200000000000000000000000000000000000006&currencyB=0x18e692c03de43972fe81058f322fa542ae1a5e2c',
+    },
+  },
   magWeth_UNI: {
     symbol: 'ETH-MAG',
     address: {
