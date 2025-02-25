@@ -778,7 +778,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.magnify.cash/',
     twitter: 'https://twitter.com/MagnifyCash',
     initTime: { [ChainId.BASE]: 1733147427 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -9945,7 +9945,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://crosscurve.fi/',
     twitter: 'https://x.com/eywaprotocol',
     initTime: { [ChainId.ARBITRUM]: 1739629978 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
