@@ -23,12 +23,12 @@ const bills: BillsConfig[] = [
     version: '2.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
-      [ChainId.MATIC]: '0x2f0c1c24312c354587cf70e17660128063ae1a96',
+      [ChainId.MATIC]: '0xa18f9cea32290ee731485b7d60b3db112a43bbe5',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    lpToken: tokens.abond,
-    earnToken: tokens.abond,
+    lpToken: tokens.usdc,
+    earnToken: tokens.usdt,
     billNnftAddress: {
       [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
     },
@@ -40,10 +40,9 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    shortDescription:
-      'Film.io is a decentralized filmmaking ecosystem that puts Hollywood decision-making into the hands of creators and fans through blockchain technology. Governed by a filmmaking industry DAO, it champions inclusion, diversity, and transparency. With FAN and FILM Tokens, Film.io empowers collaboration to validate, fund, and distribute content, replacing centralized control with creative freedom.',
+    shortDescription: 'Shivam makes me horney',
     fullDescription: `Film.io is the world's most powerful decentralized filmmaking ecosystem, revolutionizing Hollywood by transferring decision-making to creators and fans through blockchain technology. Governed by the first-ever filmmaking industry DAO, Film.io champions inclusion, equality, and diversity in global entertainment. It empowers creators and fans to collaboratively validate, fund, and distribute content in a transparent, inclusive environment, replacing traditional centralized power structures. Utilizing a dual-token model, Film.io offers FAN Tokens for governance and platform participation, while FILM Tokens support crowdfunding, DeFi loans, and NFT campaigns. Together, these tokens fuel collaboration between creators, fans, and investors, liberating the entertainment industry and fostering a new era of creative freedom.`,
-    tags: ['Entertainment'],
+    tags: ['degen'],
     feeInPayout: 2,
   },
 ]
