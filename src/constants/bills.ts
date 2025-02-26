@@ -1,7 +1,7 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1122
+// BNB Largest ID: 1123
 // Polygon Largest ID: 172
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2024
@@ -1696,6 +1696,34 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1123,
+    cmcId: 35157,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x5A15B183E3Bb22d5bfF6c715fC793E830b77ED46',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.crsWbnb_PCS,
+    earnToken: tokens.ceranos,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://ceranos.finance/',
+    twitter: 'https://x.com/CeranosFinance',
+    initTime: { [ChainId.BSC]: 1740567714 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription:
+      'Ceranos Finance is transforming DeFi by combining hedge fund benefits with blockchain transparency. Through its hedge fund DAO, investors gain access to expert-managed trading strategies while ensuring decentralization. Capital is deployed into advanced trading activities, rewarding stakers. The CRS token grants access to trading tools and rewards, making institutional-grade strategies available to all.',
+    fullDescription:
+      'Ceranos Finance is bridging the gap between traditional hedge funds and decentralized finance, bringing institutional-grade investment strategies to the crypto space. By introducing a hedge fund DAO, Ceranos enables investors to benefit from expert-managed trading while maintaining full transparency and decentralization. The capital raised is deployed into sophisticated trading strategies, with profits distributed to stakers who actively participate in the ecosystem. At the heart of this financial revolution is the CRS token, which grants users access to an advanced trading platform and a share of rewards. Through a community-driven approach, Ceranos fosters trust, integrity, and innovation, making high-level financial tools and opportunities accessible to all. With a vision to reshape crypto investing, Ceranos empowers users to take control of their financial future while benefiting from cutting-edge strategies traditionally reserved for institutional investors.',
+  },
   {
     index: 1122,
     cmcId: 35797,
