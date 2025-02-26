@@ -4351,6 +4351,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  ceranos: {
+    symbol: 'CRS',
+    address: {
+      [ChainId.BSC]: '0x3E51783FEf3Cb3e807cff7Fcb660d3e51c6127F6',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
   copi: {
     symbol: 'COPI',
     address: {
@@ -5922,6 +5933,21 @@ const tokens: Record<string, Token> = {
     },
     getLpUrl: {
       [ChainId.BSC]: 'https://pancakeswap.finance/v2/add/BNB/0x2AaBE2ef9eE8Ab04C6F27C4284c3F268769B35eC',
+    },
+  },
+  crsWbnb_PCS: {
+    symbol: 'CRS-BNB',
+    address: {
+      [ChainId.BSC]: '0xf0A1906d461810286D750668e44c0e084DDC7d64',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl: {
+      [ChainId.BSC]: 'https://pancakeswap.finance/v2/add/BNB/0x3E51783FEf3Cb3e807cff7Fcb660d3e51c6127F6',
     },
   },
   stlosTlos: {
