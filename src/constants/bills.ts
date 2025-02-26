@@ -210,7 +210,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://random.trading/',
     twitter: 'https://x.com/randomdexrdx',
     initTime: { [ChainId.BASE]: 1740479727 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
