@@ -30,6 +30,45 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  xfi: {
+    symbol: 'XFI',
+    address: {
+      [ChainId.CROSSFI]: '0xC537D12bd626B135B251cCa43283EFF69eC109c4',
+    },
+    decimals: {
+      [ChainId.CROSSFI]: 18,
+    },
+    liquidityDex: {
+      [ChainId.CROSSFI]: LiquidityDex.XSwap,
+    },
+    active: true,
+  },
+  sfi: {
+    symbol: 'SFI',
+    address: {
+      [ChainId.SINGULARITY_TESTNET]: '0x6dC404EFd04B880B0Ab5a26eF461b63A12E3888D',
+    },
+    decimals: {
+      [ChainId.SINGULARITY_TESTNET]: 18,
+    },
+    liquidityDex: {
+      [ChainId.SINGULARITY_TESTNET]: LiquidityDex.Citea,
+    },
+    active: true,
+  },
+  aimm: {
+    symbol: 'AIMM',
+    address: {
+      [ChainId.SINGULARITY_TESTNET]: '0xAa4aFA7C07405992e3f6799dCC260D389687077a',
+    },
+    decimals: {
+      [ChainId.SINGULARITY_TESTNET]: 18,
+    },
+    liquidityDex: {
+      [ChainId.SINGULARITY_TESTNET]: LiquidityDex.Citea,
+    },
+    active: true,
+  },
   eurc: {
     symbol: 'EURC',
     address: {
@@ -501,6 +540,19 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.BASE]: 9,
+    },
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV3,
+    },
+    active: true,
+  },
+  rival: {
+    symbol: 'RIVAL',
+    address: {
+      [ChainId.BASE]: '0x41a359EecffBaAbE3b6a11A285Ee4aE6c9e3BC99',
+    },
+    decimals: {
+      [ChainId.BASE]: 8,
     },
     liquidityDex: {
       [ChainId.BASE]: LiquidityDex.UniswapV3,
@@ -1097,6 +1149,8 @@ const tokens: Record<string, Token> = {
       [ChainId.LIGHTLINK]: '0x18fB38404DADeE1727Be4b805c5b242B5413Fa40', // this is USDC.e
       [ChainId.BASE]: '0x833589fcd6edb6e08f4c7c32d4f71b54bda02913',
       [ChainId.IOTA]: '0xFbDa5F676cB37624f28265A144A48B0d6e87d3b6', // this is USDC.e
+      [ChainId.SINGULARITY_TESTNET]: '0xD2ED81BE83B33218737Ca188EB9AC28b79C6A0F3',
+      [ChainId.CROSSFI]: '0x7bBcE15166bBc008EC1aDF9b3D6bbA0602FCE7Ba',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -1108,6 +1162,8 @@ const tokens: Record<string, Token> = {
       [ChainId.LIGHTLINK]: 6,
       [ChainId.BASE]: 6,
       [ChainId.IOTA]: 6,
+      [ChainId.SINGULARITY_TESTNET]: 18,
+      [ChainId.CROSSFI]: 6,
     },
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
@@ -1118,6 +1174,8 @@ const tokens: Record<string, Token> = {
       [ChainId.LIGHTLINK]: LiquidityDex.Elektrik,
       [ChainId.BASE]: LiquidityDex.Aerodrome,
       [ChainId.IOTA]: LiquidityDex.MagicSea,
+      [ChainId.SINGULARITY_TESTNET]: LiquidityDex.Citea,
+      [ChainId.CROSSFI]: LiquidityDex.XSwap,
     },
     active: true,
   },
@@ -4102,6 +4160,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  bnbai: {
+    symbol: 'BNBAI',
+    address: {
+      [ChainId.BSC]: '0x2AaBE2ef9eE8Ab04C6F27C4284c3F268769B35eC',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
   apex: {
     symbol: 'APEX',
     address: {
@@ -4275,6 +4344,17 @@ const tokens: Record<string, Token> = {
     symbol: 'ORFY',
     address: {
       [ChainId.BSC]: '0x39f0F4c64c7Ad1Ebb25cfEaFdd221cDEe3084441',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
+  ceranos: {
+    symbol: 'CRS',
+    address: {
+      [ChainId.BSC]: '0x3E51783FEf3Cb3e807cff7Fcb660d3e51c6127F6',
     },
     decimals: { [ChainId.BSC]: 18 },
     liquidityDex: {
@@ -5840,6 +5920,36 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 'https://pancakeswap.finance/v2/add/BNB/0xE58C3A44B74362048e202cb7C8036D4b0B28Af50',
     },
   },
+  bnbaiWbnb_PCS: {
+    symbol: 'BNBAI-BNB',
+    address: {
+      [ChainId.BSC]: '0x5b522a39444A2813463eDda96902124689bc2981',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl: {
+      [ChainId.BSC]: 'https://pancakeswap.finance/v2/add/BNB/0x2AaBE2ef9eE8Ab04C6F27C4284c3F268769B35eC',
+    },
+  },
+  crsWbnb_PCS: {
+    symbol: 'CRS-BNB',
+    address: {
+      [ChainId.BSC]: '0xf0A1906d461810286D750668e44c0e084DDC7d64',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl: {
+      [ChainId.BSC]: 'https://pancakeswap.finance/v2/add/BNB/0x3E51783FEf3Cb3e807cff7Fcb660d3e51c6127F6',
+    },
+  },
   stlosTlos: {
     symbol: 'STLOS-TLOS',
     address: {
@@ -6497,6 +6607,24 @@ const tokens: Record<string, Token> = {
     getLpUrl: {
       [ChainId.BASE]:
         'https://app.uniswap.org/add/v2/0x4200000000000000000000000000000000000006/0x18e692c03de43972fe81058f322fa542ae1a5e2c',
+    },
+  },
+  rdxWeth_UNI: {
+    symbol: 'RDX-ETH',
+    address: {
+      [ChainId.BASE]: '0xddc4037218FfA8d0B3f569AfeC2fdCEF76b8d381',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV2,
+    },
+    active: true,
+    lpToken: true,
+    getLpUrl: {
+      [ChainId.BASE]:
+        'https://app.uniswap.org/positions/create/v2?currencyA=0x4200000000000000000000000000000000000006&currencyB=0x18e692c03de43972fe81058f322fa542ae1a5e2c',
     },
   },
   magWeth_UNI: {

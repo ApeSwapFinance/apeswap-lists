@@ -36,6 +36,8 @@ export enum ChainId {
   GRAPHLINQ = 614,
   AVAX = 43114,
   BLAST = 81457,
+  SINGULARITY_TESTNET = 751,
+  CROSSFI = 4158,
 }
 
 export enum LiquidityDex {
@@ -88,6 +90,12 @@ export enum LiquidityDex {
   ThrusterV2_03 = 'ThrusterV2_03', //0.3% fee
   ThrusterV2_1 = 'ThrusterV2_1', //1% fee
   ThrusterV3 = 'ThrusterV3',
+
+  //SINGULARITY TESTNET
+  Citea = 'Citea',
+
+  //CROSSFI
+  XSwap = 'XSwap',
 }
 
 export enum IchiSupportedDex {
@@ -706,6 +714,18 @@ export const dexFactories: Partial<
       protocol: Protocols.V3,
     },
   },
+  [ChainId.SINGULARITY_TESTNET]: {
+    [LiquidityDex.Citea]: {
+      factory: '0xd8388EECE67C003eF952D32c4E3943113C5f5608',
+      protocol: Protocols.V2,
+    },
+  },
+  [ChainId.CROSSFI]: {
+    [LiquidityDex.XSwap]: {
+      factory: '0x3ca837175312070f4E4fF64972a199122Ee03805',
+      protocol: Protocols.V2,
+    },
+  },
 }
 
 export const defaultDexFactories: Partial<Record<ChainId, Partial<Record<Protocols, string>>>> = {
@@ -756,6 +776,12 @@ export const defaultDexFactories: Partial<Record<ChainId, Partial<Record<Protoco
   [ChainId.BLAST]: {
     [Protocols.V2]: dexFactories[ChainId.BLAST]?.ThrusterV2_03?.factory,
     [Protocols.V3]: dexFactories[ChainId.BLAST]?.ThrusterV3?.factory,
+  },
+  [ChainId.SINGULARITY_TESTNET]: {
+    [Protocols.V2]: dexFactories[ChainId.SINGULARITY_TESTNET]?.Citea?.factory,
+  },
+  [ChainId.CROSSFI]: {
+    [Protocols.V2]: dexFactories[ChainId.CROSSFI]?.XSwap?.factory,
   },
 }
 
@@ -828,4 +854,6 @@ export const dexToZapMapping: Record<LiquidityDex, Partial<Record<ChainId, ZapVe
     [ChainId.BLAST]: ZapVersion.SoulZapApi,
   },
   [LiquidityDex.ThrusterV3]: {},
+  [LiquidityDex.Citea]: {},
+  [LiquidityDex.XSwap]: {},
 }

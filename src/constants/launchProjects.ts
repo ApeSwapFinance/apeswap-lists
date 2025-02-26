@@ -966,7 +966,7 @@ const launchProjects: LaunchProjectConfig[] = [
         token: tokens.usdc,
         earnToken: tokens.chpd,
         billNnftAddress: {
-          [ChainId.BASE]: '0x499b654b0A7f9979CC315190C09cA2633809B8dF',
+          [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
         },
         soldOut: false,
         billArt: { collection: BillArtCollection.ApeBond_Collection1 },
@@ -974,13 +974,13 @@ const launchProjects: LaunchProjectConfig[] = [
           [ChainId.BASE]: 1739887200,
         },
         finishTime: {
-          [ChainId.BASE]: 1740571200,
+          [ChainId.BASE]: 1740434400,
         },
         redeemTime: {
-          [ChainId.BASE]: 1740571200,
+          [ChainId.BASE]: 1740575100,
         },
         startVestingTimestamp: {
-          [ChainId.BASE]: 1740571200,
+          [ChainId.BASE]: 1740575100,
         },
         initPrice: {
           [ChainId.BASE]: 0.006,
@@ -992,7 +992,7 @@ const launchProjects: LaunchProjectConfig[] = [
           [LaunchBondTiers.Gold]: { start: 1739890800, end: 1739892600 },
           [LaunchBondTiers.Silver]: { start: 1739892600, end: 1739894400 },
           [LaunchBondTiers.Bronze]: { start: 1739894400, end: 1739896200 },
-          ['noTier']: { start: 1739896200, end: 1740571200 },
+          ['noTier']: { start: 1739896200, end: 1740434400 },
         },
         tokensDistributedAtRedeem: true,
       },
