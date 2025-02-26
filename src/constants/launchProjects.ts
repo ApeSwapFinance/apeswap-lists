@@ -966,7 +966,7 @@ const launchProjects: LaunchProjectConfig[] = [
         token: tokens.usdc,
         earnToken: tokens.chpd,
         billNnftAddress: {
-          [ChainId.BASE]: '0x499b654b0A7f9979CC315190C09cA2633809B8dF',
+          [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
         },
         soldOut: false,
         billArt: { collection: BillArtCollection.ApeBond_Collection1 },
