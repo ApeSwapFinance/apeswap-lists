@@ -306,6 +306,7 @@ export enum LaunchBondTiers {
 // Start of list types
 export interface BillsConfig {
   index: number // FE
+  version: string // FE // This will be used to check compatibility versions
   cmcId?: number // FE
   chainId: ChainId // FE
   contractAddress: Partial<Record<ChainId, string>> // FE
@@ -332,12 +333,13 @@ export interface BillsConfig {
   featuredURLS?: string[] // FE
   partnersURLS?: string[] // FE
   tags?: string[] // FE
-  vestingCliff?: number
+  vestingCliff?: number // FE
   onlyPartner?: boolean // FE
+  minTier?: LaunchBondTiers
+  feeInPayout?: number
   // * This is only used for the bond migration page
   vestingTerm?: number
   multiplier?: number
-  minTier?: LaunchBondTiers
 }
 
 export enum VaultVersion {

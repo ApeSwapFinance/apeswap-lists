@@ -33,6 +33,7 @@ const bills: BillsConfig[] = [
   //
   {
     index: 10000,
+    version: '1.0.0',
     cmcId: 9029,
     chainId: ChainId.GRAPHLINQ,
     contractAddress: {
@@ -63,6 +64,7 @@ const bills: BillsConfig[] = [
   //
   {
     index: 9004,
+    version: '1.0.0',
     chainId: ChainId.IOTA,
     contractAddress: {
       [ChainId.IOTA]: '0xaB99900B559F23dd08Ed5351c5a68970a14b4872',
@@ -88,6 +90,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 9003,
+    version: '1.0.0',
     chainId: ChainId.IOTA,
     contractAddress: {
       [ChainId.IOTA]: '0xAA575CF1cC961aCAF9be146a2a12c1f1aD1c4bC3',
@@ -113,6 +116,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 9002,
+    version: '1.0.0',
     chainId: ChainId.IOTA,
     contractAddress: {
       [ChainId.IOTA]: '0xE03913CeA3b326c62c0c851Cf9A69246226aEF81',
@@ -140,6 +144,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 9001,
+    version: '1.0.0',
     chainId: ChainId.IOTA,
     contractAddress: {
       [ChainId.IOTA]: '0x659029358b4438835f384d25a0435445C14fB5d0',
@@ -165,6 +170,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 9000,
+    version: '1.0.0',
     chainId: ChainId.IOTA,
     contractAddress: {
       [ChainId.IOTA]: '0xfe89B64630c88e350De2eF6A1541C727CAC5de50',
@@ -195,6 +201,7 @@ const bills: BillsConfig[] = [
   //
   {
     index: 8038,
+    version: '1.0.0',
     chainId: ChainId.BASE,
     contractAddress: {
       [ChainId.BASE]: '0xB5e363D63B146663fF3e1418BD96cea17f7e2d88',
@@ -220,6 +227,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 8037,
+    version: '1.0.0',
     chainId: ChainId.BASE,
     contractAddress: {
       [ChainId.BASE]: '0xDe2Bd640CB746F0329388504787D59a8422F59B3',
@@ -245,6 +253,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 8036,
+    version: '1.0.0',
     chainId: ChainId.BASE,
     contractAddress: {
       [ChainId.BASE]: '0x0C2946dC2aFa62E92e0f229739CC911Fe9Ef439d',
@@ -270,7 +279,7 @@ const bills: BillsConfig[] = [
   },
   // {
   //   index: 8035,
-  //   chainId: ChainId.BASE,
+  //   version: "1.0.0",chainId: ChainId.BASE,
   //   contractAddress: {
   //     [ChainId.BASE]: '0x79D4b2dFb86Fa31020ccFB6BD1450A795288C4F2',
   //   },
@@ -295,6 +304,7 @@ const bills: BillsConfig[] = [
   // },
   {
     index: 8034,
+    version: '1.0.0',
     chainId: ChainId.BASE,
     contractAddress: {
       [ChainId.BASE]: '0x7463be6Fc086dFCA8707Fe44A0cb5ffA8945c50E',
@@ -320,6 +330,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 8033,
+    version: '1.0.0',
     cmcId: 29749,
     chainId: ChainId.BASE,
     contractAddress: {
@@ -346,6 +357,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 8032,
+    version: '1.0.0',
     cmcId: 33050,
     chainId: ChainId.BASE,
     contractAddress: {
@@ -372,6 +384,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 8031,
+    version: '1.0.0',
     cmcId: 29485,
     chainId: ChainId.BASE,
     contractAddress: {
@@ -401,6 +414,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 8030,
+    version: '1.0.0',
     chainId: ChainId.BASE,
     contractAddress: {
       [ChainId.BASE]: '0xff61126Df2449194b47928BdC6A91D01FE5AF57f',
@@ -427,6 +441,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 8029,
+    version: '1.0.0',
     chainId: ChainId.BASE,
     contractAddress: {
       [ChainId.BASE]: '0xbA5180b0aE506Ff8CE628b9D263bE2Bb862A079D',
@@ -453,6 +468,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 8028,
+    version: '1.0.0',
     cmcId: 22977,
     chainId: ChainId.BASE,
     contractAddress: {
@@ -480,6 +496,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 8027,
+    version: '1.0.0',
     chainId: ChainId.BASE,
     contractAddress: {
       [ChainId.BASE]: '0xCc62c52650C4fBBBcdf9b6f8f67962338fD6BBcb',
@@ -505,6 +522,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 8026,
+    version: '1.0.0',
     chainId: ChainId.BASE,
     contractAddress: {
       [ChainId.BASE]: '0x05948DBa6B2aA528E63A6Fe8a2a63fe329902525',
@@ -531,6 +549,7 @@ const bills: BillsConfig[] = [
   {
     index: 8025,
     cmcId: 34365,
+    version: '1.0.0',
     chainId: ChainId.BASE,
     contractAddress: {
       [ChainId.BASE]: '0xC22C7c2FDd054f8448cc996a3537564AA9F34E4b',
@@ -557,6 +576,7 @@ const bills: BillsConfig[] = [
   {
     index: 8024,
     cmcId: 32229,
+    version: '1.0.0',
     chainId: ChainId.BASE,
     contractAddress: {
       [ChainId.BASE]: '0x37f368a590B817bb68462457FbA268447a470f12',
@@ -583,6 +603,7 @@ const bills: BillsConfig[] = [
   {
     index: 8023,
     cmcId: 34365,
+    version: '1.0.0',
     chainId: ChainId.BASE,
     contractAddress: {
       [ChainId.BASE]: '0x6639D4acAe77967c253C75cBfEd7C612682E2704',
@@ -609,6 +630,7 @@ const bills: BillsConfig[] = [
   {
     index: 8022,
     cmcId: 34365,
+    version: '1.0.0',
     chainId: ChainId.BASE,
     contractAddress: {
       [ChainId.BASE]: '0x94A283756B70c2A77bc58Ae0E2615Caf14310186',
@@ -635,6 +657,7 @@ const bills: BillsConfig[] = [
   {
     index: 8021,
     cmcId: 34365,
+    version: '1.0.0',
     chainId: ChainId.BASE,
     contractAddress: {
       [ChainId.BASE]: '0xBc48794a04777E7170bD5633E8b728f8a0945971',
@@ -661,6 +684,7 @@ const bills: BillsConfig[] = [
   {
     index: 8020,
     cmcId: 34365,
+    version: '1.0.0',
     chainId: ChainId.BASE,
     contractAddress: {
       [ChainId.BASE]: '0x0719CCaF2f07f59b23DB7d80E3d2791A0836bdfD',
@@ -686,6 +710,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 8019,
+    version: '1.0.0',
     chainId: ChainId.BASE,
     contractAddress: {
       [ChainId.BASE]: '0x6898C77147b04B26714613dBeb4c89D45Ef3399B',
@@ -711,6 +736,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 8018,
+    version: '1.0.0',
     chainId: ChainId.BASE,
     contractAddress: {
       [ChainId.BASE]: '0xf3CB2D41F2B9D1F49aa2fd20A7BFCc7769B2188c',
@@ -737,6 +763,7 @@ const bills: BillsConfig[] = [
   {
     index: 8017,
     cmcId: 33390,
+    version: '1.0.0',
     chainId: ChainId.BASE,
     contractAddress: {
       [ChainId.BASE]: '0x50879B97A913eCC11BcC34E05a3282489Fb49f08',
@@ -763,6 +790,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 8016,
+    version: '1.0.0',
     chainId: ChainId.BASE,
     contractAddress: {
       [ChainId.BASE]: '0x2796EB8B3794C51f6557d55472558bB05A6815CB',
@@ -790,6 +818,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 8015,
+    version: '1.0.0',
     chainId: ChainId.BASE,
     contractAddress: {
       [ChainId.BASE]: '0x6dE586e314456f15cf70860D554D6351BdEa9503',
@@ -816,6 +845,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 8014,
+    version: '1.0.0',
     chainId: ChainId.BASE,
     contractAddress: {
       [ChainId.BASE]: '0xCdf3D61DE6d9085e44d3E2F13872f748bcaB00ca',
@@ -843,6 +873,7 @@ const bills: BillsConfig[] = [
   {
     index: 8013,
     cmcId: 33390,
+    version: '1.0.0',
     chainId: ChainId.BASE,
     contractAddress: {
       [ChainId.BASE]: '0x099f4B9f489d8a8FF5a68C352D61Ae1F993AEBf6',
@@ -870,6 +901,7 @@ const bills: BillsConfig[] = [
   {
     index: 8012,
     cmcId: 33050,
+    version: '1.0.0',
     chainId: ChainId.BASE,
     contractAddress: {
       [ChainId.BASE]: '0x60f42aFfa10C0eDbF42FABeDeEeB93604EBedA24',
@@ -896,6 +928,7 @@ const bills: BillsConfig[] = [
   {
     index: 8011,
     cmcId: 22977,
+    version: '1.0.0',
     chainId: ChainId.BASE,
     contractAddress: {
       [ChainId.BASE]: '0xF32D2353D7653AC55F99329729E80ad610BA4a1B',
@@ -922,6 +955,7 @@ const bills: BillsConfig[] = [
   {
     index: 8010,
     cmcId: 15563,
+    version: '1.0.0',
     chainId: ChainId.BASE,
     contractAddress: {
       [ChainId.BASE]: '0x925085a886E3089965466A250EabD556a77BF7B7',
@@ -949,6 +983,7 @@ const bills: BillsConfig[] = [
   {
     index: 8009,
     cmcId: 32229,
+    version: '1.0.0',
     chainId: ChainId.BASE,
     contractAddress: {
       [ChainId.BASE]: '0xC2fe6C0A45a4e0c02E38c72d3DF4D3eA2916964e',
@@ -974,6 +1009,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 8008,
+    version: '1.0.0',
     chainId: ChainId.BASE,
     contractAddress: {
       [ChainId.BASE]: '0xec652A435914d59BC331C75A521AFb9749530777',
@@ -1000,6 +1036,7 @@ const bills: BillsConfig[] = [
   {
     index: 8007,
     cmcId: 31320,
+    version: '1.0.0',
     chainId: ChainId.BASE,
     contractAddress: {
       [ChainId.BASE]: '0x6b1977bb3b10Dd4F48A044AAcEd4E9162428dFe3',
@@ -1026,6 +1063,7 @@ const bills: BillsConfig[] = [
   {
     index: 8006,
     cmcId: 27486,
+    version: '1.0.0',
     chainId: ChainId.BASE,
     contractAddress: {
       [ChainId.BASE]: '0x09cBDdEA7C59Bb807a8C7c7b8Fe0b06e43D27132',
@@ -1055,6 +1093,7 @@ const bills: BillsConfig[] = [
   {
     index: 8005,
     cmcId: 27486,
+    version: '1.0.0',
     chainId: ChainId.BASE,
     contractAddress: {
       [ChainId.BASE]: '0x9991Ca36Ab086052E7E066Ce553CB909Cc844266',
@@ -1083,6 +1122,7 @@ const bills: BillsConfig[] = [
   }, //
   {
     index: 8004,
+    version: '1.0.0',
     chainId: ChainId.BASE,
     contractAddress: {
       [ChainId.BASE]: '0xe0Ac91263D71f3Ae320088469e0Be1f65D006786',
@@ -1112,6 +1152,7 @@ const bills: BillsConfig[] = [
   {
     index: 8003,
     cmcId: 24203,
+    version: '1.0.0',
     chainId: ChainId.BASE,
     contractAddress: {
       [ChainId.BASE]: '0xce4E7801BEef296d2Fe057b49796bf93b8D41058',
@@ -1140,6 +1181,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 8002,
+    version: '1.0.0',
     chainId: ChainId.BASE,
     contractAddress: {
       [ChainId.BASE]: '0x4839b9d5aD46bb744239A3Af03DcA5Ad52EE2E84',
@@ -1169,6 +1211,7 @@ const bills: BillsConfig[] = [
   {
     index: 8001,
     cmcId: 30273,
+    version: '1.0.0',
     chainId: ChainId.BASE,
     contractAddress: {
       [ChainId.BASE]: '0x4306778DC0FbeF6551cd3C9DbaCE87D6F0338D28',
@@ -1197,6 +1240,7 @@ const bills: BillsConfig[] = [
   {
     index: 8000,
     cmcId: 27486,
+    version: '1.0.0',
     chainId: ChainId.BASE,
     contractAddress: {
       [ChainId.BASE]: '0x54c42988DA2c5A93Fa6F458dc33458aEfC4EB0F9',
@@ -1227,6 +1271,7 @@ const bills: BillsConfig[] = [
   {
     index: 7000,
     cmcId: 22943,
+    version: '1.0.0',
     chainId: ChainId.LIGHTLINK,
     contractAddress: {
       [ChainId.LIGHTLINK]: '0x6c63c511492ED00fe1F8f97299E55534982780B8',
@@ -1257,6 +1302,7 @@ const bills: BillsConfig[] = [
   {
     index: 7001,
     cmcId: 22943,
+    version: '1.0.0',
     chainId: ChainId.LIGHTLINK,
     contractAddress: {
       [ChainId.LIGHTLINK]: '0xa7fe0239E47cCA31ce2dC66c15fAA9Da3673E092',
@@ -1286,6 +1332,7 @@ const bills: BillsConfig[] = [
   {
     index: 7002,
     cmcId: 22943,
+    version: '1.0.0',
     chainId: ChainId.LIGHTLINK,
     contractAddress: {
       [ChainId.LIGHTLINK]: '0x0F0B63CDA3225a33C9a09dE42fB177fD8E32749f',
@@ -1315,6 +1362,7 @@ const bills: BillsConfig[] = [
   {
     index: 7003,
     cmcId: 22943,
+    version: '1.0.0',
     chainId: ChainId.LIGHTLINK,
     contractAddress: {
       [ChainId.LIGHTLINK]: '0xd49949f8FAD91D2CB1b61C3a2b6D67fEB1a225F4',
@@ -1345,6 +1393,7 @@ const bills: BillsConfig[] = [
   {
     index: 7004,
     cmcId: 22943,
+    version: '1.0.0',
     chainId: ChainId.LIGHTLINK,
     contractAddress: {
       [ChainId.LIGHTLINK]: '0x426407bF83FE34E019Be3Ea333Ba906227D10c56',
@@ -1377,6 +1426,7 @@ const bills: BillsConfig[] = [
   //
   {
     index: 6012,
+    version: '1.0.0',
     chainId: ChainId.LINEA,
     contractAddress: {
       [ChainId.LINEA]: '0x302427048ea8E8e7858CCf28883f19826e1b43F9',
@@ -1405,6 +1455,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 6011,
+    version: '1.0.0',
     chainId: ChainId.LINEA,
     contractAddress: {
       [ChainId.LINEA]: '0xDb8764B778D7729E7a71a5583535dB07b8Bcbc4A',
@@ -1432,6 +1483,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 6010,
+    version: '1.0.0',
     chainId: ChainId.LINEA,
     contractAddress: {
       [ChainId.LINEA]: '0x00aB24b9d36B4a4368775A1c523dFc457148EC62',
@@ -1457,6 +1509,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 6009,
+    version: '1.0.0',
     chainId: ChainId.LINEA,
     contractAddress: {
       [ChainId.LINEA]: '0xCc73cf524b13bB53C74b8c0757C102aE9A80e07d',
@@ -1482,6 +1535,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 6008,
+    version: '1.0.0',
     chainId: ChainId.LINEA,
     contractAddress: {
       [ChainId.LINEA]: '0xCE9ea64eEfEbff429B6d795816c82a0a8Cb76B9F',
@@ -1507,6 +1561,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 6007,
+    version: '1.0.0',
     chainId: ChainId.LINEA,
     contractAddress: {
       [ChainId.LINEA]: '0x849b1E0bcBe6ac74A0c8A0450Cf2e80AF1902e41',
@@ -1532,6 +1587,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 6006,
+    version: '1.0.0',
     chainId: ChainId.LINEA,
     contractAddress: {
       [ChainId.LINEA]: '0x85C35033b3D137f97679821bC3c27e09e2821B81',
@@ -1559,6 +1615,7 @@ const bills: BillsConfig[] = [
   {
     index: 6005,
     cmcId: 9217,
+    version: '1.0.0',
     chainId: ChainId.LINEA,
     contractAddress: {
       [ChainId.LINEA]: '0x6657429079727C5c6efC2c383bE016566ED22182', // prod
@@ -1586,6 +1643,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 6004,
+    version: '1.0.0',
     chainId: ChainId.LINEA,
     contractAddress: {
       [ChainId.LINEA]: '0xe42Cf31F6dA73f4bFEDe8a8F3E61f5aD6A033945', // prod!!
@@ -1613,6 +1671,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 6003,
+    version: '1.0.0',
     chainId: ChainId.LINEA,
     contractAddress: {
       [ChainId.LINEA]: '0x055893f759Ec752b0e2cB94e2a9bB3a67d6A9E27', // prod!!
@@ -1640,6 +1699,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 6002,
+    version: '1.0.0',
     chainId: ChainId.LINEA,
     contractAddress: {
       [ChainId.LINEA]: '0xBF17Ab54c6a01406649cb89b605Dd67aF19FEdaA', // prod!!
@@ -1668,6 +1728,7 @@ const bills: BillsConfig[] = [
   {
     index: 6001,
     cmcId: 19973,
+    version: '1.0.0',
     chainId: ChainId.LINEA,
     contractAddress: {
       [ChainId.LINEA]: '0x7D3866b90aD077cCfBc2f2F39273bcCE106A6399', // prod!!
@@ -1699,6 +1760,7 @@ const bills: BillsConfig[] = [
   {
     index: 1123,
     cmcId: 35157,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x5A15B183E3Bb22d5bfF6c715fC793E830b77ED46',
@@ -1727,6 +1789,7 @@ const bills: BillsConfig[] = [
   {
     index: 1122,
     cmcId: 35797,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x5FA3E8911c0864583Ae798616f277E1507c3d39E',
@@ -1755,6 +1818,7 @@ const bills: BillsConfig[] = [
   {
     index: 1121,
     cmcId: 29157,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x20cd480d58351D19b3d769f7779bDf98C7B12056',
@@ -1792,6 +1856,7 @@ const bills: BillsConfig[] = [
   {
     index: 1120,
     cmcId: 29157,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xAb6d64F2aD4bcfd3ac2c4A8c1d3cbEe9199e2852',
@@ -1829,6 +1894,7 @@ const bills: BillsConfig[] = [
   {
     index: 1119,
     cmcId: 34877,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x0d5Bf5df0fae9aCe47E71C1b4B28b0B06a4b3EcE',
@@ -1858,6 +1924,7 @@ const bills: BillsConfig[] = [
   {
     index: 1118,
     cmcId: 29157,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x66b9ACedf09C2F5729417f5711b77829CE344d7e',
@@ -1896,6 +1963,7 @@ const bills: BillsConfig[] = [
   {
     index: 1117,
     cmcId: 25822,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x1da373331e3CB25e33Ba77b147BC4585eA1A181B',
@@ -1925,6 +1993,7 @@ const bills: BillsConfig[] = [
   {
     index: 1116,
     cmcId: 29157,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x40Ee9220aB4217907c8Bf0FcBD7a424eD2c6b9D1',
@@ -1962,6 +2031,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 1115,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x083e83bc6A6a9f1ADcdf13Eb839cb04eaB37C6AE',
@@ -1991,6 +2061,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1114,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x397d7EC24893b7eA9f52951A426F399446AEC048',
@@ -2020,6 +2091,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1113,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x323F0683457115956511E9AC10afb9de76D39559',
@@ -2049,6 +2121,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1112,
     cmcId: 15921,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x7F12943E9124Ef6023ba797358053FC3dc53ae73',
@@ -2077,6 +2150,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1111,
     cmcId: 29157,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x7dCb9f68c8123C57f9d831379a642E5Fdec9C1Be',
@@ -2113,6 +2187,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1110,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x97b854e6044B43A5213501577cAAC81aA3E90264',
@@ -2140,6 +2215,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1109,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     cmcId: 31269,
     contractAddress: {
@@ -2168,6 +2244,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1108,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     cmcId: 31269,
     contractAddress: {
@@ -2197,6 +2274,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1107,
     cmcId: 29912,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x0902E2C0AD4FddA0052b0F65071de65CF84a779a',
@@ -2224,6 +2302,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1106,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x96FbF699C11973B60a68C9EE11A9Bc6c5Fc513E9',
@@ -2252,6 +2331,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1105,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xf7534f868c313A09548Dce757Bf4275CBbce18Db',
@@ -2280,6 +2360,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1104,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x620326c61997FDD17FF0a22D2e938AEC4792cCcE',
@@ -2308,6 +2389,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1103,
     cmcId: 29157,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x131636Ccc7c66F1241B02FfEbE415f5875E0c213',
@@ -2345,6 +2427,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1102,
     cmcId: 29157,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xb893f123B85EE9afC56e08510B224a8f8f781517',
@@ -2381,6 +2464,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1101,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xa41d86A91b1545fc09ac4641590Ff159dB7cB6Da',
@@ -2409,6 +2493,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1100,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x65BE57c179eaA866D393f0FcdBa32a850B1B46E1',
@@ -2437,6 +2522,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1099,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: { [ChainId.BSC]: '0xb6B3ED994Aeb83B8A649ac77cD1Ce0BdD17AAC07' },
     billType: 'reserve',
@@ -2460,6 +2546,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1098,
     cmcId: 32816,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xc2316D2A54f38eE37A64434ba4E005F02d9a9977',
@@ -2488,6 +2575,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1097,
     cmcId: 29157,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xDD0ba1445A24C83c3BDbC5EfaDa3359e98aC706e',
@@ -2526,6 +2614,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1096,
     cmcId: 23756,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x78F4eFb1e1077BaEd0af53359aA781aA29F87fB6',
@@ -2552,6 +2641,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1095,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x2F02d89f2F8F91ac77656082AF4b4ce2D91902C7',
@@ -2580,6 +2670,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1094,
     cmcId: 19055,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x1e1FffD89ada661d592832aDc7F7577b79115A87',
@@ -2609,6 +2700,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1093,
     cmcId: 15921,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: { [ChainId.BSC]: '0x98C3Eb97E4C1acC607633E30a557342E1fec6e2b' },
     billType: 'reserve',
@@ -2633,6 +2725,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1092,
     cmcId: 19055,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x3B2700AE5f99cc267D429E53C10F46448Ea03d78',
@@ -2663,6 +2756,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1091,
     cmcId: 28386,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xBe5Cf7ee838304bc0f2EE00DC9a43346e8AA0003',
@@ -2691,6 +2785,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1090,
     cmcId: 15921,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: { [ChainId.BSC]: '0xE782efF4123a5dF35490F4C69ABeA9bd1d468A02' },
     billType: 'reserve',
@@ -2715,6 +2810,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1089,
     cmcId: 15921,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: { [ChainId.BSC]: '0xf15138D230017EB9A3bc4166EB0CD8ad696fcDea' },
     billType: 'liquidity',
@@ -2739,6 +2835,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1088,
     cmcId: 29157,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xBFDF130e393D6Ec6019F81C67964EBDd2ff2d874',
@@ -2777,6 +2874,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1087,
     cmcId: 29635,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xA63D8F1f7AB671f3f3Fa751355643a5016716F1E',
@@ -2806,6 +2904,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1086,
     cmcId: 15563,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: { [ChainId.BSC]: '0x809e28e55799193c9749113DaCe501246e891049' },
     billType: 'reserve',
@@ -2829,6 +2928,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1085,
     cmcId: 15563,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: { [ChainId.BSC]: '0x1643535ABbECe810BDFFa7D9F3C7924f1940AFC9' },
     billType: 'reserve',
@@ -2851,6 +2951,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1084,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: { [ChainId.BSC]: '0x2E2b7bE57BDEAAa4c2E0eb6aee34CD12b2f94fC8' },
     billType: 'reserve',
@@ -2872,6 +2973,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1083,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: { [ChainId.BSC]: '0x19e064AeF086CF772c21E15dB9B0686E205779Cb' },
     billType: 'reserve',
@@ -2894,6 +2996,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1082,
     cmcId: 16711,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: { [ChainId.BSC]: '0x390092aE3FEF90CD87b59A557de250b0e9d60CCB' },
     billType: 'liquidity',
@@ -2917,6 +3020,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1081,
     cmcId: 25822,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x516e134276B2C4f4931058ED0b2730E84320c620',
@@ -2945,6 +3049,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1080,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x294d347642db13E2899d663c8041d02e24826271',
@@ -2973,6 +3078,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1079,
     cmcId: 23756,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x6435eDE65D1B88A9525B85A8671FFE51a30B3B90',
@@ -2999,6 +3105,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1078,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x8882039c997990210Fe55D1c1c2eae5F50d6fc81',
@@ -3026,6 +3133,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1077,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x42a2dD8D1fCb15f65EE3d4d3cF813ff71424E208',
@@ -3054,6 +3162,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1076,
     cmcId: 29157,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x7c8b62bAC25eD560a9a75460aEE4f0c83C88B43c',
@@ -3092,6 +3201,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1075,
     cmcId: 16882,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x25e5B52696ae6a92E30815FD2d803124Ca46aff2',
@@ -3122,6 +3232,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1074,
     cmcId: 30842,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x72cd35055aF92C90A664f0C220c0694D740c08a9',
@@ -3151,6 +3262,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1073,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x7FBF39380E35C9A2D72f695540607150503a19D6',
@@ -3182,6 +3294,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1072,
     cmcId: 17444,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x0626765F2933883d30dC92430786E6a1146C73D6',
@@ -3211,6 +3324,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1071,
     cmcId: 12621,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xa9e7236A428A1D3604b51cB01270B94884F6AA23',
@@ -3241,6 +3355,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1070,
     cmcId: 22205,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x2D43A6998a3E53760b921D6062eC8C0DCb0f5138',
@@ -3269,6 +3384,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1069,
     cmcId: 30179,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x76aDe8465132B864F3e3DE014eE3FEC399308F91',
@@ -3298,6 +3414,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1068,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xBC49962CB17888fF09c0637e4A4fD7A792A86e59',
@@ -3327,6 +3444,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1067,
     cmcId: 16652,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x9344805a736df9C78d09d7aBbFbA3274aBa6811e',
@@ -3356,6 +3474,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1066,
     cmcId: 28386,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xeBd7fe43D63c8cbE1547e86CD2DFE5599ca53F47',
@@ -3384,6 +3503,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1065,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xd18104Aaf4a0014140D78b6b2619a8C900378e8A',
@@ -3411,6 +3531,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1064,
     cmcId: 29157,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xf50F7531AD95BC4E9021cBb2338AE77dCEaDdd48',
@@ -3449,6 +3570,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1063,
     cmcId: 29157,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x3071B6e6576dE3690A0cb4acc3f2a7301A9a6f21',
@@ -3487,6 +3609,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1062,
     cmcId: 16711,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: { [ChainId.BSC]: '0x56D8785161efbE407829fB659918d404883708e2' },
     billType: 'liquidity',
@@ -3511,6 +3634,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1061,
     cmcId: 11088,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x8667D8C020788Ae889639553F2016F068474ca58',
@@ -3541,6 +3665,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1060,
     cmcId: 23756,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x051569EEE0522bab4a5aF99698FC02305CF0e267',
@@ -3568,6 +3693,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1059,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xc5f8e2746eD4A7374066073C231be8e3CA85f04E',
@@ -3594,6 +3720,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1058,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xBbf028E5b967f17Fb24cb63F4486686522882EFc',
@@ -3621,6 +3748,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1057,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x92A29dAF8267cA37b04E51D7C69C3537762f4410',
@@ -3648,6 +3776,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1056,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x0255eFCea71B68AF56328dF27911E30ac9833563',
@@ -3676,6 +3805,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1055,
     cmcId: 29157,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x983D79923E9d320Ce07B02e4B85ad535F89a7259',
@@ -3714,6 +3844,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1054,
     cmcId: 14133,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xc77aDf2d1DB92bf9EaEdC64DE72829528B56EE15',
@@ -3742,6 +3873,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1053,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x13Ada9A81053A6b56CB027FaD4628cf27766936D',
@@ -3770,6 +3902,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1052,
     cmcId: 24480,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x634D12615CA306569AEFFE3813ecb4Ad714D5648',
@@ -3797,6 +3930,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1051,
     cmcId: 29157,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x473Dd4CaE595a0dc5DCDF2edb6077ec01f8f1715',
@@ -3835,6 +3969,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1050,
     cmcId: 25822,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x849CD6CBd4B730C01B9d529Fd0501c1BA596a0C2',
@@ -3864,6 +3999,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1049,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x6245BCb318e6c6582ebfdD8E24DB7E717e5066dd',
@@ -3892,6 +4028,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1048,
     cmcId: 15489,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x580009d942cf89c05D506391B49BDf7825D9c583',
@@ -3921,6 +4058,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1047,
     cmcId: 29635,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x583F3395768B8A685Ab02156eD980722886A2d44',
@@ -3949,6 +4087,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1046,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x8476Fd156E0DC723F9f36B126621481aB6720961',
@@ -3976,6 +4115,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1045,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x1B318c4d90e4751385e1d63123725Ddd02efE2EF',
@@ -4003,6 +4143,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1044,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x7c42C169b4654AF44d29a767B379F4dd0cD42462',
@@ -4030,6 +4171,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1043,
     cmcId: 16652,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xcc362B5760986ab14EDC794C5D4b1C84e05ea965',
@@ -4059,6 +4201,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1042,
     cmcId: 24480,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xD0aDBe1CF318BFb0110E48F088BEA933ECD72304',
@@ -4085,6 +4228,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 5000, //MIGRATION BOND BANANA 2 MONTH
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x302f1120aDA3f40aeD3F6410fad75e8428576a1F',
@@ -4111,6 +4255,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 5001, //MIGRATION BOND BANANA 4 MONTH
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x872C7beE4c034CEba697de18f794e91F10062E2e',
@@ -4137,6 +4282,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 5002, //MIGRATION BOND BANANA 6 MONTH
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x8146d7887C2e7ce7AD0c1950E17676c632B5A71A',
@@ -4163,6 +4309,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 5003, //MIGRATION BOND BANANA 12 MONTH
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xFeFEDF8EB74711dF186630F4870BcA9EEDA78C85',
@@ -4189,6 +4336,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 5004, //MIGRATION BOND GNANA 2 MONTH
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xa2a328864f8Eca97072471cc8BF08411Da523bc9',
@@ -4215,6 +4363,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 5005, //MIGRATION BOND GNANA 4 MONTH
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xac1CB77150Dcc3d540F08e808181CCCf0Ea29726',
@@ -4241,6 +4390,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 5006, //MIGRATION BOND GNANA 6 MONTH
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xDCa0B400394BA6F6CBfc3Ce37B0193D4fa68eDFf',
@@ -4267,6 +4417,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 5007, //MIGRATION BOND GNANA 12 MONTH
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x3Eb85D568214ae04c2873880Fa715a5C8105dd17',
@@ -4293,6 +4444,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 62,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xB12413a70efd97B827201a071285fBFfCAC436Bc',
@@ -4317,6 +4469,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 69,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xFebbb97b4e3C1BED9C7dCD4d2ED5f9b52FC58357',
@@ -4338,6 +4491,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 70,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x7aD518872a75054c023B58619d141e3B677B5a13',
@@ -4359,6 +4513,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 71,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x2de795174ae129A3DE3EC65FC428427717eF1DA2',
@@ -4380,6 +4535,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 72,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x2Bde6DDad5D13CDD5baC871a405EB09779461E53',
@@ -4401,6 +4557,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1001,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x2A5EA9cc09ad72803C83a6F4f00e907c2aA08944',
@@ -4425,6 +4582,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1002,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x2E0E93237b76C108D1078edA260774a466C4861a',
@@ -4449,6 +4607,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1003,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xa2605D3EB97574e8E4d25b09942B719bFa3404b3',
@@ -4473,6 +4632,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1004,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x0f01384C2399c145f7c8545B05F493D0C4B59873',
@@ -4497,6 +4657,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1007, //ACF 60 DAYS
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x6D7637683eaD28F775F56506602191fdE417fF60',
@@ -4521,6 +4682,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1010, // ACF --> ABOND
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xEce2b9C3704632Ce760271B0b84E3A4A698Ca962',
@@ -4547,6 +4709,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1012,
     cmcId: 29157,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x097f6ffDC1d0C4d163d7d392a31dC7d39B710d4E',
@@ -4585,6 +4748,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1026,
     cmcId: 29157,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xb0b4ff6D756CcC251Dd08928984f9C3A2d430eE5',
@@ -4623,6 +4787,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1036,
     cmcId: 29157,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xcF99cB6a10D24550389a8B839c3dC3D8DCAF6a01',
@@ -4660,6 +4825,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1041,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x76d5102f0B0754ebBA0f92b2719b011D3750625B',
@@ -4688,6 +4854,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1040,
     cmcId: 28496,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xD39A9dC66f18e0a9f6585a48e3A9B37F4ef84570',
@@ -4715,6 +4882,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1039,
     cmcId: 23756,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x7bB1Bd0C2880F52D159f8f4680DEAC7a13B7bf1e',
@@ -4743,6 +4911,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1038,
     cmcId: 11919,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x82e55fc7c1348c38B429d7ae791DBb36BFE8c788',
@@ -4773,6 +4942,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1037,
     cmcId: 29890,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xea1735193cD2cD78251D7225A405d59D5F8a8e7D',
@@ -4802,6 +4972,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1035,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x66B3D959675427904a5Fa74aa3cC49ddDCa06b52',
@@ -4830,6 +5001,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1034,
     cmcId: 16711,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x71a53F6b3207a8EBDBF692Ea3ffD8F506d78540d',
@@ -4859,6 +5031,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1033,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xD21e9754e988a711E03F94131c9a3024522E2C51',
@@ -4886,6 +5059,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1032,
     cmcId: 28386,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x122A1f4DE0Ae198ef83eF6FeABfaC6DD3c0b98C5',
@@ -4915,6 +5089,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1031,
     cmcId: 16652,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x284b840402658342c79BF90cBf1b9506222E63D9',
@@ -4943,6 +5118,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1030,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x0CdA99bE222cF4893817200A16D13009c0982006',
@@ -4970,6 +5146,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1029,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x74077F80E723b3f5C62Eb50C125Da33D6D903A76',
@@ -4997,6 +5174,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1028,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x4A308636E91d33Ae00dD1cc390553778847668D3',
@@ -5024,6 +5202,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1027,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x8a5597815E71944837b1BaF346e92d05954cC8B7',
@@ -5051,6 +5230,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1025,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x8772Ba15F8169BaE002E3cA0D48629aB408D838F',
@@ -5079,6 +5259,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1024,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x81a0956047a69fe2EA3722cbA4C2901103F19D03',
@@ -5106,6 +5287,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1023,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x10CDAc2FD873cAceD95Ca7e532dB2766cb55D812',
@@ -5134,6 +5316,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1022,
     cmcId: 28386,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x83E22063362693Cb9C373721D037aDF6EA7762A0',
@@ -5162,6 +5345,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1021,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x7eDDB4A68418065de42978643A07bd32672189CD',
@@ -5189,6 +5373,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1020,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x591b1b8e19B492A5b5dB2c331cDD5E5E014c69F6',
@@ -5215,6 +5400,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1019,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x328e243890a04cb5a763a977395F74Ea6be74D14',
@@ -5242,6 +5428,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1018,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x01bbC9b5F7d6e6C55949Bb8af118bc644d8D3f21',
@@ -5269,6 +5456,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1017,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xd3cB03be7e367d0B6ccB42Dc87821bf67CeE8AB8',
@@ -5295,6 +5483,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1016,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x07E48b1c531cBF32222851D0B1f77fF58b13942d',
@@ -5322,6 +5511,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1015,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xA36a59Df35B045650EeaA7d2d001675F5F822649',
@@ -5349,6 +5539,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1014,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x0C6f539c98Cad2Bd5dA2f5168a1C2EAA53041832',
@@ -5377,6 +5568,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1013,
     cmcId: 23756,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x3237aA0280B98C6BbE23563A5C1aBbE52bCdB378',
@@ -5404,6 +5596,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1011,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x00F2895AB0096984D94539387a820B193F5E7776',
@@ -5431,6 +5624,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1009,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x87987112B74bed09D5ccbE17cAbd8EEC3e6Ff904',
@@ -5458,6 +5652,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1008,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xdBBa7C8F6Db6fA1057E58Cc0307d26e7e3F0848E',
@@ -5485,6 +5680,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1006,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x286483b8b5E30d89b8B39C2817A9c9777e22C2C1',
@@ -5513,6 +5709,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 1005,
     cmcId: 28386,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x1a4ceD5Fa314Cfe70995282b5c12d751532E0923',
@@ -5541,6 +5738,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1000,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x114BeBd8d3178d129Ec86c47519EdB5DbdD519cA',
@@ -5565,6 +5763,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 95,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x89150e8E396Acc38AbFCAC853d6EB977AcCe13e1',
@@ -5591,6 +5790,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 94,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x01a8be18770e8b2Ac2Cf42F10E4BddD6054Cbe86',
@@ -5617,6 +5817,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 93,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x93048fdB11265A68E672f47c9BdCc339D1497918',
@@ -5638,6 +5839,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 92,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xC7d087fBF15584E38a3d7d9448E4FEEe9E12c3DB',
@@ -5660,6 +5862,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 91,
     cmcId: 23756,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xA2585dbF7aAcAB105542752B03fd49AB542556B8',
@@ -5696,6 +5899,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 90,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xD83873BC5e762a2ff6f35C0Bb5eE687142dfDa8D',
@@ -5717,6 +5921,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 89,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xa82d7116128173F87Db5aDd4e12ebB26bd773527',
@@ -5738,6 +5943,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 88,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x80AA174d1F0BfDBfE83Cc827F6cC896C14c3AF97',
@@ -5759,6 +5965,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 87,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x29F7e97388985e26B178B4da3B5431477B6f533b',
@@ -5780,6 +5987,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 86,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xdE766645C9b24e87165107714c88400FedA269A3',
@@ -5816,6 +6024,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 85,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x39c7A61087e881033A009CCda9c8963588b3E09D',
@@ -5837,6 +6046,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 84,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xb96D4ef47d9989e68798c3e5Bf641e8028E60c32',
@@ -5861,6 +6071,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 83,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x007eC17bfA484bACcbB6f6bdA20DaD1fB6A49926',
@@ -5883,6 +6094,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 99,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x4Bd2Cc54D0420b4326Ff9C4185D08164dd434220',
@@ -5907,6 +6119,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 98,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x6AB6B1332EbB75620b9AF0937251011E0B4dc5b6',
@@ -5931,6 +6144,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 97,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x80B4B7555a8F3A62e87cA2394d3EE840617F7e86',
@@ -5955,6 +6169,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 96,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xaD790aFAA1cfC35d13089c3fb6d53C411934c673',
@@ -5979,6 +6194,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 82,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x8303dd7222b5c162C85351292b0ce26C221c4acD',
@@ -6001,6 +6217,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 81,
     cmcId: 23756,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x1F13AC08BcD8E505A797A518627337eE8Ba2eEFE',
@@ -6024,6 +6241,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 80,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xDB728D1503079B5313dD80257580fc5dC476AFd3',
@@ -6045,6 +6263,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 79,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xbD1dcE65a58a533259c134a3476a97A627De5F1e',
@@ -6065,6 +6284,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 78,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xb48fDf78CAcd6d2fC495beFA51395CE9295B05E8',
@@ -6090,6 +6310,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 77,
     cmcId: 23756,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x3aCfbf26c5906924738dCd6Ec417346f28f2bEbF',
@@ -6113,6 +6334,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 76,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x265F0332D04384AB8123488A6b889C5B470B07F8',
@@ -6135,6 +6357,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 75,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x6543C13e6dFf99E340147a69bBF38A7C5cfc07Fa',
@@ -6156,6 +6379,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 74,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x26a956eae3aF0dBd24c0c0279614336fBBBef968',
@@ -6177,6 +6401,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 67,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x14FE608b4BE893ab1d7f36Be6B27C4971dcc364C',
@@ -6197,6 +6422,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 66,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x48288b61D8dD929aeaCDDc11C8c2e150e29c02eA',
@@ -6217,6 +6443,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 73,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xD26C446Bc7C130edA91B21f6883068499dd2c0B6',
@@ -6238,6 +6465,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 68,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x07F09E925017F2423d05c2fA88d23CCC93aC296C',
@@ -6259,6 +6487,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 65,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xB883CF791A81e4ac248360b9E5cFF4cb9b5d45f6',
@@ -6281,6 +6510,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 64,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x7a86f9938a8e68e3a9fb62eD84031F8c7C052aDb',
@@ -6303,6 +6533,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 61,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x966d6F3e6a8b59296F1e25a08b45154318Aea3cb',
@@ -6324,6 +6555,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 60,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xc3111525f0CeEB7565939c8Da18D9cDD67C7B219',
@@ -6345,6 +6577,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 59,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x83a9d9c278f2ccE356667EbdAD20c9B4BA68d5aE',
@@ -6366,6 +6599,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 58,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x9b86b2baE5B9C7eD73264Cbfdf1b819496Fdc091',
@@ -6388,6 +6622,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 57,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x31CA3536a7B3560e56a0BEA226135Cf809D2E237',
@@ -6409,6 +6644,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 56,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xCdCC22C01e1660713B45fE83d7C23787792931B5',
@@ -6430,6 +6666,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 55,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x4E96152511D29c99c47A24B07a3b98738e0fb9BA',
@@ -6451,6 +6688,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 54,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x60219D7ABd2381230BC250548109b464f44e44dC',
@@ -6472,6 +6710,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 53,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xF3DADCFa7114652Ca750e0C653A00DeCB63B4d0F',
@@ -6493,6 +6732,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 52,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x6ed6Ccf1f55f3C42438265d1c1C58B9e6756fb1a',
@@ -6514,6 +6754,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 46,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x12c42b96ff1248471bbc9da06d7fee828e6f7db2',
@@ -6536,6 +6777,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 45,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x44c2211976f796d439e82036006d9559c1b1fbdb',
@@ -6557,6 +6799,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 43,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x279c47aE7846962037077338505c657ad65D0DeE',
@@ -6578,6 +6821,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 44,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xaf7F491e77f4979faadbE24866D4471De23bd0a0',
@@ -6599,6 +6843,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 37,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x2e9bdb018850747dc557d13046b8259ab24c674a',
@@ -6620,6 +6865,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 48,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xDfE0C1Ee6E3383E2E50f95541881040d278720C9',
@@ -6640,6 +6886,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 49,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x9632D29b4786699C4262F59526D0DA0C9E7C7a72',
@@ -6660,6 +6907,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 50,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x1Ca83Ba8e7927e65764Ff07A61BCe8D12147CBD9',
@@ -6680,6 +6928,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 51,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xAB60c836793e04DDA3168fCd4e36AF52Bf6e65Cf',
@@ -6700,6 +6949,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 47,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xc10BD711C939f972aB7523dc1E948E5DB53B5759',
@@ -6720,6 +6970,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 38,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x5aabc088b42c197c8da69af5471aa06c3852912b',
@@ -6741,6 +6992,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 39,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xfe69f6f456fdc5535e7a7a03bb78f739400bc8e0',
@@ -6761,6 +7013,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 40,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x74dab17e30b974a3590796a8ba2223a50da6a32c',
@@ -6781,6 +7034,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 41,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xEd242A13d25b5B2270E90058C9a1A756811cdb93',
@@ -6801,6 +7055,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 42,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xb95bd2dc93562fd9076c0573615de42b413db256',
@@ -6822,6 +7077,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 30,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xced994206cd4c364d7bda2b66b48fcaef9b6bb5b',
@@ -6842,6 +7098,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 29,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x7aa1939b8284a2defdcb5e983de55da2ad61f607',
@@ -6863,6 +7120,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 27,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x626b5c18a2b702a189ea022df897a4f0f3566785',
@@ -6883,6 +7141,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 22,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x7b1dfe9ca71ffeac5ed4d1beb592771e3672a2de',
@@ -6904,6 +7163,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 20,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xb646c4a51365598433ba4765b890ad3075e4e21e',
@@ -6925,6 +7185,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 31,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x63571f457f246124c6968579E8797B91613dED20',
@@ -6945,6 +7206,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 28,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x7fdb62f681d7aad8c08a1d6af350e2fb7f265336',
@@ -6965,6 +7227,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 26,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x07968648273e29f5e2fe07aabf5fbc3b40892592',
@@ -6983,6 +7246,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 25,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xff674209beeb493f9e8c44898848c6cfd710e98f',
@@ -7003,6 +7267,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 24,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x2f8042167b0549ef56e55b9c1ace661b10ad93ea',
@@ -7025,6 +7290,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 23,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xc117e57f4fa2fc1c2759228e0f85bc6d1c89be36',
@@ -7045,6 +7311,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 21,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x7e7842f762b27a024f7c3b95495f1d132c554d6b',
@@ -7065,6 +7332,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 19,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x99eea57cdc8983992a3c1505dbf7181467daa22f',
@@ -7085,6 +7353,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 18,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x80ef5c5215ff56a12b5e59c2acfc279c763ae34b',
@@ -7105,6 +7374,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 12,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x3f02ce456b9da36352439fbd1897c2233a77e46f',
@@ -7123,6 +7393,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 5,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x1c36913ca7c64365a54694cd91dde9c7cf5e44ec',
@@ -7143,6 +7414,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 6,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xd9e18fae215f10f4ce35a24fcbfe944fbfb96643',
@@ -7161,6 +7433,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 7,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xda0149da023cb204b3ffba33a88d9dd19393c6fc',
@@ -7179,6 +7452,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 8,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xaf3016100f67c66af15c973cb8da94962653a726',
@@ -7199,6 +7473,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 9,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x6a5be77e3fc1c99ef4aae2846432d61fa78a564c',
@@ -7219,6 +7494,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 10,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xb5fd0ac23267da501fc6c59c6e12ae32831e72bb',
@@ -7239,6 +7515,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 11,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x4a3adf34b1f8830fb8d673477d52fa5cb91a2531',
@@ -7260,6 +7537,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   // Old liquiditys
   {
     index: 0,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x8b57Fc5BE65118188D50d42fcD5614e447F7FAbE',
@@ -7278,6 +7556,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 1,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x4925AcdE0E885170801A74DEBcC8fbA91F3aE29b',
@@ -7296,6 +7575,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 2,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xca1612f66292398a5df0ecadd98bb81dc264349d',
@@ -7314,6 +7594,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 3,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xb2d516086BFc978950e40D2739c72125415441a8',
@@ -7332,6 +7613,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 4,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xBD9959320cbbC69b2eF7d07fb3f9870cceaeB44f',
@@ -7350,6 +7632,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 13,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xE325439439D692DC858Ba887601999D57d35688F',
@@ -7368,6 +7651,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 14,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xf297F71f4664cF7F1Cd5d90720967998A1163cC3',
@@ -7386,6 +7670,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 15,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x937A30Fd88f48B23DeABf4fD43c42cc9d3f3F9Dd',
@@ -7404,6 +7689,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 16,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x2D375a67366eDFB92F520aE428E8E08451D638d2',
@@ -7422,6 +7708,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 17,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x44921f493887ab8a8b9db54db335f65c1ef8d51a',
@@ -7440,6 +7727,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 32,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xa45dc4b9743d489e9b91070b27e72094b697632d',
@@ -7460,6 +7748,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 33,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x3a4de56b96d5befd0c9f3fb214372699f2d58947',
@@ -7480,6 +7769,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 34,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0xb0992d86e7d4de0200c463e6451cce1f2775903b',
@@ -7500,6 +7790,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 35,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x08dd5a43e5fc889f2100023f8296e14d9fd40064',
@@ -7520,6 +7811,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 36,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x069002be4ec72333a3fa8a5730e8b84680a190a4',
@@ -7540,6 +7832,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 63,
+    version: '1.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x1bAFb5916b438fBFc029088da6BF96bd9CF4cb09',
@@ -7565,7 +7858,62 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     Polygon Bills
   */
   {
+    index: 175,
+    version: '3.0.0',
+    chainId: ChainId.MATIC,
+    contractAddress: {
+      [ChainId.MATIC]: '0xa18f9cea32290ee731485b7d60b3db112a43bbe5',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.btc,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
+    },
+    inactive: false,
+    projectLink: 'https://film.io/',
+    twitter: 'https://x.com/Filmio_Official',
+    initTime: { [ChainId.MATIC]: 1738686666 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    shortDescription: 'Shivam makes me horney',
+    fullDescription: `Film.io is the world's most powerful decentralized filmmaking ecosystem, revolutionizing Hollywood by transferring decision-making to creators and fans through blockchain technology. Governed by the first-ever filmmaking industry DAO, Film.io champions inclusion, equality, and diversity in global entertainment. It empowers creators and fans to collaboratively validate, fund, and distribute content in a transparent, inclusive environment, replacing traditional centralized power structures. Utilizing a dual-token model, Film.io offers FAN Tokens for governance and platform participation, while FILM Tokens support crowdfunding, DeFi loans, and NFT campaigns. Together, these tokens fuel collaboration between creators, fans, and investors, liberating the entertainment industry and fostering a new era of creative freedom.`,
+    tags: ['degen'],
+    feeInPayout: 2,
+  },
+  {
+    index: 174,
+    version: '2.0.0',
+    chainId: ChainId.MATIC,
+    contractAddress: {
+      [ChainId.MATIC]: '0xa18f9cea32290ee731485b7d60b3db112a43bbe5',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.usdt,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
+    },
+    inactive: false,
+    projectLink: 'https://film.io/',
+    twitter: 'https://x.com/Filmio_Official',
+    initTime: { [ChainId.MATIC]: 1738686666 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    shortDescription: 'Shivam makes me horney',
+    fullDescription: `Film.io is the world's most powerful decentralized filmmaking ecosystem, revolutionizing Hollywood by transferring decision-making to creators and fans through blockchain technology. Governed by the first-ever filmmaking industry DAO, Film.io champions inclusion, equality, and diversity in global entertainment. It empowers creators and fans to collaboratively validate, fund, and distribute content in a transparent, inclusive environment, replacing traditional centralized power structures. Utilizing a dual-token model, Film.io offers FAN Tokens for governance and platform participation, while FILM Tokens support crowdfunding, DeFi loans, and NFT campaigns. Together, these tokens fuel collaboration between creators, fans, and investors, liberating the entertainment industry and fostering a new era of creative freedom.`,
+    tags: ['degen'],
+    feeInPayout: 2,
+  },
+  {
     index: 173,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xD4Acb5a13B74575BE0135F2eeD82E127a2b66427',
@@ -7593,6 +7941,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 172,
     cmcId: 12312,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x5a4B8338Fb48bE22b60Fd68a8B784Fa615DcA6F4',
@@ -7621,6 +7970,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 171,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x4DD247936eeE6317BF2B2896CEFf2bD070E224A8',
@@ -7647,6 +7997,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 170,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x1b7662569A20e1eBb3430c3ABBF7d84d8b8C6CB8',
@@ -7673,6 +8024,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 169,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x6856369509B441927dF9783365e6D08CD191A346',
@@ -7700,6 +8052,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 168,
     cmcId: 24789,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xEc7413e9972aD0D443BdC4D0b1B2348cA221C76c',
@@ -7728,6 +8081,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 167,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x3B97F20b5a3127aBE7D2658bB47DC24bfC496883',
@@ -7757,6 +8111,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 166,
     cmcId: 22050,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x2E0C0B77b308260045cee48Ea89b3CFc592C962c',
@@ -7785,6 +8140,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 165,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xD50eD192F9A752bbdd2fecA3a61234dEC67692e7',
@@ -7813,6 +8169,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 164,
     cmcId: 22050,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x635566dE44D98367F58b4890Ba3bd0b7a88f081B',
@@ -7842,6 +8199,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 163,
     cmcId: 12312,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xC54Be66F46B26783b09529D92BD1FB7E8CC14c37',
@@ -7871,6 +8229,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 162,
     cmcId: 29157,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x05b7Ce18e58caAa05fe0C21C9410972977f5836F',
@@ -7908,6 +8267,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 161,
     cmcId: 24789,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xCe1DDA6A06b0E9f7778846fe6AfaBD673D6B25a3',
@@ -7936,6 +8296,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 160,
     cmcId: 30232,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xc74922dFeAb39abb02Ef9d0bC53642161553b474',
@@ -7965,6 +8326,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 159,
     cmcId: 29603,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x5e5193126e519aEDF18e9D68a9f5c846ed94F917',
@@ -7993,6 +8355,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 158,
     cmcId: 28678,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xAD2329CeAC4C7fbf22D70B81E3dd7906dfeB7CDa',
@@ -8022,6 +8385,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 157,
     cmcId: 28678,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x1Bf0DD49203BCAbd2F5D7A87bB5FcD2d8E0E42B2',
@@ -8051,6 +8415,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 156,
     cmcId: 12312,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x3E406Fd37562dCDEe1eb0CcDc330CB5720276f91',
@@ -8081,6 +8446,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 155,
     cmcId: 17704,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x1d942f4600b5f030224665898AB0CDcad8F91C80',
@@ -8112,6 +8478,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 154,
     cmcId: 17131,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x3Ab678FEE99eA8E632038D14dd29cff57D1FdB33',
@@ -8140,6 +8507,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 153,
     cmcId: 17131,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x278BD0829e7A4dAa0cC407d3eA4958B3B85867a1',
@@ -8168,6 +8536,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 152,
     cmcId: 24103,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x16EC49AaD5591124A18068F4929844C724E3546c',
@@ -8199,6 +8568,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 151,
     cmcId: 24521,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x198b77772E232FB25cEFD2A54b2B48581e053CBb',
@@ -8231,6 +8601,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 150,
     cmcId: 17131,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x752cd986d092be78CF77f8B734514C04908A6b79',
@@ -8260,6 +8631,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 149,
     cmcId: 17131,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xa1A1e79905F20C5234AdBa5283A203486537d28C',
@@ -8289,6 +8661,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 148,
     cmcId: 29458,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x30126c9BcE74e5BbD23255b819C27B738787E7de',
@@ -8320,6 +8693,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 147,
     cmcId: 29157,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x810D147FBf07a776FE31e887447af6607b15C13A',
@@ -8358,6 +8732,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 146,
     cmcId: 30180,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xC53374942388CdE1A4e498A34F24B2AdECF06824',
@@ -8388,6 +8763,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 145,
     cmcId: 11324,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xc803552252eceF137EAfC1F2D9a7e50C73eF5594',
@@ -8417,6 +8793,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 144,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xf23f3A820BB5bB3FF1cc73306313D23f4269b4c1',
@@ -8447,6 +8824,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 143,
     cmcId: 11815,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xFDC0A1b63e32e5f43B9094850dB3b40B0989b2c1',
@@ -8477,6 +8855,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 142,
     cmcId: 12312,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x1155A0fF366564A299F9e9Eb14aE40Ff0b4EbbFB',
@@ -8507,6 +8886,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 141,
     cmcId: 17131,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x981686139340a84EAC66FD919E089EA23A984fc3',
@@ -8536,6 +8916,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 140,
     cmcId: 29613,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x627c2dc1e4Eb8EeA95844da77E000D45036473f1',
@@ -8567,6 +8948,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 139,
     cmcId: 29458,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xF42c8B8973E7A26E2Ae34a96eA7c7F2E97185855',
@@ -8598,6 +8980,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 138,
     cmcId: 17131,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x2FA2fC00252c8DDD88bb5699c6a06A4c62D8402B',
@@ -8626,6 +9009,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 137,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xd9828D048E35f0B5B3eDdd4759D5b2B769d8cB7b',
@@ -8654,6 +9038,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 136,
     cmcId: 17704,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xBeC0Fbc20338FAD8AFA0325C09094e28E22534C3',
@@ -8684,6 +9069,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 135,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x39D66fE579130B26Fed64187C0BA7fB03079424A',
@@ -8713,6 +9099,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 134,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x4fbEc51bFB4Fad1D431608d8CAfDe3Bc48c64F8A',
@@ -8742,6 +9129,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 133,
     cmcId: 29157,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x6dA8D2b851bdbCc50012f26d2a49107fe67fAB24',
@@ -8779,6 +9167,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 132,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xcbf5A78AA5cAb66779355FE850884D7029Fbd4df',
@@ -8807,6 +9196,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 131,
     cmcId: 29458,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xff4c72eE74916Ce8FA81FFf0DFFa8a32288E31E9',
@@ -8838,6 +9228,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 130,
     cmcId: 17131,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xA7AaA5229346ac1d7524ca6A3bB71816E39982Bb',
@@ -8867,6 +9258,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 129,
     cmcId: 17131,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x9D1445b4e4694dFB2F34c2536ea1bb238f9B3B3b',
@@ -8896,6 +9288,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 128,
     cmcId: 17704,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xE504157665Ac78301C793411542446997c33697b',
@@ -8926,6 +9319,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 127,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xB108dc4b5518079348aB4222Ab8359c50a3f3eba',
@@ -8953,6 +9347,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 126,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xa772329656bcEDa4e312735bbac24d1EF944e793',
@@ -8980,6 +9375,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 125,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x67F95211bD71a9D4d39A61d13a151b73347f5208',
@@ -9009,6 +9405,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 124,
     cmcId: 17131,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xa03f7F8eC6CF8e217dBE506D990F81B3378e6EEB',
@@ -9038,6 +9435,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 123,
     cmcId: 29458,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xA26f70b1AdDe39F79E1e688196a0a10120FE1991',
@@ -9067,6 +9465,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 122,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x1f3b1E69c874D29e6928ebddA91C22454074d8Fa',
@@ -9095,6 +9494,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 121,
     cmcId: 17131,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x33fA58e25b16D6FfEF63bE1CDba38951A7bd3641',
@@ -9124,6 +9524,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 120,
     cmcId: 17131,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x262b966d81838D123622Da16B7e97193f4395103',
@@ -9152,6 +9553,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 119,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x972824E0EC4987Af972F2086fAb2547Fbf7B4d27',
@@ -9179,6 +9581,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 118,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x87da4b12dbEF3817570Ed32283E2FED85FBf1B93',
@@ -9207,6 +9610,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 117,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xc8BD613c3895F5A9dD3e2188706790da676DA002',
@@ -9234,6 +9638,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 116,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x7a9700023be5Bd12f35948A4442cc14Bf392Ef62',
@@ -9261,6 +9666,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 115,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xFA1d99e3CF2816002ea1E29B6eDF0eDbb82f6d22',
@@ -9289,6 +9695,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 114,
     cmcId: 11324,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x6Df8830c1dA2a5bB0e4A98DD84f079E83eE9e9a5',
@@ -9318,6 +9725,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 113,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x3b8E9B6047B9ea84Ea7E9758347F2fF15021c632',
@@ -9346,6 +9754,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 112,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xc06d6a4Ecb6430417A27d904a905Ab7261c7A815',
@@ -9373,6 +9782,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 111,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x257A720718Cba6356f3aDD881F23Cefc9C57AAeA',
@@ -9398,6 +9808,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 110,
     cmcId: 17704,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x53859764AC3A49B8e442666d384b57A29fa5d927',
@@ -9428,6 +9839,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 109,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x4F256deDd156fB1Aa6e485E92FeCeB7bc15EBFcA',
@@ -9449,6 +9861,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 108,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x6c83cF7e4305f6D66930754f4855f2ea4357BaBf',
@@ -9471,6 +9884,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 107,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x5F05a78734853C34661D1C6Db46b5661dEef7374',
@@ -9492,6 +9906,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 106,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x220A6561490eE6926F4dBE8416E5cb0C2277a13D',
@@ -9513,6 +9928,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 105,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xB226290a0078a18b0A2a3BDA7460b82b966B656a',
@@ -9534,6 +9950,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 104,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x66466E907B63D5c7a7Dd560e490adB596DFDf61B',
@@ -9556,6 +9973,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 103,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xb53b2706897a26fec9113f3e2371ac5b2b88970a',
@@ -9576,6 +9994,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 100,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0x643a6848a3906182a94ec857a41c1735664c677f',
@@ -9594,6 +10013,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 101,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xca48704b19a053ebb5a077c215dcb4be745c9fe5',
@@ -9614,6 +10034,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 102,
+    version: '1.0.0',
     chainId: ChainId.MATIC,
     contractAddress: {
       [ChainId.MATIC]: '0xc16cf0e4c090409765757e5b13afdfc500148678',
@@ -9638,6 +10059,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   */
   {
     index: 211,
+    version: '1.0.0',
     chainId: ChainId.TLOS,
     contractAddress: {
       [ChainId.TLOS]: '0x84662B6bBef1E81aBcAa8372678ADBbA49d07C2c',
@@ -9658,6 +10080,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 212,
+    version: '1.0.0',
     chainId: ChainId.TLOS,
     contractAddress: {
       [ChainId.TLOS]: '0x5d72Be8B3E8F07f9D41944a148a109F18Cb65f55',
@@ -9678,6 +10101,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 213,
+    version: '1.0.0',
     chainId: ChainId.TLOS,
     contractAddress: {
       [ChainId.TLOS]: '0xF5F350ddcC3DE0733B62E71844A9C8BE4032DE52',
@@ -9698,6 +10122,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 214,
+    version: '1.0.0',
     chainId: ChainId.TLOS,
     contractAddress: {
       [ChainId.TLOS]: '0xE5325b9F69255098786908c79A234584FfC62dcb',
@@ -9718,6 +10143,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 215,
+    version: '1.0.0',
     chainId: ChainId.TLOS,
     contractAddress: {
       [ChainId.TLOS]: '0x07273ae6E441491fc4410aE9F8371AEdd7A19499',
@@ -9738,6 +10164,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 206,
+    version: '1.0.0',
     chainId: ChainId.TLOS,
     contractAddress: {
       [ChainId.TLOS]: '0x1Bb2Eb63c2B2CD1cE5887B4628694276E637BeD7',
@@ -9758,6 +10185,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 207,
+    version: '1.0.0',
     chainId: ChainId.TLOS,
     contractAddress: {
       [ChainId.TLOS]: '0xe3725Eccd93bb544b360BB572893eF17E42219c4',
@@ -9778,6 +10206,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 208,
+    version: '1.0.0',
     chainId: ChainId.TLOS,
     contractAddress: {
       [ChainId.TLOS]: '0x81f2BA390934df655eABcc3787F4f5f694e722ED',
@@ -9798,6 +10227,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 209,
+    version: '1.0.0',
     chainId: ChainId.TLOS,
     contractAddress: {
       [ChainId.TLOS]: '0x68aEaAbE6EbBd2b5Cf0130d0BAAef1Ec5E0539Aa',
@@ -9818,6 +10248,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 210,
+    version: '1.0.0',
     chainId: ChainId.TLOS,
     contractAddress: {
       [ChainId.TLOS]: '0xb3a0b38E5C07db5238538a640155562085F22bCe',
@@ -9838,6 +10269,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 201,
+    version: '1.0.0',
     chainId: ChainId.TLOS,
     contractAddress: {
       [ChainId.TLOS]: '0x7C02E197BC2644FE0E9834641F80aC0A15055ad7',
@@ -9856,6 +10288,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 202,
+    version: '1.0.0',
     chainId: ChainId.TLOS,
     contractAddress: {
       [ChainId.TLOS]: '0x76a33a5d002C711A3F353cB4Ee2B112B579c317a',
@@ -9874,6 +10307,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 203,
+    version: '1.0.0',
     chainId: ChainId.TLOS,
     contractAddress: {
       [ChainId.TLOS]: '0xa08A0125F4B85320e2357174EDC9E262098BF850',
@@ -9892,6 +10326,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 204,
+    version: '1.0.0',
     chainId: ChainId.TLOS,
     contractAddress: {
       [ChainId.TLOS]: '0xD1FbE4EAFAcB7FdC56F7Aa8dA24198b01942C677',
@@ -9910,6 +10345,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 205,
+    version: '1.0.0',
     chainId: ChainId.TLOS,
     contractAddress: {
       [ChainId.TLOS]: '0xc17a1ea1Da9975A2fad85eC7C39AEBA2B4BfEA11',
@@ -9932,6 +10368,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 2024,
     cmcId: 33841,
+    version: '1.0.0',
     chainId: ChainId.ARBITRUM,
     contractAddress: {
       [ChainId.ARBITRUM]: '0xd2a5773d8620Dd0Fb1f5624fdb25892780F68CF8',
@@ -9958,6 +10395,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 2023,
     cmcId: 33841,
+    version: '1.0.0',
     chainId: ChainId.ARBITRUM,
     contractAddress: {
       [ChainId.ARBITRUM]: '0x1f4e8dC14b8528CF3C296a5B6c9c70f7Df153370',
@@ -9984,6 +10422,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 2022,
     cmcId: 33841,
+    version: '1.0.0',
     chainId: ChainId.ARBITRUM,
     contractAddress: {
       [ChainId.ARBITRUM]: '0xdddB683ba7c3E599d7d9E77e395770bF639AabE9',
@@ -10010,6 +10449,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 2021,
     cmcId: 33841,
+    version: '1.0.0',
     chainId: ChainId.ARBITRUM,
     contractAddress: {
       [ChainId.ARBITRUM]: '0xd9c093cdE23F41BB679F0DDc4849F6718E22FB46',
@@ -10036,6 +10476,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 2020,
     cmcId: 33805,
+    version: '1.0.0',
     chainId: ChainId.ARBITRUM,
     contractAddress: {
       [ChainId.ARBITRUM]: '0xE3Fd3765C78c7fe428F92011e1eBe95f7B620D8D',
@@ -10067,6 +10508,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 2019,
     cmcId: 33841,
+    version: '1.0.0',
     chainId: ChainId.ARBITRUM,
     contractAddress: {
       [ChainId.ARBITRUM]: '0x68bbfb7f69bB2e3d095eCE9865A6926712aD6DF6',
@@ -10093,6 +10535,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   {
     index: 2018,
     cmcId: 33805,
+    version: '1.0.0',
     chainId: ChainId.ARBITRUM,
     contractAddress: {
       [ChainId.ARBITRUM]: '0xcBC7281a0020A3C5EA68D06C6d0def6ed8FC7Fdd',
@@ -10125,6 +10568,7 @@ With the lending products set to go live in February, the project is poised to a
   {
     index: 2017,
     cmcId: 33841,
+    version: '1.0.0',
     chainId: ChainId.ARBITRUM,
     contractAddress: {
       [ChainId.ARBITRUM]: '0xBFf0B2D71287D9298535D0690da1c6473a6663D1',
@@ -10151,6 +10595,7 @@ With the lending products set to go live in February, the project is poised to a
   {
     index: 2016,
     cmcId: 33841,
+    version: '1.0.0',
     chainId: ChainId.ARBITRUM,
     contractAddress: {
       [ChainId.ARBITRUM]: '0x6DdAe125Cb39E60cE60a6125d06DE598BEE051f8',
@@ -10177,6 +10622,7 @@ With the lending products set to go live in February, the project is poised to a
   {
     index: 2015,
     cmcId: 33841,
+    version: '1.0.0',
     chainId: ChainId.ARBITRUM,
     contractAddress: {
       [ChainId.ARBITRUM]: '0x09b606f1E9e90FB6C05b1842e48b41759Db9eea1',
@@ -10203,6 +10649,7 @@ With the lending products set to go live in February, the project is poised to a
   {
     index: 2014,
     cmcId: 33841,
+    version: '1.0.0',
     chainId: ChainId.ARBITRUM,
     contractAddress: {
       [ChainId.ARBITRUM]: '0xD2299a9e414332681045EF4E75ED05e33F186aD7',
@@ -10229,6 +10676,7 @@ With the lending products set to go live in February, the project is poised to a
   {
     index: 2013,
     cmcId: 33841,
+    version: '1.0.0',
     chainId: ChainId.ARBITRUM,
     contractAddress: {
       [ChainId.ARBITRUM]: '0xF863c44fA799A7BE6a7025bfadB9FA71E2d286a3',
@@ -10255,6 +10703,7 @@ With the lending products set to go live in February, the project is poised to a
   {
     index: 2012,
     cmcId: 33841,
+    version: '1.0.0',
     chainId: ChainId.ARBITRUM,
     contractAddress: {
       [ChainId.ARBITRUM]: '0xe6570fC8e44626dDCc2Fb2b0bbc1be292C01C2c9',
@@ -10280,6 +10729,7 @@ With the lending products set to go live in February, the project is poised to a
   },
   {
     index: 2011,
+    version: '1.0.0',
     chainId: ChainId.ARBITRUM,
     contractAddress: {
       [ChainId.ARBITRUM]: '0xe787aE5Ced57C4E0fd9E59386649151bBf152D9f',
@@ -10305,6 +10755,7 @@ With the lending products set to go live in February, the project is poised to a
   },
   {
     index: 2010,
+    version: '1.0.0',
     chainId: ChainId.ARBITRUM,
     contractAddress: {
       [ChainId.ARBITRUM]: '0xFf37beA9d7B547c67bd7eec8b8A4F341Ff8a266c',
@@ -10331,6 +10782,7 @@ With the lending products set to go live in February, the project is poised to a
   {
     index: 2009,
     cmcId: 24203,
+    version: '1.0.0',
     chainId: ChainId.ARBITRUM,
     contractAddress: {
       [ChainId.ARBITRUM]: '0xFFcdD3724F785Ce14b283F271C29990b59B18158',
@@ -10356,6 +10808,7 @@ With the lending products set to go live in February, the project is poised to a
   },
   {
     index: 2008,
+    version: '1.0.0',
     chainId: ChainId.ARBITRUM,
     contractAddress: {
       [ChainId.ARBITRUM]: '0xac65F692E6F9c7A53bc3EE8904Eda4982BD8ad07',
@@ -10382,6 +10835,7 @@ With the lending products set to go live in February, the project is poised to a
   {
     index: 2007,
     cmcId: 21118,
+    version: '1.0.0',
     chainId: ChainId.ARBITRUM,
     contractAddress: {
       [ChainId.ARBITRUM]: '0x11471B6CdBE6F4cd4F5830a8Ef40780d1bdebB6C',
@@ -10410,6 +10864,7 @@ With the lending products set to go live in February, the project is poised to a
   {
     index: 2006,
     cmcId: 18007,
+    version: '1.0.0',
     chainId: ChainId.ARBITRUM,
     contractAddress: {
       [ChainId.ARBITRUM]: '0x2041530d4542d7da1FdDCb0DF499C2c8C14CCA6f',
@@ -10437,6 +10892,7 @@ With the lending products set to go live in February, the project is poised to a
   },
   {
     index: 2005,
+    version: '1.0.0',
     chainId: ChainId.ARBITRUM,
     contractAddress: {
       [ChainId.ARBITRUM]: '0x0C61d2E4abCBeF83B5c61739194A26B8ED6A504b',
@@ -10463,6 +10919,7 @@ With the lending products set to go live in February, the project is poised to a
   },
   {
     index: 2004,
+    version: '1.0.0',
     chainId: ChainId.ARBITRUM,
     contractAddress: {
       [ChainId.ARBITRUM]: '0x04dA96Fb9F43491D3601F2b04424ABE7F12F700d',
@@ -10487,6 +10944,7 @@ With the lending products set to go live in February, the project is poised to a
   },
   {
     index: 2003,
+    version: '1.0.0',
     chainId: ChainId.ARBITRUM,
     contractAddress: {
       [ChainId.ARBITRUM]: '0xb5022e9DE06793D74c7892cD0e7D820cdEd05611',
@@ -10508,6 +10966,7 @@ With the lending products set to go live in February, the project is poised to a
   },
   {
     index: 2002,
+    version: '1.0.0',
     chainId: ChainId.ARBITRUM,
     contractAddress: {
       [ChainId.ARBITRUM]: '0xd194D68eF1055741c943958002A19622f5141E86',
@@ -10529,6 +10988,7 @@ With the lending products set to go live in February, the project is poised to a
   },
   {
     index: 2001,
+    version: '1.0.0',
     chainId: ChainId.ARBITRUM,
     contractAddress: {
       [ChainId.ARBITRUM]: '0x9Bd72c6c69cC314AdfF396cC2b34fF7e7fbd68ad',
@@ -10553,6 +11013,7 @@ With the lending products set to go live in February, the project is poised to a
   */
   {
     index: 3000,
+    version: '1.0.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0x0EA92F3a9652a5f8a3C6123578276915b76411E9',
@@ -10581,6 +11042,7 @@ With the lending products set to go live in February, the project is poised to a
   },
   {
     index: 3001,
+    version: '1.0.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0x9fD6CA9F2E8eeac75EFCeB56271DD5F0988546cE',
@@ -10609,6 +11071,7 @@ With the lending products set to go live in February, the project is poised to a
   {
     index: 3002,
     cmcId: 11919,
+    version: '1.0.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0xb44dE605a67fc95F239c0Ccf7086a5E1Aaf7A38C',
@@ -10638,6 +11101,7 @@ With the lending products set to go live in February, the project is poised to a
   },
   {
     index: 3003,
+    version: '1.0.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0x8fCabf87bB618eEb42237839ed98dc99Ee7ab165',
@@ -10664,6 +11128,7 @@ With the lending products set to go live in February, the project is poised to a
   },
   {
     index: 3004,
+    version: '1.0.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0xC0d4000b40B5F871d0e9DA2e2352bFcaE2E513bB',
@@ -10692,6 +11157,7 @@ With the lending products set to go live in February, the project is poised to a
   {
     index: 3005,
     cmcId: 25404,
+    version: '1.0.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0xA695B31319ea84E8fCC552F4648515970cD34B16',
@@ -10720,6 +11186,7 @@ With the lending products set to go live in February, the project is poised to a
   },
   {
     index: 3006,
+    version: '1.0.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0x5fa4A0df090f6728Bd61EbCB821bDf533B0ecd1F',
@@ -10746,6 +11213,7 @@ With the lending products set to go live in February, the project is poised to a
   },
   {
     index: 3007,
+    version: '1.0.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0x6321eD6E53B3c7Eaef7136632bae9b13B4a53976',
@@ -10772,6 +11240,7 @@ With the lending products set to go live in February, the project is poised to a
   },
   {
     index: 3008,
+    version: '1.0.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0x0BA50Abf5deA07b378189011833C1DBf71879806',
@@ -10799,6 +11268,7 @@ With the lending products set to go live in February, the project is poised to a
   {
     index: 3009,
     cmcId: 29157,
+    version: '1.0.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0x6398Cf53F66DfEaA1B290D466765883cC2F23423',
@@ -10837,6 +11307,7 @@ With the lending products set to go live in February, the project is poised to a
   {
     index: 3010,
     cmcId: 21685,
+    version: '1.0.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0x1E3C53D776AD4d3045575298d821b29AA76e4581',
@@ -10867,6 +11338,7 @@ With the lending products set to go live in February, the project is poised to a
   {
     index: 3011,
     cmcId: 29157,
+    version: '1.0.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0x17924734790989DfbFA7e4733E81b99A7A7c80De',
@@ -10904,6 +11376,7 @@ With the lending products set to go live in February, the project is poised to a
   },
   {
     index: 3012,
+    version: '1.0.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0x1bE1BD09c887c8373c04B6aC870A1053d2A5f89C',
@@ -10932,6 +11405,7 @@ With the lending products set to go live in February, the project is poised to a
   {
     index: 3013,
     cmcId: 29485,
+    version: '1.0.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0x4ABF75d7aD63a20A0C5866eDfDA045B6a448f53A',
@@ -10962,6 +11436,7 @@ With the lending products set to go live in February, the project is poised to a
   {
     index: 3014,
     cmcId: 29157,
+    version: '1.0.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0xCB51Ace23aef20278b669EC6659E02E24768EAA5',
@@ -11000,6 +11475,7 @@ With the lending products set to go live in February, the project is poised to a
   {
     index: 3015,
     cmcId: 29665,
+    version: '1.0.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0x354f89AD3d986d407D7B5E0Edf98f6A1Ab2c0990',
@@ -11030,6 +11506,7 @@ With the lending products set to go live in February, the project is poised to a
   {
     index: 3016,
     cmcId: 29693,
+    version: '1.0.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0x990E28bcea636bb2E702A4BBBAE61Cf779B8DABf',
@@ -11059,6 +11536,7 @@ With the lending products set to go live in February, the project is poised to a
   {
     index: 3017,
     cmcId: 30680,
+    version: '1.0.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0x419c0a5734ba5f54A2C56bf18165b7494023e6De',
@@ -11087,6 +11565,7 @@ With the lending products set to go live in February, the project is poised to a
   {
     index: 3018,
     cmcId: 30680,
+    version: '1.0.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0x7f13f5b005b22277dba689250eEd455D39de1E65',
@@ -11115,6 +11594,7 @@ With the lending products set to go live in February, the project is poised to a
   {
     index: 3019,
     cmcId: 29693,
+    version: '1.0.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0xE020B27efA5c9D2B73AF0127202fcB7162E745EA',
@@ -11144,6 +11624,7 @@ With the lending products set to go live in February, the project is poised to a
   {
     index: 3020,
     cmcId: 29157,
+    version: '1.0.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0xEFDC2F01a9Ed60F38Fa2fA966B7f340D51777866',
@@ -11180,6 +11661,7 @@ With the lending products set to go live in February, the project is poised to a
   },
   {
     index: 3021,
+    version: '1.0.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0x0464BE7e0F27c9b18e4D8020be2bac0D44720f61',
@@ -11207,6 +11689,7 @@ With the lending products set to go live in February, the project is poised to a
   },
   {
     index: 3022,
+    version: '1.0.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0x8171eD3Ad27Bb1139f3e7Aa6B8b2e2f6aF987534',
@@ -11234,6 +11717,7 @@ With the lending products set to go live in February, the project is poised to a
   },
   {
     index: 3023,
+    version: '1.0.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0x22943D8b3317aac74B5c396924d0e95108742Ec3',
@@ -11262,6 +11746,7 @@ With the lending products set to go live in February, the project is poised to a
   {
     index: 3024,
     cmcId: 30680,
+    version: '1.0.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0xC6110E2966632b4E6ED7c1Ee4CD6DFb7F1fb1F75',
@@ -11290,6 +11775,7 @@ With the lending products set to go live in February, the project is poised to a
   {
     index: 3025,
     cmcId: 29693,
+    version: '1.0.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0x3260866c921b167c455bfB8463Dea74B93a563E0',
@@ -11319,6 +11805,7 @@ With the lending products set to go live in February, the project is poised to a
   {
     index: 3026,
     cmcId: 30680,
+    version: '1.0.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0x7846be63392Eb9953a36B210f103AfFD9D354FCb',
@@ -11347,6 +11834,7 @@ With the lending products set to go live in February, the project is poised to a
   {
     index: 3027,
     cmcId: 30680,
+    version: '1.0.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0x203d1F8AcD44E629d198B7300007086129bCE114',
@@ -11375,6 +11863,7 @@ With the lending products set to go live in February, the project is poised to a
   {
     index: 3028,
     cmcId: 9029,
+    version: '1.0.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0x1502c847FF2639Ea81a5718c2D90cD2Ca6938fa2',
@@ -11402,6 +11891,7 @@ With the lending products set to go live in February, the project is poised to a
   {
     index: 3029,
     cmcId: 29157,
+    version: '1.0.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0xB6eD56f19D4E4E5887ca0c5231122784Be47Aa85',
@@ -11439,6 +11929,7 @@ With the lending products set to go live in February, the project is poised to a
   {
     index: 3030,
     cmcId: 23421,
+    version: '1.0.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0xF13845c62Ea20aA62f2540287D38E5b197D28F59',
@@ -11465,6 +11956,7 @@ With the lending products set to go live in February, the project is poised to a
   {
     index: 3031,
     cmcId: 32686,
+    version: '1.0.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0x6aC3fb2A8c9714915F2018cb0fBE63CF10495aB4',
@@ -11491,6 +11983,7 @@ With the lending products set to go live in February, the project is poised to a
   {
     index: 3032,
     cmcId: 30902,
+    version: '1.0.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0xE26D0184cF105e18128360E8Ff192667E59475D7',
@@ -11517,6 +12010,7 @@ With the lending products set to go live in February, the project is poised to a
   {
     index: 3033,
     cmcId: 29157,
+    version: '1.0.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0xC853Ff18536C5e4a39aEE2495D422a26353a9b89',
@@ -11553,6 +12047,7 @@ With the lending products set to go live in February, the project is poised to a
   },
   {
     index: 3034,
+    version: '1.0.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0xb6d1009B4700a50bf0F414d3367D3a6c3Cb28fb6',
@@ -11579,6 +12074,7 @@ With the lending products set to go live in February, the project is poised to a
   {
     index: 3035,
     cmcId: 31716,
+    version: '1.0.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0xdE5a7D2815782d0f3426fD7bA29010dECb543216',
@@ -11605,6 +12101,7 @@ With the lending products set to go live in February, the project is poised to a
   {
     index: 3036,
     cmcId: 30680,
+    version: '1.0.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0x06beB6BbafB435292BaACF3ce5FD57F6f1757a94',
@@ -11634,6 +12131,7 @@ With the lending products set to go live in February, the project is poised to a
   {
     index: 3037,
     cmcId: 31716,
+    version: '1.0.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0x7bAf8F7DfDF6DB211f7495411E0A980076E6616E',
@@ -11661,6 +12159,7 @@ With the lending products set to go live in February, the project is poised to a
   {
     index: 3038,
     cmcId: 33148,
+    version: '1.0.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0x83194374d46eeB09c04DC032b2B91E6215A248C7',
@@ -11690,6 +12189,7 @@ With the lending products set to go live in February, the project is poised to a
   {
     index: 3039,
     cmcId: 30680,
+    version: '1.0.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0x805d8316b3C578Ca44C79D3dBC6151b232e492a6',
@@ -11718,6 +12218,7 @@ With the lending products set to go live in February, the project is poised to a
   {
     index: 3040,
     cmcId: 34778,
+    version: '1.0.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
       [ChainId.MAINNET]: '0x2Cd97f26c445DE5FE59d915BD238b8D04Ef1d78a',
