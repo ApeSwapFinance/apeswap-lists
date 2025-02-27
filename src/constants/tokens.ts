@@ -654,6 +654,19 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.UniswapV2,
     },
   },
+  spn: {
+    symbol: 'SPN',
+    address: {
+      [ChainId.BASE]: '0x035098c2A3bEa5e03b1E08e7140a5369D47Bd349',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV2,
+    },
+  },
   sam: {
     symbol: 'SAM',
     address: {
@@ -6649,6 +6662,24 @@ const tokens: Record<string, Token> = {
     getLpUrl: {
       [ChainId.BASE]:
         'https://app.uniswap.org/add/v2/0x4200000000000000000000000000000000000006/0x59f680f431f5280e7662b96f2dfa195d1693852d',
+    },
+  },
+  spnUsdc_UNI: {
+    symbol: 'USDC-SPN',
+    address: {
+      [ChainId.BASE]: '0x51597f069B3A8CaD5c49C055aE7f4f80B70e36Db',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV2,
+    },
+    active: true,
+    lpToken: true,
+    getLpUrl: {
+      [ChainId.BASE]:
+        'https://app.uniswap.org/positions/create/v2?currencyA=0x4200000000000000000000000000000000000006&currencyB=0x59f680f431f5280e7662b96f2dfa195d1693852d',
     },
   },
   rewardWeth_Ichi: {
