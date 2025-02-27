@@ -28,6 +28,9 @@ const tokens: Record<string, Token> = {
     decimals: {
       [ChainId.BASE]: 18,
     },
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV2,
+    },
     active: true,
   },
   xfi: {
