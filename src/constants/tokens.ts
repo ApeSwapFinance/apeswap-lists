@@ -47,12 +47,15 @@ const tokens: Record<string, Token> = {
     symbol: 'SFI',
     address: {
       [ChainId.SINGULARITY_TESTNET]: '0x6dC404EFd04B880B0Ab5a26eF461b63A12E3888D',
+      [ChainId.MAINNET]: '0x7636D8722Fdf7cd34232a915E48e96aA3eB386BF',
     },
     decimals: {
       [ChainId.SINGULARITY_TESTNET]: 18,
+      [ChainId.MAINNET]: 18,
     },
     liquidityDex: {
       [ChainId.SINGULARITY_TESTNET]: LiquidityDex.Citea,
+      [ChainId.MAINNET]: LiquidityDex.UniswapV3,
     },
     active: true,
   },
