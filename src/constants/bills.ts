@@ -5,7 +5,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Polygon Largest ID: 172
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2024
-// ETH Largest ID: 3040
+// ETH Largest ID: 3041
 // Linea Largest ID: 6012
 // Base Largest ID: 8038
 // Lightlink Largest ID: 7003
@@ -7858,33 +7858,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     Polygon Bills
   */
   {
-    index: 174,
-    version: '2.0.0',
-    chainId: ChainId.MATIC,
-    contractAddress: {
-      [ChainId.MATIC]: '0xa18f9cea32290ee731485b7d60b3db112a43bbe5',
-    },
-    billType: 'reserve',
-    billVersion: BillVersion.V2,
-    lpToken: tokens.usdc,
-    earnToken: tokens.usdt,
-    billNnftAddress: {
-      [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
-    },
-    inactive: false,
-    projectLink: 'https://film.io/',
-    twitter: 'https://x.com/Filmio_Official',
-    initTime: { [ChainId.MATIC]: 1738686666 },
-    soldOut: false,
-    billArt: {
-      collection: BillArtCollection.ApeBond_Collection1,
-    },
-    shortDescription: 'Shivam makes me horney',
-    fullDescription: `Film.io is the world's most powerful decentralized filmmaking ecosystem, revolutionizing Hollywood by transferring decision-making to creators and fans through blockchain technology. Governed by the first-ever filmmaking industry DAO, Film.io champions inclusion, equality, and diversity in global entertainment. It empowers creators and fans to collaboratively validate, fund, and distribute content in a transparent, inclusive environment, replacing traditional centralized power structures. Utilizing a dual-token model, Film.io offers FAN Tokens for governance and platform participation, while FILM Tokens support crowdfunding, DeFi loans, and NFT campaigns. Together, these tokens fuel collaboration between creators, fans, and investors, liberating the entertainment industry and fostering a new era of creative freedom.`,
-    tags: ['degen'],
-    feeInPayout: 2,
-  },
-  {
     index: 173,
     version: '1.0.0',
     chainId: ChainId.MATIC,
@@ -12216,6 +12189,35 @@ With the lending products set to go live in February, the project is poised to a
     shortDescription:
       'Muhdo combines blockchain, epigenetics, and AI to transform health and wellness. With the world’s first epigenetic test, users can discover and improve their Biological Age while earning $DNA tokens by sharing health data or engaging in ecosystem activities. $DNA token holders unlock exclusive perks like rewards, premium features, and product discounts. Muhdo’s mission is to empower proactive, personalized health solutions for lifelong vitality.',
     fullDescription: `Muhdo leverages blockchain-powered epigenetics and AI to revolutionize health and wellness. By combining cutting-edge genetic science with hyper-personalized solutions, Muhdo empowers individuals to shift from a reactive, cure-focused mindset to a proactive, prevention-first approach. Their epigenetic test enables users to discover and improve their Biological Age, unlocking transformative health insights. Participants earn $DNA tokens by sharing health data or engaging in ecosystem activities, fostering community-driven innovation. $DNA token holders enjoy exclusive benefits like special rewards, premium features, and discounts on personalized products, advancing Muhdo's mission to promote global health independence and lifelong vitality.`,
+  },
+  {
+    index: 3041,
+    cmcId: 35732,
+    version: '2.0.0',
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0x0b7226e51A479f07325A2840c3Ee3ADE21672b2A',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    lpToken: tokens.eth,
+    earnToken: tokens.sfi,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    inactive: false,
+    projectLink: 'https://singularitydao.ai/',
+    twitter: 'https://x.com/SingularityDao',
+    initTime: { [ChainId.MAINNET]: 1740650941 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['Blockchains'],
+    shortDescription:
+      'Singularity Finance is an EVM-compatible Layer-2 blockchain that brings the AI economy onchain through a compliant RWA tokenization framework, enabling the tokenization of AI compute and the monetization of AI agents. Its native utility token, SFI, powers the network by facilitating economic, operational, and governance functions, ensuring a secure, efficient, and decentralized ecosystem for AI-driven innovation.',
+    fullDescription: `Singularity Finance is an EVM-compatible Layer-2 blockchain that brings the AI economy onchain by providing a compliant framework for the tokenization of AI compute and the monetization of AI agents. The platform addresses challenges such as liquidity and accessibility by converting core elements of the AI value chain—from hardware to applications—into tokenized, yield-bearing assets that integrate seamlessly with the DeFi ecosystem. By enabling new asset classes like tokenized AI compute, Singularity Finance offers unparalleled access to the burgeoning AI market, allowing both individuals and businesses to actively participate in the growth of AI technologies. Central to this ecosystem is the SFI token, which underpins the network’s economic, operational, and governance functions while fostering a secure, efficient, and community-driven digital environment.`,
+    feeInPayout: 2,
   },
 ]
 
