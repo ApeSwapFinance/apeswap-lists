@@ -322,6 +322,64 @@
     "fullDescription": "FOMOFox is the first market-driven storytelling meme coin on IOTA EVM. Follow the thrilling journey of FOMOFox on TwitterX and help him conquer his FOMO by influencing the $FOMO Token’s market performance. Loyal holders will find countless opportunities to grow their $FOMO bags through raffles, solving riddles, or simply holding and supporting the fox. Along the way, FOMOFox faces diverse challenges and meets intriguing characters. Your influence on the market helps him make the right choices. This project offers pure entertainment and rewards those who stick with it! Join the adventure now and visit their website for more details!"
   },
   {
+    "index": 8039,
+    "version": "2.0.0",
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0xe4EB50Ab3C8839C1eF46c9F163F07de7405c05BE"
+    },
+    "billType": "liquidity",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDC-SPN",
+      "address": {
+        "8453": "0x51597f069B3A8CaD5c49C055aE7f4f80B70e36Db"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "liquidityDex": {
+        "8453": "UniswapV2"
+      },
+      "active": true,
+      "lpToken": true,
+      "getLpUrl": {
+        "8453": "https://app.uniswap.org/positions/create/v2?currencyA=0x4200000000000000000000000000000000000006&currencyB=0x59f680f431f5280e7662b96f2dfa195d1693852d"
+      }
+    },
+    "earnToken": {
+      "symbol": "SPN",
+      "address": {
+        "8453": "0x035098c2A3bEa5e03b1E08e7140a5369D47Bd349"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "8453": "UniswapV2"
+      }
+    },
+    "billNnftAddress": {
+      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "inactive": false,
+    "projectLink": "https://sapien.ai/",
+    "twitter": "https://x.com/spns_ai",
+    "audit": "https://audits.hacken.io/sapiens-labs-inc/sca-sapiens-ai-token-jan2025/",
+    "initTime": {
+      "8453": 1740745120
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["AI"],
+    "shortDescription": "Sapiens is a data-driven LLM and Telegram bot designed to enhance business development in the Web3 space by helping users identify and connect with the right people efficiently. Powered by the SPN token economy, it rewards users for contributing high-quality, validated data, ensuring accurate and up-to-date insights. With a reputation-based system, Sapiens fosters a dynamic, community-driven ecosystem for smarter sales intelligence.",
+    "fullDescription": "Sapiens is a data-driven LLM and Telegram bot designed to revolutionize business development in the Web3 space by enabling sales teams to identify and connect with the right people faster and smarter. Powered by the SPN token economy, it incentivizes users to contribute high-quality, validated data, ensuring accurate, up-to-date insights for lead generation. By addressing key challenges in sales intelligence—such as data aggregation, accuracy, and scalability—Sapiens streamlines outreach and empowers teams with intelligent lead management. Its advanced AI capabilities analyze and validate data in real time, helping businesses make informed decisions and optimize their networking strategies. With a community-driven approach, Sapiens fosters sustained platform growth through SPN token rewards and a reputation-based system, motivating users to enhance the quality of business intelligence. By integrating AI, tokenization, and user-driven data validation, Sapiens creates a dynamic, self-improving ecosystem that transforms Web3 networking and sales into a more efficient and reliable process.",
+    "feeInPayout": 2
+  },
+  {
     "index": 8038,
     "version": "1.0.0",
     "chainId": 8453,

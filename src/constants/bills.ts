@@ -7,7 +7,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Arbitrum Largest ID: 2024
 // ETH Largest ID: 3041
 // Linea Largest ID: 6012
-// Base Largest ID: 8038
+// Base Largest ID: 8039
 // Lightlink Largest ID: 7003
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
@@ -199,6 +199,34 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
+  {
+    index: 8039,
+    version: '2.0.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0xe4EB50Ab3C8839C1eF46c9F163F07de7405c05BE',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.spnUsdc_UNI,
+    earnToken: tokens.spn,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://sapien.ai/',
+    twitter: 'https://x.com/spns_ai',
+    audit: 'https://audits.hacken.io/sapiens-labs-inc/sca-sapiens-ai-token-jan2025/',
+    initTime: { [ChainId.BASE]: 1740745120 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription: `Sapiens is a data-driven LLM and Telegram bot designed to enhance business development in the Web3 space by helping users identify and connect with the right people efficiently. Powered by the SPN token economy, it rewards users for contributing high-quality, validated data, ensuring accurate and up-to-date insights. With a reputation-based system, Sapiens fosters a dynamic, community-driven ecosystem for smarter sales intelligence.`,
+    fullDescription: `Sapiens is a data-driven LLM and Telegram bot designed to revolutionize business development in the Web3 space by enabling sales teams to identify and connect with the right people faster and smarter. Powered by the SPN token economy, it incentivizes users to contribute high-quality, validated data, ensuring accurate, up-to-date insights for lead generation. By addressing key challenges in sales intelligence—such as data aggregation, accuracy, and scalability—Sapiens streamlines outreach and empowers teams with intelligent lead management. Its advanced AI capabilities analyze and validate data in real time, helping businesses make informed decisions and optimize their networking strategies. With a community-driven approach, Sapiens fosters sustained platform growth through SPN token rewards and a reputation-based system, motivating users to enhance the quality of business intelligence. By integrating AI, tokenization, and user-driven data validation, Sapiens creates a dynamic, self-improving ecosystem that transforms Web3 networking and sales into a more efficient and reliable process.`,
+    feeInPayout: 2,
+  },
   {
     index: 8038,
     version: '1.0.0',
