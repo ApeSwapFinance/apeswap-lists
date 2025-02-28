@@ -2,7 +2,7 @@ import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, MigrationVestingTerms } from '../types'
 
 // BNB Largest ID: 1123
-// Polygon Largest ID: 172
+// Polygon Largest ID: 174
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2024
 // ETH Largest ID: 3041
@@ -7885,6 +7885,37 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   /*
     Polygon Bills
   */
+  {
+    index: 174,
+    cmcId: 12312,
+    version: '2.0.0',
+    chainId: ChainId.MATIC,
+    contractAddress: {
+      [ChainId.MATIC]: '0x3E53F156fbE6c3a2faE7ad2e4E83e3d4C493944e',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdt,
+    earnToken: tokens.nsdx,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+    },
+    inactive: false,
+    projectLink: 'https://www.nasdex.xyz/',
+    twitter: 'https://twitter.com/nasdex_xyz',
+    audit: 'https://hacken.io/audits/nasdex',
+    initTime: { [ChainId.MATIC]: 1740759360 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Quickswap_Collection1,
+    },
+    bondPartner: 'QuickSwap',
+    shortDescription:
+      'Nasdex is a regulated, semi-decentralized RWA marketplace that empowers users to trade and invest in a diverse array of tokenized real-world assets, including private equity, private credit, bonds, derivatives, and real estate. It is the premier regulated marketplace for tokenized real-world assets.',
+    fullDescription: `Nasdex is a regulated, semi-decentralized RWA marketplace that empowers users to trade and invest in a diverse array of tokenized real-world assets, including private equity, private credit, bonds, derivatives, and real estate. It is the premier regulated marketplace for tokenized real-world assets. With NASDEX, the future of finance is not just decentralized; it's personalized, accessible, and inherently global. NASDEX is poised to revolutionize the intersection of traditional finance (TradFi) and decentralized finance (DeFi), serving as an unparalleled conduit between these two pivotal spheres. Initially carving out its niche as the foremost decentralized exchange facilitating the on-chain trading of Asian stocks, NASDEX's scope has now significantly broadened to encompass the global market. It proudly offers the tokenization of a broad array of real-world assets, including but not limited to stocks, derivatives, and real estate, spanning every corner of the globe. NASDEX is designed to serve as a bridge between the real world and the crypto world, with the belief that the on-chain adoption of real-world asset classes will deliver increased accessibility and improved capabilities for both traditional and crypto investors.`,
+    tags: ['RWA'],
+    feeInPayout: 2,
+  },
   {
     index: 173,
     version: '1.0.0',
