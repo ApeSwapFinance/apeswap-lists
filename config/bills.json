@@ -15685,7 +15685,7 @@
     "initTime": {
       "137": 1737654313
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "Quickswap_Collection1"
     },
