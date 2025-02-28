@@ -7898,7 +7898,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     lpToken: tokens.usdt,
     earnToken: tokens.nsdx,
     billNnftAddress: {
-      [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+      [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E', // this was deployed to a Polygon's NFT instead of QuickSwap's NFT by mistake.
     },
     inactive: false,
     projectLink: 'https://www.nasdex.xyz/',
