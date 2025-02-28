@@ -7904,7 +7904,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/nasdex_xyz',
     audit: 'https://hacken.io/audits/nasdex',
     initTime: { [ChainId.MATIC]: 1737654313 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
