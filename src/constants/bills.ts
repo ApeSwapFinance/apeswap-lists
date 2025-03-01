@@ -439,6 +439,7 @@ const bills: BillsConfig[] = [
     fullDescription:
       'Metahorse Unity is a groundbreaking multiplayer, play-to-earn RPG racing game developed on the blockchain by Hungri Games, offering a decentralized ecosystem enriched with a diverse NFT collection and an immersive horse metaverse. Players can team up with friends, strategize, and compete against others to earn token rewards across various modes including MOBA, RPG, and strategy, with regular updates and exciting rewards to keep gameplay fresh. Focused on personal skill and teamwork, Metahorse Unity delivers the thrill of competitive racing, tactical battles, and endless customization options for horses, blending both Free-to-Play and Play-to-Earn models. Founded in 2019, Hungri Games has developed and published three RPG titles on mobile, with a global team of over 32 members specializing in game design, blockchain development, HR, and more. In Metahorse Unity, players can play casually with free heroes or level up by acquiring NFTs to start earning, creating their own stable of Meta Horses and harnessing strategic prowess to conquer the racetrack, outshining global rivals and reaping incredible rewards.',
     tags: ['GAMEFI'],
+    minTier: 3,
   },
   {
     index: 8030,
