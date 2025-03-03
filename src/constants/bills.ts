@@ -1863,7 +1863,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.BSC]: 1737464986 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -2008,7 +2008,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/ai_malls',
     audit: 'https://skynet.certik.com/projects/aimalls',
     initTime: { [ChainId.BSC]: 1735061278 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -2319,7 +2319,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://x.com/ordifyworld',
     audit: 'https://skynet.certik.com/projects/ordify',
     initTime: { [ChainId.BSC]: 1733406965 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -7991,7 +7991,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://film.io/',
     twitter: 'https://x.com/Filmio_Official',
     initTime: { [ChainId.MATIC]: 1736765165 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -10389,7 +10389,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://crosscurve.fi/',
     twitter: 'https://x.com/eywaprotocol',
     initTime: { [ChainId.ARBITRUM]: 1740392447 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
