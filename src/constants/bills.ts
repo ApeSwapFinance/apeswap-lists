@@ -8055,6 +8055,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'YayPal transforms gaming by blending fun with an active lifestyle. With $ACTIVE, gamers unlock shared achievements, leaderboards, and personalized NFTs across multiple games. The AI Motivation Engine boosts engagement with fitness challenges and rewards. From conquering virtual realms to real-world discounts and location-based offers, $ACTIVE bridges gaming and real-life rewards seamlessly.',
     fullDescription: `YayPal redefines gaming with an ecosystem that merges fun, fitness, and rewards. At its core, $ACTIVE powers shared points, leaderboards, and personalized NFTs across games. Gamers switch between casual and Move 2 Play modes, earning rewards while staying active. Walkopoly incentivizes physical activity with tokenized property trading, while the AI Motivation Engine offers personalized challenges. $ACTIVE also unlocks discounts, location-based offers, and a dynamic NFT marketplace, bridging gaming and real-life value.`,
     tags: ['GAMEFI'],
+    minTier: 4,
   },
   {
     index: 168,
