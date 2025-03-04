@@ -10376,12 +10376,12 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     version: '2.0.0',
     chainId: ChainId.BASE,
     contractAddress: {
-      [ChainId.BASE]: '0x77ddB822FcF0Cc7228dAc5F7ef9a13a69251e235',
+      [ChainId.BASE]: '0xb17E536aB36112bb524aDEd0079c43F4349B0543',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    lpToken: tokens.usdc,
-    earnToken: tokens.usdt,
+    lpToken: tokens.usdt,
+    earnToken: tokens.usdc,
     billNnftAddress: {
       [ChainId.BASE]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
     },

@@ -20507,24 +20507,11 @@
     "version": "2.0.0",
     "chainId": 8453,
     "contractAddress": {
-      "8453": "0x77ddB822FcF0Cc7228dAc5F7ef9a13a69251e235"
+      "8453": "0xb17E536aB36112bb524aDEd0079c43F4349B0543"
     },
     "billType": "reserve",
     "billVersion": "V2",
     "lpToken": {
-      "symbol": "USDC",
-      "address": {
-        "8453": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
-      },
-      "decimals": {
-        "8453": 6
-      },
-      "liquidityDex": {
-        "8453": "Aerodrome"
-      },
-      "active": true
-    },
-    "earnToken": {
       "symbol": "USDT",
       "address": {
         "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2"
@@ -20534,6 +20521,19 @@
       },
       "liquidityDex": {
         "8453": "UniswapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "USDC",
+      "address": {
+        "8453": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+      },
+      "decimals": {
+        "8453": 6
+      },
+      "liquidityDex": {
+        "8453": "Aerodrome"
       },
       "active": true
     },
