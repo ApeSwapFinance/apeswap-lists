@@ -1,8 +1,8 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1123
-// Polygon Largest ID: 174
+// BNB Largest ID: 1124
+// Polygon Largest ID: 175
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2025
 // ETH Largest ID: 3041
@@ -1785,6 +1785,45 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1124,
+    cmcId: 29157,
+    version: '2.0.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0xC1945E9CC779c24143A221e46dddb3BEce936065',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdt,
+    earnToken: tokens.abond,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://ape.bond/',
+    twitter: 'https://twitter.com/apebond',
+    audit: 'https://paladinsec.co/projects/apebond/',
+    initTime: { [ChainId.BSC]: 1741085030 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    shortDescription:
+      'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
+    fullDescription:
+      'ApeBond is building a sustainable DeFi future through its innovative Bonds products and strategic partnerships. Known for its Crowdsource OTC solution and treasury diversification expertise, ApeBond has launched Bonds with over 140 partners, sold 38,000+ Bonds for a total of $14,000,000 USD, and achieved a top 10 Dapp status by daily active users (DAU) according to CoinMarketCap. The ABOND token ties users with the platform by unlocking special Bonds, new earning opportunities, and more utilities coming up in the pipeline.',
+    tags: ['Bonding'],
+    partnersURLS: [
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/Seedify_fbt392.svg',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613244/ORBS_anzm60.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/quickLogo_2_1_g95ynz.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/aitech_logo_100_real_no_fake_bjskiq.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
+    ],
+    feeInPayout: 2,
+  },
   {
     index: 1123,
     cmcId: 35157,
@@ -7885,6 +7924,35 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   /*
     Polygon Bills
   */
+  {
+    index: 175,
+    cmcId: 29604,
+    version: '2.0.0',
+    chainId: ChainId.MATIC,
+    contractAddress: {
+      [ChainId.MATIC]: '0xC0245B5C3aFA7E1Fc6B89C5aaC6628Dd272E02dB',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdtFan_Ichi,
+    earnToken: tokens.fan,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
+    },
+    inactive: false,
+    projectLink: 'https://film.io/',
+    twitter: 'https://x.com/Filmio_Official',
+    initTime: { [ChainId.MATIC]: 1741085030 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    shortDescription:
+      'Film.io is a decentralized filmmaking ecosystem that puts Hollywood decision-making into the hands of creators and fans through blockchain technology. Governed by a filmmaking industry DAO, it champions inclusion, diversity, and transparency. With FAN and FILM Tokens, Film.io empowers collaboration to validate, fund, and distribute content, replacing centralized control with creative freedom.',
+    fullDescription: `Film.io is the world's most powerful decentralized filmmaking ecosystem, revolutionizing Hollywood by transferring decision-making to creators and fans through blockchain technology. Governed by the first-ever filmmaking industry DAO, Film.io champions inclusion, equality, and diversity in global entertainment. It empowers creators and fans to collaboratively validate, fund, and distribute content in a transparent, inclusive environment, replacing traditional centralized power structures. Utilizing a dual-token model, Film.io offers FAN Tokens for governance and platform participation, while FILM Tokens support crowdfunding, DeFi loans, and NFT campaigns. Together, these tokens fuel collaboration between creators, fans, and investors, liberating the entertainment industry and fostering a new era of creative freedom.`,
+    tags: ['Entertainment'],
+    feeInPayout: 2,
+  },
   {
     index: 174,
     cmcId: 12312,
