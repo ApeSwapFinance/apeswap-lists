@@ -10371,6 +10371,33 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       Arbitrum Bills - ID started from 2001
   */
   {
+    index: 2026,
+    cmcId: 33841,
+    version: '2.0.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x77ddB822FcF0Cc7228dAc5F7ef9a13a69251e235',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.usdt,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
+    },
+    inactive: false,
+    projectLink: 'https://crosscurve.fi/',
+    twitter: 'https://x.com/eywaprotocol',
+    initTime: { [ChainId.BASE]: 1741021108 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DeFi'],
+    shortDescription: `asd`,
+    fullDescription: `asd`,
+  },
+  {
     index: 2025,
     cmcId: 33841,
     version: '1.0.0',
