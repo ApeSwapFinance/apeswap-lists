@@ -38,6 +38,7 @@ export enum ChainId {
   BLAST = 81457,
   SINGULARITY_TESTNET = 751,
   CROSSFI = 4158,
+  SONIC = 146,
 }
 
 export enum LiquidityDex {
