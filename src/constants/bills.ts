@@ -1472,7 +1472,7 @@ const bills: BillsConfig[] = [
     audit:
       'https://lineascan.build/token/0x81BE2aCB2e9291dB6400f9f6a4D0f35f24de2E77?a=0xc9f2a5115b727849e067da85a0ff422732a358a7#code',
     initTime: { [ChainId.LINEA]: 1741191121 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
