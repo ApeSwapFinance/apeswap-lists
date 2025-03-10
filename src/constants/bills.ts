@@ -5,7 +5,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Polygon Largest ID: 175
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2025
-// ETH Largest ID: 3041
+// ETH Largest ID: 3042
 // Linea Largest ID: 6013
 // Base Largest ID: 8039
 // Lightlink Largest ID: 7003
@@ -12473,6 +12473,35 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://singularitydao.ai/',
     twitter: 'https://x.com/SingularityDao',
     initTime: { [ChainId.MAINNET]: 1740650941 },
+    soldOut: true,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['Blockchains'],
+    shortDescription:
+      'Singularity Finance is an EVM-compatible Layer-2 blockchain that brings the AI economy onchain through a compliant RWA tokenization framework, enabling the tokenization of AI compute and the monetization of AI agents. Its native utility token, SFI, powers the network by facilitating economic, operational, and governance functions, ensuring a secure, efficient, and decentralized ecosystem for AI-driven innovation.',
+    fullDescription: `Singularity Finance is an EVM-compatible Layer-2 blockchain that brings the AI economy onchain by providing a compliant framework for the tokenization of AI compute and the monetization of AI agents. The platform addresses challenges such as liquidity and accessibility by converting core elements of the AI value chain—from hardware to applications—into tokenized, yield-bearing assets that integrate seamlessly with the DeFi ecosystem. By enabling new asset classes like tokenized AI compute, Singularity Finance offers unparalleled access to the burgeoning AI market, allowing both individuals and businesses to actively participate in the growth of AI technologies. Central to this ecosystem is the SFI token, which underpins the network’s economic, operational, and governance functions while fostering a secure, efficient, and community-driven digital environment.`,
+    feeInPayout: 2,
+  },
+  {
+    index: 3042,
+    cmcId: 35732,
+    version: '2.0.0',
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0x13BC2b0EaE7a6d3b4De33a47a9570a3830C3f4bE',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    lpToken: tokens.eth,
+    earnToken: tokens.sfi,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    inactive: false,
+    projectLink: 'https://singularitydao.ai/',
+    twitter: 'https://x.com/SingularityDao',
+    initTime: { [ChainId.MAINNET]: 1741637519 },
     soldOut: false,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
