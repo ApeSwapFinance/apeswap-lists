@@ -24504,6 +24504,60 @@
     "initTime": {
       "1": 1740650941
     },
+    "soldOut": true,
+    "billArt": {
+      "collection": "ETH_Collection1"
+    },
+    "tags": ["Blockchains"],
+    "shortDescription": "Singularity Finance is an EVM-compatible Layer-2 blockchain that brings the AI economy onchain through a compliant RWA tokenization framework, enabling the tokenization of AI compute and the monetization of AI agents. Its native utility token, SFI, powers the network by facilitating economic, operational, and governance functions, ensuring a secure, efficient, and decentralized ecosystem for AI-driven innovation.",
+    "fullDescription": "Singularity Finance is an EVM-compatible Layer-2 blockchain that brings the AI economy onchain by providing a compliant framework for the tokenization of AI compute and the monetization of AI agents. The platform addresses challenges such as liquidity and accessibility by converting core elements of the AI value chain—from hardware to applications—into tokenized, yield-bearing assets that integrate seamlessly with the DeFi ecosystem. By enabling new asset classes like tokenized AI compute, Singularity Finance offers unparalleled access to the burgeoning AI market, allowing both individuals and businesses to actively participate in the growth of AI technologies. Central to this ecosystem is the SFI token, which underpins the network’s economic, operational, and governance functions while fostering a secure, efficient, and community-driven digital environment.",
+    "feeInPayout": 2
+  },
+  {
+    "index": 3042,
+    "cmcId": 35732,
+    "version": "2.0.0",
+    "chainId": 1,
+    "contractAddress": {
+      "1": "0x13BC2b0EaE7a6d3b4De33a47a9570a3830C3f4bE"
+    },
+    "billType": "reserve",
+    "billVersion": "V3",
+    "lpToken": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+      },
+      "decimals": {
+        "1": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "SFI",
+      "address": {
+        "1": "0x7636D8722Fdf7cd34232a915E48e96aA3eB386BF"
+      },
+      "decimals": {
+        "1": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "1": "0x499b654b0a7f9979cc315190c09ca2633809b8df"
+    },
+    "inactive": false,
+    "projectLink": "https://singularitydao.ai/",
+    "twitter": "https://x.com/SingularityDao",
+    "initTime": {
+      "1": 1741637519
+    },
     "soldOut": false,
     "billArt": {
       "collection": "ETH_Collection1"
