@@ -1,5 +1,58 @@
 [
   {
+    "index": 15000,
+    "version": "2.0.0",
+    "chainId": 146,
+    "contractAddress": {
+      "146": "0xf161E0D7A21715c47bDa8c6C56c4aa3ECCE01f96"
+    },
+    "billType": "reserve",
+    "billVersion": "V3",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "146": "0x29219dd400f2Bf60E5a23d13Be72B486D4038894"
+      },
+      "decimals": {
+        "146": 6
+      },
+      "liquidityDex": {
+        "146": "ShadowExchange"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "S",
+      "address": {
+        "146": "0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38"
+      },
+      "decimals": {
+        "146": 18
+      },
+      "liquidityDex": {
+        "146": "ShadowExchange"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "146": "0xc765C358622cB346f236F8Bfffe53036e421bb4e"
+    },
+    "inactive": false,
+    "projectLink": "https://www.soniclabs.com",
+    "twitter": "https://x.com/SonicLabs",
+    "initTime": {
+      "146": 1741808857
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["Blockchains"],
+    "shortDescription": "lorem ipsum",
+    "fullDescription": "lorem ipsum dolor sit amet",
+    "feeInPayout": 0
+  },
+  {
     "index": 14000,
     "version": "2.0.0",
     "chainId": 10143,
