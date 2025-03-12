@@ -737,7 +737,7 @@ export const dexFactories: Partial<
   },
   [ChainId.SONIC]: {
     [LiquidityDex.ShadowExchange]: {
-      factory: '	0x2dA25E7446A70D7be65fd4c053948BEcAA6374c8',
+      factory: '0x2dA25E7446A70D7be65fd4c053948BEcAA6374c8',
       protocol: Protocols.Solidly,
     },
     // [LiquidityDex.ShadowExchangeV3]: {
