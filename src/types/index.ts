@@ -58,6 +58,7 @@ export enum LiquidityDex {
   QuickswapV2 = 'QuickswapV2',
   UniswapV3 = 'UniswapV3',
   Curve = 'Curve',
+  Wagmi = 'Wagmi',
   External = 'External',
 
   //Linea
@@ -77,7 +78,6 @@ export enum LiquidityDex {
 
   //IOTA
   MagicSea = 'MagicSea',
-  Wagmi = 'Wagmi',
 
   //ARBITRUM
   CamelotV2 = 'Camelotv2',
@@ -97,6 +97,12 @@ export enum LiquidityDex {
 
   //CROSSFI
   XSwap = 'XSwap',
+
+  //SONIC
+  ShadowExchange = 'ShadowExchange', //V2
+  // ShadowExchangeV3 = 'ShadowExchangeV3',
+  SwapX = 'SwapX', //V2
+  SwapXAlgebraIntegral = 'SwapXAlgebraIntegral',
 }
 
 export enum IchiSupportedDex {
@@ -144,6 +150,7 @@ export enum Protocols {
   Solidly = 7,
   XFAI = 8,
   Curve = 9,
+  AlgebraIntegral = 10,
 }
 
 export enum Wrappers {
@@ -727,6 +734,28 @@ export const dexFactories: Partial<
       protocol: Protocols.V2,
     },
   },
+  [ChainId.SONIC]: {
+    [LiquidityDex.ShadowExchange]: {
+      factory: '	0x2dA25E7446A70D7be65fd4c053948BEcAA6374c8',
+      protocol: Protocols.Solidly,
+    },
+    // [LiquidityDex.ShadowExchangeV3]: {
+    //   factory: '	0xcD2d0637c94fe77C2896BbCBB174cefFb08DE6d7',
+    //   protocol: Protocols.V3,
+    // },
+    [LiquidityDex.SwapX]: {
+      factory: '0x05c1be79d3aC21Cc4B727eeD58C9B2fF757F5663',
+      protocol: Protocols.Solidly,
+    },
+    [LiquidityDex.SwapXAlgebraIntegral]: {
+      factory: '0x8121a3F8c4176E9765deEa0B95FA2BDfD3016794',
+      protocol: Protocols.AlgebraIntegral,
+    },
+    [LiquidityDex.Wagmi]: {
+      factory: '0x56CFC796bC88C9c7e1b38C2b0aF9B7120B079aef',
+      protocol: Protocols.V3,
+    },
+  },
 }
 
 export const defaultDexFactories: Partial<Record<ChainId, Partial<Record<Protocols, string>>>> = {
@@ -783,6 +812,11 @@ export const defaultDexFactories: Partial<Record<ChainId, Partial<Record<Protoco
   },
   [ChainId.CROSSFI]: {
     [Protocols.V2]: dexFactories[ChainId.CROSSFI]?.XSwap?.factory,
+  },
+  [ChainId.SONIC]: {
+    [Protocols.Solidly]: dexFactories[ChainId.SONIC]?.ShadowExchange?.factory,
+    [Protocols.V3]: dexFactories[ChainId.SONIC]?.Wagmi?.factory,
+    [Protocols.AlgebraIntegral]: dexFactories[ChainId.SONIC]?.SwapXAlgebraIntegral?.factory,
   },
 }
 
@@ -857,4 +891,7 @@ export const dexToZapMapping: Record<LiquidityDex, Partial<Record<ChainId, ZapVe
   [LiquidityDex.ThrusterV3]: {},
   [LiquidityDex.Citea]: {},
   [LiquidityDex.XSwap]: {},
+  [LiquidityDex.ShadowExchange]: {},
+  [LiquidityDex.SwapX]: {},
+  [LiquidityDex.SwapXAlgebraIntegral]: {},
 }
