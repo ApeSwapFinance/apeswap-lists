@@ -28,6 +28,9 @@ const tokens: Record<string, Token> = {
     decimals: {
       [ChainId.SONIC]: 18,
     },
+    liquidityDex: {
+      [ChainId.SONIC]: LiquidityDex.ShadowExchange,
+    },
     active: true,
   },
   chpd: {
@@ -1213,6 +1216,7 @@ const tokens: Record<string, Token> = {
       [ChainId.IOTA]: LiquidityDex.MagicSea,
       [ChainId.SINGULARITY_TESTNET]: LiquidityDex.Citea,
       [ChainId.CROSSFI]: LiquidityDex.XSwap,
+      [ChainId.SONIC]: LiquidityDex.ShadowExchange,
     },
     active: true,
   },
