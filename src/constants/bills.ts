@@ -15,7 +15,43 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Blast Largest ID: 11000
 // Singularity Testnet Largest ID: 12000
 // Crossfi Largest ID: 13000
+// Monad Testnet Largest ID: 14000
+// Sonic Largest ID: 15000
 const bills: BillsConfig[] = [
+  //
+  // Sonic
+  //
+
+  //
+  // Monad Testnet
+  //
+  {
+    index: 14000,
+    version: '2.0.0',
+    chainId: ChainId.MONAD_TESTNET,
+    contractAddress: {
+      [ChainId.MONAD_TESTNET]: '0x70Ea1a93b85D1375D2CbE04A7b93464146D166d6',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    lpToken: tokens.usdc,
+    earnToken: tokens.busd,
+    billNnftAddress: {
+      [ChainId.MONAD_TESTNET]: '0x04f1D39a5A5EFCB6e51891E01d4acCD8c434775C',
+    },
+    inactive: false,
+    projectLink: 'https://monad.xyz/',
+    twitter: 'https://x.com/monad_xyz',
+    initTime: { [ChainId.MAINNET]: 1741802400 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Blockchains'],
+    shortDescription: 'lorem ipsum',
+    fullDescription: 'lorem ipsum dolor sit amet',
+    feeInPayout: 0,
+  },
   //
   // Crossfi
   //
