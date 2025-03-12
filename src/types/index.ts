@@ -183,8 +183,9 @@ export interface MasterChef {
 export enum BillVersion {
   V1 = 'V1',
   V2 = 'V2',
-  FixedPrice = 'FixedPrice',
   V3 = 'V3',
+  V4 = 'V4', // extra bonus for tiers
+  FixedPrice = 'FixedPrice',
   TieredSale = 'TieredSale',
   FlashTieredSale = 'FlashTieredSale',
 }
