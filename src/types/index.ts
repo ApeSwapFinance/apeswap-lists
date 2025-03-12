@@ -39,6 +39,7 @@ export enum ChainId {
   SINGULARITY_TESTNET = 751,
   CROSSFI = 4158,
   SONIC = 146,
+  MONAD_TESTNET = 10143,
 }
 
 export enum LiquidityDex {
