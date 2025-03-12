@@ -821,6 +821,19 @@ const tokens: Record<string, Token> = {
       [ChainId.LINEA]: LiquidityDex.Lynex,
     },
   },
+  hotdog: {
+    symbol: 'HOTDOG',
+    address: {
+      [ChainId.LINEA]: '0xce28211Ed1b2Eeb0C909C83D273DeBE041A12EE9',
+    },
+    decimals: {
+      [ChainId.LINEA]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.LINEA]: LiquidityDex.Lynex,
+    },
+  },
   mvx: {
     symbol: 'MVX',
     address: {
