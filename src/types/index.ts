@@ -205,9 +205,10 @@ export enum BillArtCollection {
   inEVM_Collection1 = 'inEVM_Collection1',
   AITECH_Collection1 = 'AITECH_Collection1',
   GPT_Collection1 = 'GPT_Collection1',
+  GoldenTicket_Collection1 = 'GoldenTicket_Collection1',
 }
 
-export const defaultBillArtCollection = BillArtCollection.ApeSwap_Collection1
+export const defaultBillArtCollection = BillArtCollection.ApeBond_Collection1
 
 export const MigrationVestingTerms = {
   '60d': 5184000,
