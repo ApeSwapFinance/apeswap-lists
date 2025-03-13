@@ -8069,7 +8069,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     version: '2.1.0',
     chainId: ChainId.MATIC,
     contractAddress: {
-      [ChainId.MATIC]: '0xC0245B5C3aFA7E1Fc6B89C5aaC6628Dd272E02dB',
+      [ChainId.MATIC]: '0xc7df74df96f366c4993ef98e7025407cdd797153',
     },
     billType: 'reserve',
     billVersion: BillVersion.V4,
