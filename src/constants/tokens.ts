@@ -29,7 +29,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MONAD_TESTNET]: 18,
     },
     liquidityDex: {
-      [ChainId.MONAD_TESTNET]: LiquidityDex.LFJ,
+      [ChainId.MONAD_TESTNET]: LiquidityDex.PancakeSwapV2,
     },
     active: true,
   },
