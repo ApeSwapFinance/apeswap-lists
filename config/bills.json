@@ -64,28 +64,22 @@
     "lpToken": {
       "symbol": "USDC",
       "address": {
-        "10143": "0x673cD70FA883394a1f3DEb3221937Ceb7C2618D7"
+        "10143": "0xf817257fed379853cDe0fa4F97AB987181B1E5Ea"
       },
       "decimals": {
         "10143": 18
       },
       "liquidityDex": {
-        "10143": "PancakeSwapV2"
+        "10143": "LFJ"
       },
       "active": true
     },
     "earnToken": {
       "symbol": "BUSD",
-      "address": {
-        "10143": "0xcf27F781841484d5CF7e155b44954D7224caF1dD"
-      },
-      "decimals": {
-        "10143": 18
-      },
-      "liquidityDex": {
-        "10143": "PancakeSwapV2"
-      },
-      "active": true
+      "address": {},
+      "decimals": {},
+      "active": true,
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "10143": "0x04f1D39a5A5EFCB6e51891E01d4acCD8c434775C"

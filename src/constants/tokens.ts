@@ -20,6 +20,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  mon: {
+    symbol: 'MON',
+    address: {
+      [ChainId.MONAD_TESTNET]: '0x760AfE86e5de5fa0Ee542fc7B7B713e1c5425701',
+    },
+    decimals: {
+      [ChainId.MONAD_TESTNET]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MONAD_TESTNET]: LiquidityDex.LFJ,
+    },
+    active: true,
+  },
   s: {
     symbol: 'S',
     address: {
@@ -1062,15 +1075,10 @@ const tokens: Record<string, Token> = {
     address: {
       [ChainId.BSC]: '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56',
       [ChainId.BSC_TESTNET]: '0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee',
-      [ChainId.MONAD_TESTNET]: '0xcf27F781841484d5CF7e155b44954D7224caF1dD',
     },
     decimals: {
       [ChainId.BSC]: 18,
       [ChainId.BSC_TESTNET]: 18,
-      [ChainId.MONAD_TESTNET]: 18,
-    },
-    liquidityDex: {
-      [ChainId.MONAD_TESTNET]: LiquidityDex.PancakeSwapV2,
     },
     active: true,
   },
@@ -1191,7 +1199,7 @@ const tokens: Record<string, Token> = {
       [ChainId.SINGULARITY_TESTNET]: '0xD2ED81BE83B33218737Ca188EB9AC28b79C6A0F3',
       [ChainId.CROSSFI]: '0x7bBcE15166bBc008EC1aDF9b3D6bbA0602FCE7Ba',
       [ChainId.SONIC]: '0x29219dd400f2Bf60E5a23d13Be72B486D4038894',
-      [ChainId.MONAD_TESTNET]: '0x673cD70FA883394a1f3DEb3221937Ceb7C2618D7',
+      [ChainId.MONAD_TESTNET]: '0xf817257fed379853cDe0fa4F97AB987181B1E5Ea',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -1220,7 +1228,7 @@ const tokens: Record<string, Token> = {
       [ChainId.SINGULARITY_TESTNET]: LiquidityDex.Citea,
       [ChainId.CROSSFI]: LiquidityDex.XSwap,
       [ChainId.SONIC]: LiquidityDex.ShadowExchange,
-      [ChainId.MONAD_TESTNET]: LiquidityDex.PancakeSwapV2,
+      [ChainId.MONAD_TESTNET]: LiquidityDex.LFJ,
     },
     active: true,
   },

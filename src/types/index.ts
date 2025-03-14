@@ -830,7 +830,7 @@ export const defaultDexFactories: Partial<Record<ChainId, Partial<Record<Protoco
     [Protocols.AlgebraIntegral]: dexFactories[ChainId.SONIC]?.SwapXAlgebraIntegral?.factory,
   },
   [ChainId.MONAD_TESTNET]: {
-    [Protocols.V2]: dexFactories[ChainId.MONAD_TESTNET]?.PancakeSwapV2?.factory,
+    [Protocols.V2]: dexFactories[ChainId.MONAD_TESTNET]?.LFJ?.factory,
   },
 }
 
