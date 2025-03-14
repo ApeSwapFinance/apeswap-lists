@@ -1214,7 +1214,7 @@ const tokens: Record<string, Token> = {
       [ChainId.SINGULARITY_TESTNET]: 18,
       [ChainId.CROSSFI]: 6,
       [ChainId.SONIC]: 6,
-      [ChainId.MONAD_TESTNET]: 18,
+      [ChainId.MONAD_TESTNET]: 6,
     },
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
