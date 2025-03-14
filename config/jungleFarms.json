@@ -461,6 +461,7 @@
           "4158": "XSwap",
           "8453": "Aerodrome",
           "8822": "MagicSea",
+          "10143": "PancakeSwapV2",
           "42161": "UniswapV3",
           "59144": "Nile"
         },
@@ -635,6 +636,7 @@
           "4158": "XSwap",
           "8453": "Aerodrome",
           "8822": "MagicSea",
+          "10143": "PancakeSwapV2",
           "42161": "UniswapV3",
           "59144": "Nile"
         },
@@ -771,6 +773,7 @@
           "4158": "XSwap",
           "8453": "Aerodrome",
           "8822": "MagicSea",
+          "10143": "PancakeSwapV2",
           "42161": "UniswapV3",
           "59144": "Nile"
         },
@@ -984,6 +987,9 @@
           "97": 18,
           "10143": 18
         },
+        "liquidityDex": {
+          "10143": "PancakeSwapV2"
+        },
         "active": true
       }
     },
@@ -1048,6 +1054,9 @@
           "56": 18,
           "97": 18,
           "10143": 18
+        },
+        "liquidityDex": {
+          "10143": "PancakeSwapV2"
         },
         "active": true
       }
@@ -1279,6 +1288,9 @@
           "97": 18,
           "10143": 18
         },
+        "liquidityDex": {
+          "10143": "PancakeSwapV2"
+        },
         "active": true
       }
     },
@@ -1412,6 +1424,9 @@
           "56": 18,
           "97": 18,
           "10143": 18
+        },
+        "liquidityDex": {
+          "10143": "PancakeSwapV2"
         },
         "active": true
       }
@@ -2035,6 +2050,9 @@
           "56": 18,
           "97": 18,
           "10143": 18
+        },
+        "liquidityDex": {
+          "10143": "PancakeSwapV2"
         },
         "active": true
       }

@@ -345,6 +345,9 @@
         "97": 18,
         "10143": 18
       },
+      "liquidityDex": {
+        "10143": "PancakeSwapV2"
+      },
       "active": true
     },
     "rewardToken": {
@@ -445,6 +448,9 @@
         "56": 18,
         "97": 18,
         "10143": 18
+      },
+      "liquidityDex": {
+        "10143": "PancakeSwapV2"
       },
       "active": true
     },

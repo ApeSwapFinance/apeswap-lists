@@ -69,7 +69,9 @@
       "decimals": {
         "10143": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "10143": "PancakeSwapV2"
+      },
       "active": true
     },
     "earnToken": {
@@ -80,8 +82,10 @@
       "decimals": {
         "10143": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {
+        "10143": "PancakeSwapV2"
+      },
+      "active": true
     },
     "billNnftAddress": {
       "10143": "0x04f1D39a5A5EFCB6e51891E01d4acCD8c434775C"
