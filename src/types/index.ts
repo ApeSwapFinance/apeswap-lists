@@ -39,6 +39,7 @@ export enum ChainId {
   SINGULARITY_TESTNET = 751,
   CROSSFI = 4158,
   SONIC = 146,
+  MONAD_TESTNET = 10143,
 }
 
 export enum LiquidityDex {
@@ -59,6 +60,7 @@ export enum LiquidityDex {
   UniswapV3 = 'UniswapV3',
   Curve = 'Curve',
   Wagmi = 'Wagmi',
+  LFJ = 'LFJ',
   External = 'External',
 
   //Linea
@@ -83,7 +85,6 @@ export enum LiquidityDex {
   CamelotV2 = 'Camelotv2',
 
   //AVALANCHE
-  LFJ = 'LFJ',
   Pharaoh = 'Pharaoh',
   Pangolin = 'Pangolin',
 
@@ -756,6 +757,16 @@ export const dexFactories: Partial<
       protocol: Protocols.V3,
     },
   },
+  [ChainId.MONAD_TESTNET]: {
+    [LiquidityDex.PancakeSwapV2]: {
+      factory: '0x82438CE666d9403e488bA720c7424434e8Aa47CD',
+      protocol: Protocols.V2,
+    },
+    [LiquidityDex.LFJ]: {
+      factory: '0xe32D45C2B1c17a0fE0De76f1ebFA7c44B7810034',
+      protocol: Protocols.V2,
+    },
+  },
 }
 
 export const defaultDexFactories: Partial<Record<ChainId, Partial<Record<Protocols, string>>>> = {
@@ -817,6 +828,9 @@ export const defaultDexFactories: Partial<Record<ChainId, Partial<Record<Protoco
     [Protocols.Solidly]: dexFactories[ChainId.SONIC]?.ShadowExchange?.factory,
     [Protocols.V3]: dexFactories[ChainId.SONIC]?.Wagmi?.factory,
     [Protocols.AlgebraIntegral]: dexFactories[ChainId.SONIC]?.SwapXAlgebraIntegral?.factory,
+  },
+  [ChainId.MONAD_TESTNET]: {
+    [Protocols.V2]: dexFactories[ChainId.MONAD_TESTNET]?.PancakeSwapV2?.factory,
   },
 }
 
