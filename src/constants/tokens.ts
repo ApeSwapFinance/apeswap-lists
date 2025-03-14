@@ -1228,7 +1228,7 @@ const tokens: Record<string, Token> = {
       [ChainId.SINGULARITY_TESTNET]: LiquidityDex.Citea,
       [ChainId.CROSSFI]: LiquidityDex.XSwap,
       [ChainId.SONIC]: LiquidityDex.ShadowExchange,
-      [ChainId.MONAD_TESTNET]: LiquidityDex.LFJ,
+      [ChainId.MONAD_TESTNET]: LiquidityDex.PancakeSwapV2,
     },
     active: true,
   },
