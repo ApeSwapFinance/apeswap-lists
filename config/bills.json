@@ -53,6 +53,59 @@
     "feeInPayout": 0
   },
   {
+    "index": 14000,
+    "version": "2.0.0",
+    "chainId": 10143,
+    "contractAddress": {
+      "10143": "0x02369d2Ab24174BB061E08E68A2540e658Abf4af"
+    },
+    "billType": "reserve",
+    "billVersion": "V3",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "10143": "0xf817257fed379853cDe0fa4F97AB987181B1E5Ea"
+      },
+      "decimals": {
+        "10143": 6
+      },
+      "liquidityDex": {
+        "10143": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "MON",
+      "address": {
+        "10143": "0x760AfE86e5de5fa0Ee542fc7B7B713e1c5425701"
+      },
+      "decimals": {
+        "10143": 18
+      },
+      "liquidityDex": {
+        "10143": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "10143": "0x04f1D39a5A5EFCB6e51891E01d4acCD8c434775C"
+    },
+    "inactive": false,
+    "projectLink": "https://monad.xyz/",
+    "twitter": "https://x.com/monad_xyz",
+    "initTime": {
+      "1": 1741970685
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["Blockchains"],
+    "shortDescription": "lorem ipsum",
+    "fullDescription": "lorem ipsum dolor sit amet",
+    "feeInPayout": 0
+  },
+  {
     "index": 10000,
     "version": "1.0.0",
     "cmcId": 9029,

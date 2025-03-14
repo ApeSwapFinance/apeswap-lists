@@ -51,33 +51,33 @@ const bills: BillsConfig[] = [
   //
   // Monad Testnet
   //
-  // {
-  //   index: 14000,
-  //   version: '2.0.0',
-  //   chainId: ChainId.MONAD_TESTNET,
-  //   contractAddress: {
-  //     [ChainId.MONAD_TESTNET]: '0x70Ea1a93b85D1375D2CbE04A7b93464146D166d6',
-  //   },
-  //   billType: 'reserve',
-  //   billVersion: BillVersion.V3,
-  //   lpToken: tokens.usdc,
-  //   earnToken: tokens.busd,
-  //   billNnftAddress: {
-  //     [ChainId.MONAD_TESTNET]: '0x04f1D39a5A5EFCB6e51891E01d4acCD8c434775C',
-  //   },
-  //   inactive: false,
-  //   projectLink: 'https://monad.xyz/',
-  //   twitter: 'https://x.com/monad_xyz',
-  //   initTime: { [ChainId.MAINNET]: 1741802400 },
-  //   soldOut: false,
-  //   billArt: {
-  //     collection: BillArtCollection.ApeBond_Collection1,
-  //   },
-  //   tags: ['Blockchains'],
-  //   shortDescription: 'lorem ipsum',
-  //   fullDescription: 'lorem ipsum dolor sit amet',
-  //   feeInPayout: 0,
-  // },
+  {
+    index: 14000,
+    version: '2.0.0',
+    chainId: ChainId.MONAD_TESTNET,
+    contractAddress: {
+      [ChainId.MONAD_TESTNET]: '0x02369d2Ab24174BB061E08E68A2540e658Abf4af',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    lpToken: tokens.usdc,
+    earnToken: tokens.mon,
+    billNnftAddress: {
+      [ChainId.MONAD_TESTNET]: '0x04f1D39a5A5EFCB6e51891E01d4acCD8c434775C',
+    },
+    inactive: false,
+    projectLink: 'https://monad.xyz/',
+    twitter: 'https://x.com/monad_xyz',
+    initTime: { [ChainId.MAINNET]: 1741970685 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Blockchains'],
+    shortDescription: 'lorem ipsum',
+    fullDescription: 'lorem ipsum dolor sit amet',
+    feeInPayout: 0,
+  },
   //
   // Crossfi
   //
