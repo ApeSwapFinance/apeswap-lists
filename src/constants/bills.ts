@@ -8090,7 +8090,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     fullDescription: `asd`,
     tags: ['Test'],
     feeInPayout: 1,
-    minTier: LaunchBondTiers.Silver,
+    // minTier: LaunchBondTiers.Silver,
   },
   {
     index: 175,
