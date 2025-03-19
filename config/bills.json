@@ -16023,7 +16023,7 @@
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
-    "shortDescription": "BOOOOOCA BOOCA BOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOCAAAAA",
+    "shortDescription": "The tiers in this bond should match the points in production",
     "fullDescription": "asd",
     "tags": ["Test"],
     "feeInPayout": 1
@@ -16076,7 +16076,7 @@
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
-    "shortDescription": "BOOOOOCA BOOCA BOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOCAAAAA",
+    "shortDescription": "The tiers on this bond have been modified for testing purposes",
     "fullDescription": "asd",
     "tags": ["Test"],
     "feeInPayout": 1

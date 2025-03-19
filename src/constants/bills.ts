@@ -8086,7 +8086,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    shortDescription: 'BOOOOOCA BOOCA BOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOCAAAAA',
+    shortDescription: 'The tiers in this bond should match the points in production',
     fullDescription: `asd`,
     tags: ['Test'],
     feeInPayout: 1,
@@ -8114,7 +8114,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    shortDescription: 'BOOOOOCA BOOCA BOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOCAAAAA',
+    shortDescription: 'The tiers on this bond have been modified for testing purposes',
     fullDescription: `asd`,
     tags: ['Test'],
     feeInPayout: 1,
