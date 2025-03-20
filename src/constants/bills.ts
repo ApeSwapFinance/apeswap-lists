@@ -21,63 +21,11 @@ const bills: BillsConfig[] = [
   //
   // Sonic
   //
-  {
-    index: 15000,
-    version: '2.0.0',
-    chainId: ChainId.SONIC,
-    contractAddress: {
-      [ChainId.SONIC]: '0xf161E0D7A21715c47bDa8c6C56c4aa3ECCE01f96',
-    },
-    billType: 'reserve',
-    billVersion: BillVersion.V3,
-    lpToken: tokens.usdc,
-    earnToken: tokens.s,
-    billNnftAddress: {
-      [ChainId.SONIC]: '0xc765C358622cB346f236F8Bfffe53036e421bb4e',
-    },
-    inactive: false,
-    projectLink: 'https://www.soniclabs.com',
-    twitter: 'https://x.com/SonicLabs',
-    initTime: { [ChainId.SONIC]: 1741808857 },
-    soldOut: false,
-    billArt: {
-      collection: BillArtCollection.ApeBond_Collection1,
-    },
-    tags: ['Blockchains'],
-    shortDescription: 'lorem ipsum',
-    fullDescription: 'lorem ipsum dolor sit amet',
-    feeInPayout: 0,
-  },
+
   //
   // Monad Testnet
   //
-  {
-    index: 14000,
-    version: '2.0.0',
-    chainId: ChainId.MONAD_TESTNET,
-    contractAddress: {
-      [ChainId.MONAD_TESTNET]: '0x02369d2Ab24174BB061E08E68A2540e658Abf4af',
-    },
-    billType: 'reserve',
-    billVersion: BillVersion.V3,
-    lpToken: tokens.usdc,
-    earnToken: tokens.mon,
-    billNnftAddress: {
-      [ChainId.MONAD_TESTNET]: '0x04f1D39a5A5EFCB6e51891E01d4acCD8c434775C',
-    },
-    inactive: false,
-    projectLink: 'https://monad.xyz/',
-    twitter: 'https://x.com/monad_xyz',
-    initTime: { [ChainId.MAINNET]: 1741970685 },
-    soldOut: false,
-    billArt: {
-      collection: BillArtCollection.ApeBond_Collection1,
-    },
-    tags: ['Blockchains'],
-    shortDescription: 'lorem ipsum',
-    fullDescription: 'lorem ipsum dolor sit amet',
-    feeInPayout: 0,
-  },
+
   //
   // Crossfi
   //
