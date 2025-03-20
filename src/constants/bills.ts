@@ -15,7 +15,17 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Blast Largest ID: 11000
 // Singularity Testnet Largest ID: 12000
 // Crossfi Largest ID: 13000
+// Monad Testnet Largest ID: 14000
+// Sonic Largest ID: 15000
 const bills: BillsConfig[] = [
+  //
+  // Sonic
+  //
+
+  //
+  // Monad Testnet
+  //
+
   //
   // Crossfi
   //
