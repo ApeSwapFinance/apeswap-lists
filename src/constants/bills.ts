@@ -4,9 +4,9 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // BNB Largest ID: 1126
 // Polygon Largest ID: 175
 // Telos Largest ID: 215
-// Arbitrum Largest ID: 2025
+// Arbitrum Largest ID: 2027
 // ETH Largest ID: 3042
-// Linea Largest ID: 6013
+// Linea Largest ID: 6015
 // Base Largest ID: 8039
 // Lightlink Largest ID: 7003
 // IOTA largest ID: 9003
@@ -1463,6 +1463,33 @@ const bills: BillsConfig[] = [
   // LINEA
   //
   {
+    index: 6015,
+    version: '2.0.0',
+    chainId: ChainId.LINEA,
+    contractAddress: {
+      [ChainId.LINEA]: '0xf83144584B3De493c214eE765387312ceb94C196',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.eth,
+    earnToken: tokens.hotdog,
+    billNnftAddress: {
+      [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
+    },
+    inactive: false,
+    projectLink: 'https://www.hotdog.pet/',
+    twitter: 'https://x.com/HotdogLinea',
+    initTime: { [ChainId.LINEA]: 1741791651 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Meme', 'Community'],
+    shortDescription: `HOTDOG, the sauciest meme on Linea, brings a fiery mix of memes, madness, and mouthwatering fun. More than just a token, it’s a cultural sensation powered by 69% memes, 31% hotdogs, and an unstoppable community. With a fresh website, expanding partnerships, and growing momentum, HOTDOG is ready to take a bite out of the market, this is the hottest dog on the blockchain!`,
+    fullDescription: `Everyone loves hotdogs. Everyone loves memes. HotDog on Linea is the ultimate snackable sensation—69% memes, 31% hotdogs, 100% delicious. Fresh off the grill, it’s back with a new website, juicier partnerships, and a community that’s always hungry for more. HOTDOG isn’t just a memecoin—it’s a movement, a meme revolution, and the tastiest token on the blockchain. From AI-generated hotdog art to the most unhinged hotdog memes, this is where degens and food lovers unite. Think you can resist? The market’s heating up, and this is your chance to lock in your spot at the meme table. No forks, no knives—just raw, saucy fun. Whether you're here to stack, snack, or just enjoy the absurdity of a blockchain hotdog, this is your moment. Don't miss out—because nothing hits the spot like $HOTDOG!`,
+    feeInPayout: 0,
+  },
+  {
     index: 6014,
     version: '2.0.0',
     chainId: ChainId.LINEA,
@@ -1859,7 +1886,7 @@ const bills: BillsConfig[] = [
     version: '2.0.0',
     chainId: ChainId.BSC,
     contractAddress: {
-      [ChainId.BSC]: '0xBc8f613572911cEbB59ec974246d2cc457f55C30',
+      [ChainId.BSC]: '0x7B0268f91FCC53C0a4F1D47A38f9Aaa106ACc83e',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
@@ -10562,6 +10589,34 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       Arbitrum Bills - ID started from 2001
   */
   {
+    index: 2027,
+    cmcId: 33841,
+    version: '2.0.0',
+    chainId: ChainId.ARBITRUM,
+    contractAddress: {
+      [ChainId.ARBITRUM]: '0x20b3e411eBA1ba6BbAF6e8aB47211Fef050d20Ff',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.eywaUsdt_Curve,
+    earnToken: tokens.eywa,
+    billNnftAddress: {
+      [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
+    },
+    inactive: false,
+    projectLink: 'https://crosscurve.fi/',
+    twitter: 'https://x.com/eywaprotocol',
+    initTime: { [ChainId.ARBITRUM]: 1742251530 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DeFi'],
+    shortDescription: `CrossCurve, by the Eywa Team, is a cross-chain trading and yield protocol built on Curve, unifying $2B+ in liquidity across chains. It enables secure, cost-efficient swaps for Curve assets (crvUSD, LP tokens), liquid staking tokens (LSTs), and stablecoins. Governed by EYWA DAO, veEYWA holders shape decisions, earn rewards, and drive innovation in the decentralized ecosystem.`,
+    fullDescription: `CrossCurve, developed by the Eywa Team, is a cutting-edge cross-chain trading and yield protocol that integrates seamlessly with Curve Finance, aggregating its extensive $2 billion+ in TVL pools to establish a unified cross-chain liquidity market. By enabling cost-efficient, secure, and convenient cross-chain swaps for Curve assets (such as crvUSD and various LP tokens), liquid staking tokens (LSTs), and stablecoins, CrossCurve opens innovative opportunities for liquidity providers, Web3 projects, and DeFi users. Governed by the EYWA DAO—a transparent and decentralized organization driven by veEYWA governance token holders—participants shape strategic decisions, earn protocol income, and receive incentives, fostering collaboration and engagement across the decentralized ecosystem.`,
+    feeInPayout: 2,
+  },
+  {
     index: 2026,
     cmcId: 33841,
     version: '2.0.0',
@@ -10580,7 +10635,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://crosscurve.fi/',
     twitter: 'https://x.com/eywaprotocol',
     initTime: { [ChainId.ARBITRUM]: 1741629817 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -12341,7 +12396,7 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://www.skillfulai.io/',
     twitter: 'https://x.com/SkillfulAI',
     initTime: { [ChainId.MAINNET]: 1734551887 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
