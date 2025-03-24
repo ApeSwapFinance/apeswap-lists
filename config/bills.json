@@ -3525,6 +3525,118 @@
     "shortDescription": "Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!"
   },
   {
+    "index": 1128,
+    "cmcId": 15921,
+    "version": "2.1.0",
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0x9D1De18D9202FCF4210cf12144555740F7d241F2"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "USDT",
+      "address": {
+        "56": "0x55d398326f99059fF775485246999027B3197955"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://www.poollotto.finance/",
+    "twitter": "https://twitter.com/pltfinance/",
+    "audit": "https://github.com/Quillhash/QuillAudit_Reports/blob/master/Poollotto%20Smart%20Contract%20Audit%20Report%20-%20QuillAudits.pdf",
+    "initTime": {
+      "56": 1742834558
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "shortDescription": "boca boca",
+    "fullDescription": "ahi viene boooooooocaaaaa",
+    "tags": ["BOCA"],
+    "feeInPayout": 2,
+    "minTier": 1
+  },
+  {
+    "index": 1127,
+    "cmcId": 15921,
+    "version": "2.1.0",
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0xcE46778FF7Dd2f3AC1fe5Db12eB15D20c2C89613"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "PLT",
+      "address": {
+        "56": "0x631C2f0EdABaC799f07550aEE4fF0Bf7fd35212B"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://www.poollotto.finance/",
+    "twitter": "https://twitter.com/pltfinance/",
+    "audit": "https://github.com/Quillhash/QuillAudit_Reports/blob/master/Poollotto%20Smart%20Contract%20Audit%20Report%20-%20QuillAudits.pdf",
+    "initTime": {
+      "56": 1742571661
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "shortDescription": "Poollotto is a pioneering technology company specializing in blockchain-powered lottery solutions, utilizing the Poollotto Token (PLT) to revolutionize the industry. By creating a transparent, fair, and secure platform, Poollotto enables decentralized management of global lottery pools, ensuring automated and secure payments. With their innovative approach, they aim to transform the lottery experience for users worldwide. <a href=\"https://metalottery.win/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #38A611\">Purchase $100 or more worth of $PLT Bonds to earn 2 free lotto game ticket NFTs!</a>",
+    "fullDescription": "Poollotto is a leading technology company specializing in blockchain-powered lottery solutions, utilizing the Poollotto Token (PLT) to revolutionize the industry. Launched to create a transparent and fair token economy, Poollotto leverages blockchain technology to ensure secure, tamper-proof transactions, and records all lottery activities on a public ledger, eliminating doubts of manipulation. By automating processes through smart contracts, Poollotto reduces administrative costs and improves efficiency, while allowing operators to customize their platforms for a unique experience. The PLT token enables global participation in decentralized lottery pools, enhancing inclusivity and ensuring automated, secure payments, ultimately transforming the lottery industry with fairness and transparency at its core. <a href=\"https://metalottery.win/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #38A611\">Purchase $100 or more worth of $PLT Bonds to earn 2 free lotto game ticket NFTs!</a>",
+    "tags": ["GAMEFI"],
+    "feeInPayout": 2,
+    "minTier": 0
+  },
+  {
     "index": 1126,
     "cmcId": 12621,
     "version": "2.0.0",
@@ -4378,7 +4490,7 @@
     "initTime": {
       "56": 1734695095
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -15974,6 +16086,60 @@
     },
     "inactive": true,
     "soldOut": true
+  },
+  {
+    "index": 177,
+    "version": "2.1.0",
+    "chainId": 137,
+    "contractAddress": {
+      "137": "0x219E16162D6DDd67aC9A4A639D4D18De81a2e1c4"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+      },
+      "decimals": {
+        "137": 6
+      },
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "USDT",
+      "address": {
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+      },
+      "decimals": {
+        "137": 6
+      },
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "137": "0x8860ABc05FefEF93306c8d65a5eFD421F155d67E"
+    },
+    "inactive": false,
+    "projectLink": "https://film.io/",
+    "twitter": "https://x.com/Filmio_Official",
+    "initTime": {
+      "137": 1742307648
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "shortDescription": "The tiers in this bond should match the points in production",
+    "fullDescription": "asd",
+    "tags": ["Test"],
+    "feeInPayout": 1,
+    "minTier": 1
   },
   {
     "index": 175,
