@@ -1480,7 +1480,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.hotdog.pet/',
     twitter: 'https://x.com/HotdogLinea',
     initTime: { [ChainId.LINEA]: 1741791651 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -2015,7 +2015,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.BSC]: 1741085030 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -10724,7 +10724,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://crosscurve.fi/',
     twitter: 'https://x.com/eywaprotocol',
     initTime: { [ChainId.ARBITRUM]: 1742251530 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
