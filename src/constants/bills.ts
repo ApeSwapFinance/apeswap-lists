@@ -1881,6 +1881,36 @@ const bills: BillsConfig[] = [
   // BNB chain
   //
   {
+    index: 1127,
+    cmcId: 15921,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0xcE46778FF7Dd2f3AC1fe5Db12eB15D20c2C89613',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.wbnb,
+    earnToken: tokens.plt,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://www.poollotto.finance/',
+    twitter: 'https://twitter.com/pltfinance/',
+    audit:
+      'https://github.com/Quillhash/QuillAudit_Reports/blob/master/Poollotto%20Smart%20Contract%20Audit%20Report%20-%20QuillAudits.pdf',
+    initTime: { [ChainId.BSC]: 1742571661 },
+    soldOut: false,
+    billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+    shortDescription:
+      'Poollotto is a pioneering technology company specializing in blockchain-powered lottery solutions, utilizing the Poollotto Token (PLT) to revolutionize the industry. By creating a transparent, fair, and secure platform, Poollotto enables decentralized management of global lottery pools, ensuring automated and secure payments. With their innovative approach, they aim to transform the lottery experience for users worldwide. <a href="https://metalottery.win/" target="_blank" rel="noopener noreferrer" style="color: #38A611">Purchase $100 or more worth of $PLT Bonds to earn 2 free lotto game ticket NFTs!</a>',
+    fullDescription:
+      'Poollotto is a leading technology company specializing in blockchain-powered lottery solutions, utilizing the Poollotto Token (PLT) to revolutionize the industry. Launched to create a transparent and fair token economy, Poollotto leverages blockchain technology to ensure secure, tamper-proof transactions, and records all lottery activities on a public ledger, eliminating doubts of manipulation. By automating processes through smart contracts, Poollotto reduces administrative costs and improves efficiency, while allowing operators to customize their platforms for a unique experience. The PLT token enables global participation in decentralized lottery pools, enhancing inclusivity and ensuring automated, secure payments, ultimately transforming the lottery industry with fairness and transparency at its core. <a href="https://metalottery.win/" target="_blank" rel="noopener noreferrer" style="color: #38A611">Purchase $100 or more worth of $PLT Bonds to earn 2 free lotto game ticket NFTs!</a>',
+    tags: ['GAMEFI'],
+    feeInPayout: 2,
+  },
+  {
     index: 1126,
     cmcId: 12621,
     version: '2.0.0',
@@ -2356,7 +2386,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     audit:
       'https://github.com/Quillhash/QuillAudit_Reports/blob/master/Poollotto%20Smart%20Contract%20Audit%20Report%20-%20QuillAudits.pdf',
     initTime: { [ChainId.BSC]: 1734695095 },
-    soldOut: false,
+    soldOut: true,
     billArt: { collection: BillArtCollection.ApeBond_Collection1 },
     shortDescription:
       'Poollotto is a pioneering technology company specializing in blockchain-powered lottery solutions, utilizing the Poollotto Token (PLT) to revolutionize the industry. By creating a transparent, fair, and secure platform, Poollotto enables decentralized management of global lottery pools, ensuring automated and secure payments. With their innovative approach, they aim to transform the lottery experience for users worldwide. <a href="https://metalottery.win/" target="_blank" rel="noopener noreferrer" style="color: #38A611">Purchase $100 or more worth of $PLT Bonds to earn 2 free lotto game ticket NFTs!</a>',
