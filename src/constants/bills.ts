@@ -1881,6 +1881,35 @@ const bills: BillsConfig[] = [
   // BNB chain
   //
   {
+    index: 1128,
+    cmcId: 15921,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x9D1De18D9202FCF4210cf12144555740F7d241F2',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.usdt,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://www.poollotto.finance/',
+    twitter: 'https://twitter.com/pltfinance/',
+    audit:
+      'https://github.com/Quillhash/QuillAudit_Reports/blob/master/Poollotto%20Smart%20Contract%20Audit%20Report%20-%20QuillAudits.pdf',
+    initTime: { [ChainId.BSC]: 1742834558 },
+    soldOut: false,
+    billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+    shortDescription: 'boca boca',
+    fullDescription: 'ahi viene boooooooocaaaaa',
+    tags: ['BOCA'],
+    feeInPayout: 2,
+    minTier: LaunchBondTiers.Silver,
+  },
+  {
     index: 1127,
     cmcId: 15921,
     version: '2.1.0',
