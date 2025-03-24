@@ -3525,62 +3525,6 @@
     "shortDescription": "Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!"
   },
   {
-    "index": 1128,
-    "cmcId": 15921,
-    "version": "2.1.0",
-    "chainId": 56,
-    "contractAddress": {
-      "56": "0x9D1De18D9202FCF4210cf12144555740F7d241F2"
-    },
-    "billType": "reserve",
-    "billVersion": "V4",
-    "lpToken": {
-      "symbol": "USDC",
-      "address": {
-        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "liquidityDex": {
-        "56": "PancakeSwapV2"
-      },
-      "active": true
-    },
-    "earnToken": {
-      "symbol": "USDT",
-      "address": {
-        "56": "0x55d398326f99059fF775485246999027B3197955"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "liquidityDex": {
-        "56": "PancakeSwapV3"
-      },
-      "active": true
-    },
-    "billNnftAddress": {
-      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
-    },
-    "inactive": false,
-    "projectLink": "https://www.poollotto.finance/",
-    "twitter": "https://twitter.com/pltfinance/",
-    "audit": "https://github.com/Quillhash/QuillAudit_Reports/blob/master/Poollotto%20Smart%20Contract%20Audit%20Report%20-%20QuillAudits.pdf",
-    "initTime": {
-      "56": 1742834558
-    },
-    "soldOut": false,
-    "billArt": {
-      "collection": "ApeBond_Collection1"
-    },
-    "shortDescription": "boca boca",
-    "fullDescription": "ahi viene boooooooocaaaaa",
-    "tags": ["BOCA"],
-    "feeInPayout": 2,
-    "minTier": 1
-  },
-  {
     "index": 1126,
     "cmcId": 12621,
     "version": "2.0.0",
