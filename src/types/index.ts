@@ -38,6 +38,8 @@ export enum ChainId {
   BLAST = 81457,
   SINGULARITY_TESTNET = 751,
   CROSSFI = 4158,
+  SONIC = 146,
+  MONAD_TESTNET = 10143,
 }
 
 export enum LiquidityDex {
@@ -57,6 +59,8 @@ export enum LiquidityDex {
   QuickswapV2 = 'QuickswapV2',
   UniswapV3 = 'UniswapV3',
   Curve = 'Curve',
+  Wagmi = 'Wagmi',
+  LFJ = 'LFJ',
   External = 'External',
 
   //Linea
@@ -76,13 +80,11 @@ export enum LiquidityDex {
 
   //IOTA
   MagicSea = 'MagicSea',
-  Wagmi = 'Wagmi',
 
   //ARBITRUM
   CamelotV2 = 'Camelotv2',
 
   //AVALANCHE
-  LFJ = 'LFJ',
   Pharaoh = 'Pharaoh',
   Pangolin = 'Pangolin',
 
@@ -96,6 +98,12 @@ export enum LiquidityDex {
 
   //CROSSFI
   XSwap = 'XSwap',
+
+  //SONIC
+  ShadowExchange = 'ShadowExchange', //V2
+  // ShadowExchangeV3 = 'ShadowExchangeV3',
+  SwapX = 'SwapX', //V2
+  SwapXAlgebraIntegral = 'SwapXAlgebraIntegral',
 }
 
 export enum IchiSupportedDex {
@@ -143,6 +151,7 @@ export enum Protocols {
   Solidly = 7,
   XFAI = 8,
   Curve = 9,
+  AlgebraIntegral = 10,
 }
 
 export enum Wrappers {
@@ -183,8 +192,9 @@ export interface MasterChef {
 export enum BillVersion {
   V1 = 'V1',
   V2 = 'V2',
-  FixedPrice = 'FixedPrice',
   V3 = 'V3',
+  V4 = 'V4', // extra bonus for tiers
+  FixedPrice = 'FixedPrice',
   TieredSale = 'TieredSale',
   FlashTieredSale = 'FlashTieredSale',
 }
@@ -727,6 +737,38 @@ export const dexFactories: Partial<
       protocol: Protocols.V2,
     },
   },
+  [ChainId.SONIC]: {
+    [LiquidityDex.ShadowExchange]: {
+      factory: '0x2dA25E7446A70D7be65fd4c053948BEcAA6374c8',
+      protocol: Protocols.Solidly,
+    },
+    // [LiquidityDex.ShadowExchangeV3]: {
+    //   factory: '	0xcD2d0637c94fe77C2896BbCBB174cefFb08DE6d7',
+    //   protocol: Protocols.V3,
+    // },
+    [LiquidityDex.SwapX]: {
+      factory: '0x05c1be79d3aC21Cc4B727eeD58C9B2fF757F5663',
+      protocol: Protocols.Solidly,
+    },
+    [LiquidityDex.SwapXAlgebraIntegral]: {
+      factory: '0x8121a3F8c4176E9765deEa0B95FA2BDfD3016794',
+      protocol: Protocols.AlgebraIntegral,
+    },
+    [LiquidityDex.Wagmi]: {
+      factory: '0x56CFC796bC88C9c7e1b38C2b0aF9B7120B079aef',
+      protocol: Protocols.V3,
+    },
+  },
+  [ChainId.MONAD_TESTNET]: {
+    [LiquidityDex.PancakeSwapV2]: {
+      factory: '0x82438CE666d9403e488bA720c7424434e8Aa47CD',
+      protocol: Protocols.V2,
+    },
+    [LiquidityDex.LFJ]: {
+      factory: '0xe32D45C2B1c17a0fE0De76f1ebFA7c44B7810034',
+      protocol: Protocols.V2,
+    },
+  },
 }
 
 export const defaultDexFactories: Partial<Record<ChainId, Partial<Record<Protocols, string>>>> = {
@@ -783,6 +825,14 @@ export const defaultDexFactories: Partial<Record<ChainId, Partial<Record<Protoco
   },
   [ChainId.CROSSFI]: {
     [Protocols.V2]: dexFactories[ChainId.CROSSFI]?.XSwap?.factory,
+  },
+  [ChainId.SONIC]: {
+    [Protocols.Solidly]: dexFactories[ChainId.SONIC]?.ShadowExchange?.factory,
+    [Protocols.V3]: dexFactories[ChainId.SONIC]?.Wagmi?.factory,
+    [Protocols.AlgebraIntegral]: dexFactories[ChainId.SONIC]?.SwapXAlgebraIntegral?.factory,
+  },
+  [ChainId.MONAD_TESTNET]: {
+    [Protocols.V2]: dexFactories[ChainId.MONAD_TESTNET]?.LFJ?.factory,
   },
 }
 
@@ -857,4 +907,7 @@ export const dexToZapMapping: Record<LiquidityDex, Partial<Record<ChainId, ZapVe
   [LiquidityDex.ThrusterV3]: {},
   [LiquidityDex.Citea]: {},
   [LiquidityDex.XSwap]: {},
+  [LiquidityDex.ShadowExchange]: {},
+  [LiquidityDex.SwapX]: {},
+  [LiquidityDex.SwapXAlgebraIntegral]: {},
 }
