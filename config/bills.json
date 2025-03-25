@@ -1,5 +1,163 @@
 [
   {
+    "index": 14002,
+    "version": "2.1.0",
+    "cmcId": 30495,
+    "chainId": 10143,
+    "contractAddress": {
+      "10143": "0x68C59b5F021D354696F277FD63C94407997fa5e2"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "MON",
+      "address": {
+        "10143": "0x760AfE86e5de5fa0Ee542fc7B7B713e1c5425701"
+      },
+      "decimals": {
+        "10143": 18
+      },
+      "liquidityDex": {
+        "10143": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "MON",
+      "address": {
+        "10143": "0x760AfE86e5de5fa0Ee542fc7B7B713e1c5425701"
+      },
+      "decimals": {
+        "10143": 18
+      },
+      "liquidityDex": {
+        "10143": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "10143": "0x04f1D39a5A5EFCB6e51891E01d4acCD8c434775C"
+    },
+    "inactive": false,
+    "projectLink": "https://www.monad.xyz",
+    "twitter": "https://x.com/monad_xyz",
+    "initTime": {
+      "10143": 1742905970
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["Blockchains"],
+    "shortDescription": "Monad is a blockchain platform that stands out for its high performance and Ethereum compatibility, designed to address the scalability and efficiency challenges faced by existing blockchain technologies.",
+    "fullDescription": "Monad is a blockchain platform that stands out for its high performance and Ethereum compatibility, designed to address the scalability and efficiency challenges faced by existing blockchain technologies."
+  },
+  {
+    "index": 14001,
+    "version": "2.1.0",
+    "cmcId": 1,
+    "chainId": 10143,
+    "contractAddress": {
+      "10143": "0x359db13B21d424F986C5c9820B22DdD6aAACA24c"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "MON",
+      "address": {
+        "10143": "0x760AfE86e5de5fa0Ee542fc7B7B713e1c5425701"
+      },
+      "decimals": {
+        "10143": 18
+      },
+      "liquidityDex": {
+        "10143": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "BTC",
+      "address": {
+        "10143": "0xcf5a6076cfa32686c0Df13aBaDa2b40dec133F1d"
+      },
+      "decimals": {
+        "10143": 8
+      },
+      "liquidityDex": {
+        "10143": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "10143": "0x04f1D39a5A5EFCB6e51891E01d4acCD8c434775C"
+    },
+    "inactive": false,
+    "projectLink": "https://bitcoin.org/",
+    "initTime": {
+      "10143": 1742905970
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["Blockchains"],
+    "shortDescription": "Bitcoin is a decentralized cryptocurrency originally described in a 2008 whitepaper by a person, or group of people, using the alias Satoshi Nakamoto. It was launched soon after, in January 2009.",
+    "fullDescription": "Bitcoin is a decentralized cryptocurrency originally described in a 2008 whitepaper by a person, or group of people, using the alias Satoshi Nakamoto. It was launched soon after, in January 2009."
+  },
+  {
+    "index": 14000,
+    "version": "2.1.0",
+    "cmcId": 1027,
+    "chainId": 10143,
+    "contractAddress": {
+      "10143": "0x144b0B83aa4c1723Ea80E9234D76168697F528C5"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "MON",
+      "address": {
+        "10143": "0x760AfE86e5de5fa0Ee542fc7B7B713e1c5425701"
+      },
+      "decimals": {
+        "10143": 18
+      },
+      "liquidityDex": {
+        "10143": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "ETH",
+      "address": {
+        "10143": "0xB5a30b0FDc5EA94A52fDc42e3E9760Cb8449Fb37"
+      },
+      "decimals": {
+        "10143": 18
+      },
+      "liquidityDex": {
+        "10143": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "10143": "0x04f1D39a5A5EFCB6e51891E01d4acCD8c434775C"
+    },
+    "inactive": false,
+    "projectLink": "https://ethereum.org/",
+    "twitter": "https://x.com/ethereum",
+    "initTime": {
+      "10143": 1742905970
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["Blockchains"],
+    "shortDescription": "Ethereum is a decentralized open-source blockchain system that features its own cryptocurrency, Ether. ETH works as a platform for numerous other cryptocurrencies, as well as for the execution of decentralized smart contracts.",
+    "fullDescription": "Ethereum is a decentralized open-source blockchain system that features its own cryptocurrency, Ether. ETH works as a platform for numerous other cryptocurrencies, as well as for the execution of decentralized smart contracts."
+  },
+  {
     "index": 10000,
     "version": "1.0.0",
     "cmcId": 9029,
@@ -2714,6 +2872,115 @@
     "shortDescription": "LightLink is an Ethereum L2 blockchain enabling dApps and enterprises to offer instant, gasless transactions. Their mission is to integrate millions into the digital economy with user-friendly dApps and enterprise partnerships, making blockchain as intuitive and accessible as Web2, without the complexity of gas fees and protocols."
   },
   {
+    "index": 6017,
+    "version": "2.1.0",
+    "chainId": 59144,
+    "contractAddress": {
+      "59144": "0xEC2E6BBd57a7B01E227E71b9E6566F651BDD64E3"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "59144": "0x176211869cA2b568f2A7D4EE941E073a821EE1ff"
+      },
+      "decimals": {
+        "59144": 6
+      },
+      "liquidityDex": {
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "HOTDOG",
+      "address": {
+        "59144": "0xce28211Ed1b2Eeb0C909C83D273DeBE041A12EE9"
+      },
+      "decimals": {
+        "59144": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "59144": "Lynex"
+      }
+    },
+    "billNnftAddress": {
+      "59144": "0xFA40b551980aF88FD2929Ab41f57D98ee13A6354"
+    },
+    "inactive": false,
+    "projectLink": "https://www.hotdog.pet/",
+    "twitter": "https://x.com/HotdogLinea",
+    "initTime": {
+      "59144": 1742922000
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "GoldenTicket_Collection1"
+    },
+    "tags": ["Meme", "Community"],
+    "shortDescription": "HOTDOG, the sauciest meme on Linea, brings a fiery mix of memes, madness, and mouthwatering fun. More than just a token, it’s a cultural sensation powered by 69% memes, 31% hotdogs, and an unstoppable community. With a fresh website, expanding partnerships, and growing momentum, HOTDOG is ready to take a bite out of the market, this is the hottest dog on the blockchain!",
+    "fullDescription": "Everyone loves hotdogs. Everyone loves memes. HotDog on Linea is the ultimate snackable sensation—69% memes, 31% hotdogs, 100% delicious. Fresh off the grill, it’s back with a new website, juicier partnerships, and a community that’s always hungry for more. HOTDOG isn’t just a memecoin—it’s a movement, a meme revolution, and the tastiest token on the blockchain. From AI-generated hotdog art to the most unhinged hotdog memes, this is where degens and food lovers unite. Think you can resist? The market’s heating up, and this is your chance to lock in your spot at the meme table. No forks, no knives—just raw, saucy fun. Whether you're here to stack, snack, or just enjoy the absurdity of a blockchain hotdog, this is your moment. Don't miss out—because nothing hits the spot like $HOTDOG!",
+    "feeInPayout": 0,
+    "minTier": 1
+  },
+  {
+    "index": 6016,
+    "version": "2.1.0",
+    "chainId": 59144,
+    "contractAddress": {
+      "59144": "0x4D3Eeb084f935B8658b202915D089585Bd3c357a"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "59144": "0x176211869cA2b568f2A7D4EE941E073a821EE1ff"
+      },
+      "decimals": {
+        "59144": 6
+      },
+      "liquidityDex": {
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "LYNX",
+      "address": {
+        "59144": "0x1a51b19CE03dbE0Cb44C1528E34a7EDD7771E9Af"
+      },
+      "decimals": {
+        "59144": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "59144": "Lynex"
+      }
+    },
+    "billNnftAddress": {
+      "59144": "0xFA40b551980aF88FD2929Ab41f57D98ee13A6354"
+    },
+    "inactive": false,
+    "projectLink": "https://www.lynex.fi/",
+    "twitter": "https://x.com/LynexFi",
+    "audit": "https://www.cyberscope.io/audits/coin-lynex",
+    "initTime": {
+      "59144": 1742922000
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "GoldenTicket_Collection1"
+    },
+    "tags": ["DEX"],
+    "shortDescription": "Lynex is a powerful liquidity platform based on Thena, which enhanced the Velodrome codebase to fairly compensate LPs for impermanent loss. Ideal for projects needing liquidity, Lynex connects users with top strategies via ALMs, optimizes returns, and rewards participants. Its core token, $LYNX, can be converted to veLYNX for deeper governance and incentives.",
+    "fullDescription": "Lynex is a next-generation liquidity platform that democratizes advanced liquidity strategies by connecting everyday traders with expert-level tools through a competitive ecosystem of Automated Liquidity Managers (ALMs) and strategists. Designed for efficiency, Lynex optimizes concentrated liquidity positions to maximize fees and minimize slippage, while integrating professional strategists for active liquidity and reward management. Acting as a central hub, Lynex aggregates ALMs into a vibrant marketplace where users can easily find strategies tailored to their needs. Each trade generates token fees, rewarding active voters and reinforcing the Lynex treasury. Its unique bribe system, powered by protocols on the Linea blockchain, fuels ecosystem engagement. Incentives are further enhanced through oLYNX, aligning participant interests. At the core is $LYNX, an ERC-20 utility token convertible into veLYNX, enabling deeper participation and governance within the Lynex ecosystem.",
+    "feeInPayout": 0,
+    "minTier": 1
+  },
+  {
     "index": 6015,
     "version": "2.0.0",
     "chainId": 59144,
@@ -3523,6 +3790,345 @@
     },
     "tags": ["DeFi"],
     "shortDescription": "Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!"
+  },
+  {
+    "index": 1132,
+    "version": "2.1.0",
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0x5199C1EAF21c10EE6EecfC39CF7d3329Cba33040"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "56": "0x55d398326f99059fF775485246999027B3197955"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "ELDA",
+      "address": {
+        "56": "0xab2ed911BDbeA001FD3B29AdbC35d8a76E68aAe4"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://www.eldarune.com/",
+    "twitter": "https://x.com/PlayEldarune",
+    "initTime": {
+      "56": 1742922000
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "GoldenTicket_Collection1"
+    },
+    "shortDescription": "Eldarune is a game studio creating interoperable, medieval-themed blockchain games where NFTs can be used across multiple titles. The ELDA token serves as the studio's native currency and unlocks diverse gaming experiences. Inspired by classics like Warcraft and Dota, Eldarune is transforming the gaming landscape by offering seamless, interconnected gameplay across its ecosystem.",
+    "fullDescription": "Eldarune is a pioneering game studio specializing in interoperable, medieval-themed blockchain games. Players can use their NFTs across different titles within the Eldarune ecosystem, enhancing the gaming experience with seamless transitions and unique assets. At the heart of this innovative platform is the ELDA token, which acts as both the studio’s native currency and a gateway to diverse, immersive gameplay inspired by classics like Warcraft, Dota, and Hearthstone. ELDA is revolutionizing the gaming landscape by unlocking endless possibilities within Eldarune's interconnected worlds.",
+    "tags": ["GAMEFI"],
+    "feeInPayout": 2,
+    "minTier": 1
+  },
+  {
+    "index": 1131,
+    "cmcId": 29157,
+    "version": "2.1.0",
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0xC66321D24CBaB253289FEa3Ae82234Cc0b3Ce1e8"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "56": "0x55d398326f99059fF775485246999027B3197955"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "ABOND",
+      "address": {
+        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "ThenaV1"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://ape.bond/",
+    "twitter": "https://twitter.com/apebond",
+    "audit": "https://paladinsec.co/projects/apebond/",
+    "initTime": {
+      "56": 1742922000
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "GoldenTicket_Collection1"
+    },
+    "shortDescription": "ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.",
+    "fullDescription": "ApeBond is building a sustainable DeFi future through its innovative Bonds products and strategic partnerships. Known for its Crowdsource OTC solution and treasury diversification expertise, ApeBond has launched Bonds with over 140 partners, sold 38,000+ Bonds for a total of $14,000,000 USD, and achieved a top 10 Dapp status by daily active users (DAU) according to CoinMarketCap. The ABOND token ties users with the platform by unlocking special Bonds, new earning opportunities, and more utilities coming up in the pipeline.",
+    "tags": ["Bonding"],
+    "partnersURLS": [
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/Seedify_fbt392.svg",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613244/ORBS_anzm60.png",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/quickLogo_2_1_g95ynz.png",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/aitech_logo_100_real_no_fake_bjskiq.png",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png"
+    ],
+    "feeInPayout": 0,
+    "minTier": 1
+  },
+  {
+    "index": 1130,
+    "version": "2.1.0",
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0x5D6874151C11658210185CCA5A4Eac3204Af9b21"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "56": "0x55d398326f99059fF775485246999027B3197955"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "XCREDI",
+      "address": {
+        "56": "0x1265DAdE08e13F1c6f9706287FBE39083dC5a4b4"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://www.credefi.finance/",
+    "twitter": "https://twitter.com/credefi_finance/",
+    "audit": "https://www.certik.com/projects/credefi?utm_source=CMC&utm_campaign=AuditByCertiKLink",
+    "initTime": {
+      "56": 1742922000
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "GoldenTicket_Collection1"
+    },
+    "tags": ["RWA", "Lending"],
+    "fullDescription": "Credefi bridges the EU's financing gap by connecting crypto lenders with SME borrowers. Credifi provides innovative lending in order to make a real-world impact. With Credefi users can access reliable loans backed by a range of real-world assets, including real estate, future receivables, and more.",
+    "feeInPayout": 2,
+    "minTier": 1
+  },
+  {
+    "index": 1129,
+    "version": "2.1.0",
+    "cmcId": 29890,
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0x174806E4F3e19DDF0aD06a93a685f4f5fE8FaBb7"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "56": "0x55d398326f99059fF775485246999027B3197955"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "NFE",
+      "address": {
+        "56": "0xf03Ca04Dd56D695a410f46F14feF4028B22FB79A"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://edu3labs.com/",
+    "twitter": "https://twitter.com/edu3labs",
+    "audit": "https://nfedocs.edu3labs.com/audit",
+    "initTime": {
+      "56": 1742922000
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "GoldenTicket_Collection1"
+    },
+    "tags": ["AI", "Education"],
+    "shortDescription": "Edu3Labs is a pioneering force at the intersection of education, AI, and blockchain. Our mission is to revolutionize the learning experience by leveraging cutting-edge technologies and innovative solutions. Their vision is to reshape the future of education, making it decentralized, personalized, gamified and accessible to all, striving to empower individuals worldwide through transformative learning experiences.",
+    "fullDescription": "Edu3Labs is a pioneering force at the intersection of education, AI, and blockchain. Our mission is to revolutionize the learning experience by leveraging cutting-edge technologies and innovative solutions. Their vision is to reshape the future of education, making it decentralized, personalized, gamified and accessible to all, striving to empower individuals worldwide through transformative learning experiences. Edu3Labs is powered by the NFE token, that empowers students, content creators, and authors with a decentralized means of exchange that rewards their contributions to the educational ecosystem. NFE token will be used to have access to lessons, enter knowledge contests and invest in early-stage start-ups related to the education industry. In the medium term, there will be additional privileges for NFE holders such as HR services, advisory, and free tickets for networking and educational events.",
+    "feeInPayout": 2,
+    "minTier": 1
+  },
+  {
+    "index": 1128,
+    "version": "2.1.0",
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0xA93083FfFba71F4d1CD86DF61579e3eb525d5422"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "56": "0x55d398326f99059fF775485246999027B3197955"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "ARCAS",
+      "address": {
+        "56": "0x7ca058309053F90b39Bfc58dE1edA2a89e9c03a8"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://www.blockapescissors.com/#home",
+    "twitter": "https://twitter.com/apeblock?lang=en",
+    "audit": "https://solidity.finance/audits/BlockApeScissors/",
+    "initTime": {
+      "56": 1742922000
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "GoldenTicket_Collection1"
+    },
+    "tags": ["GAMEFI"],
+    "shortDescription": "Arcas Champions is an Unreal Engine 5 third-person shooter set on the jungle planet Arcas, where Village Elites and Renegades fight for control using Bastonium. Players customize ape Champions for ranked modes, each with unique playstyles. The game introduces Skillstaking, a blockchain system that tokenizes MMR for esports growth, while the ARCAS token offers revenue share and governance, empowering player influence.",
+    "fullDescription": "Arcas Champions is an Unreal Engine 5 third-person shooter blending gunplay, abilities, and stats in fast-paced, competitive modes that demand teamwork, precision, and strategy. Set on the jungle planet Arcas, Village Elites and Renegades clash in a guerilla-style civil war for control, fueled by Bastonium, a powerful element. Players customize and upgrade their ape Champions to fit various playstyles in ranked modes, with Champion-specific leaderboards. The game features Skillstaking, a blockchain-driven system that tokenizes MMR, breaking down barriers to esports and enabling professional gaming paths. As the first Power to Players game, Arcas Champions gives players governance tools, allowing them to shape development and fully own their experience. The ARCAS token secures the DAO Treasury, collecting revenue and managing yield changes. Its deflationary mechanics gradually lock tokens inside player-owned NFTs, shifting governance and revenue share power permanently to players, embodying the \"Power to the Players\" philosophy.",
+    "feeInPayout": 2,
+    "minTier": 1
+  },
+  {
+    "index": 1127,
+    "cmcId": 15921,
+    "version": "2.1.0",
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0x39D56B60964aB6f3f886968b5A6DdE3e5434A873"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "PLT",
+      "address": {
+        "56": "0x631C2f0EdABaC799f07550aEE4fF0Bf7fd35212B"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://www.poollotto.finance/",
+    "twitter": "https://twitter.com/pltfinance/",
+    "audit": "https://github.com/Quillhash/QuillAudit_Reports/blob/master/Poollotto%20Smart%20Contract%20Audit%20Report%20-%20QuillAudits.pdf",
+    "initTime": {
+      "56": 1742922000
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "shortDescription": "Poollotto is a pioneering technology company specializing in blockchain-powered lottery solutions, utilizing the Poollotto Token (PLT) to revolutionize the industry. By creating a transparent, fair, and secure platform, Poollotto enables decentralized management of global lottery pools, ensuring automated and secure payments. With their innovative approach, they aim to transform the lottery experience for users worldwide. <a href=\"https://metalottery.win/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #38A611\">Purchase $100 or more worth of $PLT Bonds to earn 2 free lotto game ticket NFTs!</a>",
+    "fullDescription": "Poollotto is a leading technology company specializing in blockchain-powered lottery solutions, utilizing the Poollotto Token (PLT) to revolutionize the industry. Launched to create a transparent and fair token economy, Poollotto leverages blockchain technology to ensure secure, tamper-proof transactions, and records all lottery activities on a public ledger, eliminating doubts of manipulation. By automating processes through smart contracts, Poollotto reduces administrative costs and improves efficiency, while allowing operators to customize their platforms for a unique experience. The PLT token enables global participation in decentralized lottery pools, enhancing inclusivity and ensuring automated, secure payments, ultimately transforming the lottery industry with fairness and transparency at its core. <a href=\"https://metalottery.win/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #38A611\">Purchase $100 or more worth of $PLT Bonds to earn 2 free lotto game ticket NFTs!</a>",
+    "tags": ["GAMEFI"],
+    "feeInPayout": 2,
+    "minTier": 1
   },
   {
     "index": 1126,
@@ -11109,7 +11715,7 @@
         "56": 18
       },
       "liquidityDex": {
-        "56": "ApeSwapV2"
+        "56": "PancakeSwapV2"
       },
       "active": true
     },
@@ -15974,6 +16580,118 @@
     },
     "inactive": true,
     "soldOut": true
+  },
+  {
+    "index": 177,
+    "cmcId": 22050,
+    "version": "2.1.0",
+    "chainId": 137,
+    "contractAddress": {
+      "137": "0xc36a21D46c90600fF6cfcC88B4335e0e60558e8C"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+      },
+      "decimals": {
+        "137": 6
+      },
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "MEE",
+      "address": {
+        "137": "0xEB7eaB87837f4Dad1bb80856db9E4506Fc441f3D"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "QuickswapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "137": "0x8860ABc05FefEF93306c8d65a5eFD421F155d67E"
+    },
+    "inactive": false,
+    "projectLink": "https://www.medievalempires.com/",
+    "twitter": "https://x.com/MedievalEmpires",
+    "audit": "https://www.medievalempires.com/static/audit_report-89967b1290db095d7275ce21e8aa5d44.pdf",
+    "initTime": {
+      "137": 1742922000
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "GoldenTicket_Collection1"
+    },
+    "bondPartner": "QuickSwap",
+    "shortDescription": "Medieval Empires is a multi-player online strategy game set in 13th century Turkey. Players build towns, trade, battle, and form alliances in a passive PvE environment while completing daily missions and tasks to progress. Powered by Polygon blockchain and Immutable Passport technology, it offers low gas fees, security, and cross-platform play on PC, MAC, and soon mobile. The MEE token unlocks in-game benefits like VIP status and land access.",
+    "fullDescription": "Medieval Empires is a multi-player online strategy game set in 13th century Turkey, where players build towns, trade, fight, and form alliances within a passive PvE environment. The game immerses players in rich historical settings, featuring daily missions, general tasks, and story missions that guide progression and the expansion of the world map through continuous battles. Built on the Polygon blockchain and powered by Immutable Passport and zkEVM technology, Medieval Empires offers a comprehensive developer ecosystem, low gas fees, enhanced security, and exceptional speed, all while being eco-friendly. The game is currently available on PC (Windows) and MAC (OSX), with a mobile version for iOS and Android on the horizon, ensuring seamless cross-platform interoperability. At the heart of the game is the MEE token, which provides in-game advantages like VIP status, land access, and daily rewards for players who connect their wallets and stake the required amount. The team behind the game brings expertise in both game development and blockchain technology, ensuring a well-rounded, engaging experience.",
+    "tags": ["GAMEFI"],
+    "feeInPayout": 2,
+    "minTier": 1
+  },
+  {
+    "index": 176,
+    "version": "2.1.0",
+    "chainId": 137,
+    "contractAddress": {
+      "137": "0x0BeebB6F9C50452FdEF8e601E8a4A768F77D0eca"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "137": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359"
+      },
+      "decimals": {
+        "137": 6
+      },
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "TRKX",
+      "address": {
+        "137": "0x61bf130d973d59c69d3227f1668d534d83119860"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "137": "0x8860ABc05FefEF93306c8d65a5eFD421F155d67E"
+    },
+    "inactive": false,
+    "projectLink": "https://trakx.io/",
+    "twitter": "https://x.com/official_trakx",
+    "audit": "https://skynet.certik.com/projects/bitbond",
+    "initTime": {
+      "137": 1742922000
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "GoldenTicket_Collection1"
+    },
+    "shortDescription": "Trakx is a global fintech redefining crypto investments with its Crypto Tradable Indices (CTIs), offering simple, one-click portfolio diversification through themed baskets of top digital assets. Registered with French AMF/ACPR as a VASP, Trakx ensures regulatory compliance. Powered by the TRKX token, users enjoy reduced fees, governance participation, and staking rewards, making crypto investing easy and accessible.",
+    "fullDescription": "Trakx is a global fintech innovator revolutionizing crypto investments through its Crypto Tradable Indices (CTIs). These proprietary baskets of the largest and most liquid digital assets offer a seamless, one-click solution for diversifying portfolios in the fast-evolving crypto market. With low fees and themed, easy-to-understand investment options, Trakx simplifies complex strategies for all investors. Registered with French AMF/ACPR as a Virtual Asset Service Provider (VASP), Trakx adheres to the highest international regulatory standards. The TRKX token powers the ecosystem, reducing trading fees and unlocking exclusive benefits such as governance participation and staking rewards. Trakx makes advanced investing straightforward, setting a new benchmark in crypto index trading.",
+    "tags": ["DeFi"],
+    "feeInPayout": 2,
+    "minTier": 1
   },
   {
     "index": 175,
@@ -20890,6 +21608,61 @@
     "projectLink": "https://www.telos.net/",
     "twitter": "https://twitter.com/HelloTelos",
     "soldOut": true
+  },
+  {
+    "index": 2028,
+    "cmcId": 33841,
+    "version": "2.1.0",
+    "chainId": 42161,
+    "contractAddress": {
+      "42161": "0x41c2AB0690a233C9Ea3B344b3A8a29daB18e9C7F"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "CRV",
+      "address": {
+        "42161": "0x11cDb42B0EB46D95f990BeDD4695A6e3fA034978"
+      },
+      "decimals": {
+        "42161": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "42161": "UniswapV3"
+      }
+    },
+    "earnToken": {
+      "symbol": "EYWA",
+      "address": {
+        "42161": "0x7a10f506e4c7658e6ad15fdf0443d450b7fa80d7"
+      },
+      "decimals": {
+        "42161": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "42161": "Curve"
+      }
+    },
+    "billNnftAddress": {
+      "42161": "0xAC707999D05C4048844B78c737D9512DFDff524d"
+    },
+    "inactive": false,
+    "projectLink": "https://crosscurve.fi/",
+    "twitter": "https://x.com/eywaprotocol",
+    "initTime": {
+      "42161": 1742922000
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "GoldenTicket_Collection1"
+    },
+    "tags": ["DeFi"],
+    "shortDescription": "CrossCurve, by the Eywa Team, is a cross-chain trading and yield protocol built on Curve, unifying $2B+ in liquidity across chains. It enables secure, cost-efficient swaps for Curve assets (crvUSD, LP tokens), liquid staking tokens (LSTs), and stablecoins. Governed by EYWA DAO, veEYWA holders shape decisions, earn rewards, and drive innovation in the decentralized ecosystem.",
+    "fullDescription": "CrossCurve, developed by the Eywa Team, is a cutting-edge cross-chain trading and yield protocol that integrates seamlessly with Curve Finance, aggregating its extensive $2 billion+ in TVL pools to establish a unified cross-chain liquidity market. By enabling cost-efficient, secure, and convenient cross-chain swaps for Curve assets (such as crvUSD and various LP tokens), liquid staking tokens (LSTs), and stablecoins, CrossCurve opens innovative opportunities for liquidity providers, Web3 projects, and DeFi users. Governed by the EYWA DAO—a transparent and decentralized organization driven by veEYWA governance token holders—participants shape strategic decisions, earn protocol income, and receive incentives, fostering collaboration and engagement across the decentralized ecosystem.",
+    "feeInPayout": 2,
+    "minTier": 1
   },
   {
     "index": 2027,
