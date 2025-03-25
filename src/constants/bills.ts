@@ -8294,7 +8294,69 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   /*
     Polygon Bills
   */
-
+  //   {
+  //     index: 177,
+  //     cmcId: 22050,
+  //     version: '2.1.0',
+  //     chainId: ChainId.MATIC,
+  //     contractAddress: {
+  //       [ChainId.MATIC]: '',
+  //     },
+  //     billType: 'reserve',
+  //     billVersion: BillVersion.V4,
+  //     lpToken: tokens.usdt,
+  //     earnToken: tokens.mee,
+  //     billNnftAddress: {
+  //       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+  //     },
+  //     inactive: false,
+  //     projectLink: 'https://www.medievalempires.com/',
+  //     twitter: 'https://x.com/MedievalEmpires',
+  //     audit: 'https://www.medievalempires.com/static/audit_report-89967b1290db095d7275ce21e8aa5d44.pdf',
+  //     initTime: { [ChainId.MATIC]: 1742922000 },
+  //     soldOut: false,
+  //     billArt: {
+  //       collection: BillArtCollection.GoldenTicket_Collection1,
+  //     },
+  //     bondPartner: 'QuickSwap',
+  //     shortDescription:
+  //       'Medieval Empires is a multi-player online strategy game set in 13th century Turkey. Players build towns, trade, battle, and form alliances in a passive PvE environment while completing daily missions and tasks to progress. Powered by Polygon blockchain and Immutable Passport technology, it offers low gas fees, security, and cross-platform play on PC, MAC, and soon mobile. The MEE token unlocks in-game benefits like VIP status and land access.',
+  //     fullDescription: `Medieval Empires is a multi-player online strategy game set in 13th century Turkey, where players build towns, trade, fight, and form alliances within a passive PvE environment. The game immerses players in rich historical settings, featuring daily missions, general tasks, and story missions that guide progression and the expansion of the world map through continuous battles. Built on the Polygon blockchain and powered by Immutable Passport and zkEVM technology, Medieval Empires offers a comprehensive developer ecosystem, low gas fees, enhanced security, and exceptional speed, all while being eco-friendly. The game is currently available on PC (Windows) and MAC (OSX), with a mobile version for iOS and Android on the horizon, ensuring seamless cross-platform interoperability. At the heart of the game is the MEE token, which provides in-game advantages like VIP status, land access, and daily rewards for players who connect their wallets and stake the required amount. The team behind the game brings expertise in both game development and blockchain technology, ensuring a well-rounded, engaging experience.`,
+  //     tags: ['GAMEFI'],
+  //     feeInPayout: 2,
+  //     minTier: LaunchBondTiers.Silver,
+  //   },
+  // {
+  //   index: 176,
+  //   version: '2.1.0',
+  //   chainId: ChainId.MATIC,
+  //   contractAddress: {
+  //     [ChainId.MATIC]: '',
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V4,
+  //   lpToken: tokens.usdc2,
+  //   earnToken: tokens.trkx,
+  //   billNnftAddress: {
+  //     [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
+  //   },
+  //   inactive: false,
+  //   projectLink: 'https://trakx.io/',
+  //   twitter: 'https://x.com/official_trakx',
+  //   audit: 'https://skynet.certik.com/projects/bitbond',
+  //   initTime: { [ChainId.MATIC]: 1742922000 },
+  //   soldOut: false,
+  //   billArt: {
+  //     collection: BillArtCollection.GoldenTicket_Collection1,
+  //   },
+  //   bondPartner: 'QuickSwap',
+  //   shortDescription:
+  //     'Trakx is a global fintech redefining crypto investments with its Crypto Tradable Indices (CTIs), offering simple, one-click portfolio diversification through themed baskets of top digital assets. Registered with French AMF/ACPR as a VASP, Trakx ensures regulatory compliance. Powered by the TRKX token, users enjoy reduced fees, governance participation, and staking rewards, making crypto investing easy and accessible.',
+  //   fullDescription: `Trakx is a global fintech innovator revolutionizing crypto investments through its Crypto Tradable Indices (CTIs). These proprietary baskets of the largest and most liquid digital assets offer a seamless, one-click solution for diversifying portfolios in the fast-evolving crypto market. With low fees and themed, easy-to-understand investment options, Trakx simplifies complex strategies for all investors. Registered with French AMF/ACPR as a Virtual Asset Service Provider (VASP), Trakx adheres to the highest international regulatory standards. The TRKX token powers the ecosystem, reducing trading fees and unlocking exclusive benefits such as governance participation and staking rewards. Trakx makes advanced investing straightforward, setting a new benchmark in crypto index trading.`,
+  //   tags: ['DeFi'],
+  //   feeInPayout: 2,
+  //   minTier: LaunchBondTiers.Silver,
+  // },
   {
     index: 175,
     cmcId: 29604,
