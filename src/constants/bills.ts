@@ -27,7 +27,7 @@ const bills: BillsConfig[] = [
   //
   {
     index: 14002,
-    version: '2.0.0',
+    version: '2.1.0',
     cmcId: 30495,
     chainId: ChainId.MONAD_TESTNET,
     contractAddress: {
@@ -54,7 +54,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 14001,
-    version: '2.0.0',
+    version: '2.1.0',
     cmcId: 1,
     chainId: ChainId.MONAD_TESTNET,
     contractAddress: {
@@ -80,7 +80,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 14000,
-    version: '2.0.0',
+    version: '2.1.0',
     cmcId: 1027,
     chainId: ChainId.MONAD_TESTNET,
     contractAddress: {

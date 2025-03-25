@@ -1,7 +1,7 @@
 [
   {
     "index": 14002,
-    "version": "2.0.0",
+    "version": "2.1.0",
     "cmcId": 30495,
     "chainId": 10143,
     "contractAddress": {
@@ -54,7 +54,7 @@
   },
   {
     "index": 14001,
-    "version": "2.0.0",
+    "version": "2.1.0",
     "cmcId": 1,
     "chainId": 10143,
     "contractAddress": {
@@ -106,7 +106,7 @@
   },
   {
     "index": 14000,
-    "version": "2.0.0",
+    "version": "2.1.0",
     "cmcId": 1027,
     "chainId": 10143,
     "contractAddress": {
