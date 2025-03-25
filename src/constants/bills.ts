@@ -1462,63 +1462,63 @@ const bills: BillsConfig[] = [
   //
   // LINEA
   //
-  // {
-  //   index: 6017,
-  //   version: '2.1.0',
-  //   chainId: ChainId.LINEA,
-  //   contractAddress: {
-  //     [ChainId.LINEA]: '',
-  //   },
-  //   billType: 'reserve',
-  //   billVersion: BillVersion.V4,
-  //   lpToken: tokens.usdc,
-  //   earnToken: tokens.hotdog,
-  //   billNnftAddress: {
-  //     [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
-  //   },
-  //   inactive: false,
-  //   projectLink: 'https://www.hotdog.pet/',
-  //   twitter: 'https://x.com/HotdogLinea',
-  //   initTime: { [ChainId.LINEA]: 1742922000 },
-  //   soldOut: false,
-  //   billArt: {
-  //     collection: BillArtCollection.GoldenTicket_Collection1,
-  //   },
-  //   tags: ['Meme', 'Community'],
-  //   shortDescription: `HOTDOG, the sauciest meme on Linea, brings a fiery mix of memes, madness, and mouthwatering fun. More than just a token, it’s a cultural sensation powered by 69% memes, 31% hotdogs, and an unstoppable community. With a fresh website, expanding partnerships, and growing momentum, HOTDOG is ready to take a bite out of the market, this is the hottest dog on the blockchain!`,
-  //   fullDescription: `Everyone loves hotdogs. Everyone loves memes. HotDog on Linea is the ultimate snackable sensation—69% memes, 31% hotdogs, 100% delicious. Fresh off the grill, it’s back with a new website, juicier partnerships, and a community that’s always hungry for more. HOTDOG isn’t just a memecoin—it’s a movement, a meme revolution, and the tastiest token on the blockchain. From AI-generated hotdog art to the most unhinged hotdog memes, this is where degens and food lovers unite. Think you can resist? The market’s heating up, and this is your chance to lock in your spot at the meme table. No forks, no knives—just raw, saucy fun. Whether you're here to stack, snack, or just enjoy the absurdity of a blockchain hotdog, this is your moment. Don't miss out—because nothing hits the spot like $HOTDOG!`,
-  //   feeInPayout: 0,
-  //   minTier: LaunchBondTiers.Silver,
-  // },
-  // {
-  //   index: 6016,
-  //   version: '2.1.0',
-  //   chainId: ChainId.LINEA,
-  //   contractAddress: {
-  //     [ChainId.LINEA]: '',
-  //   },
-  //   billType: 'reserve',
-  //   billVersion: BillVersion.V4,
-  //   lpToken: tokens.usdc,
-  //   earnToken: tokens.lynx,
-  //   billNnftAddress: {
-  //     [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
-  //   },
-  //   inactive: false,
-  //   projectLink: 'https://www.lynex.fi/',
-  //   twitter: 'https://x.com/LynexFi',
-  //   audit: 'https://www.cyberscope.io/audits/coin-lynex',
-  //   initTime: { [ChainId.LINEA]: 1742922000 },
-  //   soldOut: false,
-  //   billArt: {
-  //     collection: BillArtCollection.GoldenTicket_Collection1,
-  //   },
-  //   tags: ['DEX'],
-  //   fullDescription:
-  //     'Lynex democratizes sophisticated liquidity strategies, seamlessly connecting everyday traders with expert-level capabilities. The platform features a competitive ecosystem of Automated Liquidity Managers (ALMs) and strategists, all striving to optimize returns, minimize risks such as impermanent loss, and boost overall efficiency for every user. Lynex: the Liquidity Engine of Linea!',
-  //   feeInPayout: 0,
-  //   minTier: LaunchBondTiers.Silver,
-  // },
+  {
+    index: 6017,
+    version: '2.1.0',
+    chainId: ChainId.LINEA,
+    contractAddress: {
+      [ChainId.LINEA]: '0xEC2E6BBd57a7B01E227E71b9E6566F651BDD64E3',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.hotdog,
+    billNnftAddress: {
+      [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
+    },
+    inactive: false,
+    projectLink: 'https://www.hotdog.pet/',
+    twitter: 'https://x.com/HotdogLinea',
+    initTime: { [ChainId.LINEA]: 1742922000 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.GoldenTicket_Collection1,
+    },
+    tags: ['Meme', 'Community'],
+    shortDescription: `HOTDOG, the sauciest meme on Linea, brings a fiery mix of memes, madness, and mouthwatering fun. More than just a token, it’s a cultural sensation powered by 69% memes, 31% hotdogs, and an unstoppable community. With a fresh website, expanding partnerships, and growing momentum, HOTDOG is ready to take a bite out of the market, this is the hottest dog on the blockchain!`,
+    fullDescription: `Everyone loves hotdogs. Everyone loves memes. HotDog on Linea is the ultimate snackable sensation—69% memes, 31% hotdogs, 100% delicious. Fresh off the grill, it’s back with a new website, juicier partnerships, and a community that’s always hungry for more. HOTDOG isn’t just a memecoin—it’s a movement, a meme revolution, and the tastiest token on the blockchain. From AI-generated hotdog art to the most unhinged hotdog memes, this is where degens and food lovers unite. Think you can resist? The market’s heating up, and this is your chance to lock in your spot at the meme table. No forks, no knives—just raw, saucy fun. Whether you're here to stack, snack, or just enjoy the absurdity of a blockchain hotdog, this is your moment. Don't miss out—because nothing hits the spot like $HOTDOG!`,
+    feeInPayout: 0,
+    minTier: LaunchBondTiers.Silver,
+  },
+  {
+    index: 6016,
+    version: '2.1.0',
+    chainId: ChainId.LINEA,
+    contractAddress: {
+      [ChainId.LINEA]: '0x4D3Eeb084f935B8658b202915D089585Bd3c357a',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.lynx,
+    billNnftAddress: {
+      [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
+    },
+    inactive: false,
+    projectLink: 'https://www.lynex.fi/',
+    twitter: 'https://x.com/LynexFi',
+    audit: 'https://www.cyberscope.io/audits/coin-lynex',
+    initTime: { [ChainId.LINEA]: 1742922000 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.GoldenTicket_Collection1,
+    },
+    tags: ['DEX'],
+    shortDescription: `Lynex is a powerful liquidity platform based on Thena, which enhanced the Velodrome codebase to fairly compensate LPs for impermanent loss. Ideal for projects needing liquidity, Lynex connects users with top strategies via ALMs, optimizes returns, and rewards participants. Its core token, $LYNX, can be converted to veLYNX for deeper governance and incentives.`,
+    fullDescription: `Lynex is a next-generation liquidity platform that democratizes advanced liquidity strategies by connecting everyday traders with expert-level tools through a competitive ecosystem of Automated Liquidity Managers (ALMs) and strategists. Designed for efficiency, Lynex optimizes concentrated liquidity positions to maximize fees and minimize slippage, while integrating professional strategists for active liquidity and reward management. Acting as a central hub, Lynex aggregates ALMs into a vibrant marketplace where users can easily find strategies tailored to their needs. Each trade generates token fees, rewarding active voters and reinforcing the Lynex treasury. Its unique bribe system, powered by protocols on the Linea blockchain, fuels ecosystem engagement. Incentives are further enhanced through oLYNX, aligning participant interests. At the core is $LYNX, an ERC-20 utility token convertible into veLYNX, enabling deeper participation and governance within the Lynex ecosystem.`,
+    feeInPayout: 0,
+    minTier: LaunchBondTiers.Silver,
+  },
   {
     index: 6015,
     version: '2.0.0',
@@ -8349,7 +8349,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   //   billArt: {
   //     collection: BillArtCollection.GoldenTicket_Collection1,
   //   },
-  //   bondPartner: 'QuickSwap',
   //   shortDescription:
   //     'Trakx is a global fintech redefining crypto investments with its Crypto Tradable Indices (CTIs), offering simple, one-click portfolio diversification through themed baskets of top digital assets. Registered with French AMF/ACPR as a VASP, Trakx ensures regulatory compliance. Powered by the TRKX token, users enjoy reduced fees, governance participation, and staking rewards, making crypto investing easy and accessible.',
   //   fullDescription: `Trakx is a global fintech innovator revolutionizing crypto investments through its Crypto Tradable Indices (CTIs). These proprietary baskets of the largest and most liquid digital assets offer a seamless, one-click solution for diversifying portfolios in the fast-evolving crypto market. With low fees and themed, easy-to-understand investment options, Trakx simplifies complex strategies for all investors. Registered with French AMF/ACPR as a Virtual Asset Service Provider (VASP), Trakx adheres to the highest international regulatory standards. The TRKX token powers the ecosystem, reducing trading fees and unlocking exclusive benefits such as governance participation and staking rewards. Trakx makes advanced investing straightforward, setting a new benchmark in crypto index trading.`,
