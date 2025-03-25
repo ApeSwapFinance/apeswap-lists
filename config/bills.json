@@ -3533,7 +3533,7 @@
       "56": "0x39D56B60964aB6f3f886968b5A6DdE3e5434A873"
     },
     "billType": "reserve",
-    "billVersion": "V2",
+    "billVersion": "V4",
     "lpToken": {
       "symbol": "BNB",
       "address": {

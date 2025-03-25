@@ -3791,6 +3791,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  arcas_new: {
+    symbol: 'ARCAS',
+    address: {
+      [ChainId.BSC]: '0x7ca058309053F90b39Bfc58dE1edA2a89e9c03a8',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+    },
+    active: true,
+  },
   via: {
     symbol: 'VIA',
     address: {
