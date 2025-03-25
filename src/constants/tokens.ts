@@ -1111,6 +1111,7 @@ const tokens: Record<string, Token> = {
       [ChainId.GRAPHLINQ]: '0xbeED106D0f2e6950BFa1Eec74E1253CA0a643442',
       [ChainId.BLAST]: '0x4300000000000000000000000000000000000004',
       [ChainId.SONIC]: '0x50c42dEAcD8Fc9773493ED674b675bE577f2634b',
+      [ChainId.MONAD_TESTNET]: '0xB5a30b0FDc5EA94A52fDc42e3E9760Cb8449Fb37',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -1126,6 +1127,7 @@ const tokens: Record<string, Token> = {
       [ChainId.GRAPHLINQ]: 18,
       [ChainId.BLAST]: 18,
       [ChainId.SONIC]: 18,
+      [ChainId.MONAD_TESTNET]: 18,
     },
     liquidityDex: {
       [ChainId.MAINNET]: LiquidityDex.UniswapV3,
@@ -1135,6 +1137,7 @@ const tokens: Record<string, Token> = {
       [ChainId.IOTA]: LiquidityDex.MagicSea,
       [ChainId.GRAPHLINQ]: LiquidityDex.External,
       [ChainId.BLAST]: LiquidityDex.ThrusterV3,
+      [ChainId.MONAD_TESTNET]: LiquidityDex.PancakeSwapV2,
     },
     active: true,
   },
@@ -1148,6 +1151,7 @@ const tokens: Record<string, Token> = {
       [ChainId.LINEA]: '0x3aAB2285ddcDdaD8edf438C1bAB47e1a9D05a9b4',
       [ChainId.ARBITRUM]: '0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f',
       [ChainId.BASE]: '0x0c41F1FC9022FEB69aF6dc666aBfE73C9FFDA7ce',
+      [ChainId.MONAD_TESTNET]: '0xcf5a6076cfa32686c0Df13aBaDa2b40dec133F1d',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -1157,10 +1161,12 @@ const tokens: Record<string, Token> = {
       [ChainId.LINEA]: 8,
       [ChainId.ARBITRUM]: 8,
       [ChainId.BASE]: 18,
+      [ChainId.MONAD_TESTNET]: 8,
     },
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
       [ChainId.LINEA]: LiquidityDex.Lynex,
+      [ChainId.MONAD_TESTNET]: LiquidityDex.PancakeSwapV2,
     },
     active: true,
   },
