@@ -2249,7 +2249,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://clashub.io/',
     twitter: 'https://twitter.com/theclashub',
     initTime: { [ChainId.BSC]: 1741352620 },
-    soldOut: false,
+    soldOut: true,
     billArt: { collection: BillArtCollection.ApeBond_Collection1 },
     shortDescription:
       'Clashub is an NFT card game with a Play2Earn system, transforming approved NFTs into playing cards. Players use these cards to battle opponents and earn CLASH Tokens. It uniquely supports NFTs from various networks, enabling diverse gameplay. The CLASH Token serves as the in-game currency for purchases and rewards, with a balanced economic loop to prevent inflation.',
@@ -2316,7 +2316,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://ceranos.finance/',
     twitter: 'https://x.com/CeranosFinance',
     initTime: { [ChainId.BSC]: 1740567714 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -2345,7 +2345,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.bnbagents.ai/',
     twitter: 'https://x.com/BNBAgents_AI',
     initTime: { [ChainId.BSC]: 1740390438 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
