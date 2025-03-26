@@ -2017,6 +2017,90 @@ const bills: BillsConfig[] = [
   // BNB chain
   //
   {
+    index: 1135,
+    cmcId: 33546,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: { [ChainId.BSC]: '0xADd0dB1d3eCaaAC8Ffd6314f249F2D36420B3c4c' },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.clash,
+    billNnftAddress: { [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9' },
+    inactive: false,
+    projectLink: 'https://clashub.io/',
+    twitter: 'https://twitter.com/theclashub',
+    initTime: { [ChainId.BSC]: 1742999872 },
+    soldOut: false,
+    billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+    shortDescription:
+      'Clashub is an NFT card game with a Play2Earn system, transforming approved NFTs into playing cards. Players use these cards to battle opponents and earn CLASH Tokens. It uniquely supports NFTs from various networks, enabling diverse gameplay. The CLASH Token serves as the in-game currency for purchases and rewards, with a balanced economic loop to prevent inflation.',
+    fullDescription:
+      "Clashub is an innovative NFT card game that integrates a Play2Earn system into its token economy for both existing and upcoming NFT collections. Through its unique algorithm, Clashub converts NFTs owned by players into playing cards, provided they belong to an approved collection. These cards are then used by players to battle opponents and earn CLASH Tokens. A standout feature of Clashub is its ability to bring together NFTs from different collections on a single gaming platform, allowing for a seamless and diverse gameplay experience. Furthermore, Clashub supports NFTs from various networks, enabling users to utilize their NFTs as playing cards, regardless of the network. The CLASH Token is central to Clashub's ecosystem, facilitating investor processes and the integration of NFT collections. It also functions as the in-game currency, used for marketplace purchases and game rewards. To maintain a stable price structure, Clashub has implemented an in-game loop that balances revenue and expenses, ensuring a sustainable economy.",
+    tags: ['GAMEFI'],
+    feeInPayout: 2,
+  },
+  {
+    index: 1134,
+    cmcId: 35797,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x9d77C1Bc653C0bDE71cC559883C9384b189B1a7b',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.bnbaiWbnb_PCS,
+    earnToken: tokens.bnbai,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://www.bnbagents.ai/',
+    twitter: 'https://x.com/BNBAgents_AI',
+    initTime: { [ChainId.BSC]: 1742999872 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription:
+      'BNB Agents serve as a hub for AI Agents on the BNB Chain. Powered by $BNBAI, a unified currency for all AI, and build on the operating system designed for inclusive intelligence, this platform forms the foundation of the Agentive Economy. It enables the creation and operation of dynamic AI Agents tailored to diverse use cases. With $BNBAI at its core, BNB Agents seamlessly integrates AI capabilities with blockchain, redefining how intelligence and autonomy function within decentralized ecosystems.',
+    fullDescription:
+      'BNB Agents OS is a pioneering AI-driven ecosystem on BNB Chain, designed to empower users with the ability to create, deploy, and monetize autonomous AI agents effortlessly. As the first (A)ICO platform, it provides a seamless interface for token generation using AI-powered frameworks, integrating natively with $BNBAI to ensure a unified Web3 experience. With just three clicks, users can launch generative AI agents tailored to custom data, transforming attention into programmable on-chain assets. Governed by $BNBAI, the ecosystem enables staking, Guild participation, and decentralized collaboration. The lead Guild, B(AI)NANCE, guided by an AI Agent modeled after CZ, exemplifies collective intelligence in action. By merging AI and blockchain, BNB Agents OS pioneers an intelligent economy where AI Agent tokens drive innovation, liquidity, and programmable utility across the BNB Chain.',
+    feeInPayout: 2,
+  },
+  {
+    index: 1133,
+    cmcId: 35157,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x2932f2E285FFDd8E2d86B40c4cA66a2D0d553cF7',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.crsWbnb_PCS,
+    earnToken: tokens.ceranos,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://ceranos.finance/',
+    twitter: 'https://x.com/CeranosFinance',
+    initTime: { [ChainId.BSC]: 1742999872 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription:
+      'Ceranos Finance is transforming DeFi by combining hedge fund benefits with blockchain transparency. Through its hedge fund DAO, investors gain access to expert-managed trading strategies while ensuring decentralization. Capital is deployed into advanced trading activities, rewarding stakers. The CRS token grants access to trading tools and rewards, making institutional-grade strategies available to all.',
+    fullDescription:
+      'Ceranos Finance is bridging the gap between traditional hedge funds and decentralized finance, bringing institutional-grade investment strategies to the crypto space. By introducing a hedge fund DAO, Ceranos enables investors to benefit from expert-managed trading while maintaining full transparency and decentralization. The capital raised is deployed into sophisticated trading strategies, with profits distributed to stakers who actively participate in the ecosystem. At the heart of this financial revolution is the CRS token, which grants users access to an advanced trading platform and a share of rewards. Through a community-driven approach, Ceranos fosters trust, integrity, and innovation, making high-level financial tools and opportunities accessible to all. With a vision to reshape crypto investing, Ceranos empowers users to take control of their financial future while benefiting from cutting-edge strategies traditionally reserved for institutional investors.',
+    feeInPayout: 2,
+  },
+  {
     index: 1132,
     version: '2.1.0',
     chainId: ChainId.BSC,
