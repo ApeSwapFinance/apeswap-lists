@@ -1,7 +1,7 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1126
+// BNB Largest ID: 1138
 // Polygon Largest ID: 175
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2027
@@ -2016,6 +2016,127 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1138,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x56c6f6946a7387D3c2751d8c0F72235C6d618Cc1',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.sdmUsdt_Ichi,
+    earnToken: tokens.sdm,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://shieldeum.net/',
+    twitter: 'https://x.com/Shieldeum',
+    audit: 'https://skynet.certik.com/projects/shieldeum',
+    initTime: { [ChainId.BSC]: 1733498631 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['AI', 'DEPIN'],
+    shortDescription:
+      'Shieldeum is a Web3 cybersecurity platform safeguarding 440 million crypto users with its AI-powered Decentralized Physical Infrastructure Network (DePIN). It delivers advanced services like data encryption, threat detection, and high-performance computing. Powered by the $SDM token, Shieldeum offers easy-to-use solutions, node participation, and DAO governance, enabling users to shape its future.',
+    fullDescription:
+      "Shieldeum is a Web3 cybersecurity platform designed to protect 440 million crypto users through an AI-powered Decentralized Physical Infrastructure Network (DePIN). At its core, Shieldeum operates datacenter servers that generate computing power to support advanced services, including application hosting, data encryption, threat detection, and high-performance computing. Tailored for Web3, blockchain, and crypto use cases, Shieldeum delivers user-friendly AI-driven cybersecurity solutions. Its ecosystem allows anyone to participate by powering a Shieldeum node through pools, similar to Bitcoin mining pools. The $SDM token powers the ecosystem, offering governance through a DAO where holders can propose, vote, and allocate funds, while also unlocking premium AI services and gaining influence in shaping the platform's future.",
+    feeInPayout: 2,
+  },
+  {
+    index: 1137,
+    version: '2.1.0',
+    cmcId: 34877,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x219649711282b9d5D7487a679e9935F06F9D1922',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.qaagai,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://qaagai.com',
+    twitter: 'https://x.com/qaagai',
+    audit: 'https://www.cyberscope.io/audits/coin-qaagai',
+    initTime: { [ChainId.BSC]: 1743008933 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription:
+      'QAAG AI is a cutting-edge WEB2/WEB3 solution built on Binance Smart Chain, revolutionizing customer relationship management. It offers AI-driven tools for appointment scheduling, personalized customer service, call center optimization, and virtual P.A. support. Tailored for businesses and healthcare. Build on the Binance Smart Chain, the ecosystem is powered by the QAAGAI token, enabling transactions, incentivizing engagement, and fostering governance participation.',
+    fullDescription:
+      'QAAG AI is a transformative WEB2/WEB3 solution designed to revolutionize customer relationship management for industries, businesses, and individuals. Powered by advanced AI and built on the Binance Smart Chain, QAAG AI provides secure, immutable, and tamper-proof systems for seamless operations. Its comprehensive offerings include 24/7 appointment and order management to optimize scheduling and reduce no-shows, intelligent customer service tools for personalized and efficient support, AI-enhanced call center management for real-time analytics and smart routing, and a virtual P.A./receptionist to handle calls, meetings, and events. Tailored for healthcare providers, businesses, and call centers, QAAG AI adapts to diverse needs, delivering intuitive, scalable, and efficient solutions. The ecosystem is powered by the QAAGAI token, enabling transactions, incentivizing engagement, and fostering governance participation.',
+    feeInPayout: 2,
+  },
+  {
+    index: 1136,
+    version: '2.1.0',
+    cmcId: 12621,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x961162191A1e6Ca1510871Ae72bCccD48fc9AD78',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.scpt,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://token.script.tv/',
+    twitter: 'https://x.com/script_network',
+    audit: 'https://skynet.certik.com/projects/script-network?utm_source=CMC&utm_campaign=AuditByCertiKLink',
+    initTime: { [ChainId.BSC]: 1743008933 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Infra'],
+    shortDescription:
+      'Script Network is an open-source Web3 live TV platform, protocol, and video storage network focused on delivering a unique, industry-defining experience using blockchain technology.',
+    fullDescription:
+      'Script Network (aka Script.TV) is an open-source Web3 live TV platform, protocol, and video storage network focused on delivering a unique, industry-defining experience using blockchain technology. Say goodbye to passive viewing: Script Network pioneers a new era of interactive TV platforms that enable users to connect and engage with fellow viewers in real-time. From participating in content clubs to seizing investment opportunities through NFTs, Script Network empowers users to shape their viewing experience while earning rewards. As a layer-one video protocol that seeks to revolutionize video streaming and create new opportunities for content creators, Script Network houses a range of products, including Script TV, Script Marketplace, Script Enterprise, Script Blockchain, and sADs.',
+    feeInPayout: 2,
+  },
+  {
+    index: 1135,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0xe9F79078a97fE410945dc626c07442a016A6BA14',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.gldBnb_Ichi,
+    earnToken: tokens.gld,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://boudicea.io/',
+    twitter: 'https://x.com/Boudicea_game',
+    initTime: { [ChainId.BSC]: 1743008933 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['GAMEFI'],
+    shortDescription:
+      'Boudicea is a play-to-earn NFT-based game where players become tribal warriors under Queen Boudicea to defend the Iceni tribe from Roman invasions. Build encampments, manage NFT-owned lands, trade items for cryptocurrency, and shape your legacy in a world blending strategy and ancient lore. At the core of the game is the GLD token, which serves as the primary utility token alongside the Clan Leader tokens and the Boudicea DAO token, forming the backbone of a vibrant, lasting universe.',
+    fullDescription:
+      "Boudicea is a play-to-earn NFT-based game that invites players to step into the role of a tribal warrior under the legendary Queen Boudicea, tasked with defending the Iceni tribe against Roman invasions. Players can build and protect their encampments, manage NFT-owned lands, levy taxes, and trade in-game items for cryptocurrency, blending strategic gameplay with ancient lore. Featuring smart NFTs and on-chain gamification, Boudicea offers an immersive experience that rewards players while promoting the enduring value of its ecosystem. At the core of the game is the GLD token, which serves as the primary utility token alongside the Clan Leader tokens and the Boudicea DAO token, forming the backbone of a vibrant, lasting universe. With a vision to create a game of legacy, Boudicea intertwines innovation and history, offering a robust platform where players can shape their legend while securing the long-term value of the game's integral elements.",
+    feeInPayout: 2,
+  },
   {
     index: 1135,
     cmcId: 33546,
