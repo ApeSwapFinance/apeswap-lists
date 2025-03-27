@@ -48,7 +48,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    tags: ['Blockchains'],
+    tags: ['Testnet'],
     shortDescription: `Monad is a blockchain platform that stands out for its high performance and Ethereum compatibility, designed to address the scalability and efficiency challenges faced by existing blockchain technologies.`,
     fullDescription: `Monad is a blockchain platform that stands out for its high performance and Ethereum compatibility, designed to address the scalability and efficiency challenges faced by existing blockchain technologies.`,
   },
@@ -74,7 +74,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    tags: ['Blockchains'],
+    tags: ['Testnet'],
     shortDescription: `Bitcoin is a decentralized cryptocurrency originally described in a 2008 whitepaper by a person, or group of people, using the alias Satoshi Nakamoto. It was launched soon after, in January 2009.`,
     fullDescription: `Bitcoin is a decentralized cryptocurrency originally described in a 2008 whitepaper by a person, or group of people, using the alias Satoshi Nakamoto. It was launched soon after, in January 2009.`,
   },
@@ -101,7 +101,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    tags: ['Blockchains'],
+    tags: ['Testnet'],
     shortDescription: `Ethereum is a decentralized open-source blockchain system that features its own cryptocurrency, Ether. ETH works as a platform for numerous other cryptocurrencies, as well as for the execution of decentralized smart contracts.`,
     fullDescription: `Ethereum is a decentralized open-source blockchain system that features its own cryptocurrency, Ether. ETH works as a platform for numerous other cryptocurrencies, as well as for the execution of decentralized smart contracts.`,
   },
