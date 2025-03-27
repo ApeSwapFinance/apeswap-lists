@@ -41,6 +41,18 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       tokenAddress: '0x09854c1349cd1412439461ca72609f97850d2218',
     },
   },
+  [ChainId.GRAPHLINQ]: {
+    '0xEB567ec41738c2bAb2599A1070FC5B727721b3B6': {
+      source: PriceSource.Coingecko,
+      id: 'graphlinq-protocol',
+      tokenAddress: '0xEB567ec41738c2bAb2599A1070FC5B727721b3B6',
+    },
+    '0xbeED106D0f2e6950BFa1Eec74E1253CA0a643442': {
+      source: PriceSource.Coingecko,
+      id: 'ethereum',
+      tokenAddress: '0xbeED106D0f2e6950BFa1Eec74E1253CA0a643442',
+    },
+  },
 }
 
 export default priceSources

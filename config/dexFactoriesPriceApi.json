@@ -97,11 +97,41 @@
       "protocol": 1
     }
   ],
+  "146": [
+    {
+      "name": "ShadowExchange",
+      "factory": "0x2dA25E7446A70D7be65fd4c053948BEcAA6374c8",
+      "protocol": 5
+    },
+    {
+      "name": "SwapX",
+      "factory": "0x05c1be79d3aC21Cc4B727eeD58C9B2fF757F5663",
+      "protocol": 5
+    },
+    {
+      "name": "SwapXAlgebraIntegral",
+      "factory": "0xEB567ec41738c2bAb2599A1070FC5B727721b3B6",
+      "protocol": 4
+    },
+    {
+      "name": "Wagmi",
+      "factory": "0x56CFC796bC88C9c7e1b38C2b0aF9B7120B079aef",
+      "protocol": 1
+    }
+  ],
+  "614": [],
   "1890": [
     {
       "name": "Elektrik",
       "factory": "0xEE6099234bbdC793a43676D98Eb6B589ca7112D7",
       "protocol": 1
+    }
+  ],
+  "4158": [
+    {
+      "name": "XSwap",
+      "factory": "0x3ca837175312070f4E4fF64972a199122Ee03805",
+      "protocol": 0
     }
   ],
   "8453": [
@@ -166,6 +196,18 @@
       "name": "Wagmi",
       "factory": "0x01Bd510B2eA106917e711f9a05a42fC162bee2Ac",
       "protocol": 1
+    }
+  ],
+  "10143": [
+    {
+      "name": "PancakeSwapV2",
+      "factory": "0x82438CE666d9403e488bA720c7424434e8Aa47CD",
+      "protocol": 0
+    },
+    {
+      "name": "LFJ",
+      "factory": "0xe32D45C2B1c17a0fE0De76f1ebFA7c44B7810034",
+      "protocol": 0
     }
   ],
   "42161": [

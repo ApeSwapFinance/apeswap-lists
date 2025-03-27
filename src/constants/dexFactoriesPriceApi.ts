@@ -285,11 +285,54 @@ const dexFactoriesPriceApi: Partial<
       protocol: PriceApiProtocols.UniV3,
     },
   ],
+  [ChainId.GRAPHLINQ]: [],
+  [ChainId.CROSSFI]: [
+    {
+      name: LiquidityDex.XSwap,
+      factory: '0x3ca837175312070f4E4fF64972a199122Ee03805',
+      protocol: PriceApiProtocols.UniV2,
+    },
+  ],
+  [ChainId.SONIC]: [
+    {
+      name: LiquidityDex.ShadowExchange,
+      factory: '0x2dA25E7446A70D7be65fd4c053948BEcAA6374c8',
+      protocol: PriceApiProtocols.Solidly,
+    },
+    {
+      name: LiquidityDex.SwapX,
+      factory: '0x05c1be79d3aC21Cc4B727eeD58C9B2fF757F5663',
+      protocol: PriceApiProtocols.Solidly,
+    },
+    {
+      name: LiquidityDex.SwapXAlgebraIntegral,
+      factory: '0xEB567ec41738c2bAb2599A1070FC5B727721b3B6',
+      protocol: PriceApiProtocols.AlgebraIntegral,
+    },
+    {
+      name: LiquidityDex.Wagmi,
+      factory: '0x56CFC796bC88C9c7e1b38C2b0aF9B7120B079aef',
+      protocol: PriceApiProtocols.UniV3,
+    },
+  ],
+  //TESTNETS
   [ChainId.BSC_TESTNET]: [
     {
       name: LiquidityDex.PancakeSwapV3,
       factory: '0x0BFbCF9fa4f9C56B0F40a671Ad40E0805A091865',
       protocol: PriceApiProtocols.UniV3,
+    },
+  ],
+  [ChainId.MONAD_TESTNET]: [
+    {
+      name: LiquidityDex.PancakeSwapV2,
+      factory: '0x82438CE666d9403e488bA720c7424434e8Aa47CD',
+      protocol: PriceApiProtocols.UniV2,
+    },
+    {
+      name: LiquidityDex.LFJ,
+      factory: '0xe32D45C2B1c17a0fE0De76f1ebFA7c44B7810034',
+      protocol: PriceApiProtocols.UniV2,
     },
   ],
 }
