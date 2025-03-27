@@ -12,6 +12,11 @@
     }
   },
   "614": {
+    "0x0000000000000000000000000000000000000000": {
+      "source": "coingecko",
+      "id": "graphlinq-protocol",
+      "tokenAddress": "0x0000000000000000000000000000000000000000"
+    },
     "0xEB567ec41738c2bAb2599A1070FC5B727721b3B6": {
       "source": "coingecko",
       "id": "graphlinq-protocol",

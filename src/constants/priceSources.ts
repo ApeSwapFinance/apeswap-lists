@@ -42,6 +42,11 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
     },
   },
   [ChainId.GRAPHLINQ]: {
+    '0x0000000000000000000000000000000000000000': {
+      source: PriceSource.Coingecko,
+      id: 'graphlinq-protocol',
+      tokenAddress: '0x0000000000000000000000000000000000000000',
+    },
     '0xEB567ec41738c2bAb2599A1070FC5B727721b3B6': {
       source: PriceSource.Coingecko,
       id: 'graphlinq-protocol',
