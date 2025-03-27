@@ -1,0 +1,14 @@
+{
+  "56": {
+    "0x8613d52D74a48883A51bAdF8b25ab066714087Da": {
+      "source": "coingecko",
+      "id": "lovebit",
+      "tokenAddress": "0x8613d52D74a48883A51bAdF8b25ab066714087Da"
+    },
+    "0x09854c1349cd1412439461ca72609f97850d2218": {
+      "source": "mexc",
+      "id": "FNFSUSDT",
+      "tokenAddress": "0x09854c1349cd1412439461ca72609f97850d2218"
+    }
+  }
+}
