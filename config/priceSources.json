@@ -9,6 +9,33 @@
       "source": "mexc",
       "id": "FNFSUSDT",
       "tokenAddress": "0x09854c1349cd1412439461ca72609f97850d2218"
+    },
+    "0xb6C53431608E626AC81a9776ac3e999c5556717c": {
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "0xb6C53431608E626AC81a9776ac3e999c5556717c"
+    },
+    "0x71be881e9C5d4465B3FfF61e89c6f3651E69B5bb": {
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "0x71be881e9C5d4465B3FfF61e89c6f3651E69B5bb"
+    },
+    "0xBDf5bAfEE1291EEc45Ae3aadAc89BE8152D4E673": {
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "0xBDf5bAfEE1291EEc45Ae3aadAc89BE8152D4E673"
+    }
+  },
+  "137": {
+    "0x61bf130d973d59c69d3227f1668d534d83119860": {
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "0x61bf130d973d59c69d3227f1668d534d83119860"
+    },
+    "0xB6a5ae40e79891E4DeAdAd06C8A7cA47396Df21C": {
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "0xB6a5ae40e79891E4DeAdAd06C8A7cA47396Df21C"
     }
   },
   "614": {
@@ -26,6 +53,34 @@
       "source": "coingecko",
       "id": "ethereum",
       "tokenAddress": "0xbeED106D0f2e6950BFa1Eec74E1253CA0a643442"
+    }
+  },
+  "2525": {
+    "0x69011706b3f6C6eaeD7D2Bc13801558B4fd94CBF": {
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "0x69011706b3f6C6eaeD7D2Bc13801558B4fd94CBF"
+    }
+  },
+  "8453": {
+    "0xACf80A4e55F5f28e1e7d261a221cA495DB5bcbB3": {
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "0xACf80A4e55F5f28e1e7d261a221cA495DB5bcbB3"
+    }
+  },
+  "42161": {
+    "0x4D22e37Eb4d71D1acc5f4889a65936D2a44A2f15": {
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "0x4D22e37Eb4d71D1acc5f4889a65936D2a44A2f15"
+    }
+  },
+  "59144": {
+    "0xcc22F6AA610D1b2a0e89EF228079cB3e1831b1D1": {
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "0xcc22F6AA610D1b2a0e89EF228079cB3e1831b1D1"
     }
   }
 }
