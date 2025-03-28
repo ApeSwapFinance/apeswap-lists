@@ -32,6 +32,9 @@ const tokens: Record<string, Token> = {
       [ChainId.MONAD_TESTNET]: LiquidityDex.PancakeSwapV2,
     },
     active: true,
+    getLpUrl: {
+      [ChainId.MONAD_TESTNET]: 'https://testnet.monad.xyz/',
+    },
   },
   s: {
     symbol: 'S',
