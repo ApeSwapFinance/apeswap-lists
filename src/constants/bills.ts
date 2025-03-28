@@ -469,7 +469,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.agentxavi.ai/',
     twitter: 'https://x.com/AgentXAVI',
     initTime: { [ChainId.BASE]: 1739902466 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
