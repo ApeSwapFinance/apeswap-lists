@@ -13368,37 +13368,37 @@ With the lending products set to go live in February, the project is poised to a
     fullDescription: `Singularity Finance is an EVM-compatible Layer-2 blockchain that brings the AI economy onchain by providing a compliant framework for the tokenization of AI compute and the monetization of AI agents. The platform addresses challenges such as liquidity and accessibility by converting core elements of the AI value chain—from hardware to applications—into tokenized, yield-bearing assets that integrate seamlessly with the DeFi ecosystem. By enabling new asset classes like tokenized AI compute, Singularity Finance offers unparalleled access to the burgeoning AI market, allowing both individuals and businesses to actively participate in the growth of AI technologies. Central to this ecosystem is the SFI token, which underpins the network’s economic, operational, and governance functions while fostering a secure, efficient, and community-driven digital environment.`,
     feeInPayout: 2,
   },
-  // {
-  //   index: 3044,
-  //   cmcId: 33148,
-  //   version: '2.1.0',
-  //   chainId: ChainId.MAINNET,
-  //   contractAddress: {
-  //     [ChainId.MAINNET]: '',
-  //   },
-  //   billType: 'reserve',
-  //   billVersion: BillVersion.V4,
-  //   lpToken: tokens.usdc,
-  //   earnToken: tokens.abds,
-  //   billNnftAddress: {
-  //     [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
-  //   },
-  //   inactive: false,
-  //   projectLink: 'https://www.abdstoken.com/#about',
-  //   twitter: 'https://x.com/ABDSystems',
-  //   audit: 'https://skynet.certik.com/projects/abd-systems',
-  //   initTime: { [ChainId.MAINNET]: 1743156644 },
-  //   soldOut: false,
-  //   billArt: {
-  //     collection: BillArtCollection.ETH_Collection1,
-  //   },
-  //   tags: ['DeFi'],
-  //   shortDescription:
-  //     'With over 13 years of IT expertise, Abdsystems integrates seamlessly with advanced technology services for a personalized user experience. Founded in 2009, ABD Systems drives change through smart systems and innovation, empowering users with features like staking rewards and real-world integration. The ABDS Token, developed by ABD Systems, offers a secure, fast, and accessible entry into digital finance.',
-  //   fullDescription:
-  //     'Backed by over 13 years of expertise in IT solutions, ABD Systems ensures the token is seamlessly integrated with its technology services, delivering a personalized and innovative user experience. Founded in 2009 by visionary entrepreneurs committed to creating tech solutions for societal good, ABD Systems is on a mission to drive transformative change through smart systems and high technology. With features like staking rewards and real-world integration, the ABDS Token is positioned to lead the digital revolution, empowering users to earn and grow in a future without limits. The ABDS Token, created by ABD Systems, represents a leap forward in digital finance by offering a secure, fast, and accessible entry into the cryptocurrency market.',
-  //   feeInPayout: 2,
-  // },
+  {
+    index: 3044,
+    cmcId: 33148,
+    version: '2.1.0',
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0x3d62475a17Eab16A3f2B0417fcB8fFaB555FE3C2',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.abds,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    inactive: false,
+    projectLink: 'https://www.abdstoken.com/#about',
+    twitter: 'https://x.com/ABDSystems',
+    audit: 'https://skynet.certik.com/projects/abd-systems',
+    initTime: { [ChainId.MAINNET]: 1743156644 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['DeFi'],
+    shortDescription:
+      'With over 13 years of IT expertise, Abdsystems integrates seamlessly with advanced technology services for a personalized user experience. Founded in 2009, ABD Systems drives change through smart systems and innovation, empowering users with features like staking rewards and real-world integration. The ABDS Token, developed by ABD Systems, offers a secure, fast, and accessible entry into digital finance.',
+    fullDescription:
+      'Backed by over 13 years of expertise in IT solutions, ABD Systems ensures the token is seamlessly integrated with its technology services, delivering a personalized and innovative user experience. Founded in 2009 by visionary entrepreneurs committed to creating tech solutions for societal good, ABD Systems is on a mission to drive transformative change through smart systems and high technology. With features like staking rewards and real-world integration, the ABDS Token is positioned to lead the digital revolution, empowering users to earn and grow in a future without limits. The ABDS Token, created by ABD Systems, represents a leap forward in digital finance by offering a secure, fast, and accessible entry into the cryptocurrency market.',
+    feeInPayout: 2,
+  },
 ]
 
 export default bills
