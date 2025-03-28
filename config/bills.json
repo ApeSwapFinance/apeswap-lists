@@ -20,7 +20,10 @@
       "liquidityDex": {
         "10143": "PancakeSwapV2"
       },
-      "active": true
+      "active": true,
+      "getLpUrl": {
+        "10143": "https://testnet.monad.xyz/"
+      }
     },
     "earnToken": {
       "symbol": "MON",
@@ -33,7 +36,10 @@
       "liquidityDex": {
         "10143": "PancakeSwapV2"
       },
-      "active": true
+      "active": true,
+      "getLpUrl": {
+        "10143": "https://testnet.monad.xyz/"
+      }
     },
     "billNnftAddress": {
       "10143": "0x04f1D39a5A5EFCB6e51891E01d4acCD8c434775C"
@@ -73,7 +79,10 @@
       "liquidityDex": {
         "10143": "PancakeSwapV2"
       },
-      "active": true
+      "active": true,
+      "getLpUrl": {
+        "10143": "https://testnet.monad.xyz/"
+      }
     },
     "earnToken": {
       "symbol": "BTC",
@@ -125,7 +134,10 @@
       "liquidityDex": {
         "10143": "PancakeSwapV2"
       },
-      "active": true
+      "active": true,
+      "getLpUrl": {
+        "10143": "https://testnet.monad.xyz/"
+      }
     },
     "earnToken": {
       "symbol": "ETH",
