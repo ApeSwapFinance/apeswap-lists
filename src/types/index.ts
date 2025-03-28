@@ -77,6 +77,8 @@ export enum LiquidityDex {
   Synthswap = 'Synthswap',
   Aerodrome = 'Aerodrome',
   SmarDex = 'SmarDex',
+  TrebleSwapV2 = 'TrebleSwap V2',
+  TrebleAlgebraIntegral = 'Treble Algebra Integral',
 
   //IOTA
   MagicSea = 'MagicSea',
@@ -141,6 +143,31 @@ export enum ZapVersion {
   SoulZapApi = 'SoulZapApi',
 }
 
+//Price API Protocols
+export enum PriceApiProtocols {
+  UniV2 = 0,
+  UniV3 = 1,
+  UniV4 = 2,
+  Algebra = 3,
+  AlgebraIntegral = 4,
+  Solidly = 5,
+  Curve = 6,
+}
+
+export enum Wrappers {
+  Gamma = 0,
+  Ichi = 1,
+  Steer = 2,
+}
+
+export const ProtocolsWithWrapper: PriceApiProtocols[] = [
+  PriceApiProtocols.UniV3,
+  PriceApiProtocols.UniV4,
+  PriceApiProtocols.Algebra,
+  PriceApiProtocols.AlgebraIntegral,
+]
+
+//Protocols
 export enum Protocols {
   Both = 1, //deprecated. Pick one protocol
   V2 = 2,
@@ -153,13 +180,6 @@ export enum Protocols {
   Curve = 9,
   AlgebraIntegral = 10,
 }
-
-export enum Wrappers {
-  Gamma,
-  Ichi,
-  Steer,
-}
-
 export interface FarmStyles {
   deprecated: string
   warning: string
@@ -910,4 +930,6 @@ export const dexToZapMapping: Record<LiquidityDex, Partial<Record<ChainId, ZapVe
   [LiquidityDex.ShadowExchange]: {},
   [LiquidityDex.SwapX]: {},
   [LiquidityDex.SwapXAlgebraIntegral]: {},
+  [LiquidityDex.TrebleSwapV2]: {},
+  [LiquidityDex.TrebleAlgebraIntegral]: {},
 }

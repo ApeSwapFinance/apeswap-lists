@@ -16,6 +16,8 @@ import {
   poolsV2,
   launchProjects,
   flashBonds,
+  dexFactoriesPriceApi,
+  priceSources,
 } from '../constants'
 import { BillsConfig } from '../types'
 
@@ -34,6 +36,8 @@ const listMap: [any, string][] = [
   [poolsV2, 'poolsV2'],
   [launchProjects, 'launchProjects'],
   [flashBonds, 'flashBonds'],
+  [dexFactoriesPriceApi, 'dexFactoriesPriceApi'],
+  [priceSources, 'priceSources'],
 ]
 
 export const stringifyList = (listProp: any, listName: string) => {
