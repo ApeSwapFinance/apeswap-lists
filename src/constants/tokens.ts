@@ -4050,6 +4050,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  ado: {
+    symbol: 'ADO',
+    address: {
+      [ChainId.MAINNET]: '0xf9902EdfCa4F49DcaEBC335C73aEbD82C79C2886',
+    },
+    decimals: { [ChainId.MAINNET]: 18 },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
+    },
+    active: true,
+  },
   pumlx: {
     symbol: 'PUMLx',
     address: {
