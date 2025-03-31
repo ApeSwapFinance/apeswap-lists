@@ -51,6 +51,7 @@ const bills: BillsConfig[] = [
     tags: ['Testnet'],
     shortDescription: `Monad is a blockchain platform that stands out for its high performance and Ethereum compatibility, designed to address the scalability and efficiency challenges faced by existing blockchain technologies.`,
     fullDescription: `Monad is a blockchain platform that stands out for its high performance and Ethereum compatibility, designed to address the scalability and efficiency challenges faced by existing blockchain technologies.`,
+    warningCard: `Testnet Bonds use fake tokens for testing purposes only.`,
   },
   {
     index: 14001,
@@ -77,6 +78,7 @@ const bills: BillsConfig[] = [
     tags: ['Testnet'],
     shortDescription: `Bitcoin is a decentralized cryptocurrency originally described in a 2008 whitepaper by a person, or group of people, using the alias Satoshi Nakamoto. It was launched soon after, in January 2009.`,
     fullDescription: `Bitcoin is a decentralized cryptocurrency originally described in a 2008 whitepaper by a person, or group of people, using the alias Satoshi Nakamoto. It was launched soon after, in January 2009.`,
+    warningCard: `Testnet Bonds use fake tokens for testing purposes only.`,
   },
   {
     index: 14000,
@@ -104,6 +106,7 @@ const bills: BillsConfig[] = [
     tags: ['Testnet'],
     shortDescription: `Ethereum is a decentralized open-source blockchain system that features its own cryptocurrency, Ether. ETH works as a platform for numerous other cryptocurrencies, as well as for the execution of decentralized smart contracts.`,
     fullDescription: `Ethereum is a decentralized open-source blockchain system that features its own cryptocurrency, Ether. ETH works as a platform for numerous other cryptocurrencies, as well as for the execution of decentralized smart contracts.`,
+    warningCard: `Testnet Bonds use fake tokens for testing purposes only.`,
   },
   //
   // Crossfi
