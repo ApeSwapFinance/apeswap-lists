@@ -1683,6 +1683,62 @@ const bills: BillsConfig[] = [
   //
   // LINEA
   //
+  // {
+  //   index: 6019,
+  //   version: '2.1.0',
+  //   chainId: ChainId.LINEA,
+  //   contractAddress: {
+  //     [ChainId.LINEA]: '',
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V4,
+  //   lpToken: tokens.usdt,
+  //   earnToken: tokens.linus,
+  //   billNnftAddress: {
+  //     [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
+  //   },
+  //   inactive: false,
+  //   projectLink: 'https://linusonlinea.com/',
+  //   twitter: 'https://x.com/linusonlinea',
+  //   initTime: { [ChainId.LINEA]: 1743430347 },
+  //   soldOut: false,
+  //   billArt: {
+  //     collection: BillArtCollection.ApeBond_Collection1,
+  //   },
+  //   tags: ['Meme', 'Community'],
+  //   shortDescription: `LINUS is the OG Memecoin of Linea, the Layer 2 blockchain developed by Ethereum co-founder Joe Lubin. Consisting of an army of pengmilios, which are the most degen ever seen on the Chain. Pengmilios are the owners of $LINUS and $LINUS is the memecoin of Pengmilios. Do you want to become a part of our family? Buy some fucking LINUS 69420.`,
+  //   fullDescription: `Linus is the original memecoin of the Linea blockchain, a Layer 2 solution developed by Ethereum co-founder Joe Lubin. At the heart of this project are the Pengmilios, a wild and loyal army of degens, who proudly own $LINUS, the memecoin that represents their playful yet determined spirit. Unlike traditional tokens like $ENA, $ARB, or $UNI, Linus thrives on market sentiment and social trends, giving it unlimited growth potential. As part of the expanding Linea ecosystem, Linus anticipates billions in valuation, setting the stage for massive inflows into tokens like $LINUS. Pengmilio, the champion of Linea and the flightless bird of the people, leads this art-focused meme project with pride. With its bold, limitless approach, Linus invites everyone to join the Club Pengu community, embrace the fun, and be part of the meteoric rise of this one-of-a-kind memecoin. Ready to be a part of the family? Get your $LINUS now and join the revolution!`,
+  //   feeInPayout: 2,
+  // },
+  // {
+  //   index: 6018,
+  //   version: '2.1.0',
+  //   chainId: ChainId.LINEA,
+  //   contractAddress: {
+  //     [ChainId.LINEA]: '',
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V4,
+  //   lpToken: tokens.usdc,
+  //   earnToken: tokens.lpuss,
+  //   billNnftAddress: {
+  //     [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
+  //   },
+  //   inactive: false,
+  //   projectLink: 'https://linpuss.xyz/',
+  //   twitter: 'https://x.com/LinpussLinea',
+  //   audit:
+  //     'https://lineascan.build/token/0x81BE2aCB2e9291dB6400f9f6a4D0f35f24de2E77?a=0xc9f2a5115b727849e067da85a0ff422732a358a7#code',
+  //   initTime: { [ChainId.LINEA]: 1743430347 },
+  //   soldOut: false,
+  //   billArt: {
+  //     collection: BillArtCollection.ApeBond_Collection1,
+  //   },
+  //   tags: ['Meme', 'Community'],
+  //   shortDescription: ` Linpuss revolutionizes trading on Linea by eliminating distractions and making the experience exciting and effortless. Represented by a blindfold, it empowers users to focus on sniping tokens and navigating the market with precision. More than a memecoin, Linpuss combines gamification with powerful tools to identify top opportunities. Backed by the LPUSS token, it offers early access to Linea’s explosive growth and a game-changing ecosystem.`,
+  //   fullDescription: `Linpuss introduces an innovative approach to trading on Linea by combining cutting-edge functionality with a fun, gamified experience. With its signature blindfold, Linpuss symbolizes the elimination of distractions, empowering users to focus on sniping tokens and seizing the best opportunities in Linea's dynamic market. More than just a memecoin, Linpuss provides traders with an intuitive and thrilling tool that merges the efficiency of a trading bot with the excitement of a game. As Linea prepares for exponential growth, Linpuss positions itself as a gateway to unlocking early access to a revolutionary ecosystem, offering substantial upside potential. Backed by the LPUSS token, Linpuss is on a mission to redefine blockchain trading—making it seamless, engaging, and accessible for all. Whether you're a seasoned trader or a newcomer, Linpuss transforms trading into an adventure, giving you the tools and focus needed to succeed in the evolving Linea market.`,
+  //   feeInPayout: 2,
+  // },
   {
     index: 6017,
     version: '2.1.0',
@@ -1787,7 +1843,7 @@ const bills: BillsConfig[] = [
     audit:
       'https://lineascan.build/token/0x81BE2aCB2e9291dB6400f9f6a4D0f35f24de2E77?a=0xc9f2a5115b727849e067da85a0ff422732a358a7#code',
     initTime: { [ChainId.LINEA]: 1741353925 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1900,7 +1956,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://linusonlinea.com/',
     twitter: 'https://x.com/linusonlinea',
     initTime: { [ChainId.LINEA]: 1725611855 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
