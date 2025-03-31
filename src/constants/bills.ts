@@ -289,6 +289,65 @@ const bills: BillsConfig[] = [
   // BASE
   //
   {
+    index: 8044,
+    cmcId: 32229,
+    version: '2.1.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x16efe2F78a4620c94E4cCfD8ED8780591C9a8f83',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.eth,
+    earnToken: tokens.record,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://web3music.org/',
+    twitter: 'https://x.com/MusicProtocolX',
+    initTime: { [ChainId.BASE]: 1743426325 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['RWA'],
+    shortDescription: `Music Protocol is revolutionizing music IP management in the digital space. By leveraging blockchain, it redefines how music intellectual property is licensed and managed. The platform’s utility token, $RECORD, provides governance rights, access to exclusive content, and participation in tokenized music royalties, allowing holders to benefit from future earnings while engaging directly with artists.`,
+    fullDescription: `Music Protocol is leading a new wave of innovation in the music industry. It is redefining the management and licensing of music intellectual property across the digital landscape. Created from an extensive three-year collaboration intersecting the legal, music business, and technology sectors, it is a transformational infrastructure intended to facilitate digital evolution in the music industry. At its core, Music Protocol is a blockchain-based solution for intricate IP management, with a modular architecture that empowers IP owners to manage rights in both digital and analogue formats. This system seamlessly integrates these formats, adapting to the industry's evolving needs. The platform’s utility token, $RECORD, provides governance rights, access to exclusive content, and participation in tokenized music royalties, allowing holders to benefit from future earnings while engaging directly with artists.`,
+    feeInPayout: 2,
+  },
+  {
+    index: 8043,
+    version: '2.1.0',
+    cmcId: 29485,
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x4d5D207999113DEF060825f2ab19A194c2840380',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.eth,
+    earnToken: tokens.munity,
+    billNnftAddress: {
+      [ChainId.BASE]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    inactive: false,
+    projectLink: 'https://www.metahorseunity.io/',
+    twitter: 'https://twitter.com/metahorseunity',
+    audit: 'https://skynet.certik.com/projects/metahorse-unity',
+    initTime: { [ChainId.BASE]: 1743426325 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    shortDescription:
+      'Metahorse Unity is a pioneering multiplayer, play-to-earn RPG racing game developed on the blockchain by Hungri Games. As the first horse racing RPG with play-to-earn mechanics, it features a decentralized ecosystem, rich NFT collection, and immersive horse metaverse. Players can team up, strategize, and compete in modes like MOBA, RPG, and strategy to earn token rewards. With a focus on skill and teamwork, it offers thrilling gameplay, regular updates, and endless customization options. Play for free and earn as you race in Metahorse Unity.',
+    fullDescription:
+      'Metahorse Unity is a groundbreaking multiplayer, play-to-earn RPG racing game developed on the blockchain by Hungri Games, offering a decentralized ecosystem enriched with a diverse NFT collection and an immersive horse metaverse. Players can team up with friends, strategize, and compete against others to earn token rewards across various modes including MOBA, RPG, and strategy, with regular updates and exciting rewards to keep gameplay fresh. Focused on personal skill and teamwork, Metahorse Unity delivers the thrill of competitive racing, tactical battles, and endless customization options for horses, blending both Free-to-Play and Play-to-Earn models. Founded in 2019, Hungri Games has developed and published three RPG titles on mobile, with a global team of over 32 members specializing in game design, blockchain development, HR, and more. In Metahorse Unity, players can play casually with free heroes or level up by acquiring NFTs to start earning, creating their own stable of Meta Horses and harnessing strategic prowess to conquer the racetrack, outshining global rivals and reaping incredible rewards.',
+    tags: ['GAMEFI'],
+    feeInPayout: 2,
+  },
+  {
     index: 8042,
     version: '2.1.0',
     chainId: ChainId.BASE,
