@@ -292,6 +292,33 @@ const bills: BillsConfig[] = [
   // BASE
   //
   {
+    index: 8045,
+    version: '2.1.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0xB1a2c62B228e760c9c2171b1f186343B20B802bF',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.TFYTest,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://www.thirdfy.com/trade',
+    twitter: 'https://x.com/Thirdfy_',
+    initTime: { [ChainId.BASE]: 1743426325 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Test'],
+    shortDescription: `This is a test bond. Here we can add a custom project description :)`,
+    fullDescription: `This is a test bond. Here we can add a custom project description :)`,
+    feeInPayout: 1,
+  },
+  {
     index: 8044,
     cmcId: 32229,
     version: '2.1.0',

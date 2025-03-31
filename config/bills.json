@@ -495,6 +495,59 @@
     "fullDescription": "FOMOFox is the first market-driven storytelling meme coin on IOTA EVM. Follow the thrilling journey of FOMOFox on TwitterX and help him conquer his FOMO by influencing the $FOMO Token’s market performance. Loyal holders will find countless opportunities to grow their $FOMO bags through raffles, solving riddles, or simply holding and supporting the fox. Along the way, FOMOFox faces diverse challenges and meets intriguing characters. Your influence on the market helps him make the right choices. This project offers pure entertainment and rewards those who stick with it! Join the adventure now and visit their website for more details!"
   },
   {
+    "index": 8045,
+    "version": "2.1.0",
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0xB1a2c62B228e760c9c2171b1f186343B20B802bF"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2"
+      },
+      "decimals": {
+        "8453": 6
+      },
+      "liquidityDex": {
+        "8453": "UniswapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "TFYTest",
+      "address": {
+        "8453": "0xAF9A72Eb71d133B93AD0014CAa0a1024B01d8737"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "liquidityDex": {
+        "8453": "UniswapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "inactive": false,
+    "projectLink": "https://www.thirdfy.com/trade",
+    "twitter": "https://x.com/Thirdfy_",
+    "initTime": {
+      "8453": 1743426325
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["Test"],
+    "shortDescription": "This is a test bond. Here we can add a custom project description :)",
+    "fullDescription": "This is a test bond. Here we can add a custom project description :)",
+    "feeInPayout": 1
+  },
+  {
     "index": 8044,
     "cmcId": 32229,
     "version": "2.1.0",
