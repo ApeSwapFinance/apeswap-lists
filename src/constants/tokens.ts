@@ -20,6 +20,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  TFYTest: {
+    symbol: 'TFYTest',
+    address: {
+      [ChainId.BASE]: '0xAF9A72Eb71d133B93AD0014CAa0a1024B01d8737',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV2,
+    },
+    active: true,
+  },
   mon: {
     symbol: 'MON',
     address: {
