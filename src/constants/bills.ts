@@ -2218,7 +2218,7 @@ const bills: BillsConfig[] = [
     shortDescription: 'LoveBit(LB) is a memecoin paying homage to Satoshi,an anonymous figure who created Bitcoin.',
     fullDescription: 'LoveBit(LB) is a memecoin paying homage to Satoshi,an anonymous figure who created Bitcoin.',
     feeInPayout: 2,
-    warningCard: `This token is currently only tradable on the following CEXs: <a href="https://mexc.com/" target="_blank" rel="noopener noreferrer" style="color: #6560C5">MEXC</a> and <a href="https://lbank.com/" target="_blank" rel="noopener noreferrer" style="color: #6560C5">LBank</a>.`,
+    warningCard: `This token is currently only tradable on the following CEXs: <a href="https://mexc.com/" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a> and <a href="https://lbank.com/" target="_blank" rel="noopener noreferrer" style="color: #6099c5">LBank</a>.`,
   },
   {
     index: 1138,
