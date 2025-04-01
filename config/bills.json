@@ -56,7 +56,8 @@
     },
     "tags": ["Testnet"],
     "shortDescription": "Monad is a blockchain platform that stands out for its high performance and Ethereum compatibility, designed to address the scalability and efficiency challenges faced by existing blockchain technologies.",
-    "fullDescription": "Monad is a blockchain platform that stands out for its high performance and Ethereum compatibility, designed to address the scalability and efficiency challenges faced by existing blockchain technologies."
+    "fullDescription": "Monad is a blockchain platform that stands out for its high performance and Ethereum compatibility, designed to address the scalability and efficiency challenges faced by existing blockchain technologies.",
+    "warningCard": "Testnet Bonds use fake tokens for testing purposes only."
   },
   {
     "index": 14001,
@@ -111,7 +112,8 @@
     },
     "tags": ["Testnet"],
     "shortDescription": "Bitcoin is a decentralized cryptocurrency originally described in a 2008 whitepaper by a person, or group of people, using the alias Satoshi Nakamoto. It was launched soon after, in January 2009.",
-    "fullDescription": "Bitcoin is a decentralized cryptocurrency originally described in a 2008 whitepaper by a person, or group of people, using the alias Satoshi Nakamoto. It was launched soon after, in January 2009."
+    "fullDescription": "Bitcoin is a decentralized cryptocurrency originally described in a 2008 whitepaper by a person, or group of people, using the alias Satoshi Nakamoto. It was launched soon after, in January 2009.",
+    "warningCard": "Testnet Bonds use fake tokens for testing purposes only."
   },
   {
     "index": 14000,
@@ -167,7 +169,8 @@
     },
     "tags": ["Testnet"],
     "shortDescription": "Ethereum is a decentralized open-source blockchain system that features its own cryptocurrency, Ether. ETH works as a platform for numerous other cryptocurrencies, as well as for the execution of decentralized smart contracts.",
-    "fullDescription": "Ethereum is a decentralized open-source blockchain system that features its own cryptocurrency, Ether. ETH works as a platform for numerous other cryptocurrencies, as well as for the execution of decentralized smart contracts."
+    "fullDescription": "Ethereum is a decentralized open-source blockchain system that features its own cryptocurrency, Ether. ETH works as a platform for numerous other cryptocurrencies, as well as for the execution of decentralized smart contracts.",
+    "warningCard": "Testnet Bonds use fake tokens for testing purposes only."
   },
   {
     "index": 10000,
@@ -3158,6 +3161,60 @@
     "shortDescription": "LightLink is an Ethereum L2 blockchain enabling dApps and enterprises to offer instant, gasless transactions. Their mission is to integrate millions into the digital economy with user-friendly dApps and enterprise partnerships, making blockchain as intuitive and accessible as Web2, without the complexity of gas fees and protocols."
   },
   {
+    "index": 6018,
+    "version": "2.1.0",
+    "chainId": 59144,
+    "contractAddress": {
+      "59144": "0xf21AF6FcD4737be0Cf00bf1C7113f4e117Bfa5aD"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "59144": "0x176211869cA2b568f2A7D4EE941E073a821EE1ff"
+      },
+      "decimals": {
+        "59144": 6
+      },
+      "liquidityDex": {
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "LPUSS",
+      "address": {
+        "59144": "0x81BE2aCB2e9291dB6400f9f6a4D0f35f24de2E77"
+      },
+      "decimals": {
+        "59144": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "59144": "Nile"
+      }
+    },
+    "billNnftAddress": {
+      "59144": "0xFA40b551980aF88FD2929Ab41f57D98ee13A6354"
+    },
+    "inactive": false,
+    "projectLink": "https://linpuss.xyz/",
+    "twitter": "https://x.com/LinpussLinea",
+    "audit": "https://lineascan.build/token/0x81BE2aCB2e9291dB6400f9f6a4D0f35f24de2E77?a=0xc9f2a5115b727849e067da85a0ff422732a358a7#code",
+    "initTime": {
+      "59144": 1743430347
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["Meme", "Community"],
+    "shortDescription": " Linpuss revolutionizes trading on Linea by eliminating distractions and making the experience exciting and effortless. Represented by a blindfold, it empowers users to focus on sniping tokens and navigating the market with precision. More than a memecoin, Linpuss combines gamification with powerful tools to identify top opportunities. Backed by the LPUSS token, it offers early access to Linea’s explosive growth and a game-changing ecosystem.",
+    "fullDescription": "Linpuss introduces an innovative approach to trading on Linea by combining cutting-edge functionality with a fun, gamified experience. With its signature blindfold, Linpuss symbolizes the elimination of distractions, empowering users to focus on sniping tokens and seizing the best opportunities in Linea's dynamic market. More than just a memecoin, Linpuss provides traders with an intuitive and thrilling tool that merges the efficiency of a trading bot with the excitement of a game. As Linea prepares for exponential growth, Linpuss positions itself as a gateway to unlocking early access to a revolutionary ecosystem, offering substantial upside potential. Backed by the LPUSS token, Linpuss is on a mission to redefine blockchain trading—making it seamless, engaging, and accessible for all. Whether you're a seasoned trader or a newcomer, Linpuss transforms trading into an adventure, giving you the tools and focus needed to succeed in the evolving Linea market.",
+    "feeInPayout": 2
+  },
+  {
     "index": 6017,
     "version": "2.1.0",
     "chainId": 59144,
@@ -3364,7 +3421,7 @@
     "initTime": {
       "59144": 1741353925
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -4812,8 +4869,7 @@
     "shortDescription": "Poollotto is a pioneering technology company specializing in blockchain-powered lottery solutions, utilizing the Poollotto Token (PLT) to revolutionize the industry. By creating a transparent, fair, and secure platform, Poollotto enables decentralized management of global lottery pools, ensuring automated and secure payments. With their innovative approach, they aim to transform the lottery experience for users worldwide. <a href=\"https://metalottery.win/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #38A611\">Purchase $100 or more worth of $PLT Bonds to earn 2 free lotto game ticket NFTs!</a>",
     "fullDescription": "Poollotto is a leading technology company specializing in blockchain-powered lottery solutions, utilizing the Poollotto Token (PLT) to revolutionize the industry. Launched to create a transparent and fair token economy, Poollotto leverages blockchain technology to ensure secure, tamper-proof transactions, and records all lottery activities on a public ledger, eliminating doubts of manipulation. By automating processes through smart contracts, Poollotto reduces administrative costs and improves efficiency, while allowing operators to customize their platforms for a unique experience. The PLT token enables global participation in decentralized lottery pools, enhancing inclusivity and ensuring automated, secure payments, ultimately transforming the lottery industry with fairness and transparency at its core. <a href=\"https://metalottery.win/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #38A611\">Purchase $100 or more worth of $PLT Bonds to earn 2 free lotto game ticket NFTs!</a>",
     "tags": ["GAMEFI"],
-    "feeInPayout": 2,
-    "minTier": 1
+    "feeInPayout": 2
   },
   {
     "index": 1126,
@@ -17426,7 +17482,7 @@
     "initTime": {
       "137": 1741085030
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -17538,7 +17594,7 @@
     "initTime": {
       "137": 1738686666
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -17749,7 +17805,7 @@
     "initTime": {
       "137": 1735057059
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },

@@ -139,7 +139,7 @@ export enum ZapVersion {
   External = 'External', // This will redirect users to Token.getLpUrl with get lp button on FE
   ZapV1 = 'ZapV1', // TODO: deprecate this
   Wido = 'Wido', // TODO: deprecate this
-  SoulZap = 'SoulZap',
+  SoulZap = 'SoulZap', //TODO: deprecate this
   SoulZapApi = 'SoulZapApi',
 }
 
@@ -368,6 +368,7 @@ export interface BillsConfig {
   onlyPartner?: boolean // FE
   minTier?: LaunchBondTiers
   feeInPayout?: number
+  warningCard?: string
   // * This is only used for the bond migration page
   vestingTerm?: number
   multiplier?: number
