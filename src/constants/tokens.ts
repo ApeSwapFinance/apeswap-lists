@@ -20,6 +20,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  lb: {
+    symbol: 'LB',
+    address: {
+      [ChainId.BSC]: '0x8613d52D74a48883A51bAdF8b25ab066714087Da',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.External,
+    },
+    active: true,
+  },
   mon: {
     symbol: 'MON',
     address: {
