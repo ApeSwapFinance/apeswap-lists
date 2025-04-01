@@ -4751,7 +4751,7 @@
     "initTime": {
       "56": 1742922000
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "GoldenTicket_Collection1"
     },
@@ -17321,6 +17321,115 @@
     },
     "inactive": true,
     "soldOut": true
+  },
+  {
+    "index": 179,
+    "version": "2.1.0",
+    "chainId": 137,
+    "contractAddress": {
+      "137": "0xaf409b12efEEec5ec1271573E252d520b79aA42E"
+    },
+    "billType": "liquidity",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDT-FAN",
+      "address": {
+        "137": "0x6132f58e6b9d984331DDD5194B3DD37fCb721eaC"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
+      "active": true,
+      "lpToken": true,
+      "liquidityWrapper": 1,
+      "ichiUnderlyingDex": "Uniswap V3"
+    },
+    "earnToken": {
+      "symbol": "FAN",
+      "address": {
+        "137": "0x3B9E9100Db1389c518d47c635D80a90ad4C4f41b"
+      },
+      "decimals": {
+        "137": 8
+      },
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "137": "0x8860ABc05FefEF93306c8d65a5eFD421F155d67E"
+    },
+    "inactive": false,
+    "projectLink": "https://film.io/",
+    "twitter": "https://x.com/Filmio_Official",
+    "initTime": {
+      "137": 1743507293
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "shortDescription": "Film.io is a decentralized filmmaking ecosystem that puts Hollywood decision-making into the hands of creators and fans through blockchain technology. Governed by a filmmaking industry DAO, it champions inclusion, diversity, and transparency. With FAN and FILM Tokens, Film.io empowers collaboration to validate, fund, and distribute content, replacing centralized control with creative freedom.",
+    "fullDescription": "Film.io is the world's most powerful decentralized filmmaking ecosystem, revolutionizing Hollywood by transferring decision-making to creators and fans through blockchain technology. Governed by the first-ever filmmaking industry DAO, Film.io champions inclusion, equality, and diversity in global entertainment. It empowers creators and fans to collaboratively validate, fund, and distribute content in a transparent, inclusive environment, replacing traditional centralized power structures. Utilizing a dual-token model, Film.io offers FAN Tokens for governance and platform participation, while FILM Tokens support crowdfunding, DeFi loans, and NFT campaigns. Together, these tokens fuel collaboration between creators, fans, and investors, liberating the entertainment industry and fostering a new era of creative freedom.",
+    "tags": ["Entertainment"],
+    "feeInPayout": 2
+  },
+  {
+    "index": 178,
+    "version": "2.1.0",
+    "chainId": 137,
+    "contractAddress": {
+      "137": "0x0cB5684ae3DB648dCDac02BF2cC7fD9A00c965EA"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "137": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359"
+      },
+      "decimals": {
+        "137": 6
+      },
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "ACTIVE",
+      "address": {
+        "137": "0xd9a9B4d466747E1Ebcb7aEb42784452F40452367"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "137": "0x0f59f11AA94e19b796e8a834A89a66F328155181"
+    },
+    "inactive": false,
+    "projectLink": "https://theactivetoken.com/",
+    "twitter": "https://x.com/yaypalio",
+    "initTime": {
+      "137": 1743507293
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "shortDescription": "YayPal transforms gaming by blending fun with an active lifestyle. With $ACTIVE, gamers unlock shared achievements, leaderboards, and personalized NFTs across multiple games. The AI Motivation Engine boosts engagement with fitness challenges and rewards. From conquering virtual realms to real-world discounts and location-based offers, $ACTIVE bridges gaming and real-life rewards seamlessly.",
+    "fullDescription": "YayPal redefines gaming with an ecosystem that merges fun, fitness, and rewards. At its core, $ACTIVE powers shared points, leaderboards, and personalized NFTs across games. Gamers switch between casual and Move 2 Play modes, earning rewards while staying active. Walkopoly incentivizes physical activity with tokenized property trading, while the AI Motivation Engine offers personalized challenges. $ACTIVE also unlocks discounts, location-based offers, and a dynamic NFT marketplace, bridging gaming and real-life value.",
+    "tags": ["GAMEFI"],
+    "feeInPayout": 2
   },
   {
     "index": 177,
