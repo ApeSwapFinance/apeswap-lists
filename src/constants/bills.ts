@@ -2508,7 +2508,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/edu3labs',
     audit: 'https://nfedocs.edu3labs.com/audit',
     initTime: { [ChainId.BSC]: 1742922000 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.GoldenTicket_Collection1,
     },
@@ -8775,62 +8775,62 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   /*
     Polygon Bills
   */
-  // {
-  //   index: 179,
-  //   version: '2.1.0',
-  //   chainId: ChainId.MATIC,
-  //   contractAddress: {
-  //     [ChainId.MATIC]: '',
-  //   },
-  //   billType: 'liquidity',
-  //   billVersion: BillVersion.V4,
-  //   lpToken: tokens.usdtFan_Ichi,
-  //   earnToken: tokens.fan,
-  //   billNnftAddress: {
-  //     [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
-  //   },
-  //   inactive: false,
-  //   projectLink: 'https://film.io/',
-  //   twitter: 'https://x.com/Filmio_Official',
-  //   initTime: { [ChainId.MATIC]: 1743507293 },
-  //   soldOut: false,
-  //   billArt: {
-  //     collection: BillArtCollection.ApeBond_Collection1,
-  //   },
-  //   shortDescription:
-  //     'Film.io is a decentralized filmmaking ecosystem that puts Hollywood decision-making into the hands of creators and fans through blockchain technology. Governed by a filmmaking industry DAO, it champions inclusion, diversity, and transparency. With FAN and FILM Tokens, Film.io empowers collaboration to validate, fund, and distribute content, replacing centralized control with creative freedom.',
-  //   fullDescription: `Film.io is the world's most powerful decentralized filmmaking ecosystem, revolutionizing Hollywood by transferring decision-making to creators and fans through blockchain technology. Governed by the first-ever filmmaking industry DAO, Film.io champions inclusion, equality, and diversity in global entertainment. It empowers creators and fans to collaboratively validate, fund, and distribute content in a transparent, inclusive environment, replacing traditional centralized power structures. Utilizing a dual-token model, Film.io offers FAN Tokens for governance and platform participation, while FILM Tokens support crowdfunding, DeFi loans, and NFT campaigns. Together, these tokens fuel collaboration between creators, fans, and investors, liberating the entertainment industry and fostering a new era of creative freedom.`,
-  //   tags: ['Entertainment'],
-  //   feeInPayout: 2,
-  // },
-  // {
-  //   index: 178,
-  //   version: '2.1.0',
-  //   chainId: ChainId.MATIC,
-  //   contractAddress: {
-  //     [ChainId.MATIC]: '',
-  //   },
-  //   billType: 'reserve',
-  //   billVersion: BillVersion.V4,
-  //   lpToken: tokens.usdc2,
-  //   earnToken: tokens.active,
-  //   billNnftAddress: {
-  //     [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
-  //   },
-  //   inactive: false,
-  //   projectLink: 'https://theactivetoken.com/',
-  //   twitter: 'https://x.com/yaypalio',
-  //   initTime: { [ChainId.MATIC]: 1743507293 },
-  //   soldOut: false,
-  //   billArt: {
-  //     collection: BillArtCollection.ApeBond_Collection1,
-  //   },
-  //   shortDescription:
-  //     'YayPal transforms gaming by blending fun with an active lifestyle. With $ACTIVE, gamers unlock shared achievements, leaderboards, and personalized NFTs across multiple games. The AI Motivation Engine boosts engagement with fitness challenges and rewards. From conquering virtual realms to real-world discounts and location-based offers, $ACTIVE bridges gaming and real-life rewards seamlessly.',
-  //   fullDescription: `YayPal redefines gaming with an ecosystem that merges fun, fitness, and rewards. At its core, $ACTIVE powers shared points, leaderboards, and personalized NFTs across games. Gamers switch between casual and Move 2 Play modes, earning rewards while staying active. Walkopoly incentivizes physical activity with tokenized property trading, while the AI Motivation Engine offers personalized challenges. $ACTIVE also unlocks discounts, location-based offers, and a dynamic NFT marketplace, bridging gaming and real-life value.`,
-  //   tags: ['GAMEFI'],
-  //   feeInPayout: 2,
-  // },
+  {
+    index: 179,
+    version: '2.1.0',
+    chainId: ChainId.MATIC,
+    contractAddress: {
+      [ChainId.MATIC]: '0xaf409b12efEEec5ec1271573E252d520b79aA42E',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdtFan_Ichi,
+    earnToken: tokens.fan,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
+    },
+    inactive: false,
+    projectLink: 'https://film.io/',
+    twitter: 'https://x.com/Filmio_Official',
+    initTime: { [ChainId.MATIC]: 1743507293 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    shortDescription:
+      'Film.io is a decentralized filmmaking ecosystem that puts Hollywood decision-making into the hands of creators and fans through blockchain technology. Governed by a filmmaking industry DAO, it champions inclusion, diversity, and transparency. With FAN and FILM Tokens, Film.io empowers collaboration to validate, fund, and distribute content, replacing centralized control with creative freedom.',
+    fullDescription: `Film.io is the world's most powerful decentralized filmmaking ecosystem, revolutionizing Hollywood by transferring decision-making to creators and fans through blockchain technology. Governed by the first-ever filmmaking industry DAO, Film.io champions inclusion, equality, and diversity in global entertainment. It empowers creators and fans to collaboratively validate, fund, and distribute content in a transparent, inclusive environment, replacing traditional centralized power structures. Utilizing a dual-token model, Film.io offers FAN Tokens for governance and platform participation, while FILM Tokens support crowdfunding, DeFi loans, and NFT campaigns. Together, these tokens fuel collaboration between creators, fans, and investors, liberating the entertainment industry and fostering a new era of creative freedom.`,
+    tags: ['Entertainment'],
+    feeInPayout: 2,
+  },
+  {
+    index: 178,
+    version: '2.1.0',
+    chainId: ChainId.MATIC,
+    contractAddress: {
+      [ChainId.MATIC]: '0x0cB5684ae3DB648dCDac02BF2cC7fD9A00c965EA',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc2,
+    earnToken: tokens.active,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
+    },
+    inactive: false,
+    projectLink: 'https://theactivetoken.com/',
+    twitter: 'https://x.com/yaypalio',
+    initTime: { [ChainId.MATIC]: 1743507293 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    shortDescription:
+      'YayPal transforms gaming by blending fun with an active lifestyle. With $ACTIVE, gamers unlock shared achievements, leaderboards, and personalized NFTs across multiple games. The AI Motivation Engine boosts engagement with fitness challenges and rewards. From conquering virtual realms to real-world discounts and location-based offers, $ACTIVE bridges gaming and real-life rewards seamlessly.',
+    fullDescription: `YayPal redefines gaming with an ecosystem that merges fun, fitness, and rewards. At its core, $ACTIVE powers shared points, leaderboards, and personalized NFTs across games. Gamers switch between casual and Move 2 Play modes, earning rewards while staying active. Walkopoly incentivizes physical activity with tokenized property trading, while the AI Motivation Engine offers personalized challenges. $ACTIVE also unlocks discounts, location-based offers, and a dynamic NFT marketplace, bridging gaming and real-life value.`,
+    tags: ['GAMEFI'],
+    feeInPayout: 2,
+  },
   {
     index: 177,
     cmcId: 22050,
