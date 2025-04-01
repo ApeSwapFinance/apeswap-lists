@@ -30,6 +30,11 @@ type PriceSourceConfigs = CoinGeckoPriceSourceConfig | DexScreenerPriceSourceCon
 
 const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>> = {
   [ChainId.BSC]: {
+    '0xf03Ca04Dd56D695a410f46F14feF4028B22FB79A': {
+      source: PriceSource.Coingecko,
+      id: 'edu3labs',
+      tokenAddress: '0xf03Ca04Dd56D695a410f46F14feF4028B22FB79A',
+    },
     '0x8613d52D74a48883A51bAdF8b25ab066714087Da': {
       source: PriceSource.Coingecko,
       id: 'lovebit',
