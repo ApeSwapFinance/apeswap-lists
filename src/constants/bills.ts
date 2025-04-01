@@ -8856,7 +8856,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://film.io/',
     twitter: 'https://x.com/Filmio_Official',
     initTime: { [ChainId.MATIC]: 1741085030 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -8915,7 +8915,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://film.io/',
     twitter: 'https://x.com/Filmio_Official',
     initTime: { [ChainId.MATIC]: 1738686666 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -9026,7 +9026,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://theactivetoken.com/',
     twitter: 'https://x.com/yaypalio',
     initTime: { [ChainId.MATIC]: 1735057059 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
