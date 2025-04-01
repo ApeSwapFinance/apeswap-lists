@@ -4086,7 +4086,7 @@
     "cmcId": 31886,
     "chainId": 56,
     "contractAddress": {
-      "56": "0x6E33BCc48fcbbEec4F844bC0657766bdd1e9D169"
+      "56": "0xD26E3cfC5473971410515F5d6fceFE3d7Fa4F276"
     },
     "billType": "reserve",
     "billVersion": "V4",
@@ -4124,7 +4124,7 @@
     "twitter": "https://twitter.com/lovebitofficial",
     "audit": "https://skynet.certik.com/projects/lovebit",
     "initTime": {
-      "56": 1743476851
+      "56": 1743541592
     },
     "soldOut": false,
     "billArt": {

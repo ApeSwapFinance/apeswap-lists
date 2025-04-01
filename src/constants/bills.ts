@@ -2196,7 +2196,7 @@ const bills: BillsConfig[] = [
     cmcId: 31886,
     chainId: ChainId.BSC,
     contractAddress: {
-      [ChainId.BSC]: '0x6E33BCc48fcbbEec4F844bC0657766bdd1e9D169',
+      [ChainId.BSC]: '0xD26E3cfC5473971410515F5d6fceFE3d7Fa4F276',
     },
     billType: 'reserve',
     billVersion: BillVersion.V4,
@@ -2209,7 +2209,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.lovebit.org/',
     twitter: 'https://twitter.com/lovebitofficial',
     audit: 'https://skynet.certik.com/projects/lovebit',
-    initTime: { [ChainId.BSC]: 1743476851 },
+    initTime: { [ChainId.BSC]: 1743541592 },
     soldOut: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
