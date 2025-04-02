@@ -2191,36 +2191,6 @@ const bills: BillsConfig[] = [
   // BNB chain
   //
   {
-    index: 1139,
-    version: '2.1.0',
-    cmcId: 31886,
-    chainId: ChainId.BSC,
-    contractAddress: {
-      [ChainId.BSC]: '0xD26E3cfC5473971410515F5d6fceFE3d7Fa4F276',
-    },
-    billType: 'reserve',
-    billVersion: BillVersion.V4,
-    lpToken: tokens.usdt,
-    earnToken: tokens.lb,
-    billNnftAddress: {
-      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
-    },
-    inactive: false,
-    projectLink: 'https://www.lovebit.org/',
-    twitter: 'https://twitter.com/lovebitofficial',
-    audit: 'https://skynet.certik.com/projects/lovebit',
-    initTime: { [ChainId.BSC]: 1743541592 },
-    soldOut: false,
-    billArt: {
-      collection: BillArtCollection.ApeBond_Collection1,
-    },
-    tags: ['DEX'],
-    shortDescription: 'LoveBit(LB) is a memecoin paying homage to Satoshi,an anonymous figure who created Bitcoin.',
-    fullDescription: 'LoveBit(LB) is a memecoin paying homage to Satoshi,an anonymous figure who created Bitcoin.',
-    feeInPayout: 0,
-    warningCard: `This token is currently only tradable on the following CEXs: <a href="https://mexc.com/" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a> and <a href="https://lbank.com/" target="_blank" rel="noopener noreferrer" style="color: #6099c5">LBank</a>.`,
-  },
-  {
     index: 1138,
     version: '2.1.0',
     chainId: ChainId.BSC,
