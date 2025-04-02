@@ -335,38 +335,43 @@ export enum LaunchBondTiers {
   Legend,
 }
 
+// Version Mapping
+// 2.0.0 => old bonds
+// 2.1.0 => tiered bonds
+// 2.1.1 => cex bonds (require api pricing)
+
 // Start of list types
 export interface BillsConfig {
-  index: number // FE
-  version: string // FE // This will be used to check compatibility versions
-  cmcId?: number // FE
-  chainId: ChainId // FE
-  contractAddress: Partial<Record<ChainId, string>> // FE
-  billVersion: BillVersion // FE
-  billType: 'liquidity' | 'reserve' | 'launch' | 'migration' | 'cex' | 'staking' // FE
-  lpToken: Token // FE
-  earnToken: Token // FE
-  billNnftAddress: Partial<Record<ChainId, string>> // FE
-  inactive?: boolean // FE
-  projectLink?: string // FE
-  twitter?: string // FE
+  index: number
+  version: string // This will be used to check compatibility versions
+  cmcId?: number
+  chainId: ChainId
+  contractAddress: Partial<Record<ChainId, string>>
+  billVersion: BillVersion
+  billType: 'liquidity' | 'reserve' | 'launch' | 'migration' | 'cex' | 'staking'
+  lpToken: Token
+  earnToken: Token
+  billNnftAddress: Partial<Record<ChainId, string>>
+  inactive?: boolean
+  projectLink?: string
+  twitter?: string
   initTime?: Partial<Record<ChainId, number>>
   initPrice?: Partial<Record<ChainId, number>>
-  audit?: string // FE
-  soldOut?: boolean // FE
+  audit?: string
+  soldOut?: boolean
   billArt?: {
-    collection: BillArtCollection // i.e. BillArtCollection.ApeSwap_Collection1
+    collection: BillArtCollection
   }
-  showcaseToken?: Token // FE
-  bondPartner?: string // FE
+  showcaseToken?: Token
+  bondPartner?: string
   // * These are used for the individual bond page view
-  shortDescription?: string // FE
-  fullDescription?: string // FE
-  featuredURLS?: string[] // FE
-  partnersURLS?: string[] // FE
-  tags?: string[] // FE
-  vestingCliff?: number // FE
-  onlyPartner?: boolean // FE
+  shortDescription?: string
+  fullDescription?: string
+  featuredURLS?: string[]
+  partnersURLS?: string[]
+  tags?: string[]
+  vestingCliff?: number
+  onlyPartner?: boolean
   minTier?: LaunchBondTiers
   feeInPayout?: number
   warningCard?: string
