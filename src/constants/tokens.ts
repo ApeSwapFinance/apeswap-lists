@@ -34,7 +34,7 @@ const tokens: Record<string, Token> = {
     active: true,
   },
   mon: {
-    symbol: 'MON',
+    symbol: 'WMON',
     address: {
       [ChainId.MONAD_TESTNET]: '0x760AfE86e5de5fa0Ee542fc7B7B713e1c5425701',
     },
