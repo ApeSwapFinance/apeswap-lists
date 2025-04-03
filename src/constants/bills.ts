@@ -2210,7 +2210,7 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.BSC]: 1743688217 },
     soldOut: false,
     billArt: {
-      collection: BillArtCollection.ApeBond_Collection1,
+      collection: BillArtCollection.GoldenTicket_Collection1,
     },
     tags: ['Meme', 'SocialFi'],
     shortDescription:
@@ -2218,6 +2218,8 @@ const bills: BillsConfig[] = [
     fullDescription:
       'LoveBit is a groundbreaking cryptocurrency project launched in the first quarter of 2024 that merges blockchain innovation with Environmental, Social, and Governance (ESG) principles. More than a token, LoveBit is a movement driven by the LoveBit4Good initiative, empowering a decentralized, transparent, and community-led ecosystem where environmental activists and social change leaders unite. Inspired by Satoshi Nakamoto’s vision of decentralization and financial fairness, LoveBit evolves that legacy by integrating ESG values into the crypto space. Through strategic exchange listings, partnerships with NGOs and influencers, and a governance model that allows the community to vote on ESG initiatives, LoveBit ensures that sustainability, ethical finance, and financial growth go hand in hand—ushering in a new era of impact-driven blockchain adoption.',
     feeInPayout: 2,
+    minTier: LaunchBondTiers.Silver,
+    warningCard: `This token is currently only tradable on the following CEXs: <a href="https://mexc.com/" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a> and <a href="https://lbank.com/" target="_blank" rel="noopener noreferrer" style="color: #6099c5">LBank</a>.`,
   },
   {
     index: 1138,
