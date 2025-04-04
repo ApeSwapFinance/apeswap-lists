@@ -2539,7 +2539,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/edu3labs',
     audit: 'https://nfedocs.edu3labs.com/audit',
     initTime: { [ChainId.BSC]: 1742922000 },
-    soldOut: true,
+    soldOut: false,
     billArt: {
       collection: BillArtCollection.GoldenTicket_Collection1,
     },
@@ -2550,6 +2550,7 @@ const bills: BillsConfig[] = [
       'Edu3Labs is a pioneering force at the intersection of education, AI, and blockchain. Our mission is to revolutionize the learning experience by leveraging cutting-edge technologies and innovative solutions. Their vision is to reshape the future of education, making it decentralized, personalized, gamified and accessible to all, striving to empower individuals worldwide through transformative learning experiences. Edu3Labs is powered by the NFE token, that empowers students, content creators, and authors with a decentralized means of exchange that rewards their contributions to the educational ecosystem. NFE token will be used to have access to lessons, enter knowledge contests and invest in early-stage start-ups related to the education industry. In the medium term, there will be additional privileges for NFE holders such as HR services, advisory, and free tickets for networking and educational events.',
     feeInPayout: 2,
     minTier: LaunchBondTiers.Silver,
+    warningCard: `This token is currently only tradable on the following CEXs: <a href="https://www.mexc.com/exchange/NFE_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a> and <a href="https://www.gate.io/trade/NFE_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">Gate.io</a>.`,
   },
   {
     index: 1128,
@@ -13565,7 +13566,7 @@ With the lending products set to go live in February, the project is poised to a
     twitter: 'https://x.com/ABDSystems',
     audit: 'https://skynet.certik.com/projects/abd-systems',
     initTime: { [ChainId.MAINNET]: 1743156644 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
