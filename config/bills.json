@@ -4869,7 +4869,8 @@
       "collection": "GoldenTicket_Collection1"
     },
     "tags": ["RWA", "Lending"],
-    "fullDescription": "Credefi bridges the EU's financing gap by connecting crypto lenders with SME borrowers. Credifi provides innovative lending in order to make a real-world impact. With Credefi users can access reliable loans backed by a range of real-world assets, including real estate, future receivables, and more.",
+    "shortDescription": "Credefi is a lending platform connecting DeFi with the real economy by offering crypto loans backed by real-world assets like real estate and receivables. It supports EU SMEs with fair financing and provides lenders with stable returns. $CREDI adds a security layer via Module X, while $xCREDI holders can take part in platform governance.",
+    "fullDescription": "Credefi is a pioneering lending platform that bridges decentralized finance with the real economy by offering crypto loans collateralized with real-world assets. Focused on addressing the debt financing gap in the European Union, Credefi empowers small and medium-sized enterprises (SMEs) by providing fair, accessible lending solutions backed by assets such as real estate and future receivables. Lenders benefit from stable, predictable returns sourced from tangible economic activity. The platform also integrates $CREDI tokens as an added security layer through Module X, which compensates liquidity providers in the event of loan defaults, reducing risk from delayed collateral liquidation. Additionally, $xCREDI holders play a key role in Credefi’s governance, helping shape the platform’s future direction.",
     "feeInPayout": 2,
     "minTier": 1
   },
