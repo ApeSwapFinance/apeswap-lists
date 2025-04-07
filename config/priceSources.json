@@ -87,5 +87,12 @@
       "type": "token",
       "tokenAddress": "0xcc22F6AA610D1b2a0e89EF228079cB3e1831b1D1"
     }
+  },
+  "7565164": {
+    "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN": {
+      "source": "coingecko",
+      "id": "official-trump",
+      "tokenAddress": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN"
+    }
   }
 }
