@@ -118,6 +118,13 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       tokenAddress: '0x69011706b3f6C6eaeD7D2Bc13801558B4fd94CBF', //WINJ
     },
   },
+  [ChainId.SOL]: {
+    '6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN': {
+      source: PriceSource.Coingecko,
+      id: 'official-trump',
+      tokenAddress: '6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN', //TRUMP
+    },
+  },
 }
 
 export default priceSources
