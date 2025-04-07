@@ -1,7 +1,7 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1138
+// BNB Largest ID: 1140
 // Polygon Largest ID: 175
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2027
@@ -2245,6 +2245,31 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1140,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: { [ChainId.BSC]: '0x72D85aE103A15F2c7f5C8A1e8169c3548FcB3725' },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.elda,
+    billNnftAddress: { [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9' },
+    inactive: false,
+    projectLink: 'https://www.eldarune.com/',
+    twitter: 'https://x.com/PlayEldarune',
+    audit: 'https://hacken.io/audits/eldarune/',
+    initTime: { [ChainId.BSC]: 1744046365 },
+    soldOut: false,
+    billArt: { collection: BillArtCollection.GoldenTicket_Collection1 },
+    shortDescription:
+      "Eldarune is a game studio creating interoperable, medieval-themed blockchain games where NFTs can be used across multiple titles. The ELDA token serves as the studio's native currency and unlocks diverse gaming experiences. Inspired by classics like Warcraft and Dota, Eldarune is transforming the gaming landscape by offering seamless, interconnected gameplay across its ecosystem.",
+    fullDescription:
+      "Eldarune is a pioneering game studio specializing in interoperable, medieval-themed blockchain games. Players can use their NFTs across different titles within the Eldarune ecosystem, enhancing the gaming experience with seamless transitions and unique assets. At the heart of this innovative platform is the ELDA token, which acts as both the studio’s native currency and a gateway to diverse, immersive gameplay inspired by classics like Warcraft, Dota, and Hearthstone. ELDA is revolutionizing the gaming landscape by unlocking endless possibilities within Eldarune's interconnected worlds.",
+    tags: ['GAMEFI'],
+    feeInPayout: 2,
+    minTier: LaunchBondTiers.Silver,
+  },
   {
     index: 1139,
     version: '2.1.1',
