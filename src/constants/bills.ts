@@ -26,6 +26,61 @@ const bills: BillsConfig[] = [
   // Monad Testnet
   //
   {
+    index: 14004,
+    version: '2.1.0',
+    cmcId: 1,
+    chainId: ChainId.MONAD_TESTNET,
+    contractAddress: {
+      [ChainId.MONAD_TESTNET]: '0x1D15E2110a761C1A47a322547d2726Da92E12Ae5',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.mon,
+    earnToken: tokens.btc,
+    billNnftAddress: {
+      [ChainId.MONAD_TESTNET]: '0x04f1D39a5A5EFCB6e51891E01d4acCD8c434775C',
+    },
+    inactive: false,
+    projectLink: 'https://bitcoin.org/',
+    initTime: { [ChainId.MONAD_TESTNET]: 1744030005 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Testnet'],
+    shortDescription: `Bitcoin is a decentralized cryptocurrency originally described in a 2008 whitepaper by a person, or group of people, using the alias Satoshi Nakamoto. It was launched soon after, in January 2009.`,
+    fullDescription: `Bitcoin is a decentralized cryptocurrency originally described in a 2008 whitepaper by a person, or group of people, using the alias Satoshi Nakamoto. It was launched soon after, in January 2009.`,
+    warningCard: `Testnet Bonds use fake tokens for testing purposes only.`,
+  },
+  {
+    index: 14003,
+    version: '2.1.0',
+    cmcId: 1027,
+    chainId: ChainId.MONAD_TESTNET,
+    contractAddress: {
+      [ChainId.MONAD_TESTNET]: '0xc254C426BE89b30860bAD9876b540deD80c3CEf5',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.mon,
+    earnToken: tokens.eth,
+    billNnftAddress: {
+      [ChainId.MONAD_TESTNET]: '0x04f1D39a5A5EFCB6e51891E01d4acCD8c434775C',
+    },
+    inactive: false,
+    projectLink: 'https://ethereum.org/',
+    twitter: 'https://x.com/ethereum',
+    initTime: { [ChainId.MONAD_TESTNET]: 1744030005 },
+    soldOut: true,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Testnet'],
+    shortDescription: `Ethereum is a decentralized open-source blockchain system that features its own cryptocurrency, Ether. ETH works as a platform for numerous other cryptocurrencies, as well as for the execution of decentralized smart contracts.`,
+    fullDescription: `Ethereum is a decentralized open-source blockchain system that features its own cryptocurrency, Ether. ETH works as a platform for numerous other cryptocurrencies, as well as for the execution of decentralized smart contracts.`,
+    warningCard: `Testnet Bonds use fake tokens for testing purposes only.`,
+  },
+  {
     index: 14002,
     version: '2.1.0',
     cmcId: 30495,
@@ -71,7 +126,7 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://bitcoin.org/',
     initTime: { [ChainId.MONAD_TESTNET]: 1742905970 },
-    soldOut: true,
+    soldOut: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
