@@ -2246,6 +2246,64 @@ const bills: BillsConfig[] = [
   // BNB chain
   //
   {
+    index: 1142,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x2fcd995A294A6025CC5651d31079ae290F1707FA',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.wbnb,
+    earnToken: tokens.gq,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://outerringmmo.com/',
+    twitter: 'https://twitter.com/OuterRingMMO',
+    initTime: { [ChainId.BSC]: 1744051437 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    fullDescription:
+      'Embark on an epic journey through galaxies and science fiction worlds. Discover exciting quests and ancient mysteries. Be the protagonist of your own adventure and forge your legend. Discover a metaverse full of possibilities in Outer Ring and Become a Space Corsaire now!',
+    shortDescription:
+      'Embark on an epic journey through galaxies and science fiction worlds. Discover exciting quests and ancient mysteries. Be the protagonist of your own adventure and forge your legend. Discover a metaverse full of possibilities in Outer Ring and Become a Space Corsaire now!',
+    tags: ['GAMEFI'],
+    feeInPayout: 2,
+  },
+  {
+    index: 1141,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0xC1cE5c1dB6d68FAd271c0027710Dc580Cc1C38c8',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.btc,
+    earnToken: tokens.gq,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://outerringmmo.com/',
+    twitter: 'https://twitter.com/OuterRingMMO',
+    initTime: { [ChainId.BSC]: 1744051437 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    fullDescription:
+      'Embark on an epic journey through galaxies and science fiction worlds. Discover exciting quests and ancient mysteries. Be the protagonist of your own adventure and forge your legend. Discover a metaverse full of possibilities in Outer Ring and Become a Space Corsaire now!',
+    shortDescription:
+      'Embark on an epic journey through galaxies and science fiction worlds. Discover exciting quests and ancient mysteries. Be the protagonist of your own adventure and forge your legend. Discover a metaverse full of possibilities in Outer Ring and Become a Space Corsaire now!',
+    tags: ['GAMEFI'],
+    feeInPayout: 2,
+  },
+  {
     index: 1140,
     version: '2.1.0',
     chainId: ChainId.BSC,
