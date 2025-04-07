@@ -2440,7 +2440,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/script_network',
     audit: 'https://skynet.certik.com/projects/script-network?utm_source=CMC&utm_campaign=AuditByCertiKLink',
     initTime: { [ChainId.BSC]: 1743008933 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
