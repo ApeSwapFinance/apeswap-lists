@@ -2268,9 +2268,9 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     fullDescription:
-      'Embark on an epic journey through galaxies and science fiction worlds. Discover exciting quests and ancient mysteries. Be the protagonist of your own adventure and forge your legend. Discover a metaverse full of possibilities in Outer Ring and Become a Space Corsaire now!',
+      'Outer Ring MMO is a free-to-play, third-person Sci-Fi action RPG set in a vast, immersive metaverse where players captain spaceships, explore galaxies, and uncover ancient mysteries. In this expansive universe, players are the architects of their experience—crafting everything from weapons and armor to vehicles, lands, and buildings. The game features a player-driven economy powered by Galactic Quadrant (GQ), its native governance token, which rewards users for completing quests, competing in battles, and trading in-game assets. GQ also empowers holders to influence key decisions through governance events. Outer Ring invites players to forge their own legend, acquire virtual land, trade with others, and enjoy exclusive experiences in a world where exploration, creativity, and adventure know no limits.',
     shortDescription:
-      'Embark on an epic journey through galaxies and science fiction worlds. Discover exciting quests and ancient mysteries. Be the protagonist of your own adventure and forge your legend. Discover a metaverse full of possibilities in Outer Ring and Become a Space Corsaire now!',
+      'Outer Ring MMO is a free-to-play Sci-Fi action RPG where players explore galaxies, build assets, and shape their own adventures. Set in a vast metaverse, it features a player-driven economy powered by the Galactic Quadrant (GQ) token, which rewards gameplay and enables governance. Forge your legend in a universe full of endless possibilities.',
     tags: ['GAMEFI'],
     feeInPayout: 2,
   },
@@ -2297,9 +2297,9 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     fullDescription:
-      'Embark on an epic journey through galaxies and science fiction worlds. Discover exciting quests and ancient mysteries. Be the protagonist of your own adventure and forge your legend. Discover a metaverse full of possibilities in Outer Ring and Become a Space Corsaire now!',
+      'Outer Ring MMO is a free-to-play, third-person Sci-Fi action RPG set in a vast, immersive metaverse where players captain spaceships, explore galaxies, and uncover ancient mysteries. In this expansive universe, players are the architects of their experience—crafting everything from weapons and armor to vehicles, lands, and buildings. The game features a player-driven economy powered by Galactic Quadrant (GQ), its native governance token, which rewards users for completing quests, competing in battles, and trading in-game assets. GQ also empowers holders to influence key decisions through governance events. Outer Ring invites players to forge their own legend, acquire virtual land, trade with others, and enjoy exclusive experiences in a world where exploration, creativity, and adventure know no limits.',
     shortDescription:
-      'Embark on an epic journey through galaxies and science fiction worlds. Discover exciting quests and ancient mysteries. Be the protagonist of your own adventure and forge your legend. Discover a metaverse full of possibilities in Outer Ring and Become a Space Corsaire now!',
+      'Outer Ring MMO is a free-to-play Sci-Fi action RPG where players explore galaxies, build assets, and shape their own adventures. Set in a vast metaverse, it features a player-driven economy powered by the Galactic Quadrant (GQ) token, which rewards gameplay and enables governance. Forge your legend in a universe full of endless possibilities.',
     tags: ['GAMEFI'],
     feeInPayout: 2,
   },
