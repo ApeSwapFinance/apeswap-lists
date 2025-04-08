@@ -329,11 +329,6 @@ const dexFactoriesPriceApi: Partial<
       factory: '0x82438CE666d9403e488bA720c7424434e8Aa47CD',
       protocol: PriceApiProtocols.UniV2,
     },
-    {
-      name: LiquidityDex.LFJ,
-      factory: '0xe32D45C2B1c17a0fE0De76f1ebFA7c44B7810034',
-      protocol: PriceApiProtocols.UniV2,
-    },
   ],
 }
 
