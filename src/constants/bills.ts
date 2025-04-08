@@ -15,7 +15,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Blast Largest ID: 11000
 // Singularity Testnet Largest ID: 12000
 // Crossfi Largest ID: 13000
-// Monad Testnet Largest ID: 14000
+// Monad Testnet Largest ID: 14006
 // Sonic Largest ID: 15000
 const bills: BillsConfig[] = [
   //
@@ -25,6 +25,61 @@ const bills: BillsConfig[] = [
   //
   // Monad Testnet
   //
+  {
+    index: 14006,
+    version: '2.1.0',
+    cmcId: 1,
+    chainId: ChainId.MONAD_TESTNET,
+    contractAddress: {
+      [ChainId.MONAD_TESTNET]: '0x4E16ef2e4525B80D280967e853211298Cd942933',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.mon,
+    earnToken: tokens.btc,
+    billNnftAddress: {
+      [ChainId.MONAD_TESTNET]: '0x04f1D39a5A5EFCB6e51891E01d4acCD8c434775C',
+    },
+    inactive: false,
+    projectLink: 'https://bitcoin.org/',
+    initTime: { [ChainId.MONAD_TESTNET]: 1744131275 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Testnet'],
+    shortDescription: `Bitcoin is a decentralized cryptocurrency originally described in a 2008 whitepaper by a person, or group of people, using the alias Satoshi Nakamoto. It was launched soon after, in January 2009.`,
+    fullDescription: `Bitcoin is a decentralized cryptocurrency originally described in a 2008 whitepaper by a person, or group of people, using the alias Satoshi Nakamoto. It was launched soon after, in January 2009.`,
+    warningCard: `Testnet Bonds use fake tokens for testing purposes only.`,
+  },
+  {
+    index: 14005,
+    version: '2.1.0',
+    cmcId: 1027,
+    chainId: ChainId.MONAD_TESTNET,
+    contractAddress: {
+      [ChainId.MONAD_TESTNET]: '0xC956eFeB422f547d2b6476E317CD395780788bb4',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.mon,
+    earnToken: tokens.eth,
+    billNnftAddress: {
+      [ChainId.MONAD_TESTNET]: '0x04f1D39a5A5EFCB6e51891E01d4acCD8c434775C',
+    },
+    inactive: false,
+    projectLink: 'https://ethereum.org/',
+    twitter: 'https://x.com/ethereum',
+    initTime: { [ChainId.MONAD_TESTNET]: 1744131275 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Testnet'],
+    shortDescription: `Ethereum is a decentralized open-source blockchain system that features its own cryptocurrency, Ether. ETH works as a platform for numerous other cryptocurrencies, as well as for the execution of decentralized smart contracts.`,
+    fullDescription: `Ethereum is a decentralized open-source blockchain system that features its own cryptocurrency, Ether. ETH works as a platform for numerous other cryptocurrencies, as well as for the execution of decentralized smart contracts.`,
+    warningCard: `Testnet Bonds use fake tokens for testing purposes only.`,
+  },
   {
     index: 14004,
     version: '2.1.0',
@@ -43,7 +98,7 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://bitcoin.org/',
     initTime: { [ChainId.MONAD_TESTNET]: 1744030005 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -71,7 +126,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://ethereum.org/',
     twitter: 'https://x.com/ethereum',
     initTime: { [ChainId.MONAD_TESTNET]: 1744030005 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
