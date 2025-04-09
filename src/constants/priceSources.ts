@@ -6,6 +6,7 @@ enum PriceSource {
   Coingecko = 'coingecko',
   Dexscreener = 'dexscreener',
   Mexc = 'mexc',
+  LBank = 'lbank',
 }
 
 type CoinGeckoPriceSourceConfig = {
@@ -26,7 +27,17 @@ type MexcPriceSourceConfig = {
   tokenAddress: string
 }
 
-type PriceSourceConfigs = CoinGeckoPriceSourceConfig | DexScreenerPriceSourceConfig | MexcPriceSourceConfig
+type LBankPriceSourceConfig = {
+  source: PriceSource.LBank
+  id: string
+  tokenAddress: string
+}
+
+type PriceSourceConfigs =
+  | CoinGeckoPriceSourceConfig
+  | DexScreenerPriceSourceConfig
+  | MexcPriceSourceConfig
+  | LBankPriceSourceConfig
 
 const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>> = {
   [ChainId.BSC]: {
@@ -59,6 +70,11 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       source: PriceSource.Dexscreener,
       type: 'token',
       tokenAddress: '0xBDf5bAfEE1291EEc45Ae3aadAc89BE8152D4E673', //CATA
+    },
+    '0xcCe08BeFb7640357166932399311a434e54799c5': {
+      source: PriceSource.LBank,
+      id: 'muppets_usdt',
+      tokenAddress: '0xcCe08BeFb7640357166932399311a434e54799c5',
     },
   },
   [ChainId.MATIC]: {
