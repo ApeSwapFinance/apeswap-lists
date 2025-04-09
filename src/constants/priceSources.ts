@@ -79,11 +79,6 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       type: 'token',
       tokenAddress: '0xBDf5bAfEE1291EEc45Ae3aadAc89BE8152D4E673', //CATA
     },
-    '0xcCe08BeFb7640357166932399311a434e54799c5': {
-      source: PriceSource.LBank,
-      id: 'muppets_usdt',
-      tokenAddress: '0xcCe08BeFb7640357166932399311a434e54799c5',
-    },
   },
   [ChainId.MATIC]: {
     '0x61bf130d973d59c69d3227f1668d534d83119860': {
@@ -102,11 +97,6 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       source: PriceSource.Dexscreener,
       type: 'token',
       tokenAddress: '0xACf80A4e55F5f28e1e7d261a221cA495DB5bcbB3', //XAVI
-    },
-    '0x9a26F5433671751C3276a065f57e5a02D2817973': {
-      source: PriceSource.Bitmart,
-      id: 'KEYCAT_USDT',
-      tokenAddress: '0x9a26F5433671751C3276a065f57e5a02D2817973',
     },
   },
   [ChainId.LINEA]: {
