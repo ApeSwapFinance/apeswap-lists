@@ -7,6 +7,7 @@ enum PriceSource {
   Dexscreener = 'dexscreener',
   Mexc = 'mexc',
   LBank = 'lbank',
+  Bitmart = 'bitmart',
 }
 
 type CoinGeckoPriceSourceConfig = {
@@ -33,11 +34,18 @@ type LBankPriceSourceConfig = {
   tokenAddress: string
 }
 
+type BitmartPriceSourceConfig = {
+  source: PriceSource.Bitmart
+  id: string
+  tokenAddress: string
+}
+
 type PriceSourceConfigs =
   | CoinGeckoPriceSourceConfig
   | DexScreenerPriceSourceConfig
   | MexcPriceSourceConfig
   | LBankPriceSourceConfig
+  | BitmartPriceSourceConfig
 
 const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>> = {
   [ChainId.BSC]: {
@@ -94,6 +102,11 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       source: PriceSource.Dexscreener,
       type: 'token',
       tokenAddress: '0xACf80A4e55F5f28e1e7d261a221cA495DB5bcbB3', //XAVI
+    },
+    '0x9a26F5433671751C3276a065f57e5a02D2817973': {
+      source: PriceSource.Bitmart,
+      id: 'KEYCAT_USDT',
+      tokenAddress: '0x9a26F5433671751C3276a065f57e5a02D2817973',
     },
   },
   [ChainId.LINEA]: {
