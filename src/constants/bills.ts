@@ -2672,7 +2672,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.eldarune.com/',
     twitter: 'https://x.com/PlayEldarune',
     initTime: { [ChainId.BSC]: 1742922000 },
-    soldOut: false,
+    soldOut: true,
     billArt: { collection: BillArtCollection.GoldenTicket_Collection1 },
     shortDescription:
       "Eldarune is a game studio creating interoperable, medieval-themed blockchain games where NFTs can be used across multiple titles. The ELDA token serves as the studio's native currency and unlocks diverse gaming experiences. Inspired by classics like Warcraft and Dota, Eldarune is transforming the gaming landscape by offering seamless, interconnected gameplay across its ecosystem.",
@@ -2805,7 +2805,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/apeblock?lang=en',
     audit: 'https://solidity.finance/audits/BlockApeScissors/',
     initTime: { [ChainId.BSC]: 1742922000 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.GoldenTicket_Collection1,
     },

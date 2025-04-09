@@ -5082,7 +5082,7 @@
     "initTime": {
       "56": 1742922000
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "GoldenTicket_Collection1"
     },
@@ -5313,7 +5313,7 @@
     "initTime": {
       "56": 1742922000
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "GoldenTicket_Collection1"
     },
