@@ -6,6 +6,8 @@ enum PriceSource {
   Coingecko = 'coingecko',
   Dexscreener = 'dexscreener',
   Mexc = 'mexc',
+  LBank = 'lbank',
+  Bitmart = 'bitmart',
 }
 
 type CoinGeckoPriceSourceConfig = {
@@ -26,7 +28,24 @@ type MexcPriceSourceConfig = {
   tokenAddress: string
 }
 
-type PriceSourceConfigs = CoinGeckoPriceSourceConfig | DexScreenerPriceSourceConfig | MexcPriceSourceConfig
+type LBankPriceSourceConfig = {
+  source: PriceSource.LBank
+  id: string
+  tokenAddress: string
+}
+
+type BitmartPriceSourceConfig = {
+  source: PriceSource.Bitmart
+  id: string
+  tokenAddress: string
+}
+
+type PriceSourceConfigs =
+  | CoinGeckoPriceSourceConfig
+  | DexScreenerPriceSourceConfig
+  | MexcPriceSourceConfig
+  | LBankPriceSourceConfig
+  | BitmartPriceSourceConfig
 
 const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>> = {
   [ChainId.BSC]: {
