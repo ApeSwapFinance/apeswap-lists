@@ -594,6 +594,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  wgc: {
+    symbol: 'WGC',
+    address: {
+      [ChainId.BASE]: '0x3d63825B0d8669307366E6c8202f656b9E91D368',
+    },
+    decimals: {
+      [ChainId.BASE]: 6,
+    },
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV3,
+    },
+    active: true,
+  },
   rival: {
     symbol: 'RIVAL',
     address: {
