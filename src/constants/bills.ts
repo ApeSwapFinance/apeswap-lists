@@ -402,6 +402,34 @@ const bills: BillsConfig[] = [
   // BASE
   //
   {
+    index: 8045,
+    cmcId: 32229,
+    version: '2.1.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x227c8Af5aeB22f439AaF261e627ba9C7B4D62cAC',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.wgc,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://web3music.org/',
+    twitter: 'https://x.com/MusicProtocolX',
+    initTime: { [ChainId.BASE]: 1744366624 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Meme', 'Community'],
+    shortDescription: `Wild Goat Coin (WGC) began as a fun memecoin and is evolving into a decentralized, fixed-supply digital currency for the Web3 era. Designed to be omnichain and community-driven, WGC is not pegged to fiat or backed by institutions. Its goal is to become a freely usable, interoperable asset across multiple decentralized ecosystems.`,
+    fullDescription: `Wild Goat Coin (WGC) is a digital collectible that has evolved into a decentralized, alternative currency protocol tailored for the next generation of Web3. Initially launched as a memecoin, WGC has matured through several development phases and is now transforming into a fixed-supply, internet-native asset that aspires to become a freely usable, omnichain currency. Unlike stablecoins, WGC is not pegged to fiat nor backed by traditional financial institutions; instead, it embraces the volatility of crypto while focusing on accessibility, interoperability, and decentralization. Its goal is to operate seamlessly across multiple decentralized ecosystems, allowing anyone to trade, use, and build with it. Designed to be open, transparent, and driven by the community, WGC’s roadmap reflects a long-term vision of a utility-first, user-empowered digital currency that challenges the status quo of digital value transfer.`,
+    feeInPayout: 2,
+  },
+  {
     index: 8044,
     cmcId: 32229,
     version: '2.1.0',
