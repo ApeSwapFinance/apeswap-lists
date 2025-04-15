@@ -1962,7 +1962,6 @@ const bills: BillsConfig[] = [
     shortDescription: `HOTDOG, the sauciest meme on Linea, brings a fiery mix of memes, madness, and mouthwatering fun. More than just a token, it’s a cultural sensation powered by 69% memes, 31% hotdogs, and an unstoppable community. With a fresh website, expanding partnerships, and growing momentum, HOTDOG is ready to take a bite out of the market, this is the hottest dog on the blockchain!`,
     fullDescription: `Everyone loves hotdogs. Everyone loves memes. HotDog on Linea is the ultimate snackable sensation—69% memes, 31% hotdogs, 100% delicious. Fresh off the grill, it’s back with a new website, juicier partnerships, and a community that’s always hungry for more. HOTDOG isn’t just a memecoin—it’s a movement, a meme revolution, and the tastiest token on the blockchain. From AI-generated hotdog art to the most unhinged hotdog memes, this is where degens and food lovers unite. Think you can resist? The market’s heating up, and this is your chance to lock in your spot at the meme table. No forks, no knives—just raw, saucy fun. Whether you're here to stack, snack, or just enjoy the absurdity of a blockchain hotdog, this is your moment. Don't miss out—because nothing hits the spot like $HOTDOG!`,
     feeInPayout: 0,
-    minTier: LaunchBondTiers.Silver,
   },
   {
     index: 6016,
@@ -1991,7 +1990,6 @@ const bills: BillsConfig[] = [
     shortDescription: `Lynex is a powerful liquidity platform based on Thena, which enhanced the Velodrome codebase to fairly compensate LPs for impermanent loss. Ideal for projects needing liquidity, Lynex connects users with top strategies via ALMs, optimizes returns, and rewards participants. Its core token, $LYNX, can be converted to veLYNX for deeper governance and incentives.`,
     fullDescription: `Lynex is a next-generation liquidity platform that democratizes advanced liquidity strategies by connecting everyday traders with expert-level tools through a competitive ecosystem of Automated Liquidity Managers (ALMs) and strategists. Designed for efficiency, Lynex optimizes concentrated liquidity positions to maximize fees and minimize slippage, while integrating professional strategists for active liquidity and reward management. Acting as a central hub, Lynex aggregates ALMs into a vibrant marketplace where users can easily find strategies tailored to their needs. Each trade generates token fees, rewarding active voters and reinforcing the Lynex treasury. Its unique bribe system, powered by protocols on the Linea blockchain, fuels ecosystem engagement. Incentives are further enhanced through oLYNX, aligning participant interests. At the core is $LYNX, an ERC-20 utility token convertible into veLYNX, enabling deeper participation and governance within the Lynex ecosystem.`,
     feeInPayout: 0,
-    minTier: LaunchBondTiers.Silver,
   },
   {
     index: 6015,
@@ -2531,7 +2529,6 @@ const bills: BillsConfig[] = [
       "Eldarune is a pioneering game studio specializing in interoperable, medieval-themed blockchain games. Players can use their NFTs across different titles within the Eldarune ecosystem, enhancing the gaming experience with seamless transitions and unique assets. At the heart of this innovative platform is the ELDA token, which acts as both the studio’s native currency and a gateway to diverse, immersive gameplay inspired by classics like Warcraft, Dota, and Hearthstone. ELDA is revolutionizing the gaming landscape by unlocking endless possibilities within Eldarune's interconnected worlds.",
     tags: ['GAMEFI'],
     feeInPayout: 2,
-    minTier: LaunchBondTiers.Silver,
   },
   {
     index: 1139,
@@ -2561,7 +2558,6 @@ const bills: BillsConfig[] = [
     fullDescription:
       'LoveBit is a groundbreaking cryptocurrency project launched in the first quarter of 2024 that merges blockchain innovation with Environmental, Social, and Governance (ESG) principles. More than a token, LoveBit is a movement driven by the LoveBit4Good initiative, empowering a decentralized, transparent, and community-led ecosystem where environmental activists and social change leaders unite. Inspired by Satoshi Nakamoto’s vision of decentralization and financial fairness, LoveBit evolves that legacy by integrating ESG values into the crypto space. Through strategic exchange listings, partnerships with NGOs and influencers, and a governance model that allows the community to vote on ESG initiatives, LoveBit ensures that sustainability, ethical finance, and financial growth go hand in hand—ushering in a new era of impact-driven blockchain adoption.',
     feeInPayout: 2,
-    minTier: LaunchBondTiers.Silver,
     warningCard: `This token is currently only tradable on the following CEXs: <a href="https://www.mexc.com/exchange/LB_USDT/" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a> and <a href="https://www.lbank.com/trade/lb_usdt/" target="_blank" rel="noopener noreferrer" style="color: #6099c5">LBank</a>.`,
   },
   {
@@ -2862,7 +2858,6 @@ const bills: BillsConfig[] = [
     fullDescription:
       'Credefi is a pioneering lending platform that bridges decentralized finance with the real economy by offering crypto loans collateralized with real-world assets. Focused on addressing the debt financing gap in the European Union, Credefi empowers small and medium-sized enterprises (SMEs) by providing fair, accessible lending solutions backed by assets such as real estate and future receivables. Lenders benefit from stable, predictable returns sourced from tangible economic activity. The platform also integrates $CREDI tokens as an added security layer through Module X, which compensates liquidity providers in the event of loan defaults, reducing risk from delayed collateral liquidation. Additionally, $xCREDI holders play a key role in Credefi’s governance, helping shape the platform’s future direction.',
     feeInPayout: 2,
-    minTier: LaunchBondTiers.Silver,
   },
   {
     index: 1129,
@@ -2894,7 +2889,6 @@ const bills: BillsConfig[] = [
     fullDescription:
       'Edu3Labs is a pioneering force at the intersection of education, AI, and blockchain. Our mission is to revolutionize the learning experience by leveraging cutting-edge technologies and innovative solutions. Their vision is to reshape the future of education, making it decentralized, personalized, gamified and accessible to all, striving to empower individuals worldwide through transformative learning experiences. Edu3Labs is powered by the NFE token, that empowers students, content creators, and authors with a decentralized means of exchange that rewards their contributions to the educational ecosystem. NFE token will be used to have access to lessons, enter knowledge contests and invest in early-stage start-ups related to the education industry. In the medium term, there will be additional privileges for NFE holders such as HR services, advisory, and free tickets for networking and educational events.',
     feeInPayout: 2,
-    minTier: LaunchBondTiers.Silver,
     warningCard: `This token is currently only tradable on the following CEXs: <a href="https://www.mexc.com/exchange/NFE_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a> and <a href="https://www.gate.io/trade/NFE_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">Gate.io</a>.`,
   },
   {
@@ -9238,7 +9232,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     fullDescription: `Medieval Empires is a multi-player online strategy game set in 13th century Turkey, where players build towns, trade, fight, and form alliances within a passive PvE environment. The game immerses players in rich historical settings, featuring daily missions, general tasks, and story missions that guide progression and the expansion of the world map through continuous battles. Built on the Polygon blockchain and powered by Immutable Passport and zkEVM technology, Medieval Empires offers a comprehensive developer ecosystem, low gas fees, enhanced security, and exceptional speed, all while being eco-friendly. The game is currently available on PC (Windows) and MAC (OSX), with a mobile version for iOS and Android on the horizon, ensuring seamless cross-platform interoperability. At the heart of the game is the MEE token, which provides in-game advantages like VIP status, land access, and daily rewards for players who connect their wallets and stake the required amount. The team behind the game brings expertise in both game development and blockchain technology, ensuring a well-rounded, engaging experience.`,
     tags: ['GAMEFI'],
     feeInPayout: 2,
-    minTier: LaunchBondTiers.Silver,
   },
   {
     index: 176,
@@ -9268,7 +9261,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     fullDescription: `Trakx is a global fintech innovator revolutionizing crypto investments through its Crypto Tradable Indices (CTIs). These proprietary baskets of the largest and most liquid digital assets offer a seamless, one-click solution for diversifying portfolios in the fast-evolving crypto market. With low fees and themed, easy-to-understand investment options, Trakx simplifies complex strategies for all investors. Registered with French AMF/ACPR as a Virtual Asset Service Provider (VASP), Trakx adheres to the highest international regulatory standards. The TRKX token powers the ecosystem, reducing trading fees and unlocking exclusive benefits such as governance participation and staking rewards. Trakx makes advanced investing straightforward, setting a new benchmark in crypto index trading.`,
     tags: ['DeFi'],
     feeInPayout: 2,
-    minTier: LaunchBondTiers.Silver,
   },
   {
     index: 175,
