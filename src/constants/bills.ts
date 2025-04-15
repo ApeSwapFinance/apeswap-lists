@@ -1956,7 +1956,7 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.LINEA]: 1742922000 },
     soldOut: false,
     billArt: {
-      collection: BillArtCollection.GoldenTicket_Collection1,
+      collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['Meme', 'Community'],
     shortDescription: `HOTDOG, the sauciest meme on Linea, brings a fiery mix of memes, madness, and mouthwatering fun. More than just a token, it’s a cultural sensation powered by 69% memes, 31% hotdogs, and an unstoppable community. With a fresh website, expanding partnerships, and growing momentum, HOTDOG is ready to take a bite out of the market, this is the hottest dog on the blockchain!`,
@@ -1985,7 +1985,7 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.LINEA]: 1742922000 },
     soldOut: false,
     billArt: {
-      collection: BillArtCollection.GoldenTicket_Collection1,
+      collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['DEX'],
     shortDescription: `Lynex is a powerful liquidity platform based on Thena, which enhanced the Velodrome codebase to fairly compensate LPs for impermanent loss. Ideal for projects needing liquidity, Lynex connects users with top strategies via ALMs, optimizes returns, and rewards participants. Its core token, $LYNX, can be converted to veLYNX for deeper governance and incentives.`,
@@ -2524,7 +2524,7 @@ const bills: BillsConfig[] = [
     audit: 'https://hacken.io/audits/eldarune/',
     initTime: { [ChainId.BSC]: 1744046365 },
     soldOut: false,
-    billArt: { collection: BillArtCollection.GoldenTicket_Collection1 },
+    billArt: { collection: BillArtCollection.ApeBond_Collection1 },
     shortDescription:
       "Eldarune is a game studio creating interoperable, medieval-themed blockchain games where NFTs can be used across multiple titles. The ELDA token serves as the studio's native currency and unlocks diverse gaming experiences. Inspired by classics like Warcraft and Dota, Eldarune is transforming the gaming landscape by offering seamless, interconnected gameplay across its ecosystem.",
     fullDescription:
@@ -2553,7 +2553,7 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.BSC]: 1743688217 },
     soldOut: false,
     billArt: {
-      collection: BillArtCollection.GoldenTicket_Collection1,
+      collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['Meme', 'SocialFi'],
     shortDescription:
@@ -2854,7 +2854,7 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.BSC]: 1742922000 },
     soldOut: false,
     billArt: {
-      collection: BillArtCollection.GoldenTicket_Collection1,
+      collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['RWA', 'Lending'],
     shortDescription:
@@ -2886,7 +2886,7 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.BSC]: 1742922000 },
     soldOut: false,
     billArt: {
-      collection: BillArtCollection.GoldenTicket_Collection1,
+      collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['AI', 'Education'],
     shortDescription:
@@ -9230,7 +9230,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     initTime: { [ChainId.MATIC]: 1742922000 },
     soldOut: false,
     billArt: {
-      collection: BillArtCollection.GoldenTicket_Collection1,
+      collection: BillArtCollection.ApeBond_Collection1,
     },
     bondPartner: 'QuickSwap',
     shortDescription:
@@ -9261,7 +9261,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     initTime: { [ChainId.MATIC]: 1742922000 },
     soldOut: false,
     billArt: {
-      collection: BillArtCollection.GoldenTicket_Collection1,
+      collection: BillArtCollection.ApeBond_Collection1,
     },
     shortDescription:
       'Trakx is a global fintech redefining crypto investments with its Crypto Tradable Indices (CTIs), offering simple, one-click portfolio diversification through themed baskets of top digital assets. Registered with French AMF/ACPR as a VASP, Trakx ensures regulatory compliance. Powered by the TRKX token, users enjoy reduced fees, governance participation, and staking rewards, making crypto investing easy and accessible.',
