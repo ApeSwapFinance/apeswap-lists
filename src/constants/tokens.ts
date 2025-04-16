@@ -20,6 +20,32 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  honey: {
+    symbol: 'HONEY',
+    address: {
+      [ChainId.BERACHAIN]: '0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce',
+    },
+    decimals: {
+      [ChainId.BERACHAIN]: 18,
+    },
+    liquidityDex: {
+      [ChainId.BERACHAIN]: LiquidityDex.External, // TODO: change when we have pricegetter
+    },
+    active: true,
+  },
+  bera: {
+    symbol: 'BERA',
+    address: {
+      [ChainId.BERACHAIN]: '0x6969696969696969696969696969696969696969',
+    },
+    decimals: {
+      [ChainId.BERACHAIN]: 18,
+    },
+    liquidityDex: {
+      [ChainId.BERACHAIN]: LiquidityDex.External, // TODO: change when we have pricegetter
+    },
+    active: true,
+  },
   lb: {
     symbol: 'LB',
     address: {
@@ -1248,6 +1274,7 @@ const tokens: Record<string, Token> = {
       [ChainId.CROSSFI]: '0x7bBcE15166bBc008EC1aDF9b3D6bbA0602FCE7Ba',
       [ChainId.SONIC]: '0x29219dd400f2Bf60E5a23d13Be72B486D4038894',
       [ChainId.MONAD_TESTNET]: '0xf817257fed379853cDe0fa4F97AB987181B1E5Ea',
+      [ChainId.BERACHAIN]: '0x549943e04f40284185054145c6E4e9568C1D3241', // this is USDC.e
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -1263,6 +1290,7 @@ const tokens: Record<string, Token> = {
       [ChainId.CROSSFI]: 6,
       [ChainId.SONIC]: 6,
       [ChainId.MONAD_TESTNET]: 6,
+      [ChainId.BERACHAIN]: 6,
     },
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
@@ -1277,6 +1305,7 @@ const tokens: Record<string, Token> = {
       [ChainId.CROSSFI]: LiquidityDex.XSwap,
       [ChainId.SONIC]: LiquidityDex.ShadowExchange,
       [ChainId.MONAD_TESTNET]: LiquidityDex.PancakeSwapV2,
+      [ChainId.BERACHAIN]: LiquidityDex.External, // TODO: change when we have pricegetter
     },
     active: true,
   },
