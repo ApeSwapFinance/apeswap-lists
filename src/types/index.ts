@@ -41,6 +41,7 @@ export enum ChainId {
   SONIC = 146,
   MONAD_TESTNET = 10143,
   SOL = 7565164, // This is actually the id deBridge uses for Solana
+  BERACHAIN = 80094,
 }
 
 export enum LiquidityDex {

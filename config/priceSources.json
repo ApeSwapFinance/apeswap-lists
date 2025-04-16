@@ -87,5 +87,22 @@
       "type": "token",
       "tokenAddress": "0xcc22F6AA610D1b2a0e89EF228079cB3e1831b1D1"
     }
+  },
+  "80094": {
+    "0x6969696969696969696969696969696969696969": {
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "0x6969696969696969696969696969696969696969"
+    },
+    "0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce": {
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce"
+    },
+    "0x549943e04f40284185054145c6E4e9568C1D3241": {
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "0x549943e04f40284185054145c6E4e9568C1D3241"
+    }
   }
 }

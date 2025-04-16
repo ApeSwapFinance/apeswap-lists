@@ -137,6 +137,23 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       tokenAddress: '0x69011706b3f6C6eaeD7D2Bc13801558B4fd94CBF', //WINJ
     },
   },
+  [ChainId.BERACHAIN]: {
+    '0x6969696969696969696969696969696969696969': {
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '0x6969696969696969696969696969696969696969', //BERA
+    },
+    '0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce': {
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce', //HONEY
+    },
+    '0x549943e04f40284185054145c6E4e9568C1D3241': {
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '0x549943e04f40284185054145c6E4e9568C1D3241', //USDC
+    },
+  },
 }
 
 export default priceSources
