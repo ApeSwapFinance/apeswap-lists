@@ -594,6 +594,19 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.UniswapV3,
     },
   },
+  fula: {
+    symbol: 'FULA',
+    address: {
+      [ChainId.BASE]: '0x9e12735d77c72c5C3670636D428f2F3815d8A4cB',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV3,
+    },
+  },
   moz: {
     symbol: 'MOZ',
     address: {
