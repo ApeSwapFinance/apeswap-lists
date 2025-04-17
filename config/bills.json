@@ -1,5 +1,59 @@
 [
   {
+    "index": 16000,
+    "version": "2.1.0",
+    "cmcId": 24647,
+    "chainId": 80094,
+    "contractAddress": {
+      "80094": "0xf161E0D7A21715c47bDa8c6C56c4aa3ECCE01f96"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "BERA",
+      "address": {
+        "80094": "0x6969696969696969696969696969696969696969"
+      },
+      "decimals": {
+        "80094": 18
+      },
+      "liquidityDex": {
+        "80094": "External"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "HONEY",
+      "address": {
+        "80094": "0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce"
+      },
+      "decimals": {
+        "80094": 18
+      },
+      "liquidityDex": {
+        "80094": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "80094": "0x1b7858f745211dBa1387fE30124eBCa2D706D7Dd"
+    },
+    "inactive": false,
+    "projectLink": "https://berachain.com/",
+    "twitter": "https://x.com/berachain",
+    "initTime": {
+      "80094": 1744851816
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["Blockchains"],
+    "shortDescription": "Berachain is an EVM-compatible Layer 1 using Proof of Liquidity (PoL) and a two-token system: BERA (gas/staking) and BGT (governance/rewards).",
+    "fullDescription": "Berachain is an EVM-identical Layer 1 blockchain that introduces Proof of Liquidity (PoL), a novel consensus mechanism aligning network security with liquidity provision. The protocol operates on a unique two-token model: BERA (gas and staking token) and BGT (non-transferable governance and rewards token).",
+    "feeInPayout": 0
+  },
+  {
     "index": 14009,
     "version": "2.1.0",
     "cmcId": 1,

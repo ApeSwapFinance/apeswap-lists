@@ -22,7 +22,36 @@ const bills: BillsConfig[] = [
   //
   // Berachain
   //
-
+  {
+    index: 16000,
+    version: '2.1.0',
+    cmcId: 24647,
+    chainId: ChainId.BERACHAIN,
+    contractAddress: {
+      [ChainId.BERACHAIN]: '0xf161E0D7A21715c47bDa8c6C56c4aa3ECCE01f96',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.bera,
+    earnToken: tokens.honey,
+    billNnftAddress: {
+      [ChainId.BERACHAIN]: '0x1b7858f745211dBa1387fE30124eBCa2D706D7Dd',
+    },
+    inactive: false,
+    projectLink: 'https://berachain.com/',
+    twitter: 'https://x.com/berachain',
+    initTime: { [ChainId.BERACHAIN]: 1744851816 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Blockchains'],
+    shortDescription:
+      'Berachain is an EVM-compatible Layer 1 using Proof of Liquidity (PoL) and a two-token system: BERA (gas/staking) and BGT (governance/rewards).',
+    fullDescription:
+      'Berachain is an EVM-identical Layer 1 blockchain that introduces Proof of Liquidity (PoL), a novel consensus mechanism aligning network security with liquidity provision. The protocol operates on a unique two-token model: BERA (gas and staking token) and BGT (non-transferable governance and rewards token).',
+    feeInPayout: 0,
+  },
   //
   // Sonic
   //
