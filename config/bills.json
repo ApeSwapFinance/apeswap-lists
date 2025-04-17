@@ -894,6 +894,60 @@
     "fullDescription": "FOMOFox is the first market-driven storytelling meme coin on IOTA EVM. Follow the thrilling journey of FOMOFox on TwitterX and help him conquer his FOMO by influencing the $FOMO Token’s market performance. Loyal holders will find countless opportunities to grow their $FOMO bags through raffles, solving riddles, or simply holding and supporting the fox. Along the way, FOMOFox faces diverse challenges and meets intriguing characters. Your influence on the market helps him make the right choices. This project offers pure entertainment and rewards those who stick with it! Join the adventure now and visit their website for more details!"
   },
   {
+    "index": 8046,
+    "cmcId": 18787,
+    "version": "2.1.0",
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0x54286E6584dc01f658F4B6fdBdd5E35553c26c12"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "ETH",
+      "address": {
+        "8453": "0x4200000000000000000000000000000000000006"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "liquidityDex": {
+        "8453": "Aerodrome"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "FULA",
+      "address": {
+        "8453": "0x9e12735d77c72c5C3670636D428f2F3815d8A4cB"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "8453": "UniswapV3"
+      }
+    },
+    "billNnftAddress": {
+      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "inactive": false,
+    "projectLink": "https://fx.land/",
+    "twitter": "https://x.com/functionland",
+    "initTime": {
+      "8453": 1744904089
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["AI"],
+    "shortDescription": "Functionland is a Web3 project empowering users to truly own their data. It began with Fotos, a decentralized photo and video app, and expanded into building missing pieces of the Web3 stack. To support this, Functionland introduced $FULA—a chain-agnostic token that incentivizes storage and compute providers, ensuring data permanence and developer monetization.",
+    "fullDescription": "Functionland is a Web3-native project built on the foundational belief that individuals have an inalienable right to own their personal data. It began with the development of Fotos, a decentralized alternative to mainstream photo and video storage apps, designed to return ownership of media to users. However, in the process, the team discovered critical gaps in the Web3 infrastructure, particularly around decentralized storage, compute, and developer monetization. To address these challenges, Functionland introduced the $FULA token—a chain-agnostic utility token that powers its ecosystem. $FULA incentivizes individuals to contribute storage and computational resources, ensuring long-term access to data and enabling developers to build and monetize Web3 applications seamlessly.",
+    "feeInPayout": 2
+  },
+  {
     "index": 8045,
     "cmcId": 32229,
     "version": "2.1.0",

@@ -7,7 +7,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Arbitrum Largest ID: 2027
 // ETH Largest ID: 3042
 // Linea Largest ID: 6015
-// Base Largest ID: 8039
+// Base Largest ID: 8046
 // Lightlink Largest ID: 7003
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
@@ -489,6 +489,34 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
+  {
+    index: 8046,
+    cmcId: 18787,
+    version: '2.1.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x54286E6584dc01f658F4B6fdBdd5E35553c26c12',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.eth,
+    earnToken: tokens.fula,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://fx.land/',
+    twitter: 'https://x.com/functionland',
+    initTime: { [ChainId.BASE]: 1744904089 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription: `Functionland is a Web3 project empowering users to truly own their data. It began with Fotos, a decentralized photo and video app, and expanded into building missing pieces of the Web3 stack. To support this, Functionland introduced $FULA—a chain-agnostic token that incentivizes storage and compute providers, ensuring data permanence and developer monetization.`,
+    fullDescription: `Functionland is a Web3-native project built on the foundational belief that individuals have an inalienable right to own their personal data. It began with the development of Fotos, a decentralized alternative to mainstream photo and video storage apps, designed to return ownership of media to users. However, in the process, the team discovered critical gaps in the Web3 infrastructure, particularly around decentralized storage, compute, and developer monetization. To address these challenges, Functionland introduced the $FULA token—a chain-agnostic utility token that powers its ecosystem. $FULA incentivizes individuals to contribute storage and computational resources, ensuring long-term access to data and enabling developers to build and monetize Web3 applications seamlessly.`,
+    feeInPayout: 2,
+  },
   {
     index: 8045,
     cmcId: 32229,
