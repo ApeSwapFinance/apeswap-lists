@@ -108,6 +108,10 @@ export enum LiquidityDex {
   // ShadowExchangeV3 = 'ShadowExchangeV3',
   SwapX = 'SwapX', //V2
   SwapXAlgebraIntegral = 'SwapXAlgebraIntegral',
+
+  //BERACHAIN
+  KodiakV2 = 'KodiakV2', //V2
+  KodiakV3 = 'KodiakV3', //V3
 }
 
 export enum IchiSupportedDex {
@@ -797,6 +801,16 @@ export const dexFactories: Partial<
       protocol: Protocols.V2,
     },
   },
+  [ChainId.BERACHAIN]: {
+    [LiquidityDex.KodiakV2]: {
+      factory: '0x5e705e184d233ff2a7cb1553793464a9d0c3028f',
+      protocol: Protocols.V2,
+    },
+    [LiquidityDex.KodiakV3]: {
+      factory: '0xD84CBf0B02636E7f53dB9E5e45A616E05d710990',
+      protocol: Protocols.V3,
+    },
+  },
 }
 
 export const defaultDexFactories: Partial<Record<ChainId, Partial<Record<Protocols, string>>>> = {
@@ -861,6 +875,10 @@ export const defaultDexFactories: Partial<Record<ChainId, Partial<Record<Protoco
   },
   [ChainId.MONAD_TESTNET]: {
     [Protocols.V2]: dexFactories[ChainId.MONAD_TESTNET]?.LFJ?.factory,
+  },
+  [ChainId.BERACHAIN]: {
+    [Protocols.V2]: dexFactories[ChainId.BERACHAIN]?.KodiakV2?.factory,
+    [Protocols.V3]: dexFactories[ChainId.BERACHAIN]?.KodiakV3?.factory,
   },
 }
 
@@ -940,4 +958,6 @@ export const dexToZapMapping: Record<LiquidityDex, Partial<Record<ChainId, ZapVe
   [LiquidityDex.SwapXAlgebraIntegral]: {},
   [LiquidityDex.TrebleSwapV2]: {},
   [LiquidityDex.TrebleAlgebraIntegral]: {},
+  [LiquidityDex.KodiakV2]: {},
+  [LiquidityDex.KodiakV3]: {},
 }
