@@ -10,7 +10,7 @@
     "billType": "reserve",
     "billVersion": "V4",
     "lpToken": {
-      "symbol": "BERA",
+      "symbol": "WBERA",
       "address": {
         "80094": "0x6969696969696969696969696969696969696969"
       },
