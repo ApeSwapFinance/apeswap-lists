@@ -29,7 +29,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BERACHAIN]: 18,
     },
     liquidityDex: {
-      [ChainId.BERACHAIN]: LiquidityDex.External, // TODO: change when we have pricegetter
+      [ChainId.BERACHAIN]: LiquidityDex.KodiakV3,
     },
     active: true,
   },
@@ -42,7 +42,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BERACHAIN]: 18,
     },
     liquidityDex: {
-      [ChainId.BERACHAIN]: LiquidityDex.External, // TODO: change when we have pricegetter
+      [ChainId.BERACHAIN]: LiquidityDex.KodiakV3,
     },
     active: true,
   },
@@ -1305,7 +1305,7 @@ const tokens: Record<string, Token> = {
       [ChainId.CROSSFI]: LiquidityDex.XSwap,
       [ChainId.SONIC]: LiquidityDex.ShadowExchange,
       [ChainId.MONAD_TESTNET]: LiquidityDex.PancakeSwapV2,
-      [ChainId.BERACHAIN]: LiquidityDex.External, // TODO: change when we have pricegetter
+      [ChainId.BERACHAIN]: LiquidityDex.KodiakV3,
     },
     active: true,
   },

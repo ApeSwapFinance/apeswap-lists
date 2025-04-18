@@ -1757,7 +1757,7 @@
             "10143": "PancakeSwapV2",
             "42161": "UniswapV3",
             "59144": "Nile",
-            "80094": "External"
+            "80094": "KodiakV3"
           },
           "active": true
         },
@@ -1921,7 +1921,7 @@
             "10143": "PancakeSwapV2",
             "42161": "UniswapV3",
             "59144": "Nile",
-            "80094": "External"
+            "80094": "KodiakV3"
           },
           "active": true
         },
