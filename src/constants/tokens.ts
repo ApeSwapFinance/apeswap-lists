@@ -34,7 +34,7 @@ const tokens: Record<string, Token> = {
     active: true,
   },
   bera: {
-    symbol: 'BERA',
+    symbol: 'WBERA',
     address: {
       [ChainId.BERACHAIN]: '0x6969696969696969696969696969696969696969',
     },
