@@ -29,7 +29,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BERACHAIN]: 18,
     },
     liquidityDex: {
-      [ChainId.BERACHAIN]: LiquidityDex.KodiakV3,
+      [ChainId.BERACHAIN]: LiquidityDex.KodiakV2,
     },
     active: true,
   },
