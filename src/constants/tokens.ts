@@ -88,6 +88,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  x33: {
+    symbol: 'X33',
+    address: {
+      [ChainId.SONIC]: '0x3333111A391cC08fa51353E9195526A70b333333',
+    },
+    decimals: {
+      [ChainId.SONIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.SONIC]: LiquidityDex.ShadowExchange,
+    },
+    active: true,
+  },
   chpd: {
     symbol: 'CHPD',
     address: {

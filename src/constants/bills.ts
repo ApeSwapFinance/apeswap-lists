@@ -27,6 +27,35 @@ const bills: BillsConfig[] = [
   // Sonic
   //
 
+  // {
+  //   index: 1142,
+  //   version: '2.1.0',
+  //   chainId: ChainId.SONIC,
+  //   contractAddress: {
+  //     [ChainId.SONIC]: '0x2fcd995A294A6025CC5651d31079ae290F1707FA',
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V4,
+  //   lpToken: tokens.usdc,
+  //   earnToken: tokens.s,
+  //   billNnftAddress: {
+  //     [ChainId.SONIC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+  //   },
+  //   inactive: false,
+  //   projectLink: 'https://outerringmmo.com/',
+  //   twitter: 'https://twitter.com/OuterRingMMO',
+  //   initTime: { [ChainId.SONIC]: 1744051437 },
+  //   soldOut: false,
+  //   billArt: {
+  //     collection: BillArtCollection.ApeBond_Collection1,
+  //   },
+  //   fullDescription: '',
+  //   shortDescription: '',
+  //   tags: ['GAMEFI'],
+  //   feeInPayout: 2,
+  //   minTier: LaunchBondTiers.Silver,
+  // },
+
   //
   // Monad Testnet
   //
