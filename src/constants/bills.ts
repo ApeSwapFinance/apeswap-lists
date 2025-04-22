@@ -54,8 +54,7 @@ const bills: BillsConfig[] = [
       'MoonBay is a crypto project on the Sonic Network with a strong community and the $MOON token at its core. Blending meme culture with real utility, it embraces DeFi, NFTs, GameFi, and more. Focused on trends and innovation, MoonBay offers value, entertainment, and growth, making it a vibrant hub in the crypto space.',
     tags: ['DeFi'],
     feeInPayout: 2,
-    warningCard:
-      'Caution: Trading this bond requires increased slippage parameters due to market depth characteristics',
+    warningCard: 'Heads Up: Buying this Bond may require a higher slippage.',
   },
   {
     index: 15001,
