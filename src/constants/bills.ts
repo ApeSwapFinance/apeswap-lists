@@ -26,36 +26,96 @@ const bills: BillsConfig[] = [
   //
   // Sonic
   //
-
   // {
-  //   index: 1142,
+  //   index: 15002,
   //   version: '2.1.0',
   //   chainId: ChainId.SONIC,
   //   contractAddress: {
-  //     [ChainId.SONIC]: '0x2fcd995A294A6025CC5651d31079ae290F1707FA',
+  //     [ChainId.SONIC]: '',
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V4,
+  //   lpToken: tokens.moonS_Equalizer,
+  //   earnToken: tokens.moon,
+  //   billNnftAddress: {
+  //     [ChainId.SONIC]: '0xc765C358622cB346f236F8Bfffe53036e421bb4e',
+  //   },
+  //   inactive: false,
+  //   projectLink: 'https://www.moonbay.space/',
+  //   twitter: 'https://x.com/MoonBaySonic',
+  //   initTime: { [ChainId.SONIC]: 1745271352 },
+  //   soldOut: false,
+  //   billArt: {
+  //     collection: BillArtCollection.ApeBond_Collection1,
+  //   },
+  //   fullDescription:
+  //     "MoonBay is a dynamic crypto project built on the Sonic Network, powered by its native $MOON token and a passionate community. Fusing meme culture with real-world utility, MoonBay spans across DeFi, NFTs, GameFi, and beyond. The project thrives on innovation and trend awareness, positioning itself as a forward-thinking ecosystem that delivers value, engagement, and entertainment. With a commitment to both fun and function, MoonBay aims to create a vibrant hub where users can explore the future of Web3. Its diverse offerings and energetic community make it a standout presence in the evolving crypto landscape.",
+  //   shortDescription:
+  //     'MoonBay is a crypto project on the Sonic Network with a strong community and the $MOON token at its core. Blending meme culture with real utility, it embraces DeFi, NFTs, GameFi, and more. Focused on trends and innovation, MoonBay offers value, entertainment, and growth, making it a vibrant hub in the crypto space.',
+  //   tags: ['DeFi'],
+  //   feeInPayout: 2,
+  //   minTier: LaunchBondTiers.Silver,
+  // },
+  // {
+  //   index: 15001,
+  //   version: '2.1.0',
+  //   chainId: ChainId.SONIC,
+  //   contractAddress: {
+  //     [ChainId.SONIC]: '',
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V4,
+  //   lpToken: tokens.usdc,
+  //   earnToken: tokens.x33,
+  //   billNnftAddress: {
+  //     [ChainId.SONIC]: '0xc765C358622cB346f236F8Bfffe53036e421bb4e',
+  //   },
+  //   inactive: false,
+  //   projectLink: 'https://www.shadow.so/',
+  //   twitter: 'https://x.com/ShadowonSonic',
+  //   initTime: { [ChainId.SONIC]: 1745271352 },
+  //   soldOut: false,
+  //   billArt: {
+  //     collection: BillArtCollection.ApeBond_Collection1,
+  //   },
+  //   fullDescription:
+  //     "Shadow is a Sonic-native concentrated liquidity exchange designed to be the ultimate trading hub on Sonic. It empowers users to trade with confidence through minimal slippage and deep liquidity, while maximizing returns by targeting active liquidity ranges. Traders and liquidity providers can fine-tune their price ranges to capture optimal trading fees and earn additional rewards through vote incentives, rebases, and exit emissions—all seamlessly integrated into a single system. Shadow's dynamic fee structure adjusts algorithmically to market activity, offering customizable fee splits for each gauge and enabling creators to set their own fees, delivering a robust and flexible DeFi experience, powered by SHADOW and x33 tokens.",
+  //     shortDescription:
+  //     'Shadow is a Sonic-native concentrated liquidity exchange that offers deep liquidity, minimal slippage, and precise trading. Users can maximize returns by targeting active liquidity ranges and fine-tuning price bands. The platform rewards users with fees, vote incentives, and rebases, while its dynamic, customizable fee system adapts to market activity, powered by SHADOW and x33 tokens.',
+  //   tags: ['DEX'],
+  //   feeInPayout: 2,
+  //   minTier: LaunchBondTiers.Silver,
+  // },
+  // {
+  //   index: 15000,
+  //   version: '2.1.0',
+  //   chainId: ChainId.SONIC,
+  //   contractAddress: {
+  //     [ChainId.SONIC]: '',
   //   },
   //   billType: 'reserve',
   //   billVersion: BillVersion.V4,
   //   lpToken: tokens.usdc,
   //   earnToken: tokens.s,
   //   billNnftAddress: {
-  //     [ChainId.SONIC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+  //     [ChainId.SONIC]: '0xc765C358622cB346f236F8Bfffe53036e421bb4e',
   //   },
   //   inactive: false,
-  //   projectLink: 'https://outerringmmo.com/',
-  //   twitter: 'https://twitter.com/OuterRingMMO',
-  //   initTime: { [ChainId.SONIC]: 1744051437 },
+  //   projectLink: 'https://www.soniclabs.com/',
+  //   twitter: 'https://x.com/SonicLabs',
+  //   initTime: { [ChainId.SONIC]: 1745271352 },
   //   soldOut: false,
   //   billArt: {
   //     collection: BillArtCollection.ApeBond_Collection1,
   //   },
-  //   fullDescription: '',
-  //   shortDescription: '',
-  //   tags: ['GAMEFI'],
+  //   fullDescription:
+  //     'Sonic is the highest-performing EVM Layer-1 network, delivering unmatched speed, scalability, and efficiency for digital assets. Capable of processing over 400,000 transactions per second with sub-second finality, Sonic enables up to 900 million ERC-20 transfers per day. Bridging seamlessly to Ethereum’s liquidity via the Sonic Gateway, it offers developers powerful infrastructure, fee monetization, and massive storage capacity. Users enjoy a swift, intuitive experience, while developers earn by building high-traffic dApps. Powered by the native S token—for fees, staking, validation, and governance—Sonic combines world-class performance and incentive models to fuel the next generation of DeFi and Web3 innovation.',
+  //   shortDescription:
+  //     "Sonic is the highest-performing EVM L1, combining speed, incentives, and world-class infrastructure, powering the next generation of DeFi applications. The chain provides 400,000 TPS and sub-second finality. The S token is Sonic's native token, used for paying transaction fees, staking, running validators, and participating in governance.",
+  //   tags: ['Blockchains'],
   //   feeInPayout: 2,
   //   minTier: LaunchBondTiers.Silver,
   // },
-
   //
   // Monad Testnet
   //
