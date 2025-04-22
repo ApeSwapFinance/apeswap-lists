@@ -54,7 +54,8 @@
     "fullDescription": "MoonBay is a dynamic crypto project built on the Sonic Network, powered by its native $MOON token and a passionate community. Fusing meme culture with real-world utility, MoonBay spans across DeFi, NFTs, GameFi, and beyond. The project thrives on innovation and trend awareness, positioning itself as a forward-thinking ecosystem that delivers value, engagement, and entertainment. With a commitment to both fun and function, MoonBay aims to create a vibrant hub where users can explore the future of Web3. Its diverse offerings and energetic community make it a standout presence in the evolving crypto landscape.",
     "shortDescription": "MoonBay is a crypto project on the Sonic Network with a strong community and the $MOON token at its core. Blending meme culture with real utility, it embraces DeFi, NFTs, GameFi, and more. Focused on trends and innovation, MoonBay offers value, entertainment, and growth, making it a vibrant hub in the crypto space.",
     "tags": ["DeFi"],
-    "feeInPayout": 2
+    "feeInPayout": 2,
+    "warningCard": "Caution: Trading this bond requires increased slippage parameters due to market depth characteristics"
   },
   {
     "index": 15001,
