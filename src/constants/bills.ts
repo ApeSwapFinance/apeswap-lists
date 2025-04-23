@@ -53,7 +53,7 @@ const bills: BillsConfig[] = [
     shortDescription:
       'MoonBay is a crypto project on the Sonic Network with a strong community and the $MOON token at its core. Blending meme culture with real utility, it embraces DeFi, NFTs, GameFi, and more. Focused on trends and innovation, MoonBay offers value, entertainment, and growth, making it a vibrant hub in the crypto space.',
     tags: ['DeFi'],
-    feeInPayout: 2,
+    feeInPayout: 5,
     warningCard: 'Heads Up: Buying this Bond may require a higher slippage.',
   },
   {
@@ -83,7 +83,7 @@ const bills: BillsConfig[] = [
     shortDescription:
       'Shadow is a Sonic-native concentrated liquidity exchange that offers deep liquidity, minimal slippage, and precise trading. Users can maximize returns by targeting active liquidity ranges and fine-tuning price bands. The platform rewards users with fees, vote incentives, and rebases, while its dynamic, customizable fee system adapts to market activity, powered by SHADOW and x33 tokens.',
     tags: ['DEX'],
-    feeInPayout: 2,
+    feeInPayout: 5,
   },
   {
     index: 15000,
@@ -2055,7 +2055,7 @@ const bills: BillsConfig[] = [
     tags: ['Meme', 'Community'],
     shortDescription: ` Linpuss revolutionizes trading on Linea by eliminating distractions and making the experience exciting and effortless. Represented by a blindfold, it empowers users to focus on sniping tokens and navigating the market with precision. More than a memecoin, Linpuss combines gamification with powerful tools to identify top opportunities. Backed by the LPUSS token, it offers early access to Linea’s explosive growth and a game-changing ecosystem.`,
     fullDescription: `Linpuss introduces an innovative approach to trading on Linea by combining cutting-edge functionality with a fun, gamified experience. With its signature blindfold, Linpuss symbolizes the elimination of distractions, empowering users to focus on sniping tokens and seizing the best opportunities in Linea's dynamic market. More than just a memecoin, Linpuss provides traders with an intuitive and thrilling tool that merges the efficiency of a trading bot with the excitement of a game. As Linea prepares for exponential growth, Linpuss positions itself as a gateway to unlocking early access to a revolutionary ecosystem, offering substantial upside potential. Backed by the LPUSS token, Linpuss is on a mission to redefine blockchain trading—making it seamless, engaging, and accessible for all. Whether you're a seasoned trader or a newcomer, Linpuss transforms trading into an adventure, giving you the tools and focus needed to succeed in the evolving Linea market.`,
-    feeInPayout: 2,
+    feeInPayout: 5,
   },
   {
     index: 6017,
@@ -9323,7 +9323,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'Film.io is a decentralized filmmaking ecosystem that puts Hollywood decision-making into the hands of creators and fans through blockchain technology. Governed by a filmmaking industry DAO, it champions inclusion, diversity, and transparency. With FAN and FILM Tokens, Film.io empowers collaboration to validate, fund, and distribute content, replacing centralized control with creative freedom.',
     fullDescription: `Film.io is the world's most powerful decentralized filmmaking ecosystem, revolutionizing Hollywood by transferring decision-making to creators and fans through blockchain technology. Governed by the first-ever filmmaking industry DAO, Film.io champions inclusion, equality, and diversity in global entertainment. It empowers creators and fans to collaboratively validate, fund, and distribute content in a transparent, inclusive environment, replacing traditional centralized power structures. Utilizing a dual-token model, Film.io offers FAN Tokens for governance and platform participation, while FILM Tokens support crowdfunding, DeFi loans, and NFT campaigns. Together, these tokens fuel collaboration between creators, fans, and investors, liberating the entertainment industry and fostering a new era of creative freedom.`,
     tags: ['Entertainment'],
-    feeInPayout: 2,
+    feeInPayout: 5,
   },
   {
     index: 178,
@@ -9351,7 +9351,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'YayPal transforms gaming by blending fun with an active lifestyle. With $ACTIVE, gamers unlock shared achievements, leaderboards, and personalized NFTs across multiple games. The AI Motivation Engine boosts engagement with fitness challenges and rewards. From conquering virtual realms to real-world discounts and location-based offers, $ACTIVE bridges gaming and real-life rewards seamlessly.',
     fullDescription: `YayPal redefines gaming with an ecosystem that merges fun, fitness, and rewards. At its core, $ACTIVE powers shared points, leaderboards, and personalized NFTs across games. Gamers switch between casual and Move 2 Play modes, earning rewards while staying active. Walkopoly incentivizes physical activity with tokenized property trading, while the AI Motivation Engine offers personalized challenges. $ACTIVE also unlocks discounts, location-based offers, and a dynamic NFT marketplace, bridging gaming and real-life value.`,
     tags: ['GAMEFI'],
-    feeInPayout: 2,
+    feeInPayout: 5,
   },
   {
     index: 177,
@@ -9382,7 +9382,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'Medieval Empires is a multi-player online strategy game set in 13th century Turkey. Players build towns, trade, battle, and form alliances in a passive PvE environment while completing daily missions and tasks to progress. Powered by Polygon blockchain and Immutable Passport technology, it offers low gas fees, security, and cross-platform play on PC, MAC, and soon mobile. The MEE token unlocks in-game benefits like VIP status and land access.',
     fullDescription: `Medieval Empires is a multi-player online strategy game set in 13th century Turkey, where players build towns, trade, fight, and form alliances within a passive PvE environment. The game immerses players in rich historical settings, featuring daily missions, general tasks, and story missions that guide progression and the expansion of the world map through continuous battles. Built on the Polygon blockchain and powered by Immutable Passport and zkEVM technology, Medieval Empires offers a comprehensive developer ecosystem, low gas fees, enhanced security, and exceptional speed, all while being eco-friendly. The game is currently available on PC (Windows) and MAC (OSX), with a mobile version for iOS and Android on the horizon, ensuring seamless cross-platform interoperability. At the heart of the game is the MEE token, which provides in-game advantages like VIP status, land access, and daily rewards for players who connect their wallets and stake the required amount. The team behind the game brings expertise in both game development and blockchain technology, ensuring a well-rounded, engaging experience.`,
     tags: ['GAMEFI'],
-    feeInPayout: 2,
+    feeInPayout: 5,
   },
   {
     index: 176,
@@ -9411,7 +9411,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'Trakx is a global fintech redefining crypto investments with its Crypto Tradable Indices (CTIs), offering simple, one-click portfolio diversification through themed baskets of top digital assets. Registered with French AMF/ACPR as a VASP, Trakx ensures regulatory compliance. Powered by the TRKX token, users enjoy reduced fees, governance participation, and staking rewards, making crypto investing easy and accessible.',
     fullDescription: `Trakx is a global fintech innovator revolutionizing crypto investments through its Crypto Tradable Indices (CTIs). These proprietary baskets of the largest and most liquid digital assets offer a seamless, one-click solution for diversifying portfolios in the fast-evolving crypto market. With low fees and themed, easy-to-understand investment options, Trakx simplifies complex strategies for all investors. Registered with French AMF/ACPR as a Virtual Asset Service Provider (VASP), Trakx adheres to the highest international regulatory standards. The TRKX token powers the ecosystem, reducing trading fees and unlocking exclusive benefits such as governance participation and staking rewards. Trakx makes advanced investing straightforward, setting a new benchmark in crypto index trading.`,
     tags: ['DeFi'],
-    feeInPayout: 2,
+    feeInPayout: 5,
   },
   {
     index: 175,
@@ -14032,7 +14032,7 @@ With the lending products set to go live in February, the project is poised to a
     shortDescription:
       'Singularity Finance is an EVM-compatible Layer-2 blockchain that brings the AI economy onchain through a compliant RWA tokenization framework, enabling the tokenization of AI compute and the monetization of AI agents. Its native utility token, SFI, powers the network by facilitating economic, operational, and governance functions, ensuring a secure, efficient, and decentralized ecosystem for AI-driven innovation.',
     fullDescription: `Singularity Finance is an EVM-compatible Layer-2 blockchain that brings the AI economy onchain by providing a compliant framework for the tokenization of AI compute and the monetization of AI agents. The platform addresses challenges such as liquidity and accessibility by converting core elements of the AI value chain—from hardware to applications—into tokenized, yield-bearing assets that integrate seamlessly with the DeFi ecosystem. By enabling new asset classes like tokenized AI compute, Singularity Finance offers unparalleled access to the burgeoning AI market, allowing both individuals and businesses to actively participate in the growth of AI technologies. Central to this ecosystem is the SFI token, which underpins the network’s economic, operational, and governance functions while fostering a secure, efficient, and community-driven digital environment.`,
-    feeInPayout: 2,
+    feeInPayout: 5,
   },
   {
     index: 3044,
