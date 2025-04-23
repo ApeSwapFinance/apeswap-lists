@@ -20,6 +20,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  usde: {
+    symbol: 'USDE',
+    address: {
+      [ChainId.BERACHAIN]: '0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34',
+    },
+    decimals: {
+      [ChainId.BERACHAIN]: 18,
+    },
+    liquidityDex: {
+      [ChainId.BERACHAIN]: LiquidityDex.KodiakV3,
+    },
+    active: true,
+  },
   honey: {
     symbol: 'HONEY',
     address: {
@@ -1167,6 +1180,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BLAST]: '0x4300000000000000000000000000000000000004',
       [ChainId.SONIC]: '0x50c42dEAcD8Fc9773493ED674b675bE577f2634b',
       [ChainId.MONAD_TESTNET]: '0xB5a30b0FDc5EA94A52fDc42e3E9760Cb8449Fb37',
+      [ChainId.BERACHAIN]: '0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -1183,6 +1197,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BLAST]: 18,
       [ChainId.SONIC]: 18,
       [ChainId.MONAD_TESTNET]: 18,
+      [ChainId.BERACHAIN]: 18,
     },
     liquidityDex: {
       [ChainId.MAINNET]: LiquidityDex.UniswapV3,
@@ -1193,6 +1208,7 @@ const tokens: Record<string, Token> = {
       [ChainId.GRAPHLINQ]: LiquidityDex.External,
       [ChainId.BLAST]: LiquidityDex.ThrusterV3,
       [ChainId.MONAD_TESTNET]: LiquidityDex.PancakeSwapV2,
+      [ChainId.BERACHAIN]: LiquidityDex.KodiakV3,
     },
     active: true,
   },
