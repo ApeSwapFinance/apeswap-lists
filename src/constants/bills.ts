@@ -681,7 +681,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/metahorseunity',
     audit: 'https://skynet.certik.com/projects/metahorse-unity',
     initTime: { [ChainId.BASE]: 1743426325 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -2075,7 +2075,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.hotdog.pet/',
     twitter: 'https://x.com/HotdogLinea',
     initTime: { [ChainId.LINEA]: 1742922000 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -2103,7 +2103,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/LynexFi',
     audit: 'https://www.cyberscope.io/audits/coin-lynex',
     initTime: { [ChainId.LINEA]: 1742922000 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
