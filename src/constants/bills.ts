@@ -681,7 +681,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/metahorseunity',
     audit: 'https://skynet.certik.com/projects/metahorse-unity',
     initTime: { [ChainId.BASE]: 1743426325 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -2075,7 +2075,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.hotdog.pet/',
     twitter: 'https://x.com/HotdogLinea',
     initTime: { [ChainId.LINEA]: 1742922000 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -2103,7 +2103,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/LynexFi',
     audit: 'https://www.cyberscope.io/audits/coin-lynex',
     initTime: { [ChainId.LINEA]: 1742922000 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -2530,6 +2530,36 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  // {
+  //   index: 1144,
+  //   cmcId: 34498,
+  //   version: '2.1.0',
+  //   chainId: ChainId.BSC,
+  //   contractAddress: {
+  //     [ChainId.BSC]: '',
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V4,
+  //   lpToken: tokens.wbnb,
+  //   earnToken: tokens.ithaca,
+  //   billNnftAddress: {
+  //     [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+  //   },
+  //   inactive: false,
+  //   projectLink: 'https://www.ithacaprotocol.io/',
+  //   twitter: 'https://x.com/IthacaProtocol',
+  //   initTime: { [ChainId.BSC]: 1745408455 },
+  //   soldOut: false,
+  //   billArt: {
+  //     collection: BillArtCollection.ApeBond_Collection1,
+  //   },
+  //   fullDescription:
+  //     'Ithaca is building permissionless cross-chain infrastructure for instant deployment of composable options, structured products, and lending markets. With an off-chain EVM-compatible matching engine, Axelar-powered bridging, and a smart contract settlement layer, Ithaca enables more efficient financial markets. The ITHACA token powers governance and ecosystem rewards.',
+  //   shortDescription:
+  //     'Ithaca is building permissionless cross-chain infrastructure designed to enable optimal risk sharing across time and event horizons. Its architecture supports instant deployment of liquidity self-enhancing options, structured products, and lending markets on any underlying asset. The protocol combines an off-chain auction-based, EVM-compatible matching engine with smart contracts that enforce post-trade settlement and collateral custody. Bridging is powered by Axelar, enabling multi-chain functionality into Arbitrum. The Ithaca App serves as a user-friendly interface for placing trades, managing collateral, and executing strategies from simple payoffs to complex derivatives. Governed by the ITHACA token, which can be staked for rewards, the ecosystem aligns stakeholder incentives through decentralized governance. The token launch aims to bootstrap liquidity, reward early adopters, and support ecosystem growth.',
+  //   tags: ['DeFi'],
+  //   feeInPayout: 5,
+  // },
   {
     index: 1143,
     cmcId: 29157,
@@ -2969,7 +2999,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/credefi_finance/',
     audit: 'https://www.certik.com/projects/credefi?utm_source=CMC&utm_campaign=AuditByCertiKLink',
     initTime: { [ChainId.BSC]: 1742922000 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -9432,7 +9462,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/nasdex_xyz',
     audit: 'https://hacken.io/audits/nasdex',
     initTime: { [ChainId.MATIC]: 1740759360 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },

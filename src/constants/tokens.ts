@@ -3916,6 +3916,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  ithaca: {
+    symbol: 'ITHACA',
+    address: {
+      [ChainId.BSC]: '0x49f1D4dB3ea1a64390E990C6deBEaC88EAC007Ca',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+    },
+    active: true,
+  },
   sko: {
     symbol: 'SKO',
     address: {
