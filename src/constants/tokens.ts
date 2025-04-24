@@ -836,6 +836,19 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.UniswapV2,
     },
   },
+  vpt: {
+    symbol: 'VPT',
+    address: {
+      [ChainId.BASE]: '0x00096697DC24bd10423690126D91546A20Ccb3F0',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.External,
+    },
+  },
   xavi: {
     symbol: 'XAVI',
     address: {

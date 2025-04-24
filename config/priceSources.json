@@ -72,6 +72,11 @@
       "source": "dexscreener",
       "type": "token",
       "tokenAddress": "0xACf80A4e55F5f28e1e7d261a221cA495DB5bcbB3"
+    },
+    "0x00096697DC24bd10423690126D91546A20Ccb3F0": {
+      "source": "mexc",
+      "id": "VPTUSDT",
+      "tokenAddress": "0x00096697DC24bd10423690126D91546A20Ccb3F0"
     }
   },
   "42161": {
