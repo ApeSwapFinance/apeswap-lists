@@ -101,6 +101,32 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  x33: {
+    symbol: 'X33',
+    address: {
+      [ChainId.SONIC]: '0x3333111A391cC08fa51353E9195526A70b333333',
+    },
+    decimals: {
+      [ChainId.SONIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.SONIC]: LiquidityDex.ShadowExchange,
+    },
+    active: true,
+  },
+  moon: {
+    symbol: 'MOON',
+    address: {
+      [ChainId.SONIC]: '0x486B6Fa0419b33a0c7A6e4698c231D7E2f2D5299',
+    },
+    decimals: {
+      [ChainId.SONIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.SONIC]: LiquidityDex.Equalizer,
+    },
+    active: true,
+  },
   chpd: {
     symbol: 'CHPD',
     address: {
@@ -607,6 +633,19 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.UniswapV3,
     },
   },
+  fula: {
+    symbol: 'FULA',
+    address: {
+      [ChainId.BASE]: '0x9e12735d77c72c5C3670636D428f2F3815d8A4cB',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV3,
+    },
+  },
   moz: {
     symbol: 'MOZ',
     address: {
@@ -808,6 +847,19 @@ const tokens: Record<string, Token> = {
     active: true,
     liquidityDex: {
       [ChainId.BASE]: LiquidityDex.UniswapV2,
+    },
+  },
+  vpt: {
+    symbol: 'VPT',
+    address: {
+      [ChainId.BASE]: '0x00096697DC24bd10423690126D91546A20Ccb3F0',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.External,
     },
   },
   xavi: {
@@ -3893,6 +3945,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  ithaca: {
+    symbol: 'ITHACA',
+    address: {
+      [ChainId.BSC]: '0x49f1D4dB3ea1a64390E990C6deBEaC88EAC007Ca',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+    },
+    active: true,
+  },
   sko: {
     symbol: 'SKO',
     address: {
@@ -6862,6 +6925,21 @@ const tokens: Record<string, Token> = {
     ichiUnderlyingDex: IchiSupportedDex.UniswapV3,
     getLpUrl: {
       [ChainId.BASE]: 'https://app.ichi.org/vault/token/0xac27fa800955849d6d17cc8952ba9dd6eaa66187/',
+    },
+  },
+  moonS_Equalizer: {
+    symbol: 'MOON-S',
+    address: {
+      [ChainId.SONIC]: '0x6D9B4d31C66291c13F33AE1B2D8c1a5Be8a77c4f',
+    },
+    decimals: { [ChainId.SONIC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.SONIC]: LiquidityDex.Equalizer,
+    },
+    getLpUrl: {
+      [ChainId.SONIC]: 'https://equalizer.exchange/liquidity/0x6D9B4d31C66291c13F33AE1B2D8c1a5Be8a77c4f/add',
     },
   },
 }

@@ -108,6 +108,7 @@ export enum LiquidityDex {
   // ShadowExchangeV3 = 'ShadowExchangeV3',
   SwapX = 'SwapX', //V2
   SwapXAlgebraIntegral = 'SwapXAlgebraIntegral',
+  Equalizer = 'Equalizer',
 
   //BERACHAIN
   KodiakV2 = 'KodiakV2', //V2
@@ -780,6 +781,7 @@ export const dexFactories: Partial<
     // },
     [LiquidityDex.SwapX]: {
       factory: '0x05c1be79d3aC21Cc4B727eeD58C9B2fF757F5663',
+      router: '0xF5F7231073b3B41c04BA655e1a7438b1a7b29c27',
       protocol: Protocols.Solidly,
     },
     [LiquidityDex.SwapXAlgebraIntegral]: {
@@ -789,6 +791,11 @@ export const dexFactories: Partial<
     [LiquidityDex.Wagmi]: {
       factory: '0x56CFC796bC88C9c7e1b38C2b0aF9B7120B079aef',
       protocol: Protocols.V3,
+    },
+    [LiquidityDex.Equalizer]: {
+      factory: '0xDDD9845Ba0D8f38d3045f804f67A1a8B9A528FcC',
+      router: '0x7635cD591CFE965bE8beC60Da6eA69b6dcD27e4b',
+      protocol: Protocols.Solidly,
     },
   },
   [ChainId.MONAD_TESTNET]: {
@@ -960,4 +967,5 @@ export const dexToZapMapping: Record<LiquidityDex, Partial<Record<ChainId, ZapVe
   [LiquidityDex.TrebleAlgebraIntegral]: {},
   [LiquidityDex.KodiakV2]: {},
   [LiquidityDex.KodiakV3]: {},
+  [LiquidityDex.Equalizer]: {},
 }

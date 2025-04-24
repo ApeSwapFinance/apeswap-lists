@@ -1,13 +1,13 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1143
+// BNB Largest ID: 1144
 // Polygon Largest ID: 175
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2027
 // ETH Largest ID: 3042
 // Linea Largest ID: 6015
-// Base Largest ID: 8039
+// Base Largest ID: 8046
 // Lightlink Largest ID: 7003
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
@@ -56,7 +56,95 @@ const bills: BillsConfig[] = [
   //
   // Sonic
   //
-
+  {
+    index: 15002,
+    version: '2.1.0',
+    chainId: ChainId.SONIC,
+    contractAddress: {
+      [ChainId.SONIC]: '0xa6CD552f65a4d20F638693ac523A26F959f5CED0',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.moonS_Equalizer,
+    earnToken: tokens.moon,
+    billNnftAddress: {
+      [ChainId.SONIC]: '0xc765C358622cB346f236F8Bfffe53036e421bb4e',
+    },
+    inactive: false,
+    projectLink: 'https://www.moonbay.space/',
+    twitter: 'https://x.com/MoonBaySonic',
+    initTime: { [ChainId.SONIC]: 1745316614 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    fullDescription:
+      'MoonBay is a dynamic crypto project built on the Sonic Network, powered by its native $MOON token and a passionate community. Fusing meme culture with real-world utility, MoonBay spans across DeFi, NFTs, GameFi, and beyond. The project thrives on innovation and trend awareness, positioning itself as a forward-thinking ecosystem that delivers value, engagement, and entertainment. With a commitment to both fun and function, MoonBay aims to create a vibrant hub where users can explore the future of Web3. Its diverse offerings and energetic community make it a standout presence in the evolving crypto landscape.',
+    shortDescription:
+      'MoonBay is a crypto project on the Sonic Network with a strong community and the $MOON token at its core. Blending meme culture with real utility, it embraces DeFi, NFTs, GameFi, and more. Focused on trends and innovation, MoonBay offers value, entertainment, and growth, making it a vibrant hub in the crypto space.',
+    tags: ['DeFi'],
+    feeInPayout: 5,
+    warningCard: 'Heads Up: Buying this Bond may require a higher slippage.',
+  },
+  {
+    index: 15001,
+    version: '2.1.0',
+    chainId: ChainId.SONIC,
+    contractAddress: {
+      [ChainId.SONIC]: '0xC7C7084370b18da59a64dD23dC7AfD9642595BDA',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.x33,
+    billNnftAddress: {
+      [ChainId.SONIC]: '0xc765C358622cB346f236F8Bfffe53036e421bb4e',
+    },
+    inactive: false,
+    projectLink: 'https://www.shadow.so/',
+    twitter: 'https://x.com/ShadowonSonic',
+    initTime: { [ChainId.SONIC]: 1745316614 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    fullDescription:
+      "Shadow is a Sonic-native concentrated liquidity exchange designed to be the ultimate trading hub on Sonic. It empowers users to trade with confidence through minimal slippage and deep liquidity, while maximizing returns by targeting active liquidity ranges. Traders and liquidity providers can fine-tune their price ranges to capture optimal trading fees and earn additional rewards through vote incentives, rebases, and exit emissions—all seamlessly integrated into a single system. Shadow's dynamic fee structure adjusts algorithmically to market activity, offering customizable fee splits for each gauge and enabling creators to set their own fees, delivering a robust and flexible DeFi experience, powered by SHADOW and x33 tokens.",
+    shortDescription:
+      'Shadow is a Sonic-native concentrated liquidity exchange that offers deep liquidity, minimal slippage, and precise trading. Users can maximize returns by targeting active liquidity ranges and fine-tuning price bands. The platform rewards users with fees, vote incentives, and rebases, while its dynamic, customizable fee system adapts to market activity, powered by SHADOW and x33 tokens.',
+    tags: ['DEX'],
+    feeInPayout: 5,
+  },
+  {
+    index: 15000,
+    version: '2.1.0',
+    chainId: ChainId.SONIC,
+    contractAddress: {
+      [ChainId.SONIC]: '0xeDF145A02763008ef760Cd75143796A40120e792',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.s,
+    billNnftAddress: {
+      [ChainId.SONIC]: '0xc765C358622cB346f236F8Bfffe53036e421bb4e',
+    },
+    inactive: false,
+    projectLink: 'https://www.soniclabs.com/',
+    twitter: 'https://x.com/SonicLabs',
+    initTime: { [ChainId.SONIC]: 1745316614 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    fullDescription:
+      'Sonic is the highest-performing EVM Layer-1 network, delivering unmatched speed, scalability, and efficiency for digital assets. Capable of processing over 400,000 transactions per second with sub-second finality, Sonic enables up to 900 million ERC-20 transfers per day. Bridging seamlessly to Ethereum’s liquidity via the Sonic Gateway, it offers developers powerful infrastructure, fee monetization, and massive storage capacity. Users enjoy a swift, intuitive experience, while developers earn by building high-traffic dApps. Powered by the native S token—for fees, staking, validation, and governance—Sonic combines world-class performance and incentive models to fuel the next generation of DeFi and Web3 innovation.',
+    shortDescription:
+      "Sonic is the highest-performing EVM L1, combining speed, incentives, and world-class infrastructure, powering the next generation of DeFi applications. The chain provides 400,000 TPS and sub-second finality. The S token is Sonic's native token, used for paying transaction fees, staking, running validators, and participating in governance.",
+    tags: ['Blockchains'],
+    feeInPayout: 0,
+    minTier: LaunchBondTiers.Silver,
+  },
   //
   // Monad Testnet
   //
@@ -520,6 +608,34 @@ const bills: BillsConfig[] = [
   // BASE
   //
   {
+    index: 8046,
+    cmcId: 18787,
+    version: '2.1.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x54286E6584dc01f658F4B6fdBdd5E35553c26c12',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.eth,
+    earnToken: tokens.fula,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://fx.land/',
+    twitter: 'https://x.com/functionland',
+    initTime: { [ChainId.BASE]: 1744904089 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription: `Functionland is a Web3 project empowering users to truly own their data. It began with Fotos, a decentralized photo and video app, and expanded into building missing pieces of the Web3 stack. To support this, Functionland introduced $FULA—a chain-agnostic token that incentivizes storage and compute providers, ensuring data permanence and developer monetization.`,
+    fullDescription: `Functionland is a Web3-native project built on the foundational belief that individuals have an inalienable right to own their personal data. It began with the development of Fotos, a decentralized alternative to mainstream photo and video storage apps, designed to return ownership of media to users. However, in the process, the team discovered critical gaps in the Web3 infrastructure, particularly around decentralized storage, compute, and developer monetization. To address these challenges, Functionland introduced the $FULA token—a chain-agnostic utility token that powers its ecosystem. $FULA incentivizes individuals to contribute storage and computational resources, ensuring long-term access to data and enabling developers to build and monetize Web3 applications seamlessly.`,
+    feeInPayout: 5,
+  },
+  {
     index: 8045,
     cmcId: 32229,
     version: '2.1.0',
@@ -566,14 +682,14 @@ const bills: BillsConfig[] = [
     projectLink: 'https://web3music.org/',
     twitter: 'https://x.com/MusicProtocolX',
     initTime: { [ChainId.BASE]: 1743426325 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['RWA'],
     shortDescription: `Music Protocol is revolutionizing music IP management in the digital space. By leveraging blockchain, it redefines how music intellectual property is licensed and managed. The platform’s utility token, $RECORD, provides governance rights, access to exclusive content, and participation in tokenized music royalties, allowing holders to benefit from future earnings while engaging directly with artists.`,
     fullDescription: `Music Protocol is leading a new wave of innovation in the music industry. It is redefining the management and licensing of music intellectual property across the digital landscape. Created from an extensive three-year collaboration intersecting the legal, music business, and technology sectors, it is a transformational infrastructure intended to facilitate digital evolution in the music industry. At its core, Music Protocol is a blockchain-based solution for intricate IP management, with a modular architecture that empowers IP owners to manage rights in both digital and analogue formats. This system seamlessly integrates these formats, adapting to the industry's evolving needs. The platform’s utility token, $RECORD, provides governance rights, access to exclusive content, and participation in tokenized music royalties, allowing holders to benefit from future earnings while engaging directly with artists.`,
-    feeInPayout: 2,
+    feeInPayout: 5,
   },
   {
     index: 8043,
@@ -595,7 +711,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/metahorseunity',
     audit: 'https://skynet.certik.com/projects/metahorse-unity',
     initTime: { [ChainId.BASE]: 1743426325 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -631,7 +747,7 @@ const bills: BillsConfig[] = [
     tags: ['AI'],
     shortDescription: `Bit Rivals transforms gaming with an AI-powered platform that integrates AAA games and blockchain, letting players earn real-world rewards and crypto just by playing. It combines play-to-win and play-to-earn, allowing gamers to earn through tournaments, in-game achievements, and NFT minting. The Rival Rewards system lets players redeem points for $RIVAL tokens, in-game gear, and boosts, with staking options for extra rewards.`,
     fullDescription: `Bit Rivals revolutionizes gaming with an AI-powered platform that seamlessly integrates AAA games and blockchain technology, allowing players to earn real-world rewards and crypto simply by playing their favorite titles. By merging the best aspects of play-to-win and play-to-earn, Bit Rivals gives power back to the players, offering multiple ways to earn—whether through casual gameplay, competitive tournaments, or by minting NFTs and immortalizing their Rival Hero in the metaverse. The Rival Rewards system allows users to accumulate points through gameplay and tournament participation, redeemable for $RIVAL tokens, in-game gear, and exclusive boosts. Players can also stake $RIVAL tokens in the staking portal to unlock additional rewards, fostering long-term engagement. Designed with input from experienced blockchain engineers and economists, the tokenomics ensure a fair distribution model that supports sustainability and rewards dedicated players while driving the platform’s growth.`,
-    feeInPayout: 2,
+    feeInPayout: 5,
   },
   {
     index: 8041,
@@ -659,7 +775,7 @@ const bills: BillsConfig[] = [
     tags: ['AI'],
     shortDescription: `Degen Distillery is transforming the $800B alcohol market by blending AI innovation with memetic IP. Powered by the $DRINK token on BASE, it redefines "degen" as bold risk-takers and creatives who thrive on individuality. With community at its core, the project is co-owned, co-created, and co-run, leveraging Web3 to foster connection and prosperity. When one of us wins, all of us win.`,
     fullDescription: `Degen Distillery is revolutionizing the $800 billion alcohol market by merging AI innovation with memetic intellectual property. Built on the BASE blockchain, with its $DRINK token at the core, the project redefines what it means to be a "degen" — not a reckless gambler, but a bold risk-taker, free thinker, and creator who embraces individuality while rejecting convention. Community is the beating heart of Degen Distillery, embodying a co-owned, co-created, and co-run ethos powered by Web3 technology. By harnessing collective power, Degen Distillery is crafting a new playground for experiences and connections, blending creativity and collaboration to bring prosperity and innovation to the mainstream. After all, when one of us wins, all of us win.`,
-    feeInPayout: 2,
+    feeInPayout: 5,
   },
   {
     index: 8040,
@@ -687,7 +803,7 @@ const bills: BillsConfig[] = [
     tags: ['AI'],
     shortDescription: `Sapiens is a data-driven LLM and Telegram bot designed to enhance business development in the Web3 space by helping users identify and connect with the right people efficiently. Powered by the SPN token economy, it rewards users for contributing high-quality, validated data, ensuring accurate and up-to-date insights. With a reputation-based system, Sapiens fosters a dynamic, community-driven ecosystem for smarter sales intelligence.`,
     fullDescription: `Sapiens is a data-driven LLM and Telegram bot designed to revolutionize business development in the Web3 space by enabling sales teams to identify and connect with the right people faster and smarter. Powered by the SPN token economy, it incentivizes users to contribute high-quality, validated data, ensuring accurate, up-to-date insights for lead generation. By addressing key challenges in sales intelligence—such as data aggregation, accuracy, and scalability—Sapiens streamlines outreach and empowers teams with intelligent lead management. Its advanced AI capabilities analyze and validate data in real time, helping businesses make informed decisions and optimize their networking strategies. With a community-driven approach, Sapiens fosters sustained platform growth through SPN token rewards and a reputation-based system, motivating users to enhance the quality of business intelligence. By integrating AI, tokenization, and user-driven data validation, Sapiens creates a dynamic, self-improving ecosystem that transforms Web3 networking and sales into a more efficient and reliable process.`,
-    feeInPayout: 2,
+    feeInPayout: 5,
   },
   {
     index: 8039,
@@ -1969,7 +2085,7 @@ const bills: BillsConfig[] = [
     tags: ['Meme', 'Community'],
     shortDescription: ` Linpuss revolutionizes trading on Linea by eliminating distractions and making the experience exciting and effortless. Represented by a blindfold, it empowers users to focus on sniping tokens and navigating the market with precision. More than a memecoin, Linpuss combines gamification with powerful tools to identify top opportunities. Backed by the LPUSS token, it offers early access to Linea’s explosive growth and a game-changing ecosystem.`,
     fullDescription: `Linpuss introduces an innovative approach to trading on Linea by combining cutting-edge functionality with a fun, gamified experience. With its signature blindfold, Linpuss symbolizes the elimination of distractions, empowering users to focus on sniping tokens and seizing the best opportunities in Linea's dynamic market. More than just a memecoin, Linpuss provides traders with an intuitive and thrilling tool that merges the efficiency of a trading bot with the excitement of a game. As Linea prepares for exponential growth, Linpuss positions itself as a gateway to unlocking early access to a revolutionary ecosystem, offering substantial upside potential. Backed by the LPUSS token, Linpuss is on a mission to redefine blockchain trading—making it seamless, engaging, and accessible for all. Whether you're a seasoned trader or a newcomer, Linpuss transforms trading into an adventure, giving you the tools and focus needed to succeed in the evolving Linea market.`,
-    feeInPayout: 2,
+    feeInPayout: 5,
   },
   {
     index: 6017,
@@ -1989,7 +2105,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.hotdog.pet/',
     twitter: 'https://x.com/HotdogLinea',
     initTime: { [ChainId.LINEA]: 1742922000 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -2017,7 +2133,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/LynexFi',
     audit: 'https://www.cyberscope.io/audits/coin-lynex',
     initTime: { [ChainId.LINEA]: 1742922000 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -2445,6 +2561,36 @@ const bills: BillsConfig[] = [
   // BNB chain
   //
   {
+    index: 1144,
+    cmcId: 34498,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0xb78E44222c548Be9970792a8590C493068330e3A',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.wbnb,
+    earnToken: tokens.ithaca,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://www.ithacaprotocol.io/',
+    twitter: 'https://x.com/IthacaProtocol',
+    initTime: { [ChainId.BSC]: 1745408455 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    fullDescription:
+      'Ithaca is building permissionless cross-chain infrastructure for instant deployment of composable options, structured products, and lending markets. With an off-chain EVM-compatible matching engine, Axelar-powered bridging, and a smart contract settlement layer, Ithaca enables more efficient financial markets. The ITHACA token powers governance and ecosystem rewards.',
+    shortDescription:
+      'Ithaca is building permissionless cross-chain infrastructure designed to enable optimal risk sharing across time and event horizons. Its architecture supports instant deployment of liquidity self-enhancing options, structured products, and lending markets on any underlying asset. The protocol combines an off-chain auction-based, EVM-compatible matching engine with smart contracts that enforce post-trade settlement and collateral custody. Bridging is powered by Axelar, enabling multi-chain functionality into Arbitrum. The Ithaca App serves as a user-friendly interface for placing trades, managing collateral, and executing strategies from simple payoffs to complex derivatives. Governed by the ITHACA token, which can be staked for rewards, the ecosystem aligns stakeholder incentives through decentralized governance. The token launch aims to bootstrap liquidity, reward early adopters, and support ecosystem growth.',
+    tags: ['DeFi'],
+    feeInPayout: 5,
+  },
+  {
     index: 1143,
     cmcId: 29157,
     version: '2.1.0',
@@ -2510,7 +2656,7 @@ const bills: BillsConfig[] = [
     shortDescription:
       'Outer Ring MMO is a free-to-play Sci-Fi action RPG where players explore galaxies, build assets, and shape their own adventures. Set in a vast metaverse, it features a player-driven economy powered by the Galactic Quadrant (GQ) token, which rewards gameplay and enables governance. Forge your legend in a universe full of endless possibilities.',
     tags: ['GAMEFI'],
-    feeInPayout: 2,
+    feeInPayout: 5,
   },
   {
     index: 1141,
@@ -2539,7 +2685,7 @@ const bills: BillsConfig[] = [
     shortDescription:
       'Outer Ring MMO is a free-to-play Sci-Fi action RPG where players explore galaxies, build assets, and shape their own adventures. Set in a vast metaverse, it features a player-driven economy powered by the Galactic Quadrant (GQ) token, which rewards gameplay and enables governance. Forge your legend in a universe full of endless possibilities.',
     tags: ['GAMEFI'],
-    feeInPayout: 2,
+    feeInPayout: 5,
   },
   {
     index: 1140,
@@ -2556,7 +2702,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/PlayEldarune',
     audit: 'https://hacken.io/audits/eldarune/',
     initTime: { [ChainId.BSC]: 1744046365 },
-    soldOut: false,
+    soldOut: true,
     billArt: { collection: BillArtCollection.ApeBond_Collection1 },
     shortDescription:
       "Eldarune is a game studio creating interoperable, medieval-themed blockchain games where NFTs can be used across multiple titles. The ELDA token serves as the studio's native currency and unlocks diverse gaming experiences. Inspired by classics like Warcraft and Dota, Eldarune is transforming the gaming landscape by offering seamless, interconnected gameplay across its ecosystem.",
@@ -2592,7 +2738,7 @@ const bills: BillsConfig[] = [
       'LoveBit (LB) is a community-driven cryptocurrency that blends blockchain innovation with ESG principles. Launched in Q1 2024, it empowers users to fund social and environmental initiatives through a transparent governance model. With LoveBit4Good at its core, LoveBit drives sustainable impact while staying true to Satoshi Nakamoto’s vision. LB is a governance token that empowers the community to select and fund impactful ESG initiatives.',
     fullDescription:
       'LoveBit is a groundbreaking cryptocurrency project launched in the first quarter of 2024 that merges blockchain innovation with Environmental, Social, and Governance (ESG) principles. More than a token, LoveBit is a movement driven by the LoveBit4Good initiative, empowering a decentralized, transparent, and community-led ecosystem where environmental activists and social change leaders unite. Inspired by Satoshi Nakamoto’s vision of decentralization and financial fairness, LoveBit evolves that legacy by integrating ESG values into the crypto space. Through strategic exchange listings, partnerships with NGOs and influencers, and a governance model that allows the community to vote on ESG initiatives, LoveBit ensures that sustainability, ethical finance, and financial growth go hand in hand—ushering in a new era of impact-driven blockchain adoption.',
-    feeInPayout: 2,
+    feeInPayout: 5,
     warningCard: `This token is currently only tradable on the following CEXs: <a href="https://www.mexc.com/exchange/LB_USDT/" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a> and <a href="https://www.lbank.com/trade/lb_usdt/" target="_blank" rel="noopener noreferrer" style="color: #6099c5">LBank</a>.`,
   },
   {
@@ -2623,7 +2769,7 @@ const bills: BillsConfig[] = [
       'Shieldeum is a Web3 cybersecurity platform safeguarding 440 million crypto users with its AI-powered Decentralized Physical Infrastructure Network (DePIN). It delivers advanced services like data encryption, threat detection, and high-performance computing. Powered by the $SDM token, Shieldeum offers easy-to-use solutions, node participation, and DAO governance, enabling users to shape its future.',
     fullDescription:
       "Shieldeum is a Web3 cybersecurity platform designed to protect 440 million crypto users through an AI-powered Decentralized Physical Infrastructure Network (DePIN). At its core, Shieldeum operates datacenter servers that generate computing power to support advanced services, including application hosting, data encryption, threat detection, and high-performance computing. Tailored for Web3, blockchain, and crypto use cases, Shieldeum delivers user-friendly AI-driven cybersecurity solutions. Its ecosystem allows anyone to participate by powering a Shieldeum node through pools, similar to Bitcoin mining pools. The $SDM token powers the ecosystem, offering governance through a DAO where holders can propose, vote, and allocate funds, while also unlocking premium AI services and gaining influence in shaping the platform's future.",
-    feeInPayout: 2,
+    feeInPayout: 5,
   },
   {
     index: 1137,
@@ -2654,7 +2800,7 @@ const bills: BillsConfig[] = [
       'QAAG AI is a cutting-edge WEB2/WEB3 solution built on Binance Smart Chain, revolutionizing customer relationship management. It offers AI-driven tools for appointment scheduling, personalized customer service, call center optimization, and virtual P.A. support. Tailored for businesses and healthcare. Build on the Binance Smart Chain, the ecosystem is powered by the QAAGAI token, enabling transactions, incentivizing engagement, and fostering governance participation.',
     fullDescription:
       'QAAG AI is a transformative WEB2/WEB3 solution designed to revolutionize customer relationship management for industries, businesses, and individuals. Powered by advanced AI and built on the Binance Smart Chain, QAAG AI provides secure, immutable, and tamper-proof systems for seamless operations. Its comprehensive offerings include 24/7 appointment and order management to optimize scheduling and reduce no-shows, intelligent customer service tools for personalized and efficient support, AI-enhanced call center management for real-time analytics and smart routing, and a virtual P.A./receptionist to handle calls, meetings, and events. Tailored for healthcare providers, businesses, and call centers, QAAG AI adapts to diverse needs, delivering intuitive, scalable, and efficient solutions. The ecosystem is powered by the QAAGAI token, enabling transactions, incentivizing engagement, and fostering governance participation.',
-    feeInPayout: 2,
+    feeInPayout: 5,
   },
   {
     index: 1136,
@@ -2714,7 +2860,7 @@ const bills: BillsConfig[] = [
       'Boudicea is a play-to-earn NFT-based game where players become tribal warriors under Queen Boudicea to defend the Iceni tribe from Roman invasions. Build encampments, manage NFT-owned lands, trade items for cryptocurrency, and shape your legacy in a world blending strategy and ancient lore. At the core of the game is the GLD token, which serves as the primary utility token alongside the Clan Leader tokens and the Boudicea DAO token, forming the backbone of a vibrant, lasting universe.',
     fullDescription:
       "Boudicea is a play-to-earn NFT-based game that invites players to step into the role of a tribal warrior under the legendary Queen Boudicea, tasked with defending the Iceni tribe against Roman invasions. Players can build and protect their encampments, manage NFT-owned lands, levy taxes, and trade in-game items for cryptocurrency, blending strategic gameplay with ancient lore. Featuring smart NFTs and on-chain gamification, Boudicea offers an immersive experience that rewards players while promoting the enduring value of its ecosystem. At the core of the game is the GLD token, which serves as the primary utility token alongside the Clan Leader tokens and the Boudicea DAO token, forming the backbone of a vibrant, lasting universe. With a vision to create a game of legacy, Boudicea intertwines innovation and history, offering a robust platform where players can shape their legend while securing the long-term value of the game's integral elements.",
-    feeInPayout: 2,
+    feeInPayout: 5,
   },
   {
     index: 1135,
@@ -2738,7 +2884,7 @@ const bills: BillsConfig[] = [
     fullDescription:
       "Clashub is an innovative NFT card game that integrates a Play2Earn system into its token economy for both existing and upcoming NFT collections. Through its unique algorithm, Clashub converts NFTs owned by players into playing cards, provided they belong to an approved collection. These cards are then used by players to battle opponents and earn CLASH Tokens. A standout feature of Clashub is its ability to bring together NFTs from different collections on a single gaming platform, allowing for a seamless and diverse gameplay experience. Furthermore, Clashub supports NFTs from various networks, enabling users to utilize their NFTs as playing cards, regardless of the network. The CLASH Token is central to Clashub's ecosystem, facilitating investor processes and the integration of NFT collections. It also functions as the in-game currency, used for marketplace purchases and game rewards. To maintain a stable price structure, Clashub has implemented an in-game loop that balances revenue and expenses, ensuring a sustainable economy.",
     tags: ['GAMEFI'],
-    feeInPayout: 2,
+    feeInPayout: 5,
   },
   {
     index: 1134,
@@ -2768,7 +2914,7 @@ const bills: BillsConfig[] = [
       'BNB Agents serve as a hub for AI Agents on the BNB Chain. Powered by $BNBAI, a unified currency for all AI, and build on the operating system designed for inclusive intelligence, this platform forms the foundation of the Agentive Economy. It enables the creation and operation of dynamic AI Agents tailored to diverse use cases. With $BNBAI at its core, BNB Agents seamlessly integrates AI capabilities with blockchain, redefining how intelligence and autonomy function within decentralized ecosystems.',
     fullDescription:
       'BNB Agents OS is a pioneering AI-driven ecosystem on BNB Chain, designed to empower users with the ability to create, deploy, and monetize autonomous AI agents effortlessly. As the first (A)ICO platform, it provides a seamless interface for token generation using AI-powered frameworks, integrating natively with $BNBAI to ensure a unified Web3 experience. With just three clicks, users can launch generative AI agents tailored to custom data, transforming attention into programmable on-chain assets. Governed by $BNBAI, the ecosystem enables staking, Guild participation, and decentralized collaboration. The lead Guild, B(AI)NANCE, guided by an AI Agent modeled after CZ, exemplifies collective intelligence in action. By merging AI and blockchain, BNB Agents OS pioneers an intelligent economy where AI Agent tokens drive innovation, liquidity, and programmable utility across the BNB Chain.',
-    feeInPayout: 2,
+    feeInPayout: 5,
   },
   {
     index: 1133,
@@ -2798,7 +2944,7 @@ const bills: BillsConfig[] = [
       'Ceranos Finance is transforming DeFi by combining hedge fund benefits with blockchain transparency. Through its hedge fund DAO, investors gain access to expert-managed trading strategies while ensuring decentralization. Capital is deployed into advanced trading activities, rewarding stakers. The CRS token grants access to trading tools and rewards, making institutional-grade strategies available to all.',
     fullDescription:
       'Ceranos Finance is bridging the gap between traditional hedge funds and decentralized finance, bringing institutional-grade investment strategies to the crypto space. By introducing a hedge fund DAO, Ceranos enables investors to benefit from expert-managed trading while maintaining full transparency and decentralization. The capital raised is deployed into sophisticated trading strategies, with profits distributed to stakers who actively participate in the ecosystem. At the heart of this financial revolution is the CRS token, which grants users access to an advanced trading platform and a share of rewards. Through a community-driven approach, Ceranos fosters trust, integrity, and innovation, making high-level financial tools and opportunities accessible to all. With a vision to reshape crypto investing, Ceranos empowers users to take control of their financial future while benefiting from cutting-edge strategies traditionally reserved for institutional investors.',
-    feeInPayout: 2,
+    feeInPayout: 5,
   },
   {
     index: 1132,
@@ -2883,7 +3029,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/credefi_finance/',
     audit: 'https://www.certik.com/projects/credefi?utm_source=CMC&utm_campaign=AuditByCertiKLink',
     initTime: { [ChainId.BSC]: 1742922000 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -2914,7 +3060,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/edu3labs',
     audit: 'https://nfedocs.edu3labs.com/audit',
     initTime: { [ChainId.BSC]: 1742922000 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -2985,7 +3131,7 @@ const bills: BillsConfig[] = [
     fullDescription:
       'Poollotto is a leading technology company specializing in blockchain-powered lottery solutions, utilizing the Poollotto Token (PLT) to revolutionize the industry. Launched to create a transparent and fair token economy, Poollotto leverages blockchain technology to ensure secure, tamper-proof transactions, and records all lottery activities on a public ledger, eliminating doubts of manipulation. By automating processes through smart contracts, Poollotto reduces administrative costs and improves efficiency, while allowing operators to customize their platforms for a unique experience. The PLT token enables global participation in decentralized lottery pools, enhancing inclusivity and ensuring automated, secure payments, ultimately transforming the lottery industry with fairness and transparency at its core. <a href="https://metalottery.win/" target="_blank" rel="noopener noreferrer" style="color: #38A611">Purchase $100 or more worth of $PLT Bonds to earn 2 free lotto game ticket NFTs!</a>',
     tags: ['GAMEFI'],
-    feeInPayout: 2,
+    feeInPayout: 5,
   },
   {
     index: 1126,
@@ -9207,7 +9353,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'Film.io is a decentralized filmmaking ecosystem that puts Hollywood decision-making into the hands of creators and fans through blockchain technology. Governed by a filmmaking industry DAO, it champions inclusion, diversity, and transparency. With FAN and FILM Tokens, Film.io empowers collaboration to validate, fund, and distribute content, replacing centralized control with creative freedom.',
     fullDescription: `Film.io is the world's most powerful decentralized filmmaking ecosystem, revolutionizing Hollywood by transferring decision-making to creators and fans through blockchain technology. Governed by the first-ever filmmaking industry DAO, Film.io champions inclusion, equality, and diversity in global entertainment. It empowers creators and fans to collaboratively validate, fund, and distribute content in a transparent, inclusive environment, replacing traditional centralized power structures. Utilizing a dual-token model, Film.io offers FAN Tokens for governance and platform participation, while FILM Tokens support crowdfunding, DeFi loans, and NFT campaigns. Together, these tokens fuel collaboration between creators, fans, and investors, liberating the entertainment industry and fostering a new era of creative freedom.`,
     tags: ['Entertainment'],
-    feeInPayout: 2,
+    feeInPayout: 5,
   },
   {
     index: 178,
@@ -9235,7 +9381,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'YayPal transforms gaming by blending fun with an active lifestyle. With $ACTIVE, gamers unlock shared achievements, leaderboards, and personalized NFTs across multiple games. The AI Motivation Engine boosts engagement with fitness challenges and rewards. From conquering virtual realms to real-world discounts and location-based offers, $ACTIVE bridges gaming and real-life rewards seamlessly.',
     fullDescription: `YayPal redefines gaming with an ecosystem that merges fun, fitness, and rewards. At its core, $ACTIVE powers shared points, leaderboards, and personalized NFTs across games. Gamers switch between casual and Move 2 Play modes, earning rewards while staying active. Walkopoly incentivizes physical activity with tokenized property trading, while the AI Motivation Engine offers personalized challenges. $ACTIVE also unlocks discounts, location-based offers, and a dynamic NFT marketplace, bridging gaming and real-life value.`,
     tags: ['GAMEFI'],
-    feeInPayout: 2,
+    feeInPayout: 5,
   },
   {
     index: 177,
@@ -9266,7 +9412,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'Medieval Empires is a multi-player online strategy game set in 13th century Turkey. Players build towns, trade, battle, and form alliances in a passive PvE environment while completing daily missions and tasks to progress. Powered by Polygon blockchain and Immutable Passport technology, it offers low gas fees, security, and cross-platform play on PC, MAC, and soon mobile. The MEE token unlocks in-game benefits like VIP status and land access.',
     fullDescription: `Medieval Empires is a multi-player online strategy game set in 13th century Turkey, where players build towns, trade, fight, and form alliances within a passive PvE environment. The game immerses players in rich historical settings, featuring daily missions, general tasks, and story missions that guide progression and the expansion of the world map through continuous battles. Built on the Polygon blockchain and powered by Immutable Passport and zkEVM technology, Medieval Empires offers a comprehensive developer ecosystem, low gas fees, enhanced security, and exceptional speed, all while being eco-friendly. The game is currently available on PC (Windows) and MAC (OSX), with a mobile version for iOS and Android on the horizon, ensuring seamless cross-platform interoperability. At the heart of the game is the MEE token, which provides in-game advantages like VIP status, land access, and daily rewards for players who connect their wallets and stake the required amount. The team behind the game brings expertise in both game development and blockchain technology, ensuring a well-rounded, engaging experience.`,
     tags: ['GAMEFI'],
-    feeInPayout: 2,
+    feeInPayout: 5,
   },
   {
     index: 176,
@@ -9295,7 +9441,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'Trakx is a global fintech redefining crypto investments with its Crypto Tradable Indices (CTIs), offering simple, one-click portfolio diversification through themed baskets of top digital assets. Registered with French AMF/ACPR as a VASP, Trakx ensures regulatory compliance. Powered by the TRKX token, users enjoy reduced fees, governance participation, and staking rewards, making crypto investing easy and accessible.',
     fullDescription: `Trakx is a global fintech innovator revolutionizing crypto investments through its Crypto Tradable Indices (CTIs). These proprietary baskets of the largest and most liquid digital assets offer a seamless, one-click solution for diversifying portfolios in the fast-evolving crypto market. With low fees and themed, easy-to-understand investment options, Trakx simplifies complex strategies for all investors. Registered with French AMF/ACPR as a Virtual Asset Service Provider (VASP), Trakx adheres to the highest international regulatory standards. The TRKX token powers the ecosystem, reducing trading fees and unlocking exclusive benefits such as governance participation and staking rewards. Trakx makes advanced investing straightforward, setting a new benchmark in crypto index trading.`,
     tags: ['DeFi'],
-    feeInPayout: 2,
+    feeInPayout: 5,
   },
   {
     index: 175,
@@ -9346,7 +9492,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/nasdex_xyz',
     audit: 'https://hacken.io/audits/nasdex',
     initTime: { [ChainId.MATIC]: 1740759360 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
@@ -13916,7 +14062,7 @@ With the lending products set to go live in February, the project is poised to a
     shortDescription:
       'Singularity Finance is an EVM-compatible Layer-2 blockchain that brings the AI economy onchain through a compliant RWA tokenization framework, enabling the tokenization of AI compute and the monetization of AI agents. Its native utility token, SFI, powers the network by facilitating economic, operational, and governance functions, ensuring a secure, efficient, and decentralized ecosystem for AI-driven innovation.',
     fullDescription: `Singularity Finance is an EVM-compatible Layer-2 blockchain that brings the AI economy onchain by providing a compliant framework for the tokenization of AI compute and the monetization of AI agents. The platform addresses challenges such as liquidity and accessibility by converting core elements of the AI value chain—from hardware to applications—into tokenized, yield-bearing assets that integrate seamlessly with the DeFi ecosystem. By enabling new asset classes like tokenized AI compute, Singularity Finance offers unparalleled access to the burgeoning AI market, allowing both individuals and businesses to actively participate in the growth of AI technologies. Central to this ecosystem is the SFI token, which underpins the network’s economic, operational, and governance functions while fostering a secure, efficient, and community-driven digital environment.`,
-    feeInPayout: 2,
+    feeInPayout: 5,
   },
   {
     index: 3044,
