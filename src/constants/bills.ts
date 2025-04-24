@@ -652,7 +652,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://web3music.org/',
     twitter: 'https://x.com/MusicProtocolX',
     initTime: { [ChainId.BASE]: 1743426325 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
