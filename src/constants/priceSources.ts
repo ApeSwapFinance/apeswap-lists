@@ -98,6 +98,11 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       type: 'token',
       tokenAddress: '0xACf80A4e55F5f28e1e7d261a221cA495DB5bcbB3', //XAVI
     },
+    '0x00096697DC24bd10423690126D91546A20Ccb3F0': {
+      source: PriceSource.Coingecko,
+      id: 'veritas',
+      tokenAddress: '0x00096697DC24bd10423690126D91546A20Ccb3F0', //VPT
+    },
   },
   [ChainId.LINEA]: {
     '0xcc22F6AA610D1b2a0e89EF228079cB3e1831b1D1': {
