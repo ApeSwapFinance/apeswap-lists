@@ -6180,6 +6180,21 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 'https://pancakeswap.finance/v2/add/BNB/0x3E51783FEf3Cb3e807cff7Fcb660d3e51c6127F6',
     },
   },
+  scptWbnb_PCS: {
+    symbol: 'SCPT-BNB',
+    address: {
+      [ChainId.BSC]: '0xCd730b45b703AA4f351ADf0f98267A37FD5054eB',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl: {
+      [ChainId.BSC]: 'https://pancakeswap.finance/v2/add/BNB/0x0669538FcdeF9A73CD37938eBa8c79E652BB93AA',
+    },
+  },
   stlosTlos: {
     symbol: 'STLOS-TLOS',
     address: {
