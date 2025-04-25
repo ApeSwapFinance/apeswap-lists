@@ -2561,6 +2561,37 @@ const bills: BillsConfig[] = [
   // BNB chain
   //
   {
+    index: 1147,
+    version: '2.1.0',
+    cmcId: 12621,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x278c35E31159281B67DD18Dfc4eEcfB9e95fd41A',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.scptWbnb_PCS,
+    earnToken: tokens.scpt,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://token.script.tv/',
+    twitter: 'https://x.com/script_network',
+    audit: 'https://skynet.certik.com/projects/script-network?utm_source=CMC&utm_campaign=AuditByCertiKLink',
+    initTime: { [ChainId.BSC]: 1745566483 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Infra'],
+    shortDescription:
+      'Script Network is an open-source Web3 live TV platform, protocol, and video storage network focused on delivering a unique, industry-defining experience using blockchain technology.',
+    fullDescription:
+      'Script Network (aka Script.TV) is an open-source Web3 live TV platform, protocol, and video storage network focused on delivering a unique, industry-defining experience using blockchain technology. Say goodbye to passive viewing: Script Network pioneers a new era of interactive TV platforms that enable users to connect and engage with fellow viewers in real-time. From participating in content clubs to seizing investment opportunities through NFTs, Script Network empowers users to shape their viewing experience while earning rewards. As a layer-one video protocol that seeks to revolutionize video streaming and create new opportunities for content creators, Script Network houses a range of products, including Script TV, Script Marketplace, Script Enterprise, Script Blockchain, and sADs.',
+    feeInPayout: 5,
+  },
+  {
     index: 1146,
     version: '2.1.0',
     cmcId: 12621,
