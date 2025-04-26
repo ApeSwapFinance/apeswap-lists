@@ -1,7 +1,7 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1144
+// BNB Largest ID: 1147
 // Polygon Largest ID: 175
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2027
@@ -2560,6 +2560,107 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1147,
+    version: '2.1.0',
+    cmcId: 12621,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x278c35E31159281B67DD18Dfc4eEcfB9e95fd41A',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.scptWbnb_PCS,
+    earnToken: tokens.scpt,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://token.script.tv/',
+    twitter: 'https://x.com/script_network',
+    audit: 'https://skynet.certik.com/projects/script-network?utm_source=CMC&utm_campaign=AuditByCertiKLink',
+    initTime: { [ChainId.BSC]: 1745566483 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Infra'],
+    shortDescription:
+      'Script Network is an open-source Web3 live TV platform, protocol, and video storage network focused on delivering a unique, industry-defining experience using blockchain technology.',
+    fullDescription:
+      'Script Network (aka Script.TV) is an open-source Web3 live TV platform, protocol, and video storage network focused on delivering a unique, industry-defining experience using blockchain technology. Say goodbye to passive viewing: Script Network pioneers a new era of interactive TV platforms that enable users to connect and engage with fellow viewers in real-time. From participating in content clubs to seizing investment opportunities through NFTs, Script Network empowers users to shape their viewing experience while earning rewards. As a layer-one video protocol that seeks to revolutionize video streaming and create new opportunities for content creators, Script Network houses a range of products, including Script TV, Script Marketplace, Script Enterprise, Script Blockchain, and sADs.',
+    feeInPayout: 5,
+  },
+  {
+    index: 1146,
+    version: '2.1.0',
+    cmcId: 12621,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x5aeb9f8e8b132B9b74c74F8a20a75F29e4E3bA78',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.scpt,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://token.script.tv/',
+    twitter: 'https://x.com/script_network',
+    audit: 'https://skynet.certik.com/projects/script-network?utm_source=CMC&utm_campaign=AuditByCertiKLink',
+    initTime: { [ChainId.BSC]: 1745566483 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Infra'],
+    shortDescription:
+      'Script Network is an open-source Web3 live TV platform, protocol, and video storage network focused on delivering a unique, industry-defining experience using blockchain technology.',
+    fullDescription:
+      'Script Network (aka Script.TV) is an open-source Web3 live TV platform, protocol, and video storage network focused on delivering a unique, industry-defining experience using blockchain technology. Say goodbye to passive viewing: Script Network pioneers a new era of interactive TV platforms that enable users to connect and engage with fellow viewers in real-time. From participating in content clubs to seizing investment opportunities through NFTs, Script Network empowers users to shape their viewing experience while earning rewards. As a layer-one video protocol that seeks to revolutionize video streaming and create new opportunities for content creators, Script Network houses a range of products, including Script TV, Script Marketplace, Script Enterprise, Script Blockchain, and sADs.',
+    feeInPayout: 5,
+  },
+  {
+    index: 1145,
+    cmcId: 29157,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x518D4b2A5600FC2257b13C3A96F786a8F29E9D90',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.abond,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://ape.bond/',
+    twitter: 'https://twitter.com/apebond',
+    audit: 'https://paladinsec.co/projects/apebond/',
+    initTime: { [ChainId.BSC]: 1745566483 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    shortDescription:
+      'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
+    fullDescription:
+      'ApeBond is building a sustainable DeFi future through its innovative Bonds products and strategic partnerships. Known for its Crowdsource OTC solution and treasury diversification expertise, ApeBond has launched Bonds with over 140 partners, sold 38,000+ Bonds for a total of $14,000,000 USD, and achieved a top 10 Dapp status by daily active users (DAU) according to CoinMarketCap. The ABOND token ties users with the platform by unlocking special Bonds, new earning opportunities, and more utilities coming up in the pipeline.',
+    tags: ['Bonding'],
+    partnersURLS: [
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/Seedify_fbt392.svg',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613244/ORBS_anzm60.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/quickLogo_2_1_g95ynz.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/aitech_logo_100_real_no_fake_bjskiq.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
+    ],
+    feeInPayout: 0,
+  },
   {
     index: 1144,
     cmcId: 34498,
