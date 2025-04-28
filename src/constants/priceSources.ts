@@ -142,6 +142,13 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       tokenAddress: '0x69011706b3f6C6eaeD7D2Bc13801558B4fd94CBF', //WINJ
     },
   },
+  [ChainId.KATANA_TESTNET]: {
+    '0x17B8Ee96E3bcB3b04b3e8334de4524520C51caB4': {
+      source: PriceSource.Coingecko,
+      id: 'ethereum',
+      tokenAddress: '0x17B8Ee96E3bcB3b04b3e8334de4524520C51caB4', //WETH
+    },
+  },
 }
 
 export default priceSources

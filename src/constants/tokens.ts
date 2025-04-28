@@ -1233,6 +1233,7 @@ const tokens: Record<string, Token> = {
       [ChainId.SONIC]: '0x50c42dEAcD8Fc9773493ED674b675bE577f2634b',
       [ChainId.MONAD_TESTNET]: '0xB5a30b0FDc5EA94A52fDc42e3E9760Cb8449Fb37',
       [ChainId.BERACHAIN]: '0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590',
+      [ChainId.KATANA_TESTNET]: '0x17B8Ee96E3bcB3b04b3e8334de4524520C51caB4',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -1250,6 +1251,7 @@ const tokens: Record<string, Token> = {
       [ChainId.SONIC]: 18,
       [ChainId.MONAD_TESTNET]: 18,
       [ChainId.BERACHAIN]: 18,
+      [ChainId.KATANA_TESTNET]: 18,
     },
     liquidityDex: {
       [ChainId.MAINNET]: LiquidityDex.UniswapV3,
@@ -1261,6 +1263,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BLAST]: LiquidityDex.ThrusterV3,
       [ChainId.MONAD_TESTNET]: LiquidityDex.PancakeSwapV2,
       [ChainId.BERACHAIN]: LiquidityDex.KodiakV3,
+      [ChainId.KATANA_TESTNET]: LiquidityDex.External,
     },
     active: true,
   },
