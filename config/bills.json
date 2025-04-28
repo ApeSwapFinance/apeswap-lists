@@ -1659,6 +1659,65 @@
     "fullDescription": "XAVI is an AI-driven data oracle designed to revolutionize trading and decision-making by refining fragmented real-time data into actionable intelligence. Instead of drowning in endless sources like X, KOLscan, Dexscreener, and TradingView, users can leverage XAVI to extract key insights in minutes. Whether tracking influential KOLs, identifying trending narratives, or mindshare, XAVI transforms raw data into strategic decisions. By cutting through the noise, it empowers traders, investors, and degens to stay ahead of market trends with real-time precision. With the launch of XAVI v1.4, token-gated features will provide exclusive benefits for holders of 100k-500k $XAVI, granting access to advanced insights, premium tools, and eligibility for airdrops from AI Agents powered by Ringfence. As the need for intelligent data processing grows, XAVI stands at the forefront, turning data into decisions."
   },
   {
+    "index": 8035,
+    "version": "2.1.0",
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0x7933424992FF4F73050ba96E3cCbFC7296853d61"
+    },
+    "billType": "liquidity",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "UP-ETH",
+      "address": {
+        "8453": "0xF349Fa49651d5ae67771B61840c4CCC7a2565764"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "active": true,
+      "lpToken": true,
+      "liquidityDex": {
+        "8453": "UniswapV3"
+      },
+      "liquidityWrapper": 1,
+      "ichiUnderlyingDex": "Uniswap V3",
+      "getLpUrl": {
+        "8453": "https://app.ichi.org/vault/token/0xac27fa800955849d6d17cc8952ba9dd6eaa66187/"
+      }
+    },
+    "earnToken": {
+      "symbol": "UP",
+      "address": {
+        "8453": "0xaC27fa800955849d6D17cC8952Ba9dD6EAA66187"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "8453": "UniswapV3"
+      }
+    },
+    "billNnftAddress": {
+      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "inactive": false,
+    "projectLink": "https://unlock-protocol.com/",
+    "twitter": "https://x.com/UnlockProtocol",
+    "initTime": {
+      "8453": 1745840808
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["NFT Marketplace"],
+    "shortDescription": ".",
+    "fullDescription": ".",
+    "feeInPayout": 5
+  },
+  {
     "index": 8034,
     "version": "1.0.0",
     "chainId": 8453,
