@@ -92,5 +92,12 @@
       "type": "token",
       "tokenAddress": "0xcc22F6AA610D1b2a0e89EF228079cB3e1831b1D1"
     }
+  },
+  "129399": {
+    "0x17B8Ee96E3bcB3b04b3e8334de4524520C51caB4": {
+      "source": "coingecko",
+      "id": "ethereum",
+      "tokenAddress": "0x17B8Ee96E3bcB3b04b3e8334de4524520C51caB4"
+    }
   }
 }
