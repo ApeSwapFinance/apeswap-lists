@@ -934,8 +934,8 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['NFT Marketplace'],
-    shortDescription: `.`,
-    fullDescription: `.`,
+    shortDescription: `Unlock Protocol is an open-source, community-driven system that powers onchain memberships and subscriptions. By easing implementation and boosting user-to-member conversions, it supports a healthier web monetization model. Users earn UP tokens on membership purchases, driving peer-to-peer ownership. Unlock strives to be the global standard for memberships.`,
+    fullDescription: `Unlock Protocol is an open-source, community-governed system enabling developers, creators, and platforms to create onchain memberships and subscriptions. Designed to ease implementation and boost user-to-member conversions, Unlock fosters a healthier monetization model for the web. It includes upgradable smart contracts that mint memberships as NFTs, a vibrant ecosystem of stakeholders, the Unlock DAO for decentralized governance, and the Unlock Protocol Foundation for ecosystem support. Originally developed by Unlock Labs from 2018 to 2025, Unlock now operates fully under the DAO and Foundation. The protocol rewards users with UP tokens on membership purchases, reinforcing a peer-to-peer ownership model. Unlock aims to be the global standard for memberships, both online and offline, building a creator-owned internet.`,
     feeInPayout: 5,
   },
   {
