@@ -634,6 +634,7 @@ const bills: BillsConfig[] = [
     shortDescription: `Veritas Protocol makes blockchain security simple and accessible for everyone, with automated audits, AI-powered debugging, and built-in insurance against exploits. It protects users, investors, and projects alike. The VPT token unlocks access to services, voting rights, insurance staking, and growing rewards over time.`,
     fullDescription: `Veritas Protocol delivers 10X faster and 90% more affordable blockchain security for users, investors, and projects. It offers intuitive tools that allow anyone to audit tokens and smart contracts at a fraction of the time and cost of traditional methods. Unlike conventional auditors who rely heavily on manual processes, Veritas uses automation and AI to protect not just projects but every ecosystem participant. Its suite includes continuous automated audits, an AI Debugger for real-time fixes, and integrated insurance against exploits. The VPT token powers the ecosystem, granting holders access to services, voting rights, insurance coverage through staking, and a revenue-sharing model that rewards loyalty over time via a token ageing mechanism.`,
     feeInPayout: 5,
+    warningCard: `This token is currently only tradable on the following CEXs: <a href="https://www.mexc.com/exchange/VPT_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a>.`,
   },
   {
     index: 8046,
