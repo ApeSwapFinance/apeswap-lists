@@ -608,6 +608,34 @@ const bills: BillsConfig[] = [
   // BASE
   //
   {
+    index: 8047,
+    cmcId: 36047,
+    version: '2.1.1',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0xeA62f76EdC1da14bc473b8F0fE1416a7F1E47Fcf',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.vpt,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://www.veritasprotocol.com/',
+    twitter: 'https://x.com/veritas_web3',
+    initTime: { [ChainId.BASE]: 1745914126 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription: `Veritas Protocol makes blockchain security simple and accessible for everyone, with automated audits, AI-powered debugging, and built-in insurance against exploits. It protects users, investors, and projects alike. The VPT token unlocks access to services, voting rights, insurance staking, and growing rewards over time.`,
+    fullDescription: `Veritas Protocol delivers 10X faster and 90% more affordable blockchain security for users, investors, and projects. It offers intuitive tools that allow anyone to audit tokens and smart contracts at a fraction of the time and cost of traditional methods. Unlike conventional auditors who rely heavily on manual processes, Veritas uses automation and AI to protect not just projects but every ecosystem participant. Its suite includes continuous automated audits, an AI Debugger for real-time fixes, and integrated insurance against exploits. The VPT token powers the ecosystem, granting holders access to services, voting rights, insurance coverage through staking, and a revenue-sharing model that rewards loyalty over time via a token ageing mechanism.`,
+    feeInPayout: 5,
+  },
+  {
     index: 8046,
     cmcId: 18787,
     version: '2.1.0',
