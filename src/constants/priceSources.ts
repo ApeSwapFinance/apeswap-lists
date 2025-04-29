@@ -8,6 +8,7 @@ enum PriceSource {
   Mexc = 'mexc',
   LBank = 'lbank',
   Bitmart = 'bitmart',
+  Fixed = 'fixed', // Mostly for testing
 }
 
 type CoinGeckoPriceSourceConfig = {
@@ -40,12 +41,19 @@ type BitmartPriceSourceConfig = {
   tokenAddress: string
 }
 
+type FixedPriceSourceConfig = {
+  source: PriceSource.Fixed
+  price: number
+  tokenAddress: string
+}
+
 type PriceSourceConfigs =
   | CoinGeckoPriceSourceConfig
   | DexScreenerPriceSourceConfig
   | MexcPriceSourceConfig
   | LBankPriceSourceConfig
   | BitmartPriceSourceConfig
+  | FixedPriceSourceConfig
 
 const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>> = {
   [ChainId.BSC]: {
@@ -147,6 +155,18 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       source: PriceSource.Coingecko,
       id: 'ethereum',
       tokenAddress: '0x17B8Ee96E3bcB3b04b3e8334de4524520C51caB4', //WETH
+    },
+  },
+  [ChainId.SOL]: {
+    '6PkHvBX6A594Xnwyr3utFkrfP3eCUfqPjFTuSdxUuBCo': {
+      source: PriceSource.Fixed,
+      price: 1,
+      tokenAddress: '6PkHvBX6A594Xnwyr3utFkrfP3eCUfqPjFTuSdxUuBCo',
+    },
+    '4ZppDghtcPqh6S8zT2MehngWsmi6WDQvWK7njL1ppRZD': {
+      source: PriceSource.Fixed,
+      price: 1,
+      tokenAddress: '4ZppDghtcPqh6S8zT2MehngWsmi6WDQvWK7njL1ppRZD',
     },
   },
 }
