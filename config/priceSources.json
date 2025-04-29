@@ -99,5 +99,17 @@
       "id": "ethereum",
       "tokenAddress": "0x17B8Ee96E3bcB3b04b3e8334de4524520C51caB4"
     }
+  },
+  "7565164": {
+    "6PkHvBX6A594Xnwyr3utFkrfP3eCUfqPjFTuSdxUuBCo": {
+      "source": "fixed",
+      "price": 1,
+      "tokenAddress": "6PkHvBX6A594Xnwyr3utFkrfP3eCUfqPjFTuSdxUuBCo"
+    },
+    "4ZppDghtcPqh6S8zT2MehngWsmi6WDQvWK7njL1ppRZD": {
+      "source": "fixed",
+      "price": 1,
+      "tokenAddress": "4ZppDghtcPqh6S8zT2MehngWsmi6WDQvWK7njL1ppRZD"
+    }
   }
 }
