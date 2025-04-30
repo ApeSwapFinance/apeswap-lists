@@ -7,7 +7,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Arbitrum Largest ID: 2027
 // ETH Largest ID: 3042
 // Linea Largest ID: 6015
-// Base Largest ID: 8046
+// Base Largest ID: 8048
 // Lightlink Largest ID: 7003
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
@@ -607,6 +607,34 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
+  {
+    index: 8048,
+    cmcId: 31978,
+    version: '2.1.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0xF81BD0754b698cDbF248E7b4A3E60228Fa0b7E93',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.emt,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://ethermail.io/',
+    twitter: 'https://x.com/ethermail_io',
+    initTime: { [ChainId.BASE]: 1746014706 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Privacy'],
+    shortDescription: `EtherMail is reimagining email for Web3 by bridging Web2 and Web3, giving users full inbox ownership, control, and sovereignty. At the heart of its ecosystem is the EMAIL Token $EMT, a utility token that rewards users for engaging with personalized, consensual marketing content—offering a sharp contrast to spam-filled traditional email models.`,
+    fullDescription: `EtherMail is reimagining email for Web3 by bridging the gap between traditional Web2 systems and the decentralized Web3 world, returning full inbox ownership, privacy, and control to users. Much like how Brave transformed web browsing, EtherMail empowers individuals by treating their attention as a valuable asset. At the heart of its ecosystem is the EMAIL Token ($EMT), a utility token that rewards users for engaging with personalized, consensual marketing content—offering a sharp contrast to spam-filled traditional email models. By leveraging AI to tailor communication based on user preferences, EtherMail enables meaningful, permission-based interactions between businesses and users. The team’s commitment extends beyond technology, with active involvement in global conferences and local meetups to foster community engagement and shape the future of decentralized communication.`,
+    feeInPayout: 5,
+  },
   {
     index: 8047,
     cmcId: 36047,

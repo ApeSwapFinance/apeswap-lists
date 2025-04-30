@@ -1059,6 +1059,60 @@
     "fullDescription": "FOMOFox is the first market-driven storytelling meme coin on IOTA EVM. Follow the thrilling journey of FOMOFox on TwitterX and help him conquer his FOMO by influencing the $FOMO Token’s market performance. Loyal holders will find countless opportunities to grow their $FOMO bags through raffles, solving riddles, or simply holding and supporting the fox. Along the way, FOMOFox faces diverse challenges and meets intriguing characters. Your influence on the market helps him make the right choices. This project offers pure entertainment and rewards those who stick with it! Join the adventure now and visit their website for more details!"
   },
   {
+    "index": 8048,
+    "cmcId": 31978,
+    "version": "2.1.0",
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0xF81BD0754b698cDbF248E7b4A3E60228Fa0b7E93"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "8453": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+      },
+      "decimals": {
+        "8453": 6
+      },
+      "liquidityDex": {
+        "8453": "Aerodrome"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "EMT",
+      "address": {
+        "8453": "0xe2c86869216aC578bd62a4b8313770d9EE359A05"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "8453": "UniswapV2"
+      }
+    },
+    "billNnftAddress": {
+      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "inactive": false,
+    "projectLink": "https://ethermail.io/",
+    "twitter": "https://x.com/ethermail_io",
+    "initTime": {
+      "8453": 1746014706
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["Privacy"],
+    "shortDescription": "EtherMail is reimagining email for Web3 by bridging Web2 and Web3, giving users full inbox ownership, control, and sovereignty. At the heart of its ecosystem is the EMAIL Token $EMT, a utility token that rewards users for engaging with personalized, consensual marketing content—offering a sharp contrast to spam-filled traditional email models.",
+    "fullDescription": "EtherMail is reimagining email for Web3 by bridging the gap between traditional Web2 systems and the decentralized Web3 world, returning full inbox ownership, privacy, and control to users. Much like how Brave transformed web browsing, EtherMail empowers individuals by treating their attention as a valuable asset. At the heart of its ecosystem is the EMAIL Token ($EMT), a utility token that rewards users for engaging with personalized, consensual marketing content—offering a sharp contrast to spam-filled traditional email models. By leveraging AI to tailor communication based on user preferences, EtherMail enables meaningful, permission-based interactions between businesses and users. The team’s commitment extends beyond technology, with active involvement in global conferences and local meetups to foster community engagement and shape the future of decentralized communication.",
+    "feeInPayout": 5
+  },
+  {
     "index": 8047,
     "cmcId": 36047,
     "version": "2.1.1",

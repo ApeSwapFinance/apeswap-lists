@@ -800,6 +800,19 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.UniswapV2,
     },
   },
+  emt: {
+    symbol: 'EMT',
+    address: {
+      [ChainId.BASE]: '0xe2c86869216aC578bd62a4b8313770d9EE359A05',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV2,
+    },
+  },
   sam: {
     symbol: 'SAM',
     address: {
