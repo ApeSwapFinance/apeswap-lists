@@ -6792,6 +6792,7 @@ const tokens: Record<string, Token> = {
     liquidityDex: {
       [ChainId.MAINNET]: LiquidityDex.UniswapV3,
     },
+    liquidityWrapper: Wrappers.Ichi,
     active: true,
     lpToken: true,
     getLpUrl: {
