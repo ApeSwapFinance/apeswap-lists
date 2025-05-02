@@ -295,6 +295,7 @@
       "liquidityDex": {
         "1": "UniswapV3"
       },
+      "liquidityWrapper": 1,
       "active": true,
       "lpToken": true,
       "getLpUrl": {
