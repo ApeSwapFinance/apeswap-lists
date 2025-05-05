@@ -797,7 +797,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://token.bitrivals.app/',
     twitter: 'https://x.com/BitRivals',
     initTime: { [ChainId.BASE]: 1743159819 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -2137,7 +2137,7 @@ const bills: BillsConfig[] = [
     audit:
       'https://lineascan.build/token/0x81BE2aCB2e9291dB6400f9f6a4D0f35f24de2E77?a=0xc9f2a5115b727849e067da85a0ff422732a358a7#code',
     initTime: { [ChainId.LINEA]: 1743430347 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -2951,7 +2951,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/qaagai',
     audit: 'https://www.cyberscope.io/audits/coin-qaagai',
     initTime: { [ChainId.BSC]: 1743008933 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
