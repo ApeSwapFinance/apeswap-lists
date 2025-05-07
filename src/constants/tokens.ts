@@ -6219,7 +6219,8 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
     },
     getLpUrl: {
-      [ChainId.BSC]: 'https://pancakeswap.finance/v2/add/BNB/0x925973F7a873CAfEb114f71A5C3f1B52efe913c2',
+      [ChainId.BSC]:
+        'https://pancakeswap.finance/v2/add/0x55d398326f99059fF775485246999027B3197955/0x925973F7a873CAfEb114f71A5C3f1B52efe913c2',
     },
   },
   scptWbnb_PCS: {
