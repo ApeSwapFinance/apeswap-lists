@@ -3627,6 +3627,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  papu: {
+    symbol: 'PAPU',
+    address: {
+      [ChainId.BSC]: '0x925973F7a873CAfEb114f71A5C3f1B52efe913c2',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
   wnk: {
     symbol: 'WNK',
     address: {
@@ -6194,6 +6205,22 @@ const tokens: Record<string, Token> = {
     },
     getLpUrl: {
       [ChainId.BSC]: 'https://pancakeswap.finance/v2/add/BNB/0x3E51783FEf3Cb3e807cff7Fcb660d3e51c6127F6',
+    },
+  },
+  papuUsdt_PCS: {
+    symbol: 'PAPU-USDT',
+    address: {
+      [ChainId.BSC]: '0x48AED3dEd382656cC8A50ed306B360900bae2eD8',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl: {
+      [ChainId.BSC]:
+        'https://pancakeswap.finance/v2/add/0x55d398326f99059fF775485246999027B3197955/0x925973F7a873CAfEb114f71A5C3f1B52efe913c2',
     },
   },
   scptWbnb_PCS: {

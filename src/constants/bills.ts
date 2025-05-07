@@ -2620,6 +2620,64 @@ const bills: BillsConfig[] = [
   // BNB chain
   //
   {
+    index: 1150,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x1866e5f0b1051846Ed0bE3e2A139aca2C5567734',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.wbnb,
+    earnToken: tokens.gq,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://outerringmmo.com/',
+    twitter: 'https://twitter.com/OuterRingMMO',
+    initTime: { [ChainId.BSC]: 1744051437 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    fullDescription:
+      'Outer Ring MMO is a free-to-play, third-person Sci-Fi action RPG set in a vast, immersive metaverse where players captain spaceships, explore galaxies, and uncover ancient mysteries. In this expansive universe, players are the architects of their experience—crafting everything from weapons and armor to vehicles, lands, and buildings. The game features a player-driven economy powered by Galactic Quadrant (GQ), its native governance token, which rewards users for completing quests, competing in battles, and trading in-game assets. GQ also empowers holders to influence key decisions through governance events. Outer Ring invites players to forge their own legend, acquire virtual land, trade with others, and enjoy exclusive experiences in a world where exploration, creativity, and adventure know no limits.',
+    shortDescription:
+      'Outer Ring MMO is a free-to-play Sci-Fi action RPG where players explore galaxies, build assets, and shape their own adventures. Set in a vast metaverse, it features a player-driven economy powered by the Galactic Quadrant (GQ) token, which rewards gameplay and enables governance. Forge your legend in a universe full of endless possibilities.',
+    tags: ['GAMEFI'],
+    feeInPayout: 5,
+  },
+  {
+    index: 1149,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0xb19659693Eb2e0041f26e9406FC01872e41849b0',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.btc,
+    earnToken: tokens.gq,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://outerringmmo.com/',
+    twitter: 'https://twitter.com/OuterRingMMO',
+    initTime: { [ChainId.BSC]: 1744051437 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    fullDescription:
+      'Outer Ring MMO is a free-to-play, third-person Sci-Fi action RPG set in a vast, immersive metaverse where players captain spaceships, explore galaxies, and uncover ancient mysteries. In this expansive universe, players are the architects of their experience—crafting everything from weapons and armor to vehicles, lands, and buildings. The game features a player-driven economy powered by Galactic Quadrant (GQ), its native governance token, which rewards users for completing quests, competing in battles, and trading in-game assets. GQ also empowers holders to influence key decisions through governance events. Outer Ring invites players to forge their own legend, acquire virtual land, trade with others, and enjoy exclusive experiences in a world where exploration, creativity, and adventure know no limits.',
+    shortDescription:
+      'Outer Ring MMO is a free-to-play Sci-Fi action RPG where players explore galaxies, build assets, and shape their own adventures. Set in a vast metaverse, it features a player-driven economy powered by the Galactic Quadrant (GQ) token, which rewards gameplay and enables governance. Forge your legend in a universe full of endless possibilities.',
+    tags: ['GAMEFI'],
+    feeInPayout: 5,
+  },
+  {
     index: 1148,
     cmcId: 34498,
     version: '2.1.0',
