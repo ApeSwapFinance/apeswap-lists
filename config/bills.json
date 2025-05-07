@@ -4973,6 +4973,60 @@
     "shortDescription": "Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!"
   },
   {
+    "index": 1148,
+    "cmcId": 34498,
+    "version": "2.1.0",
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0x927Cdc27d20fD4e762b7cb2D058d874e5cd0A289"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "56": "0x55d398326f99059fF775485246999027B3197955"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "ITHACA",
+      "address": {
+        "56": "0x49f1D4dB3ea1a64390E990C6deBEaC88EAC007Ca"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://www.ithacaprotocol.io/",
+    "twitter": "https://x.com/IthacaProtocol",
+    "initTime": {
+      "56": 1746612018
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "fullDescription": "Ithaca is building permissionless cross-chain infrastructure for instant deployment of composable options, structured products, and lending markets. With an off-chain EVM-compatible matching engine, Axelar-powered bridging, and a smart contract settlement layer, Ithaca enables more efficient financial markets. The ITHACA token powers governance and ecosystem rewards.",
+    "shortDescription": "Ithaca is building permissionless cross-chain infrastructure designed to enable optimal risk sharing across time and event horizons. Its architecture supports instant deployment of liquidity self-enhancing options, structured products, and lending markets on any underlying asset. The protocol combines an off-chain auction-based, EVM-compatible matching engine with smart contracts that enforce post-trade settlement and collateral custody. Bridging is powered by Axelar, enabling multi-chain functionality into Arbitrum. The Ithaca App serves as a user-friendly interface for placing trades, managing collateral, and executing strategies from simple payoffs to complex derivatives. Governed by the ITHACA token, which can be staked for rewards, the ecosystem aligns stakeholder incentives through decentralized governance. The token launch aims to bootstrap liquidity, reward early adopters, and support ecosystem growth.",
+    "tags": ["DeFi"],
+    "feeInPayout": 5
+  },
+  {
     "index": 1147,
     "version": "2.1.0",
     "cmcId": 12621,
@@ -5194,7 +5248,7 @@
     "initTime": {
       "56": 1745408455
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
