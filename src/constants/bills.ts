@@ -2642,9 +2642,9 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    fullDescription:
-      'Ithaca is building permissionless cross-chain infrastructure for instant deployment of composable options, structured products, and lending markets. With an off-chain EVM-compatible matching engine, Axelar-powered bridging, and a smart contract settlement layer, Ithaca enables more efficient financial markets. The ITHACA token powers governance and ecosystem rewards.',
     shortDescription:
+      'Ithaca is building permissionless cross-chain infrastructure for instant deployment of composable options, structured products, and lending markets. With an off-chain EVM-compatible matching engine, Axelar-powered bridging, and a smart contract settlement layer, Ithaca enables more efficient financial markets. The ITHACA token powers governance and ecosystem rewards.',
+    fullDescription:
       'Ithaca is building permissionless cross-chain infrastructure designed to enable optimal risk sharing across time and event horizons. Its architecture supports instant deployment of liquidity self-enhancing options, structured products, and lending markets on any underlying asset. The protocol combines an off-chain auction-based, EVM-compatible matching engine with smart contracts that enforce post-trade settlement and collateral custody. Bridging is powered by Axelar, enabling multi-chain functionality into Arbitrum. The Ithaca App serves as a user-friendly interface for placing trades, managing collateral, and executing strategies from simple payoffs to complex derivatives. Governed by the ITHACA token, which can be staked for rewards, the ecosystem aligns stakeholder incentives through decentralized governance. The token launch aims to bootstrap liquidity, reward early adopters, and support ecosystem growth.',
     tags: ['DeFi'],
     feeInPayout: 5,
