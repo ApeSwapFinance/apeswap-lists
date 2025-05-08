@@ -20,6 +20,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  azt: {
+    symbol: 'AZT',
+    address: {
+      [ChainId.MONAD_TESTNET]: '0xb83D8fe3D51b2ecc09242fCDa318057b17Ed5971',
+    },
+    decimals: {
+      [ChainId.MONAD_TESTNET]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MONAD_TESTNET]: LiquidityDex.External,
+    },
+    active: true,
+  },
   usde: {
     symbol: 'USDE',
     address: {

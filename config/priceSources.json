@@ -121,6 +121,16 @@
       "tokenAddress": "0x00096697DC24bd10423690126D91546A20Ccb3F0"
     }
   },
+  "10143": {
+    "0xb83D8fe3D51b2ecc09242fCDa318057b17Ed5971": {
+      "name": "AZEx Token",
+      "symbol": "AZT",
+      "decimals": 18,
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "0xDAd7898717AdE066E1114E6bdbFaFd8A6F378B7b"
+    }
+  },
   "42161": {
     "0x4D22e37Eb4d71D1acc5f4889a65936D2a44A2f15": {
       "name": "Hat",

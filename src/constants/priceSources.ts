@@ -199,6 +199,16 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       tokenAddress: '0x69011706b3f6C6eaeD7D2Bc13801558B4fd94CBF',
     },
   },
+  [ChainId.MONAD_TESTNET]: {
+    '0xb83D8fe3D51b2ecc09242fCDa318057b17Ed5971': {
+      name: 'AZEx Token',
+      symbol: 'AZT',
+      decimals: 18,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '0xDAd7898717AdE066E1114E6bdbFaFd8A6F378B7b', //AZT on Berachain
+    },
+  },
   [ChainId.KATANA_TESTNET]: {
     '0x17B8Ee96E3bcB3b04b3e8334de4524520C51caB4': {
       name: 'Wrapped Ether',
