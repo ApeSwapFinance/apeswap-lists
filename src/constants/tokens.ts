@@ -4731,6 +4731,19 @@ const tokens: Record<string, Token> = {
       [ChainId.ARBITRUM]: LiquidityDex.PancakeSwapV3,
     },
   },
+  kima: {
+    symbol: 'KIMA',
+    address: {
+      [ChainId.ARBITRUM]: '0x94fCD9c18f99538C0f7C61c5500cA79F0D5C4dab',
+    },
+    decimals: {
+      [ChainId.ARBITRUM]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.ARBITRUM]: LiquidityDex.PancakeSwapV3,
+    },
+  },
   crv: {
     symbol: 'CRV',
     address: {
