@@ -4757,6 +4757,19 @@ const tokens: Record<string, Token> = {
       [ChainId.ARBITRUM]: LiquidityDex.UniswapV3,
     },
   },
+  realUsdcArb: {
+    symbol: 'USDC',
+    address: {
+      [ChainId.ARBITRUM]: '0xaf88d065e77c8cC2239327C5EDb3A432268e5831',
+    },
+    decimals: {
+      [ChainId.ARBITRUM]: 6,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.ARBITRUM]: LiquidityDex.UniswapV3,
+    },
+  },
   eywa: {
     symbol: 'EYWA',
     address: {
