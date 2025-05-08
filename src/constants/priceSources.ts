@@ -26,7 +26,8 @@ type CoinGeckoPriceSourceConfig = BasePriceSourceConfig & {
 type DexScreenerPriceSourceConfig = BasePriceSourceConfig & {
   source: PriceSource.Dexscreener
   type: 'token' | 'pair'
-  chain?: ChainId
+  targetChain?: ChainId
+  originalTokenAddress?: string
 }
 
 type MexcPriceSourceConfig = BasePriceSourceConfig & {
@@ -208,7 +209,8 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       source: PriceSource.Dexscreener,
       type: 'token',
       tokenAddress: '0xDAd7898717AdE066E1114E6bdbFaFd8A6F378B7b', //AZT on Berachain
-      chain: ChainId.BERACHAIN,
+      targetChain: ChainId.BERACHAIN,
+      originalTokenAddress: '0xb83D8fe3D51b2ecc09242fCDa318057b17Ed5971',
     },
   },
   [ChainId.KATANA_TESTNET]: {
