@@ -1,7 +1,7 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1148
+// BNB Largest ID: 1151
 // Polygon Largest ID: 180
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2027
@@ -2619,6 +2619,36 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  // {
+  //   index: 1151,
+  //   version: '2.1.0',
+  //   chainId: ChainId.BSC,
+  //   contractAddress: {
+  //     [ChainId.BSC]: '0xc82357Bd2E8e347794E46952efc9071e8f4f6B54',
+  //   },
+  //   billType: 'liquidity',
+  //   billVersion: BillVersion.V4,
+  //   lpToken: tokens.papuUsdt_PCS,
+  //   earnToken: tokens.papu,
+  //   billNnftAddress: {
+  //     [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+  //   },
+  //   inactive: false,
+  //   projectLink: 'https://papu.game/',
+  //   twitter: 'https://x.com/papunextgen',
+  //   audit: 'https://coinsult.net/projects/papu-coin/',
+  //   initTime: { [ChainId.BSC]: 1746642363 },
+  //   soldOut: false,
+  //   billArt: {
+  //     collection: BillArtCollection.ApeBond_Collection1,
+  //   },
+  //   fullDescription:
+  //     'Papu Games is transforming Web3 gaming with Papu Arena, a platform designed to unite BNB Chain meme coins into one dynamic ecosystem. Powered by $PAPU, the in-game currency, players can play, earn rewards, and easily swap tokens via PapuSwap. Each game promotes token visibility as Papu wears different token shirts, helping users discover new projects. With 0% fees, no taxes, PapuScan insights, and an inclusive mission, Papu Games creates a seamless, rewarding Play2Earn journey.',
+  //   shortDescription:
+  //     'Papu Games is a Web3 gaming platform leveraging $PAPU to power Papu Arena, where players engage with multiple BNB Chain tokens in a unified ecosystem, enhancing visibility while offering seamless, tax-free gaming and swapping.',
+  //   tags: ['GAMEFI'],
+  //   feeInPayout: 5,
+  // },
   {
     index: 1150,
     version: '2.1.0',
@@ -12274,6 +12304,34 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   /*
       Arbitrum Bills - ID started from 2001
   */
+  {
+    index: 2030,
+    cmcId: 33488,
+    version: '2.1.0',
+    chainId: ChainId.ARBITRUM,
+    contractAddress: {
+      [ChainId.ARBITRUM]: '0x80DA818929b3C22577408Cbe7a662B08A21F073f',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc2,
+    earnToken: tokens.kima,
+    billNnftAddress: {
+      [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
+    },
+    inactive: false,
+    projectLink: 'https://www.kima.network/',
+    twitter: 'https://x.com/kimanetwork',
+    initTime: { [ChainId.ARBITRUM]: 1746722485 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DeFi'],
+    shortDescription: `Kima is a Cosmos SDK-based blockchain enabling secure, cross-chain atomic swaps without wrapped tokens or liquidity fragmentation. Using a dual-layer consensus with rotating wardens and TSS in Trusted Execution Environments, it ensures secure transfers and full auditability. $KIMA powers validation, rewards, transactions, and ecosystem growth.`,
+    fullDescription: `Kima is a Cosmos SDK-based blockchain that solves cross-chain interoperability without adding liquidity fragmentation by enabling atomic swaps across multiple blockchains—like Ethereum, Polygon, and Solana—without wrapping tokens. It uses a unique committee-based consensus with rotating “wardens” who manage liquidity pools and authorize transfers only after validating source-chain deposits, leveraging Threshold Signature Schemes inside Trusted Execution Environments for added security. Kima operates on a dual-layer model: a permissioned validator layer with trusted entities and a permissionless layer for broader participation. The protocol governs warden selection, platform parameters, and records every swap for full auditability, while also enabling future cross-chain messaging. Kima’s token, $KIMA, underpins security, validator rewards, ecosystem growth, and transaction and liquidity operations, ensuring a decentralized and efficient cross-chain experience.`,
+    feeInPayout: 5,
+  },
   {
     index: 2029,
     cmcId: 33841,

@@ -20,6 +20,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  azt: {
+    symbol: 'AZT',
+    address: {
+      [ChainId.MONAD_TESTNET]: '0xb83D8fe3D51b2ecc09242fCDa318057b17Ed5971',
+    },
+    decimals: {
+      [ChainId.MONAD_TESTNET]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MONAD_TESTNET]: LiquidityDex.External,
+    },
+    active: true,
+  },
   usde: {
     symbol: 'USDE',
     address: {
@@ -1333,12 +1346,15 @@ const tokens: Record<string, Token> = {
     symbol: 'USDC', //this is actually the USDC
     address: {
       [ChainId.MATIC]: '0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359',
+      [ChainId.ARBITRUM]: '0xaf88d065e77c8cC2239327C5EDb3A432268e5831',
     },
     decimals: {
       [ChainId.MATIC]: 6,
+      [ChainId.ARBITRUM]: 6,
     },
     liquidityDex: {
       [ChainId.MATIC]: LiquidityDex.UniswapV3,
+      [ChainId.ARBITRUM]: LiquidityDex.UniswapV3,
     },
     active: true,
   },
@@ -4722,6 +4738,19 @@ const tokens: Record<string, Token> = {
     symbol: 'SDT',
     address: {
       [ChainId.ARBITRUM]: '0x07715EE7219B07b8e01CC7d2787f4e5e75860383',
+    },
+    decimals: {
+      [ChainId.ARBITRUM]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.ARBITRUM]: LiquidityDex.PancakeSwapV3,
+    },
+  },
+  kima: {
+    symbol: 'KIMA',
+    address: {
+      [ChainId.ARBITRUM]: '0x94fCD9c18f99538C0f7C61c5500cA79F0D5C4dab',
     },
     decimals: {
       [ChainId.ARBITRUM]: 18,
