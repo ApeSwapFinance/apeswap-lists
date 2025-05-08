@@ -1333,12 +1333,15 @@ const tokens: Record<string, Token> = {
     symbol: 'USDC', //this is actually the USDC
     address: {
       [ChainId.MATIC]: '0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359',
+      [ChainId.ARBITRUM]: '0xaf88d065e77c8cC2239327C5EDb3A432268e5831',
     },
     decimals: {
       [ChainId.MATIC]: 6,
+      [ChainId.ARBITRUM]: 6,
     },
     liquidityDex: {
       [ChainId.MATIC]: LiquidityDex.UniswapV3,
+      [ChainId.ARBITRUM]: LiquidityDex.UniswapV3,
     },
     active: true,
   },
@@ -4751,19 +4754,6 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.ARBITRUM]: 18,
-    },
-    active: true,
-    liquidityDex: {
-      [ChainId.ARBITRUM]: LiquidityDex.UniswapV3,
-    },
-  },
-  realUsdcArb: {
-    symbol: 'USDC',
-    address: {
-      [ChainId.ARBITRUM]: '0xaf88d065e77c8cC2239327C5EDb3A432268e5831',
-    },
-    decimals: {
-      [ChainId.ARBITRUM]: 6,
     },
     active: true,
     liquidityDex: {

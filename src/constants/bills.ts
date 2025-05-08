@@ -12314,7 +12314,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     },
     billType: 'reserve',
     billVersion: BillVersion.V4,
-    lpToken: tokens.realUsdcArb,
+    lpToken: tokens.usdc2,
     earnToken: tokens.kima,
     billNnftAddress: {
       [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',

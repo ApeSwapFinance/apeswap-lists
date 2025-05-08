@@ -24099,10 +24099,10 @@
       "decimals": {
         "42161": 6
       },
-      "active": true,
       "liquidityDex": {
         "42161": "UniswapV3"
-      }
+      },
+      "active": true
     },
     "earnToken": {
       "symbol": "KIMA",
