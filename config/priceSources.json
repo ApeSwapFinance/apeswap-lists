@@ -128,7 +128,8 @@
       "decimals": 18,
       "source": "dexscreener",
       "type": "token",
-      "tokenAddress": "0xDAd7898717AdE066E1114E6bdbFaFd8A6F378B7b"
+      "tokenAddress": "0xDAd7898717AdE066E1114E6bdbFaFd8A6F378B7b",
+      "chain": "berachain"
     }
   },
   "42161": {
