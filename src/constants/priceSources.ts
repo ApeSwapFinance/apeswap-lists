@@ -26,6 +26,7 @@ type CoinGeckoPriceSourceConfig = BasePriceSourceConfig & {
 type DexScreenerPriceSourceConfig = BasePriceSourceConfig & {
   source: PriceSource.Dexscreener
   type: 'token' | 'pair'
+  chain?: string
 }
 
 type MexcPriceSourceConfig = BasePriceSourceConfig & {
@@ -207,6 +208,7 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       source: PriceSource.Dexscreener,
       type: 'token',
       tokenAddress: '0xDAd7898717AdE066E1114E6bdbFaFd8A6F378B7b', //AZT on Berachain
+      chain: 'berachain',
     },
   },
   [ChainId.KATANA_TESTNET]: {
@@ -235,6 +237,22 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       source: PriceSource.Fixed,
       price: 1,
       tokenAddress: '4ZppDghtcPqh6S8zT2MehngWsmi6WDQvWK7njL1ppRZD',
+    },
+    '9Go1k12GfUGyKSA4Hcw6svZ6E8T5Dkta8t3rmHF7xJNU': {
+      name: 'Golden Banana',
+      symbol: 'GNANA',
+      decimals: 9,
+      source: PriceSource.Fixed,
+      price: 1,
+      tokenAddress: '9Go1k12GfUGyKSA4Hcw6svZ6E8T5Dkta8t3rmHF7xJNU',
+    },
+    '6MkKT6ffNt6N22U2Q7yZaLC4QYrxGuFefwYrmd8XXsih': {
+      name: 'Banana',
+      symbol: 'BANANA',
+      decimals: 9,
+      source: PriceSource.Fixed,
+      price: 1,
+      tokenAddress: '6MkKT6ffNt6N22U2Q7yZaLC4QYrxGuFefwYrmd8XXsih',
     },
   },
 }

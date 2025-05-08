@@ -128,7 +128,8 @@
       "decimals": 18,
       "source": "dexscreener",
       "type": "token",
-      "tokenAddress": "0xDAd7898717AdE066E1114E6bdbFaFd8A6F378B7b"
+      "tokenAddress": "0xDAd7898717AdE066E1114E6bdbFaFd8A6F378B7b",
+      "chain": "berachain"
     }
   },
   "42161": {
@@ -177,6 +178,22 @@
       "source": "fixed",
       "price": 1,
       "tokenAddress": "4ZppDghtcPqh6S8zT2MehngWsmi6WDQvWK7njL1ppRZD"
+    },
+    "9Go1k12GfUGyKSA4Hcw6svZ6E8T5Dkta8t3rmHF7xJNU": {
+      "name": "Golden Banana",
+      "symbol": "GNANA",
+      "decimals": 9,
+      "source": "fixed",
+      "price": 1,
+      "tokenAddress": "9Go1k12GfUGyKSA4Hcw6svZ6E8T5Dkta8t3rmHF7xJNU"
+    },
+    "6MkKT6ffNt6N22U2Q7yZaLC4QYrxGuFefwYrmd8XXsih": {
+      "name": "Banana",
+      "symbol": "BANANA",
+      "decimals": 9,
+      "source": "fixed",
+      "price": 1,
+      "tokenAddress": "6MkKT6ffNt6N22U2Q7yZaLC4QYrxGuFefwYrmd8XXsih"
     }
   }
 }
