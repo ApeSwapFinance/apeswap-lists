@@ -238,6 +238,22 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       price: 1,
       tokenAddress: '4ZppDghtcPqh6S8zT2MehngWsmi6WDQvWK7njL1ppRZD',
     },
+    '9Go1k12GfUGyKSA4Hcw6svZ6E8T5Dkta8t3rmHF7xJNU': {
+      name: 'Golden Banana',
+      symbol: 'GNANA',
+      decimals: 9,
+      source: PriceSource.Fixed,
+      price: 1,
+      tokenAddress: '9Go1k12GfUGyKSA4Hcw6svZ6E8T5Dkta8t3rmHF7xJNU',
+    },
+    '6MkKT6ffNt6N22U2Q7yZaLC4QYrxGuFefwYrmd8XXsih': {
+      name: 'Banana',
+      symbol: 'BANANA',
+      decimals: 9,
+      source: PriceSource.Fixed,
+      price: 1,
+      tokenAddress: '6MkKT6ffNt6N22U2Q7yZaLC4QYrxGuFefwYrmd8XXsih',
+    },
   },
 }
 
