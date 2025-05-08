@@ -129,7 +129,7 @@
       "source": "dexscreener",
       "type": "token",
       "tokenAddress": "0xDAd7898717AdE066E1114E6bdbFaFd8A6F378B7b",
-      "chain": "berachain"
+      "chain": 80094
     }
   },
   "42161": {
