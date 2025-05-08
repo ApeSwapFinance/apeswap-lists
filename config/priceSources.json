@@ -129,7 +129,8 @@
       "source": "dexscreener",
       "type": "token",
       "tokenAddress": "0xDAd7898717AdE066E1114E6bdbFaFd8A6F378B7b",
-      "chain": 80094
+      "targetChain": 80094,
+      "originalTokenAddress": "0xb83D8fe3D51b2ecc09242fCDa318057b17Ed5971"
     }
   },
   "42161": {
