@@ -169,7 +169,7 @@
     "version": "2.1.0",
     "chainId": 10143,
     "contractAddress": {
-      "10143": "0x055f68B47a4fE3E7F00cf45c43935D35E1Fbf5Ee"
+      "10143": "0xd28EBDB5aD2412b102fb251384C5EC90cFEB19C3"
     },
     "billType": "reserve",
     "billVersion": "V2",
@@ -208,7 +208,7 @@
     "inactive": false,
     "projectLink": "https://www.azex.io/",
     "initTime": {
-      "10143": 1746803197
+      "10143": 1746818338
     },
     "soldOut": false,
     "billArt": {
