@@ -165,6 +165,62 @@
     "minTier": 1
   },
   {
+    "index": 14010,
+    "version": "2.1.0",
+    "cmcId": 1,
+    "chainId": 10143,
+    "contractAddress": {
+      "10143": "0x055f68B47a4fE3E7F00cf45c43935D35E1Fbf5Ee"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "WMON",
+      "address": {
+        "10143": "0x760AfE86e5de5fa0Ee542fc7B7B713e1c5425701"
+      },
+      "decimals": {
+        "10143": 18
+      },
+      "liquidityDex": {
+        "10143": "PancakeSwapV2"
+      },
+      "active": true,
+      "getLpUrl": {
+        "10143": "https://testnet.monad.xyz/"
+      }
+    },
+    "earnToken": {
+      "symbol": "AZT",
+      "address": {
+        "10143": "0xb83D8fe3D51b2ecc09242fCDa318057b17Ed5971"
+      },
+      "decimals": {
+        "10143": 18
+      },
+      "liquidityDex": {
+        "10143": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "10143": "0x04f1D39a5A5EFCB6e51891E01d4acCD8c434775C"
+    },
+    "inactive": false,
+    "projectLink": "https://www.azex.io/",
+    "initTime": {
+      "10143": 1746803197
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["Testnet"],
+    "shortDescription": "AZEx is a decentralized peer-to-pool perpetual DEX on Berachain that makes DeFi trading fast, effortless, and intuitive. It routes funds to top protocols for yield opportunities, maximizing on-chain asset use. With AZT as its native token, users can create pools, launch tokens, and earn validator rewards—all in a seamless, automated, and transparent environment. * While AZEx’s mainnet runs on Berachain, this Bond will utilize the AZEx testnet on Monad solely for testing purposes.",
+    "fullDescription": "AZEx is a decentralized peer-to-pool perpetual DEX (Perp DEX) built for speed, simplicity, and agentic intelligence—making DeFi trading so intuitive, even your grandma could use it. Deeply integrated with Berachain, AZEx intelligently routes user funds across top DeFi protocols, including DEXs, lending platforms, perpetuals, and yield aggregators, to unlock optimal farming opportunities. This automated, permissionless infrastructure ensures transparency and decentralization while maximizing capital efficiency. Traders and liquidity providers benefit from validator rewards and the AZT token, which powers the platform by enabling permissionless pool creation, token launches, and fund establishment. AZEx redefines on-chain perpetual trading, merging ease-of-use with advanced blockchain logic in seconds.",
+    "warningCard": "Testnet Bonds use fake tokens for testing purposes only."
+  },
+  {
     "index": 14009,
     "version": "2.1.0",
     "cmcId": 1,
@@ -5074,7 +5130,7 @@
     "initTime": {
       "56": 1744051437
     },
-    "soldOut": true,
+    "soldOut": false,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -5127,7 +5183,7 @@
     "initTime": {
       "56": 1744051437
     },
-    "soldOut": true,
+    "soldOut": false,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
