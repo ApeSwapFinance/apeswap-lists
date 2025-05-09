@@ -206,11 +206,9 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       name: 'AZEx Token',
       symbol: 'AZT',
       decimals: 18,
-      source: PriceSource.Dexscreener,
-      type: 'token',
-      tokenAddress: '0xDAd7898717AdE066E1114E6bdbFaFd8A6F378B7b', //AZT on Berachain
-      targetChain: ChainId.BERACHAIN,
-      originalTokenAddress: '0xb83D8fe3D51b2ecc09242fCDa318057b17Ed5971',
+      source: PriceSource.Fixed,
+      price: 1,
+      tokenAddress: '0xb83D8fe3D51b2ecc09242fCDa318057b17Ed5971', //AZT
     },
   },
   [ChainId.KATANA_TESTNET]: {
