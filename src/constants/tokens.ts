@@ -3646,7 +3646,7 @@ const tokens: Record<string, Token> = {
   papu: {
     symbol: 'PAPU',
     address: {
-      [ChainId.BSC]: '0x925973F7a873CAfEb114f71A5C3f1B52efe913c2',
+      [ChainId.BSC]: '0x0C7f660643333419BF98F37Df831274Dd121f27f',
     },
     decimals: { [ChainId.BSC]: 18 },
     liquidityDex: {
