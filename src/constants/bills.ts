@@ -153,7 +153,7 @@ const bills: BillsConfig[] = [
     version: '2.1.0',
     chainId: ChainId.MONAD_TESTNET,
     contractAddress: {
-      [ChainId.MONAD_TESTNET]: '0x055f68B47a4fE3E7F00cf45c43935D35E1Fbf5Ee',
+      [ChainId.MONAD_TESTNET]: '0xd28EBDB5aD2412b102fb251384C5EC90cFEB19C3',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
@@ -164,7 +164,7 @@ const bills: BillsConfig[] = [
     },
     inactive: false,
     projectLink: 'https://www.azex.io/',
-    initTime: { [ChainId.MONAD_TESTNET]: 1746803197 },
+    initTime: { [ChainId.MONAD_TESTNET]: 1746818338 },
     soldOut: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
