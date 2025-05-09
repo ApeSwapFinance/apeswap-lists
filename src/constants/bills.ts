@@ -151,7 +151,6 @@ const bills: BillsConfig[] = [
   {
     index: 14010,
     version: '2.1.0',
-    cmcId: 1,
     chainId: ChainId.MONAD_TESTNET,
     contractAddress: {
       [ChainId.MONAD_TESTNET]: '0x055f68B47a4fE3E7F00cf45c43935D35E1Fbf5Ee',
