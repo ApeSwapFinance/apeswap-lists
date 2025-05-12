@@ -659,6 +659,19 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.UniswapV3,
     },
   },
+  gmrt: {
+    symbol: 'GMRT',
+    address: {
+      [ChainId.BASE]: '0x6967F0974d76d34e140caE27efeA32CDf546b58E',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV3,
+    },
+  },
   moz: {
     symbol: 'MOZ',
     address: {
