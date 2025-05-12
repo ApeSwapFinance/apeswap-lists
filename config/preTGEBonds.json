@@ -84,5 +84,91 @@
     "initPrice": 0.006,
     "initialRelease": 40,
     "tokensDistributedAtRedeem": true
+  },
+  {
+    "index": 2,
+    "chainId": 8453,
+    "refundable": false,
+    "saleStartTime": "Feb 18th 14:00 UTC",
+    "totalAllocation": "19,166,667 CHPD",
+    "salePriceString": "$0.006",
+    "vestingTimeString": "2 Months",
+    "vestingTimeTooltip": "40% of the tokens will be released at TGE (Feb 26th). The remaining tokens will vest linearly over 2 months.",
+    "shortDescription": "shortDescription",
+    "fullDescription": "fullDescription",
+    "tags": ["LaunchPad"],
+    "contractAddress": "0xAF8CABc5d4F8294B79a3e278b55Dc2dA67523498",
+    "billVersion": "TieredSale",
+    "billType": "fcfs",
+    "token": {
+      "symbol": "USDT",
+      "address": {
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "146": "0x6047828dc181963ba44974801FF68e538dA5eaF9",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "97": 18,
+        "137": 6,
+        "146": 6,
+        "1890": 6,
+        "2525": 6,
+        "8453": 6,
+        "8822": 6,
+        "42161": 6,
+        "59144": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV2",
+        "56": "PancakeSwapV3",
+        "137": "UniswapV3",
+        "1890": "Elektrik",
+        "2525": "External",
+        "8453": "UniswapV3",
+        "8822": "Wagmi",
+        "42161": "UniswapV3",
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "CHPD",
+      "address": {
+        "8453": "0xF2e244d4020C182e8E2C936d4055E3F0e578064F"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "liquidityDex": {
+        "8453": "UniswapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "initTime": 1739887200,
+    "finishTime": 1740434400,
+    "redeemTime": 1740575100,
+    "startVestingTimestamp": 1740575100,
+    "initPrice": 0.006,
+    "initialRelease": 40,
+    "tokensDistributedAtRedeem": true
   }
 ]
