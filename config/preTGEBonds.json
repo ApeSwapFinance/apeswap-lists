@@ -11,76 +11,62 @@
     "shortDescription": "shortDescription",
     "fullDescription": "fullDescription",
     "tags": ["LaunchPad"],
-    "contractAddress": "0x00Bac942EC892A666C8f045a092c6C2ea0d1bF92",
+    "contractAddress": "0xAF8CABc5d4F8294B79a3e278b55Dc2dA67523498",
     "billVersion": "TieredSale",
     "billType": "fcfs",
     "token": {
-      "symbol": "USDC",
+      "symbol": "USDT",
       "address": {
-        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
-        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
-        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-        "146": "0x29219dd400f2Bf60E5a23d13Be72B486D4038894",
-        "751": "0xD2ED81BE83B33218737Ca188EB9AC28b79C6A0F3",
-        "1890": "0x18fB38404DADeE1727Be4b805c5b242B5413Fa40",
-        "4158": "0x7bBcE15166bBc008EC1aDF9b3D6bbA0602FCE7Ba",
-        "8453": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
-        "8822": "0xFbDa5F676cB37624f28265A144A48B0d6e87d3b6",
-        "10143": "0xf817257fed379853cDe0fa4F97AB987181B1E5Ea",
-        "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
-        "59144": "0x176211869cA2b568f2A7D4EE941E073a821EE1ff",
-        "80094": "0x549943e04f40284185054145c6E4e9568C1D3241"
+        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "40": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "56": "0x55d398326f99059fF775485246999027B3197955",
+        "97": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "146": "0x6047828dc181963ba44974801FF68e538dA5eaF9",
+        "1890": "0x6308fa9545126237158778e74AE1b6b89022C5c0",
+        "2525": "0x97423A68BAe94b5De52d767a17aBCc54c157c0E5",
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+        "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+        "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
       },
       "decimals": {
         "1": 6,
         "40": 6,
         "56": 18,
+        "97": 18,
         "137": 6,
         "146": 6,
-        "751": 18,
         "1890": 6,
-        "4158": 6,
+        "2525": 6,
         "8453": 6,
         "8822": 6,
-        "10143": 6,
         "42161": 6,
-        "59144": 6,
-        "80094": 6
+        "59144": 6
       },
       "liquidityDex": {
-        "1": "UniswapV3",
-        "56": "PancakeSwapV2",
+        "1": "UniswapV2",
+        "56": "PancakeSwapV3",
         "137": "UniswapV3",
-        "146": "ShadowExchange",
-        "751": "Citea",
         "1890": "Elektrik",
-        "4158": "XSwap",
-        "8453": "Aerodrome",
-        "8822": "MagicSea",
-        "10143": "PancakeSwapV2",
+        "2525": "External",
+        "8453": "UniswapV3",
+        "8822": "Wagmi",
         "42161": "UniswapV3",
-        "59144": "Nile",
-        "80094": "KodiakV3"
+        "59144": "Nile"
       },
       "active": true
     },
     "earnToken": {
-      "symbol": "ABOND",
+      "symbol": "CHPD",
       "address": {
-        "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
-        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
-        "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
+        "8453": "0xF2e244d4020C182e8E2C936d4055E3F0e578064F"
       },
       "decimals": {
-        "1": 18,
-        "56": 18,
-        "137": 18
+        "8453": 18
       },
       "liquidityDex": {
-        "1": "UniswapV3",
-        "56": "ThenaV1",
-        "137": "QuickswapV2"
+        "8453": "UniswapV2"
       },
       "active": true
     },
