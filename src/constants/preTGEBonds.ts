@@ -4,7 +4,7 @@ import tokens from './tokens'
 const preTGEBonds: PreTGEBond[] = [
   {
     index: 1,
-    chainId: ChainId.BSC,
+    chainId: ChainId.BASE,
     refundable: false,
     saleStartTime: 'Feb 18th 14:00 UTC',
     totalAllocation: '19,166,667 CHPD',
