@@ -15,7 +15,7 @@ const preTGEBonds: PreTGEBond[] = [
     shortDescription: 'shortDescription',
     fullDescription: `fullDescription`,
     tags: ['LaunchPad'],
-    contractAddress: '0xAF8CABc5d4F8294B79a3e278b55Dc2dA67523498',
+    contractAddress: '0x00Bac942EC892A666C8f045a092c6C2ea0d1bF92',
     billVersion: BillVersion.TieredSale,
     billType: 'fcfs',
     token: tokens.usdt,
