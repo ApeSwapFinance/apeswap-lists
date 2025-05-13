@@ -87,7 +87,7 @@
   },
   {
     "index": 2,
-    "chainId": 8453,
+    "chainId": 56,
     "refundable": false,
     "saleStartTime": "Feb 18th 14:00 UTC",
     "totalAllocation": "19,166,667 CHPD",
@@ -97,7 +97,7 @@
     "shortDescription": "shortDescription",
     "fullDescription": "fullDescription",
     "tags": ["LaunchPad"],
-    "contractAddress": "0xAF8CABc5d4F8294B79a3e278b55Dc2dA67523498",
+    "contractAddress": "0x4F375db113921A7FdA759413846cDe1e10dD958C",
     "billVersion": "TieredSale",
     "billType": "fcfs",
     "token": {
@@ -144,29 +144,35 @@
       "active": true
     },
     "earnToken": {
-      "symbol": "CHPD",
+      "symbol": "ABOND",
       "address": {
-        "8453": "0xF2e244d4020C182e8E2C936d4055E3F0e578064F"
+        "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
+        "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
       },
       "decimals": {
-        "8453": 18
+        "1": 18,
+        "56": 18,
+        "137": 18
       },
       "liquidityDex": {
-        "8453": "UniswapV2"
+        "1": "UniswapV3",
+        "56": "ThenaV1",
+        "137": "QuickswapV2"
       },
       "active": true
     },
     "billNnftAddress": {
-      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+      "56": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
     },
     "soldOut": false,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
-    "initTime": 1739887200,
-    "finishTime": 1740434400,
-    "redeemTime": 1740575100,
-    "startVestingTimestamp": 1740575100,
+    "initTime": 1747151460,
+    "finishTime": 1747162260,
+    "redeemTime": 1747162260,
+    "startVestingTimestamp": 1747162260,
     "initPrice": 0.006,
     "initialRelease": 40,
     "tokensDistributedAtRedeem": true
