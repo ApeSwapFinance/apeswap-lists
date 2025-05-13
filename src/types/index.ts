@@ -371,6 +371,9 @@ export interface PreTGEBond {
   initPrice: number
   initialRelease: number
   tokensDistributedAtRedeem: boolean
+  tiersAirdrop?: {
+    [key: string]: number
+  }
 }
 
 // Version Mapping

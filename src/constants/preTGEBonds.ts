@@ -1,4 +1,4 @@
-import { BillArtCollection, BillVersion, ChainId, PreTGEBond } from '../types'
+import { BillArtCollection, BillVersion, ChainId, LaunchBondTiers, PreTGEBond } from '../types'
 import tokens from './tokens'
 
 const preTGEBonds: PreTGEBond[] = [
@@ -63,6 +63,14 @@ const preTGEBonds: PreTGEBond[] = [
     initPrice: 0.006,
     initialRelease: 40,
     tokensDistributedAtRedeem: true,
+    tiersAirdrop: {
+      [LaunchBondTiers.Legend]: 0.6,
+      [LaunchBondTiers.Diamond]: 0.5,
+      [LaunchBondTiers.Gold]: 0.4,
+      [LaunchBondTiers.Silver]: 0.3,
+      [LaunchBondTiers.Bronze]: 0.2,
+      ['noTier']: 0.1,
+    },
   },
 ]
 
