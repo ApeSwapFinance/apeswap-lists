@@ -2179,6 +2179,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  deod: {
+    symbol: 'DEOD',
+    address: {
+      [ChainId.MATIC]: '0xE77aBB1E75D2913B2076DD16049992FFeACa5235',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.External,
+    },
+    active: true,
+  },
   orbs: {
     symbol: 'ORBS',
     address: {
