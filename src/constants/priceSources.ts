@@ -126,6 +126,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       type: 'token',
       tokenAddress: '0xB6a5ae40e79891E4DeAdAd06C8A7cA47396Df21C',
     },
+    '0xE77aBB1E75D2913B2076DD16049992FFeACa5235': {
+      name: 'Decentrawood',
+      symbol: 'DEOD',
+      decimals: 18,
+      source: PriceSource.Mexc,
+      id: 'DEODUSDT',
+      tokenAddress: '0xE77aBB1E75D2913B2076DD16049992FFeACa5235',
+    },
   },
   [ChainId.BASE]: {
     '0xACf80A4e55F5f28e1e7d261a221cA495DB5bcbB3': {
