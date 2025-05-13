@@ -4176,6 +4176,14 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  airas: {
+    symbol: 'AIRAS',
+    address: {
+      [ChainId.MAINNET]: '0x0624069497F830BEa84bd7Ad410b878270130035',
+    },
+    decimals: { [ChainId.MAINNET]: 18 },
+    active: true,
+  },
   fric: {
     symbol: 'FRIC',
     address: {
