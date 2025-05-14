@@ -6,8 +6,8 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2027
 // ETH Largest ID: 3042
-// Linea Largest ID: 6015
-// Base Largest ID: 8048
+// Linea Largest ID: 6019
+// Base Largest ID: 8049
 // Lightlink Largest ID: 7003
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
@@ -15,7 +15,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Blast Largest ID: 11000
 // Singularity Testnet Largest ID: 12000
 // Crossfi Largest ID: 13000
-// Monad Testnet Largest ID: 14009
+// Monad Testnet Largest ID: 14011
 // Sonic Largest ID: 15000
 // Berachain Largest ID: 16000
 const bills: BillsConfig[] = [
@@ -133,7 +133,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.soniclabs.com/',
     twitter: 'https://x.com/SonicLabs',
     initTime: { [ChainId.SONIC]: 1745316614 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -148,6 +148,59 @@ const bills: BillsConfig[] = [
   //
   // Monad Testnet
   //
+  {
+    index: 14011,
+    version: '2.1.0',
+    chainId: ChainId.MONAD_TESTNET,
+    contractAddress: {
+      [ChainId.MONAD_TESTNET]: '0xA1cDaAc61e33b4d3a0c91A1f9468a23f64087756',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.mon,
+    earnToken: tokens.atl,
+    billNnftAddress: {
+      [ChainId.MONAD_TESTNET]: '0x04f1D39a5A5EFCB6e51891E01d4acCD8c434775C',
+    },
+    inactive: false,
+    projectLink: 'https://atlantisdex.xyz',
+    twitter: 'https://x.com/atlantisdex_xyz',
+    initTime: { [ChainId.MONAD_TESTNET]: 1747234338 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Testnet'],
+    shortDescription: `Atlantis is the most advanced DeFAi platform on Monad, merging ancient wisdom with cutting-edge DeFi. Offering a DEX, launchpad, cross-chain swaps, fiat on/off ramp, and more, it delivers a seamless, no-KYC, fully on-chain experience. Powered by ancient AI tech and the $ATL token, Atlantis unlocks elite tools with sustainable tokenomics and unmatched efficiency.`,
+    fullDescription: `Atlantis is a next-generation DeFi ecosystem on Monad, merging lost ancient technologies with cutting-edge decentralized finance to create the ultimate DeFAi gateway. Drawing inspiration from the wisdom of the Atlanteans, the Emerald Tablets, and the forgotten knowledge of the Anunnaki, Atlantis delivers a comprehensive suite of tools including a DEX, launchpad, cross-chain swaps, fiat on/off ramp, and more—all designed for peak efficiency and usability. Leveraging ancient AI technologies once used before the Younger Dryas, Atlantis optimizes trading, liquidity provision, and yield farming, offering users advanced strategies and superior performance. Entirely on-chain and requiring no KYC, it provides a user experience typically found only on centralized exchanges while preserving privacy and decentralization. At its core is the $ATL token, used for incentives, staking, and engagement, backed by a sustainable tokenomics model that ensures fair distribution and long-term growth. Atlantis stands as the most advanced DeFAi platform on Monad, where mythical wisdom meets modern financial innovation.`,
+    warningCard: `Testnet Bonds use fake tokens for testing purposes only.`,
+  },
+  {
+    index: 14010,
+    version: '2.1.0',
+    chainId: ChainId.MONAD_TESTNET,
+    contractAddress: {
+      [ChainId.MONAD_TESTNET]: '0xd28EBDB5aD2412b102fb251384C5EC90cFEB19C3',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.mon,
+    earnToken: tokens.azt,
+    billNnftAddress: {
+      [ChainId.MONAD_TESTNET]: '0x04f1D39a5A5EFCB6e51891E01d4acCD8c434775C',
+    },
+    inactive: false,
+    projectLink: 'https://www.azex.io/',
+    initTime: { [ChainId.MONAD_TESTNET]: 1746818338 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Testnet'],
+    shortDescription: `AZEx is a decentralized peer-to-pool perpetual DEX on Berachain that makes DeFi trading fast, effortless, and intuitive. It routes funds to top protocols for yield opportunities, maximizing on-chain asset use. With AZT as its native token, users can create pools, launch tokens, and earn validator rewards—all in a seamless, automated, and transparent environment. * While AZEx’s mainnet runs on Berachain, this Bond will utilize the AZEx testnet on Monad solely for testing purposes.`,
+    fullDescription: `AZEx is a decentralized peer-to-pool perpetual DEX (Perp DEX) built for speed, simplicity, and agentic intelligence—making DeFi trading so intuitive, even your grandma could use it. Deeply integrated with Berachain, AZEx intelligently routes user funds across top DeFi protocols, including DEXs, lending platforms, perpetuals, and yield aggregators, to unlock optimal farming opportunities. This automated, permissionless infrastructure ensures transparency and decentralization while maximizing capital efficiency. Traders and liquidity providers benefit from validator rewards and the AZT token, which powers the platform by enabling permissionless pool creation, token launches, and fund establishment. AZEx redefines on-chain perpetual trading, merging ease-of-use with advanced blockchain logic in seconds.`,
+    warningCard: `Testnet Bonds use fake tokens for testing purposes only.`,
+  },
   {
     index: 14009,
     version: '2.1.0',
@@ -194,7 +247,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.monad.xyz',
     twitter: 'https://x.com/monad_xyz',
     initTime: { [ChainId.MONAD_TESTNET]: 1744716522 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -607,6 +660,34 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
+  {
+    index: 8049,
+    cmcId: 35595,
+    version: '2.1.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x313A15A47b7D9862aD5266B9ea2D5A5117014F88',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.gmrt,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://www.gmrtag.io/',
+    twitter: 'https://x.com/TheGame_Company',
+    initTime: { [ChainId.BASE]: 1747061931 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['GAMEFI'],
+    shortDescription: `The Game Company, a cloud gaming platform enhanced by AI and Web3. Play any game on any device, anywhere—no hardware or downloads needed. Bring your own games from Steam, Epic, and more. Earn rewards in GMRT through play-to-earn mechanics, game entry fees, and token staking for tournaments based on performance.`,
+    fullDescription: `The Game Company, a groundbreaking platform at the intersection of AI, Web3, and cloud gaming. Designed to eliminate the need for expensive hardware or downloads, it enables players to enjoy any game on any device, anywhere in the world—even bringing their own titles from Steam, Epic, AE, or Battle.net. The platform redefines gaming freedom and introduces a play-to-earn model that transforms time spent playing into real value. With a vast library spanning all genres and gamer types, it fosters a truly inclusive ecosystem. Rewards are distributed in GMRT, a native token generated through supply inflation and game entry fees. Players can stake GMRT to enter tournaments, where payouts depend on both token stake and in-game performance, blending skill and strategy with earning potential.`,
+    feeInPayout: 3.5,
+  },
   {
     index: 8048,
     cmcId: 31978,
@@ -2118,6 +2199,33 @@ const bills: BillsConfig[] = [
   // LINEA
   //
   {
+    index: 6019,
+    version: '2.1.0',
+    chainId: ChainId.LINEA,
+    contractAddress: {
+      [ChainId.LINEA]: '0x383DCc61af360b73c24CaaeD805Ca0fd4cadEB52',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.hotdog,
+    billNnftAddress: {
+      [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
+    },
+    inactive: false,
+    projectLink: 'https://www.hotdog.pet/',
+    twitter: 'https://x.com/HotdogLinea',
+    initTime: { [ChainId.LINEA]: 1747174598 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Meme', 'Community'],
+    shortDescription: `HOTDOG, the sauciest meme on Linea, brings a fiery mix of memes, madness, and mouthwatering fun. More than just a token, it’s a cultural sensation powered by 69% memes, 31% hotdogs, and an unstoppable community. With a fresh website, expanding partnerships, and growing momentum, HOTDOG is ready to take a bite out of the market, this is the hottest dog on the blockchain!`,
+    fullDescription: `Everyone loves hotdogs. Everyone loves memes. HotDog on Linea is the ultimate snackable sensation—69% memes, 31% hotdogs, 100% delicious. Fresh off the grill, it’s back with a new website, juicier partnerships, and a community that’s always hungry for more. HOTDOG isn’t just a memecoin—it’s a movement, a meme revolution, and the tastiest token on the blockchain. From AI-generated hotdog art to the most unhinged hotdog memes, this is where degens and food lovers unite. Think you can resist? The market’s heating up, and this is your chance to lock in your spot at the meme table. No forks, no knives—just raw, saucy fun. Whether you're here to stack, snack, or just enjoy the absurdity of a blockchain hotdog, this is your moment. Don't miss out—because nothing hits the spot like $HOTDOG!`,
+    feeInPayout: 0,
+  },
+  {
     index: 6018,
     version: '2.1.0',
     chainId: ChainId.LINEA,
@@ -2620,6 +2728,45 @@ const bills: BillsConfig[] = [
   // BNB chain
   //
   {
+    index: 1152,
+    cmcId: 29157,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0xd4D2C00CAeB79C936AD5ac6C0E07B6aa38dc9E9c',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.abond,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://ape.bond/',
+    twitter: 'https://twitter.com/apebond',
+    audit: 'https://paladinsec.co/projects/apebond/',
+    initTime: { [ChainId.BSC]: 1747062264 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    shortDescription:
+      'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
+    fullDescription:
+      'ApeBond is building a sustainable DeFi future through its innovative Bonds products and strategic partnerships. Known for its Crowdsource OTC solution and treasury diversification expertise, ApeBond has launched Bonds with over 140 partners, sold 38,000+ Bonds for a total of $14,000,000 USD, and achieved a top 10 Dapp status by daily active users (DAU) according to CoinMarketCap. The ABOND token ties users with the platform by unlocking special Bonds, new earning opportunities, and more utilities coming up in the pipeline.',
+    tags: ['Bonding'],
+    partnersURLS: [
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/Seedify_fbt392.svg',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613244/ORBS_anzm60.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/quickLogo_2_1_g95ynz.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/aitech_logo_100_real_no_fake_bjskiq.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
+    ],
+    feeInPayout: 0,
+  },
+  {
     index: 1151,
     version: '2.1.0',
     chainId: ChainId.BSC,
@@ -2667,7 +2814,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://outerringmmo.com/',
     twitter: 'https://twitter.com/OuterRingMMO',
     initTime: { [ChainId.BSC]: 1744051437 },
-    soldOut: true,
+    soldOut: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -2696,7 +2843,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://outerringmmo.com/',
     twitter: 'https://twitter.com/OuterRingMMO',
     initTime: { [ChainId.BSC]: 1744051437 },
-    soldOut: true,
+    soldOut: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -2819,7 +2966,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.BSC]: 1745566483 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -9625,7 +9772,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.MATIC]: 1746549923 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },

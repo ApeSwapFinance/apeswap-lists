@@ -20,6 +20,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  atl: {
+    symbol: 'ATL',
+    address: {
+      [ChainId.MONAD_TESTNET]: '0x1eA9099E3026e0b3F8Dd6FbacAa45f30fCe67431',
+    },
+    decimals: {
+      [ChainId.MONAD_TESTNET]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MONAD_TESTNET]: LiquidityDex.External,
+    },
+    active: true,
+  },
   azt: {
     symbol: 'AZT',
     address: {
@@ -650,6 +663,19 @@ const tokens: Record<string, Token> = {
     symbol: 'FULA',
     address: {
       [ChainId.BASE]: '0x9e12735d77c72c5C3670636D428f2F3815d8A4cB',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV3,
+    },
+  },
+  gmrt: {
+    symbol: 'GMRT',
+    address: {
+      [ChainId.BASE]: '0x6967F0974d76d34e140caE27efeA32CDf546b58E',
     },
     decimals: {
       [ChainId.BASE]: 18,
@@ -2157,6 +2183,19 @@ const tokens: Record<string, Token> = {
     symbol: 'TRKX',
     address: {
       [ChainId.MATIC]: '0x61bf130d973d59c69d3227f1668d534d83119860',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.External,
+    },
+    active: true,
+  },
+  deod: {
+    symbol: 'DEOD',
+    address: {
+      [ChainId.MATIC]: '0xE77aBB1E75D2913B2076DD16049992FFeACa5235',
     },
     decimals: {
       [ChainId.MATIC]: 18,
@@ -4148,6 +4187,14 @@ const tokens: Record<string, Token> = {
     liquidityDex: {
       [ChainId.MAINNET]: LiquidityDex.UniswapV3,
     },
+    active: true,
+  },
+  airas: {
+    symbol: 'AIRAS',
+    address: {
+      [ChainId.MAINNET]: '0x0624069497F830BEa84bd7Ad410b878270130035',
+    },
+    decimals: { [ChainId.MAINNET]: 18 },
     active: true,
   },
   fric: {
