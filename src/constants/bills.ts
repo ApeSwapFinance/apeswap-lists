@@ -15,7 +15,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Blast Largest ID: 11000
 // Singularity Testnet Largest ID: 12000
 // Crossfi Largest ID: 13000
-// Monad Testnet Largest ID: 14010
+// Monad Testnet Largest ID: 14011
 // Sonic Largest ID: 15000
 // Berachain Largest ID: 16000
 const bills: BillsConfig[] = [
@@ -148,6 +148,33 @@ const bills: BillsConfig[] = [
   //
   // Monad Testnet
   //
+  {
+    index: 14011,
+    version: '2.1.0',
+    chainId: ChainId.MONAD_TESTNET,
+    contractAddress: {
+      [ChainId.MONAD_TESTNET]: '0xA1cDaAc61e33b4d3a0c91A1f9468a23f64087756',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.mon,
+    earnToken: tokens.atl,
+    billNnftAddress: {
+      [ChainId.MONAD_TESTNET]: '0x04f1D39a5A5EFCB6e51891E01d4acCD8c434775C',
+    },
+    inactive: false,
+    projectLink: 'https://atlantisdex.xyz',
+    twitter: 'https://x.com/atlantisdex_xyz',
+    initTime: { [ChainId.MONAD_TESTNET]: 1747234338 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Testnet'],
+    shortDescription: `Atlantis is the most advanced DeFAi platform on Monad, merging ancient wisdom with cutting-edge DeFi. Offering a DEX, launchpad, cross-chain swaps, fiat on/off ramp, and more, it delivers a seamless, no-KYC, fully on-chain experience. Powered by ancient AI tech and the $ATL token, Atlantis unlocks elite tools with sustainable tokenomics and unmatched efficiency.`,
+    fullDescription: `Atlantis is a next-generation DeFi ecosystem on Monad, merging lost ancient technologies with cutting-edge decentralized finance to create the ultimate DeFAi gateway. Drawing inspiration from the wisdom of the Atlanteans, the Emerald Tablets, and the forgotten knowledge of the Anunnaki, Atlantis delivers a comprehensive suite of tools including a DEX, launchpad, cross-chain swaps, fiat on/off ramp, and more—all designed for peak efficiency and usability. Leveraging ancient AI technologies once used before the Younger Dryas, Atlantis optimizes trading, liquidity provision, and yield farming, offering users advanced strategies and superior performance. Entirely on-chain and requiring no KYC, it provides a user experience typically found only on centralized exchanges while preserving privacy and decentralization. At its core is the $ATL token, used for incentives, staking, and engagement, backed by a sustainable tokenomics model that ensures fair distribution and long-term growth. Atlantis stands as the most advanced DeFAi platform on Monad, where mythical wisdom meets modern financial innovation.`,
+    warningCard: `Testnet Bonds use fake tokens for testing purposes only.`,
+  },
   {
     index: 14010,
     version: '2.1.0',
