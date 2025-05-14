@@ -284,5 +284,107 @@
       "4": 0.6,
       "noTier": 0.1
     }
+  },
+  {
+    "index": 3,
+    "chainId": 1,
+    "refundable": false,
+    "saleStartTime": "Feb 18th 14:00 UTC",
+    "totalAllocation": "19,166,667 CHPD",
+    "salePriceString": "$0.006",
+    "vestingTimeString": "2 Months",
+    "vestingTimeTooltip": "40% of the tokens will be released at TGE (Feb 26th). The remaining tokens will vest linearly over 2 months.",
+    "shortDescription": "test bond",
+    "fullDescription": "fullDescription",
+    "tags": ["LaunchPad"],
+    "contractAddress": "0xAF8CABc5d4F8294B79a3e278b55Dc2dA67523498",
+    "billVersion": "TieredSale",
+    "billType": "fcfs",
+    "token": {
+      "symbol": "USDC",
+      "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+        "146": "0x29219dd400f2Bf60E5a23d13Be72B486D4038894",
+        "751": "0xD2ED81BE83B33218737Ca188EB9AC28b79C6A0F3",
+        "1890": "0x18fB38404DADeE1727Be4b805c5b242B5413Fa40",
+        "4158": "0x7bBcE15166bBc008EC1aDF9b3D6bbA0602FCE7Ba",
+        "8453": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+        "8822": "0xFbDa5F676cB37624f28265A144A48B0d6e87d3b6",
+        "10143": "0xf817257fed379853cDe0fa4F97AB987181B1E5Ea",
+        "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+        "59144": "0x176211869cA2b568f2A7D4EE941E073a821EE1ff",
+        "80094": "0x549943e04f40284185054145c6E4e9568C1D3241"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "146": 6,
+        "751": 18,
+        "1890": 6,
+        "4158": 6,
+        "8453": 6,
+        "8822": 6,
+        "10143": 6,
+        "42161": 6,
+        "59144": 6,
+        "80094": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV3",
+        "56": "PancakeSwapV2",
+        "137": "UniswapV3",
+        "146": "ShadowExchange",
+        "751": "Citea",
+        "1890": "Elektrik",
+        "4158": "XSwap",
+        "8453": "Aerodrome",
+        "8822": "MagicSea",
+        "10143": "PancakeSwapV2",
+        "42161": "UniswapV3",
+        "59144": "Nile",
+        "80094": "KodiakV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "SKAI",
+      "address": {
+        "1": "0xCF078DA6e85389de507ceeDE0E3d217e457B9d49"
+      },
+      "decimals": {
+        "1": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "1": "UniswapV3"
+      }
+    },
+    "billNnftAddress": {
+      "1": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "initTime": 1747151460,
+    "finishTime": 1747162260,
+    "redeemTime": 1747162260,
+    "startVestingTimestamp": 1747162260,
+    "initPrice": 0.006,
+    "initialRelease": 40,
+    "tokensDistributedAtRedeem": true,
+    "tiersAirdrop": {
+      "0": 0.2,
+      "1": 0.3,
+      "2": 0.4,
+      "3": 0.5,
+      "4": 0.6,
+      "noTier": 0.1
+    }
   }
 ]
