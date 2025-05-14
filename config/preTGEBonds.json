@@ -178,18 +178,10 @@
     "finishTime": 1747846800,
     "redeemTime": 1748170800,
     "startVestingTimestamp": 1748170800,
-    "initPrice": 0.0005,
+    "initPrice": 0.0003333,
     "tgePrice": 0.0005,
     "initialRelease": 25,
-    "tokensDistributedAtRedeem": true,
-    "tiersAirdrop": {
-      "0": 0.2,
-      "1": 0.3,
-      "2": 0.4,
-      "3": 0.5,
-      "4": 0.6,
-      "noTier": 0.1
-    }
+    "tokensDistributedAtRedeem": true
   },
   {
     "index": 3,
