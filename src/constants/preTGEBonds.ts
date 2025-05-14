@@ -48,7 +48,7 @@ const preTGEBonds: PreTGEBond[] = [
     shortDescription:
       'AIRAS (Artificial Intelligence Real Assets System) is a comprehensive platform dedicated to leveraging AI and Blockchain for real world asset management, investment, and optimization. It powers autonomous applications across industries, enabling efficient, transparent, and scalable asset management. The AIRAS token fuels the ecosystem through transactions, governance, and incentives.',
     fullDescription: `AIRAS (Artificial Intelligence Real Assets System) is a decentralized framework that bridges traditional and tokenized markets by transforming physical assets and commodities into tradable digital tokens using AI and blockchain. Designed for real-world adoption, AIRAS powers autonomous applications across sectors like supply chains, real estate, and energy, driving efficiency, transparency, and scalability. By integrating advanced AI with a dedicated blockchain, AIRAS enables seamless interaction between digital and physical assets, setting a new standard for asset management. The AIRAS token plays a central role in powering the ecosystem, facilitating transactions, governance, and incentivizing network participation.`,
-    tags: ['LaunchPad'],
+    tags: ['AI'],
     contractAddress: '0xBFD8eA911959deefC5F369438c14eb304Fe6FD13',
     billVersion: BillVersion.TieredSale,
     billType: 'fcfs',
@@ -80,7 +80,7 @@ const preTGEBonds: PreTGEBond[] = [
       '40% of the tokens will be released at TGE (Feb 26th). The remaining tokens will vest linearly over 2 months.',
     shortDescription: 'this was a chpd real launch bond',
     fullDescription: `fullDescription`,
-    tags: ['LaunchPad'],
+    tags: ['AI'],
     contractAddress: '0x00Bac942EC892A666C8f045a092c6C2ea0d1bF92',
     billVersion: BillVersion.TieredSale,
     billType: 'fcfs',
