@@ -33,14 +33,6 @@ const preTGEBonds: PreTGEBond[] = [
     initPrice: 0.0002,
     initialRelease: 25,
     tokensDistributedAtRedeem: true,
-    tiersAirdrop: {
-      [LaunchBondTiers.Legend]: 0.6,
-      [LaunchBondTiers.Diamond]: 0.5,
-      [LaunchBondTiers.Gold]: 0.4,
-      [LaunchBondTiers.Silver]: 0.3,
-      [LaunchBondTiers.Bronze]: 0.2,
-      ['noTier']: 0.1,
-    },
   },
   {
     index: 2,
