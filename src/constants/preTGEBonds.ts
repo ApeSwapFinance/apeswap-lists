@@ -31,6 +31,7 @@ const preTGEBonds: PreTGEBond[] = [
     redeemTime: 1748170800,
     startVestingTimestamp: 1748170800,
     initPrice: 0.0002,
+    tgePrice: 0.0005,
     initialRelease: 25,
     tokensDistributedAtRedeem: true,
   },
@@ -63,6 +64,7 @@ const preTGEBonds: PreTGEBond[] = [
     redeemTime: 1748170800,
     startVestingTimestamp: 1748170800,
     initPrice: 0.0005,
+    tgePrice: 0.0005,
     initialRelease: 25,
     tokensDistributedAtRedeem: true,
     tiersAirdrop: {
@@ -102,6 +104,7 @@ const preTGEBonds: PreTGEBond[] = [
     redeemTime: 1740575100,
     startVestingTimestamp: 1740575100,
     initPrice: 0.006,
+    tgePrice: 0.0005,
     initialRelease: 40,
     tokensDistributedAtRedeem: true,
   },
@@ -133,6 +136,7 @@ const preTGEBonds: PreTGEBond[] = [
     redeemTime: 1747242300,
     startVestingTimestamp: 1747242300,
     initPrice: 0.0002,
+    tgePrice: 0.0005,
     initialRelease: 25,
     tokensDistributedAtRedeem: true,
     tiersAirdrop: {

@@ -368,7 +368,8 @@ export interface PreTGEBond {
   finishTime: number
   redeemTime: number
   startVestingTimestamp: number
-  initPrice: number
+  initPrice: number // price we sell, aka: bondPrice
+  tgePrice: number // price at TGE
   initialRelease: number
   tokensDistributedAtRedeem: boolean
   tiersAirdrop?: {
