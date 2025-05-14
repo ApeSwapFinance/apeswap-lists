@@ -218,6 +218,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       price: 1,
       tokenAddress: '0xb83D8fe3D51b2ecc09242fCDa318057b17Ed5971', //AZT
     },
+    '0x1eA9099E3026e0b3F8Dd6FbacAa45f30fCe67431': {
+      name: 'Atlantis',
+      symbol: 'ATL',
+      decimals: 18,
+      source: PriceSource.Fixed,
+      price: 1,
+      tokenAddress: '0x1eA9099E3026e0b3F8Dd6FbacAa45f30fCe67431', //ATL
+    },
   },
   [ChainId.KATANA_TESTNET]: {
     '0x17B8Ee96E3bcB3b04b3e8334de4524520C51caB4': {
