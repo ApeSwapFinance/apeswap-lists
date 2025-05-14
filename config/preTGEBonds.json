@@ -286,7 +286,7 @@
     }
   },
   {
-    "index": 3,
+    "index": 4,
     "chainId": 1,
     "refundable": false,
     "saleStartTime": "Feb 18th 14:00 UTC",
@@ -297,7 +297,7 @@
     "shortDescription": "test bond",
     "fullDescription": "fullDescription",
     "tags": ["LaunchPad"],
-    "contractAddress": "0xAF8CABc5d4F8294B79a3e278b55Dc2dA67523498",
+    "contractAddress": "0xc081c4112d7e8a1123F0B98fc5fC48f9a5d4dF02",
     "billVersion": "TieredSale",
     "billType": "fcfs",
     "token": {
