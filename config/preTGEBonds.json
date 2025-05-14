@@ -65,6 +65,16 @@
       },
       "active": true
     },
+    "earnToken": {
+      "symbol": "AIRAS",
+      "address": {
+        "1": "0x0624069497F830BEa84bd7Ad410b878270130035"
+      },
+      "decimals": {
+        "1": 18
+      },
+      "active": true
+    },
     "billNnftAddress": {
       "1": "0x499b654b0A7f9979CC315190C09cA2633809B8dF"
     },
@@ -151,6 +161,16 @@
         "42161": "UniswapV3",
         "59144": "Nile",
         "80094": "KodiakV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "AIRAS",
+      "address": {
+        "1": "0x0624069497F830BEa84bd7Ad410b878270130035"
+      },
+      "decimals": {
+        "1": 18
       },
       "active": true
     },
