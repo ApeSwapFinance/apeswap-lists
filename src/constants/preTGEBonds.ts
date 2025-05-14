@@ -1,4 +1,4 @@
-import { BillArtCollection, BillVersion, ChainId, LaunchBondTiers, PreTGEBond } from '../types'
+import { BillArtCollection, BillVersion, ChainId, PreTGEBond } from '../types'
 import tokens from './tokens'
 
 const preTGEBonds: PreTGEBond[] = [
@@ -15,7 +15,7 @@ const preTGEBonds: PreTGEBond[] = [
     shortDescription:
       'AIRAS (Artificial Intelligence Real Assets System) is a comprehensive platform dedicated to leveraging AI and Blockchain for real world asset management, investment, and optimization. It powers autonomous applications across industries, enabling efficient, transparent, and scalable asset management. The AIRAS token fuels the ecosystem through transactions, governance, and incentives.',
     fullDescription: `AIRAS (Artificial Intelligence Real Assets System) is a decentralized framework that bridges traditional and tokenized markets by transforming physical assets and commodities into tradable digital tokens using AI and blockchain. Designed for real-world adoption, AIRAS powers autonomous applications across sectors like supply chains, real estate, and energy, driving efficiency, transparency, and scalability. By integrating advanced AI with a dedicated blockchain, AIRAS enables seamless interaction between digital and physical assets, setting a new standard for asset management. The AIRAS token plays a central role in powering the ecosystem, facilitating transactions, governance, and incentivizing network participation.`,
-    tags: ['LaunchPad'],
+    tags: ['AI'],
     contractAddress: '0x6402BD234187a695352085518C835131494E5E35',
     billVersion: BillVersion.TieredSale,
     billType: 'fcfs',
@@ -67,78 +67,6 @@ const preTGEBonds: PreTGEBond[] = [
     tgePrice: 0.0005,
     initialRelease: 25,
     tokensDistributedAtRedeem: true,
-  },
-  {
-    index: 3,
-    chainId: ChainId.BASE,
-    refundable: false,
-    saleStartTime: 'Feb 18th 14:00 UTC',
-    totalAllocation: '19,166,667 CHPD',
-    salePriceString: '$0.006',
-    vestingTimeString: '2 Months',
-    vestingTimeTooltip:
-      '40% of the tokens will be released at TGE (Feb 26th). The remaining tokens will vest linearly over 2 months.',
-    shortDescription: 'this was a chpd real launch bond',
-    fullDescription: `fullDescription`,
-    tags: ['AI'],
-    contractAddress: '0x00Bac942EC892A666C8f045a092c6C2ea0d1bF92',
-    billVersion: BillVersion.TieredSale,
-    billType: 'fcfs',
-    token: tokens.usdt,
-    earnToken: tokens.chpd,
-    billNnftAddress: {
-      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
-    },
-    soldOut: false,
-    billArt: { collection: BillArtCollection.ApeBond_Collection1 },
-    initTime: 1739887200,
-    finishTime: 1740434400,
-    redeemTime: 1740575100,
-    startVestingTimestamp: 1740575100,
-    initPrice: 0.006,
-    tgePrice: 0.0005,
-    initialRelease: 40,
-    tokensDistributedAtRedeem: true,
-  },
-  {
-    index: 4,
-    chainId: ChainId.MAINNET,
-    refundable: false,
-    saleStartTime: 'Feb 18th 14:00 UTC',
-    totalAllocation: '19,166,667 CHPD',
-    salePriceString: '$0.006',
-    vestingTimeString: '2 Months',
-    vestingTimeTooltip:
-      '40% of the tokens will be released at TGE (Feb 26th). The remaining tokens will vest linearly over 2 months.',
-    shortDescription: 'test bond',
-    fullDescription: `fullDescription`,
-    tags: ['LaunchPad'],
-    contractAddress: '0xc081c4112d7e8a1123F0B98fc5fC48f9a5d4dF02',
-    billVersion: BillVersion.TieredSale,
-    billType: 'fcfs',
-    token: tokens.usdc,
-    earnToken: tokens.skai,
-    billNnftAddress: {
-      [ChainId.MAINNET]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
-    },
-    soldOut: false,
-    billArt: { collection: BillArtCollection.ApeBond_Collection1 },
-    initTime: 1747224300,
-    finishTime: 1747242300,
-    redeemTime: 1747242300,
-    startVestingTimestamp: 1747242300,
-    initPrice: 0.0002,
-    tgePrice: 0.0005,
-    initialRelease: 25,
-    tokensDistributedAtRedeem: true,
-    tiersAirdrop: {
-      [LaunchBondTiers.Legend]: 0.6,
-      [LaunchBondTiers.Diamond]: 0.5,
-      [LaunchBondTiers.Gold]: 0.4,
-      [LaunchBondTiers.Silver]: 0.3,
-      [LaunchBondTiers.Bronze]: 0.2,
-      ['noTier']: 0.1,
-    },
   },
 ]
 
