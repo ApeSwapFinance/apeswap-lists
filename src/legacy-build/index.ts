@@ -18,6 +18,7 @@ import {
   flashBonds,
   dexFactoriesPriceApi,
   priceSources,
+  preTGEBonds,
 } from '../constants'
 import { BillsConfig } from '../types'
 
@@ -35,6 +36,7 @@ const listMap: [any, string][] = [
   [jungleFarmsV2, 'jungleFarmsV2'],
   [poolsV2, 'poolsV2'],
   [launchProjects, 'launchProjects'],
+  [preTGEBonds, 'preTGEBonds'],
   [flashBonds, 'flashBonds'],
   [dexFactoriesPriceApi, 'dexFactoriesPriceApi'],
   [priceSources, 'priceSources'],
