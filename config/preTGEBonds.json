@@ -371,12 +371,12 @@
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
-    "initTime": 1747151460,
-    "finishTime": 1747162260,
-    "redeemTime": 1747162260,
-    "startVestingTimestamp": 1747162260,
-    "initPrice": 0.006,
-    "initialRelease": 40,
+    "initTime": 1747224300,
+    "finishTime": 1747242300,
+    "redeemTime": 1747242300,
+    "startVestingTimestamp": 1747242300,
+    "initPrice": 0.0002,
+    "initialRelease": 25,
     "tokensDistributedAtRedeem": true,
     "tiersAirdrop": {
       "0": 0.2,
