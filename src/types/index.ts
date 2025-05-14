@@ -342,6 +342,41 @@ export enum LaunchBondTiers {
   Legend,
 }
 
+export interface PreTGEBond {
+  index: number
+  chainId: ChainId
+  refundable: boolean
+  saleStartTime: string
+  totalAllocation: string
+  salePriceString: string
+  vestingTimeString: string
+  vestingTimeTooltip: string
+  shortDescription: string
+  fullDescription: string
+  tags: string[]
+  contractAddress: string
+  billVersion: BillVersion
+  billType: string
+  token: Token
+  earnToken: Token
+  billNnftAddress: Partial<Record<ChainId, string>>
+  soldOut: boolean
+  billArt: {
+    collection: BillArtCollection
+  }
+  initTime: number
+  finishTime: number
+  redeemTime: number
+  startVestingTimestamp: number
+  initPrice: number // price we sell, aka: bondPrice
+  tgePrice: number // price at TGE
+  initialRelease: number
+  tokensDistributedAtRedeem: boolean
+  tiersAirdrop?: {
+    [key: string]: number
+  }
+}
+
 // Version Mapping
 // 2.0.0 => old bonds
 // 2.1.0 => tiered bonds
