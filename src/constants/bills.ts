@@ -934,7 +934,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/spns_ai',
     audit: 'https://audits.hacken.io/sapiens-labs-inc/sca-sapiens-ai-token-jan2025/',
     initTime: { [ChainId.BASE]: 1743159819 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -3185,7 +3185,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/Shieldeum',
     audit: 'https://skynet.certik.com/projects/shieldeum',
     initTime: { [ChainId.BSC]: 1733498631 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -3330,7 +3330,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.bnbagents.ai/',
     twitter: 'https://x.com/BNBAgents_AI',
     initTime: { [ChainId.BSC]: 1742999872 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
