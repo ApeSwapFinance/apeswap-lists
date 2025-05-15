@@ -1705,7 +1705,7 @@
     "initTime": {
       "8453": 1743159819
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -6030,7 +6030,7 @@
     "initTime": {
       "56": 1733498631
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -6311,7 +6311,7 @@
     "initTime": {
       "56": 1742999872
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -19166,6 +19166,68 @@
     },
     "inactive": true,
     "soldOut": true
+  },
+  {
+    "index": 182,
+    "cmcId": 29157,
+    "version": "2.1.0",
+    "chainId": 137,
+    "contractAddress": {
+      "137": "0xDb4EFb63cC91D9ad54D0eD9198dd9169e3e07620"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "137": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359"
+      },
+      "decimals": {
+        "137": 6
+      },
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "ABOND",
+      "address": {
+        "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "QuickswapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "137": "0x8860ABc05FefEF93306c8d65a5eFD421F155d67E"
+    },
+    "inactive": false,
+    "projectLink": "https://ape.bond/",
+    "twitter": "https://twitter.com/apebond",
+    "audit": "https://paladinsec.co/projects/apebond/",
+    "initTime": {
+      "137": 1746549923
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["Bonding"],
+    "shortDescription": "ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.",
+    "fullDescription": "ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity. 'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.",
+    "partnersURLS": [
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/Seedify_fbt392.svg",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613244/ORBS_anzm60.png",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/quickLogo_2_1_g95ynz.png",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/aitech_logo_100_real_no_fake_bjskiq.png",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png"
+    ]
   },
   {
     "index": 181,
