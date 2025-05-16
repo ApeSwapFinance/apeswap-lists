@@ -372,6 +372,9 @@ export interface PreTGEBond {
   tgePrice: number // price at TGE
   initialRelease: number
   tokensDistributedAtRedeem: boolean
+  projectLink?: string
+  twitter?: string
+  audit?: string
   tiersAirdrop?: {
     [key: string]: number
   }
