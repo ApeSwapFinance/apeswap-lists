@@ -34,6 +34,8 @@ const preTGEBonds: PreTGEBond[] = [
     tgePrice: 0.0005,
     initialRelease: 25,
     tokensDistributedAtRedeem: true,
+    twitter: 'https://x.com/AirasNetwork',
+    projectLink: 'https://www.airas.com/',
   },
   {
     index: 2,
@@ -67,6 +69,8 @@ const preTGEBonds: PreTGEBond[] = [
     tgePrice: 0.0005,
     initialRelease: 25,
     tokensDistributedAtRedeem: true,
+    twitter: 'https://x.com/AirasNetwork',
+    projectLink: 'https://www.airas.com/',
   },
 ]
 

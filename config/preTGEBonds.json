@@ -89,7 +89,9 @@
     "initPrice": 0.0002,
     "tgePrice": 0.0005,
     "initialRelease": 25,
-    "tokensDistributedAtRedeem": true
+    "tokensDistributedAtRedeem": true,
+    "twitter": "https://x.com/AirasNetwork",
+    "projectLink": "https://www.airas.com/"
   },
   {
     "index": 2,
@@ -181,6 +183,8 @@
     "initPrice": 0.0003333,
     "tgePrice": 0.0005,
     "initialRelease": 25,
-    "tokensDistributedAtRedeem": true
+    "tokensDistributedAtRedeem": true,
+    "twitter": "https://x.com/AirasNetwork",
+    "projectLink": "https://www.airas.com/"
   }
 ]
