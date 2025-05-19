@@ -1958,6 +1958,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  furi: {
+    symbol: 'FURI',
+    address: {
+      [ChainId.MATIC]: '0x5742fE477b2afed92c25D092418BaC06CD076ceA',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.External,
+    },
+    active: true,
+  },
   mv: {
     symbol: 'MV',
     address: {
