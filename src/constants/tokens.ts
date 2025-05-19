@@ -4307,6 +4307,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  dextf: {
+    symbol: 'DEXTF',
+    address: {
+      [ChainId.MAINNET]: '0x5F64Ab1544D28732F0A24F4713c2C8ec0dA089f0',
+    },
+    decimals: { [ChainId.MAINNET]: 18 },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV3,
+    },
+    active: true,
+  },
   dck: {
     symbol: 'DCK',
     address: {
@@ -6912,6 +6923,26 @@ const tokens: Record<string, Token> = {
       [ChainId.MAINNET]: LiquidityDex.UniswapV3,
     },
     liquidityWrapper: Wrappers.Ichi,
+    active: true,
+    lpToken: true,
+    getLpUrl: {
+      [ChainId.MAINNET]:
+        'https://app.ichi.org/vault/token/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/pairedtoken/0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1/tab/deposit',
+    },
+  },
+  dextfWeth_Ichi: {
+    symbol: 'DEXTF-ETH',
+    address: {
+      [ChainId.MAINNET]: '0x0c129441c355535ca25da1f427346f78ce700ffa',
+    },
+    decimals: {
+      [ChainId.MAINNET]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV3,
+    },
+    liquidityWrapper: Wrappers.Ichi,
+    ichiUnderlyingDex: IchiSupportedDex.UniswapV3,
     active: true,
     lpToken: true,
     getLpUrl: {

@@ -5,7 +5,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Polygon Largest ID: 180
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2027
-// ETH Largest ID: 3042
+// ETH Largest ID: 3045
 // Linea Largest ID: 6019
 // Base Largest ID: 8049
 // Lightlink Largest ID: 7003
@@ -13304,6 +13304,7 @@ With the lending products set to go live in February, the project is poised to a
   /*
       ETH Bills - ID started from 3000
   */
+
   {
     index: 3000,
     version: '1.0.0',
@@ -14654,6 +14655,36 @@ With the lending products set to go live in February, the project is poised to a
     fullDescription:
       'Backed by over 13 years of expertise in IT solutions, ABD Systems ensures the token is seamlessly integrated with its technology services, delivering a personalized and innovative user experience. Founded in 2009 by visionary entrepreneurs committed to creating tech solutions for societal good, ABD Systems is on a mission to drive transformative change through smart systems and high technology. With features like staking rewards and real-world integration, the ABDS Token is positioned to lead the digital revolution, empowering users to earn and grow in a future without limits. The ABDS Token, created by ABD Systems, represents a leap forward in digital finance by offering a secure, fast, and accessible entry into the cryptocurrency market.',
     feeInPayout: 2,
+  },
+  {
+    index: 3045,
+    cmcId: 8691,
+    version: '2.1.0',
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0xb8545EF5a58761c0D9a1602BA07E2A614a707128',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.dextfWeth_Ichi,
+    earnToken: tokens.dextf,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    inactive: false,
+    projectLink: 'https://mementoblockchain.com/',
+    twitter: 'https://x.com/Memento_Bc',
+    initTime: { [ChainId.MAINNET]: 1747655984 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['Blockchains'],
+    shortDescription:
+      'Memento is an RWA project developing blockchain-based infrastructure for TradFi institutions to enable institutional blockchain adoption. In collaboration with Deutsche Bank, Memento built Memento ZKchain, an institutional-grade ETH L2 for tokenized fund management and RWA tokenization—secure, scalable, and compliant. $DEXTF is the only utility token accruing value from the entire Memento ecosystem.',
+    fullDescription:
+      'Memento is an RWA project developing blockchain-based infrastructure for TradFi institutions to drive institutional blockchain adoption. In collaboration with Deutsche Bank, Memento built Memento ZKchain—an institutional-grade ETH L2 designed for tokenized fund management and RWA tokenization, with security, compliance, and scalability in mind. Memento also launched “Memento Digital Fund Management,” a multi-chain protocol to create, manage, invest in, and redeem ETF-style tokenized funds. $DEXTF is the only utility token that accrues value from the entire Memento ecosystem. More info on $DEXTF and its utility can be found <a href="https://mementoblockchain.com/dextf" target="_blank" rel="noopener noreferrer" style="color: #6099c5">here</a>.',
+    feeInPayout: 5,
   },
 ]
 
