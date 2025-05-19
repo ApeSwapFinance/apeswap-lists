@@ -14664,7 +14664,7 @@ With the lending products set to go live in February, the project is poised to a
     contractAddress: {
       [ChainId.MAINNET]: '0xb8545EF5a58761c0D9a1602BA07E2A614a707128',
     },
-    billType: 'reserve',
+    billType: 'liquidity',
     billVersion: BillVersion.V4,
     lpToken: tokens.dextfWeth_Ichi,
     earnToken: tokens.dextf,
