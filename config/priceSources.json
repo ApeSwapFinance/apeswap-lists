@@ -73,6 +73,14 @@
       "source": "mexc",
       "id": "DEODUSDT",
       "tokenAddress": "0xE77aBB1E75D2913B2076DD16049992FFeACa5235"
+    },
+    "0x5742fE477b2afed92c25D092418BaC06CD076ceA": {
+      "name": "FURI",
+      "symbol": "FURI",
+      "decimals": 18,
+      "source": "mexc",
+      "id": "FURIUSDT",
+      "tokenAddress": "0x5742fE477b2afed92c25D092418BaC06CD076ceA"
     }
   },
   "614": {
