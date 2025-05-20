@@ -906,7 +906,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.degendistillery.com/',
     twitter: 'https://x.com/degendistillery',
     initTime: { [ChainId.BASE]: 1743159819 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
