@@ -9764,7 +9764,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     lpToken: tokens.usdt,
     earnToken: tokens.furi,
     billNnftAddress: {
-      [ChainId.MATIC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+      [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
     },
     inactive: false,
     projectLink: 'https://oyabun.io/',
