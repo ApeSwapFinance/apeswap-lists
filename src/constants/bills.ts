@@ -2,7 +2,7 @@ import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, MigrationVestingTerms } from '../types'
 
 // BNB Largest ID: 1151
-// Polygon Largest ID: 180
+// Polygon Largest ID: 183
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2027
 // ETH Largest ID: 3046
@@ -9752,6 +9752,36 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   /*
     Polygon Bills
   */
+  {
+    index: 183,
+    version: '2.1.1',
+    chainId: ChainId.MATIC,
+    contractAddress: {
+      [ChainId.MATIC]: '0x0B1d45aC30e9adb9896e1eB5788717cC30505301',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.furi,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://oyabun.io/',
+    twitter: 'https://x.com/OyabunGame',
+    initTime: { [ChainId.MATIC]: 1747732584 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['GAMEFI'],
+    shortDescription:
+      'Oyabun is a Web3 mobile game set in a cyber-yakuza manga universe where players train, upgrade, and battle as powerful operatives. With just 10 minutes of daily play, users earn rewards, but true success demands strategic planning. The game features three currencies—$OYAB, $BUN, and $FURI—each playing a role in character growth and long-term progression.',
+    fullDescription:
+      ' Oyabun is a Web3 mobile game set in a gripping manga-inspired cyber-yakuza universe, blending immersive gameplay with strategic depth and social interaction. Players embody cyber-yakuza operatives, training and upgrading their characters to rise through the ranks and challenge others in intense battles. With just 10 minutes of daily gameplay, users can earn rewards and progress, but true dominance requires long-term planning and tactical execution. The game features a unique tri-currency system: $OYAB (off-chain, earned early-game), $BUN (on-chain, used for strategic actions like breeding and upgrading), and $FURI (a deflationary token swappable into $BUN), creating a dynamic and rewarding economic ecosystem.',
+    feeInPayout: 5,
+    warningCard: `This token is currently only tradable on <a href="https://www.mexc.com/exchange/FURI_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a>`,
+  },
   {
     index: 182,
     cmcId: 29157,

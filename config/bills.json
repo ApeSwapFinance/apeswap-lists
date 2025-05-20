@@ -19168,6 +19168,60 @@
     "soldOut": true
   },
   {
+    "index": 183,
+    "version": "2.1.1",
+    "chainId": 137,
+    "contractAddress": {
+      "137": "0x0B1d45aC30e9adb9896e1eB5788717cC30505301"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+      },
+      "decimals": {
+        "137": 6
+      },
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "FURI",
+      "address": {
+        "137": "0x5742fE477b2afed92c25D092418BaC06CD076ceA"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "137": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://oyabun.io/",
+    "twitter": "https://x.com/OyabunGame",
+    "initTime": {
+      "137": 1747732584
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["GAMEFI"],
+    "shortDescription": "Oyabun is a Web3 mobile game set in a cyber-yakuza manga universe where players train, upgrade, and battle as powerful operatives. With just 10 minutes of daily play, users earn rewards, but true success demands strategic planning. The game features three currencies—$OYAB, $BUN, and $FURI—each playing a role in character growth and long-term progression.",
+    "fullDescription": " Oyabun is a Web3 mobile game set in a gripping manga-inspired cyber-yakuza universe, blending immersive gameplay with strategic depth and social interaction. Players embody cyber-yakuza operatives, training and upgrading their characters to rise through the ranks and challenge others in intense battles. With just 10 minutes of daily gameplay, users can earn rewards and progress, but true dominance requires long-term planning and tactical execution. The game features a unique tri-currency system: $OYAB (off-chain, earned early-game), $BUN (on-chain, used for strategic actions like breeding and upgrading), and $FURI (a deflationary token swappable into $BUN), creating a dynamic and rewarding economic ecosystem.",
+    "feeInPayout": 5,
+    "warningCard": "This token is currently only tradable on <a href=\"https://www.mexc.com/exchange/FURI_USDT\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #6099c5\">MEXC</a>"
+  },
+  {
     "index": 182,
     "cmcId": 29157,
     "version": "2.1.0",
