@@ -812,6 +812,7 @@ export const dexFactories: Partial<
   [ChainId.SONIC]: {
     [LiquidityDex.ShadowExchange]: {
       factory: '0x2dA25E7446A70D7be65fd4c053948BEcAA6374c8',
+      router: '0x1D368773735ee1E678950B7A97bcA2CafB330CDc',
       protocol: Protocols.Solidly,
     },
     // [LiquidityDex.ShadowExchangeV3]: {
