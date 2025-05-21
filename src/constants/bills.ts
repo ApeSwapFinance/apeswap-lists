@@ -57,6 +57,36 @@ const bills: BillsConfig[] = [
   // Sonic
   //
   {
+    index: 15003,
+    cmcId: 36324,
+    version: '2.1.0',
+    chainId: ChainId.SONIC,
+    contractAddress: {
+      [ChainId.SONIC]: '0xEa4fdBE35E198A4e5cac2dee05cFD117D2912548',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.spinUsdc_ShadowExchange,
+    earnToken: tokens.spin,
+    billNnftAddress: {
+      [ChainId.SONIC]: '0xc765C358622cB346f236F8Bfffe53036e421bb4e',
+    },
+    inactive: false,
+    projectLink: 'https://spinit.owl.games/',
+    twitter: 'https://x.com/SPIN__IT',
+    initTime: { [ChainId.SONIC]: 1747817717 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    fullDescription:
+      'Let the games begin with $SPIN — the native token of SPIN IT, a premier GambleFi destination built on the $S blockchain. Offering a full suite of gaming experiences including sports betting, casino, poker, and more, SPIN IT provides users with fast, fun, and fair gameplay through top-tier providers like Evolution, MicroGaming, and Pragmatic Play. Players can deposit and gamble with $SPIN, $S, $USDT, $USDC, and $SHADOW, with more assets coming soon. Unique features like bet2earn reward users in $SPIN for their activity, while the staking pool allows $SPIN holders to earn a share of casino revenues, bolstered by monthly rewards, buybacks, and burns. Liquidity for $SPIN is hosted on Shadow, the leading DEX on $S, offering high APRs and weekly bribes. Whether you’re a degen or a casual player, $SPIN is your go-to token for gaming on one of crypto’s fastest-growing ecosystems.',
+    shortDescription:
+      'SPIN IT is a GambleFi hub on the Sonic blockchain, offering casino games, sports betting, poker, and more. Users can play with $SPIN and other tokens, earn through bet2earn, and stake to share in casino revenue. With liquidity on Shadow DEX, high APRs, and weekly bribes, SPIN IT combines speed, fairness, and rewards in one thrilling experience.',
+    tags: ['Gambling'],
+    feeInPayout: 5,
+  },
+  {
     index: 15002,
     version: '2.1.0',
     chainId: ChainId.SONIC,

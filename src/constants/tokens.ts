@@ -140,8 +140,8 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
-  spn_spinIt: {
-    symbol: 'SPN',
+  spin: {
+    symbol: 'SPIN',
     address: {
       [ChainId.SONIC]: '0x777ecd9a05d4640133f6112F3aA777f1eD5AcACE',
     },
@@ -7150,8 +7150,8 @@ const tokens: Record<string, Token> = {
       [ChainId.SONIC]: 'https://equalizer.exchange/liquidity/0x6D9B4d31C66291c13F33AE1B2D8c1a5Be8a77c4f/add',
     },
   },
-  spnUsdc_ShadowExchange: {
-    symbol: 'SPN-USDC',
+  spinUsdc_ShadowExchange: {
+    symbol: 'SPIN-USDC',
     address: {
       [ChainId.SONIC]: '0x5fc0E8736dc1012940fF373aDE4Bf6e09444Cc3b',
     },
