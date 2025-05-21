@@ -140,6 +140,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  spin: {
+    symbol: 'SPIN',
+    address: {
+      [ChainId.SONIC]: '0x777ecd9a05d4640133f6112F3aA777f1eD5AcACE',
+    },
+    decimals: {
+      [ChainId.SONIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.SONIC]: LiquidityDex.ShadowExchange,
+    },
+    active: true,
+  },
   moon: {
     symbol: 'MOON',
     address: {
@@ -3158,6 +3171,19 @@ const tokens: Record<string, Token> = {
     active: true,
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+  },
+  brics: {
+    symbol: 'BRICS',
+    address: {
+      [ChainId.BSC]: '0xec9742f992ACc615C4252060D896c845ca8fC086',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.External,
     },
   },
   aspo: {
@@ -7135,6 +7161,21 @@ const tokens: Record<string, Token> = {
     },
     getLpUrl: {
       [ChainId.SONIC]: 'https://equalizer.exchange/liquidity/0x6D9B4d31C66291c13F33AE1B2D8c1a5Be8a77c4f/add',
+    },
+  },
+  spinUsdc_ShadowExchange: {
+    symbol: 'SPIN-USDC',
+    address: {
+      [ChainId.SONIC]: '0x5fc0E8736dc1012940fF373aDE4Bf6e09444Cc3b',
+    },
+    decimals: { [ChainId.SONIC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.SONIC]: LiquidityDex.ShadowExchange,
+    },
+    getLpUrl: {
+      [ChainId.SONIC]: 'https://www.shadow.so/liquidity/add',
     },
   },
 }

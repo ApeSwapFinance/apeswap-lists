@@ -108,6 +108,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       type: 'token',
       tokenAddress: '0xBDf5bAfEE1291EEc45Ae3aadAc89BE8152D4E673',
     },
+    '0xec9742f992ACc615C4252060D896c845ca8fC086': {
+      name: 'BRICS Chain',
+      symbol: 'BRICS',
+      decimals: 18,
+      source: PriceSource.Coingecko,
+      id: 'brics-chain',
+      tokenAddress: '0xec9742f992ACc615C4252060D896c845ca8fC086',
+    },
   },
   [ChainId.MATIC]: {
     '0x61bf130d973d59c69d3227f1668d534d83119860': {
