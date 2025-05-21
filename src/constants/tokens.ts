@@ -140,6 +140,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  spn_spinIt: {
+    symbol: 'SPN',
+    address: {
+      [ChainId.SONIC]: '0x777ecd9a05d4640133f6112F3aA777f1eD5AcACE',
+    },
+    decimals: {
+      [ChainId.SONIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.SONIC]: LiquidityDex.ShadowExchange,
+    },
+    active: true,
+  },
   moon: {
     symbol: 'MOON',
     address: {
