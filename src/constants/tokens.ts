@@ -7150,6 +7150,21 @@ const tokens: Record<string, Token> = {
       [ChainId.SONIC]: 'https://equalizer.exchange/liquidity/0x6D9B4d31C66291c13F33AE1B2D8c1a5Be8a77c4f/add',
     },
   },
+  spnUsdc_ShadowExchange: {
+    symbol: 'SPN-USDC',
+    address: {
+      [ChainId.SONIC]: '0x5fc0E8736dc1012940fF373aDE4Bf6e09444Cc3b',
+    },
+    decimals: { [ChainId.SONIC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.SONIC]: LiquidityDex.ShadowExchange,
+    },
+    getLpUrl: {
+      [ChainId.SONIC]: 'https://www.shadow.so/liquidity/add',
+    },
+  },
 }
 
 export default tokens
