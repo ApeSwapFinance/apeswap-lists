@@ -55,7 +55,8 @@
     "fullDescription": "Let the games begin with $SPIN — the native token of SPIN IT, a premier GambleFi destination built on the $S blockchain. Offering a full suite of gaming experiences including sports betting, casino, poker, and more, SPIN IT provides users with fast, fun, and fair gameplay through top-tier providers like Evolution, MicroGaming, and Pragmatic Play. Players can deposit and gamble with $SPIN, $S, $USDT, $USDC, and $SHADOW, with more assets coming soon. Unique features like bet2earn reward users in $SPIN for their activity, while the staking pool allows $SPIN holders to earn a share of casino revenues, bolstered by monthly rewards, buybacks, and burns. Liquidity for $SPIN is hosted on Shadow, the leading DEX on $S, offering high APRs and weekly bribes. Whether you’re a degen or a casual player, $SPIN is your go-to token for gaming on one of crypto’s fastest-growing ecosystems.",
     "shortDescription": "SPIN IT is a GambleFi hub on the Sonic blockchain, offering casino games, sports betting, poker, and more. Users can play with $SPIN and other tokens, earn through bet2earn, and stake to share in casino revenue. With liquidity on Shadow DEX, high APRs, and weekly bribes, SPIN IT combines speed, fairness, and rewards in one thrilling experience.",
     "tags": ["Gambling"],
-    "feeInPayout": 5
+    "feeInPayout": 5,
+    "warningCard": "Heads Up: Buying this Bond may require a higher slippage."
   },
   {
     "index": 15002,

@@ -85,6 +85,7 @@ const bills: BillsConfig[] = [
       'SPIN IT is a GambleFi hub on the Sonic blockchain, offering casino games, sports betting, poker, and more. Users can play with $SPIN and other tokens, earn through bet2earn, and stake to share in casino revenue. With liquidity on Shadow DEX, high APRs, and weekly bribes, SPIN IT combines speed, fairness, and rewards in one thrilling experience.',
     tags: ['Gambling'],
     feeInPayout: 5,
+    warningCard: 'Heads Up: Buying this Bond may require a higher slippage.',
   },
   {
     index: 15002,
