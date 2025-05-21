@@ -3173,6 +3173,19 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
     },
   },
+  brics: {
+    symbol: 'BRICS',
+    address: {
+      [ChainId.BSC]: '0xec9742f992ACc615C4252060D896c845ca8fC086',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.External,
+    },
+  },
   aspo: {
     symbol: 'ASPO',
     address: {
