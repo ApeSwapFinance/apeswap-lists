@@ -83,7 +83,7 @@
       "collection": "ApeBond_Collection1"
     },
     "initTime": 1747242000,
-    "finishTime": 1747846800,
+    "finishTime": 1748167200,
     "redeemTime": 1748170800,
     "startVestingTimestamp": 1748170800,
     "initPrice": 0.0002,
@@ -177,7 +177,7 @@
       "collection": "ApeBond_Collection1"
     },
     "initTime": 1747237200,
-    "finishTime": 1747846800,
+    "finishTime": 1748167200,
     "redeemTime": 1748170800,
     "startVestingTimestamp": 1748170800,
     "initPrice": 0.0003333,
