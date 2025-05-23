@@ -7,7 +7,7 @@ const bills: BillsConfig[] = [
     version: '2.1.1',
     chainId: ChainId.SOL,
     contractAddress: {
-      [ChainId.SOL]: 'JAfwdyVqjKJWM2GDN4VXyx5a598e1weMbuoBzT1y3CZS', //aka bond issuance PDA
+      [ChainId.SOL]: '8KYLiejUgnVLSiPVgUvvbmiPJzxBjBqQjjp6pvZNHw4L', //aka bond issuance PDA
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
