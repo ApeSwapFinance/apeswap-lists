@@ -14745,7 +14745,7 @@ With the lending products set to go live in February, the project is poised to a
       'Memento is an RWA project developing blockchain-based infrastructure for TradFi institutions to enable institutional blockchain adoption. In collaboration with Deutsche Bank, Memento built Memento ZKchain, an institutional-grade ETH L2 for tokenized fund management and RWA tokenization—secure, scalable, and compliant. $DEXTF is the only utility token accruing value from the entire Memento ecosystem.',
     fullDescription:
       'Memento is an RWA project developing blockchain-based infrastructure for TradFi institutions to drive institutional blockchain adoption. In collaboration with Deutsche Bank, Memento built Memento ZKchain—an institutional-grade ETH L2 designed for tokenized fund management and RWA tokenization, with security, compliance, and scalability in mind. Memento also launched “Memento Digital Fund Management,” a multi-chain protocol to create, manage, invest in, and redeem ETF-style tokenized funds. $DEXTF is the only utility token that accrues value from the entire Memento ecosystem. More info on $DEXTF and its utility can be found <a href="https://mementoblockchain.com/dextf" target="_blank" rel="noopener noreferrer" style="color: #6099c5">here</a>.',
-    feeInPayout: 5,
+    feeInPayout: 0,
   },
   {
     index: 3046,
@@ -14775,7 +14775,7 @@ With the lending products set to go live in February, the project is poised to a
       'Memento is an RWA project developing blockchain-based infrastructure for TradFi institutions to enable institutional blockchain adoption. In collaboration with Deutsche Bank, Memento built Memento ZKchain, an institutional-grade ETH L2 for tokenized fund management and RWA tokenization—secure, scalable, and compliant. $DEXTF is the only utility token accruing value from the entire Memento ecosystem.',
     fullDescription:
       'Memento is an RWA project developing blockchain-based infrastructure for TradFi institutions to drive institutional blockchain adoption. In collaboration with Deutsche Bank, Memento built Memento ZKchain—an institutional-grade ETH L2 designed for tokenized fund management and RWA tokenization, with security, compliance, and scalability in mind. Memento also launched “Memento Digital Fund Management,” a multi-chain protocol to create, manage, invest in, and redeem ETF-style tokenized funds. $DEXTF is the only utility token that accrues value from the entire Memento ecosystem. More info on $DEXTF and its utility can be found <a href="https://mementoblockchain.com/dextf" target="_blank" rel="noopener noreferrer" style="color: #6099c5">here</a>.',
-    feeInPayout: 5,
+    feeInPayout: 0,
   },
 ]
 
