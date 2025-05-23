@@ -7,7 +7,7 @@
       "7565164": "ErXg311BPJLbdv42wL3nJXkFwZTrY5DHUpxZdT7qc6Dq"
     },
     "billType": "reserve",
-    "billVersion": "V4",
+    "billVersion": "V2",
     "lpToken": {
       "symbol": "GNANA",
       "address": {

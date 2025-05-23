@@ -10,7 +10,7 @@ const bills: BillsConfig[] = [
       [ChainId.SOL]: 'ErXg311BPJLbdv42wL3nJXkFwZTrY5DHUpxZdT7qc6Dq', //aka bond issuance PDA
     },
     billType: 'reserve',
-    billVersion: BillVersion.V4,
+    billVersion: BillVersion.V2,
     lpToken: tokens.gnana,
     earnToken: tokens.banana,
     billNnftAddress: {
