@@ -14,7 +14,7 @@ const bills: BillsConfig[] = [
     lpToken: tokens.gnana,
     earnToken: tokens.banana,
     billNnftAddress: {
-      [ChainId.SOL]: '29PsGxbXiwZ4Lft6Exun4pjGPeXSryDajKr6RkXAFi4k', // aka collection
+      [ChainId.SOL]: '7w72f4qNHKUTufxqgk9fSPFYhF6SrNamA6YhbSQakXcG', // aka collection
     },
     inactive: false,
     projectLink: 'https://www.moonbay.space/',
