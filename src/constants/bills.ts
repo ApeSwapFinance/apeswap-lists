@@ -26,7 +26,6 @@ const bills: BillsConfig[] = [
     fullDescription: `I wet my pants thinking in doublo's abs`,
     shortDescription: `I wet my pants thinking in doublo's abs`,
     tags: ['SOL'],
-    feeInPayout: 5,
   },
 ]
 
