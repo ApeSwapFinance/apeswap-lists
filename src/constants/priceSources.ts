@@ -283,7 +283,7 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       symbol: 'BANANA',
       decimals: 9,
       source: PriceSource.Fixed,
-      price: 1,
+      price: 69,
       tokenAddress: '6MkKT6ffNt6N22U2Q7yZaLC4QYrxGuFefwYrmd8XXsih',
     },
   },
