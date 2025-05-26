@@ -197,7 +197,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://atlantisdex.xyz',
     twitter: 'https://x.com/atlantisdex_xyz',
     initTime: { [ChainId.MONAD_TESTNET]: 1747234338 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -2845,7 +2845,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://outerringmmo.com/',
     twitter: 'https://twitter.com/OuterRingMMO',
     initTime: { [ChainId.BSC]: 1744051437 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -9938,7 +9938,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://film.io/',
     twitter: 'https://x.com/Filmio_Official',
     initTime: { [ChainId.MATIC]: 1743507293 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
