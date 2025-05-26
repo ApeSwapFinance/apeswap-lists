@@ -766,7 +766,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.veritasprotocol.com/',
     twitter: 'https://x.com/veritas_web3',
     initTime: { [ChainId.BASE]: 1745914126 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
