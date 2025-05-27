@@ -4883,6 +4883,32 @@ const tokens: Record<string, Token> = {
       [ChainId.ARBITRUM]: LiquidityDex.Curve,
     },
   },
+  trax: {
+    symbol: 'TRAX',
+    address: {
+      [ChainId.BERACHAIN]: '0xeaB9814BD2bf57F284368Bcbe9EB5A8394032ca8',
+    },
+    decimals: {
+      [ChainId.BERACHAIN]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BERACHAIN]: LiquidityDex.KodiakV3,
+    },
+  },
+  burr: {
+    symbol: 'BURR',
+    address: {
+      [ChainId.BERACHAIN]: '0x28e0e3B9817012b356119dF9e217c25932D609c2',
+    },
+    decimals: {
+      [ChainId.BERACHAIN]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BERACHAIN]: LiquidityDex.External,
+    },
+  },
   wethLdy_Ichi: {
     symbol: 'WETH-LDY',
     address: {
