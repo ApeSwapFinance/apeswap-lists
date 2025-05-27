@@ -2845,7 +2845,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://outerringmmo.com/',
     twitter: 'https://twitter.com/OuterRingMMO',
     initTime: { [ChainId.BSC]: 1744051437 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
