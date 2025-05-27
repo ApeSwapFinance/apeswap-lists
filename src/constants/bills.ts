@@ -3391,7 +3391,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://ceranos.finance/',
     twitter: 'https://x.com/CeranosFinance',
     initTime: { [ChainId.BSC]: 1742999872 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
