@@ -140,8 +140,8 @@
       "name": "Veritas",
       "symbol": "VPT",
       "decimals": 18,
-      "source": "mexc",
-      "id": "VPTUSDT",
+      "source": "coingecko",
+      "id": "veritas",
       "tokenAddress": "0x00096697DC24bd10423690126D91546A20Ccb3F0"
     }
   },
