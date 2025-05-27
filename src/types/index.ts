@@ -351,7 +351,7 @@ export interface PreTGEBond {
   totalAllocation: string
   salePriceString: string
   vestingTimeString: string
-  vestingTimeTooltip: string
+  tgeString: string
   shortDescription: string
   fullDescription: string
   tags: string[]
