@@ -287,6 +287,16 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       tokenAddress: '6MkKT6ffNt6N22U2Q7yZaLC4QYrxGuFefwYrmd8XXsih',
     },
   },
+  [ChainId.BERACHAIN]: {
+    '0x28e0e3B9817012b356119dF9e217c25932D609c2': {
+      name: 'Burr Governance Token',
+      symbol: 'BURR',
+      decimals: 18,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '0x28e0e3B9817012b356119dF9e217c25932D609c2',
+    },
+  },
 }
 
 export default priceSources

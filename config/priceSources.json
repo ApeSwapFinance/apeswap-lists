@@ -183,6 +183,16 @@
       "tokenAddress": "0xcc22F6AA610D1b2a0e89EF228079cB3e1831b1D1"
     }
   },
+  "80094": {
+    "0x28e0e3B9817012b356119dF9e217c25932D609c2": {
+      "name": "Burr Governance Token",
+      "symbol": "BURR",
+      "decimals": 18,
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "0x28e0e3B9817012b356119dF9e217c25932D609c2"
+    }
+  },
   "129399": {
     "0x17B8Ee96E3bcB3b04b3e8334de4524520C51caB4": {
       "name": "Wrapped Ether",
