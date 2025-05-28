@@ -23,36 +23,66 @@ const bills: BillsConfig[] = [
   // Berachain
   //
   // TEST BOND
-  // {
-  //   index: 16000,
-  //   version: '2.1.0',
-  //   cmcId: 24647,
-  //   chainId: ChainId.BERACHAIN,
-  //   contractAddress: {
-  //     [ChainId.BERACHAIN]: '0xf161E0D7A21715c47bDa8c6C56c4aa3ECCE01f96',
-  //   },
-  //   billType: 'reserve',
-  //   billVersion: BillVersion.V4,
-  //   lpToken: tokens.bera,
-  //   earnToken: tokens.honey,
-  //   billNnftAddress: {
-  //     [ChainId.BERACHAIN]: '0x1b7858f745211dBa1387fE30124eBCa2D706D7Dd',
-  //   },
-  //   inactive: false,
-  //   projectLink: 'https://berachain.com/',
-  //   twitter: 'https://x.com/berachain',
-  //   initTime: { [ChainId.BERACHAIN]: 1744851816 },
-  //   soldOut: false,
-  //   billArt: {
-  //     collection: BillArtCollection.ApeBond_Collection1,
-  //   },
-  //   tags: ['Blockchains'],
-  //   shortDescription:
-  //     'Berachain is an EVM-compatible Layer 1 using Proof of Liquidity (PoL) and a two-token system: BERA (gas/staking) and BGT (governance/rewards).',
-  //   fullDescription:
-  //     'Berachain is an EVM-identical Layer 1 blockchain that introduces Proof of Liquidity (PoL), a novel consensus mechanism aligning network security with liquidity provision. The protocol operates on a unique two-token model: BERA (gas and staking token) and BGT (non-transferable governance and rewards token).',
-  //   feeInPayout: 0,
-  // },
+  {
+    index: 16000,
+    version: '2.1.0',
+    chainId: ChainId.BERACHAIN,
+    contractAddress: {
+      [ChainId.BERACHAIN]: '0x688920D4Ae89F890a3b77f3bd014fd704359D3A5',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.trax,
+    billNnftAddress: {
+      [ChainId.BERACHAIN]: '0x1b7858f745211dBa1387fE30124eBCa2D706D7Dd',
+    },
+    inactive: false,
+    projectLink: 'https://beratrax.com/',
+    twitter: 'https://x.com/beratrax',
+    initTime: { [ChainId.BERACHAIN]: 1748420897 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Defi Tooling'],
+    shortDescription:
+      'BeraTrax is a mobile-first platform that simplifies earning yield on Berachain through one-click deposits, gasless transactions, and auto-compounding vaults. Users earn BGT or iBGT for ongoing validator rewards. TRAX holders decide which vault gets boosted each week, directing protocol bribes to maximize community-driven rewards.',
+    fullDescription:
+      'BeraTrax is the easiest way to earn yield on Berachain, offering users seamless access to vaults with auto-compounded rewards and integrated participation in Berachain’s Proof of Liquidity system—all through a mobile-friendly experience. Designed for both DeFi newcomers and veteran yield farmers, BeraTrax simplifies the process with one-click deposits, gas-free transactions, and automated yield strategies. Its unique BGT flywheel rewards users with BGT or iBGT, the latter of which continues to generate validator rewards even after emissions end. Protocol fees are used to bribe validators, directing BGT emissions to one vault per week as chosen by TRAX holders.',
+    feeInPayout: 5,
+  },
+  {
+    index: 16001,
+    version: '2.1.0',
+    chainId: ChainId.BERACHAIN,
+    contractAddress: {
+      [ChainId.BERACHAIN]: '0xB6192ebEaC01ADe085e367562016F3bd12D0B284',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.burr,
+    billNnftAddress: {
+      [ChainId.BERACHAIN]: '0x1b7858f745211dBa1387fE30124eBCa2D706D7Dd',
+    },
+    inactive: false,
+    projectLink: 'https://www.burrbear.io/',
+    twitter: 'https://x.com/moneygoesburr',
+    audit: 'https://docs.burrbear.io/contract-audits/audits',
+    initTime: { [ChainId.BERACHAIN]: 1748420897 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DEX'],
+    shortDescription:
+      'BurrBear is the one-stop stablecoin shop on Berachain, offering capital-efficient DeFi pools for stablecoins and tokenized assets. With Multi Stable Pools, innovative and more efficient `Burr Pools`, and Generalized Pools, it supports both like-priced and non-like-priced trades. Fueled by the BURR token, BurrBear unleashes a new era of capital-efficient trading.',
+    fullDescription:
+      'BurrBear is the one-stop stablecoin shop for the Berachain ecosystem, offering a novel decentralized exchange purpose-built for capital-efficient trading of stablecoins and tokenized assets. Its platform features Multi Stable Pools for classic USD:USD trades, Burr Pools—20x more capital-efficient than traditional pools—for a wide range of stablecoins backed by currencies, commodities, synthetic assets, or tokenized real-world and hardware assets, and Generalized Pools for broader token swaps. By combining the utility of Uniswap and Curve with a focus on off-chain market-tracking assets, BurrBear enables deep, flexible liquidity for both like-priced and non-like-priced assets. The protocol is powered by the BURR token, with a capped supply of 100 million, positioning BurrBear as a foundational pillar of Berachain DeFi. ',
+    feeInPayout: 5,
+  },
+
   //
   // Sonic
   //
