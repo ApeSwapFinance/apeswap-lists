@@ -90,5 +90,51 @@
     "shortDescription": "I wet my pants thinking in doublo's abs",
     "tags": ["SOL"],
     "feeInPayout": 1
+  },
+  {
+    "index": 3,
+    "version": "2.1.1",
+    "chainId": 7565164,
+    "contractAddress": {
+      "7565164": "818DUojMncJ2tPgMgyeXBXSrpS3X6EvdcfFddkHcCW1h"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "GNANA",
+      "address": {
+        "7565164": "9Go1k12GfUGyKSA4Hcw6svZ6E8T5Dkta8t3rmHF7xJNU"
+      },
+      "decimals": {
+        "7565164": 9
+      },
+      "active": true,
+      "liquidityDex": {}
+    },
+    "earnToken": {
+      "symbol": "BANANA",
+      "address": {
+        "7565164": "6MkKT6ffNt6N22U2Q7yZaLC4QYrxGuFefwYrmd8XXsih"
+      },
+      "decimals": {
+        "7565164": 9
+      },
+      "active": true,
+      "liquidityDex": {}
+    },
+    "billNnftAddress": {
+      "7565164": "9jXD9LMHfY32WyH9cid5YrnXhxbCdg38GZgtaENHFNkq"
+    },
+    "inactive": false,
+    "projectLink": "https://www.moonbay.space/",
+    "twitter": "https://x.com/MoonBaySonic",
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "fullDescription": "This is a test bond with 0% principalFee",
+    "shortDescription": "This is a test bond with 0% principalFee",
+    "tags": ["SOL"],
+    "feeInPayout": 1
   }
 ]

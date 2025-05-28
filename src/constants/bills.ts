@@ -54,6 +54,32 @@ const bills: BillsConfig[] = [
     tags: ['SOL'],
     feeInPayout: 1,
   },
+  {
+    index: 3,
+    version: '2.1.1',
+    chainId: ChainId.SOL,
+    contractAddress: {
+      [ChainId.SOL]: '818DUojMncJ2tPgMgyeXBXSrpS3X6EvdcfFddkHcCW1h', //aka bond issuance PDA
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.gnana,
+    earnToken: tokens.banana,
+    billNnftAddress: {
+      [ChainId.SOL]: '9jXD9LMHfY32WyH9cid5YrnXhxbCdg38GZgtaENHFNkq', // aka collection
+    },
+    inactive: false,
+    projectLink: 'https://www.moonbay.space/',
+    twitter: 'https://x.com/MoonBaySonic',
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    fullDescription: `This is a test bond with 0% principalFee`,
+    shortDescription: `This is a test bond with 0% principalFee`,
+    tags: ['SOL'],
+    feeInPayout: 1,
+  },
 ]
 
 export default bills
