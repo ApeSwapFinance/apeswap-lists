@@ -28752,7 +28752,7 @@
         "1": 18
       },
       "liquidityDex": {
-        "1": "UniswapV3"
+        "1": "UniswapV2"
       },
       "active": true
     },
@@ -28806,7 +28806,7 @@
         "1": 18
       },
       "liquidityDex": {
-        "1": "UniswapV3"
+        "1": "UniswapV2"
       },
       "active": true
     },
