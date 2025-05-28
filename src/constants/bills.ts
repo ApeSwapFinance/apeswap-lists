@@ -82,6 +82,35 @@ const bills: BillsConfig[] = [
       'BurrBear is the one-stop stablecoin shop for the Berachain ecosystem, offering a novel decentralized exchange purpose-built for capital-efficient trading of stablecoins and tokenized assets. Its platform features Multi Stable Pools for classic USD:USD trades, Burr Pools—20x more capital-efficient than traditional pools—for a wide range of stablecoins backed by currencies, commodities, synthetic assets, or tokenized real-world and hardware assets, and Generalized Pools for broader token swaps. By combining the utility of Uniswap and Curve with a focus on off-chain market-tracking assets, BurrBear enables deep, flexible liquidity for both like-priced and non-like-priced assets. The protocol is powered by the BURR token, with a capped supply of 100 million, positioning BurrBear as a foundational pillar of Berachain DeFi. ',
     feeInPayout: 5,
   },
+  {
+    index: 16002,
+    version: '2.1.0',
+    chainId: ChainId.BERACHAIN,
+    contractAddress: {
+      [ChainId.BERACHAIN]: '0x4cE5d7D5647A50e198498C9E1c50B7C565d95E8B',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.bera,
+    earnToken: tokens.aibera,
+    billNnftAddress: {
+      [ChainId.BERACHAIN]: '0x1b7858f745211dBa1387fE30124eBCa2D706D7Dd',
+    },
+    inactive: false,
+    projectLink: 'https://honey.fun/',
+    twitter: 'https://x.com/honeydotfun',
+    initTime: { [ChainId.BERACHAIN]: 1748420897 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Berachain_Collection1,
+    },
+    tags: ['DeFi'],
+    shortDescription:
+      'Honeyfun AI brings co-owned Utility AI Agents to Berachain, focusing on DeFi, gaming, and entertainment. Through the Honeyfun Protocol, users can create agents with persistent identity and real utility. $AIBERA powers the ecosystem, pairing with all AI LPs and capturing 100% of platform fees for staking and buybacks—driving real value and community growth.',
+    fullDescription:
+      'Honeyfun AI is pioneering a co-ownership framework for Utility AI Agents on the Berachain ecosystem, with a focus on DeFi, gaming, and entertainment. These agents are designed to be persistent, functional, and revenue-generating, maintaining consistent identity and memory across platforms to deepen user engagement and boost ARPU. Through the Honeyfun Protocol, users can collaboratively own, develop, and deploy AI agents, merging innovation in AI and blockchain with community-driven growth. Central to this vision is the $AIBERA token—not just a governance tool, but the economic backbone of the protocol. All AI agent LPs will be paired with $AIBERA, transforming it into an ETF-like asset for Berachain AI, while 100% of platform and trading fees will support staking and buybacks.',
+    feeInPayout: 5,
+  },
 
   //
   // Sonic

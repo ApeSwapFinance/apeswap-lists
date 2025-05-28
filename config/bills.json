@@ -107,6 +107,59 @@
     "feeInPayout": 5
   },
   {
+    "index": 16002,
+    "version": "2.1.0",
+    "chainId": 80094,
+    "contractAddress": {
+      "80094": "0x4cE5d7D5647A50e198498C9E1c50B7C565d95E8B"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "WBERA",
+      "address": {
+        "80094": "0x6969696969696969696969696969696969696969"
+      },
+      "decimals": {
+        "80094": 18
+      },
+      "liquidityDex": {
+        "80094": "KodiakV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "AIBERA",
+      "address": {
+        "80094": "0xCc6A16bcFda7D0ebE168F69Ef7b946e96A90E67F"
+      },
+      "decimals": {
+        "80094": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "80094": "KodiakV3"
+      }
+    },
+    "billNnftAddress": {
+      "80094": "0x1b7858f745211dBa1387fE30124eBCa2D706D7Dd"
+    },
+    "inactive": false,
+    "projectLink": "https://honey.fun/",
+    "twitter": "https://x.com/honeydotfun",
+    "initTime": {
+      "80094": 1748420897
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "Berachain_Collection1"
+    },
+    "tags": ["DeFi"],
+    "shortDescription": "Honeyfun AI brings co-owned Utility AI Agents to Berachain, focusing on DeFi, gaming, and entertainment. Through the Honeyfun Protocol, users can create agents with persistent identity and real utility. $AIBERA powers the ecosystem, pairing with all AI LPs and capturing 100% of platform fees for staking and buybacks—driving real value and community growth.",
+    "fullDescription": "Honeyfun AI is pioneering a co-ownership framework for Utility AI Agents on the Berachain ecosystem, with a focus on DeFi, gaming, and entertainment. These agents are designed to be persistent, functional, and revenue-generating, maintaining consistent identity and memory across platforms to deepen user engagement and boost ARPU. Through the Honeyfun Protocol, users can collaboratively own, develop, and deploy AI agents, merging innovation in AI and blockchain with community-driven growth. Central to this vision is the $AIBERA token—not just a governance tool, but the economic backbone of the protocol. All AI agent LPs will be paired with $AIBERA, transforming it into an ETF-like asset for Berachain AI, while 100% of platform and trading fees will support staking and buybacks.",
+    "feeInPayout": 5
+  },
+  {
     "index": 15003,
     "cmcId": 36324,
     "version": "2.1.0",
