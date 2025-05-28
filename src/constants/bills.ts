@@ -9801,7 +9801,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://oyabun.io/',
     twitter: 'https://x.com/OyabunGame',
     initTime: { [ChainId.MATIC]: 1747732584 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
