@@ -43,7 +43,7 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.BERACHAIN]: 1748420897 },
     soldOut: false,
     billArt: {
-      collection: BillArtCollection.ApeBond_Collection1,
+      collection: BillArtCollection.Berachain_Collection1,
     },
     tags: ['Defi Tooling'],
     shortDescription:
@@ -73,7 +73,7 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.BERACHAIN]: 1748420897 },
     soldOut: false,
     billArt: {
-      collection: BillArtCollection.ApeBond_Collection1,
+      collection: BillArtCollection.Berachain_Collection1,
     },
     tags: ['DEX'],
     shortDescription:

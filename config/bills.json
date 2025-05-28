@@ -45,7 +45,7 @@
     },
     "soldOut": false,
     "billArt": {
-      "collection": "ApeBond_Collection1"
+      "collection": "Berachain_Collection1"
     },
     "tags": ["Defi Tooling"],
     "shortDescription": "BeraTrax is a mobile-first platform that simplifies earning yield on Berachain through one-click deposits, gasless transactions, and auto-compounding vaults. Users earn BGT or iBGT for ongoing validator rewards. TRAX holders decide which vault gets boosted each week, directing protocol bribes to maximize community-driven rewards.",
@@ -99,7 +99,7 @@
     },
     "soldOut": false,
     "billArt": {
-      "collection": "ApeBond_Collection1"
+      "collection": "Berachain_Collection1"
     },
     "tags": ["DEX"],
     "shortDescription": "BurrBear is the one-stop stablecoin shop on Berachain, offering capital-efficient DeFi pools for stablecoins and tokenized assets. With Multi Stable Pools, innovative and more efficient `Burr Pools`, and Generalized Pools, it supports both like-priced and non-like-priced trades. Fueled by the BURR token, BurrBear unleashes a new era of capital-efficient trading.",
