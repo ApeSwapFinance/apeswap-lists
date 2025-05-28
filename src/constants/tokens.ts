@@ -4909,6 +4909,19 @@ const tokens: Record<string, Token> = {
       [ChainId.BERACHAIN]: LiquidityDex.External,
     },
   },
+  aibera: {
+    symbol: 'AIBERA',
+    address: {
+      [ChainId.BERACHAIN]: '0xCc6A16bcFda7D0ebE168F69Ef7b946e96A90E67F',
+    },
+    decimals: {
+      [ChainId.BERACHAIN]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BERACHAIN]: LiquidityDex.KodiakV3,
+    },
+  },
   wethLdy_Ichi: {
     symbol: 'WETH-LDY',
     address: {
