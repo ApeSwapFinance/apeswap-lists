@@ -22,7 +22,6 @@ const bills: BillsConfig[] = [
   //
   // Berachain
   //
-  // TEST BOND
   {
     index: 16000,
     version: '2.1.0',
