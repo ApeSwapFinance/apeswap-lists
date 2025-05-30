@@ -52,6 +52,31 @@ const preTGEBonds: PreTGEBond[] = [
     twitter: 'https://x.com/AirasNetwork',
     projectLink: 'https://www.airas.com/',
   },
+  {
+    index: 3,
+    chainId: ChainId.BSC,
+    refundable: false,
+    vestingTimeString: '5 Months',
+    tgeString: 'June 2nd',
+    shortDescription:
+      'TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT',
+    tags: ['AI'],
+    contractAddress: '0x57DbC66cC8fB41921F88659a97d50f96De8F65c9',
+    billVersion: BillVersion.TieredSale,
+    billType: 'fcfs',
+    token: tokens.usdt,
+    earnToken: tokens.abond,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    soldOut: false,
+    billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+    redeemTime: 1748604000,
+    tgePrice: 0.0002,
+    tokensDistributedAtRedeem: true,
+    twitter: 'https://x.com/AirasNetwork',
+    projectLink: 'https://www.airas.com/',
+  },
 ]
 
 export default preTGEBonds
