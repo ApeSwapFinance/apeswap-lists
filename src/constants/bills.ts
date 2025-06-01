@@ -2932,7 +2932,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://outerringmmo.com/',
     twitter: 'https://twitter.com/OuterRingMMO',
     initTime: { [ChainId.BSC]: 1744051437 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -14824,7 +14824,7 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://mementoblockchain.com/',
     twitter: 'https://x.com/Memento_Bc',
     initTime: { [ChainId.MAINNET]: 1747655984 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
