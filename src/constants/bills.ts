@@ -2874,7 +2874,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/papunextgen',
     audit: 'https://coinsult.net/projects/papu-coin/',
     initTime: { [ChainId.BSC]: 1746785390 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
