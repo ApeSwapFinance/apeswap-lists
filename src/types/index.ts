@@ -347,13 +347,9 @@ export interface PreTGEBond {
   index: number
   chainId: ChainId
   refundable: boolean
-  saleStartTime: string
-  totalAllocation: string
-  salePriceString: string
   vestingTimeString: string
   tgeString: string
   shortDescription: string
-  fullDescription: string
   tags: string[]
   contractAddress: string
   billVersion: BillVersion
@@ -365,13 +361,8 @@ export interface PreTGEBond {
   billArt: {
     collection: BillArtCollection
   }
-  initTime: number
-  finishTime: number
   redeemTime: number
-  startVestingTimestamp: number
-  initPrice: number // price we sell, aka: bondPrice
   tgePrice: number // price at TGE
-  initialRelease: number
   tokensDistributedAtRedeem: boolean
   projectLink?: string
   twitter?: string
