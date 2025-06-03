@@ -851,6 +851,7 @@
       },
       "liquidityDex": {
         "1": "UniswapV3",
+        "146": "ShadowExchange",
         "614": "External",
         "1890": "Elektrik",
         "8453": "Aerodrome",
@@ -1863,6 +1864,7 @@
       },
       "liquidityDex": {
         "1": "UniswapV3",
+        "146": "ShadowExchange",
         "614": "External",
         "1890": "Elektrik",
         "8453": "Aerodrome",
