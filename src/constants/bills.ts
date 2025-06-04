@@ -14794,7 +14794,7 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://mementoblockchain.com/',
     twitter: 'https://x.com/Memento_Bc',
     initTime: { [ChainId.MAINNET]: 1747655984 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },

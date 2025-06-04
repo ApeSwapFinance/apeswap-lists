@@ -253,6 +253,32 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       tokenAddress: '0x17B8Ee96E3bcB3b04b3e8334de4524520C51caB4',
     },
   },
+  [ChainId.KATANA]: {
+    '0xEE7D8BCFb72bC1880D0Cf19822eB0A2e6577aB62': {
+      name: 'Vault Bridge ETH',
+      symbol: 'vbETH',
+      decimals: 18,
+      source: PriceSource.Coingecko,
+      id: 'ethereum',
+      tokenAddress: '0xEE7D8BCFb72bC1880D0Cf19822eB0A2e6577aB62',
+    },
+    '0x203A662b0BD271A6ed5a60EdFbd04bFce608FD36': {
+      name: 'Vault Bridge USDC',
+      symbol: 'vbUSDC',
+      decimals: 6,
+      source: PriceSource.Coingecko,
+      id: 'usd-coin',
+      tokenAddress: '0x203A662b0BD271A6ed5a60EdFbd04bFce608FD36',
+    },
+    '0x2DCa96907fde857dd3D816880A0df407eeB2D2F2': {
+      name: 'Vault Bridge USDT',
+      symbol: 'vbUSDT',
+      decimals: 6,
+      source: PriceSource.Coingecko,
+      id: 'tether',
+      tokenAddress: '0x2DCa96907fde857dd3D816880A0df407eeB2D2F2',
+    },
+  },
   [ChainId.SOL]: {
     '6PkHvBX6A594Xnwyr3utFkrfP3eCUfqPjFTuSdxUuBCo': {
       name: 'Some Sol token',

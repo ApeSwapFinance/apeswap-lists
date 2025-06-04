@@ -43,6 +43,7 @@ export enum ChainId {
   SOL = 7565164, // This is actually the id deBridge uses for Solana
   BERACHAIN = 80094,
   KATANA_TESTNET = 129399,
+  KATANA = 747474,
 }
 
 export enum LiquidityDex {

@@ -32,7 +32,8 @@
             "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
             "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
             "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
-            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
+            "747474": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2"
           },
           "decimals": {
             "1": 6,
@@ -46,18 +47,21 @@
             "8453": 6,
             "8822": 6,
             "42161": 6,
-            "59144": 6
+            "59144": 6,
+            "747474": 6
           },
           "liquidityDex": {
             "1": "UniswapV2",
             "56": "PancakeSwapV3",
             "137": "UniswapV3",
+            "146": "ShadowExchange",
             "1890": "Elektrik",
             "2525": "External",
             "8453": "UniswapV3",
             "8822": "Wagmi",
             "42161": "UniswapV3",
-            "59144": "Nile"
+            "59144": "Nile",
+            "747474": "External"
           },
           "active": true
         },
@@ -117,7 +121,8 @@
             "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
             "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
             "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
-            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
+            "747474": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2"
           },
           "decimals": {
             "1": 6,
@@ -131,18 +136,21 @@
             "8453": 6,
             "8822": 6,
             "42161": 6,
-            "59144": 6
+            "59144": 6,
+            "747474": 6
           },
           "liquidityDex": {
             "1": "UniswapV2",
             "56": "PancakeSwapV3",
             "137": "UniswapV3",
+            "146": "ShadowExchange",
             "1890": "Elektrik",
             "2525": "External",
             "8453": "UniswapV3",
             "8822": "Wagmi",
             "42161": "UniswapV3",
-            "59144": "Nile"
+            "59144": "Nile",
+            "747474": "External"
           },
           "active": true
         },
@@ -202,7 +210,8 @@
             "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
             "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
             "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
-            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
+            "747474": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2"
           },
           "decimals": {
             "1": 6,
@@ -216,18 +225,21 @@
             "8453": 6,
             "8822": 6,
             "42161": 6,
-            "59144": 6
+            "59144": 6,
+            "747474": 6
           },
           "liquidityDex": {
             "1": "UniswapV2",
             "56": "PancakeSwapV3",
             "137": "UniswapV3",
+            "146": "ShadowExchange",
             "1890": "Elektrik",
             "2525": "External",
             "8453": "UniswapV3",
             "8822": "Wagmi",
             "42161": "UniswapV3",
-            "59144": "Nile"
+            "59144": "Nile",
+            "747474": "External"
           },
           "active": true
         },
@@ -287,7 +299,8 @@
             "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
             "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
             "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
-            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
+            "747474": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2"
           },
           "decimals": {
             "1": 6,
@@ -301,18 +314,21 @@
             "8453": 6,
             "8822": 6,
             "42161": 6,
-            "59144": 6
+            "59144": 6,
+            "747474": 6
           },
           "liquidityDex": {
             "1": "UniswapV2",
             "56": "PancakeSwapV3",
             "137": "UniswapV3",
+            "146": "ShadowExchange",
             "1890": "Elektrik",
             "2525": "External",
             "8453": "UniswapV3",
             "8822": "Wagmi",
             "42161": "UniswapV3",
-            "59144": "Nile"
+            "59144": "Nile",
+            "747474": "External"
           },
           "active": true
         },
@@ -710,7 +726,8 @@
             "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
             "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
             "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
-            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
+            "747474": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2"
           },
           "decimals": {
             "1": 6,
@@ -724,18 +741,21 @@
             "8453": 6,
             "8822": 6,
             "42161": 6,
-            "59144": 6
+            "59144": 6,
+            "747474": 6
           },
           "liquidityDex": {
             "1": "UniswapV2",
             "56": "PancakeSwapV3",
             "137": "UniswapV3",
+            "146": "ShadowExchange",
             "1890": "Elektrik",
             "2525": "External",
             "8453": "UniswapV3",
             "8822": "Wagmi",
             "42161": "UniswapV3",
-            "59144": "Nile"
+            "59144": "Nile",
+            "747474": "External"
           },
           "active": true
         },
@@ -795,7 +815,8 @@
             "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
             "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
             "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
-            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
+            "747474": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2"
           },
           "decimals": {
             "1": 6,
@@ -809,18 +830,21 @@
             "8453": 6,
             "8822": 6,
             "42161": 6,
-            "59144": 6
+            "59144": 6,
+            "747474": 6
           },
           "liquidityDex": {
             "1": "UniswapV2",
             "56": "PancakeSwapV3",
             "137": "UniswapV3",
+            "146": "ShadowExchange",
             "1890": "Elektrik",
             "2525": "External",
             "8453": "UniswapV3",
             "8822": "Wagmi",
             "42161": "UniswapV3",
-            "59144": "Nile"
+            "59144": "Nile",
+            "747474": "External"
           },
           "active": true
         },
@@ -880,7 +904,8 @@
             "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
             "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
             "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
-            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
+            "747474": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2"
           },
           "decimals": {
             "1": 6,
@@ -894,18 +919,21 @@
             "8453": 6,
             "8822": 6,
             "42161": 6,
-            "59144": 6
+            "59144": 6,
+            "747474": 6
           },
           "liquidityDex": {
             "1": "UniswapV2",
             "56": "PancakeSwapV3",
             "137": "UniswapV3",
+            "146": "ShadowExchange",
             "1890": "Elektrik",
             "2525": "External",
             "8453": "UniswapV3",
             "8822": "Wagmi",
             "42161": "UniswapV3",
-            "59144": "Nile"
+            "59144": "Nile",
+            "747474": "External"
           },
           "active": true
         },
@@ -965,7 +993,8 @@
             "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
             "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
             "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
-            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
+            "747474": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2"
           },
           "decimals": {
             "1": 6,
@@ -979,18 +1008,21 @@
             "8453": 6,
             "8822": 6,
             "42161": 6,
-            "59144": 6
+            "59144": 6,
+            "747474": 6
           },
           "liquidityDex": {
             "1": "UniswapV2",
             "56": "PancakeSwapV3",
             "137": "UniswapV3",
+            "146": "ShadowExchange",
             "1890": "Elektrik",
             "2525": "External",
             "8453": "UniswapV3",
             "8822": "Wagmi",
             "42161": "UniswapV3",
-            "59144": "Nile"
+            "59144": "Nile",
+            "747474": "External"
           },
           "active": true
         },
@@ -1050,7 +1082,8 @@
             "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
             "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
             "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
-            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
+            "747474": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2"
           },
           "decimals": {
             "1": 6,
@@ -1064,18 +1097,21 @@
             "8453": 6,
             "8822": 6,
             "42161": 6,
-            "59144": 6
+            "59144": 6,
+            "747474": 6
           },
           "liquidityDex": {
             "1": "UniswapV2",
             "56": "PancakeSwapV3",
             "137": "UniswapV3",
+            "146": "ShadowExchange",
             "1890": "Elektrik",
             "2525": "External",
             "8453": "UniswapV3",
             "8822": "Wagmi",
             "42161": "UniswapV3",
-            "59144": "Nile"
+            "59144": "Nile",
+            "747474": "External"
           },
           "active": true
         },
@@ -1174,7 +1210,8 @@
             "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
             "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
             "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
-            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
+            "747474": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2"
           },
           "decimals": {
             "1": 6,
@@ -1188,18 +1225,21 @@
             "8453": 6,
             "8822": 6,
             "42161": 6,
-            "59144": 6
+            "59144": 6,
+            "747474": 6
           },
           "liquidityDex": {
             "1": "UniswapV2",
             "56": "PancakeSwapV3",
             "137": "UniswapV3",
+            "146": "ShadowExchange",
             "1890": "Elektrik",
             "2525": "External",
             "8453": "UniswapV3",
             "8822": "Wagmi",
             "42161": "UniswapV3",
-            "59144": "Nile"
+            "59144": "Nile",
+            "747474": "External"
           },
           "active": true
         },
@@ -1259,7 +1299,8 @@
             "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
             "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
             "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
-            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
+            "747474": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2"
           },
           "decimals": {
             "1": 6,
@@ -1273,18 +1314,21 @@
             "8453": 6,
             "8822": 6,
             "42161": 6,
-            "59144": 6
+            "59144": 6,
+            "747474": 6
           },
           "liquidityDex": {
             "1": "UniswapV2",
             "56": "PancakeSwapV3",
             "137": "UniswapV3",
+            "146": "ShadowExchange",
             "1890": "Elektrik",
             "2525": "External",
             "8453": "UniswapV3",
             "8822": "Wagmi",
             "42161": "UniswapV3",
-            "59144": "Nile"
+            "59144": "Nile",
+            "747474": "External"
           },
           "active": true
         },
@@ -1344,7 +1388,8 @@
             "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
             "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
             "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
-            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
+            "747474": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2"
           },
           "decimals": {
             "1": 6,
@@ -1358,18 +1403,21 @@
             "8453": 6,
             "8822": 6,
             "42161": 6,
-            "59144": 6
+            "59144": 6,
+            "747474": 6
           },
           "liquidityDex": {
             "1": "UniswapV2",
             "56": "PancakeSwapV3",
             "137": "UniswapV3",
+            "146": "ShadowExchange",
             "1890": "Elektrik",
             "2525": "External",
             "8453": "UniswapV3",
             "8822": "Wagmi",
             "42161": "UniswapV3",
-            "59144": "Nile"
+            "59144": "Nile",
+            "747474": "External"
           },
           "active": true
         },
@@ -1429,7 +1477,8 @@
             "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
             "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
             "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
-            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
+            "747474": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2"
           },
           "decimals": {
             "1": 6,
@@ -1443,18 +1492,21 @@
             "8453": 6,
             "8822": 6,
             "42161": 6,
-            "59144": 6
+            "59144": 6,
+            "747474": 6
           },
           "liquidityDex": {
             "1": "UniswapV2",
             "56": "PancakeSwapV3",
             "137": "UniswapV3",
+            "146": "ShadowExchange",
             "1890": "Elektrik",
             "2525": "External",
             "8453": "UniswapV3",
             "8822": "Wagmi",
             "42161": "UniswapV3",
-            "59144": "Nile"
+            "59144": "Nile",
+            "747474": "External"
           },
           "active": true
         },
@@ -1514,7 +1566,8 @@
             "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
             "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
             "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
-            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
+            "747474": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2"
           },
           "decimals": {
             "1": 6,
@@ -1528,18 +1581,21 @@
             "8453": 6,
             "8822": 6,
             "42161": 6,
-            "59144": 6
+            "59144": 6,
+            "747474": 6
           },
           "liquidityDex": {
             "1": "UniswapV2",
             "56": "PancakeSwapV3",
             "137": "UniswapV3",
+            "146": "ShadowExchange",
             "1890": "Elektrik",
             "2525": "External",
             "8453": "UniswapV3",
             "8822": "Wagmi",
             "42161": "UniswapV3",
-            "59144": "Nile"
+            "59144": "Nile",
+            "747474": "External"
           },
           "active": true
         },
@@ -1599,7 +1655,8 @@
             "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
             "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
             "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
-            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+            "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
+            "747474": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2"
           },
           "decimals": {
             "1": 6,
@@ -1613,18 +1670,21 @@
             "8453": 6,
             "8822": 6,
             "42161": 6,
-            "59144": 6
+            "59144": 6,
+            "747474": 6
           },
           "liquidityDex": {
             "1": "UniswapV2",
             "56": "PancakeSwapV3",
             "137": "UniswapV3",
+            "146": "ShadowExchange",
             "1890": "Elektrik",
             "2525": "External",
             "8453": "UniswapV3",
             "8822": "Wagmi",
             "42161": "UniswapV3",
-            "59144": "Nile"
+            "59144": "Nile",
+            "747474": "External"
           },
           "active": true
         },
@@ -1726,7 +1786,8 @@
             "10143": "0xf817257fed379853cDe0fa4F97AB987181B1E5Ea",
             "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
             "59144": "0x176211869cA2b568f2A7D4EE941E073a821EE1ff",
-            "80094": "0x549943e04f40284185054145c6E4e9568C1D3241"
+            "80094": "0x549943e04f40284185054145c6E4e9568C1D3241",
+            "747474": "0x203A662b0BD271A6ed5a60EdFbd04bFce608FD36"
           },
           "decimals": {
             "1": 6,
@@ -1742,7 +1803,8 @@
             "10143": 6,
             "42161": 6,
             "59144": 6,
-            "80094": 6
+            "80094": 6,
+            "747474": 6
           },
           "liquidityDex": {
             "1": "UniswapV3",
@@ -1757,7 +1819,8 @@
             "10143": "PancakeSwapV2",
             "42161": "UniswapV3",
             "59144": "Nile",
-            "80094": "KodiakV3"
+            "80094": "KodiakV3",
+            "747474": "External"
           },
           "active": true
         },
@@ -1890,7 +1953,8 @@
             "10143": "0xf817257fed379853cDe0fa4F97AB987181B1E5Ea",
             "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
             "59144": "0x176211869cA2b568f2A7D4EE941E073a821EE1ff",
-            "80094": "0x549943e04f40284185054145c6E4e9568C1D3241"
+            "80094": "0x549943e04f40284185054145c6E4e9568C1D3241",
+            "747474": "0x203A662b0BD271A6ed5a60EdFbd04bFce608FD36"
           },
           "decimals": {
             "1": 6,
@@ -1906,7 +1970,8 @@
             "10143": 6,
             "42161": 6,
             "59144": 6,
-            "80094": 6
+            "80094": 6,
+            "747474": 6
           },
           "liquidityDex": {
             "1": "UniswapV3",
@@ -1921,7 +1986,8 @@
             "10143": "PancakeSwapV2",
             "42161": "UniswapV3",
             "59144": "Nile",
-            "80094": "KodiakV3"
+            "80094": "KodiakV3",
+            "747474": "External"
           },
           "active": true
         },
