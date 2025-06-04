@@ -2993,7 +2993,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/script_network',
     audit: 'https://skynet.certik.com/projects/script-network?utm_source=CMC&utm_campaign=AuditByCertiKLink',
     initTime: { [ChainId.BSC]: 1745566483 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -3391,7 +3391,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://clashub.io/',
     twitter: 'https://twitter.com/theclashub',
     initTime: { [ChainId.BSC]: 1742999872 },
-    soldOut: false,
+    soldOut: true,
     billArt: { collection: BillArtCollection.ApeBond_Collection1 },
     shortDescription:
       'Clashub is an NFT card game with a Play2Earn system, transforming approved NFTs into playing cards. Players use these cards to battle opponents and earn CLASH Tokens. It uniquely supports NFTs from various networks, enabling diverse gameplay. The CLASH Token serves as the in-game currency for purchases and rewards, with a balanced economic loop to prevent inflation.',
