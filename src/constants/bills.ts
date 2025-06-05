@@ -2836,7 +2836,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.BSC]: 1747062264 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -3242,6 +3242,7 @@ const bills: BillsConfig[] = [
     },
     inactive: false,
     projectLink: 'https://www.lovebit.org/',
+    twitter: 'https://x.com/lovebitofficial',
     initTime: { [ChainId.BSC]: 1743688217 },
     soldOut: false,
     billArt: {
