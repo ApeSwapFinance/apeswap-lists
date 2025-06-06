@@ -3001,7 +3001,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.ithacaprotocol.io/',
     twitter: 'https://x.com/IthacaProtocol',
     initTime: { [ChainId.BSC]: 1746612018 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
