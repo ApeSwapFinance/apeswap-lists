@@ -1,7 +1,7 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1151
+// BNB Largest ID: 1153
 // Polygon Largest ID: 183
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2027
