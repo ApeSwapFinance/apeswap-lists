@@ -18,7 +18,36 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Monad Testnet Largest ID: 14011
 // Sonic Largest ID: 15000
 // Berachain Largest ID: 16002
+// Katana Largest ID: 17000
 const bills: BillsConfig[] = [
+  //
+  // Katana
+  //
+  {
+    index: 17000,
+    version: '2.1.0',
+    chainId: ChainId.KATANA,
+    contractAddress: {
+      [ChainId.KATANA]: '0x58F51F31Cca3890D571ecFB47f62bB530339529d',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.eth,
+    earnToken: tokens.usdc,
+    billNnftAddress: {
+      [ChainId.KATANA]: '0xc765C358622cB346f236F8Bfffe53036e421bb4e',
+    },
+    inactive: false,
+    initTime: { [ChainId.KATANA]: 1748420897 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Blockchains'],
+    shortDescription: 'lorem ipsum',
+    fullDescription: 'lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.',
+    feeInPayout: 0,
+  },
   //
   // Berachain
   //
