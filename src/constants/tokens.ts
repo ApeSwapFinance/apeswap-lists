@@ -390,6 +390,19 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.UniswapV3,
     },
   },
+  fmt: {
+    symbol: 'FMT',
+    address: {
+      [ChainId.BASE]: '0x5bA9E0ce610927c1915c9d9de4BdaF2b8A1Dee7e',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV3,
+    },
+  },
   glq: {
     symbol: 'WGLQ',
     address: {
