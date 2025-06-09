@@ -4946,6 +4946,19 @@ const tokens: Record<string, Token> = {
       [ChainId.BERACHAIN]: LiquidityDex.KodiakV3,
     },
   },
+  plutus: {
+    symbol: 'PLUTUS',
+    address: {
+      [ChainId.BERACHAIN]: '0x6698EDe14709A9Dd8379744CC2D28F276E3d2Eac',
+    },
+    decimals: {
+      [ChainId.BERACHAIN]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BERACHAIN]: LiquidityDex.KodiakV3,
+    },
+  },
   wethLdy_Ichi: {
     symbol: 'WETH-LDY',
     address: {
