@@ -97,7 +97,7 @@
     "initTime": {
       "80094": 1748420897
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "Berachain_Collection1"
     },
