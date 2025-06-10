@@ -17,7 +17,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Crossfi Largest ID: 13000
 // Monad Testnet Largest ID: 14011
 // Sonic Largest ID: 15000
-// Berachain Largest ID: 16002
+// Berachain Largest ID: 16003
 const bills: BillsConfig[] = [
   //
   // Berachain
@@ -108,6 +108,33 @@ const bills: BillsConfig[] = [
       'Honeyfun AI brings co-owned Utility AI Agents to Berachain, focusing on DeFi, gaming, and entertainment. Through the Honeyfun Protocol, users can create agents with persistent identity and real utility. $AIBERA powers the ecosystem, pairing with all AI LPs and capturing 100% of platform fees for staking and buybacks—driving real value and community growth.',
     fullDescription:
       'Honeyfun AI is pioneering a co-ownership framework for Utility AI Agents on the Berachain ecosystem, with a focus on DeFi, gaming, and entertainment. These agents are designed to be persistent, functional, and revenue-generating, maintaining consistent identity and memory across platforms to deepen user engagement and boost ARPU. Through the Honeyfun Protocol, users can collaboratively own, develop, and deploy AI agents, merging innovation in AI and blockchain with community-driven growth. Central to this vision is the $AIBERA token—not just a governance tool, but the economic backbone of the protocol. All AI agent LPs will be paired with $AIBERA, transforming it into an ETF-like asset for Berachain AI, while 100% of platform and trading fees will support staking and buybacks.',
+    feeInPayout: 5,
+  },
+  {
+    index: 16003,
+    version: '2.1.0',
+    chainId: ChainId.BERACHAIN,
+    contractAddress: {
+      [ChainId.BERACHAIN]: '0xF5abC8b087992F31F2768fB04AfFDB2AFEe9d18a',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.bera,
+    earnToken: tokens.plutus,
+    billNnftAddress: {
+      [ChainId.BERACHAIN]: '0x1b7858f745211dBa1387fE30124eBCa2D706D7Dd',
+    },
+    inactive: false,
+    projectLink: 'https://plutusdao.io/',
+    twitter: 'https://x.com/PlutusDAO_io',
+    initTime: { [ChainId.BERACHAIN]: 1749549138 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Berachain_Collection1,
+    },
+    tags: ['DAO'],
+    shortDescription: '.',
+    fullDescription: '.',
     feeInPayout: 5,
   },
 
