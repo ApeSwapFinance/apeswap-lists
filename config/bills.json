@@ -208,8 +208,8 @@
       "collection": "Berachain_Collection1"
     },
     "tags": ["DAO"],
-    "shortDescription": ".",
-    "fullDescription": ".",
+    "shortDescription": "Plutus is an governance aggregator optimizing liquidity and rewards through plsASSETs and plvASSETs. It partners with protocols like Camelot, GMX, and Radiant, enabling users to stay liquid while earning and voting. The $PLUTUS token powers governance, with $xPLUTUS as the main DAO voting asset. Locking PLUTUS as bPLS unlocks full benefits.",
+    "fullDescription": "Plutus is a governance aggregator, built to optimize user liquidity and rewards while consolidating protocol governance through the PLUTUS token. Instead of traditional veTokens, users interact with plsASSETs to stay liquid, earn rewards, and actively participate in governance. The platform has partnered with key Arbitrum protocols like Camelot, Stryke, Radiant, GMX, Sperax, and Jones to deliver governance-enhanced products. Plutus offers two core product types: plsASSETs, which streamline governance and liquidity efficiency, and plvASSETs, vaults aimed at maximizing rewards and composability. The PLUTUS token ($PLUTUS), a LayerZero OFT live on Arbitrum and Berachain, underpins the ecosystem, while $xPLUTUS, its escrowed yield-bearing variant, serves as the DAO’s primary voting and value-accrual mechanism. For full benefits, holders must lock PLUTUS as bPLS for 16 weeks.",
     "feeInPayout": 5
   },
   {
