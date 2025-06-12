@@ -48,6 +48,29 @@ const preTGEBonds: PreTGEBond[] = [
     twitter: 'https://x.com/AirasNetwork',
     projectLink: 'https://www.airas.com/',
   },
+  {
+    index: 3,
+    chainId: ChainId.BSC,
+    vestingTimeString: '5 Months',
+    tgeString: 'June 2nd',
+    shortDescription:
+      'AIRAS (Artificial Intelligence Real Assets System) is a comprehensive platform dedicated to leveraging AI and Blockchain for real world asset management, investment, and optimization. It powers autonomous applications across industries, enabling efficient, transparent, and scalable asset management. The AIRAS token fuels the ecosystem through transactions, governance, and incentives.',
+    tags: ['test'],
+    contractAddress: { [ChainId.BSC]: '0x6102eDD09c8c0a5d87de8a486D9B8BED9939A61a' },
+    billVersion: BillVersion.TieredSale,
+    billType: 'fcfs',
+    lpToken: tokens.usdt,
+    earnToken: tokens.abond,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    soldOut: false,
+    billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+    redeemTime: 1750257131,
+    tgePrice: 0.0005,
+    twitter: 'https://x.com/AirasNetwork',
+    projectLink: 'https://www.airas.com/',
+  },
 ]
 
 export default preTGEBonds
