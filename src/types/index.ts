@@ -344,6 +344,12 @@ export enum LaunchBondTiers {
   Legend,
 }
 
+// Version Mapping
+// 2.0.0 => old bonds
+// 2.1.0 => tiered bonds
+// 2.1.1 => cex bonds (require api pricing)
+// 2.1.2 => pre tge bonds
+
 export interface BaseBondConfig {
   index: number
   version: string // This will be used to check compatibility versions
@@ -363,23 +369,18 @@ export interface BaseBondConfig {
   projectLink?: string
   twitter?: string
   tags?: string[]
+  warningCard?: string
 }
 
 export interface PreTGEBond extends BaseBondConfig {
-  vestingTimeString: string
-  tgeString: string
-  redeemTime: number
-  tgePrice: number // price at TGE
+  vestingTimeString?: string
+  tgeString?: string
+  redeemTime?: number
+  tgePrice?: number // price at TGE
   tiersAirdrop?: {
     [key: string]: number
   }
 }
-
-// Version Mapping
-// 2.0.0 => old bonds
-// 2.1.0 => tiered bonds
-// 2.1.1 => cex bonds (require api pricing)
-// 2.1.2 => pre tge bonds
 
 // Start of list types
 export interface BillsConfig extends BaseBondConfig {
@@ -397,7 +398,6 @@ export interface BillsConfig extends BaseBondConfig {
   onlyPartner?: boolean
   minTier?: LaunchBondTiers
   feeInPayout?: number
-  warningCard?: string
   // * This is only used for the bond migration page
   vestingTerm?: number
   multiplier?: number
