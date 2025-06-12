@@ -372,7 +372,7 @@ export interface BaseBondConfig {
   warningCard?: string
 }
 
-export interface PreTGEBond extends BaseBondConfig {
+export interface PreTGEConfig extends BaseBondConfig {
   vestingTimeString?: string
   tgeString?: string
   redeemTime?: number
@@ -387,7 +387,6 @@ export interface BillsConfig extends BaseBondConfig {
   cmcId?: number
   inactive?: boolean
   initTime?: Partial<Record<ChainId, number>>
-  initPrice?: Partial<Record<ChainId, number>>
   showcaseToken?: Token
   bondPartner?: string
   // * These are used for the individual bond page view
@@ -397,7 +396,6 @@ export interface BillsConfig extends BaseBondConfig {
   vestingCliff?: number
   onlyPartner?: boolean
   minTier?: LaunchBondTiers
-  feeInPayout?: number
   // * This is only used for the bond migration page
   vestingTerm?: number
   multiplier?: number

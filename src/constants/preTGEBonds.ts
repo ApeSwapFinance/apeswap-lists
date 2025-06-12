@@ -1,7 +1,7 @@
-import { BillArtCollection, BillVersion, ChainId, PreTGEBond } from '../types'
+import { BillArtCollection, BillVersion, ChainId, PreTGEConfig } from '../types'
 import tokens from './tokens'
 
-const preTGEBonds: PreTGEBond[] = [
+const preTGEBonds: PreTGEConfig[] = [
   {
     version: '2.1.2',
     index: 1,
