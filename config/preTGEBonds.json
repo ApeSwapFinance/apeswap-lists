@@ -2,15 +2,16 @@
   {
     "index": 1,
     "chainId": 1,
-    "refundable": false,
     "vestingTimeString": "10 Months",
     "tgeString": "June 2nd",
     "shortDescription": "AIRAS (Artificial Intelligence Real Assets System) is a comprehensive platform dedicated to leveraging AI and Blockchain for real world asset management, investment, and optimization. It powers autonomous applications across industries, enabling efficient, transparent, and scalable asset management. The AIRAS token fuels the ecosystem through transactions, governance, and incentives.",
     "tags": ["AI"],
-    "contractAddress": "0x6402BD234187a695352085518C835131494E5E35",
+    "contractAddress": {
+      "1": "0x6402BD234187a695352085518C835131494E5E35"
+    },
     "billVersion": "TieredSale",
     "billType": "fcfs",
-    "token": {
+    "lpToken": {
       "symbol": "USDC",
       "address": {
         "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
@@ -83,22 +84,22 @@
     },
     "redeemTime": 1748624400,
     "tgePrice": 0.0005,
-    "tokensDistributedAtRedeem": true,
     "twitter": "https://x.com/AirasNetwork",
     "projectLink": "https://www.airas.com/"
   },
   {
     "index": 2,
     "chainId": 1,
-    "refundable": false,
     "vestingTimeString": "5 Months",
     "tgeString": "June 2nd",
     "shortDescription": "AIRAS (Artificial Intelligence Real Assets System) is a comprehensive platform dedicated to leveraging AI and Blockchain for real world asset management, investment, and optimization. It powers autonomous applications across industries, enabling efficient, transparent, and scalable asset management. The AIRAS token fuels the ecosystem through transactions, governance, and incentives.",
     "tags": ["AI"],
-    "contractAddress": "0xBFD8eA911959deefC5F369438c14eb304Fe6FD13",
+    "contractAddress": {
+      "1": "0xBFD8eA911959deefC5F369438c14eb304Fe6FD13"
+    },
     "billVersion": "TieredSale",
     "billType": "fcfs",
-    "token": {
+    "lpToken": {
       "symbol": "USDC",
       "address": {
         "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
@@ -171,7 +172,6 @@
     },
     "redeemTime": 1748624400,
     "tgePrice": 0.0005,
-    "tokensDistributedAtRedeem": true,
     "twitter": "https://x.com/AirasNetwork",
     "projectLink": "https://www.airas.com/"
   }

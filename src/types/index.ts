@@ -344,30 +344,31 @@ export enum LaunchBondTiers {
   Legend,
 }
 
-export interface PreTGEBond {
+export interface BaseBondConfig {
   index: number
   chainId: ChainId
-  refundable: boolean
-  vestingTimeString: string
-  tgeString: string
-  shortDescription: string
-  tags: string[]
-  contractAddress: string
   billVersion: BillVersion
-  billType: string
-  token: Token
-  earnToken: Token
-  billNnftAddress: Partial<Record<ChainId, string>>
+  billType: 'liquidity' | 'reserve' | 'launch' | 'migration' | 'cex' | 'staking' | 'fcfs' | 'oversubscription'
   soldOut: boolean
-  billArt: {
+  lpToken: Token
+  earnToken: Token
+  contractAddress: Partial<Record<ChainId, string>>
+  billNnftAddress: Partial<Record<ChainId, string>>
+  billArt?: {
     collection: BillArtCollection
   }
-  redeemTime: number
-  tgePrice: number // price at TGE
-  tokensDistributedAtRedeem: boolean
+  shortDescription?: string
+  audit?: string
   projectLink?: string
   twitter?: string
-  audit?: string
+  tags?: string[]
+}
+
+export interface PreTGEBond extends BaseBondConfig {
+  vestingTimeString: string
+  tgeString: string
+  redeemTime: number
+  tgePrice: number // price at TGE
   tiersAirdrop?: {
     [key: string]: number
   }
@@ -379,35 +380,18 @@ export interface PreTGEBond {
 // 2.1.1 => cex bonds (require api pricing)
 
 // Start of list types
-export interface BillsConfig {
-  index: number
+export interface BillsConfig extends BaseBondConfig {
   version: string // This will be used to check compatibility versions
   cmcId?: number
-  chainId: ChainId
-  contractAddress: Partial<Record<ChainId, string>>
-  billVersion: BillVersion
-  billType: 'liquidity' | 'reserve' | 'launch' | 'migration' | 'cex' | 'staking'
-  lpToken: Token
-  earnToken: Token
-  billNnftAddress: Partial<Record<ChainId, string>>
   inactive?: boolean
-  projectLink?: string
-  twitter?: string
   initTime?: Partial<Record<ChainId, number>>
   initPrice?: Partial<Record<ChainId, number>>
-  audit?: string
-  soldOut?: boolean
-  billArt?: {
-    collection: BillArtCollection
-  }
   showcaseToken?: Token
   bondPartner?: string
   // * These are used for the individual bond page view
-  shortDescription?: string
   fullDescription?: string
   featuredURLS?: string[]
   partnersURLS?: string[]
-  tags?: string[]
   vestingCliff?: number
   onlyPartner?: boolean
   minTier?: LaunchBondTiers
