@@ -1,5 +1,56 @@
 [
   {
+    "index": 17001,
+    "version": "2.1.0",
+    "chainId": 747474,
+    "contractAddress": {
+      "747474": "0x96c5A85277DB589a8dAfd5E86e796E74dA14AEa2"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "747474": "0x203A662b0BD271A6ed5a60EdFbd04bFce608FD36"
+      },
+      "decimals": {
+        "747474": 6
+      },
+      "liquidityDex": {
+        "747474": "External"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "ETH",
+      "address": {
+        "747474": "0xEE7D8BCFb72bC1880D0Cf19822eB0A2e6577aB62"
+      },
+      "decimals": {
+        "747474": 18
+      },
+      "liquidityDex": {
+        "747474": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "747474": "0xc765C358622cB346f236F8Bfffe53036e421bb4e"
+    },
+    "inactive": false,
+    "initTime": {
+      "747474": 1748420897
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["Blockchains"],
+    "shortDescription": "lorem ipsum",
+    "fullDescription": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+    "feeInPayout": 0
+  },
+  {
     "index": 17000,
     "version": "2.1.0",
     "chainId": 747474,

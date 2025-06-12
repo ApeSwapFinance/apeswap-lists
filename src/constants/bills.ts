@@ -24,6 +24,31 @@ const bills: BillsConfig[] = [
   // Katana
   //
   {
+    index: 17001,
+    version: '2.1.0',
+    chainId: ChainId.KATANA,
+    contractAddress: {
+      [ChainId.KATANA]: '0x96c5A85277DB589a8dAfd5E86e796E74dA14AEa2',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.eth,
+    billNnftAddress: {
+      [ChainId.KATANA]: '0xc765C358622cB346f236F8Bfffe53036e421bb4e',
+    },
+    inactive: false,
+    initTime: { [ChainId.KATANA]: 1748420897 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Blockchains'],
+    shortDescription: 'lorem ipsum',
+    fullDescription: 'lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.',
+    feeInPayout: 0,
+  },
+  {
     index: 17000,
     version: '2.1.0',
     chainId: ChainId.KATANA,
