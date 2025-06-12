@@ -1,5 +1,6 @@
 [
   {
+    "version": "2.1.2",
     "index": 1,
     "chainId": 1,
     "vestingTimeString": "10 Months",
@@ -88,6 +89,7 @@
     "projectLink": "https://www.airas.com/"
   },
   {
+    "version": "2.1.2",
     "index": 2,
     "chainId": 1,
     "vestingTimeString": "5 Months",
@@ -176,6 +178,7 @@
     "projectLink": "https://www.airas.com/"
   },
   {
+    "version": "2.1.2",
     "index": 3,
     "chainId": 56,
     "vestingTimeString": "5 Months",

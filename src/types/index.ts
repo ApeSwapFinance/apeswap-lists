@@ -346,6 +346,7 @@ export enum LaunchBondTiers {
 
 export interface BaseBondConfig {
   index: number
+  version: string // This will be used to check compatibility versions
   chainId: ChainId
   billVersion: BillVersion
   billType: 'liquidity' | 'reserve' | 'launch' | 'migration' | 'cex' | 'staking' | 'fcfs' | 'oversubscription'
@@ -378,10 +379,10 @@ export interface PreTGEBond extends BaseBondConfig {
 // 2.0.0 => old bonds
 // 2.1.0 => tiered bonds
 // 2.1.1 => cex bonds (require api pricing)
+// 2.1.2 => pre tge bonds
 
 // Start of list types
 export interface BillsConfig extends BaseBondConfig {
-  version: string // This will be used to check compatibility versions
   cmcId?: number
   inactive?: boolean
   initTime?: Partial<Record<ChainId, number>>

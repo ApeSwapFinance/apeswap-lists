@@ -3,6 +3,7 @@ import tokens from './tokens'
 
 const preTGEBonds: PreTGEBond[] = [
   {
+    version: '2.1.2',
     index: 1,
     chainId: ChainId.MAINNET,
     vestingTimeString: '10 Months',
@@ -26,6 +27,7 @@ const preTGEBonds: PreTGEBond[] = [
     projectLink: 'https://www.airas.com/',
   },
   {
+    version: '2.1.2',
     index: 2,
     chainId: ChainId.MAINNET,
     vestingTimeString: '5 Months',
@@ -49,6 +51,7 @@ const preTGEBonds: PreTGEBond[] = [
     projectLink: 'https://www.airas.com/',
   },
   {
+    version: '2.1.2',
     index: 3,
     chainId: ChainId.BSC,
     vestingTimeString: '5 Months',
