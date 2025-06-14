@@ -826,7 +826,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.gmrtag.io/',
     twitter: 'https://x.com/TheGame_Company',
     initTime: { [ChainId.BASE]: 1747061931 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
