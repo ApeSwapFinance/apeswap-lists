@@ -798,7 +798,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/fingermonkeysio',
     audit: 'https://app.solidproof.io/projects/fmdtc',
     initTime: { [ChainId.BASE]: 1749467097 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
