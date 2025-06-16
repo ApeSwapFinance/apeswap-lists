@@ -401,6 +401,8 @@ export interface BillsConfig extends BaseBondConfig {
   multiplier?: number
 }
 
+export type AllBondsConfig = BillsConfig | PreTGEConfig
+
 export enum VaultVersion {
   V1 = 'V1',
   V2 = 'V2',
