@@ -1384,7 +1384,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: '0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf',
     },
     decimals: {
-      [ChainId.BASE]: 18,
+      [ChainId.BASE]: 8,
     },
     active: true,
   },
