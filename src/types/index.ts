@@ -370,13 +370,14 @@ export interface BaseBondConfig {
   twitter?: string
   tags?: string[]
   warningCard?: string
+  vestingTerm?: number
 }
 
 export interface PreTGEConfig extends BaseBondConfig {
-  vestingTimeString?: string
-  tgeString?: string
-  redeemTime?: number
-  tgePrice?: number // price at TGE
+  vestingTimeString: string
+  tgeString: string
+  redeemTime: number
+  tgePrice: number // price at TGE
   tiersAirdrop?: {
     [key: string]: number
   }
@@ -397,7 +398,6 @@ export interface BillsConfig extends BaseBondConfig {
   onlyPartner?: boolean
   minTier?: LaunchBondTiers
   // * This is only used for the bond migration page
-  vestingTerm?: number
   multiplier?: number
 }
 
