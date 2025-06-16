@@ -168,6 +168,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       id: 'veritas',
       tokenAddress: '0x00096697DC24bd10423690126D91546A20Ccb3F0',
     },
+    '0x672BB71A1A51e754FA2dd78629b05D371daC3184': {
+      name: 'GOO',
+      symbol: 'GOO',
+      decimals: 18,
+      source: PriceSource.Fixed,
+      price: 0.0021,
+      tokenAddress: '0x672BB71A1A51e754FA2dd78629b05D371daC3184',
+    },
   },
   [ChainId.LINEA]: {
     '0xcc22F6AA610D1b2a0e89EF228079cB3e1831b1D1': {

@@ -1378,6 +1378,16 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  cbbtc: {
+    symbol: 'cbBTC',
+    address: {
+      [ChainId.BASE]: '0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+  },
   cake: {
     symbol: 'CAKE',
     address: {
@@ -5004,6 +5014,16 @@ const tokens: Record<string, Token> = {
       [ChainId.INEVM]: LiquidityDex.External,
     },
   },
+  goo: {
+    symbol: 'GOO',
+    address: {
+      [ChainId.BASE]: '0x672BB71A1A51e754FA2dd78629b05D371daC3184',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+  },
 
   //***** LIGHTLINK TOKENS  *****/
   ll: {
@@ -7253,6 +7273,15 @@ const tokens: Record<string, Token> = {
     getLpUrl: {
       [ChainId.SONIC]: 'https://www.shadow.so/liquidity/add',
     },
+  },
+  goobtc: {
+    symbol: 'GOO-cbBTC',
+    address: {
+      [ChainId.BASE]: '0xC272e9b4A1edA242cDD07B4F8fA322f4d0A3ca42',
+    },
+    decimals: { [ChainId.BASE]: 18 },
+    active: true,
+    lpToken: true,
   },
 }
 

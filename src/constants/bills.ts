@@ -778,6 +778,36 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
+  // GOO BOND
+  // {
+  //   index: 8051,
+  //   cmcId: 35595,
+  //   version: '2.1.0',
+  //   chainId: ChainId.BASE,
+  //   contractAddress: {
+  //     [ChainId.BASE]: '0x9Ecf880144B19d1a9553bAac3B444C06D84ae5e0',
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V4,
+  //   lpToken: tokens.usdc,
+  //   earnToken: tokens.fmt,
+  //   billNnftAddress: {
+  //     [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+  //   },
+  //   inactive: false,
+  //   projectLink: 'https://www.goo.money/',
+  //   twitter: '',
+  //   audit: '',
+  //   initTime: { [ChainId.BASE]: 1749467097 },
+  //   soldOut: false,
+  //   billArt: {
+  //     collection: BillArtCollection.ApeBond_Collection1,
+  //   },
+  //   tags: [''],
+  //   shortDescription: `GooMoney is good project sers and ladeysers`,
+  //   fullDescription: `GooMoney is good project sers and ladeysers`,
+  //   feeInPayout: 0,
+  // },
   {
     index: 8050,
     cmcId: 35595,
