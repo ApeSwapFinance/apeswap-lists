@@ -1471,7 +1471,9 @@
         "8453": 18
       },
       "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {
+        "8453": "External"
+      }
     },
     "billNnftAddress": {
       "8453": "0x2bEEbd91C585D1EBA05834991490b85CbdD4027b"
