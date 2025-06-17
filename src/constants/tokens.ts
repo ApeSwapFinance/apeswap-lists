@@ -1313,6 +1313,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BERACHAIN]: '0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590',
       [ChainId.KATANA_TESTNET]: '0x17B8Ee96E3bcB3b04b3e8334de4524520C51caB4',
       [ChainId.KATANA]: '0xEE7D8BCFb72bC1880D0Cf19822eB0A2e6577aB62',
+      [ChainId.UNICHAIN]: '0x4200000000000000000000000000000000000006',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -1332,6 +1333,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BERACHAIN]: 18,
       [ChainId.KATANA_TESTNET]: 18,
       [ChainId.KATANA]: 18,
+      [ChainId.UNICHAIN]: 18,
     },
     liquidityDex: {
       [ChainId.MAINNET]: LiquidityDex.UniswapV3,
@@ -1346,6 +1348,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BERACHAIN]: LiquidityDex.KodiakV3,
       [ChainId.KATANA_TESTNET]: LiquidityDex.External,
       [ChainId.KATANA]: LiquidityDex.External,
+      [ChainId.UNICHAIN]: LiquidityDex.External,
     },
     active: true,
   },
