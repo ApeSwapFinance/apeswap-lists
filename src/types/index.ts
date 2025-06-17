@@ -44,6 +44,7 @@ export enum ChainId {
   BERACHAIN = 80094,
   KATANA_TESTNET = 129399,
   KATANA = 747474,
+  UNICHAIN = 130,
 }
 
 export enum LiquidityDex {
