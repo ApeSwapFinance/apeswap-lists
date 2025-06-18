@@ -67,7 +67,7 @@ const preTGEBonds: PreTGEConfig[] = [
       [ChainId.MAINNET]: '0x499b654b0A7f9979CC315190C09cA2633809B8dF',
     },
     soldOut: false,
-    billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+    billArt: { collection: BillArtCollection.ETH_Collection1 },
     redeemTime: 1753894800,
     tgePrice: 0.01,
     twitter: 'https://x.com/MurlocOfficial',
