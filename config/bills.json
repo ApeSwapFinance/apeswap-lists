@@ -96,7 +96,7 @@
     "initTime": {
       "80094": 1748420897
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "Berachain_Collection1"
     },
@@ -155,6 +155,59 @@
     "tags": ["DeFi"],
     "shortDescription": "Honeyfun AI brings co-owned Utility AI Agents to Berachain, focusing on DeFi, gaming, and entertainment. Through the Honeyfun Protocol, users can create agents with persistent identity and real utility. $AIBERA powers the ecosystem, pairing with all AI LPs and capturing 100% of platform fees for staking and buybacks—driving real value and community growth.",
     "fullDescription": "Honeyfun AI is pioneering a co-ownership framework for Utility AI Agents on the Berachain ecosystem, with a focus on DeFi, gaming, and entertainment. These agents are designed to be persistent, functional, and revenue-generating, maintaining consistent identity and memory across platforms to deepen user engagement and boost ARPU. Through the Honeyfun Protocol, users can collaboratively own, develop, and deploy AI agents, merging innovation in AI and blockchain with community-driven growth. Central to this vision is the $AIBERA token—not just a governance tool, but the economic backbone of the protocol. All AI agent LPs will be paired with $AIBERA, transforming it into an ETF-like asset for Berachain AI, while 100% of platform and trading fees will support staking and buybacks."
+  },
+  {
+    "index": 16003,
+    "version": "2.1.0",
+    "chainId": 80094,
+    "contractAddress": {
+      "80094": "0xF5abC8b087992F31F2768fB04AfFDB2AFEe9d18a"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "WBERA",
+      "address": {
+        "80094": "0x6969696969696969696969696969696969696969"
+      },
+      "decimals": {
+        "80094": 18
+      },
+      "liquidityDex": {
+        "80094": "KodiakV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "PLUTUS",
+      "address": {
+        "80094": "0x6698EDe14709A9Dd8379744CC2D28F276E3d2Eac"
+      },
+      "decimals": {
+        "80094": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "80094": "KodiakV3"
+      }
+    },
+    "billNnftAddress": {
+      "80094": "0x1b7858f745211dBa1387fE30124eBCa2D706D7Dd"
+    },
+    "inactive": false,
+    "projectLink": "https://plutusdao.io/",
+    "twitter": "https://x.com/PlutusDAO_io",
+    "initTime": {
+      "80094": 1749549138
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "Berachain_Collection1"
+    },
+    "tags": ["DAO"],
+    "shortDescription": "Plutus leads a family of protocols in the space of yield optimization across chains, optimizing liquidity and rewards through PoL farming, delta neutral vaults, cross chain aggregated yield maximization and AI-agentic trading and governance. Revenue and yield captured by the protocol buys back and distributes tokens to $xPLUTUS holders. The $PLUTUS token powers governance locked as $xPLUTUS as the main yield bearer and DAO voting asset.",
+    "fullDescription": "Plutus is a governance aggregator, built to optimize user liquidity and rewards while consolidating protocol governance through the PLUTUS token. Instead of traditional veTokens, users interact with plsASSETs to stay liquid, earn rewards, and actively participate in governance. The platform has partnered with key Arbitrum protocols like Camelot, Stryke, Radiant, GMX, Sperax, and Jones to deliver governance-enhanced products. Plutus offers two core product types: plsASSETs, which streamline governance and liquidity efficiency, and plvASSETs, vaults aimed at maximizing rewards and composability. The PLUTUS token ($PLUTUS), a LayerZero OFT live on Arbitrum and Berachain, underpins the ecosystem, while $xPLUTUS, its escrowed yield-bearing variant, serves as the DAO’s primary voting and value-accrual mechanism. For full benefits, holders must lock PLUTUS as bPLS for 16 weeks.",
+    "feeInPayout": 5
   },
   {
     "index": 15003,
@@ -1382,6 +1435,115 @@
     "fullDescription": "FOMOFox is the first market-driven storytelling meme coin on IOTA EVM. Follow the thrilling journey of FOMOFox on TwitterX and help him conquer his FOMO by influencing the $FOMO Token’s market performance. Loyal holders will find countless opportunities to grow their $FOMO bags through raffles, solving riddles, or simply holding and supporting the fox. Along the way, FOMOFox faces diverse challenges and meets intriguing characters. Your influence on the market helps him make the right choices. This project offers pure entertainment and rewards those who stick with it! Join the adventure now and visit their website for more details!"
   },
   {
+    "index": 8051,
+    "cmcId": 35595,
+    "version": "2.1.0",
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0x49Bec48C85849325606d054eE708c5C7d3e178f7"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2"
+      },
+      "decimals": {
+        "8453": 6
+      },
+      "liquidityDex": {
+        "8453": "UniswapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "GMRT",
+      "address": {
+        "8453": "0x6967F0974d76d34e140caE27efeA32CDf546b58E"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "8453": "UniswapV3"
+      }
+    },
+    "billNnftAddress": {
+      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "inactive": false,
+    "projectLink": "https://www.gmrtag.io/",
+    "twitter": "https://x.com/TheGame_Company",
+    "initTime": {
+      "8453": 1750162941
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["GAMEFI"],
+    "shortDescription": "The Game Company, a cloud gaming platform enhanced by AI and Web3. Play any game on any device, anywhere—no hardware or downloads needed. Bring your own games from Steam, Epic, and more. Earn rewards in GMRT through play-to-earn mechanics, game entry fees, and token staking for tournaments based on performance.",
+    "fullDescription": "The Game Company, a groundbreaking platform at the intersection of AI, Web3, and cloud gaming. Designed to eliminate the need for expensive hardware or downloads, it enables players to enjoy any game on any device, anywhere in the world—even bringing their own titles from Steam, Epic, AE, or Battle.net. The platform redefines gaming freedom and introduces a play-to-earn model that transforms time spent playing into real value. With a vast library spanning all genres and gamer types, it fosters a truly inclusive ecosystem. Rewards are distributed in GMRT, a native token generated through supply inflation and game entry fees. Players can stake GMRT to enter tournaments, where payouts depend on both token stake and in-game performance, blending skill and strategy with earning potential.",
+    "feeInPayout": 3.5
+  },
+  {
+    "index": 8050,
+    "cmcId": 35595,
+    "version": "2.1.0",
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0x9Ecf880144B19d1a9553bAac3B444C06D84ae5e0"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "8453": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+      },
+      "decimals": {
+        "8453": 6
+      },
+      "liquidityDex": {
+        "8453": "Aerodrome"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "FMT",
+      "address": {
+        "8453": "0x5bA9E0ce610927c1915c9d9de4BdaF2b8A1Dee7e"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "8453": "UniswapV3"
+      }
+    },
+    "billNnftAddress": {
+      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "inactive": false,
+    "projectLink": "https://fingermonkeys.com/",
+    "twitter": "https://x.com/fingermonkeysio",
+    "audit": "https://app.solidproof.io/projects/fmdtc",
+    "initTime": {
+      "8453": 1749467097
+    },
+    "soldOut": true,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["GAMEFI"],
+    "shortDescription": "FingerMonkeys is a gamified platform where ambassadors upload mini-games and players scroll, play, and earn FMT tokens in a TikTok-style feed. Ambassadors gain ecosystem control through node-based licenses, while the FMT token fuels transactions, rewards, and utilities. Over time, governance will shift to an ambassador DAO, ensuring decentralized and community-driven growth.",
+    "fullDescription": "FingerMonkeys is a gamified platform where ambassadors upload simple mini-games and players enjoy a TikTok-style experience of scrolling, playing, and earning FMT tokens. Ambassadors acquire licenses through nodes, granting them tools and authority to shape the ecosystem. Players earn FMT as rewards, driving a vibrant token economy. The FMT token powers all transactions, incentivizes participation, and unlocks platform utilities. As the platform evolves, governance will shift to an ambassador DAO, ensuring decentralized, community-led innovation. With ongoing growth, new utilities will be added, deepening the token’s integration across gameplay and the wider FingerMonkeys ecosystem.",
+    "feeInPayout": 5
+  },
+  {
     "index": 8049,
     "cmcId": 35595,
     "version": "2.1.0",
@@ -1426,7 +1588,7 @@
     "initTime": {
       "8453": 1747061931
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },

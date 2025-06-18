@@ -7,7 +7,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Arbitrum Largest ID: 2027
 // ETH Largest ID: 3046
 // Linea Largest ID: 6019
-// Base Largest ID: 8049
+// Base Largest ID: 8051
 // Lightlink Largest ID: 7003
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
@@ -17,7 +17,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Crossfi Largest ID: 13000
 // Monad Testnet Largest ID: 14011
 // Sonic Largest ID: 15000
-// Berachain Largest ID: 16002
+// Berachain Largest ID: 16003
 const bills: BillsConfig[] = [
   //
   // Berachain
@@ -69,7 +69,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/moneygoesburr',
     audit: 'https://docs.burrbear.io/contract-audits/audits',
     initTime: { [ChainId.BERACHAIN]: 1748420897 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Berachain_Collection1,
     },
@@ -106,6 +106,35 @@ const bills: BillsConfig[] = [
       'Honeyfun AI brings co-owned Utility AI Agents to Berachain, focusing on DeFi, gaming, and entertainment. Through the Honeyfun Protocol, users can create agents with persistent identity and real utility. $AIBERA powers the ecosystem, pairing with all AI LPs and capturing 100% of platform fees for staking and buybacks—driving real value and community growth.',
     fullDescription:
       'Honeyfun AI is pioneering a co-ownership framework for Utility AI Agents on the Berachain ecosystem, with a focus on DeFi, gaming, and entertainment. These agents are designed to be persistent, functional, and revenue-generating, maintaining consistent identity and memory across platforms to deepen user engagement and boost ARPU. Through the Honeyfun Protocol, users can collaboratively own, develop, and deploy AI agents, merging innovation in AI and blockchain with community-driven growth. Central to this vision is the $AIBERA token—not just a governance tool, but the economic backbone of the protocol. All AI agent LPs will be paired with $AIBERA, transforming it into an ETF-like asset for Berachain AI, while 100% of platform and trading fees will support staking and buybacks.',
+  },
+  {
+    index: 16003,
+    version: '2.1.0',
+    chainId: ChainId.BERACHAIN,
+    contractAddress: {
+      [ChainId.BERACHAIN]: '0xF5abC8b087992F31F2768fB04AfFDB2AFEe9d18a',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.bera,
+    earnToken: tokens.plutus,
+    billNnftAddress: {
+      [ChainId.BERACHAIN]: '0x1b7858f745211dBa1387fE30124eBCa2D706D7Dd',
+    },
+    inactive: false,
+    projectLink: 'https://plutusdao.io/',
+    twitter: 'https://x.com/PlutusDAO_io',
+    initTime: { [ChainId.BERACHAIN]: 1749549138 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Berachain_Collection1,
+    },
+    tags: ['DAO'],
+    shortDescription:
+      'Plutus leads a family of protocols in the space of yield optimization across chains, optimizing liquidity and rewards through PoL farming, delta neutral vaults, cross chain aggregated yield maximization and AI-agentic trading and governance. Revenue and yield captured by the protocol buys back and distributes tokens to $xPLUTUS holders. The $PLUTUS token powers governance locked as $xPLUTUS as the main yield bearer and DAO voting asset.',
+    fullDescription:
+      'Plutus is a governance aggregator, built to optimize user liquidity and rewards while consolidating protocol governance through the PLUTUS token. Instead of traditional veTokens, users interact with plsASSETs to stay liquid, earn rewards, and actively participate in governance. The platform has partnered with key Arbitrum protocols like Camelot, Stryke, Radiant, GMX, Sperax, and Jones to deliver governance-enhanced products. Plutus offers two core product types: plsASSETs, which streamline governance and liquidity efficiency, and plvASSETs, vaults aimed at maximizing rewards and composability. The PLUTUS token ($PLUTUS), a LayerZero OFT live on Arbitrum and Berachain, underpins the ecosystem, while $xPLUTUS, its escrowed yield-bearing variant, serves as the DAO’s primary voting and value-accrual mechanism. For full benefits, holders must lock PLUTUS as bPLS for 16 weeks.',
+    feeInPayout: 5,
   },
 
   //
@@ -743,6 +772,63 @@ const bills: BillsConfig[] = [
   // BASE
   //
   {
+    index: 8051,
+    cmcId: 35595,
+    version: '2.1.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x49Bec48C85849325606d054eE708c5C7d3e178f7',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.gmrt,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://www.gmrtag.io/',
+    twitter: 'https://x.com/TheGame_Company',
+    initTime: { [ChainId.BASE]: 1750162941 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['GAMEFI'],
+    shortDescription: `The Game Company, a cloud gaming platform enhanced by AI and Web3. Play any game on any device, anywhere—no hardware or downloads needed. Bring your own games from Steam, Epic, and more. Earn rewards in GMRT through play-to-earn mechanics, game entry fees, and token staking for tournaments based on performance.`,
+    fullDescription: `The Game Company, a groundbreaking platform at the intersection of AI, Web3, and cloud gaming. Designed to eliminate the need for expensive hardware or downloads, it enables players to enjoy any game on any device, anywhere in the world—even bringing their own titles from Steam, Epic, AE, or Battle.net. The platform redefines gaming freedom and introduces a play-to-earn model that transforms time spent playing into real value. With a vast library spanning all genres and gamer types, it fosters a truly inclusive ecosystem. Rewards are distributed in GMRT, a native token generated through supply inflation and game entry fees. Players can stake GMRT to enter tournaments, where payouts depend on both token stake and in-game performance, blending skill and strategy with earning potential.`,
+    feeInPayout: 3.5,
+  },
+  {
+    index: 8050,
+    cmcId: 35595,
+    version: '2.1.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x9Ecf880144B19d1a9553bAac3B444C06D84ae5e0',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.fmt,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://fingermonkeys.com/',
+    twitter: 'https://x.com/fingermonkeysio',
+    audit: 'https://app.solidproof.io/projects/fmdtc',
+    initTime: { [ChainId.BASE]: 1749467097 },
+    soldOut: true,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['GAMEFI'],
+    shortDescription: `FingerMonkeys is a gamified platform where ambassadors upload mini-games and players scroll, play, and earn FMT tokens in a TikTok-style feed. Ambassadors gain ecosystem control through node-based licenses, while the FMT token fuels transactions, rewards, and utilities. Over time, governance will shift to an ambassador DAO, ensuring decentralized and community-driven growth.`,
+    fullDescription: `FingerMonkeys is a gamified platform where ambassadors upload simple mini-games and players enjoy a TikTok-style experience of scrolling, playing, and earning FMT tokens. Ambassadors acquire licenses through nodes, granting them tools and authority to shape the ecosystem. Players earn FMT as rewards, driving a vibrant token economy. The FMT token powers all transactions, incentivizes participation, and unlocks platform utilities. As the platform evolves, governance will shift to an ambassador DAO, ensuring decentralized, community-led innovation. With ongoing growth, new utilities will be added, deepening the token’s integration across gameplay and the wider FingerMonkeys ecosystem.`,
+    feeInPayout: 5,
+  },
+  {
     index: 8049,
     cmcId: 35595,
     version: '2.1.0',
@@ -761,7 +847,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.gmrtag.io/',
     twitter: 'https://x.com/TheGame_Company',
     initTime: { [ChainId.BASE]: 1747061931 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },

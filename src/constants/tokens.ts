@@ -390,6 +390,19 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.UniswapV3,
     },
   },
+  fmt: {
+    symbol: 'FMT',
+    address: {
+      [ChainId.BASE]: '0x5bA9E0ce610927c1915c9d9de4BdaF2b8A1Dee7e',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV3,
+    },
+  },
   glq: {
     symbol: 'WGLQ',
     address: {
@@ -1300,6 +1313,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BERACHAIN]: '0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590',
       [ChainId.KATANA_TESTNET]: '0x17B8Ee96E3bcB3b04b3e8334de4524520C51caB4',
       [ChainId.KATANA]: '0xEE7D8BCFb72bC1880D0Cf19822eB0A2e6577aB62',
+      [ChainId.UNICHAIN]: '0x4200000000000000000000000000000000000006',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -1319,6 +1333,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BERACHAIN]: 18,
       [ChainId.KATANA_TESTNET]: 18,
       [ChainId.KATANA]: 18,
+      [ChainId.UNICHAIN]: 18,
     },
     liquidityDex: {
       [ChainId.MAINNET]: LiquidityDex.UniswapV3,
@@ -1333,6 +1348,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BERACHAIN]: LiquidityDex.KodiakV3,
       [ChainId.KATANA_TESTNET]: LiquidityDex.External,
       [ChainId.KATANA]: LiquidityDex.External,
+      [ChainId.UNICHAIN]: LiquidityDex.External,
     },
     active: true,
   },
@@ -4169,6 +4185,22 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  mrlc: {
+    symbol: 'MRLC',
+    address: {
+      [ChainId.MAINNET]: '0x188b8e23CefFCA7a58e8C64C2a7A9771Ab3596A7',
+    },
+    decimals: { [ChainId.MAINNET]: 18 },
+    active: true,
+  },
+  mrlcTest: {
+    symbol: 'MRLC',
+    address: {
+      [ChainId.MAINNET]: '0x61d81F187a124C66e7ff7b19245806a0Dd914d7e',
+    },
+    decimals: { [ChainId.MAINNET]: 18 },
+    active: true,
+  },
   cirus: {
     symbol: 'CIRUS',
     address: {
@@ -4924,6 +4956,19 @@ const tokens: Record<string, Token> = {
     symbol: 'AIBERA',
     address: {
       [ChainId.BERACHAIN]: '0xCc6A16bcFda7D0ebE168F69Ef7b946e96A90E67F',
+    },
+    decimals: {
+      [ChainId.BERACHAIN]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BERACHAIN]: LiquidityDex.KodiakV3,
+    },
+  },
+  plutus: {
+    symbol: 'PLUTUS',
+    address: {
+      [ChainId.BERACHAIN]: '0x6698EDe14709A9Dd8379744CC2D28F276E3d2Eac',
     },
     decimals: {
       [ChainId.BERACHAIN]: 18,
