@@ -49,7 +49,6 @@ const bills: BillsConfig[] = [
       'BeraTrax is a mobile-first platform that simplifies earning yield on Berachain through one-click deposits, gasless transactions, and auto-compounding vaults. Users earn BGT or iBGT for ongoing validator rewards. TRAX holders decide which vault gets boosted each week, directing protocol bribes to maximize community-driven rewards.',
     fullDescription:
       'BeraTrax is the easiest way to earn yield on Berachain, offering users seamless access to vaults with auto-compounded rewards and integrated participation in Berachain’s Proof of Liquidity system—all through a mobile-friendly experience. Designed for both DeFi newcomers and veteran yield farmers, BeraTrax simplifies the process with one-click deposits, gas-free transactions, and automated yield strategies. Its unique BGT flywheel rewards users with BGT or iBGT, the latter of which continues to generate validator rewards even after emissions end. Protocol fees are used to bribe validators, directing BGT emissions to one vault per week as chosen by TRAX holders.',
-    feeInPayout: 5,
   },
   {
     index: 16001,
@@ -79,7 +78,6 @@ const bills: BillsConfig[] = [
       'BurrBear is the one-stop stablecoin shop on Berachain, offering capital-efficient DeFi pools for stablecoins and tokenized assets. With Multi Stable Pools, innovative and more efficient `Burr Pools`, and Generalized Pools, it supports both like-priced and non-like-priced trades. Fueled by the BURR token, BurrBear unleashes a new era of capital-efficient trading.',
     fullDescription:
       'BurrBear is the one-stop stablecoin shop for the Berachain ecosystem, offering a novel decentralized exchange purpose-built for capital-efficient trading of stablecoins and tokenized assets. Its platform features Multi Stable Pools for classic USD:USD trades, Burr Pools—20x more capital-efficient than traditional pools—for a wide range of stablecoins backed by currencies, commodities, synthetic assets, or tokenized real-world and hardware assets, and Generalized Pools for broader token swaps. By combining the utility of Uniswap and Curve with a focus on off-chain market-tracking assets, BurrBear enables deep, flexible liquidity for both like-priced and non-like-priced assets. The protocol is powered by the BURR token, with a capped supply of 100 million, positioning BurrBear as a foundational pillar of Berachain DeFi. ',
-    feeInPayout: 5,
   },
   {
     index: 16002,
@@ -108,7 +106,6 @@ const bills: BillsConfig[] = [
       'Honeyfun AI brings co-owned Utility AI Agents to Berachain, focusing on DeFi, gaming, and entertainment. Through the Honeyfun Protocol, users can create agents with persistent identity and real utility. $AIBERA powers the ecosystem, pairing with all AI LPs and capturing 100% of platform fees for staking and buybacks—driving real value and community growth.',
     fullDescription:
       'Honeyfun AI is pioneering a co-ownership framework for Utility AI Agents on the Berachain ecosystem, with a focus on DeFi, gaming, and entertainment. These agents are designed to be persistent, functional, and revenue-generating, maintaining consistent identity and memory across platforms to deepen user engagement and boost ARPU. Through the Honeyfun Protocol, users can collaboratively own, develop, and deploy AI agents, merging innovation in AI and blockchain with community-driven growth. Central to this vision is the $AIBERA token—not just a governance tool, but the economic backbone of the protocol. All AI agent LPs will be paired with $AIBERA, transforming it into an ETF-like asset for Berachain AI, while 100% of platform and trading fees will support staking and buybacks.',
-    feeInPayout: 5,
   },
   {
     index: 16003,
@@ -137,7 +134,6 @@ const bills: BillsConfig[] = [
       'Plutus leads a family of protocols in the space of yield optimization across chains, optimizing liquidity and rewards through PoL farming, delta neutral vaults, cross chain aggregated yield maximization and AI-agentic trading and governance. Revenue and yield captured by the protocol buys back and distributes tokens to $xPLUTUS holders. The $PLUTUS token powers governance locked as $xPLUTUS as the main yield bearer and DAO voting asset.',
     fullDescription:
       'Plutus is a governance aggregator, built to optimize user liquidity and rewards while consolidating protocol governance through the PLUTUS token. Instead of traditional veTokens, users interact with plsASSETs to stay liquid, earn rewards, and actively participate in governance. The platform has partnered with key Arbitrum protocols like Camelot, Stryke, Radiant, GMX, Sperax, and Jones to deliver governance-enhanced products. Plutus offers two core product types: plsASSETs, which streamline governance and liquidity efficiency, and plvASSETs, vaults aimed at maximizing rewards and composability. The PLUTUS token ($PLUTUS), a LayerZero OFT live on Arbitrum and Berachain, underpins the ecosystem, while $xPLUTUS, its escrowed yield-bearing variant, serves as the DAO’s primary voting and value-accrual mechanism. For full benefits, holders must lock PLUTUS as bPLS for 16 weeks.',
-    feeInPayout: 5,
   },
 
   //
@@ -171,7 +167,6 @@ const bills: BillsConfig[] = [
     shortDescription:
       'SPIN IT is a GambleFi hub on the Sonic blockchain, offering casino games, sports betting, poker, and more. Users can play with $SPIN and other tokens, earn through bet2earn, and stake to share in casino revenue. With liquidity on Shadow DEX, high APRs, and weekly bribes, SPIN IT combines speed, fairness, and rewards in one thrilling experience.',
     tags: ['Gambling'],
-    feeInPayout: 5,
     warningCard: 'Heads Up: Buying this Bond may require a higher slippage.',
   },
   {
@@ -201,7 +196,6 @@ const bills: BillsConfig[] = [
     shortDescription:
       'MoonBay is a crypto project on the Sonic Network with a strong community and the $MOON token at its core. Blending meme culture with real utility, it embraces DeFi, NFTs, GameFi, and more. Focused on trends and innovation, MoonBay offers value, entertainment, and growth, making it a vibrant hub in the crypto space.',
     tags: ['DeFi'],
-    feeInPayout: 5,
     warningCard: 'Heads Up: Buying this Bond may require a higher slippage.',
   },
   {
@@ -231,7 +225,6 @@ const bills: BillsConfig[] = [
     shortDescription:
       'Shadow is a Sonic-native concentrated liquidity exchange that offers deep liquidity, minimal slippage, and precise trading. Users can maximize returns by targeting active liquidity ranges and fine-tuning price bands. The platform rewards users with fees, vote incentives, and rebases, while its dynamic, customizable fee system adapts to market activity, powered by SHADOW and x33 tokens.',
     tags: ['DEX'],
-    feeInPayout: 5,
   },
   {
     index: 15000,
@@ -260,7 +253,6 @@ const bills: BillsConfig[] = [
     shortDescription:
       "Sonic is the highest-performing EVM L1, combining speed, incentives, and world-class infrastructure, powering the next generation of DeFi applications. The chain provides 400,000 TPS and sub-second finality. The S token is Sonic's native token, used for paying transaction fees, staking, running validators, and participating in governance.",
     tags: ['Blockchains'],
-    feeInPayout: 0,
     minTier: LaunchBondTiers.Silver,
   },
   //
@@ -804,7 +796,6 @@ const bills: BillsConfig[] = [
     tags: ['GAMEFI'],
     shortDescription: `The Game Company, a cloud gaming platform enhanced by AI and Web3. Play any game on any device, anywhere—no hardware or downloads needed. Bring your own games from Steam, Epic, and more. Earn rewards in GMRT through play-to-earn mechanics, game entry fees, and token staking for tournaments based on performance.`,
     fullDescription: `The Game Company, a groundbreaking platform at the intersection of AI, Web3, and cloud gaming. Designed to eliminate the need for expensive hardware or downloads, it enables players to enjoy any game on any device, anywhere in the world—even bringing their own titles from Steam, Epic, AE, or Battle.net. The platform redefines gaming freedom and introduces a play-to-earn model that transforms time spent playing into real value. With a vast library spanning all genres and gamer types, it fosters a truly inclusive ecosystem. Rewards are distributed in GMRT, a native token generated through supply inflation and game entry fees. Players can stake GMRT to enter tournaments, where payouts depend on both token stake and in-game performance, blending skill and strategy with earning potential.`,
-    feeInPayout: 3.5,
   },
   {
     index: 8050,
@@ -833,7 +824,6 @@ const bills: BillsConfig[] = [
     tags: ['GAMEFI'],
     shortDescription: `FingerMonkeys is a gamified platform where ambassadors upload mini-games and players scroll, play, and earn FMT tokens in a TikTok-style feed. Ambassadors gain ecosystem control through node-based licenses, while the FMT token fuels transactions, rewards, and utilities. Over time, governance will shift to an ambassador DAO, ensuring decentralized and community-driven growth.`,
     fullDescription: `FingerMonkeys is a gamified platform where ambassadors upload simple mini-games and players enjoy a TikTok-style experience of scrolling, playing, and earning FMT tokens. Ambassadors acquire licenses through nodes, granting them tools and authority to shape the ecosystem. Players earn FMT as rewards, driving a vibrant token economy. The FMT token powers all transactions, incentivizes participation, and unlocks platform utilities. As the platform evolves, governance will shift to an ambassador DAO, ensuring decentralized, community-led innovation. With ongoing growth, new utilities will be added, deepening the token’s integration across gameplay and the wider FingerMonkeys ecosystem.`,
-    feeInPayout: 5,
   },
   {
     index: 8049,
@@ -861,7 +851,6 @@ const bills: BillsConfig[] = [
     tags: ['GAMEFI'],
     shortDescription: `The Game Company, a cloud gaming platform enhanced by AI and Web3. Play any game on any device, anywhere—no hardware or downloads needed. Bring your own games from Steam, Epic, and more. Earn rewards in GMRT through play-to-earn mechanics, game entry fees, and token staking for tournaments based on performance.`,
     fullDescription: `The Game Company, a groundbreaking platform at the intersection of AI, Web3, and cloud gaming. Designed to eliminate the need for expensive hardware or downloads, it enables players to enjoy any game on any device, anywhere in the world—even bringing their own titles from Steam, Epic, AE, or Battle.net. The platform redefines gaming freedom and introduces a play-to-earn model that transforms time spent playing into real value. With a vast library spanning all genres and gamer types, it fosters a truly inclusive ecosystem. Rewards are distributed in GMRT, a native token generated through supply inflation and game entry fees. Players can stake GMRT to enter tournaments, where payouts depend on both token stake and in-game performance, blending skill and strategy with earning potential.`,
-    feeInPayout: 3.5,
   },
   {
     index: 8048,
@@ -889,7 +878,6 @@ const bills: BillsConfig[] = [
     tags: ['Privacy'],
     shortDescription: `EtherMail is reimagining email for Web3 by bridging Web2 and Web3, giving users full inbox ownership, control, and sovereignty. At the heart of its ecosystem is the EMAIL Token $EMT, a utility token that rewards users for engaging with personalized, consensual marketing content—offering a sharp contrast to spam-filled traditional email models.`,
     fullDescription: `EtherMail is reimagining email for Web3 by bridging the gap between traditional Web2 systems and the decentralized Web3 world, returning full inbox ownership, privacy, and control to users. Much like how Brave transformed web browsing, EtherMail empowers individuals by treating their attention as a valuable asset. At the heart of its ecosystem is the EMAIL Token ($EMT), a utility token that rewards users for engaging with personalized, consensual marketing content—offering a sharp contrast to spam-filled traditional email models. By leveraging AI to tailor communication based on user preferences, EtherMail enables meaningful, permission-based interactions between businesses and users. The team’s commitment extends beyond technology, with active involvement in global conferences and local meetups to foster community engagement and shape the future of decentralized communication.`,
-    feeInPayout: 5,
   },
   {
     index: 8047,
@@ -917,7 +905,6 @@ const bills: BillsConfig[] = [
     tags: ['AI'],
     shortDescription: `Veritas Protocol makes blockchain security simple and accessible for everyone, with automated audits, AI-powered debugging, and built-in insurance against exploits. It protects users, investors, and projects alike. The VPT token unlocks access to services, voting rights, insurance staking, and growing rewards over time.`,
     fullDescription: `Veritas Protocol delivers 10X faster and 90% more affordable blockchain security for users, investors, and projects. It offers intuitive tools that allow anyone to audit tokens and smart contracts at a fraction of the time and cost of traditional methods. Unlike conventional auditors who rely heavily on manual processes, Veritas uses automation and AI to protect not just projects but every ecosystem participant. Its suite includes continuous automated audits, an AI Debugger for real-time fixes, and integrated insurance against exploits. The VPT token powers the ecosystem, granting holders access to services, voting rights, insurance coverage through staking, and a revenue-sharing model that rewards loyalty over time via a token ageing mechanism.`,
-    feeInPayout: 5,
     warningCard: `This token is currently only tradable on <a href="https://www.mexc.com/exchange/VPT_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a>.`,
   },
   {
@@ -946,7 +933,6 @@ const bills: BillsConfig[] = [
     tags: ['AI'],
     shortDescription: `Functionland is a Web3 project empowering users to truly own their data. It began with Fotos, a decentralized photo and video app, and expanded into building missing pieces of the Web3 stack. To support this, Functionland introduced $FULA—a chain-agnostic token that incentivizes storage and compute providers, ensuring data permanence and developer monetization.`,
     fullDescription: `Functionland is a Web3-native project built on the foundational belief that individuals have an inalienable right to own their personal data. It began with the development of Fotos, a decentralized alternative to mainstream photo and video storage apps, designed to return ownership of media to users. However, in the process, the team discovered critical gaps in the Web3 infrastructure, particularly around decentralized storage, compute, and developer monetization. To address these challenges, Functionland introduced the $FULA token—a chain-agnostic utility token that powers its ecosystem. $FULA incentivizes individuals to contribute storage and computational resources, ensuring long-term access to data and enabling developers to build and monetize Web3 applications seamlessly.`,
-    feeInPayout: 5,
   },
   {
     index: 8045,
@@ -974,7 +960,6 @@ const bills: BillsConfig[] = [
     tags: ['Meme', 'Community'],
     shortDescription: `Wild Goat Coin (WGC) began as a fun memecoin and is evolving into a decentralized, fixed-supply digital currency for the Web3 era. Designed to be omnichain and community-driven, WGC is not pegged to fiat or backed by institutions. Its goal is to become a freely usable, interoperable asset across multiple decentralized ecosystems.`,
     fullDescription: `Wild Goat Coin (WGC) is a digital collectible that has evolved into a decentralized, alternative currency protocol tailored for the next generation of Web3. Initially launched as a memecoin, WGC has matured through several development phases and is now transforming into a fixed-supply, internet-native asset that aspires to become a freely usable, omnichain currency. Unlike stablecoins, WGC is not pegged to fiat nor backed by traditional financial institutions; instead, it embraces the volatility of crypto while focusing on accessibility, interoperability, and decentralization. Its goal is to operate seamlessly across multiple decentralized ecosystems, allowing anyone to trade, use, and build with it. Designed to be open, transparent, and driven by the community, WGC’s roadmap reflects a long-term vision of a utility-first, user-empowered digital currency that challenges the status quo of digital value transfer.`,
-    feeInPayout: 2,
   },
   {
     index: 8044,
@@ -1002,7 +987,6 @@ const bills: BillsConfig[] = [
     tags: ['RWA'],
     shortDescription: `Music Protocol is revolutionizing music IP management in the digital space. By leveraging blockchain, it redefines how music intellectual property is licensed and managed. The platform’s utility token, $RECORD, provides governance rights, access to exclusive content, and participation in tokenized music royalties, allowing holders to benefit from future earnings while engaging directly with artists.`,
     fullDescription: `Music Protocol is leading a new wave of innovation in the music industry. It is redefining the management and licensing of music intellectual property across the digital landscape. Created from an extensive three-year collaboration intersecting the legal, music business, and technology sectors, it is a transformational infrastructure intended to facilitate digital evolution in the music industry. At its core, Music Protocol is a blockchain-based solution for intricate IP management, with a modular architecture that empowers IP owners to manage rights in both digital and analogue formats. This system seamlessly integrates these formats, adapting to the industry's evolving needs. The platform’s utility token, $RECORD, provides governance rights, access to exclusive content, and participation in tokenized music royalties, allowing holders to benefit from future earnings while engaging directly with artists.`,
-    feeInPayout: 5,
   },
   {
     index: 8043,
@@ -1033,7 +1017,6 @@ const bills: BillsConfig[] = [
     fullDescription:
       'Metahorse Unity is a groundbreaking multiplayer, play-to-earn RPG racing game developed on the blockchain by Hungri Games, offering a decentralized ecosystem enriched with a diverse NFT collection and an immersive horse metaverse. Players can team up with friends, strategize, and compete against others to earn token rewards across various modes including MOBA, RPG, and strategy, with regular updates and exciting rewards to keep gameplay fresh. Focused on personal skill and teamwork, Metahorse Unity delivers the thrill of competitive racing, tactical battles, and endless customization options for horses, blending both Free-to-Play and Play-to-Earn models. Founded in 2019, Hungri Games has developed and published three RPG titles on mobile, with a global team of over 32 members specializing in game design, blockchain development, HR, and more. In Metahorse Unity, players can play casually with free heroes or level up by acquiring NFTs to start earning, creating their own stable of Meta Horses and harnessing strategic prowess to conquer the racetrack, outshining global rivals and reaping incredible rewards.',
     tags: ['GAMEFI'],
-    feeInPayout: 2,
   },
   {
     index: 8042,
@@ -1060,7 +1043,6 @@ const bills: BillsConfig[] = [
     tags: ['AI'],
     shortDescription: `Bit Rivals transforms gaming with an AI-powered platform that integrates AAA games and blockchain, letting players earn real-world rewards and crypto just by playing. It combines play-to-win and play-to-earn, allowing gamers to earn through tournaments, in-game achievements, and NFT minting. The Rival Rewards system lets players redeem points for $RIVAL tokens, in-game gear, and boosts, with staking options for extra rewards.`,
     fullDescription: `Bit Rivals revolutionizes gaming with an AI-powered platform that seamlessly integrates AAA games and blockchain technology, allowing players to earn real-world rewards and crypto simply by playing their favorite titles. By merging the best aspects of play-to-win and play-to-earn, Bit Rivals gives power back to the players, offering multiple ways to earn—whether through casual gameplay, competitive tournaments, or by minting NFTs and immortalizing their Rival Hero in the metaverse. The Rival Rewards system allows users to accumulate points through gameplay and tournament participation, redeemable for $RIVAL tokens, in-game gear, and exclusive boosts. Players can also stake $RIVAL tokens in the staking portal to unlock additional rewards, fostering long-term engagement. Designed with input from experienced blockchain engineers and economists, the tokenomics ensure a fair distribution model that supports sustainability and rewards dedicated players while driving the platform’s growth.`,
-    feeInPayout: 5,
   },
   {
     index: 8041,
@@ -1088,7 +1070,6 @@ const bills: BillsConfig[] = [
     tags: ['AI'],
     shortDescription: `Degen Distillery is transforming the $800B alcohol market by blending AI innovation with memetic IP. Powered by the $DRINK token on BASE, it redefines "degen" as bold risk-takers and creatives who thrive on individuality. With community at its core, the project is co-owned, co-created, and co-run, leveraging Web3 to foster connection and prosperity. When one of us wins, all of us win.`,
     fullDescription: `Degen Distillery is revolutionizing the $800 billion alcohol market by merging AI innovation with memetic intellectual property. Built on the BASE blockchain, with its $DRINK token at the core, the project redefines what it means to be a "degen" — not a reckless gambler, but a bold risk-taker, free thinker, and creator who embraces individuality while rejecting convention. Community is the beating heart of Degen Distillery, embodying a co-owned, co-created, and co-run ethos powered by Web3 technology. By harnessing collective power, Degen Distillery is crafting a new playground for experiences and connections, blending creativity and collaboration to bring prosperity and innovation to the mainstream. After all, when one of us wins, all of us win.`,
-    feeInPayout: 5,
   },
   {
     index: 8040,
@@ -1116,7 +1097,6 @@ const bills: BillsConfig[] = [
     tags: ['AI'],
     shortDescription: `Sapiens is a data-driven LLM and Telegram bot designed to enhance business development in the Web3 space by helping users identify and connect with the right people efficiently. Powered by the SPN token economy, it rewards users for contributing high-quality, validated data, ensuring accurate and up-to-date insights. With a reputation-based system, Sapiens fosters a dynamic, community-driven ecosystem for smarter sales intelligence.`,
     fullDescription: `Sapiens is a data-driven LLM and Telegram bot designed to revolutionize business development in the Web3 space by enabling sales teams to identify and connect with the right people faster and smarter. Powered by the SPN token economy, it incentivizes users to contribute high-quality, validated data, ensuring accurate, up-to-date insights for lead generation. By addressing key challenges in sales intelligence—such as data aggregation, accuracy, and scalability—Sapiens streamlines outreach and empowers teams with intelligent lead management. Its advanced AI capabilities analyze and validate data in real time, helping businesses make informed decisions and optimize their networking strategies. With a community-driven approach, Sapiens fosters sustained platform growth through SPN token rewards and a reputation-based system, motivating users to enhance the quality of business intelligence. By integrating AI, tokenization, and user-driven data validation, Sapiens creates a dynamic, self-improving ecosystem that transforms Web3 networking and sales into a more efficient and reliable process.`,
-    feeInPayout: 5,
   },
   {
     index: 8039,
@@ -1144,7 +1124,6 @@ const bills: BillsConfig[] = [
     tags: ['AI'],
     shortDescription: `Sapiens is a data-driven LLM and Telegram bot designed to enhance business development in the Web3 space by helping users identify and connect with the right people efficiently. Powered by the SPN token economy, it rewards users for contributing high-quality, validated data, ensuring accurate and up-to-date insights. With a reputation-based system, Sapiens fosters a dynamic, community-driven ecosystem for smarter sales intelligence.`,
     fullDescription: `Sapiens is a data-driven LLM and Telegram bot designed to revolutionize business development in the Web3 space by enabling sales teams to identify and connect with the right people faster and smarter. Powered by the SPN token economy, it incentivizes users to contribute high-quality, validated data, ensuring accurate, up-to-date insights for lead generation. By addressing key challenges in sales intelligence—such as data aggregation, accuracy, and scalability—Sapiens streamlines outreach and empowers teams with intelligent lead management. Its advanced AI capabilities analyze and validate data in real time, helping businesses make informed decisions and optimize their networking strategies. With a community-driven approach, Sapiens fosters sustained platform growth through SPN token rewards and a reputation-based system, motivating users to enhance the quality of business intelligence. By integrating AI, tokenization, and user-driven data validation, Sapiens creates a dynamic, self-improving ecosystem that transforms Web3 networking and sales into a more efficient and reliable process.`,
-    feeInPayout: 2,
   },
   {
     index: 8038,
@@ -1249,7 +1228,6 @@ const bills: BillsConfig[] = [
     tags: ['NFT Marketplace'],
     shortDescription: `Unlock Protocol is an open-source, community-driven system that powers onchain memberships and subscriptions. By easing implementation and boosting user-to-member conversions, it supports a healthier web monetization model. Users earn UP tokens on membership purchases, driving peer-to-peer ownership. Unlock strives to be the global standard for memberships.`,
     fullDescription: `Unlock Protocol is an open-source, community-governed system enabling developers, creators, and platforms to create onchain memberships and subscriptions. Designed to ease implementation and boost user-to-member conversions, Unlock fosters a healthier monetization model for the web. It includes upgradable smart contracts that mint memberships as NFTs, a vibrant ecosystem of stakeholders, the Unlock DAO for decentralized governance, and the Unlock Protocol Foundation for ecosystem support. Originally developed by Unlock Labs from 2018 to 2025, Unlock now operates fully under the DAO and Foundation. The protocol rewards users with UP tokens on membership purchases, reinforcing a peer-to-peer ownership model. Unlock aims to be the global standard for memberships, both online and offline, building a creator-owned internet.`,
-    feeInPayout: 5,
   },
   {
     index: 8034,
@@ -2028,7 +2006,6 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.sophiaverse.ai/',
     twitter: 'https://twitter.com/sophiaverse_ai',
     initTime: { [ChainId.BASE]: 1716217474 },
-    initPrice: { [ChainId.BASE]: 0.005450086440702347 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -2058,7 +2035,6 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.sophiaverse.ai/',
     twitter: 'https://twitter.com/sophiaverse_ai',
     initTime: { [ChainId.BASE]: 1716217474 },
-    initPrice: { [ChainId.BASE]: 0.005450086440702347 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -2087,7 +2063,6 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.basemafia.com/',
     twitter: 'https://x.com/mafia_on_base',
     initTime: { [ChainId.BASE]: 1716217474 },
-    initPrice: { [ChainId.BASE]: 0.005450086440702347 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -2117,7 +2092,6 @@ const bills: BillsConfig[] = [
     projectLink: 'https://smardex.io/home',
     twitter: 'https://x.com/SmarDex',
     initTime: { [ChainId.BASE]: 1716217474 },
-    initPrice: { [ChainId.BASE]: 0.005450086440702347 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -2146,7 +2120,6 @@ const bills: BillsConfig[] = [
     projectLink: 'https://tkn.xyz/',
     twitter: 'https://twitter.com/TokenDao_',
     initTime: { [ChainId.BASE]: 1716217474 },
-    initPrice: { [ChainId.BASE]: 0.005450086440702347 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -2176,7 +2149,6 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.superbestfriends.xyz/',
     twitter: 'https://twitter.com/superbestcoin',
     initTime: { [ChainId.BASE]: 1716217474 },
-    initPrice: { [ChainId.BASE]: 0.005450086440702347 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -2205,7 +2177,6 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.sophiaverse.ai/',
     twitter: 'https://twitter.com/sophiaverse_ai',
     initTime: { [ChainId.BASE]: 1716217474 },
-    initPrice: { [ChainId.BASE]: 0.005450086440702347 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -2237,7 +2208,6 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/lightlinkchain',
     audit: 'https://docs.lightlink.io/lightlink-protocol/miscellaneous/security-audits',
     initTime: { [ChainId.LIGHTLINK]: 1718726904 },
-    initPrice: { [ChainId.LIGHTLINK]: 0.03314013486969532 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -2398,7 +2368,6 @@ const bills: BillsConfig[] = [
     tags: ['Meme', 'Community'],
     shortDescription: `HOTDOG, the sauciest meme on Linea, brings a fiery mix of memes, madness, and mouthwatering fun. More than just a token, it’s a cultural sensation powered by 69% memes, 31% hotdogs, and an unstoppable community. With a fresh website, expanding partnerships, and growing momentum, HOTDOG is ready to take a bite out of the market, this is the hottest dog on the blockchain!`,
     fullDescription: `Everyone loves hotdogs. Everyone loves memes. HotDog on Linea is the ultimate snackable sensation—69% memes, 31% hotdogs, 100% delicious. Fresh off the grill, it’s back with a new website, juicier partnerships, and a community that’s always hungry for more. HOTDOG isn’t just a memecoin—it’s a movement, a meme revolution, and the tastiest token on the blockchain. From AI-generated hotdog art to the most unhinged hotdog memes, this is where degens and food lovers unite. Think you can resist? The market’s heating up, and this is your chance to lock in your spot at the meme table. No forks, no knives—just raw, saucy fun. Whether you're here to stack, snack, or just enjoy the absurdity of a blockchain hotdog, this is your moment. Don't miss out—because nothing hits the spot like $HOTDOG!`,
-    feeInPayout: 0,
   },
   {
     index: 6018,
@@ -2427,7 +2396,6 @@ const bills: BillsConfig[] = [
     tags: ['Meme', 'Community'],
     shortDescription: ` Linpuss revolutionizes trading on Linea by eliminating distractions and making the experience exciting and effortless. Represented by a blindfold, it empowers users to focus on sniping tokens and navigating the market with precision. More than a memecoin, Linpuss combines gamification with powerful tools to identify top opportunities. Backed by the LPUSS token, it offers early access to Linea’s explosive growth and a game-changing ecosystem.`,
     fullDescription: `Linpuss introduces an innovative approach to trading on Linea by combining cutting-edge functionality with a fun, gamified experience. With its signature blindfold, Linpuss symbolizes the elimination of distractions, empowering users to focus on sniping tokens and seizing the best opportunities in Linea's dynamic market. More than just a memecoin, Linpuss provides traders with an intuitive and thrilling tool that merges the efficiency of a trading bot with the excitement of a game. As Linea prepares for exponential growth, Linpuss positions itself as a gateway to unlocking early access to a revolutionary ecosystem, offering substantial upside potential. Backed by the LPUSS token, Linpuss is on a mission to redefine blockchain trading—making it seamless, engaging, and accessible for all. Whether you're a seasoned trader or a newcomer, Linpuss transforms trading into an adventure, giving you the tools and focus needed to succeed in the evolving Linea market.`,
-    feeInPayout: 5,
   },
   {
     index: 6017,
@@ -2454,7 +2422,6 @@ const bills: BillsConfig[] = [
     tags: ['Meme', 'Community'],
     shortDescription: `HOTDOG, the sauciest meme on Linea, brings a fiery mix of memes, madness, and mouthwatering fun. More than just a token, it’s a cultural sensation powered by 69% memes, 31% hotdogs, and an unstoppable community. With a fresh website, expanding partnerships, and growing momentum, HOTDOG is ready to take a bite out of the market, this is the hottest dog on the blockchain!`,
     fullDescription: `Everyone loves hotdogs. Everyone loves memes. HotDog on Linea is the ultimate snackable sensation—69% memes, 31% hotdogs, 100% delicious. Fresh off the grill, it’s back with a new website, juicier partnerships, and a community that’s always hungry for more. HOTDOG isn’t just a memecoin—it’s a movement, a meme revolution, and the tastiest token on the blockchain. From AI-generated hotdog art to the most unhinged hotdog memes, this is where degens and food lovers unite. Think you can resist? The market’s heating up, and this is your chance to lock in your spot at the meme table. No forks, no knives—just raw, saucy fun. Whether you're here to stack, snack, or just enjoy the absurdity of a blockchain hotdog, this is your moment. Don't miss out—because nothing hits the spot like $HOTDOG!`,
-    feeInPayout: 0,
   },
   {
     index: 6016,
@@ -2482,7 +2449,6 @@ const bills: BillsConfig[] = [
     tags: ['DEX'],
     shortDescription: `Lynex is a powerful liquidity platform based on Thena, which enhanced the Velodrome codebase to fairly compensate LPs for impermanent loss. Ideal for projects needing liquidity, Lynex connects users with top strategies via ALMs, optimizes returns, and rewards participants. Its core token, $LYNX, can be converted to veLYNX for deeper governance and incentives.`,
     fullDescription: `Lynex is a next-generation liquidity platform that democratizes advanced liquidity strategies by connecting everyday traders with expert-level tools through a competitive ecosystem of Automated Liquidity Managers (ALMs) and strategists. Designed for efficiency, Lynex optimizes concentrated liquidity positions to maximize fees and minimize slippage, while integrating professional strategists for active liquidity and reward management. Acting as a central hub, Lynex aggregates ALMs into a vibrant marketplace where users can easily find strategies tailored to their needs. Each trade generates token fees, rewarding active voters and reinforcing the Lynex treasury. Its unique bribe system, powered by protocols on the Linea blockchain, fuels ecosystem engagement. Incentives are further enhanced through oLYNX, aligning participant interests. At the core is $LYNX, an ERC-20 utility token convertible into veLYNX, enabling deeper participation and governance within the Lynex ecosystem.`,
-    feeInPayout: 0,
   },
   {
     index: 6015,
@@ -2509,7 +2475,6 @@ const bills: BillsConfig[] = [
     tags: ['Meme', 'Community'],
     shortDescription: `HOTDOG, the sauciest meme on Linea, brings a fiery mix of memes, madness, and mouthwatering fun. More than just a token, it’s a cultural sensation powered by 69% memes, 31% hotdogs, and an unstoppable community. With a fresh website, expanding partnerships, and growing momentum, HOTDOG is ready to take a bite out of the market, this is the hottest dog on the blockchain!`,
     fullDescription: `Everyone loves hotdogs. Everyone loves memes. HotDog on Linea is the ultimate snackable sensation—69% memes, 31% hotdogs, 100% delicious. Fresh off the grill, it’s back with a new website, juicier partnerships, and a community that’s always hungry for more. HOTDOG isn’t just a memecoin—it’s a movement, a meme revolution, and the tastiest token on the blockchain. From AI-generated hotdog art to the most unhinged hotdog memes, this is where degens and food lovers unite. Think you can resist? The market’s heating up, and this is your chance to lock in your spot at the meme table. No forks, no knives—just raw, saucy fun. Whether you're here to stack, snack, or just enjoy the absurdity of a blockchain hotdog, this is your moment. Don't miss out—because nothing hits the spot like $HOTDOG!`,
-    feeInPayout: 0,
   },
   {
     index: 6014,
@@ -2538,7 +2503,6 @@ const bills: BillsConfig[] = [
     tags: ['Meme', 'Community'],
     shortDescription: ` Linpuss revolutionizes trading on Linea by eliminating distractions and making the experience exciting and effortless. Represented by a blindfold, it empowers users to focus on sniping tokens and navigating the market with precision. More than a memecoin, Linpuss combines gamification with powerful tools to identify top opportunities. Backed by the LPUSS token, it offers early access to Linea’s explosive growth and a game-changing ecosystem.`,
     fullDescription: `Linpuss introduces an innovative approach to trading on Linea by combining cutting-edge functionality with a fun, gamified experience. With its signature blindfold, Linpuss symbolizes the elimination of distractions, empowering users to focus on sniping tokens and seizing the best opportunities in Linea's dynamic market. More than just a memecoin, Linpuss provides traders with an intuitive and thrilling tool that merges the efficiency of a trading bot with the excitement of a game. As Linea prepares for exponential growth, Linpuss positions itself as a gateway to unlocking early access to a revolutionary ecosystem, offering substantial upside potential. Backed by the LPUSS token, Linpuss is on a mission to redefine blockchain trading—making it seamless, engaging, and accessible for all. Whether you're a seasoned trader or a newcomer, Linpuss transforms trading into an adventure, giving you the tools and focus needed to succeed in the evolving Linea market.`,
-    feeInPayout: 2,
   },
   {
     index: 6013,
@@ -2567,7 +2531,6 @@ const bills: BillsConfig[] = [
     tags: ['Meme', 'Community'],
     shortDescription: ` Linpuss revolutionizes trading on Linea by eliminating distractions and making the experience exciting and effortless. Represented by a blindfold, it empowers users to focus on sniping tokens and navigating the market with precision. More than a memecoin, Linpuss combines gamification with powerful tools to identify top opportunities. Backed by the LPUSS token, it offers early access to Linea’s explosive growth and a game-changing ecosystem.`,
     fullDescription: `Linpuss introduces an innovative approach to trading on Linea by combining cutting-edge functionality with a fun, gamified experience. With its signature blindfold, Linpuss symbolizes the elimination of distractions, empowering users to focus on sniping tokens and seizing the best opportunities in Linea's dynamic market. More than just a memecoin, Linpuss provides traders with an intuitive and thrilling tool that merges the efficiency of a trading bot with the excitement of a game. As Linea prepares for exponential growth, Linpuss positions itself as a gateway to unlocking early access to a revolutionary ecosystem, offering substantial upside potential. Backed by the LPUSS token, Linpuss is on a mission to redefine blockchain trading—making it seamless, engaging, and accessible for all. Whether you're a seasoned trader or a newcomer, Linpuss transforms trading into an adventure, giving you the tools and focus needed to succeed in the evolving Linea market.`,
-    feeInPayout: 2,
   },
   {
     index: 6012,
@@ -2777,7 +2740,6 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/xfai_official',
     audit: 'https://xfai.com/audit.pdf',
     initTime: { [ChainId.LINEA]: 1716217474 },
-    initPrice: { [ChainId.LINEA]: 0.005450086440702347 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -2805,7 +2767,6 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/NileExchange',
     audit: 'https://docs.thenile.exchange/security-and-legal-considerations/inherited-security',
     initTime: { [ChainId.LINEA]: 1716217474 },
-    initPrice: { [ChainId.LINEA]: 0.005450086440702347 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -2833,7 +2794,6 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/velocorexyz',
     audit: 'https://docs.velocore.xyz/security-and-contract-address/three-rounds-of-audits',
     initTime: { [ChainId.LINEA]: 1716217474 },
-    initPrice: { [ChainId.LINEA]: 0.005450086440702347 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -2861,7 +2821,6 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/LynexFi',
     audit: 'https://www.cyberscope.io/audits/coin-lynex',
     initTime: { [ChainId.LINEA]: 1716217474 },
-    initPrice: { [ChainId.LINEA]: 0.005450086440702347 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -2890,7 +2849,6 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/MetavaultTrade',
     audit: 'https://www.cyberscope.io/audits/coin-metavault-trade?slug=coin-metavault-trade',
     initTime: { [ChainId.LINEA]: 1716217474 },
-    initPrice: { [ChainId.LINEA]: 0.005450086440702347 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -2939,7 +2897,6 @@ const bills: BillsConfig[] = [
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
     ],
-    feeInPayout: 0,
   },
   {
     index: 1152,
@@ -2978,7 +2935,6 @@ const bills: BillsConfig[] = [
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
     ],
-    feeInPayout: 0,
   },
   {
     index: 1151,
@@ -3008,7 +2964,6 @@ const bills: BillsConfig[] = [
     shortDescription:
       'Papu Games is a Web3 gaming platform leveraging $PAPU to power Papu Arena, where players engage with multiple BNB Chain tokens in a unified ecosystem, enhancing visibility while offering seamless, tax-free gaming and swapping.',
     tags: ['GAMEFI'],
-    feeInPayout: 5,
   },
   {
     index: 1150,
@@ -3037,7 +2992,6 @@ const bills: BillsConfig[] = [
     shortDescription:
       'Outer Ring MMO is a free-to-play Sci-Fi action RPG where players explore galaxies, build assets, and shape their own adventures. Set in a vast metaverse, it features a player-driven economy powered by the Galactic Quadrant (GQ) token, which rewards gameplay and enables governance. Forge your legend in a universe full of endless possibilities.',
     tags: ['GAMEFI'],
-    feeInPayout: 5,
   },
   {
     index: 1149,
@@ -3066,7 +3020,6 @@ const bills: BillsConfig[] = [
     shortDescription:
       'Outer Ring MMO is a free-to-play Sci-Fi action RPG where players explore galaxies, build assets, and shape their own adventures. Set in a vast metaverse, it features a player-driven economy powered by the Galactic Quadrant (GQ) token, which rewards gameplay and enables governance. Forge your legend in a universe full of endless possibilities.',
     tags: ['GAMEFI'],
-    feeInPayout: 5,
   },
   {
     index: 1148,
@@ -3096,7 +3049,6 @@ const bills: BillsConfig[] = [
     fullDescription:
       'Ithaca is building permissionless cross-chain infrastructure designed to enable optimal risk sharing across time and event horizons. Its architecture supports instant deployment of liquidity self-enhancing options, structured products, and lending markets on any underlying asset. The protocol combines an off-chain auction-based, EVM-compatible matching engine with smart contracts that enforce post-trade settlement and collateral custody. Bridging is powered by Axelar, enabling multi-chain functionality into Arbitrum. The Ithaca App serves as a user-friendly interface for placing trades, managing collateral, and executing strategies from simple payoffs to complex derivatives. Governed by the ITHACA token, which can be staked for rewards, the ecosystem aligns stakeholder incentives through decentralized governance. The token launch aims to bootstrap liquidity, reward early adopters, and support ecosystem growth.',
     tags: ['DeFi'],
-    feeInPayout: 5,
   },
   {
     index: 1147,
@@ -3127,7 +3079,6 @@ const bills: BillsConfig[] = [
       'Script Network is an open-source Web3 live TV platform, protocol, and video storage network focused on delivering a unique, industry-defining experience using blockchain technology.',
     fullDescription:
       'Script Network (aka Script.TV) is an open-source Web3 live TV platform, protocol, and video storage network focused on delivering a unique, industry-defining experience using blockchain technology. Say goodbye to passive viewing: Script Network pioneers a new era of interactive TV platforms that enable users to connect and engage with fellow viewers in real-time. From participating in content clubs to seizing investment opportunities through NFTs, Script Network empowers users to shape their viewing experience while earning rewards. As a layer-one video protocol that seeks to revolutionize video streaming and create new opportunities for content creators, Script Network houses a range of products, including Script TV, Script Marketplace, Script Enterprise, Script Blockchain, and sADs.',
-    feeInPayout: 5,
   },
   {
     index: 1146,
@@ -3158,7 +3109,6 @@ const bills: BillsConfig[] = [
       'Script Network is an open-source Web3 live TV platform, protocol, and video storage network focused on delivering a unique, industry-defining experience using blockchain technology.',
     fullDescription:
       'Script Network (aka Script.TV) is an open-source Web3 live TV platform, protocol, and video storage network focused on delivering a unique, industry-defining experience using blockchain technology. Say goodbye to passive viewing: Script Network pioneers a new era of interactive TV platforms that enable users to connect and engage with fellow viewers in real-time. From participating in content clubs to seizing investment opportunities through NFTs, Script Network empowers users to shape their viewing experience while earning rewards. As a layer-one video protocol that seeks to revolutionize video streaming and create new opportunities for content creators, Script Network houses a range of products, including Script TV, Script Marketplace, Script Enterprise, Script Blockchain, and sADs.',
-    feeInPayout: 5,
   },
   {
     index: 1145,
@@ -3197,7 +3147,6 @@ const bills: BillsConfig[] = [
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
     ],
-    feeInPayout: 0,
   },
   {
     index: 1144,
@@ -3227,7 +3176,6 @@ const bills: BillsConfig[] = [
     shortDescription:
       'Ithaca is building permissionless cross-chain infrastructure designed to enable optimal risk sharing across time and event horizons. Its architecture supports instant deployment of liquidity self-enhancing options, structured products, and lending markets on any underlying asset. The protocol combines an off-chain auction-based, EVM-compatible matching engine with smart contracts that enforce post-trade settlement and collateral custody. Bridging is powered by Axelar, enabling multi-chain functionality into Arbitrum. The Ithaca App serves as a user-friendly interface for placing trades, managing collateral, and executing strategies from simple payoffs to complex derivatives. Governed by the ITHACA token, which can be staked for rewards, the ecosystem aligns stakeholder incentives through decentralized governance. The token launch aims to bootstrap liquidity, reward early adopters, and support ecosystem growth.',
     tags: ['DeFi'],
-    feeInPayout: 5,
   },
   {
     index: 1143,
@@ -3266,7 +3214,6 @@ const bills: BillsConfig[] = [
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
     ],
-    feeInPayout: 0,
   },
   {
     index: 1142,
@@ -3295,7 +3242,6 @@ const bills: BillsConfig[] = [
     shortDescription:
       'Outer Ring MMO is a free-to-play Sci-Fi action RPG where players explore galaxies, build assets, and shape their own adventures. Set in a vast metaverse, it features a player-driven economy powered by the Galactic Quadrant (GQ) token, which rewards gameplay and enables governance. Forge your legend in a universe full of endless possibilities.',
     tags: ['GAMEFI'],
-    feeInPayout: 5,
   },
   {
     index: 1141,
@@ -3324,7 +3270,6 @@ const bills: BillsConfig[] = [
     shortDescription:
       'Outer Ring MMO is a free-to-play Sci-Fi action RPG where players explore galaxies, build assets, and shape their own adventures. Set in a vast metaverse, it features a player-driven economy powered by the Galactic Quadrant (GQ) token, which rewards gameplay and enables governance. Forge your legend in a universe full of endless possibilities.',
     tags: ['GAMEFI'],
-    feeInPayout: 5,
   },
   {
     index: 1140,
@@ -3348,7 +3293,6 @@ const bills: BillsConfig[] = [
     fullDescription:
       "Eldarune is a pioneering game studio specializing in interoperable, medieval-themed blockchain games. Players can use their NFTs across different titles within the Eldarune ecosystem, enhancing the gaming experience with seamless transitions and unique assets. At the heart of this innovative platform is the ELDA token, which acts as both the studio’s native currency and a gateway to diverse, immersive gameplay inspired by classics like Warcraft, Dota, and Hearthstone. ELDA is revolutionizing the gaming landscape by unlocking endless possibilities within Eldarune's interconnected worlds.",
     tags: ['GAMEFI'],
-    feeInPayout: 2,
   },
   {
     index: 1139,
@@ -3378,7 +3322,6 @@ const bills: BillsConfig[] = [
       'LoveBit (LB) is a community-driven cryptocurrency that blends blockchain innovation with ESG principles. Launched in Q1 2024, it empowers users to fund social and environmental initiatives through a transparent governance model. With LoveBit4Good at its core, LoveBit drives sustainable impact while staying true to Satoshi Nakamoto’s vision. LB is a governance token that empowers the community to select and fund impactful ESG initiatives.',
     fullDescription:
       'LoveBit is a groundbreaking cryptocurrency project launched in the first quarter of 2024 that merges blockchain innovation with Environmental, Social, and Governance (ESG) principles. More than a token, LoveBit is a movement driven by the LoveBit4Good initiative, empowering a decentralized, transparent, and community-led ecosystem where environmental activists and social change leaders unite. Inspired by Satoshi Nakamoto’s vision of decentralization and financial fairness, LoveBit evolves that legacy by integrating ESG values into the crypto space. Through strategic exchange listings, partnerships with NGOs and influencers, and a governance model that allows the community to vote on ESG initiatives, LoveBit ensures that sustainability, ethical finance, and financial growth go hand in hand—ushering in a new era of impact-driven blockchain adoption.',
-    feeInPayout: 5,
     warningCard: `This token is currently only tradable on the following CEXs: <a href="https://www.mexc.com/exchange/LB_USDT/" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a> and <a href="https://www.lbank.com/trade/lb_usdt/" target="_blank" rel="noopener noreferrer" style="color: #6099c5">LBank</a>.`,
   },
   {
@@ -3409,7 +3352,6 @@ const bills: BillsConfig[] = [
       'Shieldeum is a Web3 cybersecurity platform safeguarding 440 million crypto users with its AI-powered Decentralized Physical Infrastructure Network (DePIN). It delivers advanced services like data encryption, threat detection, and high-performance computing. Powered by the $SDM token, Shieldeum offers easy-to-use solutions, node participation, and DAO governance, enabling users to shape its future.',
     fullDescription:
       "Shieldeum is a Web3 cybersecurity platform designed to protect 440 million crypto users through an AI-powered Decentralized Physical Infrastructure Network (DePIN). At its core, Shieldeum operates datacenter servers that generate computing power to support advanced services, including application hosting, data encryption, threat detection, and high-performance computing. Tailored for Web3, blockchain, and crypto use cases, Shieldeum delivers user-friendly AI-driven cybersecurity solutions. Its ecosystem allows anyone to participate by powering a Shieldeum node through pools, similar to Bitcoin mining pools. The $SDM token powers the ecosystem, offering governance through a DAO where holders can propose, vote, and allocate funds, while also unlocking premium AI services and gaining influence in shaping the platform's future.",
-    feeInPayout: 5,
   },
   {
     index: 1137,
@@ -3440,7 +3382,6 @@ const bills: BillsConfig[] = [
       'QAAG AI is a cutting-edge WEB2/WEB3 solution built on Binance Smart Chain, revolutionizing customer relationship management. It offers AI-driven tools for appointment scheduling, personalized customer service, call center optimization, and virtual P.A. support. Tailored for businesses and healthcare. Build on the Binance Smart Chain, the ecosystem is powered by the QAAGAI token, enabling transactions, incentivizing engagement, and fostering governance participation.',
     fullDescription:
       'QAAG AI is a transformative WEB2/WEB3 solution designed to revolutionize customer relationship management for industries, businesses, and individuals. Powered by advanced AI and built on the Binance Smart Chain, QAAG AI provides secure, immutable, and tamper-proof systems for seamless operations. Its comprehensive offerings include 24/7 appointment and order management to optimize scheduling and reduce no-shows, intelligent customer service tools for personalized and efficient support, AI-enhanced call center management for real-time analytics and smart routing, and a virtual P.A./receptionist to handle calls, meetings, and events. Tailored for healthcare providers, businesses, and call centers, QAAG AI adapts to diverse needs, delivering intuitive, scalable, and efficient solutions. The ecosystem is powered by the QAAGAI token, enabling transactions, incentivizing engagement, and fostering governance participation.',
-    feeInPayout: 5,
   },
   {
     index: 1136,
@@ -3471,7 +3412,6 @@ const bills: BillsConfig[] = [
       'Script Network is an open-source Web3 live TV platform, protocol, and video storage network focused on delivering a unique, industry-defining experience using blockchain technology.',
     fullDescription:
       'Script Network (aka Script.TV) is an open-source Web3 live TV platform, protocol, and video storage network focused on delivering a unique, industry-defining experience using blockchain technology. Say goodbye to passive viewing: Script Network pioneers a new era of interactive TV platforms that enable users to connect and engage with fellow viewers in real-time. From participating in content clubs to seizing investment opportunities through NFTs, Script Network empowers users to shape their viewing experience while earning rewards. As a layer-one video protocol that seeks to revolutionize video streaming and create new opportunities for content creators, Script Network houses a range of products, including Script TV, Script Marketplace, Script Enterprise, Script Blockchain, and sADs.',
-    feeInPayout: 2,
   },
   {
     index: 1135,
@@ -3500,7 +3440,6 @@ const bills: BillsConfig[] = [
       'Boudicea is a play-to-earn NFT-based game where players become tribal warriors under Queen Boudicea to defend the Iceni tribe from Roman invasions. Build encampments, manage NFT-owned lands, trade items for cryptocurrency, and shape your legacy in a world blending strategy and ancient lore. At the core of the game is the GLD token, which serves as the primary utility token alongside the Clan Leader tokens and the Boudicea DAO token, forming the backbone of a vibrant, lasting universe.',
     fullDescription:
       "Boudicea is a play-to-earn NFT-based game that invites players to step into the role of a tribal warrior under the legendary Queen Boudicea, tasked with defending the Iceni tribe against Roman invasions. Players can build and protect their encampments, manage NFT-owned lands, levy taxes, and trade in-game items for cryptocurrency, blending strategic gameplay with ancient lore. Featuring smart NFTs and on-chain gamification, Boudicea offers an immersive experience that rewards players while promoting the enduring value of its ecosystem. At the core of the game is the GLD token, which serves as the primary utility token alongside the Clan Leader tokens and the Boudicea DAO token, forming the backbone of a vibrant, lasting universe. With a vision to create a game of legacy, Boudicea intertwines innovation and history, offering a robust platform where players can shape their legend while securing the long-term value of the game's integral elements.",
-    feeInPayout: 5,
   },
   {
     index: 1135,
@@ -3524,7 +3463,6 @@ const bills: BillsConfig[] = [
     fullDescription:
       "Clashub is an innovative NFT card game that integrates a Play2Earn system into its token economy for both existing and upcoming NFT collections. Through its unique algorithm, Clashub converts NFTs owned by players into playing cards, provided they belong to an approved collection. These cards are then used by players to battle opponents and earn CLASH Tokens. A standout feature of Clashub is its ability to bring together NFTs from different collections on a single gaming platform, allowing for a seamless and diverse gameplay experience. Furthermore, Clashub supports NFTs from various networks, enabling users to utilize their NFTs as playing cards, regardless of the network. The CLASH Token is central to Clashub's ecosystem, facilitating investor processes and the integration of NFT collections. It also functions as the in-game currency, used for marketplace purchases and game rewards. To maintain a stable price structure, Clashub has implemented an in-game loop that balances revenue and expenses, ensuring a sustainable economy.",
     tags: ['GAMEFI'],
-    feeInPayout: 5,
   },
   {
     index: 1134,
@@ -3554,7 +3492,6 @@ const bills: BillsConfig[] = [
       'BNB Agents serve as a hub for AI Agents on the BNB Chain. Powered by $BNBAI, a unified currency for all AI, and build on the operating system designed for inclusive intelligence, this platform forms the foundation of the Agentive Economy. It enables the creation and operation of dynamic AI Agents tailored to diverse use cases. With $BNBAI at its core, BNB Agents seamlessly integrates AI capabilities with blockchain, redefining how intelligence and autonomy function within decentralized ecosystems.',
     fullDescription:
       'BNB Agents OS is a pioneering AI-driven ecosystem on BNB Chain, designed to empower users with the ability to create, deploy, and monetize autonomous AI agents effortlessly. As the first (A)ICO platform, it provides a seamless interface for token generation using AI-powered frameworks, integrating natively with $BNBAI to ensure a unified Web3 experience. With just three clicks, users can launch generative AI agents tailored to custom data, transforming attention into programmable on-chain assets. Governed by $BNBAI, the ecosystem enables staking, Guild participation, and decentralized collaboration. The lead Guild, B(AI)NANCE, guided by an AI Agent modeled after CZ, exemplifies collective intelligence in action. By merging AI and blockchain, BNB Agents OS pioneers an intelligent economy where AI Agent tokens drive innovation, liquidity, and programmable utility across the BNB Chain.',
-    feeInPayout: 5,
   },
   {
     index: 1133,
@@ -3584,7 +3521,6 @@ const bills: BillsConfig[] = [
       'Ceranos Finance is transforming DeFi by combining hedge fund benefits with blockchain transparency. Through its hedge fund DAO, investors gain access to expert-managed trading strategies while ensuring decentralization. Capital is deployed into advanced trading activities, rewarding stakers. The CRS token grants access to trading tools and rewards, making institutional-grade strategies available to all.',
     fullDescription:
       'Ceranos Finance is bridging the gap between traditional hedge funds and decentralized finance, bringing institutional-grade investment strategies to the crypto space. By introducing a hedge fund DAO, Ceranos enables investors to benefit from expert-managed trading while maintaining full transparency and decentralization. The capital raised is deployed into sophisticated trading strategies, with profits distributed to stakers who actively participate in the ecosystem. At the heart of this financial revolution is the CRS token, which grants users access to an advanced trading platform and a share of rewards. Through a community-driven approach, Ceranos fosters trust, integrity, and innovation, making high-level financial tools and opportunities accessible to all. With a vision to reshape crypto investing, Ceranos empowers users to take control of their financial future while benefiting from cutting-edge strategies traditionally reserved for institutional investors.',
-    feeInPayout: 5,
   },
   {
     index: 1132,
@@ -3607,7 +3543,6 @@ const bills: BillsConfig[] = [
     fullDescription:
       "Eldarune is a pioneering game studio specializing in interoperable, medieval-themed blockchain games. Players can use their NFTs across different titles within the Eldarune ecosystem, enhancing the gaming experience with seamless transitions and unique assets. At the heart of this innovative platform is the ELDA token, which acts as both the studio’s native currency and a gateway to diverse, immersive gameplay inspired by classics like Warcraft, Dota, and Hearthstone. ELDA is revolutionizing the gaming landscape by unlocking endless possibilities within Eldarune's interconnected worlds.",
     tags: ['GAMEFI'],
-    feeInPayout: 2,
     minTier: LaunchBondTiers.Silver,
   },
   {
@@ -3647,7 +3582,6 @@ const bills: BillsConfig[] = [
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
     ],
-    feeInPayout: 0,
     minTier: LaunchBondTiers.Silver,
   },
   {
@@ -3678,7 +3612,6 @@ const bills: BillsConfig[] = [
       'Credefi is a lending platform connecting DeFi with the real economy by offering crypto loans backed by real-world assets like real estate and receivables. It supports EU SMEs with fair financing and provides lenders with stable returns. $CREDI adds a security layer via Module X, while $xCREDI holders can take part in platform governance.',
     fullDescription:
       'Credefi is a pioneering lending platform that bridges decentralized finance with the real economy by offering crypto loans collateralized with real-world assets. Focused on addressing the debt financing gap in the European Union, Credefi empowers small and medium-sized enterprises (SMEs) by providing fair, accessible lending solutions backed by assets such as real estate and future receivables. Lenders benefit from stable, predictable returns sourced from tangible economic activity. The platform also integrates $CREDI tokens as an added security layer through Module X, which compensates liquidity providers in the event of loan defaults, reducing risk from delayed collateral liquidation. Additionally, $xCREDI holders play a key role in Credefi’s governance, helping shape the platform’s future direction.',
-    feeInPayout: 2,
   },
   {
     index: 1129,
@@ -3709,7 +3642,6 @@ const bills: BillsConfig[] = [
       'Edu3Labs is a pioneering force at the intersection of education, AI, and blockchain. Our mission is to revolutionize the learning experience by leveraging cutting-edge technologies and innovative solutions. Their vision is to reshape the future of education, making it decentralized, personalized, gamified and accessible to all, striving to empower individuals worldwide through transformative learning experiences.',
     fullDescription:
       'Edu3Labs is a pioneering force at the intersection of education, AI, and blockchain. Our mission is to revolutionize the learning experience by leveraging cutting-edge technologies and innovative solutions. Their vision is to reshape the future of education, making it decentralized, personalized, gamified and accessible to all, striving to empower individuals worldwide through transformative learning experiences. Edu3Labs is powered by the NFE token, that empowers students, content creators, and authors with a decentralized means of exchange that rewards their contributions to the educational ecosystem. NFE token will be used to have access to lessons, enter knowledge contests and invest in early-stage start-ups related to the education industry. In the medium term, there will be additional privileges for NFE holders such as HR services, advisory, and free tickets for networking and educational events.',
-    feeInPayout: 2,
     warningCard: `This token is currently only tradable on the following CEXs: <a href="https://www.mexc.com/exchange/NFE_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a> and <a href="https://www.gate.io/trade/NFE_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">Gate.io</a>.`,
   },
   {
@@ -3740,7 +3672,6 @@ const bills: BillsConfig[] = [
       'Arcas Champions is an Unreal Engine 5 third-person shooter set on the jungle planet Arcas, where Village Elites and Renegades fight for control using Bastonium. Players customize ape Champions for ranked modes, each with unique playstyles. The game introduces Skillstaking, a blockchain system that tokenizes MMR for esports growth, while the ARCAS token offers revenue share and governance, empowering player influence.',
     fullDescription:
       'Arcas Champions is an Unreal Engine 5 third-person shooter blending gunplay, abilities, and stats in fast-paced, competitive modes that demand teamwork, precision, and strategy. Set on the jungle planet Arcas, Village Elites and Renegades clash in a guerilla-style civil war for control, fueled by Bastonium, a powerful element. Players customize and upgrade their ape Champions to fit various playstyles in ranked modes, with Champion-specific leaderboards. The game features Skillstaking, a blockchain-driven system that tokenizes MMR, breaking down barriers to esports and enabling professional gaming paths. As the first Power to Players game, Arcas Champions gives players governance tools, allowing them to shape development and fully own their experience. The ARCAS token secures the DAO Treasury, collecting revenue and managing yield changes. Its deflationary mechanics gradually lock tokens inside player-owned NFTs, shifting governance and revenue share power permanently to players, embodying the "Power to the Players" philosophy.',
-    feeInPayout: 2,
     minTier: LaunchBondTiers.Silver,
   },
   {
@@ -3771,7 +3702,6 @@ const bills: BillsConfig[] = [
     fullDescription:
       'Poollotto is a leading technology company specializing in blockchain-powered lottery solutions, utilizing the Poollotto Token (PLT) to revolutionize the industry. Launched to create a transparent and fair token economy, Poollotto leverages blockchain technology to ensure secure, tamper-proof transactions, and records all lottery activities on a public ledger, eliminating doubts of manipulation. By automating processes through smart contracts, Poollotto reduces administrative costs and improves efficiency, while allowing operators to customize their platforms for a unique experience. The PLT token enables global participation in decentralized lottery pools, enhancing inclusivity and ensuring automated, secure payments, ultimately transforming the lottery industry with fairness and transparency at its core. <a href="https://metalottery.win/" target="_blank" rel="noopener noreferrer" style="color: #38A611">Purchase $100 or more worth of $PLT Bonds to earn 2 free lotto game ticket NFTs!</a>',
     tags: ['GAMEFI'],
-    feeInPayout: 5,
   },
   {
     index: 1126,
@@ -3802,7 +3732,6 @@ const bills: BillsConfig[] = [
       'Script Network is an open-source Web3 live TV platform, protocol, and video storage network focused on delivering a unique, industry-defining experience using blockchain technology.',
     fullDescription:
       'Script Network (aka Script.TV) is an open-source Web3 live TV platform, protocol, and video storage network focused on delivering a unique, industry-defining experience using blockchain technology. Say goodbye to passive viewing: Script Network pioneers a new era of interactive TV platforms that enable users to connect and engage with fellow viewers in real-time. From participating in content clubs to seizing investment opportunities through NFTs, Script Network empowers users to shape their viewing experience while earning rewards. As a layer-one video protocol that seeks to revolutionize video streaming and create new opportunities for content creators, Script Network houses a range of products, including Script TV, Script Marketplace, Script Enterprise, Script Blockchain, and sADs.',
-    feeInPayout: 2,
   },
   {
     index: 1125,
@@ -3826,7 +3755,6 @@ const bills: BillsConfig[] = [
     fullDescription:
       "Clashub is an innovative NFT card game that integrates a Play2Earn system into its token economy for both existing and upcoming NFT collections. Through its unique algorithm, Clashub converts NFTs owned by players into playing cards, provided they belong to an approved collection. These cards are then used by players to battle opponents and earn CLASH Tokens. A standout feature of Clashub is its ability to bring together NFTs from different collections on a single gaming platform, allowing for a seamless and diverse gameplay experience. Furthermore, Clashub supports NFTs from various networks, enabling users to utilize their NFTs as playing cards, regardless of the network. The CLASH Token is central to Clashub's ecosystem, facilitating investor processes and the integration of NFT collections. It also functions as the in-game currency, used for marketplace purchases and game rewards. To maintain a stable price structure, Clashub has implemented an in-game loop that balances revenue and expenses, ensuring a sustainable economy.",
     tags: ['GAMEFI'],
-    feeInPayout: 2,
   },
   {
     index: 1124,
@@ -3865,7 +3793,6 @@ const bills: BillsConfig[] = [
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
     ],
-    feeInPayout: 0,
   },
   {
     index: 1123,
@@ -4702,7 +4629,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.BSC]: 1714137138 },
-    initPrice: { [ChainId.BSC]: 0.02599658552546072 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -4852,7 +4778,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/AITECHio',
     audit: 'https://skynet.certik.com/projects/solidus-ai-tech',
     initTime: { [ChainId.BSC]: 1712235600 },
-    initPrice: { [ChainId.BSC]: 0.000119256747804887 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.AITECH_Collection1,
@@ -4962,7 +4887,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.BSC]: 1714137138 },
-    initPrice: { [ChainId.BSC]: 0.02599658552546072 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -5001,7 +4925,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/OfficialDevomon',
     audit: 'https://skynet.certik.com/projects/devomon',
     initTime: { [ChainId.BSC]: 1712163600 },
-    initPrice: { [ChainId.BSC]: 0.006303059734924963 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -5289,7 +5212,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.BSC]: 1714137138 },
-    initPrice: { [ChainId.BSC]: 0.02599658552546072 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -5328,7 +5250,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://x.com/MagicSquareio',
     audit: 'https://skynet.certik.com/projects/magic-square',
     initTime: { [ChainId.BSC]: 1719413043 },
-    initPrice: { [ChainId.BSC]: 0.001336953784856991 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -5359,7 +5280,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/readytofight_io',
     audit: 'https://skynet.certik.com/projects/ready-to-fight',
     initTime: { [ChainId.BSC]: 1719413043 },
-    initPrice: { [ChainId.BSC]: 0.001336953784856991 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -5390,7 +5310,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     audit:
       'https://github.com/CFG-NINJA/audits/blob/fa0790e36c10a901ff3f0ac8558fbdc9afdabafc/20231124_CFGNINJA_RetroCraft_Retro_Audit.pdf',
     initTime: { [ChainId.BSC]: 1719413043 },
-    initPrice: { [ChainId.BSC]: 0.001336953784856991 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -5420,7 +5339,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://froyo.games/',
     twitter: 'https://twitter.com/realfroyogames',
     initTime: { [ChainId.BSC]: 1715730467 },
-    initPrice: { [ChainId.BSC]: 0.000379098550137839 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -5451,7 +5369,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://x.com/script_network',
     audit: 'https://skynet.certik.com/projects/script-network?utm_source=CMC&utm_campaign=AuditByCertiKLink',
     initTime: { [ChainId.BSC]: 1717085021 },
-    initPrice: { [ChainId.BSC]: 0.000398917904465581 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -5482,7 +5399,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://x.com/KicksPad_io',
     audit: 'https://skynet.certik.com/projects/getkicks?utm_source=CMC&utm_campaign=AuditByCertiKLink',
     initTime: { [ChainId.BSC]: 1717085021 },
-    initPrice: { [ChainId.BSC]: 0.000398917904465581 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -5511,7 +5427,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/storyfireapp',
     audit: 'https://www.cyberscope.io/audits/1-blze',
     initTime: { [ChainId.BSC]: 1717085021 },
-    initPrice: { [ChainId.BSC]: 0.000398917904465581 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -5541,7 +5456,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/ichifoundation',
     audit: 'https://docs.ichi.org/home/technical-resources/audits',
     initTime: { [ChainId.BSC]: 1717085021 },
-    initPrice: { [ChainId.BSC]: 0.000398917904465581 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -5571,7 +5485,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/TheWinkyverse_',
     audit: 'https://skynet.certik.com/projects/winkyverse',
     initTime: { [ChainId.BSC]: 1717085021 },
-    initPrice: { [ChainId.BSC]: 0.000398917904465581 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -5600,7 +5513,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://chappyz.com/',
     twitter: 'https://twitter.com/Chappyzcom',
     initTime: { [ChainId.BSC]: 1700485200 },
-    initPrice: { [ChainId.BSC]: 0.002404165611 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -5629,7 +5541,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://smardex.io/home',
     twitter: 'https://twitter.com/SmarDex',
     initTime: { [ChainId.BSC]: 1714137138 },
-    initPrice: { [ChainId.BSC]: 0.02599658552546072 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -5658,7 +5569,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.BSC]: 1714137138 },
-    initPrice: { [ChainId.BSC]: 0.02599658552546072 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -5697,7 +5607,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.BSC]: 1714137138 },
-    initPrice: { [ChainId.BSC]: 0.02599658552546072 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -5732,7 +5641,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/gt_protocol',
     audit: 'https://skynet.certik.com/projects/gt-protocol',
     initTime: { [ChainId.BSC]: 1709809412 },
-    initPrice: { [ChainId.BSC]: 5.282656128760897 },
     soldOut: true,
     billArt: { collection: BillArtCollection.ApeBond_Collection1 },
     shortDescription:
@@ -5761,7 +5669,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/enjinstarter',
     audit: 'https://hacken.io/audits/enjinstarter',
     initTime: { [ChainId.BSC]: 1716217474 },
-    initPrice: { [ChainId.BSC]: 0.005450086440702347 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -5792,7 +5699,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'http://twitter.com/chain_gpt',
     audit: 'https://www.certik.com/projects/chaingpt/',
     initTime: { [ChainId.BSC]: 1715944666 },
-    initPrice: { [ChainId.BSC]: 0.22799897583689066 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -5819,7 +5725,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://froyo.games/',
     twitter: 'https://twitter.com/realfroyogames',
     initTime: { [ChainId.BSC]: 1715730467 },
-    initPrice: { [ChainId.BSC]: 0.000379098550137839 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -5847,7 +5752,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/AITECHio',
     audit: 'https://skynet.certik.com/projects/solidus-ai-tech',
     initTime: { [ChainId.BSC]: 1712235600 },
-    initPrice: { [ChainId.BSC]: 0.000119256747804887 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.AITECH_Collection1,
@@ -5875,7 +5779,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/AITECHio',
     audit: 'https://skynet.certik.com/projects/solidus-ai-tech',
     initTime: { [ChainId.BSC]: 1712235600 },
-    initPrice: { [ChainId.BSC]: 0.000119256747804887 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.AITECH_Collection1,
@@ -5903,7 +5806,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/AITECHio',
     audit: 'https://skynet.certik.com/projects/solidus-ai-tech',
     initTime: { [ChainId.BSC]: 1712235600 },
-    initPrice: { [ChainId.BSC]: 0.000119256747804887 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.AITECH_Collection1,
@@ -5932,7 +5834,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.BSC]: 1714137138 },
-    initPrice: { [ChainId.BSC]: 0.02599658552546072 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -5971,7 +5872,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/playWAM',
     audit: 'https://certificate.immunebytes.com/pdf/WAM/',
     initTime: { [ChainId.BSC]: 1712766889 },
-    initPrice: { [ChainId.BSC]: 0.007612142417922644 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -6000,7 +5900,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/TiFiToken',
     audit: 'https://skynet.certik.com/projects/tifi-token',
     initTime: { [ChainId.BSC]: 1704996000 },
-    initPrice: { [ChainId.BSC]: 0.000000031773560782 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -6028,7 +5927,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://alaskagoldrush.io/',
     twitter: 'https://twitter.com/alaska_game',
     initTime: { [ChainId.BSC]: 1700485200 },
-    initPrice: { [ChainId.BSC]: 0.002404165611 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -6057,7 +5955,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1700485200 },
-    initPrice: { [ChainId.BSC]: 0.002404165611 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -6096,7 +5993,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/ai_malls',
     audit: 'https://skynet.certik.com/projects/aimalls',
     initTime: { [ChainId.BSC]: 1712235600 },
-    initPrice: { [ChainId.BSC]: 0.000119256747804887 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -6126,7 +6022,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/AITECHio',
     audit: 'https://skynet.certik.com/projects/solidus-ai-tech',
     initTime: { [ChainId.BSC]: 1712235600 },
-    initPrice: { [ChainId.BSC]: 0.000119256747804887 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.AITECH_Collection1,
@@ -6155,7 +6050,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/WizarreGame',
     audit: 'https://cdn.wizarre.io/doc/wizarre-rd-auditors-token-security-review.pdf',
     initTime: { [ChainId.BSC]: 1712235600 },
-    initPrice: { [ChainId.BSC]: 0.000119256747804887 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -6185,7 +6079,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/OfficialDevomon',
     audit: 'https://skynet.certik.com/projects/devomon',
     initTime: { [ChainId.BSC]: 1712163600 },
-    initPrice: { [ChainId.BSC]: 0.006303059734924963 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -6213,7 +6106,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'http://memusic.io',
     twitter: 'https://twitter.com/MeMusicNews',
     initTime: { [ChainId.BSC]: 1704477600 },
-    initPrice: { [ChainId.BSC]: 0.0257815220477653 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -6242,7 +6134,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/RevolveGamesio',
     audit: 'https://drive.google.com/file/d/1lJdF7lEM3KQZmOW1p42Gm0eMbp7DF82C/view',
     initTime: { [ChainId.BSC]: 1704477600 },
-    initPrice: { [ChainId.BSC]: 0.0257815220477653 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -6269,7 +6160,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://octavia.one/',
     twitter: 'https://twitter.com/OctaviaToken',
     initTime: { [ChainId.BSC]: 1711551600 },
-    initPrice: { [ChainId.BSC]: 1.31 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.AITECH_Collection1,
@@ -6298,7 +6188,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/TheWinkyverse_',
     audit: 'https://skynet.certik.com/projects/winkyverse',
     initTime: { [ChainId.BSC]: 1704891600 },
-    initPrice: { [ChainId.BSC]: 0.000875307143616461 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -6327,7 +6216,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://alaskagoldrush.io/',
     twitter: 'https://twitter.com/alaska_game',
     initTime: { [ChainId.BSC]: 1700485200 },
-    initPrice: { [ChainId.BSC]: 0.002404165611 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -6355,7 +6243,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/ape_swap',
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1697115600 },
-    initPrice: { [ChainId.BSC]: 0.05 },
     soldOut: true,
     vestingTerm: MigrationVestingTerms['60d'],
     multiplier: 1,
@@ -6382,7 +6269,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/ape_swap',
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1697115600 },
-    initPrice: { [ChainId.BSC]: 0.05 },
     soldOut: true,
     vestingTerm: MigrationVestingTerms['120d'],
     multiplier: 0.8943305829,
@@ -6409,7 +6295,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/ape_swap',
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1697115600 },
-    initPrice: { [ChainId.BSC]: 0.05 },
     soldOut: true,
     vestingTerm: MigrationVestingTerms['180d'],
     multiplier: 0.7601809955,
@@ -6436,7 +6321,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/ape_swap',
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1697115600 },
-    initPrice: { [ChainId.BSC]: 0.05 },
     soldOut: true,
     vestingTerm: MigrationVestingTerms['360d'],
     multiplier: 0.6461538462,
@@ -6463,7 +6347,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/ape_swap',
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1697115600 },
-    initPrice: { [ChainId.BSC]: 0.05 },
     soldOut: true,
     vestingTerm: MigrationVestingTerms['60d'],
     multiplier: 0.6998439348,
@@ -6490,7 +6373,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/ape_swap',
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1697115600 },
-    initPrice: { [ChainId.BSC]: 0.05 },
     soldOut: true,
     vestingTerm: MigrationVestingTerms['120d'],
     multiplier: 0.6258918342,
@@ -6517,7 +6399,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/ape_swap',
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1697115600 },
-    initPrice: { [ChainId.BSC]: 0.05 },
     soldOut: true,
     vestingTerm: MigrationVestingTerms['180d'],
     multiplier: 0.532008059035414,
@@ -6544,7 +6425,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/ape_swap',
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1697115600 },
-    initPrice: { [ChainId.BSC]: 0.05 },
     soldOut: true,
     vestingTerm: MigrationVestingTerms['360d'],
     multiplier: 0.452206850180102,
@@ -6571,7 +6451,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/ApeBond',
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1682255105 },
-    initPrice: { [ChainId.BSC]: 0.0390276 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -6596,7 +6475,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/ape_swap',
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1683313200 },
-    initPrice: { [ChainId.BSC]: 0.0303088 },
     soldOut: true,
   },
   {
@@ -6618,7 +6496,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/ape_swap',
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1683313200 },
-    initPrice: { [ChainId.BSC]: 0.0303088 },
     soldOut: true,
   },
   {
@@ -6640,7 +6517,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/ape_swap',
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1683313200 },
-    initPrice: { [ChainId.BSC]: 0.0303088 },
     soldOut: true,
   },
   {
@@ -6662,7 +6538,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/ApeBond',
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1683313200 },
-    initPrice: { [ChainId.BSC]: 0.0303088 },
     soldOut: true,
   },
   {
@@ -6684,7 +6559,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/ApeBond',
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1699621200 },
-    initPrice: { [ChainId.BSC]: 0.02559786 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -6709,7 +6583,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/ApeBond',
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1699621200 },
-    initPrice: { [ChainId.BSC]: 0.02559786 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -6734,7 +6607,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/ApeBond',
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1699621200 },
-    initPrice: { [ChainId.BSC]: 0.02559786 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -6759,7 +6631,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/ApeBond',
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1699621200 },
-    initPrice: { [ChainId.BSC]: 0.02559786 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -6784,7 +6655,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1702472400 },
-    initPrice: { [ChainId.BSC]: 1 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -6809,7 +6679,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1701205200 },
-    initPrice: { [ChainId.BSC]: 0.00543082778284093 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.CexFundBond_Collection1,
@@ -6836,7 +6705,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1702998000 },
-    initPrice: { [ChainId.BSC]: 0.0776096447226248 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.CexFundBond_Collection1,
@@ -6875,7 +6743,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1700485200 },
-    initPrice: { [ChainId.BSC]: 0.002404165611 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -6914,7 +6781,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1700485200 },
-    initPrice: { [ChainId.BSC]: 0.002404165611 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -6952,7 +6818,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/apeblock?lang=en',
     audit: 'https://solidity.finance/audits/BlockApeScissors/',
     initTime: { [ChainId.BSC]: 1704477600 },
-    initPrice: { [ChainId.BSC]: 0.103519967970037 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -6980,7 +6845,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://friend3.group/',
     twitter: 'https://twitter.com/Friend3AI',
     initTime: { [ChainId.BSC]: 1704304800 },
-    initPrice: { [ChainId.BSC]: 0.189643589802866 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -7009,7 +6873,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'http://twitter.com/chain_gpt',
     audit: 'https://www.certik.com/projects/chaingpt/',
     initTime: { [ChainId.BSC]: 1704304800 },
-    initPrice: { [ChainId.BSC]: 0.189643589802866 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -7038,7 +6901,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/forwardprotocol',
     audit: 'https://www.cyberscope.io/audits/coin-forward-protocol',
     initTime: { [ChainId.BSC]: 1710255600 },
-    initPrice: { [ChainId.BSC]: 0.00173967992950712 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -7069,7 +6931,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/edu3labs',
     audit: 'https://nfedocs.edu3labs.com/audit',
     initTime: { [ChainId.BSC]: 1704891600 },
-    initPrice: { [ChainId.BSC]: 0.00173967992950712 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -7099,7 +6960,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/AlphaVersegame',
     audit: 'https://omniscia.io/reports/fav-token-implementation-64805de3e824970014254148',
     initTime: { [ChainId.BSC]: 1704891600 },
-    initPrice: { [ChainId.BSC]: 0.00173967992950712 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -7128,7 +6988,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/gt_protocol',
     audit: 'https://skynet.certik.com/projects/gt-protocol',
     initTime: { [ChainId.BSC]: 1709809412 },
-    initPrice: { [ChainId.BSC]: 5.282656128760897 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -7157,7 +7016,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://outerringmmo.com/',
     twitter: 'https://twitter.com/OuterRingMMO',
     initTime: { [ChainId.BSC]: 1709719908 },
-    initPrice: { [ChainId.BSC]: 0.001565790008091875 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -7185,7 +7043,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://chappyz.com/',
     twitter: 'https://twitter.com/Chappyzcom',
     initTime: { [ChainId.BSC]: 1700485200 },
-    initPrice: { [ChainId.BSC]: 0.002404165611 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -7216,7 +7073,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/TheWinkyverse_',
     audit: 'https://skynet.certik.com/projects/winkyverse',
     initTime: { [ChainId.BSC]: 1704891600 },
-    initPrice: { [ChainId.BSC]: 0.000875307143616461 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -7245,7 +7101,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/JoinGrapes',
     audit: 'https://sourcehat.com/audits/Grapecoin/',
     initTime: { [ChainId.BSC]: 1704891600 },
-    initPrice: { [ChainId.BSC]: 0.00173967992950712 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -7273,7 +7128,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/Monsta_BSC',
     audit: 'https://solidity.finance/audits/CakeMonster/',
     initTime: { [ChainId.BSC]: 1704996000 },
-    initPrice: { [ChainId.BSC]: 0.000000031773560782 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -7301,7 +7155,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/codexchain',
     audit: 'https://github.com/CodeXChainOfficial/SC/tree/ERC20Base',
     initTime: { [ChainId.BSC]: 1708946738 },
-    initPrice: { [ChainId.BSC]: 0.07580203004538802 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -7329,7 +7182,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/Xox_Labs',
     audit: 'https://skynet.certik.com/projects/xox-labs/',
     initTime: { [ChainId.BSC]: 1700485200 },
-    initPrice: { [ChainId.BSC]: 0.002404165611 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -7358,7 +7210,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     audit:
       'https://github.com/Decubate-com/documents/blob/main/%5BHAECHI%20AUDIT%5D%20Decubate%20Smart%20Contract%20Audit%20Report%20v2.0.pdf',
     initTime: { [ChainId.BSC]: 1700485200 },
-    initPrice: { [ChainId.BSC]: 0.002404165611 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -7386,7 +7237,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/codexchain',
     audit: 'https://github.com/CodeXChainOfficial/SC/tree/ERC20Base',
     initTime: { [ChainId.BSC]: 1704891600 },
-    initPrice: { [ChainId.BSC]: 0.00173967992950712 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -7414,7 +7264,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/AlphaVersegame',
     audit: 'https://omniscia.io/reports/fav-token-implementation-64805de3e824970014254148',
     initTime: { [ChainId.BSC]: 1704891600 },
-    initPrice: { [ChainId.BSC]: 0.00173967992950712 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -7442,7 +7291,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://chappyz.com/',
     twitter: 'https://twitter.com/Chappyzcom',
     initTime: { [ChainId.BSC]: 1700485200 },
-    initPrice: { [ChainId.BSC]: 0.002404165611 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -7472,7 +7320,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/Monsta_BSC',
     audit: 'https://solidity.finance/audits/CakeMonster/',
     initTime: { [ChainId.BSC]: 1704996000 },
-    initPrice: { [ChainId.BSC]: 0.000000031773560782 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -7499,7 +7346,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.cakebot.io/',
     twitter: 'https://twitter.com/CakebotTeam',
     initTime: { [ChainId.BSC]: 1704891600 },
-    initPrice: { [ChainId.BSC]: 0.00173967992950712 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -7527,7 +7373,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/JoinGrapes',
     audit: 'https://sourcehat.com/audits/Grapecoin/',
     initTime: { [ChainId.BSC]: 1704891600 },
-    initPrice: { [ChainId.BSC]: 0.00173967992950712 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -7555,7 +7400,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/TiFiToken',
     audit: 'https://skynet.certik.com/projects/tifi-token',
     initTime: { [ChainId.BSC]: 1704996000 },
-    initPrice: { [ChainId.BSC]: 0.000000031773560782 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -7582,7 +7426,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.hunter-token.com/',
     twitter: 'https://twitter.com/digitalarmsnft?lang=en',
     initTime: { [ChainId.BSC]: 1704891600 },
-    initPrice: { [ChainId.BSC]: 0.00173967992950712 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -7610,7 +7453,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/RevolveGamesio',
     audit: 'https://drive.google.com/file/d/1lJdF7lEM3KQZmOW1p42Gm0eMbp7DF82C/view',
     initTime: { [ChainId.BSC]: 1704477600 },
-    initPrice: { [ChainId.BSC]: 0.0257815220477653 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -7638,7 +7480,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/apeblock?lang=en',
     audit: 'https://solidity.finance/audits/BlockApeScissors/',
     initTime: { [ChainId.BSC]: 1704477600 },
-    initPrice: { [ChainId.BSC]: 0.103519967970037 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -7666,7 +7507,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/AITECHio',
     audit: 'https://skynet.certik.com/projects/solidus-ai-tech',
     initTime: { [ChainId.BSC]: 1700992815 },
-    initPrice: { [ChainId.BSC]: 0.0205543890538182 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -7695,7 +7535,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'http://twitter.com/chain_gpt',
     audit: 'https://www.certik.com/projects/chaingpt/',
     initTime: { [ChainId.BSC]: 1704304800 },
-    initPrice: { [ChainId.BSC]: 0.189643589802866 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -7723,7 +7562,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/credefi_finance/',
     audit: 'https://www.certik.com/projects/credefi?utm_source=CMC&utm_campaign=AuditByCertiKLink',
     initTime: { [ChainId.BSC]: 1702998000 },
-    initPrice: { [ChainId.BSC]: 0.0776096447226248 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -7751,7 +7589,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/hypergpt',
     audit: 'https://skynet.certik.com/projects/hypergpt?utm_source=CMC&utm_campaign=AuditByCertiKLink',
     initTime: { [ChainId.BSC]: 1701205200 },
-    initPrice: { [ChainId.BSC]: 0.00543082778284093 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -7779,7 +7616,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/AITECHio',
     audit: 'https://skynet.certik.com/projects/solidus-ai-tech',
     initTime: { [ChainId.BSC]: 1700992815 },
-    initPrice: { [ChainId.BSC]: 0.02511437248 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -7807,7 +7643,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/RevolveGamesio',
     audit: 'https://drive.google.com/file/d/1lJdF7lEM3KQZmOW1p42Gm0eMbp7DF82C/view',
     initTime: { [ChainId.BSC]: 1700676000 },
-    initPrice: { [ChainId.BSC]: 0.022797917366 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -7835,7 +7670,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://chappyz.com/',
     twitter: 'https://twitter.com/Chappyzcom',
     initTime: { [ChainId.BSC]: 1700485200 },
-    initPrice: { [ChainId.BSC]: 0.002404165611 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -7865,7 +7699,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/AITECHio',
     audit: 'https://skynet.certik.com/projects/solidus-ai-tech',
     initTime: { [ChainId.BSC]: 1699293600 },
-    initPrice: { [ChainId.BSC]: 0.0144324243092886 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -7890,7 +7723,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/apeblock?lang=en',
     audit: 'https://solidity.finance/audits/BlockApeScissors/',
     initTime: { [ChainId.BSC]: 1698411600 },
-    initPrice: { [ChainId.BSC]: 0.0242848491820561 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -7917,7 +7749,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/hypergpt',
     audit: 'https://skynet.certik.com/projects/hypergpt?utm_source=CMC&utm_campaign=AuditByCertiKLink',
     initTime: { [ChainId.BSC]: 1697824800 },
-    initPrice: { [ChainId.BSC]: 0.00375 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -7944,7 +7775,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/LiveGreenCoin1',
     audit: 'https://www.certik.com/projects/livegreencoin',
     initTime: { [ChainId.BSC]: 1697479200 },
-    initPrice: { [ChainId.BSC]: 0.00061926835799964 },
     soldOut: true,
   },
   {
@@ -7966,7 +7796,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/Palmswaporg',
     audit: 'https://docs.palmswap.org/developers/audit',
     initTime: { [ChainId.BSC]: 1696334400 },
-    initPrice: { [ChainId.BSC]: 0.00758 },
     soldOut: true,
   },
   {
@@ -7989,7 +7818,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'http://twitter.com/chain_gpt',
     audit: 'https://www.certik.com/projects/chaingpt/',
     initTime: { [ChainId.BSC]: 1695225600 },
-    initPrice: { [ChainId.BSC]: 0.0421361050407099 },
     soldOut: true,
     showcaseToken: tokens.cgpt,
     shortDescription: `ChainGPT is an advanced AI infrastructure ranked #1 for Web3-AI solutions, developing AI-powered technologies for the Web3, Blockchain, and Crypto space. It aims to enhance the Web3 experience for retail users and startups by offering tools for crypto trading, NFT creation, and smart contract development. The $CGPT token is the backbone of ChainGPT's ecosystem, enabling seamless on-chain interactions and access to its comprehensive AI applications.`,
@@ -8026,7 +7854,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/LiveGreenCoin1',
     audit: 'https://www.certik.com/projects/livegreencoin',
     initTime: { [ChainId.BSC]: 1695052800 },
-    initPrice: { [ChainId.BSC]: 0.0016842400986945 },
     soldOut: true,
   },
   {
@@ -8048,7 +7875,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/GymNet_Official',
     audit: 'https://skynet.certik.com/projects/gym-network?utm_source=CMC&utm_campaign=AuditByCertiKLink',
     initTime: { [ChainId.BSC]: 1694448000 },
-    initPrice: { [ChainId.BSC]: 0.0234876697262449 },
     soldOut: true,
   },
   {
@@ -8070,7 +7896,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/apexcoin__',
     audit: 'https://github.com/AnalytixAudit/Solidity/blob/main/20230822_AnalytixAudit_ApexCoin_ApeX_Audit.pdf',
     initTime: { [ChainId.BSC]: 1694026800 },
-    initPrice: { [ChainId.BSC]: 0.231136 },
     soldOut: true,
   },
   {
@@ -8092,7 +7917,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/MetaPlayersGG',
     audit: 'https://mfps.gg/assets/docs/mfps_audit.pdf',
     initTime: { [ChainId.BSC]: 1693846800 },
-    initPrice: { [ChainId.BSC]: 0.00190751 },
     soldOut: true,
   },
   {
@@ -8114,7 +7938,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/AITECHio',
     audit: 'https://skynet.certik.com/projects/solidus-ai-tech',
     initTime: { [ChainId.BSC]: 1693584000 },
-    initPrice: { [ChainId.BSC]: 0.0370027 },
     soldOut: true,
     showcaseToken: tokens.aitech,
     shortDescription: `AITECH, the world's first deflationary AI utilities token, powers Solidus AI Tech's 8,000 sqft HPC Data Centre in Europe. The GPU Marketplace offers flexible GPU rentals, while the AI Marketplace provides tools for automating tasks. The AITECH Pad Launchpad grants access to early-stage AI projects. The AITECH token facilitates seamless service procurement with fiat conversions and features a burn mechanism to reduce supply.`,
@@ -8151,7 +7974,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/DexCheck_io',
     audit: 'https://skynet.certik.com/projects/dexcheck',
     initTime: { [ChainId.BSC]: 1693497600 },
-    initPrice: { [ChainId.BSC]: 0.0224148 },
     soldOut: true,
   },
   {
@@ -8173,7 +7995,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/CogitoProtocol',
     audit: 'https://wp.hacken.io/wp-content/uploads/2023/05/Cogito_SC-Audit-Report_11_05_2023_SA-1337-1.pdf',
     initTime: { [ChainId.BSC]: 1693411200 },
-    initPrice: { [ChainId.BSC]: 0.0262588 },
     soldOut: true,
     shortDescription:
       'Cogito Finance integrates traditional financial assets into Onchain Finance using smart contract vaults, tackling DeFi challenges like yield farming, credit risk, and regulatory issues. The CGV token governs the platform, allowing community influence. Cogito enhances liquidity, security, and transparency by tokenizing traditional assets. Led by industry experts, Cogito offers compliant, transparent, and efficient investment products for DAOs, DeFi protocols, and institutions.',
@@ -8199,7 +8020,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     audit:
       'https://github.com/Quillhash/QuillAudit_Reports/blob/master/Poollotto%20Smart%20Contract%20Audit%20Report%20-%20QuillAudits.pdf',
     initTime: { [ChainId.BSC]: 1692806400 },
-    initPrice: { [ChainId.BSC]: 1.83977 },
     soldOut: true,
   },
   {
@@ -8221,7 +8041,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/ape_swap',
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1698868800 },
-    initPrice: { [ChainId.BSC]: 0.018669 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -8246,7 +8065,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/ape_swap',
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1698868800 },
-    initPrice: { [ChainId.BSC]: 0.018669 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -8271,7 +8089,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/ape_swap',
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1698868800 },
-    initPrice: { [ChainId.BSC]: 0.018669 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -8296,7 +8113,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/ape_swap',
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1698868800 },
-    initPrice: { [ChainId.BSC]: 0.018669 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -8321,7 +8137,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/bridge_oracle',
     audit: 'https://www.certik.com/projects/bridge-oracle?utm_source=CMC&utm_campaign=AuditByCertiKLink',
     initTime: { [ChainId.BSC]: 1692115200 },
-    initPrice: { [ChainId.BSC]: 0.000387 },
     soldOut: true,
   },
   {
@@ -8344,7 +8159,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'http://twitter.com/chain_gpt',
     audit: 'https://www.certik.com/projects/chaingpt/',
     initTime: { [ChainId.BSC]: 1691596800 },
-    initPrice: { [ChainId.BSC]: 0.06186 },
     soldOut: true,
     shortDescription: `ChainGPT is an advanced AI infrastructure ranked #1 for Web3-AI solutions, developing AI-powered technologies for the Web3, Blockchain, and Crypto space. It aims to enhance the Web3 experience for retail users and startups by offering tools for crypto trading, NFT creation, and smart contract development. The $CGPT token is the backbone of ChainGPT's ecosystem, enabling seamless on-chain interactions and access to its comprehensive AI applications.`,
     fullDescription: `ChainGPT is an advanced AI infrastructure ranked #1 for Web3-AI solutions, specializing in developing AI-powered technologies for the Web3, Blockchain, and Crypto space. The platform aims to enhance the Web3 experience for retail users and startups by providing a range of innovative tools, including those for crypto trading, NFT creation, and smart contract development. ChainGPT Foundation houses three companies: ChainGPT AI, ChainGPT Pad, and ChainGPT Labs, all dedicated to making AI technologies accessible, efficient, and user-friendly. The $CGPT token serves as the economic backbone of ChainGPT's ecosystem, acting as a store of value, a unit of account, and a medium of exchange that facilitates all on-chain interactions. By weaving the $CGPT token into its business architecture, ChainGPT ensures that users can fully access its AI applications, from NFT and smart contract generation to auditing and chatbot interactions. This integration provides significant utility and additional benefits, enhancing the value users gain from $CGPT.`,
@@ -8368,7 +8182,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/furiocrypto',
     audit: 'https://solidity.finance/audits/Furio/',
     initTime: { [ChainId.BSC]: 1691427600 },
-    initPrice: { [ChainId.BSC]: 4.85872 },
     soldOut: true,
   },
   {
@@ -8389,7 +8202,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://outerringmmo.com/',
     twitter: 'https://twitter.com/OuterRingMMO',
     initTime: { [ChainId.BSC]: 1690208985 },
-    initPrice: { [ChainId.BSC]: 0.00301 },
     soldOut: true,
   },
   {
@@ -8412,7 +8224,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     audit:
       'https://github.com/froyogames/public-smart-contracts/blob/main/Smart%20contract%20security%20audit%20report%20-%20Froyo.pdf',
     initTime: { [ChainId.BSC]: 1689112800 },
-    initPrice: { [ChainId.BSC]: 0.00106081 },
     soldOut: true,
     shortDescription: `Froyo Games is a web3 GameFi platform that connects brands and gamers to a metaverse of opportunities for playing and earning in exciting and innovative ways. Get to know $FROYO, the platform's utility token. Their token can be earned from playing games, be spent at the Froyo Marketplace, staked for rewards, and swapped for tokens in your favorite games.`,
     fullDescription: `Froyo Games is a web3 GameFi platform that connects brands and gamers to a metaverse of opportunities for playing and earning in exciting and innovative ways. Get to know $FROYO, the platform's utility token. Their token can be earned from playing games, be spent at the Froyo Marketplace, staked for rewards, and swapped for tokens in your favorite games. With a network of over 600 game development talents worldwide, covering 350+ game titles with over 360 million downloads, Froyo Games enables the integration of blockchain technologies into an accessible ecosystem. This ecosystem is open to any game developers who want to build on Ethereum and Binance Smart Chain, granting them access to the Froyo user base and tools when they launch their games on Froyo Games.`,
@@ -8437,7 +8248,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'http://twitter.com/chain_gpt',
     audit: 'https://www.certik.com/projects/chaingpt/',
     initTime: { [ChainId.BSC]: 1688400000 },
-    initPrice: { [ChainId.BSC]: 0.08075 },
     soldOut: true,
     shortDescription: `ChainGPT is an advanced AI infrastructure ranked #1 for Web3-AI solutions, developing AI-powered technologies for the Web3, Blockchain, and Crypto space. It aims to enhance the Web3 experience for retail users and startups by offering tools for crypto trading, NFT creation, and smart contract development. The $CGPT token is the backbone of ChainGPT's ecosystem, enabling seamless on-chain interactions and access to its comprehensive AI applications.`,
     fullDescription: `ChainGPT is an advanced AI infrastructure ranked #1 for Web3-AI solutions, specializing in developing AI-powered technologies for the Web3, Blockchain, and Crypto space. The platform aims to enhance the Web3 experience for retail users and startups by providing a range of innovative tools, including those for crypto trading, NFT creation, and smart contract development. ChainGPT Foundation houses three companies: ChainGPT AI, ChainGPT Pad, and ChainGPT Labs, all dedicated to making AI technologies accessible, efficient, and user-friendly. The $CGPT token serves as the economic backbone of ChainGPT's ecosystem, acting as a store of value, a unit of account, and a medium of exchange that facilitates all on-chain interactions. By weaving the $CGPT token into its business architecture, ChainGPT ensures that users can fully access its AI applications, from NFT and smart contract generation to auditing and chatbot interactions. This integration provides significant utility and additional benefits, enhancing the value users gain from $CGPT.`,
@@ -8461,7 +8271,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/ApeSwapNFT',
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.BSC]: 1687816800 },
-    initPrice: { [ChainId.BSC]: 0.0635458 },
     soldOut: true,
     showcaseToken: tokens.nfai,
   },
@@ -8484,7 +8293,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/LiveGreenCoin1',
     audit: 'https://www.certik.com/projects/livegreencoin',
     initTime: { [ChainId.BSC]: 1687447800 },
-    initPrice: { [ChainId.BSC]: 0.0056 },
     soldOut: true,
   },
   {
@@ -8506,7 +8314,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/nootcoinbnb',
     audit: 'https://techright.io/audit/nootcoin/',
     initTime: { [ChainId.BSC]: 1684771200 },
-    initPrice: { [ChainId.BSC]: 0.00000000872237 },
     soldOut: true,
   },
   {
@@ -8527,7 +8334,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.knoknok.io/',
     twitter: 'https://twitter.com/knoknok_elf',
     initTime: { [ChainId.BSC]: 1682690400 },
-    initPrice: { [ChainId.BSC]: 0.015 },
     soldOut: true,
   },
   {
@@ -8548,7 +8354,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.knoknok.io/',
     twitter: 'https://twitter.com/knoknok_elf',
     initTime: { [ChainId.BSC]: 1682690400 },
-    initPrice: { [ChainId.BSC]: 0.015 },
     soldOut: true,
   },
   {
@@ -8570,7 +8375,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/Bedrockswap',
     audit: 'https://skynet.certik.com/projects/bedrock?utm_source=CMC&utm_campaign=AuditByCertiKLink',
     initTime: { [ChainId.BSC]: 1683313200 },
-    initPrice: { [ChainId.BSC]: 0.00292599 },
     soldOut: true,
   },
   {
@@ -8592,7 +8396,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/Avocadoguild?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor',
     audit: 'https://skynet.certik.com/projects/avocado-dao',
     initTime: { [ChainId.BSC]: 1682950826 },
-    initPrice: { [ChainId.BSC]: 0.0448743 },
     soldOut: true,
   },
   {
@@ -8614,7 +8417,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/chain_guardians',
     audit: 'https://www.certik.com/projects/chainguardians?utm_source=CMC&utm_campaign=AuditByCertiKLink',
     initTime: { [ChainId.BSC]: 1682590408 },
-    initPrice: { [ChainId.BSC]: 0.0846315 },
     soldOut: true,
     showcaseToken: tokens.cgg,
   },
@@ -8638,7 +8440,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     audit:
       'https://github.com/froyogames/public-smart-contracts/blob/main/Smart%20contract%20security%20audit%20report%20-%20Froyo.pdf',
     initTime: { [ChainId.BSC]: 1682255105 },
-    initPrice: { [ChainId.BSC]: 0.003065 },
     soldOut: true,
   },
   {
@@ -8660,7 +8461,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/bixosinc',
     audit: 'https://github.com/solidproof/projects/blob/main/Bixos/SmartContract_Audit_Solidproof_Bixos.pdf',
     initTime: { [ChainId.BSC]: 1681407727 },
-    initPrice: { [ChainId.BSC]: 0.0650251 },
     soldOut: true,
   },
   {
@@ -8682,7 +8482,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/thecakemnstr',
     audit: 'https://solidity.finance/audits/CakeMonster/',
     initTime: { [ChainId.BSC]: 1680097097 },
-    initPrice: { [ChainId.BSC]: 0.00100443 },
     soldOut: true,
   },
   {
@@ -8704,7 +8503,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/credefi_finance/',
     audit: 'https://www.certik.com/projects/credefi?utm_source=CMC&utm_campaign=AuditByCertiKLink',
     initTime: { [ChainId.BSC]: 1678922163 },
-    initPrice: { [ChainId.BSC]: 0.00251252 },
     soldOut: true,
   },
   {
@@ -8726,7 +8524,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/chain_guardians',
     audit: 'https://www.certik.com/projects/chainguardians?utm_source=CMC&utm_campaign=AuditByCertiKLink',
     initTime: { [ChainId.BSC]: 1678269604 },
-    initPrice: { [ChainId.BSC]: 0.110177 },
     soldOut: true,
     showcaseToken: tokens.cgg,
   },
@@ -8749,7 +8546,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/LiveGreenCoin1',
     audit: 'https://www.certik.com/projects/livegreencoin',
     initTime: { [ChainId.BSC]: 1678053061 },
-    initPrice: { [ChainId.BSC]: 0.00927457 },
     soldOut: true,
   },
   {
@@ -8771,7 +8567,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/Reaper_Farm',
     audit: 'https://solidity.finance/audits/ReaperFarm/',
     initTime: { [ChainId.BSC]: 1677676077 },
-    initPrice: { [ChainId.BSC]: 0.2253 },
     soldOut: true,
   },
   {
@@ -8793,7 +8588,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/tokoinglobal',
     audit: 'https://github.com/peckshield/publications/blob/master/audit_reports/PeckShield-Audit-Report-T-Fi-v1.0.pdf',
     initTime: { [ChainId.BSC]: 1677184302 },
-    initPrice: { [ChainId.BSC]: 0.00434657 },
     soldOut: true,
   },
   {
@@ -8815,7 +8609,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/cvl_network',
     audit: 'https://github.com/xdao-app/xdao-contracts/blob/master/audits/hacken/hacken.pdf',
     initTime: { [ChainId.BSC]: 1677080938 },
-    initPrice: { [ChainId.BSC]: 0.00864348 },
     soldOut: true,
   },
   {
@@ -8837,7 +8630,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/PlayTrivians',
     audit: 'https://hacken.io/wp-content/uploads/2022/06/Trivians_29062022_SCAudit_Report_2.pdf',
     initTime: { [ChainId.BSC]: 1676467044 },
-    initPrice: { [ChainId.BSC]: 0.00342517 },
     soldOut: true,
   },
   {
@@ -8859,7 +8651,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/xtalnia',
     audit: 'https://github.com/HashEx/public_audits/blob/master/XTAL%20Token/XTAL%20Token.pdf',
     initTime: { [ChainId.BSC]: 1676322242 },
-    initPrice: { [ChainId.BSC]: 0.438389 },
     soldOut: true,
   },
   {
@@ -8882,7 +8673,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     audit:
       'https://github.com/coinflect/wrapped-coinflect-audit/blob/main/Wrapped%20Coinflect%20Smart%20Contract%20Security%20Audit.pdf',
     initTime: { [ChainId.BSC]: 1675861237 },
-    initPrice: { [ChainId.BSC]: 0.00004566 },
     soldOut: true,
   },
   {
@@ -8904,7 +8694,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/AvanaProject',
     audit: 'https://hashex.org/audits/avana-token/',
     initTime: { [ChainId.BSC]: 1675687946 },
-    initPrice: { [ChainId.BSC]: 0.029782 },
     soldOut: true,
   },
   {
@@ -8926,7 +8715,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/LiquidusFinance',
     audit: 'https://liquidus.finance/LiqTechRateAudit.pdf',
     initTime: { [ChainId.BSC]: 1674588602 },
-    initPrice: { [ChainId.BSC]: 0.367212 },
     soldOut: true,
   },
   {
@@ -8948,7 +8736,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/thecakemnstr',
     audit: 'https://solidity.finance/audits/CakeMonster/',
     initTime: { [ChainId.BSC]: 1674763153 },
-    initPrice: { [ChainId.BSC]: 0.000919952 },
     soldOut: true,
   },
   {
@@ -8970,7 +8757,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/DappRadar/',
     audit: 'https://dappradar.com/documents/RADAR-Audits-v1.pdf',
     initTime: { [ChainId.BSC]: 1668620528 },
-    initPrice: { [ChainId.BSC]: 0.005311928477767259 },
     soldOut: true,
   },
   {
@@ -8991,7 +8777,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     initTime: { [ChainId.BSC]: 1675904338 },
-    initPrice: { [ChainId.BSC]: 0.073805 },
     soldOut: true,
   },
   {
@@ -9012,7 +8797,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     initTime: { [ChainId.BSC]: 1675904338 },
-    initPrice: { [ChainId.BSC]: 0.073805 },
     soldOut: true,
   },
   {
@@ -9033,7 +8817,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     initTime: { [ChainId.BSC]: 1675904338 },
-    initPrice: { [ChainId.BSC]: 0.073805 },
     soldOut: true,
   },
   {
@@ -9054,7 +8837,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     initTime: { [ChainId.BSC]: 1675904338 },
-    initPrice: { [ChainId.BSC]: 0.073805 },
     soldOut: true,
   },
   {
@@ -9075,7 +8857,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     initTime: { [ChainId.BSC]: 1675904338 },
-    initPrice: { [ChainId.BSC]: 0.073805 },
     soldOut: true,
   },
   {
@@ -9097,7 +8878,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/IHCoinofficial',
     audit: 'https://www.certik.com/projects/ihc#audit',
     initTime: { [ChainId.BSC]: 1669045328 },
-    initPrice: { [ChainId.BSC]: 0.0000773918161395094 },
     soldOut: true,
   },
   {
@@ -9118,7 +8898,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://liquidus.finance/',
     twitter: 'https://twitter.com/LiquidusFinance',
     initTime: { [ChainId.BSC]: 1669794128 },
-    initPrice: { [ChainId.BSC]: 0.3590438711755946 },
     soldOut: true,
   },
   {
@@ -9139,7 +8918,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://piston-token.com/',
     twitter: 'https://mobile.twitter.com/pistontoken',
     initTime: { [ChainId.BSC]: 1669905728 },
-    initPrice: { [ChainId.BSC]: 2.000004210715095 },
     soldOut: true,
   },
   {
@@ -9160,7 +8938,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://outerringmmo.com/',
     twitter: 'https://twitter.com/OuterRingMMO',
     initTime: { [ChainId.BSC]: 1670432974 },
-    initPrice: { [ChainId.BSC]: 0.001714637510619517 },
     soldOut: true,
   },
   {
@@ -9182,7 +8959,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/Play_Leap',
     audit: 'https://github.com/HashEx/public_audits/blob/master/PlayLeap/PlayLeap.pdf',
     initTime: { [ChainId.BSC]: 1673368322 },
-    initPrice: { [ChainId.BSC]: 0.165579 },
     soldOut: true,
   },
   {
@@ -9203,7 +8979,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://nftynetwork.io/',
     twitter: 'https://twitter.com/NFTYFinance',
     initTime: { [ChainId.BSC]: 1667839328 },
-    initPrice: { [ChainId.BSC]: 0.005420113056475245 },
     soldOut: true,
   },
   {
@@ -9225,7 +9000,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/3aircrypto',
     audit: 'https://github.com/JorgeRodriguezsec/CTDsec/blob/main/Audits/Cybersecurity_Audit_CTDSEC_3air.pdf',
     initTime: { [ChainId.BSC]: 1667512328 },
-    initPrice: { [ChainId.BSC]: 0.04540120370089731 },
     soldOut: true,
   },
   {
@@ -9246,7 +9020,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.coinofchampions.com/',
     twitter: 'https://twitter.com/coinofchampions',
     initTime: { [ChainId.BSC]: 1667352248 },
-    initPrice: { [ChainId.BSC]: 1.2566456303843458e-7 },
     soldOut: true,
   },
   {
@@ -9268,7 +9041,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/chirpley',
     audit: 'https://stack.chirpley.nl/s/241c8gWBtVHnuZO1',
     initTime: { [ChainId.BSC]: 1664883258 },
-    initPrice: { [ChainId.BSC]: 0.006475439494480084 },
     soldOut: true,
   },
   {
@@ -9290,7 +9062,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/GMRCenter',
     audit: 'https://www.certik.com/projects/gamer',
     initTime: { [ChainId.BSC]: 1662032058 },
-    initPrice: { [ChainId.BSC]: 0.019076325851224644 },
     soldOut: true,
   },
   {
@@ -9311,7 +9082,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://web.curate.style/',
     twitter: 'https://twitter.com/curateproject',
     initTime: { [ChainId.BSC]: 1662032058 },
-    initPrice: { [ChainId.BSC]: 0.019076325851224644 },
     soldOut: true,
   },
   {
@@ -9332,7 +9102,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://outerringmmo.com/',
     twitter: 'https://twitter.com/OuterRingMMO',
     initTime: { [ChainId.BSC]: 1667483648 },
-    initPrice: { [ChainId.BSC]: 0.002164726526133125 },
     soldOut: true,
   },
   {
@@ -9372,7 +9141,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://xwin.finance/',
     twitter: 'https://twitter.com/xwinfinance',
     initTime: { [ChainId.BSC]: 1666784058 },
-    initPrice: { [ChainId.BSC]: 0.550605316141175 },
     soldOut: true,
   },
   {
@@ -9393,7 +9161,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://froyo.games/',
     twitter: 'https://twitter.com/realfroyogames',
     initTime: { [ChainId.BSC]: 1666092858 },
-    initPrice: { [ChainId.BSC]: 0.010365834030975409 },
     soldOut: true,
     shortDescription: `Froyo Games is a web3 GameFi platform that connects brands and gamers to a metaverse of opportunities for playing and earning in exciting and innovative ways. Get to know $FROYO, the platform's utility token. Their token can be earned from playing games, be spent at the Froyo Marketplace, staked for rewards, and swapped for tokens in your favorite games.`,
     fullDescription: `Froyo Games is a web3 GameFi platform that connects brands and gamers to a metaverse of opportunities for playing and earning in exciting and innovative ways. Get to know $FROYO, the platform's utility token. Their token can be earned from playing games, be spent at the Froyo Marketplace, staked for rewards, and swapped for tokens in your favorite games. With a network of over 600 game development talents worldwide, covering 350+ game titles with over 360 million downloads, Froyo Games enables the integration of blockchain technologies into an accessible ecosystem. This ecosystem is open to any game developers who want to build on Ethereum and Binance Smart Chain, granting them access to the Froyo user base and tools when they launch their games on Froyo Games.`,
@@ -9437,7 +9204,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://bolide.fi/',
     twitter: 'https://twitter.com/Bolide_fi',
     initTime: { [ChainId.BSC]: 1664192058 },
-    initPrice: { [ChainId.BSC]: 0.024065964757317017 },
     soldOut: true,
   },
   {
@@ -9458,7 +9224,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://hector.network/',
     twitter: 'https://twitter.com/Hector_Network',
     initTime: { [ChainId.BSC]: 1660649658 },
-    initPrice: { [ChainId.BSC]: 18.15486755163556 },
     soldOut: true,
   },
   {
@@ -9479,7 +9244,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.floki.com/',
     twitter: 'https://twitter.com/realflokiinu',
     initTime: { [ChainId.BSC]: 1660217658 },
-    initPrice: { [ChainId.BSC]: 0.00001504435067868268 },
     soldOut: true,
   },
   {
@@ -9519,7 +9283,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://ceek.com/',
     twitter: 'https://twitter.com/CEEK/',
     initTime: { [ChainId.BSC]: 1655292858 },
-    initPrice: { [ChainId.BSC]: 0.12499413563790174 },
     soldOut: true,
   },
   {
@@ -9578,7 +9341,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.mogulproductions.com/',
     twitter: 'https://twitter.com/mogulofficial_',
     initTime: { [ChainId.BSC]: 1655292858 },
-    initPrice: { [ChainId.BSC]: 0.012596738432285355 },
     soldOut: true,
   },
   {
@@ -9599,7 +9361,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://hotcross.com/',
     twitter: 'https://twitter.com/hotcrosscom',
     initTime: { [ChainId.BSC]: 1655292858 },
-    initPrice: { [ChainId.BSC]: 0.0410817844906574 },
     soldOut: true,
   },
   {
@@ -9620,7 +9381,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://hotcross.com/',
     twitter: 'https://twitter.com/hotcrosscom',
     initTime: { [ChainId.BSC]: 1655292858 },
-    initPrice: { [ChainId.BSC]: 0.0410817844906574 },
     soldOut: true,
   },
   {
@@ -9641,7 +9401,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
     initTime: { [ChainId.BSC]: 1655552058 },
-    initPrice: { [ChainId.BSC]: 0.1736239460283216 },
     soldOut: true,
   },
   // Old liquiditys
@@ -9852,7 +9611,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     initTime: { [ChainId.BSC]: 1668467108 },
-    initPrice: { [ChainId.BSC]: 0.0709352845097292 },
     inactive: true,
     soldOut: true,
   },
@@ -9873,7 +9631,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     initTime: { [ChainId.BSC]: 1668467108 },
-    initPrice: { [ChainId.BSC]: 0.0709352845097292 },
     inactive: true,
     soldOut: true,
   },
@@ -9894,7 +9651,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     initTime: { [ChainId.BSC]: 1668467108 },
-    initPrice: { [ChainId.BSC]: 0.0709352845097292 },
     inactive: true,
     soldOut: true,
   },
@@ -9915,7 +9671,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     initTime: { [ChainId.BSC]: 1668467108 },
-    initPrice: { [ChainId.BSC]: 0.0709352845097292 },
     inactive: true,
     soldOut: true,
   },
@@ -9936,7 +9691,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     initTime: { [ChainId.BSC]: 1668467108 },
-    initPrice: { [ChainId.BSC]: 0.0709352845097292 },
     inactive: true,
     soldOut: true,
   },
@@ -9959,7 +9713,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     audit:
       'https://github.com/froyogames/public-smart-contracts/blob/main/Smart%20contract%20security%20audit%20report%20-%20Froyo.pdf',
     initTime: { [ChainId.BSC]: 1682255105 },
-    initPrice: { [ChainId.BSC]: 0.003065 },
     inactive: true,
     soldOut: true,
   },
@@ -9994,7 +9747,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'Oyabun is a Web3 mobile game set in a cyber-yakuza manga universe where players train, upgrade, and battle as powerful operatives. With just 10 minutes of daily play, users earn rewards, but true success demands strategic planning. The game features three currencies—$OYAB, $BUN, and $FURI—each playing a role in character growth and long-term progression.',
     fullDescription:
       ' Oyabun is a Web3 mobile game set in a gripping manga-inspired cyber-yakuza universe, blending immersive gameplay with strategic depth and social interaction. Players embody cyber-yakuza operatives, training and upgrading their characters to rise through the ranks and challenge others in intense battles. With just 10 minutes of daily gameplay, users can earn rewards and progress, but true dominance requires long-term planning and tactical execution. The game features a unique tri-currency system: $OYAB (off-chain, earned early-game), $BUN (on-chain, used for strategic actions like breeding and upgrading), and $FURI (a deflationary token swappable into $BUN), creating a dynamic and rewarding economic ecosystem.',
-    feeInPayout: 5,
     warningCard: `This token is currently only tradable on <a href="https://www.mexc.com/exchange/FURI_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a>`,
   },
   {
@@ -10102,7 +9854,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'Nasdex is a regulated, semi-decentralized RWA marketplace that empowers users to trade and invest in a diverse array of tokenized real-world assets, including private equity, private credit, bonds, derivatives, and real estate. It is the premier regulated marketplace for tokenized real-world assets.',
     fullDescription: `Nasdex is a regulated, semi-decentralized RWA marketplace that empowers users to trade and invest in a diverse array of tokenized real-world assets, including private equity, private credit, bonds, derivatives, and real estate. It is the premier regulated marketplace for tokenized real-world assets. With NASDEX, the future of finance is not just decentralized; it's personalized, accessible, and inherently global. NASDEX is poised to revolutionize the intersection of traditional finance (TradFi) and decentralized finance (DeFi), serving as an unparalleled conduit between these two pivotal spheres. Initially carving out its niche as the foremost decentralized exchange facilitating the on-chain trading of Asian stocks, NASDEX's scope has now significantly broadened to encompass the global market. It proudly offers the tokenization of a broad array of real-world assets, including but not limited to stocks, derivatives, and real estate, spanning every corner of the globe. NASDEX is designed to serve as a bridge between the real world and the crypto world, with the belief that the on-chain adoption of real-world asset classes will deliver increased accessibility and improved capabilities for both traditional and crypto investors.`,
     tags: ['RWA'],
-    feeInPayout: 5,
   },
   {
     index: 179,
@@ -10130,7 +9881,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'Film.io is a decentralized filmmaking ecosystem that puts Hollywood decision-making into the hands of creators and fans through blockchain technology. Governed by a filmmaking industry DAO, it champions inclusion, diversity, and transparency. With FAN and FILM Tokens, Film.io empowers collaboration to validate, fund, and distribute content, replacing centralized control with creative freedom.',
     fullDescription: `Film.io is the world's most powerful decentralized filmmaking ecosystem, revolutionizing Hollywood by transferring decision-making to creators and fans through blockchain technology. Governed by the first-ever filmmaking industry DAO, Film.io champions inclusion, equality, and diversity in global entertainment. It empowers creators and fans to collaboratively validate, fund, and distribute content in a transparent, inclusive environment, replacing traditional centralized power structures. Utilizing a dual-token model, Film.io offers FAN Tokens for governance and platform participation, while FILM Tokens support crowdfunding, DeFi loans, and NFT campaigns. Together, these tokens fuel collaboration between creators, fans, and investors, liberating the entertainment industry and fostering a new era of creative freedom.`,
     tags: ['Entertainment'],
-    feeInPayout: 5,
   },
   {
     index: 178,
@@ -10158,7 +9908,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'YayPal transforms gaming by blending fun with an active lifestyle. With $ACTIVE, gamers unlock shared achievements, leaderboards, and personalized NFTs across multiple games. The AI Motivation Engine boosts engagement with fitness challenges and rewards. From conquering virtual realms to real-world discounts and location-based offers, $ACTIVE bridges gaming and real-life rewards seamlessly.',
     fullDescription: `YayPal redefines gaming with an ecosystem that merges fun, fitness, and rewards. At its core, $ACTIVE powers shared points, leaderboards, and personalized NFTs across games. Gamers switch between casual and Move 2 Play modes, earning rewards while staying active. Walkopoly incentivizes physical activity with tokenized property trading, while the AI Motivation Engine offers personalized challenges. $ACTIVE also unlocks discounts, location-based offers, and a dynamic NFT marketplace, bridging gaming and real-life value.`,
     tags: ['GAMEFI'],
-    feeInPayout: 5,
   },
   {
     index: 177,
@@ -10189,7 +9938,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'Medieval Empires is a multi-player online strategy game set in 13th century Turkey. Players build towns, trade, battle, and form alliances in a passive PvE environment while completing daily missions and tasks to progress. Powered by Polygon blockchain and Immutable Passport technology, it offers low gas fees, security, and cross-platform play on PC, MAC, and soon mobile. The MEE token unlocks in-game benefits like VIP status and land access.',
     fullDescription: `Medieval Empires is a multi-player online strategy game set in 13th century Turkey, where players build towns, trade, fight, and form alliances within a passive PvE environment. The game immerses players in rich historical settings, featuring daily missions, general tasks, and story missions that guide progression and the expansion of the world map through continuous battles. Built on the Polygon blockchain and powered by Immutable Passport and zkEVM technology, Medieval Empires offers a comprehensive developer ecosystem, low gas fees, enhanced security, and exceptional speed, all while being eco-friendly. The game is currently available on PC (Windows) and MAC (OSX), with a mobile version for iOS and Android on the horizon, ensuring seamless cross-platform interoperability. At the heart of the game is the MEE token, which provides in-game advantages like VIP status, land access, and daily rewards for players who connect their wallets and stake the required amount. The team behind the game brings expertise in both game development and blockchain technology, ensuring a well-rounded, engaging experience.`,
     tags: ['GAMEFI'],
-    feeInPayout: 5,
   },
   {
     index: 176,
@@ -10218,7 +9966,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'Trakx is a global fintech redefining crypto investments with its Crypto Tradable Indices (CTIs), offering simple, one-click portfolio diversification through themed baskets of top digital assets. Registered with French AMF/ACPR as a VASP, Trakx ensures regulatory compliance. Powered by the TRKX token, users enjoy reduced fees, governance participation, and staking rewards, making crypto investing easy and accessible.',
     fullDescription: `Trakx is a global fintech innovator revolutionizing crypto investments through its Crypto Tradable Indices (CTIs). These proprietary baskets of the largest and most liquid digital assets offer a seamless, one-click solution for diversifying portfolios in the fast-evolving crypto market. With low fees and themed, easy-to-understand investment options, Trakx simplifies complex strategies for all investors. Registered with French AMF/ACPR as a Virtual Asset Service Provider (VASP), Trakx adheres to the highest international regulatory standards. The TRKX token powers the ecosystem, reducing trading fees and unlocking exclusive benefits such as governance participation and staking rewards. Trakx makes advanced investing straightforward, setting a new benchmark in crypto index trading.`,
     tags: ['DeFi'],
-    feeInPayout: 5,
   },
   {
     index: 175,
@@ -10247,7 +9994,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'Film.io is a decentralized filmmaking ecosystem that puts Hollywood decision-making into the hands of creators and fans through blockchain technology. Governed by a filmmaking industry DAO, it champions inclusion, diversity, and transparency. With FAN and FILM Tokens, Film.io empowers collaboration to validate, fund, and distribute content, replacing centralized control with creative freedom.',
     fullDescription: `Film.io is the world's most powerful decentralized filmmaking ecosystem, revolutionizing Hollywood by transferring decision-making to creators and fans through blockchain technology. Governed by the first-ever filmmaking industry DAO, Film.io champions inclusion, equality, and diversity in global entertainment. It empowers creators and fans to collaboratively validate, fund, and distribute content in a transparent, inclusive environment, replacing traditional centralized power structures. Utilizing a dual-token model, Film.io offers FAN Tokens for governance and platform participation, while FILM Tokens support crowdfunding, DeFi loans, and NFT campaigns. Together, these tokens fuel collaboration between creators, fans, and investors, liberating the entertainment industry and fostering a new era of creative freedom.`,
     tags: ['Entertainment'],
-    feeInPayout: 2,
   },
   {
     index: 174,
@@ -10278,7 +10024,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'Nasdex is a regulated, semi-decentralized RWA marketplace that empowers users to trade and invest in a diverse array of tokenized real-world assets, including private equity, private credit, bonds, derivatives, and real estate. It is the premier regulated marketplace for tokenized real-world assets.',
     fullDescription: `Nasdex is a regulated, semi-decentralized RWA marketplace that empowers users to trade and invest in a diverse array of tokenized real-world assets, including private equity, private credit, bonds, derivatives, and real estate. It is the premier regulated marketplace for tokenized real-world assets. With NASDEX, the future of finance is not just decentralized; it's personalized, accessible, and inherently global. NASDEX is poised to revolutionize the intersection of traditional finance (TradFi) and decentralized finance (DeFi), serving as an unparalleled conduit between these two pivotal spheres. Initially carving out its niche as the foremost decentralized exchange facilitating the on-chain trading of Asian stocks, NASDEX's scope has now significantly broadened to encompass the global market. It proudly offers the tokenization of a broad array of real-world assets, including but not limited to stocks, derivatives, and real estate, spanning every corner of the globe. NASDEX is designed to serve as a bridge between the real world and the crypto world, with the belief that the on-chain adoption of real-world asset classes will deliver increased accessibility and improved capabilities for both traditional and crypto investors.`,
     tags: ['RWA'],
-    feeInPayout: 2,
   },
   {
     index: 173,
@@ -10584,7 +10329,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.nasdex.xyz/',
     twitter: 'https://twitter.com/nasdex_xyz',
     audit: 'https://hacken.io/audits/nasdex',
-    initPrice: { [ChainId.MATIC]: 0.347018667988457 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
@@ -10711,7 +10455,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.iconx.world/',
     twitter: 'https://twitter.com/iconxworld',
     initTime: { [ChainId.MATIC]: 1701892800 },
-    initPrice: { [ChainId.MATIC]: 0.347018667988457 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -10740,7 +10483,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://derbystars.com/#section1',
     twitter: 'https://twitter.com/DerbyStars_HQ',
     initTime: { [ChainId.MATIC]: 1701892800 },
-    initPrice: { [ChainId.MATIC]: 0.347018667988457 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
@@ -10770,7 +10512,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://derbystars.com/#section1',
     twitter: 'https://twitter.com/DerbyStars_HQ',
     initTime: { [ChainId.MATIC]: 1701892800 },
-    initPrice: { [ChainId.MATIC]: 0.347018667988457 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
@@ -10801,7 +10542,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/nasdex_xyz',
     audit: 'https://hacken.io/audits/nasdex',
     initTime: { [ChainId.MATIC]: 1701892800 },
-    initPrice: { [ChainId.MATIC]: 0.347018667988457 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
@@ -10832,7 +10572,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/genso_meta',
     audit: 'https://skynet.certik.com/projects/gensokishi-online-metaworld',
     initTime: { [ChainId.MATIC]: 1701892800 },
-    initPrice: { [ChainId.MATIC]: 0.00254 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
@@ -10922,7 +10661,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/thxprotocol',
     audit: 'https://docs.thx.network/developers/audits',
     initTime: { [ChainId.MATIC]: 1700485200 },
-    initPrice: { [ChainId.MATIC]: 0.002404165611 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
@@ -10955,7 +10693,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     audit:
       'https://www.carbify.io/wp-content/uploads/2023/08/Carbifyaco2Rewards_Smart_Contract_Audit_Report_QuillAudits.pdf',
     initTime: { [ChainId.MATIC]: 1701892800 },
-    initPrice: { [ChainId.MATIC]: 0.347018667988457 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
@@ -10986,7 +10723,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://planetix.com/',
     twitter: 'https://twitter.com/Planetix0',
     initTime: { [ChainId.MATIC]: 1701892800 },
-    initPrice: { [ChainId.MATIC]: 0.347018667988457 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.PlanetIX_Collection1,
@@ -11016,7 +10752,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://planetix.com/',
     twitter: 'https://twitter.com/Planetix0',
     initTime: { [ChainId.MATIC]: 1701892800 },
-    initPrice: { [ChainId.MATIC]: 0.347018667988457 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.PlanetIX_Collection1,
@@ -11047,7 +10782,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/A51_Fi',
     audit: 'https://hacken.io/audits/unipilot/',
     initTime: { [ChainId.MATIC]: 1717440755 },
-    initPrice: { [ChainId.MATIC]: 0.23788392235783123 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
@@ -11079,7 +10813,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.MATIC]: 1700485200 },
-    initPrice: { [ChainId.MATIC]: 0.002404165611 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -11118,7 +10851,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://x.com/sheertopia',
     audit: 'https://github.com/solidproof/projects/tree/main/2024/Sheertopia',
     initTime: { [ChainId.MATIC]: 1701892800 },
-    initPrice: { [ChainId.MATIC]: 0.00254 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
@@ -11148,7 +10880,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.forestknight.io/',
     twitter: 'https://twitter.com/ForestKnight_io',
     initTime: { [ChainId.MATIC]: 1701892800 },
-    initPrice: { [ChainId.MATIC]: 0.00254 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
@@ -11178,7 +10909,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.anotemusic.com/',
     twitter: 'https://twitter.com/anotemusic',
     initTime: { [ChainId.MATIC]: 1701892800 },
-    initPrice: { [ChainId.MATIC]: 0.347018667988457 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
@@ -11209,7 +10939,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://ethernity.cloud/',
     twitter: 'https://twitter.com/Ethernity_cloud',
     initTime: { [ChainId.MATIC]: 1701892800 },
-    initPrice: { [ChainId.MATIC]: 0.347018667988457 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
@@ -11241,7 +10970,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/nasdex_xyz',
     audit: 'https://hacken.io/audits/nasdex',
     initTime: { [ChainId.MATIC]: 1701892800 },
-    initPrice: { [ChainId.MATIC]: 0.347018667988457 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
@@ -11271,7 +10999,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://planetix.com/',
     twitter: 'https://twitter.com/Planetix0',
     initTime: { [ChainId.MATIC]: 1701892800 },
-    initPrice: { [ChainId.MATIC]: 0.347018667988457 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.PlanetIX_Collection1,
@@ -11302,7 +11029,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/AfricarareNft',
     audit: 'https://www.cyberscope.io/audits/coin-africarare-ubuntu',
     initTime: { [ChainId.MATIC]: 1705067401 },
-    initPrice: { [ChainId.MATIC]: 0.90803612 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
@@ -11334,7 +11060,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/A51_Fi',
     audit: 'https://hacken.io/audits/unipilot/',
     initTime: { [ChainId.MATIC]: 1705067401 },
-    initPrice: { [ChainId.MATIC]: 0.90803612 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
@@ -11365,7 +11090,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://planetix.com/',
     twitter: 'https://twitter.com/Planetix0',
     initTime: { [ChainId.MATIC]: 1701892800 },
-    initPrice: { [ChainId.MATIC]: 0.347018667988457 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.PlanetIX_Collection1,
@@ -11394,7 +11118,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://bullieverse.com/',
     twitter: 'https://twitter.com/Bullieverse',
     initTime: { [ChainId.MATIC]: 1701892800 },
-    initPrice: { [ChainId.MATIC]: 0.0948073647 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
@@ -11424,7 +11147,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/genso_meta',
     audit: 'https://skynet.certik.com/projects/gensokishi-online-metaworld',
     initTime: { [ChainId.MATIC]: 1701892800 },
-    initPrice: { [ChainId.MATIC]: 0.00254 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
@@ -11455,7 +11177,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/thxprotocol',
     audit: 'https://docs.thx.network/developers/audits',
     initTime: { [ChainId.MATIC]: 1700485200 },
-    initPrice: { [ChainId.MATIC]: 0.002404165611 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
@@ -11485,7 +11206,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/nftbstoken',
     audit: 'https://skynet.certik.com/projects/nftbooks?utm_source=CMC&utm_campaign=AuditByCertiKLink',
     initTime: { [ChainId.MATIC]: 1700485200 },
-    initPrice: { [ChainId.MATIC]: 0.002404165611 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
@@ -11515,7 +11235,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apeswap/',
     initTime: { [ChainId.MATIC]: 1700485200 },
-    initPrice: { [ChainId.MATIC]: 0.002404165611 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -11552,7 +11271,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.veloce.gg/',
     twitter: 'https://twitter.com/vextoken',
     initTime: { [ChainId.MATIC]: 1701892800 },
-    initPrice: { [ChainId.MATIC]: 0.00254 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
@@ -11582,7 +11300,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/A51_Fi',
     audit: 'https://hacken.io/audits/unipilot/',
     initTime: { [ChainId.MATIC]: 1705067401 },
-    initPrice: { [ChainId.MATIC]: 0.90803612 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
@@ -11613,7 +11330,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://planetix.com/',
     twitter: 'https://twitter.com/Planetix0',
     initTime: { [ChainId.MATIC]: 1701892800 },
-    initPrice: { [ChainId.MATIC]: 0.347018667988457 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.PlanetIX_Collection1,
@@ -11643,7 +11359,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://planetix.com/',
     twitter: 'https://twitter.com/Planetix0',
     initTime: { [ChainId.MATIC]: 1701892800 },
-    initPrice: { [ChainId.MATIC]: 0.347018667988457 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.PlanetIX_Collection1,
@@ -11674,7 +11389,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/genso_meta',
     audit: 'https://skynet.certik.com/projects/gensokishi-online-metaworld',
     initTime: { [ChainId.MATIC]: 1701892800 },
-    initPrice: { [ChainId.MATIC]: 0.00254 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
@@ -11704,7 +11418,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://bullieverse.com/',
     twitter: 'https://twitter.com/Bullieverse',
     initTime: { [ChainId.MATIC]: 1701892800 },
-    initPrice: { [ChainId.MATIC]: 0.0948073647 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
@@ -11732,7 +11445,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://3adao.org/',
     twitter: 'https://twitter.com/3aaaDAO',
     initTime: { [ChainId.MATIC]: 1701892800 },
-    initPrice: { [ChainId.MATIC]: 0.347018667988457 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
@@ -11761,7 +11473,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/wefi_xyz',
     audit: 'https://github.com/peckshield/publications/blob/master/audit_reports/PeckShield-Audit-Report-Paxo-v1.0.pdf',
     initTime: { [ChainId.MATIC]: 1701892800 },
-    initPrice: { [ChainId.MATIC]: 0.0948073647 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
@@ -11790,7 +11501,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://planetix.com/',
     twitter: 'https://twitter.com/Planetix0',
     initTime: { [ChainId.MATIC]: 1701892800 },
-    initPrice: { [ChainId.MATIC]: 0.347018667988457 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.PlanetIX_Collection1,
@@ -11821,7 +11531,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/A51_Fi',
     audit: 'https://hacken.io/audits/unipilot/',
     initTime: { [ChainId.MATIC]: 1705067401 },
-    initPrice: { [ChainId.MATIC]: 0.90803612 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -11850,7 +11559,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://metatrace.me/',
     twitter: 'https://twitter.com/trace_meta',
     initTime: { [ChainId.MATIC]: 1701892800 },
-    initPrice: { [ChainId.MATIC]: 0.0948073647 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
@@ -11879,7 +11587,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://planetix.com/',
     twitter: 'https://twitter.com/Planetix0',
     initTime: { [ChainId.MATIC]: 1701892800 },
-    initPrice: { [ChainId.MATIC]: 0.347018667988457 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.PlanetIX_Collection1,
@@ -11909,7 +11616,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://planetix.com/',
     twitter: 'https://twitter.com/Planetix0',
     initTime: { [ChainId.MATIC]: 1701892800 },
-    initPrice: { [ChainId.MATIC]: 0.347018667988457 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.PlanetIX_Collection1,
@@ -11938,7 +11644,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://firebot.gg/',
     twitter: 'https://twitter.com/FireBotDAO',
     initTime: { [ChainId.MATIC]: 1701892800 },
-    initPrice: { [ChainId.MATIC]: 0.00254 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
@@ -11967,7 +11672,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/orbs_network',
     audit: 'https://github.com/orbs-network/orbs-token/blob/master/SmartDec%20OrbsToken%20Security%20Audit.pdf',
     initTime: { [ChainId.MATIC]: 1701892800 },
-    initPrice: { [ChainId.MATIC]: 0.00254 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
@@ -11995,7 +11699,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.veloce.gg/',
     twitter: 'https://twitter.com/vextoken',
     initTime: { [ChainId.MATIC]: 1701892800 },
-    initPrice: { [ChainId.MATIC]: 0.00254 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
@@ -12023,7 +11726,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.yellow.org/duckies',
     twitter: 'https://twitter.com/Yellow',
     initTime: { [ChainId.MATIC]: 1701892800 },
-    initPrice: { [ChainId.MATIC]: 0.00254 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
@@ -12051,7 +11753,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://bitcone.lol/',
     twitter: 'https://twitter.com/BitCone_CONE',
     initTime: { [ChainId.MATIC]: 1701892800 },
-    initPrice: { [ChainId.MATIC]: 0.00254 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
@@ -12080,7 +11781,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.forestknight.io/',
     twitter: 'https://twitter.com/ForestKnight_io',
     initTime: { [ChainId.MATIC]: 1701892800 },
-    initPrice: { [ChainId.MATIC]: 0.00254 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
@@ -12111,7 +11811,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/Borderless_ReFi',
     audit: 'https://www.borderless.money/bom_secaudit_blockapex.pdf',
     initTime: { [ChainId.MATIC]: 1701892800 },
-    initPrice: { [ChainId.MATIC]: 0.00254 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
@@ -12139,7 +11838,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://blockwallet.io/',
     twitter: 'https://twitter.com/GetBlockWallet',
     initTime: { [ChainId.MATIC]: 1701892800 },
-    initPrice: { [ChainId.MATIC]: 0.00254 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
@@ -12167,7 +11865,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://dogelonmars.com/',
     twitter: 'https://twitter.com/dogelonmars',
     initTime: { [ChainId.MATIC]: 1701892800 },
-    initPrice: { [ChainId.MATIC]: 0.00254 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
@@ -12194,7 +11891,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/genso_meta',
     audit: 'https://skynet.certik.com/projects/gensokishi-online-metaworld',
     initTime: { [ChainId.MATIC]: 1701892800 },
-    initPrice: { [ChainId.MATIC]: 0.00254 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
@@ -12225,7 +11921,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/adoptwombat',
     audit: 'https://hacken.io/wp-content/uploads/2022/07/Wombat_20072022_SCAudit_Report_2.pdf',
     initTime: { [ChainId.MATIC]: 1684274400 },
-    initPrice: { [ChainId.MATIC]: 0.00254 },
     soldOut: true,
   },
   {
@@ -12247,7 +11942,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/chain_guardians',
     audit: 'https://www.certik.com/projects/chainguardians?utm_source=CMC&utm_campaign=AuditByCertiKLink',
     initTime: { [ChainId.MATIC]: 1682590408 },
-    initPrice: { [ChainId.MATIC]: 0.085485 },
     soldOut: true,
     showcaseToken: tokens.cgg,
   },
@@ -12270,7 +11964,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/Kommunitas1',
     audit: 'https://docs.kommunitas.net/audit/shellboxes/security-audit-by-shellboxes',
     initTime: { [ChainId.MATIC]: 1682469864 },
-    initPrice: { [ChainId.MATIC]: 0.0013484 },
     soldOut: true,
   },
   {
@@ -12292,7 +11985,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/DogiraOfficial',
     audit: 'https://www.certik.com/address/0x47c5aa82fda7a79c7965beb6d7c6a265fe59921b',
     initTime: { [ChainId.MATIC]: 1679498540 },
-    initPrice: { [ChainId.MATIC]: 0.000939 },
     soldOut: true,
   },
   {
@@ -12314,7 +12006,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/Play_Leap',
     audit: 'https://github.com/HashEx/public_audits/blob/master/PlayLeap/PlayLeap.pdf',
     initTime: { [ChainId.MATIC]: 1679389058 },
-    initPrice: { [ChainId.MATIC]: 0.021342 },
     soldOut: true,
   },
   {
@@ -12336,7 +12027,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/chain_guardians',
     audit: 'https://www.certik.com/projects/chainguardians?utm_source=CMC&utm_campaign=AuditByCertiKLink',
     initTime: { [ChainId.MATIC]: 1676626187 },
-    initPrice: { [ChainId.MATIC]: 0.077899 },
     soldOut: true,
     showcaseToken: tokens.cgg,
   },
@@ -12358,7 +12048,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://axion.network/',
     twitter: 'https://twitter.com/axion_network',
     initTime: { [ChainId.MATIC]: 1669973048 },
-    initPrice: { [ChainId.MATIC]: 0.000015665249761458396 },
     soldOut: true,
   },
   {
@@ -12398,7 +12087,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.tokentraxx.com/',
     twitter: 'https://twitter.com/TokenTraxx',
     initTime: { [ChainId.MATIC]: 1663846458 },
-    initPrice: { [ChainId.MATIC]: 0.18650580540316708 },
     soldOut: true,
   },
   {
@@ -12419,7 +12107,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.dogira.net/',
     twitter: 'https://twitter.com/DogiraOfficial',
     initTime: { [ChainId.MATIC]: 1664969658 },
-    initPrice: { [ChainId.MATIC]: 0.0015076537321486155 },
     soldOut: true,
   },
 
@@ -12444,7 +12131,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
     initTime: { [ChainId.TLOS]: 1676929798 },
-    initPrice: { [ChainId.TLOS]: 0.2206 },
     soldOut: true,
   },
   {
@@ -12465,7 +12151,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
     initTime: { [ChainId.TLOS]: 1676929798 },
-    initPrice: { [ChainId.TLOS]: 0.2206 },
     soldOut: true,
   },
   {
@@ -12486,7 +12171,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
     initTime: { [ChainId.TLOS]: 1676929798 },
-    initPrice: { [ChainId.TLOS]: 0.2206 },
     soldOut: true,
   },
   {
@@ -12507,7 +12191,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
     initTime: { [ChainId.TLOS]: 1676929798 },
-    initPrice: { [ChainId.TLOS]: 0.2206 },
     soldOut: true,
   },
   {
@@ -12528,7 +12211,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
     initTime: { [ChainId.TLOS]: 1676929798 },
-    initPrice: { [ChainId.TLOS]: 0.2206 },
     soldOut: true,
   },
   {
@@ -12549,7 +12231,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
     initTime: { [ChainId.TLOS]: 1668849848 },
-    initPrice: { [ChainId.TLOS]: 0.1743935819281813 },
     soldOut: true,
   },
   {
@@ -12570,7 +12251,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
     initTime: { [ChainId.TLOS]: 1668849848 },
-    initPrice: { [ChainId.TLOS]: 0.1743935819281813 },
     soldOut: true,
   },
   {
@@ -12591,7 +12271,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
     initTime: { [ChainId.TLOS]: 1668849848 },
-    initPrice: { [ChainId.TLOS]: 0.1743935819281813 },
     soldOut: true,
   },
   {
@@ -12612,7 +12291,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
     initTime: { [ChainId.TLOS]: 1668849848 },
-    initPrice: { [ChainId.TLOS]: 0.1743935819281813 },
     soldOut: true,
   },
   {
@@ -12633,7 +12311,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
     initTime: { [ChainId.TLOS]: 1668849848 },
-    initPrice: { [ChainId.TLOS]: 0.1743935819281813 },
     soldOut: true,
   },
   {
@@ -12760,7 +12437,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     tags: ['DeFi'],
     shortDescription: `Kima is a Cosmos SDK-based blockchain enabling secure, cross-chain atomic swaps without wrapped tokens or liquidity fragmentation. Using a dual-layer consensus with rotating wardens and TSS in Trusted Execution Environments, it ensures secure transfers and full auditability. $KIMA powers validation, rewards, transactions, and ecosystem growth.`,
     fullDescription: `Kima is a Cosmos SDK-based blockchain that solves cross-chain interoperability without adding liquidity fragmentation by enabling atomic swaps across multiple blockchains—like Ethereum, Polygon, and Solana—without wrapping tokens. It uses a unique committee-based consensus with rotating “wardens” who manage liquidity pools and authorize transfers only after validating source-chain deposits, leveraging Threshold Signature Schemes inside Trusted Execution Environments for added security. Kima operates on a dual-layer model: a permissioned validator layer with trusted entities and a permissionless layer for broader participation. The protocol governs warden selection, platform parameters, and records every swap for full auditability, while also enabling future cross-chain messaging. Kima’s token, $KIMA, underpins security, validator rewards, ecosystem growth, and transaction and liquidity operations, ensuring a decentralized and efficient cross-chain experience.`,
-    feeInPayout: 5,
   },
   {
     index: 2029,
@@ -12788,7 +12464,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     tags: ['DeFi'],
     shortDescription: `CrossCurve, by the Eywa Team, is a cross-chain trading and yield protocol built on Curve, unifying $2B+ in liquidity across chains. It enables secure, cost-efficient swaps for Curve assets (crvUSD, LP tokens), liquid staking tokens (LSTs), and stablecoins. Governed by EYWA DAO, veEYWA holders shape decisions, earn rewards, and drive innovation in the decentralized ecosystem.`,
     fullDescription: `CrossCurve, developed by the Eywa Team, is a cutting-edge cross-chain trading and yield protocol that integrates seamlessly with Curve Finance, aggregating its extensive $2 billion+ in TVL pools to establish a unified cross-chain liquidity market. By enabling cost-efficient, secure, and convenient cross-chain swaps for Curve assets (such as crvUSD and various LP tokens), liquid staking tokens (LSTs), and stablecoins, CrossCurve opens innovative opportunities for liquidity providers, Web3 projects, and DeFi users. Governed by the EYWA DAO—a transparent and decentralized organization driven by veEYWA governance token holders—participants shape strategic decisions, earn protocol income, and receive incentives, fostering collaboration and engagement across the decentralized ecosystem.`,
-    feeInPayout: 2,
     minTier: LaunchBondTiers.Silver,
   },
   {
@@ -12817,7 +12492,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     tags: ['DeFi'],
     shortDescription: `CrossCurve, by the Eywa Team, is a cross-chain trading and yield protocol built on Curve, unifying $2B+ in liquidity across chains. It enables secure, cost-efficient swaps for Curve assets (crvUSD, LP tokens), liquid staking tokens (LSTs), and stablecoins. Governed by EYWA DAO, veEYWA holders shape decisions, earn rewards, and drive innovation in the decentralized ecosystem.`,
     fullDescription: `CrossCurve, developed by the Eywa Team, is a cutting-edge cross-chain trading and yield protocol that integrates seamlessly with Curve Finance, aggregating its extensive $2 billion+ in TVL pools to establish a unified cross-chain liquidity market. By enabling cost-efficient, secure, and convenient cross-chain swaps for Curve assets (such as crvUSD and various LP tokens), liquid staking tokens (LSTs), and stablecoins, CrossCurve opens innovative opportunities for liquidity providers, Web3 projects, and DeFi users. Governed by the EYWA DAO—a transparent and decentralized organization driven by veEYWA governance token holders—participants shape strategic decisions, earn protocol income, and receive incentives, fostering collaboration and engagement across the decentralized ecosystem.`,
-    feeInPayout: 2,
     minTier: LaunchBondTiers.Silver,
   },
   {
@@ -12846,7 +12520,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     tags: ['DeFi'],
     shortDescription: `CrossCurve, by the Eywa Team, is a cross-chain trading and yield protocol built on Curve, unifying $2B+ in liquidity across chains. It enables secure, cost-efficient swaps for Curve assets (crvUSD, LP tokens), liquid staking tokens (LSTs), and stablecoins. Governed by EYWA DAO, veEYWA holders shape decisions, earn rewards, and drive innovation in the decentralized ecosystem.`,
     fullDescription: `CrossCurve, developed by the Eywa Team, is a cutting-edge cross-chain trading and yield protocol that integrates seamlessly with Curve Finance, aggregating its extensive $2 billion+ in TVL pools to establish a unified cross-chain liquidity market. By enabling cost-efficient, secure, and convenient cross-chain swaps for Curve assets (such as crvUSD and various LP tokens), liquid staking tokens (LSTs), and stablecoins, CrossCurve opens innovative opportunities for liquidity providers, Web3 projects, and DeFi users. Governed by the EYWA DAO—a transparent and decentralized organization driven by veEYWA governance token holders—participants shape strategic decisions, earn protocol income, and receive incentives, fostering collaboration and engagement across the decentralized ecosystem.`,
-    feeInPayout: 2,
   },
   {
     index: 2026,
@@ -12874,7 +12547,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     tags: ['DeFi'],
     shortDescription: `CrossCurve, by the Eywa Team, is a cross-chain trading and yield protocol built on Curve, unifying $2B+ in liquidity across chains. It enables secure, cost-efficient swaps for Curve assets (crvUSD, LP tokens), liquid staking tokens (LSTs), and stablecoins. Governed by EYWA DAO, veEYWA holders shape decisions, earn rewards, and drive innovation in the decentralized ecosystem.`,
     fullDescription: `CrossCurve, developed by the Eywa Team, is a cutting-edge cross-chain trading and yield protocol that integrates seamlessly with Curve Finance, aggregating its extensive $2 billion+ in TVL pools to establish a unified cross-chain liquidity market. By enabling cost-efficient, secure, and convenient cross-chain swaps for Curve assets (such as crvUSD and various LP tokens), liquid staking tokens (LSTs), and stablecoins, CrossCurve opens innovative opportunities for liquidity providers, Web3 projects, and DeFi users. Governed by the EYWA DAO—a transparent and decentralized organization driven by veEYWA governance token holders—participants shape strategic decisions, earn protocol income, and receive incentives, fostering collaboration and engagement across the decentralized ecosystem.`,
-    feeInPayout: 2,
   },
   {
     index: 2025,
@@ -13390,7 +13062,6 @@ With the lending products set to go live in February, the project is poised to a
     twitter: 'https://x.com/ENOnetwork',
     audit: 'https://auditrate.tech/images/pdf/EnoToken_0x1C3d163219Bb74f430411b95D66b72056f366eC1.pdf',
     initTime: { [ChainId.ARBITRUM]: 1715789961 },
-    initPrice: { [ChainId.ARBITRUM]: 0.13219279419877278 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -13418,7 +13089,6 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://codyfight.com/',
     twitter: 'https://twitter.com/codyfight',
     initTime: { [ChainId.ARBITRUM]: 1715789961 },
-    initPrice: { [ChainId.ARBITRUM]: 0.13219279419877278 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -13446,7 +13116,6 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://codyfight.com/',
     twitter: 'https://twitter.com/codyfight',
     initTime: { [ChainId.ARBITRUM]: 1715789961 },
-    initPrice: { [ChainId.ARBITRUM]: 0.13219279419877278 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -13474,7 +13143,6 @@ With the lending products set to go live in February, the project is poised to a
     twitter: 'https://twitter.com/OpenWorldFi',
     audit: 'https://wiki.openworld.vision/audit',
     initTime: { [ChainId.ARBITRUM]: 1700149206 },
-    initPrice: { [ChainId.ARBITRUM]: 0.003660886786 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -13499,7 +13167,6 @@ With the lending products set to go live in February, the project is poised to a
     twitter: 'https://twitter.com/CruizeFinance',
     audit: 'https://docs.cruize.finance/technical-details/audits',
     initTime: { [ChainId.ARBITRUM]: 1689955200 },
-    initPrice: { [ChainId.ARBITRUM]: 0.0202 },
     soldOut: true,
   },
   {
@@ -13521,7 +13188,6 @@ With the lending products set to go live in February, the project is poised to a
     twitter: 'https://twitter.com/OpenWorldVision',
     audit: 'https://wiki.openworld.vision/audit',
     initTime: { [ChainId.ARBITRUM]: 1683237600 },
-    initPrice: { [ChainId.ARBITRUM]: 0.02259 },
     soldOut: true,
   },
   {
@@ -13543,7 +13209,6 @@ With the lending products set to go live in February, the project is poised to a
     twitter: 'https://twitter.com/OnyxDAO',
     audit: 'https://hashex.org/audits/onyx-dao/',
     initTime: { [ChainId.ARBITRUM]: 1679952396 },
-    initPrice: { [ChainId.ARBITRUM]: 1.5528 },
     soldOut: true,
   },
   /*
@@ -13569,7 +13234,6 @@ With the lending products set to go live in February, the project is poised to a
     twitter: 'https://twitter.com/CogitoFi',
     audit: 'https://wp.hacken.io/wp-content/uploads/2023/05/Cogito_SC-Audit-Report_11_05_2023_SA-1337-1.pdf',
     initTime: { [ChainId.MAINNET]: 1710255600 },
-    initPrice: { [ChainId.MAINNET]: 0.00173967992950712 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
@@ -13597,7 +13261,6 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://planetix.com/',
     twitter: 'https://twitter.com/Planetix0',
     initTime: { [ChainId.MAINNET]: 1710427059 },
-    initPrice: { [ChainId.MAINNET]: 0.00173967992950712 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
@@ -13627,7 +13290,6 @@ With the lending products set to go live in February, the project is poised to a
     twitter: 'https://twitter.com/forwardprotocol',
     audit: 'https://www.cyberscope.io/audits/coin-forward-protocol',
     initTime: { [ChainId.MAINNET]: 1710255600 },
-    initPrice: { [ChainId.MAINNET]: 0.00173967992950712 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
@@ -13656,7 +13318,6 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://gptprotocol.org/',
     twitter: 'https://twitter.com/gpt_protocol',
     initTime: { [ChainId.MAINNET]: 1710255600 },
-    initPrice: { [ChainId.MAINNET]: 0.00173967992950712 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
@@ -13684,7 +13345,6 @@ With the lending products set to go live in February, the project is poised to a
     twitter: 'https://twitter.com/cirusfoundation',
     audit: 'https://hacken.io/audits/cirus/',
     initTime: { [ChainId.MAINNET]: 1710255600 },
-    initPrice: { [ChainId.MAINNET]: 0.00173967992950712 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
@@ -13712,7 +13372,6 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://eth.monsta.finance/',
     twitter: 'https://twitter.com/Monsta_ETH',
     initTime: { [ChainId.MAINNET]: 1710255600 },
-    initPrice: { [ChainId.MAINNET]: 0.00173967992950712 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
@@ -13741,7 +13400,6 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://www.strike.org/',
     twitter: 'https://twitter.com/StrikeFinance',
     initTime: { [ChainId.MAINNET]: 1710255600 },
-    initPrice: { [ChainId.MAINNET]: 0.00173967992950712 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
@@ -13768,7 +13426,6 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://gpt-plus.io/',
     twitter: 'https://twitter.com/GPTPlusAI',
     initTime: { [ChainId.MAINNET]: 1710255600 },
-    initPrice: { [ChainId.MAINNET]: 0.00173967992950712 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
@@ -13795,7 +13452,6 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://chirpley.ai/',
     twitter: 'https://twitter.com/chirpley',
     initTime: { [ChainId.MAINNET]: 1710255600 },
-    initPrice: { [ChainId.MAINNET]: 0.00173967992950712 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
@@ -13824,7 +13480,6 @@ With the lending products set to go live in February, the project is poised to a
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.MAINNET]: 1711828677 },
-    initPrice: { [ChainId.MAINNET]: 0.0334978015237449 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
@@ -13864,7 +13519,6 @@ With the lending products set to go live in February, the project is poised to a
     audit:
       'https://github.com/chainsulting/Smart-Contract-Security-Audits/blob/master/Pummel%20Health/Smart_Contract_Audit_Pumlx_Token.pdf',
     initTime: { [ChainId.MAINNET]: 1712048400 },
-    initPrice: { [ChainId.MAINNET]: 0.013182138610271742 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
@@ -13894,7 +13548,6 @@ With the lending products set to go live in February, the project is poised to a
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.MAINNET]: 1711828677 },
-    initPrice: { [ChainId.MAINNET]: 0.0334978015237449 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
@@ -13932,7 +13585,6 @@ With the lending products set to go live in February, the project is poised to a
     twitter: 'https://twitter.com/orbs_network',
     audit: 'https://github.com/orbs-network/orbs-token/blob/master/SmartDec%20OrbsToken%20Security%20Audit.pdf',
     initTime: { [ChainId.MAINNET]: 1715268918 },
-    initPrice: { [ChainId.MAINNET]: 0.0334978015237449 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
@@ -13961,7 +13613,6 @@ With the lending products set to go live in February, the project is poised to a
     twitter: 'https://twitter.com/metahorseunity',
     audit: 'https://skynet.certik.com/projects/metahorse-unity',
     initTime: { [ChainId.MAINNET]: 1715268918 },
-    initPrice: { [ChainId.MAINNET]: 0.0334978015237449 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
@@ -13992,7 +13643,6 @@ With the lending products set to go live in February, the project is poised to a
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.MAINNET]: 1711828677 },
-    initPrice: { [ChainId.MAINNET]: 0.0334978015237449 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
@@ -14031,7 +13681,6 @@ With the lending products set to go live in February, the project is poised to a
     twitter: 'https://x.com/K9finance',
     audit: 'https://www.cyberscope.io/audits/coin-k9-finance',
     initTime: { [ChainId.MAINNET]: 1720015269 },
-    initPrice: { [ChainId.MAINNET]: 0.0334978015237449 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
@@ -14810,7 +14459,6 @@ With the lending products set to go live in February, the project is poised to a
     shortDescription:
       'Singularity Finance is an EVM-compatible Layer-2 blockchain that brings the AI economy onchain through a compliant RWA tokenization framework, enabling the tokenization of AI compute and the monetization of AI agents. Its native utility token, SFI, powers the network by facilitating economic, operational, and governance functions, ensuring a secure, efficient, and decentralized ecosystem for AI-driven innovation.',
     fullDescription: `Singularity Finance is an EVM-compatible Layer-2 blockchain that brings the AI economy onchain by providing a compliant framework for the tokenization of AI compute and the monetization of AI agents. The platform addresses challenges such as liquidity and accessibility by converting core elements of the AI value chain—from hardware to applications—into tokenized, yield-bearing assets that integrate seamlessly with the DeFi ecosystem. By enabling new asset classes like tokenized AI compute, Singularity Finance offers unparalleled access to the burgeoning AI market, allowing both individuals and businesses to actively participate in the growth of AI technologies. Central to this ecosystem is the SFI token, which underpins the network’s economic, operational, and governance functions while fostering a secure, efficient, and community-driven digital environment.`,
-    feeInPayout: 2,
   },
   {
     index: 3042,
@@ -14839,7 +14487,6 @@ With the lending products set to go live in February, the project is poised to a
     shortDescription:
       'Singularity Finance is an EVM-compatible Layer-2 blockchain that brings the AI economy onchain through a compliant RWA tokenization framework, enabling the tokenization of AI compute and the monetization of AI agents. Its native utility token, SFI, powers the network by facilitating economic, operational, and governance functions, ensuring a secure, efficient, and decentralized ecosystem for AI-driven innovation.',
     fullDescription: `Singularity Finance is an EVM-compatible Layer-2 blockchain that brings the AI economy onchain by providing a compliant framework for the tokenization of AI compute and the monetization of AI agents. The platform addresses challenges such as liquidity and accessibility by converting core elements of the AI value chain—from hardware to applications—into tokenized, yield-bearing assets that integrate seamlessly with the DeFi ecosystem. By enabling new asset classes like tokenized AI compute, Singularity Finance offers unparalleled access to the burgeoning AI market, allowing both individuals and businesses to actively participate in the growth of AI technologies. Central to this ecosystem is the SFI token, which underpins the network’s economic, operational, and governance functions while fostering a secure, efficient, and community-driven digital environment.`,
-    feeInPayout: 2,
   },
   {
     index: 3043,
@@ -14868,7 +14515,6 @@ With the lending products set to go live in February, the project is poised to a
     shortDescription:
       'Singularity Finance is an EVM-compatible Layer-2 blockchain that brings the AI economy onchain through a compliant RWA tokenization framework, enabling the tokenization of AI compute and the monetization of AI agents. Its native utility token, SFI, powers the network by facilitating economic, operational, and governance functions, ensuring a secure, efficient, and decentralized ecosystem for AI-driven innovation.',
     fullDescription: `Singularity Finance is an EVM-compatible Layer-2 blockchain that brings the AI economy onchain by providing a compliant framework for the tokenization of AI compute and the monetization of AI agents. The platform addresses challenges such as liquidity and accessibility by converting core elements of the AI value chain—from hardware to applications—into tokenized, yield-bearing assets that integrate seamlessly with the DeFi ecosystem. By enabling new asset classes like tokenized AI compute, Singularity Finance offers unparalleled access to the burgeoning AI market, allowing both individuals and businesses to actively participate in the growth of AI technologies. Central to this ecosystem is the SFI token, which underpins the network’s economic, operational, and governance functions while fostering a secure, efficient, and community-driven digital environment.`,
-    feeInPayout: 5,
   },
   {
     index: 3044,
@@ -14899,7 +14545,6 @@ With the lending products set to go live in February, the project is poised to a
       'With over 13 years of IT expertise, Abdsystems integrates seamlessly with advanced technology services for a personalized user experience. Founded in 2009, ABD Systems drives change through smart systems and innovation, empowering users with features like staking rewards and real-world integration. The ABDS Token, developed by ABD Systems, offers a secure, fast, and accessible entry into digital finance.',
     fullDescription:
       'Backed by over 13 years of expertise in IT solutions, ABD Systems ensures the token is seamlessly integrated with its technology services, delivering a personalized and innovative user experience. Founded in 2009 by visionary entrepreneurs committed to creating tech solutions for societal good, ABD Systems is on a mission to drive transformative change through smart systems and high technology. With features like staking rewards and real-world integration, the ABDS Token is positioned to lead the digital revolution, empowering users to earn and grow in a future without limits. The ABDS Token, created by ABD Systems, represents a leap forward in digital finance by offering a secure, fast, and accessible entry into the cryptocurrency market.',
-    feeInPayout: 2,
   },
   {
     index: 3045,
@@ -14929,7 +14574,6 @@ With the lending products set to go live in February, the project is poised to a
       'Memento is an RWA project developing blockchain-based infrastructure for TradFi institutions to enable institutional blockchain adoption. In collaboration with Deutsche Bank, Memento built Memento ZKchain, an institutional-grade ETH L2 for tokenized fund management and RWA tokenization—secure, scalable, and compliant. $DEXTF is the only utility token accruing value from the entire Memento ecosystem.',
     fullDescription:
       'Memento is an RWA project developing blockchain-based infrastructure for TradFi institutions to drive institutional blockchain adoption. In collaboration with Deutsche Bank, Memento built Memento ZKchain—an institutional-grade ETH L2 designed for tokenized fund management and RWA tokenization, with security, compliance, and scalability in mind. Memento also launched “Memento Digital Fund Management,” a multi-chain protocol to create, manage, invest in, and redeem ETF-style tokenized funds. $DEXTF is the only utility token that accrues value from the entire Memento ecosystem. More info on $DEXTF and its utility can be found <a href="https://mementoblockchain.com/dextf" target="_blank" rel="noopener noreferrer" style="color: #6099c5">here</a>.',
-    feeInPayout: 0,
   },
   {
     index: 3046,
@@ -14959,7 +14603,6 @@ With the lending products set to go live in February, the project is poised to a
       'Memento is an RWA project developing blockchain-based infrastructure for TradFi institutions to enable institutional blockchain adoption. In collaboration with Deutsche Bank, Memento built Memento ZKchain, an institutional-grade ETH L2 for tokenized fund management and RWA tokenization—secure, scalable, and compliant. $DEXTF is the only utility token accruing value from the entire Memento ecosystem.',
     fullDescription:
       'Memento is an RWA project developing blockchain-based infrastructure for TradFi institutions to drive institutional blockchain adoption. In collaboration with Deutsche Bank, Memento built Memento ZKchain—an institutional-grade ETH L2 designed for tokenized fund management and RWA tokenization, with security, compliance, and scalability in mind. Memento also launched “Memento Digital Fund Management,” a multi-chain protocol to create, manage, invest in, and redeem ETF-style tokenized funds. $DEXTF is the only utility token that accrues value from the entire Memento ecosystem. More info on $DEXTF and its utility can be found <a href="https://mementoblockchain.com/dextf" target="_blank" rel="noopener noreferrer" style="color: #6099c5">here</a>.',
-    feeInPayout: 0,
   },
 ]
 
