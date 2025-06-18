@@ -4193,14 +4193,6 @@ const tokens: Record<string, Token> = {
     decimals: { [ChainId.MAINNET]: 18 },
     active: true,
   },
-  mrlcTest: {
-    symbol: 'MRLC',
-    address: {
-      [ChainId.MAINNET]: '0x61d81F187a124C66e7ff7b19245806a0Dd914d7e',
-    },
-    decimals: { [ChainId.MAINNET]: 18 },
-    active: true,
-  },
   cirus: {
     symbol: 'CIRUS',
     address: {
