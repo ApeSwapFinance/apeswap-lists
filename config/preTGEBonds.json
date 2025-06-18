@@ -367,5 +367,84 @@
     "tgePrice": 0.002,
     "twitter": "https://x.com/AirasNetwork",
     "projectLink": "https://www.airas.com/"
+  },
+  {
+    "version": "2.1.2",
+    "index": 5,
+    "chainId": 1,
+    "vestingTimeString": "10 Months",
+    "tgeString": "June 2nd",
+    "shortDescription": "Murloc Coin is a memecoin born from the chaotic spirit of the Murlocs — iconic creatures from fantasy gaming lore. Led by Gluk’Krogg, they’ve launched a full-scale blockchain invasion. With handcrafted lore, DeFi utility, animated content, and the wild Murloc Army, more than just another meme token, $MRLC is a movement powered by handcrafted storytelling, animated content, and real-world campaigns.",
+    "tags": ["MEME"],
+    "contractAddress": {
+      "1": "0x3fB0373ae1BB15B2f20e258e304aa18aa655A930"
+    },
+    "billVersion": "TieredSale",
+    "billType": "fcfs",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+        "146": "0x29219dd400f2Bf60E5a23d13Be72B486D4038894",
+        "751": "0xD2ED81BE83B33218737Ca188EB9AC28b79C6A0F3",
+        "1890": "0x18fB38404DADeE1727Be4b805c5b242B5413Fa40",
+        "4158": "0x7bBcE15166bBc008EC1aDF9b3D6bbA0602FCE7Ba",
+        "8453": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+        "8822": "0xFbDa5F676cB37624f28265A144A48B0d6e87d3b6",
+        "10143": "0xf817257fed379853cDe0fa4F97AB987181B1E5Ea",
+        "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+        "59144": "0x176211869cA2b568f2A7D4EE941E073a821EE1ff",
+        "80094": "0x549943e04f40284185054145c6E4e9568C1D3241",
+        "747474": "0x203A662b0BD271A6ed5a60EdFbd04bFce608FD36"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "146": 6,
+        "751": 18,
+        "1890": 6,
+        "4158": 6,
+        "8453": 6,
+        "8822": 6,
+        "10143": 6,
+        "42161": 6,
+        "59144": 6,
+        "80094": 6,
+        "747474": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV3",
+        "56": "PancakeSwapV2",
+        "137": "UniswapV3",
+        "146": "ShadowExchange",
+        "751": "Citea",
+        "1890": "Elektrik",
+        "4158": "XSwap",
+        "8453": "Aerodrome",
+        "8822": "MagicSea",
+        "10143": "PancakeSwapV2",
+        "42161": "UniswapV3",
+        "59144": "Nile",
+        "80094": "KodiakV3",
+        "747474": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "1": "0x499b654b0A7f9979CC315190C09cA2633809B8dF"
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "redeemTime": 1750248900,
+    "tgePrice": 0.002,
+    "twitter": "https://x.com/AirasNetwork",
+    "projectLink": "https://www.airas.com/"
   }
 ]

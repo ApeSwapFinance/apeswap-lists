@@ -98,6 +98,30 @@ const preTGEBonds: PreTGEConfig[] = [
     twitter: 'https://x.com/AirasNetwork',
     projectLink: 'https://www.airas.com/',
   },
+  {
+    version: '2.1.2',
+    index: 5,
+    chainId: ChainId.MAINNET,
+    vestingTimeString: '10 Months',
+    tgeString: 'June 2nd',
+    shortDescription:
+      'Murloc Coin is a memecoin born from the chaotic spirit of the Murlocs — iconic creatures from fantasy gaming lore. Led by Gluk’Krogg, they’ve launched a full-scale blockchain invasion. With handcrafted lore, DeFi utility, animated content, and the wild Murloc Army, more than just another meme token, $MRLC is a movement powered by handcrafted storytelling, animated content, and real-world campaigns.',
+    tags: ['MEME'],
+    contractAddress: { [ChainId.MAINNET]: '0x3fB0373ae1BB15B2f20e258e304aa18aa655A930' },
+    billVersion: BillVersion.TieredSale,
+    billType: 'fcfs',
+    lpToken: tokens.usdc,
+    earnToken: tokens.mrlcTest,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0A7f9979CC315190C09cA2633809B8dF',
+    },
+    soldOut: false,
+    billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+    redeemTime: 1750248900,
+    tgePrice: 0.002,
+    twitter: 'https://x.com/AirasNetwork',
+    projectLink: 'https://www.airas.com/',
+  },
 ]
 
 export default preTGEBonds
