@@ -134,7 +134,6 @@ const bills: BillsConfig[] = [
       'Plutus leads a family of protocols in the space of yield optimization across chains, optimizing liquidity and rewards through PoL farming, delta neutral vaults, cross chain aggregated yield maximization and AI-agentic trading and governance. Revenue and yield captured by the protocol buys back and distributes tokens to $xPLUTUS holders. The $PLUTUS token powers governance locked as $xPLUTUS as the main yield bearer and DAO voting asset.',
     fullDescription:
       'Plutus is a governance aggregator, built to optimize user liquidity and rewards while consolidating protocol governance through the PLUTUS token. Instead of traditional veTokens, users interact with plsASSETs to stay liquid, earn rewards, and actively participate in governance. The platform has partnered with key Arbitrum protocols like Camelot, Stryke, Radiant, GMX, Sperax, and Jones to deliver governance-enhanced products. Plutus offers two core product types: plsASSETs, which streamline governance and liquidity efficiency, and plvASSETs, vaults aimed at maximizing rewards and composability. The PLUTUS token ($PLUTUS), a LayerZero OFT live on Arbitrum and Berachain, underpins the ecosystem, while $xPLUTUS, its escrowed yield-bearing variant, serves as the DAO’s primary voting and value-accrual mechanism. For full benefits, holders must lock PLUTUS as bPLS for 16 weeks.',
-    feeInPayout: 5,
   },
 
   //
@@ -797,7 +796,6 @@ const bills: BillsConfig[] = [
     tags: ['GAMEFI'],
     shortDescription: `The Game Company, a cloud gaming platform enhanced by AI and Web3. Play any game on any device, anywhere—no hardware or downloads needed. Bring your own games from Steam, Epic, and more. Earn rewards in GMRT through play-to-earn mechanics, game entry fees, and token staking for tournaments based on performance.`,
     fullDescription: `The Game Company, a groundbreaking platform at the intersection of AI, Web3, and cloud gaming. Designed to eliminate the need for expensive hardware or downloads, it enables players to enjoy any game on any device, anywhere in the world—even bringing their own titles from Steam, Epic, AE, or Battle.net. The platform redefines gaming freedom and introduces a play-to-earn model that transforms time spent playing into real value. With a vast library spanning all genres and gamer types, it fosters a truly inclusive ecosystem. Rewards are distributed in GMRT, a native token generated through supply inflation and game entry fees. Players can stake GMRT to enter tournaments, where payouts depend on both token stake and in-game performance, blending skill and strategy with earning potential.`,
-    feeInPayout: 3.5,
   },
   {
     index: 8050,
@@ -826,7 +824,6 @@ const bills: BillsConfig[] = [
     tags: ['GAMEFI'],
     shortDescription: `FingerMonkeys is a gamified platform where ambassadors upload mini-games and players scroll, play, and earn FMT tokens in a TikTok-style feed. Ambassadors gain ecosystem control through node-based licenses, while the FMT token fuels transactions, rewards, and utilities. Over time, governance will shift to an ambassador DAO, ensuring decentralized and community-driven growth.`,
     fullDescription: `FingerMonkeys is a gamified platform where ambassadors upload simple mini-games and players enjoy a TikTok-style experience of scrolling, playing, and earning FMT tokens. Ambassadors acquire licenses through nodes, granting them tools and authority to shape the ecosystem. Players earn FMT as rewards, driving a vibrant token economy. The FMT token powers all transactions, incentivizes participation, and unlocks platform utilities. As the platform evolves, governance will shift to an ambassador DAO, ensuring decentralized, community-led innovation. With ongoing growth, new utilities will be added, deepening the token’s integration across gameplay and the wider FingerMonkeys ecosystem.`,
-    feeInPayout: 5,
   },
   {
     index: 8049,

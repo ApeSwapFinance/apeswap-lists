@@ -288,6 +288,7 @@
         "40": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
         "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
         "97": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+        "130": "0x4200000000000000000000000000000000000006",
         "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
         "146": "0x50c42dEAcD8Fc9773493ED674b675bE577f2634b",
         "614": "0xbeED106D0f2e6950BFa1Eec74E1253CA0a643442",
@@ -307,6 +308,7 @@
         "40": 18,
         "56": 18,
         "97": 18,
+        "130": 18,
         "137": 18,
         "146": 18,
         "614": 18,
@@ -323,6 +325,7 @@
       },
       "liquidityDex": {
         "1": "UniswapV3",
+        "130": "External",
         "146": "ShadowExchange",
         "614": "External",
         "1890": "Elektrik",
@@ -432,6 +435,16 @@
         "59144": "Nile",
         "80094": "KodiakV3",
         "747474": "External"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "MRLC",
+      "address": {
+        "1": "0x61d81F187a124C66e7ff7b19245806a0Dd914d7e"
+      },
+      "decimals": {
+        "1": 18
       },
       "active": true
     },
