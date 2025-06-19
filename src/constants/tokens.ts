@@ -153,6 +153,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  rzr: {
+    symbol: 'RZR',
+    address: {
+      [ChainId.SONIC]: '0xb4444468e444f89e1c2CAc2F1D3ee7e336cBD1f5',
+    },
+    decimals: {
+      [ChainId.SONIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.SONIC]: LiquidityDex.ShadowExchange,
+    },
+    active: true,
+  },
   moon: {
     symbol: 'MOON',
     address: {
