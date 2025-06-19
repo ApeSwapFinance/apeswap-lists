@@ -153,6 +153,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  rzr: {
+    symbol: 'RZR',
+    address: {
+      [ChainId.SONIC]: '0xb4444468e444f89e1c2CAc2F1D3ee7e336cBD1f5',
+    },
+    decimals: {
+      [ChainId.SONIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.SONIC]: LiquidityDex.External,
+    },
+    active: true,
+  },
   moon: {
     symbol: 'MOON',
     address: {
@@ -7260,6 +7273,21 @@ const tokens: Record<string, Token> = {
     lpToken: true,
     liquidityDex: {
       [ChainId.SONIC]: LiquidityDex.ShadowExchange,
+    },
+    getLpUrl: {
+      [ChainId.SONIC]: 'https://www.shadow.so/liquidity/add',
+    },
+  },
+  scUSDrzr_ShadowExchange: {
+    symbol: 'scUSD-RZR',
+    address: {
+      [ChainId.SONIC]: '0x08C5e3B7533Ee819A4d1F66e839D0E8F04ae3D0C',
+    },
+    decimals: { [ChainId.SONIC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.SONIC]: LiquidityDex.External,
     },
     getLpUrl: {
       [ChainId.SONIC]: 'https://www.shadow.so/liquidity/add',

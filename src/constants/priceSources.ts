@@ -331,6 +331,24 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       tokenAddress: '0x28e0e3B9817012b356119dF9e217c25932D609c2',
     },
   },
+  [ChainId.SONIC]: {
+    '0x08C5e3B7533Ee819A4d1F66e839D0E8F04ae3D0C': {
+      name: '', // this is the onchain name of the pair
+      symbol: '', // this is the onchain symbol of the pair
+      decimals: 18,
+      source: PriceSource.Dexscreener,
+      type: 'pair',
+      tokenAddress: '0x08C5e3B7533Ee819A4d1F66e839D0E8F04ae3D0C',
+    },
+    '0xb4444468e444f89e1c2CAc2F1D3ee7e336cBD1f5': {
+      name: 'Rezerve.money',
+      symbol: 'RZR',
+      decimals: 18,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '0xb4444468e444f89e1c2CAc2F1D3ee7e336cBD1f5',
+    },
+  },
 }
 
 export default priceSources
