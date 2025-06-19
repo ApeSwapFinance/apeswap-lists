@@ -1,20 +1,20 @@
-import { BillArtCollection, BillVersion, ChainId, PreTGEBond } from '../types'
+import { BillArtCollection, BillVersion, ChainId, PreTGEConfig } from '../types'
 import tokens from './tokens'
 
-const preTGEBonds: PreTGEBond[] = [
+const preTGEBonds: PreTGEConfig[] = [
   {
+    version: '2.1.2',
     index: 1,
     chainId: ChainId.MAINNET,
-    refundable: false,
     vestingTimeString: '10 Months',
     tgeString: 'June 2nd',
     shortDescription:
       'AIRAS (Artificial Intelligence Real Assets System) is a comprehensive platform dedicated to leveraging AI and Blockchain for real world asset management, investment, and optimization. It powers autonomous applications across industries, enabling efficient, transparent, and scalable asset management. The AIRAS token fuels the ecosystem through transactions, governance, and incentives.',
     tags: ['AI'],
-    contractAddress: '0x6402BD234187a695352085518C835131494E5E35',
+    contractAddress: { [ChainId.MAINNET]: '0x6402BD234187a695352085518C835131494E5E35' },
     billVersion: BillVersion.TieredSale,
     billType: 'fcfs',
-    token: tokens.usdc,
+    lpToken: tokens.usdc,
     earnToken: tokens.airas,
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0A7f9979CC315190C09cA2633809B8dF',
@@ -23,23 +23,22 @@ const preTGEBonds: PreTGEBond[] = [
     billArt: { collection: BillArtCollection.ApeBond_Collection1 },
     redeemTime: 1748624400,
     tgePrice: 0.0005,
-    tokensDistributedAtRedeem: true,
     twitter: 'https://x.com/AirasNetwork',
     projectLink: 'https://www.airas.com/',
   },
   {
+    version: '2.1.2',
     index: 2,
     chainId: ChainId.MAINNET,
-    refundable: false,
     vestingTimeString: '5 Months',
     tgeString: 'June 2nd',
     shortDescription:
       'AIRAS (Artificial Intelligence Real Assets System) is a comprehensive platform dedicated to leveraging AI and Blockchain for real world asset management, investment, and optimization. It powers autonomous applications across industries, enabling efficient, transparent, and scalable asset management. The AIRAS token fuels the ecosystem through transactions, governance, and incentives.',
     tags: ['AI'],
-    contractAddress: '0xBFD8eA911959deefC5F369438c14eb304Fe6FD13',
+    contractAddress: { [ChainId.MAINNET]: '0xBFD8eA911959deefC5F369438c14eb304Fe6FD13' },
     billVersion: BillVersion.TieredSale,
     billType: 'fcfs',
-    token: tokens.usdc,
+    lpToken: tokens.usdc,
     earnToken: tokens.airas,
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0A7f9979CC315190C09cA2633809B8dF',
@@ -48,9 +47,31 @@ const preTGEBonds: PreTGEBond[] = [
     billArt: { collection: BillArtCollection.ApeBond_Collection1 },
     redeemTime: 1748624400,
     tgePrice: 0.0005,
-    tokensDistributedAtRedeem: true,
     twitter: 'https://x.com/AirasNetwork',
     projectLink: 'https://www.airas.com/',
+  },
+  {
+    version: '2.1.2',
+    index: 3,
+    chainId: ChainId.MAINNET,
+    vestingTimeString: '10 Months',
+    tgeString: 'July 30th',
+    shortDescription: `Murloc Coin is a Solana-based memecoin born from the chaotic spirit of the Murlocs — iconic creatures from the depths of fantasy gaming lore. Led by the unpredictable Gluk’Krogg, the Murlocs have escaped their old world and launched a full-scale invasion of the blockchain. <span style="font-weight: 700">This ERC-20 version of the token will be exchangeable 1:1 for the native equivalent on Solana closer to TGE.</span>`,
+    tags: ['Meme'],
+    contractAddress: { [ChainId.MAINNET]: '0x5dC6316Bfd0615b6C6573B3E06767A2feD5cCB89' },
+    billVersion: BillVersion.TieredSale,
+    billType: 'fcfs',
+    lpToken: tokens.usdc,
+    earnToken: tokens.mrlc,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0A7f9979CC315190C09cA2633809B8dF',
+    },
+    soldOut: false,
+    billArt: { collection: BillArtCollection.ETH_Collection1 },
+    redeemTime: 1753894800,
+    tgePrice: 0.01,
+    twitter: 'https://x.com/MurlocOfficial',
+    projectLink: 'https://murloc.gg/',
   },
 ]
 
