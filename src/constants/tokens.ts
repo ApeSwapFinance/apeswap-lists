@@ -162,7 +162,7 @@ const tokens: Record<string, Token> = {
       [ChainId.SONIC]: 18,
     },
     liquidityDex: {
-      [ChainId.SONIC]: LiquidityDex.ShadowExchange,
+      [ChainId.SONIC]: LiquidityDex.External,
     },
     active: true,
   },
