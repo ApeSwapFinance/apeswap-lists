@@ -91,6 +91,16 @@
       "tokenAddress": "0x5742fE477b2afed92c25D092418BaC06CD076ceA"
     }
   },
+  "146": {
+    "0x08C5e3B7533Ee819A4d1F66e839D0E8F04ae3D0C": {
+      "name": "",
+      "symbol": "",
+      "decimals": 18,
+      "source": "dexscreener",
+      "type": "pair",
+      "tokenAddress": "0x08C5e3B7533Ee819A4d1F66e839D0E8F04ae3D0C"
+    }
+  },
   "614": {
     "0x0000000000000000000000000000000000000000": {
       "name": "Graphlinq",

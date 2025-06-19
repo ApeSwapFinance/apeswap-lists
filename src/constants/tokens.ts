@@ -7287,7 +7287,7 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
     liquidityDex: {
-      [ChainId.SONIC]: LiquidityDex.ShadowExchange,
+      [ChainId.SONIC]: LiquidityDex.External,
     },
     getLpUrl: {
       [ChainId.SONIC]: 'https://www.shadow.so/liquidity/add',
