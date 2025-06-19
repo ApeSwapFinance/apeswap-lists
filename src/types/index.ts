@@ -372,6 +372,8 @@ export interface BaseBondConfig {
   tags?: string[]
   warningCard?: string
   vestingTerm?: number
+  bondPartner?: string
+  onlyPartner?: boolean
 }
 
 export interface PreTGEConfig extends BaseBondConfig {
@@ -379,9 +381,8 @@ export interface PreTGEConfig extends BaseBondConfig {
   tgeString?: string
   redeemTime?: number
   tgePrice?: number // price at TGE
-  tiersAirdrop?: {
-    [key: string]: number
-  }
+  airdropBonus?: number
+  airdropTooltip?: string
 }
 
 // Start of list types
@@ -390,13 +391,11 @@ export interface BillsConfig extends BaseBondConfig {
   inactive?: boolean
   initTime?: Partial<Record<ChainId, number>>
   showcaseToken?: Token
-  bondPartner?: string
   // * These are used for the individual bond page view
   fullDescription?: string
   featuredURLS?: string[]
   partnersURLS?: string[]
   vestingCliff?: number
-  onlyPartner?: boolean
   minTier?: LaunchBondTiers
   // * This is only used for the bond migration page
   multiplier?: number
