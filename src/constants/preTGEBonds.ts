@@ -72,6 +72,8 @@ const preTGEBonds: PreTGEConfig[] = [
     tgePrice: 0.01,
     twitter: 'https://x.com/MurlocOfficial',
     projectLink: 'https://murloc.gg/',
+    airdropBonus: 10,
+    airdropTooltip: 'this airdrop is hot',
   },
 ]
 
