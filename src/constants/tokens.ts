@@ -7278,6 +7278,21 @@ const tokens: Record<string, Token> = {
       [ChainId.SONIC]: 'https://www.shadow.so/liquidity/add',
     },
   },
+  scUSDrzr_ShadowExchange: {
+    symbol: 'scUSD-RZR',
+    address: {
+      [ChainId.SONIC]: '0x08C5e3B7533Ee819A4d1F66e839D0E8F04ae3D0C',
+    },
+    decimals: { [ChainId.SONIC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.SONIC]: LiquidityDex.ShadowExchange,
+    },
+    getLpUrl: {
+      [ChainId.SONIC]: 'https://www.shadow.so/liquidity/add',
+    },
+  },
 }
 
 export default tokens
