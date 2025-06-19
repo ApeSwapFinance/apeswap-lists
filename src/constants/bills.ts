@@ -97,7 +97,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://honey.fun/',
     twitter: 'https://x.com/honeydotfun',
     initTime: { [ChainId.BERACHAIN]: 1748420897 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Berachain_Collection1,
     },
@@ -158,7 +158,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://spinit.owl.games/',
     twitter: 'https://x.com/SPIN__IT',
     initTime: { [ChainId.SONIC]: 1747817717 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -926,7 +926,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://fx.land/',
     twitter: 'https://x.com/functionland',
     initTime: { [ChainId.BASE]: 1744904089 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -3100,7 +3100,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/script_network',
     audit: 'https://skynet.certik.com/projects/script-network?utm_source=CMC&utm_campaign=AuditByCertiKLink',
     initTime: { [ChainId.BSC]: 1745566483 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -9769,7 +9769,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.MATIC]: 1746549923 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -12430,7 +12430,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.kima.network/',
     twitter: 'https://x.com/kimanetwork',
     initTime: { [ChainId.ARBITRUM]: 1746722485 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },

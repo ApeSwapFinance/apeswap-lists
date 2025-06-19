@@ -148,7 +148,7 @@
     "initTime": {
       "80094": 1748420897
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "Berachain_Collection1"
     },
@@ -257,7 +257,7 @@
     "initTime": {
       "146": 1747817717
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -1745,7 +1745,7 @@
     "initTime": {
       "8453": 1744904089
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -5945,7 +5945,7 @@
     "initTime": {
       "56": 1745566483
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -19090,7 +19090,7 @@
     "initTime": {
       "137": 1746549923
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -24193,7 +24193,7 @@
     "initTime": {
       "42161": 1746722485
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
