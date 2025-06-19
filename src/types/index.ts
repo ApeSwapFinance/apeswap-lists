@@ -381,9 +381,8 @@ export interface PreTGEConfig extends BaseBondConfig {
   tgeString?: string
   redeemTime?: number
   tgePrice?: number // price at TGE
-  tiersAirdrop?: {
-    [key: string]: number
-  }
+  airdropBonus?: number
+  airdropTooltip?: string
 }
 
 // Start of list types
