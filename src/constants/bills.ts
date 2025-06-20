@@ -16,7 +16,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Singularity Testnet Largest ID: 12000
 // Crossfi Largest ID: 13000
 // Monad Testnet Largest ID: 14011
-// Sonic Largest ID: 15000
+// Sonic Largest ID: 15004
 // Berachain Largest ID: 16003
 const bills: BillsConfig[] = [
   //
@@ -139,6 +139,34 @@ const bills: BillsConfig[] = [
   //
   // Sonic
   //
+  {
+    index: 15004,
+    version: '2.1.0',
+    chainId: ChainId.SONIC,
+    contractAddress: {
+      [ChainId.SONIC]: '0x355ff1Ae557F4D620e1e1e5fac98a8dE03D5e9bC',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.scUSDrzr_ShadowExchange,
+    earnToken: tokens.rzr,
+    billNnftAddress: {
+      [ChainId.SONIC]: '0xc765C358622cB346f236F8Bfffe53036e421bb4e',
+    },
+    inactive: false,
+    projectLink: 'https://rezerve.money/',
+    twitter: 'https://x.com/rezervemoney',
+    initTime: { [ChainId.SONIC]: 1750406876 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    fullDescription:
+      'Rezerve Money is a decentralized reserve currency backed by a diversified basket of assets and governed by a transparent, community-driven token system: RZR, the dynamic currency. Designed to ensure liquidity, efficient asset allocation, and strong treasury safeguards, RZR introduces a novel Harberger Tax model that continuously collects protocol revenue from self-assessed asset values, promoting constant price discovery and discouraging speculative hoarding. Seamless compounding bonds auto-restake yields every epoch, while robust governance allows on-chain control over tax rates, bond terms, and emergency actions. A multi-layer defense system protects protocol solvency, including stake slashing, inverse bonds, and insurance auctions. All RZR tokens are backed by protocol-controlled value (PCV), which underwrites liquidity and funds strategic deployments, ensuring rewards and operations are supported by real capital.',
+    shortDescription:
+      'Rezerve Money is a decentralized, community-governed reserve currency backed by a diversified basket of assets. All RZR tokens are backed by protocol-controlled value (PCV), which underwrites liquidity and funds strategic deployments, ensuring rewards and operations are supported by real capital.',
+    tags: ['Blockchains'],
+  },
   {
     index: 15003,
     cmcId: 36324,

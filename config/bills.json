@@ -209,6 +209,62 @@
     "fullDescription": "Plutus is a governance aggregator, built to optimize user liquidity and rewards while consolidating protocol governance through the PLUTUS token. Instead of traditional veTokens, users interact with plsASSETs to stay liquid, earn rewards, and actively participate in governance. The platform has partnered with key Arbitrum protocols like Camelot, Stryke, Radiant, GMX, Sperax, and Jones to deliver governance-enhanced products. Plutus offers two core product types: plsASSETs, which streamline governance and liquidity efficiency, and plvASSETs, vaults aimed at maximizing rewards and composability. The PLUTUS token ($PLUTUS), a LayerZero OFT live on Arbitrum and Berachain, underpins the ecosystem, while $xPLUTUS, its escrowed yield-bearing variant, serves as the DAO’s primary voting and value-accrual mechanism. For full benefits, holders must lock PLUTUS as bPLS for 16 weeks."
   },
   {
+    "index": 15004,
+    "version": "2.1.0",
+    "chainId": 146,
+    "contractAddress": {
+      "146": "0x355ff1Ae557F4D620e1e1e5fac98a8dE03D5e9bC"
+    },
+    "billType": "liquidity",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "scUSD-RZR",
+      "address": {
+        "146": "0x08C5e3B7533Ee819A4d1F66e839D0E8F04ae3D0C"
+      },
+      "decimals": {
+        "146": 18
+      },
+      "active": true,
+      "lpToken": true,
+      "liquidityDex": {
+        "146": "External"
+      },
+      "getLpUrl": {
+        "146": "https://www.shadow.so/liquidity/add"
+      }
+    },
+    "earnToken": {
+      "symbol": "RZR",
+      "address": {
+        "146": "0xb4444468e444f89e1c2CAc2F1D3ee7e336cBD1f5"
+      },
+      "decimals": {
+        "146": 18
+      },
+      "liquidityDex": {
+        "146": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "146": "0xc765C358622cB346f236F8Bfffe53036e421bb4e"
+    },
+    "inactive": false,
+    "projectLink": "https://rezerve.money/",
+    "twitter": "https://x.com/rezervemoney",
+    "initTime": {
+      "146": 1750406876
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "fullDescription": "Rezerve Money is a decentralized reserve currency backed by a diversified basket of assets and governed by a transparent, community-driven token system: RZR, the dynamic currency. Designed to ensure liquidity, efficient asset allocation, and strong treasury safeguards, RZR introduces a novel Harberger Tax model that continuously collects protocol revenue from self-assessed asset values, promoting constant price discovery and discouraging speculative hoarding. Seamless compounding bonds auto-restake yields every epoch, while robust governance allows on-chain control over tax rates, bond terms, and emergency actions. A multi-layer defense system protects protocol solvency, including stake slashing, inverse bonds, and insurance auctions. All RZR tokens are backed by protocol-controlled value (PCV), which underwrites liquidity and funds strategic deployments, ensuring rewards and operations are supported by real capital.",
+    "shortDescription": "Rezerve Money is a decentralized, community-governed reserve currency backed by a diversified basket of assets. All RZR tokens are backed by protocol-controlled value (PCV), which underwrites liquidity and funds strategic deployments, ensuring rewards and operations are supported by real capital.",
+    "tags": ["Blockchains"]
+  },
+  {
     "index": 15003,
     "cmcId": 36324,
     "version": "2.1.0",
