@@ -205,10 +205,11 @@ export interface Token {
   dontFetch?: boolean
   lpToken?: boolean
   price?: number
-  liquidityDex?: Partial<Record<ChainId, LiquidityDex>> // the dex type where most liquidity/actual lp is
+  liquidityDex?: Partial<Record<ChainId, LiquidityDex>> // Used for both priceSource & for zap to know where to create LPs
   getLpUrl?: Partial<Record<ChainId, string>> //Needed for ZapVersion.External
   ichiUnderlyingDex?: IchiSupportedDex // The dex ichi is wrapping. only necessary for Ichi Zap
   liquidityWrapper?: Wrappers // The wrapper used to wrap the liquidity and make it erc20
+  liquiditySource?: Partial<Record<ChainId, LiquidityDex>> // Hotfix to replace liquidityDex on zap
 }
 
 // Interfaces used in Vaults
@@ -350,6 +351,7 @@ export enum LaunchBondTiers {
 // 2.1.0 => tiered bonds
 // 2.1.1 => cex bonds (require api pricing)
 // 2.1.2 => pre tge bonds
+// 2.1.3 => priceSource hotfix for a very specific case: principalToken is LP, priceGetter fails so we need to set LiquidityDex.External but we also need priceSource to indicate zap where to create the LP
 
 export interface BaseBondConfig {
   index: number
