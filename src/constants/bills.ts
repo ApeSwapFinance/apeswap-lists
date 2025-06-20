@@ -141,7 +141,7 @@ const bills: BillsConfig[] = [
   //
   {
     index: 15004,
-    version: '2.1.0',
+    version: '2.1.3',
     chainId: ChainId.SONIC,
     contractAddress: {
       [ChainId.SONIC]: '0x355ff1Ae557F4D620e1e1e5fac98a8dE03D5e9bC',

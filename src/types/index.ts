@@ -351,6 +351,7 @@ export enum LaunchBondTiers {
 // 2.1.0 => tiered bonds
 // 2.1.1 => cex bonds (require api pricing)
 // 2.1.2 => pre tge bonds
+// 2.1.3 => priceSource hotfix for a very specific case: principalToken is LP, priceGetter fails so we need to set LiquidityDex.External but we also need priceSource to indicate zap where to create the LP
 
 export interface BaseBondConfig {
   index: number
