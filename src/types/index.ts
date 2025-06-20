@@ -205,10 +205,11 @@ export interface Token {
   dontFetch?: boolean
   lpToken?: boolean
   price?: number
-  liquidityDex?: Partial<Record<ChainId, LiquidityDex>> // the dex type where most liquidity/actual lp is
+  liquidityDex?: Partial<Record<ChainId, LiquidityDex>> // Used for both priceSource & for zap to know where to create LPs
   getLpUrl?: Partial<Record<ChainId, string>> //Needed for ZapVersion.External
   ichiUnderlyingDex?: IchiSupportedDex // The dex ichi is wrapping. only necessary for Ichi Zap
   liquidityWrapper?: Wrappers // The wrapper used to wrap the liquidity and make it erc20
+  liquiditySource?: Partial<Record<ChainId, LiquidityDex>> // Hotfix to replace liquidityDex on zap
 }
 
 // Interfaces used in Vaults
