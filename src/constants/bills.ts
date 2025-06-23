@@ -166,6 +166,7 @@ const bills: BillsConfig[] = [
     shortDescription:
       'Rezerve Money is a decentralized, community-governed reserve currency backed by a diversified basket of assets. All RZR tokens are backed by protocol-controlled value (PCV), which underwrites liquidity and funds strategic deployments, ensuring rewards and operations are supported by real capital.',
     tags: ['Blockchains'],
+    warningCard: 'Heads Up: Buying this Bond may require a higher slippage.',
   },
   {
     index: 15003,
