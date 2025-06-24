@@ -16,8 +16,10 @@
       "decimals": {
         "7565164": 9
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {
+        "7565164": "External"
+      },
+      "active": true
     },
     "earnToken": {
       "symbol": "BANANA",
@@ -27,8 +29,10 @@
       "decimals": {
         "7565164": 9
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {
+        "7565164": "External"
+      },
+      "active": true
     },
     "billNnftAddress": {
       "7565164": "8NhzoQ1r4f2QevbMFWdHBHDbvPtzdq2dyYNL8sszp8no"
@@ -61,8 +65,10 @@
       "decimals": {
         "7565164": 9
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {
+        "7565164": "External"
+      },
+      "active": true
     },
     "earnToken": {
       "symbol": "BANANA",
@@ -72,8 +78,10 @@
       "decimals": {
         "7565164": 9
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {
+        "7565164": "External"
+      },
+      "active": true
     },
     "billNnftAddress": {
       "7565164": "FK37bJ6HrDZLgmKecJi3KuJbD1eSA2XCbDf5VT6xkPGe"
@@ -106,8 +114,10 @@
       "decimals": {
         "7565164": 9
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {
+        "7565164": "External"
+      },
+      "active": true
     },
     "earnToken": {
       "symbol": "BANANA",
@@ -117,8 +127,10 @@
       "decimals": {
         "7565164": 9
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {
+        "7565164": "External"
+      },
+      "active": true
     },
     "billNnftAddress": {
       "7565164": "9jXD9LMHfY32WyH9cid5YrnXhxbCdg38GZgtaENHFNkq"
@@ -12010,8 +12022,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "earnToken": {
       "symbol": "ABOND",
@@ -12060,8 +12072,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "earnToken": {
       "symbol": "ABOND",
@@ -12110,8 +12122,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "earnToken": {
       "symbol": "ABOND",
@@ -12160,8 +12172,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "earnToken": {
       "symbol": "ABOND",
@@ -12210,8 +12222,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "earnToken": {
       "symbol": "ABOND",
@@ -12260,8 +12272,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "earnToken": {
       "symbol": "ABOND",
@@ -12310,8 +12322,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "earnToken": {
       "symbol": "ABOND",
@@ -12360,8 +12372,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "earnToken": {
       "symbol": "ABOND",
@@ -12422,8 +12434,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -12469,8 +12481,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -12513,8 +12525,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -12557,8 +12569,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -12601,8 +12613,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -12645,8 +12657,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -12692,8 +12704,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -12739,8 +12751,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -12786,8 +12798,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -15604,8 +15616,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -15651,8 +15663,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -15698,8 +15710,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -15745,8 +15757,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -17178,8 +17190,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -17221,8 +17233,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -17264,8 +17276,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -17307,8 +17319,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -17350,8 +17362,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
@@ -18556,8 +18568,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8"
@@ -18596,8 +18608,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8"
@@ -18636,8 +18648,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8"
@@ -18676,8 +18688,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8"
@@ -18716,8 +18728,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "56": "0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8"
@@ -18756,8 +18768,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
@@ -18796,8 +18808,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
@@ -18836,8 +18848,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
@@ -18876,8 +18888,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
@@ -18916,8 +18928,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
@@ -18956,8 +18968,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
@@ -18999,8 +19011,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
@@ -19042,8 +19054,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
@@ -19085,8 +19097,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"
@@ -19128,8 +19140,8 @@
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "liquidityDex": {}
+      "liquidityDex": {},
+      "active": true
     },
     "billNnftAddress": {
       "56": "0x7FD203888661d1F0AE625eD599909f8F97698670"

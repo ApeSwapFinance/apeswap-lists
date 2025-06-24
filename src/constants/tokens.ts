@@ -20,6 +20,9 @@ const tokens: Record<string, Token> = {
       [ChainId.TLOS]: 18,
       [ChainId.SOL]: 9, // TODO: remove this test token
     },
+    liquidityDex: {
+      [ChainId.SOL]: LiquidityDex.External,
+    },
     active: true,
   },
   atl: {
@@ -1202,6 +1205,9 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
       [ChainId.BSC_TESTNET]: 18,
       [ChainId.SOL]: 9, // TODO: remove this test token
+    },
+    liquidityDex: {
+      [ChainId.SOL]: LiquidityDex.External,
     },
     active: true,
   },

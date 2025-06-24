@@ -20,6 +20,9 @@
         "137": 18,
         "7565164": 9
       },
+      "liquidityDex": {
+        "7565164": "External"
+      },
       "active": true
     },
     "contractAddress": {
@@ -50,6 +53,9 @@
         "97": 18,
         "137": 18,
         "7565164": 9
+      },
+      "liquidityDex": {
+        "7565164": "External"
       },
       "active": true
     },
@@ -82,6 +88,9 @@
         "137": 18,
         "7565164": 9
       },
+      "liquidityDex": {
+        "7565164": "External"
+      },
       "active": true
     },
     "contractAddress": {
@@ -113,6 +122,9 @@
         "137": 18,
         "7565164": 9
       },
+      "liquidityDex": {
+        "7565164": "External"
+      },
       "active": true
     },
     "contractAddress": {
@@ -143,6 +155,9 @@
         "97": 18,
         "137": 18,
         "7565164": 9
+      },
+      "liquidityDex": {
+        "7565164": "External"
       },
       "active": true
     },

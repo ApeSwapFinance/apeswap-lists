@@ -26,6 +26,9 @@
         "137": 18,
         "7565164": 9
       },
+      "liquidityDex": {
+        "7565164": "External"
+      },
       "active": true
     },
     "token": {
@@ -46,6 +49,9 @@
         "137": 18,
         "7565164": 9
       },
+      "liquidityDex": {
+        "7565164": "External"
+      },
       "active": true
     },
     "rewardToken": {
@@ -65,6 +71,9 @@
         "97": 18,
         "137": 18,
         "7565164": 9
+      },
+      "liquidityDex": {
+        "7565164": "External"
       },
       "active": true
     },
@@ -96,6 +105,9 @@
           "97": 18,
           "137": 18,
           "7565164": 9
+        },
+        "liquidityDex": {
+          "7565164": "External"
         },
         "active": true
       }
@@ -142,6 +154,9 @@
         "137": 18,
         "7565164": 9
       },
+      "liquidityDex": {
+        "7565164": "External"
+      },
       "active": true
     },
     "quoteToken": {
@@ -203,6 +218,9 @@
           "137": 18,
           "7565164": 9
         },
+        "liquidityDex": {
+          "7565164": "External"
+        },
         "active": true
       }
     },
@@ -245,6 +263,9 @@
         "97": 18,
         "137": 18,
         "7565164": 9
+      },
+      "liquidityDex": {
+        "7565164": "External"
       },
       "active": true
     },
@@ -299,6 +320,9 @@
           "97": 18,
           "137": 18,
           "7565164": 9
+        },
+        "liquidityDex": {
+          "7565164": "External"
         },
         "active": true
       }
@@ -345,6 +369,9 @@
         "137": 18,
         "7565164": 9
       },
+      "liquidityDex": {
+        "7565164": "External"
+      },
       "active": true
     },
     "quoteToken": {
@@ -382,6 +409,9 @@
         "137": 18,
         "7565164": 9
       },
+      "liquidityDex": {
+        "7565164": "External"
+      },
       "active": true
     },
     "platform": "ApeSwap",
@@ -412,6 +442,9 @@
           "97": 18,
           "137": 18,
           "7565164": 9
+        },
+        "liquidityDex": {
+          "7565164": "External"
         },
         "active": true
       }
@@ -455,6 +488,9 @@
         "137": 18,
         "7565164": 9
       },
+      "liquidityDex": {
+        "7565164": "External"
+      },
       "active": true
     },
     "quoteToken": {
@@ -487,6 +523,9 @@
         "137": 18,
         "7565164": 9
       },
+      "liquidityDex": {
+        "7565164": "External"
+      },
       "active": true
     },
     "platform": "ApeSwap",
@@ -517,6 +556,9 @@
           "97": 18,
           "137": 18,
           "7565164": 9
+        },
+        "liquidityDex": {
+          "7565164": "External"
         },
         "active": true
       }
@@ -589,6 +631,9 @@
         "137": 18,
         "7565164": 9
       },
+      "liquidityDex": {
+        "7565164": "External"
+      },
       "active": true
     },
     "platform": "ApeSwap",
@@ -619,6 +664,9 @@
           "97": 18,
           "137": 18,
           "7565164": 9
+        },
+        "liquidityDex": {
+          "7565164": "External"
         },
         "active": true
       }
@@ -696,6 +744,9 @@
         "137": 18,
         "7565164": 9
       },
+      "liquidityDex": {
+        "7565164": "External"
+      },
       "active": true
     },
     "platform": "ApeSwap",
@@ -726,6 +777,9 @@
           "97": 18,
           "137": 18,
           "7565164": 9
+        },
+        "liquidityDex": {
+          "7565164": "External"
         },
         "active": true
       }
@@ -796,6 +850,9 @@
         "137": 18,
         "7565164": 9
       },
+      "liquidityDex": {
+        "7565164": "External"
+      },
       "active": true
     },
     "platform": "ApeSwap",
@@ -826,6 +883,9 @@
           "97": 18,
           "137": 18,
           "7565164": 9
+        },
+        "liquidityDex": {
+          "7565164": "External"
         },
         "active": true
       }
@@ -945,6 +1005,9 @@
         "137": 18,
         "7565164": 9
       },
+      "liquidityDex": {
+        "7565164": "External"
+      },
       "active": true
     },
     "platform": "ApeSwap",
@@ -975,6 +1038,9 @@
           "97": 18,
           "137": 18,
           "7565164": 9
+        },
+        "liquidityDex": {
+          "7565164": "External"
         },
         "active": true
       }
@@ -1045,6 +1111,9 @@
         "137": 18,
         "7565164": 9
       },
+      "liquidityDex": {
+        "7565164": "External"
+      },
       "active": true
     },
     "platform": "ApeSwap",
@@ -1075,6 +1144,9 @@
           "97": 18,
           "137": 18,
           "7565164": 9
+        },
+        "liquidityDex": {
+          "7565164": "External"
         },
         "active": true
       }
@@ -1145,6 +1217,9 @@
         "137": 18,
         "7565164": 9
       },
+      "liquidityDex": {
+        "7565164": "External"
+      },
       "active": true
     },
     "platform": "ApeSwap",
@@ -1175,6 +1250,9 @@
           "97": 18,
           "137": 18,
           "7565164": 9
+        },
+        "liquidityDex": {
+          "7565164": "External"
         },
         "active": true
       }
@@ -1245,6 +1323,9 @@
         "137": 18,
         "7565164": 9
       },
+      "liquidityDex": {
+        "7565164": "External"
+      },
       "active": true
     },
     "platform": "ApeSwap",
@@ -1275,6 +1356,9 @@
           "97": 18,
           "137": 18,
           "7565164": 9
+        },
+        "liquidityDex": {
+          "7565164": "External"
         },
         "active": true
       }
@@ -1345,6 +1429,9 @@
         "137": 18,
         "7565164": 9
       },
+      "liquidityDex": {
+        "7565164": "External"
+      },
       "active": true
     },
     "platform": "ApeSwap",
@@ -1375,6 +1462,9 @@
           "97": 18,
           "137": 18,
           "7565164": 9
+        },
+        "liquidityDex": {
+          "7565164": "External"
         },
         "active": true
       }
@@ -1445,6 +1535,9 @@
         "137": 18,
         "7565164": 9
       },
+      "liquidityDex": {
+        "7565164": "External"
+      },
       "active": true
     },
     "platform": "ApeSwap",
@@ -1475,6 +1568,9 @@
           "97": 18,
           "137": 18,
           "7565164": 9
+        },
+        "liquidityDex": {
+          "7565164": "External"
         },
         "active": true
       }
@@ -1545,6 +1641,9 @@
         "137": 18,
         "7565164": 9
       },
+      "liquidityDex": {
+        "7565164": "External"
+      },
       "active": true
     },
     "platform": "ApeSwap",
@@ -1575,6 +1674,9 @@
           "97": 18,
           "137": 18,
           "7565164": 9
+        },
+        "liquidityDex": {
+          "7565164": "External"
         },
         "active": true
       }
@@ -1645,6 +1747,9 @@
         "137": 18,
         "7565164": 9
       },
+      "liquidityDex": {
+        "7565164": "External"
+      },
       "active": true
     },
     "platform": "ApeSwap",
@@ -1675,6 +1780,9 @@
           "97": 18,
           "137": 18,
           "7565164": 9
+        },
+        "liquidityDex": {
+          "7565164": "External"
         },
         "active": true
       }
@@ -1745,6 +1853,9 @@
         "137": 18,
         "7565164": 9
       },
+      "liquidityDex": {
+        "7565164": "External"
+      },
       "active": true
     },
     "platform": "ApeSwap",
@@ -1775,6 +1886,9 @@
           "97": 18,
           "137": 18,
           "7565164": 9
+        },
+        "liquidityDex": {
+          "7565164": "External"
         },
         "active": true
       }
@@ -1845,6 +1959,9 @@
         "137": 18,
         "7565164": 9
       },
+      "liquidityDex": {
+        "7565164": "External"
+      },
       "active": true
     },
     "platform": "ApeSwap",
@@ -1875,6 +1992,9 @@
           "97": 18,
           "137": 18,
           "7565164": 9
+        },
+        "liquidityDex": {
+          "7565164": "External"
         },
         "active": true
       }
@@ -1987,6 +2107,9 @@
         "137": 18,
         "7565164": 9
       },
+      "liquidityDex": {
+        "7565164": "External"
+      },
       "active": true
     },
     "platform": "ApeSwap",
@@ -2017,6 +2140,9 @@
           "97": 18,
           "137": 18,
           "7565164": 9
+        },
+        "liquidityDex": {
+          "7565164": "External"
         },
         "active": true
       }
@@ -2087,6 +2213,9 @@
         "137": 18,
         "7565164": 9
       },
+      "liquidityDex": {
+        "7565164": "External"
+      },
       "active": true
     },
     "platform": "ApeSwap",
@@ -2117,6 +2246,9 @@
           "97": 18,
           "137": 18,
           "7565164": 9
+        },
+        "liquidityDex": {
+          "7565164": "External"
         },
         "active": true
       }
@@ -2187,6 +2319,9 @@
         "137": 18,
         "7565164": 9
       },
+      "liquidityDex": {
+        "7565164": "External"
+      },
       "active": true
     },
     "platform": "ApeSwap",
@@ -2217,6 +2352,9 @@
           "97": 18,
           "137": 18,
           "7565164": 9
+        },
+        "liquidityDex": {
+          "7565164": "External"
         },
         "active": true
       }
@@ -2287,6 +2425,9 @@
         "137": 18,
         "7565164": 9
       },
+      "liquidityDex": {
+        "7565164": "External"
+      },
       "active": true
     },
     "platform": "ApeSwap",
@@ -2317,6 +2458,9 @@
           "97": 18,
           "137": 18,
           "7565164": 9
+        },
+        "liquidityDex": {
+          "7565164": "External"
         },
         "active": true
       }
@@ -2387,6 +2531,9 @@
         "137": 18,
         "7565164": 9
       },
+      "liquidityDex": {
+        "7565164": "External"
+      },
       "active": true
     },
     "platform": "ApeSwap",
@@ -2417,6 +2564,9 @@
           "97": 18,
           "137": 18,
           "7565164": 9
+        },
+        "liquidityDex": {
+          "7565164": "External"
         },
         "active": true
       }
