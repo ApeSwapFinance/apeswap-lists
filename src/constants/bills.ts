@@ -99,6 +99,31 @@ const bills: BillsConfig[] = [
     shortDescription: `This is a test bond with 0% principalFee`,
     tags: ['SOL'],
   },
+  {
+    index: 17003,
+    version: '2.2.0',
+    chainId: ChainId.SOL,
+    contractAddress: {
+      [ChainId.SOL]: 'BptDpzKUSSLJkAjLrtFAC6WVm5gXXZRWMBJR8qzDoC1g', //aka bond issuance PDA
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.gnana,
+    earnToken: tokens.banana,
+    billNnftAddress: {
+      [ChainId.SOL]: '9jXD9LMHfY32WyH9cid5YrnXhxbCdg38GZgtaENHFNkq', // aka collection
+    },
+    inactive: false,
+    projectLink: 'https://www.moonbay.space/',
+    twitter: 'https://x.com/MoonBaySonic',
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    fullDescription: `asdasdasdasd`,
+    shortDescription: `asdasdasdasd`,
+    tags: ['SOL'],
+  },
   //
   // Berachain
   //
