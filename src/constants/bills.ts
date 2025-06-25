@@ -25,7 +25,7 @@ const bills: BillsConfig[] = [
   // SOLANA
   //
   {
-    index: 17003,
+    index: 17001,
     version: '2.2.0',
     chainId: ChainId.SOL,
     contractAddress: {
@@ -50,7 +50,7 @@ const bills: BillsConfig[] = [
     tags: ['SOL'],
   },
   {
-    index: 17003,
+    index: 17002,
     version: '2.2.0',
     chainId: ChainId.SOL,
     contractAddress: {

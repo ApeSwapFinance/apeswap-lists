@@ -1,6 +1,6 @@
 [
   {
-    "index": 17003,
+    "index": 17001,
     "version": "2.2.0",
     "chainId": 7565164,
     "contractAddress": {
@@ -49,7 +49,7 @@
     "tags": ["SOL"]
   },
   {
-    "index": 17003,
+    "index": 17002,
     "version": "2.2.0",
     "chainId": 7565164,
     "contractAddress": {
