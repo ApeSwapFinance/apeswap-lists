@@ -780,7 +780,7 @@ const bills: BillsConfig[] = [
       [ChainId.BASE]: '0x500b395aD4A9bA52e69f8e298dd6a195aD563D25',
     },
     billType: 'reserve',
-    billVersion: BillVersion.V4,
+    billVersion: BillVersion.V3,
     lpToken: tokens.cbbtc,
     earnToken: tokens.goo,
     billNnftAddress: {

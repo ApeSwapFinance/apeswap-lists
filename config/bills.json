@@ -1442,7 +1442,7 @@
       "8453": "0x500b395aD4A9bA52e69f8e298dd6a195aD563D25"
     },
     "billType": "reserve",
-    "billVersion": "V4",
+    "billVersion": "V3",
     "lpToken": {
       "symbol": "cbBTC",
       "address": {
