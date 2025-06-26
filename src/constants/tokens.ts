@@ -20,6 +20,32 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  skorai: {
+    symbol: 'SKORAI',
+    address: {
+      [ChainId.SOL]: '8CLGcTogo6FoYkEQQBm3Vm2PVckYCiCm3XXhdsr4skoR',
+    },
+    decimals: {
+      [ChainId.SOL]: 6,
+    },
+    liquidityDex: {
+      [ChainId.SOL]: LiquidityDex.External,
+    },
+    active: true,
+  },
+  hyper: {
+    symbol: 'HYPER',
+    address: {
+      [ChainId.SOL]: 'Aq8Gocyvyyi8xk5EYxd6viUfVmVvs9T9R6mZFzZFpump',
+    },
+    decimals: {
+      [ChainId.SOL]: 6,
+    },
+    liquidityDex: {
+      [ChainId.SOL]: LiquidityDex.External,
+    },
+    active: true,
+  },
   atl: {
     symbol: 'ATL',
     address: {
