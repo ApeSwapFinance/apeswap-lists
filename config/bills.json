@@ -71,12 +71,12 @@
       "active": true
     },
     "earnToken": {
-      "symbol": "SKORAI",
+      "symbol": "BANANA",
       "address": {
-        "7565164": "8CLGcTogo6FoYkEQQBm3Vm2PVckYCiCm3XXhdsr4skoR"
+        "7565164": "6MkKT6ffNt6N22U2Q7yZaLC4QYrxGuFefwYrmd8XXsih"
       },
       "decimals": {
-        "7565164": 6
+        "7565164": 9
       },
       "liquidityDex": {
         "7565164": "External"
@@ -120,12 +120,12 @@
       "active": true
     },
     "earnToken": {
-      "symbol": "HYPER",
+      "symbol": "BANANA",
       "address": {
-        "7565164": "Aq8Gocyvyyi8xk5EYxd6viUfVmVvs9T9R6mZFzZFpump"
+        "7565164": "6MkKT6ffNt6N22U2Q7yZaLC4QYrxGuFefwYrmd8XXsih"
       },
       "decimals": {
-        "7565164": 6
+        "7565164": 9
       },
       "liquidityDex": {
         "7565164": "External"
