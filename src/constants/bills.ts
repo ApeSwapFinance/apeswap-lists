@@ -18,7 +18,12 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Monad Testnet Largest ID: 14011
 // Sonic Largest ID: 15004
 // Berachain Largest ID: 16003
+// Katana Largest ID: 17000
 const bills: BillsConfig[] = [
+  //
+  // Katana
+  //
+
   //
   // Berachain
   //
@@ -2390,7 +2395,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.hotdog.pet/',
     twitter: 'https://x.com/HotdogLinea',
     initTime: { [ChainId.LINEA]: 1747174598 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },

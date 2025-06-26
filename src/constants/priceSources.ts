@@ -320,6 +320,23 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       price: 69,
       tokenAddress: '6MkKT6ffNt6N22U2Q7yZaLC4QYrxGuFefwYrmd8XXsih',
     },
+    '8CLGcTogo6FoYkEQQBm3Vm2PVckYCiCm3XXhdsr4skoR': {
+      name: 'SKOR AI',
+      symbol: 'SKORAI',
+      decimals: 6,
+      source: PriceSource.Mexc,
+      id: 'SKORAIUSDT',
+      tokenAddress: '8CLGcTogo6FoYkEQQBm3Vm2PVckYCiCm3XXhdsr4skoR',
+    },
+    Aq8Gocyvyyi8xk5EYxd6viUfVmVvs9T9R6mZFzZFpump: {
+      // for some reason, yarn build is removing quotes from this.
+      name: 'Hyperpigmentation',
+      symbol: 'HYPER',
+      decimals: 6,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: 'Aq8Gocyvyyi8xk5EYxd6viUfVmVvs9T9R6mZFzZFpump',
+    },
   },
   [ChainId.BERACHAIN]: {
     '0x28e0e3B9817012b356119dF9e217c25932D609c2': {

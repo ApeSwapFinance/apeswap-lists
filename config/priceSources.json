@@ -287,6 +287,22 @@
       "source": "fixed",
       "price": 69,
       "tokenAddress": "6MkKT6ffNt6N22U2Q7yZaLC4QYrxGuFefwYrmd8XXsih"
+    },
+    "8CLGcTogo6FoYkEQQBm3Vm2PVckYCiCm3XXhdsr4skoR": {
+      "name": "SKOR AI",
+      "symbol": "SKORAI",
+      "decimals": 6,
+      "source": "mexc",
+      "id": "SKORAIUSDT",
+      "tokenAddress": "8CLGcTogo6FoYkEQQBm3Vm2PVckYCiCm3XXhdsr4skoR"
+    },
+    "Aq8Gocyvyyi8xk5EYxd6viUfVmVvs9T9R6mZFzZFpump": {
+      "name": "Hyperpigmentation",
+      "symbol": "HYPER",
+      "decimals": 6,
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "Aq8Gocyvyyi8xk5EYxd6viUfVmVvs9T9R6mZFzZFpump"
     }
   }
 }
