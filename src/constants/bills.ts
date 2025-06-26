@@ -64,7 +64,7 @@ const bills: BillsConfig[] = [
     billType: 'reserve',
     billVersion: BillVersion.V2,
     lpToken: tokens.gnana,
-    earnToken: tokens.banana,
+    earnToken: tokens.skorai,
     billNnftAddress: {
       [ChainId.SOL]: 'F3VFdy1WtEgHYpPU7EQQdWLUbtbnPwxCcbKfMBEkn1jM', // aka collection
     },
@@ -89,7 +89,7 @@ const bills: BillsConfig[] = [
     billType: 'reserve',
     billVersion: BillVersion.V2,
     lpToken: tokens.gnana,
-    earnToken: tokens.banana,
+    earnToken: tokens.hyper,
     billNnftAddress: {
       [ChainId.SOL]: 'DxcXfxETGP8dVdBkDgLUtB3HpUpmD5mQKzMa7qier6VB', // aka collection
     },

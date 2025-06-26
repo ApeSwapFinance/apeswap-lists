@@ -1,6 +1,6 @@
 [
   {
-    "index": 17001,
+    "index": 18001,
     "version": "2.2.0",
     "chainId": 7565164,
     "contractAddress": {
@@ -49,7 +49,7 @@
     "tags": ["SOL"]
   },
   {
-    "index": 17002,
+    "index": 18002,
     "version": "2.2.0",
     "chainId": 7565164,
     "contractAddress": {
@@ -71,12 +71,12 @@
       "active": true
     },
     "earnToken": {
-      "symbol": "BANANA",
+      "symbol": "SKORAI",
       "address": {
-        "7565164": "6MkKT6ffNt6N22U2Q7yZaLC4QYrxGuFefwYrmd8XXsih"
+        "7565164": "8CLGcTogo6FoYkEQQBm3Vm2PVckYCiCm3XXhdsr4skoR"
       },
       "decimals": {
-        "7565164": 9
+        "7565164": 6
       },
       "liquidityDex": {
         "7565164": "External"
@@ -98,7 +98,7 @@
     "tags": ["SOL"]
   },
   {
-    "index": 17003,
+    "index": 18003,
     "version": "2.2.0",
     "chainId": 7565164,
     "contractAddress": {
@@ -120,12 +120,12 @@
       "active": true
     },
     "earnToken": {
-      "symbol": "BANANA",
+      "symbol": "HYPER",
       "address": {
-        "7565164": "6MkKT6ffNt6N22U2Q7yZaLC4QYrxGuFefwYrmd8XXsih"
+        "7565164": "Aq8Gocyvyyi8xk5EYxd6viUfVmVvs9T9R6mZFzZFpump"
       },
       "decimals": {
-        "7565164": 9
+        "7565164": 6
       },
       "liquidityDex": {
         "7565164": "External"
