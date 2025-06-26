@@ -45,7 +45,7 @@ const preTGEBonds: PreTGEConfig[] = [
     },
     soldOut: false,
     billArt: { collection: BillArtCollection.ApeBond_Collection1 },
-    redeemTime: 1748624400,
+    redeemTime: 1753963200, // July 31th 12:00UTC
     tgePrice: 0.0005,
     twitter: 'https://x.com/AirasNetwork',
     projectLink: 'https://www.airas.com/',
