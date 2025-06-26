@@ -44,6 +44,7 @@ export enum ChainId {
   BERACHAIN = 80094,
   KATANA_TESTNET = 129399,
   KATANA = 747474,
+  UNICHAIN = 130,
 }
 
 export enum LiquidityDex {
@@ -204,10 +205,11 @@ export interface Token {
   dontFetch?: boolean
   lpToken?: boolean
   price?: number
-  liquidityDex?: Partial<Record<ChainId, LiquidityDex>> // the dex type where most liquidity/actual lp is
+  liquidityDex?: Partial<Record<ChainId, LiquidityDex>> // Used for both priceSource & for zap to know where to create LPs
   getLpUrl?: Partial<Record<ChainId, string>> //Needed for ZapVersion.External
   ichiUnderlyingDex?: IchiSupportedDex // The dex ichi is wrapping. only necessary for Ichi Zap
   liquidityWrapper?: Wrappers // The wrapper used to wrap the liquidity and make it erc20
+  liquiditySource?: Partial<Record<ChainId, LiquidityDex>> // Hotfix to replace liquidityDex on zap
 }
 
 // Interfaces used in Vaults
@@ -344,79 +346,64 @@ export enum LaunchBondTiers {
   Legend,
 }
 
-export interface PreTGEBond {
-  index: number
-  chainId: ChainId
-  refundable: boolean
-  vestingTimeString: string
-  tgeString: string
-  shortDescription: string
-  tags: string[]
-  contractAddress: string
-  billVersion: BillVersion
-  billType: string
-  token: Token
-  earnToken: Token
-  billNnftAddress: Partial<Record<ChainId, string>>
-  soldOut: boolean
-  billArt: {
-    collection: BillArtCollection
-  }
-  redeemTime: number
-  tgePrice: number // price at TGE
-  tokensDistributedAtRedeem: boolean
-  projectLink?: string
-  twitter?: string
-  audit?: string
-  tiersAirdrop?: {
-    [key: string]: number
-  }
-}
-
 // Version Mapping
 // 2.0.0 => old bonds
 // 2.1.0 => tiered bonds
 // 2.1.1 => cex bonds (require api pricing)
+// 2.1.2 => pre tge bonds
+// 2.1.3 => priceSource hotfix for a very specific case: principalToken is LP, priceGetter fails so we need to set LiquidityDex.External but we also need priceSource to indicate zap where to create the LP
 
-// Start of list types
-export interface BillsConfig {
+export interface BaseBondConfig {
   index: number
   version: string // This will be used to check compatibility versions
-  cmcId?: number
   chainId: ChainId
-  contractAddress: Partial<Record<ChainId, string>>
   billVersion: BillVersion
-  billType: 'liquidity' | 'reserve' | 'launch' | 'migration' | 'cex' | 'staking'
+  billType: 'liquidity' | 'reserve' | 'launch' | 'migration' | 'cex' | 'staking' | 'fcfs' | 'oversubscription'
+  soldOut: boolean
   lpToken: Token
   earnToken: Token
+  contractAddress: Partial<Record<ChainId, string>>
   billNnftAddress: Partial<Record<ChainId, string>>
-  inactive?: boolean
-  projectLink?: string
-  twitter?: string
-  initTime?: Partial<Record<ChainId, number>>
-  initPrice?: Partial<Record<ChainId, number>>
-  audit?: string
-  soldOut?: boolean
   billArt?: {
     collection: BillArtCollection
   }
-  showcaseToken?: Token
-  bondPartner?: string
-  // * These are used for the individual bond page view
   shortDescription?: string
+  audit?: string
+  projectLink?: string
+  twitter?: string
+  tags?: string[]
+  warningCard?: string
+  vestingTerm?: number
+  bondPartner?: string
+  onlyPartner?: boolean
+}
+
+export interface PreTGEConfig extends BaseBondConfig {
+  vestingTimeString?: string
+  tgeString?: string
+  redeemTime?: number
+  tgePrice?: number // price at TGE
+  airdropBonus?: number
+  airdropTooltip?: string
+}
+
+// Start of list types
+export interface BillsConfig extends BaseBondConfig {
+  cmcId?: number
+  inactive?: boolean
+  initTime?: Partial<Record<ChainId, number>>
+  showcaseToken?: Token
+  // * These are used for the individual bond page view
   fullDescription?: string
   featuredURLS?: string[]
   partnersURLS?: string[]
-  tags?: string[]
   vestingCliff?: number
-  onlyPartner?: boolean
   minTier?: LaunchBondTiers
-  feeInPayout?: number
-  warningCard?: string
   // * This is only used for the bond migration page
-  vestingTerm?: number
   multiplier?: number
 }
+
+export type AllBondsConfig = BillsConfig | PreTGEConfig
 
 export enum VaultVersion {
   V1 = 'V1',

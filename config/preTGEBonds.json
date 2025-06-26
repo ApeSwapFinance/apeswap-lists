@@ -1,16 +1,18 @@
 [
   {
+    "version": "2.1.2",
     "index": 1,
     "chainId": 1,
-    "refundable": false,
     "vestingTimeString": "10 Months",
     "tgeString": "June 2nd",
     "shortDescription": "AIRAS (Artificial Intelligence Real Assets System) is a comprehensive platform dedicated to leveraging AI and Blockchain for real world asset management, investment, and optimization. It powers autonomous applications across industries, enabling efficient, transparent, and scalable asset management. The AIRAS token fuels the ecosystem through transactions, governance, and incentives.",
     "tags": ["AI"],
-    "contractAddress": "0x6402BD234187a695352085518C835131494E5E35",
+    "contractAddress": {
+      "1": "0x6402BD234187a695352085518C835131494E5E35"
+    },
     "billVersion": "TieredSale",
     "billType": "fcfs",
-    "token": {
+    "lpToken": {
       "symbol": "USDC",
       "address": {
         "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
@@ -83,22 +85,23 @@
     },
     "redeemTime": 1748624400,
     "tgePrice": 0.0005,
-    "tokensDistributedAtRedeem": true,
     "twitter": "https://x.com/AirasNetwork",
     "projectLink": "https://www.airas.com/"
   },
   {
+    "version": "2.1.2",
     "index": 2,
     "chainId": 1,
-    "refundable": false,
     "vestingTimeString": "5 Months",
     "tgeString": "June 2nd",
     "shortDescription": "AIRAS (Artificial Intelligence Real Assets System) is a comprehensive platform dedicated to leveraging AI and Blockchain for real world asset management, investment, and optimization. It powers autonomous applications across industries, enabling efficient, transparent, and scalable asset management. The AIRAS token fuels the ecosystem through transactions, governance, and incentives.",
     "tags": ["AI"],
-    "contractAddress": "0xBFD8eA911959deefC5F369438c14eb304Fe6FD13",
+    "contractAddress": {
+      "1": "0xBFD8eA911959deefC5F369438c14eb304Fe6FD13"
+    },
     "billVersion": "TieredSale",
     "billType": "fcfs",
-    "token": {
+    "lpToken": {
       "symbol": "USDC",
       "address": {
         "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
@@ -169,10 +172,98 @@
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
-    "redeemTime": 1748624400,
+    "redeemTime": 1753963200,
     "tgePrice": 0.0005,
-    "tokensDistributedAtRedeem": true,
     "twitter": "https://x.com/AirasNetwork",
     "projectLink": "https://www.airas.com/"
+  },
+  {
+    "version": "2.1.2",
+    "index": 3,
+    "chainId": 1,
+    "vestingTimeString": "10 Months",
+    "tgeString": "July 30th",
+    "shortDescription": "Murloc Coin is a Solana-based memecoin born from the chaotic spirit of the Murlocs — iconic creatures from the depths of fantasy gaming lore. Led by the unpredictable Gluk’Krogg, the Murlocs have escaped their old world and launched a full-scale invasion of the blockchain. <span style=\"font-weight: 700\">This ERC-20 version of the token will be exchangeable 1:1 for the native equivalent on Solana closer to TGE.</span>",
+    "tags": ["Meme"],
+    "contractAddress": {
+      "1": "0x5dC6316Bfd0615b6C6573B3E06767A2feD5cCB89"
+    },
+    "billVersion": "TieredSale",
+    "billType": "fcfs",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+        "146": "0x29219dd400f2Bf60E5a23d13Be72B486D4038894",
+        "751": "0xD2ED81BE83B33218737Ca188EB9AC28b79C6A0F3",
+        "1890": "0x18fB38404DADeE1727Be4b805c5b242B5413Fa40",
+        "4158": "0x7bBcE15166bBc008EC1aDF9b3D6bbA0602FCE7Ba",
+        "8453": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+        "8822": "0xFbDa5F676cB37624f28265A144A48B0d6e87d3b6",
+        "10143": "0xf817257fed379853cDe0fa4F97AB987181B1E5Ea",
+        "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+        "59144": "0x176211869cA2b568f2A7D4EE941E073a821EE1ff",
+        "80094": "0x549943e04f40284185054145c6E4e9568C1D3241",
+        "747474": "0x203A662b0BD271A6ed5a60EdFbd04bFce608FD36"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "137": 6,
+        "146": 6,
+        "751": 18,
+        "1890": 6,
+        "4158": 6,
+        "8453": 6,
+        "8822": 6,
+        "10143": 6,
+        "42161": 6,
+        "59144": 6,
+        "80094": 6,
+        "747474": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV3",
+        "56": "PancakeSwapV2",
+        "137": "UniswapV3",
+        "146": "ShadowExchange",
+        "751": "Citea",
+        "1890": "Elektrik",
+        "4158": "XSwap",
+        "8453": "Aerodrome",
+        "8822": "MagicSea",
+        "10143": "PancakeSwapV2",
+        "42161": "UniswapV3",
+        "59144": "Nile",
+        "80094": "KodiakV3",
+        "747474": "External"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "MRLC",
+      "address": {
+        "1": "0x188b8e23CefFCA7a58e8C64C2a7A9771Ab3596A7"
+      },
+      "decimals": {
+        "1": 18
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "1": "0x499b654b0A7f9979CC315190C09cA2633809B8dF"
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ETH_Collection1"
+    },
+    "redeemTime": 1753894800,
+    "tgePrice": 0.01,
+    "twitter": "https://x.com/MurlocOfficial",
+    "projectLink": "https://murloc.gg/"
   }
 ]

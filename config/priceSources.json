@@ -91,6 +91,24 @@
       "tokenAddress": "0x5742fE477b2afed92c25D092418BaC06CD076ceA"
     }
   },
+  "146": {
+    "0x08C5e3B7533Ee819A4d1F66e839D0E8F04ae3D0C": {
+      "name": "",
+      "symbol": "",
+      "decimals": 18,
+      "source": "dexscreener",
+      "type": "pair",
+      "tokenAddress": "0x08C5e3B7533Ee819A4d1F66e839D0E8F04ae3D0C"
+    },
+    "0xb4444468e444f89e1c2CAc2F1D3ee7e336cBD1f5": {
+      "name": "Rezerve.money",
+      "symbol": "RZR",
+      "decimals": 18,
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "0xb4444468e444f89e1c2CAc2F1D3ee7e336cBD1f5"
+    }
+  },
   "614": {
     "0x0000000000000000000000000000000000000000": {
       "name": "Graphlinq",
@@ -143,6 +161,14 @@
       "source": "coingecko",
       "id": "veritas",
       "tokenAddress": "0x00096697DC24bd10423690126D91546A20Ccb3F0"
+    },
+    "0x672BB71A1A51e754FA2dd78629b05D371daC3184": {
+      "name": "GOO",
+      "symbol": "GOO",
+      "decimals": 18,
+      "source": "fixed",
+      "price": 0.0021,
+      "tokenAddress": "0x672BB71A1A51e754FA2dd78629b05D371daC3184"
     }
   },
   "10143": {
