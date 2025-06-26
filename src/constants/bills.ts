@@ -18,7 +18,12 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Monad Testnet Largest ID: 14011
 // Sonic Largest ID: 15004
 // Berachain Largest ID: 16003
+// Katana Largest ID: 17000
 const bills: BillsConfig[] = [
+  //
+  // Katana
+  //
+
   //
   // Berachain
   //
