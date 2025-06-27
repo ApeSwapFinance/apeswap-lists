@@ -2,12 +2,12 @@ import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, MigrationVestingTerms } from '../types'
 
 // BNB Largest ID: 1153
-// Polygon Largest ID: 183
+// Polygon Largest ID: 184
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2031
 // ETH Largest ID: 3046
 // Linea Largest ID: 6019
-// Base Largest ID: 8051
+// Base Largest ID: 8052
 // Lightlink Largest ID: 7003
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
@@ -804,6 +804,33 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
+  {
+    index: 8052,
+    cmcId: 18787,
+    version: '2.1.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0xE2d6ffa971c8F1fc2400Fa7467bce09D151e3091',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.eth,
+    earnToken: tokens.fula,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://fx.land/',
+    twitter: 'https://x.com/functionland',
+    initTime: { [ChainId.BASE]: 1751027538 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription: `Functionland is a Web3 project empowering users to truly own their data. It began with Fotos, a decentralized photo and video app, and expanded into building missing pieces of the Web3 stack. To support this, Functionland introduced $FULA—a chain-agnostic token that incentivizes storage and compute providers, ensuring data permanence and developer monetization.`,
+    fullDescription: `Functionland is a Web3-native project built on the foundational belief that individuals have an inalienable right to own their personal data. It began with the development of Fotos, a decentralized alternative to mainstream photo and video storage apps, designed to return ownership of media to users. However, in the process, the team discovered critical gaps in the Web3 infrastructure, particularly around decentralized storage, compute, and developer monetization. To address these challenges, Functionland introduced the $FULA token—a chain-agnostic utility token that powers its ecosystem. $FULA incentivizes individuals to contribute storage and computational resources, ensuring long-term access to data and enabling developers to build and monetize Web3 applications seamlessly.`,
+  },
   {
     index: 8051,
     cmcId: 35595,
