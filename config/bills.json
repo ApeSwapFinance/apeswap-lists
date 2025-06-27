@@ -4,17 +4,17 @@
     "version": "2.2.0",
     "chainId": 7565164,
     "contractAddress": {
-      "7565164": "Ash9zACaxnEHqbRJ2a7DqLq3dEHTHLCGPMrBPe5seeG1"
+      "7565164": "HX8p6EsDEW2ra9LUQvpUDrDmoHgUvgAbbZhR9Dp7aTaa"
     },
     "billType": "reserve",
     "billVersion": "V2",
     "lpToken": {
-      "symbol": "GNANA",
+      "symbol": "USDC",
       "address": {
-        "7565164": "9Go1k12GfUGyKSA4Hcw6svZ6E8T5Dkta8t3rmHF7xJNU"
+        "7565164": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
       },
       "decimals": {
-        "7565164": 9
+        "7565164": 6
       },
       "liquidityDex": {
         "7565164": "External"
@@ -22,12 +22,12 @@
       "active": true
     },
     "earnToken": {
-      "symbol": "BANANA",
+      "symbol": "HYPER",
       "address": {
-        "7565164": "6MkKT6ffNt6N22U2Q7yZaLC4QYrxGuFefwYrmd8XXsih"
+        "7565164": "Aq8Gocyvyyi8xk5EYxd6viUfVmVvs9T9R6mZFzZFpump"
       },
       "decimals": {
-        "7565164": 9
+        "7565164": 6
       },
       "liquidityDex": {
         "7565164": "External"
@@ -35,105 +35,7 @@
       "active": true
     },
     "billNnftAddress": {
-      "7565164": "9SLtfU3jxFdSwG2e3r1qx2sQQDM2aN3r7mSVYKN3PtuB"
-    },
-    "inactive": false,
-    "projectLink": "https://www.moonbay.space/",
-    "twitter": "https://x.com/MoonBaySonic",
-    "soldOut": false,
-    "billArt": {
-      "collection": "ApeBond_Collection1"
-    },
-    "fullDescription": "asdasdasdasd",
-    "shortDescription": "asdasdasdasd",
-    "tags": ["SOL"]
-  },
-  {
-    "index": 18002,
-    "version": "2.2.0",
-    "chainId": 7565164,
-    "contractAddress": {
-      "7565164": "BptDpzKUSSLJkAjLrtFAC6WVm5gXXZRWMBJR8qzDoC1g"
-    },
-    "billType": "reserve",
-    "billVersion": "V2",
-    "lpToken": {
-      "symbol": "GNANA",
-      "address": {
-        "7565164": "9Go1k12GfUGyKSA4Hcw6svZ6E8T5Dkta8t3rmHF7xJNU"
-      },
-      "decimals": {
-        "7565164": 9
-      },
-      "liquidityDex": {
-        "7565164": "External"
-      },
-      "active": true
-    },
-    "earnToken": {
-      "symbol": "BANANA",
-      "address": {
-        "7565164": "6MkKT6ffNt6N22U2Q7yZaLC4QYrxGuFefwYrmd8XXsih"
-      },
-      "decimals": {
-        "7565164": 9
-      },
-      "liquidityDex": {
-        "7565164": "External"
-      },
-      "active": true
-    },
-    "billNnftAddress": {
-      "7565164": "F3VFdy1WtEgHYpPU7EQQdWLUbtbnPwxCcbKfMBEkn1jM"
-    },
-    "inactive": false,
-    "projectLink": "https://www.moonbay.space/",
-    "twitter": "https://x.com/MoonBaySonic",
-    "soldOut": false,
-    "billArt": {
-      "collection": "ApeBond_Collection1"
-    },
-    "fullDescription": "asdasdasdasd",
-    "shortDescription": "asdasdasdasd",
-    "tags": ["SOL"]
-  },
-  {
-    "index": 18003,
-    "version": "2.2.0",
-    "chainId": 7565164,
-    "contractAddress": {
-      "7565164": "Ewuffppgifa5XkmFU61pRZBKaPSHtUZeaMfefvugQZJb"
-    },
-    "billType": "reserve",
-    "billVersion": "V2",
-    "lpToken": {
-      "symbol": "GNANA",
-      "address": {
-        "7565164": "9Go1k12GfUGyKSA4Hcw6svZ6E8T5Dkta8t3rmHF7xJNU"
-      },
-      "decimals": {
-        "7565164": 9
-      },
-      "liquidityDex": {
-        "7565164": "External"
-      },
-      "active": true
-    },
-    "earnToken": {
-      "symbol": "BANANA",
-      "address": {
-        "7565164": "6MkKT6ffNt6N22U2Q7yZaLC4QYrxGuFefwYrmd8XXsih"
-      },
-      "decimals": {
-        "7565164": 9
-      },
-      "liquidityDex": {
-        "7565164": "External"
-      },
-      "active": true
-    },
-    "billNnftAddress": {
-      "7565164": "DxcXfxETGP8dVdBkDgLUtB3HpUpmD5mQKzMa7qier6VB"
+      "7565164": "3iZxt8s11n9QZihnjBhAJGG9eRyZp8QNNjfHvYWdNENy"
     },
     "inactive": false,
     "projectLink": "https://www.moonbay.space/",

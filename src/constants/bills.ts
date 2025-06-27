@@ -34,64 +34,14 @@ const bills: BillsConfig[] = [
     version: '2.2.0',
     chainId: ChainId.SOL,
     contractAddress: {
-      [ChainId.SOL]: 'Ash9zACaxnEHqbRJ2a7DqLq3dEHTHLCGPMrBPe5seeG1', //aka bond issuance PDA
+      [ChainId.SOL]: 'HX8p6EsDEW2ra9LUQvpUDrDmoHgUvgAbbZhR9Dp7aTaa', //aka bond issuance PDA
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    lpToken: tokens.gnana,
-    earnToken: tokens.banana,
+    lpToken: tokens.usdc,
+    earnToken: tokens.hyper,
     billNnftAddress: {
-      [ChainId.SOL]: '9SLtfU3jxFdSwG2e3r1qx2sQQDM2aN3r7mSVYKN3PtuB', // aka collection
-    },
-    inactive: false,
-    projectLink: 'https://www.moonbay.space/',
-    twitter: 'https://x.com/MoonBaySonic',
-    soldOut: false,
-    billArt: {
-      collection: BillArtCollection.ApeBond_Collection1,
-    },
-    fullDescription: `asdasdasdasd`,
-    shortDescription: `asdasdasdasd`,
-    tags: ['SOL'],
-  },
-  {
-    index: 18002,
-    version: '2.2.0',
-    chainId: ChainId.SOL,
-    contractAddress: {
-      [ChainId.SOL]: 'BptDpzKUSSLJkAjLrtFAC6WVm5gXXZRWMBJR8qzDoC1g', //aka bond issuance PDA
-    },
-    billType: 'reserve',
-    billVersion: BillVersion.V2,
-    lpToken: tokens.gnana,
-    earnToken: tokens.banana,
-    billNnftAddress: {
-      [ChainId.SOL]: 'F3VFdy1WtEgHYpPU7EQQdWLUbtbnPwxCcbKfMBEkn1jM', // aka collection
-    },
-    inactive: false,
-    projectLink: 'https://www.moonbay.space/',
-    twitter: 'https://x.com/MoonBaySonic',
-    soldOut: false,
-    billArt: {
-      collection: BillArtCollection.ApeBond_Collection1,
-    },
-    fullDescription: `asdasdasdasd`,
-    shortDescription: `asdasdasdasd`,
-    tags: ['SOL'],
-  },
-  {
-    index: 18003,
-    version: '2.2.0',
-    chainId: ChainId.SOL,
-    contractAddress: {
-      [ChainId.SOL]: 'Ewuffppgifa5XkmFU61pRZBKaPSHtUZeaMfefvugQZJb', //aka bond issuance PDA
-    },
-    billType: 'reserve',
-    billVersion: BillVersion.V2,
-    lpToken: tokens.gnana,
-    earnToken: tokens.banana,
-    billNnftAddress: {
-      [ChainId.SOL]: 'DxcXfxETGP8dVdBkDgLUtB3HpUpmD5mQKzMa7qier6VB', // aka collection
+      [ChainId.SOL]: '3iZxt8s11n9QZihnjBhAJGG9eRyZp8QNNjfHvYWdNENy', // aka collection
     },
     inactive: false,
     projectLink: 'https://www.moonbay.space/',
