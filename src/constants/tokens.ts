@@ -20,6 +20,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  jup: {
+    symbol: 'JUP',
+    address: {
+      [ChainId.SOL]: 'JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN',
+    },
+    decimals: {
+      [ChainId.SOL]: 6,
+    },
+    liquidityDex: {
+      [ChainId.SOL]: LiquidityDex.External,
+    },
+    active: true,
+  },
   skorai: {
     symbol: 'SKORAI',
     address: {
@@ -1474,6 +1487,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MONAD_TESTNET]: '0xf817257fed379853cDe0fa4F97AB987181B1E5Ea',
       [ChainId.BERACHAIN]: '0x549943e04f40284185054145c6E4e9568C1D3241', // this is USDC.e
       [ChainId.KATANA]: '0x203A662b0BD271A6ed5a60EdFbd04bFce608FD36',
+      [ChainId.SOL]: 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -1491,6 +1505,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MONAD_TESTNET]: 6,
       [ChainId.BERACHAIN]: 6,
       [ChainId.KATANA]: 6,
+      [ChainId.SOL]: 6,
     },
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
@@ -1507,6 +1522,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MONAD_TESTNET]: LiquidityDex.PancakeSwapV2,
       [ChainId.BERACHAIN]: LiquidityDex.KodiakV3,
       [ChainId.KATANA]: LiquidityDex.External,
+      [ChainId.SOL]: LiquidityDex.External,
     },
     active: true,
   },

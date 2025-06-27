@@ -329,13 +329,28 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       tokenAddress: '8CLGcTogo6FoYkEQQBm3Vm2PVckYCiCm3XXhdsr4skoR',
     },
     Aq8Gocyvyyi8xk5EYxd6viUfVmVvs9T9R6mZFzZFpump: {
-      // for some reason, yarn build is removing quotes from this.
       name: 'Hyperpigmentation',
       symbol: 'HYPER',
       decimals: 6,
       source: PriceSource.Dexscreener,
       type: 'token',
       tokenAddress: 'Aq8Gocyvyyi8xk5EYxd6viUfVmVvs9T9R6mZFzZFpump',
+    },
+    JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN: {
+      name: 'Jupiter',
+      symbol: 'JUP',
+      decimals: 6,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: 'JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN',
+    },
+    EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v: {
+      name: 'USDC',
+      symbol: 'USDC',
+      decimals: 6,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v',
     },
   },
   [ChainId.BERACHAIN]: {

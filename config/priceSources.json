@@ -303,6 +303,22 @@
       "source": "dexscreener",
       "type": "token",
       "tokenAddress": "Aq8Gocyvyyi8xk5EYxd6viUfVmVvs9T9R6mZFzZFpump"
+    },
+    "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN": {
+      "name": "Jupiter",
+      "symbol": "JUP",
+      "decimals": 6,
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN"
+    },
+    "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+      "name": "USDC",
+      "symbol": "USDC",
+      "decimals": 6,
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
     }
   }
 }
