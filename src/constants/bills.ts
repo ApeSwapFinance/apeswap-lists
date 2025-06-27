@@ -162,7 +162,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://rezerve.money/',
     twitter: 'https://x.com/rezervemoney',
     initTime: { [ChainId.SONIC]: 1750406876 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
