@@ -20,6 +20,45 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  rkey: {
+    symbol: 'RKEY',
+    address: {
+      [ChainId.SOL]: 'F4YXmo8CDLRvWGnXyxVZ62wwc7oWcBam7tu4G5kGSaKZ',
+    },
+    decimals: {
+      [ChainId.SOL]: 6,
+    },
+    liquidityDex: {
+      [ChainId.SOL]: LiquidityDex.External,
+    },
+    active: true,
+  },
+  gohome: {
+    symbol: 'GOHOME',
+    address: {
+      [ChainId.SOL]: '2Wu1g2ft7qZHfTpfzP3wLdfPeV1is4EwQ3CXBfRYAciD',
+    },
+    decimals: {
+      [ChainId.SOL]: 6,
+    },
+    liquidityDex: {
+      [ChainId.SOL]: LiquidityDex.External,
+    },
+    active: true,
+  },
+  stb: {
+    symbol: 'STB',
+    address: {
+      [ChainId.SOL]: 'STBuyENwJ1GP4yNZCjwavn92wYLEY3t5S1kVS5kwyS1',
+    },
+    decimals: {
+      [ChainId.SOL]: 9,
+    },
+    liquidityDex: {
+      [ChainId.SOL]: LiquidityDex.External,
+    },
+    active: true,
+  },
   jup: {
     symbol: 'JUP',
     address: {
