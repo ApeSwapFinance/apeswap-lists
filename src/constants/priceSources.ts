@@ -352,6 +352,30 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       type: 'token',
       tokenAddress: 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v',
     },
+    STBuyENwJ1GP4yNZCjwavn92wYLEY3t5S1kVS5kwyS1: {
+      name: 'stabble',
+      symbol: 'STB',
+      decimals: 9,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: 'STBuyENwJ1GP4yNZCjwavn92wYLEY3t5S1kVS5kwyS1',
+    },
+    '2Wu1g2ft7qZHfTpfzP3wLdfPeV1is4EwQ3CXBfRYAciD': {
+      name: 'GOHOME',
+      symbol: 'GOHOME',
+      decimals: 6,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '2Wu1g2ft7qZHfTpfzP3wLdfPeV1is4EwQ3CXBfRYAciD',
+    },
+    F4YXmo8CDLRvWGnXyxVZ62wwc7oWcBam7tu4G5kGSaKZ: {
+      name: 'RKEY',
+      symbol: 'RKEY',
+      decimals: 6,
+      source: PriceSource.Coingecko,
+      id: 'rkey',
+      tokenAddress: 'F4YXmo8CDLRvWGnXyxVZ62wwc7oWcBam7tu4G5kGSaKZ',
+    },
   },
   [ChainId.BERACHAIN]: {
     '0x28e0e3B9817012b356119dF9e217c25932D609c2': {
