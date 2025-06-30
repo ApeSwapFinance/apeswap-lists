@@ -1527,6 +1527,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BERACHAIN]: '0x549943e04f40284185054145c6E4e9568C1D3241', // this is USDC.e
       [ChainId.KATANA]: '0x203A662b0BD271A6ed5a60EdFbd04bFce608FD36',
       [ChainId.SOL]: 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v',
+      [ChainId.UNICHAIN]: '0x078D782b760474a361dDA0AF3839290b0EF57AD6',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -1545,6 +1546,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BERACHAIN]: 6,
       [ChainId.KATANA]: 6,
       [ChainId.SOL]: 6,
+      [ChainId.UNICHAIN]: 6,
     },
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
@@ -1562,6 +1564,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BERACHAIN]: LiquidityDex.KodiakV3,
       [ChainId.KATANA]: LiquidityDex.External,
       [ChainId.SOL]: LiquidityDex.External,
+      [ChainId.UNICHAIN]: LiquidityDex.External,
     },
     active: true,
   },
@@ -2598,6 +2601,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: '0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2',
       [ChainId.SONIC]: '0x6047828dc181963ba44974801FF68e538dA5eaF9',
       [ChainId.KATANA]: '0x2DCa96907fde857dd3D816880A0df407eeB2D2F2',
+      [ChainId.UNICHAIN]: '0x9151434b16b9763660705744891fA906F660EcC5',
     },
     decimals: {
       [ChainId.MAINNET]: 6,
@@ -2613,6 +2617,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: 6,
       [ChainId.SONIC]: 6,
       [ChainId.KATANA]: 6,
+      [ChainId.UNICHAIN]: 6,
     },
     liquidityDex: {
       [ChainId.MAINNET]: LiquidityDex.UniswapV2,
@@ -2626,6 +2631,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.UniswapV3,
       [ChainId.SONIC]: LiquidityDex.ShadowExchange,
       [ChainId.KATANA]: LiquidityDex.External,
+      [ChainId.UNICHAIN]: LiquidityDex.External,
     },
     active: true,
   },
