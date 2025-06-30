@@ -4209,6 +4209,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  ma: {
+    symbol: 'MA',
+    address: {
+      [ChainId.BSC]: '0xb5Ab5cF2e2c686aE43F01F23859F3a55a8629C1C',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
   cakebot: {
     symbol: 'CAKEBOT',
     address: {
