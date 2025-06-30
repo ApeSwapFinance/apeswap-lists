@@ -405,6 +405,32 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       tokenAddress: '0xb4444468e444f89e1c2CAc2F1D3ee7e336cBD1f5',
     },
   },
+  [ChainId.UNICHAIN]: {
+    '0x4200000000000000000000000000000000000006': {
+      name: 'Wrapped Ether',
+      symbol: 'WETH',
+      decimals: 18,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '0x4200000000000000000000000000000000000006',
+    },
+    '0x078D782b760474a361dDA0AF3839290b0EF57AD6': {
+      name: 'USDC',
+      symbol: 'USDC',
+      decimals: 6,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '0x078D782b760474a361dDA0AF3839290b0EF57AD6',
+    },
+    '0x9151434b16b9763660705744891fA906F660EcC5': {
+      name: 'USD₮0',
+      symbol: 'USD₮0',
+      decimals: 6,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '0x9151434b16b9763660705744891fA906F660EcC5',
+    },
+  },
 }
 
 export default priceSources

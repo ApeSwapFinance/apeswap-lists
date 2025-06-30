@@ -57,6 +57,32 @@
       "tokenAddress": "0xec9742f992ACc615C4252060D896c845ca8fC086"
     }
   },
+  "130": {
+    "0x4200000000000000000000000000000000000006": {
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18,
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "0x4200000000000000000000000000000000000006"
+    },
+    "0x078D782b760474a361dDA0AF3839290b0EF57AD6": {
+      "name": "USDC",
+      "symbol": "USDC",
+      "decimals": 6,
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "0x078D782b760474a361dDA0AF3839290b0EF57AD6"
+    },
+    "0x9151434b16b9763660705744891fA906F660EcC5": {
+      "name": "USD₮0",
+      "symbol": "USD₮0",
+      "decimals": 6,
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "0x9151434b16b9763660705744891fA906F660EcC5"
+    }
+  },
   "137": {
     "0x61bf130d973d59c69d3227f1668d534d83119860": {
       "name": "Trakx Token",
