@@ -1,7 +1,7 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1154
+// BNB Largest ID: 1155
 // Polygon Largest ID: 184
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2031
@@ -2922,6 +2922,35 @@ const bills: BillsConfig[] = [
   // BNB chain
   //
   {
+    index: 1155,
+    cmcId: 35614,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x28c50CEE0678794C60775f7BAeE89D4bCEEebf4a',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.ma,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://mindaiproject.com/',
+    twitter: 'https://x.com/MindAI_io',
+    initTime: { [ChainId.BSC]: 1751276087 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    fullDescription:
+      "Mind AI is the first all-in-one platform with a private Data Layer of market intelligence, purpose-built to transform how crypto investors make decisions. Leveraging intelligent AI agents, Mind AI turns raw social media data from platforms like X, Telegram, and Reddit into actionable trading insights. Its proprietary Data Layer filters out noise, uncovers key trends, and delivers reliable, data-driven signals that empower traders with clarity and confidence. The platform's mission is to cut through hype, echo chambers, and misinformation to provide real financial value through transparent analysis. Access to Mind AI’s powerful features is gated by the $MA token, which unlocks analytics, staking rewards, and exclusive insights—offering increased benefits to users who stake at higher tiers.",
+    shortDescription:
+      'Mind AI is the first all-in-one platform with a private Data Layer that transforms social media data from X, Telegram, and Reddit into actionable crypto trading insights. Powered by AI agents, it filters noise, detects trends, and delivers clear, data-driven signals. Access to analytics, rewards, and premium features is unlocked through the $MA token.',
+    tags: ['AI'],
+  },
+  {
     index: 1154,
     cmcId: 29157,
     version: '2.1.0',
@@ -2979,7 +3008,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.BSC]: 1749203885 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },

@@ -5617,6 +5617,59 @@
     "shortDescription": "Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!"
   },
   {
+    "index": 1155,
+    "cmcId": 35614,
+    "version": "2.1.0",
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0x28c50CEE0678794C60775f7BAeE89D4bCEEebf4a"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "56": "0x55d398326f99059fF775485246999027B3197955"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "MA",
+      "address": {
+        "56": "0xb5Ab5cF2e2c686aE43F01F23859F3a55a8629C1C"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "inactive": false,
+    "projectLink": "https://mindaiproject.com/",
+    "twitter": "https://x.com/MindAI_io",
+    "initTime": {
+      "56": 1751276087
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "fullDescription": "Mind AI is the first all-in-one platform with a private Data Layer of market intelligence, purpose-built to transform how crypto investors make decisions. Leveraging intelligent AI agents, Mind AI turns raw social media data from platforms like X, Telegram, and Reddit into actionable trading insights. Its proprietary Data Layer filters out noise, uncovers key trends, and delivers reliable, data-driven signals that empower traders with clarity and confidence. The platform's mission is to cut through hype, echo chambers, and misinformation to provide real financial value through transparent analysis. Access to Mind AI’s powerful features is gated by the $MA token, which unlocks analytics, staking rewards, and exclusive insights—offering increased benefits to users who stake at higher tiers.",
+    "shortDescription": "Mind AI is the first all-in-one platform with a private Data Layer that transforms social media data from X, Telegram, and Reddit into actionable crypto trading insights. Powered by AI agents, it filters noise, detects trends, and delivers clear, data-driven signals. Access to analytics, rewards, and premium features is unlocked through the $MA token.",
+    "tags": ["AI"]
+  },
+  {
     "index": 1154,
     "cmcId": 29157,
     "version": "2.1.0",
@@ -5724,7 +5777,7 @@
     "initTime": {
       "56": 1749203885
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
