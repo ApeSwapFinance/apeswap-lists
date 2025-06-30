@@ -4,7 +4,7 @@
     "version": "2.2.0",
     "chainId": 7565164,
     "contractAddress": {
-      "7565164": "HX8p6EsDEW2ra9LUQvpUDrDmoHgUvgAbbZhR9Dp7aTaa"
+      "7565164": "Ash9zACaxnEHqbRJ2a7DqLq3dEHTHLCGPMrBPe5seeG1"
     },
     "billType": "reserve",
     "billVersion": "V2",
@@ -35,7 +35,7 @@
       "active": true
     },
     "billNnftAddress": {
-      "7565164": "3iZxt8s11n9QZihnjBhAJGG9eRyZp8QNNjfHvYWdNENy"
+      "7565164": "9SLtfU3jxFdSwG2e3r1qx2sQQDM2aN3r7mSVYKN3PtuB"
     },
     "inactive": false,
     "projectLink": "https://www.moonbay.space/",
