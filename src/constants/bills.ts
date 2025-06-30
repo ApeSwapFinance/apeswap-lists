@@ -19,7 +19,36 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Sonic Largest ID: 15004
 // Berachain Largest ID: 16003
 // Katana Largest ID: 17000
+// Unichain Largest ID: 18000
 const bills: BillsConfig[] = [
+  //
+  // Unichain
+  //
+  {
+    index: 18000,
+    version: '2.1.0',
+    chainId: ChainId.UNICHAIN,
+    contractAddress: {
+      [ChainId.UNICHAIN]: '0xB6192ebEaC01ADe085e367562016F3bd12D0B284',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.eth,
+    billNnftAddress: {
+      [ChainId.UNICHAIN]: '0x1b7858f745211dBa1387fE30124eBCa2D706D7Dd',
+    },
+    inactive: false,
+    initTime: { [ChainId.UNICHAIN]: 1751309263 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Blockchains'],
+    shortDescription: 'lorem ipsum dolor sit amet',
+    fullDescription: 'lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.',
+  },
+
   //
   // Katana
   //
