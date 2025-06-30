@@ -38,8 +38,8 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
-    lpToken: tokens.usdc,
-    earnToken: tokens.hyper,
+    lpToken: tokens.gnana,
+    earnToken: tokens.banana,
     billNnftAddress: {
       [ChainId.SOL]: '9SLtfU3jxFdSwG2e3r1qx2sQQDM2aN3r7mSVYKN3PtuB', // aka collection
     },

@@ -9,12 +9,12 @@
     "billType": "reserve",
     "billVersion": "V2",
     "lpToken": {
-      "symbol": "USDC",
+      "symbol": "GNANA",
       "address": {
-        "7565164": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+        "7565164": "9Go1k12GfUGyKSA4Hcw6svZ6E8T5Dkta8t3rmHF7xJNU"
       },
       "decimals": {
-        "7565164": 6
+        "7565164": 9
       },
       "liquidityDex": {
         "7565164": "External"
@@ -22,12 +22,12 @@
       "active": true
     },
     "earnToken": {
-      "symbol": "HYPER",
+      "symbol": "BANANA",
       "address": {
-        "7565164": "Aq8Gocyvyyi8xk5EYxd6viUfVmVvs9T9R6mZFzZFpump"
+        "7565164": "6MkKT6ffNt6N22U2Q7yZaLC4QYrxGuFefwYrmd8XXsih"
       },
       "decimals": {
-        "7565164": 6
+        "7565164": 9
       },
       "liquidityDex": {
         "7565164": "External"
