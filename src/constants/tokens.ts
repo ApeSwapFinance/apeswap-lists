@@ -4380,6 +4380,9 @@ const tokens: Record<string, Token> = {
       [ChainId.MAINNET]: '0x0624069497F830BEa84bd7Ad410b878270130035',
     },
     decimals: { [ChainId.MAINNET]: 18 },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.External,
+    },
     active: true,
   },
   fric: {

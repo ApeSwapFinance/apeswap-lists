@@ -1,4 +1,14 @@
 {
+  "1": {
+    "0x0624069497F830BEa84bd7Ad410b878270130035": {
+      "name": "Airas",
+      "symbol": "AIRAS",
+      "decimals": 18,
+      "source": "fixed",
+      "price": 0.0005,
+      "tokenAddress": "0x0624069497F830BEa84bd7Ad410b878270130035"
+    }
+  },
   "56": {
     "0xf03Ca04Dd56D695a410f46F14feF4028B22FB79A": {
       "name": "NFE",

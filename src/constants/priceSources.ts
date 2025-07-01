@@ -439,6 +439,16 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       tokenAddress: '0x926DC7b96bb2F4A91C2A67e291Faf482691a3001',
     },
   },
+  [ChainId.MAINNET]: {
+    '0x0624069497F830BEa84bd7Ad410b878270130035': {
+      name: 'Airas',
+      symbol: 'AIRAS',
+      decimals: 18,
+      source: PriceSource.Fixed,
+      price: 0.0005,
+      tokenAddress: '0x0624069497F830BEa84bd7Ad410b878270130035',
+    },
+  },
 }
 
 export default priceSources
