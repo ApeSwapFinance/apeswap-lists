@@ -5127,6 +5127,20 @@ const tokens: Record<string, Token> = {
     },
   },
 
+  unicorn: {
+    symbol: 'UNICORN',
+    address: {
+      [ChainId.UNICHAIN]: '0x926DC7b96bb2F4A91C2A67e291Faf482691a3001',
+    },
+    decimals: {
+      [ChainId.UNICHAIN]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.UNICHAIN]: LiquidityDex.External,
+    },
+  },
+
   //***** LIGHTLINK TOKENS  *****/
   ll: {
     symbol: 'LL',
