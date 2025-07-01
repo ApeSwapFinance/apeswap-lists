@@ -4380,6 +4380,9 @@ const tokens: Record<string, Token> = {
       [ChainId.MAINNET]: '0x0624069497F830BEa84bd7Ad410b878270130035',
     },
     decimals: { [ChainId.MAINNET]: 18 },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.External,
+    },
     active: true,
   },
   fric: {
@@ -5124,6 +5127,20 @@ const tokens: Record<string, Token> = {
     active: true,
     liquidityDex: {
       [ChainId.INEVM]: LiquidityDex.External,
+    },
+  },
+
+  unicorn: {
+    symbol: 'UNICORN',
+    address: {
+      [ChainId.UNICHAIN]: '0x926DC7b96bb2F4A91C2A67e291Faf482691a3001',
+    },
+    decimals: {
+      [ChainId.UNICHAIN]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.UNICHAIN]: LiquidityDex.External,
     },
   },
 

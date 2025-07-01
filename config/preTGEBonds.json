@@ -80,6 +80,9 @@
       "decimals": {
         "1": 18
       },
+      "liquidityDex": {
+        "1": "External"
+      },
       "active": true
     },
     "billNnftAddress": {
@@ -174,6 +177,9 @@
       },
       "decimals": {
         "1": 18
+      },
+      "liquidityDex": {
+        "1": "External"
       },
       "active": true
     },
