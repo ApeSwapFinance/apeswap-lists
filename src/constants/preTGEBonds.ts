@@ -73,6 +73,29 @@ const preTGEBonds: PreTGEConfig[] = [
     twitter: 'https://x.com/MurlocOfficial',
     projectLink: 'https://murloc.gg/',
   },
+  {
+    version: '2.1.2',
+    index: 4,
+    chainId: ChainId.UNICHAIN,
+    vestingTimeString: '10 Months',
+    tgeString: 'July 30th',
+    shortDescription: `Murloc Coin is a Solana-based memecoin born from the chaotic spirit of the Murlocs — iconic creatures from the depths of fantasy gaming lore. Led by the unpredictable Gluk’Krogg, the Murlocs have escaped their old world and launched a full-scale invasion of the blockchain. <span style="font-weight: 700">This ERC-20 version of the token will be exchangeable 1:1 for the native equivalent on Solana closer to TGE.</span>`,
+    tags: ['Meme'],
+    contractAddress: { [ChainId.UNICHAIN]: '0x2eb5050D73e544F435d080DB8C7fb5A7b5fCa1c9' },
+    billVersion: BillVersion.TieredSale,
+    billType: 'fcfs',
+    lpToken: tokens.usdc,
+    earnToken: tokens.unicorn,
+    billNnftAddress: {
+      [ChainId.UNICHAIN]: '0x1b7858f745211dBa1387fE30124eBCa2D706D7Dd',
+    },
+    soldOut: false,
+    billArt: { collection: BillArtCollection.ETH_Collection1 },
+    redeemTime: 1751411700,
+    tgePrice: 0.01,
+    twitter: 'https://x.com/MurlocOfficial',
+    projectLink: 'https://murloc.gg/',
+  },
 ]
 
 export default preTGEBonds
