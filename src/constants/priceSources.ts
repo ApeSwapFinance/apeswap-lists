@@ -430,6 +430,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       type: 'token',
       tokenAddress: '0x9151434b16b9763660705744891fA906F660EcC5',
     },
+    '0x926DC7b96bb2F4A91C2A67e291Faf482691a3001': {
+      name: 'UNICORN',
+      symbol: 'UNICORN',
+      decimals: 18,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '0x926DC7b96bb2F4A91C2A67e291Faf482691a3001',
+    },
   },
 }
 
