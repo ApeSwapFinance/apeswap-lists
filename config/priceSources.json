@@ -1,4 +1,14 @@
 {
+  "1": {
+    "0x0624069497F830BEa84bd7Ad410b878270130035": {
+      "name": "Airas",
+      "symbol": "AIRAS",
+      "decimals": 18,
+      "source": "fixed",
+      "price": 0.0005,
+      "tokenAddress": "0x0624069497F830BEa84bd7Ad410b878270130035"
+    }
+  },
   "56": {
     "0xf03Ca04Dd56D695a410f46F14feF4028B22FB79A": {
       "name": "NFE",
@@ -55,6 +65,40 @@
       "source": "coingecko",
       "id": "brics-chain",
       "tokenAddress": "0xec9742f992ACc615C4252060D896c845ca8fC086"
+    }
+  },
+  "130": {
+    "0x4200000000000000000000000000000000000006": {
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18,
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "0x4200000000000000000000000000000000000006"
+    },
+    "0x078D782b760474a361dDA0AF3839290b0EF57AD6": {
+      "name": "USDC",
+      "symbol": "USDC",
+      "decimals": 6,
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "0x078D782b760474a361dDA0AF3839290b0EF57AD6"
+    },
+    "0x9151434b16b9763660705744891fA906F660EcC5": {
+      "name": "USD₮0",
+      "symbol": "USD₮0",
+      "decimals": 6,
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "0x9151434b16b9763660705744891fA906F660EcC5"
+    },
+    "0x926DC7b96bb2F4A91C2A67e291Faf482691a3001": {
+      "name": "UNICORN",
+      "symbol": "UNICORN",
+      "decimals": 18,
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "0x926DC7b96bb2F4A91C2A67e291Faf482691a3001"
     }
   },
   "137": {
@@ -319,6 +363,30 @@
       "source": "dexscreener",
       "type": "token",
       "tokenAddress": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+    },
+    "STBuyENwJ1GP4yNZCjwavn92wYLEY3t5S1kVS5kwyS1": {
+      "name": "stabble",
+      "symbol": "STB",
+      "decimals": 9,
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "STBuyENwJ1GP4yNZCjwavn92wYLEY3t5S1kVS5kwyS1"
+    },
+    "2Wu1g2ft7qZHfTpfzP3wLdfPeV1is4EwQ3CXBfRYAciD": {
+      "name": "GOHOME",
+      "symbol": "GOHOME",
+      "decimals": 6,
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "2Wu1g2ft7qZHfTpfzP3wLdfPeV1is4EwQ3CXBfRYAciD"
+    },
+    "F4YXmo8CDLRvWGnXyxVZ62wwc7oWcBam7tu4G5kGSaKZ": {
+      "name": "RKEY",
+      "symbol": "RKEY",
+      "decimals": 6,
+      "source": "coingecko",
+      "id": "rkey",
+      "tokenAddress": "F4YXmo8CDLRvWGnXyxVZ62wwc7oWcBam7tu4G5kGSaKZ"
     }
   }
 }

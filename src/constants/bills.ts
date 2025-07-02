@@ -1,7 +1,7 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1153
+// BNB Largest ID: 1155
 // Polygon Largest ID: 184
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2031
@@ -251,7 +251,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.moonbay.space/',
     twitter: 'https://x.com/MoonBaySonic',
     initTime: { [ChainId.SONIC]: 1745316614 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -962,7 +962,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://ethermail.io/',
     twitter: 'https://x.com/ethermail_io',
     initTime: { [ChainId.BASE]: 1746014706 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -2952,6 +2952,73 @@ const bills: BillsConfig[] = [
   // BNB chain
   //
   {
+    index: 1155,
+    cmcId: 35614,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x28c50CEE0678794C60775f7BAeE89D4bCEEebf4a',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.ma,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://mindaiproject.com/',
+    twitter: 'https://x.com/MindAI_io',
+    initTime: { [ChainId.BSC]: 1751276087 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    fullDescription:
+      "Mind AI is the first all-in-one platform with a private Data Layer of market intelligence, purpose-built to transform how crypto investors make decisions. Leveraging intelligent AI agents, Mind AI turns raw social media data from platforms like X, Telegram, and Reddit into actionable trading insights. Its proprietary Data Layer filters out noise, uncovers key trends, and delivers reliable, data-driven signals that empower traders with clarity and confidence. The platform's mission is to cut through hype, echo chambers, and misinformation to provide real financial value through transparent analysis. Access to Mind AI’s powerful features is gated by the $MA token, which unlocks analytics, staking rewards, and exclusive insights—offering increased benefits to users who stake at higher tiers.",
+    shortDescription:
+      'Mind AI is the first all-in-one platform with a private Data Layer that transforms social media data from X, Telegram, and Reddit into actionable crypto trading insights. Powered by AI agents, it filters noise, detects trends, and delivers clear, data-driven signals. Access to analytics, rewards, and premium features is unlocked through the $MA token.',
+    tags: ['AI'],
+  },
+  {
+    index: 1154,
+    cmcId: 29157,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x4d4503bB84c7292084C0D393f77BC4642439cf43',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.abond,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://ape.bond/',
+    twitter: 'https://twitter.com/apebond',
+    audit: 'https://paladinsec.co/projects/apebond/',
+    initTime: { [ChainId.BSC]: 1751044196 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    shortDescription:
+      'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
+    fullDescription:
+      'ApeBond is building a sustainable DeFi future through its innovative Bonds products and strategic partnerships. Known for its Crowdsource OTC solution and treasury diversification expertise, ApeBond has launched Bonds with over 140 partners, sold 38,000+ Bonds for a total of $14,000,000 USD, and achieved a top 10 Dapp status by daily active users (DAU) according to CoinMarketCap. The ABOND token ties users with the platform by unlocking special Bonds, new earning opportunities, and more utilities coming up in the pipeline.',
+    tags: ['Bonding'],
+    partnersURLS: [
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/Seedify_fbt392.svg',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613244/ORBS_anzm60.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/quickLogo_2_1_g95ynz.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/aitech_logo_100_real_no_fake_bjskiq.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
+    ],
+  },
+  {
     index: 1153,
     cmcId: 29157,
     version: '2.1.0',
@@ -2971,7 +3038,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.BSC]: 1749203885 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -9831,7 +9898,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.MATIC]: 1750871326 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -10058,7 +10125,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://x.com/MedievalEmpires',
     audit: 'https://www.medievalempires.com/static/audit_report-89967b1290db095d7275ce21e8aa5d44.pdf',
     initTime: { [ChainId.MATIC]: 1742922000 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
