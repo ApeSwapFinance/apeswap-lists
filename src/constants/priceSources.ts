@@ -376,6 +376,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       id: 'rkey',
       tokenAddress: 'F4YXmo8CDLRvWGnXyxVZ62wwc7oWcBam7tu4G5kGSaKZ',
     },
+    '5YSjRtJJTZpQ44YF6qDpyygPCrJ61q5eNJRJRZMvKjZD': {
+      name: 'ORCA',
+      symbol: 'ORCAI',
+      decimals: 6,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '5YSjRtJJTZpQ44YF6qDpyygPCrJ61q5eNJRJRZMvKjZD',
+    },
   },
   [ChainId.BERACHAIN]: {
     '0x28e0e3B9817012b356119dF9e217c25932D609c2': {

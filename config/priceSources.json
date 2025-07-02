@@ -387,6 +387,14 @@
       "source": "coingecko",
       "id": "rkey",
       "tokenAddress": "F4YXmo8CDLRvWGnXyxVZ62wwc7oWcBam7tu4G5kGSaKZ"
+    },
+    "5YSjRtJJTZpQ44YF6qDpyygPCrJ61q5eNJRJRZMvKjZD": {
+      "name": "ORCA",
+      "symbol": "ORCAI",
+      "decimals": 6,
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "5YSjRtJJTZpQ44YF6qDpyygPCrJ61q5eNJRJRZMvKjZD"
     }
   }
 }

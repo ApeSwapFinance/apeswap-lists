@@ -25,6 +25,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  orcai: {
+    symbol: 'ORCAI',
+    address: {
+      [ChainId.SOL]: '5YSjRtJJTZpQ44YF6qDpyygPCrJ61q5eNJRJRZMvKjZD',
+    },
+    decimals: {
+      [ChainId.SOL]: 6,
+    },
+    liquidityDex: {
+      [ChainId.SOL]: LiquidityDex.External,
+    },
+    active: true,
+  },
   rkey: {
     symbol: 'RKEY',
     address: {

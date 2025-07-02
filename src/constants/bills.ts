@@ -54,6 +54,110 @@ const bills: BillsConfig[] = [
     shortDescription: `asdasdasdasd`,
     tags: ['SOL'],
   },
+  {
+    // treasury ATA: 8qQzVCMryLGn6ZKjwfDd6xX9Ty1JDpuKzwo7xmZ11AYa // funded with 4 SKORAI tokens
+    index: 18002,
+    version: '2.2.0',
+    chainId: ChainId.SOL,
+    contractAddress: {
+      [ChainId.SOL]: 'GrtpjUFf9zxGnsW7agTkWpKgwkAr8pf8FoetPj6KMuoP', //aka bond issuance PDA
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.skorai,
+    billNnftAddress: {
+      [ChainId.SOL]: '4racaPqHZR5g7K8R1monJAF3XjwJ7L2KLmhgvW4aaN5S', // aka collection
+    },
+    inactive: false,
+    projectLink: 'https://www.moonbay.space/',
+    twitter: 'https://x.com/MoonBaySonic',
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    fullDescription: `asdasdasdasd`,
+    shortDescription: `asdasdasdasd`,
+    tags: ['SOL'],
+  },
+  {
+    // treasury ATA: ab55iHmpSCV3N3rNm87YhMwZFy4GVp5n7ca7oFyxme5 // funded with 800 KREY tokens
+    index: 18003,
+    version: '2.2.0',
+    chainId: ChainId.SOL,
+    contractAddress: {
+      [ChainId.SOL]: '3ZfLwvRPs3cVQ4dEigi91zfqF3Bkekwd3xi78kkJHtbx', //aka bond issuance PDA
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.rkey,
+    billNnftAddress: {
+      [ChainId.SOL]: 'EzALCz7tZRArMPKxBZAdoh1u6MdvBBmFD1h6peNEQPCk', // aka collection
+    },
+    inactive: false,
+    projectLink: 'https://www.moonbay.space/',
+    twitter: 'https://x.com/MoonBaySonic',
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    fullDescription: `asdasdasdasd`,
+    shortDescription: `asdasdasdasd`,
+    tags: ['SOL'],
+  },
+  {
+    // treasury ATA: 23FBY4EQMCXHECidLTqHAtuP7yXDqnKS3KvCMKpRGpGc // funded with 7 STB tokens
+    index: 18004,
+    version: '2.2.0',
+    chainId: ChainId.SOL,
+    contractAddress: {
+      [ChainId.SOL]: 'Aemqw2j9asJ64EMfnSFM5J9Nox67Jvy4frGY4SBNj6ey', //aka bond issuance PDA
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.stb,
+    billNnftAddress: {
+      [ChainId.SOL]: '4T3y8pkuA7F7hx1suvCapRNXxqcgTqYhrkXhr1yHTvB3', // aka collection
+    },
+    inactive: false,
+    projectLink: 'https://www.moonbay.space/',
+    twitter: 'https://x.com/MoonBaySonic',
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    fullDescription: `asdasdasdasd`,
+    shortDescription: `asdasdasdasd`,
+    tags: ['SOL'],
+  },
+  {
+    // treasury ATA: 79Sj72NWbPKQ9au4TsJZ7DaRu5FpuieGoUUN1nTc8tnM // funded with 85 ORCAI tokens
+    index: 18005,
+    version: '2.2.0',
+    chainId: ChainId.SOL,
+    contractAddress: {
+      [ChainId.SOL]: 'rqewVmZqsEjChgHo8ASKD6TyWVfGATKDzsUyj3ANHAv', //aka bond issuance PDA
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.orcai,
+    billNnftAddress: {
+      [ChainId.SOL]: 'JAvquGdJQ4Rt7zwBtMbjLwdKgLbmTFLhPC88t9gR8aTY', // aka collection
+    },
+    inactive: false,
+    projectLink: 'https://www.moonbay.space/',
+    twitter: 'https://x.com/MoonBaySonic',
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    fullDescription: `asdasdasdasd`,
+    shortDescription: `asdasdasdasd`,
+    tags: ['SOL'],
+  },
   //
   // Berachain
   //
