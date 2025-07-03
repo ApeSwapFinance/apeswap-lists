@@ -17,7 +17,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Crossfi Largest ID: 13000
 // Monad Testnet Largest ID: 14011
 // Sonic Largest ID: 15004
-// Berachain Largest ID: 16003
+// Berachain Largest ID: 16004
 // Katana Largest ID: 17000
 const bills: BillsConfig[] = [
   //
@@ -140,7 +140,35 @@ const bills: BillsConfig[] = [
     fullDescription:
       'Plutus is a governance aggregator, built to optimize user liquidity and rewards while consolidating protocol governance through the PLUTUS token. Instead of traditional veTokens, users interact with plsASSETs to stay liquid, earn rewards, and actively participate in governance. The platform has partnered with key Arbitrum protocols like Camelot, Stryke, Radiant, GMX, Sperax, and Jones to deliver governance-enhanced products. Plutus offers two core product types: plsASSETs, which streamline governance and liquidity efficiency, and plvASSETs, vaults aimed at maximizing rewards and composability. The PLUTUS token ($PLUTUS), a LayerZero OFT live on Arbitrum and Berachain, underpins the ecosystem, while $xPLUTUS, its escrowed yield-bearing variant, serves as the DAO’s primary voting and value-accrual mechanism. For full benefits, holders must lock PLUTUS as bPLS for 16 weeks.',
   },
-
+  {
+    index: 16004,
+    version: '2.1.0',
+    chainId: ChainId.BERACHAIN,
+    contractAddress: {
+      [ChainId.BERACHAIN]: '0x5195Ec04dd5658A0a68175fA2835f587d99a0109',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.burr,
+    billNnftAddress: {
+      [ChainId.BERACHAIN]: '0x1b7858f745211dBa1387fE30124eBCa2D706D7Dd',
+    },
+    inactive: false,
+    projectLink: 'https://www.burrbear.io/',
+    twitter: 'https://x.com/moneygoesburr',
+    audit: 'https://docs.burrbear.io/contract-audits/audits',
+    initTime: { [ChainId.BERACHAIN]: 1751550661 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Berachain_Collection1,
+    },
+    tags: ['DEX'],
+    shortDescription:
+      'BurrBear is the one-stop stablecoin shop on Berachain, offering capital-efficient DeFi pools for stablecoins and tokenized assets. With Multi Stable Pools, innovative and more efficient `Burr Pools`, and Generalized Pools, it supports both like-priced and non-like-priced trades. Fueled by the BURR token, BurrBear unleashes a new era of capital-efficient trading.',
+    fullDescription:
+      'BurrBear is the one-stop stablecoin shop for the Berachain ecosystem, offering a novel decentralized exchange purpose-built for capital-efficient trading of stablecoins and tokenized assets. Its platform features Multi Stable Pools for classic USD:USD trades, Burr Pools—20x more capital-efficient than traditional pools—for a wide range of stablecoins backed by currencies, commodities, synthetic assets, or tokenized real-world and hardware assets, and Generalized Pools for broader token swaps. By combining the utility of Uniswap and Curve with a focus on off-chain market-tracking assets, BurrBear enables deep, flexible liquidity for both like-priced and non-like-priced assets. The protocol is powered by the BURR token, with a capped supply of 100 million, positioning BurrBear as a foundational pillar of Berachain DeFi. ',
+  },
   //
   // Sonic
   //
