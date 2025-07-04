@@ -260,6 +260,8 @@
           "59144": 18
         },
         "liquidityDex": {
+          "56": "PancakeSwapV2",
+          "137": "UniswapV3",
           "59144": "Algebra"
         },
         "active": true
@@ -385,13 +387,16 @@
         },
         "liquidityDex": {
           "1": "UniswapV3",
+          "56": "PancakeSwapV3",
           "130": "External",
+          "137": "UniswapV3",
           "146": "ShadowExchange",
           "614": "External",
           "1890": "Elektrik",
           "8453": "Aerodrome",
           "8822": "MagicSea",
           "10143": "PancakeSwapV2",
+          "42161": "PancakeSwapV3",
           "59144": "Lynex",
           "80094": "KodiakV3",
           "81457": "ThrusterV3",
@@ -521,13 +526,16 @@
         },
         "liquidityDex": {
           "1": "UniswapV3",
+          "56": "PancakeSwapV3",
           "130": "External",
+          "137": "UniswapV3",
           "146": "ShadowExchange",
           "614": "External",
           "1890": "Elektrik",
           "8453": "Aerodrome",
           "8822": "MagicSea",
           "10143": "PancakeSwapV2",
+          "42161": "PancakeSwapV3",
           "59144": "Lynex",
           "80094": "KodiakV3",
           "81457": "ThrusterV3",

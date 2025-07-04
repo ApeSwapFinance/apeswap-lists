@@ -21127,7 +21127,9 @@
       "decimals": {
         "137": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -21347,7 +21349,9 @@
       "decimals": {
         "137": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -21520,7 +21524,9 @@
       "decimals": {
         "137": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -21571,7 +21577,9 @@
       "decimals": {
         "137": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -21623,7 +21631,9 @@
       "decimals": {
         "137": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -21847,7 +21857,9 @@
       "decimals": {
         "137": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -21953,7 +21965,9 @@
       "decimals": {
         "137": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -22062,7 +22076,9 @@
       "decimals": {
         "137": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -22114,7 +22130,9 @@
       "decimals": {
         "137": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -22280,7 +22298,9 @@
       "decimals": {
         "137": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -22503,7 +22523,9 @@
       "decimals": {
         "137": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -22609,7 +22631,9 @@
       "decimals": {
         "137": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -22715,7 +22739,9 @@
       "decimals": {
         "137": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -22930,7 +22956,9 @@
       "decimals": {
         "137": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -23142,7 +23170,9 @@
       "decimals": {
         "137": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -23363,7 +23393,9 @@
       "decimals": {
         "137": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
       "active": true
     },
     "earnToken": {
@@ -25770,7 +25802,9 @@
       "decimals": {
         "42161": 18
       },
-      "liquidityDex": {},
+      "liquidityDex": {
+        "42161": "PancakeSwapV3"
+      },
       "active": true
     },
     "earnToken": {
