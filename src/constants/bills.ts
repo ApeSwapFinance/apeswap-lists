@@ -16,7 +16,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Singularity Testnet Largest ID: 12000
 // Crossfi Largest ID: 13000
 // Monad Testnet Largest ID: 14011
-// Sonic Largest ID: 15004
+// Sonic Largest ID: 15005
 // Berachain Largest ID: 16004
 // Katana Largest ID: 17000
 const bills: BillsConfig[] = [
@@ -159,7 +159,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/moneygoesburr',
     audit: 'https://docs.burrbear.io/contract-audits/audits',
     initTime: { [ChainId.BERACHAIN]: 1751550661 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Berachain_Collection1,
     },
@@ -172,6 +172,35 @@ const bills: BillsConfig[] = [
   //
   // Sonic
   //
+  {
+    index: 15005,
+    version: '2.1.0',
+    chainId: ChainId.SONIC,
+    contractAddress: {
+      [ChainId.SONIC]: '0x6aC3fb2A8c9714915F2018cb0fBE63CF10495aB4',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.moonS_Equalizer,
+    earnToken: tokens.moon,
+    billNnftAddress: {
+      [ChainId.SONIC]: '0xc765C358622cB346f236F8Bfffe53036e421bb4e',
+    },
+    inactive: false,
+    projectLink: 'https://www.moonbay.space/',
+    twitter: 'https://x.com/MoonBaySonic',
+    initTime: { [ChainId.SONIC]: 1745316614 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    fullDescription:
+      'MoonBay is a dynamic crypto project built on the Sonic Network, powered by its native $MOON token and a passionate community. Fusing meme culture with real-world utility, MoonBay spans across DeFi, NFTs, GameFi, and beyond. The project thrives on innovation and trend awareness, positioning itself as a forward-thinking ecosystem that delivers value, engagement, and entertainment. With a commitment to both fun and function, MoonBay aims to create a vibrant hub where users can explore the future of Web3. Its diverse offerings and energetic community make it a standout presence in the evolving crypto landscape.',
+    shortDescription:
+      'MoonBay is a crypto project on the Sonic Network with a strong community and the $MOON token at its core. Blending meme culture with real utility, it embraces DeFi, NFTs, GameFi, and more. Focused on trends and innovation, MoonBay offers value, entertainment, and growth, making it a vibrant hub in the crypto space.',
+    tags: ['DeFi'],
+    warningCard: 'Heads Up: Buying this Bond may require a higher slippage.',
+  },
   {
     index: 15004,
     version: '2.1.3',
