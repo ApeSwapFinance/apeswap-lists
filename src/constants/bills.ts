@@ -159,7 +159,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/moneygoesburr',
     audit: 'https://docs.burrbear.io/contract-audits/audits',
     initTime: { [ChainId.BERACHAIN]: 1751550661 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Berachain_Collection1,
     },
