@@ -73,6 +73,29 @@ const preTGEBonds: PreTGEConfig[] = [
     twitter: 'https://x.com/MurlocOfficial',
     projectLink: 'https://murloc.gg/',
   },
+  {
+    version: '2.1.2',
+    index: 4,
+    chainId: ChainId.UNICHAIN,
+    vestingTimeString: 'Max-Locked veCATX',
+    tgeString: 'July 15th',
+    shortDescription: `Join the bveCATX token sale to get early access to the native liquidity layer of Unichain.`,
+    tags: ['DeFi'],
+    contractAddress: { [ChainId.UNICHAIN]: '0xaF5b054498CE1f09a65eC5AF3Dd97766F01063a1' },
+    billVersion: BillVersion.TieredSale,
+    billType: 'fcfs',
+    lpToken: tokens.usdc,
+    earnToken: tokens.unicorn,
+    billNnftAddress: {
+      [ChainId.UNICHAIN]: '0x1b7858f745211dBa1387fE30124eBCa2D706D7Dd',
+    },
+    soldOut: false,
+    billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+    redeemTime: 1751918750,
+    tgePrice: 0.1,
+    twitter: 'https://x.com/Catex_Fi',
+    projectLink: 'https://app.catex.fi/',
+  },
 ]
 
 export default preTGEBonds
