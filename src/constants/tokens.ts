@@ -5156,6 +5156,19 @@ const tokens: Record<string, Token> = {
       [ChainId.UNICHAIN]: LiquidityDex.External,
     },
   },
+  bvecatx: {
+    symbol: 'bveCATX',
+    address: {
+      [ChainId.UNICHAIN]: '0x7169a1874d4716094bdcE1b86a5cd00212CA1319',
+    },
+    decimals: {
+      [ChainId.UNICHAIN]: 18,
+    },
+    liquidityDex: {
+      [ChainId.UNICHAIN]: LiquidityDex.External,
+    },
+    active: true,
+  },
 
   //***** LIGHTLINK TOKENS  *****/
   ll: {
