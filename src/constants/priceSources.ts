@@ -446,6 +446,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       type: 'token',
       tokenAddress: '0x926DC7b96bb2F4A91C2A67e291Faf482691a3001',
     },
+    '0x7169a1874d4716094bdcE1b86a5cd00212CA1319': {
+      name: 'bveCATX',
+      symbol: 'bveCATX',
+      decimals: 18,
+      source: PriceSource.Fixed,
+      price: 0.1,
+      tokenAddress: '0x7169a1874d4716094bdcE1b86a5cd00212CA1319',
+    },
   },
   [ChainId.MAINNET]: {
     '0x0624069497F830BEa84bd7Ad410b878270130035': {

@@ -99,6 +99,14 @@
       "source": "dexscreener",
       "type": "token",
       "tokenAddress": "0x926DC7b96bb2F4A91C2A67e291Faf482691a3001"
+    },
+    "0x7169a1874d4716094bdcE1b86a5cd00212CA1319": {
+      "name": "bveCATX",
+      "symbol": "bveCATX",
+      "decimals": 18,
+      "source": "fixed",
+      "price": 0.1,
+      "tokenAddress": "0x7169a1874d4716094bdcE1b86a5cd00212CA1319"
     }
   },
   "137": {

@@ -5164,6 +5164,9 @@ const tokens: Record<string, Token> = {
     decimals: {
       [ChainId.UNICHAIN]: 18,
     },
+    liquidityDex: {
+      [ChainId.UNICHAIN]: LiquidityDex.External,
+    },
     active: true,
   },
 
