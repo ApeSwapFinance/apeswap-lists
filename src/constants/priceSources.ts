@@ -392,7 +392,16 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       type: 'token',
       tokenAddress: 'So11111111111111111111111111111111111111112',
     },
+    '2eK5WyE5uVrn1SRmNp9SsxQovzrs1PhrN33breBTgkf1': {
+      name: 'TRUMPENGUIN',
+      symbol: 'TPG',
+      decimals: 9,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '2eK5WyE5uVrn1SRmNp9SsxQovzrs1PhrN33breBTgkf1',
+    },
   },
+
   [ChainId.BERACHAIN]: {
     '0x28e0e3B9817012b356119dF9e217c25932D609c2': {
       name: 'Burr Governance Token',
