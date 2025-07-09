@@ -116,6 +116,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  wsol: {
+    symbol: 'WSOL',
+    address: {
+      [ChainId.SOL]: 'So11111111111111111111111111111111111111112',
+    },
+    decimals: {
+      [ChainId.SOL]: 9,
+    },
+    liquidityDex: {
+      [ChainId.SOL]: LiquidityDex.External,
+    },
+    active: true,
+  },
   atl: {
     symbol: 'ATL',
     address: {
