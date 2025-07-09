@@ -411,6 +411,14 @@
       "source": "dexscreener",
       "type": "token",
       "tokenAddress": "So11111111111111111111111111111111111111112"
+    },
+    "2eK5WyE5uVrn1SRmNp9SsxQovzrs1PhrN33breBTgkf1": {
+      "name": "TRUMPENGUIN",
+      "symbol": "TPG",
+      "decimals": 9,
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "2eK5WyE5uVrn1SRmNp9SsxQovzrs1PhrN33breBTgkf1"
     }
   }
 }
