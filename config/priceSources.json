@@ -403,6 +403,14 @@
       "source": "dexscreener",
       "type": "token",
       "tokenAddress": "5YSjRtJJTZpQ44YF6qDpyygPCrJ61q5eNJRJRZMvKjZD"
+    },
+    "So11111111111111111111111111111111111111112": {
+      "name": "Wrapped SOL",
+      "symbol": "WSOL",
+      "decimals": 9,
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "So11111111111111111111111111111111111111112"
     }
   }
 }
