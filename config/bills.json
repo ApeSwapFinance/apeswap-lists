@@ -1,5 +1,348 @@
 [
   {
+    "index": 18001,
+    "version": "2.2.0",
+    "chainId": 7565164,
+    "contractAddress": {
+      "7565164": "9uZ8eG6BUENnMAcfgfacxFySRKpj2rLVSGbFWBF2y2TE"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "7565164": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+      },
+      "decimals": {
+        "7565164": 6
+      },
+      "liquidityDex": {
+        "7565164": "External"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "HYPER",
+      "address": {
+        "7565164": "Aq8Gocyvyyi8xk5EYxd6viUfVmVvs9T9R6mZFzZFpump"
+      },
+      "decimals": {
+        "7565164": 6
+      },
+      "liquidityDex": {
+        "7565164": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "7565164": "8jcHtKktGJdt4VUBsf7j1VZngcLhS1bxgPHnPrMnPtg"
+    },
+    "inactive": false,
+    "projectLink": "https://www.hyperonsol.com/",
+    "twitter": "https://x.com/hyperonsol",
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "fullDescription": "Hyper is a community-driven memecoin built on the belief that memes can be more than just hype—they can create real value and utility. At its core lies the Hyper character, a mascot around which a vibrant, builder-focused culture is forming. The community stands firmly against value extraction, instead championing fair participation and collective growth. With MemesForge, Hyper is developing a powerful platform offering essential tools for other memecoins, driving a new wave of meme-based innovation. Tools built for Hyper are shared and monetized, generating revenue that flows back into the ecosystem. In this virtuous cycle, $HYPER becomes the token that captures and distributes value across the community.",
+    "shortDescription": "Hyper is a community-driven memecoin built around fair value creation and collective growth. With the Hyper mascot at its core, the project rejects value extraction and empowers builders through MemesForge, a platform offering tools for other memecoins. Revenue from these tools flows back to the ecosystem, with $HYPER capturing and distributing that value.",
+    "tags": ["Community", "Meme"]
+  },
+  {
+    "index": 18002,
+    "version": "2.2.0",
+    "chainId": 7565164,
+    "contractAddress": {
+      "7565164": "7uVrtzodr3Ab8nH4UkFkKLu28oMeUTzmQuTcrjiaQg3e"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "7565164": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+      },
+      "decimals": {
+        "7565164": 6
+      },
+      "liquidityDex": {
+        "7565164": "External"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "SKORAI",
+      "address": {
+        "7565164": "8CLGcTogo6FoYkEQQBm3Vm2PVckYCiCm3XXhdsr4skoR"
+      },
+      "decimals": {
+        "7565164": 6
+      },
+      "liquidityDex": {
+        "7565164": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "7565164": "BweCYmekwGmF7JFFBCN5MxCJy3egt2vLSmFRbtNTD2ya"
+    },
+    "inactive": false,
+    "projectLink": "https://skoragents.ai/",
+    "twitter": "https://x.com/theskorai",
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "fullDescription": "SKOR AI is a cutting-edge artificial intelligence company redefining the gaming experience with advanced AI-driven solutions tailored for gamers of all levels. Its intelligent agents deliver real-time insights, detect trends, recommend games, and optimize strategies to elevate gameplay and decision-making. By harnessing machine learning, automation, and deep data analytics, SKOR AI actively monitors gaming forums, communities, and market signals to uncover hidden lore, track esports meta shifts, and surface the best gaming deals. From skill improvement to content discovery and savings, SKOR AI functions as a smart companion enhancing every facet of gaming. With a strong focus on innovation and community-led growth, SKOR AI is shaping a more immersive, competitive, and rewarding gaming future. The $SKORAI token serves as the backbone of the ecosystem, powering staking, governance, and infrastructure growth, and rewarding long-term participation.",
+    "shortDescription": "SKOR AI enhances the gaming experience with AI-powered insights, personalized recommendations, and strategic tools for players of all levels. By tracking trends, esports metas, and gaming deals, it helps users stay ahead and save more. The $SKORAI token powers the ecosystem, enabling staking, governance, and rewarding active community participation.",
+    "tags": ["AI Agent"]
+  },
+  {
+    "index": 18003,
+    "version": "2.2.0",
+    "chainId": 7565164,
+    "contractAddress": {
+      "7565164": "A1Nt2AGpyCXqaMFEzrxbfecwESrxe1cAUxNqEp6H34oS"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "7565164": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+      },
+      "decimals": {
+        "7565164": 6
+      },
+      "liquidityDex": {
+        "7565164": "External"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "RKEY",
+      "address": {
+        "7565164": "F4YXmo8CDLRvWGnXyxVZ62wwc7oWcBam7tu4G5kGSaKZ"
+      },
+      "decimals": {
+        "7565164": 6
+      },
+      "liquidityDex": {
+        "7565164": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "7565164": "EGaskzkVsrbrSZr6CHwjuMU3cA6pxNWu5E9cLFMmZh5a"
+    },
+    "inactive": false,
+    "projectLink": "https://www.rkey.rent/",
+    "twitter": "https://x.com/rkeyrent",
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "fullDescription": " Urban Key to Web3, or RKEY, is redefining how people interact with Web3 by offering access to physical Web3 Hubs in major cities through real estate-backed NFTs on Solana. With a mission to bridge traditional real estate and blockchain seamlessly, RKEY creates immersive, real-world hubs for top-tier Web3 projects, fostering co-development, networking, and personal growth opportunities for members. Investors from around the globe can connect their Solana wallets and invest in commercial real estate via on-chain NFTs that generate yield. As the native utility token, $RKEY powers the ecosystem, rewarding users and aligning incentives across the platform. RKEY’s vision is to lead global Web3 adoption by expanding its footprint in key urban centers.",
+    "shortDescription": "RKEY is the urban key to Web3, giving users access to physical Web3 Hubs in major cities through real estate-backed NFTs on Solana. Members enjoy co-working, networking, and tools for growth, while investors earn yield by connecting their wallets and selecting NFTs. Powered by the $RKEY token that powers the ecosystem, rewarding users and aligning incentives across the platform.",
+    "tags": ["RWA"]
+  },
+  {
+    "index": 18004,
+    "version": "2.2.0",
+    "chainId": 7565164,
+    "contractAddress": {
+      "7565164": "Fq3i2McMPADtyzzaxYEKymmLrSMSKoTRUDXJ2bmCxtSP"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "7565164": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+      },
+      "decimals": {
+        "7565164": 6
+      },
+      "liquidityDex": {
+        "7565164": "External"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "RKEY",
+      "address": {
+        "7565164": "F4YXmo8CDLRvWGnXyxVZ62wwc7oWcBam7tu4G5kGSaKZ"
+      },
+      "decimals": {
+        "7565164": 6
+      },
+      "liquidityDex": {
+        "7565164": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "7565164": "Bkcc9dR9QySPsWbiKigFcVheb2ycRFNFhN4eEmH7hvio"
+    },
+    "inactive": false,
+    "projectLink": "https://www.rkey.rent/",
+    "twitter": "https://x.com/rkeyrent",
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "fullDescription": " Urban Key to Web3, or RKEY, is redefining how people interact with Web3 by offering access to physical Web3 Hubs in major cities through real estate-backed NFTs on Solana. With a mission to bridge traditional real estate and blockchain seamlessly, RKEY creates immersive, real-world hubs for top-tier Web3 projects, fostering co-development, networking, and personal growth opportunities for members. Investors from around the globe can connect their Solana wallets and invest in commercial real estate via on-chain NFTs that generate yield. As the native utility token, $RKEY powers the ecosystem, rewarding users and aligning incentives across the platform. RKEY’s vision is to lead global Web3 adoption by expanding its footprint in key urban centers.",
+    "shortDescription": "RKEY is the urban key to Web3, giving users access to physical Web3 Hubs in major cities through real estate-backed NFTs on Solana. Members enjoy co-working, networking, and tools for growth, while investors earn yield by connecting their wallets and selecting NFTs. Powered by the $RKEY token that powers the ecosystem, rewarding users and aligning incentives across the platform.",
+    "tags": ["RWA"]
+  },
+  {
+    "index": 18005,
+    "version": "2.2.0",
+    "chainId": 7565164,
+    "contractAddress": {
+      "7565164": "BuDXocnqyJWzWF4MfksbdtnXnhVgtUsvrUY9hPtPpQZ9"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "7565164": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+      },
+      "decimals": {
+        "7565164": 6
+      },
+      "liquidityDex": {
+        "7565164": "External"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "STB",
+      "address": {
+        "7565164": "STBuyENwJ1GP4yNZCjwavn92wYLEY3t5S1kVS5kwyS1"
+      },
+      "decimals": {
+        "7565164": 9
+      },
+      "liquidityDex": {
+        "7565164": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "7565164": "E7dkNpmbQDjVvnBbvB8M73LoBH4hMYYVvgHNccUmQbwj"
+    },
+    "inactive": false,
+    "projectLink": "https://stabble.org/",
+    "twitter": "https://x.com/stabbleorg",
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "fullDescription": " Stabble is a Solana-native decentralized exchange leveraging the automated market maker model pioneered by Uniswap, with advanced mechanics that enable internal and external arbitrage, smart liquidity routing, and automated liquidity provision. Inspired by protocols like Balancer and Curve, Stabble supports weighted and composable stable pools but requires up to 97% less liquidity to process similar volumes, resulting in higher capital efficiency and APYs. It introduces virtual margin liquidity, allowing risk-seeking positions while integrating risk-averse investors into the AMM system. With a focus on solving DeFi’s toughest issues, impermanent loss, low APYs, and high price impact, Stabble delivers a capital-efficient, trader- and LP-friendly environment. Its native token, $STB is the primary token that can be staked and works as a medium of exchange.",
+    "shortDescription": "Stabble is a Solana-native decentralized exchange built on an AMM model, enabling smart liquidity routing, internal and external arbitrage, and virtual margin liquidity. It supports weighted stable pools like Balancer but requires up to 97% less liquidity. With higher capital efficiency and better APYs, Stabble offers a seamless experience for traders and LPs. The $STB token can be staked and works as a medium of exchange. ",
+    "tags": ["DEX"]
+  },
+  {
+    "index": 18006,
+    "version": "2.2.0",
+    "chainId": 7565164,
+    "contractAddress": {
+      "7565164": "5vGVfwTcMaU5nhoo4YnEx7LAgxQDz5eo7vsWwq5YRWcg"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "7565164": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+      },
+      "decimals": {
+        "7565164": 6
+      },
+      "liquidityDex": {
+        "7565164": "External"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "ORCAI",
+      "address": {
+        "7565164": "5YSjRtJJTZpQ44YF6qDpyygPCrJ61q5eNJRJRZMvKjZD"
+      },
+      "decimals": {
+        "7565164": 6
+      },
+      "liquidityDex": {
+        "7565164": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "7565164": "BDsK66Ah57A93x9eJzeCpk7W2eJ7hz944jHGG7JysnBx"
+    },
+    "inactive": false,
+    "projectLink": "https://www.orcadefai.com/",
+    "twitter": "https://x.com/ORCAIDEF",
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "fullDescription": " Orca Def-Ai is a cutting-edge platform built for the blockchain, powered by AI, and driven by user insight. At its core lies the principle of intelligent balance, where automation and human intuition work in harmony. Designed to support traders, analysts, and learners, Orca Def-Ai is an evolving ecosystem of AI agents that simplify complexity and empower action across the crypto space. From wallet tracking to automated analysis and crypto education, the platform serves as an AI command center, delivering clarity and precision in a noisy market. With a strong focus on innovation, utility, and decentralization, Orca Def-Ai continues to lead the charge toward a smarter, more agile future for Web3. The native utility token, ORCAi, powers all actions and subscriptions within the platform, ensuring seamless access to its suite of intelligent tools.",
+    "shortDescription": "Orca Def-Ai is an AI-powered crypto platform built to simplify complexity and empower users. It offers intelligent tools for trading, wallet tracking, analysis, and learning, merging automation with human insight. ORCAi, the native utility token, fuels all actions and subscriptions, making Orca Def-Ai the command center for smarter crypto decisions.",
+    "tags": ["AI"]
+  },
+  {
+    "index": 18007,
+    "version": "2.2.0",
+    "chainId": 7565164,
+    "contractAddress": {
+      "7565164": "HmXQWRzwDCEdft3owvaL1yG41RL2FL8G26gbx2qVkL7s"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "7565164": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+      },
+      "decimals": {
+        "7565164": 6
+      },
+      "liquidityDex": {
+        "7565164": "External"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "WSOL",
+      "address": {
+        "7565164": "So11111111111111111111111111111111111111112"
+      },
+      "decimals": {
+        "7565164": 9
+      },
+      "liquidityDex": {
+        "7565164": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "7565164": "7nPkJVeTrjZNupSMXvKX8BD5XZF9TZft87YE3jB9J62P"
+    },
+    "inactive": false,
+    "projectLink": "https://x.com/solana",
+    "twitter": "https://solana.com/",
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "fullDescription": "Solana is a high-performance blockchain built for speed, scalability, and efficiency, capable of handling up to 710,000 transactions per second under ideal conditions. In practice, it typically processes between 2,000 and 3,000 TPS, significantly outpacing many other blockchains. Its core innovation, Proof of History (PoH), acts like a decentralized clock, enabling validators to timestamp transactions independently without waiting for network-wide consensus. This breakthrough allows Solana to maintain a fast, synchronized ledger with extremely low latency. Thanks to its speed and low fees, Solana has emerged as a top platform for DeFi, NFTs, and Web3 apps. The native SOL token fuels the network, used for staking, governance, and paying transaction fees that average just $0.00025. SOL also plays a crucial role in network security, rewarding validators while deterring bad actors. Powerful for developers. Fast for everyone. Solana supports experiences for power users, new consumers, and everyone in between. ",
+    "shortDescription": "Solana is a high-speed blockchain built for scalability, processing 2,000–3,000 transactions per second thanks to its unique Proof of History system. It's a top choice for DeFi, NFTs, and Web3 apps due to low fees and fast finality. The SOL token powers the network, used for staking, transaction fees, and validator rewards through a decreasing inflation model.",
+    "tags": ["Blockchains"]
+  },
+  {
     "index": 16000,
     "version": "2.1.0",
     "chainId": 80094,

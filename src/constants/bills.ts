@@ -29,20 +29,20 @@ const bills: BillsConfig[] = [
   //
   // SOLANA
   //
-  /*
+
   {
     index: 18001,
     version: '2.2.0',
     chainId: ChainId.SOL,
     contractAddress: {
-      [ChainId.SOL]: '', //aka bond issuance PDA
+      [ChainId.SOL]: '9uZ8eG6BUENnMAcfgfacxFySRKpj2rLVSGbFWBF2y2TE',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
     lpToken: tokens.usdc,
     earnToken: tokens.hyper,
     billNnftAddress: {
-      [ChainId.SOL]: '', // aka collection
+      [ChainId.SOL]: '8jcHtKktGJdt4VUBsf7j1VZngcLhS1bxgPHnPrMnPtg',
     },
     inactive: false,
     projectLink: 'https://www.hyperonsol.com/',
@@ -60,14 +60,14 @@ const bills: BillsConfig[] = [
     version: '2.2.0',
     chainId: ChainId.SOL,
     contractAddress: {
-      [ChainId.SOL]: '', //aka bond issuance PDA
+      [ChainId.SOL]: '7uVrtzodr3Ab8nH4UkFkKLu28oMeUTzmQuTcrjiaQg3e',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
     lpToken: tokens.usdc,
     earnToken: tokens.skorai,
     billNnftAddress: {
-      [ChainId.SOL]: '', // aka collection
+      [ChainId.SOL]: 'BweCYmekwGmF7JFFBCN5MxCJy3egt2vLSmFRbtNTD2ya', // aka collection
     },
     inactive: false,
     projectLink: 'https://skoragents.ai/',
@@ -85,14 +85,14 @@ const bills: BillsConfig[] = [
     version: '2.2.0',
     chainId: ChainId.SOL,
     contractAddress: {
-      [ChainId.SOL]: '', //aka bond issuance PDA
+      [ChainId.SOL]: 'A1Nt2AGpyCXqaMFEzrxbfecwESrxe1cAUxNqEp6H34oS',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
     lpToken: tokens.usdc,
     earnToken: tokens.rkey,
     billNnftAddress: {
-      [ChainId.SOL]: '', // aka collection
+      [ChainId.SOL]: 'EGaskzkVsrbrSZr6CHwjuMU3cA6pxNWu5E9cLFMmZh5a',
     },
     inactive: false,
     projectLink: 'https://www.rkey.rent/',
@@ -110,14 +110,14 @@ const bills: BillsConfig[] = [
     version: '2.2.0',
     chainId: ChainId.SOL,
     contractAddress: {
-      [ChainId.SOL]: '', //aka bond issuance PDA
+      [ChainId.SOL]: 'Fq3i2McMPADtyzzaxYEKymmLrSMSKoTRUDXJ2bmCxtSP',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
     lpToken: tokens.usdc,
     earnToken: tokens.rkey,
     billNnftAddress: {
-      [ChainId.SOL]: '', // aka collection
+      [ChainId.SOL]: 'Bkcc9dR9QySPsWbiKigFcVheb2ycRFNFhN4eEmH7hvio',
     },
     inactive: false,
     projectLink: 'https://www.rkey.rent/',
@@ -135,14 +135,14 @@ const bills: BillsConfig[] = [
     version: '2.2.0',
     chainId: ChainId.SOL,
     contractAddress: {
-      [ChainId.SOL]: '', //aka bond issuance PDA
+      [ChainId.SOL]: 'BuDXocnqyJWzWF4MfksbdtnXnhVgtUsvrUY9hPtPpQZ9',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
     lpToken: tokens.usdc,
     earnToken: tokens.stb,
     billNnftAddress: {
-      [ChainId.SOL]: '', // aka collection
+      [ChainId.SOL]: 'E7dkNpmbQDjVvnBbvB8M73LoBH4hMYYVvgHNccUmQbwj',
     },
     inactive: false,
     projectLink: 'https://stabble.org/',
@@ -160,14 +160,14 @@ const bills: BillsConfig[] = [
     version: '2.2.0',
     chainId: ChainId.SOL,
     contractAddress: {
-      [ChainId.SOL]: '', //aka bond issuance PDA
+      [ChainId.SOL]: '5vGVfwTcMaU5nhoo4YnEx7LAgxQDz5eo7vsWwq5YRWcg',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
     lpToken: tokens.usdc,
     earnToken: tokens.orcai,
     billNnftAddress: {
-      [ChainId.SOL]: '', // aka collection
+      [ChainId.SOL]: 'BDsK66Ah57A93x9eJzeCpk7W2eJ7hz944jHGG7JysnBx',
     },
     inactive: false,
     projectLink: 'https://www.orcadefai.com/',
@@ -185,39 +185,14 @@ const bills: BillsConfig[] = [
     version: '2.2.0',
     chainId: ChainId.SOL,
     contractAddress: {
-      [ChainId.SOL]: '', //aka bond issuance PDA
-    },
-    billType: 'reserve',
-    billVersion: BillVersion.V2,
-    lpToken: tokens.usdc,
-    earnToken: tokens.orcai,
-    billNnftAddress: {
-      [ChainId.SOL]: '', // aka collection
-    },
-    inactive: false,
-    projectLink: 'https://www.orcadefai.com/',
-    twitter: 'https://x.com/ORCAIDEF',
-    soldOut: false,
-    billArt: {
-      collection: BillArtCollection.ApeBond_Collection1,
-    },
-    fullDescription: ` Orca Def-Ai is a cutting-edge platform built for the blockchain, powered by AI, and driven by user insight. At its core lies the principle of intelligent balance, where automation and human intuition work in harmony. Designed to support traders, analysts, and learners, Orca Def-Ai is an evolving ecosystem of AI agents that simplify complexity and empower action across the crypto space. From wallet tracking to automated analysis and crypto education, the platform serves as an AI command center, delivering clarity and precision in a noisy market. With a strong focus on innovation, utility, and decentralization, Orca Def-Ai continues to lead the charge toward a smarter, more agile future for Web3. The native utility token, ORCAi, powers all actions and subscriptions within the platform, ensuring seamless access to its suite of intelligent tools.`,
-    shortDescription: `Orca Def-Ai is an AI-powered crypto platform built to simplify complexity and empower users. It offers intelligent tools for trading, wallet tracking, analysis, and learning, merging automation with human insight. ORCAi, the native utility token, fuels all actions and subscriptions, making Orca Def-Ai the command center for smarter crypto decisions.`,
-    tags: ['AI'],
-  },
-  {
-    index: 18008,
-    version: '2.2.0',
-    chainId: ChainId.SOL,
-    contractAddress: {
-      [ChainId.SOL]: '', //aka bond issuance PDA
+      [ChainId.SOL]: 'HmXQWRzwDCEdft3owvaL1yG41RL2FL8G26gbx2qVkL7s',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
     lpToken: tokens.usdc,
     earnToken: tokens.wsol,
     billNnftAddress: {
-      [ChainId.SOL]: '', // aka collection
+      [ChainId.SOL]: '7nPkJVeTrjZNupSMXvKX8BD5XZF9TZft87YE3jB9J62P',
     },
     inactive: false,
     projectLink: 'https://x.com/solana',
@@ -230,7 +205,7 @@ const bills: BillsConfig[] = [
     shortDescription: `Solana is a high-speed blockchain built for scalability, processing 2,000–3,000 transactions per second thanks to its unique Proof of History system. It's a top choice for DeFi, NFTs, and Web3 apps due to low fees and fast finality. The SOL token powers the network, used for staking, transaction fees, and validator rewards through a decreasing inflation model.`,
     tags: ['Blockchains'],
   },
-  */
+
   //
   // Berachain
   //
