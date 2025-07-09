@@ -10,7 +10,6 @@ const tokens: Record<string, Token> = {
       [ChainId.MAINNET]: '0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2',
       [ChainId.BSC_TESTNET]: '0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a',
       [ChainId.TLOS]: '0x667fd83e24ca1d935d36717d305d54fa0cac991c',
-      [ChainId.SOL]: '6MkKT6ffNt6N22U2Q7yZaLC4QYrxGuFefwYrmd8XXsih', // TODO: remove this test token
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -18,10 +17,6 @@ const tokens: Record<string, Token> = {
       [ChainId.MAINNET]: 18,
       [ChainId.BSC_TESTNET]: 18,
       [ChainId.TLOS]: 18,
-      [ChainId.SOL]: 9, // TODO: remove this test token
-    },
-    liquidityDex: {
-      [ChainId.SOL]: LiquidityDex.External,
     },
     active: true,
   },
@@ -1303,15 +1298,10 @@ const tokens: Record<string, Token> = {
     address: {
       [ChainId.BSC]: '0xdDb3Bd8645775F59496c821E4F55A7eA6A6dc299',
       [ChainId.BSC_TESTNET]: '0xf693bDA9D3C56D5F9165c8633d9098e3C4Ae495A',
-      [ChainId.SOL]: '9Go1k12GfUGyKSA4Hcw6svZ6E8T5Dkta8t3rmHF7xJNU', // TODO: remove this test token
     },
     decimals: {
       [ChainId.BSC]: 18,
       [ChainId.BSC_TESTNET]: 18,
-      [ChainId.SOL]: 9, // TODO: remove this test token
-    },
-    liquidityDex: {
-      [ChainId.SOL]: LiquidityDex.External,
     },
     active: true,
   },
@@ -1564,6 +1554,7 @@ const tokens: Record<string, Token> = {
       [ChainId.KATANA]: '0x203A662b0BD271A6ed5a60EdFbd04bFce608FD36',
       [ChainId.SOL]: 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v',
       [ChainId.UNICHAIN]: '0x078D782b760474a361dDA0AF3839290b0EF57AD6',
+      [ChainId.SOL]: 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -1583,6 +1574,7 @@ const tokens: Record<string, Token> = {
       [ChainId.KATANA]: 6,
       [ChainId.SOL]: 6,
       [ChainId.UNICHAIN]: 6,
+      [ChainId.SOL]: 6,
     },
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
@@ -1601,6 +1593,7 @@ const tokens: Record<string, Token> = {
       [ChainId.KATANA]: LiquidityDex.External,
       [ChainId.SOL]: LiquidityDex.External,
       [ChainId.UNICHAIN]: LiquidityDex.External,
+      [ChainId.SOL]: LiquidityDex.External,
     },
     active: true,
   },
