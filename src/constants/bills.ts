@@ -185,14 +185,14 @@ const bills: BillsConfig[] = [
     version: '2.2.0',
     chainId: ChainId.SOL,
     contractAddress: {
-      [ChainId.SOL]: 'HmXQWRzwDCEdft3owvaL1yG41RL2FL8G26gbx2qVkL7s',
+      [ChainId.SOL]: 'GtUV4yFeqnZ89799eppgu1kQxsUpEXWfas8CAdu4qdfe',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
     lpToken: tokens.usdc,
     earnToken: tokens.wsol,
     billNnftAddress: {
-      [ChainId.SOL]: '7nPkJVeTrjZNupSMXvKX8BD5XZF9TZft87YE3jB9J62P',
+      [ChainId.SOL]: '4Kk5fUiBWDLKieWJNWqYHuLzEV2hQycMDaCP4ZdbJPLp',
     },
     inactive: false,
     projectLink: 'https://x.com/solana',
