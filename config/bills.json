@@ -343,6 +343,55 @@
     "tags": ["Blockchains"]
   },
   {
+    "index": 18008,
+    "version": "2.2.0",
+    "chainId": 7565164,
+    "contractAddress": {
+      "7565164": "maMzJHNauwNTw678yPvGxh2UX39JfUYwqJN1fD93Z6M"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "7565164": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+      },
+      "decimals": {
+        "7565164": 6
+      },
+      "liquidityDex": {
+        "7565164": "External"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "TPG",
+      "address": {
+        "7565164": "2eK5WyE5uVrn1SRmNp9SsxQovzrs1PhrN33breBTgkf1"
+      },
+      "decimals": {
+        "7565164": 9
+      },
+      "liquidityDex": {
+        "7565164": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "7565164": "HPeeonTQQrVdBGi9LeRiGXkL3QzVpVrdRVsjJwXQ5HZA"
+    },
+    "inactive": false,
+    "projectLink": "https://trumpenguin.com/",
+    "twitter": "https://x.com/trumpenguin",
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "fullDescription": "Trumpenguin is a bold and chaotic memecoin designed to ride the highs and lows of Donald Trump’s next presidential run, capturing every controversial tweet, major decision, and viral moment along the way. Built for meme lovers and risk-takers, Trumpenguin blends entertainment with tokenomics by burning tokens every time a milestone on its roadmap is completed, injecting volatility and excitement into the project. Whether it soars or sinks, Trumpenguin is committed to delivering a front-row seat to political drama and internet culture in real time. With a mission to fuel the fire of meme-driven speculation, it taps into the thrill-seeking side of crypto investors eager to chase hype, embrace unpredictability, and laugh through the chaos. TPG isn’t just a token—it’s the engine behind Trumpenguin’s unpredictable march through the meme-filled mayhem of modern politics and crypto culture.",
+    "shortDescription": "Trumpenguin is a chaotic memecoin following the wild ride of Trump’s next presidential run, capturing every tweet, move, and viral moment. With tokens burned at each roadmap milestone, TPG brings volatility and fun to the forefront. It’s built for meme lovers and risk-takers chasing hype, embracing chaos, and laughing through the unpredictable world of crypto and politics.",
+    "tags": ["Community", "Meme"]
+  },
+  {
     "index": 16000,
     "version": "2.1.0",
     "chainId": 80094,

@@ -205,6 +205,31 @@ const bills: BillsConfig[] = [
     shortDescription: `Solana is a high-speed blockchain built for scalability, processing 2,000–3,000 transactions per second thanks to its unique Proof of History system. It's a top choice for DeFi, NFTs, and Web3 apps due to low fees and fast finality. The SOL token powers the network, used for staking, transaction fees, and validator rewards through a decreasing inflation model.`,
     tags: ['Blockchains'],
   },
+  {
+    index: 18008,
+    version: '2.2.0',
+    chainId: ChainId.SOL,
+    contractAddress: {
+      [ChainId.SOL]: 'maMzJHNauwNTw678yPvGxh2UX39JfUYwqJN1fD93Z6M',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.tpg,
+    billNnftAddress: {
+      [ChainId.SOL]: 'HPeeonTQQrVdBGi9LeRiGXkL3QzVpVrdRVsjJwXQ5HZA',
+    },
+    inactive: false,
+    projectLink: 'https://trumpenguin.com/',
+    twitter: 'https://x.com/trumpenguin',
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    fullDescription: `Trumpenguin is a bold and chaotic memecoin designed to ride the highs and lows of Donald Trump’s next presidential run, capturing every controversial tweet, major decision, and viral moment along the way. Built for meme lovers and risk-takers, Trumpenguin blends entertainment with tokenomics by burning tokens every time a milestone on its roadmap is completed, injecting volatility and excitement into the project. Whether it soars or sinks, Trumpenguin is committed to delivering a front-row seat to political drama and internet culture in real time. With a mission to fuel the fire of meme-driven speculation, it taps into the thrill-seeking side of crypto investors eager to chase hype, embrace unpredictability, and laugh through the chaos. TPG isn’t just a token—it’s the engine behind Trumpenguin’s unpredictable march through the meme-filled mayhem of modern politics and crypto culture.`,
+    shortDescription: `Trumpenguin is a chaotic memecoin following the wild ride of Trump’s next presidential run, capturing every tweet, move, and viral moment. With tokens burned at each roadmap milestone, TPG brings volatility and fun to the forefront. It’s built for meme lovers and risk-takers chasing hype, embracing chaos, and laughing through the unpredictable world of crypto and politics.`,
+    tags: ['Community', 'Meme'],
+  },
 
   //
   // Berachain
