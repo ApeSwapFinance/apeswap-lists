@@ -111,6 +111,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  wsol: {
+    symbol: 'WSOL',
+    address: {
+      [ChainId.SOL]: 'So11111111111111111111111111111111111111112',
+    },
+    decimals: {
+      [ChainId.SOL]: 9,
+    },
+    liquidityDex: {
+      [ChainId.SOL]: LiquidityDex.External,
+    },
+    active: true,
+  },
   atl: {
     symbol: 'ATL',
     address: {
@@ -1541,6 +1554,7 @@ const tokens: Record<string, Token> = {
       [ChainId.KATANA]: '0x203A662b0BD271A6ed5a60EdFbd04bFce608FD36',
       [ChainId.SOL]: 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v',
       [ChainId.UNICHAIN]: '0x078D782b760474a361dDA0AF3839290b0EF57AD6',
+      [ChainId.SOL]: 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -1560,6 +1574,7 @@ const tokens: Record<string, Token> = {
       [ChainId.KATANA]: 6,
       [ChainId.SOL]: 6,
       [ChainId.UNICHAIN]: 6,
+      [ChainId.SOL]: 6,
     },
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
@@ -1578,6 +1593,7 @@ const tokens: Record<string, Token> = {
       [ChainId.KATANA]: LiquidityDex.External,
       [ChainId.SOL]: LiquidityDex.External,
       [ChainId.UNICHAIN]: LiquidityDex.External,
+      [ChainId.SOL]: LiquidityDex.External,
     },
     active: true,
   },
