@@ -52,6 +52,7 @@ export enum LiquidityDex {
   ApeSwapV3 = 'ApeSwapV3',
   PancakeSwapV2 = 'PancakeSwapV2',
   PancakeSwapV3 = 'PancakeSwapV3',
+  SushiSwapV2 = 'SushiSwapV2',
   SushiSwapV3 = 'SushiSwapV3',
   UniswapV2 = 'UniswapV2',
   ThenaV1 = 'ThenaV1',
@@ -840,6 +841,28 @@ export const dexFactories: Partial<
       protocol: Protocols.V3,
     },
   },
+  [ChainId.KATANA]: {
+    [LiquidityDex.SushiSwapV2]: {
+      factory: '0x72D111b4d6f31B38919ae39779f570b747d6Acd9',
+      router: '0x69cC349932ae18ED406eeB917d79b9b3033fB68E',
+      protocol: Protocols.V2,
+    },
+    [LiquidityDex.SushiSwapV3]: {
+      factory: '0x203e8740894c8955cB8950759876d7E7E45E04c1',
+      protocol: Protocols.V3,
+    },
+  },
+  [ChainId.UNICHAIN]: {
+    [LiquidityDex.UniswapV2]: {
+      factory: '0x1f98400000000000000000000000000000000002',
+      router: '0x284f11109359a7e1306c3e447ef14d38400063ff',
+      protocol: Protocols.V2,
+    },
+    [LiquidityDex.UniswapV3]: {
+      factory: '0x1f98400000000000000000000000000000000003',
+      protocol: Protocols.V3,
+    },
+  },
 }
 
 export const defaultDexFactories: Partial<Record<ChainId, Partial<Record<Protocols, string>>>> = {
@@ -909,6 +932,14 @@ export const defaultDexFactories: Partial<Record<ChainId, Partial<Record<Protoco
     [Protocols.V2]: dexFactories[ChainId.BERACHAIN]?.KodiakV2?.factory,
     [Protocols.V3]: dexFactories[ChainId.BERACHAIN]?.KodiakV3?.factory,
   },
+  [ChainId.KATANA]: {
+    [Protocols.V2]: dexFactories[ChainId.KATANA]?.SushiSwapV2?.factory,
+    [Protocols.V3]: dexFactories[ChainId.KATANA]?.SushiSwapV3?.factory,
+  },
+  [ChainId.UNICHAIN]: {
+    [Protocols.V2]: dexFactories[ChainId.UNICHAIN]?.UniswapV2?.factory,
+    [Protocols.V3]: dexFactories[ChainId.UNICHAIN]?.UniswapV3?.factory,
+  },
 }
 
 export const dexToZapMapping: Record<LiquidityDex, Partial<Record<ChainId, ZapVersion>>> = {
@@ -950,6 +981,7 @@ export const dexToZapMapping: Record<LiquidityDex, Partial<Record<ChainId, ZapVe
   [LiquidityDex.Lynex]: {},
   [LiquidityDex.Metavault]: {},
   [LiquidityDex.Elektrik]: {},
+  [LiquidityDex.SushiSwapV2]: {},
   [LiquidityDex.SushiSwapV3]: {},
   [LiquidityDex.Synthswap]: {},
   [LiquidityDex.Aerodrome]: {
