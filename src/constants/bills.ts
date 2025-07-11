@@ -627,7 +627,7 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://bitcoin.org/',
     initTime: { [ChainId.MONAD_TESTNET]: 1744716985 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -3272,7 +3272,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.BSC]: 1751044196 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
