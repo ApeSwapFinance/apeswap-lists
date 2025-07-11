@@ -7,7 +7,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Arbitrum Largest ID: 2027
 // ETH Largest ID: 3046
 // Linea Largest ID: 6019
-// Base Largest ID: 8051
+// Base Largest ID: 8053
 // Lightlink Largest ID: 7003
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
@@ -772,7 +772,37 @@ const bills: BillsConfig[] = [
   //
   // GOO BOND
   {
-    index: 8051,
+    index: 8053,
+    cmcId: 35595,
+    version: '2.1.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0xa125df731e5357317016aCa51C8b4Ee075280aD0',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V3,
+    lpToken: tokens.cbbtc,
+    earnToken: tokens.goo,
+    billNnftAddress: {
+      [ChainId.BASE]: '0x2bEEbd91C585D1EBA05834991490b85CbdD4027b',
+    },
+    inactive: false,
+    projectLink: 'https://www.goo.money/',
+    twitter: '',
+    audit: '',
+    initTime: { [ChainId.BASE]: 1749467097 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: [''],
+    shortDescription: `GooMoney is goo project sers and ladeysers`,
+    fullDescription: `GooMoney is goo project sers and ladeysers`,
+    bondPartner: 'GooMoney',
+    onlyPartner: true, // display only in goo site
+  },
+  {
+    index: 8052,
     cmcId: 35595,
     version: '2.1.0',
     chainId: ChainId.BASE,
@@ -796,8 +826,8 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: [''],
-    shortDescription: `GooMoney is good project sers and ladeysers`,
-    fullDescription: `GooMoney is good project sers and ladeysers`,
+    shortDescription: `GooMoney is goo project sers and ladeysers`,
+    fullDescription: `GooMoney is goo project sers and ladeysers`,
     bondPartner: 'GooMoney',
     onlyPartner: true, // display only in goo site
   },
