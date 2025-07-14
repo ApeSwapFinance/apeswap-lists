@@ -215,6 +215,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  u: {
+    symbol: 'U',
+    address: {
+      [ChainId.BSC]: '0xe07710cdcD1c9F0FB04bfd013F9854E4552671cE',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.External,
+    },
+    active: true,
+  },
   mon: {
     symbol: 'WMON',
     address: {

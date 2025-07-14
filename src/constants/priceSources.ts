@@ -84,6 +84,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       id: 'FNFSUSDT',
       tokenAddress: '0x09854c1349cd1412439461ca72609f97850d2218',
     },
+    '0xe07710cdcD1c9F0FB04bfd013F9854E4552671cE': {
+      name: 'UCOIN',
+      symbol: 'U',
+      decimals: 18,
+      source: PriceSource.Mexc,
+      id: 'UUSDT',
+      tokenAddress: '0xe07710cdcD1c9F0FB04bfd013F9854E4552671cE',
+    },
     '0xb6C53431608E626AC81a9776ac3e999c5556717c': {
       name: 'pTokens TLOS',
       symbol: 'TLOS',
