@@ -70,6 +70,18 @@
       "protocol": 1
     }
   ],
+  "130": [
+    {
+      "name": "UniswapV2",
+      "factory": "0x1f98400000000000000000000000000000000002",
+      "protocol": 0
+    },
+    {
+      "name": "UniswapV3",
+      "factory": "0x1f98400000000000000000000000000000000003",
+      "protocol": 1
+    }
+  ],
   "137": [
     {
       "name": "ApeSwapV2",
@@ -315,6 +327,18 @@
     {
       "name": "ThrusterV3",
       "factory": "0x71b08f13B3c3aF35aAdEb3949AFEb1ded1016127",
+      "protocol": 1
+    }
+  ],
+  "747474": [
+    {
+      "name": "SushiSwapV2",
+      "factory": "0x72D111b4d6f31B38919ae39779f570b747d6Acd9",
+      "protocol": 0
+    },
+    {
+      "name": "SushiSwapV3",
+      "factory": "0x203e8740894c8955cB8950759876d7E7E45E04c1",
       "protocol": 1
     }
   ]

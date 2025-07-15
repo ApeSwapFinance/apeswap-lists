@@ -315,6 +315,30 @@ const dexFactoriesPriceApi: Partial<
       protocol: PriceApiProtocols.UniV3,
     },
   ],
+  [ChainId.KATANA]: [
+    {
+      name: LiquidityDex.SushiSwapV2,
+      factory: '0x72D111b4d6f31B38919ae39779f570b747d6Acd9',
+      protocol: PriceApiProtocols.UniV2,
+    },
+    {
+      name: LiquidityDex.SushiSwapV3,
+      factory: '0x203e8740894c8955cB8950759876d7E7E45E04c1',
+      protocol: PriceApiProtocols.UniV3,
+    },
+  ],
+  [ChainId.UNICHAIN]: [
+    {
+      name: LiquidityDex.UniswapV2,
+      factory: '0x1f98400000000000000000000000000000000002',
+      protocol: PriceApiProtocols.UniV2,
+    },
+    {
+      name: LiquidityDex.UniswapV3,
+      factory: '0x1f98400000000000000000000000000000000003',
+      protocol: PriceApiProtocols.UniV3,
+    },
+  ],
   //TESTNETS
   [ChainId.BSC_TESTNET]: [
     {

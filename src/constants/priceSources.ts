@@ -84,6 +84,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       id: 'FNFSUSDT',
       tokenAddress: '0x09854c1349cd1412439461ca72609f97850d2218',
     },
+    '0xe07710cdcD1c9F0FB04bfd013F9854E4552671cE': {
+      name: 'UCOIN',
+      symbol: 'U',
+      decimals: 18,
+      source: PriceSource.Mexc,
+      id: 'UUSDT',
+      tokenAddress: '0xe07710cdcD1c9F0FB04bfd013F9854E4552671cE',
+    },
     '0xb6C53431608E626AC81a9776ac3e999c5556717c': {
       name: 'pTokens TLOS',
       symbol: 'TLOS',
@@ -384,7 +392,24 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       type: 'token',
       tokenAddress: '5YSjRtJJTZpQ44YF6qDpyygPCrJ61q5eNJRJRZMvKjZD',
     },
+    So11111111111111111111111111111111111111112: {
+      name: 'Wrapped SOL',
+      symbol: 'WSOL',
+      decimals: 9,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: 'So11111111111111111111111111111111111111112',
+    },
+    '2eK5WyE5uVrn1SRmNp9SsxQovzrs1PhrN33breBTgkf1': {
+      name: 'TRUMPENGUIN',
+      symbol: 'TPG',
+      decimals: 9,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '2eK5WyE5uVrn1SRmNp9SsxQovzrs1PhrN33breBTgkf1',
+    },
   },
+
   [ChainId.BERACHAIN]: {
     '0x28e0e3B9817012b356119dF9e217c25932D609c2': {
       name: 'Burr Governance Token',
@@ -445,6 +470,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       source: PriceSource.Dexscreener,
       type: 'token',
       tokenAddress: '0x926DC7b96bb2F4A91C2A67e291Faf482691a3001',
+    },
+    '0x7169a1874d4716094bdcE1b86a5cd00212CA1319': {
+      name: 'bveCATX',
+      symbol: 'bveCATX',
+      decimals: 18,
+      source: PriceSource.Fixed,
+      price: 0.1,
+      tokenAddress: '0x7169a1874d4716094bdcE1b86a5cd00212CA1319',
     },
   },
   [ChainId.MAINNET]: {

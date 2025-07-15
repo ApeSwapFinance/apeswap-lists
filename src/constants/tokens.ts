@@ -111,6 +111,32 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  wsol: {
+    symbol: 'WSOL',
+    address: {
+      [ChainId.SOL]: 'So11111111111111111111111111111111111111112',
+    },
+    decimals: {
+      [ChainId.SOL]: 9,
+    },
+    liquidityDex: {
+      [ChainId.SOL]: LiquidityDex.External,
+    },
+    active: true,
+  },
+  tpg: {
+    symbol: 'TPG',
+    address: {
+      [ChainId.SOL]: '2eK5WyE5uVrn1SRmNp9SsxQovzrs1PhrN33breBTgkf1',
+    },
+    decimals: {
+      [ChainId.SOL]: 9,
+    },
+    liquidityDex: {
+      [ChainId.SOL]: LiquidityDex.External,
+    },
+    active: true,
+  },
   atl: {
     symbol: 'ATL',
     address: {
@@ -183,6 +209,19 @@ const tokens: Record<string, Token> = {
     symbol: 'LB',
     address: {
       [ChainId.BSC]: '0x8613d52D74a48883A51bAdF8b25ab066714087Da',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.External,
+    },
+    active: true,
+  },
+  u: {
+    symbol: 'U',
+    address: {
+      [ChainId.BSC]: '0xe07710cdcD1c9F0FB04bfd013F9854E4552671cE',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -5193,6 +5232,19 @@ const tokens: Record<string, Token> = {
     liquidityDex: {
       [ChainId.UNICHAIN]: LiquidityDex.External,
     },
+  },
+  bvecatx: {
+    symbol: 'bveCATX',
+    address: {
+      [ChainId.UNICHAIN]: '0x7169a1874d4716094bdcE1b86a5cd00212CA1319',
+    },
+    decimals: {
+      [ChainId.UNICHAIN]: 18,
+    },
+    liquidityDex: {
+      [ChainId.UNICHAIN]: LiquidityDex.External,
+    },
+    active: true,
   },
 
   //***** LIGHTLINK TOKENS  *****/

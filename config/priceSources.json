@@ -34,6 +34,14 @@
       "id": "FNFSUSDT",
       "tokenAddress": "0x09854c1349cd1412439461ca72609f97850d2218"
     },
+    "0xe07710cdcD1c9F0FB04bfd013F9854E4552671cE": {
+      "name": "UCOIN",
+      "symbol": "U",
+      "decimals": 18,
+      "source": "mexc",
+      "id": "UUSDT",
+      "tokenAddress": "0xe07710cdcD1c9F0FB04bfd013F9854E4552671cE"
+    },
     "0xb6C53431608E626AC81a9776ac3e999c5556717c": {
       "name": "pTokens TLOS",
       "symbol": "TLOS",
@@ -99,6 +107,14 @@
       "source": "dexscreener",
       "type": "token",
       "tokenAddress": "0x926DC7b96bb2F4A91C2A67e291Faf482691a3001"
+    },
+    "0x7169a1874d4716094bdcE1b86a5cd00212CA1319": {
+      "name": "bveCATX",
+      "symbol": "bveCATX",
+      "decimals": 18,
+      "source": "fixed",
+      "price": 0.1,
+      "tokenAddress": "0x7169a1874d4716094bdcE1b86a5cd00212CA1319"
     }
   },
   "137": {
@@ -395,6 +411,22 @@
       "source": "dexscreener",
       "type": "token",
       "tokenAddress": "5YSjRtJJTZpQ44YF6qDpyygPCrJ61q5eNJRJRZMvKjZD"
+    },
+    "So11111111111111111111111111111111111111112": {
+      "name": "Wrapped SOL",
+      "symbol": "WSOL",
+      "decimals": 9,
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "So11111111111111111111111111111111111111112"
+    },
+    "2eK5WyE5uVrn1SRmNp9SsxQovzrs1PhrN33breBTgkf1": {
+      "name": "TRUMPENGUIN",
+      "symbol": "TPG",
+      "decimals": 9,
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "2eK5WyE5uVrn1SRmNp9SsxQovzrs1PhrN33breBTgkf1"
     }
   }
 }

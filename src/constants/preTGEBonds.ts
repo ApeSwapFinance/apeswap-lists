@@ -73,6 +73,30 @@ const preTGEBonds: PreTGEConfig[] = [
     twitter: 'https://x.com/MurlocOfficial',
     projectLink: 'https://murloc.gg/',
   },
+  {
+    version: '2.1.2',
+    index: 4,
+    chainId: ChainId.UNICHAIN,
+    vestingTimeString: 'Max-Locked veCATX',
+    tgeString: 'July 16th',
+    shortDescription: `Catex is the MetaDEX layer for Uniswap V4, combining automated liquidity, ve(3,3) governance, and strategic incentives to support LPs and hook builders. The ecosystem is powered by four synergistic tokens, with CATX at its core, driving governance and liquidity. Supporting this system is bveCATX, a non-liquid voter incentive token redeemable 1:1 for veCATX, which promotes active participation by rewarding engaged voters and redistributing incentives via oCATX buybacks to fuel long-term alignment.`,
+    tags: ['DeFi'],
+    contractAddress: { [ChainId.UNICHAIN]: '0x64384402c89297db8c8F77A95CE1bC4177F8fCAc' },
+    billVersion: BillVersion.TieredSale,
+    billType: 'fcfs',
+    lpToken: tokens.usdc,
+    earnToken: tokens.bvecatx,
+    billNnftAddress: {
+      [ChainId.UNICHAIN]: '0x1b7858f745211dBa1387fE30124eBCa2D706D7Dd',
+    },
+    soldOut: false,
+    billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+    redeemTime: 1752670800,
+    tgePrice: 0.1,
+    twitter: 'https://x.com/Catex_Fi',
+    projectLink: 'https://app.catex.fi/',
+    warningCard: 'This is a Pre-TGE Bond for bveCATX, redeemable 1:1 for veCATX at max lock upon listing.',
+  },
 ]
 
 export default preTGEBonds
