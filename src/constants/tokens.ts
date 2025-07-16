@@ -167,12 +167,15 @@ const tokens: Record<string, Token> = {
     symbol: 'USDE',
     address: {
       [ChainId.BERACHAIN]: '0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34',
+      [ChainId.BLAST]: '0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34',
     },
     decimals: {
       [ChainId.BERACHAIN]: 18,
+      [ChainId.BLAST]: 18,
     },
     liquidityDex: {
       [ChainId.BERACHAIN]: LiquidityDex.KodiakV3,
+      [ChainId.BLAST]: LiquidityDex.ThrusterV3,
     },
     active: true,
   },
@@ -1371,7 +1374,7 @@ const tokens: Record<string, Token> = {
     symbol: 'BNB',
     address: {
       [ChainId.BSC]: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
-      [ChainId.MATIC]: '0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F',
+      [ChainId.MATIC]: '0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F', //BNB doesn't have enough liq. on MATIC
       [ChainId.BSC_TESTNET]: '0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd',
     },
     decimals: {
@@ -1397,6 +1400,8 @@ const tokens: Record<string, Token> = {
       [ChainId.LINEA]: 18,
     },
     liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+      [ChainId.MATIC]: LiquidityDex.UniswapV3,
       [ChainId.LINEA]: LiquidityDex.Algebra,
     },
     active: true,
@@ -1408,6 +1413,9 @@ const tokens: Record<string, Token> = {
     },
     decimals: {
       [ChainId.ARBITRUM]: 18,
+    },
+    liquidityDex: {
+      [ChainId.ARBITRUM]: LiquidityDex.UniswapV3,
     },
     active: true,
   },
@@ -1492,6 +1500,10 @@ const tokens: Record<string, Token> = {
       [ChainId.KATANA_TESTNET]: LiquidityDex.External,
       [ChainId.KATANA]: LiquidityDex.External,
       [ChainId.UNICHAIN]: LiquidityDex.External,
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+      [ChainId.MATIC]: LiquidityDex.UniswapV3,
+      [ChainId.ARBITRUM]: LiquidityDex.PancakeSwapV3,
+      //[ChainId.IOTA]: LiquidityDex., //couldn't find the liqDex for IOTA
     },
     active: true,
   },
@@ -1506,6 +1518,10 @@ const tokens: Record<string, Token> = {
       [ChainId.ARBITRUM]: '0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f',
       [ChainId.BASE]: '0x0c41F1FC9022FEB69aF6dc666aBfE73C9FFDA7ce',
       [ChainId.MONAD_TESTNET]: '0xcf5a6076cfa32686c0Df13aBaDa2b40dec133F1d',
+      [ChainId.MAINNET]: '0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599',
+      [ChainId.BERACHAIN]: '0x0555E30da8f98308EdB960aa94C0Db47230d2B9c',
+      [ChainId.SONIC]: '0x0555E30da8f98308EdB960aa94C0Db47230d2B9c', //same address with berachain
+      [ChainId.BLAST]: '0xF7bc58b8D8f97ADC129cfC4c9f45Ce3C0E1D2692',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -1516,11 +1532,22 @@ const tokens: Record<string, Token> = {
       [ChainId.ARBITRUM]: 8,
       [ChainId.BASE]: 18,
       [ChainId.MONAD_TESTNET]: 8,
+      [ChainId.MAINNET]: 8,
+      [ChainId.BERACHAIN]: 8,
+      [ChainId.SONIC]: 8,
+      [ChainId.BLAST]: 18,
     },
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+      [ChainId.MATIC]: LiquidityDex.UniswapV3,
       [ChainId.LINEA]: LiquidityDex.Lynex,
+      [ChainId.ARBITRUM]: LiquidityDex.UniswapV3,
+      [ChainId.BASE]: LiquidityDex.UniswapV2,
       [ChainId.MONAD_TESTNET]: LiquidityDex.PancakeSwapV2,
+      [ChainId.MAINNET]: LiquidityDex.UniswapV3,
+      [ChainId.BERACHAIN]: LiquidityDex.KodiakV3,
+      [ChainId.SONIC]: LiquidityDex.ShadowExchange,
+      [ChainId.BLAST]: LiquidityDex.ThrusterV3, //very low liquidity on Blast
     },
     active: true,
   },
@@ -2633,7 +2660,12 @@ const tokens: Record<string, Token> = {
       [ChainId.ARBITRUM]: 18,
     },
     liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+      [ChainId.MATIC]: LiquidityDex.UniswapV3,
       [ChainId.MAINNET]: LiquidityDex.UniswapV3,
+      [ChainId.LINEA]: LiquidityDex.Lynex, //very low liquidity on Linea
+      [ChainId.BASE]: LiquidityDex.UniswapV3,
+      [ChainId.ARBITRUM]: LiquidityDex.UniswapV3,
     },
     active: true,
   },
@@ -3600,6 +3632,9 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+    },
   },
   dot: {
     symbol: 'DOT',
@@ -3640,6 +3675,9 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 18,
     },
     active: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+    },
   },
   link: {
     symbol: 'LINK',
