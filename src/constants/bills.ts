@@ -79,7 +79,7 @@ const bills: BillsConfig[] = [
     fullDescription: `SKOR AI is a cutting-edge artificial intelligence company redefining the gaming experience with advanced AI-driven solutions tailored for gamers of all levels. Its intelligent agents deliver real-time insights, detect trends, recommend games, and optimize strategies to elevate gameplay and decision-making. By harnessing machine learning, automation, and deep data analytics, SKOR AI actively monitors gaming forums, communities, and market signals to uncover hidden lore, track esports meta shifts, and surface the best gaming deals. From skill improvement to content discovery and savings, SKOR AI functions as a smart companion enhancing every facet of gaming. With a strong focus on innovation and community-led growth, SKOR AI is shaping a more immersive, competitive, and rewarding gaming future. The $SKORAI token serves as the backbone of the ecosystem, powering staking, governance, and infrastructure growth, and rewarding long-term participation.`,
     shortDescription: `SKOR AI enhances the gaming experience with AI-powered insights, personalized recommendations, and strategic tools for players of all levels. By tracking trends, esports metas, and gaming deals, it helps users stay ahead and save more. The $SKORAI token powers the ecosystem, enabling staking, governance, and rewarding active community participation.`,
     tags: ['AI Agent'],
-    warningCard: `This token is currently only tradable on <a href="https://www.mexc.com/exchange/VPT_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a>.`,
+    warningCard: `This token is currently only tradable on <a href="https://www.mexc.com/exchange/SKORAI_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a>.`,
   },
   {
     index: 18003,
@@ -105,7 +105,7 @@ const bills: BillsConfig[] = [
     fullDescription: ` Urban Key to Web3, or RKEY, is redefining how people interact with Web3 by offering access to physical Web3 Hubs in major cities through real estate-backed NFTs on Solana. With a mission to bridge traditional real estate and blockchain seamlessly, RKEY creates immersive, real-world hubs for top-tier Web3 projects, fostering co-development, networking, and personal growth opportunities for members. Investors from around the globe can connect their Solana wallets and invest in commercial real estate via on-chain NFTs that generate yield. As the native utility token, $RKEY powers the ecosystem, rewarding users and aligning incentives across the platform. RKEY’s vision is to lead global Web3 adoption by expanding its footprint in key urban centers.`,
     shortDescription: `RKEY is the urban key to Web3, giving users access to physical Web3 Hubs in major cities through real estate-backed NFTs on Solana. Members enjoy co-working, networking, and tools for growth, while investors earn yield by connecting their wallets and selecting NFTs. Powered by the $RKEY token that powers the ecosystem, rewarding users and aligning incentives across the platform.`,
     tags: ['RWA'],
-    warningCard: `This token is currently only tradable on <a href="https://www.lbank.com/trade/lb_usdt/" target="_blank" rel="noopener noreferrer" style="color: #6099c5">LBank</a>.`,
+    warningCard: `This token is currently only tradable on <a href="https://www.lbank.com/trade/rkey_usdt" target="_blank" rel="noopener noreferrer" style="color: #6099c5">LBank</a>.`,
   },
   {
     index: 18004,
@@ -131,7 +131,7 @@ const bills: BillsConfig[] = [
     fullDescription: ` Urban Key to Web3, or RKEY, is redefining how people interact with Web3 by offering access to physical Web3 Hubs in major cities through real estate-backed NFTs on Solana. With a mission to bridge traditional real estate and blockchain seamlessly, RKEY creates immersive, real-world hubs for top-tier Web3 projects, fostering co-development, networking, and personal growth opportunities for members. Investors from around the globe can connect their Solana wallets and invest in commercial real estate via on-chain NFTs that generate yield. As the native utility token, $RKEY powers the ecosystem, rewarding users and aligning incentives across the platform. RKEY’s vision is to lead global Web3 adoption by expanding its footprint in key urban centers.`,
     shortDescription: `RKEY is the urban key to Web3, giving users access to physical Web3 Hubs in major cities through real estate-backed NFTs on Solana. Members enjoy co-working, networking, and tools for growth, while investors earn yield by connecting their wallets and selecting NFTs. Powered by the $RKEY token that powers the ecosystem, rewarding users and aligning incentives across the platform.`,
     tags: ['RWA'],
-    warningCard: `This token is currently only tradable on <a href="https://www.lbank.com/trade/lb_usdt/" target="_blank" rel="noopener noreferrer" style="color: #6099c5">LBank</a>.`,
+    warningCard: `This token is currently only tradable on <a href="https://www.lbank.com/trade/rkey_usdt" target="_blank" rel="noopener noreferrer" style="color: #6099c5">LBank</a>.`,
   },
   {
     index: 18005,
