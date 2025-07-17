@@ -4559,7 +4559,7 @@ const tokens: Record<string, Token> = {
     },
     decimals: { [ChainId.MAINNET]: 18 },
     liquidityDex: {
-      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
+      [ChainId.MAINNET]: LiquidityDex.UniswapV3,
     },
     active: true,
   },
