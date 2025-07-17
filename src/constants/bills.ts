@@ -3864,7 +3864,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://boudicea.io/',
     twitter: 'https://x.com/Boudicea_game',
     initTime: { [ChainId.BSC]: 1743008933 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
