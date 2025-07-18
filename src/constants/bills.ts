@@ -3250,6 +3250,7 @@ const bills: BillsConfig[] = [
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
     ],
+    warningCard: `some comment about the hot summer campaign`,
   },
   {
     index: 1156,
