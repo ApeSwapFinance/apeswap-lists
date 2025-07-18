@@ -5,7 +5,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Polygon Largest ID: 184
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2031
-// ETH Largest ID: 3046
+// ETH Largest ID: 3047
 // Linea Largest ID: 6019
 // Base Largest ID: 8052
 // Lightlink Largest ID: 7003
@@ -15159,7 +15159,7 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://www.adoprotocol.com/',
     twitter: 'https://x.com/adoprotocol',
     initTime: { [ChainId.MAINNET]: 1752858000 },
-    soldOut: true,
+    soldOut: false,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
