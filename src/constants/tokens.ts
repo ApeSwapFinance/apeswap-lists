@@ -5238,19 +5238,19 @@ const tokens: Record<string, Token> = {
       [ChainId.UNICHAIN]: LiquidityDex.External,
     },
   },
-  unidoge: {
-    symbol: 'UNIDOGE',
-    address: {
-      [ChainId.UNICHAIN]: '0xa84A8Acc04CD47e18bF5Af826aB00D5026552EA5',
-    },
-    decimals: {
-      [ChainId.UNICHAIN]: 18,
-    },
-    active: true,
-    liquidityDex: {
-      [ChainId.UNICHAIN]: LiquidityDex.UniswapV3,
-    },
-  },
+  // unidoge: {
+  //   symbol: 'UNIDOGE',
+  //   address: {
+  //     [ChainId.UNICHAIN]: '0xa84A8Acc04CD47e18bF5Af826aB00D5026552EA5',
+  //   },
+  //   decimals: {
+  //     [ChainId.UNICHAIN]: 18,
+  //   },
+  //   active: true,
+  //   liquidityDex: {
+  //     [ChainId.UNICHAIN]: LiquidityDex.UniswapV3,
+  //   },
+  // },
   bvecatx: {
     symbol: 'bveCATX',
     address: {
