@@ -395,6 +395,55 @@
     "tags": ["Community", "Meme"]
   },
   {
+    "index": 18009,
+    "version": "2.2.0",
+    "chainId": 7565164,
+    "contractAddress": {
+      "7565164": "7Fw751UHbZb9sigVWt8iREJ1saAj2mxqudwecYBooMti"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "7565164": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
+      },
+      "decimals": {
+        "7565164": 6
+      },
+      "liquidityDex": {
+        "7565164": "External"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "BLOCK",
+      "address": {
+        "7565164": "NFTUkR4u7wKxy9QLaX2TGvd9oZSWoMo4jqSJqdMb7Nk"
+      },
+      "decimals": {
+        "7565164": 6
+      },
+      "liquidityDex": {
+        "7565164": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "7565164": "9VzREdc484WqjvVsakqXEQK2G2oCE1o8dVjq2HjEwFLD"
+    },
+    "inactive": false,
+    "projectLink": "https://home.blockasset.co/",
+    "twitter": "https://x.com/blockassetco",
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "fullDescription": "Blockasset is revolutionizing the way fans and athletes connect by offering multiple touchpoints that benefit both groups. In contrast to Web2's centralized platforms where users were the product, Blockasset is building a Web3 social platform where fans and athletes can engage directly through athlete tokens, NFTs, and Web3 social tools. While platforms like Chilliz and Socios introduced fan tokens for sports teams, Blockasset goes further, enabling direct interaction between athletes and their fans, with benefits shaped by the athletes themselves. Each athlete on Blockasset has their own token. The ecosystem is powered by the BLOCK token, which will serve as the main trading pair for athlete token transactions. Fans must acquire BLOCK tokens to access exclusive athlete tokens, as some of the world’s top sports stars release their own tokens on the Blockasset platform, putting the athlete's brand in the hands of their most dedicated supporters.",
+    "shortDescription": "Blockasset revolutionizes fan-athlete interaction with a Web3 platform powered by athlete tokens, NFTs, and social tools. Unlike platforms like Chilliz and Socios, Blockasset offers direct engagement between athletes and fans, with benefits set by the athletes. Powered by the BLOCK token, fans must acquire BLOCK to access exclusive athlete tokens from top sports stars. You can also make your picks from a range of sports leagues, including UFC and Premier League. Climb the leaderboard, earn points, rank up, and collect crypto rewards.",
+    "tags": ["GAMEFI"]
+  },
+  {
     "index": 16000,
     "version": "2.1.0",
     "chainId": 80094,
