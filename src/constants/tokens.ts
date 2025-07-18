@@ -2686,6 +2686,7 @@ const tokens: Record<string, Token> = {
       [ChainId.SONIC]: '0x6047828dc181963ba44974801FF68e538dA5eaF9',
       [ChainId.KATANA]: '0x2DCa96907fde857dd3D816880A0df407eeB2D2F2',
       [ChainId.UNICHAIN]: '0x9151434b16b9763660705744891fA906F660EcC5',
+      [ChainId.SOL]: 'Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB',
     },
     decimals: {
       [ChainId.MAINNET]: 6,
@@ -2702,6 +2703,7 @@ const tokens: Record<string, Token> = {
       [ChainId.SONIC]: 6,
       [ChainId.KATANA]: 6,
       [ChainId.UNICHAIN]: 6,
+      [ChainId.SOL]: 6,
     },
     liquidityDex: {
       [ChainId.MAINNET]: LiquidityDex.UniswapV2,
@@ -2716,6 +2718,7 @@ const tokens: Record<string, Token> = {
       [ChainId.SONIC]: LiquidityDex.ShadowExchange,
       [ChainId.KATANA]: LiquidityDex.External,
       [ChainId.UNICHAIN]: LiquidityDex.External,
+      [ChainId.SOL]: LiquidityDex.External,
     },
     active: true,
   },

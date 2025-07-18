@@ -416,6 +416,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       type: 'token',
       tokenAddress: 'NFTUkR4u7wKxy9QLaX2TGvd9oZSWoMo4jqSJqdMb7Nk',
     },
+    Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB: {
+      name: 'USDT',
+      symbol: 'USDT',
+      decimals: 6,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: 'Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB',
+    },
   },
 
   [ChainId.BERACHAIN]: {
