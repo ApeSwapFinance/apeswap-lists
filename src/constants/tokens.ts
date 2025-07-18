@@ -5246,6 +5246,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  catx: {
+    symbol: 'CATX',
+    address: {
+      [ChainId.UNICHAIN]: '0x756ee6857F915A2b5366F2Ef56d8D13857aef8ad',
+    },
+    decimals: {
+      [ChainId.UNICHAIN]: 18,
+    },
+    liquidityDex: {
+      [ChainId.UNICHAIN]: LiquidityDex.UniswapV3,
+    },
+    active: true,
+  },
 
   //***** LIGHTLINK TOKENS  *****/
   ll: {
