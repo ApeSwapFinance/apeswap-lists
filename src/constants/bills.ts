@@ -19,7 +19,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Sonic Largest ID: 15005
 // Berachain Largest ID: 16004
 // Katana Largest ID: 17000
-// SOL Largest ID: 18003
+// SOL Largest ID: 18009
 
 const bills: BillsConfig[] = [
   //
@@ -232,6 +232,31 @@ const bills: BillsConfig[] = [
     fullDescription: `Trumpenguin is a bold and chaotic memecoin designed to ride the highs and lows of Donald Trump’s next presidential run, capturing every controversial tweet, major decision, and viral moment along the way. Built for meme lovers and risk-takers, Trumpenguin blends entertainment with tokenomics by burning tokens every time a milestone on its roadmap is completed, injecting volatility and excitement into the project. Whether it soars or sinks, Trumpenguin is committed to delivering a front-row seat to political drama and internet culture in real time. With a mission to fuel the fire of meme-driven speculation, it taps into the thrill-seeking side of crypto investors eager to chase hype, embrace unpredictability, and laugh through the chaos. TPG isn’t just a token—it’s the engine behind Trumpenguin’s unpredictable march through the meme-filled mayhem of modern politics and crypto culture.`,
     shortDescription: `Trumpenguin is a chaotic memecoin following the wild ride of Trump’s next presidential run, capturing every tweet, move, and viral moment. With tokens burned at each roadmap milestone, TPG brings volatility and fun to the forefront. It’s built for meme lovers and risk-takers chasing hype, embracing chaos, and laughing through the unpredictable world of crypto and politics.`,
     tags: ['Community', 'Meme'],
+  },
+  {
+    index: 18009,
+    version: '2.2.0',
+    chainId: ChainId.SOL,
+    contractAddress: {
+      [ChainId.SOL]: '7Fw751UHbZb9sigVWt8iREJ1saAj2mxqudwecYBooMti',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdt,
+    earnToken: tokens.block,
+    billNnftAddress: {
+      [ChainId.SOL]: '9VzREdc484WqjvVsakqXEQK2G2oCE1o8dVjq2HjEwFLD',
+    },
+    inactive: false,
+    projectLink: 'https://home.blockasset.co/',
+    twitter: 'https://x.com/blockassetco',
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    fullDescription: `Blockasset is revolutionizing the way fans and athletes connect by offering multiple touchpoints that benefit both groups. In contrast to Web2's centralized platforms where users were the product, Blockasset is building a Web3 social platform where fans and athletes can engage directly through athlete tokens, NFTs, and Web3 social tools. While platforms like Chilliz and Socios introduced fan tokens for sports teams, Blockasset goes further, enabling direct interaction between athletes and their fans, with benefits shaped by the athletes themselves. Each athlete on Blockasset has their own token. The ecosystem is powered by the BLOCK token, which will serve as the main trading pair for athlete token transactions. Fans must acquire BLOCK tokens to access exclusive athlete tokens, as some of the world’s top sports stars release their own tokens on the Blockasset platform, putting the athlete's brand in the hands of their most dedicated supporters.`,
+    shortDescription: `Blockasset revolutionizes fan-athlete interaction with a Web3 platform powered by athlete tokens, NFTs, and social tools. Unlike platforms like Chilliz and Socios, Blockasset offers direct engagement between athletes and fans, with benefits set by the athletes. Powered by the BLOCK token, fans must acquire BLOCK to access exclusive athlete tokens from top sports stars. You can also make your picks from a range of sports leagues, including UFC and Premier League. Climb the leaderboard, earn points, rank up, and collect crypto rewards.`,
+    tags: ['GAMEFI'],
   },
 
   //
