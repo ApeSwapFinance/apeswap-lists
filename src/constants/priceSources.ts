@@ -408,6 +408,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       type: 'token',
       tokenAddress: '2eK5WyE5uVrn1SRmNp9SsxQovzrs1PhrN33breBTgkf1',
     },
+    NFTUkR4u7wKxy9QLaX2TGvd9oZSWoMo4jqSJqdMb7Nk: {
+      name: 'TRUMPENGUIN',
+      symbol: 'TPG',
+      decimals: 6,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: 'NFTUkR4u7wKxy9QLaX2TGvd9oZSWoMo4jqSJqdMb7Nk',
+    },
   },
 
   [ChainId.BERACHAIN]: {

@@ -4677,10 +4677,12 @@ const tokens: Record<string, Token> = {
     symbol: 'BLOCK',
     address: {
       [ChainId.BSC]: '0xbC7A566b85eF73F935e640A06b5a8b031Cd975Df',
+      [ChainId.SOL]: 'NFTUkR4u7wKxy9QLaX2TGvd9oZSWoMo4jqSJqdMb7Nk',
     },
-    decimals: { [ChainId.BSC]: 6 },
+    decimals: { [ChainId.BSC]: 6, [ChainId.SOL]: 6 },
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+      [ChainId.SOL]: LiquidityDex.External,
     },
     active: true,
   },
