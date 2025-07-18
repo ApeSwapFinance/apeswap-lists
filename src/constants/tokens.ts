@@ -1499,7 +1499,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BERACHAIN]: LiquidityDex.KodiakV3,
       [ChainId.KATANA_TESTNET]: LiquidityDex.External,
       [ChainId.KATANA]: LiquidityDex.External,
-      [ChainId.UNICHAIN]: LiquidityDex.External,
+      [ChainId.UNICHAIN]: LiquidityDex.UniswapV3,
       [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
       [ChainId.MATIC]: LiquidityDex.UniswapV3,
       [ChainId.ARBITRUM]: LiquidityDex.PancakeSwapV3,
@@ -1643,7 +1643,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BERACHAIN]: LiquidityDex.KodiakV3,
       [ChainId.KATANA]: LiquidityDex.External,
       [ChainId.SOL]: LiquidityDex.External,
-      [ChainId.UNICHAIN]: LiquidityDex.External,
+      [ChainId.UNICHAIN]: LiquidityDex.UniswapV3,
     },
     active: true,
   },
@@ -4559,7 +4559,7 @@ const tokens: Record<string, Token> = {
     },
     decimals: { [ChainId.MAINNET]: 18 },
     liquidityDex: {
-      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
+      [ChainId.MAINNET]: LiquidityDex.UniswapV3,
     },
     active: true,
   },
@@ -5237,6 +5237,19 @@ const tokens: Record<string, Token> = {
     symbol: 'bveCATX',
     address: {
       [ChainId.UNICHAIN]: '0x7169a1874d4716094bdcE1b86a5cd00212CA1319',
+    },
+    decimals: {
+      [ChainId.UNICHAIN]: 18,
+    },
+    liquidityDex: {
+      [ChainId.UNICHAIN]: LiquidityDex.External,
+    },
+    active: true,
+  },
+  catx: {
+    symbol: 'CATX',
+    address: {
+      [ChainId.UNICHAIN]: '0x756ee6857F915A2b5366F2Ef56d8D13857aef8ad',
     },
     decimals: {
       [ChainId.UNICHAIN]: 18,

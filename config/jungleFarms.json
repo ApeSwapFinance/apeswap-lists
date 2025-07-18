@@ -169,7 +169,7 @@
         "liquidityDex": {
           "1": "UniswapV3",
           "56": "PancakeSwapV3",
-          "130": "External",
+          "130": "UniswapV3",
           "137": "UniswapV3",
           "146": "ShadowExchange",
           "614": "External",
@@ -506,7 +506,7 @@
         "liquidityDex": {
           "1": "UniswapV3",
           "56": "PancakeSwapV2",
-          "130": "External",
+          "130": "UniswapV3",
           "137": "UniswapV3",
           "146": "ShadowExchange",
           "751": "Citea",
@@ -693,7 +693,7 @@
         "liquidityDex": {
           "1": "UniswapV3",
           "56": "PancakeSwapV2",
-          "130": "External",
+          "130": "UniswapV3",
           "137": "UniswapV3",
           "146": "ShadowExchange",
           "751": "Citea",
@@ -849,7 +849,7 @@
         "liquidityDex": {
           "1": "UniswapV3",
           "56": "PancakeSwapV2",
-          "130": "External",
+          "130": "UniswapV3",
           "137": "UniswapV3",
           "146": "ShadowExchange",
           "751": "Citea",

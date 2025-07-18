@@ -5,7 +5,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Polygon Largest ID: 184
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2031
-// ETH Largest ID: 3046
+// ETH Largest ID: 3047
 // Linea Largest ID: 6019
 // Base Largest ID: 8052
 // Lightlink Largest ID: 7003
@@ -3188,6 +3188,44 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  // {
+  //   index: 1157,
+  //   cmcId: 29157,
+  //   version: '2.1.0',
+  //   chainId: ChainId.BSC,
+  //   contractAddress: {
+  //     [ChainId.BSC]: '0x420b6C8395982e983E8E346165782261a31Ba0a6',
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V4,
+  //   lpToken: tokens.usdt,
+  //   earnToken: tokens.abond,
+  //   billNnftAddress: {
+  //     [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+  //   },
+  //   inactive: false,
+  //   projectLink: 'https://ape.bond/',
+  //   twitter: 'https://twitter.com/apebond',
+  //   audit: 'https://paladinsec.co/projects/apebond/',
+  //   initTime: { [ChainId.BSC]: 1752575049 },
+  //   soldOut: false,
+  //   billArt: {
+  //     collection: BillArtCollection.HotBondingSummer_Collection1,
+  //   },
+  //   shortDescription:
+  //     'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
+  //   fullDescription:
+  //     'ApeBond is building a sustainable DeFi future through its innovative Bonds products and strategic partnerships. Known for its Crowdsource OTC solution and treasury diversification expertise, ApeBond has launched Bonds with over 140 partners, sold 38,000+ Bonds for a total of $14,000,000 USD, and achieved a top 10 Dapp status by daily active users (DAU) according to CoinMarketCap. The ABOND token ties users with the platform by unlocking special Bonds, new earning opportunities, and more utilities coming up in the pipeline.',
+  //   tags: ['Bonding'],
+  //   partnersURLS: [
+  //     'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/Seedify_fbt392.svg',
+  //     'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613244/ORBS_anzm60.png',
+  //     'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/quickLogo_2_1_g95ynz.png',
+  //     'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/aitech_logo_100_real_no_fake_bjskiq.png',
+  //     'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
+  //     'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
+  //   ],
+  // },
   {
     index: 1156,
     cmcId: 29157,
@@ -15101,6 +15139,34 @@ With the lending products set to go live in February, the project is poised to a
       'Memento is an RWA project developing blockchain-based infrastructure for TradFi institutions to enable institutional blockchain adoption. In collaboration with Deutsche Bank, Memento built Memento ZKchain, an institutional-grade ETH L2 for tokenized fund management and RWA tokenization—secure, scalable, and compliant. $DEXTF is the only utility token accruing value from the entire Memento ecosystem.',
     fullDescription:
       'Memento is an RWA project developing blockchain-based infrastructure for TradFi institutions to drive institutional blockchain adoption. In collaboration with Deutsche Bank, Memento built Memento ZKchain—an institutional-grade ETH L2 designed for tokenized fund management and RWA tokenization, with security, compliance, and scalability in mind. Memento also launched “Memento Digital Fund Management,” a multi-chain protocol to create, manage, invest in, and redeem ETF-style tokenized funds. $DEXTF is the only utility token that accrues value from the entire Memento ecosystem. More info on $DEXTF and its utility can be found <a href="https://mementoblockchain.com/dextf" target="_blank" rel="noopener noreferrer" style="color: #6099c5">here</a>.',
+  },
+  {
+    index: 3047,
+    cmcId: 22089,
+    version: '2.1.0',
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0x95579b105c27f0f787e9e023619Adc5AE3FD1754',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.ado,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    inactive: false,
+    projectLink: 'https://www.adoprotocol.com/',
+    twitter: 'https://x.com/adoprotocol',
+    initTime: { [ChainId.MAINNET]: 1752858000 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['DeFi'],
+    shortDescription:
+      'ADO Protocol is a next-gen DEX offering ultra-low fees and built-in MEV protection without custody or keys. Trades are up to 5x cheaper than Uniswap, and elastic liquidity delivers 30–50% APY by shifting between ETH and USDC. The ADO token powers the ecosystem, with 25% of all platform revenue allocated to buybacks. Buy ADO, join the community, and say goodbye to sky-high fees and MEV bot attacks.',
+    fullDescription: `ADO Protocol is a next-gen DEX designed to crush high fees and eliminate MEV bot attacks for good. With trading costs up to 5x cheaper than Uniswap for regular trades and powerful MEV protection for private trades, users save big while staying secure. Traders benefit from fewer fees, more tokens per swap, and built-in bot defense with no custody or keys required. Projects can supercharge liquidity in Uniswap V2 pools while earning 100% of DEX fees on Uniswap V3. Thanks to elastic liquidity, all capital in the DEX earns 30–50% APY by dynamically shifting between ETH and USDC based on market conditions. Add seamless no-code website integration, fiat on-ramps, and a whale-only group for ADO holders, and you've got a full-featured DeFi powerhouse with 25% of all platform revenue going towards ADO buybacks. Buy ADO, join the community, and say goodbye to sky-high fees and MEV bot attacks.`,
   },
 ]
 

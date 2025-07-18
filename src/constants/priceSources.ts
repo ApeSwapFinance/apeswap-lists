@@ -479,6 +479,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       price: 0.1,
       tokenAddress: '0x7169a1874d4716094bdcE1b86a5cd00212CA1319',
     },
+    '0x756ee6857F915A2b5366F2Ef56d8D13857aef8ad': {
+      name: 'CATEX',
+      symbol: 'CATX',
+      decimals: 18,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '0x756ee6857F915A2b5366F2Ef56d8D13857aef8ad',
+    },
   },
   [ChainId.MAINNET]: {
     '0x0624069497F830BEa84bd7Ad410b878270130035': {
