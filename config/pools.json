@@ -2982,7 +2982,8 @@
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
-        "747474": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2"
+        "747474": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2",
+        "7565164": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
       },
       "decimals": {
         "1": 6,
@@ -2998,7 +2999,8 @@
         "8822": 6,
         "42161": 6,
         "59144": 6,
-        "747474": 6
+        "747474": 6,
+        "7565164": 6
       },
       "liquidityDex": {
         "1": "UniswapV2",
@@ -3012,7 +3014,8 @@
         "8822": "Wagmi",
         "42161": "UniswapV3",
         "59144": "Nile",
-        "747474": "External"
+        "747474": "External",
+        "7565164": "External"
       },
       "active": true
     },
