@@ -325,6 +325,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  yuuki: {
+    symbol: 'YUUKI',
+    address: {
+      [ChainId.BASE]: '0x277f301B1d7471EE948f801b1ff3575AD7F33E21',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV2,
+    },
+    active: true,
+  },
   xfi: {
     symbol: 'XFI',
     address: {
@@ -2502,6 +2515,19 @@ const tokens: Record<string, Token> = {
     symbol: 'ICNX',
     address: {
       [ChainId.MATIC]: '0x91f3B9366801C1fCa6184C3bD99d5Ab0C43A9033',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.UniswapV3,
+    },
+    active: true,
+  },
+  galaxis: {
+    symbol: 'GALAXIS',
+    address: {
+      [ChainId.MATIC]: '0x3C69d114664d48357d820Dbdd121a8071eAc99bf',
     },
     decimals: {
       [ChainId.MATIC]: 18,
@@ -7059,6 +7085,22 @@ const tokens: Record<string, Token> = {
     lpToken: true,
     liquidityWrapper: Wrappers.Ichi,
     ichiUnderlyingDex: IchiSupportedDex.Quickswap,
+  },
+  usdtGalaxis_Ichi: {
+    symbol: 'USDT-GALAXIS',
+    address: {
+      [ChainId.MATIC]: '0x252557f1C386DacB510456e1BE7b9dc036dc5D21',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.Algebra,
+    },
+    active: true,
+    lpToken: true,
+    liquidityWrapper: Wrappers.Ichi,
+    ichiUnderlyingDex: IchiSupportedDex.UniswapV3,
   },
   usdtFan_Ichi: {
     symbol: 'USDT-FAN',

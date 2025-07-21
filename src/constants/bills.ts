@@ -7,7 +7,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Arbitrum Largest ID: 2031
 // ETH Largest ID: 3047
 // Linea Largest ID: 6019
-// Base Largest ID: 8052
+// Base Largest ID: 8053
 // Lightlink Largest ID: 7003
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
@@ -1096,6 +1096,32 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
+  {
+    index: 8053,
+    version: '2.1.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x3ba393180FF8548be035bE38DE3FB99644E6C2AB',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.yuuki,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://fullhouse.gg/',
+    twitter: 'https://x.com/Full_House_GG',
+    initTime: { [ChainId.BASE]: 1753099559 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['AI Agent'],
+    shortDescription: `Fullhouse.gg, a leading crypto casino and sports betting platform, launched in 2024, offers users the chance to "be the house" and share in its success. Powered by the $YUUKI AI agent, the token manages backend operations, rewards bold bettors, and offers exclusive perks like yield earnings, loyalty bonuses, and Creatorbid rewards—enhancing the Fullhouse experience.`,
+    fullDescription: `Fullhouse.gg is a premier crypto casino and sports betting platform founded in 2021 and officially launched in 2024, rapidly growing to over 30,000 active users and surpassing 10.5 million bets. Designed to deliver an elite gaming experience, Fullhouse offers users a unique opportunity to "be the house" and share in its success. At the heart of the platform is Yuuki, an advanced AI agent shaped by the legacy of Monte Carlo’s legendary casino designers and Japan’s Pachinko masterminds. More than a chatbot, $YUUKI is the AI operator of Fullhouse’s backend—handling deposits, withdrawals, KYC, revenue distribution, and community moderation across both the platform and Discord. As a utility token, $YUUKI enables users to earn yield from platform revenues, unlock accelerated loyalty tiers, and gain exclusive rewards through Creatorbid staking. AI Agent: $YUUKI. The $YUUKI AI Agent token is seperate from the Fullhouse governance token $FH.`,
+  },
   {
     index: 8052,
     cmcId: 18787,
@@ -3250,6 +3276,7 @@ const bills: BillsConfig[] = [
   //     'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
   //     'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
   //   ],
+  //   warningCard: `some comment about the hot summer campaign`,
   // },
   {
     index: 1156,
@@ -3271,7 +3298,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.BSC]: 1751044196 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -10216,6 +10243,34 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   /*
     Polygon Bills
   */
+  // {
+  //   index: 185,
+  //   cmcId: 31154,
+  //   version: '2.1.0',
+  //   chainId: ChainId.MATIC,
+  //   contractAddress: {
+  //     [ChainId.MATIC]: '',
+  //   },
+  //   billType: 'liquidity',
+  //   billVersion: BillVersion.V4,
+  //   lpToken: tokens.usdtGalaxis_Ichi,
+  //   earnToken: tokens.galaxis,
+  //   billNnftAddress: {
+  //     [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
+  //   },
+  //   inactive: false,
+  //   projectLink: 'https://galaxis.xyz/#/',
+  //   twitter: 'https://x.com/Galaxisxyz',
+  //   initTime: { [ChainId.MATIC]: 1753101077 },
+  //   soldOut: false,
+  //   billArt: {
+  //     collection: BillArtCollection.ApeBond_Collection1,
+  //   },
+  //   shortDescription:
+  //     'Galaxis is a Web3-powered platform to create dynamic membership card communities. Use $GALAXIS to unlock features, vote, access events, and build a sustainable community economy.',
+  //   fullDescription: `Galaxis empowers creators and communities with customizable, utility-packed membership cards enhanced by badges. From virtual meetings to physical rewards and gamification, Galaxis brings engagement to the next level. At the core of it all is $GALAXIS — the utility token that fuels community growth. Use it to access perks, vote, join events, or stake to boost your treasury and leaderboard rank. Whether you're Web3-native or not, Galaxis helps you build a sustainable and independent community economy.`,
+  //   tags: ['DeFi Tooling'],
+  // },
   {
     index: 184,
     cmcId: 29157,
