@@ -7,7 +7,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Arbitrum Largest ID: 2031
 // ETH Largest ID: 3047
 // Linea Largest ID: 6019
-// Base Largest ID: 8052
+// Base Largest ID: 8053
 // Lightlink Largest ID: 7003
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
@@ -1096,6 +1096,32 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
+  {
+    index: 8053,
+    version: '2.1.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x3ba393180FF8548be035bE38DE3FB99644E6C2AB',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.yuuki,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://fullhouse.gg/',
+    twitter: 'https://x.com/Full_House_GG',
+    initTime: { [ChainId.BASE]: 1753099559 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['AI Agent'],
+    shortDescription: `.....`,
+    fullDescription: `........`,
+  },
   {
     index: 8052,
     cmcId: 18787,
