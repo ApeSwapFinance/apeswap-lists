@@ -225,7 +225,7 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://trumpenguin.com/',
     twitter: 'https://x.com/trumpenguin',
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
