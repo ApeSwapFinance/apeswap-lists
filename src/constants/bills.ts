@@ -7,7 +7,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Arbitrum Largest ID: 2031
 // ETH Largest ID: 3047
 // Linea Largest ID: 6019
-// Base Largest ID: 8052
+// Base Largest ID: 8053
 // Lightlink Largest ID: 7003
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
@@ -175,7 +175,7 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://www.orcadefai.com/',
     twitter: 'https://x.com/ORCAIDEF',
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -225,7 +225,7 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://trumpenguin.com/',
     twitter: 'https://x.com/trumpenguin',
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1097,6 +1097,32 @@ const bills: BillsConfig[] = [
   // BASE
   //
   {
+    index: 8053,
+    version: '2.1.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x3ba393180FF8548be035bE38DE3FB99644E6C2AB',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.yuuki,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://fullhouse.gg/',
+    twitter: 'https://x.com/Full_House_GG',
+    initTime: { [ChainId.BASE]: 1753099559 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['AI Agent'],
+    shortDescription: `Fullhouse.gg, a leading crypto casino and sports betting platform, launched in 2024, offers users the chance to "be the house" and share in its success. Powered by the $YUUKI AI agent, the token manages backend operations, rewards bold bettors, and offers exclusive perks like yield earnings, loyalty bonuses, and Creatorbid rewards—enhancing the Fullhouse experience.`,
+    fullDescription: `Fullhouse.gg is a premier crypto casino and sports betting platform founded in 2021 and officially launched in 2024, rapidly growing to over 30,000 active users and surpassing 10.5 million bets. Designed to deliver an elite gaming experience, Fullhouse offers users a unique opportunity to "be the house" and share in its success. At the heart of the platform is Yuuki, an advanced AI agent shaped by the legacy of Monte Carlo’s legendary casino designers and Japan’s Pachinko masterminds. More than a chatbot, $YUUKI is the AI operator of Fullhouse’s backend—handling deposits, withdrawals, KYC, revenue distribution, and community moderation across both the platform and Discord. As a utility token, $YUUKI enables users to earn yield from platform revenues, unlock accelerated loyalty tiers, and gain exclusive rewards through Creatorbid staking. AI Agent: $YUUKI. The $YUUKI AI Agent token is seperate from the Fullhouse governance token $FH.`,
+  },
+  {
     index: 8052,
     cmcId: 18787,
     version: '2.1.0',
@@ -1251,7 +1277,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.veritasprotocol.com/',
     twitter: 'https://x.com/veritas_web3',
     initTime: { [ChainId.BASE]: 1745914126 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -3213,45 +3239,45 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
-  {
-    index: 1157,
-    cmcId: 29157,
-    version: '2.1.0',
-    chainId: ChainId.BSC,
-    contractAddress: {
-      [ChainId.BSC]: '0x420b6C8395982e983E8E346165782261a31Ba0a6',
-    },
-    billType: 'reserve',
-    billVersion: BillVersion.V4,
-    lpToken: tokens.usdt,
-    earnToken: tokens.abond,
-    billNnftAddress: {
-      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
-    },
-    inactive: false,
-    projectLink: 'https://ape.bond/',
-    twitter: 'https://twitter.com/apebond',
-    audit: 'https://paladinsec.co/projects/apebond/',
-    initTime: { [ChainId.BSC]: 1752575049 },
-    soldOut: false,
-    billArt: {
-      collection: BillArtCollection.HotBondingSummer_Collection1,
-    },
-    shortDescription:
-      'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
-    fullDescription:
-      'ApeBond is building a sustainable DeFi future through its innovative Bonds products and strategic partnerships. Known for its Crowdsource OTC solution and treasury diversification expertise, ApeBond has launched Bonds with over 140 partners, sold 38,000+ Bonds for a total of $14,000,000 USD, and achieved a top 10 Dapp status by daily active users (DAU) according to CoinMarketCap. The ABOND token ties users with the platform by unlocking special Bonds, new earning opportunities, and more utilities coming up in the pipeline.',
-    tags: ['Bonding'],
-    partnersURLS: [
-      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/Seedify_fbt392.svg',
-      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613244/ORBS_anzm60.png',
-      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/quickLogo_2_1_g95ynz.png',
-      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/aitech_logo_100_real_no_fake_bjskiq.png',
-      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
-      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
-    ],
-    warningCard: `some comment about the hot summer campaign`,
-  },
+  // {
+  //   index: 1157,
+  //   cmcId: 29157,
+  //   version: '2.1.0',
+  //   chainId: ChainId.BSC,
+  //   contractAddress: {
+  //     [ChainId.BSC]: '0x420b6C8395982e983E8E346165782261a31Ba0a6',
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V4,
+  //   lpToken: tokens.usdt,
+  //   earnToken: tokens.abond,
+  //   billNnftAddress: {
+  //     [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+  //   },
+  //   inactive: false,
+  //   projectLink: 'https://ape.bond/',
+  //   twitter: 'https://twitter.com/apebond',
+  //   audit: 'https://paladinsec.co/projects/apebond/',
+  //   initTime: { [ChainId.BSC]: 1752575049 },
+  //   soldOut: false,
+  //   billArt: {
+  //     collection: BillArtCollection.HotBondingSummer_Collection1,
+  //   },
+  //   shortDescription:
+  //     'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
+  //   fullDescription:
+  //     'ApeBond is building a sustainable DeFi future through its innovative Bonds products and strategic partnerships. Known for its Crowdsource OTC solution and treasury diversification expertise, ApeBond has launched Bonds with over 140 partners, sold 38,000+ Bonds for a total of $14,000,000 USD, and achieved a top 10 Dapp status by daily active users (DAU) according to CoinMarketCap. The ABOND token ties users with the platform by unlocking special Bonds, new earning opportunities, and more utilities coming up in the pipeline.',
+  //   tags: ['Bonding'],
+  //   partnersURLS: [
+  //     'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/Seedify_fbt392.svg',
+  //     'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613244/ORBS_anzm60.png',
+  //     'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/quickLogo_2_1_g95ynz.png',
+  //     'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/aitech_logo_100_real_no_fake_bjskiq.png',
+  //     'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
+  //     'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
+  //   ],
+  //   warningCard: `some comment about the hot summer campaign`,
+  // },
   {
     index: 1156,
     cmcId: 29157,
@@ -3272,7 +3298,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.BSC]: 1751044196 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -10217,6 +10243,34 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   /*
     Polygon Bills
   */
+  // {
+  //   index: 185,
+  //   cmcId: 31154,
+  //   version: '2.1.0',
+  //   chainId: ChainId.MATIC,
+  //   contractAddress: {
+  //     [ChainId.MATIC]: '',
+  //   },
+  //   billType: 'liquidity',
+  //   billVersion: BillVersion.V4,
+  //   lpToken: tokens.usdtGalaxis_Ichi,
+  //   earnToken: tokens.galaxis,
+  //   billNnftAddress: {
+  //     [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
+  //   },
+  //   inactive: false,
+  //   projectLink: 'https://galaxis.xyz/#/',
+  //   twitter: 'https://x.com/Galaxisxyz',
+  //   initTime: { [ChainId.MATIC]: 1753101077 },
+  //   soldOut: false,
+  //   billArt: {
+  //     collection: BillArtCollection.ApeBond_Collection1,
+  //   },
+  //   shortDescription:
+  //     'Galaxis is a Web3-powered platform to create dynamic membership card communities. Use $GALAXIS to unlock features, vote, access events, and build a sustainable community economy.',
+  //   fullDescription: `Galaxis empowers creators and communities with customizable, utility-packed membership cards enhanced by badges. From virtual meetings to physical rewards and gamification, Galaxis brings engagement to the next level. At the core of it all is $GALAXIS — the utility token that fuels community growth. Use it to access perks, vote, join events, or stake to boost your treasury and leaderboard rank. Whether you're Web3-native or not, Galaxis helps you build a sustainable and independent community economy.`,
+  //   tags: ['DeFi Tooling'],
+  // },
   {
     index: 184,
     cmcId: 29157,

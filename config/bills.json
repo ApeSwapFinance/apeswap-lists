@@ -288,7 +288,7 @@
     "inactive": false,
     "projectLink": "https://www.orcadefai.com/",
     "twitter": "https://x.com/ORCAIDEF",
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -386,7 +386,7 @@
     "inactive": false,
     "projectLink": "https://trumpenguin.com/",
     "twitter": "https://x.com/trumpenguin",
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -2048,6 +2048,58 @@
     "fullDescription": "FOMOFox is the first market-driven storytelling meme coin on IOTA EVM. Follow the thrilling journey of FOMOFox on TwitterX and help him conquer his FOMO by influencing the $FOMO Token’s market performance. Loyal holders will find countless opportunities to grow their $FOMO bags through raffles, solving riddles, or simply holding and supporting the fox. Along the way, FOMOFox faces diverse challenges and meets intriguing characters. Your influence on the market helps him make the right choices. This project offers pure entertainment and rewards those who stick with it! Join the adventure now and visit their website for more details!"
   },
   {
+    "index": 8053,
+    "version": "2.1.0",
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0x3ba393180FF8548be035bE38DE3FB99644E6C2AB"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "8453": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+      },
+      "decimals": {
+        "8453": 6
+      },
+      "liquidityDex": {
+        "8453": "Aerodrome"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "YUUKI",
+      "address": {
+        "8453": "0x277f301B1d7471EE948f801b1ff3575AD7F33E21"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "liquidityDex": {
+        "8453": "UniswapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "inactive": false,
+    "projectLink": "https://fullhouse.gg/",
+    "twitter": "https://x.com/Full_House_GG",
+    "initTime": {
+      "8453": 1753099559
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["AI Agent"],
+    "shortDescription": "Fullhouse.gg, a leading crypto casino and sports betting platform, launched in 2024, offers users the chance to \"be the house\" and share in its success. Powered by the $YUUKI AI agent, the token manages backend operations, rewards bold bettors, and offers exclusive perks like yield earnings, loyalty bonuses, and Creatorbid rewards—enhancing the Fullhouse experience.",
+    "fullDescription": "Fullhouse.gg is a premier crypto casino and sports betting platform founded in 2021 and officially launched in 2024, rapidly growing to over 30,000 active users and surpassing 10.5 million bets. Designed to deliver an elite gaming experience, Fullhouse offers users a unique opportunity to \"be the house\" and share in its success. At the heart of the platform is Yuuki, an advanced AI agent shaped by the legacy of Monte Carlo’s legendary casino designers and Japan’s Pachinko masterminds. More than a chatbot, $YUUKI is the AI operator of Fullhouse’s backend—handling deposits, withdrawals, KYC, revenue distribution, and community moderation across both the platform and Discord. As a utility token, $YUUKI enables users to earn yield from platform revenues, unlock accelerated loyalty tiers, and gain exclusive rewards through Creatorbid staking. AI Agent: $YUUKI. The $YUUKI AI Agent token is seperate from the Fullhouse governance token $FH."
+  },
+  {
     "index": 8052,
     "cmcId": 18787,
     "version": "2.1.0",
@@ -2358,7 +2410,7 @@
     "initTime": {
       "8453": 1745914126
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -6171,69 +6223,6 @@
     "shortDescription": "Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!"
   },
   {
-    "index": 1157,
-    "cmcId": 29157,
-    "version": "2.1.0",
-    "chainId": 56,
-    "contractAddress": {
-      "56": "0x420b6C8395982e983E8E346165782261a31Ba0a6"
-    },
-    "billType": "reserve",
-    "billVersion": "V4",
-    "lpToken": {
-      "symbol": "USDT",
-      "address": {
-        "56": "0x55d398326f99059fF775485246999027B3197955"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "liquidityDex": {
-        "56": "PancakeSwapV3"
-      },
-      "active": true
-    },
-    "earnToken": {
-      "symbol": "ABOND",
-      "address": {
-        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd"
-      },
-      "decimals": {
-        "56": 18
-      },
-      "liquidityDex": {
-        "56": "ThenaV1"
-      },
-      "active": true
-    },
-    "billNnftAddress": {
-      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
-    },
-    "inactive": false,
-    "projectLink": "https://ape.bond/",
-    "twitter": "https://twitter.com/apebond",
-    "audit": "https://paladinsec.co/projects/apebond/",
-    "initTime": {
-      "56": 1752575049
-    },
-    "soldOut": false,
-    "billArt": {
-      "collection": "HotBondingSummer_Collection1"
-    },
-    "shortDescription": "ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.",
-    "fullDescription": "ApeBond is building a sustainable DeFi future through its innovative Bonds products and strategic partnerships. Known for its Crowdsource OTC solution and treasury diversification expertise, ApeBond has launched Bonds with over 140 partners, sold 38,000+ Bonds for a total of $14,000,000 USD, and achieved a top 10 Dapp status by daily active users (DAU) according to CoinMarketCap. The ABOND token ties users with the platform by unlocking special Bonds, new earning opportunities, and more utilities coming up in the pipeline.",
-    "tags": ["Bonding"],
-    "partnersURLS": [
-      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/Seedify_fbt392.svg",
-      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613244/ORBS_anzm60.png",
-      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/quickLogo_2_1_g95ynz.png",
-      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/aitech_logo_100_real_no_fake_bjskiq.png",
-      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png",
-      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png"
-    ],
-    "warningCard": "some comment about the hot summer campaign"
-  },
-  {
     "index": 1156,
     "cmcId": 29157,
     "version": "2.1.0",
@@ -6279,7 +6268,7 @@
     "initTime": {
       "56": 1751044196
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
