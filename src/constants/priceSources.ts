@@ -425,7 +425,6 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       tokenAddress: 'Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB',
     },
   },
-
   [ChainId.BERACHAIN]: {
     '0x28e0e3B9817012b356119dF9e217c25932D609c2': {
       name: 'Burr Governance Token',
@@ -491,9 +490,9 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       name: 'bveCATX',
       symbol: 'bveCATX',
       decimals: 18,
-      source: PriceSource.Fixed,
-      price: 0.1,
-      tokenAddress: '0x7169a1874d4716094bdcE1b86a5cd00212CA1319',
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '0x756ee6857F915A2b5366F2Ef56d8D13857aef8ad',
     },
     '0x756ee6857F915A2b5366F2Ef56d8D13857aef8ad': {
       name: 'CATEX',

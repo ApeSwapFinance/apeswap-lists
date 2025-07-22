@@ -112,9 +112,9 @@
       "name": "bveCATX",
       "symbol": "bveCATX",
       "decimals": 18,
-      "source": "fixed",
-      "price": 0.1,
-      "tokenAddress": "0x7169a1874d4716094bdcE1b86a5cd00212CA1319"
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "0x756ee6857F915A2b5366F2Ef56d8D13857aef8ad"
     },
     "0x756ee6857F915A2b5366F2Ef56d8D13857aef8ad": {
       "name": "CATEX",
