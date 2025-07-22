@@ -1204,6 +1204,19 @@ const tokens: Record<string, Token> = {
       [ChainId.LINEA]: LiquidityDex.Lynex,
     },
   },
+  bol: {
+    symbol: 'BOL',
+    address: {
+      [ChainId.LINEA]: '0xb171EF5cD8d320D52F257924A0E0d41E6f5c40D9',
+    },
+    decimals: {
+      [ChainId.LINEA]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.LINEA]: LiquidityDex.Lynex,
+    },
+  },
   hotdog: {
     symbol: 'HOTDOG',
     address: {
@@ -4998,6 +5011,17 @@ const tokens: Record<string, Token> = {
     symbol: 'CRS',
     address: {
       [ChainId.BSC]: '0x3E51783FEf3Cb3e807cff7Fcb660d3e51c6127F6',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
+  von: {
+    symbol: 'VON',
+    address: {
+      [ChainId.BSC]: '0xa4c3497b57C8b6D510F3707A1e9694fD791f45FB',
     },
     decimals: { [ChainId.BSC]: 18 },
     liquidityDex: {
