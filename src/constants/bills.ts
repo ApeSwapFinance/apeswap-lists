@@ -175,7 +175,7 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://www.orcadefai.com/',
     twitter: 'https://x.com/ORCAIDEF',
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
