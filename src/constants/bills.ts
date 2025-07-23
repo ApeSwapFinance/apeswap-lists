@@ -283,7 +283,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/blockassetco',
     soldOut: false,
     billArt: {
-      collection: BillArtCollection.HotBondingSummer_Collection1,
+      collection: BillArtCollection.ApeBond_Collection1,
     },
     fullDescription: `Blockasset is revolutionizing the way fans and athletes connect by offering multiple touchpoints that benefit both groups. In contrast to Web2's centralized platforms where users were the product, Blockasset is building a Web3 social platform where fans and athletes can engage directly through athlete tokens, NFTs, and Web3 social tools. While platforms like Chilliz and Socios introduced fan tokens for sports teams, Blockasset goes further, enabling direct interaction between athletes and their fans, with benefits shaped by the athletes themselves. Each athlete on Blockasset has their own token. The ecosystem is powered by the BLOCK token, which will serve as the main trading pair for athlete token transactions. Fans must acquire BLOCK tokens to access exclusive athlete tokens, as some of the world’s top sports stars release their own tokens on the Blockasset platform, putting the athlete's brand in the hands of their most dedicated supporters.`,
     shortDescription: `Blockasset revolutionizes fan-athlete interaction with a Web3 platform powered by athlete tokens, NFTs, and social tools. Unlike platforms like Chilliz and Socios, Blockasset offers direct engagement between athletes and fans, with benefits set by the athletes. Powered by the BLOCK token, fans must acquire BLOCK to access exclusive athlete tokens from top sports stars. You can also make your picks from a range of sports leagues, including UFC and Premier League. Climb the leaderboard, earn points, rank up, and collect crypto rewards.`,
@@ -1127,35 +1127,35 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
-  // {
-  //   index: 8054,
-  //   cmcId: 24203,
-  //   version: '2.1.0',
-  //   chainId: ChainId.BASE,
-  //   contractAddress: {
-  //     [ChainId.BASE]: '',
-  //   },
-  //   billType: 'reserve',
-  //   billVersion: BillVersion.V4,
-  //   lpToken: tokens.usdc,
-  //   earnToken: tokens.sdex,
-  //   billNnftAddress: {
-  //     [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
-  //   },
-  //   inactive: false,
-  //   projectLink: 'https://smardex.io/home',
-  //   twitter: 'https://x.com/SmarDex',
-  //   initTime: { [ChainId.BASE]: 1753290000 },
-  //   soldOut: false,
-  //   billArt: {
-  //     collection: BillArtCollection.HotBondingSummer_Collection1,
-  //   },
-  //   tags: ['DEX'],
-  //   shortDescription:
-  //     'SmarDex is revolutionizing DeFi with innovative projects, all tied to the SDEX token to enhance its utility and value. With no tokens reserved for founders or private investors, SDEX boasts a fair launch and zero future unlock pressure. A buyback and burn mechanism through the USDN protocol further supports SDEX’s price by steadily reducing its circulating supply.',
-  //   fullDescription:
-  //     "SmarDex is pioneering innovation in the DeFi space with a suite of transformative projects aimed at reshaping the ecosystem through efficiency and interconnectivity. These initiatives, either already live or in development, are all intrinsically linked to the SDEX token, which serves as the cornerstone of the ecosystem’s value and utility. What sets SmarDex apart is its fair and transparent token distribution—no tokens were reserved for founders or private investors; all participants acquired their SDEX tokens directly from the public market, eliminating future unlock-related sell pressure. To further reinforce SDEX’s value, SmarDex integrates a robust buyback and burn mechanism via the USDN protocol: 8% of every funding rate from vault or long positions is used to buy and burn SDEX, and 5% of each USDN mint is converted to SDEX and burned. This model steadily reduces SDEX’s circulating supply as USDN adoption grows, creating sustained upward pressure on its price.",
-  // },
+  {
+    index: 8054,
+    cmcId: 24203,
+    version: '2.1.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x7AE1ea00b9C904836Ad1c77eCB1497d2EBbE417b',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.sdex,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://smardex.io/home',
+    twitter: 'https://x.com/SmarDex',
+    initTime: { [ChainId.BASE]: 1753290000 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.HotBondingSummer_Collection1,
+    },
+    tags: ['DEX'],
+    shortDescription:
+      'SmarDex is revolutionizing DeFi with innovative projects, all tied to the SDEX token to enhance its utility and value. With no tokens reserved for founders or private investors, SDEX boasts a fair launch and zero future unlock pressure. A buyback and burn mechanism through the USDN protocol further supports SDEX’s price by steadily reducing its circulating supply.',
+    fullDescription:
+      'SmarDex is pioneering innovation in the DeFi space with a suite of transformative projects aimed at reshaping the ecosystem through efficiency and interconnectivity. These initiatives, either already live or in development, are all intrinsically linked to the SDEX token, which serves as the cornerstone of the ecosystem’s value and utility. What sets SmarDex apart is its fair and transparent token distribution—no tokens were reserved for founders or private investors; all participants acquired their SDEX tokens directly from the public market, eliminating future unlock-related sell pressure. To further reinforce SDEX’s value, SmarDex integrates a robust buyback and burn mechanism via the USDN protocol: 8% of every funding rate from vault or long positions is used to buy and burn SDEX, and 5% of each USDN mint is converted to SDEX and burned. This model steadily reduces SDEX’s circulating supply as USDN adoption grows, creating sustained upward pressure on its price.',
+  },
   {
     index: 8053,
     version: '2.1.0',
@@ -3398,7 +3398,7 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.BSC]: 1753290000 },
     soldOut: false,
     billArt: {
-      collection: BillArtCollection.HotBondingSummer_Collection1,
+      collection: BillArtCollection.ApeBond_Collection1,
     },
     shortDescription:
       'U-topia is a PayFi company redefining digital finance by merging real-world assets with decentralized tools. It offers seamless payments, rewards, and savings through blockchain technology. At the core is the $U coin, used for trading, staking, rewards, and real-world items, built to help you master your money and take back your freedom.',
