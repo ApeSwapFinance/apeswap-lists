@@ -1050,6 +1050,19 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.Aerodrome,
     },
   },
+  symm: {
+    symbol: 'SYMM',
+    address: {
+      [ChainId.BASE]: '0x800822d361335b4d5F352Dac293cA4128b5B605f',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.Aerodrome,
+    },
+  },
   record: {
     symbol: 'RECORD',
     address: {
