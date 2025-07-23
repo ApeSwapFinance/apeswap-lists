@@ -1050,6 +1050,19 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.Aerodrome,
     },
   },
+  symm: {
+    symbol: 'SYMM',
+    address: {
+      [ChainId.BASE]: '0x800822d361335b4d5F352Dac293cA4128b5B605f',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.Aerodrome,
+    },
+  },
   record: {
     symbol: 'RECORD',
     address: {
@@ -1195,6 +1208,19 @@ const tokens: Record<string, Token> = {
     symbol: 'LINUS',
     address: {
       [ChainId.LINEA]: '0xe07C2bdbb8C787962C2C6e93C11a152110E7E4d2',
+    },
+    decimals: {
+      [ChainId.LINEA]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.LINEA]: LiquidityDex.Lynex,
+    },
+  },
+  bol: {
+    symbol: 'BOL',
+    address: {
+      [ChainId.LINEA]: '0xb171EF5cD8d320D52F257924A0E0d41E6f5c40D9',
     },
     decimals: {
       [ChainId.LINEA]: 18,
@@ -1656,7 +1682,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BERACHAIN]: LiquidityDex.KodiakV3,
       [ChainId.KATANA]: LiquidityDex.External,
       [ChainId.SOL]: LiquidityDex.External,
-      [ChainId.UNICHAIN]: LiquidityDex.UniswapV3,
+      [ChainId.UNICHAIN]: LiquidityDex.External,
     },
     active: true,
   },
@@ -5005,6 +5031,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  von: {
+    symbol: 'VON',
+    address: {
+      [ChainId.BSC]: '0xa4c3497b57C8b6D510F3707A1e9694fD791f45FB',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
   copi: {
     symbol: 'COPI',
     address: {
@@ -6738,6 +6775,22 @@ const tokens: Record<string, Token> = {
     getLpUrl: {
       [ChainId.BSC]:
         'https://pancakeswap.finance/v2/add/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c/0x0C7f660643333419BF98F37Df831274Dd121f27f?chain=bsc',
+    },
+  },
+  vonWbnb_PCS: {
+    symbol: 'VON-BNB',
+    address: {
+      [ChainId.BSC]: '0xa860A936ab8FaE92b51AFE8c5B988E5a4dE11679',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl: {
+      [ChainId.BSC]:
+        'https://pancakeswap.finance/add/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c/0xa4c3497b57C8b6D510F3707A1e9694fD791f45FB?chain=bsc',
     },
   },
   scptWbnb_PCS: {

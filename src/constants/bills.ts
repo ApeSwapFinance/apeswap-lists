@@ -1,13 +1,13 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1156
+// BNB Largest ID: 1160
 // Polygon Largest ID: 184
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2031
 // ETH Largest ID: 3047
-// Linea Largest ID: 6019
-// Base Largest ID: 8053
+// Linea Largest ID: 6020
+// Base Largest ID: 8054
 // Lightlink Largest ID: 7003
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
@@ -20,11 +20,44 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Berachain Largest ID: 16004
 // Katana Largest ID: 17000
 // SOL Largest ID: 18009
+// UNICHAIN Largest ID: 19000
 
 const bills: BillsConfig[] = [
   //
   // Katana
   //
+
+  //
+  // Unichain
+  //
+  // {
+  //   index: 19000,
+  //   version: '2.1.0',
+  //   chainId: ChainId.UNICHAIN,
+  //   contractAddress: {
+  //     [ChainId.UNICHAIN]: '0x390d2F7E4E0Ed4306f05280f6e8Fc5B3586D646e',
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V4,
+  //   lpToken: tokens.usdc,
+  //   earnToken: tokens.bvecatx,
+  //   billNnftAddress: {
+  //     [ChainId.UNICHAIN]: '0x1b7858f745211dBa1387fE30124eBCa2D706D7Dd',
+  //   },
+  //   inactive: false,
+  //   projectLink: 'https://app.catex.fi',
+  //   twitter: 'https://x.com/Catex_Fi',
+  //   initTime: { [ChainId.UNICHAIN]: 1753290000 },
+  //   soldOut: false,
+  //   billArt: {
+  //     collection: BillArtCollection.HotBondingSummer_Collection1,
+  //   },
+  //   tags: ['DEX'],
+  //   shortDescription: `Catex is the MetaDEX layer for Uniswap V4, combining automated liquidity, ve(3,3) governance, and strategic incentives to support LPs and hook builders. The ecosystem is powered by four synergistic tokens, with CATX at its core, driving governance and liquidity. The bveCATX token is a non-liquid voter incentive token, redeemable 1:1 for veCATX, allowing holders to earn weekly fees and incentives.`,
+  //   fullDescription: `Catex is the MetaDEX coordination layer for Uniswap V4—a next-generation decentralized exchange on Unichain that combines automated liquidity management, ve(3,3) governance, and strategic incentives to unlock the full potential of UniV4. Designed to scale hook innovation, Catex empowers liquidity providers, hook builders, and voters through a unified platform built for performance and sustainability. With curated, incentivized Automated Liquidity Managers (ALMs), aligned veCATX voting strategies, and deep integration of utility-focused tools, Catex is the strategic hub where capital efficiency and community governance converge. The ecosystem is powered by four synergistic tokens, with CATX at its core, driving governance and liquidity. Supporting this system is bveCATX, a non-liquid voter incentive token redeemable 1:1 for veCATX, which promotes active participation by rewarding engaged voters and redistributing incentives via oCATX buybacks to fuel long-term alignment.`,
+  //   warningCard:
+  //     'bveCATX is a non-liquid token redeemable 1:1 for veCATX at max lock, letting holders earn weekly fees and incentives.',
+  // },
 
   //
   // SOLANA
@@ -1096,6 +1129,35 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
+  {
+    index: 8054,
+    cmcId: 24203,
+    version: '2.1.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x7AE1ea00b9C904836Ad1c77eCB1497d2EBbE417b',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.sdex,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://smardex.io/home',
+    twitter: 'https://x.com/SmarDex',
+    initTime: { [ChainId.BASE]: 1753290000 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.HotBondingSummer_Collection1,
+    },
+    tags: ['DEX'],
+    shortDescription:
+      'SmarDex is revolutionizing DeFi with innovative projects, all tied to the SDEX token to enhance its utility and value. With no tokens reserved for founders or private investors, SDEX boasts a fair launch and zero future unlock pressure. A buyback and burn mechanism through the USDN protocol further supports SDEX’s price by steadily reducing its circulating supply.',
+    fullDescription:
+      'SmarDex is pioneering innovation in the DeFi space with a suite of transformative projects aimed at reshaping the ecosystem through efficiency and interconnectivity. These initiatives, either already live or in development, are all intrinsically linked to the SDEX token, which serves as the cornerstone of the ecosystem’s value and utility. What sets SmarDex apart is its fair and transparent token distribution—no tokens were reserved for founders or private investors; all participants acquired their SDEX tokens directly from the public market, eliminating future unlock-related sell pressure. To further reinforce SDEX’s value, SmarDex integrates a robust buyback and burn mechanism via the USDN protocol: 8% of every funding rate from vault or long positions is used to buy and burn SDEX, and 5% of each USDN mint is converted to SDEX and burned. This model steadily reduces SDEX’s circulating supply as USDN adoption grows, creating sustained upward pressure on its price.',
+  },
   {
     index: 8053,
     version: '2.1.0',
@@ -2723,6 +2785,84 @@ const bills: BillsConfig[] = [
   // LINEA
   //
   {
+    index: 6022,
+    version: '2.1.0',
+    chainId: ChainId.LINEA,
+    contractAddress: {
+      [ChainId.LINEA]: '0x8445e57BFBcd257Bc63879e95CFe283FB8A1eb22',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.linus,
+    billNnftAddress: {
+      [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
+    },
+    inactive: false,
+    projectLink: 'https://linusonlinea.com/',
+    twitter: 'https://x.com/linusonlinea',
+    initTime: { [ChainId.LINEA]: 1753290000 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.HotBondingSummer_Collection1,
+    },
+    tags: ['Meme', 'Community'],
+    shortDescription: `Linus is a fun and one of the first memecoins on Linea, launched even before FOXY or CROAK! It became the top farm on Lynex and is loved by the Linea community. With 25% of its supply permanently burnt and 690,420 $LINUS distributed to top meme and art creators, it quickly became a cultural pillar in the ecosystem. Hold $LINUS and join the ride with Pengmilio and the crew!`,
+    fullDescription: `Linus is a leading memecoin on Linea, Fair Launched as one of the first winner memecoins on the chain, preceding $FOXY and $CROAK. With 25% of its supply permanently burnt and 690,420 $LINUS distributed to top meme and art creators, it quickly became a cultural pillar in the ecosystem. Linus gained momentum after Pengmilio infiltrated Linea HQ, earning direct support from Linea itself. It reached the top spot on Lynex Farms by APR and formed strong partnerships with Linea-native dApps and prominent builders. As a top organic community, $LINUS holders are actively rewarded with airdrops from projects like Wizards of Linea and Magi, with more to come. As Linea’s ecosystem expands—now surpassing $1.2B in TVL—$LINUS offers an easy and humorous way to gain exposure. Rather than farming LXP-L points with whales chasing a $1B+ airdrop, users can simply hold the LINUS token, a playful yet powerful proxy for Linea’s explosive growth.`,
+  },
+  {
+    index: 6021,
+    version: '2.1.0',
+    chainId: ChainId.LINEA,
+    contractAddress: {
+      [ChainId.LINEA]: '0x912544808E8775C71bfA340fe38F101bdc066c47',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.eth,
+    earnToken: tokens.hotdog,
+    billNnftAddress: {
+      [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
+    },
+    inactive: false,
+    projectLink: 'https://www.hotdog.pet/',
+    twitter: 'https://x.com/HotdogLinea',
+    initTime: { [ChainId.LINEA]: 1753290000 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.HotBondingSummer_Collection1,
+    },
+    tags: ['Meme', 'Community'],
+    shortDescription: `HOTDOG, the sauciest meme on Linea, brings a fiery mix of memes, madness, and mouthwatering fun. More than just a token, it’s a cultural sensation powered by 69% memes, 31% hotdogs, and an unstoppable community. With a fresh website, expanding partnerships, and growing momentum, HOTDOG is ready to take a bite out of the market, this is the hottest dog on the blockchain!`,
+    fullDescription: `Everyone loves hotdogs. Everyone loves memes. HotDog on Linea is the ultimate snackable sensation—69% memes, 31% hotdogs, 100% delicious. Fresh off the grill, it’s back with a new website, juicier partnerships, and a community that’s always hungry for more. HOTDOG isn’t just a memecoin—it’s a movement, a meme revolution, and the tastiest token on the blockchain. From AI-generated hotdog art to the most unhinged hotdog memes, this is where degens and food lovers unite. Think you can resist? The market’s heating up, and this is your chance to lock in your spot at the meme table. No forks, no knives—just raw, saucy fun. Whether you're here to stack, snack, or just enjoy the absurdity of a blockchain hotdog, this is your moment. Don't miss out—because nothing hits the spot like $HOTDOG!`,
+  },
+  {
+    index: 6020,
+    version: '2.1.0',
+    chainId: ChainId.LINEA,
+    contractAddress: {
+      [ChainId.LINEA]: '0x87cfef9F93ACC6B8c083E5C3aca018bE1c57d831',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.eth,
+    earnToken: tokens.bol,
+    billNnftAddress: {
+      [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
+    },
+    inactive: false,
+    projectLink: 'https://www.bankoflinea.build/app',
+    twitter: 'https://x.com/BankOfLinea',
+    initTime: { [ChainId.LINEA]: 1753290000 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.HotBondingSummer_Collection1,
+    },
+    tags: ['Meme', 'Community'],
+    shortDescription: `Bank of Linea is the first reflection token on Linea, offering ETH rewards to holders through strategic tokenomics. By taxing transactions, it funds growth, liquidity, and marketing while rewarding the community. With a focus on sustainability, long-term value, and supporting Linea and Consensys projects, holding $BOL means earning passive ETH income.`,
+    fullDescription: `Bank of Linea is a cutting-edge cryptocurrency built to deliver sustainable rewards in ETH, support liquidity, and drive marketing growth through carefully structured tokenomics. By applying taxes on transactions, the project ensures continuous development while benefiting holders and partners alike. Focused on long-term value, Bank of Linea combines reflections, a strong community, and strategic marketing to build a lasting presence in the crypto space, where users don’t need to sell their tokens or NFTs to earn. With a commitment to safety, growth, and supporting Linea and Consensys related initiatives, the project is creating a thriving ecosystem for investors. Bank of Linea is the first token on Linea that rewards you ETH, just by holding $BOL`,
+  },
+  {
     index: 6019,
     version: '2.1.0',
     chainId: ChainId.LINEA,
@@ -3239,45 +3379,102 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
-  // {
-  //   index: 1157,
-  //   cmcId: 29157,
-  //   version: '2.1.0',
-  //   chainId: ChainId.BSC,
-  //   contractAddress: {
-  //     [ChainId.BSC]: '0x420b6C8395982e983E8E346165782261a31Ba0a6',
-  //   },
-  //   billType: 'reserve',
-  //   billVersion: BillVersion.V4,
-  //   lpToken: tokens.usdt,
-  //   earnToken: tokens.abond,
-  //   billNnftAddress: {
-  //     [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
-  //   },
-  //   inactive: false,
-  //   projectLink: 'https://ape.bond/',
-  //   twitter: 'https://twitter.com/apebond',
-  //   audit: 'https://paladinsec.co/projects/apebond/',
-  //   initTime: { [ChainId.BSC]: 1752575049 },
-  //   soldOut: false,
-  //   billArt: {
-  //     collection: BillArtCollection.HotBondingSummer_Collection1,
-  //   },
-  //   shortDescription:
-  //     'ApeBond is a multi-chain bonding protocol dedicated to creating a sustainable DeFi future for projects and communities. Leveraging their innovative Bonding technology and collaborating with over 70 partners, they strive to become the leading protocol for bond solutions and sustainable liquidity.',
-  //   fullDescription:
-  //     'ApeBond is building a sustainable DeFi future through its innovative Bonds products and strategic partnerships. Known for its Crowdsource OTC solution and treasury diversification expertise, ApeBond has launched Bonds with over 140 partners, sold 38,000+ Bonds for a total of $14,000,000 USD, and achieved a top 10 Dapp status by daily active users (DAU) according to CoinMarketCap. The ABOND token ties users with the platform by unlocking special Bonds, new earning opportunities, and more utilities coming up in the pipeline.',
-  //   tags: ['Bonding'],
-  //   partnersURLS: [
-  //     'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/Seedify_fbt392.svg',
-  //     'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613244/ORBS_anzm60.png',
-  //     'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/quickLogo_2_1_g95ynz.png',
-  //     'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/aitech_logo_100_real_no_fake_bjskiq.png',
-  //     'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
-  //     'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
-  //   ],
-  //   warningCard: `some comment about the hot summer campaign`,
-  // },
+  {
+    index: 1159,
+    cmcId: 33726,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x628B3fC1bD3d5C536325EDBd1639e94BfD703bFa',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.wbnb,
+    earnToken: tokens.u,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://u-topia.com/',
+    twitter: 'https://x.com/ucoinofficial',
+    initTime: { [ChainId.BSC]: 1753290000 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    shortDescription:
+      'U-topia is a PayFi company redefining digital finance by merging real-world assets with decentralized tools. It offers seamless payments, rewards, and savings through blockchain technology. At the core is the $U coin, used for trading, staking, rewards, and real-world items, built to help you master your money and take back your freedom.',
+    fullDescription:
+      'U-topia is a PayFi company reshaping digital finance by merging real-world assets with decentralized infrastructure. Tackling inefficiencies in traditional banking, credit cards, and payment networks, U-topia offers user-centric, transparent, and borderless financial tools that empower individuals and businesses alike. From seamless payments to intelligent savings and rewards, the ecosystem harnesses blockchain technology to deliver next-generation financial solutions built for inclusivity and global reach. U-topia bridges the gap between DeFi and daily utility through innovations like Topi AI and U-Rewards, enabling users to earn real-world items from brands like Nike, Amazon, and Starbucks. At the heart of it all is the $U coin, a native utility token designed to fuel this ecosystem, serve as a tradeable asset, power rewards, and decentralize payments to help you master your money and take back your freedom.',
+    tags: ['GameFi'],
+  },
+  {
+    index: 1158,
+    cmcId: 34498,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x0Bc25c4aCA1fd22EA247Ee5E15D6ACFE43216E68',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.vonWbnb_PCS,
+    earnToken: tokens.von,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://vameon.com/',
+    twitter: 'https://x.com/vameon69',
+    initTime: { [ChainId.BSC]: 1753290000 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.HotBondingSummer_Collection1,
+    },
+    shortDescription:
+      'dEmpire of Vampire by Vameon is a 3D mobile Action-RPG/PvP game on BNB Chain, offering instant onboarding and true asset ownership through NFT characters. Players earn rewards, skins, and crypto while progressing, with a non-custodial wallet created instantly. At the center of its Play-to-Earn ecosystem is the VON token, unlocking in-game utility and real value for gamers.',
+    fullDescription:
+      'dEmpire of Vampire by Vameon is a cutting-edge 3D mobile game built on the BNB Chain, delivering high-tech AAA Action-RPG and PvP experiences with seamless onboarding. Designed for gamers and Web3 enthusiasts alike, it offers Play-to-Earn mechanics within a richly immersive NFT Metaverse, where players collect NFTs, character skins, and cryptocurrency rewards simply by playing. Available on both Google Play and the App Store, the game ensures true asset ownership, with every created character minted as an NFT fully controlled by the player. Its decentralized structure includes an instantly generated non-custodial wallet for each user, enabling effortless interaction with Web3. Players can earn by purchasing NFT-Earn tokens or increase the value of their characters through gameplay progression. At the heart of this dynamic ecosystem is the VON token—a gaming memecoin that powers in-game utilities and rewards, redefining value in mobile gaming.',
+    tags: ['GameFi'],
+  },
+  {
+    index: 1157,
+    cmcId: 29157,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x760f34002f85AEBd7Cad287575f43105ca72ea82',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.abond,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://ape.bond/',
+    twitter: 'https://twitter.com/apebond',
+    audit: 'https://paladinsec.co/projects/apebond/',
+    initTime: { [ChainId.BSC]: 1753290000 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.HotBondingSummer_Collection1,
+    },
+    shortDescription:
+      'Step into the full ApeBond experience with $ABOND, more than just a token, it’s the gateway to real yield and premium perks. Lock $ABOND to access better Bond discounts, share in protocol revenue paid in $BNB, unlock exclusive tier-gated deals, and other benefits. With flexible lock options and Ape Tiers, it’s built for long-term believers.',
+    fullDescription:
+      'ABOND isn’t just a token it’s your key to the full ApeBond experience. As the foundation of the ApeBond ecosystem, $ABOND unlocks real yield, exclusive access, and deeper rewards for those who believe in the protocol long-term. By locking $ABOND, users climb Ape Tiers, unlocking extra discounts on Bonds across all chains and partners, earning real revenue share in $BNB from platform fees, and gaining access to premium, tier-gated bond opportunities with stronger returns. Holders also enjoy priority for campaign bonuses and airdrops. With flexible locking options and transparent, on-chain mechanics, $ABOND aligns user incentives with protocol growth — making it more than a token. It’s a commitment to building and benefiting together.',
+    tags: ['Bonding'],
+    partnersURLS: [
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/Seedify_fbt392.svg',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613244/ORBS_anzm60.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/quickLogo_2_1_g95ynz.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/aitech_logo_100_real_no_fake_bjskiq.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
+    ],
+  },
   {
     index: 1156,
     cmcId: 29157,
