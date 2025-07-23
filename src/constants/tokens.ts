@@ -1682,7 +1682,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BERACHAIN]: LiquidityDex.KodiakV3,
       [ChainId.KATANA]: LiquidityDex.External,
       [ChainId.SOL]: LiquidityDex.External,
-      [ChainId.UNICHAIN]: LiquidityDex.UniswapV3,
+      [ChainId.UNICHAIN]: LiquidityDex.External,
     },
     active: true,
   },

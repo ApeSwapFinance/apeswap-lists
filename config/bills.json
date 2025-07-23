@@ -17,7 +17,7 @@
         "130": 6
       },
       "liquidityDex": {
-        "130": "UniswapV3"
+        "130": "External"
       },
       "active": true
     },
