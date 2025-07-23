@@ -1645,7 +1645,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BERACHAIN]: '0x549943e04f40284185054145c6E4e9568C1D3241', // this is USDC.e
       [ChainId.KATANA]: '0x203A662b0BD271A6ed5a60EdFbd04bFce608FD36',
       [ChainId.SOL]: 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v',
-      [ChainId.UNICHAIN]: '0x078D782b760474a361dDA0AF3839290b0EF57AD6',
+      [ChainId.UNICHAIN]: '0x078d782b760474a361dda0af3839290b0ef57ad6',
     },
     decimals: {
       [ChainId.BSC]: 18,

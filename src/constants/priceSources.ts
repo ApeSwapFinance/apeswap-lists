@@ -462,13 +462,13 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       type: 'token',
       tokenAddress: '0x4200000000000000000000000000000000000006',
     },
-    '0x078D782b760474a361dDA0AF3839290b0EF57AD6': {
+    '0x078d782b760474a361dda0af3839290b0ef57ad6': {
       name: 'USDC',
       symbol: 'USDC',
       decimals: 6,
       source: PriceSource.Dexscreener,
       type: 'token',
-      tokenAddress: '0x078D782b760474a361dDA0AF3839290b0EF57AD6',
+      tokenAddress: '0x078d782b760474a361dda0af3839290b0ef57ad6',
     },
     '0x9151434b16b9763660705744891fA906F660EcC5': {
       name: 'USD₮0',
