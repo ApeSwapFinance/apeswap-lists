@@ -2782,32 +2782,32 @@ const bills: BillsConfig[] = [
   //
   // LINEA
   //
-  // {
-  //   index: 6022,
-  //   version: '2.1.0',
-  //   chainId: ChainId.LINEA,
-  //   contractAddress: {
-  //     [ChainId.LINEA]: '',
-  //   },
-  //   billType: 'reserve',
-  //   billVersion: BillVersion.V4,
-  //   lpToken: tokens.usdt,
-  //   earnToken: tokens.linus,
-  //   billNnftAddress: {
-  //     [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
-  //   },
-  //   inactive: false,
-  //   projectLink: 'https://linusonlinea.com/',
-  //   twitter: 'https://x.com/linusonlinea',
-  //   initTime: { [ChainId.LINEA]: 1753290000 },
-  //   soldOut: false,
-  //   billArt: {
-  //     collection: BillArtCollection.HotBondingSummer_Collection1,
-  //   },
-  //   tags: ['Meme', 'Community'],
-  //   shortDescription: `Linus is a fun and one of the first memecoins on Linea, launched even before FOXY or CROAK! It became the top farm on Lynex and is loved by the Linea community. With 25% of its supply permanently burnt and 690,420 $LINUS distributed to top meme and art creators, it quickly became a cultural pillar in the ecosystem. Hold $LINUS and join the ride with Pengmilio and the crew!`,
-  //   fullDescription: `Linus is a leading memecoin on Linea, Fair Launched as one of the first winner memecoins on the chain, preceding $FOXY and $CROAK. With 25% of its supply permanently burnt and 690,420 $LINUS distributed to top meme and art creators, it quickly became a cultural pillar in the ecosystem. Linus gained momentum after Pengmilio infiltrated Linea HQ, earning direct support from Linea itself. It reached the top spot on Lynex Farms by APR and formed strong partnerships with Linea-native dApps and prominent builders. As a top organic community, $LINUS holders are actively rewarded with airdrops from projects like Wizards of Linea and Magi, with more to come. As Linea’s ecosystem expands—now surpassing $1.2B in TVL—$LINUS offers an easy and humorous way to gain exposure. Rather than farming LXP-L points with whales chasing a $1B+ airdrop, users can simply hold the LINUS token, a playful yet powerful proxy for Linea’s explosive growth.`,
-  // },
+  {
+    index: 6022,
+    version: '2.1.0',
+    chainId: ChainId.LINEA,
+    contractAddress: {
+      [ChainId.LINEA]: '0x8445e57BFBcd257Bc63879e95CFe283FB8A1eb22',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.linus,
+    billNnftAddress: {
+      [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
+    },
+    inactive: false,
+    projectLink: 'https://linusonlinea.com/',
+    twitter: 'https://x.com/linusonlinea',
+    initTime: { [ChainId.LINEA]: 1753290000 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.HotBondingSummer_Collection1,
+    },
+    tags: ['Meme', 'Community'],
+    shortDescription: `Linus is a fun and one of the first memecoins on Linea, launched even before FOXY or CROAK! It became the top farm on Lynex and is loved by the Linea community. With 25% of its supply permanently burnt and 690,420 $LINUS distributed to top meme and art creators, it quickly became a cultural pillar in the ecosystem. Hold $LINUS and join the ride with Pengmilio and the crew!`,
+    fullDescription: `Linus is a leading memecoin on Linea, Fair Launched as one of the first winner memecoins on the chain, preceding $FOXY and $CROAK. With 25% of its supply permanently burnt and 690,420 $LINUS distributed to top meme and art creators, it quickly became a cultural pillar in the ecosystem. Linus gained momentum after Pengmilio infiltrated Linea HQ, earning direct support from Linea itself. It reached the top spot on Lynex Farms by APR and formed strong partnerships with Linea-native dApps and prominent builders. As a top organic community, $LINUS holders are actively rewarded with airdrops from projects like Wizards of Linea and Magi, with more to come. As Linea’s ecosystem expands—now surpassing $1.2B in TVL—$LINUS offers an easy and humorous way to gain exposure. Rather than farming LXP-L points with whales chasing a $1B+ airdrop, users can simply hold the LINUS token, a playful yet powerful proxy for Linea’s explosive growth.`,
+  },
   // {
   //   index: 6021,
   //   version: '2.1.0',
