@@ -35,7 +35,7 @@ const bills: BillsConfig[] = [
     version: '2.1.0',
     chainId: ChainId.UNICHAIN,
     contractAddress: {
-      [ChainId.UNICHAIN]: '0xF5abC8b087992F31F2768fB04AfFDB2AFEe9d18a',
+      [ChainId.UNICHAIN]: '0x390d2F7E4E0Ed4306f05280f6e8Fc5B3586D646e',
     },
     billType: 'reserve',
     billVersion: BillVersion.V4,
