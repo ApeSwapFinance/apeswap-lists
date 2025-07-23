@@ -5324,6 +5324,58 @@
     "fullDescription": "Linus is a leading memecoin on Linea, Fair Launched as one of the first winner memecoins on the chain, preceding $FOXY and $CROAK. With 25% of its supply permanently burnt and 690,420 $LINUS distributed to top meme and art creators, it quickly became a cultural pillar in the ecosystem. Linus gained momentum after Pengmilio infiltrated Linea HQ, earning direct support from Linea itself. It reached the top spot on Lynex Farms by APR and formed strong partnerships with Linea-native dApps and prominent builders. As a top organic community, $LINUS holders are actively rewarded with airdrops from projects like Wizards of Linea and Magi, with more to come. As Linea’s ecosystem expands—now surpassing $1.2B in TVL—$LINUS offers an easy and humorous way to gain exposure. Rather than farming LXP-L points with whales chasing a $1B+ airdrop, users can simply hold the LINUS token, a playful yet powerful proxy for Linea’s explosive growth."
   },
   {
+    "index": 6020,
+    "version": "2.1.0",
+    "chainId": 59144,
+    "contractAddress": {
+      "59144": "0x87cfef9F93ACC6B8c083E5C3aca018bE1c57d831"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "ETH",
+      "address": {
+        "59144": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f"
+      },
+      "decimals": {
+        "59144": 18
+      },
+      "liquidityDex": {
+        "59144": "Lynex"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "BOL",
+      "address": {
+        "59144": "0xb171EF5cD8d320D52F257924A0E0d41E6f5c40D9"
+      },
+      "decimals": {
+        "59144": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "59144": "Lynex"
+      }
+    },
+    "billNnftAddress": {
+      "59144": "0xFA40b551980aF88FD2929Ab41f57D98ee13A6354"
+    },
+    "inactive": false,
+    "projectLink": "https://www.bankoflinea.build/app",
+    "twitter": "https://x.com/BankOfLinea",
+    "initTime": {
+      "59144": 1753290000
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "HotBondingSummer_Collection1"
+    },
+    "tags": ["Meme", "Community"],
+    "shortDescription": "Bank of Linea is the first reflection token on Linea, offering ETH rewards to holders through strategic tokenomics. By taxing transactions, it funds growth, liquidity, and marketing while rewarding the community. With a focus on sustainability, long-term value, and supporting Linea and Consensys projects, holding $BOL means earning passive ETH income.",
+    "fullDescription": "Bank of Linea is a cutting-edge cryptocurrency built to deliver sustainable rewards in ETH, support liquidity, and drive marketing growth through carefully structured tokenomics. By applying taxes on transactions, the project ensures continuous development while benefiting holders and partners alike. Focused on long-term value, Bank of Linea combines reflections, a strong community, and strategic marketing to build a lasting presence in the crypto space, where users don’t need to sell their tokens or NFTs to earn. With a commitment to safety, growth, and supporting Linea and Consensys related initiatives, the project is creating a thriving ecosystem for investors. Bank of Linea is the first token on Linea that rewards you ETH, just by holding $BOL"
+  },
+  {
     "index": 6019,
     "version": "2.1.0",
     "chainId": 59144,
