@@ -6764,6 +6764,22 @@ const tokens: Record<string, Token> = {
         'https://pancakeswap.finance/v2/add/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c/0x0C7f660643333419BF98F37Df831274Dd121f27f?chain=bsc',
     },
   },
+  vonWbnb_PCS: {
+    symbol: 'VON-BNB',
+    address: {
+      [ChainId.BSC]: '0xa860A936ab8FaE92b51AFE8c5B988E5a4dE11679',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl: {
+      [ChainId.BSC]:
+        'https://pancakeswap.finance/add/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c/0xa4c3497b57C8b6D510F3707A1e9694fD791f45FB?chain=bsc',
+    },
+  },
   scptWbnb_PCS: {
     symbol: 'SCPT-BNB',
     address: {
