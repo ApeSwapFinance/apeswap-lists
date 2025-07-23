@@ -3382,7 +3382,7 @@ const bills: BillsConfig[] = [
   {
     index: 1159,
     cmcId: 33726,
-    version: '2.1.0',
+    version: '2.1.1',
     chainId: ChainId.BSC,
     contractAddress: {
       [ChainId.BSC]: '0x628B3fC1bD3d5C536325EDBd1639e94BfD703bFa',
@@ -3407,6 +3407,7 @@ const bills: BillsConfig[] = [
     fullDescription:
       'U-topia is a PayFi company reshaping digital finance by merging real-world assets with decentralized infrastructure. Tackling inefficiencies in traditional banking, credit cards, and payment networks, U-topia offers user-centric, transparent, and borderless financial tools that empower individuals and businesses alike. From seamless payments to intelligent savings and rewards, the ecosystem harnesses blockchain technology to deliver next-generation financial solutions built for inclusivity and global reach. U-topia bridges the gap between DeFi and daily utility through innovations like Topi AI and U-Rewards, enabling users to earn real-world items from brands like Nike, Amazon, and Starbucks. At the heart of it all is the $U coin, a native utility token designed to fuel this ecosystem, serve as a tradeable asset, power rewards, and decentralize payments to help you master your money and take back your freedom.',
     tags: ['GameFi'],
+    warningCard: `This token is currently only tradable on <a href="https://www.mexc.com/exchange/U_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a>`,
   },
   {
     index: 1158,
