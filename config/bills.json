@@ -5377,6 +5377,58 @@
     "fullDescription": "Linus is a leading memecoin on Linea, Fair Launched as one of the first winner memecoins on the chain, preceding $FOXY and $CROAK. With 25% of its supply permanently burnt and 690,420 $LINUS distributed to top meme and art creators, it quickly became a cultural pillar in the ecosystem. Linus gained momentum after Pengmilio infiltrated Linea HQ, earning direct support from Linea itself. It reached the top spot on Lynex Farms by APR and formed strong partnerships with Linea-native dApps and prominent builders. As a top organic community, $LINUS holders are actively rewarded with airdrops from projects like Wizards of Linea and Magi, with more to come. As Linea’s ecosystem expands—now surpassing $1.2B in TVL—$LINUS offers an easy and humorous way to gain exposure. Rather than farming LXP-L points with whales chasing a $1B+ airdrop, users can simply hold the LINUS token, a playful yet powerful proxy for Linea’s explosive growth."
   },
   {
+    "index": 6021,
+    "version": "2.1.0",
+    "chainId": 59144,
+    "contractAddress": {
+      "59144": "0x912544808E8775C71bfA340fe38F101bdc066c47"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "59144": "0x176211869cA2b568f2A7D4EE941E073a821EE1ff"
+      },
+      "decimals": {
+        "59144": 6
+      },
+      "liquidityDex": {
+        "59144": "Nile"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "HOTDOG",
+      "address": {
+        "59144": "0xce28211Ed1b2Eeb0C909C83D273DeBE041A12EE9"
+      },
+      "decimals": {
+        "59144": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "59144": "Lynex"
+      }
+    },
+    "billNnftAddress": {
+      "59144": "0xFA40b551980aF88FD2929Ab41f57D98ee13A6354"
+    },
+    "inactive": false,
+    "projectLink": "https://www.hotdog.pet/",
+    "twitter": "https://x.com/HotdogLinea",
+    "initTime": {
+      "59144": 1753290000
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "HotBondingSummer_Collection1"
+    },
+    "tags": ["Meme", "Community"],
+    "shortDescription": "HOTDOG, the sauciest meme on Linea, brings a fiery mix of memes, madness, and mouthwatering fun. More than just a token, it’s a cultural sensation powered by 69% memes, 31% hotdogs, and an unstoppable community. With a fresh website, expanding partnerships, and growing momentum, HOTDOG is ready to take a bite out of the market, this is the hottest dog on the blockchain!",
+    "fullDescription": "Everyone loves hotdogs. Everyone loves memes. HotDog on Linea is the ultimate snackable sensation—69% memes, 31% hotdogs, 100% delicious. Fresh off the grill, it’s back with a new website, juicier partnerships, and a community that’s always hungry for more. HOTDOG isn’t just a memecoin—it’s a movement, a meme revolution, and the tastiest token on the blockchain. From AI-generated hotdog art to the most unhinged hotdog memes, this is where degens and food lovers unite. Think you can resist? The market’s heating up, and this is your chance to lock in your spot at the meme table. No forks, no knives—just raw, saucy fun. Whether you're here to stack, snack, or just enjoy the absurdity of a blockchain hotdog, this is your moment. Don't miss out—because nothing hits the spot like $HOTDOG!"
+  },
+  {
     "index": 6020,
     "version": "2.1.0",
     "chainId": 59144,
