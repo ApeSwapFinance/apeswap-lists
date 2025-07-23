@@ -366,7 +366,7 @@
     "earnToken": {
       "symbol": "bveCATX",
       "address": {
-        "130": "0x7169a1874d4716094bdcE1b86a5cd00212CA1319"
+        "130": "0x7169a1874d4716094bdce1b86a5cd00212ca1319"
       },
       "decimals": {
         "130": 18

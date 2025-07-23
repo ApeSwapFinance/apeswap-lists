@@ -5317,7 +5317,7 @@ const tokens: Record<string, Token> = {
   bvecatx: {
     symbol: 'bveCATX',
     address: {
-      [ChainId.UNICHAIN]: '0x7169a1874d4716094bdcE1b86a5cd00212CA1319',
+      [ChainId.UNICHAIN]: '0x7169a1874d4716094bdce1b86a5cd00212ca1319',
     },
     decimals: {
       [ChainId.UNICHAIN]: 18,
@@ -5330,7 +5330,7 @@ const tokens: Record<string, Token> = {
   catx: {
     symbol: 'CATX',
     address: {
-      [ChainId.UNICHAIN]: '0x756ee6857F915A2b5366F2Ef56d8D13857aef8ad',
+      [ChainId.UNICHAIN]: '0x756ee6857f915a2b5366f2ef56d8d13857aef8ad',
     },
     decimals: {
       [ChainId.UNICHAIN]: 18,
