@@ -3406,35 +3406,35 @@ const bills: BillsConfig[] = [
       'U-topia is a PayFi company reshaping digital finance by merging real-world assets with decentralized infrastructure. Tackling inefficiencies in traditional banking, credit cards, and payment networks, U-topia offers user-centric, transparent, and borderless financial tools that empower individuals and businesses alike. From seamless payments to intelligent savings and rewards, the ecosystem harnesses blockchain technology to deliver next-generation financial solutions built for inclusivity and global reach. U-topia bridges the gap between DeFi and daily utility through innovations like Topi AI and U-Rewards, enabling users to earn real-world items from brands like Nike, Amazon, and Starbucks. At the heart of it all is the $U coin, a native utility token designed to fuel this ecosystem, serve as a tradeable asset, power rewards, and decentralize payments to help you master your money and take back your freedom.',
     tags: ['GameFi'],
   },
-  // {
-  //   index: 1158,
-  //   cmcId: 34498,
-  //   version: '2.1.0',
-  //   chainId: ChainId.BSC,
-  //   contractAddress: {
-  //     [ChainId.BSC]: '',
-  //   },
-  //   billType: 'reserve',
-  //   billVersion: BillVersion.V4,
-  //   lpToken: tokens.usdt,
-  //   earnToken: tokens.von,
-  //   billNnftAddress: {
-  //     [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
-  //   },
-  //   inactive: false,
-  //   projectLink: 'https://vameon.com/',
-  //   twitter: 'https://x.com/vameon69',
-  //   initTime: { [ChainId.BSC]: 1753290000 },
-  //   soldOut: false,
-  //   billArt: {
-  //     collection: BillArtCollection.HotBondingSummer_Collection1,
-  //   },
-  //   shortDescription:
-  //     'dEmpire of Vampire by Vameon is a 3D mobile Action-RPG/PvP game on BNB Chain, offering instant onboarding and true asset ownership through NFT characters. Players earn rewards, skins, and crypto while progressing, with a non-custodial wallet created instantly. At the center of its Play-to-Earn ecosystem is the VON token, unlocking in-game utility and real value for gamers.',
-  //   fullDescription:
-  //     ' dEmpire of Vampire by Vameon is a cutting-edge 3D mobile game built on the BNB Chain, delivering high-tech AAA Action-RPG and PvP experiences with seamless onboarding. Designed for gamers and Web3 enthusiasts alike, it offers Play-to-Earn mechanics within a richly immersive NFT Metaverse, where players collect NFTs, character skins, and cryptocurrency rewards simply by playing. Available on both Google Play and the App Store, the game ensures true asset ownership, with every created character minted as an NFT fully controlled by the player. Its decentralized structure includes an instantly generated non-custodial wallet for each user, enabling effortless interaction with Web3. Players can earn by purchasing NFT-Earn tokens or increase the value of their characters through gameplay progression. At the heart of this dynamic ecosystem is the VON token—a gaming memecoin that powers in-game utilities and rewards, redefining value in mobile gaming.',
-  //   tags: ['GameFi'],
-  // },
+  {
+    index: 1158,
+    cmcId: 34498,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x0Bc25c4aCA1fd22EA247Ee5E15D6ACFE43216E68',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.vonWbnb_PCS,
+    earnToken: tokens.von,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://vameon.com/',
+    twitter: 'https://x.com/vameon69',
+    initTime: { [ChainId.BSC]: 1753290000 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.HotBondingSummer_Collection1,
+    },
+    shortDescription:
+      'dEmpire of Vampire by Vameon is a 3D mobile Action-RPG/PvP game on BNB Chain, offering instant onboarding and true asset ownership through NFT characters. Players earn rewards, skins, and crypto while progressing, with a non-custodial wallet created instantly. At the center of its Play-to-Earn ecosystem is the VON token, unlocking in-game utility and real value for gamers.',
+    fullDescription:
+      'dEmpire of Vampire by Vameon is a cutting-edge 3D mobile game built on the BNB Chain, delivering high-tech AAA Action-RPG and PvP experiences with seamless onboarding. Designed for gamers and Web3 enthusiasts alike, it offers Play-to-Earn mechanics within a richly immersive NFT Metaverse, where players collect NFTs, character skins, and cryptocurrency rewards simply by playing. Available on both Google Play and the App Store, the game ensures true asset ownership, with every created character minted as an NFT fully controlled by the player. Its decentralized structure includes an instantly generated non-custodial wallet for each user, enabling effortless interaction with Web3. Players can earn by purchasing NFT-Earn tokens or increase the value of their characters through gameplay progression. At the heart of this dynamic ecosystem is the VON token—a gaming memecoin that powers in-game utilities and rewards, redefining value in mobile gaming.',
+    tags: ['GameFi'],
+  },
   {
     index: 1157,
     cmcId: 29157,
