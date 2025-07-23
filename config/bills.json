@@ -1,58 +1,5 @@
 [
   {
-    "index": 19000,
-    "version": "2.1.0",
-    "chainId": 130,
-    "contractAddress": {
-      "130": "0x390d2F7E4E0Ed4306f05280f6e8Fc5B3586D646e"
-    },
-    "billType": "reserve",
-    "billVersion": "V4",
-    "lpToken": {
-      "symbol": "USDC",
-      "address": {
-        "130": "0x078D782b760474a361dDA0AF3839290b0EF57AD6"
-      },
-      "decimals": {
-        "130": 6
-      },
-      "liquidityDex": {
-        "130": "External"
-      },
-      "active": true
-    },
-    "earnToken": {
-      "symbol": "bveCATX",
-      "address": {
-        "130": "0x7169a1874d4716094bdce1b86a5cd00212ca1319"
-      },
-      "decimals": {
-        "130": 18
-      },
-      "liquidityDex": {
-        "130": "External"
-      },
-      "active": true
-    },
-    "billNnftAddress": {
-      "130": "0x1b7858f745211dBa1387fE30124eBCa2D706D7Dd"
-    },
-    "inactive": false,
-    "projectLink": "https://app.catex.fi",
-    "twitter": "https://x.com/Catex_Fi",
-    "initTime": {
-      "130": 1753290000
-    },
-    "soldOut": false,
-    "billArt": {
-      "collection": "HotBondingSummer_Collection1"
-    },
-    "tags": ["DEX"],
-    "shortDescription": "Catex is the MetaDEX layer for Uniswap V4, combining automated liquidity, ve(3,3) governance, and strategic incentives to support LPs and hook builders. The ecosystem is powered by four synergistic tokens, with CATX at its core, driving governance and liquidity. The bveCATX token is a non-liquid voter incentive token, redeemable 1:1 for veCATX, allowing holders to earn weekly fees and incentives.",
-    "fullDescription": "Catex is the MetaDEX coordination layer for Uniswap V4—a next-generation decentralized exchange on Unichain that combines automated liquidity management, ve(3,3) governance, and strategic incentives to unlock the full potential of UniV4. Designed to scale hook innovation, Catex empowers liquidity providers, hook builders, and voters through a unified platform built for performance and sustainability. With curated, incentivized Automated Liquidity Managers (ALMs), aligned veCATX voting strategies, and deep integration of utility-focused tools, Catex is the strategic hub where capital efficiency and community governance converge. The ecosystem is powered by four synergistic tokens, with CATX at its core, driving governance and liquidity. Supporting this system is bveCATX, a non-liquid voter incentive token redeemable 1:1 for veCATX, which promotes active participation by rewarding engaged voters and redistributing incentives via oCATX buybacks to fuel long-term alignment.",
-    "warningCard": "bveCATX is a non-liquid token redeemable 1:1 for veCATX at max lock, letting holders earn weekly fees and incentives."
-  },
-  {
     "index": 18001,
     "version": "2.2.0",
     "chainId": 7565164,
