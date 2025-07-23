@@ -10461,7 +10461,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     initTime: { [ChainId.MATIC]: 1753190910 },
     soldOut: false,
     billArt: {
-      collection: BillArtCollection.ApeBond_Collection1,
+      collection: BillArtCollection.HotBondingSummer_Collection1,
     },
     shortDescription:
       'Galaxis is a Web3-powered platform to create dynamic membership card communities. Use $GALAXIS to unlock features, vote, access events, and build a sustainable community economy.',
