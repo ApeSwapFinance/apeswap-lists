@@ -2819,7 +2819,7 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V4,
-    lpToken: tokens.usdc,
+    lpToken: tokens.eth,
     earnToken: tokens.hotdog,
     billNnftAddress: {
       [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
