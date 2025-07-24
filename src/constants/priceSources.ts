@@ -424,6 +424,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       type: 'token',
       tokenAddress: 'Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB',
     },
+    FUW4poh6s7uychceF8u1mo7NS65vzjX5vmS7Yi7GYQnz: {
+      name: 'Solidus Ai Tech',
+      symbol: 'AITECH',
+      decimals: 9,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: 'FUW4poh6s7uychceF8u1mo7NS65vzjX5vmS7Yi7GYQnz',
+    },
   },
   [ChainId.BERACHAIN]: {
     '0x28e0e3B9817012b356119dF9e217c25932D609c2': {

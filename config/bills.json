@@ -16531,13 +16531,16 @@
     "showcaseToken": {
       "symbol": "AITECH",
       "address": {
-        "56": "0x2D060Ef4d6BF7f9e5edDe373Ab735513c0e4F944"
+        "56": "0x2D060Ef4d6BF7f9e5edDe373Ab735513c0e4F944",
+        "7565164": "FUW4poh6s7uychceF8u1mo7NS65vzjX5vmS7Yi7GYQnz"
       },
       "decimals": {
-        "56": 18
+        "56": 18,
+        "7565164": 9
       },
       "liquidityDex": {
-        "56": "PancakeSwapV3"
+        "56": "PancakeSwapV3",
+        "7565164": "External"
       },
       "active": true
     },

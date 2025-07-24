@@ -451,6 +451,14 @@
       "source": "dexscreener",
       "type": "token",
       "tokenAddress": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
+    },
+    "FUW4poh6s7uychceF8u1mo7NS65vzjX5vmS7Yi7GYQnz": {
+      "name": "Solidus Ai Tech",
+      "symbol": "AITECH",
+      "decimals": 9,
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "FUW4poh6s7uychceF8u1mo7NS65vzjX5vmS7Yi7GYQnz"
     }
   }
 }
