@@ -10666,7 +10666,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://twitter.com/nasdex_xyz',
     audit: 'https://hacken.io/audits/nasdex',
     initTime: { [ChainId.MATIC]: 1746176790 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Quickswap_Collection1,
     },
@@ -15355,7 +15355,7 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://singularitydao.ai/',
     twitter: 'https://x.com/SingularityDao',
     initTime: { [ChainId.MAINNET]: 1743156644 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
