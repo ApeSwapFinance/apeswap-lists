@@ -4721,10 +4721,12 @@ const tokens: Record<string, Token> = {
     symbol: 'AITECH',
     address: {
       [ChainId.BSC]: '0x2D060Ef4d6BF7f9e5edDe373Ab735513c0e4F944',
+      [ChainId.SOL]: 'FUW4poh6s7uychceF8u1mo7NS65vzjX5vmS7Yi7GYQnz',
     },
-    decimals: { [ChainId.BSC]: 18 },
+    decimals: { [ChainId.BSC]: 18, [ChainId.SOL]: 9 },
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+      [ChainId.SOL]: LiquidityDex.External,
     },
     active: true,
   },
