@@ -710,6 +710,19 @@ const tokens: Record<string, Token> = {
       [ChainId.MAINNET]: LiquidityDex.UniswapV3,
     },
   },
+  plms: {
+    symbol: 'PLMS',
+    address: {
+      [ChainId.MAINNET]: '0x68614481AeF06e53D23bbe0772343fB555ac40c8',
+    },
+    decimals: {
+      [ChainId.MAINNET]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV3,
+    },
+  },
   bethustlers: {
     symbol: 'BETHUSTLERS',
     address: {
