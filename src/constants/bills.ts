@@ -7,7 +7,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Arbitrum Largest ID: 2031
 // ETH Largest ID: 3047
 // Linea Largest ID: 6020
-// Base Largest ID: 8054
+// Base Largest ID: 8055
 // Lightlink Largest ID: 7003
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
@@ -19,7 +19,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Sonic Largest ID: 15005
 // Berachain Largest ID: 16004
 // Katana Largest ID: 17000
-// SOL Largest ID: 18009
+// SOL Largest ID: 18010
 // UNICHAIN Largest ID: 19000
 
 const bills: BillsConfig[] = [
@@ -1156,6 +1156,35 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
+  {
+    index: 8055,
+    version: '2.1.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x5A3dD9283FdEbA3CA5A144CcD86B79c6Fc7675a8',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.symm,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://www.symm.io/',
+    twitter: 'https://x.com/symm_io',
+    initTime: { [ChainId.BASE]: 1753363558 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.HotBondingSummer_Collection1,
+    },
+    tags: ['DEX'],
+    shortDescription:
+      'Symmio is a trustless on-chain clearing house powering permissionless derivatives through “Asset Abstraction.” Its DaaS model lets developers launch platforms easily, while partners handle backend operations. Exchanges using Symmio already generate revenue across chains. Governance is led by the Symmio DAO, with decisions driven by $SYMM token holders.',
+    fullDescription:
+      'Symmio is a trustless on-chain clearing house serving as a universal settlement and clearing layer for permissionless derivatives. By introducing “Asset Abstraction” to DeFi, it allows anyone to create and trade a wide range of derivatives—options, futures, and exotic products—without needing to hold the underlying assets. Its intent-centric “Derivatives as a Service” (DaaS) model lets developers and exchanges launch derivatives platforms quickly, with Symmio’s modular architecture and partners managing the backend. Multiple third-party exchanges are already live on various blockchains using Symmio’s infrastructure, generating growing revenue streams. Governance of Symmio is decentralized through the $SYMM token, empowering holders to steer protocol development, upgrades, and ecosystem growth via the Symmio DAO.',
+    warningCard: `Earn up to a $500 cash back on this bond purchase. <a href="https://x.com/ApeBond/status/1948080684607717810" target="_blank" rel="noopener noreferrer" style="color: #6099c5">Learn More ></a>.`,
+  },
   {
     index: 8054,
     cmcId: 24203,
