@@ -5,7 +5,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Polygon Largest ID: 184
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2031
-// ETH Largest ID: 3047
+// ETH Largest ID: 3048
 // Linea Largest ID: 6020
 // Base Largest ID: 8055
 // Lightlink Largest ID: 7003
@@ -15508,6 +15508,36 @@ With the lending products set to go live in February, the project is poised to a
     shortDescription:
       'ADO Protocol is a next-gen DEX offering ultra-low fees and built-in MEV protection without custody or keys. Trades are up to 5x cheaper than Uniswap, and elastic liquidity delivers 30–50% APY by shifting between ETH and USDC. The ADO token powers the ecosystem, with 25% of all platform revenue allocated to buybacks. Buy ADO, join the community, and say goodbye to sky-high fees and MEV bot attacks.',
     fullDescription: `ADO Protocol is a next-gen DEX designed to crush high fees and eliminate MEV bot attacks for good. With trading costs up to 5x cheaper than Uniswap for regular trades and powerful MEV protection for private trades, users save big while staying secure. Traders benefit from fewer fees, more tokens per swap, and built-in bot defense with no custody or keys required. Projects can supercharge liquidity in Uniswap V2 pools while earning 100% of DEX fees on Uniswap V3. Thanks to elastic liquidity, all capital in the DEX earns 30–50% APY by dynamically shifting between ETH and USDC based on market conditions. Add seamless no-code website integration, fiat on-ramps, and a whale-only group for ADO holders, and you've got a full-featured DeFi powerhouse with 25% of all platform revenue going towards ADO buybacks. Buy ADO, join the community, and say goodbye to sky-high fees and MEV bot attacks.`,
+  },
+  {
+    index: 3047,
+    cmcId: 35906,
+    version: '2.1.0',
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0xcBa89153be0c1Fbb31FBAA3443cFf11912886bbF',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.plms,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    inactive: false,
+    projectLink: 'https://forge.polemos.io/home',
+    twitter: 'https://x.com/polemos_io',
+    initTime: { [ChainId.MAINNET]: 1753379295 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.HotBondingSummer_Collection1,
+    },
+    tags: ['DeFi'],
+    shortDescription:
+      'Polemos is building a next-gen ecosystem connecting players to AAA Web3 games through a seamless, chain-agnostic platform. With features like asset lending, token trading, and unified rewards in a secure, collateral-free environment, Polemos empowers global access to Web3 gaming. PLMS is the native utility token of the Polemos ecosystem, used to access platform services, enable in-game interactions, and participate in governance.',
+    fullDescription:
+      'olemos is creating a revolutionary ecosystem that bridges players with top-tier AAA Web3 games, aiming to deliver a seamless and immersive experience for gamers worldwide. By partnering with leading projects and platforms, Polemos is expanding access to Web3 gaming on a global scale. Its game- and chain-agnostic infrastructure empowers users to engage effortlessly with a wide range of titles, while offering a comprehensive set of services—including a marketplace for lending and borrowing game assets, token trading, and unified rewards—all within a secure, collateral-free environment. PLMS is the native utility token of the Polemos ecosystem, used to access platform services, enable in-game interactions, and participate in governance. Designed for secure and seamless use across the platform, it powers all key functions within the Polemos Web3 gaming experience.',
+    warningCard: `Earn up to a $500 cash back on this bond purchase. <a href="https://x.com/ApeBond/status/1948080684607717810" target="_blank" rel="noopener noreferrer" style="color: #6099c5">Learn More ></a>.`,
   },
 ]
 
