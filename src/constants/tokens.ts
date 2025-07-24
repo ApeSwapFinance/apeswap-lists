@@ -7627,7 +7627,7 @@ const tokens: Record<string, Token> = {
   scUSDrzr_ShadowExchange: {
     symbol: 'scUSD-RZR',
     address: {
-      [ChainId.SONIC]: '0x08C5e3B7533Ee819A4d1F66e839D0E8F04ae3D0C',
+      [ChainId.SONIC]: '0x08c5e3b7533ee819a4d1f66e839d0e8f04ae3d0c',
     },
     decimals: { [ChainId.SONIC]: 18 },
     active: true,
