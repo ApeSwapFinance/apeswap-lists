@@ -827,7 +827,7 @@
     "lpToken": {
       "symbol": "scUSD-RZR",
       "address": {
-        "146": "0x08C5e3B7533Ee819A4d1F66e839D0E8F04ae3D0C"
+        "146": "0x08c5e3b7533ee819a4d1f66e839d0e8f04ae3d0c"
       },
       "decimals": {
         "146": 18
