@@ -291,33 +291,33 @@ const bills: BillsConfig[] = [
     shortDescription: `Blockasset revolutionizes fan-athlete interaction with a Web3 platform powered by athlete tokens, NFTs, and social tools. Unlike platforms like Chilliz and Socios, Blockasset offers direct engagement between athletes and fans, with benefits set by the athletes. Powered by the BLOCK token, fans must acquire BLOCK to access exclusive athlete tokens from top sports stars. You can also make your picks from a range of sports leagues, including UFC and Premier League. Climb the leaderboard, earn points, rank up, and collect crypto rewards.`,
     tags: ['GAMEFI'],
   },
-  {
-    index: 18010,
-    version: '2.2.0',
-    chainId: ChainId.SOL,
-    contractAddress: {
-      [ChainId.SOL]: '4kED3xSJQGZc4RpGpFACvdz5Bbs3aksW4nzMMTz14uzz',
-    },
-    billType: 'reserve',
-    billVersion: BillVersion.V2,
-    lpToken: tokens.usdc,
-    earnToken: tokens.aitech,
-    billNnftAddress: {
-      [ChainId.SOL]: '8M8Smqaa38SrHaG4joAdAddRvFUY4JW8i8wMfXSuJepv',
-    },
-    inactive: false,
-    projectLink: 'https://aitech.io/',
-    twitter: 'https://x.com/AITECHio',
-    soldOut: false,
-    billArt: {
-      collection: BillArtCollection.ApeBond_Collection1,
-    },
-    shortDescription:
-      'AITECH is paving the way for a more convenient and secure future by providing accessible Artificial Intelligence-as-a-Service (AIaaS), Blockchain-as-a-Service (BaaS), High-Performance Computing Power (HPC), and an artificial intelligence marketplace. All these are backed by their native token: $AITECH.',
-    fullDescription:
-      "AITECH is the world's first deflationary AI utilities token, driving the operations of Solidus AI Tech's eco-friendly High-Performance Computing (HPC) Data Centre in Europe. This 8,000 sqft facility supports a diverse ecosystem, including the AI and GPU Marketplaces as well as the AITECH Pad Launchpad. The GPU Marketplace offers high-performance GPUs for a wide range of tasks, available through flexible rentals with no upfront costs. The AI Marketplace provides a suite of AI tools for automating both business and personal activities, categorized into Foundational AI Models, AI Agents, and Standalone AI Solutions. The AITECH Pad Launchpad offers early access to seed, private, and public rounds of AI-focused and infrastructure projects. Stakers of the $AITECH token gain tiered access to these launches, powering the ecosystem and enabling seamless service transactions, where fiat payments are converted to $AITECH on the blockchain. A deflationary burn mechanism ensures that a portion of tokens used for services is permanently removed from circulation, reducing supply and enhancing long-term value.",
-    tags: ['AI'],
-  },
+  // {
+  //   index: 18010,
+  //   version: '2.2.0',
+  //   chainId: ChainId.SOL,
+  //   contractAddress: {
+  //     [ChainId.SOL]: '4kED3xSJQGZc4RpGpFACvdz5Bbs3aksW4nzMMTz14uzz',
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V2,
+  //   lpToken: tokens.usdc,
+  //   earnToken: tokens.aitech,
+  //   billNnftAddress: {
+  //     [ChainId.SOL]: '8M8Smqaa38SrHaG4joAdAddRvFUY4JW8i8wMfXSuJepv',
+  //   },
+  //   inactive: false,
+  //   projectLink: 'https://aitech.io/',
+  //   twitter: 'https://x.com/AITECHio',
+  //   soldOut: false,
+  //   billArt: {
+  //     collection: BillArtCollection.ApeBond_Collection1,
+  //   },
+  //   shortDescription:
+  //     'AITECH is paving the way for a more convenient and secure future by providing accessible Artificial Intelligence-as-a-Service (AIaaS), Blockchain-as-a-Service (BaaS), High-Performance Computing Power (HPC), and an artificial intelligence marketplace. All these are backed by their native token: $AITECH.',
+  //   fullDescription:
+  //     "AITECH is the world's first deflationary AI utilities token, driving the operations of Solidus AI Tech's eco-friendly High-Performance Computing (HPC) Data Centre in Europe. This 8,000 sqft facility supports a diverse ecosystem, including the AI and GPU Marketplaces as well as the AITECH Pad Launchpad. The GPU Marketplace offers high-performance GPUs for a wide range of tasks, available through flexible rentals with no upfront costs. The AI Marketplace provides a suite of AI tools for automating both business and personal activities, categorized into Foundational AI Models, AI Agents, and Standalone AI Solutions. The AITECH Pad Launchpad offers early access to seed, private, and public rounds of AI-focused and infrastructure projects. Stakers of the $AITECH token gain tiered access to these launches, powering the ecosystem and enabling seamless service transactions, where fiat payments are converted to $AITECH on the blockchain. A deflationary burn mechanism ensures that a portion of tokens used for services is permanently removed from circulation, reducing supply and enhancing long-term value.",
+  //   tags: ['AI'],
+  // },
 
   //
   // Berachain

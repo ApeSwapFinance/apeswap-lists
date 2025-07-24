@@ -444,21 +444,21 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
     },
   },
   [ChainId.SONIC]: {
-    '0x08C5e3B7533Ee819A4d1F66e839D0E8F04ae3D0C': {
-      name: '', // this is the onchain name of the pair
-      symbol: '', // this is the onchain symbol of the pair
+    '0x08c5e3b7533ee819a4d1f66e839d0e8f04ae3d0c': {
+      name: 'scUSD-RZR', // this is the onchain name of the pair
+      symbol: 'scUSD-RZR', // this is the onchain symbol of the pair
       decimals: 18,
       source: PriceSource.Dexscreener,
       type: 'pair',
-      tokenAddress: '0x08C5e3B7533Ee819A4d1F66e839D0E8F04ae3D0C',
+      tokenAddress: '0x08c5e3b7533ee819a4d1f66e839d0e8f04ae3d0c',
     },
-    '0xb4444468e444f89e1c2CAc2F1D3ee7e336cBD1f5': {
+    '0xb4444468e444f89e1c2cac2f1d3ee7e336cbd1f5': {
       name: 'Rezerve.money',
       symbol: 'RZR',
       decimals: 18,
       source: PriceSource.Dexscreener,
       type: 'token',
-      tokenAddress: '0xb4444468e444f89e1c2CAc2F1D3ee7e336cBD1f5',
+      tokenAddress: '0xb4444468e444f89e1c2cac2f1d3ee7e336cbd1f5',
     },
   },
   [ChainId.UNICHAIN]: {

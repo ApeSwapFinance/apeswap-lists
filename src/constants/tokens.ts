@@ -289,7 +289,7 @@ const tokens: Record<string, Token> = {
   rzr: {
     symbol: 'RZR',
     address: {
-      [ChainId.SONIC]: '0xb4444468e444f89e1c2CAc2F1D3ee7e336cBD1f5',
+      [ChainId.SONIC]: '0xb4444468e444f89e1c2cac2f1d3ee7e336cbd1f5',
     },
     decimals: {
       [ChainId.SONIC]: 18,
