@@ -325,6 +325,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  paca: {
+    symbol: 'PACA',
+    address: {
+      [ChainId.BASE]: '0x3639E6f4C224eBd1BF6373C3D97917d33E0492BB',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV2,
+    },
+    active: true,
+  },
   yuuki: {
     symbol: 'YUUKI',
     address: {
