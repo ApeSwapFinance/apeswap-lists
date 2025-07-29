@@ -7,7 +7,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Arbitrum Largest ID: 2031
 // ETH Largest ID: 3048
 // Linea Largest ID: 6020
-// Base Largest ID: 8055
+// Base Largest ID: 8056
 // Lightlink Largest ID: 7003
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
@@ -1184,6 +1184,35 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
+  {
+    index: 8056,
+    version: '2.1.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x87381Eb3150aEE4ae6607B3C3564d52cBc9AE705',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.paca,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    inactive: false,
+    projectLink: 'https://www.alpacanetwork.ai/',
+    twitter: 'https://x.com/AlpacaNetworkAI',
+    initTime: { [ChainId.BASE]: 1753795343 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.HotBondingSummer_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription:
+      'Alpaca Network is the first decentralized exchange for open-source AI models. Users can tokenize, trade, and co-own AI models, earning revenue when those models are used. The $PACA token powers the ecosystem, enabling governance, access to IMOs, and a share of rewards from every new MODEL launch.',
+    fullDescription:
+      'Alpaca Network is pioneering the future of AI and blockchain with Modelz.io, the first decentralized exchange built specifically for open-source AI models. The platform allows anyone to tokenize, trade, and co-own AI models in just a few clicks—transforming open-source innovation into a liquid, investable asset class. By minting MODEL tokens, developers and backers can earn directly from model usage, flipping the traditional model where value flows to centralized servers. Whenever an app or AI agent calls a tokenized model’s API, revenue is distributed to MODEL token holders. Central to this ecosystem is the $PACA token, which empowers the community to participate in governance, stake for a guaranteed share of every new MODEL launch, and access exclusive IMO opportunities.',
+    warningCard: `Earn up to a $500 cash back on this bond purchase. <a href="https://x.com/ApeBond/status/1948080684607717810" target="_blank" rel="noopener noreferrer" style="color: #6099c5">Learn More ></a>.`,
+  },
   {
     index: 8055,
     version: '2.1.0',
