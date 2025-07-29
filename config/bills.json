@@ -2203,6 +2203,59 @@
     "fullDescription": "FOMOFox is the first market-driven storytelling meme coin on IOTA EVM. Follow the thrilling journey of FOMOFox on TwitterX and help him conquer his FOMO by influencing the $FOMO Token’s market performance. Loyal holders will find countless opportunities to grow their $FOMO bags through raffles, solving riddles, or simply holding and supporting the fox. Along the way, FOMOFox faces diverse challenges and meets intriguing characters. Your influence on the market helps him make the right choices. This project offers pure entertainment and rewards those who stick with it! Join the adventure now and visit their website for more details!"
   },
   {
+    "index": 8056,
+    "version": "2.1.0",
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0x87381Eb3150aEE4ae6607B3C3564d52cBc9AE705"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "8453": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+      },
+      "decimals": {
+        "8453": 6
+      },
+      "liquidityDex": {
+        "8453": "Aerodrome"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "PACA",
+      "address": {
+        "8453": "0x3639E6f4C224eBd1BF6373C3D97917d33E0492BB"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "liquidityDex": {
+        "8453": "UniswapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "inactive": false,
+    "projectLink": "https://www.alpacanetwork.ai/",
+    "twitter": "https://x.com/AlpacaNetworkAI",
+    "initTime": {
+      "8453": 1753795343
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "HotBondingSummer_Collection1"
+    },
+    "tags": ["AI"],
+    "shortDescription": "Alpaca Network is the first decentralized exchange for open-source AI models. Users can tokenize, trade, and co-own AI models, earning revenue when those models are used. The $PACA token powers the ecosystem, enabling governance, access to IMOs, and a share of rewards from every new MODEL launch.",
+    "fullDescription": "Alpaca Network is pioneering the future of AI and blockchain with Modelz.io, the first decentralized exchange built specifically for open-source AI models. The platform allows anyone to tokenize, trade, and co-own AI models in just a few clicks—transforming open-source innovation into a liquid, investable asset class. By minting MODEL tokens, developers and backers can earn directly from model usage, flipping the traditional model where value flows to centralized servers. Whenever an app or AI agent calls a tokenized model’s API, revenue is distributed to MODEL token holders. Central to this ecosystem is the $PACA token, which empowers the community to participate in governance, stake for a guaranteed share of every new MODEL launch, and access exclusive IMO opportunities.",
+    "warningCard": "Earn up to a $500 cash back on this bond purchase. <a href=\"https://x.com/ApeBond/status/1948080684607717810\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #6099c5\">Learn More ></a>."
+  },
+  {
     "index": 8055,
     "version": "2.1.0",
     "chainId": 8453,
