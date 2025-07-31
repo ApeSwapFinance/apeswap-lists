@@ -299,6 +299,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  amped: {
+    symbol: 'AMPED',
+    address: {
+      [ChainId.SONIC]: '0x4cae73a23078e7a94d1e828fa3baba5080c04fca',
+    },
+    decimals: {
+      [ChainId.SONIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.SONIC]: LiquidityDex.External,
+    },
+    active: true,
+  },
   moon: {
     symbol: 'MOON',
     address: {
