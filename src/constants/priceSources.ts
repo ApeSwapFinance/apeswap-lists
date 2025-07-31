@@ -460,6 +460,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       type: 'token',
       tokenAddress: '0xb4444468e444f89e1c2cac2f1d3ee7e336cbd1f5',
     },
+    '0x4cae73a23078e7a94d1e828fa3baba5080c04fca': {
+      name: 'Amped Finance',
+      symbol: 'AMPED',
+      decimals: 18,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '0x4cae73a23078e7a94d1e828fa3baba5080c04fca',
+    },
   },
   [ChainId.UNICHAIN]: {
     '0x4200000000000000000000000000000000000006': {
