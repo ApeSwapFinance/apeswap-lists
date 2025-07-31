@@ -861,6 +861,58 @@
     "fullDescription": "BurrBear is the one-stop stablecoin shop for the Berachain ecosystem, offering a novel decentralized exchange purpose-built for capital-efficient trading of stablecoins and tokenized assets. Its platform features Multi Stable Pools for classic USD:USD trades, Burr Pools—20x more capital-efficient than traditional pools—for a wide range of stablecoins backed by currencies, commodities, synthetic assets, or tokenized real-world and hardware assets, and Generalized Pools for broader token swaps. By combining the utility of Uniswap and Curve with a focus on off-chain market-tracking assets, BurrBear enables deep, flexible liquidity for both like-priced and non-like-priced assets. The protocol is powered by the BURR token, with a capped supply of 100 million, positioning BurrBear as a foundational pillar of Berachain DeFi. "
   },
   {
+    "index": 15006,
+    "version": "2.1.0",
+    "chainId": 146,
+    "contractAddress": {
+      "146": "0xE26D0184cF105e18128360E8Ff192667E59475D7"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "146": "0x29219dd400f2Bf60E5a23d13Be72B486D4038894"
+      },
+      "decimals": {
+        "146": 6
+      },
+      "liquidityDex": {
+        "146": "ShadowExchange"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "AMPED",
+      "address": {
+        "146": "0x4cae73a23078e7a94d1e828fa3baba5080c04fca"
+      },
+      "decimals": {
+        "146": 18
+      },
+      "liquidityDex": {
+        "146": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "146": "0xc765C358622cB346f236F8Bfffe53036e421bb4e"
+    },
+    "inactive": false,
+    "projectLink": "https://amped.finance/#/",
+    "twitter": "https://x.com/ampedfinance",
+    "initTime": {
+      "146": 1753971345
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "fullDescription": "Amped Finance is a decentralized perpetual and spot trading platform built on the foundation of the battle-tested GMX v1 protocol, enhanced with innovative features to elevate the DeFi trading experience. With a focus on high-performance trading, the platform offers up to 10x leverage on perpetual swaps, zero price-impact swaps, and AI-powered trading assistants that support smarter decision-making and risk management for active traders. For liquidity providers, Amped introduces the ALP pool and yALP vault—auto-compounding, AI-optimized instruments designed for effortless yield generation. By refining GMX v1, Amped Finance delivers a seamless blend of advanced trading functionality, sustainable yield opportunities, and artificial intelligence. The AMPED token lies at the heart of the ecosystem, powering governance, distributing rewards, incentivizing liquidity, and integrating with ALP to align the interests of all stakeholders.",
+    "shortDescription": "Amped Finance is a decentralized trading platform built on GMX v1, enhanced with AI-driven tools and features. It offers up to 10x leverage, zero price-impact swaps, and smart yield options like the ALP pool and yALP vault. By blending advanced trading with AI, Amped empowers users with smarter strategies. The AMPED token powers governance, rewards, and liquidity incentives.",
+    "tags": ["AI"]
+  },
+  {
     "index": 15005,
     "version": "2.1.0",
     "chainId": 146,

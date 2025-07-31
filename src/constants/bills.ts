@@ -496,6 +496,34 @@ const bills: BillsConfig[] = [
   // Sonic
   //
   {
+    index: 15006,
+    version: '2.1.0',
+    chainId: ChainId.SONIC,
+    contractAddress: {
+      [ChainId.SONIC]: '0xE26D0184cF105e18128360E8Ff192667E59475D7',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.amped,
+    billNnftAddress: {
+      [ChainId.SONIC]: '0xc765C358622cB346f236F8Bfffe53036e421bb4e',
+    },
+    inactive: false,
+    projectLink: 'https://amped.finance/#/',
+    twitter: 'https://x.com/ampedfinance',
+    initTime: { [ChainId.SONIC]: 1753971345 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    fullDescription:
+      'Amped Finance is a decentralized perpetual and spot trading platform built on the foundation of the battle-tested GMX v1 protocol, enhanced with innovative features to elevate the DeFi trading experience. With a focus on high-performance trading, the platform offers up to 10x leverage on perpetual swaps, zero price-impact swaps, and AI-powered trading assistants that support smarter decision-making and risk management for active traders. For liquidity providers, Amped introduces the ALP pool and yALP vault—auto-compounding, AI-optimized instruments designed for effortless yield generation. By refining GMX v1, Amped Finance delivers a seamless blend of advanced trading functionality, sustainable yield opportunities, and artificial intelligence. The AMPED token lies at the heart of the ecosystem, powering governance, distributing rewards, incentivizing liquidity, and integrating with ALP to align the interests of all stakeholders.',
+    shortDescription:
+      'Amped Finance is a decentralized trading platform built on GMX v1, enhanced with AI-driven tools and features. It offers up to 10x leverage, zero price-impact swaps, and smart yield options like the ALP pool and yALP vault. By blending advanced trading with AI, Amped empowers users with smarter strategies. The AMPED token powers governance, rewards, and liquidity incentives.',
+    tags: ['AI'],
+  },
+  {
     index: 15005,
     version: '2.1.0',
     chainId: ChainId.SONIC,
