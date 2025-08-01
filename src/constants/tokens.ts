@@ -221,7 +221,7 @@ const tokens: Record<string, Token> = {
   u: {
     symbol: 'U',
     address: {
-      [ChainId.BSC]: '0xe07710cdcD1c9F0FB04bfd013F9854E4552671cE',
+      [ChainId.BSC]: '0xe07710cdcd1c9f0fb04bfd013f9854e4552671ce',
     },
     decimals: {
       [ChainId.BSC]: 18,
