@@ -30288,7 +30288,7 @@
     "warningCard": "Earn up to a $500 cash back on this bond purchase. <a href=\"https://x.com/ApeBond/status/1948080684607717810\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #6099c5\">Learn More ></a>."
   },
   {
-    "index": 3047,
+    "index": 3048,
     "cmcId": 35906,
     "version": "2.1.0",
     "chainId": 1,
@@ -30340,5 +30340,111 @@
     "shortDescription": "Polemos is building a next-gen ecosystem connecting players to AAA Web3 games through a seamless, chain-agnostic platform. With features like asset lending, token trading, and unified rewards in a secure, collateral-free environment, Polemos empowers global access to Web3 gaming. PLMS is the native utility token of the Polemos ecosystem, used to access platform services, enable in-game interactions, and participate in governance.",
     "fullDescription": "Polemos is creating a revolutionary ecosystem that bridges players with top-tier AAA Web3 games, aiming to deliver a seamless and immersive experience for gamers worldwide. By partnering with leading projects and platforms, Polemos is expanding access to Web3 gaming on a global scale. Its game- and chain-agnostic infrastructure empowers users to engage effortlessly with a wide range of titles, while offering a comprehensive set of services—including a marketplace for lending and borrowing game assets, token trading, and unified rewards—all within a secure, collateral-free environment. PLMS is the native utility token of the Polemos ecosystem, used to access platform services, enable in-game interactions, and participate in governance. Designed for secure and seamless use across the platform, it powers all key functions within the Polemos Web3 gaming experience.",
     "warningCard": "Earn up to a $500 cash back on this bond purchase. <a href=\"https://x.com/ApeBond/status/1948080684607717810\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #6099c5\">Learn More ></a>."
+  },
+  {
+    "index": 3049,
+    "cmcId": 37425,
+    "version": "2.1.0",
+    "chainId": 1,
+    "contractAddress": {
+      "1": "0x429FF9e969DF638Ef70bd8076F6Ccd10B84aa711"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "BTC",
+      "address": {
+        "1": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599"
+      },
+      "decimals": {
+        "1": 8
+      },
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "PRIVIX",
+      "address": {
+        "1": "0xaFB942E2A12aC0861Ad81b5c37682f588912c1d9"
+      },
+      "decimals": {
+        "1": 9
+      },
+      "liquidityDex": {
+        "1": "UniswapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "1": "0x499b654b0a7f9979cc315190c09ca2633809b8df"
+    },
+    "inactive": false,
+    "projectLink": "https://privix.co/",
+    "twitter": "https://x.com/privixtoken",
+    "initTime": {
+      "1": 1754043065
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ETH_Collection1"
+    },
+    "tags": ["DEX"],
+    "shortDescription": "Privix is a blockchain built to keep your information safe, private, and secure. It offers a range of tools: Nexar lets you swap tokens anonymously, Pulsar hides your transfers, Xfera stores your files privately, PrivyMail protects your emails, Pass manages your passwords, and Mixion Locker hides your assets. The PRIVIX token lets you use all these services in one private Web3 ecosystem.",
+    "fullDescription": "Privix is an EVM-compatible blockchain purpose-built to champion privacy, security, and anonymity across a unified Web3 ecosystem. With a focus on user sovereignty and digital freedom, Privix empowers individuals to transact, communicate, and store data without surveillance or exposure. Its ecosystem includes Nexar for anonymous token swaps, Pulsar for untraceable transfers, Xfera for decentralized private file storage, PrivyMail for encrypted communication, Pass as a blockchain-native password manager, and Mixion Locker for fully anonymous asset storage. Developed and governed by a global community driven by the values of privacy and decentralization, Privix redefines the boundaries of secure digital interaction. At the core of this ecosystem is the PRIVIX token, which powers seamless access to all Privix applications and services, enabling a truly private Web3 experience."
+  },
+  {
+    "index": 3050,
+    "cmcId": 37425,
+    "version": "2.1.0",
+    "chainId": 1,
+    "contractAddress": {
+      "1": "0x2Ad491688507bF499829C521Ee792A15DcA550C6"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "ETH",
+      "address": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+      },
+      "decimals": {
+        "1": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "PRIVIX",
+      "address": {
+        "1": "0xaFB942E2A12aC0861Ad81b5c37682f588912c1d9"
+      },
+      "decimals": {
+        "1": 9
+      },
+      "liquidityDex": {
+        "1": "UniswapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "1": "0x499b654b0a7f9979cc315190c09ca2633809b8df"
+    },
+    "inactive": false,
+    "projectLink": "https://privix.co/",
+    "twitter": "https://x.com/privixtoken",
+    "initTime": {
+      "1": 1754043065
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ETH_Collection1"
+    },
+    "tags": ["DEX"],
+    "shortDescription": "Privix is a blockchain built to keep your information safe, private, and secure. It offers a range of tools: Nexar lets you swap tokens anonymously, Pulsar hides your transfers, Xfera stores your files privately, PrivyMail protects your emails, Pass manages your passwords, and Mixion Locker hides your assets. The PRIVIX token lets you use all these services in one private Web3 ecosystem.",
+    "fullDescription": "Privix is an EVM-compatible blockchain purpose-built to champion privacy, security, and anonymity across a unified Web3 ecosystem. With a focus on user sovereignty and digital freedom, Privix empowers individuals to transact, communicate, and store data without surveillance or exposure. Its ecosystem includes Nexar for anonymous token swaps, Pulsar for untraceable transfers, Xfera for decentralized private file storage, PrivyMail for encrypted communication, Pass as a blockchain-native password manager, and Mixion Locker for fully anonymous asset storage. Developed and governed by a global community driven by the values of privacy and decentralization, Privix redefines the boundaries of secure digital interaction. At the core of this ecosystem is the PRIVIX token, which powers seamless access to all Privix applications and services, enabling a truly private Web3 experience."
   }
 ]
