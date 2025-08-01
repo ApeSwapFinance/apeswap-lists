@@ -4510,6 +4510,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  privix: {
+    symbol: 'PRIVIX',
+    address: {
+      [ChainId.MAINNET]: '0xaFB942E2A12aC0861Ad81b5c37682f588912c1d9',
+    },
+    decimals: { [ChainId.MAINNET]: 9 },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
+    },
+    active: true,
+  },
   munity: {
     symbol: 'MUNITY',
     address: {
