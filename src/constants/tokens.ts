@@ -20,6 +20,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  octo: {
+    symbol: 'OCTO',
+    address: {
+      [ChainId.MONAD_TESTNET]: '0xCa9A4F46Faf5628466583486FD5ACE8AC33ce126',
+    },
+    decimals: {
+      [ChainId.MONAD_TESTNET]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MONAD_TESTNET]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
   orcai: {
     symbol: 'ORCAI',
     address: {

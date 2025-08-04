@@ -701,6 +701,33 @@ const bills: BillsConfig[] = [
   // Monad Testnet
   //
   {
+    index: 14012,
+    version: '2.1.0',
+    chainId: ChainId.MONAD_TESTNET,
+    contractAddress: {
+      [ChainId.MONAD_TESTNET]: '0xB3f8294CCdAC8601CAa75a5120908451005FCBcf',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.octo,
+    billNnftAddress: {
+      [ChainId.MONAD_TESTNET]: '0x04f1D39a5A5EFCB6e51891E01d4acCD8c434775C',
+    },
+    inactive: false,
+    projectLink: 'https://octo.exchange',
+    twitter: 'https://x.com/OctoSwapDex',
+    initTime: { [ChainId.MONAD_TESTNET]: 1754336807 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Testnet'],
+    shortDescription: `OctoSwap, your native trading hub on Monad, is built with simplicity and efficiency in mind, offering a smooth, intuitive experience for all traders. Users can trade, earn real yield, and provide liquidity with ease, all within a gamified, community-driven platform. Built for capital efficiency and accessibility, OctoSwap is powered by OCTO, the token at the core of its growing ecosystem.`,
+    fullDescription: `OctoSwap is the native trading hub on Monad, purpose-built for simplicity, speed, and a seamless user experience. As a key pillar of the Monad ecosystem, OctoSwap empowers users to trade, earn real yield, and provide liquidity with confidence, all while enjoying a secure and intuitive interface. The platform combines high-performance infrastructure with capital-efficient design, enabling consistent and reliable DeFi solutions for the growing community of monadians. With a strong focus on gamified features and community feedback, OctoSwap continually evolves to meet user needs and lower the barrier to entry for DeFi newcomers. Its mission is to make decentralized finance not just accessible, but engaging and inclusive for all. At the heart of this ecosystem is OCTO, a community-driven token powering rewards, governance, and the future of DeFi on Monad.`,
+    warningCard: `Testnet Bonds use fake tokens for testing purposes only.`,
+  },
+  {
     index: 14011,
     version: '2.1.0',
     chainId: ChainId.MONAD_TESTNET,
