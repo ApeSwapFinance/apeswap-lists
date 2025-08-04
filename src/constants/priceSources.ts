@@ -328,13 +328,13 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       price: 69,
       tokenAddress: '6MkKT6ffNt6N22U2Q7yZaLC4QYrxGuFefwYrmd8XXsih',
     },
-    '8clgctogo6foykeqqbm3vm2pvckycicm3xxhdsr4skor': {
+    '8CLGcTogo6FoYkEQQBm3Vm2PVckYCiCm3XXhdsr4skoR': {
       name: 'SKOR AI',
       symbol: 'SKORAI',
       decimals: 6,
       source: PriceSource.Coingecko,
       id: 'skor-ai',
-      tokenAddress: '8clgctogo6foykeqqbm3vm2pvckycicm3xxhdsr4skor',
+      tokenAddress: '8CLGcTogo6FoYkEQQBm3Vm2PVckYCiCm3XXhdsr4skoR',
     },
     Aq8Gocyvyyi8xk5EYxd6viUfVmVvs9T9R6mZFzZFpump: {
       name: 'Hyperpigmentation',
