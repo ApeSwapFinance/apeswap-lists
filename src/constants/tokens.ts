@@ -101,7 +101,7 @@ const tokens: Record<string, Token> = {
   skorai: {
     symbol: 'SKORAI',
     address: {
-      [ChainId.SOL]: '8clgctogo6foykeqqbm3vm2pvckycicm3xxhdsr4skor',
+      [ChainId.SOL]: '8CLGcTogo6FoYkEQQBm3Vm2PVckYCiCm3XXhdsr4skoR',
     },
     decimals: {
       [ChainId.SOL]: 6,
