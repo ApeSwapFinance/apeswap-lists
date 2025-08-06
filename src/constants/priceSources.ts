@@ -84,13 +84,13 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       id: 'FNFSUSDT',
       tokenAddress: '0x09854c1349cd1412439461ca72609f97850d2218',
     },
-    '0xe07710cdcd1c9f0fb04bfd013f9854e4552671ce': {
+    '0xe07710cdcD1c9F0FB04bfd013F9854E4552671cE': {
       name: 'UCOIN',
       symbol: 'U',
       decimals: 18,
       source: PriceSource.Mexc,
       id: 'UCOINUSDT',
-      tokenAddress: '0xe07710cdcd1c9f0fb04bfd013f9854e4552671ce',
+      tokenAddress: '0xe07710cdcD1c9F0FB04bfd013F9854E4552671cE',
     },
     '0xb6C53431608E626AC81a9776ac3e999c5556717c': {
       name: 'pTokens TLOS',
@@ -444,29 +444,29 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
     },
   },
   [ChainId.SONIC]: {
-    '0x08c5e3b7533ee819a4d1f66e839d0e8f04ae3d0c': {
+    '0x08C5e3B7533Ee819A4d1F66e839D0E8F04ae3D0C': {
       name: 'scUSD-RZR', // this is the onchain name of the pair
       symbol: 'scUSD-RZR', // this is the onchain symbol of the pair
       decimals: 18,
       source: PriceSource.Dexscreener,
       type: 'pair',
-      tokenAddress: '0x08c5e3b7533ee819a4d1f66e839d0e8f04ae3d0c',
+      tokenAddress: '0x08C5e3B7533Ee819A4d1F66e839D0E8F04ae3D0C',
     },
-    '0xb4444468e444f89e1c2cac2f1d3ee7e336cbd1f5': {
+    '0xb4444468e444f89e1c2CAc2F1D3ee7e336cBD1f5': {
       name: 'Rezerve.money',
       symbol: 'RZR',
       decimals: 18,
       source: PriceSource.Dexscreener,
       type: 'token',
-      tokenAddress: '0xb4444468e444f89e1c2cac2f1d3ee7e336cbd1f5',
+      tokenAddress: '0xb4444468e444f89e1c2CAc2F1D3ee7e336cBD1f5',
     },
-    '0x4cae73a23078e7a94d1e828fa3baba5080c04fca': {
+    '0x4Cae73a23078e7A94D1e828Fa3bABa5080c04FcA': {
       name: 'Amped Finance',
       symbol: 'AMPED',
       decimals: 18,
       source: PriceSource.Dexscreener,
       type: 'token',
-      tokenAddress: '0x4cae73a23078e7a94d1e828fa3baba5080c04fca',
+      tokenAddress: '0x4Cae73a23078e7A94D1e828Fa3bABa5080c04FcA',
     },
   },
   [ChainId.UNICHAIN]: {
@@ -478,13 +478,13 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       type: 'token',
       tokenAddress: '0x4200000000000000000000000000000000000006',
     },
-    '0x078d782b760474a361dda0af3839290b0ef57ad6': {
+    '0x078D782b760474a361dDA0AF3839290b0EF57AD6': {
       name: 'USDC',
       symbol: 'USDC',
       decimals: 6,
       source: PriceSource.Dexscreener,
       type: 'token',
-      tokenAddress: '0x078d782b760474a361dda0af3839290b0ef57ad6',
+      tokenAddress: '0x078D782b760474a361dDA0AF3839290b0EF57AD6',
     },
     '0x9151434b16b9763660705744891fA906F660EcC5': {
       name: 'USD₮0',
@@ -502,21 +502,22 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       type: 'token',
       tokenAddress: '0x926DC7b96bb2F4A91C2A67e291Faf482691a3001',
     },
-    '0x7169a1874d4716094bdce1b86a5cd00212ca1319': {
+    '0x7169a1874d4716094bdcE1b86a5cd00212CA1319': {
       name: 'bveCATX',
       symbol: 'bveCATX',
       decimals: 18,
       source: PriceSource.Dexscreener,
       type: 'token',
-      tokenAddress: '0x756ee6857f915a2b5366f2ef56d8d13857aef8ad',
+      originalTokenAddress: '0x7169a1874d4716094bdcE1b86a5cd00212CA1319',
+      tokenAddress: '0x756ee6857F915A2b5366F2Ef56d8D13857aef8ad', //CATX
     },
-    '0x756ee6857f915a2b5366f2ef56d8d13857aef8ad': {
+    '0x756ee6857F915A2b5366F2Ef56d8D13857aef8ad': {
       name: 'CATEX',
       symbol: 'CATX',
       decimals: 18,
       source: PriceSource.Dexscreener,
       type: 'token',
-      tokenAddress: '0x756ee6857f915a2b5366f2ef56d8d13857aef8ad',
+      tokenAddress: '0x756ee6857F915A2b5366F2Ef56d8D13857aef8ad',
     },
   },
   [ChainId.MAINNET]: {

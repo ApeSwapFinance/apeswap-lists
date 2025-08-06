@@ -234,7 +234,7 @@ const tokens: Record<string, Token> = {
   u: {
     symbol: 'U',
     address: {
-      [ChainId.BSC]: '0xe07710cdcd1c9f0fb04bfd013f9854e4552671ce',
+      [ChainId.BSC]: '0xe07710cdcD1c9F0FB04bfd013F9854E4552671cE',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -302,7 +302,7 @@ const tokens: Record<string, Token> = {
   rzr: {
     symbol: 'RZR',
     address: {
-      [ChainId.SONIC]: '0xb4444468e444f89e1c2cac2f1d3ee7e336cbd1f5',
+      [ChainId.SONIC]: '0xb4444468e444f89e1c2CAc2F1D3ee7e336cBD1f5',
     },
     decimals: {
       [ChainId.SONIC]: 18,
@@ -315,7 +315,7 @@ const tokens: Record<string, Token> = {
   amped: {
     symbol: 'AMPED',
     address: {
-      [ChainId.SONIC]: '0x4cae73a23078e7a94d1e828fa3baba5080c04fca',
+      [ChainId.SONIC]: '0x4Cae73a23078e7A94D1e828Fa3bABa5080c04FcA',
     },
     decimals: {
       [ChainId.SONIC]: 18,
@@ -1697,7 +1697,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BERACHAIN]: '0x549943e04f40284185054145c6E4e9568C1D3241', // this is USDC.e
       [ChainId.KATANA]: '0x203A662b0BD271A6ed5a60EdFbd04bFce608FD36',
       [ChainId.SOL]: 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v',
-      [ChainId.UNICHAIN]: '0x078d782b760474a361dda0af3839290b0ef57ad6',
+      [ChainId.UNICHAIN]: '0x078D782b760474a361dDA0AF3839290b0EF57AD6',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -5382,7 +5382,7 @@ const tokens: Record<string, Token> = {
   bvecatx: {
     symbol: 'bveCATX',
     address: {
-      [ChainId.UNICHAIN]: '0x7169a1874d4716094bdce1b86a5cd00212ca1319',
+      [ChainId.UNICHAIN]: '0x7169a1874d4716094bdcE1b86a5cd00212CA1319',
     },
     decimals: {
       [ChainId.UNICHAIN]: 18,
@@ -5395,7 +5395,7 @@ const tokens: Record<string, Token> = {
   catx: {
     symbol: 'CATX',
     address: {
-      [ChainId.UNICHAIN]: '0x756ee6857f915a2b5366f2ef56d8d13857aef8ad',
+      [ChainId.UNICHAIN]: '0x756ee6857F915A2b5366F2Ef56d8D13857aef8ad',
     },
     decimals: {
       [ChainId.UNICHAIN]: 18,
@@ -7690,7 +7690,7 @@ const tokens: Record<string, Token> = {
   scUSDrzr_ShadowExchange: {
     symbol: 'scUSD-RZR',
     address: {
-      [ChainId.SONIC]: '0x08c5e3b7533ee819a4d1f66e839d0e8f04ae3d0c',
+      [ChainId.SONIC]: '0x08C5e3B7533Ee819A4d1F66e839D0E8F04ae3D0C',
     },
     decimals: { [ChainId.SONIC]: 18 },
     active: true,
