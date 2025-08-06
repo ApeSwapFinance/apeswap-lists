@@ -11,7 +11,7 @@
     "lpToken": {
       "symbol": "USDC",
       "address": {
-        "130": "0x078d782b760474a361dda0af3839290b0ef57ad6"
+        "130": "0x078D782b760474a361dDA0AF3839290b0EF57AD6"
       },
       "decimals": {
         "130": 6
@@ -24,7 +24,7 @@
     "earnToken": {
       "symbol": "bveCATX",
       "address": {
-        "130": "0x7169a1874d4716094bdce1b86a5cd00212ca1319"
+        "130": "0x7169a1874d4716094bdcE1b86a5cd00212CA1319"
       },
       "decimals": {
         "130": 18
@@ -64,7 +64,7 @@
     "lpToken": {
       "symbol": "USDC",
       "address": {
-        "130": "0x078d782b760474a361dda0af3839290b0ef57ad6"
+        "130": "0x078D782b760474a361dDA0AF3839290b0EF57AD6"
       },
       "decimals": {
         "130": 6
@@ -77,7 +77,7 @@
     "earnToken": {
       "symbol": "bveCATX",
       "address": {
-        "130": "0x7169a1874d4716094bdce1b86a5cd00212ca1319"
+        "130": "0x7169a1874d4716094bdcE1b86a5cd00212CA1319"
       },
       "decimals": {
         "130": 18
@@ -117,7 +117,7 @@
     "lpToken": {
       "symbol": "USDC",
       "address": {
-        "130": "0x078d782b760474a361dda0af3839290b0ef57ad6"
+        "130": "0x078D782b760474a361dDA0AF3839290b0EF57AD6"
       },
       "decimals": {
         "130": 6
@@ -130,7 +130,7 @@
     "earnToken": {
       "symbol": "bveCATX",
       "address": {
-        "130": "0x7169a1874d4716094bdce1b86a5cd00212ca1319"
+        "130": "0x7169a1874d4716094bdcE1b86a5cd00212CA1319"
       },
       "decimals": {
         "130": 18
@@ -938,7 +938,7 @@
     "earnToken": {
       "symbol": "AMPED",
       "address": {
-        "146": "0x4cae73a23078e7a94d1e828fa3baba5080c04fca"
+        "146": "0x4Cae73a23078e7A94D1e828Fa3bABa5080c04FcA"
       },
       "decimals": {
         "146": 18
@@ -1034,7 +1034,7 @@
     "lpToken": {
       "symbol": "scUSD-RZR",
       "address": {
-        "146": "0x08c5e3b7533ee819a4d1f66e839d0e8f04ae3d0c"
+        "146": "0x08C5e3B7533Ee819A4d1F66e839D0E8F04ae3D0C"
       },
       "decimals": {
         "146": 18
@@ -1054,7 +1054,7 @@
     "earnToken": {
       "symbol": "RZR",
       "address": {
-        "146": "0xb4444468e444f89e1c2cac2f1d3ee7e336cbd1f5"
+        "146": "0xb4444468e444f89e1c2CAc2F1D3ee7e336cBD1f5"
       },
       "decimals": {
         "146": 18
@@ -7006,7 +7006,7 @@
     "earnToken": {
       "symbol": "U",
       "address": {
-        "56": "0xe07710cdcd1c9f0fb04bfd013f9854e4552671ce"
+        "56": "0xe07710cdcD1c9F0FB04bfd013F9854E4552671cE"
       },
       "decimals": {
         "56": 18
