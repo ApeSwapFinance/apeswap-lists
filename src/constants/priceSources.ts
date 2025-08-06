@@ -26,7 +26,22 @@ type CoinGeckoPriceSourceConfig = BasePriceSourceConfig & {
 type DexScreenerPriceSourceConfig = BasePriceSourceConfig & {
   source: PriceSource.Dexscreener
   type: 'token' | 'pair'
+  /**
+   * Optional target chain for cross-chain price lookups.
+   * When specified, the price will be fetched from this chain instead of the current chain.
+   * Used when a token's price needs to be sourced from a different blockchain.
+   */
   targetChain?: ChainId
+  /**
+   * The original token address that this price source configuration is for.
+   * When using cross-chain price lookups, this should match the key address of the object.
+   * The actual price will be fetched from the address specified in `tokenAddress` field.
+   *
+   * Example: If the object key is '0x4eB2Bd7beE16F38B1F4a0A5796Fffd028b6040e9' (WETH on MegaETH Testnet),
+   * and you want to get the price from '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2' (WETH on Ethereum mainnet),
+   * then originalTokenAddress should be '0x4eB2Bd7beE16F38B1F4a0A5796Fffd028b6040e9' and
+   * tokenAddress should be '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2'.
+   */
   originalTokenAddress?: string
 }
 
