@@ -339,7 +339,7 @@ const bills: BillsConfig[] = [
     inactive: false,
     projectLink: 'https://home.blockasset.co/',
     twitter: 'https://x.com/blockassetco',
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
