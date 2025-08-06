@@ -20,6 +20,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  busdc: {
+    symbol: 'BUSDC',
+    address: {
+      [ChainId.MEGAETH_TESTNET]: '0x130abef84be9cf2343e56247a7896f9962450b08',
+    },
+    decimals: {
+      [ChainId.MEGAETH_TESTNET]: 6,
+    },
+    liquidityDex: {
+      [ChainId.MEGAETH_TESTNET]: LiquidityDex.External,
+    },
+    active: true,
+  },
   octo: {
     symbol: 'OCTO',
     address: {
@@ -1556,6 +1569,7 @@ const tokens: Record<string, Token> = {
       [ChainId.KATANA_TESTNET]: '0x17B8Ee96E3bcB3b04b3e8334de4524520C51caB4',
       [ChainId.KATANA]: '0xEE7D8BCFb72bC1880D0Cf19822eB0A2e6577aB62',
       [ChainId.UNICHAIN]: '0x4200000000000000000000000000000000000006',
+      [ChainId.MEGAETH_TESTNET]: '0x4eB2Bd7beE16F38B1F4a0A5796Fffd028b6040e9',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -1576,6 +1590,7 @@ const tokens: Record<string, Token> = {
       [ChainId.KATANA_TESTNET]: 18,
       [ChainId.KATANA]: 18,
       [ChainId.UNICHAIN]: 18,
+      [ChainId.MEGAETH_TESTNET]: 18,
     },
     liquidityDex: {
       [ChainId.MAINNET]: LiquidityDex.UniswapV3,
@@ -1594,7 +1609,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
       [ChainId.MATIC]: LiquidityDex.UniswapV3,
       [ChainId.ARBITRUM]: LiquidityDex.PancakeSwapV3,
-      //[ChainId.IOTA]: LiquidityDex., //couldn't find the liqDex for IOTA
+      [ChainId.MEGAETH_TESTNET]: LiquidityDex.External,
     },
     active: true,
   },
