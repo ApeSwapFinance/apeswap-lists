@@ -530,6 +530,26 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       tokenAddress: '0x0624069497F830BEa84bd7Ad410b878270130035',
     },
   },
+  [ChainId.MEGAETH_TESTNET]: {
+    '0x4eB2Bd7beE16F38B1F4a0A5796Fffd028b6040e9': {
+      name: 'Wrapped Ether',
+      symbol: 'WETH',
+      decimals: 18,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      originalTokenAddress: '0x4eB2Bd7beE16F38B1F4a0A5796Fffd028b6040e9',
+      targetChain: ChainId.MAINNET,
+      tokenAddress: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2', //ETH
+    },
+    '0x130abef84be9cf2343e56247a7896f9962450b08': {
+      name: 'Bronto USDC',
+      symbol: 'BUSDC',
+      decimals: 6,
+      source: PriceSource.Fixed,
+      price: 1,
+      tokenAddress: '0x130abef84be9cf2343e56247a7896f9962450b08',
+    },
+  },
 }
 
 export default priceSources

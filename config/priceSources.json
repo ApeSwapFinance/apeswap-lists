@@ -222,6 +222,26 @@
       "tokenAddress": "0x69011706b3f6C6eaeD7D2Bc13801558B4fd94CBF"
     }
   },
+  "6342": {
+    "0x4eB2Bd7beE16F38B1F4a0A5796Fffd028b6040e9": {
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18,
+      "source": "dexscreener",
+      "type": "token",
+      "originalTokenAddress": "0x4eB2Bd7beE16F38B1F4a0A5796Fffd028b6040e9",
+      "targetChain": 1,
+      "tokenAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+    },
+    "0x130abef84be9cf2343e56247a7896f9962450b08": {
+      "name": "Bronto USDC",
+      "symbol": "BUSDC",
+      "decimals": 6,
+      "source": "fixed",
+      "price": 1,
+      "tokenAddress": "0x130abef84be9cf2343e56247a7896f9962450b08"
+    }
+  },
   "8453": {
     "0xACf80A4e55F5f28e1e7d261a221cA495DB5bcbB3": {
       "name": "XAVI by Virtuals",
