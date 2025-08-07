@@ -19,13 +19,41 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Sonic Largest ID: 15005
 // Berachain Largest ID: 16004
 // Katana Largest ID: 17000
-// SOL Largest ID: 18010
-// UNICHAIN Largest ID: 19001
+// Solana Largest ID: 18010
+// Unichain Largest ID: 19001
+// MegaETH Testnet Largest ID: 20000
 
 const bills: BillsConfig[] = [
   //
-  // Katana
+  // MegaETH Testnet
   //
+  {
+    index: 20000,
+    version: '2.1.0',
+    chainId: ChainId.MEGAETH_TESTNET,
+    contractAddress: {
+      [ChainId.MEGAETH_TESTNET]: '0x58F51F31Cca3890D571ecFB47f62bB530339529d',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.busdc,
+    earnToken: tokens.eth,
+    billNnftAddress: {
+      [ChainId.MEGAETH_TESTNET]: '0xc765C358622cB346f236F8Bfffe53036e421bb4e',
+    },
+    inactive: false,
+    projectLink: 'https://www.megaeth.com/',
+    twitter: 'https://x.com/megaeth_labs',
+    initTime: { [ChainId.MEGAETH_TESTNET]: 1754577140 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Testnet'],
+    shortDescription: 'lorem ipsum',
+    fullDescription: 'lorem ipsum dolor sit amet',
+    warningCard: 'Testnet Bonds use fake tokens for testing purposes only.',
+  },
 
   //
   // Unichain
@@ -374,6 +402,10 @@ const bills: BillsConfig[] = [
       "AITECH is the world's first deflationary AI utilities token, driving the operations of Solidus AI Tech's eco-friendly High-Performance Computing (HPC) Data Centre in Europe. This 8,000 sqft facility supports a diverse ecosystem, including the AI and GPU Marketplaces as well as the AITECH Pad Launchpad. The GPU Marketplace offers high-performance GPUs for a wide range of tasks, available through flexible rentals with no upfront costs. The AI Marketplace provides a suite of AI tools for automating both business and personal activities, categorized into Foundational AI Models, AI Agents, and Standalone AI Solutions. The AITECH Pad Launchpad offers early access to seed, private, and public rounds of AI-focused and infrastructure projects. Stakers of the $AITECH token gain tiered access to these launches, powering the ecosystem and enabling seamless service transactions, where fiat payments are converted to $AITECH on the blockchain. A deflationary burn mechanism ensures that a portion of tokens used for services is permanently removed from circulation, reducing supply and enhancing long-term value.",
     tags: ['AI'],
   },
+
+  //
+  // Katana
+  //
 
   //
   // Berachain
