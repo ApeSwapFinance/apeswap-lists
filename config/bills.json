@@ -2564,7 +2564,7 @@
     "initTime": {
       "8453": 1753290000
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "HotBondingSummer_Collection1"
     },

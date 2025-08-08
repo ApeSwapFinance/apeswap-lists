@@ -1371,7 +1371,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://smardex.io/home',
     twitter: 'https://x.com/SmarDex',
     initTime: { [ChainId.BASE]: 1753290000 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.HotBondingSummer_Collection1,
     },
