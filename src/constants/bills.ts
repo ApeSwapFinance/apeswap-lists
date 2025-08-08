@@ -541,7 +541,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://amped.finance/#/',
     twitter: 'https://x.com/ampedfinance',
     initTime: { [ChainId.SONIC]: 1753971345 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
