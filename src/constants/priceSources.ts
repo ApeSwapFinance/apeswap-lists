@@ -91,6 +91,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       id: 'lovebit',
       tokenAddress: '0x8613d52D74a48883A51bAdF8b25ab066714087Da',
     },
+    '0xfdc66a08b0d0dc44c17bbd471b88f49f50cdd20f': {
+      name: 'SmarDex Token',
+      symbol: 'SDEX',
+      decimals: 18,
+      source: PriceSource.Coingecko,
+      id: 'smardex',
+      tokenAddress: '0xfdc66a08b0d0dc44c17bbd471b88f49f50cdd20f',
+    },
     '0x09854c1349cd1412439461ca72609f97850d2218': {
       name: 'FusedNFurious',
       symbol: 'FNFS',
