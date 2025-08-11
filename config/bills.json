@@ -2510,7 +2510,7 @@
     "initTime": {
       "8453": 1753363558
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "HotBondingSummer_Collection1"
     },
@@ -5842,7 +5842,7 @@
     "initTime": {
       "59144": 1753290000
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "HotBondingSummer_Collection1"
     },
@@ -12440,13 +12440,13 @@
     "earnToken": {
       "symbol": "SDEX",
       "address": {
-        "56": "0xFdc66A08B0d0Dc44c17bbd471B88f49F50CdD20F"
+        "56": "0xfdc66a08b0d0dc44c17bbd471b88f49f50cdd20f"
       },
       "decimals": {
         "56": 18
       },
       "liquidityDex": {
-        "56": "PancakeSwapV2"
+        "56": "External"
       },
       "active": true
     },
