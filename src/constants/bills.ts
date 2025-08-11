@@ -1,7 +1,7 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1162
+// BNB Largest ID: 1163
 // Polygon Largest ID: 184
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2031
@@ -3606,6 +3606,34 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1163,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x1EADE85bE656696ccCf941ACA2A9Dd777D699705',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.sdex,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    inactive: false,
+    projectLink: 'https://smardex.io/home',
+    twitter: 'https://twitter.com/SmarDex',
+    initTime: { [ChainId.BSC]: 1754932161 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DEX'],
+    shortDescription:
+      'SmarDex is a pioneering DeFi platform for liquidity providers and traders, offering a sophisticated algorithm that turns impermanent loss into impermanent gain. Users can start trading via the app, enjoying smart returns and top market opportunities. This next-gen platform delivers lower fees, better profits, and full decentralization, providing reliable ROIs and unmatched value. Join SmarDex today to experience the future of DeFi with better profits and a fully decentralized system.',
+    fullDescription:
+      "SmarDex is a pioneering DeFi platform that is leading innovation for liquidity providers and traders who want to stay ahead of the game. By launching the app, users can immediately start trading and benefit from SmarDex's sophisticated, fine-tuned algorithm, which uniquely transforms impermanent loss into impermanent gain. Addressing one of the most persistent issues in DeFi, SmarDex allows liquidity providers to earn smart returns while offering users access to the best opportunities in the market. This groundbreaking technology is revolutionizing the DeFi space, delivering lower fees, better profits, and full decentralization. SmarDex stands out as the true next-generation DeFi platform, providing reliable ROIs and delivering real value through unmatched innovations. For liquidity providers, it offers a unique and effective solution to impermanent loss, a feat no other platform has successfully achieved until now. As an innovative, reputable, and dynamic platform, SmarDex invites users to join today and experience the future of DeFi with better profits and a fully decentralized system. Welcome to the next generation of DeFi with SmarDex.",
+  },
   {
     index: 1162,
     cmcId: 29157,
