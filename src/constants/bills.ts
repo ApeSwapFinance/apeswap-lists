@@ -1341,7 +1341,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.symm.io/',
     twitter: 'https://x.com/symm_io',
     initTime: { [ChainId.BASE]: 1753363558 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.HotBondingSummer_Collection1,
     },
@@ -3053,7 +3053,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.hotdog.pet/',
     twitter: 'https://x.com/HotdogLinea',
     initTime: { [ChainId.LINEA]: 1753290000 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.HotBondingSummer_Collection1,
     },

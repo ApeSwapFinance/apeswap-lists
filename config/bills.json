@@ -2510,7 +2510,7 @@
     "initTime": {
       "8453": 1753363558
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "HotBondingSummer_Collection1"
     },
@@ -5842,7 +5842,7 @@
     "initTime": {
       "59144": 1753290000
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "HotBondingSummer_Collection1"
     },
