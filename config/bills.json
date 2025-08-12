@@ -652,6 +652,104 @@
     "tags": ["AI"]
   },
   {
+    "index": 18011,
+    "version": "2.2.0",
+    "chainId": 7565164,
+    "contractAddress": {
+      "7565164": "DWQ2jV1e7W3Luk2ZYJAyxjofz3eHY9v918j3vvybT6DG"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "7565164": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+      },
+      "decimals": {
+        "7565164": 6
+      },
+      "liquidityDex": {
+        "7565164": "External"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "COTS",
+      "address": {
+        "7565164": "Fy1RLA8gvudCj1x4tcpcCDRWG1jfuYHT7zpWKP1svJam"
+      },
+      "decimals": {
+        "7565164": 6
+      },
+      "liquidityDex": {
+        "7565164": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "7565164": "EYqFwLzpE2KbbcD78mt2zf19tpuqXih95oq5dqsvzz2o"
+    },
+    "inactive": false,
+    "projectLink": "https://childrenofthesky.com/",
+    "twitter": "https://x.com/COTSCLUB",
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "shortDescription": "Children Of The Sky is a digital and physical IP venture and exclusive social club built to shift culture, not chase hype. Fusing story, community, and emotion, it creates world-shaping IP powered by belief. At its core, $COTS is more than a token—it's a movement. Players join the celestial journey as digital warriors, collecting rewards, battling in sky realms, and fueling a vibrant community.",
+    "fullDescription": "Children Of The Sky is a digital and physical IP venture and exclusive social club built for those seeking more than just a passing trend—it’s a cultural commitment. Merging compelling lore, high-quality storytelling, and a vibrant community, the project is designed to shift culture from the ground up, raising frequency instead of simply raising funds. It thrives at the intersection of creativity, community, and commerce, building world-shaping IP powered by story, culture, and emotion rather than hype. Members aren’t spectators; they are believers actively shaping a shared vision. At its heart, $COTS transcends being just a token—it’s a cultural force. Players step into the skies as digital warriors, earning rewards, clashing in epic sky-bound battles, and energizing a thriving, ever-growing community.",
+    "tags": ["Metaverse"]
+  },
+  {
+    "index": 18012,
+    "version": "2.2.0",
+    "chainId": 7565164,
+    "contractAddress": {
+      "7565164": "Bc7xDLMfc4kMTa99rDKtAb9w47GnU931u2ovTcKamGcj"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "7565164": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+      },
+      "decimals": {
+        "7565164": 6
+      },
+      "liquidityDex": {
+        "7565164": "External"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "COTS",
+      "address": {
+        "7565164": "Fy1RLA8gvudCj1x4tcpcCDRWG1jfuYHT7zpWKP1svJam"
+      },
+      "decimals": {
+        "7565164": 6
+      },
+      "liquidityDex": {
+        "7565164": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "7565164": "E4kevLnmCCPhidsh6wBd5ekwp3dYVo1NkTupDkg9bohT"
+    },
+    "inactive": false,
+    "projectLink": "https://childrenofthesky.com/",
+    "twitter": "https://x.com/COTSCLUB",
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "shortDescription": "Children Of The Sky is a digital and physical IP venture and exclusive social club built to shift culture, not chase hype. Fusing story, community, and emotion, it creates world-shaping IP powered by belief. At its core, $COTS is more than a token—it's a movement. Players join the celestial journey as digital warriors, collecting rewards, battling in sky realms, and fueling a vibrant community.",
+    "fullDescription": "Children Of The Sky is a digital and physical IP venture and exclusive social club built for those seeking more than just a passing trend—it’s a cultural commitment. Merging compelling lore, high-quality storytelling, and a vibrant community, the project is designed to shift culture from the ground up, raising frequency instead of simply raising funds. It thrives at the intersection of creativity, community, and commerce, building world-shaping IP powered by story, culture, and emotion rather than hype. Members aren’t spectators; they are believers actively shaping a shared vision. At its heart, $COTS transcends being just a token—it’s a cultural force. Players step into the skies as digital warriors, earning rewards, clashing in epic sky-bound battles, and energizing a thriving, ever-growing community.",
+    "tags": ["Metaverse"]
+  },
+  {
     "index": 16000,
     "version": "2.1.0",
     "chainId": 80094,
