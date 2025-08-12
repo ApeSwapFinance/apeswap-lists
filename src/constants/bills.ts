@@ -19,7 +19,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Sonic Largest ID: 15005
 // Berachain Largest ID: 16004
 // Katana Largest ID: 17000
-// SOL Largest ID: 18010
+// SOL Largest ID: 18012
 // UNICHAIN Largest ID: 19001
 
 const bills: BillsConfig[] = [
@@ -373,6 +373,60 @@ const bills: BillsConfig[] = [
     fullDescription:
       "AITECH is the world's first deflationary AI utilities token, driving the operations of Solidus AI Tech's eco-friendly High-Performance Computing (HPC) Data Centre in Europe. This 8,000 sqft facility supports a diverse ecosystem, including the AI and GPU Marketplaces as well as the AITECH Pad Launchpad. The GPU Marketplace offers high-performance GPUs for a wide range of tasks, available through flexible rentals with no upfront costs. The AI Marketplace provides a suite of AI tools for automating both business and personal activities, categorized into Foundational AI Models, AI Agents, and Standalone AI Solutions. The AITECH Pad Launchpad offers early access to seed, private, and public rounds of AI-focused and infrastructure projects. Stakers of the $AITECH token gain tiered access to these launches, powering the ecosystem and enabling seamless service transactions, where fiat payments are converted to $AITECH on the blockchain. A deflationary burn mechanism ensures that a portion of tokens used for services is permanently removed from circulation, reducing supply and enhancing long-term value.",
     tags: ['AI'],
+  },
+  {
+    index: 18011,
+    version: '2.2.0',
+    chainId: ChainId.SOL,
+    contractAddress: {
+      [ChainId.SOL]: 'DWQ2jV1e7W3Luk2ZYJAyxjofz3eHY9v918j3vvybT6DG',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.cots,
+    billNnftAddress: {
+      [ChainId.SOL]: 'EYqFwLzpE2KbbcD78mt2zf19tpuqXih95oq5dqsvzz2o',
+    },
+    inactive: false,
+    projectLink: 'https://childrenofthesky.com/',
+    twitter: 'https://x.com/COTSCLUB',
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    shortDescription:
+      "Children Of The Sky is a digital and physical IP venture and exclusive social club built to shift culture, not chase hype. Fusing story, community, and emotion, it creates world-shaping IP powered by belief. At its core, $COTS is more than a token—it's a movement. Players join the celestial journey as digital warriors, collecting rewards, battling in sky realms, and fueling a vibrant community.",
+    fullDescription:
+      'Children Of The Sky is a digital and physical IP venture and exclusive social club built for those seeking more than just a passing trend—it’s a cultural commitment. Merging compelling lore, high-quality storytelling, and a vibrant community, the project is designed to shift culture from the ground up, raising frequency instead of simply raising funds. It thrives at the intersection of creativity, community, and commerce, building world-shaping IP powered by story, culture, and emotion rather than hype. Members aren’t spectators; they are believers actively shaping a shared vision. At its heart, $COTS transcends being just a token—it’s a cultural force. Players step into the skies as digital warriors, earning rewards, clashing in epic sky-bound battles, and energizing a thriving, ever-growing community.',
+    tags: ['Metaverse'],
+  },
+  {
+    index: 18012,
+    version: '2.2.0',
+    chainId: ChainId.SOL,
+    contractAddress: {
+      [ChainId.SOL]: 'Bc7xDLMfc4kMTa99rDKtAb9w47GnU931u2ovTcKamGcj',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.cots,
+    billNnftAddress: {
+      [ChainId.SOL]: 'E4kevLnmCCPhidsh6wBd5ekwp3dYVo1NkTupDkg9bohT',
+    },
+    inactive: false,
+    projectLink: 'https://childrenofthesky.com/',
+    twitter: 'https://x.com/COTSCLUB',
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    shortDescription:
+      "Children Of The Sky is a digital and physical IP venture and exclusive social club built to shift culture, not chase hype. Fusing story, community, and emotion, it creates world-shaping IP powered by belief. At its core, $COTS is more than a token—it's a movement. Players join the celestial journey as digital warriors, collecting rewards, battling in sky realms, and fueling a vibrant community.",
+    fullDescription:
+      'Children Of The Sky is a digital and physical IP venture and exclusive social club built for those seeking more than just a passing trend—it’s a cultural commitment. Merging compelling lore, high-quality storytelling, and a vibrant community, the project is designed to shift culture from the ground up, raising frequency instead of simply raising funds. It thrives at the intersection of creativity, community, and commerce, building world-shaping IP powered by story, culture, and emotion rather than hype. Members aren’t spectators; they are believers actively shaping a shared vision. At its heart, $COTS transcends being just a token—it’s a cultural force. Players step into the skies as digital warriors, earning rewards, clashing in epic sky-bound battles, and energizing a thriving, ever-growing community.',
+    tags: ['Metaverse'],
   },
 
   //
