@@ -163,6 +163,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  cots: {
+    symbol: 'COTS',
+    address: {
+      [ChainId.SOL]: 'fy1rla8gvudcj1x4tcpccdrwg1jfuyht7zpwkp1svjam',
+    },
+    decimals: {
+      [ChainId.SOL]: 6,
+    },
+    liquidityDex: {
+      [ChainId.SOL]: LiquidityDex.External,
+    },
+    active: true,
+  },
   atl: {
     symbol: 'ATL',
     address: {

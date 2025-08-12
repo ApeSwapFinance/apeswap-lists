@@ -455,6 +455,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       type: 'token',
       tokenAddress: 'FUW4poh6s7uychceF8u1mo7NS65vzjX5vmS7Yi7GYQnz',
     },
+    fy1rla8gvudcj1x4tcpccdrwg1jfuyht7zpwkp1svjam: {
+      name: 'Children Of The Sky',
+      symbol: 'COTS',
+      decimals: 6,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: 'fy1rla8gvudcj1x4tcpccdrwg1jfuyht7zpwkp1svjam',
+    },
   },
   [ChainId.BERACHAIN]: {
     '0x28e0e3B9817012b356119dF9e217c25932D609c2': {

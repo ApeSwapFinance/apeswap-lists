@@ -496,6 +496,14 @@
       "source": "dexscreener",
       "type": "token",
       "tokenAddress": "FUW4poh6s7uychceF8u1mo7NS65vzjX5vmS7Yi7GYQnz"
+    },
+    "fy1rla8gvudcj1x4tcpccdrwg1jfuyht7zpwkp1svjam": {
+      "name": "Children Of The Sky",
+      "symbol": "COTS",
+      "decimals": 6,
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "fy1rla8gvudcj1x4tcpccdrwg1jfuyht7zpwkp1svjam"
     }
   }
 }
