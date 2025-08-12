@@ -166,7 +166,7 @@ const tokens: Record<string, Token> = {
   cots: {
     symbol: 'COTS',
     address: {
-      [ChainId.SOL]: 'fy1rla8gvudcj1x4tcpccdrwg1jfuyht7zpwkp1svjam',
+      [ChainId.SOL]: 'Fy1RLA8gvudCj1x4tcpcCDRWG1jfuYHT7zpWKP1svJam',
     },
     decimals: {
       [ChainId.SOL]: 6,
