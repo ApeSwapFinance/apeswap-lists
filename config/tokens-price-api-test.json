@@ -1,0 +1,605 @@
+{
+  "busdc": {
+    "symbol": "BUSDC",
+    "address": {
+      "6342": "0x130abef84be9cf2343e56247a7896f9962450b08"
+    },
+    "decimals": {
+      "6342": 6
+    },
+    "liquidityDex": {
+      "6342": "External"
+    },
+    "active": true
+  },
+  "orcai": {
+    "symbol": "ORCAI",
+    "address": {
+      "7565164": "5YSjRtJJTZpQ44YF6qDpyygPCrJ61q5eNJRJRZMvKjZD"
+    },
+    "decimals": {
+      "7565164": 6
+    },
+    "liquidityDex": {
+      "7565164": "External"
+    },
+    "active": true
+  },
+  "rkey": {
+    "symbol": "RKEY",
+    "address": {
+      "7565164": "F4YXmo8CDLRvWGnXyxVZ62wwc7oWcBam7tu4G5kGSaKZ"
+    },
+    "decimals": {
+      "7565164": 6
+    },
+    "liquidityDex": {
+      "7565164": "External"
+    },
+    "active": true
+  },
+  "gohome": {
+    "symbol": "GOHOME",
+    "address": {
+      "7565164": "2Wu1g2ft7qZHfTpfzP3wLdfPeV1is4EwQ3CXBfRYAciD"
+    },
+    "decimals": {
+      "7565164": 6
+    },
+    "liquidityDex": {
+      "7565164": "External"
+    },
+    "active": true
+  },
+  "stb": {
+    "symbol": "STB",
+    "address": {
+      "7565164": "STBuyENwJ1GP4yNZCjwavn92wYLEY3t5S1kVS5kwyS1"
+    },
+    "decimals": {
+      "7565164": 9
+    },
+    "liquidityDex": {
+      "7565164": "External"
+    },
+    "active": true
+  },
+  "jup": {
+    "symbol": "JUP",
+    "address": {
+      "7565164": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN"
+    },
+    "decimals": {
+      "7565164": 6
+    },
+    "liquidityDex": {
+      "7565164": "External"
+    },
+    "active": true
+  },
+  "skorai": {
+    "symbol": "SKORAI",
+    "address": {
+      "7565164": "8CLGcTogo6FoYkEQQBm3Vm2PVckYCiCm3XXhdsr4skoR"
+    },
+    "decimals": {
+      "7565164": 6
+    },
+    "liquidityDex": {
+      "7565164": "External"
+    },
+    "active": true
+  },
+  "hyper": {
+    "symbol": "HYPER",
+    "address": {
+      "7565164": "Aq8Gocyvyyi8xk5EYxd6viUfVmVvs9T9R6mZFzZFpump"
+    },
+    "decimals": {
+      "7565164": 6
+    },
+    "liquidityDex": {
+      "7565164": "External"
+    },
+    "active": true
+  },
+  "wsol": {
+    "symbol": "WSOL",
+    "address": {
+      "7565164": "So11111111111111111111111111111111111111112"
+    },
+    "decimals": {
+      "7565164": 9
+    },
+    "liquidityDex": {
+      "7565164": "External"
+    },
+    "active": true
+  },
+  "tpg": {
+    "symbol": "TPG",
+    "address": {
+      "7565164": "2eK5WyE5uVrn1SRmNp9SsxQovzrs1PhrN33breBTgkf1"
+    },
+    "decimals": {
+      "7565164": 9
+    },
+    "liquidityDex": {
+      "7565164": "External"
+    },
+    "active": true
+  },
+  "cots": {
+    "symbol": "COTS",
+    "address": {
+      "7565164": "Fy1RLA8gvudCj1x4tcpcCDRWG1jfuYHT7zpWKP1svJam"
+    },
+    "decimals": {
+      "7565164": 6
+    },
+    "liquidityDex": {
+      "7565164": "External"
+    },
+    "active": true
+  },
+  "atl": {
+    "symbol": "ATL",
+    "address": {
+      "10143": "0x1eA9099E3026e0b3F8Dd6FbacAa45f30fCe67431"
+    },
+    "decimals": {
+      "10143": 18
+    },
+    "liquidityDex": {
+      "10143": "External"
+    },
+    "active": true
+  },
+  "azt": {
+    "symbol": "AZT",
+    "address": {
+      "10143": "0xb83D8fe3D51b2ecc09242fCDa318057b17Ed5971"
+    },
+    "decimals": {
+      "10143": 18
+    },
+    "liquidityDex": {
+      "10143": "External"
+    },
+    "active": true
+  },
+  "lb": {
+    "symbol": "LB",
+    "address": {
+      "56": "0x8613d52D74a48883A51bAdF8b25ab066714087Da"
+    },
+    "decimals": {
+      "56": 18
+    },
+    "liquidityDex": {
+      "56": "External"
+    },
+    "active": true
+  },
+  "u": {
+    "symbol": "U",
+    "address": {
+      "56": "0xe07710cdcD1c9F0FB04bfd013F9854E4552671cE"
+    },
+    "decimals": {
+      "56": 18
+    },
+    "liquidityDex": {
+      "56": "External"
+    },
+    "active": true
+  },
+  "rzr": {
+    "symbol": "RZR",
+    "address": {
+      "146": "0xb4444468e444f89e1c2CAc2F1D3ee7e336cBD1f5"
+    },
+    "decimals": {
+      "146": 18
+    },
+    "liquidityDex": {
+      "146": "External"
+    },
+    "active": true
+  },
+  "amped": {
+    "symbol": "AMPED",
+    "address": {
+      "146": "0x4Cae73a23078e7A94D1e828Fa3bABa5080c04FcA"
+    },
+    "decimals": {
+      "146": 18
+    },
+    "liquidityDex": {
+      "146": "External"
+    },
+    "active": true
+  },
+  "glq": {
+    "symbol": "WGLQ",
+    "address": {
+      "614": "0xEB567ec41738c2bAb2599A1070FC5B727721b3B6"
+    },
+    "decimals": {
+      "614": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "614": "External"
+    }
+  },
+  "vpt": {
+    "symbol": "VPT",
+    "address": {
+      "8453": "0x00096697DC24bd10423690126D91546A20Ccb3F0"
+    },
+    "decimals": {
+      "8453": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "8453": "External"
+    }
+  },
+  "xavi": {
+    "symbol": "XAVI",
+    "address": {
+      "8453": "0xACf80A4e55F5f28e1e7d261a221cA495DB5bcbB3"
+    },
+    "decimals": {
+      "8453": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "8453": "External"
+    }
+  },
+  "lvc": {
+    "symbol": "LVC",
+    "address": {
+      "59144": "0xcc22F6AA610D1b2a0e89EF228079cB3e1831b1D1"
+    },
+    "decimals": {
+      "59144": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "59144": "External"
+    }
+  },
+  "eth": {
+    "symbol": "ETH",
+    "address": {
+      "130": "0x4200000000000000000000000000000000000006",
+      "614": "0xbeED106D0f2e6950BFa1Eec74E1253CA0a643442",
+      "6342": "0x4eB2Bd7beE16F38B1F4a0A5796Fffd028b6040e9",
+      "129399": "0x17B8Ee96E3bcB3b04b3e8334de4524520C51caB4",
+      "747474": "0xEE7D8BCFb72bC1880D0Cf19822eB0A2e6577aB62"
+    },
+    "decimals": {
+      "130": 18,
+      "614": 18,
+      "6342": 18,
+      "129399": 18,
+      "747474": 18
+    },
+    "liquidityDex": {
+      "130": "UniswapV3",
+      "614": "External",
+      "6342": "External",
+      "129399": "External",
+      "747474": "External"
+    },
+    "active": true
+  },
+  "usdc": {
+    "symbol": "USDC",
+    "address": {
+      "130": "0x078D782b760474a361dDA0AF3839290b0EF57AD6",
+      "747474": "0x203A662b0BD271A6ed5a60EdFbd04bFce608FD36",
+      "7565164": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+    },
+    "decimals": {
+      "130": 6,
+      "747474": 6,
+      "7565164": 6
+    },
+    "liquidityDex": {
+      "130": "External",
+      "747474": "External",
+      "7565164": "External"
+    },
+    "active": true
+  },
+  "furi": {
+    "symbol": "FURI",
+    "address": {
+      "137": "0x5742fE477b2afed92c25D092418BaC06CD076ceA"
+    },
+    "decimals": {
+      "137": 18
+    },
+    "liquidityDex": {
+      "137": "External"
+    },
+    "active": true
+  },
+  "trkx": {
+    "symbol": "TRKX",
+    "address": {
+      "137": "0x61bf130d973d59c69d3227f1668d534d83119860"
+    },
+    "decimals": {
+      "137": 18
+    },
+    "liquidityDex": {
+      "137": "External"
+    },
+    "active": true
+  },
+  "deod": {
+    "symbol": "DEOD",
+    "address": {
+      "137": "0xE77aBB1E75D2913B2076DD16049992FFeACa5235"
+    },
+    "decimals": {
+      "137": 18
+    },
+    "liquidityDex": {
+      "137": "External"
+    },
+    "active": true
+  },
+  "cby": {
+    "symbol": "CBY",
+    "address": {
+      "137": "0xB6a5ae40e79891E4DeAdAd06C8A7cA47396Df21C"
+    },
+    "decimals": {
+      "137": 18
+    },
+    "liquidityDex": {
+      "137": "External"
+    },
+    "active": true
+  },
+  "usdt": {
+    "symbol": "USDT",
+    "address": {
+      "130": "0x9151434b16b9763660705744891fA906F660EcC5",
+      "747474": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2",
+      "7565164": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
+    },
+    "decimals": {
+      "130": 6,
+      "747474": 6,
+      "7565164": 6
+    },
+    "liquidityDex": {
+      "130": "External",
+      "747474": "External",
+      "7565164": "External"
+    },
+    "active": true
+  },
+  "brics": {
+    "symbol": "BRICS",
+    "address": {
+      "56": "0xec9742f992ACc615C4252060D896c845ca8fC086"
+    },
+    "decimals": {
+      "56": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "56": "External"
+    }
+  },
+  "tlos": {
+    "symbol": "TLOS",
+    "address": {
+      "56": "0xb6C53431608E626AC81a9776ac3e999c5556717c"
+    },
+    "decimals": {
+      "56": 18
+    },
+    "liquidityDex": {
+      "56": "External"
+    },
+    "active": true
+  },
+  "brz": {
+    "symbol": "BRZ",
+    "address": {
+      "56": "0x71be881e9C5d4465B3FfF61e89c6f3651E69B5bb"
+    },
+    "decimals": {
+      "56": 4
+    },
+    "active": true,
+    "liquidityDex": {
+      "56": "External"
+    }
+  },
+  "hat": {
+    "symbol": "HAT",
+    "address": {
+      "42161": "0x4D22e37Eb4d71D1acc5f4889a65936D2a44A2f15"
+    },
+    "decimals": {
+      "42161": 18
+    },
+    "liquidityDex": {
+      "42161": "External"
+    },
+    "active": true
+  },
+  "nfe": {
+    "symbol": "NFE",
+    "address": {
+      "56": "0xf03Ca04Dd56D695a410f46F14feF4028B22FB79A"
+    },
+    "decimals": {
+      "56": 18
+    },
+    "liquidityDex": {
+      "56": "External"
+    },
+    "active": true
+  },
+  "airas": {
+    "symbol": "AIRAS",
+    "address": {
+      "1": "0x0624069497F830BEa84bd7Ad410b878270130035"
+    },
+    "decimals": {
+      "1": 18
+    },
+    "liquidityDex": {
+      "1": "External"
+    },
+    "active": true
+  },
+  "cata": {
+    "symbol": "CATA",
+    "address": {
+      "56": "0xBDf5bAfEE1291EEc45Ae3aadAc89BE8152D4E673"
+    },
+    "decimals": {
+      "56": 18
+    },
+    "liquidityDex": {
+      "56": "External"
+    },
+    "active": true
+  },
+  "aitech": {
+    "symbol": "AITECH",
+    "address": {
+      "7565164": "FUW4poh6s7uychceF8u1mo7NS65vzjX5vmS7Yi7GYQnz"
+    },
+    "decimals": {
+      "7565164": 9
+    },
+    "liquidityDex": {
+      "7565164": "External"
+    },
+    "active": true
+  },
+  "block": {
+    "symbol": "BLOCK",
+    "address": {
+      "7565164": "NFTUkR4u7wKxy9QLaX2TGvd9oZSWoMo4jqSJqdMb7Nk"
+    },
+    "decimals": {
+      "7565164": 6
+    },
+    "liquidityDex": {
+      "7565164": "External"
+    },
+    "active": true
+  },
+  "sdex": {
+    "symbol": "SDEX",
+    "address": {
+      "56": "0xfdc66a08b0d0dc44c17bbd471b88f49f50cdd20f"
+    },
+    "decimals": {
+      "56": 18
+    },
+    "liquidityDex": {
+      "56": "External"
+    },
+    "active": true
+  },
+  "burr": {
+    "symbol": "BURR",
+    "address": {
+      "80094": "0x28e0e3B9817012b356119dF9e217c25932D609c2"
+    },
+    "decimals": {
+      "80094": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "80094": "External"
+    }
+  },
+  "winj": {
+    "symbol": "WINJ",
+    "address": {
+      "2525": "0x69011706b3f6C6eaeD7D2Bc13801558B4fd94CBF"
+    },
+    "decimals": {
+      "2525": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "2525": "External"
+    }
+  },
+  "unicorn": {
+    "symbol": "UNICORN",
+    "address": {
+      "130": "0x926DC7b96bb2F4A91C2A67e291Faf482691a3001"
+    },
+    "decimals": {
+      "130": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "130": "External"
+    }
+  },
+  "bvecatx": {
+    "symbol": "bveCATX",
+    "address": {
+      "130": "0x7169a1874d4716094bdcE1b86a5cd00212CA1319"
+    },
+    "decimals": {
+      "130": 18
+    },
+    "liquidityDex": {
+      "130": "External"
+    },
+    "active": true
+  },
+  "catx": {
+    "symbol": "CATX",
+    "address": {
+      "130": "0x756ee6857F915A2b5366F2Ef56d8D13857aef8ad"
+    },
+    "decimals": {
+      "130": 18
+    },
+    "liquidityDex": {
+      "130": "External"
+    },
+    "active": true
+  },
+  "scUSDrzr_ShadowExchange": {
+    "symbol": "scUSD-RZR",
+    "address": {
+      "146": "0x08C5e3B7533Ee819A4d1F66e839D0E8F04ae3D0C"
+    },
+    "decimals": {
+      "146": 18
+    },
+    "active": true,
+    "lpToken": true,
+    "liquidityDex": {
+      "146": "External"
+    },
+    "liquiditySource": {
+      "146": "ShadowExchange"
+    },
+    "getLpUrl": {
+      "146": "https://www.shadow.so/liquidity/add"
+    }
+  }
+}
