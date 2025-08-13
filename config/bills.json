@@ -7,7 +7,7 @@
       "6342": "0x58F51F31Cca3890D571ecFB47f62bB530339529d"
     },
     "billType": "reserve",
-    "billVersion": "V4",
+    "billVersion": "V2",
     "lpToken": {
       "symbol": "BUSDC",
       "address": {

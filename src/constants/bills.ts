@@ -35,7 +35,7 @@ const bills: BillsConfig[] = [
       [ChainId.MEGAETH_TESTNET]: '0x58F51F31Cca3890D571ecFB47f62bB530339529d',
     },
     billType: 'reserve',
-    billVersion: BillVersion.V4,
+    billVersion: BillVersion.V2,
     lpToken: tokens.busdc,
     earnToken: tokens.eth,
     billNnftAddress: {
