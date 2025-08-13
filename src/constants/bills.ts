@@ -10870,6 +10870,34 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     Polygon Bills
   */
   {
+    index: 186,
+    version: '2.1.0',
+    chainId: ChainId.MATIC,
+    contractAddress: {
+      [ChainId.MATIC]: '0x34f57a54f1e2AD46e29d2258daE08ae0D66E8F8f',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc2,
+    earnToken: tokens.trkx,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
+    },
+    inactive: false,
+    projectLink: 'https://trakx.io/',
+    twitter: 'https://x.com/official_trakx',
+    audit: 'https://skynet.certik.com/projects/bitbond',
+    initTime: { [ChainId.MATIC]: 1755083753 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    shortDescription:
+      'Trakx is a global fintech redefining crypto investments with its Crypto Tradable Indices (CTIs), offering simple, one-click portfolio diversification through themed baskets of top digital assets. Registered with French AMF/ACPR as a VASP, Trakx ensures regulatory compliance. Powered by the TRKX token, users enjoy reduced fees, governance participation, and staking rewards, making crypto investing easy and accessible.',
+    fullDescription: `Trakx is a global fintech innovator revolutionizing crypto investments through its Crypto Tradable Indices (CTIs). These proprietary baskets of the largest and most liquid digital assets offer a seamless, one-click solution for diversifying portfolios in the fast-evolving crypto market. With low fees and themed, easy-to-understand investment options, Trakx simplifies complex strategies for all investors. Registered with French AMF/ACPR as a Virtual Asset Service Provider (VASP), Trakx adheres to the highest international regulatory standards. The TRKX token powers the ecosystem, reducing trading fees and unlocking exclusive benefits such as governance participation and staking rewards. Trakx makes advanced investing straightforward, setting a new benchmark in crypto index trading.`,
+    tags: ['DeFi'],
+  },
+  {
     index: 185,
     cmcId: 31154,
     version: '2.1.0',
@@ -11174,7 +11202,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://x.com/official_trakx',
     audit: 'https://skynet.certik.com/projects/bitbond',
     initTime: { [ChainId.MATIC]: 1742922000 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
