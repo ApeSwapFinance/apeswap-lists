@@ -3668,7 +3668,7 @@ const bills: BillsConfig[] = [
       [ChainId.BSC]: '0x1EADE85bE656696ccCf941ACA2A9Dd777D699705',
     },
     billType: 'reserve',
-    billVersion: BillVersion.V2,
+    billVersion: BillVersion.V4,
     lpToken: tokens.usdc,
     earnToken: tokens.sdex,
     billNnftAddress: {

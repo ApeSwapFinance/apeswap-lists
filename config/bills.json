@@ -7013,7 +7013,7 @@
       "56": "0x1EADE85bE656696ccCf941ACA2A9Dd777D699705"
     },
     "billType": "reserve",
-    "billVersion": "V2",
+    "billVersion": "V4",
     "lpToken": {
       "symbol": "USDC",
       "address": {
