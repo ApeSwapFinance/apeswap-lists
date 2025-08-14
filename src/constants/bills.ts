@@ -48,7 +48,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://app.catex.fi',
     twitter: 'https://x.com/Catex_Fi',
     initTime: { [ChainId.UNICHAIN]: 1754394474 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.HotBondingSummer_Collection1,
     },
@@ -399,7 +399,7 @@ const bills: BillsConfig[] = [
       "Children Of The Sky is a digital and physical IP venture and exclusive social club built to shift culture, not chase hype. Fusing story, community, and emotion, it creates world-shaping IP powered by belief. At its core, $COTS is more than a token—it's a movement. Players join the celestial journey as digital warriors, collecting rewards, battling in sky realms, and fueling a vibrant community.",
     fullDescription:
       'Children Of The Sky is a digital and physical IP venture and exclusive social club built for those seeking more than just a passing trend—it’s a cultural commitment. Merging compelling lore, high-quality storytelling, and a vibrant community, the project is designed to shift culture from the ground up, raising frequency instead of simply raising funds. It thrives at the intersection of creativity, community, and commerce, building world-shaping IP powered by story, culture, and emotion rather than hype. Members aren’t spectators; they are believers actively shaping a shared vision. At its heart, $COTS transcends being just a token—it’s a cultural force. Players step into the skies as digital warriors, earning rewards, clashing in epic sky-bound battles, and energizing a thriving, ever-growing community.',
-    tags: ['Metaverse'],
+    tags: ['Community'],
   },
   {
     index: 18012,
@@ -426,7 +426,7 @@ const bills: BillsConfig[] = [
       "Children Of The Sky is a digital and physical IP venture and exclusive social club built to shift culture, not chase hype. Fusing story, community, and emotion, it creates world-shaping IP powered by belief. At its core, $COTS is more than a token—it's a movement. Players join the celestial journey as digital warriors, collecting rewards, battling in sky realms, and fueling a vibrant community.",
     fullDescription:
       'Children Of The Sky is a digital and physical IP venture and exclusive social club built for those seeking more than just a passing trend—it’s a cultural commitment. Merging compelling lore, high-quality storytelling, and a vibrant community, the project is designed to shift culture from the ground up, raising frequency instead of simply raising funds. It thrives at the intersection of creativity, community, and commerce, building world-shaping IP powered by story, culture, and emotion rather than hype. Members aren’t spectators; they are believers actively shaping a shared vision. At its heart, $COTS transcends being just a token—it’s a cultural force. Players step into the skies as digital warriors, earning rewards, clashing in epic sky-bound battles, and energizing a thriving, ever-growing community.',
-    tags: ['Metaverse'],
+    tags: ['Community'],
   },
 
   //
