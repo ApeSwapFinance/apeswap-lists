@@ -15989,6 +15989,7 @@ With the lending products set to go live in February, the project is poised to a
       'Privix is a blockchain built to keep your information safe, private, and secure. It offers a range of tools: Nexar lets you swap tokens anonymously, Pulsar hides your transfers, Xfera stores your files privately, PrivyMail protects your emails, Pass manages your passwords, and Mixion Locker hides your assets. The PRIVIX token lets you use all these services in one private Web3 ecosystem.',
     fullDescription:
       'Privix is an EVM-compatible blockchain purpose-built to champion privacy, security, and anonymity across a unified Web3 ecosystem. With a focus on user sovereignty and digital freedom, Privix empowers individuals to transact, communicate, and store data without surveillance or exposure. Its ecosystem includes Nexar for anonymous token swaps, Pulsar for untraceable transfers, Xfera for decentralized private file storage, PrivyMail for encrypted communication, Pass as a blockchain-native password manager, and Mixion Locker for fully anonymous asset storage. Developed and governed by a global community driven by the values of privacy and decentralization, Privix redefines the boundaries of secure digital interaction. At the core of this ecosystem is the PRIVIX token, which powers seamless access to all Privix applications and services, enabling a truly private Web3 experience.',
+    warningCard: `Heads up: The PRIVIX token has a 5% reflect fee on swaps.`,
   },
   {
     index: 3050,
@@ -16018,6 +16019,7 @@ With the lending products set to go live in February, the project is poised to a
       'Privix is a blockchain built to keep your information safe, private, and secure. It offers a range of tools: Nexar lets you swap tokens anonymously, Pulsar hides your transfers, Xfera stores your files privately, PrivyMail protects your emails, Pass manages your passwords, and Mixion Locker hides your assets. The PRIVIX token lets you use all these services in one private Web3 ecosystem.',
     fullDescription:
       'Privix is an EVM-compatible blockchain purpose-built to champion privacy, security, and anonymity across a unified Web3 ecosystem. With a focus on user sovereignty and digital freedom, Privix empowers individuals to transact, communicate, and store data without surveillance or exposure. Its ecosystem includes Nexar for anonymous token swaps, Pulsar for untraceable transfers, Xfera for decentralized private file storage, PrivyMail for encrypted communication, Pass as a blockchain-native password manager, and Mixion Locker for fully anonymous asset storage. Developed and governed by a global community driven by the values of privacy and decentralization, Privix redefines the boundaries of secure digital interaction. At the core of this ecosystem is the PRIVIX token, which powers seamless access to all Privix applications and services, enabling a truly private Web3 experience.',
+    warningCard: `Heads up: The PRIVIX token has a 5% reflect fee on swaps.`,
   },
 ]
 
