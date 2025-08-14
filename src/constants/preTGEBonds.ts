@@ -97,29 +97,29 @@ const preTGEBonds: PreTGEConfig[] = [
     projectLink: 'https://app.catex.fi/',
     warningCard: 'This is a Pre-TGE Bond for bveCATX, redeemable 1:1 for veCATX at max lock upon listing.',
   },
-  {
-    version: '2.1.2',
-    index: 5,
-    chainId: ChainId.BSC,
-    vestingTimeString: '8 Months',
-    tgeString: 'Aug 20th', //Dummy date
-    shortDescription: `ChimpX is an all-in-one DeFi platform that makes crypto trading, bridging, and investing simple and fast. With zero native gas fees, one-click execution, and a seamless cross-chain experience powered by Universal Accounts, users can trade any token on any blockchain effortlessly. The CHIMP token unlocks exclusive features and benefits within the ChimpX ecosystem.`,
-    tags: ['DeFi'],
-    contractAddress: { [ChainId.BSC]: '0x9C83731cd11421B09Ed145303D24e721902c71A9' },
-    billVersion: BillVersion.TieredSale,
-    billType: 'fcfs',
-    lpToken: tokens.usdt,
-    earnToken: tokens.chimp,
-    billNnftAddress: {
-      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
-    },
-    soldOut: false,
-    billArt: { collection: BillArtCollection.ApeBond_Collection1 },
-    redeemTime: 1755194400,
-    tgePrice: 0.6,
-    twitter: 'https://x.com/ChimpxAI',
-    projectLink: 'https://chimpx.ai/',
-  },
+  // {
+  //   version: '2.1.2',
+  //   index: 5,
+  //   chainId: ChainId.BSC,
+  //   vestingTimeString: '8 Months',
+  //   tgeString: 'Aug 20th', //Dummy date
+  //   shortDescription: `ChimpX is an all-in-one DeFi platform that makes crypto trading, bridging, and investing simple and fast. With zero native gas fees, one-click execution, and a seamless cross-chain experience powered by Universal Accounts, users can trade any token on any blockchain effortlessly. The CHIMP token unlocks exclusive features and benefits within the ChimpX ecosystem.`,
+  //   tags: ['DeFi'],
+  //   contractAddress: { [ChainId.BSC]: '' },
+  //   billVersion: BillVersion.TieredSale,
+  //   billType: 'fcfs',
+  //   lpToken: tokens.usdt,
+  //   earnToken: tokens.chimp,
+  //   billNnftAddress: {
+  //     [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+  //   },
+  //   soldOut: false,
+  //   billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+  //   redeemTime: 1755194400,
+  //   tgePrice: 0.6,
+  //   twitter: 'https://x.com/ChimpxAI',
+  //   projectLink: 'https://chimpx.ai/',
+  // },
 ]
 
 export default preTGEBonds
