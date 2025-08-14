@@ -48,7 +48,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://app.catex.fi',
     twitter: 'https://x.com/Catex_Fi',
     initTime: { [ChainId.UNICHAIN]: 1754394474 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.HotBondingSummer_Collection1,
     },
