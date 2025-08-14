@@ -176,6 +176,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  hvlo: {
+    symbol: 'HVLO',
+    address: {
+      [ChainId.SOL]: 'Gdck9KXSSiMMhNyjUjo4sVT1GDzeZnZP2yse9jhax3GR',
+    },
+    decimals: {
+      [ChainId.SOL]: 8,
+    },
+    liquidityDex: {
+      [ChainId.SOL]: LiquidityDex.External,
+    },
+    active: true,
+  },
   atl: {
     symbol: 'ATL',
     address: {
@@ -255,6 +268,19 @@ const tokens: Record<string, Token> = {
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.External,
     },
+    active: true,
+  },
+  chimp: {
+    symbol: 'CHIMP',
+    address: {
+      [ChainId.BSC]: '0x8c63de70641C7f77400B248Ad1c679f3BF0B9F79',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    // liquidityDex: {
+    //   [ChainId.BSC]: LiquidityDex.???,
+    // },
     active: true,
   },
   u: {

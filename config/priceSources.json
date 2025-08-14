@@ -504,6 +504,14 @@
       "source": "dexscreener",
       "type": "token",
       "tokenAddress": "Fy1RLA8gvudCj1x4tcpcCDRWG1jfuYHT7zpWKP1svJam"
+    },
+    "Gdck9KXSSiMMhNyjUjo4sVT1GDzeZnZP2yse9jhax3GR": {
+      "name": "Hivello",
+      "symbol": "HVLO",
+      "decimals": 8,
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "Gdck9KXSSiMMhNyjUjo4sVT1GDzeZnZP2yse9jhax3GR"
     }
   }
 }
