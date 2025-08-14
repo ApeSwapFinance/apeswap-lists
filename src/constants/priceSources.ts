@@ -463,6 +463,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       type: 'token',
       tokenAddress: 'Fy1RLA8gvudCj1x4tcpcCDRWG1jfuYHT7zpWKP1svJam',
     },
+    Gdck9KXSSiMMhNyjUjo4sVT1GDzeZnZP2yse9jhax3GR: {
+      name: 'Hivello',
+      symbol: 'HVLO',
+      decimals: 8,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: 'Gdck9KXSSiMMhNyjUjo4sVT1GDzeZnZP2yse9jhax3GR',
+    },
   },
   [ChainId.BERACHAIN]: {
     '0x28e0e3B9817012b356119dF9e217c25932D609c2': {
