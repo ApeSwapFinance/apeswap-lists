@@ -5,7 +5,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Polygon Largest ID: 187
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2031
-// ETH Largest ID: 3048
+// ETH Largest ID: 3051
 // Linea Largest ID: 6020
 // Base Largest ID: 8057
 // Lightlink Largest ID: 7003
@@ -16059,6 +16059,35 @@ With the lending products set to go live in February, the project is poised to a
     fullDescription:
       'Privix is an EVM-compatible blockchain purpose-built to champion privacy, security, and anonymity across a unified Web3 ecosystem. With a focus on user sovereignty and digital freedom, Privix empowers individuals to transact, communicate, and store data without surveillance or exposure. Its ecosystem includes Nexar for anonymous token swaps, Pulsar for untraceable transfers, Xfera for decentralized private file storage, PrivyMail for encrypted communication, Pass as a blockchain-native password manager, and Mixion Locker for fully anonymous asset storage. Developed and governed by a global community driven by the values of privacy and decentralization, Privix redefines the boundaries of secure digital interaction. At the core of this ecosystem is the PRIVIX token, which powers seamless access to all Privix applications and services, enabling a truly private Web3 experience.',
     warningCard: `Heads up: The PRIVIX token has a 5% reflect fee on swaps.`,
+  },
+  {
+    index: 3051,
+    version: '2.1.1',
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0xB137c10079A547dfB2E935CBf38d3BDCDcA7Bc52',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.litas,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0A7f9979CC315190C09cA2633809B8dF',
+    },
+    inactive: false,
+    projectLink: 'https://litas.io/',
+    twitter: 'https://x.com/litas_io',
+    initTime: { [ChainId.MAINNET]: 1755253336 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['RWA'],
+    shortDescription:
+      'Litas connects crypto investors with real-world SME loans, letting users invest digital assets and earn monthly returns as loans are repaid. Regulated in Lithuania and aligning with upcoming EU standards, it offers a compliant DeFi-RWA bridge. The LITAS token gives holders a share of loan repayments, backed by real cash flows. Buy a Bond valued at $50+ in LITAS tokens and join an exciting raffle hosted by the Litas team.',
+    fullDescription:
+      'Litas is a regulated platform connecting crypto investors with real-world small and medium enterprise loans, enabling users to invest their digital assets into tokenized RWA loan products. Companies receive funding in euros, while investors earn monthly returns as these loans are repaid. Operating under Lithuania’s regulatory framework and preparing for broader compliance with upcoming EU MiCA and ECSP licensing, Litas ensures a secure, transparent, and compliant bridge between decentralized finance and the traditional economy. The platform offers reliable capital to businesses while maintaining strict financial oversight. The LITAS token grants holders a proportional share of SME loan repayments, providing intrinsic value backed by expected cash flows. Buy a Bond valued at $50+ in LITAS tokens and join an exciting raffle hosted by the Litas team.',
+    warningCard: `This token is currently only tradable on <a href="https://www.mexc.com/exchange/LITAS_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a>.`,
   },
 ]
 
