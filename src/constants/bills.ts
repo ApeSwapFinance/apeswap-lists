@@ -5,7 +5,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Polygon Largest ID: 187
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2031
-// ETH Largest ID: 3048
+// ETH Largest ID: 3052
 // Linea Largest ID: 6020
 // Base Largest ID: 8057
 // Lightlink Largest ID: 7003
@@ -16059,6 +16059,64 @@ With the lending products set to go live in February, the project is poised to a
     fullDescription:
       'Privix is an EVM-compatible blockchain purpose-built to champion privacy, security, and anonymity across a unified Web3 ecosystem. With a focus on user sovereignty and digital freedom, Privix empowers individuals to transact, communicate, and store data without surveillance or exposure. Its ecosystem includes Nexar for anonymous token swaps, Pulsar for untraceable transfers, Xfera for decentralized private file storage, PrivyMail for encrypted communication, Pass as a blockchain-native password manager, and Mixion Locker for fully anonymous asset storage. Developed and governed by a global community driven by the values of privacy and decentralization, Privix redefines the boundaries of secure digital interaction. At the core of this ecosystem is the PRIVIX token, which powers seamless access to all Privix applications and services, enabling a truly private Web3 experience.',
     warningCard: `Heads up: The PRIVIX token has a 5% reflect fee on swaps.`,
+  },
+  {
+    index: 3051,
+    version: '2.1.1',
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0xB137c10079A547dfB2E935CBf38d3BDCDcA7Bc52',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.litas,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0A7f9979CC315190C09cA2633809B8dF',
+    },
+    inactive: false,
+    projectLink: 'https://litas.io/',
+    twitter: 'https://x.com/litas_io',
+    initTime: { [ChainId.MAINNET]: 1755253336 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['RWA'],
+    shortDescription:
+      'Litas connects crypto investors with real-world SME loans, letting users invest digital assets and earn monthly returns as loans are repaid. Regulated in Lithuania and aligning with upcoming EU standards, it offers a compliant DeFi-RWA bridge. The LITAS token gives holders a share of loan repayments, backed by real cash flows. Buy a Bond valued at $50+ in LITAS tokens and join an exciting raffle hosted by the Litas team.',
+    fullDescription:
+      'Litas is a regulated platform connecting crypto investors with real-world small and medium enterprise loans, enabling users to invest their digital assets into tokenized RWA loan products. Companies receive funding in euros, while investors earn monthly returns as these loans are repaid. Operating under Lithuania’s regulatory framework and preparing for broader compliance with upcoming EU MiCA and ECSP licensing, Litas ensures a secure, transparent, and compliant bridge between decentralized finance and the traditional economy. The platform offers reliable capital to businesses while maintaining strict financial oversight. The LITAS token grants holders a proportional share of SME loan repayments, providing intrinsic value backed by expected cash flows. Buy a Bond valued at $50+ in LITAS tokens and join an exciting raffle hosted by the Litas team.',
+    warningCard: `This token is currently only tradable on <a href="https://www.mexc.com/exchange/LITAS_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a>.`,
+  },
+  {
+    index: 3052,
+    version: '2.1.0',
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0xF01828312209670dfc028EBFD31B293918F15D62',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.wpaw,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    inactive: false,
+    projectLink: 'https://www.pawchain.net/',
+    twitter: 'https://x.com/pawchain',
+    initTime: { [ChainId.MAINNET]: 1755257871 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['DEX'],
+    shortDescription:
+      'PAW Chain is the world’s first Layer 3 blockchain, built to unify DeFi with unmatched speed, scalability, and security. It connects trusted chains for seamless cross-chain transactions, offering user-friendly tools and audited infrastructure. The PAW token powers the ecosystem and can be earned through active participation. Validators and delegators receive $PAW rewards for staking and helping secure the network. One Layer. Every Chain. Zero Friction.',
+    fullDescription:
+      'PAW Chain is pioneering a new era in blockchain by introducing the world’s first Layer 3 infrastructure, a custom-built architecture designed to eliminate fragmentation and unify the DeFi experience across chains. Built for speed, scalability, and real-world utility, PAW Chain offers integrated tools and services that cater to both beginners and advanced users, streamlining decentralized finance through intuitive design and robust performance. With an emphasis on security, all components undergo strict audits to maintain top-tier protection. Interoperability lies at the core of PAW Chain, enabling frictionless, cross-chain transactions among trusted networks. The PAW token powers the ecosystem and can be earned through active participation. Validators and delegators receive $PAW rewards for staking and helping secure the network. One Layer. Every Chain. Zero Friction.',
+    warningCard: `Heads up: The wPAW token has a 1% reflect fee on swaps.`,
   },
 ]
 
