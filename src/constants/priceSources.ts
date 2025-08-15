@@ -568,6 +568,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       price: 0.0005,
       tokenAddress: '0x0624069497F830BEa84bd7Ad410b878270130035',
     },
+    '0xfa63503f9e61fd59cbea137c122fa55c2daff14a': {
+      name: 'LITAS',
+      symbol: 'LITAS',
+      decimals: 18,
+      source: PriceSource.Mexc,
+      id: 'LITASUSDT',
+      tokenAddress: '0xfa63503f9e61fd59cbea137c122fa55c2daff14a',
+    },
   },
   [ChainId.MEGAETH_TESTNET]: {
     '0x4eB2Bd7beE16F38B1F4a0A5796Fffd028b6040e9': {

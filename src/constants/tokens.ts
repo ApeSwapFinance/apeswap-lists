@@ -562,6 +562,19 @@ const tokens: Record<string, Token> = {
       [ChainId.MAINNET]: LiquidityDex.UniswapV2,
     },
   },
+  wpaw: {
+    symbol: 'wPAW',
+    address: {
+      [ChainId.MAINNET]: '0xc11158c5dA9db1D553ED28f0C2BA1CbEDD42CFcb',
+    },
+    decimals: {
+      [ChainId.MAINNET]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
+    },
+  },
   bunny: {
     symbol: 'BUNNY',
     address: {
@@ -812,6 +825,19 @@ const tokens: Record<string, Token> = {
     active: true,
     liquidityDex: {
       [ChainId.MAINNET]: LiquidityDex.UniswapV3,
+    },
+  },
+  litas: {
+    symbol: 'LITAS',
+    address: {
+      [ChainId.MAINNET]: '0xfa63503f9e61fd59cbea137c122fa55c2daff14a',
+    },
+    decimals: {
+      [ChainId.MAINNET]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.External,
     },
   },
   bethustlers: {

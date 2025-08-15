@@ -7,6 +7,14 @@
       "source": "fixed",
       "price": 0.0005,
       "tokenAddress": "0x0624069497F830BEa84bd7Ad410b878270130035"
+    },
+    "0xfa63503f9e61fd59cbea137c122fa55c2daff14a": {
+      "name": "LITAS",
+      "symbol": "LITAS",
+      "decimals": 18,
+      "source": "mexc",
+      "id": "LITASUSDT",
+      "tokenAddress": "0xfa63503f9e61fd59cbea137c122fa55c2daff14a"
     }
   },
   "56": {
