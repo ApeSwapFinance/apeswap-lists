@@ -19,7 +19,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Sonic Largest ID: 15005
 // Berachain Largest ID: 16004
 // Katana Largest ID: 17000
-// SOL Largest ID: 18012
+// SOL Largest ID: 18013
 // UNICHAIN Largest ID: 19001
 
 const bills: BillsConfig[] = [
@@ -427,6 +427,33 @@ const bills: BillsConfig[] = [
     fullDescription:
       'Children Of The Sky is a digital and physical IP venture and exclusive social club built for those seeking more than just a passing trend—it’s a cultural commitment. Merging compelling lore, high-quality storytelling, and a vibrant community, the project is designed to shift culture from the ground up, raising frequency instead of simply raising funds. It thrives at the intersection of creativity, community, and commerce, building world-shaping IP powered by story, culture, and emotion rather than hype. Members aren’t spectators; they are believers actively shaping a shared vision. At its heart, $COTS transcends being just a token—it’s a cultural force. Players step into the skies as digital warriors, earning rewards, clashing in epic sky-bound battles, and energizing a thriving, ever-growing community.',
     tags: ['Community'],
+  },
+  {
+    index: 18013,
+    version: '2.2.0',
+    chainId: ChainId.SOL,
+    contractAddress: {
+      [ChainId.SOL]: 'C7xSNQDsuZHGBSsByJsyEnam2b69phiJzBp7boY5o83a',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.hvlo,
+    billNnftAddress: {
+      [ChainId.SOL]: 'Fn8fRswWZAYfM2dywoTdajZ9ujYqC9DpGWaPU346zn7N',
+    },
+    inactive: false,
+    projectLink: 'https://www.hivello.com',
+    twitter: 'https://x.com/HivelloOfficial',
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    shortDescription:
+      'Hivello simplifies DePIN node participation with an easy-to-use desktop app that lets anyone earn passive income by sharing unused resources—no blockchain experience needed. Users can connect devices like PCs or routers to support Web3 infrastructure. The $HVLO token powers the ecosystem through rewards, staking, and seamless participation.',
+    fullDescription:
+      "Hivello is on a mission to simplify DePIN node participation for the masses by removing the technical hurdles typically associated with decentralized networks. At the core of this effort is a radically simple desktop application that enables users to earn passive income by contributing unused computer resources. Whether it's a PC, router, modem, or storage device, users can seamlessly participate in Web3 without any prior blockchain knowledge or technical expertise. By unlocking a user-friendly gateway into decentralized infrastructure, Hivello empowers individuals to support and benefit from DePIN protocols while reinforcing the broader network. At the heart of this ecosystem is the $HVLO token, which fuels rewards, staking, and participation, making Web3 both accessible and rewarding for everyone.",
+    tags: ['DePiN'],
   },
 
   //
