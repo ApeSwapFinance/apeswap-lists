@@ -16107,7 +16107,7 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://www.pawchain.net/',
     twitter: 'https://x.com/pawchain',
     initTime: { [ChainId.MAINNET]: 1755257871 },
-    soldOut: true,
+    soldOut: false,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
