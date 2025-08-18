@@ -10981,7 +10981,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     twitter: 'https://x.com/official_trakx',
     audit: 'https://skynet.certik.com/projects/bitbond',
     initTime: { [ChainId.MATIC]: 1755083753 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
