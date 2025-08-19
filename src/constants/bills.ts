@@ -44,7 +44,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.UNICHAIN]: '0x1b7858f745211dBa1387fE30124eBCa2D706D7Dd',
     },
-    inactive: false,
     projectLink: 'https://app.catex.fi',
     twitter: 'https://x.com/Catex_Fi',
     initTime: { [ChainId.UNICHAIN]: 1754394474 },
@@ -72,7 +71,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.UNICHAIN]: '0x1b7858f745211dBa1387fE30124eBCa2D706D7Dd',
     },
-    inactive: false,
     projectLink: 'https://app.catex.fi',
     twitter: 'https://x.com/Catex_Fi',
     initTime: { [ChainId.UNICHAIN]: 1753692103 },
@@ -100,7 +98,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.UNICHAIN]: '0x1b7858f745211dBa1387fE30124eBCa2D706D7Dd',
     },
-    inactive: false,
     projectLink: 'https://app.catex.fi',
     twitter: 'https://x.com/Catex_Fi',
     initTime: { [ChainId.UNICHAIN]: 1753290000 },
@@ -133,7 +130,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.SOL]: '8jcHtKktGJdt4VUBsf7j1VZngcLhS1bxgPHnPrMnPtg',
     },
-    inactive: false,
     projectLink: 'https://www.hyperonsol.com/',
     twitter: 'https://x.com/hyperonsol',
     soldOut: false,
@@ -158,7 +154,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.SOL]: 'BweCYmekwGmF7JFFBCN5MxCJy3egt2vLSmFRbtNTD2ya', // aka collection
     },
-    inactive: false,
     projectLink: 'https://skoragents.ai/',
     twitter: 'https://x.com/theskorai',
     soldOut: false,
@@ -184,7 +179,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.SOL]: 'EGaskzkVsrbrSZr6CHwjuMU3cA6pxNWu5E9cLFMmZh5a',
     },
-    inactive: false,
     projectLink: 'https://www.rkey.rent/',
     twitter: 'https://x.com/rkeyrent',
     soldOut: false,
@@ -210,7 +204,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.SOL]: 'Bkcc9dR9QySPsWbiKigFcVheb2ycRFNFhN4eEmH7hvio',
     },
-    inactive: false,
     projectLink: 'https://www.rkey.rent/',
     twitter: 'https://x.com/rkeyrent',
     soldOut: false,
@@ -236,7 +229,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.SOL]: 'E7dkNpmbQDjVvnBbvB8M73LoBH4hMYYVvgHNccUmQbwj',
     },
-    inactive: false,
     projectLink: 'https://stabble.org/',
     twitter: 'https://x.com/stabbleorg',
     soldOut: false,
@@ -261,7 +253,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.SOL]: 'BDsK66Ah57A93x9eJzeCpk7W2eJ7hz944jHGG7JysnBx',
     },
-    inactive: false,
     projectLink: 'https://www.orcadefai.com/',
     twitter: 'https://x.com/ORCAIDEF',
     soldOut: true,
@@ -286,7 +277,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.SOL]: '4Kk5fUiBWDLKieWJNWqYHuLzEV2hQycMDaCP4ZdbJPLp',
     },
-    inactive: false,
     projectLink: 'https://x.com/solana',
     twitter: 'https://solana.com/',
     soldOut: false,
@@ -311,7 +301,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.SOL]: 'HPeeonTQQrVdBGi9LeRiGXkL3QzVpVrdRVsjJwXQ5HZA',
     },
-    inactive: false,
     projectLink: 'https://trumpenguin.com/',
     twitter: 'https://x.com/trumpenguin',
     soldOut: true,
@@ -336,7 +325,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.SOL]: '9VzREdc484WqjvVsakqXEQK2G2oCE1o8dVjq2HjEwFLD',
     },
-    inactive: false,
     projectLink: 'https://home.blockasset.co/',
     twitter: 'https://x.com/blockassetco',
     soldOut: false,
@@ -361,7 +349,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.SOL]: '8M8Smqaa38SrHaG4joAdAddRvFUY4JW8i8wMfXSuJepv',
     },
-    inactive: false,
     projectLink: 'https://aitech.io/',
     twitter: 'https://x.com/AITECHio',
     soldOut: false,
@@ -388,7 +375,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.SOL]: 'EYqFwLzpE2KbbcD78mt2zf19tpuqXih95oq5dqsvzz2o',
     },
-    inactive: false,
     projectLink: 'https://childrenofthesky.com/',
     twitter: 'https://x.com/COTSCLUB',
     soldOut: false,
@@ -415,7 +401,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.SOL]: 'E4kevLnmCCPhidsh6wBd5ekwp3dYVo1NkTupDkg9bohT',
     },
-    inactive: false,
     projectLink: 'https://childrenofthesky.com/',
     twitter: 'https://x.com/COTSCLUB',
     soldOut: false,
@@ -442,7 +427,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.SOL]: 'Fn8fRswWZAYfM2dywoTdajZ9ujYqC9DpGWaPU346zn7N',
     },
-    inactive: false,
     projectLink: 'https://www.hivello.com',
     twitter: 'https://x.com/HivelloOfficial',
     soldOut: false,
@@ -473,7 +457,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BERACHAIN]: '0x1b7858f745211dBa1387fE30124eBCa2D706D7Dd',
     },
-    inactive: false,
     projectLink: 'https://beratrax.com/',
     twitter: 'https://x.com/beratrax',
     initTime: { [ChainId.BERACHAIN]: 1748420897 },
@@ -501,7 +484,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BERACHAIN]: '0x1b7858f745211dBa1387fE30124eBCa2D706D7Dd',
     },
-    inactive: false,
     projectLink: 'https://www.burrbear.io/',
     twitter: 'https://x.com/moneygoesburr',
     audit: 'https://docs.burrbear.io/contract-audits/audits',
@@ -530,7 +512,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BERACHAIN]: '0x1b7858f745211dBa1387fE30124eBCa2D706D7Dd',
     },
-    inactive: false,
     projectLink: 'https://honey.fun/',
     twitter: 'https://x.com/honeydotfun',
     initTime: { [ChainId.BERACHAIN]: 1748420897 },
@@ -558,7 +539,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BERACHAIN]: '0x1b7858f745211dBa1387fE30124eBCa2D706D7Dd',
     },
-    inactive: false,
     projectLink: 'https://plutusdao.io/',
     twitter: 'https://x.com/PlutusDAO_io',
     initTime: { [ChainId.BERACHAIN]: 1749549138 },
@@ -586,7 +566,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BERACHAIN]: '0x1b7858f745211dBa1387fE30124eBCa2D706D7Dd',
     },
-    inactive: false,
     projectLink: 'https://www.burrbear.io/',
     twitter: 'https://x.com/moneygoesburr',
     audit: 'https://docs.burrbear.io/contract-audits/audits',
@@ -618,7 +597,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.SONIC]: '0xc765C358622cB346f236F8Bfffe53036e421bb4e',
     },
-    inactive: false,
     projectLink: 'https://amped.finance/#/',
     twitter: 'https://x.com/ampedfinance',
     initTime: { [ChainId.SONIC]: 1753971345 },
@@ -646,7 +624,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.SONIC]: '0xc765C358622cB346f236F8Bfffe53036e421bb4e',
     },
-    inactive: false,
     projectLink: 'https://www.moonbay.space/',
     twitter: 'https://x.com/MoonBaySonic',
     initTime: { [ChainId.SONIC]: 1745316614 },
@@ -675,7 +652,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.SONIC]: '0xc765C358622cB346f236F8Bfffe53036e421bb4e',
     },
-    inactive: false,
     projectLink: 'https://rezerve.money/',
     twitter: 'https://x.com/rezervemoney',
     initTime: { [ChainId.SONIC]: 1750406876 },
@@ -705,7 +681,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.SONIC]: '0xc765C358622cB346f236F8Bfffe53036e421bb4e',
     },
-    inactive: false,
     projectLink: 'https://spinit.owl.games/',
     twitter: 'https://x.com/SPIN__IT',
     initTime: { [ChainId.SONIC]: 1747817717 },
@@ -734,7 +709,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.SONIC]: '0xc765C358622cB346f236F8Bfffe53036e421bb4e',
     },
-    inactive: false,
     projectLink: 'https://www.moonbay.space/',
     twitter: 'https://x.com/MoonBaySonic',
     initTime: { [ChainId.SONIC]: 1745316614 },
@@ -763,7 +737,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.SONIC]: '0xc765C358622cB346f236F8Bfffe53036e421bb4e',
     },
-    inactive: false,
     projectLink: 'https://www.shadow.so/',
     twitter: 'https://x.com/ShadowonSonic',
     initTime: { [ChainId.SONIC]: 1745316614 },
@@ -791,7 +764,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.SONIC]: '0xc765C358622cB346f236F8Bfffe53036e421bb4e',
     },
-    inactive: false,
     projectLink: 'https://www.soniclabs.com/',
     twitter: 'https://x.com/SonicLabs',
     initTime: { [ChainId.SONIC]: 1745316614 },
@@ -823,7 +795,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.MONAD_TESTNET]: '0x04f1D39a5A5EFCB6e51891E01d4acCD8c434775C',
     },
-    inactive: false,
     projectLink: 'https://octo.exchange',
     twitter: 'https://x.com/OctoSwapDex',
     initTime: { [ChainId.MONAD_TESTNET]: 1754336807 },
@@ -850,7 +821,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.MONAD_TESTNET]: '0x04f1D39a5A5EFCB6e51891E01d4acCD8c434775C',
     },
-    inactive: false,
     projectLink: 'https://atlantisdex.xyz',
     twitter: 'https://x.com/atlantisdex_xyz',
     initTime: { [ChainId.MONAD_TESTNET]: 1747234338 },
@@ -877,7 +847,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.MONAD_TESTNET]: '0x04f1D39a5A5EFCB6e51891E01d4acCD8c434775C',
     },
-    inactive: false,
     projectLink: 'https://www.azex.io/',
     initTime: { [ChainId.MONAD_TESTNET]: 1746818338 },
     soldOut: false,
@@ -904,7 +873,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.MONAD_TESTNET]: '0x04f1D39a5A5EFCB6e51891E01d4acCD8c434775C',
     },
-    inactive: false,
     projectLink: 'https://bitcoin.org/',
     initTime: { [ChainId.MONAD_TESTNET]: 1744716985 },
     soldOut: true,
@@ -931,7 +899,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.MONAD_TESTNET]: '0x04f1D39a5A5EFCB6e51891E01d4acCD8c434775C',
     },
-    inactive: false,
     projectLink: 'https://www.monad.xyz',
     twitter: 'https://x.com/monad_xyz',
     initTime: { [ChainId.MONAD_TESTNET]: 1744716522 },
@@ -959,7 +926,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.MONAD_TESTNET]: '0x04f1D39a5A5EFCB6e51891E01d4acCD8c434775C',
     },
-    inactive: false,
     projectLink: 'https://ethereum.org/',
     twitter: 'https://x.com/ethereum',
     initTime: { [ChainId.MONAD_TESTNET]: 1744716225 },
@@ -987,7 +953,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.MONAD_TESTNET]: '0x04f1D39a5A5EFCB6e51891E01d4acCD8c434775C',
     },
-    inactive: false,
     projectLink: 'https://bitcoin.org/',
     initTime: { [ChainId.MONAD_TESTNET]: 1744131275 },
     soldOut: true,
@@ -1014,7 +979,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.MONAD_TESTNET]: '0x04f1D39a5A5EFCB6e51891E01d4acCD8c434775C',
     },
-    inactive: false,
     projectLink: 'https://ethereum.org/',
     twitter: 'https://x.com/ethereum',
     initTime: { [ChainId.MONAD_TESTNET]: 1744131275 },
@@ -1042,7 +1006,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.MONAD_TESTNET]: '0x04f1D39a5A5EFCB6e51891E01d4acCD8c434775C',
     },
-    inactive: false,
     projectLink: 'https://bitcoin.org/',
     initTime: { [ChainId.MONAD_TESTNET]: 1744030005 },
     soldOut: true,
@@ -1069,7 +1032,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.MONAD_TESTNET]: '0x04f1D39a5A5EFCB6e51891E01d4acCD8c434775C',
     },
-    inactive: false,
     projectLink: 'https://ethereum.org/',
     twitter: 'https://x.com/ethereum',
     initTime: { [ChainId.MONAD_TESTNET]: 1744030005 },
@@ -1097,7 +1059,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.MONAD_TESTNET]: '0x04f1D39a5A5EFCB6e51891E01d4acCD8c434775C',
     },
-    inactive: false,
     projectLink: 'https://www.monad.xyz',
     twitter: 'https://x.com/monad_xyz',
     initTime: { [ChainId.MONAD_TESTNET]: 1742905970 },
@@ -1125,7 +1086,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.MONAD_TESTNET]: '0x04f1D39a5A5EFCB6e51891E01d4acCD8c434775C',
     },
-    inactive: false,
     projectLink: 'https://bitcoin.org/',
     initTime: { [ChainId.MONAD_TESTNET]: 1742905970 },
     soldOut: true,
@@ -1152,7 +1112,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.MONAD_TESTNET]: '0x04f1D39a5A5EFCB6e51891E01d4acCD8c434775C',
     },
-    inactive: false,
     projectLink: 'https://ethereum.org/',
     twitter: 'https://x.com/ethereum',
     initTime: { [ChainId.MONAD_TESTNET]: 1742905970 },
@@ -1195,7 +1154,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.GRAPHLINQ]: '0xb80383fe969a481a60136A78bB02717f3ca2beAA',
     },
-    inactive: false,
     projectLink: 'https://graphlinq.io/',
     twitter: 'https://x.com/graphlinq_proto',
     audit: 'https://www.cyberscope.io/audits/coin-graphlinq-protocol',
@@ -1225,7 +1183,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.IOTA]: '0x896c7021C1ACa0dD65D1D525b0434822dbCB6d9d',
     },
-    inactive: false,
     projectLink: 'https://www.iolend.finance/',
     twitter: 'https://twitter.com/iolendfi',
     initTime: { [ChainId.IOTA]: 1725544655 },
@@ -1251,7 +1208,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.IOTA]: '0x896c7021C1ACa0dD65D1D525b0434822dbCB6d9d',
     },
-    inactive: false,
     projectLink: 'https://www.rustyrobot.io/',
     twitter: 'https://x.com/RustyRobotCC',
     initTime: { [ChainId.IOTA]: 1725544655 },
@@ -1277,7 +1233,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.IOTA]: '0x896c7021C1ACa0dD65D1D525b0434822dbCB6d9d',
     },
-    inactive: false,
     projectLink: 'https://www.auditone.io/',
     twitter: 'https://x.com/auditone_dao',
     initTime: { [ChainId.IOTA]: 1719260043 },
@@ -1305,7 +1260,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.IOTA]: '0x896c7021C1ACa0dD65D1D525b0434822dbCB6d9d',
     },
-    inactive: false,
     projectLink: 'https://www.rustyrobot.io/',
     twitter: 'https://x.com/RustyRobotCC',
     initTime: { [ChainId.IOTA]: 1719260043 },
@@ -1331,7 +1285,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.IOTA]: '0x896c7021C1ACa0dD65D1D525b0434822dbCB6d9d',
     },
-    inactive: false,
     projectLink: 'https://fomofox.info/',
     twitter: 'https://x.com/FOMO_Fox',
     initTime: { [ChainId.IOTA]: 1719260043 },
@@ -1363,7 +1316,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://web3music.org/',
     twitter: 'https://x.com/MusicProtocolX',
     initTime: { [ChainId.BASE]: 1754563497 },
@@ -1389,7 +1341,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://www.alpacanetwork.ai/',
     twitter: 'https://x.com/AlpacaNetworkAI',
     initTime: { [ChainId.BASE]: 1753795343 },
@@ -1418,7 +1369,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://www.symm.io/',
     twitter: 'https://x.com/symm_io',
     initTime: { [ChainId.BASE]: 1753363558 },
@@ -1448,7 +1398,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://smardex.io/home',
     twitter: 'https://x.com/SmarDex',
     initTime: { [ChainId.BASE]: 1753290000 },
@@ -1477,7 +1426,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://fullhouse.gg/',
     twitter: 'https://x.com/Full_House_GG',
     initTime: { [ChainId.BASE]: 1753099559 },
@@ -1504,7 +1452,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://fx.land/',
     twitter: 'https://x.com/functionland',
     initTime: { [ChainId.BASE]: 1751027538 },
@@ -1531,7 +1478,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://www.gmrtag.io/',
     twitter: 'https://x.com/TheGame_Company',
     initTime: { [ChainId.BASE]: 1750162941 },
@@ -1558,7 +1504,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://fingermonkeys.com/',
     twitter: 'https://x.com/fingermonkeysio',
     audit: 'https://app.solidproof.io/projects/fmdtc',
@@ -1586,7 +1531,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://www.gmrtag.io/',
     twitter: 'https://x.com/TheGame_Company',
     initTime: { [ChainId.BASE]: 1747061931 },
@@ -1613,7 +1557,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://ethermail.io/',
     twitter: 'https://x.com/ethermail_io',
     initTime: { [ChainId.BASE]: 1746014706 },
@@ -1640,7 +1583,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://www.veritasprotocol.com/',
     twitter: 'https://x.com/veritas_web3',
     initTime: { [ChainId.BASE]: 1745914126 },
@@ -1668,7 +1610,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://fx.land/',
     twitter: 'https://x.com/functionland',
     initTime: { [ChainId.BASE]: 1744904089 },
@@ -1695,7 +1636,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://web3music.org/',
     twitter: 'https://x.com/MusicProtocolX',
     initTime: { [ChainId.BASE]: 1744366624 },
@@ -1722,7 +1662,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://web3music.org/',
     twitter: 'https://x.com/MusicProtocolX',
     initTime: { [ChainId.BASE]: 1743426325 },
@@ -1749,7 +1688,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://www.metahorseunity.io/',
     twitter: 'https://twitter.com/metahorseunity',
     audit: 'https://skynet.certik.com/projects/metahorse-unity',
@@ -1778,7 +1716,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://token.bitrivals.app/',
     twitter: 'https://x.com/BitRivals',
     initTime: { [ChainId.BASE]: 1743159819 },
@@ -1805,7 +1742,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://www.degendistillery.com/',
     twitter: 'https://x.com/degendistillery',
     initTime: { [ChainId.BASE]: 1743159819 },
@@ -1831,7 +1767,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://sapien.ai/',
     twitter: 'https://x.com/spns_ai',
     audit: 'https://audits.hacken.io/sapiens-labs-inc/sca-sapiens-ai-token-jan2025/',
@@ -1858,7 +1793,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://sapien.ai/',
     twitter: 'https://x.com/spns_ai',
     audit: 'https://audits.hacken.io/sapiens-labs-inc/sca-sapiens-ai-token-jan2025/',
@@ -1885,7 +1819,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://random.trading/',
     twitter: 'https://x.com/randomdexrdx',
     initTime: { [ChainId.BASE]: 1740479727 },
@@ -1911,7 +1844,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://token.bitrivals.app/',
     twitter: 'https://x.com/BitRivals',
     initTime: { [ChainId.BASE]: 1740068400 },
@@ -1937,7 +1869,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://www.agentxavi.ai/',
     twitter: 'https://x.com/AgentXAVI',
     initTime: { [ChainId.BASE]: 1739902466 },
@@ -1963,7 +1894,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://unlock-protocol.com/',
     twitter: 'https://x.com/UnlockProtocol',
     initTime: { [ChainId.BASE]: 1745840808 },
@@ -1989,7 +1919,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://iamolex.ai/',
     twitter: 'https://x.com/hi_olex',
     initTime: { [ChainId.BASE]: 1738094027 },
@@ -2016,7 +1945,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://www.degendistillery.com/',
     twitter: 'https://x.com/degendistillery',
     initTime: { [ChainId.BASE]: 1738071189 },
@@ -2043,7 +1971,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://basedpepe.vip/',
     twitter: 'https://x.com/0x52BasedPepe',
     initTime: { [ChainId.BASE]: 1737110333 },
@@ -2070,7 +1997,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://www.metahorseunity.io/',
     twitter: 'https://twitter.com/metahorseunity',
     audit: 'https://skynet.certik.com/projects/metahorse-unity',
@@ -2099,7 +2025,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://sheertopia.io/',
     twitter: 'https://x.com/sheertopia',
     initTime: { [ChainId.BASE]: 1734692693 },
@@ -2126,7 +2051,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://random.trading/',
     twitter: 'https://x.com/randomdexrdx',
     initTime: { [ChainId.BASE]: 1734692693 },
@@ -2154,7 +2078,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://imgnai.com/',
     twitter: 'https://x.com/imgn_ai',
     initTime: { [ChainId.BASE]: 1734992220 },
@@ -2181,7 +2104,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://iamolex.ai/',
     twitter: 'https://x.com/hi_olex',
     initTime: { [ChainId.BASE]: 1733827195 },
@@ -2207,7 +2129,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://random.trading/',
     twitter: 'https://x.com/randomdexrdx',
     initTime: { [ChainId.BASE]: 1734692693 },
@@ -2234,7 +2155,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://www.rewardable.app/',
     twitter: 'https://x.com/rewardable_app',
     initTime: { [ChainId.BASE]: 1733943183 },
@@ -2261,7 +2181,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://web3music.org/',
     twitter: 'https://x.com/MusicProtocolX',
     initTime: { [ChainId.BASE]: 1722253943 },
@@ -2288,7 +2207,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://www.rewardable.app/',
     twitter: 'https://x.com/rewardable_app',
     initTime: { [ChainId.BASE]: 1733943183 },
@@ -2315,7 +2233,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://www.rewardable.app/',
     twitter: 'https://x.com/rewardable_app',
     initTime: { [ChainId.BASE]: 1733943183 },
@@ -2342,7 +2259,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://www.rewardable.app/',
     twitter: 'https://x.com/rewardable_app',
     initTime: { [ChainId.BASE]: 1733943183 },
@@ -2369,7 +2285,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://www.rewardable.app/',
     twitter: 'https://x.com/rewardable_app',
     initTime: { [ChainId.BASE]: 1733943183 },
@@ -2395,7 +2310,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://mozaic.finance/',
     twitter: 'https://x.com/Mozaic_Fi',
     initTime: { [ChainId.BASE]: 1733851922 },
@@ -2421,7 +2335,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://iamolex.ai/',
     twitter: 'https://x.com/hi_olex',
     initTime: { [ChainId.BASE]: 1733827195 },
@@ -2448,7 +2361,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://www.basedtyler.com/',
     twitter: 'https://x.com/TylerOnBaseETH',
     audit: 'https://tokensniffer.com/token/8453/0x65e570b560027f493f2b1907e8e8e3b9546053bd',
@@ -2475,7 +2387,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://www.magnify.cash/',
     twitter: 'https://twitter.com/MagnifyCash',
     initTime: { [ChainId.BASE]: 1733147427 },
@@ -2503,7 +2414,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://basepad.finance/',
     twitter: 'https://x.com/BasePad_Fi',
     audit: 'https://tokensniffer.com/token/base/n6x1bbf9vjzkzxxuqkohe9s1ebqc40mos5bqsx5jxbcu3snbluqs8bl8x40a',
@@ -2530,7 +2440,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://www.boundlesspay.com/',
     twitter: 'https://x.com/boundlesspay',
     audit: 'https://contractwolf.io/projects/boundlesspay',
@@ -2558,7 +2467,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://www.basedtyler.com/',
     twitter: 'https://x.com/TylerOnBase',
     audit: 'https://tokensniffer.com/token/8453/0x65e570b560027f493f2b1907e8e8e3b9546053bd',
@@ -2586,7 +2494,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://basedpepe.vip/',
     twitter: 'https://x.com/0x52BasedPepe',
     initTime: { [ChainId.BASE]: 1728919512 },
@@ -2613,7 +2520,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://imgnai.com/',
     twitter: 'https://x.com/imgn_ai',
     initTime: { [ChainId.BASE]: 1731922581 },
@@ -2640,7 +2546,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://cornucopias.io/',
     twitter: 'https://x.com/CornucopiasGame',
     audit: 'https://audits.hacken.io/cornucopias/',
@@ -2668,7 +2573,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://web3music.org/',
     twitter: 'https://x.com/MusicProtocolX',
     initTime: { [ChainId.BASE]: 1722253943 },
@@ -2694,7 +2598,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://www.samuraistarter.com/',
     twitter: 'https://x.com/SamuraiStarter',
     initTime: { [ChainId.BASE]: 1722253943 },
@@ -2721,7 +2624,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://sekuya.io/',
     twitter: 'https://twitter.com/sekuyaofficial',
     initTime: { [ChainId.BASE]: 1722253943 },
@@ -2748,7 +2650,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://www.sophiaverse.ai/',
     twitter: 'https://twitter.com/sophiaverse_ai',
     initTime: { [ChainId.BASE]: 1716217474 },
@@ -2777,7 +2678,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://www.sophiaverse.ai/',
     twitter: 'https://twitter.com/sophiaverse_ai',
     initTime: { [ChainId.BASE]: 1716217474 },
@@ -2805,7 +2705,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://www.basemafia.com/',
     twitter: 'https://x.com/mafia_on_base',
     initTime: { [ChainId.BASE]: 1716217474 },
@@ -2834,7 +2733,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://smardex.io/home',
     twitter: 'https://x.com/SmarDex',
     initTime: { [ChainId.BASE]: 1716217474 },
@@ -2862,7 +2760,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://tkn.xyz/',
     twitter: 'https://twitter.com/TokenDao_',
     initTime: { [ChainId.BASE]: 1716217474 },
@@ -2891,7 +2788,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://www.superbestfriends.xyz/',
     twitter: 'https://twitter.com/superbestcoin',
     initTime: { [ChainId.BASE]: 1716217474 },
@@ -2919,7 +2815,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    inactive: false,
     projectLink: 'https://www.sophiaverse.ai/',
     twitter: 'https://twitter.com/sophiaverse_ai',
     initTime: { [ChainId.BASE]: 1716217474 },
@@ -2949,7 +2844,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.LIGHTLINK]: '0x82CfCd79De447b01730b9ED0Db2ad6Ee5AaAC55f',
     },
-    inactive: false,
     projectLink: 'https://lightlink.io/',
     twitter: 'https://twitter.com/lightlinkchain',
     audit: 'https://docs.lightlink.io/lightlink-protocol/miscellaneous/security-audits',
@@ -2979,7 +2873,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.LIGHTLINK]: '0x82CfCd79De447b01730b9ED0Db2ad6Ee5AaAC55f',
     },
-    inactive: false,
     projectLink: 'https://lightlink.io/',
     twitter: 'https://twitter.com/lightlinkchain',
     audit: 'https://docs.lightlink.io/lightlink-protocol/miscellaneous/security-audits',
@@ -3009,7 +2902,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.LIGHTLINK]: '0x82CfCd79De447b01730b9ED0Db2ad6Ee5AaAC55f',
     },
-    inactive: false,
     projectLink: 'https://lightlink.io/',
     twitter: 'https://twitter.com/lightlinkchain',
     audit: 'https://docs.lightlink.io/lightlink-protocol/miscellaneous/security-audits',
@@ -3039,7 +2931,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.LIGHTLINK]: '0x82CfCd79De447b01730b9ED0Db2ad6Ee5AaAC55f',
     },
-    inactive: false,
     projectLink: 'https://lightlink.io/',
     twitter: 'https://twitter.com/lightlinkchain',
     audit: 'https://docs.lightlink.io/lightlink-protocol/miscellaneous/security-audits',
@@ -3070,7 +2961,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.LIGHTLINK]: '0x82CfCd79De447b01730b9ED0Db2ad6Ee5AaAC55f',
     },
-    inactive: false,
     projectLink: 'https://lightlink.io/',
     twitter: 'https://twitter.com/lightlinkchain',
     audit: 'https://docs.lightlink.io/lightlink-protocol/miscellaneous/security-audits',
@@ -3103,7 +2993,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
     },
-    inactive: false,
     projectLink: 'https://linusonlinea.com/',
     twitter: 'https://x.com/linusonlinea',
     initTime: { [ChainId.LINEA]: 1753290000 },
@@ -3130,7 +3019,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
     },
-    inactive: false,
     projectLink: 'https://www.hotdog.pet/',
     twitter: 'https://x.com/HotdogLinea',
     initTime: { [ChainId.LINEA]: 1753290000 },
@@ -3157,7 +3045,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
     },
-    inactive: false,
     projectLink: 'https://www.bankoflinea.build/app',
     twitter: 'https://x.com/BankOfLinea',
     initTime: { [ChainId.LINEA]: 1753290000 },
@@ -3184,7 +3071,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
     },
-    inactive: false,
     projectLink: 'https://www.hotdog.pet/',
     twitter: 'https://x.com/HotdogLinea',
     initTime: { [ChainId.LINEA]: 1747174598 },
@@ -3210,7 +3096,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
     },
-    inactive: false,
     projectLink: 'https://linpuss.xyz/',
     twitter: 'https://x.com/LinpussLinea',
     audit:
@@ -3238,7 +3123,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
     },
-    inactive: false,
     projectLink: 'https://www.hotdog.pet/',
     twitter: 'https://x.com/HotdogLinea',
     initTime: { [ChainId.LINEA]: 1742922000 },
@@ -3264,7 +3148,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
     },
-    inactive: false,
     projectLink: 'https://www.lynex.fi/',
     twitter: 'https://x.com/LynexFi',
     audit: 'https://www.cyberscope.io/audits/coin-lynex',
@@ -3291,7 +3174,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
     },
-    inactive: false,
     projectLink: 'https://www.hotdog.pet/',
     twitter: 'https://x.com/HotdogLinea',
     initTime: { [ChainId.LINEA]: 1741791651 },
@@ -3317,7 +3199,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
     },
-    inactive: false,
     projectLink: 'https://linpuss.xyz/',
     twitter: 'https://x.com/LinpussLinea',
     audit:
@@ -3345,7 +3226,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
     },
-    inactive: false,
     projectLink: 'https://linpuss.xyz/',
     twitter: 'https://x.com/LinpussLinea',
     audit:
@@ -3373,7 +3253,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
     },
-    inactive: false,
     projectLink: 'https://linpuss.xyz/',
     twitter: 'https://x.com/LinpussLinea',
     audit:
@@ -3402,7 +3281,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
     },
-    inactive: false,
     projectLink: 'https://linpuss.xyz/',
     twitter: 'https://x.com/LinpussLinea',
     audit:
@@ -3430,7 +3308,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
     },
-    inactive: false,
     projectLink: 'https://linusonlinea.com/',
     twitter: 'https://x.com/linusonlinea',
     initTime: { [ChainId.LINEA]: 1725611855 },
@@ -3456,7 +3333,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
     },
-    inactive: false,
     projectLink: 'https://efrogs.mirror.xyz/',
     twitter: 'https://x.com/efrogs_on_linea',
     initTime: { [ChainId.LINEA]: 1730804855 },
@@ -3482,7 +3358,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
     },
-    inactive: false,
     projectLink: 'https://linusonlinea.com/',
     twitter: 'https://x.com/linusonlinea',
     initTime: { [ChainId.LINEA]: 1725611855 },
@@ -3508,7 +3383,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
     },
-    inactive: false,
     projectLink: 'https://efrogs.mirror.xyz/',
     twitter: 'https://x.com/efrogs_on_linea',
     initTime: { [ChainId.LINEA]: 1724152998 },
@@ -3534,7 +3408,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
     },
-    inactive: false,
     projectLink: 'https://www.thenile.exchange/swap',
     twitter: 'https://twitter.com/NileExchange',
     audit: 'https://docs.thenile.exchange/security-and-legal-considerations/inherited-security',
@@ -3562,7 +3435,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
     },
-    inactive: false,
     projectLink: 'https://xfai.com/',
     twitter: 'https://twitter.com/xfai_official',
     audit: 'https://xfai.com/audit.pdf',
@@ -3589,7 +3461,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
     },
-    inactive: false,
     projectLink: 'https://www.thenile.exchange/swap',
     twitter: 'https://twitter.com/NileExchange',
     audit: 'https://docs.thenile.exchange/security-and-legal-considerations/inherited-security',
@@ -3616,7 +3487,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
     },
-    inactive: false,
     projectLink: 'https://app.velocore.xyz/swap',
     twitter: 'https://twitter.com/velocorexyz',
     audit: 'https://docs.velocore.xyz/security-and-contract-address/three-rounds-of-audits',
@@ -3643,7 +3513,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
     },
-    inactive: false,
     projectLink: 'https://www.lynex.fi/',
     twitter: 'https://x.com/LynexFi',
     audit: 'https://www.cyberscope.io/audits/coin-lynex',
@@ -3671,7 +3540,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.LINEA]: '0xFA40b551980aF88FD2929Ab41f57D98ee13A6354',
     },
-    inactive: false,
     projectLink: 'https://metavault.trade/home',
     twitter: 'https://twitter.com/MetavaultTrade',
     audit: 'https://www.cyberscope.io/audits/coin-metavault-trade?slug=coin-metavault-trade',
@@ -3702,7 +3570,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
@@ -3740,7 +3607,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://smardex.io/home',
     twitter: 'https://twitter.com/SmarDex',
     initTime: { [ChainId.BSC]: 1754932161 },
@@ -3769,7 +3635,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
@@ -3808,7 +3673,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
@@ -3847,7 +3711,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
@@ -3886,7 +3749,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://u-topia.com/',
     twitter: 'https://x.com/ucoinofficial',
     initTime: { [ChainId.BSC]: 1753290000 },
@@ -3916,7 +3778,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://vameon.com/',
     twitter: 'https://x.com/vameon69',
     initTime: { [ChainId.BSC]: 1753290000 },
@@ -3946,7 +3807,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
@@ -3985,7 +3845,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
@@ -4023,7 +3882,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://mindaiproject.com/',
     twitter: 'https://x.com/MindAI_io',
     initTime: { [ChainId.BSC]: 1751276087 },
@@ -4052,7 +3910,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
@@ -4090,7 +3947,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
@@ -4128,7 +3984,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
@@ -4165,7 +4020,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://papu.game/',
     twitter: 'https://x.com/papunextgen',
     audit: 'https://coinsult.net/projects/papu-coin/',
@@ -4194,7 +4048,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://outerringmmo.com/',
     twitter: 'https://twitter.com/OuterRingMMO',
     initTime: { [ChainId.BSC]: 1744051437 },
@@ -4222,7 +4075,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://outerringmmo.com/',
     twitter: 'https://twitter.com/OuterRingMMO',
     initTime: { [ChainId.BSC]: 1744051437 },
@@ -4251,7 +4103,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://www.ithacaprotocol.io/',
     twitter: 'https://x.com/IthacaProtocol',
     initTime: { [ChainId.BSC]: 1746612018 },
@@ -4280,7 +4131,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://token.script.tv/',
     twitter: 'https://x.com/script_network',
     audit: 'https://skynet.certik.com/projects/script-network?utm_source=CMC&utm_campaign=AuditByCertiKLink',
@@ -4310,7 +4160,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://token.script.tv/',
     twitter: 'https://x.com/script_network',
     audit: 'https://skynet.certik.com/projects/script-network?utm_source=CMC&utm_campaign=AuditByCertiKLink',
@@ -4340,7 +4189,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
@@ -4378,7 +4226,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://www.ithacaprotocol.io/',
     twitter: 'https://x.com/IthacaProtocol',
     initTime: { [ChainId.BSC]: 1745408455 },
@@ -4407,7 +4254,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
@@ -4444,7 +4290,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://outerringmmo.com/',
     twitter: 'https://twitter.com/OuterRingMMO',
     initTime: { [ChainId.BSC]: 1744051437 },
@@ -4472,7 +4317,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://outerringmmo.com/',
     twitter: 'https://twitter.com/OuterRingMMO',
     initTime: { [ChainId.BSC]: 1744051437 },
@@ -4496,7 +4340,6 @@ const bills: BillsConfig[] = [
     lpToken: tokens.usdt,
     earnToken: tokens.elda,
     billNnftAddress: { [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9' },
-    inactive: false,
     projectLink: 'https://www.eldarune.com/',
     twitter: 'https://x.com/PlayEldarune',
     audit: 'https://hacken.io/audits/eldarune/',
@@ -4524,7 +4367,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://www.lovebit.org/',
     twitter: 'https://x.com/lovebitofficial',
     initTime: { [ChainId.BSC]: 1743688217 },
@@ -4553,7 +4395,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://shieldeum.net/',
     twitter: 'https://x.com/Shieldeum',
     audit: 'https://skynet.certik.com/projects/shieldeum',
@@ -4583,7 +4424,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://qaagai.com',
     twitter: 'https://x.com/qaagai',
     audit: 'https://www.cyberscope.io/audits/coin-qaagai',
@@ -4613,7 +4453,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://token.script.tv/',
     twitter: 'https://x.com/script_network',
     audit: 'https://skynet.certik.com/projects/script-network?utm_source=CMC&utm_campaign=AuditByCertiKLink',
@@ -4642,7 +4481,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://boudicea.io/',
     twitter: 'https://x.com/Boudicea_game',
     initTime: { [ChainId.BSC]: 1743008933 },
@@ -4667,7 +4505,6 @@ const bills: BillsConfig[] = [
     lpToken: tokens.usdt,
     earnToken: tokens.clash,
     billNnftAddress: { [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9' },
-    inactive: false,
     projectLink: 'https://clashub.io/',
     twitter: 'https://twitter.com/theclashub',
     initTime: { [ChainId.BSC]: 1742999872 },
@@ -4694,7 +4531,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://www.bnbagents.ai/',
     twitter: 'https://x.com/BNBAgents_AI',
     initTime: { [ChainId.BSC]: 1742999872 },
@@ -4723,7 +4559,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://ceranos.finance/',
     twitter: 'https://x.com/CeranosFinance',
     initTime: { [ChainId.BSC]: 1742999872 },
@@ -4747,7 +4582,6 @@ const bills: BillsConfig[] = [
     lpToken: tokens.usdt,
     earnToken: tokens.elda,
     billNnftAddress: { [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9' },
-    inactive: false,
     projectLink: 'https://www.eldarune.com/',
     twitter: 'https://x.com/PlayEldarune',
     initTime: { [ChainId.BSC]: 1742922000 },
@@ -4775,7 +4609,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
@@ -4813,7 +4646,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://www.credefi.finance/',
     twitter: 'https://twitter.com/credefi_finance/',
     audit: 'https://www.certik.com/projects/credefi?utm_source=CMC&utm_campaign=AuditByCertiKLink',
@@ -4843,7 +4675,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://edu3labs.com/',
     twitter: 'https://twitter.com/edu3labs',
     audit: 'https://nfedocs.edu3labs.com/audit',
@@ -4873,7 +4704,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://www.blockapescissors.com/#home',
     twitter: 'https://twitter.com/apeblock?lang=en',
     audit: 'https://solidity.finance/audits/BlockApeScissors/',
@@ -4904,7 +4734,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://www.poollotto.finance/',
     twitter: 'https://twitter.com/pltfinance/',
     audit:
@@ -4933,7 +4762,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://token.script.tv/',
     twitter: 'https://x.com/script_network',
     audit: 'https://skynet.certik.com/projects/script-network?utm_source=CMC&utm_campaign=AuditByCertiKLink',
@@ -4959,7 +4787,6 @@ const bills: BillsConfig[] = [
     lpToken: tokens.usdt,
     earnToken: tokens.clash,
     billNnftAddress: { [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9' },
-    inactive: false,
     projectLink: 'https://clashub.io/',
     twitter: 'https://twitter.com/theclashub',
     initTime: { [ChainId.BSC]: 1741352620 },
@@ -4986,7 +4813,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
@@ -5024,7 +4850,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://ceranos.finance/',
     twitter: 'https://x.com/CeranosFinance',
     initTime: { [ChainId.BSC]: 1740567714 },
@@ -5053,7 +4878,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://www.bnbagents.ai/',
     twitter: 'https://x.com/BNBAgents_AI',
     initTime: { [ChainId.BSC]: 1740390438 },
@@ -5082,7 +4906,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
@@ -5120,7 +4943,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
@@ -5158,7 +4980,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://qaagai.com',
     twitter: 'https://x.com/qaagai',
     audit: 'https://www.cyberscope.io/audits/coin-qaagai',
@@ -5188,7 +5009,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
@@ -5227,7 +5047,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://aimalls.app/',
     twitter: 'https://twitter.com/ai_malls',
     audit: 'https://skynet.certik.com/projects/aimalls',
@@ -5257,7 +5076,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
@@ -5295,7 +5113,6 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://home.blockasset.co/',
     twitter: 'https://x.com/blockassetco',
     initTime: { [ChainId.BSC]: 1734992220 },
@@ -5325,7 +5142,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://www.blockapescissors.com/#home',
     twitter: 'https://twitter.com/apeblock?lang=en',
     audit: 'https://solidity.finance/audits/BlockApeScissors/',
@@ -5355,7 +5171,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://quoll.finance/',
     twitter: 'https://x.com/QuollFinance',
     initTime: { [ChainId.BSC]: 1734992220 },
@@ -5385,7 +5200,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://www.poollotto.finance/',
     twitter: 'https://twitter.com/pltfinance/',
     audit:
@@ -5414,7 +5228,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
@@ -5451,7 +5264,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://quoll.finance/',
     twitter: 'https://x.com/QuollFinance',
     initTime: { [ChainId.BSC]: 1734020869 },
@@ -5480,7 +5292,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://solarx.ai/',
     twitter: 'https://x.com/solarxcoin',
     initTime: { [ChainId.BSC]: 1733939928 },
@@ -5509,7 +5320,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://solarx.ai/',
     twitter: 'https://x.com/solarxcoin',
     initTime: { [ChainId.BSC]: 1733939928 },
@@ -5538,7 +5348,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://ordify.world/',
     twitter: 'https://x.com/ordifyworld',
     audit: 'https://skynet.certik.com/projects/ordify',
@@ -5566,7 +5375,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://shieldeum.net/',
     twitter: 'https://x.com/Shieldeum',
     audit: 'https://skynet.certik.com/projects/shieldeum',
@@ -5595,7 +5403,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://home.blockasset.co/',
     twitter: 'https://x.com/blockassetco',
     initTime: { [ChainId.BSC]: 1733406965 },
@@ -5624,7 +5431,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://boudicea.io/',
     twitter: 'https://x.com/Boudicea_game',
     initTime: { [ChainId.BSC]: 1732892253 },
@@ -5653,7 +5459,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
@@ -5691,7 +5496,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
@@ -5728,7 +5532,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://home.blockasset.co/',
     twitter: 'https://x.com/blockassetco',
     initTime: { [ChainId.BSC]: 1729522195 },
@@ -5757,7 +5560,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://www.blockapescissors.com/#home',
     twitter: 'https://twitter.com/apeblock?lang=en',
     audit: 'https://solidity.finance/audits/BlockApeScissors/',
@@ -5782,7 +5584,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     lpToken: tokens.usdt,
     earnToken: tokens.elda,
     billNnftAddress: { [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9' },
-    inactive: false,
     projectLink: 'https://www.eldarune.com/',
     twitter: 'https://x.com/PlayEldarune',
     audit: 'https://hacken.io/audits/eldarune/',
@@ -5810,7 +5611,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://weebs.app/en',
     twitter: 'https://x.com/Weebs_app',
     audit:
@@ -5839,7 +5639,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
@@ -5877,7 +5676,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://ChainGPT.org/',
     twitter: 'http://twitter.com/chain_gpt',
     audit: 'https://www.certik.com/projects/chaingpt/',
@@ -5904,7 +5702,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'http://www.bullrunbets.casino/',
     twitter: 'https://x.com/bullrunbets',
     initTime: { [ChainId.BSC]: 1725884035 },
@@ -5933,7 +5730,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://aitech.io/',
     twitter: 'https://twitter.com/AITECHio',
     audit: 'https://skynet.certik.com/projects/solidus-ai-tech',
@@ -5959,7 +5755,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     lpToken: tokens.wbnb,
     earnToken: tokens.plt,
     billNnftAddress: { [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9' },
-    inactive: false,
     projectLink: 'https://www.poollotto.finance/',
     twitter: 'https://twitter.com/pltfinance/',
     audit:
@@ -5988,7 +5783,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://aitech.io/',
     twitter: 'https://twitter.com/AITECHio',
     audit: 'https://skynet.certik.com/projects/solidus-ai-tech',
@@ -6018,7 +5812,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://chappyz.com/',
     twitter: 'https://twitter.com/Chappyzcom',
     initTime: { [ChainId.BSC]: 1725280829 },
@@ -6043,7 +5836,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     lpToken: tokens.wbnb,
     earnToken: tokens.plt,
     billNnftAddress: { [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9' },
-    inactive: false,
     projectLink: 'https://www.poollotto.finance/',
     twitter: 'https://twitter.com/pltfinance/',
     audit:
@@ -6068,7 +5860,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     lpToken: tokens.pltBnb_PCS,
     earnToken: tokens.plt,
     billNnftAddress: { [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9' },
-    inactive: false,
     projectLink: 'https://www.poollotto.finance/',
     twitter: 'https://twitter.com/pltfinance/',
     audit:
@@ -6097,7 +5888,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
@@ -6135,7 +5925,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://www.devomon.io/',
     twitter: 'https://twitter.com/OfficialDevomon',
     audit: 'https://skynet.certik.com/projects/devomon',
@@ -6160,7 +5949,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     lpToken: tokens.usdt,
     earnToken: tokens.copi,
     billNnftAddress: { [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9' },
-    inactive: false,
     projectLink: 'https://www.cornucopias.io/',
     twitter: 'https://twitter.com/CornucopiasGame',
     audit: 'https://hacken.io/audits/cornucopias/',
@@ -6184,7 +5972,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     lpToken: tokens.usdt,
     earnToken: tokens.copi,
     billNnftAddress: { [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9' },
-    inactive: false,
     projectLink: 'https://www.cornucopias.io/',
     twitter: 'https://twitter.com/CornucopiasGame',
     audit: 'https://hacken.io/audits/cornucopias/',
@@ -6207,7 +5994,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     lpToken: tokens.usdt,
     earnToken: tokens.elda,
     billNnftAddress: { [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9' },
-    inactive: false,
     projectLink: 'https://www.eldarune.com/',
     twitter: 'https://x.com/PlayEldarune',
     initTime: { [ChainId.BSC]: 1723037484 },
@@ -6229,7 +6015,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     lpToken: tokens.usdt,
     earnToken: tokens.clash,
     billNnftAddress: { [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9' },
-    inactive: false,
     projectLink: 'https://clashub.io/',
     twitter: 'https://twitter.com/theclashub',
     initTime: { [ChainId.BSC]: 1721741216 },
@@ -6252,7 +6037,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     lpToken: tokens.gtaiUsdt_PCS,
     earnToken: tokens.gtai,
     billNnftAddress: { [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9' },
-    inactive: false,
     projectLink: 'https://www.gt-protocol.io/',
     twitter: 'https://twitter.com/gt_protocol',
     audit: 'https://skynet.certik.com/projects/gt-protocol',
@@ -6280,7 +6064,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://aimalls.app/',
     twitter: 'https://twitter.com/ai_malls',
     audit: 'https://skynet.certik.com/projects/aimalls',
@@ -6309,7 +6092,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://bethustlers.com/token',
     twitter: 'https://twitter.com/bethustlers',
     audit: 'http://github.com/SkeletonEcosystem/Audits/blob/main/BetHustlers%20Smart%20Contract%20Audit.pdf',
@@ -6338,7 +6120,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://ChainGPT.org/',
     twitter: 'http://twitter.com/chain_gpt',
     audit: 'https://www.certik.com/projects/chaingpt/',
@@ -6365,7 +6146,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://www.harbor.market',
     twitter: 'https://x.com/0xHarborMarket',
     audit: 'https://docs.granary.finance/resources/audit',
@@ -6393,7 +6173,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://www.harbor.market',
     twitter: 'https://x.com/0xHarborMarket',
     audit: 'https://docs.granary.finance/resources/audit',
@@ -6422,7 +6201,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
@@ -6460,7 +6238,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://magicsquare.io/',
     twitter: 'https://x.com/MagicSquareio',
     audit: 'https://skynet.certik.com/projects/magic-square',
@@ -6490,7 +6267,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://rtfight.com/',
     twitter: 'https://twitter.com/readytofight_io',
     audit: 'https://skynet.certik.com/projects/ready-to-fight',
@@ -6519,7 +6295,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://retrocraft.io/',
     twitter: 'https://x.com/RetroCraftio',
     audit:
@@ -6550,7 +6325,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://froyo.games/',
     twitter: 'https://twitter.com/realfroyogames',
     initTime: { [ChainId.BSC]: 1715730467 },
@@ -6579,7 +6353,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://token.script.tv/',
     twitter: 'https://x.com/script_network',
     audit: 'https://skynet.certik.com/projects/script-network?utm_source=CMC&utm_campaign=AuditByCertiKLink',
@@ -6609,7 +6382,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://kickspad.io/',
     twitter: 'https://x.com/KicksPad_io',
     audit: 'https://skynet.certik.com/projects/getkicks?utm_source=CMC&utm_campaign=AuditByCertiKLink',
@@ -6637,7 +6409,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://blaze.storyfire.com/',
     twitter: 'https://twitter.com/storyfireapp',
     audit: 'https://www.cyberscope.io/audits/1-blze',
@@ -6666,7 +6437,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://www.ichi.org/',
     twitter: 'https://twitter.com/ichifoundation',
     audit: 'https://docs.ichi.org/home/technical-resources/audits',
@@ -6695,7 +6465,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://www.winkyverse.io/',
     twitter: 'https://twitter.com/TheWinkyverse_',
     audit: 'https://skynet.certik.com/projects/winkyverse',
@@ -6724,7 +6493,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://chappyz.com/',
     twitter: 'https://twitter.com/Chappyzcom',
     initTime: { [ChainId.BSC]: 1700485200 },
@@ -6752,7 +6520,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://smardex.io/home',
     twitter: 'https://twitter.com/SmarDex',
     initTime: { [ChainId.BSC]: 1714137138 },
@@ -6779,7 +6546,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
@@ -6817,7 +6583,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
@@ -6851,7 +6616,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     lpToken: tokens.gtaiUsdt_PCS,
     earnToken: tokens.gtai,
     billNnftAddress: { [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9' },
-    inactive: false,
     projectLink: 'https://www.gt-protocol.io/',
     twitter: 'https://twitter.com/gt_protocol',
     audit: 'https://skynet.certik.com/projects/gt-protocol',
@@ -6879,7 +6643,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://launchpad.enjinstarter.com/',
     twitter: 'https://twitter.com/enjinstarter',
     audit: 'https://hacken.io/audits/enjinstarter',
@@ -6909,7 +6672,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://ChainGPT.org/',
     twitter: 'http://twitter.com/chain_gpt',
     audit: 'https://www.certik.com/projects/chaingpt/',
@@ -6936,7 +6698,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://froyo.games/',
     twitter: 'https://twitter.com/realfroyogames',
     initTime: { [ChainId.BSC]: 1715730467 },
@@ -6962,7 +6723,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://aitech.io/',
     twitter: 'https://twitter.com/AITECHio',
     audit: 'https://skynet.certik.com/projects/solidus-ai-tech',
@@ -6989,7 +6749,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://aitech.io/',
     twitter: 'https://twitter.com/AITECHio',
     audit: 'https://skynet.certik.com/projects/solidus-ai-tech',
@@ -7016,7 +6775,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://aitech.io/',
     twitter: 'https://twitter.com/AITECHio',
     audit: 'https://skynet.certik.com/projects/solidus-ai-tech',
@@ -7044,7 +6802,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
@@ -7082,7 +6839,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://wam.app/',
     twitter: 'https://twitter.com/playWAM',
     audit: 'https://certificate.immunebytes.com/pdf/WAM/',
@@ -7110,7 +6866,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://tifi.net/',
     twitter: 'https://twitter.com/TiFiToken',
     audit: 'https://skynet.certik.com/projects/tifi-token',
@@ -7138,7 +6893,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://alaskagoldrush.io/',
     twitter: 'https://twitter.com/alaska_game',
     initTime: { [ChainId.BSC]: 1700485200 },
@@ -7165,7 +6919,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apeswap/',
@@ -7203,7 +6956,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://aimalls.app/',
     twitter: 'https://twitter.com/ai_malls',
     audit: 'https://skynet.certik.com/projects/aimalls',
@@ -7232,7 +6984,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://aitech.io/',
     twitter: 'https://twitter.com/AITECHio',
     audit: 'https://skynet.certik.com/projects/solidus-ai-tech',
@@ -7260,7 +7011,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://www.wizarre.io/',
     twitter: 'https://twitter.com/WizarreGame',
     audit: 'https://cdn.wizarre.io/doc/wizarre-rd-auditors-token-security-review.pdf',
@@ -7289,7 +7039,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://www.devomon.io/',
     twitter: 'https://twitter.com/OfficialDevomon',
     audit: 'https://skynet.certik.com/projects/devomon',
@@ -7317,7 +7066,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'http://memusic.io',
     twitter: 'https://twitter.com/MeMusicNews',
     initTime: { [ChainId.BSC]: 1704477600 },
@@ -7344,7 +7092,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://revolvegames.io/',
     twitter: 'https://twitter.com/RevolveGamesio',
     audit: 'https://drive.google.com/file/d/1lJdF7lEM3KQZmOW1p42Gm0eMbp7DF82C/view',
@@ -7371,7 +7118,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://octavia.one/',
     twitter: 'https://twitter.com/OctaviaToken',
     initTime: { [ChainId.BSC]: 1711551600 },
@@ -7398,7 +7144,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://www.winkyverse.io/',
     twitter: 'https://twitter.com/TheWinkyverse_',
     audit: 'https://skynet.certik.com/projects/winkyverse',
@@ -7427,7 +7172,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://alaskagoldrush.io/',
     twitter: 'https://twitter.com/alaska_game',
     initTime: { [ChainId.BSC]: 1700485200 },
@@ -7453,7 +7197,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0x3881ABAE74341630E4838Ca4809478DD668091fB',
     },
-    inactive: false,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     audit: 'https://paladinsec.co/projects/apeswap/',
@@ -7479,7 +7222,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0x3881ABAE74341630E4838Ca4809478DD668091fB',
     },
-    inactive: false,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     audit: 'https://paladinsec.co/projects/apeswap/',
@@ -7505,7 +7247,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0x3881ABAE74341630E4838Ca4809478DD668091fB',
     },
-    inactive: false,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     audit: 'https://paladinsec.co/projects/apeswap/',
@@ -7531,7 +7272,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0x3881ABAE74341630E4838Ca4809478DD668091fB',
     },
-    inactive: false,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     audit: 'https://paladinsec.co/projects/apeswap/',
@@ -7557,7 +7297,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0x3881ABAE74341630E4838Ca4809478DD668091fB',
     },
-    inactive: false,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     audit: 'https://paladinsec.co/projects/apeswap/',
@@ -7583,7 +7322,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0x3881ABAE74341630E4838Ca4809478DD668091fB',
     },
-    inactive: false,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     audit: 'https://paladinsec.co/projects/apeswap/',
@@ -7609,7 +7347,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0x3881ABAE74341630E4838Ca4809478DD668091fB',
     },
-    inactive: false,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     audit: 'https://paladinsec.co/projects/apeswap/',
@@ -7635,7 +7372,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0x3881ABAE74341630E4838Ca4809478DD668091fB',
     },
-    inactive: false,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     audit: 'https://paladinsec.co/projects/apeswap/',
@@ -7661,7 +7397,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ApeBond',
     audit: 'https://paladinsec.co/projects/apeswap/',
@@ -7685,7 +7420,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     audit: 'https://paladinsec.co/projects/apeswap/',
@@ -7706,7 +7440,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     audit: 'https://paladinsec.co/projects/apeswap/',
@@ -7727,7 +7460,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     audit: 'https://paladinsec.co/projects/apeswap/',
@@ -7748,7 +7480,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ApeBond',
     audit: 'https://paladinsec.co/projects/apeswap/',
@@ -7769,7 +7500,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: true,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ApeBond',
     audit: 'https://paladinsec.co/projects/apeswap/',
@@ -7793,7 +7523,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: true,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ApeBond',
     audit: 'https://paladinsec.co/projects/apeswap/',
@@ -7817,7 +7546,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: true,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ApeBond',
     audit: 'https://paladinsec.co/projects/apeswap/',
@@ -7841,7 +7569,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: true,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ApeBond',
     audit: 'https://paladinsec.co/projects/apeswap/',
@@ -7865,7 +7592,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apeswap/',
@@ -7889,7 +7615,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0x3881ABAE74341630E4838Ca4809478DD668091fB',
     },
-    inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apeswap/',
@@ -7915,7 +7640,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apeswap/',
@@ -7953,7 +7677,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apeswap/',
@@ -7991,7 +7714,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apeswap/',
@@ -8028,7 +7750,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://www.blockapescissors.com/#home',
     twitter: 'https://twitter.com/apeblock?lang=en',
     audit: 'https://solidity.finance/audits/BlockApeScissors/',
@@ -8056,7 +7777,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://friend3.group/',
     twitter: 'https://twitter.com/Friend3AI',
     initTime: { [ChainId.BSC]: 1704304800 },
@@ -8083,7 +7803,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://ChainGPT.org/',
     twitter: 'http://twitter.com/chain_gpt',
     audit: 'https://www.certik.com/projects/chaingpt/',
@@ -8111,7 +7830,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://forwardprotocol.io/',
     twitter: 'https://twitter.com/forwardprotocol',
     audit: 'https://www.cyberscope.io/audits/coin-forward-protocol',
@@ -8141,7 +7859,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://edu3labs.com/',
     twitter: 'https://twitter.com/edu3labs',
     audit: 'https://nfedocs.edu3labs.com/audit',
@@ -8170,7 +7887,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://home.alphaverse.com/',
     twitter: 'https://twitter.com/AlphaVersegame',
     audit: 'https://omniscia.io/reports/fav-token-implementation-64805de3e824970014254148',
@@ -8198,7 +7914,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://www.gt-protocol.io/',
     twitter: 'https://twitter.com/gt_protocol',
     audit: 'https://skynet.certik.com/projects/gt-protocol',
@@ -8227,7 +7942,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://outerringmmo.com/',
     twitter: 'https://twitter.com/OuterRingMMO',
     initTime: { [ChainId.BSC]: 1709719908 },
@@ -8254,7 +7968,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://chappyz.com/',
     twitter: 'https://twitter.com/Chappyzcom',
     initTime: { [ChainId.BSC]: 1700485200 },
@@ -8283,7 +7996,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://www.winkyverse.io/',
     twitter: 'https://twitter.com/TheWinkyverse_',
     audit: 'https://skynet.certik.com/projects/winkyverse',
@@ -8311,7 +8023,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://www.joingrapes.com/',
     twitter: 'https://twitter.com/JoinGrapes',
     audit: 'https://sourcehat.com/audits/Grapecoin/',
@@ -8338,7 +8049,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://cake.monster/',
     twitter: 'https://twitter.com/Monsta_BSC',
     audit: 'https://solidity.finance/audits/CakeMonster/',
@@ -8365,7 +8075,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://codexchain.xyz/home',
     twitter: 'https://twitter.com/codexchain',
     audit: 'https://github.com/CodeXChainOfficial/SC/tree/ERC20Base',
@@ -8392,7 +8101,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://xoxlabs.io/',
     twitter: 'https://twitter.com/Xox_Labs',
     audit: 'https://skynet.certik.com/projects/xox-labs/',
@@ -8419,7 +8127,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://www.decubate.com/',
     twitter: 'https://twitter.com/decubate',
     audit:
@@ -8447,7 +8154,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://codexchain.xyz/home',
     twitter: 'https://twitter.com/codexchain',
     audit: 'https://github.com/CodeXChainOfficial/SC/tree/ERC20Base',
@@ -8474,7 +8180,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://home.alphaverse.com/',
     twitter: 'https://twitter.com/AlphaVersegame',
     audit: 'https://omniscia.io/reports/fav-token-implementation-64805de3e824970014254148',
@@ -8502,7 +8207,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://chappyz.com/',
     twitter: 'https://twitter.com/Chappyzcom',
     initTime: { [ChainId.BSC]: 1700485200 },
@@ -8530,7 +8234,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://cake.monster/',
     twitter: 'https://twitter.com/Monsta_BSC',
     audit: 'https://solidity.finance/audits/CakeMonster/',
@@ -8557,7 +8260,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://www.cakebot.io/',
     twitter: 'https://twitter.com/CakebotTeam',
     initTime: { [ChainId.BSC]: 1704891600 },
@@ -8583,7 +8285,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://www.joingrapes.com/',
     twitter: 'https://twitter.com/JoinGrapes',
     audit: 'https://sourcehat.com/audits/Grapecoin/',
@@ -8610,7 +8311,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://tifi.net/',
     twitter: 'https://twitter.com/TiFiToken',
     audit: 'https://skynet.certik.com/projects/tifi-token',
@@ -8637,7 +8337,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://www.hunter-token.com/',
     twitter: 'https://twitter.com/digitalarmsnft?lang=en',
     initTime: { [ChainId.BSC]: 1704891600 },
@@ -8663,7 +8362,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://revolvegames.io/',
     twitter: 'https://twitter.com/RevolveGamesio',
     audit: 'https://drive.google.com/file/d/1lJdF7lEM3KQZmOW1p42Gm0eMbp7DF82C/view',
@@ -8690,7 +8388,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://www.blockapescissors.com/#home',
     twitter: 'https://twitter.com/apeblock?lang=en',
     audit: 'https://solidity.finance/audits/BlockApeScissors/',
@@ -8717,7 +8414,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://www.aitech.io/',
     twitter: 'https://twitter.com/AITECHio',
     audit: 'https://skynet.certik.com/projects/solidus-ai-tech',
@@ -8745,7 +8441,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://ChainGPT.org/',
     twitter: 'http://twitter.com/chain_gpt',
     audit: 'https://www.certik.com/projects/chaingpt/',
@@ -8772,7 +8467,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://www.credefi.finance/',
     twitter: 'https://twitter.com/credefi_finance/',
     audit: 'https://www.certik.com/projects/credefi?utm_source=CMC&utm_campaign=AuditByCertiKLink',
@@ -8799,7 +8493,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://hypergpt.ai/',
     twitter: 'https://twitter.com/hypergpt',
     audit: 'https://skynet.certik.com/projects/hypergpt?utm_source=CMC&utm_campaign=AuditByCertiKLink',
@@ -8826,7 +8519,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://www.aitech.io/',
     twitter: 'https://twitter.com/AITECHio',
     audit: 'https://skynet.certik.com/projects/solidus-ai-tech',
@@ -8853,7 +8545,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://revolvegames.io/',
     twitter: 'https://twitter.com/RevolveGamesio',
     audit: 'https://drive.google.com/file/d/1lJdF7lEM3KQZmOW1p42Gm0eMbp7DF82C/view',
@@ -8881,7 +8572,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://chappyz.com/',
     twitter: 'https://twitter.com/Chappyzcom',
     initTime: { [ChainId.BSC]: 1700485200 },
@@ -8909,7 +8599,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://www.aitech.io/',
     twitter: 'https://twitter.com/AITECHio',
     audit: 'https://skynet.certik.com/projects/solidus-ai-tech',
@@ -8933,7 +8622,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://www.blockapescissors.com/#home',
     twitter: 'https://twitter.com/apeblock?lang=en',
     audit: 'https://solidity.finance/audits/BlockApeScissors/',
@@ -8959,7 +8647,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://hypergpt.ai/',
     twitter: 'https://twitter.com/hypergpt',
     audit: 'https://skynet.certik.com/projects/hypergpt?utm_source=CMC&utm_campaign=AuditByCertiKLink',
@@ -8985,7 +8672,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: true,
     projectLink: 'http://livegreencoin.com/',
     twitter: 'https://twitter.com/LiveGreenCoin1',
     audit: 'https://www.certik.com/projects/livegreencoin',
@@ -9006,7 +8692,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://palmswap.org/',
     twitter: 'https://twitter.com/Palmswaporg',
     audit: 'https://docs.palmswap.org/developers/audit',
@@ -9028,7 +8713,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://ChainGPT.org/',
     twitter: 'http://twitter.com/chain_gpt',
     audit: 'https://www.certik.com/projects/chaingpt/',
@@ -9064,7 +8748,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: true,
     projectLink: 'http://livegreencoin.com/',
     twitter: 'https://twitter.com/LiveGreenCoin1',
     audit: 'https://www.certik.com/projects/livegreencoin',
@@ -9085,7 +8768,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://gymnetwork.io/',
     twitter: 'https://twitter.com/GymNet_Official',
     audit: 'https://skynet.certik.com/projects/gym-network?utm_source=CMC&utm_campaign=AuditByCertiKLink',
@@ -9106,7 +8788,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://apexcoin.app/',
     twitter: 'https://twitter.com/apexcoin__',
     audit: 'https://github.com/AnalytixAudit/Solidity/blob/main/20230822_AnalytixAudit_ApexCoin_ApeX_Audit.pdf',
@@ -9127,7 +8808,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://metaplayers.gg/landing',
     twitter: 'https://twitter.com/MetaPlayersGG',
     audit: 'https://mfps.gg/assets/docs/mfps_audit.pdf',
@@ -9148,7 +8828,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://www.aitech.io/',
     twitter: 'https://twitter.com/AITECHio',
     audit: 'https://skynet.certik.com/projects/solidus-ai-tech',
@@ -9184,7 +8863,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://dexcheck.io/',
     twitter: 'https://twitter.com/DexCheck_io',
     audit: 'https://skynet.certik.com/projects/dexcheck',
@@ -9205,7 +8883,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://www.cogitoprotocol.com/',
     twitter: 'https://twitter.com/CogitoProtocol',
     audit: 'https://wp.hacken.io/wp-content/uploads/2023/05/Cogito_SC-Audit-Report_11_05_2023_SA-1337-1.pdf',
@@ -9229,7 +8906,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://www.poollotto.finance/',
     twitter: 'https://twitter.com/pltfinance/',
     audit:
@@ -9251,7 +8927,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: true,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     audit: 'https://paladinsec.co/projects/apeswap/',
@@ -9275,7 +8950,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: true,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     audit: 'https://paladinsec.co/projects/apeswap/',
@@ -9299,7 +8973,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: true,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     audit: 'https://paladinsec.co/projects/apeswap/',
@@ -9323,7 +8996,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: true,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     audit: 'https://paladinsec.co/projects/apeswap/',
@@ -9347,7 +9019,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://bridge.link/',
     twitter: 'https://twitter.com/bridge_oracle',
     audit: 'https://www.certik.com/projects/bridge-oracle?utm_source=CMC&utm_campaign=AuditByCertiKLink',
@@ -9369,7 +9040,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://ChainGPT.org/',
     twitter: 'http://twitter.com/chain_gpt',
     audit: 'https://www.certik.com/projects/chaingpt/',
@@ -9392,7 +9062,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: true,
     projectLink: 'https://furiofi.com/',
     twitter: 'https://twitter.com/furiocrypto',
     audit: 'https://solidity.finance/audits/Furio/',
@@ -9413,7 +9082,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://outerringmmo.com/',
     twitter: 'https://twitter.com/OuterRingMMO',
     initTime: { [ChainId.BSC]: 1690208985 },
@@ -9433,7 +9101,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: true,
     projectLink: 'https://froyo.games/',
     twitter: 'https://twitter.com/realfroyogames',
     audit:
@@ -9458,7 +9125,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://ChainGPT.org/',
     twitter: 'http://twitter.com/chain_gpt',
     audit: 'https://www.certik.com/projects/chaingpt/',
@@ -9481,7 +9147,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://legacy.apeswap.finance/nft',
     twitter: 'https://twitter.com/ApeSwapNFT',
     audit: 'https://paladinsec.co/projects/apeswap/',
@@ -9503,7 +9168,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: true,
     projectLink: 'http://livegreencoin.com/',
     twitter: 'https://twitter.com/LiveGreenCoin1',
     audit: 'https://www.certik.com/projects/livegreencoin',
@@ -9524,7 +9188,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://www.noot.fun/',
     twitter: 'https://twitter.com/nootcoinbnb',
     audit: 'https://techright.io/audit/nootcoin/',
@@ -9545,7 +9208,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: true,
     projectLink: 'https://www.knoknok.io/',
     twitter: 'https://twitter.com/knoknok_elf',
     initTime: { [ChainId.BSC]: 1682690400 },
@@ -9565,7 +9227,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: true,
     projectLink: 'https://www.knoknok.io/',
     twitter: 'https://twitter.com/knoknok_elf',
     initTime: { [ChainId.BSC]: 1682690400 },
@@ -9585,7 +9246,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://www.bedrockswap.finance/#',
     twitter: 'https://twitter.com/Bedrockswap',
     audit: 'https://skynet.certik.com/projects/bedrock?utm_source=CMC&utm_campaign=AuditByCertiKLink',
@@ -9606,7 +9266,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://avocadodao.io/',
     twitter: 'https://twitter.com/Avocadoguild?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor',
     audit: 'https://skynet.certik.com/projects/avocado-dao',
@@ -9627,7 +9286,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://chainguardians.io/',
     twitter: 'https://twitter.com/chain_guardians',
     audit: 'https://www.certik.com/projects/chainguardians?utm_source=CMC&utm_campaign=AuditByCertiKLink',
@@ -9649,7 +9307,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: true,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/realfroyogames',
     audit:
@@ -9671,7 +9328,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://bixos.io/',
     twitter: 'https://twitter.com/bixosinc',
     audit: 'https://github.com/solidproof/projects/blob/main/Bixos/SmartContract_Audit_Solidproof_Bixos.pdf',
@@ -9692,7 +9348,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://cake.monster/',
     twitter: 'https://twitter.com/thecakemnstr',
     audit: 'https://solidity.finance/audits/CakeMonster/',
@@ -9713,7 +9368,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://www.credefi.finance/',
     twitter: 'https://twitter.com/credefi_finance/',
     audit: 'https://www.certik.com/projects/credefi?utm_source=CMC&utm_campaign=AuditByCertiKLink',
@@ -9734,7 +9388,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://chainguardians.io/',
     twitter: 'https://twitter.com/chain_guardians',
     audit: 'https://www.certik.com/projects/chainguardians?utm_source=CMC&utm_campaign=AuditByCertiKLink',
@@ -9756,7 +9409,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: true,
     projectLink: 'http://livegreencoin.com/',
     twitter: 'https://twitter.com/LiveGreenCoin1',
     audit: 'https://www.certik.com/projects/livegreencoin',
@@ -9777,7 +9429,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://www.reaper.farm/',
     twitter: 'https://twitter.com/Reaper_Farm',
     audit: 'https://solidity.finance/audits/ReaperFarm/',
@@ -9798,7 +9449,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://tokoin.io/',
     twitter: 'https://twitter.com/tokoinglobal',
     audit: 'https://github.com/peckshield/publications/blob/master/audit_reports/PeckShield-Audit-Report-T-Fi-v1.0.pdf',
@@ -9819,7 +9469,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://cvl.network',
     twitter: 'https://twitter.com/cvl_network',
     audit: 'https://github.com/xdao-app/xdao-contracts/blob/master/audits/hacken/hacken.pdf',
@@ -9840,7 +9489,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://trivians.io/',
     twitter: 'https://twitter.com/PlayTrivians',
     audit: 'https://hacken.io/wp-content/uploads/2022/06/Trivians_29062022_SCAudit_Report_2.pdf',
@@ -9861,7 +9509,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: false,
     projectLink: 'https://talesofxtalnia.com/',
     twitter: 'https://twitter.com/xtalnia',
     audit: 'https://github.com/HashEx/public_audits/blob/master/XTAL%20Token/XTAL%20Token.pdf',
@@ -9882,7 +9529,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
     },
-    inactive: false,
     projectLink: 'https://www.coinflect.com/',
     twitter: 'https://twitter.com/coinflect?lang=en',
     audit:
@@ -9904,7 +9550,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
     },
-    inactive: false,
     projectLink: 'https://avanatoken.com/',
     twitter: 'https://twitter.com/AvanaProject',
     audit: 'https://hashex.org/audits/avana-token/',
@@ -9925,7 +9570,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
     },
-    inactive: false,
     projectLink: 'https://liquidus.finance/',
     twitter: 'https://twitter.com/LiquidusFinance',
     audit: 'https://liquidus.finance/LiqTechRateAudit.pdf',
@@ -9946,7 +9590,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
     },
-    inactive: false,
     projectLink: 'https://cake.monster/',
     twitter: 'https://twitter.com/thecakemnstr',
     audit: 'https://solidity.finance/audits/CakeMonster/',
@@ -9967,7 +9610,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
     },
-    inactive: false,
     projectLink: 'https://dappradar.com/',
     twitter: 'https://twitter.com/DappRadar/',
     audit: 'https://dappradar.com/documents/RADAR-Audits-v1.pdf',
@@ -9988,7 +9630,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: true,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     initTime: { [ChainId.BSC]: 1675904338 },
@@ -10008,7 +9649,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: true,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     initTime: { [ChainId.BSC]: 1675904338 },
@@ -10028,7 +9668,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: true,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     initTime: { [ChainId.BSC]: 1675904338 },
@@ -10048,7 +9687,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: true,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     initTime: { [ChainId.BSC]: 1675904338 },
@@ -10068,7 +9706,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
-    inactive: true,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     initTime: { [ChainId.BSC]: 1675904338 },
@@ -10088,7 +9725,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
     },
-    inactive: false,
     projectLink: 'https://www.ihcoin.io/',
     twitter: 'https://twitter.com/IHCoinofficial',
     audit: 'https://www.certik.com/projects/ihc#audit',
@@ -10109,7 +9745,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
     },
-    inactive: false,
     projectLink: 'https://liquidus.finance/',
     twitter: 'https://twitter.com/LiquidusFinance',
     initTime: { [ChainId.BSC]: 1669794128 },
@@ -10129,7 +9764,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
     },
-    inactive: false,
     projectLink: 'https://piston-token.com/',
     twitter: 'https://mobile.twitter.com/pistontoken',
     initTime: { [ChainId.BSC]: 1669905728 },
@@ -10149,7 +9783,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
     },
-    inactive: false,
     projectLink: 'https://outerringmmo.com/',
     twitter: 'https://twitter.com/OuterRingMMO',
     initTime: { [ChainId.BSC]: 1670432974 },
@@ -10169,7 +9802,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
     },
-    inactive: false,
     projectLink: 'https://www.leaptoken.io/',
     twitter: 'https://twitter.com/Play_Leap',
     audit: 'https://github.com/HashEx/public_audits/blob/master/PlayLeap/PlayLeap.pdf',
@@ -10190,7 +9822,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
     },
-    inactive: false,
     projectLink: 'https://nftynetwork.io/',
     twitter: 'https://twitter.com/NFTYFinance',
     initTime: { [ChainId.BSC]: 1667839328 },
@@ -10210,7 +9841,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
     },
-    inactive: false,
     projectLink: 'https://3air.io/',
     twitter: 'https://twitter.com/3aircrypto',
     audit: 'https://github.com/JorgeRodriguezsec/CTDsec/blob/main/Audits/Cybersecurity_Audit_CTDSEC_3air.pdf',
@@ -10231,7 +9861,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
     },
-    inactive: false,
     projectLink: 'https://www.coinofchampions.com/',
     twitter: 'https://twitter.com/coinofchampions',
     initTime: { [ChainId.BSC]: 1667352248 },
@@ -10251,7 +9880,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
     },
-    inactive: false,
     projectLink: 'https://chirpley.ai',
     twitter: 'https://twitter.com/chirpley',
     audit: 'https://stack.chirpley.nl/s/241c8gWBtVHnuZO1',
@@ -10272,7 +9900,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
     },
-    inactive: false,
     projectLink: 'https://gmr.center/',
     twitter: 'https://twitter.com/GMRCenter',
     audit: 'https://www.certik.com/projects/gamer',
@@ -10293,7 +9920,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
     },
-    inactive: false,
     projectLink: 'https://web.curate.style/',
     twitter: 'https://twitter.com/curateproject',
     initTime: { [ChainId.BSC]: 1662032058 },
@@ -10313,7 +9939,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
     },
-    inactive: false,
     projectLink: 'https://outerringmmo.com/',
     twitter: 'https://twitter.com/OuterRingMMO',
     initTime: { [ChainId.BSC]: 1667483648 },
@@ -10333,7 +9958,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
     },
-    inactive: false,
     projectLink: 'https://piston-token.com/',
     twitter: 'https://twitter.com/MyDefi_team',
     soldOut: true,
@@ -10352,7 +9976,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
     },
-    inactive: false,
     projectLink: 'https://xwin.finance/',
     twitter: 'https://twitter.com/xwinfinance',
     initTime: { [ChainId.BSC]: 1666784058 },
@@ -10372,7 +9995,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
     },
-    inactive: true,
     projectLink: 'https://froyo.games/',
     twitter: 'https://twitter.com/realfroyogames',
     initTime: { [ChainId.BSC]: 1666092858 },
@@ -10394,7 +10016,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
     },
-    inactive: true,
     projectLink: 'https://froyo.games/',
     twitter: 'https://twitter.com/realfroyogames',
     soldOut: true,
@@ -10415,7 +10036,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
     },
-    inactive: false,
     projectLink: 'https://bolide.fi/',
     twitter: 'https://twitter.com/Bolide_fi',
     initTime: { [ChainId.BSC]: 1664192058 },
@@ -10435,7 +10055,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
     },
-    inactive: false,
     projectLink: 'https://hector.network/',
     twitter: 'https://twitter.com/Hector_Network',
     initTime: { [ChainId.BSC]: 1660649658 },
@@ -10455,7 +10074,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0x7fd203888661d1f0ae625ed599909f8f97698670',
     },
-    inactive: false,
     projectLink: 'https://www.floki.com/',
     twitter: 'https://twitter.com/realflokiinu',
     initTime: { [ChainId.BSC]: 1660217658 },
@@ -10475,7 +10093,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8',
     },
-    inactive: false,
     projectLink: 'https://dappradar.com/',
     twitter: 'https://twitter.com/DappRadar/',
     soldOut: true,
@@ -10494,7 +10111,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8',
     },
-    inactive: false,
     projectLink: 'https://ceek.com/',
     twitter: 'https://twitter.com/CEEK/',
     initTime: { [ChainId.BSC]: 1655292858 },
@@ -10514,7 +10130,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8',
     },
-    inactive: false,
     projectLink: 'https://nftynetwork.io/',
     twitter: 'https://twitter.com/NFTYLab',
     soldOut: true,
@@ -10533,7 +10148,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8',
     },
-    inactive: false,
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
     soldOut: true,
@@ -10552,7 +10166,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8',
     },
-    inactive: false,
     projectLink: 'https://www.mogulproductions.com/',
     twitter: 'https://twitter.com/mogulofficial_',
     initTime: { [ChainId.BSC]: 1655292858 },
@@ -10572,7 +10185,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8',
     },
-    inactive: false,
     projectLink: 'https://hotcross.com/',
     twitter: 'https://twitter.com/hotcrosscom',
     initTime: { [ChainId.BSC]: 1655292858 },
@@ -10592,7 +10204,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8',
     },
-    inactive: false,
     projectLink: 'https://hotcross.com/',
     twitter: 'https://twitter.com/hotcrosscom',
     initTime: { [ChainId.BSC]: 1655292858 },
@@ -10612,7 +10223,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8',
     },
-    inactive: false,
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
     initTime: { [ChainId.BSC]: 1655552058 },
@@ -10633,7 +10243,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8',
     },
-    inactive: true,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     soldOut: true,
@@ -10652,7 +10261,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8',
     },
-    inactive: true,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     soldOut: true,
@@ -10671,7 +10279,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8',
     },
-    inactive: true,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     soldOut: true,
@@ -10690,7 +10297,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8',
     },
-    inactive: true,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     soldOut: true,
@@ -10709,7 +10315,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.BSC]: '0xb0278e43DbD744327FE0d5D0ABa4A77CBFC7fad8',
     },
-    inactive: true,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     soldOut: true,
@@ -10730,7 +10335,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     },
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
-    inactive: true,
     soldOut: true,
   },
   {
@@ -10749,7 +10353,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     },
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
-    inactive: true,
     soldOut: true,
   },
   {
@@ -10768,7 +10371,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     },
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
-    inactive: true,
     soldOut: true,
   },
   {
@@ -10787,7 +10389,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     },
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
-    inactive: true,
     soldOut: true,
   },
   {
@@ -10806,7 +10407,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     },
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
-    inactive: true,
     soldOut: true,
   },
   {
@@ -10826,7 +10426,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     initTime: { [ChainId.BSC]: 1668467108 },
-    inactive: true,
     soldOut: true,
   },
   {
@@ -10846,7 +10445,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     initTime: { [ChainId.BSC]: 1668467108 },
-    inactive: true,
     soldOut: true,
   },
   {
@@ -10866,7 +10464,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     initTime: { [ChainId.BSC]: 1668467108 },
-    inactive: true,
     soldOut: true,
   },
   {
@@ -10886,7 +10483,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     initTime: { [ChainId.BSC]: 1668467108 },
-    inactive: true,
     soldOut: true,
   },
   {
@@ -10906,7 +10502,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
     initTime: { [ChainId.BSC]: 1668467108 },
-    inactive: true,
     soldOut: true,
   },
   {
@@ -10928,7 +10523,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     audit:
       'https://github.com/froyogames/public-smart-contracts/blob/main/Smart%20contract%20security%20audit%20report%20-%20Froyo.pdf',
     initTime: { [ChainId.BSC]: 1682255105 },
-    inactive: true,
     soldOut: true,
   },
 
@@ -10949,7 +10543,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
     },
-    inactive: false,
     projectLink: 'https://film.io/',
     twitter: 'https://x.com/Filmio_Official',
     initTime: { [ChainId.MATIC]: 1755085583 },
@@ -10976,7 +10569,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
     },
-    inactive: false,
     projectLink: 'https://trakx.io/',
     twitter: 'https://x.com/official_trakx',
     audit: 'https://skynet.certik.com/projects/bitbond',
@@ -11005,7 +10597,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
     },
-    inactive: false,
     projectLink: 'https://galaxis.xyz/#/',
     twitter: 'https://x.com/Galaxisxyz',
     initTime: { [ChainId.MATIC]: 1753190910 },
@@ -11034,7 +10625,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
     },
-    inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
@@ -11071,7 +10661,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
     },
-    inactive: false,
     projectLink: 'https://oyabun.io/',
     twitter: 'https://x.com/OyabunGame',
     initTime: { [ChainId.MATIC]: 1747732584 },
@@ -11101,7 +10690,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
     },
-    inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
@@ -11139,7 +10727,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
     },
-    inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
@@ -11177,7 +10764,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
     },
-    inactive: false,
     projectLink: 'https://www.nasdex.xyz/',
     twitter: 'https://twitter.com/nasdex_xyz',
     audit: 'https://hacken.io/audits/nasdex',
@@ -11206,7 +10792,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
     },
-    inactive: false,
     projectLink: 'https://film.io/',
     twitter: 'https://x.com/Filmio_Official',
     initTime: { [ChainId.MATIC]: 1743507293 },
@@ -11233,7 +10818,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
     },
-    inactive: false,
     projectLink: 'https://theactivetoken.com/',
     twitter: 'https://x.com/yaypalio',
     initTime: { [ChainId.MATIC]: 1743507293 },
@@ -11261,7 +10845,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
     },
-    inactive: false,
     projectLink: 'https://www.medievalempires.com/',
     twitter: 'https://x.com/MedievalEmpires',
     audit: 'https://www.medievalempires.com/static/audit_report-89967b1290db095d7275ce21e8aa5d44.pdf',
@@ -11290,7 +10873,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
     },
-    inactive: false,
     projectLink: 'https://trakx.io/',
     twitter: 'https://x.com/official_trakx',
     audit: 'https://skynet.certik.com/projects/bitbond',
@@ -11319,7 +10901,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
     },
-    inactive: false,
     projectLink: 'https://film.io/',
     twitter: 'https://x.com/Filmio_Official',
     initTime: { [ChainId.MATIC]: 1741085030 },
@@ -11347,7 +10928,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E', // this was deployed to a Polygon's NFT instead of QuickSwap's NFT by mistake.
     },
-    inactive: false,
     projectLink: 'https://www.nasdex.xyz/',
     twitter: 'https://twitter.com/nasdex_xyz',
     audit: 'https://hacken.io/audits/nasdex',
@@ -11376,7 +10956,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
     },
-    inactive: false,
     projectLink: 'https://film.io/',
     twitter: 'https://x.com/Filmio_Official',
     initTime: { [ChainId.MATIC]: 1738686666 },
@@ -11404,7 +10983,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://www.nasdex.xyz/',
     twitter: 'https://twitter.com/nasdex_xyz',
     audit: 'https://hacken.io/audits/nasdex',
@@ -11433,7 +11011,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
     },
-    inactive: false,
     projectLink: 'https://film.io/',
     twitter: 'https://x.com/Filmio_Official',
     initTime: { [ChainId.MATIC]: 1736765165 },
@@ -11460,7 +11037,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
     },
-    inactive: false,
     projectLink: 'https://film.io/',
     twitter: 'https://x.com/Filmio_Official',
     initTime: { [ChainId.MATIC]: 1736765165 },
@@ -11487,7 +11063,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://theactivetoken.com/',
     twitter: 'https://x.com/yaypalio',
     initTime: { [ChainId.MATIC]: 1735057059 },
@@ -11515,7 +11090,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://arrland.com/',
     twitter: 'https://x.com/ArrlandGame',
     audit: 'https://skynet.certik.com/projects/arrland',
@@ -11544,7 +11118,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://trakx.io/',
     twitter: 'https://x.com/official_trakx',
     audit: 'https://skynet.certik.com/projects/bitbond',
@@ -11574,7 +11147,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://www.medievalempires.com/',
     twitter: 'https://x.com/MedievalEmpires',
     audit: 'https://www.medievalempires.com/static/audit_report-89967b1290db095d7275ce21e8aa5d44.pdf',
@@ -11603,7 +11175,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://www.0xgoon.com/',
     twitter: 'https://x.com/0xGOON_morning',
     initTime: { [ChainId.MATIC]: 1729769488 },
@@ -11632,7 +11203,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://www.medievalempires.com/',
     twitter: 'https://x.com/MedievalEmpires',
     audit: 'https://www.medievalempires.com/static/audit_report-89967b1290db095d7275ce21e8aa5d44.pdf',
@@ -11662,7 +11232,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://www.nasdex.xyz/',
     twitter: 'https://twitter.com/nasdex_xyz',
     audit: 'https://hacken.io/audits/nasdex',
@@ -11691,7 +11260,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
@@ -11729,7 +11297,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://arrland.com/',
     twitter: 'https://x.com/ArrlandGame',
     audit: 'https://github.com/solidproof/projects/tree/main/2024/Pirates%20of%20the%20Arrland',
@@ -11758,7 +11325,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://www.verida.network/',
     twitter: 'https://x.com/Verida_io',
     audit: 'https://community.verida.network/verida-network/security-audits',
@@ -11788,7 +11354,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://www.iconx.world/',
     twitter: 'https://twitter.com/iconxworld',
     initTime: { [ChainId.MATIC]: 1701892800 },
@@ -11816,7 +11381,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://derbystars.com/#section1',
     twitter: 'https://twitter.com/DerbyStars_HQ',
     initTime: { [ChainId.MATIC]: 1701892800 },
@@ -11845,7 +11409,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://derbystars.com/#section1',
     twitter: 'https://twitter.com/DerbyStars_HQ',
     initTime: { [ChainId.MATIC]: 1701892800 },
@@ -11874,7 +11437,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://www.nasdex.xyz/',
     twitter: 'https://twitter.com/nasdex_xyz',
     audit: 'https://hacken.io/audits/nasdex',
@@ -11904,7 +11466,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://genso.game/en/',
     twitter: 'https://twitter.com/genso_meta',
     audit: 'https://skynet.certik.com/projects/gensokishi-online-metaworld',
@@ -11935,7 +11496,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://planetix.com/',
     twitter: 'https://twitter.com/Planetix0',
     initTime: { [ChainId.MATIC]: 1721207158 },
@@ -11964,7 +11524,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://planetix.com/',
     twitter: 'https://twitter.com/Planetix0',
     initTime: { [ChainId.MATIC]: 1721207158 },
@@ -11993,7 +11552,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://thx.network/',
     twitter: 'https://twitter.com/thxprotocol',
     audit: 'https://docs.thx.network/developers/audits',
@@ -12024,7 +11582,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://www.carbify.io/',
     twitter: 'https://twitter.com/Carbify_io',
     audit:
@@ -12056,7 +11613,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://planetix.com/',
     twitter: 'https://twitter.com/Planetix0',
     initTime: { [ChainId.MATIC]: 1701892800 },
@@ -12085,7 +11641,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://planetix.com/',
     twitter: 'https://twitter.com/Planetix0',
     initTime: { [ChainId.MATIC]: 1701892800 },
@@ -12114,7 +11669,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://uniswap.a51.finance/stats',
     twitter: 'https://twitter.com/A51_Fi',
     audit: 'https://hacken.io/audits/unipilot/',
@@ -12145,7 +11699,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
@@ -12183,7 +11736,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://sheertopia.io/',
     twitter: 'https://x.com/sheertopia',
     audit: 'https://github.com/solidproof/projects/tree/main/2024/Sheertopia',
@@ -12213,7 +11765,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://www.forestknight.io/',
     twitter: 'https://twitter.com/ForestKnight_io',
     initTime: { [ChainId.MATIC]: 1701892800 },
@@ -12242,7 +11793,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://www.anotemusic.com/',
     twitter: 'https://twitter.com/anotemusic',
     initTime: { [ChainId.MATIC]: 1701892800 },
@@ -12272,7 +11822,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://ethernity.cloud/',
     twitter: 'https://twitter.com/Ethernity_cloud',
     initTime: { [ChainId.MATIC]: 1701892800 },
@@ -12302,7 +11851,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://www.nasdex.xyz/deals',
     twitter: 'https://twitter.com/nasdex_xyz',
     audit: 'https://hacken.io/audits/nasdex',
@@ -12332,7 +11880,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://planetix.com/',
     twitter: 'https://twitter.com/Planetix0',
     initTime: { [ChainId.MATIC]: 1701892800 },
@@ -12361,7 +11908,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://www.africarare.io/',
     twitter: 'https://twitter.com/AfricarareNft',
     audit: 'https://www.cyberscope.io/audits/coin-africarare-ubuntu',
@@ -12392,7 +11938,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://uniswap.a51.finance/stats',
     twitter: 'https://twitter.com/A51_Fi',
     audit: 'https://hacken.io/audits/unipilot/',
@@ -12423,7 +11968,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://planetix.com/',
     twitter: 'https://twitter.com/Planetix0',
     initTime: { [ChainId.MATIC]: 1701892800 },
@@ -12451,7 +11995,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://bullieverse.com/',
     twitter: 'https://twitter.com/Bullieverse',
     initTime: { [ChainId.MATIC]: 1701892800 },
@@ -12479,7 +12022,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://genso.game/en/',
     twitter: 'https://twitter.com/genso_meta',
     audit: 'https://skynet.certik.com/projects/gensokishi-online-metaworld',
@@ -12509,7 +12051,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://thx.network/',
     twitter: 'https://twitter.com/thxprotocol',
     audit: 'https://docs.thx.network/developers/audits',
@@ -12538,7 +12079,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://nftbooks.info/',
     twitter: 'https://twitter.com/nftbstoken',
     audit: 'https://skynet.certik.com/projects/nftbooks?utm_source=CMC&utm_campaign=AuditByCertiKLink',
@@ -12567,7 +12107,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apeswap/',
@@ -12604,7 +12143,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://www.veloce.gg/',
     twitter: 'https://twitter.com/vextoken',
     initTime: { [ChainId.MATIC]: 1701892800 },
@@ -12632,7 +12170,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://uniswap.a51.finance/stats',
     twitter: 'https://twitter.com/A51_Fi',
     audit: 'https://hacken.io/audits/unipilot/',
@@ -12663,7 +12200,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://planetix.com/',
     twitter: 'https://twitter.com/Planetix0',
     initTime: { [ChainId.MATIC]: 1701892800 },
@@ -12692,7 +12228,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://planetix.com/',
     twitter: 'https://twitter.com/Planetix0',
     initTime: { [ChainId.MATIC]: 1701892800 },
@@ -12721,7 +12256,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://genso.game/en/',
     twitter: 'https://twitter.com/genso_meta',
     audit: 'https://skynet.certik.com/projects/gensokishi-online-metaworld',
@@ -12751,7 +12285,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://bullieverse.com/',
     twitter: 'https://twitter.com/Bullieverse',
     initTime: { [ChainId.MATIC]: 1701892800 },
@@ -12778,7 +12311,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://3adao.org/',
     twitter: 'https://twitter.com/3aaaDAO',
     initTime: { [ChainId.MATIC]: 1701892800 },
@@ -12805,7 +12337,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://wefi.xyz/',
     twitter: 'https://twitter.com/wefi_xyz',
     audit: 'https://github.com/peckshield/publications/blob/master/audit_reports/PeckShield-Audit-Report-Paxo-v1.0.pdf',
@@ -12834,7 +12365,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://planetix.com/',
     twitter: 'https://twitter.com/Planetix0',
     initTime: { [ChainId.MATIC]: 1701892800 },
@@ -12863,7 +12393,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://uniswap.a51.finance/stats',
     twitter: 'https://twitter.com/A51_Fi',
     audit: 'https://hacken.io/audits/unipilot/',
@@ -12892,7 +12421,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://metatrace.me/',
     twitter: 'https://twitter.com/trace_meta',
     initTime: { [ChainId.MATIC]: 1701892800 },
@@ -12920,7 +12448,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://planetix.com/',
     twitter: 'https://twitter.com/Planetix0',
     initTime: { [ChainId.MATIC]: 1701892800 },
@@ -12949,7 +12476,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://planetix.com/',
     twitter: 'https://twitter.com/Planetix0',
     initTime: { [ChainId.MATIC]: 1701892800 },
@@ -12977,7 +12503,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://firebot.gg/',
     twitter: 'https://twitter.com/FireBotDAO',
     initTime: { [ChainId.MATIC]: 1701892800 },
@@ -13004,7 +12529,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://www.orbs.com/overview/',
     twitter: 'https://twitter.com/orbs_network',
     audit: 'https://github.com/orbs-network/orbs-token/blob/master/SmartDec%20OrbsToken%20Security%20Audit.pdf',
@@ -13032,7 +12556,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://www.veloce.gg/',
     twitter: 'https://twitter.com/vextoken',
     initTime: { [ChainId.MATIC]: 1701892800 },
@@ -13059,7 +12582,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://www.yellow.org/duckies',
     twitter: 'https://twitter.com/Yellow',
     initTime: { [ChainId.MATIC]: 1701892800 },
@@ -13086,7 +12608,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://bitcone.lol/',
     twitter: 'https://twitter.com/BitCone_CONE',
     initTime: { [ChainId.MATIC]: 1701892800 },
@@ -13114,7 +12635,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://www.forestknight.io/',
     twitter: 'https://twitter.com/ForestKnight_io',
     initTime: { [ChainId.MATIC]: 1701892800 },
@@ -13143,7 +12663,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://www.borderless.money/',
     twitter: 'https://twitter.com/Borderless_ReFi',
     audit: 'https://www.borderless.money/bom_secaudit_blockapex.pdf',
@@ -13171,7 +12690,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://blockwallet.io/',
     twitter: 'https://twitter.com/GetBlockWallet',
     initTime: { [ChainId.MATIC]: 1701892800 },
@@ -13198,7 +12716,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://dogelonmars.com/',
     twitter: 'https://twitter.com/dogelonmars',
     initTime: { [ChainId.MATIC]: 1701892800 },
@@ -13223,7 +12740,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x0f59f11AA94e19b796e8a834A89a66F328155181',
     },
-    inactive: false,
     projectLink: 'https://genso.game/en/',
     twitter: 'https://twitter.com/genso_meta',
     audit: 'https://skynet.certik.com/projects/gensokishi-online-metaworld',
@@ -13253,7 +12769,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
     },
-    inactive: false,
     projectLink: 'https://www.wombat.app/',
     twitter: 'https://twitter.com/adoptwombat',
     audit: 'https://hacken.io/wp-content/uploads/2022/07/Wombat_20072022_SCAudit_Report_2.pdf',
@@ -13274,7 +12789,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
     },
-    inactive: false,
     projectLink: 'https://chainguardians.io/',
     twitter: 'https://twitter.com/chain_guardians',
     audit: 'https://www.certik.com/projects/chainguardians?utm_source=CMC&utm_campaign=AuditByCertiKLink',
@@ -13296,7 +12810,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
     },
-    inactive: false,
     projectLink: 'https://www.kommunitas.net/',
     twitter: 'https://twitter.com/Kommunitas1',
     audit: 'https://docs.kommunitas.net/audit/shellboxes/security-audit-by-shellboxes',
@@ -13317,7 +12830,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
     },
-    inactive: false,
     projectLink: 'https://www.dogira.net/',
     twitter: 'https://twitter.com/DogiraOfficial',
     audit: 'https://www.certik.com/address/0x47c5aa82fda7a79c7965beb6d7c6a265fe59921b',
@@ -13338,7 +12850,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
     },
-    inactive: false,
     projectLink: 'https://www.leaptoken.io/',
     twitter: 'https://twitter.com/Play_Leap',
     audit: 'https://github.com/HashEx/public_audits/blob/master/PlayLeap/PlayLeap.pdf',
@@ -13359,7 +12870,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
     },
-    inactive: false,
     projectLink: 'https://chainguardians.io/',
     twitter: 'https://twitter.com/chain_guardians',
     audit: 'https://www.certik.com/projects/chainguardians?utm_source=CMC&utm_campaign=AuditByCertiKLink',
@@ -13381,7 +12891,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0xa35c3fcd306cf69fed19e8c7b15c8b3904ea609d',
     },
-    inactive: false,
     projectLink: 'https://axion.network/',
     twitter: 'https://twitter.com/axion_network',
     initTime: { [ChainId.MATIC]: 1669973048 },
@@ -13401,7 +12910,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0xa35c3fcd306cf69fed19e8c7b15c8b3904ea609d',
     },
-    inactive: false,
     projectLink: 'https://www.dogira.net/',
     twitter: 'https://twitter.com/DogiraOfficial',
     soldOut: true,
@@ -13420,7 +12928,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0xa35c3fcd306cf69fed19e8c7b15c8b3904ea609d',
     },
-    inactive: false,
     projectLink: 'https://www.tokentraxx.com/',
     twitter: 'https://twitter.com/TokenTraxx',
     initTime: { [ChainId.MATIC]: 1663846458 },
@@ -13440,7 +12947,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.MATIC]: '0xa35c3fcd306cf69fed19e8c7b15c8b3904ea609d',
     },
-    inactive: false,
     projectLink: 'https://www.dogira.net/',
     twitter: 'https://twitter.com/DogiraOfficial',
     initTime: { [ChainId.MATIC]: 1664969658 },
@@ -13464,7 +12970,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.TLOS]: '0x29DD194bDc735A87637f2736A90AA585B74F5FD4',
     },
-    inactive: false,
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
     initTime: { [ChainId.TLOS]: 1676929798 },
@@ -13484,7 +12989,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.TLOS]: '0x29DD194bDc735A87637f2736A90AA585B74F5FD4',
     },
-    inactive: false,
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
     initTime: { [ChainId.TLOS]: 1676929798 },
@@ -13504,7 +13008,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.TLOS]: '0x29DD194bDc735A87637f2736A90AA585B74F5FD4',
     },
-    inactive: false,
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
     initTime: { [ChainId.TLOS]: 1676929798 },
@@ -13524,7 +13027,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.TLOS]: '0x29DD194bDc735A87637f2736A90AA585B74F5FD4',
     },
-    inactive: false,
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
     initTime: { [ChainId.TLOS]: 1676929798 },
@@ -13544,7 +13046,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.TLOS]: '0x29DD194bDc735A87637f2736A90AA585B74F5FD4',
     },
-    inactive: true,
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
     initTime: { [ChainId.TLOS]: 1676929798 },
@@ -13564,7 +13065,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.TLOS]: '0x9084C442286E23617694101d5575bEA48C2cf621',
     },
-    inactive: true,
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
     initTime: { [ChainId.TLOS]: 1668849848 },
@@ -13584,7 +13084,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.TLOS]: '0x9084C442286E23617694101d5575bEA48C2cf621',
     },
-    inactive: true,
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
     initTime: { [ChainId.TLOS]: 1668849848 },
@@ -13604,7 +13103,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.TLOS]: '0x9084C442286E23617694101d5575bEA48C2cf621',
     },
-    inactive: true,
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
     initTime: { [ChainId.TLOS]: 1668849848 },
@@ -13624,7 +13122,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.TLOS]: '0x9084C442286E23617694101d5575bEA48C2cf621',
     },
-    inactive: true,
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
     initTime: { [ChainId.TLOS]: 1668849848 },
@@ -13644,7 +13141,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.TLOS]: '0x9084C442286E23617694101d5575bEA48C2cf621',
     },
-    inactive: true,
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
     initTime: { [ChainId.TLOS]: 1668849848 },
@@ -13664,7 +13160,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.TLOS]: '0x9084C442286E23617694101d5575bEA48C2cf621',
     },
-    inactive: true,
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
     soldOut: true,
@@ -13683,7 +13178,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.TLOS]: '0x9084C442286E23617694101d5575bEA48C2cf621',
     },
-    inactive: true,
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
     soldOut: true,
@@ -13702,7 +13196,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.TLOS]: '0x9084C442286E23617694101d5575bEA48C2cf621',
     },
-    inactive: true,
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
     soldOut: true,
@@ -13721,7 +13214,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.TLOS]: '0x9084C442286E23617694101d5575bEA48C2cf621',
     },
-    inactive: true,
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
     soldOut: true,
@@ -13740,7 +13232,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.TLOS]: '0x9084C442286E23617694101d5575bEA48C2cf621',
     },
-    inactive: true,
     projectLink: 'https://www.telos.net/',
     twitter: 'https://twitter.com/HelloTelos',
     soldOut: true,
@@ -13763,7 +13254,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
     },
-    inactive: false,
     projectLink: 'https://www.kima.network/',
     twitter: 'https://x.com/kimanetwork',
     initTime: { [ChainId.ARBITRUM]: 1750755792 },
@@ -13790,7 +13280,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
     },
-    inactive: false,
     projectLink: 'https://www.kima.network/',
     twitter: 'https://x.com/kimanetwork',
     initTime: { [ChainId.ARBITRUM]: 1746722485 },
@@ -13817,7 +13306,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
     },
-    inactive: false,
     projectLink: 'https://crosscurve.fi/',
     twitter: 'https://x.com/eywaprotocol',
     initTime: { [ChainId.ARBITRUM]: 1743163820 },
@@ -13845,7 +13333,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
     },
-    inactive: false,
     projectLink: 'https://crosscurve.fi/',
     twitter: 'https://x.com/eywaprotocol',
     initTime: { [ChainId.ARBITRUM]: 1742922000 },
@@ -13873,7 +13360,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
     },
-    inactive: false,
     projectLink: 'https://crosscurve.fi/',
     twitter: 'https://x.com/eywaprotocol',
     initTime: { [ChainId.ARBITRUM]: 1742251530 },
@@ -13900,7 +13386,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
     },
-    inactive: false,
     projectLink: 'https://crosscurve.fi/',
     twitter: 'https://x.com/eywaprotocol',
     initTime: { [ChainId.ARBITRUM]: 1741629817 },
@@ -13927,7 +13412,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
     },
-    inactive: false,
     projectLink: 'https://crosscurve.fi/',
     twitter: 'https://x.com/eywaprotocol',
     initTime: { [ChainId.ARBITRUM]: 1741021108 },
@@ -13954,7 +13438,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
     },
-    inactive: false,
     projectLink: 'https://crosscurve.fi/',
     twitter: 'https://x.com/eywaprotocol',
     initTime: { [ChainId.ARBITRUM]: 1740392447 },
@@ -13981,7 +13464,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
     },
-    inactive: false,
     projectLink: 'https://crosscurve.fi/',
     twitter: 'https://x.com/eywaprotocol',
     initTime: { [ChainId.ARBITRUM]: 1739629978 },
@@ -14008,7 +13490,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
     },
-    inactive: false,
     projectLink: 'https://crosscurve.fi/',
     twitter: 'https://x.com/eywaprotocol',
     initTime: { [ChainId.ARBITRUM]: 1738921886 },
@@ -14035,7 +13516,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
     },
-    inactive: false,
     projectLink: 'https://crosscurve.fi/',
     twitter: 'https://x.com/eywaprotocol',
     initTime: { [ChainId.ARBITRUM]: 1738606711 },
@@ -14062,7 +13542,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
     },
-    inactive: false,
     projectLink: 'https://credbull.io/',
     twitter: 'https://x.com/credbullDeFi',
     audit: 'https://www.cyberscope.io/audits/coin-credbull',
@@ -14094,7 +13573,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
     },
-    inactive: false,
     projectLink: 'https://crosscurve.fi/',
     twitter: 'https://x.com/eywaprotocol',
     initTime: { [ChainId.ARBITRUM]: 1737722341 },
@@ -14121,7 +13599,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     billNnftAddress: {
       [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
     },
-    inactive: false,
     projectLink: 'https://credbull.io/',
     twitter: 'https://x.com/credbullDeFi',
     audit: 'https://www.cyberscope.io/audits/coin-credbull',
@@ -14154,7 +13631,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
     },
-    inactive: false,
     projectLink: 'https://crosscurve.fi/',
     twitter: 'https://x.com/eywaprotocol',
     initTime: { [ChainId.ARBITRUM]: 1737473352 },
@@ -14181,7 +13657,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
     },
-    inactive: false,
     projectLink: 'https://crosscurve.fi/',
     twitter: 'https://x.com/eywaprotocol',
     initTime: { [ChainId.ARBITRUM]: 1737390900 },
@@ -14208,7 +13683,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
     },
-    inactive: false,
     projectLink: 'https://crosscurve.fi/',
     twitter: 'https://x.com/eywaprotocol',
     initTime: { [ChainId.ARBITRUM]: 1737042767 },
@@ -14235,7 +13709,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
     },
-    inactive: false,
     projectLink: 'https://crosscurve.fi/',
     twitter: 'https://x.com/eywaprotocol',
     initTime: { [ChainId.ARBITRUM]: 1737042767 },
@@ -14262,7 +13735,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
     },
-    inactive: false,
     projectLink: 'https://crosscurve.fi/',
     twitter: 'https://x.com/eywaprotocol',
     initTime: { [ChainId.ARBITRUM]: 1736872010 },
@@ -14289,7 +13761,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
     },
-    inactive: false,
     projectLink: 'https://crosscurve.fi/',
     twitter: 'https://x.com/eywaprotocol',
     initTime: { [ChainId.ARBITRUM]: 1736265725 },
@@ -14315,7 +13786,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
     },
-    inactive: false,
     projectLink: 'https://hats.finance/',
     twitter: 'https://x.com/HatsFinance',
     initTime: { [ChainId.ARBITRUM]: 1728578576 },
@@ -14341,7 +13811,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
     },
-    inactive: false,
     projectLink: 'https://x.com/Bonsai_DAO',
     twitter: 'https://www.bonsaidao.xyz/',
     initTime: { [ChainId.ARBITRUM]: 1723814011 },
@@ -14368,7 +13837,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
     },
-    inactive: false,
     projectLink: 'https://smardex.io/home',
     twitter: 'https://x.com/SmarDex',
     initTime: { [ChainId.ARBITRUM]: 1723548893 },
@@ -14394,7 +13862,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
     },
-    inactive: false,
     projectLink: 'https://ledgity.finance/',
     twitter: 'https://twitter.com/LedgityYield',
     initTime: { [ChainId.ARBITRUM]: 1723548893 },
@@ -14421,7 +13888,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
     },
-    inactive: false,
     projectLink: 'https://enotoken.io/',
     twitter: 'https://x.com/ENOnetwork',
     audit: 'https://auditrate.tech/images/pdf/EnoToken_0x1C3d163219Bb74f430411b95D66b72056f366eC1.pdf',
@@ -14449,7 +13915,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
     },
-    inactive: false,
     projectLink: 'https://codyfight.com/',
     twitter: 'https://twitter.com/codyfight',
     initTime: { [ChainId.ARBITRUM]: 1715789961 },
@@ -14476,7 +13941,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
     },
-    inactive: false,
     projectLink: 'https://codyfight.com/',
     twitter: 'https://twitter.com/codyfight',
     initTime: { [ChainId.ARBITRUM]: 1715789961 },
@@ -14502,7 +13966,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
     },
-    inactive: false,
     projectLink: 'https://openworld.vision/',
     twitter: 'https://twitter.com/OpenWorldFi',
     audit: 'https://wiki.openworld.vision/audit',
@@ -14526,7 +13989,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
     },
-    inactive: false,
     projectLink: 'https://www.cruize.finance/',
     twitter: 'https://twitter.com/CruizeFinance',
     audit: 'https://docs.cruize.finance/technical-details/audits',
@@ -14547,7 +14009,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
     },
-    inactive: false,
     projectLink: 'https://openworld.vision/',
     twitter: 'https://twitter.com/OpenWorldVision',
     audit: 'https://wiki.openworld.vision/audit',
@@ -14568,7 +14029,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
     },
-    inactive: false,
     projectLink: 'https://www.onyxdao.finance/',
     twitter: 'https://twitter.com/OnyxDAO',
     audit: 'https://hashex.org/audits/onyx-dao/',
@@ -14593,7 +14053,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://www.cogitoprotocol.com/',
     twitter: 'https://twitter.com/CogitoFi',
     audit: 'https://wp.hacken.io/wp-content/uploads/2023/05/Cogito_SC-Audit-Report_11_05_2023_SA-1337-1.pdf',
@@ -14621,7 +14080,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://planetix.com/',
     twitter: 'https://twitter.com/Planetix0',
     initTime: { [ChainId.MAINNET]: 1710427059 },
@@ -14649,7 +14107,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://forwardprotocol.io/',
     twitter: 'https://twitter.com/forwardprotocol',
     audit: 'https://www.cyberscope.io/audits/coin-forward-protocol',
@@ -14678,7 +14135,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://gptprotocol.org/',
     twitter: 'https://twitter.com/gpt_protocol',
     initTime: { [ChainId.MAINNET]: 1710255600 },
@@ -14704,7 +14160,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://cirusfoundation.com/',
     twitter: 'https://twitter.com/cirusfoundation',
     audit: 'https://hacken.io/audits/cirus/',
@@ -14732,7 +14187,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://eth.monsta.finance/',
     twitter: 'https://twitter.com/Monsta_ETH',
     initTime: { [ChainId.MAINNET]: 1710255600 },
@@ -14760,7 +14214,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://www.strike.org/',
     twitter: 'https://twitter.com/StrikeFinance',
     initTime: { [ChainId.MAINNET]: 1710255600 },
@@ -14786,7 +14239,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://gpt-plus.io/',
     twitter: 'https://twitter.com/GPTPlusAI',
     initTime: { [ChainId.MAINNET]: 1710255600 },
@@ -14812,7 +14264,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://chirpley.ai/',
     twitter: 'https://twitter.com/chirpley',
     initTime: { [ChainId.MAINNET]: 1710255600 },
@@ -14839,7 +14290,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
@@ -14877,7 +14327,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://puml.io/',
     twitter: 'https://twitter.com/pumlhealthio',
     audit:
@@ -14907,7 +14356,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
@@ -14944,7 +14392,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://www.orbs.com/overview/',
     twitter: 'https://twitter.com/orbs_network',
     audit: 'https://github.com/orbs-network/orbs-token/blob/master/SmartDec%20OrbsToken%20Security%20Audit.pdf',
@@ -14972,7 +14419,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://www.metahorseunity.io/',
     twitter: 'https://twitter.com/metahorseunity',
     audit: 'https://skynet.certik.com/projects/metahorse-unity',
@@ -15002,7 +14448,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
@@ -15040,7 +14485,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'http://k9finance.com',
     twitter: 'https://x.com/K9finance',
     audit: 'https://www.cyberscope.io/audits/coin-k9-finance',
@@ -15070,7 +14514,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://www.alvaraprotocol.io',
     twitter: 'https://twitter.com/AlvaraProtocol',
     audit: 'https://www.quillaudits.com/leaderboard/alvaraavax-token',
@@ -15100,7 +14543,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://gptprotocol.org/',
     twitter: 'https://twitter.com/gpt_protocol',
     initTime: { [ChainId.MAINNET]: 1722265086 },
@@ -15129,7 +14571,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://gptprotocol.org/',
     twitter: 'https://twitter.com/gpt_protocol',
     initTime: { [ChainId.MAINNET]: 1722265086 },
@@ -15158,7 +14599,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://www.alvaraprotocol.io',
     twitter: 'https://twitter.com/AlvaraProtocol',
     audit: 'https://www.quillaudits.com/leaderboard/alvaraavax-token',
@@ -15188,7 +14628,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
@@ -15225,7 +14664,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://www.magnify.cash/',
     twitter: 'https://twitter.com/MagnifyCash',
     initTime: { [ChainId.MAINNET]: 1724691112 },
@@ -15253,7 +14691,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://www.frictionless.network/',
     twitter: 'https://x.com/FrictionlessX',
     initTime: { [ChainId.MAINNET]: 1726567494 },
@@ -15281,7 +14718,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://aethergames.io/',
     twitter: 'https://twitter.com/AetherGamesInc',
     initTime: { [ChainId.MAINNET]: 1726567494 },
@@ -15310,7 +14746,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://gptprotocol.org/',
     twitter: 'https://twitter.com/gpt_protocol',
     initTime: { [ChainId.MAINNET]: 1727152900 },
@@ -15339,7 +14774,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://www.alvaraprotocol.io',
     twitter: 'https://twitter.com/AlvaraProtocol',
     audit: 'https://www.quillaudits.com/leaderboard/alvaraavax-token',
@@ -15369,7 +14803,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://gptprotocol.org/',
     twitter: 'https://twitter.com/gpt_protocol',
     initTime: { [ChainId.MAINNET]: 1730189346 },
@@ -15398,7 +14831,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://gptprotocol.org/',
     twitter: 'https://twitter.com/gpt_protocol',
     initTime: { [ChainId.MAINNET]: 1730189346 },
@@ -15427,7 +14859,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0xeDF145A02763008ef760Cd75143796A40120e792',
     },
-    inactive: false,
     projectLink: 'https://graphlinq.io/',
     twitter: 'https://x.com/graphlinq_proto',
     audit: 'https://www.cyberscope.io/audits/coin-graphlinq-protocol',
@@ -15455,7 +14886,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
@@ -15493,7 +14923,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0xeDF145A02763008ef760Cd75143796A40120e792',
     },
-    inactive: false,
     projectLink: 'https://www.minima.global/',
     twitter: 'https://x.com/Minima_Global',
     initTime: { [ChainId.MAINNET]: 1731492492 },
@@ -15520,7 +14949,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0xeDF145A02763008ef760Cd75143796A40120e792',
     },
-    inactive: false,
     projectLink: 'https://www.zygothefrog.com/',
     twitter: 'https://x.com/ZygoFrog',
     initTime: { [ChainId.MAINNET]: 1732618692 },
@@ -15547,7 +14975,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0xE26D0184cF105e18128360E8Ff192667E59475D7',
     },
-    inactive: false,
     projectLink: 'https://landwolf.com/',
     twitter: 'https://x.com/Wolf0x67',
     initTime: { [ChainId.MAINNET]: 1733757492 },
@@ -15574,7 +15001,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://ape.bond/',
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
@@ -15611,7 +15037,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0A7f9979CC315190C09cA2633809B8dF',
     },
-    inactive: false,
     projectLink: 'https://bucksbunny.com/',
     twitter: 'https://x.com/JoinBBClub',
     initTime: { [ChainId.MAINNET]: 1734551887 },
@@ -15638,7 +15063,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0A7f9979CC315190C09cA2633809B8dF',
     },
-    inactive: false,
     projectLink: 'https://www.skillfulai.io/',
     twitter: 'https://x.com/SkillfulAI',
     initTime: { [ChainId.MAINNET]: 1734551887 },
@@ -15665,7 +15089,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://gptprotocol.org/',
     twitter: 'https://twitter.com/gpt_protocol',
     initTime: { [ChainId.MAINNET]: 1734992220 },
@@ -15695,7 +15118,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0A7f9979CC315190C09cA2633809B8dF',
     },
-    inactive: false,
     projectLink: 'https://www.skillfulai.io/',
     twitter: 'https://x.com/SkillfulAI',
     initTime: { [ChainId.MAINNET]: 1734992220 },
@@ -15723,7 +15145,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://www.abdstoken.com/#about',
     twitter: 'https://x.com/ABDSystems',
     audit: 'https://skynet.certik.com/projects/abd-systems',
@@ -15753,7 +15174,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://gptprotocol.org/',
     twitter: 'https://twitter.com/gpt_protocol',
     initTime: { [ChainId.MAINNET]: 1737110333 },
@@ -15782,7 +15202,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://www.muhdohub.xyz/',
     twitter: 'https://x.com/Muhdohealth',
     audit: 'https://audits.hacken.io/muhdo-hub/',
@@ -15811,7 +15230,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://singularitydao.ai/',
     twitter: 'https://x.com/SingularityDao',
     initTime: { [ChainId.MAINNET]: 1740650941 },
@@ -15839,7 +15257,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://singularitydao.ai/',
     twitter: 'https://x.com/SingularityDao',
     initTime: { [ChainId.MAINNET]: 1741637519 },
@@ -15867,7 +15284,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://singularitydao.ai/',
     twitter: 'https://x.com/SingularityDao',
     initTime: { [ChainId.MAINNET]: 1743156644 },
@@ -15895,7 +15311,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://www.abdstoken.com/#about',
     twitter: 'https://x.com/ABDSystems',
     audit: 'https://skynet.certik.com/projects/abd-systems',
@@ -15925,7 +15340,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://mementoblockchain.com/',
     twitter: 'https://x.com/Memento_Bc',
     initTime: { [ChainId.MAINNET]: 1747655984 },
@@ -15954,7 +15368,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://mementoblockchain.com/',
     twitter: 'https://x.com/Memento_Bc',
     initTime: { [ChainId.MAINNET]: 1747655984 },
@@ -15983,7 +15396,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://www.adoprotocol.com/',
     twitter: 'https://x.com/adoprotocol',
     initTime: { [ChainId.MAINNET]: 1752858000 },
@@ -16012,7 +15424,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://forge.polemos.io/home',
     twitter: 'https://x.com/polemos_io',
     initTime: { [ChainId.MAINNET]: 1753379295 },
@@ -16042,7 +15453,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://privix.co/',
     twitter: 'https://x.com/privixtoken',
     initTime: { [ChainId.MAINNET]: 1754043065 },
@@ -16072,7 +15482,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://privix.co/',
     twitter: 'https://x.com/privixtoken',
     initTime: { [ChainId.MAINNET]: 1754043065 },
@@ -16101,7 +15510,6 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0A7f9979CC315190C09cA2633809B8dF',
     },
-    inactive: false,
     projectLink: 'https://litas.io/',
     twitter: 'https://x.com/litas_io',
     initTime: { [ChainId.MAINNET]: 1755253336 },
@@ -16130,11 +15538,11 @@ With the lending products set to go live in February, the project is poised to a
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
     },
-    inactive: false,
     projectLink: 'https://www.pawchain.net/',
     twitter: 'https://x.com/pawchain',
     initTime: { [ChainId.MAINNET]: 1755257871 },
-    soldOut: true,
+    soldOut: false,
+    hide: false,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },

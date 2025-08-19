@@ -394,7 +394,7 @@ export interface PreTGEConfig extends BaseBondConfig {
 // Start of list types
 export interface BillsConfig extends BaseBondConfig {
   cmcId?: number
-  inactive?: boolean
+  hide?: boolean
   initTime?: Partial<Record<ChainId, number>>
   showcaseToken?: Token
   // * These are used for the individual bond page view

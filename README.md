@@ -162,7 +162,7 @@ export interface BillsConfig {
   lpToken: Token
   earnToken: Token
   billNnftAddress: Partial<Record<ChainId, string>>
-  inactive?: boolean
+  hide?: boolean
   projectLink?: string
   twitter?: string
   initTime?: Partial<Record<ChainId, number>>
@@ -248,7 +248,7 @@ billVersion: BillVersion.V3
     billNnftAddress: {
       [ChainId.MATIC]: '0xa1c78af783fb9ea7be790cbbd01abff63beae769',
     },
-    inactive: false,
+    hide: false,
     projectLink: 'https://www.quickswap.app/',
     twitter: 'https://twitter.com/',
     audit: 'Add audit link',
