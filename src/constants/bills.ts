@@ -15542,7 +15542,7 @@ With the lending products set to go live in February, the project is poised to a
     twitter: 'https://x.com/pawchain',
     initTime: { [ChainId.MAINNET]: 1755257871 },
     soldOut: false,
-    hide: true,
+    hide: false,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
