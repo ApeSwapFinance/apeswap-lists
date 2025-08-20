@@ -314,6 +314,11 @@ const dexFactoriesPriceApi: Partial<
       factory: '0x56CFC796bC88C9c7e1b38C2b0aF9B7120B079aef',
       protocol: PriceApiProtocols.UniV3,
     },
+    {
+      name: LiquidityDex.Equalizer,
+      factory: '0xDDD9845Ba0D8f38d3045f804f67A1a8B9A528FcC',
+      protocol: PriceApiProtocols.Solidly,
+    },
   ],
   [ChainId.KATANA]: [
     {
