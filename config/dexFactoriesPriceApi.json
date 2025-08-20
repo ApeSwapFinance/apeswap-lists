@@ -129,6 +129,11 @@
       "name": "Wagmi",
       "factory": "0x56CFC796bC88C9c7e1b38C2b0aF9B7120B079aef",
       "protocol": 1
+    },
+    {
+      "name": "Equalizer",
+      "factory": "0xDDD9845Ba0D8f38d3045f804f67A1a8B9A528FcC",
+      "protocol": 5
     }
   ],
   "614": [],
@@ -311,6 +316,18 @@
       "name": "PancakeSwapV2",
       "factory": "0x02a84c1b3BBD7401a5f7fa98a384EBC70bB5749E",
       "protocol": 0
+    }
+  ],
+  "80094": [
+    {
+      "name": "KodiakV2",
+      "factory": "0x5e705e184d233ff2a7cb1553793464a9d0c3028f",
+      "protocol": 0
+    },
+    {
+      "name": "KodiakV3",
+      "factory": "0xD84CBf0B02636E7f53dB9E5e45A616E05d710990",
+      "protocol": 1
     }
   ],
   "81457": [

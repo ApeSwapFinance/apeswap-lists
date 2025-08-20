@@ -344,6 +344,18 @@ const dexFactoriesPriceApi: Partial<
       protocol: PriceApiProtocols.UniV3,
     },
   ],
+  [ChainId.BERACHAIN]: [
+    {
+      name: LiquidityDex.KodiakV2,
+      factory: '0x5e705e184d233ff2a7cb1553793464a9d0c3028f',
+      protocol: PriceApiProtocols.UniV2,
+    },
+    {
+      name: LiquidityDex.KodiakV3,
+      factory: '0xD84CBf0B02636E7f53dB9E5e45A616E05d710990',
+      protocol: PriceApiProtocols.UniV3,
+    },
+  ],
   //TESTNETS
   [ChainId.BSC_TESTNET]: [
     {
