@@ -15456,7 +15456,7 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://privix.co/',
     twitter: 'https://x.com/privixtoken',
     initTime: { [ChainId.MAINNET]: 1754043065 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
@@ -15485,7 +15485,7 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://privix.co/',
     twitter: 'https://x.com/privixtoken',
     initTime: { [ChainId.MAINNET]: 1754043065 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
