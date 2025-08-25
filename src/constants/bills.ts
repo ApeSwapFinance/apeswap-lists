@@ -3574,7 +3574,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.BSC]: 1755166449 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.HotBondingSummer_Collection1,
     },
@@ -13257,7 +13257,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.kima.network/',
     twitter: 'https://x.com/kimanetwork',
     initTime: { [ChainId.ARBITRUM]: 1750755792 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
