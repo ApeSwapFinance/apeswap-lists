@@ -5,7 +5,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Polygon Largest ID: 187
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2033
-// ETH Largest ID: 3052
+// ETH Largest ID: 3053
 // Linea Largest ID: 6020
 // Base Largest ID: 8057
 // Lightlink Largest ID: 7003
@@ -460,7 +460,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://beratrax.com/',
     twitter: 'https://x.com/beratrax',
     initTime: { [ChainId.BERACHAIN]: 1748420897 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Berachain_Collection1,
     },
@@ -13299,7 +13299,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['DeFi'],
-    hide: true,
+    hide: false,
     shortDescription: `Kima is a Cosmos SDK-based blockchain enabling secure, cross-chain atomic swaps without wrapped tokens or liquidity fragmentation. Using a dual-layer consensus with rotating wardens and TSS in Trusted Execution Environments, it ensures secure transfers and full auditability. $KIMA powers validation, rewards, transactions, and ecosystem growth.`,
     fullDescription: `Kima is a Cosmos SDK-based blockchain that solves cross-chain interoperability without adding liquidity fragmentation by enabling atomic swaps across multiple blockchains—like Ethereum, Polygon, and Solana—without wrapping tokens. It uses a unique committee-based consensus with rotating “wardens” who manage liquidity pools and authorize transfers only after validating source-chain deposits, leveraging Threshold Signature Schemes inside Trusted Execution Environments for added security. Kima operates on a dual-layer model: a permissioned validator layer with trusted entities and a permissionless layer for broader participation. The protocol governs warden selection, platform parameters, and records every swap for full auditability, while also enabling future cross-chain messaging. Kima’s token, $KIMA, underpins security, validator rewards, ecosystem growth, and transaction and liquidity operations, ensuring a decentralized and efficient cross-chain experience.`,
   },
@@ -13326,7 +13326,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['DeFi'],
-    hide: true,
+    hide: false,
     shortDescription: `Kima is a Cosmos SDK-based blockchain enabling secure, cross-chain atomic swaps without wrapped tokens or liquidity fragmentation. Using a dual-layer consensus with rotating wardens and TSS in Trusted Execution Environments, it ensures secure transfers and full auditability. $KIMA powers validation, rewards, transactions, and ecosystem growth.`,
     fullDescription: `Kima is a Cosmos SDK-based blockchain that solves cross-chain interoperability without adding liquidity fragmentation by enabling atomic swaps across multiple blockchains—like Ethereum, Polygon, and Solana—without wrapping tokens. It uses a unique committee-based consensus with rotating “wardens” who manage liquidity pools and authorize transfers only after validating source-chain deposits, leveraging Threshold Signature Schemes inside Trusted Execution Environments for added security. Kima operates on a dual-layer model: a permissioned validator layer with trusted entities and a permissionless layer for broader participation. The protocol governs warden selection, platform parameters, and records every swap for full auditability, while also enabling future cross-chain messaging. Kima’s token, $KIMA, underpins security, validator rewards, ecosystem growth, and transaction and liquidity operations, ensuring a decentralized and efficient cross-chain experience.`,
   },
@@ -15643,6 +15643,34 @@ With the lending products set to go live in February, the project is poised to a
     fullDescription:
       'PAW Chain is the first blockchain built to act as a true unification layer for Web3. Rather than forcing developers and users to operate across fragmented, isolated networks, PAW seamlessly connects 19+ EVM and non-EVM blockchains into a single ecosystem. With one shared liquidity pool and universal smart contract logic, projects can deploy once and instantly reach all connected chains. This eliminates the need for bridges, reduces security risks, and removes liquidity fragmentation. At the heart of this architecture is the PAW token, the utility asset that fuels transactions, secures the network, and unlocks staking rewards, aligning incentives for sustainable growth and long-term value creation. For users, PAW delivers a simplified experience with one-click swaps, seamless staking opportunities, and effortless cross-chain interaction, all without juggling multiple wallets or apps. For developers, it provides faster scaling, lower maintenance costs, and a direct path to global reach.',
     warningCard: `Heads up: The wPAW token has a 1% reflect fee on swaps.`,
+  },
+  {
+    index: 3053,
+    version: '2.1.0',
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0x0f2f047251Aac0Af233dDca7179926866A078d1C',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.eth,
+    earnToken: tokens.rzr,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    projectLink: 'https://rezerve.money/',
+    twitter: 'https://x.com/rezervemoney',
+    initTime: { [ChainId.MAINNET]: 1756283813 },
+    soldOut: false,
+    hide: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    fullDescription:
+      'Rezerve Money is a decentralized reserve currency backed by a diversified basket of assets and governed by a transparent, community-driven token system: RZR, the dynamic currency. Designed to ensure liquidity, efficient asset allocation, and strong treasury safeguards, RZR introduces a novel Harberger Tax model that continuously collects protocol revenue from self-assessed asset values, promoting constant price discovery and discouraging speculative hoarding. Seamless compounding bonds auto-restake yields every epoch, while robust governance allows on-chain control over tax rates, bond terms, and emergency actions. A multi-layer defense system protects protocol solvency, including stake slashing, inverse bonds, and insurance auctions. All RZR tokens are backed by protocol-controlled value (PCV), which underwrites liquidity and funds strategic deployments, ensuring rewards and operations are supported by real capital.',
+    shortDescription:
+      'Rezerve Money is a decentralized, community-governed reserve currency backed by a diversified basket of assets. All RZR tokens are backed by protocol-controlled value (PCV), which underwrites liquidity and funds strategic deployments, ensuring rewards and operations are supported by real capital.',
+    tags: ['DeFi'],
   },
 ]
 
