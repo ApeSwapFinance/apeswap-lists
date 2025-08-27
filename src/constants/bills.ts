@@ -5,7 +5,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Polygon Largest ID: 187
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2033
-// ETH Largest ID: 3052
+// ETH Largest ID: 3053
 // Linea Largest ID: 6020
 // Base Largest ID: 8057
 // Lightlink Largest ID: 7003
