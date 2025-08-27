@@ -17,7 +17,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Crossfi Largest ID: 13000
 // Monad Testnet Largest ID: 14011
 // Sonic Largest ID: 15005
-// Berachain Largest ID: 16004
+// Berachain Largest ID: 16005
 // Katana Largest ID: 17000
 // SOL Largest ID: 18013
 // UNICHAIN Largest ID: 19001
@@ -579,6 +579,33 @@ const bills: BillsConfig[] = [
       'BurrBear is the one-stop stablecoin shop on Berachain, offering capital-efficient DeFi pools for stablecoins and tokenized assets. With Multi Stable Pools, innovative and more efficient `Burr Pools`, and Generalized Pools, it supports both like-priced and non-like-priced trades. Fueled by the BURR token, BurrBear unleashes a new era of capital-efficient trading.',
     fullDescription:
       'BurrBear is the one-stop stablecoin shop for the Berachain ecosystem, offering a novel decentralized exchange purpose-built for capital-efficient trading of stablecoins and tokenized assets. Its platform features Multi Stable Pools for classic USD:USD trades, Burr Pools—20x more capital-efficient than traditional pools—for a wide range of stablecoins backed by currencies, commodities, synthetic assets, or tokenized real-world and hardware assets, and Generalized Pools for broader token swaps. By combining the utility of Uniswap and Curve with a focus on off-chain market-tracking assets, BurrBear enables deep, flexible liquidity for both like-priced and non-like-priced assets. The protocol is powered by the BURR token, with a capped supply of 100 million, positioning BurrBear as a foundational pillar of Berachain DeFi. ',
+  },
+  {
+    index: 16005,
+    version: '2.1.0',
+    chainId: ChainId.BERACHAIN,
+    contractAddress: {
+      [ChainId.BERACHAIN]: '0x390d2F7E4E0Ed4306f05280f6e8Fc5B3586D646e',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.trax,
+    billNnftAddress: {
+      [ChainId.BERACHAIN]: '0x1b7858f745211dBa1387fE30124eBCa2D706D7Dd',
+    },
+    projectLink: 'https://beratrax.com/',
+    twitter: 'https://x.com/beratrax',
+    initTime: { [ChainId.BERACHAIN]: 1756297800 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Berachain_Collection1,
+    },
+    tags: ['Defi Tooling'],
+    shortDescription:
+      'BeraTrax is a mobile-first platform that simplifies earning yield on Berachain through one-click deposits, gasless transactions, and auto-compounding vaults. Users earn BGT or iBGT for ongoing validator rewards. TRAX holders decide which vault gets boosted each week, directing protocol bribes to maximize community-driven rewards.',
+    fullDescription:
+      'BeraTrax is the easiest way to earn yield on Berachain, offering users seamless access to vaults with auto-compounded rewards and integrated participation in Berachain’s Proof of Liquidity system—all through a mobile-friendly experience. Designed for both DeFi newcomers and veteran yield farmers, BeraTrax simplifies the process with one-click deposits, gas-free transactions, and automated yield strategies. Its unique BGT flywheel rewards users with BGT or iBGT, the latter of which continues to generate validator rewards even after emissions end. Protocol fees are used to bribe validators, directing BGT emissions to one vault per week as chosen by TRAX holders.',
   },
   //
   // Sonic
