@@ -355,12 +355,15 @@ const tokens: Record<string, Token> = {
     symbol: 'RZR',
     address: {
       [ChainId.SONIC]: '0xb4444468e444f89e1c2CAc2F1D3ee7e336cBD1f5',
+      [ChainId.MAINNET]: '0xb4444468e444f89e1c2CAc2F1D3ee7e336cBD1f5',
     },
     decimals: {
       [ChainId.SONIC]: 18,
+      [ChainId.MAINNET]: 18,
     },
     liquidityDex: {
       [ChainId.SONIC]: LiquidityDex.External,
+      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
     },
     active: true,
   },
