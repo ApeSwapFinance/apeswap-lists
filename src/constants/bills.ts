@@ -15644,6 +15644,34 @@ With the lending products set to go live in February, the project is poised to a
       'PAW Chain is the first blockchain built to act as a true unification layer for Web3. Rather than forcing developers and users to operate across fragmented, isolated networks, PAW seamlessly connects 19+ EVM and non-EVM blockchains into a single ecosystem. With one shared liquidity pool and universal smart contract logic, projects can deploy once and instantly reach all connected chains. This eliminates the need for bridges, reduces security risks, and removes liquidity fragmentation. At the heart of this architecture is the PAW token, the utility asset that fuels transactions, secures the network, and unlocks staking rewards, aligning incentives for sustainable growth and long-term value creation. For users, PAW delivers a simplified experience with one-click swaps, seamless staking opportunities, and effortless cross-chain interaction, all without juggling multiple wallets or apps. For developers, it provides faster scaling, lower maintenance costs, and a direct path to global reach.',
     warningCard: `Heads up: The wPAW token has a 1% reflect fee on swaps.`,
   },
+  {
+    index: 3053,
+    version: '2.1.0',
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0x0f2f047251Aac0Af233dDca7179926866A078d1C',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.eth,
+    earnToken: tokens.rzr,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    projectLink: 'https://rezerve.money/',
+    twitter: 'https://x.com/rezervemoney',
+    initTime: { [ChainId.MAINNET]: 1756283813 },
+    soldOut: false,
+    hide: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    fullDescription:
+      'Rezerve Money is a decentralized reserve currency backed by a diversified basket of assets and governed by a transparent, community-driven token system: RZR, the dynamic currency. Designed to ensure liquidity, efficient asset allocation, and strong treasury safeguards, RZR introduces a novel Harberger Tax model that continuously collects protocol revenue from self-assessed asset values, promoting constant price discovery and discouraging speculative hoarding. Seamless compounding bonds auto-restake yields every epoch, while robust governance allows on-chain control over tax rates, bond terms, and emergency actions. A multi-layer defense system protects protocol solvency, including stake slashing, inverse bonds, and insurance auctions. All RZR tokens are backed by protocol-controlled value (PCV), which underwrites liquidity and funds strategic deployments, ensuring rewards and operations are supported by real capital.',
+    shortDescription:
+      'Rezerve Money is a decentralized, community-governed reserve currency backed by a diversified basket of assets. All RZR tokens are backed by protocol-controlled value (PCV), which underwrites liquidity and funds strategic deployments, ensuring rewards and operations are supported by real capital.',
+    tags: ['DeFi'],
+  },
 ]
 
 export default bills
