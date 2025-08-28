@@ -1,7 +1,7 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1165
+// BNB Largest ID: 1166
 // Polygon Largest ID: 187
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2033
@@ -3582,6 +3582,35 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1166,
+    version: '2.1.1',
+    cmcId: 25490,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x2f8739324F511aaa7539Ad0d449409B31094254a',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.seed,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://seed.photo/',
+    twitter: 'https://x.com/seedphoto',
+    initTime: { [ChainId.BSC]: 1756378104 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['NFT Marketplace'],
+    shortDescription:
+      'Seed NFT Marketplace is a Web3 platform for photographers, artists, and collectors to mint, verify, and showcase authentic NFTs. Tackling billions in industry losses from unauthorized use, it ensures ownership protection, over 99% revenue retention, and free Web3 migration. At the core of this ecosystem lies the SEED token, driving transactions, rewards, and collaboration across its inclusive marketplace.',
+    fullDescription:
+      'Seed NFT Marketplace is the premier Web3 hub for photographers, artists, and collectors, merging blockchain innovation with authentic creativity. The platform empowers photographers to mint, verify, and showcase their work as NFTs, ensuring collectors obtain genuine, immutable creations. Tackling the $80 billion photography industry’s losses from unauthorized use, Seed.Photo guarantees ownership protection, revenue maximization with over 99% retained by creators, and cost-free migration into Web3 by covering blockchain and gas fees. With global promotion opportunities in iconic locations, AI-powered tools, and features like CashClick, Lens Legacy, and Awards.Photos, Seed redefines transparency, community engagement, and creative empowerment. At the core of this ecosystem lies the SEED token, driving transactions, rewards, and collaboration across its inclusive marketplace.',
+    warningCard: `This token is currently only tradable on <a href="https://www.mexc.com/exchange/PHOTO_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a>.`,
+  },
   {
     index: 1165,
     cmcId: 29157,
