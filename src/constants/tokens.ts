@@ -296,6 +296,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  seed: {
+    symbol: 'SEED',
+    address: {
+      [ChainId.BSC]: '0x6730f7a6bbb7b9c8e60843948f7feb4b6a17b7f7',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.External,
+    },
+    active: true,
+  },
   mon: {
     symbol: 'WMON',
     address: {
