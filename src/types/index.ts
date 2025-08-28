@@ -251,6 +251,7 @@ export enum BillArtCollection {
   GoldenTicket_Collection1 = 'GoldenTicket_Collection1',
   Berachain_Collection1 = 'Berachain_Collection1',
   HotBondingSummer_Collection1 = 'HotBondingSummer_Collection1',
+  Solana_Collection1 = 'Solana_Collection1',
 }
 
 export const defaultBillArtCollection = BillArtCollection.ApeBond_Collection1
