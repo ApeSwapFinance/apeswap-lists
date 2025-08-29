@@ -120,6 +120,29 @@ const preTGEBonds: PreTGEConfig[] = [
     twitter: 'https://x.com/ChimpxAI',
     projectLink: 'https://chimpx.ai/',
   },
+  {
+    version: '2.1.2',
+    index: 6,
+    chainId: ChainId.MATIC,
+    vestingTimeString: '6 Months',
+    tgeString: 'Sep 3rd',
+    shortDescription: `PolyPicks is redefining sports betting by merging AI-powered intelligence, proprietary data analysis, and a staking-based revenue-sharing model into a seamless decentralized experience. Its self-improving AI retrains every 4 hours, ensuring real-time optimization. By staking in the Poly Pool, users earn immediate revenue share while preserving an edge against dilution, an ecosystem built around the $PICKS token.`,
+    tags: ['Gambling'],
+    contractAddress: { [ChainId.MATIC]: '0xd97EfEa05B6a5eB06B21171e643568022F1D5e5f' },
+    billVersion: BillVersion.TieredSale,
+    billType: 'fcfs',
+    lpToken: tokens.usdt,
+    earnToken: tokens.picks,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
+    },
+    soldOut: false,
+    billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+    redeemTime: 1756900800,
+    tgePrice: 0.00095,
+    twitter: 'https://x.com/polypicksai',
+    projectLink: 'https://polypicks.ai/',
+  },
 ]
 
 export default preTGEBonds
