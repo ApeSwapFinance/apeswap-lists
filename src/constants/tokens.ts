@@ -2841,6 +2841,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  picks: {
+    symbol: 'PICKS',
+    address: {
+      [ChainId.MATIC]: '0x52C9CD4bDE1A30bA540A7f764dd36da53Ef307D3',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    // liquidityDex: {
+    //   [ChainId.MATIC]: LiquidityDex.SushiSwapV3,
+    // },
+    active: true,
+  },
   dai: {
     symbol: 'DAI',
     address: {
