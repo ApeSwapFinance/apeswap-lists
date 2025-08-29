@@ -128,7 +128,7 @@ const preTGEBonds: PreTGEConfig[] = [
     tgeString: 'Sep 3rd',
     shortDescription: `PolyPicks is redefining sports betting by merging AI-powered intelligence, proprietary data analysis, and a staking-based revenue-sharing model into a seamless decentralized experience. Its self-improving AI retrains every 4 hours, ensuring real-time optimization. By staking in the Poly Pool, users earn immediate revenue share while preserving an edge against dilution, an ecosystem built around the $PICKS token.`,
     tags: ['Gambling'],
-    contractAddress: { [ChainId.MATIC]: '0xd97EfEa05B6a5eB06B21171e643568022F1D5e5f' },
+    contractAddress: { [ChainId.MATIC]: '0x87B0e59B1924eB77C8C25E7F2820a3d64E621268' },
     billVersion: BillVersion.TieredSale,
     billType: 'fcfs',
     lpToken: tokens.usdt,
