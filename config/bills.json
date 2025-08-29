@@ -44,7 +44,7 @@
     },
     "soldOut": true,
     "billArt": {
-      "collection": "HotBondingSummer_Collection1"
+      "collection": "ApeBond_Collection1"
     },
     "tags": ["DEX"],
     "shortDescription": "Catex is the MetaDEX layer for Uniswap V4, combining automated liquidity, ve(3,3) governance, and strategic incentives to support LPs and hook builders. The ecosystem is powered by four synergistic tokens, with CATX at its core, driving governance and liquidity. The bveCATX token is a non-liquid voter incentive token, redeemable 1:1 for veCATX, allowing holders to earn weekly fees and incentives.",
@@ -96,7 +96,7 @@
     },
     "soldOut": true,
     "billArt": {
-      "collection": "HotBondingSummer_Collection1"
+      "collection": "ApeBond_Collection1"
     },
     "tags": ["DEX"],
     "shortDescription": "Catex is the MetaDEX layer for Uniswap V4, combining automated liquidity, ve(3,3) governance, and strategic incentives to support LPs and hook builders. The ecosystem is powered by four synergistic tokens, with CATX at its core, driving governance and liquidity. The bveCATX token is a non-liquid voter incentive token, redeemable 1:1 for veCATX, allowing holders to earn weekly fees and incentives.",
@@ -148,7 +148,7 @@
     },
     "soldOut": true,
     "billArt": {
-      "collection": "HotBondingSummer_Collection1"
+      "collection": "ApeBond_Collection1"
     },
     "tags": ["DEX"],
     "shortDescription": "Catex is the MetaDEX layer for Uniswap V4, combining automated liquidity, ve(3,3) governance, and strategic incentives to support LPs and hook builders. The ecosystem is powered by four synergistic tokens, with CATX at its core, driving governance and liquidity. The bveCATX token is a non-liquid voter incentive token, redeemable 1:1 for veCATX, allowing holders to earn weekly fees and incentives.",
@@ -195,7 +195,7 @@
     },
     "projectLink": "https://www.hyperonsol.com/",
     "twitter": "https://x.com/hyperonsol",
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "Solana_Collection1"
     },
@@ -486,7 +486,7 @@
     },
     "projectLink": "https://x.com/solana",
     "twitter": "https://solana.com/",
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "Solana_Collection1"
     },
@@ -582,7 +582,7 @@
     },
     "projectLink": "https://home.blockasset.co/",
     "twitter": "https://x.com/blockassetco",
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "Solana_Collection1"
     },
@@ -630,7 +630,7 @@
     },
     "projectLink": "https://aitech.io/",
     "twitter": "https://x.com/AITECHio",
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "Solana_Collection1"
     },
@@ -2656,7 +2656,7 @@
     },
     "soldOut": false,
     "billArt": {
-      "collection": "HotBondingSummer_Collection1"
+      "collection": "ApeBond_Collection1"
     },
     "tags": ["AI"],
     "shortDescription": "Alpaca Network is the first decentralized exchange for open-source AI models. Users can tokenize, trade, and co-own AI models, earning revenue when those models are used. The $PACA token powers the ecosystem, enabling governance, access to IMOs, and a share of rewards from every new MODEL launch.",
@@ -2708,7 +2708,7 @@
     },
     "soldOut": true,
     "billArt": {
-      "collection": "HotBondingSummer_Collection1"
+      "collection": "ApeBond_Collection1"
     },
     "tags": ["DEX"],
     "shortDescription": "Symmio is a trustless on-chain clearing house powering permissionless derivatives through “Asset Abstraction.” Its DaaS model lets developers launch platforms easily, while partners handle backend operations. Exchanges using Symmio already generate revenue across chains. Governance is led by the Symmio DAO, with decisions driven by $SYMM token holders.",
@@ -2761,7 +2761,7 @@
     },
     "soldOut": true,
     "billArt": {
-      "collection": "HotBondingSummer_Collection1"
+      "collection": "ApeBond_Collection1"
     },
     "tags": ["DEX"],
     "shortDescription": "SmarDex is revolutionizing DeFi with innovative projects, all tied to the SDEX token to enhance its utility and value. With no tokens reserved for founders or private investors, SDEX boasts a fair launch and zero future unlock pressure. A buyback and burn mechanism through the USDN protocol further supports SDEX’s price by steadily reducing its circulating supply.",
@@ -5926,7 +5926,7 @@
     },
     "soldOut": false,
     "billArt": {
-      "collection": "HotBondingSummer_Collection1"
+      "collection": "ApeBond_Collection1"
     },
     "tags": ["Meme", "Community"],
     "shortDescription": "Linus is a fun and one of the first memecoins on Linea, launched even before FOXY or CROAK! It became the top farm on Lynex and is loved by the Linea community. With 25% of its supply permanently burnt and 690,420 $LINUS distributed to top meme and art creators, it quickly became a cultural pillar in the ecosystem. Hold $LINUS and join the ride with Pengmilio and the crew!",
@@ -5978,7 +5978,7 @@
     },
     "soldOut": true,
     "billArt": {
-      "collection": "HotBondingSummer_Collection1"
+      "collection": "ApeBond_Collection1"
     },
     "tags": ["Meme", "Community"],
     "shortDescription": "HOTDOG, the sauciest meme on Linea, brings a fiery mix of memes, madness, and mouthwatering fun. More than just a token, it’s a cultural sensation powered by 69% memes, 31% hotdogs, and an unstoppable community. With a fresh website, expanding partnerships, and growing momentum, HOTDOG is ready to take a bite out of the market, this is the hottest dog on the blockchain!",
@@ -6030,7 +6030,7 @@
     },
     "soldOut": false,
     "billArt": {
-      "collection": "HotBondingSummer_Collection1"
+      "collection": "ApeBond_Collection1"
     },
     "tags": ["Meme", "Community"],
     "shortDescription": "Bank of Linea is the first reflection token on Linea, offering ETH rewards to holders through strategic tokenomics. By taxing transactions, it funds growth, liquidity, and marketing while rewarding the community. With a focus on sustainability, long-term value, and supporting Linea and Consensys projects, holding $BOL means earning passive ETH income.",
@@ -7182,7 +7182,7 @@
     },
     "soldOut": true,
     "billArt": {
-      "collection": "HotBondingSummer_Collection1"
+      "collection": "ApeBond_Collection1"
     },
     "shortDescription": "Step into the full ApeBond experience with $ABOND, more than just a token, it’s the gateway to real yield and premium perks. Lock $ABOND to access better Bond discounts, share in protocol revenue paid in $BNB, unlock exclusive tier-gated deals, and other benefits. With flexible lock options and Ape Tiers, it’s built for long-term believers.",
     "fullDescription": "ABOND isn’t just a token it’s your key to the full ApeBond experience. As the foundation of the ApeBond ecosystem, $ABOND unlocks real yield, exclusive access, and deeper rewards for those who believe in the protocol long-term. By locking $ABOND, users climb Ape Tiers, unlocking extra discounts on Bonds across all chains and partners, earning real revenue share in $BNB from platform fees, and gaining access to premium, tier-gated bond opportunities with stronger returns. Holders also enjoy priority for campaign bonuses and airdrops. With flexible locking options and transparent, on-chain mechanics, $ABOND aligns user incentives with protocol growth — making it more than a token. It’s a commitment to building and benefiting together.",
@@ -7295,7 +7295,7 @@
     },
     "soldOut": true,
     "billArt": {
-      "collection": "HotBondingSummer_Collection1"
+      "collection": "ApeBond_Collection1"
     },
     "shortDescription": "Step into the full ApeBond experience with $ABOND, more than just a token, it’s the gateway to real yield and premium perks. Lock $ABOND to access better Bond discounts, share in protocol revenue paid in $BNB, unlock exclusive tier-gated deals, and other benefits. With flexible lock options and Ape Tiers, it’s built for long-term believers.",
     "fullDescription": "ABOND isn’t just a token it’s your key to the full ApeBond experience. As the foundation of the ApeBond ecosystem, $ABOND unlocks real yield, exclusive access, and deeper rewards for those who believe in the protocol long-term. By locking $ABOND, users climb Ape Tiers, unlocking extra discounts on Bonds across all chains and partners, earning real revenue share in $BNB from platform fees, and gaining access to premium, tier-gated bond opportunities with stronger returns. Holders also enjoy priority for campaign bonuses and airdrops. With flexible locking options and transparent, on-chain mechanics, $ABOND aligns user incentives with protocol growth — making it more than a token. It’s a commitment to building and benefiting together.",
@@ -7357,7 +7357,7 @@
     },
     "soldOut": true,
     "billArt": {
-      "collection": "HotBondingSummer_Collection1"
+      "collection": "ApeBond_Collection1"
     },
     "shortDescription": "Step into the full ApeBond experience with $ABOND, more than just a token, it’s the gateway to real yield and premium perks. Lock $ABOND to access better Bond discounts, share in protocol revenue paid in $BNB, unlock exclusive tier-gated deals, and other benefits. With flexible lock options and Ape Tiers, it’s built for long-term believers.",
     "fullDescription": "ABOND isn’t just a token it’s your key to the full ApeBond experience. As the foundation of the ApeBond ecosystem, $ABOND unlocks real yield, exclusive access, and deeper rewards for those who believe in the protocol long-term. By locking $ABOND, users climb Ape Tiers, unlocking extra discounts on Bonds across all chains and partners, earning real revenue share in $BNB from platform fees, and gaining access to premium, tier-gated bond opportunities with stronger returns. Holders also enjoy priority for campaign bonuses and airdrops. With flexible locking options and transparent, on-chain mechanics, $ABOND aligns user incentives with protocol growth — making it more than a token. It’s a commitment to building and benefiting together.",
@@ -7419,7 +7419,7 @@
     },
     "soldOut": true,
     "billArt": {
-      "collection": "HotBondingSummer_Collection1"
+      "collection": "ApeBond_Collection1"
     },
     "shortDescription": "Step into the full ApeBond experience with $ABOND, more than just a token, it’s the gateway to real yield and premium perks. Lock $ABOND to access better Bond discounts, share in protocol revenue paid in $BNB, unlock exclusive tier-gated deals, and other benefits. With flexible lock options and Ape Tiers, it’s built for long-term believers.",
     "fullDescription": "ABOND isn’t just a token it’s your key to the full ApeBond experience. As the foundation of the ApeBond ecosystem, $ABOND unlocks real yield, exclusive access, and deeper rewards for those who believe in the protocol long-term. By locking $ABOND, users climb Ape Tiers, unlocking extra discounts on Bonds across all chains and partners, earning real revenue share in $BNB from platform fees, and gaining access to premium, tier-gated bond opportunities with stronger returns. Holders also enjoy priority for campaign bonuses and airdrops. With flexible locking options and transparent, on-chain mechanics, $ABOND aligns user incentives with protocol growth — making it more than a token. It’s a commitment to building and benefiting together.",
@@ -7537,7 +7537,7 @@
     },
     "soldOut": false,
     "billArt": {
-      "collection": "HotBondingSummer_Collection1"
+      "collection": "ApeBond_Collection1"
     },
     "shortDescription": "dEmpire of Vampire by Vameon is a 3D mobile Action-RPG/PvP game on BNB Chain, offering instant onboarding and true asset ownership through NFT characters. Players earn rewards, skins, and crypto while progressing, with a non-custodial wallet created instantly. At the center of its Play-to-Earn ecosystem is the VON token, unlocking in-game utility and real value for gamers.",
     "fullDescription": "dEmpire of Vampire by Vameon is a cutting-edge 3D mobile game built on the BNB Chain, delivering high-tech AAA Action-RPG and PvP experiences with seamless onboarding. Designed for gamers and Web3 enthusiasts alike, it offers Play-to-Earn mechanics within a richly immersive NFT Metaverse, where players collect NFTs, character skins, and cryptocurrency rewards simply by playing. Available on both Google Play and the App Store, the game ensures true asset ownership, with every created character minted as an NFT fully controlled by the player. Its decentralized structure includes an instantly generated non-custodial wallet for each user, enabling effortless interaction with Web3. Players can earn by purchasing NFT-Earn tokens or increase the value of their characters through gameplay progression. At the heart of this dynamic ecosystem is the VON token—a gaming memecoin that powers in-game utilities and rewards, redefining value in mobile gaming.",
@@ -7591,7 +7591,7 @@
     },
     "soldOut": true,
     "billArt": {
-      "collection": "HotBondingSummer_Collection1"
+      "collection": "ApeBond_Collection1"
     },
     "shortDescription": "Step into the full ApeBond experience with $ABOND, more than just a token, it’s the gateway to real yield and premium perks. Lock $ABOND to access better Bond discounts, share in protocol revenue paid in $BNB, unlock exclusive tier-gated deals, and other benefits. With flexible lock options and Ape Tiers, it’s built for long-term believers.",
     "fullDescription": "ABOND isn’t just a token it’s your key to the full ApeBond experience. As the foundation of the ApeBond ecosystem, $ABOND unlocks real yield, exclusive access, and deeper rewards for those who believe in the protocol long-term. By locking $ABOND, users climb Ape Tiers, unlocking extra discounts on Bonds across all chains and partners, earning real revenue share in $BNB from platform fees, and gaining access to premium, tier-gated bond opportunities with stronger returns. Holders also enjoy priority for campaign bonuses and airdrops. With flexible locking options and transparent, on-chain mechanics, $ABOND aligns user incentives with protocol growth — making it more than a token. It’s a commitment to building and benefiting together.",
@@ -21160,7 +21160,7 @@
     },
     "soldOut": false,
     "billArt": {
-      "collection": "HotBondingSummer_Collection1"
+      "collection": "ApeBond_Collection1"
     },
     "shortDescription": "Galaxis is a Web3-powered platform to create dynamic membership card communities. Use $GALAXIS to unlock features, vote, access events, and build a sustainable community economy.",
     "fullDescription": "Galaxis empowers creators and communities with customizable, utility-packed membership cards enhanced by badges. From virtual meetings to physical rewards and gamification, Galaxis brings engagement to the next level. At the core of it all is $GALAXIS — the utility token that fuels community growth. Use it to access perks, vote, join events, or stake to boost your treasury and leaderboard rank. Whether you're Web3-native or not, Galaxis helps you build a sustainable and independent community economy.",
@@ -30600,7 +30600,7 @@
     },
     "soldOut": false,
     "billArt": {
-      "collection": "HotBondingSummer_Collection1"
+      "collection": "ETH_Collection1"
     },
     "tags": ["DeFi"],
     "shortDescription": "ADO Protocol is a next-gen DEX offering ultra-low fees and built-in MEV protection without custody or keys. Trades are up to 5x cheaper than Uniswap, and elastic liquidity delivers 30–50% APY by shifting between ETH and USDC. The ADO token powers the ecosystem, with 25% of all platform revenue allocated to buybacks. Buy ADO, join the community, and say goodbye to sky-high fees and MEV bot attacks.",
@@ -30653,7 +30653,7 @@
     },
     "soldOut": false,
     "billArt": {
-      "collection": "HotBondingSummer_Collection1"
+      "collection": "ETH_Collection1"
     },
     "tags": ["DeFi"],
     "shortDescription": "Polemos is building a next-gen ecosystem connecting players to AAA Web3 games through a seamless, chain-agnostic platform. With features like asset lending, token trading, and unified rewards in a secure, collateral-free environment, Polemos empowers global access to Web3 gaming. PLMS is the native utility token of the Polemos ecosystem, used to access platform services, enable in-game interactions, and participate in governance.",
