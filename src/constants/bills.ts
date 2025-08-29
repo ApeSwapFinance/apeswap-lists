@@ -49,7 +49,7 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.UNICHAIN]: 1754394474 },
     soldOut: true,
     billArt: {
-      collection: BillArtCollection.HotBondingSummer_Collection1,
+      collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['DEX'],
     shortDescription: `Catex is the MetaDEX layer for Uniswap V4, combining automated liquidity, ve(3,3) governance, and strategic incentives to support LPs and hook builders. The ecosystem is powered by four synergistic tokens, with CATX at its core, driving governance and liquidity. The bveCATX token is a non-liquid voter incentive token, redeemable 1:1 for veCATX, allowing holders to earn weekly fees and incentives.`,
@@ -76,7 +76,7 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.UNICHAIN]: 1753692103 },
     soldOut: true,
     billArt: {
-      collection: BillArtCollection.HotBondingSummer_Collection1,
+      collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['DEX'],
     shortDescription: `Catex is the MetaDEX layer for Uniswap V4, combining automated liquidity, ve(3,3) governance, and strategic incentives to support LPs and hook builders. The ecosystem is powered by four synergistic tokens, with CATX at its core, driving governance and liquidity. The bveCATX token is a non-liquid voter incentive token, redeemable 1:1 for veCATX, allowing holders to earn weekly fees and incentives.`,
@@ -103,7 +103,7 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.UNICHAIN]: 1753290000 },
     soldOut: true,
     billArt: {
-      collection: BillArtCollection.HotBondingSummer_Collection1,
+      collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['DEX'],
     shortDescription: `Catex is the MetaDEX layer for Uniswap V4, combining automated liquidity, ve(3,3) governance, and strategic incentives to support LPs and hook builders. The ecosystem is powered by four synergistic tokens, with CATX at its core, driving governance and liquidity. The bveCATX token is a non-liquid voter incentive token, redeemable 1:1 for veCATX, allowing holders to earn weekly fees and incentives.`,
@@ -132,7 +132,7 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://www.hyperonsol.com/',
     twitter: 'https://x.com/hyperonsol',
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Solana_Collection1,
     },
@@ -279,7 +279,7 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://x.com/solana',
     twitter: 'https://solana.com/',
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Solana_Collection1,
     },
@@ -327,7 +327,7 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://home.blockasset.co/',
     twitter: 'https://x.com/blockassetco',
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Solana_Collection1,
     },
@@ -351,7 +351,7 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://aitech.io/',
     twitter: 'https://x.com/AITECHio',
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Solana_Collection1,
     },
@@ -1399,7 +1399,7 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.BASE]: 1753795343 },
     soldOut: false,
     billArt: {
-      collection: BillArtCollection.HotBondingSummer_Collection1,
+      collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['AI'],
     shortDescription:
@@ -1427,7 +1427,7 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.BASE]: 1753363558 },
     soldOut: true,
     billArt: {
-      collection: BillArtCollection.HotBondingSummer_Collection1,
+      collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['DEX'],
     shortDescription:
@@ -1456,7 +1456,7 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.BASE]: 1753290000 },
     soldOut: true,
     billArt: {
-      collection: BillArtCollection.HotBondingSummer_Collection1,
+      collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['DEX'],
     shortDescription:
@@ -3051,7 +3051,7 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.LINEA]: 1753290000 },
     soldOut: false,
     billArt: {
-      collection: BillArtCollection.HotBondingSummer_Collection1,
+      collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['Meme', 'Community'],
     shortDescription: `Linus is a fun and one of the first memecoins on Linea, launched even before FOXY or CROAK! It became the top farm on Lynex and is loved by the Linea community. With 25% of its supply permanently burnt and 690,420 $LINUS distributed to top meme and art creators, it quickly became a cultural pillar in the ecosystem. Hold $LINUS and join the ride with Pengmilio and the crew!`,
@@ -3077,7 +3077,7 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.LINEA]: 1753290000 },
     soldOut: true,
     billArt: {
-      collection: BillArtCollection.HotBondingSummer_Collection1,
+      collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['Meme', 'Community'],
     shortDescription: `HOTDOG, the sauciest meme on Linea, brings a fiery mix of memes, madness, and mouthwatering fun. More than just a token, it’s a cultural sensation powered by 69% memes, 31% hotdogs, and an unstoppable community. With a fresh website, expanding partnerships, and growing momentum, HOTDOG is ready to take a bite out of the market, this is the hottest dog on the blockchain!`,
@@ -3103,7 +3103,7 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.LINEA]: 1753290000 },
     soldOut: false,
     billArt: {
-      collection: BillArtCollection.HotBondingSummer_Collection1,
+      collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['Meme', 'Community'],
     shortDescription: `Bank of Linea is the first reflection token on Linea, offering ETH rewards to holders through strategic tokenomics. By taxing transactions, it funds growth, liquidity, and marketing while rewarding the community. With a focus on sustainability, long-term value, and supporting Linea and Consensys projects, holding $BOL means earning passive ETH income.`,
@@ -3695,7 +3695,7 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.BSC]: 1755166449 },
     soldOut: true,
     billArt: {
-      collection: BillArtCollection.HotBondingSummer_Collection1,
+      collection: BillArtCollection.ApeBond_Collection1,
     },
     shortDescription:
       'Step into the full ApeBond experience with $ABOND, more than just a token, it’s the gateway to real yield and premium perks. Lock $ABOND to access better Bond discounts, share in protocol revenue paid in $BNB, unlock exclusive tier-gated deals, and other benefits. With flexible lock options and Ape Tiers, it’s built for long-term believers.',
@@ -3760,7 +3760,7 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.BSC]: 1754501063 },
     soldOut: true,
     billArt: {
-      collection: BillArtCollection.HotBondingSummer_Collection1,
+      collection: BillArtCollection.ApeBond_Collection1,
     },
     shortDescription:
       'Step into the full ApeBond experience with $ABOND, more than just a token, it’s the gateway to real yield and premium perks. Lock $ABOND to access better Bond discounts, share in protocol revenue paid in $BNB, unlock exclusive tier-gated deals, and other benefits. With flexible lock options and Ape Tiers, it’s built for long-term believers.',
@@ -3798,7 +3798,7 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.BSC]: 1753978375 },
     soldOut: true,
     billArt: {
-      collection: BillArtCollection.HotBondingSummer_Collection1,
+      collection: BillArtCollection.ApeBond_Collection1,
     },
     shortDescription:
       'Step into the full ApeBond experience with $ABOND, more than just a token, it’s the gateway to real yield and premium perks. Lock $ABOND to access better Bond discounts, share in protocol revenue paid in $BNB, unlock exclusive tier-gated deals, and other benefits. With flexible lock options and Ape Tiers, it’s built for long-term believers.',
@@ -3836,7 +3836,7 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.BSC]: 1753290000 },
     soldOut: true,
     billArt: {
-      collection: BillArtCollection.HotBondingSummer_Collection1,
+      collection: BillArtCollection.ApeBond_Collection1,
     },
     shortDescription:
       'Step into the full ApeBond experience with $ABOND, more than just a token, it’s the gateway to real yield and premium perks. Lock $ABOND to access better Bond discounts, share in protocol revenue paid in $BNB, unlock exclusive tier-gated deals, and other benefits. With flexible lock options and Ape Tiers, it’s built for long-term believers.',
@@ -3902,7 +3902,7 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.BSC]: 1753290000 },
     soldOut: false,
     billArt: {
-      collection: BillArtCollection.HotBondingSummer_Collection1,
+      collection: BillArtCollection.ApeBond_Collection1,
     },
     shortDescription:
       'dEmpire of Vampire by Vameon is a 3D mobile Action-RPG/PvP game on BNB Chain, offering instant onboarding and true asset ownership through NFT characters. Players earn rewards, skins, and crypto while progressing, with a non-custodial wallet created instantly. At the center of its Play-to-Earn ecosystem is the VON token, unlocking in-game utility and real value for gamers.',
@@ -3932,7 +3932,7 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.BSC]: 1753290000 },
     soldOut: true,
     billArt: {
-      collection: BillArtCollection.HotBondingSummer_Collection1,
+      collection: BillArtCollection.ApeBond_Collection1,
     },
     shortDescription:
       'Step into the full ApeBond experience with $ABOND, more than just a token, it’s the gateway to real yield and premium perks. Lock $ABOND to access better Bond discounts, share in protocol revenue paid in $BNB, unlock exclusive tier-gated deals, and other benefits. With flexible lock options and Ape Tiers, it’s built for long-term believers.',
@@ -10721,7 +10721,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     initTime: { [ChainId.MATIC]: 1753190910 },
     soldOut: false,
     billArt: {
-      collection: BillArtCollection.HotBondingSummer_Collection1,
+      collection: BillArtCollection.ApeBond_Collection1,
     },
     shortDescription:
       'Galaxis is a Web3-powered platform to create dynamic membership card communities. Use $GALAXIS to unlock features, vote, access events, and build a sustainable community economy.',
@@ -15574,7 +15574,7 @@ With the lending products set to go live in February, the project is poised to a
     initTime: { [ChainId.MAINNET]: 1752858000 },
     soldOut: false,
     billArt: {
-      collection: BillArtCollection.HotBondingSummer_Collection1,
+      collection: BillArtCollection.ETH_Collection1,
     },
     tags: ['DeFi'],
     shortDescription:
@@ -15602,7 +15602,7 @@ With the lending products set to go live in February, the project is poised to a
     initTime: { [ChainId.MAINNET]: 1753379295 },
     soldOut: false,
     billArt: {
-      collection: BillArtCollection.HotBondingSummer_Collection1,
+      collection: BillArtCollection.ETH_Collection1,
     },
     tags: ['DeFi'],
     shortDescription:
