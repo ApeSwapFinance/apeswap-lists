@@ -1406,7 +1406,6 @@ const bills: BillsConfig[] = [
       'Alpaca Network is the first decentralized exchange for open-source AI models. Users can tokenize, trade, and co-own AI models, earning revenue when those models are used. The $PACA token powers the ecosystem, enabling governance, access to IMOs, and a share of rewards from every new MODEL launch.',
     fullDescription:
       'Alpaca Network is pioneering the future of AI and blockchain with Modelz.io, the first decentralized exchange built specifically for open-source AI models. The platform allows anyone to tokenize, trade, and co-own AI models in just a few clicks—transforming open-source innovation into a liquid, investable asset class. By minting MODEL tokens, developers and backers can earn directly from model usage, flipping the traditional model where value flows to centralized servers. Whenever an app or AI agent calls a tokenized model’s API, revenue is distributed to MODEL token holders. Central to this ecosystem is the $PACA token, which empowers the community to participate in governance, stake for a guaranteed share of every new MODEL launch, and access exclusive IMO opportunities.',
-    warningCard: `Earn up to a $500 cash back on this bond purchase. <a href="https://x.com/ApeBond/status/1948080684607717810" target="_blank" rel="noopener noreferrer" style="color: #6099c5">Learn More ></a>.`,
   },
   {
     index: 8055,
@@ -1434,7 +1433,6 @@ const bills: BillsConfig[] = [
       'Symmio is a trustless on-chain clearing house powering permissionless derivatives through “Asset Abstraction.” Its DaaS model lets developers launch platforms easily, while partners handle backend operations. Exchanges using Symmio already generate revenue across chains. Governance is led by the Symmio DAO, with decisions driven by $SYMM token holders.',
     fullDescription:
       'Symmio is a trustless on-chain clearing house serving as a universal settlement and clearing layer for permissionless derivatives. By introducing “Asset Abstraction” to DeFi, it allows anyone to create and trade a wide range of derivatives—options, futures, and exotic products—without needing to hold the underlying assets. Its intent-centric “Derivatives as a Service” (DaaS) model lets developers and exchanges launch derivatives platforms quickly, with Symmio’s modular architecture and partners managing the backend. Multiple third-party exchanges are already live on various blockchains using Symmio’s infrastructure, generating growing revenue streams. Governance of Symmio is decentralized through the $SYMM token, empowering holders to steer protocol development, upgrades, and ecosystem growth via the Symmio DAO.',
-    warningCard: `Earn up to a $500 cash back on this bond purchase. <a href="https://x.com/ApeBond/status/1948080684607717810" target="_blank" rel="noopener noreferrer" style="color: #6099c5">Learn More ></a>.`,
   },
   {
     index: 8054,
@@ -1463,7 +1461,6 @@ const bills: BillsConfig[] = [
       'SmarDex is revolutionizing DeFi with innovative projects, all tied to the SDEX token to enhance its utility and value. With no tokens reserved for founders or private investors, SDEX boasts a fair launch and zero future unlock pressure. A buyback and burn mechanism through the USDN protocol further supports SDEX’s price by steadily reducing its circulating supply.',
     fullDescription:
       'SmarDex is pioneering innovation in the DeFi space with a suite of transformative projects aimed at reshaping the ecosystem through efficiency and interconnectivity. These initiatives, either already live or in development, are all intrinsically linked to the SDEX token, which serves as the cornerstone of the ecosystem’s value and utility. What sets SmarDex apart is its fair and transparent token distribution—no tokens were reserved for founders or private investors; all participants acquired their SDEX tokens directly from the public market, eliminating future unlock-related sell pressure. To further reinforce SDEX’s value, SmarDex integrates a robust buyback and burn mechanism via the USDN protocol: 8% of every funding rate from vault or long positions is used to buy and burn SDEX, and 5% of each USDN mint is converted to SDEX and burned. This model steadily reduces SDEX’s circulating supply as USDN adoption grows, creating sustained upward pressure on its price.',
-    warningCard: `Earn up to a $500 cash back on this bond purchase. <a href="https://x.com/ApeBond/status/1948080684607717810" target="_blank" rel="noopener noreferrer" style="color: #6099c5">Learn More ></a>.`,
   },
   {
     index: 8053,
@@ -3056,7 +3053,6 @@ const bills: BillsConfig[] = [
     tags: ['Meme', 'Community'],
     shortDescription: `Linus is a fun and one of the first memecoins on Linea, launched even before FOXY or CROAK! It became the top farm on Lynex and is loved by the Linea community. With 25% of its supply permanently burnt and 690,420 $LINUS distributed to top meme and art creators, it quickly became a cultural pillar in the ecosystem. Hold $LINUS and join the ride with Pengmilio and the crew!`,
     fullDescription: `Linus is a leading memecoin on Linea, Fair Launched as one of the first winner memecoins on the chain, preceding $FOXY and $CROAK. With 25% of its supply permanently burnt and 690,420 $LINUS distributed to top meme and art creators, it quickly became a cultural pillar in the ecosystem. Linus gained momentum after Pengmilio infiltrated Linea HQ, earning direct support from Linea itself. It reached the top spot on Lynex Farms by APR and formed strong partnerships with Linea-native dApps and prominent builders. As a top organic community, $LINUS holders are actively rewarded with airdrops from projects like Wizards of Linea and Magi, with more to come. As Linea’s ecosystem expands—now surpassing $1.2B in TVL—$LINUS offers an easy and humorous way to gain exposure. Rather than farming LXP-L points with whales chasing a $1B+ airdrop, users can simply hold the LINUS token, a playful yet powerful proxy for Linea’s explosive growth.`,
-    warningCard: `Earn up to a $500 cash back on this bond purchase. <a href="https://x.com/ApeBond/status/1948080684607717810" target="_blank" rel="noopener noreferrer" style="color: #6099c5">Learn More ></a>.`,
   },
   {
     index: 6021,
@@ -3082,7 +3078,6 @@ const bills: BillsConfig[] = [
     tags: ['Meme', 'Community'],
     shortDescription: `HOTDOG, the sauciest meme on Linea, brings a fiery mix of memes, madness, and mouthwatering fun. More than just a token, it’s a cultural sensation powered by 69% memes, 31% hotdogs, and an unstoppable community. With a fresh website, expanding partnerships, and growing momentum, HOTDOG is ready to take a bite out of the market, this is the hottest dog on the blockchain!`,
     fullDescription: `Everyone loves hotdogs. Everyone loves memes. HotDog on Linea is the ultimate snackable sensation—69% memes, 31% hotdogs, 100% delicious. Fresh off the grill, it’s back with a new website, juicier partnerships, and a community that’s always hungry for more. HOTDOG isn’t just a memecoin—it’s a movement, a meme revolution, and the tastiest token on the blockchain. From AI-generated hotdog art to the most unhinged hotdog memes, this is where degens and food lovers unite. Think you can resist? The market’s heating up, and this is your chance to lock in your spot at the meme table. No forks, no knives—just raw, saucy fun. Whether you're here to stack, snack, or just enjoy the absurdity of a blockchain hotdog, this is your moment. Don't miss out—because nothing hits the spot like $HOTDOG!`,
-    warningCard: `Earn up to a $500 cash back on this bond purchase. <a href="https://x.com/ApeBond/status/1948080684607717810" target="_blank" rel="noopener noreferrer" style="color: #6099c5">Learn More ></a>.`,
   },
   {
     index: 6020,
@@ -3108,7 +3103,6 @@ const bills: BillsConfig[] = [
     tags: ['Meme', 'Community'],
     shortDescription: `Bank of Linea is the first reflection token on Linea, offering ETH rewards to holders through strategic tokenomics. By taxing transactions, it funds growth, liquidity, and marketing while rewarding the community. With a focus on sustainability, long-term value, and supporting Linea and Consensys projects, holding $BOL means earning passive ETH income.`,
     fullDescription: `Bank of Linea is a cutting-edge cryptocurrency built to deliver sustainable rewards in ETH, support liquidity, and drive marketing growth through carefully structured tokenomics. By applying taxes on transactions, the project ensures continuous development while benefiting holders and partners alike. Focused on long-term value, Bank of Linea combines reflections, a strong community, and strategic marketing to build a lasting presence in the crypto space, where users don’t need to sell their tokens or NFTs to earn. With a commitment to safety, growth, and supporting Linea and Consensys related initiatives, the project is creating a thriving ecosystem for investors. Bank of Linea is the first token on Linea that rewards you ETH, just by holding $BOL`,
-    warningCard: `Earn up to a $500 cash back on this bond purchase. <a href="https://x.com/ApeBond/status/1948080684607717810" target="_blank" rel="noopener noreferrer" style="color: #6099c5">Learn More ></a>.`,
   },
   {
     index: 6019,
@@ -3710,7 +3704,6 @@ const bills: BillsConfig[] = [
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
     ],
-    warningCard: `Earn up to a $500 cash back on this bond purchase. <a href="https://x.com/ApeBond/status/1948080684607717810" target="_blank" rel="noopener noreferrer" style="color: #6099c5">Learn More ></a>.`,
   },
   {
     index: 1163,
@@ -3775,7 +3768,6 @@ const bills: BillsConfig[] = [
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
     ],
-    warningCard: `Earn up to a $500 cash back on this bond purchase. <a href="https://x.com/ApeBond/status/1948080684607717810" target="_blank" rel="noopener noreferrer" style="color: #6099c5">Learn More ></a>.`,
   },
   {
     index: 1161,
@@ -3813,7 +3805,6 @@ const bills: BillsConfig[] = [
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
     ],
-    warningCard: `Earn up to a $500 cash back on this bond purchase. <a href="https://x.com/ApeBond/status/1948080684607717810" target="_blank" rel="noopener noreferrer" style="color: #6099c5">Learn More ></a>.`,
   },
   {
     index: 1160,
@@ -3851,7 +3842,6 @@ const bills: BillsConfig[] = [
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
     ],
-    warningCard: `Earn up to a $500 cash back on this bond purchase. <a href="https://x.com/ApeBond/status/1948080684607717810" target="_blank" rel="noopener noreferrer" style="color: #6099c5">Learn More ></a>.`,
   },
   {
     index: 1159,
@@ -3909,7 +3899,6 @@ const bills: BillsConfig[] = [
     fullDescription:
       'dEmpire of Vampire by Vameon is a cutting-edge 3D mobile game built on the BNB Chain, delivering high-tech AAA Action-RPG and PvP experiences with seamless onboarding. Designed for gamers and Web3 enthusiasts alike, it offers Play-to-Earn mechanics within a richly immersive NFT Metaverse, where players collect NFTs, character skins, and cryptocurrency rewards simply by playing. Available on both Google Play and the App Store, the game ensures true asset ownership, with every created character minted as an NFT fully controlled by the player. Its decentralized structure includes an instantly generated non-custodial wallet for each user, enabling effortless interaction with Web3. Players can earn by purchasing NFT-Earn tokens or increase the value of their characters through gameplay progression. At the heart of this dynamic ecosystem is the VON token—a gaming memecoin that powers in-game utilities and rewards, redefining value in mobile gaming.',
     tags: ['GameFi'],
-    warningCard: `Earn up to a $500 cash back on this bond purchase. <a href="https://x.com/ApeBond/status/1948080684607717810" target="_blank" rel="noopener noreferrer" style="color: #6099c5">Learn More ></a>.`,
   },
   {
     index: 1157,
@@ -3947,7 +3936,6 @@ const bills: BillsConfig[] = [
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
     ],
-    warningCard: `Earn up to a $500 cash back on this bond purchase. <a href="https://x.com/ApeBond/status/1948080684607717810" target="_blank" rel="noopener noreferrer" style="color: #6099c5">Learn More ></a>.`,
   },
   {
     index: 1156,
@@ -10727,7 +10715,6 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'Galaxis is a Web3-powered platform to create dynamic membership card communities. Use $GALAXIS to unlock features, vote, access events, and build a sustainable community economy.',
     fullDescription: `Galaxis empowers creators and communities with customizable, utility-packed membership cards enhanced by badges. From virtual meetings to physical rewards and gamification, Galaxis brings engagement to the next level. At the core of it all is $GALAXIS — the utility token that fuels community growth. Use it to access perks, vote, join events, or stake to boost your treasury and leaderboard rank. Whether you're Web3-native or not, Galaxis helps you build a sustainable and independent community economy.`,
     tags: ['DeFi Tooling'],
-    warningCard: `Earn up to a $500 cash back on this bond purchase. <a href="https://x.com/ApeBond/status/1948080684607717810" target="_blank" rel="noopener noreferrer" style="color: #6099c5">Learn More ></a>.`,
   },
   {
     index: 184,
@@ -15580,7 +15567,6 @@ With the lending products set to go live in February, the project is poised to a
     shortDescription:
       'ADO Protocol is a next-gen DEX offering ultra-low fees and built-in MEV protection without custody or keys. Trades are up to 5x cheaper than Uniswap, and elastic liquidity delivers 30–50% APY by shifting between ETH and USDC. The ADO token powers the ecosystem, with 25% of all platform revenue allocated to buybacks. Buy ADO, join the community, and say goodbye to sky-high fees and MEV bot attacks.',
     fullDescription: `ADO Protocol is a next-gen DEX designed to crush high fees and eliminate MEV bot attacks for good. With trading costs up to 5x cheaper than Uniswap for regular trades and powerful MEV protection for private trades, users save big while staying secure. Traders benefit from fewer fees, more tokens per swap, and built-in bot defense with no custody or keys required. Projects can supercharge liquidity in Uniswap V2 pools while earning 100% of DEX fees on Uniswap V3. Thanks to elastic liquidity, all capital in the DEX earns 30–50% APY by dynamically shifting between ETH and USDC based on market conditions. Add seamless no-code website integration, fiat on-ramps, and a whale-only group for ADO holders, and you've got a full-featured DeFi powerhouse with 25% of all platform revenue going towards ADO buybacks. Buy ADO, join the community, and say goodbye to sky-high fees and MEV bot attacks.`,
-    warningCard: `Earn up to a $500 cash back on this bond purchase. <a href="https://x.com/ApeBond/status/1948080684607717810" target="_blank" rel="noopener noreferrer" style="color: #6099c5">Learn More ></a>.`,
   },
   {
     index: 3048,
@@ -15609,7 +15595,6 @@ With the lending products set to go live in February, the project is poised to a
       'Polemos is building a next-gen ecosystem connecting players to AAA Web3 games through a seamless, chain-agnostic platform. With features like asset lending, token trading, and unified rewards in a secure, collateral-free environment, Polemos empowers global access to Web3 gaming. PLMS is the native utility token of the Polemos ecosystem, used to access platform services, enable in-game interactions, and participate in governance.',
     fullDescription:
       'Polemos is creating a revolutionary ecosystem that bridges players with top-tier AAA Web3 games, aiming to deliver a seamless and immersive experience for gamers worldwide. By partnering with leading projects and platforms, Polemos is expanding access to Web3 gaming on a global scale. Its game- and chain-agnostic infrastructure empowers users to engage effortlessly with a wide range of titles, while offering a comprehensive set of services—including a marketplace for lending and borrowing game assets, token trading, and unified rewards—all within a secure, collateral-free environment. PLMS is the native utility token of the Polemos ecosystem, used to access platform services, enable in-game interactions, and participate in governance. Designed for secure and seamless use across the platform, it powers all key functions within the Polemos Web3 gaming experience.',
-    warningCard: `Earn up to a $500 cash back on this bond purchase. <a href="https://x.com/ApeBond/status/1948080684607717810" target="_blank" rel="noopener noreferrer" style="color: #6099c5">Learn More ></a>.`,
   },
   {
     index: 3049,
