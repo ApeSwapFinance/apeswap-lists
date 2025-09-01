@@ -5,7 +5,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Polygon Largest ID: 187
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2033
-// ETH Largest ID: 3053
+// ETH Largest ID: 3054
 // Linea Largest ID: 6020
 // Base Largest ID: 8057
 // Lightlink Largest ID: 7003
@@ -15586,7 +15586,7 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://forge.polemos.io/home',
     twitter: 'https://x.com/polemos_io',
     initTime: { [ChainId.MAINNET]: 1753379295 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
@@ -15738,6 +15738,34 @@ With the lending products set to go live in February, the project is poised to a
     shortDescription:
       'Rezerve Money is a decentralized, community-governed reserve currency backed by a diversified basket of assets. All RZR tokens are backed by protocol-controlled value (PCV), which underwrites liquidity and funds strategic deployments, ensuring rewards and operations are supported by real capital.',
     tags: ['DeFi'],
+  },
+  {
+    index: 3054,
+    cmcId: 35906,
+    version: '2.1.0',
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0xd80eCe71d78E4CeB9412260f66A9398779fE4EBA',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.plms,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    projectLink: 'https://forge.polemos.io/home',
+    twitter: 'https://x.com/polemos_io',
+    initTime: { [ChainId.MAINNET]: 1756724584 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['DeFi'],
+    shortDescription:
+      'Polemos is building a next-gen ecosystem connecting players to AAA Web3 games through a seamless, chain-agnostic platform. With features like asset lending, token trading, and unified rewards in a secure, collateral-free environment, Polemos empowers global access to Web3 gaming. PLMS is the native utility token of the Polemos ecosystem, used to access platform services, enable in-game interactions, and participate in governance.',
+    fullDescription:
+      'Polemos is creating a revolutionary ecosystem that bridges players with top-tier AAA Web3 games, aiming to deliver a seamless and immersive experience for gamers worldwide. By partnering with leading projects and platforms, Polemos is expanding access to Web3 gaming on a global scale. Its game- and chain-agnostic infrastructure empowers users to engage effortlessly with a wide range of titles, while offering a comprehensive set of services—including a marketplace for lending and borrowing game assets, token trading, and unified rewards—all within a secure, collateral-free environment. PLMS is the native utility token of the Polemos ecosystem, used to access platform services, enable in-game interactions, and participate in governance. Designed for secure and seamless use across the platform, it powers all key functions within the Polemos Web3 gaming experience.',
   },
 ]
 
