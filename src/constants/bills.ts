@@ -15586,7 +15586,7 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://forge.polemos.io/home',
     twitter: 'https://x.com/polemos_io',
     initTime: { [ChainId.MAINNET]: 1753379295 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
