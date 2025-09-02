@@ -1139,6 +1139,62 @@
     "fullDescription": "BeraTrax is the easiest way to earn yield on Berachain, offering users seamless access to vaults with auto-compounded rewards and integrated participation in Berachain’s Proof of Liquidity system—all through a mobile-friendly experience. Designed for both DeFi newcomers and veteran yield farmers, BeraTrax simplifies the process with one-click deposits, gas-free transactions, and automated yield strategies. Its unique BGT flywheel rewards users with BGT or iBGT, the latter of which continues to generate validator rewards even after emissions end. Protocol fees are used to bribe validators, directing BGT emissions to one vault per week as chosen by TRAX holders."
   },
   {
+    "index": 15007,
+    "version": "2.1.0",
+    "chainId": 146,
+    "contractAddress": {
+      "146": "0x91C894aab2462eB7C0Ea03c2C5DC2A8AcedBd78C"
+    },
+    "billType": "liquidity",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "MOON-S",
+      "address": {
+        "146": "0x6D9B4d31C66291c13F33AE1B2D8c1a5Be8a77c4f"
+      },
+      "decimals": {
+        "146": 18
+      },
+      "active": true,
+      "lpToken": true,
+      "liquidityDex": {
+        "146": "Equalizer"
+      },
+      "getLpUrl": {
+        "146": "https://equalizer.exchange/liquidity/0x6D9B4d31C66291c13F33AE1B2D8c1a5Be8a77c4f/add"
+      }
+    },
+    "earnToken": {
+      "symbol": "MOON",
+      "address": {
+        "146": "0x486B6Fa0419b33a0c7A6e4698c231D7E2f2D5299"
+      },
+      "decimals": {
+        "146": 18
+      },
+      "liquidityDex": {
+        "146": "Equalizer"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "146": "0xc765C358622cB346f236F8Bfffe53036e421bb4e"
+    },
+    "projectLink": "https://www.moonbay.space/",
+    "twitter": "https://x.com/MoonBaySonic",
+    "initTime": {
+      "146": 1756816860
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "fullDescription": "MoonBay is a dynamic crypto project built on the Sonic Network, powered by its native $MOON token and a passionate community. Fusing meme culture with real-world utility, MoonBay spans across DeFi, NFTs, GameFi, and beyond. The project thrives on innovation and trend awareness, positioning itself as a forward-thinking ecosystem that delivers value, engagement, and entertainment. With a commitment to both fun and function, MoonBay aims to create a vibrant hub where users can explore the future of Web3. Its diverse offerings and energetic community make it a standout presence in the evolving crypto landscape.",
+    "shortDescription": "MoonBay is a crypto project on the Sonic Network with a strong community and the $MOON token at its core. Blending meme culture with real utility, it embraces DeFi, NFTs, GameFi, and more. Focused on trends and innovation, MoonBay offers value, entertainment, and growth, making it a vibrant hub in the crypto space.",
+    "tags": ["DeFi"],
+    "warningCard": "Heads Up: Buying this Bond may require a higher slippage."
+  },
+  {
     "index": 15006,
     "version": "2.1.0",
     "chainId": 146,
