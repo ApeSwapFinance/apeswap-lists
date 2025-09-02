@@ -16,7 +16,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Singularity Testnet Largest ID: 12000
 // Crossfi Largest ID: 13000
 // Monad Testnet Largest ID: 14011
-// Sonic Largest ID: 15005
+// Sonic Largest ID: 15007
 // Berachain Largest ID: 16005
 // Katana Largest ID: 17000
 // SOL Largest ID: 18014
@@ -636,6 +636,34 @@ const bills: BillsConfig[] = [
   //
   // Sonic
   //
+  {
+    index: 15007,
+    version: '2.1.0',
+    chainId: ChainId.SONIC,
+    contractAddress: {
+      [ChainId.SONIC]: '0x91C894aab2462eB7C0Ea03c2C5DC2A8AcedBd78C',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.moonS_Equalizer,
+    earnToken: tokens.moon,
+    billNnftAddress: {
+      [ChainId.SONIC]: '0xc765C358622cB346f236F8Bfffe53036e421bb4e',
+    },
+    projectLink: 'https://www.moonbay.space/',
+    twitter: 'https://x.com/MoonBaySonic',
+    initTime: { [ChainId.SONIC]: 1756816860 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    fullDescription:
+      'MoonBay is a dynamic crypto project built on the Sonic Network, powered by its native $MOON token and a passionate community. Fusing meme culture with real-world utility, MoonBay spans across DeFi, NFTs, GameFi, and beyond. The project thrives on innovation and trend awareness, positioning itself as a forward-thinking ecosystem that delivers value, engagement, and entertainment. With a commitment to both fun and function, MoonBay aims to create a vibrant hub where users can explore the future of Web3. Its diverse offerings and energetic community make it a standout presence in the evolving crypto landscape.',
+    shortDescription:
+      'MoonBay is a crypto project on the Sonic Network with a strong community and the $MOON token at its core. Blending meme culture with real utility, it embraces DeFi, NFTs, GameFi, and more. Focused on trends and innovation, MoonBay offers value, entertainment, and growth, making it a vibrant hub in the crypto space.',
+    tags: ['DeFi'],
+    warningCard: 'Heads Up: Buying this Bond may require a higher slippage.',
+  },
   {
     index: 15006,
     version: '2.1.0',
