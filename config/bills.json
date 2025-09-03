@@ -31089,6 +31089,7 @@
         "1": "UniswapV3"
       },
       "liquidityWrapper": 2,
+      "ichiUnderlyingDex": "Uniswap V3",
       "active": true,
       "lpToken": true
     },
