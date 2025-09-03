@@ -4812,6 +4812,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  masq: {
+    symbol: 'MASQ',
+    address: {
+      [ChainId.MAINNET]: '0x06F3C323f0238c72BF35011071f2b5B7F43A054c',
+    },
+    decimals: { [ChainId.MAINNET]: 18 },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV3,
+    },
+    active: true,
+  },
   dextf: {
     symbol: 'DEXTF',
     address: {
@@ -7813,6 +7824,22 @@ const tokens: Record<string, Token> = {
     getLpUrl: {
       [ChainId.SONIC]: 'https://www.shadow.so/liquidity/add',
     },
+  },
+  wethMasq_Steer: {
+    symbol: 'WETH-MASQ',
+    address: {
+      [ChainId.MAINNET]: '0x67746988D19F6883ECc5F13f530222b0e060dC88',
+    },
+    decimals: {
+      [ChainId.MAINNET]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV3,
+    },
+    liquidityWrapper: Wrappers.Steer,
+    ichiUnderlyingDex: IchiSupportedDex.UniswapV3,
+    active: true,
+    lpToken: true,
   },
 }
 

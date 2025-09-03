@@ -1,7 +1,7 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1166
+// BNB Largest ID: 1167
 // Polygon Largest ID: 187
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2033
@@ -3630,6 +3630,34 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1167,
+    cmcId: 34498,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0xbE8C849d4f5e2C29860021bD8398d982Ea2265F0',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.von,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://vameon.com/',
+    twitter: 'https://x.com/vameon69',
+    initTime: { [ChainId.BSC]: 1756907453 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    shortDescription:
+      'dEmpire of Vampire by Vameon is a 3D mobile Action-RPG/PvP game on BNB Chain, offering instant onboarding and true asset ownership through NFT characters. Players earn rewards, skins, and crypto while progressing, with a non-custodial wallet created instantly. At the center of its Play-to-Earn ecosystem is the VON token, unlocking in-game utility and real value for gamers.',
+    fullDescription:
+      'dEmpire of Vampire by Vameon is a cutting-edge 3D mobile game built on the BNB Chain, delivering high-tech AAA Action-RPG and PvP experiences with seamless onboarding. Designed for gamers and Web3 enthusiasts alike, it offers Play-to-Earn mechanics within a richly immersive NFT Metaverse, where players collect NFTs, character skins, and cryptocurrency rewards simply by playing. Available on both Google Play and the App Store, the game ensures true asset ownership, with every created character minted as an NFT fully controlled by the player. Its decentralized structure includes an instantly generated non-custodial wallet for each user, enabling effortless interaction with Web3. Players can earn by purchasing NFT-Earn tokens or increase the value of their characters through gameplay progression. At the heart of this dynamic ecosystem is the VON token—a gaming memecoin that powers in-game utilities and rewards, redefining value in mobile gaming.',
+    tags: ['GameFi'],
+  },
   {
     index: 1166,
     version: '2.1.1',
