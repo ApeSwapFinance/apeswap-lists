@@ -3918,7 +3918,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://vameon.com/',
     twitter: 'https://x.com/vameon69',
     initTime: { [ChainId.BSC]: 1753290000 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
