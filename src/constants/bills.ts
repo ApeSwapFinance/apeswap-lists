@@ -132,6 +132,7 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://www.hyperonsol.com/',
     twitter: 'https://x.com/hyperonsol',
+    initTime: { [ChainId.SOL]: 1752067620 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.Solana_Collection1,
@@ -156,6 +157,7 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://skoragents.ai/',
     twitter: 'https://x.com/theskorai',
+    initTime: { [ChainId.SOL]: 1752065340 },
     soldOut: false,
     billArt: {
       collection: BillArtCollection.Solana_Collection1,
@@ -181,6 +183,7 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://www.rkey.rent/',
     twitter: 'https://x.com/rkeyrent',
+    initTime: { [ChainId.SOL]: 1752069960 },
     soldOut: false,
     billArt: {
       collection: BillArtCollection.Solana_Collection1,
@@ -206,6 +209,7 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://www.rkey.rent/',
     twitter: 'https://x.com/rkeyrent',
+    initTime: { [ChainId.SOL]: 1752070680 },
     soldOut: false,
     billArt: {
       collection: BillArtCollection.Solana_Collection1,
@@ -231,6 +235,7 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://stabble.org/',
     twitter: 'https://x.com/stabbleorg',
+    initTime: { [ChainId.SOL]: 1752067980 },
     soldOut: false,
     billArt: {
       collection: BillArtCollection.Solana_Collection1,
@@ -255,6 +260,7 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://www.orcadefai.com/',
     twitter: 'https://x.com/ORCAIDEF',
+    initTime: { [ChainId.SOL]: 1752068700 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.Solana_Collection1,
@@ -279,6 +285,7 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://x.com/solana',
     twitter: 'https://solana.com/',
+    initTime: { [ChainId.SOL]: 1752079260 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.Solana_Collection1,
@@ -303,6 +310,7 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://trumpenguin.com/',
     twitter: 'https://x.com/trumpenguin',
+    initTime: { [ChainId.SOL]: 1752087600 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.Solana_Collection1,
@@ -327,6 +335,7 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://home.blockasset.co/',
     twitter: 'https://x.com/blockassetco',
+    initTime: { [ChainId.SOL]: 1752851160 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.Solana_Collection1,
@@ -351,6 +360,7 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://aitech.io/',
     twitter: 'https://x.com/AITECHio',
+    initTime: { [ChainId.SOL]: 1753357860 },
     soldOut: true,
     billArt: {
       collection: BillArtCollection.Solana_Collection1,
@@ -377,6 +387,7 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://childrenofthesky.com/',
     twitter: 'https://x.com/COTSCLUB',
+    initTime: { [ChainId.SOL]: 1755013140 },
     soldOut: false,
     billArt: {
       collection: BillArtCollection.Solana_Collection1,
@@ -403,6 +414,7 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://childrenofthesky.com/',
     twitter: 'https://x.com/COTSCLUB',
+    initTime: { [ChainId.SOL]: 1755014340 },
     soldOut: false,
     billArt: {
       collection: BillArtCollection.Solana_Collection1,
@@ -429,6 +441,7 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://www.hivello.com',
     twitter: 'https://x.com/HivelloOfficial',
+    initTime: { [ChainId.SOL]: 1755520140 },
     soldOut: false,
     billArt: {
       collection: BillArtCollection.Solana_Collection1,
@@ -455,6 +468,7 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://aitech.io/',
     twitter: 'https://x.com/AITECHio',
+    initTime: { [ChainId.SOL]: 1756473060 },
     soldOut: false,
     billArt: {
       collection: BillArtCollection.Solana_Collection1,
