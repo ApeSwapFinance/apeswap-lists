@@ -5,7 +5,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Polygon Largest ID: 187
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2033
-// ETH Largest ID: 3054
+// ETH Largest ID: 3055
 // Linea Largest ID: 6020
 // Base Largest ID: 8057
 // Lightlink Largest ID: 7003
@@ -15823,31 +15823,33 @@ With the lending products set to go live in February, the project is poised to a
     fullDescription:
       'Polemos is creating a revolutionary ecosystem that bridges players with top-tier AAA Web3 games, aiming to deliver a seamless and immersive experience for gamers worldwide. By partnering with leading projects and platforms, Polemos is expanding access to Web3 gaming on a global scale. Its game- and chain-agnostic infrastructure empowers users to engage effortlessly with a wide range of titles, while offering a comprehensive set of services—including a marketplace for lending and borrowing game assets, token trading, and unified rewards—all within a secure, collateral-free environment. PLMS is the native utility token of the Polemos ecosystem, used to access platform services, enable in-game interactions, and participate in governance. Designed for secure and seamless use across the platform, it powers all key functions within the Polemos Web3 gaming experience.',
   },
-  // {
-  //   index: 3055,
-  //   version: '2.1.0',
-  //   chainId: ChainId.MAINNET,
-  //   contractAddress: {
-  //     [ChainId.MAINNET]: '0x22eb846c03EE5192416044ca82Ef90CAaa58Fb15',
-  //   },
-  //   billType: 'liquidity',
-  //   billVersion: BillVersion.V4,
-  //   lpToken: tokens.wethMasq_Steer,
-  //   earnToken: tokens.masq,
-  //   billNnftAddress: {
-  //     [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
-  //   },
-  //   projectLink: 'https://www.masqbrowser.com/',
-  //   twitter: 'https://x.com/MASQ_ai',
-  //   initTime: { [ChainId.MAINNET]: 1756912596 },
-  //   soldOut: false,
-  //   billArt: {
-  //     collection: BillArtCollection.ETH_Collection1,
-  //   },
-  //   tags: ['DeFi'],
-  //   shortDescription: '....',
-  //   fullDescription: '....',
-  // },
+  {
+    index: 3055,
+    version: '2.1.0',
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0xF23C1146962916C41017Fe184FA0622aC1809F16',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.wethMasq_Steer,
+    earnToken: tokens.masq,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    projectLink: 'https://www.masqbrowser.com/',
+    twitter: 'https://x.com/MASQ_ai',
+    initTime: { [ChainId.MAINNET]: 1757081807 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['DeFi'],
+    shortDescription:
+      'MASQ delivers a private web3 browsing experience through a peer-to-peer mesh network, enabling users to bypass censorship, access dApps, and enjoy borderless internet freedom. Its Chromium-based browser integrates ENS, IPFS, and web3 tools while rewarding users for sharing bandwidth. At the heart of this decentralized ecosystem is the MASQ utility token, used as a means of enabling and incentivising functionalities in the MASQ ecosystem.',
+    fullDescription:
+      'The MASQ software suite delivers a groundbreaking private web3 browsing experience powered by a peer-to-peer mesh network, enabling users to bypass censorship, geo-blocks, and centralized tracking. With its privacy-first Chromium-based interface, MASQ combines intuitive usability with powerful tools such as ENS and IPFS resolution, a curated web3 App Store, and seamless integration with Metamask and Frame extensions. Users can access dApps, crypto platforms, and metaverse services while supporting the network by sharing bandwidth, earning rewards in return. As the decentralized mesh-VPN expands, the network grows stronger, creating a borderless, censorship-resistant internet layer. MASQ also pioneers features like wallet-to-wallet encrypted messaging and decentralized storage integration, reinforcing its role as a foundation for web3 natives. Central to this ecosystem is the MASQ utility token, used as a means of enabling and incentivising functionalities in the MASQ ecosystem.',
+  },
 ]
 
 export default bills
