@@ -7221,7 +7221,7 @@
     "initTime": {
       "56": 1756148137
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -31067,59 +31067,5 @@
     "tags": ["DeFi"],
     "shortDescription": "Polemos is building a next-gen ecosystem connecting players to AAA Web3 games through a seamless, chain-agnostic platform. With features like asset lending, token trading, and unified rewards in a secure, collateral-free environment, Polemos empowers global access to Web3 gaming. PLMS is the native utility token of the Polemos ecosystem, used to access platform services, enable in-game interactions, and participate in governance.",
     "fullDescription": "Polemos is creating a revolutionary ecosystem that bridges players with top-tier AAA Web3 games, aiming to deliver a seamless and immersive experience for gamers worldwide. By partnering with leading projects and platforms, Polemos is expanding access to Web3 gaming on a global scale. Its game- and chain-agnostic infrastructure empowers users to engage effortlessly with a wide range of titles, while offering a comprehensive set of services—including a marketplace for lending and borrowing game assets, token trading, and unified rewards—all within a secure, collateral-free environment. PLMS is the native utility token of the Polemos ecosystem, used to access platform services, enable in-game interactions, and participate in governance. Designed for secure and seamless use across the platform, it powers all key functions within the Polemos Web3 gaming experience."
-  },
-  {
-    "index": 3055,
-    "version": "2.1.0",
-    "chainId": 1,
-    "contractAddress": {
-      "1": "0x22eb846c03EE5192416044ca82Ef90CAaa58Fb15"
-    },
-    "billType": "liquidity",
-    "billVersion": "V4",
-    "lpToken": {
-      "symbol": "WETH-MASQ",
-      "address": {
-        "1": "0x67746988D19F6883ECc5F13f530222b0e060dC88"
-      },
-      "decimals": {
-        "1": 18
-      },
-      "liquidityDex": {
-        "1": "UniswapV3"
-      },
-      "liquidityWrapper": 2,
-      "ichiUnderlyingDex": "Uniswap V3",
-      "active": true,
-      "lpToken": true
-    },
-    "earnToken": {
-      "symbol": "MASQ",
-      "address": {
-        "1": "0x06F3C323f0238c72BF35011071f2b5B7F43A054c"
-      },
-      "decimals": {
-        "1": 18
-      },
-      "liquidityDex": {
-        "1": "UniswapV3"
-      },
-      "active": true
-    },
-    "billNnftAddress": {
-      "1": "0x499b654b0a7f9979cc315190c09ca2633809b8df"
-    },
-    "projectLink": "https://www.masqbrowser.com/",
-    "twitter": "https://x.com/MASQ_ai",
-    "initTime": {
-      "1": 1756912596
-    },
-    "soldOut": false,
-    "billArt": {
-      "collection": "ETH_Collection1"
-    },
-    "tags": ["DeFi"],
-    "shortDescription": "....",
-    "fullDescription": "...."
   }
 ]
