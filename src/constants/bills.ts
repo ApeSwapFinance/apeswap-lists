@@ -15823,31 +15823,31 @@ With the lending products set to go live in February, the project is poised to a
     fullDescription:
       'Polemos is creating a revolutionary ecosystem that bridges players with top-tier AAA Web3 games, aiming to deliver a seamless and immersive experience for gamers worldwide. By partnering with leading projects and platforms, Polemos is expanding access to Web3 gaming on a global scale. Its game- and chain-agnostic infrastructure empowers users to engage effortlessly with a wide range of titles, while offering a comprehensive set of services—including a marketplace for lending and borrowing game assets, token trading, and unified rewards—all within a secure, collateral-free environment. PLMS is the native utility token of the Polemos ecosystem, used to access platform services, enable in-game interactions, and participate in governance. Designed for secure and seamless use across the platform, it powers all key functions within the Polemos Web3 gaming experience.',
   },
-  // {
-  //   index: 3055,
-  //   version: '2.1.0',
-  //   chainId: ChainId.MAINNET,
-  //   contractAddress: {
-  //     [ChainId.MAINNET]: '0x22eb846c03EE5192416044ca82Ef90CAaa58Fb15',
-  //   },
-  //   billType: 'liquidity',
-  //   billVersion: BillVersion.V4,
-  //   lpToken: tokens.wethMasq_Steer,
-  //   earnToken: tokens.masq,
-  //   billNnftAddress: {
-  //     [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
-  //   },
-  //   projectLink: 'https://www.masqbrowser.com/',
-  //   twitter: 'https://x.com/MASQ_ai',
-  //   initTime: { [ChainId.MAINNET]: 1756912596 },
-  //   soldOut: false,
-  //   billArt: {
-  //     collection: BillArtCollection.ETH_Collection1,
-  //   },
-  //   tags: ['DeFi'],
-  //   shortDescription: '....',
-  //   fullDescription: '....',
-  // },
+  {
+    index: 3055,
+    version: '2.1.0',
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0x22eb846c03EE5192416044ca82Ef90CAaa58Fb15',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.wethMasq_Steer,
+    earnToken: tokens.masq,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    projectLink: 'https://www.masqbrowser.com/',
+    twitter: 'https://x.com/MASQ_ai',
+    initTime: { [ChainId.MAINNET]: 1756912596 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['DeFi'],
+    shortDescription: '....',
+    fullDescription: '....',
+  },
 ]
 
 export default bills
