@@ -15892,7 +15892,7 @@ With the lending products set to go live in February, the project is poised to a
     twitter: 'https://x.com/MASQ_ai',
     initTime: { [ChainId.MAINNET]: 1757081807 },
     soldOut: false,
-    hide: false,
+    hide: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
