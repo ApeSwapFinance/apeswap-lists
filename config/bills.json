@@ -31230,20 +31230,20 @@
     "version": "2.1.0",
     "chainId": 1,
     "contractAddress": {
-      "1": "0xaf06e544db4a6762631bd25Aa9A9352670bA851E"
+      "1": "0xf0032bCCa61895D7481663820A7725b36ece0342"
     },
     "billType": "reserve",
     "billVersion": "V4",
     "lpToken": {
-      "symbol": "USDT",
+      "symbol": "USDC",
       "address": {
-        "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
       },
       "decimals": {
         "1": 6
       },
       "liquidityDex": {
-        "1": "UniswapV2"
+        "1": "UniswapV3"
       },
       "active": true
     },

@@ -15907,11 +15907,11 @@ With the lending products set to go live in February, the project is poised to a
     version: '2.1.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
-      [ChainId.MAINNET]: '0xaf06e544db4a6762631bd25Aa9A9352670bA851E',
+      [ChainId.MAINNET]: '0xf0032bCCa61895D7481663820A7725b36ece0342',
     },
     billType: 'reserve',
     billVersion: BillVersion.V4,
-    lpToken: tokens.usdt,
+    lpToken: tokens.usdc,
     earnToken: tokens.hts,
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
