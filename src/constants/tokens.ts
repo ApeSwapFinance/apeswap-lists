@@ -4724,6 +4724,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  hts: {
+    symbol: 'HTS',
+    address: {
+      [ChainId.MAINNET]: '0xC40629464351c37c1e1f47b3640eA2e7AeC31eA5',
+    },
+    decimals: { [ChainId.MAINNET]: 18 },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV2,
+    },
+    active: true,
+  },
   lbp: {
     symbol: 'LBP',
     address: {
