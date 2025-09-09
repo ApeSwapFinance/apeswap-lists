@@ -5,7 +5,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Polygon Largest ID: 187
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2033
-// ETH Largest ID: 3055
+// ETH Largest ID: 3056
 // Linea Largest ID: 6020
 // Base Largest ID: 8057
 // Lightlink Largest ID: 7003
@@ -15892,7 +15892,7 @@ With the lending products set to go live in February, the project is poised to a
     twitter: 'https://x.com/MASQ_ai',
     initTime: { [ChainId.MAINNET]: 1757081807 },
     soldOut: false,
-    hide: true,
+    hide: false,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
@@ -15902,6 +15902,34 @@ With the lending products set to go live in February, the project is poised to a
     fullDescription:
       'The MASQ software suite delivers a groundbreaking private web3 browsing experience powered by a peer-to-peer mesh network, enabling users to bypass censorship, geo-blocks, and centralized tracking. With its privacy-first Chromium-based interface, MASQ combines intuitive usability with powerful tools such as ENS and IPFS resolution, a curated web3 App Store, and seamless integration with Metamask and Frame extensions. Users can access dApps, crypto platforms, and metaverse services while supporting the network by sharing bandwidth, earning rewards in return. As the decentralized mesh-VPN expands, the network grows stronger, creating a borderless, censorship-resistant internet layer. MASQ also pioneers features like wallet-to-wallet encrypted messaging and decentralized storage integration, reinforcing its role as a foundation for web3 natives. Central to this ecosystem is the MASQ utility token, used as a means of enabling and incentivising functionalities in the MASQ ecosystem.',
   },
+  // {
+  //   index: 3056,
+  //   version: '2.1.0',
+  //   chainId: ChainId.MAINNET,
+  //   contractAddress: {
+  //     [ChainId.MAINNET]: '0xaf06e544db4a6762631bd25Aa9A9352670bA851E',
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V4,
+  //   lpToken: tokens.usdt,
+  //   earnToken: tokens.hts,
+  //   billNnftAddress: {
+  //     [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+  //   },
+  //   projectLink: 'https://www.home3suite.com/',
+  //   twitter: 'https://x.com/Home3Suite',
+  //   initTime: { [ChainId.MAINNET]: 1757408553 },
+  //   soldOut: false,
+  //   hide: false,
+  //   billArt: {
+  //     collection: BillArtCollection.ETH_Collection1,
+  //   },
+  //   tags: ['Real Estate'],
+  //   shortDescription:
+  //     'HOME3 is transforming real estate by combining AI and blockchain to solve real-world problems with real-world assets. Through tokenization and on-chain finance, it makes property investment accessible, affordable, and transparent. Backed by experts across real estate, lending, and tech, HOME3 empowers users to search, buy, invest, and finance globally. Its utility token, HTS, powers equity and real estate-backed loans via PROP3 and LOAN3.',
+  //   fullDescription:
+  //     'HOME3 is revolutionizing real estate by merging AI and blockchain to solve real-world problems with real-world assets, making property investment accessible to all. Traditional real estate is burdened with high price tags and complex processes, leaving it exclusive to a select few. HOME3 breaks these barriers by building a complete platform where users can search, buy, invest, and finance real estate seamlessly on-chain. Backed by a diverse team of experts in property, lending, technology, and marketing, HOME3’s vision is to create a global marketplace that is inclusive, affordable, and transparent. By combining tokenization, AI-driven insights, and decentralized finance, the platform opens new opportunities for investors to earn from rental yields, REIT dividends, and property appreciation. At the core of this ecosystem is the HTS token, powering equity investments and real estate-backed loans on the upcoming PROP3 and LOAN3 platforms.',
+  // },
 ]
 
 export default bills
