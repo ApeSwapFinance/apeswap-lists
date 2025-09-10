@@ -267,6 +267,11 @@ const dexFactoriesPriceApi: Partial<
       factory: '0xefa94DE7a4656D787667C749f7E1223D71E9FD88',
       protocol: PriceApiProtocols.UniV2,
     },
+    {
+      name: LiquidityDex.BlackHole,
+      factory: '0xfe926062fb99ca5653080d6c14fe945ad68c265c',
+      protocol: PriceApiProtocols.Solidly,
+    },
   ],
   [ChainId.BLAST]: [
     {
