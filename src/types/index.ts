@@ -96,6 +96,7 @@ export enum LiquidityDex {
   //AVALANCHE
   Pharaoh = 'Pharaoh',
   Pangolin = 'Pangolin',
+  BlackHole = 'BlackHole',
 
   //BLAST
   ThrusterV2_03 = 'ThrusterV2_03', //0.3% fee
@@ -1024,4 +1025,5 @@ export const dexToZapMapping: Record<LiquidityDex, Partial<Record<ChainId, ZapVe
   [LiquidityDex.KodiakV2]: {},
   [LiquidityDex.KodiakV3]: {},
   [LiquidityDex.Equalizer]: {},
+  [LiquidityDex.BlackHole]: {},
 }
