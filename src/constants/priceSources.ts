@@ -605,6 +605,24 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       tokenAddress: '0x130abef84be9cf2343e56247a7896f9962450b08',
     },
   },
+  [ChainId.AVAX]: {
+    '0xf8b22737cbfea137f9b2737d1dab2a8a21608cee': {
+      name: 'TRADER',
+      symbol: 'TRADER',
+      decimals: 18,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '0xf8b22737cbfea137f9b2737d1dab2a8a21608cee',
+    },
+    '0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e': {
+      name: 'USDC',
+      symbol: 'USDC',
+      decimals: 6,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e',
+    },
+  },
 }
 
 export default priceSources

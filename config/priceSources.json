@@ -320,6 +320,24 @@
       "tokenAddress": "0x4D22e37Eb4d71D1acc5f4889a65936D2a44A2f15"
     }
   },
+  "43114": {
+    "0xf8b22737cbfea137f9b2737d1dab2a8a21608cee": {
+      "name": "TRADER",
+      "symbol": "TRADER",
+      "decimals": 18,
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "0xf8b22737cbfea137f9b2737d1dab2a8a21608cee"
+    },
+    "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e": {
+      "name": "USDC",
+      "symbol": "USDC",
+      "decimals": 6,
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e"
+    }
+  },
   "59144": {
     "0xcc22F6AA610D1b2a0e89EF228079cB3e1831b1D1": {
       "name": "Linea Velocore",
