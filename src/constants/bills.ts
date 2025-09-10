@@ -15924,7 +15924,7 @@ With the lending products set to go live in February, the project is poised to a
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
-    tags: ['Real Estate'],
+    tags: ['RWA'],
     shortDescription:
       'HOME3 is transforming real estate by combining AI and blockchain to solve real-world problems with real-world assets. Through tokenization and on-chain finance, it makes property investment accessible, affordable, and transparent. Backed by experts across real estate, lending, and tech, HOME3 empowers users to search, buy, invest, and finance globally. Its utility token, HTS, powers equity and real estate-backed loans via PROP3 and LOAN3.',
     fullDescription:

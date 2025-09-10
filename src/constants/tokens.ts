@@ -1794,6 +1794,7 @@ const tokens: Record<string, Token> = {
       [ChainId.KATANA]: '0x203A662b0BD271A6ed5a60EdFbd04bFce608FD36',
       [ChainId.SOL]: 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v',
       [ChainId.UNICHAIN]: '0x078D782b760474a361dDA0AF3839290b0EF57AD6',
+      [ChainId.AVAX]: '0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -1813,6 +1814,7 @@ const tokens: Record<string, Token> = {
       [ChainId.KATANA]: 6,
       [ChainId.SOL]: 6,
       [ChainId.UNICHAIN]: 6,
+      [ChainId.AVAX]: 6,
     },
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
@@ -1831,6 +1833,7 @@ const tokens: Record<string, Token> = {
       [ChainId.KATANA]: LiquidityDex.External,
       [ChainId.SOL]: LiquidityDex.External,
       [ChainId.UNICHAIN]: LiquidityDex.External,
+      [ChainId.AVAX]: LiquidityDex.External,
     },
     active: true,
   },
@@ -5533,6 +5536,19 @@ const tokens: Record<string, Token> = {
     },
     liquidityDex: {
       [ChainId.UNICHAIN]: LiquidityDex.External,
+    },
+    active: true,
+  },
+  trader: {
+    symbol: 'TRADER',
+    address: {
+      [ChainId.AVAX]: '0xf8b22737cbfea137f9b2737d1dab2a8a21608cee',
+    },
+    decimals: {
+      [ChainId.AVAX]: 18,
+    },
+    liquidityDex: {
+      [ChainId.AVAX]: LiquidityDex.External,
     },
     active: true,
   },
