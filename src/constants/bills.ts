@@ -1,7 +1,7 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1168
+// BNB Largest ID: 1169
 // Polygon Largest ID: 187
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2033
@@ -21,11 +21,37 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Katana Largest ID: 17000
 // SOL Largest ID: 18014
 // UNICHAIN Largest ID: 19001
+// AVAX Largest ID: 20000
 
 const bills: BillsConfig[] = [
   //
-  // Katana
+  // Avax
   //
+  {
+    index: 20000,
+    version: '2.1.0',
+    chainId: ChainId.AVAX,
+    contractAddress: {
+      [ChainId.AVAX]: '0x332e6f5c261ecb9c4309dc2409e03b68e77b61e3',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.trader,
+    billNnftAddress: {
+      [ChainId.AVAX]: '0x82cfcd79de447b01730b9ed0db2ad6ee5aaac55f',
+    },
+    projectLink: 'https://xyztrades.io/',
+    twitter: 'https://x.com/agentxyz_ai',
+    initTime: { [ChainId.AVAX]: 1757524292 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DEX'],
+    shortDescription: `XYZ.TRADES is transforming trading with the first AI-native terminal for retail and pro users. Powered by 28 specialized agents, it delivers real-time insights from TA, on-chain data, sentiment, and fundamentals, enabling seamless execution on X and the platform. Its native token, TRADER, powers the ecosystem.`,
+    fullDescription: `XYZ.TRADES, winner of Seedify’s 2025 Hackathon, is revolutionizing the trading landscape by delivering a hands-free, AI-powered experience that eliminates the stress of charts and manual strategies. Through seamless vault deposits, automated execution, and transparent pro-rata profit distribution, users gain access to professional-grade tools without complexity. At its core, AgentXYZ introduces the first AI-native trading terminal built for both retail and professional traders, powered by 28 specialized agents that analyze technical indicators, on-chain activity, social sentiment, and market fundamentals in real time. This ecosystem empowers traders with faster, smarter decisions and precision-driven execution directly on X or through the platform. The project’s native token, TRADER, powers the ecosystem and drives its growth.`,
+  },
 
   //
   // Unichain
@@ -3645,6 +3671,43 @@ const bills: BillsConfig[] = [
   // BNB chain
   //
   {
+    index: 1169,
+    cmcId: 29157,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x7CC372C30570bDaF1E5Ec2BaACA215f213B5c437',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.abond,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://ape.bond/',
+    twitter: 'https://twitter.com/apebond',
+    audit: 'https://paladinsec.co/projects/apebond/',
+    initTime: { [ChainId.BSC]: 1757343098 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    shortDescription:
+      'Step into the full ApeBond experience with $ABOND, more than just a token, it’s the gateway to real yield and premium perks. Lock $ABOND to access better Bond discounts, share in protocol revenue paid in $BNB, unlock exclusive tier-gated deals, and other benefits. With flexible lock options and Ape Tiers, it’s built for long-term believers.',
+    fullDescription:
+      'ABOND isn’t just a token it’s your key to the full ApeBond experience. As the foundation of the ApeBond ecosystem, $ABOND unlocks real yield, exclusive access, and deeper rewards for those who believe in the protocol long-term. By locking $ABOND, users climb Ape Tiers, unlocking extra discounts on Bonds across all chains and partners, earning real revenue share in $BNB from platform fees, and gaining access to premium, tier-gated bond opportunities with stronger returns. Holders also enjoy priority for campaign bonuses and airdrops. With flexible locking options and transparent, on-chain mechanics, $ABOND aligns user incentives with protocol growth — making it more than a token. It’s a commitment to building and benefiting together.',
+    tags: ['Bonding'],
+    partnersURLS: [
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/Seedify_fbt392.svg',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613244/ORBS_anzm60.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/quickLogo_2_1_g95ynz.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/aitech_logo_100_real_no_fake_bjskiq.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
+    ],
+  },
+  {
     index: 1168,
     cmcId: 29157,
     version: '2.1.0',
@@ -3663,7 +3726,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://twitter.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.BSC]: 1757343098 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
