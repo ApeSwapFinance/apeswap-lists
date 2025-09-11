@@ -7,7 +7,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Arbitrum Largest ID: 2033
 // ETH Largest ID: 3056
 // Linea Largest ID: 6020
-// Base Largest ID: 8057
+// Base Largest ID: 8058
 // Lightlink Largest ID: 7003
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
@@ -1449,6 +1449,31 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
+  {
+    index: 8058,
+    version: '2.1.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x9C860C1D7f38A4CA94C370F2B4C61394386196cD',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.eth,
+    earnToken: tokens.bob,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    projectLink: 'https://www.bankofbase.fun/',
+    twitter: 'https://x.com/bankofbase_fun',
+    initTime: { [ChainId.BASE]: 1757605019 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Community', 'Meme'],
+    shortDescription: `Bank of Base is reshaping decentralized banking on the Base network by blending meme culture with real DeFi utility. Through its unique reflection mechanism, holders earn USDC on every transaction, fostering passive income and community growth. With fast, low-cost Base transactions and transparent governance, the future of decentralized banking is powered by the BOB token.`,
+    fullDescription: `Bank of Base is redefining decentralized banking on the Base network by combining the fun of meme culture with the power of DeFi innovation. Built to reward participation, BOB introduces an innovative reflection mechanism that automatically distributes USDC to holders on every transaction, creating a sustainable source of passive income while strengthening community engagement. By leveraging Coinbase’s Base blockchain, users enjoy fast, secure, and low-cost transactions, ensuring accessibility for all. The project emphasizes transparency, community-driven governance, and financial empowerment, bridging the gap between traditional finance and the decentralized future. With its unique blend of tokenomics, utility, and culture, Bank of Base is more than a meme coin—it’s a movement towards the future of decentralized banking, all powered by the BOB token.`,
+  },
   {
     index: 8057,
     cmcId: 32229,
