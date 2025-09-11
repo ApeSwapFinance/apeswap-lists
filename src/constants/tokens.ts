@@ -1196,6 +1196,19 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.UniswapV2,
     },
   },
+  bob: {
+    symbol: 'BOB',
+    address: {
+      [ChainId.BASE]: '0x6234641eae20d15f803441F348352794419b44c7',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV2,
+    },
+  },
   sam: {
     symbol: 'SAM',
     address: {

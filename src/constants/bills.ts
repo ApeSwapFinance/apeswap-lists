@@ -19,7 +19,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Sonic Largest ID: 15007
 // Berachain Largest ID: 16005
 // Katana Largest ID: 17000
-// SOL Largest ID: 18014
+// SOL Largest ID: 18015
 // UNICHAIN Largest ID: 19001
 // AVAX Largest ID: 20000
 
@@ -495,7 +495,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://aitech.io/',
     twitter: 'https://x.com/AITECHio',
     initTime: { [ChainId.SOL]: 1756473060 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Solana_Collection1,
     },
@@ -503,6 +503,33 @@ const bills: BillsConfig[] = [
       'AITECH is paving the way for a more convenient and secure future by providing accessible Artificial Intelligence-as-a-Service (AIaaS), Blockchain-as-a-Service (BaaS), High-Performance Computing Power (HPC), and an artificial intelligence marketplace. All these are backed by their native token: $AITECH.',
     fullDescription:
       "AITECH is the world's first deflationary AI utilities token, driving the operations of Solidus AI Tech's eco-friendly High-Performance Computing (HPC) Data Centre in Europe. This 8,000 sqft facility supports a diverse ecosystem, including the AI and GPU Marketplaces as well as the AITECH Pad Launchpad. The GPU Marketplace offers high-performance GPUs for a wide range of tasks, available through flexible rentals with no upfront costs. The AI Marketplace provides a suite of AI tools for automating both business and personal activities, categorized into Foundational AI Models, AI Agents, and Standalone AI Solutions. The AITECH Pad Launchpad offers early access to seed, private, and public rounds of AI-focused and infrastructure projects. Stakers of the $AITECH token gain tiered access to these launches, powering the ecosystem and enabling seamless service transactions, where fiat payments are converted to $AITECH on the blockchain. A deflationary burn mechanism ensures that a portion of tokens used for services is permanently removed from circulation, reducing supply and enhancing long-term value.",
+    tags: ['AI'],
+  },
+  {
+    index: 18015,
+    version: '2.2.0',
+    chainId: ChainId.SOL,
+    contractAddress: {
+      [ChainId.SOL]: 'EfocnmD67sD68nw86F63wnygTyeRMc5ZpgcRsCbaHnbQ',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.aix,
+    billNnftAddress: {
+      [ChainId.SOL]: 'Fjh5bKKyc3J7sx5uojR87azWowW5fiPnXYLa5KR5Knch',
+    },
+    projectLink: 'https://aixovia.com/',
+    twitter: 'https://x.com/aixovia',
+    initTime: { [ChainId.SOL]: 1757589541 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Solana_Collection1,
+    },
+    shortDescription:
+      'AI Xovia is the world’s first fully autonomous AI orchestrating 1,000+ traders to restore fairness, transparency, and sustainability in crypto. Powered by AiXovia TradeSignal and AutoTrade app, it features revolutionary deflationary tokenomics with profits fueling $AIX buybacks. Launched with no presale and immutable security, the AIX token is the utility and value driver of the AI-powered revolution.',
+    fullDescription:
+      'AI Xovia emerges as a groundbreaking force in decentralized finance, introducing the world’s first fully autonomous AI that orchestrates the strategies of over 1,000 traders to create harmony in a market long plagued by manipulation, pump-and-dump schemes, and empty projects. Designed as both a technological and philosophical revolution, it seeks to restore transparency, fairness, and sustainability in crypto. With its AiXovia TradeSignal and AutoTrade app, users gain access to actionable trading intelligence backed by revolutionary deflationary tokenomics. Profits generated from external market operations fuel continuous $AIX buybacks, applying sustainable upward pressure and reinforcing long-term growth. Built with no presale for absolute fairness, the project ensures immutability and security by permanently revoking all control authorities. Beyond trading signals, its unique refund guarantee fosters trust and usability. At the heart of this ecosystem lies the AIX token, the utility and value driver of the AI-powered revolution.',
     tags: ['AI'],
   },
 
