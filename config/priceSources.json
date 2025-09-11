@@ -546,6 +546,14 @@
       "source": "dexscreener",
       "type": "token",
       "tokenAddress": "Gdck9KXSSiMMhNyjUjo4sVT1GDzeZnZP2yse9jhax3GR"
+    },
+    "AiXxRGmRc5oDiFXbEeRX9obPpr3Zir7rks1ef2NjddiF": {
+      "name": "Ai Xovia",
+      "symbol": "AIX",
+      "decimals": 9,
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "AiXxRGmRc5oDiFXbEeRX9obPpr3Zir7rks1ef2NjddiF"
     }
   }
 }
