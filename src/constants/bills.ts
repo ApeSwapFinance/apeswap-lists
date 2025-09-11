@@ -495,7 +495,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://aitech.io/',
     twitter: 'https://x.com/AITECHio',
     initTime: { [ChainId.SOL]: 1756473060 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Solana_Collection1,
     },
