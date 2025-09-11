@@ -479,6 +479,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       type: 'token',
       tokenAddress: 'Gdck9KXSSiMMhNyjUjo4sVT1GDzeZnZP2yse9jhax3GR',
     },
+    AiXxRGmRc5oDiFXbEeRX9obPpr3Zir7rks1ef2NjddiF: {
+      name: 'Ai Xovia',
+      symbol: 'AIX',
+      decimals: 9,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: 'AiXxRGmRc5oDiFXbEeRX9obPpr3Zir7rks1ef2NjddiF',
+    },
   },
   [ChainId.BERACHAIN]: {
     '0x28e0e3B9817012b356119dF9e217c25932D609c2': {

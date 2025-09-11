@@ -189,6 +189,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  aix: {
+    symbol: 'AIX',
+    address: {
+      [ChainId.SOL]: 'AiXxRGmRc5oDiFXbEeRX9obPpr3Zir7rks1ef2NjddiF',
+    },
+    decimals: {
+      [ChainId.SOL]: 9,
+    },
+    liquidityDex: {
+      [ChainId.SOL]: LiquidityDex.External,
+    },
+    active: true,
+  },
   atl: {
     symbol: 'ATL',
     address: {
