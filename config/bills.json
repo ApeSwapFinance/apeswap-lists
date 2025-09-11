@@ -924,6 +924,57 @@
     "tags": ["AI"]
   },
   {
+    "index": 18015,
+    "version": "2.2.0",
+    "chainId": 7565164,
+    "contractAddress": {
+      "7565164": "EfocnmD67sD68nw86F63wnygTyeRMc5ZpgcRsCbaHnbQ"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "7565164": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+      },
+      "decimals": {
+        "7565164": 6
+      },
+      "liquidityDex": {
+        "7565164": "External"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "AIX",
+      "address": {
+        "7565164": "AiXxRGmRc5oDiFXbEeRX9obPpr3Zir7rks1ef2NjddiF"
+      },
+      "decimals": {
+        "7565164": 9
+      },
+      "liquidityDex": {
+        "7565164": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "7565164": "Fjh5bKKyc3J7sx5uojR87azWowW5fiPnXYLa5KR5Knch"
+    },
+    "projectLink": "https://aixovia.com/",
+    "twitter": "https://x.com/aixovia",
+    "initTime": {
+      "7565164": 1757589541
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "Solana_Collection1"
+    },
+    "shortDescription": "AI Xovia is the world’s first fully autonomous AI orchestrating 1,000+ traders to restore fairness, transparency, and sustainability in crypto. Powered by AiXovia TradeSignal and AutoTrade app, it features revolutionary deflationary tokenomics with profits fueling $AIX buybacks. Launched with no presale and immutable security, the AIX token is the utility and value driver of the AI-powered revolution.",
+    "fullDescription": "AI Xovia emerges as a groundbreaking force in decentralized finance, introducing the world’s first fully autonomous AI that orchestrates the strategies of over 1,000 traders to create harmony in a market long plagued by manipulation, pump-and-dump schemes, and empty projects. Designed as both a technological and philosophical revolution, it seeks to restore transparency, fairness, and sustainability in crypto. With its AiXovia TradeSignal and AutoTrade app, users gain access to actionable trading intelligence backed by revolutionary deflationary tokenomics. Profits generated from external market operations fuel continuous $AIX buybacks, applying sustainable upward pressure and reinforcing long-term growth. Built with no presale for absolute fairness, the project ensures immutability and security by permanently revoking all control authorities. Beyond trading signals, its unique refund guarantee fosters trust and usability. At the heart of this ecosystem lies the AIX token, the utility and value driver of the AI-powered revolution.",
+    "tags": ["AI"]
+  },
+  {
     "index": 16000,
     "version": "2.1.0",
     "chainId": 80094,
