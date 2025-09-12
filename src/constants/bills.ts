@@ -441,7 +441,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://childrenofthesky.com/',
     twitter: 'https://x.com/COTSCLUB',
     initTime: { [ChainId.SOL]: 1755014340 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Solana_Collection1,
     },
