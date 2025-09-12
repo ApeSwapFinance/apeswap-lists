@@ -2891,9 +2891,9 @@ const tokens: Record<string, Token> = {
     decimals: {
       [ChainId.MATIC]: 18,
     },
-    // liquidityDex: {
-    //   [ChainId.MATIC]: LiquidityDex.SushiSwapV3,
-    // },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.External,
+    },
     active: true,
   },
   picksReal: {
