@@ -1599,7 +1599,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://fullhouse.gg/',
     twitter: 'https://x.com/Full_House_GG',
     initTime: { [ChainId.BASE]: 1753099559 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
