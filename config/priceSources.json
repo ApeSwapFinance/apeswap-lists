@@ -182,6 +182,14 @@
       "source": "mexc",
       "id": "FURIUSDT",
       "tokenAddress": "0x5742fE477b2afed92c25D092418BaC06CD076ceA"
+    },
+    "0x9fe4860bd6c9e78c6d998ae88173f347a253c2de": {
+      "name": "PicksTicket ",
+      "symbol": "PICKST",
+      "decimals": 18,
+      "source": "fixed",
+      "price": 1,
+      "tokenAddress": "0x9fe4860bd6c9e78c6d998ae88173f347a253c2de"
     }
   },
   "146": {

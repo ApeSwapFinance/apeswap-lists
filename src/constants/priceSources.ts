@@ -189,6 +189,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       id: 'FURIUSDT',
       tokenAddress: '0x5742fE477b2afed92c25D092418BaC06CD076ceA',
     },
+    '0x9fe4860bd6c9e78c6d998ae88173f347a253c2de': {
+      name: 'PicksTicket ',
+      symbol: 'PICKST',
+      decimals: 18,
+      source: PriceSource.Fixed,
+      price: 1,
+      tokenAddress: '0x9fe4860bd6c9e78c6d998ae88173f347a253c2de',
+    },
   },
   [ChainId.BASE]: {
     '0xACf80A4e55F5f28e1e7d261a221cA495DB5bcbB3': {

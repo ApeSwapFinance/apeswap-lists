@@ -2884,9 +2884,9 @@ const tokens: Record<string, Token> = {
     active: true,
   },
   picksMockUsdt: {
-    symbol: 'PICKSUSDT',
+    symbol: 'PICKST',
     address: {
-      [ChainId.MATIC]: '0x9Fe4860bd6C9E78C6d998aE88173f347A253C2de',
+      [ChainId.MATIC]: '0x9fe4860bd6c9e78c6d998ae88173f347a253c2de',
     },
     decimals: {
       [ChainId.MATIC]: 18,
