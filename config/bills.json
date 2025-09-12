@@ -762,7 +762,7 @@
     "initTime": {
       "7565164": 1755013140
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "Solana_Collection1"
     },
