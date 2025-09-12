@@ -2883,6 +2883,32 @@ const tokens: Record<string, Token> = {
     // },
     active: true,
   },
+  picksMockUsdt: {
+    symbol: 'PICKST',
+    address: {
+      [ChainId.MATIC]: '0x9fe4860bd6c9e78c6d998ae88173f347a253c2de',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    // liquidityDex: {
+    //   [ChainId.MATIC]: LiquidityDex.SushiSwapV3,
+    // },
+    active: true,
+  },
+  picksReal: {
+    symbol: 'PICKS',
+    address: {
+      [ChainId.MATIC]: '0xA5F5D53CB5077831528d735Bf1590C472197c4dF',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    // liquidityDex: {
+    //   [ChainId.MATIC]: LiquidityDex.SushiSwapV3,
+    // },
+    active: true,
+  },
   dai: {
     symbol: 'DAI',
     address: {
