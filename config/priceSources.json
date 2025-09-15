@@ -344,6 +344,30 @@
       "source": "dexscreener",
       "type": "token",
       "tokenAddress": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e"
+    },
+    "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7": {
+      "name": "Wrapped AVAX",
+      "symbol": "WAVAX",
+      "decimals": 18,
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7"
+    },
+    "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7": {
+      "name": "Tether: USDT",
+      "symbol": "USDT",
+      "decimals": 6,
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7"
+    },
+    "0x152b9d0fdc40c096757f570a51e494bd4b943e50": {
+      "name": "Bitcoin",
+      "symbol": "BTC.b",
+      "decimals": 8,
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "0x152b9d0fdc40c096757f570a51e494bd4b943e50"
     }
   },
   "59144": {

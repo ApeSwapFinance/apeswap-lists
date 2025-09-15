@@ -26,6 +26,7 @@
         "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "43114": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
         "747474": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2",
         "7565164": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
@@ -43,6 +44,7 @@
         "8453": 6,
         "8822": 6,
         "42161": 6,
+        "43114": 6,
         "59144": 6,
         "747474": 6,
         "7565164": 6
@@ -58,6 +60,7 @@
         "8453": "UniswapV3",
         "8822": "Wagmi",
         "42161": "UniswapV3",
+        "43114": "External",
         "59144": "Nile",
         "747474": "External",
         "7565164": "External"
@@ -76,6 +79,7 @@
         "8453": "0x0c41F1FC9022FEB69aF6dc666aBfE73C9FFDA7ce",
         "10143": "0xcf5a6076cfa32686c0Df13aBaDa2b40dec133F1d",
         "42161": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+        "43114": "0x152b9d0fdc40c096757f570a51e494bd4b943e50",
         "59144": "0x3aAB2285ddcDdaD8edf438C1bAB47e1a9D05a9b4",
         "80094": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
         "81457": "0xF7bc58b8D8f97ADC129cfC4c9f45Ce3C0E1D2692"
@@ -90,6 +94,7 @@
         "8453": 18,
         "10143": 8,
         "42161": 8,
+        "43114": 8,
         "59144": 8,
         "80094": 8,
         "81457": 18
@@ -102,6 +107,7 @@
         "8453": "UniswapV2",
         "10143": "PancakeSwapV2",
         "42161": "UniswapV3",
+        "43114": "External",
         "59144": "Lynex",
         "80094": "KodiakV3",
         "81457": "ThrusterV3"
@@ -156,6 +162,7 @@
         "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "43114": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
         "747474": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2",
         "7565164": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
@@ -173,6 +180,7 @@
         "8453": 6,
         "8822": 6,
         "42161": 6,
+        "43114": 6,
         "59144": 6,
         "747474": 6,
         "7565164": 6
@@ -188,6 +196,7 @@
         "8453": "UniswapV3",
         "8822": "Wagmi",
         "42161": "UniswapV3",
+        "43114": "External",
         "59144": "Nile",
         "747474": "External",
         "7565164": "External"
@@ -206,6 +215,7 @@
         "8453": "0x0c41F1FC9022FEB69aF6dc666aBfE73C9FFDA7ce",
         "10143": "0xcf5a6076cfa32686c0Df13aBaDa2b40dec133F1d",
         "42161": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+        "43114": "0x152b9d0fdc40c096757f570a51e494bd4b943e50",
         "59144": "0x3aAB2285ddcDdaD8edf438C1bAB47e1a9D05a9b4",
         "80094": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
         "81457": "0xF7bc58b8D8f97ADC129cfC4c9f45Ce3C0E1D2692"
@@ -220,6 +230,7 @@
         "8453": 18,
         "10143": 8,
         "42161": 8,
+        "43114": 8,
         "59144": 8,
         "80094": 8,
         "81457": 18
@@ -232,6 +243,7 @@
         "8453": "UniswapV2",
         "10143": "PancakeSwapV2",
         "42161": "UniswapV3",
+        "43114": "External",
         "59144": "Lynex",
         "80094": "KodiakV3",
         "81457": "ThrusterV3"
@@ -286,6 +298,7 @@
         "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "43114": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
         "747474": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2",
         "7565164": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
@@ -303,6 +316,7 @@
         "8453": 6,
         "8822": 6,
         "42161": 6,
+        "43114": 6,
         "59144": 6,
         "747474": 6,
         "7565164": 6
@@ -318,6 +332,7 @@
         "8453": "UniswapV3",
         "8822": "Wagmi",
         "42161": "UniswapV3",
+        "43114": "External",
         "59144": "Nile",
         "747474": "External",
         "7565164": "External"
@@ -437,6 +452,7 @@
         "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "43114": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
         "747474": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2",
         "7565164": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
@@ -454,6 +470,7 @@
         "8453": 6,
         "8822": 6,
         "42161": 6,
+        "43114": 6,
         "59144": 6,
         "747474": 6,
         "7565164": 6
@@ -469,6 +486,7 @@
         "8453": "UniswapV3",
         "8822": "Wagmi",
         "42161": "UniswapV3",
+        "43114": "External",
         "59144": "Nile",
         "747474": "External",
         "7565164": "External"
@@ -588,6 +606,7 @@
         "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "43114": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
         "747474": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2",
         "7565164": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
@@ -605,6 +624,7 @@
         "8453": 6,
         "8822": 6,
         "42161": 6,
+        "43114": 6,
         "59144": 6,
         "747474": 6,
         "7565164": 6
@@ -620,6 +640,7 @@
         "8453": "UniswapV3",
         "8822": "Wagmi",
         "42161": "UniswapV3",
+        "43114": "External",
         "59144": "Nile",
         "747474": "External",
         "7565164": "External"
@@ -691,6 +712,7 @@
         "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "43114": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
         "747474": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2",
         "7565164": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
@@ -708,6 +730,7 @@
         "8453": 6,
         "8822": 6,
         "42161": 6,
+        "43114": 6,
         "59144": 6,
         "747474": 6,
         "7565164": 6
@@ -723,6 +746,7 @@
         "8453": "UniswapV3",
         "8822": "Wagmi",
         "42161": "UniswapV3",
+        "43114": "External",
         "59144": "Nile",
         "747474": "External",
         "7565164": "External"
@@ -794,6 +818,7 @@
         "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "43114": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
         "747474": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2",
         "7565164": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
@@ -811,6 +836,7 @@
         "8453": 6,
         "8822": 6,
         "42161": 6,
+        "43114": 6,
         "59144": 6,
         "747474": 6,
         "7565164": 6
@@ -826,6 +852,7 @@
         "8453": "UniswapV3",
         "8822": "Wagmi",
         "42161": "UniswapV3",
+        "43114": "External",
         "59144": "Nile",
         "747474": "External",
         "7565164": "External"
@@ -897,6 +924,7 @@
         "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "43114": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
         "747474": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2",
         "7565164": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
@@ -914,6 +942,7 @@
         "8453": 6,
         "8822": 6,
         "42161": 6,
+        "43114": 6,
         "59144": 6,
         "747474": 6,
         "7565164": 6
@@ -929,6 +958,7 @@
         "8453": "UniswapV3",
         "8822": "Wagmi",
         "42161": "UniswapV3",
+        "43114": "External",
         "59144": "Nile",
         "747474": "External",
         "7565164": "External"
@@ -947,6 +977,7 @@
         "8453": "0x0c41F1FC9022FEB69aF6dc666aBfE73C9FFDA7ce",
         "10143": "0xcf5a6076cfa32686c0Df13aBaDa2b40dec133F1d",
         "42161": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+        "43114": "0x152b9d0fdc40c096757f570a51e494bd4b943e50",
         "59144": "0x3aAB2285ddcDdaD8edf438C1bAB47e1a9D05a9b4",
         "80094": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
         "81457": "0xF7bc58b8D8f97ADC129cfC4c9f45Ce3C0E1D2692"
@@ -961,6 +992,7 @@
         "8453": 18,
         "10143": 8,
         "42161": 8,
+        "43114": 8,
         "59144": 8,
         "80094": 8,
         "81457": 18
@@ -973,6 +1005,7 @@
         "8453": "UniswapV2",
         "10143": "PancakeSwapV2",
         "42161": "UniswapV3",
+        "43114": "External",
         "59144": "Lynex",
         "80094": "KodiakV3",
         "81457": "ThrusterV3"
@@ -1027,6 +1060,7 @@
         "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "43114": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
         "747474": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2",
         "7565164": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
@@ -1044,6 +1078,7 @@
         "8453": 6,
         "8822": 6,
         "42161": 6,
+        "43114": 6,
         "59144": 6,
         "747474": 6,
         "7565164": 6
@@ -1059,6 +1094,7 @@
         "8453": "UniswapV3",
         "8822": "Wagmi",
         "42161": "UniswapV3",
+        "43114": "External",
         "59144": "Nile",
         "747474": "External",
         "7565164": "External"
@@ -1077,6 +1113,7 @@
         "8453": "0x0c41F1FC9022FEB69aF6dc666aBfE73C9FFDA7ce",
         "10143": "0xcf5a6076cfa32686c0Df13aBaDa2b40dec133F1d",
         "42161": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+        "43114": "0x152b9d0fdc40c096757f570a51e494bd4b943e50",
         "59144": "0x3aAB2285ddcDdaD8edf438C1bAB47e1a9D05a9b4",
         "80094": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
         "81457": "0xF7bc58b8D8f97ADC129cfC4c9f45Ce3C0E1D2692"
@@ -1091,6 +1128,7 @@
         "8453": 18,
         "10143": 8,
         "42161": 8,
+        "43114": 8,
         "59144": 8,
         "80094": 8,
         "81457": 18
@@ -1103,6 +1141,7 @@
         "8453": "UniswapV2",
         "10143": "PancakeSwapV2",
         "42161": "UniswapV3",
+        "43114": "External",
         "59144": "Lynex",
         "80094": "KodiakV3",
         "81457": "ThrusterV3"
@@ -1157,6 +1196,7 @@
         "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "43114": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
         "747474": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2",
         "7565164": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
@@ -1174,6 +1214,7 @@
         "8453": 6,
         "8822": 6,
         "42161": 6,
+        "43114": 6,
         "59144": 6,
         "747474": 6,
         "7565164": 6
@@ -1189,6 +1230,7 @@
         "8453": "UniswapV3",
         "8822": "Wagmi",
         "42161": "UniswapV3",
+        "43114": "External",
         "59144": "Nile",
         "747474": "External",
         "7565164": "External"
@@ -1207,6 +1249,7 @@
         "8453": "0x0c41F1FC9022FEB69aF6dc666aBfE73C9FFDA7ce",
         "10143": "0xcf5a6076cfa32686c0Df13aBaDa2b40dec133F1d",
         "42161": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+        "43114": "0x152b9d0fdc40c096757f570a51e494bd4b943e50",
         "59144": "0x3aAB2285ddcDdaD8edf438C1bAB47e1a9D05a9b4",
         "80094": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
         "81457": "0xF7bc58b8D8f97ADC129cfC4c9f45Ce3C0E1D2692"
@@ -1221,6 +1264,7 @@
         "8453": 18,
         "10143": 8,
         "42161": 8,
+        "43114": 8,
         "59144": 8,
         "80094": 8,
         "81457": 18
@@ -1233,6 +1277,7 @@
         "8453": "UniswapV2",
         "10143": "PancakeSwapV2",
         "42161": "UniswapV3",
+        "43114": "External",
         "59144": "Lynex",
         "80094": "KodiakV3",
         "81457": "ThrusterV3"
@@ -1287,6 +1332,7 @@
         "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "43114": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
         "747474": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2",
         "7565164": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
@@ -1304,6 +1350,7 @@
         "8453": 6,
         "8822": 6,
         "42161": 6,
+        "43114": 6,
         "59144": 6,
         "747474": 6,
         "7565164": 6
@@ -1319,6 +1366,7 @@
         "8453": "UniswapV3",
         "8822": "Wagmi",
         "42161": "UniswapV3",
+        "43114": "External",
         "59144": "Nile",
         "747474": "External",
         "7565164": "External"
@@ -1337,6 +1385,7 @@
         "8453": "0x0c41F1FC9022FEB69aF6dc666aBfE73C9FFDA7ce",
         "10143": "0xcf5a6076cfa32686c0Df13aBaDa2b40dec133F1d",
         "42161": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+        "43114": "0x152b9d0fdc40c096757f570a51e494bd4b943e50",
         "59144": "0x3aAB2285ddcDdaD8edf438C1bAB47e1a9D05a9b4",
         "80094": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
         "81457": "0xF7bc58b8D8f97ADC129cfC4c9f45Ce3C0E1D2692"
@@ -1351,6 +1400,7 @@
         "8453": 18,
         "10143": 8,
         "42161": 8,
+        "43114": 8,
         "59144": 8,
         "80094": 8,
         "81457": 18
@@ -1363,6 +1413,7 @@
         "8453": "UniswapV2",
         "10143": "PancakeSwapV2",
         "42161": "UniswapV3",
+        "43114": "External",
         "59144": "Lynex",
         "80094": "KodiakV3",
         "81457": "ThrusterV3"
@@ -1417,6 +1468,7 @@
         "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "43114": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
         "747474": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2",
         "7565164": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
@@ -1434,6 +1486,7 @@
         "8453": 6,
         "8822": 6,
         "42161": 6,
+        "43114": 6,
         "59144": 6,
         "747474": 6,
         "7565164": 6
@@ -1449,6 +1502,7 @@
         "8453": "UniswapV3",
         "8822": "Wagmi",
         "42161": "UniswapV3",
+        "43114": "External",
         "59144": "Nile",
         "747474": "External",
         "7565164": "External"
@@ -1568,6 +1622,7 @@
         "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "43114": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
         "747474": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2",
         "7565164": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
@@ -1585,6 +1640,7 @@
         "8453": 6,
         "8822": 6,
         "42161": 6,
+        "43114": 6,
         "59144": 6,
         "747474": 6,
         "7565164": 6
@@ -1600,6 +1656,7 @@
         "8453": "UniswapV3",
         "8822": "Wagmi",
         "42161": "UniswapV3",
+        "43114": "External",
         "59144": "Nile",
         "747474": "External",
         "7565164": "External"
@@ -1719,6 +1776,7 @@
         "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "43114": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
         "747474": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2",
         "7565164": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
@@ -1736,6 +1794,7 @@
         "8453": 6,
         "8822": 6,
         "42161": 6,
+        "43114": 6,
         "59144": 6,
         "747474": 6,
         "7565164": 6
@@ -1751,6 +1810,7 @@
         "8453": "UniswapV3",
         "8822": "Wagmi",
         "42161": "UniswapV3",
+        "43114": "External",
         "59144": "Nile",
         "747474": "External",
         "7565164": "External"
@@ -1870,6 +1930,7 @@
         "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "43114": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
         "747474": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2",
         "7565164": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
@@ -1887,6 +1948,7 @@
         "8453": 6,
         "8822": 6,
         "42161": 6,
+        "43114": 6,
         "59144": 6,
         "747474": 6,
         "7565164": 6
@@ -1902,6 +1964,7 @@
         "8453": "UniswapV3",
         "8822": "Wagmi",
         "42161": "UniswapV3",
+        "43114": "External",
         "59144": "Nile",
         "747474": "External",
         "7565164": "External"
@@ -1920,6 +1983,7 @@
         "8453": "0x0c41F1FC9022FEB69aF6dc666aBfE73C9FFDA7ce",
         "10143": "0xcf5a6076cfa32686c0Df13aBaDa2b40dec133F1d",
         "42161": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+        "43114": "0x152b9d0fdc40c096757f570a51e494bd4b943e50",
         "59144": "0x3aAB2285ddcDdaD8edf438C1bAB47e1a9D05a9b4",
         "80094": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
         "81457": "0xF7bc58b8D8f97ADC129cfC4c9f45Ce3C0E1D2692"
@@ -1934,6 +1998,7 @@
         "8453": 18,
         "10143": 8,
         "42161": 8,
+        "43114": 8,
         "59144": 8,
         "80094": 8,
         "81457": 18
@@ -1946,6 +2011,7 @@
         "8453": "UniswapV2",
         "10143": "PancakeSwapV2",
         "42161": "UniswapV3",
+        "43114": "External",
         "59144": "Lynex",
         "80094": "KodiakV3",
         "81457": "ThrusterV3"
@@ -2000,6 +2066,7 @@
         "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "43114": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
         "747474": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2",
         "7565164": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
@@ -2017,6 +2084,7 @@
         "8453": 6,
         "8822": 6,
         "42161": 6,
+        "43114": 6,
         "59144": 6,
         "747474": 6,
         "7565164": 6
@@ -2032,6 +2100,7 @@
         "8453": "UniswapV3",
         "8822": "Wagmi",
         "42161": "UniswapV3",
+        "43114": "External",
         "59144": "Nile",
         "747474": "External",
         "7565164": "External"
@@ -2050,6 +2119,7 @@
         "8453": "0x0c41F1FC9022FEB69aF6dc666aBfE73C9FFDA7ce",
         "10143": "0xcf5a6076cfa32686c0Df13aBaDa2b40dec133F1d",
         "42161": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+        "43114": "0x152b9d0fdc40c096757f570a51e494bd4b943e50",
         "59144": "0x3aAB2285ddcDdaD8edf438C1bAB47e1a9D05a9b4",
         "80094": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
         "81457": "0xF7bc58b8D8f97ADC129cfC4c9f45Ce3C0E1D2692"
@@ -2064,6 +2134,7 @@
         "8453": 18,
         "10143": 8,
         "42161": 8,
+        "43114": 8,
         "59144": 8,
         "80094": 8,
         "81457": 18
@@ -2076,6 +2147,7 @@
         "8453": "UniswapV2",
         "10143": "PancakeSwapV2",
         "42161": "UniswapV3",
+        "43114": "External",
         "59144": "Lynex",
         "80094": "KodiakV3",
         "81457": "ThrusterV3"
@@ -2130,6 +2202,7 @@
         "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "43114": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
         "747474": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2",
         "7565164": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
@@ -2147,6 +2220,7 @@
         "8453": 6,
         "8822": 6,
         "42161": 6,
+        "43114": 6,
         "59144": 6,
         "747474": 6,
         "7565164": 6
@@ -2162,6 +2236,7 @@
         "8453": "UniswapV3",
         "8822": "Wagmi",
         "42161": "UniswapV3",
+        "43114": "External",
         "59144": "Nile",
         "747474": "External",
         "7565164": "External"
@@ -2281,6 +2356,7 @@
         "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "43114": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
         "747474": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2",
         "7565164": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
@@ -2298,6 +2374,7 @@
         "8453": 6,
         "8822": 6,
         "42161": 6,
+        "43114": 6,
         "59144": 6,
         "747474": 6,
         "7565164": 6
@@ -2313,6 +2390,7 @@
         "8453": "UniswapV3",
         "8822": "Wagmi",
         "42161": "UniswapV3",
+        "43114": "External",
         "59144": "Nile",
         "747474": "External",
         "7565164": "External"
@@ -2432,6 +2510,7 @@
         "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "43114": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
         "747474": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2",
         "7565164": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
@@ -2449,6 +2528,7 @@
         "8453": 6,
         "8822": 6,
         "42161": 6,
+        "43114": 6,
         "59144": 6,
         "747474": 6,
         "7565164": 6
@@ -2464,6 +2544,7 @@
         "8453": "UniswapV3",
         "8822": "Wagmi",
         "42161": "UniswapV3",
+        "43114": "External",
         "59144": "Nile",
         "747474": "External",
         "7565164": "External"
@@ -2482,6 +2563,7 @@
         "8453": "0x0c41F1FC9022FEB69aF6dc666aBfE73C9FFDA7ce",
         "10143": "0xcf5a6076cfa32686c0Df13aBaDa2b40dec133F1d",
         "42161": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+        "43114": "0x152b9d0fdc40c096757f570a51e494bd4b943e50",
         "59144": "0x3aAB2285ddcDdaD8edf438C1bAB47e1a9D05a9b4",
         "80094": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
         "81457": "0xF7bc58b8D8f97ADC129cfC4c9f45Ce3C0E1D2692"
@@ -2496,6 +2578,7 @@
         "8453": 18,
         "10143": 8,
         "42161": 8,
+        "43114": 8,
         "59144": 8,
         "80094": 8,
         "81457": 18
@@ -2508,6 +2591,7 @@
         "8453": "UniswapV2",
         "10143": "PancakeSwapV2",
         "42161": "UniswapV3",
+        "43114": "External",
         "59144": "Lynex",
         "80094": "KodiakV3",
         "81457": "ThrusterV3"
@@ -2562,6 +2646,7 @@
         "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "43114": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
         "747474": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2",
         "7565164": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
@@ -2579,6 +2664,7 @@
         "8453": 6,
         "8822": 6,
         "42161": 6,
+        "43114": 6,
         "59144": 6,
         "747474": 6,
         "7565164": 6
@@ -2594,6 +2680,7 @@
         "8453": "UniswapV3",
         "8822": "Wagmi",
         "42161": "UniswapV3",
+        "43114": "External",
         "59144": "Nile",
         "747474": "External",
         "7565164": "External"
@@ -2612,6 +2699,7 @@
         "8453": "0x0c41F1FC9022FEB69aF6dc666aBfE73C9FFDA7ce",
         "10143": "0xcf5a6076cfa32686c0Df13aBaDa2b40dec133F1d",
         "42161": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+        "43114": "0x152b9d0fdc40c096757f570a51e494bd4b943e50",
         "59144": "0x3aAB2285ddcDdaD8edf438C1bAB47e1a9D05a9b4",
         "80094": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
         "81457": "0xF7bc58b8D8f97ADC129cfC4c9f45Ce3C0E1D2692"
@@ -2626,6 +2714,7 @@
         "8453": 18,
         "10143": 8,
         "42161": 8,
+        "43114": 8,
         "59144": 8,
         "80094": 8,
         "81457": 18
@@ -2638,6 +2727,7 @@
         "8453": "UniswapV2",
         "10143": "PancakeSwapV2",
         "42161": "UniswapV3",
+        "43114": "External",
         "59144": "Lynex",
         "80094": "KodiakV3",
         "81457": "ThrusterV3"
@@ -2692,6 +2782,7 @@
         "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "43114": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
         "747474": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2",
         "7565164": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
@@ -2709,6 +2800,7 @@
         "8453": 6,
         "8822": 6,
         "42161": 6,
+        "43114": 6,
         "59144": 6,
         "747474": 6,
         "7565164": 6
@@ -2724,6 +2816,7 @@
         "8453": "UniswapV3",
         "8822": "Wagmi",
         "42161": "UniswapV3",
+        "43114": "External",
         "59144": "Nile",
         "747474": "External",
         "7565164": "External"
@@ -2742,6 +2835,7 @@
         "8453": "0x0c41F1FC9022FEB69aF6dc666aBfE73C9FFDA7ce",
         "10143": "0xcf5a6076cfa32686c0Df13aBaDa2b40dec133F1d",
         "42161": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+        "43114": "0x152b9d0fdc40c096757f570a51e494bd4b943e50",
         "59144": "0x3aAB2285ddcDdaD8edf438C1bAB47e1a9D05a9b4",
         "80094": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
         "81457": "0xF7bc58b8D8f97ADC129cfC4c9f45Ce3C0E1D2692"
@@ -2756,6 +2850,7 @@
         "8453": 18,
         "10143": 8,
         "42161": 8,
+        "43114": 8,
         "59144": 8,
         "80094": 8,
         "81457": 18
@@ -2768,6 +2863,7 @@
         "8453": "UniswapV2",
         "10143": "PancakeSwapV2",
         "42161": "UniswapV3",
+        "43114": "External",
         "59144": "Lynex",
         "80094": "KodiakV3",
         "81457": "ThrusterV3"
@@ -2822,6 +2918,7 @@
         "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "43114": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
         "747474": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2",
         "7565164": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
@@ -2839,6 +2936,7 @@
         "8453": 6,
         "8822": 6,
         "42161": 6,
+        "43114": 6,
         "59144": 6,
         "747474": 6,
         "7565164": 6
@@ -2854,6 +2952,7 @@
         "8453": "UniswapV3",
         "8822": "Wagmi",
         "42161": "UniswapV3",
+        "43114": "External",
         "59144": "Nile",
         "747474": "External",
         "7565164": "External"
@@ -2925,6 +3024,7 @@
         "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
         "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "43114": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
         "747474": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2",
         "7565164": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
@@ -2942,6 +3042,7 @@
         "8453": 6,
         "8822": 6,
         "42161": 6,
+        "43114": 6,
         "59144": 6,
         "747474": 6,
         "7565164": 6
@@ -2957,6 +3058,7 @@
         "8453": "UniswapV3",
         "8822": "Wagmi",
         "42161": "UniswapV3",
+        "43114": "External",
         "59144": "Nile",
         "747474": "External",
         "7565164": "External"
