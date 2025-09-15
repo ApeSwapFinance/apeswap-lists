@@ -1159,14 +1159,17 @@
     "token": {
       "symbol": "AVAX",
       "address": {
-        "56": "0x1ce0c2827e2ef14d5c4f29a091d735a204794041"
+        "56": "0x1ce0c2827e2ef14d5c4f29a091d735a204794041",
+        "43114": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7"
       },
       "decimals": {
-        "56": 18
+        "56": 18,
+        "43114": 18
       },
       "active": true,
       "liquidityDex": {
-        "56": "PancakeSwapV3"
+        "56": "PancakeSwapV3",
+        "43114": "External"
       }
     },
     "quoteToken": {

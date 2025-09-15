@@ -1735,6 +1735,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BERACHAIN]: '0x0555E30da8f98308EdB960aa94C0Db47230d2B9c',
       [ChainId.SONIC]: '0x0555E30da8f98308EdB960aa94C0Db47230d2B9c', //same address with berachain
       [ChainId.BLAST]: '0xF7bc58b8D8f97ADC129cfC4c9f45Ce3C0E1D2692',
+      [ChainId.AVAX]: '0x152b9d0fdc40c096757f570a51e494bd4b943e50',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -1749,6 +1750,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BERACHAIN]: 8,
       [ChainId.SONIC]: 8,
       [ChainId.BLAST]: 18,
+      [ChainId.AVAX]: 8,
     },
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
@@ -1761,6 +1763,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BERACHAIN]: LiquidityDex.KodiakV3,
       [ChainId.SONIC]: LiquidityDex.ShadowExchange,
       [ChainId.BLAST]: LiquidityDex.ThrusterV3, //very low liquidity on Blast
+      [ChainId.AVAX]: LiquidityDex.External,
     },
     active: true,
   },
@@ -2955,6 +2958,7 @@ const tokens: Record<string, Token> = {
       [ChainId.KATANA]: '0x2DCa96907fde857dd3D816880A0df407eeB2D2F2',
       [ChainId.UNICHAIN]: '0x9151434b16b9763660705744891fA906F660EcC5',
       [ChainId.SOL]: 'Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB',
+      [ChainId.AVAX]: '0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7',
     },
     decimals: {
       [ChainId.MAINNET]: 6,
@@ -2972,6 +2976,7 @@ const tokens: Record<string, Token> = {
       [ChainId.KATANA]: 6,
       [ChainId.UNICHAIN]: 6,
       [ChainId.SOL]: 6,
+      [ChainId.AVAX]: 6,
     },
     liquidityDex: {
       [ChainId.MAINNET]: LiquidityDex.UniswapV2,
@@ -2987,6 +2992,7 @@ const tokens: Record<string, Token> = {
       [ChainId.KATANA]: LiquidityDex.External,
       [ChainId.UNICHAIN]: LiquidityDex.External,
       [ChainId.SOL]: LiquidityDex.External,
+      [ChainId.AVAX]: LiquidityDex.External,
     },
     active: true,
   },
@@ -3898,13 +3904,16 @@ const tokens: Record<string, Token> = {
     symbol: 'AVAX',
     address: {
       [ChainId.BSC]: '0x1ce0c2827e2ef14d5c4f29a091d735a204794041',
+      [ChainId.AVAX]: '0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7', //This is wrapped AVAX
     },
     decimals: {
       [ChainId.BSC]: 18,
+      [ChainId.AVAX]: 18,
     },
     active: true,
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+      [ChainId.AVAX]: LiquidityDex.External,
     },
   },
   dot: {
