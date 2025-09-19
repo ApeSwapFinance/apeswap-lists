@@ -10933,6 +10933,32 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     Polygon Bills
   */
   {
+    index: 188,
+    version: '2.1.0',
+    chainId: ChainId.MATIC,
+    contractAddress: {
+      [ChainId.MATIC]: '0x0b2Fd0f23AbA56D230126e47D0C2647845049e1B',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.wpol,
+    earnToken: tokens.cfr,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
+    },
+    projectLink: 'https://www.crypto-factor.io/',
+    twitter: 'https://x.com/_Crypto_Factor',
+    initTime: { [ChainId.MATIC]: 1758274785 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    shortDescription:
+      'Crypto Factor is an end-to-end platform that makes blockchain infrastructure radically accessible, enabling creators, DAOs, and businesses to deploy tokens, staking, liquidity tools, governance, and more with one click and no code required. Backed by cross-chain interoperability and fully decentralized execution, its ecosystem is powered by the CFR token.',
+    fullDescription: `Crypto Factor is an end-to-end platform designed to make blockchain infrastructure radically accessible, empowering creators, DAOs, Web2 businesses, and Web3 communities to deploy DeFi and digital ecosystem services without writing a single line of code. Through its Infrastructure as a Service (IaaS) model, the platform offers one-click deployment of programmable tools such as token creation, staking and rewards systems, liquidity management, presales, and governance frameworks, all backed by fully decentralized execution and cross-chain capabilities via its Interchain Mesh. By removing technical barriers and central gatekeepers, Crypto Factor enables anyone to move from idea to launch instantly, reliably, and permissionlessly while contributing to ecosystems like DeFiChain, Partisia, and Polygon. At the core of this innovation lies the CFR Token, powering access, incentives, and governance across its growing ecosystem.`,
+    tags: ['Infrastructure'],
+  },
+  {
     index: 187,
     version: '2.1.0',
     chainId: ChainId.MATIC,
