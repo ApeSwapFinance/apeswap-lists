@@ -2808,6 +2808,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  cfr: {
+    symbol: 'CFR',
+    address: {
+      [ChainId.MATIC]: '0x17C7C74e0cD779F33CB5a6E8aB39De46168e9ef7',
+    },
+    decimals: {
+      [ChainId.MATIC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MATIC]: LiquidityDex.QuickswapV2,
+    },
+    active: true,
+  },
   mee: {
     symbol: 'MEE',
     address: {

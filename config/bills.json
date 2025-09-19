@@ -21544,6 +21544,57 @@
     "soldOut": true
   },
   {
+    "index": 188,
+    "version": "2.1.0",
+    "chainId": 137,
+    "contractAddress": {
+      "137": "0x0b2Fd0f23AbA56D230126e47D0C2647845049e1B"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "POL",
+      "address": {
+        "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "UniswapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "CFR",
+      "address": {
+        "137": "0x17C7C74e0cD779F33CB5a6E8aB39De46168e9ef7"
+      },
+      "decimals": {
+        "137": 18
+      },
+      "liquidityDex": {
+        "137": "QuickswapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "137": "0x8860ABc05FefEF93306c8d65a5eFD421F155d67E"
+    },
+    "projectLink": "https://www.crypto-factor.io/",
+    "twitter": "https://x.com/_Crypto_Factor",
+    "initTime": {
+      "137": 1758274785
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "shortDescription": "Crypto Factor is an end-to-end platform that makes blockchain infrastructure radically accessible, enabling creators, DAOs, and businesses to deploy tokens, staking, liquidity tools, governance, and more with one click and no code required. Backed by cross-chain interoperability and fully decentralized execution, its ecosystem is powered by the CFR token.",
+    "fullDescription": "Crypto Factor is an end-to-end platform designed to make blockchain infrastructure radically accessible, empowering creators, DAOs, Web2 businesses, and Web3 communities to deploy DeFi and digital ecosystem services without writing a single line of code. Through its Infrastructure as a Service (IaaS) model, the platform offers one-click deployment of programmable tools such as token creation, staking and rewards systems, liquidity management, presales, and governance frameworks, all backed by fully decentralized execution and cross-chain capabilities via its Interchain Mesh. By removing technical barriers and central gatekeepers, Crypto Factor enables anyone to move from idea to launch instantly, reliably, and permissionlessly while contributing to ecosystems like DeFiChain, Partisia, and Polygon. At the core of this innovation lies the CFR Token, powering access, incentives, and governance across its growing ecosystem.",
+    "tags": ["Infrastructure"]
+  },
+  {
     "index": 187,
     "version": "2.1.0",
     "chainId": 137,
