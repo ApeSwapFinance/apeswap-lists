@@ -23251,7 +23251,7 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
+      "active": false,
       "liquidityDex": {}
     },
     "billNnftAddress": {
@@ -23305,7 +23305,7 @@
       "decimals": {
         "137": 18
       },
-      "active": true,
+      "active": false,
       "liquidityDex": {}
     },
     "billNnftAddress": {

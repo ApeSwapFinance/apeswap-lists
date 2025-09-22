@@ -2622,7 +2622,7 @@ const tokens: Record<string, Token> = {
     // liquidityDex: {
     //   [ChainId.MATIC]: LiquidityDex.Algebra,
     // },
-    active: true,
+    active: false,
   },
   vda: {
     symbol: 'VDA',
