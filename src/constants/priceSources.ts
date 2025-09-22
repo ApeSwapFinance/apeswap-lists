@@ -251,6 +251,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       type: 'token',
       tokenAddress: '0x4D22e37Eb4d71D1acc5f4889a65936D2a44A2f15',
     },
+    '0xD6b3d81868770083307840F513A3491960b95cb6': {
+      name: 'Credbull',
+      symbol: 'CBL',
+      decimals: 18,
+      source: PriceSource.Coingecko,
+      id: 'credbull',
+      tokenAddress: '0xD6b3d81868770083307840F513A3491960b95cb6', //CBL
+    },
   },
   [ChainId.GRAPHLINQ]: {
     '0x0000000000000000000000000000000000000000': {

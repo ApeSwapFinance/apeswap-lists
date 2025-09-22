@@ -536,7 +536,7 @@ const tokens: Record<string, Token> = {
     },
     active: true,
     liquidityDex: {
-      [ChainId.ARBITRUM]: LiquidityDex.UniswapV3,
+      [ChainId.ARBITRUM]: LiquidityDex.External,
     },
   },
   dna: {
