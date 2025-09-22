@@ -2618,9 +2618,10 @@ const tokens: Record<string, Token> = {
     decimals: {
       [ChainId.MATIC]: 18,
     },
-    liquidityDex: {
-      [ChainId.MATIC]: LiquidityDex.Algebra,
-    },
+    // * Removed as there is no liquidity on chain.
+    // liquidityDex: {
+    //   [ChainId.MATIC]: LiquidityDex.Algebra,
+    // },
     active: true,
   },
   vda: {
