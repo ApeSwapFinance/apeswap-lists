@@ -19,6 +19,8 @@ import {
   dexFactoriesPriceApi,
   priceSources,
   preTGEBonds,
+  WNATIVE,
+  zapInputTokens,
 } from '../constants'
 import { BillsConfig, Token, ChainId, LiquidityDex } from '../types'
 
@@ -115,8 +117,8 @@ const buildTokensSimplified = () => {
   // Get tokens from all bills (both active and sold out)
   const allBills = bills
 
-  // Collect unique tokens from lpToken and earnToken of all bills
-  const tokensFromBills = new Map<string, { token: Token; chainIds: Set<ChainId>; tokenKey: string }>()
+  // Collect unique tokens from lpToken and earnToken of all bills, plus WNATIVE and zapInputTokens
+  const collectedTokens = new Map<string, { token: Token; chainIds: Set<ChainId>; tokenKey: string }>()
 
   allBills.forEach((bill) => {
     const chainId = bill.chainId
@@ -125,10 +127,10 @@ const buildTokensSimplified = () => {
     if (bill.lpToken) {
       const symbol = bill.lpToken.symbol
       const tokenKey = symbolToKey.get(symbol)
-      if (tokenKey && !tokensFromBills.has(symbol)) {
-        tokensFromBills.set(symbol, { token: bill.lpToken, chainIds: new Set(), tokenKey })
+      if (tokenKey && !collectedTokens.has(symbol)) {
+        collectedTokens.set(symbol, { token: bill.lpToken, chainIds: new Set(), tokenKey })
       }
-      const tokenData = tokensFromBills.get(symbol)
+      const tokenData = collectedTokens.get(symbol)
       if (tokenData) {
         tokenData.chainIds.add(chainId)
       }
@@ -138,21 +140,62 @@ const buildTokensSimplified = () => {
     if (bill.earnToken) {
       const symbol = bill.earnToken.symbol
       const tokenKey = symbolToKey.get(symbol)
-      if (tokenKey && !tokensFromBills.has(symbol)) {
-        tokensFromBills.set(symbol, { token: bill.earnToken, chainIds: new Set(), tokenKey })
+      if (tokenKey && !collectedTokens.has(symbol)) {
+        collectedTokens.set(symbol, { token: bill.earnToken, chainIds: new Set(), tokenKey })
       }
-      const tokenData = tokensFromBills.get(symbol)
+      const tokenData = collectedTokens.get(symbol)
       if (tokenData) {
         tokenData.chainIds.add(chainId)
       }
     }
   })
 
-  // Build filtered tokens object with only the chains used in bills
+  // Add tokens from WNATIVE
+  Object.entries(WNATIVE).forEach(([chainIdStr, token]) => {
+    if (token) {
+      const chainId = parseInt(chainIdStr) as ChainId
+      const symbol = token.symbol
+      const tokenKey = symbolToKey.get(symbol)
+
+      if (tokenKey) {
+        if (!collectedTokens.has(symbol)) {
+          collectedTokens.set(symbol, { token, chainIds: new Set(), tokenKey })
+        }
+        const tokenData = collectedTokens.get(symbol)
+        if (tokenData) {
+          tokenData.chainIds.add(chainId)
+        }
+      }
+    }
+  })
+
+  // Add tokens from zapInputTokens
+  Object.entries(zapInputTokens).forEach(([chainIdStr, tokenArray]) => {
+    if (tokenArray) {
+      const chainId = parseInt(chainIdStr) as ChainId
+
+      tokenArray.forEach((token) => {
+        const symbol = token.symbol
+        const tokenKey = symbolToKey.get(symbol)
+
+        if (tokenKey) {
+          if (!collectedTokens.has(symbol)) {
+            collectedTokens.set(symbol, { token, chainIds: new Set(), tokenKey })
+          }
+          const tokenData = collectedTokens.get(symbol)
+          if (tokenData) {
+            tokenData.chainIds.add(chainId)
+          }
+        }
+      })
+    }
+  })
+
+  // Build filtered tokens object with only the chains where tokens are used
   const filteredTokens: Record<string, Token> = {}
 
-  tokensFromBills.forEach(({ token, chainIds, tokenKey }) => {
-    // Filter addresses and decimals to only include chains used in bills
+  collectedTokens.forEach(({ token, chainIds, tokenKey }) => {
+    // Filter addresses and decimals to only include chains where tokens are used
     const filteredAddress: Partial<Record<ChainId, string>> = {}
     const filteredDecimals: Partial<Record<ChainId, number>> = {}
     const filteredLiquidityDex: Partial<Record<ChainId, LiquidityDex>> = {}
@@ -191,7 +234,7 @@ const buildTokensSimplified = () => {
       filteredToken.price = token.price
     }
     if (token.getLpUrl) {
-      // Filter getLpUrl to only include chains used in bills
+      // Filter getLpUrl to only include chains where tokens are used
       const filteredGetLpUrl: Partial<Record<ChainId, string>> = {}
       chainIds.forEach((chainId) => {
         if (token.getLpUrl && token.getLpUrl[chainId]) {
@@ -209,7 +252,7 @@ const buildTokensSimplified = () => {
       filteredToken.liquidityWrapper = token.liquidityWrapper
     }
     if (token.liquiditySource) {
-      // Filter liquiditySource to only include chains used in bills
+      // Filter liquiditySource to only include chains where tokens are used
       const filteredLiquiditySource: Partial<Record<ChainId, LiquidityDex>> = {}
       chainIds.forEach((chainId) => {
         if (token.liquiditySource && token.liquiditySource[chainId]) {
