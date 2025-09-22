@@ -322,6 +322,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  mrln: {
+    symbol: 'MRLN',
+    address: {
+      [ChainId.BSC]: '0x79be2b20389a869476d183b1f42b9950eaf457d8',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.External,
+    },
+    active: true,
+  },
   mon: {
     symbol: 'WMON',
     address: {
