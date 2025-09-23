@@ -1,13 +1,13 @@
 {
   "name": "@ape.swap/apeswap-lists",
-  "version": "4.4.1",
+  "version": "4.4.2",
   "publishConfig": {
     "access": "public"
   },
-  "main": "lib/types/index.js",
-  "types": "lib/types/index.d.ts",
+  "main": "lib/main.js",
+  "types": "lib/main.d.ts",
   "files": [
-    "lib/types"
+    "lib"
   ],
   "repository": {
     "type": "git",
