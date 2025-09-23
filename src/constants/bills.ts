@@ -997,7 +997,7 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://www.azex.io/',
     initTime: { [ChainId.MONAD_TESTNET]: 1746818338 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -3193,7 +3193,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://linusonlinea.com/',
     twitter: 'https://x.com/linusonlinea',
     initTime: { [ChainId.LINEA]: 1753290000 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },

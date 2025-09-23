@@ -1,8 +1,7 @@
-import BigNumber from 'bignumber.js'
 import { PoolConfig, PoolCategory, ChainId } from '../types'
 import tokens from './tokens'
 
-const BANANA_PER_BLOCK = new BigNumber(10)
+const BANANA_PER_BLOCK = 10
 
 // Current BNB Sous ID is 240
 // Current MATIC Sous ID is 1000
@@ -23,7 +22,7 @@ const pools: PoolConfig[] = [
     twitter: 'https://twitter.com/ape_swap',
     audit: 'https://paladinsec.co/projects/apeswap/',
     harvest: true,
-    tokenPerBlock: `${BANANA_PER_BLOCK.toNumber() * 0.25}`,
+    tokenPerBlock: `${BANANA_PER_BLOCK * 0.25}`,
     sortOrder: 1,
     isFinished: false,
     tokenDecimals: 18,
@@ -45,7 +44,7 @@ const pools: PoolConfig[] = [
     twitter: 'https://twitter.com/ape_swap',
     audit: 'https://paladinsec.co/projects/apeswap/',
     harvest: true,
-    tokenPerBlock: `${BANANA_PER_BLOCK.toNumber() * 0.25}`,
+    tokenPerBlock: `${BANANA_PER_BLOCK * 0.25}`,
     sortOrder: 1,
     isFinished: true,
     tokenDecimals: 18,
