@@ -7,7 +7,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Arbitrum Largest ID: 2033
 // ETH Largest ID: 3056
 // Linea Largest ID: 6020
-// Base Largest ID: 8059
+// Base Largest ID: 8060
 // Lightlink Largest ID: 7003
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
@@ -1450,6 +1450,34 @@ const bills: BillsConfig[] = [
   // BASE
   //
   {
+    index: 8060,
+    cmcId: 38432,
+    version: '2.1.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x8FB30478a7cB82c0421819f145305610a7dc5c07',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.aiq,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    projectLink: 'https://aiquant.fun/',
+    twitter: 'https://x.com/aiquantfun',
+    initTime: { [ChainId.BASE]: 1758876492 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DefAI'],
+    shortDescription:
+      'AIQuant is transforming crypto trading with AI-driven agents that operate 24/7, eliminating emotion and focusing on precision. Traders can customize strategies, gamify goals, and earn rewards, all within a sustainable ecosystem. At the heart of this innovation is the $AIQ token, the key to unlocking value, aligning incentives, and fueling this AI-powered ecosystem.',
+    fullDescription:
+      'AIQuant is redefining the future of crypto trading by merging innovation, automation, and gamification into one powerful platform. It empowers users to launch AI-driven agents that operate independently, executing trades around the clock with data-driven precision and speed while removing human emotion from decision-making. Each AI Quant is fully customizable, allowing traders to fine-tune strategies to align with personal goals and risk tolerance, creating a flexible and scalable trading experience. By integrating advanced algorithms and gamified milestones, AIQuant.fun transforms trading into an engaging, rewarding journey. The platform’s unique design fosters sustainable growth and community participation, underpinned by a robust economic model. At its core lies the $AIQ token, the key to unlocking value, aligning incentives, and fueling this AI-powered ecosystem.',
+  },
+  {
     index: 8059,
     version: '2.1.0',
     chainId: ChainId.BASE,
@@ -1466,7 +1494,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.symm.io/',
     twitter: 'https://x.com/symm_io',
     initTime: { [ChainId.BASE]: 1758529940 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -4018,7 +4046,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://vameon.com/',
     twitter: 'https://x.com/vameon69',
     initTime: { [ChainId.BSC]: 1756907453 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
