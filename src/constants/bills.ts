@@ -21,12 +21,63 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Katana Largest ID: 17000
 // SOL Largest ID: 18015
 // UNICHAIN Largest ID: 19001
-// AVAX Largest ID: 20000
+// AVAX Largest ID: 20001
 
 const bills: BillsConfig[] = [
+  // {
+  //   index: 20000,
+  //   version: '2.1.0',
+  //   chainId: ChainId.MEGAETH_TESTNET,
+  //   contractAddress: {
+  //     [ChainId.MEGAETH_TESTNET]: '0x58F51F31Cca3890D571ecFB47f62bB530339529d',
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V2,
+  //   lpToken: tokens.busdc,
+  //   earnToken: tokens.eth,
+  //   billNnftAddress: {
+  //     [ChainId.MEGAETH_TESTNET]: '0xc765C358622cB346f236F8Bfffe53036e421bb4e',
+  //   },
+  //   projectLink: 'https://www.megaeth.com/',
+  //   twitter: 'https://x.com/megaeth_labs',
+  //   initTime: { [ChainId.MEGAETH_TESTNET]: 1754577140 },
+  //   soldOut: false,
+  //   billArt: {
+  //     collection: BillArtCollection.ApeBond_Collection1,
+  //   },
+  //   tags: ['Testnet'],
+  //   shortDescription: 'lorem ipsum',
+  //   fullDescription: 'lorem ipsum dolor sit amet',
+  //   warningCard: 'Testnet Bonds use fake tokens for testing purposes only.',
+  // },
   //
   // Avax
   //
+  {
+    index: 20001,
+    version: '2.1.0',
+    chainId: ChainId.AVAX,
+    contractAddress: {
+      [ChainId.AVAX]: '0x586c70e0391d3fd00A738Ce64b36B3E3611b7d6b',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.trader,
+    billNnftAddress: {
+      [ChainId.AVAX]: '0x82cfcd79de447b01730b9ed0db2ad6ee5aaac55f',
+    },
+    projectLink: 'https://xyztrades.io/',
+    twitter: 'https://x.com/agentxyz_ai',
+    initTime: { [ChainId.AVAX]: 1758905720 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DefAI'],
+    shortDescription: `XYZ.TRADES is transforming trading with the first AI-native terminal for retail and pro users. Powered by 28 specialized agents, it delivers real-time insights from TA, on-chain data, sentiment, and fundamentals, enabling seamless execution on X and the platform. Its native token, TRADER, powers the ecosystem.`,
+    fullDescription: `XYZ.TRADES, winner of Seedify’s 2025 Hackathon, is revolutionizing the trading landscape by delivering a hands-free, AI-powered experience that eliminates the stress of charts and manual strategies. Through seamless vault deposits, automated execution, and transparent pro-rata profit distribution, users gain access to professional-grade tools without complexity. At its core, AgentXYZ introduces the first AI-native trading terminal built for both retail and professional traders, powered by 28 specialized agents that analyze technical indicators, on-chain activity, social sentiment, and market fundamentals in real time. This ecosystem empowers traders with faster, smarter decisions and precision-driven execution directly on X or through the platform. The project’s native token, TRADER, powers the ecosystem and drives its growth.`,
+  },
   {
     index: 20000,
     version: '2.1.0',
