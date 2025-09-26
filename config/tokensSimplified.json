@@ -879,7 +879,7 @@
     },
     "active": true,
     "liquidityDex": {
-      "8453": "UniswapV3"
+      "8453": "Aerodrome"
     }
   },
   "munity": {
@@ -1414,7 +1414,7 @@
     },
     "active": true,
     "liquidityDex": {
-      "59144": "Lynex"
+      "59144": "Algebra"
     }
   },
   "nile": {

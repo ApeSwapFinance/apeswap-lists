@@ -1077,7 +1077,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: 6,
     },
     liquidityDex: {
-      [ChainId.BASE]: LiquidityDex.UniswapV3,
+      [ChainId.BASE]: LiquidityDex.Aerodrome,
     },
     active: true,
   },
@@ -1451,7 +1451,7 @@ const tokens: Record<string, Token> = {
     },
     active: true,
     liquidityDex: {
-      [ChainId.LINEA]: LiquidityDex.Lynex,
+      [ChainId.LINEA]: LiquidityDex.Algebra,
     },
   },
   lpuss: {

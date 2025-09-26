@@ -3516,7 +3516,7 @@
         "8453": 6
       },
       "liquidityDex": {
-        "8453": "UniswapV3"
+        "8453": "Aerodrome"
       },
       "active": true
     },
@@ -6882,7 +6882,7 @@
       },
       "active": true,
       "liquidityDex": {
-        "59144": "Lynex"
+        "59144": "Algebra"
       }
     },
     "billNnftAddress": {
@@ -6984,7 +6984,7 @@
       },
       "active": true,
       "liquidityDex": {
-        "59144": "Lynex"
+        "59144": "Algebra"
       }
     },
     "billNnftAddress": {
