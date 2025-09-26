@@ -1306,7 +1306,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/graphlinq_proto',
     audit: 'https://www.cyberscope.io/audits/coin-graphlinq-protocol',
     initTime: { [ChainId.GRAPHLINQ]: 1730454213 },
-    soldOut: true,
+    soldOut: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
