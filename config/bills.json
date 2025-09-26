@@ -2760,6 +2760,58 @@
     "fullDescription": "FOMOFox is the first market-driven storytelling meme coin on IOTA EVM. Follow the thrilling journey of FOMOFox on TwitterX and help him conquer his FOMO by influencing the $FOMO Token’s market performance. Loyal holders will find countless opportunities to grow their $FOMO bags through raffles, solving riddles, or simply holding and supporting the fox. Along the way, FOMOFox faces diverse challenges and meets intriguing characters. Your influence on the market helps him make the right choices. This project offers pure entertainment and rewards those who stick with it! Join the adventure now and visit their website for more details!"
   },
   {
+    "index": 8060,
+    "cmcId": 38432,
+    "version": "2.1.0",
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0x8FB30478a7cB82c0421819f145305610a7dc5c07"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "8453": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+      },
+      "decimals": {
+        "8453": 6
+      },
+      "liquidityDex": {
+        "8453": "Aerodrome"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "AIQ",
+      "address": {
+        "8453": "0x3131b29A1158792b29821166DFf0bFa38efeE335"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "8453": "UniswapV3"
+      }
+    },
+    "billNnftAddress": {
+      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "projectLink": "https://aiquant.fun/",
+    "twitter": "https://x.com/aiquantfun",
+    "initTime": {
+      "8453": 1758876492
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["DefAI"],
+    "shortDescription": "AIQuant is transforming crypto trading with AI-driven agents that operate 24/7, eliminating emotion and focusing on precision. Traders can customize strategies, gamify goals, and earn rewards, all within a sustainable ecosystem. At the heart of this innovation is the $AIQ token, the key to unlocking value, aligning incentives, and fueling this AI-powered ecosystem.",
+    "fullDescription": "AIQuant is redefining the future of crypto trading by merging innovation, automation, and gamification into one powerful platform. It empowers users to launch AI-driven agents that operate independently, executing trades around the clock with data-driven precision and speed while removing human emotion from decision-making. Each AI Quant is fully customizable, allowing traders to fine-tune strategies to align with personal goals and risk tolerance, creating a flexible and scalable trading experience. By integrating advanced algorithms and gamified milestones, AIQuant.fun transforms trading into an engaging, rewarding journey. The platform’s unique design fosters sustainable growth and community participation, underpinned by a robust economic model. At its core lies the $AIQ token, the key to unlocking value, aligning incentives, and fueling this AI-powered ecosystem."
+  },
+  {
     "index": 8059,
     "version": "2.1.0",
     "chainId": 8453,
