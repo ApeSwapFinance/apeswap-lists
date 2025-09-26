@@ -1,57 +1,5 @@
 [
   {
-    "index": 20000,
-    "version": "2.1.0",
-    "chainId": 6342,
-    "contractAddress": {
-      "6342": "0x58F51F31Cca3890D571ecFB47f62bB530339529d"
-    },
-    "billType": "reserve",
-    "billVersion": "V2",
-    "lpToken": {
-      "symbol": "BUSDC",
-      "address": {
-        "6342": "0x130abef84be9cf2343e56247a7896f9962450b08"
-      },
-      "decimals": {
-        "6342": 6
-      },
-      "liquidityDex": {
-        "6342": "External"
-      },
-      "active": true
-    },
-    "earnToken": {
-      "symbol": "ETH",
-      "address": {
-        "6342": "0x4eB2Bd7beE16F38B1F4a0A5796Fffd028b6040e9"
-      },
-      "decimals": {
-        "6342": 18
-      },
-      "liquidityDex": {
-        "6342": "External"
-      },
-      "active": true
-    },
-    "billNnftAddress": {
-      "6342": "0xc765C358622cB346f236F8Bfffe53036e421bb4e"
-    },
-    "projectLink": "https://www.megaeth.com/",
-    "twitter": "https://x.com/megaeth_labs",
-    "initTime": {
-      "6342": 1754577140
-    },
-    "soldOut": false,
-    "billArt": {
-      "collection": "ApeBond_Collection1"
-    },
-    "tags": ["Testnet"],
-    "shortDescription": "lorem ipsum",
-    "fullDescription": "lorem ipsum dolor sit amet",
-    "warningCard": "Testnet Bonds use fake tokens for testing purposes only."
-  },
-  {
     "index": 20001,
     "version": "2.1.0",
     "chainId": 43114,
