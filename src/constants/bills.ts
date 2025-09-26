@@ -1494,7 +1494,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.symm.io/',
     twitter: 'https://x.com/symm_io',
     initTime: { [ChainId.BASE]: 1758529940 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -4046,7 +4046,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://vameon.com/',
     twitter: 'https://x.com/vameon69',
     initTime: { [ChainId.BSC]: 1756907453 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
