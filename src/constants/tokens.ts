@@ -695,6 +695,19 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.UniswapV3,
     },
   },
+  aiq: {
+    symbol: 'AIQ',
+    address: {
+      [ChainId.BASE]: '0x3131b29A1158792b29821166DFf0bFa38efeE335',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV3,
+    },
+  },
   fmt: {
     symbol: 'FMT',
     address: {
