@@ -24,6 +24,32 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // AVAX Largest ID: 20000
 
 const bills: BillsConfig[] = [
+  {
+    index: 20000,
+    version: '2.1.0',
+    chainId: ChainId.MEGAETH_TESTNET,
+    contractAddress: {
+      [ChainId.MEGAETH_TESTNET]: '0x58F51F31Cca3890D571ecFB47f62bB530339529d',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.busdc,
+    earnToken: tokens.eth,
+    billNnftAddress: {
+      [ChainId.MEGAETH_TESTNET]: '0xc765C358622cB346f236F8Bfffe53036e421bb4e',
+    },
+    projectLink: 'https://www.megaeth.com/',
+    twitter: 'https://x.com/megaeth_labs',
+    initTime: { [ChainId.MEGAETH_TESTNET]: 1754577140 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Testnet'],
+    shortDescription: 'lorem ipsum',
+    fullDescription: 'lorem ipsum dolor sit amet',
+    warningCard: 'Testnet Bonds use fake tokens for testing purposes only.',
+  },
   //
   // Avax
   //
@@ -1306,7 +1332,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/graphlinq_proto',
     audit: 'https://www.cyberscope.io/audits/coin-graphlinq-protocol',
     initTime: { [ChainId.GRAPHLINQ]: 1730454213 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
