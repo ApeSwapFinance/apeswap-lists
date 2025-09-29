@@ -95,7 +95,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://xyztrades.io/',
     twitter: 'https://x.com/agentxyz_ai',
     initTime: { [ChainId.AVAX]: 1757524292 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
