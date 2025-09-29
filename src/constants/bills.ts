@@ -3322,7 +3322,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.bankoflinea.build/app',
     twitter: 'https://x.com/BankOfLinea',
     initTime: { [ChainId.LINEA]: 1753290000 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -4227,7 +4227,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://smardex.io/home',
     twitter: 'https://twitter.com/SmarDex',
     initTime: { [ChainId.BSC]: 1754932161 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
