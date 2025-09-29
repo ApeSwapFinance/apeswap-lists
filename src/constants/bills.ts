@@ -246,6 +246,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 18003,
+    cmcId: 35815,
     version: '2.2.0',
     chainId: ChainId.SOL,
     contractAddress: {
@@ -558,6 +559,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 18015,
+    cmcId: 37257,
     version: '2.2.0',
     chainId: ChainId.SOL,
     contractAddress: {
@@ -11169,6 +11171,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 187,
+    cmcId: 29604,
     version: '2.1.0',
     chainId: ChainId.MATIC,
     contractAddress: {
@@ -16244,6 +16247,7 @@ With the lending products set to go live in February, the project is poised to a
   },
   {
     index: 3053,
+    cmcId: 37291,
     version: '2.1.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
@@ -16300,6 +16304,7 @@ With the lending products set to go live in February, the project is poised to a
   },
   {
     index: 3055,
+    cmcId: 8376,
     version: '2.1.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
@@ -16328,6 +16333,7 @@ With the lending products set to go live in February, the project is poised to a
   },
   {
     index: 3056,
+    cmcId: 31708,
     version: '2.1.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
