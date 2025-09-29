@@ -93,7 +93,7 @@
     "initTime": {
       "43114": 1757524292
     },
-    "soldOut": true,
+    "soldOut": false,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -362,6 +362,7 @@
   },
   {
     "index": 18003,
+    "cmcId": 35815,
     "version": "2.2.0",
     "chainId": 7565164,
     "contractAddress": {
@@ -976,6 +977,7 @@
   },
   {
     "index": 18015,
+    "cmcId": 37257,
     "version": "2.2.0",
     "chainId": 7565164,
     "contractAddress": {
@@ -6428,7 +6430,7 @@
     "initTime": {
       "59144": 1753290000
     },
-    "soldOut": true,
+    "soldOut": false,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -8109,7 +8111,7 @@
     "initTime": {
       "56": 1754932161
     },
-    "soldOut": true,
+    "soldOut": false,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -21925,6 +21927,7 @@
   },
   {
     "index": 187,
+    "cmcId": 29604,
     "version": "2.1.0",
     "chainId": 137,
     "contractAddress": {
@@ -31781,6 +31784,7 @@
   },
   {
     "index": 3053,
+    "cmcId": 37291,
     "version": "2.1.0",
     "chainId": 1,
     "contractAddress": {
@@ -31885,6 +31889,7 @@
   },
   {
     "index": 3055,
+    "cmcId": 8376,
     "version": "2.1.0",
     "chainId": 1,
     "contractAddress": {
@@ -31939,6 +31944,7 @@
   },
   {
     "index": 3056,
+    "cmcId": 31708,
     "version": "2.1.0",
     "chainId": 1,
     "contractAddress": {

@@ -95,7 +95,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://xyztrades.io/',
     twitter: 'https://x.com/agentxyz_ai',
     initTime: { [ChainId.AVAX]: 1757524292 },
-    soldOut: true,
+    soldOut: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -246,6 +246,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 18003,
+    cmcId: 35815,
     version: '2.2.0',
     chainId: ChainId.SOL,
     contractAddress: {
@@ -558,6 +559,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 18015,
+    cmcId: 37257,
     version: '2.2.0',
     chainId: ChainId.SOL,
     contractAddress: {
@@ -3322,7 +3324,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.bankoflinea.build/app',
     twitter: 'https://x.com/BankOfLinea',
     initTime: { [ChainId.LINEA]: 1753290000 },
-    soldOut: true,
+    soldOut: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -4227,7 +4229,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://smardex.io/home',
     twitter: 'https://twitter.com/SmarDex',
     initTime: { [ChainId.BSC]: 1754932161 },
-    soldOut: true,
+    soldOut: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -11169,6 +11171,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   },
   {
     index: 187,
+    cmcId: 29604,
     version: '2.1.0',
     chainId: ChainId.MATIC,
     contractAddress: {
@@ -16244,6 +16247,7 @@ With the lending products set to go live in February, the project is poised to a
   },
   {
     index: 3053,
+    cmcId: 37291,
     version: '2.1.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
@@ -16300,6 +16304,7 @@ With the lending products set to go live in February, the project is poised to a
   },
   {
     index: 3055,
+    cmcId: 8376,
     version: '2.1.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
@@ -16328,6 +16333,7 @@ With the lending products set to go live in February, the project is poised to a
   },
   {
     index: 3056,
+    cmcId: 31708,
     version: '2.1.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
