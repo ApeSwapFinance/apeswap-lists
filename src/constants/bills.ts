@@ -210,7 +210,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.hyperonsol.com/',
     twitter: 'https://x.com/hyperonsol',
     initTime: { [ChainId.SOL_DEVNET]: 1752067620 },
-    soldOut: true,
+    soldOut: false,
     billArt: {
       collection: BillArtCollection.Solana_Collection1,
     },
