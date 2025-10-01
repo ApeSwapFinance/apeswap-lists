@@ -4905,6 +4905,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  bnv: {
+    symbol: 'BNV',
+    address: {
+      [ChainId.MAINNET]: '0x7D3Ce1265d5eA5848Dc1C96AADbf754E2baD33b1',
+    },
+    decimals: { [ChainId.MAINNET]: 18 },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV3,
+    },
+    active: true,
+  },
   pumlx: {
     symbol: 'PUMLx',
     address: {
