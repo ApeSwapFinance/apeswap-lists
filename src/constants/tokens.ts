@@ -4905,8 +4905,8 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
-  bnv: {
-    symbol: 'BNV',
+  fash: {
+    symbol: 'FASH',
     address: {
       [ChainId.MAINNET]: '0x7D3Ce1265d5eA5848Dc1C96AADbf754E2baD33b1',
     },

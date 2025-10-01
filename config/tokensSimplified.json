@@ -5452,6 +5452,19 @@
       "1": "UniswapV2"
     }
   },
+  "fash": {
+    "symbol": "FASH",
+    "address": {
+      "1": "0x7D3Ce1265d5eA5848Dc1C96AADbf754E2baD33b1"
+    },
+    "decimals": {
+      "1": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "1": "UniswapV3"
+    }
+  },
   "fdusd": {
     "symbol": "FDUSD",
     "address": {

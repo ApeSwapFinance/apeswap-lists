@@ -5,7 +5,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Polygon Largest ID: 188
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2033
-// ETH Largest ID: 3056
+// ETH Largest ID: 3057
 // Linea Largest ID: 6020
 // Base Largest ID: 8060
 // Lightlink Largest ID: 7003
@@ -16359,6 +16359,34 @@ With the lending products set to go live in February, the project is poised to a
       'HOME3 is transforming real estate by combining AI and blockchain to solve real-world problems with real-world assets. Through tokenization and on-chain finance, it makes property investment accessible, affordable, and transparent. Backed by experts across real estate, lending, and tech, HOME3 empowers users to search, buy, invest, and finance globally. Its utility token, HTS, powers equity and real estate-backed loans via PROP3 and LOAN3.',
     fullDescription:
       'HOME3 is revolutionizing real estate by merging AI and blockchain to solve real-world problems with real-world assets, making property investment accessible to all. Traditional real estate is burdened with high price tags and complex processes, leaving it exclusive to a select few. HOME3 breaks these barriers by building a complete platform where users can search, buy, invest, and finance real estate seamlessly on-chain. Backed by a diverse team of experts in property, lending, technology, and marketing, HOME3’s vision is to create a global marketplace that is inclusive, affordable, and transparent. By combining tokenization, AI-driven insights, and decentralized finance, the platform opens new opportunities for investors to earn from rental yields, REIT dividends, and property appreciation. At the core of this ecosystem is the HTS token, powering equity investments and real estate-backed loans on the upcoming PROP3 and LOAN3 platforms.',
+  },
+  {
+    index: 3057,
+    version: '2.1.0',
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0x2C39f9A866AB251Cc02dC711A84C03087d56A4D2',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.fash,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    projectLink: 'https://bnv.foundation/',
+    twitter: 'https://x.com/bnv_foundation',
+    initTime: { [ChainId.MAINNET]: 1759306661 },
+    soldOut: false,
+    hide: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription:
+      'BNV is shaping the future of fashion and identity through an ecosystem powered by $FASH. Having worked with brands like Tommy Hilfiger, Coach, Willy Chavarria, MishkaNYC and Sam’s Tailor, BNV connects communities through AI agents and BrandCoins. BrandCoins offer loyalty, rewards and incentives, all driving the value of $FASH.',
+    fullDescription:
+      'BNV is building the future of fashion, identity and culture through a connected ecosystem powered by $FASH. Since launching in 2020, BNV has pioneered digital fashion experiences, AI-driven style agents, and tokenized economies that redefine how communities engage with brands. BNV has already collaborated with leading names including Tommy Hilfiger, Coach, Willy Chavarria, MishkaNYC and Sam’s Tailor. Central to the ecosystem is the BrandCoin platform (bnv.fund), which links directly to real-world brands across fashion, media, sport, celebrities and more. BrandCoins act as powerful tools for loyalty, rewards and incentives, giving communities new ways to connect and participate. Alongside AI agents (ai.bnv.me), every interaction, transaction and creation flows back into $FASH, the core utility token that underpins engagement, growth and value across the BNV universe.',
   },
 ]
 
