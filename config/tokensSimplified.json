@@ -13,8 +13,7 @@
       "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
       "43114": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
       "59144": "0x176211869cA2b568f2A7D4EE941E073a821EE1ff",
-      "80094": "0x549943e04f40284185054145c6E4e9568C1D3241",
-      "7565164": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+      "80094": "0x549943e04f40284185054145c6E4e9568C1D3241"
     },
     "decimals": {
       "1": 6,
@@ -28,8 +27,7 @@
       "42161": 6,
       "43114": 6,
       "59144": 6,
-      "80094": 6,
-      "7565164": 6
+      "80094": 6
     },
     "active": true,
     "liquidityDex": {
@@ -44,8 +42,7 @@
       "42161": "UniswapV3",
       "43114": "External",
       "59144": "Nile",
-      "80094": "KodiakV3",
-      "7565164": "External"
+      "80094": "KodiakV3"
     }
   },
   "trader": {
@@ -77,228 +74,22 @@
   "banana": {
     "symbol": "BANANA",
     "address": {
-      "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
-      "7565165": "6MkKT6ffNt6N22U2Q7yZaLC4QYrxGuFefwYrmd8XXsih"
+      "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95"
     },
     "decimals": {
-      "56": 18,
-      "7565165": 9
+      "56": 18
     },
     "active": true
   },
   "gnana": {
     "symbol": "GNANA",
     "address": {
-      "56": "0xdDb3Bd8645775F59496c821E4F55A7eA6A6dc299",
-      "7565165": "9Go1k12GfUGyKSA4Hcw6svZ6E8T5Dkta8t3rmHF7xJNU"
+      "56": "0xdDb3Bd8645775F59496c821E4F55A7eA6A6dc299"
     },
     "decimals": {
-      "56": 18,
-      "7565165": 9
+      "56": 18
     },
     "active": true
-  },
-  "hyper": {
-    "symbol": "HYPER",
-    "address": {
-      "7565164": "Aq8Gocyvyyi8xk5EYxd6viUfVmVvs9T9R6mZFzZFpump"
-    },
-    "decimals": {
-      "7565164": 6
-    },
-    "active": true,
-    "liquidityDex": {
-      "7565164": "External"
-    }
-  },
-  "skorai": {
-    "symbol": "SKORAI",
-    "address": {
-      "7565164": "8CLGcTogo6FoYkEQQBm3Vm2PVckYCiCm3XXhdsr4skoR"
-    },
-    "decimals": {
-      "7565164": 6
-    },
-    "active": true,
-    "liquidityDex": {
-      "7565164": "External"
-    }
-  },
-  "rkey": {
-    "symbol": "RKEY",
-    "address": {
-      "7565164": "F4YXmo8CDLRvWGnXyxVZ62wwc7oWcBam7tu4G5kGSaKZ"
-    },
-    "decimals": {
-      "7565164": 6
-    },
-    "active": true,
-    "liquidityDex": {
-      "7565164": "External"
-    }
-  },
-  "stb": {
-    "symbol": "STB",
-    "address": {
-      "7565164": "STBuyENwJ1GP4yNZCjwavn92wYLEY3t5S1kVS5kwyS1"
-    },
-    "decimals": {
-      "7565164": 9
-    },
-    "active": true,
-    "liquidityDex": {
-      "7565164": "External"
-    }
-  },
-  "orcai": {
-    "symbol": "ORCAI",
-    "address": {
-      "7565164": "5YSjRtJJTZpQ44YF6qDpyygPCrJ61q5eNJRJRZMvKjZD"
-    },
-    "decimals": {
-      "7565164": 6
-    },
-    "active": true,
-    "liquidityDex": {
-      "7565164": "External"
-    }
-  },
-  "wsol": {
-    "symbol": "WSOL",
-    "address": {
-      "7565164": "So11111111111111111111111111111111111111112"
-    },
-    "decimals": {
-      "7565164": 9
-    },
-    "active": true,
-    "liquidityDex": {
-      "7565164": "External"
-    }
-  },
-  "tpg": {
-    "symbol": "TPG",
-    "address": {
-      "7565164": "2eK5WyE5uVrn1SRmNp9SsxQovzrs1PhrN33breBTgkf1"
-    },
-    "decimals": {
-      "7565164": 9
-    },
-    "active": true,
-    "liquidityDex": {
-      "7565164": "External"
-    }
-  },
-  "usdt": {
-    "symbol": "USDT",
-    "address": {
-      "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
-      "56": "0x55d398326f99059fF775485246999027B3197955",
-      "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-      "146": "0x6047828dc181963ba44974801FF68e538dA5eaF9",
-      "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
-      "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
-      "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
-      "43114": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
-      "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
-      "7565164": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
-    },
-    "decimals": {
-      "1": 6,
-      "56": 18,
-      "137": 6,
-      "146": 6,
-      "8453": 6,
-      "8822": 6,
-      "42161": 6,
-      "43114": 6,
-      "59144": 6,
-      "7565164": 6
-    },
-    "active": true,
-    "liquidityDex": {
-      "1": "UniswapV2",
-      "56": "PancakeSwapV3",
-      "137": "UniswapV3",
-      "146": "ShadowExchange",
-      "8453": "UniswapV3",
-      "8822": "Wagmi",
-      "42161": "UniswapV3",
-      "43114": "External",
-      "59144": "Nile",
-      "7565164": "External"
-    }
-  },
-  "block": {
-    "symbol": "BLOCK",
-    "address": {
-      "56": "0xbC7A566b85eF73F935e640A06b5a8b031Cd975Df",
-      "7565164": "NFTUkR4u7wKxy9QLaX2TGvd9oZSWoMo4jqSJqdMb7Nk"
-    },
-    "decimals": {
-      "56": 6,
-      "7565164": 6
-    },
-    "active": true,
-    "liquidityDex": {
-      "56": "PancakeSwapV3",
-      "7565164": "External"
-    }
-  },
-  "aitech": {
-    "symbol": "AITECH",
-    "address": {
-      "56": "0x2D060Ef4d6BF7f9e5edDe373Ab735513c0e4F944",
-      "7565164": "FUW4poh6s7uychceF8u1mo7NS65vzjX5vmS7Yi7GYQnz"
-    },
-    "decimals": {
-      "56": 18,
-      "7565164": 9
-    },
-    "active": true,
-    "liquidityDex": {
-      "56": "PancakeSwapV3",
-      "7565164": "External"
-    }
-  },
-  "cots": {
-    "symbol": "COTS",
-    "address": {
-      "7565164": "Fy1RLA8gvudCj1x4tcpcCDRWG1jfuYHT7zpWKP1svJam"
-    },
-    "decimals": {
-      "7565164": 6
-    },
-    "active": true,
-    "liquidityDex": {
-      "7565164": "External"
-    }
-  },
-  "hvlo": {
-    "symbol": "HVLO",
-    "address": {
-      "7565164": "Gdck9KXSSiMMhNyjUjo4sVT1GDzeZnZP2yse9jhax3GR"
-    },
-    "decimals": {
-      "7565164": 8
-    },
-    "active": true,
-    "liquidityDex": {
-      "7565164": "External"
-    }
-  },
-  "aix": {
-    "symbol": "AIX",
-    "address": {
-      "7565164": "AiXxRGmRc5oDiFXbEeRX9obPpr3Zir7rks1ef2NjddiF"
-    },
-    "decimals": {
-      "7565164": 9
-    },
-    "active": true,
-    "liquidityDex": {
-      "7565164": "External"
-    }
   },
   "trax": {
     "symbol": "TRAX",
@@ -643,6 +434,43 @@
     "liquidityDex": {
       "1": "UniswapV3",
       "614": "External"
+    }
+  },
+  "usdt": {
+    "symbol": "USDT",
+    "address": {
+      "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "56": "0x55d398326f99059fF775485246999027B3197955",
+      "137": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+      "146": "0x6047828dc181963ba44974801FF68e538dA5eaF9",
+      "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+      "8822": "0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4",
+      "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+      "43114": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
+      "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93"
+    },
+    "decimals": {
+      "1": 6,
+      "56": 18,
+      "137": 6,
+      "146": 6,
+      "8453": 6,
+      "8822": 6,
+      "42161": 6,
+      "43114": 6,
+      "59144": 6
+    },
+    "active": true,
+    "liquidityDex": {
+      "1": "UniswapV2",
+      "56": "PancakeSwapV3",
+      "137": "UniswapV3",
+      "146": "ShadowExchange",
+      "8453": "UniswapV3",
+      "8822": "Wagmi",
+      "42161": "UniswapV3",
+      "43114": "External",
+      "59144": "Nile"
     }
   },
   "iol": {
@@ -1967,6 +1795,19 @@
       "56": "PancakeSwapV2"
     }
   },
+  "block": {
+    "symbol": "BLOCK",
+    "address": {
+      "56": "0xbC7A566b85eF73F935e640A06b5a8b031Cd975Df"
+    },
+    "decimals": {
+      "56": 6
+    },
+    "active": true,
+    "liquidityDex": {
+      "56": "PancakeSwapV3"
+    }
+  },
   "quo": {
     "symbol": "QUO",
     "address": {
@@ -2070,6 +1911,19 @@
     "symbol": "BRBC",
     "address": {
       "56": "0x117A123dEd97CD125837d9AC19592b77d806fa88"
+    },
+    "decimals": {
+      "56": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "56": "PancakeSwapV3"
+    }
+  },
+  "aitech": {
+    "symbol": "AITECH",
+    "address": {
+      "56": "0x2D060Ef4d6BF7f9e5edDe373Ab735513c0e4F944"
     },
     "decimals": {
       "56": 18

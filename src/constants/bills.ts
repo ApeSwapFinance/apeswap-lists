@@ -190,26 +190,26 @@ const bills: BillsConfig[] = [
   },
 
   //
-  // SOLANA DEVNET
+  // SOLANA DEVNET TESTBONDS
   //
 
   {
     index: 696901,
     version: '2.2.0',
-    chainId: ChainId.SOL_DEVNET,
+    chainId: ChainId.SOL,
     contractAddress: {
-      [ChainId.SOL_DEVNET]: 'H4xMaqJqZzW8uK7FWn7MWUea4caawyrs8dLw4TPrYeo2',
+      [ChainId.SOL]: 'H4xMaqJqZzW8uK7FWn7MWUea4caawyrs8dLw4TPrYeo2',
     },
     billType: 'reserve',
     billVersion: BillVersion.V2,
     lpToken: tokens.banana,
     earnToken: tokens.gnana,
     billNnftAddress: {
-      [ChainId.SOL_DEVNET]: '4J9VwpmZVpbR2rwUm3UAUdU6egUxm1U88ABtscxzL31m',
+      [ChainId.SOL]: '4J9VwpmZVpbR2rwUm3UAUdU6egUxm1U88ABtscxzL31m',
     },
     projectLink: 'https://www.hyperonsol.com/',
     twitter: 'https://x.com/hyperonsol',
-    initTime: { [ChainId.SOL_DEVNET]: 1752067620 },
+    initTime: { [ChainId.SOL]: 1752067620 },
     soldOut: false,
     billArt: {
       collection: BillArtCollection.Solana_Collection1,
@@ -223,398 +223,398 @@ const bills: BillsConfig[] = [
   // SOLANA
   //
 
-  {
-    index: 18001,
-    version: '2.2.0',
-    chainId: ChainId.SOL,
-    contractAddress: {
-      [ChainId.SOL]: '9uZ8eG6BUENnMAcfgfacxFySRKpj2rLVSGbFWBF2y2TE',
-    },
-    billType: 'reserve',
-    billVersion: BillVersion.V2,
-    lpToken: tokens.usdc,
-    earnToken: tokens.hyper,
-    billNnftAddress: {
-      [ChainId.SOL]: '8jcHtKktGJdt4VUBsf7j1VZngcLhS1bxgPHnPrMnPtg',
-    },
-    projectLink: 'https://www.hyperonsol.com/',
-    twitter: 'https://x.com/hyperonsol',
-    initTime: { [ChainId.SOL]: 1752067620 },
-    soldOut: true,
-    billArt: {
-      collection: BillArtCollection.Solana_Collection1,
-    },
-    fullDescription: `Hyper is a community-driven memecoin built on the belief that memes can be more than just hype—they can create real value and utility. At its core lies the Hyper character, a mascot around which a vibrant, builder-focused culture is forming. The community stands firmly against value extraction, instead championing fair participation and collective growth. With MemesForge, Hyper is developing a powerful platform offering essential tools for other memecoins, driving a new wave of meme-based innovation. Tools built for Hyper are shared and monetized, generating revenue that flows back into the ecosystem. In this virtuous cycle, $HYPER becomes the token that captures and distributes value across the community.`,
-    shortDescription: `Hyper is a community-driven memecoin built around fair value creation and collective growth. With the Hyper mascot at its core, the project rejects value extraction and empowers builders through MemesForge, a platform offering tools for other memecoins. Revenue from these tools flows back to the ecosystem, with $HYPER capturing and distributing that value.`,
-    tags: ['Community', 'Meme'],
-  },
-  {
-    index: 18002,
-    version: '2.2.0',
-    chainId: ChainId.SOL,
-    contractAddress: {
-      [ChainId.SOL]: '7uVrtzodr3Ab8nH4UkFkKLu28oMeUTzmQuTcrjiaQg3e',
-    },
-    billType: 'reserve',
-    billVersion: BillVersion.V2,
-    lpToken: tokens.usdc,
-    earnToken: tokens.skorai,
-    billNnftAddress: {
-      [ChainId.SOL]: 'BweCYmekwGmF7JFFBCN5MxCJy3egt2vLSmFRbtNTD2ya', // aka collection
-    },
-    projectLink: 'https://skoragents.ai/',
-    twitter: 'https://x.com/theskorai',
-    initTime: { [ChainId.SOL]: 1752065340 },
-    soldOut: false,
-    billArt: {
-      collection: BillArtCollection.Solana_Collection1,
-    },
-    fullDescription: `SKOR AI is a cutting-edge artificial intelligence company redefining the gaming experience with advanced AI-driven solutions tailored for gamers of all levels. Its intelligent agents deliver real-time insights, detect trends, recommend games, and optimize strategies to elevate gameplay and decision-making. By harnessing machine learning, automation, and deep data analytics, SKOR AI actively monitors gaming forums, communities, and market signals to uncover hidden lore, track esports meta shifts, and surface the best gaming deals. From skill improvement to content discovery and savings, SKOR AI functions as a smart companion enhancing every facet of gaming. With a strong focus on innovation and community-led growth, SKOR AI is shaping a more immersive, competitive, and rewarding gaming future. The $SKORAI token serves as the backbone of the ecosystem, powering staking, governance, and infrastructure growth, and rewarding long-term participation.`,
-    shortDescription: `SKOR AI enhances the gaming experience with AI-powered insights, personalized recommendations, and strategic tools for players of all levels. By tracking trends, esports metas, and gaming deals, it helps users stay ahead and save more. The $SKORAI token powers the ecosystem, enabling staking, governance, and rewarding active community participation.`,
-    tags: ['AI Agent'],
-    warningCard: `This token is currently only tradable on <a href="https://www.mexc.com/exchange/SKORAI_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a>.`,
-  },
-  {
-    index: 18003,
-    cmcId: 35815,
-    version: '2.2.0',
-    chainId: ChainId.SOL,
-    contractAddress: {
-      [ChainId.SOL]: 'A1Nt2AGpyCXqaMFEzrxbfecwESrxe1cAUxNqEp6H34oS',
-    },
-    billType: 'reserve',
-    billVersion: BillVersion.V2,
-    lpToken: tokens.usdc,
-    earnToken: tokens.rkey,
-    billNnftAddress: {
-      [ChainId.SOL]: 'EGaskzkVsrbrSZr6CHwjuMU3cA6pxNWu5E9cLFMmZh5a',
-    },
-    projectLink: 'https://www.rkey.rent/',
-    twitter: 'https://x.com/rkeyrent',
-    initTime: { [ChainId.SOL]: 1752069960 },
-    soldOut: false,
-    billArt: {
-      collection: BillArtCollection.Solana_Collection1,
-    },
-    fullDescription: ` Urban Key to Web3, or RKEY, is redefining how people interact with Web3 by offering access to physical Web3 Hubs in major cities through real estate-backed NFTs on Solana. With a mission to bridge traditional real estate and blockchain seamlessly, RKEY creates immersive, real-world hubs for top-tier Web3 projects, fostering co-development, networking, and personal growth opportunities for members. Investors from around the globe can connect their Solana wallets and invest in commercial real estate via on-chain NFTs that generate yield. As the native utility token, $RKEY powers the ecosystem, rewarding users and aligning incentives across the platform. RKEY’s vision is to lead global Web3 adoption by expanding its footprint in key urban centers.`,
-    shortDescription: `RKEY is the urban key to Web3, giving users access to physical Web3 Hubs in major cities through real estate-backed NFTs on Solana. Members enjoy co-working, networking, and tools for growth, while investors earn yield by connecting their wallets and selecting NFTs. Powered by the $RKEY token that powers the ecosystem, rewarding users and aligning incentives across the platform.`,
-    tags: ['RWA'],
-    warningCard: `This token is currently only tradable on <a href="https://www.lbank.com/trade/rkey_usdt" target="_blank" rel="noopener noreferrer" style="color: #6099c5">LBank</a>.`,
-  },
-  {
-    index: 18004,
-    version: '2.2.0',
-    chainId: ChainId.SOL,
-    contractAddress: {
-      [ChainId.SOL]: 'Fq3i2McMPADtyzzaxYEKymmLrSMSKoTRUDXJ2bmCxtSP',
-    },
-    billType: 'reserve',
-    billVersion: BillVersion.V2,
-    lpToken: tokens.usdc,
-    earnToken: tokens.rkey,
-    billNnftAddress: {
-      [ChainId.SOL]: 'Bkcc9dR9QySPsWbiKigFcVheb2ycRFNFhN4eEmH7hvio',
-    },
-    projectLink: 'https://www.rkey.rent/',
-    twitter: 'https://x.com/rkeyrent',
-    initTime: { [ChainId.SOL]: 1752070680 },
-    soldOut: false,
-    billArt: {
-      collection: BillArtCollection.Solana_Collection1,
-    },
-    fullDescription: ` Urban Key to Web3, or RKEY, is redefining how people interact with Web3 by offering access to physical Web3 Hubs in major cities through real estate-backed NFTs on Solana. With a mission to bridge traditional real estate and blockchain seamlessly, RKEY creates immersive, real-world hubs for top-tier Web3 projects, fostering co-development, networking, and personal growth opportunities for members. Investors from around the globe can connect their Solana wallets and invest in commercial real estate via on-chain NFTs that generate yield. As the native utility token, $RKEY powers the ecosystem, rewarding users and aligning incentives across the platform. RKEY’s vision is to lead global Web3 adoption by expanding its footprint in key urban centers.`,
-    shortDescription: `RKEY is the urban key to Web3, giving users access to physical Web3 Hubs in major cities through real estate-backed NFTs on Solana. Members enjoy co-working, networking, and tools for growth, while investors earn yield by connecting their wallets and selecting NFTs. Powered by the $RKEY token that powers the ecosystem, rewarding users and aligning incentives across the platform.`,
-    tags: ['RWA'],
-    warningCard: `This token is currently only tradable on <a href="https://www.lbank.com/trade/rkey_usdt" target="_blank" rel="noopener noreferrer" style="color: #6099c5">LBank</a>.`,
-  },
-  {
-    index: 18005,
-    version: '2.2.0',
-    chainId: ChainId.SOL,
-    contractAddress: {
-      [ChainId.SOL]: 'BuDXocnqyJWzWF4MfksbdtnXnhVgtUsvrUY9hPtPpQZ9',
-    },
-    billType: 'reserve',
-    billVersion: BillVersion.V2,
-    lpToken: tokens.usdc,
-    earnToken: tokens.stb,
-    billNnftAddress: {
-      [ChainId.SOL]: 'E7dkNpmbQDjVvnBbvB8M73LoBH4hMYYVvgHNccUmQbwj',
-    },
-    projectLink: 'https://stabble.org/',
-    twitter: 'https://x.com/stabbleorg',
-    initTime: { [ChainId.SOL]: 1752067980 },
-    soldOut: true,
-    billArt: {
-      collection: BillArtCollection.Solana_Collection1,
-    },
-    fullDescription: ` Stabble is a Solana-native decentralized exchange leveraging the automated market maker model pioneered by Uniswap, with advanced mechanics that enable internal and external arbitrage, smart liquidity routing, and automated liquidity provision. Inspired by protocols like Balancer and Curve, Stabble supports weighted and composable stable pools but requires up to 97% less liquidity to process similar volumes, resulting in higher capital efficiency and APYs. It introduces virtual margin liquidity, allowing risk-seeking positions while integrating risk-averse investors into the AMM system. With a focus on solving DeFi’s toughest issues, impermanent loss, low APYs, and high price impact, Stabble delivers a capital-efficient, trader- and LP-friendly environment. Its native token, $STB is the primary token that can be staked and works as a medium of exchange.`,
-    shortDescription: `Stabble is a Solana-native decentralized exchange built on an AMM model, enabling smart liquidity routing, internal and external arbitrage, and virtual margin liquidity. It supports weighted stable pools like Balancer but requires up to 97% less liquidity. With higher capital efficiency and better APYs, Stabble offers a seamless experience for traders and LPs. The $STB token can be staked and works as a medium of exchange. `,
-    tags: ['DEX'],
-  },
-  {
-    index: 18006,
-    version: '2.2.0',
-    chainId: ChainId.SOL,
-    contractAddress: {
-      [ChainId.SOL]: '5vGVfwTcMaU5nhoo4YnEx7LAgxQDz5eo7vsWwq5YRWcg',
-    },
-    billType: 'reserve',
-    billVersion: BillVersion.V2,
-    lpToken: tokens.usdc,
-    earnToken: tokens.orcai,
-    billNnftAddress: {
-      [ChainId.SOL]: 'BDsK66Ah57A93x9eJzeCpk7W2eJ7hz944jHGG7JysnBx',
-    },
-    projectLink: 'https://www.orcadefai.com/',
-    twitter: 'https://x.com/ORCAIDEF',
-    initTime: { [ChainId.SOL]: 1752068700 },
-    soldOut: true,
-    billArt: {
-      collection: BillArtCollection.Solana_Collection1,
-    },
-    fullDescription: ` Orca Def-Ai is a cutting-edge platform built for the blockchain, powered by AI, and driven by user insight. At its core lies the principle of intelligent balance, where automation and human intuition work in harmony. Designed to support traders, analysts, and learners, Orca Def-Ai is an evolving ecosystem of AI agents that simplify complexity and empower action across the crypto space. From wallet tracking to automated analysis and crypto education, the platform serves as an AI command center, delivering clarity and precision in a noisy market. With a strong focus on innovation, utility, and decentralization, Orca Def-Ai continues to lead the charge toward a smarter, more agile future for Web3. The native utility token, ORCAi, powers all actions and subscriptions within the platform, ensuring seamless access to its suite of intelligent tools.`,
-    shortDescription: `Orca Def-Ai is an AI-powered crypto platform built to simplify complexity and empower users. It offers intelligent tools for trading, wallet tracking, analysis, and learning, merging automation with human insight. ORCAi, the native utility token, fuels all actions and subscriptions, making Orca Def-Ai the command center for smarter crypto decisions.`,
-    tags: ['AI'],
-  },
-  {
-    index: 18007,
-    version: '2.2.0',
-    chainId: ChainId.SOL,
-    contractAddress: {
-      [ChainId.SOL]: 'GtUV4yFeqnZ89799eppgu1kQxsUpEXWfas8CAdu4qdfe',
-    },
-    billType: 'reserve',
-    billVersion: BillVersion.V2,
-    lpToken: tokens.usdc,
-    earnToken: tokens.wsol,
-    billNnftAddress: {
-      [ChainId.SOL]: '4Kk5fUiBWDLKieWJNWqYHuLzEV2hQycMDaCP4ZdbJPLp',
-    },
-    projectLink: 'https://x.com/solana',
-    twitter: 'https://solana.com/',
-    initTime: { [ChainId.SOL]: 1752079260 },
-    soldOut: true,
-    billArt: {
-      collection: BillArtCollection.Solana_Collection1,
-    },
-    fullDescription: `Solana is a high-performance blockchain built for speed, scalability, and efficiency, capable of handling up to 710,000 transactions per second under ideal conditions. In practice, it typically processes between 2,000 and 3,000 TPS, significantly outpacing many other blockchains. Its core innovation, Proof of History (PoH), acts like a decentralized clock, enabling validators to timestamp transactions independently without waiting for network-wide consensus. This breakthrough allows Solana to maintain a fast, synchronized ledger with extremely low latency. Thanks to its speed and low fees, Solana has emerged as a top platform for DeFi, NFTs, and Web3 apps. The native SOL token fuels the network, used for staking, governance, and paying transaction fees that average just $0.00025. SOL also plays a crucial role in network security, rewarding validators while deterring bad actors. Powerful for developers. Fast for everyone. Solana supports experiences for power users, new consumers, and everyone in between. `,
-    shortDescription: `Solana is a high-speed blockchain built for scalability, processing 2,000–3,000 transactions per second thanks to its unique Proof of History system. It's a top choice for DeFi, NFTs, and Web3 apps due to low fees and fast finality. The SOL token powers the network, used for staking, transaction fees, and validator rewards through a decreasing inflation model.`,
-    tags: ['Blockchains'],
-  },
-  {
-    index: 18008,
-    version: '2.2.0',
-    chainId: ChainId.SOL,
-    contractAddress: {
-      [ChainId.SOL]: 'maMzJHNauwNTw678yPvGxh2UX39JfUYwqJN1fD93Z6M',
-    },
-    billType: 'reserve',
-    billVersion: BillVersion.V2,
-    lpToken: tokens.usdc,
-    earnToken: tokens.tpg,
-    billNnftAddress: {
-      [ChainId.SOL]: 'HPeeonTQQrVdBGi9LeRiGXkL3QzVpVrdRVsjJwXQ5HZA',
-    },
-    projectLink: 'https://trumpenguin.com/',
-    twitter: 'https://x.com/trumpenguin',
-    initTime: { [ChainId.SOL]: 1752087600 },
-    soldOut: true,
-    billArt: {
-      collection: BillArtCollection.Solana_Collection1,
-    },
-    fullDescription: `Trumpenguin is a bold and chaotic memecoin designed to ride the highs and lows of Donald Trump’s next presidential run, capturing every controversial tweet, major decision, and viral moment along the way. Built for meme lovers and risk-takers, Trumpenguin blends entertainment with tokenomics by burning tokens every time a milestone on its roadmap is completed, injecting volatility and excitement into the project. Whether it soars or sinks, Trumpenguin is committed to delivering a front-row seat to political drama and internet culture in real time. With a mission to fuel the fire of meme-driven speculation, it taps into the thrill-seeking side of crypto investors eager to chase hype, embrace unpredictability, and laugh through the chaos. TPG isn’t just a token—it’s the engine behind Trumpenguin’s unpredictable march through the meme-filled mayhem of modern politics and crypto culture.`,
-    shortDescription: `Trumpenguin is a chaotic memecoin following the wild ride of Trump’s next presidential run, capturing every tweet, move, and viral moment. With tokens burned at each roadmap milestone, TPG brings volatility and fun to the forefront. It’s built for meme lovers and risk-takers chasing hype, embracing chaos, and laughing through the unpredictable world of crypto and politics.`,
-    tags: ['Community', 'Meme'],
-  },
-  {
-    index: 18009,
-    version: '2.2.0',
-    chainId: ChainId.SOL,
-    contractAddress: {
-      [ChainId.SOL]: '7Fw751UHbZb9sigVWt8iREJ1saAj2mxqudwecYBooMti',
-    },
-    billType: 'reserve',
-    billVersion: BillVersion.V2,
-    lpToken: tokens.usdt,
-    earnToken: tokens.block,
-    billNnftAddress: {
-      [ChainId.SOL]: '9VzREdc484WqjvVsakqXEQK2G2oCE1o8dVjq2HjEwFLD',
-    },
-    projectLink: 'https://home.blockasset.co/',
-    twitter: 'https://x.com/blockassetco',
-    initTime: { [ChainId.SOL]: 1752851160 },
-    soldOut: true,
-    billArt: {
-      collection: BillArtCollection.Solana_Collection1,
-    },
-    fullDescription: `Blockasset is revolutionizing the way fans and athletes connect by offering multiple touchpoints that benefit both groups. In contrast to Web2's centralized platforms where users were the product, Blockasset is building a Web3 social platform where fans and athletes can engage directly through athlete tokens, NFTs, and Web3 social tools. While platforms like Chilliz and Socios introduced fan tokens for sports teams, Blockasset goes further, enabling direct interaction between athletes and their fans, with benefits shaped by the athletes themselves. Each athlete on Blockasset has their own token. The ecosystem is powered by the BLOCK token, which will serve as the main trading pair for athlete token transactions. Fans must acquire BLOCK tokens to access exclusive athlete tokens, as some of the world’s top sports stars release their own tokens on the Blockasset platform, putting the athlete's brand in the hands of their most dedicated supporters.`,
-    shortDescription: `Blockasset revolutionizes fan-athlete interaction with a Web3 platform powered by athlete tokens, NFTs, and social tools. Unlike platforms like Chilliz and Socios, Blockasset offers direct engagement between athletes and fans, with benefits set by the athletes. Powered by the BLOCK token, fans must acquire BLOCK to access exclusive athlete tokens from top sports stars. You can also make your picks from a range of sports leagues, including UFC and Premier League. Climb the leaderboard, earn points, rank up, and collect crypto rewards.`,
-    tags: ['GAMEFI'],
-  },
-  {
-    index: 18010,
-    version: '2.2.0',
-    chainId: ChainId.SOL,
-    contractAddress: {
-      [ChainId.SOL]: '4kED3xSJQGZc4RpGpFACvdz5Bbs3aksW4nzMMTz14uzz',
-    },
-    billType: 'reserve',
-    billVersion: BillVersion.V2,
-    lpToken: tokens.usdc,
-    earnToken: tokens.aitech,
-    billNnftAddress: {
-      [ChainId.SOL]: '8M8Smqaa38SrHaG4joAdAddRvFUY4JW8i8wMfXSuJepv',
-    },
-    projectLink: 'https://aitech.io/',
-    twitter: 'https://x.com/AITECHio',
-    initTime: { [ChainId.SOL]: 1753357860 },
-    soldOut: true,
-    billArt: {
-      collection: BillArtCollection.Solana_Collection1,
-    },
-    shortDescription:
-      'AITECH is paving the way for a more convenient and secure future by providing accessible Artificial Intelligence-as-a-Service (AIaaS), Blockchain-as-a-Service (BaaS), High-Performance Computing Power (HPC), and an artificial intelligence marketplace. All these are backed by their native token: $AITECH.',
-    fullDescription:
-      "AITECH is the world's first deflationary AI utilities token, driving the operations of Solidus AI Tech's eco-friendly High-Performance Computing (HPC) Data Centre in Europe. This 8,000 sqft facility supports a diverse ecosystem, including the AI and GPU Marketplaces as well as the AITECH Pad Launchpad. The GPU Marketplace offers high-performance GPUs for a wide range of tasks, available through flexible rentals with no upfront costs. The AI Marketplace provides a suite of AI tools for automating both business and personal activities, categorized into Foundational AI Models, AI Agents, and Standalone AI Solutions. The AITECH Pad Launchpad offers early access to seed, private, and public rounds of AI-focused and infrastructure projects. Stakers of the $AITECH token gain tiered access to these launches, powering the ecosystem and enabling seamless service transactions, where fiat payments are converted to $AITECH on the blockchain. A deflationary burn mechanism ensures that a portion of tokens used for services is permanently removed from circulation, reducing supply and enhancing long-term value.",
-    tags: ['AI'],
-  },
-  {
-    index: 18011,
-    version: '2.2.0',
-    chainId: ChainId.SOL,
-    contractAddress: {
-      [ChainId.SOL]: 'DWQ2jV1e7W3Luk2ZYJAyxjofz3eHY9v918j3vvybT6DG',
-    },
-    billType: 'reserve',
-    billVersion: BillVersion.V2,
-    lpToken: tokens.usdc,
-    earnToken: tokens.cots,
-    billNnftAddress: {
-      [ChainId.SOL]: 'EYqFwLzpE2KbbcD78mt2zf19tpuqXih95oq5dqsvzz2o',
-    },
-    projectLink: 'https://childrenofthesky.com/',
-    twitter: 'https://x.com/COTSCLUB',
-    initTime: { [ChainId.SOL]: 1755013140 },
-    soldOut: true,
-    billArt: {
-      collection: BillArtCollection.Solana_Collection1,
-    },
-    shortDescription:
-      "Children Of The Sky is a digital and physical IP venture and exclusive social club built to shift culture, not chase hype. Fusing story, community, and emotion, it creates world-shaping IP powered by belief. At its core, $COTS is more than a token—it's a movement. Players join the celestial journey as digital warriors, collecting rewards, battling in sky realms, and fueling a vibrant community.",
-    fullDescription:
-      'Children Of The Sky is a digital and physical IP venture and exclusive social club built for those seeking more than just a passing trend—it’s a cultural commitment. Merging compelling lore, high-quality storytelling, and a vibrant community, the project is designed to shift culture from the ground up, raising frequency instead of simply raising funds. It thrives at the intersection of creativity, community, and commerce, building world-shaping IP powered by story, culture, and emotion rather than hype. Members aren’t spectators; they are believers actively shaping a shared vision. At its heart, $COTS transcends being just a token—it’s a cultural force. Players step into the skies as digital warriors, earning rewards, clashing in epic sky-bound battles, and energizing a thriving, ever-growing community.',
-    tags: ['Community'],
-  },
-  {
-    index: 18012,
-    version: '2.2.0',
-    chainId: ChainId.SOL,
-    contractAddress: {
-      [ChainId.SOL]: 'Bc7xDLMfc4kMTa99rDKtAb9w47GnU931u2ovTcKamGcj',
-    },
-    billType: 'reserve',
-    billVersion: BillVersion.V2,
-    lpToken: tokens.usdc,
-    earnToken: tokens.cots,
-    billNnftAddress: {
-      [ChainId.SOL]: 'E4kevLnmCCPhidsh6wBd5ekwp3dYVo1NkTupDkg9bohT',
-    },
-    projectLink: 'https://childrenofthesky.com/',
-    twitter: 'https://x.com/COTSCLUB',
-    initTime: { [ChainId.SOL]: 1755014340 },
-    soldOut: true,
-    billArt: {
-      collection: BillArtCollection.Solana_Collection1,
-    },
-    shortDescription:
-      "Children Of The Sky is a digital and physical IP venture and exclusive social club built to shift culture, not chase hype. Fusing story, community, and emotion, it creates world-shaping IP powered by belief. At its core, $COTS is more than a token—it's a movement. Players join the celestial journey as digital warriors, collecting rewards, battling in sky realms, and fueling a vibrant community.",
-    fullDescription:
-      'Children Of The Sky is a digital and physical IP venture and exclusive social club built for those seeking more than just a passing trend—it’s a cultural commitment. Merging compelling lore, high-quality storytelling, and a vibrant community, the project is designed to shift culture from the ground up, raising frequency instead of simply raising funds. It thrives at the intersection of creativity, community, and commerce, building world-shaping IP powered by story, culture, and emotion rather than hype. Members aren’t spectators; they are believers actively shaping a shared vision. At its heart, $COTS transcends being just a token—it’s a cultural force. Players step into the skies as digital warriors, earning rewards, clashing in epic sky-bound battles, and energizing a thriving, ever-growing community.',
-    tags: ['Community'],
-  },
-  {
-    index: 18013,
-    version: '2.2.0',
-    chainId: ChainId.SOL,
-    contractAddress: {
-      [ChainId.SOL]: 'C7xSNQDsuZHGBSsByJsyEnam2b69phiJzBp7boY5o83a',
-    },
-    billType: 'reserve',
-    billVersion: BillVersion.V2,
-    lpToken: tokens.usdc,
-    earnToken: tokens.hvlo,
-    billNnftAddress: {
-      [ChainId.SOL]: 'Fn8fRswWZAYfM2dywoTdajZ9ujYqC9DpGWaPU346zn7N',
-    },
-    projectLink: 'https://www.hivello.com',
-    twitter: 'https://x.com/HivelloOfficial',
-    initTime: { [ChainId.SOL]: 1755520140 },
-    soldOut: false,
-    billArt: {
-      collection: BillArtCollection.Solana_Collection1,
-    },
-    shortDescription:
-      'Hivello simplifies DePIN node participation with an easy-to-use desktop app that lets anyone earn passive income by sharing unused resources—no blockchain experience needed. Users can connect devices like PCs or routers to support Web3 infrastructure. The $HVLO token powers the ecosystem through rewards, staking, and seamless participation.',
-    fullDescription:
-      "Hivello is on a mission to simplify DePIN node participation for the masses by removing the technical hurdles typically associated with decentralized networks. At the core of this effort is a radically simple desktop application that enables users to earn passive income by contributing unused computer resources. Whether it's a PC, router, modem, or storage device, users can seamlessly participate in Web3 without any prior blockchain knowledge or technical expertise. By unlocking a user-friendly gateway into decentralized infrastructure, Hivello empowers individuals to support and benefit from DePIN protocols while reinforcing the broader network. At the heart of this ecosystem is the $HVLO token, which fuels rewards, staking, and participation, making Web3 both accessible and rewarding for everyone.",
-    tags: ['DePiN'],
-  },
-  {
-    index: 18014,
-    version: '2.2.0',
-    chainId: ChainId.SOL,
-    contractAddress: {
-      [ChainId.SOL]: '5dtPFaLeQ2LxcyHTPAnSy3yRYKHgc8PcE1Pb6Pj6ys7b',
-    },
-    billType: 'reserve',
-    billVersion: BillVersion.V2,
-    lpToken: tokens.usdc,
-    earnToken: tokens.aitech,
-    billNnftAddress: {
-      [ChainId.SOL]: 'EtdKPoj7xXta4zb682ovXitJozc6khWaCTjLghEcqjf3',
-    },
-    projectLink: 'https://aitech.io/',
-    twitter: 'https://x.com/AITECHio',
-    initTime: { [ChainId.SOL]: 1756473060 },
-    soldOut: true,
-    billArt: {
-      collection: BillArtCollection.Solana_Collection1,
-    },
-    shortDescription:
-      'AITECH is paving the way for a more convenient and secure future by providing accessible Artificial Intelligence-as-a-Service (AIaaS), Blockchain-as-a-Service (BaaS), High-Performance Computing Power (HPC), and an artificial intelligence marketplace. All these are backed by their native token: $AITECH.',
-    fullDescription:
-      "AITECH is the world's first deflationary AI utilities token, driving the operations of Solidus AI Tech's eco-friendly High-Performance Computing (HPC) Data Centre in Europe. This 8,000 sqft facility supports a diverse ecosystem, including the AI and GPU Marketplaces as well as the AITECH Pad Launchpad. The GPU Marketplace offers high-performance GPUs for a wide range of tasks, available through flexible rentals with no upfront costs. The AI Marketplace provides a suite of AI tools for automating both business and personal activities, categorized into Foundational AI Models, AI Agents, and Standalone AI Solutions. The AITECH Pad Launchpad offers early access to seed, private, and public rounds of AI-focused and infrastructure projects. Stakers of the $AITECH token gain tiered access to these launches, powering the ecosystem and enabling seamless service transactions, where fiat payments are converted to $AITECH on the blockchain. A deflationary burn mechanism ensures that a portion of tokens used for services is permanently removed from circulation, reducing supply and enhancing long-term value.",
-    tags: ['AI'],
-  },
-  {
-    index: 18015,
-    cmcId: 37257,
-    version: '2.2.0',
-    chainId: ChainId.SOL,
-    contractAddress: {
-      [ChainId.SOL]: 'EfocnmD67sD68nw86F63wnygTyeRMc5ZpgcRsCbaHnbQ',
-    },
-    billType: 'reserve',
-    billVersion: BillVersion.V2,
-    lpToken: tokens.usdc,
-    earnToken: tokens.aix,
-    billNnftAddress: {
-      [ChainId.SOL]: 'Fjh5bKKyc3J7sx5uojR87azWowW5fiPnXYLa5KR5Knch',
-    },
-    projectLink: 'https://aixovia.com/',
-    twitter: 'https://x.com/aixovia',
-    initTime: { [ChainId.SOL]: 1757589541 },
-    soldOut: false,
-    billArt: {
-      collection: BillArtCollection.Solana_Collection1,
-    },
-    shortDescription:
-      'AI Xovia is the world’s first fully autonomous AI orchestrating 1,000+ traders to restore fairness, transparency, and sustainability in crypto. Powered by AiXovia TradeSignal and AutoTrade app, it features revolutionary deflationary tokenomics with profits fueling $AIX buybacks. Launched with no presale and immutable security, the AIX token is the utility and value driver of the AI-powered revolution.',
-    fullDescription:
-      'AI Xovia emerges as a groundbreaking force in decentralized finance, introducing the world’s first fully autonomous AI that orchestrates the strategies of over 1,000 traders to create harmony in a market long plagued by manipulation, pump-and-dump schemes, and empty projects. Designed as both a technological and philosophical revolution, it seeks to restore transparency, fairness, and sustainability in crypto. With its AiXovia TradeSignal and AutoTrade app, users gain access to actionable trading intelligence backed by revolutionary deflationary tokenomics. Profits generated from external market operations fuel continuous $AIX buybacks, applying sustainable upward pressure and reinforcing long-term growth. Built with no presale for absolute fairness, the project ensures immutability and security by permanently revoking all control authorities. Beyond trading signals, its unique refund guarantee fosters trust and usability. At the heart of this ecosystem lies the AIX token, the utility and value driver of the AI-powered revolution.',
-    tags: ['AI'],
-  },
+  // {
+  //   index: 18001,
+  //   version: '2.2.0',
+  //   chainId: ChainId.SOL,
+  //   contractAddress: {
+  //     [ChainId.SOL]: '9uZ8eG6BUENnMAcfgfacxFySRKpj2rLVSGbFWBF2y2TE',
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V2,
+  //   lpToken: tokens.usdc,
+  //   earnToken: tokens.hyper,
+  //   billNnftAddress: {
+  //     [ChainId.SOL]: '8jcHtKktGJdt4VUBsf7j1VZngcLhS1bxgPHnPrMnPtg',
+  //   },
+  //   projectLink: 'https://www.hyperonsol.com/',
+  //   twitter: 'https://x.com/hyperonsol',
+  //   initTime: { [ChainId.SOL]: 1752067620 },
+  //   soldOut: true,
+  //   billArt: {
+  //     collection: BillArtCollection.Solana_Collection1,
+  //   },
+  //   fullDescription: `Hyper is a community-driven memecoin built on the belief that memes can be more than just hype—they can create real value and utility. At its core lies the Hyper character, a mascot around which a vibrant, builder-focused culture is forming. The community stands firmly against value extraction, instead championing fair participation and collective growth. With MemesForge, Hyper is developing a powerful platform offering essential tools for other memecoins, driving a new wave of meme-based innovation. Tools built for Hyper are shared and monetized, generating revenue that flows back into the ecosystem. In this virtuous cycle, $HYPER becomes the token that captures and distributes value across the community.`,
+  //   shortDescription: `Hyper is a community-driven memecoin built around fair value creation and collective growth. With the Hyper mascot at its core, the project rejects value extraction and empowers builders through MemesForge, a platform offering tools for other memecoins. Revenue from these tools flows back to the ecosystem, with $HYPER capturing and distributing that value.`,
+  //   tags: ['Community', 'Meme'],
+  // },
+  // {
+  //   index: 18002,
+  //   version: '2.2.0',
+  //   chainId: ChainId.SOL,
+  //   contractAddress: {
+  //     [ChainId.SOL]: '7uVrtzodr3Ab8nH4UkFkKLu28oMeUTzmQuTcrjiaQg3e',
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V2,
+  //   lpToken: tokens.usdc,
+  //   earnToken: tokens.skorai,
+  //   billNnftAddress: {
+  //     [ChainId.SOL]: 'BweCYmekwGmF7JFFBCN5MxCJy3egt2vLSmFRbtNTD2ya', // aka collection
+  //   },
+  //   projectLink: 'https://skoragents.ai/',
+  //   twitter: 'https://x.com/theskorai',
+  //   initTime: { [ChainId.SOL]: 1752065340 },
+  //   soldOut: false,
+  //   billArt: {
+  //     collection: BillArtCollection.Solana_Collection1,
+  //   },
+  //   fullDescription: `SKOR AI is a cutting-edge artificial intelligence company redefining the gaming experience with advanced AI-driven solutions tailored for gamers of all levels. Its intelligent agents deliver real-time insights, detect trends, recommend games, and optimize strategies to elevate gameplay and decision-making. By harnessing machine learning, automation, and deep data analytics, SKOR AI actively monitors gaming forums, communities, and market signals to uncover hidden lore, track esports meta shifts, and surface the best gaming deals. From skill improvement to content discovery and savings, SKOR AI functions as a smart companion enhancing every facet of gaming. With a strong focus on innovation and community-led growth, SKOR AI is shaping a more immersive, competitive, and rewarding gaming future. The $SKORAI token serves as the backbone of the ecosystem, powering staking, governance, and infrastructure growth, and rewarding long-term participation.`,
+  //   shortDescription: `SKOR AI enhances the gaming experience with AI-powered insights, personalized recommendations, and strategic tools for players of all levels. By tracking trends, esports metas, and gaming deals, it helps users stay ahead and save more. The $SKORAI token powers the ecosystem, enabling staking, governance, and rewarding active community participation.`,
+  //   tags: ['AI Agent'],
+  //   warningCard: `This token is currently only tradable on <a href="https://www.mexc.com/exchange/SKORAI_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a>.`,
+  // },
+  // {
+  //   index: 18003,
+  //   cmcId: 35815,
+  //   version: '2.2.0',
+  //   chainId: ChainId.SOL,
+  //   contractAddress: {
+  //     [ChainId.SOL]: 'A1Nt2AGpyCXqaMFEzrxbfecwESrxe1cAUxNqEp6H34oS',
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V2,
+  //   lpToken: tokens.usdc,
+  //   earnToken: tokens.rkey,
+  //   billNnftAddress: {
+  //     [ChainId.SOL]: 'EGaskzkVsrbrSZr6CHwjuMU3cA6pxNWu5E9cLFMmZh5a',
+  //   },
+  //   projectLink: 'https://www.rkey.rent/',
+  //   twitter: 'https://x.com/rkeyrent',
+  //   initTime: { [ChainId.SOL]: 1752069960 },
+  //   soldOut: false,
+  //   billArt: {
+  //     collection: BillArtCollection.Solana_Collection1,
+  //   },
+  //   fullDescription: ` Urban Key to Web3, or RKEY, is redefining how people interact with Web3 by offering access to physical Web3 Hubs in major cities through real estate-backed NFTs on Solana. With a mission to bridge traditional real estate and blockchain seamlessly, RKEY creates immersive, real-world hubs for top-tier Web3 projects, fostering co-development, networking, and personal growth opportunities for members. Investors from around the globe can connect their Solana wallets and invest in commercial real estate via on-chain NFTs that generate yield. As the native utility token, $RKEY powers the ecosystem, rewarding users and aligning incentives across the platform. RKEY’s vision is to lead global Web3 adoption by expanding its footprint in key urban centers.`,
+  //   shortDescription: `RKEY is the urban key to Web3, giving users access to physical Web3 Hubs in major cities through real estate-backed NFTs on Solana. Members enjoy co-working, networking, and tools for growth, while investors earn yield by connecting their wallets and selecting NFTs. Powered by the $RKEY token that powers the ecosystem, rewarding users and aligning incentives across the platform.`,
+  //   tags: ['RWA'],
+  //   warningCard: `This token is currently only tradable on <a href="https://www.lbank.com/trade/rkey_usdt" target="_blank" rel="noopener noreferrer" style="color: #6099c5">LBank</a>.`,
+  // },
+  // {
+  //   index: 18004,
+  //   version: '2.2.0',
+  //   chainId: ChainId.SOL,
+  //   contractAddress: {
+  //     [ChainId.SOL]: 'Fq3i2McMPADtyzzaxYEKymmLrSMSKoTRUDXJ2bmCxtSP',
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V2,
+  //   lpToken: tokens.usdc,
+  //   earnToken: tokens.rkey,
+  //   billNnftAddress: {
+  //     [ChainId.SOL]: 'Bkcc9dR9QySPsWbiKigFcVheb2ycRFNFhN4eEmH7hvio',
+  //   },
+  //   projectLink: 'https://www.rkey.rent/',
+  //   twitter: 'https://x.com/rkeyrent',
+  //   initTime: { [ChainId.SOL]: 1752070680 },
+  //   soldOut: false,
+  //   billArt: {
+  //     collection: BillArtCollection.Solana_Collection1,
+  //   },
+  //   fullDescription: ` Urban Key to Web3, or RKEY, is redefining how people interact with Web3 by offering access to physical Web3 Hubs in major cities through real estate-backed NFTs on Solana. With a mission to bridge traditional real estate and blockchain seamlessly, RKEY creates immersive, real-world hubs for top-tier Web3 projects, fostering co-development, networking, and personal growth opportunities for members. Investors from around the globe can connect their Solana wallets and invest in commercial real estate via on-chain NFTs that generate yield. As the native utility token, $RKEY powers the ecosystem, rewarding users and aligning incentives across the platform. RKEY’s vision is to lead global Web3 adoption by expanding its footprint in key urban centers.`,
+  //   shortDescription: `RKEY is the urban key to Web3, giving users access to physical Web3 Hubs in major cities through real estate-backed NFTs on Solana. Members enjoy co-working, networking, and tools for growth, while investors earn yield by connecting their wallets and selecting NFTs. Powered by the $RKEY token that powers the ecosystem, rewarding users and aligning incentives across the platform.`,
+  //   tags: ['RWA'],
+  //   warningCard: `This token is currently only tradable on <a href="https://www.lbank.com/trade/rkey_usdt" target="_blank" rel="noopener noreferrer" style="color: #6099c5">LBank</a>.`,
+  // },
+  // {
+  //   index: 18005,
+  //   version: '2.2.0',
+  //   chainId: ChainId.SOL,
+  //   contractAddress: {
+  //     [ChainId.SOL]: 'BuDXocnqyJWzWF4MfksbdtnXnhVgtUsvrUY9hPtPpQZ9',
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V2,
+  //   lpToken: tokens.usdc,
+  //   earnToken: tokens.stb,
+  //   billNnftAddress: {
+  //     [ChainId.SOL]: 'E7dkNpmbQDjVvnBbvB8M73LoBH4hMYYVvgHNccUmQbwj',
+  //   },
+  //   projectLink: 'https://stabble.org/',
+  //   twitter: 'https://x.com/stabbleorg',
+  //   initTime: { [ChainId.SOL]: 1752067980 },
+  //   soldOut: true,
+  //   billArt: {
+  //     collection: BillArtCollection.Solana_Collection1,
+  //   },
+  //   fullDescription: ` Stabble is a Solana-native decentralized exchange leveraging the automated market maker model pioneered by Uniswap, with advanced mechanics that enable internal and external arbitrage, smart liquidity routing, and automated liquidity provision. Inspired by protocols like Balancer and Curve, Stabble supports weighted and composable stable pools but requires up to 97% less liquidity to process similar volumes, resulting in higher capital efficiency and APYs. It introduces virtual margin liquidity, allowing risk-seeking positions while integrating risk-averse investors into the AMM system. With a focus on solving DeFi’s toughest issues, impermanent loss, low APYs, and high price impact, Stabble delivers a capital-efficient, trader- and LP-friendly environment. Its native token, $STB is the primary token that can be staked and works as a medium of exchange.`,
+  //   shortDescription: `Stabble is a Solana-native decentralized exchange built on an AMM model, enabling smart liquidity routing, internal and external arbitrage, and virtual margin liquidity. It supports weighted stable pools like Balancer but requires up to 97% less liquidity. With higher capital efficiency and better APYs, Stabble offers a seamless experience for traders and LPs. The $STB token can be staked and works as a medium of exchange. `,
+  //   tags: ['DEX'],
+  // },
+  // {
+  //   index: 18006,
+  //   version: '2.2.0',
+  //   chainId: ChainId.SOL,
+  //   contractAddress: {
+  //     [ChainId.SOL]: '5vGVfwTcMaU5nhoo4YnEx7LAgxQDz5eo7vsWwq5YRWcg',
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V2,
+  //   lpToken: tokens.usdc,
+  //   earnToken: tokens.orcai,
+  //   billNnftAddress: {
+  //     [ChainId.SOL]: 'BDsK66Ah57A93x9eJzeCpk7W2eJ7hz944jHGG7JysnBx',
+  //   },
+  //   projectLink: 'https://www.orcadefai.com/',
+  //   twitter: 'https://x.com/ORCAIDEF',
+  //   initTime: { [ChainId.SOL]: 1752068700 },
+  //   soldOut: true,
+  //   billArt: {
+  //     collection: BillArtCollection.Solana_Collection1,
+  //   },
+  //   fullDescription: ` Orca Def-Ai is a cutting-edge platform built for the blockchain, powered by AI, and driven by user insight. At its core lies the principle of intelligent balance, where automation and human intuition work in harmony. Designed to support traders, analysts, and learners, Orca Def-Ai is an evolving ecosystem of AI agents that simplify complexity and empower action across the crypto space. From wallet tracking to automated analysis and crypto education, the platform serves as an AI command center, delivering clarity and precision in a noisy market. With a strong focus on innovation, utility, and decentralization, Orca Def-Ai continues to lead the charge toward a smarter, more agile future for Web3. The native utility token, ORCAi, powers all actions and subscriptions within the platform, ensuring seamless access to its suite of intelligent tools.`,
+  //   shortDescription: `Orca Def-Ai is an AI-powered crypto platform built to simplify complexity and empower users. It offers intelligent tools for trading, wallet tracking, analysis, and learning, merging automation with human insight. ORCAi, the native utility token, fuels all actions and subscriptions, making Orca Def-Ai the command center for smarter crypto decisions.`,
+  //   tags: ['AI'],
+  // },
+  // {
+  //   index: 18007,
+  //   version: '2.2.0',
+  //   chainId: ChainId.SOL,
+  //   contractAddress: {
+  //     [ChainId.SOL]: 'GtUV4yFeqnZ89799eppgu1kQxsUpEXWfas8CAdu4qdfe',
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V2,
+  //   lpToken: tokens.usdc,
+  //   earnToken: tokens.wsol,
+  //   billNnftAddress: {
+  //     [ChainId.SOL]: '4Kk5fUiBWDLKieWJNWqYHuLzEV2hQycMDaCP4ZdbJPLp',
+  //   },
+  //   projectLink: 'https://x.com/solana',
+  //   twitter: 'https://solana.com/',
+  //   initTime: { [ChainId.SOL]: 1752079260 },
+  //   soldOut: true,
+  //   billArt: {
+  //     collection: BillArtCollection.Solana_Collection1,
+  //   },
+  //   fullDescription: `Solana is a high-performance blockchain built for speed, scalability, and efficiency, capable of handling up to 710,000 transactions per second under ideal conditions. In practice, it typically processes between 2,000 and 3,000 TPS, significantly outpacing many other blockchains. Its core innovation, Proof of History (PoH), acts like a decentralized clock, enabling validators to timestamp transactions independently without waiting for network-wide consensus. This breakthrough allows Solana to maintain a fast, synchronized ledger with extremely low latency. Thanks to its speed and low fees, Solana has emerged as a top platform for DeFi, NFTs, and Web3 apps. The native SOL token fuels the network, used for staking, governance, and paying transaction fees that average just $0.00025. SOL also plays a crucial role in network security, rewarding validators while deterring bad actors. Powerful for developers. Fast for everyone. Solana supports experiences for power users, new consumers, and everyone in between. `,
+  //   shortDescription: `Solana is a high-speed blockchain built for scalability, processing 2,000–3,000 transactions per second thanks to its unique Proof of History system. It's a top choice for DeFi, NFTs, and Web3 apps due to low fees and fast finality. The SOL token powers the network, used for staking, transaction fees, and validator rewards through a decreasing inflation model.`,
+  //   tags: ['Blockchains'],
+  // },
+  // {
+  //   index: 18008,
+  //   version: '2.2.0',
+  //   chainId: ChainId.SOL,
+  //   contractAddress: {
+  //     [ChainId.SOL]: 'maMzJHNauwNTw678yPvGxh2UX39JfUYwqJN1fD93Z6M',
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V2,
+  //   lpToken: tokens.usdc,
+  //   earnToken: tokens.tpg,
+  //   billNnftAddress: {
+  //     [ChainId.SOL]: 'HPeeonTQQrVdBGi9LeRiGXkL3QzVpVrdRVsjJwXQ5HZA',
+  //   },
+  //   projectLink: 'https://trumpenguin.com/',
+  //   twitter: 'https://x.com/trumpenguin',
+  //   initTime: { [ChainId.SOL]: 1752087600 },
+  //   soldOut: true,
+  //   billArt: {
+  //     collection: BillArtCollection.Solana_Collection1,
+  //   },
+  //   fullDescription: `Trumpenguin is a bold and chaotic memecoin designed to ride the highs and lows of Donald Trump’s next presidential run, capturing every controversial tweet, major decision, and viral moment along the way. Built for meme lovers and risk-takers, Trumpenguin blends entertainment with tokenomics by burning tokens every time a milestone on its roadmap is completed, injecting volatility and excitement into the project. Whether it soars or sinks, Trumpenguin is committed to delivering a front-row seat to political drama and internet culture in real time. With a mission to fuel the fire of meme-driven speculation, it taps into the thrill-seeking side of crypto investors eager to chase hype, embrace unpredictability, and laugh through the chaos. TPG isn’t just a token—it’s the engine behind Trumpenguin’s unpredictable march through the meme-filled mayhem of modern politics and crypto culture.`,
+  //   shortDescription: `Trumpenguin is a chaotic memecoin following the wild ride of Trump’s next presidential run, capturing every tweet, move, and viral moment. With tokens burned at each roadmap milestone, TPG brings volatility and fun to the forefront. It’s built for meme lovers and risk-takers chasing hype, embracing chaos, and laughing through the unpredictable world of crypto and politics.`,
+  //   tags: ['Community', 'Meme'],
+  // },
+  // {
+  //   index: 18009,
+  //   version: '2.2.0',
+  //   chainId: ChainId.SOL,
+  //   contractAddress: {
+  //     [ChainId.SOL]: '7Fw751UHbZb9sigVWt8iREJ1saAj2mxqudwecYBooMti',
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V2,
+  //   lpToken: tokens.usdt,
+  //   earnToken: tokens.block,
+  //   billNnftAddress: {
+  //     [ChainId.SOL]: '9VzREdc484WqjvVsakqXEQK2G2oCE1o8dVjq2HjEwFLD',
+  //   },
+  //   projectLink: 'https://home.blockasset.co/',
+  //   twitter: 'https://x.com/blockassetco',
+  //   initTime: { [ChainId.SOL]: 1752851160 },
+  //   soldOut: true,
+  //   billArt: {
+  //     collection: BillArtCollection.Solana_Collection1,
+  //   },
+  //   fullDescription: `Blockasset is revolutionizing the way fans and athletes connect by offering multiple touchpoints that benefit both groups. In contrast to Web2's centralized platforms where users were the product, Blockasset is building a Web3 social platform where fans and athletes can engage directly through athlete tokens, NFTs, and Web3 social tools. While platforms like Chilliz and Socios introduced fan tokens for sports teams, Blockasset goes further, enabling direct interaction between athletes and their fans, with benefits shaped by the athletes themselves. Each athlete on Blockasset has their own token. The ecosystem is powered by the BLOCK token, which will serve as the main trading pair for athlete token transactions. Fans must acquire BLOCK tokens to access exclusive athlete tokens, as some of the world’s top sports stars release their own tokens on the Blockasset platform, putting the athlete's brand in the hands of their most dedicated supporters.`,
+  //   shortDescription: `Blockasset revolutionizes fan-athlete interaction with a Web3 platform powered by athlete tokens, NFTs, and social tools. Unlike platforms like Chilliz and Socios, Blockasset offers direct engagement between athletes and fans, with benefits set by the athletes. Powered by the BLOCK token, fans must acquire BLOCK to access exclusive athlete tokens from top sports stars. You can also make your picks from a range of sports leagues, including UFC and Premier League. Climb the leaderboard, earn points, rank up, and collect crypto rewards.`,
+  //   tags: ['GAMEFI'],
+  // },
+  // {
+  //   index: 18010,
+  //   version: '2.2.0',
+  //   chainId: ChainId.SOL,
+  //   contractAddress: {
+  //     [ChainId.SOL]: '4kED3xSJQGZc4RpGpFACvdz5Bbs3aksW4nzMMTz14uzz',
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V2,
+  //   lpToken: tokens.usdc,
+  //   earnToken: tokens.aitech,
+  //   billNnftAddress: {
+  //     [ChainId.SOL]: '8M8Smqaa38SrHaG4joAdAddRvFUY4JW8i8wMfXSuJepv',
+  //   },
+  //   projectLink: 'https://aitech.io/',
+  //   twitter: 'https://x.com/AITECHio',
+  //   initTime: { [ChainId.SOL]: 1753357860 },
+  //   soldOut: true,
+  //   billArt: {
+  //     collection: BillArtCollection.Solana_Collection1,
+  //   },
+  //   shortDescription:
+  //     'AITECH is paving the way for a more convenient and secure future by providing accessible Artificial Intelligence-as-a-Service (AIaaS), Blockchain-as-a-Service (BaaS), High-Performance Computing Power (HPC), and an artificial intelligence marketplace. All these are backed by their native token: $AITECH.',
+  //   fullDescription:
+  //     "AITECH is the world's first deflationary AI utilities token, driving the operations of Solidus AI Tech's eco-friendly High-Performance Computing (HPC) Data Centre in Europe. This 8,000 sqft facility supports a diverse ecosystem, including the AI and GPU Marketplaces as well as the AITECH Pad Launchpad. The GPU Marketplace offers high-performance GPUs for a wide range of tasks, available through flexible rentals with no upfront costs. The AI Marketplace provides a suite of AI tools for automating both business and personal activities, categorized into Foundational AI Models, AI Agents, and Standalone AI Solutions. The AITECH Pad Launchpad offers early access to seed, private, and public rounds of AI-focused and infrastructure projects. Stakers of the $AITECH token gain tiered access to these launches, powering the ecosystem and enabling seamless service transactions, where fiat payments are converted to $AITECH on the blockchain. A deflationary burn mechanism ensures that a portion of tokens used for services is permanently removed from circulation, reducing supply and enhancing long-term value.",
+  //   tags: ['AI'],
+  // },
+  // {
+  //   index: 18011,
+  //   version: '2.2.0',
+  //   chainId: ChainId.SOL,
+  //   contractAddress: {
+  //     [ChainId.SOL]: 'DWQ2jV1e7W3Luk2ZYJAyxjofz3eHY9v918j3vvybT6DG',
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V2,
+  //   lpToken: tokens.usdc,
+  //   earnToken: tokens.cots,
+  //   billNnftAddress: {
+  //     [ChainId.SOL]: 'EYqFwLzpE2KbbcD78mt2zf19tpuqXih95oq5dqsvzz2o',
+  //   },
+  //   projectLink: 'https://childrenofthesky.com/',
+  //   twitter: 'https://x.com/COTSCLUB',
+  //   initTime: { [ChainId.SOL]: 1755013140 },
+  //   soldOut: true,
+  //   billArt: {
+  //     collection: BillArtCollection.Solana_Collection1,
+  //   },
+  //   shortDescription:
+  //     "Children Of The Sky is a digital and physical IP venture and exclusive social club built to shift culture, not chase hype. Fusing story, community, and emotion, it creates world-shaping IP powered by belief. At its core, $COTS is more than a token—it's a movement. Players join the celestial journey as digital warriors, collecting rewards, battling in sky realms, and fueling a vibrant community.",
+  //   fullDescription:
+  //     'Children Of The Sky is a digital and physical IP venture and exclusive social club built for those seeking more than just a passing trend—it’s a cultural commitment. Merging compelling lore, high-quality storytelling, and a vibrant community, the project is designed to shift culture from the ground up, raising frequency instead of simply raising funds. It thrives at the intersection of creativity, community, and commerce, building world-shaping IP powered by story, culture, and emotion rather than hype. Members aren’t spectators; they are believers actively shaping a shared vision. At its heart, $COTS transcends being just a token—it’s a cultural force. Players step into the skies as digital warriors, earning rewards, clashing in epic sky-bound battles, and energizing a thriving, ever-growing community.',
+  //   tags: ['Community'],
+  // },
+  // {
+  //   index: 18012,
+  //   version: '2.2.0',
+  //   chainId: ChainId.SOL,
+  //   contractAddress: {
+  //     [ChainId.SOL]: 'Bc7xDLMfc4kMTa99rDKtAb9w47GnU931u2ovTcKamGcj',
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V2,
+  //   lpToken: tokens.usdc,
+  //   earnToken: tokens.cots,
+  //   billNnftAddress: {
+  //     [ChainId.SOL]: 'E4kevLnmCCPhidsh6wBd5ekwp3dYVo1NkTupDkg9bohT',
+  //   },
+  //   projectLink: 'https://childrenofthesky.com/',
+  //   twitter: 'https://x.com/COTSCLUB',
+  //   initTime: { [ChainId.SOL]: 1755014340 },
+  //   soldOut: true,
+  //   billArt: {
+  //     collection: BillArtCollection.Solana_Collection1,
+  //   },
+  //   shortDescription:
+  //     "Children Of The Sky is a digital and physical IP venture and exclusive social club built to shift culture, not chase hype. Fusing story, community, and emotion, it creates world-shaping IP powered by belief. At its core, $COTS is more than a token—it's a movement. Players join the celestial journey as digital warriors, collecting rewards, battling in sky realms, and fueling a vibrant community.",
+  //   fullDescription:
+  //     'Children Of The Sky is a digital and physical IP venture and exclusive social club built for those seeking more than just a passing trend—it’s a cultural commitment. Merging compelling lore, high-quality storytelling, and a vibrant community, the project is designed to shift culture from the ground up, raising frequency instead of simply raising funds. It thrives at the intersection of creativity, community, and commerce, building world-shaping IP powered by story, culture, and emotion rather than hype. Members aren’t spectators; they are believers actively shaping a shared vision. At its heart, $COTS transcends being just a token—it’s a cultural force. Players step into the skies as digital warriors, earning rewards, clashing in epic sky-bound battles, and energizing a thriving, ever-growing community.',
+  //   tags: ['Community'],
+  // },
+  // {
+  //   index: 18013,
+  //   version: '2.2.0',
+  //   chainId: ChainId.SOL,
+  //   contractAddress: {
+  //     [ChainId.SOL]: 'C7xSNQDsuZHGBSsByJsyEnam2b69phiJzBp7boY5o83a',
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V2,
+  //   lpToken: tokens.usdc,
+  //   earnToken: tokens.hvlo,
+  //   billNnftAddress: {
+  //     [ChainId.SOL]: 'Fn8fRswWZAYfM2dywoTdajZ9ujYqC9DpGWaPU346zn7N',
+  //   },
+  //   projectLink: 'https://www.hivello.com',
+  //   twitter: 'https://x.com/HivelloOfficial',
+  //   initTime: { [ChainId.SOL]: 1755520140 },
+  //   soldOut: false,
+  //   billArt: {
+  //     collection: BillArtCollection.Solana_Collection1,
+  //   },
+  //   shortDescription:
+  //     'Hivello simplifies DePIN node participation with an easy-to-use desktop app that lets anyone earn passive income by sharing unused resources—no blockchain experience needed. Users can connect devices like PCs or routers to support Web3 infrastructure. The $HVLO token powers the ecosystem through rewards, staking, and seamless participation.',
+  //   fullDescription:
+  //     "Hivello is on a mission to simplify DePIN node participation for the masses by removing the technical hurdles typically associated with decentralized networks. At the core of this effort is a radically simple desktop application that enables users to earn passive income by contributing unused computer resources. Whether it's a PC, router, modem, or storage device, users can seamlessly participate in Web3 without any prior blockchain knowledge or technical expertise. By unlocking a user-friendly gateway into decentralized infrastructure, Hivello empowers individuals to support and benefit from DePIN protocols while reinforcing the broader network. At the heart of this ecosystem is the $HVLO token, which fuels rewards, staking, and participation, making Web3 both accessible and rewarding for everyone.",
+  //   tags: ['DePiN'],
+  // },
+  // {
+  //   index: 18014,
+  //   version: '2.2.0',
+  //   chainId: ChainId.SOL,
+  //   contractAddress: {
+  //     [ChainId.SOL]: '5dtPFaLeQ2LxcyHTPAnSy3yRYKHgc8PcE1Pb6Pj6ys7b',
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V2,
+  //   lpToken: tokens.usdc,
+  //   earnToken: tokens.aitech,
+  //   billNnftAddress: {
+  //     [ChainId.SOL]: 'EtdKPoj7xXta4zb682ovXitJozc6khWaCTjLghEcqjf3',
+  //   },
+  //   projectLink: 'https://aitech.io/',
+  //   twitter: 'https://x.com/AITECHio',
+  //   initTime: { [ChainId.SOL]: 1756473060 },
+  //   soldOut: true,
+  //   billArt: {
+  //     collection: BillArtCollection.Solana_Collection1,
+  //   },
+  //   shortDescription:
+  //     'AITECH is paving the way for a more convenient and secure future by providing accessible Artificial Intelligence-as-a-Service (AIaaS), Blockchain-as-a-Service (BaaS), High-Performance Computing Power (HPC), and an artificial intelligence marketplace. All these are backed by their native token: $AITECH.',
+  //   fullDescription:
+  //     "AITECH is the world's first deflationary AI utilities token, driving the operations of Solidus AI Tech's eco-friendly High-Performance Computing (HPC) Data Centre in Europe. This 8,000 sqft facility supports a diverse ecosystem, including the AI and GPU Marketplaces as well as the AITECH Pad Launchpad. The GPU Marketplace offers high-performance GPUs for a wide range of tasks, available through flexible rentals with no upfront costs. The AI Marketplace provides a suite of AI tools for automating both business and personal activities, categorized into Foundational AI Models, AI Agents, and Standalone AI Solutions. The AITECH Pad Launchpad offers early access to seed, private, and public rounds of AI-focused and infrastructure projects. Stakers of the $AITECH token gain tiered access to these launches, powering the ecosystem and enabling seamless service transactions, where fiat payments are converted to $AITECH on the blockchain. A deflationary burn mechanism ensures that a portion of tokens used for services is permanently removed from circulation, reducing supply and enhancing long-term value.",
+  //   tags: ['AI'],
+  // },
+  // {
+  //   index: 18015,
+  //   cmcId: 37257,
+  //   version: '2.2.0',
+  //   chainId: ChainId.SOL,
+  //   contractAddress: {
+  //     [ChainId.SOL]: 'EfocnmD67sD68nw86F63wnygTyeRMc5ZpgcRsCbaHnbQ',
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V2,
+  //   lpToken: tokens.usdc,
+  //   earnToken: tokens.aix,
+  //   billNnftAddress: {
+  //     [ChainId.SOL]: 'Fjh5bKKyc3J7sx5uojR87azWowW5fiPnXYLa5KR5Knch',
+  //   },
+  //   projectLink: 'https://aixovia.com/',
+  //   twitter: 'https://x.com/aixovia',
+  //   initTime: { [ChainId.SOL]: 1757589541 },
+  //   soldOut: false,
+  //   billArt: {
+  //     collection: BillArtCollection.Solana_Collection1,
+  //   },
+  //   shortDescription:
+  //     'AI Xovia is the world’s first fully autonomous AI orchestrating 1,000+ traders to restore fairness, transparency, and sustainability in crypto. Powered by AiXovia TradeSignal and AutoTrade app, it features revolutionary deflationary tokenomics with profits fueling $AIX buybacks. Launched with no presale and immutable security, the AIX token is the utility and value driver of the AI-powered revolution.',
+  //   fullDescription:
+  //     'AI Xovia emerges as a groundbreaking force in decentralized finance, introducing the world’s first fully autonomous AI that orchestrates the strategies of over 1,000 traders to create harmony in a market long plagued by manipulation, pump-and-dump schemes, and empty projects. Designed as both a technological and philosophical revolution, it seeks to restore transparency, fairness, and sustainability in crypto. With its AiXovia TradeSignal and AutoTrade app, users gain access to actionable trading intelligence backed by revolutionary deflationary tokenomics. Profits generated from external market operations fuel continuous $AIX buybacks, applying sustainable upward pressure and reinforcing long-term growth. Built with no presale for absolute fairness, the project ensures immutability and security by permanently revoking all control authorities. Beyond trading signals, its unique refund guarantee fosters trust and usability. At the heart of this ecosystem lies the AIX token, the utility and value driver of the AI-powered revolution.',
+  //   tags: ['AI'],
+  // },
 
   //
   // Berachain
