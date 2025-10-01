@@ -74,6 +74,30 @@
       "130": "External"
     }
   },
+  "banana": {
+    "symbol": "BANANA",
+    "address": {
+      "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+      "7565165": "6MkKT6ffNt6N22U2Q7yZaLC4QYrxGuFefwYrmd8XXsih"
+    },
+    "decimals": {
+      "56": 18,
+      "7565165": 9
+    },
+    "active": true
+  },
+  "gnana": {
+    "symbol": "GNANA",
+    "address": {
+      "56": "0xdDb3Bd8645775F59496c821E4F55A7eA6A6dc299",
+      "7565165": "9Go1k12GfUGyKSA4Hcw6svZ6E8T5Dkta8t3rmHF7xJNU"
+    },
+    "decimals": {
+      "56": 18,
+      "7565165": 9
+    },
+    "active": true
+  },
   "hyper": {
     "symbol": "HYPER",
     "address": {
@@ -2477,26 +2501,6 @@
     "liquidityDex": {
       "56": "PancakeSwapV3"
     }
-  },
-  "banana": {
-    "symbol": "BANANA",
-    "address": {
-      "56": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95"
-    },
-    "decimals": {
-      "56": 18
-    },
-    "active": true
-  },
-  "gnana": {
-    "symbol": "GNANA",
-    "address": {
-      "56": "0xdDb3Bd8645775F59496c821E4F55A7eA6A6dc299"
-    },
-    "decimals": {
-      "56": 18
-    },
-    "active": true
   },
   "bananaBnb": {
     "symbol": "BANANA-BNB",

@@ -190,6 +190,36 @@ const bills: BillsConfig[] = [
   },
 
   //
+  // SOLANA DEVNET
+  //
+
+  {
+    index: 696901,
+    version: '2.2.0',
+    chainId: ChainId.SOL_DEVNET,
+    contractAddress: {
+      [ChainId.SOL_DEVNET]: 'H4xMaqJqZzW8uK7FWn7MWUea4caawyrs8dLw4TPrYeo2',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.banana,
+    earnToken: tokens.gnana,
+    billNnftAddress: {
+      [ChainId.SOL_DEVNET]: '4J9VwpmZVpbR2rwUm3UAUdU6egUxm1U88ABtscxzL31m',
+    },
+    projectLink: 'https://www.hyperonsol.com/',
+    twitter: 'https://x.com/hyperonsol',
+    initTime: { [ChainId.SOL_DEVNET]: 1752067620 },
+    soldOut: true,
+    billArt: {
+      collection: BillArtCollection.Solana_Collection1,
+    },
+    fullDescription: `Hyper is a community-driven memecoin built on the belief that memes can be more than just hype—they can create real value and utility. At its core lies the Hyper character, a mascot around which a vibrant, builder-focused culture is forming. The community stands firmly against value extraction, instead championing fair participation and collective growth. With MemesForge, Hyper is developing a powerful platform offering essential tools for other memecoins, driving a new wave of meme-based innovation. Tools built for Hyper are shared and monetized, generating revenue that flows back into the ecosystem. In this virtuous cycle, $HYPER becomes the token that captures and distributes value across the community.`,
+    shortDescription: `Hyper is a community-driven memecoin built around fair value creation and collective growth. With the Hyper mascot at its core, the project rejects value extraction and empowers builders through MemesForge, a platform offering tools for other memecoins. Revenue from these tools flows back to the ecosystem, with $HYPER capturing and distributing that value.`,
+    tags: ['Community', 'Meme'],
+  },
+
+  //
   // SOLANA
   //
 
