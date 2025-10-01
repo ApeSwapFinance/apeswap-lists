@@ -268,15 +268,23 @@
     "billVersion": "V2",
     "lpToken": {
       "symbol": "BANANA",
-      "address": {},
-      "decimals": {},
+      "address": {
+        "7565164": "6MkKT6ffNt6N22U2Q7yZaLC4QYrxGuFefwYrmd8XXsih"
+      },
+      "decimals": {
+        "7565164": 9
+      },
       "active": true,
       "liquidityDex": {}
     },
     "earnToken": {
       "symbol": "GNANA",
-      "address": {},
-      "decimals": {},
+      "address": {
+        "7565164": "9Go1k12GfUGyKSA4Hcw6svZ6E8T5Dkta8t3rmHF7xJNU"
+      },
+      "decimals": {
+        "7565164": 9
+      },
       "active": true,
       "liquidityDex": {}
     },
