@@ -403,7 +403,7 @@ export interface BillsConfig extends BaseBondConfig {
   fullDescription?: string
   featuredURLS?: string[]
   partnersURLS?: string[]
-  vestingCliff?: number
+  vestingCliff?: number // seconds
   minTier?: LaunchBondTiers
   // * This is only used for the bond migration page
   multiplier?: number
