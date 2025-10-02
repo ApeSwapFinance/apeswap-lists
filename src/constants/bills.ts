@@ -7,7 +7,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Arbitrum Largest ID: 2033
 // ETH Largest ID: 3058
 // Linea Largest ID: 6020
-// Base Largest ID: 8060
+// Base Largest ID: 8061
 // Lightlink Largest ID: 7003
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
@@ -1502,6 +1502,34 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
+  {
+    index: 8061,
+    cmcId: 36013,
+    version: '2.1.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x5b21fBB5901582Bf7d7589b2300222cad2835bdb',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.symm,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    projectLink: 'https://www.symm.io/',
+    twitter: 'https://x.com/symm_io',
+    initTime: { [ChainId.BASE]: 1759395205 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DEX'],
+    shortDescription:
+      'Symmio is a trustless on-chain clearing house powering permissionless derivatives through “Asset Abstraction.” Its DaaS model lets developers launch platforms easily, while partners handle backend operations. Exchanges using Symmio already generate revenue across chains. Governance is led by the Symmio DAO, with decisions driven by $SYMM token holders.',
+    fullDescription:
+      'Symmio is a trustless on-chain clearing house serving as a universal settlement and clearing layer for permissionless derivatives. By introducing “Asset Abstraction” to DeFi, it allows anyone to create and trade a wide range of derivatives—options, futures, and exotic products—without needing to hold the underlying assets. Its intent-centric “Derivatives as a Service” (DaaS) model lets developers and exchanges launch derivatives platforms quickly, with Symmio’s modular architecture and partners managing the backend. Multiple third-party exchanges are already live on various blockchains using Symmio’s infrastructure, generating growing revenue streams. Governance of Symmio is decentralized through the $SYMM token, empowering holders to steer protocol development, upgrades, and ecosystem growth via the Symmio DAO.',
+  },
   {
     index: 8060,
     cmcId: 38432,
