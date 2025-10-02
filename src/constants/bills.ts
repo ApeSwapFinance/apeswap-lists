@@ -16291,7 +16291,7 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://rezerve.money/',
     twitter: 'https://x.com/rezervemoney',
     initTime: { [ChainId.MAINNET]: 1756283813 },
-    soldOut: false,
+    soldOut: true,
     hide: false,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
