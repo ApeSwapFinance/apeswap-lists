@@ -2813,6 +2813,58 @@
     "fullDescription": "FOMOFox is the first market-driven storytelling meme coin on IOTA EVM. Follow the thrilling journey of FOMOFox on TwitterX and help him conquer his FOMO by influencing the $FOMO Token’s market performance. Loyal holders will find countless opportunities to grow their $FOMO bags through raffles, solving riddles, or simply holding and supporting the fox. Along the way, FOMOFox faces diverse challenges and meets intriguing characters. Your influence on the market helps him make the right choices. This project offers pure entertainment and rewards those who stick with it! Join the adventure now and visit their website for more details!"
   },
   {
+    "index": 8061,
+    "cmcId": 36013,
+    "version": "2.1.0",
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0x5b21fBB5901582Bf7d7589b2300222cad2835bdb"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "8453": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+      },
+      "decimals": {
+        "8453": 6
+      },
+      "liquidityDex": {
+        "8453": "Aerodrome"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "SYMM",
+      "address": {
+        "8453": "0x800822d361335b4d5F352Dac293cA4128b5B605f"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "8453": "Aerodrome"
+      }
+    },
+    "billNnftAddress": {
+      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "projectLink": "https://www.symm.io/",
+    "twitter": "https://x.com/symm_io",
+    "initTime": {
+      "8453": 1759395205
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["DEX"],
+    "shortDescription": "Symmio is a trustless on-chain clearing house powering permissionless derivatives through “Asset Abstraction.” Its DaaS model lets developers launch platforms easily, while partners handle backend operations. Exchanges using Symmio already generate revenue across chains. Governance is led by the Symmio DAO, with decisions driven by $SYMM token holders.",
+    "fullDescription": "Symmio is a trustless on-chain clearing house serving as a universal settlement and clearing layer for permissionless derivatives. By introducing “Asset Abstraction” to DeFi, it allows anyone to create and trade a wide range of derivatives—options, futures, and exotic products—without needing to hold the underlying assets. Its intent-centric “Derivatives as a Service” (DaaS) model lets developers and exchanges launch derivatives platforms quickly, with Symmio’s modular architecture and partners managing the backend. Multiple third-party exchanges are already live on various blockchains using Symmio’s infrastructure, generating growing revenue streams. Governance of Symmio is decentralized through the $SYMM token, empowering holders to steer protocol development, upgrades, and ecosystem growth via the Symmio DAO."
+  },
+  {
     "index": 8060,
     "cmcId": 38432,
     "version": "2.1.0",
@@ -31826,7 +31878,7 @@
     "initTime": {
       "1": 1756283813
     },
-    "soldOut": false,
+    "soldOut": true,
     "hide": false,
     "billArt": {
       "collection": "ETH_Collection1"
