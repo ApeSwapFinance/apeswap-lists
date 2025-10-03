@@ -7475,6 +7475,67 @@
     "shortDescription": "Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!"
   },
   {
+    "index": 1175,
+    "cmcId": 29157,
+    "version": "2.1.0",
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0x5c54cEE493aCdE692F0D054571b063E67EA7E29E"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "56": "0x55d398326f99059fF775485246999027B3197955"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "ABOND",
+      "address": {
+        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "ThenaV1"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "projectLink": "https://ape.bond/",
+    "twitter": "https://twitter.com/apebond",
+    "audit": "https://paladinsec.co/projects/apebond/",
+    "initTime": {
+      "56": 1759500256
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "shortDescription": "Step into the full ApeBond experience with $ABOND, more than just a token, it’s the gateway to real yield and premium perks. Lock $ABOND to access better Bond discounts, share in protocol revenue paid in $BNB, unlock exclusive tier-gated deals, and other benefits. With flexible lock options and Ape Tiers, it’s built for long-term believers.",
+    "fullDescription": "ABOND isn’t just a token it’s your key to the full ApeBond experience. As the foundation of the ApeBond ecosystem, $ABOND unlocks real yield, exclusive access, and deeper rewards for those who believe in the protocol long-term. By locking $ABOND, users climb Ape Tiers, unlocking extra discounts on Bonds across all chains and partners, earning real revenue share in $BNB from platform fees, and gaining access to premium, tier-gated bond opportunities with stronger returns. Holders also enjoy priority for campaign bonuses and airdrops. With flexible locking options and transparent, on-chain mechanics, $ABOND aligns user incentives with protocol growth — making it more than a token. It’s a commitment to building and benefiting together.",
+    "tags": ["Bonding"],
+    "partnersURLS": [
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/Seedify_fbt392.svg",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613244/ORBS_anzm60.png",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/quickLogo_2_1_g95ynz.png",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/aitech_logo_100_real_no_fake_bjskiq.png",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png"
+    ]
+  },
+  {
     "index": 1174,
     "cmcId": 29157,
     "version": "2.1.0",
@@ -7519,7 +7580,7 @@
     "initTime": {
       "56": 1758831250
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
