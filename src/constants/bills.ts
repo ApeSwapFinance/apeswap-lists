@@ -999,7 +999,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://octo.exchange',
     twitter: 'https://x.com/OctoSwapDex',
     initTime: { [ChainId.MONAD_TESTNET]: 1754336807 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1520,7 +1520,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.symm.io/',
     twitter: 'https://x.com/symm_io',
     initTime: { [ChainId.BASE]: 1759395205 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1653,7 +1653,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.alpacanetwork.ai/',
     twitter: 'https://x.com/AlpacaNetworkAI',
     initTime: { [ChainId.BASE]: 1753795343 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -16414,7 +16414,7 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://www.home3suite.com/',
     twitter: 'https://x.com/Home3Suite',
     initTime: { [ChainId.MAINNET]: 1757408553 },
-    soldOut: false,
+    soldOut: true,
     hide: false,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
