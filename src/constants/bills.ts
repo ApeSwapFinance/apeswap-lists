@@ -245,7 +245,7 @@ const bills: BillsConfig[] = [
     vestingCliff: 86400,
   },
   {
-    index: 696902,
+    index: 6969696969,
     version: '2.2.0',
     chainId: ChainId.SOL,
     contractAddress: {
