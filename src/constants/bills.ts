@@ -244,6 +244,32 @@ const bills: BillsConfig[] = [
     tags: ['asd'],
     vestingCliff: 86400,
   },
+  {
+    index: 696902,
+    version: '2.2.0',
+    chainId: ChainId.SOL,
+    contractAddress: {
+      [ChainId.SOL]: 'HWECicaeS7LPxeGMnouq1BaBFLYtV8RHgygWACkAMYAp',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.banana,
+    earnToken: tokens.gnana,
+    billNnftAddress: {
+      [ChainId.SOL]: '6dXRsD9AHaX82pgGZ4qibHuuPSBTBEacvGJ4CDtQdEXF',
+    },
+    projectLink: 'https://www.hyperonsol.com/',
+    twitter: 'https://x.com/hyperonsol',
+    initTime: { [ChainId.SOL]: 1752067620 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Solana_Collection1,
+    },
+    fullDescription: `0 days cliff`,
+    shortDescription: `0 days cliff`,
+    tags: ['asd'],
+    vestingCliff: 0,
+  },
 
   //
   // SOLANA
