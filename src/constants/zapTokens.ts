@@ -721,5 +721,15 @@ export const zapInputTokens: Partial<Record<ChainId, Token[]>> = {
       },
       active: true,
     },
+    {
+      symbol: 'SUPER',
+      address: {
+        [ChainId.AVAX]: '0x09fa58228bb791ea355c90da1e4783452b9bd8c3',
+      },
+      decimals: {
+        [ChainId.AVAX]: 18,
+      },
+      active: true,
+    },
   ],
 }
