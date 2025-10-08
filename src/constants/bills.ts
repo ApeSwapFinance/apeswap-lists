@@ -270,6 +270,32 @@ const bills: BillsConfig[] = [
     tags: ['asd'],
     vestingCliff: 0,
   },
+  {
+    index: 6969696970,
+    version: '2.2.0',
+    chainId: ChainId.SOL,
+    contractAddress: {
+      [ChainId.SOL]: 'EKywEoyW2yafVL9pLvfCFnR4F3KMVUAcvjsvKhDrxmeJ',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.banana,
+    earnToken: tokens.gnana,
+    billNnftAddress: {
+      [ChainId.SOL]: 'D7pepMAcyu9RFbbyLhfhP91cChUwPFCZ7BHZP7gvXzsh',
+    },
+    projectLink: 'https://www.hyperonsol.com/',
+    twitter: 'https://x.com/hyperonsol',
+    initTime: { [ChainId.SOL]: 1752067620 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Solana_Collection1,
+    },
+    fullDescription: `test oversold`,
+    shortDescription: `test oversold`,
+    tags: ['is oversold'],
+    vestingCliff: 0,
+  },
 
   //
   // SOLANA

@@ -402,6 +402,54 @@
     "vestingCliff": 0
   },
   {
+    "index": 6969696970,
+    "version": "2.2.0",
+    "chainId": 7565164,
+    "contractAddress": {
+      "7565164": "EKywEoyW2yafVL9pLvfCFnR4F3KMVUAcvjsvKhDrxmeJ"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "BANANA",
+      "address": {
+        "7565164": "6MkKT6ffNt6N22U2Q7yZaLC4QYrxGuFefwYrmd8XXsih"
+      },
+      "decimals": {
+        "7565164": 9
+      },
+      "active": true,
+      "liquidityDex": {}
+    },
+    "earnToken": {
+      "symbol": "GNANA",
+      "address": {
+        "7565164": "9Go1k12GfUGyKSA4Hcw6svZ6E8T5Dkta8t3rmHF7xJNU"
+      },
+      "decimals": {
+        "7565164": 9
+      },
+      "active": true,
+      "liquidityDex": {}
+    },
+    "billNnftAddress": {
+      "7565164": "D7pepMAcyu9RFbbyLhfhP91cChUwPFCZ7BHZP7gvXzsh"
+    },
+    "projectLink": "https://www.hyperonsol.com/",
+    "twitter": "https://x.com/hyperonsol",
+    "initTime": {
+      "7565164": 1752067620
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "Solana_Collection1"
+    },
+    "fullDescription": "test oversold",
+    "shortDescription": "test oversold",
+    "tags": ["is oversold"],
+    "vestingCliff": 0
+  },
+  {
     "index": 16000,
     "version": "2.1.0",
     "chainId": 80094,
