@@ -252,6 +252,24 @@
       "tokenAddress": "0xbeED106D0f2e6950BFa1Eec74E1253CA0a643442"
     }
   },
+  "1329": {
+    "0xE30feDd158A2e3b13e9badaeABaFc5516e95e8C7": {
+      "name": "Wrapped SEI",
+      "symbol": "WSEI",
+      "decimals": 18,
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "0xE30feDd158A2e3b13e9badaeABaFc5516e95e8C7"
+    },
+    "0xe15fC38F6D8c56aF07bbCBe3BAf5708A2Bf42392": {
+      "name": "USDC",
+      "symbol": "USDC",
+      "decimals": 6,
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "0xe15fC38F6D8c56aF07bbCBe3BAf5708A2Bf42392"
+    }
+  },
   "2525": {
     "0x69011706b3f6C6eaeD7D2Bc13801558B4fd94CBF": {
       "name": "Wrapped Injective",

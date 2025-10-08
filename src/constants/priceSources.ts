@@ -679,6 +679,24 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       tokenAddress: '0x152b9d0fdc40c096757f570a51e494bd4b943e50',
     },
   },
+  [ChainId.SEI]: {
+    '0xE30feDd158A2e3b13e9badaeABaFc5516e95e8C7': {
+      name: 'Wrapped SEI',
+      symbol: 'WSEI',
+      decimals: 18,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '0xE30feDd158A2e3b13e9badaeABaFc5516e95e8C7',
+    },
+    '0xe15fC38F6D8c56aF07bbCBe3BAf5708A2Bf42392': {
+      name: 'USDC',
+      symbol: 'USDC',
+      decimals: 6,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '0xe15fC38F6D8c56aF07bbCBe3BAf5708A2Bf42392',
+    },
+  },
 }
 
 export default priceSources

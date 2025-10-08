@@ -33,6 +33,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  sei: {
+    symbol: 'SEI',
+    address: {
+      [ChainId.SEI]: '0xE30feDd158A2e3b13e9badaeABaFc5516e95e8C7',
+    },
+    decimals: {
+      [ChainId.SEI]: 18,
+    },
+    liquidityDex: {
+      [ChainId.SEI]: LiquidityDex.External,
+    },
+    active: true,
+  },
   busdc: {
     symbol: 'BUSDC',
     address: {
@@ -1886,6 +1899,7 @@ const tokens: Record<string, Token> = {
       [ChainId.SOL]: 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v',
       [ChainId.UNICHAIN]: '0x078D782b760474a361dDA0AF3839290b0EF57AD6',
       [ChainId.AVAX]: '0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e',
+      [ChainId.SEI]: '0xe15fC38F6D8c56aF07bbCBe3BAf5708A2Bf42392',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -1906,6 +1920,7 @@ const tokens: Record<string, Token> = {
       [ChainId.SOL]: 6,
       [ChainId.UNICHAIN]: 6,
       [ChainId.AVAX]: 6,
+      [ChainId.SEI]: 6,
     },
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
@@ -1925,6 +1940,7 @@ const tokens: Record<string, Token> = {
       [ChainId.SOL]: LiquidityDex.External,
       [ChainId.UNICHAIN]: LiquidityDex.External,
       [ChainId.AVAX]: LiquidityDex.External,
+      [ChainId.SEI]: LiquidityDex.External,
     },
     active: true,
   },
