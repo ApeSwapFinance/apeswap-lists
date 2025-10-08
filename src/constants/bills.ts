@@ -1138,7 +1138,7 @@ const bills: BillsConfig[] = [
     shortDescription: `Ethereum is a decentralized open-source blockchain system that features its own cryptocurrency, Ether. ETH works as a platform for numerous other cryptocurrencies, as well as for the execution of decentralized smart contracts.`,
     fullDescription: `Ethereum is a decentralized open-source blockchain system that features its own cryptocurrency, Ether. ETH works as a platform for numerous other cryptocurrencies, as well as for the execution of decentralized smart contracts.`,
     warningCard: `Testnet Bonds use fake tokens for testing purposes only.`,
-    featuredURLS: ['https://res.cloudinary.com/dswmrqgwy/image/upload/v1759949832/asd_rddkag.jpg'],
+    featuredURLS: ['https://res.cloudinary.com/dswmrqgwy/image/upload/v1759951977/asd_rddkag.jpg'],
   },
   {
     index: 14006,
