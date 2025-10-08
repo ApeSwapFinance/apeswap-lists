@@ -7,6 +7,7 @@
       "130": "0x078D782b760474a361dDA0AF3839290b0EF57AD6",
       "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
       "146": "0x29219dd400f2Bf60E5a23d13Be72B486D4038894",
+      "1329": "0xe15fC38F6D8c56aF07bbCBe3BAf5708A2Bf42392",
       "1890": "0x18fB38404DADeE1727Be4b805c5b242B5413Fa40",
       "8453": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
       "10143": "0xf817257fed379853cDe0fa4F97AB987181B1E5Ea",
@@ -22,6 +23,7 @@
       "130": 6,
       "137": 6,
       "146": 6,
+      "1329": 6,
       "1890": 6,
       "8453": 6,
       "10143": 6,
@@ -38,6 +40,7 @@
       "130": "External",
       "137": "UniswapV3",
       "146": "ShadowExchange",
+      "1329": "External",
       "1890": "Elektrik",
       "8453": "Aerodrome",
       "10143": "PancakeSwapV2",
@@ -46,6 +49,19 @@
       "59144": "Nile",
       "80094": "KodiakV3",
       "7565164": "External"
+    }
+  },
+  "sei": {
+    "symbol": "SEI",
+    "address": {
+      "1329": "0xE30feDd158A2e3b13e9badaeABaFc5516e95e8C7"
+    },
+    "decimals": {
+      "1329": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "1329": "External"
     }
   },
   "trader": {
