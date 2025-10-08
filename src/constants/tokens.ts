@@ -1513,6 +1513,16 @@ const tokens: Record<string, Token> = {
     active: true,
   },
   // TODO: remove mock token
+  fuutest: {
+    symbol: 'FUU', //GOO test
+    address: {
+      [ChainId.BASE]: '0x45D81390C240f117D2a24d0f5b33dfC57d3a5729',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+  },
   eitm: {
     symbol: 'EITM',
     address: {
@@ -1790,6 +1800,19 @@ const tokens: Record<string, Token> = {
       [ChainId.SONIC]: LiquidityDex.ShadowExchange,
       [ChainId.BLAST]: LiquidityDex.ThrusterV3, //very low liquidity on Blast
       [ChainId.AVAX]: LiquidityDex.External,
+    },
+    active: true,
+  },
+  cbbtc: {
+    symbol: 'cbBTC',
+    address: {
+      [ChainId.BASE]: '0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf',
+    },
+    decimals: {
+      [ChainId.BASE]: 8,
+    },
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.Aerodrome,
     },
     active: true,
   },
