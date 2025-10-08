@@ -20,6 +20,32 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  super: {
+    symbol: 'SUPER',
+    address: {
+      [ChainId.AVAX]: '0x09fa58228bb791ea355c90da1e4783452b9bd8c3',
+    },
+    decimals: {
+      [ChainId.AVAX]: 18,
+    },
+    liquidityDex: {
+      [ChainId.AVAX]: LiquidityDex.BlackHole,
+    },
+    active: true,
+  },
+  sei: {
+    symbol: 'SEI',
+    address: {
+      [ChainId.SEI]: '0xE30feDd158A2e3b13e9badaeABaFc5516e95e8C7',
+    },
+    decimals: {
+      [ChainId.SEI]: 18,
+    },
+    liquidityDex: {
+      [ChainId.SEI]: LiquidityDex.External,
+    },
+    active: true,
+  },
   busdc: {
     symbol: 'BUSDC',
     address: {
@@ -1513,6 +1539,16 @@ const tokens: Record<string, Token> = {
     active: true,
   },
   // TODO: remove mock token
+  fuutest: {
+    symbol: 'FUU', //GOO test
+    address: {
+      [ChainId.BASE]: '0x45D81390C240f117D2a24d0f5b33dfC57d3a5729',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+  },
   eitm: {
     symbol: 'EITM',
     address: {
@@ -1793,6 +1829,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  cbbtc: {
+    symbol: 'cbBTC',
+    address: {
+      [ChainId.BASE]: '0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf',
+    },
+    decimals: {
+      [ChainId.BASE]: 8,
+    },
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.Aerodrome,
+    },
+    active: true,
+  },
   cake: {
     symbol: 'CAKE',
     address: {
@@ -1850,6 +1899,7 @@ const tokens: Record<string, Token> = {
       [ChainId.SOL]: 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v',
       [ChainId.UNICHAIN]: '0x078D782b760474a361dDA0AF3839290b0EF57AD6',
       [ChainId.AVAX]: '0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e',
+      [ChainId.SEI]: '0xe15fC38F6D8c56aF07bbCBe3BAf5708A2Bf42392',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -1870,6 +1920,7 @@ const tokens: Record<string, Token> = {
       [ChainId.SOL]: 6,
       [ChainId.UNICHAIN]: 6,
       [ChainId.AVAX]: 6,
+      [ChainId.SEI]: 6,
     },
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
@@ -1889,6 +1940,7 @@ const tokens: Record<string, Token> = {
       [ChainId.SOL]: LiquidityDex.External,
       [ChainId.UNICHAIN]: LiquidityDex.External,
       [ChainId.AVAX]: LiquidityDex.External,
+      [ChainId.SEI]: LiquidityDex.External,
     },
     active: true,
   },
