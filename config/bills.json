@@ -1,5 +1,56 @@
 [
   {
+    "index": 21000,
+    "version": "2.1.0",
+    "chainId": 1329,
+    "contractAddress": {
+      "1329": "0x58F51F31Cca3890D571ecFB47f62bB530339529d"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "1329": "0xe15fC38F6D8c56aF07bbCBe3BAf5708A2Bf42392"
+      },
+      "decimals": {
+        "1329": 6
+      },
+      "liquidityDex": {
+        "1329": "External"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "SEI",
+      "address": {
+        "1329": "0xE30feDd158A2e3b13e9badaeABaFc5516e95e8C7"
+      },
+      "decimals": {
+        "1329": 18
+      },
+      "liquidityDex": {
+        "1329": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "1329": "0xc765C358622cB346f236F8Bfffe53036e421bb4e"
+    },
+    "projectLink": "https://www.sei.io/",
+    "twitter": "https://x.com/SeiNetwork",
+    "initTime": {
+      "1329": 1759940017
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["Blockchain"],
+    "shortDescription": "lorem ipsum",
+    "fullDescription": "lorem ipsum dolor sit amet"
+  },
+  {
     "index": 20001,
     "version": "2.1.0",
     "chainId": 43114,
