@@ -1336,6 +1336,19 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.External,
     },
   },
+  omni: {
+    symbol: 'OMNI',
+    address: {
+      [ChainId.BASE]: '0xf7178122a087ef8f5c7bea362b7dabe38f20bf05',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.External,
+    },
+  },
   xavi: {
     symbol: 'XAVI',
     address: {
