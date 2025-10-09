@@ -7,7 +7,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Arbitrum Largest ID: 2033
 // ETH Largest ID: 3058
 // Linea Largest ID: 6020
-// Base Largest ID: 8061
+// Base Largest ID: 8062
 // Lightlink Largest ID: 7003
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
@@ -1502,6 +1502,33 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
+  {
+    index: 8062,
+    version: '2.1.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0xE88e62372953a4a6B25DDCf403A5B5dA8B3E3759',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.eth,
+    earnToken: tokens.omni,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    projectLink: 'https://omni.exchange/',
+    twitter: 'https://x.com/Omni_Exchange',
+    initTime: { [ChainId.BASE]: 1760017558 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DEX'],
+    shortDescription:
+      'Omni Exchange unites liquidity across major EVM networks, solving DeFi’s biggest flaws, unsustainable emissions, failed governance, and fragmented liquidity. With veOMNI rewards, real revenue buybacks, and strong community incentives, it rebuilds DeFi on sustainability and scalability. The $OMNI token powers governance, incentives, and value transfer. DeFi made omnipresent.',
+    fullDescription:
+      'Omni Exchange is redefining the decentralized exchange landscape by creating a unified liquidity layer that connects major EVM networks and beyond. Built to address DeFi’s systemic flaws, such as the collapse of veToken governance, unsustainable emissions, and fragmented liquidity, Omni introduces a model rooted in sustainability, scalability, and real value creation. It aligns long-term incentives through veOMNI, empowering holders with genuine rewards sourced from over $700K in protocol-owned liquidity, real revenue buybacks, and a growing bribe market that strengthens governance participation. By merging cross-chain functionality with sound tokenomics, Omni Exchange enables seamless interaction between users, capital, and protocols, fostering a sustainable and interconnected DeFi ecosystem. The $OMNI token serves as the foundation of this vision driving governance, liquidity incentives, and value transfer across the network. DeFi made omnipresent.',
+  },
   {
     index: 8061,
     cmcId: 36013,

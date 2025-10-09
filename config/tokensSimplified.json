@@ -720,6 +720,19 @@
       "8822": "MagicSea"
     }
   },
+  "omni": {
+    "symbol": "OMNI",
+    "address": {
+      "8453": "0xf7178122a087ef8f5c7bea362b7dabe38f20bf05"
+    },
+    "decimals": {
+      "8453": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "8453": "External"
+    }
+  },
   "symm": {
     "symbol": "SYMM",
     "address": {
