@@ -7526,6 +7526,58 @@
     "shortDescription": "Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!"
   },
   {
+    "index": 1177,
+    "cmcId": 18345,
+    "version": "2.1.0",
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0xC7CD6fa6d28c4134b97d37c3fEfacd6976c28df0"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "56": "0x55d398326f99059fF775485246999027B3197955"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "QORPO",
+      "address": {
+        "56": "0x22514fFb0d7232a56F0c24090E7B68f179FAA940"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      }
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "projectLink": "https://qorpo.world/",
+    "twitter": "https://x.com/QORPOworld",
+    "initTime": {
+      "56": 1760355738
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "shortDescription": "QORPO World is a Web3 gaming ecosystem combining competitive gameplay, digital ownership, and AI innovation. Its platform offers seamless access to games, Web3 features, and a player-driven economy without requiring blockchain knowledge. Powered by the $QORPO token, it unites games, esports, and NFTs, giving holders a stake in next-generation IP built for the AI era.",
+    "fullDescription": "QORPO World is a next-generation Web3 gaming ecosystem that seamlessly merges competitive gameplay, digital ownership, and advanced AI technology. Built to empower players, developers, and investors alike, the platform provides an all-encompassing hub where innovation meets entertainment through multiplayer games, blockchain infrastructure, and AI-driven experiences. Designed for accessibility, the QORPO Platform enables users to explore Web3 without technical barriers, offering a unified space to play, build, and engage in a dynamic digital economy. By combining immersive design, user-centric tools, and an interconnected ecosystem, QORPO is redefining how people experience gaming in the decentralized era. At the heart of it all, the $QORPO token serves as the versatile studio token fueling the entire ecosystem, powering games, esports, and NFTs while granting holders a stake in the future of next-generation IP in the age of AI.",
+    "tags": ["GameFi"]
+  },
+  {
     "index": 1176,
     "cmcId": 29157,
     "version": "2.1.0",
