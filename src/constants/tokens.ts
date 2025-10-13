@@ -4064,6 +4064,19 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
     },
   },
+  qorpo: {
+    symbol: 'QORPO',
+    address: {
+      [ChainId.BSC]: '0x22514fFb0d7232a56F0c24090E7B68f179FAA940',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+    },
+  },
   link: {
     symbol: 'LINK',
     address: {

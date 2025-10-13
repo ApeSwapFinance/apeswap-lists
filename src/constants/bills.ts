@@ -1,7 +1,7 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1176
+// BNB Largest ID: 1177
 // Polygon Largest ID: 188
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2033
@@ -3885,6 +3885,34 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1177,
+    cmcId: 18345,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0xC7CD6fa6d28c4134b97d37c3fEfacd6976c28df0',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.qorpo,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://qorpo.world/',
+    twitter: 'https://x.com/QORPOworld',
+    initTime: { [ChainId.BSC]: 1760355738 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    shortDescription:
+      'QORPO World is a Web3 gaming ecosystem combining competitive gameplay, digital ownership, and AI innovation. Its platform offers seamless access to games, Web3 features, and a player-driven economy without requiring blockchain knowledge. Powered by the $QORPO token, it unites games, esports, and NFTs, giving holders a stake in next-generation IP built for the AI era.',
+    fullDescription:
+      'QORPO World is a next-generation Web3 gaming ecosystem that seamlessly merges competitive gameplay, digital ownership, and advanced AI technology. Built to empower players, developers, and investors alike, the platform provides an all-encompassing hub where innovation meets entertainment through multiplayer games, blockchain infrastructure, and AI-driven experiences. Designed for accessibility, the QORPO Platform enables users to explore Web3 without technical barriers, offering a unified space to play, build, and engage in a dynamic digital economy. By combining immersive design, user-centric tools, and an interconnected ecosystem, QORPO is redefining how people experience gaming in the decentralized era. At the heart of it all, the $QORPO token serves as the versatile studio token fueling the entire ecosystem, powering games, esports, and NFTs while granting holders a stake in the future of next-generation IP in the age of AI.',
+    tags: ['GameFi'],
+  },
   {
     index: 1176,
     cmcId: 29157,
