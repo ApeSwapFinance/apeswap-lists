@@ -11344,7 +11344,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://film.io/',
     twitter: 'https://x.com/Filmio_Official',
     initTime: { [ChainId.MATIC]: 1755085583 },
-    soldOut: false,
+    soldOut: true,
     hide: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
