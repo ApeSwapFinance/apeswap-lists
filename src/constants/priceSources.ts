@@ -267,6 +267,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       id: 'credbull',
       tokenAddress: '0xD6b3d81868770083307840F513A3491960b95cb6', //CBL
     },
+    '0x94fcd9c18f99538c0f7c61c5500ca79f0d5c4dab': {
+      name: 'KIMA',
+      symbol: 'KIMA',
+      decimals: 18,
+      source: PriceSource.Mexc,
+      id: 'KIMAUSDT',
+      tokenAddress: '0x94fcd9c18f99538c0f7c61c5500ca79f0d5c4dab',
+    },
   },
   [ChainId.GRAPHLINQ]: {
     '0x0000000000000000000000000000000000000000': {
