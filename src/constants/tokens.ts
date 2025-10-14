@@ -5543,14 +5543,14 @@ const tokens: Record<string, Token> = {
   kima: {
     symbol: 'KIMA',
     address: {
-      [ChainId.ARBITRUM]: '0x94fCD9c18f99538C0f7C61c5500cA79F0D5C4dab',
+      [ChainId.ARBITRUM]: '0x94fcd9c18f99538c0f7c61c5500ca79f0d5c4dab',
     },
     decimals: {
       [ChainId.ARBITRUM]: 18,
     },
     active: true,
     liquidityDex: {
-      [ChainId.ARBITRUM]: LiquidityDex.PancakeSwapV3,
+      [ChainId.ARBITRUM]: LiquidityDex.External,
     },
   },
   crv: {

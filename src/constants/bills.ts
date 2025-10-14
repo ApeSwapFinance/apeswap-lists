@@ -14037,34 +14037,34 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
   /*
       Arbitrum Bills - ID started from 2001
   */
-  {
-    index: 2034,
-    cmcId: 33488,
-    version: '2.1.1',
-    chainId: ChainId.ARBITRUM,
-    contractAddress: {
-      [ChainId.ARBITRUM]: '0x60Fc465dC85240c3B569F3379aebf113c2Cd2F24',
-    },
-    billType: 'reserve',
-    billVersion: BillVersion.V4,
-    lpToken: tokens.usdc2,
-    earnToken: tokens.kima,
-    billNnftAddress: {
-      [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
-    },
-    projectLink: 'https://www.kima.network/',
-    twitter: 'https://x.com/kimanetwork',
-    initTime: { [ChainId.ARBITRUM]: 1760453256 },
-    soldOut: false,
-    billArt: {
-      collection: BillArtCollection.ApeBond_Collection1,
-    },
-    tags: ['DeFi'],
-    hide: false,
-    shortDescription: `Kima is a Cosmos SDK-based blockchain enabling secure, cross-chain atomic swaps without wrapped tokens or liquidity fragmentation. Using a dual-layer consensus with rotating wardens and TSS in Trusted Execution Environments, it ensures secure transfers and full auditability. $KIMA powers validation, rewards, transactions, and ecosystem growth.`,
-    fullDescription: `Kima is a Cosmos SDK-based blockchain that solves cross-chain interoperability without adding liquidity fragmentation by enabling atomic swaps across multiple blockchains—like Ethereum, Polygon, and Solana—without wrapping tokens. It uses a unique committee-based consensus with rotating “wardens” who manage liquidity pools and authorize transfers only after validating source-chain deposits, leveraging Threshold Signature Schemes inside Trusted Execution Environments for added security. Kima operates on a dual-layer model: a permissioned validator layer with trusted entities and a permissionless layer for broader participation. The protocol governs warden selection, platform parameters, and records every swap for full auditability, while also enabling future cross-chain messaging. Kima’s token, $KIMA, underpins security, validator rewards, ecosystem growth, and transaction and liquidity operations, ensuring a decentralized and efficient cross-chain experience.`,
-    warningCard: `This token is currently only tradable on the following CEXs: <a href="https://www.mexc.com/en-GB/exchange/KIMA_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a>, <a href="https://www.gate.com/trade/KIMA_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">Gate</a>, <a href="https://www.kucoin.com/trade/KIMA-USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">KuCoin</a> and <a href="https://www.htx.com/trade/kima_usdt" target="_blank" rel="noopener noreferrer" style="color: #6099c5">HTX</a>.`,
-  },
+  // {
+  //   index: 2034,
+  //   cmcId: 33488,
+  //   version: '2.1.1',
+  //   chainId: ChainId.ARBITRUM,
+  //   contractAddress: {
+  //     [ChainId.ARBITRUM]: '0x60Fc465dC85240c3B569F3379aebf113c2Cd2F24',
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V4,
+  //   lpToken: tokens.usdc2,
+  //   earnToken: tokens.kima,
+  //   billNnftAddress: {
+  //     [ChainId.ARBITRUM]: '0xAC707999D05C4048844B78c737D9512DFDff524d',
+  //   },
+  //   projectLink: 'https://www.kima.network/',
+  //   twitter: 'https://x.com/kimanetwork',
+  //   initTime: { [ChainId.ARBITRUM]: 1760453256 },
+  //   soldOut: false,
+  //   billArt: {
+  //     collection: BillArtCollection.ApeBond_Collection1,
+  //   },
+  //   tags: ['DeFi'],
+  //   hide: false,
+  //   shortDescription: `Kima is a Cosmos SDK-based blockchain enabling secure, cross-chain atomic swaps without wrapped tokens or liquidity fragmentation. Using a dual-layer consensus with rotating wardens and TSS in Trusted Execution Environments, it ensures secure transfers and full auditability. $KIMA powers validation, rewards, transactions, and ecosystem growth.`,
+  //   fullDescription: `Kima is a Cosmos SDK-based blockchain that solves cross-chain interoperability without adding liquidity fragmentation by enabling atomic swaps across multiple blockchains—like Ethereum, Polygon, and Solana—without wrapping tokens. It uses a unique committee-based consensus with rotating “wardens” who manage liquidity pools and authorize transfers only after validating source-chain deposits, leveraging Threshold Signature Schemes inside Trusted Execution Environments for added security. Kima operates on a dual-layer model: a permissioned validator layer with trusted entities and a permissionless layer for broader participation. The protocol governs warden selection, platform parameters, and records every swap for full auditability, while also enabling future cross-chain messaging. Kima’s token, $KIMA, underpins security, validator rewards, ecosystem growth, and transaction and liquidity operations, ensuring a decentralized and efficient cross-chain experience.`,
+  //   warningCard: `This token is currently only tradable on the following CEXs: <a href="https://www.mexc.com/en-GB/exchange/KIMA_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a>, <a href="https://www.gate.com/trade/KIMA_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">Gate</a>, <a href="https://www.kucoin.com/trade/KIMA-USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">KuCoin</a> and <a href="https://www.htx.com/trade/kima_usdt" target="_blank" rel="noopener noreferrer" style="color: #6099c5">HTX</a>.`,
+  // },
   {
     index: 2033,
     cmcId: 33488,
