@@ -4562,7 +4562,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://u-topia.com/',
     twitter: 'https://x.com/ucoinofficial',
     initTime: { [ChainId.BSC]: 1753290000 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
