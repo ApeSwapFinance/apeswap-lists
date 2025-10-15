@@ -1887,7 +1887,7 @@ const tokens: Record<string, Token> = {
     },
     liquidityDex: {
       [ChainId.MATIC]: LiquidityDex.UniswapV3,
-      [ChainId.ARBITRUM]: LiquidityDex.UniswapV3,
+      [ChainId.ARBITRUM]: LiquidityDex.PancakeSwapV3,
     },
     active: true,
   },

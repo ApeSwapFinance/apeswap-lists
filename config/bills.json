@@ -27589,7 +27589,7 @@
         "42161": 6
       },
       "liquidityDex": {
-        "42161": "UniswapV3"
+        "42161": "PancakeSwapV3"
       },
       "active": true
     },
@@ -27643,7 +27643,7 @@
         "42161": 6
       },
       "liquidityDex": {
-        "42161": "UniswapV3"
+        "42161": "PancakeSwapV3"
       },
       "active": true
     },
@@ -27696,7 +27696,7 @@
         "42161": 6
       },
       "liquidityDex": {
-        "42161": "UniswapV3"
+        "42161": "PancakeSwapV3"
       },
       "active": true
     },
@@ -27749,7 +27749,7 @@
         "42161": 6
       },
       "liquidityDex": {
-        "42161": "UniswapV3"
+        "42161": "PancakeSwapV3"
       },
       "active": true
     },
@@ -27801,7 +27801,7 @@
         "42161": 6
       },
       "liquidityDex": {
-        "42161": "UniswapV3"
+        "42161": "PancakeSwapV3"
       },
       "active": true
     },
