@@ -106,11 +106,22 @@ const buildTokens = () => {
 }
 
 const buildTokensSimplified = () => {
-  // Create a reverse lookup map from token symbol to token key in tokens.ts
-  const symbolToKey = new Map<string, string>()
+  // Create a reverse lookup map from token address+chainId to token key in tokens.ts
+  const addressToKey = new Map<ChainId, Map<string, string>>()
   Object.entries(tokens).forEach(([key, token]) => {
-    if (token.symbol) {
-      symbolToKey.set(token.symbol, key)
+    if (token.address) {
+      Object.entries(token.address).forEach(([chainIdStr, address]) => {
+        if (address) {
+          const chainId = parseInt(chainIdStr) as ChainId
+          let chainMap = addressToKey.get(chainId)
+          if (!chainMap) {
+            chainMap = new Map()
+            addressToKey.set(chainId, chainMap)
+          }
+          // Store lowercase address for case-insensitive matching
+          chainMap.set(address.toLowerCase(), key)
+        }
+      })
     }
   })
 
@@ -124,44 +135,54 @@ const buildTokensSimplified = () => {
     const chainId = bill.chainId
 
     // Add lpToken
-    if (bill.lpToken) {
-      const symbol = bill.lpToken.symbol
-      const tokenKey = symbolToKey.get(symbol)
-      if (tokenKey && !collectedTokens.has(symbol)) {
-        collectedTokens.set(symbol, { token: bill.lpToken, chainIds: new Set(), tokenKey })
-      }
-      const tokenData = collectedTokens.get(symbol)
-      if (tokenData) {
-        tokenData.chainIds.add(chainId)
+    if (bill.lpToken && bill.lpToken.address) {
+      const lpAddress = bill.lpToken.address[chainId]
+      if (lpAddress) {
+        const address = lpAddress.toLowerCase()
+        const tokenKey = addressToKey.get(chainId)?.get(address)
+        if (tokenKey) {
+          if (!collectedTokens.has(tokenKey)) {
+            collectedTokens.set(tokenKey, { token: bill.lpToken, chainIds: new Set(), tokenKey })
+          }
+          const tokenData = collectedTokens.get(tokenKey)
+          if (tokenData) {
+            tokenData.chainIds.add(chainId)
+          }
+        }
       }
     }
 
     // Add earnToken
-    if (bill.earnToken) {
-      const symbol = bill.earnToken.symbol
-      const tokenKey = symbolToKey.get(symbol)
-      if (tokenKey && !collectedTokens.has(symbol)) {
-        collectedTokens.set(symbol, { token: bill.earnToken, chainIds: new Set(), tokenKey })
-      }
-      const tokenData = collectedTokens.get(symbol)
-      if (tokenData) {
-        tokenData.chainIds.add(chainId)
+    if (bill.earnToken && bill.earnToken.address) {
+      const earnAddress = bill.earnToken.address[chainId]
+      if (earnAddress) {
+        const address = earnAddress.toLowerCase()
+        const tokenKey = addressToKey.get(chainId)?.get(address)
+        if (tokenKey) {
+          if (!collectedTokens.has(tokenKey)) {
+            collectedTokens.set(tokenKey, { token: bill.earnToken, chainIds: new Set(), tokenKey })
+          }
+          const tokenData = collectedTokens.get(tokenKey)
+          if (tokenData) {
+            tokenData.chainIds.add(chainId)
+          }
+        }
       }
     }
   })
 
   // Add tokens from WNATIVE
   Object.entries(WNATIVE).forEach(([chainIdStr, token]) => {
-    if (token) {
+    if (token && token.address) {
       const chainId = parseInt(chainIdStr) as ChainId
-      const symbol = token.symbol
-      const tokenKey = symbolToKey.get(symbol)
+      const address = token.address[chainId]?.toLowerCase()
+      const tokenKey = address ? addressToKey.get(chainId)?.get(address) : undefined
 
       if (tokenKey) {
-        if (!collectedTokens.has(symbol)) {
-          collectedTokens.set(symbol, { token, chainIds: new Set(), tokenKey })
+        if (!collectedTokens.has(tokenKey)) {
+          collectedTokens.set(tokenKey, { token, chainIds: new Set(), tokenKey })
         }
-        const tokenData = collectedTokens.get(symbol)
+        const tokenData = collectedTokens.get(tokenKey)
         if (tokenData) {
           tokenData.chainIds.add(chainId)
         }
@@ -175,16 +196,21 @@ const buildTokensSimplified = () => {
       const chainId = parseInt(chainIdStr) as ChainId
 
       tokenArray.forEach((token) => {
-        const symbol = token.symbol
-        const tokenKey = symbolToKey.get(symbol)
+        if (token.address) {
+          const zapAddress = token.address[chainId]
+          if (zapAddress) {
+            const address = zapAddress.toLowerCase()
+            const tokenKey = addressToKey.get(chainId)?.get(address)
 
-        if (tokenKey) {
-          if (!collectedTokens.has(symbol)) {
-            collectedTokens.set(symbol, { token, chainIds: new Set(), tokenKey })
-          }
-          const tokenData = collectedTokens.get(symbol)
-          if (tokenData) {
-            tokenData.chainIds.add(chainId)
+            if (tokenKey) {
+              if (!collectedTokens.has(tokenKey)) {
+                collectedTokens.set(tokenKey, { token, chainIds: new Set(), tokenKey })
+              }
+              const tokenData = collectedTokens.get(tokenKey)
+              if (tokenData) {
+                tokenData.chainIds.add(chainId)
+              }
+            }
           }
         }
       })
