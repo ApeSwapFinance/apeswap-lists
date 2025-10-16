@@ -636,6 +636,14 @@
       "source": "dexscreener",
       "type": "token",
       "tokenAddress": "AiXxRGmRc5oDiFXbEeRX9obPpr3Zir7rks1ef2NjddiF"
+    },
+    "CgGWS19zR5xTzgCEcW5Svsuon4hBZwzBwUFimoJStCf2": {
+      "name": "Foxsy AI",
+      "symbol": "FOXSY",
+      "decimals": 9,
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "CgGWS19zR5xTzgCEcW5Svsuon4hBZwzBwUFimoJStCf2"
     }
   }
 }
