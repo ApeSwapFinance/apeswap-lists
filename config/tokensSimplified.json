@@ -4034,7 +4034,7 @@
     "active": true,
     "liquidityDex": {
       "137": "UniswapV3",
-      "42161": "PancakeSwapV3"
+      "42161": "UniswapV3"
     }
   },
   "trkx": {
