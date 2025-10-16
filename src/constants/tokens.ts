@@ -228,6 +228,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  foxsy: {
+    symbol: 'FOXSY',
+    address: {
+      [ChainId.SOL]: 'CgGWS19zR5xTzgCEcW5Svsuon4hBZwzBwUFimoJStCf2',
+    },
+    decimals: {
+      [ChainId.SOL]: 9,
+    },
+    liquidityDex: {
+      [ChainId.SOL]: LiquidityDex.External,
+    },
+    active: true,
+  },
   atl: {
     symbol: 'ATL',
     address: {

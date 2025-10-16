@@ -527,6 +527,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       type: 'token',
       tokenAddress: 'AiXxRGmRc5oDiFXbEeRX9obPpr3Zir7rks1ef2NjddiF',
     },
+    CgGWS19zR5xTzgCEcW5Svsuon4hBZwzBwUFimoJStCf2: {
+      name: 'Foxsy AI',
+      symbol: 'FOXSY',
+      decimals: 9,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: 'CgGWS19zR5xTzgCEcW5Svsuon4hBZwzBwUFimoJStCf2',
+    },
   },
   [ChainId.BERACHAIN]: {
     '0x28e0e3B9817012b356119dF9e217c25932D609c2': {
