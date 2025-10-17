@@ -612,6 +612,7 @@ const bills: BillsConfig[] = [
     fullDescription:
       'Foxsy AI is a cutting-edge online robotics lab that offers remote access to advanced simulation environments and, in the near future, real hardware. Designed to bridge the gap between robotics, AI, and blockchain, the platform enables users to experiment, build, and collaborate from anywhere in the world. While full-scale hardware deployment is underway, early adopters can dive into realistic simulations, participate in community-led projects, and engage through secure blockchain-based transactions. With a mission to integrate autonomous systems into everyday life, Foxsy AI combines decades of expertise with global collaboration to drive innovation in AI and robotics. At the heart of this ecosystem lies the $FOXSY token, powering access to premium tools, opportunities, and DeFi rewards through staking, liquidity pools, and yield farming—making $FOXSY the fuel for innovation and growth within the Foxsy AI universe.',
     tags: ['AI'],
+    vestingCliff: 5184000, // 60 days cliff
   },
 
   //
