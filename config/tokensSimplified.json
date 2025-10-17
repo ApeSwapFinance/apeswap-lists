@@ -273,6 +273,19 @@
       "7565164": "External"
     }
   },
+  "foxsy": {
+    "symbol": "FOXSY",
+    "address": {
+      "7565164": "CgGWS19zR5xTzgCEcW5Svsuon4hBZwzBwUFimoJStCf2"
+    },
+    "decimals": {
+      "7565164": 9
+    },
+    "active": true,
+    "liquidityDex": {
+      "7565164": "External"
+    }
+  },
   "trax": {
     "symbol": "TRAX",
     "address": {

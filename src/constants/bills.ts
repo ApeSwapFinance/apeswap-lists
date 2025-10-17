@@ -19,7 +19,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Sonic Largest ID: 15007
 // Berachain Largest ID: 16005
 // Katana Largest ID: 17000
-// SOL Largest ID: 18015
+// SOL Largest ID: 18016
 // UNICHAIN Largest ID: 19001
 // AVAX Largest ID: 20001
 
@@ -583,6 +583,34 @@ const bills: BillsConfig[] = [
       'AI Xovia is the world’s first fully autonomous AI orchestrating 1,000+ traders to restore fairness, transparency, and sustainability in crypto. Powered by AiXovia TradeSignal and AutoTrade app, it features revolutionary deflationary tokenomics with profits fueling $AIX buybacks. Launched with no presale and immutable security, the AIX token is the utility and value driver of the AI-powered revolution.',
     fullDescription:
       'AI Xovia emerges as a groundbreaking force in decentralized finance, introducing the world’s first fully autonomous AI that orchestrates the strategies of over 1,000 traders to create harmony in a market long plagued by manipulation, pump-and-dump schemes, and empty projects. Designed as both a technological and philosophical revolution, it seeks to restore transparency, fairness, and sustainability in crypto. With its AiXovia TradeSignal and AutoTrade app, users gain access to actionable trading intelligence backed by revolutionary deflationary tokenomics. Profits generated from external market operations fuel continuous $AIX buybacks, applying sustainable upward pressure and reinforcing long-term growth. Built with no presale for absolute fairness, the project ensures immutability and security by permanently revoking all control authorities. Beyond trading signals, its unique refund guarantee fosters trust and usability. At the heart of this ecosystem lies the AIX token, the utility and value driver of the AI-powered revolution.',
+    tags: ['AI'],
+  },
+  {
+    index: 18016,
+    cmcId: 37257,
+    version: '2.2.0',
+    chainId: ChainId.SOL,
+    contractAddress: {
+      [ChainId.SOL]: '5YhjW17AUYRQgTnwobM61J2buV5VFV1BKJo5ysyMERh2',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.foxsy,
+    billNnftAddress: {
+      [ChainId.SOL]: '6dgXA8if6zTVdKbaqmW757AZufwGXw629CARnyfvJU1K',
+    },
+    projectLink: 'https://foxsy.ai/',
+    twitter: 'https://x.com/foxsy_ai',
+    initTime: { [ChainId.SOL]: 1760701437 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Solana_Collection1,
+    },
+    shortDescription:
+      'Foxsy AI is a remote robotics lab combining AI, blockchain, and simulation tech to empower global collaboration. Users can access advanced tools, join projects, and earn through crypto. The $FOXSY token powers access to premium tools, opportunities, and DeFi rewards through staking, liquidity pools, and yield farming.',
+    fullDescription:
+      'Foxsy AI is a cutting-edge online robotics lab that offers remote access to advanced simulation environments and, in the near future, real hardware. Designed to bridge the gap between robotics, AI, and blockchain, the platform enables users to experiment, build, and collaborate from anywhere in the world. While full-scale hardware deployment is underway, early adopters can dive into realistic simulations, participate in community-led projects, and engage through secure blockchain-based transactions. With a mission to integrate autonomous systems into everyday life, Foxsy AI combines decades of expertise with global collaboration to drive innovation in AI and robotics. At the heart of this ecosystem lies the $FOXSY token, powering access to premium tools, opportunities, and DeFi rewards through staking, liquidity pools, and yield farming—making $FOXSY the fuel for innovation and growth within the Foxsy AI universe.',
     tags: ['AI'],
   },
 

@@ -1028,6 +1028,58 @@
     "tags": ["AI"]
   },
   {
+    "index": 18016,
+    "cmcId": 37257,
+    "version": "2.2.0",
+    "chainId": 7565164,
+    "contractAddress": {
+      "7565164": "5YhjW17AUYRQgTnwobM61J2buV5VFV1BKJo5ysyMERh2"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "7565164": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+      },
+      "decimals": {
+        "7565164": 6
+      },
+      "liquidityDex": {
+        "7565164": "External"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "FOXSY",
+      "address": {
+        "7565164": "CgGWS19zR5xTzgCEcW5Svsuon4hBZwzBwUFimoJStCf2"
+      },
+      "decimals": {
+        "7565164": 9
+      },
+      "liquidityDex": {
+        "7565164": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "7565164": "6dgXA8if6zTVdKbaqmW757AZufwGXw629CARnyfvJU1K"
+    },
+    "projectLink": "https://foxsy.ai/",
+    "twitter": "https://x.com/foxsy_ai",
+    "initTime": {
+      "7565164": 1760701437
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "Solana_Collection1"
+    },
+    "shortDescription": "Foxsy AI is a remote robotics lab combining AI, blockchain, and simulation tech to empower global collaboration. Users can access advanced tools, join projects, and earn through crypto. The $FOXSY token powers access to premium tools, opportunities, and DeFi rewards through staking, liquidity pools, and yield farming.",
+    "fullDescription": "Foxsy AI is a cutting-edge online robotics lab that offers remote access to advanced simulation environments and, in the near future, real hardware. Designed to bridge the gap between robotics, AI, and blockchain, the platform enables users to experiment, build, and collaborate from anywhere in the world. While full-scale hardware deployment is underway, early adopters can dive into realistic simulations, participate in community-led projects, and engage through secure blockchain-based transactions. With a mission to integrate autonomous systems into everyday life, Foxsy AI combines decades of expertise with global collaboration to drive innovation in AI and robotics. At the heart of this ecosystem lies the $FOXSY token, powering access to premium tools, opportunities, and DeFi rewards through staking, liquidity pools, and yield farming—making $FOXSY the fuel for innovation and growth within the Foxsy AI universe.",
+    "tags": ["AI"]
+  },
+  {
     "index": 16000,
     "version": "2.1.0",
     "chainId": 80094,
