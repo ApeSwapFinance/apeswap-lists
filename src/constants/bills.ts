@@ -598,7 +598,7 @@ const bills: BillsConfig[] = [
     lpToken: tokens.usdc,
     earnToken: tokens.foxsy,
     billNnftAddress: {
-      [ChainId.SOL]: '6dgXA8if6zTVdKbaqmW757AZufwGXw629CARnyfvJU1K',
+      [ChainId.SOL]: '5MYyJRnq5Wu91AiQN9MDKUtSJrqxuqCDVnDBeq4YRn77',
     },
     projectLink: 'https://foxsy.ai/',
     twitter: 'https://x.com/foxsy_ai',
