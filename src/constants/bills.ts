@@ -3933,7 +3933,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.BSC]: 1760525650 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -11383,7 +11383,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.crypto-factor.io/',
     twitter: 'https://x.com/_Crypto_Factor',
     initTime: { [ChainId.MATIC]: 1758274785 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
