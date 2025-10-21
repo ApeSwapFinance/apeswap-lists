@@ -8,6 +8,7 @@ enum PriceSource {
   Mexc = 'mexc',
   LBank = 'lbank',
   Bitmart = 'bitmart',
+  CoinStore = 'coinstore',
   Fixed = 'fixed', // Mostly for testing
 }
 
@@ -60,6 +61,11 @@ type BitmartPriceSourceConfig = BasePriceSourceConfig & {
   id: string
 }
 
+type CoinStorePriceSourceConfig = BasePriceSourceConfig & {
+  source: PriceSource.CoinStore
+  id: string
+}
+
 type FixedPriceSourceConfig = BasePriceSourceConfig & {
   source: PriceSource.Fixed
   price: number
@@ -71,6 +77,7 @@ type PriceSourceConfigs =
   | MexcPriceSourceConfig
   | LBankPriceSourceConfig
   | BitmartPriceSourceConfig
+  | CoinStorePriceSourceConfig
   | FixedPriceSourceConfig
 
 const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>> = {
@@ -162,6 +169,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       source: PriceSource.Coingecko,
       id: 'brics-chain',
       tokenAddress: '0xec9742f992ACc615C4252060D896c845ca8fC086',
+    },
+    '0x61327929b3eA44c5Ec503d44D71A6c0fA2CefB02': {
+      name: 'LERN',
+      symbol: 'LERN',
+      decimals: 18,
+      source: PriceSource.CoinStore,
+      id: 'LERNUSDT',
+      tokenAddress: '0x61327929b3eA44c5Ec503d44D71A6c0fA2CefB02',
     },
   },
   [ChainId.MATIC]: {
