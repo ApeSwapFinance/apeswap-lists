@@ -1,11 +1,11 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1178
+// BNB Largest ID: 1179
 // Polygon Largest ID: 188
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2034
-// ETH Largest ID: 3058
+// ETH Largest ID: 3059
 // Linea Largest ID: 6020
 // Base Largest ID: 8062
 // Lightlink Largest ID: 7003
@@ -3914,6 +3914,43 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1179,
+    cmcId: 29157,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0xb9444146a710260a421622F644fDCA099E62338e',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.abond,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://ape.bond/',
+    twitter: 'https://x.com/apebond',
+    audit: 'https://paladinsec.co/projects/apebond/',
+    initTime: { [ChainId.BSC]: 1761054794 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    shortDescription:
+      'Step into the full ApeBond experience with $ABOND, more than just a token, it’s the gateway to real yield and premium perks. Lock $ABOND to access better Bond discounts, share in protocol revenue paid in $BNB, unlock exclusive tier-gated deals, and other benefits. With flexible lock options and Ape Tiers, it’s built for long-term believers.',
+    fullDescription:
+      'ABOND isn’t just a token it’s your key to the full ApeBond experience. As the foundation of the ApeBond ecosystem, $ABOND unlocks real yield, exclusive access, and deeper rewards for those who believe in the protocol long-term. By locking $ABOND, users climb Ape Tiers, unlocking extra discounts on Bonds across all chains and partners, earning real revenue share in $BNB from platform fees, and gaining access to premium, tier-gated bond opportunities with stronger returns. Holders also enjoy priority for campaign bonuses and airdrops. With flexible locking options and transparent, on-chain mechanics, $ABOND aligns user incentives with protocol growth — making it more than a token. It’s a commitment to building and benefiting together.',
+    tags: ['Bonding'],
+    partnersURLS: [
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/Seedify_fbt392.svg',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613244/ORBS_anzm60.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/quickLogo_2_1_g95ynz.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/aitech_logo_100_real_no_fake_bjskiq.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
+    ],
+  },
   {
     index: 1178,
     cmcId: 29157,
@@ -16668,6 +16705,35 @@ With the lending products set to go live in February, the project is poised to a
       'MASQ delivers a private web3 browsing experience through a peer-to-peer mesh network, enabling users to bypass censorship, access dApps, and enjoy borderless internet freedom. Its Chromium-based browser integrates ENS, IPFS, and web3 tools while rewarding users for sharing bandwidth. At the heart of this decentralized ecosystem is the MASQ utility token, used as a means of enabling and incentivising functionalities in the MASQ ecosystem.',
     fullDescription:
       'The MASQ software suite delivers a groundbreaking private web3 browsing experience powered by a peer-to-peer mesh network, enabling users to bypass censorship, geo-blocks, and centralized tracking. With its privacy-first Chromium-based interface, MASQ combines intuitive usability with powerful tools such as ENS and IPFS resolution, a curated web3 App Store, and seamless integration with Metamask and Frame extensions. Users can access dApps, crypto platforms, and metaverse services while supporting the network by sharing bandwidth, earning rewards in return. As the decentralized mesh-VPN expands, the network grows stronger, creating a borderless, censorship-resistant internet layer. MASQ also pioneers features like wallet-to-wallet encrypted messaging and decentralized storage integration, reinforcing its role as a foundation for web3 natives. Central to this ecosystem is the MASQ utility token, used as a means of enabling and incentivising functionalities in the MASQ ecosystem.',
+  },
+  {
+    index: 3059,
+    cmcId: 31708,
+    version: '2.1.0',
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0xb9444146a710260a421622F644fDCA099E62338e',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.hts,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    projectLink: 'https://www.home3suite.com/',
+    twitter: 'https://x.com/Home3Suite',
+    initTime: { [ChainId.MAINNET]: 1761054794 },
+    soldOut: false,
+    hide: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['RWA'],
+    shortDescription:
+      'HOME3 is transforming real estate by combining AI and blockchain to solve real-world problems with real-world assets. Through tokenization and on-chain finance, it makes property investment accessible, affordable, and transparent. Backed by experts across real estate, lending, and tech, HOME3 empowers users to search, buy, invest, and finance globally. Its utility token, HTS, powers equity and real estate-backed loans via PROP3 and LOAN3.',
+    fullDescription:
+      'HOME3 is revolutionizing real estate by merging AI and blockchain to solve real-world problems with real-world assets, making property investment accessible to all. Traditional real estate is burdened with high price tags and complex processes, leaving it exclusive to a select few. HOME3 breaks these barriers by building a complete platform where users can search, buy, invest, and finance real estate seamlessly on-chain. Backed by a diverse team of experts in property, lending, technology, and marketing, HOME3’s vision is to create a global marketplace that is inclusive, affordable, and transparent. By combining tokenization, AI-driven insights, and decentralized finance, the platform opens new opportunities for investors to earn from rental yields, REIT dividends, and property appreciation. At the core of this ecosystem is the HTS token, powering equity investments and real estate-backed loans on the upcoming PROP3 and LOAN3 platforms.',
   },
 ]
 
