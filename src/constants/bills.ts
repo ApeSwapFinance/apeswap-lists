@@ -3920,7 +3920,7 @@ const bills: BillsConfig[] = [
     version: '2.1.0',
     chainId: ChainId.BSC,
     contractAddress: {
-      [ChainId.BSC]: '0xb9444146a710260a421622F644fDCA099E62338e',
+      [ChainId.BSC]: '0xb1b7E5e3F7F3B0147d02F65611A285D16eD3cc8a',
     },
     billType: 'reserve',
     billVersion: BillVersion.V4,
