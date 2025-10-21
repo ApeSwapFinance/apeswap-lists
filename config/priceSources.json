@@ -105,6 +105,14 @@
       "source": "coingecko",
       "id": "brics-chain",
       "tokenAddress": "0xec9742f992ACc615C4252060D896c845ca8fC086"
+    },
+    "0x61327929b3eA44c5Ec503d44D71A6c0fA2CefB02": {
+      "name": "LERN",
+      "symbol": "LERN",
+      "decimals": 18,
+      "source": "coinstore",
+      "id": "LERNUSDT",
+      "tokenAddress": "0x61327929b3eA44c5Ec503d44D71A6c0fA2CefB02"
     }
   },
   "130": {
