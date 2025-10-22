@@ -7579,6 +7579,58 @@
     "shortDescription": "Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!"
   },
   {
+    "index": 1180,
+    "cmcId": 16252,
+    "version": "2.1.0",
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0x1386852c3D60887A6f49A1982594937136221139"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "56": "0x55d398326f99059fF775485246999027B3197955"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "ORT",
+      "address": {
+        "56": "0x9E711221B34A2d4B8F552BD5f4A6C4e7934920f7"
+      },
+      "decimals": {
+        "56": 8
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "projectLink": "https://ortcoin.org/",
+    "twitter": "https://x.com/Ortcoin1",
+    "initTime": {
+      "56": 1761131525
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "shortDescription": "Okratech Token powers a dynamic ecosystem uniting decentralized innovation and usability. It includes OrtJob, a DAO-driven freelancing platform with AI matching and decentralized identity, and a Web2 & Web3 App Store offering fast downloads, mod games, and secure reviews. At its core, the ORT token fuels transactions, and growth across the entire ecosystem.",
+    "fullDescription": "Okratech Token presents a multifaceted ecosystem where each product is designed to bring innovation and functionality to the decentralized world. OrtJob is a pioneering decentralized freelancing platform powered by AI and governed by a DAO, enabling fairer, trustless collaboration through decentralized matching and identity verification. The Web2 & Web3 App Store bridges the gap between traditional and blockchain-based applications, offering users fast downloads, mod games, and carefully reviewed software for a safe and efficient experience. With seamless integration across more than 150 tools, users can effortlessly create, edit, optimize, and analyze their web content in one place. Uniting all these products, the ORT token serves as the foundation of the Okratech ecosystem—fueling transactions, and sustaining growth across its interconnected platforms.",
+    "tags": ["WEB3 JOBS"]
+  },
+  {
     "index": 1179,
     "cmcId": 29157,
     "version": "2.1.0",
