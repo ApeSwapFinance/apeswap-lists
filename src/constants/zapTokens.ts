@@ -732,4 +732,56 @@ export const zapInputTokens: Partial<Record<ChainId, Token[]>> = {
       active: true,
     },
   ],
+  [ChainId.SOL]: [
+    {
+      symbol: 'wSOL',
+      address: {
+        [ChainId.SOL]: 'So11111111111111111111111111111111111111112',
+      },
+      decimals: {
+        [ChainId.SOL]: 9,
+      },
+      active: true,
+    },
+    {
+      symbol: 'USDC',
+      address: {
+        [ChainId.SOL]: 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v',
+      },
+      decimals: {
+        [ChainId.SOL]: 6,
+      },
+      active: true,
+    },
+    {
+      symbol: 'USDT',
+      address: {
+        [ChainId.SOL]: 'Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB',
+      },
+      decimals: {
+        [ChainId.SOL]: 6,
+      },
+      active: true,
+    },
+    {
+      symbol: 'wETH',
+      address: {
+        [ChainId.SOL]: '7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs',
+      },
+      decimals: {
+        [ChainId.SOL]: 8,
+      },
+      active: true,
+    },
+    {
+      symbol: 'cbBTC',
+      address: {
+        [ChainId.SOL]: 'cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij',
+      },
+      decimals: {
+        [ChainId.SOL]: 8,
+      },
+      active: true,
+    },
+  ],
 }

@@ -5550,5 +5550,15 @@
       "80094": 18
     },
     "active": true
+  },
+  "cbbtc": {
+    "symbol": "cbBTC",
+    "address": {
+      "7565164": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij"
+    },
+    "decimals": {
+      "7565164": 8
+    },
+    "active": true
   }
 }
