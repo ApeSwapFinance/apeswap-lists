@@ -1543,6 +1543,19 @@
       "59144": "Metavault"
     }
   },
+  "ort": {
+    "symbol": "ORT",
+    "address": {
+      "56": "0x9E711221B34A2d4B8F552BD5f4A6C4e7934920f7"
+    },
+    "decimals": {
+      "56": 8
+    },
+    "active": true,
+    "liquidityDex": {
+      "56": "PancakeSwapV2"
+    }
+  },
   "abond": {
     "symbol": "ABOND",
     "address": {

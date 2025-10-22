@@ -1,7 +1,7 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1179
+// BNB Largest ID: 1180
 // Polygon Largest ID: 188
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2034
@@ -3914,6 +3914,34 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1180,
+    cmcId: 16252,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x1386852c3D60887A6f49A1982594937136221139',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.ort,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://ortcoin.org/',
+    twitter: 'https://x.com/Ortcoin1',
+    initTime: { [ChainId.BSC]: 1761131525 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    shortDescription:
+      'Okratech Token powers a dynamic ecosystem uniting decentralized innovation and usability. It includes OrtJob, a DAO-driven freelancing platform with AI matching and decentralized identity, and a Web2 & Web3 App Store offering fast downloads, mod games, and secure reviews. At its core, the ORT token fuels transactions, and growth across the entire ecosystem.',
+    fullDescription:
+      'Okratech Token presents a multifaceted ecosystem where each product is designed to bring innovation and functionality to the decentralized world. OrtJob is a pioneering decentralized freelancing platform powered by AI and governed by a DAO, enabling fairer, trustless collaboration through decentralized matching and identity verification. The Web2 & Web3 App Store bridges the gap between traditional and blockchain-based applications, offering users fast downloads, mod games, and carefully reviewed software for a safe and efficient experience. With seamless integration across more than 150 tools, users can effortlessly create, edit, optimize, and analyze their web content in one place. Uniting all these products, the ORT token serves as the foundation of the Okratech ecosystem—fueling transactions, and sustaining growth across its interconnected platforms.',
+    tags: ['WEB3 JOBS'],
+  },
   {
     index: 1179,
     cmcId: 29157,
