@@ -204,14 +204,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       id: 'DEODUSDT',
       tokenAddress: '0xE77aBB1E75D2913B2076DD16049992FFeACa5235',
     },
-    '0x5742fE477b2afed92c25D092418BaC06CD076ceA': {
-      name: 'FURI',
-      symbol: 'FURI',
-      decimals: 18,
-      source: PriceSource.Mexc,
-      id: 'FURIUSDT',
-      tokenAddress: '0x5742fE477b2afed92c25D092418BaC06CD076ceA',
-    },
+    // '0x5742fE477b2afed92c25D092418BaC06CD076ceA': {
+    //   name: 'FURI',
+    //   symbol: 'FURI',
+    //   decimals: 18,
+    //   source: PriceSource.Mexc,
+    //   id: 'FURIUSDT',
+    //   tokenAddress: '0x5742fE477b2afed92c25D092418BaC06CD076ceA',
+    // },
     '0x9Fe4860bd6C9E78C6d998aE88173f347A253C2de': {
       name: 'PicksTicket ',
       symbol: 'PICKST',
