@@ -5075,6 +5075,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  ort: {
+    symbol: 'ORT',
+    address: {
+      [ChainId.BSC]: '0x9E711221B34A2d4B8F552BD5f4A6C4e7934920f7',
+    },
+    decimals: { [ChainId.BSC]: 8 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
   quo: {
     symbol: 'QUO',
     address: {
