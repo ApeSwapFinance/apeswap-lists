@@ -7579,6 +7579,58 @@
     "shortDescription": "Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!"
   },
   {
+    "index": 1181,
+    "version": "2.1.1",
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0xa81583839374BB00a68bb8138153700a278f83Ec"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "56": "0x55d398326f99059fF775485246999027B3197955"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "LERN",
+      "address": {
+        "56": "0x61327929b3eA44c5Ec503d44D71A6c0fA2CefB02"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "projectLink": "https://www.lern360.ai/",
+    "twitter": "https://x.com/lern360",
+    "initTime": {
+      "56": 1761146141
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["Education"],
+    "shortDescription": "LERN360 is a decentralized e-learning platform powered by blockchain and AI, designed to make education accessible, transparent, and borderless. It offers verified credentials, smart contracts, and tokenized incentives to ensure quality and fairness. The LERN token fuels this ecosystem, enabling access, rewards, and governance within a sustainable, learner-driven network.",
+    "fullDescription": "LERN360 is a decentralized e-learning platform redefining global education through blockchain and AI. Built to eliminate the barriers of cost, geography, and institutional control, it provides accessible, transparent, and high-quality learning experiences for all. By leveraging smart contracts and tokenized incentives, LERN360 ensures fairness, authenticity, and efficiency across every educational interaction. The platform empowers both learners and educators through verified credentials, decentralized content ownership, and adaptive AI learning systems that personalize each journey. Designed for scalability and inclusivity, LERN360 stands as a global education ecosystem where knowledge meets innovation. The LERN token powers this ecosystem, driving access, rewards, and governance while sustaining the platform’s decentralized infrastructure.",
+    "warningCard": "This token is currently only tradable on <a href=\"https://www.coinstore.com/spot/LERNUSDT\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #6099c5\">Coinstore</a>."
+  },
+  {
     "index": 1180,
     "cmcId": 16252,
     "version": "2.1.0",

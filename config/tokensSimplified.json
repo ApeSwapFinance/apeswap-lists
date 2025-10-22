@@ -1543,6 +1543,19 @@
       "59144": "Metavault"
     }
   },
+  "lern": {
+    "symbol": "LERN",
+    "address": {
+      "56": "0x61327929b3eA44c5Ec503d44D71A6c0fA2CefB02"
+    },
+    "decimals": {
+      "56": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "56": "External"
+    }
+  },
   "ort": {
     "symbol": "ORT",
     "address": {
