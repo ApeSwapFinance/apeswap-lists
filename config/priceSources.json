@@ -105,6 +105,14 @@
       "source": "coingecko",
       "id": "brics-chain",
       "tokenAddress": "0xec9742f992ACc615C4252060D896c845ca8fC086"
+    },
+    "0x61327929b3eA44c5Ec503d44D71A6c0fA2CefB02": {
+      "name": "LERN",
+      "symbol": "LERN",
+      "decimals": 18,
+      "source": "coinstore",
+      "id": "LERNUSDT",
+      "tokenAddress": "0x61327929b3eA44c5Ec503d44D71A6c0fA2CefB02"
     }
   },
   "130": {
@@ -182,14 +190,6 @@
       "source": "mexc",
       "id": "DEODUSDT",
       "tokenAddress": "0xE77aBB1E75D2913B2076DD16049992FFeACa5235"
-    },
-    "0x5742fE477b2afed92c25D092418BaC06CD076ceA": {
-      "name": "FURI",
-      "symbol": "FURI",
-      "decimals": 18,
-      "source": "mexc",
-      "id": "FURIUSDT",
-      "tokenAddress": "0x5742fE477b2afed92c25D092418BaC06CD076ceA"
     },
     "0x9Fe4860bd6C9E78C6d998aE88173f347A253C2de": {
       "name": "PicksTicket ",
@@ -636,6 +636,14 @@
       "source": "dexscreener",
       "type": "token",
       "tokenAddress": "AiXxRGmRc5oDiFXbEeRX9obPpr3Zir7rks1ef2NjddiF"
+    },
+    "CgGWS19zR5xTzgCEcW5Svsuon4hBZwzBwUFimoJStCf2": {
+      "name": "Foxsy AI",
+      "symbol": "FOXSY",
+      "decimals": 9,
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "CgGWS19zR5xTzgCEcW5Svsuon4hBZwzBwUFimoJStCf2"
     },
     "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs": {
       "name": "wETH",

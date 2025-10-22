@@ -8,6 +8,7 @@ enum PriceSource {
   Mexc = 'mexc',
   LBank = 'lbank',
   Bitmart = 'bitmart',
+  CoinStore = 'coinstore',
   Fixed = 'fixed', // Mostly for testing
 }
 
@@ -60,6 +61,11 @@ type BitmartPriceSourceConfig = BasePriceSourceConfig & {
   id: string
 }
 
+type CoinStorePriceSourceConfig = BasePriceSourceConfig & {
+  source: PriceSource.CoinStore
+  id: string
+}
+
 type FixedPriceSourceConfig = BasePriceSourceConfig & {
   source: PriceSource.Fixed
   price: number
@@ -71,6 +77,7 @@ type PriceSourceConfigs =
   | MexcPriceSourceConfig
   | LBankPriceSourceConfig
   | BitmartPriceSourceConfig
+  | CoinStorePriceSourceConfig
   | FixedPriceSourceConfig
 
 const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>> = {
@@ -163,6 +170,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       id: 'brics-chain',
       tokenAddress: '0xec9742f992ACc615C4252060D896c845ca8fC086',
     },
+    '0x61327929b3eA44c5Ec503d44D71A6c0fA2CefB02': {
+      name: 'LERN',
+      symbol: 'LERN',
+      decimals: 18,
+      source: PriceSource.CoinStore,
+      id: 'LERNUSDT',
+      tokenAddress: '0x61327929b3eA44c5Ec503d44D71A6c0fA2CefB02',
+    },
   },
   [ChainId.MATIC]: {
     '0x61bf130d973d59c69d3227f1668d534d83119860': {
@@ -189,14 +204,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       id: 'DEODUSDT',
       tokenAddress: '0xE77aBB1E75D2913B2076DD16049992FFeACa5235',
     },
-    '0x5742fE477b2afed92c25D092418BaC06CD076ceA': {
-      name: 'FURI',
-      symbol: 'FURI',
-      decimals: 18,
-      source: PriceSource.Mexc,
-      id: 'FURIUSDT',
-      tokenAddress: '0x5742fE477b2afed92c25D092418BaC06CD076ceA',
-    },
+    // '0x5742fE477b2afed92c25D092418BaC06CD076ceA': {
+    //   name: 'FURI',
+    //   symbol: 'FURI',
+    //   decimals: 18,
+    //   source: PriceSource.Mexc,
+    //   id: 'FURIUSDT',
+    //   tokenAddress: '0x5742fE477b2afed92c25D092418BaC06CD076ceA',
+    // },
     '0x9Fe4860bd6C9E78C6d998aE88173f347A253C2de': {
       name: 'PicksTicket ',
       symbol: 'PICKST',
@@ -526,6 +541,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       source: PriceSource.Dexscreener,
       type: 'token',
       tokenAddress: 'AiXxRGmRc5oDiFXbEeRX9obPpr3Zir7rks1ef2NjddiF',
+    },
+    CgGWS19zR5xTzgCEcW5Svsuon4hBZwzBwUFimoJStCf2: {
+      name: 'Foxsy AI',
+      symbol: 'FOXSY',
+      decimals: 9,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: 'CgGWS19zR5xTzgCEcW5Svsuon4hBZwzBwUFimoJStCf2',
     },
     '7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs': {
       name: 'wETH',

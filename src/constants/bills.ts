@@ -1,11 +1,11 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1178
+// BNB Largest ID: 1181
 // Polygon Largest ID: 188
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2034
-// ETH Largest ID: 3058
+// ETH Largest ID: 3060
 // Linea Largest ID: 6020
 // Base Largest ID: 8062
 // Lightlink Largest ID: 7003
@@ -19,7 +19,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Sonic Largest ID: 15007
 // Berachain Largest ID: 16005
 // Katana Largest ID: 17000
-// SOL Largest ID: 18015
+// SOL Largest ID: 18016
 // UNICHAIN Largest ID: 19001
 // AVAX Largest ID: 20001
 
@@ -584,6 +584,35 @@ const bills: BillsConfig[] = [
     fullDescription:
       'AI Xovia emerges as a groundbreaking force in decentralized finance, introducing the world’s first fully autonomous AI that orchestrates the strategies of over 1,000 traders to create harmony in a market long plagued by manipulation, pump-and-dump schemes, and empty projects. Designed as both a technological and philosophical revolution, it seeks to restore transparency, fairness, and sustainability in crypto. With its AiXovia TradeSignal and AutoTrade app, users gain access to actionable trading intelligence backed by revolutionary deflationary tokenomics. Profits generated from external market operations fuel continuous $AIX buybacks, applying sustainable upward pressure and reinforcing long-term growth. Built with no presale for absolute fairness, the project ensures immutability and security by permanently revoking all control authorities. Beyond trading signals, its unique refund guarantee fosters trust and usability. At the heart of this ecosystem lies the AIX token, the utility and value driver of the AI-powered revolution.',
     tags: ['AI'],
+  },
+  {
+    index: 18016,
+    cmcId: 37257,
+    version: '2.2.0',
+    chainId: ChainId.SOL,
+    contractAddress: {
+      [ChainId.SOL]: '5YhjW17AUYRQgTnwobM61J2buV5VFV1BKJo5ysyMERh2',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.foxsy,
+    billNnftAddress: {
+      [ChainId.SOL]: '5MYyJRnq5Wu91AiQN9MDKUtSJrqxuqCDVnDBeq4YRn77',
+    },
+    projectLink: 'https://foxsy.ai/',
+    twitter: 'https://x.com/foxsy_ai',
+    initTime: { [ChainId.SOL]: 1760701437 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Solana_Collection1,
+    },
+    shortDescription:
+      'Foxsy AI is a remote robotics lab combining AI, blockchain, and simulation tech to empower global collaboration. Users can access advanced tools, join projects, and earn through crypto. The $FOXSY token powers access to premium tools, opportunities, and DeFi rewards through staking, liquidity pools, and yield farming.',
+    fullDescription:
+      'Foxsy AI is a cutting-edge online robotics lab that offers remote access to advanced simulation environments and, in the near future, real hardware. Designed to bridge the gap between robotics, AI, and blockchain, the platform enables users to experiment, build, and collaborate from anywhere in the world. While full-scale hardware deployment is underway, early adopters can dive into realistic simulations, participate in community-led projects, and engage through secure blockchain-based transactions. With a mission to integrate autonomous systems into everyday life, Foxsy AI combines decades of expertise with global collaboration to drive innovation in AI and robotics. At the heart of this ecosystem lies the $FOXSY token, powering access to premium tools, opportunities, and DeFi rewards through staking, liquidity pools, and yield farming—making $FOXSY the fuel for innovation and growth within the Foxsy AI universe.',
+    tags: ['AI'],
+    vestingCliff: 5184000, // 60 days cliff
   },
 
   //
@@ -3886,6 +3915,99 @@ const bills: BillsConfig[] = [
   // BNB chain
   //
   {
+    index: 1181,
+    version: '2.1.1',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0xa81583839374BB00a68bb8138153700a278f83Ec',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.lern,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://www.lern360.ai/',
+    twitter: 'https://x.com/lern360',
+    initTime: { [ChainId.BSC]: 1761146141 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Education'],
+    shortDescription:
+      'LERN360 is a decentralized e-learning platform powered by blockchain and AI, designed to make education accessible, transparent, and borderless. It offers verified credentials, smart contracts, and tokenized incentives to ensure quality and fairness. The LERN token fuels this ecosystem, enabling access, rewards, and governance within a sustainable, learner-driven network.',
+    fullDescription:
+      'LERN360 is a decentralized e-learning platform redefining global education through blockchain and AI. Built to eliminate the barriers of cost, geography, and institutional control, it provides accessible, transparent, and high-quality learning experiences for all. By leveraging smart contracts and tokenized incentives, LERN360 ensures fairness, authenticity, and efficiency across every educational interaction. The platform empowers both learners and educators through verified credentials, decentralized content ownership, and adaptive AI learning systems that personalize each journey. Designed for scalability and inclusivity, LERN360 stands as a global education ecosystem where knowledge meets innovation. The LERN token powers this ecosystem, driving access, rewards, and governance while sustaining the platform’s decentralized infrastructure.',
+    warningCard: `This token is currently only tradable on <a href="https://www.coinstore.com/spot/LERNUSDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">Coinstore</a>.`,
+  },
+  {
+    index: 1180,
+    cmcId: 16252,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x1386852c3D60887A6f49A1982594937136221139',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.ort,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://ortcoin.org/',
+    twitter: 'https://x.com/Ortcoin1',
+    initTime: { [ChainId.BSC]: 1761131525 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    shortDescription:
+      'Okratech Token powers a dynamic ecosystem uniting decentralized innovation and usability. It includes OrtJob, a DAO-driven freelancing platform with AI matching and decentralized identity, and a Web2 & Web3 App Store offering fast downloads, mod games, and secure reviews. At its core, the ORT token fuels transactions, and growth across the entire ecosystem.',
+    fullDescription:
+      'Okratech Token presents a multifaceted ecosystem where each product is designed to bring innovation and functionality to the decentralized world. OrtJob is a pioneering decentralized freelancing platform powered by AI and governed by a DAO, enabling fairer, trustless collaboration through decentralized matching and identity verification. The Web2 & Web3 App Store bridges the gap between traditional and blockchain-based applications, offering users fast downloads, mod games, and carefully reviewed software for a safe and efficient experience. With seamless integration across more than 150 tools, users can effortlessly create, edit, optimize, and analyze their web content in one place. Uniting all these products, the ORT token serves as the foundation of the Okratech ecosystem—fueling transactions, and sustaining growth across its interconnected platforms.',
+    tags: ['WEB3 JOBS'],
+  },
+  {
+    index: 1179,
+    cmcId: 29157,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0xb1b7E5e3F7F3B0147d02F65611A285D16eD3cc8a',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.abond,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://ape.bond/',
+    twitter: 'https://x.com/apebond',
+    audit: 'https://paladinsec.co/projects/apebond/',
+    initTime: { [ChainId.BSC]: 1761054794 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    shortDescription:
+      'Step into the full ApeBond experience with $ABOND, more than just a token, it’s the gateway to real yield and premium perks. Lock $ABOND to access better Bond discounts, share in protocol revenue paid in $BNB, unlock exclusive tier-gated deals, and other benefits. With flexible lock options and Ape Tiers, it’s built for long-term believers.',
+    fullDescription:
+      'ABOND isn’t just a token it’s your key to the full ApeBond experience. As the foundation of the ApeBond ecosystem, $ABOND unlocks real yield, exclusive access, and deeper rewards for those who believe in the protocol long-term. By locking $ABOND, users climb Ape Tiers, unlocking extra discounts on Bonds across all chains and partners, earning real revenue share in $BNB from platform fees, and gaining access to premium, tier-gated bond opportunities with stronger returns. Holders also enjoy priority for campaign bonuses and airdrops. With flexible locking options and transparent, on-chain mechanics, $ABOND aligns user incentives with protocol growth — making it more than a token. It’s a commitment to building and benefiting together.',
+    tags: ['Bonding'],
+    partnersURLS: [
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/Seedify_fbt392.svg',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613244/ORBS_anzm60.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/quickLogo_2_1_g95ynz.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/aitech_logo_100_real_no_fake_bjskiq.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
+    ],
+  },
+  {
     index: 1178,
     cmcId: 29157,
     version: '2.1.0',
@@ -3904,7 +4026,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.BSC]: 1760525650 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -11354,7 +11476,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.crypto-factor.io/',
     twitter: 'https://x.com/_Crypto_Factor',
     initTime: { [ChainId.MATIC]: 1758274785 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -14120,7 +14242,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.kima.network/',
     twitter: 'https://x.com/kimanetwork',
     initTime: { [ChainId.ARBITRUM]: 1756226707 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -14147,7 +14269,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://www.kima.network/',
     twitter: 'https://x.com/kimanetwork',
     initTime: { [ChainId.ARBITRUM]: 1756226707 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -16629,6 +16751,65 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://www.masqbrowser.com/',
     twitter: 'https://x.com/MASQ_ai',
     initTime: { [ChainId.MAINNET]: 1759318743 },
+    soldOut: true,
+    hide: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['DeFi'],
+    shortDescription:
+      'MASQ delivers a private web3 browsing experience through a peer-to-peer mesh network, enabling users to bypass censorship, access dApps, and enjoy borderless internet freedom. Its Chromium-based browser integrates ENS, IPFS, and web3 tools while rewarding users for sharing bandwidth. At the heart of this decentralized ecosystem is the MASQ utility token, used as a means of enabling and incentivising functionalities in the MASQ ecosystem.',
+    fullDescription:
+      'The MASQ software suite delivers a groundbreaking private web3 browsing experience powered by a peer-to-peer mesh network, enabling users to bypass censorship, geo-blocks, and centralized tracking. With its privacy-first Chromium-based interface, MASQ combines intuitive usability with powerful tools such as ENS and IPFS resolution, a curated web3 App Store, and seamless integration with Metamask and Frame extensions. Users can access dApps, crypto platforms, and metaverse services while supporting the network by sharing bandwidth, earning rewards in return. As the decentralized mesh-VPN expands, the network grows stronger, creating a borderless, censorship-resistant internet layer. MASQ also pioneers features like wallet-to-wallet encrypted messaging and decentralized storage integration, reinforcing its role as a foundation for web3 natives. Central to this ecosystem is the MASQ utility token, used as a means of enabling and incentivising functionalities in the MASQ ecosystem.',
+  },
+  {
+    index: 3059,
+    cmcId: 31708,
+    version: '2.1.0',
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0xb9444146a710260a421622F644fDCA099E62338e',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.hts,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    projectLink: 'https://www.home3suite.com/',
+    twitter: 'https://x.com/Home3Suite',
+    initTime: { [ChainId.MAINNET]: 1761054794 },
+    soldOut: false,
+    hide: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['RWA'],
+    shortDescription:
+      'HOME3 is transforming real estate by combining AI and blockchain to solve real-world problems with real-world assets. Through tokenization and on-chain finance, it makes property investment accessible, affordable, and transparent. Backed by experts across real estate, lending, and tech, HOME3 empowers users to search, buy, invest, and finance globally. Its utility token, HTS, powers equity and real estate-backed loans via PROP3 and LOAN3.',
+    fullDescription:
+      'HOME3 is revolutionizing real estate by merging AI and blockchain to solve real-world problems with real-world assets, making property investment accessible to all. Traditional real estate is burdened with high price tags and complex processes, leaving it exclusive to a select few. HOME3 breaks these barriers by building a complete platform where users can search, buy, invest, and finance real estate seamlessly on-chain. Backed by a diverse team of experts in property, lending, technology, and marketing, HOME3’s vision is to create a global marketplace that is inclusive, affordable, and transparent. By combining tokenization, AI-driven insights, and decentralized finance, the platform opens new opportunities for investors to earn from rental yields, REIT dividends, and property appreciation. At the core of this ecosystem is the HTS token, powering equity investments and real estate-backed loans on the upcoming PROP3 and LOAN3 platforms.',
+    warningCard: 'Fee Notice: Buying and selling HTS tokens incurs a 5% sell fee.',
+  },
+  {
+    index: 3060,
+    cmcId: 8376,
+    version: '2.1.0',
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0x1812D70DcD5da97DC4049A8a9D2937Cb3b02Ee6C',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.wethMasq_Steer,
+    earnToken: tokens.masq,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    projectLink: 'https://www.masqbrowser.com/',
+    twitter: 'https://x.com/MASQ_ai',
+    initTime: { [ChainId.MAINNET]: 1761064049 },
     soldOut: false,
     hide: false,
     billArt: {

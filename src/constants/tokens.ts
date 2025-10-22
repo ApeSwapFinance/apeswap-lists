@@ -20,6 +20,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  lern: {
+    symbol: 'LERN',
+    address: {
+      [ChainId.BSC]: '0x61327929b3eA44c5Ec503d44D71A6c0fA2CefB02',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.External,
+    },
+    active: true,
+  },
   super: {
     symbol: 'SUPER',
     address: {
@@ -219,6 +232,19 @@ const tokens: Record<string, Token> = {
     symbol: 'AIX',
     address: {
       [ChainId.SOL]: 'AiXxRGmRc5oDiFXbEeRX9obPpr3Zir7rks1ef2NjddiF',
+    },
+    decimals: {
+      [ChainId.SOL]: 9,
+    },
+    liquidityDex: {
+      [ChainId.SOL]: LiquidityDex.External,
+    },
+    active: true,
+  },
+  foxsy: {
+    symbol: 'FOXSY',
+    address: {
+      [ChainId.SOL]: 'CgGWS19zR5xTzgCEcW5Svsuon4hBZwzBwUFimoJStCf2',
     },
     decimals: {
       [ChainId.SOL]: 9,
@@ -5050,6 +5076,17 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: '0x16faF9DAa401AA42506AF503Aa3d80B871c467A3',
     },
     decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
+  ort: {
+    symbol: 'ORT',
+    address: {
+      [ChainId.BSC]: '0x9E711221B34A2d4B8F552BD5f4A6C4e7934920f7',
+    },
+    decimals: { [ChainId.BSC]: 8 },
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
     },

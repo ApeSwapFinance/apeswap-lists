@@ -10,7 +10,6 @@
       "1890": "0x18fB38404DADeE1727Be4b805c5b242B5413Fa40",
       "8453": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
       "10143": "0xf817257fed379853cDe0fa4F97AB987181B1E5Ea",
-      "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
       "43114": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
       "59144": "0x176211869cA2b568f2A7D4EE941E073a821EE1ff",
       "80094": "0x549943e04f40284185054145c6E4e9568C1D3241",
@@ -25,7 +24,6 @@
       "1890": 6,
       "8453": 6,
       "10143": 6,
-      "42161": 6,
       "43114": 6,
       "59144": 6,
       "80094": 6,
@@ -41,7 +39,6 @@
       "1890": "Elektrik",
       "8453": "Aerodrome",
       "10143": "PancakeSwapV2",
-      "42161": "UniswapV3",
       "43114": "External",
       "59144": "Nile",
       "80094": "KodiakV3",
@@ -267,6 +264,19 @@
     "symbol": "AIX",
     "address": {
       "7565164": "AiXxRGmRc5oDiFXbEeRX9obPpr3Zir7rks1ef2NjddiF"
+    },
+    "decimals": {
+      "7565164": 9
+    },
+    "active": true,
+    "liquidityDex": {
+      "7565164": "External"
+    }
+  },
+  "foxsy": {
+    "symbol": "FOXSY",
+    "address": {
+      "7565164": "CgGWS19zR5xTzgCEcW5Svsuon4hBZwzBwUFimoJStCf2"
     },
     "decimals": {
       "7565164": 9
@@ -541,7 +551,6 @@
       "8453": "0x0c41F1FC9022FEB69aF6dc666aBfE73C9FFDA7ce",
       "10143": "0xcf5a6076cfa32686c0Df13aBaDa2b40dec133F1d",
       "42161": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
-      "43114": "0x152b9d0fdc40c096757f570a51e494bd4b943e50",
       "59144": "0x3aAB2285ddcDdaD8edf438C1bAB47e1a9D05a9b4",
       "80094": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
       "81457": "0xF7bc58b8D8f97ADC129cfC4c9f45Ce3C0E1D2692"
@@ -554,7 +563,6 @@
       "8453": 18,
       "10143": 8,
       "42161": 8,
-      "43114": 8,
       "59144": 8,
       "80094": 8,
       "81457": 18
@@ -568,7 +576,6 @@
       "8453": "UniswapV2",
       "10143": "PancakeSwapV2",
       "42161": "UniswapV3",
-      "43114": "External",
       "59144": "Lynex",
       "80094": "KodiakV3",
       "81457": "ThrusterV3"
@@ -578,31 +585,46 @@
     "symbol": "ETH",
     "address": {
       "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+      "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
       "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+      "146": "0x50c42dEAcD8Fc9773493ED674b675bE577f2634b",
       "614": "0xbeED106D0f2e6950BFa1Eec74E1253CA0a643442",
       "8453": "0x4200000000000000000000000000000000000006",
       "10143": "0xB5a30b0FDc5EA94A52fDc42e3E9760Cb8449Fb37",
       "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
-      "59144": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f"
+      "59144": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f",
+      "80094": "0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590",
+      "81457": "0x4300000000000000000000000000000000000004",
+      "7565164": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs"
     },
     "decimals": {
       "1": 18,
+      "56": 18,
       "137": 18,
+      "146": 18,
       "614": 18,
       "8453": 18,
       "10143": 18,
       "42161": 18,
-      "59144": 18
+      "59144": 18,
+      "80094": 18,
+      "81457": 18,
+      "7565164": 8
     },
     "active": true,
     "liquidityDex": {
       "1": "UniswapV3",
+      "56": "PancakeSwapV3",
       "137": "UniswapV3",
+      "146": "ShadowExchange",
       "614": "External",
       "8453": "Aerodrome",
       "10143": "PancakeSwapV2",
       "42161": "PancakeSwapV3",
-      "59144": "Lynex"
+      "59144": "Lynex",
+      "80094": "KodiakV3",
+      "81457": "ThrusterV3",
+      "7565164": "External"
     }
   },
   "glq": {
@@ -1224,6 +1246,19 @@
       "8453": "UniswapV2"
     }
   },
+  "tyler": {
+    "symbol": "TYLER",
+    "address": {
+      "8453": "0x65e570b560027F493f2b1907e8e8e3B9546053bD"
+    },
+    "decimals": {
+      "8453": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "8453": "UniswapV3"
+    }
+  },
   "copi": {
     "symbol": "COPI",
     "address": {
@@ -1509,6 +1544,32 @@
     "active": true,
     "liquidityDex": {
       "59144": "Metavault"
+    }
+  },
+  "lern": {
+    "symbol": "LERN",
+    "address": {
+      "56": "0x61327929b3eA44c5Ec503d44D71A6c0fA2CefB02"
+    },
+    "decimals": {
+      "56": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "56": "External"
+    }
+  },
+  "ort": {
+    "symbol": "ORT",
+    "address": {
+      "56": "0x9E711221B34A2d4B8F552BD5f4A6C4e7934920f7"
+    },
+    "decimals": {
+      "56": 8
+    },
+    "active": true,
+    "liquidityDex": {
+      "56": "PancakeSwapV2"
     }
   },
   "abond": {
@@ -1967,6 +2028,19 @@
     "active": true,
     "liquidityDex": {
       "56": "PancakeSwapV2"
+    }
+  },
+  "arcas": {
+    "symbol": "ARCAS",
+    "address": {
+      "56": "0xAd0926eCf31719263DC86426024794332d9dD9A3"
+    },
+    "decimals": {
+      "56": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "56": "PancakeSwapV3"
     }
   },
   "quo": {
@@ -2535,7 +2609,7 @@
     "active": true,
     "lpToken": true
   },
-  "busdBnb_Thena": {
+  "bnbBusd": {
     "symbol": "BUSD-BNB",
     "address": {
       "56": "0x51e6D27FA57373d8d4C256231241053a70Cb1d93"
@@ -3199,6 +3273,17 @@
     "active": true,
     "lpToken": true
   },
+  "cgptBusd": {
+    "symbol": "CGPT-BUSD",
+    "address": {
+      "56": "0x1B376bd0693956161caf6C4a3D31046bbd2d32E6"
+    },
+    "decimals": {
+      "56": 18
+    },
+    "active": true,
+    "lpToken": true
+  },
   "nfaiBnb": {
     "symbol": "NFAi-BNB",
     "address": {
@@ -3337,6 +3422,17 @@
       "56": 6
     },
     "active": true
+  },
+  "monstaBnb": {
+    "symbol": "MONSTA-BNB",
+    "address": {
+      "56": "0x5b99be3e9cff7a4fb612b95e647ad141a67913cd"
+    },
+    "decimals": {
+      "56": 18
+    },
+    "active": true,
+    "lpToken": true
   },
   "crediBnb": {
     "symbol": "CREDI-BNB",
@@ -3965,6 +4061,22 @@
     "active": true,
     "liquidityDex": {
       "137": "UniswapV3"
+    }
+  },
+  "usdc2": {
+    "symbol": "USDC",
+    "address": {
+      "137": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
+      "42161": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831"
+    },
+    "decimals": {
+      "137": 6,
+      "42161": 6
+    },
+    "active": true,
+    "liquidityDex": {
+      "137": "UniswapV3",
+      "42161": "UniswapV3"
     }
   },
   "trkx": {
@@ -5491,20 +5603,20 @@
       "1": "UniswapV3"
     }
   },
+  "avax": {
+    "symbol": "wAVAX",
+    "address": {
+      "43114": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7"
+    },
+    "decimals": {
+      "43114": 18
+    },
+    "active": true
+  },
   "fdusd": {
     "symbol": "FDUSD",
     "address": {
       "56": "0xc5f0f7b66764F6ec8C8Dff7BA683102295E16409"
-    },
-    "decimals": {
-      "56": 18
-    },
-    "active": true
-  },
-  "avax": {
-    "symbol": "AVAX",
-    "address": {
-      "56": "0x1ce0c2827e2ef14d5c4f29a091d735a204794041"
     },
     "decimals": {
       "56": 18
@@ -5545,6 +5657,16 @@
     "symbol": "HONEY",
     "address": {
       "80094": "0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce"
+    },
+    "decimals": {
+      "80094": 18
+    },
+    "active": true
+  },
+  "usde": {
+    "symbol": "USDe",
+    "address": {
+      "80094": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34"
     },
     "decimals": {
       "80094": 18
