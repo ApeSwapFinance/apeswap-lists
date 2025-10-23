@@ -594,7 +594,8 @@
       "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
       "59144": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f",
       "80094": "0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590",
-      "81457": "0x4300000000000000000000000000000000000004"
+      "81457": "0x4300000000000000000000000000000000000004",
+      "7565164": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs"
     },
     "decimals": {
       "1": 18,
@@ -607,7 +608,8 @@
       "42161": 18,
       "59144": 18,
       "80094": 18,
-      "81457": 18
+      "81457": 18,
+      "7565164": 8
     },
     "active": true,
     "liquidityDex": {
@@ -621,7 +623,8 @@
       "42161": "PancakeSwapV3",
       "59144": "Lynex",
       "80094": "KodiakV3",
-      "81457": "ThrusterV3"
+      "81457": "ThrusterV3",
+      "7565164": "External"
     }
   },
   "glq": {
@@ -5667,6 +5670,16 @@
     },
     "decimals": {
       "80094": 18
+    },
+    "active": true
+  },
+  "cbbtc": {
+    "symbol": "cbBTC",
+    "address": {
+      "7565164": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij"
+    },
+    "decimals": {
+      "7565164": 8
     },
     "active": true
   }

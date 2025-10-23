@@ -1778,6 +1778,7 @@ const tokens: Record<string, Token> = {
       [ChainId.KATANA]: '0xEE7D8BCFb72bC1880D0Cf19822eB0A2e6577aB62',
       [ChainId.UNICHAIN]: '0x4200000000000000000000000000000000000006',
       [ChainId.MEGAETH_TESTNET]: '0x4eB2Bd7beE16F38B1F4a0A5796Fffd028b6040e9',
+      [ChainId.SOL]: '7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs', //wormhole
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -1799,6 +1800,7 @@ const tokens: Record<string, Token> = {
       [ChainId.KATANA]: 18,
       [ChainId.UNICHAIN]: 18,
       [ChainId.MEGAETH_TESTNET]: 18,
+      [ChainId.SOL]: 8,
     },
     liquidityDex: {
       [ChainId.MAINNET]: LiquidityDex.UniswapV3,
@@ -1818,6 +1820,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MATIC]: LiquidityDex.UniswapV3,
       [ChainId.ARBITRUM]: LiquidityDex.PancakeSwapV3,
       [ChainId.MEGAETH_TESTNET]: LiquidityDex.External,
+      [ChainId.SOL]: LiquidityDex.External,
     },
     active: true,
   },
@@ -1872,12 +1875,15 @@ const tokens: Record<string, Token> = {
     symbol: 'cbBTC',
     address: {
       [ChainId.BASE]: '0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf',
+      [ChainId.SOL]: 'cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij',
     },
     decimals: {
       [ChainId.BASE]: 8,
+      [ChainId.SOL]: 8,
     },
     liquidityDex: {
       [ChainId.BASE]: LiquidityDex.Aerodrome,
+      [ChainId.SOL]: LiquidityDex.External,
     },
     active: true,
   },
