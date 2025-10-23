@@ -773,15 +773,5 @@ export const zapInputTokens: Partial<Record<ChainId, Token[]>> = {
       },
       active: true,
     },
-    {
-      symbol: 'cbBTC',
-      address: {
-        [ChainId.SOL]: 'cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij',
-      },
-      decimals: {
-        [ChainId.SOL]: 8,
-      },
-      active: true,
-    },
   ],
 }
