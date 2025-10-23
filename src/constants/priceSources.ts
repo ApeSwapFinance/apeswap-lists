@@ -558,14 +558,6 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       type: 'token',
       tokenAddress: '7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs',
     },
-    cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij: {
-      name: 'cbBTC',
-      symbol: 'cbBTC',
-      decimals: 8,
-      source: PriceSource.Dexscreener,
-      type: 'token',
-      tokenAddress: 'cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij',
-    },
   },
   [ChainId.BERACHAIN]: {
     '0x28e0e3B9817012b356119dF9e217c25932D609c2': {

@@ -1875,15 +1875,12 @@ const tokens: Record<string, Token> = {
     symbol: 'cbBTC',
     address: {
       [ChainId.BASE]: '0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf',
-      [ChainId.SOL]: 'cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij',
     },
     decimals: {
       [ChainId.BASE]: 8,
-      [ChainId.SOL]: 8,
     },
     liquidityDex: {
       [ChainId.BASE]: LiquidityDex.Aerodrome,
-      [ChainId.SOL]: LiquidityDex.External,
     },
     active: true,
   },
