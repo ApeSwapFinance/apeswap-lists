@@ -750,14 +750,14 @@ const tokens: Record<string, Token> = {
   aiq: {
     symbol: 'AIQ',
     address: {
-      [ChainId.BASE]: '0x3131b29A1158792b29821166DFf0bFa38efeE335',
+      [ChainId.BASE]: '0x3131b29a1158792b29821166dff0bfa38efee335',
     },
     decimals: {
       [ChainId.BASE]: 18,
     },
     active: true,
     liquidityDex: {
-      [ChainId.BASE]: LiquidityDex.UniswapV3,
+      [ChainId.BASE]: LiquidityDex.External,
     },
   },
   fmt: {
