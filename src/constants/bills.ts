@@ -5,7 +5,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Polygon Largest ID: 188
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2034
-// ETH Largest ID: 3060
+// ETH Largest ID: 3061
 // Linea Largest ID: 6020
 // Base Largest ID: 8062
 // Lightlink Largest ID: 7003
@@ -3915,6 +3915,42 @@ const bills: BillsConfig[] = [
   // BNB chain
   //
   {
+    index: 1182,
+    cmcId: 29157,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0xaf5533a3DE30D3B7DB82bE37Ce5E7925203011F0',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.abond,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://ape.bond/',
+    twitter: 'https://x.com/apebond',
+    audit: 'https://paladinsec.co/projects/apebond/',
+    initTime: { [ChainId.BSC]: 1761054794 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    shortDescription: 'THIS IS A TEST BOND DONT PUSH TO PROD SITE',
+    fullDescription: 'THIS IS A TEST BOND DONT PUSH TO PROD SITE',
+    tags: ['TEST'],
+    partnersURLS: [
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/Seedify_fbt392.svg',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613244/ORBS_anzm60.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/quickLogo_2_1_g95ynz.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/aitech_logo_100_real_no_fake_bjskiq.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
+      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
+    ],
+    vestingCliff: 300,
+  },
+  {
     index: 1181,
     version: '2.1.1',
     chainId: ChainId.BSC,
@@ -3989,7 +4025,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.BSC]: 1761054794 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -16550,7 +16586,7 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://litas.io/',
     twitter: 'https://x.com/litas_io',
     initTime: { [ChainId.MAINNET]: 1755253336 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
@@ -16820,6 +16856,34 @@ With the lending products set to go live in February, the project is poised to a
       'MASQ delivers a private web3 browsing experience through a peer-to-peer mesh network, enabling users to bypass censorship, access dApps, and enjoy borderless internet freedom. Its Chromium-based browser integrates ENS, IPFS, and web3 tools while rewarding users for sharing bandwidth. At the heart of this decentralized ecosystem is the MASQ utility token, used as a means of enabling and incentivising functionalities in the MASQ ecosystem.',
     fullDescription:
       'The MASQ software suite delivers a groundbreaking private web3 browsing experience powered by a peer-to-peer mesh network, enabling users to bypass censorship, geo-blocks, and centralized tracking. With its privacy-first Chromium-based interface, MASQ combines intuitive usability with powerful tools such as ENS and IPFS resolution, a curated web3 App Store, and seamless integration with Metamask and Frame extensions. Users can access dApps, crypto platforms, and metaverse services while supporting the network by sharing bandwidth, earning rewards in return. As the decentralized mesh-VPN expands, the network grows stronger, creating a borderless, censorship-resistant internet layer. MASQ also pioneers features like wallet-to-wallet encrypted messaging and decentralized storage integration, reinforcing its role as a foundation for web3 natives. Central to this ecosystem is the MASQ utility token, used as a means of enabling and incentivising functionalities in the MASQ ecosystem.',
+  },
+  {
+    index: 3061,
+    version: '2.1.1',
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0xF0F8937222A0a2345138C93cdba00dd524fA53a0',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.litas,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0A7f9979CC315190C09cA2633809B8dF',
+    },
+    projectLink: 'https://litas.io/',
+    twitter: 'https://x.com/litas_io',
+    initTime: { [ChainId.MAINNET]: 1761305954 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['RWA'],
+    shortDescription:
+      'Litas connects crypto investors with real-world SME loans, letting users invest digital assets and earn monthly returns as loans are repaid. Regulated in Lithuania and aligning with upcoming EU standards, it offers a compliant DeFi-RWA bridge. The LITAS token gives holders a share of loan repayments, backed by real cash flows. Buy a Bond valued at $50+ in LITAS tokens and join an exciting raffle hosted by the Litas team.',
+    fullDescription:
+      'Litas is a regulated platform connecting crypto investors with real-world small and medium enterprise loans, enabling users to invest their digital assets into tokenized RWA loan products. Companies receive funding in euros, while investors earn monthly returns as these loans are repaid. Operating under Lithuania’s regulatory framework and preparing for broader compliance with upcoming EU MiCA and ECSP licensing, Litas ensures a secure, transparent, and compliant bridge between decentralized finance and the traditional economy. The platform offers reliable capital to businesses while maintaining strict financial oversight. The LITAS token grants holders a proportional share of SME loan repayments, providing intrinsic value backed by expected cash flows. Buy a Bond valued at $50+ in LITAS tokens and join an exciting raffle hosted by the Litas team.',
+    warningCard: `This token is currently only tradable on <a href="https://www.mexc.com/exchange/LITAS_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a>.`,
   },
 ]
 

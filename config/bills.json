@@ -2994,14 +2994,14 @@
     "earnToken": {
       "symbol": "AIQ",
       "address": {
-        "8453": "0x3131b29A1158792b29821166DFf0bFa38efeE335"
+        "8453": "0x3131b29a1158792b29821166dff0bfa38efee335"
       },
       "decimals": {
         "8453": 18
       },
       "active": true,
       "liquidityDex": {
-        "8453": "UniswapV3"
+        "8453": "External"
       }
     },
     "billNnftAddress": {
@@ -7579,6 +7579,68 @@
     "shortDescription": "Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!"
   },
   {
+    "index": 1182,
+    "cmcId": 29157,
+    "version": "2.1.0",
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0xaf5533a3DE30D3B7DB82bE37Ce5E7925203011F0"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "56": "0x55d398326f99059fF775485246999027B3197955"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "ABOND",
+      "address": {
+        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "ThenaV1"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "projectLink": "https://ape.bond/",
+    "twitter": "https://x.com/apebond",
+    "audit": "https://paladinsec.co/projects/apebond/",
+    "initTime": {
+      "56": 1761054794
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "shortDescription": "THIS IS A TEST BOND DONT PUSH TO PROD SITE",
+    "fullDescription": "THIS IS A TEST BOND DONT PUSH TO PROD SITE",
+    "tags": ["TEST"],
+    "partnersURLS": [
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/Seedify_fbt392.svg",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613244/ORBS_anzm60.png",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/quickLogo_2_1_g95ynz.png",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/aitech_logo_100_real_no_fake_bjskiq.png",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png",
+      "https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png"
+    ],
+    "vestingCliff": 300
+  },
+  {
     "index": 1181,
     "version": "2.1.1",
     "chainId": 56,
@@ -7727,7 +7789,7 @@
     "initTime": {
       "56": 1761054794
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -32331,7 +32393,7 @@
     "initTime": {
       "1": 1755253336
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ETH_Collection1"
     },
@@ -32821,5 +32883,57 @@
     "tags": ["DeFi"],
     "shortDescription": "MASQ delivers a private web3 browsing experience through a peer-to-peer mesh network, enabling users to bypass censorship, access dApps, and enjoy borderless internet freedom. Its Chromium-based browser integrates ENS, IPFS, and web3 tools while rewarding users for sharing bandwidth. At the heart of this decentralized ecosystem is the MASQ utility token, used as a means of enabling and incentivising functionalities in the MASQ ecosystem.",
     "fullDescription": "The MASQ software suite delivers a groundbreaking private web3 browsing experience powered by a peer-to-peer mesh network, enabling users to bypass censorship, geo-blocks, and centralized tracking. With its privacy-first Chromium-based interface, MASQ combines intuitive usability with powerful tools such as ENS and IPFS resolution, a curated web3 App Store, and seamless integration with Metamask and Frame extensions. Users can access dApps, crypto platforms, and metaverse services while supporting the network by sharing bandwidth, earning rewards in return. As the decentralized mesh-VPN expands, the network grows stronger, creating a borderless, censorship-resistant internet layer. MASQ also pioneers features like wallet-to-wallet encrypted messaging and decentralized storage integration, reinforcing its role as a foundation for web3 natives. Central to this ecosystem is the MASQ utility token, used as a means of enabling and incentivising functionalities in the MASQ ecosystem."
+  },
+  {
+    "index": 3061,
+    "version": "2.1.1",
+    "chainId": 1,
+    "contractAddress": {
+      "1": "0xF0F8937222A0a2345138C93cdba00dd524fA53a0"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+      },
+      "decimals": {
+        "1": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "LITAS",
+      "address": {
+        "1": "0xfa63503f9e61fd59cbea137c122fa55c2daff14a"
+      },
+      "decimals": {
+        "1": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "1": "External"
+      }
+    },
+    "billNnftAddress": {
+      "1": "0x499b654b0A7f9979CC315190C09cA2633809B8dF"
+    },
+    "projectLink": "https://litas.io/",
+    "twitter": "https://x.com/litas_io",
+    "initTime": {
+      "1": 1761305954
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ETH_Collection1"
+    },
+    "tags": ["RWA"],
+    "shortDescription": "Litas connects crypto investors with real-world SME loans, letting users invest digital assets and earn monthly returns as loans are repaid. Regulated in Lithuania and aligning with upcoming EU standards, it offers a compliant DeFi-RWA bridge. The LITAS token gives holders a share of loan repayments, backed by real cash flows. Buy a Bond valued at $50+ in LITAS tokens and join an exciting raffle hosted by the Litas team.",
+    "fullDescription": "Litas is a regulated platform connecting crypto investors with real-world small and medium enterprise loans, enabling users to invest their digital assets into tokenized RWA loan products. Companies receive funding in euros, while investors earn monthly returns as these loans are repaid. Operating under Lithuania’s regulatory framework and preparing for broader compliance with upcoming EU MiCA and ECSP licensing, Litas ensures a secure, transparent, and compliant bridge between decentralized finance and the traditional economy. The platform offers reliable capital to businesses while maintaining strict financial oversight. The LITAS token grants holders a proportional share of SME loan repayments, providing intrinsic value backed by expected cash flows. Buy a Bond valued at $50+ in LITAS tokens and join an exciting raffle hosted by the Litas team.",
+    "warningCard": "This token is currently only tradable on <a href=\"https://www.mexc.com/exchange/LITAS_USDT\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #6099c5\">MEXC</a>."
   }
 ]

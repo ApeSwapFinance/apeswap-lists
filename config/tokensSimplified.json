@@ -771,14 +771,14 @@
   "aiq": {
     "symbol": "AIQ",
     "address": {
-      "8453": "0x3131b29A1158792b29821166DFf0bFa38efeE335"
+      "8453": "0x3131b29a1158792b29821166dff0bfa38efee335"
     },
     "decimals": {
       "8453": 18
     },
     "active": true,
     "liquidityDex": {
-      "8453": "UniswapV3"
+      "8453": "External"
     }
   },
   "bob": {
@@ -1546,6 +1546,25 @@
       "59144": "Metavault"
     }
   },
+  "abond": {
+    "symbol": "ABOND",
+    "address": {
+      "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+      "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
+      "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
+    },
+    "decimals": {
+      "1": 18,
+      "56": 18,
+      "137": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "1": "UniswapV3",
+      "56": "ThenaV1",
+      "137": "QuickswapV2"
+    }
+  },
   "lern": {
     "symbol": "LERN",
     "address": {
@@ -1570,25 +1589,6 @@
     "active": true,
     "liquidityDex": {
       "56": "PancakeSwapV2"
-    }
-  },
-  "abond": {
-    "symbol": "ABOND",
-    "address": {
-      "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
-      "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
-      "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
-    },
-    "decimals": {
-      "1": 18,
-      "56": 18,
-      "137": 18
-    },
-    "active": true,
-    "liquidityDex": {
-      "1": "UniswapV3",
-      "56": "ThenaV1",
-      "137": "QuickswapV2"
     }
   },
   "qorpo": {

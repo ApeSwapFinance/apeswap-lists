@@ -246,6 +246,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       id: 'veritas',
       tokenAddress: '0x00096697DC24bd10423690126D91546A20Ccb3F0',
     },
+    '0x3131b29a1158792b29821166dff0bfa38efee335': {
+      name: 'AIQuant.fun',
+      symbol: 'AIQ',
+      decimals: 18,
+      source: PriceSource.Coingecko,
+      id: 'aiquant-fun',
+      tokenAddress: '0x3131b29a1158792b29821166dff0bfa38efee335',
+    },
     '0x672BB71A1A51e754FA2dd78629b05D371daC3184': {
       name: 'GOO',
       symbol: 'GOO',
