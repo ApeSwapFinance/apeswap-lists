@@ -134,6 +134,16 @@ export const WNATIVE: Partial<Record<ChainId, Token>> = {
     },
     active: true,
   },
+  [ChainId.SOL]: {
+    symbol: 'wSOL',
+    address: {
+      [ChainId.SOL]: 'So11111111111111111111111111111111111111112',
+    },
+    decimals: {
+      [ChainId.SOL]: 9,
+    },
+    active: true,
+  },
 }
 
 export const zapInputTokens: Partial<Record<ChainId, Token[]>> = {
