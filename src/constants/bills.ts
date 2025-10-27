@@ -3925,7 +3925,7 @@ const bills: BillsConfig[] = [
     billType: 'reserve',
     billVersion: BillVersion.V4,
     lpToken: tokens.usdt,
-    earnToken: tokens.klinik,
+    earnToken: tokens.klink,
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },

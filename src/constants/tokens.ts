@@ -4093,7 +4093,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
     },
   },
-  klinik: {
+  klink: {
     symbol: 'KLINK',
     address: {
       [ChainId.BSC]: '0x76E9b54B49739837bE8aD10c3687Fc6b543de852',
