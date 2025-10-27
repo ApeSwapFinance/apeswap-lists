@@ -7579,6 +7579,58 @@
     "shortDescription": "Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!"
   },
   {
+    "index": 1182,
+    "cmcId": 38512,
+    "version": "2.1.0",
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0x8ae151248a11CD767C7E18CA4EdB443FcCFf7060"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "56": "0x55d398326f99059fF775485246999027B3197955"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "KLINK",
+      "address": {
+        "56": "0x76E9b54B49739837bE8aD10c3687Fc6b543de852"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      }
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "projectLink": "https://klinkfinance.com/ecosystem",
+    "twitter": "https://x.com/klinkfinance",
+    "initTime": {
+      "56": 1761559073
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["Marketing Solutions"],
+    "shortDescription": "Klink Finance powers Web3 affiliate advertising through a global network of partner offers and campaigns. With 900K+ users and 5M+ reach, it partners with leading brands like Arbitrum, Bybit, Coinbase, and Crypto.com. Its ecosystem connects users, platforms, and advertisers, all fueled by the $KLINK token, which drives transactions and engagement across the network.",
+    "fullDescription": "Klink Finance is redefining affiliate advertising in Web3 by providing the technology infrastructure that enables platforms to grow, engage, and monetize their users through a global network of partner offers and campaigns. Backed by a community of over 900,000 platform users and a reach exceeding 5.1 million through its advertiser-publisher ecosystem, Klink collaborates with major industry players including the Arbitrum Foundation, Bybit, Coinbase, Crypto.com, XDC Network, Wirex, Revolut, Ledger, and hundreds of other global brands. Operating both a consumer-facing earnings platform and a commercial partner network, Klink delivers multi-chain airdrops, affiliate rewards, and monetization tools via its Offer API. The $KLINK token powers all advertising and affiliate transactions, driving demand and uniting advertiser budgets with user engagement across the entire Klink ecosystem."
+  },
+  {
     "index": 1181,
     "version": "2.1.1",
     "chainId": 56,

@@ -1546,6 +1546,19 @@
       "59144": "Metavault"
     }
   },
+  "klinik": {
+    "symbol": "KLINK",
+    "address": {
+      "56": "0x76E9b54B49739837bE8aD10c3687Fc6b543de852"
+    },
+    "decimals": {
+      "56": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "56": "PancakeSwapV3"
+    }
+  },
   "lern": {
     "symbol": "LERN",
     "address": {

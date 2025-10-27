@@ -1,7 +1,7 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1181
+// BNB Largest ID: 1182
 // Polygon Largest ID: 188
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2034
@@ -3914,6 +3914,34 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1182,
+    cmcId: 38512,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x8ae151248a11CD767C7E18CA4EdB443FcCFf7060',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.klinik,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://klinkfinance.com/ecosystem',
+    twitter: 'https://x.com/klinkfinance',
+    initTime: { [ChainId.BSC]: 1761559073 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Marketing Solutions'],
+    shortDescription:
+      'Klink Finance powers Web3 affiliate advertising through a global network of partner offers and campaigns. With 900K+ users and 5M+ reach, it partners with leading brands like Arbitrum, Bybit, Coinbase, and Crypto.com. Its ecosystem connects users, platforms, and advertisers, all fueled by the $KLINK token, which drives transactions and engagement across the network.',
+    fullDescription:
+      'Klink Finance is redefining affiliate advertising in Web3 by providing the technology infrastructure that enables platforms to grow, engage, and monetize their users through a global network of partner offers and campaigns. Backed by a community of over 900,000 platform users and a reach exceeding 5.1 million through its advertiser-publisher ecosystem, Klink collaborates with major industry players including the Arbitrum Foundation, Bybit, Coinbase, Crypto.com, XDC Network, Wirex, Revolut, Ledger, and hundreds of other global brands. Operating both a consumer-facing earnings platform and a commercial partner network, Klink delivers multi-chain airdrops, affiliate rewards, and monetization tools via its Offer API. The $KLINK token powers all advertising and affiliate transactions, driving demand and uniting advertiser budgets with user engagement across the entire Klink ecosystem.',
+  },
   {
     index: 1181,
     version: '2.1.1',
