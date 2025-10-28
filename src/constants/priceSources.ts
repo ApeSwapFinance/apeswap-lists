@@ -701,6 +701,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
     },
   },
   [ChainId.AVAX]: {
+    '0x3c5f68d2f72debba4900c60f32eb8629876401f2': {
+      name: 'ARENA',
+      symbol: 'ARENA',
+      decimals: 18,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '0x3c5f68d2f72debba4900c60f32eb8629876401f2',
+    },
     '0xf8b22737cbfea137f9b2737d1dab2a8a21608cee': {
       name: 'TRADER',
       symbol: 'TRADER',
