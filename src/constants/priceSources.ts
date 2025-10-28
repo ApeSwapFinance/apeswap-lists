@@ -671,6 +671,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       id: 'LITASUSDT',
       tokenAddress: '0xfa63503f9e61fd59cbea137c122fa55c2daff14a',
     },
+    '0x195f5c217b96cd3dd75d39327161b8911a42e509': {
+      name: 'NUTS',
+      symbol: 'NUTS',
+      decimals: 18,
+      source: PriceSource.Coingecko,
+      id: 'squirrel-wallet',
+      tokenAddress: '0x195f5c217b96cd3dd75d39327161b8911a42e509',
+    },
   },
   [ChainId.MEGAETH_TESTNET]: {
     '0x4eB2Bd7beE16F38B1F4a0A5796Fffd028b6040e9': {

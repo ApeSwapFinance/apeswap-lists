@@ -1,7 +1,7 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1182
+// BNB Largest ID: 1183
 // Polygon Largest ID: 188
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2034
@@ -3914,6 +3914,35 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1183,
+    cmcId: 38127,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x857b60E6cED969b9252A198B1b3C9698364ef946',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.ake,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://learn.akedo.fun/',
+    twitter: 'https://x.com/akedofun',
+    initTime: { [ChainId.BSC]: 1761650521 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['GameFi'],
+    shortDescription:
+      'AKEDO Games is a Multi-Agent AI framework for Autonomous Content Creation and Intelligent Collaboration, enabling creators to design games in just two minutes using natural language prompts. Powered by LLMs, it combines specialized AI agents to craft worlds, rules, and stories. The AKE token fuels the ecosystem, enabling creation, staking, rewards, and revenue sharing across the platform.',
+    fullDescription:
+      'AKEDO Games is a Multi-Agent AI framework designed for Autonomous Content Creation and Intelligent Collaboration, empowering creators to design immersive games in just two minutes using natural language prompts. Built on large language models (LLMs), AKEDO’s modular and scalable architecture introduces specialized AI agents: World Builders, Rule Designers, Balancers, and Storytellers, that work together to generate complete, interactive experiences. Through its innovative monetization model, creators can earn from advertiser-integrated games, platform ad revenue, and protocol rewards, establishing a sustainable ecosystem for creativity. With a vision to turn 3 billion gamers into creators, AKEDO redefines user-generated content by introducing tokenized assetization tools that merge gaming with DeFi mechanics. Central to this ecosystem, the AKE token powers in-platform transactions, agent upgrades, game creation, staking, and participation in protocol fee sharing.',
+    vestingCliff: 5184000,
+  },
   {
     index: 1182,
     cmcId: 38512,
@@ -16875,7 +16904,7 @@ With the lending products set to go live in February, the project is poised to a
       'Litas connects crypto investors with real-world SME loans, letting users invest digital assets and earn monthly returns as loans are repaid. Regulated in Lithuania and aligning with upcoming EU standards, it offers a compliant DeFi-RWA bridge. The LITAS token gives holders a share of loan repayments, backed by real cash flows. Buy a Bond valued at $50+ in LITAS tokens and join an exciting raffle hosted by the Litas team.',
     fullDescription:
       'Litas is a regulated platform connecting crypto investors with real-world small and medium enterprise loans, enabling users to invest their digital assets into tokenized RWA loan products. Companies receive funding in euros, while investors earn monthly returns as these loans are repaid. Operating under Lithuania’s regulatory framework and preparing for broader compliance with upcoming EU MiCA and ECSP licensing, Litas ensures a secure, transparent, and compliant bridge between decentralized finance and the traditional economy. The platform offers reliable capital to businesses while maintaining strict financial oversight. The LITAS token grants holders a proportional share of SME loan repayments, providing intrinsic value backed by expected cash flows. Buy a Bond valued at $50+ in LITAS tokens and join an exciting raffle hosted by the Litas team.',
-    warningCard: `This token is currently only tradable on <a href="https://www.mexc.com/exchange/LITAS_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a>.`,
+    warningCard: `This token is currently only tradable on the following CEXs: <a href="https://www.mexc.com/exchange/LITAS_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a> and <a href="https://www.bifinance.com/trade?symbol=LITAS/USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">Bifinance</a>.`,
   },
 ]
 

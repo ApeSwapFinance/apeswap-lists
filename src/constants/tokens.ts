@@ -947,6 +947,19 @@ const tokens: Record<string, Token> = {
       [ChainId.MAINNET]: LiquidityDex.External,
     },
   },
+  nuts: {
+    symbol: 'NUTS',
+    address: {
+      [ChainId.MAINNET]: '0x195f5c217b96cd3dd75d39327161b8911a42e509',
+    },
+    decimals: {
+      [ChainId.MAINNET]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.External,
+    },
+  },
   bethustlers: {
     symbol: 'BETHUSTLERS',
     address: {
@@ -4084,6 +4097,19 @@ const tokens: Record<string, Token> = {
     symbol: 'ADA',
     address: {
       [ChainId.BSC]: '0x3ee2200efb3400fabb9aacf31297cbdd1d435d47',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+    },
+  },
+  ake: {
+    symbol: 'AKE',
+    address: {
+      [ChainId.BSC]: '0x2c3a8Ee94dDD97244a93Bc48298f97d2C412F7Db',
     },
     decimals: {
       [ChainId.BSC]: 18,
