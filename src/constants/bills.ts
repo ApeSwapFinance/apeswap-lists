@@ -16906,6 +16906,36 @@ With the lending products set to go live in February, the project is poised to a
       'Litas is a regulated platform connecting crypto investors with real-world small and medium enterprise loans, enabling users to invest their digital assets into tokenized RWA loan products. Companies receive funding in euros, while investors earn monthly returns as these loans are repaid. Operating under Lithuania’s regulatory framework and preparing for broader compliance with upcoming EU MiCA and ECSP licensing, Litas ensures a secure, transparent, and compliant bridge between decentralized finance and the traditional economy. The platform offers reliable capital to businesses while maintaining strict financial oversight. The LITAS token grants holders a proportional share of SME loan repayments, providing intrinsic value backed by expected cash flows. Buy a Bond valued at $50+ in LITAS tokens and join an exciting raffle hosted by the Litas team.',
     warningCard: `This token is currently only tradable on the following CEXs: <a href="https://www.mexc.com/exchange/LITAS_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a> and <a href="https://www.bifinance.com/trade?symbol=LITAS/USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">Bifinance</a>.`,
   },
+  {
+    index: 3062,
+    cmcId: 35401,
+    version: '2.1.0',
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0xD20324dDa58daFeCF23b0503FB2C201ee8334Ae1',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.nuts,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    projectLink: 'https://www.squirrelwallet.com/',
+    twitter: 'https://x.com/squirrel_wallet',
+    initTime: { [ChainId.MAINNET]: 1761659230 },
+    soldOut: false,
+    hide: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['Wallets', 'Domains'],
+    shortDescription:
+      'Squirrel Wallet is a secure, self-custodial Web3 wallet that bridges traditional finance and decentralized ownership. It enables seamless management of crypto, fiat, and real-world assets through features like on-chain transparency, social recovery, and RWA trading. Powered by the $NUTS token, the ecosystem rewards users and drives sustainable growth across supported blockchains.',
+    fullDescription:
+      'Squirrel Wallet is a next-generation Web3 wallet built to provide secure, transparent, and self-custodial financial solutions that give users full control over their digital and real-world assets. It bridges traditional finance and decentralized ownership through seamless access to tokenized commodities, crypto, and fiat on-ramps. With features like social recovery via Guardians, on-chain proof of reserves, institutional-grade security, and multi-asset management, Squirrel Wallet delivers an advanced yet intuitive financial experience. Its Squirrel Commodity Exchange enables trading and verification of fully asset-backed RWAs, while regulatory integration with the Bahamas government supports compliant innovation. Powering this ecosystem is the $NUTS token, which fuels transactions, rewards users, and drives long-term sustainability across supported blockchains.',
+    vestingCliff: 604800,
+  },
 ]
 
 export default bills
