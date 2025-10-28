@@ -1546,6 +1546,19 @@
       "59144": "Metavault"
     }
   },
+  "ake": {
+    "symbol": "AKE",
+    "address": {
+      "56": "0x2c3a8Ee94dDD97244a93Bc48298f97d2C412F7Db"
+    },
+    "decimals": {
+      "56": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "56": "PancakeSwapV3"
+    }
+  },
   "klink": {
     "symbol": "KLINK",
     "address": {
