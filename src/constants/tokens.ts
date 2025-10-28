@@ -23,7 +23,7 @@ const tokens: Record<string, Token> = {
   arena: {
     symbol: 'ARENA',
     address: {
-      [ChainId.AVAX]: '0x3c5f68d2f72debba4900c60f32eb8629876401f2',
+      [ChainId.AVAX]: '0xB8d7710f7d8349A506b75dD184F05777c82dAd0C',
     },
     decimals: {
       [ChainId.AVAX]: 18,
