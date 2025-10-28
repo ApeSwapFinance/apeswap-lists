@@ -20,6 +20,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  arena: {
+    symbol: 'ARENA',
+    address: {
+      [ChainId.AVAX]: '0x3c5f68d2f72debba4900c60f32eb8629876401f2',
+    },
+    decimals: {
+      [ChainId.AVAX]: 18,
+    },
+    liquidityDex: {
+      [ChainId.AVAX]: LiquidityDex.External,
+    },
+    active: true,
+  },
   lern: {
     symbol: 'LERN',
     address: {
