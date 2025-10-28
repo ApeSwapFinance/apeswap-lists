@@ -4093,6 +4093,19 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
     },
   },
+  ake: {
+    symbol: 'AKE',
+    address: {
+      [ChainId.BSC]: '0x2c3a8Ee94dDD97244a93Bc48298f97d2C412F7Db',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+    },
+  },
   klink: {
     symbol: 'KLINK',
     address: {
