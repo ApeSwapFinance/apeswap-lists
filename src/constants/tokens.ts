@@ -947,6 +947,19 @@ const tokens: Record<string, Token> = {
       [ChainId.MAINNET]: LiquidityDex.External,
     },
   },
+  nuts: {
+    symbol: 'NUTS',
+    address: {
+      [ChainId.MAINNET]: '0x195f5c217b96cd3dd75d39327161b8911a42e509',
+    },
+    decimals: {
+      [ChainId.MAINNET]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.External,
+    },
+  },
   bethustlers: {
     symbol: 'BETHUSTLERS',
     address: {
