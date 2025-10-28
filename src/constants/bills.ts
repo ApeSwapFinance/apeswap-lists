@@ -54,6 +54,31 @@ const bills: BillsConfig[] = [
   // Avax
   //
   {
+    index: 20002,
+    version: '2.1.0',
+    chainId: ChainId.AVAX,
+    contractAddress: {
+      [ChainId.AVAX]: '0x586c70e0391d3fd00A738Ce64b36B3E3611b7d6b',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.arena,
+    billNnftAddress: {
+      [ChainId.AVAX]: '0x82cfcd79de447b01730b9ed0db2ad6ee5aaac55f',
+    },
+    projectLink: 'https://xyztrades.io/',
+    twitter: 'https://x.com/agentxyz_ai',
+    initTime: { [ChainId.AVAX]: 1758905720 },
+    soldOut: true,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DefAI'],
+    shortDescription: `XYZ.TRADES is transforming trading with the first AI-native terminal for retail and pro users. Powered by 28 specialized agents, it delivers real-time insights from TA, on-chain data, sentiment, and fundamentals, enabling seamless execution on X and the platform. Its native token, TRADER, powers the ecosystem.`,
+    fullDescription: `XYZ.TRADES, winner of Seedify’s 2025 Hackathon, is revolutionizing the trading landscape by delivering a hands-free, AI-powered experience that eliminates the stress of charts and manual strategies. Through seamless vault deposits, automated execution, and transparent pro-rata profit distribution, users gain access to professional-grade tools without complexity. At its core, AgentXYZ introduces the first AI-native trading terminal built for both retail and professional traders, powered by 28 specialized agents that analyze technical indicators, on-chain activity, social sentiment, and market fundamentals in real time. This ecosystem empowers traders with faster, smarter decisions and precision-driven execution directly on X or through the platform. The project’s native token, TRADER, powers the ecosystem and drives its growth.`,
+  },
+  {
     index: 20001,
     version: '2.1.0',
     chainId: ChainId.AVAX,
