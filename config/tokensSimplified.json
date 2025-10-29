@@ -45,19 +45,6 @@
       "7565164": "External"
     }
   },
-  "arena": {
-    "symbol": "ARENA",
-    "address": {
-      "43114": "0xB8d7710f7d8349A506b75dD184F05777c82dAd0C"
-    },
-    "decimals": {
-      "43114": 18
-    },
-    "active": true,
-    "liquidityDex": {
-      "43114": "External"
-    }
-  },
   "trader": {
     "symbol": "TRADER",
     "address": {
