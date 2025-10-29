@@ -19,7 +19,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Sonic Largest ID: 15007
 // Berachain Largest ID: 16005
 // Katana Largest ID: 17000
-// SOL Largest ID: 18016
+// SOL Largest ID: 18017
 // UNICHAIN Largest ID: 19001
 // AVAX Largest ID: 20001
 
@@ -613,6 +613,31 @@ const bills: BillsConfig[] = [
       'Foxsy AI is a cutting-edge online robotics lab that offers remote access to advanced simulation environments and, in the near future, real hardware. Designed to bridge the gap between robotics, AI, and blockchain, the platform enables users to experiment, build, and collaborate from anywhere in the world. While full-scale hardware deployment is underway, early adopters can dive into realistic simulations, participate in community-led projects, and engage through secure blockchain-based transactions. With a mission to integrate autonomous systems into everyday life, Foxsy AI combines decades of expertise with global collaboration to drive innovation in AI and robotics. At the heart of this ecosystem lies the $FOXSY token, powering access to premium tools, opportunities, and DeFi rewards through staking, liquidity pools, and yield farming—making $FOXSY the fuel for innovation and growth within the Foxsy AI universe.',
     tags: ['AI'],
     vestingCliff: 5184000, // 60 days cliff
+  },
+  {
+    index: 18017,
+    version: '2.2.0',
+    chainId: ChainId.SOL,
+    contractAddress: {
+      [ChainId.SOL]: '78Lyrgqpqmwj8AhTde2xNDgFoLjKzp7rA7R1bMNrzMGB',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.hyper,
+    billNnftAddress: {
+      [ChainId.SOL]: 'ABxKF5aWzjNTHJnWV6VW8CNLHeus6jPcUvrCqCfdavZz',
+    },
+    projectLink: 'https://www.hyperonsol.com/',
+    twitter: 'https://x.com/hyperonsol',
+    initTime: { [ChainId.SOL]: 1761751604 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Solana_Collection1,
+    },
+    fullDescription: `Hyper is a community-driven memecoin built on the belief that memes can be more than just hype—they can create real value and utility. At its core lies the Hyper character, a mascot around which a vibrant, builder-focused culture is forming. The community stands firmly against value extraction, instead championing fair participation and collective growth. With MemesForge, Hyper is developing a powerful platform offering essential tools for other memecoins, driving a new wave of meme-based innovation. Tools built for Hyper are shared and monetized, generating revenue that flows back into the ecosystem. In this virtuous cycle, $HYPER becomes the token that captures and distributes value across the community.`,
+    shortDescription: `Hyper is a community-driven memecoin built around fair value creation and collective growth. With the Hyper mascot at its core, the project rejects value extraction and empowers builders through MemesForge, a platform offering tools for other memecoins. Revenue from these tools flows back to the ecosystem, with $HYPER capturing and distributing that value.`,
+    tags: ['Community', 'Meme'],
   },
 
   //
