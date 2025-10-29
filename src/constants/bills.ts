@@ -626,7 +626,7 @@ const bills: BillsConfig[] = [
     lpToken: tokens.usdc,
     earnToken: tokens.hyper,
     billNnftAddress: {
-      [ChainId.SOL]: 'ABxKF5aWzjNTHJnWV6VW8CNLHeus6jPcUvrCqCfdavZz',
+      [ChainId.SOL]: '77zXEk56CaDLaFc7NsJ5sPvKL9Dqqn6JA5rAtomRcnC4',
     },
     projectLink: 'https://www.hyperonsol.com/',
     twitter: 'https://x.com/hyperonsol',
