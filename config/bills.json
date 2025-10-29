@@ -1081,6 +1081,57 @@
     "vestingCliff": 5184000
   },
   {
+    "index": 18017,
+    "version": "2.2.0",
+    "chainId": 7565164,
+    "contractAddress": {
+      "7565164": "78Lyrgqpqmwj8AhTde2xNDgFoLjKzp7rA7R1bMNrzMGB"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "7565164": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+      },
+      "decimals": {
+        "7565164": 6
+      },
+      "liquidityDex": {
+        "7565164": "External"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "HYPER",
+      "address": {
+        "7565164": "Aq8Gocyvyyi8xk5EYxd6viUfVmVvs9T9R6mZFzZFpump"
+      },
+      "decimals": {
+        "7565164": 6
+      },
+      "liquidityDex": {
+        "7565164": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "7565164": "77zXEk56CaDLaFc7NsJ5sPvKL9Dqqn6JA5rAtomRcnC4"
+    },
+    "projectLink": "https://www.hyperonsol.com/",
+    "twitter": "https://x.com/hyperonsol",
+    "initTime": {
+      "7565164": 1761751604
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "Solana_Collection1"
+    },
+    "fullDescription": "Hyper is a community-driven memecoin built on the belief that memes can be more than just hype—they can create real value and utility. At its core lies the Hyper character, a mascot around which a vibrant, builder-focused culture is forming. The community stands firmly against value extraction, instead championing fair participation and collective growth. With MemesForge, Hyper is developing a powerful platform offering essential tools for other memecoins, driving a new wave of meme-based innovation. Tools built for Hyper are shared and monetized, generating revenue that flows back into the ecosystem. In this virtuous cycle, $HYPER becomes the token that captures and distributes value across the community.",
+    "shortDescription": "Hyper is a community-driven memecoin built around fair value creation and collective growth. With the Hyper mascot at its core, the project rejects value extraction and empowers builders through MemesForge, a platform offering tools for other memecoins. Revenue from these tools flows back to the ecosystem, with $HYPER capturing and distributing that value.",
+    "tags": ["Community", "Meme"]
+  },
+  {
     "index": 16000,
     "version": "2.1.0",
     "chainId": 80094,
