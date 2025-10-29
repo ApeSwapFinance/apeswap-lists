@@ -7677,7 +7677,7 @@
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
-    "tags": ["GameFi"],
+    "tags": ["AI"],
     "shortDescription": "AKEDO Games is a Multi-Agent AI framework for Autonomous Content Creation and Intelligent Collaboration, enabling creators to design games in just two minutes using natural language prompts. Powered by LLMs, it combines specialized AI agents to craft worlds, rules, and stories. The AKE token fuels the ecosystem, enabling creation, staking, rewards, and revenue sharing across the platform.",
     "fullDescription": "AKEDO Games is a Multi-Agent AI framework designed for Autonomous Content Creation and Intelligent Collaboration, empowering creators to design immersive games in just two minutes using natural language prompts. Built on large language models (LLMs), AKEDO’s modular and scalable architecture introduces specialized AI agents: World Builders, Rule Designers, Balancers, and Storytellers, that work together to generate complete, interactive experiences. Through its innovative monetization model, creators can earn from advertiser-integrated games, platform ad revenue, and protocol rewards, establishing a sustainable ecosystem for creativity. With a vision to turn 3 billion gamers into creators, AKEDO redefines user-generated content by introducing tokenized assetization tools that merge gaming with DeFi mechanics. Central to this ecosystem, the AKE token powers in-platform transactions, agent upgrades, game creation, staking, and participation in protocol fee sharing.",
     "vestingCliff": 5184000
@@ -32278,7 +32278,7 @@
     "initTime": {
       "1": 1752858000
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ETH_Collection1"
     },

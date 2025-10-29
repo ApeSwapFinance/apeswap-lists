@@ -3961,7 +3961,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    tags: ['GameFi'],
+    tags: ['AI'],
     shortDescription:
       'AKEDO Games is a Multi-Agent AI framework for Autonomous Content Creation and Intelligent Collaboration, enabling creators to design games in just two minutes using natural language prompts. Powered by LLMs, it combines specialized AI agents to craft worlds, rules, and stories. The AKE token fuels the ecosystem, enabling creation, staking, rewards, and revenue sharing across the platform.',
     fullDescription:
@@ -16520,7 +16520,7 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://www.adoprotocol.com/',
     twitter: 'https://x.com/adoprotocol',
     initTime: { [ChainId.MAINNET]: 1752858000 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
