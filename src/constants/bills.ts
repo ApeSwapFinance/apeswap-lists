@@ -2284,7 +2284,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://unlock-protocol.com/',
     twitter: 'https://x.com/UnlockProtocol',
     initTime: { [ChainId.BASE]: 1745840808 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
