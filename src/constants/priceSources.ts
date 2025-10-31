@@ -178,6 +178,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       id: 'LERNUSDT',
       tokenAddress: '0x61327929b3eA44c5Ec503d44D71A6c0fA2CefB02',
     },
+    '0x80563Fc2dd549bf36f82d3bF3b970Bb5b08dBDdb': {
+      name: 'REVIVE',
+      symbol: 'RVV',
+      decimals: 18,
+      source: PriceSource.Coingecko,
+      id: 'astra-nova',
+      tokenAddress: '0x80563Fc2dd549bf36f82d3bF3b970Bb5b08dBDdb',
+    },
   },
   [ChainId.MATIC]: {
     '0x61bf130d973d59c69d3227f1668d534d83119860': {
@@ -219,14 +227,6 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       source: PriceSource.Fixed,
       price: 1,
       tokenAddress: '0x9Fe4860bd6C9E78C6d998aE88173f347A253C2de',
-    },
-    '0x80563Fc2dd549bf36f82d3bF3b970Bb5b08dBDdb': {
-      name: 'REVIVE',
-      symbol: 'RVV',
-      decimals: 18,
-      source: PriceSource.Coingecko,
-      id: 'astra-nova',
-      tokenAddress: '0x80563Fc2dd549bf36f82d3bF3b970Bb5b08dBDdb',
     },
   },
   [ChainId.BASE]: {
