@@ -16841,7 +16841,7 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://bnv.foundation/',
     twitter: 'https://x.com/bnv_foundation',
     initTime: { [ChainId.MAINNET]: 1759306661 },
-    soldOut: false,
+    soldOut: true,
     hide: false,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
