@@ -797,7 +797,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://beratrax.com/',
     twitter: 'https://x.com/beratrax',
     initTime: { [ChainId.BERACHAIN]: 1756297800 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Berachain_Collection1,
     },
