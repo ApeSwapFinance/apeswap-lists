@@ -3945,7 +3945,7 @@ const bills: BillsConfig[] = [
     version: '2.1.0',
     chainId: ChainId.BSC,
     contractAddress: {
-      [ChainId.BSC]: '0xbe58ED76913515688b47376aD19ce4Ffb5E7aF92',
+      [ChainId.BSC]: '0x4fd5922224df0f9333127Aa6Af3BE22be7208DBf',
     },
     billType: 'reserve',
     billVersion: BillVersion.V4,
@@ -3956,7 +3956,7 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://astranova.world/',
     twitter: 'https://x.com/Astra__Nova',
-    initTime: { [ChainId.BSC]: 1761910682 },
+    initTime: { [ChainId.BSC]: 1761941545 },
     soldOut: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -3974,7 +3974,7 @@ const bills: BillsConfig[] = [
     version: '2.1.0',
     chainId: ChainId.BSC,
     contractAddress: {
-      [ChainId.BSC]: '0xd4D97eFfe796E4e6cB40E0DAAc7BFeAED188D02f',
+      [ChainId.BSC]: '0xB94f50385B71445E93571eD261878B87e2a78a8B',
     },
     billType: 'reserve',
     billVersion: BillVersion.V4,
@@ -3985,7 +3985,7 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://astranova.world/',
     twitter: 'https://x.com/Astra__Nova',
-    initTime: { [ChainId.BSC]: 1761910682 },
+    initTime: { [ChainId.BSC]: 1761941545 },
     soldOut: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,

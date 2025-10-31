@@ -7635,7 +7635,7 @@
     "version": "2.1.0",
     "chainId": 56,
     "contractAddress": {
-      "56": "0xbe58ED76913515688b47376aD19ce4Ffb5E7aF92"
+      "56": "0x4fd5922224df0f9333127Aa6Af3BE22be7208DBf"
     },
     "billType": "reserve",
     "billVersion": "V4",
@@ -7671,7 +7671,7 @@
     "projectLink": "https://astranova.world/",
     "twitter": "https://x.com/Astra__Nova",
     "initTime": {
-      "56": 1761910682
+      "56": 1761941545
     },
     "soldOut": false,
     "billArt": {
@@ -7688,7 +7688,7 @@
     "version": "2.1.0",
     "chainId": 56,
     "contractAddress": {
-      "56": "0xd4D97eFfe796E4e6cB40E0DAAc7BFeAED188D02f"
+      "56": "0xB94f50385B71445E93571eD261878B87e2a78a8B"
     },
     "billType": "reserve",
     "billVersion": "V4",
@@ -7724,7 +7724,7 @@
     "projectLink": "https://astranova.world/",
     "twitter": "https://x.com/Astra__Nova",
     "initTime": {
-      "56": 1761910682
+      "56": 1761941545
     },
     "soldOut": false,
     "billArt": {
