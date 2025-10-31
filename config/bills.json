@@ -7662,7 +7662,7 @@
       },
       "active": true,
       "liquidityDex": {
-        "56": "PancakeSwapV3"
+        "56": "External"
       }
     },
     "billNnftAddress": {
@@ -7715,7 +7715,7 @@
       },
       "active": true,
       "liquidityDex": {
-        "56": "PancakeSwapV3"
+        "56": "External"
       }
     },
     "billNnftAddress": {

@@ -220,6 +220,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       price: 1,
       tokenAddress: '0x9Fe4860bd6C9E78C6d998aE88173f347A253C2de',
     },
+    '0x80563Fc2dd549bf36f82d3bF3b970Bb5b08dBDdb': {
+      name: 'REVIVE',
+      symbol: 'RVV',
+      decimals: 18,
+      source: PriceSource.Coingecko,
+      id: 'astra-nova',
+      tokenAddress: '0x80563Fc2dd549bf36f82d3bF3b970Bb5b08dBDdb',
+    },
   },
   [ChainId.BASE]: {
     '0xACf80A4e55F5f28e1e7d261a221cA495DB5bcbB3': {

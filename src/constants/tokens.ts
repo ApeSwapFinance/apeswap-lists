@@ -4142,7 +4142,7 @@ const tokens: Record<string, Token> = {
     },
     active: true,
     liquidityDex: {
-      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+      [ChainId.BSC]: LiquidityDex.External,
     },
   },
   qorpo: {
