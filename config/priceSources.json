@@ -121,6 +121,14 @@
       "source": "coinstore",
       "id": "LERNUSDT",
       "tokenAddress": "0x61327929b3eA44c5Ec503d44D71A6c0fA2CefB02"
+    },
+    "0x80563Fc2dd549bf36f82d3bF3b970Bb5b08dBDdb": {
+      "name": "REVIVE",
+      "symbol": "RVV",
+      "decimals": 18,
+      "source": "coingecko",
+      "id": "astra-nova",
+      "tokenAddress": "0x80563Fc2dd549bf36f82d3bF3b970Bb5b08dBDdb"
     }
   },
   "130": {
@@ -206,14 +214,6 @@
       "source": "fixed",
       "price": 1,
       "tokenAddress": "0x9Fe4860bd6C9E78C6d998aE88173f347A253C2de"
-    },
-    "0x80563Fc2dd549bf36f82d3bF3b970Bb5b08dBDdb": {
-      "name": "REVIVE",
-      "symbol": "RVV",
-      "decimals": 18,
-      "source": "coingecko",
-      "id": "astra-nova",
-      "tokenAddress": "0x80563Fc2dd549bf36f82d3bF3b970Bb5b08dBDdb"
     }
   },
   "146": {
