@@ -1546,6 +1546,19 @@
       "59144": "Metavault"
     }
   },
+  "rvv": {
+    "symbol": "RVV",
+    "address": {
+      "56": "0x80563Fc2dd549bf36f82d3bF3b970Bb5b08dBDdb"
+    },
+    "decimals": {
+      "56": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "56": "PancakeSwapV3"
+    }
+  },
   "abond": {
     "symbol": "ABOND",
     "address": {

@@ -1,7 +1,7 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1184
+// BNB Largest ID: 1186
 // Polygon Largest ID: 188
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2034
@@ -3939,6 +3939,64 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1186,
+    cmcId: 38707,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0xbe58ED76913515688b47376aD19ce4Ffb5E7aF92',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.rvv,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://astranova.world/',
+    twitter: 'https://x.com/Astra__Nova',
+    initTime: { [ChainId.BSC]: 1761910682 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription:
+      'Astra Nova is pioneering the first AI Entertainment Ecosystem, blending immersive gameplay, storytelling, and user-driven experiences. With an AI-powered ARPG, interactive comic NovaToon, Deviants Fight Club on Telegram, BlackPass loyalty, and TokenPlay.ai for no-code mini-games, it creates a unified, evolving world. The RVV token fuels and connects the entire ecosystem.',
+    fullDescription:
+      'Astra Nova is redefining the relationship between entertainment and artificial intelligence by introducing the first-ever AI Entertainment Ecosystem that evolves with its audience. Designed to deliver deeply personalized, immersive, and rewarding experiences, Astra Nova draws inspiration from rich regional storytelling, iconic architecture, and cultural symbolism, fusing these elements with advanced AI to shape the future of interactive media. Its expanding cross-media universe includes a dynamic ARPG where every player decision transforms the world, NovaToon, an interactive comic app with AI-driven co-creation, Deviants Fight Club for fast PVP fun on Telegram, BlackPass for progression and loyalty, and TokenPlay.ai, a no-code platform enabling communities to build monetized mini-games. Powering this intelligent ecosystem is the RVV token, the core asset fueling its new entertainment economy.',
+    vestingCliff: 5184000, //60 days
+  },
+  {
+    index: 1185,
+    cmcId: 38707,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0xd4D97eFfe796E4e6cB40E0DAAc7BFeAED188D02f',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.rvv,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://astranova.world/',
+    twitter: 'https://x.com/Astra__Nova',
+    initTime: { [ChainId.BSC]: 1761910682 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription:
+      'Astra Nova is pioneering the first AI Entertainment Ecosystem, blending immersive gameplay, storytelling, and user-driven experiences. With an AI-powered ARPG, interactive comic NovaToon, Deviants Fight Club on Telegram, BlackPass loyalty, and TokenPlay.ai for no-code mini-games, it creates a unified, evolving world. The RVV token fuels and connects the entire ecosystem.',
+    fullDescription:
+      'Astra Nova is redefining the relationship between entertainment and artificial intelligence by introducing the first-ever AI Entertainment Ecosystem that evolves with its audience. Designed to deliver deeply personalized, immersive, and rewarding experiences, Astra Nova draws inspiration from rich regional storytelling, iconic architecture, and cultural symbolism, fusing these elements with advanced AI to shape the future of interactive media. Its expanding cross-media universe includes a dynamic ARPG where every player decision transforms the world, NovaToon, an interactive comic app with AI-driven co-creation, Deviants Fight Club for fast PVP fun on Telegram, BlackPass for progression and loyalty, and TokenPlay.ai, a no-code platform enabling communities to build monetized mini-games. Powering this intelligent ecosystem is the RVV token, the core asset fueling its new entertainment economy.',
+    vestingCliff: 5184000, //60 days
+  },
   {
     index: 1184,
     cmcId: 29157,

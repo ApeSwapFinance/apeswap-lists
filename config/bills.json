@@ -7630,6 +7630,112 @@
     "shortDescription": "Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!"
   },
   {
+    "index": 1186,
+    "cmcId": 38707,
+    "version": "2.1.0",
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0xbe58ED76913515688b47376aD19ce4Ffb5E7aF92"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "RVV",
+      "address": {
+        "56": "0x80563Fc2dd549bf36f82d3bF3b970Bb5b08dBDdb"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      }
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "projectLink": "https://astranova.world/",
+    "twitter": "https://x.com/Astra__Nova",
+    "initTime": {
+      "56": 1761910682
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["AI"],
+    "shortDescription": "Astra Nova is pioneering the first AI Entertainment Ecosystem, blending immersive gameplay, storytelling, and user-driven experiences. With an AI-powered ARPG, interactive comic NovaToon, Deviants Fight Club on Telegram, BlackPass loyalty, and TokenPlay.ai for no-code mini-games, it creates a unified, evolving world. The RVV token fuels and connects the entire ecosystem.",
+    "fullDescription": "Astra Nova is redefining the relationship between entertainment and artificial intelligence by introducing the first-ever AI Entertainment Ecosystem that evolves with its audience. Designed to deliver deeply personalized, immersive, and rewarding experiences, Astra Nova draws inspiration from rich regional storytelling, iconic architecture, and cultural symbolism, fusing these elements with advanced AI to shape the future of interactive media. Its expanding cross-media universe includes a dynamic ARPG where every player decision transforms the world, NovaToon, an interactive comic app with AI-driven co-creation, Deviants Fight Club for fast PVP fun on Telegram, BlackPass for progression and loyalty, and TokenPlay.ai, a no-code platform enabling communities to build monetized mini-games. Powering this intelligent ecosystem is the RVV token, the core asset fueling its new entertainment economy.",
+    "vestingCliff": 5184000
+  },
+  {
+    "index": 1185,
+    "cmcId": 38707,
+    "version": "2.1.0",
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0xd4D97eFfe796E4e6cB40E0DAAc7BFeAED188D02f"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "RVV",
+      "address": {
+        "56": "0x80563Fc2dd549bf36f82d3bF3b970Bb5b08dBDdb"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      }
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "projectLink": "https://astranova.world/",
+    "twitter": "https://x.com/Astra__Nova",
+    "initTime": {
+      "56": 1761910682
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["AI"],
+    "shortDescription": "Astra Nova is pioneering the first AI Entertainment Ecosystem, blending immersive gameplay, storytelling, and user-driven experiences. With an AI-powered ARPG, interactive comic NovaToon, Deviants Fight Club on Telegram, BlackPass loyalty, and TokenPlay.ai for no-code mini-games, it creates a unified, evolving world. The RVV token fuels and connects the entire ecosystem.",
+    "fullDescription": "Astra Nova is redefining the relationship between entertainment and artificial intelligence by introducing the first-ever AI Entertainment Ecosystem that evolves with its audience. Designed to deliver deeply personalized, immersive, and rewarding experiences, Astra Nova draws inspiration from rich regional storytelling, iconic architecture, and cultural symbolism, fusing these elements with advanced AI to shape the future of interactive media. Its expanding cross-media universe includes a dynamic ARPG where every player decision transforms the world, NovaToon, an interactive comic app with AI-driven co-creation, Deviants Fight Club for fast PVP fun on Telegram, BlackPass for progression and loyalty, and TokenPlay.ai, a no-code platform enabling communities to build monetized mini-games. Powering this intelligent ecosystem is the RVV token, the core asset fueling its new entertainment economy.",
+    "vestingCliff": 5184000
+  },
+  {
     "index": 1184,
     "cmcId": 29157,
     "version": "2.1.0",
