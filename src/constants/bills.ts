@@ -4114,7 +4114,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    tags: ['Marketing Solutions'],
+    tags: ['Marketing'],
     shortDescription:
       'Klink Finance powers Web3 affiliate advertising through a global network of partner offers and campaigns. With 900K+ users and 5M+ reach, it partners with leading brands like Arbitrum, Bybit, Coinbase, and Crypto.com. Its ecosystem connects users, platforms, and advertisers, all fueled by the $KLINK token, which drives transactions and engagement across the network.',
     fullDescription:
