@@ -1,7 +1,7 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1186
+// BNB Largest ID: 1187
 // Polygon Largest ID: 188
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2034
@@ -3940,6 +3940,35 @@ const bills: BillsConfig[] = [
   // BNB chain
   //
   {
+    index: 1187,
+    cmcId: 38127,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x4D7a4F1c286356eeBC0716640A87724C79fE81af',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.ake,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://learn.akedo.fun/',
+    twitter: 'https://x.com/akedofun',
+    initTime: { [ChainId.BSC]: 1762168673 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription:
+      'AKEDO Games is a Multi-Agent AI framework for Autonomous Content Creation and Intelligent Collaboration, enabling creators to design games in just two minutes using natural language prompts. Powered by LLMs, it combines specialized AI agents to craft worlds, rules, and stories. The AKE token fuels the ecosystem, enabling creation, staking, rewards, and revenue sharing across the platform.',
+    fullDescription:
+      'AKEDO Games is a Multi-Agent AI framework designed for Autonomous Content Creation and Intelligent Collaboration, empowering creators to design immersive games in just two minutes using natural language prompts. Built on large language models (LLMs), AKEDO’s modular and scalable architecture introduces specialized AI agents: World Builders, Rule Designers, Balancers, and Storytellers, that work together to generate complete, interactive experiences. Through its innovative monetization model, creators can earn from advertiser-integrated games, platform ad revenue, and protocol rewards, establishing a sustainable ecosystem for creativity. With a vision to turn 3 billion gamers into creators, AKEDO redefines user-generated content by introducing tokenized assetization tools that merge gaming with DeFi mechanics. Central to this ecosystem, the AKE token powers in-platform transactions, agent upgrades, game creation, staking, and participation in protocol fee sharing.',
+    vestingCliff: 2592000, //30 days cliff
+  },
+  {
     index: 1186,
     cmcId: 38707,
     version: '2.1.0',
@@ -4052,7 +4081,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://learn.akedo.fun/',
     twitter: 'https://x.com/akedofun',
     initTime: { [ChainId.BSC]: 1761650521 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
