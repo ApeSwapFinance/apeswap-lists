@@ -4081,7 +4081,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://learn.akedo.fun/',
     twitter: 'https://x.com/akedofun',
     initTime: { [ChainId.BSC]: 1761650521 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
