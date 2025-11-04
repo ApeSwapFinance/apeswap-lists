@@ -1606,6 +1606,7 @@ const bills: BillsConfig[] = [
       'FOMOFox is the first market-driven storytelling meme coin on IOTA EVM. Follow FOMOFox on TwitterX and help him conquer FOMO by influencing the $FOMO Token’s market performance. Holders can grow their $FOMO bags through raffles, solving riddles, or holding. FOMOFox faces challenges and meets intriguing characters, with market influence guiding his choices!',
     fullDescription:
       'FOMOFox is the first market-driven storytelling meme coin on IOTA EVM. Follow the thrilling journey of FOMOFox on TwitterX and help him conquer his FOMO by influencing the $FOMO Token’s market performance. Loyal holders will find countless opportunities to grow their $FOMO bags through raffles, solving riddles, or simply holding and supporting the fox. Along the way, FOMOFox faces diverse challenges and meets intriguing characters. Your influence on the market helps him make the right choices. This project offers pure entertainment and rewards those who stick with it! Join the adventure now and visit their website for more details!',
+    clickUpId: 'BOND-11',
   },
   //
   // BASE
@@ -12254,6 +12255,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
     ],
+    clickUpId: '',
   },
   {
     index: 183,
@@ -12282,6 +12284,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     fullDescription:
       ' Oyabun is a Web3 mobile game set in a gripping manga-inspired cyber-yakuza universe, blending immersive gameplay with strategic depth and social interaction. Players embody cyber-yakuza operatives, training and upgrading their characters to rise through the ranks and challenge others in intense battles. With just 10 minutes of daily gameplay, users can earn rewards and progress, but true dominance requires long-term planning and tactical execution. The game features a unique tri-currency system: $OYAB (off-chain, earned early-game), $BUN (on-chain, used for strategic actions like breeding and upgrading), and $FURI (a deflationary token swappable into $BUN), creating a dynamic and rewarding economic ecosystem.',
     warningCard: `This token is currently only tradable on <a href="https://www.mexc.com/exchange/FURI_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a>`,
+    clickUpId: '86a8qekz0',
   },
   {
     index: 182,
@@ -12319,6 +12322,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
     ],
+    clickUpId: '',
   },
   {
     index: 181,
@@ -12356,6 +12360,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
     ],
+    clickUpId: '',
   },
   {
     index: 180,
@@ -12385,6 +12390,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'Nasdex is a regulated, semi-decentralized RWA marketplace that empowers users to trade and invest in a diverse array of tokenized real-world assets, including private equity, private credit, bonds, derivatives, and real estate. It is the premier regulated marketplace for tokenized real-world assets.',
     fullDescription: `Nasdex is a regulated, semi-decentralized RWA marketplace that empowers users to trade and invest in a diverse array of tokenized real-world assets, including private equity, private credit, bonds, derivatives, and real estate. It is the premier regulated marketplace for tokenized real-world assets. With NASDEX, the future of finance is not just decentralized; it's personalized, accessible, and inherently global. NASDEX is poised to revolutionize the intersection of traditional finance (TradFi) and decentralized finance (DeFi), serving as an unparalleled conduit between these two pivotal spheres. Initially carving out its niche as the foremost decentralized exchange facilitating the on-chain trading of Asian stocks, NASDEX's scope has now significantly broadened to encompass the global market. It proudly offers the tokenization of a broad array of real-world assets, including but not limited to stocks, derivatives, and real estate, spanning every corner of the globe. NASDEX is designed to serve as a bridge between the real world and the crypto world, with the belief that the on-chain adoption of real-world asset classes will deliver increased accessibility and improved capabilities for both traditional and crypto investors.`,
     tags: ['RWA'],
+    clickUpId: '86a8a1xp8',
   },
   {
     index: 179,
@@ -12411,6 +12417,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'Film.io is a decentralized filmmaking ecosystem that puts Hollywood decision-making into the hands of creators and fans through blockchain technology. Governed by a filmmaking industry DAO, it champions inclusion, diversity, and transparency. With FAN and FILM Tokens, Film.io empowers collaboration to validate, fund, and distribute content, replacing centralized control with creative freedom.',
     fullDescription: `Film.io is the world's most powerful decentralized filmmaking ecosystem, revolutionizing Hollywood by transferring decision-making to creators and fans through blockchain technology. Governed by the first-ever filmmaking industry DAO, Film.io champions inclusion, equality, and diversity in global entertainment. It empowers creators and fans to collaboratively validate, fund, and distribute content in a transparent, inclusive environment, replacing traditional centralized power structures. Utilizing a dual-token model, Film.io offers FAN Tokens for governance and platform participation, while FILM Tokens support crowdfunding, DeFi loans, and NFT campaigns. Together, these tokens fuel collaboration between creators, fans, and investors, liberating the entertainment industry and fostering a new era of creative freedom.`,
     tags: ['Entertainment'],
+    clickUpId: '86a65u9ek',
   },
   {
     index: 178,
@@ -12437,6 +12444,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'YayPal transforms gaming by blending fun with an active lifestyle. With $ACTIVE, gamers unlock shared achievements, leaderboards, and personalized NFTs across multiple games. The AI Motivation Engine boosts engagement with fitness challenges and rewards. From conquering virtual realms to real-world discounts and location-based offers, $ACTIVE bridges gaming and real-life rewards seamlessly.',
     fullDescription: `YayPal redefines gaming with an ecosystem that merges fun, fitness, and rewards. At its core, $ACTIVE powers shared points, leaderboards, and personalized NFTs across games. Gamers switch between casual and Move 2 Play modes, earning rewards while staying active. Walkopoly incentivizes physical activity with tokenized property trading, while the AI Motivation Engine offers personalized challenges. $ACTIVE also unlocks discounts, location-based offers, and a dynamic NFT marketplace, bridging gaming and real-life value.`,
     tags: ['GAMEFI'],
+    clickUpId: '86a607r8u',
   },
   {
     index: 177,
@@ -12466,6 +12474,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'Medieval Empires is a multi-player online strategy game set in 13th century Turkey. Players build towns, trade, battle, and form alliances in a passive PvE environment while completing daily missions and tasks to progress. Powered by Polygon blockchain and Immutable Passport technology, it offers low gas fees, security, and cross-platform play on PC, MAC, and soon mobile. The MEE token unlocks in-game benefits like VIP status and land access.',
     fullDescription: `Medieval Empires is a multi-player online strategy game set in 13th century Turkey, where players build towns, trade, fight, and form alliances within a passive PvE environment. The game immerses players in rich historical settings, featuring daily missions, general tasks, and story missions that guide progression and the expansion of the world map through continuous battles. Built on the Polygon blockchain and powered by Immutable Passport and zkEVM technology, Medieval Empires offers a comprehensive developer ecosystem, low gas fees, enhanced security, and exceptional speed, all while being eco-friendly. The game is currently available on PC (Windows) and MAC (OSX), with a mobile version for iOS and Android on the horizon, ensuring seamless cross-platform interoperability. At the heart of the game is the MEE token, which provides in-game advantages like VIP status, land access, and daily rewards for players who connect their wallets and stake the required amount. The team behind the game brings expertise in both game development and blockchain technology, ensuring a well-rounded, engaging experience.`,
     tags: ['GAMEFI'],
+    clickUpId: '86a7fjzra',
   },
   {
     index: 176,
@@ -12493,6 +12502,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'Trakx is a global fintech redefining crypto investments with its Crypto Tradable Indices (CTIs), offering simple, one-click portfolio diversification through themed baskets of top digital assets. Registered with French AMF/ACPR as a VASP, Trakx ensures regulatory compliance. Powered by the TRKX token, users enjoy reduced fees, governance participation, and staking rewards, making crypto investing easy and accessible.',
     fullDescription: `Trakx is a global fintech innovator revolutionizing crypto investments through its Crypto Tradable Indices (CTIs). These proprietary baskets of the largest and most liquid digital assets offer a seamless, one-click solution for diversifying portfolios in the fast-evolving crypto market. With low fees and themed, easy-to-understand investment options, Trakx simplifies complex strategies for all investors. Registered with French AMF/ACPR as a Virtual Asset Service Provider (VASP), Trakx adheres to the highest international regulatory standards. The TRKX token powers the ecosystem, reducing trading fees and unlocking exclusive benefits such as governance participation and staking rewards. Trakx makes advanced investing straightforward, setting a new benchmark in crypto index trading.`,
     tags: ['DeFi'],
+    clickUpId: '86a7cddae',
   },
   {
     index: 175,
@@ -12520,6 +12530,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'Film.io is a decentralized filmmaking ecosystem that puts Hollywood decision-making into the hands of creators and fans through blockchain technology. Governed by a filmmaking industry DAO, it champions inclusion, diversity, and transparency. With FAN and FILM Tokens, Film.io empowers collaboration to validate, fund, and distribute content, replacing centralized control with creative freedom.',
     fullDescription: `Film.io is the world's most powerful decentralized filmmaking ecosystem, revolutionizing Hollywood by transferring decision-making to creators and fans through blockchain technology. Governed by the first-ever filmmaking industry DAO, Film.io champions inclusion, equality, and diversity in global entertainment. It empowers creators and fans to collaboratively validate, fund, and distribute content in a transparent, inclusive environment, replacing traditional centralized power structures. Utilizing a dual-token model, Film.io offers FAN Tokens for governance and platform participation, while FILM Tokens support crowdfunding, DeFi loans, and NFT campaigns. Together, these tokens fuel collaboration between creators, fans, and investors, liberating the entertainment industry and fostering a new era of creative freedom.`,
     tags: ['Entertainment'],
+    clickUpId: '86a71nrqm',
   },
   {
     index: 174,
@@ -12549,6 +12560,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'Nasdex is a regulated, semi-decentralized RWA marketplace that empowers users to trade and invest in a diverse array of tokenized real-world assets, including private equity, private credit, bonds, derivatives, and real estate. It is the premier regulated marketplace for tokenized real-world assets.',
     fullDescription: `Nasdex is a regulated, semi-decentralized RWA marketplace that empowers users to trade and invest in a diverse array of tokenized real-world assets, including private equity, private credit, bonds, derivatives, and real estate. It is the premier regulated marketplace for tokenized real-world assets. With NASDEX, the future of finance is not just decentralized; it's personalized, accessible, and inherently global. NASDEX is poised to revolutionize the intersection of traditional finance (TradFi) and decentralized finance (DeFi), serving as an unparalleled conduit between these two pivotal spheres. Initially carving out its niche as the foremost decentralized exchange facilitating the on-chain trading of Asian stocks, NASDEX's scope has now significantly broadened to encompass the global market. It proudly offers the tokenization of a broad array of real-world assets, including but not limited to stocks, derivatives, and real estate, spanning every corner of the globe. NASDEX is designed to serve as a bridge between the real world and the crypto world, with the belief that the on-chain adoption of real-world asset classes will deliver increased accessibility and improved capabilities for both traditional and crypto investors.`,
     tags: ['RWA'],
+    clickUpId: '86a6ape44',
   },
   {
     index: 173,
@@ -12575,6 +12587,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'Film.io is a decentralized filmmaking ecosystem that puts Hollywood decision-making into the hands of creators and fans through blockchain technology. Governed by a filmmaking industry DAO, it champions inclusion, diversity, and transparency. With FAN and FILM Tokens, Film.io empowers collaboration to validate, fund, and distribute content, replacing centralized control with creative freedom.',
     fullDescription: `Film.io is the world's most powerful decentralized filmmaking ecosystem, revolutionizing Hollywood by transferring decision-making to creators and fans through blockchain technology. Governed by the first-ever filmmaking industry DAO, Film.io champions inclusion, equality, and diversity in global entertainment. It empowers creators and fans to collaboratively validate, fund, and distribute content in a transparent, inclusive environment, replacing traditional centralized power structures. Utilizing a dual-token model, Film.io offers FAN Tokens for governance and platform participation, while FILM Tokens support crowdfunding, DeFi loans, and NFT campaigns. Together, these tokens fuel collaboration between creators, fans, and investors, liberating the entertainment industry and fostering a new era of creative freedom.`,
     tags: ['Entertainment'],
+    clickUpId: '86a6h8dee',
   },
   {
     index: 172,
@@ -12604,6 +12617,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'Nasdex is a regulated, semi-decentralized RWA marketplace that empowers users to trade and invest in a diverse array of tokenized real-world assets, including private equity, private credit, bonds, derivatives, and real estate. It is the premier regulated marketplace for tokenized real-world assets.',
     fullDescription: `Nasdex is a regulated, semi-decentralized RWA marketplace that empowers users to trade and invest in a diverse array of tokenized real-world assets, including private equity, private credit, bonds, derivatives, and real estate. It is the premier regulated marketplace for tokenized real-world assets. With NASDEX, the future of finance is not just decentralized; it's personalized, accessible, and inherently global. NASDEX is poised to revolutionize the intersection of traditional finance (TradFi) and decentralized finance (DeFi), serving as an unparalleled conduit between these two pivotal spheres. Initially carving out its niche as the foremost decentralized exchange facilitating the on-chain trading of Asian stocks, NASDEX's scope has now significantly broadened to encompass the global market. It proudly offers the tokenization of a broad array of real-world assets, including but not limited to stocks, derivatives, and real estate, spanning every corner of the globe. NASDEX is designed to serve as a bridge between the real world and the crypto world, with the belief that the on-chain adoption of real-world asset classes will deliver increased accessibility and improved capabilities for both traditional and crypto investors.`,
     tags: ['RWA'],
+    clickUpId: '86a6ape44',
   },
   {
     index: 171,
@@ -12630,6 +12644,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'Film.io is a decentralized filmmaking ecosystem that puts Hollywood decision-making into the hands of creators and fans through blockchain technology. Governed by a filmmaking industry DAO, it champions inclusion, diversity, and transparency. With FAN and FILM Tokens, Film.io empowers collaboration to validate, fund, and distribute content, replacing centralized control with creative freedom.',
     fullDescription: `Film.io is the world's most powerful decentralized filmmaking ecosystem, revolutionizing Hollywood by transferring decision-making to creators and fans through blockchain technology. Governed by the first-ever filmmaking industry DAO, Film.io champions inclusion, equality, and diversity in global entertainment. It empowers creators and fans to collaboratively validate, fund, and distribute content in a transparent, inclusive environment, replacing traditional centralized power structures. Utilizing a dual-token model, Film.io offers FAN Tokens for governance and platform participation, while FILM Tokens support crowdfunding, DeFi loans, and NFT campaigns. Together, these tokens fuel collaboration between creators, fans, and investors, liberating the entertainment industry and fostering a new era of creative freedom.`,
     tags: ['Entertainment'],
+    clickUpId: '86a65u9ek',
   },
   {
     index: 170,
@@ -12656,6 +12671,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'Film.io is a decentralized filmmaking ecosystem that puts Hollywood decision-making into the hands of creators and fans through blockchain technology. Governed by a filmmaking industry DAO, it champions inclusion, diversity, and transparency. With FAN and FILM Tokens, Film.io empowers collaboration to validate, fund, and distribute content, replacing centralized control with creative freedom.',
     fullDescription: `Film.io is the world's most powerful decentralized filmmaking ecosystem, revolutionizing Hollywood by transferring decision-making to creators and fans through blockchain technology. Governed by the first-ever filmmaking industry DAO, Film.io champions inclusion, equality, and diversity in global entertainment. It empowers creators and fans to collaboratively validate, fund, and distribute content in a transparent, inclusive environment, replacing traditional centralized power structures. Utilizing a dual-token model, Film.io offers FAN Tokens for governance and platform participation, while FILM Tokens support crowdfunding, DeFi loans, and NFT campaigns. Together, these tokens fuel collaboration between creators, fans, and investors, liberating the entertainment industry and fostering a new era of creative freedom.`,
     tags: ['Entertainment'],
+    clickUpId: '86a65u9ek',
   },
   {
     index: 169,
@@ -12682,6 +12698,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'YayPal transforms gaming by blending fun with an active lifestyle. With $ACTIVE, gamers unlock shared achievements, leaderboards, and personalized NFTs across multiple games. The AI Motivation Engine boosts engagement with fitness challenges and rewards. From conquering virtual realms to real-world discounts and location-based offers, $ACTIVE bridges gaming and real-life rewards seamlessly.',
     fullDescription: `YayPal redefines gaming with an ecosystem that merges fun, fitness, and rewards. At its core, $ACTIVE powers shared points, leaderboards, and personalized NFTs across games. Gamers switch between casual and Move 2 Play modes, earning rewards while staying active. Walkopoly incentivizes physical activity with tokenized property trading, while the AI Motivation Engine offers personalized challenges. $ACTIVE also unlocks discounts, location-based offers, and a dynamic NFT marketplace, bridging gaming and real-life value.`,
     tags: ['GAMEFI'],
+    clickUpId: '86a607r8u',
   },
   {
     index: 168,
@@ -12711,6 +12728,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     fullDescription: `Pirates of the Arrland is a groundbreaking MMO strategy game that immerses players in the pirate world, offering the freedom to make impactful decisions that shape a player-driven global economy. Utilizing blockchain technology, the game ensures transparency, security, and immutable digital ownership. Players can take on roles as crew captains, expand islands, gather resources, form alliances, or plunder ships, with each action influencing the economy and power dynamics within the Arrland Archipelago. The game features a variety of interconnected gameplay modes, all centered around a marketplace on a key trading island. The passionate team behind Pirates of the Arrland combines expertise in gaming, blockchain, 3D graphics, community building, and VR systems to deliver unique gaming experiences. The $RUM token, a deflationary utility token, is integral to the ecosystem, enabling the purchase of in-game services and the crafting and merging of NFTs.`,
     tags: ['CHRISTMAS SALE'],
     minTier: LaunchBondTiers.Silver,
+    clickUpId: '86a5ytrk3',
   },
   {
     index: 167,
@@ -12739,6 +12757,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'Trakx is a global fintech redefining crypto investments with its Crypto Tradable Indices (CTIs), offering simple, one-click portfolio diversification through themed baskets of top digital assets. Registered with French AMF/ACPR as a VASP, Trakx ensures regulatory compliance. Powered by the TRKX token, users enjoy reduced fees, governance participation, and staking rewards, making crypto investing easy and accessible.',
     fullDescription: `Trakx is a global fintech innovator revolutionizing crypto investments through its Crypto Tradable Indices (CTIs). These proprietary baskets of the largest and most liquid digital assets offer a seamless, one-click solution for diversifying portfolios in the fast-evolving crypto market. With low fees and themed, easy-to-understand investment options, Trakx simplifies complex strategies for all investors. Registered with French AMF/ACPR as a Virtual Asset Service Provider (VASP), Trakx adheres to the highest international regulatory standards. The TRKX token powers the ecosystem, reducing trading fees and unlocking exclusive benefits such as governance participation and staking rewards. Trakx makes advanced investing straightforward, setting a new benchmark in crypto index trading.`,
     tags: ['DeFi'],
+    clickUpId: '86a5ptrur',
   },
   {
     index: 166,
@@ -12768,6 +12787,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'Medieval Empires is a multi-player online strategy game set in 13th century Turkey. Players build towns, trade, battle, and form alliances in a passive PvE environment while completing daily missions and tasks to progress. Powered by Polygon blockchain and Immutable Passport technology, it offers low gas fees, security, and cross-platform play on PC, MAC, and soon mobile. The MEE token unlocks in-game benefits like VIP status and land access.',
     fullDescription: `Medieval Empires is a multi-player online strategy game set in 13th century Turkey, where players build towns, trade, fight, and form alliances within a passive PvE environment. The game immerses players in rich historical settings, featuring daily missions, general tasks, and story missions that guide progression and the expansion of the world map through continuous battles. Built on the Polygon blockchain and powered by Immutable Passport and zkEVM technology, Medieval Empires offers a comprehensive developer ecosystem, low gas fees, enhanced security, and exceptional speed, all while being eco-friendly. The game is currently available on PC (Windows) and MAC (OSX), with a mobile version for iOS and Android on the horizon, ensuring seamless cross-platform interoperability. At the heart of the game is the MEE token, which provides in-game advantages like VIP status, land access, and daily rewards for players who connect their wallets and stake the required amount. The team behind the game brings expertise in both game development and blockchain technology, ensuring a well-rounded, engaging experience.`,
     tags: ['GAMEFI'],
+    clickUpId: '86a5ptayq',
   },
   {
     index: 165,
@@ -12795,6 +12815,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'The GOON token, launched on June 6, 2024, quickly became a standout within wen.markets, driven by its playful mascot and strong ties to the Polygon community. Initially a meme token, GOON is now a key player in amplifying native dApps and communities in the Polygon ecosystem. By fostering a culture of evangelists, GOON is evolving into a content engine, driving news, education, and the onboarding of new users to Polygon.',
     fullDescription: `The GOON token, launched on June 6, 2024, is a pioneering project within the newly launched wen.markets ecosystem, rapidly gaining attention due to its unique mascot and strong community ties. GOON's playful take on 'Polygon' resonates with a growing base of contributors from the Polygon community, fostering a culture of evangelists who organically expand the platform's user base. The project's vision focuses on amplifying native dApps and communities within the Polygon ecosystem, building a dynamic content engine that spreads news, educates users, and drives adoption. What started as a meme token has evolved into a vital player in supporting Polygon's growth, aiming to onboard the next 100,000 users and provide utility to the GOON token. With a mission to unite community efforts and the ambition of reaching one billion users, GOON is helping shape the future of Polygon and decentralized communities.`,
     tags: ['Community'],
+    clickUpId: '86a5c46nr',
   },
   {
     index: 164,
@@ -12824,6 +12845,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'Medieval Empires is a multi-player online strategy game set in 13th century Turkey. Players build towns, trade, battle, and form alliances in a passive PvE environment while completing daily missions and tasks to progress. Powered by Polygon blockchain and Immutable Passport technology, it offers low gas fees, security, and cross-platform play on PC, MAC, and soon mobile. The MEE token unlocks in-game benefits like VIP status and land access.',
     fullDescription: `Medieval Empires is a multi-player online strategy game set in 13th century Turkey, where players build towns, trade, fight, and form alliances within a passive PvE environment. The game immerses players in rich historical settings, featuring daily missions, general tasks, and story missions that guide progression and the expansion of the world map through continuous battles. Built on the Polygon blockchain and powered by Immutable Passport and zkEVM technology, Medieval Empires offers a comprehensive developer ecosystem, low gas fees, enhanced security, and exceptional speed, all while being eco-friendly. The game is currently available on PC (Windows) and MAC (OSX), with a mobile version for iOS and Android on the horizon, ensuring seamless cross-platform interoperability. At the heart of the game is the MEE token, which provides in-game advantages like VIP status, land access, and daily rewards for players who connect their wallets and stake the required amount. The team behind the game brings expertise in both game development and blockchain technology, ensuring a well-rounded, engaging experience.`,
     tags: ['GAMEFI'],
+    clickUpId: '86a5bb972',
   },
   {
     index: 163,
@@ -12852,6 +12874,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'Nasdex is a regulated, semi-decentralized RWA marketplace that empowers users to trade and invest in a diverse array of tokenized real-world assets, including private equity, private credit, bonds, derivatives, and real estate. It is the premier regulated marketplace for tokenized real-world assets.',
     fullDescription: `Nasdex is a regulated, semi-decentralized RWA marketplace that empowers users to trade and invest in a diverse array of tokenized real-world assets, including private equity, private credit, bonds, derivatives, and real estate. It is the premier regulated marketplace for tokenized real-world assets. With NASDEX, the future of finance is not just decentralized; it's personalized, accessible, and inherently global. NASDEX is poised to revolutionize the intersection of traditional finance (TradFi) and decentralized finance (DeFi), serving as an unparalleled conduit between these two pivotal spheres. Initially carving out its niche as the foremost decentralized exchange facilitating the on-chain trading of Asian stocks, NASDEX's scope has now significantly broadened to encompass the global market. It proudly offers the tokenization of a broad array of real-world assets, including but not limited to stocks, derivatives, and real estate, spanning every corner of the globe. NASDEX is designed to serve as a bridge between the real world and the crypto world, with the belief that the on-chain adoption of real-world asset classes will deliver increased accessibility and improved capabilities for both traditional and crypto investors.`,
     tags: ['RWA'],
+    clickUpId: '86a534u3j',
   },
   {
     index: 162,
@@ -12889,6 +12912,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
     ],
+    clickUpId: '',
   },
   {
     index: 161,
@@ -12917,6 +12941,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       "Pirates of the Arrland is a decentralized MMO strategy game set in a pirate world, where players' decisions shape a global, player-driven economy. Using blockchain technology, it ensures transparency and digital ownership. Players can captain crews, expand islands, and influence power dynamics. The $RUM token is key to the game, used for in-game services and crafting NFTs, making it integral to the Arrland ecosystem.",
     fullDescription: `Pirates of the Arrland is a groundbreaking MMO strategy game that immerses players in the pirate world, offering the freedom to make impactful decisions that shape a player-driven global economy. Utilizing blockchain technology, the game ensures transparency, security, and immutable digital ownership. Players can take on roles as crew captains, expand islands, gather resources, form alliances, or plunder ships, with each action influencing the economy and power dynamics within the Arrland Archipelago. The game features a variety of interconnected gameplay modes, all centered around a marketplace on a key trading island. The passionate team behind Pirates of the Arrland combines expertise in gaming, blockchain, 3D graphics, community building, and VR systems to deliver unique gaming experiences. The $RUM token, a deflationary utility token, is integral to the ecosystem, enabling the purchase of in-game services and the crafting and merging of NFTs.`,
     tags: ['GAMEFI'],
+    clickUpId: '86a4jb59y',
   },
   {
     index: 160,
@@ -12946,6 +12971,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'Verida is a layer zero private self-sovereign database DePIN with confidential compute for AI applications. Verida’s Private Data Bridge enables user data to be unlocked from centralized platforms and used or a new generation of personal AI applications. Verida’s Self-Sovereign Compute Network enables a user’s personal, encrypted data to be integrated with leading AI models, with end-to-end privacy, safeguarding personal data from model owners, and unlocking a new era of hyper-personal and safe AI experiences powered by the VDA utility token.',
     fullDescription: `Verida is a groundbreaking layer zero private self-sovereign database DePIN, specifically designed to offer confidential compute for advanced AI applications. With Verida’s innovative Private Data Bridge, user data can be seamlessly unlocked from centralized platforms, empowering a new generation of personal AI applications that are more intuitive and personalized. Verida’s Self-Sovereign Compute Network takes privacy to the next level by enabling a user’s personal, encrypted data to be securely integrated with leading AI models. This ensures end-to-end privacy, effectively safeguarding personal data from unauthorized access by model owners. By doing so, Verida is pioneering a new era of hyper-personalized and safe AI experiences, all powered by the VDA utility token. This infrastructure not only redefines how AI interacts with personal data but also paves the way for more secure, user-controlled digital ecosystems in the rapidly evolving world of decentralized technology.`,
     tags: ['AI'],
+    clickUpId: '86a4fyx02',
   },
   {
     index: 159,
@@ -12973,6 +12999,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'Icon.X World is a growing GameFi ecosystem powered by the ICNX token, bridging web3 and gaming. It started with competitive esports racing on Assetto Corsa, where players earned ICNX rewards, and has now expanded to "Icon.X Arena", hosting tournaments across web2 games like CS2. The ecosystem offers grants, community support, and dev tools, with ICNX available on Uniswap (Polygon), MEXC, and soon on Solana.',
     fullDescription: `Icon.X World is a rapidly expanding GameFi ecosystem centered around the ICNX token, designed to bridge the gap between web3 and gaming. Leveraging the Icon.X World Grants Program, Community, and Developer Tools, it empowers creators to build and deploy their games within a supportive environment. Initially gaining traction through competitive esports racing on Assetto Corsa, where players could earn ICNX rewards, Icon.X World has since broadened its scope. Now, through "Icon.X Arena", it hosts competitive tournaments across various web2 games like CS2, offering substantial prize pools and further solidifying its role as a leader in the web3 gaming space. ICNX, the ecosystem's native token, is available on Uniswap (Polygon), MEXC, and soon on Solana, with further expansion planned.`,
     tags: ['GAMEFI'],
+    clickUpId: '86a4c29pn',
   },
   {
     index: 158,
@@ -13001,6 +13028,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       "Derby Stars is a horse racing metaverse game where players can breed, grow, trade, and train horses. Using an in-game training system, players enhance their horses' skills to race and win rewards. Championship horses excel in breeding, and Play To Earn opportunities abound, including in-game Scholarship Programs. $DSRUN, the game's governance token, is used in-game and allows players to participate in the ecosystem development.",
     fullDescription: `Derby Stars is a horse racing metaverse game where players can breed, grow, and trade horses. Through an in-game training system, players can enhance their horses' stats, talents, and skills to race against others. Special treats and items improve performance, and winning races yields substantial rewards. Championship horses make excellent stallions for breeding. Derby Stars emphasizes Play To Earn, allowing all players to earn tokens through various activities, including in-game Scholarship Programs for those without horses. $DSRUN, the game's governance token, can be acquired and used in-game, enabling users to engage with and influence the ecosystem's development. This project is backed by Hashed, Patron, Galaxy, and Polygon.`,
     tags: ['GAMEFI'],
+    clickUpId: '86a47b3je',
   },
   {
     index: 157,
@@ -13029,6 +13057,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       "Derby Stars is a horse racing metaverse game where players can breed, grow, trade, and train horses. Using an in-game training system, players enhance their horses' skills to race and win rewards. Championship horses excel in breeding, and Play To Earn opportunities abound, including in-game Scholarship Programs. $DSRUN, the game's governance token, is used in-game and allows players to participate in the ecosystem development.",
     fullDescription: `Derby Stars is a horse racing metaverse game where players can breed, grow, and trade horses. Through an in-game training system, players can enhance their horses' stats, talents, and skills to race against others. Special treats and items improve performance, and winning races yields substantial rewards. Championship horses make excellent stallions for breeding. Derby Stars emphasizes Play To Earn, allowing all players to earn tokens through various activities, including in-game Scholarship Programs for those without horses. $DSRUN, the game's governance token, can be acquired and used in-game, enabling users to engage with and influence the ecosystem's development. This project is backed by Hashed, Patron, Galaxy, and Polygon.`,
     tags: ['GAMEFI'],
+    clickUpId: '86a4a66vh',
   },
   {
     index: 156,
@@ -13058,6 +13087,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'Nasdex is a regulated, semi-decentralized RWA marketplace that empowers users to trade and invest in a diverse array of tokenized real-world assets, including private equity, private credit, bonds, derivatives, and real estate. It is the premier regulated marketplace for tokenized real-world assets.',
     fullDescription: `Nasdex is a regulated, semi-decentralized RWA marketplace that empowers users to trade and invest in a diverse array of tokenized real-world assets, including private equity, private credit, bonds, derivatives, and real estate. It is the premier regulated marketplace for tokenized real-world assets. With NASDEX, the future of finance is not just decentralized; it's personalized, accessible, and inherently global. NASDEX is poised to revolutionize the intersection of traditional finance (TradFi) and decentralized finance (DeFi), serving as an unparalleled conduit between these two pivotal spheres. Initially carving out its niche as the foremost decentralized exchange facilitating the on-chain trading of Asian stocks, NASDEX's scope has now significantly broadened to encompass the global market. It proudly offers the tokenization of a broad array of real-world assets, including but not limited to stocks, derivatives, and real estate, spanning every corner of the globe. NASDEX is designed to serve as a bridge between the real world and the crypto world, with the belief that the on-chain adoption of real-world asset classes will deliver increased accessibility and improved capabilities for both traditional and crypto investors.`,
     tags: ['RWA'],
+    clickUpId: '86a48g66w',
   },
   {
     index: 155,
@@ -13088,6 +13118,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'GENSO is the metaverse incarnation of “Elemental Knights Online,” which won the 2012 Game of the Year (Gold) in Taiwan. Utilizing blockchain technology, we aim to create a new economy within the virtual world. This MMORPG-based, fantasy-themed metaverse allows players to connect with others in our 3D world and engage in various activities by importing LAND, NFTs, or MV/ROND tokens. Powered by the MV token. <a href="https://x.com/genso_meta/status/1755246359165157634" target="_blank" rel="noopener noreferrer" style="color: #6560C5">ApeBond Shield</a>',
     fullDescription:
       'GENSO is the metaverse incarnation of “Elemental Knights Online,” which won the 2012 Game of the Year (Gold) in Taiwan. Utilizing blockchain technology, we aim to create a new economy within the virtual world. This MMORPG-based, fantasy-themed metaverse allows players to connect with others in our 3D world and engage in various activities by importing LAND, NFTs, or MV/ROND tokens. GENSO offers a support program for participants who create or develop in the GENSO Metaverse, backed by sponsors and other organizations. Contests are held with cash prizes for excellent works, and sponsors and companies will fund creators while GENSO official sales will also generate income for them. Exceptional works will appear on PlayStation and Nintendo Switch. MV, the native token of GENSO, and it stands for Metaverse and is crucial for building the metaverse world. It is used as gas on the MV Chain and provides voting rights for metaverse policies, discounted prices for special equipment, rights for strengthening equipment, and purchasing exclusive items. MV Coin also has staking functions, allowing users to earn ROND Coin and receive special NFTs and rights within UGC (User-Generated Content) by staking a certain volume of MV. Additionally, it grants rights to participate in auctions for creating maps and monsters and purchasing availability for creating them. Post-release, MV will be used for transaction fees, various LAND activities, transactions, and in partnered games playable on GENSO, such as JongNavi Mahjong.',
+    clickUpId: '86a46hepr',
   },
   {
     index: 154,
@@ -13116,6 +13147,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'Planet IX is an evolving world with a marketplace, multiple corporations, unique gaming experiences, and utilities that help players resurrect and rebuild their planet. Connect your land to earn IXT and farm IXT without investing anything but time. Help rejuvenate the broken lands and build the Planet of Tomorrow.',
     fullDescription: `Planet IX is an evolutionary world with a marketplace, multiple corporations, unique gaming experiences, and utilities that aid players in their collective mission to resurrect and rebuild the planet they once called home. In Planet IX, you can connect your land to earn IXT. You’ll also be able to farm your way to IXT without investing anything other than your time. Connect your land, help rejuvenate the broken lands, and build the Planet of Tomorrow. Planet IX is at the forefront of a revolution in the virtual land strategy development space. It provides tools to decentralize and empower the gaming community while helping individuals use their passion and skill to play and build businesses. Blurring the lines between the digital and physical worlds, Planet IX and its players redefine the term reality again and again. IXT is the medium of exchange in the Planet IX ecosystem, serving as in-game currency, rewards, and conferring voting rights. IXT is the only ERC-20 token in the game's economy of assets and is the key to playing the game, trading, and purchasing assets.`,
     tags: ['GAMEFI', 'NFT'],
+    clickUpId: '86a45ru0t',
   },
   {
     index: 153,
@@ -13144,6 +13176,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'Planet IX is an evolving world with a marketplace, multiple corporations, unique gaming experiences, and utilities that help players resurrect and rebuild their planet. Connect your land to earn IXT and farm IXT without investing anything but time. Help rejuvenate the broken lands and build the Planet of Tomorrow.',
     fullDescription: `Planet IX is an evolutionary world with a marketplace, multiple corporations, unique gaming experiences, and utilities that aid players in their collective mission to resurrect and rebuild the planet they once called home. In Planet IX, you can connect your land to earn IXT. You’ll also be able to farm your way to IXT without investing anything other than your time. Connect your land, help rejuvenate the broken lands, and build the Planet of Tomorrow. Planet IX is at the forefront of a revolution in the virtual land strategy development space. It provides tools to decentralize and empower the gaming community while helping individuals use their passion and skill to play and build businesses. Blurring the lines between the digital and physical worlds, Planet IX and its players redefine the term reality again and again. IXT is the medium of exchange in the Planet IX ecosystem, serving as in-game currency, rewards, and conferring voting rights. IXT is the only ERC-20 token in the game's economy of assets and is the key to playing the game, trading, and purchasing assets.`,
     tags: ['GAMEFI', 'NFT'],
+    clickUpId: '86a45rfv5',
   },
   {
     index: 152,
@@ -13174,6 +13207,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     fullDescription:
       'THX Network believes in the universal language of gratitude, best expressed through gaming. The THX quest and reward solution integrates into any platform in under 30 minutes, democratizing the digital gaming economy. Partnered with industry leaders like Gala Games, their vote-escrowed 80/20 tokenomics model, based on Balancer technology, allows users to lock 80% $THX and 20% USDC to earn ‘veTHX’. Holding ‘veTHX’ grants membership benefits, liquidity rewards, and weekly protocol fee shares. Completing quests earns points for bi-weekly lottery rewards. Supported by Techstars and a vibrant community, THX benefits from extensive industry connections and a robust advisory board.',
     tags: ['Marketing Solutions'],
+    clickUpId: '86a3vkgvx',
   },
   {
     index: 151,
@@ -13205,6 +13239,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     fullDescription:
       'Carbify is a project focused on the reforestation of the rainforest and the production and delivery of carbon offsets. By applying blockchain technology, Carbify can solve virtually all the problems faced by the carbon credit model. Their are tapping into a multi-billion-dollar market with the potential to become the world standard. The company is working together with some of the biggest Web3 giants to build a Layer 3 CO2 chain. Powered by CBY token. Carbify believes it is important to take care of the earth and its sustainability. That is why they are dedicated to investing in eco-friendly, biodiverse, and world-healing projects, such as planting trees. To ensure that Carbify decisions are guided by experts, they work with ecologists rather than politicians or profit-driven entrepreneurs. Additionally, Carbify is committed to educating the public and helping those in need through initiatives like feeding the underprivileged.',
     tags: ['RWA'],
+    clickUpId: '86a3r7819',
   },
   {
     index: 150,
@@ -13233,6 +13268,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'Planet IX is an evolving world with a marketplace, multiple corporations, unique gaming experiences, and utilities that help players resurrect and rebuild their planet. Connect your land to earn IXT and farm IXT without investing anything but time. Help rejuvenate the broken lands and build the Planet of Tomorrow.',
     fullDescription: `Planet IX is an evolutionary world with a marketplace, multiple corporations, unique gaming experiences, and utilities that aid players in their collective mission to resurrect and rebuild the planet they once called home. In Planet IX, you can connect your land to earn IXT. You’ll also be able to farm your way to IXT without investing anything other than your time. Connect your land, help rejuvenate the broken lands, and build the Planet of Tomorrow. Planet IX is at the forefront of a revolution in the virtual land strategy development space. It provides tools to decentralize and empower the gaming community while helping individuals use their passion and skill to play and build businesses. Blurring the lines between the digital and physical worlds, Planet IX and its players redefine the term reality again and again. IXT is the medium of exchange in the Planet IX ecosystem, serving as in-game currency, rewards, and conferring voting rights. IXT is the only ERC-20 token in the game's economy of assets and is the key to playing the game, trading, and purchasing assets.`,
     tags: ['GAMEFI', 'NFT'],
+    clickUpId: '86a3q6qc9',
   },
   {
     index: 149,
@@ -13261,6 +13297,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'Planet IX is an evolving world with a marketplace, multiple corporations, unique gaming experiences, and utilities that help players resurrect and rebuild their planet. Connect your land to earn IXT and farm IXT without investing anything but time. Help rejuvenate the broken lands and build the Planet of Tomorrow.',
     fullDescription: `Planet IX is an evolutionary world with a marketplace, multiple corporations, unique gaming experiences, and utilities that aid players in their collective mission to resurrect and rebuild the planet they once called home. In Planet IX, you can connect your land to earn IXT. You’ll also be able to farm your way to IXT without investing anything other than your time. Connect your land, help rejuvenate the broken lands, and build the Planet of Tomorrow. Planet IX is at the forefront of a revolution in the virtual land strategy development space. It provides tools to decentralize and empower the gaming community while helping individuals use their passion and skill to play and build businesses. Blurring the lines between the digital and physical worlds, Planet IX and its players redefine the term reality again and again. IXT is the medium of exchange in the Planet IX ecosystem, serving as in-game currency, rewards, and conferring voting rights. IXT is the only ERC-20 token in the game's economy of assets and is the key to playing the game, trading, and purchasing assets.`,
     tags: ['GAMEFI', 'NFT'],
+    clickUpId: '86a3q6qfj',
   },
   {
     index: 148,
@@ -13291,6 +13328,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     fullDescription:
       'A51 Finance Yield Supercharger is a powerful new tool designed to enhance yield farming strategies by leveraging the latest advancements in Automated Liquidity Management (ALM). The Yield Supercharger specifically aims to maximize your yield potential while minimizing risks. The A51 team has meticulously curated a range of strategies using their ALM 2.0 mechanism. These strategies are designed to perform differently from existing ALM solutions (such as Gamma and Steer) by trailing asset price dynamically to market conditions, that reduces unnecessary rebalancing hence the Impermanent Loss. The strategies listed on A51 Yield Supercharger are optimized to offer the best possible yield while minimizing impermanent loss. This is achieved through our unique mode-switching capability, which trails the price movements and adjusts accordingly.',
     tags: ['V3 Liquidity Managers'],
+    clickUpId: '86a3muqr0',
   },
   {
     index: 147,
@@ -13328,6 +13366,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
     ],
+    clickUpId: '',
   },
   {
     index: 146,
@@ -13357,6 +13396,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'Sheertopia is a play-to-earn NFT game that combines engaging gameplay with blockchain technology for a unique, immersive experience. This groundbreaking open-world RPG seamlessly blends traditional web2 gaming elements with the innovative features of web3. Sheertopia is dedicated to creating a secure and inclusive environment, addressing gaming community challenges such as bullying, racism, and grooming. The game is governed by the AMBO token.',
     fullDescription: `Sheertopia is a play-to-earn NFT game that combines engaging gameplay with blockchain technology for a unique, immersive experience. This groundbreaking open-world RPG seamlessly blends traditional web2 gaming elements with the innovative features of web3. Sheertopia is dedicated to creating a secure and inclusive environment, addressing gaming community challenges such as bullying, racism, and grooming. The game is governed by the AMBO token. Sheertopia is an innovative play-to-earn NFT game that integrates AI-driven NPCs powered by ChatGPT’s API, enhancing realism and immersion. The Gen-S Battleground feature offers competitive mini-games with in-game wagering and rewards, providing both entertainment and achievements. Accessible as a free-to-play model on smartphones, "Rise of Sheertopia" is in closed beta on the Apple App Store and Google Play Store. The game is developed by a team of over 20 experts from top-tier companies, ensuring high standards and innovative gameplay. Sheertopia's structured roadmap includes pre-seed funding, partnerships with major Web3 platforms, and plans for Token Generation Events and exchange listings. Its multifaceted economic model features in-game purchases, NFT sales, and staking rewards, promoting a safer, more inclusive gaming world. Combining unique features, accessibility, a skilled development team, and a strategic economic model, Sheertopia aims to significantly impact the global gaming landscape.`,
     tags: ['GAMEFI'],
+    clickUpId: '86a3a3xz8',
   },
   {
     index: 145,
@@ -13386,6 +13426,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     fullDescription:
       'Forest Knight is a turn-based strategy game where players find themselves in an unknown land and need to build their team of heroes to fight against evil. Inspired by successful games such as Heroes Might and Magic and Clash Royale, the game combines the best of both worlds: a fun and exciting PVE RPG experience, PVP competitive and social gameplay modes and activities, as well as a decentralized item ecosystem through game items as NFTs and world-building powered with DeFi elements. Powered by KNIGHT and backed by Animoca Brands. Forest Knight is first and foremost a fun and exciting game that aims to use blockchain technology to enhance the player experience while capturing the attention of millions of gamers. By letting them do what they always do—have fun playing video games—it introduces them to the world of blockchain through gamification. Forest Knight is not just a name on an idea board like many other blockchain projects; the early access version is already available on the popular Google Play Store and is being played by thousands of players. After completing the bootstrap phase, the intent now is to fund and build the team, developing Forest Knight into a commercial success that introduces millions of players to blockchain.',
     tags: ['GAMEFI'],
+    clickUpId: '86a3c2wvz',
   },
   {
     index: 144,
@@ -13414,6 +13455,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     fullDescription:
       'ANote Music is the main stage for music investments. Join 30,000 investors diversifying their wealth into music royalties. Purchase world renowned catalogues & earn as artists earn, all powered by the NOTES token. In the world of live music and festivals, the main stage is where the biggest and best acts perform. People flock there because they know they are about to experience something special. In the music royalty investment market, the same holds true for ANote Music. With its leading technology and platform, investors and artists choose ANote Music because they know they are about to experience something far superior to anything else available. For years, the music industry has been a maze to navigate—complicated, inaccessible, and slow. Yet, so much potential remains untapped. It is time for a change, for this broken record to be replaced with something better—something that makes music even more valuable to even more people.',
     tags: ['Entertainment'],
+    clickUpId: '86a3am6g3',
   },
   {
     index: 143,
@@ -13443,6 +13485,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     fullDescription:
       "The Ethernity CLOUD project envisions a cloud computing infrastructure where users' data is hosted on a wide range of systems in an encrypted and anonymous manner. From home computers and mid-range servers to datacenter-level hardware, it ensures that data is safe and private both in transit and at rest. Ethernity CLOUD removes the middlemen consisting of cloud service provider companies and replaces them with a smart contract. The nodes are meticulously programmed virtual machines that obey the smart contract. Users’ software and data run inside these nodes exactly according to the smart contract implementation. These nodes are location-agnostic, self-replicating, and constantly spawning in random locations on the internet. The purpose of Ethernity CLOUD is to provide the blockchain infrastructure for participants to run their favorite cloud software decentralized, rent their idling or extra hardware for monetary gain, and incentivize decentralized cloud applications developers.",
     tags: ['DEPIN'],
+    clickUpId: '86a35h5ff',
   },
   {
     index: 142,
@@ -13472,6 +13515,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'Nasdex is a regulated, semi-decentralized RWA marketplace that empowers users to trade and invest in a diverse array of tokenized real-world assets, including private equity, private credit, bonds, derivatives, and real estate. It is the premier regulated marketplace for tokenized real-world assets.',
     fullDescription: `Nasdex is a regulated, semi-decentralized RWA marketplace that empowers users to trade and invest in a diverse array of tokenized real-world assets, including private equity, private credit, bonds, derivatives, and real estate. It is the premier regulated marketplace for tokenized real-world assets. With NASDEX, the future of finance is not just decentralized; it's personalized, accessible, and inherently global. NASDEX is poised to revolutionize the intersection of traditional finance (TradFi) and decentralized finance (DeFi), serving as an unparalleled conduit between these two pivotal spheres. Initially carving out its niche as the foremost decentralized exchange facilitating the on-chain trading of Asian stocks, NASDEX's scope has now significantly broadened to encompass the global market. It proudly offers the tokenization of a broad array of real-world assets, including but not limited to stocks, derivatives, and real estate, spanning every corner of the globe. NASDEX is designed to serve as a bridge between the real world and the crypto world, with the belief that the on-chain adoption of real-world asset classes will deliver increased accessibility and improved capabilities for both traditional and crypto investors.`,
     tags: ['RWA'],
+    clickUpId: '86a35w26a',
   },
   {
     index: 141,
@@ -13500,6 +13544,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'Planet IX is an evolving world with a marketplace, multiple corporations, unique gaming experiences, and utilities that help players resurrect and rebuild their planet. Connect your land to earn IXT and farm IXT without investing anything but time. Help rejuvenate the broken lands and build the Planet of Tomorrow.',
     fullDescription: `Planet IX is an evolutionary world with a marketplace, multiple corporations, unique gaming experiences, and utilities that aid players in their collective mission to resurrect and rebuild the planet they once called home. In Planet IX, you can connect your land to earn IXT. You’ll also be able to farm your way to IXT without investing anything other than your time. Connect your land, help rejuvenate the broken lands, and build the Planet of Tomorrow. Planet IX is at the forefront of a revolution in the virtual land strategy development space. It provides tools to decentralize and empower the gaming community while helping individuals use their passion and skill to play and build businesses. Blurring the lines between the digital and physical worlds, Planet IX and its players redefine the term reality again and again. IXT is the medium of exchange in the Planet IX ecosystem, serving as in-game currency, rewards, and conferring voting rights. IXT is the only ERC-20 token in the game's economy of assets and is the key to playing the game, trading, and purchasing assets.`,
     tags: ['GAMEFI', 'NFT'],
+    clickUpId: '86a35kxef',
   },
   {
     index: 140,
@@ -13530,6 +13575,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     fullDescription:
       'Africarare stands at the forefront of empowering Africans to be truly connected to the global economy. Recognising the need for Africa-homegrown tech solutions that resonate with the continents mobile-first young demographics, Africarare has emerged as a pioneering AI-powered mixed reality environment, providing an inclusive and immersive experience for users throughout the region, powered by the UBU token. At its core, Africarare is dedicated to building a metaverse that celebrates African creativity. This 3D virtual reality experience, powered by the Ethereum and Polygon blockchains, unfolds in Ubuntuland, a vibrant virtual world where creativity, crypto, and commerce converge harmoniously. Ubuntuland serves as a dynamic platform, empowering users to create, experience, and monetize a diverse array of content and applications. From art exhibitions and concerts to film festivals, business meetings, play-to-earn games, and social interactions, the possibilities within the metaverse are boundless. Africarare offers a realm of meaningful metaverse experiences, allowing creators to monetize their digital goods and services in novel ways. Africarare commitment to building a flourishing user-powered economy, combined with its innovative revenue model and token system, sets the stage for a truly transformative experience. It harnesses the vast potential of Africa creative talent and fosters meaningful connections within the global digital landscape.',
     tags: ['AI', 'METAVERSE'],
+    clickUpId: '86a32v2tu',
   },
   {
     index: 139,
@@ -13560,6 +13606,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     fullDescription:
       'A51 Finance Yield Supercharger is a powerful new tool designed to enhance yield farming strategies by leveraging the latest advancements in Automated Liquidity Management (ALM). The Yield Supercharger specifically aims to maximize your yield potential while minimizing risks. The A51 team has meticulously curated a range of strategies using their ALM 2.0 mechanism. These strategies are designed to perform differently from existing ALM solutions (such as Gamma and Steer) by trailing asset price dynamically to market conditions, that reduces unnecessary rebalancing hence the Impermanent Loss. The strategies listed on A51 Yield Supercharger are optimized to offer the best possible yield while minimizing impermanent loss. This is achieved through our unique mode-switching capability, which trails the price movements and adjusts accordingly.',
     tags: ['V3 Liq. Manager'],
+    clickUpId: '86a32v05v',
   },
   {
     index: 138,
@@ -13588,6 +13635,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'Planet IX is an evolving world with a marketplace, multiple corporations, unique gaming experiences, and utilities that help players resurrect and rebuild their planet. Connect your land to earn IXT and farm IXT without investing anything but time. Help rejuvenate the broken lands and build the Planet of Tomorrow.',
     fullDescription: `Planet IX is an evolutionary world with a marketplace, multiple corporations, unique gaming experiences, and utilities that aid players in their collective mission to resurrect and rebuild the planet they once called home. In Planet IX, you can connect your land to earn IXT. You’ll also be able to farm your way to IXT without investing anything other than your time. Connect your land, help rejuvenate the broken lands, and build the Planet of Tomorrow. Planet IX is at the forefront of a revolution in the virtual land strategy development space. It provides tools to decentralize and empower the gaming community while helping individuals use their passion and skill to play and build businesses. Blurring the lines between the digital and physical worlds, Planet IX and its players redefine the term reality again and again. IXT is the medium of exchange in the Planet IX ecosystem, serving as in-game currency, rewards, and conferring voting rights. IXT is the only ERC-20 token in the game's economy of assets and is the key to playing the game, trading, and purchasing assets.`,
     tags: ['GAMEFI'],
+    clickUpId: '86a2zba30',
   },
   {
     index: 137,
@@ -13614,6 +13662,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     fullDescription:
       'Bullieverse is your gateway to a limitless universe of Games and Social Experiences, where NFTs come alive. A Web3 native entertainment brand, Bullieverse also excels at Art & Lore, with rich storytelling, mesmerizing art, and vivid characters. It stands for a global community united by a shared passion for Web3, where users can connect with adventurers, artists, collectors, and enthusiasts worldwide.',
     tags: ['GAMEFI'],
+    clickUpId: '86a2jyvky',
   },
   {
     index: 136,
@@ -13644,6 +13693,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'GENSO is the metaverse incarnation of “Elemental Knights Online,” which won the 2012 Game of the Year (Gold) in Taiwan. Utilizing blockchain technology, we aim to create a new economy within the virtual world. This MMORPG-based, fantasy-themed metaverse allows players to connect with others in our 3D world and engage in various activities by importing LAND, NFTs, or MV/ROND tokens. Powered by the MV token. <a href="https://x.com/genso_meta/status/1755246359165157634" target="_blank" rel="noopener noreferrer" style="color: #6560C5">ApeBond Shield</a>',
     fullDescription:
       'GENSO is the metaverse incarnation of “Elemental Knights Online,” which won the 2012 Game of the Year (Gold) in Taiwan. Utilizing blockchain technology, we aim to create a new economy within the virtual world. This MMORPG-based, fantasy-themed metaverse allows players to connect with others in our 3D world and engage in various activities by importing LAND, NFTs, or MV/ROND tokens. GENSO offers a support program for participants who create or develop in the GENSO Metaverse, backed by sponsors and other organizations. Contests are held with cash prizes for excellent works, and sponsors and companies will fund creators while GENSO official sales will also generate income for them. Exceptional works will appear on PlayStation and Nintendo Switch. MV, the native token of GENSO, and it stands for Metaverse and is crucial for building the metaverse world. It is used as gas on the MV Chain and provides voting rights for metaverse policies, discounted prices for special equipment, rights for strengthening equipment, and purchasing exclusive items. MV Coin also has staking functions, allowing users to earn ROND Coin and receive special NFTs and rights within UGC (User-Generated Content) by staking a certain volume of MV. Additionally, it grants rights to participate in auctions for creating maps and monsters and purchasing availability for creating them. Post-release, MV will be used for transaction fees, various LAND activities, transactions, and in partnered games playable on GENSO, such as JongNavi Mahjong.',
+    clickUpId: '86a2kjt4r',
   },
   {
     index: 135,
@@ -13672,6 +13722,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'THX Network believes in the universal language of gratitude, best expressed through gaming. The THX quest and reward solution integrates into any platform in under 30 minutes, democratizing the digital gaming economy. Partnered with industry leaders like Gala Games, their vote-escrowed 80/20 tokenomics model, based on Balancer technology, allows users to lock 80% $THX and 20% USDC to earn ‘veTHX’. Holding ‘veTHX’ grants membership benefits, liquidity rewards, and weekly protocol fee shares. Completing quests earns points for bi-weekly lottery rewards. Supported by Techstars and a vibrant community, THX benefits from extensive industry connections and a robust advisory board.',
     shortDescription: `THX Network offers a quest and reward solution for growth leaders, integrating into any platform in under 30 minutes. Partnered with industry leaders like Gala Games, it features a vote-escrowed tokenomics model based on Balancer technology. Earn 'veTHX' by locking $THX, granting membership benefits and liquidity rewards.`,
     tags: ['Marketing Solutions'],
+    clickUpId: '86a2j5d33',
   },
   {
     index: 134,
@@ -13699,6 +13750,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     fullDescription:
       'NFTBooks helps to create a direct bridge between authors, readers, translators and investors with its publishing platform, where real books become NFTs! Whether it’s e-books, magazines, articles, literature or poetry, it’s all accessible, and most importantly, affordable, with NFTBooks.',
     tags: ['NFT'],
+    clickUpId: '863g5vbdy',
   },
   {
     index: 133,
@@ -13736,6 +13788,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
     ],
+    clickUpId: '',
   },
   {
     index: 132,
@@ -13762,6 +13815,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     fullDescription:
       'Veloce is an organization operating in gaming and racing. Their gaming outfit runs multiple pro-esports teams while establishing the largest racing media network—their racing teams compete in the Extreme E series as well as the W Series. At Veloce, they are innovators in gaming, racing, and technology.',
     tags: ['GAMEFI'],
+    clickUpId: '86a2ad29v',
   },
   {
     index: 131,
@@ -13792,6 +13846,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     fullDescription:
       'A51 Finance Yield Supercharger is a powerful new tool designed to enhance yield farming strategies by leveraging the latest advancements in Automated Liquidity Management (ALM). The Yield Supercharger specifically aims to maximize your yield potential while minimizing risks.',
     tags: ['V3 Liq. Manager'],
+    clickUpId: '86a29wf7d',
   },
   {
     index: 130,
@@ -13820,6 +13875,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'Planet IX is an evolving world with a marketplace, multiple corporations, unique gaming experiences, and utilities that help players resurrect and rebuild their planet. Connect your land to earn IXT and farm IXT without investing anything but time. Help rejuvenate the broken lands and build the Planet of Tomorrow.',
     fullDescription: `Planet IX is an evolutionary world with a marketplace, multiple corporations, unique gaming experiences, and utilities that aid players in their collective mission to resurrect and rebuild the planet they once called home. In Planet IX, you can connect your land to earn IXT. You’ll also be able to farm your way to IXT without investing anything other than your time. Connect your land, help rejuvenate the broken lands, and build the Planet of Tomorrow. Planet IX is at the forefront of a revolution in the virtual land strategy development space. It provides tools to decentralize and empower the gaming community while helping individuals use their passion and skill to play and build businesses. Blurring the lines between the digital and physical worlds, Planet IX and its players redefine the term reality again and again. IXT is the medium of exchange in the Planet IX ecosystem, serving as in-game currency, rewards, and conferring voting rights. IXT is the only ERC-20 token in the game's economy of assets and is the key to playing the game, trading, and purchasing assets.`,
     tags: ['GAMEFI', 'NFT'],
+    clickUpId: '86a25zwd3',
   },
   {
     index: 129,
@@ -13848,6 +13904,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'Planet IX is an evolving world with a marketplace, multiple corporations, unique gaming experiences, and utilities that help players resurrect and rebuild their planet. Connect your land to earn IXT and farm IXT without investing anything but time. Help rejuvenate the broken lands and build the Planet of Tomorrow.',
     fullDescription: `Planet IX is an evolutionary world with a marketplace, multiple corporations, unique gaming experiences, and utilities that aid players in their collective mission to resurrect and rebuild the planet they once called home. In Planet IX, you can connect your land to earn IXT. You’ll also be able to farm your way to IXT without investing anything other than your time. Connect your land, help rejuvenate the broken lands, and build the Planet of Tomorrow. Planet IX is at the forefront of a revolution in the virtual land strategy development space. It provides tools to decentralize and empower the gaming community while helping individuals use their passion and skill to play and build businesses. Blurring the lines between the digital and physical worlds, Planet IX and its players redefine the term reality again and again. IXT is the medium of exchange in the Planet IX ecosystem, serving as in-game currency, rewards, and conferring voting rights. IXT is the only ERC-20 token in the game's economy of assets and is the key to playing the game, trading, and purchasing assets.`,
     tags: ['GAMEFI', 'NFT'],
+    clickUpId: '86a25zwwh',
   },
   {
     index: 128,
@@ -13878,6 +13935,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'GENSO is the metaverse incarnation of “Elemental Knights Online,” which won the 2012 Game of the Year (Gold) in Taiwan. Utilizing blockchain technology, we aim to create a new economy within the virtual world. This MMORPG-based, fantasy-themed metaverse allows players to connect with others in our 3D world and engage in various activities by importing LAND, NFTs, or MV/ROND tokens. Powered by the MV token.<a href="https://x.com/genso_meta/status/1755246359165157634" target="_blank" rel="noopener noreferrer" style="color: #6560C5">ApeBond Shield</a>',
     fullDescription:
       'GENSO is the metaverse incarnation of “Elemental Knights Online,” which won the 2012 Game of the Year (Gold) in Taiwan. Utilizing blockchain technology, we aim to create a new economy within the virtual world. This MMORPG-based, fantasy-themed metaverse allows players to connect with others in our 3D world and engage in various activities by importing LAND, NFTs, or MV/ROND tokens. GENSO offers a support program for participants who create or develop in the GENSO Metaverse, backed by sponsors and other organizations. Contests are held with cash prizes for excellent works, and sponsors and companies will fund creators while GENSO official sales will also generate income for them. Exceptional works will appear on PlayStation and Nintendo Switch. MV, the native token of GENSO, and it stands for Metaverse and is crucial for building the metaverse world. It is used as gas on the MV Chain and provides voting rights for metaverse policies, discounted prices for special equipment, rights for strengthening equipment, and purchasing exclusive items. MV Coin also has staking functions, allowing users to earn ROND Coin and receive special NFTs and rights within UGC (User-Generated Content) by staking a certain volume of MV. Additionally, it grants rights to participate in auctions for creating maps and monsters and purchasing availability for creating them. Post-release, MV will be used for transaction fees, various LAND activities, transactions, and in partnered games playable on GENSO, such as JongNavi Mahjong.',
+    clickUpId: '86a1xqdqb',
   },
   {
     index: 127,
@@ -13904,6 +13962,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     fullDescription:
       'Bullieverse is your gateway to a limitless universe of Games and Social Experiences, where NFTs come alive. A Web3 native entertainment brand, Bullieverse also excels at Art & Lore, with rich storytelling, mesmerizing art, and vivid characters. It stands for a global community united by a shared passion for Web3, where users can connect with adventurers, artists, collectors, and enthusiasts worldwide.',
     tags: ['GAMEFI'],
+    clickUpId: '86a1zdk7y',
   },
   {
     index: 126,
@@ -13930,6 +13989,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     fullDescription:
       "3A is a Zero Interest Rate Lending Protocol for crypto and on-chain RWA safeguarded by Enterprise-Grade Security. They use EURO3's risk model, which stands out as one of the strongest in the space, providing unparalleled protection against DeFi's market volatility and liquidation risks. 3A provides Interest-free liquidity in less than 5 clicks. Fully decentralized and overcollateralized, 3A is a no-brainer.",
     tags: ['StableCoin'],
+    clickUpId: '86a1q4rb8',
   },
   {
     index: 125,
@@ -13957,6 +14017,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     fullDescription:
       'WeFi is a decentralized money market protocol for lending and borrowing digital assets, allowing users to earn interest on them and invest in a variety of assets with borrowed funds. It also allows them to unleash the power of leveraged investment vaults. Users can supply single sided liquidity to earn risk free yield and supercharge their DeFi strategies.',
     tags: ['Yield Aggregator'],
+    clickUpId: '86a1yuuhv',
   },
   {
     index: 124,
@@ -13985,6 +14046,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'Planet IX is an evolving world with a marketplace, multiple corporations, unique gaming experiences, and utilities that help players resurrect and rebuild their planet. Connect your land to earn IXT and farm IXT without investing anything but time. Help rejuvenate the broken lands and build the Planet of Tomorrow.',
     fullDescription: `Planet IX is an evolutionary world with a marketplace, multiple corporations, unique gaming experiences, and utilities that aid players in their collective mission to resurrect and rebuild the planet they once called home. In Planet IX, you can connect your land to earn IXT. You’ll also be able to farm your way to IXT without investing anything other than your time. Connect your land, help rejuvenate the broken lands, and build the Planet of Tomorrow. Planet IX is at the forefront of a revolution in the virtual land strategy development space. It provides tools to decentralize and empower the gaming community while helping individuals use their passion and skill to play and build businesses. Blurring the lines between the digital and physical worlds, Planet IX and its players redefine the term reality again and again. IXT is the medium of exchange in the Planet IX ecosystem, serving as in-game currency, rewards, and conferring voting rights. IXT is the only ERC-20 token in the game's economy of assets and is the key to playing the game, trading, and purchasing assets.`,
     tags: ['GAMEFI', 'NFT'],
+    clickUpId: '86a1zjge3',
   },
   {
     index: 123,
@@ -14014,6 +14076,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     fullDescription:
       'A51 Finance Yield Supercharger is a powerful new tool designed to enhance yield farming strategies by leveraging the latest advancements in Automated Liquidity Management (ALM). The Yield Supercharger specifically aims to maximize your yield potential while minimizing risks. The A51 team has meticulously curated a range of strategies using their ALM 2.0 mechanism. These strategies are designed to perform differently from existing ALM solutions (such as Gamma and Steer) by trailing asset price dynamically to market conditions, that reduces unnecessary rebalancing hence the Impermanent Loss. The strategies listed on A51 Yield Supercharger are optimized to offer the best possible yield while minimizing impermanent loss. This is achieved through our unique mode-switching capability, which trails the price movements and adjusts accordingly.',
     tags: ['DeFi'],
+    clickUpId: '86a0r781u',
   },
   {
     index: 122,
@@ -14040,6 +14103,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     shortDescription:
       'The MetaTrace application is a game incorporating a variety of game mechanics aimed at combining geolocation, blockchain environments, and classic game strategies.',
     tags: ['GAMEFI'],
+    clickUpId: '86a15yhhn',
   },
   {
     index: 121,
@@ -14068,6 +14132,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'Planet IX is an evolving world with a marketplace, multiple corporations, unique gaming experiences, and utilities that help players resurrect and rebuild their planet. Connect your land to earn IXT and farm IXT without investing anything but time. Help rejuvenate the broken lands and build the Planet of Tomorrow.',
     fullDescription: `Planet IX is an evolutionary world with a marketplace, multiple corporations, unique gaming experiences, and utilities that aid players in their collective mission to resurrect and rebuild the planet they once called home. In Planet IX, you can connect your land to earn IXT. You’ll also be able to farm your way to IXT without investing anything other than your time. Connect your land, help rejuvenate the broken lands, and build the Planet of Tomorrow. Planet IX is at the forefront of a revolution in the virtual land strategy development space. It provides tools to decentralize and empower the gaming community while helping individuals use their passion and skill to play and build businesses. Blurring the lines between the digital and physical worlds, Planet IX and its players redefine the term reality again and again. IXT is the medium of exchange in the Planet IX ecosystem, serving as in-game currency, rewards, and conferring voting rights. IXT is the only ERC-20 token in the game's economy of assets and is the key to playing the game, trading, and purchasing assets.`,
     tags: ['GAMEFI', 'NFT'],
+    clickUpId: '86a0uh2jm',
   },
   {
     index: 120,
@@ -14096,6 +14161,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'Planet IX is an evolving world with a marketplace, multiple corporations, unique gaming experiences, and utilities that help players resurrect and rebuild their planet. Connect your land to earn IXT and farm IXT without investing anything but time. Help rejuvenate the broken lands and build the Planet of Tomorrow.',
     fullDescription: `Planet IX is an evolutionary world with a marketplace, multiple corporations, unique gaming experiences, and utilities that aid players in their collective mission to resurrect and rebuild the planet they once called home. In Planet IX, you can connect your land to earn IXT. You’ll also be able to farm your way to IXT without investing anything other than your time. Connect your land, help rejuvenate the broken lands, and build the Planet of Tomorrow. Planet IX is at the forefront of a revolution in the virtual land strategy development space. It provides tools to decentralize and empower the gaming community while helping individuals use their passion and skill to play and build businesses. Blurring the lines between the digital and physical worlds, Planet IX and its players redefine the term reality again and again. IXT is the medium of exchange in the Planet IX ecosystem, serving as in-game currency, rewards, and conferring voting rights. IXT is the only ERC-20 token in the game's economy of assets and is the key to playing the game, trading, and purchasing assets.`,
     tags: ['GAMEFI', 'NFT'],
+    clickUpId: '86a0uh2jm',
   },
   {
     index: 119,
@@ -14122,6 +14188,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     fullDescription:
       'FireBot aims to maximize the potential of DeFi strategies, yield-generating protocols, and automated trading algorithms to offer tokenized investment vehicles for its users. They engineer and structure investment strategies available through smart-contracts deployed on the Polygon blockchain. Their objectives range from high yield to principal protection.',
     tags: ['AI'],
+    clickUpId: '86a0rtg1h',
   },
   {
     index: 118,
@@ -14149,6 +14216,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     shortDescription: `Orbs is a decentralized Layer-3 blockchain infrastructure enhancing on-chain trading with advanced tools like aggregated liquidity, advanced orders, and decentralized derivatives. Acting as a separate execution layer between L1/L2 and the application layer, Orbs powers protocols such as dLIMIT and dTWAP. Since 2017, Orbs has brought CeFi-level execution to DeFi trading, providing secure, scalable, and efficient solutions without centralized intermediaries.`,
     fullDescription: `Orbs is a decentralized Layer-3 (L3) blockchain infrastructure designed specifically for advanced on-chain trading. Since its inception in 2017, Orbs has pioneered on-chain innovation by enhancing the capabilities of both EVM and non-EVM smart contracts without moving liquidity onto a new chain. Positioned as a separate execution layer between L1/L2 solutions and the application layer, Orbs provides technology for aggregated liquidity, advanced trading orders, and decentralized derivatives, powering protocols such as dLIMIT, dTWAP, and Liquidity Hub. By creating a decentralized backend, Orbs delivers CeFi-level execution to DeFi trading, ensuring scalable, efficient, and secure trading solutions. Orbs' mission is to revolutionize on-chain trading by bringing CeFi-level pricing and execution capabilities to the DeFi ecosystem, transforming the landscape with advanced tools and platforms that eliminate the need for centralized intermediaries.`,
     tags: ['Infra'],
+    clickUpId: '862jcvfw8',
   },
   {
     index: 117,
@@ -14175,6 +14243,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     fullDescription:
       'Veloce is an organization operating in gaming and racing. Their gaming outfit runs multiple pro-esports teams while establishing the largest racing media network—their racing teams compete in the Extreme E series as well as the W Series. At Veloce, they are innovators in gaming, racing, and technology.',
     tags: ['GAMEFI'],
+    clickUpId: '86a0t9v5q',
   },
   {
     index: 116,
@@ -14201,6 +14270,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     fullDescription:
       'A scalable testing platform built to explore the power of Yellow Network and contribute to the advancement of Web3 technologies that uses real-world assets at a smaller scale. Their Yellow Clearing Network is powered by state channel technology to enable real-time cross-chain trading without the need for brokers to bridge assets.',
     tags: ['Infra'],
+    clickUpId: '86a10aeju',
   },
   {
     index: 115,
@@ -14227,6 +14297,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     fullDescription:
       'BitCone (CONE) is a Decentralized Community Utility Token made by Cones, for Cones. 608 Billion tokens were created on the Polygon Network (with no mint function) to parallel the 608 Cone Head - Reddit Collectible Avatar NFT, that inspired a meme Community.',
     tags: ['Meme', 'NFT'],
+    clickUpId: '3x6vyec',
   },
   {
     index: 114,
@@ -14256,6 +14327,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     fullDescription:
       'Forest Knight is a turn-based strategy game where players find themselves in an unknown land and need to build their team of heroes to fight against evil. Inspired by successful games such as Heroes Might and Magic and Clash Royale, the game combines the best of both worlds: a fun and exciting PVE RPG experience, PVP competitive and social gameplay modes and activities, as well as a decentralized item ecosystem through game items as NFTs and world-building powered with DeFi elements. Powered by KNIGHT and backed by Animoca Brands. Forest Knight is first and foremost a fun and exciting game that aims to use blockchain technology to enhance the player experience while capturing the attention of millions of gamers. By letting them do what they always do—have fun playing video games—it introduces them to the world of blockchain through gamification. Forest Knight is not just a name on an idea board like many other blockchain projects; the early access version is already available on the popular Google Play Store and is being played by thousands of players. After completing the bootstrap phase, the intent now is to fund and build the team, developing Forest Knight into a commercial success that introduces millions of players to blockchain.',
     tags: ['GAMEFI'],
+    clickUpId: '86a127kq8',
   },
   {
     index: 113,
@@ -14283,6 +14355,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     fullDescription:
       'Borderless Money is a decentralized finance protocol engineered to redefine how Social Investments are made, using yield-generating products and simultaneously contributing to social causes. An open and borderless digital society, where goods, services, technology, information, opportunities, and capital can flow seamlessly from one hand to many, in a fair and transparent manner.',
     tags: ['DeFi'],
+    clickUpId: '86a0atjcv',
   },
   {
     index: 112,
@@ -14309,6 +14382,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     fullDescription:
       'BlockWallet is a Web3 wallet focusing on privacy, security, and Self Custody. High Performance, Identity Protection, and Pure Reliability, BlockWallet are just a few of the amazing qualities to describe this Self-Custodial Web3 Crypto Wallet. Swap, Bridge, Buy Crypto, and more with BlockWallet.',
     tags: ['DeFi'],
+    clickUpId: '863g3q4f1',
   },
   {
     index: 111,
@@ -14332,6 +14406,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       collection: BillArtCollection.Quickswap_Collection1,
     },
     bondPartner: 'QuickSwap',
+    clickUpId: '2fykz85',
   },
   {
     index: 110,
@@ -14362,6 +14437,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'GENSO is the metaverse incarnation of “Elemental Knights Online,” which won the 2012 Game of the Year (Gold) in Taiwan. Utilizing blockchain technology, we aim to create a new economy within the virtual world. This MMORPG-based, fantasy-themed metaverse allows players to connect with others in our 3D world and engage in various activities by importing LAND, NFTs, or MV/ROND tokens. Powered by the MV token.',
     fullDescription:
       'GENSO is the metaverse incarnation of “Elemental Knights Online,” which won the 2012 Game of the Year (Gold) in Taiwan. Utilizing blockchain technology, we aim to create a new economy within the virtual world. This MMORPG-based, fantasy-themed metaverse allows players to connect with others in our 3D world and engage in various activities by importing LAND, NFTs, or MV/ROND tokens. GENSO offers a support program for participants who create or develop in the GENSO Metaverse, backed by sponsors and other organizations. Contests are held with cash prizes for excellent works, and sponsors and companies will fund creators while GENSO official sales will also generate income for them. Exceptional works will appear on PlayStation and Nintendo Switch. MV, the native token of GENSO, and it stands for Metaverse and is crucial for building the metaverse world. It is used as gas on the MV Chain and provides voting rights for metaverse policies, discounted prices for special equipment, rights for strengthening equipment, and purchasing exclusive items. MV Coin also has staking functions, allowing users to earn ROND Coin and receive special NFTs and rights within UGC (User-Generated Content) by staking a certain volume of MV. Additionally, it grants rights to participate in auctions for creating maps and monsters and purchasing availability for creating them. Post-release, MV will be used for transaction fees, various LAND activities, transactions, and in partnered games playable on GENSO, such as JongNavi Mahjong.',
+    clickUpId: '862j4d916',
   },
   {
     index: 109,
@@ -14382,6 +14458,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     audit: 'https://hacken.io/wp-content/uploads/2022/07/Wombat_20072022_SCAudit_Report_2.pdf',
     initTime: { [ChainId.MATIC]: 1684274400 },
     soldOut: true,
+    clickUpId: '863gmge3a',
   },
   {
     index: 108,
@@ -14403,6 +14480,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     initTime: { [ChainId.MATIC]: 1682590408 },
     soldOut: true,
     showcaseToken: tokens.cgg,
+    clickUpId: '332bcfn',
   },
   {
     index: 107,
@@ -14423,6 +14501,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     audit: 'https://docs.kommunitas.net/audit/shellboxes/security-audit-by-shellboxes',
     initTime: { [ChainId.MATIC]: 1682469864 },
     soldOut: true,
+    clickUpId: '26ph893',
   },
   {
     index: 106,
