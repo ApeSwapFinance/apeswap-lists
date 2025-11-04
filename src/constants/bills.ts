@@ -1,7 +1,7 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1187
+// BNB Largest ID: 1188
 // Polygon Largest ID: 188
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2034
@@ -3939,6 +3939,34 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1188,
+    cmcId: 37596,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0xC0E572abe2b5a3f526B9921230DfB2786cD93B9f',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.rice,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://riceai.floki.id/',
+    twitter: 'https://x.com/realRiceAI',
+    initTime: { [ChainId.BSC]: 1762247837 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription:
+      'RICE AI is a decentralized AI foundry transforming AGI robotics through a global data-sharing network. Any robot can join, contribute real-world data, and earn rewards via a DePIN protocol designed to overcome the industry’s data scarcity bottleneck. With multimodal AI powering smarter, adaptable robots, RICE AI enables open innovation for robotic intelligence, driven by the RICE token.',
+    fullDescription:
+      'RICE AI is a decentralized AI foundry dedicated to advancing AGI-powered robotics through an open and community-driven approach. Backed by leading innovators and programs within the blockchain and AI ecosystem, it enables any robot in the world to integrate into its network and contribute valuable real-world data. By building a DePIN protocol for robotics data sharing, RICE AI solves one of the biggest challenges in the industry: the data scarcity bottleneck that limits the development of truly intelligent autonomous machines. Its multimodal AI foundation models support language, vision, and navigation, allowing robots to learn, adapt, and evolve to human needs while operating in physical environments. RICE AI champions a future where robotics innovation is not controlled by a handful of corporations, but shaped collaboratively by global participants through a decentralized marketplace for AGI robotics development, powered by the RICE token.',
+  },
   {
     index: 1187,
     cmcId: 38127,
