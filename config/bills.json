@@ -23296,7 +23296,8 @@
     },
     "shortDescription": "Crypto Factor is an end-to-end platform that makes blockchain infrastructure radically accessible, enabling creators, DAOs, and businesses to deploy tokens, staking, liquidity tools, governance, and more with one click and no code required. Backed by cross-chain interoperability and fully decentralized execution, its ecosystem is powered by the CFR token.",
     "fullDescription": "Crypto Factor is an end-to-end platform designed to make blockchain infrastructure radically accessible, empowering creators, DAOs, Web2 businesses, and Web3 communities to deploy DeFi and digital ecosystem services without writing a single line of code. Through its Infrastructure as a Service (IaaS) model, the platform offers one-click deployment of programmable tools such as token creation, staking and rewards systems, liquidity management, presales, and governance frameworks, all backed by fully decentralized execution and cross-chain capabilities via its Interchain Mesh. By removing technical barriers and central gatekeepers, Crypto Factor enables anyone to move from idea to launch instantly, reliably, and permissionlessly while contributing to ecosystems like DeFiChain, Partisia, and Polygon. At the core of this innovation lies the CFR Token, powering access, incentives, and governance across its growing ecosystem.",
-    "tags": ["Infrastructure"]
+    "tags": ["Infrastructure"],
+    "clickUpId": "86abq3cby"
   },
   {
     "index": 187,
@@ -23349,7 +23350,8 @@
     },
     "shortDescription": "Film.io is a decentralized filmmaking ecosystem that puts Hollywood decision-making into the hands of creators and fans through blockchain technology. Governed by a filmmaking industry DAO, it champions inclusion, diversity, and transparency. With FAN and FILM Tokens, Film.io empowers collaboration to validate, fund, and distribute content, replacing centralized control with creative freedom.",
     "fullDescription": "Film.io is the world's most powerful decentralized filmmaking ecosystem, revolutionizing Hollywood by transferring decision-making to creators and fans through blockchain technology. Governed by the first-ever filmmaking industry DAO, Film.io champions inclusion, equality, and diversity in global entertainment. It empowers creators and fans to collaboratively validate, fund, and distribute content in a transparent, inclusive environment, replacing traditional centralized power structures. Utilizing a dual-token model, Film.io offers FAN Tokens for governance and platform participation, while FILM Tokens support crowdfunding, DeFi loans, and NFT campaigns. Together, these tokens fuel collaboration between creators, fans, and investors, liberating the entertainment industry and fostering a new era of creative freedom.",
-    "tags": ["Entertainment"]
+    "tags": ["Entertainment"],
+    "clickUpId": "86aawtghv"
   },
   {
     "index": 186,
@@ -23401,7 +23403,8 @@
     },
     "shortDescription": "Trakx is a global fintech redefining crypto investments with its Crypto Tradable Indices (CTIs), offering simple, one-click portfolio diversification through themed baskets of top digital assets. Registered with French AMF/ACPR as a VASP, Trakx ensures regulatory compliance. Powered by the TRKX token, users enjoy reduced fees, governance participation, and staking rewards, making crypto investing easy and accessible.",
     "fullDescription": "Trakx is a global fintech innovator revolutionizing crypto investments through its Crypto Tradable Indices (CTIs). These proprietary baskets of the largest and most liquid digital assets offer a seamless, one-click solution for diversifying portfolios in the fast-evolving crypto market. With low fees and themed, easy-to-understand investment options, Trakx simplifies complex strategies for all investors. Registered with French AMF/ACPR as a Virtual Asset Service Provider (VASP), Trakx adheres to the highest international regulatory standards. The TRKX token powers the ecosystem, reducing trading fees and unlocking exclusive benefits such as governance participation and staking rewards. Trakx makes advanced investing straightforward, setting a new benchmark in crypto index trading.",
-    "tags": ["DeFi"]
+    "tags": ["DeFi"],
+    "clickUpId": "86aawrf6e"
   },
   {
     "index": 185,
@@ -23456,7 +23459,8 @@
     },
     "shortDescription": "Galaxis is a Web3-powered platform to create dynamic membership card communities. Use $GALAXIS to unlock features, vote, access events, and build a sustainable community economy.",
     "fullDescription": "Galaxis empowers creators and communities with customizable, utility-packed membership cards enhanced by badges. From virtual meetings to physical rewards and gamification, Galaxis brings engagement to the next level. At the core of it all is $GALAXIS — the utility token that fuels community growth. Use it to access perks, vote, join events, or stake to boost your treasury and leaderboard rank. Whether you're Web3-native or not, Galaxis helps you build a sustainable and independent community economy.",
-    "tags": ["DeFi Tooling"]
+    "tags": ["DeFi Tooling"],
+    "clickUpId": "86a95q39p"
   },
   {
     "index": 184,
