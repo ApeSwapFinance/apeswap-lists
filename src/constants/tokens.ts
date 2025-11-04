@@ -4158,6 +4158,19 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
     },
   },
+  rice: {
+    symbol: 'RICE',
+    address: {
+      [ChainId.BSC]: '0xb5761f36FdFE2892f1b54Bc8EE8baBb2a1b698D3',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+    },
+  },
   link: {
     symbol: 'LINK',
     address: {

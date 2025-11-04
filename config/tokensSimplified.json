@@ -1546,6 +1546,19 @@
       "59144": "Metavault"
     }
   },
+  "rice": {
+    "symbol": "RICE",
+    "address": {
+      "56": "0xb5761f36FdFE2892f1b54Bc8EE8baBb2a1b698D3"
+    },
+    "decimals": {
+      "56": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "56": "PancakeSwapV3"
+    }
+  },
   "ake": {
     "symbol": "AKE",
     "address": {
