@@ -14440,7 +14440,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
       'GENSO is the metaverse incarnation of “Elemental Knights Online,” which won the 2012 Game of the Year (Gold) in Taiwan. Utilizing blockchain technology, we aim to create a new economy within the virtual world. This MMORPG-based, fantasy-themed metaverse allows players to connect with others in our 3D world and engage in various activities by importing LAND, NFTs, or MV/ROND tokens. Powered by the MV token.',
     fullDescription:
       'GENSO is the metaverse incarnation of “Elemental Knights Online,” which won the 2012 Game of the Year (Gold) in Taiwan. Utilizing blockchain technology, we aim to create a new economy within the virtual world. This MMORPG-based, fantasy-themed metaverse allows players to connect with others in our 3D world and engage in various activities by importing LAND, NFTs, or MV/ROND tokens. GENSO offers a support program for participants who create or develop in the GENSO Metaverse, backed by sponsors and other organizations. Contests are held with cash prizes for excellent works, and sponsors and companies will fund creators while GENSO official sales will also generate income for them. Exceptional works will appear on PlayStation and Nintendo Switch. MV, the native token of GENSO, and it stands for Metaverse and is crucial for building the metaverse world. It is used as gas on the MV Chain and provides voting rights for metaverse policies, discounted prices for special equipment, rights for strengthening equipment, and purchasing exclusive items. MV Coin also has staking functions, allowing users to earn ROND Coin and receive special NFTs and rights within UGC (User-Generated Content) by staking a certain volume of MV. Additionally, it grants rights to participate in auctions for creating maps and monsters and purchasing availability for creating them. Post-release, MV will be used for transaction fees, various LAND activities, transactions, and in partnered games playable on GENSO, such as JongNavi Mahjong.',
-    clickUpId: '862j4d916',
+    clickUpId: '', // 862j4d916
   },
   {
     index: 109,
@@ -14504,7 +14504,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     audit: 'https://docs.kommunitas.net/audit/shellboxes/security-audit-by-shellboxes',
     initTime: { [ChainId.MATIC]: 1682469864 },
     soldOut: true,
-    clickUpId: '26ph893',
+    clickUpId: '', // 26ph893
   },
   {
     index: 106,
