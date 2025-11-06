@@ -33294,6 +33294,7 @@
       "1": 1761305954
     },
     "soldOut": false,
+    "hide": true,
     "billArt": {
       "collection": "ETH_Collection1"
     },

@@ -17073,6 +17073,7 @@ With the lending products set to go live in February, the project is poised to a
     twitter: 'https://x.com/litas_io',
     initTime: { [ChainId.MAINNET]: 1761305954 },
     soldOut: false,
+    hide: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
