@@ -383,6 +383,7 @@ export interface BaseBondConfig {
   vestingTerm?: number
   bondPartner?: string
   onlyPartner?: boolean
+  clickUpId?: string
 }
 
 export interface PreTGEConfig extends BaseBondConfig {
