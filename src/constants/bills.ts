@@ -4196,7 +4196,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.BSC]: 1761748036 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
