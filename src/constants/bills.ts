@@ -17697,7 +17697,7 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://www.masqbrowser.com/',
     twitter: 'https://x.com/MASQ_ai',
     initTime: { [ChainId.MAINNET]: 1761064049 },
-    soldOut: false,
+    soldOut: true,
     hide: false,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
