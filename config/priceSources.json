@@ -216,6 +216,16 @@
       "tokenAddress": "0x9Fe4860bd6C9E78C6d998aE88173f347A253C2de"
     }
   },
+  "143": {
+    "0x3bd359C1119dA7Da1D913D1C4D2B7c461115433A": {
+      "name": "Wrapped MON",
+      "symbol": "WMON",
+      "decimals": 18,
+      "source": "fixed",
+      "price": 1,
+      "tokenAddress": "0x3bd359C1119dA7Da1D913D1C4D2B7c461115433A"
+    }
+  },
   "146": {
     "0x08C5e3B7533Ee819A4d1F66e839D0E8F04ae3D0C": {
       "name": "scUSD-RZR",
