@@ -391,12 +391,15 @@ const tokens: Record<string, Token> = {
     symbol: 'WMON',
     address: {
       [ChainId.MONAD_TESTNET]: '0x760AfE86e5de5fa0Ee542fc7B7B713e1c5425701',
+      [ChainId.MONAD]: '0x3bd359C1119dA7Da1D913D1C4D2B7c461115433A',
     },
     decimals: {
       [ChainId.MONAD_TESTNET]: 18,
+      [ChainId.MONAD]: 18,
     },
     liquidityDex: {
       [ChainId.MONAD_TESTNET]: LiquidityDex.PancakeSwapV2,
+      [ChainId.MONAD]: LiquidityDex.External,
     },
     active: true,
     getLpUrl: {

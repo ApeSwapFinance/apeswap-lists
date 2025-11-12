@@ -47,6 +47,7 @@ export enum ChainId {
   UNICHAIN = 130,
   MEGAETH_TESTNET = 6342,
   SEI = 1329,
+  MONAD = 143,
 }
 
 export enum LiquidityDex {

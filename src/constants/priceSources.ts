@@ -768,6 +768,16 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       tokenAddress: '0xe15fC38F6D8c56aF07bbCBe3BAf5708A2Bf42392',
     },
   },
+  [ChainId.MONAD]: {
+    '0x3bd359C1119dA7Da1D913D1C4D2B7c461115433A': {
+      name: 'Wrapped MON',
+      symbol: 'WMON',
+      decimals: 18,
+      source: PriceSource.Fixed,
+      price: 1, // TODO: remove this once we have a real price source
+      tokenAddress: '0x3bd359C1119dA7Da1D913D1C4D2B7c461115433A',
+    },
+  },
 }
 
 export default priceSources
