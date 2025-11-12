@@ -1,7 +1,7 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1189
+// BNB Largest ID: 1190
 // Polygon Largest ID: 188
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2034
@@ -4059,6 +4059,35 @@ const bills: BillsConfig[] = [
   // BNB chain
   //
   {
+    index: 1190,
+    version: '2.1.1',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x129943b905517e911D1f5EFFc16a38DFE2394fFC',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.lern,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://www.lern360.ai/',
+    twitter: 'https://x.com/lern360',
+    initTime: { [ChainId.BSC]: 1761146141 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Education'],
+    shortDescription:
+      'LERN360 is a decentralized e-learning platform powered by blockchain and AI, designed to make education accessible, transparent, and borderless. It offers verified credentials, smart contracts, and tokenized incentives to ensure quality and fairness. The LERN token fuels this ecosystem, enabling access, rewards, and governance within a sustainable, learner-driven network.',
+    fullDescription:
+      'LERN360 is a decentralized e-learning platform redefining global education through blockchain and AI. Built to eliminate the barriers of cost, geography, and institutional control, it provides accessible, transparent, and high-quality learning experiences for all. By leveraging smart contracts and tokenized incentives, LERN360 ensures fairness, authenticity, and efficiency across every educational interaction. The platform empowers both learners and educators through verified credentials, decentralized content ownership, and adaptive AI learning systems that personalize each journey. Designed for scalability and inclusivity, LERN360 stands as a global education ecosystem where knowledge meets innovation. The LERN token powers this ecosystem, driving access, rewards, and governance while sustaining the platform’s decentralized infrastructure.',
+    warningCard: `This token is currently only tradable on <a href="https://www.coinstore.com/spot/LERNUSDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">Coinstore</a>.`,
+    clickUpId: '86acnbe3y',
+  },
+  {
     index: 1189,
     cmcId: 29157,
     version: '2.1.0',
@@ -4329,7 +4358,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.lern360.ai/',
     twitter: 'https://x.com/lern360',
     initTime: { [ChainId.BSC]: 1761146141 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
