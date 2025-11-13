@@ -777,6 +777,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       price: 1, // TODO: remove this once we have a real price source
       tokenAddress: '0x3bd359C1119dA7Da1D913D1C4D2B7c461115433A',
     },
+    '0x754704Bc059F8C67012fEd69BC8A327a5aafb603': {
+      name: 'USDC',
+      symbol: 'USDC',
+      decimals: 6,
+      source: PriceSource.Fixed,
+      price: 1, // TODO: remove this once we have a real price source
+      tokenAddress: '0x754704Bc059F8C67012fEd69BC8A327a5aafb603',
+    },
   },
 }
 

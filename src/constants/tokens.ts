@@ -1958,6 +1958,7 @@ const tokens: Record<string, Token> = {
       [ChainId.UNICHAIN]: '0x078D782b760474a361dDA0AF3839290b0EF57AD6',
       [ChainId.AVAX]: '0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e',
       [ChainId.SEI]: '0xe15fC38F6D8c56aF07bbCBe3BAf5708A2Bf42392',
+      [ChainId.MONAD]: '0x754704Bc059F8C67012fEd69BC8A327a5aafb603',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -1979,6 +1980,7 @@ const tokens: Record<string, Token> = {
       [ChainId.UNICHAIN]: 6,
       [ChainId.AVAX]: 6,
       [ChainId.SEI]: 6,
+      [ChainId.MONAD]: 6,
     },
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
@@ -1999,6 +2001,7 @@ const tokens: Record<string, Token> = {
       [ChainId.UNICHAIN]: LiquidityDex.External,
       [ChainId.AVAX]: LiquidityDex.External,
       [ChainId.SEI]: LiquidityDex.External,
+      [ChainId.MONAD]: LiquidityDex.External,
     },
     active: true,
   },
