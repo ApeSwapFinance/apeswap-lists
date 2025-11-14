@@ -1744,6 +1744,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/MusicProtocolX',
     initTime: { [ChainId.BASE]: 1754563497 },
     soldOut: false,
+    hide: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
