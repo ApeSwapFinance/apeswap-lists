@@ -270,6 +270,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       price: 0.0021,
       tokenAddress: '0x672BB71A1A51e754FA2dd78629b05D371daC3184',
     },
+    '0xd88e4a97b9defbf2c8491ea0e48fcc7e043c775a': {
+      name: 'Blink Galaxy',
+      symbol: 'BG',
+      decimals: 18,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '0xd88e4a97b9defbf2c8491ea0e48fcc7e043c775a',
+    },
   },
   [ChainId.LINEA]: {
     '0xcc22F6AA610D1b2a0e89EF228079cB3e1831b1D1': {
