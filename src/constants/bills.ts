@@ -1661,6 +1661,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/aiquantfun',
     initTime: { [ChainId.BASE]: 1758876492 },
     soldOut: false,
+    hide: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
