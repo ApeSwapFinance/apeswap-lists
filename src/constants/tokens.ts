@@ -1900,6 +1900,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  bg: {
+    symbol: 'BG',
+    address: {
+      [ChainId.BASE]: '0xd88e4a97b9defbf2c8491ea0e48fcc7e043c775a',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.External,
+    },
+    active: true,
+  },
   cake: {
     symbol: 'CAKE',
     address: {
