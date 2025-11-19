@@ -5,7 +5,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Polygon Largest ID: 188
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2034
-// ETH Largest ID: 3063
+// ETH Largest ID: 3064
 // Linea Largest ID: 6020
 // Base Largest ID: 8062
 // Lightlink Largest ID: 7003
@@ -17830,6 +17830,34 @@ With the lending products set to go live in February, the project is poised to a
     fullDescription:
       'The MASQ software suite delivers a groundbreaking private web3 browsing experience powered by a peer-to-peer mesh network, enabling users to bypass censorship, geo-blocks, and centralized tracking. With its privacy-first Chromium-based interface, MASQ combines intuitive usability with powerful tools such as ENS and IPFS resolution, a curated web3 App Store, and seamless integration with Metamask and Frame extensions. Users can access dApps, crypto platforms, and metaverse services while supporting the network by sharing bandwidth, earning rewards in return. As the decentralized mesh-VPN expands, the network grows stronger, creating a borderless, censorship-resistant internet layer. MASQ also pioneers features like wallet-to-wallet encrypted messaging and decentralized storage integration, reinforcing its role as a foundation for web3 natives. Central to this ecosystem is the MASQ utility token, used as a means of enabling and incentivising functionalities in the MASQ ecosystem.',
     clickUpId: '86abfbqt2',
+  },
+  {
+    index: 3064,
+    cmcId: 22089,
+    version: '2.1.0',
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0x04EFD1F55cADd70e709A9B2B578fd94C73F548fB',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.ado,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    projectLink: 'https://www.adoprotocol.com/',
+    twitter: 'https://x.com/adoprotocol',
+    initTime: { [ChainId.MAINNET]: 1763538593 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['DeFi'],
+    shortDescription:
+      'ADO Protocol is a next-gen DEX offering ultra-low fees and built-in MEV protection without custody or keys. Trades are up to 5x cheaper than Uniswap, and elastic liquidity delivers 30–50% APY by shifting between ETH and USDC. The ADO token powers the ecosystem, with 25% of all platform revenue allocated to buybacks. Buy ADO, join the community, and say goodbye to sky-high fees and MEV bot attacks.',
+    fullDescription: `ADO Protocol is a next-gen DEX designed to crush high fees and eliminate MEV bot attacks for good. With trading costs up to 5x cheaper than Uniswap for regular trades and powerful MEV protection for private trades, users save big while staying secure. Traders benefit from fewer fees, more tokens per swap, and built-in bot defense with no custody or keys required. Projects can supercharge liquidity in Uniswap V2 pools while earning 100% of DEX fees on Uniswap V3. Thanks to elastic liquidity, all capital in the DEX earns 30–50% APY by dynamically shifting between ETH and USDC based on market conditions. Add seamless no-code website integration, fiat on-ramps, and a whale-only group for ADO holders, and you've got a full-featured DeFi powerhouse with 25% of all platform revenue going towards ADO buybacks. Buy ADO, join the community, and say goodbye to sky-high fees and MEV bot attacks.`,
+    clickUpId: '86adbrrq0',
   },
 ]
 
