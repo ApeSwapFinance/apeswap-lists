@@ -17788,7 +17788,7 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://www.squirrelwallet.com/',
     twitter: 'https://x.com/squirrel_wallet',
     initTime: { [ChainId.MAINNET]: 1761659230 },
-    soldOut: false,
+    soldOut: true,
     hide: false,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
