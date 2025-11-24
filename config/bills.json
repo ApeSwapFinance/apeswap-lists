@@ -34224,7 +34224,8 @@
     "tags": ["DeFi"],
     "shortDescription": "MASQ delivers a private web3 browsing experience through a peer-to-peer mesh network, enabling users to bypass censorship, access dApps, and enjoy borderless internet freedom. Its Chromium-based browser integrates ENS, IPFS, and web3 tools while rewarding users for sharing bandwidth. At the heart of this decentralized ecosystem is the MASQ utility token, used as a means of enabling and incentivising functionalities in the MASQ ecosystem.",
     "fullDescription": "The MASQ software suite delivers a groundbreaking private web3 browsing experience powered by a peer-to-peer mesh network, enabling users to bypass censorship, geo-blocks, and centralized tracking. With its privacy-first Chromium-based interface, MASQ combines intuitive usability with powerful tools such as ENS and IPFS resolution, a curated web3 App Store, and seamless integration with Metamask and Frame extensions. Users can access dApps, crypto platforms, and metaverse services while supporting the network by sharing bandwidth, earning rewards in return. As the decentralized mesh-VPN expands, the network grows stronger, creating a borderless, censorship-resistant internet layer. MASQ also pioneers features like wallet-to-wallet encrypted messaging and decentralized storage integration, reinforcing its role as a foundation for web3 natives. Central to this ecosystem is the MASQ utility token, used as a means of enabling and incentivising functionalities in the MASQ ecosystem.",
-    "clickUpId": "86abfbqt2"
+    "clickUpId": "86abfbqt2",
+    "warningCard": "A minimum 3% slippage is required to complete this Bond purchase."
   },
   {
     "index": 3064,
@@ -34278,5 +34279,59 @@
     "shortDescription": "ADO Protocol is a next-gen DEX offering ultra-low fees and built-in MEV protection without custody or keys. Trades are up to 5x cheaper than Uniswap, and elastic liquidity delivers 30–50% APY by shifting between ETH and USDC. The ADO token powers the ecosystem, with 25% of all platform revenue allocated to buybacks. Buy ADO, join the community, and say goodbye to sky-high fees and MEV bot attacks.",
     "fullDescription": "ADO Protocol is a next-gen DEX designed to crush high fees and eliminate MEV bot attacks for good. With trading costs up to 5x cheaper than Uniswap for regular trades and powerful MEV protection for private trades, users save big while staying secure. Traders benefit from fewer fees, more tokens per swap, and built-in bot defense with no custody or keys required. Projects can supercharge liquidity in Uniswap V2 pools while earning 100% of DEX fees on Uniswap V3. Thanks to elastic liquidity, all capital in the DEX earns 30–50% APY by dynamically shifting between ETH and USDC based on market conditions. Add seamless no-code website integration, fiat on-ramps, and a whale-only group for ADO holders, and you've got a full-featured DeFi powerhouse with 25% of all platform revenue going towards ADO buybacks. Buy ADO, join the community, and say goodbye to sky-high fees and MEV bot attacks.",
     "clickUpId": "86adbrrq0"
+  },
+  {
+    "index": 3065,
+    "version": "2.1.1",
+    "chainId": 1,
+    "contractAddress": {
+      "1": "0x6a143FBE9Cf9ac999F5d0Ea39319e27FF9C8bf95"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+      },
+      "decimals": {
+        "1": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "LITAS",
+      "address": {
+        "1": "0xfa63503f9e61fd59cbea137c122fa55c2daff14a"
+      },
+      "decimals": {
+        "1": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "1": "External"
+      }
+    },
+    "billNnftAddress": {
+      "1": "0x499b654b0A7f9979CC315190C09cA2633809B8dF"
+    },
+    "projectLink": "https://litas.io/",
+    "twitter": "https://x.com/litas_io",
+    "initTime": {
+      "1": 1764002980
+    },
+    "soldOut": false,
+    "hide": false,
+    "billArt": {
+      "collection": "ETH_Collection1"
+    },
+    "tags": ["RWA"],
+    "shortDescription": "Litas connects crypto investors with real-world SME loans, letting users invest digital assets and earn monthly returns as loans are repaid. Regulated in Lithuania and aligning with upcoming EU standards, it offers a compliant DeFi-RWA bridge. The LITAS token gives holders a share of loan repayments, backed by real cash flows. Buy a Bond valued at $50+ in LITAS tokens and join an exciting raffle hosted by the Litas team.",
+    "fullDescription": "Litas is a regulated platform connecting crypto investors with real-world small and medium enterprise loans, enabling users to invest their digital assets into tokenized RWA loan products. Companies receive funding in euros, while investors earn monthly returns as these loans are repaid. Operating under Lithuania’s regulatory framework and preparing for broader compliance with upcoming EU MiCA and ECSP licensing, Litas ensures a secure, transparent, and compliant bridge between decentralized finance and the traditional economy. The platform offers reliable capital to businesses while maintaining strict financial oversight. The LITAS token grants holders a proportional share of SME loan repayments, providing intrinsic value backed by expected cash flows. Buy a Bond valued at $50+ in LITAS tokens and join an exciting raffle hosted by the Litas team.",
+    "warningCard": "This token is currently only tradable on the following CEXs: <a href=\"https://www.mexc.com/exchange/LITAS_USDT\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #6099c5\">MEXC</a> and <a href=\"https://www.bifinance.com/trade?symbol=LITAS/USDT\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #6099c5\">Bifinance</a>.",
+    "clickUpId": "86aazcr20"
   }
 ]
