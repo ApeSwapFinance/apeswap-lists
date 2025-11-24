@@ -582,6 +582,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       type: 'token',
       tokenAddress: '7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs',
     },
+    '7ZCm8WBN9aLa3o47SoYctU6iLdj7wkGG5SV2hE5CgtD5': {
+      name: 'Dogelon (Wormhole)',
+      symbol: 'ELON',
+      decimals: 4,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '7ZCm8WBN9aLa3o47SoYctU6iLdj7wkGG5SV2hE5CgtD5',
+    },
   },
   [ChainId.BERACHAIN]: {
     '0x28e0e3B9817012b356119dF9e217c25932D609c2': {
