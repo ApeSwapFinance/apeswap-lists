@@ -702,6 +702,14 @@
       "source": "dexscreener",
       "type": "token",
       "tokenAddress": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs"
+    },
+    "7ZCm8WBN9aLa3o47SoYctU6iLdj7wkGG5SV2hE5CgtD5": {
+      "name": "Dogelon (Wormhole)",
+      "symbol": "ELON",
+      "decimals": 4,
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "7ZCm8WBN9aLa3o47SoYctU6iLdj7wkGG5SV2hE5CgtD5"
     }
   }
 }

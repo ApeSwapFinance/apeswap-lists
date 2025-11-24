@@ -2571,12 +2571,15 @@ const tokens: Record<string, Token> = {
     symbol: 'ELON',
     address: {
       [ChainId.MATIC]: '0xE0339c80fFDE91F3e20494Df88d4206D86024cdF',
+      [ChainId.SOL]: '7ZCm8WBN9aLa3o47SoYctU6iLdj7wkGG5SV2hE5CgtD5',
     },
     decimals: {
       [ChainId.MATIC]: 18,
+      [ChainId.SOL]: 4,
     },
     liquidityDex: {
       [ChainId.MATIC]: LiquidityDex.Algebra,
+      [ChainId.SOL]: LiquidityDex.External,
     },
     active: true,
   },
