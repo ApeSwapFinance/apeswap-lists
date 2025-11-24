@@ -286,6 +286,22 @@
       "7565164": "External"
     }
   },
+  "elon": {
+    "symbol": "ELON",
+    "address": {
+      "137": "0xE0339c80fFDE91F3e20494Df88d4206D86024cdF",
+      "7565164": "7ZCm8WBN9aLa3o47SoYctU6iLdj7wkGG5SV2hE5CgtD5"
+    },
+    "decimals": {
+      "137": 18,
+      "7565164": 4
+    },
+    "active": true,
+    "liquidityDex": {
+      "137": "Algebra",
+      "7565164": "External"
+    }
+  },
   "trax": {
     "symbol": "TRAX",
     "address": {
@@ -4811,19 +4827,6 @@
     "active": true,
     "liquidityDex": {
       "137": "QuickswapV2"
-    }
-  },
-  "elon": {
-    "symbol": "ELON",
-    "address": {
-      "137": "0xE0339c80fFDE91F3e20494Df88d4206D86024cdF"
-    },
-    "decimals": {
-      "137": 18
-    },
-    "active": true,
-    "liquidityDex": {
-      "137": "Algebra"
     }
   },
   "wombatUsdc": {
