@@ -1154,6 +1154,58 @@
     "clickUpId": "86ack2xbe"
   },
   {
+    "index": 18018,
+    "version": "2.2.0",
+    "chainId": 7565164,
+    "contractAddress": {
+      "7565164": "FccgMoz1phcgBbDyTeDw1s7jg1JZYkpPx4ZhmygQxmJu"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "7565164": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+      },
+      "decimals": {
+        "7565164": 6
+      },
+      "liquidityDex": {
+        "7565164": "External"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "ELON",
+      "address": {
+        "7565164": "7ZCm8WBN9aLa3o47SoYctU6iLdj7wkGG5SV2hE5CgtD5"
+      },
+      "decimals": {
+        "7565164": 4
+      },
+      "liquidityDex": {
+        "7565164": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "7565164": "3Gt5xxnb5T2soUepPZsGysqUeXreMjQwhAUAqqkiXbjC"
+    },
+    "projectLink": "https://dogelonmars.com/",
+    "twitter": "https://x.com/dogelonmars",
+    "initTime": {
+      "7565164": 1763987191
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "Solana_Collection1"
+    },
+    "fullDescription": "Dogelon Mars is a community-driven memecoin inspired by space exploration and the vision of humanity becoming a multi-planetary civilization. The project positions itself as a lighthearted yet aspirational movement built around storytelling, community engagement, and charitable initiatives that reflect a spirit of progress and unity. Its narrative imagines a bold future where society journeys to Mars and beyond, encouraging holders to view themselves as pioneers contributing to a shared mission of exploration and innovation. With a passionate global community and an expanding presence across social platforms, Dogelon Mars embraces creativity and collective effort as key drivers of growth. The ecosystem revolves around the ELON token, which serves as the project’s native currency, used for community activities, ecosystem utility, and participation in initiatives that help strengthen and expand the Dogelon Mars universe.",
+    "shortDescription": "Dogelon Mars is a community-driven memecoin inspired by space exploration and the dream of reaching Mars. The project blends storytelling, humor, and community engagement to create an enthusiastic movement. Its mission centers on growth through shared vision rather than financial promises. The ELON token serves as the core of the ecosystem, enabling participation in community initiatives and future utility.",
+    "tags": ["Community", "Meme"],
+    "clickUpId": "86addquqh"
+  },
+  {
     "index": 16000,
     "version": "2.1.0",
     "chainId": 80094,

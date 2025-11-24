@@ -19,7 +19,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Sonic Largest ID: 15007
 // Berachain Largest ID: 16005
 // Katana Largest ID: 17000
-// SOL Largest ID: 18017
+// SOL Largest ID: 18018
 // UNICHAIN Largest ID: 19001
 // AVAX Largest ID: 20001
 
@@ -635,7 +635,32 @@ const bills: BillsConfig[] = [
     tags: ['Infra'],
     clickUpId: '86ack2xbe',
   },
-
+  {
+    index: 18018,
+    version: '2.2.0',
+    chainId: ChainId.SOL,
+    contractAddress: {
+      [ChainId.SOL]: 'FccgMoz1phcgBbDyTeDw1s7jg1JZYkpPx4ZhmygQxmJu',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.elon,
+    billNnftAddress: {
+      [ChainId.SOL]: '3Gt5xxnb5T2soUepPZsGysqUeXreMjQwhAUAqqkiXbjC',
+    },
+    projectLink: 'https://dogelonmars.com/',
+    twitter: 'https://x.com/dogelonmars',
+    initTime: { [ChainId.SOL]: 1763987191 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Solana_Collection1,
+    },
+    fullDescription: `Dogelon Mars is a community-driven memecoin inspired by space exploration and the vision of humanity becoming a multi-planetary civilization. The project positions itself as a lighthearted yet aspirational movement built around storytelling, community engagement, and charitable initiatives that reflect a spirit of progress and unity. Its narrative imagines a bold future where society journeys to Mars and beyond, encouraging holders to view themselves as pioneers contributing to a shared mission of exploration and innovation. With a passionate global community and an expanding presence across social platforms, Dogelon Mars embraces creativity and collective effort as key drivers of growth. The ecosystem revolves around the ELON token, which serves as the project’s native currency, used for community activities, ecosystem utility, and participation in initiatives that help strengthen and expand the Dogelon Mars universe.`,
+    shortDescription: `Dogelon Mars is a community-driven memecoin inspired by space exploration and the dream of reaching Mars. The project blends storytelling, humor, and community engagement to create an enthusiastic movement. Its mission centers on growth through shared vision rather than financial promises. The ELON token serves as the core of the ecosystem, enabling participation in community initiatives and future utility.`,
+    tags: ['Community', 'Meme'],
+    clickUpId: '86addquqh',
+  },
   //
   // Berachain
   //
