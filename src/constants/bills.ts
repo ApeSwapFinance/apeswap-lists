@@ -17944,7 +17944,7 @@ With the lending products set to go live in February, the project is poised to a
     fullDescription:
       'HOME3 is revolutionizing real estate by merging AI and blockchain to solve real-world problems with real-world assets, making property investment accessible to all. Traditional real estate is burdened with high price tags and complex processes, leaving it exclusive to a select few. HOME3 breaks these barriers by building a complete platform where users can search, buy, invest, and finance real estate seamlessly on-chain. Backed by a diverse team of experts in property, lending, technology, and marketing, HOME3’s vision is to create a global marketplace that is inclusive, affordable, and transparent. By combining tokenization, AI-driven insights, and decentralized finance, the platform opens new opportunities for investors to earn from rental yields, REIT dividends, and property appreciation. At the core of this ecosystem is the HTS token, powering equity investments and real estate-backed loans on the upcoming PROP3 and LOAN3 platforms.',
     warningCard: 'Fee Notice: Buying and selling HTS tokens incurs a 5% sell fee.',
-    clickUpId: '86abk5da6',
+    clickUpId: '86adezqjb',
   },
 ]
 
