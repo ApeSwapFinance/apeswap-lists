@@ -4170,7 +4170,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://riceai.floki.id/',
     twitter: 'https://x.com/realRiceAI',
     initTime: { [ChainId.BSC]: 1762247837 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
