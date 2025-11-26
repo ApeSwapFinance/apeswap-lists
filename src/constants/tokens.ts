@@ -20,6 +20,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  camTest: {
+    symbol: 'CAMTEST',
+    address: {
+      [ChainId.BSC]: '0x3766D84e043d4672e788f0AeB17511Ac7A84a5Eb',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.External,
+    },
+    active: true,
+  },
   lern: {
     symbol: 'LERN',
     address: {
