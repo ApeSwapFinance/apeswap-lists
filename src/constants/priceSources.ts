@@ -186,6 +186,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       id: 'astra-nova',
       tokenAddress: '0x80563Fc2dd549bf36f82d3bF3b970Bb5b08dBDdb',
     },
+    '0x3766D84e043d4672e788f0AeB17511Ac7A84a5Eb': {
+      name: 'CAM Integration Test Token',
+      symbol: 'CAMTEST',
+      decimals: 18,
+      source: PriceSource.Coingecko,
+      id: 'camino-network',
+      tokenAddress: '0x3766D84e043d4672e788f0AeB17511Ac7A84a5Eb',
+    },
   },
   [ChainId.MATIC]: {
     '0x61bf130d973d59c69d3227f1668d534d83119860': {
