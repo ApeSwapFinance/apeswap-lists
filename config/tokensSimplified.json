@@ -1562,6 +1562,19 @@
       "59144": "Metavault"
     }
   },
+  "camTest": {
+    "symbol": "CAMTEST",
+    "address": {
+      "56": "0x3766D84e043d4672e788f0AeB17511Ac7A84a5Eb"
+    },
+    "decimals": {
+      "56": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "56": "External"
+    }
+  },
   "lern": {
     "symbol": "LERN",
     "address": {
