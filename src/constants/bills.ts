@@ -4114,6 +4114,37 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  // THIS CAMTEST BOND IS A DUMMY BOND THAT WON'T GO TO PRODUCTION, ONLY STAGING.
+  {
+    index: 1191,
+    version: '2.1.1',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x5810979feA5D6e6cA0061d0932c9C23793f70102',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.camTest,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'hhttps://camino.network/',
+    twitter: 'https://x.com/camino_network',
+    initTime: { [ChainId.BSC]: 1764253955 },
+    soldOut: false,
+    hide: true,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Blockchains'],
+    shortDescription:
+      'Camino is a decentralized network powered by the CAM token, driving growth in the global travel industry by utilizing web3 infrastructure. It offers businesses a secure and efficient ecosystem to connect, trade, and innovate.',
+    fullDescription:
+      'Camino Network is a decentralized layer-one blockchain designed specifically for the global travel industry, providing a secure, scalable, and transparent Web3 infrastructure that empowers businesses to innovate and transform traditional models. Built as an open-source, public, and permissioned network, Camino enables travel companies to seamlessly connect, trade, and collaborate while creating next-generation tourism products that enhance experiences for travelers and partners. Operated by a consortium of validators jointly securing and maintaining the chain, it supports high-volume searches and fast B2B transactions, facilitating on-chain representation and payment of touristic assets. Fully EVM-compatible, it allows easy deployment or migration of dApps and integration with broader Web3 ecosystems. At the core of this network is the CAM token, used to streamline operations, enable decentralized services, and power payments across the travel economy, acting as the backbone of a more efficient, connected future.',
+    warningCard: `This is a dummy token used only for testing purposes and won't be tradable anywhere.`,
+    clickUpId: '',
+  },
   {
     index: 1190,
     version: '2.1.1',
