@@ -626,7 +626,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.hyperonsol.com/',
     twitter: 'https://x.com/hyperonsol',
     initTime: { [ChainId.SOL]: 1761751604 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Solana_Collection1,
     },
@@ -4259,7 +4259,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://learn.akedo.fun/',
     twitter: 'https://x.com/akedofun',
     initTime: { [ChainId.BSC]: 1762168673 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
