@@ -7,7 +7,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Arbitrum Largest ID: 2034
 // ETH Largest ID: 3066
 // Linea Largest ID: 6020
-// Base Largest ID: 8062
+// Base Largest ID: 8063
 // Lightlink Largest ID: 7003
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
@@ -1639,6 +1639,34 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
+  // {
+  //   index: 8063,
+  //   version: '2.1.0',
+  //   chainId: ChainId.BASE,
+  //   contractAddress: {
+  //     [ChainId.BASE]: '',
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V4,
+  //   lpToken: tokens.usdc,
+  //   earnToken: tokens.ara,
+  //   billNnftAddress: {
+  //     [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+  //   },
+  //   projectLink: 'https://app.artura.finance/',
+  //   twitter: 'https://x.com/arturafinance',
+  //   initTime: { [ChainId.BASE]: 1764664999 },
+  //   soldOut: false,
+  //   billArt: {
+  //     collection: BillArtCollection.ApeBond_Collection1,
+  //   },
+  //   tags: ['DeFi'],
+  //   shortDescription:
+  //     'Artura is a high-performance, Bitcoin-native perp DEX purpose-built for trading the market’s most compelling narratives, including memes, AI, Runes, and RWAs. Powered by leading Bitcoin Layer 2s like Hemi and Botanix, it enables zero-slippage synthetic trading with leverage up to 150x and near-instant asset listings. The ARA token powers incentives, staking, and governance across the Artura ecosystem.',
+  //   fullDescription:
+  //     'Artura is a high-performance, Bitcoin-native perpetual DEX engineered for traders seeking exposure to the market’s most dynamic narratives, including memes, AI, Runes, and RWAs. Built on leading Bitcoin Layer 2 solutions such as Hemi and Botanix, it delivers zero-slippage synthetic trading with leverage up to 150x and enables rapid listing of emerging assets. At its core lies a decentralized vault architecture that allows participants to earn passive yield from trading volume while helping steer protocol development through governance. All executions occur fully on-chain, blending complete self-custody with the speed and efficiency typically associated with centralized exchanges. The ARA token is the native utility and governance asset powering incentives, staking rewards, and future decision-making across the Artura ecosystem, aligning traders and the community around long-term growth.',
+  //   clickUpId: '86adm0wcf',
+  // },
   {
     index: 8062,
     version: '2.1.0',
@@ -4972,7 +5000,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://seed.photo/',
     twitter: 'https://x.com/seedphoto',
     initTime: { [ChainId.BSC]: 1756378104 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
