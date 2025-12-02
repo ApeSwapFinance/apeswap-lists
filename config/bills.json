@@ -7983,7 +7983,7 @@
       "56": 1764253955
     },
     "soldOut": false,
-    "hide": false,
+    "hide": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
