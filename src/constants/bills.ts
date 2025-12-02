@@ -4191,7 +4191,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/camino_network',
     initTime: { [ChainId.BSC]: 1764253955 },
     soldOut: false,
-    hide: true,
+    hide: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
