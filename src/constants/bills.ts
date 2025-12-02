@@ -1742,7 +1742,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://aiquant.fun/',
     twitter: 'https://x.com/aiquantfun',
     initTime: { [ChainId.BASE]: 1758876492 },
-    soldOut: false,
+    soldOut: true,
     hide: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
