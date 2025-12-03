@@ -4638,7 +4638,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://qorpo.world/',
     twitter: 'https://x.com/QORPOworld',
     initTime: { [ChainId.BSC]: 1760355738 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -18051,7 +18051,7 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://www.home3suite.com/',
     twitter: 'https://x.com/Home3Suite',
     initTime: { [ChainId.MAINNET]: 1764058828 },
-    soldOut: false,
+    soldOut: true,
     hide: false,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
