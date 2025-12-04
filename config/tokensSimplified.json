@@ -263,13 +263,16 @@
   "aix": {
     "symbol": "AIX",
     "address": {
+      "8453": "0x920e753d8d7d5b598063c89b6f06288803448d06",
       "7565164": "AiXxRGmRc5oDiFXbEeRX9obPpr3Zir7rks1ef2NjddiF"
     },
     "decimals": {
+      "8453": 18,
       "7565164": 9
     },
     "active": true,
     "liquidityDex": {
+      "8453": "External",
       "7565164": "External"
     }
   },
