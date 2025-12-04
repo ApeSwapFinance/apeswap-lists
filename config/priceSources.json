@@ -359,6 +359,14 @@
       "type": "token",
       "tokenAddress": "0xf7178122a087ef8f5c7bea362b7dabe38f20bf05"
     },
+    "0x920e753d8d7d5b598063c89b6f06288803448d06": {
+      "name": "PlanetIX",
+      "symbol": "AIX",
+      "decimals": 18,
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "0x920e753d8d7d5b598063c89b6f06288803448d06"
+    },
     "0x00096697DC24bd10423690126D91546A20Ccb3F0": {
       "name": "Veritas",
       "symbol": "VPT",
