@@ -9,6 +9,7 @@ enum PriceSource {
   LBank = 'lbank',
   Bitmart = 'bitmart',
   CoinStore = 'coinstore',
+  BingX = 'bingx',
   Fixed = 'fixed', // Mostly for testing
 }
 
@@ -66,6 +67,11 @@ type CoinStorePriceSourceConfig = BasePriceSourceConfig & {
   id: string
 }
 
+type BingXPriceSourceConfig = BasePriceSourceConfig & {
+  source: PriceSource.BingX
+  id: string
+}
+
 type FixedPriceSourceConfig = BasePriceSourceConfig & {
   source: PriceSource.Fixed
   price: number
@@ -78,6 +84,7 @@ type PriceSourceConfigs =
   | LBankPriceSourceConfig
   | BitmartPriceSourceConfig
   | CoinStorePriceSourceConfig
+  | BingXPriceSourceConfig
   | FixedPriceSourceConfig
 
 const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>> = {
@@ -718,6 +725,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       source: PriceSource.Coingecko,
       id: 'squirrel-wallet',
       tokenAddress: '0x195f5c217b96cd3dd75d39327161b8911a42e509',
+    },
+    '0x5D8AB16A943204a031fc94ef6Cb4D7A8c7E59602': {
+      name: 'Syndicate of Vigilantes',
+      symbol: 'VIGI',
+      decimals: 18,
+      source: PriceSource.BingX,
+      id: 'VIGI-USDT',
+      tokenAddress: '0x5D8AB16A943204a031fc94ef6Cb4D7A8c7E59602',
     },
   },
   [ChainId.MEGAETH_TESTNET]: {

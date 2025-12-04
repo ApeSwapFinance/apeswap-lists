@@ -20,6 +20,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  vigi: {
+    symbol: 'VIGI',
+    address: {
+      [ChainId.MAINNET]: '0x5D8AB16A943204a031fc94ef6Cb4D7A8c7E59602',
+    },
+    decimals: {
+      [ChainId.MAINNET]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.External,
+    },
+    active: true,
+  },
   camTest: {
     symbol: 'CAMTEST',
     address: {
