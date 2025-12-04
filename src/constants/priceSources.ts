@@ -9,6 +9,7 @@ enum PriceSource {
   LBank = 'lbank',
   Bitmart = 'bitmart',
   CoinStore = 'coinstore',
+  BingX = 'bingx',
   Fixed = 'fixed', // Mostly for testing
 }
 
@@ -66,6 +67,11 @@ type CoinStorePriceSourceConfig = BasePriceSourceConfig & {
   id: string
 }
 
+type BingXPriceSourceConfig = BasePriceSourceConfig & {
+  source: PriceSource.BingX
+  id: string
+}
+
 type FixedPriceSourceConfig = BasePriceSourceConfig & {
   source: PriceSource.Fixed
   price: number
@@ -78,6 +84,7 @@ type PriceSourceConfigs =
   | LBankPriceSourceConfig
   | BitmartPriceSourceConfig
   | CoinStorePriceSourceConfig
+  | BingXPriceSourceConfig
   | FixedPriceSourceConfig
 
 const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>> = {
