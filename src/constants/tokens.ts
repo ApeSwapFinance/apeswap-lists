@@ -245,12 +245,15 @@ const tokens: Record<string, Token> = {
     symbol: 'AIX',
     address: {
       [ChainId.SOL]: 'AiXxRGmRc5oDiFXbEeRX9obPpr3Zir7rks1ef2NjddiF',
+      [ChainId.BASE]: '0x920e753d8d7d5b598063c89b6f06288803448d06',
     },
     decimals: {
       [ChainId.SOL]: 9,
+      [ChainId.BASE]: 18,
     },
     liquidityDex: {
       [ChainId.SOL]: LiquidityDex.External,
+      [ChainId.BASE]: LiquidityDex.External,
     },
     active: true,
   },
