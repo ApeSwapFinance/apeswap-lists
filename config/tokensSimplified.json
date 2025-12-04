@@ -5687,6 +5687,19 @@
       "1": "External"
     }
   },
+  "vigi": {
+    "symbol": "VIGI",
+    "address": {
+      "1": "0x5D8AB16A943204a031fc94ef6Cb4D7A8c7E59602"
+    },
+    "decimals": {
+      "1": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "1": "External"
+    }
+  },
   "avax": {
     "symbol": "wAVAX",
     "address": {
