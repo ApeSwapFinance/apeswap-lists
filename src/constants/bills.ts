@@ -5,7 +5,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Polygon Largest ID: 188
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2034
-// ETH Largest ID: 3066
+// ETH Largest ID: 3067
 // Linea Largest ID: 6020
 // Base Largest ID: 8065
 // Lightlink Largest ID: 7003
@@ -18119,6 +18119,37 @@ With the lending products set to go live in February, the project is poised to a
       'HOME3 is revolutionizing real estate by merging AI and blockchain to solve real-world problems with real-world assets, making property investment accessible to all. Traditional real estate is burdened with high price tags and complex processes, leaving it exclusive to a select few. HOME3 breaks these barriers by building a complete platform where users can search, buy, invest, and finance real estate seamlessly on-chain. Backed by a diverse team of experts in property, lending, technology, and marketing, HOME3’s vision is to create a global marketplace that is inclusive, affordable, and transparent. By combining tokenization, AI-driven insights, and decentralized finance, the platform opens new opportunities for investors to earn from rental yields, REIT dividends, and property appreciation. At the core of this ecosystem is the HTS token, powering equity investments and real estate-backed loans on the upcoming PROP3 and LOAN3 platforms.',
     warningCard: 'Fee Notice: Buying and selling HTS tokens incurs a 5% sell fee.',
     clickUpId: '86adezqjb',
+  },
+  {
+    index: 3067,
+    version: '2.1.1',
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0x3362207a336674b854E88aebC3DBCD4A7Ee77b92',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.vigi,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    projectLink: 'https://syndicateofvigilantes.com/',
+    twitter: 'https://x.com/SOV_thegame',
+    initTime: { [ChainId.MAINNET]: 1764865491 },
+    soldOut: false,
+    hide: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['GameFi'],
+    shortDescription:
+      'Syndicate of Vigilantes is a GPS-based game which combines Augmented Reality (AR) and first-person shooter (FPS) elements. Player’s missions uncover hidden AR treasures, unlocking Web3 rewards, in-game assets, and RWA prizes while competing in PvE and PvP battles. The VIGI token powers the ecosystem through in-game transactions, rewards, and governance.',
+    fullDescription:
+      'Syndicate of Vigilantes is a disruptive Play-to-Own AR experience that blends GPS exploration with fast-paced FPS mechanics across the largest game map ever created, the entire real world. Players become Vigilantes carrying out high-stakes missions assigned by the Syndicate, using the free mobile app to track down AR items while navigating real-world locations. Every mission demands creativity as rival players can actively interfere or even “take out” opponents to stop their progress. Upholding a Free-to-Play philosophy, the game avoids pay-to-win systems and lets players choose whether to operate solo or join Clans for coordinated, strategic gameplay. No matter their style, the objective remains the same: have fun, dominate missions, and rise on the leaderboard. The VIGI token powers the ecosystem through in-game transactions, rewards, and governance.',
+    vestingCliff: 2592000,
+    clickUpId: '86adpe71v',
+    warningCard: `This token is currently only tradable on <a href="https://bingx.com/en/spot/VIGIUSDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">BingX</a>.`,
   },
 ]
 
