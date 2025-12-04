@@ -7,7 +7,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Arbitrum Largest ID: 2034
 // ETH Largest ID: 3066
 // Linea Largest ID: 6020
-// Base Largest ID: 8063
+// Base Largest ID: 8065
 // Lightlink Largest ID: 7003
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
@@ -1639,6 +1639,62 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
+  {
+    index: 8065,
+    version: '2.1.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0xA75Cb0ffA887546eD837098774228Eb222EBFDb0',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.aix,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    projectLink: 'https://planetix.com/',
+    twitter: 'https://x.com/Planetix0',
+    initTime: { [ChainId.BASE]: 1764845552 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['GameFi'],
+    shortDescription:
+      'Planet IX, one of the largest Web3 strategy games, lets players trade land, build territories, and stake assets for rewards. Now evolving with major AI-powered upgrades and new strategic assets, it’s also migrating to Base for faster transactions and greater liquidity. Its new utility token, AIX, drives Season 2 with rewards and DeFi opportunities.',
+    fullDescription:
+      'Planet IX is a pioneering Web3 strategy game that emerged on Polygon in 2021 and rapidly evolved into one of the ecosystem’s largest gaming experiences. Players trade land, expand territories, and stake digital assets, forming a deeply engaged community where nearly 70% of tokens are staked. Now entering its most transformative phase, Planet IX is expanding its universe with AI-powered upgrades, new strategic assets, and advanced in-game mechanics. As part of its evolution, the project is migrating to Base to unlock faster transactions, broader liquidity, and enhanced scalability. Central to this new chapter is the AIX token, designed to power Season 2 with utility, competitive rewards, and elevated DeFi opportunities.',
+    clickUpId: '86adm5yt2',
+  },
+  {
+    index: 8064,
+    version: '2.1.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x8Fa076c8fD60377CF28c8f31a6C78F1D27C012C4',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.aix,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    projectLink: 'https://planetix.com/',
+    twitter: 'https://x.com/Planetix0',
+    initTime: { [ChainId.BASE]: 1764845552 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['GameFi'],
+    shortDescription:
+      'Planet IX, one of the largest Web3 strategy games, lets players trade land, build territories, and stake assets for rewards. Now evolving with major AI-powered upgrades and new strategic assets, it’s also migrating to Base for faster transactions and greater liquidity. Its new utility token, AIX, drives Season 2 with rewards and DeFi opportunities.',
+    fullDescription:
+      'Planet IX is a pioneering Web3 strategy game that emerged on Polygon in 2021 and rapidly evolved into one of the ecosystem’s largest gaming experiences. Players trade land, expand territories, and stake digital assets, forming a deeply engaged community where nearly 70% of tokens are staked. Now entering its most transformative phase, Planet IX is expanding its universe with AI-powered upgrades, new strategic assets, and advanced in-game mechanics. As part of its evolution, the project is migrating to Base to unlock faster transactions, broader liquidity, and enhanced scalability. Central to this new chapter is the AIX token, designed to power Season 2 with utility, competitive rewards, and elevated DeFi opportunities.',
+    clickUpId: '86adm8aye',
+  },
   // {
   //   index: 8063,
   //   version: '2.1.0',
