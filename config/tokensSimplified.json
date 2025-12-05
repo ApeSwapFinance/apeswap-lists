@@ -761,6 +761,19 @@
       "8822": "MagicSea"
     }
   },
+  "ara": {
+    "symbol": "ARA",
+    "address": {
+      "8453": "0x111123eA4Cee28CF010703593a8A2a3bbb91756C"
+    },
+    "decimals": {
+      "8453": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "8453": "Aerodrome"
+    }
+  },
   "omni": {
     "symbol": "OMNI",
     "address": {

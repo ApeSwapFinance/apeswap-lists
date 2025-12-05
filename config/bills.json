@@ -3185,6 +3185,58 @@
     "clickUpId": "86adm8aye"
   },
   {
+    "index": 8063,
+    "version": "2.1.0",
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0x13AE27b97c87599259f9FBdB492208aa76C49160"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "8453": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+      },
+      "decimals": {
+        "8453": 6
+      },
+      "liquidityDex": {
+        "8453": "Aerodrome"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "ARA",
+      "address": {
+        "8453": "0x111123eA4Cee28CF010703593a8A2a3bbb91756C"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "8453": "Aerodrome"
+      }
+    },
+    "billNnftAddress": {
+      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "projectLink": "https://app.artura.finance/",
+    "twitter": "https://x.com/arturafinance",
+    "initTime": {
+      "8453": 1764929022
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["DeFi"],
+    "shortDescription": "Artura is a high-performance, Bitcoin-native perp DEX purpose-built for trading the market’s most compelling narratives, including memes, AI, Runes, and RWAs. Powered by leading Bitcoin Layer 2s like Hemi and Botanix, it enables zero-slippage synthetic trading with leverage up to 150x and near-instant asset listings. The ARA token powers incentives, staking, and governance across the Artura ecosystem.",
+    "fullDescription": "Artura is a high-performance, Bitcoin-native perpetual DEX engineered for traders seeking exposure to the market’s most dynamic narratives, including memes, AI, Runes, and RWAs. Built on leading Bitcoin Layer 2 solutions such as Hemi and Botanix, it delivers zero-slippage synthetic trading with leverage up to 150x and enables rapid listing of emerging assets. At its core lies a decentralized vault architecture that allows participants to earn passive yield from trading volume while helping steer protocol development through governance. All executions occur fully on-chain, blending complete self-custody with the speed and efficiency typically associated with centralized exchanges. The ARA token is the native utility and governance asset powering incentives, staking rewards, and future decision-making across the Artura ecosystem, aligning traders and the community around long-term growth.",
+    "clickUpId": "86adm0wcf"
+  },
+  {
     "index": 8062,
     "version": "2.1.0",
     "chainId": 8453,

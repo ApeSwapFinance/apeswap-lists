@@ -1695,34 +1695,34 @@ const bills: BillsConfig[] = [
       'Planet IX is a pioneering Web3 strategy game that emerged on Polygon in 2021 and rapidly evolved into one of the ecosystem’s largest gaming experiences. Players trade land, expand territories, and stake digital assets, forming a deeply engaged community where nearly 70% of tokens are staked. Now entering its most transformative phase, Planet IX is expanding its universe with AI-powered upgrades, new strategic assets, and advanced in-game mechanics. As part of its evolution, the project is migrating to Base to unlock faster transactions, broader liquidity, and enhanced scalability. Central to this new chapter is the AIX token, designed to power Season 2 with utility, competitive rewards, and elevated DeFi opportunities.',
     clickUpId: '86adm8aye',
   },
-  // {
-  //   index: 8063,
-  //   version: '2.1.0',
-  //   chainId: ChainId.BASE,
-  //   contractAddress: {
-  //     [ChainId.BASE]: '',
-  //   },
-  //   billType: 'reserve',
-  //   billVersion: BillVersion.V4,
-  //   lpToken: tokens.usdc,
-  //   earnToken: tokens.ara,
-  //   billNnftAddress: {
-  //     [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
-  //   },
-  //   projectLink: 'https://app.artura.finance/',
-  //   twitter: 'https://x.com/arturafinance',
-  //   initTime: { [ChainId.BASE]: 1764664999 },
-  //   soldOut: false,
-  //   billArt: {
-  //     collection: BillArtCollection.ApeBond_Collection1,
-  //   },
-  //   tags: ['DeFi'],
-  //   shortDescription:
-  //     'Artura is a high-performance, Bitcoin-native perp DEX purpose-built for trading the market’s most compelling narratives, including memes, AI, Runes, and RWAs. Powered by leading Bitcoin Layer 2s like Hemi and Botanix, it enables zero-slippage synthetic trading with leverage up to 150x and near-instant asset listings. The ARA token powers incentives, staking, and governance across the Artura ecosystem.',
-  //   fullDescription:
-  //     'Artura is a high-performance, Bitcoin-native perpetual DEX engineered for traders seeking exposure to the market’s most dynamic narratives, including memes, AI, Runes, and RWAs. Built on leading Bitcoin Layer 2 solutions such as Hemi and Botanix, it delivers zero-slippage synthetic trading with leverage up to 150x and enables rapid listing of emerging assets. At its core lies a decentralized vault architecture that allows participants to earn passive yield from trading volume while helping steer protocol development through governance. All executions occur fully on-chain, blending complete self-custody with the speed and efficiency typically associated with centralized exchanges. The ARA token is the native utility and governance asset powering incentives, staking rewards, and future decision-making across the Artura ecosystem, aligning traders and the community around long-term growth.',
-  //   clickUpId: '86adm0wcf',
-  // },
+  {
+    index: 8063,
+    version: '2.1.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x13AE27b97c87599259f9FBdB492208aa76C49160',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.ara,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    projectLink: 'https://app.artura.finance/',
+    twitter: 'https://x.com/arturafinance',
+    initTime: { [ChainId.BASE]: 1764929022 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DeFi'],
+    shortDescription:
+      'Artura is a high-performance, Bitcoin-native perp DEX purpose-built for trading the market’s most compelling narratives, including memes, AI, Runes, and RWAs. Powered by leading Bitcoin Layer 2s like Hemi and Botanix, it enables zero-slippage synthetic trading with leverage up to 150x and near-instant asset listings. The ARA token powers incentives, staking, and governance across the Artura ecosystem.',
+    fullDescription:
+      'Artura is a high-performance, Bitcoin-native perpetual DEX engineered for traders seeking exposure to the market’s most dynamic narratives, including memes, AI, Runes, and RWAs. Built on leading Bitcoin Layer 2 solutions such as Hemi and Botanix, it delivers zero-slippage synthetic trading with leverage up to 150x and enables rapid listing of emerging assets. At its core lies a decentralized vault architecture that allows participants to earn passive yield from trading volume while helping steer protocol development through governance. All executions occur fully on-chain, blending complete self-custody with the speed and efficiency typically associated with centralized exchanges. The ARA token is the native utility and governance asset powering incentives, staking rewards, and future decision-making across the Artura ecosystem, aligning traders and the community around long-term growth.',
+    clickUpId: '86adm0wcf',
+  },
   {
     index: 8062,
     version: '2.1.0',
