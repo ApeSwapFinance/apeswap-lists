@@ -150,7 +150,7 @@
       "name": "Custodiy",
       "symbol": "CTY",
       "decimals": 18,
-      "source": "coingecko",
+      "source": "lbank",
       "id": "cty_usdt",
       "tokenAddress": "0xe50c9dae2b8cfe5224c1a4096a0959f8ca975df2"
     }

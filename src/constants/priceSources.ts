@@ -205,7 +205,7 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       name: 'Custodiy',
       symbol: 'CTY',
       decimals: 18,
-      source: PriceSource.Coingecko,
+      source: PriceSource.LBank,
       id: 'cty_usdt',
       tokenAddress: '0xe50c9dae2b8cfe5224c1a4096a0959f8ca975df2',
     },
