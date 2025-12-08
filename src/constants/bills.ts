@@ -5499,7 +5499,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://mindaiproject.com/',
     twitter: 'https://x.com/MindAI_io',
     initTime: { [ChainId.BSC]: 1751276087 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
