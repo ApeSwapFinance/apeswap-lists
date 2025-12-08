@@ -1578,6 +1578,19 @@
       "59144": "Metavault"
     }
   },
+  "cty": {
+    "symbol": "CTY",
+    "address": {
+      "56": "0xe50c9dae2b8cfe5224c1a4096a0959f8ca975df2"
+    },
+    "decimals": {
+      "56": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "56": "External"
+    }
+  },
   "seed": {
     "symbol": "SEED",
     "address": {
