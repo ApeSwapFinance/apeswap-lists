@@ -145,6 +145,14 @@
       "source": "coingecko",
       "id": "camino-network",
       "tokenAddress": "0x3766D84e043d4672e788f0AeB17511Ac7A84a5Eb"
+    },
+    "0xe50c9dae2b8cfe5224c1a4096a0959f8ca975df2": {
+      "name": "Custodiy",
+      "symbol": "CTY",
+      "decimals": 18,
+      "source": "coingecko",
+      "id": "CTYUSDT",
+      "tokenAddress": "0xe50c9dae2b8cfe5224c1a4096a0959f8ca975df2"
     }
   },
   "130": {
