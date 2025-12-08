@@ -403,6 +403,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  cty: {
+    symbol: 'CTY',
+    address: {
+      [ChainId.BSC]: '0xe50c9dae2b8cfe5224c1a4096a0959f8ca975df2',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.External,
+    },
+    active: true,
+  },
   mrln: {
     symbol: 'MRLN',
     address: {

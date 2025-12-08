@@ -201,6 +201,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       id: 'camino-network',
       tokenAddress: '0x3766D84e043d4672e788f0AeB17511Ac7A84a5Eb',
     },
+    '0xe50c9dae2b8cfe5224c1a4096a0959f8ca975df2': {
+      name: 'Custodiy',
+      symbol: 'CTY',
+      decimals: 18,
+      source: PriceSource.Coingecko,
+      id: 'CTYUSDT',
+      tokenAddress: '0xe50c9dae2b8cfe5224c1a4096a0959f8ca975df2',
+    },
   },
   [ChainId.MATIC]: {
     '0x61bf130d973d59c69d3227f1668d534d83119860': {
