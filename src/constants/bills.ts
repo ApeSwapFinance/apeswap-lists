@@ -4227,44 +4227,44 @@ const bills: BillsConfig[] = [
       'Etarn is revolutionizing waste disposal by transforming everyday sanitation into a driver of sustainability, public health, and economic empowerment. Through AI-powered Smart Toilets and blockchain technology, human waste is converted into liquid fertilizer and, in the future, carbon credits, creating real-world value from daily actions. By integrating advanced technology with eco-friendly infrastructure, Etarn addresses global sanitation challenges while enabling communities to benefit from cleaner environments and new income opportunities. Its mission is to turn routine behavior into meaningful environmental impact and long-term social progress, building a scalable and sustainable global ecosystem. At the center of this model is the ETAN token, the native asset that facilitates carbon credit trading, rewards Smart Toilet usage, and supports transparent, secure, and sustainable growth across the platform.',
     clickUpId: '86aczy0kc',
   },
-  {
-    index: 1194,
-    cmcId: 29157,
-    version: '2.1.0',
-    chainId: ChainId.BSC,
-    contractAddress: {
-      [ChainId.BSC]: '0xe0b6Bf77Fad88a1bC4ae7C902C415c773c4f4B0D',
-    },
-    billType: 'reserve',
-    billVersion: BillVersion.V4,
-    lpToken: tokens.usdt,
-    earnToken: tokens.abond,
-    billNnftAddress: {
-      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
-    },
-    projectLink: 'https://ape.bond/',
-    twitter: 'https://x.com/apebond',
-    audit: 'https://paladinsec.co/projects/apebond/',
-    initTime: { [ChainId.BSC]: 1765267936 },
-    soldOut: false,
-    billArt: {
-      collection: BillArtCollection.ApeBond_Collection1,
-    },
-    shortDescription:
-      'Step into the full ApeBond experience with $ABOND, more than just a token, it’s the gateway to real yield and premium perks. Lock $ABOND to access better Bond discounts, share in protocol revenue paid in $BNB, unlock exclusive tier-gated deals, and other benefits. With flexible lock options and Ape Tiers, it’s built for long-term believers.',
-    fullDescription:
-      'ABOND isn’t just a token it’s your key to the full ApeBond experience. As the foundation of the ApeBond ecosystem, $ABOND unlocks real yield, exclusive access, and deeper rewards for those who believe in the protocol long-term. By locking $ABOND, users climb Ape Tiers, unlocking extra discounts on Bonds across all chains and partners, earning real revenue share in $BNB from platform fees, and gaining access to premium, tier-gated bond opportunities with stronger returns. Holders also enjoy priority for campaign bonuses and airdrops. With flexible locking options and transparent, on-chain mechanics, $ABOND aligns user incentives with protocol growth — making it more than a token. It’s a commitment to building and benefiting together.',
-    tags: ['Bonding'],
-    partnersURLS: [
-      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/Seedify_fbt392.svg',
-      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613244/ORBS_anzm60.png',
-      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/quickLogo_2_1_g95ynz.png',
-      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/aitech_logo_100_real_no_fake_bjskiq.png',
-      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
-      'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
-    ],
-    clickUpId: '',
-  },
+  // {
+  //   index: 1194,
+  //   cmcId: 29157,
+  //   version: '2.1.0',
+  //   chainId: ChainId.BSC,
+  //   contractAddress: {
+  //     [ChainId.BSC]: '0xe0b6Bf77Fad88a1bC4ae7C902C415c773c4f4B0D',
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V4,
+  //   lpToken: tokens.usdt,
+  //   earnToken: tokens.abond,
+  //   billNnftAddress: {
+  //     [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+  //   },
+  //   projectLink: 'https://ape.bond/',
+  //   twitter: 'https://x.com/apebond',
+  //   audit: 'https://paladinsec.co/projects/apebond/',
+  //   initTime: { [ChainId.BSC]: 1765267936 },
+  //   soldOut: false,
+  //   billArt: {
+  //     collection: BillArtCollection.ApeBond_Collection1,
+  //   },
+  //   shortDescription:
+  //     'Step into the full ApeBond experience with $ABOND, more than just a token, it’s the gateway to real yield and premium perks. Lock $ABOND to access better Bond discounts, share in protocol revenue paid in $BNB, unlock exclusive tier-gated deals, and other benefits. With flexible lock options and Ape Tiers, it’s built for long-term believers.',
+  //   fullDescription:
+  //     'ABOND isn’t just a token it’s your key to the full ApeBond experience. As the foundation of the ApeBond ecosystem, $ABOND unlocks real yield, exclusive access, and deeper rewards for those who believe in the protocol long-term. By locking $ABOND, users climb Ape Tiers, unlocking extra discounts on Bonds across all chains and partners, earning real revenue share in $BNB from platform fees, and gaining access to premium, tier-gated bond opportunities with stronger returns. Holders also enjoy priority for campaign bonuses and airdrops. With flexible locking options and transparent, on-chain mechanics, $ABOND aligns user incentives with protocol growth — making it more than a token. It’s a commitment to building and benefiting together.',
+  //   tags: ['Bonding'],
+  //   partnersURLS: [
+  //     'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/Seedify_fbt392.svg',
+  //     'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613244/ORBS_anzm60.png',
+  //     'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/quickLogo_2_1_g95ynz.png',
+  //     'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/aitech_logo_100_real_no_fake_bjskiq.png',
+  //     'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613243/FLOKI_LOGO_1_o9rffp.png',
+  //     'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
+  //   ],
+  //   clickUpId: '',
+  // },
   {
     index: 1193,
     version: '2.1.1',
@@ -18254,7 +18254,7 @@ With the lending products set to go live in February, the project is poised to a
     version: '2.1.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
-      [ChainId.MAINNET]: '0x8E7E8610eE80378081E09F1D8CBDDDcbB4dD60FB',
+      [ChainId.MAINNET]: '0xD8Ae26F2c70f0bbcAE3f5C0cCba0EE635C9F9174',
     },
     billType: 'reserve',
     billVersion: BillVersion.V4,

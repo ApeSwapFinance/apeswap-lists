@@ -1591,25 +1591,6 @@
       "56": "PancakeSwapV3"
     }
   },
-  "abond": {
-    "symbol": "ABOND",
-    "address": {
-      "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
-      "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
-      "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
-    },
-    "decimals": {
-      "1": 18,
-      "56": 18,
-      "137": 18
-    },
-    "active": true,
-    "liquidityDex": {
-      "1": "UniswapV3",
-      "56": "ThenaV1",
-      "137": "QuickswapV2"
-    }
-  },
   "cty": {
     "symbol": "CTY",
     "address": {
@@ -1660,6 +1641,25 @@
     "active": true,
     "liquidityDex": {
       "56": "External"
+    }
+  },
+  "abond": {
+    "symbol": "ABOND",
+    "address": {
+      "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+      "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
+      "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
+    },
+    "decimals": {
+      "1": 18,
+      "56": 18,
+      "137": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "1": "UniswapV3",
+      "56": "ThenaV1",
+      "137": "QuickswapV2"
     }
   },
   "rice": {
