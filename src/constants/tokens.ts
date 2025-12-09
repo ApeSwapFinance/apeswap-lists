@@ -4196,6 +4196,19 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
     },
   },
+  etan: {
+    symbol: 'ETAN',
+    address: {
+      [ChainId.BSC]: '0xe5E1A0a43f307F390887E2a17399172F3F9a3caB',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+    },
+  },
   klink: {
     symbol: 'KLINK',
     address: {
