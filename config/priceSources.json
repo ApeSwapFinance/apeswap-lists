@@ -747,8 +747,8 @@
       "name": "RZTO Token",
       "symbol": "RZTO",
       "decimals": 6,
-      "source": "coingecko",
-      "id": "rizznet",
+      "source": "mexc",
+      "id": "RZTOUSDT",
       "tokenAddress": "2qpqweHfSKUvZFGQL3D7aadD5i5dDN8kz9xdZGraGAxC"
     }
   }
