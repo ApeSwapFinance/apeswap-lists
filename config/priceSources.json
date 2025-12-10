@@ -742,6 +742,14 @@
       "source": "dexscreener",
       "type": "token",
       "tokenAddress": "7ZCm8WBN9aLa3o47SoYctU6iLdj7wkGG5SV2hE5CgtD5"
+    },
+    "2qpqweHfSKUvZFGQL3D7aadD5i5dDN8kz9xdZGraGAxC": {
+      "name": "RZTO Token",
+      "symbol": "RZTO",
+      "decimals": 6,
+      "source": "coingecko",
+      "id": "rizznet",
+      "tokenAddress": "2qpqweHfSKUvZFGQL3D7aadD5i5dDN8kz9xdZGraGAxC"
     }
   }
 }

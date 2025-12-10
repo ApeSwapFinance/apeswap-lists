@@ -621,6 +621,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       type: 'token',
       tokenAddress: '7ZCm8WBN9aLa3o47SoYctU6iLdj7wkGG5SV2hE5CgtD5',
     },
+    '2qpqweHfSKUvZFGQL3D7aadD5i5dDN8kz9xdZGraGAxC': {
+      name: 'RZTO Token',
+      symbol: 'RZTO',
+      decimals: 6,
+      source: PriceSource.Coingecko,
+      id: 'rizznet',
+      tokenAddress: '2qpqweHfSKUvZFGQL3D7aadD5i5dDN8kz9xdZGraGAxC',
+    },
   },
   [ChainId.BERACHAIN]: {
     '0x28e0e3B9817012b356119dF9e217c25932D609c2': {

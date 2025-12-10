@@ -283,6 +283,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  rzto: {
+    symbol: 'RZTO',
+    address: {
+      [ChainId.SOL]: '2qpqweHfSKUvZFGQL3D7aadD5i5dDN8kz9xdZGraGAxC',
+    },
+    decimals: {
+      [ChainId.SOL]: 6,
+    },
+    liquidityDex: {
+      [ChainId.SOL]: LiquidityDex.External,
+    },
+    active: true,
+  },
   atl: {
     symbol: 'ATL',
     address: {
