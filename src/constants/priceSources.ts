@@ -145,6 +145,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       id: 'MRLNUSDT',
       tokenAddress: '0x79be2b20389a869476d183b1f42b9950eaf457d8',
     },
+    '0x336ff048c664a081d527979ac4197d6c3c8bfb14': {
+      name: 'TeaFi Token',
+      symbol: 'TEA',
+      decimals: 18,
+      source: PriceSource.Mexc,
+      id: 'TEAFIUSDT',
+      tokenAddress: '0x336ff048c664a081d527979ac4197d6c3c8bfb14',
+    },
     '0xb6C53431608E626AC81a9776ac3e999c5556717c': {
       name: 'pTokens TLOS',
       symbol: 'TLOS',

@@ -5633,7 +5633,7 @@ const tokens: Record<string, Token> = {
   tea: {
     symbol: 'TEA',
     address: {
-      [ChainId.BSC]: '0x336ff048C664a081D527979aC4197d6C3c8bfB14',
+      [ChainId.BSC]: '0x336ff048c664a081d527979ac4197d6c3c8bfb14',
     },
     decimals: { [ChainId.BSC]: 18 },
     liquidityDex: {
