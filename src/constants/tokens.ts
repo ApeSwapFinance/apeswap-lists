@@ -805,6 +805,19 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.UniswapV3,
     },
   },
+  aitv: {
+    symbol: 'AITV',
+    address: {
+      [ChainId.BASE]: '0x45e4e92F5A94F4B741C9cb553FF8bE7B25Eb7dF5',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV3,
+    },
+  },
   aiq: {
     symbol: 'AIQ',
     address: {
@@ -5610,6 +5623,17 @@ const tokens: Record<string, Token> = {
     symbol: 'ORFY',
     address: {
       [ChainId.BSC]: '0x39f0F4c64c7Ad1Ebb25cfEaFdd221cDEe3084441',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
+  tea: {
+    symbol: 'TEA',
+    address: {
+      [ChainId.BSC]: '0x336ff048C664a081D527979aC4197d6C3c8bfB14',
     },
     decimals: { [ChainId.BSC]: 18 },
     liquidityDex: {
