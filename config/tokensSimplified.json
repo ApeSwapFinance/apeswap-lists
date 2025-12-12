@@ -761,6 +761,19 @@
       "8822": "MagicSea"
     }
   },
+  "aitv": {
+    "symbol": "AITV",
+    "address": {
+      "8453": "0x45e4e92F5A94F4B741C9cb553FF8bE7B25Eb7dF5"
+    },
+    "decimals": {
+      "8453": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "8453": "UniswapV3"
+    }
+  },
   "ara": {
     "symbol": "ARA",
     "address": {

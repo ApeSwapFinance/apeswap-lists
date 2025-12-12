@@ -7,7 +7,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Arbitrum Largest ID: 2034
 // ETH Largest ID: 3068
 // Linea Largest ID: 6020
-// Base Largest ID: 8065
+// Base Largest ID: 8066
 // Lightlink Largest ID: 7003
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
@@ -1639,7 +1639,38 @@ const bills: BillsConfig[] = [
   // BASE
   //
   {
+    index: 8066,
+    cmcId: 38259,
+    version: '2.1.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x388f97A9b1Bb2905beddef3862464000f9fD89D6',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.aitv,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    projectLink: 'https://aitv.gg/',
+    twitter: 'https://x.com/aitvgg',
+    initTime: { [ChainId.BASE]: 1765532903 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription:
+      ' AITV is the world’s first AI Streamer Factory, enabling interactive AI livestreamers to be launched in minutes. Built by industry veterans, it powers an Autonomous Agentic Media Network where AI agents act as creators and economic engines, engaging audiences in real time through conversation and on-chain incentives. The AITV token underpins the ecosystem as the governance, incentive, and value-capture layer aligning agents, creators, and communities.',
+    fullDescription:
+      'AITV is the world’s first AI Streamer Factory, enabling anyone to launch interactive AI livestreamers in minutes and monetize every moment of engagement. Built by veterans from Disney+, Xbox, and Ethereum, AITV introduces an Autonomous Agentic Media Network where AI agents evolve into creators, collaborators, and economic engines. Unlike static content or passive AI tools, AITV agents are character-driven personalities that engage audiences in real time through conversation, co-creation, and on-chain incentives. These agents can educate, entertain, or inform across crypto, culture, gaming, sports, and niche communities, each with a distinct voice and purpose. AITV also empowers creators, brands, and Web3 projects with advanced tooling to design agent personalities, control behavior and scheduling, and define revenue models or token rewards, with seamless integration into platforms like YouTube, Twitch, and future social channels. At the core of this ecosystem is the AITV token, which serves as the governance, incentive, and value-capture layer aligning agents, audiences, and creators within the AITV protocol.',
+    clickUpId: '86adw6crm',
+    vestingCliff: 2160000,
+  },
+  {
     index: 8065,
+    cmcId: 17131,
     version: '2.1.0',
     chainId: ChainId.BASE,
     contractAddress: {
@@ -1668,6 +1699,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 8064,
+    cmcId: 17131,
     version: '2.1.0',
     chainId: ChainId.BASE,
     contractAddress: {
