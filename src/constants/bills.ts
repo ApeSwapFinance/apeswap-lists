@@ -1659,7 +1659,7 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.BASE]: 1765532903 },
     soldOut: false,
     billArt: {
-      collection: BillArtCollection.ApeBond_Collection1,
+      collection: BillArtCollection.HotBondingSummer_Collection1,
     },
     tags: ['AI'],
     shortDescription:
