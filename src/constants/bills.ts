@@ -1653,13 +1653,12 @@ const bills: BillsConfig[] = [
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
     },
-    minTier: LaunchBondTiers.Gold,
     projectLink: 'https://aitv.gg/',
     twitter: 'https://x.com/aitvgg',
     initTime: { [ChainId.BASE]: 1765532903 },
     soldOut: false,
     billArt: {
-      collection: BillArtCollection.HotBondingSummer_Collection1,
+      collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['AI'],
     shortDescription:
@@ -1748,7 +1747,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    tags: ['CHRISTMAS SALE'],
+    tags: ['DeFi'],
     shortDescription:
       "Artura is a high-performance perp DEX built on Botanix and Base. Built for trading the markets most compelling narratives, including memes, AI, RWA, and more. It's synthetic model enables zero-slippage, up to 150x leverage, and near-instant listings. It's ARA token powers incentives, staking, and governance across Artura.",
     fullDescription:
