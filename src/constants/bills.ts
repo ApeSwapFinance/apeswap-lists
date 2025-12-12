@@ -1,13 +1,13 @@
 import tokens from './tokens'
 import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, MigrationVestingTerms } from '../types'
 
-// BNB Largest ID: 1195
+// BNB Largest ID: 1196
 // Polygon Largest ID: 188
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2034
 // ETH Largest ID: 3068
 // Linea Largest ID: 6020
-// Base Largest ID: 8065
+// Base Largest ID: 8066
 // Lightlink Largest ID: 7003
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
@@ -1639,7 +1639,38 @@ const bills: BillsConfig[] = [
   // BASE
   //
   {
+    index: 8066,
+    cmcId: 38259,
+    version: '2.1.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x388f97A9b1Bb2905beddef3862464000f9fD89D6',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.aitv,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    projectLink: 'https://aitv.gg/',
+    twitter: 'https://x.com/aitvgg',
+    initTime: { [ChainId.BASE]: 1765532903 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription:
+      ' AITV is the world’s first AI Streamer Factory, enabling interactive AI livestreamers to be launched in minutes. Built by industry veterans, it powers an Autonomous Agentic Media Network where AI agents act as creators and economic engines, engaging audiences in real time through conversation and on-chain incentives. The AITV token underpins the ecosystem as the governance, incentive, and value-capture layer aligning agents, creators, and communities.',
+    fullDescription:
+      'AITV is the world’s first AI Streamer Factory, enabling anyone to launch interactive AI livestreamers in minutes and monetize every moment of engagement. Built by veterans from Disney+, Xbox, and Ethereum, AITV introduces an Autonomous Agentic Media Network where AI agents evolve into creators, collaborators, and economic engines. Unlike static content or passive AI tools, AITV agents are character-driven personalities that engage audiences in real time through conversation, co-creation, and on-chain incentives. These agents can educate, entertain, or inform across crypto, culture, gaming, sports, and niche communities, each with a distinct voice and purpose. AITV also empowers creators, brands, and Web3 projects with advanced tooling to design agent personalities, control behavior and scheduling, and define revenue models or token rewards, with seamless integration into platforms like YouTube, Twitch, and future social channels. At the core of this ecosystem is the AITV token, which serves as the governance, incentive, and value-capture layer aligning agents, audiences, and creators within the AITV protocol.',
+    clickUpId: '86adw6crm',
+    vestingCliff: 2160000,
+  },
+  {
     index: 8065,
+    cmcId: 17131,
     version: '2.1.0',
     chainId: ChainId.BASE,
     contractAddress: {
@@ -1668,6 +1699,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 8064,
+    cmcId: 17131,
     version: '2.1.0',
     chainId: ChainId.BASE,
     contractAddress: {
@@ -4197,6 +4229,36 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1196,
+    cmcId: 33924,
+    version: '2.1.1',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0xb19CC943320B7085FFf302DBd2a35AFF53F76164',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.tea,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://tea-fi.com/',
+    twitter: 'https://x.com/TeaFi_Official',
+    initTime: { [ChainId.BSC]: 1765531500 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DeFi'],
+    shortDescription:
+      'Tea-Fi is a decentralized finance platform designed to make DeFi simple, secure, and accessible through a seamless all-in-one experience. By unifying asset management, cross-chain access, Easy-Gas, self-custodial security, and a powerful Yield Engine, Tea-Fi removes complexity from crypto. At the core of the ecosystem, the TEA token enables staking with dynamic, time-based rewards that incentivize long-term participation.',
+    fullDescription:
+      'Tea-Fi is a decentralized finance platform built on the belief that DeFi should be simple, intuitive, and accessible without sacrificing security or decentralization. In an ecosystem often defined by fragmented tools and complex user journeys, Tea-Fi unifies everything into a seamless, all-in-one experience designed to empower individuals and communities to manage and grow digital assets with confidence. By abstracting technical friction, Tea-Fi makes interacting with DeFi as effortless as brewing a cup of tea, straightforward, secure, and rewarding. The platform features a powerful Yield Engine that aggregates diverse yield strategies into a single ecosystem, alongside Easy-Gas to remove the need for multiple gas tokens, cross-chain connectivity, self-custodial asset control, and an embedded privacy layer. At the core of the ecosystem is the TEA token, which can be staked to earn dynamic, time-based rewards, incentivizing long-term participation while supporting the sustainable growth of the Tea-Fi network.',
+    clickUpId: '86adwj7r2',
+    vestingCliff: 2592000, //30 days cliff
+  },
   {
     index: 1195,
     cmcId: 38452,

@@ -761,6 +761,19 @@
       "8822": "MagicSea"
     }
   },
+  "aitv": {
+    "symbol": "AITV",
+    "address": {
+      "8453": "0x45e4e92F5A94F4B741C9cb553FF8bE7B25Eb7dF5"
+    },
+    "decimals": {
+      "8453": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "8453": "UniswapV3"
+    }
+  },
   "ara": {
     "symbol": "ARA",
     "address": {
@@ -1576,6 +1589,19 @@
     "active": true,
     "liquidityDex": {
       "59144": "Metavault"
+    }
+  },
+  "tea": {
+    "symbol": "TEA",
+    "address": {
+      "56": "0x336ff048c664a081d527979ac4197d6c3c8bfb14"
+    },
+    "decimals": {
+      "56": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "56": "PancakeSwapV2"
     }
   },
   "etan": {
