@@ -1252,7 +1252,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://ethereum.org/',
     twitter: 'https://x.com/ethereum',
     initTime: { [ChainId.MONAD_TESTNET]: 1744716225 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
