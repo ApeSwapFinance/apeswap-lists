@@ -20,6 +20,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  bg2: {
+    symbol: 'BG',
+    address: {
+      [ChainId.BASE]: '0x701C8C09fE9F081f9BE69Ab9AF8291c84c09389B',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.External,
+    },
+    active: true,
+  },
   vigi: {
     symbol: 'VIGI',
     address: {
