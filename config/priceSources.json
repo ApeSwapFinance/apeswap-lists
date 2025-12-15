@@ -422,6 +422,14 @@
       "source": "mexc",
       "id": "BGUSDT",
       "tokenAddress": "0xd88e4a97b9defbf2c8491ea0e48fcc7e043c775a"
+    },
+    "0x701C8C09fE9F081f9BE69Ab9AF8291c84c09389B": {
+      "name": "Blink Galaxy",
+      "symbol": "BG",
+      "decimals": 18,
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "0x701C8C09fE9F081f9BE69Ab9AF8291c84c09389B"
     }
   },
   "10143": {
