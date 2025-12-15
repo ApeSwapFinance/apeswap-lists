@@ -23,7 +23,7 @@ const tokens: Record<string, Token> = {
   bg2: {
     symbol: 'BG',
     address: {
-      [ChainId.BASE]: '0x701C8C09fE9F081f9BE69Ab9AF8291c84c09389B',
+      [ChainId.BASE]: '0x701c8c09fe9f081f9be69ab9af8291c84c09389b',
     },
     decimals: {
       [ChainId.BASE]: 18,
