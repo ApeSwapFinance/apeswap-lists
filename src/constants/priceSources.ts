@@ -317,13 +317,13 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       id: 'BGUSDT',
       tokenAddress: '0xd88e4a97b9defbf2c8491ea0e48fcc7e043c775a',
     },
-    '0x701C8C09fE9F081f9BE69Ab9AF8291c84c09389B': {
+    '0x701c8c09fe9f081f9be69ab9af8291c84c09389b': {
       name: 'Blink Galaxy',
       symbol: 'BG',
       decimals: 18,
       source: PriceSource.Dexscreener,
       type: 'token',
-      tokenAddress: '0x701C8C09fE9F081f9BE69Ab9AF8291c84c09389B',
+      tokenAddress: '0x701c8c09fe9f081f9be69ab9af8291c84c09389b',
     },
   },
   [ChainId.LINEA]: {
