@@ -305,6 +305,19 @@
       "7565164": "External"
     }
   },
+  "nc": {
+    "symbol": "NC",
+    "address": {
+      "7565164": "B89Hd5Juz7JP2dxCZXFJWk4tMTcbw7feDhuWGb3kq5qE"
+    },
+    "decimals": {
+      "7565164": 9
+    },
+    "active": true,
+    "liquidityDex": {
+      "7565164": "External"
+    }
+  },
   "trax": {
     "symbol": "TRAX",
     "address": {
