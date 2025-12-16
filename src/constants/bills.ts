@@ -7,7 +7,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Arbitrum Largest ID: 2034
 // ETH Largest ID: 3068
 // Linea Largest ID: 6020
-// Base Largest ID: 8066
+// Base Largest ID: 8067
 // Lightlink Largest ID: 7003
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
@@ -1638,6 +1638,34 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
+  {
+    index: 8067,
+    version: '2.1.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x00Ce1831B3127D8Ba5dFa2C9bACabA5D0AabD11B',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.bg2,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    projectLink: 'https://outerringmmo.com/',
+    twitter: 'https://x.com/OuterRingMMO',
+    initTime: { [ChainId.BASE]: 1765876722 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['GameFi'],
+    shortDescription:
+      'Blink Galaxy Blockchain is a gas-free Web3 gaming stack by SOREDI GAMES connecting Outer Ring MMO, Racerloop, and the Blink Galaxy hub under $BG. Built on SKALE for instant, fee-less gameplay and launching $BG on Base for liquidity, it uses the Blink Passport for Web2 onboarding and cross-game assets, enabling scalable, unified gaming experiences for players and studios.',
+    fullDescription:
+      'Blink Galaxy Blockchain (Blinkchain) is a gas-free Web3 gaming stack developed by SOREDI GAMES that unifies Outer Ring MMO (Alpha), Racerloop, and the Blink Galaxy hub under the $BG ecosystem. Built on SKALE for instant finality and fee-less gameplay, with $BG launching on Base for liquidity, Blinkchain enables seamless cross-title asset and reward portability through the Blink Passport, a Web2-simple identity system using email and password. The $BG token powers governance, rewards, marketplace fees and discounts, and cross-game incentives. With a fixed supply of 10B and a key milestone set for SKALE mainnet on January 1, 2026, Blinkchain leverages live IP, esports co-marketing, marketplace and crafting fees, and partner SDKs to convert mainstream gamers into on-chain participants and provide studios with a fee-less infrastructure for scalable game development.',
+    clickUpId: '86ad8xn9y',
+  },
   {
     index: 8066,
     cmcId: 38259,
