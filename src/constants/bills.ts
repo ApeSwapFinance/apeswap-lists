@@ -19,7 +19,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Sonic Largest ID: 15007
 // Berachain Largest ID: 16005
 // Katana Largest ID: 17000
-// SOL Largest ID: 18018
+// SOL Largest ID: 18019
 // UNICHAIN Largest ID: 19001
 // AVAX Largest ID: 20001
 
@@ -659,6 +659,33 @@ const bills: BillsConfig[] = [
     shortDescription: `Dogelon Mars is a community-driven memecoin inspired by space exploration and the dream of reaching Mars. The project blends storytelling, humor, and community engagement to create an enthusiastic movement. Its mission centers on growth through shared vision rather than financial promises. The ELON token serves as the core of the ecosystem, enabling participation in community initiatives and future utility.`,
     tags: ['Community', 'Meme'],
     clickUpId: '86addquqh',
+  },
+  {
+    index: 18019,
+    cmcId: 34971,
+    version: '2.2.0',
+    chainId: ChainId.SOL,
+    contractAddress: {
+      [ChainId.SOL]: 'BBDgaMQAoJuv1AGCcSWbmwh1SnhkXyMa5HeUGqjmKjtR',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.nc,
+    billNnftAddress: {
+      [ChainId.SOL]: '6eTigFtMxEUGd58pbihr2U6xEAn6Y4Q43Z8eFUpM3fpN',
+    },
+    projectLink: 'https://www.nodepay.ai/',
+    twitter: 'https://x.com/nodepay',
+    initTime: { [ChainId.SOL]: 1765882921 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Solana_Collection1,
+    },
+    fullDescription: `Nodepay is a predictive intelligence network built to turn global data into actionable advantage. By aggregating user-driven insights, social signals, and real-time crypto market data, Nodepay transforms fragmented information into powerful intelligence. Users actively contribute signals and earn real token rewards, becoming part of a smarter, open intelligence market. At the core of the ecosystem is NodeCoin ($NC), the native token that powers the Nodepay network. $NC enables network transactions, unlocks premium analytics and product features, pays for intelligence and distribution services, and rewards contributors who dedicate resources to expanding the network. For projects, Nodepay delivers predictive insights and unrivaled distribution tools to drive smarter decisions, global reach, and accelerated growth.`,
+    shortDescription: `Nodepay delivers predictive intelligence at global scale by aggregating user-driven insights, social signals, and real-time crypto market data. Users contribute signals and earn token rewards as part of a smarter intelligence market. NodeCoin ($NC) powers the network, enabling transactions, premium features, services, and rewarding contributors shaping the future of AI intelligence.`,
+    tags: ['AI'],
+    clickUpId: '86adwt6h9',
   },
   //
   // Berachain
