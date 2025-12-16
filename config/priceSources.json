@@ -766,6 +766,14 @@
       "source": "mexc",
       "id": "RZTOUSDT",
       "tokenAddress": "2qpqweHfSKUvZFGQL3D7aadD5i5dDN8kz9xdZGraGAxC"
+    },
+    "B89Hd5Juz7JP2dxCZXFJWk4tMTcbw7feDhuWGb3kq5qE": {
+      "name": "Nodecoin",
+      "symbol": "NC",
+      "decimals": 9,
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "B89Hd5Juz7JP2dxCZXFJWk4tMTcbw7feDhuWGb3kq5qE"
     }
   }
 }
