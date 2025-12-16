@@ -645,6 +645,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       id: 'RZTOUSDT',
       tokenAddress: '2qpqweHfSKUvZFGQL3D7aadD5i5dDN8kz9xdZGraGAxC',
     },
+    B89Hd5Juz7JP2dxCZXFJWk4tMTcbw7feDhuWGb3kq5qE: {
+      name: 'Nodecoin',
+      symbol: 'NC',
+      decimals: 9,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: 'B89Hd5Juz7JP2dxCZXFJWk4tMTcbw7feDhuWGb3kq5qE',
+    },
   },
   [ChainId.BERACHAIN]: {
     '0x28e0e3B9817012b356119dF9e217c25932D609c2': {

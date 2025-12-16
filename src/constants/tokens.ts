@@ -137,6 +137,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  nc: {
+    symbol: 'NC',
+    address: {
+      [ChainId.SOL]: 'B89Hd5Juz7JP2dxCZXFJWk4tMTcbw7feDhuWGb3kq5qE',
+    },
+    decimals: {
+      [ChainId.SOL]: 9,
+    },
+    liquidityDex: {
+      [ChainId.SOL]: LiquidityDex.External,
+    },
+    active: true,
+  },
   rkey: {
     symbol: 'RKEY',
     address: {
