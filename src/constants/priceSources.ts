@@ -617,8 +617,8 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       name: 'Foxsy AI',
       symbol: 'FOXSY',
       decimals: 9,
-      source: PriceSource.Dexscreener,
-      type: 'token',
+      source: PriceSource.Coingecko,
+      id: 'foxsy-ai',
       tokenAddress: 'CgGWS19zR5xTzgCEcW5Svsuon4hBZwzBwUFimoJStCf2',
     },
     '7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs': {
