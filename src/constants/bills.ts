@@ -4516,8 +4516,8 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.lern360.ai/',
     twitter: 'https://x.com/lern360',
     initTime: { [ChainId.BSC]: 1761146141 },
-    soldOut: false,
-    hide: true,
+    soldOut: true,
+    hide: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
