@@ -357,7 +357,7 @@
     "initTime": {
       "7565164": 1752065340
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "Solana_Collection1"
     },
@@ -1256,6 +1256,59 @@
     "shortDescription": "Nodepay delivers predictive intelligence at global scale by aggregating user-driven insights, social signals, and real-time crypto market data. Users contribute signals and earn token rewards as part of a smarter intelligence market. NodeCoin ($NC) powers the network, enabling transactions, premium features, services, and rewarding contributors shaping the future of AI intelligence.",
     "tags": ["AI"],
     "clickUpId": "86adwt6h9"
+  },
+  {
+    "index": 18020,
+    "version": "2.2.0",
+    "chainId": 7565164,
+    "contractAddress": {
+      "7565164": "Bz5aa8AdXb5Z6puLXkCkXJBKKqQ2yD6ToLSMN1rxP7Lk"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "7565164": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+      },
+      "decimals": {
+        "7565164": 6
+      },
+      "liquidityDex": {
+        "7565164": "External"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "SKORAI",
+      "address": {
+        "7565164": "8CLGcTogo6FoYkEQQBm3Vm2PVckYCiCm3XXhdsr4skoR"
+      },
+      "decimals": {
+        "7565164": 6
+      },
+      "liquidityDex": {
+        "7565164": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "7565164": "EL9SwLNJroqVh36ru5D4TJvqUAdEMZ5dtMhA5Dm9iq5h"
+    },
+    "projectLink": "https://skoragents.ai/",
+    "twitter": "https://x.com/theskorai",
+    "initTime": {
+      "7565164": 1765964062
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "Solana_Collection1"
+    },
+    "fullDescription": "SKOR AI is a cutting-edge artificial intelligence company redefining the gaming experience with advanced AI-driven solutions tailored for gamers of all levels. Its intelligent agents deliver real-time insights, detect trends, recommend games, and optimize strategies to elevate gameplay and decision-making. By harnessing machine learning, automation, and deep data analytics, SKOR AI actively monitors gaming forums, communities, and market signals to uncover hidden lore, track esports meta shifts, and surface the best gaming deals. From skill improvement to content discovery and savings, SKOR AI functions as a smart companion enhancing every facet of gaming. With a strong focus on innovation and community-led growth, SKOR AI is shaping a more immersive, competitive, and rewarding gaming future. The $SKORAI token serves as the backbone of the ecosystem, powering staking, governance, and infrastructure growth, and rewarding long-term participation.",
+    "shortDescription": "SKOR AI enhances the gaming experience with AI-powered insights, personalized recommendations, and strategic tools for players of all levels. By tracking trends, esports metas, and gaming deals, it helps users stay ahead and save more. The $SKORAI token powers the ecosystem, enabling staking, governance, and rewarding active community participation.",
+    "tags": ["AI Agent"],
+    "warningCard": "This token is currently only tradable on <a href=\"https://www.mexc.com/exchange/SKORAI_USDT\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #6099c5\">MEXC</a>.",
+    "clickUpId": "86a9rje9q"
   },
   {
     "index": 16000,
@@ -3131,6 +3184,58 @@
     "shortDescription": "FOMOFox is the first market-driven storytelling meme coin on IOTA EVM. Follow FOMOFox on TwitterX and help him conquer FOMO by influencing the $FOMO Token’s market performance. Holders can grow their $FOMO bags through raffles, solving riddles, or holding. FOMOFox faces challenges and meets intriguing characters, with market influence guiding his choices!",
     "fullDescription": "FOMOFox is the first market-driven storytelling meme coin on IOTA EVM. Follow the thrilling journey of FOMOFox on TwitterX and help him conquer his FOMO by influencing the $FOMO Token’s market performance. Loyal holders will find countless opportunities to grow their $FOMO bags through raffles, solving riddles, or simply holding and supporting the fox. Along the way, FOMOFox faces diverse challenges and meets intriguing characters. Your influence on the market helps him make the right choices. This project offers pure entertainment and rewards those who stick with it! Join the adventure now and visit their website for more details!",
     "clickUpId": ""
+  },
+  {
+    "index": 8067,
+    "version": "2.1.0",
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0x380941a4D918319D0eA1cFB27E9C7F219631175D"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "8453": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2"
+      },
+      "decimals": {
+        "8453": 6
+      },
+      "liquidityDex": {
+        "8453": "UniswapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "BG",
+      "address": {
+        "8453": "0x701c8c09fe9f081f9be69ab9af8291c84c09389b"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "liquidityDex": {
+        "8453": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "projectLink": "https://outerringmmo.com/",
+    "twitter": "https://x.com/OuterRingMMO",
+    "initTime": {
+      "8453": 1765963932
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["GameFi"],
+    "shortDescription": "Blink Galaxy Blockchain is a gas-free Web3 gaming stack by SOREDI GAMES connecting Outer Ring MMO, Racerloop, and the Blink Galaxy hub under $BG. Built on SKALE for instant, fee-less gameplay and launching $BG on Base for liquidity, it uses the Blink Passport for Web2 onboarding and cross-game assets, enabling scalable, unified gaming experiences for players and studios.",
+    "fullDescription": "Blink Galaxy Blockchain (Blinkchain) is a gas-free Web3 gaming stack developed by SOREDI GAMES that unifies Outer Ring MMO (Alpha), Racerloop, and the Blink Galaxy hub under the $BG ecosystem. Built on SKALE for instant finality and fee-less gameplay, with $BG launching on Base for liquidity, Blinkchain enables seamless cross-title asset and reward portability through the Blink Passport, a Web2-simple identity system using email and password. The $BG token powers governance, rewards, marketplace fees and discounts, and cross-game incentives. With a fixed supply of 10B and a key milestone set for SKALE mainnet on January 1, 2026, Blinkchain leverages live IP, esports co-marketing, marketplace and crafting fees, and partner SDKs to convert mainstream gamers into on-chain participants and provide studios with a fee-less infrastructure for scalable game development.",
+    "clickUpId": "86ad8xn9y"
   },
   {
     "index": 8066,
