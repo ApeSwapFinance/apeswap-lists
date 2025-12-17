@@ -215,7 +215,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://skoragents.ai/',
     twitter: 'https://x.com/theskorai',
     initTime: { [ChainId.SOL]: 1752065340 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Solana_Collection1,
     },
@@ -686,6 +686,33 @@ const bills: BillsConfig[] = [
     shortDescription: `Nodepay delivers predictive intelligence at global scale by aggregating user-driven insights, social signals, and real-time crypto market data. Users contribute signals and earn token rewards as part of a smarter intelligence market. NodeCoin ($NC) powers the network, enabling transactions, premium features, services, and rewarding contributors shaping the future of AI intelligence.`,
     tags: ['AI'],
     clickUpId: '86adwt6h9',
+  },
+  {
+    index: 18020,
+    version: '2.2.0',
+    chainId: ChainId.SOL,
+    contractAddress: {
+      [ChainId.SOL]: 'Bz5aa8AdXb5Z6puLXkCkXJBKKqQ2yD6ToLSMN1rxP7Lk',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.skorai,
+    billNnftAddress: {
+      [ChainId.SOL]: 'EL9SwLNJroqVh36ru5D4TJvqUAdEMZ5dtMhA5Dm9iq5h',
+    },
+    projectLink: 'https://skoragents.ai/',
+    twitter: 'https://x.com/theskorai',
+    initTime: { [ChainId.SOL]: 1765964062 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Solana_Collection1,
+    },
+    fullDescription: `SKOR AI is a cutting-edge artificial intelligence company redefining the gaming experience with advanced AI-driven solutions tailored for gamers of all levels. Its intelligent agents deliver real-time insights, detect trends, recommend games, and optimize strategies to elevate gameplay and decision-making. By harnessing machine learning, automation, and deep data analytics, SKOR AI actively monitors gaming forums, communities, and market signals to uncover hidden lore, track esports meta shifts, and surface the best gaming deals. From skill improvement to content discovery and savings, SKOR AI functions as a smart companion enhancing every facet of gaming. With a strong focus on innovation and community-led growth, SKOR AI is shaping a more immersive, competitive, and rewarding gaming future. The $SKORAI token serves as the backbone of the ecosystem, powering staking, governance, and infrastructure growth, and rewarding long-term participation.`,
+    shortDescription: `SKOR AI enhances the gaming experience with AI-powered insights, personalized recommendations, and strategic tools for players of all levels. By tracking trends, esports metas, and gaming deals, it helps users stay ahead and save more. The $SKORAI token powers the ecosystem, enabling staking, governance, and rewarding active community participation.`,
+    tags: ['AI Agent'],
+    warningCard: `This token is currently only tradable on <a href="https://www.mexc.com/exchange/SKORAI_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a>.`,
+    clickUpId: '86a9rje9q',
   },
   //
   // Berachain
