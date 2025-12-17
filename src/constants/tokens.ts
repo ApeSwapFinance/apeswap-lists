@@ -20,6 +20,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  pmusd: {
+    symbol: 'pmUSD',
+    address: {
+      [ChainId.MAINNET]: '0xC0c17dD08263C16f6b64E772fB9B723Bf1344DdF',
+    },
+    decimals: {
+      [ChainId.MAINNET]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.External,
+    },
+    active: true,
+  },
   bg2: {
     symbol: 'BG',
     address: {
