@@ -35256,5 +35256,59 @@
     "fullDescription": "HOME3 is revolutionizing real estate by merging AI and blockchain to solve real-world problems with real-world assets, making property investment accessible to all. Traditional real estate is burdened with high price tags and complex processes, leaving it exclusive to a select few. HOME3 breaks these barriers by building a complete platform where users can search, buy, invest, and finance real estate seamlessly on-chain. Backed by a diverse team of experts in property, lending, technology, and marketing, HOME3’s vision is to create a global marketplace that is inclusive, affordable, and transparent. By combining tokenization, AI-driven insights, and decentralized finance, the platform opens new opportunities for investors to earn from rental yields, REIT dividends, and property appreciation. At the core of this ecosystem is the HTS token, powering equity investments and real estate-backed loans on the upcoming PROP3 and LOAN3 platforms.",
     "warningCard": "Fee Notice: Buying and selling HTS tokens incurs a 5% sell fee.",
     "clickUpId": "86adtczu9"
+  },
+  {
+    "index": 3069,
+    "version": "2.1.0",
+    "chainId": 1,
+    "contractAddress": {
+      "1": "0x9B1717ab841622cEB496E3fe0aCBcE9F80feAd49"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+      },
+      "decimals": {
+        "1": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "pmUSD",
+      "address": {
+        "1": "0xC0c17dD08263C16f6b64E772fB9B723Bf1344DdF"
+      },
+      "decimals": {
+        "1": 18
+      },
+      "liquidityDex": {
+        "1": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "1": "0x499b654b0a7f9979cc315190c09ca2633809b8df"
+    },
+    "projectLink": "https://raac.io",
+    "twitter": "https://x.com/Raacfi",
+    "initTime": {
+      "1": 1765993110
+    },
+    "soldOut": false,
+    "hide": false,
+    "billArt": {
+      "collection": "ETH_Collection1"
+    },
+    "tags": ["RWA"],
+    "shortDescription": "RAAC is a decentralized DeFi lending and borrowing protocol powered by tokenized Real World Assets. It enables on-chain borrowing using collateral such as commodities, real estate, and capital market assets, while offering RWA vaults and stability mechanisms. RAAC bridges traditional value with DeFi, with pmUSD acting as its RWA-backed stablecoin.",
+    "fullDescription": "RAAC is a decentralized DeFi lending and borrowing ecosystem powered by tokenized Real World Assets, designed to bridge on-chain finance with tangible economic value. The protocol enables users to borrow and lend using RWAs such as commodities, real estate, and capital market instruments as collateral, while also supporting the creation of stablecoins backed by real-world assets. RAAC offers a comprehensive suite of products, including an on-chain lending and borrowing system, RWA vaults, and stability mechanisms that enhance capital efficiency and risk management. Its modular architecture allows seamless integration for external DeFi applications and provides transparent insight into how the protocol is built, governed, and parameterized. By combining decentralized infrastructure with real-world backing, RAAC aims to unlock scalable and sustainable DeFi use cases, with pmUSD serving as its core RWA-backed stablecoin within the ecosystem.",
+    "clickUpId": "86adwj35g",
+    "minTier": 2
   }
 ]
