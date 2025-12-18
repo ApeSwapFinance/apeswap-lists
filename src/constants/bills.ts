@@ -18483,7 +18483,6 @@ With the lending products set to go live in February, the project is poised to a
     fullDescription:
       'RAAC is a decentralized DeFi lending and borrowing ecosystem powered by tokenized Real World Assets, designed to bridge on-chain finance with tangible economic value. The protocol enables users to borrow and lend using RWAs such as commodities, real estate, and capital market instruments as collateral, while also supporting the creation of stablecoins backed by real-world assets. RAAC offers a comprehensive suite of products, including an on-chain lending and borrowing system, RWA vaults, and stability mechanisms that enhance capital efficiency and risk management. Its modular architecture allows seamless integration for external DeFi applications and provides transparent insight into how the protocol is built, governed, and parameterized. By combining decentralized infrastructure with real-world backing, RAAC aims to unlock scalable and sustainable DeFi use cases, with pmUSD serving as its core RWA-backed stablecoin within the ecosystem.',
     clickUpId: '86adwj35g',
-    minTier: LaunchBondTiers.Gold,
     vestingCliff: 5184000,
   },
 ]
