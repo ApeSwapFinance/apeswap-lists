@@ -4316,12 +4316,12 @@ const bills: BillsConfig[] = [
     version: '2.1.1',
     chainId: ChainId.BSC,
     contractAddress: {
-      [ChainId.BSC]: '0xEe9fbC1b30d48D686909B19229A35e3c6BDF873B',
+      [ChainId.BSC]: '0x6B859Af0ca45Ac3C811F742F59904E199d1103c6',
     },
     billType: 'reserve',
     billVersion: BillVersion.V4,
     lpToken: tokens.usdt,
-    earnToken: tokens.wbnb,
+    earnToken: tokens.abond,
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },
