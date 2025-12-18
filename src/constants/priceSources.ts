@@ -774,14 +774,6 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       id: 'VIGI-USDT',
       tokenAddress: '0x5D8AB16A943204a031fc94ef6Cb4D7A8c7E59602',
     },
-    '0xC0c17dD08263C16f6b64E772fB9B723Bf1344DdF': {
-      name: 'Precious Metals USD',
-      symbol: 'pmUSD',
-      decimals: 18,
-      source: PriceSource.Fixed,
-      price: 1, // TODO: remove this once we have a real price source
-      tokenAddress: '0xC0c17dD08263C16f6b64E772fB9B723Bf1344DdF',
-    },
   },
   [ChainId.MEGAETH_TESTNET]: {
     '0x4eB2Bd7beE16F38B1F4a0A5796Fffd028b6040e9': {

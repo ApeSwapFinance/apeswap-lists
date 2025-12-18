@@ -31,14 +31,6 @@
       "source": "bingx",
       "id": "VIGI-USDT",
       "tokenAddress": "0x5D8AB16A943204a031fc94ef6Cb4D7A8c7E59602"
-    },
-    "0xC0c17dD08263C16f6b64E772fB9B723Bf1344DdF": {
-      "name": "Precious Metals USD",
-      "symbol": "pmUSD",
-      "decimals": 18,
-      "source": "fixed",
-      "price": 1,
-      "tokenAddress": "0xC0c17dD08263C16f6b64E772fB9B723Bf1344DdF"
     }
   },
   "56": {
