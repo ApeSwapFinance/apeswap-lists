@@ -47,7 +47,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
-    tags: ['RWA'],
+    tags: ['STABLECOIN'],
     shortDescription:
       'RAAC is a decentralized DeFi lending and borrowing protocol powered by tokenized Real World Assets. It enables on-chain borrowing using collateral such as commodities, real estate, and capital market assets, while offering RWA vaults and stability mechanisms. RAAC bridges traditional value with DeFi, with pmUSD acting as its RWA-backed stablecoin.',
     fullDescription:
