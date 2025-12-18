@@ -4312,6 +4312,33 @@ const bills: BillsConfig[] = [
   // BNB chain
   //
   {
+    index: 1197,
+    version: '2.1.1',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0xEe9fbC1b30d48D686909B19229A35e3c6BDF873B',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.wbnb,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://tea-fi.com/',
+    twitter: 'https://x.com/TeaFi_Official',
+    initTime: { [ChainId.BSC]: 1765531500 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['tesdt'],
+    shortDescription: 'asd',
+    fullDescription: 'asd',
+    clickUpId: '86adwj7r2',
+    vestingCliff: 2592000, //30 days cliff
+  },
+  {
     index: 1196,
     cmcId: 33924,
     version: '2.1.1',

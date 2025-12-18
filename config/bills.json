@@ -8255,6 +8255,59 @@
     "clickUpId": "86a3ezkxq"
   },
   {
+    "index": 1197,
+    "version": "2.1.1",
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0xEe9fbC1b30d48D686909B19229A35e3c6BDF873B"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "56": "0x55d398326f99059fF775485246999027B3197955"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "projectLink": "https://tea-fi.com/",
+    "twitter": "https://x.com/TeaFi_Official",
+    "initTime": {
+      "56": 1765531500
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["tesdt"],
+    "shortDescription": "asd",
+    "fullDescription": "asd",
+    "clickUpId": "86adwj7r2",
+    "vestingCliff": 2592000
+  },
+  {
     "index": 1196,
     "cmcId": 33924,
     "version": "2.1.1",
