@@ -5791,6 +5791,19 @@
       "1": "External"
     }
   },
+  "pmusd": {
+    "symbol": "pmUSD",
+    "address": {
+      "1": "0xC0c17dD08263C16f6b64E772fB9B723Bf1344DdF"
+    },
+    "decimals": {
+      "1": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "1": "UniswapV3"
+    }
+  },
   "avax": {
     "symbol": "wAVAX",
     "address": {

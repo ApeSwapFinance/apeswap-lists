@@ -351,6 +351,7 @@ export enum LaunchBondTiers {
   Gold,
   Diamond,
   Legend,
+  Mythical,
 }
 
 // Version Mapping
