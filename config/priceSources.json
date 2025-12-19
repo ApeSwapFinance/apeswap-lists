@@ -16,6 +16,14 @@
       "id": "LITASUSDT",
       "tokenAddress": "0xfa63503f9e61fd59cbea137c122fa55c2daff14a"
     },
+    "0x5bc93bab1291885a76644a49f52050cf73e1dca8": {
+      "name": "Multiverse Monkey",
+      "symbol": "MMON",
+      "decimals": 18,
+      "source": "mexc",
+      "id": "MMONUSDT",
+      "tokenAddress": "0x5bc93bab1291885a76644a49f52050cf73e1dca8"
+    },
     "0x195f5c217b96cd3dd75d39327161b8911a42e509": {
       "name": "NUTS",
       "symbol": "NUTS",

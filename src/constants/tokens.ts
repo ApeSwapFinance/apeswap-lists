@@ -5133,6 +5133,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  mmon: {
+    symbol: 'MMON',
+    address: {
+      [ChainId.MAINNET]: '0x5bc93bab1291885a76644a49f52050cf73e1dca8',
+    },
+    decimals: { [ChainId.MAINNET]: 18 },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.External,
+    },
+    active: true,
+  },
   fric: {
     symbol: 'FRIC',
     address: {
