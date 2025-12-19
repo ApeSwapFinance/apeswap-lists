@@ -1,5 +1,13 @@
 import tokens from './tokens'
-import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, MigrationVestingTerms } from '../types'
+import {
+  BillArtCollection,
+  BillsConfig,
+  BillVersion,
+  ChainId,
+  LaunchBondTiers,
+  MarketingCampaign,
+  MigrationVestingTerms,
+} from '../types'
 
 // BNB Largest ID: 1196
 // Polygon Largest ID: 188
@@ -52,6 +60,7 @@ const bills: BillsConfig[] = [
     shortDescription: `XYZ.TRADES is transforming trading with the first AI-native terminal for retail and pro users. Powered by 28 specialized agents, it delivers real-time insights from TA, on-chain data, sentiment, and fundamentals, enabling seamless execution on X and the platform. Its native token, TRADER, powers the ecosystem.`,
     fullDescription: `XYZ.TRADES, winner of Seedify’s 2025 Hackathon, is revolutionizing the trading landscape by delivering a hands-free, AI-powered experience that eliminates the stress of charts and manual strategies. Through seamless vault deposits, automated execution, and transparent pro-rata profit distribution, users gain access to professional-grade tools without complexity. At its core, AgentXYZ introduces the first AI-native trading terminal built for both retail and professional traders, powered by 28 specialized agents that analyze technical indicators, on-chain activity, social sentiment, and market fundamentals in real time. This ecosystem empowers traders with faster, smarter decisions and precision-driven execution directly on X or through the platform. The project’s native token, TRADER, powers the ecosystem and drives its growth.`,
     clickUpId: '86ac4551d',
+    marketingCampaign: MarketingCampaign.Christmas2025,
   },
   {
     index: 20000,
