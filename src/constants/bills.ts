@@ -60,7 +60,6 @@ const bills: BillsConfig[] = [
     shortDescription: `XYZ.TRADES is transforming trading with the first AI-native terminal for retail and pro users. Powered by 28 specialized agents, it delivers real-time insights from TA, on-chain data, sentiment, and fundamentals, enabling seamless execution on X and the platform. Its native token, TRADER, powers the ecosystem.`,
     fullDescription: `XYZ.TRADES, winner of Seedify’s 2025 Hackathon, is revolutionizing the trading landscape by delivering a hands-free, AI-powered experience that eliminates the stress of charts and manual strategies. Through seamless vault deposits, automated execution, and transparent pro-rata profit distribution, users gain access to professional-grade tools without complexity. At its core, AgentXYZ introduces the first AI-native trading terminal built for both retail and professional traders, powered by 28 specialized agents that analyze technical indicators, on-chain activity, social sentiment, and market fundamentals in real time. This ecosystem empowers traders with faster, smarter decisions and precision-driven execution directly on X or through the platform. The project’s native token, TRADER, powers the ecosystem and drives its growth.`,
     clickUpId: '86ac4551d',
-    marketingCampaign: MarketingCampaign.Christmas2025,
   },
   {
     index: 20000,
@@ -4349,6 +4348,7 @@ const bills: BillsConfig[] = [
       'Tea-Fi is a decentralized finance platform built on the belief that DeFi should be simple, intuitive, and accessible without sacrificing security or decentralization. In an ecosystem often defined by fragmented tools and complex user journeys, Tea-Fi unifies everything into a seamless, all-in-one experience designed to empower individuals and communities to manage and grow digital assets with confidence. By abstracting technical friction, Tea-Fi makes interacting with DeFi as effortless as brewing a cup of tea, straightforward, secure, and rewarding. The platform features a powerful Yield Engine that aggregates diverse yield strategies into a single ecosystem, alongside Easy-Gas to remove the need for multiple gas tokens, cross-chain connectivity, self-custodial asset control, and an embedded privacy layer. At the core of the ecosystem is the TEA token, which can be staked to earn dynamic, time-based rewards, incentivizing long-term participation while supporting the sustainable growth of the Tea-Fi network.',
     clickUpId: '86adwj7r2',
     vestingCliff: 2592000, //30 days cliff
+    marketingCampaign: MarketingCampaign.Christmas2025,
   },
   {
     index: 1195,
