@@ -1,5 +1,13 @@
 import tokens from './tokens'
-import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, MigrationVestingTerms } from '../types'
+import {
+  BillArtCollection,
+  BillsConfig,
+  BillVersion,
+  ChainId,
+  LaunchBondTiers,
+  MarketingCampaign,
+  MigrationVestingTerms,
+} from '../types'
 
 // BNB Largest ID: 1196
 // Polygon Largest ID: 188
@@ -4371,6 +4379,7 @@ const bills: BillsConfig[] = [
       'Tea-Fi is a decentralized finance platform built on the belief that DeFi should be simple, intuitive, and accessible without sacrificing security or decentralization. In an ecosystem often defined by fragmented tools and complex user journeys, Tea-Fi unifies everything into a seamless, all-in-one experience designed to empower individuals and communities to manage and grow digital assets with confidence. By abstracting technical friction, Tea-Fi makes interacting with DeFi as effortless as brewing a cup of tea, straightforward, secure, and rewarding. The platform features a powerful Yield Engine that aggregates diverse yield strategies into a single ecosystem, alongside Easy-Gas to remove the need for multiple gas tokens, cross-chain connectivity, self-custodial asset control, and an embedded privacy layer. At the core of the ecosystem is the TEA token, which can be staked to earn dynamic, time-based rewards, incentivizing long-term participation while supporting the sustainable growth of the Tea-Fi network.',
     clickUpId: '86adwj7r2',
     vestingCliff: 2592000, //30 days cliff
+    marketingCampaign: MarketingCampaign.Christmas2025,
   },
   {
     index: 1195,
