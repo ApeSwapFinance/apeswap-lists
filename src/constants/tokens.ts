@@ -20,6 +20,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  mirror: {
+    symbol: 'MIRROR',
+    address: {
+      [ChainId.BASE]: '0xe1bfA25468AF64e366ddAFC9D91bCc6c97439A14',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.External,
+    },
+    active: true,
+  },
   pmusd: {
     symbol: 'pmUSD',
     address: {
