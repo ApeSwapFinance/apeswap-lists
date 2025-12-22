@@ -1711,7 +1711,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/blackmirror_xp',
     initTime: { [ChainId.BASE]: 1766400199 },
     soldOut: false,
-    hide: true,
+    hide: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
