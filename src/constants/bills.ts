@@ -1760,6 +1760,7 @@ const bills: BillsConfig[] = [
     fullDescription:
       'Blink Galaxy Blockchain (Blinkchain) is a gas-free Web3 gaming stack developed by SOREDI GAMES that unifies Outer Ring MMO (Alpha), Racerloop, and the Blink Galaxy hub under the $BG ecosystem. Built on SKALE for instant finality and fee-less gameplay, with $BG launching on Base for liquidity, Blinkchain enables seamless cross-title asset and reward portability through the Blink Passport, a Web2-simple identity system using email and password. The $BG token powers governance, rewards, marketplace fees and discounts, and cross-game incentives. With a fixed supply of 10B and a key milestone set for SKALE mainnet on January 1, 2026, Blinkchain leverages live IP, esports co-marketing, marketplace and crafting fees, and partner SDKs to convert mainstream gamers into on-chain participants and provide studios with a fee-less infrastructure for scalable game development.',
     clickUpId: '86ad8xn9y',
+    marketingCampaign: MarketingCampaign.Christmas2025,
   },
   {
     index: 8066,
