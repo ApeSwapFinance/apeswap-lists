@@ -774,6 +774,19 @@
       "8822": "MagicSea"
     }
   },
+  "mirror": {
+    "symbol": "MIRROR",
+    "address": {
+      "8453": "0xe1bfA25468AF64e366ddAFC9D91bCc6c97439A14"
+    },
+    "decimals": {
+      "8453": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "8453": "External"
+    }
+  },
   "bg2": {
     "symbol": "BG",
     "address": {
