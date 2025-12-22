@@ -694,6 +694,7 @@ const bills: BillsConfig[] = [
     shortDescription: `Nodepay delivers predictive intelligence at global scale by aggregating user-driven insights, social signals, and real-time crypto market data. Users contribute signals and earn token rewards as part of a smarter intelligence market. NodeCoin ($NC) powers the network, enabling transactions, premium features, services, and rewarding contributors shaping the future of AI intelligence.`,
     tags: ['AI'],
     clickUpId: '86adwt6h9',
+    marketingCampaign: MarketingCampaign.Christmas2025,
   },
   {
     index: 18020,
@@ -1730,6 +1731,7 @@ const bills: BillsConfig[] = [
       'Black Mirror is one of the most influential dystopian franchises of the modern era, reflecting how technology reshapes identity, behavior, and social status. This project extends that narrative beyond the screen by introducing a Black Mirror–inspired Virtual Assistant and an on-chain reputation ecosystem where participation, influence, and trust become measurable digital assets. Drawing inspiration from themes like social scoring and digital judgment, the platform blends blockchain technology, social analysis, and interactive experiences to create a living system where user actions genuinely matter. Reputation evolves through on-chain activity and social engagement, forming a dynamic Social ID that can unlock access, rewards, and status across connected ecosystems. At the core of this loop is the MIRROR token, which powers reputation growth, staking mechanics, and ecosystem expansion, enabling users to actively shape, build, and grow the digital world they participate in.',
     clickUpId: '86ae1enu4',
     vestingCliff: 2592000, //30 Days Cliff
+    marketingCampaign: MarketingCampaign.Christmas2025,
   },
   {
     index: 8067,
@@ -4447,6 +4449,7 @@ const bills: BillsConfig[] = [
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
     ],
     clickUpId: '',
+    marketingCampaign: MarketingCampaign.Christmas2025,
   },
   {
     index: 1193,
@@ -4695,6 +4698,7 @@ const bills: BillsConfig[] = [
       'Astra Nova is redefining the relationship between entertainment and artificial intelligence by introducing the first-ever AI Entertainment Ecosystem that evolves with its audience. Designed to deliver deeply personalized, immersive, and rewarding experiences, Astra Nova draws inspiration from rich regional storytelling, iconic architecture, and cultural symbolism, fusing these elements with advanced AI to shape the future of interactive media. Its expanding cross-media universe includes a dynamic ARPG where every player decision transforms the world, NovaToon, an interactive comic app with AI-driven co-creation, Deviants Fight Club for fast PVP fun on Telegram, BlackPass for progression and loyalty, and TokenPlay.ai, a no-code platform enabling communities to build monetized mini-games. Powering this intelligent ecosystem is the RVV token, the core asset fueling its new entertainment economy.',
     vestingCliff: 5184000, //60 days
     clickUpId: '86acwq6q3',
+    marketingCampaign: MarketingCampaign.Christmas2025,
   },
   {
     index: 1185,
@@ -4822,6 +4826,7 @@ const bills: BillsConfig[] = [
     fullDescription:
       'Klink Finance is redefining affiliate advertising in Web3 by providing the technology infrastructure that enables platforms to grow, engage, and monetize their users through a global network of partner offers and campaigns. Backed by a community of over 900,000 platform users and a reach exceeding 5.1 million through its advertiser-publisher ecosystem, Klink collaborates with major industry players including the Arbitrum Foundation, Bybit, Coinbase, Crypto.com, XDC Network, Wirex, Revolut, Ledger, and hundreds of other global brands. Operating both a consumer-facing earnings platform and a commercial partner network, Klink delivers multi-chain airdrops, affiliate rewards, and monetization tools via its Offer API. The $KLINK token powers all advertising and affiliate transactions, driving demand and uniting advertiser budgets with user engagement across the entire Klink ecosystem.',
     clickUpId: '86acr6584',
+    marketingCampaign: MarketingCampaign.Christmas2025,
   },
   {
     index: 1181,
