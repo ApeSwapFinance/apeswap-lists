@@ -354,6 +354,10 @@ export enum LaunchBondTiers {
   Mythical,
 }
 
+export enum MarketingCampaign {
+  Christmas2025 = 'Christmas2025',
+}
+
 // Version Mapping
 // 2.0.0 => old bonds
 // 2.1.0 => tiered bonds
@@ -386,6 +390,7 @@ export interface BaseBondConfig {
   bondPartner?: string
   onlyPartner?: boolean
   clickUpId?: string
+  marketingCampaign?: MarketingCampaign
 }
 
 export interface PreTGEConfig extends BaseBondConfig {
