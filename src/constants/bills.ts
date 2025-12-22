@@ -7,7 +7,7 @@ import { BillArtCollection, BillsConfig, BillVersion, ChainId, LaunchBondTiers, 
 // Arbitrum Largest ID: 2034
 // ETH Largest ID: 3070
 // Linea Largest ID: 6020
-// Base Largest ID: 8067
+// Base Largest ID: 8068
 // Lightlink Largest ID: 7003
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
@@ -1692,6 +1692,37 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
+  {
+    index: 8068,
+    cmcId: 38292,
+    version: '2.1.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0xD4f8ef8e17fD0263bD7BBdaB59680c4D94CD7805',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.mirror,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    projectLink: 'https://www.blackmirrorclub.com/',
+    twitter: 'https://x.com/blackmirror_xp',
+    initTime: { [ChainId.BASE]: 1766400199 },
+    soldOut: false,
+    hide: true,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['SocialFi'],
+    shortDescription:
+      'Black Mirror is a cultural phenomenon exploring how technology shapes identity, behavior, and social status. This project brings those themes into reality through a Virtual Assistant and an on-chain reputation system where engagement and trust become measurable assets. User actions build dynamic reputation and Social IDs that unlock access and influence across ecosystems. The MIRROR token powers reputation growth, staking mechanics, and ecosystem expansion, enabling users to actively shape, build, and grow the digital world they participate in.',
+    fullDescription:
+      'Black Mirror is one of the most influential dystopian franchises of the modern era, reflecting how technology reshapes identity, behavior, and social status. This project extends that narrative beyond the screen by introducing a Black Mirror–inspired Virtual Assistant and an on-chain reputation ecosystem where participation, influence, and trust become measurable digital assets. Drawing inspiration from themes like social scoring and digital judgment, the platform blends blockchain technology, social analysis, and interactive experiences to create a living system where user actions genuinely matter. Reputation evolves through on-chain activity and social engagement, forming a dynamic Social ID that can unlock access, rewards, and status across connected ecosystems. At the core of this loop is the MIRROR token, which powers reputation growth, staking mechanics, and ecosystem expansion, enabling users to actively shape, build, and grow the digital world they participate in.',
+    clickUpId: '86ae1enu4',
+    vestingCliff: 2592000, //30 Days Cliff
+  },
   {
     index: 8067,
     version: '2.1.0',
@@ -18452,7 +18483,6 @@ With the lending products set to go live in February, the project is poised to a
     fullDescription:
       'RAAC is a decentralized DeFi lending and borrowing ecosystem powered by tokenized Real World Assets, designed to bridge on-chain finance with tangible economic value. The protocol enables users to borrow and lend using RWAs such as commodities, real estate, and capital market instruments as collateral, while also supporting the creation of stablecoins backed by real-world assets. RAAC offers a comprehensive suite of products, including an on-chain lending and borrowing system, RWA vaults, and stability mechanisms that enhance capital efficiency and risk management. Its modular architecture allows seamless integration for external DeFi applications and provides transparent insight into how the protocol is built, governed, and parameterized. By combining decentralized infrastructure with real-world backing, RAAC aims to unlock scalable and sustainable DeFi use cases, with pmUSD serving as its core RWA-backed stablecoin within the ecosystem.',
     clickUpId: '86adwj35g',
-    minTier: LaunchBondTiers.Gold,
   },
   {
     index: 3070,
