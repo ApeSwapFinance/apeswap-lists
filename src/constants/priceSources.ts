@@ -269,6 +269,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       type: 'token',
       tokenAddress: '0xACf80A4e55F5f28e1e7d261a221cA495DB5bcbB3',
     },
+    '0xe1bfA25468AF64e366ddAFC9D91bCc6c97439A14': {
+      name: 'Mirror Token',
+      symbol: 'MIRROR',
+      decimals: 18,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '0xe1bfA25468AF64e366ddAFC9D91bCc6c97439A14',
+    },
     '0xf7178122a087ef8f5c7bea362b7dabe38f20bf05': {
       name: 'Omni Exchange Token',
       symbol: 'OMNI',
