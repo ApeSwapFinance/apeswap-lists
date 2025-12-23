@@ -1720,7 +1720,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/ToyowOfficial',
     initTime: { [ChainId.BASE]: 1766498508 },
     soldOut: false,
-    hide: true,
+    hide: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
