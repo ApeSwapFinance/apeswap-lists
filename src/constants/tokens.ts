@@ -20,6 +20,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  ttn: {
+    symbol: 'TTN',
+    address: {
+      [ChainId.BASE]: '0x225530E4AfCdB5eCcb96AF7a45d94452A10A3879',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV3,
+    },
+    active: true,
+  },
   mirror: {
     symbol: 'MIRROR',
     address: {

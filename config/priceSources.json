@@ -446,6 +446,14 @@
       "source": "dexscreener",
       "type": "token",
       "tokenAddress": "0x701c8c09fe9f081f9be69ab9af8291c84c09389b"
+    },
+    "0x225530E4AfCdB5eCcb96AF7a45d94452A10A3879": {
+      "name": "TTN",
+      "symbol": "TTN",
+      "decimals": 18,
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "0x225530E4AfCdB5eCcb96AF7a45d94452A10A3879"
     }
   },
   "10143": {
