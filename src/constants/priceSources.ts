@@ -333,14 +333,6 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       type: 'token',
       tokenAddress: '0x701c8c09fe9f081f9be69ab9af8291c84c09389b',
     },
-    '0x225530E4AfCdB5eCcb96AF7a45d94452A10A3879': {
-      name: 'TTN',
-      symbol: 'TTN',
-      decimals: 18,
-      source: PriceSource.Dexscreener,
-      type: 'token',
-      tokenAddress: '0x225530E4AfCdB5eCcb96AF7a45d94452A10A3879',
-    },
   },
   [ChainId.LINEA]: {
     '0xcc22F6AA610D1b2a0e89EF228079cB3e1831b1D1': {
