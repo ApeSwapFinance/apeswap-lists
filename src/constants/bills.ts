@@ -18554,7 +18554,7 @@ With the lending products set to go live in February, the project is poised to a
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
-    tags: ['STABLECOIN'],
+    tags: ['Extra Discount', 'STABLECOIN'],
     shortDescription:
       'RAAC is a decentralized DeFi lending and borrowing protocol powered by tokenized Real World Assets. It enables on-chain borrowing using collateral such as commodities, real estate, and capital market assets, while offering RWA vaults and stability mechanisms. RAAC bridges traditional value with DeFi, with pmUSD acting as its RWA-backed stablecoin.',
     fullDescription:
@@ -18562,6 +18562,7 @@ With the lending products set to go live in February, the project is poised to a
     clickUpId: '86adwj35g',
     // minTier: LaunchBondTiers.Gold, // making this public
     vestingCliff: 5184000,
+    warningCard: 'Extra 15% bonus funded by RAAC for all buyers if the Bond sells out by December 31st, 23:00 UTC.',
   },
 ]
 
