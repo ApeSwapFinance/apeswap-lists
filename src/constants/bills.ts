@@ -1731,6 +1731,7 @@ const bills: BillsConfig[] = [
       'Toyow positions itself as the home of multi-category real-world asset tokenization, bringing traditionally offline value onchain through a unified and accessible marketplace. The platform enables users to tokenize and invest in assets across a wide range of sectors, including real estate, film, music, art, and other high-value opportunities, transforming how ownership and liquidity are experienced in the digital era. By bridging Web3 infrastructure with tangible assets, Toyow aims to unlock billions in real-world value and make global investment more inclusive, transparent, and efficient. At the core of this ecosystem is the TTN token, which powers platform transactions, incentivizes participation, and supports community engagement, while offering benefits such as discounts, reduced fees, exclusive marketplace access, and a buy-and-burn mechanism designed to create long-term value for TTN holders.',
     clickUpId: '86aa6zugv',
     marketingCampaign: MarketingCampaign.Christmas2025,
+    vestingCliff: 7776000, // 90 days cliff
   },
   {
     index: 8069,
@@ -18554,7 +18555,7 @@ With the lending products set to go live in February, the project is poised to a
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
-    tags: ['STABLECOIN'],
+    tags: ['Extra Discount', 'STABLECOIN'],
     shortDescription:
       'RAAC is a decentralized DeFi lending and borrowing protocol powered by tokenized Real World Assets. It enables on-chain borrowing using collateral such as commodities, real estate, and capital market assets, while offering RWA vaults and stability mechanisms. RAAC bridges traditional value with DeFi, with pmUSD acting as its RWA-backed stablecoin.',
     fullDescription:
@@ -18562,6 +18563,7 @@ With the lending products set to go live in February, the project is poised to a
     clickUpId: '86adwj35g',
     // minTier: LaunchBondTiers.Gold, // making this public
     vestingCliff: 5184000,
+    warningCard: 'Extra 15% bonus funded by RAAC for all buyers if the Bond sells out by December 31st, 23:00 UTC.',
   },
 ]
 
