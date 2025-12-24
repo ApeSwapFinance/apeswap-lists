@@ -18563,7 +18563,8 @@ With the lending products set to go live in February, the project is poised to a
     clickUpId: '86adwj35g',
     // minTier: LaunchBondTiers.Gold, // making this public
     vestingCliff: 5184000,
-    warningCard: 'Extra 15% bonus funded by RAAC for all buyers if the Bond sells out by December 31st, 23:00 UTC.',
+    warningCard:
+      'RAAC bonus if bond fills by Dec 31, 23:00 UTC: 10% for all buyers · 15% for Mythical tier & RAAC bot holders.',
   },
 ]
 
