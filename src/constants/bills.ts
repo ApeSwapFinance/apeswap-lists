@@ -4939,7 +4939,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://ortcoin.org/',
     twitter: 'https://x.com/Ortcoin1',
     initTime: { [ChainId.BSC]: 1761131525 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
