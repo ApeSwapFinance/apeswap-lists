@@ -18550,7 +18550,7 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://raac.io',
     twitter: 'https://x.com/Raacfi',
     initTime: { [ChainId.MAINNET]: 1766067045 },
-    soldOut: true,
+    soldOut: false,
     hide: false,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
