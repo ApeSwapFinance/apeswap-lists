@@ -35147,7 +35147,7 @@
     "initTime": {
       "1": 1762856835
     },
-    "soldOut": false,
+    "soldOut": true,
     "hide": false,
     "billArt": {
       "collection": "ETH_Collection1"
@@ -35484,5 +35484,62 @@
     "clickUpId": "86adwj35g",
     "vestingCliff": 5184000,
     "warningCard": "RAAC bonus if bond fills by Dec 31, 23:00 UTC: 10% for all buyers · 15% for Mythical tier & RAAC bot holders."
+  },
+  {
+    "index": 3070,
+    "cmcId": 8376,
+    "version": "2.1.0",
+    "chainId": 1,
+    "contractAddress": {
+      "1": "0xFceC3Fc291A7b6937904120f2d7917a32fC1306c"
+    },
+    "billType": "liquidity",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "WETH-MASQ",
+      "address": {
+        "1": "0x67746988D19F6883ECc5F13f530222b0e060dC88"
+      },
+      "decimals": {
+        "1": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
+      "liquidityWrapper": 2,
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "MASQ",
+      "address": {
+        "1": "0x06F3C323f0238c72BF35011071f2b5B7F43A054c"
+      },
+      "decimals": {
+        "1": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "1": "0x499b654b0a7f9979cc315190c09ca2633809b8df"
+    },
+    "projectLink": "https://www.masqbrowser.com/",
+    "twitter": "https://x.com/MASQ_ai",
+    "initTime": {
+      "1": 1767168885
+    },
+    "soldOut": false,
+    "hide": false,
+    "billArt": {
+      "collection": "ETH_Collection1"
+    },
+    "tags": ["DeFi"],
+    "shortDescription": "MASQ delivers a private web3 browsing experience through a peer-to-peer mesh network, enabling users to bypass censorship, access dApps, and enjoy borderless internet freedom. Its Chromium-based browser integrates ENS, IPFS, and web3 tools while rewarding users for sharing bandwidth. At the heart of this decentralized ecosystem is the MASQ utility token, used as a means of enabling and incentivising functionalities in the MASQ ecosystem.",
+    "fullDescription": "The MASQ software suite delivers a groundbreaking private web3 browsing experience powered by a peer-to-peer mesh network, enabling users to bypass censorship, geo-blocks, and centralized tracking. With its privacy-first Chromium-based interface, MASQ combines intuitive usability with powerful tools such as ENS and IPFS resolution, a curated web3 App Store, and seamless integration with Metamask and Frame extensions. Users can access dApps, crypto platforms, and metaverse services while supporting the network by sharing bandwidth, earning rewards in return. As the decentralized mesh-VPN expands, the network grows stronger, creating a borderless, censorship-resistant internet layer. MASQ also pioneers features like wallet-to-wallet encrypted messaging and decentralized storage integration, reinforcing its role as a foundation for web3 natives. Central to this ecosystem is the MASQ utility token, used as a means of enabling and incentivising functionalities in the MASQ ecosystem.",
+    "clickUpId": "86abfbqt2",
+    "warningCard": "A minimum 3% slippage is required to complete this Bond purchase."
   }
 ]
