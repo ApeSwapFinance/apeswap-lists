@@ -5827,7 +5827,7 @@
     },
     "active": true,
     "liquidityDex": {
-      "1": "UniswapV3"
+      "1": "External"
     }
   },
   "avax": {
