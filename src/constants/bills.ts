@@ -828,7 +828,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://plutusdao.io/',
     twitter: 'https://x.com/PlutusDAO_io',
     initTime: { [ChainId.BERACHAIN]: 1749549138 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Berachain_Collection1,
     },
@@ -4495,7 +4495,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.BSC]: 1765267936 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
