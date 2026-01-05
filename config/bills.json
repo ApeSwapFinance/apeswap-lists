@@ -1511,7 +1511,7 @@
     "initTime": {
       "80094": 1749549138
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "Berachain_Collection1"
     },
@@ -8576,7 +8576,7 @@
     "initTime": {
       "56": 1765267936
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
