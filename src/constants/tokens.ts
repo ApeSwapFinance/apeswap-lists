@@ -49,7 +49,7 @@ const tokens: Record<string, Token> = {
   pmusd: {
     symbol: 'pmUSD',
     address: {
-      [ChainId.MAINNET]: '0xC0c17dD08263C16f6b64E772fB9B723Bf1344DdF',
+      [ChainId.MAINNET]: '0xc0c17dd08263c16f6b64e772fb9b723bf1344ddf',
     },
     decimals: {
       [ChainId.MAINNET]: 18,
