@@ -35561,13 +35561,13 @@
     "earnToken": {
       "symbol": "pmUSD",
       "address": {
-        "1": "0xC0c17dD08263C16f6b64E772fB9B723Bf1344DdF"
+        "1": "0xc0c17dd08263c16f6b64e772fb9b723bf1344ddf"
       },
       "decimals": {
         "1": 18
       },
       "liquidityDex": {
-        "1": "UniswapV3"
+        "1": "External"
       },
       "active": true
     },
@@ -35647,5 +35647,60 @@
     "fullDescription": "The MASQ software suite delivers a groundbreaking private web3 browsing experience powered by a peer-to-peer mesh network, enabling users to bypass censorship, geo-blocks, and centralized tracking. With its privacy-first Chromium-based interface, MASQ combines intuitive usability with powerful tools such as ENS and IPFS resolution, a curated web3 App Store, and seamless integration with Metamask and Frame extensions. Users can access dApps, crypto platforms, and metaverse services while supporting the network by sharing bandwidth, earning rewards in return. As the decentralized mesh-VPN expands, the network grows stronger, creating a borderless, censorship-resistant internet layer. MASQ also pioneers features like wallet-to-wallet encrypted messaging and decentralized storage integration, reinforcing its role as a foundation for web3 natives. Central to this ecosystem is the MASQ utility token, used as a means of enabling and incentivising functionalities in the MASQ ecosystem.",
     "clickUpId": "86abfbqt2",
     "warningCard": "A minimum 3% slippage is required to complete this Bond purchase."
+  },
+  {
+    "index": 3071,
+    "cmcId": 31708,
+    "version": "2.1.0",
+    "chainId": 1,
+    "contractAddress": {
+      "1": "0xd8707246780daA7BC9596F2a46f49b33FA95DCf0"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+      },
+      "decimals": {
+        "1": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "HTS",
+      "address": {
+        "1": "0xC40629464351c37c1e1f47b3640eA2e7AeC31eA5"
+      },
+      "decimals": {
+        "1": 18
+      },
+      "liquidityDex": {
+        "1": "UniswapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "1": "0x499b654b0a7f9979cc315190c09ca2633809b8df"
+    },
+    "projectLink": "https://www.home3suite.com/",
+    "twitter": "https://x.com/Home3Suite",
+    "initTime": {
+      "1": 1767630825
+    },
+    "soldOut": false,
+    "hide": false,
+    "billArt": {
+      "collection": "ETH_Collection1"
+    },
+    "tags": ["RWA"],
+    "shortDescription": "HOME3 is transforming real estate by combining AI and blockchain to solve real-world problems with real-world assets. Through tokenization and on-chain finance, it makes property investment accessible, affordable, and transparent. Backed by experts across real estate, lending, and tech, HOME3 empowers users to search, buy, invest, and finance globally. Its utility token, HTS, powers equity and real estate-backed loans via PROP3 and LOAN3.",
+    "fullDescription": "HOME3 is revolutionizing real estate by merging AI and blockchain to solve real-world problems with real-world assets, making property investment accessible to all. Traditional real estate is burdened with high price tags and complex processes, leaving it exclusive to a select few. HOME3 breaks these barriers by building a complete platform where users can search, buy, invest, and finance real estate seamlessly on-chain. Backed by a diverse team of experts in property, lending, technology, and marketing, HOME3’s vision is to create a global marketplace that is inclusive, affordable, and transparent. By combining tokenization, AI-driven insights, and decentralized finance, the platform opens new opportunities for investors to earn from rental yields, REIT dividends, and property appreciation. At the core of this ecosystem is the HTS token, powering equity investments and real estate-backed loans on the upcoming PROP3 and LOAN3 platforms.",
+    "warningCard": "Fee Notice: Buying and selling HTS tokens incurs a 5% sell fee.",
+    "clickUpId": "86ae7v9b1"
   }
 ]

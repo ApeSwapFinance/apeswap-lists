@@ -32,6 +32,14 @@
       "id": "squirrel-wallet",
       "tokenAddress": "0x195f5c217b96cd3dd75d39327161b8911a42e509"
     },
+    "0xc0c17dd08263c16f6b64e772fb9b723bf1344ddf": {
+      "name": "Precious Metals USD",
+      "symbol": "pmUSD",
+      "decimals": 18,
+      "source": "coingecko",
+      "id": "precious-metals-usd",
+      "tokenAddress": "0xc0c17dd08263c16f6b64e772fb9b723bf1344ddf"
+    },
     "0x5D8AB16A943204a031fc94ef6Cb4D7A8c7E59602": {
       "name": "Syndicate of Vigilantes",
       "symbol": "VIGI",
