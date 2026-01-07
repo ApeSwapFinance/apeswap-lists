@@ -1083,6 +1083,32 @@ const tokens: Record<string, Token> = {
       [ChainId.MAINNET]: LiquidityDex.External,
     },
   },
+  fpmUSD: {
+    symbol: 'fpmUSD',
+    address: {
+      [ChainId.MAINNET]: '0x8fafd22bc09ac50ef3372158c02c95fe7ad11733',
+    },
+    decimals: {
+      [ChainId.MAINNET]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.External,
+    },
+  },
+  fusdc: {
+    symbol: 'fusdc',
+    address: {
+      [ChainId.MAINNET]: '0x0d25bfec8b9068f00c2b74c9b7b3633721d66b2c',
+    },
+    decimals: {
+      [ChainId.MAINNET]: 6,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.External,
+    },
+  },
   nuts: {
     symbol: 'NUTS',
     address: {
