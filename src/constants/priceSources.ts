@@ -790,6 +790,22 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       id: 'precious-metals-usd',
       tokenAddress: '0xc0c17dd08263c16f6b64e772fb9b723bf1344ddf',
     },
+    '0x8fafd22bc09ac50ef3372158c02c95fe7ad11733': {
+      name: 'Fake Precious Metals USD',
+      symbol: 'fpmUSD',
+      decimals: 18,
+      source: PriceSource.Coingecko,
+      id: 'precious-metals-usd',
+      tokenAddress: '0x8fafd22bc09ac50ef3372158c02c95fe7ad11733',
+    },
+    '0x0d25bfec8b9068f00c2b74c9b7b3633721d66b2c': {
+      name: 'Fake USDC',
+      symbol: 'fusdc',
+      decimals: 6,
+      source: PriceSource.Coingecko,
+      id: 'usdc',
+      tokenAddress: '0x0d25bfec8b9068f00c2b74c9b7b3633721d66b2c',
+    },
     '0x5D8AB16A943204a031fc94ef6Cb4D7A8c7E59602': {
       name: 'Syndicate of Vigilantes',
       symbol: 'VIGI',
