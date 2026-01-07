@@ -1086,7 +1086,7 @@ const tokens: Record<string, Token> = {
   fpmUSD: {
     symbol: 'fpmUSD',
     address: {
-      [ChainId.MAINNET]: '0x8fafd22bc09ac50ef3372158c02c95fe7ad11733',
+      [ChainId.MAINNET]: '0x58e6c2103d61e985828fb6148cf56e225a745b5a',
     },
     decimals: {
       [ChainId.MAINNET]: 18,
