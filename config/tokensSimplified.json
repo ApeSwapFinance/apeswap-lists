@@ -5830,32 +5830,6 @@
       "1": "External"
     }
   },
-  "fusdc": {
-    "symbol": "fusdc",
-    "address": {
-      "1": "0x0d25bfec8b9068f00c2b74c9b7b3633721d66b2c"
-    },
-    "decimals": {
-      "1": 6
-    },
-    "active": true,
-    "liquidityDex": {
-      "1": "External"
-    }
-  },
-  "fpmUSD": {
-    "symbol": "fpmUSD",
-    "address": {
-      "1": "0x58e6c2103d61e985828fb6148cf56e225a745b5a"
-    },
-    "decimals": {
-      "1": 18
-    },
-    "active": true,
-    "liquidityDex": {
-      "1": "External"
-    }
-  },
   "avax": {
     "symbol": "wAVAX",
     "address": {
