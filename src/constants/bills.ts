@@ -576,7 +576,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://aixovia.com/',
     twitter: 'https://x.com/aixovia',
     initTime: { [ChainId.SOL]: 1757589541 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Solana_Collection1,
     },
@@ -18686,6 +18686,40 @@ With the lending products set to go live in February, the project is poised to a
     warningCard: 'Fee Notice: Buying and selling HTS tokens incurs a 5% sell fee.',
     clickUpId: '86ae7v9b1',
   },
+  // {
+  //   index: 3072,
+  //   // cmcId: 0,
+  //   version: '2.1.0',
+  //   chainId: ChainId.MAINNET,
+  //   contractAddress: {
+  //     [ChainId.MAINNET]: '0x548eAE296e5589A1856705a35ca69AcF996d53a3', //TEST BOND DONT MERGE
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V4,
+  //   lpToken: tokens.fusdc,
+  //   earnToken: tokens.fpmUSD,
+  //   billNnftAddress: {
+  //     [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+  //   },
+  //   projectLink: 'https://raac.io',
+  //   twitter: 'https://x.com/Raacfi',
+  //   initTime: { [ChainId.MAINNET]: 1766067045 },
+  //   soldOut: false,
+  //   hide: false,
+  //   billArt: {
+  //     collection: BillArtCollection.ETH_Collection1,
+  //   },
+  //   tags: ['Extra Discount', 'STABLECOIN'],
+  //   shortDescription:
+  //     'RAAC is a decentralized DeFi lending and borrowing protocol powered by tokenized Real World Assets. It enables on-chain borrowing using collateral such as commodities, real estate, and capital market assets, while offering RWA vaults and stability mechanisms. RAAC bridges traditional value with DeFi, with pmUSD acting as its RWA-backed stablecoin.',
+  //   fullDescription:
+  //     'RAAC is a decentralized DeFi lending and borrowing ecosystem powered by tokenized Real World Assets, designed to bridge on-chain finance with tangible economic value. The protocol enables users to borrow and lend using RWAs such as commodities, real estate, and capital market instruments as collateral, while also supporting the creation of stablecoins backed by real-world assets. RAAC offers a comprehensive suite of products, including an on-chain lending and borrowing system, RWA vaults, and stability mechanisms that enhance capital efficiency and risk management. Its modular architecture allows seamless integration for external DeFi applications and provides transparent insight into how the protocol is built, governed, and parameterized. By combining decentralized infrastructure with real-world backing, RAAC aims to unlock scalable and sustainable DeFi use cases, with pmUSD serving as its core RWA-backed stablecoin within the ecosystem.',
+  //   clickUpId: '86adwj35g',
+  //   // minTier: LaunchBondTiers.Gold, // making this public
+  //   vestingCliff: 5184000,
+  //   warningCard:
+  //     'RAAC bonus if bond fills by Dec 31, 23:00 UTC: 10% for all buyers · 15% for Mythical tier & RAAC bot holders.',
+  // },
 ]
 
 export default bills
