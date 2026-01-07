@@ -603,7 +603,7 @@ const tokens: Record<string, Token> = {
       [ChainId.SONIC]: 18,
     },
     liquidityDex: {
-      [ChainId.SONIC]: LiquidityDex.Equalizer,
+      [ChainId.SONIC]: LiquidityDex.External,
     },
     active: true,
   },
@@ -8337,7 +8337,7 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
     liquidityDex: {
-      [ChainId.SONIC]: LiquidityDex.Equalizer,
+      [ChainId.SONIC]: LiquidityDex.External,
     },
     getLpUrl: {
       [ChainId.SONIC]: 'https://equalizer.exchange/liquidity/0x6D9B4d31C66291c13F33AE1B2D8c1a5Be8a77c4f/add',

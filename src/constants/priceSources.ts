@@ -697,6 +697,22 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       type: 'token',
       tokenAddress: '0x4Cae73a23078e7A94D1e828Fa3bABa5080c04FcA',
     },
+    '0x6D9B4d31C66291c13F33AE1B2D8c1a5Be8a77c4f': {
+      name: 'Equalizer Classic AMM - Wrapped Sonic paired with Moon Bay', // this is the onchain name of the pair
+      symbol: 'v-wS/MOON', // this is the onchain symbol of the pair
+      decimals: 18,
+      source: PriceSource.Dexscreener,
+      type: 'pair',
+      tokenAddress: '0x6D9B4d31C66291c13F33AE1B2D8c1a5Be8a77c4f',
+    },
+    '0x486B6Fa0419b33a0c7A6e4698c231D7E2f2D5299': {
+      name: 'Moon Bay',
+      symbol: 'MOON',
+      decimals: 18,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '0x486B6Fa0419b33a0c7A6e4698c231D7E2f2D5299',
+    },
   },
   [ChainId.UNICHAIN]: {
     '0x4200000000000000000000000000000000000006': {

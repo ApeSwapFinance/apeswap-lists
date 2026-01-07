@@ -1645,7 +1645,7 @@
       "active": true,
       "lpToken": true,
       "liquidityDex": {
-        "146": "Equalizer"
+        "146": "External"
       },
       "getLpUrl": {
         "146": "https://equalizer.exchange/liquidity/0x6D9B4d31C66291c13F33AE1B2D8c1a5Be8a77c4f/add"
@@ -1660,7 +1660,7 @@
         "146": 18
       },
       "liquidityDex": {
-        "146": "Equalizer"
+        "146": "External"
       },
       "active": true
     },
@@ -1702,7 +1702,7 @@
       "active": true,
       "lpToken": true,
       "liquidityDex": {
-        "146": "Equalizer"
+        "146": "External"
       },
       "getLpUrl": {
         "146": "https://equalizer.exchange/liquidity/0x6D9B4d31C66291c13F33AE1B2D8c1a5Be8a77c4f/add"
@@ -1717,7 +1717,7 @@
         "146": 18
       },
       "liquidityDex": {
-        "146": "Equalizer"
+        "146": "External"
       },
       "active": true
     },
@@ -1811,7 +1811,7 @@
       "active": true,
       "lpToken": true,
       "liquidityDex": {
-        "146": "Equalizer"
+        "146": "External"
       },
       "getLpUrl": {
         "146": "https://equalizer.exchange/liquidity/0x6D9B4d31C66291c13F33AE1B2D8c1a5Be8a77c4f/add"
@@ -1826,7 +1826,7 @@
         "146": 18
       },
       "liquidityDex": {
-        "146": "Equalizer"
+        "146": "External"
       },
       "active": true
     },
@@ -1986,7 +1986,7 @@
       "active": true,
       "lpToken": true,
       "liquidityDex": {
-        "146": "Equalizer"
+        "146": "External"
       },
       "getLpUrl": {
         "146": "https://equalizer.exchange/liquidity/0x6D9B4d31C66291c13F33AE1B2D8c1a5Be8a77c4f/add"
@@ -2001,7 +2001,7 @@
         "146": 18
       },
       "liquidityDex": {
-        "146": "Equalizer"
+        "146": "External"
       },
       "active": true
     },
