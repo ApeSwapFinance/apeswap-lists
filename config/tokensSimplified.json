@@ -393,7 +393,7 @@
     },
     "active": true,
     "liquidityDex": {
-      "146": "Equalizer"
+      "146": "External"
     },
     "lpToken": true,
     "getLpUrl": {
@@ -410,7 +410,7 @@
     },
     "active": true,
     "liquidityDex": {
-      "146": "Equalizer"
+      "146": "External"
     }
   },
   "amped": {
