@@ -1902,7 +1902,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/aitvgg',
     initTime: { [ChainId.BASE]: 1765532903 },
     soldOut: false,
-    hide: true,
+    hide: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
