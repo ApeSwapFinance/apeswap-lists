@@ -713,6 +713,30 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       type: 'token',
       tokenAddress: '0x486B6Fa0419b33a0c7A6e4698c231D7E2f2D5299',
     },
+    '0x50c42dEAcD8Fc9773493ED674b675bE577f2634b': {
+      name: 'Wrapped Ether on Sonic',
+      symbol: 'WETH',
+      decimals: 18,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '0x50c42dEAcD8Fc9773493ED674b675bE577f2634b',
+    },
+    '0x29219dd400f2Bf60E5a23d13Be72B486D4038894': {
+      name: 'USDC',
+      symbol: 'USDC',
+      decimals: 18,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '0x29219dd400f2Bf60E5a23d13Be72B486D4038894',
+    },
+    '0x6047828dc181963ba44974801ff68e538da5eaf9': {
+      name: 'Tether USD',
+      symbol: 'USDT',
+      decimals: 18,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '0x6047828dc181963ba44974801ff68e538da5eaf9',
+    },
   },
   [ChainId.UNICHAIN]: {
     '0x4200000000000000000000000000000000000006': {
