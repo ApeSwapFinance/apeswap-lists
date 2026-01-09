@@ -273,27 +273,6 @@ export const zapInputTokens: Partial<Record<ChainId, Token[]>> = {
       },
       active: true,
     },
-    // WMATIC or WPOL on BNB chain has been commented out up until we have clarity regarding the migration
-    // {
-    //   symbol: 'wPOL',
-    //   address: {
-    //     [ChainId.BSC]: '0xCC42724C6683B7E57334c4E856f4c9965ED682bD',
-    //   },
-    //   decimals: {
-    //     [ChainId.BSC]: 18,
-    //   },
-    //   active: true,
-    // },
-    {
-      symbol: 'AVAX',
-      address: {
-        [ChainId.BSC]: '0x1ce0c2827e2ef14d5c4f29a091d735a204794041',
-      },
-      decimals: {
-        [ChainId.BSC]: 18,
-      },
-      active: true,
-    },
     {
       symbol: 'ADA',
       address: {
@@ -544,12 +523,12 @@ export const zapInputTokens: Partial<Record<ChainId, Token[]>> = {
       active: true,
     },
     {
-      symbol: 'BTC',
+      symbol: 'cbBTC',
       address: {
-        [ChainId.BASE]: '0x0c41F1FC9022FEB69aF6dc666aBfE73C9FFDA7ce',
+        [ChainId.BASE]: '0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf',
       },
       decimals: {
-        [ChainId.BASE]: 18,
+        [ChainId.BASE]: 8,
       },
       active: true,
     },
