@@ -5,7 +5,7 @@ import {
   BillVersion,
   ChainId,
   LaunchBondTiers,
-  MarketingCampaign,
+  //MarketingCampaign,
   MigrationVestingTerms,
 } from '../types'
 
@@ -694,7 +694,6 @@ const bills: BillsConfig[] = [
     shortDescription: `Nodepay delivers predictive intelligence at global scale by aggregating user-driven insights, social signals, and real-time crypto market data. Users contribute signals and earn token rewards as part of a smarter intelligence market. NodeCoin ($NC) powers the network, enabling transactions, premium features, services, and rewarding contributors shaping the future of AI intelligence.`,
     tags: ['AI'],
     clickUpId: '86adwt6h9',
-    marketingCampaign: MarketingCampaign.Christmas2025,
   },
   {
     index: 18020,
@@ -1788,7 +1787,6 @@ const bills: BillsConfig[] = [
     fullDescription:
       'Toyow positions itself as the home of multi-category real-world asset tokenization, bringing traditionally offline value onchain through a unified and accessible marketplace. The platform enables users to tokenize and invest in assets across a wide range of sectors, including real estate, film, music, art, and other high-value opportunities, transforming how ownership and liquidity are experienced in the digital era. By bridging Web3 infrastructure with tangible assets, Toyow aims to unlock billions in real-world value and make global investment more inclusive, transparent, and efficient. At the core of this ecosystem is the TTN token, which powers platform transactions, incentivizes participation, and supports community engagement, while offering benefits such as discounts, reduced fees, exclusive marketplace access, and a buy-and-burn mechanism designed to create long-term value for TTN holders.',
     clickUpId: '86aa6zugv',
-    marketingCampaign: MarketingCampaign.Christmas2025,
     vestingCliff: 7776000, // 90 days cliff
   },
   {
@@ -1820,7 +1818,6 @@ const bills: BillsConfig[] = [
     fullDescription:
       'Toyow positions itself as the home of multi-category real-world asset tokenization, bringing traditionally offline value onchain through a unified and accessible marketplace. The platform enables users to tokenize and invest in assets across a wide range of sectors, including real estate, film, music, art, and other high-value opportunities, transforming how ownership and liquidity are experienced in the digital era. By bridging Web3 infrastructure with tangible assets, Toyow aims to unlock billions in real-world value and make global investment more inclusive, transparent, and efficient. At the core of this ecosystem is the TTN token, which powers platform transactions, incentivizes participation, and supports community engagement, while offering benefits such as discounts, reduced fees, exclusive marketplace access, and a buy-and-burn mechanism designed to create long-term value for TTN holders.',
     clickUpId: '86aa6zugv',
-    marketingCampaign: MarketingCampaign.Christmas2025,
   },
   {
     index: 8068,
@@ -1852,7 +1849,6 @@ const bills: BillsConfig[] = [
       'Black Mirror is one of the most influential dystopian franchises of the modern era, reflecting how technology reshapes identity, behavior, and social status. This project extends that narrative beyond the screen by introducing a Black Mirror–inspired Virtual Assistant and an on-chain reputation ecosystem where participation, influence, and trust become measurable digital assets. Drawing inspiration from themes like social scoring and digital judgment, the platform blends blockchain technology, social analysis, and interactive experiences to create a living system where user actions genuinely matter. Reputation evolves through on-chain activity and social engagement, forming a dynamic Social ID that can unlock access, rewards, and status across connected ecosystems. At the core of this loop is the MIRROR token, which powers reputation growth, staking mechanics, and ecosystem expansion, enabling users to actively shape, build, and grow the digital world they participate in.',
     clickUpId: '86ae1enu4',
     vestingCliff: 2592000, //30 Days Cliff
-    marketingCampaign: MarketingCampaign.Christmas2025,
   },
   {
     index: 8067,
@@ -1881,7 +1877,6 @@ const bills: BillsConfig[] = [
     fullDescription:
       'Blink Galaxy Blockchain (Blinkchain) is a gas-free Web3 gaming stack developed by SOREDI GAMES that unifies Outer Ring MMO (Alpha), Racerloop, and the Blink Galaxy hub under the $BG ecosystem. Built on SKALE for instant finality and fee-less gameplay, with $BG launching on Base for liquidity, Blinkchain enables seamless cross-title asset and reward portability through the Blink Passport, a Web2-simple identity system using email and password. The $BG token powers governance, rewards, marketplace fees and discounts, and cross-game incentives. With a fixed supply of 10B and a key milestone set for SKALE mainnet on January 1, 2026, Blinkchain leverages live IP, esports co-marketing, marketplace and crafting fees, and partner SDKs to convert mainstream gamers into on-chain participants and provide studios with a fee-less infrastructure for scalable game development.',
     clickUpId: '86ad8xn9y',
-    marketingCampaign: MarketingCampaign.Christmas2025,
   },
   {
     index: 8066,
@@ -4533,7 +4528,6 @@ const bills: BillsConfig[] = [
       'Tea-Fi is a decentralized finance platform built on the belief that DeFi should be simple, intuitive, and accessible without sacrificing security or decentralization. In an ecosystem often defined by fragmented tools and complex user journeys, Tea-Fi unifies everything into a seamless, all-in-one experience designed to empower individuals and communities to manage and grow digital assets with confidence. By abstracting technical friction, Tea-Fi makes interacting with DeFi as effortless as brewing a cup of tea, straightforward, secure, and rewarding. The platform features a powerful Yield Engine that aggregates diverse yield strategies into a single ecosystem, alongside Easy-Gas to remove the need for multiple gas tokens, cross-chain connectivity, self-custodial asset control, and an embedded privacy layer. At the core of the ecosystem is the TEA token, which can be staked to earn dynamic, time-based rewards, incentivizing long-term participation while supporting the sustainable growth of the Tea-Fi network.',
     clickUpId: '86adwj7r2',
     vestingCliff: 2592000, //30 days cliff
-    marketingCampaign: MarketingCampaign.Christmas2025,
   },
   {
     index: 1195,
@@ -4601,7 +4595,6 @@ const bills: BillsConfig[] = [
       'https://res.cloudinary.com/dswmrqgwy/image/upload/v1717613242/animoca_1_w2z9m1.png',
     ],
     clickUpId: '',
-    marketingCampaign: MarketingCampaign.Christmas2025,
   },
   {
     index: 1193,
@@ -4850,7 +4843,6 @@ const bills: BillsConfig[] = [
       'Astra Nova is redefining the relationship between entertainment and artificial intelligence by introducing the first-ever AI Entertainment Ecosystem that evolves with its audience. Designed to deliver deeply personalized, immersive, and rewarding experiences, Astra Nova draws inspiration from rich regional storytelling, iconic architecture, and cultural symbolism, fusing these elements with advanced AI to shape the future of interactive media. Its expanding cross-media universe includes a dynamic ARPG where every player decision transforms the world, NovaToon, an interactive comic app with AI-driven co-creation, Deviants Fight Club for fast PVP fun on Telegram, BlackPass for progression and loyalty, and TokenPlay.ai, a no-code platform enabling communities to build monetized mini-games. Powering this intelligent ecosystem is the RVV token, the core asset fueling its new entertainment economy.',
     vestingCliff: 5184000, //60 days
     clickUpId: '86acwq6q3',
-    marketingCampaign: MarketingCampaign.Christmas2025,
   },
   {
     index: 1185,
@@ -4978,7 +4970,6 @@ const bills: BillsConfig[] = [
     fullDescription:
       'Klink Finance is redefining affiliate advertising in Web3 by providing the technology infrastructure that enables platforms to grow, engage, and monetize their users through a global network of partner offers and campaigns. Backed by a community of over 900,000 platform users and a reach exceeding 5.1 million through its advertiser-publisher ecosystem, Klink collaborates with major industry players including the Arbitrum Foundation, Bybit, Coinbase, Crypto.com, XDC Network, Wirex, Revolut, Ledger, and hundreds of other global brands. Operating both a consumer-facing earnings platform and a commercial partner network, Klink delivers multi-chain airdrops, affiliate rewards, and monetization tools via its Offer API. The $KLINK token powers all advertising and affiliate transactions, driving demand and uniting advertiser budgets with user engagement across the entire Klink ecosystem.',
     clickUpId: '86acr6584',
-    marketingCampaign: MarketingCampaign.Christmas2025,
   },
   {
     index: 1181,
