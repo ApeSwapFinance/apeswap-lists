@@ -9,7 +9,7 @@ import {
   MigrationVestingTerms,
 } from '../types'
 
-// BNB Largest ID: 1197
+// BNB Largest ID: 1198
 // Polygon Largest ID: 188
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2034
@@ -4471,6 +4471,36 @@ const bills: BillsConfig[] = [
   // BNB chain
   //
   {
+    index: 1198,
+    version: '2.1.1',
+    cmcId: 31886,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x54e0A67b32854F4d694D66611A650f301c707539',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.lb,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://www.lovebit.org/',
+    twitter: 'https://x.com/lovebitofficial',
+    initTime: { [ChainId.BSC]: 1768221523 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Meme', 'SocialFi'],
+    shortDescription:
+      'LoveBit (LB) is a community-driven cryptocurrency that blends blockchain innovation with ESG principles. Launched in Q1 2024, it empowers users to fund social and environmental initiatives through a transparent governance model. With LoveBit4Good at its core, LoveBit drives sustainable impact while staying true to Satoshi Nakamoto’s vision. LB is a governance token that empowers the community to select and fund impactful ESG initiatives.',
+    fullDescription:
+      'LoveBit is a groundbreaking cryptocurrency project launched in the first quarter of 2024 that merges blockchain innovation with Environmental, Social, and Governance (ESG) principles. More than a token, LoveBit is a movement driven by the LoveBit4Good initiative, empowering a decentralized, transparent, and community-led ecosystem where environmental activists and social change leaders unite. Inspired by Satoshi Nakamoto’s vision of decentralization and financial fairness, LoveBit evolves that legacy by integrating ESG values into the crypto space. Through strategic exchange listings, partnerships with NGOs and influencers, and a governance model that allows the community to vote on ESG initiatives, LoveBit ensures that sustainability, ethical finance, and financial growth go hand in hand—ushering in a new era of impact-driven blockchain adoption.',
+    warningCard: `This token is currently only tradable on the following CEXs: <a href="https://www.mexc.com/exchange/LB_USDT/" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a> and <a href="https://www.lbank.com/trade/lb_usdt/" target="_blank" rel="noopener noreferrer" style="color: #6099c5">LBank</a>.`,
+    clickUpId: '86a7ewtzj',
+  },
+  {
     index: 1197,
     cmcId: 37596,
     version: '2.1.0',
@@ -5304,7 +5334,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.lovebit.org/',
     twitter: 'https://x.com/lovebitofficial',
     initTime: { [ChainId.BSC]: 1758636096 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
