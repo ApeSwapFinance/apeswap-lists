@@ -4862,7 +4862,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://astranova.world/',
     twitter: 'https://x.com/Astra__Nova',
     initTime: { [ChainId.BSC]: 1761941545 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -4892,7 +4892,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://astranova.world/',
     twitter: 'https://x.com/Astra__Nova',
     initTime: { [ChainId.BSC]: 1761941545 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
