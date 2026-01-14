@@ -404,7 +404,8 @@ export interface PreTGEConfig extends BaseBondConfig {
 
 // Start of list types
 export interface BillsConfig extends BaseBondConfig {
-  cmcId?: number
+  cmcId?: number // Deprecated - use cgId instead
+  cgId?: string // CoinGecko ID (e.g., "bitcoin", "ethereum")
   hide?: boolean
   initTime?: Partial<Record<ChainId, number>>
   showcaseToken?: Token
