@@ -1837,7 +1837,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.blackmirrorclub.com/',
     twitter: 'https://x.com/blackmirror_xp',
     initTime: { [ChainId.BASE]: 1766400199 },
-    soldOut: false,
+    soldOut: true,
     hide: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
