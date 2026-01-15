@@ -260,6 +260,7 @@ const bills: BillsConfig[] = [
     tags: ['RWA'],
     warningCard: `This token is currently only tradable on <a href="https://www.lbank.com/trade/rkey_usdt" target="_blank" rel="noopener noreferrer" style="color: #6099c5">LBank</a>.`,
     clickUpId: '86a9v11vw',
+    cgId: 'rkey',
   },
   {
     index: 18004,
@@ -287,6 +288,7 @@ const bills: BillsConfig[] = [
     tags: ['RWA'],
     warningCard: `This token is currently only tradable on <a href="https://www.lbank.com/trade/rkey_usdt" target="_blank" rel="noopener noreferrer" style="color: #6099c5">LBank</a>.`,
     clickUpId: '86a9v11vw',
+    cgId: 'rkey',
   },
   {
     index: 18005,
@@ -529,6 +531,7 @@ const bills: BillsConfig[] = [
       "Hivello is on a mission to simplify DePIN node participation for the masses by removing the technical hurdles typically associated with decentralized networks. At the core of this effort is a radically simple desktop application that enables users to earn passive income by contributing unused computer resources. Whether it's a PC, router, modem, or storage device, users can seamlessly participate in Web3 without any prior blockchain knowledge or technical expertise. By unlocking a user-friendly gateway into decentralized infrastructure, Hivello empowers individuals to support and benefit from DePIN protocols while reinforcing the broader network. At the heart of this ecosystem is the $HVLO token, which fuels rewards, staking, and participation, making Web3 both accessible and rewarding for everyone.",
     tags: ['DePiN'],
     clickUpId: '86aawae2c',
+    cgId: 'hivello',
   },
   {
     index: 18014,
@@ -615,6 +618,7 @@ const bills: BillsConfig[] = [
       'Foxsy AI is a cutting-edge online robotics lab that offers remote access to advanced simulation environments and, in the near future, real hardware. Designed to bridge the gap between robotics, AI, and blockchain, the platform enables users to experiment, build, and collaborate from anywhere in the world. While full-scale hardware deployment is underway, early adopters can dive into realistic simulations, participate in community-led projects, and engage through secure blockchain-based transactions. With a mission to integrate autonomous systems into everyday life, Foxsy AI combines decades of expertise with global collaboration to drive innovation in AI and robotics. At the heart of this ecosystem lies the $FOXSY token, powering access to premium tools, opportunities, and DeFi rewards through staking, liquidity pools, and yield farming—making $FOXSY the fuel for innovation and growth within the Foxsy AI universe.',
     tags: ['AI'],
     clickUpId: '86a9udjgd',
+    cgId: 'foxsy-ai',
   },
   {
     index: 18017,
@@ -667,6 +671,7 @@ const bills: BillsConfig[] = [
     shortDescription: `Dogelon Mars is a community-driven memecoin inspired by space exploration and the dream of reaching Mars. The project blends storytelling, humor, and community engagement to create an enthusiastic movement. Its mission centers on growth through shared vision rather than financial promises. The ELON token serves as the core of the ecosystem, enabling participation in community initiatives and future utility.`,
     tags: ['Community', 'Meme'],
     clickUpId: '86addquqh',
+    cgId: 'dogelon-mars',
   },
   {
     index: 18019,
@@ -694,6 +699,7 @@ const bills: BillsConfig[] = [
     shortDescription: `Nodepay delivers predictive intelligence at global scale by aggregating user-driven insights, social signals, and real-time crypto market data. Users contribute signals and earn token rewards as part of a smarter intelligence market. NodeCoin ($NC) powers the network, enabling transactions, premium features, services, and rewarding contributors shaping the future of AI intelligence.`,
     tags: ['AI'],
     clickUpId: '86adwt6h9',
+    cgId: 'nodecoin',
   },
   {
     index: 18020,
@@ -721,6 +727,7 @@ const bills: BillsConfig[] = [
     tags: ['AI Agent'],
     warningCard: `This token is currently only tradable on <a href="https://www.mexc.com/exchange/SKORAI_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a>.`,
     clickUpId: '86a9rje9q',
+    cgId: 'skor-ai',
   },
   //
   // Berachain
@@ -1728,6 +1735,7 @@ const bills: BillsConfig[] = [
     fullDescription:
       'Planet IX is a pioneering Web3 strategy game that emerged on Polygon in 2021 and rapidly evolved into one of the ecosystem’s largest gaming experiences. Players trade land, expand territories, and stake digital assets, forming a deeply engaged community where nearly 70% of tokens are staked. Now entering its most transformative phase, Planet IX is expanding its universe with AI-powered upgrades, new strategic assets, and advanced in-game mechanics. As part of its evolution, the project is migrating to Base to unlock faster transactions, broader liquidity, and enhanced scalability. Central to this new chapter is the AIX token, designed to power Season 2 with utility, competitive rewards, and elevated DeFi opportunities.',
     clickUpId: '86ae7trva',
+    cgId: 'planet-ix',
   },
   {
     index: 8071,
@@ -1788,6 +1796,7 @@ const bills: BillsConfig[] = [
       'Toyow positions itself as the home of multi-category real-world asset tokenization, bringing traditionally offline value onchain through a unified and accessible marketplace. The platform enables users to tokenize and invest in assets across a wide range of sectors, including real estate, film, music, art, and other high-value opportunities, transforming how ownership and liquidity are experienced in the digital era. By bridging Web3 infrastructure with tangible assets, Toyow aims to unlock billions in real-world value and make global investment more inclusive, transparent, and efficient. At the core of this ecosystem is the TTN token, which powers platform transactions, incentivizes participation, and supports community engagement, while offering benefits such as discounts, reduced fees, exclusive marketplace access, and a buy-and-burn mechanism designed to create long-term value for TTN holders.',
     clickUpId: '86aa6zugv',
     vestingCliff: 7776000, // 90 days cliff
+    cgId: 'toyow-token',
   },
   {
     index: 8069,
@@ -1877,6 +1886,7 @@ const bills: BillsConfig[] = [
     fullDescription:
       'Blink Galaxy Blockchain (Blinkchain) is a gas-free Web3 gaming stack developed by SOREDI GAMES that unifies Outer Ring MMO (Alpha), Racerloop, and the Blink Galaxy hub under the $BG ecosystem. Built on SKALE for instant finality and fee-less gameplay, with $BG launching on Base for liquidity, Blinkchain enables seamless cross-title asset and reward portability through the Blink Passport, a Web2-simple identity system using email and password. The $BG token powers governance, rewards, marketplace fees and discounts, and cross-game incentives. With a fixed supply of 10B and a key milestone set for SKALE mainnet on January 1, 2026, Blinkchain leverages live IP, esports co-marketing, marketplace and crafting fees, and partner SDKs to convert mainstream gamers into on-chain participants and provide studios with a fee-less infrastructure for scalable game development.',
     clickUpId: '86ad8xn9y',
+    cgId: `blink-galaxy-2`,
   },
   {
     index: 8066,
@@ -1908,6 +1918,7 @@ const bills: BillsConfig[] = [
       'AITV is the world’s first AI Streamer Factory, enabling anyone to launch interactive AI livestreamers in minutes and monetize every moment of engagement. Built by veterans from Disney+, Xbox, and Ethereum, AITV introduces an Autonomous Agentic Media Network where AI agents evolve into creators, collaborators, and economic engines. Unlike static content or passive AI tools, AITV agents are character-driven personalities that engage audiences in real time through conversation, co-creation, and on-chain incentives. These agents can educate, entertain, or inform across crypto, culture, gaming, sports, and niche communities, each with a distinct voice and purpose. AITV also empowers creators, brands, and Web3 projects with advanced tooling to design agent personalities, control behavior and scheduling, and define revenue models or token rewards, with seamless integration into platforms like YouTube, Twitch, and future social channels. At the core of this ecosystem is the AITV token, which serves as the governance, incentive, and value-capture layer aligning agents, audiences, and creators within the AITV protocol.',
     clickUpId: '86adw6crm',
     vestingCliff: 2160000,
+    cgId: `gentcoin-tv`,
   },
   {
     index: 8065,
@@ -1994,6 +2005,7 @@ const bills: BillsConfig[] = [
     fullDescription:
       'Artura is a high-performance, Bitcoin-native perpetual DEX engineered for traders seeking exposure to the market’s most dynamic narratives, including memes, AI, Runes, and RWAs. Built on leading Bitcoin Layer 2 solutions such as Hemi and Botanix, it delivers zero-slippage synthetic trading with leverage up to 150x and enables rapid listing of emerging assets. At its core lies a decentralized vault architecture that allows participants to earn passive yield from trading volume while helping steer protocol development through governance. All executions occur fully on-chain, blending complete self-custody with the speed and efficiency typically associated with centralized exchanges. The ARA token is the native utility and governance asset powering incentives, staking rewards, and future decision-making across the Artura ecosystem, aligning traders and the community around long-term growth.',
     clickUpId: '86adm0wcf',
+    cgId: 'ara',
   },
   {
     index: 8062,
@@ -2022,6 +2034,7 @@ const bills: BillsConfig[] = [
     fullDescription:
       'Omni Exchange is redefining the decentralized exchange landscape by creating a unified liquidity layer that connects major EVM networks and beyond. Built to address DeFi’s systemic flaws, such as the collapse of veToken governance, unsustainable emissions, and fragmented liquidity, Omni introduces a model rooted in sustainability, scalability, and real value creation. It aligns long-term incentives through veOMNI, empowering holders with genuine rewards sourced from over $700K in protocol-owned liquidity, real revenue buybacks, and a growing bribe market that strengthens governance participation. By merging cross-chain functionality with sound tokenomics, Omni Exchange enables seamless interaction between users, capital, and protocols, fostering a sustainable and interconnected DeFi ecosystem. The $OMNI token serves as the foundation of this vision driving governance, liquidity incentives, and value transfer across the network. DeFi made omnipresent.',
     clickUpId: '86accmz44',
+    cgId: 'omni-exchange-token',
   },
   {
     index: 8061,
@@ -2301,6 +2314,7 @@ const bills: BillsConfig[] = [
     shortDescription: `Functionland is a Web3 project empowering users to truly own their data. It began with Fotos, a decentralized photo and video app, and expanded into building missing pieces of the Web3 stack. To support this, Functionland introduced $FULA—a chain-agnostic token that incentivizes storage and compute providers, ensuring data permanence and developer monetization.`,
     fullDescription: `Functionland is a Web3-native project built on the foundational belief that individuals have an inalienable right to own their personal data. It began with the development of Fotos, a decentralized alternative to mainstream photo and video storage apps, designed to return ownership of media to users. However, in the process, the team discovered critical gaps in the Web3 infrastructure, particularly around decentralized storage, compute, and developer monetization. To address these challenges, Functionland introduced the $FULA token—a chain-agnostic utility token that powers its ecosystem. $FULA incentivizes individuals to contribute storage and computational resources, ensuring long-term access to data and enabling developers to build and monetize Web3 applications seamlessly.`,
     clickUpId: '86a9rhy26',
+    cgId: 'functionland',
   },
   {
     index: 8051,
@@ -4499,6 +4513,7 @@ const bills: BillsConfig[] = [
       'LoveBit is a groundbreaking cryptocurrency project launched in the first quarter of 2024 that merges blockchain innovation with Environmental, Social, and Governance (ESG) principles. More than a token, LoveBit is a movement driven by the LoveBit4Good initiative, empowering a decentralized, transparent, and community-led ecosystem where environmental activists and social change leaders unite. Inspired by Satoshi Nakamoto’s vision of decentralization and financial fairness, LoveBit evolves that legacy by integrating ESG values into the crypto space. Through strategic exchange listings, partnerships with NGOs and influencers, and a governance model that allows the community to vote on ESG initiatives, LoveBit ensures that sustainability, ethical finance, and financial growth go hand in hand—ushering in a new era of impact-driven blockchain adoption.',
     warningCard: `This token is currently only tradable on the following CEXs: <a href="https://www.mexc.com/exchange/LB_USDT/" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a> and <a href="https://www.lbank.com/trade/lb_usdt/" target="_blank" rel="noopener noreferrer" style="color: #6099c5">LBank</a>.`,
     clickUpId: '86a7ewtzj',
+    cgId: 'lovebit',
   },
   {
     index: 1197,
@@ -4528,6 +4543,7 @@ const bills: BillsConfig[] = [
     fullDescription:
       'RICE AI is a decentralized AI foundry dedicated to advancing AGI-powered robotics through an open and community-driven approach. Backed by leading innovators and programs within the blockchain and AI ecosystem, it enables any robot in the world to integrate into its network and contribute valuable real-world data. By building a DePIN protocol for robotics data sharing, RICE AI solves one of the biggest challenges in the industry: the data scarcity bottleneck that limits the development of truly intelligent autonomous machines. Its multimodal AI foundation models support language, vision, and navigation, allowing robots to learn, adapt, and evolve to human needs while operating in physical environments. RICE AI champions a future where robotics innovation is not controlled by a handful of corporations, but shaped collaboratively by global participants through a decentralized marketplace for AGI robotics development, powered by the RICE token.',
     clickUpId: '86aeba9vw',
+    cgId: 'rice-ai',
   },
   {
     index: 1196,
@@ -4558,6 +4574,7 @@ const bills: BillsConfig[] = [
       'Tea-Fi is a decentralized finance platform built on the belief that DeFi should be simple, intuitive, and accessible without sacrificing security or decentralization. In an ecosystem often defined by fragmented tools and complex user journeys, Tea-Fi unifies everything into a seamless, all-in-one experience designed to empower individuals and communities to manage and grow digital assets with confidence. By abstracting technical friction, Tea-Fi makes interacting with DeFi as effortless as brewing a cup of tea, straightforward, secure, and rewarding. The platform features a powerful Yield Engine that aggregates diverse yield strategies into a single ecosystem, alongside Easy-Gas to remove the need for multiple gas tokens, cross-chain connectivity, self-custodial asset control, and an embedded privacy layer. At the core of the ecosystem is the TEA token, which can be staked to earn dynamic, time-based rewards, incentivizing long-term participation while supporting the sustainable growth of the Tea-Fi network.',
     clickUpId: '86adwj7r2',
     vestingCliff: 2592000, //30 days cliff
+    cgId: 'teafi-token',
   },
   {
     index: 1195,
@@ -4587,6 +4604,7 @@ const bills: BillsConfig[] = [
     fullDescription:
       'Etarn is revolutionizing waste disposal by transforming everyday sanitation into a driver of sustainability, public health, and economic empowerment. Through AI-powered Smart Toilets and blockchain technology, human waste is converted into liquid fertilizer and, in the future, carbon credits, creating real-world value from daily actions. By integrating advanced technology with eco-friendly infrastructure, Etarn addresses global sanitation challenges while enabling communities to benefit from cleaner environments and new income opportunities. Its mission is to turn routine behavior into meaningful environmental impact and long-term social progress, building a scalable and sustainable global ecosystem. At the center of this model is the ETAN token, the native asset that facilitates carbon credit trading, rewards Smart Toilet usage, and supports transparent, secure, and sustainable growth across the platform.',
     clickUpId: '86aczy0kc',
+    cgId: 'etarn',
   },
   {
     index: 1194,
@@ -4655,6 +4673,7 @@ const bills: BillsConfig[] = [
       'Custodiy emerges as a comprehensive “Custodiy as a Service” platform, enabling tokenization, real-world assets (RWA) and digital assets, and allowing users to create, trade and manage digital assets via smart contracts. The platform supports an OTC service for projects that already have their own tokens and want to sell them. For merchants, producers or store owners, Custodiy provides a Marketplace enabling sales of goods or services with stablecoin or fiat payments, offers, escrow-based transaction approval, and on-chain product traceability. Through its modular WebApp, Custodiy integrates with major blockchains, supports stablecoins (USDT, USDC, etc.), and delivers escrow and escrow-contract services, document archiving, and asset custody, all aimed at bridging traditional finance and Web3. The native token CTY underpins the ecosystem: every service in Custodiy, contract creation, escrow, marketplace operations, is paid using CTY, making the token essential for accessing and leveraging the platform’s full suite of features.',
     warningCard: `This token is currently only tradable on <a href="https://www.lbank.com/trade/cty_usdt?icode=39165" target="_blank" rel="noopener noreferrer" style="color: #6099c5">LBank</a>.`,
     clickUpId: '86adq8x13',
+    cgId: 'custodiy-2',
   },
   {
     index: 1192,
@@ -4685,6 +4704,7 @@ const bills: BillsConfig[] = [
       'Seed NFT Marketplace is the premier Web3 hub for photographers, artists, and collectors, merging blockchain innovation with authentic creativity. The platform empowers photographers to mint, verify, and showcase their work as NFTs, ensuring collectors obtain genuine, immutable creations. Tackling the $80 billion photography industry’s losses from unauthorized use, Seed.Photo guarantees ownership protection, revenue maximization with over 99% retained by creators, and cost-free migration into Web3 by covering blockchain and gas fees. With global promotion opportunities in iconic locations, AI-powered tools, and features like CashClick, Lens Legacy, and Awards.Photos, Seed redefines transparency, community engagement, and creative empowerment. At the core of this ecosystem lies the SEED token, driving transactions, rewards, and collaboration across its inclusive marketplace.',
     warningCard: `This token is currently only tradable on <a href="https://www.mexc.com/exchange/PHOTO_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a>.`,
     clickUpId: '86ab9t4zy',
+    cgId: 'seed-photo',
   },
   // THIS CAMTEST BOND IS A DUMMY BOND THAT WON'T GO TO PRODUCTION, ONLY STAGING.
   {
@@ -5000,6 +5020,7 @@ const bills: BillsConfig[] = [
     fullDescription:
       'Klink Finance is redefining affiliate advertising in Web3 by providing the technology infrastructure that enables platforms to grow, engage, and monetize their users through a global network of partner offers and campaigns. Backed by a community of over 900,000 platform users and a reach exceeding 5.1 million through its advertiser-publisher ecosystem, Klink collaborates with major industry players including the Arbitrum Foundation, Bybit, Coinbase, Crypto.com, XDC Network, Wirex, Revolut, Ledger, and hundreds of other global brands. Operating both a consumer-facing earnings platform and a commercial partner network, Klink delivers multi-chain airdrops, affiliate rewards, and monetization tools via its Offer API. The $KLINK token powers all advertising and affiliate transactions, driving demand and uniting advertiser budgets with user engagement across the entire Klink ecosystem.',
     clickUpId: '86acr6584',
+    cgId: 'klink-finance',
   },
   {
     index: 1181,
@@ -12948,6 +12969,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     fullDescription: `Galaxis empowers creators and communities with customizable, utility-packed membership cards enhanced by badges. From virtual meetings to physical rewards and gamification, Galaxis brings engagement to the next level. At the core of it all is $GALAXIS — the utility token that fuels community growth. Use it to access perks, vote, join events, or stake to boost your treasury and leaderboard rank. Whether you're Web3-native or not, Galaxis helps you build a sustainable and independent community economy.`,
     tags: ['DeFi Tooling'],
     clickUpId: '86a95q39p',
+    cgId: 'galaxis-token',
   },
   {
     index: 184,
@@ -15706,6 +15728,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     fullDescription: `Kima is a Cosmos SDK-based blockchain that solves cross-chain interoperability without adding liquidity fragmentation by enabling atomic swaps across multiple blockchains—like Ethereum, Polygon, and Solana—without wrapping tokens. It uses a unique committee-based consensus with rotating “wardens” who manage liquidity pools and authorize transfers only after validating source-chain deposits, leveraging Threshold Signature Schemes inside Trusted Execution Environments for added security. Kima operates on a dual-layer model: a permissioned validator layer with trusted entities and a permissionless layer for broader participation. The protocol governs warden selection, platform parameters, and records every swap for full auditability, while also enabling future cross-chain messaging. Kima’s token, $KIMA, underpins security, validator rewards, ecosystem growth, and transaction and liquidity operations, ensuring a decentralized and efficient cross-chain experience.`,
     warningCard: `This token is currently only tradable on the following CEXs: <a href="https://www.mexc.com/en-GB/exchange/KIMA_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a>, <a href="https://www.gate.com/trade/KIMA_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">Gate</a>, <a href="https://www.kucoin.com/trade/KIMA-USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">KuCoin</a> and <a href="https://www.htx.com/trade/kima_usdt" target="_blank" rel="noopener noreferrer" style="color: #6099c5">HTX</a>.`,
     clickUpId: '86aceavwt',
+    cgId: 'kima',
   },
   {
     index: 2033,
@@ -17637,6 +17660,7 @@ With the lending products set to go live in February, the project is poised to a
     shortDescription: `Bunny is the newest contender in the crypto world, aiming to take over with big dreams inspired by his Uncle Bucks, the crypto king known for his luxury lifestyle. Holding $BUNNY grants access to the exclusive Bucks Bunny Club, where members unlock real-world perks and VIP experiences. As an innovative token, $BUNNY bridges interactive gaming with unique, luxury-driven community engagement.`,
     fullDescription: `Bunny is the newest contender in the crypto world, bringing bold dreams and a luxurious vision inspired by his Uncle Bucks, the crypto king renowned for his extravagant lifestyle of villas, yachts, and endless VIP parties. Holding $BUNNY isn’t just about owning a token—it’s a gateway to the exclusive Bucks Bunny Club, where members unlock unparalleled real-world experiences and elite perks. Divided into three tiers, the club rewards holders with access to private events, including concerts, red carpets, art tours, and even yacht parties or zero-G adventures. Beyond its meme origins, $BUNNY stands as a bridge between digital assets, interactive gaming, and unique luxury experiences, fostering a vibrant community that thrives on exclusivity and high-profile living. With dreams of taking over the crypto space, Bunny invites everyone to stack their $BUNNY and join a movement that’s all about living the extraordinary life.`,
     clickUpId: '86a5xxnzp',
+    cgId: 'moon-bay-2',
   },
   {
     index: 3035,
@@ -18517,6 +18541,7 @@ With the lending products set to go live in February, the project is poised to a
       'ADO Protocol is a next-gen DEX offering ultra-low fees and built-in MEV protection without custody or keys. Trades are up to 5x cheaper than Uniswap, and elastic liquidity delivers 30–50% APY by shifting between ETH and USDC. The ADO token powers the ecosystem, with 25% of all platform revenue allocated to buybacks. Buy ADO, join the community, and say goodbye to sky-high fees and MEV bot attacks.',
     fullDescription: `ADO Protocol is a next-gen DEX designed to crush high fees and eliminate MEV bot attacks for good. With trading costs up to 5x cheaper than Uniswap for regular trades and powerful MEV protection for private trades, users save big while staying secure. Traders benefit from fewer fees, more tokens per swap, and built-in bot defense with no custody or keys required. Projects can supercharge liquidity in Uniswap V2 pools while earning 100% of DEX fees on Uniswap V3. Thanks to elastic liquidity, all capital in the DEX earns 30–50% APY by dynamically shifting between ETH and USDC based on market conditions. Add seamless no-code website integration, fiat on-ramps, and a whale-only group for ADO holders, and you've got a full-featured DeFi powerhouse with 25% of all platform revenue going towards ADO buybacks. Buy ADO, join the community, and say goodbye to sky-high fees and MEV bot attacks.`,
     clickUpId: '86adbrrq0',
+    cgId: 'ado-network',
   },
   {
     index: 3065,
@@ -18547,6 +18572,7 @@ With the lending products set to go live in February, the project is poised to a
       'Litas is a regulated platform connecting crypto investors with real-world small and medium enterprise loans, enabling users to invest their digital assets into tokenized RWA loan products. Companies receive funding in euros, while investors earn monthly returns as these loans are repaid. Operating under Lithuania’s regulatory framework and preparing for broader compliance with upcoming EU MiCA and ECSP licensing, Litas ensures a secure, transparent, and compliant bridge between decentralized finance and the traditional economy. The platform offers reliable capital to businesses while maintaining strict financial oversight. The LITAS token grants holders a proportional share of SME loan repayments, providing intrinsic value backed by expected cash flows. Buy a Bond valued at $50+ in LITAS tokens and join an exciting raffle hosted by the Litas team.',
     warningCard: `This token is currently only tradable on the following CEXs: <a href="https://www.mexc.com/exchange/LITAS_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a> and <a href="https://www.bifinance.com/trade?symbol=LITAS/USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">Bifinance</a>.`,
     clickUpId: '86aazcr20',
+    cgId: 'litas',
   },
   {
     index: 3066,
@@ -18609,6 +18635,7 @@ With the lending products set to go live in February, the project is poised to a
     vestingCliff: 2592000,
     clickUpId: '86adpe71v',
     warningCard: `This token is currently only tradable on <a href="https://bingx.com/en/spot/VIGIUSDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">BingX</a>.`,
+    cgId: 'syndicate-of-vigilantes',
   },
   {
     index: 3068,
@@ -18705,6 +18732,7 @@ With the lending products set to go live in February, the project is poised to a
       'The MASQ software suite delivers a groundbreaking private web3 browsing experience powered by a peer-to-peer mesh network, enabling users to bypass censorship, geo-blocks, and centralized tracking. With its privacy-first Chromium-based interface, MASQ combines intuitive usability with powerful tools such as ENS and IPFS resolution, a curated web3 App Store, and seamless integration with Metamask and Frame extensions. Users can access dApps, crypto platforms, and metaverse services while supporting the network by sharing bandwidth, earning rewards in return. As the decentralized mesh-VPN expands, the network grows stronger, creating a borderless, censorship-resistant internet layer. MASQ also pioneers features like wallet-to-wallet encrypted messaging and decentralized storage integration, reinforcing its role as a foundation for web3 natives. Central to this ecosystem is the MASQ utility token, used as a means of enabling and incentivising functionalities in the MASQ ecosystem.',
     clickUpId: '86abfbqt2',
     warningCard: `A minimum 3% slippage is required to complete this Bond purchase.`,
+    cgId: 'masq',
   },
   {
     index: 3071,
