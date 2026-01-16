@@ -1725,7 +1725,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://planetix.com/',
     twitter: 'https://x.com/Planetix0',
     initTime: { [ChainId.BASE]: 1767621354 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -4724,7 +4724,7 @@ const bills: BillsConfig[] = [
     projectLink: 'hhttps://camino.network/',
     twitter: 'https://x.com/camino_network',
     initTime: { [ChainId.BSC]: 1764253955 },
-    soldOut: false,
+    soldOut: true,
     hide: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
