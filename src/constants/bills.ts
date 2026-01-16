@@ -4724,7 +4724,7 @@ const bills: BillsConfig[] = [
     projectLink: 'hhttps://camino.network/',
     twitter: 'https://x.com/camino_network',
     initTime: { [ChainId.BSC]: 1764253955 },
-    soldOut: false,
+    soldOut: true,
     hide: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
