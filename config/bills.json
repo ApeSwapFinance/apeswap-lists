@@ -3193,60 +3193,6 @@
     "clickUpId": ""
   },
   {
-    "index": 8073,
-    "cmcId": 17131,
-    "version": "2.1.0",
-    "chainId": 8453,
-    "contractAddress": {
-      "8453": "0xC3AE1227D7872E6742Fb73192961e631413C5247"
-    },
-    "billType": "reserve",
-    "billVersion": "V4",
-    "lpToken": {
-      "symbol": "USDC",
-      "address": {
-        "8453": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
-      },
-      "decimals": {
-        "8453": 6
-      },
-      "liquidityDex": {
-        "8453": "Aerodrome"
-      },
-      "active": true
-    },
-    "earnToken": {
-      "symbol": "USDC",
-      "address": {
-        "8453": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
-      },
-      "decimals": {
-        "8453": 6
-      },
-      "liquidityDex": {
-        "8453": "Aerodrome"
-      },
-      "active": true
-    },
-    "billNnftAddress": {
-      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
-    },
-    "projectLink": "https://planetix.com/",
-    "twitter": "https://x.com/Planetix0",
-    "initTime": {
-      "8453": 1767621354
-    },
-    "soldOut": false,
-    "billArt": {
-      "collection": "ApeBond_Collection1"
-    },
-    "tags": ["GameFi"],
-    "shortDescription": "TEST BOND DONT MERGE",
-    "fullDescription": "TEST BOND DONT MERGE",
-    "clickUpId": "86ae7trva",
-    "cgId": "usd-coin"
-  },
-  {
     "index": 8072,
     "cmcId": 17131,
     "version": "2.1.0",

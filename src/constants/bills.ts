@@ -1707,34 +1707,34 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
-  {
-    index: 8073,
-    cmcId: 17131,
-    version: '2.1.0',
-    chainId: ChainId.BASE,
-    contractAddress: {
-      [ChainId.BASE]: '0xC3AE1227D7872E6742Fb73192961e631413C5247', // fixed price test bond, don't merge.
-    },
-    billType: 'reserve',
-    billVersion: BillVersion.V4,
-    lpToken: tokens.usdc,
-    earnToken: tokens.usdc,
-    billNnftAddress: {
-      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
-    },
-    projectLink: 'https://planetix.com/',
-    twitter: 'https://x.com/Planetix0',
-    initTime: { [ChainId.BASE]: 1767621354 },
-    soldOut: false,
-    billArt: {
-      collection: BillArtCollection.ApeBond_Collection1,
-    },
-    tags: ['GameFi'],
-    shortDescription: 'TEST BOND DONT MERGE',
-    fullDescription: 'TEST BOND DONT MERGE',
-    clickUpId: '86ae7trva',
-    cgId: 'usd-coin',
-  },
+  // {
+  //   index: 8073,
+  //   cmcId: 17131,
+  //   version: '2.1.0',
+  //   chainId: ChainId.BASE,
+  //   contractAddress: {
+  //     [ChainId.BASE]: '0xC3AE1227D7872E6742Fb73192961e631413C5247', // fixed price test bond, don't merge.
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V4,
+  //   lpToken: tokens.usdc,
+  //   earnToken: tokens.usdc,
+  //   billNnftAddress: {
+  //     [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+  //   },
+  //   projectLink: 'https://planetix.com/',
+  //   twitter: 'https://x.com/Planetix0',
+  //   initTime: { [ChainId.BASE]: 1767621354 },
+  //   soldOut: false,
+  //   billArt: {
+  //     collection: BillArtCollection.ApeBond_Collection1,
+  //   },
+  //   tags: ['GameFi'],
+  //   shortDescription: 'TEST BOND DONT MERGE',
+  //   fullDescription: 'TEST BOND DONT MERGE',
+  //   clickUpId: '86ae7trva',
+  //   cgId: 'usd-coin',
+  // },
   {
     index: 8072,
     cmcId: 17131,
