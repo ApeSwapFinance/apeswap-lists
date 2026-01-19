@@ -3198,7 +3198,7 @@
     "version": "2.1.0",
     "chainId": 8453,
     "contractAddress": {
-      "8453": "0x42174965c23B4f93928f0824f0Ba4201374b6F54"
+      "8453": "0xAd76B565C2bBe02c4843D6a6F6Bfb9a7a39a48BE"
     },
     "billType": "reserve",
     "billVersion": "V4",
