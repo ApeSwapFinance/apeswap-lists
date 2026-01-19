@@ -922,7 +922,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.moonbay.space/',
     twitter: 'https://x.com/MoonBaySonic',
     initTime: { [ChainId.SONIC]: 1764180732 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
