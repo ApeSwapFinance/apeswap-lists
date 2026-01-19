@@ -333,6 +333,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       type: 'token',
       tokenAddress: '0x701c8c09fe9f081f9be69ab9af8291c84c09389b',
     },
+    '0x1A8c06f80Cca3FC61e1B1AE27595b1482cAee020': {
+      name: 'Fake Precious Metals USD',
+      symbol: 'fpmUSD',
+      decimals: 18,
+      source: PriceSource.Coingecko,
+      id: 'precious-metals-usd',
+      tokenAddress: '0x1A8c06f80Cca3FC61e1B1AE27595b1482cAee020',
+    },
   },
   [ChainId.LINEA]: {
     '0xcc22F6AA610D1b2a0e89EF228079cB3e1831b1D1': {

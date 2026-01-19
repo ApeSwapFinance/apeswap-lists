@@ -1087,13 +1087,16 @@ const tokens: Record<string, Token> = {
     symbol: 'fpmUSD',
     address: {
       [ChainId.MAINNET]: '0x58e6c2103d61e985828fb6148cf56e225a745b5a',
+      [ChainId.BASE]: '0x1A8c06f80Cca3FC61e1B1AE27595b1482cAee020',
     },
     decimals: {
       [ChainId.MAINNET]: 18,
+      [ChainId.BASE]: 18,
     },
     active: true,
     liquidityDex: {
       [ChainId.MAINNET]: LiquidityDex.External,
+      [ChainId.BASE]: LiquidityDex.External,
     },
   },
   fusdc: {

@@ -1713,7 +1713,7 @@ const bills: BillsConfig[] = [
   //   version: '2.1.0',
   //   chainId: ChainId.BASE,
   //   contractAddress: {
-  //     [ChainId.BASE]: '0xC3AE1227D7872E6742Fb73192961e631413C5247', // fixed price test bond, don't merge.
+  //     [ChainId.BASE]: '0xAd76B565C2bBe02c4843D6a6F6Bfb9a7a39a48BE', // fixed price test bond, don't merge.
   //   },
   //   billType: 'reserve',
   //   billVersion: BillVersion.V4,
