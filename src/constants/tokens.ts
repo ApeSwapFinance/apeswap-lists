@@ -1856,6 +1856,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  oabond: {
+    symbol: 'oABOND',
+    address: {
+      [ChainId.BSC]: '0xBdB4cb0aC14eE8D4f6063E5E74054499FbD78dA8',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.External,
+    },
+    active: true,
+  },
   veabond: {
     symbol: 'veABOND',
     address: {
