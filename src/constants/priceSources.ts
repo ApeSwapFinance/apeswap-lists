@@ -217,6 +217,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       id: 'cty_usdt',
       tokenAddress: '0xe50c9dae2b8cfe5224c1a4096a0959f8ca975df2',
     },
+    '0xBdB4cb0aC14eE8D4f6063E5E74054499FbD78dA8': {
+      name: 'Option ABOND',
+      symbol: 'oABOND',
+      decimals: 18,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '0xBdB4cb0aC14eE8D4f6063E5E74054499FbD78dA8',
+    },
   },
   [ChainId.MATIC]: {
     '0x61bf130d973d59c69d3227f1668d534d83119860': {
