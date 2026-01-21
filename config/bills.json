@@ -8637,6 +8637,62 @@
     "cgId": "metavault-trade"
   },
   {
+    "index": 1199,
+    "cmcId": 29157,
+    "version": "2.1.0",
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0x16139c319665aF5aFab4E646C0530CC39b880199"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "56": "0x55d398326f99059fF775485246999027B3197955"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "oABOND",
+      "address": {
+        "56": "0xBdB4cb0aC14eE8D4f6063E5E74054499FbD78dA8"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "projectLink": "https://ape.bond/",
+    "twitter": "https://x.com/apebond",
+    "audit": "https://paladinsec.co/projects/apebond/",
+    "initTime": {
+      "56": 1769001319
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["Bonding"],
+    "shortDescription": " ApeBond is a decentralized platform where users can buy tokens at a discount that vest over time, while projects build long-term liquidity and strengthen their treasury. oABOND is ABOND’s option token, redeemable 1:1 for veABOND when permalocked. It functions as an alternative form of ABOND, and its price should always follow the market price of ABOND.",
+    "fullDescription": "ApeBond is a decentralized, permissionless platform designed to connect users and projects through an efficient bonding mechanism. Users can acquire tokens at a discounted rate, with those tokens vesting gradually over a set period. This creates a win-win system where users benefit from lower entry prices, while projects gain long-term, protocol-owned liquidity and strengthen their treasury in a sustainable way. oABOND is ABOND’s option token, redeemable 1:1 for veABOND when permalocked. It functions as an alternative form of ABOND, and its price should always follow the market price of ABOND.",
+    "warningCard": "oABOND is ABOND's option token, redeemable 1:1 for veABOND at permalock.",
+    "clickUpId": "",
+    "cgId": "abond"
+  },
+  {
     "index": 1198,
     "version": "2.1.1",
     "cmcId": 31886,
