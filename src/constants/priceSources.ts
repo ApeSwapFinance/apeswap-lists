@@ -221,9 +221,10 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       name: 'Option ABOND',
       symbol: 'oABOND',
       decimals: 18,
-      source: PriceSource.Coingecko,
-      id: 'abond',
-      tokenAddress: '0xBdB4cb0aC14eE8D4f6063E5E74054499FbD78dA8',
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      originalTokenAddress: '0xBdB4cb0aC14eE8D4f6063E5E74054499FbD78dA8', // oABOND
+      tokenAddress: '0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd', // ABOND
     },
   },
   [ChainId.MATIC]: {
