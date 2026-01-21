@@ -5847,6 +5847,16 @@
     },
     "active": true
   },
+  "wbtc": {
+    "symbol": "WBTC",
+    "address": {
+      "56": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c"
+    },
+    "decimals": {
+      "56": 8
+    },
+    "active": true
+  },
   "ada": {
     "symbol": "ADA",
     "address": {
