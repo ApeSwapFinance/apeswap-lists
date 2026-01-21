@@ -4634,9 +4634,9 @@ const bills: BillsConfig[] = [
     },
     tags: ['Bonding'],
     shortDescription:
-      ' ApeBond is a decentralized platform where users can buy tokens at a discount that vest over time, while projects build long-term liquidity and strengthen their treasury. oABOND is ABOND’s option token, redeemable 1:1 for veABOND when permalocked. It functions as an alternative form of ABOND, and its price should always follow the market price of ABOND.',
+      'Step into the full ApeBond experience with veABOND, the gateway to real yield and premium perks. By locking ABOND, you can gain access to better Bond discounts, a share in protocol revenue paid weekly in USDT, exclusive deals, and other benefits. veABOND is built for long-term ApeBond believers.',
     fullDescription:
-      'ApeBond is a decentralized, permissionless platform designed to connect users and projects through an efficient bonding mechanism. Users can acquire tokens at a discounted rate, with those tokens vesting gradually over a set period. This creates a win-win system where users benefit from lower entry prices, while projects gain long-term, protocol-owned liquidity and strengthen their treasury in a sustainable way. oABOND is ABOND’s option token, redeemable 1:1 for veABOND when permalocked. It functions as an alternative form of ABOND, and its price should always follow the market price of ABOND.',
+      'ApeBond is a decentralized, permissionless platform designed to connect users and projects through an efficient bonding mechanism. Users can acquire tokens at a discounted rate, with those tokens vesting gradually over a set period. This creates a win-win system where users benefit from lower entry prices, while projects gain long-term, protocol-owned liquidity and strengthen their treasury in a sustainable way. veABOND is the gateway to real yield and premium perks. By locking ABOND, you can gain access to better Bond discounts, a share in protocol revenue paid weekly in USDT, exclusive deals, and other benefits. veABOND is built for long-term ApeBond believers.',
     warningCard: `oABOND is ABOND's option token, redeemable 1:1 for veABOND at permalock.`,
     clickUpId: '',
     cgId: 'abond',
