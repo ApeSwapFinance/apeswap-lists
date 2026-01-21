@@ -274,6 +274,16 @@ export const zapInputTokens: Partial<Record<ChainId, Token[]>> = {
       active: true,
     },
     {
+      symbol: 'WBTC',
+      address: {
+        [ChainId.BSC]: '0x0555E30da8f98308EdB960aa94C0Db47230d2B9c',
+      },
+      decimals: {
+        [ChainId.BSC]: 8,
+      },
+      active: true,
+    },
+    {
       symbol: 'ADA',
       address: {
         [ChainId.BSC]: '0x3ee2200efb3400fabb9aacf31297cbdd1d435d47',

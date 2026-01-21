@@ -2088,6 +2088,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  wbtc: {
+    symbol: 'WBTC',
+    address: {
+      [ChainId.BSC]: '0x0555E30da8f98308EdB960aa94C0Db47230d2B9c',
+    },
+    decimals: {
+      [ChainId.BSC]: 8,
+    },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+    },
+    active: true,
+  },
   bg: {
     symbol: 'BG',
     address: {
