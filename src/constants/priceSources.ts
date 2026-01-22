@@ -819,8 +819,8 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       name: 'LITAS',
       symbol: 'LITAS',
       decimals: 18,
-      source: PriceSource.Mexc,
-      id: 'LITASUSDT',
+      source: PriceSource.Coingecko,
+      id: 'litas',
       tokenAddress: '0xfa63503f9e61fd59cbea137c122fa55c2daff14a',
     },
     '0x5bc93bab1291885a76644a49f52050cf73e1dca8': {
