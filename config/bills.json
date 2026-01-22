@@ -3226,60 +3226,6 @@
     "cgId": "fomofox"
   },
   {
-    "index": 8077,
-    "cmcId": 17131,
-    "version": "2.1.0",
-    "chainId": 8453,
-    "contractAddress": {
-      "8453": "0xbc5d4d44B22f947Cb0329352EDB9f7341840bbEc"
-    },
-    "billType": "reserve",
-    "billVersion": "V4",
-    "lpToken": {
-      "symbol": "USDC",
-      "address": {
-        "8453": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
-      },
-      "decimals": {
-        "8453": 6
-      },
-      "liquidityDex": {
-        "8453": "Aerodrome"
-      },
-      "active": true
-    },
-    "earnToken": {
-      "symbol": "AIX",
-      "address": {
-        "8453": "0x920e753d8d7d5b598063c89b6f06288803448d06"
-      },
-      "decimals": {
-        "8453": 18
-      },
-      "liquidityDex": {
-        "8453": "External"
-      },
-      "active": true
-    },
-    "billNnftAddress": {
-      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
-    },
-    "projectLink": "https://planetix.com/",
-    "twitter": "https://x.com/Planetix0",
-    "initTime": {
-      "8453": 1769102150
-    },
-    "soldOut": false,
-    "billArt": {
-      "collection": "ApeBond_Collection1"
-    },
-    "tags": ["GameFi"],
-    "shortDescription": "Planet IX, one of the largest Web3 strategy games, lets players trade land, build territories, and stake assets for rewards. Now evolving with major AI-powered upgrades and new strategic assets, it’s also migrating to Base for faster transactions and greater liquidity. Its new utility token, AIX, drives Season 2 with rewards and DeFi opportunities.",
-    "fullDescription": "Planet IX is a pioneering Web3 strategy game that emerged on Polygon in 2021 and rapidly evolved into one of the ecosystem’s largest gaming experiences. Players trade land, expand territories, and stake digital assets, forming a deeply engaged community where nearly 70% of tokens are staked. Now entering its most transformative phase, Planet IX is expanding its universe with AI-powered upgrades, new strategic assets, and advanced in-game mechanics. As part of its evolution, the project is migrating to Base to unlock faster transactions, broader liquidity, and enhanced scalability. Central to this new chapter is the AIX token, designed to power Season 2 with utility, competitive rewards, and elevated DeFi opportunities.",
-    "clickUpId": "86aeqq6fx",
-    "cgId": "planet-ix"
-  },
-  {
     "index": 8076,
     "cmcId": 17131,
     "version": "2.1.0",
