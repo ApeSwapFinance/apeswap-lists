@@ -350,6 +350,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       id: 'precious-metals-usd',
       tokenAddress: '0x1A8c06f80Cca3FC61e1B1AE27595b1482cAee020',
     },
+    '0x9e12735d77c72c5C3670636D428f2F3815d8A4cB': {
+      name: 'Functionland Fula',
+      symbol: 'FULA',
+      decimals: 18,
+      source: PriceSource.Coingecko,
+      id: 'functionland',
+      tokenAddress: '0x9e12735d77c72c5C3670636D428f2F3815d8A4cB',
+    },
   },
   [ChainId.LINEA]: {
     '0xcc22F6AA610D1b2a0e89EF228079cB3e1831b1D1': {
