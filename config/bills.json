@@ -8853,7 +8853,8 @@
     "fullDescription": "ApeBond is a decentralized, permissionless platform designed to connect users and projects through an efficient bonding mechanism. Users can acquire tokens at a discounted rate, with those tokens vesting gradually over a set period. This creates a win-win system where users benefit from lower entry prices, while projects gain long-term, protocol-owned liquidity and strengthen their treasury in a sustainable way. veABOND is the gateway to real yield and premium perks. By locking ABOND, you can gain access to better Bond discounts, a share in protocol revenue paid weekly in USDT, exclusive deals, and other benefits. veABOND is built for long-term ApeBond believers.",
     "warningCard": "oABOND is ABOND's option token, redeemable 1:1 for veABOND at permalock.",
     "clickUpId": "",
-    "cgId": "abond"
+    "cgId": "abond",
+    "vestingCliff": 1209600
   },
   {
     "index": 1198,

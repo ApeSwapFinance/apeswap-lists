@@ -4731,6 +4731,7 @@ const bills: BillsConfig[] = [
     warningCard: `oABOND is ABOND's option token, redeemable 1:1 for veABOND at permalock.`,
     clickUpId: '',
     cgId: 'abond',
+    vestingCliff: 1209600, // aka 14 days
   },
   {
     index: 1198,
