@@ -4501,7 +4501,7 @@
       },
       "active": true,
       "liquidityDex": {
-        "8453": "UniswapV3"
+        "8453": "External"
       }
     },
     "billNnftAddress": {
@@ -4826,7 +4826,7 @@
       },
       "active": true,
       "liquidityDex": {
-        "8453": "UniswapV3"
+        "8453": "External"
       }
     },
     "billNnftAddress": {

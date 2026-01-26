@@ -1269,7 +1269,7 @@ const tokens: Record<string, Token> = {
     },
     active: true,
     liquidityDex: {
-      [ChainId.BASE]: LiquidityDex.UniswapV3,
+      [ChainId.BASE]: LiquidityDex.External,
     },
   },
   gmrt: {
