@@ -2472,6 +2472,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/functionland',
     initTime: { [ChainId.BASE]: 1751027538 },
     soldOut: false,
+    hide: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
