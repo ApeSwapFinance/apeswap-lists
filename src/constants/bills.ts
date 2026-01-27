@@ -2152,7 +2152,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/arturafinance',
     initTime: { [ChainId.BASE]: 1764929022 },
     soldOut: false,
-    hide: true,
+    hide: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
