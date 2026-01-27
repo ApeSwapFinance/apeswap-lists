@@ -2471,8 +2471,8 @@ const bills: BillsConfig[] = [
     projectLink: 'https://fx.land/',
     twitter: 'https://x.com/functionland',
     initTime: { [ChainId.BASE]: 1751027538 },
-    soldOut: false,
-    hide: true,
+    soldOut: true,
+    hide: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
