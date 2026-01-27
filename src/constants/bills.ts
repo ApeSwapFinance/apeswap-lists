@@ -19403,7 +19403,7 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://www.home3suite.com/',
     twitter: 'https://x.com/Home3Suite',
     initTime: { [ChainId.MAINNET]: 1767630825 },
-    soldOut: false,
+    soldOut: true,
     hide: false,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
