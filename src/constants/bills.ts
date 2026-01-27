@@ -2182,6 +2182,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/Omni_Exchange',
     initTime: { [ChainId.BASE]: 1760017558 },
     soldOut: false,
+    hide: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
