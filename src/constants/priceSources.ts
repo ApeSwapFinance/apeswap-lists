@@ -978,6 +978,24 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       tokenAddress: '0x754704Bc059F8C67012fEd69BC8A327a5aafb603',
     },
   },
+  [ChainId.HYPEREVM]: {
+    '0x5555555555555555555555555555555555555555': {
+      name: 'Wrapped HYPE',
+      symbol: 'WHYPE',
+      decimals: 18,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '0x5555555555555555555555555555555555555555',
+    },
+    '0xb88339CB7199b77E23DB6E890353E22632Ba630f': {
+      name: 'USDC',
+      symbol: 'USDC',
+      decimals: 6,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '0xb88339CB7199b77E23DB6E890353E22632Ba630f',
+    },
+  },
 }
 
 export default priceSources

@@ -20,6 +20,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  hype: {
+    symbol: 'HYPE',
+    address: {
+      [ChainId.HYPEREVM]: '0x5555555555555555555555555555555555555555',
+    },
+    decimals: {
+      [ChainId.HYPEREVM]: 18,
+    },
+    liquidityDex: {
+      [ChainId.HYPEREVM]: LiquidityDex.External,
+    },
+    active: true,
+  },
   ttn: {
     symbol: 'TTN',
     address: {
@@ -2186,6 +2199,7 @@ const tokens: Record<string, Token> = {
       [ChainId.AVAX]: '0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e',
       [ChainId.SEI]: '0xe15fC38F6D8c56aF07bbCBe3BAf5708A2Bf42392',
       [ChainId.MONAD]: '0x754704Bc059F8C67012fEd69BC8A327a5aafb603',
+      [ChainId.HYPEREVM]: '0xb88339CB7199b77E23DB6E890353E22632Ba630f',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -2208,6 +2222,7 @@ const tokens: Record<string, Token> = {
       [ChainId.AVAX]: 6,
       [ChainId.SEI]: 6,
       [ChainId.MONAD]: 6,
+      [ChainId.HYPEREVM]: 6,
     },
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
@@ -2229,6 +2244,7 @@ const tokens: Record<string, Token> = {
       [ChainId.AVAX]: LiquidityDex.External,
       [ChainId.SEI]: LiquidityDex.External,
       [ChainId.MONAD]: LiquidityDex.External,
+      [ChainId.HYPEREVM]: LiquidityDex.External,
     },
     active: true,
   },
