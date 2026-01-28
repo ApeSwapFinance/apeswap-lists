@@ -1812,6 +1812,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  zswap: {
+    symbol: 'ZSWAP',
+    address: {
+      [ChainId.BSC]: '0x2e44aB95549b8a12AFDB970bde5A6a78365e4444',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
   titm: {
     symbol: 'TITM',
     address: {
