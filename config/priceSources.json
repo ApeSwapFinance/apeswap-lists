@@ -399,6 +399,24 @@
       "tokenAddress": "0xbeED106D0f2e6950BFa1Eec74E1253CA0a643442"
     }
   },
+  "999": {
+    "0x5555555555555555555555555555555555555555": {
+      "name": "Wrapped HYPE",
+      "symbol": "WHYPE",
+      "decimals": 18,
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "0x5555555555555555555555555555555555555555"
+    },
+    "0xb88339CB7199b77E23DB6E890353E22632Ba630f": {
+      "name": "USDC",
+      "symbol": "USDC",
+      "decimals": 6,
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "0xb88339CB7199b77E23DB6E890353E22632Ba630f"
+    }
+  },
   "1329": {
     "0xE30feDd158A2e3b13e9badaeABaFc5516e95e8C7": {
       "name": "Wrapped SEI",

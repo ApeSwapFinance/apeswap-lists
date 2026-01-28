@@ -48,6 +48,7 @@ export enum ChainId {
   MEGAETH_TESTNET = 6342,
   SEI = 1329,
   MONAD = 143,
+  HYPEREVM = 999,
 }
 
 export enum LiquidityDex {
