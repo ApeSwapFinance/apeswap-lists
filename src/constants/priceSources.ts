@@ -125,8 +125,8 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       name: 'UCOIN',
       symbol: 'U',
       decimals: 18,
-      source: PriceSource.Mexc,
-      id: 'UCOINUSDT',
+      source: PriceSource.Fixed,
+      price: 0, // token is dead, no price source available.
       tokenAddress: '0xe07710cdcD1c9F0FB04bfd013F9854E4552671cE',
     },
     '0x6730f7a6bbb7b9c8e60843948f7feb4b6a17b7f7': {
@@ -213,8 +213,8 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       name: 'Custodiy',
       symbol: 'CTY',
       decimals: 18,
-      source: PriceSource.LBank,
-      id: 'cty_usdt',
+      source: PriceSource.Coingecko,
+      id: 'custodiy-2',
       tokenAddress: '0xe50c9dae2b8cfe5224c1a4096a0959f8ca975df2',
     },
     '0xBdB4cb0aC14eE8D4f6063E5E74054499FbD78dA8': {
