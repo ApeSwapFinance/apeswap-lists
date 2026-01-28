@@ -1640,6 +1640,32 @@
       "59144": "Metavault"
     }
   },
+  "wbnb": {
+    "symbol": "BNB",
+    "address": {
+      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"
+    },
+    "decimals": {
+      "56": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "56": "PancakeSwapV3"
+    }
+  },
+  "zswap": {
+    "symbol": "ZSWAP",
+    "address": {
+      "56": "0x2e44aB95549b8a12AFDB970bde5A6a78365e4444"
+    },
+    "decimals": {
+      "56": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "56": "PancakeSwapV2"
+    }
+  },
   "oabond": {
     "symbol": "oABOND",
     "address": {
@@ -1852,19 +1878,6 @@
     "active": true,
     "liquidityDex": {
       "56": "PancakeSwapV2"
-    }
-  },
-  "wbnb": {
-    "symbol": "BNB",
-    "address": {
-      "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"
-    },
-    "decimals": {
-      "56": 18
-    },
-    "active": true,
-    "liquidityDex": {
-      "56": "PancakeSwapV3"
     }
   },
   "u": {
