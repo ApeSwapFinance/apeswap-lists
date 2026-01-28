@@ -983,8 +983,8 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       name: 'Wrapped HYPE',
       symbol: 'WHYPE',
       decimals: 18,
-      source: PriceSource.Dexscreener,
-      type: 'token',
+      source: PriceSource.Coingecko,
+      id: 'hyperliquid',
       tokenAddress: '0x5555555555555555555555555555555555555555',
     },
     '0xb88339CB7199b77E23DB6E890353E22632Ba630f': {
