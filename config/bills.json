@@ -8802,6 +8802,60 @@
     "cgId": "metavault-trade"
   },
   {
+    "index": 1200,
+    "cmcId": 39337,
+    "version": "2.1.0",
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0x1E7eD64b178d09294dA38e61524827b23F3A2053"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "BNB",
+      "address": {
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "ZSWAP",
+      "address": {
+        "56": "0x2e44aB95549b8a12AFDB970bde5A6a78365e4444"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV2"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "projectLink": "https://www.zygoswap.io/swap",
+    "twitter": "https://x.com/ZSWAP_DEX",
+    "initTime": {
+      "56": 1769593098
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["DEX"],
+    "shortDescription": "Zygo is a unified Web3 ecosystem combining trading, gaming, and self-custody into a seamless Power-Stack that keeps liquidity efficient and active. Positioned as a true super-app, it retains value within its ecosystem while strengthening user engagement. Its token, $ZSWAP, fuels incentives, fee discounts, and yield opportunities backed by real revenue.",
+    "fullDescription": "Zygo is a vertically integrated Web3 ecosystem built to eliminate fragmentation across decentralized trading, on-chain gaming, and self-custody by unifying them into a seamless Power-Stack that keeps liquidity productive at all times. Rather than positioning itself as just another DEX or gaming venue, Zygo introduces a category shift toward super-apps where liquidity stays inside the ecosystem, gaming revenue reinforces token value, and the wallet becomes the key driver of user retention. In a landscape increasingly shaped by efficiency and engagement, Zygo aims to serve as the default on-chain hub for advanced Web3 users. The $ZSWAP token powers liquidity incentives, trading fee advantages, and yield strategies on Zygoswap, accruing value through real revenue supported by buy-backs, burns, and time-weighted rewards.",
+    "clickUpId": "86aev1f8p",
+    "cgId": "zygoswap"
+  },
+  {
     "index": 1199,
     "cmcId": 29157,
     "version": "2.1.0",
