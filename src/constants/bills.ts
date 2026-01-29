@@ -48,7 +48,7 @@ const bills: BillsConfig[] = [
     lpToken: tokens.usdc,
     earnToken: tokens.hype,
     billNnftAddress: {
-      [ChainId.HYPEREVM]: '',
+      [ChainId.HYPEREVM]: '0x6254e394ab73f4688c2254565f04efEEa1381bFE',
     },
     projectLink: 'https://hyperfoundation.org/',
     twitter: 'https://x.com/hyperliquidX',
