@@ -1,5 +1,58 @@
 [
   {
+    "index": 21000,
+    "version": "2.1.0",
+    "chainId": 999,
+    "contractAddress": {
+      "999": "0x5555555555555555555555555555555555555555"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "999": "0xb88339CB7199b77E23DB6E890353E22632Ba630f"
+      },
+      "decimals": {
+        "999": 6
+      },
+      "liquidityDex": {
+        "999": "External"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "HYPE",
+      "address": {
+        "999": "0x5555555555555555555555555555555555555555"
+      },
+      "decimals": {
+        "999": 18
+      },
+      "liquidityDex": {
+        "999": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "999": ""
+    },
+    "projectLink": "https://hyperfoundation.org/",
+    "twitter": "https://x.com/hyperliquidX",
+    "initTime": {
+      "999": 1769633538
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["Blockchains"],
+    "shortDescription": "lorem ipsum dolor sit amet",
+    "fullDescription": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+    "clickUpId": "",
+    "cgId": "hyperliquid"
+  },
+  {
     "index": 20001,
     "version": "2.1.0",
     "chainId": 43114,

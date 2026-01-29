@@ -30,8 +30,39 @@ import {
 // SOL Largest ID: 18019
 // UNICHAIN Largest ID: 19001
 // AVAX Largest ID: 20001
+// HYPEREVM Largest ID: 21000
 
 const bills: BillsConfig[] = [
+  //
+  // HyperEVM
+  //
+  {
+    index: 21000,
+    version: '2.1.0',
+    chainId: ChainId.HYPEREVM,
+    contractAddress: {
+      [ChainId.HYPEREVM]: '0x5555555555555555555555555555555555555555',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.hype,
+    billNnftAddress: {
+      [ChainId.HYPEREVM]: '',
+    },
+    projectLink: 'https://hyperfoundation.org/',
+    twitter: 'https://x.com/hyperliquidX',
+    initTime: { [ChainId.HYPEREVM]: 1769633538 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Blockchains'],
+    shortDescription: `lorem ipsum dolor sit amet`,
+    fullDescription: `lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.`,
+    clickUpId: '',
+    cgId: 'hyperliquid',
+  },
   //
   // Avax
   //
