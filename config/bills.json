@@ -4,7 +4,7 @@
     "version": "2.1.0",
     "chainId": 999,
     "contractAddress": {
-      "999": "0x5555555555555555555555555555555555555555"
+      "999": "0x53A1d184CeCc888641d8FEdEFdA10d21bD76932F"
     },
     "billType": "reserve",
     "billVersion": "V4",

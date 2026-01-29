@@ -41,7 +41,7 @@ const bills: BillsConfig[] = [
     version: '2.1.0',
     chainId: ChainId.HYPEREVM,
     contractAddress: {
-      [ChainId.HYPEREVM]: '0x5555555555555555555555555555555555555555',
+      [ChainId.HYPEREVM]: '0x53A1d184CeCc888641d8FEdEFdA10d21bD76932F',
     },
     billType: 'reserve',
     billVersion: BillVersion.V4,
