@@ -27,7 +27,7 @@ import {
 // Sonic Largest ID: 15007
 // Berachain Largest ID: 16005
 // Katana Largest ID: 17000
-// SOL Largest ID: 18019
+// SOL Largest ID: 18021
 // UNICHAIN Largest ID: 19001
 // AVAX Largest ID: 20001
 
@@ -701,7 +701,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.nodepay.ai/',
     twitter: 'https://x.com/nodepay',
     initTime: { [ChainId.SOL]: 1765882921 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Solana_Collection1,
     },
@@ -738,6 +738,34 @@ const bills: BillsConfig[] = [
     warningCard: `This token is currently only tradable on <a href="https://www.mexc.com/exchange/SKORAI_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a>.`,
     clickUpId: '86a9rje9q',
     cgId: 'skor-ai',
+  },
+  {
+    index: 18021,
+    cmcId: 34971,
+    version: '2.2.0',
+    chainId: ChainId.SOL,
+    contractAddress: {
+      [ChainId.SOL]: '8sNizhpsQ3jbNikBAg4TrVKHD1w4kv386eQqoYkj7Y27',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.nc,
+    billNnftAddress: {
+      [ChainId.SOL]: '5xK97WXRjRFzYxx7kCZhR7S58ug51mR7WqJW6HKigNcG',
+    },
+    projectLink: 'https://www.nodepay.ai/',
+    twitter: 'https://x.com/nodepay',
+    initTime: { [ChainId.SOL]: 1769763220 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Solana_Collection1,
+    },
+    fullDescription: `Nodepay is a predictive intelligence network built to turn global data into actionable advantage. By aggregating user-driven insights, social signals, and real-time crypto market data, Nodepay transforms fragmented information into powerful intelligence. Users actively contribute signals and earn real token rewards, becoming part of a smarter, open intelligence market. At the core of the ecosystem is NodeCoin ($NC), the native token that powers the Nodepay network. $NC enables network transactions, unlocks premium analytics and product features, pays for intelligence and distribution services, and rewards contributors who dedicate resources to expanding the network. For projects, Nodepay delivers predictive insights and unrivaled distribution tools to drive smarter decisions, global reach, and accelerated growth.`,
+    shortDescription: `Nodepay delivers predictive intelligence at global scale by aggregating user-driven insights, social signals, and real-time crypto market data. Users contribute signals and earn token rewards as part of a smarter intelligence market. NodeCoin ($NC) powers the network, enabling transactions, premium features, services, and rewarding contributors shaping the future of AI intelligence.`,
+    tags: ['AI'],
+    clickUpId: '86aexd0zp',
+    cgId: 'nodecoin',
   },
   //
   // Berachain
