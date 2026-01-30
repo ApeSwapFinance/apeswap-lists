@@ -1328,6 +1328,60 @@
     "cgId": "skor-ai"
   },
   {
+    "index": 18021,
+    "cmcId": 34971,
+    "version": "2.2.0",
+    "chainId": 7565164,
+    "contractAddress": {
+      "7565164": "8sNizhpsQ3jbNikBAg4TrVKHD1w4kv386eQqoYkj7Y27"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "7565164": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+      },
+      "decimals": {
+        "7565164": 6
+      },
+      "liquidityDex": {
+        "7565164": "External"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "NC",
+      "address": {
+        "7565164": "B89Hd5Juz7JP2dxCZXFJWk4tMTcbw7feDhuWGb3kq5qE"
+      },
+      "decimals": {
+        "7565164": 9
+      },
+      "liquidityDex": {
+        "7565164": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "7565164": "5xK97WXRjRFzYxx7kCZhR7S58ug51mR7WqJW6HKigNcG"
+    },
+    "projectLink": "https://www.nodepay.ai/",
+    "twitter": "https://x.com/nodepay",
+    "initTime": {
+      "7565164": 1769763220
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "Solana_Collection1"
+    },
+    "fullDescription": "Nodepay is a predictive intelligence network built to turn global data into actionable advantage. By aggregating user-driven insights, social signals, and real-time crypto market data, Nodepay transforms fragmented information into powerful intelligence. Users actively contribute signals and earn real token rewards, becoming part of a smarter, open intelligence market. At the core of the ecosystem is NodeCoin ($NC), the native token that powers the Nodepay network. $NC enables network transactions, unlocks premium analytics and product features, pays for intelligence and distribution services, and rewards contributors who dedicate resources to expanding the network. For projects, Nodepay delivers predictive insights and unrivaled distribution tools to drive smarter decisions, global reach, and accelerated growth.",
+    "shortDescription": "Nodepay delivers predictive intelligence at global scale by aggregating user-driven insights, social signals, and real-time crypto market data. Users contribute signals and earn token rewards as part of a smarter intelligence market. NodeCoin ($NC) powers the network, enabling transactions, premium features, services, and rewarding contributors shaping the future of AI intelligence.",
+    "tags": ["AI"],
+    "clickUpId": "86aexd0zp",
+    "cgId": "nodecoin"
+  },
+  {
     "index": 16000,
     "version": "2.1.0",
     "chainId": 80094,
