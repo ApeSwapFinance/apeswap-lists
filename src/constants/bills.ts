@@ -701,7 +701,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.nodepay.ai/',
     twitter: 'https://x.com/nodepay',
     initTime: { [ChainId.SOL]: 1765882921 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Solana_Collection1,
     },
