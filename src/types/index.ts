@@ -122,6 +122,10 @@ export enum LiquidityDex {
   //BERACHAIN
   KodiakV2 = 'KodiakV2', //V2
   KodiakV3 = 'KodiakV3', //V3
+
+  //HYPEREVM
+  HybraFinance = 'HybraFinance', //Solidly
+  PRJX = 'PRJX', //V3
 }
 
 export enum IchiSupportedDex {
@@ -877,6 +881,17 @@ export const dexFactories: Partial<
       protocol: Protocols.V3,
     },
   },
+  [ChainId.HYPEREVM]: {
+    [LiquidityDex.HybraFinance]: {
+      factory: '0x9c7397c9C5ecC400992843408D3A283fE9108009',
+      router: '0x0d76Fcf33C6EDeD05696549757d136788C98CC9D',
+      protocol: Protocols.Solidly,
+    },
+    [LiquidityDex.PRJX]: {
+      factory: '0xFf7B3e8C00e57ea31477c32A5B52a58Eea47b072',
+      protocol: Protocols.V3,
+    },
+  },
 }
 
 export const defaultDexFactories: Partial<Record<ChainId, Partial<Record<Protocols, string>>>> = {
@@ -953,6 +968,10 @@ export const defaultDexFactories: Partial<Record<ChainId, Partial<Record<Protoco
   [ChainId.UNICHAIN]: {
     [Protocols.V2]: dexFactories[ChainId.UNICHAIN]?.UniswapV2?.factory,
     [Protocols.V3]: dexFactories[ChainId.UNICHAIN]?.UniswapV3?.factory,
+  },
+  [ChainId.HYPEREVM]: {
+    [Protocols.Solidly]: dexFactories[ChainId.HYPEREVM]?.HybraFinance?.factory,
+    [Protocols.V3]: dexFactories[ChainId.HYPEREVM]?.PRJX?.factory,
   },
 }
 
@@ -1037,4 +1056,6 @@ export const dexToZapMapping: Record<LiquidityDex, Partial<Record<ChainId, ZapVe
   [LiquidityDex.KodiakV3]: {},
   [LiquidityDex.Equalizer]: {},
   [LiquidityDex.BlackHole]: {},
+  [LiquidityDex.HybraFinance]: {},
+  [LiquidityDex.PRJX]: {},
 }
