@@ -528,7 +528,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.hivello.com',
     twitter: 'https://x.com/HivelloOfficial',
     initTime: { [ChainId.SOL]: 1755520140 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Solana_Collection1,
     },
