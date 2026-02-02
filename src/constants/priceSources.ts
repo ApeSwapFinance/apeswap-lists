@@ -995,6 +995,30 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       type: 'token',
       tokenAddress: '0xb88339CB7199b77E23DB6E890353E22632Ba630f',
     },
+    '0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb': {
+      name: 'USDT0',
+      symbol: 'USDT0',
+      decimals: 6,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb',
+    },
+    '0xBe6727B535545C67d5cAa73dEa54865B92CF7907': {
+      name: 'uETH',
+      symbol: 'uETH',
+      decimals: 18,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '0xBe6727B535545C67d5cAa73dEa54865B92CF7907',
+    },
+    '0x9FDBdA0A5e284c32744D2f17Ee5c74B284993463': {
+      name: 'uBTC',
+      symbol: 'uBTC',
+      decimals: 8,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '0x9FDBdA0A5e284c32744D2f17Ee5c74B284993463',
+    },
   },
 }
 

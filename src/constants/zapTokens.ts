@@ -144,6 +144,16 @@ export const WNATIVE: Partial<Record<ChainId, Token>> = {
     },
     active: true,
   },
+  [ChainId.HYPEREVM]: {
+    symbol: 'wHYPE',
+    address: {
+      [ChainId.HYPEREVM]: '0x5555555555555555555555555555555555555555',
+    },
+    decimals: {
+      [ChainId.HYPEREVM]: 18,
+    },
+    active: true,
+  },
 }
 
 export const zapInputTokens: Partial<Record<ChainId, Token[]>> = {
@@ -769,6 +779,58 @@ export const zapInputTokens: Partial<Record<ChainId, Token[]>> = {
       },
       decimals: {
         [ChainId.SOL]: 8,
+      },
+      active: true,
+    },
+  ],
+  [ChainId.HYPEREVM]: [
+    {
+      symbol: 'wHYPE',
+      address: {
+        [ChainId.HYPEREVM]: '0x5555555555555555555555555555555555555555',
+      },
+      decimals: {
+        [ChainId.HYPEREVM]: 18,
+      },
+      active: true,
+    },
+    {
+      symbol: 'uETH',
+      address: {
+        [ChainId.HYPEREVM]: '0xBe6727B535545C67d5cAa73dEa54865B92CF7907',
+      },
+      decimals: {
+        [ChainId.HYPEREVM]: 18,
+      },
+      active: true,
+    },
+    {
+      symbol: 'uBTC',
+      address: {
+        [ChainId.HYPEREVM]: '0x9FDBdA0A5e284c32744D2f17Ee5c74B284993463',
+      },
+      decimals: {
+        [ChainId.HYPEREVM]: 8,
+      },
+      active: true,
+    },
+    {
+      symbol: 'USDC',
+      address: {
+        [ChainId.HYPEREVM]: '0xb88339CB7199b77E23DB6E890353E22632Ba630f',
+      },
+      decimals: {
+        [ChainId.HYPEREVM]: 6,
+      },
+      active: true,
+    },
+    {
+      symbol: 'USDT0',
+      address: {
+        [ChainId.HYPEREVM]: '0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb',
+      },
+      decimals: {
+        [ChainId.HYPEREVM]: 6,
       },
       active: true,
     },
