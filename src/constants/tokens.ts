@@ -2053,6 +2053,7 @@ const tokens: Record<string, Token> = {
       [ChainId.ARBITRUM]: LiquidityDex.PancakeSwapV3,
       [ChainId.MEGAETH_TESTNET]: LiquidityDex.External,
       [ChainId.SOL]: LiquidityDex.External,
+      [ChainId.HYPEREVM]: LiquidityDex.External,
     },
     active: true,
   },
@@ -2102,6 +2103,7 @@ const tokens: Record<string, Token> = {
       [ChainId.SONIC]: LiquidityDex.ShadowExchange,
       [ChainId.BLAST]: LiquidityDex.ThrusterV3, //very low liquidity on Blast
       [ChainId.AVAX]: LiquidityDex.External,
+      [ChainId.HYPEREVM]: LiquidityDex.External,
     },
     active: true,
   },
@@ -3398,6 +3400,7 @@ const tokens: Record<string, Token> = {
       [ChainId.UNICHAIN]: LiquidityDex.External,
       [ChainId.SOL]: LiquidityDex.External,
       [ChainId.AVAX]: LiquidityDex.External,
+      [ChainId.HYPEREVM]: LiquidityDex.External,
     },
     active: true,
   },
