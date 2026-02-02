@@ -4761,6 +4761,40 @@ const bills: BillsConfig[] = [
   // BNB chain
   //
   {
+    index: 1201,
+    cmcId: 29157,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x5C6730Eb885e0dc32dfd8F7302d51a12d9e2C84E',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.oabond,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://ape.bond/',
+    twitter: 'https://x.com/apebond',
+    audit: 'https://paladinsec.co/projects/apebond/',
+    initTime: { [ChainId.BSC]: 1770052610 },
+    soldOut: false,
+    hide: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Bonding'],
+    shortDescription:
+      'Step into the full ApeBond experience with veABOND, the gateway to real yield and premium perks. By locking ABOND, you can gain access to better Bond discounts, a share in protocol revenue paid weekly in USDT, exclusive deals, and other benefits. veABOND is built for long-term ApeBond believers.',
+    fullDescription:
+      'ApeBond is a decentralized, permissionless platform designed to connect users and projects through an efficient bonding mechanism. Users can acquire tokens at a discounted rate, with those tokens vesting gradually over a set period. This creates a win-win system where users benefit from lower entry prices, while projects gain long-term, protocol-owned liquidity and strengthen their treasury in a sustainable way. veABOND is the gateway to real yield and premium perks. By locking ABOND, you can gain access to better Bond discounts, a share in protocol revenue paid weekly in USDT, exclusive deals, and other benefits. veABOND is built for long-term ApeBond believers.',
+    warningCard: `oABOND is ABOND's option token, redeemable 1:1 for veABOND at permalock.`,
+    clickUpId: '',
+    cgId: 'abond',
+    vestingCliff: 1209600, // aka 14 days
+  },
+  {
     index: 1200,
     cmcId: 39337,
     version: '2.1.0',
@@ -4778,7 +4812,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.zygoswap.io/swap',
     twitter: 'https://x.com/ZSWAP_DEX',
     initTime: { [ChainId.BSC]: 1769593098 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
