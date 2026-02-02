@@ -137,6 +137,18 @@
     }
   ],
   "614": [],
+  "999": [
+    {
+      "name": "HybraFinance",
+      "factory": "0x9c7397c9C5ecC400992843408D3A283fE9108009",
+      "protocol": 5
+    },
+    {
+      "name": "PRJX",
+      "factory": "0xFf7B3e8C00e57ea31477c32A5B52a58Eea47b072",
+      "protocol": 1
+    }
+  ],
   "1890": [
     {
       "name": "Elektrik",
