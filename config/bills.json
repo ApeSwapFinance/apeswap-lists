@@ -3280,6 +3280,60 @@
     "cgId": "fomofox"
   },
   {
+    "index": 8077,
+    "cmcId": 17131,
+    "version": "2.1.0",
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0x952cc9C8a16e3cb7981097CC3EeA75E39b9C6A5c"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "8453": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+      },
+      "decimals": {
+        "8453": 6
+      },
+      "liquidityDex": {
+        "8453": "Aerodrome"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "AIX",
+      "address": {
+        "8453": "0x920e753d8d7d5b598063c89b6f06288803448d06"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "liquidityDex": {
+        "8453": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "projectLink": "https://planetix.com/",
+    "twitter": "https://x.com/Planetix0",
+    "initTime": {
+      "8453": 1770049948
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["GameFi"],
+    "shortDescription": "Planet IX, one of the largest Web3 strategy games, lets players trade land, build territories, and stake assets for rewards. Now evolving with major AI-powered upgrades and new strategic assets, it’s also migrating to Base for faster transactions and greater liquidity. Its new utility token, AIX, drives Season 2 with rewards and DeFi opportunities.",
+    "fullDescription": "Planet IX is a pioneering Web3 strategy game that emerged on Polygon in 2021 and rapidly evolved into one of the ecosystem’s largest gaming experiences. Players trade land, expand territories, and stake digital assets, forming a deeply engaged community where nearly 70% of tokens are staked. Now entering its most transformative phase, Planet IX is expanding its universe with AI-powered upgrades, new strategic assets, and advanced in-game mechanics. As part of its evolution, the project is migrating to Base to unlock faster transactions, broader liquidity, and enhanced scalability. Central to this new chapter is the AIX token, designed to power Season 2 with utility, competitive rewards, and elevated DeFi opportunities.",
+    "clickUpId": "86aeqq6fx",
+    "cgId": "planet-ix"
+  },
+  {
     "index": 8076,
     "cmcId": 17131,
     "version": "2.1.0",
@@ -3323,7 +3377,7 @@
     "initTime": {
       "8453": 1769102150
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -8856,6 +8910,64 @@
     "cgId": "metavault-trade"
   },
   {
+    "index": 1201,
+    "cmcId": 29157,
+    "version": "2.1.0",
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0x5C6730Eb885e0dc32dfd8F7302d51a12d9e2C84E"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "56": "0x55d398326f99059fF775485246999027B3197955"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "oABOND",
+      "address": {
+        "56": "0xBdB4cb0aC14eE8D4f6063E5E74054499FbD78dA8"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "projectLink": "https://ape.bond/",
+    "twitter": "https://x.com/apebond",
+    "audit": "https://paladinsec.co/projects/apebond/",
+    "initTime": {
+      "56": 1770052610
+    },
+    "soldOut": false,
+    "hide": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["Bonding"],
+    "shortDescription": "Step into the full ApeBond experience with veABOND, the gateway to real yield and premium perks. By locking ABOND, you can gain access to better Bond discounts, a share in protocol revenue paid weekly in USDT, exclusive deals, and other benefits. veABOND is built for long-term ApeBond believers.",
+    "fullDescription": "ApeBond is a decentralized, permissionless platform designed to connect users and projects through an efficient bonding mechanism. Users can acquire tokens at a discounted rate, with those tokens vesting gradually over a set period. This creates a win-win system where users benefit from lower entry prices, while projects gain long-term, protocol-owned liquidity and strengthen their treasury in a sustainable way. veABOND is the gateway to real yield and premium perks. By locking ABOND, you can gain access to better Bond discounts, a share in protocol revenue paid weekly in USDT, exclusive deals, and other benefits. veABOND is built for long-term ApeBond believers.",
+    "warningCard": "oABOND is ABOND's option token, redeemable 1:1 for veABOND at permalock.",
+    "clickUpId": "",
+    "cgId": "abond",
+    "vestingCliff": 1209600
+  },
+  {
     "index": 1200,
     "cmcId": 39337,
     "version": "2.1.0",
@@ -8899,7 +9011,7 @@
     "initTime": {
       "56": 1769593098
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -8955,7 +9067,7 @@
       "56": 1769001319
     },
     "soldOut": false,
-    "hide": true,
+    "hide": false,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
