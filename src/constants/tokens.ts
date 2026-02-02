@@ -2009,6 +2009,7 @@ const tokens: Record<string, Token> = {
       [ChainId.UNICHAIN]: '0x4200000000000000000000000000000000000006',
       [ChainId.MEGAETH_TESTNET]: '0x4eB2Bd7beE16F38B1F4a0A5796Fffd028b6040e9',
       [ChainId.SOL]: '7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs', //wormhole
+      [ChainId.HYPEREVM]: '0xBe6727B535545C67d5cAa73dEa54865B92CF7907', // uETH
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -2031,6 +2032,7 @@ const tokens: Record<string, Token> = {
       [ChainId.UNICHAIN]: 18,
       [ChainId.MEGAETH_TESTNET]: 18,
       [ChainId.SOL]: 8,
+      [ChainId.HYPEREVM]: 18, // uETH
     },
     liquidityDex: {
       [ChainId.MAINNET]: LiquidityDex.UniswapV3,
@@ -2051,6 +2053,7 @@ const tokens: Record<string, Token> = {
       [ChainId.ARBITRUM]: LiquidityDex.PancakeSwapV3,
       [ChainId.MEGAETH_TESTNET]: LiquidityDex.External,
       [ChainId.SOL]: LiquidityDex.External,
+      [ChainId.HYPEREVM]: LiquidityDex.External,
     },
     active: true,
   },
@@ -2070,6 +2073,7 @@ const tokens: Record<string, Token> = {
       [ChainId.SONIC]: '0x0555E30da8f98308EdB960aa94C0Db47230d2B9c', //same address with berachain
       [ChainId.BLAST]: '0xF7bc58b8D8f97ADC129cfC4c9f45Ce3C0E1D2692',
       [ChainId.AVAX]: '0x152b9d0fdc40c096757f570a51e494bd4b943e50',
+      [ChainId.HYPEREVM]: '0x9FDBdA0A5e284c32744D2f17Ee5c74B284993463',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -2085,6 +2089,7 @@ const tokens: Record<string, Token> = {
       [ChainId.SONIC]: 8,
       [ChainId.BLAST]: 18,
       [ChainId.AVAX]: 8,
+      [ChainId.HYPEREVM]: 8,
     },
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
@@ -2098,6 +2103,7 @@ const tokens: Record<string, Token> = {
       [ChainId.SONIC]: LiquidityDex.ShadowExchange,
       [ChainId.BLAST]: LiquidityDex.ThrusterV3, //very low liquidity on Blast
       [ChainId.AVAX]: LiquidityDex.External,
+      [ChainId.HYPEREVM]: LiquidityDex.External,
     },
     active: true,
   },
@@ -3358,6 +3364,7 @@ const tokens: Record<string, Token> = {
       [ChainId.UNICHAIN]: '0x9151434b16b9763660705744891fA906F660EcC5',
       [ChainId.SOL]: 'Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB',
       [ChainId.AVAX]: '0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7',
+      [ChainId.HYPEREVM]: '0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb', // USDT0
     },
     decimals: {
       [ChainId.MAINNET]: 6,
@@ -3376,6 +3383,7 @@ const tokens: Record<string, Token> = {
       [ChainId.UNICHAIN]: 6,
       [ChainId.SOL]: 6,
       [ChainId.AVAX]: 6,
+      [ChainId.HYPEREVM]: 6,
     },
     liquidityDex: {
       [ChainId.MAINNET]: LiquidityDex.UniswapV2,
@@ -3392,6 +3400,7 @@ const tokens: Record<string, Token> = {
       [ChainId.UNICHAIN]: LiquidityDex.External,
       [ChainId.SOL]: LiquidityDex.External,
       [ChainId.AVAX]: LiquidityDex.External,
+      [ChainId.HYPEREVM]: LiquidityDex.External,
     },
     active: true,
   },
