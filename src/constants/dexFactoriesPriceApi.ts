@@ -361,6 +361,18 @@ const dexFactoriesPriceApi: Partial<
       protocol: PriceApiProtocols.UniV3,
     },
   ],
+  [ChainId.HYPEREVM]: [
+    {
+      name: LiquidityDex.HybraFinance,
+      factory: '0x9c7397c9C5ecC400992843408D3A283fE9108009',
+      protocol: PriceApiProtocols.Solidly,
+    },
+    {
+      name: LiquidityDex.PRJX,
+      factory: '0xFf7B3e8C00e57ea31477c32A5B52a58Eea47b072',
+      protocol: PriceApiProtocols.UniV3,
+    },
+  ],
   //TESTNETS
   [ChainId.BSC_TESTNET]: [
     {
