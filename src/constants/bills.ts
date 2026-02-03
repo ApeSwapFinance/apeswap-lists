@@ -27,7 +27,7 @@ import {
 // Sonic Largest ID: 15007
 // Berachain Largest ID: 16005
 // Katana Largest ID: 17000
-// SOL Largest ID: 18021
+// SOL Largest ID: 18022
 // UNICHAIN Largest ID: 19001
 // AVAX Largest ID: 20001
 
@@ -766,6 +766,35 @@ const bills: BillsConfig[] = [
     tags: ['AI'],
     clickUpId: '86aexd0zp',
     cgId: 'nodecoin',
+  },
+  {
+    index: 18022,
+    version: '2.2.0',
+    chainId: ChainId.SOL,
+    contractAddress: {
+      [ChainId.SOL]: '92pa2d11K5nLDSFCXfH8NDWF5DafdQh91H6LxHisVH1u',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.hvlo,
+    billNnftAddress: {
+      [ChainId.SOL]: 'nTdBH4wqGSTPA5yPancZGCwqQQaQxCoCa37JG6BUHp8',
+    },
+    projectLink: 'https://www.hivello.com',
+    twitter: 'https://x.com/HivelloOfficial',
+    initTime: { [ChainId.SOL]: 1770107235 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Solana_Collection1,
+    },
+    shortDescription:
+      'Hivello simplifies DePIN node participation with an easy-to-use desktop app that lets anyone earn passive income by sharing unused resources—no blockchain experience needed. Users can connect devices like PCs or routers to support Web3 infrastructure. The $HVLO token powers the ecosystem through rewards, staking, and seamless participation.',
+    fullDescription:
+      "Hivello is on a mission to simplify DePIN node participation for the masses by removing the technical hurdles typically associated with decentralized networks. At the core of this effort is a radically simple desktop application that enables users to earn passive income by contributing unused computer resources. Whether it's a PC, router, modem, or storage device, users can seamlessly participate in Web3 without any prior blockchain knowledge or technical expertise. By unlocking a user-friendly gateway into decentralized infrastructure, Hivello empowers individuals to support and benefit from DePIN protocols while reinforcing the broader network. At the heart of this ecosystem is the $HVLO token, which fuels rewards, staking, and participation, making Web3 both accessible and rewarding for everyone.",
+    tags: ['DePiN'],
+    clickUpId: '86aawae2c',
+    cgId: 'hivello',
   },
   //
   // Berachain

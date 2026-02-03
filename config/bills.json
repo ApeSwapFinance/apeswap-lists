@@ -1382,6 +1382,59 @@
     "cgId": "nodecoin"
   },
   {
+    "index": 18022,
+    "version": "2.2.0",
+    "chainId": 7565164,
+    "contractAddress": {
+      "7565164": "92pa2d11K5nLDSFCXfH8NDWF5DafdQh91H6LxHisVH1u"
+    },
+    "billType": "reserve",
+    "billVersion": "V2",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "7565164": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+      },
+      "decimals": {
+        "7565164": 6
+      },
+      "liquidityDex": {
+        "7565164": "External"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "HVLO",
+      "address": {
+        "7565164": "Gdck9KXSSiMMhNyjUjo4sVT1GDzeZnZP2yse9jhax3GR"
+      },
+      "decimals": {
+        "7565164": 8
+      },
+      "liquidityDex": {
+        "7565164": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "7565164": "nTdBH4wqGSTPA5yPancZGCwqQQaQxCoCa37JG6BUHp8"
+    },
+    "projectLink": "https://www.hivello.com",
+    "twitter": "https://x.com/HivelloOfficial",
+    "initTime": {
+      "7565164": 1770107235
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "Solana_Collection1"
+    },
+    "shortDescription": "Hivello simplifies DePIN node participation with an easy-to-use desktop app that lets anyone earn passive income by sharing unused resources—no blockchain experience needed. Users can connect devices like PCs or routers to support Web3 infrastructure. The $HVLO token powers the ecosystem through rewards, staking, and seamless participation.",
+    "fullDescription": "Hivello is on a mission to simplify DePIN node participation for the masses by removing the technical hurdles typically associated with decentralized networks. At the core of this effort is a radically simple desktop application that enables users to earn passive income by contributing unused computer resources. Whether it's a PC, router, modem, or storage device, users can seamlessly participate in Web3 without any prior blockchain knowledge or technical expertise. By unlocking a user-friendly gateway into decentralized infrastructure, Hivello empowers individuals to support and benefit from DePIN protocols while reinforcing the broader network. At the heart of this ecosystem is the $HVLO token, which fuels rewards, staking, and participation, making Web3 both accessible and rewarding for everyone.",
+    "tags": ["DePiN"],
+    "clickUpId": "86aawae2c",
+    "cgId": "hivello"
+  },
+  {
     "index": 16000,
     "version": "2.1.0",
     "chainId": 80094,
