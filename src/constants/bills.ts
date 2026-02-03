@@ -4875,7 +4875,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.zygoswap.io/swap',
     twitter: 'https://x.com/ZSWAP_DEX',
     initTime: { [ChainId.BSC]: 1769593098 },
-    soldOut: true,
+    soldOut: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
