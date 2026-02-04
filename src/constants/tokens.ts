@@ -6143,6 +6143,32 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  testgoo: {
+    symbol: 'testGOO',
+    address: {
+      [ChainId.BASE]: '0x74d27c3E5b8Cb550B509fC67848BcF3E5B3fc980',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.External,
+    },
+  },
+  testsgoo: {
+    symbol: 'testsGOO',
+    address: {
+      [ChainId.BASE]: '0x33d93710a367A812cA664502F1aFf2d671AeD9EB',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.External,
+    },
+  },
 
   //***** LIGHTLINK TOKENS  *****/
   ll: {
