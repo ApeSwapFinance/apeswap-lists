@@ -669,6 +669,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       type: 'token',
       tokenAddress: 'AiXxRGmRc5oDiFXbEeRX9obPpr3Zir7rks1ef2NjddiF',
     },
+    pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn: {
+      name: 'Pump',
+      symbol: 'PUMP',
+      decimals: 6,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: 'pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn',
+    },
     CgGWS19zR5xTzgCEcW5Svsuon4hBZwzBwUFimoJStCf2: {
       name: 'Foxsy AI',
       symbol: 'FOXSY',

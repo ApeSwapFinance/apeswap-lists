@@ -361,6 +361,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  pump: {
+    symbol: 'PUMP',
+    address: {
+      [ChainId.SOL]: 'pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn',
+    },
+    decimals: {
+      [ChainId.SOL]: 6,
+    },
+    liquidityDex: {
+      [ChainId.SOL]: LiquidityDex.External,
+    },
+    active: true,
+  },
   rzto: {
     symbol: 'RZTO',
     address: {
