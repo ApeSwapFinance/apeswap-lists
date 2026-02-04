@@ -11,6 +11,7 @@ enum PriceSource {
   CoinStore = 'coinstore',
   BingX = 'bingx',
   Fixed = 'fixed', // Mostly for testing
+  TokenizedVault = 'tokenized-vault',
 }
 
 type BasePriceSourceConfig = {
@@ -77,6 +78,11 @@ type FixedPriceSourceConfig = BasePriceSourceConfig & {
   price: number
 }
 
+type TokenizedVaultPriceSourceConfig = BasePriceSourceConfig & {
+  source: PriceSource.TokenizedVault
+  underlyingTokenAddress: string
+}
+
 type PriceSourceConfigs =
   | CoinGeckoPriceSourceConfig
   | DexScreenerPriceSourceConfig
@@ -86,6 +92,7 @@ type PriceSourceConfigs =
   | CoinStorePriceSourceConfig
   | BingXPriceSourceConfig
   | FixedPriceSourceConfig
+  | TokenizedVaultPriceSourceConfig
 
 const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>> = {
   [ChainId.BSC]: {
@@ -357,6 +364,22 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       source: PriceSource.Coingecko,
       id: 'functionland',
       tokenAddress: '0x9e12735d77c72c5C3670636D428f2F3815d8A4cB',
+    },
+    '0x74d27c3E5b8Cb550B509fC67848BcF3E5B3fc980': {
+      name: 'testGOO',
+      symbol: 'testGOO',
+      decimals: 18,
+      source: PriceSource.Fixed,
+      price: 0.003,
+      tokenAddress: '0x74d27c3E5b8Cb550B509fC67848BcF3E5B3fc980',
+    },
+    '0x33d93710a367A812cA664502F1aFf2d671AeD9EB': {
+      name: 'testsGOO',
+      symbol: 'testsGOO',
+      decimals: 18,
+      source: PriceSource.TokenizedVault,
+      underlyingTokenAddress: '0x74d27c3E5b8Cb550B509fC67848BcF3E5B3fc980',
+      tokenAddress: '0x33d93710a367A812cA664502F1aFf2d671AeD9EB',
     },
   },
   [ChainId.LINEA]: {
