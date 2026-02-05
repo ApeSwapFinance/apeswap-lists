@@ -1652,6 +1652,19 @@
       "59144": "Metavault"
     }
   },
+  "lb": {
+    "symbol": "LB",
+    "address": {
+      "56": "0x8613d52D74a48883A51bAdF8b25ab066714087Da"
+    },
+    "decimals": {
+      "56": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "56": "External"
+    }
+  },
   "oabond": {
     "symbol": "oABOND",
     "address": {
@@ -1689,19 +1702,6 @@
     "active": true,
     "liquidityDex": {
       "56": "PancakeSwapV2"
-    }
-  },
-  "lb": {
-    "symbol": "LB",
-    "address": {
-      "56": "0x8613d52D74a48883A51bAdF8b25ab066714087Da"
-    },
-    "decimals": {
-      "56": 18
-    },
-    "active": true,
-    "liquidityDex": {
-      "56": "External"
     }
   },
   "rice": {
