@@ -1797,6 +1797,36 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
+  // GOO BOND
+  {
+    index: 8078,
+    cmcId: 35595,
+    version: '2.1.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0xb0A1f1b1eCCD9B4c8b2F9FC57f469FB5f2710c53',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.cbbtc,
+    earnToken: tokens.testgoo,
+    billNnftAddress: {
+      [ChainId.BASE]: '0x4E4746b8Cfc7E57d824Dd91A80146F9C23C36d52',
+    },
+    projectLink: 'https://www.goo.money/',
+    twitter: '',
+    audit: '',
+    initTime: { [ChainId.BASE]: 1770301857 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: [''],
+    shortDescription: `GooMoney is goo project sers and ladeysers`,
+    fullDescription: `GooMoney is goo project sers and ladeysers`,
+    bondPartner: 'GooMoney',
+    onlyPartner: true, // display only in goo site
+  },
   {
     index: 8077,
     cmcId: 17131,

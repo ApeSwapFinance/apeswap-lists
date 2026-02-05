@@ -3333,6 +3333,61 @@
     "cgId": "fomofox"
   },
   {
+    "index": 8078,
+    "cmcId": 35595,
+    "version": "2.1.0",
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0xb0A1f1b1eCCD9B4c8b2F9FC57f469FB5f2710c53"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "cbBTC",
+      "address": {
+        "8453": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf"
+      },
+      "decimals": {
+        "8453": 8
+      },
+      "liquidityDex": {
+        "8453": "Aerodrome"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "testGOO",
+      "address": {
+        "8453": "0x74d27c3E5b8Cb550B509fC67848BcF3E5B3fc980"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "8453": "External"
+      }
+    },
+    "billNnftAddress": {
+      "8453": "0x4E4746b8Cfc7E57d824Dd91A80146F9C23C36d52"
+    },
+    "projectLink": "https://www.goo.money/",
+    "twitter": "",
+    "audit": "",
+    "initTime": {
+      "8453": 1770301857
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": [""],
+    "shortDescription": "GooMoney is goo project sers and ladeysers",
+    "fullDescription": "GooMoney is goo project sers and ladeysers",
+    "bondPartner": "GooMoney",
+    "onlyPartner": true
+  },
+  {
     "index": 8077,
     "cmcId": 17131,
     "version": "2.1.0",

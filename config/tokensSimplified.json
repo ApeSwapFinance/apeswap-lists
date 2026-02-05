@@ -783,6 +783,32 @@
       "8822": "MagicSea"
     }
   },
+  "cbbtc": {
+    "symbol": "cbBTC",
+    "address": {
+      "8453": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf"
+    },
+    "decimals": {
+      "8453": 8
+    },
+    "active": true,
+    "liquidityDex": {
+      "8453": "Aerodrome"
+    }
+  },
+  "testgoo": {
+    "symbol": "testGOO",
+    "address": {
+      "8453": "0x74d27c3E5b8Cb550B509fC67848BcF3E5B3fc980"
+    },
+    "decimals": {
+      "8453": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "8453": "External"
+    }
+  },
   "ttn": {
     "symbol": "TTN",
     "address": {
@@ -5912,16 +5938,6 @@
     },
     "decimals": {
       "56": 18
-    },
-    "active": true
-  },
-  "cbbtc": {
-    "symbol": "cbBTC",
-    "address": {
-      "8453": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf"
-    },
-    "decimals": {
-      "8453": 8
     },
     "active": true
   },
