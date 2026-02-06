@@ -3854,7 +3854,7 @@
         "8453": 18
       },
       "liquidityDex": {
-        "8453": "External"
+        "8453": "UniswapV3"
       },
       "active": true
     },
