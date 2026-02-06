@@ -345,8 +345,8 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       name: 'Blink Galaxy',
       symbol: 'BG',
       decimals: 18,
-      source: PriceSource.Dexscreener,
-      type: 'token',
+      source: PriceSource.Coingecko,
+      id: 'blink-galaxy-2',
       tokenAddress: '0x701c8c09fe9f081f9be69ab9af8291c84c09389b',
     },
     '0x1A8c06f80Cca3FC61e1B1AE27595b1482cAee020': {
