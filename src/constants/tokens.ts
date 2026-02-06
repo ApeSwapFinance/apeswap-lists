@@ -81,7 +81,7 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: 18,
     },
     liquidityDex: {
-      [ChainId.BASE]: LiquidityDex.External,
+      [ChainId.BASE]: LiquidityDex.UniswapV3,
     },
     active: true,
   },
