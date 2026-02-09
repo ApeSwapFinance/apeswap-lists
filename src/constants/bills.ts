@@ -19489,7 +19489,7 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://syndicateofvigilantes.com/',
     twitter: 'https://x.com/SOV_thegame',
     initTime: { [ChainId.MAINNET]: 1764865491 },
-    soldOut: false,
+    soldOut: true,
     hide: false,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
