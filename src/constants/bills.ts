@@ -38,6 +38,7 @@ const bills: BillsConfig[] = [
   //
   {
     index: 21000,
+    cmcId: 39537,
     version: '2.1.0',
     chainId: ChainId.HYPEREVM,
     contractAddress: {
