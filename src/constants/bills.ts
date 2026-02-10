@@ -5070,7 +5070,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://tea-fi.com/',
     twitter: 'https://x.com/TeaFi_Official',
     initTime: { [ChainId.BSC]: 1765531500 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
