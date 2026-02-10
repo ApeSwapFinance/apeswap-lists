@@ -388,6 +388,30 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       underlyingTokenAddress: '0x74d27c3E5b8Cb550B509fC67848BcF3E5B3fc980',
       tokenAddress: '0x33d93710a367A812cA664502F1aFf2d671AeD9EB',
     },
+    '0x28974AeC76DE8958361B49e8093865636cE71e1B': {
+      name: 'GOO',
+      symbol: 'GOO',
+      decimals: 18,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '0x28974AeC76DE8958361B49e8093865636cE71e1B',
+    },
+    '0x1923aAF3e0F110BBCe8e1DeDE79faa994a6D7dE0': {
+      name: 'sGOO',
+      symbol: 'sGOO',
+      decimals: 18,
+      source: PriceSource.TokenizedVault,
+      underlyingTokenAddress: '0x28974AeC76DE8958361B49e8093865636cE71e1B',
+      tokenAddress: '0x1923aAF3e0F110BBCe8e1DeDE79faa994a6D7dE0',
+    },
+    '0xd2c9f1b70e12a7BDf104e7Ac2096A62d337BbaFa': {
+      name: 'VolatileV1 AMM - GOO/cbBTC',
+      symbol: 'vAMM-GOO/cbBTC',
+      decimals: 18,
+      source: PriceSource.Dexscreener,
+      type: 'pair',
+      tokenAddress: '0xd2c9f1b70e12a7BDf104e7Ac2096A62d337BbaFa',
+    },
   },
   [ChainId.LINEA]: {
     '0xcc22F6AA610D1b2a0e89EF228079cB3e1831b1D1': {

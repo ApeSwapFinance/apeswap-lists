@@ -6182,10 +6182,23 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.External,
     },
   },
+  sgoo: {
+    symbol: 'GOO',
+    address: {
+      [ChainId.BASE]: '0x1923aAF3e0F110BBCe8e1DeDE79faa994a6D7dE0',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.External,
+    },
+  },
   testgoo: {
     symbol: 'testGOO',
     address: {
-      [ChainId.BASE]: '0x1923aAF3e0F110BBCe8e1DeDE79faa994a6D7dE0',
+      [ChainId.BASE]: '0x74d27c3E5b8Cb550B509fC67848BcF3E5B3fc980',
     },
     decimals: {
       [ChainId.BASE]: 18,
@@ -8526,9 +8539,12 @@ const tokens: Record<string, Token> = {
   goobtc: {
     symbol: 'GOO-cbBTC',
     address: {
-      [ChainId.BASE]: '0xC272e9b4A1edA242cDD07B4F8fA322f4d0A3ca42',
+      [ChainId.BASE]: '0xd2c9f1b70e12a7BDf104e7Ac2096A62d337BbaFa',
     },
     decimals: { [ChainId.BASE]: 18 },
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.External,
+    },
     active: true,
     lpToken: true,
   },
