@@ -20,6 +20,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  qone: {
+    symbol: 'QONE',
+    address: {
+      [ChainId.HYPEREVM]: '0x4F9E014f620D83b08342C8BDFf3043fb2220b727',
+    },
+    decimals: {
+      [ChainId.HYPEREVM]: 18,
+    },
+    liquidityDex: {
+      [ChainId.HYPEREVM]: LiquidityDex.External,
+    },
+    active: true,
+  },
   hype: {
     symbol: 'HYPE',
     address: {

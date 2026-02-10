@@ -12,6 +12,7 @@ enum PriceSource {
   BingX = 'bingx',
   Fixed = 'fixed', // Mostly for testing
   TokenizedVault = 'tokenized-vault',
+  Hyperliquid = 'hyperliquid',
 }
 
 type BasePriceSourceConfig = {
@@ -73,6 +74,11 @@ type BingXPriceSourceConfig = BasePriceSourceConfig & {
   id: string
 }
 
+type HyperliquidPriceSourceConfig = BasePriceSourceConfig & {
+  source: PriceSource.Hyperliquid
+  id: string
+}
+
 type FixedPriceSourceConfig = BasePriceSourceConfig & {
   source: PriceSource.Fixed
   price: number
@@ -91,6 +97,7 @@ type PriceSourceConfigs =
   | BitmartPriceSourceConfig
   | CoinStorePriceSourceConfig
   | BingXPriceSourceConfig
+  | HyperliquidPriceSourceConfig
   | FixedPriceSourceConfig
   | TokenizedVaultPriceSourceConfig
 
@@ -1048,6 +1055,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       decimals: 8,
       source: PriceSource.Dexscreener,
       type: 'token',
+      tokenAddress: '0x9FDBdA0A5e284c32744D2f17Ee5c74B284993463',
+    },
+    '0x4F9E014f620D83b08342C8BDFf3043fb2220b727': {
+      name: 'QONE',
+      symbol: 'QONE',
+      decimals: 18,
+      source: PriceSource.Hyperliquid,
+      id: '0xbf086597fdd837bfb58cf968533edaf3', // QONE address on Hyperliquid
       tokenAddress: '0x9FDBdA0A5e284c32744D2f17Ee5c74B284993463',
     },
   },
