@@ -48,6 +48,19 @@
       "7565164": "External"
     }
   },
+  "qone": {
+    "symbol": "QONE",
+    "address": {
+      "999": "0x4F9E014f620D83b08342C8BDFf3043fb2220b727"
+    },
+    "decimals": {
+      "999": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "999": "External"
+    }
+  },
   "trader": {
     "symbol": "TRADER",
     "address": {
