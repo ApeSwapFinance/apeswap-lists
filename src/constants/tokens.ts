@@ -6172,7 +6172,7 @@ const tokens: Record<string, Token> = {
   goo: {
     symbol: 'GOO',
     address: {
-      [ChainId.BASE]: '0x672BB71A1A51e754FA2dd78629b05D371daC3184',
+      [ChainId.BASE]: '0x28974AeC76DE8958361B49e8093865636cE71e1B',
     },
     decimals: {
       [ChainId.BASE]: 18,
@@ -6185,7 +6185,7 @@ const tokens: Record<string, Token> = {
   testgoo: {
     symbol: 'testGOO',
     address: {
-      [ChainId.BASE]: '0x74d27c3E5b8Cb550B509fC67848BcF3E5B3fc980',
+      [ChainId.BASE]: '0x1923aAF3e0F110BBCe8e1DeDE79faa994a6D7dE0',
     },
     decimals: {
       [ChainId.BASE]: 18,
