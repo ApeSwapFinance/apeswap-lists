@@ -15,7 +15,7 @@ import {
 // Arbitrum Largest ID: 2034
 // ETH Largest ID: 3072
 // Linea Largest ID: 6020
-// Base Largest ID: 8077
+// Base Largest ID: 8078
 // Lightlink Largest ID: 7003
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
@@ -1828,6 +1828,33 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
+  {
+    index: 8078,
+    version: '2.1.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0xC03232F7E37EeeF33bFE25510B19768aAe22B15a',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V3,
+    lpToken: tokens.goobtc,
+    earnToken: tokens.sgoo,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    projectLink: 'https://www.goo.money/',
+    twitter: 'https://x.com/GooMoneyfi',
+    initTime: { [ChainId.BASE]: 1770808029 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.GooMoney_Collection1,
+    },
+    tags: ['BTC YIELD'],
+    shortDescription: `GooMoney is a decentralized Bitcoin-backed reserve currency protocol launching on Base. It offers a reliable, yield-generating asset deeply correlated with Bitcoin.`,
+    fullDescription: `At its core is GOO, a token backed by satoshis and fueled by a growing treasury that compounds through high-performing strategies. In a world where traditional finance is losing ground and macro risks are rising, GooMoney provides a crypto-native hedge. It serves as a resilient store of value anchored in Bitcoin, enhanced with sustainable yield and built for long-term strength. This is not just about holding BTC. It is about earning on top of it. By combining protocol-owned liquidity with powerful financial primitives, GooMoney unlocks DeFi yield for Bitcoin holders without requiring them to exit the Bitcoin standard. It is the capital layer BTC maximalists have been waiting for.`,
+    bondPartner: 'GooMoney',
+    cgId: '',
+  },
   {
     index: 8077,
     cmcId: 17131,
