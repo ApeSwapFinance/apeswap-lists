@@ -1828,66 +1828,66 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
-  // {
-  //   index: 8080,
-  //   cmcId: 24877,
-  //   version: '2.1.0',
-  //   chainId: ChainId.BASE,
-  //   contractAddress: {
-  //     [ChainId.BASE]: '0xA0feCdE9ee3e7f4eF22E3325aA06ad08a888482A',
-  //   },
-  //   billType: 'reserve',
-  //   billVersion: BillVersion.V4,
-  //   lpToken: tokens.usdc,
-  //   earnToken: tokens.bim,
-  //   billNnftAddress: {
-  //     [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
-  //   },
-  //   projectLink: 'https://bim.finance/',
-  //   twitter: 'https://x.com/BIM_Finance',
-  //   initTime: { [ChainId.BASE]: 1770814611 },
-  //   soldOut: false,
-  //   billArt: {
-  //     collection: BillArtCollection.ApeBond_Collection1,
-  //   },
-  //   tags: ['DeFi'],
-  //   shortDescription:
-  //     'BIM is a decentralized cryptocurrency protocol that enables users to buy, sell, swap, bridge, and stake assets through a single, secure interface. Built as more than an exchange, it integrates aggregators like KyberSwap, Bungee, and others, enabling optimized liquidity access and seamless cross-chain operations. Governed as a public good, the ecosystem is powered by the BIM token, which grants governance rights and rewards holders through regular incentive distributions funded by protocol revenues.',
-  //   fullDescription:
-  //     'BIM is a decentralized cryptocurrency protocol designed to deliver a complete and secure DeFi experience, allowing users to buy, sell, swap, bridge, and stake digital assets from a single, intuitive interface. Built as more than just an exchange, BIM connects users to a constantly evolving ecosystem that prioritizes accessibility, efficiency, and security. The protocol leverages established DeFi infrastructure by integrating aggregators such as KyberSwap, Bungee, and others, enabling optimized liquidity access and seamless cross-chain operations. Liquidity providers can stake assets to support the protocol while earning passive income, reinforcing a sustainable and community-driven financial model. As a public good, BIM is owned and governed by its community, with decision-making power distributed among stakeholders. At the center of this ecosystem is the BIM token, which serves as the governance asset, granting voting rights on key proposals while redistributing a portion of protocol revenues through regular incentive programs for token holders.',
-  //   clickUpId: '86af96wz7',
-  //   cgId: 'bim-2',
-  // },
-  // {
-  //   index: 8079,
-  //   cmcId: 24877,
-  //   version: '2.1.0',
-  //   chainId: ChainId.BASE,
-  //   contractAddress: {
-  //     [ChainId.BASE]: '0x87933aE21ea5ad8aAD3dC61DbE41953e88a8DC31',
-  //   },
-  //   billType: 'reserve',
-  //   billVersion: BillVersion.V4,
-  //   lpToken: tokens.usdc,
-  //   earnToken: tokens.bim,
-  //   billNnftAddress: {
-  //     [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
-  //   },
-  //   projectLink: 'https://bim.finance/',
-  //   twitter: 'https://x.com/BIM_Finance',
-  //   initTime: { [ChainId.BASE]: 1770814611 },
-  //   soldOut: false,
-  //   billArt: {
-  //     collection: BillArtCollection.ApeBond_Collection1,
-  //   },
-  //   tags: ['DeFi'],
-  //   shortDescription:
-  //     'BIM is a decentralized cryptocurrency protocol that enables users to buy, sell, swap, bridge, and stake assets through a single, secure interface. Built as more than an exchange, it integrates aggregators like KyberSwap, Bungee, and others, enabling optimized liquidity access and seamless cross-chain operations. Governed as a public good, the ecosystem is powered by the BIM token, which grants governance rights and rewards holders through regular incentive distributions funded by protocol revenues.',
-  //   fullDescription:
-  //     'BIM is a decentralized cryptocurrency protocol designed to deliver a complete and secure DeFi experience, allowing users to buy, sell, swap, bridge, and stake digital assets from a single, intuitive interface. Built as more than just an exchange, BIM connects users to a constantly evolving ecosystem that prioritizes accessibility, efficiency, and security. The protocol leverages established DeFi infrastructure by integrating aggregators such as KyberSwap, Bungee, and others, enabling optimized liquidity access and seamless cross-chain operations. Liquidity providers can stake assets to support the protocol while earning passive income, reinforcing a sustainable and community-driven financial model. As a public good, BIM is owned and governed by its community, with decision-making power distributed among stakeholders. At the center of this ecosystem is the BIM token, which serves as the governance asset, granting voting rights on key proposals while redistributing a portion of protocol revenues through regular incentive programs for token holders.',
-  //   clickUpId: '86af96rvh',
-  //   cgId: 'bim-2',
-  // },
+  {
+    index: 8080,
+    cmcId: 24877,
+    version: '2.1.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0xA0feCdE9ee3e7f4eF22E3325aA06ad08a888482A',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.bim,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    projectLink: 'https://bim.finance/',
+    twitter: 'https://x.com/BIM_Finance',
+    initTime: { [ChainId.BASE]: 1770814611 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DeFi'],
+    shortDescription:
+      'BIM is a decentralized cryptocurrency protocol that enables users to buy, sell, swap, bridge, and stake assets through a single, secure interface. Built as more than an exchange, it integrates aggregators like KyberSwap, Bungee, and others, enabling optimized liquidity access and seamless cross-chain operations. Governed as a public good, the ecosystem is powered by the BIM token, which grants governance rights and rewards holders through regular incentive distributions funded by protocol revenues.',
+    fullDescription:
+      'BIM is a decentralized cryptocurrency protocol designed to deliver a complete and secure DeFi experience, allowing users to buy, sell, swap, bridge, and stake digital assets from a single, intuitive interface. Built as more than just an exchange, BIM connects users to a constantly evolving ecosystem that prioritizes accessibility, efficiency, and security. The protocol leverages established DeFi infrastructure by integrating aggregators such as KyberSwap, Bungee, and others, enabling optimized liquidity access and seamless cross-chain operations. Liquidity providers can stake assets to support the protocol while earning passive income, reinforcing a sustainable and community-driven financial model. As a public good, BIM is owned and governed by its community, with decision-making power distributed among stakeholders. At the center of this ecosystem is the BIM token, which serves as the governance asset, granting voting rights on key proposals while redistributing a portion of protocol revenues through regular incentive programs for token holders.',
+    clickUpId: '86af96wz7',
+    cgId: 'bim-2',
+  },
+  {
+    index: 8079,
+    cmcId: 24877,
+    version: '2.1.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x87933aE21ea5ad8aAD3dC61DbE41953e88a8DC31',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.bim,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    projectLink: 'https://bim.finance/',
+    twitter: 'https://x.com/BIM_Finance',
+    initTime: { [ChainId.BASE]: 1770814611 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DeFi'],
+    shortDescription:
+      'BIM is a decentralized cryptocurrency protocol that enables users to buy, sell, swap, bridge, and stake assets through a single, secure interface. Built as more than an exchange, it integrates aggregators like KyberSwap, Bungee, and others, enabling optimized liquidity access and seamless cross-chain operations. Governed as a public good, the ecosystem is powered by the BIM token, which grants governance rights and rewards holders through regular incentive distributions funded by protocol revenues.',
+    fullDescription:
+      'BIM is a decentralized cryptocurrency protocol designed to deliver a complete and secure DeFi experience, allowing users to buy, sell, swap, bridge, and stake digital assets from a single, intuitive interface. Built as more than just an exchange, BIM connects users to a constantly evolving ecosystem that prioritizes accessibility, efficiency, and security. The protocol leverages established DeFi infrastructure by integrating aggregators such as KyberSwap, Bungee, and others, enabling optimized liquidity access and seamless cross-chain operations. Liquidity providers can stake assets to support the protocol while earning passive income, reinforcing a sustainable and community-driven financial model. As a public good, BIM is owned and governed by its community, with decision-making power distributed among stakeholders. At the center of this ecosystem is the BIM token, which serves as the governance asset, granting voting rights on key proposals while redistributing a portion of protocol revenues through regular incentive programs for token holders.',
+    clickUpId: '86af96rvh',
+    cgId: 'bim-2',
+  },
   {
     index: 8078,
     version: '2.1.0',
