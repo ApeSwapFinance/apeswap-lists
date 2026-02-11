@@ -6196,7 +6196,7 @@ const tokens: Record<string, Token> = {
     },
   },
   sgoo: {
-    symbol: 'GOO',
+    symbol: 'sGOO',
     address: {
       [ChainId.BASE]: '0x1923aAF3e0F110BBCe8e1DeDE79faa994a6D7dE0',
     },
