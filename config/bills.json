@@ -3386,6 +3386,64 @@
     "cgId": "fomofox"
   },
   {
+    "index": 8078,
+    "version": "2.1.0",
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0xC03232F7E37EeeF33bFE25510B19768aAe22B15a"
+    },
+    "billType": "liquidity",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "GOO-cbBTC",
+      "address": {
+        "8453": "0xd2c9f1b70e12a7BDf104e7Ac2096A62d337BbaFa"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "liquidityDex": {
+        "8453": "External"
+      },
+      "liquiditySource": {
+        "8453": "Hydrex Solidly"
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "GOO",
+      "address": {
+        "8453": "0x1923aAF3e0F110BBCe8e1DeDE79faa994a6D7dE0"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "8453": "External"
+      }
+    },
+    "billNnftAddress": {
+      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "projectLink": "https://www.goo.money/",
+    "twitter": "https://x.com/GooMoneyfi",
+    "initTime": {
+      "8453": 1770808029
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "GooMoney_Collection1"
+    },
+    "tags": ["BTC YIELD"],
+    "shortDescription": "GooMoney is a decentralized Bitcoin-backed reserve currency protocol designed to set the standard for BTC-denominated yield. Every GOO token is backed by at least one satoshi, with onchain transparency and a treasury powered by yield-generating Bitcoin strategies. Through bonds and Protocol-Owned Liquidity, GooMoney compounds real value for holders via sGOO while strengthening its reserves for sustainable, long-term growth.",
+    "fullDescription": "GooMoney is a decentralized Bitcoin-backed reserve currency protocol designed to set the standard for BTC-denominated yield. Every GOO token is backed by at least one satoshi, supported by onchain transparency and a treasury powered by yield-generating Bitcoin strategies. Through bonds and Protocol-Owned Liquidity, GooMoney compounds real value for holders while steadily expanding its reserves. Holders can stake GOO to receive sGOO, the yield-bearing version of the token built to capture protocol-generated value. With a premium-based emissions model and active treasury management, the protocol prioritizes capital efficiency and resilience across market cycles. Built by DeFi veterans, GooMoney is engineered for sustainable growth, durable yield, and a stronger onchain financial future.",
+    "bondPartner": "GooMoney",
+    "cgId": "",
+    "clickUpId": ""
+  },
+  {
     "index": 8077,
     "cmcId": 17131,
     "version": "2.1.0",

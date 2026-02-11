@@ -8558,6 +8558,9 @@ const tokens: Record<string, Token> = {
     liquidityDex: {
       [ChainId.BASE]: LiquidityDex.External,
     },
+    liquiditySource: {
+      [ChainId.BASE]: LiquidityDex.HydrexSolidly,
+    },
     active: true,
     lpToken: true,
   },

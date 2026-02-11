@@ -796,6 +796,36 @@
       "8822": "MagicSea"
     }
   },
+  "goobtc": {
+    "symbol": "GOO-cbBTC",
+    "address": {
+      "8453": "0xd2c9f1b70e12a7BDf104e7Ac2096A62d337BbaFa"
+    },
+    "decimals": {
+      "8453": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "8453": "External"
+    },
+    "lpToken": true,
+    "liquiditySource": {
+      "8453": "Hydrex Solidly"
+    }
+  },
+  "sgoo": {
+    "symbol": "GOO",
+    "address": {
+      "8453": "0x1923aAF3e0F110BBCe8e1DeDE79faa994a6D7dE0"
+    },
+    "decimals": {
+      "8453": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "8453": "External"
+    }
+  },
   "ttn": {
     "symbol": "TTN",
     "address": {
