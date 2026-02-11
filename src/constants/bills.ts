@@ -1836,7 +1836,7 @@ const bills: BillsConfig[] = [
       [ChainId.BASE]: '0xC03232F7E37EeeF33bFE25510B19768aAe22B15a',
     },
     billType: 'liquidity',
-    billVersion: BillVersion.V3,
+    billVersion: BillVersion.V4,
     lpToken: tokens.goobtc,
     earnToken: tokens.sgoo,
     billNnftAddress: {
@@ -1854,6 +1854,7 @@ const bills: BillsConfig[] = [
     fullDescription: `At its core is GOO, a token backed by satoshis and fueled by a growing treasury that compounds through high-performing strategies. In a world where traditional finance is losing ground and macro risks are rising, GooMoney provides a crypto-native hedge. It serves as a resilient store of value anchored in Bitcoin, enhanced with sustainable yield and built for long-term strength. This is not just about holding BTC. It is about earning on top of it. By combining protocol-owned liquidity with powerful financial primitives, GooMoney unlocks DeFi yield for Bitcoin holders without requiring them to exit the Bitcoin standard. It is the capital layer BTC maximalists have been waiting for.`,
     bondPartner: 'GooMoney',
     cgId: '',
+    clickUpId: '',
   },
   {
     index: 8077,
