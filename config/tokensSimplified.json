@@ -6020,5 +6020,18 @@
       "80094": 18
     },
     "active": true
+  },
+  "goo": {
+    "symbol": "GOO",
+    "address": {
+      "8453": "0x28974AeC76DE8958361B49e8093865636cE71e1B"
+    },
+    "decimals": {
+      "8453": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "8453": "External"
+    }
   }
 }
