@@ -806,7 +806,7 @@
     },
     "active": true,
     "liquidityDex": {
-      "8453": "Hydrex Solidly"
+      "8453": "External"
     },
     "lpToken": true
   },
