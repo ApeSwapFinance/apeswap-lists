@@ -98,6 +98,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  bim: {
+    symbol: 'BIM',
+    address: {
+      [ChainId.BASE]: '0x555FFF48549C1A25a723Bd8e7eD10870D82E8379',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.UniswapV3,
+    },
+    active: true,
+  },
   vigi: {
     symbol: 'VIGI',
     address: {
