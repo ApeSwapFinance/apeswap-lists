@@ -808,7 +808,10 @@
     "liquidityDex": {
       "8453": "External"
     },
-    "lpToken": true
+    "lpToken": true,
+    "liquiditySource": {
+      "8453": "Hydrex Solidly"
+    }
   },
   "sgoo": {
     "symbol": "GOO",
