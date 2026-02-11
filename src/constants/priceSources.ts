@@ -412,6 +412,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       type: 'pair',
       tokenAddress: '0xd2c9f1b70e12a7BDf104e7Ac2096A62d337BbaFa',
     },
+    '0x555fff48549c1a25a723bd8e7ed10870d82e8379': {
+      name: 'BIM',
+      symbol: 'BIM',
+      decimals: 18,
+      source: PriceSource.Coingecko,
+      id: 'bim-2',
+      tokenAddress: '0x555fff48549c1a25a723bd8e7ed10870d82e8379',
+    },
   },
   [ChainId.LINEA]: {
     '0xcc22F6AA610D1b2a0e89EF228079cB3e1831b1D1': {
