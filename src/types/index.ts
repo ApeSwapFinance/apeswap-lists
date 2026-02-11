@@ -89,6 +89,8 @@ export enum LiquidityDex {
   SmarDex = 'SmarDex',
   TrebleSwapV2 = 'TrebleSwap V2',
   TrebleAlgebraIntegral = 'Treble Algebra Integral',
+  HydrexSolidly = 'Hydrex Solidly', //Solidly
+  HydrexIntegral = 'Hydrex Integral', //Algebra Integral
 
   //IOTA
   MagicSea = 'MagicSea',
@@ -756,6 +758,15 @@ export const dexFactories: Partial<
       router: '0x4752ba5dbc23f44d87826276bf6fd6b1c372ad24',
       protocol: Protocols.V2,
     },
+    [LiquidityDex.HydrexSolidly]: {
+      factory: '0xC47F17c4fd96F50eFD2A2448ceDe5C185c084bf0',
+      router: '0x8fB6177eb7AC7D9e75DE2D58D8749755D6BD9EA1',
+      protocol: Protocols.Solidly,
+    },
+    [LiquidityDex.HydrexIntegral]: {
+      factory: '0x36077D39cdC65E1e3FB65810430E5b2c4D5fA29E',
+      protocol: Protocols.AlgebraIntegral,
+    },
   },
   [ChainId.IOTA]: {
     [LiquidityDex.MagicSea]: {
@@ -1059,4 +1070,6 @@ export const dexToZapMapping: Record<LiquidityDex, Partial<Record<ChainId, ZapVe
   [LiquidityDex.BlackHole]: {},
   [LiquidityDex.HybraFinance]: {},
   [LiquidityDex.PRJX]: {},
+  [LiquidityDex.HydrexSolidly]: {},
+  [LiquidityDex.HydrexIntegral]: {},
 }

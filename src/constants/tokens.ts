@@ -8556,7 +8556,7 @@ const tokens: Record<string, Token> = {
     },
     decimals: { [ChainId.BASE]: 18 },
     liquidityDex: {
-      [ChainId.BASE]: LiquidityDex.External,
+      [ChainId.BASE]: LiquidityDex.HydrexSolidly,
     },
     active: true,
     lpToken: true,
