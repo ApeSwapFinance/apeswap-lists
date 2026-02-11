@@ -217,6 +217,27 @@ const buildTokensSimplified = () => {
     }
   })
 
+  // Always include these tokens regardless of bond usage
+  const alwaysIncludeTokenKeys = ['goo']
+
+  alwaysIncludeTokenKeys.forEach((tokenKey) => {
+    const token = tokens[tokenKey]
+    if (token && token.address) {
+      Object.entries(token.address).forEach(([chainIdStr, address]) => {
+        if (address) {
+          const chainId = parseInt(chainIdStr) as ChainId
+          if (!collectedTokens.has(tokenKey)) {
+            collectedTokens.set(tokenKey, { token, chainIds: new Set(), tokenKey })
+          }
+          const tokenData = collectedTokens.get(tokenKey)
+          if (tokenData) {
+            tokenData.chainIds.add(chainId)
+          }
+        }
+      })
+    }
+  })
+
   // Build filtered tokens object with only the chains where tokens are used
   const filteredTokens: Record<string, Token> = {}
 
