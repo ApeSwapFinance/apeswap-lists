@@ -27,7 +27,7 @@ import {
 // Sonic Largest ID: 15007
 // Berachain Largest ID: 16005
 // Katana Largest ID: 17000
-// SOL Largest ID: 18022
+// SOL Largest ID: 18023
 // UNICHAIN Largest ID: 19001
 // AVAX Largest ID: 20001
 // HYPEREVM Largest ID: 21000
@@ -826,6 +826,34 @@ const bills: BillsConfig[] = [
     tags: ['DePiN'],
     clickUpId: '86aawae2c',
     cgId: 'hivello',
+  },
+  {
+    index: 18023,
+    version: '2.2.0',
+    chainId: ChainId.SOL,
+    contractAddress: {
+      [ChainId.SOL]: '7oqqPmu4SEebKjanghELTvoaZSSdtgpYqpwx5HKarv6W',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.skorai,
+    billNnftAddress: {
+      [ChainId.SOL]: 'D5ecFZB6KfRXUVhbg6X8G244CHaeAXjsfveYa1ro3Er8',
+    },
+    projectLink: 'https://skoragents.ai/',
+    twitter: 'https://x.com/theskorai',
+    initTime: { [ChainId.SOL]: 1770887148 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Solana_Collection1,
+    },
+    fullDescription: `SKOR AI is a cutting-edge artificial intelligence company redefining the gaming experience with advanced AI-driven solutions tailored for gamers of all levels. Its intelligent agents deliver real-time insights, detect trends, recommend games, and optimize strategies to elevate gameplay and decision-making. By harnessing machine learning, automation, and deep data analytics, SKOR AI actively monitors gaming forums, communities, and market signals to uncover hidden lore, track esports meta shifts, and surface the best gaming deals. From skill improvement to content discovery and savings, SKOR AI functions as a smart companion enhancing every facet of gaming. With a strong focus on innovation and community-led growth, SKOR AI is shaping a more immersive, competitive, and rewarding gaming future. The $SKORAI token serves as the backbone of the ecosystem, powering staking, governance, and infrastructure growth, and rewarding long-term participation.`,
+    shortDescription: `SKOR AI enhances the gaming experience with AI-powered insights, personalized recommendations, and strategic tools for players of all levels. By tracking trends, esports metas, and gaming deals, it helps users stay ahead and save more. The $SKORAI token powers the ecosystem, enabling staking, governance, and rewarding active community participation.`,
+    tags: ['AI Agent'],
+    warningCard: `This token is currently only tradable on <a href="https://www.mexc.com/exchange/SKORAI_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a>.`,
+    clickUpId: '86a9rje9q',
+    cgId: 'skor-ai',
   },
   //
   // Berachain
