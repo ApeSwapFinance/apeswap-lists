@@ -1943,6 +1943,7 @@ const bills: BillsConfig[] = [
     bondPartner: 'GooMoney',
     cgId: '',
     clickUpId: '',
+    dexscreener: 'https://dexscreener.com/base/0xd2c9f1b70e12a7bdf104e7ac2096a62d337bbafa',
   },
   {
     index: 8077,

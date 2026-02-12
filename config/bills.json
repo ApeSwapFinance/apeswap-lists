@@ -3603,7 +3603,8 @@
     "fullDescription": "GooMoney is a decentralized Bitcoin-backed reserve currency protocol designed to set the standard for BTC-denominated yield. Every GOO token is backed by at least one satoshi, supported by onchain transparency and a treasury powered by yield-generating Bitcoin strategies. Through bonds and Protocol-Owned Liquidity, GooMoney compounds real value for holders while steadily expanding its reserves. Holders can stake GOO to receive sGOO, the yield-bearing version of the token built to capture protocol-generated value. With a premium-based emissions model and active treasury management, the protocol prioritizes capital efficiency and resilience across market cycles. Built by DeFi veterans, GooMoney is engineered for sustainable growth, durable yield, and a stronger onchain financial future.",
     "bondPartner": "GooMoney",
     "cgId": "",
-    "clickUpId": ""
+    "clickUpId": "",
+    "dexscreener": "https://dexscreener.com/base/0xd2c9f1b70e12a7bdf104e7ac2096a62d337bbafa"
   },
   {
     "index": 8077,
