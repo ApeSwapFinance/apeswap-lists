@@ -759,7 +759,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://skoragents.ai/',
     twitter: 'https://x.com/theskorai',
     initTime: { [ChainId.SOL]: 1765964062 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Solana_Collection1,
     },
