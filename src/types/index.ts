@@ -399,6 +399,7 @@ export interface BaseBondConfig {
   onlyPartner?: boolean
   clickUpId?: string
   marketingCampaign?: MarketingCampaign
+  dexscreener?: string
 }
 
 export interface PreTGEConfig extends BaseBondConfig {
