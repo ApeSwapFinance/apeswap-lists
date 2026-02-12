@@ -630,8 +630,8 @@
       "name": "BIM",
       "symbol": "BIM",
       "decimals": 18,
-      "source": "dexscreener",
-      "type": "token",
+      "source": "coingecko",
+      "id": "bim-2",
       "tokenAddress": "0x555FFF48549C1A25a723Bd8e7eD10870D82E8379"
     }
   },
