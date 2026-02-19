@@ -399,7 +399,7 @@ export interface BaseBondConfig {
   onlyPartner?: boolean
   clickUpId?: string
   marketingCampaign?: MarketingCampaign
-  dexscreener?: string
+  dexscreener?: string // This will force the dexscreener link we display (instead of using payout token address for it)
 }
 
 export interface PreTGEConfig extends BaseBondConfig {
