@@ -19755,7 +19755,7 @@ With the lending products set to go live in February, the project is poised to a
     // minTier: LaunchBondTiers.Gold, // making this public
     vestingCliff: 5184000,
     warningCard:
-      'RAAC bonus if bond fills by Dec 31, 23:00 UTC: 10% for all buyers · 15% for Mythical tier & RAAC bot holders.',
+      'Additional PVE rewards (10–15%) will be automatically transferred to your wallet within 24 hours after claiming.',
     cgId: 'precious-metals-usd',
   },
   {
@@ -19854,7 +19854,7 @@ With the lending products set to go live in February, the project is poised to a
     // minTier: LaunchBondTiers.Gold, // making this public
     vestingCliff: 5184000,
     warningCard:
-      '5% Base Reward. IF Bond release is FILLED by Jan 14, 2026, EVERYONE who has participated gets (10%) and RAAC Bot Holders gets (15%)',
+      'Additional PVE rewards (10–15%) will be automatically transferred to your wallet within 24 hours after claiming.',
     cgId: 'precious-metals-usd',
   },
 ]
