@@ -103,6 +103,14 @@ type PriceSourceConfigs =
 
 const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>> = {
   [ChainId.BSC]: {
+    '0xb5ab5cf2e2c686ae43f01f23859f3a55a8629c1c': {
+      name: 'Mind-AI',
+      symbol: 'MA',
+      decimals: 18,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '0xb5ab5cf2e2c686ae43f01f23859f3a55a8629c1c',
+    },
     '0xf03Ca04Dd56D695a410f46F14feF4028B22FB79A': {
       name: 'NFE',
       symbol: 'NFE',
