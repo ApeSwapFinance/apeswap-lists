@@ -1988,7 +1988,7 @@
     },
     "active": true,
     "liquidityDex": {
-      "56": "PancakeSwapV2"
+      "56": "External"
     }
   },
   "papuWbnb_PCS": {
