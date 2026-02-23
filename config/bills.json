@@ -9242,26 +9242,22 @@
     "version": "2.1.0",
     "chainId": 56,
     "contractAddress": {
-      "56": "0xa830713c93Fe2Dd78CD83Ed01C48bfD0a8ACf730"
+      "56": "0xbAC0C44Ce56e67D00dD179389328a297C4fa9600"
     },
-    "billType": "liquidity",
+    "billType": "reserve",
     "billVersion": "V4",
     "lpToken": {
-      "symbol": "ABOND-BNB",
+      "symbol": "USDT",
       "address": {
-        "56": "0x137Df93A0c22b863C1B335d1b8d389Ea3895BA13"
+        "56": "0x55d398326f99059fF775485246999027B3197955"
       },
       "decimals": {
         "56": 18
       },
-      "active": true,
-      "lpToken": true,
       "liquidityDex": {
-        "56": "Algebra"
+        "56": "PancakeSwapV3"
       },
-      "getLpUrl": {
-        "56": "https://thena.fi/pools/0x44aa475ed44dda30f4fb81a0eec7c44aed01c7c0"
-      }
+      "active": true
     },
     "earnToken": {
       "symbol": "oABOND",
@@ -9283,7 +9279,7 @@
     "twitter": "https://x.com/apebond",
     "audit": "https://paladinsec.co/projects/apebond/",
     "initTime": {
-      "56": 1771870963
+      "56": 1771877203
     },
     "soldOut": false,
     "hide": false,

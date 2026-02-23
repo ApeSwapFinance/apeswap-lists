@@ -4943,11 +4943,11 @@ const bills: BillsConfig[] = [
     version: '2.1.0',
     chainId: ChainId.BSC,
     contractAddress: {
-      [ChainId.BSC]: '0xa830713c93Fe2Dd78CD83Ed01C48bfD0a8ACf730',
+      [ChainId.BSC]: '0xbAC0C44Ce56e67D00dD179389328a297C4fa9600',
     },
-    billType: 'liquidity',
+    billType: 'reserve',
     billVersion: BillVersion.V4,
-    lpToken: tokens.abondBnb_Ichi,
+    lpToken: tokens.usdt,
     earnToken: tokens.oabond,
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
@@ -4955,7 +4955,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://ape.bond/',
     twitter: 'https://x.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
-    initTime: { [ChainId.BSC]: 1771870963 },
+    initTime: { [ChainId.BSC]: 1771877203 },
     soldOut: false,
     hide: false,
     billArt: {

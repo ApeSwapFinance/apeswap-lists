@@ -1708,23 +1708,6 @@
       "59144": "Metavault"
     }
   },
-  "abondBnb_Ichi": {
-    "symbol": "ABOND-BNB",
-    "address": {
-      "56": "0x137Df93A0c22b863C1B335d1b8d389Ea3895BA13"
-    },
-    "decimals": {
-      "56": 18
-    },
-    "active": true,
-    "liquidityDex": {
-      "56": "Algebra"
-    },
-    "lpToken": true,
-    "getLpUrl": {
-      "56": "https://thena.fi/pools/0x44aa475ed44dda30f4fb81a0eec7c44aed01c7c0"
-    }
-  },
   "oabond": {
     "symbol": "oABOND",
     "address": {
