@@ -428,6 +428,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       id: 'bim-2',
       tokenAddress: '0x555FFF48549C1A25a723Bd8e7eD10870D82E8379',
     },
+    '0x1d3bE1CC80cA89DDbabe5b5C254AF63200e708f7': {
+      name: 'MONSTRO',
+      symbol: 'MONSTRO',
+      decimals: 18,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '0x1d3bE1CC80cA89DDbabe5b5C254AF63200e708f7',
+    },
   },
   [ChainId.LINEA]: {
     '0xcc22F6AA610D1b2a0e89EF228079cB3e1831b1D1': {
