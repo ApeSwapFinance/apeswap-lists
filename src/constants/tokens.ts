@@ -6195,6 +6195,19 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.External,
     },
   },
+  monstro: {
+    symbol: 'MONSTRO',
+    address: {
+      [ChainId.BASE]: '0x1d3bE1CC80cA89DDbabe5b5C254AF63200e708f7',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.External,
+    },
+  },
   sgoo: {
     symbol: 'sGOO',
     address: {
