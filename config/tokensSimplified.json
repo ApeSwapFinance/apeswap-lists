@@ -796,6 +796,19 @@
       "8822": "MagicSea"
     }
   },
+  "monstro": {
+    "symbol": "MONSTRO",
+    "address": {
+      "8453": "0x1d3bE1CC80cA89DDbabe5b5C254AF63200e708f7"
+    },
+    "decimals": {
+      "8453": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "8453": "External"
+    }
+  },
   "bim": {
     "symbol": "BIM",
     "address": {
