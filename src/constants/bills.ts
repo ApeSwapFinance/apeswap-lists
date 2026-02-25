@@ -15,7 +15,7 @@ import {
 // Arbitrum Largest ID: 2034
 // ETH Largest ID: 3072
 // Linea Largest ID: 6020
-// Base Largest ID: 8080
+// Base Largest ID: 8081
 // Lightlink Largest ID: 7003
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
@@ -1856,6 +1856,36 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
+  {
+    index: 8081,
+    cmcId: 24877,
+    version: '2.1.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x36d8927EB819B2157e9B68305AD853863930fFA2',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.monstro,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    projectLink: 'https://monstro.fun/',
+    twitter: 'https://x.com/MonstroDefi',
+    initTime: { [ChainId.BASE]: 1772017117 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DeFi'],
+    shortDescription:
+      'Monstro DeFi is a transparent, community-driven DeFi ecosystem focused on long-term sustainability, clear token economics, and DAO-aligned governance. Built to unify legacy users and support future growth, it provides a clean and modern foundation for value creation through upcoming revenue-generating products. At its core is the MONSTRO token, a fixed-supply, deflationary token powering staking, emissions, and governance across the ecosystem.',
+    fullDescription:
+      'Monstro DeFi is a transparent, sustainable, and community-driven DeFi ecosystem designed to unify legacy users while supporting long-term growth. Built with a focus on clear token economics, DAO-aligned governance, and real value creation, the project prioritizes fairness, clarity, and sustainability at every level. Through Monstro Labs, the ecosystem will expand via future revenue-generating products that reinforce its long-term vision and strengthen community alignment. Whether returning from earlier Monstro products or joining for the first time, participants enter a clean, modern foundation built for holders who value transparency and consistency. At the core of this ecosystem is the MONSTRO token, a fixed-supply, deflationary token with no minting, designed to power staking, emissions, and governance while anchoring the next era of Monstro DeFi.',
+    clickUpId: '86afnkrpe',
+    cgId: 'monstro-defi',
+  },
   {
     index: 8080,
     cmcId: 24877,
