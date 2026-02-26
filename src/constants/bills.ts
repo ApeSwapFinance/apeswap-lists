@@ -5738,7 +5738,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://klinkfinance.com/ecosystem',
     twitter: 'https://x.com/klinkfinance',
     initTime: { [ChainId.BSC]: 1761559073 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
