@@ -1721,6 +1721,19 @@
       "59144": "Metavault"
     }
   },
+  "klink": {
+    "symbol": "KLINK",
+    "address": {
+      "56": "0x76E9b54B49739837bE8aD10c3687Fc6b543de852"
+    },
+    "decimals": {
+      "56": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "56": "PancakeSwapV3"
+    }
+  },
   "oabond": {
     "symbol": "oABOND",
     "address": {
@@ -1907,19 +1920,6 @@
     "active": true,
     "liquidityDex": {
       "56": "External"
-    }
-  },
-  "klink": {
-    "symbol": "KLINK",
-    "address": {
-      "56": "0x76E9b54B49739837bE8aD10c3687Fc6b543de852"
-    },
-    "decimals": {
-      "56": 18
-    },
-    "active": true,
-    "liquidityDex": {
-      "56": "PancakeSwapV3"
     }
   },
   "ort": {
