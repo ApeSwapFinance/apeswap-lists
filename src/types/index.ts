@@ -759,6 +759,10 @@ export const dexFactories: Partial<
       router: '0x4752ba5dbc23f44d87826276bf6fd6b1c372ad24',
       protocol: Protocols.V2,
     },
+    [LiquidityDex.QuickswapV2]: {
+      factory: '0xEC6540261aaaE13F236A032d454dc9287E52e56A',
+      protocol: Protocols.V2,
+    },
     [LiquidityDex.HydrexSolidly]: {
       factory: '0xC47F17c4fd96F50eFD2A2448ceDe5C185c084bf0',
       router: '0x8fB6177eb7AC7D9e75DE2D58D8749755D6BD9EA1',
@@ -1009,6 +1013,7 @@ export const dexToZapMapping: Record<LiquidityDex, Partial<Record<ChainId, ZapVe
   },
   [LiquidityDex.QuickswapV2]: {
     [ChainId.MATIC]: ZapVersion.SoulZap,
+    [ChainId.BASE]: ZapVersion.SoulZapApi,
   },
   [LiquidityDex.ApeSwapV3]: {},
   [LiquidityDex.UniswapV3]: {
