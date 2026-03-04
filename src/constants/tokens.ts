@@ -8205,6 +8205,20 @@ const tokens: Record<string, Token> = {
         'https://quickswap.exchange/#/pools/v2?currency0=0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359&currency1=0x78445485A8d5b3BE765e3027bc336e3c272a23c9',
     },
   },
+  aixWeth_QS: {
+    symbol: 'AIX-ETH',
+    address: {
+      [ChainId.BASE]: '0x1ec9ab3986Efdac4d31Ecb325E39a4a6A2974E6B',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.QuickswapV2,
+    },
+    active: true,
+    lpToken: true,
+  },
   usdcQuick_Ichi: {
     symbol: 'USDC-QUICK',
     address: {
