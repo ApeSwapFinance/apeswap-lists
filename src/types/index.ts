@@ -761,6 +761,7 @@ export const dexFactories: Partial<
     },
     [LiquidityDex.QuickswapV2]: {
       factory: '0xEC6540261aaaE13F236A032d454dc9287E52e56A',
+      router: '0x4a012af2b05616Fb390ED32452641C3F04633bb5',
       protocol: Protocols.V2,
     },
     [LiquidityDex.HydrexSolidly]: {
