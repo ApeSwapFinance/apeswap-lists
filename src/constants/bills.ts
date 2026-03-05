@@ -788,7 +788,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.nodepay.ai/',
     twitter: 'https://x.com/nodepay',
     initTime: { [ChainId.SOL]: 1769763220 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Solana_Collection1,
     },
@@ -815,7 +815,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.hivello.com',
     twitter: 'https://x.com/HivelloOfficial',
     initTime: { [ChainId.SOL]: 1770107235 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Solana_Collection1,
     },
@@ -5209,7 +5209,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.BSC]: 1770646366 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -5279,7 +5279,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.BSC]: 1770122833 },
-    soldOut: false,
+    soldOut: true,
     hide: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -5441,7 +5441,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://riceai.floki.id/',
     twitter: 'https://x.com/realRiceAI',
     initTime: { [ChainId.BSC]: 1767862805 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
