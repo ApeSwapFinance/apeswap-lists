@@ -1424,7 +1424,7 @@
     "initTime": {
       "7565164": 1769763220
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "Solana_Collection1"
     },
@@ -1477,7 +1477,7 @@
     "initTime": {
       "7565164": 1770107235
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "Solana_Collection1"
     },
@@ -9727,7 +9727,7 @@
     "initTime": {
       "56": 1770646366
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -9845,7 +9845,7 @@
     "initTime": {
       "56": 1770122833
     },
-    "soldOut": false,
+    "soldOut": true,
     "hide": false,
     "billArt": {
       "collection": "ApeBond_Collection1"
@@ -10127,7 +10127,7 @@
     "initTime": {
       "56": 1767862805
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
