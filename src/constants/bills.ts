@@ -1874,7 +1874,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://planetix.com/',
     twitter: 'https://x.com/Planetix0',
     initTime: { [ChainId.BASE]: 1772623865 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1904,7 +1904,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://planetix.com/',
     twitter: 'https://x.com/Planetix0',
     initTime: { [ChainId.BASE]: 1772620165 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1934,7 +1934,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://planetix.com/',
     twitter: 'https://x.com/Planetix0',
     initTime: { [ChainId.BASE]: 1772623870 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -1964,7 +1964,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://planetix.com/',
     twitter: 'https://x.com/Planetix0',
     initTime: { [ChainId.BASE]: 1772623743 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
