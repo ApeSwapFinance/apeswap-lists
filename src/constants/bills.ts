@@ -19838,7 +19838,7 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://www.adoprotocol.com/',
     twitter: 'https://x.com/adoprotocol',
     initTime: { [ChainId.MAINNET]: 1763538593 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
     },
