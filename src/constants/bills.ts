@@ -13,7 +13,7 @@ import {
 // Polygon Largest ID: 188
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2034
-// ETH Largest ID: 3072
+// ETH Largest ID: 3073
 // Linea Largest ID: 6020
 // Base Largest ID: 8087
 // Lightlink Largest ID: 7003
@@ -20169,6 +20169,37 @@ With the lending products set to go live in February, the project is poised to a
     warningCard:
       'Additional PVE rewards (10–15%) will be automatically transferred to your wallet within 24 hours after claiming.',
     cgId: 'precious-metals-usd',
+  },
+  {
+    index: 3073,
+    cmcId: 9194,
+    version: '2.1.0',
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0xA8d5ec5488762c93dE30f5e3A8EafaFB535F870B',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.saito,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    projectLink: 'https://saito.io/',
+    twitter: 'https://x.com/SaitoOfficial',
+    initTime: { [ChainId.MAINNET]: 1773063416 },
+    soldOut: false,
+    hide: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['Blockchains'],
+    shortDescription:
+      'Saito is a Layer 1 blockchain designed to solve key economic challenges faced by traditional networks. Instead of rewarding miners or stakers, Saito introduces Routing Work, a unique mechanism that rewards network service providers who maintain connectivity and infrastructure. This approach strengthens scalability, improves network access, and supports secure peer-to-peer applications without relying on centralized servers.',
+    fullDescription:
+      'Saito is a Layer 1 blockchain protocol built to rethink how blockchain infrastructure is funded and maintained. Rather than relying on miners or stakers, the network rewards the participants who provide actual network services through its Routing Work mechanism, creating stronger incentives for reliable connectivity and scalable infrastructure. The protocol also introduces Automatic Transaction Rebroadcasting (ATR), a dynamic system that manages blockchain data growth through market-based pricing. Combined with the ability to run blockchain applications directly in the browser using the chain as a decentralized public key infrastructure (PKI), Saito enables secure peer-to-peer connections and allows Web3 applications to operate without centralized servers. ',
+    clickUpId: '86afx6ex8',
+    cgId: 'saito',
   },
 ]
 
