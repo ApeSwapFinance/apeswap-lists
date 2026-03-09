@@ -124,6 +124,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  saito: {
+    symbol: 'SAITO',
+    address: {
+      [ChainId.MAINNET]: '0xFa14Fa6958401314851A17d6C5360cA29f74B57B',
+    },
+    decimals: {
+      [ChainId.MAINNET]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.External,
+    },
+    active: true,
+  },
   camTest: {
     symbol: 'CAMTEST',
     address: {

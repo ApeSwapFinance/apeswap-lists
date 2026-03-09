@@ -965,6 +965,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       id: 'VIGI-USDT',
       tokenAddress: '0x5D8AB16A943204a031fc94ef6Cb4D7A8c7E59602',
     },
+    '0xFa14Fa6958401314851A17d6C5360cA29f74B57B': {
+      name: 'SAITO',
+      symbol: 'SAITO',
+      decimals: 18,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '0xFa14Fa6958401314851A17d6C5360cA29f74B57B',
+    },
   },
   [ChainId.MEGAETH_TESTNET]: {
     '0x4eB2Bd7beE16F38B1F4a0A5796Fffd028b6040e9': {
