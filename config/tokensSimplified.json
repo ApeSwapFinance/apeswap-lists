@@ -5948,6 +5948,19 @@
       "1": "External"
     }
   },
+  "saito": {
+    "symbol": "SAITO",
+    "address": {
+      "1": "0xFa14Fa6958401314851A17d6C5360cA29f74B57B"
+    },
+    "decimals": {
+      "1": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "1": "External"
+    }
+  },
   "hype": {
     "symbol": "wHYPE",
     "address": {
