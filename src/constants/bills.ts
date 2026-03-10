@@ -2505,7 +2505,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://aitv.gg/',
     twitter: 'https://x.com/aitvgg',
     initTime: { [ChainId.BASE]: 1765532903 },
-    soldOut: false,
+    soldOut: true,
     hide: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
