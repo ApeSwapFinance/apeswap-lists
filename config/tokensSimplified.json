@@ -1750,7 +1750,7 @@
     "active": true,
     "liquidityDex": {
       "1": "UniswapV3",
-      "56": "ThenaV1",
+      "56": "Algebra",
       "137": "QuickswapV2"
     }
   },

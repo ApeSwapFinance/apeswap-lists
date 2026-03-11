@@ -1928,7 +1928,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MAINNET]: 18,
     },
     liquidityDex: {
-      [ChainId.BSC]: LiquidityDex.ThenaV1,
+      [ChainId.BSC]: LiquidityDex.Algebra,
       [ChainId.MATIC]: LiquidityDex.QuickswapV2,
       [ChainId.MAINNET]: LiquidityDex.UniswapV3,
     },
