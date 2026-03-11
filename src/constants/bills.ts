@@ -15,7 +15,7 @@ import {
 // Arbitrum Largest ID: 2034
 // ETH Largest ID: 3073
 // Linea Largest ID: 6020
-// Base Largest ID: 8087
+// Base Largest ID: 8088
 // Lightlink Largest ID: 7003
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
@@ -1856,6 +1856,38 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
+  {
+    index: 8088,
+    cmcId: 38826,
+    version: '2.1.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x4DBdf0dC36f4af78e08E7D185Ab78D0a3eD63808', //redeployed with 30 days cliff
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.ttn,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    projectLink: 'https://www.toyowtoken.com/',
+    twitter: 'https://x.com/ToyowOfficial',
+    initTime: { [ChainId.BASE]: 1773223580 },
+    soldOut: false,
+    hide: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['RWA'],
+    shortDescription:
+      'Toyow is a platform that lets people invest in real-world assets by turning them into digital tokens. It brings assets like real estate, movies, music, and art onchain, making them easier to access, trade, and own. Everything runs through one simple marketplace designed for transparency and global access. The TTN token powers the platform, enabling transactions and rewards while giving holders benefits such as discounts, lower fees, exclusive investment opportunities, and long-term value through a buy-and-burn mechanism.',
+    fullDescription:
+      'Toyow positions itself as the home of multi-category real-world asset tokenization, bringing traditionally offline value onchain through a unified and accessible marketplace. The platform enables users to tokenize and invest in assets across a wide range of sectors, including real estate, film, music, art, and other high-value opportunities, transforming how ownership and liquidity are experienced in the digital era. By bridging Web3 infrastructure with tangible assets, Toyow aims to unlock billions in real-world value and make global investment more inclusive, transparent, and efficient. At the core of this ecosystem is the TTN token, which powers platform transactions, incentivizes participation, and supports community engagement, while offering benefits such as discounts, reduced fees, exclusive marketplace access, and a buy-and-burn mechanism designed to create long-term value for TTN holders.',
+    clickUpId: '86aa6zugv',
+    vestingCliff: 2592000, // 30 days cliff
+    cgId: 'toyow-token',
+  },
   {
     index: 8087,
     cmcId: 17131,
