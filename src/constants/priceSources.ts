@@ -652,6 +652,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       id: 'rkey',
       tokenAddress: 'F4YXmo8CDLRvWGnXyxVZ62wwc7oWcBam7tu4G5kGSaKZ',
     },
+    '2qpqweHfSKUvZFGQL3D7aadD5i5dDN8kz9xdZGraGAxC': {
+      name: 'RZTO',
+      symbol: 'RZTO',
+      decimals: 6,
+      source: PriceSource.Coingecko,
+      id: 'rizznet',
+      tokenAddress: '2qpqweHfSKUvZFGQL3D7aadD5i5dDN8kz9xdZGraGAxC',
+    },
     '5YSjRtJJTZpQ44YF6qDpyygPCrJ61q5eNJRJRZMvKjZD': {
       name: 'ORCA',
       symbol: 'ORCAI',
@@ -755,14 +763,6 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       source: PriceSource.Dexscreener,
       type: 'token',
       tokenAddress: '7ZCm8WBN9aLa3o47SoYctU6iLdj7wkGG5SV2hE5CgtD5',
-    },
-    '2qpqweHfSKUvZFGQL3D7aadD5i5dDN8kz9xdZGraGAxC': {
-      name: 'RZTO Token',
-      symbol: 'RZTO',
-      decimals: 6,
-      source: PriceSource.Mexc,
-      id: 'RZTOUSDT',
-      tokenAddress: '2qpqweHfSKUvZFGQL3D7aadD5i5dDN8kz9xdZGraGAxC',
     },
     B89Hd5Juz7JP2dxCZXFJWk4tMTcbw7feDhuWGb3kq5qE: {
       name: 'Nodecoin',
