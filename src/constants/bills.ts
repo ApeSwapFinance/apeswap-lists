@@ -27,7 +27,7 @@ import {
 // Sonic Largest ID: 15007
 // Berachain Largest ID: 16005
 // Katana Largest ID: 17000
-// SOL Largest ID: 18023
+// SOL Largest ID: 18024
 // UNICHAIN Largest ID: 19001
 // AVAX Largest ID: 20001
 // HYPEREVM Largest ID: 21000
@@ -854,6 +854,34 @@ const bills: BillsConfig[] = [
     warningCard: `This token is currently only tradable on <a href="https://www.mexc.com/exchange/SKORAI_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a>.`,
     clickUpId: '86a9rje9q',
     cgId: 'skor-ai',
+  },
+  {
+    index: 18024,
+    version: '2.2.0',
+    chainId: ChainId.SOL,
+    contractAddress: {
+      [ChainId.SOL]: '4Kv1fJyd98KKgyf17tqSdWuJMva4iMqu8kDggxk6LKt7',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.rzto,
+    billNnftAddress: {
+      [ChainId.SOL]: 'HGhH93d7xG1NaPJvV3aoQtDiEpmgQGHqkNhRwgRUXg9x',
+    },
+    projectLink: 'https://rzto.io/',
+    twitter: 'https://x.com/rztoio',
+    initTime: { [ChainId.SOL]: 1773313938 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Solana_Collection1,
+    },
+    shortDescription: `RZTO is a Web3-powered telecom ecosystem that rewards users for everyday mobile usage. Built in partnership with Rizz Wireless, an FCC-licensed U.S. telecom operator, users can earn RZTO tokens through calls, mobile plan renewals, and data usage. By combining real telecom infrastructure with blockchain incentives, RZTO turns mobile connectivity into a reward-driven experience.`,
+    fullDescription: `RZTO is the native utility token powering the Rizz Wireless ecosystem, designed to connect real-world telecom services with blockchain-based incentives. Through the platform, users can earn rewards from their everyday mobile activity and redeem tokens for benefits such as travel discounts, lifestyle vouchers, and telecom-related services. The token also introduces additional utility through staking mechanisms that reward users with mobile data and a deflationary model where tokens are gradually burned through network activity. By integrating Web3 incentives into telecom infrastructure, RZTO creates a new model where connectivity, rewards, and real-world utility are directly linked.`,
+    tags: ['RWA'],
+    warningCard: `This token is currently only tradable on <a href="hhttps://www.gate.com/trade/RZTO_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">Gate</a>.`,
+    clickUpId: '86ag2zz05',
+    cgId: 'rizznet',
   },
   //
   // Berachain
@@ -2778,7 +2806,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.bankofbase.fun/',
     twitter: 'https://x.com/bankofbase_fun',
     initTime: { [ChainId.BASE]: 1757605019 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -5267,7 +5295,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.BSC]: 1771877203 },
-    soldOut: false,
+    soldOut: true,
     hide: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -5695,6 +5723,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/seedphoto',
     initTime: { [ChainId.BSC]: 1764673477 },
     soldOut: false,
+    hide: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
