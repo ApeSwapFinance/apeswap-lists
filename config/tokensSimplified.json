@@ -337,6 +337,19 @@
       "7565164": "External"
     }
   },
+  "rzto": {
+    "symbol": "RZTO",
+    "address": {
+      "7565164": "2qpqweHfSKUvZFGQL3D7aadD5i5dDN8kz9xdZGraGAxC"
+    },
+    "decimals": {
+      "7565164": 6
+    },
+    "active": true,
+    "liquidityDex": {
+      "7565164": "External"
+    }
+  },
   "trax": {
     "symbol": "TRAX",
     "address": {
