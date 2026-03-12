@@ -5723,6 +5723,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/seedphoto',
     initTime: { [ChainId.BSC]: 1764673477 },
     soldOut: false,
+    hide: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
