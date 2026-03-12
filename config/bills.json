@@ -1591,7 +1591,7 @@
     "shortDescription": "RZTO is a Web3-powered telecom ecosystem that rewards users for everyday mobile usage. Built in partnership with Rizz Wireless, an FCC-licensed U.S. telecom operator, users can earn RZTO tokens through calls, mobile plan renewals, and data usage. By combining real telecom infrastructure with blockchain incentives, RZTO turns mobile connectivity into a reward-driven experience.",
     "fullDescription": "RZTO is the native utility token powering the Rizz Wireless ecosystem, designed to connect real-world telecom services with blockchain-based incentives. Through the platform, users can earn rewards from their everyday mobile activity and redeem tokens for benefits such as travel discounts, lifestyle vouchers, and telecom-related services. The token also introduces additional utility through staking mechanisms that reward users with mobile data and a deflationary model where tokens are gradually burned through network activity. By integrating Web3 incentives into telecom infrastructure, RZTO creates a new model where connectivity, rewards, and real-world utility are directly linked.",
     "tags": ["RWA"],
-    "warningCard": "This token is currently only tradable on <a href=\"hhttps://www.gate.com/trade/RZTO_USDT\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #6099c5\">Gate</a>.",
+    "warningCard": "This token is currently only tradable on <a href=\"https://www.gate.com/trade/RZTO_USDT\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #6099c5\">Gate</a>.",
     "clickUpId": "86ag2zz05",
     "cgId": "rizznet"
   },
