@@ -2806,7 +2806,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.bankofbase.fun/',
     twitter: 'https://x.com/bankofbase_fun',
     initTime: { [ChainId.BASE]: 1757605019 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
