@@ -1148,6 +1148,19 @@ const tokens: Record<string, Token> = {
       [ChainId.MAINNET]: LiquidityDex.External,
     },
   },
+  axyc: {
+    symbol: 'AXYC',
+    address: {
+      [ChainId.MAINNET]: '0x66730C91e5c3132811B1DcAD8BECabbdeC644394',
+    },
+    decimals: {
+      [ChainId.MAINNET]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.External,
+    },
+  },
   fpmUSD: {
     symbol: 'fpmUSD',
     address: {
