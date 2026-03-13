@@ -56,6 +56,14 @@
       "id": "usd-coin",
       "tokenAddress": "0x0d25bfec8b9068f00c2b74c9b7b3633721d66b2c"
     },
+    "0x66730C91e5c3132811B1DcAD8BECabbdeC644394": {
+      "name": "AxyCoin",
+      "symbol": "AXYC",
+      "decimals": 18,
+      "source": "coingecko",
+      "id": "axycoin",
+      "tokenAddress": "0x66730C91e5c3132811B1DcAD8BECabbdeC644394"
+    },
     "0x5D8AB16A943204a031fc94ef6Cb4D7A8c7E59602": {
       "name": "Syndicate of Vigilantes",
       "symbol": "VIGI",
