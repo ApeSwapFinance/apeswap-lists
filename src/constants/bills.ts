@@ -20296,6 +20296,34 @@ With the lending products set to go live in February, the project is poised to a
     clickUpId: '86afx6ex8',
     cgId: 'saito',
   },
+  {
+    index: 3074,
+    version: '2.1.1',
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0x4fb8A1301B96EfF9126a5c9A026299822283C1c8',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.axyc,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    projectLink: 'https://axyc.ai/',
+    twitter: 'https://x.com/AxyCoin_AXYC', //Account suspended
+    initTime: { [ChainId.MAINNET]: 1773674992 },
+    soldOut: false,
+    hide: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription: 'Short description for AXYC here',
+    fullDescription: 'Long description for AXYC here',
+    clickUpId: '86afx6ex8',
+    cgId: '86ag58618',
+  },
 ]
 
 export default bills
