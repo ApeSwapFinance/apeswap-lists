@@ -5325,6 +5325,37 @@ const bills: BillsConfig[] = [
   // BNB chain
   //
   {
+    index: 1209,
+    version: '2.1.1',
+    cmcId: 21273,
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0xF5c4856eA9ff7f7a7228956F20bD02Ee94abAA79',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.cty,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://custodiy.com/',
+    twitter: 'https://x.com/Custodiy1',
+    initTime: { [ChainId.BSC]: 1765183436 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DeFi Tooling'],
+    shortDescription:
+      'Custodiy is a “Custodiy as a Service” platform focused on tokenization, RWA and digital assets, enabling users to create, trade and manage assets via smart contracts. It offers OTC services, escrow solutions and a Web3 marketplace with fiat and stablecoin payments, on-chain traceability and secure approvals. The CTY token powers all platform services and operations.',
+    fullDescription:
+      'Custodiy emerges as a comprehensive “Custodiy as a Service” platform, enabling tokenization, real-world assets (RWA) and digital assets, and allowing users to create, trade and manage digital assets via smart contracts. The platform supports an OTC service for projects that already have their own tokens and want to sell them. For merchants, producers or store owners, Custodiy provides a Marketplace enabling sales of goods or services with stablecoin or fiat payments, offers, escrow-based transaction approval, and on-chain product traceability. Through its modular WebApp, Custodiy integrates with major blockchains, supports stablecoins (USDT, USDC, etc.), and delivers escrow and escrow-contract services, document archiving, and asset custody, all aimed at bridging traditional finance and Web3. The native token CTY underpins the ecosystem: every service in Custodiy, contract creation, escrow, marketplace operations, is paid using CTY, making the token essential for accessing and leveraging the platform’s full suite of features.',
+    warningCard: `This token is currently only tradable on <a href="https://www.lbank.com/trade/cty_usdt?icode=39165" target="_blank" rel="noopener noreferrer" style="color: #6099c5">LBank</a>.`,
+    clickUpId: '86adq8x13',
+    cgId: 'custodiy-2',
+  },
+  {
     index: 1208,
     cmcId: 29157,
     version: '2.1.0',
@@ -5842,7 +5873,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://custodiy.com/',
     twitter: 'https://x.com/Custodiy1',
     initTime: { [ChainId.BSC]: 1765183436 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
