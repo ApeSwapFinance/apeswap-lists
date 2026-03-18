@@ -1930,7 +1930,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://planetix.com/',
     twitter: 'https://x.com/Planetix0',
     initTime: { [ChainId.BASE]: 1772833127 },
-    soldOut: true,
+    soldOut: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
