@@ -20587,7 +20587,7 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://www.masqbrowser.com/',
     twitter: 'https://x.com/MASQ_ai',
     initTime: { [ChainId.MAINNET]: 1767168885 },
-    soldOut: false,
+    soldOut: true,
     hide: false,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
@@ -20788,6 +20788,38 @@ With the lending products set to go live in February, the project is poised to a
       'Saito is a Layer 1 blockchain protocol built to rethink how blockchain infrastructure is funded and maintained. Rather than relying on miners or stakers, the network rewards the participants who provide actual network services through its Routing Work mechanism, creating stronger incentives for reliable connectivity and scalable infrastructure. The protocol also introduces Automatic Transaction Rebroadcasting (ATR), a dynamic system that manages blockchain data growth through market-based pricing. Combined with the ability to run blockchain applications directly in the browser using the chain as a decentralized public key infrastructure (PKI), Saito enables secure peer-to-peer connections and allows Web3 applications to operate without centralized servers. ',
     clickUpId: '86afx6ex8',
     cgId: 'saito',
+  },
+  {
+    index: 3077,
+    cmcId: 8376,
+    version: '2.1.0',
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0x373F3A5d300f61cD299036Ba434B6D3a130a7847',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.wethMasq_Steer,
+    earnToken: tokens.masq,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    projectLink: 'https://www.masqbrowser.com/',
+    twitter: 'https://x.com/MASQ_ai',
+    initTime: { [ChainId.MAINNET]: 1767168885 },
+    soldOut: false,
+    hide: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['DeFi'],
+    shortDescription:
+      'MASQ delivers a private web3 browsing experience through a peer-to-peer mesh network, enabling users to bypass censorship, access dApps, and enjoy borderless internet freedom. Its Chromium-based browser integrates ENS, IPFS, and web3 tools while rewarding users for sharing bandwidth. At the heart of this decentralized ecosystem is the MASQ utility token, used as a means of enabling and incentivising functionalities in the MASQ ecosystem.',
+    fullDescription:
+      'The MASQ software suite delivers a groundbreaking private web3 browsing experience powered by a peer-to-peer mesh network, enabling users to bypass censorship, geo-blocks, and centralized tracking. With its privacy-first Chromium-based interface, MASQ combines intuitive usability with powerful tools such as ENS and IPFS resolution, a curated web3 App Store, and seamless integration with Metamask and Frame extensions. Users can access dApps, crypto platforms, and metaverse services while supporting the network by sharing bandwidth, earning rewards in return. As the decentralized mesh-VPN expands, the network grows stronger, creating a borderless, censorship-resistant internet layer. MASQ also pioneers features like wallet-to-wallet encrypted messaging and decentralized storage integration, reinforcing its role as a foundation for web3 natives. Central to this ecosystem is the MASQ utility token, used as a means of enabling and incentivising functionalities in the MASQ ecosystem.',
+    clickUpId: '86abfbqt2',
+    warningCard: `A minimum 3% slippage is required to complete this Bond purchase.`,
+    cgId: 'masq',
   },
 ]
 
