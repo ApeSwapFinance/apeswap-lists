@@ -1979,7 +1979,7 @@ const bills: BillsConfig[] = [
     version: '2.1.0',
     chainId: ChainId.BASE,
     contractAddress: {
-      [ChainId.BASE]: '0x1Ae6dA3f3cECC0C7c0255eF368C406DDeB560448', //Bond 21,22,23 merged
+      [ChainId.BASE]: '0x1Ae6dA3f3cECC0C7c0255eF368C406DDeB560448',
     },
     billType: 'reserve',
     billVersion: BillVersion.V4,
@@ -1991,7 +1991,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://planetix.com/',
     twitter: 'https://x.com/Planetix0',
     initTime: { [ChainId.BASE]: 1772833127 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
