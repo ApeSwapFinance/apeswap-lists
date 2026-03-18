@@ -350,6 +350,19 @@
       "7565164": "External"
     }
   },
+  "stop": {
+    "symbol": "STOP",
+    "address": {
+      "7565164": "W2bAuFf2Xeb7ZNpJTywFSaCs5jYkaLYtBMR53SzVXUo"
+    },
+    "decimals": {
+      "7565164": 9
+    },
+    "active": true,
+    "liquidityDex": {
+      "7565164": "External"
+    }
+  },
   "trax": {
     "symbol": "TRAX",
     "address": {
@@ -809,6 +822,19 @@
       "8822": "MagicSea"
     }
   },
+  "bg2": {
+    "symbol": "BG",
+    "address": {
+      "8453": "0x701c8c09fe9f081f9be69ab9af8291c84c09389b"
+    },
+    "decimals": {
+      "8453": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "8453": "UniswapV3"
+    }
+  },
   "ttn": {
     "symbol": "TTN",
     "address": {
@@ -903,19 +929,6 @@
     "active": true,
     "liquidityDex": {
       "8453": "Aerodrome"
-    }
-  },
-  "bg2": {
-    "symbol": "BG",
-    "address": {
-      "8453": "0x701c8c09fe9f081f9be69ab9af8291c84c09389b"
-    },
-    "decimals": {
-      "8453": 18
-    },
-    "active": true,
-    "liquidityDex": {
-      "8453": "UniswapV3"
     }
   },
   "aitv": {

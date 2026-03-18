@@ -27,7 +27,7 @@ import {
 // Sonic Largest ID: 15007
 // Berachain Largest ID: 16005
 // Katana Largest ID: 17000
-// SOL Largest ID: 18024
+// SOL Largest ID: 18025
 // UNICHAIN Largest ID: 19001
 // AVAX Largest ID: 20001
 // HYPEREVM Largest ID: 21000
@@ -882,6 +882,34 @@ const bills: BillsConfig[] = [
     warningCard: `This token is currently only tradable on <a href="https://www.gate.com/trade/RZTO_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">Gate</a>.`,
     clickUpId: '86ag2zz05',
     cgId: 'rizznet',
+  },
+  {
+    index: 18025,
+    version: '2.2.1',
+    chainId: ChainId.SOL,
+    contractAddress: {
+      [ChainId.SOL]: '6iBGQPjbExtjQbh3rxHKTtfnqsqDHGZK5yzPSxqN1teD',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.stop,
+    billNnftAddress: {
+      [ChainId.SOL]: 'CCeTU66f5Lf9jrKrd1ini5xRfbprBmStCvubRWYmesQw',
+    },
+    projectLink: 'https://www.letstop.io',
+    twitter: 'https://x.com/LETST0P',
+    initTime: { [ChainId.SOL]: 1773840709 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Solana_Collection1,
+    },
+    shortDescription: `STOP is a Web3-powered driving app that rewards users for safe and distraction-free driving. Using AI-based motion tracking and behavioral analysis, the platform detects phone usage and incentivizes responsible habits with LETSTOP credits. By combining road safety with blockchain rewards, STOP turns everyday driving into a safer and more rewarding experience.`,
+    fullDescription: `STOP is the utility token behind the LETSTOP ecosystem, designed to bring real-world driving behavior onchain through a reward-based system focused on road safety. Users earn credits by maintaining distraction-free driving habits, which can be converted into $STOP tokens and used across the ecosystem for rewards such as in-app upgrades, vouchers, and external benefits. Powered by AI-driven tracking technology, the platform promotes safer driving while building a community-driven network through referrals and incentives. By linking responsible driving with blockchain rewards and tradable assets, STOP introduces a new model where everyday behavior generates real value while contributing to a broader social impact.`,
+    tags: ['GameFi'],
+    warningCard: `This token is currently only tradable on <a href="https://www.mexc.com/exchange/STOP_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a>.`,
+    clickUpId: '86ag8506w',
+    cgId: 'letstop',
   },
   //
   // Berachain
@@ -1885,6 +1913,35 @@ const bills: BillsConfig[] = [
   // BASE
   //
   {
+    index: 8067,
+    version: '2.1.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0xe6e00Bb285764A9080190462e6816BBb7A49FE79',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.bg2,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    projectLink: 'https://outerringmmo.com/',
+    twitter: 'https://x.com/OuterRingMMO',
+    initTime: { [ChainId.BASE]: 1773836862 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['GameFi'],
+    shortDescription:
+      'Blink Galaxy Blockchain is a gas-free Web3 gaming stack by SOREDI GAMES connecting Outer Ring MMO, Racerloop, and the Blink Galaxy hub under $BG. Built on SKALE for instant, fee-less gameplay and launching $BG on Base for liquidity, it uses the Blink Passport for Web2 onboarding and cross-game assets, enabling scalable, unified gaming experiences for players and studios.',
+    fullDescription:
+      'Blink Galaxy Blockchain (Blinkchain) is a gas-free Web3 gaming stack developed by SOREDI GAMES that unifies Outer Ring MMO (Alpha), Racerloop, and the Blink Galaxy hub under the $BG ecosystem. Built on SKALE for instant finality and fee-less gameplay, with $BG launching on Base for liquidity, Blinkchain enables seamless cross-title asset and reward portability through the Blink Passport, a Web2-simple identity system using email and password. The $BG token powers governance, rewards, marketplace fees and discounts, and cross-game incentives. With a fixed supply of 10B and a key milestone set for SKALE mainnet on January 1, 2026, Blinkchain leverages live IP, esports co-marketing, marketplace and crafting fees, and partner SDKs to convert mainstream gamers into on-chain participants and provide studios with a fee-less infrastructure for scalable game development.',
+    clickUpId: '86ad8xn9y',
+    cgId: `blink-galaxy-2`,
+  },
+  {
     index: 8088,
     cmcId: 38826,
     version: '2.1.0',
@@ -2203,7 +2260,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.goo.money/',
     twitter: 'https://x.com/GooMoneyfi',
     initTime: { [ChainId.BASE]: 1770808029 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.GooMoney_Collection1,
     },
@@ -2535,7 +2592,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://outerringmmo.com/',
     twitter: 'https://x.com/OuterRingMMO',
     initTime: { [ChainId.BASE]: 1765963932 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
