@@ -27,7 +27,7 @@ import {
 // Sonic Largest ID: 15007
 // Berachain Largest ID: 16005
 // Katana Largest ID: 17000
-// SOL Largest ID: 18024
+// SOL Largest ID: 18025
 // UNICHAIN Largest ID: 19001
 // AVAX Largest ID: 20001
 // HYPEREVM Largest ID: 21000
@@ -882,6 +882,34 @@ const bills: BillsConfig[] = [
     warningCard: `This token is currently only tradable on <a href="https://www.gate.com/trade/RZTO_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">Gate</a>.`,
     clickUpId: '86ag2zz05',
     cgId: 'rizznet',
+  },
+  {
+    index: 18025,
+    version: '2.2.1',
+    chainId: ChainId.SOL,
+    contractAddress: {
+      [ChainId.SOL]: '6iBGQPjbExtjQbh3rxHKTtfnqsqDHGZK5yzPSxqN1teD',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.stop,
+    billNnftAddress: {
+      [ChainId.SOL]: 'CCeTU66f5Lf9jrKrd1ini5xRfbprBmStCvubRWYmesQw',
+    },
+    projectLink: 'https://www.letstop.io',
+    twitter: 'https://x.com/LETST0P',
+    initTime: { [ChainId.SOL]: 1773840709 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Solana_Collection1,
+    },
+    shortDescription: `STOP is a Web3-powered driving app that rewards users for safe and distraction-free driving. Using AI-based motion tracking and behavioral analysis, the platform detects phone usage and incentivizes responsible habits with LETSTOP credits. By combining road safety with blockchain rewards, STOP turns everyday driving into a safer and more rewarding experience.`,
+    fullDescription: `STOP is the utility token behind the LETSTOP ecosystem, designed to bring real-world driving behavior onchain through a reward-based system focused on road safety. Users earn credits by maintaining distraction-free driving habits, which can be converted into $STOP tokens and used across the ecosystem for rewards such as in-app upgrades, vouchers, and external benefits. Powered by AI-driven tracking technology, the platform promotes safer driving while building a community-driven network through referrals and incentives. By linking responsible driving with blockchain rewards and tradable assets, STOP introduces a new model where everyday behavior generates real value while contributing to a broader social impact.`,
+    tags: ['GameFi'],
+    warningCard: `This token is currently only tradable on <a href="https://www.mexc.com/exchange/STOP_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a>.`,
+    clickUpId: '86ag8506w',
+    cgId: 'letstop',
   },
   //
   // Berachain

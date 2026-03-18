@@ -350,6 +350,19 @@
       "7565164": "External"
     }
   },
+  "stop": {
+    "symbol": "STOP",
+    "address": {
+      "7565164": "W2bAuFf2Xeb7ZNpJTywFSaCs5jYkaLYtBMR53SzVXUo"
+    },
+    "decimals": {
+      "7565164": 9
+    },
+    "active": true,
+    "liquidityDex": {
+      "7565164": "External"
+    }
+  },
   "trax": {
     "symbol": "TRAX",
     "address": {
