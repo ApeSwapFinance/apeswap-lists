@@ -20424,7 +20424,7 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://litas.io/',
     twitter: 'https://x.com/litas_io',
     initTime: { [ChainId.MAINNET]: 1764002980 },
-    soldOut: false,
+    soldOut: true,
     hide: false,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
@@ -20727,6 +20727,37 @@ With the lending products set to go live in February, the project is poised to a
   //   clickUpId: '86afx6ex8',
   //   cgId: '86ag58618',
   // },
+  {
+    index: 3075,
+    version: '2.1.1',
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0x2398b4C67CCfc69ae85D5f66800172C5F8a5113a',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.litas,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0A7f9979CC315190C09cA2633809B8dF',
+    },
+    projectLink: 'https://litas.io/',
+    twitter: 'https://x.com/litas_io',
+    initTime: { [ChainId.MAINNET]: 1764002980 },
+    soldOut: false,
+    hide: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['RWA'],
+    shortDescription:
+      'Litas connects crypto investors with real-world SME loans, letting users invest digital assets and earn monthly returns as loans are repaid. Regulated in Lithuania and aligning with upcoming EU standards, it offers a compliant DeFi-RWA bridge. The LITAS token gives holders a share of loan repayments, backed by real cash flows. Buy a Bond valued at $50+ in LITAS tokens and join an exciting raffle hosted by the Litas team.',
+    fullDescription:
+      'Litas is a regulated platform connecting crypto investors with real-world small and medium enterprise loans, enabling users to invest their digital assets into tokenized RWA loan products. Companies receive funding in euros, while investors earn monthly returns as these loans are repaid. Operating under Lithuania’s regulatory framework and preparing for broader compliance with upcoming EU MiCA and ECSP licensing, Litas ensures a secure, transparent, and compliant bridge between decentralized finance and the traditional economy. The platform offers reliable capital to businesses while maintaining strict financial oversight. The LITAS token grants holders a proportional share of SME loan repayments, providing intrinsic value backed by expected cash flows. Buy a Bond valued at $50+ in LITAS tokens and join an exciting raffle hosted by the Litas team.',
+    warningCard: `This token is currently only tradable on the following CEXs: <a href="https://www.mexc.com/exchange/LITAS_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a> and <a href="https://www.bifinance.com/trade?symbol=LITAS/USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">Bifinance</a>.`,
+    clickUpId: '86aazcr20',
+    cgId: 'litas',
+  },
 ]
 
 export default bills

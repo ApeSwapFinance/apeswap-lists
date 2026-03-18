@@ -38366,7 +38366,7 @@
     "initTime": {
       "1": 1764002980
     },
-    "soldOut": false,
+    "soldOut": true,
     "hide": false,
     "billArt": {
       "collection": "ETH_Collection1"
@@ -38826,5 +38826,60 @@
     "fullDescription": "Saito is a Layer 1 blockchain protocol built to rethink how blockchain infrastructure is funded and maintained. Rather than relying on miners or stakers, the network rewards the participants who provide actual network services through its Routing Work mechanism, creating stronger incentives for reliable connectivity and scalable infrastructure. The protocol also introduces Automatic Transaction Rebroadcasting (ATR), a dynamic system that manages blockchain data growth through market-based pricing. Combined with the ability to run blockchain applications directly in the browser using the chain as a decentralized public key infrastructure (PKI), Saito enables secure peer-to-peer connections and allows Web3 applications to operate without centralized servers. ",
     "clickUpId": "86afx6ex8",
     "cgId": "saito"
+  },
+  {
+    "index": 3075,
+    "version": "2.1.1",
+    "chainId": 1,
+    "contractAddress": {
+      "1": "0x2398b4C67CCfc69ae85D5f66800172C5F8a5113a"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+      },
+      "decimals": {
+        "1": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "LITAS",
+      "address": {
+        "1": "0xfa63503f9e61fd59cbea137c122fa55c2daff14a"
+      },
+      "decimals": {
+        "1": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "1": "External"
+      }
+    },
+    "billNnftAddress": {
+      "1": "0x499b654b0A7f9979CC315190C09cA2633809B8dF"
+    },
+    "projectLink": "https://litas.io/",
+    "twitter": "https://x.com/litas_io",
+    "initTime": {
+      "1": 1764002980
+    },
+    "soldOut": false,
+    "hide": false,
+    "billArt": {
+      "collection": "ETH_Collection1"
+    },
+    "tags": ["RWA"],
+    "shortDescription": "Litas connects crypto investors with real-world SME loans, letting users invest digital assets and earn monthly returns as loans are repaid. Regulated in Lithuania and aligning with upcoming EU standards, it offers a compliant DeFi-RWA bridge. The LITAS token gives holders a share of loan repayments, backed by real cash flows. Buy a Bond valued at $50+ in LITAS tokens and join an exciting raffle hosted by the Litas team.",
+    "fullDescription": "Litas is a regulated platform connecting crypto investors with real-world small and medium enterprise loans, enabling users to invest their digital assets into tokenized RWA loan products. Companies receive funding in euros, while investors earn monthly returns as these loans are repaid. Operating under Lithuania’s regulatory framework and preparing for broader compliance with upcoming EU MiCA and ECSP licensing, Litas ensures a secure, transparent, and compliant bridge between decentralized finance and the traditional economy. The platform offers reliable capital to businesses while maintaining strict financial oversight. The LITAS token grants holders a proportional share of SME loan repayments, providing intrinsic value backed by expected cash flows. Buy a Bond valued at $50+ in LITAS tokens and join an exciting raffle hosted by the Litas team.",
+    "warningCard": "This token is currently only tradable on the following CEXs: <a href=\"https://www.mexc.com/exchange/LITAS_USDT\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #6099c5\">MEXC</a> and <a href=\"https://www.bifinance.com/trade?symbol=LITAS/USDT\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #6099c5\">Bifinance</a>.",
+    "clickUpId": "86aazcr20",
+    "cgId": "litas"
   }
 ]
