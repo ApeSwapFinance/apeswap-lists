@@ -1017,6 +1017,14 @@
       "source": "dexscreener",
       "type": "token",
       "tokenAddress": "B89Hd5Juz7JP2dxCZXFJWk4tMTcbw7feDhuWGb3kq5qE"
+    },
+    "W2bAuFf2Xeb7ZNpJTywFSaCs5jYkaLYtBMR53SzVXUo": {
+      "name": "LETSTOP",
+      "symbol": "STOP",
+      "decimals": 9,
+      "source": "mexc",
+      "id": "STOPUSDT",
+      "tokenAddress": "W2bAuFf2Xeb7ZNpJTywFSaCs5jYkaLYtBMR53SzVXUo"
     }
   }
 }

@@ -772,6 +772,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       type: 'token',
       tokenAddress: 'B89Hd5Juz7JP2dxCZXFJWk4tMTcbw7feDhuWGb3kq5qE',
     },
+    W2bAuFf2Xeb7ZNpJTywFSaCs5jYkaLYtBMR53SzVXUo: {
+      name: 'LETSTOP',
+      symbol: 'STOP',
+      decimals: 9,
+      source: PriceSource.Mexc,
+      id: 'STOPUSDT',
+      tokenAddress: 'W2bAuFf2Xeb7ZNpJTywFSaCs5jYkaLYtBMR53SzVXUo',
+    },
   },
   [ChainId.BERACHAIN]: {
     '0x28e0e3B9817012b356119dF9e217c25932D609c2': {
