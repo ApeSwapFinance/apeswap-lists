@@ -1913,6 +1913,36 @@ const bills: BillsConfig[] = [
   // BASE
   //
   {
+    index: 8090,
+    version: '2.1.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x4Ff80D8F0CFdbBe40bD80c809503cE9f4197ed54',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.ara,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    projectLink: 'https://app.artura.finance/',
+    twitter: 'https://x.com/arturafinance',
+    initTime: { [ChainId.BASE]: 1764929022 },
+    soldOut: false,
+    hide: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DeFi'],
+    shortDescription:
+      "Artura is a high-performance perp DEX built on Botanix and Base. Built for trading the markets most compelling narratives, including memes, AI, RWA, and more. It's synthetic model enables zero-slippage, up to 150x leverage, and near-instant listings. It's ARA token powers incentives, staking, and governance across Artura.",
+    fullDescription:
+      'Artura is a high-performance, Bitcoin-native perpetual DEX engineered for traders seeking exposure to the market’s most dynamic narratives, including memes, AI, Runes, and RWAs. Built on leading Bitcoin Layer 2 solutions such as Hemi and Botanix, it delivers zero-slippage synthetic trading with leverage up to 150x and enables rapid listing of emerging assets. At its core lies a decentralized vault architecture that allows participants to earn passive yield from trading volume while helping steer protocol development through governance. All executions occur fully on-chain, blending complete self-custody with the speed and efficiency typically associated with centralized exchanges. The ARA token is the native utility and governance asset powering incentives, staking rewards, and future decision-making across the Artura ecosystem, aligning traders and the community around long-term growth.',
+    clickUpId: '86adm0wcf',
+    cgId: 'ara',
+  },
+  {
     index: 8089,
     cmcId: 17131,
     version: '2.1.0',
@@ -2743,7 +2773,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://app.artura.finance/',
     twitter: 'https://x.com/arturafinance',
     initTime: { [ChainId.BASE]: 1764929022 },
-    soldOut: false,
+    soldOut: true,
     hide: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
