@@ -885,7 +885,7 @@ const bills: BillsConfig[] = [
   },
   {
     index: 18025,
-    version: '2.2.1',
+    version: '2.2.0',
     chainId: ChainId.SOL,
     contractAddress: {
       [ChainId.SOL]: '6iBGQPjbExtjQbh3rxHKTtfnqsqDHGZK5yzPSxqN1teD',
