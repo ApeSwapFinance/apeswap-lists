@@ -5387,6 +5387,36 @@ const bills: BillsConfig[] = [
   // BNB chain
   //
   {
+    index: 1212,
+    cmcId: 39337,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x6b3d14A7Ad5F2b8D464008eF09aBA51e19caE623',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.wbnb,
+    earnToken: tokens.zswap,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://www.zygoswap.io/swap',
+    twitter: 'https://x.com/ZSWAP_DEX',
+    initTime: { [ChainId.BSC]: 1769593098 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DEX'],
+    shortDescription:
+      'Zygo is a unified Web3 ecosystem combining trading, gaming, and self-custody into a seamless Power-Stack that keeps liquidity efficient and active. Positioned as a true super-app, it retains value within its ecosystem while strengthening user engagement. Its token, $ZSWAP, fuels incentives, fee discounts, and yield opportunities backed by real revenue.',
+    fullDescription:
+      'Zygo is a vertically integrated Web3 ecosystem built to eliminate fragmentation across decentralized trading, on-chain gaming, and self-custody by unifying them into a seamless Power-Stack that keeps liquidity productive at all times. Rather than positioning itself as just another DEX or gaming venue, Zygo introduces a category shift toward super-apps where liquidity stays inside the ecosystem, gaming revenue reinforces token value, and the wallet becomes the key driver of user retention. In a landscape increasingly shaped by efficiency and engagement, Zygo aims to serve as the default on-chain hub for advanced Web3 users. The $ZSWAP token powers liquidity incentives, trading fee advantages, and yield strategies on Zygoswap, accruing value through real revenue supported by buy-backs, burns, and time-weighted rewards.',
+    clickUpId: '86aev1f8p',
+    cgId: 'zygoswap',
+  },
+  {
     index: 1211,
     cmcId: 38512,
     version: '2.1.0',
@@ -5783,7 +5813,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.zygoswap.io/swap',
     twitter: 'https://x.com/ZSWAP_DEX',
     initTime: { [ChainId.BSC]: 1769593098 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
