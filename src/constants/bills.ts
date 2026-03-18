@@ -14591,6 +14591,35 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     Polygon Bills
   */
   {
+    index: 189,
+    cmcId: 31154,
+    version: '2.1.0',
+    chainId: ChainId.MATIC,
+    contractAddress: {
+      [ChainId.MATIC]: '0xf69e285348b7A074Cec3e1B058adAD101b735B2F',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdtGalaxis_Ichi,
+    earnToken: tokens.galaxis,
+    billNnftAddress: {
+      [ChainId.MATIC]: '0x8860ABc05FefEF93306c8d65a5eFD421F155d67E',
+    },
+    projectLink: 'https://galaxis.xyz/#/',
+    twitter: 'https://x.com/Galaxisxyz',
+    initTime: { [ChainId.MATIC]: 1753190910 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    shortDescription:
+      'Galaxis is a Web3-powered platform to create dynamic membership card communities. Use $GALAXIS to unlock features, vote, access events, and build a sustainable community economy.',
+    fullDescription: `Galaxis empowers creators and communities with customizable, utility-packed membership cards enhanced by badges. From virtual meetings to physical rewards and gamification, Galaxis brings engagement to the next level. At the core of it all is $GALAXIS — the utility token that fuels community growth. Use it to access perks, vote, join events, or stake to boost your treasury and leaderboard rank. Whether you're Web3-native or not, Galaxis helps you build a sustainable and independent community economy.`,
+    tags: ['DeFi Tooling'],
+    clickUpId: '86a95q39p',
+    cgId: 'galaxis-token',
+  },
+  {
     index: 188,
     version: '2.1.0',
     chainId: ChainId.MATIC,
@@ -14695,7 +14724,7 @@ Blockasset’s media arm has amassed over 250 million views, working with top at
     projectLink: 'https://galaxis.xyz/#/',
     twitter: 'https://x.com/Galaxisxyz',
     initTime: { [ChainId.MATIC]: 1753190910 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
