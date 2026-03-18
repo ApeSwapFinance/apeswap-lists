@@ -822,6 +822,32 @@
       "8822": "MagicSea"
     }
   },
+  "monstro": {
+    "symbol": "MONSTRO",
+    "address": {
+      "8453": "0x1d3bE1CC80cA89DDbabe5b5C254AF63200e708f7"
+    },
+    "decimals": {
+      "8453": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "8453": "External"
+    }
+  },
+  "ttn": {
+    "symbol": "TTN",
+    "address": {
+      "8453": "0x225530E4AfCdB5eCcb96AF7a45d94452A10A3879"
+    },
+    "decimals": {
+      "8453": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "8453": "UniswapV3"
+    }
+  },
   "ara": {
     "symbol": "ARA",
     "address": {
@@ -848,19 +874,6 @@
       "8453": "UniswapV3"
     }
   },
-  "ttn": {
-    "symbol": "TTN",
-    "address": {
-      "8453": "0x225530E4AfCdB5eCcb96AF7a45d94452A10A3879"
-    },
-    "decimals": {
-      "8453": 18
-    },
-    "active": true,
-    "liquidityDex": {
-      "8453": "UniswapV3"
-    }
-  },
   "aixWeth_QS": {
     "symbol": "AIX-ETH",
     "address": {
@@ -874,19 +887,6 @@
       "8453": "QuickswapV2"
     },
     "lpToken": true
-  },
-  "monstro": {
-    "symbol": "MONSTRO",
-    "address": {
-      "8453": "0x1d3bE1CC80cA89DDbabe5b5C254AF63200e708f7"
-    },
-    "decimals": {
-      "8453": 18
-    },
-    "active": true,
-    "liquidityDex": {
-      "8453": "External"
-    }
   },
   "bim": {
     "symbol": "BIM",

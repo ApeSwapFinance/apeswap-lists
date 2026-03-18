@@ -1913,6 +1913,68 @@ const bills: BillsConfig[] = [
   // BASE
   //
   {
+    index: 8092,
+    cmcId: 24877,
+    version: '2.1.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x2ce00FBcc3570C6696de305534eE3F4452725f9D',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.monstro,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    projectLink: 'https://monstro.fun/',
+    twitter: 'https://x.com/MonstroDefi',
+    initTime: { [ChainId.BASE]: 1772017117 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DeFi'],
+    shortDescription:
+      'Monstro DeFi is a transparent, community-driven DeFi ecosystem focused on long-term sustainability, clear token economics, and DAO-aligned governance. Built to unify legacy users and support future growth, it provides a clean and modern foundation for value creation through upcoming revenue-generating products. At its core is the MONSTRO token, a fixed-supply, deflationary token powering staking, emissions, and governance across the ecosystem.',
+    fullDescription:
+      'Monstro DeFi is a transparent, sustainable, and community-driven DeFi ecosystem designed to unify legacy users while supporting long-term growth. Built with a focus on clear token economics, DAO-aligned governance, and real value creation, the project prioritizes fairness, clarity, and sustainability at every level. Through Monstro Labs, the ecosystem will expand via future revenue-generating products that reinforce its long-term vision and strengthen community alignment. Whether returning from earlier Monstro products or joining for the first time, participants enter a clean, modern foundation built for holders who value transparency and consistency. At the core of this ecosystem is the MONSTRO token, a fixed-supply, deflationary token with no minting, designed to power staking, emissions, and governance while anchoring the next era of Monstro DeFi.',
+    clickUpId: '86afnkrpe',
+    cgId: 'monstro-defi',
+  },
+  {
+    index: 8091,
+    cmcId: 38826,
+    version: '2.1.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x8141Aa9341BA0C4Ef69CCB09658444b7Cc8477d1',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.ttn,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    projectLink: 'https://www.toyowtoken.com/',
+    twitter: 'https://x.com/ToyowOfficial',
+    initTime: { [ChainId.BASE]: 1773223580 },
+    soldOut: false,
+    hide: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['RWA'],
+    shortDescription:
+      'Toyow is a platform that lets people invest in real-world assets by turning them into digital tokens. It brings assets like real estate, movies, music, and art onchain, making them easier to access, trade, and own. Everything runs through one simple marketplace designed for transparency and global access. The TTN token powers the platform, enabling transactions and rewards while giving holders benefits such as discounts, lower fees, exclusive investment opportunities, and long-term value through a buy-and-burn mechanism.',
+    fullDescription:
+      'Toyow positions itself as the home of multi-category real-world asset tokenization, bringing traditionally offline value onchain through a unified and accessible marketplace. The platform enables users to tokenize and invest in assets across a wide range of sectors, including real estate, film, music, art, and other high-value opportunities, transforming how ownership and liquidity are experienced in the digital era. By bridging Web3 infrastructure with tangible assets, Toyow aims to unlock billions in real-world value and make global investment more inclusive, transparent, and efficient. At the core of this ecosystem is the TTN token, which powers platform transactions, incentivizes participation, and supports community engagement, while offering benefits such as discounts, reduced fees, exclusive marketplace access, and a buy-and-burn mechanism designed to create long-term value for TTN holders.',
+    clickUpId: '86aa6zugv',
+    vestingCliff: 2592000, // 30 days cliff
+    cgId: 'toyow-token',
+  },
+  {
     index: 8090,
     version: '2.1.0',
     chainId: ChainId.BASE,
@@ -2019,7 +2081,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.toyowtoken.com/',
     twitter: 'https://x.com/ToyowOfficial',
     initTime: { [ChainId.BASE]: 1773223580 },
-    soldOut: false,
+    soldOut: true,
     hide: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -2231,7 +2293,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://monstro.fun/',
     twitter: 'https://x.com/MonstroDefi',
     initTime: { [ChainId.BASE]: 1772017117 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
