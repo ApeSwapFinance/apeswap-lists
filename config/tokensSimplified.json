@@ -822,6 +822,19 @@
       "8822": "MagicSea"
     }
   },
+  "bim": {
+    "symbol": "BIM",
+    "address": {
+      "8453": "0x555FFF48549C1A25a723Bd8e7eD10870D82E8379"
+    },
+    "decimals": {
+      "8453": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "8453": "External"
+    }
+  },
   "bg2": {
     "symbol": "BG",
     "address": {
@@ -887,19 +900,6 @@
       "8453": "QuickswapV2"
     },
     "lpToken": true
-  },
-  "bim": {
-    "symbol": "BIM",
-    "address": {
-      "8453": "0x555FFF48549C1A25a723Bd8e7eD10870D82E8379"
-    },
-    "decimals": {
-      "8453": 18
-    },
-    "active": true,
-    "liquidityDex": {
-      "8453": "External"
-    }
   },
   "goobtc": {
     "symbol": "GOO-cbBTC",
