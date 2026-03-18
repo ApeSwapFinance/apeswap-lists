@@ -5974,19 +5974,6 @@
       "1": "External"
     }
   },
-  "axyc": {
-    "symbol": "AXYC",
-    "address": {
-      "1": "0x66730C91e5c3132811B1DcAD8BECabbdeC644394"
-    },
-    "decimals": {
-      "1": 18
-    },
-    "active": true,
-    "liquidityDex": {
-      "1": "External"
-    }
-  },
   "hype": {
     "symbol": "wHYPE",
     "address": {

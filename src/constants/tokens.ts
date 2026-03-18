@@ -241,6 +241,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  stop: {
+    symbol: 'STOP',
+    address: {
+      [ChainId.SOL]: 'W2bAuFf2Xeb7ZNpJTywFSaCs5jYkaLYtBMR53SzVXUo',
+    },
+    decimals: {
+      [ChainId.SOL]: 9,
+    },
+    liquidityDex: {
+      [ChainId.SOL]: LiquidityDex.External,
+    },
+    active: true,
+  },
   rkey: {
     symbol: 'RKEY',
     address: {
