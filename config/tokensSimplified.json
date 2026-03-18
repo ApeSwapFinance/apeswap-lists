@@ -4369,6 +4369,35 @@
     },
     "active": true
   },
+  "usdtGalaxis_Ichi": {
+    "symbol": "USDT-GALAXIS",
+    "address": {
+      "137": "0x252557f1C386DacB510456e1BE7b9dc036dc5D21"
+    },
+    "decimals": {
+      "137": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "137": "UniswapV3"
+    },
+    "lpToken": true,
+    "ichiUnderlyingDex": "Uniswap V3",
+    "liquidityWrapper": 1
+  },
+  "galaxis": {
+    "symbol": "GALAXIS",
+    "address": {
+      "137": "0x3C69d114664d48357d820Dbdd121a8071eAc99bf"
+    },
+    "decimals": {
+      "137": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "137": "UniswapV3"
+    }
+  },
   "wpol": {
     "symbol": "POL",
     "address": {
@@ -4435,35 +4464,6 @@
     "active": true,
     "liquidityDex": {
       "137": "External"
-    }
-  },
-  "usdtGalaxis_Ichi": {
-    "symbol": "USDT-GALAXIS",
-    "address": {
-      "137": "0x252557f1C386DacB510456e1BE7b9dc036dc5D21"
-    },
-    "decimals": {
-      "137": 18
-    },
-    "active": true,
-    "liquidityDex": {
-      "137": "UniswapV3"
-    },
-    "lpToken": true,
-    "ichiUnderlyingDex": "Uniswap V3",
-    "liquidityWrapper": 1
-  },
-  "galaxis": {
-    "symbol": "GALAXIS",
-    "address": {
-      "137": "0x3C69d114664d48357d820Dbdd121a8071eAc99bf"
-    },
-    "decimals": {
-      "137": 18
-    },
-    "active": true,
-    "liquidityDex": {
-      "137": "UniswapV3"
     }
   },
   "furi": {
