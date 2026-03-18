@@ -2260,7 +2260,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.goo.money/',
     twitter: 'https://x.com/GooMoneyfi',
     initTime: { [ChainId.BASE]: 1770808029 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.GooMoney_Collection1,
     },

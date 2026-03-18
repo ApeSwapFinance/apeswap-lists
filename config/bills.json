@@ -4191,7 +4191,7 @@
     "initTime": {
       "8453": 1770808029
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "GooMoney_Collection1"
     },
