@@ -1761,10 +1761,10 @@
       "59144": "Metavault"
     }
   },
-  "cty": {
-    "symbol": "CTY",
+  "oabond": {
+    "symbol": "oABOND",
     "address": {
-      "56": "0xe50c9dae2b8cfe5224c1a4096a0959f8ca975df2"
+      "56": "0xBdB4cb0aC14eE8D4f6063E5E74054499FbD78dA8"
     },
     "decimals": {
       "56": 18
@@ -1774,10 +1774,10 @@
       "56": "External"
     }
   },
-  "oabond": {
-    "symbol": "oABOND",
+  "cty": {
+    "symbol": "CTY",
     "address": {
-      "56": "0xBdB4cb0aC14eE8D4f6063E5E74054499FbD78dA8"
+      "56": "0xe50c9dae2b8cfe5224c1a4096a0959f8ca975df2"
     },
     "decimals": {
       "56": 18
