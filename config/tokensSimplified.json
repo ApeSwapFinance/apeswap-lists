@@ -822,6 +822,19 @@
       "8822": "MagicSea"
     }
   },
+  "ttn": {
+    "symbol": "TTN",
+    "address": {
+      "8453": "0x225530E4AfCdB5eCcb96AF7a45d94452A10A3879"
+    },
+    "decimals": {
+      "8453": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "8453": "UniswapV3"
+    }
+  },
   "ara": {
     "symbol": "ARA",
     "address": {
@@ -839,19 +852,6 @@
     "symbol": "BG",
     "address": {
       "8453": "0x701c8c09fe9f081f9be69ab9af8291c84c09389b"
-    },
-    "decimals": {
-      "8453": 18
-    },
-    "active": true,
-    "liquidityDex": {
-      "8453": "UniswapV3"
-    }
-  },
-  "ttn": {
-    "symbol": "TTN",
-    "address": {
-      "8453": "0x225530E4AfCdB5eCcb96AF7a45d94452A10A3879"
     },
     "decimals": {
       "8453": 18
