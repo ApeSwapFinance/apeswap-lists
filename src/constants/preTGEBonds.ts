@@ -19,7 +19,7 @@ const preTGEBonds: PreTGEConfig[] = [
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0A7f9979CC315190C09cA2633809B8dF',
     },
-    soldOut: false,
+    soldOut: true,
     billArt: { collection: BillArtCollection.ApeBond_Collection1 },
     redeemTime: 1748624400,
     tgePrice: 0.0005,
@@ -43,7 +43,7 @@ const preTGEBonds: PreTGEConfig[] = [
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0A7f9979CC315190C09cA2633809B8dF',
     },
-    soldOut: false,
+    soldOut: true,
     billArt: { collection: BillArtCollection.ApeBond_Collection1 },
     redeemTime: 1753963200, // July 31th 12:00UTC
     tgePrice: 0.0005,
@@ -66,7 +66,7 @@ const preTGEBonds: PreTGEConfig[] = [
     billNnftAddress: {
       [ChainId.MAINNET]: '0x499b654b0A7f9979CC315190C09cA2633809B8dF',
     },
-    soldOut: false,
+    soldOut: true,
     billArt: { collection: BillArtCollection.ETH_Collection1 },
     redeemTime: 1753894800,
     tgePrice: 0.01,
@@ -89,7 +89,7 @@ const preTGEBonds: PreTGEConfig[] = [
     billNnftAddress: {
       [ChainId.UNICHAIN]: '0x1b7858f745211dBa1387fE30124eBCa2D706D7Dd',
     },
-    soldOut: false,
+    soldOut: true,
     billArt: { collection: BillArtCollection.ApeBond_Collection1 },
     redeemTime: 1752670800,
     tgePrice: 0.1,
