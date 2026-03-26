@@ -9,7 +9,7 @@ import {
   MigrationVestingTerms,
 } from '../types'
 
-// BNB Largest ID: 1214
+// BNB Largest ID: 1215
 // Polygon Largest ID: 188
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2034
@@ -5563,6 +5563,36 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1215,
+    cmcId: 38452,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0xcf177f0c6629B5CdAd23a31A750821FEA0E7c439',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.etan,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://www.etarn.io/en',
+    twitter: 'https://x.com/Etarn2025',
+    initTime: { [ChainId.BSC]: 1774537510 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription:
+      'Etarn is redefining sanitation by turning daily waste into environmental and economic value through AI-powered Smart Toilets and blockchain. Human waste is converted into liquid fertilizer and future carbon credits, addressing global sanitation challenges while creating a scalable circular economy powered by the ETAN token.',
+    fullDescription:
+      'Etarn is revolutionizing waste disposal by transforming everyday sanitation into a driver of sustainability, public health, and economic empowerment. Through AI-powered Smart Toilets and blockchain technology, human waste is converted into liquid fertilizer and, in the future, carbon credits, creating real-world value from daily actions. By integrating advanced technology with eco-friendly infrastructure, Etarn addresses global sanitation challenges while enabling communities to benefit from cleaner environments and new income opportunities. Its mission is to turn routine behavior into meaningful environmental impact and long-term social progress, building a scalable and sustainable global ecosystem. At the center of this model is the ETAN token, the native asset that facilitates carbon credit trading, rewards Smart Toilet usage, and supports transparent, secure, and sustainable growth across the platform.',
+    clickUpId: '86agdzfdc',
+    cgId: 'etarn',
+  },
   {
     index: 1214,
     cmcId: 38512,
