@@ -155,8 +155,8 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       name: 'Seed.Photo',
       symbol: 'SEED',
       decimals: 18,
-      source: PriceSource.Mexc,
-      id: 'PHOTOUSDT',
+      source: PriceSource.Coingecko,
+      id: 'seed-photo',
       tokenAddress: '0x6730f7a6bbb7b9c8e60843948f7feb4b6a17b7f7',
     },
     '0x79be2b20389a869476d183b1f42b9950eaf457d8': {
