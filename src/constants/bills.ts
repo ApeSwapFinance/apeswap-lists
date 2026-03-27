@@ -6346,7 +6346,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://seed.photo/',
     twitter: 'https://x.com/seedphoto',
     initTime: { [ChainId.BSC]: 1764673477 },
-    soldOut: false,
+    soldOut: true,
     hide: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
