@@ -400,6 +400,7 @@ export interface BaseBondConfig {
   clickUpId?: string
   marketingCampaign?: MarketingCampaign
   dexscreener?: string // This will force the dexscreener link we display (instead of using payout token address for it)
+  tierBoostRate?: number // This will be used to give extra points to the user.
 }
 
 export interface PreTGEConfig extends BaseBondConfig {
