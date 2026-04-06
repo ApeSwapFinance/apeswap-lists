@@ -933,6 +933,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       id: 'MMONUSDT',
       tokenAddress: '0x5bc93bab1291885a76644a49f52050cf73e1dca8',
     },
+    '0x48B847cF774A5710F36f594b11fc10E2E59BbA72': {
+      name: 'UNIT0',
+      symbol: 'UNIT0',
+      decimals: 18,
+      source: PriceSource.Mexc,
+      id: 'UNIT0USDT',
+      tokenAddress: '0x48B847cF774A5710F36f594b11fc10E2E59BbA72',
+    },
     '0x195f5c217b96cd3dd75d39327161b8911a42e509': {
       name: 'NUTS',
       symbol: 'NUTS',
