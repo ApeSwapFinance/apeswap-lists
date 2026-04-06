@@ -2886,14 +2886,17 @@ const tokens: Record<string, Token> = {
     address: {
       [ChainId.MATIC]: '0xE0339c80fFDE91F3e20494Df88d4206D86024cdF',
       [ChainId.SOL]: '7ZCm8WBN9aLa3o47SoYctU6iLdj7wkGG5SV2hE5CgtD5',
+      [ChainId.BSC]: '0x7bd6FaBD64813c48545C9c0e312A0099d9be2540',
     },
     decimals: {
       [ChainId.MATIC]: 18,
       [ChainId.SOL]: 4,
+      [ChainId.BSC]: 18,
     },
     liquidityDex: {
       [ChainId.MATIC]: LiquidityDex.Algebra,
       [ChainId.SOL]: LiquidityDex.External,
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
     },
     active: true,
   },
