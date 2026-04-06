@@ -21068,6 +21068,37 @@ With the lending products set to go live in February, the project is poised to a
     warningCard: `A minimum 3% slippage is required to complete this Bond purchase.`,
     cgId: 'masq',
   },
+  {
+    index: 3078,
+    version: '2.1.1',
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0xd9A64a79aa12500E6790f50AE005B8Ae52D725eC',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.unit0,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0A7f9979CC315190C09cA2633809B8dF',
+    },
+    projectLink: 'https://www.units.network/',
+    twitter: 'https://x.com/UnitsNetwork',
+    initTime: { [ChainId.MAINNET]: 1775470276 },
+    soldOut: false,
+    hide: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['Blockchains'],
+    shortDescription:
+      'Units.Network is a decentralized ecosystem of interconnected blockchains unified by shared incentives and a common consensus layer. Powered by the UNIT0 token, the network enables governance, staking, and funding mechanisms that allow users and builders to actively participate in securing and shaping the ecosystem.',
+    fullDescription:
+      'Units.Network is a modular blockchain ecosystem built around a shared consensus layer that connects multiple networks through aligned economic incentives. At its core is the UNIT0 token, which enables governance, allowing holders to vote on proposals and influence the future of the ecosystem. The token also powers staking, helping secure the network while rewarding participants, and acts as a key tool for builders to submit proposals and access funding for new developments. By combining scalability, flexible incentives, and decentralized coordination, Units.Network creates a foundation where users, validators, and developers can actively contribute to the growth of a multi-chain ecosystem.',
+    warningCard: `This token is currently only tradable on <a href="https://www.mexc.com/exchange/UNIT0_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a>`,
+    clickUpId: '86agjd6ft',
+    cgId: 'unit0',
+  },
 ]
 
 export default bills
