@@ -39540,14 +39540,14 @@
       "1": 1775470276
     },
     "soldOut": false,
-    "hide": true,
+    "hide": false,
     "billArt": {
       "collection": "ETH_Collection1"
     },
     "tags": ["Blockchains"],
     "shortDescription": "Units.Network is a decentralized ecosystem of interconnected blockchains unified by shared incentives and a common consensus layer. Powered by the UNIT0 token, the network enables governance, staking, and funding mechanisms that allow users and builders to actively participate in securing and shaping the ecosystem.",
     "fullDescription": "Units.Network is a modular blockchain ecosystem built around a shared consensus layer that connects multiple networks through aligned economic incentives. At its core is the UNIT0 token, which enables governance, allowing holders to vote on proposals and influence the future of the ecosystem. The token also powers staking, helping secure the network while rewarding participants, and acts as a key tool for builders to submit proposals and access funding for new developments. By combining scalability, flexible incentives, and decentralized coordination, Units.Network creates a foundation where users, validators, and developers can actively contribute to the growth of a multi-chain ecosystem.",
-    "warningCard": "This token is currently only tradable on <a href=\"https://www.mexc.com/exchange/UNIT0_USDT\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #6099c5\">MEXC</a>",
+    "warningCard": "This token is currently only tradable on <a href=\"https://www.mexc.com/exchange/UNIT0_USDT\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #6099c5\">MEXC</a> and <a href=\"https://www.gate.com/trade/UNIT0_USDT\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #6099c5\">Gate</a>. To trade it, you will need to <a href=\"https://wavesbridge.io/bridge?from=WAVE&to=UNIT&asset=UNIT0\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #6099c5\">bridge</a> it to the Waves network.",
     "clickUpId": "86agjd6ft",
     "cgId": "unit0"
   }
