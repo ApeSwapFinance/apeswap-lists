@@ -5990,6 +5990,19 @@
       "1": "External"
     }
   },
+  "unit0": {
+    "symbol": "UNIT0",
+    "address": {
+      "1": "0x48B847cF774A5710F36f594b11fc10E2E59BbA72"
+    },
+    "decimals": {
+      "1": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "1": "External"
+    }
+  },
   "hype": {
     "symbol": "wHYPE",
     "address": {
