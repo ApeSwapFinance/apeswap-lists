@@ -731,7 +731,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://dogelonmars.com/',
     twitter: 'https://x.com/dogelonmars',
     initTime: { [ChainId.SOL]: 1763987191 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Solana_Collection1,
     },
