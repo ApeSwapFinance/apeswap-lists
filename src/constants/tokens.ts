@@ -5341,6 +5341,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  unit0: {
+    symbol: 'UNIT0',
+    address: {
+      [ChainId.MAINNET]: '0x48B847cF774A5710F36f594b11fc10E2E59BbA72',
+    },
+    decimals: { [ChainId.MAINNET]: 18 },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.External,
+    },
+    active: true,
+  },
   fric: {
     symbol: 'FRIC',
     address: {
