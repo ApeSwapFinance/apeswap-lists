@@ -2896,7 +2896,7 @@ const tokens: Record<string, Token> = {
     liquidityDex: {
       [ChainId.MATIC]: LiquidityDex.Algebra,
       [ChainId.SOL]: LiquidityDex.External,
-      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+      [ChainId.BSC]: LiquidityDex.External,
     },
     active: true,
   },

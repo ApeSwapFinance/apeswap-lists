@@ -207,6 +207,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       id: 'brics-chain',
       tokenAddress: '0xec9742f992ACc615C4252060D896c845ca8fC086',
     },
+    '0x7bd6FaBD64813c48545C9c0e312A0099d9be2540': {
+      name: 'Dogelon Mars',
+      symbol: 'ELON',
+      decimals: 18,
+      source: PriceSource.Coingecko,
+      id: 'dogelon-mars',
+      tokenAddress: '0x7bd6FaBD64813c48545C9c0e312A0099d9be2540',
+    },
     '0x61327929b3eA44c5Ec503d44D71A6c0fA2CefB02': {
       name: 'LERN',
       symbol: 'LERN',
