@@ -9,7 +9,7 @@ import {
   MigrationVestingTerms,
 } from '../types'
 
-// BNB Largest ID: 1215
+// BNB Largest ID: 1216
 // Polygon Largest ID: 188
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2034
@@ -5592,6 +5592,33 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1216,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0xD0adE460DE00aB44037B069C29A81A220B3f72A3',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.elon,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://dogelonmars.com/',
+    twitter: 'https://x.com/dogelonmars',
+    initTime: { [ChainId.BSC]: 1775551452 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    fullDescription: `Dogelon Mars is a community-driven memecoin inspired by space exploration and the vision of humanity becoming a multi-planetary civilization. The project positions itself as a lighthearted yet aspirational movement built around storytelling, community engagement, and charitable initiatives that reflect a spirit of progress and unity. Its narrative imagines a bold future where society journeys to Mars and beyond, encouraging holders to view themselves as pioneers contributing to a shared mission of exploration and innovation. With a passionate global community and an expanding presence across social platforms, Dogelon Mars embraces creativity and collective effort as key drivers of growth. The ecosystem revolves around the ELON token, which serves as the project’s native currency, used for community activities, ecosystem utility, and participation in initiatives that help strengthen and expand the Dogelon Mars universe.`,
+    shortDescription: `Dogelon Mars is a community-driven memecoin inspired by space exploration and the dream of reaching Mars. The project blends storytelling, humor, and community engagement to create an enthusiastic movement. Its mission centers on growth through shared vision rather than financial promises. The ELON token serves as the core of the ecosystem, enabling participation in community initiatives and future utility.`,
+    tags: ['Community', 'Meme'],
+    clickUpId: '86agp3c03',
+    cgId: 'dogelon-mars',
+  },
   {
     index: 1215,
     cmcId: 38452,
