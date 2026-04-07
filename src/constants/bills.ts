@@ -5600,7 +5600,7 @@ const bills: BillsConfig[] = [
       [ChainId.BSC]: '0xD0adE460DE00aB44037B069C29A81A220B3f72A3',
     },
     billType: 'reserve',
-    billVersion: BillVersion.V2,
+    billVersion: BillVersion.V4,
     lpToken: tokens.usdc,
     earnToken: tokens.elon,
     billNnftAddress: {

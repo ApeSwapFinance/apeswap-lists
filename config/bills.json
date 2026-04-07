@@ -10437,7 +10437,7 @@
       "56": "0xD0adE460DE00aB44037B069C29A81A220B3f72A3"
     },
     "billType": "reserve",
-    "billVersion": "V2",
+    "billVersion": "V4",
     "lpToken": {
       "symbol": "USDC",
       "address": {
