@@ -1968,6 +1968,68 @@ const bills: BillsConfig[] = [
   // BASE
   //
   {
+    index: 8099,
+    cmcId: 17131,
+    version: '2.1.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x14718142D8BD6ABDaF433868a4d6dB6A9deae776',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.aixWeth_QS,
+    earnToken: tokens.aix,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    projectLink: 'https://planetix.com/',
+    twitter: 'https://x.com/Planetix0',
+    initTime: { [ChainId.BASE]: 1775651247 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['GameFi'],
+    shortDescription:
+      'Planet IX, one of the largest Web3 strategy games, lets players trade land, build territories, and stake assets for rewards. Now evolving with major AI-powered upgrades and new strategic assets, it’s also migrating to Base for faster transactions and greater liquidity. Its new utility token, AIX, drives Season 2 with rewards and DeFi opportunities.',
+    fullDescription:
+      'Planet IX is a pioneering Web3 strategy game that emerged on Polygon in 2021 and rapidly evolved into one of the ecosystem’s largest gaming experiences. Players trade land, expand territories, and stake digital assets, forming a deeply engaged community where nearly 70% of tokens are staked. Now entering its most transformative phase, Planet IX is expanding its universe with AI-powered upgrades, new strategic assets, and advanced in-game mechanics. As part of its evolution, the project is migrating to Base to unlock faster transactions, broader liquidity, and enhanced scalability. Central to this new chapter is the AIX token, designed to power Season 2 with utility, competitive rewards, and elevated DeFi opportunities.',
+    clickUpId: '86agqjvbq',
+    cgId: 'planet-ix',
+    vestingCliff: 2592000, //30 days cliff, instant vesting
+  },
+  {
+    index: 8098,
+    cmcId: 17131,
+    version: '2.1.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x65296F56d5124e6B088F773c8887160296aF51F4',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.aix,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    projectLink: 'https://planetix.com/',
+    twitter: 'https://x.com/Planetix0',
+    initTime: { [ChainId.BASE]: 1775651247 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['GameFi'],
+    shortDescription:
+      'Planet IX, one of the largest Web3 strategy games, lets players trade land, build territories, and stake assets for rewards. Now evolving with major AI-powered upgrades and new strategic assets, it’s also migrating to Base for faster transactions and greater liquidity. Its new utility token, AIX, drives Season 2 with rewards and DeFi opportunities.',
+    fullDescription:
+      'Planet IX is a pioneering Web3 strategy game that emerged on Polygon in 2021 and rapidly evolved into one of the ecosystem’s largest gaming experiences. Players trade land, expand territories, and stake digital assets, forming a deeply engaged community where nearly 70% of tokens are staked. Now entering its most transformative phase, Planet IX is expanding its universe with AI-powered upgrades, new strategic assets, and advanced in-game mechanics. As part of its evolution, the project is migrating to Base to unlock faster transactions, broader liquidity, and enhanced scalability. Central to this new chapter is the AIX token, designed to power Season 2 with utility, competitive rewards, and elevated DeFi opportunities.',
+    clickUpId: '86agqjvbk',
+    cgId: 'planet-ix',
+    vestingCliff: 864000, //10 days cliff, 20 days linear vesting
+  },
+  {
     index: 8097,
     cmcId: 17131,
     version: '2.1.0',
