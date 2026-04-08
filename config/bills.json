@@ -3660,22 +3660,23 @@
     "version": "2.1.0",
     "chainId": 8453,
     "contractAddress": {
-      "8453": "0xF03412F4410C536697F4862fDa863aD54c07E3C1"
+      "8453": "0x14718142D8BD6ABDaF433868a4d6dB6A9deae776"
     },
-    "billType": "reserve",
+    "billType": "liquidity",
     "billVersion": "V4",
     "lpToken": {
-      "symbol": "USDC",
+      "symbol": "AIX-ETH",
       "address": {
-        "8453": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+        "8453": "0x1ec9ab3986Efdac4d31Ecb325E39a4a6A2974E6B"
       },
       "decimals": {
-        "8453": 6
+        "8453": 18
       },
       "liquidityDex": {
-        "8453": "Aerodrome"
+        "8453": "QuickswapV2"
       },
-      "active": true
+      "active": true,
+      "lpToken": true
     },
     "earnToken": {
       "symbol": "AIX",

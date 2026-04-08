@@ -828,6 +828,20 @@
       "8822": "MagicSea"
     }
   },
+  "aixWeth_QS": {
+    "symbol": "AIX-ETH",
+    "address": {
+      "8453": "0x1ec9ab3986Efdac4d31Ecb325E39a4a6A2974E6B"
+    },
+    "decimals": {
+      "8453": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "8453": "QuickswapV2"
+    },
+    "lpToken": true
+  },
   "bim": {
     "symbol": "BIM",
     "address": {
@@ -892,20 +906,6 @@
     "liquidityDex": {
       "8453": "Aerodrome"
     }
-  },
-  "aixWeth_QS": {
-    "symbol": "AIX-ETH",
-    "address": {
-      "8453": "0x1ec9ab3986Efdac4d31Ecb325E39a4a6A2974E6B"
-    },
-    "decimals": {
-      "8453": 18
-    },
-    "active": true,
-    "liquidityDex": {
-      "8453": "QuickswapV2"
-    },
-    "lpToken": true
   },
   "goobtc": {
     "symbol": "GOO-cbBTC",

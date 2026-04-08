@@ -1973,11 +1973,11 @@ const bills: BillsConfig[] = [
     version: '2.1.0',
     chainId: ChainId.BASE,
     contractAddress: {
-      [ChainId.BASE]: '0xF03412F4410C536697F4862fDa863aD54c07E3C1',
+      [ChainId.BASE]: '0x14718142D8BD6ABDaF433868a4d6dB6A9deae776',
     },
-    billType: 'reserve',
+    billType: 'liquidity',
     billVersion: BillVersion.V4,
-    lpToken: tokens.usdc,
+    lpToken: tokens.aixWeth_QS,
     earnToken: tokens.aix,
     billNnftAddress: {
       [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
