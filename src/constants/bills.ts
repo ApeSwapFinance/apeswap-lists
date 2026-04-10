@@ -2227,7 +2227,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.toyowtoken.com/',
     twitter: 'https://x.com/ToyowOfficial',
     initTime: { [ChainId.BASE]: 1773223580 },
-    soldOut: false,
+    soldOut: true,
     hide: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
