@@ -6016,7 +6016,7 @@
     },
     "active": true,
     "liquidityDex": {
-      "1": "External"
+      "1": "Curve"
     }
   },
   "hype": {
