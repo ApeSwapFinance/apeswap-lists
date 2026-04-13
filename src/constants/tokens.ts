@@ -85,6 +85,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  ireet: {
+    symbol: 'iREET',
+    address: {
+      [ChainId.MAINNET]: '0xe6a60d2886b11256C24C128210159133096e5CcF',
+    },
+    decimals: {
+      [ChainId.MAINNET]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.External,
+    },
+    active: true,
+  },
   bg2: {
     symbol: 'BG',
     address: {

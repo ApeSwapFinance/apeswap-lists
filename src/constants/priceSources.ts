@@ -1011,6 +1011,13 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       type: 'token',
       tokenAddress: '0xFa14Fa6958401314851A17d6C5360cA29f74B57B',
     },
+    '0xe6a60d2886b11256C24C128210159133096e5CcF': {
+      name: 'RWA Index Token',
+      symbol: 'iREET',
+      decimals: 18,
+      source: PriceSource.CoingeckoOnchain,
+      tokenAddress: '0xe6a60d2886b11256C24C128210159133096e5CcF',
+    },
   },
   [ChainId.MEGAETH_TESTNET]: {
     '0x4eB2Bd7beE16F38B1F4a0A5796Fffd028b6040e9': {

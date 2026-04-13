@@ -87,6 +87,13 @@
       "source": "dexscreener",
       "type": "token",
       "tokenAddress": "0xFa14Fa6958401314851A17d6C5360cA29f74B57B"
+    },
+    "0xe6a60d2886b11256C24C128210159133096e5CcF": {
+      "name": "RWA Index Token",
+      "symbol": "iREET",
+      "decimals": 18,
+      "source": "coingecko-onchain",
+      "tokenAddress": "0xe6a60d2886b11256C24C128210159133096e5CcF"
     }
   },
   "56": {
