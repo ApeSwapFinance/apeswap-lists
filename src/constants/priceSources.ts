@@ -4,6 +4,7 @@ import { ChainId } from '../types/index'
 enum PriceSource {
   Dex = 'dex',
   Coingecko = 'coingecko',
+  CoingeckoOnchain = 'coingecko-onchain',
   Dexscreener = 'dexscreener',
   Mexc = 'mexc',
   LBank = 'lbank',
@@ -25,6 +26,10 @@ type BasePriceSourceConfig = {
 type CoinGeckoPriceSourceConfig = BasePriceSourceConfig & {
   source: PriceSource.Coingecko
   id: string
+}
+
+type CoingeckoOnchainPriceSourceConfig = BasePriceSourceConfig & {
+  source: PriceSource.CoingeckoOnchain
 }
 
 type DexScreenerPriceSourceConfig = BasePriceSourceConfig & {
@@ -91,6 +96,7 @@ type TokenizedVaultPriceSourceConfig = BasePriceSourceConfig & {
 
 type PriceSourceConfigs =
   | CoinGeckoPriceSourceConfig
+  | CoingeckoOnchainPriceSourceConfig
   | DexScreenerPriceSourceConfig
   | MexcPriceSourceConfig
   | LBankPriceSourceConfig
