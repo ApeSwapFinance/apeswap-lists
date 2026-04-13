@@ -955,7 +955,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.letstop.io',
     twitter: 'https://x.com/LETST0P',
     initTime: { [ChainId.SOL]: 1775482697 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Solana_Collection1,
     },
