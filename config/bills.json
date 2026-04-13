@@ -39804,7 +39804,7 @@
         "1": 18
       },
       "liquidityDex": {
-        "1": "External"
+        "1": "Curve"
       },
       "active": true
     },
