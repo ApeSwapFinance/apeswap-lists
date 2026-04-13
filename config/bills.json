@@ -39778,7 +39778,7 @@
     "version": "2.1.0",
     "chainId": 1,
     "contractAddress": {
-      "1": "0xd9835451fbf46d547939224f9C58532D3fe62EF7"
+      "1": "0xCcf7A083E32Ee5Fbe20De56CFd1061a6A4034af4"
     },
     "billType": "reserve",
     "billVersion": "V4",
@@ -39814,7 +39814,7 @@
     "projectLink": "https://www.instruxi.io/",
     "twitter": "https://x.com/instruxi",
     "initTime": {
-      "1": 1776099525
+      "1": 1776111382
     },
     "soldOut": false,
     "hide": false,

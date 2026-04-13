@@ -21255,7 +21255,7 @@ With the lending products set to go live in February, the project is poised to a
     version: '2.1.0',
     chainId: ChainId.MAINNET,
     contractAddress: {
-      [ChainId.MAINNET]: '0xd9835451fbf46d547939224f9C58532D3fe62EF7',
+      [ChainId.MAINNET]: '0xCcf7A083E32Ee5Fbe20De56CFd1061a6A4034af4',
     },
     billType: 'reserve',
     billVersion: BillVersion.V4,
@@ -21266,7 +21266,7 @@ With the lending products set to go live in February, the project is poised to a
     },
     projectLink: 'https://www.instruxi.io/',
     twitter: 'https://x.com/instruxi',
-    initTime: { [ChainId.MAINNET]: 1776099525 },
+    initTime: { [ChainId.MAINNET]: 1776111382 },
     soldOut: false,
     hide: false,
     billArt: {
