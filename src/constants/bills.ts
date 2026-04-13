@@ -21250,6 +21250,38 @@ With the lending products set to go live in February, the project is poised to a
     clickUpId: '86agjd6ft',
     cgId: 'unit0',
   },
+  {
+    index: 3079,
+    version: '2.1.0',
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0x48C50624629c6882E536b83A5b576Aa25FFF44cd',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.ireet,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    projectLink: 'https://raac.io',
+    twitter: 'https://x.com/Raacfi',
+    initTime: { [ChainId.MAINNET]: 1776080801 },
+    soldOut: false,
+    hide: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['STABLECOIN'],
+    shortDescription: '',
+    fullDescription: '',
+    clickUpId: '',
+    vestingCliff: 3888000, //45days
+    warningCard:
+      'Diamond, Legend & Mythical Ape Tiers as well as RAAC bot holders will earn an extra 2% bonus on $pmUSD. Furthermore, if the bond sells out before April 10th all users will earn an extra 2% bonus on $pmUSD',
+    //cgId: '', //has no cgId
+    tierBoostRate: 0,
+  },
 ]
 
 export default bills

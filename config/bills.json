@@ -39772,5 +39772,61 @@
     "warningCard": "This token is currently only tradable on <a href=\"https://www.mexc.com/exchange/UNIT0_USDT\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #6099c5\">MEXC</a> and <a href=\"https://www.gate.com/trade/UNIT0_USDT\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #6099c5\">Gate</a>. To trade it, you will need to <a href=\"https://wavesbridge.io/bridge?from=WAVE&to=UNIT&asset=UNIT0\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #6099c5\">bridge</a> it to the Waves network.",
     "clickUpId": "86agjd6ft",
     "cgId": "unit0"
+  },
+  {
+    "index": 3079,
+    "version": "2.1.0",
+    "chainId": 1,
+    "contractAddress": {
+      "1": "0x48C50624629c6882E536b83A5b576Aa25FFF44cd"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+      },
+      "decimals": {
+        "1": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "iREET",
+      "address": {
+        "1": "0xe6a60d2886b11256C24C128210159133096e5CcF"
+      },
+      "decimals": {
+        "1": 18
+      },
+      "liquidityDex": {
+        "1": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "1": "0x499b654b0a7f9979cc315190c09ca2633809b8df"
+    },
+    "projectLink": "https://raac.io",
+    "twitter": "https://x.com/Raacfi",
+    "initTime": {
+      "1": 1776080801
+    },
+    "soldOut": false,
+    "hide": false,
+    "billArt": {
+      "collection": "ETH_Collection1"
+    },
+    "tags": ["STABLECOIN"],
+    "shortDescription": "",
+    "fullDescription": "",
+    "clickUpId": "",
+    "vestingCliff": 3888000,
+    "warningCard": "Diamond, Legend & Mythical Ape Tiers as well as RAAC bot holders will earn an extra 2% bonus on $pmUSD. Furthermore, if the bond sells out before April 10th all users will earn an extra 2% bonus on $pmUSD",
+    "tierBoostRate": 0
   }
 ]

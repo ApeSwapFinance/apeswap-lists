@@ -6006,6 +6006,19 @@
       "1": "External"
     }
   },
+  "ireet": {
+    "symbol": "iREET",
+    "address": {
+      "1": "0xe6a60d2886b11256C24C128210159133096e5CcF"
+    },
+    "decimals": {
+      "1": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "1": "External"
+    }
+  },
   "hype": {
     "symbol": "wHYPE",
     "address": {
