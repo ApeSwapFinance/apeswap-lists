@@ -92,7 +92,8 @@
       "name": "RWA Index Token",
       "symbol": "iREET",
       "decimals": 18,
-      "source": "coingecko-onchain",
+      "source": "fixed",
+      "price": 1.03,
       "tokenAddress": "0xe6a60d2886b11256C24C128210159133096e5CcF"
     }
   },
