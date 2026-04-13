@@ -4,6 +4,7 @@ import { ChainId } from '../types/index'
 enum PriceSource {
   Dex = 'dex',
   Coingecko = 'coingecko',
+  CoingeckoOnchain = 'coingecko-onchain',
   Dexscreener = 'dexscreener',
   Mexc = 'mexc',
   LBank = 'lbank',
@@ -25,6 +26,10 @@ type BasePriceSourceConfig = {
 type CoinGeckoPriceSourceConfig = BasePriceSourceConfig & {
   source: PriceSource.Coingecko
   id: string
+}
+
+type CoingeckoOnchainPriceSourceConfig = BasePriceSourceConfig & {
+  source: PriceSource.CoingeckoOnchain
 }
 
 type DexScreenerPriceSourceConfig = BasePriceSourceConfig & {
@@ -91,6 +96,7 @@ type TokenizedVaultPriceSourceConfig = BasePriceSourceConfig & {
 
 type PriceSourceConfigs =
   | CoinGeckoPriceSourceConfig
+  | CoingeckoOnchainPriceSourceConfig
   | DexScreenerPriceSourceConfig
   | MexcPriceSourceConfig
   | LBankPriceSourceConfig
@@ -1004,6 +1010,13 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       source: PriceSource.Dexscreener,
       type: 'token',
       tokenAddress: '0xFa14Fa6958401314851A17d6C5360cA29f74B57B',
+    },
+    '0xe6a60d2886b11256C24C128210159133096e5CcF': {
+      name: 'RWA Index Token',
+      symbol: 'iREET',
+      decimals: 18,
+      source: PriceSource.CoingeckoOnchain,
+      tokenAddress: '0xe6a60d2886b11256C24C128210159133096e5CcF',
     },
   },
   [ChainId.MEGAETH_TESTNET]: {
