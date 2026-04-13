@@ -619,6 +619,10 @@ export const dexFactories: Partial<
       factory: '0x1097053Fd2ea711dad45caCcc45EfF7548fCB362',
       protocol: Protocols.V2,
     },
+    [LiquidityDex.Curve]: {
+      factory: '0x98EE851a00abeE0d95D08cF4CA2BdCE32aeaAF7F',
+      protocol: Protocols.Curve,
+    },
   },
   [ChainId.BSC]: {
     [LiquidityDex.ApeSwapV2]: {
@@ -917,6 +921,7 @@ export const defaultDexFactories: Partial<Record<ChainId, Partial<Record<Protoco
   [ChainId.MAINNET]: {
     [Protocols.V2]: dexFactories[ChainId.MAINNET]?.ApeSwapV2?.factory,
     [Protocols.V3]: dexFactories[ChainId.MAINNET]?.UniswapV3?.factory,
+    [Protocols.Curve]: dexFactories[ChainId.MAINNET]?.Curve?.factory,
   },
   [ChainId.BSC]: {
     [Protocols.V2]: dexFactories[ChainId.BSC]?.ApeSwapV2?.factory,
