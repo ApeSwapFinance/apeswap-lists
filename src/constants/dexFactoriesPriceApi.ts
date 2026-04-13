@@ -36,6 +36,11 @@ const dexFactoriesPriceApi: Partial<
       factory: '0x0BFbCF9fa4f9C56B0F40a671Ad40E0805A091865',
       protocol: PriceApiProtocols.UniV3,
     },
+    {
+      name: LiquidityDex.Curve,
+      factory: '0x98EE851a00abeE0d95D08cF4CA2BdCE32aeaAF7F',
+      protocol: PriceApiProtocols.Curve,
+    },
   ],
   [ChainId.BSC]: [
     {
