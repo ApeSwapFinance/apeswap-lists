@@ -21279,7 +21279,6 @@ With the lending products set to go live in February, the project is poised to a
       'iREET is an ERC-20 index token designed to provide onchain exposure to a diversified portfolio of real estate assets acquired and managed within the RAAC ecosystem. Each token represents a share of the vault’s net asset value, backed by real properties generating rental income, offering a unique source of yield that is structurally uncorrelated with traditional crypto markets. The token is fully composable across DeFi, enabling use cases such as collateral within lending protocols while maintaining liquidity and transparency through onchain mechanics. By bridging real-world real estate with decentralized finance, iREET introduces a new asset class that combines stability, yield, and usability within the broader DeFi ecosystem.',
     clickUpId: '86aguxq1f',
     vestingCliff: 3888000, //45days
-    warningCard: 'Extra rewards to be distributed in pmUSD by RAAC at bond maturity.',
     //cgId: '', //has no cgId
     tierBoostRate: 0,
   },
