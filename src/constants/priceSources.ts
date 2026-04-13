@@ -1016,7 +1016,7 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       symbol: 'iREET',
       decimals: 18,
       source: PriceSource.Fixed,
-      price: 1.03,
+      price: 1.037538,
       tokenAddress: '0xe6a60d2886b11256C24C128210159133096e5CcF',
     },
   },
