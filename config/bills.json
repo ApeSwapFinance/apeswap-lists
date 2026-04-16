@@ -3708,7 +3708,8 @@
     "fullDescription": "Planet IX is a pioneering Web3 strategy game that emerged on Polygon in 2021 and rapidly evolved into one of the ecosystem’s largest gaming experiences. Players trade land, expand territories, and stake digital assets, forming a deeply engaged community where nearly 70% of tokens are staked. Now entering its most transformative phase, Planet IX is expanding its universe with AI-powered upgrades, new strategic assets, and advanced in-game mechanics. As part of its evolution, the project is migrating to Base to unlock faster transactions, broader liquidity, and enhanced scalability. Central to this new chapter is the AIX token, designed to power Season 2 with utility, competitive rewards, and elevated DeFi opportunities.",
     "clickUpId": "86agqjvbq",
     "cgId": "planet-ix",
-    "vestingCliff": 2592000
+    "vestingCliff": 2592000,
+    "tierBoostRate": 0
   },
   {
     "index": 8098,
@@ -3763,7 +3764,8 @@
     "fullDescription": "Planet IX is a pioneering Web3 strategy game that emerged on Polygon in 2021 and rapidly evolved into one of the ecosystem’s largest gaming experiences. Players trade land, expand territories, and stake digital assets, forming a deeply engaged community where nearly 70% of tokens are staked. Now entering its most transformative phase, Planet IX is expanding its universe with AI-powered upgrades, new strategic assets, and advanced in-game mechanics. As part of its evolution, the project is migrating to Base to unlock faster transactions, broader liquidity, and enhanced scalability. Central to this new chapter is the AIX token, designed to power Season 2 with utility, competitive rewards, and elevated DeFi opportunities.",
     "clickUpId": "86agqjvbk",
     "cgId": "planet-ix",
-    "vestingCliff": 864000
+    "vestingCliff": 864000,
+    "tierBoostRate": 0
   },
   {
     "index": 8097,

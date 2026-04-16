@@ -1997,6 +1997,7 @@ const bills: BillsConfig[] = [
     clickUpId: '86agqjvbq',
     cgId: 'planet-ix',
     vestingCliff: 2592000, //30 days cliff, instant vesting
+    tierBoostRate: 0,
   },
   {
     index: 8098,
@@ -2028,6 +2029,7 @@ const bills: BillsConfig[] = [
     clickUpId: '86agqjvbk',
     cgId: 'planet-ix',
     vestingCliff: 864000, //10 days cliff, 20 days linear vesting
+    tierBoostRate: 0,
   },
   {
     index: 8097,
