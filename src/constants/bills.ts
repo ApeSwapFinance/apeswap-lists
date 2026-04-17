@@ -21269,7 +21269,7 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://www.instruxi.io/',
     twitter: 'https://x.com/instruxi',
     initTime: { [ChainId.MAINNET]: 1776111382 },
-    soldOut: false,
+    soldOut: true,
     hide: false,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
