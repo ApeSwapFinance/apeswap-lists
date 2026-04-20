@@ -2172,7 +2172,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://bim.finance/',
     twitter: 'https://x.com/BIM_Finance',
     initTime: { [ChainId.BASE]: 1770814611 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
