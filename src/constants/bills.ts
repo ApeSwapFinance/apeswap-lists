@@ -2304,7 +2304,6 @@ const bills: BillsConfig[] = [
       'Artura is a high-performance, Bitcoin-native perpetual DEX engineered for traders seeking exposure to the market’s most dynamic narratives, including memes, AI, Runes, and RWAs. Built on leading Bitcoin Layer 2 solutions such as Hemi and Botanix, it delivers zero-slippage synthetic trading with leverage up to 150x and enables rapid listing of emerging assets. At its core lies a decentralized vault architecture that allows participants to earn passive yield from trading volume while helping steer protocol development through governance. All executions occur fully on-chain, blending complete self-custody with the speed and efficiency typically associated with centralized exchanges. The ARA token is the native utility and governance asset powering incentives, staking rewards, and future decision-making across the Artura ecosystem, aligning traders and the community around long-term growth.',
     clickUpId: '86adm0wcf',
     cgId: 'ara',
-    tierBoostRate: 0,
   },
   {
     index: 8089,
