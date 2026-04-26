@@ -1168,6 +1168,24 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       tokenAddress: '0x9FDBdA0A5e284c32744D2f17Ee5c74B284993463',
     },
   },
+  [ChainId.MANTRA]: {
+    '0xd2b95283011E47257917770D28Bb3EE44c849f6F': {
+      name: 'MANTRA USD',
+      symbol: 'mantraUSD',
+      decimals: 6,
+      source: PriceSource.Coingecko,
+      id: 'mantra-usd',
+      tokenAddress: '0xd2b95283011E47257917770D28Bb3EE44c849f6F',
+    },
+    '0xE3047710EF6cB36Bcf1E58145529778eA7Cb5598': {
+      name: 'Wrapped MANTRA',
+      symbol: 'wMANTRA',
+      decimals: 18,
+      source: PriceSource.Coingecko,
+      id: 'mantra',
+      tokenAddress: '0xE3047710EF6cB36Bcf1E58145529778eA7Cb5598',
+    },
+  },
 }
 
 export default priceSources
