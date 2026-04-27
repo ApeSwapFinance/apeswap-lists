@@ -525,6 +525,24 @@
       "tokenAddress": "0x69011706b3f6C6eaeD7D2Bc13801558B4fd94CBF"
     }
   },
+  "5888": {
+    "0xd2b95283011E47257917770D28Bb3EE44c849f6F": {
+      "name": "MANTRA USD",
+      "symbol": "mantraUSD",
+      "decimals": 6,
+      "source": "coingecko",
+      "id": "mantra-usd",
+      "tokenAddress": "0xd2b95283011E47257917770D28Bb3EE44c849f6F"
+    },
+    "0xE3047710EF6cB36Bcf1E58145529778eA7Cb5598": {
+      "name": "Wrapped MANTRA",
+      "symbol": "wMANTRA",
+      "decimals": 18,
+      "source": "coingecko",
+      "id": "mantra",
+      "tokenAddress": "0xE3047710EF6cB36Bcf1E58145529778eA7Cb5598"
+    }
+  },
   "6342": {
     "0x4eB2Bd7beE16F38B1F4a0A5796Fffd028b6040e9": {
       "name": "Wrapped Ether",

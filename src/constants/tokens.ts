@@ -20,6 +20,32 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  mantrausd: {
+    symbol: 'MANTRAUSD',
+    address: {
+      [ChainId.MANTRA]: '0xd2b95283011E47257917770D28Bb3EE44c849f6F',
+    },
+    decimals: {
+      [ChainId.MANTRA]: 6,
+    },
+    liquidityDex: {
+      [ChainId.MANTRA]: LiquidityDex.External,
+    },
+    active: true,
+  },
+  mantra: {
+    symbol: 'MANTRA',
+    address: {
+      [ChainId.MANTRA]: '0xE3047710EF6cB36Bcf1E58145529778eA7Cb5598',
+    },
+    decimals: {
+      [ChainId.MANTRA]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MANTRA]: LiquidityDex.External,
+    },
+    active: true,
+  },
   qone: {
     symbol: 'QONE',
     address: {

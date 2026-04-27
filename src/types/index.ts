@@ -49,6 +49,7 @@ export enum ChainId {
   SEI = 1329,
   MONAD = 143,
   HYPEREVM = 999,
+  MANTRA = 5888,
 }
 
 export enum LiquidityDex {
