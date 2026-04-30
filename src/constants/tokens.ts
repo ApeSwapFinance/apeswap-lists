@@ -6300,6 +6300,19 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.External,
     },
   },
+  thq: {
+    symbol: 'THQ',
+    address: {
+      [ChainId.BASE]: '0x0b2558bdBC7FFEC0f327fB3579c23daBD1699706',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.External,
+    },
+  },
   sgoo: {
     symbol: 'sGOO',
     address: {

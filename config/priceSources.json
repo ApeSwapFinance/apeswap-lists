@@ -707,6 +707,14 @@
       "source": "dexscreener",
       "type": "token",
       "tokenAddress": "0x1d3bE1CC80cA89DDbabe5b5C254AF63200e708f7"
+    },
+    "0x0b2558bdBC7FFEC0f327fB3579c23daBD1699706": {
+      "name": "Theoriq Token",
+      "symbol": "THQ",
+      "decimals": 18,
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "0x0b2558bdBC7FFEC0f327fB3579c23daBD1699706"
     }
   },
   "10143": {
