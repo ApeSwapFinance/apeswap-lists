@@ -450,6 +450,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       type: 'token',
       tokenAddress: '0x1d3bE1CC80cA89DDbabe5b5C254AF63200e708f7',
     },
+    '0x0b2558bdBC7FFEC0f327fB3579c23daBD1699706': {
+      name: 'Theoriq Token',
+      symbol: 'THQ',
+      decimals: 18,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '0x0b2558bdBC7FFEC0f327fB3579c23daBD1699706',
+    },
   },
   [ChainId.LINEA]: {
     '0xcc22F6AA610D1b2a0e89EF228079cB3e1831b1D1': {
