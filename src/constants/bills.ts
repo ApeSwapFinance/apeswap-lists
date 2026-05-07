@@ -21209,7 +21209,7 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://litas.io/',
     twitter: 'https://x.com/litas_io',
     initTime: { [ChainId.MAINNET]: 1764002980 },
-    soldOut: false,
+    soldOut: true,
     hide: false,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
