@@ -6035,7 +6035,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://custodiy.com/',
     twitter: 'https://x.com/Custodiy1',
     initTime: { [ChainId.BSC]: 1765183436 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
