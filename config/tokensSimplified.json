@@ -6019,6 +6019,19 @@
       "1": "External"
     }
   },
+  "acn": {
+    "symbol": "ACN",
+    "address": {
+      "1": "0x3e76dd57E649A263a532cC9bcC58b32A065fB2a4"
+    },
+    "decimals": {
+      "1": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "1": "UniswapV3"
+    }
+  },
   "hype": {
     "symbol": "wHYPE",
     "address": {
