@@ -20,6 +20,32 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  tape: {
+    symbol: 'tAPE',
+    address: {
+      [ChainId.APTOS_TESTNET]: '0xff27a471b7d44e2a8eae1b8693190d4322f4e28cd9a4dd9d8fff7ed74a47556e',
+    },
+    decimals: {
+      [ChainId.APTOS_TESTNET]: 8,
+    },
+    liquidityDex: {
+      [ChainId.APTOS_TESTNET]: LiquidityDex.External,
+    },
+    active: true,
+  },
+  apt: {
+    symbol: 'APT',
+    address: {
+      [ChainId.APTOS_TESTNET]: '0xa',
+    },
+    decimals: {
+      [ChainId.APTOS_TESTNET]: 8,
+    },
+    liquidityDex: {
+      [ChainId.APTOS_TESTNET]: LiquidityDex.External,
+    },
+    active: true,
+  },
   mantrausd: {
     symbol: 'MANTRAUSD',
     address: {
@@ -2323,6 +2349,7 @@ const tokens: Record<string, Token> = {
       [ChainId.SEI]: '0xe15fC38F6D8c56aF07bbCBe3BAf5708A2Bf42392',
       [ChainId.MONAD]: '0x754704Bc059F8C67012fEd69BC8A327a5aafb603',
       [ChainId.HYPEREVM]: '0xb88339CB7199b77E23DB6E890353E22632Ba630f',
+      [ChainId.APTOS_TESTNET]: '0xdd4a1ddfd09d918e8ade20a85b854f178424be70951d928f82ab1d182d57b4f2',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -2346,6 +2373,7 @@ const tokens: Record<string, Token> = {
       [ChainId.SEI]: 6,
       [ChainId.MONAD]: 6,
       [ChainId.HYPEREVM]: 6,
+      [ChainId.APTOS_TESTNET]: 6,
     },
     liquidityDex: {
       [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
@@ -2368,6 +2396,7 @@ const tokens: Record<string, Token> = {
       [ChainId.SEI]: LiquidityDex.External,
       [ChainId.MONAD]: LiquidityDex.External,
       [ChainId.HYPEREVM]: LiquidityDex.External,
+      [ChainId.APTOS_TESTNET]: LiquidityDex.External,
     },
     active: true,
   },
