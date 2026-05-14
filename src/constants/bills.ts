@@ -966,6 +966,34 @@ const bills: BillsConfig[] = [
     clickUpId: '86ag8506w',
     cgId: 'letstop',
   },
+  {
+    index: 18027,
+    version: '2.2.0',
+    chainId: ChainId.SOL,
+    contractAddress: {
+      [ChainId.SOL]: '8uKY4wcx5Sk28puNRFAb1irKaiWATmnWT85jJ4AjbPbo',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V2,
+    lpToken: tokens.usdc,
+    earnToken: tokens.rkey,
+    billNnftAddress: {
+      [ChainId.SOL]: '4HwfauPmb3AvuYmBaUkdjianaugy11jeLu3bKEfuUqo5',
+    },
+    projectLink: 'https://www.rkey.rent/',
+    twitter: 'https://x.com/rkeyrent',
+    initTime: { [ChainId.SOL]: 1752070680 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.Solana_Collection1,
+    },
+    fullDescription: `TEST BOND`,
+    shortDescription: `TEST BOND`,
+    tags: ['RWA'],
+    warningCard: `This token is currently only tradable on <a href="https://www.lbank.com/trade/rkey_usdt" target="_blank" rel="noopener noreferrer" style="color: #6099c5">LBank</a>.`,
+    clickUpId: '86a9v11vw',
+    cgId: 'rkey',
+  },
   //
   // Berachain
   //
