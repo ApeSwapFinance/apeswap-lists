@@ -859,6 +859,32 @@
       "tokenAddress": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2"
     }
   },
+  "6385780": {
+    "0xa": {
+      "name": "Aptos Coin",
+      "symbol": "APT",
+      "decimals": 8,
+      "source": "fixed",
+      "price": 5.5,
+      "tokenAddress": "0xa"
+    },
+    "0xff27a471b7d44e2a8eae1b8693190d4322f4e28cd9a4dd9d8fff7ed74a47556e": {
+      "name": "Test APE",
+      "symbol": "tAPE",
+      "decimals": 8,
+      "source": "fixed",
+      "price": 0.6,
+      "tokenAddress": "0xff27a471b7d44e2a8eae1b8693190d4322f4e28cd9a4dd9d8fff7ed74a47556e"
+    },
+    "0xdd4a1ddfd09d918e8ade20a85b854f178424be70951d928f82ab1d182d57b4f2": {
+      "name": "Testnet USDC",
+      "symbol": "USDCe",
+      "decimals": 8,
+      "source": "fixed",
+      "price": 1,
+      "tokenAddress": "0xdd4a1ddfd09d918e8ade20a85b854f178424be70951d928f82ab1d182d57b4f2"
+    }
+  },
   "6385781": {
     "0xa": {
       "name": "Aptos Coin",
