@@ -67,6 +67,31 @@ const bills: BillsConfig[] = [
     shortDescription: `Aptos bond — on-chain first, no backend dependency.`,
     fullDescription: `Aptos bond operating in on-chain first mode. All market data (prices, discounts, vesting) is read directly from Move view functions. No api-v2 or realtime-api dependency.`,
   },
+  {
+    index: 22002,
+    version: '2.1.0',
+    chainId: ChainId.APTOS_MAINNET,
+    contractAddress: {
+      [ChainId.APTOS_MAINNET]: '0xd5b8002990de9cb9de9a6104d51f1d142c66604d7fdc2f38afc01cccc269076f',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.apt,
+    earnToken: tokens.tape,
+    billNnftAddress: {
+      [ChainId.APTOS_MAINNET]: '0x6254e394ab73f4688c2254565f04efEEa1381bFE',
+    },
+    // projectLink: 'https://qlabs.tech/',
+    // twitter: 'https://x.com/qlabsofficial',
+    // initTime: { [ChainId.APTOS_MAINNET]: 1770745754 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['APTOS'],
+    shortDescription: `Aptos bond — on-chain first, no backend dependency.`,
+    fullDescription: `Aptos bond operating in on-chain first mode. All market data (prices, discounts, vesting) is read directly from Move view functions. No api-v2 or realtime-api dependency.`,
+  },
   //
   // HYPEREVM
   //
