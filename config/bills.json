@@ -10933,6 +10933,60 @@
     "cgId": "etarn"
   },
   {
+    "index": 1215,
+    "cmcId": 38452,
+    "version": "2.1.0",
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0x8E062ED31A7782d258A60F83d7a71F33d97A51c0"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "56": "0x55d398326f99059fF775485246999027B3197955"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "ETAN",
+      "address": {
+        "56": "0xe5E1A0a43f307F390887E2a17399172F3F9a3caB"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      }
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "projectLink": "https://www.etarn.io/en",
+    "twitter": "https://x.com/Etarn2025",
+    "initTime": {
+      "56": 1774537510
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["AI"],
+    "shortDescription": "TEST BOND",
+    "fullDescription": "TEST BOND",
+    "clickUpId": "86agdzfdc",
+    "cgId": "etarn"
+  },
+  {
     "index": 1214,
     "cmcId": 38512,
     "version": "2.1.0",
