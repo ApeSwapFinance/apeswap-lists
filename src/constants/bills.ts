@@ -966,34 +966,6 @@ const bills: BillsConfig[] = [
     clickUpId: '86ag8506w',
     cgId: 'letstop',
   },
-  {
-    index: 18027,
-    version: '2.2.0',
-    chainId: ChainId.SOL,
-    contractAddress: {
-      [ChainId.SOL]: '8uKY4wcx5Sk28puNRFAb1irKaiWATmnWT85jJ4AjbPbo',
-    },
-    billType: 'reserve',
-    billVersion: BillVersion.V2,
-    lpToken: tokens.usdc,
-    earnToken: tokens.rkey,
-    billNnftAddress: {
-      [ChainId.SOL]: '4HwfauPmb3AvuYmBaUkdjianaugy11jeLu3bKEfuUqo5',
-    },
-    projectLink: 'https://www.rkey.rent/',
-    twitter: 'https://x.com/rkeyrent',
-    initTime: { [ChainId.SOL]: 1752070680 },
-    soldOut: false,
-    billArt: {
-      collection: BillArtCollection.Solana_Collection1,
-    },
-    fullDescription: `TEST BOND`,
-    shortDescription: `TEST BOND`,
-    tags: ['RWA'],
-    warningCard: `This token is currently only tradable on <a href="https://www.lbank.com/trade/rkey_usdt" target="_blank" rel="noopener noreferrer" style="color: #6099c5">LBank</a>.`,
-    clickUpId: '86a9v11vw',
-    cgId: 'rkey',
-  },
   //
   // Berachain
   //
@@ -5869,34 +5841,6 @@ const bills: BillsConfig[] = [
       'Etarn is redefining sanitation by turning daily waste into environmental and economic value through AI-powered Smart Toilets and blockchain. Human waste is converted into liquid fertilizer and future carbon credits, addressing global sanitation challenges while creating a scalable circular economy powered by the ETAN token.',
     fullDescription:
       'Etarn is revolutionizing waste disposal by transforming everyday sanitation into a driver of sustainability, public health, and economic empowerment. Through AI-powered Smart Toilets and blockchain technology, human waste is converted into liquid fertilizer and, in the future, carbon credits, creating real-world value from daily actions. By integrating advanced technology with eco-friendly infrastructure, Etarn addresses global sanitation challenges while enabling communities to benefit from cleaner environments and new income opportunities. Its mission is to turn routine behavior into meaningful environmental impact and long-term social progress, building a scalable and sustainable global ecosystem. At the center of this model is the ETAN token, the native asset that facilitates carbon credit trading, rewards Smart Toilet usage, and supports transparent, secure, and sustainable growth across the platform.',
-    clickUpId: '86agdzfdc',
-    cgId: 'etarn',
-  },
-  {
-    index: 1215,
-    cmcId: 38452,
-    version: '2.1.0',
-    chainId: ChainId.BSC,
-    contractAddress: {
-      [ChainId.BSC]: '0x8E062ED31A7782d258A60F83d7a71F33d97A51c0',
-    },
-    billType: 'reserve',
-    billVersion: BillVersion.V4,
-    lpToken: tokens.usdt,
-    earnToken: tokens.etan,
-    billNnftAddress: {
-      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
-    },
-    projectLink: 'https://www.etarn.io/en',
-    twitter: 'https://x.com/Etarn2025',
-    initTime: { [ChainId.BSC]: 1774537510 },
-    soldOut: false,
-    billArt: {
-      collection: BillArtCollection.ApeBond_Collection1,
-    },
-    tags: ['AI'],
-    shortDescription: 'TEST BOND',
-    fullDescription: 'TEST BOND',
     clickUpId: '86agdzfdc',
     cgId: 'etarn',
   },
