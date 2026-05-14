@@ -92,6 +92,52 @@
     "fullDescription": "Aptos bond operating in on-chain first mode. All market data (prices, discounts, vesting) is read directly from Move view functions. No api-v2 or realtime-api dependency."
   },
   {
+    "index": 22003,
+    "version": "2.1.0",
+    "chainId": 6385780,
+    "contractAddress": {
+      "6385780": "0x6f5ffdb09da42e2c86561c12d5ceb54838966bb62578d1051cb48159d25ed218"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "APT",
+      "address": {
+        "6385780": "0xa"
+      },
+      "decimals": {
+        "6385780": 8
+      },
+      "liquidityDex": {
+        "6385780": "External"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "tAPE",
+      "address": {
+        "6385780": "0xff27a471b7d44e2a8eae1b8693190d4322f4e28cd9a4dd9d8fff7ed74a47556e"
+      },
+      "decimals": {
+        "6385780": 8
+      },
+      "liquidityDex": {
+        "6385780": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "6385780": "0x6254e394ab73f4688c2254565f04efEEa1381bFE"
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["APTOS"],
+    "shortDescription": "Aptos bond — on-chain first, no backend dependency.",
+    "fullDescription": "Aptos bond operating in on-chain first mode. All market data (prices, discounts, vesting) is read directly from Move view functions. No api-v2 or realtime-api dependency."
+  },
+  {
     "index": 21001,
     "cmcId": 39537,
     "version": "2.1.0",
