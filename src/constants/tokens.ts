@@ -21,28 +21,29 @@ const tokens: Record<string, Token> = {
     active: true,
   },
   tape: {
+    //TODO: REMOVE THIS TEST TOKEN FOR PROD
     symbol: 'tAPE',
     address: {
-      [ChainId.APTOS_TESTNET]: '0xff27a471b7d44e2a8eae1b8693190d4322f4e28cd9a4dd9d8fff7ed74a47556e',
+      [ChainId.APTOS_MAINNET]: '0xff27a471b7d44e2a8eae1b8693190d4322f4e28cd9a4dd9d8fff7ed74a47556e',
     },
     decimals: {
-      [ChainId.APTOS_TESTNET]: 8,
+      [ChainId.APTOS_MAINNET]: 8,
     },
     liquidityDex: {
-      [ChainId.APTOS_TESTNET]: LiquidityDex.External,
+      [ChainId.APTOS_MAINNET]: LiquidityDex.External,
     },
     active: true,
   },
   apt: {
     symbol: 'APT',
     address: {
-      [ChainId.APTOS_TESTNET]: '0xa',
+      [ChainId.APTOS_MAINNET]: '0xa',
     },
     decimals: {
-      [ChainId.APTOS_TESTNET]: 8,
+      [ChainId.APTOS_MAINNET]: 8,
     },
     liquidityDex: {
-      [ChainId.APTOS_TESTNET]: LiquidityDex.External,
+      [ChainId.APTOS_MAINNET]: LiquidityDex.External,
     },
     active: true,
   },

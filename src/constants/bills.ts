@@ -31,8 +31,42 @@ import {
 // UNICHAIN Largest ID: 19001
 // AVAX Largest ID: 20001
 // HYPEREVM Largest ID: 21000
+// APTOS Largest ID: 22000
+// SUI Largest ID: 23000
 
 const bills: BillsConfig[] = [
+  //
+  // SUI - NOTE we'll use MAINNET flag even tho we are still on testnet to simplify things up
+  //
+
+  //
+  // APTOS - NOTE we'll use MAINNET flag even tho we are still on testnet to simplify things up
+  //
+  {
+    index: 22001,
+    version: '2.1.0',
+    chainId: ChainId.APTOS_MAINNET,
+    contractAddress: {
+      [ChainId.APTOS_MAINNET]: '0x9902fa5b2fac9d6665f1f94b66ac72709d63d38b494973089f55de5f11af12da',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.apt,
+    earnToken: tokens.tape,
+    billNnftAddress: {
+      [ChainId.APTOS_MAINNET]: '0x6254e394ab73f4688c2254565f04efEEa1381bFE',
+    },
+    // projectLink: 'https://qlabs.tech/',
+    // twitter: 'https://x.com/qlabsofficial',
+    // initTime: { [ChainId.APTOS_MAINNET]: 1770745754 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['APTOS'],
+    shortDescription: `Aptos bond — on-chain first, no backend dependency.`,
+    fullDescription: `Aptos bond operating in on-chain first mode. All market data (prices, discounts, vesting) is read directly from Move view functions. No api-v2 or realtime-api dependency.`,
+  },
   //
   // HYPEREVM
   //
