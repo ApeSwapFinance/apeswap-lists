@@ -21431,7 +21431,7 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://aitech.io/',
     twitter: 'https://x.com/AITECHio',
     initTime: { [ChainId.MAINNET]: 1778689741 },
-    soldOut: false,
+    soldOut: true,
     hide: false,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
