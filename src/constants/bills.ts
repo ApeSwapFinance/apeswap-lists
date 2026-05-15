@@ -45,20 +45,20 @@ const bills: BillsConfig[] = [
   {
     index: 22001,
     version: '2.1.0',
-    chainId: ChainId.APTOS_MAINNET,
+    chainId: ChainId.APTOS,
     contractAddress: {
-      [ChainId.APTOS_MAINNET]: '0x9902fa5b2fac9d6665f1f94b66ac72709d63d38b494973089f55de5f11af12da',
+      [ChainId.APTOS]: '0x9902fa5b2fac9d6665f1f94b66ac72709d63d38b494973089f55de5f11af12da',
     },
     billType: 'reserve',
     billVersion: BillVersion.V4,
     lpToken: tokens.apt,
     earnToken: tokens.tape,
     billNnftAddress: {
-      [ChainId.APTOS_MAINNET]: '0x6254e394ab73f4688c2254565f04efEEa1381bFE',
+      [ChainId.APTOS]: '0x6254e394ab73f4688c2254565f04efEEa1381bFE',
     },
     // projectLink: 'https://qlabs.tech/',
     // twitter: 'https://x.com/qlabsofficial',
-    // initTime: { [ChainId.APTOS_MAINNET]: 1770745754 },
+    // initTime: { [ChainId.APTOS]: 1770745754 },
     soldOut: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -70,20 +70,20 @@ const bills: BillsConfig[] = [
   {
     index: 22002,
     version: '2.1.0',
-    chainId: ChainId.APTOS_MAINNET,
+    chainId: ChainId.APTOS,
     contractAddress: {
-      [ChainId.APTOS_MAINNET]: '0xd5b8002990de9cb9de9a6104d51f1d142c66604d7fdc2f38afc01cccc269076f',
+      [ChainId.APTOS]: '0xd5b8002990de9cb9de9a6104d51f1d142c66604d7fdc2f38afc01cccc269076f',
     },
     billType: 'reserve',
     billVersion: BillVersion.V4,
     lpToken: tokens.apt,
     earnToken: tokens.tape,
     billNnftAddress: {
-      [ChainId.APTOS_MAINNET]: '0x6254e394ab73f4688c2254565f04efEEa1381bFE',
+      [ChainId.APTOS]: '0x6254e394ab73f4688c2254565f04efEEa1381bFE',
     },
     // projectLink: 'https://qlabs.tech/',
     // twitter: 'https://x.com/qlabsofficial',
-    // initTime: { [ChainId.APTOS_MAINNET]: 1770745754 },
+    // initTime: { [ChainId.APTOS]: 1770745754 },
     soldOut: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -95,20 +95,20 @@ const bills: BillsConfig[] = [
   {
     index: 22003,
     version: '2.1.0',
-    chainId: ChainId.APTOS_MAINNET,
+    chainId: ChainId.APTOS,
     contractAddress: {
-      [ChainId.APTOS_MAINNET]: '0x6f5ffdb09da42e2c86561c12d5ceb54838966bb62578d1051cb48159d25ed218',
+      [ChainId.APTOS]: '0x6f5ffdb09da42e2c86561c12d5ceb54838966bb62578d1051cb48159d25ed218',
     },
     billType: 'reserve',
     billVersion: BillVersion.V4,
     lpToken: tokens.apt,
     earnToken: tokens.tape,
     billNnftAddress: {
-      [ChainId.APTOS_MAINNET]: '0x6254e394ab73f4688c2254565f04efEEa1381bFE',
+      [ChainId.APTOS]: '0x6254e394ab73f4688c2254565f04efEEa1381bFE',
     },
     // projectLink: 'https://qlabs.tech/',
     // twitter: 'https://x.com/qlabsofficial',
-    // initTime: { [ChainId.APTOS_MAINNET]: 1770745754 },
+    // initTime: { [ChainId.APTOS]: 1770745754 },
     soldOut: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
