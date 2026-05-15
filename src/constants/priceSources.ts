@@ -1194,7 +1194,7 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       tokenAddress: '0xE3047710EF6cB36Bcf1E58145529778eA7Cb5598',
     },
   },
-  [ChainId.APTOS_MAINNET]: {
+  [ChainId.APTOS]: {
     // TODO: set a proper price source to fetch the real price of APT
     '0xa': {
       name: 'Aptos Coin',
@@ -1222,30 +1222,22 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       tokenAddress: '0xdd4a1ddfd09d918e8ade20a85b854f178424be70951d928f82ab1d182d57b4f2',
     },
   },
-  [ChainId.APTOS_TESTNET]: {
-    '0xa': {
-      name: 'Aptos Coin',
-      symbol: 'APT',
-      decimals: 8,
-      source: PriceSource.Fixed,
-      price: 5.5,
-      tokenAddress: '0xa',
-    },
-    '0xff27a471b7d44e2a8eae1b8693190d4322f4e28cd9a4dd9d8fff7ed74a47556e': {
-      name: 'Test APE',
-      symbol: 'tAPE',
-      decimals: 8,
-      source: PriceSource.Fixed,
-      price: 0.6,
-      tokenAddress: '0xff27a471b7d44e2a8eae1b8693190d4322f4e28cd9a4dd9d8fff7ed74a47556e',
-    },
-    '0xdd4a1ddfd09d918e8ade20a85b854f178424be70951d928f82ab1d182d57b4f2': {
-      name: 'Testnet USDC',
-      symbol: 'USDCe',
-      decimals: 8,
+  [ChainId.SUI]: {
+    '0xa1ec7fc00a6f40db9693ad1415d0c193ad3906494428cf252621037bd7117e29::usdc::USDC': {
+      name: 'USDC',
+      symbol: 'USDC',
+      decimals: 6,
       source: PriceSource.Fixed,
       price: 1,
-      tokenAddress: '0xdd4a1ddfd09d918e8ade20a85b854f178424be70951d928f82ab1d182d57b4f2',
+      tokenAddress: '0xa1ec7fc00a6f40db9693ad1415d0c193ad3906494428cf252621037bd7117e29::usdc::USDC',
+    },
+    '0x2::sui::SUI': {
+      name: 'Sui',
+      symbol: 'SUI',
+      decimals: 9,
+      source: PriceSource.Fixed,
+      price: 1,
+      tokenAddress: '0x2::sui::SUI',
     },
   },
 }
