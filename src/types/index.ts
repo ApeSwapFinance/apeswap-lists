@@ -50,10 +50,8 @@ export enum ChainId {
   MONAD = 143,
   HYPEREVM = 999,
   MANTRA = 5888,
-  APTOS_MAINNET = 6385780,
-  APTOS_TESTNET = 6385781,
-  SUI_MAINNET = 7566697,
-  SUI_TESTNET = 7566698,
+  APTOS = 6385780,
+  SUI = 7566697,
 }
 
 export enum LiquidityDex {
