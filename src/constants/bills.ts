@@ -88,6 +88,31 @@ const bills: BillsConfig[] = [
     shortDescription: `TEST SUI BOND 2`,
     fullDescription: `TEST SUI BOND 2`,
   },
+  {
+    index: 23002,
+    version: '2.1.0',
+    chainId: ChainId.SUI,
+    contractAddress: {
+      [ChainId.SUI]: '0xf136085656357f5d9afb41f147ca3f952cc4258e6d7d11569880dbf4d248dbcd',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.sui,
+    billNnftAddress: {
+      [ChainId.SUI]: '0x6254e394ab73f4688c2254565f04efEEa1381bFE',
+    },
+    // projectLink: 'https://qlabs.tech/',
+    // twitter: 'https://x.com/qlabsofficial',
+    // initTime: { [ChainId.APTOS]: 1770745754 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['SUI'],
+    shortDescription: `TEST SUI BOND 2`,
+    fullDescription: `TEST SUI BOND 2`,
+  },
   //
   // APTOS - NOTE we'll use MAINNET flag even tho we are still on testnet to simplify things up
   //
