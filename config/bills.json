@@ -1,5 +1,51 @@
 [
   {
+    "index": 23000,
+    "version": "2.1.0",
+    "chainId": 7566697,
+    "contractAddress": {
+      "7566697": "0xb3e17b0bee56f0c9e7b1db86cbe3689e526962bd1c55c05d87e0e965453d3f5a"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "7566697": "0xa1ec7fc00a6f40db9693ad1415d0c193ad3906494428cf252621037bd7117e29::usdc::USDC"
+      },
+      "decimals": {
+        "7566697": 6
+      },
+      "liquidityDex": {
+        "7566697": "External"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "SUI",
+      "address": {
+        "7566697": "0x2::sui::SUI"
+      },
+      "decimals": {
+        "7566697": 9
+      },
+      "liquidityDex": {
+        "7566697": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "7566697": "0x6254e394ab73f4688c2254565f04efEEa1381bFE"
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["SUI"],
+    "shortDescription": "TEST SUI BOND",
+    "fullDescription": "TEST SUI BOND"
+  },
+  {
     "index": 22001,
     "version": "2.1.0",
     "chainId": 6385780,

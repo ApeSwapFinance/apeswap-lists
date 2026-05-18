@@ -1,4 +1,72 @@
 {
+  "usdc": {
+    "symbol": "USDC",
+    "address": {
+      "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+      "130": "0x078D782b760474a361dDA0AF3839290b0EF57AD6",
+      "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+      "146": "0x29219dd400f2Bf60E5a23d13Be72B486D4038894",
+      "999": "0xb88339CB7199b77E23DB6E890353E22632Ba630f",
+      "1890": "0x18fB38404DADeE1727Be4b805c5b242B5413Fa40",
+      "8453": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+      "10143": "0xf817257fed379853cDe0fa4F97AB987181B1E5Ea",
+      "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+      "43114": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
+      "59144": "0x176211869cA2b568f2A7D4EE941E073a821EE1ff",
+      "80094": "0x549943e04f40284185054145c6E4e9568C1D3241",
+      "7565164": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "7566697": "0xa1ec7fc00a6f40db9693ad1415d0c193ad3906494428cf252621037bd7117e29::usdc::USDC"
+    },
+    "decimals": {
+      "1": 6,
+      "56": 18,
+      "130": 6,
+      "137": 6,
+      "146": 6,
+      "999": 6,
+      "1890": 6,
+      "8453": 6,
+      "10143": 6,
+      "42161": 6,
+      "43114": 6,
+      "59144": 6,
+      "80094": 6,
+      "7565164": 6,
+      "7566697": 6
+    },
+    "active": true,
+    "liquidityDex": {
+      "1": "UniswapV3",
+      "56": "PancakeSwapV2",
+      "130": "External",
+      "137": "UniswapV3",
+      "146": "External",
+      "999": "External",
+      "1890": "Elektrik",
+      "8453": "Aerodrome",
+      "10143": "PancakeSwapV2",
+      "42161": "UniswapV3",
+      "43114": "External",
+      "59144": "Nile",
+      "80094": "KodiakV3",
+      "7565164": "External",
+      "7566697": "External"
+    }
+  },
+  "sui": {
+    "symbol": "SUI",
+    "address": {
+      "7566697": "0x2::sui::SUI"
+    },
+    "decimals": {
+      "7566697": 9
+    },
+    "active": true,
+    "liquidityDex": {
+      "7566697": "External"
+    }
+  },
   "apt": {
     "symbol": "APT",
     "address": {
@@ -23,58 +91,6 @@
     "active": true,
     "liquidityDex": {
       "6385780": "External"
-    }
-  },
-  "usdc": {
-    "symbol": "USDC",
-    "address": {
-      "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-      "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
-      "130": "0x078D782b760474a361dDA0AF3839290b0EF57AD6",
-      "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-      "146": "0x29219dd400f2Bf60E5a23d13Be72B486D4038894",
-      "999": "0xb88339CB7199b77E23DB6E890353E22632Ba630f",
-      "1890": "0x18fB38404DADeE1727Be4b805c5b242B5413Fa40",
-      "8453": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
-      "10143": "0xf817257fed379853cDe0fa4F97AB987181B1E5Ea",
-      "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
-      "43114": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
-      "59144": "0x176211869cA2b568f2A7D4EE941E073a821EE1ff",
-      "80094": "0x549943e04f40284185054145c6E4e9568C1D3241",
-      "7565164": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
-    },
-    "decimals": {
-      "1": 6,
-      "56": 18,
-      "130": 6,
-      "137": 6,
-      "146": 6,
-      "999": 6,
-      "1890": 6,
-      "8453": 6,
-      "10143": 6,
-      "42161": 6,
-      "43114": 6,
-      "59144": 6,
-      "80094": 6,
-      "7565164": 6
-    },
-    "active": true,
-    "liquidityDex": {
-      "1": "UniswapV3",
-      "56": "PancakeSwapV2",
-      "130": "External",
-      "137": "UniswapV3",
-      "146": "External",
-      "999": "External",
-      "1890": "Elektrik",
-      "8453": "Aerodrome",
-      "10143": "PancakeSwapV2",
-      "42161": "UniswapV3",
-      "43114": "External",
-      "59144": "Nile",
-      "80094": "KodiakV3",
-      "7565164": "External"
     }
   },
   "qone": {

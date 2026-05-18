@@ -38,7 +38,31 @@ const bills: BillsConfig[] = [
   //
   // SUI - NOTE we'll use MAINNET flag even tho we are still on testnet to simplify things up
   //
-
+  {
+    index: 23000,
+    version: '2.1.0',
+    chainId: ChainId.SUI,
+    contractAddress: {
+      [ChainId.SUI]: '0xb3e17b0bee56f0c9e7b1db86cbe3689e526962bd1c55c05d87e0e965453d3f5a',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.sui,
+    billNnftAddress: {
+      [ChainId.SUI]: '0x6254e394ab73f4688c2254565f04efEEa1381bFE',
+    },
+    // projectLink: 'https://qlabs.tech/',
+    // twitter: 'https://x.com/qlabsofficial',
+    // initTime: { [ChainId.APTOS]: 1770745754 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['SUI'],
+    shortDescription: `TEST SUI BOND`,
+    fullDescription: `TEST SUI BOND`,
+  },
   //
   // APTOS - NOTE we'll use MAINNET flag even tho we are still on testnet to simplify things up
   //
