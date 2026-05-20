@@ -43,7 +43,7 @@ const bills: BillsConfig[] = [
     version: '2.1.0',
     chainId: ChainId.SUI,
     contractAddress: {
-      [ChainId.SUI]: '0x8de1d37a85d3fe3d9649ba4b67d4d1b529d6915ad0dd8563f5fb35372e3f8c05',
+      [ChainId.SUI]: '0x0fc002811fb5966458fb91a1b36384f9bb7e6f9a33f8ff0c49f0a7204a29e39b',
     },
     billType: 'reserve',
     billVersion: BillVersion.V4,
@@ -68,7 +68,7 @@ const bills: BillsConfig[] = [
     version: '2.1.0',
     chainId: ChainId.SUI,
     contractAddress: {
-      [ChainId.SUI]: '0x46418b8a2973806fac4163aca665ce415fbbe1bc665c582d99545559c293a535',
+      [ChainId.SUI]: '0x789c56c887ac79b575d8928c3b5d706e3295d84b25971b0db345c195ad463b06',
     },
     billType: 'reserve',
     billVersion: BillVersion.V4,
