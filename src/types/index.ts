@@ -52,6 +52,7 @@ export enum ChainId {
   MANTRA = 5888,
   APTOS = 6385780,
   SUI = 7566697,
+  BITTENSOR = 964,
 }
 
 export enum LiquidityDex {
