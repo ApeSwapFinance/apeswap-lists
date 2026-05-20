@@ -43,7 +43,7 @@ const bills: BillsConfig[] = [
     version: '2.1.0',
     chainId: ChainId.SUI,
     contractAddress: {
-      [ChainId.SUI]: '0xb3e17b0bee56f0c9e7b1db86cbe3689e526962bd1c55c05d87e0e965453d3f5a',
+      [ChainId.SUI]: '0x8de1d37a85d3fe3d9649ba4b67d4d1b529d6915ad0dd8563f5fb35372e3f8c05',
     },
     billType: 'reserve',
     billVersion: BillVersion.V4,
@@ -60,7 +60,7 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['SUI'],
-    shortDescription: `TEST SUI BOND`,
+    shortDescription: `TEST SUI BOND %0 fee`,
     fullDescription: `TEST SUI BOND`,
   },
   {
@@ -68,7 +68,7 @@ const bills: BillsConfig[] = [
     version: '2.1.0',
     chainId: ChainId.SUI,
     contractAddress: {
-      [ChainId.SUI]: '0xf68405d94f9b01dd003ae9fb656ca495164db6084a7301ba71f62b9071cd7d6b',
+      [ChainId.SUI]: '0x46418b8a2973806fac4163aca665ce415fbbe1bc665c582d99545559c293a535',
     },
     billType: 'reserve',
     billVersion: BillVersion.V4,
@@ -85,32 +85,7 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['SUI'],
-    shortDescription: `TEST SUI BOND 2`,
-    fullDescription: `TEST SUI BOND 2`,
-  },
-  {
-    index: 23002,
-    version: '2.1.0',
-    chainId: ChainId.SUI,
-    contractAddress: {
-      [ChainId.SUI]: '0xf136085656357f5d9afb41f147ca3f952cc4258e6d7d11569880dbf4d248dbcd',
-    },
-    billType: 'reserve',
-    billVersion: BillVersion.V4,
-    lpToken: tokens.usdc,
-    earnToken: tokens.sui,
-    billNnftAddress: {
-      [ChainId.SUI]: '0x6254e394ab73f4688c2254565f04efEEa1381bFE',
-    },
-    // projectLink: 'https://qlabs.tech/',
-    // twitter: 'https://x.com/qlabsofficial',
-    // initTime: { [ChainId.APTOS]: 1770745754 },
-    soldOut: false,
-    billArt: {
-      collection: BillArtCollection.ApeBond_Collection1,
-    },
-    tags: ['SUI'],
-    shortDescription: `TEST SUI BOND 2`,
+    shortDescription: `TEST SUI BOND 2 %5 fee`,
     fullDescription: `TEST SUI BOND 2`,
   },
   //
