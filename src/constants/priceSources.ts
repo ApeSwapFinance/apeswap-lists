@@ -1222,6 +1222,32 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       tokenAddress: '0xdd4a1ddfd09d918e8ade20a85b854f178424be70951d928f82ab1d182d57b4f2',
     },
   },
+  [ChainId.BITTENSOR]: {
+    '0x3F2c5460bF575cFa8e3299f643645c91cAb6F565': {
+      name: 'Targon',
+      symbol: 'TARGON',
+      decimals: 18,
+      source: PriceSource.Coingecko,
+      id: 'targon',
+      tokenAddress: '0x3F2c5460bF575cFa8e3299f643645c91cAb6F565',
+    },
+    '0x30B5F838d479EC994793e576c9463B53B9a8E277': {
+      name: 'Staking',
+      symbol: 'STAKE',
+      decimals: 18,
+      source: PriceSource.Coingecko,
+      id: 'staking-2',
+      tokenAddress: '0x30B5F838d479EC994793e576c9463B53B9a8E277',
+    },
+    '0x0000000000000000000000000000000000000030': {
+      name: 'Bettensor',
+      symbol: 'BETS',
+      decimals: 18,
+      source: PriceSource.Coingecko,
+      id: 'bettensor',
+      tokenAddress: '0x0000000000000000000000000000000000000030',
+    },
+  },
   [ChainId.SUI]: {
     '0xa1ec7fc00a6f40db9693ad1415d0c193ad3906494428cf252621037bd7117e29::usdc::USDC': {
       name: 'USDC',

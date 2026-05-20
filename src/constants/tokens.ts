@@ -8739,6 +8739,30 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
   },
+  subnetAlpha4: {
+    symbol: 'TARGON',
+    address: {
+      [ChainId.BITTENSOR]: '0x3F2c5460bF575cFa8e3299f643645c91cAb6F565',
+    },
+    decimals: { [ChainId.BITTENSOR]: 18 },
+    active: true,
+  },
+  subnetAlpha8: {
+    symbol: 'STAKE',
+    address: {
+      [ChainId.BITTENSOR]: '0x30B5F838d479EC994793e576c9463B53B9a8E277',
+    },
+    decimals: { [ChainId.BITTENSOR]: 18 },
+    active: true,
+  },
+  subnetAlpha30: {
+    symbol: 'BETS',
+    address: {
+      [ChainId.BITTENSOR]: '0x0000000000000000000000000000000000000030',
+    },
+    decimals: { [ChainId.BITTENSOR]: 18 },
+    active: true,
+  },
   goobtc: {
     symbol: 'GOO-cbBTC',
     address: {
