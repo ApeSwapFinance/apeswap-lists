@@ -121,7 +121,7 @@ const bills: BillsConfig[] = [
     version: '2.1.0',
     chainId: ChainId.APTOS,
     contractAddress: {
-      [ChainId.APTOS]: '0x9902fa5b2fac9d6665f1f94b66ac72709d63d38b494973089f55de5f11af12da',
+      [ChainId.APTOS]: '0x8de1d37a85d3fe3d9649ba4b67d4d1b529d6915ad0dd8563f5fb35372e3f8c05',
     },
     billType: 'reserve',
     billVersion: BillVersion.V4,
@@ -138,7 +138,7 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['APTOS'],
-    shortDescription: `Aptos bond — on-chain first, no backend dependency.`,
+    shortDescription: `Aptos bond — on-chain first, no backend dependency. Fees are %0 for this bond`,
     fullDescription: `Aptos bond operating in on-chain first mode. All market data (prices, discounts, vesting) is read directly from Move view functions. No api-v2 or realtime-api dependency.`,
   },
   {
@@ -146,7 +146,7 @@ const bills: BillsConfig[] = [
     version: '2.1.0',
     chainId: ChainId.APTOS,
     contractAddress: {
-      [ChainId.APTOS]: '0xd5b8002990de9cb9de9a6104d51f1d142c66604d7fdc2f38afc01cccc269076f',
+      [ChainId.APTOS]: '0x46418b8a2973806fac4163aca665ce415fbbe1bc665c582d99545559c293a535',
     },
     billType: 'reserve',
     billVersion: BillVersion.V4,
@@ -163,32 +163,7 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['APTOS'],
-    shortDescription: `Aptos bond — on-chain first, no backend dependency.`,
-    fullDescription: `Aptos bond operating in on-chain first mode. All market data (prices, discounts, vesting) is read directly from Move view functions. No api-v2 or realtime-api dependency.`,
-  },
-  {
-    index: 22003,
-    version: '2.1.0',
-    chainId: ChainId.APTOS,
-    contractAddress: {
-      [ChainId.APTOS]: '0x6f5ffdb09da42e2c86561c12d5ceb54838966bb62578d1051cb48159d25ed218',
-    },
-    billType: 'reserve',
-    billVersion: BillVersion.V4,
-    lpToken: tokens.apt,
-    earnToken: tokens.tape,
-    billNnftAddress: {
-      [ChainId.APTOS]: '0x6254e394ab73f4688c2254565f04efEEa1381bFE',
-    },
-    // projectLink: 'https://qlabs.tech/',
-    // twitter: 'https://x.com/qlabsofficial',
-    // initTime: { [ChainId.APTOS]: 1770745754 },
-    soldOut: false,
-    billArt: {
-      collection: BillArtCollection.ApeBond_Collection1,
-    },
-    tags: ['APTOS'],
-    shortDescription: `Aptos bond — on-chain first, no backend dependency.`,
+    shortDescription: `Aptos bond — on-chain first, no backend dependency. Fees are %5 for this bond`,
     fullDescription: `Aptos bond operating in on-chain first mode. All market data (prices, discounts, vesting) is read directly from Move view functions. No api-v2 or realtime-api dependency.`,
   },
   //
