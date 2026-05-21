@@ -139,6 +139,53 @@
     "vestingCliff": 300
   },
   {
+    "index": 23003,
+    "version": "2.1.0",
+    "chainId": 7566697,
+    "contractAddress": {
+      "7566697": "0xb94967b71f8a9f1272e38359cc0d15dee668f71f7ed19bebfe8765f6fc43dc65"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "7566697": "0xa1ec7fc00a6f40db9693ad1415d0c193ad3906494428cf252621037bd7117e29::usdc::USDC"
+      },
+      "decimals": {
+        "7566697": 6
+      },
+      "liquidityDex": {
+        "7566697": "External"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "SUI",
+      "address": {
+        "7566697": "0x2::sui::SUI"
+      },
+      "decimals": {
+        "7566697": 9
+      },
+      "liquidityDex": {
+        "7566697": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "7566697": "0x6254e394ab73f4688c2254565f04efEEa1381bFE"
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["SUI"],
+    "shortDescription": "%0 fee + 5 days cliff",
+    "fullDescription": "TEST SUI BOND 2",
+    "vestingCliff": 432000
+  },
+  {
     "index": 22001,
     "version": "2.1.0",
     "chainId": 6385780,
