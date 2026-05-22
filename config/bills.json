@@ -4305,7 +4305,7 @@
       "8453": 1764929022
     },
     "soldOut": false,
-    "hide": false,
+    "hide": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
