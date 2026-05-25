@@ -237,6 +237,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       id: 'astra-nova',
       tokenAddress: '0x80563Fc2dd549bf36f82d3bF3b970Bb5b08dBDdb',
     },
+    '0xE7E7E741C23a4767831A56A8C99F522c5aC1E7E7': {
+      name: 'Everything',
+      symbol: 'EV',
+      decimals: 18,
+      source: PriceSource.Coingecko,
+      id: 'everything',
+      tokenAddress: '0xE7E7E741C23a4767831A56A8C99F522c5aC1E7E7',
+    },
     '0x3766D84e043d4672e788f0AeB17511Ac7A84a5Eb': {
       name: 'CAM Integration Test Token',
       symbol: 'CAMTEST',
