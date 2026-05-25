@@ -4597,6 +4597,19 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: LiquidityDex.External,
     },
   },
+  ev: {
+    symbol: 'EV',
+    address: {
+      [ChainId.BSC]: '0xE7E7E741C23a4767831A56A8C99F522c5aC1E7E7',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.External,
+    },
+  },
   qorpo: {
     symbol: 'QORPO',
     address: {
