@@ -43,14 +43,14 @@ const bills: BillsConfig[] = [
     version: '2.1.0',
     chainId: ChainId.SUI,
     contractAddress: {
-      [ChainId.SUI]: '0x736b12618e314b4c542972586723283c97975f1cd1265cc1f196f60d3f447f1e',
+      [ChainId.SUI]: '0x122cc06b29ad424acfc06fe26649a4eb71629aabb3b9a208124ea988e9992e48',
     },
     billType: 'reserve',
     billVersion: BillVersion.V4,
     lpToken: tokens.usdc,
     earnToken: tokens.sui,
     billNnftAddress: {
-      [ChainId.SUI]: '0x6254e394ab73f4688c2254565f04efEEa1381bFE',
+      [ChainId.SUI]: '0x7bb0d85f9d50c8d18b1b4bff4b68e5470cb0c2d14475ed9886a33187e9d04626',
     },
     // projectLink: 'https://qlabs.tech/',
     // twitter: 'https://x.com/qlabsofficial',
@@ -59,9 +59,9 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    tags: ['SUI'],
-    shortDescription: `TEST SUI BOND %0 fee`,
-    fullDescription: `TEST SUI BOND`,
+    tags: ['SUI MAINET'],
+    shortDescription: `SUI MAINET. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
+    fullDescription: `SUI MAINET. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
   },
   //
   // APTOS - NOTE we'll use MAINNET flag even tho we are still on testnet to simplify things up
