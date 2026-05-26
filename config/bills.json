@@ -3883,7 +3883,7 @@
     "initTime": {
       "8453": 1778490716
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -4489,7 +4489,7 @@
       "8453": 1764929022
     },
     "soldOut": false,
-    "hide": false,
+    "hide": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -10840,6 +10840,119 @@
     "cgId": "metavault-trade"
   },
   {
+    "index": 1220,
+    "cmcId": 39394,
+    "version": "2.1.0",
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0xD368b9C1f829cEd001970831eB6AE18D19C3A95B"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "56": "0x55d398326f99059fF775485246999027B3197955"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "EV",
+      "address": {
+        "56": "0xE7E7E741C23a4767831A56A8C99F522c5aC1E7E7"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "56": "External"
+      }
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "projectLink": "https://everything.inc/",
+    "twitter": "https://x.com/every_thing",
+    "initTime": {
+      "56": 1779743773
+    },
+    "soldOut": false,
+    "hide": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["DeFi"],
+    "shortDescription": "EVERYTHING brings an elegant and self-governing solution for minting, swapping, borrowing, lending, and margin trading through a single liquidity pool managed by one smart contract. Built with an oracleless and fully onchain architecture, the protocol is designed to solve DeFi fragmentation while maximizing capital efficiency across the ecosystem.",
+    "fullDescription": "EVERYTHING is an oracleless DeFi infrastructure protocol designed to unify multiple financial primitives within a single onchain liquidity system. Instead of separating swaps, lending, leverage, and liquidity across fragmented protocols, EVERYTHING combines them into one shared liquidity pool governed by a single smart contract, allowing capital to be utilized more efficiently across the ecosystem. Built by the team behind SmarDex and backed by years of professional market-making experience, the protocol uses deterministic onchain mechanics rather than external price oracles, reducing systemic risks while improving transparency and scalability. Alongside its core infrastructure, EVERYTHING is also expanding into AI-powered trading tools and analytics, creating an ecosystem focused on capital efficiency, autonomous trading infrastructure, and next-generation DeFi execution.",
+    "clickUpId": "86ahp800k",
+    "cgId": "everything"
+  },
+  {
+    "index": 1219,
+    "cmcId": 29157,
+    "version": "2.1.0",
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0x7C4bEE4d07a7Ec25973FcABA7169C10DFB96AC2D"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "56": "0x55d398326f99059fF775485246999027B3197955"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "oABOND",
+      "address": {
+        "56": "0xBdB4cb0aC14eE8D4f6063E5E74054499FbD78dA8"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "projectLink": "https://ape.bond/",
+    "twitter": "https://x.com/apebond",
+    "audit": "https://paladinsec.co/projects/apebond/",
+    "initTime": {
+      "56": 1779722907
+    },
+    "soldOut": false,
+    "hide": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["Bonding"],
+    "shortDescription": "Step into the full ApeBond experience with veABOND, the gateway to real yield and premium perks. By locking ABOND, you can gain access to better Bond discounts, a share in protocol revenue paid weekly in USDT, exclusive deals, and other benefits. veABOND is built for long-term ApeBond believers.",
+    "fullDescription": "ApeBond is a decentralized, permissionless platform designed to connect users and projects through an efficient bonding mechanism. Users can acquire tokens at a discounted rate, with those tokens vesting gradually over a set period. This creates a win-win system where users benefit from lower entry prices, while projects gain long-term, protocol-owned liquidity and strengthen their treasury in a sustainable way. veABOND is the gateway to real yield and premium perks. By locking ABOND, you can gain access to better Bond discounts, a share in protocol revenue paid weekly in USDT, exclusive deals, and other benefits. veABOND is built for long-term ApeBond believers.",
+    "warningCard": "oABOND is ABOND's option token, redeemable 1:1 for veABOND at permalock.",
+    "clickUpId": "",
+    "cgId": "abond",
+    "vestingCliff": 432000
+  },
+  {
     "index": 1218,
     "cmcId": 29157,
     "version": "2.1.0",
@@ -10884,7 +10997,7 @@
     "initTime": {
       "56": 1777626157
     },
-    "soldOut": false,
+    "soldOut": true,
     "hide": false,
     "billArt": {
       "collection": "ApeBond_Collection1"
@@ -40230,7 +40343,7 @@
     "initTime": {
       "1": 1778493566
     },
-    "soldOut": false,
+    "soldOut": true,
     "hide": false,
     "billArt": {
       "collection": "ETH_Collection1"
