@@ -1142,16 +1142,16 @@
       "name": "USDC",
       "symbol": "USDC",
       "decimals": 6,
-      "source": "fixed",
-      "price": 1,
+      "source": "dexscreener",
+      "type": "token",
       "tokenAddress": "0xa1ec7fc00a6f40db9693ad1415d0c193ad3906494428cf252621037bd7117e29::usdc::USDC"
     },
     "0x2::sui::SUI": {
       "name": "Sui",
       "symbol": "SUI",
       "decimals": 9,
-      "source": "fixed",
-      "price": 1,
+      "source": "dexscreener",
+      "type": "token",
       "tokenAddress": "0x2::sui::SUI"
     }
   }
