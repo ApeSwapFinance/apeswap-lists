@@ -2376,7 +2376,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MONAD]: '0x754704Bc059F8C67012fEd69BC8A327a5aafb603',
       [ChainId.HYPEREVM]: '0xb88339CB7199b77E23DB6E890353E22632Ba630f',
       [ChainId.APTOS]: '0xdd4a1ddfd09d918e8ade20a85b854f178424be70951d928f82ab1d182d57b4f2',
-      [ChainId.SUI]: '0xa1ec7fc00a6f40db9693ad1415d0c193ad3906494428cf252621037bd7117e29::usdc::USDC',
+      [ChainId.SUI]: '0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC',
     },
     decimals: {
       [ChainId.BSC]: 18,
