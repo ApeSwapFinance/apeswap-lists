@@ -43,7 +43,7 @@ const bills: BillsConfig[] = [
     version: '2.1.0',
     chainId: ChainId.SUI,
     contractAddress: {
-      [ChainId.SUI]: '0x122cc06b29ad424acfc06fe26649a4eb71629aabb3b9a208124ea988e9992e48',
+      [ChainId.SUI]: '0x36be32e118f8874a84331e2794f0d31c1ea7423f0ded2b4981b6b715cfe3d512',
     },
     billType: 'reserve',
     billVersion: BillVersion.V4,
