@@ -226,6 +226,14 @@
       "id": "astra-nova",
       "tokenAddress": "0x80563Fc2dd549bf36f82d3bF3b970Bb5b08dBDdb"
     },
+    "0xE7E7E741C23a4767831A56A8C99F522c5aC1E7E7": {
+      "name": "Everything",
+      "symbol": "EV",
+      "decimals": 18,
+      "source": "coingecko",
+      "id": "everything",
+      "tokenAddress": "0xE7E7E741C23a4767831A56A8C99F522c5aC1E7E7"
+    },
     "0x3766D84e043d4672e788f0AeB17511Ac7A84a5Eb": {
       "name": "CAM Integration Test Token",
       "symbol": "CAMTEST",
@@ -445,6 +453,32 @@
       "source": "coingecko",
       "id": "ethereum",
       "tokenAddress": "0xbeED106D0f2e6950BFa1Eec74E1253CA0a643442"
+    }
+  },
+  "964": {
+    "0x3F2c5460bF575cFa8e3299f643645c91cAb6F565": {
+      "name": "Targon",
+      "symbol": "TARGON",
+      "decimals": 18,
+      "source": "coingecko",
+      "id": "targon",
+      "tokenAddress": "0x3F2c5460bF575cFa8e3299f643645c91cAb6F565"
+    },
+    "0x30B5F838d479EC994793e576c9463B53B9a8E277": {
+      "name": "Staking",
+      "symbol": "STAKE",
+      "decimals": 18,
+      "source": "coingecko",
+      "id": "staking-2",
+      "tokenAddress": "0x30B5F838d479EC994793e576c9463B53B9a8E277"
+    },
+    "0x0000000000000000000000000000000000000030": {
+      "name": "Bettensor",
+      "symbol": "BETS",
+      "decimals": 18,
+      "source": "coingecko",
+      "id": "bettensor",
+      "tokenAddress": "0x0000000000000000000000000000000000000030"
     }
   },
   "999": {
@@ -1108,16 +1142,16 @@
       "name": "USDC",
       "symbol": "USDC",
       "decimals": 6,
-      "source": "fixed",
-      "price": 1,
+      "source": "dexscreener",
+      "type": "token",
       "tokenAddress": "0xa1ec7fc00a6f40db9693ad1415d0c193ad3906494428cf252621037bd7117e29::usdc::USDC"
     },
     "0x2::sui::SUI": {
       "name": "Sui",
       "symbol": "SUI",
       "decimals": 9,
-      "source": "fixed",
-      "price": 1,
+      "source": "dexscreener",
+      "type": "token",
       "tokenAddress": "0x2::sui::SUI"
     }
   }
