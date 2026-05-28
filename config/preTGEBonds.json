@@ -493,7 +493,8 @@
         "43114": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
         "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
         "747474": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2",
-        "7565164": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
+        "7565164": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+        "7566697": "0xc060006111016b8a020ad5b33834984a437aaa7d3c74c18e09a95d48aceab08c::coin::COIN"
       },
       "decimals": {
         "1": 6,
@@ -512,7 +513,8 @@
         "43114": 6,
         "59144": 6,
         "747474": 6,
-        "7565164": 6
+        "7565164": 6,
+        "7566697": 6
       },
       "liquidityDex": {
         "1": "UniswapV2",
@@ -529,7 +531,8 @@
         "43114": "External",
         "59144": "Nile",
         "747474": "External",
-        "7565164": "External"
+        "7565164": "External",
+        "7566697": "External"
       },
       "active": true
     },

@@ -236,7 +236,8 @@
       "42161": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
       "43114": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
       "59144": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
-      "7565164": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
+      "7565164": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "7566697": "0xc060006111016b8a020ad5b33834984a437aaa7d3c74c18e09a95d48aceab08c::coin::COIN"
     },
     "decimals": {
       "1": 6,
@@ -249,7 +250,8 @@
       "42161": 6,
       "43114": 6,
       "59144": 6,
-      "7565164": 6
+      "7565164": 6,
+      "7566697": 6
     },
     "active": true,
     "liquidityDex": {
@@ -263,7 +265,8 @@
       "42161": "UniswapV3",
       "43114": "External",
       "59144": "Nile",
-      "7565164": "External"
+      "7565164": "External",
+      "7566697": "External"
     }
   },
   "block": {
@@ -721,7 +724,8 @@
       "59144": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f",
       "80094": "0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590",
       "81457": "0x4300000000000000000000000000000000000004",
-      "7565164": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs"
+      "7565164": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs",
+      "7566697": "0xaf8cd5edc19c4512f4259f0bee101a40d41ebed738ade5874359610ef8eeced5::coin::COIN"
     },
     "decimals": {
       "1": 18,
@@ -736,7 +740,8 @@
       "59144": 18,
       "80094": 18,
       "81457": 18,
-      "7565164": 8
+      "7565164": 8,
+      "7566697": 8
     },
     "active": true,
     "liquidityDex": {
@@ -752,7 +757,8 @@
       "59144": "Lynex",
       "80094": "KodiakV3",
       "81457": "ThrusterV3",
-      "7565164": "External"
+      "7565164": "External",
+      "7566697": "External"
     }
   },
   "glq": {
