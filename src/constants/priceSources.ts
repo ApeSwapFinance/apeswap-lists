@@ -1273,6 +1273,22 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       type: 'token',
       tokenAddress: '0x2::sui::SUI',
     },
+    '0xc060006111016b8a020ad5b33834984a437aaa7d3c74c18e09a95d48aceab08c::coin::COIN': {
+      name: 'USDT',
+      symbol: 'USDT',
+      decimals: 6,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '0xc060006111016b8a020ad5b33834984a437aaa7d3c74c18e09a95d48aceab08c::coin::COIN',
+    },
+    '0xaf8cd5edc19c4512f4259f0bee101a40d41ebed738ade5874359610ef8eeced5::coin::COIN': {
+      name: 'WETH',
+      symbol: 'WETH',
+      decimals: 8,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '0xaf8cd5edc19c4512f4259f0bee101a40d41ebed738ade5874359610ef8eeced5::coin::COIN',
+    },
   },
 }
 

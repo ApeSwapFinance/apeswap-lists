@@ -31,8 +31,104 @@ import {
 // UNICHAIN Largest ID: 19001
 // AVAX Largest ID: 20001
 // HYPEREVM Largest ID: 21000
+// APTOS Largest ID: 22000
+// SUI Largest ID: 23000
 
 const bills: BillsConfig[] = [
+  //
+  // SUI
+  //
+  // {
+  //   index: 23000,
+  //   version: '2.1.0',
+  //   chainId: ChainId.SUI,
+  //   contractAddress: {
+  //     [ChainId.SUI]: '0x36be32e118f8874a84331e2794f0d31c1ea7423f0ded2b4981b6b715cfe3d512',
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V4,
+  //   lpToken: tokens.usdc,
+  //   earnToken: tokens.sui,
+  //   billNnftAddress: {
+  //     [ChainId.SUI]: '0x7bb0d85f9d50c8d18b1b4bff4b68e5470cb0c2d14475ed9886a33187e9d04626',
+  //   },
+  //   soldOut: false,
+  //   billArt: {
+  //     collection: BillArtCollection.ApeBond_Collection1,
+  //   },
+  //   tags: ['SUI MAINET'],
+  //   shortDescription: `SUI MAINET. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
+  //   fullDescription: `SUI MAINET. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
+  // },
+  //
+  // APTOS - NOTE this is still devnet
+  //
+  // {
+  //   index: 22001,
+  //   version: '2.1.0',
+  //   chainId: ChainId.APTOS,
+  //   contractAddress: {
+  //     [ChainId.APTOS]: '0x9902fa5b2fac9d6665f1f94b66ac72709d63d38b494973089f55de5f11af12da',
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V4,
+  //   lpToken: tokens.apt,
+  //   earnToken: tokens.tape,
+  //   billNnftAddress: {
+  //     [ChainId.APTOS]: '0x6254e394ab73f4688c2254565f04efEEa1381bFE',
+  //   },
+  //   soldOut: false,
+  //   billArt: {
+  //     collection: BillArtCollection.ApeBond_Collection1,
+  //   },
+  //   tags: ['APTOS'],
+  //   shortDescription: `Aptos bond — on-chain first, no backend dependency.`,
+  //   fullDescription: `Aptos bond operating in on-chain first mode. All market data (prices, discounts, vesting) is read directly from Move view functions. No api-v2 or realtime-api dependency.`,
+  // },
+  // {
+  //   index: 22002,
+  //   version: '2.1.0',
+  //   chainId: ChainId.APTOS,
+  //   contractAddress: {
+  //     [ChainId.APTOS]: '0xd5b8002990de9cb9de9a6104d51f1d142c66604d7fdc2f38afc01cccc269076f',
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V4,
+  //   lpToken: tokens.apt,
+  //   earnToken: tokens.tape,
+  //   billNnftAddress: {
+  //     [ChainId.APTOS]: '0x6254e394ab73f4688c2254565f04efEEa1381bFE',
+  //   },
+  //   soldOut: false,
+  //   billArt: {
+  //     collection: BillArtCollection.ApeBond_Collection1,
+  //   },
+  //   tags: ['APTOS'],
+  //   shortDescription: `Aptos bond — on-chain first, no backend dependency.`,
+  //   fullDescription: `Aptos bond operating in on-chain first mode. All market data (prices, discounts, vesting) is read directly from Move view functions. No api-v2 or realtime-api dependency.`,
+  // },
+  // {
+  //   index: 22003,
+  //   version: '2.1.0',
+  //   chainId: ChainId.APTOS,
+  //   contractAddress: {
+  //     [ChainId.APTOS]: '0x6f5ffdb09da42e2c86561c12d5ceb54838966bb62578d1051cb48159d25ed218',
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V4,
+  //   lpToken: tokens.apt,
+  //   earnToken: tokens.tape,
+  //   billNnftAddress: {
+  //     [ChainId.APTOS]: '0x6254e394ab73f4688c2254565f04efEEa1381bFE',
+  //   },
+  //   soldOut: false,
+  //   billArt: {
+  //     collection: BillArtCollection.ApeBond_Collection1,
+  //   },
+  //   tags: ['APTOS'],
+  //   shortDescription: `Aptos bond — on-chain first, no backend dependency.`,
+  //   fullDescription: `Aptos bond operating in on-chain first mode. All market data (prices, discounts, vesting) is read directly from Move view functions. No api-v2 or realtime-api dependency.`,
+  // },
   //
   // HYPEREVM
   //

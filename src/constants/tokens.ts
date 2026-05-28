@@ -2179,6 +2179,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MEGAETH_TESTNET]: '0x4eB2Bd7beE16F38B1F4a0A5796Fffd028b6040e9',
       [ChainId.SOL]: '7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs', //wormhole
       [ChainId.HYPEREVM]: '0xBe6727B535545C67d5cAa73dEa54865B92CF7907', // uETH
+      [ChainId.SUI]: '0xaf8cd5edc19c4512f4259f0bee101a40d41ebed738ade5874359610ef8eeced5::coin::COIN',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -2202,6 +2203,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MEGAETH_TESTNET]: 18,
       [ChainId.SOL]: 8,
       [ChainId.HYPEREVM]: 18, // uETH
+      [ChainId.SUI]: 8,
     },
     liquidityDex: {
       [ChainId.MAINNET]: LiquidityDex.UniswapV3,
@@ -2223,6 +2225,7 @@ const tokens: Record<string, Token> = {
       [ChainId.MEGAETH_TESTNET]: LiquidityDex.External,
       [ChainId.SOL]: LiquidityDex.External,
       [ChainId.HYPEREVM]: LiquidityDex.External,
+      [ChainId.SUI]: LiquidityDex.External,
     },
     active: true,
   },
@@ -3543,6 +3546,7 @@ const tokens: Record<string, Token> = {
       [ChainId.SOL]: 'Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB',
       [ChainId.AVAX]: '0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7',
       [ChainId.HYPEREVM]: '0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb', // USDT0
+      [ChainId.SUI]: '0xc060006111016b8a020ad5b33834984a437aaa7d3c74c18e09a95d48aceab08c::coin::COIN',
     },
     decimals: {
       [ChainId.MAINNET]: 6,
@@ -3562,6 +3566,7 @@ const tokens: Record<string, Token> = {
       [ChainId.SOL]: 6,
       [ChainId.AVAX]: 6,
       [ChainId.HYPEREVM]: 6,
+      [ChainId.SUI]: 6,
     },
     liquidityDex: {
       [ChainId.MAINNET]: LiquidityDex.UniswapV2,
@@ -3579,6 +3584,7 @@ const tokens: Record<string, Token> = {
       [ChainId.SOL]: LiquidityDex.External,
       [ChainId.AVAX]: LiquidityDex.External,
       [ChainId.HYPEREVM]: LiquidityDex.External,
+      [ChainId.SUI]: LiquidityDex.External,
     },
     active: true,
   },
