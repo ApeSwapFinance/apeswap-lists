@@ -1,5 +1,189 @@
 [
   {
+    "index": 23000,
+    "version": "2.1.0",
+    "chainId": 7566697,
+    "contractAddress": {
+      "7566697": "0x36be32e118f8874a84331e2794f0d31c1ea7423f0ded2b4981b6b715cfe3d512"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "7566697": "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC"
+      },
+      "decimals": {
+        "7566697": 6
+      },
+      "liquidityDex": {
+        "7566697": "External"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "SUI",
+      "address": {
+        "7566697": "0x2::sui::SUI"
+      },
+      "decimals": {
+        "7566697": 9
+      },
+      "liquidityDex": {
+        "7566697": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "7566697": "0x7bb0d85f9d50c8d18b1b4bff4b68e5470cb0c2d14475ed9886a33187e9d04626"
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["SUI MAINET"],
+    "shortDescription": "SUI MAINET. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "fullDescription": "SUI MAINET. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "index": 22001,
+    "version": "2.1.0",
+    "chainId": 6385780,
+    "contractAddress": {
+      "6385780": "0x9902fa5b2fac9d6665f1f94b66ac72709d63d38b494973089f55de5f11af12da"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "APT",
+      "address": {
+        "6385780": "0xa"
+      },
+      "decimals": {
+        "6385780": 8
+      },
+      "liquidityDex": {
+        "6385780": "External"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "tAPE",
+      "address": {
+        "6385780": "0xff27a471b7d44e2a8eae1b8693190d4322f4e28cd9a4dd9d8fff7ed74a47556e"
+      },
+      "decimals": {
+        "6385780": 8
+      },
+      "liquidityDex": {
+        "6385780": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "6385780": "0x6254e394ab73f4688c2254565f04efEEa1381bFE"
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["APTOS"],
+    "shortDescription": "Aptos bond — on-chain first, no backend dependency.",
+    "fullDescription": "Aptos bond operating in on-chain first mode. All market data (prices, discounts, vesting) is read directly from Move view functions. No api-v2 or realtime-api dependency."
+  },
+  {
+    "index": 22002,
+    "version": "2.1.0",
+    "chainId": 6385780,
+    "contractAddress": {
+      "6385780": "0xd5b8002990de9cb9de9a6104d51f1d142c66604d7fdc2f38afc01cccc269076f"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "APT",
+      "address": {
+        "6385780": "0xa"
+      },
+      "decimals": {
+        "6385780": 8
+      },
+      "liquidityDex": {
+        "6385780": "External"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "tAPE",
+      "address": {
+        "6385780": "0xff27a471b7d44e2a8eae1b8693190d4322f4e28cd9a4dd9d8fff7ed74a47556e"
+      },
+      "decimals": {
+        "6385780": 8
+      },
+      "liquidityDex": {
+        "6385780": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "6385780": "0x6254e394ab73f4688c2254565f04efEEa1381bFE"
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["APTOS"],
+    "shortDescription": "Aptos bond — on-chain first, no backend dependency.",
+    "fullDescription": "Aptos bond operating in on-chain first mode. All market data (prices, discounts, vesting) is read directly from Move view functions. No api-v2 or realtime-api dependency."
+  },
+  {
+    "index": 22003,
+    "version": "2.1.0",
+    "chainId": 6385780,
+    "contractAddress": {
+      "6385780": "0x6f5ffdb09da42e2c86561c12d5ceb54838966bb62578d1051cb48159d25ed218"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "APT",
+      "address": {
+        "6385780": "0xa"
+      },
+      "decimals": {
+        "6385780": 8
+      },
+      "liquidityDex": {
+        "6385780": "External"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "tAPE",
+      "address": {
+        "6385780": "0xff27a471b7d44e2a8eae1b8693190d4322f4e28cd9a4dd9d8fff7ed74a47556e"
+      },
+      "decimals": {
+        "6385780": 8
+      },
+      "liquidityDex": {
+        "6385780": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "6385780": "0x6254e394ab73f4688c2254565f04efEEa1381bFE"
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["APTOS"],
+    "shortDescription": "Aptos bond — on-chain first, no backend dependency.",
+    "fullDescription": "Aptos bond operating in on-chain first mode. All market data (prices, discounts, vesting) is read directly from Move view functions. No api-v2 or realtime-api dependency."
+  },
+  {
     "index": 21001,
     "cmcId": 39537,
     "version": "2.1.0",
