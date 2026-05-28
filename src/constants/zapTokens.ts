@@ -835,4 +835,24 @@ export const zapInputTokens: Partial<Record<ChainId, Token[]>> = {
       active: true,
     },
   ],
+  [ChainId.SUI]: [
+    {
+      symbol: 'USDC',
+      address: { [ChainId.SUI]: '0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC' },
+      decimals: { [ChainId.SUI]: 6 },
+      active: true,
+    },
+    {
+      symbol: 'USDT',
+      address: { [ChainId.SUI]: '0xc060006111016b8a020ad5b33834984a437aaa7d3c74c18e09a95d48aceab08c::coin::COIN' },
+      decimals: { [ChainId.SUI]: 6 },
+      active: true,
+    },
+    {
+      symbol: 'wETH',
+      address: { [ChainId.SUI]: '0xaf8cd5edc19c4512f4259f0bee101a40d41ebed738ade5874359610ef8eeced5::coin::COIN' },
+      decimals: { [ChainId.SUI]: 8 },
+      active: true,
+    },
+  ],
 }
