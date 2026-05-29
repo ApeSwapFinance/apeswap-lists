@@ -60,6 +60,28 @@ const bills: BillsConfig[] = [
     shortDescription: `SUI MAINET. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
     fullDescription: `SUI MAINET. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
   },
+  {
+    index: 23001,
+    version: '2.1.0',
+    chainId: ChainId.SUI,
+    contractAddress: {
+      [ChainId.SUI]: '0x6040e8a83771128e9b5f8f7a2607eca8890480e3a362ae181369e007ac71869e',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.sui,
+    billNnftAddress: {
+      [ChainId.SUI]: '0x7bb0d85f9d50c8d18b1b4bff4b68e5470cb0c2d14475ed9886a33187e9d04626',
+    },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['SUI MAINET'],
+    shortDescription: `SUI MAINET. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
+    fullDescription: `SUI MAINET. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
+  },
   //
   // APTOS - NOTE this is still devnet
   //
