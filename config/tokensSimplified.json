@@ -54,45 +54,6 @@
       "7566697": "External"
     }
   },
-  "sui": {
-    "symbol": "SUI",
-    "address": {
-      "7566697": "0x2::sui::SUI"
-    },
-    "decimals": {
-      "7566697": 9
-    },
-    "active": true,
-    "liquidityDex": {
-      "7566697": "External"
-    }
-  },
-  "apt": {
-    "symbol": "APT",
-    "address": {
-      "6385780": "0xa"
-    },
-    "decimals": {
-      "6385780": 8
-    },
-    "active": true,
-    "liquidityDex": {
-      "6385780": "External"
-    }
-  },
-  "tape": {
-    "symbol": "tAPE",
-    "address": {
-      "6385780": "0xff27a471b7d44e2a8eae1b8693190d4322f4e28cd9a4dd9d8fff7ed74a47556e"
-    },
-    "decimals": {
-      "6385780": 8
-    },
-    "active": true,
-    "liquidityDex": {
-      "6385780": "External"
-    }
-  },
   "qone": {
     "symbol": "QONE",
     "address": {
