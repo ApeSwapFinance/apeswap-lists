@@ -21411,7 +21411,7 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://www.units.network/',
     twitter: 'https://x.com/UnitsNetwork',
     initTime: { [ChainId.MAINNET]: 1775470276 },
-    soldOut: false,
+    soldOut: true,
     hide: false,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,

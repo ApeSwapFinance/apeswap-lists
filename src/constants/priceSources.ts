@@ -1271,7 +1271,7 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       decimals: 9,
       source: PriceSource.Dexscreener,
       type: 'token',
-      tokenAddress: '0x2::sui::SUI',
+      tokenAddress: '0x0000000000000000000000000000000000000000000000000000000000000002::sui::SUI',
     },
     '0xc060006111016b8a020ad5b33834984a437aaa7d3c74c18e09a95d48aceab08c::coin::COIN': {
       name: 'USDT',
