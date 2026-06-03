@@ -38,6 +38,33 @@ const bills: BillsConfig[] = [
   //
   // SUI Mainnet
   //
+  {
+    index: 23000,
+    cmcId: 39537,
+    version: '2.1.0',
+    chainId: ChainId.SUI,
+    contractAddress: {
+      [ChainId.SUI]: '0xe4d5dbf5012ee5fd769372d498f5dd153d5ce27416a59d5d909aa9395790eae8',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.sui,
+    billNnftAddress: {
+      [ChainId.SUI]: '0x7bb0d85f9d50c8d18b1b4bff4b68e5470cb0c2d14475ed9886a33187e9d04626',
+    },
+    projectLink: 'https://qlabs.tech/',
+    twitter: 'https://x.com/qlabsofficial',
+    initTime: { [ChainId.SUI]: 1770745754 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription: `QLabs is the world’s first quantum-native crypto foundation, securing Web3 against the coming threat of quantum computing. As Q-Day approaches and current blockchain cryptography becomes vulnerable, QLabs builds open, quantum-resistant infrastructure that protects assets without changing chains or disrupting user experience. This next-generation security layer is powered by the QONE token.`,
+    fullDescription: `QLabs is the world’s first quantum-native crypto foundation, focused on protecting Web3 from the coming era of quantum computing. As Q-Day approaches, the moment when quantum computers can break the cryptography securing most blockchains, trillions of dollars in digital assets remain exposed, while major tech leaders already migrate to quantum-resistant standards. QLabs addresses this gap by building open, auditable, quantum-resistant infrastructure that secures crypto assets without changing chains, disrupting user experience, or requiring asset migration. Its technology applies quantum-resistant signatures and zero-knowledge proof systems, built on NIST-approved post-quantum cryptography, to protect legacy and future chains alike. Designed to secure over $100Bn in digital assets by 2028, QLabs delivers the next critical security upgrade for crypto, powered by the QONE token.`,
+    clickUpId: '86aewafqb',
+  },
 
   //
   // APTOS - NOTE this is still devnet

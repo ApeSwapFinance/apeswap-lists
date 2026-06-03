@@ -54,6 +54,19 @@
       "7566697": "External"
     }
   },
+  "sui": {
+    "symbol": "SUI",
+    "address": {
+      "7566697": "0x2::sui::SUI"
+    },
+    "decimals": {
+      "7566697": 9
+    },
+    "active": true,
+    "liquidityDex": {
+      "7566697": "External"
+    }
+  },
   "qone": {
     "symbol": "QONE",
     "address": {
@@ -6151,16 +6164,6 @@
     },
     "decimals": {
       "80094": 18
-    },
-    "active": true
-  },
-  "sui": {
-    "symbol": "SUI",
-    "address": {
-      "7566697": "0x2::sui::SUI"
-    },
-    "decimals": {
-      "7566697": 9
     },
     "active": true
   },
