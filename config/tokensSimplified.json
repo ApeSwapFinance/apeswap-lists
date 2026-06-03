@@ -1776,10 +1776,10 @@
       "59144": "Metavault"
     }
   },
-  "ev": {
-    "symbol": "EV",
+  "oabond": {
+    "symbol": "oABOND",
     "address": {
-      "56": "0xE7E7E741C23a4767831A56A8C99F522c5aC1E7E7"
+      "56": "0xBdB4cb0aC14eE8D4f6063E5E74054499FbD78dA8"
     },
     "decimals": {
       "56": 18
@@ -1789,10 +1789,10 @@
       "56": "External"
     }
   },
-  "oabond": {
-    "symbol": "oABOND",
+  "ev": {
+    "symbol": "EV",
     "address": {
-      "56": "0xBdB4cb0aC14eE8D4f6063E5E74054499FbD78dA8"
+      "56": "0xE7E7E741C23a4767831A56A8C99F522c5aC1E7E7"
     },
     "decimals": {
       "56": 18
