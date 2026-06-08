@@ -142,6 +142,7 @@ const preTGEBonds: PreTGEConfig[] = [
     tgePrice: 1,
     // twitter: 'https://x.com/AirasNetwork',
     // projectLink: 'https://www.airas.com/',
+    yieldBond: true,
   },
 ]
 

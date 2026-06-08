@@ -414,6 +414,7 @@ export interface PreTGEConfig extends BaseBondConfig {
   tgePrice?: number // price at TGE
   airdropBonus?: number
   airdropTooltip?: string
+  yieldBond?: boolean
 }
 
 // Start of list types
