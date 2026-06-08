@@ -139,7 +139,7 @@ const preTGEBonds: PreTGEConfig[] = [
     soldOut: false,
     billArt: { collection: BillArtCollection.ApeBond_Collection1 },
     redeemTime: 1780945200,
-    tgePrice: 1,
+    tgePrice: 1.5, // 1.5 for a 50% APR 1.25 for a 25% APR etc.
     // twitter: 'https://x.com/AirasNetwork',
     // projectLink: 'https://www.airas.com/',
     yieldBond: true,
