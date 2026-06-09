@@ -133,6 +133,7 @@ const preTGEBonds: PreTGEConfig[] = [
     billType: 'fcfs',
     lpToken: tokens.usdc,
     earnToken: tokens.mvs,
+    underlyingEarnToken: tokens.mva,
     billNnftAddress: {
       [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
     },

@@ -34,6 +34,20 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  mva: {
+    // TODO: remove this test token
+    symbol: 'MVA',
+    address: {
+      [ChainId.BSC]: '0xfD1Ed991618F70aaAf564ed79B46D3C269be491B',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.External,
+    },
+    active: true,
+  },
   sui: {
     symbol: 'SUI',
     address: {

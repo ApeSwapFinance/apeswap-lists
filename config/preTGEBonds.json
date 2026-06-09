@@ -660,6 +660,19 @@
       },
       "active": true
     },
+    "underlyingEarnToken": {
+      "symbol": "MVA",
+      "address": {
+        "56": "0xfD1Ed991618F70aaAf564ed79B46D3C269be491B"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "External"
+      },
+      "active": true
+    },
     "billNnftAddress": {
       "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
     },
