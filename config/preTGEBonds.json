@@ -565,7 +565,7 @@
     "shortDescription": "boca bocaaaaaaa",
     "tags": ["yield bond"],
     "contractAddress": {
-      "56": "0xD30e0fDf2e62D4594a2ab39a2B7BA1e7819391B6"
+      "56": "0x26d8ea9Ae8328cF744f4b0E56De356BA747c2Af4"
     },
     "billVersion": "TieredSale",
     "billType": "fcfs",
@@ -648,26 +648,20 @@
       "active": true
     },
     "earnToken": {
-      "symbol": "ABOND",
+      "symbol": "MVS",
       "address": {
-        "1": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
-        "56": "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
-        "137": "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
+        "56": "0xf5079c2eaf17d793d688b039ea83074b8e888264"
       },
       "decimals": {
-        "1": 18,
-        "56": 18,
-        "137": 18
+        "56": 18
       },
       "liquidityDex": {
-        "1": "UniswapV3",
-        "56": "Algebra",
-        "137": "QuickswapV2"
+        "56": "External"
       },
       "active": true
     },
     "billNnftAddress": {
-      "1": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
     },
     "soldOut": false,
     "billArt": {
