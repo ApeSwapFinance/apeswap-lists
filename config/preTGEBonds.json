@@ -669,6 +669,9 @@
     },
     "redeemTime": 1781019900,
     "tgePrice": 1,
-    "yieldBond": true
+    "yieldBond": true,
+    "startAPR": 20,
+    "endAPR": 100,
+    "finalAPR": 80
   }
 ]

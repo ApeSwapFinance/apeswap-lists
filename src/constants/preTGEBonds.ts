@@ -143,6 +143,9 @@ const preTGEBonds: PreTGEConfig[] = [
     // twitter: 'https://x.com/AirasNetwork',
     // projectLink: 'https://www.airas.com/',
     yieldBond: true,
+    startAPR: 20,
+    endAPR: 100,
+    finalAPR: 80,
   },
 ]
 

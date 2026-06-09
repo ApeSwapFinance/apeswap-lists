@@ -415,6 +415,9 @@ export interface PreTGEConfig extends BaseBondConfig {
   airdropBonus?: number
   airdropTooltip?: string
   yieldBond?: boolean
+  startAPR?: number // human number. E.G. 20% should be 20
+  endAPR?: number // human number
+  finalAPR?: number // human number
 }
 
 // Start of list types
