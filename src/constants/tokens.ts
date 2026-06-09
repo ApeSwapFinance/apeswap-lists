@@ -20,6 +20,20 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  mvs: {
+    // TODO: remove this test token
+    symbol: 'MVS',
+    address: {
+      [ChainId.BSC]: '0xf5079c2eaf17d793d688b039ea83074b8e888264',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.External,
+    },
+    active: true,
+  },
   sui: {
     symbol: 'SUI',
     address: {
