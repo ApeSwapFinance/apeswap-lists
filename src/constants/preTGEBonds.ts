@@ -139,14 +139,14 @@ const preTGEBonds: PreTGEConfig[] = [
     },
     soldOut: false,
     billArt: { collection: BillArtCollection.ApeBond_Collection1 },
-    redeemTime: 1781019900,
-    tgePrice: 1,
+    redeemTime: 1781019900, // this is the time when rewards will be added to the vault and the sale will be finalized. Let's keep this up-to-date so that users have viz on when the rewards are added
+    tgePrice: 1, // check with doublo if this can be 1:1 principal:payout
     // twitter: 'https://x.com/AirasNetwork',
     // projectLink: 'https://www.airas.com/',
     yieldBond: true,
-    startAPR: 20,
+    startAPR: 20, // grows linearly as the sale ends
     endAPR: 100,
-    // finalAPR: 80,
+    // finalAPR: 80, // if the sale soldouts
   },
 ]
 
