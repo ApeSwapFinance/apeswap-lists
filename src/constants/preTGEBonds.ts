@@ -128,7 +128,7 @@ const preTGEBonds: PreTGEConfig[] = [
     // tgeString: 'June 2nd',
     shortDescription: 'boca bocaaaaaaa',
     tags: ['yield bond'],
-    contractAddress: { [ChainId.BSC]: '0x62FAD4D9785cb8ca12F965020de4f79A2F3b7d39' },
+    contractAddress: { [ChainId.BSC]: '0xAbE73d9880AfF3D5AF3FC2cdEf2Eeb4156dFF653' },
     billVersion: BillVersion.TieredSale,
     billType: 'fcfs',
     lpToken: tokens.usdc,
@@ -146,7 +146,7 @@ const preTGEBonds: PreTGEConfig[] = [
     yieldBond: true,
     startAPR: 20,
     endAPR: 100,
-    finalAPR: 80,
+    // finalAPR: 80,
   },
 ]
 

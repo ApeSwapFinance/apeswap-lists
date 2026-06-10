@@ -565,7 +565,7 @@
     "shortDescription": "boca bocaaaaaaa",
     "tags": ["yield bond"],
     "contractAddress": {
-      "56": "0x62FAD4D9785cb8ca12F965020de4f79A2F3b7d39"
+      "56": "0xAbE73d9880AfF3D5AF3FC2cdEf2Eeb4156dFF653"
     },
     "billVersion": "TieredSale",
     "billType": "fcfs",
@@ -684,7 +684,6 @@
     "tgePrice": 1,
     "yieldBond": true,
     "startAPR": 20,
-    "endAPR": 100,
-    "finalAPR": 80
+    "endAPR": 100
   }
 ]
