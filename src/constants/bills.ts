@@ -13,7 +13,7 @@ import {
 // Polygon Largest ID: 188
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2034
-// ETH Largest ID: 3080
+// ETH Largest ID: 3082
 // Linea Largest ID: 6020
 // Base Largest ID: 8101
 // Lightlink Largest ID: 7003
@@ -21551,6 +21551,38 @@ With the lending products set to go live in February, the project is poised to a
     fullDescription:
       'AITECH Cloud Network (ACN) is a modular AI ecosystem designed to provide the infrastructure and orchestration required for production-grade artificial intelligence systems. The ecosystem is built around two independent yet economically aligned layers: the ACN Compute Layer, which delivers scalable high-performance computing resources for AI workloads, rendering, and data processing, and Agent Forge, an orchestration framework focused on deploying and managing autonomous AI agents and workflows. Rather than relying on tightly coupled architecture, ACN allows both systems to evolve independently while remaining connected through a shared economic model where platform usage contributes to token supply reduction through real ecosystem activity. By combining scalable infrastructure, intelligent automation, and sustainable tokenomics, ACN aims to become a foundational layer for the next generation of AI-powered applications and services.',
     clickUpId: '86ahewvhn',
+    cgId: 'solidus-ai-tech',
+  },
+  {
+    index: 3082,
+    cmcId: 19055,
+    version: '2.1.0',
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0x6a01a582ef206673174ACdFcfB1A8b393C5eCd2B',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.acn,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    projectLink: 'https://aitech.io/',
+    twitter: 'https://x.com/AITECHio',
+    initTime: { [ChainId.MAINNET]: 1781119806 },
+    soldOut: false,
+    hide: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription:
+      'AITECH Cloud Network (ACN) is an AI-native ecosystem built to support real-world AI deployment at scale. Combining high-performance compute infrastructure with modular AI agent orchestration, ACN enables developers and enterprises to run, automate, and scale intelligent systems through an economically aligned and production-focused architecture.',
+    fullDescription:
+      'AITECH Cloud Network (ACN) is a modular AI ecosystem designed to provide the infrastructure and orchestration required for production-grade artificial intelligence systems. The ecosystem is built around two independent yet economically aligned layers: the ACN Compute Layer, which delivers scalable high-performance computing resources for AI workloads, rendering, and data processing, and Agent Forge, an orchestration framework focused on deploying and managing autonomous AI agents and workflows. Rather than relying on tightly coupled architecture, ACN allows both systems to evolve independently while remaining connected through a shared economic model where platform usage contributes to token supply reduction through real ecosystem activity. By combining scalable infrastructure, intelligent automation, and sustainable tokenomics, ACN aims to become a foundational layer for the next generation of AI-powered applications and services.',
+    clickUpId: '86ahzp745',
+    vestingCliff: 2592000, //30 days
     cgId: 'solidus-ai-tech',
   },
 ]
