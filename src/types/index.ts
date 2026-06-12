@@ -206,6 +206,7 @@ export enum Protocols {
   Curve = 9,
   AlgebraIntegral = 10,
 }
+
 export interface FarmStyles {
   deprecated: string
   warning: string
@@ -414,6 +415,13 @@ export interface PreTGEConfig extends BaseBondConfig {
   tgePrice?: number // price at TGE
   airdropBonus?: number
   airdropTooltip?: string
+
+  // Yield Bonds
+  yieldBond?: boolean
+  startAPR?: number // human number. E.G. 20% should be 20
+  endAPR?: number // human number
+  finalAPR?: number // human number
+  underlyingEarnToken?: Token
 }
 
 // Start of list types
