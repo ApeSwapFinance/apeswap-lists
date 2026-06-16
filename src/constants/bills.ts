@@ -2273,7 +2273,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://monstro.fun/',
     twitter: 'https://x.com/MonstroDefi',
     initTime: { [ChainId.BASE]: 1772017117 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
