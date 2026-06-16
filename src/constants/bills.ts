@@ -9,7 +9,7 @@ import {
   MigrationVestingTerms,
 } from '../types'
 
-// BNB Largest ID: 1222
+// BNB Largest ID: 1223
 // Polygon Largest ID: 188
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2034
@@ -5730,6 +5730,37 @@ const bills: BillsConfig[] = [
   // BNB chain
   //
   {
+    index: 1223,
+    cmcId: 39394,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x0B62Bd499CD80552B1f55C97FB27AC9E13bacC9a',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.ev,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://everything.inc/',
+    twitter: 'https://x.com/every_thing',
+    initTime: { [ChainId.BSC]: 1781613297 },
+    soldOut: false,
+    hide: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DeFi'],
+    shortDescription:
+      'EVERYTHING brings an elegant and self-governing solution for minting, swapping, borrowing, lending, and margin trading through a single liquidity pool managed by one smart contract. Built with an oracleless and fully onchain architecture, the protocol is designed to solve DeFi fragmentation while maximizing capital efficiency across the ecosystem.',
+    fullDescription:
+      'EVERYTHING is an oracleless DeFi infrastructure protocol designed to unify multiple financial primitives within a single onchain liquidity system. Instead of separating swaps, lending, leverage, and liquidity across fragmented protocols, EVERYTHING combines them into one shared liquidity pool governed by a single smart contract, allowing capital to be utilized more efficiently across the ecosystem. Built by the team behind SmarDex and backed by years of professional market-making experience, the protocol uses deterministic onchain mechanics rather than external price oracles, reducing systemic risks while improving transparency and scalability. Alongside its core infrastructure, EVERYTHING is also expanding into AI-powered trading tools and analytics, creating an ecosystem focused on capital efficiency, autonomous trading infrastructure, and next-generation DeFi execution.',
+    clickUpId: '86aj2dvn4',
+    cgId: 'everything',
+  },
+  {
     index: 1222,
     cmcId: 29157,
     version: '2.1.0',
@@ -5815,7 +5846,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://everything.inc/',
     twitter: 'https://x.com/every_thing',
     initTime: { [ChainId.BSC]: 1779743773 },
-    soldOut: false,
+    soldOut: true,
     hide: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -21605,7 +21636,7 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://aitech.io/',
     twitter: 'https://x.com/AITECHio',
     initTime: { [ChainId.MAINNET]: 1781119806 },
-    soldOut: false,
+    soldOut: true,
     hide: false,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,
