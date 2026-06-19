@@ -6067,6 +6067,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  susdt: {
+    symbol: 'SUSDT',
+    address: {
+      [ChainId.BSC]: '0x1f891D25A386e6F67ead37d9BFAf5C444213a134',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
   copi: {
     symbol: 'COPI',
     address: {
