@@ -1253,6 +1253,19 @@ const tokens: Record<string, Token> = {
       [ChainId.MAINNET]: LiquidityDex.UniswapV3,
     },
   },
+  ggbr: {
+    symbol: 'GGBR',
+    address: {
+      [ChainId.MAINNET]: '0x7e2ac793f3E692f388e66c7DC28F739d13B0B71A',
+    },
+    decimals: {
+      [ChainId.MAINNET]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV3,
+    },
+  },
   litas: {
     symbol: 'LITAS',
     address: {
