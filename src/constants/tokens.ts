@@ -24,13 +24,27 @@ const tokens: Record<string, Token> = {
     // TODO: remove this test token
     symbol: 'MVS',
     address: {
-      [ChainId.BSC]: '0xC4Af00EB52BF9D30cFF628969092912906AF97cd',
+      [ChainId.MAINNET]: '0x73C1a9D1A44145341b3726d584BBFeCbBa2Fa549',
     },
     decimals: {
-      [ChainId.BSC]: 18,
+      [ChainId.MAINNET]: 18,
     },
     liquidityDex: {
-      [ChainId.BSC]: LiquidityDex.External,
+      [ChainId.MAINNET]: LiquidityDex.External,
+    },
+    active: true,
+  },
+  mva: {
+    // TODO: remove this test token
+    symbol: 'MVA',
+    address: {
+      [ChainId.MAINNET]: '0x121e8D9984E4A78e4cF1dac9f5cDEb626086D3ac',
+    },
+    decimals: {
+      [ChainId.MAINNET]: 18,
+    },
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.External,
     },
     active: true,
   },
