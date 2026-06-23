@@ -21650,6 +21650,38 @@ With the lending products set to go live in February, the project is poised to a
     vestingCliff: 2592000, //30 days
     cgId: 'solidus-ai-tech',
   },
+  {
+    index: 3083,
+    cmcId: 39008,
+    version: '2.1.0',
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0xBA80C4bD8D297AAadF0Cf3Dbe65944ab0D24c258',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.ggbr,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    projectLink: 'https://goldfishgold.com/',
+    twitter: 'https://x.com/goldfishggbr',
+    initTime: { [ChainId.MAINNET]: 1782215237 },
+    soldOut: false,
+    hide: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['RWA'],
+    shortDescription:
+      'Goldfish (GGBR) is a commodity-backed stablecoin protocol that brings gold-backed value onchain through a transparent and legally structured framework. Each GGBR token represents 1/1000th of a troy ounce of gold, combining the stability of a proven store of value with the accessibility and efficiency of blockchain technology.',
+    fullDescription:
+      'Goldfish (GGBR) is a gold-backed stablecoin designed to bridge traditional financial markets and decentralized finance through a transparent, asset-backed model. Anchored to physical gold reserves and supported by a U.S. publicly traded company, the protocol provides users with digital exposure to one of the world`s most trusted stores of value while benefiting from the liquidity and accessibility of blockchain technology. By combining commodity-backed stability, public accountability, and a legally structured reserve framework, Goldfish aims to create a reliable foundation for wealth preservation, treasury management, and the growing adoption of real-world assets within the digital economy.',
+    clickUpId: '86aj4dmnn',
+    vestingCliff: 604800, //7 days
+    cgId: 'goldfish-gold',
+  },
 ]
 
 export default bills
