@@ -40451,5 +40451,61 @@
     "clickUpId": "86ahzp745",
     "vestingCliff": 2592000,
     "cgId": "solidus-ai-tech"
+  },
+  {
+    "index": 3083,
+    "cmcId": 39008,
+    "version": "2.1.0",
+    "chainId": 1,
+    "contractAddress": {
+      "1": "0xBA80C4bD8D297AAadF0Cf3Dbe65944ab0D24c258"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+      },
+      "decimals": {
+        "1": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "GGBR",
+      "address": {
+        "1": "0x7e2ac793f3E692f388e66c7DC28F739d13B0B71A"
+      },
+      "decimals": {
+        "1": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "1": "UniswapV3"
+      }
+    },
+    "billNnftAddress": {
+      "1": "0x499b654b0a7f9979cc315190c09ca2633809b8df"
+    },
+    "projectLink": "https://goldfishgold.com/",
+    "twitter": "https://x.com/goldfishggbr",
+    "initTime": {
+      "1": 1782215237
+    },
+    "soldOut": false,
+    "hide": false,
+    "billArt": {
+      "collection": "ETH_Collection1"
+    },
+    "tags": ["RWA"],
+    "shortDescription": "Goldfish (GGBR) is a commodity-backed stablecoin protocol that brings gold-backed value onchain through a transparent and legally structured framework. Each GGBR token represents 1/1000th of a troy ounce of gold, combining the stability of a proven store of value with the accessibility and efficiency of blockchain technology.",
+    "fullDescription": "Goldfish (GGBR) is a gold-backed stablecoin designed to bridge traditional financial markets and decentralized finance through a transparent, asset-backed model. Anchored to physical gold reserves and supported by a U.S. publicly traded company, the protocol provides users with digital exposure to one of the world`s most trusted stores of value while benefiting from the liquidity and accessibility of blockchain technology. By combining commodity-backed stability, public accountability, and a legally structured reserve framework, Goldfish aims to create a reliable foundation for wealth preservation, treasury management, and the growing adoption of real-world assets within the digital economy.",
+    "clickUpId": "86aj4dmnn",
+    "vestingCliff": 604800,
+    "cgId": "goldfish-gold"
   }
 ]
