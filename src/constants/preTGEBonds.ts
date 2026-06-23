@@ -120,34 +120,34 @@ const preTGEBonds: PreTGEConfig[] = [
     twitter: 'https://x.com/ChimpxAI',
     projectLink: 'https://chimpx.ai/',
   },
-  // {
-  //   version: '2.1.3',
-  //   index: 6,
-  //   chainId: ChainId.BSC,
-  //   // vestingTimeString: '10 Months',
-  //   // tgeString: 'June 2nd',
-  //   shortDescription: 'boca bocaaaaaaa',
-  //   tags: ['yield bond'],
-  //   contractAddress: { [ChainId.BSC]: '0xdABb6A1Ad05E4C4c99FB1b01D083A94D3F7FE4A4' },
-  //   billVersion: BillVersion.TieredSale,
-  //   billType: 'fcfs',
-  //   lpToken: tokens.usdc,
-  //   earnToken: tokens.mvs,
-  //   underlyingEarnToken: tokens.mva,
-  //   billNnftAddress: {
-  //     [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
-  //   },
-  //   soldOut: false,
-  //   billArt: { collection: BillArtCollection.ApeBond_Collection1 },
-  //   redeemTime: 1781019900, // this is the time when rewards will be added to the vault and the sale will be finalized. Let's keep this up-to-date so that users have viz on when the rewards are added
-  //   tgePrice: 1, // check with doublo if this can be 1:1 principal:payout
-  //   // twitter: 'https://x.com/AirasNetwork',
-  //   // projectLink: 'https://www.airas.com/',
-  //   yieldBond: true,
-  //   startAPR: 20, // grows linearly as the sale ends
-  //   endAPR: 100,
-  //   // finalAPR: 80, // if the sale soldouts
-  // },
+  {
+    version: '2.1.3',
+    index: 6,
+    chainId: ChainId.MAINNET,
+    // vestingTimeString: '10 Months',
+    // tgeString: 'June 2nd',
+    shortDescription: 'boca bocaaaaaaa',
+    tags: ['yield bond'],
+    contractAddress: { [ChainId.MAINNET]: '0x7F3c46859997932ebDac17F619CE064Ffa8d71E2' },
+    billVersion: BillVersion.TieredSale,
+    billType: 'fcfs',
+    lpToken: tokens.usdc,
+    earnToken: tokens.mvs,
+    underlyingEarnToken: tokens.mva,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0A7f9979CC315190C09cA2633809B8dF',
+    },
+    soldOut: false,
+    billArt: { collection: BillArtCollection.ApeBond_Collection1 },
+    redeemTime: 1782248400, // this is the time when rewards will be added to the vault and the sale will be finalized. Let's keep this up-to-date so that users have viz on when the rewards are added
+    tgePrice: 1, // check with doublo if this can be 1:1 principal:payout
+    // twitter: 'https://x.com/AirasNetwork',
+    // projectLink: 'https://www.airas.com/',
+    yieldBond: true,
+    startAPR: 20, // grows linearly as the sale ends
+    endAPR: 100,
+    // finalAPR: 80, // if the sale soldouts
+  },
 ]
 
 export default preTGEBonds

@@ -557,5 +557,133 @@
     "tgePrice": 0.6,
     "twitter": "https://x.com/ChimpxAI",
     "projectLink": "https://chimpx.ai/"
+  },
+  {
+    "version": "2.1.3",
+    "index": 6,
+    "chainId": 1,
+    "shortDescription": "boca bocaaaaaaa",
+    "tags": ["yield bond"],
+    "contractAddress": {
+      "1": "0x7F3c46859997932ebDac17F619CE064Ffa8d71E2"
+    },
+    "billVersion": "TieredSale",
+    "billType": "fcfs",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "40": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "56": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "130": "0x078D782b760474a361dDA0AF3839290b0EF57AD6",
+        "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+        "143": "0x754704Bc059F8C67012fEd69BC8A327a5aafb603",
+        "146": "0x29219dd400f2Bf60E5a23d13Be72B486D4038894",
+        "751": "0xD2ED81BE83B33218737Ca188EB9AC28b79C6A0F3",
+        "999": "0xb88339CB7199b77E23DB6E890353E22632Ba630f",
+        "1329": "0xe15fC38F6D8c56aF07bbCBe3BAf5708A2Bf42392",
+        "1890": "0x18fB38404DADeE1727Be4b805c5b242B5413Fa40",
+        "4158": "0x7bBcE15166bBc008EC1aDF9b3D6bbA0602FCE7Ba",
+        "8453": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+        "8822": "0xFbDa5F676cB37624f28265A144A48B0d6e87d3b6",
+        "10143": "0xf817257fed379853cDe0fa4F97AB987181B1E5Ea",
+        "42161": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+        "43114": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
+        "59144": "0x176211869cA2b568f2A7D4EE941E073a821EE1ff",
+        "80094": "0x549943e04f40284185054145c6E4e9568C1D3241",
+        "747474": "0x203A662b0BD271A6ed5a60EdFbd04bFce608FD36",
+        "6385780": "0xdd4a1ddfd09d918e8ade20a85b854f178424be70951d928f82ab1d182d57b4f2",
+        "7565164": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "7566697": "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC"
+      },
+      "decimals": {
+        "1": 6,
+        "40": 6,
+        "56": 18,
+        "130": 6,
+        "137": 6,
+        "143": 6,
+        "146": 6,
+        "751": 18,
+        "999": 6,
+        "1329": 6,
+        "1890": 6,
+        "4158": 6,
+        "8453": 6,
+        "8822": 6,
+        "10143": 6,
+        "42161": 6,
+        "43114": 6,
+        "59144": 6,
+        "80094": 6,
+        "747474": 6,
+        "6385780": 6,
+        "7565164": 6,
+        "7566697": 6
+      },
+      "liquidityDex": {
+        "1": "UniswapV3",
+        "56": "PancakeSwapV2",
+        "130": "External",
+        "137": "UniswapV3",
+        "143": "External",
+        "146": "External",
+        "751": "Citea",
+        "999": "External",
+        "1329": "External",
+        "1890": "Elektrik",
+        "4158": "XSwap",
+        "8453": "Aerodrome",
+        "8822": "MagicSea",
+        "10143": "PancakeSwapV2",
+        "42161": "UniswapV3",
+        "43114": "External",
+        "59144": "Nile",
+        "80094": "KodiakV3",
+        "747474": "External",
+        "6385780": "External",
+        "7565164": "External",
+        "7566697": "External"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "MVS",
+      "address": {
+        "1": "0x73C1a9D1A44145341b3726d584BBFeCbBa2Fa549"
+      },
+      "decimals": {
+        "1": 18
+      },
+      "liquidityDex": {
+        "1": "External"
+      },
+      "active": true
+    },
+    "underlyingEarnToken": {
+      "symbol": "MVA",
+      "address": {
+        "1": "0x121e8D9984E4A78e4cF1dac9f5cDEb626086D3ac"
+      },
+      "decimals": {
+        "1": 18
+      },
+      "liquidityDex": {
+        "1": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "1": "0x499b654b0A7f9979CC315190C09cA2633809B8dF"
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "redeemTime": 1782248400,
+    "tgePrice": 1,
+    "yieldBond": true,
+    "startAPR": 20,
+    "endAPR": 100
   }
 ]
