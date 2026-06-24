@@ -128,7 +128,7 @@ const preTGEBonds: PreTGEConfig[] = [
     // tgeString: 'June 2nd',
     shortDescription: 'boca bocaaaaaaa',
     tags: ['yield bond'],
-    contractAddress: { [ChainId.MAINNET]: '0x7F3c46859997932ebDac17F619CE064Ffa8d71E2' },
+    contractAddress: { [ChainId.MAINNET]: '0x7A0cbD1413d694ce2Dd16d9CCB322c2bD766858f' },
     billVersion: BillVersion.TieredSale,
     billType: 'fcfs',
     lpToken: tokens.usdc,
@@ -139,7 +139,7 @@ const preTGEBonds: PreTGEConfig[] = [
     },
     soldOut: false,
     billArt: { collection: BillArtCollection.ApeBond_Collection1 },
-    redeemTime: 1782248400, // this is the time when rewards will be added to the vault and the sale will be finalized. Let's keep this up-to-date so that users have viz on when the rewards are added
+    redeemTime: 1782334800, // this is the time when rewards will be added to the vault and the sale will be finalized. Let's keep this up-to-date so that users have viz on when the rewards are added
     tgePrice: 1, // check with doublo if this can be 1:1 principal:payout
     // twitter: 'https://x.com/AirasNetwork',
     // projectLink: 'https://www.airas.com/',
