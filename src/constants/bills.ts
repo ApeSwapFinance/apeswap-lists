@@ -2334,8 +2334,8 @@ const bills: BillsConfig[] = [
     projectLink: 'https://app.artura.finance/',
     twitter: 'https://x.com/arturafinance',
     initTime: { [ChainId.BASE]: 1764929022 },
-    soldOut: false,
-    hide: true,
+    soldOut: true,
+    hide: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
