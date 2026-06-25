@@ -565,7 +565,7 @@
     "shortDescription": "boca bocaaaaaaa",
     "tags": ["yield bond"],
     "contractAddress": {
-      "1": "0x7A0cbD1413d694ce2Dd16d9CCB322c2bD766858f"
+      "1": "0xCd7FF792ae8C3BF24CB75cFE6aF4eE5C7eC6629b"
     },
     "billVersion": "TieredSale",
     "billType": "fcfs",
@@ -680,7 +680,7 @@
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
-    "redeemTime": 1782334800,
+    "redeemTime": 1782421200,
     "tgePrice": 1,
     "yieldBond": true,
     "startAPR": 20,
