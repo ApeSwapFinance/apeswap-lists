@@ -64,7 +64,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://qlabs.tech/',
     twitter: 'https://x.com/qlabsofficial',
     initTime: { [ChainId.HYPEREVM]: 1770745754 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
