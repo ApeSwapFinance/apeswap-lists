@@ -9,11 +9,11 @@ import {
   MigrationVestingTerms,
 } from '../types'
 
-// BNB Largest ID: 1221
+// BNB Largest ID: 1223
 // Polygon Largest ID: 188
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2034
-// ETH Largest ID: 3080
+// ETH Largest ID: 3082
 // Linea Largest ID: 6020
 // Base Largest ID: 8101
 // Lightlink Largest ID: 7003
@@ -64,7 +64,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://qlabs.tech/',
     twitter: 'https://x.com/qlabsofficial',
     initTime: { [ChainId.HYPEREVM]: 1770745754 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -2273,7 +2273,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://monstro.fun/',
     twitter: 'https://x.com/MonstroDefi',
     initTime: { [ChainId.BASE]: 1772017117 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -2334,8 +2334,8 @@ const bills: BillsConfig[] = [
     projectLink: 'https://app.artura.finance/',
     twitter: 'https://x.com/arturafinance',
     initTime: { [ChainId.BASE]: 1764929022 },
-    soldOut: false,
-    hide: true,
+    soldOut: true,
+    hide: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -5730,6 +5730,105 @@ const bills: BillsConfig[] = [
   // BNB chain
   //
   {
+    index: 1224,
+    cmcId: 29157,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x8E7C1BdAbf801Ce1AAf0a68246108f0Abd43496D',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.oabond,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://ape.bond/',
+    twitter: 'https://x.com/apebond',
+    audit: 'https://paladinsec.co/projects/apebond/',
+    initTime: { [ChainId.BSC]: 1782478423 },
+    soldOut: false,
+    hide: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Bonding'],
+    shortDescription:
+      'Step into the full ApeBond experience with veABOND, the gateway to real yield and premium perks. By locking ABOND, you can gain access to better Bond discounts, a share in protocol revenue paid weekly in USDT, exclusive deals, and other benefits. veABOND is built for long-term ApeBond believers.',
+    fullDescription:
+      'ApeBond is a decentralized, permissionless platform designed to connect users and projects through an efficient bonding mechanism. Users can acquire tokens at a discounted rate, with those tokens vesting gradually over a set period. This creates a win-win system where users benefit from lower entry prices, while projects gain long-term, protocol-owned liquidity and strengthen their treasury in a sustainable way. veABOND is the gateway to real yield and premium perks. By locking ABOND, you can gain access to better Bond discounts, a share in protocol revenue paid weekly in USDT, exclusive deals, and other benefits. veABOND is built for long-term ApeBond believers.',
+    warningCard: `oABOND is ABOND's option token, redeemable 1:1 for veABOND at permalock.`,
+    clickUpId: '',
+    cgId: 'abond',
+    vestingCliff: 432000, // aka 5 days
+  },
+  {
+    index: 1223,
+    cmcId: 39394,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x0B62Bd499CD80552B1f55C97FB27AC9E13bacC9a',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.ev,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://everything.inc/',
+    twitter: 'https://x.com/every_thing',
+    initTime: { [ChainId.BSC]: 1781613297 },
+    soldOut: false,
+    hide: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DeFi'],
+    shortDescription:
+      'EVERYTHING brings an elegant and self-governing solution for minting, swapping, borrowing, lending, and margin trading through a single liquidity pool managed by one smart contract. Built with an oracleless and fully onchain architecture, the protocol is designed to solve DeFi fragmentation while maximizing capital efficiency across the ecosystem.',
+    fullDescription:
+      'EVERYTHING is an oracleless DeFi infrastructure protocol designed to unify multiple financial primitives within a single onchain liquidity system. Instead of separating swaps, lending, leverage, and liquidity across fragmented protocols, EVERYTHING combines them into one shared liquidity pool governed by a single smart contract, allowing capital to be utilized more efficiently across the ecosystem. Built by the team behind SmarDex and backed by years of professional market-making experience, the protocol uses deterministic onchain mechanics rather than external price oracles, reducing systemic risks while improving transparency and scalability. Alongside its core infrastructure, EVERYTHING is also expanding into AI-powered trading tools and analytics, creating an ecosystem focused on capital efficiency, autonomous trading infrastructure, and next-generation DeFi execution.',
+    clickUpId: '86aj2dvn4',
+    cgId: 'everything',
+  },
+  {
+    index: 1222,
+    cmcId: 29157,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x17a0333116A891ECa9C3c1820643a9cfa21772c5',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.oabond,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://ape.bond/',
+    twitter: 'https://x.com/apebond',
+    audit: 'https://paladinsec.co/projects/apebond/',
+    initTime: { [ChainId.BSC]: 1781536259 },
+    soldOut: false,
+    hide: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Bonding'],
+    shortDescription:
+      'Step into the full ApeBond experience with veABOND, the gateway to real yield and premium perks. By locking ABOND, you can gain access to better Bond discounts, a share in protocol revenue paid weekly in USDT, exclusive deals, and other benefits. veABOND is built for long-term ApeBond believers.',
+    fullDescription:
+      'ApeBond is a decentralized, permissionless platform designed to connect users and projects through an efficient bonding mechanism. Users can acquire tokens at a discounted rate, with those tokens vesting gradually over a set period. This creates a win-win system where users benefit from lower entry prices, while projects gain long-term, protocol-owned liquidity and strengthen their treasury in a sustainable way. veABOND is the gateway to real yield and premium perks. By locking ABOND, you can gain access to better Bond discounts, a share in protocol revenue paid weekly in USDT, exclusive deals, and other benefits. veABOND is built for long-term ApeBond believers.',
+    warningCard: `oABOND is ABOND's option token, redeemable 1:1 for veABOND at permalock.`,
+    clickUpId: '',
+    cgId: 'abond',
+    vestingCliff: 432000, // aka 5 days
+  },
+  {
     index: 1221,
     cmcId: 29157,
     version: '2.1.0',
@@ -5748,7 +5847,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.BSC]: 1780518880 },
-    soldOut: false,
+    soldOut: true,
     hide: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -5781,7 +5880,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://everything.inc/',
     twitter: 'https://x.com/every_thing',
     initTime: { [ChainId.BSC]: 1779743773 },
-    soldOut: false,
+    soldOut: true,
     hide: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -21552,6 +21651,70 @@ With the lending products set to go live in February, the project is poised to a
       'AITECH Cloud Network (ACN) is a modular AI ecosystem designed to provide the infrastructure and orchestration required for production-grade artificial intelligence systems. The ecosystem is built around two independent yet economically aligned layers: the ACN Compute Layer, which delivers scalable high-performance computing resources for AI workloads, rendering, and data processing, and Agent Forge, an orchestration framework focused on deploying and managing autonomous AI agents and workflows. Rather than relying on tightly coupled architecture, ACN allows both systems to evolve independently while remaining connected through a shared economic model where platform usage contributes to token supply reduction through real ecosystem activity. By combining scalable infrastructure, intelligent automation, and sustainable tokenomics, ACN aims to become a foundational layer for the next generation of AI-powered applications and services.',
     clickUpId: '86ahewvhn',
     cgId: 'solidus-ai-tech',
+  },
+  {
+    index: 3082,
+    cmcId: 19055,
+    version: '2.1.0',
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0x6a01a582ef206673174ACdFcfB1A8b393C5eCd2B',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.acn,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    projectLink: 'https://aitech.io/',
+    twitter: 'https://x.com/AITECHio',
+    initTime: { [ChainId.MAINNET]: 1781119806 },
+    soldOut: true,
+    hide: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription:
+      'AITECH Cloud Network (ACN) is an AI-native ecosystem built to support real-world AI deployment at scale. Combining high-performance compute infrastructure with modular AI agent orchestration, ACN enables developers and enterprises to run, automate, and scale intelligent systems through an economically aligned and production-focused architecture.',
+    fullDescription:
+      'AITECH Cloud Network (ACN) is a modular AI ecosystem designed to provide the infrastructure and orchestration required for production-grade artificial intelligence systems. The ecosystem is built around two independent yet economically aligned layers: the ACN Compute Layer, which delivers scalable high-performance computing resources for AI workloads, rendering, and data processing, and Agent Forge, an orchestration framework focused on deploying and managing autonomous AI agents and workflows. Rather than relying on tightly coupled architecture, ACN allows both systems to evolve independently while remaining connected through a shared economic model where platform usage contributes to token supply reduction through real ecosystem activity. By combining scalable infrastructure, intelligent automation, and sustainable tokenomics, ACN aims to become a foundational layer for the next generation of AI-powered applications and services.',
+    clickUpId: '86ahzp745',
+    vestingCliff: 2592000, //30 days
+    cgId: 'solidus-ai-tech',
+  },
+  {
+    index: 3083,
+    cmcId: 39008,
+    version: '2.1.0',
+    chainId: ChainId.MAINNET,
+    contractAddress: {
+      [ChainId.MAINNET]: '0xBA80C4bD8D297AAadF0Cf3Dbe65944ab0D24c258',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.ggbr,
+    billNnftAddress: {
+      [ChainId.MAINNET]: '0x499b654b0a7f9979cc315190c09ca2633809b8df',
+    },
+    projectLink: 'https://goldfishgold.com/',
+    twitter: 'https://x.com/goldfishggbr',
+    initTime: { [ChainId.MAINNET]: 1782215237 },
+    soldOut: false,
+    hide: false,
+    billArt: {
+      collection: BillArtCollection.ETH_Collection1,
+    },
+    tags: ['RWA'],
+    shortDescription:
+      'Goldfish (GGBR) is a commodity-backed stablecoin protocol that brings gold-backed value onchain through a transparent and legally structured framework. Each GGBR token represents 1/1000th of a troy ounce of gold, combining the stability of a proven store of value with the accessibility and efficiency of blockchain technology.',
+    fullDescription:
+      'Goldfish (GGBR) is a gold-backed stablecoin designed to bridge traditional financial markets and decentralized finance through a transparent, asset-backed model. Anchored to physical gold reserves and supported by a U.S. publicly traded company, the protocol provides users with digital exposure to one of the world`s most trusted stores of value while benefiting from the liquidity and accessibility of blockchain technology. By combining commodity-backed stability, public accountability, and a legally structured reserve framework, Goldfish aims to create a reliable foundation for wealth preservation, treasury management, and the growing adoption of real-world assets within the digital economy.',
+    clickUpId: '86aj4dmnn',
+    vestingCliff: 604800, //7 days
+    cgId: 'goldfish-gold',
   },
 ]
 

@@ -1267,6 +1267,19 @@ const tokens: Record<string, Token> = {
       [ChainId.MAINNET]: LiquidityDex.UniswapV3,
     },
   },
+  ggbr: {
+    symbol: 'GGBR',
+    address: {
+      [ChainId.MAINNET]: '0x7e2ac793f3E692f388e66c7DC28F739d13B0B71A',
+    },
+    decimals: {
+      [ChainId.MAINNET]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.UniswapV3,
+    },
+  },
   litas: {
     symbol: 'LITAS',
     address: {
@@ -6061,6 +6074,17 @@ const tokens: Record<string, Token> = {
     symbol: 'VON',
     address: {
       [ChainId.BSC]: '0xa4c3497b57C8b6D510F3707A1e9694fD791f45FB',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    active: true,
+  },
+  susdt: {
+    symbol: 'SUSDT',
+    address: {
+      [ChainId.BSC]: '0x1f891D25A386e6F67ead37d9BFAf5C444213a134',
     },
     decimals: { [ChainId.BSC]: 18 },
     liquidityDex: {
