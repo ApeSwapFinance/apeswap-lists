@@ -33,8 +33,39 @@ import {
 // HYPEREVM Largest ID: 21000
 // APTOS Largest ID: 22000
 // SUI Largest ID: 23000
+// Bittensor Largest ID: 24000
 
 const bills: BillsConfig[] = [
+  //
+  // SUI Mainnet
+  //
+
+  {
+    index: 24000,
+    version: '2.1.0',
+    chainId: ChainId.BITTENSOR_TESTNET,
+    contractAddress: {
+      [ChainId.BITTENSOR_TESTNET]: '0x0b2A07231af2b6E1309fb02Fb166A373Cc44224a',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.principalToken,
+    earnToken: tokens.payoutToken,
+    billNnftAddress: {
+      [ChainId.BITTENSOR_TESTNET]: '0x5c98b2d892b37c9a1D3b69472bdDc172A64CdC09',
+    },
+    projectLink: 'https://google.com',
+    twitter: 'https://x.com',
+    initTime: { [ChainId.BITTENSOR_TESTNET]: 1770745754 },
+    soldOut: true,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['test bond'],
+    shortDescription: `Boca Boca boquita`,
+    fullDescription: `Booooooooooooooooooooooooooooooca Bokeeeeeeeeeeeeeeeeeeeeeeeeeee`,
+  },
+
   //
   // SUI Mainnet
   //

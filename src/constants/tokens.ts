@@ -20,31 +20,29 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
-  mvs: {
-    // TODO: remove this test token
-    symbol: 'MVS',
+  principalToken: {
+    symbol: 'principalToken',
     address: {
-      [ChainId.MAINNET]: '0x73C1a9D1A44145341b3726d584BBFeCbBa2Fa549',
+      [ChainId.BITTENSOR_TESTNET]: '0x1d5e4617ad59c1a4428526f6994410e513587a96', // 0xd36f494ac4d7dd5674c1a21b65fd4f5fee14a8b4
     },
     decimals: {
-      [ChainId.MAINNET]: 18,
+      [ChainId.BITTENSOR_TESTNET]: 18,
     },
     liquidityDex: {
-      [ChainId.MAINNET]: LiquidityDex.External,
+      [ChainId.BITTENSOR_TESTNET]: LiquidityDex.External,
     },
     active: true,
   },
-  mva: {
-    // TODO: remove this test token
-    symbol: 'MVA',
+  payoutToken: {
+    symbol: 'payoutToken',
     address: {
-      [ChainId.MAINNET]: '0x121e8D9984E4A78e4cF1dac9f5cDEb626086D3ac',
+      [ChainId.BITTENSOR_TESTNET]: '0xd36f494ac4d7dd5674c1a21b65fd4f5fee14a8b4',
     },
     decimals: {
-      [ChainId.MAINNET]: 18,
+      [ChainId.BITTENSOR_TESTNET]: 18,
     },
     liquidityDex: {
-      [ChainId.MAINNET]: LiquidityDex.External,
+      [ChainId.BITTENSOR_TESTNET]: LiquidityDex.External,
     },
     active: true,
   },

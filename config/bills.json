@@ -1,5 +1,56 @@
 [
   {
+    "index": 24000,
+    "version": "2.1.0",
+    "chainId": 945,
+    "contractAddress": {
+      "945": "0x0b2A07231af2b6E1309fb02Fb166A373Cc44224a"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "principalToken",
+      "address": {
+        "945": "0x1d5e4617ad59c1a4428526f6994410e513587a96"
+      },
+      "decimals": {
+        "945": 18
+      },
+      "liquidityDex": {
+        "945": "External"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "payoutToken",
+      "address": {
+        "945": "0xd36f494ac4d7dd5674c1a21b65fd4f5fee14a8b4"
+      },
+      "decimals": {
+        "945": 18
+      },
+      "liquidityDex": {
+        "945": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "945": "0x5c98b2d892b37c9a1D3b69472bdDc172A64CdC09"
+    },
+    "projectLink": "https://google.com",
+    "twitter": "https://x.com",
+    "initTime": {
+      "945": 1770745754
+    },
+    "soldOut": true,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["test bond"],
+    "shortDescription": "Boca Boca boquita",
+    "fullDescription": "Booooooooooooooooooooooooooooooca Bokeeeeeeeeeeeeeeeeeeeeeeeeeee"
+  },
+  {
     "index": 21001,
     "cmcId": 39537,
     "version": "2.1.0",

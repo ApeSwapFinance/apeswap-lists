@@ -1035,22 +1035,22 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       price: 1.037538,
       tokenAddress: '0xe6a60d2886b11256C24C128210159133096e5CcF',
     },
-    '0x121e8D9984E4A78e4cF1dac9f5cDEb626086D3ac': {
-      name: 'MockVaultAsset',
-      symbol: 'MVA',
-      decimals: 18,
-      source: PriceSource.Fixed,
-      price: 1,
-      tokenAddress: '0x121e8D9984E4A78e4cF1dac9f5cDEb626086D3ac',
-    },
-    '0x73C1a9D1A44145341b3726d584BBFeCbBa2Fa549': {
-      name: 'Magnet Vault Shares',
-      symbol: 'MVS',
-      decimals: 18,
-      source: PriceSource.TokenizedVault,
-      underlyingTokenAddress: '0x121e8D9984E4A78e4cF1dac9f5cDEb626086D3ac',
-      tokenAddress: '0x73C1a9D1A44145341b3726d584BBFeCbBa2Fa549',
-    },
+    // '0x121e8D9984E4A78e4cF1dac9f5cDEb626086D3ac': {
+    //   name: 'MockVaultAsset',
+    //   symbol: 'MVA',
+    //   decimals: 18,
+    //   source: PriceSource.Fixed,
+    //   price: 1,
+    //   tokenAddress: '0x121e8D9984E4A78e4cF1dac9f5cDEb626086D3ac',
+    // },
+    // '0x73C1a9D1A44145341b3726d584BBFeCbBa2Fa549': {
+    //   name: 'Magnet Vault Shares',
+    //   symbol: 'MVS',
+    //   decimals: 18,
+    //   source: PriceSource.TokenizedVault,
+    //   underlyingTokenAddress: '0x121e8D9984E4A78e4cF1dac9f5cDEb626086D3ac',
+    //   tokenAddress: '0x73C1a9D1A44145341b3726d584BBFeCbBa2Fa549',
+    // },
   },
   [ChainId.MEGAETH_TESTNET]: {
     '0x4eB2Bd7beE16F38B1F4a0A5796Fffd028b6040e9': {
