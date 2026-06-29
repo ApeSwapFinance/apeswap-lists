@@ -45,7 +45,7 @@ const bills: BillsConfig[] = [
     version: '2.1.0',
     chainId: ChainId.BITTENSOR_TESTNET,
     contractAddress: {
-      [ChainId.BITTENSOR_TESTNET]: '0x0b2A07231af2b6E1309fb02Fb166A373Cc44224a',
+      [ChainId.BITTENSOR_TESTNET]: '0x920a3E36aBb421970e5f10d70D71a776eA18Ef98',
     },
     billType: 'reserve',
     billVersion: BillVersion.V4,
