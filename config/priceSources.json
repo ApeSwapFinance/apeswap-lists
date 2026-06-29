@@ -471,6 +471,24 @@
       "tokenAddress": "0xbeED106D0f2e6950BFa1Eec74E1253CA0a643442"
     }
   },
+  "945": {
+    "0x1D5E4617ad59c1A4428526F6994410e513587a96": {
+      "name": "Mock Alpha 30",
+      "symbol": "mALPHA30",
+      "decimals": 18,
+      "source": "fixed",
+      "price": 2,
+      "tokenAddress": "0x1D5E4617ad59c1A4428526F6994410e513587a96"
+    },
+    "0xd36F494aC4D7dd5674c1a21B65FD4f5Fee14A8b4": {
+      "name": "Mock Alpha 64",
+      "symbol": "mALPHA64",
+      "decimals": 18,
+      "source": "fixed",
+      "price": 5,
+      "tokenAddress": "0xd36F494aC4D7dd5674c1a21B65FD4f5Fee14A8b4"
+    }
+  },
   "964": {
     "0x3F2c5460bF575cFa8e3299f643645c91cAb6F565": {
       "name": "Targon",

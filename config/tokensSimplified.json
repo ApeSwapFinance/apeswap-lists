@@ -1776,6 +1776,19 @@
       "59144": "Metavault"
     }
   },
+  "susdt": {
+    "symbol": "SUSDT",
+    "address": {
+      "56": "0x1f891D25A386e6F67ead37d9BFAf5C444213a134"
+    },
+    "decimals": {
+      "56": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "56": "PancakeSwapV2"
+    }
+  },
   "oabond": {
     "symbol": "oABOND",
     "address": {

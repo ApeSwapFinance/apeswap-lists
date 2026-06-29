@@ -8834,6 +8834,22 @@ const tokens: Record<string, Token> = {
     decimals: { [ChainId.BITTENSOR]: 18 },
     active: true,
   },
+  subnetAlpha30Testnet: {
+    symbol: 'mALPHA30',
+    address: {
+      [ChainId.BITTENSOR_TESTNET]: '0x1D5E4617ad59c1A4428526F6994410e513587a96',
+    },
+    decimals: { [ChainId.BITTENSOR_TESTNET]: 18 },
+    active: true,
+  },
+  subnetAlpha64Testnet: {
+    symbol: 'mALPHA64',
+    address: {
+      [ChainId.BITTENSOR_TESTNET]: '0xd36F494aC4D7dd5674c1a21B65FD4f5Fee14A8b4',
+    },
+    decimals: { [ChainId.BITTENSOR_TESTNET]: 18 },
+    active: true,
+  },
   goobtc: {
     symbol: 'GOO-cbBTC',
     address: {

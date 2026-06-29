@@ -1272,6 +1272,24 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       tokenAddress: '0x0000000000000000000000000000000000000030',
     },
   },
+  [ChainId.BITTENSOR_TESTNET]: {
+    '0x1D5E4617ad59c1A4428526F6994410e513587a96': {
+      name: 'Mock Alpha 30',
+      symbol: 'mALPHA30',
+      decimals: 18,
+      source: PriceSource.Fixed,
+      price: 2,
+      tokenAddress: '0x1D5E4617ad59c1A4428526F6994410e513587a96',
+    },
+    '0xd36F494aC4D7dd5674c1a21B65FD4f5Fee14A8b4': {
+      name: 'Mock Alpha 64',
+      symbol: 'mALPHA64',
+      decimals: 18,
+      source: PriceSource.Fixed,
+      price: 5,
+      tokenAddress: '0xd36F494aC4D7dd5674c1a21B65FD4f5Fee14A8b4',
+    },
+  },
   [ChainId.SUI]: {
     '0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC': {
       name: 'USDC',
