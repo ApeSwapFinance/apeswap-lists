@@ -53,6 +53,7 @@ export enum ChainId {
   APTOS = 6385780,
   SUI = 7566697,
   BITTENSOR = 964,
+  BITTENSOR_TESTNET = 945,
 }
 
 export enum LiquidityDex {
