@@ -20,32 +20,6 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
-  principalToken: {
-    symbol: 'principalToken',
-    address: {
-      [ChainId.BITTENSOR_TESTNET]: '0x1d5e4617ad59c1a4428526f6994410e513587a96', // 0xd36f494ac4d7dd5674c1a21b65fd4f5fee14a8b4
-    },
-    decimals: {
-      [ChainId.BITTENSOR_TESTNET]: 18,
-    },
-    liquidityDex: {
-      [ChainId.BITTENSOR_TESTNET]: LiquidityDex.External,
-    },
-    active: true,
-  },
-  payoutToken: {
-    symbol: 'payoutToken',
-    address: {
-      [ChainId.BITTENSOR_TESTNET]: '0xd36f494ac4d7dd5674c1a21b65fd4f5fee14a8b4',
-    },
-    decimals: {
-      [ChainId.BITTENSOR_TESTNET]: 18,
-    },
-    liquidityDex: {
-      [ChainId.BITTENSOR_TESTNET]: LiquidityDex.External,
-    },
-    active: true,
-  },
   sui: {
     symbol: 'SUI',
     address: {

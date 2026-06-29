@@ -49,8 +49,8 @@ const bills: BillsConfig[] = [
     },
     billType: 'reserve',
     billVersion: BillVersion.V4,
-    lpToken: tokens.principalToken,
-    earnToken: tokens.payoutToken,
+    lpToken: tokens.subnetAlpha30Testnet,
+    earnToken: tokens.subnetAlpha64Testnet,
     billNnftAddress: {
       [ChainId.BITTENSOR_TESTNET]: '0x5c98b2d892b37c9a1D3b69472bdDc172A64CdC09',
     },

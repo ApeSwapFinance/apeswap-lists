@@ -9,30 +9,26 @@
     "billType": "reserve",
     "billVersion": "V4",
     "lpToken": {
-      "symbol": "principalToken",
+      "symbol": "mALPHA30",
       "address": {
-        "945": "0x1d5e4617ad59c1a4428526f6994410e513587a96"
+        "945": "0x1D5E4617ad59c1A4428526F6994410e513587a96"
       },
       "decimals": {
         "945": 18
       },
-      "liquidityDex": {
-        "945": "External"
-      },
-      "active": true
+      "active": true,
+      "liquidityDex": {}
     },
     "earnToken": {
-      "symbol": "payoutToken",
+      "symbol": "mALPHA64",
       "address": {
-        "945": "0xd36f494ac4d7dd5674c1a21b65fd4f5fee14a8b4"
+        "945": "0xd36F494aC4D7dd5674c1a21B65FD4f5Fee14A8b4"
       },
       "decimals": {
         "945": 18
       },
-      "liquidityDex": {
-        "945": "External"
-      },
-      "active": true
+      "active": true,
+      "liquidityDex": {}
     },
     "billNnftAddress": {
       "945": "0x5c98b2d892b37c9a1D3b69472bdDc172A64CdC09"
