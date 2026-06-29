@@ -9,7 +9,7 @@ import {
   MigrationVestingTerms,
 } from '../types'
 
-// BNB Largest ID: 1223
+// BNB Largest ID: 1225
 // Polygon Largest ID: 188
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2034
@@ -5729,6 +5729,37 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1225,
+    cmcId: 39535,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x8B5b67e3D8127E1af4891F4F94D246f30e86Ef87',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.susdt,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://pro.skytradepro.com/',
+    twitter: 'https://x.com/SkyTradeSUSDT',
+    initTime: { [ChainId.BSC]: 1781613297 },
+    soldOut: false,
+    hide: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DeFi'],
+    shortDescription:
+      'Sky Trade is a decentralized trading ecosystem focused on delivering a secure, transparent, and user-friendly experience for digital asset trading. Through advanced trading tools, high-performance infrastructure, and a strong commitment to security, the platform aims to make decentralized finance more accessible for both retail and professional users.',
+    fullDescription:
+      'SkyTrade Pro is the ecosystem powered by the $SUSDT token, designed to support a transparent and sustainable decentralized trading environment on BNB Chain. Built around long-term tokenomics, the project features a 94% permanent token burn, locked liquidity, audited smart contracts, and verified team credentials to strengthen security and trust. Beyond its trading infrastructure, SkyTrade Pro is expanding its ecosystem with new products, including a native blockchain and professional mobile applications, while maintaining a community-driven approach focused on sustainable growth and the broader adoption of decentralized finance.',
+    clickUpId: '86aj4vkwh',
+    cgId: 'skytrade-pro',
+  },
   {
     index: 1224,
     cmcId: 29157,
