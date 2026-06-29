@@ -57,7 +57,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://google.com',
     twitter: 'https://x.com',
     initTime: { [ChainId.BITTENSOR_TESTNET]: 1770745754 },
-    soldOut: true,
+    soldOut: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
