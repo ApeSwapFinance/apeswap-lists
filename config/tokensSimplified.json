@@ -1,18 +1,18 @@
 {
-  "subnetAlpha30Testnet": {
-    "symbol": "mALPHA30",
+  "subnetAlpha64Testnet": {
+    "symbol": "mALPHA64",
     "address": {
-      "945": "0x1D5E4617ad59c1A4428526F6994410e513587a96"
+      "945": "0xd36F494aC4D7dd5674c1a21B65FD4f5Fee14A8b4"
     },
     "decimals": {
       "945": 18
     },
     "active": true
   },
-  "subnetAlpha64Testnet": {
-    "symbol": "mALPHA64",
+  "subnetAlpha30Testnet": {
+    "symbol": "mALPHA30",
     "address": {
-      "945": "0xd36F494aC4D7dd5674c1a21B65FD4f5Fee14A8b4"
+      "945": "0x1D5E4617ad59c1A4428526F6994410e513587a96"
     },
     "decimals": {
       "945": 18

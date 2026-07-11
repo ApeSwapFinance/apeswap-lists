@@ -41,6 +41,56 @@ const bills: BillsConfig[] = [
   //
 
   {
+    index: 24002,
+    version: '2.1.0',
+    chainId: ChainId.BITTENSOR_TESTNET,
+    contractAddress: {
+      [ChainId.BITTENSOR_TESTNET]: '0x6C4401448b96C2467b41DA67aa63CD94C89Ef38D',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.subnetAlpha64Testnet,
+    earnToken: tokens.subnetAlpha30Testnet,
+    billNnftAddress: {
+      [ChainId.BITTENSOR_TESTNET]: '0x5c98b2d892b37c9a1D3b69472bdDc172A64CdC09',
+    },
+    projectLink: 'https://google.com',
+    twitter: 'https://x.com',
+    initTime: { [ChainId.BITTENSOR_TESTNET]: 1783777634 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['test bond'],
+    shortDescription: `Bond designed to help the community learn about the Bittensor network and how to use bonds.`,
+    fullDescription: `Bond designed to help the community learn about the Bittensor network and how to use bonds.`,
+  },
+  {
+    index: 24001,
+    version: '2.1.0',
+    chainId: ChainId.BITTENSOR_TESTNET,
+    contractAddress: {
+      [ChainId.BITTENSOR_TESTNET]: '0x77852eEB03E0bBa485A70E14b347706466C2502b',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.subnetAlpha30Testnet,
+    earnToken: tokens.subnetAlpha64Testnet,
+    billNnftAddress: {
+      [ChainId.BITTENSOR_TESTNET]: '0x5c98b2d892b37c9a1D3b69472bdDc172A64CdC09',
+    },
+    projectLink: 'https://google.com',
+    twitter: 'https://x.com',
+    initTime: { [ChainId.BITTENSOR_TESTNET]: 1783776895 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['test bond'],
+    shortDescription: `Bond designed to help the community learn about the Bittensor network and how to use bonds.`,
+    fullDescription: `Bond designed to help the community learn about the Bittensor network and how to use bonds.`,
+  },
+  {
     index: 24000,
     version: '2.1.0',
     chainId: ChainId.BITTENSOR_TESTNET,
