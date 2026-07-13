@@ -112,8 +112,8 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.Bittensor_Collection1,
     },
     tags: ['test bond'],
-    shortDescription: `Boca Boca boquita`,
-    fullDescription: `Booooooooooooooooooooooooooooooca Bokeeeeeeeeeeeeeeeeeeeeeeeeeee`,
+    shortDescription: `Bond designed to help the community learn about the Bittensor network and how to use bonds.`,
+    fullDescription: `Bond designed to help the community learn about the Bittensor network and how to use bonds.`,
   },
 
   //
