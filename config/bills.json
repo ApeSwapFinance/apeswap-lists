@@ -40,7 +40,7 @@
     },
     "soldOut": false,
     "billArt": {
-      "collection": "ApeBond_Collection1"
+      "collection": "Bittensor_Collection1"
     },
     "tags": ["test bond"],
     "shortDescription": "Bond designed to help the community learn about the Bittensor network and how to use bonds.",
@@ -87,7 +87,7 @@
     },
     "soldOut": false,
     "billArt": {
-      "collection": "ApeBond_Collection1"
+      "collection": "Bittensor_Collection1"
     },
     "tags": ["test bond"],
     "shortDescription": "Bond designed to help the community learn about the Bittensor network and how to use bonds.",
@@ -134,7 +134,7 @@
     },
     "soldOut": false,
     "billArt": {
-      "collection": "ApeBond_Collection1"
+      "collection": "Bittensor_Collection1"
     },
     "tags": ["test bond"],
     "shortDescription": "Boca Boca boquita",

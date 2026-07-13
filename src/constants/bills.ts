@@ -59,7 +59,7 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.BITTENSOR_TESTNET]: 1783777634 },
     soldOut: false,
     billArt: {
-      collection: BillArtCollection.ApeBond_Collection1,
+      collection: BillArtCollection.Bittensor_Collection1,
     },
     tags: ['test bond'],
     shortDescription: `Bond designed to help the community learn about the Bittensor network and how to use bonds.`,
@@ -84,7 +84,7 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.BITTENSOR_TESTNET]: 1783776895 },
     soldOut: false,
     billArt: {
-      collection: BillArtCollection.ApeBond_Collection1,
+      collection: BillArtCollection.Bittensor_Collection1,
     },
     tags: ['test bond'],
     shortDescription: `Bond designed to help the community learn about the Bittensor network and how to use bonds.`,
@@ -109,7 +109,7 @@ const bills: BillsConfig[] = [
     initTime: { [ChainId.BITTENSOR_TESTNET]: 1770745754 },
     soldOut: false,
     billArt: {
-      collection: BillArtCollection.ApeBond_Collection1,
+      collection: BillArtCollection.Bittensor_Collection1,
     },
     tags: ['test bond'],
     shortDescription: `Boca Boca boquita`,
