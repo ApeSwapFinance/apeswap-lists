@@ -1324,6 +1324,24 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       tokenAddress: '0xaf8cd5edc19c4512f4259f0bee101a40d41ebed738ade5874359610ef8eeced5::coin::COIN',
     },
   },
+  [ChainId.ROBINHOOD]: {
+    '0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168': {
+      name: 'Global Dollar',
+      symbol: 'USDG',
+      decimals: 6,
+      source: PriceSource.Coingecko,
+      id: 'global-dollar',
+      tokenAddress: '0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168',
+    },
+    '0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73': {
+      name: 'WETH',
+      symbol: 'WETH',
+      decimals: 6,
+      source: PriceSource.Coingecko,
+      id: 'ethereum',
+      tokenAddress: '0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73',
+    },
+  },
 }
 
 export default priceSources

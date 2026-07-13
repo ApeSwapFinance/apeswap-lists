@@ -20,6 +20,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  usdg: {
+    symbol: 'USDG',
+    address: {
+      [ChainId.ROBINHOOD]: '0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168',
+    },
+    decimals: {
+      [ChainId.ROBINHOOD]: 6,
+    },
+    liquidityDex: {
+      [ChainId.ROBINHOOD]: LiquidityDex.External,
+    },
+    active: true,
+  },
   mvs: {
     // TODO: remove this test token
     symbol: 'MVS',
@@ -2221,6 +2234,7 @@ const tokens: Record<string, Token> = {
       [ChainId.SOL]: '7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs', //wormhole
       [ChainId.HYPEREVM]: '0xBe6727B535545C67d5cAa73dEa54865B92CF7907', // uETH
       [ChainId.SUI]: '0xaf8cd5edc19c4512f4259f0bee101a40d41ebed738ade5874359610ef8eeced5::coin::COIN',
+      [ChainId.ROBINHOOD]: '0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73',
     },
     decimals: {
       [ChainId.BSC]: 18,
@@ -2245,6 +2259,7 @@ const tokens: Record<string, Token> = {
       [ChainId.SOL]: 8,
       [ChainId.HYPEREVM]: 18, // uETH
       [ChainId.SUI]: 8,
+      [ChainId.ROBINHOOD]: 18,
     },
     liquidityDex: {
       [ChainId.MAINNET]: LiquidityDex.UniswapV3,
@@ -2267,6 +2282,7 @@ const tokens: Record<string, Token> = {
       [ChainId.SOL]: LiquidityDex.External,
       [ChainId.HYPEREVM]: LiquidityDex.External,
       [ChainId.SUI]: LiquidityDex.External,
+      [ChainId.ROBINHOOD]: LiquidityDex.External,
     },
     active: true,
   },

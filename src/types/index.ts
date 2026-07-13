@@ -54,6 +54,7 @@ export enum ChainId {
   SUI = 7566697,
   BITTENSOR = 964,
   BITTENSOR_TESTNET = 945,
+  ROBINHOOD = 4663,
 }
 
 export enum LiquidityDex {
@@ -269,6 +270,7 @@ export enum BillArtCollection {
   HotBondingSummer_Collection1 = 'HotBondingSummer_Collection1',
   Solana_Collection1 = 'Solana_Collection1',
   GooMoney_Collection1 = 'GooMoney_Collection1',
+  Bittensor_Collection1 = 'Bittensor_Collection1',
 }
 
 export const defaultBillArtCollection = BillArtCollection.ApeBond_Collection1
