@@ -168,6 +168,18 @@
       "protocol": 0
     }
   ],
+  "4663": [
+    {
+      "name": "UniswapV2",
+      "factory": "0x8bceaa40b9acdfaedf85adf4ff01f5ad6517937f",
+      "protocol": 0
+    },
+    {
+      "name": "UniswapV3",
+      "factory": "0x1f7d7550b1b028f7571e69a784071f0205fd2efa",
+      "protocol": 1
+    }
+  ],
   "8453": [
     {
       "name": "Synthswap",

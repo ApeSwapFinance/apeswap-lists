@@ -378,6 +378,18 @@ const dexFactoriesPriceApi: Partial<
       protocol: PriceApiProtocols.UniV3,
     },
   ],
+  [ChainId.ROBINHOOD]: [
+    {
+      name: LiquidityDex.UniswapV2,
+      factory: '0x8bceaa40b9acdfaedf85adf4ff01f5ad6517937f',
+      protocol: PriceApiProtocols.UniV2,
+    },
+    {
+      name: LiquidityDex.UniswapV3,
+      factory: '0x1f7d7550b1b028f7571e69a784071f0205fd2efa',
+      protocol: PriceApiProtocols.UniV3,
+    },
+  ],
   //TESTNETS
   [ChainId.BSC_TESTNET]: [
     {
