@@ -930,6 +930,17 @@ export const dexFactories: Partial<
       protocol: Protocols.V3,
     },
   },
+  [ChainId.ROBINHOOD]: {
+    [LiquidityDex.UniswapV2]: {
+      factory: '0x8bceaa40b9acdfaedf85adf4ff01f5ad6517937f',
+      router: '0x89e5db8b5aa49aa85ac63f691524311aeb649eba',
+      protocol: Protocols.V2,
+    },
+    [LiquidityDex.UniswapV3]: {
+      factory: '0x1f7d7550b1b028f7571e69a784071f0205fd2efa',
+      protocol: Protocols.V3,
+    },
+  },
 }
 
 export const defaultDexFactories: Partial<Record<ChainId, Partial<Record<Protocols, string>>>> = {
@@ -1011,6 +1022,10 @@ export const defaultDexFactories: Partial<Record<ChainId, Partial<Record<Protoco
   [ChainId.HYPEREVM]: {
     [Protocols.Solidly]: dexFactories[ChainId.HYPEREVM]?.HybraFinance?.factory,
     [Protocols.V3]: dexFactories[ChainId.HYPEREVM]?.PRJX?.factory,
+  },
+  [ChainId.ROBINHOOD]: {
+    [Protocols.V2]: dexFactories[ChainId.ROBINHOOD]?.UniswapV2?.factory,
+    [Protocols.V3]: dexFactories[ChainId.ROBINHOOD]?.UniswapV3?.factory,
   },
 }
 
