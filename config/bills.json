@@ -4,17 +4,17 @@
     "version": "2.1.0",
     "chainId": 4663,
     "contractAddress": {
-      "4663": "0x1f32445D4242c31c8e267CB303bddb9B9E3781A1"
+      "4663": "0xe9a456B929b1b737ddFE838B0dDfD941524699fB"
     },
     "billType": "reserve",
     "billVersion": "V4",
     "lpToken": {
-      "symbol": "USDG",
+      "symbol": "ETH",
       "address": {
-        "4663": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+        "4663": "0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73"
       },
       "decimals": {
-        "4663": 6
+        "4663": 18
       },
       "liquidityDex": {
         "4663": "External"
@@ -22,12 +22,12 @@
       "active": true
     },
     "earnToken": {
-      "symbol": "ETH",
+      "symbol": "USDG",
       "address": {
-        "4663": "0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73"
+        "4663": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
       },
       "decimals": {
-        "4663": 18
+        "4663": 6
       },
       "liquidityDex": {
         "4663": "External"

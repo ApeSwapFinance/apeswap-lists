@@ -52,12 +52,12 @@ const bills: BillsConfig[] = [
     version: '2.1.0',
     chainId: ChainId.ROBINHOOD,
     contractAddress: {
-      [ChainId.ROBINHOOD]: '0x1f32445D4242c31c8e267CB303bddb9B9E3781A1',
+      [ChainId.ROBINHOOD]: '0xe9a456B929b1b737ddFE838B0dDfD941524699fB',
     },
     billType: 'reserve',
     billVersion: BillVersion.V4,
-    lpToken: tokens.usdg,
-    earnToken: tokens.eth,
+    lpToken: tokens.eth,
+    earnToken: tokens.usdg,
     billNnftAddress: {
       [ChainId.ROBINHOOD]: '0xE11aDE39E40440AF0f66cBd07Db910EFD2A4573E',
     },

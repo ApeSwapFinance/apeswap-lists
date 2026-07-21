@@ -1,17 +1,4 @@
 {
-  "usdg": {
-    "symbol": "USDG",
-    "address": {
-      "4663": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
-    },
-    "decimals": {
-      "4663": 6
-    },
-    "active": true,
-    "liquidityDex": {
-      "4663": "External"
-    }
-  },
   "eth": {
     "symbol": "ETH",
     "address": {
@@ -65,6 +52,19 @@
       "81457": "ThrusterV3",
       "7565164": "External",
       "7566697": "External"
+    }
+  },
+  "usdg": {
+    "symbol": "USDG",
+    "address": {
+      "4663": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+    },
+    "decimals": {
+      "4663": 6
+    },
+    "active": true,
+    "liquidityDex": {
+      "4663": "External"
     }
   },
   "usdc": {
