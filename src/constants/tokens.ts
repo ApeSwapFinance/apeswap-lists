@@ -7651,6 +7651,22 @@ const tokens: Record<string, Token> = {
       [ChainId.BSC]: 'https://pancakeswap.finance/v2/add/BNB/0x29745314B4D294B7C77cDB411B8AAa95923aae38',
     },
   },
+  susdtBnb_PCS: {
+    symbol: 'SUSDT-BNB',
+    address: {
+      [ChainId.BSC]: '0xfd18DA0e5d05dAe2DDb3E711e7e77ef2D553367C',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl: {
+      [ChainId.BSC]:
+        'https://pancakeswap.finance/liquidity/pool/bsc/0xfd18DA0e5d05dAe2DDb3E711e7e77ef2D553367C?chainName=bsc&id=0xfd18DA0e5d05dAe2DDb3E711e7e77ef2D553367C&chain=bsc',
+    },
+  },
   gymnetBusd_PCS: {
     symbol: 'GYMNET-BUSD',
     address: {
