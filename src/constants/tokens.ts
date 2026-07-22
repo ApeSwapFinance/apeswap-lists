@@ -589,14 +589,17 @@ const tokens: Record<string, Token> = {
     address: {
       [ChainId.BERACHAIN]: '0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34',
       [ChainId.BLAST]: '0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34',
+      [ChainId.ROBINHOOD]: '0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34',
     },
     decimals: {
       [ChainId.BERACHAIN]: 18,
       [ChainId.BLAST]: 18,
+      [ChainId.ROBINHOOD]: 18,
     },
     liquidityDex: {
       [ChainId.BERACHAIN]: LiquidityDex.KodiakV3,
       [ChainId.BLAST]: LiquidityDex.ThrusterV3,
+      [ChainId.ROBINHOOD]: LiquidityDex.External,
     },
     active: true,
   },
@@ -7649,6 +7652,22 @@ const tokens: Record<string, Token> = {
     },
     getLpUrl: {
       [ChainId.BSC]: 'https://pancakeswap.finance/v2/add/BNB/0x29745314B4D294B7C77cDB411B8AAa95923aae38',
+    },
+  },
+  susdtBnb_PCS: {
+    symbol: 'SUSDT-BNB',
+    address: {
+      [ChainId.BSC]: '0xfd18DA0e5d05dAe2DDb3E711e7e77ef2D553367C',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    active: true,
+    lpToken: true,
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV2,
+    },
+    getLpUrl: {
+      [ChainId.BSC]:
+        'https://pancakeswap.finance/liquidity/pool/bsc/0xfd18DA0e5d05dAe2DDb3E711e7e77ef2D553367C?chainName=bsc&id=0xfd18DA0e5d05dAe2DDb3E711e7e77ef2D553367C&chain=bsc',
     },
   },
   gymnetBusd_PCS: {
