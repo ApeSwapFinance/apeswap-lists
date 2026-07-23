@@ -154,6 +154,16 @@ export const WNATIVE: Partial<Record<ChainId, Token>> = {
     },
     active: true,
   },
+  [ChainId.ROBINHOOD]: {
+    symbol: 'wETH',
+    address: {
+      [ChainId.ROBINHOOD]: '0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73',
+    },
+    decimals: {
+      [ChainId.ROBINHOOD]: 18,
+    },
+    active: true,
+  },
 }
 
 export const zapInputTokens: Partial<Record<ChainId, Token[]>> = {
@@ -858,6 +868,28 @@ export const zapInputTokens: Partial<Record<ChainId, Token[]>> = {
       symbol: 'wETH',
       address: { [ChainId.SUI]: '0xaf8cd5edc19c4512f4259f0bee101a40d41ebed738ade5874359610ef8eeced5::coin::COIN' },
       decimals: { [ChainId.SUI]: 8 },
+      active: true,
+    },
+  ],
+  [ChainId.ROBINHOOD]: [
+    {
+      symbol: 'USDG',
+      address: {
+        [ChainId.ROBINHOOD]: '0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168',
+      },
+      decimals: {
+        [ChainId.ROBINHOOD]: 6,
+      },
+      active: true,
+    },
+    {
+      symbol: 'USDE',
+      address: {
+        [ChainId.ROBINHOOD]: '0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34',
+      },
+      decimals: {
+        [ChainId.ROBINHOOD]: 18,
+      },
       active: true,
     },
   ],

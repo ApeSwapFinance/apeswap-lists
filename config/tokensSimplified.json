@@ -6146,6 +6146,16 @@
     },
     "active": true
   },
+  "usde": {
+    "symbol": "USDE",
+    "address": {
+      "4663": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34"
+    },
+    "decimals": {
+      "4663": 18
+    },
+    "active": true
+  },
   "cbbtc": {
     "symbol": "cbBTC",
     "address": {
@@ -6180,16 +6190,6 @@
     "symbol": "HONEY",
     "address": {
       "80094": "0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce"
-    },
-    "decimals": {
-      "80094": 18
-    },
-    "active": true
-  },
-  "usde": {
-    "symbol": "USDe",
-    "address": {
-      "80094": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34"
     },
     "decimals": {
       "80094": 18

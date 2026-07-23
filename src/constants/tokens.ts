@@ -589,14 +589,17 @@ const tokens: Record<string, Token> = {
     address: {
       [ChainId.BERACHAIN]: '0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34',
       [ChainId.BLAST]: '0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34',
+      [ChainId.ROBINHOOD]: '0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34',
     },
     decimals: {
       [ChainId.BERACHAIN]: 18,
       [ChainId.BLAST]: 18,
+      [ChainId.ROBINHOOD]: 18,
     },
     liquidityDex: {
       [ChainId.BERACHAIN]: LiquidityDex.KodiakV3,
       [ChainId.BLAST]: LiquidityDex.ThrusterV3,
+      [ChainId.ROBINHOOD]: LiquidityDex.External,
     },
     active: true,
   },

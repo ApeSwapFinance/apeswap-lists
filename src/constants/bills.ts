@@ -350,7 +350,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.rkey.rent/',
     twitter: 'https://x.com/rkeyrent',
     initTime: { [ChainId.SOL]: 1752069960 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Solana_Collection1,
     },
@@ -378,7 +378,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.rkey.rent/',
     twitter: 'https://x.com/rkeyrent',
     initTime: { [ChainId.SOL]: 1752070680 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.Solana_Collection1,
     },
