@@ -33,6 +33,7 @@ import {
 // HYPEREVM Largest ID: 21000
 // APTOS Largest ID: 22000
 // SUI Largest ID: 23000
+// ROBINHOOD ID: 24000
 
 const bills: BillsConfig[] = [
   //
@@ -43,6 +44,34 @@ const bills: BillsConfig[] = [
   // APTOS - NOTE this is still devnet
   //
 
+  //
+  // ROBINHOOD
+  //
+  {
+    index: 24001,
+    version: '2.1.0',
+    chainId: ChainId.ROBINHOOD,
+    contractAddress: {
+      [ChainId.ROBINHOOD]: '0xe9a456B929b1b737ddFE838B0dDfD941524699fB',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.eth,
+    earnToken: tokens.usdg,
+    billNnftAddress: {
+      [ChainId.ROBINHOOD]: '0xE11aDE39E40440AF0f66cBd07Db910EFD2A4573E',
+    },
+    projectLink: 'https://qoogle.com',
+    twitter: 'https://qoogle.com',
+    initTime: { [ChainId.ROBINHOOD]: 1770745754 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription: `Testbond on robinhood`,
+    fullDescription: `Testbond on robinhood`,
+  },
   //
   // HYPEREVM
   //

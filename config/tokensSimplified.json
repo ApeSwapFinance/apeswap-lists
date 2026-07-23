@@ -1,4 +1,72 @@
 {
+  "eth": {
+    "symbol": "ETH",
+    "address": {
+      "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+      "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+      "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+      "146": "0x50c42dEAcD8Fc9773493ED674b675bE577f2634b",
+      "614": "0xbeED106D0f2e6950BFa1Eec74E1253CA0a643442",
+      "999": "0xBe6727B535545C67d5cAa73dEa54865B92CF7907",
+      "4663": "0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73",
+      "8453": "0x4200000000000000000000000000000000000006",
+      "10143": "0xB5a30b0FDc5EA94A52fDc42e3E9760Cb8449Fb37",
+      "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+      "59144": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f",
+      "80094": "0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590",
+      "81457": "0x4300000000000000000000000000000000000004",
+      "7565164": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs",
+      "7566697": "0xaf8cd5edc19c4512f4259f0bee101a40d41ebed738ade5874359610ef8eeced5::coin::COIN"
+    },
+    "decimals": {
+      "1": 18,
+      "56": 18,
+      "137": 18,
+      "146": 18,
+      "614": 18,
+      "999": 18,
+      "4663": 18,
+      "8453": 18,
+      "10143": 18,
+      "42161": 18,
+      "59144": 18,
+      "80094": 18,
+      "81457": 18,
+      "7565164": 8,
+      "7566697": 8
+    },
+    "active": true,
+    "liquidityDex": {
+      "1": "UniswapV3",
+      "56": "PancakeSwapV3",
+      "137": "UniswapV3",
+      "146": "External",
+      "614": "External",
+      "999": "External",
+      "4663": "External",
+      "8453": "Aerodrome",
+      "10143": "PancakeSwapV2",
+      "42161": "PancakeSwapV3",
+      "59144": "Lynex",
+      "80094": "KodiakV3",
+      "81457": "ThrusterV3",
+      "7565164": "External",
+      "7566697": "External"
+    }
+  },
+  "usdg": {
+    "symbol": "USDG",
+    "address": {
+      "4663": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+    },
+    "decimals": {
+      "4663": 6
+    },
+    "active": true,
+    "liquidityDex": {
+      "4663": "External"
+    }
+  },
   "usdc": {
     "symbol": "USDC",
     "address": {
@@ -668,61 +736,6 @@
       "59144": "Lynex",
       "80094": "KodiakV3",
       "81457": "ThrusterV3"
-    }
-  },
-  "eth": {
-    "symbol": "ETH",
-    "address": {
-      "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-      "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
-      "137": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-      "146": "0x50c42dEAcD8Fc9773493ED674b675bE577f2634b",
-      "614": "0xbeED106D0f2e6950BFa1Eec74E1253CA0a643442",
-      "999": "0xBe6727B535545C67d5cAa73dEa54865B92CF7907",
-      "4663": "0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73",
-      "8453": "0x4200000000000000000000000000000000000006",
-      "10143": "0xB5a30b0FDc5EA94A52fDc42e3E9760Cb8449Fb37",
-      "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
-      "59144": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f",
-      "80094": "0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590",
-      "81457": "0x4300000000000000000000000000000000000004",
-      "7565164": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs",
-      "7566697": "0xaf8cd5edc19c4512f4259f0bee101a40d41ebed738ade5874359610ef8eeced5::coin::COIN"
-    },
-    "decimals": {
-      "1": 18,
-      "56": 18,
-      "137": 18,
-      "146": 18,
-      "614": 18,
-      "999": 18,
-      "4663": 18,
-      "8453": 18,
-      "10143": 18,
-      "42161": 18,
-      "59144": 18,
-      "80094": 18,
-      "81457": 18,
-      "7565164": 8,
-      "7566697": 8
-    },
-    "active": true,
-    "liquidityDex": {
-      "1": "UniswapV3",
-      "56": "PancakeSwapV3",
-      "137": "UniswapV3",
-      "146": "External",
-      "614": "External",
-      "999": "External",
-      "4663": "External",
-      "8453": "Aerodrome",
-      "10143": "PancakeSwapV2",
-      "42161": "PancakeSwapV3",
-      "59144": "Lynex",
-      "80094": "KodiakV3",
-      "81457": "ThrusterV3",
-      "7565164": "External",
-      "7566697": "External"
     }
   },
   "glq": {
@@ -6130,16 +6143,6 @@
     },
     "decimals": {
       "56": 18
-    },
-    "active": true
-  },
-  "usdg": {
-    "symbol": "USDG",
-    "address": {
-      "4663": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
-    },
-    "decimals": {
-      "4663": 6
     },
     "active": true
   },
