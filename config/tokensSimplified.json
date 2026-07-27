@@ -1792,6 +1792,23 @@
       "59144": "Metavault"
     }
   },
+  "susdtBnb_PCS": {
+    "symbol": "SUSDT-BNB",
+    "address": {
+      "56": "0xfd18DA0e5d05dAe2DDb3E711e7e77ef2D553367C"
+    },
+    "decimals": {
+      "56": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "56": "PancakeSwapV2"
+    },
+    "lpToken": true,
+    "getLpUrl": {
+      "56": "https://pancakeswap.finance/liquidity/pool/bsc/0xfd18DA0e5d05dAe2DDb3E711e7e77ef2D553367C?chainName=bsc&id=0xfd18DA0e5d05dAe2DDb3E711e7e77ef2D553367C&chain=bsc"
+    }
+  },
   "susdt": {
     "symbol": "SUSDT",
     "address": {
