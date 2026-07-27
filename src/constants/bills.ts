@@ -47,31 +47,31 @@ const bills: BillsConfig[] = [
   //
   // ROBINHOOD
   //
-  {
-    index: 24001,
-    version: '2.1.0',
-    chainId: ChainId.ROBINHOOD,
-    contractAddress: {
-      [ChainId.ROBINHOOD]: '0xe9a456B929b1b737ddFE838B0dDfD941524699fB',
-    },
-    billType: 'reserve',
-    billVersion: BillVersion.V4,
-    lpToken: tokens.eth,
-    earnToken: tokens.usdg,
-    billNnftAddress: {
-      [ChainId.ROBINHOOD]: '0xE11aDE39E40440AF0f66cBd07Db910EFD2A4573E',
-    },
-    projectLink: 'https://qoogle.com',
-    twitter: 'https://qoogle.com',
-    initTime: { [ChainId.ROBINHOOD]: 1770745754 },
-    soldOut: false,
-    billArt: {
-      collection: BillArtCollection.ApeBond_Collection1,
-    },
-    tags: ['AI'],
-    shortDescription: `Testbond on robinhood`,
-    fullDescription: `Testbond on robinhood`,
-  },
+  // {
+  //   index: 24001,
+  //   version: '2.1.0',
+  //   chainId: ChainId.ROBINHOOD,
+  //   contractAddress: {
+  //     [ChainId.ROBINHOOD]: '0xe9a456B929b1b737ddFE838B0dDfD941524699fB',
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V4,
+  //   lpToken: tokens.eth,
+  //   earnToken: tokens.usdg,
+  //   billNnftAddress: {
+  //     [ChainId.ROBINHOOD]: '0xE11aDE39E40440AF0f66cBd07Db910EFD2A4573E',
+  //   },
+  //   projectLink: 'https://qoogle.com',
+  //   twitter: 'https://qoogle.com',
+  //   initTime: { [ChainId.ROBINHOOD]: 1770745754 },
+  //   soldOut: false,
+  //   billArt: {
+  //     collection: BillArtCollection.ApeBond_Collection1,
+  //   },
+  //   tags: ['AI'],
+  //   shortDescription: `Testbond on robinhood`,
+  //   fullDescription: `Testbond on robinhood`,
+  // },
   //
   // HYPEREVM
   //
@@ -5767,7 +5767,7 @@ const bills: BillsConfig[] = [
     contractAddress: {
       [ChainId.BSC]: '0xB8b427b5A7fD0AbAa14b4b293FD766D1cA8ADdAE',
     },
-    billType: 'reserve',
+    billType: 'liquidity',
     billVersion: BillVersion.V4,
     lpToken: tokens.susdtBnb_PCS,
     earnToken: tokens.susdt,
