@@ -5777,7 +5777,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://pro.skytradepro.com/',
     twitter: 'https://x.com/SkyTradeSUSDT',
     initTime: { [ChainId.BSC]: 1781613297 },
-    soldOut: false,
+    soldOut: true,
     hide: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -5874,7 +5874,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.BSC]: 1781536259 },
-    soldOut: false,
+    soldOut: true,
     hide: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -6073,7 +6073,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://dogelonmars.com/',
     twitter: 'https://x.com/dogelonmars',
     initTime: { [ChainId.BSC]: 1775551452 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
