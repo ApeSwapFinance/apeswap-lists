@@ -6201,7 +6201,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.lovebit.org/',
     twitter: 'https://x.com/lovebitofficial',
     initTime: { [ChainId.BSC]: 1770297522 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
