@@ -9,7 +9,7 @@ import {
   MigrationVestingTerms,
 } from '../types'
 
-// BNB Largest ID: 1225
+// BNB Largest ID: 1226
 // Polygon Largest ID: 188
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2034
@@ -33,6 +33,7 @@ import {
 // HYPEREVM Largest ID: 21000
 // APTOS Largest ID: 22000
 // SUI Largest ID: 23000
+// ROBINHOOD ID: 24000
 
 const bills: BillsConfig[] = [
   //
@@ -43,6 +44,34 @@ const bills: BillsConfig[] = [
   // APTOS - NOTE this is still devnet
   //
 
+  //
+  // ROBINHOOD
+  //
+  // {
+  //   index: 24001,
+  //   version: '2.1.0',
+  //   chainId: ChainId.ROBINHOOD,
+  //   contractAddress: {
+  //     [ChainId.ROBINHOOD]: '0xe9a456B929b1b737ddFE838B0dDfD941524699fB',
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V4,
+  //   lpToken: tokens.eth,
+  //   earnToken: tokens.usdg,
+  //   billNnftAddress: {
+  //     [ChainId.ROBINHOOD]: '0xE11aDE39E40440AF0f66cBd07Db910EFD2A4573E',
+  //   },
+  //   projectLink: 'https://qoogle.com',
+  //   twitter: 'https://qoogle.com',
+  //   initTime: { [ChainId.ROBINHOOD]: 1770745754 },
+  //   soldOut: false,
+  //   billArt: {
+  //     collection: BillArtCollection.ApeBond_Collection1,
+  //   },
+  //   tags: ['AI'],
+  //   shortDescription: `Testbond on robinhood`,
+  //   fullDescription: `Testbond on robinhood`,
+  // },
   //
   // HYPEREVM
   //
@@ -5731,6 +5760,37 @@ const bills: BillsConfig[] = [
   // BNB chain
   //
   {
+    index: 1226,
+    cmcId: 39535,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0xB8b427b5A7fD0AbAa14b4b293FD766D1cA8ADdAE',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.susdtBnb_PCS,
+    earnToken: tokens.susdt,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://pro.skytradepro.com/',
+    twitter: 'https://x.com/SkyTradeSUSDT',
+    initTime: { [ChainId.BSC]: 1785147293 },
+    soldOut: false,
+    hide: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DeFi'],
+    shortDescription:
+      'Sky Trade is a decentralized trading ecosystem focused on delivering a secure, transparent, and user-friendly experience for digital asset trading. Through advanced trading tools, high-performance infrastructure, and a strong commitment to security, the platform aims to make decentralized finance more accessible for both retail and professional users.',
+    fullDescription:
+      'SkyTrade Pro is the ecosystem powered by the $SUSDT token, designed to support a transparent and sustainable decentralized trading environment on BNB Chain. Built around long-term tokenomics, the project features a 94% permanent token burn, locked liquidity, audited smart contracts, and verified team credentials to strengthen security and trust. Beyond its trading infrastructure, SkyTrade Pro is expanding its ecosystem with new products, including a native blockchain and professional mobile applications, while maintaining a community-driven approach focused on sustainable growth and the broader adoption of decentralized finance.',
+    clickUpId: '86ajmnax9',
+    cgId: 'skytrade-pro',
+  },
+  {
     index: 1225,
     cmcId: 39535,
     version: '2.1.0',
@@ -5748,7 +5808,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://pro.skytradepro.com/',
     twitter: 'https://x.com/SkyTradeSUSDT',
     initTime: { [ChainId.BSC]: 1781613297 },
-    soldOut: false,
+    soldOut: true,
     hide: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -5845,7 +5905,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/apebond',
     audit: 'https://paladinsec.co/projects/apebond/',
     initTime: { [ChainId.BSC]: 1781536259 },
-    soldOut: false,
+    soldOut: true,
     hide: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -6044,7 +6104,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://dogelonmars.com/',
     twitter: 'https://x.com/dogelonmars',
     initTime: { [ChainId.BSC]: 1775551452 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
