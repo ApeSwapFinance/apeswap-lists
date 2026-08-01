@@ -5778,7 +5778,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/SkyTradeSUSDT',
     initTime: { [ChainId.BSC]: 1785147293 },
     soldOut: false,
-    hide: false,
+    hide: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },

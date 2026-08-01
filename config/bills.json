@@ -10705,7 +10705,7 @@
       "56": 1785147293
     },
     "soldOut": false,
-    "hide": false,
+    "hide": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
