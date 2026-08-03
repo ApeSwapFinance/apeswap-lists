@@ -10704,8 +10704,8 @@
     "initTime": {
       "56": 1785147293
     },
-    "soldOut": false,
-    "hide": true,
+    "soldOut": true,
+    "hide": false,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
@@ -11497,7 +11497,7 @@
     "initTime": {
       "56": 1769593098
     },
-    "soldOut": false,
+    "soldOut": true,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
