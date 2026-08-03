@@ -556,6 +556,14 @@
       "type": "token",
       "tokenAddress": "0x9FDBdA0A5e284c32744D2f17Ee5c74B284993463"
     },
+    "0x391121D817dA42ED3434d281aedBbcC416a2aF18": {
+      "name": "Harmonix Finance",
+      "symbol": "HAR",
+      "decimals": 18,
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "0x391121D817dA42ED3434d281aedBbcC416a2aF18"
+    },
     "0x4F9E014f620D83b08342C8BDFf3043fb2220b727": {
       "name": "QONE",
       "symbol": "QONE",

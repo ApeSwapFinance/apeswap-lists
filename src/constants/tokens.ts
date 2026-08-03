@@ -152,6 +152,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  har: {
+    symbol: 'HAR',
+    address: {
+      [ChainId.HYPEREVM]: '0x391121D817dA42ED3434d281aedBbcC416a2aF18',
+    },
+    decimals: {
+      [ChainId.HYPEREVM]: 18,
+    },
+    liquidityDex: {
+      [ChainId.HYPEREVM]: LiquidityDex.External,
+    },
+    active: true,
+  },
   ttn: {
     symbol: 'TTN',
     address: {
