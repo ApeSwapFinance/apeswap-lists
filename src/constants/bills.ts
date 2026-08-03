@@ -5777,8 +5777,8 @@ const bills: BillsConfig[] = [
     projectLink: 'https://pro.skytradepro.com/',
     twitter: 'https://x.com/SkyTradeSUSDT',
     initTime: { [ChainId.BSC]: 1785147293 },
-    soldOut: false,
-    hide: true,
+    soldOut: true,
+    hide: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -6232,7 +6232,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.zygoswap.io/swap',
     twitter: 'https://x.com/ZSWAP_DEX',
     initTime: { [ChainId.BSC]: 1769593098 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
