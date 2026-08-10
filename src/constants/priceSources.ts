@@ -181,6 +181,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       id: 'TEAFIUSDT',
       tokenAddress: '0x336ff048c664a081d527979ac4197d6c3c8bfb14',
     },
+    '0xb98B2f39c82d2bE83dc12087ad71AB85376285e8': {
+      name: 'Astroon',
+      symbol: 'AST',
+      decimals: 18,
+      source: PriceSource.Mexc,
+      id: 'ASTUSDT',
+      tokenAddress: '0xb98B2f39c82d2bE83dc12087ad71AB85376285e8',
+    },
     '0xb6C53431608E626AC81a9776ac3e999c5556717c': {
       name: 'pTokens TLOS',
       symbol: 'TLOS',
