@@ -295,6 +295,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  ast: {
+    symbol: 'AST',
+    address: {
+      [ChainId.BSC]: '0xb98B2f39c82d2bE83dc12087ad71AB85376285e8',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.External,
+    },
+    active: true,
+  },
   super: {
     symbol: 'SUPER',
     address: {
