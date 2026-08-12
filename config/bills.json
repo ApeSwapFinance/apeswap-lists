@@ -10657,6 +10657,61 @@
     "cgId": "metavault-trade"
   },
   {
+    "index": 1229,
+    "cmcId": 32489,
+    "version": "2.1.1",
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0x3B4e1a2d575FB77fC10fefE182B8e4b01d3563f6"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "56": "0x55d398326f99059fF775485246999027B3197955"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "AST",
+      "address": {
+        "56": "0xb98B2f39c82d2bE83dc12087ad71AB85376285e8"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "projectLink": "https://www.astroon.io",
+    "twitter": "https://x.com/playastroon",
+    "initTime": {
+      "56": 1786543816
+    },
+    "soldOut": false,
+    "hide": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["GameFi"],
+    "shortDescription": "Astroon is a character-first Web3 universe blending gaming, animation, NFTs and collectibles, with $AST powering purchases, rewards, staking, payments and governance across its growing ecosystem.",
+    "fullDescription": "Astroon is a character-first Web3 entertainment universe connecting gaming, animation, NFTs and physical collectibles into one expanding ecosystem. Its native token, $AST, powers in-game purchases, rewards, staking, service payments and governance, giving users multiple ways to participate, earn, access exclusive ecosystem features and play an active role in shaping Astroon’s future.",
+    "warningCard": "This token is currently only tradable on <a href=\"https://www.mexc.com/exchange/AST_USDT\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #6099c5\">MEXC</a>.",
+    "clickUpId": "86ajy936j"
+  },
+  {
     "index": 1228,
     "cmcId": 29157,
     "version": "2.1.0",

@@ -1779,6 +1779,19 @@
       "59144": "Metavault"
     }
   },
+  "ast": {
+    "symbol": "AST",
+    "address": {
+      "56": "0xb98B2f39c82d2bE83dc12087ad71AB85376285e8"
+    },
+    "decimals": {
+      "56": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "56": "External"
+    }
+  },
   "oabond": {
     "symbol": "oABOND",
     "address": {
