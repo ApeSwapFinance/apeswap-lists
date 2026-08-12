@@ -5760,6 +5760,37 @@ const bills: BillsConfig[] = [
   // BNB chain
   //
   {
+    index: 1229,
+    cmcId: 32489,
+    version: '2.1.1',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x3B4e1a2d575FB77fC10fefE182B8e4b01d3563f6',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.ast,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://www.astroon.io',
+    twitter: 'https://x.com/playastroon',
+    initTime: { [ChainId.BSC]: 1786543816 },
+    soldOut: false,
+    hide: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['GameFi'],
+    shortDescription:
+      'Astroon is a character-first Web3 universe blending gaming, animation, NFTs and collectibles, with $AST powering purchases, rewards, staking, payments and governance across its growing ecosystem.',
+    fullDescription:
+      'Astroon is a character-first Web3 entertainment universe connecting gaming, animation, NFTs and physical collectibles into one expanding ecosystem. Its native token, $AST, powers in-game purchases, rewards, staking, service payments and governance, giving users multiple ways to participate, earn, access exclusive ecosystem features and play an active role in shaping Astroon’s future.',
+    warningCard: `This token is currently only tradable on <a href="https://www.mexc.com/exchange/AST_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a>.`,
+    clickUpId: '86ajy936j',
+  },
+  {
     index: 1228,
     cmcId: 29157,
     version: '2.1.0',
@@ -21561,6 +21592,11 @@ With the lending products set to go live in February, the project is poised to a
       'Saito is a Layer 1 blockchain protocol built to rethink how blockchain infrastructure is funded and maintained. Rather than relying on miners or stakers, the network rewards the participants who provide actual network services through its Routing Work mechanism, creating stronger incentives for reliable connectivity and scalable infrastructure. The protocol also introduces Automatic Transaction Rebroadcasting (ATR), a dynamic system that manages blockchain data growth through market-based pricing. Combined with the ability to run blockchain applications directly in the browser using the chain as a decentralized public key infrastructure (PKI), Saito enables secure peer-to-peer connections and allows Web3 applications to operate without centralized servers. ',
     clickUpId: '86afx6ex8',
     cgId: 'saito',
+    postClaimFlow: {
+      text: 'Get an extra 7% bonus by migrating your $SAITO to Saito Mainnet!',
+      ctaUrl: 'https://saito.io/migration/apebond',
+      imgUrl: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1786472929/saitocompress_ytp3wz.png',
+    },
   },
   // {
   //   index: 3074,
@@ -21651,6 +21687,11 @@ With the lending products set to go live in February, the project is poised to a
       'Saito is a Layer 1 blockchain protocol built to rethink how blockchain infrastructure is funded and maintained. Rather than relying on miners or stakers, the network rewards the participants who provide actual network services through its Routing Work mechanism, creating stronger incentives for reliable connectivity and scalable infrastructure. The protocol also introduces Automatic Transaction Rebroadcasting (ATR), a dynamic system that manages blockchain data growth through market-based pricing. Combined with the ability to run blockchain applications directly in the browser using the chain as a decentralized public key infrastructure (PKI), Saito enables secure peer-to-peer connections and allows Web3 applications to operate without centralized servers. ',
     clickUpId: '86afx6ex8',
     cgId: 'saito',
+    postClaimFlow: {
+      text: 'Get an extra 7% bonus by migrating your $SAITO to Saito Mainnet!',
+      ctaUrl: 'https://saito.io/migration/apebond',
+      imgUrl: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1786472929/saitocompress_ytp3wz.png',
+    },
   },
   {
     index: 3077,
@@ -21777,6 +21818,11 @@ With the lending products set to go live in February, the project is poised to a
       'Saito is a Layer 1 blockchain protocol built to rethink how blockchain infrastructure is funded and maintained. Rather than relying on miners or stakers, the network rewards the participants who provide actual network services through its Routing Work mechanism, creating stronger incentives for reliable connectivity and scalable infrastructure. The protocol also introduces Automatic Transaction Rebroadcasting (ATR), a dynamic system that manages blockchain data growth through market-based pricing. Combined with the ability to run blockchain applications directly in the browser using the chain as a decentralized public key infrastructure (PKI), Saito enables secure peer-to-peer connections and allows Web3 applications to operate without centralized servers. ',
     clickUpId: '86ahd655m',
     cgId: 'saito',
+    postClaimFlow: {
+      text: 'Get an extra 7% bonus by migrating your $SAITO to Saito Mainnet!',
+      ctaUrl: 'https://saito.io/migration/apebond',
+      imgUrl: 'https://res.cloudinary.com/dswmrqgwy/image/upload/v1786472929/saitocompress_ytp3wz.png',
+    },
   },
   {
     index: 3081,

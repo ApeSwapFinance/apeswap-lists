@@ -409,6 +409,11 @@ export interface BaseBondConfig {
   marketingCampaign?: MarketingCampaign
   dexscreener?: string // This will force the dexscreener link we display (instead of using payout token address for it)
   tierBoostRate?: number // This will be used to give extra points to the user.
+  postClaimFlow?: {
+    text?: string
+    ctaUrl?: string
+    imgUrl?: string
+  }
 }
 
 export interface PreTGEConfig extends BaseBondConfig {
