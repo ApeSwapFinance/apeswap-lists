@@ -55,6 +55,7 @@ export enum ChainId {
   BITTENSOR = 964,
   BITTENSOR_TESTNET = 945,
   ROBINHOOD = 4663,
+  L1X = 1066,
 }
 
 export enum LiquidityDex {
