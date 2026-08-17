@@ -5777,7 +5777,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.astroon.io',
     twitter: 'https://x.com/playastroon',
     initTime: { [ChainId.BSC]: 1786543816 },
-    soldOut: false,
+    soldOut: true,
     hide: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
