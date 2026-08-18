@@ -237,6 +237,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       id: 'LERNUSDT',
       tokenAddress: '0x61327929b3eA44c5Ec503d44D71A6c0fA2CefB02',
     },
+    '0xdc228DD2B3AF4Dde862155a1cB39498A7Dfa41C6': {
+      name: 'LiquiFy Dao',
+      symbol: 'LiquiFy',
+      decimals: 18,
+      source: PriceSource.CoinStore,
+      id: 'LIQUIFYUSDT',
+      tokenAddress: '0xdc228DD2B3AF4Dde862155a1cB39498A7Dfa41C6',
+    },
     '0x80563Fc2dd549bf36f82d3bF3b970Bb5b08dBDdb': {
       name: 'REVIVE',
       symbol: 'RVV',
