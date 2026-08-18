@@ -9,7 +9,7 @@ import {
   MigrationVestingTerms,
 } from '../types'
 
-// BNB Largest ID: 1228
+// BNB Largest ID: 1230
 // Polygon Largest ID: 188
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2034
@@ -5759,6 +5759,37 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1230,
+    version: '2.1.1',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x0B53dbBdDa9970aB68ae79979A260576772774f7',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.liquify,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://liquifydao.com',
+    twitter: 'https://x.com/liquifydao',
+    initTime: { [ChainId.BSC]: 1787051290 },
+    soldOut: false,
+    hide: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Yield Aggregator'],
+    shortDescription:
+      'LiquiFy DAO is a cross-chain DeFi protocol that unlocks yield on idle and staked assets through liquid restaking, yield farming, and automated yield optimization. By bringing staking, portfolio management, and APY discovery into a single platform, LiquiFy helps users maximize capital efficiency without sacrificing liquidity.',
+    fullDescription:
+      'LiquiFy DAO is a decentralized yield optimization protocol designed to simplify and maximize participation across the DeFi ecosystem. The platform combines liquid restaking, liquidity yield farming, APY aggregation, and portfolio management into a unified experience spanning multiple blockchain networks, including Ethereum, BNB Chain, Solana, Polygon, and Arbitrum. Rather than moving assets across chains, LiquiFy enables users to discover and access the best native yield opportunities within each ecosystem while maintaining full liquidity through liquid staking tokens. By automating yield discovery, simplifying portfolio management, and enabling one-click rebalancing, LiquiFy creates a more capital-efficient and accessible DeFi experience for both new and experienced users.',
+    warningCard: `This token is currently only tradable on <a href="https://www.coinstore.com/spot/LIQUIFYUSDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">Coinstore</a>.`,
+    clickUpId: '86ak1kwbb',
+    vestingCliff: 604800,
+  },
   {
     index: 1229,
     cmcId: 32489,
