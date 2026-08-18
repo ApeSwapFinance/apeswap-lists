@@ -1779,6 +1779,19 @@
       "59144": "Metavault"
     }
   },
+  "liquify": {
+    "symbol": "LiquiFy",
+    "address": {
+      "56": "0xdc228DD2B3AF4Dde862155a1cB39498A7Dfa41C6"
+    },
+    "decimals": {
+      "56": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "56": "External"
+    }
+  },
   "ast": {
     "symbol": "AST",
     "address": {
