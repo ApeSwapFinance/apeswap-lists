@@ -1374,6 +1374,24 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       tokenAddress: '0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73',
     },
   },
+  [ChainId.L1X]: {
+    '0xcCD313e2c962BCea8501A6691598EF9A98975ba7': {
+      name: 'XUSD',
+      symbol: 'XUSD',
+      decimals: 18,
+      source: PriceSource.Fixed,
+      price: 1,
+      tokenAddress: '0xcCD313e2c962BCea8501A6691598EF9A98975ba7',
+    },
+    '0xaB0E60e41E1098337Fce6403F6b45f433b5052F8': {
+      name: 'Payout',
+      symbol: 'PAYOUT',
+      decimals: 18,
+      source: PriceSource.Fixed,
+      price: 5,
+      tokenAddress: '0xaB0E60e41E1098337Fce6403F6b45f433b5052F8',
+    },
+  },
 }
 
 export default priceSources
