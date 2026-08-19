@@ -20,6 +20,32 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  payout: {
+    symbol: 'payout',
+    address: {
+      [ChainId.L1X]: '0xaB0E60e41E1098337Fce6403F6b45f433b5052F8',
+    },
+    decimals: {
+      [ChainId.L1X]: 18,
+    },
+    liquidityDex: {
+      [ChainId.L1X]: LiquidityDex.External,
+    },
+    active: true,
+  },
+  xusd: {
+    symbol: 'XUSD',
+    address: {
+      [ChainId.L1X]: '0xcCD313e2c962BCea8501A6691598EF9A98975ba7',
+    },
+    decimals: {
+      [ChainId.L1X]: 18,
+    },
+    liquidityDex: {
+      [ChainId.L1X]: LiquidityDex.External,
+    },
+    active: true,
+  },
   usdg: {
     symbol: 'USDG',
     address: {
