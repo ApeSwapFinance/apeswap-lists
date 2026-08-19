@@ -45,6 +45,9 @@ const tokens: Record<string, Token> = {
       [ChainId.L1X]: LiquidityDex.External,
     },
     active: true,
+    getLpUrl: {
+      [ChainId.L1X]: 'https://www.qd.finance/build/swap-api'
+    },
   },
   usdg: {
     symbol: 'USDG',

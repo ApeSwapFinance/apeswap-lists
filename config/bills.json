@@ -19,7 +19,10 @@
       "liquidityDex": {
         "1066": "External"
       },
-      "active": true
+      "active": true,
+      "getLpUrl": {
+        "1066": "https://www.qd.finance/build/swap-api"
+      }
     },
     "earnToken": {
       "symbol": "payout",
