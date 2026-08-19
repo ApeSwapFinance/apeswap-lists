@@ -12,7 +12,7 @@
       "1066": "External"
     },
     "getLpUrl": {
-      "1066": "https://www.qd.finance/build/swap-api"
+      "1066": "https://www.qd.finance/swap"
     }
   },
   "payout": {

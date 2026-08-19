@@ -46,7 +46,7 @@ const tokens: Record<string, Token> = {
     },
     active: true,
     getLpUrl: {
-      [ChainId.L1X]: 'https://www.qd.finance/build/swap-api'
+      [ChainId.L1X]: 'https://www.qd.finance/swap',
     },
   },
   usdg: {
