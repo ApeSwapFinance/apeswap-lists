@@ -1,30 +1,4 @@
 {
-  "xusd": {
-    "symbol": "XUSD",
-    "address": {
-      "1066": "0xcCD313e2c962BCea8501A6691598EF9A98975ba7"
-    },
-    "decimals": {
-      "1066": 18
-    },
-    "active": true,
-    "liquidityDex": {
-      "1066": "External"
-    }
-  },
-  "payout": {
-    "symbol": "payout",
-    "address": {
-      "1066": "0xaB0E60e41E1098337Fce6403F6b45f433b5052F8"
-    },
-    "decimals": {
-      "1066": 18
-    },
-    "active": true,
-    "liquidityDex": {
-      "1066": "External"
-    }
-  },
   "usdc": {
     "symbol": "USDC",
     "address": {
