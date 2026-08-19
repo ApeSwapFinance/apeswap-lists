@@ -34,7 +34,6 @@ import {
 // APTOS Largest ID: 22000
 // SUI Largest ID: 23000
 // ROBINHOOD ID: 24000
-// LAYER ONE X ID: 25000
 
 const bills: BillsConfig[] = [
   //
@@ -44,36 +43,6 @@ const bills: BillsConfig[] = [
   //
   // APTOS - NOTE this is still devnet
   //
-
-  //
-  // LAYER ONE X
-  //
-  {
-    index: 25001,
-    version: '2.2.0',
-    chainId: ChainId.L1X,
-    contractAddress: {
-      [ChainId.L1X]: '0x4ce628330C785329FDceea67d00F9C816E219EEa',
-    },
-    billType: 'reserve',
-    billVersion: BillVersion.V4,
-    lpToken: tokens.xusd,
-    earnToken: tokens.payout,
-    billNnftAddress: {
-      [ChainId.L1X]: '0x5c98b2d892b37c9a1D3b69472bdDc172A64CdC09',
-    },
-    projectLink: 'https://l1xapp.com',
-    twitter: 'https://x.com/LayerOneX',
-    initTime: { [ChainId.L1X]: 1770745754 },
-    soldOut: false,
-    hide: true,
-    billArt: {
-      collection: BillArtCollection.ApeBond_Collection1,
-    },
-    tags: ['Blockchains'],
-    shortDescription: `Layer One X is an EVM-compatible Layer 1 built for seamless cross-chain interoperability. $L1X powers gas, staking, node participation, rewards, governance, and activity across the network.`,
-    fullDescription: `Layer One X is an EVM-compatible Layer 1 designed to connect fragmented blockchain ecosystems through native cross-chain interoperability across EVM and non-EVM networks. $L1X is the utility token powering the ecosystem, used for gas fees, staking, validator and node participation, network rewards, governance, and cross-chain activity—giving users and developers a more unified way to interact, build, and transact across multiple chains.`,
-  },
 
   //
   // ROBINHOOD
@@ -103,11 +72,9 @@ const bills: BillsConfig[] = [
   //   shortDescription: `Testbond on robinhood`,
   //   fullDescription: `Testbond on robinhood`,
   // },
-
   //
   // HYPEREVM
   //
-
   {
     index: 21001,
     cmcId: 39537,
