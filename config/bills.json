@@ -1,5 +1,60 @@
 [
   {
+    "index": 25001,
+    "version": "2.2.0",
+    "chainId": 1066,
+    "contractAddress": {
+      "1066": "0x4ce628330C785329FDceea67d00F9C816E219EEa"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "XUSD",
+      "address": {
+        "1066": "0xcCD313e2c962BCea8501A6691598EF9A98975ba7"
+      },
+      "decimals": {
+        "1066": 18
+      },
+      "liquidityDex": {
+        "1066": "External"
+      },
+      "active": true,
+      "getLpUrl": {
+        "1066": "https://www.qd.finance/swap"
+      }
+    },
+    "earnToken": {
+      "symbol": "payout",
+      "address": {
+        "1066": "0xaB0E60e41E1098337Fce6403F6b45f433b5052F8"
+      },
+      "decimals": {
+        "1066": 18
+      },
+      "liquidityDex": {
+        "1066": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "1066": "0x5c98b2d892b37c9a1D3b69472bdDc172A64CdC09"
+    },
+    "projectLink": "https://l1xapp.com",
+    "twitter": "https://x.com/LayerOneX",
+    "initTime": {
+      "1066": 1770745754
+    },
+    "soldOut": false,
+    "hide": true,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["Blockchains"],
+    "shortDescription": "Layer One X is an EVM-compatible Layer 1 built for seamless cross-chain interoperability. $L1X powers gas, staking, node participation, rewards, governance, and activity across the network.",
+    "fullDescription": "Layer One X is an EVM-compatible Layer 1 designed to connect fragmented blockchain ecosystems through native cross-chain interoperability across EVM and non-EVM networks. $L1X is the utility token powering the ecosystem, used for gas fees, staking, validator and node participation, network rewards, governance, and cross-chain activity—giving users and developers a more unified way to interact, build, and transact across multiple chains."
+  },
+  {
     "index": 21001,
     "cmcId": 39537,
     "version": "2.1.0",

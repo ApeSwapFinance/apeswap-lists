@@ -362,6 +362,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       type: 'token',
       tokenAddress: '0x920e753d8d7d5b598063c89b6f06288803448d06',
     },
+    '0xebE516a20238F79DC20b07eaD6768e08891Ed309': {
+      name: 'THEO',
+      symbol: 'THEO',
+      decimals: 18,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '0xebE516a20238F79DC20b07eaD6768e08891Ed309',
+    },
     '0x00096697DC24bd10423690126D91546A20Ccb3F0': {
       name: 'Veritas',
       symbol: 'VPT',

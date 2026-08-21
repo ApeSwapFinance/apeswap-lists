@@ -45,6 +45,9 @@ const tokens: Record<string, Token> = {
       [ChainId.L1X]: LiquidityDex.External,
     },
     active: true,
+    getLpUrl: {
+      [ChainId.L1X]: 'https://www.qd.finance/swap',
+    },
   },
   usdg: {
     symbol: 'USDG',
@@ -1861,6 +1864,19 @@ const tokens: Record<string, Token> = {
     symbol: 'OMNI',
     address: {
       [ChainId.BASE]: '0xf7178122a087ef8f5c7bea362b7dabe38f20bf05',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.External,
+    },
+  },
+  theo: {
+    symbol: 'THEO',
+    address: {
+      [ChainId.BASE]: '0xebE516a20238F79DC20b07eaD6768e08891Ed309',
     },
     decimals: {
       [ChainId.BASE]: 18,
