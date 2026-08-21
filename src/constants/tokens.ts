@@ -1873,6 +1873,19 @@ const tokens: Record<string, Token> = {
       [ChainId.BASE]: LiquidityDex.External,
     },
   },
+  theo: {
+    symbol: 'THEO',
+    address: {
+      [ChainId.BASE]: '0xebE516a20238F79DC20b07eaD6768e08891Ed309',
+    },
+    decimals: {
+      [ChainId.BASE]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.BASE]: LiquidityDex.External,
+    },
+  },
   xavi: {
     symbol: 'XAVI',
     address: {
