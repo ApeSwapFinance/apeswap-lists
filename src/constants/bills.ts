@@ -5837,8 +5837,8 @@ const bills: BillsConfig[] = [
     projectLink: 'https://liquifydao.com',
     twitter: 'https://x.com/liquifydao',
     initTime: { [ChainId.BSC]: 1787051290 },
-    soldOut: true,
-    hide: false,
+    soldOut: false,
+    hide: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
