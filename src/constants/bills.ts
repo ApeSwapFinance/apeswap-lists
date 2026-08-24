@@ -15,7 +15,7 @@ import {
 // Arbitrum Largest ID: 2034
 // ETH Largest ID: 3082
 // Linea Largest ID: 6020
-// Base Largest ID: 8101
+// Base Largest ID: 8102
 // Lightlink Largest ID: 7003
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
@@ -2039,6 +2039,34 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
+  {
+    index: 8102,
+    version: '2.1.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0x4137Cbd31467003388CdE4696F50D9f814c39621',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.theo,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    projectLink: 'https://www.autheo.com',
+    twitter: 'https://x.com/Autheo_Network',
+    initTime: { [ChainId.BASE]: 1787571067 },
+    soldOut: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Blockchains'],
+    shortDescription:
+      'Autheo is a Layer-0 operating system with an integrated Layer-1 blockchain that unifies identity, compute, storage, developer tooling, and AI into a single interoperable ecosystem. By providing a complete Web3 infrastructure stack, Autheo enables developers and enterprises to build secure, scalable, and AI-powered decentralized applications without relying on fragmented services.',
+    fullDescription:
+      'Autheo is a next-generation blockchain operating system designed to simplify Web3 development by bringing core infrastructure into a unified, interoperable environment. Built around an integrated Layer-0 and Layer-1 architecture, the platform combines post-quantum identity, decentralized compute, native storage, developer tooling, and embedded AI capabilities into a coordinated ecosystem. Instead of requiring multiple third-party services, Autheo provides a complete development stack that enables secure, scalable, and sovereign applications from a single platform. With native cross-chain interoperability, multi-language smart contract support, and AI-powered infrastructure management, Autheo aims to provide the foundation for the next generation of decentralized applications and enterprise blockchain solutions.',
+    clickUpId: '86ak2wa9q',
+  },
   {
     index: 8101,
     cmcId: 17131,

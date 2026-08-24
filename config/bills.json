@@ -3710,6 +3710,58 @@
     "cgId": "fomofox"
   },
   {
+    "index": 8102,
+    "version": "2.1.0",
+    "chainId": 8453,
+    "contractAddress": {
+      "8453": "0x4137Cbd31467003388CdE4696F50D9f814c39621"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "8453": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+      },
+      "decimals": {
+        "8453": 6
+      },
+      "liquidityDex": {
+        "8453": "Aerodrome"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "THEO",
+      "address": {
+        "8453": "0xebE516a20238F79DC20b07eaD6768e08891Ed309"
+      },
+      "decimals": {
+        "8453": 18
+      },
+      "active": true,
+      "liquidityDex": {
+        "8453": "External"
+      }
+    },
+    "billNnftAddress": {
+      "8453": "0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351"
+    },
+    "projectLink": "https://www.autheo.com",
+    "twitter": "https://x.com/Autheo_Network",
+    "initTime": {
+      "8453": 1787571067
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["Blockchains"],
+    "shortDescription": "Autheo is a Layer-0 operating system with an integrated Layer-1 blockchain that unifies identity, compute, storage, developer tooling, and AI into a single interoperable ecosystem. By providing a complete Web3 infrastructure stack, Autheo enables developers and enterprises to build secure, scalable, and AI-powered decentralized applications without relying on fragmented services.",
+    "fullDescription": "Autheo is a next-generation blockchain operating system designed to simplify Web3 development by bringing core infrastructure into a unified, interoperable environment. Built around an integrated Layer-0 and Layer-1 architecture, the platform combines post-quantum identity, decentralized compute, native storage, developer tooling, and embedded AI capabilities into a coordinated ecosystem. Instead of requiring multiple third-party services, Autheo provides a complete development stack that enables secure, scalable, and sovereign applications from a single platform. With native cross-chain interoperability, multi-language smart contract support, and AI-powered infrastructure management, Autheo aims to provide the foundation for the next generation of decentralized applications and enterprise blockchain solutions.",
+    "clickUpId": "86ak2wa9q"
+  },
+  {
     "index": 8101,
     "cmcId": 17131,
     "version": "2.1.0",
