@@ -10764,6 +10764,61 @@
     "cgId": "metavault-trade"
   },
   {
+    "index": 1232,
+    "version": "2.1.1",
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0x9e8b617f590D81c9A23Cd5b48260f965dc91C75f"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "56": "0x55d398326f99059fF775485246999027B3197955"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "LiquiFy",
+      "address": {
+        "56": "0xdc228DD2B3AF4Dde862155a1cB39498A7Dfa41C6"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "projectLink": "https://liquifydao.com",
+    "twitter": "https://x.com/liquifydao",
+    "initTime": {
+      "56": 1787051290
+    },
+    "soldOut": false,
+    "hide": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["Yield Aggregator"],
+    "shortDescription": "LiquiFy DAO is a cross-chain DeFi protocol that unlocks yield on idle and staked assets through liquid restaking, yield farming, and automated yield optimization. By bringing staking, portfolio management, and APY discovery into a single platform, LiquiFy helps users maximize capital efficiency without sacrificing liquidity.",
+    "fullDescription": "LiquiFy DAO is a decentralized yield optimization protocol designed to simplify and maximize participation across the DeFi ecosystem. The platform combines liquid restaking, liquidity yield farming, APY aggregation, and portfolio management into a unified experience spanning multiple blockchain networks, including Ethereum, BNB Chain, Solana, Polygon, and Arbitrum. Rather than moving assets across chains, LiquiFy enables users to discover and access the best native yield opportunities within each ecosystem while maintaining full liquidity through liquid staking tokens. By automating yield discovery, simplifying portfolio management, and enabling one-click rebalancing, LiquiFy creates a more capital-efficient and accessible DeFi experience for both new and experienced users.",
+    "warningCard": "This token is currently only tradable on <a href=\"https://www.coinstore.com/spot/LIQUIFYUSDT\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #6099c5\">Coinstore</a>.",
+    "clickUpId": "86ak1kwbb",
+    "vestingCliff": 604800
+  },
+  {
     "index": 1231,
     "cmcId": 39337,
     "version": "2.1.1",
@@ -10861,8 +10916,8 @@
     "initTime": {
       "56": 1787051290
     },
-    "soldOut": false,
-    "hide": true,
+    "soldOut": true,
+    "hide": false,
     "billArt": {
       "collection": "ApeBond_Collection1"
     },
