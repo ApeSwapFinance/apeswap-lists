@@ -5838,7 +5838,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/liquifydao',
     initTime: { [ChainId.BSC]: 1787051290 },
     soldOut: false,
-    hide: false,
+    hide: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
@@ -5876,9 +5876,8 @@ const bills: BillsConfig[] = [
     },
     tags: ['DEX'],
     shortDescription:
-      'Zygo is a unified Web3 ecosystem combining trading, gaming, and self-custody into a seamless Power-Stack that keeps liquidity efficient and active. Positioned as a true super-app, it retains value within its ecosystem while strengthening user engagement. Its token, $ZSWAP, fuels incentives, fee discounts, and yield opportunities backed by real revenue.',
-    fullDescription:
-      'Zygo is a vertically integrated Web3 ecosystem built to eliminate fragmentation across decentralized trading, on-chain gaming, and self-custody by unifying them into a seamless Power-Stack that keeps liquidity productive at all times. Rather than positioning itself as just another DEX or gaming venue, Zygo introduces a category shift toward super-apps where liquidity stays inside the ecosystem, gaming revenue reinforces token value, and the wallet becomes the key driver of user retention. In a landscape increasingly shaped by efficiency and engagement, Zygo aims to serve as the default on-chain hub for advanced Web3 users. The $ZSWAP token powers liquidity incentives, trading fee advantages, and yield strategies on Zygoswap, accruing value through real revenue supported by buy-backs, burns, and time-weighted rewards.',
+      'Zygo is a multichain Web3 ecosystem combining DEX trading, prediction markets, gaming, and self-custody. $ZSWAP powers fee rewards, trading incentives, and predictive market contracts across the ecosystem.',
+    fullDescription: `Zygo is a multichain Web3 ecosystem combining DEX trading, prediction markets, gaming, and self-custody. Through ZygoFuture, users can spend $ZSWAP on predictive market contracts with payouts in USDC, while ZygoSwap enables zero-fee trading and returns 50% of platform fees as $ZSWAP. The token also powers incentives and utilities across Zygo's broader ecosystem.`,
     clickUpId: '86ak53yqx',
     cgId: 'zygoswap',
   },
