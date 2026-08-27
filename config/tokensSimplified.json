@@ -15,19 +15,6 @@
       "1066": "https://www.qd.finance/swap"
     }
   },
-  "payout": {
-    "symbol": "payout",
-    "address": {
-      "1066": "0xaB0E60e41E1098337Fce6403F6b45f433b5052F8"
-    },
-    "decimals": {
-      "1066": 18
-    },
-    "active": true,
-    "liquidityDex": {
-      "1066": "External"
-    }
-  },
   "usdc": {
     "symbol": "USDC",
     "address": {
