@@ -65,7 +65,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://l1xapp.com/resources-links',
     twitter: 'https://x.com/LayerOneX',
     initTime: { [ChainId.L1X]: 1787915141 },
-    soldOut: false,
+    soldOut: true,
     hide: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
