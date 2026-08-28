@@ -53,26 +53,28 @@ const bills: BillsConfig[] = [
     version: '2.2.0',
     chainId: ChainId.L1X,
     contractAddress: {
-      [ChainId.L1X]: '0x4ce628330C785329FDceea67d00F9C816E219EEa',
+      [ChainId.L1X]: '0x7D6e3861Ae27746C7F759bD6054f989A08d2df69',
     },
     billType: 'reserve',
     billVersion: BillVersion.V4,
     lpToken: tokens.xusd,
-    earnToken: tokens.payout,
+    earnToken: tokens.xusd,
     billNnftAddress: {
       [ChainId.L1X]: '0x5c98b2d892b37c9a1D3b69472bdDc172A64CdC09',
     },
-    projectLink: 'https://l1xapp.com',
+    projectLink: 'https://l1xapp.com/resources-links',
     twitter: 'https://x.com/LayerOneX',
-    initTime: { [ChainId.L1X]: 1770745754 },
+    initTime: { [ChainId.L1X]: 1787915141 },
     soldOut: false,
-    hide: true,
+    hide: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['Blockchains'],
-    shortDescription: `Layer One X is an EVM-compatible Layer 1 built for seamless cross-chain interoperability. $L1X powers gas, staking, node participation, rewards, governance, and activity across the network.`,
-    fullDescription: `Layer One X is an EVM-compatible Layer 1 designed to connect fragmented blockchain ecosystems through native cross-chain interoperability across EVM and non-EVM networks. $L1X is the utility token powering the ecosystem, used for gas fees, staking, validator and node participation, network rewards, governance, and cross-chain activity—giving users and developers a more unified way to interact, build, and transact across multiple chains.`,
+    shortDescription: `xUSD is the native stablecoin of the L1X ecosystem, designed to power trading, settlements, and decentralized finance across the network. Backed by productive onchain liquidity positions rather than idle reserves, xUSD combines price stability with capital efficiency for everyday DeFi use.`,
+    fullDescription: `xUSD is a stablecoin designed to serve as the primary unit of value across the L1X ecosystem. Instead of holding reserves in inactive wallets, every xUSD is backed by onchain liquidity positions managed through NLO, where deposited stablecoins are allocated to curated liquidity pools and represented by verifiable LP receipts. This productive backing model allows the underlying collateral to generate yield while maintaining transparency and onchain verifiability. As the core settlement asset for trading, liquidity, and ecosystem fundraising, xUSD provides a stable, capital-efficient foundation that connects decentralized finance with native cross-chain functionality across the L1X network.`,
+    clickUpId: '86ak69y2n',
+    vestingCliff: 1209600,
   },
 
   //
@@ -7157,7 +7159,6 @@ const bills: BillsConfig[] = [
       'Seed NFT Marketplace is a Web3 platform for photographers, artists, and collectors to mint, verify, and showcase authentic NFTs. Tackling billions in industry losses from unauthorized use, it ensures ownership protection, over 99% revenue retention, and free Web3 migration. At the core of this ecosystem lies the SEED token, driving transactions, rewards, and collaboration across its inclusive marketplace.',
     fullDescription:
       'Seed NFT Marketplace is the premier Web3 hub for photographers, artists, and collectors, merging blockchain innovation with authentic creativity. The platform empowers photographers to mint, verify, and showcase their work as NFTs, ensuring collectors obtain genuine, immutable creations. Tackling the $80 billion photography industry’s losses from unauthorized use, Seed.Photo guarantees ownership protection, revenue maximization with over 99% retained by creators, and cost-free migration into Web3 by covering blockchain and gas fees. With global promotion opportunities in iconic locations, AI-powered tools, and features like CashClick, Lens Legacy, and Awards.Photos, Seed redefines transparency, community engagement, and creative empowerment. At the core of this ecosystem lies the SEED token, driving transactions, rewards, and collaboration across its inclusive marketplace.',
-    warningCard: `This token is currently only tradable on <a href="https://www.mexc.com/exchange/PHOTO_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a>.`,
     clickUpId: '86ab9t4zy',
     cgId: 'seed-photo',
   },
@@ -8053,7 +8054,6 @@ const bills: BillsConfig[] = [
       'Seed NFT Marketplace is a Web3 platform for photographers, artists, and collectors to mint, verify, and showcase authentic NFTs. Tackling billions in industry losses from unauthorized use, it ensures ownership protection, over 99% revenue retention, and free Web3 migration. At the core of this ecosystem lies the SEED token, driving transactions, rewards, and collaboration across its inclusive marketplace.',
     fullDescription:
       'Seed NFT Marketplace is the premier Web3 hub for photographers, artists, and collectors, merging blockchain innovation with authentic creativity. The platform empowers photographers to mint, verify, and showcase their work as NFTs, ensuring collectors obtain genuine, immutable creations. Tackling the $80 billion photography industry’s losses from unauthorized use, Seed.Photo guarantees ownership protection, revenue maximization with over 99% retained by creators, and cost-free migration into Web3 by covering blockchain and gas fees. With global promotion opportunities in iconic locations, AI-powered tools, and features like CashClick, Lens Legacy, and Awards.Photos, Seed redefines transparency, community engagement, and creative empowerment. At the core of this ecosystem lies the SEED token, driving transactions, rewards, and collaboration across its inclusive marketplace.',
-    warningCard: `This token is currently only tradable on <a href="https://www.mexc.com/exchange/PHOTO_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a>.`,
     clickUpId: '86ab9t4zy',
     cgId: 'seed-photo',
   },
