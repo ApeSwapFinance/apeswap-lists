@@ -4,7 +4,7 @@
     "version": "2.2.0",
     "chainId": 1066,
     "contractAddress": {
-      "1066": "0x89128b51C6f5D57223cdCD7c8178A94681D2290a"
+      "1066": "0x7D6e3861Ae27746C7F759bD6054f989A08d2df69"
     },
     "billType": "reserve",
     "billVersion": "V4",
