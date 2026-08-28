@@ -53,7 +53,7 @@ const bills: BillsConfig[] = [
     version: '2.2.0',
     chainId: ChainId.L1X,
     contractAddress: {
-      [ChainId.L1X]: '0xAAA7aB07d6B83a8f2c3fDAEEa1FF461cc04ef103',
+      [ChainId.L1X]: '0x89128b51C6f5D57223cdCD7c8178A94681D2290a',
     },
     billType: 'reserve',
     billVersion: BillVersion.V4,
@@ -64,7 +64,7 @@ const bills: BillsConfig[] = [
     },
     projectLink: 'https://l1xapp.com/resources-links',
     twitter: 'https://x.com/LayerOneX',
-    initTime: { [ChainId.L1X]: 1787844197 },
+    initTime: { [ChainId.L1X]: 1787915141 },
     soldOut: false,
     hide: false,
     billArt: {
