@@ -49,6 +49,34 @@ const bills: BillsConfig[] = [
   // LAYER ONE X
   //
   {
+    index: 25002,
+    version: '2.2.0',
+    chainId: ChainId.L1X,
+    contractAddress: {
+      [ChainId.L1X]: '0x8DDD5110E53DEF1F37F0B6962317C27082571653',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.xusd,
+    earnToken: tokens.xusd,
+    billNnftAddress: {
+      [ChainId.L1X]: '0x5c98b2d892b37c9a1D3b69472bdDc172A64CdC09',
+    },
+    projectLink: 'https://l1xapp.com/resources-links',
+    twitter: 'https://x.com/LayerOneX',
+    initTime: { [ChainId.L1X]: 1787939442 },
+    soldOut: false,
+    hide: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Blockchains'],
+    shortDescription: `xUSD is the native stablecoin of the L1X ecosystem, designed to power trading, settlements, and decentralized finance across the network. Backed by productive onchain liquidity positions rather than idle reserves, xUSD combines price stability with capital efficiency for everyday DeFi use.`,
+    fullDescription: `xUSD is a stablecoin designed to serve as the primary unit of value across the L1X ecosystem. Instead of holding reserves in inactive wallets, every xUSD is backed by onchain liquidity positions managed through NLO, where deposited stablecoins are allocated to curated liquidity pools and represented by verifiable LP receipts. This productive backing model allows the underlying collateral to generate yield while maintaining transparency and onchain verifiability. As the core settlement asset for trading, liquidity, and ecosystem fundraising, xUSD provides a stable, capital-efficient foundation that connects decentralized finance with native cross-chain functionality across the L1X network.`,
+    clickUpId: '86ak69y2n',
+    vestingCliff: 1209600,
+  },
+  {
     index: 25001,
     version: '2.2.0',
     chainId: ChainId.L1X,
