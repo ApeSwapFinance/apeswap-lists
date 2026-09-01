@@ -5868,7 +5868,7 @@ const bills: BillsConfig[] = [
     twitter: 'https://x.com/liquifydao',
     initTime: { [ChainId.BSC]: 1787051290 },
     soldOut: false,
-    hide: true,
+    hide: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
