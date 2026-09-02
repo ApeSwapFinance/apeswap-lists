@@ -58,7 +58,7 @@
     "fullDescription": "xUSD is a stablecoin designed to serve as the primary unit of value across the L1X ecosystem. Instead of holding reserves in inactive wallets, every xUSD is backed by onchain liquidity positions managed through NLO, where deposited stablecoins are allocated to curated liquidity pools and represented by verifiable LP receipts. This productive backing model allows the underlying collateral to generate yield while maintaining transparency and onchain verifiability. As the core settlement asset for trading, liquidity, and ecosystem fundraising, xUSD provides a stable, capital-efficient foundation that connects decentralized finance with native cross-chain functionality across the L1X network.",
     "clickUpId": "86ak69y2n",
     "vestingCliff": 1209600,
-    "tierBoostRate": 0
+    "tierBoostRate": 1
   },
   {
     "index": 25001,

@@ -1,0 +1,27 @@
+# Frozen lists (freeze: true in src/legacy-build/index.ts's listMap) — deprecated,
+# never rewritten during build, so prettier must leave both the generated JSON
+# and their source .ts files alone too.
+# Keep this list in sync with listMap's freeze entries.
+config/farms.json
+config/farmsV2.json
+config/pools.json
+config/jungleFarms.json
+config/vaults.json
+config/vaultsV3.json
+config/dualFarms.json
+config/nfaStakingPools.json
+config/iaos.json
+config/jungleFarmsV2.json
+config/poolsV2.json
+
+src/constants/farms.ts
+src/constants/farmsV2.ts
+src/constants/pools.ts
+src/constants/jungleFarms.ts
+src/constants/vaults.ts
+src/constants/vaultsV3.ts
+src/constants/dualFarms.ts
+src/constants/nfaStakingPools.ts
+src/constants/iaos.ts
+src/constants/jungleFarmsV2.ts
+src/constants/poolsV2.ts
