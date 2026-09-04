@@ -6027,7 +6027,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://pro.skytradepro.com/',
     twitter: 'https://x.com/SkyTradeSUSDT',
     initTime: { [ChainId.BSC]: 1785943148 },
-    soldOut: false,
+    soldOut: true,
     hide: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
