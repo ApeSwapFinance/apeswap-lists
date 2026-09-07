@@ -1,5 +1,5 @@
 import { resolve } from 'path'
-import { writeFile } from 'fs'
+import { writeFile, mkdirSync } from 'fs'
 import {
   farms,
   bills,
@@ -24,19 +24,21 @@ import {
 } from '../constants'
 import { BillsConfig, Token, ChainId, LiquidityDex } from '../types'
 
-const listMap: [any, string][] = [
-  [farms, 'farms'],
-  [farmsV2, 'farmsV2'],
+// freeze: true => deprecated list, config/<name>.json is left untouched on build
+// freeze: false/omitted ("keep") => regenerated on every build
+const listMap: [any, string, boolean?][] = [
+  [farms, 'farms', true],
+  [farmsV2, 'farmsV2', true],
   [bills, 'bills'],
-  [pools, 'pools'],
-  [jungleFarms, 'jungleFarms'],
-  [vaults, 'vaults'],
-  [vaultsV3, 'vaultsV3'],
-  [dualFarms, 'dualFarms'],
-  [nfaStakingPools, 'nfaStakingPools'],
-  [iaos, 'iaos'],
-  [jungleFarmsV2, 'jungleFarmsV2'],
-  [poolsV2, 'poolsV2'],
+  [pools, 'pools', true],
+  [jungleFarms, 'jungleFarms', true],
+  [vaults, 'vaults', true],
+  [vaultsV3, 'vaultsV3', true],
+  [dualFarms, 'dualFarms', true],
+  [nfaStakingPools, 'nfaStakingPools', true],
+  [iaos, 'iaos', true],
+  [jungleFarmsV2, 'jungleFarmsV2', true],
+  [poolsV2, 'poolsV2', true],
   [launchProjects, 'launchProjects'],
   [preTGEBonds, 'preTGEBonds'],
   [flashBonds, 'flashBonds'],
@@ -86,7 +88,11 @@ export const stringifyList = (listProp: any, listName: string) => {
   return JSON.stringify(list, null, 2)
 }
 
-export const buildList = (listProp: any, listName: string) => {
+export const buildList = (listProp: any, listName: string, freeze?: boolean) => {
+  if (freeze) {
+    console.info(`🧊  ${listName} frozen, skipped`)
+    return
+  }
   const tokenListPath = `${resolve()}/config/${listName}.json`
   const stringifiedList = stringifyList(listProp, listName)
   writeFile(tokenListPath, stringifiedList, function (err) {
@@ -326,9 +332,10 @@ const buildTokensSimplified = () => {
 }
 
 export const buildLegacyConfig = () => {
+  mkdirSync(`${resolve()}/config`, { recursive: true })
   listMap.map((curList) => {
-    const [list, listName] = curList
-    buildList(list, listName)
+    const [list, listName, freeze] = curList
+    buildList(list, listName, freeze)
   })
   buildTokens()
   buildTokensSimplified()

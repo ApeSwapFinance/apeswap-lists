@@ -1,7 +1,7 @@
 {
   "include": ["src/types", "src/main.ts"],
   "compilerOptions": {
-    "target": "es2018",
+    "target": "es2017",
     "module": "esnext",
     "outDir": "./lib",
     "importHelpers": true,
@@ -20,10 +20,8 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "moduleResolution": "node",
-    "baseUrl": "./",
-    "paths": {
-      "*": ["src/*", "node_modules/*"]
-    },
+    "ignoreDeprecations": "6.0",
+    "types": ["node", "jest"],
     "esModuleInterop": true,
     "resolveJsonModule": true
   }
