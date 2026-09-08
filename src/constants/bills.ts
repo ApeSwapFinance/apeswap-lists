@@ -2098,6 +2098,7 @@ const bills: BillsConfig[] = [
     fullDescription:
       'Autheo is a next-generation blockchain operating system designed to simplify Web3 development by bringing core infrastructure into a unified, interoperable environment. Built around an integrated Layer-0 and Layer-1 architecture, the platform combines post-quantum identity, decentralized compute, native storage, developer tooling, and embedded AI capabilities into a coordinated ecosystem. Instead of requiring multiple third-party services, Autheo provides a complete development stack that enables secure, scalable, and sovereign applications from a single platform. With native cross-chain interoperability, multi-language smart contract support, and AI-powered infrastructure management, Autheo aims to provide the foundation for the next generation of decentralized applications and enterprise blockchain solutions.',
     clickUpId: '86ak2wa9q',
+    vestingCliff: 604800,
   },
   {
     index: 8101,
