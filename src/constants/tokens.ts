@@ -62,6 +62,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  cashcat: {
+    symbol: 'CASHCAT',
+    address: {
+      [ChainId.ROBINHOOD]: '0x020bfC650A365f8BB26819deAAbF3E21291018b4',
+    },
+    decimals: {
+      [ChainId.ROBINHOOD]: 18,
+    },
+    liquidityDex: {
+      [ChainId.ROBINHOOD]: LiquidityDex.External,
+    },
+    active: true,
+  },
   mvs: {
     // TODO: remove this test token
     symbol: 'MVS',
