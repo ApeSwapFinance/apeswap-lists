@@ -1399,6 +1399,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       price: 5,
       tokenAddress: '0xaB0E60e41E1098337Fce6403F6b45f433b5052F8',
     },
+    '0x020bfC650A365f8BB26819deAAbF3E21291018b4': {
+      name: 'Cash cat',
+      symbol: 'CASHCAT',
+      decimals: 18,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '0x020bfC650A365f8BB26819deAAbF3E21291018b4',
+    },
   },
 }
 
