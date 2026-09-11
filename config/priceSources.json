@@ -664,8 +664,8 @@
       "name": "Cash cat",
       "symbol": "CASHCAT",
       "decimals": 18,
-      "source": "dexscreener",
-      "type": "token",
+      "source": "coingecko",
+      "id": "cash-cat",
       "tokenAddress": "0x020bfC650A365f8BB26819deAAbF3E21291018b4"
     }
   },
