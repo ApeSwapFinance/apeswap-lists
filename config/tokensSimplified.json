@@ -15,6 +15,32 @@
       "1066": "https://www.qd.finance/swap"
     }
   },
+  "usdg": {
+    "symbol": "USDG",
+    "address": {
+      "4663": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+    },
+    "decimals": {
+      "4663": 6
+    },
+    "active": true,
+    "liquidityDex": {
+      "4663": "External"
+    }
+  },
+  "cashcat": {
+    "symbol": "CASHCAT",
+    "address": {
+      "4663": "0x020bfC650A365f8BB26819deAAbF3E21291018b4"
+    },
+    "decimals": {
+      "4663": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "4663": "External"
+    }
+  },
   "usdc": {
     "symbol": "USDC",
     "address": {
@@ -6202,16 +6228,6 @@
     },
     "decimals": {
       "56": 18
-    },
-    "active": true
-  },
-  "usdg": {
-    "symbol": "USDG",
-    "address": {
-      "4663": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
-    },
-    "decimals": {
-      "4663": 6
     },
     "active": true
   },
