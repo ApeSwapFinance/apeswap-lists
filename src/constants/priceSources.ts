@@ -1381,6 +1381,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       id: 'ethereum',
       tokenAddress: '0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73',
     },
+    '0x020bfC650A365f8BB26819deAAbF3E21291018b4': {
+      name: 'Cash cat',
+      symbol: 'CASHCAT',
+      decimals: 18,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '0x020bfC650A365f8BB26819deAAbF3E21291018b4',
+    },
   },
   [ChainId.L1X]: {
     '0xcCD313e2c962BCea8501A6691598EF9A98975ba7': {
@@ -1398,14 +1406,6 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       source: PriceSource.Fixed,
       price: 5,
       tokenAddress: '0xaB0E60e41E1098337Fce6403F6b45f433b5052F8',
-    },
-    '0x020bfC650A365f8BB26819deAAbF3E21291018b4': {
-      name: 'Cash cat',
-      symbol: 'CASHCAT',
-      decimals: 18,
-      source: PriceSource.Dexscreener,
-      type: 'token',
-      tokenAddress: '0x020bfC650A365f8BB26819deAAbF3E21291018b4',
     },
   },
 }

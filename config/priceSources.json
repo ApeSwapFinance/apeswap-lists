@@ -605,14 +605,6 @@
       "source": "fixed",
       "price": 5,
       "tokenAddress": "0xaB0E60e41E1098337Fce6403F6b45f433b5052F8"
-    },
-    "0x020bfC650A365f8BB26819deAAbF3E21291018b4": {
-      "name": "Cash cat",
-      "symbol": "CASHCAT",
-      "decimals": 18,
-      "source": "dexscreener",
-      "type": "token",
-      "tokenAddress": "0x020bfC650A365f8BB26819deAAbF3E21291018b4"
     }
   },
   "1329": {
@@ -667,6 +659,14 @@
       "source": "coingecko",
       "id": "ethereum",
       "tokenAddress": "0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73"
+    },
+    "0x020bfC650A365f8BB26819deAAbF3E21291018b4": {
+      "name": "Cash cat",
+      "symbol": "CASHCAT",
+      "decimals": 18,
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "0x020bfC650A365f8BB26819deAAbF3E21291018b4"
     }
   },
   "5888": {
