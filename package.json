@@ -15,7 +15,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "build": "yarn typecheck && yarn legacy-build && rimraf ./lib && tsc --target es2017 --module commonjs && yarn run format:write",
+    "build": "yarn typecheck && yarn legacy-build && rimraf ./lib && tsc --module commonjs && yarn run format:write",
     "start": "tsx watch scripts/build-legacy-config.ts",
     "prepublishOnly": "yarn build",
     "prepare": "husky install",
