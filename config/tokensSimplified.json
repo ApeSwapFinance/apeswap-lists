@@ -15,32 +15,6 @@
       "1066": "https://www.qd.finance/swap"
     }
   },
-  "usdg": {
-    "symbol": "USDG",
-    "address": {
-      "4663": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
-    },
-    "decimals": {
-      "4663": 6
-    },
-    "active": true,
-    "liquidityDex": {
-      "4663": "External"
-    }
-  },
-  "cashcat": {
-    "symbol": "CASHCAT",
-    "address": {
-      "4663": "0x020bfC650A365f8BB26819deAAbF3E21291018b4"
-    },
-    "decimals": {
-      "4663": 18
-    },
-    "active": true,
-    "liquidityDex": {
-      "4663": "External"
-    }
-  },
   "usdc": {
     "symbol": "USDC",
     "address": {
@@ -1834,6 +1808,19 @@
       "59144": "Metavault"
     }
   },
+  "oabond": {
+    "symbol": "oABOND",
+    "address": {
+      "56": "0xBdB4cb0aC14eE8D4f6063E5E74054499FbD78dA8"
+    },
+    "decimals": {
+      "56": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "56": "External"
+    }
+  },
   "liquify": {
     "symbol": "LiquiFy",
     "address": {
@@ -1877,19 +1864,6 @@
     "symbol": "AST",
     "address": {
       "56": "0xb98B2f39c82d2bE83dc12087ad71AB85376285e8"
-    },
-    "decimals": {
-      "56": 18
-    },
-    "active": true,
-    "liquidityDex": {
-      "56": "External"
-    }
-  },
-  "oabond": {
-    "symbol": "oABOND",
-    "address": {
-      "56": "0xBdB4cb0aC14eE8D4f6063E5E74054499FbD78dA8"
     },
     "decimals": {
       "56": 18
@@ -6228,6 +6202,16 @@
     },
     "decimals": {
       "56": 18
+    },
+    "active": true
+  },
+  "usdg": {
+    "symbol": "USDG",
+    "address": {
+      "4663": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+    },
+    "decimals": {
+      "4663": 6
     },
     "active": true
   },

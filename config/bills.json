@@ -122,57 +122,6 @@
     "tierBoostRate": 0
   },
   {
-    "index": 24001,
-    "version": "2.1.0",
-    "chainId": 4663,
-    "contractAddress": {
-      "4663": "0x423d3832f1D8c9c09261037C5FB5C1F034c0ecBf"
-    },
-    "billType": "reserve",
-    "billVersion": "V4",
-    "lpToken": {
-      "symbol": "USDG",
-      "address": {
-        "4663": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
-      },
-      "decimals": {
-        "4663": 6
-      },
-      "liquidityDex": {
-        "4663": "External"
-      },
-      "active": true
-    },
-    "earnToken": {
-      "symbol": "CASHCAT",
-      "address": {
-        "4663": "0x020bfC650A365f8BB26819deAAbF3E21291018b4"
-      },
-      "decimals": {
-        "4663": 18
-      },
-      "liquidityDex": {
-        "4663": "External"
-      },
-      "active": true
-    },
-    "billNnftAddress": {
-      "4663": "0xE11aDE39E40440AF0f66cBd07Db910EFD2A4573E"
-    },
-    "projectLink": "https://qoogle.com",
-    "twitter": "https://qoogle.com",
-    "initTime": {
-      "4663": 1789124441
-    },
-    "soldOut": false,
-    "billArt": {
-      "collection": "ApeBond_Collection1"
-    },
-    "tags": ["AI"],
-    "shortDescription": "Testbond on robinhood",
-    "fullDescription": "Testbond on robinhood"
-  },
-  {
     "index": 21001,
     "cmcId": 39537,
     "version": "2.1.0",
@@ -10881,6 +10830,64 @@
     "shortDescription": "Metavault is a perpetual DEX aggregator featuring an all-in-one DeFi super dApp, allowing users to trade multichain with a seamless user experience. With over $2.9 billion in trading volume and trusted by over 139,000 users, Metavault is the go-to solution for all DeFi needs!",
     "clickUpId": "86a3ezkxq",
     "cgId": "metavault-trade"
+  },
+  {
+    "index": 1233,
+    "cmcId": 29157,
+    "version": "2.1.0",
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0x03A03c530dbAffD20ee2FAE390647843173edd32"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "56": "0x55d398326f99059fF775485246999027B3197955"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "oABOND",
+      "address": {
+        "56": "0xBdB4cb0aC14eE8D4f6063E5E74054499FbD78dA8"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "projectLink": "https://ape.bond/",
+    "twitter": "https://x.com/apebond",
+    "audit": "https://paladinsec.co/projects/apebond/",
+    "initTime": {
+      "56": 1789381361
+    },
+    "soldOut": false,
+    "hide": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["Bonding"],
+    "shortDescription": "Step into the full ApeBond experience with veABOND, the gateway to real yield and premium perks. By locking ABOND, you can gain access to better Bond discounts, a share in protocol revenue paid weekly in USDT, exclusive deals, and other benefits. veABOND is built for long-term ApeBond believers.",
+    "fullDescription": "ApeBond is a decentralized, permissionless platform designed to connect users and projects through an efficient bonding mechanism. Users can acquire tokens at a discounted rate, with those tokens vesting gradually over a set period. This creates a win-win system where users benefit from lower entry prices, while projects gain long-term, protocol-owned liquidity and strengthen their treasury in a sustainable way. veABOND is the gateway to real yield and premium perks. By locking ABOND, you can gain access to better Bond discounts, a share in protocol revenue paid weekly in USDT, exclusive deals, and other benefits. veABOND is built for long-term ApeBond believers.",
+    "warningCard": "oABOND is ABOND's option token, redeemable 1:1 for veABOND at permalock.",
+    "clickUpId": "",
+    "cgId": "abond",
+    "vestingCliff": 432000
   },
   {
     "index": 1232,
