@@ -1035,6 +1035,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       id: 'axycoin',
       tokenAddress: '0x66730C91e5c3132811B1DcAD8BECabbdeC644394',
     },
+    '0x0EAdDCBe240d7Eeb1bA21f1EED48E58293969c6e': {
+      name: 'Soli Coin',
+      symbol: 'SOLI',
+      decimals: 18,
+      source: PriceSource.Coingecko,
+      id: 'soli-coin-2',
+      tokenAddress: '0x0EAdDCBe240d7Eeb1bA21f1EED48E58293969c6e',
+    },
     '0x5D8AB16A943204a031fc94ef6Cb4D7A8c7E59602': {
       name: 'Syndicate of Vigilantes',
       symbol: 'VIGI',

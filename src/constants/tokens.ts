@@ -1403,6 +1403,19 @@ const tokens: Record<string, Token> = {
       [ChainId.MAINNET]: LiquidityDex.External,
     },
   },
+  soli: {
+    symbol: 'SOLI',
+    address: {
+      [ChainId.MAINNET]: '0x0EAdDCBe240d7Eeb1bA21f1EED48E58293969c6e',
+    },
+    decimals: {
+      [ChainId.MAINNET]: 18,
+    },
+    active: true,
+    liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.External,
+    },
+  },
   fpmUSD: {
     symbol: 'fpmUSD',
     address: {
