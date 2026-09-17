@@ -5950,6 +5950,17 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  wbai: {
+    symbol: 'WBAI',
+    address: {
+      [ChainId.BSC]: '0x635d44F246156ed1080CB470877256c847673f19',
+    },
+    decimals: { [ChainId.BSC]: 18 },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.PancakeSwapV3,
+    },
+    active: true,
+  },
   mfps: {
     symbol: 'MFPS',
     address: {
