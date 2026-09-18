@@ -122,6 +122,59 @@
     "tierBoostRate": 0
   },
   {
+    "index": 21002,
+    "cmcId": 39537,
+    "version": "2.1.0",
+    "chainId": 999,
+    "contractAddress": {
+      "999": "0x7bDcDb77AABe4218124Ee4668a30939E5156F860"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDC",
+      "address": {
+        "999": "0xb88339CB7199b77E23DB6E890353E22632Ba630f"
+      },
+      "decimals": {
+        "999": 6
+      },
+      "liquidityDex": {
+        "999": "External"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "HAR",
+      "address": {
+        "999": "0x391121D817dA42ED3434d281aedBbcC416a2aF18"
+      },
+      "decimals": {
+        "999": 18
+      },
+      "liquidityDex": {
+        "999": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "999": "0x6254e394ab73f4688c2254565f04efEEa1381bFE"
+    },
+    "projectLink": "https://harmonix.fi/deck",
+    "twitter": "https://x.com/harmonixfi",
+    "initTime": {
+      "999": 1789742597
+    },
+    "soldOut": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["Yield Optimizer"],
+    "shortDescription": "Harmonix is a yield infrastructure protocol built natively on Hyperliquid, designed to capture real onchain economic activity across HyperCore and HyperEVM. Through yield-bearing assets such as haUSDC, haHYPE, and hakHYPE, Harmonix deploys capital across funding markets, lending, staking, and other DeFi strategies to generate adaptive yield from multiple sources.",
+    "fullDescription": "Harmonix is a multi-strategy yield protocol that turns Hyperliquid’s trading and DeFi activity into composable yield-bearing products. Its infrastructure combines basis-trade strategies that capture perpetual funding rates with opportunities across lending, staking, looping, and other HyperEVM protocols, dynamically rotating capital as market conditions change. At the center of the ecosystem is HAR, a fixed-supply token that enables holders to participate in protocol governance, guide treasury allocations and incentives, access downside-protected staking, and support liquidity across the ecosystem. By connecting market-driven yield with governance and capital-efficient DeFi strategies, Harmonix creates an infrastructure layer where protocol activity and user participation are closely aligned.",
+    "clickUpId": "86ajv1q6v"
+  },
+  {
     "index": 21001,
     "cmcId": 39537,
     "version": "2.1.0",
