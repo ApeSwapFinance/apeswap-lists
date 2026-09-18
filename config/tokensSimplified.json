@@ -70,6 +70,19 @@
       "7566697": "External"
     }
   },
+  "har": {
+    "symbol": "HAR",
+    "address": {
+      "999": "0x391121D817dA42ED3434d281aedBbcC416a2aF18"
+    },
+    "decimals": {
+      "999": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "999": "External"
+    }
+  },
   "qone": {
     "symbol": "QONE",
     "address": {
