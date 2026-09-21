@@ -2102,7 +2102,7 @@ const bills: BillsConfig[] = [
     version: '2.1.0',
     chainId: ChainId.BASE,
     contractAddress: {
-      [ChainId.BASE]: '0xE2E16dBd95e65277f889e3417D07F00a0674b788',
+      [ChainId.BASE]: '0xEC28ae622eFA0b330544b6413a06240D6BC5056D',
     },
     billType: 'reserve',
     billVersion: BillVersion.V4,
