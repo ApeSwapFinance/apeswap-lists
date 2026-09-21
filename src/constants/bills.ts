@@ -15,7 +15,7 @@ import {
 // Arbitrum Largest ID: 2034
 // ETH Largest ID: 3082
 // Linea Largest ID: 6020
-// Base Largest ID: 8102
+// Base Largest ID: 8104
 // Lightlink Largest ID: 7003
 // IOTA largest ID: 9003
 // Migration Bonds ID: 5007
@@ -2097,6 +2097,35 @@ const bills: BillsConfig[] = [
   //
   // BASE
   //
+  {
+    index: 8104,
+    version: '2.1.0',
+    chainId: ChainId.BASE,
+    contractAddress: {
+      [ChainId.BASE]: '0xb033DbcF6285b43F624acaddE267a25E6Be09Ab3',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdc,
+    earnToken: tokens.seed2,
+    billNnftAddress: {
+      [ChainId.BASE]: '0xD8C7fe06E24A2862d78D0F1BF040bA79463d9351',
+    },
+    projectLink: 'https://sproutlyrwa.com',
+    twitter: 'https://x.com/sproutlyrwa',
+    initTime: { [ChainId.BASE]: 1790004111 },
+    soldOut: false,
+    hide: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['RWA'],
+    shortDescription:
+      'Sproutly is an RWA ecosystem bringing real-world agroforestry and verified carbon impact on-chain. Backed by real-world operations, Sproutly connects geo-tagged trees and certified environmental assets with Web3. $SEED powers staking, NFTree evolution, governance, ecosystem rewards, and access to cooperative membership.',
+    fullDescription:
+      'Sproutly is an RWA ecosystem connecting real-world agroforestry, verified carbon impact, and Web3. As the technology engine behind Carbify’s operations, Sproutly powers the infrastructure linking geo-tagged trees, certified environmental data, staking, governance, APIs, and tokenized assets on-chain. Rather than relying solely on third-party environmental assets, the ecosystem is built around agroforestry systems that are planted, certified, and tokenized through its own infrastructure. $SEED powers staking, rewards, NFTree progression, governance, and access to cooperative membership, giving users multiple ways to participate in and benefit from Sproutly’s growth.',
+    clickUpId: '86akmvrxx',
+  },
   {
     index: 8103,
     version: '2.1.0',
