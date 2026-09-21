@@ -450,6 +450,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       type: 'token',
       tokenAddress: '0x28974AeC76DE8958361B49e8093865636cE71e1B',
     },
+    '0x216Ef90E789A8c97b166901Ec1d11d6612C8cf8C': {
+      name: 'SEED',
+      symbol: 'SEED',
+      decimals: 18,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '0x216Ef90E789A8c97b166901Ec1d11d6612C8cf8C',
+    },
     '0x1923aAF3e0F110BBCe8e1DeDE79faa994a6D7dE0': {
       name: 'sGOO',
       symbol: 'sGOO',
