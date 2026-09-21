@@ -10885,6 +10885,62 @@
     "cgId": "metavault-trade"
   },
   {
+    "index": 1234,
+    "cmcId": 38261,
+    "version": "2.1.0",
+    "chainId": 56,
+    "contractAddress": {
+      "56": "0xE2E16dBd95e65277f889e3417D07F00a0674b788"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "USDT",
+      "address": {
+        "56": "0x55d398326f99059fF775485246999027B3197955"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "WBAI",
+      "address": {
+        "56": "0x635d44F246156ed1080CB470877256c847673f19"
+      },
+      "decimals": {
+        "56": 18
+      },
+      "liquidityDex": {
+        "56": "PancakeSwapV3"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "56": "0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9"
+    },
+    "projectLink": "https://www.whitebridge.network",
+    "twitter": "https://x.com/aiwhitebridge",
+    "initTime": {
+      "56": 1789985009
+    },
+    "soldOut": false,
+    "hide": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["AI"],
+    "shortDescription": "WhiteBridge AI Agents Network is a decentralized people-data intelligence network combining AI agents with DePIN infrastructure to transform fragmented global data into structured, actionable insights. By connecting authoritative data sources and digital footprints, WhiteBridge powers applications such as reputation analysis, background checks, compliance monitoring, identity verification, and business due diligence.",
+    "fullDescription": "WhiteBridge AI Agents Network is building a decentralized intelligence layer where AI agents access and analyze verified people data through a global network of independent data providers. Incubated by ChainGPT Labs and accelerated through BNB Chain’s MVB 10, WhiteBridge has also joined Trust Wallet’s Trust Moon accelerator and launched through CAKE.PAD in its most oversubscribed sale at the time. Its DePIN and Decentralized Digital Identity Network (DeDIN) architecture transforms fragmented information into structured digital identities that power reputation monitoring, due diligence, authenticity verification, and other intelligence applications. Through a token-driven model, data providers are rewarded when AI agents query their datasets, creating an economic flywheel where more integrated data improves intelligence quality, expands use cases, and drives further network activity.",
+    "clickUpId": "86akm3k9k",
+    "cgId": "whitebridge",
+    "vestingCliff": 1209600
+  },
+  {
     "index": 1233,
     "cmcId": 29157,
     "version": "2.1.0",

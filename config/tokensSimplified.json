@@ -1821,6 +1821,19 @@
       "59144": "Metavault"
     }
   },
+  "wbai": {
+    "symbol": "WBAI",
+    "address": {
+      "56": "0x635d44F246156ed1080CB470877256c847673f19"
+    },
+    "decimals": {
+      "56": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "56": "PancakeSwapV3"
+    }
+  },
   "oabond": {
     "symbol": "oABOND",
     "address": {

@@ -9,7 +9,7 @@ import {
   MigrationVestingTerms,
 } from '../types'
 
-// BNB Largest ID: 1233
+// BNB Largest ID: 1234
 // Polygon Largest ID: 188
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2034
@@ -5879,6 +5879,38 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1234,
+    cmcId: 38261,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0xE2E16dBd95e65277f889e3417D07F00a0674b788',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.wbai,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://www.whitebridge.network',
+    twitter: 'https://x.com/aiwhitebridge',
+    initTime: { [ChainId.BSC]: 1789985009 },
+    soldOut: false,
+    hide: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription:
+      'WhiteBridge AI Agents Network is a decentralized people-data intelligence network combining AI agents with DePIN infrastructure to transform fragmented global data into structured, actionable insights. By connecting authoritative data sources and digital footprints, WhiteBridge powers applications such as reputation analysis, background checks, compliance monitoring, identity verification, and business due diligence.',
+    fullDescription:
+      'WhiteBridge AI Agents Network is building a decentralized intelligence layer where AI agents access and analyze verified people data through a global network of independent data providers. Incubated by ChainGPT Labs and accelerated through BNB Chain’s MVB 10, WhiteBridge has also joined Trust Wallet’s Trust Moon accelerator and launched through CAKE.PAD in its most oversubscribed sale at the time. Its DePIN and Decentralized Digital Identity Network (DeDIN) architecture transforms fragmented information into structured digital identities that power reputation monitoring, due diligence, authenticity verification, and other intelligence applications. Through a token-driven model, data providers are rewarded when AI agents query their datasets, creating an economic flywheel where more integrated data improves intelligence quality, expands use cases, and drives further network activity.',
+    clickUpId: '86akm3k9k',
+    cgId: 'whitebridge',
+    vestingCliff: 1209600, // aka 14 days
+  },
   {
     index: 1233,
     cmcId: 29157,
