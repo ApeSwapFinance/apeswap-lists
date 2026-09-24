@@ -454,8 +454,7 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       name: 'SEED',
       symbol: 'SEED',
       decimals: 18,
-      source: PriceSource.Dexscreener,
-      type: 'token',
+      source: PriceSource.CoingeckoOnchain,
       tokenAddress: '0x216Ef90E789A8c97b166901Ec1d11d6612C8cf8C',
     },
     '0x1923aAF3e0F110BBCe8e1DeDE79faa994a6D7dE0': {
