@@ -6563,7 +6563,7 @@ const tokens: Record<string, Token> = {
     },
     active: true,
     liquidityDex: {
-      [ChainId.BASE]: LiquidityDex.External,
+      [ChainId.BASE]: LiquidityDex.HydrexIntegral,
     },
   },
   monstro: {
