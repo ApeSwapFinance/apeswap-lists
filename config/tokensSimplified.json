@@ -1834,6 +1834,19 @@
       "59144": "Metavault"
     }
   },
+  "spx": {
+    "symbol": "SPX",
+    "address": {
+      "56": "0xCa56094722450016F280C4Fd6a333E5c36903827"
+    },
+    "decimals": {
+      "56": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "56": "PancakeSwapV3"
+    }
+  },
   "wbai": {
     "symbol": "WBAI",
     "address": {
