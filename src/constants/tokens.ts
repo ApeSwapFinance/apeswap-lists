@@ -75,6 +75,32 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  devspy: {
+    symbol: 'DEVSPY',
+    address: {
+      [ChainId.ROBINHOOD]: '0x845122012bE243d215EDB326A6F65A4e71fb2C05',
+    },
+    decimals: {
+      [ChainId.ROBINHOOD]: 18,
+    },
+    liquidityDex: {
+      [ChainId.ROBINHOOD]: LiquidityDex.External,
+    },
+    active: true,
+  },
+  devusd: {
+    symbol: 'DEVUSD',
+    address: {
+      [ChainId.ROBINHOOD]: '0x5438cD5CC64401142E7e2dcc8af1A08B023127aE',
+    },
+    decimals: {
+      [ChainId.ROBINHOOD]: 18,
+    },
+    liquidityDex: {
+      [ChainId.ROBINHOOD]: LiquidityDex.External,
+    },
+    active: true,
+  },
   mvs: {
     // TODO: remove this test token
     symbol: 'MVS',

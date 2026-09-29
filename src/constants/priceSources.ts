@@ -1396,6 +1396,22 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       id: 'cash-cat',
       tokenAddress: '0x020bfC650A365f8BB26819deAAbF3E21291018b4',
     },
+    '0x845122012bE243d215EDB326A6F65A4e71fb2C05': {
+      name: 'DEVSPY',
+      symbol: 'DEVSPY',
+      decimals: 18,
+      source: PriceSource.Fixed,
+      price: 0.01,
+      tokenAddress: '0x845122012bE243d215EDB326A6F65A4e71fb2C05',
+    },
+    '0x5438cD5CC64401142E7e2dcc8af1A08B023127aE': {
+      name: 'DEVUSD',
+      symbol: 'DEVUSD',
+      decimals: 18,
+      source: PriceSource.Fixed,
+      price: 1,
+      tokenAddress: '0x5438cD5CC64401142E7e2dcc8af1A08B023127aE',
+    },
   },
   [ChainId.L1X]: {
     '0xcCD313e2c962BCea8501A6691598EF9A98975ba7': {
