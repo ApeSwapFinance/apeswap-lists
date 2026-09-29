@@ -5966,6 +5966,37 @@ const bills: BillsConfig[] = [
   // BNB chain
   //
   {
+    index: 1235,
+    cmcId: 40948,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0x49C5Ab1942BC649dB2802dA7325DC3907f0bd75c',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.spx,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://shopinx.io',
+    twitter: 'https://x.com/ShopinxSPX',
+    initTime: { [ChainId.BSC]: 1790683539 },
+    soldOut: false,
+    hide: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Retail'],
+    shortDescription:
+      'ShopinX (SPX) is a decentralized commerce ecosystem that connects digital assets with real-world retail benefits through GoBenefits. Built on BNB Smart Chain, SPX enables users to access gift cards, promotional vouchers, and exclusive discounts from a network of over 400 retail and technology partners, bringing practical everyday utility to its token.',
+    fullDescription:
+      'ShopinX (SPX) is a fixed-supply utility token designed to transform traditional loyalty and rewards into transferable, onchain value. Rather than keeping discounts, vouchers, and rewards locked within individual brands, the ShopinX ecosystem connects them through a blockchain-powered commerce infrastructure where SPX serves as the underlying digital asset. Its economic model is tied to real commercial activity, with a portion of revenue generated through merchant integrations used to buy SPX from the market and permanently burn those tokens, progressively reducing circulating supply. Combined with audited smart contracts, renounced ownership, and a structured vesting model for locked allocations, ShopinX aims to connect everyday commerce with a transparent and verifiable Web3 economy.',
+    clickUpId: '86akqc4wv',
+    cgId: 'shopinx',
+  },
+  {
     index: 1234,
     cmcId: 38261,
     version: '2.1.0',
