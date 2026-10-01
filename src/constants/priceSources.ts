@@ -1412,6 +1412,22 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       price: 1,
       tokenAddress: '0x5438cD5CC64401142E7e2dcc8af1A08B023127aE',
     },
+    '0x008DD62dD934f3FFdC0986ba5316c78aE51Cb1c9': {
+      name: 'StonkPress Paper',
+      symbol: 'PAPER',
+      decimals: 18,
+      source: PriceSource.Fixed,
+      price: 0.076604,
+      tokenAddress: '0x008DD62dD934f3FFdC0986ba5316c78aE51Cb1c9',
+    },
+    '0x6178406c433C70B006e2f81a79A5D98BF5b0af85': {
+      name: 'PAPER/SPY',
+      symbol: 'PAPER/SPY',
+      decimals: 18,
+      source: PriceSource.Fixed,
+      price: 15.32,
+      tokenAddress: '0x6178406c433C70B006e2f81a79A5D98BF5b0af85',
+    },
   },
   [ChainId.L1X]: {
     '0xcCD313e2c962BCea8501A6691598EF9A98975ba7': {

@@ -115,18 +115,18 @@ const bills: BillsConfig[] = [
   //   version: '2.1.0',
   //   chainId: ChainId.ROBINHOOD,
   //   contractAddress: {
-  //     [ChainId.ROBINHOOD]: '0x423d3832f1D8c9c09261037C5FB5C1F034c0ecBf',
+  //     [ChainId.ROBINHOOD]: '0xd708E33e6A705412BF6Be3345027D2C5F7F5c193',
   //   },
   //   billType: 'reserve',
   //   billVersion: BillVersion.V4,
-  //   lpToken: tokens.usdg,
-  //   earnToken: tokens.cashcat,
+  //   lpToken: tokens.devusd,
+  //   earnToken: tokens.devspy,
   //   billNnftAddress: {
   //     [ChainId.ROBINHOOD]: '0xE11aDE39E40440AF0f66cBd07Db910EFD2A4573E',
   //   },
   //   projectLink: 'https://qoogle.com',
   //   twitter: 'https://qoogle.com',
-  //   initTime: { [ChainId.ROBINHOOD]: 1789124441 },
+  //   initTime: { [ChainId.ROBINHOOD]: 1790726525 },
   //   soldOut: false,
   //   billArt: {
   //     collection: BillArtCollection.ApeBond_Collection1,
