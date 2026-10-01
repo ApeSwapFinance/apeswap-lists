@@ -1861,10 +1861,10 @@
       "59144": "Metavault"
     }
   },
-  "spx": {
-    "symbol": "SPX",
+  "wbai": {
+    "symbol": "WBAI",
     "address": {
-      "56": "0xCa56094722450016F280C4Fd6a333E5c36903827"
+      "56": "0x635d44F246156ed1080CB470877256c847673f19"
     },
     "decimals": {
       "56": 18
@@ -1874,10 +1874,10 @@
       "56": "PancakeSwapV3"
     }
   },
-  "wbai": {
-    "symbol": "WBAI",
+  "spx": {
+    "symbol": "SPX",
     "address": {
-      "56": "0x635d44F246156ed1080CB470877256c847673f19"
+      "56": "0xCa56094722450016F280C4Fd6a333E5c36903827"
     },
     "decimals": {
       "56": 18
