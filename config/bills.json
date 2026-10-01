@@ -122,6 +122,59 @@
     "tierBoostRate": 0
   },
   {
+    "index": 24001,
+    "version": "2.1.0",
+    "chainId": 4663,
+    "contractAddress": {
+      "4663": "0x0d10FF32f42481e936b3436960745A912f89bE2E"
+    },
+    "billType": "liquidity",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "PAPER-SPY",
+      "address": {
+        "4663": "0x6178406c433C70B006e2f81a79A5D98BF5b0af85"
+      },
+      "decimals": {
+        "4663": 18
+      },
+      "liquidityDex": {
+        "4663": "External"
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "PAPER",
+      "address": {
+        "4663": "0x008DD62dD934f3FFdC0986ba5316c78aE51Cb1c9"
+      },
+      "decimals": {
+        "4663": 18
+      },
+      "liquidityDex": {
+        "4663": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "4663": "0xE11aDE39E40440AF0f66cBd07Db910EFD2A4573E"
+    },
+    "projectLink": "https://www.stonk.press",
+    "twitter": "https://x.com/StonkPress",
+    "initTime": {
+      "4663": 1790863021
+    },
+    "soldOut": false,
+    "hide": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["MEME"],
+    "shortDescription": "StonkPress is a printing protocol on Robinhood Chain built around one exposure: the SPY token. It prints PAPER, a ratio asset that targets 1/10,000 of one SPY, alongside PLATE, the press's share token. Bonds let you supply liquidity and receive vested PAPER at a market-set discount.",
+    "fullDescription": "StonkPress is a printing protocol on Robinhood Chain with tokenized SPY as its reference asset. PAPER is what the press prints: a ratio asset that targets 1/10,000 of one SPY token. It is not a stablecoin and not a dollar claim. The press evaluates the market in six-hour runs. When PAPER holds above its expansion threshold, a run prints new PAPER to clamped PLATE, the press's fixed-supply share token. Below target, printing stops and the Shredder opens, letting holders burn PAPER for RECEIPT. Bonds are how the protocol builds its own depth: supply a qualifying LP position and receive PAPER at a discount set by the live market, vested over a short term. The result is a system designed around lasting SPY liquidity on chain."
+  },
+  {
     "index": 21003,
     "cmcId": 39537,
     "version": "2.1.0",
