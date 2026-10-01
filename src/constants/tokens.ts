@@ -101,6 +101,32 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  paper: {
+    symbol: 'PAPER',
+    address: {
+      [ChainId.ROBINHOOD]: '0x008DD62dD934f3FFdC0986ba5316c78aE51Cb1c9',
+    },
+    decimals: {
+      [ChainId.ROBINHOOD]: 18,
+    },
+    liquidityDex: {
+      [ChainId.ROBINHOOD]: LiquidityDex.External,
+    },
+    active: true,
+  },
+  paperSpy: {
+    symbol: 'PAPER/SPY',
+    address: {
+      [ChainId.ROBINHOOD]: '0x6178406c433C70B006e2f81a79A5D98BF5b0af85',
+    },
+    decimals: {
+      [ChainId.ROBINHOOD]: 18,
+    },
+    liquidityDex: {
+      [ChainId.ROBINHOOD]: LiquidityDex.External,
+    },
+    active: true,
+  },
   mvs: {
     // TODO: remove this test token
     symbol: 'MVS',

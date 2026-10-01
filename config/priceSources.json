@@ -683,6 +683,22 @@
       "source": "fixed",
       "price": 1,
       "tokenAddress": "0x5438cD5CC64401142E7e2dcc8af1A08B023127aE"
+    },
+    "0x008DD62dD934f3FFdC0986ba5316c78aE51Cb1c9": {
+      "name": "StonkPress Paper",
+      "symbol": "PAPER",
+      "decimals": 18,
+      "source": "fixed",
+      "price": 0.076604,
+      "tokenAddress": "0x008DD62dD934f3FFdC0986ba5316c78aE51Cb1c9"
+    },
+    "0x6178406c433C70B006e2f81a79A5D98BF5b0af85": {
+      "name": "PAPER/SPY",
+      "symbol": "PAPER/SPY",
+      "decimals": 18,
+      "source": "fixed",
+      "price": 15.32,
+      "tokenAddress": "0x6178406c433C70B006e2f81a79A5D98BF5b0af85"
     }
   },
   "5888": {

@@ -15,32 +15,6 @@
       "1066": "https://www.qd.finance/swap"
     }
   },
-  "devusd": {
-    "symbol": "DEVUSD",
-    "address": {
-      "4663": "0x5438cD5CC64401142E7e2dcc8af1A08B023127aE"
-    },
-    "decimals": {
-      "4663": 18
-    },
-    "active": true,
-    "liquidityDex": {
-      "4663": "External"
-    }
-  },
-  "devspy": {
-    "symbol": "DEVSPY",
-    "address": {
-      "4663": "0x845122012bE243d215EDB326A6F65A4e71fb2C05"
-    },
-    "decimals": {
-      "4663": 18
-    },
-    "active": true,
-    "liquidityDex": {
-      "4663": "External"
-    }
-  },
   "usdc": {
     "symbol": "USDC",
     "address": {
