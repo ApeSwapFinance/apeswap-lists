@@ -126,6 +126,7 @@ const tokens: Record<string, Token> = {
       [ChainId.ROBINHOOD]: LiquidityDex.External,
     },
     active: true,
+    lpToken: true,
   },
   mvs: {
     // TODO: remove this test token
