@@ -115,7 +115,7 @@ const tokens: Record<string, Token> = {
     active: true,
   },
   paperSpy: {
-    symbol: 'PAPER/SPY',
+    symbol: 'PAPER-SPY',
     address: {
       [ChainId.ROBINHOOD]: '0x6178406c433C70B006e2f81a79A5D98BF5b0af85',
     },
