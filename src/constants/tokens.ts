@@ -123,7 +123,7 @@ const tokens: Record<string, Token> = {
       [ChainId.ROBINHOOD]: 18,
     },
     liquidityDex: {
-      [ChainId.ROBINHOOD]: LiquidityDex.External,
+      [ChainId.ROBINHOOD]: LiquidityDex.UniswapV2,
     },
     active: true,
     lpToken: true,

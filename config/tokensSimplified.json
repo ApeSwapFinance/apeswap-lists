@@ -25,7 +25,7 @@
     },
     "active": true,
     "liquidityDex": {
-      "4663": "External"
+      "4663": "UniswapV2"
     },
     "lpToken": true
   },
