@@ -158,7 +158,7 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    tags: ['MEME'],
+    tags: ['DeFi'],
     shortDescription: `StonkPress is a printing protocol on Robinhood Chain built around one exposure: the SPY token. It prints PAPER, a ratio asset that targets 1/10,000 of one SPY, alongside PLATE, the press's share token. Bonds let you supply liquidity and receive vested PAPER at a market-set discount.`,
     fullDescription: `StonkPress is a printing protocol on Robinhood Chain with tokenized SPY as its reference asset. PAPER is what the press prints: a ratio asset that targets 1/10,000 of one SPY token. It is not a stablecoin and not a dollar claim. The press evaluates the market in six-hour runs. When PAPER holds above its expansion threshold, a run prints new PAPER to clamped PLATE, the press's fixed-supply share token. Below target, printing stops and the Shredder opens, letting holders burn PAPER for RECEIPT. Bonds are how the protocol builds its own depth: supply a qualifying LP position and receive PAPER at a discount set by the live market, vested over a short term. The result is a system designed around lasting SPY liquidity on chain.`,
   },
