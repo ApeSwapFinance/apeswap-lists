@@ -133,8 +133,8 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['DeFi'],
-    shortDescription: `StonkPress is a printing protocol on Robinhood Chain built around one exposure: the SPY token. It prints PAPER, a ratio asset that targets 1/10,000 of one SPY, alongside PLATE, the press's share token. Bonds let you supply liquidity and receive vested PAPER at a market-set discount.`,
-    fullDescription: `StonkPress is a printing protocol on Robinhood Chain with tokenized SPY as its reference asset. PAPER is what the press prints: a ratio asset that targets 1/10,000 of one SPY token. It is not a stablecoin and not a dollar claim. The press evaluates the market in six-hour runs. When PAPER holds above its expansion threshold, a run prints new PAPER to clamped PLATE, the press's fixed-supply share token. Below target, printing stops and the Shredder opens, letting holders burn PAPER for RECEIPT. Bonds are how the protocol builds its own depth: supply a qualifying LP position and receive PAPER at a discount set by the live market, vested over a short term. The result is a system designed around lasting SPY liquidity on chain.`,
+    shortDescription: `StonkPress is an algorithmic token protocol on Robinhood Chain. Its token, PAPER, targets 1/10,000 of one tokenized SPY. A target, not a promise. Above the target, new PAPER is created for PLATE stakers. Below it, none is created. Bonds build protocol-owned PAPER/SPY liquidity.`,
+    fullDescription: `StonkPress is an algorithmic token protocol on Robinhood Chain. Its token, PAPER, targets 1/10,000 of one tokenized SPY. A target, not a promise. Every six hours, the protocol compares PAPER's average price with that target. More than 1% above, it mints new PAPER to people staking PLATE, the share token. Below, minting stops and a SPY reserve funds buybacks. Bonds turn demand for PAPER into liquidity the protocol owns, and liquidity providers earn options to buy PLATE at a discount, paid in SPY.`,
   },
   {
     index: 24001,
@@ -159,8 +159,8 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['DeFi'],
-    shortDescription: `StonkPress is a printing protocol on Robinhood Chain built around one exposure: the SPY token. It prints PAPER, a ratio asset that targets 1/10,000 of one SPY, alongside PLATE, the press's share token. Bonds let you supply liquidity and receive vested PAPER at a market-set discount.`,
-    fullDescription: `StonkPress is a printing protocol on Robinhood Chain with tokenized SPY as its reference asset. PAPER is what the press prints: a ratio asset that targets 1/10,000 of one SPY token. It is not a stablecoin and not a dollar claim. The press evaluates the market in six-hour runs. When PAPER holds above its expansion threshold, a run prints new PAPER to clamped PLATE, the press's fixed-supply share token. Below target, printing stops and the Shredder opens, letting holders burn PAPER for RECEIPT. Bonds are how the protocol builds its own depth: supply a qualifying LP position and receive PAPER at a discount set by the live market, vested over a short term. The result is a system designed around lasting SPY liquidity on chain.`,
+    shortDescription: `StonkPress is an algorithmic token protocol on Robinhood Chain. Its token, PAPER, targets 1/10,000 of one tokenized SPY. A target, not a promise. Above the target, new PAPER is created for PLATE stakers. Below it, none is created. Bonds build protocol-owned PAPER/SPY liquidity.`,
+    fullDescription: `StonkPress is an algorithmic token protocol on Robinhood Chain. Its token, PAPER, targets 1/10,000 of one tokenized SPY. A target, not a promise. Every six hours, the protocol compares PAPER's average price with that target. More than 1% above, it mints new PAPER to people staking PLATE, the share token. Below, minting stops and a SPY reserve funds buybacks. Bonds turn demand for PAPER into liquidity the protocol owns, and liquidity providers earn options to buy PLATE at a discount, paid in SPY.`,
   },
 
   //
