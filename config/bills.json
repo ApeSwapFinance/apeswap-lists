@@ -122,6 +122,164 @@
     "tierBoostRate": 0
   },
   {
+    "index": 24005,
+    "version": "2.1.0",
+    "chainId": 4663,
+    "contractAddress": {
+      "4663": "0xD7b8E4789a1F0E953C49d5C38dcd52Be993eA533"
+    },
+    "billType": "reserve",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "PAPER",
+      "address": {
+        "4663": "0x008DD62dD934f3FFdC0986ba5316c78aE51Cb1c9"
+      },
+      "decimals": {
+        "4663": 18
+      },
+      "liquidityDex": {
+        "4663": "External"
+      },
+      "active": true
+    },
+    "earnToken": {
+      "symbol": "PLATE",
+      "address": {
+        "4663": "0x5b00c30098216a00905Ee3fb5bdA413006418bb6"
+      },
+      "decimals": {
+        "4663": 18
+      },
+      "liquidityDex": {
+        "4663": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "4663": "0xE11aDE39E40440AF0f66cBd07Db910EFD2A4573E"
+    },
+    "projectLink": "https://www.stonk.press",
+    "twitter": "https://x.com/StonkPress",
+    "initTime": {
+      "4663": 1791471462
+    },
+    "soldOut": false,
+    "hide": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["DeFi"],
+    "shortDescription": "StonkPress is an algorithmic token protocol on Robinhood Chain. PAPER targets SPY; PLATE is where its value flows: when the press prints new PAPER, it goes to staked PLATE.",
+    "fullDescription": "StonkPress is an algorithmic token that targets SPY, built on Robinhood Chain to make the SPY market deep and liquid. Its token, PAPER, targets 1/10,000 of one tokenized SPY. A target, not a promise. PLATE is the protocol's value-capture token. Every six hours the press checks PAPER against its target, and when it prints, the new PAPER goes to staked PLATE. As PAPER demand grows, PLATE takes the print. Supply is fixed at 100,000,000 PLATE, ever."
+  },
+  {
+    "index": 24004,
+    "version": "2.1.0",
+    "chainId": 4663,
+    "contractAddress": {
+      "4663": "0xb0bEC6C4a8A79B18a5De48fD44e3f3cDf49d89bF"
+    },
+    "billType": "liquidity",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "PLATE-SPY",
+      "address": {
+        "4663": "0x73c4Aae208080d94E97a0abe80f140A140846cC8"
+      },
+      "decimals": {
+        "4663": 18
+      },
+      "liquidityDex": {
+        "4663": "UniswapV2"
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "PLATE",
+      "address": {
+        "4663": "0x5b00c30098216a00905Ee3fb5bdA413006418bb6"
+      },
+      "decimals": {
+        "4663": 18
+      },
+      "liquidityDex": {
+        "4663": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "4663": "0xE11aDE39E40440AF0f66cBd07Db910EFD2A4573E"
+    },
+    "projectLink": "https://www.stonk.press",
+    "twitter": "https://x.com/StonkPress",
+    "initTime": {
+      "4663": 1791471462
+    },
+    "soldOut": false,
+    "hide": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["DeFi"],
+    "shortDescription": "StonkPress is an algorithmic token protocol on Robinhood Chain. PAPER targets SPY; PLATE is where its value flows: when the press prints new PAPER, it goes to staked PLATE.",
+    "fullDescription": "StonkPress is an algorithmic token that targets SPY, built on Robinhood Chain to make the SPY market deep and liquid. Its token, PAPER, targets 1/10,000 of one tokenized SPY. A target, not a promise. PLATE is the protocol's value-capture token. Every six hours the press checks PAPER against its target, and when it prints, the new PAPER goes to staked PLATE. As PAPER demand grows, PLATE takes the print. Supply is fixed at 100,000,000 PLATE, ever."
+  },
+  {
+    "index": 24003,
+    "version": "2.1.0",
+    "chainId": 4663,
+    "contractAddress": {
+      "4663": "0x34c022f46Fde93bE3377Dbe76b1995E30C36B5dB"
+    },
+    "billType": "liquidity",
+    "billVersion": "V4",
+    "lpToken": {
+      "symbol": "PLATE-SPY",
+      "address": {
+        "4663": "0x73c4Aae208080d94E97a0abe80f140A140846cC8"
+      },
+      "decimals": {
+        "4663": 18
+      },
+      "liquidityDex": {
+        "4663": "UniswapV2"
+      },
+      "active": true,
+      "lpToken": true
+    },
+    "earnToken": {
+      "symbol": "PLATE",
+      "address": {
+        "4663": "0x5b00c30098216a00905Ee3fb5bdA413006418bb6"
+      },
+      "decimals": {
+        "4663": 18
+      },
+      "liquidityDex": {
+        "4663": "External"
+      },
+      "active": true
+    },
+    "billNnftAddress": {
+      "4663": "0xE11aDE39E40440AF0f66cBd07Db910EFD2A4573E"
+    },
+    "projectLink": "https://www.stonk.press",
+    "twitter": "https://x.com/StonkPress",
+    "initTime": {
+      "4663": 1791471462
+    },
+    "soldOut": false,
+    "hide": false,
+    "billArt": {
+      "collection": "ApeBond_Collection1"
+    },
+    "tags": ["DeFi"],
+    "shortDescription": "StonkPress is an algorithmic token protocol on Robinhood Chain. PAPER targets SPY; PLATE is where its value flows: when the press prints new PAPER, it goes to staked PLATE.",
+    "fullDescription": "StonkPress is an algorithmic token that targets SPY, built on Robinhood Chain to make the SPY market deep and liquid. Its token, PAPER, targets 1/10,000 of one tokenized SPY. A target, not a promise. PLATE is the protocol's value-capture token. Every six hours the press checks PAPER against its target, and when it prints, the new PAPER goes to staked PLATE. As PAPER demand grows, PLATE takes the print. Supply is fixed at 100,000,000 PLATE, ever."
+  },
+  {
     "index": 24002,
     "version": "2.1.0",
     "chainId": 4663,
