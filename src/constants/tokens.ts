@@ -128,6 +128,33 @@ const tokens: Record<string, Token> = {
     active: true,
     lpToken: true,
   },
+  plate: {
+    symbol: 'PLATE',
+    address: {
+      [ChainId.ROBINHOOD]: '0x5b00c30098216a00905Ee3fb5bdA413006418bb6',
+    },
+    decimals: {
+      [ChainId.ROBINHOOD]: 18,
+    },
+    liquidityDex: {
+      [ChainId.ROBINHOOD]: LiquidityDex.External,
+    },
+    active: true,
+  },
+  plateSpy: {
+    symbol: 'PLATE-SPY',
+    address: {
+      [ChainId.ROBINHOOD]: '0x73c4Aae208080d94E97a0abe80f140A140846cC8',
+    },
+    decimals: {
+      [ChainId.ROBINHOOD]: 18,
+    },
+    liquidityDex: {
+      [ChainId.ROBINHOOD]: LiquidityDex.UniswapV2,
+    },
+    active: true,
+    lpToken: true,
+  },
   mvs: {
     // TODO: remove this test token
     symbol: 'MVS',

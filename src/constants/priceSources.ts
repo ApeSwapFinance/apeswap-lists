@@ -1428,6 +1428,22 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       type: 'pair',
       tokenAddress: '0x6178406c433C70B006e2f81a79A5D98BF5b0af85',
     },
+    '0x5b00c30098216a00905Ee3fb5bdA413006418bb6': {
+      name: 'StonkPress Plate',
+      symbol: 'PLATE',
+      decimals: 18,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '0x5b00c30098216a00905Ee3fb5bdA413006418bb6',
+    },
+    '0x73c4Aae208080d94E97a0abe80f140A140846cC8': {
+      name: 'PLATE-SPY',
+      symbol: 'PLATE-SPY',
+      decimals: 18,
+      source: PriceSource.Dexscreener,
+      type: 'pair',
+      tokenAddress: '0x73c4Aae208080d94E97a0abe80f140A140846cC8',
+    },
   },
   [ChainId.L1X]: {
     '0xcCD313e2c962BCea8501A6691598EF9A98975ba7': {

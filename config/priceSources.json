@@ -699,6 +699,22 @@
       "source": "dexscreener",
       "type": "pair",
       "tokenAddress": "0x6178406c433C70B006e2f81a79A5D98BF5b0af85"
+    },
+    "0x5b00c30098216a00905Ee3fb5bdA413006418bb6": {
+      "name": "StonkPress Plate",
+      "symbol": "PLATE",
+      "decimals": 18,
+      "source": "dexscreener",
+      "type": "token",
+      "tokenAddress": "0x5b00c30098216a00905Ee3fb5bdA413006418bb6"
+    },
+    "0x73c4Aae208080d94E97a0abe80f140A140846cC8": {
+      "name": "PLATE-SPY",
+      "symbol": "PLATE-SPY",
+      "decimals": 18,
+      "source": "dexscreener",
+      "type": "pair",
+      "tokenAddress": "0x73c4Aae208080d94E97a0abe80f140A140846cC8"
     }
   },
   "5888": {
