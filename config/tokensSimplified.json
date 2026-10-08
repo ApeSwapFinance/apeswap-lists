@@ -15,6 +15,46 @@
       "1066": "https://www.qd.finance/swap"
     }
   },
+  "paper": {
+    "symbol": "PAPER",
+    "address": {
+      "4663": "0x008DD62dD934f3FFdC0986ba5316c78aE51Cb1c9"
+    },
+    "decimals": {
+      "4663": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "4663": "External"
+    }
+  },
+  "plate": {
+    "symbol": "PLATE",
+    "address": {
+      "4663": "0x5b00c30098216a00905Ee3fb5bdA413006418bb6"
+    },
+    "decimals": {
+      "4663": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "4663": "External"
+    }
+  },
+  "plateSpy": {
+    "symbol": "PLATE-SPY",
+    "address": {
+      "4663": "0x73c4Aae208080d94E97a0abe80f140A140846cC8"
+    },
+    "decimals": {
+      "4663": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "4663": "UniswapV2"
+    },
+    "lpToken": true
+  },
   "paperSpy": {
     "symbol": "PAPER-SPY",
     "address": {
@@ -28,19 +68,6 @@
       "4663": "UniswapV2"
     },
     "lpToken": true
-  },
-  "paper": {
-    "symbol": "PAPER",
-    "address": {
-      "4663": "0x008DD62dD934f3FFdC0986ba5316c78aE51Cb1c9"
-    },
-    "decimals": {
-      "4663": 18
-    },
-    "active": true,
-    "liquidityDex": {
-      "4663": "External"
-    }
   },
   "usdc": {
     "symbol": "USDC",

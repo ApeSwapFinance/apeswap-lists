@@ -33,7 +33,7 @@ import {
 // HYPEREVM Largest ID: 21002
 // APTOS Largest ID: 22000
 // SUI Largest ID: 23000
-// ROBINHOOD ID: 24001
+// ROBINHOOD ID: 24005
 // LAYER ONE X ID: 25000
 
 const bills: BillsConfig[] = [
@@ -110,6 +110,84 @@ const bills: BillsConfig[] = [
   //
   // ROBINHOOD
   //
+  {
+    index: 24005,
+    version: '2.1.0',
+    chainId: ChainId.ROBINHOOD,
+    contractAddress: {
+      [ChainId.ROBINHOOD]: '0xD7b8E4789a1F0E953C49d5C38dcd52Be993eA533',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.paper,
+    earnToken: tokens.plate,
+    billNnftAddress: {
+      [ChainId.ROBINHOOD]: '0xE11aDE39E40440AF0f66cBd07Db910EFD2A4573E',
+    },
+    projectLink: 'https://www.stonk.press',
+    twitter: 'https://x.com/StonkPress',
+    initTime: { [ChainId.ROBINHOOD]: 1791471462 },
+    soldOut: false,
+    hide: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DeFi'],
+    shortDescription: `StonkPress is an algorithmic token protocol on Robinhood Chain. PAPER targets SPY; PLATE is where its value flows: when the press prints new PAPER, it goes to staked PLATE.`,
+    fullDescription: `StonkPress is an algorithmic token that targets SPY, built on Robinhood Chain to make the SPY market deep and liquid. Its token, PAPER, targets 1/10,000 of one tokenized SPY. A target, not a promise. PLATE is the protocol's value-capture token. Every six hours the press checks PAPER against its target, and when it prints, the new PAPER goes to staked PLATE. As PAPER demand grows, PLATE takes the print. Supply is fixed at 100,000,000 PLATE, ever.`,
+  },
+  {
+    index: 24004,
+    version: '2.1.0',
+    chainId: ChainId.ROBINHOOD,
+    contractAddress: {
+      [ChainId.ROBINHOOD]: '0xb0bEC6C4a8A79B18a5De48fD44e3f3cDf49d89bF',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.plateSpy,
+    earnToken: tokens.plate,
+    billNnftAddress: {
+      [ChainId.ROBINHOOD]: '0xE11aDE39E40440AF0f66cBd07Db910EFD2A4573E',
+    },
+    projectLink: 'https://www.stonk.press',
+    twitter: 'https://x.com/StonkPress',
+    initTime: { [ChainId.ROBINHOOD]: 1791471462 },
+    soldOut: false,
+    hide: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DeFi'],
+    shortDescription: `StonkPress is an algorithmic token protocol on Robinhood Chain. PAPER targets SPY; PLATE is where its value flows: when the press prints new PAPER, it goes to staked PLATE.`,
+    fullDescription: `StonkPress is an algorithmic token that targets SPY, built on Robinhood Chain to make the SPY market deep and liquid. Its token, PAPER, targets 1/10,000 of one tokenized SPY. A target, not a promise. PLATE is the protocol's value-capture token. Every six hours the press checks PAPER against its target, and when it prints, the new PAPER goes to staked PLATE. As PAPER demand grows, PLATE takes the print. Supply is fixed at 100,000,000 PLATE, ever.`,
+  },
+  {
+    index: 24003,
+    version: '2.1.0',
+    chainId: ChainId.ROBINHOOD,
+    contractAddress: {
+      [ChainId.ROBINHOOD]: '0x34c022f46Fde93bE3377Dbe76b1995E30C36B5dB',
+    },
+    billType: 'liquidity',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.plateSpy,
+    earnToken: tokens.plate,
+    billNnftAddress: {
+      [ChainId.ROBINHOOD]: '0xE11aDE39E40440AF0f66cBd07Db910EFD2A4573E',
+    },
+    projectLink: 'https://www.stonk.press',
+    twitter: 'https://x.com/StonkPress',
+    initTime: { [ChainId.ROBINHOOD]: 1791471462 },
+    soldOut: false,
+    hide: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['DeFi'],
+    shortDescription: `StonkPress is an algorithmic token protocol on Robinhood Chain. PAPER targets SPY; PLATE is where its value flows: when the press prints new PAPER, it goes to staked PLATE.`,
+    fullDescription: `StonkPress is an algorithmic token that targets SPY, built on Robinhood Chain to make the SPY market deep and liquid. Its token, PAPER, targets 1/10,000 of one tokenized SPY. A target, not a promise. PLATE is the protocol's value-capture token. Every six hours the press checks PAPER against its target, and when it prints, the new PAPER goes to staked PLATE. As PAPER demand grows, PLATE takes the print. Supply is fixed at 100,000,000 PLATE, ever.`,
+  },
   {
     index: 24002,
     version: '2.1.0',
