@@ -253,6 +253,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       id: 'everything',
       tokenAddress: '0xE7E7E741C23a4767831A56A8C99F522c5aC1E7E7',
     },
+    '0x635d44F246156ed1080CB470877256c847673f19': {
+      name: 'WhiteBridge',
+      symbol: 'WBAI',
+      decimals: 18,
+      source: PriceSource.Coingecko,
+      id: 'whitebridge',
+      tokenAddress: '0x635d44F246156ed1080CB470877256c847673f19',
+    },
     '0x3766D84e043d4672e788f0AeB17511Ac7A84a5Eb': {
       name: 'CAM Integration Test Token',
       symbol: 'CAMTEST',

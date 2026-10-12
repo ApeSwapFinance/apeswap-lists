@@ -6122,7 +6122,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.whitebridge.network',
     twitter: 'https://x.com/aiwhitebridge',
     initTime: { [ChainId.BSC]: 1790882800 },
-    soldOut: false,
+    soldOut: true,
     hide: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
