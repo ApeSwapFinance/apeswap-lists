@@ -11398,7 +11398,7 @@
         "56": 18
       },
       "liquidityDex": {
-        "56": "PancakeSwapV3"
+        "56": "External"
       },
       "active": true
     },
@@ -11410,7 +11410,7 @@
     "initTime": {
       "56": 1790882800
     },
-    "soldOut": false,
+    "soldOut": true,
     "hide": false,
     "billArt": {
       "collection": "ApeBond_Collection1"
@@ -11509,7 +11509,7 @@
         "56": 18
       },
       "liquidityDex": {
-        "56": "PancakeSwapV3"
+        "56": "External"
       },
       "active": true
     },
