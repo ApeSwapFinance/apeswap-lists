@@ -2305,7 +2305,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.autheo.com',
     twitter: 'https://x.com/Autheo_Network',
     initTime: { [ChainId.BASE]: 1787571067 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
