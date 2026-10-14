@@ -6567,7 +6567,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://everything.inc/',
     twitter: 'https://x.com/every_thing',
     initTime: { [ChainId.BSC]: 1781613297 },
-    soldOut: false,
+    soldOut: true,
     hide: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -6826,7 +6826,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.etarn.io/en',
     twitter: 'https://x.com/Etarn2025',
     initTime: { [ChainId.BSC]: 1774537510 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
