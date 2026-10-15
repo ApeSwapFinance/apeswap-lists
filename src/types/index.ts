@@ -388,7 +388,16 @@ export interface BaseBondConfig {
   version: string // This will be used to check compatibility versions
   chainId: ChainId
   billVersion: BillVersion
-  billType: 'liquidity' | 'reserve' | 'launch' | 'migration' | 'cex' | 'staking' | 'fcfs' | 'oversubscription'
+  billType:
+    | 'liquidity'
+    | 'reserve'
+    | 'launch'
+    | 'migration'
+    | 'cex'
+    | 'staking'
+    | 'fcfs'
+    | 'oversubscription'
+    | 'lpStaking'
   soldOut: boolean
   lpToken: Token
   earnToken: Token

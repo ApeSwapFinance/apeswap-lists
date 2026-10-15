@@ -6067,9 +6067,37 @@ const bills: BillsConfig[] = [
     clickUpId: '86a3ezkxq',
     cgId: 'metavault-trade',
   },
+
   //
   // BNB chain
   //
+
+  {
+    index: 1239,
+    version: '2.1.0',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0xa8e1eCB67d2CB2342aB3535ef678F2c2a4bd4Fcb',
+    },
+    billType: 'lpStaking',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.wbai,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://www.whitebridge.network',
+    twitter: 'https://x.com/aiwhitebridge',
+    initTime: { [ChainId.BSC]: 1791806857 },
+    soldOut: false,
+    hide: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['AI'],
+    shortDescription: 'New LP Staking Bond',
+    fullDescription: 'New LP Staking Bond',
+  },
   {
     index: 1238,
     cmcId: 38261,
