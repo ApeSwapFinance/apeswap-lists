@@ -262,7 +262,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://harmonix.fi/deck',
     twitter: 'https://x.com/harmonixfi',
     initTime: { [ChainId.HYPEREVM]: 1790087587 },
-    soldOut: false,
+    soldOut: true,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
