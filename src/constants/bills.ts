@@ -6094,9 +6094,10 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    tags: ['AI'],
+    tags: ['LP-STAKING'],
     shortDescription: 'New LP Staking Bond',
     fullDescription: 'New LP Staking Bond',
+    warningCard: 'some text to clarify the bonds-mechanics',
   },
   {
     index: 1238,
