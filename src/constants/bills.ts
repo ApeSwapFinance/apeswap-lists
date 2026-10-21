@@ -179,7 +179,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.stonk.press',
     twitter: 'https://x.com/StonkPress',
     initTime: { [ChainId.ROBINHOOD]: 1791471462 },
-    soldOut: false,
+    soldOut: true,
     hide: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
