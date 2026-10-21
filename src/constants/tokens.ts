@@ -20,6 +20,45 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  tusdc: {
+    symbol: 'tUSDC',
+    address: {
+      [ChainId.SEPOLIA]: '0x9E0F2263c0Cb67Ee08B8c8A42be8770870b05215',
+    },
+    decimals: {
+      [ChainId.SEPOLIA]: 6,
+    },
+    liquidityDex: {
+      [ChainId.SEPOLIA]: LiquidityDex.External,
+    },
+    active: true,
+  },
+  tAsset: {
+    symbol: 'tASSET', // yet unknown
+    address: {
+      [ChainId.SEPOLIA]: '0x9E0F2263c0Cb67Ee08B8c8A42be8770870b05215',
+    },
+    decimals: {
+      [ChainId.SEPOLIA]: 6,
+    },
+    liquidityDex: {
+      [ChainId.SEPOLIA]: LiquidityDex.External,
+    },
+    active: true,
+  },
+  tReal: {
+    symbol: 'tREAL',
+    address: {
+      [ChainId.SEPOLIA]: '0x8e65d19BE4bA1CC61005B4c70f21cd179512e33f',
+    },
+    decimals: {
+      [ChainId.SEPOLIA]: 18,
+    },
+    liquidityDex: {
+      [ChainId.SEPOLIA]: LiquidityDex.External,
+    },
+    active: true,
+  },
   payout: {
     symbol: 'payout',
     address: {

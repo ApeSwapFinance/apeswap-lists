@@ -382,6 +382,7 @@ export enum MarketingCampaign {
 // 2.1.2 => pre tge bonds
 // 2.1.3 => priceSource hotfix for a very specific case: principalToken is LP, priceGetter fails so we need to set LiquidityDex.External but we also need priceSource to indicate zap where to create the LP
 // 2.2.0 => SOLANA bonds
+// 2.3.0 => lpStaking billtype
 
 export interface BaseBondConfig {
   index: number
@@ -457,6 +458,17 @@ export interface BillsConfig extends BaseBondConfig {
   minTier?: LaunchBondTiers
   // * This is only used for the bond migration page
   multiplier?: number
+  lpStakingConfig?: {
+    // zap data
+    lpType: string
+    positionManager: string
+    pool: string
+    adapter: string
+    campaignId: string
+    // rewards
+    poolRewardToken: Token
+    bonusRewardToken: Token
+  }
 }
 
 export type AllBondsConfig = BillsConfig | PreTGEConfig

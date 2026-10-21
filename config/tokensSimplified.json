@@ -1,4 +1,17 @@
 {
+  "tAsset": {
+    "symbol": "tUSDC",
+    "address": {
+      "11155111": "0x9E0F2263c0Cb67Ee08B8c8A42be8770870b05215"
+    },
+    "decimals": {
+      "11155111": 6
+    },
+    "active": true,
+    "liquidityDex": {
+      "11155111": "External"
+    }
+  },
   "xusd": {
     "symbol": "XUSD",
     "address": {
