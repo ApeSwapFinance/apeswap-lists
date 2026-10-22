@@ -6186,7 +6186,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://shopinx.io',
     twitter: 'https://x.com/ShopinxSPX',
     initTime: { [ChainId.BSC]: 1790683539 },
-    soldOut: false,
+    soldOut: true,
     hide: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
