@@ -51,6 +51,22 @@
     "warningCard": "some text to clarify the bonds-mechanics",
     "lpStakingConfig": {
       "lpToken0": {
+        "symbol": "ASSET",
+        "address": {
+          "1": "0x99E980265Bf36516C442be982df1772a6cCb3233",
+          "11155111": "0x9E0F2263c0Cb67Ee08B8c8A42be8770870b05215"
+        },
+        "decimals": {
+          "1": 18,
+          "11155111": 6
+        },
+        "liquidityDex": {
+          "1": "External",
+          "11155111": "External"
+        },
+        "active": true
+      },
+      "lpToken1": {
         "symbol": "USDC",
         "address": {
           "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
@@ -125,22 +141,6 @@
           "6385780": "External",
           "7565164": "External",
           "7566697": "External"
-        },
-        "active": true
-      },
-      "lpToken1": {
-        "symbol": "ASSET",
-        "address": {
-          "1": "0x99E980265Bf36516C442be982df1772a6cCb3233",
-          "11155111": "0x9E0F2263c0Cb67Ee08B8c8A42be8770870b05215"
-        },
-        "decimals": {
-          "1": 18,
-          "11155111": 6
-        },
-        "liquidityDex": {
-          "1": "External",
-          "11155111": "External"
         },
         "active": true
       },
