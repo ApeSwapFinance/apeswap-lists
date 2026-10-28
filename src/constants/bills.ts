@@ -75,6 +75,8 @@ const bills: BillsConfig[] = [
     fullDescription: 'New LP Staking Bond',
     warningCard: 'some text to clarify the bonds-mechanics',
     lpStakingConfig: {
+      lpToken0: tokens.usdc,
+      lpToken1: tokens.asset,
       // zap data
       lpType: 'univ3',
       positionManager: '0x1238536071E1c677A632429e3655c799b22cDA52',
@@ -82,7 +84,7 @@ const bills: BillsConfig[] = [
       adapter: '0xC84994647Fa4817bb506bFa0607F927A3b7c46f7',
       campaignId: '0xafbf246b355e4c751c9c4663c41070c2ac062e3c7806a4dc45bacfbe34962731',
       // rewards
-      poolRewardToken: tokens.tAsset,
+      poolRewardToken: tokens.asset,
       bonusRewardToken: tokens.tReal,
     },
   },

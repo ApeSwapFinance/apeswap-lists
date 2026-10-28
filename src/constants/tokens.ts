@@ -33,20 +33,24 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
-  tAsset: {
-    symbol: 'tASSET', // yet unknown
+  asset: {
+    symbol: 'ASSET', // yet unknown
     address: {
+      [ChainId.MAINNET]: '0x99E980265Bf36516C442be982df1772a6cCb3233',
       [ChainId.SEPOLIA]: '0x9E0F2263c0Cb67Ee08B8c8A42be8770870b05215',
     },
     decimals: {
+      [ChainId.MAINNET]: 18,
       [ChainId.SEPOLIA]: 6,
     },
     liquidityDex: {
+      [ChainId.MAINNET]: LiquidityDex.External,
       [ChainId.SEPOLIA]: LiquidityDex.External,
     },
     active: true,
   },
   tReal: {
+    //TODO: remove this test token
     symbol: 'tREAL',
     address: {
       [ChainId.SEPOLIA]: '0x8e65d19BE4bA1CC61005B4c70f21cd179512e33f',

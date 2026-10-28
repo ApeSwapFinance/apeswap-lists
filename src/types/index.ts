@@ -459,6 +459,8 @@ export interface BillsConfig extends BaseBondConfig {
   // * This is only used for the bond migration page
   multiplier?: number
   lpStakingConfig?: {
+    lpToken0: Token
+    lpToken1: Token
     // zap data
     lpType: string
     positionManager: string
