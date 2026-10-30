@@ -34,7 +34,7 @@ const tokens: Record<string, Token> = {
     active: true,
   },
   asset: {
-    symbol: 'ASSET', // yet unknown
+    symbol: 'ASSET',
     address: {
       [ChainId.MAINNET]: '0x99E980265Bf36516C442be982df1772a6cCb3233',
       [ChainId.SEPOLIA]: '0x9E0F2263c0Cb67Ee08B8c8A42be8770870b05215',
