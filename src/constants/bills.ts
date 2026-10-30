@@ -75,7 +75,7 @@ const bills: BillsConfig[] = [
     fullDescription: 'New LP Staking Bond',
     warningCard: 'some text to clarify the bonds-mechanics',
     lpStakingConfig: {
-      lpToken0: tokens.asset,
+      lpToken0: tokens.tReal,
       lpToken1: tokens.tusdc,
       // zap data
       lpType: 'univ3',
