@@ -282,6 +282,14 @@
       "id": "camino-network",
       "tokenAddress": "0x3766D84e043d4672e788f0AeB17511Ac7A84a5Eb"
     },
+    "0x29eb98371102883F554dA7C9396d01d176401538": {
+      "name": "IBVM Token",
+      "symbol": "IBVM",
+      "decimals": 18,
+      "source": "mexc",
+      "id": "IBVMUSDT",
+      "tokenAddress": "0x29eb98371102883F554dA7C9396d01d176401538"
+    },
     "0xe50c9dae2b8cfe5224c1a4096a0959f8ca975df2": {
       "name": "Custodiy",
       "symbol": "CTY",

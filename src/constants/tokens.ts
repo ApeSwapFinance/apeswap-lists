@@ -443,6 +443,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  ibvm: {
+    symbol: 'IBVM',
+    address: {
+      [ChainId.BSC]: '0x29eb98371102883F554dA7C9396d01d176401538',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.External,
+    },
+    active: true,
+  },
   super: {
     symbol: 'SUPER',
     address: {
