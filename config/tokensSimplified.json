@@ -1888,6 +1888,19 @@
       "59144": "Metavault"
     }
   },
+  "ibvm": {
+    "symbol": "IBVM",
+    "address": {
+      "56": "0x29eb98371102883F554dA7C9396d01d176401538"
+    },
+    "decimals": {
+      "56": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "56": "External"
+    }
+  },
   "wbai": {
     "symbol": "WBAI",
     "address": {
