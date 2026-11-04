@@ -4,6 +4,16 @@ import { ChainId, Token } from '../types'
  * Native wrapped tokens for each supported chain
  */
 export const WNATIVE: Partial<Record<ChainId, Token>> = {
+  [ChainId.SEPOLIA]: {
+    symbol: 'wETH',
+    address: {
+      [ChainId.SEPOLIA]: '0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14',
+    },
+    decimals: {
+      [ChainId.SEPOLIA]: 18,
+    },
+    active: true,
+  },
   [ChainId.MAINNET]: {
     symbol: 'wETH',
     address: {

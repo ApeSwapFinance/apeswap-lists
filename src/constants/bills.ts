@@ -71,9 +71,12 @@ const bills: BillsConfig[] = [
       collection: BillArtCollection.ApeBond_Collection1,
     },
     tags: ['LP-STAKING'],
-    shortDescription: 'New LP Staking Bond',
-    fullDescription: 'New LP Staking Bond',
-    warningCard: 'some text to clarify the bonds-mechanics',
+    shortDescription:
+      'Real Finance is an EVM-compatible Layer 1 ecosystem built to bring real-world financial assets on-chain. It combines tokenization infrastructure with a network of banking, custody, and compliance partners to support financial products throughout their lifecycle. ',
+    fullDescription:
+      'Real Finance is an institutional on-chain capital markets ecosystem built around an EVM-compatible Layer 1 for tokenized real-world assets. Its infrastructure supports the issuance, management, distribution, and settlement of financial products, while independent counterparties handle regulated services such as banking and custody. Through its Builders Program, Real also supports issuers and teams developing new protocols and products on the network.',
+    warningCard:
+      'Your purchase is staked as an $ASSET/USDC liquidity position, and earns a 10% Bonus Reward in $ASSET on its value, unlocked after a 3-month cliff. Unstaking before the cliff forfeits the Bonus Reward. Your position also earns Dual Rewards in $ASSET and $OVTR, accrued each epoch while it stays in range. ',
     lpStakingConfig: {
       lpToken0: tokens.tReal,
       lpToken1: tokens.tusdc,
