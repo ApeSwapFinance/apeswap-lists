@@ -76,7 +76,7 @@ const bills: BillsConfig[] = [
     fullDescription:
       'Real Finance is an institutional on-chain capital markets ecosystem built around an EVM-compatible Layer 1 for tokenized real-world assets. Its infrastructure supports the issuance, management, distribution, and settlement of financial products, while independent counterparties handle regulated services such as banking and custody. Through its Builders Program, Real also supports issuers and teams developing new protocols and products on the network.',
     warningCard:
-      'Your purchase is staked as an $ASSET/USDC liquidity position, and earns a 10% Bonus Reward in $ASSET on its value, unlocked after a 3-month cliff. Unstaking before the cliff forfeits the Bonus Reward. Your position also earns Dual Rewards in $ASSET and $OVTR, accrued each epoch while it stays in range. ',
+      'Your purchase is staked as an $ASSET/USDC LP, which earns a 10% Bonus Reward in $ASSET, unlocked after 3 months. Unstaking before the cliff forfeits the Bonus Reward and any unclaimed $ASSET rewards.',
     lpStakingConfig: {
       lpToken0: tokens.tReal,
       lpToken1: tokens.tusdc,
