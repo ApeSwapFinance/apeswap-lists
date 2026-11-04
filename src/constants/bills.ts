@@ -6071,6 +6071,36 @@ const bills: BillsConfig[] = [
   // BNB chain
   //
   {
+    index: 1239,
+    version: '2.1.1',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0xfA94083fDD0470fc07Ca6a542EcE8Acd683E1417',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.ibvm,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://ibvm.io',
+    twitter: 'https://x.com/IBVMCHAIN',
+    initTime: { [ChainId.BSC]: 1793778953 },
+    soldOut: false,
+    hide: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['Yield Aggregator'],
+    shortDescription:
+      'IBVM Chain is a Bitcoin Layer 2 scaling solution designed to bring smart contracts, faster transactions, and decentralized finance to the Bitcoin ecosystem. Combining ZK-STARK rollups, EVM compatibility, and Bitcoin-backed security, IBVM enables developers to build scalable applications with low fees while expanding Bitcoin’s utility beyond traditional transactions.',
+    fullDescription:
+      'IBVM Chain is a ZK-STARK-powered Layer 2 infrastructure designed to unlock Bitcoin’s potential as a programmable blockchain without modifying its core protocol. By processing transactions offchain and anchoring cryptographic proofs to Bitcoin, IBVM aims to deliver high throughput, fast finality, and low transaction costs while leveraging Bitcoin’s underlying security. Its EVM-compatible architecture allows developers to deploy Solidity smart contracts, while the ecosystem introduces native BTC bridging, decentralized lending, escrow services, and cross-chain swaps. Through its Tminter AI protocol, IBVM also integrates AI-driven token minting, creating a foundation for next-generation DeFi applications, intelligent automation, and broader Bitcoin ecosystem adoption.',
+    warningCard: `This token is currently only tradable on <a href="https://www.mexc.com/exchange/IBVM_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a>.`,
+    clickUpId: '17tvd0t9pud',
+  },
+  {
     index: 1238,
     cmcId: 38261,
     version: '2.1.0',
