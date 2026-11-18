@@ -336,6 +336,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       price: 1,
       tokenAddress: '0x9Fe4860bd6C9E78C6d998aE88173f347A253C2de',
     },
+    '0x862829e8dCf0Fd939D61d1b0D4a3aaf983ee4F73': {
+      name: 'Verified Emeralds',
+      symbol: 'VEREM',
+      decimals: 18,
+      source: PriceSource.Mexc,
+      id: 'VEREMUSDT',
+      tokenAddress: '0x862829e8dCf0Fd939D61d1b0D4a3aaf983ee4F73',
+    },
   },
   [ChainId.BASE]: {
     '0xACf80A4e55F5f28e1e7d261a221cA495DB5bcbB3': {
