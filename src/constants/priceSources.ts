@@ -294,6 +294,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       originalTokenAddress: '0xBdB4cb0aC14eE8D4f6063E5E74054499FbD78dA8', // oABOND
       tokenAddress: '0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd', // ABOND
     },
+    '0x862829e8dCf0Fd939D61d1b0D4a3aaf983ee4F73': {
+      name: 'Verified Emeralds',
+      symbol: 'VEREM',
+      decimals: 18,
+      source: PriceSource.Mexc,
+      id: 'VEREMUSDT',
+      tokenAddress: '0x862829e8dCf0Fd939D61d1b0D4a3aaf983ee4F73',
+    },
   },
   [ChainId.MATIC]: {
     '0x61bf130d973d59c69d3227f1668d534d83119860': {
@@ -335,14 +343,6 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       source: PriceSource.Fixed,
       price: 1,
       tokenAddress: '0x9Fe4860bd6C9E78C6d998aE88173f347A253C2de',
-    },
-    '0x862829e8dCf0Fd939D61d1b0D4a3aaf983ee4F73': {
-      name: 'Verified Emeralds',
-      symbol: 'VEREM',
-      decimals: 18,
-      source: PriceSource.Mexc,
-      id: 'VEREMUSDT',
-      tokenAddress: '0x862829e8dCf0Fd939D61d1b0D4a3aaf983ee4F73',
     },
   },
   [ChainId.BASE]: {
