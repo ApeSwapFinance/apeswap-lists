@@ -881,6 +881,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  verem: {
+    symbol: 'VEREM',
+    address: {
+      [ChainId.BSC]: '0x862829e8dCf0Fd939D61d1b0D4a3aaf983ee4F73',
+    },
+    decimals: {
+      [ChainId.BSC]: 18,
+    },
+    liquidityDex: {
+      [ChainId.BSC]: LiquidityDex.External,
+    },
+    active: true,
+  },
   mon: {
     symbol: 'WMON',
     address: {

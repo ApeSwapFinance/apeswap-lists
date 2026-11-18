@@ -391,6 +391,14 @@
       "source": "fixed",
       "price": 1,
       "tokenAddress": "0x9Fe4860bd6C9E78C6d998aE88173f347A253C2de"
+    },
+    "0x862829e8dCf0Fd939D61d1b0D4a3aaf983ee4F73": {
+      "name": "Verified Emeralds",
+      "symbol": "VEREM",
+      "decimals": 18,
+      "source": "mexc",
+      "id": "VEREMUSDT",
+      "tokenAddress": "0x862829e8dCf0Fd939D61d1b0D4a3aaf983ee4F73"
     }
   },
   "143": {
