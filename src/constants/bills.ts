@@ -9,7 +9,7 @@ import {
   MigrationVestingTerms,
 } from '../types'
 
-// BNB Largest ID: 1240
+// BNB Largest ID: 1241
 // Polygon Largest ID: 188
 // Telos Largest ID: 215
 // Arbitrum Largest ID: 2034
@@ -6070,6 +6070,35 @@ const bills: BillsConfig[] = [
   //
   // BNB chain
   //
+  {
+    index: 1241,
+    version: '2.1.1',
+    chainId: ChainId.BSC,
+    contractAddress: {
+      [ChainId.BSC]: '0xe0A1975417693541db6026D10E4DF2C5e6792F75',
+    },
+    billType: 'reserve',
+    billVersion: BillVersion.V4,
+    lpToken: tokens.usdt,
+    earnToken: tokens.verem,
+    billNnftAddress: {
+      [ChainId.BSC]: '0xB75BE16984A27d3023e1cF744E2587e9Aa8750c9',
+    },
+    projectLink: 'https://veremrwa.com/',
+    twitter: 'https://x.com/veremorg',
+    initTime: { [ChainId.BSC]: 1795010199 },
+    soldOut: false,
+    hide: false,
+    billArt: {
+      collection: BillArtCollection.ApeBond_Collection1,
+    },
+    tags: ['RWA'],
+    shortDescription:
+      'Verified Emeralds (VEREM) is a Real World Asset (RWA) project that brings certified physical emeralds onchain, connecting the traditional gemstone market with decentralized finance. Backed by a strategic reserve of GIA-certified emeralds, the ecosystem combines real-world scarcity, transparent asset verification, and blockchain technology to make gemstone-linked digital assets more accessible.',
+    fullDescription: `Verified Emeralds (VEREM) is a commodity-linked tokenization ecosystem designed to bring the value of rare physical gemstones into the digital economy. Built on BNB Smart Chain, the project operates through an institutional framework in Abu Dhabi, with a strategic reserve of GIA-certified emeralds held under secure custody. Rather than granting direct fractional ownership of individual gemstones, VEREM provides exposure to an ecosystem supported by physical reserves while enabling participation in decentralized governance through the VEREM DAO. The protocol also aims to expand into DeFi applications such as collateralized lending and liquidity provision, while promoting sustainable mining practices through its VEREM Planet initiative. By combining geological scarcity, institutional oversight, and blockchain transparency, Verified Emeralds seeks to establish a new model for real-world asset integration within decentralized finance.`,
+    warningCard: `This token is currently only tradable on <a href="https://www.mexc.com/exchange/VEREM_USDT" target="_blank" rel="noopener noreferrer" style="color: #6099c5">MEXC</a>.`,
+    clickUpId: '17tvd0tf7d6',
+  },
   {
     index: 1240,
     cmcId: 29157,
