@@ -1444,6 +1444,14 @@ const priceSources: Partial<Record<ChainId, Record<string, PriceSourceConfigs>>>
       type: 'token',
       tokenAddress: '0x008DD62dD934f3FFdC0986ba5316c78aE51Cb1c9',
     },
+    '0x0B7C6c138dc75622f4200d157B13FB93e6BD94FA': {
+      name: 'MowCat',
+      symbol: 'MOW',
+      decimals: 18,
+      source: PriceSource.Dexscreener,
+      type: 'token',
+      tokenAddress: '0x0B7C6c138dc75622f4200d157B13FB93e6BD94FA',
+    },
     '0x6178406c433C70B006e2f81a79A5D98BF5b0af85': {
       name: 'PAPER-SPY',
       symbol: 'PAPER-SPY',
