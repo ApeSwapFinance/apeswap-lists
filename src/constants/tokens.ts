@@ -141,6 +141,19 @@ const tokens: Record<string, Token> = {
     },
     active: true,
   },
+  mow: {
+    symbol: 'MOW',
+    address: {
+      [ChainId.ROBINHOOD]: '0x0B7C6c138dc75622f4200d157B13FB93e6BD94FA',
+    },
+    decimals: {
+      [ChainId.ROBINHOOD]: 18,
+    },
+    liquidityDex: {
+      [ChainId.ROBINHOOD]: LiquidityDex.External,
+    },
+    active: true,
+  },
   plateSpy: {
     symbol: 'PLATE-SPY',
     address: {
