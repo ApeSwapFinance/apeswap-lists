@@ -110,6 +110,32 @@ const bills: BillsConfig[] = [
   //
   // ROBINHOOD
   //
+  // {
+  //   index: 24006,
+  //   version: '2.1.0',
+  //   chainId: ChainId.ROBINHOOD,
+  //   contractAddress: {
+  //     [ChainId.ROBINHOOD]: '0x44c87A2B000f6F5D307d008Fd7185c51B619b2De',
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V4,
+  //   lpToken: tokens.usdg,
+  //   earnToken: tokens.mow,
+  //   billNnftAddress: {
+  //     [ChainId.ROBINHOOD]: '0xE11aDE39E40440AF0f66cBd07Db910EFD2A4573E',
+  //   },
+  //   projectLink: 'https://www.stonk.press',
+  //   twitter: 'https://x.com/StonkPress',
+  //   initTime: { [ChainId.ROBINHOOD]: 1795627541 },
+  //   soldOut: false,
+  //   hide: false,
+  //   billArt: {
+  //     collection: BillArtCollection.ApeBond_Collection1,
+  //   },
+  //   tags: ['DeFi'],
+  //   shortDescription: `TEST BOND DONT MERGE`,
+  //   fullDescription: `TEST BOND DONT MERGE`,
+  // },
   {
     index: 24005,
     version: '2.1.0',
@@ -2251,12 +2277,13 @@ const bills: BillsConfig[] = [
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
     },
-    tags: ['RWA'],
+    tags: ['LIVE GIVEAWAY 🔥'],
     shortDescription:
       'Sproutly is an RWA ecosystem bringing real-world agroforestry and verified carbon impact on-chain. Backed by real-world operations, Sproutly connects geo-tagged trees and certified environmental assets with Web3. $SEED powers staking, NFTree evolution, governance, ecosystem rewards, and access to cooperative membership.',
     fullDescription:
       'Sproutly is an RWA ecosystem connecting real-world agroforestry, verified carbon impact, and Web3. As the technology engine behind Carbify’s operations, Sproutly powers the infrastructure linking geo-tagged trees, certified environmental data, staking, governance, APIs, and tokenized assets on-chain. Rather than relying solely on third-party environmental assets, the ecosystem is built around agroforestry systems that are planted, certified, and tokenized through its own infrastructure. $SEED powers staking, rewards, NFTree progression, governance, and access to cooperative membership, giving users multiple ways to participate in and benefit from Sproutly’s growth.',
     clickUpId: '86akmvrxx',
+    warningCard: `Buy 30+ USDT worth of SEED Bonds for a chance to win a Canopy Pulse NFT, with 1 NFT given away for every 10 eligible buyers! 🌱`,
   },
   {
     index: 8103,
