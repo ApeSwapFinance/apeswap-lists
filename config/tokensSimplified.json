@@ -15,6 +15,32 @@
       "1066": "https://www.qd.finance/swap"
     }
   },
+  "usdg": {
+    "symbol": "USDG",
+    "address": {
+      "4663": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+    },
+    "decimals": {
+      "4663": 6
+    },
+    "active": true,
+    "liquidityDex": {
+      "4663": "External"
+    }
+  },
+  "mow": {
+    "symbol": "MOW",
+    "address": {
+      "4663": "0x0B7C6c138dc75622f4200d157B13FB93e6BD94FA"
+    },
+    "decimals": {
+      "4663": 18
+    },
+    "active": true,
+    "liquidityDex": {
+      "4663": "External"
+    }
+  },
   "paper": {
     "symbol": "PAPER",
     "address": {
@@ -6334,16 +6360,6 @@
     },
     "decimals": {
       "56": 18
-    },
-    "active": true
-  },
-  "usdg": {
-    "symbol": "USDG",
-    "address": {
-      "4663": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
-    },
-    "decimals": {
-      "4663": 6
     },
     "active": true
   },
