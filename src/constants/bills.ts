@@ -110,32 +110,32 @@ const bills: BillsConfig[] = [
   //
   // ROBINHOOD
   //
-  {
-    index: 24006,
-    version: '2.1.0',
-    chainId: ChainId.ROBINHOOD,
-    contractAddress: {
-      [ChainId.ROBINHOOD]: '0x44c87A2B000f6F5D307d008Fd7185c51B619b2De',
-    },
-    billType: 'reserve',
-    billVersion: BillVersion.V4,
-    lpToken: tokens.usdg,
-    earnToken: tokens.mow,
-    billNnftAddress: {
-      [ChainId.ROBINHOOD]: '0xE11aDE39E40440AF0f66cBd07Db910EFD2A4573E',
-    },
-    projectLink: 'https://www.stonk.press',
-    twitter: 'https://x.com/StonkPress',
-    initTime: { [ChainId.ROBINHOOD]: 1795627541 },
-    soldOut: false,
-    hide: false,
-    billArt: {
-      collection: BillArtCollection.ApeBond_Collection1,
-    },
-    tags: ['DeFi'],
-    shortDescription: `TEST BOND DONT MERGE`,
-    fullDescription: `TEST BOND DONT MERGE`,
-  },
+  // {
+  //   index: 24006,
+  //   version: '2.1.0',
+  //   chainId: ChainId.ROBINHOOD,
+  //   contractAddress: {
+  //     [ChainId.ROBINHOOD]: '0x44c87A2B000f6F5D307d008Fd7185c51B619b2De',
+  //   },
+  //   billType: 'reserve',
+  //   billVersion: BillVersion.V4,
+  //   lpToken: tokens.usdg,
+  //   earnToken: tokens.mow,
+  //   billNnftAddress: {
+  //     [ChainId.ROBINHOOD]: '0xE11aDE39E40440AF0f66cBd07Db910EFD2A4573E',
+  //   },
+  //   projectLink: 'https://www.stonk.press',
+  //   twitter: 'https://x.com/StonkPress',
+  //   initTime: { [ChainId.ROBINHOOD]: 1795627541 },
+  //   soldOut: false,
+  //   hide: false,
+  //   billArt: {
+  //     collection: BillArtCollection.ApeBond_Collection1,
+  //   },
+  //   tags: ['DeFi'],
+  //   shortDescription: `TEST BOND DONT MERGE`,
+  //   fullDescription: `TEST BOND DONT MERGE`,
+  // },
   {
     index: 24005,
     version: '2.1.0',
