@@ -171,7 +171,8 @@
     },
     "tags": ["DeFi"],
     "shortDescription": "TEST BOND DONT MERGE",
-    "fullDescription": "TEST BOND DONT MERGE"
+    "fullDescription": "TEST BOND DONT MERGE",
+    "vestingCliff": 2592000
   },
   {
     "index": 24005,

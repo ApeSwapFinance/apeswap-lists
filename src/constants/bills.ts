@@ -135,6 +135,7 @@ const bills: BillsConfig[] = [
     tags: ['DeFi'],
     shortDescription: `TEST BOND DONT MERGE`,
     fullDescription: `TEST BOND DONT MERGE`,
+    vestingCliff: 2592000, // 30 days cliff
   },
   {
     index: 24005,
