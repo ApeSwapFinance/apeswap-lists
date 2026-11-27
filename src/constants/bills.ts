@@ -135,6 +135,7 @@ const bills: BillsConfig[] = [
   //   tags: ['DeFi'],
   //   shortDescription: `TEST BOND DONT MERGE`,
   //   fullDescription: `TEST BOND DONT MERGE`,
+  //   vestingCliff: 2592000, // 30 days cliff
   // },
   {
     index: 24005,
@@ -231,7 +232,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.stonk.press',
     twitter: 'https://x.com/StonkPress',
     initTime: { [ChainId.ROBINHOOD]: 1790866714 },
-    soldOut: false,
+    soldOut: true,
     hide: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -257,7 +258,7 @@ const bills: BillsConfig[] = [
     projectLink: 'https://www.stonk.press',
     twitter: 'https://x.com/StonkPress',
     initTime: { [ChainId.ROBINHOOD]: 1790863021 },
-    soldOut: false,
+    soldOut: true,
     hide: false,
     billArt: {
       collection: BillArtCollection.ApeBond_Collection1,
@@ -22249,7 +22250,7 @@ With the lending products set to go live in February, the project is poised to a
     projectLink: 'https://www.masqbrowser.com/',
     twitter: 'https://x.com/MASQ_ai',
     initTime: { [ChainId.MAINNET]: 1792391923 },
-    soldOut: false,
+    soldOut: true,
     hide: false,
     billArt: {
       collection: BillArtCollection.ETH_Collection1,

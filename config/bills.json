@@ -323,7 +323,7 @@
     "initTime": {
       "4663": 1790866714
     },
-    "soldOut": false,
+    "soldOut": true,
     "hide": false,
     "billArt": {
       "collection": "ApeBond_Collection1"
@@ -376,7 +376,7 @@
     "initTime": {
       "4663": 1790863021
     },
-    "soldOut": false,
+    "soldOut": true,
     "hide": false,
     "billArt": {
       "collection": "ApeBond_Collection1"
@@ -41855,7 +41855,7 @@
     "initTime": {
       "1": 1792391923
     },
-    "soldOut": false,
+    "soldOut": true,
     "hide": false,
     "billArt": {
       "collection": "ETH_Collection1"
